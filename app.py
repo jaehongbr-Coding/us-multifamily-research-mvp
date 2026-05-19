@@ -11477,5 +11477,239 @@ def main():
     st.caption("US Residential Intelligence | Institutional Morning Brief | Pilot v0.1")
 
 
+def get_demo_rent_comps(site_address):
+    """Demo-only comp set. Future versions can replace this with real source integrations."""
+    normalized_address = str(site_address or "").lower()
+    is_la = "los angeles" in normalized_address or "dewey" in normalized_address
+    market = "Los Angeles" if is_la else "Los Angeles"
+    return [
+        {
+            "Property": "The Harper",
+            "Distance": "0.6 mi",
+            "Year Built": "2021",
+            "Unit Type": "Studio",
+            "Asking Rent": "$2,250",
+            "Source": "Zillow",
+            "Market": market,
+            "Zillow": "https://www.zillow.com/rentals/",
+            "Homes.com": "https://www.homes.com/apartments-for-rent/",
+            "Apartments.com": "https://www.apartments.com/",
+        },
+        {
+            "Property": "Vermont Corridor Apartments",
+            "Distance": "0.8 mi",
+            "Year Built": "2020",
+            "Unit Type": "1BR",
+            "Asking Rent": "$2,650",
+            "Source": "Apartments.com",
+            "Market": market,
+            "Zillow": "https://www.zillow.com/rentals/",
+            "Homes.com": "https://www.homes.com/apartments-for-rent/",
+            "Apartments.com": "https://www.apartments.com/",
+        },
+        {
+            "Property": "The Griffith",
+            "Distance": "1.1 mi",
+            "Year Built": "2019",
+            "Unit Type": "2BR",
+            "Asking Rent": "$3,650",
+            "Source": "Homes.com",
+            "Market": market,
+            "Zillow": "https://www.zillow.com/rentals/",
+            "Homes.com": "https://www.homes.com/apartments-for-rent/",
+            "Apartments.com": "https://www.apartments.com/",
+        },
+        {
+            "Property": "Expo Line Residences",
+            "Distance": "1.4 mi",
+            "Year Built": "2022",
+            "Unit Type": "Studio",
+            "Asking Rent": "$2,375",
+            "Source": "Zillow",
+            "Market": market,
+            "Zillow": "https://www.zillow.com/rentals/",
+            "Homes.com": "https://www.homes.com/apartments-for-rent/",
+            "Apartments.com": "https://www.apartments.com/",
+        },
+        {
+            "Property": "West Adams Collection",
+            "Distance": "1.7 mi",
+            "Year Built": "2018",
+            "Unit Type": "1BR",
+            "Asking Rent": "$2,850",
+            "Source": "Apartments.com",
+            "Market": market,
+            "Zillow": "https://www.zillow.com/rentals/",
+            "Homes.com": "https://www.homes.com/apartments-for-rent/",
+            "Apartments.com": "https://www.apartments.com/",
+        },
+        {
+            "Property": "Mid-City Premium Flats",
+            "Distance": "2.0 mi",
+            "Year Built": "2023",
+            "Unit Type": "2BR",
+            "Asking Rent": "$4,050",
+            "Source": "Homes.com",
+            "Market": market,
+            "Zillow": "https://www.zillow.com/rentals/",
+            "Homes.com": "https://www.homes.com/apartments-for-rent/",
+            "Apartments.com": "https://www.apartments.com/",
+        },
+    ]
+
+
+def parse_rent_value(value):
+    cleaned = re.sub(r"[^0-9]", "", str(value or ""))
+    return int(cleaned) if cleaned else 0
+
+
+def rent_range_summary(comps):
+    ranges = {}
+    for unit_type in ["Studio", "1BR", "2BR"]:
+        rents = [parse_rent_value(row.get("Asking Rent")) for row in comps if row.get("Unit Type") == unit_type]
+        rents = [rent for rent in rents if rent]
+        if rents:
+            ranges[unit_type] = f"${min(rents):,} ~ ${max(rents):,}"
+        else:
+            ranges[unit_type] = "Not enough comps"
+    return ranges
+
+
+def render_rent_snapshot_cards(comps):
+    ranges = rent_range_summary(comps)
+    st.markdown("### Observed Nearby Asking Rents")
+    columns = st.columns(3)
+    for column, unit_type in zip(columns, ["Studio", "1BR", "2BR"]):
+        with column:
+            st.markdown(
+                f"""
+                <div class="pilot-card">
+                    <div class="section-kicker">{unit_type}</div>
+                    <div class="signal-title">{ranges[unit_type]}</div>
+                    <div class="pilot-muted">Observed asking rent range</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+
+
+def render_rent_comp_sources(row):
+    links = []
+    for label in ["Zillow", "Homes.com", "Apartments.com"]:
+        url = row.get(label, "")
+        if url:
+            links.append(f"[{label}]({url})")
+    if links:
+        st.markdown("Source links: " + " · ".join(links))
+
+
+def page_rent_comp_lab(shared, filters):
+    st.title("Micro Rent Intelligence")
+    st.caption("Nearby premium multifamily rent comps for underwriting reference")
+    st.markdown(
+        """
+        <style>
+        .rent-lab-note {
+            color:#64748b;
+            font-size:0.86rem;
+            line-height:1.45;
+            word-break:keep-all;
+            overflow-wrap:break-word;
+        }
+        @media (max-width: 768px) {
+            .rent-lab-note { font-size:0.84rem; }
+            div[data-testid="stDataFrame"] { max-width:100%; overflow-x:auto; }
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        "<div class='rent-lab-note'>Pilot workflow only. This page shows observed nearby asking rents and does not predict rents, set underwriting assumptions, or claim valuation certainty.</div>",
+        unsafe_allow_html=True,
+    )
+
+    site_address = st.text_input("Enter Site Address", value="1045 Dewey Ave Los Angeles CA")
+    generate = st.button("Generate Rent Comps", use_container_width=False)
+    if generate:
+        st.session_state["rent_comp_address"] = site_address
+
+    active_address = st.session_state.get("rent_comp_address", site_address)
+    comps = get_demo_rent_comps(active_address)
+    render_rent_snapshot_cards(comps)
+
+    st.markdown("### Nearby Premium Comps")
+    display_columns = ["Property", "Distance", "Year Built", "Unit Type", "Asking Rent", "Source"]
+    st.dataframe(pd.DataFrame(comps)[display_columns], use_container_width=True, hide_index=True)
+
+    with st.expander("Comp source links", expanded=False):
+        for row in comps:
+            st.markdown(f"**{row.get('Property')}** · {row.get('Distance')} · {row.get('Unit Type')} · {row.get('Asking Rent')}")
+            render_rent_comp_sources(row)
+            st.divider()
+
+    with st.expander("Future upgrade path", expanded=False):
+        st.markdown(
+            """
+            - Geocoding
+            - Radius filters
+            - Unit mix filters
+            - Comp quality scoring
+            - Concession tracking
+            - Zillow / Homes.com / Apartments.com integration review
+            - Underwriting rent recommendation workflow
+            """
+        )
+
+
+def main():
+    st.set_page_config(
+        page_title="US Residential Intelligence",
+        page_icon="🏙️",
+        layout="wide",
+        initial_sidebar_state="expanded",
+    )
+    inject_css()
+    inject_mobile_css()
+    if not OUTPUT_DIR.exists():
+        st.warning(CLOUD_MISSING_MESSAGE)
+    shared = load_shared_data()
+    st.session_state["shared_data"] = shared
+    summary = latest_summary(shared["summary"])
+    latest_run = summary.get("run_timestamp", "run timestamp unavailable")
+
+    st.sidebar.title("US Residential Intelligence")
+    render_sidebar_subtitle()
+    pages = {
+        "오늘의 브리핑": page_executive_briefing,
+        "시장 인텔리전스": page_market_intelligence_product,
+        "최근 개발 Activity": page_development_status_product,
+        "GP / 자본 동향": page_gp_capital_product,
+        "Rent Comp Lab": page_rent_comp_lab,
+        "기사 모음": page_article_feed,
+    }
+    if is_admin_mode():
+        pages["시스템 / 설정"] = page_system_settings_product
+    page_name = st.sidebar.radio("페이지", list(pages.keys()), index=0)
+    st.sidebar.markdown(
+        f"""
+        <div class="sidebar-version">
+            <strong>Pilot Version</strong><br>
+            v0.1<br><br>
+            최근 실행 시간<br>
+            {latest_run}
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    filters = {}
+    app_header(shared)
+    st.caption(f"최근 실행: {latest_run}")
+    pages[page_name](shared, filters)
+    st.divider()
+    st.caption("US Residential Intelligence | Institutional Morning Brief | Pilot v0.1")
+
+
 if __name__ == "__main__":
     main()

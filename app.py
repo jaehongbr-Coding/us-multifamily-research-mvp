@@ -11336,5 +11336,146 @@ def main():
     st.caption("US Residential Intelligence | Institutional Morning Brief | Pilot v0.1")
 
 
+def inject_mobile_css():
+    """Small mobile-only readability adjustments without changing app logic."""
+    st.markdown(
+        """
+        <style>
+        .workstation-card,
+        .desk-hero,
+        .hot-market-card,
+        .pilot-card,
+        .pilot-panel {
+            overflow: visible;
+            word-break: keep-all;
+            overflow-wrap: break-word;
+        }
+        .pilot-muted,
+        .desk-hero-sub,
+        .header-title-line,
+        section[data-testid="stSidebar"] {
+            word-break: keep-all;
+            overflow-wrap: break-word;
+        }
+        @media (max-width: 768px) {
+            .block-container {
+                padding-top: 1.35rem !important;
+                padding-left: 0.78rem !important;
+                padding-right: 0.78rem !important;
+            }
+            .workstation-card {
+                margin-top: 0.45rem !important;
+            }
+            .desk-hero,
+            .hot-market-card {
+                margin-top: 0.7rem !important;
+                overflow: visible !important;
+            }
+            h1 {
+                line-height: 1.28 !important;
+                margin-top: 0.35rem !important;
+            }
+            h2, h3 {
+                line-height: 1.32 !important;
+                word-break: keep-all;
+                overflow-wrap: break-word;
+            }
+            .header-title-line {
+                line-height: 1.32 !important;
+            }
+            .desk-hero-title {
+                line-height: 1.3 !important;
+                overflow: visible !important;
+            }
+            .desk-hero-sub,
+            .pilot-muted {
+                line-height: 1.48 !important;
+            }
+            section[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] {
+                word-break: keep-all;
+                overflow-wrap: break-word;
+            }
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+def app_header(shared):
+    st.markdown(
+        """
+        <div class="workstation-card">
+            <div class="section-kicker">US Residential Intelligence</div>
+            <span class="header-title-line">우미글로벌</span>
+            <span class="header-title-line">미국 주거시장 전략 브리핑</span>
+            <div class="pilot-muted">시장 국면 · 개발 Activity · GP/자본 흐름 모닝 브리프</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+def render_sidebar_subtitle():
+    """Keep the Korean sidebar subtitle stable on narrow widths."""
+    st.sidebar.markdown(
+        """
+        <div style="line-height:1.35; color:#64748b; font-size:0.86rem; margin-top:-0.35rem; margin-bottom:0.75rem; word-break:keep-all; overflow-wrap:break-word;">
+            <div>미국 주거시장</div>
+            <div>전략 브리핑</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+def main():
+    st.set_page_config(
+        page_title="US Residential Intelligence",
+        page_icon="🏙️",
+        layout="wide",
+        initial_sidebar_state="expanded",
+    )
+    inject_css()
+    inject_mobile_css()
+    if not OUTPUT_DIR.exists():
+        st.warning(CLOUD_MISSING_MESSAGE)
+    shared = load_shared_data()
+    st.session_state["shared_data"] = shared
+    summary = latest_summary(shared["summary"])
+    latest_run = summary.get("run_timestamp", "run timestamp unavailable")
+
+    st.sidebar.title("US Residential Intelligence")
+    render_sidebar_subtitle()
+    pages = {
+        "오늘의 브리핑": page_executive_briefing,
+        "시장 인텔리전스": page_market_intelligence_product,
+        "최근 개발 Activity": page_development_status_product,
+        "GP / 자본 동향": page_gp_capital_product,
+        "기사 모음": page_article_feed,
+    }
+    if is_admin_mode():
+        pages["시스템 / 설정"] = page_system_settings_product
+    page_name = st.sidebar.radio("페이지", list(pages.keys()), index=0)
+    st.sidebar.markdown(
+        f"""
+        <div class="sidebar-version">
+            <strong>Pilot Version</strong><br>
+            v0.1<br><br>
+            최근 실행 시간<br>
+            {latest_run}
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    filters = {}
+    app_header(shared)
+    st.caption(f"최근 실행: {latest_run}")
+    pages[page_name](shared, filters)
+    st.divider()
+    st.caption("US Residential Intelligence | Institutional Morning Brief | Pilot v0.1")
+
+
 if __name__ == "__main__":
     main()

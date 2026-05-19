@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.pyo
+
+.streamlit/secrets.toml
+.env
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+*.tmp
+*.temp
+*.log
+*.bak
+~$*
+
+# Keep generated intelligence outputs for now.
+!output/*.csv
+!output/*.md
+!output/runs/

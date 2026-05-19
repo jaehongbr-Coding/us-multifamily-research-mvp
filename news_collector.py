@@ -1,0 +1,21927 @@
+"""
+US Multifamily Housing Research MVP
+
+What this script does:
+1. Collects articles from RSS feeds
+2. Filters for US multifamily housing and apartment-development relevance
+3. Scores each article from 0 to 100
+4. Exports the useful articles to a CSV file
+
+This is intentionally a single-file, beginner-friendly version.
+"""
+
+# ---------------------------------------------------------
+# 1. Imports and package checks
+# ---------------------------------------------------------
+
+import csv
+import hashlib
+import json
+import os
+import re
+from collections import Counter
+from datetime import datetime
+from html import unescape
+
+import feedparser
+import requests
+from bs4 import BeautifulSoup
+
+
+# ---------------------------------------------------------
+# 2. User settings / configuration
+# ---------------------------------------------------------
+
+OUTPUT_DIR = "output"
+RUNS_DIR = os.path.join(OUTPUT_DIR, "runs")
+RUN_LOG_FILE = os.path.join(OUTPUT_DIR, "run_log.csv")
+ERROR_LOG_FILE = os.path.join(OUTPUT_DIR, "error_log.csv")
+PIPELINE_MANIFEST_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "pipeline_manifest.csv")
+PIPELINE_MANIFEST_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "pipeline_manifest.md")
+PIPELINE_HEALTH_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "pipeline_health.csv")
+PIPELINE_HEALTH_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "pipeline_health_report.md")
+RUN_SUMMARY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "run_summary.md")
+REGIME_LOG_FILE = os.path.join(OUTPUT_DIR, "regime_log.csv")
+REGIME_HEATMAP_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "regime_heatmap.csv")
+REGIME_MOMENTUM_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "regime_momentum.csv")
+NARRATIVE_SEVERITY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "narrative_severity.csv")
+MATERIALITY_IMPACT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "materiality_impact.csv")
+EXECUTIVE_PRIORITIES_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "executive_priorities.csv")
+STRATEGY_SCENARIOS_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "strategy_scenarios.csv")
+REGIONAL_INTELLIGENCE_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "regional_intelligence.csv")
+GP_INTELLIGENCE_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "gp_intelligence.csv")
+INSTITUTIONAL_RELATIONSHIPS_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "institutional_relationships.csv",
+)
+SOURCE_HEALTH_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "source_health.csv")
+SOURCE_COVERAGE_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "source_coverage_report.csv",
+)
+MARKET_INTELLIGENCE_DIAGNOSTICS_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "market_intelligence_diagnostics.csv",
+)
+REGIME_HISTORY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "regime_history.csv")
+REGIME_TIMELINE_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "regime_timeline.csv")
+SOURCE_ACTIVATION_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "source_activation.csv")
+GP_SOURCE_COVERAGE_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "gp_source_coverage.csv")
+HISTORICAL_MEMORY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "historical_memory.csv")
+CAPITAL_FLOW_MEMORY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "capital_flow_memory.csv")
+RELATIONSHIP_PERSISTENCE_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "relationship_persistence.csv")
+OPPORTUNITY_RADAR_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "opportunity_radar.csv")
+DISTRESS_WATCHLIST_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "distress_watchlist.csv")
+DEAL_FINGERPRINT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "deal_fingerprints.csv")
+OPPORTUNITY_DEDUPLICATION_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "opportunity_deduplication.csv")
+TIMING_INTELLIGENCE_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "timing_intelligence.csv")
+MARKET_ENTRY_WINDOW_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "market_entry_window.csv")
+ENTITLEMENT_INTELLIGENCE_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "entitlement_intelligence.csv")
+LA_ENTITLEMENT_WATCH_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "la_entitlement_watch.csv")
+SUBMARKET_INTELLIGENCE_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "submarket_intelligence.csv")
+LA_SUBMARKET_WATCH_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "la_submarket_watch.csv")
+ASSET_PARCEL_INTELLIGENCE_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "asset_parcel_intelligence.csv")
+LA_ASSET_WATCH_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "la_asset_watch.csv")
+DEVELOPMENT_LIFECYCLE_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "development_lifecycle.csv")
+LA_DEVELOPMENT_LIFECYCLE_WATCH_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "la_development_lifecycle_watch.csv")
+LIFECYCLE_TRANSITION_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "lifecycle_transition.csv")
+LA_LIFECYCLE_TRANSITION_WATCH_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "la_lifecycle_transition_watch.csv")
+PROJECT_IDENTITY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "project_identity.csv")
+PERSISTENT_ASSET_MEMORY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "persistent_asset_memory.csv")
+LA_PERSISTENT_ASSET_WATCH_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "la_persistent_asset_watch.csv")
+SIGNAL_QUALITY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "signal_quality.csv")
+HIGH_CONFIDENCE_WATCHLIST_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "high_confidence_watchlist.csv")
+DASHBOARD_SUMMARY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "dashboard_summary.csv")
+DASHBOARD_CARDS_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "dashboard_cards.csv")
+DASHBOARD_WATCHLISTS_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "dashboard_watchlists.csv")
+EXECUTIVE_DASHBOARD_BRIEF_KO_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "executive_dashboard_brief_ko.md",
+)
+WEEKLY_STRATEGY_MEMO_KO_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "weekly_strategy_memo_ko.md",
+)
+EXECUTIVE_PRIORITY_BRIEF_KO_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "executive_priority_brief_ko.md",
+)
+OPPORTUNITY_RADAR_REPORT_KO_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "opportunity_radar_report_ko.md",
+)
+DISTRESS_WATCHLIST_REPORT_KO_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "distress_watchlist_report_ko.md",
+)
+HIGH_CONFIDENCE_WATCHLIST_REPORT_KO_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "high_confidence_watchlist_report_ko.md",
+)
+LA_ASSET_WATCH_REPORT_KO_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "la_asset_watch_report_ko.md",
+)
+LA_ENTITLEMENT_WATCH_REPORT_KO_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "la_entitlement_watch_report_ko.md",
+)
+LA_DEVELOPMENT_LIFECYCLE_WATCH_REPORT_KO_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "la_development_lifecycle_watch_report_ko.md",
+)
+GP_WATCHLIST_REPORT_KO_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "gp_watchlist_report_ko.md",
+)
+KOREAN_REPORTING_INDEX_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "korean_reporting_index.md",
+)
+DEAL_PIPELINE_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "deal_pipeline.csv")
+RELATIONSHIP_GRAPH_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "relationship_graph.csv")
+ENTITY_RESOLUTION_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "entity_resolution.csv")
+RESIDENTIAL_SECTOR_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "residential_sector_intelligence.csv",
+)
+GP_WATCHLIST_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "gp_watchlist.csv")
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, "articles.csv")
+HIGH_PRIORITY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "high_priority_articles.csv")
+MARKET_SIGNALS_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "market_signals.csv")
+STRATEGY_BRIEFING_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "strategy_briefing.csv")
+DAILY_BRIEFING_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "daily_strategy_briefing.md")
+WEEKLY_MEMO_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "weekly_strategy_memo.md")
+LLM_PROMPT_PACK_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "llm_prompt_pack.md")
+LLM_PROMPT_QUALITY_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "llm_prompt_quality_report.md",
+)
+GPT_ANALYSIS_PREVIEW_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "gpt_analysis_preview.md")
+TREND_ALERTS_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "trend_alerts.md")
+THEMATIC_TRENDS_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "thematic_trends.md")
+NARRATIVE_REGIME_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "narrative_regime.md")
+REGIME_TRANSITION_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "regime_transition_report.md",
+)
+REGIME_HEATMAP_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "regime_heatmap_report.md",
+)
+REGIME_MOMENTUM_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "regime_momentum_report.md",
+)
+NARRATIVE_SEVERITY_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "narrative_severity_report.md",
+)
+MATERIALITY_IMPACT_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "materiality_impact_report.md",
+)
+EXECUTIVE_PRIORITY_BRIEF_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "executive_priority_brief.md",
+)
+STRATEGY_SCENARIO_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "strategy_scenario_report.md",
+)
+REGIONAL_INTELLIGENCE_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "regional_intelligence_report.md",
+)
+GP_INTELLIGENCE_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "gp_intelligence_report.md",
+)
+INSTITUTIONAL_RELATIONSHIP_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "institutional_relationship_report.md",
+)
+SOURCE_HEALTH_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "source_health_report.md",
+)
+SOURCE_COVERAGE_REPORT_MD_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "source_coverage_report.md",
+)
+SOURCE_ACTIVATION_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "source_activation_report.md",
+)
+HISTORICAL_MEMORY_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "historical_memory_report.md",
+)
+CAPITAL_FLOW_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "capital_flow_report.md",
+)
+RELATIONSHIP_PERSISTENCE_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "relationship_persistence_report.md",
+)
+OPPORTUNITY_RADAR_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "opportunity_radar_report.md",
+)
+DISTRESS_WATCHLIST_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "distress_watchlist_report.md",
+)
+DEAL_FINGERPRINT_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "deal_fingerprint_report.md",
+)
+OPPORTUNITY_DEDUPLICATION_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "opportunity_deduplication_report.md",
+)
+TIMING_INTELLIGENCE_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "timing_intelligence_report.md",
+)
+MARKET_ENTRY_WINDOW_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "market_entry_window_report.md",
+)
+ENTITLEMENT_INTELLIGENCE_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "entitlement_intelligence_report.md",
+)
+LA_ENTITLEMENT_WATCH_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "la_entitlement_watch_report.md",
+)
+SUBMARKET_INTELLIGENCE_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "submarket_intelligence_report.md",
+)
+LA_SUBMARKET_WATCH_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "la_submarket_watch_report.md",
+)
+ASSET_PARCEL_INTELLIGENCE_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "asset_parcel_intelligence_report.md",
+)
+LA_ASSET_WATCH_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "la_asset_watch_report.md",
+)
+DEVELOPMENT_LIFECYCLE_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "development_lifecycle_report.md",
+)
+LA_DEVELOPMENT_LIFECYCLE_WATCH_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "la_development_lifecycle_watch_report.md",
+)
+LIFECYCLE_TRANSITION_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "lifecycle_transition_report.md",
+)
+LA_LIFECYCLE_TRANSITION_WATCH_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "la_lifecycle_transition_watch_report.md",
+)
+PROJECT_IDENTITY_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "project_identity_report.md",
+)
+PERSISTENT_ASSET_MEMORY_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "persistent_asset_memory_report.md",
+)
+LA_PERSISTENT_ASSET_WATCH_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "la_persistent_asset_watch_report.md",
+)
+SIGNAL_QUALITY_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "signal_quality_report.md",
+)
+HIGH_CONFIDENCE_WATCHLIST_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "high_confidence_watchlist_report.md",
+)
+EXECUTIVE_DASHBOARD_BRIEF_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "executive_dashboard_brief.md",
+)
+GP_SOURCE_COVERAGE_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "gp_source_coverage_report.md",
+)
+DEAL_PIPELINE_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "deal_pipeline_report.md",
+)
+RELATIONSHIP_GRAPH_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "relationship_graph_report.md",
+)
+ENTITY_RESOLUTION_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "entity_resolution_report.md",
+)
+RESIDENTIAL_SECTOR_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "residential_sector_report.md",
+)
+GP_WATCHLIST_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "gp_watchlist_report.md",
+)
+RSS_REQUEST_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (compatible; multifamily-research-mvp/1.0)"
+}
+
+# Optional paid GPT analysis settings.
+# The default is False so the MVP runs normally without an OpenAI API key.
+USE_OPENAI_ANALYSIS = False
+OPENAI_MODEL = "gpt-4o-mini"
+MAX_GPT_ARTICLES = 5
+
+# When True, each run is also archived under output/runs/YYYY-MM-DD/.
+# The regular files in output/ are still written too. Those are the latest
+# convenience copies, while output/runs/YYYY-MM-DD/ is the dated archive.
+SAVE_DATED_OUTPUT = True
+GENERATE_KOREAN_REPORTS = True
+USE_GPT_TRANSLATION = False
+
+CURRENT_RUN_CONTEXT = {
+    "run_id": "",
+    "run_date": "",
+    "run_timestamp": "",
+}
+CURRENT_RUN_MANIFEST_STATS = {
+    "article_count": 0,
+    "new_article_count": 0,
+    "duplicate_article_count": 0,
+}
+
+TIMESTAMP_FORMAT = "%Y-%m-%d %H:%M:%S"
+DATE_FOLDER_FORMAT = "%Y-%m-%d"
+IMPORTANT_ZERO_ROW_OUTPUTS = {
+    "articles.csv",
+    "strategy_briefing.csv",
+    "dashboard_cards.csv",
+    "dashboard_watchlists.csv",
+    "high_confidence_watchlist.csv",
+}
+EXECUTIVE_OPEN_FIRST_FILE = "executive_dashboard_brief.md"
+
+# Set this to False if you want the script to run faster.
+# When True, the script visits each likely article page and stores only a
+# short cleaned text sample, not the full article body.
+FETCH_ARTICLE_TEXT = True
+ARTICLE_TEXT_SAMPLE_LENGTH = 500
+ARTICLE_FETCH_TIMEOUT_SECONDS = 8
+
+
+# ---------------------------------------------------------
+# 3. Source registry
+#
+# Beginner note:
+# - "source" is the name shown in the CSV.
+# - "url" is the RSS feed URL.
+# - "category" explains why the source matters for strategy.
+# - Some feeds may occasionally fail. The script will skip failed feeds
+#   and keep running.
+# - Placeholder rows are useful reminders for sources that need manual RSS
+#   confirmation later. They do not break the run.
+# ---------------------------------------------------------
+
+SOURCE_REGISTRY = [
+    {
+        "source": "Multifamily Dive",
+        "category": "Core Multifamily News",
+        "url": "https://www.multifamilydive.com/feeds/news/",
+    },
+    {
+        "source": "Multifamily Executive",
+        "category": "Core Multifamily News",
+        "url": "https://www.multifamilyexecutive.com/rss.xml",
+    },
+    {
+        "source": "Yield PRO",
+        "category": "Core Multifamily News",
+        "url": "https://yieldpro.com/feed/",
+    },
+    {
+        "source": "Multi-Housing News",
+        "category": "Core Multifamily News",
+        "url": "https://www.multihousingnews.com/feed/",
+    },
+    {
+        "source": "GlobeSt",
+        "category": "Core Multifamily News",
+        "url": "https://www.globest.com/feed/",
+    },
+    {
+        "source": "Bisnow",
+        "category": "Core Multifamily News",
+        "url": "https://www.bisnow.com/rss",
+    },
+    {
+        "source": "Commercial Observer",
+        "category": "Core Multifamily News",
+        "url": "https://commercialobserver.com/feed/",
+    },
+    {
+        "source": "Connect CRE",
+        "category": "Core Multifamily News",
+        "url": "https://www.connectcre.com/feed/",
+    },
+    {
+        "source": "The Real Deal",
+        "category": "Core Multifamily News",
+        "url": "https://therealdeal.com/feed/",
+    },
+    {
+        "source": "NAHB Eye on Housing - Multifamily",
+        "category": "Public Agency / Housing Data",
+        "url": "https://eyeonhousing.org/category/multifamily/feed/",
+    },
+    {
+        "source": "Construction Dive",
+        "category": "Core Multifamily News",
+        "url": "https://www.constructiondive.com/feeds/news/",
+    },
+    {
+        "source": "HousingWire",
+        "category": "Core Multifamily News",
+        "url": "https://www.housingwire.com/feed/",
+    },
+    {
+        "source": "Federal Reserve - Press Releases",
+        "category": "Public Agency / Housing Data",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+    },
+    {
+        "source": "PERE",
+        "category": "Institutional Real Estate / Capital Markets",
+        "url": "",
+    },
+    {
+        "source": "Urban Land Institute",
+        "category": "Institutional Real Estate / Capital Markets",
+        "url": "https://urbanland.uli.org/feed/",
+    },
+    {
+        "source": "NMHC News",
+        "category": "Institutional Real Estate / Capital Markets",
+        "url": "https://www.nmhc.org/news/rss/",
+    },
+    {
+        "source": "Freddie Mac Multifamily",
+        "category": "Institutional Real Estate / Capital Markets",
+        "url": "",
+    },
+    {
+        "source": "Fannie Mae Multifamily",
+        "category": "Institutional Real Estate / Capital Markets",
+        "url": "",
+    },
+    {
+        "source": "MBA Commercial / Multifamily",
+        "category": "Institutional Real Estate / Capital Markets",
+        "url": "",
+    },
+    {
+        "source": "Walker & Dunlop Insights",
+        "category": "Brokerage / Debt / Research",
+        "url": "https://www.walkerdunlop.com/insights/feed/",
+    },
+    {
+        "source": "Berkadia Research",
+        "category": "Brokerage / Debt / Research",
+        "url": "https://berkadia.com/feed/",
+    },
+    {
+        "source": "CBRE Multifamily / Living Sector",
+        "category": "Brokerage / Debt / Research",
+        "url": "",
+    },
+    {
+        "source": "JLL Living / Multifamily",
+        "category": "Brokerage / Debt / Research",
+        "url": "",
+    },
+    {
+        "source": "Cushman & Wakefield Multifamily",
+        "category": "Brokerage / Debt / Research",
+        "url": "",
+    },
+    {
+        "source": "Marcus & Millichap Research",
+        "category": "Brokerage / Debt / Research",
+        "url": "",
+    },
+    {
+        "source": "Greystar Newsroom",
+        "category": "Developer / GP Newsrooms",
+        "url": "",
+    },
+    {
+        "source": "Kennedy Wilson Newsroom",
+        "category": "Developer / GP Newsrooms",
+        "url": "",
+    },
+    {
+        "source": "Related Companies Newsroom",
+        "category": "Developer / GP Newsrooms",
+        "url": "",
+    },
+    {
+        "source": "Related California Newsroom",
+        "category": "Developer / GP Newsrooms",
+        "url": "",
+    },
+    {
+        "source": "Hines Newsroom",
+        "category": "Developer / GP Newsrooms",
+        "url": "https://www.hines.com/news/feed",
+    },
+    {
+        "source": "Mill Creek Residential Newsroom",
+        "category": "Developer / GP Newsrooms",
+        "url": "",
+    },
+    {
+        "source": "Trammell Crow Residential Newsroom",
+        "category": "Developer / GP Newsrooms",
+        "url": "",
+    },
+    {
+        "source": "Toll Brothers Apartment Living Newsroom",
+        "category": "Developer / GP Newsrooms",
+        "url": "",
+    },
+    {
+        "source": "Crescent Communities Newsroom",
+        "category": "Developer / GP Newsrooms",
+        "url": "",
+    },
+    {
+        "source": "AvalonBay Newsroom",
+        "category": "Developer / GP Newsrooms",
+        "url": "",
+    },
+    {
+        "source": "Essex Property Trust Newsroom",
+        "category": "Developer / GP Newsrooms",
+        "url": "",
+    },
+    {
+        "source": "Camden Property Trust Newsroom",
+        "category": "Developer / GP Newsrooms",
+        "url": "",
+    },
+    {
+        "source": "UDR Newsroom",
+        "category": "Developer / GP Newsrooms",
+        "url": "",
+    },
+    {
+        "source": "MAA Newsroom",
+        "category": "Developer / GP Newsrooms",
+        "url": "",
+    },
+    {
+        "source": "Equity Residential Newsroom",
+        "category": "Developer / GP Newsrooms",
+        "url": "",
+    },
+    {
+        "source": "Blackstone Real Estate",
+        "category": "Developer / GP Newsrooms",
+        "url": "https://www.blackstone.com/news/rss/",
+    },
+    {
+        "source": "Brookfield Real Estate",
+        "category": "Developer / GP Newsrooms",
+        "url": "",
+    },
+    {
+        "source": "Urbanize LA",
+        "category": "Regional / California / LA Sources",
+        "url": "https://la.urbanize.city/rss.xml",
+    },
+    {
+        "source": "LA Business Journal",
+        "category": "Regional / California / LA Sources",
+        "url": "",
+    },
+    {
+        "source": "Los Angeles City Planning",
+        "category": "Regional / California / LA Sources",
+        "url": "",
+    },
+    {
+        "source": "California HCD",
+        "category": "Regional / California / LA Sources",
+        "url": "",
+    },
+    {
+        "source": "California YIMBY",
+        "category": "Regional / California / LA Sources",
+        "url": "https://californiayimby.com/feed",
+    },
+    {
+        "source": "SF YIMBY",
+        "category": "Regional / California / LA Sources",
+        "url": "https://sfyimby.com/feed",
+    },
+    {
+        "source": "Urbanize California",
+        "category": "Regional / California / LA Sources",
+        "url": "",
+    },
+]
+
+# Public feeds that are especially useful for land, parcel, transaction, and
+# sponsor-entry signals. Keep blank URLs for sources that still need a manual
+# public-feed review instead of forcing fragile scraping.
+SITE_PARCEL_SOURCE_EXPANSION_SOURCES = [
+    {"source": "REBusiness Online", "category": "Site / Parcel Source Expansion", "url": "https://rebusinessonline.com/feed/atom/"},
+    {"source": "Connect CRE Apartments", "category": "Site / Parcel Source Expansion", "url": "https://www.connectcre.com/feed?property-sector=apartments"},
+    {"source": "Connect CRE Texas", "category": "Site / Parcel Source Expansion", "url": "https://www.connectcre.com/feed?story-market=texas"},
+    {"source": "Connect CRE South Florida", "category": "Site / Parcel Source Expansion", "url": "https://www.connectcre.com/feed?story-market=south-florida"},
+    {"source": "Connect CRE Phoenix", "category": "Site / Parcel Source Expansion", "url": "https://www.connectcre.com/feed?story-market=phoenix"},
+    {"source": "Connect CRE Atlanta", "category": "Site / Parcel Source Expansion", "url": "https://www.connectcre.com/feed?story-market=atlanta"},
+    {"source": "Connect CRE Charlotte", "category": "Site / Parcel Source Expansion", "url": "https://www.connectcre.com/feed?story-market=charlotte"},
+    {"source": "Connect CRE Orange County", "category": "Site / Parcel Source Expansion", "url": "https://www.connectcre.com/feed?story-market=orange-county"},
+    {"source": "CRE Daily", "category": "Site / Parcel Source Expansion", "url": ""},
+    {"source": "Institutional Property Advisors", "category": "Site / Parcel Source Expansion", "url": ""},
+    {"source": "JLL Newsroom", "category": "Site / Parcel Source Expansion", "url": ""},
+    {"source": "CBRE Newsroom", "category": "Site / Parcel Source Expansion", "url": ""},
+    {"source": "Cushman & Wakefield Newsroom", "category": "Site / Parcel Source Expansion", "url": ""},
+    {"source": "Marcus & Millichap Newsroom", "category": "Site / Parcel Source Expansion", "url": ""},
+    {"source": "Dallas Business Journal", "category": "Site / Parcel Source Expansion", "url": ""},
+    {"source": "Austin Business Journal", "category": "Site / Parcel Source Expansion", "url": ""},
+    {"source": "South Florida Business Journal", "category": "Site / Parcel Source Expansion", "url": ""},
+    {"source": "Phoenix Business Journal", "category": "Site / Parcel Source Expansion", "url": ""},
+    {"source": "Atlanta Business Chronicle", "category": "Site / Parcel Source Expansion", "url": ""},
+    {"source": "Charlotte Business Journal", "category": "Site / Parcel Source Expansion", "url": ""},
+    {"source": "Los Angeles Business Journal", "category": "Site / Parcel Source Expansion", "url": ""},
+    {"source": "San Francisco Business Times", "category": "Site / Parcel Source Expansion", "url": ""},
+    {"source": "Orange County Business Journal", "category": "Site / Parcel Source Expansion", "url": ""},
+    {"source": "Denver Business Journal", "category": "Site / Parcel Source Expansion", "url": ""},
+    {"source": "Nashville Business Journal", "category": "Site / Parcel Source Expansion", "url": ""},
+]
+
+SOURCE_REGISTRY.extend(SITE_PARCEL_SOURCE_EXPANSION_SOURCES)
+
+GP_SOURCE_EXPANSION_CATEGORY = "Developer / GP Source Expansion"
+
+# Beginner note:
+# These extra sources improve GP watchlist and relationship intelligence.
+# Confirmed public RSS feeds can be added later by replacing the blank URL.
+# Blank URLs are intentional placeholders and appear in the source coverage
+# report as "Placeholder / Needs Review" instead of breaking the script.
+GP_SOURCE_EXPANSION_SOURCES = [
+    # Core multifamily developers / operators
+    {"source": "Greystar Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Multifamily Developer / Operator", "url": ""},
+    {"source": "Mill Creek Residential Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Multifamily Developer / Operator", "url": ""},
+    {"source": "Trammell Crow Residential Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Multifamily Developer / Operator", "url": ""},
+    {"source": "Lincoln Property Company Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Multifamily Developer / Operator", "url": ""},
+    {"source": "Fairfield Residential Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Multifamily Developer / Operator", "url": ""},
+    {"source": "Alliance Residential Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Multifamily Developer / Operator", "url": ""},
+    {"source": "Wood Partners Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Multifamily Developer / Operator", "url": ""},
+    {"source": "Hanover Company Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Multifamily Developer / Operator", "url": ""},
+    {"source": "Holland Partner Group Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Multifamily Developer / Operator", "url": ""},
+    {"source": "JPI Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Multifamily Developer / Operator", "url": ""},
+    {"source": "Kairoi Residential Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Multifamily Developer / Operator", "url": ""},
+    {"source": "AMLI Residential Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Multifamily Developer / Operator", "url": ""},
+    {"source": "Quarterra Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Multifamily Developer / Operator", "url": ""},
+    {"source": "Toll Brothers Apartment Living Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Multifamily Developer / Operator", "url": ""},
+    {"source": "AvalonBay Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Multifamily Developer / Operator", "url": ""},
+    {"source": "Camden Property Trust Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Multifamily Developer / Operator", "url": ""},
+    {"source": "MAA Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Multifamily Developer / Operator", "url": ""},
+    {"source": "UDR Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Multifamily Developer / Operator", "url": ""},
+    {"source": "Equity Residential Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Multifamily Developer / Operator", "url": ""},
+    {"source": "Essex Property Trust Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Multifamily Developer / Operator", "url": ""},
+    # Capital / institutional platforms
+    {"source": "Blackstone Real Estate Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Institutional Capital Platform", "url": "https://www.blackstone.com/news/rss/"},
+    {"source": "Brookfield Real Estate Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Institutional Capital Platform", "url": ""},
+    {"source": "Kennedy Wilson Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Institutional Capital Platform", "url": ""},
+    {"source": "Hines Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Institutional Capital Platform", "url": "https://www.hines.com/news/feed"},
+    {"source": "GID Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Institutional Capital Platform", "url": ""},
+    {"source": "Waterton Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Institutional Capital Platform", "url": ""},
+    {"source": "Carmel Partners Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Institutional Capital Platform", "url": ""},
+    {"source": "CIM Group Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Institutional Capital Platform", "url": ""},
+    {"source": "LivCor Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Institutional Capital Platform", "url": ""},
+    {"source": "BGO Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Institutional Capital Platform", "url": ""},
+    {"source": "Harbor Group International Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Institutional Capital Platform", "url": ""},
+    {"source": "Starwood Capital Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Institutional Capital Platform", "url": ""},
+    {"source": "PGIM Real Estate Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Institutional Capital Platform", "url": ""},
+    {"source": "Nuveen Real Estate Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Institutional Capital Platform", "url": ""},
+    {"source": "KKR Real Estate Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Institutional Capital Platform", "url": ""},
+    {"source": "Carlyle Real Estate Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Institutional Capital Platform", "url": ""},
+    {"source": "Apollo Real Estate Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Institutional Capital Platform", "url": ""},
+    # BTR / SFR platforms
+    {"source": "Invitation Homes Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "BTR / SFR Platform", "url": ""},
+    {"source": "American Homes 4 Rent Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "BTR / SFR Platform", "url": ""},
+    {"source": "Progress Residential Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "BTR / SFR Platform", "url": ""},
+    {"source": "Tricon Residential Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "BTR / SFR Platform", "url": ""},
+    {"source": "Pretium Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "BTR / SFR Platform", "url": ""},
+    {"source": "NexMetro Communities Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "BTR / SFR Platform", "url": ""},
+    {"source": "Christopher Todd Communities Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "BTR / SFR Platform", "url": ""},
+    {"source": "BB Living Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "BTR / SFR Platform", "url": ""},
+    {"source": "AHV Communities Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "BTR / SFR Platform", "url": ""},
+    {"source": "Quinn Residences Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "BTR / SFR Platform", "url": ""},
+    # Student housing platforms
+    {"source": "Core Spaces Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Student Housing Platform", "url": ""},
+    {"source": "Landmark Properties Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Student Housing Platform", "url": ""},
+    {"source": "The Dinerstein Companies Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Student Housing Platform", "url": ""},
+    {"source": "LV Collective Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Student Housing Platform", "url": ""},
+    {"source": "CA Ventures Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Student Housing Platform", "url": ""},
+    {"source": "Gilbane Development Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Student Housing Platform", "url": ""},
+    {"source": "Harrison Street Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Student Housing Platform", "url": ""},
+    {"source": "Scion Group Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Student Housing Platform", "url": ""},
+    {"source": "American Campus Communities Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Student Housing Platform", "url": ""},
+    # Senior housing / active adult platforms
+    {"source": "Welltower Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Senior Housing Platform", "url": ""},
+    {"source": "Ventas Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Senior Housing Platform", "url": ""},
+    {"source": "Brookdale Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Senior Housing Platform", "url": ""},
+    {"source": "Atria Senior Living Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Senior Housing Platform", "url": ""},
+    {"source": "Sunrise Senior Living Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Senior Housing Platform", "url": ""},
+    {"source": "Erickson Senior Living Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Senior Housing Platform", "url": ""},
+    {"source": "Discovery Senior Living Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Senior Housing Platform", "url": ""},
+    {"source": "Bridge Investment Group Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Senior Housing Platform", "url": ""},
+    {"source": "Avenue Development Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Senior Housing Platform", "url": ""},
+    {"source": "Sparrow Partners Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Senior Housing Platform", "url": ""},
+    # Lenders / debt / capital markets
+    {"source": "Greystone Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Lender / Debt Platform", "url": ""},
+    {"source": "Berkadia Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Lender / Debt Platform", "url": "https://berkadia.com/feed/"},
+    {"source": "Walker & Dunlop Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Lender / Debt Platform", "url": "https://www.walkerdunlop.com/insights/feed/"},
+    {"source": "CBRE Capital Markets Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Brokerage / Advisor", "url": ""},
+    {"source": "JLL Capital Markets Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Brokerage / Advisor", "url": ""},
+    {"source": "Cushman & Wakefield Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Brokerage / Advisor", "url": ""},
+    {"source": "Newmark Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Brokerage / Advisor", "url": ""},
+    {"source": "Eastdil Secured Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Brokerage / Advisor", "url": ""},
+    {"source": "Northmarq Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Lender / Debt Platform", "url": ""},
+    {"source": "Marcus & Millichap Capital Corporation Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Lender / Debt Platform", "url": ""},
+    {"source": "Freddie Mac Multifamily Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Lender / Debt Platform", "url": ""},
+    {"source": "Fannie Mae Multifamily Source Expansion", "category": GP_SOURCE_EXPANSION_CATEGORY, "platform_type": "Lender / Debt Platform", "url": ""},
+]
+
+SOURCE_REGISTRY.extend(GP_SOURCE_EXPANSION_SOURCES)
+
+RSS_FEEDS = SOURCE_REGISTRY
+SOURCE_HEALTH_ROWS = []
+
+
+# ---------------------------------------------------------
+# 4. Keyword dictionaries and scoring settings
+#
+# The main improvement is that an article now needs a strong multifamily
+# signal, or a developer-useful market/finance signal, before it is saved.
+# This reduces general policy articles that mention "housing" only once.
+# ---------------------------------------------------------
+
+# Minimum score required before an article is saved to the final CSV.
+# Raising this threshold is the simplest way to make the output more selective.
+MIN_RELEVANCE_SCORE = 50
+
+HIGH_VALUE_SOURCES = {
+    "Multifamily Dive",
+    "Multifamily Executive",
+    "Yield PRO",
+    "Multi-Housing News",
+    "NAHB Eye on Housing - Multifamily",
+}
+
+SOURCE_CATEGORY_BONUSES = {
+    "Institutional Real Estate / Capital Markets": 8,
+    "Developer / GP Newsrooms": 10,
+    "Developer / GP Source Expansion": 10,
+    "Regional / California / LA Sources": 10,
+    "Core Multifamily News": 5,
+    "Brokerage / Debt / Research": 7,
+    "Public Agency / Housing Data": 4,
+}
+
+HIGH_VALUE_SOURCE_CATEGORIES = {
+    "Core Multifamily News",
+    "Institutional Real Estate / Capital Markets",
+    "Developer / GP Newsrooms",
+    "Developer / GP Source Expansion",
+    "Brokerage / Debt / Research",
+    "Regional / California / LA Sources",
+}
+
+RESIDENTIAL_SECTOR_KEYWORDS = {
+    "Student Housing": [
+        "student housing",
+        "university housing",
+        "campus housing",
+        "off-campus housing",
+        "student apartments",
+        "beds",
+    ],
+    "Senior Housing": [
+        "senior housing",
+        "active adult",
+        "assisted living",
+        "independent living",
+        "memory care",
+        "retirement community",
+    ],
+    "BTR / Single-Family Rental": [
+        "build-to-rent",
+        "built-to-rent",
+        "btr",
+        "single-family rental",
+        "sfr",
+        "rental homes",
+        "horizontal apartments",
+    ],
+    "Affordable Housing": [
+        "affordable housing",
+        "lihtc",
+        "tax credit",
+        "section 8",
+        "income-restricted",
+        "mixed-income",
+    ],
+    "Workforce Housing": [
+        "workforce housing",
+        "middle-income housing",
+        "attainable housing",
+    ],
+    "Office-to-Residential Conversion": [
+        "office-to-residential",
+        "office conversion",
+        "adaptive reuse",
+        "conversion to apartments",
+        "downtown conversion",
+    ],
+    "Manufactured Housing": [
+        "manufactured housing",
+        "mobile home community",
+        "manufactured home community",
+    ],
+    "Mixed-Use Residential": [
+        "mixed-use residential",
+        "mixed-use",
+        "mixed use",
+    ],
+    "Apartment": [
+        "apartment",
+        "apartments",
+    ],
+    "Multifamily": [
+        "multifamily",
+        "multi-family",
+    ],
+}
+
+RESIDENTIAL_SECTOR_BONUSES = {
+    "Multifamily": 8,
+    "Apartment": 8,
+    "BTR / Single-Family Rental": 8,
+    "Student Housing": 6,
+    "Senior Housing": 5,
+    "Affordable Housing": 6,
+    "Mixed-Use Residential": 5,
+    "Office-to-Residential Conversion": 7,
+    "Workforce Housing": 5,
+    "Manufactured Housing": 4,
+    "General Residential": 0,
+}
+
+GP_WATCHLIST_INNOVATION_KEYWORDS = [
+    "modular construction",
+    "prefabrication",
+    "off-site construction",
+    "ai leasing",
+    "proptech",
+    "smart building",
+    "btr platform",
+    "sfr platform",
+    "office conversion",
+    "adaptive reuse",
+    "modular housing",
+    "operating platform",
+    "vertically integrated",
+    "data-driven leasing",
+    "digital construction",
+    "sustainability platform",
+]
+
+GP_WATCHLIST_EXECUTION_KEYWORDS = [
+    "delivered",
+    "completed",
+    "stabilized",
+    "lease-up",
+    "occupancy",
+    "refinancing closed",
+    "construction started",
+    "construction completed",
+    "entitlement approved",
+    "permitting approved",
+    "acquired site",
+    "recapitalized",
+    "sold successfully",
+]
+
+GP_WATCHLIST_PARTNERSHIP_KEYWORDS = [
+    "Blackstone",
+    "Brookfield",
+    "Starwood",
+    "Greystar",
+    "Harrison Street",
+    "KKR",
+    "Carlyle",
+    "Apollo",
+    "Kennedy Wilson",
+    "Related",
+    "Hines",
+    "Nuveen",
+    "PGIM",
+    "JLL",
+    "CBRE",
+    "Fannie Mae",
+    "Freddie Mac",
+]
+
+GP_WATCHLIST_CA_LA_KEYWORDS = [
+    "Los Angeles",
+    "Southern California",
+    "Orange County",
+    "San Diego",
+    "Bay Area",
+    "Koreatown",
+    "DTLA",
+    "Hollywood",
+    "Pasadena",
+]
+
+GP_WATCHLIST_DISTRESSED_KEYWORDS = [
+    "distressed",
+    "recapitalization",
+    "recapitalized",
+    "special situation",
+    "foreclosure",
+    "workout",
+    "rescue capital",
+]
+
+DEBT_STRESS_KEYWORDS = [
+    "refinancing",
+    "maturity",
+    "loan maturity",
+    "floating rate",
+    "bridge loan",
+    "senior loan",
+    "construction loan",
+    "debt service",
+    "loan modification",
+    "covenant",
+    "lender pressure",
+    "rescue capital",
+    "preferred equity",
+    "recapitalization",
+]
+
+DISTRESS_KEYWORDS = [
+    "distressed",
+    "foreclosure",
+    "receivership",
+    "bankruptcy",
+    "default",
+    "loan default",
+    "troubled asset",
+    "discounted sale",
+    "forced sale",
+    "impaired",
+    "write-down",
+    "nonperforming",
+]
+
+STALLED_DEVELOPMENT_KEYWORDS = [
+    "stalled",
+    "delayed",
+    "paused",
+    "halted",
+    "shelved",
+    "postponed",
+    "cancelled",
+    "permit delay",
+    "entitlement delay",
+    "construction delay",
+]
+
+OPPORTUNITY_KEYWORDS = [
+    "acquisition",
+    "recapitalization",
+    "joint venture",
+    "jv",
+    "partnership",
+    "land acquisition",
+    "site acquisition",
+    "conversion",
+    "adaptive reuse",
+    "office-to-residential",
+    "value-add",
+    "discounted basis",
+    "repositioning",
+]
+
+SITE_PARCEL_ACTIVITY_KEYWORDS = [
+    "land acquisition",
+    "site acquisition",
+    "parcel acquisition",
+    "land purchase",
+    "development site",
+    "site control",
+    "land assemblage",
+    "assemblage",
+    "redevelopment site",
+    "infill site",
+    "entitled land",
+    "shovel-ready site",
+    "sponsor entry",
+    "developer acquires",
+    "acquired site",
+    "buys land",
+    "land sale",
+    "parcel trade",
+    "rezoning for multifamily",
+    "planned multifamily site",
+    "proposed multifamily site",
+    "sold development site",
+    "arranged sale",
+    "closes on site",
+    "development parcel",
+    "multifamily development site",
+    "mixed-use development site",
+]
+
+REFINANCING_TIMING_KEYWORDS = [
+    "maturity",
+    "loan maturity",
+    "refinancing window",
+    "refinance",
+    "bridge loan maturity",
+    "floating-rate debt",
+    "debt service",
+    "maturity wall",
+    "loan extension",
+    "loan modification",
+]
+
+DEVELOPMENT_TIMING_KEYWORDS = [
+    "broke ground",
+    "construction start",
+    "starts in",
+    "expected delivery",
+    "delivery in",
+    "opens in",
+    "completed",
+    "stabilized",
+    "lease-up",
+    "preleasing",
+    "delayed",
+    "postponed",
+    "paused",
+    "resumed construction",
+]
+
+ENTITLEMENT_TIMING_KEYWORDS = [
+    "entitled",
+    "entitlement approval",
+    "zoning approval",
+    "rezoning",
+    "permitting",
+    "permit issued",
+    "planning commission",
+    "approved by city council",
+    "ceqa",
+    "environmental review",
+]
+
+ENTITLEMENT_SIGNAL_KEYWORDS = [
+    "zoning", "rezoning", "entitlement", "entitled", "planning approval",
+    "planning commission", "city council approval", "permit issued",
+    "building permit", "construction permit", "site plan approval",
+    "environmental review", "ceqa", "eir", "density bonus", "toc",
+    "transit-oriented communities", "affordable overlay",
+    "inclusionary housing", "mixed-income approval", "variance",
+    "specific plan", "general plan amendment", "adaptive reuse ordinance",
+    "office-to-residential conversion", "ministerial approval",
+    "by-right approval", "sb 35", "builder's remedy", "builders remedy",
+    "housing element", "rhna", "upzoning", "parking reduction",
+    "height bonus", "far bonus",
+]
+
+LA_ENTITLEMENT_MARKET_KEYWORDS = [
+    "los angeles", "la", "l.a.", "koreatown", "dtla", "hollywood",
+    "wilshire", "lincoln heights", "watts", "pasadena", "glendale",
+    "culver city", "santa monica", "long beach", "orange county",
+    "inland empire", "southern california", "california",
+]
+
+LA_SUBMARKETS = [
+    "Koreatown", "Wilshire", "DTLA", "Downtown Los Angeles", "Hollywood",
+    "East Hollywood", "West Hollywood", "Silver Lake", "Echo Park",
+    "Lincoln Heights", "Boyle Heights", "Watts", "South LA", "West Adams",
+    "Culver City", "Santa Monica", "Glendale", "Burbank", "Pasadena",
+    "Long Beach", "Inglewood", "Arts District", "Fashion District",
+    "Chinatown", "Hollywood / Western", "MacArthur Park", "Pico-Union",
+    "Mid-Wilshire", "Miracle Mile", "Beverly Grove", "Century City",
+    "West LA", "Venice", "Marina del Rey", "Orange County", "Irvine",
+    "Anaheim", "Santa Ana", "Costa Mesa", "Inland Empire", "Ontario",
+    "Rancho Cucamonga", "Riverside", "San Bernardino",
+]
+
+OTHER_STRATEGIC_SUBMARKETS = [
+    "New York", "Brooklyn", "Queens", "Manhattan", "Long Island City",
+    "Jersey City", "Seattle", "Bellevue", "Redmond", "Austin", "Dallas",
+    "Fort Worth", "Houston", "Nashville", "Atlanta", "Phoenix",
+    "Scottsdale", "Tampa", "Orlando", "Miami", "Charlotte", "Raleigh",
+]
+
+SITE_STRATEGY_THEME_KEYWORDS = {
+    "Transit-oriented development": [
+        "transit-oriented development", "tod", "metro station", "rail station",
+        "subway", "bus rapid transit",
+    ],
+    "Employment corridor": ["employment corridor", "jobs corridor", "office corridor"],
+    "University-adjacent": ["university-adjacent", "campus", "student housing", "university"],
+    "Hospital-adjacent": ["hospital-adjacent", "medical center", "hospital"],
+    "Downtown infill": ["downtown infill", "downtown", "dtla", "urban infill"],
+    "Adaptive reuse corridor": ["adaptive reuse corridor", "adaptive reuse"],
+    "Office conversion corridor": ["office conversion corridor", "office conversion", "office-to-residential"],
+    "Affordable housing overlay": ["affordable housing overlay", "affordable overlay", "inclusionary"],
+    "Density bonus corridor": ["density bonus corridor", "density bonus", "toc"],
+    "Mixed-use corridor": ["mixed-use corridor", "mixed-use"],
+    "Industrial-to-residential conversion": ["industrial-to-residential", "industrial conversion"],
+    "Waterfront redevelopment": ["waterfront redevelopment", "waterfront"],
+    "Entertainment district": ["entertainment district"],
+    "Arts district": ["arts district"],
+    "Suburban growth corridor": ["suburban growth corridor", "suburban"],
+}
+
+ASSET_ADDRESS_PATTERN = re.compile(
+    r"\b\d{2,6}(?:[-–]\d{2,6})?\s+(?:[NSEW]\.?\s+)?[A-Z][A-Za-z0-9'.-]*(?:\s+[A-Z][A-Za-z0-9'.-]*){0,4}\s+"
+    r"(?:Street|St\.?|Avenue|Ave\.?|Boulevard|Blvd\.?|Road|Rd\.?|Drive|Dr\.?|Lane|Ln\.?|Way|Place|Pl\.?|Court|Ct\.?)\b"
+)
+ASSET_INTERSECTION_PATTERN = re.compile(
+    r"\b(?:at|near|around)\s+([A-Z][A-Za-z'.-]+(?:\s+[A-Z][A-Za-z'.-]+){0,3})\s+(?:and|&|/)\s+([A-Z][A-Za-z'.-]+(?:\s+[A-Z][A-Za-z'.-]+){0,3})\b"
+)
+SITE_SIZE_PATTERN = re.compile(
+    r"\b\d+(?:\.\d+)?\s*(?:acres?|sf|square feet|sq\.?\s*ft\.?)\b",
+    re.IGNORECASE,
+)
+
+# Lifecycle stages are ordered from earliest site signal to operating or stress events.
+# The classifier below uses these plain keyword groups to keep the MVP understandable.
+LIFECYCLE_STAGE_KEYWORDS = {
+    "Early Site Signal": [
+        "proposed", "planned", "plans", "seeks approval", "would include",
+        "could include", "envisioned",
+    ],
+    "Site Acquisition / Site Control": [
+        "acquired site", "bought land", "purchased land", "land acquisition",
+        "site acquired", "assembled site", "owns the site", "parcel",
+    ],
+    "Planning Filed": [
+        "filed plans", "submitted plans", "planning application",
+        "application filed", "filed with city", "submitted to planning department",
+    ],
+    "Community Review": [
+        "community meeting", "neighborhood council", "public hearing",
+        "community review", "local opposition", "appeal",
+    ],
+    "Environmental Review / CEQA": [
+        "ceqa", "environmental review", "eir", "environmental impact report",
+        "mitigated negative declaration", "lawsuit", "appeal under ceqa",
+    ],
+    "Entitlement Under Review": [
+        "under review", "seeking entitlements", "entitlement process",
+        "pending approval", "before planning commission", "before city council",
+    ],
+    "Entitled / Approved": [
+        "approved", "entitled", "received approval", "planning commission approved",
+        "city council approved", "secured entitlements",
+    ],
+    "Building Permit / Construction Permit": [
+        "building permit", "construction permit", "permit issued",
+        "permits issued", "pulled permits",
+    ],
+    "Construction Ready": [
+        "shovel-ready", "construction ready", "ready to break ground",
+        "financing secured", "construction financing secured",
+    ],
+    "Construction Started": [
+        "broke ground", "groundbreaking", "started construction", "construction began",
+    ],
+    "Vertical Construction": [
+        "vertical construction", "rising", "framing", "concrete podium",
+        "under construction",
+    ],
+    "Topped Out": ["topped out", "topping out"],
+    "Delivery / Opening": [
+        "delivered", "opened", "opening", "completed", "completion",
+        "expected delivery", "delivery in",
+    ],
+    "Lease-Up": [
+        "lease-up", "leasing began", "preleasing", "occupancy",
+        "stabilization underway",
+    ],
+    "Stabilized / Operating": [
+        "stabilized", "operating", "fully leased", "occupancy stabilized",
+    ],
+    "Refinancing / Recapitalization": [
+        "refinanced", "refinancing", "recapitalized", "recapitalization",
+        "loan maturity", "debt package",
+    ],
+    "Distressed / Stalled": [
+        "stalled", "delayed", "paused", "halted", "shelved", "foreclosure",
+        "receivership", "default", "distressed", "construction stopped",
+    ],
+}
+
+LIFECYCLE_STAGE_ORDER = [
+    "Early Site Signal",
+    "Site Acquisition / Site Control",
+    "Planning Filed",
+    "Community Review",
+    "Environmental Review / CEQA",
+    "Entitlement Under Review",
+    "Entitled / Approved",
+    "Building Permit / Construction Permit",
+    "Construction Ready",
+    "Construction Started",
+    "Vertical Construction",
+    "Topped Out",
+    "Delivery / Opening",
+    "Lease-Up",
+    "Stabilized / Operating",
+    "Refinancing / Recapitalization",
+    "Distressed / Stalled",
+    "Unknown Stage",
+]
+
+LIFECYCLE_STAGE_RANK = {
+    stage: index + 1
+    for index, stage in enumerate(LIFECYCLE_STAGE_ORDER[:15])
+}
+LIFECYCLE_STAGE_RANK.update({
+    "Refinancing / Recapitalization": 16,
+    "Distressed / Stalled": -1,
+    "Unknown Stage": 0,
+})
+
+CAPITAL_ACQUISITION_TIMING_KEYWORDS = [
+    "acquisition opportunity",
+    "acquisition window",
+    "re-entry",
+    "capital deployment",
+    "fundraising",
+    "recapitalization",
+    "distressed sale",
+    "bid deadline",
+    "auction",
+    "note sale",
+    "marketed for sale",
+]
+
+MULTIFAMILY_CORE_KEYWORDS = [
+    "multifamily",
+    "multi-family",
+    "apartment",
+    "apartments",
+    "rental housing",
+    "renter",
+    "renters",
+    "built-to-rent",
+    "build-to-rent",
+    "btr",
+    "student housing",
+    "senior housing",
+    "affordable apartments",
+    "workforce housing",
+    "garden-style",
+]
+
+DEVELOPMENT_KEYWORDS = [
+    "developer",
+    "development",
+    "construction",
+    "construction starts",
+    "starts",
+    "deliveries",
+    "new supply",
+    "supply pipeline",
+    "permit",
+    "permits",
+    "permitting",
+    "entitlement",
+    "zoning",
+    "upzoning",
+    "density bonus",
+    "adaptive reuse",
+    "office-to-residential",
+    "conversion",
+    "modular construction",
+    "prefabrication",
+    "land acquisition",
+    "site acquisition",
+    "groundbreaking",
+    "lease-up",
+]
+
+MARKET_INTELLIGENCE_KEYWORDS = [
+    "rent growth",
+    "effective rent",
+    "asking rent",
+    "occupancy",
+    "vacancy",
+    "absorption",
+    "concession",
+    "concessions",
+    "migration",
+    "household formation",
+    "supply demand",
+    "market report",
+    "pipeline",
+    "sun belt",
+    "midwest",
+    "gateway market",
+    "secondary market",
+]
+
+CAPITAL_MARKETS_KEYWORDS = [
+    "cap rate",
+    "capital markets",
+    "financing",
+    "debt",
+    "loan",
+    "lending",
+    "refinancing",
+    "bridge loan",
+    "agency debt",
+    "fannie mae",
+    "freddie mac",
+    "cmbs",
+    "sofr",
+    "treasury yield",
+    "interest rate",
+    "rate cut",
+    "rate hike",
+    "transaction",
+    "acquisition",
+    "disposition",
+    "sale",
+    "recapitalization",
+    "joint venture",
+]
+
+PLAYER_KEYWORDS = [
+    "greystar",
+    "lincoln property company",
+    "blackstone",
+    "brookfield",
+    "equity residential",
+    "avalonbay",
+    "essex property trust",
+    "udr",
+    "camden property trust",
+    "cortland",
+    "bell partners",
+    "bozzuto",
+    "quarterra",
+    "wood partners",
+    "trammell crow residential",
+    "related companies",
+    "toll brothers apartment living",
+    "northmarq",
+    "berkadia",
+    "jll",
+    "cbre",
+    "cushman",
+]
+
+POLICY_KEYWORDS = [
+    "rent control",
+    "rent stabilization",
+    "lihtc",
+    "low-income housing tax credit",
+    "affordable housing",
+    "housing tax credit",
+    "1031 exchange",
+    "inclusionary zoning",
+    "permitting reform",
+    "environmental review",
+    "hud",
+    "fair housing",
+    "tenant protection",
+]
+
+US_MARKET_KEYWORDS = [
+    "u.s.",
+    "united states",
+    "america",
+    "american",
+    "atlanta",
+    "austin",
+    "boston",
+    "charlotte",
+    "chicago",
+    "dallas",
+    "denver",
+    "houston",
+    "los angeles",
+    "miami",
+    "nashville",
+    "new york",
+    "orlando",
+    "phoenix",
+    "raleigh",
+    "san diego",
+    "seattle",
+    "tampa",
+    "washington",
+]
+
+# These terms often create irrelevant policy or consumer-rental articles.
+# They do not automatically reject an article, but they lower the score.
+LOW_VALUE_POLICY_KEYWORDS = [
+    "homelessness",
+    "public housing",
+    "section 8",
+    "eviction",
+    "foreclosure",
+    "single-family",
+    "mortgage borrower",
+    "homebuyer",
+    "home buyer",
+    "for-sale housing",
+    "office politics",
+    "election",
+]
+
+TOPIC_KEYWORDS = {
+    "Macro & Financing": CAPITAL_MARKETS_KEYWORDS,
+    "Supply & Demand": MARKET_INTELLIGENCE_KEYWORDS,
+    "Development Strategy": DEVELOPMENT_KEYWORDS,
+    "Policy & Regulation": POLICY_KEYWORDS,
+    "Market Players & Deals": PLAYER_KEYWORDS
+    + [
+        "transaction",
+        "acquisition",
+        "disposition",
+        "sale",
+        "joint venture",
+        "recapitalization",
+    ],
+}
+
+# Market focus labels and score bonuses for geographies that matter for
+# daily US multifamily strategy monitoring.
+MARKET_FOCUS_RULES = [
+    {
+        "label": "Los Angeles",
+        "bonus": 15,
+        "keywords": ["los angeles", "l.a.", "la county", "southern california"],
+    },
+    {
+        "label": "California",
+        "bonus": 10,
+        "keywords": [
+            "california",
+            "san francisco",
+            "san diego",
+            "san jose",
+            "orange county",
+            "bay area",
+            "sacramento",
+        ],
+    },
+    {
+        "label": "Sun Belt",
+        "bonus": 8,
+        "keywords": [
+            "sun belt",
+            "sunbelt",
+            "phoenix",
+            "las vegas",
+            "austin",
+            "dallas",
+            "houston",
+            "atlanta",
+            "charlotte",
+            "raleigh",
+            "nashville",
+            "tampa",
+            "orlando",
+            "miami",
+        ],
+    },
+    {
+        "label": "Texas",
+        "bonus": 6,
+        "keywords": ["texas", "austin", "dallas", "fort worth", "houston", "san antonio"],
+    },
+    {
+        "label": "Seattle",
+        "bonus": 5,
+        "keywords": ["seattle", "puget sound", "bellevue", "tacoma"],
+    },
+    {
+        "label": "New York",
+        "bonus": 5,
+        "keywords": ["new york", "nyc", "manhattan", "brooklyn", "queens"],
+    },
+    {
+        "label": "Southeast",
+        "bonus": 0,
+        "keywords": [
+            "southeast",
+            "atlanta",
+            "charlotte",
+            "raleigh",
+            "nashville",
+            "orlando",
+            "tampa",
+            "miami",
+        ],
+    },
+    {
+        "label": "Florida",
+        "bonus": 0,
+        "keywords": ["florida", "miami", "orlando", "tampa", "jacksonville"],
+    },
+    {
+        "label": "Arizona",
+        "bonus": 0,
+        "keywords": ["arizona", "phoenix", "scottsdale", "tempe", "tucson"],
+    },
+    {
+        "label": "National",
+        "bonus": 0,
+        "keywords": ["national", "u.s.", "united states", "nationwide", "america"],
+    },
+]
+
+
+# ---------------------------------------------------------
+# 4. Small helper functions
+# ---------------------------------------------------------
+
+def clean_text(text):
+    """Make RSS text easier to search and easier to export."""
+    text = unescape(text or "")
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def fetch_article_text(url):
+    """
+    Try to fetch and clean the article page text.
+
+    If a website blocks the request, times out, or has unusual HTML, this
+    function returns an empty string so the rest of the script can continue.
+    """
+    if not FETCH_ARTICLE_TEXT or not url:
+        return ""
+
+    try:
+        response = requests.get(
+            url,
+            headers=RSS_REQUEST_HEADERS,
+            timeout=ARTICLE_FETCH_TIMEOUT_SECONDS,
+        )
+        response.raise_for_status()
+
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        for tag in soup(["script", "style", "nav", "footer", "header"]):
+            tag.decompose()
+
+        article_tag = soup.find("article")
+
+        if article_tag:
+            page_text = article_tag.get_text(" ")
+        else:
+            page_text = soup.get_text(" ")
+
+        return clean_text(page_text)
+
+    except Exception:
+        return ""
+
+
+def get_article_text_sample(article_text):
+    """Keep only the first 500 characters so the CSV stays lightweight."""
+    return article_text[:ARTICLE_TEXT_SAMPLE_LENGTH]
+
+
+def find_matches(text, keywords):
+    """Return the keywords that appear in the text."""
+    matches = []
+
+    for keyword in keywords:
+        if keyword.lower() in text:
+            matches.append(keyword)
+
+    return matches
+
+
+def classify_article(text):
+    """Return a list of strategic topic labels for an article."""
+    matched_topics = []
+
+    for topic, keywords in TOPIC_KEYWORDS.items():
+        if find_matches(text, keywords):
+            matched_topics.append(topic)
+
+    return matched_topics
+
+
+def get_priority(relevance_score):
+    """
+    Convert the numeric relevance score into a simple research priority.
+
+    This makes the CSV easier to scan:
+    - High: strongest articles to read first
+    - Medium: useful articles to review after High items
+    - Low: passed the filter, but less urgent
+    """
+    if relevance_score >= 80:
+        return "High"
+
+    if relevance_score >= 60:
+        return "Medium"
+
+    return "Low"
+
+
+def get_action_level(relevance_score):
+    """
+    Convert the relevance score into a daily briefing action level.
+
+    This is more action-oriented than priority:
+    - Must Read: read first today
+    - Review: useful enough for the high-priority briefing file
+    - Monitor: relevant, but less urgent
+    """
+    if relevance_score >= 85:
+        return "Must Read"
+
+    if relevance_score >= 70:
+        return "Review"
+
+    return "Monitor"
+
+
+def get_market_focus(text):
+    """
+    Detect the market or geography mentioned in the article.
+
+    The first matching rule wins. More specific markets are listed before
+    broader regions, so Los Angeles is detected before California.
+    """
+    for rule in MARKET_FOCUS_RULES:
+        if find_matches(text, rule["keywords"]):
+            return rule["label"]
+
+    return "Other / Unknown"
+
+
+def get_market_focus_bonus(market_focus):
+    """
+    Add a small relevance-score bonus for target markets.
+
+    This helps a daily briefing prioritize geographies that are often more
+    important for US residential developer strategy.
+    """
+    for rule in MARKET_FOCUS_RULES:
+        if rule["label"] == market_focus:
+            return rule["bonus"]
+
+    return 0
+
+
+def extract_numbers(text):
+    """
+    Extract simple numeric market signals from article text.
+
+    This is intentionally rule-based and beginner-friendly. It captures
+    common real estate signals like percentages, basis points, dollar
+    amounts, unit counts, rent values, and market-relevant years.
+    """
+    patterns = [
+        r"\b\d+(?:\.\d+)?%",
+        r"\b\d+(?:,\d{3})?\s?(?:bps|basis points?)\b",
+        r"\$\s?\d+(?:,\d{3})*(?:\.\d+)?\s?(?:million|billion|m|b)?\b",
+        r"\b\d+(?:,\d{3})*\s?(?:units|apartments|homes|rental units)\b",
+        r"\$\s?\d+(?:,\d{3})*(?:\.\d+)?\s?(?:rent|monthly rent|per month)\b",
+        r"\b20\d{2}\s?(?:deliveries|starts|pipeline|forecast|outlook)\b",
+    ]
+    extracted = []
+
+    for pattern in patterns:
+        extracted.extend(re.findall(pattern, text, flags=re.IGNORECASE))
+
+    cleaned_numbers = []
+    seen = set()
+
+    for item in extracted:
+        cleaned_item = clean_text(item)
+        key = cleaned_item.lower()
+
+        if key not in seen:
+            seen.add(key)
+            cleaned_numbers.append(cleaned_item)
+
+    return cleaned_numbers
+
+
+def get_market_signal(text, extracted_numbers):
+    """
+    Label the type of numeric market signal found in the article.
+
+    The label is useful for quickly separating rent, vacancy, financing,
+    supply, cost, concession, and transaction-size signals.
+    """
+    if not extracted_numbers:
+        return "No Clear Numeric Signal"
+
+    if find_matches(text, ["rent growth", "effective rent", "asking rent", "rent"]):
+        return "Rent Growth Signal"
+
+    if find_matches(text, ["vacancy", "occupancy"]):
+        return "Vacancy Signal"
+
+    if find_matches(text, ["cap rate", "capitalization rate"]):
+        return "Cap Rate Signal"
+
+    if find_matches(
+        text,
+        ["interest rate", "treasury yield", "sofr", "basis points", "bps", "debt"],
+    ):
+        return "Financing Cost Signal"
+
+    if find_matches(
+        text,
+        ["starts", "construction starts", "deliveries", "units", "pipeline"],
+    ):
+        return "Supply / Starts Signal"
+
+    if find_matches(
+        text,
+        ["construction cost", "labor cost", "material cost", "insurance cost"],
+    ):
+        return "Construction Cost Signal"
+
+    if find_matches(text, ["concession", "concessions", "one month free"]):
+        return "Concession Signal"
+
+    if find_matches(
+        text,
+        ["acquisition", "sale", "transaction", "portfolio", "joint venture"],
+    ):
+        return "Deal Size Signal"
+
+    return "No Clear Numeric Signal"
+
+
+def get_strategic_angle(text):
+    """
+    Add practical strategy labels for a developer/investor reader.
+
+    An article can have more than one angle. For example, a story about
+    higher rates slowing new construction may be both Financing Risk and
+    Supply Pressure.
+    """
+    strategic_angles = []
+
+    financing_risk_terms = [
+        "interest rate",
+        "rate hike",
+        "rate cut",
+        "treasury yield",
+        "sofr",
+        "financing",
+        "debt",
+        "loan",
+        "lending",
+        "refinancing",
+        "credit",
+    ]
+    supply_pressure_terms = [
+        "new supply",
+        "supply pipeline",
+        "deliveries",
+        "starts",
+        "construction starts",
+        "pipeline",
+        "vacancy",
+        "oversupply",
+        "lease-up",
+    ]
+    rent_growth_demand_terms = [
+        "rent growth",
+        "effective rent",
+        "asking rent",
+        "occupancy",
+        "absorption",
+        "demand",
+        "migration",
+        "household formation",
+        "concession",
+        "concessions",
+    ]
+    regulation_risk_terms = [
+        "rent control",
+        "rent stabilization",
+        "zoning",
+        "permitting",
+        "entitlement",
+        "lihtc",
+        "inclusionary zoning",
+        "tenant protection",
+        "environmental review",
+    ]
+    cost_control_terms = [
+        "construction cost",
+        "labor cost",
+        "material cost",
+        "modular construction",
+        "prefabrication",
+        "value engineering",
+        "cost control",
+        "insurance cost",
+    ]
+    institutional_flow_terms = [
+        "blackstone",
+        "brookfield",
+        "institutional investor",
+        "capital markets",
+        "acquisition",
+        "disposition",
+        "sale",
+        "joint venture",
+        "recapitalization",
+        "portfolio",
+        "cap rate",
+    ]
+    developer_strategy_terms = [
+        "developer",
+        "development",
+        "adaptive reuse",
+        "office-to-residential",
+        "conversion",
+        "build-to-rent",
+        "built-to-rent",
+        "site acquisition",
+        "land acquisition",
+        "groundbreaking",
+    ]
+
+    if find_matches(text, financing_risk_terms):
+        strategic_angles.append("Financing Risk")
+
+    if find_matches(text, supply_pressure_terms):
+        strategic_angles.append("Supply Pressure")
+
+    if find_matches(text, rent_growth_demand_terms):
+        strategic_angles.append("Rent Growth / Demand")
+
+    if find_matches(text, regulation_risk_terms):
+        strategic_angles.append("Regulation Risk")
+
+    if find_matches(text, cost_control_terms):
+        strategic_angles.append("Cost Control")
+
+    if find_matches(text, institutional_flow_terms):
+        strategic_angles.append("Institutional Flow")
+
+    if find_matches(text, developer_strategy_terms):
+        strategic_angles.append("Developer Strategy")
+
+    if not strategic_angles:
+        strategic_angles.append("Developer Strategy")
+
+    return "; ".join(strategic_angles)
+
+
+def get_decision_use(strategic_angle):
+    """
+    Convert strategic angles into daily tracking decisions.
+
+    These labels are written from the user's point of view: what should a
+    developer or strategy team do with this article?
+    """
+    decision_rules = [
+        ("Financing Risk", "Track Financing Conditions"),
+        ("Supply Pressure", "Track Supply Pipeline"),
+        ("Rent Growth / Demand", "Track Rent / Vacancy Trend"),
+        ("Regulation Risk", "Track Regulation Risk"),
+        ("Cost Control", "Track Construction Cost"),
+        ("Institutional Flow", "Track Institutional Capital Flow"),
+        ("Developer Strategy", "Track Developer Strategy"),
+    ]
+    decision_uses = []
+
+    for strategic_label, decision_label in decision_rules:
+        if strategic_label in strategic_angle:
+            decision_uses.append(decision_label)
+
+    if not decision_uses:
+        decision_uses.append("General Monitoring")
+
+    return "; ".join(decision_uses)
+
+
+def get_reason_for_inclusion(
+    matched_keywords,
+    relevance_score,
+    strategic_angle,
+    market_focus,
+):
+    """
+    Write a short plain-English reason for why the article made the CSV.
+
+    This is intentionally simple. It uses the same rule-based signals that
+    powered scoring, so a beginner can understand and adjust it later.
+    """
+    if matched_keywords:
+        keyword_text = ", ".join(matched_keywords[:3])
+    else:
+        keyword_text = "multiple multifamily strategy signals"
+
+    if market_focus == "Other / Unknown":
+        market_text = "a broad or unspecified market"
+    else:
+        market_text = market_focus
+
+    return (
+        f"Included because it scored {relevance_score} and mentions "
+        f"{keyword_text}, with a {strategic_angle} angle for {market_text}."
+    )
+
+
+def get_strategic_implication(
+    relevance_score,
+    action_level,
+    strategic_angle,
+    market_focus,
+    decision_use,
+    market_signal,
+    extracted_numbers,
+    matched_keywords,
+):
+    """
+    Generate a short rule-based strategic implication.
+
+    This is not AI generation. It is a transparent sentence built from the
+    article's existing labels, keywords, numbers, and score.
+    """
+    keyword_text = ", ".join(matched_keywords[:3]) if matched_keywords else "strategy signals"
+    number_text = ", ".join(extracted_numbers[:3]) if extracted_numbers else "no specific number"
+
+    if "Financing Risk" in strategic_angle or market_signal == "Financing Cost Signal":
+        return (
+            "Monitor financing conditions because the article includes "
+            f"{keyword_text} and {number_text}, which may affect construction "
+            "loans, refinancing risk, and exit cap rates."
+        )
+
+    if "Supply Pressure" in strategic_angle or market_signal == "Supply / Starts Signal":
+        return (
+            "Review this as a supply risk signal because it references new "
+            f"deliveries, starts, pipeline, or permits in {market_focus}."
+        )
+
+    if "Rent Growth / Demand" in strategic_angle or market_signal in [
+        "Rent Growth Signal",
+        "Vacancy Signal",
+        "Concession Signal",
+    ]:
+        return (
+            "Track rent and vacancy conditions because the article points to "
+            f"demand, occupancy, rent, vacancy, or concession signals in {market_focus}."
+        )
+
+    if "Regulation Risk" in strategic_angle:
+        return (
+            "Monitor regulation risk because the article may affect entitlement, "
+            "zoning, rent rules, affordability requirements, or permitting strategy."
+        )
+
+    if "Cost Control" in strategic_angle or market_signal == "Construction Cost Signal":
+        return (
+            "Review for cost-control implications because the article may affect "
+            "construction cost, labor, materials, insurance, or value engineering."
+        )
+
+    if "Institutional Flow" in strategic_angle or market_signal in [
+        "Deal Size Signal",
+        "Cap Rate Signal",
+    ]:
+        return (
+            "Track this as institutional capital flow because it mentions major "
+            "capital players, portfolio transactions, deal size, or cap-rate signals."
+        )
+
+    if "Developer Strategy" in strategic_angle:
+        return (
+            "Review for developer strategy because the article may inform site "
+            "selection, product type, adaptive reuse, build-to-rent, or market entry."
+        )
+
+    return (
+        f"Use for general monitoring because it scored {relevance_score}, is marked "
+        f"{action_level}, and supports {decision_use}."
+    )
+
+
+def get_woomi_relevance(relevance_score, action_level, strategic_angle, market_signal):
+    """
+    Label how relevant the article is to US residential developer strategy.
+
+    The label is intentionally simple and conservative for MVP use.
+    """
+    high_value_angles = [
+        "Financing Risk",
+        "Supply Pressure",
+        "Regulation Risk",
+        "Cost Control",
+        "Institutional Flow",
+        "Developer Strategy",
+    ]
+    high_value_signals = [
+        "Cap Rate Signal",
+        "Financing Cost Signal",
+        "Supply / Starts Signal",
+        "Deal Size Signal",
+    ]
+
+    if (
+        relevance_score >= 85
+        or action_level == "Must Read"
+        or any(angle in strategic_angle for angle in high_value_angles)
+        and market_signal in high_value_signals
+    ):
+        return "High relevance to US residential developer strategy"
+
+    if relevance_score >= 60 or action_level == "Review":
+        return "Medium relevance to market monitoring"
+
+    return "Low relevance / background information"
+
+
+def get_recommended_next_step(woomi_relevance, action_level, market_signal):
+    """
+    Recommend a simple next step for a daily or weekly strategy workflow.
+    """
+    if action_level == "Must Read":
+        return "Read full article"
+
+    if woomi_relevance == "High relevance to US residential developer strategy":
+        return "Add to weekly strategy memo"
+
+    if action_level == "Review":
+        return "Track source for follow-up"
+
+    if market_signal != "No Clear Numeric Signal":
+        return "Monitor only"
+
+    return "Ignore unless repeated"
+
+
+def get_residential_sector(text):
+    """Detect the most specific residential sector from article text."""
+    text_lower = text.lower()
+
+    for sector, keywords in RESIDENTIAL_SECTOR_KEYWORDS.items():
+        if any(keyword in text_lower for keyword in keywords):
+            return sector
+
+    if "residential" in text_lower or "housing" in text_lower:
+        return "General Residential"
+
+    return "General Residential"
+
+
+def get_residential_sector_bonus(residential_sector):
+    """Return a modest scoring bonus for residential-sector relevance."""
+    return RESIDENTIAL_SECTOR_BONUSES.get(residential_sector, 0)
+
+
+def score_article(source, title, summary, article_text_sample="", source_category=""):
+    """
+    Score article relevance from 0 to 100.
+
+    Scoring idea:
+    - Strong multifamily terms are the most important signal.
+    - Development, market data, capital markets, and named players add value.
+    - Broad policy articles are kept only when they connect back to multifamily,
+      development, finance, or market intelligence.
+    """
+    text = f"{title} {summary} {article_text_sample}".lower()
+
+    core_matches = find_matches(text, MULTIFAMILY_CORE_KEYWORDS)
+    development_matches = find_matches(text, DEVELOPMENT_KEYWORDS)
+    market_matches = find_matches(text, MARKET_INTELLIGENCE_KEYWORDS)
+    capital_matches = find_matches(text, CAPITAL_MARKETS_KEYWORDS)
+    player_matches = find_matches(text, PLAYER_KEYWORDS)
+    policy_matches = find_matches(text, POLICY_KEYWORDS)
+    us_matches = find_matches(text, US_MARKET_KEYWORDS)
+    low_value_matches = find_matches(text, LOW_VALUE_POLICY_KEYWORDS)
+    market_focus = get_market_focus(text)
+    market_focus_bonus = get_market_focus_bonus(market_focus)
+    residential_sector = get_residential_sector(text)
+    extracted_numbers = extract_numbers(text)
+    market_signal = get_market_signal(text, extracted_numbers)
+
+    score = 0
+
+    # Source-category bonuses improve prioritization for institutional-grade
+    # sources, but keyword relevance still drives whether an article is saved.
+    score += SOURCE_CATEGORY_BONUSES.get(source_category, 0)
+
+    score += min(len(core_matches) * 18, 40)
+    score += min(len(development_matches) * 8, 24)
+    score += min(len(market_matches) * 8, 24)
+    score += min(len(capital_matches) * 7, 20)
+    score += min(len(player_matches) * 10, 20)
+    score += min(len(policy_matches) * 5, 12)
+    score += min(len(us_matches) * 4, 8)
+    score += market_focus_bonus
+    score += get_residential_sector_bonus(residential_sector)
+
+    # Numeric market signals make an article more useful as research data.
+    if extracted_numbers:
+        score += 5
+
+    # These signal types are especially important for developer strategy.
+    if market_signal in [
+        "Cap Rate Signal",
+        "Financing Cost Signal",
+        "Supply / Starts Signal",
+    ]:
+        score += 5
+
+    if core_matches and (development_matches or market_matches or capital_matches):
+        score += 12
+
+    if player_matches and (capital_matches or development_matches):
+        score += 10
+
+    if policy_matches and not core_matches and not development_matches:
+        score -= 18
+
+    if low_value_matches and not core_matches:
+        score -= 15
+
+    score = max(0, min(score, 100))
+
+    all_matches = (
+        core_matches
+        + development_matches
+        + market_matches
+        + capital_matches
+        + player_matches
+        + policy_matches
+    )
+
+    return score, sorted(set(all_matches)), extracted_numbers, market_signal
+
+
+def should_keep_article(
+    source,
+    title,
+    summary,
+    score,
+    article_text_sample="",
+    source_category="",
+):
+    """
+    Decide whether an article is useful enough to save.
+
+    This is stricter than a simple keyword match. It requires:
+    1. A minimum score, and
+    2. At least one direct multifamily signal OR a combination of developer,
+       market, capital, or player intelligence signals.
+    """
+    text = f"{title} {summary} {article_text_sample}".lower()
+
+    has_core = bool(find_matches(text, MULTIFAMILY_CORE_KEYWORDS))
+    has_development = bool(find_matches(text, DEVELOPMENT_KEYWORDS))
+    has_market = bool(find_matches(text, MARKET_INTELLIGENCE_KEYWORDS))
+    has_capital = bool(find_matches(text, CAPITAL_MARKETS_KEYWORDS))
+    has_player = bool(find_matches(text, PLAYER_KEYWORDS))
+    has_policy = bool(find_matches(text, POLICY_KEYWORDS))
+
+    # Articles below the minimum relevance score are excluded from the CSV.
+    if score < MIN_RELEVANCE_SCORE:
+        return False
+
+    if has_core:
+        return True
+
+    if (
+        (source in HIGH_VALUE_SOURCES or source_category in HIGH_VALUE_SOURCE_CATEGORIES)
+        and (has_development or has_market or has_capital)
+    ):
+        return True
+
+    if has_player and (has_development or has_capital):
+        return True
+
+    if has_policy and (has_development or has_market or has_capital):
+        return True
+
+    return False
+
+
+# ---------------------------------------------------------
+# 5. Fetch one RSS feed
+# ---------------------------------------------------------
+
+def get_source_quality_label(fetch_status, entries_found, articles_saved, source_url):
+    """Label source quality for the source-health report."""
+    if not source_url:
+        return "Placeholder / Needs Review"
+
+    if fetch_status == "Failed":
+        return "Failing"
+
+    if articles_saved >= 3:
+        return "High Value"
+
+    if articles_saved >= 1:
+        return "Useful"
+
+    if entries_found > 0:
+        return "Watch"
+
+    return "Failing"
+
+
+def add_source_health_row(
+    source_name,
+    source_category,
+    source_url,
+    fetch_status,
+    entries_found,
+    articles_saved,
+    error_message="",
+    platform_type="Other",
+):
+    """Store one source-health row for later CSV and Markdown output."""
+    SOURCE_HEALTH_ROWS.append({
+        "source_name": source_name,
+        "source_category": source_category,
+        "platform_type": platform_type,
+        "source_url": source_url,
+        "fetch_status": fetch_status,
+        "entries_found": entries_found,
+        "articles_saved": articles_saved,
+        "error_message": error_message,
+        "source_quality_label": get_source_quality_label(
+            fetch_status,
+            entries_found,
+            articles_saved,
+            source_url,
+        ),
+    })
+
+
+# ---------------------------------------------------------
+# 6. RSS / article collection
+# ---------------------------------------------------------
+
+def fetch_feed(feed_info):
+    """Read one RSS feed and return relevant article dictionaries."""
+    source = feed_info["source"]
+    url = feed_info["url"]
+    source_category = feed_info.get("category", "Uncategorized")
+    platform_type = feed_info.get("platform_type", "Other")
+    articles = []
+
+    if not url:
+        print(f"[Warning] Placeholder source needs RSS review: {source}")
+        add_source_health_row(
+            source,
+            source_category,
+            url,
+            "Placeholder",
+            0,
+            0,
+            "Source URL not yet confirmed",
+            platform_type,
+        )
+        return articles
+
+    try:
+        feed = feedparser.parse(url, request_headers=RSS_REQUEST_HEADERS)
+        entries_found = len(feed.entries)
+        error_message = ""
+
+        if feed.bozo and not feed.entries:
+            error_message = "RSS parsing issue"
+            print(f"[Warning] RSS parsing issue: {source}")
+
+        for entry in feed.entries:
+            title = clean_text(entry.get("title", ""))
+            link = entry.get("link", "").strip()
+            summary = clean_text(
+                entry.get("summary", "")
+                or entry.get("description", "")
+                or entry.get("subtitle", "")
+            )
+            published = (
+                entry.get("published", "")
+                or entry.get("updated", "")
+                or ""
+            )
+
+            relevance_score, matched_keywords, extracted_numbers, market_signal = score_article(
+                source,
+                title,
+                summary,
+                source_category=source_category,
+            )
+
+            # The largest possible market-signal bonus is 10 points.
+            # If the RSS-only score is far below the threshold, we skip page
+            # fetching to keep the script reasonably fast.
+            if relevance_score < MIN_RELEVANCE_SCORE - 10:
+                continue
+
+            article_text = fetch_article_text(link)
+            article_text_sample = get_article_text_sample(article_text)
+
+            # Score again after article-page text is available. The sample may
+            # contain useful numbers or market terms that were missing from RSS.
+            relevance_score, matched_keywords, extracted_numbers, market_signal = score_article(
+                source,
+                title,
+                summary,
+                article_text_sample,
+                source_category,
+            )
+
+            if not should_keep_article(
+                source,
+                title,
+                summary,
+                relevance_score,
+                article_text_sample,
+                source_category,
+            ):
+                continue
+
+            combined_text = f"{title} {summary} {article_text_sample}".lower()
+            matched_topics = classify_article(combined_text)
+            strategic_angle = get_strategic_angle(combined_text)
+            market_focus = get_market_focus(combined_text)
+            residential_sector = get_residential_sector(combined_text)
+            action_level = get_action_level(relevance_score)
+            decision_use = get_decision_use(strategic_angle)
+            strategic_implication = get_strategic_implication(
+                relevance_score,
+                action_level,
+                strategic_angle,
+                market_focus,
+                decision_use,
+                market_signal,
+                extracted_numbers,
+                matched_keywords,
+            )
+            woomi_relevance = get_woomi_relevance(
+                relevance_score,
+                action_level,
+                strategic_angle,
+                market_signal,
+            )
+            recommended_next_step = get_recommended_next_step(
+                woomi_relevance,
+                action_level,
+                market_signal,
+            )
+
+            article = {
+                "collected_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                "source": source,
+                "source_category": source_category,
+                "platform_type": platform_type,
+                "residential_sector": residential_sector,
+                "published": published,
+                "relevance_score": relevance_score,
+                "priority": get_priority(relevance_score),
+                "action_level": action_level,
+                "market_focus": market_focus,
+                "strategic_angle": strategic_angle,
+                "decision_use": decision_use,
+                "strategic_implication": strategic_implication,
+                "woomi_relevance": woomi_relevance,
+                "recommended_next_step": recommended_next_step,
+                "reason_for_inclusion": get_reason_for_inclusion(
+                    matched_keywords,
+                    relevance_score,
+                    strategic_angle,
+                    market_focus,
+                ),
+                "market_signal": market_signal,
+                "extracted_numbers": "; ".join(extracted_numbers[:12]),
+                "article_text_sample": article_text_sample,
+                "topics": "; ".join(matched_topics),
+                "matched_keywords": "; ".join(matched_keywords[:12]),
+                "title": title,
+                "url": link,
+            }
+
+            articles.append(article)
+
+        fetch_status = "OK"
+        if feed.bozo and not feed.entries:
+            fetch_status = "Failed"
+
+        add_source_health_row(
+            source,
+            source_category,
+            url,
+            fetch_status,
+            entries_found,
+            len(articles),
+            error_message,
+            platform_type,
+        )
+
+    except Exception as error:
+        print(f"[Error] Failed to collect {source}: {error}")
+        add_source_health_row(
+            source,
+            source_category,
+            url,
+            "Failed",
+            0,
+            len(articles),
+            str(error),
+            platform_type,
+        )
+
+    return articles
+
+
+# ---------------------------------------------------------
+# 7. Filtering and scoring
+# ---------------------------------------------------------
+
+def remove_duplicates(articles):
+    """Remove duplicate articles using URL first, then normalized title."""
+    seen_urls = set()
+    seen_titles = set()
+    unique_articles = []
+
+    for article in articles:
+        url_key = normalize_article_url(article.get("url", ""))
+        title_key = normalize_article_title_for_history(article.get("title", ""))
+
+        if url_key and url_key in seen_urls:
+            continue
+        if title_key and title_key in seen_titles:
+            continue
+
+        if url_key:
+            seen_urls.add(url_key)
+        if title_key:
+            seen_titles.add(title_key)
+        unique_articles.append(article)
+
+    return unique_articles
+
+
+# ---------------------------------------------------------
+# 6. Shared utility functions
+# ---------------------------------------------------------
+
+# ---------------------------------------------------------
+# 12. Archive / output helpers
+# ---------------------------------------------------------
+
+def get_dated_output_dir(run_timestamp):
+    """Return output/runs/YYYY-MM-DD for dated archive files."""
+    run_date = run_timestamp.strftime(DATE_FOLDER_FORMAT)
+    return os.path.join(RUNS_DIR, run_date)
+
+
+def get_archive_path(latest_path, dated_output_dir):
+    """Build the dated archive path for a latest output file."""
+    return os.path.join(dated_output_dir, os.path.basename(latest_path))
+
+
+def make_run_id(run_timestamp):
+    """Create a stable, readable run id for this collector execution."""
+    base = run_timestamp.strftime("%Y%m%d-%H%M%S")
+    digest = hashlib.sha1(base.encode("utf-8")).hexdigest()[:8]
+    return f"{base}-{digest}"
+
+
+def set_current_run_context(run_timestamp):
+    """Store run metadata used by centralized CSV writers and manifests."""
+    CURRENT_RUN_CONTEXT["run_id"] = make_run_id(run_timestamp)
+    CURRENT_RUN_CONTEXT["run_date"] = run_timestamp.strftime(DATE_FOLDER_FORMAT)
+    CURRENT_RUN_CONTEXT["run_timestamp"] = run_timestamp.strftime(TIMESTAMP_FORMAT)
+
+
+def normalize_article_url(value):
+    """Normalize URL for cross-run duplicate checks."""
+    text = str(value or "").strip().lower()
+    if not text:
+        return ""
+    text = text.split("#", 1)[0]
+    text = text.split("?", 1)[0]
+    return text.rstrip("/")
+
+
+def normalize_article_title_for_history(value):
+    """Normalize article titles for cross-run duplicate checks."""
+    text = unescape(str(value or "")).lower()
+    text = re.sub(r"[^a-z0-9]+", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def article_history_keys(rows):
+    """Return URL and normalized-title keys from existing article rows."""
+    url_keys = set()
+    title_keys = set()
+    for row in rows:
+        url_key = normalize_article_url(row.get("url", ""))
+        title_key = normalize_article_title_for_history(row.get("title", ""))
+        if url_key:
+            url_keys.add(url_key)
+        if title_key:
+            title_keys.add(title_key)
+    return url_keys, title_keys
+
+
+def classify_new_articles_for_manifest(articles, previous_article_rows):
+    """
+    Count new vs duplicate articles against the prior latest articles.csv.
+
+    Latest output files still update every run; this only prevents confusing
+    run accounting by separating new observations from already-seen articles.
+    """
+    seen_urls, seen_titles = article_history_keys(previous_article_rows)
+    new_count = 0
+    duplicate_count = 0
+    for article in articles:
+        url_key = normalize_article_url(article.get("url", ""))
+        title_key = normalize_article_title_for_history(article.get("title", ""))
+        is_duplicate = bool((url_key and url_key in seen_urls) or (title_key and title_key in seen_titles))
+        article["previously_seen_article"] = "Yes" if is_duplicate else "No"
+        if is_duplicate:
+            duplicate_count += 1
+        else:
+            new_count += 1
+        if url_key:
+            seen_urls.add(url_key)
+        if title_key:
+            seen_titles.add(title_key)
+    return new_count, duplicate_count
+
+
+def add_run_fields_to_rows(fieldnames, rows):
+    """Add run_id and run_date to CSV rows without touching business logic."""
+    output_fieldnames = list(fieldnames)
+    for run_field in ["run_id", "run_date"]:
+        if run_field not in output_fieldnames:
+            output_fieldnames.insert(0, run_field)
+    enriched_rows = []
+    for row in rows:
+        enriched = dict(row)
+        enriched["run_id"] = enriched.get("run_id") or CURRENT_RUN_CONTEXT.get("run_id", "")
+        enriched["run_date"] = enriched.get("run_date") or CURRENT_RUN_CONTEXT.get("run_date", "")
+        enriched_rows.append(enriched)
+    return output_fieldnames, enriched_rows
+
+
+def write_csv_file(path, fieldnames, rows):
+    """Write one CSV file to the requested path."""
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+
+    with open(path, mode="w", newline="", encoding="utf-8-sig") as file:
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def write_text_file(path, lines):
+    """Write a Markdown/text file to the requested path."""
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+
+    with open(path, mode="w", encoding="utf-8") as file:
+        file.write("\n".join(lines))
+
+
+def write_csv_outputs(path, fieldnames, rows, dated_output_dir):
+    """
+    Write a latest CSV file and, when enabled, a dated archive copy.
+
+    Latest files stay directly in output/ for convenience. Dated files go to
+    output/runs/YYYY-MM-DD/ so prior runs are easier to compare later.
+    """
+    output_fieldnames, enriched_rows = add_run_fields_to_rows(fieldnames, rows)
+
+    write_csv_file(path, output_fieldnames, enriched_rows)
+
+    if SAVE_DATED_OUTPUT:
+        write_csv_file(get_archive_path(path, dated_output_dir), output_fieldnames, enriched_rows)
+
+
+def list_generated_archive_files(dated_output_dir):
+    """List generated files inside today's archive folder."""
+    if not os.path.isdir(dated_output_dir):
+        return []
+    return sorted(
+        name for name in os.listdir(dated_output_dir)
+        if os.path.isfile(os.path.join(dated_output_dir, name))
+    )
+
+
+def write_run_manifest_json(dated_output_dir):
+    """Write output/runs/YYYY-MM-DD/run_manifest.json for this run."""
+    manifest_path = os.path.join(dated_output_dir, "run_manifest.json")
+    output_files = list_generated_archive_files(dated_output_dir)
+    if "run_manifest.json" not in output_files:
+        output_files.append("run_manifest.json")
+        output_files = sorted(output_files)
+    manifest = {
+        "run_id": CURRENT_RUN_CONTEXT.get("run_id", ""),
+        "run_date": CURRENT_RUN_CONTEXT.get("run_date", ""),
+        "run_timestamp": CURRENT_RUN_CONTEXT.get("run_timestamp", ""),
+        "article_count": CURRENT_RUN_MANIFEST_STATS.get("article_count", 0),
+        "new_article_count": CURRENT_RUN_MANIFEST_STATS.get("new_article_count", 0),
+        "duplicate_article_count": CURRENT_RUN_MANIFEST_STATS.get("duplicate_article_count", 0),
+        "output_files_generated": output_files,
+    }
+    os.makedirs(dated_output_dir, exist_ok=True)
+    with open(manifest_path, mode="w", encoding="utf-8") as file:
+        json.dump(manifest, file, ensure_ascii=False, indent=2)
+    return manifest_path
+
+
+def read_csv_file(path):
+    """Read a CSV file into a list of dictionaries."""
+    if not os.path.exists(path):
+        return []
+
+    with open(path, mode="r", newline="", encoding="utf-8-sig") as file:
+        return list(csv.DictReader(file))
+
+
+def read_csv_fieldnames(path):
+    """Read only the header row from a CSV file."""
+    if not os.path.exists(path):
+        return []
+
+    with open(path, mode="r", newline="", encoding="utf-8-sig") as file:
+        reader = csv.DictReader(file)
+        return reader.fieldnames or []
+
+
+def count_markdown_sections(path):
+    """Count Markdown headings as a simple section count."""
+    if not os.path.exists(path):
+        return 0
+
+    with open(path, mode="r", encoding="utf-8") as file:
+        return sum(1 for line in file if line.lstrip().startswith("#"))
+
+
+def get_file_type(path):
+    """Return a beginner-friendly file type label."""
+    if path.endswith(".csv"):
+        return "CSV"
+    if path.endswith(".md"):
+        return "Markdown"
+    return "Other"
+
+
+def get_previous_archived_run_data(dated_output_dir):
+    """
+    Find strategy and market-signal CSVs from the previous archived run.
+
+    If today's dated archive already exists before this run overwrites it, we
+    use that as the previous run. Otherwise, we look for the most recent older
+    folder under output/runs/.
+    """
+    current_strategy_path = get_archive_path(
+        STRATEGY_BRIEFING_OUTPUT_FILE,
+        dated_output_dir,
+    )
+    current_market_path = get_archive_path(
+        MARKET_SIGNALS_OUTPUT_FILE,
+        dated_output_dir,
+    )
+
+    if os.path.exists(current_strategy_path) and os.path.exists(current_market_path):
+        return (
+            read_csv_file(current_strategy_path),
+            read_csv_file(current_market_path),
+            dated_output_dir,
+        )
+
+    if not os.path.exists(RUNS_DIR):
+        return [], [], ""
+
+    current_folder_name = os.path.basename(dated_output_dir)
+    folder_names = sorted(
+        [
+            folder_name
+            for folder_name in os.listdir(RUNS_DIR)
+            if os.path.isdir(os.path.join(RUNS_DIR, folder_name))
+            and folder_name != current_folder_name
+        ],
+        reverse=True,
+    )
+
+    for folder_name in folder_names:
+        folder_path = os.path.join(RUNS_DIR, folder_name)
+        strategy_path = get_archive_path(STRATEGY_BRIEFING_OUTPUT_FILE, folder_path)
+        market_path = get_archive_path(MARKET_SIGNALS_OUTPUT_FILE, folder_path)
+
+        if os.path.exists(strategy_path) and os.path.exists(market_path):
+            return read_csv_file(strategy_path), read_csv_file(market_path), folder_path
+
+    return [], [], ""
+
+
+def get_previous_archived_file_rows(latest_path, dated_output_dir):
+    """
+    Read the previous archived copy of a CSV before this run overwrites it.
+
+    This is used for momentum checks such as regime_heatmap.csv comparisons.
+    """
+    current_archive_path = get_archive_path(latest_path, dated_output_dir)
+
+    if os.path.exists(current_archive_path):
+        return read_csv_file(current_archive_path)
+
+    if not os.path.exists(RUNS_DIR):
+        return []
+
+    current_folder_name = os.path.basename(dated_output_dir)
+    folder_names = sorted(
+        [
+            folder_name
+            for folder_name in os.listdir(RUNS_DIR)
+            if os.path.isdir(os.path.join(RUNS_DIR, folder_name))
+            and folder_name != current_folder_name
+        ],
+        reverse=True,
+    )
+
+    for folder_name in folder_names:
+        archived_path = get_archive_path(
+            latest_path,
+            os.path.join(RUNS_DIR, folder_name),
+        )
+
+        if os.path.exists(archived_path):
+            return read_csv_file(archived_path)
+
+    return []
+
+
+def write_markdown_outputs(path, lines, dated_output_dir):
+    """Write a latest Markdown file and optional dated archive copy."""
+    write_text_file(path, lines)
+
+    if SAVE_DATED_OUTPUT:
+        write_text_file(get_archive_path(path, dated_output_dir), lines)
+
+
+def append_run_log(
+    run_timestamp,
+    total_articles,
+    high_priority_count,
+    market_signal_count,
+    strategy_briefing_count,
+    llm_prompt_count,
+    gpt_analyzed_count,
+    output_folder,
+):
+    """
+    Append one run summary row to output/run_log.csv.
+
+    This gives a simple history of each run without opening every dated folder.
+    """
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    file_exists = os.path.exists(RUN_LOG_FILE)
+    fieldnames = [
+        "run_timestamp",
+        "total_articles",
+        "high_priority_articles",
+        "market_signal_articles",
+        "strategy_briefing_articles",
+        "llm_prompts_generated",
+        "gpt_analyzed_articles",
+        "gpt_enabled",
+        "output_folder",
+    ]
+    row = {
+        "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+        "total_articles": total_articles,
+        "high_priority_articles": high_priority_count,
+        "market_signal_articles": market_signal_count,
+        "strategy_briefing_articles": strategy_briefing_count,
+        "llm_prompts_generated": llm_prompt_count,
+        "gpt_analyzed_articles": gpt_analyzed_count,
+        "gpt_enabled": USE_OPENAI_ANALYSIS,
+        "output_folder": output_folder,
+    }
+
+    with open(RUN_LOG_FILE, mode="a", newline="", encoding="utf-8-sig") as file:
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
+
+        if not file_exists:
+            writer.writeheader()
+
+        writer.writerow(row)
+
+
+def read_run_log_rows():
+    """Read output/run_log.csv so trend alerts can compare recent runs."""
+    if not os.path.exists(RUN_LOG_FILE):
+        return []
+
+    with open(RUN_LOG_FILE, mode="r", newline="", encoding="utf-8-sig") as file:
+        return list(csv.DictReader(file))
+
+
+def append_regime_log(
+    run_timestamp,
+    narrative_regime,
+    total_articles,
+    high_priority_count,
+    market_signal_count,
+    strategy_briefing_count,
+    top_strategic_angle,
+    top_market_focus,
+    top_market_signal,
+):
+    """
+    Append one row to output/regime_log.csv.
+
+    run_log.csv tracks volume. regime_log.csv tracks the detected market
+    narrative, so the strategy team can see whether the regime is persisting
+    or changing across multiple runs.
+    """
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    file_exists = os.path.exists(REGIME_LOG_FILE)
+    fieldnames = [
+        "run_timestamp",
+        "primary_regime",
+        "secondary_regime",
+        "confidence_level",
+        "total_articles",
+        "high_priority_articles",
+        "market_signal_articles",
+        "strategy_briefing_articles",
+        "top_strategic_angle",
+        "top_market_focus",
+        "top_market_signal",
+    ]
+    row = {
+        "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+        "primary_regime": narrative_regime["primary_regime"],
+        "secondary_regime": narrative_regime["secondary_regime"],
+        "confidence_level": narrative_regime["confidence"],
+        "total_articles": total_articles,
+        "high_priority_articles": high_priority_count,
+        "market_signal_articles": market_signal_count,
+        "strategy_briefing_articles": strategy_briefing_count,
+        "top_strategic_angle": top_strategic_angle,
+        "top_market_focus": top_market_focus,
+        "top_market_signal": top_market_signal,
+    }
+
+    with open(REGIME_LOG_FILE, mode="a", newline="", encoding="utf-8-sig") as file:
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
+
+        if not file_exists:
+            writer.writeheader()
+
+        writer.writerow(row)
+
+
+def read_regime_log_rows():
+    """Read output/regime_log.csv for transition analysis."""
+    if not os.path.exists(REGIME_LOG_FILE):
+        return []
+
+    with open(REGIME_LOG_FILE, mode="r", newline="", encoding="utf-8-sig") as file:
+        return list(csv.DictReader(file))
+
+
+def safe_int(value):
+    """Convert run-log values to integers without crashing on blanks."""
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return 0
+
+
+def get_percentage_change(latest_value, previous_value):
+    """Calculate percent change while handling a previous value of zero."""
+    if previous_value == 0:
+        if latest_value == 0:
+            return 0
+
+        return 100
+
+    return ((latest_value - previous_value) / previous_value) * 100
+
+
+def get_trend_alert_label(percentage_change):
+    """Convert percentage change into a simple alert label."""
+    if percentage_change >= 50:
+        return "Sharp Increase"
+
+    if percentage_change >= 20:
+        return "Moderate Increase"
+
+    if percentage_change <= -50:
+        return "Sharp Decrease"
+
+    if percentage_change <= -20:
+        return "Moderate Decrease"
+
+    return "Stable"
+
+
+def build_trend_metrics(latest_row, previous_row):
+    """Build trend metrics for the main run-count fields."""
+    metric_definitions = [
+        ("total_articles", "Total article volume"),
+        ("high_priority_articles", "High-priority article volume"),
+        ("market_signal_articles", "Market-signal article volume"),
+        ("strategy_briefing_articles", "Strategy-briefing article volume"),
+    ]
+    trend_metrics = []
+
+    for field_name, label in metric_definitions:
+        latest_value = safe_int(latest_row.get(field_name))
+        previous_value = safe_int(previous_row.get(field_name)) if previous_row else 0
+        change = latest_value - previous_value
+        percentage_change = get_percentage_change(latest_value, previous_value)
+
+        trend_metrics.append({
+            "field_name": field_name,
+            "label": label,
+            "latest_value": latest_value,
+            "previous_value": previous_value,
+            "change": change,
+            "percentage_change": percentage_change,
+            "alert_label": get_trend_alert_label(percentage_change),
+        })
+
+    return trend_metrics
+
+
+def build_trend_interpretation(trend_metrics, has_previous_run):
+    """Generate simple interpretation bullets for the strategy team."""
+    if not has_previous_run:
+        return [
+            "This is the first logged run, so future runs will provide more useful trend comparisons."
+        ]
+
+    interpretations = []
+    labels_by_field = {
+        metric["field_name"]: metric["alert_label"]
+        for metric in trend_metrics
+    }
+
+    if labels_by_field["high_priority_articles"] == "Sharp Increase":
+        interpretations.append(
+            "High-priority articles increased sharply, which may mean market-relevant news flow is accelerating."
+        )
+
+    if labels_by_field["market_signal_articles"] == "Sharp Increase":
+        interpretations.append(
+            "Market-signal articles increased sharply, so numeric market signals may be becoming more active."
+        )
+
+    if labels_by_field["strategy_briefing_articles"] in [
+        "Moderate Increase",
+        "Sharp Increase",
+    ]:
+        interpretations.append(
+            "Strategy-briefing articles increased, so more items may require review by the strategy team."
+        )
+
+    if all(metric["alert_label"] == "Stable" for metric in trend_metrics):
+        interpretations.append(
+            "All monitored volumes are stable, so the market signal environment appears stable in this run."
+        )
+
+    if any(metric["alert_label"] == "Sharp Decrease" for metric in trend_metrics):
+        interpretations.append(
+            "One or more volumes decreased sharply, which may mean there are fewer actionable signals in this run."
+        )
+
+    if not interpretations:
+        interpretations.append(
+            "No sharp trend alert was detected, but the changes are worth monitoring across future runs."
+        )
+
+    return interpretations
+
+
+def generate_trend_alerts(dated_output_dir):
+    """
+    Generate output/trend_alerts.md using output/run_log.csv.
+
+    The report compares the latest run to the previous run and is saved both
+    as a latest file and inside the dated archive folder.
+    """
+    run_log_rows = read_run_log_rows()
+
+    if not run_log_rows:
+        return []
+
+    latest_row = run_log_rows[-1]
+    previous_row = run_log_rows[-2] if len(run_log_rows) >= 2 else None
+    trend_metrics = build_trend_metrics(latest_row, previous_row)
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    previous_timestamp = previous_row["run_timestamp"] if previous_row else "No previous run"
+    lines = [
+        "# Trend Alerts",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Latest run timestamp: {latest_row['run_timestamp']}",
+        f"- Previous run timestamp: {previous_timestamp}",
+        "",
+        "## Trend Metrics",
+        "",
+        "| Metric | Latest | Previous | Change | Percentage Change | Alert |",
+        "| --- | ---: | ---: | ---: | ---: | --- |",
+    ]
+
+    for metric in trend_metrics:
+        lines.append(
+            f"| {metric['label']} | "
+            f"{metric['latest_value']} | "
+            f"{metric['previous_value']} | "
+            f"{metric['change']} | "
+            f"{metric['percentage_change']:.1f}% | "
+            f"{metric['alert_label']} |"
+        )
+
+    lines.extend([
+        "",
+        "## Interpretation for Strategy Team",
+        "",
+    ])
+
+    for interpretation in build_trend_interpretation(
+        trend_metrics,
+        previous_row is not None,
+    ):
+        lines.append(f"- {interpretation}")
+
+    lines.append("")
+
+    write_markdown_outputs(TREND_ALERTS_OUTPUT_FILE, lines, dated_output_dir)
+
+    return trend_metrics
+
+
+def get_thematic_alert_label(latest_value, previous_value, percentage_change):
+    """Convert a theme count change into a simple alert label."""
+    if previous_value == 0 and latest_value > 0:
+        return "New Theme"
+
+    if percentage_change >= 50:
+        return "Sharp Increase"
+
+    if percentage_change >= 20:
+        return "Moderate Increase"
+
+    if percentage_change <= -50:
+        return "Sharp Decrease"
+
+    if percentage_change <= -20:
+        return "Moderate Decrease"
+
+    return "Stable"
+
+
+def count_theme_values(rows, field_name):
+    """Count labels in one CSV field, including semicolon-separated labels."""
+    counts = Counter()
+
+    for row in rows:
+        for label in split_labels(row.get(field_name, "")):
+            counts[label] += 1
+
+    return counts
+
+
+def build_thematic_counts(strategy_rows, market_signal_rows):
+    """Build current or previous theme counts by category."""
+    return {
+        "strategic_angle": count_theme_values(strategy_rows, "strategic_angle"),
+        "market_focus": count_theme_values(strategy_rows, "market_focus"),
+        "market_signal": count_theme_values(market_signal_rows, "market_signal"),
+        "decision_use": count_theme_values(strategy_rows, "decision_use"),
+        "action_level": count_theme_values(strategy_rows, "action_level"),
+        "woomi_relevance": count_theme_values(strategy_rows, "woomi_relevance"),
+    }
+
+
+def build_thematic_metrics(latest_counts, previous_counts):
+    """Compare latest theme counts to previous archived theme counts."""
+    category_labels = {
+        "strategic_angle": "Strategic Angle",
+        "market_focus": "Market Focus",
+        "market_signal": "Market Signal",
+        "decision_use": "Decision Use",
+        "action_level": "Action Level",
+        "woomi_relevance": "Woomi Relevance",
+    }
+    metrics = []
+
+    for category, latest_category_counts in latest_counts.items():
+        previous_category_counts = previous_counts.get(category, Counter())
+        themes = sorted(
+            set(latest_category_counts.keys()) | set(previous_category_counts.keys())
+        )
+
+        for theme in themes:
+            latest_value = latest_category_counts.get(theme, 0)
+            previous_value = previous_category_counts.get(theme, 0)
+            change = latest_value - previous_value
+            percentage_change = get_percentage_change(latest_value, previous_value)
+
+            metrics.append({
+                "category": category,
+                "category_label": category_labels[category],
+                "theme": theme,
+                "latest_value": latest_value,
+                "previous_value": previous_value,
+                "change": change,
+                "percentage_change": percentage_change,
+                "alert_label": get_thematic_alert_label(
+                    latest_value,
+                    previous_value,
+                    percentage_change,
+                ),
+            })
+
+    return metrics
+
+
+def is_increase_alert(alert_label):
+    """Return True when a theme is increasing or newly appearing."""
+    return alert_label in ["New Theme", "Moderate Increase", "Sharp Increase"]
+
+
+def find_thematic_metric(metrics, category, theme):
+    """Find a single thematic metric by category and theme name."""
+    for metric in metrics:
+        if metric["category"] == category and metric["theme"] == theme:
+            return metric
+
+    return None
+
+
+def build_key_thematic_alerts(metrics):
+    """Create a short list of important thematic alerts."""
+    alerts = []
+    financing_metric = find_thematic_metric(metrics, "strategic_angle", "Financing Risk")
+    supply_metric = find_thematic_metric(metrics, "strategic_angle", "Supply Pressure")
+    institutional_metric = find_thematic_metric(metrics, "strategic_angle", "Institutional Flow")
+    regulation_metric = find_thematic_metric(metrics, "strategic_angle", "Regulation Risk")
+    california_metric = find_thematic_metric(metrics, "market_focus", "California")
+    los_angeles_metric = find_thematic_metric(metrics, "market_focus", "Los Angeles")
+    market_signal_increases = [
+        metric for metric in metrics
+        if metric["category"] == "market_signal"
+        and is_increase_alert(metric["alert_label"])
+    ]
+
+    if financing_metric and is_increase_alert(financing_metric["alert_label"]):
+        alerts.append(
+            f"Financing Risk is {financing_metric['alert_label']} "
+            f"({financing_metric['previous_value']} to {financing_metric['latest_value']})."
+        )
+
+    if supply_metric and is_increase_alert(supply_metric["alert_label"]):
+        alerts.append(
+            f"Supply Pressure is {supply_metric['alert_label']} "
+            f"({supply_metric['previous_value']} to {supply_metric['latest_value']})."
+        )
+
+    for market_metric in [california_metric, los_angeles_metric]:
+        if market_metric and is_increase_alert(market_metric["alert_label"]):
+            alerts.append(
+                f"{market_metric['theme']} focus is {market_metric['alert_label']} "
+                f"({market_metric['previous_value']} to {market_metric['latest_value']})."
+            )
+
+    if institutional_metric and is_increase_alert(institutional_metric["alert_label"]):
+        alerts.append(
+            f"Institutional Flow is {institutional_metric['alert_label']} "
+            f"({institutional_metric['previous_value']} to {institutional_metric['latest_value']})."
+        )
+
+    if regulation_metric and is_increase_alert(regulation_metric["alert_label"]):
+        alerts.append(
+            f"Regulation Risk is {regulation_metric['alert_label']} "
+            f"({regulation_metric['previous_value']} to {regulation_metric['latest_value']})."
+        )
+
+    if market_signal_increases:
+        top_signal = sorted(
+            market_signal_increases,
+            key=lambda metric: metric["latest_value"],
+            reverse=True,
+        )[0]
+        alerts.append(
+            f"Market signal activity is increasing, led by {top_signal['theme']} "
+            f"({top_signal['previous_value']} to {top_signal['latest_value']})."
+        )
+
+    if not alerts:
+        alerts.append("No major thematic increase alert was detected in this run.")
+
+    return alerts[:8]
+
+
+def build_thematic_interpretation(metrics):
+    """Generate strategy-team interpretation from thematic alerts."""
+    interpretations = []
+    financing_metric = find_thematic_metric(metrics, "strategic_angle", "Financing Risk")
+    supply_metric = find_thematic_metric(metrics, "strategic_angle", "Supply Pressure")
+    institutional_metric = find_thematic_metric(metrics, "strategic_angle", "Institutional Flow")
+    regulation_metric = find_thematic_metric(metrics, "strategic_angle", "Regulation Risk")
+    california_metric = find_thematic_metric(metrics, "market_focus", "California")
+    los_angeles_metric = find_thematic_metric(metrics, "market_focus", "Los Angeles")
+
+    if financing_metric and is_increase_alert(financing_metric["alert_label"]):
+        interpretations.append(
+            "Financing Risk increased, which may indicate pressure on construction loans, refinancing, and exit cap rates."
+        )
+
+    if supply_metric and is_increase_alert(supply_metric["alert_label"]):
+        interpretations.append(
+            "Supply Pressure increased, so the team should watch possible oversupply or lease-up risk."
+        )
+
+    if (
+        california_metric and is_increase_alert(california_metric["alert_label"])
+    ) or (
+        los_angeles_metric and is_increase_alert(los_angeles_metric["alert_label"])
+    ):
+        interpretations.append(
+            "California or Los Angeles focus increased, which is directly relevant to Woomi's California / LA strategy."
+        )
+
+    if institutional_metric and is_increase_alert(institutional_metric["alert_label"]):
+        interpretations.append(
+            "Institutional Flow increased, which may provide pricing signals from major capital players."
+        )
+
+    if regulation_metric and is_increase_alert(regulation_metric["alert_label"]):
+        interpretations.append(
+            "Regulation Risk increased, so entitlement, zoning, rent control, and LIHTC watch items deserve attention."
+        )
+
+    if not interpretations:
+        interpretations.append(
+            "No major thematic acceleration was detected, so continue monitoring for repeated patterns."
+        )
+
+    return interpretations
+
+
+def generate_thematic_trends(
+    strategy_briefing_articles,
+    market_signal_articles,
+    previous_strategy_rows,
+    previous_market_signal_rows,
+    previous_archive_folder,
+    dated_output_dir,
+):
+    """
+    Generate output/thematic_trends.md from latest and previous theme counts.
+
+    This report is different from trend_alerts.md: trend_alerts tracks overall
+    volume, while thematic_trends tracks what the articles are about.
+    """
+    latest_counts = build_thematic_counts(
+        strategy_briefing_articles,
+        market_signal_articles,
+    )
+    previous_counts = build_thematic_counts(
+        previous_strategy_rows,
+        previous_market_signal_rows,
+    )
+    metrics = build_thematic_metrics(latest_counts, previous_counts)
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    previous_folder_text = previous_archive_folder if previous_archive_folder else "No previous archive found"
+    lines = [
+        "# Thematic Trends",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Previous archive used: {previous_folder_text}",
+        f"- Latest strategy-briefing articles: {len(strategy_briefing_articles)}",
+        f"- Latest market-signal articles: {len(market_signal_articles)}",
+        "",
+        "## Key Thematic Alerts",
+        "",
+    ]
+
+    key_alerts = build_key_thematic_alerts(metrics)
+
+    for alert in key_alerts:
+        lines.append(f"- {alert}")
+
+    lines.extend([
+        "",
+        "## Theme Count Details",
+        "",
+        "| Category | Theme | Latest | Previous | Change | Percentage Change | Alert |",
+        "| --- | --- | ---: | ---: | ---: | ---: | --- |",
+    ])
+
+    sorted_metrics = sorted(
+        metrics,
+        key=lambda metric: (
+            metric["category_label"],
+            -metric["latest_value"],
+            metric["theme"],
+        ),
+    )
+
+    for metric in sorted_metrics:
+        lines.append(
+            f"| {metric['category_label']} | "
+            f"{metric['theme']} | "
+            f"{metric['latest_value']} | "
+            f"{metric['previous_value']} | "
+            f"{metric['change']} | "
+            f"{metric['percentage_change']:.1f}% | "
+            f"{metric['alert_label']} |"
+        )
+
+    lines.extend([
+        "",
+        "## Interpretation for Strategy Team",
+        "",
+    ])
+
+    for interpretation in build_thematic_interpretation(metrics):
+        lines.append(f"- {interpretation}")
+
+    lines.append("")
+
+    write_markdown_outputs(THEMATIC_TRENDS_OUTPUT_FILE, lines, dated_output_dir)
+
+    return key_alerts
+
+
+def count_institutional_player_mentions(articles):
+    """
+    Count articles that mention major capital, brokerage, or developer players.
+
+    This helps the narrative regime layer detect whether the current news flow
+    looks like capital is moving back into the market.
+    """
+    mention_count = 0
+
+    for article in articles:
+        text = " ".join([
+            article.get("title", ""),
+            article.get("matched_keywords", ""),
+            article.get("strategic_implication", ""),
+            article.get("article_text_sample", ""),
+        ]).lower()
+
+        if any(keyword.lower() in text for keyword in PLAYER_KEYWORDS):
+            mention_count += 1
+
+    return mention_count
+
+
+def build_regime_scores(
+    strategy_briefing_articles,
+    market_signal_articles,
+    angle_counts,
+    signal_counts,
+    decision_counts,
+    action_counts,
+):
+    """
+    Convert theme counts into simple market regime scores.
+
+    These are intentionally transparent rules, not a statistical model. Higher
+    scores mean the current article set has more evidence for that regime.
+    """
+    institutional_mentions = count_institutional_player_mentions(
+        strategy_briefing_articles
+    )
+    extracted_number_articles = sum(
+        1
+        for article in market_signal_articles
+        if article.get("extracted_numbers", "").strip()
+    )
+
+    scores = {
+        "Financing Stress": (
+            angle_counts.get("Financing Risk", 0) * 3
+            + signal_counts.get("Financing Cost Signal", 0) * 3
+            + signal_counts.get("Cap Rate Signal", 0) * 3
+            + decision_counts.get("Track Financing Conditions", 0) * 2
+        ),
+        "Supply Pressure": (
+            angle_counts.get("Supply Pressure", 0) * 3
+            + signal_counts.get("Supply / Starts Signal", 0) * 3
+            + signal_counts.get("Vacancy Signal", 0) * 2
+            + decision_counts.get("Track Supply Pipeline", 0) * 2
+        ),
+        "Selective Capital Re-entry": (
+            angle_counts.get("Institutional Flow", 0) * 3
+            + signal_counts.get("Deal Size Signal", 0) * 3
+            + decision_counts.get("Track Institutional Capital Flow", 0) * 2
+            + institutional_mentions
+        ),
+        "Policy / Entitlement Watch": (
+            angle_counts.get("Regulation Risk", 0) * 3
+            + decision_counts.get("Track Regulation Risk", 0) * 2
+        ),
+        "Construction Cost Pressure": (
+            angle_counts.get("Cost Control", 0) * 3
+            + signal_counts.get("Construction Cost Signal", 0) * 3
+            + decision_counts.get("Track Construction Cost", 0) * 2
+        ),
+        "Developer Strategy Shift": (
+            angle_counts.get("Developer Strategy", 0) * 2
+            + decision_counts.get("Track Developer Strategy", 0) * 2
+            + action_counts.get("Must Read", 0)
+        ),
+    }
+
+    # Numeric market signals make the current regime more actionable, so they
+    # add a small boost to the regimes that depend most on quantified evidence.
+    if extracted_number_articles:
+        scores["Financing Stress"] += min(extracted_number_articles, 5)
+        scores["Supply Pressure"] += min(extracted_number_articles, 5)
+        scores["Selective Capital Re-entry"] += min(extracted_number_articles, 3)
+
+    return scores, institutional_mentions, extracted_number_articles
+
+
+def get_regime_confidence(primary_score, secondary_score):
+    """Label confidence from the strength and gap of the top regime scores."""
+    score_gap = primary_score - secondary_score
+
+    if primary_score >= 15 and score_gap >= 4:
+        return "High"
+
+    if primary_score >= 8:
+        return "Medium"
+
+    return "Low"
+
+
+def build_regime_explanation(primary_regime, scores, market_counts, signal_counts):
+    """Create a short plain-English explanation for the detected regime."""
+    top_market = "None detected"
+
+    if market_counts:
+        top_market = market_counts.most_common(1)[0][0]
+
+    if primary_regime == "Financing Stress":
+        return (
+            "Financing-related angles, cap rate signals, or debt-market signals "
+            f"are prominent, with {top_market} as the most common market focus."
+        )
+
+    if primary_regime == "Supply Pressure":
+        return (
+            "Supply, starts, deliveries, vacancy, or pipeline signals are the "
+            f"strongest pattern, with {top_market} as the most common market focus."
+        )
+
+    if primary_regime == "Selective Capital Re-entry":
+        return (
+            "Institutional flow, deal-size, or major-player signals suggest the "
+            "team should watch pricing discovery and capital re-entry."
+        )
+
+    if primary_regime == "Policy / Entitlement Watch":
+        return (
+            "Regulation, entitlement, zoning, rent-control, or permitting signals "
+            "are important enough to require policy monitoring."
+        )
+
+    if primary_regime == "Construction Cost Pressure":
+        return (
+            "Construction cost or cost-control signals are visible, which may "
+            "affect value engineering and development feasibility assumptions."
+        )
+
+    if primary_regime == "Developer Strategy Shift":
+        return (
+            "Developer strategy, adaptive reuse, product strategy, or operating "
+            "model signals are a meaningful part of the current briefing set."
+        )
+
+    return (
+        "No single stress or opportunity theme dominates the current briefing. "
+        "The signal environment appears suitable for continued monitoring."
+    )
+
+
+def detect_narrative_regime(strategy_briefing_articles, market_signal_articles):
+    """
+    Detect a simple market narrative regime from the latest briefing outputs.
+
+    The goal is to turn counts and labels into an easy strategy-team narrative.
+    """
+    angle_counts = count_labels(strategy_briefing_articles, "strategic_angle")
+    signal_counts = count_labels(market_signal_articles, "market_signal")
+    decision_counts = count_labels(strategy_briefing_articles, "decision_use")
+    market_counts = count_labels(strategy_briefing_articles, "market_focus")
+    action_counts = count_labels(strategy_briefing_articles, "action_level")
+    woomi_counts = count_labels(strategy_briefing_articles, "woomi_relevance")
+
+    (
+        scores,
+        institutional_mentions,
+        extracted_number_articles,
+    ) = build_regime_scores(
+        strategy_briefing_articles,
+        market_signal_articles,
+        angle_counts,
+        signal_counts,
+        decision_counts,
+        action_counts,
+    )
+
+    sorted_scores = sorted(scores.items(), key=lambda item: item[1], reverse=True)
+    primary_regime, primary_score = sorted_scores[0]
+    secondary_regime, secondary_score = sorted_scores[1]
+
+    if primary_score < 4:
+        primary_regime = "Stable Monitoring Environment"
+        secondary_regime = ""
+        confidence = "Low"
+    else:
+        confidence = get_regime_confidence(primary_score, secondary_score)
+
+        if secondary_score < 4 or secondary_score < primary_score * 0.6:
+            secondary_regime = ""
+
+    explanation = build_regime_explanation(
+        primary_regime,
+        scores,
+        market_counts,
+        signal_counts,
+    )
+
+    return {
+        "primary_regime": primary_regime,
+        "secondary_regime": secondary_regime,
+        "confidence": confidence,
+        "explanation": explanation,
+        "scores": scores,
+        "angle_counts": angle_counts,
+        "signal_counts": signal_counts,
+        "decision_counts": decision_counts,
+        "market_counts": market_counts,
+        "action_counts": action_counts,
+        "woomi_counts": woomi_counts,
+        "institutional_mentions": institutional_mentions,
+        "extracted_number_articles": extracted_number_articles,
+    }
+
+
+def build_cross_theme_interpretation(regime_data):
+    """Generate rule-based synthesis across themes, markets, and signals."""
+    interpretations = []
+    angle_counts = regime_data["angle_counts"]
+    signal_counts = regime_data["signal_counts"]
+    market_counts = regime_data["market_counts"]
+
+    financing_present = (
+        angle_counts.get("Financing Risk", 0) > 0
+        or signal_counts.get("Financing Cost Signal", 0) > 0
+        or signal_counts.get("Cap Rate Signal", 0) > 0
+    )
+    supply_present = (
+        angle_counts.get("Supply Pressure", 0) > 0
+        or signal_counts.get("Supply / Starts Signal", 0) > 0
+    )
+    institutional_present = (
+        angle_counts.get("Institutional Flow", 0) > 0
+        or signal_counts.get("Deal Size Signal", 0) > 0
+        or regime_data["institutional_mentions"] > 0
+    )
+    california_present = (
+        market_counts.get("California", 0) > 0
+        or market_counts.get("Los Angeles", 0) > 0
+    )
+    policy_present = angle_counts.get("Regulation Risk", 0) > 0
+    cost_present = (
+        angle_counts.get("Cost Control", 0) > 0
+        or signal_counts.get("Construction Cost Signal", 0) > 0
+    )
+    developer_present = angle_counts.get("Developer Strategy", 0) > 0
+
+    if financing_present and supply_present:
+        interpretations.append(
+            "Financing stress plus supply pressure may call for more conservative underwriting, especially around leverage, lease-up pace, and exit cap rates."
+        )
+
+    if institutional_present and (
+        signal_counts.get("Cap Rate Signal", 0) > 0
+        or signal_counts.get("Deal Size Signal", 0) > 0
+    ):
+        interpretations.append(
+            "Institutional flow plus cap rate or deal-size signals may indicate pricing discovery by major capital players."
+        )
+
+    if california_present and policy_present:
+        interpretations.append(
+            "California / LA focus plus policy signals may indicate entitlement, zoning, rent control, or housing-production opportunity and risk."
+        )
+
+    if cost_present and developer_present:
+        interpretations.append(
+            "Construction cost plus developer strategy signals may point to value engineering, design optimization, or delivery-model changes."
+        )
+
+    if not interpretations:
+        interpretations.append(
+            "Stable signals suggest continued monitoring without an immediate strategy change."
+        )
+
+    return interpretations
+
+
+def build_woomi_regime_implications(regime_data):
+    """Create 3 to 5 practical bullets for Woomi / Woomi Global."""
+    implications = []
+    primary_regime = regime_data["primary_regime"]
+    market_counts = regime_data["market_counts"]
+    angle_counts = regime_data["angle_counts"]
+    signal_counts = regime_data["signal_counts"]
+
+    if primary_regime in ["Financing Stress", "Supply Pressure"]:
+        implications.append(
+            "Refresh underwriting sensitivities for debt cost, lease-up timing, rent growth, and exit cap assumptions before evaluating new development starts."
+        )
+
+    if market_counts.get("Los Angeles", 0) > 0 or market_counts.get("California", 0) > 0:
+        implications.append(
+            "Keep LA / California monitoring active because local policy, entitlement, and supply signals are directly relevant to market-entry planning."
+        )
+
+    if (
+        angle_counts.get("Institutional Flow", 0) > 0
+        or signal_counts.get("Deal Size Signal", 0) > 0
+        or regime_data["institutional_mentions"] > 0
+    ):
+        implications.append(
+            "Track institutional capital flow to identify pricing signals, partnership targets, and markets where capital may be returning selectively."
+        )
+
+    if angle_counts.get("Developer Strategy", 0) > 0:
+        implications.append(
+            "Use developer strategy signals to build US residential development capabilities around product type, delivery model, and GP partnership structure."
+        )
+
+    if angle_counts.get("Cost Control", 0) > 0:
+        implications.append(
+            "Review value engineering and construction-cost assumptions where project feasibility may depend on design or procurement discipline."
+        )
+
+    if len(implications) < 3:
+        implications.append(
+            "Maintain a weekly strategy review cadence and watch for repeated signals before changing investment or partnership priorities."
+        )
+
+    return implications[:5]
+
+
+def build_regime_questions(regime_data):
+    """Generate 3 to 5 strategy-team questions from the detected regime."""
+    questions = []
+    primary_regime = regime_data["primary_regime"]
+    angle_counts = regime_data["angle_counts"]
+    market_counts = regime_data["market_counts"]
+    signal_counts = regime_data["signal_counts"]
+
+    if primary_regime == "Financing Stress" or angle_counts.get("Financing Risk", 0) > 0:
+        questions.append(
+            "Are financing conditions changing enough to affect new development starts, refinancing, or exit cap assumptions?"
+        )
+
+    if primary_regime == "Supply Pressure" or signal_counts.get("Supply / Starts Signal", 0) > 0:
+        questions.append(
+            "Are supply signals concentrated in specific markets, product types, or lease-up windows?"
+        )
+
+    if (
+        primary_regime == "Selective Capital Re-entry"
+        or angle_counts.get("Institutional Flow", 0) > 0
+    ):
+        questions.append(
+            "Are institutional buyers returning to markets, assets, or capital structures relevant to Woomi?"
+        )
+
+    if (
+        market_counts.get("Los Angeles", 0) > 0
+        or market_counts.get("California", 0) > 0
+        or angle_counts.get("Regulation Risk", 0) > 0
+    ):
+        questions.append(
+            "Are LA / California policy changes creating entitlement opportunities or risks?"
+        )
+
+    if (
+        primary_regime == "Construction Cost Pressure"
+        or angle_counts.get("Cost Control", 0) > 0
+    ):
+        questions.append(
+            "Do cost signals require updated value engineering, procurement, or contingency assumptions?"
+        )
+
+    if not questions:
+        questions.extend([
+            "Which repeated signals should be watched before changing underwriting assumptions?",
+            "Are any markets showing early signs of a shift in capital, supply, or regulation?",
+            "Which sources should be tracked more closely in the next run?",
+        ])
+
+    return questions[:5]
+
+
+def count_articles_with_keywords(articles, keywords):
+    """Count articles that include at least one keyword in matched text."""
+    count = 0
+
+    for article in articles:
+        text = " ".join([
+            article.get("title", ""),
+            article.get("summary", ""),
+            article.get("matched_keywords", ""),
+            article.get("article_text_sample", ""),
+        ]).lower()
+
+        if any(keyword.lower() in text for keyword in keywords):
+            count += 1
+
+    return count
+
+
+def get_strength_label(score):
+    """Convert a 0 to 100 heatmap score into a readable strength label."""
+    if score >= 80:
+        return "Very Strong"
+
+    if score >= 60:
+        return "Strong"
+
+    if score >= 40:
+        return "Moderate"
+
+    if score >= 20:
+        return "Weak"
+
+    return "Not Detected"
+
+
+def capped_component(count, weight, cap):
+    """Calculate one weighted component while capping its contribution."""
+    return min(count * weight, cap)
+
+
+def get_heatmap_interpretation(regime, strength_label):
+    """Write a short interpretation for each regime heatmap row."""
+    if strength_label == "Not Detected":
+        return f"{regime} is not a meaningful signal in this run."
+
+    if regime == "Financing Stress":
+        return "Debt, rates, refinancing, or cap-rate pressure is visible enough to affect underwriting attention."
+
+    if regime == "Supply Pressure":
+        return "Supply, starts, deliveries, lease-up, vacancy, or concession signals are visible."
+
+    if regime == "Selective Capital Re-entry":
+        return "Institutional flow, deal-size, or major-player activity suggests capital-market re-engagement."
+
+    if regime == "Policy / Entitlement Watch":
+        return "Policy, zoning, permitting, entitlement, rent-control, or housing-production signals require monitoring."
+
+    if regime == "Construction Cost Pressure":
+        return "Cost-control, labor, materials, or construction pricing signals may affect project feasibility."
+
+    if regime == "Developer Strategy Shift":
+        return "Developer behavior, product strategy, adaptive reuse, BTR, modular, or operating-model signals are visible."
+
+    return "No single stress regime dominates, so the current environment looks more like general monitoring."
+
+
+def build_supporting_signals(signal_parts):
+    """Join non-empty supporting signal notes into one CSV-friendly sentence."""
+    useful_parts = [part for part in signal_parts if part]
+
+    if not useful_parts:
+        return "No clear supporting signals detected"
+
+    return "; ".join(useful_parts)
+
+
+def build_regime_heatmap_rows(
+    run_timestamp,
+    strategy_briefing_articles,
+    market_signal_articles,
+):
+    """
+    Build calibrated regime heatmap rows with 0 to 100 final scores.
+
+    The scoring is rule-based and intentionally readable. It is a heatmap, not
+    a prediction model. Raw scores are weighted and capped, normalized scores
+    put each regime on a 0 to 100 scale, and final scores are the calibrated
+    values used for strength labels.
+    """
+    angle_counts = count_labels(strategy_briefing_articles, "strategic_angle")
+    signal_counts = count_labels(market_signal_articles, "market_signal")
+    decision_counts = count_labels(strategy_briefing_articles, "decision_use")
+    market_counts = count_labels(strategy_briefing_articles, "market_focus")
+    action_counts = count_labels(strategy_briefing_articles, "action_level")
+    institutional_mentions = count_institutional_player_mentions(
+        strategy_briefing_articles
+    )
+    extracted_number_articles = sum(
+        1
+        for article in market_signal_articles
+        if article.get("extracted_numbers", "").strip()
+    )
+    financing_keywords = count_articles_with_keywords(
+        strategy_briefing_articles,
+        ["rate", "rates", "debt", "loan", "refinancing", "cap rate", "sofr"],
+    )
+    supply_keywords = count_articles_with_keywords(
+        strategy_briefing_articles,
+        ["supply", "starts", "deliveries", "pipeline", "vacancy", "lease-up"],
+    )
+    policy_keywords = count_articles_with_keywords(
+        strategy_briefing_articles,
+        ["zoning", "permit", "permitting", "entitlement", "rent control", "lihtc"],
+    )
+    cost_keywords = count_articles_with_keywords(
+        strategy_briefing_articles,
+        ["cost", "labor", "materials", "construction cost", "value engineering"],
+    )
+    developer_keywords = count_articles_with_keywords(
+        strategy_briefing_articles,
+        ["developer", "btr", "build-to-rent", "modular", "adaptive reuse", "amenity"],
+    )
+    california_policy_focus = (
+        market_counts.get("California", 0)
+        + market_counts.get("Los Angeles", 0)
+    )
+
+    regime_inputs = {
+        "Financing Stress": {
+            "raw_score": (
+                capped_component(angle_counts.get("Financing Risk", 0), 7, 35)
+                + capped_component(signal_counts.get("Financing Cost Signal", 0), 9, 27)
+                + capped_component(signal_counts.get("Cap Rate Signal", 0), 9, 27)
+                + capped_component(decision_counts.get("Track Financing Conditions", 0), 5, 25)
+                + capped_component(financing_keywords, 3, 18)
+                + capped_component(action_counts.get("Must Read", 0), 1, 8)
+                + min(extracted_number_articles, 8)
+            ),
+            "signals": [
+                f"Financing Risk articles: {angle_counts.get('Financing Risk', 0)}",
+                f"Financing/cap-rate market signals: {signal_counts.get('Financing Cost Signal', 0) + signal_counts.get('Cap Rate Signal', 0)}",
+                f"Financing matched-keyword articles: {financing_keywords}",
+            ],
+        },
+        "Supply Pressure": {
+            "raw_score": (
+                capped_component(angle_counts.get("Supply Pressure", 0), 9, 36)
+                + capped_component(signal_counts.get("Supply / Starts Signal", 0), 9, 36)
+                + capped_component(signal_counts.get("Vacancy Signal", 0), 7, 21)
+                + capped_component(signal_counts.get("Concession Signal", 0), 7, 21)
+                + capped_component(decision_counts.get("Track Supply Pipeline", 0), 5, 25)
+                + capped_component(supply_keywords, 3, 18)
+                + min(extracted_number_articles, 8)
+            ),
+            "signals": [
+                f"Supply Pressure articles: {angle_counts.get('Supply Pressure', 0)}",
+                f"Supply/vacancy/concession signals: {signal_counts.get('Supply / Starts Signal', 0) + signal_counts.get('Vacancy Signal', 0) + signal_counts.get('Concession Signal', 0)}",
+                f"Supply matched-keyword articles: {supply_keywords}",
+            ],
+        },
+        "Selective Capital Re-entry": {
+            "raw_score": (
+                capped_component(angle_counts.get("Institutional Flow", 0), 7, 35)
+                + capped_component(signal_counts.get("Deal Size Signal", 0), 8, 40)
+                + capped_component(decision_counts.get("Track Institutional Capital Flow", 0), 5, 25)
+                + capped_component(institutional_mentions, 5, 20)
+                + capped_component(action_counts.get("Must Read", 0), 1, 8)
+                + min(extracted_number_articles, 6)
+            ),
+            "signals": [
+                f"Institutional Flow articles: {angle_counts.get('Institutional Flow', 0)}",
+                f"Deal Size Signal articles: {signal_counts.get('Deal Size Signal', 0)}",
+                f"Institutional player mentions: {institutional_mentions}",
+            ],
+        },
+        "Policy / Entitlement Watch": {
+            "raw_score": (
+                capped_component(angle_counts.get("Regulation Risk", 0), 10, 40)
+                + capped_component(decision_counts.get("Track Regulation Risk", 0), 7, 28)
+                + capped_component(policy_keywords, 4, 20)
+                + capped_component(california_policy_focus, 3, 12)
+            ),
+            "signals": [
+                f"Regulation Risk articles: {angle_counts.get('Regulation Risk', 0)}",
+                f"Policy matched-keyword articles: {policy_keywords}",
+                f"California / Los Angeles focus count: {california_policy_focus}",
+            ],
+        },
+        "Construction Cost Pressure": {
+            "raw_score": (
+                capped_component(angle_counts.get("Cost Control", 0), 10, 40)
+                + capped_component(signal_counts.get("Construction Cost Signal", 0), 10, 40)
+                + capped_component(decision_counts.get("Track Construction Cost", 0), 7, 28)
+                + capped_component(cost_keywords, 4, 20)
+            ),
+            "signals": [
+                f"Cost Control articles: {angle_counts.get('Cost Control', 0)}",
+                f"Construction Cost Signal articles: {signal_counts.get('Construction Cost Signal', 0)}",
+                f"Cost matched-keyword articles: {cost_keywords}",
+            ],
+        },
+        "Developer Strategy Shift": {
+            "raw_score": (
+                capped_component(angle_counts.get("Developer Strategy", 0), 7, 35)
+                + capped_component(decision_counts.get("Track Developer Strategy", 0), 5, 25)
+                + capped_component(developer_keywords, 4, 20)
+                + capped_component(action_counts.get("Must Read", 0), 1, 8)
+            ),
+            "signals": [
+                f"Developer Strategy articles: {angle_counts.get('Developer Strategy', 0)}",
+                f"Developer matched-keyword articles: {developer_keywords}",
+                f"Must Read articles: {action_counts.get('Must Read', 0)}",
+            ],
+        },
+    }
+
+    max_active_score = max(
+        regime_input["raw_score"] for regime_input in regime_inputs.values()
+    ) if regime_inputs else 0
+    monitor_count = action_counts.get("Monitor", 0)
+    stable_score = max(0, 70 - max_active_score)
+
+    if max_active_score < 40:
+        stable_score += monitor_count * 5
+
+    regime_inputs["Stable Monitoring Environment"] = {
+        "raw_score": stable_score,
+        "signals": [
+            f"Highest active regime score before stable adjustment: {max_active_score}",
+            f"Monitor articles: {monitor_count}",
+        ],
+    }
+
+    rows = []
+
+    for regime, regime_input in regime_inputs.items():
+        raw_score = int(regime_input["raw_score"])
+        normalized_score = min(100, round((raw_score / 150) * 100))
+        final_score = normalized_score
+        strength_label = get_strength_label(final_score)
+        rows.append({
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "regime": regime,
+            "raw_score": raw_score,
+            "normalized_score": normalized_score,
+            "final_score": final_score,
+            "strength_label": strength_label,
+            "supporting_signals": build_supporting_signals(regime_input["signals"]),
+            "interpretation": get_heatmap_interpretation(regime, strength_label),
+        })
+
+    rows.sort(key=lambda row: row["final_score"], reverse=True)
+
+    return rows
+
+
+def build_heatmap_woomi_implications(heatmap_rows):
+    """Create Woomi implications from Strong and Very Strong heatmap rows."""
+    implications = []
+    strong_regimes = {
+        row["regime"]: row
+        for row in heatmap_rows
+        if row["strength_label"] in ["Strong", "Very Strong"]
+    }
+
+    if "Financing Stress" in strong_regimes:
+        implications.append(
+            "Financing Stress is strong, so use conservative underwriting and tighter debt-sensitivity assumptions."
+        )
+
+    if "Selective Capital Re-entry" in strong_regimes:
+        implications.append(
+            "Selective Capital Re-entry is strong, so track pricing discovery, GP partners, and institutional capital counterparties."
+        )
+
+    if "Supply Pressure" in strong_regimes:
+        implications.append(
+            "Supply Pressure is strong, so monitor lease-up, vacancy, concessions, starts, and delivery timing."
+        )
+
+    if "Policy / Entitlement Watch" in strong_regimes:
+        implications.append(
+            "Policy / Entitlement Watch is strong, so keep LA / California entitlement, zoning, and permitting changes on the agenda."
+        )
+
+    if "Construction Cost Pressure" in strong_regimes:
+        implications.append(
+            "Construction Cost Pressure is strong, so track value engineering, procurement, and cost assumptions."
+        )
+
+    if "Developer Strategy Shift" in strong_regimes:
+        implications.append(
+            "Developer Strategy Shift is strong, so monitor BTR, modular construction, property management technology, and amenity strategy."
+        )
+
+    if not implications:
+        implications.append(
+            "No regime is Strong or Very Strong, so continue monitoring until repeated signals build confidence."
+        )
+
+    return implications
+
+
+def generate_regime_heatmap_outputs(heatmap_rows, dated_output_dir):
+    """Write regime_heatmap.csv and regime_heatmap_report.md."""
+    fieldnames = [
+        "run_timestamp",
+        "regime",
+        "raw_score",
+        "normalized_score",
+        "final_score",
+        "strength_label",
+        "supporting_signals",
+        "interpretation",
+    ]
+    write_csv_outputs(
+        REGIME_HEATMAP_OUTPUT_FILE,
+        fieldnames,
+        heatmap_rows,
+        dated_output_dir,
+    )
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    top_regime = heatmap_rows[0] if heatmap_rows else {}
+    second_regime = heatmap_rows[1] if len(heatmap_rows) > 1 else {}
+    lines = [
+        "# Regime Heatmap Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        "Scores are calibrated with capped weighted components, so final_score is less likely to saturate at 100 unless the supporting signals are very strong.",
+        "",
+        f"- Top regime by final_score: {top_regime.get('regime', 'None detected')} ({top_regime.get('final_score', 0)})",
+        f"- Second regime by final_score: {second_regime.get('regime', 'None detected')} ({second_regime.get('final_score', 0)})",
+        "",
+        "## Full Regime Score Table",
+        "",
+        "| Regime | Raw Score | Normalized Score | Final Score | Strength | Supporting Signals |",
+        "| --- | ---: | ---: | ---: | --- | --- |",
+    ]
+
+    for row in heatmap_rows:
+        lines.append(
+            f"| {row['regime']} | {row['raw_score']} | "
+            f"{row['normalized_score']} | {row['final_score']} | "
+            f"{row['strength_label']} | {row['supporting_signals']} |"
+        )
+
+    lines.extend([
+        "",
+        "## Regime Interpretations",
+        "",
+    ])
+
+    for row in heatmap_rows:
+        lines.append(
+            f"- {row['regime']} ({row['strength_label']}): {row['interpretation']}"
+        )
+
+    lines.extend([
+        "",
+        "## Implications for Woomi / Woomi Global",
+        "",
+    ])
+
+    for implication in build_heatmap_woomi_implications(heatmap_rows):
+        lines.append(f"- {implication}")
+
+    lines.append("")
+
+    write_markdown_outputs(
+        REGIME_HEATMAP_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+
+def get_heatmap_score(row):
+    """Read a heatmap final score while supporting older score-only files."""
+    return safe_int(row.get("final_score") or row.get("score"))
+
+
+def get_momentum_label(score_change, has_previous_score):
+    """Convert a score change into a readable momentum label."""
+    if not has_previous_score:
+        return "New / Insufficient History"
+
+    if score_change >= 15:
+        return "Accelerating"
+
+    if score_change >= 5:
+        return "Improving"
+
+    if score_change <= -15:
+        return "Fading"
+
+    if score_change <= -5:
+        return "Weakening"
+
+    return "Stable"
+
+
+def build_regime_momentum_rows(run_timestamp, heatmap_rows, previous_heatmap_rows):
+    """Compare latest heatmap final scores with the previous archived heatmap."""
+    previous_by_regime = {
+        row.get("regime", ""): row
+        for row in previous_heatmap_rows
+        if row.get("regime", "")
+    }
+    rows = []
+
+    for row in heatmap_rows:
+        regime = row["regime"]
+        previous_row = previous_by_regime.get(regime)
+        has_previous_score = previous_row is not None
+        previous_score = get_heatmap_score(previous_row) if previous_row else 0
+        latest_score = safe_int(row["final_score"])
+        score_change = latest_score - previous_score
+
+        rows.append({
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "regime": regime,
+            "previous_score": previous_score if has_previous_score else "",
+            "latest_score": latest_score,
+            "score_change": score_change if has_previous_score else "",
+            "momentum_label": get_momentum_label(score_change, has_previous_score),
+        })
+
+    return rows
+
+
+def build_momentum_woomi_implications(momentum_rows, heatmap_rows, dominant_spread):
+    """Create Woomi implications from accelerating regime momentum."""
+    implications = []
+    latest_strength = {
+        row["regime"]: row["strength_label"]
+        for row in heatmap_rows
+    }
+    momentum_by_regime = {
+        row["regime"]: row["momentum_label"]
+        for row in momentum_rows
+    }
+
+    if momentum_by_regime.get("Financing Stress") == "Accelerating":
+        implications.append(
+            "Financing Stress is accelerating, so tighten debt assumptions and run sensitivity tests on leverage, interest cost, and exit cap rates."
+        )
+
+    if momentum_by_regime.get("Supply Pressure") == "Accelerating":
+        implications.append(
+            "Supply Pressure is accelerating, so monitor lease-up, concessions, vacancy, and new starts more closely."
+        )
+
+    if momentum_by_regime.get("Selective Capital Re-entry") == "Accelerating":
+        implications.append(
+            "Selective Capital Re-entry is accelerating, so track GP partners, acquisitions, pricing discovery, and capital-market re-entry."
+        )
+
+    if momentum_by_regime.get("Policy / Entitlement Watch") == "Accelerating":
+        implications.append(
+            "Policy / Entitlement Watch is accelerating, so review entitlement, zoning, and permitting implications, especially for California or Los Angeles."
+        )
+
+    if momentum_by_regime.get("Developer Strategy Shift") == "Accelerating":
+        implications.append(
+            "Developer Strategy Shift is accelerating, so watch BTR, modular construction, value engineering, property management technology, and amenity strategy."
+        )
+
+    if dominant_spread < 10:
+        implications.append(
+            "The dominant regime spread is small, so the market environment looks mixed and should not be interpreted as one clear narrative."
+        )
+
+    if not implications:
+        strongest_regimes = [
+            regime
+            for regime, strength in latest_strength.items()
+            if strength in ["Strong", "Very Strong"]
+        ]
+
+        if strongest_regimes:
+            implications.append(
+                "No regime is accelerating sharply, but strong current scores still deserve monitoring: "
+                + ", ".join(strongest_regimes[:3])
+                + "."
+            )
+        else:
+            implications.append(
+                "Momentum is limited, so keep monitoring until repeated runs show a clearer direction."
+            )
+
+    return implications
+
+
+def generate_regime_momentum_outputs(
+    heatmap_rows,
+    momentum_rows,
+    dated_output_dir,
+):
+    """Write regime_momentum.csv and regime_momentum_report.md."""
+    fieldnames = [
+        "run_timestamp",
+        "regime",
+        "previous_score",
+        "latest_score",
+        "score_change",
+        "momentum_label",
+    ]
+    write_csv_outputs(
+        REGIME_MOMENTUM_OUTPUT_FILE,
+        fieldnames,
+        momentum_rows,
+        dated_output_dir,
+    )
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    top_regime = heatmap_rows[0] if heatmap_rows else {}
+    second_regime = heatmap_rows[1] if len(heatmap_rows) > 1 else {}
+    dominant_spread = (
+        safe_int(top_regime.get("final_score"))
+        - safe_int(second_regime.get("final_score"))
+        if top_regime and second_regime
+        else 0
+    )
+    concentration_text = (
+        "The current regime picture is broad-based because the top scores are close together."
+        if dominant_spread < 10
+        else "The current regime picture is more concentrated because the top score is clearly ahead."
+    )
+    lines = [
+        "# Regime Momentum Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Top regime by final_score: {top_regime.get('regime', 'None detected')} ({top_regime.get('final_score', 0)})",
+        f"- Second regime by final_score: {second_regime.get('regime', 'None detected')} ({second_regime.get('final_score', 0)})",
+        f"- Dominant regime spread: {dominant_spread}",
+        "",
+        "## Momentum Summary",
+        "",
+        "| Regime | Previous Score | Latest Score | Change | Momentum |",
+        "| --- | ---: | ---: | ---: | --- |",
+    ]
+
+    for row in momentum_rows:
+        lines.append(
+            f"| {row['regime']} | {row['previous_score']} | "
+            f"{row['latest_score']} | {row['score_change']} | "
+            f"{row['momentum_label']} |"
+        )
+
+    lines.extend([
+        "",
+        "## Concentration Interpretation",
+        "",
+        f"- {concentration_text}",
+        "",
+        "## Implications for Woomi / Woomi Global",
+        "",
+    ])
+
+    for implication in build_momentum_woomi_implications(
+        momentum_rows,
+        heatmap_rows,
+        dominant_spread,
+    ):
+        lines.append(f"- {implication}")
+
+    lines.append("")
+
+    write_markdown_outputs(
+        REGIME_MOMENTUM_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+    return {
+        "top_regime": top_regime.get("regime", "None detected"),
+        "top_score": safe_int(top_regime.get("final_score")),
+        "second_regime": second_regime.get("regime", "None detected"),
+        "second_score": safe_int(second_regime.get("final_score")),
+        "dominant_spread": dominant_spread,
+    }
+
+
+def get_regime_article_match(article, regime):
+    """Return True when an article supports a specific narrative regime."""
+    strategic_angle = article.get("strategic_angle", "")
+    market_signal = article.get("market_signal", "")
+    decision_use = article.get("decision_use", "")
+    matched_text = " ".join([
+        article.get("title", ""),
+        article.get("matched_keywords", ""),
+        article.get("article_text_sample", ""),
+    ]).lower()
+
+    if regime == "Financing Stress":
+        return (
+            "Financing Risk" in strategic_angle
+            or market_signal in ["Financing Cost Signal", "Cap Rate Signal"]
+            or "Track Financing Conditions" in decision_use
+            or any(keyword in matched_text for keyword in ["rate", "debt", "loan", "refinancing", "cap rate"])
+        )
+
+    if regime == "Supply Pressure":
+        return (
+            "Supply Pressure" in strategic_angle
+            or market_signal in ["Supply / Starts Signal", "Vacancy Signal", "Concession Signal"]
+            or "Track Supply Pipeline" in decision_use
+            or any(keyword in matched_text for keyword in ["supply", "starts", "deliveries", "vacancy", "lease-up"])
+        )
+
+    if regime == "Selective Capital Re-entry":
+        return (
+            "Institutional Flow" in strategic_angle
+            or market_signal == "Deal Size Signal"
+            or "Track Institutional Capital Flow" in decision_use
+            or any(keyword.lower() in matched_text for keyword in PLAYER_KEYWORDS)
+        )
+
+    if regime == "Policy / Entitlement Watch":
+        return (
+            "Regulation Risk" in strategic_angle
+            or "Track Regulation Risk" in decision_use
+            or any(keyword in matched_text for keyword in ["zoning", "permit", "entitlement", "rent control", "lihtc"])
+        )
+
+    if regime == "Construction Cost Pressure":
+        return (
+            "Cost Control" in strategic_angle
+            or market_signal == "Construction Cost Signal"
+            or "Track Construction Cost" in decision_use
+            or any(keyword in matched_text for keyword in ["cost", "labor", "materials", "value engineering"])
+        )
+
+    if regime == "Developer Strategy Shift":
+        return (
+            "Developer Strategy" in strategic_angle
+            or "Track Developer Strategy" in decision_use
+            or any(keyword in matched_text for keyword in ["developer", "btr", "build-to-rent", "modular", "adaptive reuse", "amenity"])
+        )
+
+    return False
+
+
+def get_regime_consistency_count(regime, supporting_articles):
+    """Count how many evidence types support the same regime."""
+    has_angle = False
+    has_signal = False
+    has_decision_use = False
+
+    for article in supporting_articles:
+        strategic_angle = article.get("strategic_angle", "")
+        market_signal = article.get("market_signal", "")
+        decision_use = article.get("decision_use", "")
+
+        if regime == "Financing Stress":
+            has_angle = has_angle or "Financing Risk" in strategic_angle
+            has_signal = has_signal or market_signal in ["Financing Cost Signal", "Cap Rate Signal"]
+            has_decision_use = has_decision_use or "Track Financing Conditions" in decision_use
+        elif regime == "Supply Pressure":
+            has_angle = has_angle or "Supply Pressure" in strategic_angle
+            has_signal = has_signal or market_signal in ["Supply / Starts Signal", "Vacancy Signal", "Concession Signal"]
+            has_decision_use = has_decision_use or "Track Supply Pipeline" in decision_use
+        elif regime == "Selective Capital Re-entry":
+            has_angle = has_angle or "Institutional Flow" in strategic_angle
+            has_signal = has_signal or market_signal == "Deal Size Signal"
+            has_decision_use = has_decision_use or "Track Institutional Capital Flow" in decision_use
+        elif regime == "Policy / Entitlement Watch":
+            has_angle = has_angle or "Regulation Risk" in strategic_angle
+            has_decision_use = has_decision_use or "Track Regulation Risk" in decision_use
+        elif regime == "Construction Cost Pressure":
+            has_angle = has_angle or "Cost Control" in strategic_angle
+            has_signal = has_signal or market_signal == "Construction Cost Signal"
+            has_decision_use = has_decision_use or "Track Construction Cost" in decision_use
+        elif regime == "Developer Strategy Shift":
+            has_angle = has_angle or "Developer Strategy" in strategic_angle
+            has_decision_use = has_decision_use or "Track Developer Strategy" in decision_use
+
+    return sum([has_angle, has_signal, has_decision_use])
+
+
+def get_urgency_label(severity_score, conviction_score):
+    """Convert severity and conviction into a management urgency label."""
+    if severity_score >= 80 and conviction_score >= 70:
+        return "Immediate Attention"
+
+    if severity_score >= 60:
+        return "Review This Week"
+
+    if severity_score >= 40:
+        return "Monitor"
+
+    return "Background"
+
+
+def get_opportunity_or_risk_label(regime):
+    """Label each regime as a risk, opportunity, or mixed signal."""
+    labels = {
+        "Financing Stress": "Risk",
+        "Supply Pressure": "Risk",
+        "Construction Cost Pressure": "Risk",
+        "Policy / Entitlement Watch": "Risk / Opportunity",
+        "Selective Capital Re-entry": "Opportunity / Pricing Signal",
+        "Developer Strategy Shift": "Opportunity / Capability Signal",
+    }
+
+    return labels.get(regime, "General Monitoring")
+
+
+def build_key_evidence(
+    supporting_articles,
+    heatmap_row,
+    momentum_row,
+    high_priority_count,
+    extracted_number_count,
+):
+    """Create a compact evidence sentence for the severity CSV."""
+    return build_supporting_signals([
+        f"supporting articles: {len(supporting_articles)}",
+        f"high-priority supporting articles: {high_priority_count}",
+        f"supporting articles with extracted numbers: {extracted_number_count}",
+        f"momentum: {momentum_row.get('momentum_label', 'New / Insufficient History')}",
+        heatmap_row.get("supporting_signals", ""),
+    ])
+
+
+def build_narrative_severity_rows(
+    run_timestamp,
+    strategy_briefing_articles,
+    heatmap_rows,
+    momentum_rows,
+    narrative_regime,
+):
+    """
+    Score severity and conviction for each active narrative regime.
+
+    Severity asks how urgent the signal is. Conviction asks how well-supported
+    the signal is across articles, labels, numeric evidence, and momentum.
+    """
+    regimes = [
+        "Financing Stress",
+        "Supply Pressure",
+        "Selective Capital Re-entry",
+        "Policy / Entitlement Watch",
+        "Construction Cost Pressure",
+        "Developer Strategy Shift",
+    ]
+    heatmap_by_regime = {row["regime"]: row for row in heatmap_rows}
+    momentum_by_regime = {row["regime"]: row for row in momentum_rows}
+    momentum_severity_adjustments = {
+        "Accelerating": 12,
+        "Improving": 6,
+        "Stable": 2,
+        "Weakening": -4,
+        "Fading": -10,
+        "New / Insufficient History": 0,
+    }
+    momentum_conviction_adjustments = {
+        "Accelerating": 10,
+        "Improving": 7,
+        "Stable": 4,
+        "Weakening": -2,
+        "Fading": -6,
+        "New / Insufficient History": 0,
+    }
+    narrative_regimes = [
+        narrative_regime.get("primary_regime", ""),
+        narrative_regime.get("secondary_regime", ""),
+    ]
+    rows = []
+
+    for regime in regimes:
+        heatmap_row = heatmap_by_regime.get(regime, {})
+        momentum_row = momentum_by_regime.get(regime, {})
+        supporting_articles = [
+            article
+            for article in strategy_briefing_articles
+            if get_regime_article_match(article, regime)
+        ]
+        high_priority_count = sum(
+            1
+            for article in supporting_articles
+            if article.get("action_level") in ["Must Read", "Review"]
+        )
+        extracted_number_count = sum(
+            1
+            for article in supporting_articles
+            if article.get("extracted_numbers", "").strip()
+        )
+        market_signal_count = sum(
+            1
+            for article in supporting_articles
+            if article.get("market_signal") != "No Clear Numeric Signal"
+        )
+        consistency_count = get_regime_consistency_count(regime, supporting_articles)
+        final_score = safe_int(heatmap_row.get("final_score"))
+        momentum_label = momentum_row.get("momentum_label", "New / Insufficient History")
+        severity_score = final_score
+        severity_score += momentum_severity_adjustments.get(momentum_label, 0)
+        severity_score += min(high_priority_count * 2, 12)
+        severity_score += min(market_signal_count * 2, 10)
+        severity_score += min(extracted_number_count, 8)
+        severity_score = max(0, min(100, severity_score))
+
+        conviction_score = min(len(supporting_articles) * 6, 36)
+        conviction_score += consistency_count * 12
+        conviction_score += 18 if regime in narrative_regimes else 0
+        conviction_score += momentum_conviction_adjustments.get(momentum_label, 0)
+        conviction_score += min(extracted_number_count * 2, 10)
+        conviction_score = max(0, min(100, conviction_score))
+
+        rows.append({
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "regime": regime,
+            "severity_score": severity_score,
+            "conviction_score": conviction_score,
+            "urgency_label": get_urgency_label(severity_score, conviction_score),
+            "opportunity_or_risk_label": get_opportunity_or_risk_label(regime),
+            "key_evidence": build_key_evidence(
+                supporting_articles,
+                heatmap_row,
+                momentum_row,
+                high_priority_count,
+                extracted_number_count,
+            ),
+        })
+
+    rows.sort(
+        key=lambda row: (
+            -safe_int(row["severity_score"]),
+            -safe_int(row["conviction_score"]),
+            row["regime"],
+        )
+    )
+
+    return rows
+
+
+def build_severity_woomi_implications(severity_rows):
+    """Generate Woomi implications from severity and conviction rankings."""
+    implications = []
+    top_rows = severity_rows[:3]
+
+    for row in top_rows:
+        regime = row["regime"]
+        urgency = row["urgency_label"]
+
+        if row["severity_score"] < 40:
+            continue
+
+        if regime == "Financing Stress":
+            implications.append(
+                f"{urgency}: tighten debt assumptions, refinancing sensitivity, and exit-cap underwriting."
+            )
+        elif regime == "Supply Pressure":
+            implications.append(
+                f"{urgency}: watch lease-up, vacancy, concessions, and starts before assuming rent-growth durability."
+            )
+        elif regime == "Selective Capital Re-entry":
+            implications.append(
+                f"{urgency}: track pricing discovery, acquisitions, GP partners, and institutional capital re-entry."
+            )
+        elif regime == "Policy / Entitlement Watch":
+            implications.append(
+                f"{urgency}: monitor entitlement, zoning, permitting, and California / LA policy risk or opportunity."
+            )
+        elif regime == "Construction Cost Pressure":
+            implications.append(
+                f"{urgency}: review value engineering, procurement, and cost assumptions."
+            )
+        elif regime == "Developer Strategy Shift":
+            implications.append(
+                f"{urgency}: monitor BTR, modular construction, property management technology, and amenity strategy."
+            )
+
+    if not implications:
+        implications.append(
+            "No regime currently requires elevated management attention; continue monitoring for repeated evidence."
+        )
+
+    return implications
+
+
+def generate_narrative_severity_outputs(severity_rows, dated_output_dir):
+    """Write narrative_severity.csv and narrative_severity_report.md."""
+    fieldnames = [
+        "run_timestamp",
+        "regime",
+        "severity_score",
+        "conviction_score",
+        "urgency_label",
+        "opportunity_or_risk_label",
+        "key_evidence",
+    ]
+    write_csv_outputs(
+        NARRATIVE_SEVERITY_OUTPUT_FILE,
+        fieldnames,
+        severity_rows,
+        dated_output_dir,
+    )
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    top_severity = severity_rows[0] if severity_rows else {}
+    top_conviction = max(
+        severity_rows,
+        key=lambda row: safe_int(row["conviction_score"]),
+    ) if severity_rows else {}
+    lines = [
+        "# Narrative Severity Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Top severity regime: {top_severity.get('regime', 'None detected')} ({top_severity.get('severity_score', 0)})",
+        f"- Top conviction regime: {top_conviction.get('regime', 'None detected')} ({top_conviction.get('conviction_score', 0)})",
+        "",
+        "## Severity And Conviction Table",
+        "",
+        "| Regime | Severity | Conviction | Urgency | Risk / Opportunity |",
+        "| --- | ---: | ---: | --- | --- |",
+    ]
+
+    for row in severity_rows:
+        lines.append(
+            f"| {row['regime']} | {row['severity_score']} | "
+            f"{row['conviction_score']} | {row['urgency_label']} | "
+            f"{row['opportunity_or_risk_label']} |"
+        )
+
+    lines.extend([
+        "",
+        "## Key Evidence",
+        "",
+    ])
+
+    for row in severity_rows:
+        lines.append(f"- {row['regime']}: {row['key_evidence']}")
+
+    lines.extend([
+        "",
+        "## Implications for Woomi / Woomi Global",
+        "",
+    ])
+
+    for implication in build_severity_woomi_implications(severity_rows):
+        lines.append(f"- {implication}")
+
+    lines.extend([
+        "",
+        "## Recommended Management Attention Items",
+        "",
+    ])
+
+    urgency_order = ["Immediate Attention", "Review This Week", "Monitor"]
+    wrote_item = False
+
+    for urgency in urgency_order:
+        matching_rows = [
+            row for row in severity_rows
+            if row["urgency_label"] == urgency
+        ]
+
+        if matching_rows:
+            lines.append(f"### {urgency}")
+            lines.append("")
+            wrote_item = True
+
+            for row in matching_rows:
+                lines.append(
+                    f"- {row['regime']}: severity {row['severity_score']}, "
+                    f"conviction {row['conviction_score']}."
+                )
+
+            lines.append("")
+
+    if not wrote_item:
+        lines.append("- No Immediate Attention, Review This Week, or Monitor items were detected.")
+        lines.append("")
+
+    write_markdown_outputs(
+        NARRATIVE_SEVERITY_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+    return {
+        "top_severity_regime": top_severity.get("regime", "None detected"),
+        "top_severity_score": safe_int(top_severity.get("severity_score")),
+        "top_conviction_regime": top_conviction.get("regime", "None detected"),
+        "top_conviction_score": safe_int(top_conviction.get("conviction_score")),
+        "immediate_attention_items": [
+            row["regime"]
+            for row in severity_rows
+            if row["urgency_label"] == "Immediate Attention"
+        ],
+    }
+
+
+def get_business_area_impact(regime, market_focus_counts):
+    """Map each regime to one or more Woomi business areas."""
+    labels = []
+
+    if regime == "Financing Stress":
+        labels.extend(["Underwriting", "Financing", "Capital Markets"])
+    elif regime == "Supply Pressure":
+        labels.extend(["Underwriting", "Land / Pipeline", "Leasing / Operations"])
+    elif regime == "Selective Capital Re-entry":
+        labels.extend(["GP Partnership", "Capital Markets", "Strategic Monitoring"])
+    elif regime == "Policy / Entitlement Watch":
+        labels.extend(["Land / Pipeline", "LA / California Strategy", "Strategic Monitoring"])
+    elif regime == "Construction Cost Pressure":
+        labels.extend(["Underwriting", "Cost Management"])
+    elif regime == "Developer Strategy Shift":
+        labels.extend(["GP Partnership", "Cost Management", "Leasing / Operations", "Strategic Monitoring"])
+
+    if (
+        market_focus_counts.get("Los Angeles", 0) > 0
+        or market_focus_counts.get("California", 0) > 0
+    ) and "LA / California Strategy" not in labels:
+        labels.append("LA / California Strategy")
+
+    return "; ".join(labels) if labels else "Strategic Monitoring"
+
+
+def get_impact_label(impact_score):
+    """Convert impact score into a business impact label."""
+    if impact_score >= 80:
+        return "Critical Business Impact"
+
+    if impact_score >= 60:
+        return "High Business Impact"
+
+    if impact_score >= 40:
+        return "Moderate Business Impact"
+
+    return "Low Business Impact"
+
+
+def get_key_business_risk_or_opportunity(regime):
+    """Generate a short business risk or opportunity explanation."""
+    explanations = {
+        "Financing Stress": (
+            "Debt cost and credit availability may affect construction loan sizing, refinancing assumptions, and exit cap rates."
+        ),
+        "Supply Pressure": (
+            "New supply, concessions, and vacancy pressure may affect lease-up assumptions and rent growth underwriting."
+        ),
+        "Selective Capital Re-entry": (
+            "Institutional capital re-entry may provide pricing discovery and GP partnership signals."
+        ),
+        "Policy / Entitlement Watch": (
+            "Entitlement, zoning, permitting, or housing policy changes may create both approval risk and development opportunity."
+        ),
+        "Construction Cost Pressure": (
+            "Labor, materials, and construction cost pressure may affect feasibility, contingencies, and value engineering."
+        ),
+        "Developer Strategy Shift": (
+            "Changes in developer strategy may reveal capability gaps or opportunities in BTR, modular, technology, and product design."
+        ),
+    }
+
+    return explanations.get(regime, "Continue monitoring for business relevance.")
+
+
+def get_recommended_management_action(regime, materiality_score, impact_score):
+    """Choose a simple management action label for each regime."""
+    if regime == "Financing Stress":
+        if impact_score >= 60:
+            return "Tighten underwriting assumptions"
+        return "Run sensitivity analysis"
+
+    if regime == "Supply Pressure":
+        return "Review supply pipeline assumptions"
+
+    if regime == "Selective Capital Re-entry":
+        return "Track capital partner activity"
+
+    if regime == "Policy / Entitlement Watch":
+        return "Monitor LA / California entitlement changes"
+
+    if regime == "Construction Cost Pressure":
+        return "Review construction cost assumptions"
+
+    if regime == "Developer Strategy Shift":
+        if materiality_score >= 60:
+            return "Add to weekly strategy memo"
+        return "Monitor only"
+
+    return "Monitor only"
+
+
+def calculate_impact_score(regime, severity_row, supporting_articles, business_area_impact):
+    """Score likely impact across Woomi business areas."""
+    base_score = round(
+        safe_int(severity_row.get("severity_score")) * 0.45
+        + safe_int(severity_row.get("conviction_score")) * 0.25
+    )
+    area_count = len(split_labels(business_area_impact.replace(";", ";")))
+    high_priority_count = sum(
+        1
+        for article in supporting_articles
+        if article.get("action_level") in ["Must Read", "Review"]
+    )
+    extracted_number_count = sum(
+        1
+        for article in supporting_articles
+        if article.get("extracted_numbers", "").strip()
+    )
+    market_signal_count = sum(
+        1
+        for article in supporting_articles
+        if article.get("market_signal") != "No Clear Numeric Signal"
+    )
+    score = base_score
+    score += min(area_count * 5, 20)
+    score += min(high_priority_count * 2, 12)
+    score += min(market_signal_count * 2, 10)
+    score += min(extracted_number_count, 8)
+
+    if regime in ["Financing Stress", "Selective Capital Re-entry"]:
+        score += 8
+    elif regime in ["Supply Pressure", "Developer Strategy Shift"]:
+        score += 5
+
+    return max(0, min(100, score))
+
+
+def build_materiality_impact_rows(run_timestamp, strategy_briefing_articles, severity_rows):
+    """
+    Translate narrative severity into business materiality and impact.
+
+    Materiality asks how important this regime is to management. Impact asks
+    how much it may affect core Woomi business areas.
+    """
+    market_focus_counts = count_labels(strategy_briefing_articles, "market_focus")
+    severity_by_regime = {row["regime"]: row for row in severity_rows}
+    rows = []
+
+    for regime in [
+        "Financing Stress",
+        "Supply Pressure",
+        "Selective Capital Re-entry",
+        "Policy / Entitlement Watch",
+        "Construction Cost Pressure",
+        "Developer Strategy Shift",
+    ]:
+        severity_row = severity_by_regime.get(regime, {})
+        supporting_articles = [
+            article
+            for article in strategy_briefing_articles
+            if get_regime_article_match(article, regime)
+        ]
+        high_priority_count = sum(
+            1
+            for article in supporting_articles
+            if article.get("action_level") in ["Must Read", "Review"]
+        )
+        market_signal_count = sum(
+            1
+            for article in supporting_articles
+            if article.get("market_signal") != "No Clear Numeric Signal"
+        )
+        high_woomi_count = sum(
+            1
+            for article in supporting_articles
+            if article.get("woomi_relevance") == "High relevance to US residential developer strategy"
+        )
+        extracted_number_count = sum(
+            1
+            for article in supporting_articles
+            if article.get("extracted_numbers", "").strip()
+        )
+        la_california_count = sum(
+            1
+            for article in supporting_articles
+            if article.get("market_focus") in ["Los Angeles", "California"]
+        )
+        urgency_bonus = {
+            "Immediate Attention": 14,
+            "Review This Week": 8,
+            "Monitor": 4,
+            "Background": 0,
+        }.get(severity_row.get("urgency_label", "Background"), 0)
+        materiality_score = round(
+            safe_int(severity_row.get("severity_score")) * 0.45
+            + safe_int(severity_row.get("conviction_score")) * 0.25
+        )
+        materiality_score += urgency_bonus
+        materiality_score += min(high_priority_count * 2, 12)
+        materiality_score += min(market_signal_count * 2, 10)
+        materiality_score += min(high_woomi_count * 3, 15)
+        materiality_score += min(la_california_count * 5, 15)
+        materiality_score += min(extracted_number_count, 8)
+        materiality_score = max(0, min(100, materiality_score))
+
+        business_area_impact = get_business_area_impact(regime, market_focus_counts)
+        impact_score = calculate_impact_score(
+            regime,
+            severity_row,
+            supporting_articles,
+            business_area_impact,
+        )
+        rows.append({
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "regime": regime,
+            "materiality_score": materiality_score,
+            "impact_score": impact_score,
+            "business_area_impact": business_area_impact,
+            "impact_label": get_impact_label(impact_score),
+            "key_business_risk_or_opportunity": get_key_business_risk_or_opportunity(regime),
+            "recommended_management_action": get_recommended_management_action(
+                regime,
+                materiality_score,
+                impact_score,
+            ),
+        })
+
+    rows.sort(
+        key=lambda row: (
+            -safe_int(row["materiality_score"]),
+            -safe_int(row["impact_score"]),
+            row["regime"],
+        )
+    )
+
+    return rows
+
+
+def build_materiality_woomi_implications(materiality_rows):
+    """Generate Woomi implications from materiality and impact scores."""
+    implications = []
+    critical_rows = [
+        row for row in materiality_rows
+        if row["impact_label"] == "Critical Business Impact"
+    ]
+    high_rows = [
+        row for row in materiality_rows
+        if row["impact_label"] == "High Business Impact"
+    ]
+
+    if critical_rows:
+        implications.append(
+            "Critical impact regimes should be discussed in management review before major underwriting, capital partner, or pipeline decisions."
+        )
+
+    if any(row["regime"] == "Financing Stress" for row in critical_rows + high_rows):
+        implications.append(
+            "Financing Stress has elevated business impact, so debt sizing, refinancing, and exit-cap assumptions should be revisited."
+        )
+
+    if any(row["regime"] == "Selective Capital Re-entry" for row in critical_rows + high_rows):
+        implications.append(
+            "Selective Capital Re-entry has elevated impact, so GP partner tracking and institutional pricing signals deserve attention."
+        )
+
+    if any("LA / California Strategy" in row["business_area_impact"] for row in critical_rows + high_rows):
+        implications.append(
+            "LA / California strategy appears in elevated-impact regimes, so local entitlement and market monitoring should stay active."
+        )
+
+    if not implications:
+        implications.append(
+            "No regime currently shows critical business impact; keep using the weekly memo for monitoring."
+        )
+
+    return implications
+
+
+def generate_materiality_impact_outputs(materiality_rows, dated_output_dir):
+    """Write materiality_impact.csv and materiality_impact_report.md."""
+    fieldnames = [
+        "run_timestamp",
+        "regime",
+        "materiality_score",
+        "impact_score",
+        "business_area_impact",
+        "impact_label",
+        "key_business_risk_or_opportunity",
+        "recommended_management_action",
+    ]
+    write_csv_outputs(
+        MATERIALITY_IMPACT_OUTPUT_FILE,
+        fieldnames,
+        materiality_rows,
+        dated_output_dir,
+    )
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    top_materiality = materiality_rows[0] if materiality_rows else {}
+    top_impact = max(
+        materiality_rows,
+        key=lambda row: safe_int(row["impact_score"]),
+    ) if materiality_rows else {}
+    lines = [
+        "# Materiality / Impact Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Top materiality regime: {top_materiality.get('regime', 'None detected')} ({top_materiality.get('materiality_score', 0)})",
+        f"- Top impact regime: {top_impact.get('regime', 'None detected')} ({top_impact.get('impact_score', 0)})",
+        "",
+        "## Materiality And Impact Table",
+        "",
+        "| Regime | Materiality | Impact | Impact Label | Business Area Impact | Recommended Action |",
+        "| --- | ---: | ---: | --- | --- | --- |",
+    ]
+
+    for row in materiality_rows:
+        lines.append(
+            f"| {row['regime']} | {row['materiality_score']} | "
+            f"{row['impact_score']} | {row['impact_label']} | "
+            f"{row['business_area_impact']} | {row['recommended_management_action']} |"
+        )
+
+    lines.extend([
+        "",
+        "## Key Business Risks / Opportunities",
+        "",
+    ])
+
+    for row in materiality_rows:
+        lines.append(
+            f"- {row['regime']}: {row['key_business_risk_or_opportunity']}"
+        )
+
+    lines.extend([
+        "",
+        "## Implications for Woomi / Woomi Global",
+        "",
+    ])
+
+    for implication in build_materiality_woomi_implications(materiality_rows):
+        lines.append(f"- {implication}")
+
+    lines.extend([
+        "",
+        "## Recommended Management Actions",
+        "",
+    ])
+
+    for row in materiality_rows:
+        if row["impact_label"] != "Low Business Impact":
+            lines.append(
+                f"- {row['regime']}: {row['recommended_management_action']} "
+                f"({row['impact_label']})."
+            )
+
+    lines.append("")
+
+    write_markdown_outputs(
+        MATERIALITY_IMPACT_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+    return {
+        "top_materiality_regime": top_materiality.get("regime", "None detected"),
+        "top_materiality_score": safe_int(top_materiality.get("materiality_score")),
+        "top_impact_regime": top_impact.get("regime", "None detected"),
+        "top_impact_score": safe_int(top_impact.get("impact_score")),
+        "critical_business_impact_items": [
+            row["regime"]
+            for row in materiality_rows
+            if row["impact_label"] == "Critical Business Impact"
+        ],
+    }
+
+
+def get_management_message(regime):
+    """Generate a short executive message for each regime."""
+    messages = {
+        "Financing Stress": (
+            "Debt market pressure should be reviewed because it may affect construction loan sizing, refinancing assumptions, and exit cap rates."
+        ),
+        "Selective Capital Re-entry": (
+            "Institutional capital movement should be tracked because it may indicate pricing discovery and partner activity."
+        ),
+        "Supply Pressure": (
+            "Supply and lease-up signals should be monitored because they may affect rent growth, vacancy, and development timing."
+        ),
+        "Policy / Entitlement Watch": (
+            "Policy and entitlement signals should be monitored because they may affect approvals, zoning strategy, and local development feasibility."
+        ),
+        "Construction Cost Pressure": (
+            "Construction cost signals should be reviewed because they may affect feasibility, contingencies, and value engineering."
+        ),
+        "Developer Strategy Shift": (
+            "Developer strategy signals should be reviewed because they may reveal capability needs in product, operations, partnerships, or delivery model."
+        ),
+    }
+
+    return messages.get(regime, "Continue monitoring this regime for strategic relevance.")
+
+
+def get_recommended_owner(regime, business_area_impact):
+    """Assign one or more likely owners for each executive priority."""
+    owners = []
+
+    if regime == "Financing Stress":
+        owners.extend(["Finance / Treasury", "Investment Team", "Executive Committee"])
+    elif regime == "Selective Capital Re-entry":
+        owners.extend(["Investment Team", "Strategy Team", "Executive Committee"])
+    elif regime == "Supply Pressure":
+        owners.extend(["Investment Team", "Development Team", "US Local Team"])
+    elif regime == "Policy / Entitlement Watch":
+        owners.extend(["Development Team", "US Local Team", "Strategy Team"])
+    elif regime == "Construction Cost Pressure":
+        owners.extend(["Development Team", "Investment Team"])
+    elif regime == "Developer Strategy Shift":
+        owners.extend(["Strategy Team", "Development Team", "US Local Team"])
+
+    if "LA / California Strategy" in business_area_impact and "US Local Team" not in owners:
+        owners.append("US Local Team")
+
+    return "; ".join(owners) if owners else "Strategy Team"
+
+
+def get_recommended_action_timing(rank, score, urgency_label):
+    """Choose action timing from rank, score, and urgency."""
+    if rank <= 2 or urgency_label == "Immediate Attention" or score >= 80:
+        return "This Week"
+
+    if rank <= 4 or score >= 60:
+        return "Next IC / Strategy Meeting"
+
+    if score >= 35:
+        return "Monthly Monitoring"
+
+    return "Background Tracking"
+
+
+def get_executive_attention_tier(rank, score):
+    """Apply forced ranking tiers after priority scores are sorted."""
+    if score < 20:
+        return "Background"
+
+    if rank <= 2:
+        return "Tier 1 Executive Attention"
+
+    if rank <= 4:
+        return "Tier 2 Strategic Review"
+
+    return "Tier 3 Monitoring"
+
+
+def get_momentum_priority_adjustment(momentum_label):
+    """Add or subtract a small priority adjustment for momentum."""
+    adjustments = {
+        "Accelerating": 8,
+        "Improving": 4,
+        "Stable": 1,
+        "Weakening": -3,
+        "Fading": -6,
+        "New / Insufficient History": 0,
+    }
+
+    return adjustments.get(momentum_label, 0)
+
+
+def build_executive_priority_rows(
+    run_timestamp,
+    materiality_rows,
+    severity_rows,
+    heatmap_rows,
+    momentum_rows,
+):
+    """Build forced-ranked executive priorities across major regimes."""
+    severity_by_regime = {row["regime"]: row for row in severity_rows}
+    heatmap_by_regime = {row["regime"]: row for row in heatmap_rows}
+    momentum_by_regime = {row["regime"]: row for row in momentum_rows}
+    priority_rows = []
+
+    for materiality_row in materiality_rows:
+        regime = materiality_row["regime"]
+        severity_row = severity_by_regime.get(regime, {})
+        heatmap_row = heatmap_by_regime.get(regime, {})
+        momentum_row = momentum_by_regime.get(regime, {})
+        urgency_label = severity_row.get("urgency_label", "Background")
+        business_area_impact = materiality_row.get("business_area_impact", "")
+        score = round(
+            safe_int(materiality_row.get("materiality_score")) * 0.25
+            + safe_int(materiality_row.get("impact_score")) * 0.25
+            + safe_int(severity_row.get("severity_score")) * 0.18
+            + safe_int(severity_row.get("conviction_score")) * 0.12
+            + safe_int(heatmap_row.get("final_score")) * 0.15
+        )
+        score += get_momentum_priority_adjustment(
+            momentum_row.get("momentum_label", "New / Insufficient History")
+        )
+
+        if urgency_label == "Immediate Attention":
+            score += 5
+        elif urgency_label == "Review This Week":
+            score += 2
+
+        if "Critical Business Impact" == materiality_row.get("impact_label"):
+            score += 4
+
+        if "LA / California Strategy" in business_area_impact:
+            score += 2
+
+        score = max(0, min(100, score))
+        priority_rows.append({
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "regime": regime,
+            "residential_sector": "General Residential",
+            "executive_priority_score": score,
+            "executive_priority_rank": 0,
+            "executive_attention_tier": "",
+            "management_message": get_management_message(regime),
+            "recommended_owner": get_recommended_owner(regime, business_area_impact),
+            "recommended_action_timing": "",
+        })
+
+    priority_rows.sort(
+        key=lambda row: (
+            -safe_int(row["executive_priority_score"]),
+            row["regime"],
+        )
+    )
+
+    for index, row in enumerate(priority_rows, start=1):
+        row["executive_priority_rank"] = index
+        row["executive_attention_tier"] = get_executive_attention_tier(
+            index,
+            safe_int(row["executive_priority_score"]),
+        )
+        row["recommended_action_timing"] = get_recommended_action_timing(
+            index,
+            safe_int(row["executive_priority_score"]),
+            severity_by_regime.get(row["regime"], {}).get("urgency_label", "Background"),
+        )
+
+    return priority_rows
+
+
+def add_priority_section(lines, section_title, priority_rows):
+    """Add a compact executive priority section to Markdown."""
+    lines.append(f"## {section_title}")
+    lines.append("")
+
+    if not priority_rows:
+        lines.append("No items in this section.")
+        lines.append("")
+        return
+
+    for row in priority_rows:
+        lines.append(
+            f"- Rank {row['executive_priority_rank']}: {row['regime']} "
+            f"({row['executive_priority_score']}). "
+            f"{row['management_message']} Owner: {row['recommended_owner']}. "
+            f"Timing: {row['recommended_action_timing']}."
+        )
+
+    lines.append("")
+
+
+def build_management_agenda(priority_rows):
+    """Generate 3 to 5 agenda bullets from Tier 1 and Tier 2 priorities."""
+    agenda = []
+    tier_1_and_2 = [
+        row for row in priority_rows
+        if row["executive_attention_tier"] in [
+            "Tier 1 Executive Attention",
+            "Tier 2 Strategic Review",
+        ]
+    ]
+    regimes = [row["regime"] for row in tier_1_and_2]
+
+    if "Financing Stress" in regimes:
+        agenda.append(
+            "Review financing assumptions and debt sensitivity for the US residential development pipeline."
+        )
+
+    if "Selective Capital Re-entry" in regimes:
+        agenda.append(
+            "Track institutional capital activity, pricing discovery, and potential GP or capital partner signals."
+        )
+
+    if "Supply Pressure" in regimes:
+        agenda.append(
+            "Review supply pressure, lease-up, vacancy, concession, and rent-growth assumptions in relevant multifamily markets."
+        )
+
+    if "Developer Strategy Shift" in regimes:
+        agenda.append(
+            "Discuss developer capability priorities across BTR, modular construction, operations technology, and amenity strategy."
+        )
+
+    if "Policy / Entitlement Watch" in regimes:
+        agenda.append(
+            "Review LA / California entitlement, zoning, and permitting changes that may affect market-entry strategy."
+        )
+
+    if "Construction Cost Pressure" in regimes:
+        agenda.append(
+            "Review construction cost assumptions, value engineering, and procurement risk."
+        )
+
+    if not agenda:
+        agenda.append(
+            "Use the current run as a monitoring update; no regime requires executive prioritization yet."
+        )
+
+    return agenda[:5]
+
+
+def generate_executive_priority_outputs(
+    priority_rows,
+    dated_output_dir,
+    regional_rows=None,
+    gp_rows=None,
+    relationship_rows=None,
+    deal_rows=None,
+    graph_rows=None,
+    sector_rows=None,
+    gp_watchlist_rows=None,
+):
+    """Write executive_priorities.csv and executive_priority_brief.md."""
+    fieldnames = [
+        "run_timestamp",
+        "regime",
+        "residential_sector",
+        "executive_priority_score",
+        "executive_priority_rank",
+        "executive_attention_tier",
+        "management_message",
+        "recommended_owner",
+        "recommended_action_timing",
+    ]
+    write_csv_outputs(
+        EXECUTIVE_PRIORITIES_OUTPUT_FILE,
+        fieldnames,
+        priority_rows,
+        dated_output_dir,
+    )
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    tier_1_rows = [
+        row for row in priority_rows
+        if row["executive_attention_tier"] == "Tier 1 Executive Attention"
+    ]
+    tier_2_rows = [
+        row for row in priority_rows
+        if row["executive_attention_tier"] == "Tier 2 Strategic Review"
+    ]
+    monitoring_rows = [
+        row for row in priority_rows
+        if row["executive_attention_tier"] in ["Tier 3 Monitoring", "Background"]
+    ]
+    lines = [
+        "# Executive Priority Brief",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        "## Top 3 Executive Priorities",
+        "",
+    ]
+
+    for row in priority_rows[:3]:
+        lines.append(
+            f"- Rank {row['executive_priority_rank']}: {row['regime']} "
+            f"({row['executive_priority_score']}, {row['executive_attention_tier']})"
+        )
+
+    lines.extend([
+        "",
+        "## Full Priority Table",
+        "",
+        "| Rank | Regime | Score | Tier | Owner | Timing |",
+        "| ---: | --- | ---: | --- | --- | --- |",
+    ])
+
+    for row in priority_rows:
+        lines.append(
+            f"| {row['executive_priority_rank']} | {row['regime']} | "
+            f"{row['executive_priority_score']} | "
+            f"{row['executive_attention_tier']} | "
+            f"{row['recommended_owner']} | "
+            f"{row['recommended_action_timing']} |"
+        )
+
+    lines.append("")
+    add_priority_section(lines, "Tier 1 Executive Attention", tier_1_rows)
+    add_priority_section(lines, "Tier 2 Strategic Review", tier_2_rows)
+    add_priority_section(lines, "Monitoring Items", monitoring_rows)
+
+    lines.extend([
+        "## Scenario Context",
+        "",
+        f"Base, Bull, and Bear planning scenarios are available in `{os.path.basename(STRATEGY_SCENARIO_REPORT_OUTPUT_FILE)}`.",
+        "Use that report to pressure-test the executive priorities against upside and downside market paths.",
+        "",
+    ])
+
+    if regional_rows:
+        la_california_rows = [
+            row for row in regional_rows
+            if row["market"] in ["Los Angeles", "California"]
+            and row["market_article_count"] > 0
+        ]
+        sun_belt_rows = [
+            row for row in regional_rows
+            if row["market"] in [
+                "Texas",
+                "Dallas",
+                "Austin",
+                "Phoenix",
+                "Arizona",
+                "Florida",
+                "Southeast",
+                "Sun Belt",
+            ]
+            and row["market_article_count"] > 0
+        ]
+
+        lines.extend([
+            "## Regional Considerations",
+            "",
+            f"Regional intelligence is available in `{os.path.basename(REGIONAL_INTELLIGENCE_REPORT_OUTPUT_FILE)}`.",
+        ])
+
+        if la_california_rows:
+            lines.append(
+                "LA / California signals appear in the current data and should be reviewed for entitlement, zoning, underwriting, or market-entry implications."
+            )
+
+        if sun_belt_rows:
+            lines.append(
+                "Sun Belt, Texas, Southeast, or related growth-market signals appear in the current data and should be reviewed for supply, lease-up, and partnership implications."
+            )
+
+        if not la_california_rows and not sun_belt_rows:
+            lines.append(
+                "No LA / California or Sun Belt regional signal requires separate executive attention in this run."
+            )
+
+        lines.append("")
+
+    if gp_rows:
+        top_gp_rows = [
+            row for row in gp_rows
+            if row["strategic_priority_label"] in ["Immediate Watch", "Strategic Watch"]
+        ][:5]
+
+        lines.extend([
+            "## GP / Developer Intelligence",
+            "",
+            f"Developer and GP platform intelligence is available in `{os.path.basename(GP_INTELLIGENCE_REPORT_OUTPUT_FILE)}`.",
+        ])
+
+        if top_gp_rows:
+            for row in top_gp_rows:
+                lines.append(
+                    f"- {row['gp_name']}: {row['strategic_priority_label']}, "
+                    f"{row['activity_type']}, {row['recommended_follow_up']}."
+                )
+        else:
+            lines.append(
+                "No GP or developer platform requires elevated executive attention in this run."
+            )
+
+        lines.append("")
+
+    lines.extend([
+        "## Institutional Relationship Context",
+        "",
+        f"Institutional relationship and capital-flow intelligence is available in `{os.path.basename(INSTITUTIONAL_RELATIONSHIP_REPORT_OUTPUT_FILE)}`.",
+        "Use that report to compare GP partnership, pricing discovery, and capital partner tracking signals.",
+        "",
+    ])
+
+    if relationship_rows:
+        for row in relationship_rows[:3]:
+            lines.append(
+                f"- {row['firm_name']}: {row['relationship_signal']}, "
+                f"{row['capital_flow_signal']}, score {row['institutional_relationship_score']}."
+            )
+        lines.append("")
+
+    lines.extend([
+        "## Deal / Project Pipeline Context",
+        "",
+        f"Deal and project extraction is available in `{os.path.basename(DEAL_PIPELINE_REPORT_OUTPUT_FILE)}`.",
+    ])
+
+    if deal_rows:
+        for row in deal_rows[:3]:
+            lines.append(
+                f"- {row['deal_type']} in {row['market']}: "
+                f"{row['potential_woomi_use']} ({row['deal_priority_label']})."
+            )
+    else:
+        lines.append("No deal or project signal requires executive review in this run.")
+
+    lines.append("")
+
+    lines.extend([
+        "## Relationship Graph Context",
+        "",
+        f"Developer, lender, capital partner, market, and deal connections are available in `{os.path.basename(RELATIONSHIP_GRAPH_REPORT_OUTPUT_FILE)}`.",
+    ])
+
+    if graph_rows:
+        for row in graph_rows[:3]:
+            lines.append(
+                f"- {row['source_entity']} -> {row['target_entity']}: "
+                f"{row['relationship_type']} ({row['woomi_strategic_relevance']})."
+            )
+    else:
+        lines.append("No relationship graph edges were detected in this run.")
+
+    lines.append("")
+
+    if sector_rows:
+        expansion_rows = [
+            row for row in sector_rows
+            if row["woomi_sector_relevance"] == "Strategic Expansion Sector"
+            and row["residential_sector"] not in ["Multifamily", "Apartment"]
+        ]
+        lines.extend([
+            "## Residential Sector Coverage Context",
+            "",
+            f"Sector-level residential coverage is available in `{os.path.basename(RESIDENTIAL_SECTOR_REPORT_OUTPUT_FILE)}`.",
+        ])
+        if expansion_rows:
+            for row in expansion_rows[:5]:
+                lines.append(
+                    f"- {row['residential_sector']}: {row['recommended_sector_action']}."
+                )
+        else:
+            lines.append("No non-multifamily residential sector requires elevated executive attention in this run.")
+        lines.append("")
+
+    lines.extend([
+        "## Emerging GP Watchlist Summary",
+        "",
+        f"Emerging GP ranking and partnership watchlist signals are available in `{os.path.basename(GP_WATCHLIST_REPORT_OUTPUT_FILE)}`.",
+    ])
+    if gp_watchlist_rows:
+        for row in gp_watchlist_rows[:3]:
+            lines.append(
+                f"- {row['canonical_gp_name']}: {row['gp_tier']}, "
+                f"score {row['emerging_gp_score']}, {row['potential_woomi_use_case']}."
+            )
+    else:
+        lines.append("No emerging GP watchlist signal requires executive review in this run.")
+    lines.append("")
+
+    lines.extend([
+        "## Historical Persistence Summary",
+        "",
+        f"Longitudinal memory is available in `{os.path.basename(HISTORICAL_MEMORY_REPORT_OUTPUT_FILE)}`.",
+        f"Capital-flow memory is available in `{os.path.basename(CAPITAL_FLOW_REPORT_OUTPUT_FILE)}`.",
+        f"Recurring relationship tracking is available in `{os.path.basename(RELATIONSHIP_PERSISTENCE_REPORT_OUTPUT_FILE)}`.",
+        "",
+        "## Opportunity / Distress Radar",
+        "",
+        f"Opportunity radar is available in `{os.path.basename(OPPORTUNITY_RADAR_REPORT_OUTPUT_FILE)}`.",
+        f"Distress watchlist is available in `{os.path.basename(DISTRESS_WATCHLIST_REPORT_OUTPUT_FILE)}`.",
+        f"Canonical deal fingerprints are available in `{os.path.basename(DEAL_FINGERPRINT_REPORT_OUTPUT_FILE)}`.",
+        f"Opportunity deduplication is available in `{os.path.basename(OPPORTUNITY_DEDUPLICATION_REPORT_OUTPUT_FILE)}`.",
+        f"Timing intelligence is available in `{os.path.basename(TIMING_INTELLIGENCE_REPORT_OUTPUT_FILE)}`.",
+        f"Market entry window scoring is available in `{os.path.basename(MARKET_ENTRY_WINDOW_REPORT_OUTPUT_FILE)}`.",
+        f"Entitlement intelligence is available in `{os.path.basename(ENTITLEMENT_INTELLIGENCE_REPORT_OUTPUT_FILE)}`.",
+        f"LA entitlement watch is available in `{os.path.basename(LA_ENTITLEMENT_WATCH_REPORT_OUTPUT_FILE)}`.",
+        f"Submarket intelligence is available in `{os.path.basename(SUBMARKET_INTELLIGENCE_REPORT_OUTPUT_FILE)}`.",
+        f"LA submarket watch is available in `{os.path.basename(LA_SUBMARKET_WATCH_REPORT_OUTPUT_FILE)}`.",
+        "",
+    ])
+
+    lines.extend([
+        "## Recommended Management Agenda",
+        "",
+    ])
+
+    for item in build_management_agenda(priority_rows):
+        lines.append(f"- {item}")
+
+    lines.append("")
+
+    write_markdown_outputs(
+        EXECUTIVE_PRIORITY_BRIEF_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+    return {
+        "top_three": priority_rows[:3],
+        "tier_1_items": [row["regime"] for row in tier_1_rows],
+        "management_agenda": build_management_agenda(priority_rows),
+    }
+
+
+def find_row_by_regime(rows, regime):
+    """Find a row by regime name in a list of dictionaries."""
+    for row in rows:
+        if row.get("regime") == regime:
+            return row
+
+    return {}
+
+
+def get_regime_score(rows, regime, field_name):
+    """Read a numeric regime score from a row list."""
+    return safe_int(find_row_by_regime(rows, regime).get(field_name))
+
+
+def get_regime_momentum(rows, regime):
+    """Read a regime momentum label from momentum rows."""
+    return find_row_by_regime(rows, regime).get("momentum_label", "Stable")
+
+
+def build_scenario_posture(
+    underwriting_posture,
+    capital_partner_monitoring,
+    la_california_strategy,
+    gp_partnership_strategy,
+    development_timing,
+    cost_focus,
+):
+    """Create one compact strategy posture sentence."""
+    return (
+        f"Underwriting: {underwriting_posture}; "
+        f"Capital partners: {capital_partner_monitoring}; "
+        f"LA / California: {la_california_strategy}; "
+        f"GP / developer partnerships: {gp_partnership_strategy}; "
+        f"Development timing: {development_timing}; "
+        f"Cost focus: {cost_focus}."
+    )
+
+
+def build_strategy_scenario_rows(
+    run_timestamp,
+    executive_priority_rows,
+    materiality_rows,
+    severity_rows,
+    heatmap_rows,
+    momentum_rows,
+    strategy_briefing_articles,
+):
+    """
+    Build Base, Bull, and Bear scenarios from current strategy signals.
+
+    The goal is planning discipline, not prediction. Each scenario translates
+    the same current signals into a different decision posture.
+    """
+    top_priority = executive_priority_rows[0] if executive_priority_rows else {}
+    second_priority = executive_priority_rows[1] if len(executive_priority_rows) > 1 else {}
+    financing_score = get_regime_score(heatmap_rows, "Financing Stress", "final_score")
+    capital_score = get_regime_score(heatmap_rows, "Selective Capital Re-entry", "final_score")
+    supply_score = get_regime_score(heatmap_rows, "Supply Pressure", "final_score")
+    developer_score = get_regime_score(heatmap_rows, "Developer Strategy Shift", "final_score")
+    financing_momentum = get_regime_momentum(momentum_rows, "Financing Stress")
+    capital_momentum = get_regime_momentum(momentum_rows, "Selective Capital Re-entry")
+    supply_momentum = get_regime_momentum(momentum_rows, "Supply Pressure")
+    california_count = sum(
+        1
+        for article in strategy_briefing_articles
+        if article.get("market_focus") in ["Los Angeles", "California"]
+    )
+    market_signal_count = sum(
+        1
+        for article in strategy_briefing_articles
+        if article.get("market_signal") != "No Clear Numeric Signal"
+    )
+    current_priorities = ", ".join(
+        row.get("regime", "")
+        for row in executive_priority_rows[:3]
+    )
+
+    base_posture = build_scenario_posture(
+        "conservative, with explicit debt and exit-cap sensitivity",
+        "active monitoring of institutional capital and pricing discovery",
+        "targeted monitoring if local signals appear",
+        "prioritize proven partners with financing and execution discipline",
+        "selective starts only where lease-up and financing assumptions are resilient",
+        "maintain value engineering review on new opportunities",
+    )
+    bull_posture = build_scenario_posture(
+        "moderately constructive but still sensitivity-tested",
+        "increase outreach to capital partners and GP candidates",
+        "screen LA / California opportunities where entitlement path is credible",
+        "expand partner tracking for acquisition and development opportunities",
+        "prepare to move faster on high-conviction opportunities",
+        "keep cost discipline but avoid over-defensive assumptions",
+    )
+    bear_posture = build_scenario_posture(
+        "defensive, with tighter debt, cap-rate, rent-growth, and absorption assumptions",
+        "watch for capital pullback and distressed pricing signals",
+        "avoid policy-complex deals unless entitlement upside is clear",
+        "favor partners with balance-sheet strength and local operating depth",
+        "delay marginal starts and prioritize downside-protected pipeline decisions",
+        "raise contingency, procurement, and value engineering scrutiny",
+    )
+
+    rows = [
+        {
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "scenario_name": "Base Case",
+            "scenario_probability_label": "Most Likely",
+            "key_assumptions": (
+                f"Current dominant priorities remain in place: {current_priorities}. "
+                f"Financing Stress score {financing_score}, Selective Capital Re-entry score {capital_score}, "
+                f"Supply Pressure score {supply_score}."
+            ),
+            "expected_market_environment": (
+                f"The market remains mixed: {top_priority.get('regime', 'current top regime')} and "
+                f"{second_priority.get('regime', 'secondary regime')} stay important, with "
+                f"{market_signal_count} strategy-briefing articles containing numeric market signals."
+            ),
+            "implication_for_woomi": (
+                "Woomi should treat US residential strategy as attractive but underwriting-sensitive, with capital partner tracking and disciplined project screening."
+            ),
+            "recommended_strategy_response": base_posture,
+            "key_risks_to_monitor": (
+                "Debt cost, refinancing assumptions, exit cap rates, lease-up pace, concessions, and capital partner behavior."
+            ),
+            "trigger_events_to_watch": (
+                f"Financing momentum turning Accelerating, capital momentum turning Fading, supply score rising above 60, or LA / California signal count rising above {max(california_count, 1)}."
+            ),
+        },
+        {
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "scenario_name": "Bull Case",
+            "scenario_probability_label": "Plausible Upside",
+            "key_assumptions": (
+                "Financing stress eases, institutional capital re-entry strengthens, and supply pressure becomes manageable."
+            ),
+            "expected_market_environment": (
+                "Debt markets become less restrictive, institutional buyers and partners become more active, and supply concerns are absorbed through stronger demand or slower new starts."
+            ),
+            "implication_for_woomi": (
+                "Woomi may have a better window to build GP relationships, study acquisitions or development entries, and refine target-market strategy."
+            ),
+            "recommended_strategy_response": bull_posture,
+            "key_risks_to_monitor": (
+                "False recovery in capital markets, overly optimistic rent-growth assumptions, and underestimating local supply pipelines."
+            ),
+            "trigger_events_to_watch": (
+                "Financing Stress momentum Improving or Weakening, Selective Capital Re-entry Accelerating, deal-size signals increasing, and concession/vacancy signals staying stable."
+            ),
+        },
+        {
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "scenario_name": "Bear Case",
+            "scenario_probability_label": "Plausible Downside",
+            "key_assumptions": (
+                "Financing stress persists, supply pressure worsens, and capital re-entry weakens."
+            ),
+            "expected_market_environment": (
+                "Debt availability remains constrained, lease-up and vacancy pressure increase, and institutional capital becomes more selective or pauses."
+            ),
+            "implication_for_woomi": (
+                "Woomi should slow aggressive expansion assumptions, protect downside, and use the period to build local intelligence and partner optionality."
+            ),
+            "recommended_strategy_response": bear_posture,
+            "key_risks_to_monitor": (
+                "Higher debt costs, widening exit cap assumptions, falling transaction liquidity, elevated concessions, and delayed lease-up."
+            ),
+            "trigger_events_to_watch": (
+                f"Financing Stress momentum {financing_momentum} turning Accelerating, "
+                f"Supply Pressure momentum {supply_momentum} turning Accelerating, "
+                f"or Selective Capital Re-entry momentum {capital_momentum} turning Fading."
+            ),
+        },
+    ]
+
+    return rows
+
+
+def build_key_triggers_to_watch(scenario_rows):
+    """Collect trigger-event text into a concise list."""
+    triggers = []
+
+    for row in scenario_rows:
+        triggers.append(f"{row['scenario_name']}: {row['trigger_events_to_watch']}")
+
+    return triggers
+
+
+def build_recommended_strategy_posture(scenario_rows):
+    """Create a short overall strategy posture for Woomi."""
+    base_case = next(
+        (row for row in scenario_rows if row["scenario_name"] == "Base Case"),
+        {},
+    )
+
+    return [
+        "Keep underwriting conservative and sensitivity-tested while financing stress remains a top executive priority.",
+        "Track capital partner activity closely because institutional re-entry can create pricing discovery and GP partnership signals.",
+        "Use LA / California monitoring selectively, with attention to entitlement, zoning, permitting, and local supply conditions.",
+        "Prioritize GP / developer partners with local execution depth, financing discipline, and leasing experience.",
+        "Treat development timing as selective rather than broad-based; move faster only when Bull Case triggers become visible.",
+        "Maintain cost and value engineering discipline across all scenarios.",
+        f"Current base posture: {base_case.get('recommended_strategy_response', 'Continue monitoring current executive priorities.')}",
+    ]
+
+
+def generate_strategy_scenario_outputs(
+    scenario_rows,
+    dated_output_dir,
+    gp_rows=None,
+    relationship_rows=None,
+    deal_rows=None,
+    graph_rows=None,
+    sector_rows=None,
+):
+    """Write strategy_scenarios.csv and strategy_scenario_report.md."""
+    fieldnames = [
+        "run_timestamp",
+        "scenario_name",
+        "scenario_probability_label",
+        "key_assumptions",
+        "expected_market_environment",
+        "implication_for_woomi",
+        "recommended_strategy_response",
+        "key_risks_to_monitor",
+        "trigger_events_to_watch",
+    ]
+    write_csv_outputs(
+        STRATEGY_SCENARIOS_OUTPUT_FILE,
+        fieldnames,
+        scenario_rows,
+        dated_output_dir,
+    )
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = [
+        "# Strategy Scenario Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        "## Scenario Overview",
+        "",
+        "This report converts the current executive priorities into Base, Bull, and Bear planning cases.",
+        "",
+    ]
+
+    for row in scenario_rows:
+        lines.extend([
+            f"## {row['scenario_name']}",
+            "",
+            f"- Probability label: {row['scenario_probability_label']}",
+            f"- Key assumptions: {row['key_assumptions']}",
+            f"- Expected market environment: {row['expected_market_environment']}",
+            f"- Implication for Woomi: {row['implication_for_woomi']}",
+            f"- Recommended strategy response: {row['recommended_strategy_response']}",
+            f"- Key risks to monitor: {row['key_risks_to_monitor']}",
+            f"- Trigger events to watch: {row['trigger_events_to_watch']}",
+            "",
+        ])
+
+    lines.extend([
+        "## Scenario Comparison Table",
+        "",
+        "| Scenario | Probability | Expected Environment | Recommended Response |",
+        "| --- | --- | --- | --- |",
+    ])
+
+    for row in scenario_rows:
+        lines.append(
+            f"| {row['scenario_name']} | {row['scenario_probability_label']} | "
+            f"{row['expected_market_environment']} | {row['recommended_strategy_response']} |"
+        )
+
+    lines.extend([
+        "",
+        "## Key Triggers to Watch",
+        "",
+    ])
+
+    for trigger in build_key_triggers_to_watch(scenario_rows):
+        lines.append(f"- {trigger}")
+
+    if gp_rows:
+        top_gp_rows = [
+            row for row in gp_rows
+            if row["strategic_priority_label"] in ["Immediate Watch", "Strategic Watch"]
+        ][:5]
+        lines.extend([
+            "",
+            "## GP / Developer Scenario Context",
+            "",
+            f"Detailed GP intelligence is available in `{os.path.basename(GP_INTELLIGENCE_REPORT_OUTPUT_FILE)}`.",
+        ])
+
+        if top_gp_rows:
+            for row in top_gp_rows:
+                lines.append(
+                    f"- {row['gp_name']}: {row['likely_strategy']} may be relevant to {row['potential_implication_for_woomi']}."
+                )
+        else:
+            lines.append("- No major GP-specific scenario signal was detected in this run.")
+
+    lines.extend([
+        "",
+        "## Institutional Relationship Context",
+        "",
+        f"Capital-flow and relationship signals are available in `{os.path.basename(INSTITUTIONAL_RELATIONSHIP_REPORT_OUTPUT_FILE)}`.",
+        "Use that report to identify whether scenario assumptions are supported by firm-level capital deployment, partnership, or pricing-discovery signals.",
+    ])
+
+    if relationship_rows:
+        for row in relationship_rows[:3]:
+            lines.append(
+                f"- {row['firm_name']}: {row['recommended_follow_up']} "
+                f"({row['relationship_signal']})."
+            )
+
+    lines.extend([
+        "",
+        "## Deal / Project Scenario Context",
+        "",
+        f"Deal and project-level signals are available in `{os.path.basename(DEAL_PIPELINE_REPORT_OUTPUT_FILE)}`.",
+    ])
+
+    if deal_rows:
+        for row in deal_rows[:3]:
+            lines.append(
+                f"- {row['deal_type']}: {row['potential_woomi_use']} "
+                f"in {row['market']}."
+            )
+    else:
+        lines.append("- No major deal or project signal was detected in this run.")
+
+    lines.extend([
+        "",
+        "## Relationship Graph Scenario Context",
+        "",
+        f"Network relationship signals are available in `{os.path.basename(RELATIONSHIP_GRAPH_REPORT_OUTPUT_FILE)}`.",
+    ])
+
+    if graph_rows:
+        for row in graph_rows[:3]:
+            lines.append(
+                f"- {row['relationship_type']}: {row['source_entity']} to "
+                f"{row['target_entity']} in {row['market']}."
+            )
+    else:
+        lines.append("- No relationship network signal was detected in this run.")
+
+    lines.extend([
+        "",
+        "## Residential Sector Scenario Implications",
+        "",
+        f"Broader residential sector coverage is available in `{os.path.basename(RESIDENTIAL_SECTOR_REPORT_OUTPUT_FILE)}`.",
+    ])
+    if sector_rows:
+        for row in sector_rows[:5]:
+            if row["woomi_sector_relevance"] in ["Core Strategy Sector", "Strategic Expansion Sector"]:
+                lines.append(
+                    f"- {row['residential_sector']}: {row['woomi_sector_relevance']}; "
+                    f"{row['recommended_sector_action']}."
+                )
+    else:
+        lines.append("- No sector-specific scenario signal was detected in this run.")
+
+    lines.extend([
+        "",
+        "## Historical Persistence Summary",
+        "",
+        f"Longitudinal memory is available in `{os.path.basename(HISTORICAL_MEMORY_REPORT_OUTPUT_FILE)}`.",
+        f"Capital-flow memory is available in `{os.path.basename(CAPITAL_FLOW_REPORT_OUTPUT_FILE)}`.",
+        f"Recurring relationship tracking is available in `{os.path.basename(RELATIONSHIP_PERSISTENCE_REPORT_OUTPUT_FILE)}`.",
+    ])
+
+    lines.extend([
+        "",
+        "## Recommended Strategy Posture for Woomi / Woomi Global",
+        "",
+    ])
+
+    for posture in build_recommended_strategy_posture(scenario_rows):
+        lines.append(f"- {posture}")
+
+    lines.append("")
+
+    write_markdown_outputs(
+        STRATEGY_SCENARIO_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+    return {
+        "base_label": scenario_rows[0]["scenario_probability_label"],
+        "bull_label": scenario_rows[1]["scenario_probability_label"],
+        "bear_label": scenario_rows[2]["scenario_probability_label"],
+        "recommended_posture": build_recommended_strategy_posture(scenario_rows),
+    }
+
+
+REGIONAL_MARKETS = [
+    "Los Angeles",
+    "California",
+    "Seattle",
+    "New York",
+    "Texas",
+    "Dallas",
+    "Austin",
+    "Phoenix",
+    "Arizona",
+    "Florida",
+    "Southeast",
+    "Sun Belt",
+    "National / Other",
+]
+
+REGIONAL_KEYWORDS = {
+    "Los Angeles": ["los angeles", "la ", " la,", " la.", "southern california"],
+    "California": ["california", "calif.", "ca ", " ca,", " ca."],
+    "Seattle": ["seattle", "puget sound"],
+    "New York": ["new york", "nyc", "manhattan", "brooklyn"],
+    "Texas": ["texas", "tx ", " tx,", " tx."],
+    "Dallas": ["dallas", "dfw", "fort worth"],
+    "Austin": ["austin"],
+    "Phoenix": ["phoenix"],
+    "Arizona": ["arizona", "az ", " az,", " az."],
+    "Florida": ["florida", "miami", "orlando", "tampa"],
+    "Southeast": ["southeast", "atlanta", "charlotte", "nashville", "raleigh"],
+    "Sun Belt": ["sun belt", "sunbelt"],
+}
+
+
+def article_text_for_market(article):
+    """Combine article fields used for simple market keyword matching."""
+    return " ".join([
+        article.get("title", ""),
+        article.get("summary", ""),
+        article.get("market_focus", ""),
+        article.get("matched_keywords", ""),
+        article.get("article_text_sample", ""),
+    ]).lower()
+
+
+def article_matches_market(article, market):
+    """Return True when an article appears relevant to a target market."""
+    market_focus = article.get("market_focus", "")
+
+    if market == "National / Other":
+        return market_focus in ["National", "Other / Unknown", ""]
+
+    if market_focus == market:
+        return True
+
+    text = article_text_for_market(article)
+
+    return any(keyword in text for keyword in REGIONAL_KEYWORDS.get(market, []))
+
+
+def average_relevance_score(articles):
+    """Calculate average relevance score for a group of articles."""
+    if not articles:
+        return 0
+
+    total_score = sum(safe_int(article.get("relevance_score")) for article in articles)
+    return round(total_score / len(articles), 1)
+
+
+def get_regional_risk_or_opportunity(dominant_angle, dominant_signal):
+    """Translate dominant local themes into a regional risk/opportunity label."""
+    if dominant_angle == "Financing Risk" or dominant_signal in ["Financing Cost Signal", "Cap Rate Signal"]:
+        return "Financing-sensitive development environment"
+
+    if dominant_angle == "Supply Pressure" or dominant_signal in ["Supply / Starts Signal", "Vacancy Signal", "Concession Signal"]:
+        return "Supply pressure / lease-up risk"
+
+    if dominant_angle == "Regulation Risk":
+        return "Entitlement / zoning opportunity or risk"
+
+    if dominant_angle == "Institutional Flow" or dominant_signal == "Deal Size Signal":
+        return "Institutional capital pricing signal"
+
+    if dominant_angle == "Developer Strategy":
+        return "Developer capability / execution signal"
+
+    return "General market monitoring"
+
+
+def get_woomi_market_relevance(market, article_count, high_priority_count, market_signal_count):
+    """Assign a simple Woomi relevance label for each market."""
+    if market in ["Los Angeles", "California"]:
+        return "Core Watch Market"
+
+    if market == "National / Other":
+        return "General Monitoring" if article_count > 0 else "Low Priority"
+
+    strategic_markets = [
+        "Seattle",
+        "Texas",
+        "Dallas",
+        "Austin",
+        "Phoenix",
+        "Arizona",
+        "Florida",
+        "Southeast",
+        "Sun Belt",
+    ]
+
+    if market in strategic_markets and (
+        high_priority_count > 0 or market_signal_count > 0 or article_count >= 2
+    ):
+        return "Strategic Watch Market"
+
+    if article_count > 0:
+        return "General Monitoring"
+
+    return "Low Priority"
+
+
+def get_recommended_market_action(market, dominant_angle, dominant_signal, relevance_label):
+    """Create one simple action label for each market."""
+    if market in ["Los Angeles", "California"]:
+        return "Track LA / California entitlement and zoning updates"
+
+    if dominant_angle == "Financing Risk" or dominant_signal in ["Financing Cost Signal", "Cap Rate Signal"]:
+        return "Review development underwriting assumptions"
+
+    if dominant_angle == "Supply Pressure" or dominant_signal in ["Supply / Starts Signal", "Vacancy Signal", "Concession Signal"]:
+        return "Monitor supply pipeline and concessions"
+
+    if dominant_angle == "Institutional Flow" or dominant_signal == "Deal Size Signal":
+        return "Track institutional capital activity"
+
+    if dominant_angle == "Developer Strategy":
+        return "Watch GP / developer partnership opportunities"
+
+    if relevance_label == "Low Priority":
+        return "Monitor only"
+
+    return "Monitor only"
+
+
+def build_regional_intelligence_rows(
+    run_timestamp,
+    articles,
+    strategy_briefing_articles,
+    market_signal_articles,
+    executive_priority_rows,
+    scenario_rows,
+):
+    """Build one regional intelligence row for each target market."""
+    rows = []
+
+    for market in REGIONAL_MARKETS:
+        market_articles = [
+            article for article in articles
+            if article_matches_market(article, market)
+        ]
+        market_strategy_articles = [
+            article for article in strategy_briefing_articles
+            if article_matches_market(article, market)
+        ]
+        market_signal_rows = [
+            article for article in market_signal_articles
+            if article_matches_market(article, market)
+        ]
+        high_priority_count = sum(
+            1
+            for article in market_articles
+            if article.get("action_level") in ["Must Read", "Review"]
+        )
+        dominant_angle = most_common_label(market_strategy_articles, "strategic_angle")
+        dominant_signal = most_common_label(market_signal_rows, "market_signal")
+        article_count = len(market_articles)
+        market_signal_count = len(market_signal_rows)
+        relevance_label = get_woomi_market_relevance(
+            market,
+            article_count,
+            high_priority_count,
+            market_signal_count,
+        )
+        risk_or_opportunity = get_regional_risk_or_opportunity(
+            dominant_angle,
+            dominant_signal,
+        )
+
+        rows.append({
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "market": market,
+            "residential_sector": most_common_plain_value(market_articles, "residential_sector", "General Residential"),
+            "market_article_count": article_count,
+            "high_priority_count": high_priority_count,
+            "market_signal_count": market_signal_count,
+            "average_relevance_score": average_relevance_score(market_articles),
+            "dominant_strategic_angle": dominant_angle,
+            "dominant_market_signal": dominant_signal,
+            "regional_risk_or_opportunity": risk_or_opportunity,
+            "woomi_market_relevance": relevance_label,
+            "recommended_market_action": get_recommended_market_action(
+                market,
+                dominant_angle,
+                dominant_signal,
+                relevance_label,
+            ),
+        })
+
+    rows.sort(
+        key=lambda row: (
+            row["woomi_market_relevance"] != "Core Watch Market",
+            -safe_int(row["high_priority_count"]),
+            -safe_int(row["market_signal_count"]),
+            -float(row["average_relevance_score"]),
+            row["market"],
+        )
+    )
+
+    return rows
+
+
+def add_regional_section(lines, title, rows):
+    """Add a regional report section."""
+    lines.append(f"## {title}")
+    lines.append("")
+
+    visible_rows = [row for row in rows if row["market_article_count"] > 0]
+
+    if not visible_rows:
+        lines.append("- No current signals in this section.")
+        lines.append("")
+        return
+
+    for row in visible_rows:
+        lines.append(
+            f"- {row['market']}: {row['market_article_count']} article(s), "
+            f"{row['market_signal_count']} market signal(s), "
+            f"{row['woomi_market_relevance']}. "
+            f"{row['recommended_market_action']}."
+        )
+
+    lines.append("")
+
+
+def build_regional_follow_up_actions(rows):
+    """Create recommended regional follow-up actions."""
+    actions = []
+
+    for row in rows:
+        if row["woomi_market_relevance"] in ["Core Watch Market", "Strategic Watch Market"]:
+            actions.append(
+                f"{row['market']}: {row['recommended_market_action']}"
+            )
+
+    if not actions:
+        actions.append("No market requires special regional follow-up beyond general monitoring.")
+
+    return actions[:8]
+
+
+def build_regional_woomi_implications(rows):
+    """Generate Woomi implications from regional rows."""
+    implications = []
+    core_rows = [
+        row for row in rows
+        if row["woomi_market_relevance"] == "Core Watch Market"
+        and row["market_article_count"] > 0
+    ]
+    strategic_rows = [
+        row for row in rows
+        if row["woomi_market_relevance"] == "Strategic Watch Market"
+        and row["market_article_count"] > 0
+    ]
+
+    if core_rows:
+        implications.append(
+            "Core watch markets have current signals, so LA / California monitoring should stay linked to underwriting and entitlement review."
+        )
+
+    if strategic_rows:
+        implications.append(
+            "Strategic watch markets have current signals, so the team should compare supply, capital flow, and partnership opportunities by region."
+        )
+
+    if any(row["regional_risk_or_opportunity"] == "Supply pressure / lease-up risk" for row in rows):
+        implications.append(
+            "Markets with supply pressure should be reviewed for lease-up timing, concessions, and rent-growth assumptions."
+        )
+
+    if any(row["regional_risk_or_opportunity"] == "Institutional capital pricing signal" for row in rows):
+        implications.append(
+            "Markets with institutional capital signals may help Woomi identify pricing discovery and possible GP or capital partners."
+        )
+
+    if not implications:
+        implications.append(
+            "Regional signals remain broad, so continue monitoring before prioritizing a specific city or state."
+        )
+
+    return implications
+
+
+def generate_regional_intelligence_outputs(
+    regional_rows,
+    dated_output_dir,
+    deal_rows=None,
+    graph_rows=None,
+):
+    """Write regional_intelligence.csv and regional_intelligence_report.md."""
+    fieldnames = [
+        "run_timestamp",
+        "market",
+        "residential_sector",
+        "market_article_count",
+        "high_priority_count",
+        "market_signal_count",
+        "average_relevance_score",
+        "dominant_strategic_angle",
+        "dominant_market_signal",
+        "regional_risk_or_opportunity",
+        "woomi_market_relevance",
+        "recommended_market_action",
+    ]
+    write_csv_outputs(
+        REGIONAL_INTELLIGENCE_OUTPUT_FILE,
+        fieldnames,
+        regional_rows,
+        dated_output_dir,
+    )
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    top_markets = regional_rows[:5]
+    la_california_rows = [
+        row for row in regional_rows
+        if row["market"] in ["Los Angeles", "California"]
+    ]
+    sun_belt_rows = [
+        row for row in regional_rows
+        if row["market"] in [
+            "Texas",
+            "Dallas",
+            "Austin",
+            "Phoenix",
+            "Arizona",
+            "Florida",
+            "Southeast",
+            "Sun Belt",
+        ]
+    ]
+    coastal_rows = [
+        row for row in regional_rows
+        if row["market"] in ["Seattle", "New York"]
+    ]
+    national_rows = [
+        row for row in regional_rows
+        if row["market"] == "National / Other"
+    ]
+    lines = [
+        "# Regional Intelligence Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        "## Top 5 Markets By Relevance",
+        "",
+    ]
+
+    for row in top_markets:
+        lines.append(
+            f"- {row['market']}: {row['woomi_market_relevance']}, "
+            f"{row['market_article_count']} article(s), "
+            f"average relevance {row['average_relevance_score']}."
+        )
+
+    lines.append("")
+    add_regional_section(lines, "LA / California Focus", la_california_rows)
+    add_regional_section(lines, "Sun Belt / Texas / Southeast", sun_belt_rows)
+    add_regional_section(lines, "Coastal Markets", coastal_rows)
+    add_regional_section(lines, "National Market Signals", national_rows)
+
+    lines.extend([
+        "## Deal / Project Intelligence",
+        "",
+        f"Market-level deal and project signals are available in `{os.path.basename(DEAL_PIPELINE_REPORT_OUTPUT_FILE)}`.",
+    ])
+
+    if deal_rows:
+        regional_deals = [
+            row for row in deal_rows
+            if row["market"] in [regional_row["market"] for regional_row in top_markets]
+        ][:5]
+        if regional_deals:
+            for row in regional_deals:
+                lines.append(
+                    f"- {row['market']}: {row['deal_type']}, "
+                    f"{row['potential_woomi_use']}."
+                )
+        else:
+            lines.append("- No top-market deal signal was detected in this run.")
+    else:
+        lines.append("- No deal or project signal was detected in this run.")
+
+    lines.append("")
+
+    lines.extend([
+        "## Relationship Graph Intelligence",
+        "",
+        f"Market-level relationship edges are available in `{os.path.basename(RELATIONSHIP_GRAPH_REPORT_OUTPUT_FILE)}`.",
+    ])
+
+    if graph_rows:
+        market_edges = [
+            row for row in graph_rows
+            if row["target_entity_type"] == "Market / Region"
+            or row["source_entity_type"] == "Market / Region"
+        ][:5]
+        if market_edges:
+            for row in market_edges:
+                lines.append(
+                    f"- {row['market']}: {row['source_entity']} -> "
+                    f"{row['target_entity']} ({row['relationship_type']})."
+                )
+        else:
+            lines.append("- No market relationship edge was detected in this run.")
+    else:
+        lines.append("- No relationship graph edge was detected in this run.")
+
+    lines.append("")
+
+    lines.extend([
+        "## Canonical Deal Summary",
+        "",
+        f"Historical memory uses unique canonical deal/event rows from `{os.path.basename(DEAL_FINGERPRINT_REPORT_OUTPUT_FILE)}` where available.",
+        "This reduces article-count inflation in recurring entity and relationship observations.",
+        "",
+        "## Opportunity / Distress Radar",
+        "",
+        f"Opportunity radar is available in `{os.path.basename(OPPORTUNITY_RADAR_REPORT_OUTPUT_FILE)}`.",
+        f"Distress watchlist is available in `{os.path.basename(DISTRESS_WATCHLIST_REPORT_OUTPUT_FILE)}`.",
+        f"Canonical deal fingerprints are available in `{os.path.basename(DEAL_FINGERPRINT_REPORT_OUTPUT_FILE)}`.",
+        f"Opportunity deduplication is available in `{os.path.basename(OPPORTUNITY_DEDUPLICATION_REPORT_OUTPUT_FILE)}`.",
+        "",
+    ])
+
+    lines.extend([
+        "## Implications for Woomi / Woomi Global",
+        "",
+    ])
+
+    for implication in build_regional_woomi_implications(regional_rows):
+        lines.append(f"- {implication}")
+
+    lines.extend([
+        "",
+        "## Recommended Regional Follow-up Actions",
+        "",
+    ])
+
+    for action in build_regional_follow_up_actions(regional_rows):
+        lines.append(f"- {action}")
+
+    lines.append("")
+
+    write_markdown_outputs(
+        REGIONAL_INTELLIGENCE_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+    return {
+        "top_markets": top_markets,
+        "la_california_rows": la_california_rows,
+        "follow_up_actions": build_regional_follow_up_actions(regional_rows),
+    }
+
+
+GP_TRACKING_UNIVERSE = [
+    "Greystar",
+    "Lincoln Property Company",
+    "AvalonBay",
+    "Essex Property Trust",
+    "Camden Property Trust",
+    "UDR",
+    "Related Companies",
+    "Trammell Crow Residential",
+    "Mill Creek Residential",
+    "Alliance Residential",
+    "Fairfield Residential",
+    "Holland Partner Group",
+    "Wood Partners",
+    "Hanover Company",
+    "Lennar Multifamily",
+    "Toll Brothers Apartment Living",
+    "Hines",
+    "JPI",
+    "GID",
+    "Kairoi Residential",
+    "MAA",
+    "Equity Residential",
+    "Brookfield",
+    "Blackstone",
+    "Kennedy Wilson",
+    "Mavrek",
+    "Crescent Communities",
+    "Quarterra",
+    "LivCor",
+    "Carmel Partners",
+    "PMG",
+    "High Street Residential",
+    "Cedar Street",
+    "CA Ventures",
+    "Mortenson",
+    "BGO",
+    "Waterton",
+    "Harbor Group International",
+    "CIM Group",
+    "Mack Real Estate Group",
+    "Tishman Speyer",
+    "RXR",
+    "Related California",
+]
+
+GP_ALIASES = {
+    "AvalonBay": ["avalonbay", "avb"],
+    "UDR": ["udr"],
+    "MAA": ["maa", "mid-america apartment"],
+    "BGO": ["bgo", "bentallgreenoak", "bentall green oak"],
+    "PMG": ["pmg"],
+    "JPI": ["jpi"],
+    "GID": ["gid"],
+}
+
+GP_ACTIVITY_KEYWORDS = {
+    "acquisition": ["acquire", "acquisition", "buy", "purchase", "purchased"],
+    "disposition / exit": ["sell", "sale", "disposition", "exit", "sold"],
+    "refinancing": ["refinance", "refinancing", "loan", "debt", "mortgage"],
+    "recapitalization": ["recapitalization", "recap", "recapitalized"],
+    "development start": ["groundbreaking", "construction start", "starts", "development start"],
+    "entitlement": ["entitlement", "zoning", "permit", "permitting", "approval"],
+    "modular construction": ["modular", "prefab", "prefabricated"],
+    "BTR expansion": ["btr", "build-to-rent", "built-to-rent"],
+    "office-to-residential conversion": ["office-to-residential", "adaptive reuse", "conversion"],
+    "JV / partnership": ["joint venture", "jv", "partnership", "partner"],
+    "capital raise": ["capital raise", "fund", "fundraise", "equity raise"],
+    "market expansion": ["expansion", "expand", "entered", "entry"],
+    "distressed opportunity": ["distressed", "foreclosure", "special situation"],
+    "operational technology / AI adoption": ["technology", "ai", "artificial intelligence", "proptech"],
+}
+
+
+def get_gp_aliases(gp_name):
+    """Return lowercase aliases used to identify a GP/developer name."""
+    aliases = GP_ALIASES.get(gp_name, [])
+    return [gp_name.lower()] + aliases
+
+
+def article_matches_gp(article, gp_name):
+    """Return True when article text mentions a tracked GP/developer."""
+    text = " ".join([
+        article.get("title", ""),
+        article.get("summary", ""),
+        article.get("matched_keywords", ""),
+        article.get("article_text_sample", ""),
+    ]).lower()
+
+    return any(alias in text for alias in get_gp_aliases(gp_name))
+
+
+def detect_gp_activity_types(articles):
+    """Classify GP activity types from article text."""
+    detected = []
+    combined_text = " ".join(
+        " ".join([
+            article.get("title", ""),
+            article.get("summary", ""),
+            article.get("matched_keywords", ""),
+            article.get("article_text_sample", ""),
+        ]).lower()
+        for article in articles
+    )
+
+    for activity_type, keywords in GP_ACTIVITY_KEYWORDS.items():
+        if any(keyword in combined_text for keyword in keywords):
+            detected.append(activity_type)
+
+    if not detected:
+        detected.append("market expansion")
+
+    return detected
+
+
+def get_gp_signal_strength(gp_name, articles, activity_types, market_focus):
+    """Score institutional/developer signal strength from 0 to 100."""
+    article_count = len(articles)
+    average_score = average_relevance_score(articles)
+    score = min(article_count * 16, 40)
+    score += min(round(average_score / 2), 35)
+
+    high_value_activities = [
+        "acquisition",
+        "refinancing",
+        "recapitalization",
+        "development start",
+        "JV / partnership",
+        "capital raise",
+        "distressed opportunity",
+    ]
+    innovation_activities = [
+        "modular construction",
+        "BTR expansion",
+        "office-to-residential conversion",
+        "operational technology / AI adoption",
+    ]
+
+    if any(activity in activity_types for activity in high_value_activities):
+        score += 12
+
+    if any(activity in activity_types for activity in innovation_activities):
+        score += 10
+
+    if market_focus in ["Los Angeles", "California"]:
+        score += 10
+
+    if gp_name in ["Kennedy Wilson", "Blackstone", "Brookfield"]:
+        score += 12
+    elif gp_name in ["Greystar", "Related Companies", "AvalonBay"]:
+        score += 8
+
+    return min(100, score)
+
+
+def get_growth_or_defensive_signal(activity_types):
+    """Summarize whether the GP signal looks growth-oriented or defensive."""
+    if any(activity in activity_types for activity in ["distressed opportunity", "recapitalization"]):
+        return "Distressed Opportunity Positioning"
+
+    if any(activity in activity_types for activity in ["refinancing", "disposition / exit"]):
+        return "Defensive Capital Preservation"
+
+    if any(activity in activity_types for activity in ["modular construction", "operational technology / AI adoption"]):
+        return "Operational Optimization"
+
+    if any(activity in activity_types for activity in ["acquisition", "development start", "market expansion", "capital raise"]):
+        return "Aggressive Expansion"
+
+    if any(activity in activity_types for activity in ["JV / partnership", "entitlement", "BTR expansion"]):
+        return "Selective Expansion"
+
+    return "Stable Monitoring"
+
+
+def get_likely_gp_strategy(activity_types, market_focus):
+    """Infer likely strategy from activity type and market focus."""
+    if "distressed opportunity" in activity_types or "recapitalization" in activity_types:
+        return "distressed recapitalization"
+
+    if "BTR expansion" in activity_types:
+        return "BTR growth strategy"
+
+    if "modular construction" in activity_types:
+        return "modular construction scaling"
+
+    if "operational technology / AI adoption" in activity_types:
+        return "operational efficiency push"
+
+    if "office-to-residential conversion" in activity_types:
+        return "office conversion pipeline"
+
+    if market_focus in ["Los Angeles", "California"] or "entitlement" in activity_types:
+        return "California entitlement positioning"
+
+    if market_focus in ["Texas", "Dallas", "Austin", "Phoenix", "Arizona", "Florida", "Southeast", "Sun Belt"]:
+        return "Sun Belt expansion"
+
+    if "acquisition" in activity_types:
+        return "selective multifamily acquisition"
+
+    return "stable platform monitoring"
+
+
+def get_gp_implication_for_woomi(activity_types, likely_strategy):
+    """Translate GP activity into a Woomi implication."""
+    if "JV / partnership" in activity_types:
+        return "potential JV partnership signal"
+
+    if likely_strategy in ["distressed recapitalization", "selective multifamily acquisition"]:
+        return "pricing discovery reference"
+
+    if likely_strategy in ["modular construction scaling", "office conversion pipeline"]:
+        return "construction strategy signal"
+
+    if likely_strategy == "operational efficiency push":
+        return "competitive pressure indicator"
+
+    if "refinancing" in activity_types or "capital raise" in activity_types:
+        return "capital market sentiment indicator"
+
+    return "benchmark underwriting assumptions"
+
+
+def get_gp_follow_up(activity_types, market_focus, implication):
+    """Choose a simple GP follow-up action."""
+    if "JV / partnership" in activity_types:
+        return "monitor JV activity"
+
+    if "refinancing" in activity_types or "recapitalization" in activity_types:
+        return "track refinancing pipeline"
+
+    if market_focus in ["Los Angeles", "California"]:
+        return "review LA / California development activity"
+
+    if any(activity in activity_types for activity in ["modular construction", "BTR expansion", "operational technology / AI adoption"]):
+        return "track construction innovation strategy"
+
+    if implication in ["pricing discovery reference", "capital market sentiment indicator"]:
+        return "review institutional pricing signals"
+
+    return "monitor only"
+
+
+def get_gp_priority_label(gp_name, signal_strength, market_focus, activity_types):
+    """Assign GP strategic priority."""
+    if gp_name in ["Kennedy Wilson", "Blackstone", "Brookfield"]:
+        return "Immediate Watch"
+
+    if signal_strength >= 80:
+        return "Immediate Watch"
+
+    if gp_name in ["Greystar", "Related Companies", "AvalonBay"]:
+        return "Strategic Watch"
+
+    if market_focus in ["Los Angeles", "California"]:
+        return "Strategic Watch"
+
+    if any(activity in activity_types for activity in ["modular construction", "BTR expansion", "operational technology / AI adoption"]):
+        return "Strategic Watch"
+
+    if signal_strength >= 45:
+        return "Strategic Watch"
+
+    if signal_strength >= 20:
+        return "General Monitoring"
+
+    return "Low Priority"
+
+
+def build_gp_intelligence_rows(
+    run_timestamp,
+    articles,
+    strategy_briefing_articles,
+    market_signal_articles,
+    executive_priority_rows,
+    regional_rows,
+    scenario_rows,
+):
+    """Build GP/developer intelligence rows from the current article set."""
+    rows = []
+
+    for gp_name in GP_TRACKING_UNIVERSE:
+        gp_articles = [
+            article for article in articles
+            if article_matches_gp(article, gp_name)
+        ]
+
+        if not gp_articles:
+            continue
+
+        activity_types = detect_gp_activity_types(gp_articles)
+        market_focus = most_common_label(gp_articles, "market_focus")
+        signal_strength = get_gp_signal_strength(
+            gp_name,
+            gp_articles,
+            activity_types,
+            market_focus,
+        )
+        growth_signal = get_growth_or_defensive_signal(activity_types)
+        likely_strategy = get_likely_gp_strategy(activity_types, market_focus)
+        implication = get_gp_implication_for_woomi(activity_types, likely_strategy)
+        follow_up = get_gp_follow_up(activity_types, market_focus, implication)
+        priority_label = get_gp_priority_label(
+            gp_name,
+            signal_strength,
+            market_focus,
+            activity_types,
+        )
+
+        rows.append({
+            "gp_name": gp_name,
+            "canonical_gp_name": canonicalize_entity(gp_name, "Developer / GP")["canonical_entity"],
+            "residential_sector": most_common_plain_value(gp_articles, "residential_sector", "General Residential"),
+            "activity_type": "; ".join(activity_types),
+            "market_focus": market_focus,
+            "source_categories": "; ".join(sorted(set(
+                article.get("source_category", "Uncategorized")
+                for article in gp_articles
+            ))),
+            "source_platform_types": "; ".join(sorted(set(
+                article.get("platform_type", "Other")
+                for article in gp_articles
+            ))),
+            "article_count": len(gp_articles),
+            "average_relevance_score": average_relevance_score(gp_articles),
+            "institutional_signal_strength": signal_strength,
+            "growth_or_defensive_signal": growth_signal,
+            "likely_strategy": likely_strategy,
+            "potential_implication_for_woomi": implication,
+            "recommended_follow_up": follow_up,
+            "strategic_priority_label": priority_label,
+        })
+
+    rows.sort(
+        key=lambda row: (
+            row["strategic_priority_label"] not in ["Immediate Watch", "Strategic Watch"],
+            -safe_int(row["institutional_signal_strength"]),
+            row["gp_name"],
+        )
+    )
+
+    return rows
+
+
+def add_gp_section(lines, title, rows, filter_function):
+    """Add a filtered GP section to Markdown."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected_rows = [row for row in rows if filter_function(row)]
+
+    if not selected_rows:
+        lines.append("- No current signal detected.")
+        lines.append("")
+        return
+
+    for row in selected_rows[:10]:
+        lines.append(
+            f"- {row['gp_name']}: {row['activity_type']}, "
+            f"{row['market_focus']}, sources: {row.get('source_categories', 'Uncategorized')}, "
+            f"strength {row['institutional_signal_strength']}. "
+            f"{row['potential_implication_for_woomi']}; {row['recommended_follow_up']}."
+        )
+
+    lines.append("")
+
+
+def build_gp_competitive_implications(rows):
+    """Generate Woomi implications from GP activity."""
+    implications = []
+
+    if any(row["strategic_priority_label"] == "Immediate Watch" for row in rows):
+        implications.append(
+            "Immediate Watch platforms may provide pricing discovery, capital-market sentiment, or competitive signals for Woomi."
+        )
+
+    if any(row["potential_implication_for_woomi"] == "potential JV partnership signal" for row in rows):
+        implications.append(
+            "Partnership signals should be reviewed for possible GP relationship mapping."
+        )
+
+    if any(row["market_focus"] in ["Los Angeles", "California"] for row in rows):
+        implications.append(
+            "California / LA GP activity should be compared against Woomi's local entitlement and development strategy."
+        )
+
+    if any("modular construction" in row["activity_type"] or "BTR expansion" in row["activity_type"] for row in rows):
+        implications.append(
+            "Innovation or BTR signals may help benchmark construction strategy, operating model, and product design."
+        )
+
+    if not implications:
+        implications.append(
+            "Current GP signals are limited; continue monitoring major platforms for repeated strategic movement."
+        )
+
+    return implications
+
+
+def generate_gp_intelligence_outputs(
+    gp_rows,
+    dated_output_dir,
+    relationship_rows=None,
+    deal_rows=None,
+    graph_rows=None,
+):
+    """Write gp_intelligence.csv and gp_intelligence_report.md."""
+    fieldnames = [
+        "gp_name",
+        "canonical_gp_name",
+        "residential_sector",
+        "activity_type",
+        "market_focus",
+        "source_categories",
+        "source_platform_types",
+        "article_count",
+        "average_relevance_score",
+        "institutional_signal_strength",
+        "growth_or_defensive_signal",
+        "likely_strategy",
+        "potential_implication_for_woomi",
+        "recommended_follow_up",
+        "strategic_priority_label",
+    ]
+    write_csv_outputs(
+        GP_INTELLIGENCE_OUTPUT_FILE,
+        fieldnames,
+        gp_rows,
+        dated_output_dir,
+    )
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = [
+        "# GP / Developer Intelligence Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+    ]
+    add_gp_section(
+        lines,
+        "Top Institutional Signals",
+        gp_rows,
+        lambda row: row["strategic_priority_label"] in ["Immediate Watch", "Strategic Watch"],
+    )
+    add_gp_section(
+        lines,
+        "Major GP Strategic Movements",
+        gp_rows,
+        lambda row: row["institutional_signal_strength"] >= 45,
+    )
+    add_gp_section(
+        lines,
+        "California / LA Developer Activity",
+        gp_rows,
+        lambda row: row["market_focus"] in ["Los Angeles", "California"],
+    )
+    add_gp_section(
+        lines,
+        "Sun Belt Expansion Watch",
+        gp_rows,
+        lambda row: row["likely_strategy"] == "Sun Belt expansion",
+    )
+    add_gp_section(
+        lines,
+        "BTR / Modular / Innovation Watch",
+        gp_rows,
+        lambda row: any(
+            activity in row["activity_type"]
+            for activity in ["BTR expansion", "modular construction", "operational technology / AI adoption"]
+        ),
+    )
+    add_gp_section(
+        lines,
+        "Distressed / Refinancing Watch",
+        gp_rows,
+        lambda row: any(
+            activity in row["activity_type"]
+            for activity in ["distressed opportunity", "refinancing", "recapitalization"]
+        ),
+    )
+    add_gp_section(
+        lines,
+        "Potential Partnership Signals",
+        gp_rows,
+        lambda row: "JV / partnership" in row["activity_type"]
+        or row["potential_implication_for_woomi"] == "potential JV partnership signal",
+    )
+
+    lines.extend([
+        "## Institutional Relationship Layer",
+        "",
+        f"Firm-tier weighting, capital-flow inference, and relationship scoring are available in `{os.path.basename(INSTITUTIONAL_RELATIONSHIP_REPORT_OUTPUT_FILE)}`.",
+        "",
+    ])
+
+    if relationship_rows:
+        for row in relationship_rows[:3]:
+            lines.append(
+                f"- {row['firm_name']}: {row['strategic_tier']}, "
+                f"{row['capital_flow_signal']}, {row['relationship_signal']}."
+            )
+        lines.append("")
+
+    lines.extend([
+        "## Deal / Project Pipeline Context",
+        "",
+        f"Deal and project extraction is available in `{os.path.basename(DEAL_PIPELINE_REPORT_OUTPUT_FILE)}`.",
+    ])
+
+    if deal_rows:
+        gp_deals = [
+            row for row in deal_rows
+            if row["gp_or_developer"] and row["gp_or_developer"] != "Unknown"
+        ][:5]
+        if gp_deals:
+            for row in gp_deals:
+                lines.append(
+                    f"- {row['gp_or_developer']}: {row['deal_type']}, "
+                    f"{row['market']}, {row['potential_woomi_use']}."
+                )
+        else:
+            lines.append("- No named GP/developer deal signal was detected in this run.")
+    else:
+        lines.append("- No deal or project signal was detected in this run.")
+
+    lines.append("")
+
+    lines.extend([
+        "## Relationship Graph Context",
+        "",
+        f"Developer and GP relationship edges are available in `{os.path.basename(RELATIONSHIP_GRAPH_REPORT_OUTPUT_FILE)}`.",
+    ])
+
+    if graph_rows:
+        gp_edges = [
+            row for row in graph_rows
+            if row["source_entity_type"] == "Developer / GP"
+            or row["target_entity_type"] == "Developer / GP"
+        ][:5]
+        if gp_edges:
+            for row in gp_edges:
+                lines.append(
+                    f"- {row['source_entity']} -> {row['target_entity']}: "
+                    f"{row['relationship_type']}."
+                )
+        else:
+            lines.append("- No GP relationship edge was detected in this run.")
+    else:
+        lines.append("- No relationship graph edge was detected in this run.")
+
+    lines.append("")
+
+    lines.extend([
+        "## Competitive Landscape Implications for Woomi",
+        "",
+    ])
+
+    for implication in build_gp_competitive_implications(gp_rows):
+        lines.append(f"- {implication}")
+
+    lines.extend([
+        "",
+        "## Recommended Executive Follow-Up",
+        "",
+    ])
+
+    if not gp_rows:
+        lines.append("- No GP-specific executive follow-up this run.")
+    else:
+        for row in gp_rows[:8]:
+            lines.append(f"- {row['gp_name']}: {row['recommended_follow_up']}")
+
+    lines.append("")
+
+    write_markdown_outputs(
+        GP_INTELLIGENCE_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+    return {
+        "top_gp_signals": gp_rows[:5],
+        "california_la_activity": [
+            row for row in gp_rows
+            if row["market_focus"] in ["Los Angeles", "California"]
+        ],
+        "innovation_signals": [
+            row for row in gp_rows
+            if any(
+                activity in row["activity_type"]
+                for activity in ["BTR expansion", "modular construction", "operational technology / AI adoption"]
+            )
+        ],
+        "partnership_implications": [
+            row for row in gp_rows
+            if row["potential_implication_for_woomi"] == "potential JV partnership signal"
+        ],
+    }
+
+
+STRATEGIC_FIRM_TIERS = {
+    "Kennedy Wilson": ("Tier 1 / Immediate Strategic Importance", 100),
+    "Blackstone": ("Tier 1 / Immediate Strategic Importance", 100),
+    "Brookfield": ("Tier 1 / Immediate Strategic Importance", 100),
+    "Greystar": ("Tier 1 / Immediate Strategic Importance", 100),
+    "Related Companies": ("Tier 1 / Immediate Strategic Importance", 100),
+    "AvalonBay": ("Tier 1 / Immediate Strategic Importance", 100),
+    "Equity Residential": ("Tier 1 / Immediate Strategic Importance", 100),
+    "Essex Property Trust": ("Tier 1 / Immediate Strategic Importance", 100),
+    "Lincoln Property Company": ("Tier 2 / Strategic Watch", 75),
+    "Trammell Crow Residential": ("Tier 2 / Strategic Watch", 75),
+    "Mill Creek Residential": ("Tier 2 / Strategic Watch", 75),
+    "Hines": ("Tier 2 / Strategic Watch", 75),
+    "Camden Property Trust": ("Tier 2 / Strategic Watch", 75),
+    "UDR": ("Tier 2 / Strategic Watch", 75),
+    "MAA": ("Tier 2 / Strategic Watch", 75),
+    "Toll Brothers Apartment Living": ("Tier 2 / Strategic Watch", 75),
+    "Lennar Multifamily": ("Tier 2 / Strategic Watch", 75),
+    "Carmel Partners": ("Tier 2 / Strategic Watch", 75),
+    "Waterton": ("Tier 2 / Strategic Watch", 75),
+    "CIM Group": ("Tier 2 / Strategic Watch", 75),
+    "GID": ("Tier 2 / Strategic Watch", 75),
+}
+
+
+def get_firm_tier_and_weight(firm_name):
+    """Return strategic tier and weight for a tracked firm."""
+    if firm_name in STRATEGIC_FIRM_TIERS:
+        return STRATEGIC_FIRM_TIERS[firm_name]
+
+    return "Tier 3 / Growth and Market Signal Watch", 50
+
+
+def detect_capital_flow_signal(activity_types):
+    """Infer capital-flow direction from GP activity types."""
+    if "acquisition" in activity_types or "capital raise" in activity_types:
+        return "Capital Inflow"
+
+    if "disposition / exit" in activity_types:
+        return "Capital Outflow / Exit"
+
+    if "refinancing" in activity_types or "recapitalization" in activity_types:
+        return "Refinancing / Recapitalization"
+
+    if "development start" in activity_types or "entitlement" in activity_types:
+        return "Development Capital Deployment"
+
+    if "distressed opportunity" in activity_types:
+        return "Distressed Opportunity Positioning"
+
+    if any(activity in activity_types for activity in [
+        "modular construction",
+        "BTR expansion",
+        "office-to-residential conversion",
+        "operational technology / AI adoption",
+    ]):
+        return "Operational / Platform Investment"
+
+    return "No Clear Capital Flow Signal"
+
+
+def detect_relationship_signal(activity_types, likely_strategy, implication):
+    """Infer relationship meaning for Woomi."""
+    if "JV / partnership" in activity_types or implication == "potential JV partnership signal":
+        return "Potential JV / Partnership Signal"
+
+    if likely_strategy in ["modular construction scaling", "BTR growth strategy", "office conversion pipeline", "operational efficiency push"]:
+        return "GP Capability Benchmark Signal"
+
+    if implication == "capital market sentiment indicator":
+        return "Capital Partner Tracking Signal"
+
+    if implication == "pricing discovery reference":
+        return "Pricing Discovery Signal"
+
+    if implication == "competitive pressure indicator":
+        return "Competitive Benchmark Signal"
+
+    return "No Clear Relationship Signal"
+
+
+def get_california_la_relevance(firm_name, articles, market_focus):
+    """Label California / LA relevance for institutional relationship tracking."""
+    text = " ".join(
+        " ".join([
+            article.get("title", ""),
+            article.get("summary", ""),
+            article.get("matched_keywords", ""),
+            article.get("article_text_sample", ""),
+        ]).lower()
+        for article in articles
+    )
+    high_keywords = [
+        "los angeles",
+        " la ",
+        "california",
+        "southern california",
+        "entitlement",
+        "zoning",
+        "permitting",
+        "ceqa",
+    ]
+
+    if (
+        market_focus in ["Los Angeles", "California"]
+        or firm_name in ["Related California", "Kennedy Wilson", "Essex Property Trust", "AvalonBay"]
+        or any(keyword in text for keyword in high_keywords)
+    ):
+        return "High"
+
+    if any(keyword in text for keyword in ["west coast", "seattle", "coastal", "constrained supply"]):
+        return "Medium"
+
+    return "Low"
+
+
+def score_institutional_relationship(
+    strategic_weight,
+    average_score,
+    highest_score,
+    article_count,
+    capital_flow_signal,
+    relationship_signal,
+    california_la_relevance,
+    activity_types,
+    has_high_priority,
+):
+    """Balanced 0-100 relationship score."""
+    score = round(strategic_weight * 0.25)
+    score += round(average_score * 0.25)
+    score += round(highest_score * 0.15)
+    score += min(article_count * 7, 18)
+
+    if capital_flow_signal != "No Clear Capital Flow Signal":
+        score += 8
+
+    if relationship_signal != "No Clear Relationship Signal":
+        score += 10
+
+    if california_la_relevance == "High":
+        score += 8
+    elif california_la_relevance == "Medium":
+        score += 4
+
+    important_activities = [
+        "acquisition",
+        "recapitalization",
+        "development start",
+        "JV / partnership",
+        "capital raise",
+        "distressed opportunity",
+        "modular construction",
+        "BTR expansion",
+    ]
+
+    if any(activity in activity_types for activity in important_activities):
+        score += 8
+
+    if has_high_priority:
+        score += 6
+
+    return min(100, score)
+
+
+def get_institutional_follow_up(capital_flow_signal, relationship_signal, california_la_relevance):
+    """Choose follow-up action for institutional relationship rows."""
+    if relationship_signal == "Potential JV / Partnership Signal":
+        return "Map potential GP / JV relationship and monitor partnership activity"
+
+    if california_la_relevance == "High":
+        return "Review California / LA capital and developer activity"
+
+    if capital_flow_signal == "Refinancing / Recapitalization":
+        return "Track refinancing or recapitalization pipeline"
+
+    if capital_flow_signal in ["Capital Inflow", "Development Capital Deployment"]:
+        return "Track capital deployment and pricing signals"
+
+    if relationship_signal in ["Pricing Discovery Signal", "Capital Partner Tracking Signal"]:
+        return "Review institutional pricing and capital partner signals"
+
+    return "Monitor only"
+
+
+def build_institutional_relationship_rows(run_timestamp, articles, gp_rows):
+    """Build institutional relationship and capital-flow intelligence rows."""
+    rows = []
+
+    for gp_row in gp_rows:
+        firm_name = gp_row["gp_name"]
+        firm_articles = [
+            article for article in articles
+            if article_matches_gp(article, firm_name)
+        ]
+
+        if not firm_articles:
+            continue
+
+        strategic_tier, strategic_weight = get_firm_tier_and_weight(firm_name)
+        activity_types = split_labels(gp_row.get("activity_type", ""))
+        if not activity_types:
+            activity_types = detect_gp_activity_types(firm_articles)
+
+        relevance_scores = [
+            safe_int(article.get("relevance_score"))
+            for article in firm_articles
+        ]
+        highest_score = max(relevance_scores) if relevance_scores else 0
+        average_score = average_relevance_score(firm_articles)
+        detected_markets = sorted(set(
+            article.get("market_focus", "Other / Unknown")
+            for article in firm_articles
+            if article.get("market_focus")
+        ))
+        detected_source_categories = sorted(set(
+            article.get("source_category", "Uncategorized")
+            for article in firm_articles
+        ))
+        detected_platform_types = sorted(set(
+            article.get("platform_type", "Other")
+            for article in firm_articles
+        ))
+        market_focus = gp_row.get("market_focus", "Other / Unknown")
+        capital_flow_signal = detect_capital_flow_signal(activity_types)
+        relationship_signal = detect_relationship_signal(
+            activity_types,
+            gp_row.get("likely_strategy", ""),
+            gp_row.get("potential_implication_for_woomi", ""),
+        )
+        california_la_relevance = get_california_la_relevance(
+            firm_name,
+            firm_articles,
+            market_focus,
+        )
+        has_high_priority = any(
+            article.get("action_level") in ["Must Read", "Review"]
+            for article in firm_articles
+        )
+        relationship_score = score_institutional_relationship(
+            strategic_weight,
+            average_score,
+            highest_score,
+            len(firm_articles),
+            capital_flow_signal,
+            relationship_signal,
+            california_la_relevance,
+            activity_types,
+            has_high_priority,
+        )
+
+        rows.append({
+            "firm_name": firm_name,
+            "strategic_tier": strategic_tier,
+            "strategic_weight": strategic_weight,
+            "residential_sector": most_common_plain_value(firm_articles, "residential_sector", "General Residential"),
+            "detected_markets": "; ".join(detected_markets) if detected_markets else "Other / Unknown",
+            "detected_source_categories": "; ".join(detected_source_categories),
+            "detected_platform_types": "; ".join(detected_platform_types),
+            "detected_activity_types": "; ".join(activity_types),
+            "article_count": len(firm_articles),
+            "highest_relevance_score": highest_score,
+            "average_relevance_score": average_score,
+            "capital_flow_signal": capital_flow_signal,
+            "relationship_signal": relationship_signal,
+            "partnership_relevance_to_woomi": gp_row.get("potential_implication_for_woomi", "benchmark underwriting assumptions"),
+            "california_la_relevance": california_la_relevance,
+            "institutional_relationship_score": relationship_score,
+            "recommended_follow_up": get_institutional_follow_up(
+                capital_flow_signal,
+                relationship_signal,
+                california_la_relevance,
+            ),
+        })
+
+    rows.sort(
+        key=lambda row: (
+            -safe_int(row["institutional_relationship_score"]),
+            row["firm_name"],
+        )
+    )
+
+    return rows
+
+
+def add_relationship_section(lines, title, rows, filter_function):
+    """Add filtered institutional relationship section."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected_rows = [row for row in rows if filter_function(row)]
+
+    if not selected_rows:
+        lines.append("- No current signal detected.")
+        lines.append("")
+        return
+
+    for row in selected_rows[:10]:
+        lines.append(
+            f"- {row['firm_name']}: score {row['institutional_relationship_score']}, "
+            f"{row['capital_flow_signal']}, {row['relationship_signal']}. "
+            f"{row['recommended_follow_up']}."
+        )
+
+    lines.append("")
+
+
+def build_institutional_woomi_implications(rows):
+    """Generate Woomi implications from institutional relationship rows."""
+    implications = []
+
+    if any(row["relationship_signal"] == "Potential JV / Partnership Signal" for row in rows):
+        implications.append(
+            "JV / partnership signals should be mapped to potential GP relationship targets and compared with Woomi's US entry needs."
+        )
+
+    if any(row["capital_flow_signal"] in ["Capital Inflow", "Development Capital Deployment"] for row in rows):
+        implications.append(
+            "Capital inflow or deployment signals can help benchmark pricing, underwriting assumptions, and market timing."
+        )
+
+    if any(row["california_la_relevance"] == "High" for row in rows):
+        implications.append(
+            "High California / LA relevance should be connected to entitlement, zoning, and local developer capability tracking."
+        )
+
+    if not implications:
+        implications.append(
+            "Institutional relationship signals are limited this run; continue monitoring for repeated firm-level activity."
+        )
+
+    return implications
+
+
+def generate_institutional_relationship_outputs(
+    relationship_rows,
+    dated_output_dir,
+    deal_rows=None,
+    graph_rows=None,
+    gp_watchlist_rows=None,
+):
+    """Write institutional relationship CSV and Markdown report."""
+    fieldnames = [
+        "firm_name",
+        "strategic_tier",
+        "strategic_weight",
+        "residential_sector",
+        "detected_markets",
+        "detected_source_categories",
+        "detected_platform_types",
+        "detected_activity_types",
+        "article_count",
+        "highest_relevance_score",
+        "average_relevance_score",
+        "capital_flow_signal",
+        "relationship_signal",
+        "partnership_relevance_to_woomi",
+        "california_la_relevance",
+        "institutional_relationship_score",
+        "recommended_follow_up",
+    ]
+    write_csv_outputs(
+        INSTITUTIONAL_RELATIONSHIPS_OUTPUT_FILE,
+        fieldnames,
+        relationship_rows,
+        dated_output_dir,
+    )
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = [
+        "# Institutional Relationship & Capital Flow Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+    ]
+    add_relationship_section(
+        lines,
+        "Top Institutional Relationship Signals",
+        relationship_rows,
+        lambda row: True,
+    )
+    add_relationship_section(
+        lines,
+        "Tier 1 Firm Watch",
+        relationship_rows,
+        lambda row: row["strategic_tier"].startswith("Tier 1"),
+    )
+    add_relationship_section(
+        lines,
+        "California / LA Capital and Developer Watch",
+        relationship_rows,
+        lambda row: row["california_la_relevance"] == "High",
+    )
+    add_relationship_section(
+        lines,
+        "Capital Inflow / Outflow Signals",
+        relationship_rows,
+        lambda row: row["capital_flow_signal"] in ["Capital Inflow", "Capital Outflow / Exit", "Development Capital Deployment"],
+    )
+    add_relationship_section(
+        lines,
+        "JV / Partnership Signals",
+        relationship_rows,
+        lambda row: row["relationship_signal"] == "Potential JV / Partnership Signal",
+    )
+    add_relationship_section(
+        lines,
+        "Competitive Benchmark Signals",
+        relationship_rows,
+        lambda row: row["relationship_signal"] in ["Competitive Benchmark Signal", "GP Capability Benchmark Signal"],
+    )
+    add_relationship_section(
+        lines,
+        "Pricing Discovery Signals",
+        relationship_rows,
+        lambda row: row["relationship_signal"] == "Pricing Discovery Signal",
+    )
+
+    lines.extend([
+        "## Relationship Map",
+        "",
+        "| Firm | Market | Source Category | Activity Type | Capital Flow | Relationship Signal | Woomi Implication |",
+        "| --- | --- | --- | --- | --- | --- | --- |",
+    ])
+
+    for row in relationship_rows[:10]:
+        lines.append(
+            f"| {row['firm_name']} | {row['detected_markets']} | "
+            f"{row['detected_source_categories']} | "
+            f"{row['detected_activity_types']} | {row['capital_flow_signal']} | "
+            f"{row['relationship_signal']} | {row['partnership_relevance_to_woomi']} |"
+        )
+
+    lines.extend([
+        "",
+        "## Deal / Project Intelligence",
+        "",
+        f"Deal and project-level extraction is available in `{os.path.basename(DEAL_PIPELINE_REPORT_OUTPUT_FILE)}`.",
+    ])
+
+    if deal_rows:
+        relationship_deals = [
+            row for row in deal_rows
+            if row["institutional_partner"] != "Unknown"
+            or row["capital_partner"] != "Unknown"
+            or row["lender_or_debt_provider"] != "Unknown"
+        ][:5]
+        if relationship_deals:
+            for row in relationship_deals:
+                lines.append(
+                    f"- {row['deal_type']} in {row['market']}: "
+                    f"{row['institutional_partner']} / {row['capital_partner']} / "
+                    f"{row['lender_or_debt_provider']}."
+                )
+        else:
+            lines.append("- No institutional partner, capital partner, or lender deal signal was detected in this run.")
+    else:
+        lines.append("- No deal or project signal was detected in this run.")
+
+    lines.extend([
+        "",
+        "## Relationship Graph Intelligence",
+        "",
+        f"Capital partner, lender, GP, and market edges are available in `{os.path.basename(RELATIONSHIP_GRAPH_REPORT_OUTPUT_FILE)}`.",
+    ])
+
+    if graph_rows:
+        institutional_edges = [
+            row for row in graph_rows
+            if row["source_entity_type"] in ["Institutional Capital", "Lender / Debt Provider"]
+            or row["target_entity_type"] in ["Institutional Capital", "Lender / Debt Provider"]
+        ][:5]
+        if institutional_edges:
+            for row in institutional_edges:
+                lines.append(
+                    f"- {row['source_entity']} -> {row['target_entity']}: "
+                    f"{row['relationship_type']}."
+                )
+        else:
+            lines.append("- No institutional or lender relationship edge was detected in this run.")
+    else:
+        lines.append("- No relationship graph edge was detected in this run.")
+
+    lines.extend([
+        "",
+        "## High-Scoring GP Watchlist Reference",
+        "",
+        f"Emerging GP watchlist rankings are available in `{os.path.basename(GP_WATCHLIST_REPORT_OUTPUT_FILE)}`.",
+    ])
+    if gp_watchlist_rows:
+        for row in gp_watchlist_rows[:5]:
+            lines.append(
+                f"- {row['canonical_gp_name']}: {row['emerging_gp_score']} "
+                f"({row['gp_tier']}), {row['partnership_signal']}."
+            )
+    else:
+        lines.append("- No high-scoring GP watchlist reference was detected in this run.")
+
+    lines.extend([
+        "",
+        "## GP Source Expansion Summary",
+        "",
+        f"Developer / GP source coverage is available in `{os.path.basename(GP_SOURCE_COVERAGE_REPORT_OUTPUT_FILE)}`.",
+        "Use that report to prioritize missing capital platform, lender, and GP feeds that would strengthen relationship scoring.",
+        "",
+        "## Source Activation Summary",
+        "",
+        f"Validated source activation scoring is available in `{os.path.basename(SOURCE_ACTIVATION_REPORT_OUTPUT_FILE)}`.",
+        "Use that report to separate production-ready institutional feeds from critical manual-review sources.",
+        "",
+        "## Historical Persistence Summary",
+        "",
+        f"Institutional memory is available in `{os.path.basename(HISTORICAL_MEMORY_REPORT_OUTPUT_FILE)}`.",
+        f"Capital-flow memory is available in `{os.path.basename(CAPITAL_FLOW_REPORT_OUTPUT_FILE)}`.",
+        f"Recurring relationship tracking is available in `{os.path.basename(RELATIONSHIP_PERSISTENCE_REPORT_OUTPUT_FILE)}`.",
+        "",
+        "## Opportunity / Distress Radar",
+        "",
+        f"Opportunity radar is available in `{os.path.basename(OPPORTUNITY_RADAR_REPORT_OUTPUT_FILE)}`.",
+        f"Distress watchlist is available in `{os.path.basename(DISTRESS_WATCHLIST_REPORT_OUTPUT_FILE)}`.",
+        f"Canonical deal fingerprints are available in `{os.path.basename(DEAL_FINGERPRINT_REPORT_OUTPUT_FILE)}`.",
+        f"Opportunity deduplication is available in `{os.path.basename(OPPORTUNITY_DEDUPLICATION_REPORT_OUTPUT_FILE)}`.",
+        f"Timing intelligence is available in `{os.path.basename(TIMING_INTELLIGENCE_REPORT_OUTPUT_FILE)}`.",
+        f"Market entry window scoring is available in `{os.path.basename(MARKET_ENTRY_WINDOW_REPORT_OUTPUT_FILE)}`.",
+    ])
+
+    lines.extend([
+        "",
+        "## Implications for Woomi / Woomi Global",
+        "",
+    ])
+
+    for implication in build_institutional_woomi_implications(relationship_rows):
+        lines.append(f"- {implication}")
+
+    lines.extend([
+        "",
+        "## Recommended Executive Follow-Up",
+        "",
+    ])
+
+    if not relationship_rows:
+        lines.append("- No institutional relationship follow-up this run.")
+    else:
+        for row in relationship_rows[:8]:
+            lines.append(f"- {row['firm_name']}: {row['recommended_follow_up']}")
+
+    lines.append("")
+
+    write_markdown_outputs(
+        INSTITUTIONAL_RELATIONSHIP_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+    return {
+        "top_relationship_signals": relationship_rows[:5],
+        "tier_1_watch": [
+            row for row in relationship_rows
+            if row["strategic_tier"].startswith("Tier 1")
+        ],
+        "california_la_signals": [
+            row for row in relationship_rows
+            if row["california_la_relevance"] == "High"
+        ],
+        "jv_partnership_signals": [
+            row for row in relationship_rows
+            if row["relationship_signal"] == "Potential JV / Partnership Signal"
+        ],
+    }
+
+
+def add_top_count_lines(lines, title, counts):
+    """Add a compact count list to the Markdown report."""
+    lines.append(f"### {title}")
+    lines.append("")
+
+    if not counts:
+        lines.append("- None detected")
+    else:
+        for label, count in counts.most_common(6):
+            lines.append(f"- {label}: {count}")
+
+    lines.append("")
+
+
+# ---------------------------------------------------------
+# 8. Entity / project canonicalization
+# ---------------------------------------------------------
+
+CANONICAL_ENTITY_ALIASES = {
+    "Kennedy Wilson": ["Kennedy Wilson", "Kennedy-Wilson", "KW", "Kennedy Wilson Properties"],
+    "Blackstone": ["Blackstone", "Blackstone Real Estate", "BREIT", "Blackstone Real Estate Income Trust"],
+    "Brookfield": ["Brookfield", "Brookfield Properties", "Brookfield Asset Management", "Brookfield Real Estate"],
+    "Greystar": ["Greystar", "Greystar Real Estate Partners", "Greystar Development"],
+    "Related Companies": ["Related", "Related Companies", "Related California", "Related Group"],
+    "Fannie Mae": ["Fannie Mae", "Fannie", "FNMA"],
+    "Freddie Mac": ["Freddie Mac", "Freddie", "FHLMC"],
+    "CBRE": ["CBRE", "CBRE Capital Markets", "CBRE Multifamily", "CBRE Debt & Structured Finance"],
+    "JLL": ["JLL", "Jones Lang LaSalle", "JLL Capital Markets"],
+    "Berkadia": ["Berkadia", "Berkadia Commercial Mortgage"],
+    "Greystone": ["Greystone", "Greystone Capital", "Greystone Servicing Company"],
+}
+
+CANONICAL_MARKET_ALIASES = {
+    "Los Angeles": [
+        "Los Angeles",
+        "LA",
+        "L.A.",
+        "Koreatown",
+        "Hollywood",
+        "Downtown Los Angeles",
+        "DTLA",
+        "Wilshire",
+        "Lincoln Heights",
+        "Watts",
+        "San Vicente",
+    ],
+    "California": [
+        "California",
+        "Southern California",
+        "SoCal",
+        "Bay Area",
+        "Orange County",
+        "San Diego",
+        "Pasadena",
+    ],
+    "Sun Belt": [
+        "Sun Belt",
+        "Nashville",
+        "Atlanta",
+        "Dallas",
+        "Austin",
+        "Phoenix",
+        "Tampa",
+        "Orlando",
+        "Charlotte",
+        "Raleigh",
+        "Miami",
+    ],
+    "New York": ["New York", "NYC", "Manhattan", "Brooklyn", "Queens"],
+}
+
+
+def normalize_entity_text(value):
+    """Normalize entity text for easier alias matching."""
+    return re.sub(r"[^a-z0-9]+", "", (value or "").lower())
+
+
+def canonicalize_entity(raw_entity, entity_type="Unknown"):
+    """Map raw firm, lender, capital partner, or market names to canonical names."""
+    raw_entity = (raw_entity or "").strip()
+    if not raw_entity or raw_entity == "Unknown":
+        return {
+            "canonical_entity": "Unknown",
+            "alias_matched": "",
+            "confidence_score": 40,
+            "notes": "unknown entity needs review",
+        }
+
+    dictionaries = []
+    if entity_type == "Market / Region":
+        dictionaries.append(CANONICAL_MARKET_ALIASES)
+    elif entity_type in ["Developer / GP", "Institutional Capital", "Lender / Debt Provider", "Broker / Advisor"]:
+        dictionaries.append(CANONICAL_ENTITY_ALIASES)
+    else:
+        dictionaries.extend([CANONICAL_ENTITY_ALIASES, CANONICAL_MARKET_ALIASES])
+
+    raw_norm = normalize_entity_text(raw_entity)
+
+    for alias_dict in dictionaries:
+        for canonical_entity, aliases in alias_dict.items():
+            if raw_entity == canonical_entity:
+                return {
+                    "canonical_entity": canonical_entity,
+                    "alias_matched": canonical_entity,
+                    "confidence_score": 100,
+                    "notes": "exact canonical match",
+                }
+
+            for alias in aliases:
+                alias_norm = normalize_entity_text(alias)
+                if raw_norm == alias_norm:
+                    confidence = 90
+                    note = "known alias match"
+                    if raw_entity.lower() == alias.lower() or raw_norm == normalize_entity_text(canonical_entity):
+                        confidence = 75
+                        note = "case or punctuation normalized match"
+
+                    return {
+                        "canonical_entity": canonical_entity,
+                        "alias_matched": alias,
+                        "confidence_score": confidence,
+                        "notes": note,
+                    }
+
+    for alias_dict in dictionaries:
+        for canonical_entity, aliases in alias_dict.items():
+            for alias in aliases:
+                alias_norm = normalize_entity_text(alias)
+                if len(raw_norm) >= 4 and (raw_norm in alias_norm or alias_norm in raw_norm):
+                    return {
+                        "canonical_entity": canonical_entity,
+                        "alias_matched": alias,
+                        "confidence_score": 60,
+                        "notes": "partial match",
+                    }
+
+    return {
+        "canonical_entity": raw_entity,
+        "alias_matched": "",
+        "confidence_score": 40,
+        "notes": "weak match / needs review",
+    }
+
+
+DEAL_TYPE_RULES = [
+    ("Office-to-Residential Conversion", ["office-to-residential", "adaptive reuse", "conversion"]),
+    ("BTR / Build-to-Rent", ["build-to-rent", "built-to-rent", "btr", "single-family rental"]),
+    ("Modular / Construction Innovation", ["modular", "prefab", "prefabricated"]),
+    ("Operational / Property Management Tech", ["property management technology", "proptech", " ai ", "operational technology"]),
+    ("Construction Financing", ["construction loan", "construction financing", "debt package", "senior loan"]),
+    ("Refinancing", ["refinancing", "refinance", "refinanced"]),
+    ("Recapitalization", ["recapitalization", "recap", "recapitalized"]),
+    ("JV / Partnership", ["joint venture", " jv ", "partnership", "partnered"]),
+    ("Acquisition", ["acquisition", "acquired", "purchase", "purchased", "bought"]),
+    ("Disposition / Exit", ["disposition", "sold", "sale", "exit"]),
+    ("Development Start", ["broke ground", "groundbreaking", "construction start", "starts in", "started construction"]),
+    ("Entitlement / Permitting", ["entitlement", "entitled", "permitting", "permit", "zoning", "approved"]),
+]
+
+ASSET_TYPE_RULES = [
+    ("Office-to-Residential", ["office-to-residential", "adaptive reuse", "conversion"]),
+    ("BTR / Single-Family Rental", ["build-to-rent", "built-to-rent", "btr", "single-family rental", " homes"]),
+    ("Mixed-Use Residential", ["mixed-use", "mixed use"]),
+    ("Student Housing", ["student housing"]),
+    ("Senior Housing", ["senior housing"]),
+    ("Affordable Housing", ["affordable housing", "lihtc", "workforce housing"]),
+    ("Apartment", ["apartment", "apartments"]),
+    ("Multifamily", ["multifamily", "multi-family"]),
+]
+
+LENDER_KEYWORDS = [
+    "fannie mae",
+    "freddie mac",
+    "berkadia",
+    "walker & dunlop",
+    "walker dunlop",
+    "jll",
+    "cbre",
+    "cushman",
+    "northmarq",
+    "keybank",
+    "wells fargo",
+    "bank of america",
+    "jp morgan",
+    "jpmorgan",
+    "pgim",
+]
+
+INSTITUTIONAL_PARTNER_KEYWORDS = [
+    "blackstone",
+    "brookfield",
+    "kennedy wilson",
+    "related",
+    "hines",
+    "equity residential",
+    "avalonbay",
+    "essex",
+    "camden",
+    "udr",
+    "maa",
+    "carlyle",
+    "kkr",
+    "ares",
+    "starwood",
+]
+
+
+def first_regex_match(text, patterns):
+    """Return the first regex match from a list of patterns."""
+    for pattern in patterns:
+        match = re.search(pattern, text, re.IGNORECASE)
+        if match:
+            return match.group(0).strip()
+
+    return ""
+
+
+def detect_label_from_rules(text, rules, default_label):
+    """Detect the first matching label from keyword rules."""
+    text_lower = f" {text.lower()} "
+
+    for label, keywords in rules:
+        if any(keyword in text_lower for keyword in keywords):
+            return label
+
+    return default_label
+
+
+def extract_first_tracked_name(text, names):
+    """Find the first tracked organization name mentioned in article text."""
+    text_lower = text.lower()
+
+    for name in names:
+        if name.lower() in text_lower:
+            return name
+
+    return "Unknown"
+
+
+def extract_unit_count(text):
+    """Extract simple unit, apartment, or home counts."""
+    return first_regex_match(text, [
+        r"\b\d{1,3}(?:,\d{3})+\s+(?:units|apartments|homes)\b",
+        r"\b\d+\s+(?:units|apartments|homes)\b",
+    ])
+
+
+def extract_dollar_amounts(text):
+    """Extract simple dollar amounts for deals, loans, or development costs."""
+    return re.findall(
+        r"\$\s?\d+(?:\.\d+)?\s?(?:billion|million|bn|b|m)?",
+        text,
+        flags=re.IGNORECASE,
+    )
+
+
+def extract_contextual_amount(text, context_words):
+    """Extract a dollar amount near a financing, acquisition, or cost keyword."""
+    sentences = re.split(r"(?<=[.!?])\s+", text)
+
+    for sentence in sentences:
+        if any(word in sentence.lower() for word in context_words):
+            amounts = extract_dollar_amounts(sentence)
+            if amounts:
+                return amounts[0]
+
+    return ""
+
+
+def extract_deal_metrics(text):
+    """Pull basic numeric deal and market signals from article text."""
+    dollar_amounts = extract_dollar_amounts(text)
+    return {
+        "unit_count": extract_unit_count(text),
+        "dollar_amount": "; ".join(dollar_amounts[:3]),
+        "loan_amount": extract_contextual_amount(text, ["loan", "debt", "financing", "mortgage", "senior"]),
+        "acquisition_price": extract_contextual_amount(text, ["acquisition", "acquired", "purchase", "bought"]),
+        "development_cost": extract_contextual_amount(text, ["development cost", "project cost", "construction cost"]),
+        "cap_rate": first_regex_match(text, [
+            r"\d+(?:\.\d+)?%\s+cap rate",
+            r"cap rate[s]?\s+(?:widened|expanded|compressed|rose|fell)?\s*(?:by\s*)?\d+\s?(?:bps|basis points)",
+            r"\d+\s?(?:bps|basis points)\s+(?:cap rate|cap-rate)",
+        ]),
+        "rent_growth": first_regex_match(text, [
+            r"rent growth(?: of)?\s+\d+(?:\.\d+)?%",
+            r"rents?\s+(?:rose|increased|grew|declined|fell)\s+\d+(?:\.\d+)?%",
+        ]),
+        "vacancy_rate": first_regex_match(text, [
+            r"vacancy rate(?: of)?\s+\d+(?:\.\d+)?%",
+            r"\d+(?:\.\d+)?%\s+vacancy",
+        ]),
+        "concession_signal": first_regex_match(text, [
+            r"one month free",
+            r"\bconcessions?\b",
+            r"rent discount",
+        ]),
+        "construction_start_or_delivery_timing": first_regex_match(text, [
+            r"delivery in \d{4}",
+            r"deliver(?:y|ies) (?:in|by) \d{4}",
+            r"starts? in \d{4}",
+            r"broke ground",
+            r"completed",
+            r"opened",
+        ]),
+        "entitlement_or_permitting_stage": first_regex_match(text, [
+            r"entitled",
+            r"entitlement",
+            r"permitting",
+            r"permit(?:ted|s)?",
+            r"zoning approval",
+            r"approved",
+        ]),
+    }
+
+
+def get_city_or_submarket(text, market_focus):
+    """Extract a simple city/submarket label from known market keywords."""
+    text_lower = text.lower()
+
+    for rule in MARKET_FOCUS_RULES:
+        for keyword in rule["keywords"]:
+            if keyword in text_lower:
+                return keyword.title()
+
+    if market_focus and market_focus not in ["National", "Other / Unknown"]:
+        return market_focus
+
+    return "Unknown"
+
+
+def get_state_or_region(market_focus, text):
+    """Convert market focus into a broader state or region label."""
+    if market_focus in ["Los Angeles", "California"]:
+        return "California"
+
+    if market_focus in ["Texas", "Seattle", "New York", "Florida", "Arizona", "Southeast", "Sun Belt"]:
+        return market_focus
+
+    if "california" in text.lower() or "los angeles" in text.lower():
+        return "California"
+
+    return "Unknown"
+
+
+def build_project_or_deal_name(article, deal_type, market):
+    """Create a readable project/deal name when the article has no explicit name."""
+    title = article.get("title", "Untitled article")
+    short_title = title[:90].strip()
+    if len(title) > 90:
+        short_title += "..."
+
+    return f"{deal_type} - {market} - {short_title}"
+
+
+def get_potential_woomi_use(deal_type, metrics, market):
+    """Translate deal details into a practical Woomi use case."""
+    if metrics["cap_rate"] or metrics["acquisition_price"]:
+        return "Pricing benchmark"
+
+    if metrics["loan_amount"] or deal_type in ["Construction Financing", "Refinancing", "Recapitalization"]:
+        return "Capital market signal"
+
+    if deal_type == "JV / Partnership":
+        return "GP partnership reference"
+
+    if deal_type in ["Development Start", "BTR / Build-to-Rent"]:
+        return "Pipeline / supply signal"
+
+    if deal_type == "Entitlement / Permitting" or market in ["Los Angeles", "California"]:
+        return "Entitlement / zoning watch"
+
+    if deal_type in ["Modular / Construction Innovation", "Office-to-Residential Conversion"]:
+        return "Construction strategy reference"
+
+    if metrics["unit_count"] or metrics["dollar_amount"]:
+        return "Underwriting benchmark"
+
+    return "Monitor only"
+
+
+def get_deal_priority_label(score):
+    """Convert deal signal score into a simple priority label."""
+    if score >= 80:
+        return "High Deal Intelligence"
+
+    if score >= 60:
+        return "Useful Deal Signal"
+
+    if score >= 40:
+        return "Monitor"
+
+    return "Low Detail Signal"
+
+
+def score_deal_signal(article, deal_type, metrics, gp_or_developer, market, partners):
+    """Score deal/project detail from 0 to 100."""
+    score = round(safe_int(article.get("relevance_score")) * 0.35)
+
+    if gp_or_developer != "Unknown":
+        score += 12
+
+    if market not in ["National", "Other / Unknown", "Unknown"]:
+        score += 10
+
+    if metrics["dollar_amount"]:
+        score += 10
+
+    if metrics["unit_count"]:
+        score += 10
+
+    high_value_deal_types = [
+        "Acquisition",
+        "Development Start",
+        "Construction Financing",
+        "Refinancing",
+        "Recapitalization",
+        "JV / Partnership",
+        "Entitlement / Permitting",
+    ]
+    if deal_type in high_value_deal_types:
+        score += 10
+    elif deal_type != "General Project Signal":
+        score += 6
+
+    if market in ["Los Angeles", "California"]:
+        score += 8
+
+    if any(value != "Unknown" for value in partners):
+        score += 8
+
+    return min(100, score)
+
+
+def has_deal_signal(text, deal_type, metrics, gp_or_developer, market_signal):
+    """Decide whether an article has enough detail to become a deal row."""
+    if deal_type != "General Project Signal":
+        return True
+
+    if gp_or_developer != "Unknown" and (metrics["unit_count"] or metrics["dollar_amount"]):
+        return True
+
+    if market_signal in [
+        "Deal Size Signal",
+        "Supply / Starts Signal",
+        "Financing Cost Signal",
+        "Cap Rate Signal",
+    ]:
+        return True
+
+    project_words = [
+        "project",
+        "development",
+        "property",
+        "portfolio",
+        "construction",
+        "loan",
+        "acquisition",
+    ]
+    return any(word in text.lower() for word in project_words) and (
+        metrics["unit_count"] or metrics["dollar_amount"]
+    )
+
+
+# ---------------------------------------------------------
+# 9. Deal / asset / lifecycle extraction
+# ---------------------------------------------------------
+
+def build_deal_pipeline_rows(run_timestamp, articles):
+    """Build deal and project-level intelligence rows from saved articles."""
+    rows = []
+
+    for article in articles:
+        text = " ".join([
+            article.get("title", ""),
+            article.get("summary", ""),
+            article.get("article_text_sample", ""),
+            article.get("matched_keywords", ""),
+            article.get("extracted_numbers", ""),
+        ])
+        deal_type = detect_label_from_rules(text, DEAL_TYPE_RULES, "General Project Signal")
+        asset_type = detect_label_from_rules(text, ASSET_TYPE_RULES, "Unknown Residential")
+        metrics = extract_deal_metrics(text)
+        market = article.get("market_focus", "Other / Unknown")
+        gp_or_developer = extract_first_tracked_name(text, GP_TRACKING_UNIVERSE)
+        institutional_partner = extract_first_tracked_name(text, INSTITUTIONAL_PARTNER_KEYWORDS)
+        lender_or_debt_provider = extract_first_tracked_name(text, LENDER_KEYWORDS)
+        capital_partner = institutional_partner
+        canonical_gp = canonicalize_entity(gp_or_developer, "Developer / GP")
+        canonical_lender = canonicalize_entity(lender_or_debt_provider, "Lender / Debt Provider")
+        canonical_capital = canonicalize_entity(capital_partner, "Institutional Capital")
+        canonical_market = canonicalize_entity(market, "Market / Region")
+
+        if not has_deal_signal(
+            text,
+            deal_type,
+            metrics,
+            gp_or_developer,
+            article.get("market_signal", ""),
+        ):
+            continue
+
+        deal_score = score_deal_signal(
+            article,
+            deal_type,
+            metrics,
+            gp_or_developer,
+            market,
+            [institutional_partner, lender_or_debt_provider, capital_partner],
+        )
+
+        rows.append({
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "project_or_deal_name": build_project_or_deal_name(article, deal_type, market),
+            "deal_type": deal_type,
+            "asset_type": asset_type,
+            "residential_sector": article.get("residential_sector", asset_type if asset_type != "Unknown Residential" else "General Residential"),
+            "market": market,
+            "city_or_submarket": get_city_or_submarket(text, market),
+            "state_or_region": get_state_or_region(market, text),
+            "gp_or_developer": gp_or_developer,
+            "canonical_gp_or_developer": canonical_gp["canonical_entity"],
+            "institutional_partner": institutional_partner,
+            "lender_or_debt_provider": lender_or_debt_provider,
+            "canonical_lender_or_debt_provider": canonical_lender["canonical_entity"],
+            "capital_partner": capital_partner,
+            "canonical_capital_partner": canonical_capital["canonical_entity"],
+            "canonical_market": canonical_market["canonical_entity"],
+            "unit_count": metrics["unit_count"],
+            "dollar_amount": metrics["dollar_amount"],
+            "loan_amount": metrics["loan_amount"],
+            "acquisition_price": metrics["acquisition_price"],
+            "development_cost": metrics["development_cost"],
+            "cap_rate": metrics["cap_rate"],
+            "rent_growth": metrics["rent_growth"],
+            "vacancy_rate": metrics["vacancy_rate"],
+            "concession_signal": metrics["concession_signal"],
+            "construction_start_or_delivery_timing": metrics["construction_start_or_delivery_timing"],
+            "entitlement_or_permitting_stage": metrics["entitlement_or_permitting_stage"],
+            "deal_signal_score": deal_score,
+            "deal_priority_label": get_deal_priority_label(deal_score),
+            "potential_woomi_use": get_potential_woomi_use(deal_type, metrics, market),
+            "source_article_title": article.get("title", ""),
+            "source": article.get("source", ""),
+            "url": article.get("url", ""),
+            "relevance_score": article.get("relevance_score", 0),
+        })
+
+    rows.sort(
+        key=lambda row: (
+            -safe_int(row["deal_signal_score"]),
+            row["deal_type"],
+            row["source_article_title"],
+        )
+    )
+
+    return rows
+
+
+def add_deal_section(lines, title, rows, filter_function):
+    """Add a filtered deal/project section to Markdown."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected_rows = [row for row in rows if filter_function(row)]
+
+    if not selected_rows:
+        lines.append("- No current deal/project signal detected.")
+        lines.append("")
+        return
+
+    for row in selected_rows[:10]:
+        lines.append(
+            f"- {row['project_or_deal_name']}: {row['deal_type']}, "
+            f"{row['market']}, score {row['deal_signal_score']}. "
+            f"{row['potential_woomi_use']}."
+        )
+
+    lines.append("")
+
+
+def build_deal_pipeline_implications(rows):
+    """Generate Woomi implications from deal/project rows."""
+    implications = []
+
+    if any(row["potential_woomi_use"] == "Pricing benchmark" for row in rows):
+        implications.append(
+            "Pricing and cap-rate deal signals should be used as valuation benchmarks for underwriting discussions."
+        )
+
+    if any(row["potential_woomi_use"] == "Capital market signal" for row in rows):
+        implications.append(
+            "Financing and refinancing rows can help track lender appetite, debt sizing, and capital-market conditions."
+        )
+
+    if any(row["potential_woomi_use"] == "GP partnership reference" for row in rows):
+        implications.append(
+            "JV and partnership rows should be mapped to potential GP relationship targets."
+        )
+
+    if any(row["market"] in ["Los Angeles", "California"] for row in rows):
+        implications.append(
+            "California / LA project rows should feed entitlement, zoning, and local supply monitoring."
+        )
+
+    if not implications:
+        implications.append(
+            "Deal and project signals are limited this run; continue monitoring for repeated transaction or project details."
+        )
+
+    return implications
+
+
+def generate_deal_pipeline_outputs(deal_rows, dated_output_dir, graph_rows=None):
+    """Write deal_pipeline.csv and deal_pipeline_report.md."""
+    fieldnames = [
+        "run_timestamp",
+        "deal_fingerprint_id",
+        "fingerprint_confidence",
+        "canonical_project_name",
+        "canonical_deal_name",
+        "canonical_event_name",
+        "duplicate_cluster_id",
+        "duplicate_count",
+        "project_or_deal_name",
+        "deal_type",
+        "asset_type",
+        "residential_sector",
+        "market",
+        "city_or_submarket",
+        "state_or_region",
+        "gp_or_developer",
+        "canonical_gp_or_developer",
+        "institutional_partner",
+        "lender_or_debt_provider",
+        "canonical_lender_or_debt_provider",
+        "capital_partner",
+        "canonical_capital_partner",
+        "canonical_market",
+        "unit_count",
+        "dollar_amount",
+        "loan_amount",
+        "acquisition_price",
+        "development_cost",
+        "cap_rate",
+        "rent_growth",
+        "vacancy_rate",
+        "concession_signal",
+        "construction_start_or_delivery_timing",
+        "entitlement_or_permitting_stage",
+        "deal_signal_score",
+        "deal_priority_label",
+        "potential_woomi_use",
+        "source_article_title",
+        "source",
+        "url",
+        "relevance_score",
+    ]
+    write_csv_outputs(
+        DEAL_PIPELINE_OUTPUT_FILE,
+        fieldnames,
+        deal_rows,
+        dated_output_dir,
+    )
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    high_deal_rows = [
+        row for row in deal_rows
+        if row["deal_priority_label"] == "High Deal Intelligence"
+    ]
+    lines = [
+        "# Deal & Project Pipeline Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total deal/project signals found: {len(deal_rows)}",
+        f"- High deal intelligence count: {len(high_deal_rows)}",
+        "",
+    ]
+
+    add_deal_section(lines, "Top 10 Deal / Project Signals", deal_rows, lambda row: True)
+    add_deal_section(
+        lines,
+        "California / LA Deal Watch",
+        deal_rows,
+        lambda row: row["market"] in ["Los Angeles", "California"]
+        or row["state_or_region"] == "California",
+    )
+    add_deal_section(
+        lines,
+        "GP / Developer Activity",
+        deal_rows,
+        lambda row: row["gp_or_developer"] != "Unknown",
+    )
+    add_deal_section(
+        lines,
+        "Financing / Refinancing Signals",
+        deal_rows,
+        lambda row: row["deal_type"] in ["Construction Financing", "Refinancing", "Recapitalization"]
+        or bool(row["loan_amount"]),
+    )
+    add_deal_section(
+        lines,
+        "Project Pipeline / Supply Signals",
+        deal_rows,
+        lambda row: row["deal_type"] in ["Development Start", "Entitlement / Permitting"]
+        or bool(row["unit_count"]),
+    )
+    add_deal_section(
+        lines,
+        "BTR / Modular / Innovation Signals",
+        deal_rows,
+        lambda row: row["deal_type"] in [
+            "BTR / Build-to-Rent",
+            "Modular / Construction Innovation",
+            "Operational / Property Management Tech",
+        ],
+    )
+    add_deal_section(
+        lines,
+        "Pricing / Cap Rate / Valuation Signals",
+        deal_rows,
+        lambda row: row["potential_woomi_use"] == "Pricing benchmark"
+        or bool(row["cap_rate"])
+        or bool(row["acquisition_price"]),
+    )
+
+    lines.extend([
+        "## Deal / Project Signals By Residential Sector",
+        "",
+    ])
+    sector_counts = Counter(row.get("residential_sector", "General Residential") for row in deal_rows)
+    if not sector_counts:
+        lines.append("- No residential-sector deal/project signals detected.")
+    else:
+        for sector, count in sector_counts.most_common():
+            lines.append(f"- {sector}: {count} deal/project signal(s)")
+    lines.append("")
+
+    lines.extend([
+        "## Canonical Deal Summary",
+        "",
+        f"Canonical deal fingerprints are available in `{os.path.basename(DEAL_FINGERPRINT_REPORT_OUTPUT_FILE)}`.",
+        f"Opportunity deduplication is available in `{os.path.basename(OPPORTUNITY_DEDUPLICATION_REPORT_OUTPUT_FILE)}`.",
+        "Use those reports to separate repeated coverage from genuinely separate events.",
+        "",
+        "## Relationship Graph Intelligence",
+        "",
+        f"Developer, lender, capital partner, market, and deal edges are available in `{os.path.basename(RELATIONSHIP_GRAPH_REPORT_OUTPUT_FILE)}`.",
+    ])
+
+    if graph_rows:
+        for row in graph_rows[:5]:
+            lines.append(
+                f"- {row['source_entity']} -> {row['target_entity']}: "
+                f"{row['relationship_type']}, score {row['relationship_strength_score']}."
+            )
+    else:
+        lines.append("- No relationship graph edge was detected in this run.")
+
+    lines.append("")
+
+    lines.extend([
+        "## Implications for Woomi / Woomi Global",
+        "",
+    ])
+
+    for implication in build_deal_pipeline_implications(deal_rows):
+        lines.append(f"- {implication}")
+
+    lines.extend([
+        "",
+        "## Recommended Follow-up Actions",
+        "",
+    ])
+
+    if not deal_rows:
+        lines.append("- No deal/project follow-up this run.")
+    else:
+        for row in deal_rows[:8]:
+            lines.append(
+                f"- {row['potential_woomi_use']}: read `{row['source_article_title']}` "
+                f"from {row['source']}. Canonical market: {row.get('canonical_market', 'Unknown')}."
+            )
+
+    lines.append("")
+
+    write_markdown_outputs(
+        DEAL_PIPELINE_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+    return {
+        "total_deal_signals": len(deal_rows),
+        "high_deal_intelligence_count": len(high_deal_rows),
+        "top_deal_signal": deal_rows[0] if deal_rows else {},
+        "california_la_deals": [
+            row for row in deal_rows
+            if row["market"] in ["Los Angeles", "California"]
+            or row["state_or_region"] == "California"
+        ],
+        "financing_refinancing_signals": [
+            row for row in deal_rows
+            if row["deal_type"] in ["Construction Financing", "Refinancing", "Recapitalization"]
+            or bool(row["loan_amount"])
+        ],
+    }
+
+
+def normalize_fingerprint_text(value):
+    """Normalize text so similar project/deal names compare more cleanly."""
+    text = (value or "").lower()
+    text = re.sub(r"[^a-z0-9\s$%.]", " ", text)
+    filler_words = {
+        "the", "a", "an", "for", "of", "in", "on", "at", "to", "from", "with",
+        "and", "or", "new", "future", "property", "community", "project",
+        "development", "multifamily", "apartments", "apartment",
+    }
+    words = [word for word in text.split() if word not in filler_words]
+    return " ".join(words)
+
+
+def fingerprint_tokens(value):
+    """Return a small set of useful comparison tokens."""
+    return set(normalize_fingerprint_text(value).split())
+
+
+def extract_numeric_fingerprint_parts(row):
+    """Collect unit, dollar, loan, and percentage clues used in fingerprints."""
+    values = []
+    for field in [
+        "unit_count", "dollar_amount", "loan_amount", "acquisition_price",
+        "development_cost", "cap_rate", "rent_growth", "vacancy_rate",
+    ]:
+        value = row.get(field, "")
+        if value:
+            values.append(normalize_fingerprint_text(value))
+    return " ".join(values)
+
+
+def make_short_fingerprint_id(parts):
+    """Create a stable short ID for a canonical deal/event fingerprint."""
+    joined = "|".join(part for part in parts if part)
+    digest = hashlib.sha1(joined.encode("utf-8")).hexdigest()[:10].upper()
+    return f"DFP-{digest}"
+
+
+def get_canonical_project_name(row):
+    """Choose a readable canonical project name."""
+    name = row.get("project_or_deal_name") or row.get("source_article_title") or "Unknown Project"
+    return re.sub(r"\s+", " ", name).strip()
+
+
+def get_canonical_event_name(row):
+    """Build a readable canonical event name."""
+    deal_type = row.get("deal_type", "General Project Signal")
+    market = row.get("canonical_market") or row.get("market", "Other / Unknown")
+    gp_name = row.get("canonical_gp_or_developer") or row.get("gp_or_developer", "Unknown")
+    lender = row.get("canonical_lender_or_debt_provider") or row.get("lender_or_debt_provider", "Unknown")
+    if lender != "Unknown" and deal_type in ["Refinancing", "Construction Financing", "Recapitalization"]:
+        return f"{deal_type} - {gp_name} - {lender} - {market}"
+    return f"{deal_type} - {gp_name} - {market}"
+
+
+def calculate_fingerprint_confidence(row):
+    """Score how well-structured a deal fingerprint is."""
+    score = 35
+    if row.get("canonical_gp_or_developer") not in ["", "Unknown"]:
+        score += 15
+    if row.get("canonical_lender_or_debt_provider") not in ["", "Unknown"]:
+        score += 10
+    if row.get("canonical_market") not in ["", "Unknown", "Other / Unknown"]:
+        score += 10
+    if row.get("unit_count"):
+        score += 10
+    if row.get("dollar_amount") or row.get("loan_amount") or row.get("acquisition_price"):
+        score += 10
+    if row.get("project_or_deal_name"):
+        score += 10
+    return min(100, score)
+
+
+def get_deal_fingerprint_key(row):
+    """
+    Build a lightweight canonical key.
+
+    The key intentionally uses structured fields first, then falls back to a
+    cleaned title and numeric details. This keeps it beginner-friendly while
+    still catching repeated deal coverage.
+    """
+    gp_name = row.get("canonical_gp_or_developer") or row.get("gp_or_developer", "Unknown")
+    lender = row.get("canonical_lender_or_debt_provider") or row.get("lender_or_debt_provider", "Unknown")
+    market = row.get("canonical_market") or row.get("market", "Other / Unknown")
+    sector = row.get("residential_sector", "General Residential")
+    deal_type = row.get("deal_type", "General Project Signal")
+    project_tokens = sorted(fingerprint_tokens(row.get("project_or_deal_name") or row.get("source_article_title")))[:8]
+    numeric_parts = extract_numeric_fingerprint_parts(row)
+    if lender == "Unknown" and deal_type in ["Refinancing", "Construction Financing", "Recapitalization"]:
+        lender = ""
+    return (
+        normalize_fingerprint_text(gp_name),
+        normalize_fingerprint_text(lender),
+        normalize_fingerprint_text(market),
+        normalize_fingerprint_text(sector),
+        normalize_fingerprint_text(deal_type),
+        " ".join(project_tokens),
+        numeric_parts,
+    )
+
+
+def fingerprint_similarity(row_a, row_b):
+    """Simple fuzzy comparison for weakly structured rows."""
+    token_a = fingerprint_tokens(
+        " ".join([
+            row_a.get("project_or_deal_name", ""),
+            row_a.get("source_article_title", ""),
+            extract_numeric_fingerprint_parts(row_a),
+        ])
+    )
+    token_b = fingerprint_tokens(
+        " ".join([
+            row_b.get("project_or_deal_name", ""),
+            row_b.get("source_article_title", ""),
+            extract_numeric_fingerprint_parts(row_b),
+        ])
+    )
+    if not token_a or not token_b:
+        return 0
+    overlap = len(token_a & token_b)
+    denominator = max(1, min(len(token_a), len(token_b)))
+    return round((overlap / denominator) * 100)
+
+
+def build_deal_fingerprint_rows(run_timestamp, deal_rows):
+    """Create canonical deal/event fingerprints and annotate deal rows."""
+    groups = {}
+    row_to_key = {}
+
+    for row in deal_rows:
+        key = get_deal_fingerprint_key(row)
+        if key[-2] == "":
+            # Weak project title: try to merge with an existing similar row in
+            # the same market/deal type before creating a new cluster.
+            for existing_key, existing_rows in groups.items():
+                sample = existing_rows[0]
+                same_market = key[2] == existing_key[2]
+                same_deal_type = key[4] == existing_key[4]
+                if same_market and same_deal_type and fingerprint_similarity(row, sample) >= 60:
+                    key = existing_key
+                    break
+        groups.setdefault(key, []).append(row)
+        row_to_key[id(row)] = key
+
+    rows = []
+    for index, (key, cluster_rows) in enumerate(groups.items(), start=1):
+        primary = sorted(cluster_rows, key=lambda item: -safe_int(item.get("deal_signal_score")))[0]
+        fingerprint_id = make_short_fingerprint_id(key)
+        duplicate_cluster_id = f"DCL-{run_timestamp.strftime('%Y%m%d')}-{index:03d}"
+        duplicate_count = len(cluster_rows)
+        confidence = min(100, max(calculate_fingerprint_confidence(row) for row in cluster_rows) + min(15, (duplicate_count - 1) * 5))
+        canonical_project_name = get_canonical_project_name(primary)
+        canonical_event_name = get_canonical_event_name(primary)
+        canonical_deal_name = f"{primary.get('deal_type', 'Deal')} - {canonical_project_name}"
+
+        sources = sorted(set(row.get("source", "") for row in cluster_rows if row.get("source")))
+        articles = sorted(set(row.get("source_article_title", "") for row in cluster_rows if row.get("source_article_title")))
+        markets = sorted(set(row.get("market", "") for row in cluster_rows if row.get("market")))
+
+        for row in cluster_rows:
+            row["deal_fingerprint_id"] = fingerprint_id
+            row["fingerprint_confidence"] = confidence
+            row["canonical_project_name"] = canonical_project_name
+            row["canonical_deal_name"] = canonical_deal_name
+            row["canonical_event_name"] = canonical_event_name
+            row["duplicate_cluster_id"] = duplicate_cluster_id
+            row["duplicate_count"] = duplicate_count
+
+        rows.append({
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "deal_fingerprint_id": fingerprint_id,
+            "duplicate_cluster_id": duplicate_cluster_id,
+            "fingerprint_confidence": confidence,
+            "canonical_project_name": canonical_project_name,
+            "canonical_deal_name": canonical_deal_name,
+            "canonical_event_name": canonical_event_name,
+            "deal_type": primary.get("deal_type", "General Project Signal"),
+            "market": primary.get("market", "Other / Unknown"),
+            "residential_sector": primary.get("residential_sector", "General Residential"),
+            "canonical_gp_or_developer": primary.get("canonical_gp_or_developer", "Unknown"),
+            "canonical_lender_or_debt_provider": primary.get("canonical_lender_or_debt_provider", "Unknown"),
+            "unit_count": primary.get("unit_count", ""),
+            "dollar_amount": primary.get("dollar_amount", ""),
+            "loan_amount": primary.get("loan_amount", ""),
+            "source_count": len(sources),
+            "article_count": len(cluster_rows),
+            "duplicate_count": duplicate_count,
+            "sources": "; ".join(sources),
+            "article_titles": "; ".join(articles[:8]),
+            "markets_detected": "; ".join(markets),
+            "highest_deal_signal_score": max(safe_int(row.get("deal_signal_score")) for row in cluster_rows),
+        })
+
+    rows.sort(key=lambda row: (-safe_int(row["fingerprint_confidence"]), -safe_int(row["duplicate_count"]), row["canonical_event_name"]))
+    return rows
+
+
+def get_unique_deal_rows_by_fingerprint(deal_rows):
+    """Use one strongest row per canonical deal/event for downstream persistence."""
+    best_by_fingerprint = {}
+    for row in deal_rows:
+        fingerprint_id = row.get("deal_fingerprint_id") or make_short_fingerprint_id(get_deal_fingerprint_key(row))
+        if fingerprint_id not in best_by_fingerprint:
+            best_by_fingerprint[fingerprint_id] = row
+            continue
+        if safe_int(row.get("deal_signal_score")) > safe_int(best_by_fingerprint[fingerprint_id].get("deal_signal_score")):
+            best_by_fingerprint[fingerprint_id] = row
+    return sorted(
+        best_by_fingerprint.values(),
+        key=lambda row: (-safe_int(row.get("deal_signal_score")), row.get("canonical_event_name", "")),
+    )
+
+
+def generate_deal_fingerprint_outputs(fingerprint_rows, dated_output_dir):
+    """Write deal_fingerprints.csv and deal_fingerprint_report.md."""
+    fieldnames = [
+        "run_timestamp", "deal_fingerprint_id", "duplicate_cluster_id", "fingerprint_confidence",
+        "canonical_project_name", "canonical_deal_name", "canonical_event_name", "deal_type", "market",
+        "residential_sector", "canonical_gp_or_developer", "canonical_lender_or_debt_provider",
+        "unit_count", "dollar_amount", "loan_amount", "source_count", "article_count",
+        "duplicate_count", "sources", "article_titles", "markets_detected", "highest_deal_signal_score",
+    ]
+    write_csv_outputs(DEAL_FINGERPRINT_OUTPUT_FILE, fieldnames, fingerprint_rows, dated_output_dir)
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    duplicate_rows = [row for row in fingerprint_rows if safe_int(row.get("duplicate_count")) > 1]
+    refinancing_rows = [row for row in fingerprint_rows if row.get("deal_type") in ["Refinancing", "Construction Financing", "Recapitalization"]]
+    california_rows = [row for row in fingerprint_rows if row.get("market") in ["Los Angeles", "California"]]
+    high_confidence_rows = [row for row in fingerprint_rows if safe_int(row.get("fingerprint_confidence")) >= 80]
+    lines = [
+        "# Deal Fingerprint Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total canonical deals detected: {len(fingerprint_rows)}",
+        f"- Duplicate clusters detected: {len(duplicate_rows)}",
+        f"- California / LA recurring project count: {len(california_rows)}",
+        "",
+    ]
+    add_deal_fingerprint_section(lines, "Largest Duplicate Clusters", duplicate_rows, "duplicate_count")
+    add_deal_fingerprint_section(lines, "Strongest Recurring Projects", duplicate_rows, "highest_deal_signal_score")
+    add_deal_fingerprint_section(lines, "Strongest Recurring Refinancing Events", refinancing_rows, "highest_deal_signal_score")
+    add_deal_fingerprint_section(lines, "Recurring California / LA Projects", california_rows, "highest_deal_signal_score")
+    add_deal_fingerprint_section(lines, "Recurring GP / Lender Relationships", fingerprint_rows, "source_count")
+    add_deal_fingerprint_section(lines, "Most Frequently Referenced Developments", fingerprint_rows, "article_count")
+    add_deal_fingerprint_section(lines, "Highest-Confidence Canonical Events", high_confidence_rows, "fingerprint_confidence")
+    write_markdown_outputs(DEAL_FINGERPRINT_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "total_canonical_deals": len(fingerprint_rows),
+        "duplicate_clusters": duplicate_rows,
+        "top_recurring_project": duplicate_rows[0] if duplicate_rows else (fingerprint_rows[0] if fingerprint_rows else {}),
+        "strongest_refinancing_event": refinancing_rows[0] if refinancing_rows else {},
+        "california_la_count": len(california_rows),
+    }
+
+
+def add_deal_fingerprint_section(lines, title, rows, score_field):
+    """Add a compact section to the fingerprint report."""
+    lines.append(f"## {title}")
+    lines.append("")
+    if not rows:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+    sorted_rows = sorted(rows, key=lambda row: -safe_int(row.get(score_field)))
+    for row in sorted_rows[:10]:
+        lines.append(
+            f"- {row.get('canonical_event_name')}: {row.get('market')}, "
+            f"{row.get('duplicate_count')} article(s), "
+            f"{row.get('source_count')} source(s), confidence {row.get('fingerprint_confidence')}."
+        )
+    lines.append("")
+
+
+def get_relationship_type(deal_type, target_entity_type):
+    """Translate deal type into a graph relationship label."""
+    if deal_type == "JV / Partnership":
+        return "JV / Partnership"
+
+    if target_entity_type == "Lender / Debt Provider" or deal_type in [
+        "Construction Financing",
+        "Refinancing",
+        "Recapitalization",
+    ]:
+        return "Financing Relationship"
+
+    if deal_type == "Acquisition":
+        return "Acquisition / Buyer"
+
+    if deal_type == "Disposition / Exit":
+        return "Disposition / Seller"
+
+    if deal_type == "Development Start":
+        return "Development Activity"
+
+    if deal_type == "Entitlement / Permitting":
+        return "Entitlement / Permitting"
+
+    if target_entity_type == "Market / Region":
+        return "Market Expansion"
+
+    if target_entity_type == "Institutional Capital":
+        return "Capital Flow"
+
+    if deal_type in ["BTR / Build-to-Rent", "Modular / Construction Innovation", "Operational / Property Management Tech"]:
+        return "Innovation / Construction Strategy"
+
+    if deal_type in ["General Project Signal"] and target_entity_type == "Project / Deal":
+        return "Pricing / Valuation Signal"
+
+    return "General Association"
+
+
+def get_entity_type(entity_name, default_type):
+    """Classify entity names into simple graph entity types."""
+    if not entity_name or entity_name == "Unknown":
+        return "Unknown"
+
+    if entity_name in GP_TRACKING_UNIVERSE:
+        return "Developer / GP"
+
+    if entity_name.lower() in LENDER_KEYWORDS:
+        return "Lender / Debt Provider"
+
+    if entity_name.lower() in INSTITUTIONAL_PARTNER_KEYWORDS:
+        return "Institutional Capital"
+
+    return default_type
+
+
+def get_relationship_importance_bonus(relationship_type):
+    """Small score bonus for strategically important relationship types."""
+    bonuses = {
+        "JV / Partnership": 16,
+        "Financing Relationship": 14,
+        "Capital Flow": 12,
+        "Acquisition / Buyer": 12,
+        "Development Activity": 10,
+        "Entitlement / Permitting": 10,
+        "Pricing / Valuation Signal": 8,
+        "Innovation / Construction Strategy": 8,
+        "Market Expansion": 6,
+    }
+    return bonuses.get(relationship_type, 3)
+
+
+def get_woomi_graph_relevance(row):
+    """Label each graph edge for Woomi strategy use."""
+    if row["relationship_type"] == "JV / Partnership":
+        return "High relevance to Woomi partnership strategy"
+
+    if row["market"] in ["Los Angeles", "California"]:
+        return "Relevant to LA / California strategy"
+
+    if row["relationship_type"] in ["Financing Relationship", "Capital Flow"]:
+        return "Relevant to capital markets monitoring"
+
+    if row["relationship_type"] == "Pricing / Valuation Signal":
+        return "Relevant to underwriting benchmarks"
+
+    if safe_int(row["relationship_strength_score"]) >= 70:
+        return "General market intelligence"
+
+    return "Low relevance"
+
+
+def get_graph_follow_up(row):
+    """Recommend a practical follow-up action for each edge."""
+    if row["relationship_type"] == "JV / Partnership":
+        return "Review potential JV relevance"
+
+    if row["source_entity_type"] == "Developer / GP" or row["target_entity_type"] == "Developer / GP":
+        return "Track GP relationship history"
+
+    if row["source_entity_type"] == "Lender / Debt Provider" or row["target_entity_type"] == "Lender / Debt Provider":
+        return "Monitor lender activity"
+
+    if row["market"] in ["Los Angeles", "California"]:
+        return "Track LA / California activity"
+
+    if row["relationship_type"] == "Pricing / Valuation Signal":
+        return "Use as underwriting benchmark"
+
+    return "Monitor only"
+
+
+def score_relationship_edge(
+    deal_row,
+    relationship_type,
+    source_entity,
+    target_entity,
+    target_entity_type,
+    relationship_by_firm,
+):
+    """Score a relationship edge from 0 to 100."""
+    base_score = round(safe_int(deal_row.get("deal_signal_score")) * 0.45)
+    base_score += round(safe_int(deal_row.get("relevance_score")) * 0.15)
+    base_score += get_relationship_importance_bonus(relationship_type)
+
+    firm_scores = []
+    for entity in [source_entity, target_entity]:
+        firm_row = relationship_by_firm.get(entity)
+        if firm_row:
+            firm_scores.append(safe_int(firm_row.get("institutional_relationship_score")))
+            if str(firm_row.get("strategic_tier", "")).startswith("Tier 1"):
+                base_score += 8
+            elif str(firm_row.get("strategic_tier", "")).startswith("Tier 2"):
+                base_score += 5
+            elif str(firm_row.get("strategic_tier", "")).startswith("Tier 3"):
+                base_score += 3
+
+    if firm_scores:
+        base_score += round(max(firm_scores) * 0.15)
+
+    if deal_row.get("market") in ["Los Angeles", "California"]:
+        base_score += 8
+
+    if target_entity_type in ["Institutional Capital", "Lender / Debt Provider"]:
+        base_score += 8
+
+    return min(100, base_score)
+
+
+def make_graph_edge(
+    deal_row,
+    source_entity,
+    source_entity_type,
+    target_entity,
+    target_entity_type,
+    relationship_by_firm,
+):
+    """Create one graph edge dictionary."""
+    relationship_type = get_relationship_type(
+        deal_row.get("deal_type", ""),
+        target_entity_type,
+    )
+    score = score_relationship_edge(
+        deal_row,
+        relationship_type,
+        source_entity,
+        target_entity,
+        target_entity_type,
+        relationship_by_firm,
+    )
+    source_resolution = canonicalize_entity(source_entity, source_entity_type)
+    target_resolution = canonicalize_entity(target_entity, target_entity_type)
+    resolution_confidence = min(
+        safe_int(source_resolution["confidence_score"]),
+        safe_int(target_resolution["confidence_score"]),
+    )
+    row = {
+        "source_entity": source_entity,
+        "canonical_source_entity": source_resolution["canonical_entity"],
+        "source_entity_type": source_entity_type,
+        "target_entity": target_entity,
+        "canonical_target_entity": target_resolution["canonical_entity"],
+        "target_entity_type": target_entity_type,
+        "relationship_type": relationship_type,
+        "market": deal_row.get("market", "Other / Unknown"),
+        "deal_type": deal_row.get("deal_type", ""),
+        "evidence_article_title": deal_row.get("source_article_title", ""),
+        "url": deal_row.get("url", ""),
+        "relationship_strength_score": score,
+        "entity_resolution_confidence": resolution_confidence,
+        "canonical_relationship_event_count": safe_int(deal_row.get("duplicate_count")) or 1,
+        "relationship_repeat_strength": min(100, score + min(20, (safe_int(deal_row.get("duplicate_count")) - 1) * 8)),
+        "confirmed_multi_source_relationship": "Yes" if safe_int(deal_row.get("duplicate_count")) > 1 else "No",
+        "woomi_strategic_relevance": "",
+        "recommended_follow_up": "",
+    }
+    row["woomi_strategic_relevance"] = get_woomi_graph_relevance(row)
+    row["recommended_follow_up"] = get_graph_follow_up(row)
+    return row
+
+
+def build_relationship_graph_rows(deal_rows, gp_rows, relationship_rows, regional_rows, market_signal_articles, strategy_briefing_articles):
+    """Build relationship edges from deals, firms, lenders, partners, and markets."""
+    rows = []
+    seen_edges = set()
+    relationship_by_firm = {
+        row["firm_name"]: row
+        for row in relationship_rows
+    }
+
+    for deal_row in deal_rows:
+        project_entity = deal_row.get("project_or_deal_name", "Unknown Project")
+        source_entity = deal_row.get("gp_or_developer", "Unknown")
+        source_entity_type = get_entity_type(source_entity, "Developer / GP")
+
+        if source_entity == "Unknown":
+            source_entity = project_entity
+            source_entity_type = "Project / Deal"
+
+        targets = []
+        if deal_row.get("institutional_partner", "Unknown") != "Unknown":
+            targets.append((deal_row["institutional_partner"], "Institutional Capital"))
+        if deal_row.get("capital_partner", "Unknown") != "Unknown" and deal_row.get("capital_partner") != deal_row.get("institutional_partner"):
+            targets.append((deal_row["capital_partner"], "Institutional Capital"))
+        if deal_row.get("lender_or_debt_provider", "Unknown") != "Unknown":
+            targets.append((deal_row["lender_or_debt_provider"], "Lender / Debt Provider"))
+        if deal_row.get("market", "Other / Unknown") not in ["Other / Unknown", "Unknown", "National"]:
+            targets.append((deal_row["market"], "Market / Region"))
+        if deal_row.get("city_or_submarket", "Unknown") != "Unknown":
+            targets.append((deal_row["city_or_submarket"], "Market / Region"))
+        if source_entity != project_entity:
+            targets.append((project_entity, "Project / Deal"))
+
+        if not targets:
+            targets.append((project_entity, "Project / Deal"))
+
+        for target_entity, target_entity_type in targets:
+            key = (
+                source_entity,
+                target_entity,
+                deal_row.get("source_article_title", ""),
+            )
+            if key in seen_edges:
+                continue
+            seen_edges.add(key)
+            rows.append(make_graph_edge(
+                deal_row,
+                source_entity,
+                source_entity_type,
+                target_entity,
+                target_entity_type,
+                relationship_by_firm,
+            ))
+
+    rows.sort(
+        key=lambda row: (
+            -safe_int(row["relationship_strength_score"]),
+            row["source_entity"],
+            row["target_entity"],
+        )
+    )
+    return rows
+
+
+def get_most_connected_entity(rows, entity_type):
+    """Find the most connected entity for a given entity type."""
+    counts = Counter()
+    for row in rows:
+        if row["source_entity_type"] == entity_type:
+            counts[row["source_entity"]] += 1
+        if row["target_entity_type"] == entity_type:
+            counts[row["target_entity"]] += 1
+
+    if not counts:
+        return "None detected"
+
+    entity, count = counts.most_common(1)[0]
+    return f"{entity} ({count} edge(s))"
+
+
+def add_graph_section(lines, title, rows, filter_function):
+    """Add a filtered relationship graph section."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected_rows = [row for row in rows if filter_function(row)]
+    if not selected_rows:
+        lines.append("- No relationship edge detected.")
+        lines.append("")
+        return
+
+    for row in selected_rows[:10]:
+        lines.append(
+            f"- {row['source_entity']} -> {row['target_entity']}: "
+            f"{row['relationship_type']}, {row['market']}, "
+            f"score {row['relationship_strength_score']}. "
+            f"{row['recommended_follow_up']}."
+        )
+    lines.append("")
+
+
+def generate_relationship_graph_outputs(graph_rows, dated_output_dir, gp_watchlist_rows=None):
+    """Write relationship_graph.csv and relationship_graph_report.md."""
+    fieldnames = [
+        "source_entity",
+        "canonical_source_entity",
+        "source_entity_type",
+        "target_entity",
+        "canonical_target_entity",
+        "target_entity_type",
+        "relationship_type",
+        "market",
+        "deal_type",
+        "evidence_article_title",
+        "url",
+        "relationship_strength_score",
+        "entity_resolution_confidence",
+        "canonical_relationship_event_count",
+        "relationship_repeat_strength",
+        "confirmed_multi_source_relationship",
+        "woomi_strategic_relevance",
+        "recommended_follow_up",
+    ]
+    write_csv_outputs(
+        RELATIONSHIP_GRAPH_OUTPUT_FILE,
+        fieldnames,
+        graph_rows,
+        dated_output_dir,
+    )
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    strongest_edge = graph_rows[0] if graph_rows else {}
+    high_relevance_edges = [
+        row for row in graph_rows
+        if row["woomi_strategic_relevance"] == "High relevance to Woomi partnership strategy"
+    ]
+    highest_woomi_edge = high_relevance_edges[0] if high_relevance_edges else strongest_edge
+    lines = [
+        "# Developer Network & Relationship Graph Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total relationship edges: {len(graph_rows)}",
+        f"- Most connected developer / GP: {get_most_connected_entity(graph_rows, 'Developer / GP')}",
+        f"- Most connected lender / debt provider: {get_most_connected_entity(graph_rows, 'Lender / Debt Provider')}",
+        f"- Most connected market: {get_most_connected_entity(graph_rows, 'Market / Region')}",
+        f"- Strongest relationship edge: {strongest_edge.get('source_entity', 'None detected')} -> {strongest_edge.get('target_entity', 'None detected')}",
+        f"- Highest Woomi relevance edge: {highest_woomi_edge.get('source_entity', 'None detected')} -> {highest_woomi_edge.get('target_entity', 'None detected')}",
+        "",
+    ]
+
+    add_graph_section(lines, "Top 10 Relationship Edges", graph_rows, lambda row: True)
+    add_graph_section(lines, "Developer / GP Relationship Map", graph_rows, lambda row: row["source_entity_type"] == "Developer / GP" or row["target_entity_type"] == "Developer / GP")
+    add_graph_section(lines, "Lender / Debt Provider Relationship Map", graph_rows, lambda row: row["source_entity_type"] == "Lender / Debt Provider" or row["target_entity_type"] == "Lender / Debt Provider")
+    add_graph_section(lines, "Capital Partner / Institutional Flow Map", graph_rows, lambda row: row["source_entity_type"] == "Institutional Capital" or row["target_entity_type"] == "Institutional Capital")
+    add_graph_section(lines, "Market Relationship Map", graph_rows, lambda row: row["source_entity_type"] == "Market / Region" or row["target_entity_type"] == "Market / Region")
+    add_graph_section(lines, "California / LA Relationship Signals", graph_rows, lambda row: row["market"] in ["Los Angeles", "California"] or row["target_entity"] in ["Los Angeles", "California"])
+    add_graph_section(lines, "Potential Woomi Partnership Signals", graph_rows, lambda row: row["woomi_strategic_relevance"] == "High relevance to Woomi partnership strategy")
+
+    lines.extend([
+        "## Canonical Relationship Map",
+        "",
+        "| Source | Target | Relationship | Confidence |",
+        "| --- | --- | --- | ---: |",
+    ])
+    for row in graph_rows[:10]:
+        lines.append(
+            f"| {row['canonical_source_entity']} | {row['canonical_target_entity']} | "
+            f"{row['relationship_type']} | {row['entity_resolution_confidence']} |"
+        )
+    lines.append("")
+
+    lines.extend([
+        "## Multi-Source Confirmation Summary",
+        "",
+        f"Canonical deal fingerprints are available in `{os.path.basename(DEAL_FINGERPRINT_REPORT_OUTPUT_FILE)}`.",
+        "Relationship repeat strength uses unique canonical deal/event counts instead of raw article volume.",
+        "",
+        "## Emerging GP Watchlist Reference",
+        "",
+        f"Ranked GP watchlist signals are available in `{os.path.basename(GP_WATCHLIST_REPORT_OUTPUT_FILE)}`.",
+    ])
+    if gp_watchlist_rows:
+        for row in gp_watchlist_rows[:5]:
+            lines.append(
+                f"- {row['canonical_gp_name']}: {row['emerging_gp_score']} "
+                f"({row['gp_tier']}), {row['potential_woomi_use_case']}."
+            )
+    else:
+        lines.append("- No emerging GP watchlist signal was detected in this run.")
+    lines.append("")
+
+    lines.extend([
+        "## GP Source Expansion Summary",
+        "",
+        f"Developer / GP source coverage is available in `{os.path.basename(GP_SOURCE_COVERAGE_REPORT_OUTPUT_FILE)}`.",
+        "Better GP, lender, and capital platform feeds should improve relationship graph quality over time.",
+        "",
+        "## Source Activation Summary",
+        "",
+        f"Validated source activation scoring is available in `{os.path.basename(SOURCE_ACTIVATION_REPORT_OUTPUT_FILE)}`.",
+        "Use that report to prioritize source fixes that should improve relationship edge quality.",
+        "",
+        "## Historical Persistence Summary",
+        "",
+        f"Recurring relationship tracking is available in `{os.path.basename(RELATIONSHIP_PERSISTENCE_REPORT_OUTPUT_FILE)}`.",
+        f"Capital-flow memory is available in `{os.path.basename(CAPITAL_FLOW_REPORT_OUTPUT_FILE)}`.",
+        f"Longitudinal memory is available in `{os.path.basename(HISTORICAL_MEMORY_REPORT_OUTPUT_FILE)}`.",
+        "",
+    ])
+
+    lines.extend([
+        "## Recommended Executive Follow-Up",
+        "",
+    ])
+    if not graph_rows:
+        lines.append("- No relationship graph follow-up this run.")
+    else:
+        for row in graph_rows[:8]:
+            lines.append(
+                f"- {row['recommended_follow_up']}: {row['source_entity']} -> "
+                f"{row['target_entity']} ({row['relationship_type']})."
+            )
+    lines.append("")
+
+    write_markdown_outputs(
+        RELATIONSHIP_GRAPH_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+    return {
+        "total_edges": len(graph_rows),
+        "most_connected_developer_gp": get_most_connected_entity(graph_rows, "Developer / GP"),
+        "most_connected_lender": get_most_connected_entity(graph_rows, "Lender / Debt Provider"),
+        "most_connected_market": get_most_connected_entity(graph_rows, "Market / Region"),
+        "strongest_edge": strongest_edge,
+        "partnership_signals": high_relevance_edges,
+    }
+
+
+def add_entity_occurrence(entity_rows, raw_entity, entity_type, source_file):
+    """Add one raw entity occurrence to the entity-resolution audit list."""
+    if not raw_entity:
+        return
+
+    resolution = canonicalize_entity(raw_entity, entity_type)
+    key = (
+        raw_entity,
+        resolution["canonical_entity"],
+        entity_type,
+        resolution["alias_matched"],
+        source_file,
+    )
+
+    if key not in entity_rows:
+        entity_rows[key] = {
+            "raw_entity": raw_entity,
+            "canonical_entity": resolution["canonical_entity"],
+            "entity_type": entity_type,
+            "alias_matched": resolution["alias_matched"],
+            "confidence_score": resolution["confidence_score"],
+            "source_file": source_file,
+            "occurrence_count": 0,
+            "notes": resolution["notes"],
+        }
+
+    entity_rows[key]["occurrence_count"] += 1
+
+
+def build_entity_resolution_rows(graph_rows, deal_rows, gp_rows, relationship_rows, regional_rows, articles):
+    """Build entity-resolution audit rows from current output objects."""
+    entity_rows = {}
+
+    for row in graph_rows:
+        add_entity_occurrence(entity_rows, row["source_entity"], row["source_entity_type"], "relationship_graph.csv")
+        add_entity_occurrence(entity_rows, row["target_entity"], row["target_entity_type"], "relationship_graph.csv")
+
+    for row in deal_rows:
+        add_entity_occurrence(entity_rows, row.get("gp_or_developer"), "Developer / GP", "deal_pipeline.csv")
+        add_entity_occurrence(entity_rows, row.get("lender_or_debt_provider"), "Lender / Debt Provider", "deal_pipeline.csv")
+        add_entity_occurrence(entity_rows, row.get("capital_partner"), "Institutional Capital", "deal_pipeline.csv")
+        add_entity_occurrence(entity_rows, row.get("market"), "Market / Region", "deal_pipeline.csv")
+        add_entity_occurrence(entity_rows, row.get("city_or_submarket"), "Market / Region", "deal_pipeline.csv")
+
+    for row in gp_rows:
+        add_entity_occurrence(entity_rows, row.get("gp_name"), "Developer / GP", "gp_intelligence.csv")
+
+    for row in relationship_rows:
+        add_entity_occurrence(entity_rows, row.get("firm_name"), "Developer / GP", "institutional_relationships.csv")
+
+    for row in regional_rows:
+        add_entity_occurrence(entity_rows, row.get("market"), "Market / Region", "regional_intelligence.csv")
+
+    for article in articles:
+        add_entity_occurrence(entity_rows, article.get("market_focus"), "Market / Region", "articles.csv")
+
+    rows = list(entity_rows.values())
+    rows.sort(
+        key=lambda row: (
+            row["canonical_entity"],
+            row["entity_type"],
+            row["raw_entity"],
+            row["source_file"],
+        )
+    )
+    return rows
+
+
+def get_entity_quality_warnings(rows):
+    """Summarize possible duplicate, weak, and unknown entity issues."""
+    canonical_to_raw = {}
+    weak_matches = []
+    unknown_entities = []
+
+    for row in rows:
+        canonical_to_raw.setdefault(row["canonical_entity"], set()).add(row["raw_entity"])
+        if safe_int(row["confidence_score"]) <= 60:
+            weak_matches.append(row)
+        if row["canonical_entity"] == "Unknown" or row["raw_entity"] == "Unknown":
+            unknown_entities.append(row)
+
+    possible_duplicates = [
+        {
+            "canonical_entity": canonical,
+            "raw_entities": sorted(raw_entities),
+        }
+        for canonical, raw_entities in canonical_to_raw.items()
+        if canonical != "Unknown" and len(raw_entities) > 1
+    ]
+
+    return possible_duplicates, weak_matches, unknown_entities
+
+
+def generate_entity_resolution_outputs(entity_rows, dated_output_dir):
+    """Write entity_resolution.csv and entity_resolution_report.md."""
+    fieldnames = [
+        "raw_entity",
+        "canonical_entity",
+        "entity_type",
+        "alias_matched",
+        "confidence_score",
+        "source_file",
+        "occurrence_count",
+        "notes",
+    ]
+    write_csv_outputs(
+        ENTITY_RESOLUTION_OUTPUT_FILE,
+        fieldnames,
+        entity_rows,
+        dated_output_dir,
+    )
+
+    possible_duplicates, weak_matches, unknown_entities = get_entity_quality_warnings(entity_rows)
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    canonical_counts = Counter()
+    market_counts = Counter()
+    firm_counts = Counter()
+    for row in entity_rows:
+        canonical_counts[row["canonical_entity"]] += safe_int(row["occurrence_count"])
+        if row["entity_type"] == "Market / Region":
+            market_counts[row["canonical_entity"]] += safe_int(row["occurrence_count"])
+        elif row["entity_type"] in ["Developer / GP", "Institutional Capital", "Lender / Debt Provider", "Broker / Advisor"]:
+            firm_counts[row["canonical_entity"]] += safe_int(row["occurrence_count"])
+
+    lines = [
+        "# Entity Resolution Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total raw entities reviewed: {len(entity_rows)}",
+        f"- Total canonical entities created: {len(canonical_counts)}",
+        f"- Possible duplicate entity groups: {len(possible_duplicates)}",
+        f"- Weak matches needing review: {len(weak_matches)}",
+        f"- Unknown entities needing review: {len(unknown_entities)}",
+        "",
+        "## Top Canonical Firms",
+        "",
+    ]
+    if not firm_counts:
+        lines.append("- None detected.")
+    else:
+        for entity, count in firm_counts.most_common(10):
+            lines.append(f"- {entity}: {count} occurrence(s)")
+
+    lines.extend(["", "## Top Canonical Markets", ""])
+    if not market_counts:
+        lines.append("- None detected.")
+    else:
+        for entity, count in market_counts.most_common(10):
+            lines.append(f"- {entity}: {count} occurrence(s)")
+
+    lines.extend(["", "## Possible Duplicate Entities", ""])
+    if not possible_duplicates:
+        lines.append("- No duplicate alias groups detected.")
+    else:
+        for item in possible_duplicates[:10]:
+            lines.append(
+                f"- {item['canonical_entity']}: "
+                + ", ".join(item["raw_entities"])
+            )
+
+    lines.extend(["", "## Weak Matches Needing Manual Review", ""])
+    if not weak_matches:
+        lines.append("- No weak matches detected.")
+    else:
+        for row in weak_matches[:15]:
+            lines.append(
+                f"- {row['raw_entity']} -> {row['canonical_entity']} "
+                f"({row['confidence_score']}, {row['source_file']})"
+            )
+
+    lines.extend(["", "## Relationship Graph Improvement Notes", ""])
+    lines.append("- Canonical source and target names are now written into relationship_graph.csv.")
+    lines.append("- Deal rows now include canonical GP/developer, lender, capital partner, and market fields.")
+    lines.append("- Weak and unknown entities should be reviewed before relying on multi-run network counts.")
+
+    lines.extend(["", "## Recommended Cleanup Actions", ""])
+    lines.append("- Add confirmed aliases for repeated weak matches.")
+    lines.append("- Review unknown lender, capital partner, and project/deal entities.")
+    lines.append("- Expand the market alias dictionary when new submarkets appear repeatedly.")
+    lines.append("")
+
+    write_markdown_outputs(
+        ENTITY_RESOLUTION_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+    return {
+        "top_canonical_firms": firm_counts.most_common(5),
+        "top_canonical_markets": market_counts.most_common(5),
+        "weak_matches": weak_matches,
+        "possible_duplicates": possible_duplicates,
+        "unknown_entities": unknown_entities,
+    }
+
+
+RESIDENTIAL_SECTOR_LABELS = [
+    "Multifamily",
+    "Apartment",
+    "Student Housing",
+    "Senior Housing",
+    "BTR / Single-Family Rental",
+    "Affordable Housing",
+    "Mixed-Use Residential",
+    "Office-to-Residential Conversion",
+    "Workforce Housing",
+    "Manufactured Housing",
+    "General Residential",
+]
+
+
+def get_woomi_sector_relevance(sector, article_count, high_priority_count, deal_signal_count, dominant_market):
+    """Assign Woomi relevance for each residential sector."""
+    if sector in ["Multifamily", "Apartment"]:
+        return "Core Strategy Sector"
+
+    if sector in ["BTR / Single-Family Rental", "Office-to-Residential Conversion"]:
+        return "Strategic Expansion Sector" if article_count or deal_signal_count else "Monitoring Sector"
+
+    if sector == "Student Housing":
+        if high_priority_count > 0 or deal_signal_count > 0:
+            return "Strategic Expansion Sector"
+        return "Monitoring Sector"
+
+    if sector == "Senior Housing":
+        return "Monitoring Sector"
+
+    if sector in ["Affordable Housing", "Workforce Housing"]:
+        if dominant_market in ["Los Angeles", "California"] or high_priority_count > 0:
+            return "Strategic Expansion Sector"
+        return "Monitoring Sector"
+
+    if sector == "Manufactured Housing":
+        return "Monitoring Sector"
+
+    if article_count > 0:
+        return "Monitoring Sector"
+
+    return "Low Priority Sector"
+
+
+def get_sector_risk_or_opportunity(sector, dominant_angle, dominant_market):
+    """Create a simple risk/opportunity label by residential sector."""
+    if sector in ["Multifamily", "Apartment"]:
+        return "Core rental housing underwriting and pipeline signal"
+
+    if sector == "BTR / Single-Family Rental":
+        return "Potential expansion or product diversification signal"
+
+    if sector == "Student Housing":
+        return "Campus-adjacent demand and partnership signal"
+
+    if sector == "Senior Housing":
+        return "Demographic demand and operating capability signal"
+
+    if sector in ["Affordable Housing", "Workforce Housing"]:
+        if dominant_market in ["Los Angeles", "California"]:
+            return "California affordability, entitlement, and public-private partnership signal"
+        return "Affordability and subsidy program monitoring signal"
+
+    if sector == "Office-to-Residential Conversion":
+        return "Adaptive reuse, entitlement, and construction feasibility signal"
+
+    if sector == "Mixed-Use Residential":
+        return "Mixed-use development and placemaking signal"
+
+    if sector == "Manufactured Housing":
+        return "Lower-cost housing and alternative residential platform signal"
+
+    if dominant_angle == "Financing Risk":
+        return "General residential financing signal"
+
+    return "General residential market monitoring"
+
+
+def get_recommended_sector_action(sector, relevance_label, dominant_market):
+    """Recommend a practical sector follow-up action."""
+    if relevance_label == "Core Strategy Sector":
+        return "Keep in weekly developer strategy review"
+
+    if sector == "BTR / Single-Family Rental":
+        return "Monitor BTR / SFR operators, capital flows, and target markets"
+
+    if sector == "Office-to-Residential Conversion":
+        return "Track conversion feasibility, policy support, and construction cost assumptions"
+
+    if sector in ["Affordable Housing", "Workforce Housing"] and dominant_market in ["Los Angeles", "California"]:
+        return "Track LA / California affordability, entitlement, and public-private partnership signals"
+
+    if sector == "Student Housing":
+        return "Monitor university-market demand and partnership signals"
+
+    if sector == "Senior Housing":
+        return "Monitor senior housing demand and operating model signals"
+
+    if relevance_label == "Low Priority Sector":
+        return "Monitor only"
+
+    return "Add to sector watchlist"
+
+
+def build_residential_sector_rows(run_timestamp, articles, high_priority_articles, market_signal_articles, deal_rows, gp_rows):
+    """Build one sector intelligence row for each residential sector."""
+    rows = []
+
+    for sector in RESIDENTIAL_SECTOR_LABELS:
+        sector_articles = [
+            article for article in articles
+            if article.get("residential_sector") == sector
+        ]
+        sector_high_priority = [
+            article for article in high_priority_articles
+            if article.get("residential_sector") == sector
+        ]
+        sector_market_signals = [
+            article for article in market_signal_articles
+            if article.get("residential_sector") == sector
+        ]
+        sector_deals = [
+            row for row in deal_rows
+            if row.get("residential_sector") == sector
+        ]
+        dominant_market = most_common_plain_value(sector_articles, "market_focus", "None detected")
+        dominant_angle = most_common_label(sector_articles, "strategic_angle")
+        dominant_gp = most_common_plain_value(
+            [row for row in sector_deals if row.get("gp_or_developer") != "Unknown"],
+            "gp_or_developer",
+            "None detected",
+        )
+        relevance_label = get_woomi_sector_relevance(
+            sector,
+            len(sector_articles),
+            len(sector_high_priority),
+            len(sector_deals),
+            dominant_market,
+        )
+
+        rows.append({
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "residential_sector": sector,
+            "article_count": len(sector_articles),
+            "high_priority_count": len(sector_high_priority),
+            "market_signal_count": len(sector_market_signals),
+            "deal_signal_count": len(sector_deals),
+            "average_relevance_score": average_relevance_score(sector_articles),
+            "dominant_market_focus": dominant_market,
+            "dominant_strategic_angle": dominant_angle,
+            "dominant_gp_or_developer": dominant_gp,
+            "sector_risk_or_opportunity": get_sector_risk_or_opportunity(
+                sector,
+                dominant_angle,
+                dominant_market,
+            ),
+            "woomi_sector_relevance": relevance_label,
+            "recommended_sector_action": get_recommended_sector_action(
+                sector,
+                relevance_label,
+                dominant_market,
+            ),
+        })
+
+    rows.sort(
+        key=lambda row: (
+            row["woomi_sector_relevance"] not in ["Core Strategy Sector", "Strategic Expansion Sector"],
+            -safe_int(row["high_priority_count"]),
+            -safe_int(row["deal_signal_count"]),
+            -safe_int(row["market_signal_count"]),
+            -float(row["average_relevance_score"]),
+            row["residential_sector"],
+        )
+    )
+    return rows
+
+
+def add_sector_report_section(lines, title, rows, sectors):
+    """Add sector-specific rows to the residential sector report."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected_rows = [row for row in rows if row["residential_sector"] in sectors]
+
+    if not selected_rows:
+        lines.append("- No current sector signal detected.")
+        lines.append("")
+        return
+
+    for row in selected_rows:
+        lines.append(
+            f"- {row['residential_sector']}: {row['article_count']} article(s), "
+            f"{row['deal_signal_count']} deal/project signal(s), "
+            f"{row['woomi_sector_relevance']}. {row['recommended_sector_action']}."
+        )
+    lines.append("")
+
+
+def generate_residential_sector_outputs(sector_rows, dated_output_dir):
+    """Write residential sector intelligence CSV and Markdown report."""
+    fieldnames = [
+        "run_timestamp",
+        "residential_sector",
+        "article_count",
+        "high_priority_count",
+        "market_signal_count",
+        "deal_signal_count",
+        "average_relevance_score",
+        "dominant_market_focus",
+        "dominant_strategic_angle",
+        "dominant_gp_or_developer",
+        "sector_risk_or_opportunity",
+        "woomi_sector_relevance",
+        "recommended_sector_action",
+    ]
+    write_csv_outputs(
+        RESIDENTIAL_SECTOR_OUTPUT_FILE,
+        fieldnames,
+        sector_rows,
+        dated_output_dir,
+    )
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    active_rows = [row for row in sector_rows if safe_int(row["article_count"]) > 0]
+    lines = [
+        "# Residential Sector Coverage Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Active residential sectors: {len(active_rows)}",
+        "",
+        "## Sector Coverage Summary",
+        "",
+    ]
+    for row in sector_rows:
+        if safe_int(row["article_count"]) > 0 or safe_int(row["deal_signal_count"]) > 0:
+            lines.append(
+                f"- {row['residential_sector']}: {row['article_count']} article(s), "
+                f"{row['high_priority_count']} high-priority, "
+                f"{row['deal_signal_count']} deal/project, "
+                f"{row['woomi_sector_relevance']}."
+            )
+
+    lines.extend(["", "## Top Residential Sectors By Relevance", ""])
+    for row in sector_rows[:8]:
+        lines.append(
+            f"- {row['residential_sector']}: {row['woomi_sector_relevance']}, "
+            f"average relevance {row['average_relevance_score']}, "
+            f"dominant market {row['dominant_market_focus']}."
+        )
+    lines.append("")
+
+    add_sector_report_section(lines, "Multifamily / Apartment", sector_rows, ["Multifamily", "Apartment"])
+    add_sector_report_section(lines, "BTR / SFR", sector_rows, ["BTR / Single-Family Rental"])
+    add_sector_report_section(lines, "Student Housing", sector_rows, ["Student Housing"])
+    add_sector_report_section(lines, "Senior Housing", sector_rows, ["Senior Housing"])
+    add_sector_report_section(lines, "Affordable / Workforce Housing", sector_rows, ["Affordable Housing", "Workforce Housing"])
+    add_sector_report_section(lines, "Office-to-Residential Conversion", sector_rows, ["Office-to-Residential Conversion"])
+
+    lines.extend([
+        "## Sector Implications for Woomi / Woomi Global",
+        "",
+    ])
+    if any(row["woomi_sector_relevance"] == "Strategic Expansion Sector" for row in sector_rows):
+        lines.append("- Strategic expansion sectors should be reviewed for product diversification, GP partnerships, and underwriting assumptions.")
+    if any(row["residential_sector"] in ["Affordable Housing", "Workforce Housing"] and row["dominant_market_focus"] in ["Los Angeles", "California"] for row in sector_rows):
+        lines.append("- Affordable and workforce housing signals in California / LA should feed entitlement and public-private partnership monitoring.")
+    if not active_rows:
+        lines.append("- No sector-specific signal was detected beyond general monitoring.")
+
+    lines.extend(["", "## Recommended Sector Follow-up Actions", ""])
+    for row in sector_rows:
+        if row["woomi_sector_relevance"] in ["Core Strategy Sector", "Strategic Expansion Sector", "Monitoring Sector"]:
+            lines.append(f"- {row['residential_sector']}: {row['recommended_sector_action']}")
+    lines.append("")
+
+    write_markdown_outputs(
+        RESIDENTIAL_SECTOR_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+    return {
+        "top_sectors": sector_rows[:5],
+        "student_detected": any(row["residential_sector"] == "Student Housing" and safe_int(row["article_count"]) > 0 for row in sector_rows),
+        "senior_detected": any(row["residential_sector"] == "Senior Housing" and safe_int(row["article_count"]) > 0 for row in sector_rows),
+        "btr_detected": any(row["residential_sector"] == "BTR / Single-Family Rental" and safe_int(row["article_count"]) > 0 for row in sector_rows),
+        "office_conversion_detected": any(row["residential_sector"] == "Office-to-Residential Conversion" and safe_int(row["article_count"]) > 0 for row in sector_rows),
+    }
+
+
+def clean_list_value(value):
+    """Split comma/semicolon list text into clean values."""
+    if not value or value == "Unknown" or value == "None detected":
+        return []
+
+    parts = re.split(r"[;,]", str(value))
+    return [part.strip() for part in parts if part.strip()]
+
+
+def canonical_gp_value(name):
+    """Return the canonical GP/developer name when the alias dictionary knows it."""
+    if not name or name == "Unknown":
+        return "Unknown"
+
+    return canonicalize_entity(name, "Developer / GP")["canonical_entity"]
+
+
+def text_contains_name(text, name):
+    """Case-insensitive text match for a GP or partner name."""
+    if not text or not name or name == "Unknown":
+        return False
+
+    return name.lower() in text.lower()
+
+
+def collect_gp_watchlist_candidates(gp_rows, relationship_rows, graph_rows, deal_rows):
+    """Collect active GP/developer names from existing intelligence layers."""
+    candidates = set()
+
+    for row in gp_rows:
+        candidates.add(row.get("canonical_gp_name") or row.get("gp_name"))
+        candidates.add(row.get("gp_name"))
+
+    for row in relationship_rows:
+        firm_name = row.get("firm_name", "")
+        if firm_name:
+            candidates.add(canonical_gp_value(firm_name))
+
+    for row in deal_rows:
+        candidates.add(row.get("canonical_gp_or_developer") or row.get("gp_or_developer"))
+        candidates.add(row.get("gp_or_developer"))
+
+    for row in graph_rows:
+        if row.get("source_entity_type") == "Developer / GP":
+            candidates.add(row.get("canonical_source_entity") or row.get("source_entity"))
+        if row.get("target_entity_type") == "Developer / GP":
+            candidates.add(row.get("canonical_target_entity") or row.get("target_entity"))
+
+    return sorted(
+        {
+            candidate for candidate in candidates
+            if candidate and candidate not in ["Unknown", "General Project Signal"]
+        }
+    )
+
+
+def row_text(row):
+    """Join row values so beginner-friendly keyword scoring can scan one string."""
+    return " ".join(str(value) for value in row.values() if value)
+
+
+def get_watchlist_text(candidate, articles, gp_rows, relationship_rows, graph_rows, deal_rows):
+    """Build a combined text sample for one GP/developer candidate."""
+    canonical_name = canonical_gp_value(candidate)
+    text_parts = [candidate, canonical_name]
+
+    for row in gp_rows:
+        if canonical_gp_value(row.get("gp_name")) == canonical_name:
+            text_parts.append(row_text(row))
+
+    for row in relationship_rows:
+        if canonical_gp_value(row.get("firm_name")) == canonical_name:
+            text_parts.append(row_text(row))
+
+    for row in deal_rows:
+        if canonical_gp_value(row.get("gp_or_developer")) == canonical_name:
+            text_parts.append(row_text(row))
+
+    for row in graph_rows:
+        source_name = canonical_gp_value(row.get("source_entity"))
+        target_name = canonical_gp_value(row.get("target_entity"))
+        if source_name == canonical_name or target_name == canonical_name:
+            text_parts.append(row_text(row))
+
+    for article in articles:
+        article_text = " ".join([
+            article.get("title", ""),
+            article.get("source", ""),
+            article.get("summary", ""),
+            article.get("article_text_sample", ""),
+            article.get("matched_keywords", ""),
+        ])
+        if text_contains_name(article_text, candidate) or text_contains_name(article_text, canonical_name):
+            text_parts.append(article_text)
+
+    return " ".join(text_parts)
+
+
+def get_candidate_rows(candidate, rows, name_fields):
+    """Return rows where any of the provided name fields match a candidate."""
+    canonical_name = canonical_gp_value(candidate)
+    selected_rows = []
+
+    for row in rows:
+        for field in name_fields:
+            if canonical_gp_value(row.get(field)) == canonical_name:
+                selected_rows.append(row)
+                break
+
+    return selected_rows
+
+
+def get_gp_watchlist_articles(candidate, articles):
+    """Find source articles that mention the GP/developer candidate."""
+    canonical_name = canonical_gp_value(candidate)
+    selected_articles = []
+
+    for article in articles:
+        article_text = " ".join([
+            article.get("title", ""),
+            article.get("source", ""),
+            article.get("article_text_sample", ""),
+            article.get("matched_keywords", ""),
+        ])
+        if text_contains_name(article_text, candidate) or text_contains_name(article_text, canonical_name):
+            selected_articles.append(article)
+
+    return selected_articles
+
+
+def score_gp_activity(gp_row, gp_articles, gp_deals, gp_edges):
+    """Score how much current activity exists for this GP/developer."""
+    if gp_row:
+        base_score = safe_int(gp_row.get("institutional_signal_strength"))
+    else:
+        base_score = 0
+
+    activity_points = len(gp_articles) * 12 + len(gp_deals) * 18 + len(gp_edges) * 8
+    return min(100, max(base_score, activity_points))
+
+
+def score_capital_flow(relationship_row, gp_deals, gp_edges):
+    """Score capital movement signals from relationships, deals, and graph edges."""
+    capital_flow = relationship_row.get("capital_flow_signal", "") if relationship_row else ""
+    if capital_flow in ["Capital Inflow", "Development Capital Deployment", "Refinancing / Recapitalization"]:
+        return 90
+    if capital_flow in ["Distressed Opportunity Positioning", "Capital Outflow / Exit"]:
+        return 75
+
+    if any(row.get("deal_type") in ["Construction Financing", "Refinancing", "Recapitalization", "JV / Partnership"] for row in gp_deals):
+        return 75
+    if any(row.get("relationship_type") in ["Financing Relationship", "Capital Flow", "JV / Partnership"] for row in gp_edges):
+        return 65
+
+    return 20 if gp_deals or gp_edges else 0
+
+
+def score_regional_relevance(primary_market, gp_articles, gp_deals, regional_rows):
+    """Score whether the GP activity is in markets Woomi should watch."""
+    if primary_market in ["Los Angeles", "California"]:
+        return 100
+    if primary_market in ["Seattle", "Texas", "Dallas", "Austin", "Phoenix", "Arizona", "Florida", "Southeast", "Sun Belt"]:
+        return 75
+    if primary_market and primary_market not in ["Other / Unknown", "National / Other", "None detected"]:
+        return 55
+
+    markets = [article.get("market_focus") for article in gp_articles]
+    markets.extend(row.get("market") for row in gp_deals)
+    if any(market in ["Los Angeles", "California"] for market in markets):
+        return 100
+    if any(market in ["Texas", "Dallas", "Austin", "Phoenix", "Arizona", "Florida", "Southeast", "Sun Belt"] for market in markets):
+        return 70
+    if regional_rows:
+        return 35
+
+    return 0
+
+
+def score_residential_sector_focus(sector):
+    """Score sector fit for US residential developer strategy."""
+    if sector in ["Multifamily", "Apartment"]:
+        return 90
+    if sector in ["BTR / Single-Family Rental", "Office-to-Residential Conversion"]:
+        return 80
+    if sector in ["Affordable Housing", "Workforce Housing", "Student Housing"]:
+        return 70
+    if sector in ["Senior Housing", "Mixed-Use Residential"]:
+        return 55
+    if sector == "Manufactured Housing":
+        return 45
+    return 30
+
+
+def score_partnership_signal(relationship_row, gp_deals, gp_edges, watchlist_text):
+    """Score whether the GP appears near major capital, lender, or partner names."""
+    relationship_signal = relationship_row.get("relationship_signal", "") if relationship_row else ""
+    partner_matches = [
+        keyword for keyword in GP_WATCHLIST_PARTNERSHIP_KEYWORDS
+        if keyword.lower() in watchlist_text.lower()
+    ]
+
+    if relationship_signal == "Potential JV / Partnership Signal":
+        return 100
+    if partner_matches:
+        return min(100, 55 + len(partner_matches) * 10)
+    if any(row.get("relationship_type") == "JV / Partnership" for row in gp_edges):
+        return 85
+    if any(row.get("institutional_partner") != "Unknown" or row.get("capital_partner") != "Unknown" for row in gp_deals):
+        return 70
+
+    return 0
+
+
+def score_keyword_signals(watchlist_text, keywords):
+    """Score keyword matches from 0 to 100 and return matched keywords."""
+    lowered_text = watchlist_text.lower()
+    matches = [
+        keyword for keyword in keywords
+        if keyword.lower() in lowered_text
+    ]
+    return min(100, len(matches) * 25), matches
+
+
+def score_california_la_presence(relationship_row, primary_market, watchlist_text):
+    """Score California / LA strategic relevance for the GP watchlist."""
+    if relationship_row and relationship_row.get("california_la_relevance") == "High":
+        return 100
+    if primary_market in ["Los Angeles", "California"]:
+        return 100
+    if any(keyword.lower() in watchlist_text.lower() for keyword in GP_WATCHLIST_CA_LA_KEYWORDS):
+        return 90
+    if relationship_row and relationship_row.get("california_la_relevance") == "Medium":
+        return 60
+    return 0
+
+
+def get_gp_tier(score):
+    """Assign a watchlist tier from the composite GP score."""
+    if score >= 85:
+        return "Tier 1 Strategic GP"
+    if score >= 70:
+        return "Tier 2 High Potential GP"
+    if score >= 55:
+        return "Tier 3 Monitoring GP"
+    if score >= 40:
+        return "Emerging Watchlist"
+    return "Low Signal"
+
+
+def get_gp_confidence(gp_articles, gp_deals, gp_edges, relationship_row, execution_signals):
+    """Estimate confidence using confirmation across multiple signal layers."""
+    layers = 0
+    if gp_articles:
+        layers += 1
+    if gp_deals:
+        layers += 1
+    if gp_edges:
+        layers += 1
+    if relationship_row:
+        layers += 1
+    if execution_signals:
+        layers += 1
+
+    if layers >= 4 and (relationship_row or gp_deals) and execution_signals:
+        return "High"
+    if layers >= 2:
+        return "Medium"
+    return "Low"
+
+
+def get_gp_likely_growth_direction(row):
+    """Translate component scores into a plain-English growth direction."""
+    if row["capital_flow_score"] >= 75 and row["regional_relevance_score"] >= 70:
+        return "Institutional-backed regional expansion"
+    if row["innovation_signal_score"] >= 60:
+        return "Innovation-led platform growth"
+    if row["residential_sector_focus"] == "BTR / Single-Family Rental":
+        return "BTR / SFR platform growth"
+    if row["california_la_relevance_score"] >= 75:
+        return "California / LA strategic positioning"
+    if "Distressed Opportunity Candidate" in row["special_labels"]:
+        return "Distressed opportunity positioning"
+    return "Selective residential growth"
+
+
+def get_gp_woomi_use_case(row):
+    """Recommend how Woomi could use this GP signal."""
+    if row["partnership_signal_score"] >= 75:
+        return "Potential GP partnership candidate"
+    if row["capital_flow_score"] >= 75:
+        return "Capital market and pricing discovery reference"
+    if row["california_la_relevance_score"] >= 75:
+        return "LA / California developer strategy watch"
+    if row["innovation_signal_score"] >= 60:
+        return "Construction or operating capability benchmark"
+    if row["execution_signal_score"] >= 60:
+        return "Execution and delivery benchmark"
+    return "General developer monitoring"
+
+
+def get_gp_recommended_follow_up(row):
+    """Return a practical next step for each watchlist GP."""
+    if row["gp_tier"] == "Tier 1 Strategic GP":
+        return "Review for executive relationship mapping"
+    if row["partnership_signal_score"] >= 75:
+        return "Track JV and capital partner activity"
+    if row["california_la_relevance_score"] >= 75:
+        return "Review LA / California development activity"
+    if row["innovation_signal_score"] >= 60:
+        return "Track innovation and platform strategy"
+    if row["capital_flow_score"] >= 75:
+        return "Review institutional pricing and capital flow signals"
+    return "Monitor only"
+
+
+def get_gp_momentum_label(gp_activity_score, capital_flow_score, execution_score):
+    """Create a simple current-run momentum label."""
+    if gp_activity_score >= 75 and (capital_flow_score >= 75 or execution_score >= 60):
+        return "Accelerating"
+    if gp_activity_score >= 55 or capital_flow_score >= 60:
+        return "Improving"
+    if gp_activity_score >= 30:
+        return "Stable"
+    return "Early Signal"
+
+
+def get_gp_special_labels(row, innovation_signals, execution_signals, watchlist_text):
+    """Add readable special labels for management scanning."""
+    labels = []
+
+    if row["institutional_relationship_score"] >= 75 or row["capital_flow_score"] >= 75:
+        labels.append("Institutional Capital Magnet")
+    if row["regional_relevance_score"] >= 70 and row["execution_signal_score"] >= 50:
+        labels.append("Fast-Growing Regional Developer")
+    if row["residential_sector_focus"] == "BTR / Single-Family Rental" or "btr platform" in [item.lower() for item in innovation_signals]:
+        labels.append("Emerging BTR Platform")
+    if row["residential_sector_focus"] in ["Affordable Housing", "Workforce Housing"]:
+        labels.append("Affordable Housing Specialist")
+    if row["california_la_relevance_score"] >= 75:
+        labels.append("LA Strategic Watch")
+    if any(keyword.lower() in watchlist_text.lower() for keyword in GP_WATCHLIST_DISTRESSED_KEYWORDS):
+        labels.append("Distressed Opportunity Candidate")
+    if row["execution_signal_score"] >= 70 or execution_signals:
+        labels.append("Operational Excellence Signal")
+    if row["innovation_signal_score"] >= 60:
+        labels.append("Innovation-Driven GP")
+
+    return labels or ["General Monitoring"]
+
+
+def build_gp_watchlist_rows(
+    run_timestamp,
+    gp_rows,
+    relationship_rows,
+    graph_rows,
+    deal_rows,
+    regional_rows,
+    sector_rows,
+    executive_priority_rows,
+    articles,
+):
+    """Build the Emerging GP Ranking & Watchlist from existing signal layers."""
+    watchlist_rows = []
+    candidates = collect_gp_watchlist_candidates(
+        gp_rows,
+        relationship_rows,
+        graph_rows,
+        deal_rows,
+    )
+
+    for candidate in candidates:
+        canonical_name = canonical_gp_value(candidate)
+        gp_row = next(
+            (row for row in gp_rows if canonical_gp_value(row.get("gp_name")) == canonical_name),
+            {},
+        )
+        relationship_row = next(
+            (row for row in relationship_rows if canonical_gp_value(row.get("firm_name")) == canonical_name),
+            {},
+        )
+        gp_deals = get_candidate_rows(
+            candidate,
+            deal_rows,
+            ["gp_or_developer", "canonical_gp_or_developer"],
+        )
+        gp_edges = [
+            row for row in graph_rows
+            if canonical_gp_value(row.get("source_entity")) == canonical_name
+            or canonical_gp_value(row.get("target_entity")) == canonical_name
+            or row.get("canonical_source_entity") == canonical_name
+            or row.get("canonical_target_entity") == canonical_name
+        ]
+        gp_articles = get_gp_watchlist_articles(candidate, articles)
+        watchlist_text = get_watchlist_text(
+            candidate,
+            articles,
+            gp_rows,
+            relationship_rows,
+            graph_rows,
+            deal_rows,
+        )
+
+        market_values = []
+        market_values.extend(clean_list_value(gp_row.get("market_focus", "")))
+        market_values.extend(clean_list_value(relationship_row.get("detected_markets", "")))
+        market_values.extend(row.get("market") for row in gp_deals if row.get("market"))
+        market_values.extend(article.get("market_focus") for article in gp_articles if article.get("market_focus"))
+        primary_market = Counter(market_values).most_common(1)[0][0] if market_values else "National / Other"
+
+        sector_values = []
+        sector_values.extend(row.get("residential_sector") for row in gp_deals if row.get("residential_sector"))
+        sector_values.extend(article.get("residential_sector") for article in gp_articles if article.get("residential_sector"))
+        if gp_row.get("residential_sector"):
+            sector_values.append(gp_row["residential_sector"])
+        residential_sector_focus = Counter(sector_values).most_common(1)[0][0] if sector_values else "General Residential"
+        source_platform_types = sorted(set(
+            article.get("platform_type", "Other")
+            for article in gp_articles
+            if article.get("platform_type")
+        ))
+
+        institutional_partners = sorted({
+            value for row in gp_deals
+            for value in [
+                row.get("institutional_partner"),
+                row.get("capital_partner"),
+            ]
+            if value and value != "Unknown"
+        })
+        capital_sources = sorted({
+            value for row in gp_deals
+            for value in [
+                row.get("lender_or_debt_provider"),
+                row.get("capital_partner"),
+            ]
+            if value and value != "Unknown"
+        })
+        for edge in gp_edges:
+            if edge.get("source_entity_type") in ["Institutional Capital", "Lender / Debt Provider"]:
+                institutional_partners.append(edge.get("source_entity"))
+            if edge.get("target_entity_type") in ["Institutional Capital", "Lender / Debt Provider"]:
+                institutional_partners.append(edge.get("target_entity"))
+        institutional_partners = sorted(set(institutional_partners))
+
+        detected_strategies = sorted({
+            value for value in [
+                gp_row.get("activity_type"),
+                gp_row.get("likely_strategy"),
+                relationship_row.get("capital_flow_signal"),
+            ]
+            if value and value not in ["Unknown", "No Clear Capital Flow Signal"]
+        })
+        detected_strategies.extend(
+            row.get("deal_type") for row in gp_deals
+            if row.get("deal_type") and row.get("deal_type") != "General Project Signal"
+        )
+        detected_strategies = sorted(set(detected_strategies))
+
+        innovation_score, innovation_signals = score_keyword_signals(
+            watchlist_text,
+            GP_WATCHLIST_INNOVATION_KEYWORDS,
+        )
+        execution_score, execution_signals = score_keyword_signals(
+            watchlist_text,
+            GP_WATCHLIST_EXECUTION_KEYWORDS,
+        )
+        gp_activity_score = score_gp_activity(gp_row, gp_articles, gp_deals, gp_edges)
+        relationship_score = safe_int(
+            relationship_row.get("institutional_relationship_score", 0)
+        )
+        capital_flow_score = score_capital_flow(relationship_row, gp_deals, gp_edges)
+        regional_score = score_regional_relevance(
+            primary_market,
+            gp_articles,
+            gp_deals,
+            regional_rows,
+        )
+        sector_score = score_residential_sector_focus(residential_sector_focus)
+        partnership_score = score_partnership_signal(
+            relationship_row,
+            gp_deals,
+            gp_edges,
+            watchlist_text,
+        )
+        california_score = score_california_la_presence(
+            relationship_row,
+            primary_market,
+            watchlist_text,
+        )
+        momentum_score = min(
+            100,
+            round((gp_activity_score * 0.4) + (capital_flow_score * 0.3) + (execution_score * 0.3)),
+        )
+
+        # Beginner note:
+        # gp_activity_score is kept as a visible component, while the composite
+        # follows the strategy weights from the requested framework.
+        emerging_gp_score = round(
+            relationship_score * 0.20
+            + capital_flow_score * 0.15
+            + regional_score * 0.10
+            + sector_score * 0.10
+            + partnership_score * 0.15
+            + innovation_score * 0.10
+            + california_score * 0.10
+            + execution_score * 0.05
+            + momentum_score * 0.05
+        )
+
+        row = {
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "gp_name": candidate,
+            "canonical_gp_name": canonical_name,
+            "gp_activity_score": gp_activity_score,
+            "institutional_relationship_score": relationship_score,
+            "capital_flow_score": capital_flow_score,
+            "regional_relevance_score": regional_score,
+            "residential_sector_score": sector_score,
+            "partnership_signal_score": partnership_score,
+            "innovation_signal_score": innovation_score,
+            "california_la_relevance_score": california_score,
+            "execution_signal_score": execution_score,
+            "momentum_signal_score": momentum_score,
+            "emerging_gp_score": emerging_gp_score,
+            "gp_tier": get_gp_tier(emerging_gp_score),
+            "primary_market": primary_market,
+            "residential_sector_focus": residential_sector_focus,
+            "source_platform_types": "; ".join(source_platform_types) or "Other",
+            "institutional_partners": "; ".join(institutional_partners) or "None detected",
+            "capital_sources": "; ".join(sorted(set(capital_sources))) or "None detected",
+            "detected_strategies": "; ".join(detected_strategies) or "General monitoring",
+            "innovation_signals": "; ".join(innovation_signals) or "None detected",
+            "execution_signals": "; ".join(execution_signals) or "None detected",
+            "california_la_presence": "High" if california_score >= 75 else "Medium" if california_score >= 50 else "Low",
+            "partnership_signal": "Strong partnership signal" if partnership_score >= 75 else "Moderate partnership signal" if partnership_score >= 50 else "No clear partnership signal",
+            "momentum_label": get_gp_momentum_label(gp_activity_score, capital_flow_score, execution_score),
+        }
+        row["special_labels"] = "; ".join(
+            get_gp_special_labels(row, innovation_signals, execution_signals, watchlist_text)
+        )
+        row["likely_growth_direction"] = get_gp_likely_growth_direction(row)
+        row["potential_woomi_use_case"] = get_gp_woomi_use_case(row)
+        row["recommended_follow_up"] = get_gp_recommended_follow_up(row)
+        row["confidence_level"] = get_gp_confidence(
+            gp_articles,
+            gp_deals,
+            gp_edges,
+            relationship_row,
+            execution_signals,
+        )
+        watchlist_rows.append(row)
+
+    watchlist_rows.sort(
+        key=lambda row: (
+            -safe_int(row["emerging_gp_score"]),
+            -safe_int(row["institutional_relationship_score"]),
+            row["canonical_gp_name"],
+        )
+    )
+    return watchlist_rows
+
+
+def add_gp_watchlist_report_section(lines, title, rows, filter_function):
+    """Add a filtered GP watchlist section to the Markdown report."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected_rows = [row for row in rows if filter_function(row)]
+    if not selected_rows:
+        lines.append("- No current GP signal detected.")
+        lines.append("")
+        return
+
+    for row in selected_rows[:10]:
+        lines.append(
+            f"- {row['canonical_gp_name']}: score {row['emerging_gp_score']}, "
+            f"{row['gp_tier']}, {row['primary_market']}, "
+            f"{row['potential_woomi_use_case']}. {row['recommended_follow_up']}."
+        )
+    lines.append("")
+
+
+def generate_gp_watchlist_outputs(gp_watchlist_rows, dated_output_dir):
+    """Write the Emerging GP Ranking & Watchlist CSV and report."""
+    fieldnames = [
+        "run_timestamp",
+        "gp_name",
+        "canonical_gp_name",
+        "gp_activity_score",
+        "institutional_relationship_score",
+        "capital_flow_score",
+        "regional_relevance_score",
+        "residential_sector_score",
+        "partnership_signal_score",
+        "innovation_signal_score",
+        "california_la_relevance_score",
+        "execution_signal_score",
+        "momentum_signal_score",
+        "emerging_gp_score",
+        "gp_tier",
+        "primary_market",
+        "residential_sector_focus",
+        "source_platform_types",
+        "institutional_partners",
+        "capital_sources",
+        "detected_strategies",
+        "innovation_signals",
+        "execution_signals",
+        "california_la_presence",
+        "partnership_signal",
+        "momentum_label",
+        "likely_growth_direction",
+        "potential_woomi_use_case",
+        "recommended_follow_up",
+        "confidence_level",
+        "special_labels",
+    ]
+    write_csv_outputs(
+        GP_WATCHLIST_OUTPUT_FILE,
+        fieldnames,
+        gp_watchlist_rows,
+        dated_output_dir,
+    )
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    tier_1_rows = [
+        row for row in gp_watchlist_rows
+        if row["gp_tier"] == "Tier 1 Strategic GP"
+    ]
+    tier_2_rows = [
+        row for row in gp_watchlist_rows
+        if row["gp_tier"] == "Tier 2 High Potential GP"
+    ]
+    california_la_rows = [
+        row for row in gp_watchlist_rows
+        if row["california_la_presence"] == "High"
+        or "LA Strategic Watch" in row["special_labels"]
+    ]
+    btr_rows = [
+        row for row in gp_watchlist_rows
+        if row["residential_sector_focus"] == "BTR / Single-Family Rental"
+        or "Emerging BTR Platform" in row["special_labels"]
+    ]
+    affordable_rows = [
+        row for row in gp_watchlist_rows
+        if row["residential_sector_focus"] in ["Affordable Housing", "Workforce Housing"]
+        or "Affordable Housing Specialist" in row["special_labels"]
+    ]
+    student_rows = [
+        row for row in gp_watchlist_rows
+        if row["residential_sector_focus"] == "Student Housing"
+    ]
+    innovation_rows = [
+        row for row in gp_watchlist_rows
+        if row["innovation_signal_score"] >= 50
+        or "Innovation-Driven GP" in row["special_labels"]
+    ]
+    capital_magnet_rows = [
+        row for row in gp_watchlist_rows
+        if "Institutional Capital Magnet" in row["special_labels"]
+    ]
+    partnership_rows = [
+        row for row in gp_watchlist_rows
+        if row["partnership_signal"] != "No clear partnership signal"
+    ]
+
+    lines = [
+        "# Emerging GP Ranking & Watchlist Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- GP/developer candidates reviewed: {len(gp_watchlist_rows)}",
+        f"- Tier 1 Strategic GPs: {len(tier_1_rows)}",
+        f"- Tier 2 High Potential GPs: {len(tier_2_rows)}",
+        "",
+        "## Top Emerging GPs",
+        "",
+    ]
+    if gp_watchlist_rows:
+        for row in gp_watchlist_rows[:10]:
+            lines.append(
+                f"- {row['canonical_gp_name']}: {row['emerging_gp_score']} "
+                f"({row['gp_tier']}), {row['primary_market']}, "
+                f"{row['likely_growth_direction']}."
+            )
+    else:
+        lines.append("- No GP watchlist signals were detected in this run.")
+    lines.append("")
+
+    add_gp_watchlist_report_section(lines, "Tier 1 Strategic GP", gp_watchlist_rows, lambda row: row["gp_tier"] == "Tier 1 Strategic GP")
+    add_gp_watchlist_report_section(lines, "Tier 2 High Potential GP", gp_watchlist_rows, lambda row: row["gp_tier"] == "Tier 2 High Potential GP")
+    add_gp_watchlist_report_section(lines, "California / LA GP Activity", gp_watchlist_rows, lambda row: row in california_la_rows)
+    add_gp_watchlist_report_section(lines, "BTR / SFR GP Activity", gp_watchlist_rows, lambda row: row in btr_rows)
+    add_gp_watchlist_report_section(lines, "Affordable Housing GP Activity", gp_watchlist_rows, lambda row: row in affordable_rows)
+    add_gp_watchlist_report_section(lines, "Student Housing GP Activity", gp_watchlist_rows, lambda row: row in student_rows)
+    add_gp_watchlist_report_section(lines, "Innovation-Oriented GP Activity", gp_watchlist_rows, lambda row: row in innovation_rows)
+    add_gp_watchlist_report_section(lines, "Institutional Capital Magnet", gp_watchlist_rows, lambda row: row in capital_magnet_rows)
+    add_gp_watchlist_report_section(lines, "Potential Woomi Partnership Candidates", gp_watchlist_rows, lambda row: row in partnership_rows or row["potential_woomi_use_case"] == "Potential GP partnership candidate")
+
+    lines.extend([
+        "## GP Source Expansion Summary",
+        "",
+        f"Developer / GP source coverage is available in `{os.path.basename(GP_SOURCE_COVERAGE_REPORT_OUTPUT_FILE)}`.",
+        "Use that report to identify missing GP, lender, BTR, student housing, and senior housing feeds that would improve this watchlist.",
+        "",
+        "## Source Activation Summary",
+        "",
+        f"Validated source activation scoring is available in `{os.path.basename(SOURCE_ACTIVATION_REPORT_OUTPUT_FILE)}`.",
+        "Use that report to prioritize working GP feeds and failed critical feeds before expanding the watchlist further.",
+        "",
+        "## Historical Persistence Summary",
+        "",
+        f"Longitudinal GP and signal memory is available in `{os.path.basename(HISTORICAL_MEMORY_REPORT_OUTPUT_FILE)}`.",
+        f"Capital-flow memory is available in `{os.path.basename(CAPITAL_FLOW_REPORT_OUTPUT_FILE)}`.",
+        f"Recurring relationship tracking is available in `{os.path.basename(RELATIONSHIP_PERSISTENCE_REPORT_OUTPUT_FILE)}`.",
+        "",
+        "## Opportunity / Distress Radar",
+        "",
+        f"Opportunity radar is available in `{os.path.basename(OPPORTUNITY_RADAR_REPORT_OUTPUT_FILE)}`.",
+        f"Distress watchlist is available in `{os.path.basename(DISTRESS_WATCHLIST_REPORT_OUTPUT_FILE)}`.",
+        f"Canonical deal fingerprints are available in `{os.path.basename(DEAL_FINGERPRINT_REPORT_OUTPUT_FILE)}`.",
+        f"Opportunity deduplication is available in `{os.path.basename(OPPORTUNITY_DEDUPLICATION_REPORT_OUTPUT_FILE)}`.",
+        f"Timing intelligence is available in `{os.path.basename(TIMING_INTELLIGENCE_REPORT_OUTPUT_FILE)}`.",
+        f"Market entry window scoring is available in `{os.path.basename(MARKET_ENTRY_WINDOW_REPORT_OUTPUT_FILE)}`.",
+        "",
+    ])
+
+    lines.extend([
+        "## Recommended Management Meeting Targets",
+        "",
+    ])
+    meeting_targets = [
+        row for row in gp_watchlist_rows
+        if row["gp_tier"] in ["Tier 1 Strategic GP", "Tier 2 High Potential GP"]
+        or row["partnership_signal"] == "Strong partnership signal"
+    ][:5]
+    if meeting_targets:
+        for row in meeting_targets:
+            lines.append(
+                f"- {row['canonical_gp_name']}: {row['recommended_follow_up']} "
+                f"({row['confidence_level']} confidence)."
+            )
+    else:
+        lines.append("- No management meeting target is recommended from this run.")
+
+    lines.extend([
+        "",
+        "## Recommended Strategic Follow-up Actions",
+        "",
+    ])
+    for row in gp_watchlist_rows[:8]:
+        lines.append(
+            f"- {row['canonical_gp_name']}: {row['recommended_follow_up']}."
+        )
+    if not gp_watchlist_rows:
+        lines.append("- Continue monitoring GP and developer activity.")
+    lines.append("")
+
+    write_markdown_outputs(
+        GP_WATCHLIST_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+    return {
+        "top_five": gp_watchlist_rows[:5],
+        "tier_1": tier_1_rows,
+        "california_la_watch": california_la_rows,
+        "institutional_capital_magnets": capital_magnet_rows,
+    }
+
+
+def generate_narrative_regime(
+    strategy_briefing_articles,
+    market_signal_articles,
+    key_thematic_alerts,
+    heatmap_rows,
+    dated_output_dir,
+):
+    """
+    Generate output/narrative_regime.md.
+
+    This layer turns article themes into a readable market-regime narrative.
+    """
+    regime_data = detect_narrative_regime(
+        strategy_briefing_articles,
+        market_signal_articles,
+    )
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    secondary_text = regime_data["secondary_regime"] or "None detected"
+    lines = [
+        "# Narrative Regime Detection",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        "## Detected Regime",
+        "",
+        f"- Primary regime: {regime_data['primary_regime']}",
+        f"- Secondary regime: {secondary_text}",
+        f"- Confidence level: {regime_data['confidence']}",
+        f"- Explanation: {regime_data['explanation']}",
+        "",
+        "## Regime Scorecard",
+        "",
+        "| Regime | Score |",
+        "| --- | ---: |",
+    ]
+
+    for regime, score in sorted(
+        regime_data["scores"].items(),
+        key=lambda item: item[1],
+        reverse=True,
+    ):
+        lines.append(f"| {regime} | {score} |")
+
+    lines.extend([
+        "",
+        "## Regime Heatmap Reference",
+        "",
+        f"Calibrated 0-100 heatmap scores are available in `{os.path.basename(REGIME_HEATMAP_REPORT_OUTPUT_FILE)}` and `{os.path.basename(REGIME_HEATMAP_OUTPUT_FILE)}`.",
+        f"Regime momentum is available in `{os.path.basename(REGIME_MOMENTUM_REPORT_OUTPUT_FILE)}` when previous heatmap history exists.",
+        "",
+        "| Regime | Final Score | Strength |",
+        "| --- | ---: | --- |",
+    ])
+
+    for row in heatmap_rows:
+        lines.append(
+            f"| {row['regime']} | {row['final_score']} | {row['strength_label']} |"
+        )
+
+    lines.extend([
+        "",
+        "## Signal Inputs",
+        "",
+        f"- Strategy-briefing articles reviewed: {len(strategy_briefing_articles)}",
+        f"- Market-signal articles reviewed: {len(market_signal_articles)}",
+        f"- Articles with extracted numbers: {regime_data['extracted_number_articles']}",
+        f"- Institutional player mentions: {regime_data['institutional_mentions']}",
+        "",
+    ])
+
+    add_top_count_lines(lines, "Strategic Angles", regime_data["angle_counts"])
+    add_top_count_lines(lines, "Market Signals", regime_data["signal_counts"])
+    add_top_count_lines(lines, "Decision Uses", regime_data["decision_counts"])
+    add_top_count_lines(lines, "Market Focus", regime_data["market_counts"])
+    add_top_count_lines(lines, "Action Levels", regime_data["action_counts"])
+    add_top_count_lines(lines, "Woomi Relevance", regime_data["woomi_counts"])
+
+    lines.extend([
+        "## Key Thematic Context",
+        "",
+    ])
+
+    for alert in key_thematic_alerts:
+        lines.append(f"- {alert}")
+
+    lines.extend([
+        "",
+        "## Cross-Theme Interpretation",
+        "",
+    ])
+
+    for interpretation in build_cross_theme_interpretation(regime_data):
+        lines.append(f"- {interpretation}")
+
+    lines.extend([
+        "",
+        "## Implications for Woomi / Woomi Global",
+        "",
+    ])
+
+    for implication in build_woomi_regime_implications(regime_data):
+        lines.append(f"- {implication}")
+
+    lines.extend([
+        "",
+        "## Recommended Strategy Team Questions",
+        "",
+    ])
+
+    for question in build_regime_questions(regime_data):
+        lines.append(f"- {question}")
+
+    lines.append("")
+
+    write_markdown_outputs(NARRATIVE_REGIME_OUTPUT_FILE, lines, dated_output_dir)
+
+    return regime_data
+
+
+def confidence_to_number(confidence_label):
+    """Convert confidence labels into numbers for simple trend comparison."""
+    confidence_order = {
+        "Low": 1,
+        "Medium": 2,
+        "High": 3,
+    }
+
+    return confidence_order.get(confidence_label, 0)
+
+
+def describe_confidence_direction(latest_row, previous_row):
+    """Describe whether regime confidence is strengthening or weakening."""
+    latest_confidence = confidence_to_number(latest_row.get("confidence_level", ""))
+    previous_confidence = confidence_to_number(previous_row.get("confidence_level", ""))
+
+    if latest_confidence > previous_confidence:
+        return "strengthening"
+
+    if latest_confidence < previous_confidence:
+        return "weakening"
+
+    return "stable"
+
+
+def describe_market_signal_direction(latest_row, previous_row):
+    """Compare latest market-signal article count with the previous run."""
+    latest_count = safe_int(latest_row.get("market_signal_articles"))
+    previous_count = safe_int(previous_row.get("market_signal_articles"))
+    percentage_change = get_percentage_change(latest_count, previous_count)
+
+    if percentage_change >= 20:
+        return "increasing"
+
+    if percentage_change <= -20:
+        return "decreasing"
+
+    return "stable"
+
+
+def count_current_regime_persistence(rows):
+    """Count how many recent consecutive runs share the latest primary regime."""
+    if not rows:
+        return 0
+
+    current_regime = rows[-1].get("primary_regime", "")
+    persistence_count = 0
+
+    for row in reversed(rows):
+        if row.get("primary_regime", "") != current_regime:
+            break
+
+        persistence_count += 1
+
+    return persistence_count
+
+
+def get_regime_transition_label(rows):
+    """Create a simple transition label from recent regime history."""
+    if len(rows) < 2:
+        return "Insufficient History"
+
+    latest_row = rows[-1]
+    previous_row = rows[-2]
+    regime_changed = (
+        latest_row.get("primary_regime", "")
+        != previous_row.get("primary_regime", "")
+    )
+    confidence_direction = describe_confidence_direction(latest_row, previous_row)
+
+    if regime_changed:
+        return "Possible Regime Shift"
+
+    if confidence_direction == "strengthening":
+        return "Strengthening Regime"
+
+    if confidence_direction == "weakening":
+        return "Weakening Regime"
+
+    return "Persistent Regime"
+
+
+def build_regime_transition_interpretation(
+    current_regime,
+    regime_changed,
+    transition_label,
+):
+    """Generate strategy interpretation from the latest transition label."""
+    interpretations = []
+
+    if transition_label == "Insufficient History":
+        interpretations.append(
+            "More runs are needed before drawing strong conclusions about regime persistence or transition."
+        )
+        return interpretations
+
+    if regime_changed:
+        interpretations.append(
+            "The detected regime changed, so the team should verify whether this is a true market shift or a temporary news-flow effect."
+        )
+
+    if current_regime == "Selective Capital Re-entry":
+        interpretations.append(
+            "Selective Capital Re-entry persistence may indicate pricing discovery and renewed capital engagement by institutional players."
+        )
+    elif current_regime == "Financing Stress":
+        interpretations.append(
+            "Financing Stress persistence supports conservative underwriting and closer debt-sensitivity review."
+        )
+    elif current_regime == "Supply Pressure":
+        interpretations.append(
+            "Supply Pressure persistence calls for lease-up, concession, delivery, and vacancy monitoring."
+        )
+    elif current_regime == "Policy / Entitlement Watch":
+        interpretations.append(
+            "Policy / Entitlement Watch persistence points to zoning, permitting, entitlement, rent-control, or housing-production tracking."
+        )
+    elif current_regime == "Construction Cost Pressure":
+        interpretations.append(
+            "Construction Cost Pressure persistence suggests monitoring procurement, value engineering, labor, and material-cost assumptions."
+        )
+    elif current_regime == "Developer Strategy Shift":
+        interpretations.append(
+            "Developer Strategy Shift persistence may indicate changes in product strategy, partnerships, adaptive reuse, or delivery models."
+        )
+    else:
+        interpretations.append(
+            "A stable monitoring regime suggests continued review without an immediate strategy shift."
+        )
+
+    return interpretations
+
+
+def generate_regime_transition_report(dated_output_dir):
+    """
+    Generate output/regime_transition_report.md from output/regime_log.csv.
+
+    This report looks across recent runs, while narrative_regime.md explains
+    only the current run.
+    """
+    all_rows = read_regime_log_rows()
+    recent_rows = all_rows[-5:]
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    if not recent_rows:
+        lines = [
+            "# Regime Transition Report",
+            "",
+            f"Generated: {generated_at}",
+            "",
+            "## Summary",
+            "",
+            "- Transition label: Insufficient History",
+            "- No regime history is available yet.",
+            "",
+        ]
+        write_markdown_outputs(REGIME_TRANSITION_OUTPUT_FILE, lines, dated_output_dir)
+        return {
+            "current_regime": "None detected",
+            "previous_regime": "None detected",
+            "transition_label": "Insufficient History",
+            "persistence_count": 0,
+            "confidence_direction": "stable",
+            "market_signal_direction": "stable",
+        }
+
+    latest_row = recent_rows[-1]
+    previous_row = recent_rows[-2] if len(recent_rows) >= 2 else {}
+    current_regime = latest_row.get("primary_regime", "None detected")
+    previous_regime = previous_row.get("primary_regime", "None detected")
+    regime_changed = bool(previous_row) and current_regime != previous_regime
+    persistence_count = count_current_regime_persistence(all_rows)
+    transition_label = get_regime_transition_label(recent_rows)
+    confidence_direction = (
+        describe_confidence_direction(latest_row, previous_row)
+        if previous_row
+        else "stable"
+    )
+    market_signal_direction = (
+        describe_market_signal_direction(latest_row, previous_row)
+        if previous_row
+        else "stable"
+    )
+
+    lines = [
+        "# Regime Transition Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        "## Summary",
+        "",
+        f"- Current primary regime: {current_regime}",
+        f"- Previous primary regime: {previous_regime}",
+        f"- Regime changed: {'Yes' if regime_changed else 'No'}",
+        f"- Consecutive runs in current regime: {persistence_count}",
+        f"- Confidence direction: {confidence_direction}",
+        f"- Market signals direction: {market_signal_direction}",
+        f"- Transition label: {transition_label}",
+        "",
+        "## Recent Regime History",
+        "",
+        "| Run Timestamp | Primary Regime | Secondary Regime | Confidence | Market Signals | Top Strategic Angle | Top Market Focus | Top Market Signal |",
+        "| --- | --- | --- | --- | ---: | --- | --- | --- |",
+    ]
+
+    for row in recent_rows:
+        lines.append(
+            f"| {row.get('run_timestamp', '')} | "
+            f"{row.get('primary_regime', '')} | "
+            f"{row.get('secondary_regime', '') or 'None'} | "
+            f"{row.get('confidence_level', '')} | "
+            f"{row.get('market_signal_articles', '')} | "
+            f"{row.get('top_strategic_angle', '')} | "
+            f"{row.get('top_market_focus', '')} | "
+            f"{row.get('top_market_signal', '')} |"
+        )
+
+    lines.extend([
+        "",
+        "## Historical Persistence Summary",
+        "",
+        f"Regime and signal memory is available in `{os.path.basename(HISTORICAL_MEMORY_REPORT_OUTPUT_FILE)}`.",
+        f"Capital-flow memory is available in `{os.path.basename(CAPITAL_FLOW_REPORT_OUTPUT_FILE)}`.",
+        f"Recurring relationship tracking is available in `{os.path.basename(RELATIONSHIP_PERSISTENCE_REPORT_OUTPUT_FILE)}`.",
+        "",
+        "## Strategy Interpretation",
+        "",
+    ])
+
+    for interpretation in build_regime_transition_interpretation(
+        current_regime,
+        regime_changed,
+        transition_label,
+    ):
+        lines.append(f"- {interpretation}")
+
+    if market_signal_direction == "increasing":
+        lines.append(
+            "- Market-signal volume is increasing, so numeric market evidence deserves closer review."
+        )
+    elif market_signal_direction == "decreasing":
+        lines.append(
+            "- Market-signal volume is decreasing, so this run may contain fewer quantified market signals."
+        )
+    else:
+        lines.append(
+            "- Market-signal volume is stable compared with the previous run."
+        )
+
+    lines.append("")
+
+    write_markdown_outputs(REGIME_TRANSITION_OUTPUT_FILE, lines, dated_output_dir)
+
+    return {
+        "current_regime": current_regime,
+        "previous_regime": previous_regime,
+        "transition_label": transition_label,
+        "persistence_count": persistence_count,
+        "confidence_direction": confidence_direction,
+        "market_signal_direction": market_signal_direction,
+    }
+
+
+# ---------------------------------------------------------
+# 11. Report writers
+# ---------------------------------------------------------
+
+def split_labels(label_text):
+    """Split semicolon-separated CSV labels into a simple list."""
+    return [
+        label.strip()
+        for label in label_text.split(";")
+        if label.strip()
+    ]
+
+
+def most_common_label(articles, field_name):
+    """Find the most common label in a field such as strategic_angle."""
+    labels = []
+
+    for article in articles:
+        labels.extend(split_labels(article.get(field_name, "")))
+
+    if not labels:
+        return "None detected"
+
+    return Counter(labels).most_common(1)[0][0]
+
+
+def most_common_plain_value(rows, field_name, default_value="None detected"):
+    """Find the most common plain field value in row dictionaries."""
+    values = [
+        row.get(field_name, "")
+        for row in rows
+        if row.get(field_name)
+    ]
+
+    if not values:
+        return default_value
+
+    return Counter(values).most_common(1)[0][0]
+
+
+def count_labels(articles, field_name):
+    """Count semicolon-separated labels for weekly theme summaries."""
+    labels = []
+
+    for article in articles:
+        labels.extend(split_labels(article.get(field_name, "")))
+
+    return Counter(labels)
+
+
+def format_markdown_article(article):
+    """Create a readable Markdown block for one article."""
+    return "\n".join([
+        f"### {article['title']}",
+        "",
+        f"- Source: {article['source']}",
+        f"- Source category: {article.get('source_category', 'Uncategorized')}",
+        f"- Published: {article['published']}",
+        f"- URL: {article['url']}",
+        f"- Relevance score: {article['relevance_score']}",
+        f"- Action level: {article['action_level']}",
+        f"- Market focus: {article['market_focus']}",
+        f"- Strategic angle: {article['strategic_angle']}",
+        f"- Market signal: {article['market_signal']}",
+        f"- Strategic implication: {article['strategic_implication']}",
+        f"- Woomi relevance: {article['woomi_relevance']}",
+        f"- Recommended next step: {article['recommended_next_step']}",
+        "",
+    ])
+
+
+def add_article_section(lines, section_title, articles):
+    """Add a Markdown section and article blocks."""
+    lines.append(f"## {section_title}")
+    lines.append("")
+
+    if not articles:
+        lines.append("No articles in this section today.")
+        lines.append("")
+        return
+
+    for article in articles:
+        lines.append(format_markdown_article(article))
+
+
+def build_executive_summary(strategy_articles, market_signal_count):
+    """Build a short rule-based executive summary for the report."""
+    must_read_count = sum(
+        1 for article in strategy_articles
+        if article["action_level"] == "Must Read"
+    )
+    review_count = sum(
+        1 for article in strategy_articles
+        if article["action_level"] == "Review"
+    )
+    common_angle = most_common_label(strategy_articles, "strategic_angle")
+    common_market = most_common_label(strategy_articles, "market_focus")
+
+    if market_signal_count:
+        signal_sentence = f"Market signals were detected in {market_signal_count} article(s)."
+    else:
+        signal_sentence = "No clear numeric market signals were detected today."
+
+    return (
+        f"Today's strategy briefing is led by {common_angle} themes, with "
+        f"{common_market} as the most common market focus. The briefing includes "
+        f"{must_read_count} Must Read article(s) and {review_count} Review article(s). "
+        f"{signal_sentence}"
+    )
+
+
+def build_llm_analysis_prompt(article):
+    """
+    Build a structured prompt for a future LLM analysis layer.
+
+    This script does not call an LLM API. It only prepares prompt text that can
+    later be copied into an LLM or sent through a future API integration.
+    """
+    return "\n".join([
+        "You are a strategic research analyst for Woomi / Woomi Global.",
+        "Analyze the following US multifamily housing article for developer strategy.",
+        "",
+        "Article context:",
+        f"- Title: {article['title']}",
+        f"- Source: {article['source']}",
+        f"- URL: {article['url']}",
+        f"- Market focus: {article['market_focus']}",
+        f"- Strategic angle: {article['strategic_angle']}",
+        f"- Market signal: {article['market_signal']}",
+        f"- Extracted numbers: {article['extracted_numbers'] or 'None detected'}",
+        f"- Strategic implication: {article['strategic_implication']}",
+        f"- Woomi relevance: {article['woomi_relevance']}",
+        "",
+        "Please answer in concise bullet points:",
+        "1. Why does this article matter for a US multifamily developer?",
+        "2. What is the implication for Woomi / Woomi Global?",
+        "3. What risk or opportunity does this indicate?",
+        "4. What follow-up question should the strategy team ask?",
+    ])
+
+
+def get_llm_prompt_quality_label(score):
+    """Convert a prompt quality score into a simple label."""
+    if score >= 85:
+        return "Excellent"
+
+    if score >= 70:
+        return "Good"
+
+    if score >= 50:
+        return "Needs Improvement"
+
+    return "Poor"
+
+
+def evaluate_llm_prompt_quality(article):
+    """
+    Score prompt quality from 0 to 100 before any paid API integration.
+
+    The score rewards clear context fields and the four required analysis
+    questions. Missing or weak context is also listed for review.
+    """
+    prompt = article.get("llm_analysis_prompt", "")
+    missing_context = []
+    score = 0
+
+    context_checks = [
+        ("title", article.get("title"), 8, "missing title"),
+        ("source", article.get("source"), 8, "missing source"),
+        ("url", article.get("url"), 8, "missing URL"),
+        ("market_focus", article.get("market_focus"), 8, "missing market focus"),
+        ("strategic_angle", article.get("strategic_angle"), 10, "missing strategic angle"),
+        ("market_signal", article.get("market_signal"), 8, "missing market signal"),
+        ("extracted_numbers", article.get("extracted_numbers"), 8, "missing extracted numbers"),
+        ("strategic_implication", article.get("strategic_implication"), 12, "missing strategic implication"),
+        ("woomi_relevance", article.get("woomi_relevance"), 8, "missing Woomi relevance"),
+    ]
+
+    for _field_name, value, points, missing_label in context_checks:
+        if value and value not in ["Other / Unknown", "No Clear Numeric Signal"]:
+            score += points
+        else:
+            missing_context.append(missing_label)
+
+    question_checks = [
+        "Why does this article matter for a US multifamily developer?",
+        "What is the implication for Woomi / Woomi Global?",
+        "What risk or opportunity does this indicate?",
+        "What follow-up question should the strategy team ask?",
+    ]
+
+    for question in question_checks:
+        if question in prompt:
+            score += 5
+        else:
+            missing_context.append("missing follow-up questions")
+
+    score = min(score, 100)
+
+    if not missing_context:
+        missing_context.append("None")
+
+    return score, get_llm_prompt_quality_label(score), "; ".join(sorted(set(missing_context)))
+
+
+def generate_llm_prompt_pack(strategy_briefing_articles, dated_output_dir):
+    """Write one LLM-ready prompt per strategy-briefing article."""
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = [
+        "# LLM Prompt Pack for US Multifamily Strategy Analysis",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        "## Instructions",
+        "",
+        "This file prepares prompts for a future GPT-based analysis layer.",
+        "The current MVP does not call a paid LLM API.",
+        "Copy one prompt at a time into an LLM, or use this file later as input for an API workflow.",
+        "",
+        f"Prompt count: {len(strategy_briefing_articles)}",
+        "",
+    ]
+
+    for index, article in enumerate(strategy_briefing_articles, start=1):
+        lines.extend([
+            f"## Prompt {index}: {article['title']}",
+            "",
+            f"- Quality score: {article['llm_prompt_quality_score']}",
+            f"- Quality label: {article['llm_prompt_quality_label']}",
+            f"- Missing context: {article['missing_prompt_context']}",
+            "",
+            "```text",
+            article["llm_analysis_prompt"],
+            "```",
+            "",
+        ])
+
+    write_markdown_outputs(LLM_PROMPT_PACK_OUTPUT_FILE, lines, dated_output_dir)
+
+
+def generate_llm_prompt_quality_report(strategy_briefing_articles, dated_output_dir):
+    """Write a Markdown report that summarizes prompt readiness."""
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    reviewed_count = len(strategy_briefing_articles)
+
+    if reviewed_count:
+        average_score = round(
+            sum(
+                article["llm_prompt_quality_score"]
+                for article in strategy_briefing_articles
+            ) / reviewed_count,
+            1,
+        )
+    else:
+        average_score = 0
+
+    label_counts = Counter(
+        article["llm_prompt_quality_label"]
+        for article in strategy_briefing_articles
+    )
+    strongest_prompts = sorted(
+        strategy_briefing_articles,
+        key=lambda article: article["llm_prompt_quality_score"],
+        reverse=True,
+    )[:5]
+    weakest_prompts = sorted(
+        strategy_briefing_articles,
+        key=lambda article: article["llm_prompt_quality_score"],
+    )[:5]
+    missing_items = []
+
+    for article in strategy_briefing_articles:
+        missing_items.extend(split_labels(article.get("missing_prompt_context", "")))
+
+    missing_counts = Counter(
+        item for item in missing_items
+        if item != "None"
+    )
+
+    lines = [
+        "# LLM Prompt Quality Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total prompts reviewed: {reviewed_count}",
+        f"- Average prompt quality score: {average_score}",
+        f"- Excellent prompts: {label_counts.get('Excellent', 0)}",
+        f"- Good prompts: {label_counts.get('Good', 0)}",
+        f"- Needs Improvement prompts: {label_counts.get('Needs Improvement', 0)}",
+        f"- Poor prompts: {label_counts.get('Poor', 0)}",
+        "",
+        "## Top 5 Strongest Prompts",
+        "",
+    ]
+
+    for article in strongest_prompts:
+        lines.append(
+            f"- {article['llm_prompt_quality_score']} "
+            f"({article['llm_prompt_quality_label']}): {article['title']}"
+        )
+
+    lines.extend(["", "## Top 5 Weakest Prompts", ""])
+
+    for article in weakest_prompts:
+        lines.append(
+            f"- {article['llm_prompt_quality_score']} "
+            f"({article['llm_prompt_quality_label']}): {article['title']} "
+            f"- Missing: {article['missing_prompt_context']}"
+        )
+
+    lines.extend(["", "## Common Missing Context Issues", ""])
+
+    if not missing_counts:
+        lines.append("- No common missing context issues detected.")
+    else:
+        for issue, count in missing_counts.most_common():
+            lines.append(f"- {issue}: {count}")
+
+    lines.append("")
+
+    write_markdown_outputs(
+        LLM_PROMPT_QUALITY_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+
+def run_openai_analysis(strategy_briefing_articles):
+    """
+    Optionally run GPT analysis for the top strategy-briefing articles.
+
+    This function is safe by default:
+    - It does nothing unless USE_OPENAI_ANALYSIS is True.
+    - It reads OPENAI_API_KEY from the environment.
+    - It never hardcodes an API key.
+    - If anything is missing, the script prints a warning and continues.
+    """
+    for article in strategy_briefing_articles:
+        article["gpt_strategic_analysis"] = "GPT analysis not enabled"
+
+    if not USE_OPENAI_ANALYSIS:
+        return 0, "GPT analysis was not enabled."
+
+    api_key = os.getenv("OPENAI_API_KEY")
+
+    if not api_key:
+        print("[Warning] USE_OPENAI_ANALYSIS=True, but OPENAI_API_KEY is missing. Skipping GPT analysis.")
+
+        for article in strategy_briefing_articles:
+            article["gpt_strategic_analysis"] = "GPT analysis skipped: missing OPENAI_API_KEY"
+
+        return 0, "GPT analysis skipped because OPENAI_API_KEY was missing."
+
+    try:
+        from openai import OpenAI
+    except ImportError:
+        print("[Warning] USE_OPENAI_ANALYSIS=True, but the openai package is not installed. Run: pip install openai")
+
+        for article in strategy_briefing_articles:
+            article["gpt_strategic_analysis"] = "GPT analysis skipped: openai package not installed"
+
+        return 0, "GPT analysis skipped because the openai package was not installed."
+
+    client = OpenAI(api_key=api_key)
+    analyzed_count = 0
+    articles_to_analyze = strategy_briefing_articles[:MAX_GPT_ARTICLES]
+
+    for article in articles_to_analyze:
+        try:
+            response = client.responses.create(
+                model=OPENAI_MODEL,
+                input=(
+                    article["llm_analysis_prompt"]
+                    + "\n\nReturn a concise analysis with these headings:\n"
+                    + "1. Why this matters\n"
+                    + "2. Woomi / Woomi Global implication\n"
+                    + "3. Risk or opportunity\n"
+                    + "4. Follow-up question"
+                ),
+            )
+            article["gpt_strategic_analysis"] = response.output_text.strip()
+            analyzed_count += 1
+
+        except Exception as error:
+            article["gpt_strategic_analysis"] = f"GPT analysis failed: {error}"
+
+    for article in strategy_briefing_articles[MAX_GPT_ARTICLES:]:
+        article["gpt_strategic_analysis"] = "GPT analysis not run for this article"
+
+    return analyzed_count, "GPT analysis completed."
+
+
+def generate_gpt_analysis_preview(
+    strategy_briefing_articles,
+    analyzed_count,
+    status_message,
+    dated_output_dir,
+):
+    """Write a Markdown preview of optional GPT analysis results."""
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = [
+        "# GPT Strategic Analysis Preview",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- GPT mode enabled: {USE_OPENAI_ANALYSIS}",
+        f"- Model: {OPENAI_MODEL}",
+        f"- Max GPT articles: {MAX_GPT_ARTICLES}",
+        f"- GPT-analyzed articles: {analyzed_count}",
+        f"- Status: {status_message}",
+        "",
+    ]
+
+    if not USE_OPENAI_ANALYSIS:
+        lines.extend([
+            "## Note",
+            "",
+            "GPT analysis was not enabled. The CSV column `gpt_strategic_analysis` was filled with `GPT analysis not enabled`.",
+            "Set `USE_OPENAI_ANALYSIS = True` and provide `OPENAI_API_KEY` later to enable this optional paid analysis mode.",
+            "",
+        ])
+    else:
+        lines.append("## GPT Analysis Results")
+        lines.append("")
+
+        analyzed_articles = [
+            article for article in strategy_briefing_articles
+            if article["gpt_strategic_analysis"]
+            and not article["gpt_strategic_analysis"].startswith("GPT analysis not run")
+        ]
+
+        if not analyzed_articles:
+            lines.append("No GPT analysis results were generated.")
+            lines.append("")
+        else:
+            for article in analyzed_articles:
+                lines.extend([
+                    f"### {article['title']}",
+                    "",
+                    f"- Source: {article['source']}",
+                    f"- URL: {article['url']}",
+                    "",
+                    article["gpt_strategic_analysis"],
+                    "",
+                ])
+
+    write_markdown_outputs(GPT_ANALYSIS_PREVIEW_OUTPUT_FILE, lines, dated_output_dir)
+
+
+def generate_markdown_report(
+    articles,
+    high_priority_articles,
+    market_signal_articles,
+    strategy_briefing_articles,
+    dated_output_dir,
+):
+    """Generate a human-readable daily strategy briefing in Markdown."""
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = [
+        "# US Multifamily Daily Strategy Briefing",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total saved articles: {len(articles)}",
+        f"- High-priority article count: {len(high_priority_articles)}",
+        f"- Market-signal article count: {len(market_signal_articles)}",
+        f"- Strategy-briefing article count: {len(strategy_briefing_articles)}",
+        "",
+        "## Executive Summary",
+        "",
+        build_executive_summary(
+            strategy_briefing_articles,
+            len(market_signal_articles),
+        ),
+        "",
+        f"LLM-ready prompts are available in `{os.path.basename(LLM_PROMPT_PACK_OUTPUT_FILE)}`.",
+        "",
+    ]
+
+    must_read_articles = [
+        article for article in strategy_briefing_articles
+        if article["action_level"] == "Must Read"
+    ]
+    financing_articles = [
+        article for article in strategy_briefing_articles
+        if "Financing Risk" in article["strategic_angle"]
+        or article["market_signal"] in ["Financing Cost Signal", "Cap Rate Signal"]
+    ]
+    supply_demand_articles = [
+        article for article in strategy_briefing_articles
+        if "Supply Pressure" in article["strategic_angle"]
+        or "Rent Growth / Demand" in article["strategic_angle"]
+        or article["market_signal"] in [
+            "Supply / Starts Signal",
+            "Rent Growth Signal",
+            "Vacancy Signal",
+            "Concession Signal",
+        ]
+    ]
+    policy_articles = [
+        article for article in strategy_briefing_articles
+        if "Regulation Risk" in article["strategic_angle"]
+    ]
+    institutional_articles = [
+        article for article in strategy_briefing_articles
+        if "Institutional Flow" in article["strategic_angle"]
+        or article["market_signal"] == "Deal Size Signal"
+    ]
+    developer_articles = [
+        article for article in strategy_briefing_articles
+        if "Developer Strategy" in article["strategic_angle"]
+        or "Cost Control" in article["strategic_angle"]
+        or article["market_signal"] == "Construction Cost Signal"
+    ]
+
+    add_article_section(lines, "Must Read Articles", must_read_articles)
+    add_article_section(lines, "Key Market Signals", market_signal_articles)
+    add_article_section(lines, "Financing / Capital Markets", financing_articles)
+    add_article_section(lines, "Supply / Demand", supply_demand_articles)
+    add_article_section(lines, "Policy / Regulation", policy_articles)
+    add_article_section(lines, "Institutional Flow / Deals", institutional_articles)
+    add_article_section(lines, "Developer Strategy / Innovation", developer_articles)
+
+    lines.append("## Recommended Follow-up Items")
+    lines.append("")
+
+    follow_up_articles = [
+        article for article in strategy_briefing_articles
+        if article["recommended_next_step"] in [
+            "Read full article",
+            "Add to weekly strategy memo",
+            "Track source for follow-up",
+        ]
+    ]
+
+    if not follow_up_articles:
+        lines.append("No follow-up items today.")
+        lines.append("")
+    else:
+        for article in follow_up_articles:
+            lines.append(
+                f"- {article['recommended_next_step']}: "
+                f"{article['title']} ({article['source']})"
+            )
+        lines.append("")
+
+    write_markdown_outputs(DAILY_BRIEFING_OUTPUT_FILE, lines, dated_output_dir)
+
+
+def format_weekly_article_bullet(article):
+    """Create a compact article bullet for the weekly memo."""
+    return (
+        f"- {article['title']} ({article['source']}, "
+        f"{article.get('source_category', 'Uncategorized')}, score "
+        f"{article['relevance_score']}, {article['action_level']}): "
+        f"{article['strategic_implication']} [Link]({article['url']})"
+    )
+
+
+def build_weekly_takeaways(strategy_articles, market_signal_articles):
+    """Generate 3 to 5 rule-based executive takeaways."""
+    must_read_count = sum(
+        1 for article in strategy_articles
+        if article["action_level"] == "Must Read"
+    )
+    high_woomi_count = sum(
+        1 for article in strategy_articles
+        if article["woomi_relevance"] == "High relevance to US residential developer strategy"
+    )
+    common_angle = most_common_label(strategy_articles, "strategic_angle")
+    common_market = most_common_label(strategy_articles, "market_focus")
+    common_signal = most_common_label(market_signal_articles, "market_signal")
+    decision_counts = count_labels(strategy_articles, "decision_use")
+    repeated_decisions = [
+        label for label, count in decision_counts.most_common(3)
+        if count >= 2
+    ]
+
+    takeaways = [
+        f"The most common strategic theme is {common_angle}, suggesting this should be the first weekly review lens.",
+        f"The most common market focus is {common_market}, based on the current strategy-briefing article set.",
+        f"The memo includes {must_read_count} Must Read article(s) and {high_woomi_count} high-Woomi-relevance article(s).",
+    ]
+
+    if common_signal != "None detected":
+        takeaways.append(
+            f"The most common numeric market signal is {common_signal}, based on market-signal articles."
+        )
+    else:
+        takeaways.append("No repeated numeric market signal dominated this week's filtered articles.")
+
+    if repeated_decisions:
+        takeaways.append(
+            "Repeated decision-use labels include "
+            + ", ".join(repeated_decisions)
+            + "."
+        )
+
+    return takeaways[:5]
+
+
+def add_weekly_article_section(lines, section_title, articles):
+    """Add a compact weekly memo section."""
+    lines.append(f"## {section_title}")
+    lines.append("")
+
+    if not articles:
+        lines.append("No major items in this section.")
+        lines.append("")
+        return
+
+    for article in articles[:10]:
+        lines.append(format_weekly_article_bullet(article))
+
+    lines.append("")
+
+
+def add_key_themes_section(lines, strategy_articles):
+    """Group articles by strategic angle and summarize each group briefly."""
+    lines.append("## Key Themes This Week")
+    lines.append("")
+
+    theme_counts = count_labels(strategy_articles, "strategic_angle")
+
+    if not theme_counts:
+        lines.append("No dominant strategic themes were detected.")
+        lines.append("")
+        return
+
+    for theme, count in theme_counts.most_common():
+        theme_articles = [
+            article for article in strategy_articles
+            if theme in split_labels(article["strategic_angle"])
+        ]
+        top_article = theme_articles[0]["title"] if theme_articles else "No title"
+        lines.append(
+            f"- {theme}: {count} article(s). Top example: {top_article}."
+        )
+
+    lines.append("")
+
+
+def build_woomi_implications(strategy_articles, market_signal_articles):
+    """Generate rule-based implications for Woomi / US developer strategy."""
+    implications = []
+    signal_counts = count_labels(market_signal_articles, "market_signal")
+    market_counts = count_labels(strategy_articles, "market_focus")
+    angle_counts = count_labels(strategy_articles, "strategic_angle")
+
+    financing_count = (
+        signal_counts.get("Financing Cost Signal", 0)
+        + signal_counts.get("Cap Rate Signal", 0)
+    )
+    supply_count = signal_counts.get("Supply / Starts Signal", 0)
+    deal_count = signal_counts.get("Deal Size Signal", 0)
+    california_count = (
+        market_counts.get("Los Angeles", 0)
+        + market_counts.get("California", 0)
+    )
+    policy_in_california = [
+        article for article in strategy_articles
+        if "Regulation Risk" in article["strategic_angle"]
+        and article["market_focus"] in ["Los Angeles", "California"]
+    ]
+
+    if financing_count >= 2:
+        implications.append(
+            "Use conservative underwriting if financing or cap-rate signals remain frequent."
+        )
+
+    if supply_count >= 2 or angle_counts.get("Supply Pressure", 0) >= 2:
+        implications.append(
+            "Monitor supply pressure closely if starts, deliveries, or pipeline signals keep appearing."
+        )
+
+    if california_count >= 2:
+        implications.append(
+            "Prioritize Los Angeles and California tracking because those market-focus labels appeared repeatedly."
+        )
+
+    if deal_count >= 2 or angle_counts.get("Institutional Flow", 0) >= 2:
+        implications.append(
+            "Track institutional flow because deal and capital-market signals appeared multiple times."
+        )
+
+    if policy_in_california:
+        implications.append(
+            "Review entitlement and zoning opportunities because policy signals appeared in California or Los Angeles."
+        )
+
+    if not implications:
+        implications.append(
+            "Keep monitoring the filtered article set before making major strategy changes."
+        )
+
+    return implications
+
+
+def generate_weekly_strategy_memo(
+    articles,
+    high_priority_articles,
+    market_signal_articles,
+    strategy_briefing_articles,
+    dated_output_dir,
+):
+    """
+    Generate a weekly Markdown memo from strategy and market-signal data.
+
+    The memo is built from the same data written to strategy_briefing.csv and
+    market_signals.csv, but avoids re-reading files to keep the script simple.
+    """
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = [
+        "# US Multifamily Weekly Strategy Memo",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total articles reviewed: {len(articles)}",
+        f"- High-priority article count: {len(high_priority_articles)}",
+        f"- Market-signal article count: {len(market_signal_articles)}",
+        f"- Strategy-briefing article count: {len(strategy_briefing_articles)}",
+        f"- LLM prompt pack: {os.path.basename(LLM_PROMPT_PACK_OUTPUT_FILE)}",
+        "",
+        "## Executive Takeaways",
+        "",
+    ]
+
+    for takeaway in build_weekly_takeaways(
+        strategy_briefing_articles,
+        market_signal_articles,
+    ):
+        lines.append(f"- {takeaway}")
+
+    lines.append("")
+
+    lines.append("## Trend Alert Summary")
+    lines.append("")
+    lines.append(
+        f"Trend alerts are available in `{os.path.basename(TREND_ALERTS_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to compare this run against the previous run in `run_log.csv`."
+    )
+    lines.append("")
+
+    lines.append("## Thematic Trend Summary")
+    lines.append("")
+    lines.append(
+        f"Thematic trend intelligence is available in `{os.path.basename(THEMATIC_TRENDS_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to see which themes, markets, signals, and decision-use labels are increasing or decreasing."
+    )
+    lines.append("")
+
+    lines.append("## Narrative Regime Summary")
+    lines.append("")
+    lines.append(
+        f"Narrative regime detection is available in `{os.path.basename(NARRATIVE_REGIME_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to translate theme counts into a current market-regime view for strategy discussion."
+    )
+    lines.append("")
+
+    lines.append("## Regime Transition Summary")
+    lines.append("")
+    lines.append(
+        f"Multi-run regime tracking is available in `{os.path.basename(REGIME_TRANSITION_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to see whether the current narrative regime is persisting, strengthening, weakening, or shifting."
+    )
+    lines.append("")
+
+    lines.append("## Regime Heatmap Summary")
+    lines.append("")
+    lines.append(
+        f"Calibrated regime scores are available in `{os.path.basename(REGIME_HEATMAP_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to compare all regimes on a 0-100 scale instead of reading only the top narrative label."
+    )
+    lines.append("")
+
+    lines.append("## Regime Momentum Summary")
+    lines.append("")
+    lines.append(
+        f"Regime momentum analysis is available in `{os.path.basename(REGIME_MOMENTUM_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to see whether calibrated regime scores are accelerating, improving, stable, weakening, or fading."
+    )
+    lines.append("")
+
+    lines.append("## Narrative Severity Summary")
+    lines.append("")
+    lines.append(
+        f"Narrative severity and conviction scoring is available in `{os.path.basename(NARRATIVE_SEVERITY_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to decide which regimes deserve immediate attention, weekly review, monitoring, or background awareness."
+    )
+    lines.append("")
+
+    lines.append("## Materiality / Impact Summary")
+    lines.append("")
+    lines.append(
+        f"Business materiality and impact assessment is available in `{os.path.basename(MATERIALITY_IMPACT_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to map regime signals to underwriting, financing, partnerships, capital markets, LA / California strategy, and operations."
+    )
+    lines.append("")
+
+    lines.append("## Executive Priority Summary")
+    lines.append("")
+    lines.append(
+        f"Forced-ranked executive priorities are available in `{os.path.basename(EXECUTIVE_PRIORITY_BRIEF_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that brief as the first management-facing agenda view for the current run."
+    )
+    lines.append("")
+
+    lines.append("## Scenario Summary")
+    lines.append("")
+    lines.append(
+        f"Base, Bull, and Bear strategy scenarios are available in `{os.path.basename(STRATEGY_SCENARIO_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to pressure-test the current executive priorities against upside and downside market paths."
+    )
+    lines.append("")
+
+    lines.append("## Regional Intelligence Summary")
+    lines.append("")
+    lines.append(
+        f"Regional and city-level intelligence is available in `{os.path.basename(REGIONAL_INTELLIGENCE_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to compare LA / California, Sun Belt, coastal, and national market signals."
+    )
+    lines.append("")
+
+    lines.append("## GP / Developer Intelligence Summary")
+    lines.append("")
+    lines.append(
+        f"Developer and GP platform intelligence is available in `{os.path.basename(GP_INTELLIGENCE_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to track major multifamily platforms, capital behavior, innovation, and possible partnership signals."
+    )
+    lines.append("")
+
+    lines.append("## Institutional Relationship Summary")
+    lines.append("")
+    lines.append(
+        f"Institutional relationship and capital-flow intelligence is available in `{os.path.basename(INSTITUTIONAL_RELATIONSHIP_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to assess firm tiers, capital-flow signals, partnership relevance, and pricing-discovery references."
+    )
+    lines.append("")
+
+    lines.append("## Deal / Project Pipeline Summary")
+    lines.append("")
+    lines.append(
+        f"Deal and project extraction is available in `{os.path.basename(DEAL_PIPELINE_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to track acquisitions, financing, refinancing, JV activity, development starts, and project pipeline signals."
+    )
+    lines.append("")
+
+    lines.append("## Relationship Graph Summary")
+    lines.append("")
+    lines.append(
+        f"Developer, lender, capital partner, market, and project network edges are available in `{os.path.basename(RELATIONSHIP_GRAPH_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to see which firms, lenders, capital partners, projects, and markets are connected through current deal flow."
+    )
+    lines.append("")
+
+    lines.append("## Residential Sector Coverage Summary")
+    lines.append("")
+    lines.append(
+        f"Broader residential sector coverage is available in `{os.path.basename(RESIDENTIAL_SECTOR_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to compare multifamily, apartment, student housing, senior housing, BTR / SFR, affordable housing, mixed-use, and conversion signals."
+    )
+    lines.append("")
+
+    lines.append("## Emerging GP Watchlist Summary")
+    lines.append("")
+    lines.append(
+        f"Emerging GP ranking and partnership watchlist signals are available in `{os.path.basename(GP_WATCHLIST_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to identify rising developers, capital magnets, LA / California watch names, innovation-oriented platforms, and possible Woomi partnership candidates."
+    )
+    lines.append("")
+
+    lines.append("## GP Source Coverage Summary")
+    lines.append("")
+    lines.append(
+        f"Developer / GP source expansion coverage is available in `{os.path.basename(GP_SOURCE_COVERAGE_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to see which GP, lender, BTR / SFR, student housing, and senior housing source feeds are working or still need manual review."
+    )
+    lines.append("")
+
+    lines.append("## Source Activation Summary")
+    lines.append("")
+    lines.append(
+        f"Validated source activation scoring is available in `{os.path.basename(SOURCE_ACTIVATION_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to review working feeds, failed critical sources, manual-review queues, and the source quality leaderboard."
+    )
+    lines.append("")
+
+    lines.append("## Historical Persistence Summary")
+    lines.append("")
+    lines.append(
+        f"Multi-run institutional memory is available in `{os.path.basename(HISTORICAL_MEMORY_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to see recurring GPs, lenders, markets, sectors, regimes, and deal/project signals across runs."
+    )
+    lines.append("")
+
+    lines.append("## Capital Flow Memory Summary")
+    lines.append("")
+    lines.append(
+        f"Capital-flow memory is available in `{os.path.basename(CAPITAL_FLOW_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to monitor recurring lenders, refinancing stress, construction lending clusters, and capital concentration by market."
+    )
+    lines.append("")
+
+    lines.append("## Recurring Relationship Summary")
+    lines.append("")
+    lines.append(
+        f"Relationship persistence intelligence is available in `{os.path.basename(RELATIONSHIP_PERSISTENCE_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to identify repeat GP/lender/capital relationships and durable partnership patterns."
+    )
+    lines.append("")
+
+    lines.append("## Opportunity / Distress Radar Summary")
+    lines.append("")
+    lines.append(
+        f"Acquisition and partnership opportunity radar is available in `{os.path.basename(OPPORTUNITY_RADAR_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        f"Distress and refinancing stress watchlist is available in `{os.path.basename(DISTRESS_WATCHLIST_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        f"Canonical deal fingerprints and dedupe checks are available in `{os.path.basename(DEAL_FINGERPRINT_REPORT_OUTPUT_FILE)}` and `{os.path.basename(OPPORTUNITY_DEDUPLICATION_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        f"Timing intelligence and market entry windows are available in `{os.path.basename(TIMING_INTELLIGENCE_REPORT_OUTPUT_FILE)}` and `{os.path.basename(MARKET_ENTRY_WINDOW_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        f"Entitlement intelligence and LA entitlement watch are available in `{os.path.basename(ENTITLEMENT_INTELLIGENCE_REPORT_OUTPUT_FILE)}` and `{os.path.basename(LA_ENTITLEMENT_WATCH_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        f"Submarket and LA parcel-level watch outputs are available in `{os.path.basename(SUBMARKET_INTELLIGENCE_REPORT_OUTPUT_FILE)}` and `{os.path.basename(LA_SUBMARKET_WATCH_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        f"Asset / parcel intelligence is available in `{os.path.basename(ASSET_PARCEL_INTELLIGENCE_REPORT_OUTPUT_FILE)}` and `{os.path.basename(LA_ASSET_WATCH_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append("")
+
+    lines.append("## Source Health Summary")
+    lines.append("")
+    lines.append(
+        f"Source coverage and feed health are available in `{os.path.basename(SOURCE_HEALTH_REPORT_OUTPUT_FILE)}`."
+    )
+    lines.append(
+        "Use that report to see which institutional, GP, brokerage, public-agency, and regional sources are producing useful signals."
+    )
+    lines.append("")
+
+    add_key_themes_section(lines, strategy_briefing_articles)
+
+    financing_articles = [
+        article for article in strategy_briefing_articles
+        if "Financing Risk" in article["strategic_angle"]
+        or article["market_signal"] in ["Financing Cost Signal", "Cap Rate Signal"]
+    ]
+    supply_demand_articles = [
+        article for article in strategy_briefing_articles
+        if "Supply Pressure" in article["strategic_angle"]
+        or "Rent Growth / Demand" in article["strategic_angle"]
+        or article["market_signal"] in [
+            "Supply / Starts Signal",
+            "Rent Growth Signal",
+            "Vacancy Signal",
+            "Concession Signal",
+        ]
+    ]
+    policy_articles = [
+        article for article in strategy_briefing_articles
+        if "Regulation Risk" in article["strategic_angle"]
+    ]
+    institutional_articles = [
+        article for article in strategy_briefing_articles
+        if "Institutional Flow" in article["strategic_angle"]
+        or article["market_signal"] == "Deal Size Signal"
+    ]
+    developer_articles = [
+        article for article in strategy_briefing_articles
+        if "Developer Strategy" in article["strategic_angle"]
+        or "Cost Control" in article["strategic_angle"]
+        or article["market_signal"] == "Construction Cost Signal"
+    ]
+
+    add_weekly_article_section(lines, "Financing & Capital Markets", financing_articles)
+    add_weekly_article_section(lines, "Supply / Demand Signals", supply_demand_articles)
+    add_weekly_article_section(lines, "Policy & Regulation Watch", policy_articles)
+    add_weekly_article_section(lines, "Institutional Flow / Deals", institutional_articles)
+    add_weekly_article_section(lines, "Developer Strategy / Innovation", developer_articles)
+
+    lines.append("## Implications for Woomi / US Residential Developer Strategy")
+    lines.append("")
+
+    for implication in build_woomi_implications(
+        strategy_briefing_articles,
+        market_signal_articles,
+    ):
+        lines.append(f"- {implication}")
+
+    lines.append("")
+    lines.append("## Recommended Follow-up Actions")
+    lines.append("")
+
+    follow_up_articles = [
+        article for article in strategy_briefing_articles
+        if article["recommended_next_step"] in [
+            "Read full article",
+            "Add to weekly strategy memo",
+            "Track source for follow-up",
+        ]
+    ]
+
+    if not follow_up_articles:
+        lines.append("- No follow-up actions this week.")
+    else:
+        for article in follow_up_articles:
+            lines.append(
+                f"- {article['recommended_next_step']}: "
+                f"{article['title']} ({article['source']})"
+            )
+
+    lines.append("")
+
+    write_markdown_outputs(WEEKLY_MEMO_OUTPUT_FILE, lines, dated_output_dir)
+
+
+CRITICAL_GP_SOURCE_NAMES = {
+    "Greystar",
+    "Blackstone",
+    "Brookfield",
+    "Kennedy Wilson",
+    "Hines",
+    "PGIM",
+    "Nuveen",
+    "KKR",
+    "Carlyle",
+    "Apollo",
+    "Greystone",
+    "Berkadia",
+    "Walker & Dunlop",
+    "CBRE",
+    "JLL",
+    "Freddie Mac",
+    "Fannie Mae",
+}
+
+TIER_2_SOURCE_NAMES = {
+    "Invitation Homes",
+    "American Homes 4 Rent",
+    "Progress Residential",
+    "Tricon Residential",
+    "Pretium",
+    "NexMetro",
+    "Christopher Todd",
+    "Core Spaces",
+    "Landmark",
+    "Dinerstein",
+    "LV Collective",
+    "CA Ventures",
+    "Gilbane",
+    "Harrison Street",
+    "Scion",
+    "American Campus",
+    "Welltower",
+    "Ventas",
+    "Brookdale",
+    "Atria",
+    "Sunrise",
+    "Erickson",
+    "Discovery Senior",
+    "Bridge Investment",
+    "Avenue Development",
+    "Sparrow",
+}
+
+TIER_1_PLATFORM_TYPES = {
+    "Multifamily Developer / Operator",
+    "Institutional Capital Platform",
+    "Lender / Debt Platform",
+    "Brokerage / Advisor",
+}
+
+
+def source_name_contains_any(source_name, names):
+    """Check whether a source name contains one of the important firm names."""
+    lowered_name = source_name.lower()
+    return any(name.lower() in lowered_name for name in names)
+
+
+def infer_source_sector_focus(platform_type, source_articles):
+    """Infer residential sector focus from platform type and saved articles."""
+    article_sector = most_common_plain_value(
+        source_articles,
+        "residential_sector",
+        "",
+    )
+    if article_sector:
+        return article_sector
+    if platform_type == "BTR / SFR Platform":
+        return "BTR / Single-Family Rental"
+    if platform_type == "Student Housing Platform":
+        return "Student Housing"
+    if platform_type == "Senior Housing Platform":
+        return "Senior Housing"
+    if platform_type == "Multifamily Developer / Operator":
+        return "Multifamily"
+    if platform_type in ["Lender / Debt Platform", "Institutional Capital Platform", "Brokerage / Advisor"]:
+        return "General Residential"
+    return "General Residential"
+
+
+def get_gp_source_priority(source_name, platform_type, fetch_status, entries_found, articles_saved, source_url):
+    """Assign a beginner-friendly source priority label."""
+    if not source_url:
+        return "Placeholder / Needs Review"
+
+    is_critical = (
+        source_name_contains_any(source_name, CRITICAL_GP_SOURCE_NAMES)
+        or platform_type in ["Institutional Capital Platform", "Lender / Debt Platform"]
+    )
+
+    if is_critical and (fetch_status == "OK" or articles_saved > 0):
+        return "Critical Source"
+    if is_critical:
+        return "High Priority Source"
+    if articles_saved > 0:
+        return "Useful Source"
+    if entries_found > 0:
+        return "Watch Source"
+    return "High Priority Source" if platform_type != "Other" else "Watch Source"
+
+
+def build_gp_source_coverage_rows(run_timestamp, articles):
+    """Build GP/developer source coverage rows from source health plus metadata."""
+    rows = []
+
+    for health_row in SOURCE_HEALTH_ROWS:
+        source_name = health_row["source_name"]
+        source_category = health_row["source_category"]
+        if source_category not in ["Developer / GP Newsrooms", GP_SOURCE_EXPANSION_CATEGORY, "Brokerage / Debt / Research", "Institutional Real Estate / Capital Markets"]:
+            continue
+
+        platform_type = health_row.get("platform_type", "Other")
+        source_articles = [
+            article for article in articles
+            if article.get("source") == source_name
+        ]
+        gp_related_articles = [
+            article for article in source_articles
+            if article.get("strategic_angle") in ["Institutional Flow", "Developer Strategy"]
+            or article.get("decision_use") in ["Track Developer Strategy", "Track Institutional Capital Flow"]
+        ]
+        priority = get_gp_source_priority(
+            source_name,
+            platform_type,
+            health_row["fetch_status"],
+            safe_int(health_row["entries_found"]),
+            safe_int(health_row["articles_saved"]),
+            health_row["source_url"],
+        )
+        needs_review = priority == "Placeholder / Needs Review" or health_row["fetch_status"] == "Failed"
+        if priority == "Placeholder / Needs Review":
+            notes = "Confirm whether a public newsroom, RSS, press release, or insights feed exists."
+        elif health_row["fetch_status"] == "OK" and safe_int(health_row["articles_saved"]) == 0:
+            notes = "Feed works, but no articles passed the current strategy filters."
+        elif safe_int(health_row["articles_saved"]) > 0:
+            notes = "Source produced saved articles in this run."
+        else:
+            notes = health_row.get("error_message", "") or "Monitor source health."
+
+        rows.append({
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "source_name": source_name,
+            "source_category": source_category,
+            "platform_type": platform_type,
+            "source_url": health_row["source_url"],
+            "feed_status": health_row["fetch_status"],
+            "entries_found": health_row["entries_found"],
+            "articles_saved": health_row["articles_saved"],
+            "gp_related_articles": len(gp_related_articles),
+            "residential_sector_focus": infer_source_sector_focus(platform_type, source_articles),
+            "source_priority": priority,
+            "needs_manual_review": "Yes" if needs_review else "No",
+            "notes": notes,
+        })
+
+    rows.sort(
+        key=lambda row: (
+            ["Critical Source", "High Priority Source", "Useful Source", "Watch Source", "Placeholder / Needs Review"].index(row["source_priority"]),
+            row["platform_type"],
+            row["source_name"],
+        )
+    )
+    return rows
+
+
+def add_gp_source_coverage_section(lines, title, rows, filter_function):
+    """Add a compact source coverage section to Markdown."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected_rows = [row for row in rows if filter_function(row)]
+    if not selected_rows:
+        lines.append("- No sources in this section.")
+        lines.append("")
+        return
+
+    for row in selected_rows[:15]:
+        lines.append(
+            f"- {row['source_name']} ({row['platform_type']}): "
+            f"{row['source_priority']}, {row['feed_status']}, "
+            f"{row['articles_saved']} saved article(s)."
+        )
+    lines.append("")
+
+
+def generate_gp_source_coverage_outputs(gp_source_coverage_rows, dated_output_dir):
+    """Write gp_source_coverage.csv and gp_source_coverage_report.md."""
+    fieldnames = [
+        "run_timestamp",
+        "source_name",
+        "source_category",
+        "platform_type",
+        "source_url",
+        "feed_status",
+        "entries_found",
+        "articles_saved",
+        "gp_related_articles",
+        "residential_sector_focus",
+        "source_priority",
+        "needs_manual_review",
+        "notes",
+    ]
+    write_csv_outputs(
+        GP_SOURCE_COVERAGE_OUTPUT_FILE,
+        fieldnames,
+        gp_source_coverage_rows,
+        dated_output_dir,
+    )
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    working_rows = [
+        row for row in gp_source_coverage_rows
+        if row["feed_status"] == "OK"
+    ]
+    placeholder_rows = [
+        row for row in gp_source_coverage_rows
+        if row["source_priority"] == "Placeholder / Needs Review"
+    ]
+    critical_missing_rows = [
+        row for row in gp_source_coverage_rows
+        if row["source_priority"] == "Placeholder / Needs Review"
+        and (
+            source_name_contains_any(row["source_name"], CRITICAL_GP_SOURCE_NAMES)
+            or row["platform_type"] in ["Institutional Capital Platform", "Lender / Debt Platform"]
+        )
+    ]
+
+    lines = [
+        "# GP Source Coverage Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- GP/developer coverage sources tracked: {len(gp_source_coverage_rows)}",
+        f"- Working GP/developer sources: {len(working_rows)}",
+        f"- Placeholder/manual review sources: {len(placeholder_rows)}",
+        f"- Critical missing GP sources: {len(critical_missing_rows)}",
+        "",
+    ]
+
+    add_gp_source_coverage_section(lines, "Critical Missing GP Sources", critical_missing_rows, lambda row: True)
+    add_gp_source_coverage_section(lines, "Working GP / Developer Sources", working_rows, lambda row: row["platform_type"] in ["Multifamily Developer / Operator", "Institutional Capital Platform"])
+    add_gp_source_coverage_section(lines, "Working Lender / Capital Markets Sources", working_rows, lambda row: row["platform_type"] in ["Lender / Debt Platform", "Brokerage / Advisor"])
+    add_gp_source_coverage_section(lines, "BTR / SFR Source Coverage", gp_source_coverage_rows, lambda row: row["platform_type"] == "BTR / SFR Platform")
+    add_gp_source_coverage_section(lines, "Student Housing Source Coverage", gp_source_coverage_rows, lambda row: row["platform_type"] == "Student Housing Platform")
+    add_gp_source_coverage_section(lines, "Senior Housing Source Coverage", gp_source_coverage_rows, lambda row: row["platform_type"] == "Senior Housing Platform")
+    add_gp_source_coverage_section(lines, "LA / California Developer Source Coverage", gp_source_coverage_rows, lambda row: source_name_contains_any(row["source_name"], ["Kennedy Wilson", "Essex", "AvalonBay", "CIM", "Carmel", "Greystar", "Hines"]))
+    add_gp_source_coverage_section(lines, "Recommended Manual Source Review List", placeholder_rows, lambda row: True)
+
+    lines.extend([
+        "## Recommended Source Improvement Actions",
+        "",
+        "- Confirm public RSS, newsroom, press release, or insights feeds for Tier 1 GP and capital platform placeholders first.",
+        "- Prioritize lender and capital markets feeds because they improve refinancing, debt, and pricing-discovery signals.",
+        "- Add BTR / SFR, student housing, and senior housing feeds gradually as those sectors become strategically relevant.",
+        "- Keep placeholders until a public, non-paywalled source URL is confirmed.",
+        "",
+    ])
+
+    write_markdown_outputs(
+        GP_SOURCE_COVERAGE_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+    return {
+        "total_sources": len(gp_source_coverage_rows),
+        "working_sources": working_rows,
+        "placeholder_sources": placeholder_rows,
+        "critical_missing_sources": critical_missing_rows,
+        "new_gp_signal_sources": [
+            row for row in gp_source_coverage_rows
+            if safe_int(row["gp_related_articles"]) > 0
+        ],
+    }
+
+
+def get_activation_type(source_url, source_category):
+    """Classify how a source can be activated without aggressive scraping."""
+    if not source_url:
+        return "Manual"
+
+    lowered_url = source_url.lower()
+    if any(token in lowered_url for token in ["rss", "feed", ".xml"]):
+        return "RSS"
+
+    if source_category in ["Developer / GP Newsrooms", GP_SOURCE_EXPANSION_CATEGORY]:
+        return "Newsroom"
+
+    return "HTML Parsing"
+
+
+def get_source_status(source_url, fetch_status, entries_found):
+    """Translate fetch results into a stable activation status."""
+    if not source_url:
+        return "Placeholder"
+    if fetch_status == "OK" and safe_int(entries_found) > 0:
+        return "Working"
+    if fetch_status == "Failed":
+        return "Failed"
+    return "Manual Review"
+
+
+def get_source_priority_tier(source_name, source_category, platform_type):
+    """Assign Tier 1, Tier 2, or Tier 3 source importance."""
+    if (
+        source_name_contains_any(source_name, CRITICAL_GP_SOURCE_NAMES)
+        or platform_type in TIER_1_PLATFORM_TYPES
+        or source_category in ["Institutional Real Estate / Capital Markets", "Brokerage / Debt / Research"]
+    ):
+        return "Tier 1"
+
+    if (
+        source_name_contains_any(source_name, TIER_2_SOURCE_NAMES)
+        or platform_type in ["BTR / SFR Platform", "Student Housing Platform", "Senior Housing Platform"]
+    ):
+        return "Tier 2"
+
+    return "Tier 3"
+
+
+def count_source_signals(source_articles):
+    """Count strategy signals produced by one source in the current run."""
+    gp_signal_count = sum(
+        1 for article in source_articles
+        if article.get("decision_use") == "Track Developer Strategy"
+        or "Developer Strategy" in article.get("strategic_angle", "")
+    )
+    deal_signal_count = sum(
+        1 for article in source_articles
+        if article.get("market_signal") == "Deal Size Signal"
+        or any(keyword in article.get("matched_keywords", "").lower() for keyword in ["acquisition", "deal", "loan", "jv", "partnership"])
+    )
+    capital_markets_signal_count = sum(
+        1 for article in source_articles
+        if article.get("decision_use") in ["Track Financing Conditions", "Track Institutional Capital Flow"]
+        or article.get("market_signal") in ["Cap Rate Signal", "Financing Cost Signal", "Deal Size Signal"]
+    )
+    residential_sector_signal_count = sum(
+        1 for article in source_articles
+        if article.get("residential_sector") and article.get("residential_sector") != "General Residential"
+    )
+    california_signal_count = sum(
+        1 for article in source_articles
+        if article.get("market_focus") == "California"
+        or "california" in article.get("matched_keywords", "").lower()
+    )
+    la_signal_count = sum(
+        1 for article in source_articles
+        if article.get("market_focus") == "Los Angeles"
+        or "los angeles" in article.get("matched_keywords", "").lower()
+        or " la " in f" {article.get('matched_keywords', '').lower()} "
+    )
+    institutional_signal_count = sum(
+        1 for article in source_articles
+        if article.get("decision_use") == "Track Institutional Capital Flow"
+        or "Institutional Flow" in article.get("strategic_angle", "")
+    )
+
+    return {
+        "gp_signal_count": gp_signal_count,
+        "deal_signal_count": deal_signal_count,
+        "capital_markets_signal_count": capital_markets_signal_count,
+        "residential_sector_signal_count": residential_sector_signal_count,
+        "california_signal_count": california_signal_count,
+        "la_signal_count": la_signal_count,
+        "institutional_signal_count": institutional_signal_count,
+    }
+
+
+def get_source_quality_score(source_status, source_priority_tier, entries_found, articles_saved, signal_density_score, signals, platform_type):
+    """Create a balanced 0-100 source quality score."""
+    reliability_score = 100 if source_status == "Working" else 45 if source_status == "Manual Review" else 15 if source_status == "Failed" else 0
+    institutional_score = 100 if source_priority_tier == "Tier 1" else 65 if source_priority_tier == "Tier 2" else 35
+    california_score = min(100, signals["california_signal_count"] * 35 + signals["la_signal_count"] * 45)
+    gp_usefulness_score = min(100, signals["gp_signal_count"] * 35 + signals["institutional_signal_count"] * 30)
+    deal_usefulness_score = min(100, signals["deal_signal_count"] * 35 + signals["capital_markets_signal_count"] * 25)
+
+    if platform_type in ["Institutional Capital Platform", "Lender / Debt Platform", "Brokerage / Advisor"]:
+        institutional_score = max(institutional_score, 80)
+
+    score = round(
+        reliability_score * 0.25
+        + signal_density_score * 0.25
+        + institutional_score * 0.20
+        + california_score * 0.10
+        + gp_usefulness_score * 0.10
+        + deal_usefulness_score * 0.10
+    )
+    return min(100, score)
+
+
+def get_source_priority_label(source_quality_score, source_status, source_priority_tier):
+    """Label source quality in a way that is easy to scan."""
+    if source_status == "Placeholder":
+        return "Placeholder / Needs Activation"
+    if source_status == "Failed" and source_priority_tier == "Tier 1":
+        return "Failed Critical Source"
+    if source_quality_score >= 80:
+        return "Production Source"
+    if source_quality_score >= 60:
+        return "High Value Source"
+    if source_quality_score >= 40:
+        return "Validation Candidate"
+    return "Manual Review"
+
+
+def build_source_activation_rows(run_timestamp, articles):
+    """Build source activation rows for every source in SOURCE_REGISTRY."""
+    rows = []
+    health_by_source = {
+        row["source_name"]: row for row in SOURCE_HEALTH_ROWS
+    }
+
+    for source_info in SOURCE_REGISTRY:
+        source_name = source_info["source"]
+        source_category = source_info.get("category", "Uncategorized")
+        source_url = source_info.get("url", "")
+        platform_type = source_info.get("platform_type", "Other")
+        health_row = health_by_source.get(source_name, {})
+        fetch_status = health_row.get("fetch_status", "Placeholder" if not source_url else "Failed")
+        entries_found = safe_int(health_row.get("entries_found", 0))
+        articles_saved = safe_int(health_row.get("articles_saved", 0))
+        source_status = get_source_status(source_url, fetch_status, entries_found)
+        source_articles = [
+            article for article in articles
+            if article.get("source") == source_name
+        ]
+        signals = count_source_signals(source_articles)
+        total_signal_count = sum(signals.values())
+        signal_density_score = 0
+        if entries_found > 0:
+            signal_density_score = min(100, round((total_signal_count / entries_found) * 100))
+        elif articles_saved > 0:
+            signal_density_score = min(100, articles_saved * 20)
+
+        source_priority_tier = get_source_priority_tier(
+            source_name,
+            source_category,
+            platform_type,
+        )
+        source_quality_score = get_source_quality_score(
+            source_status,
+            source_priority_tier,
+            entries_found,
+            articles_saved,
+            signal_density_score,
+            signals,
+            platform_type,
+        )
+
+        rows.append({
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "source_name": source_name,
+            "source_category": source_category,
+            "platform_type": platform_type,
+            "source_priority_tier": source_priority_tier,
+            "source_status": source_status,
+            "activation_type": get_activation_type(source_url, source_category),
+            "feed_url": source_url,
+            "last_successful_fetch": run_timestamp.strftime("%Y-%m-%d %H:%M:%S") if source_status == "Working" else "",
+            "fetch_attempts": 1 if source_url else 0,
+            "fetch_success_rate": 100 if source_status == "Working" else 0,
+            "entries_found": entries_found,
+            "articles_saved": articles_saved,
+            "signal_density_score": signal_density_score,
+            "gp_signal_count": signals["gp_signal_count"],
+            "deal_signal_count": signals["deal_signal_count"],
+            "capital_markets_signal_count": signals["capital_markets_signal_count"],
+            "residential_sector_signal_count": signals["residential_sector_signal_count"],
+            "california_signal_count": signals["california_signal_count"],
+            "la_signal_count": signals["la_signal_count"],
+            "institutional_signal_count": signals["institutional_signal_count"],
+            "source_quality_score": source_quality_score,
+            "source_priority_label": get_source_priority_label(
+                source_quality_score,
+                source_status,
+                source_priority_tier,
+            ),
+        })
+
+    rows.sort(
+        key=lambda row: (
+            -safe_int(row["source_quality_score"]),
+            row["source_priority_tier"],
+            row["source_name"],
+        )
+    )
+    return rows
+
+
+def add_source_activation_section(lines, title, rows, filter_function):
+    """Add a source activation report section."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected_rows = [row for row in rows if filter_function(row)]
+    if not selected_rows:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+
+    for row in selected_rows[:15]:
+        lines.append(
+            f"- {row['source_name']} ({row['source_priority_tier']}): "
+            f"{row['source_status']}, {row['activation_type']}, "
+            f"score {row['source_quality_score']}, "
+            f"{row['articles_saved']} saved article(s)."
+        )
+    lines.append("")
+
+
+def generate_source_activation_outputs(source_activation_rows, dated_output_dir):
+    """Write source_activation.csv and source_activation_report.md."""
+    fieldnames = [
+        "run_timestamp",
+        "source_name",
+        "source_category",
+        "platform_type",
+        "source_priority_tier",
+        "source_status",
+        "activation_type",
+        "feed_url",
+        "last_successful_fetch",
+        "fetch_attempts",
+        "fetch_success_rate",
+        "entries_found",
+        "articles_saved",
+        "signal_density_score",
+        "gp_signal_count",
+        "deal_signal_count",
+        "capital_markets_signal_count",
+        "residential_sector_signal_count",
+        "california_signal_count",
+        "la_signal_count",
+        "institutional_signal_count",
+        "source_quality_score",
+        "source_priority_label",
+    ]
+    write_csv_outputs(
+        SOURCE_ACTIVATION_OUTPUT_FILE,
+        fieldnames,
+        source_activation_rows,
+        dated_output_dir,
+    )
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    working_rows = [
+        row for row in source_activation_rows
+        if row["source_status"] == "Working"
+    ]
+    working_gp_rows = [
+        row for row in working_rows
+        if row["source_category"] in ["Developer / GP Newsrooms", GP_SOURCE_EXPANSION_CATEGORY]
+    ]
+    institutional_rows = [
+        row for row in source_activation_rows
+        if row["source_priority_tier"] == "Tier 1"
+        or row["platform_type"] in ["Institutional Capital Platform", "Lender / Debt Platform", "Brokerage / Advisor"]
+    ]
+    failed_critical_rows = [
+        row for row in source_activation_rows
+        if row["source_status"] in ["Failed", "Manual Review"]
+        and row["source_priority_tier"] == "Tier 1"
+    ]
+    manual_review_rows = [
+        row for row in source_activation_rows
+        if row["source_status"] in ["Placeholder", "Manual Review"]
+    ]
+    rss_ready_rows = [
+        row for row in source_activation_rows
+        if row["activation_type"] == "RSS"
+        and row["source_status"] == "Working"
+    ]
+    html_only_rows = [
+        row for row in source_activation_rows
+        if row["activation_type"] in ["HTML Parsing", "Newsroom"]
+        and row["source_status"] != "Working"
+    ]
+    california_rows = [
+        row for row in source_activation_rows
+        if safe_int(row["california_signal_count"]) > 0
+        or safe_int(row["la_signal_count"]) > 0
+        or source_name_contains_any(row["source_name"], ["California", "Los Angeles", "LA", "Urbanize LA", "Kennedy Wilson", "Essex", "AvalonBay"])
+    ]
+    signal_rows = [
+        row for row in source_activation_rows
+        if (
+            safe_int(row["gp_signal_count"])
+            + safe_int(row["deal_signal_count"])
+            + safe_int(row["capital_markets_signal_count"])
+            + safe_int(row["institutional_signal_count"])
+        ) > 0
+    ]
+
+    lines = [
+        "# Source Activation Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total sources evaluated: {len(source_activation_rows)}",
+        f"- Working sources: {len(working_rows)}",
+        f"- Working GP/developer sources: {len(working_gp_rows)}",
+        f"- Manual review / placeholder sources: {len(manual_review_rows)}",
+        f"- Failed critical sources: {len(failed_critical_rows)}",
+        "",
+    ]
+    add_source_activation_section(lines, "Top Activated GP Sources", working_gp_rows, lambda row: True)
+    add_source_activation_section(lines, "Strongest Signal-Generating Sources", signal_rows, lambda row: True)
+    add_source_activation_section(lines, "Highest Institutional-Value Sources", institutional_rows, lambda row: row["source_quality_score"] >= 40)
+    add_source_activation_section(lines, "California / LA Focused Sources", california_rows, lambda row: True)
+    add_source_activation_section(lines, "Failed Critical Sources", failed_critical_rows, lambda row: True)
+    add_source_activation_section(lines, "Manual-Review Queue", manual_review_rows, lambda row: True)
+    add_source_activation_section(lines, "RSS-Ready Sources", rss_ready_rows, lambda row: True)
+    add_source_activation_section(lines, "HTML-Only / Newsroom Sources", html_only_rows, lambda row: True)
+
+    lines.extend([
+        "## Source Quality Leaderboard",
+        "",
+        "| Rank | Source | Tier | Status | Score | Saved | Signal Density |",
+        "| ---: | --- | --- | --- | ---: | ---: | ---: |",
+    ])
+    for rank, row in enumerate(source_activation_rows[:20], start=1):
+        lines.append(
+            f"| {rank} | {row['source_name']} | {row['source_priority_tier']} | "
+            f"{row['source_status']} | {row['source_quality_score']} | "
+            f"{row['articles_saved']} | {row['signal_density_score']} |"
+        )
+
+    lines.extend([
+        "",
+        "## Recommended Activation Actions",
+        "",
+        "- Activate Tier 1 placeholders first, especially agency lenders, capital markets firms, and major GP platforms.",
+        "- Keep RSS-ready sources in the daily run and review failed critical feeds for better public URLs.",
+        "- Treat HTML-only newsroom sources as manual validation targets unless a stable feed is confirmed.",
+        "- Prioritize California / LA sources when they improve regional and relationship intelligence.",
+        "",
+    ])
+
+    write_markdown_outputs(
+        SOURCE_ACTIVATION_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+    highest_signal_source = signal_rows[0] if signal_rows else (source_activation_rows[0] if source_activation_rows else {})
+    return {
+        "working_gp_sources": working_gp_rows,
+        "activated_institutional_sources": [
+            row for row in institutional_rows
+            if row["source_status"] == "Working"
+        ],
+        "highest_signal_source": highest_signal_source,
+        "failed_critical_sources": failed_critical_rows,
+        "california_la_sources": california_rows,
+    }
+
+
+def parse_date_string(value):
+    """Parse YYYY-MM-DD dates safely for memory calculations."""
+    if not value:
+        return None
+    try:
+        return datetime.strptime(value[:10], "%Y-%m-%d")
+    except ValueError:
+        return None
+
+
+def days_between(start_value, end_value):
+    """Return day difference between two YYYY-MM-DD date strings."""
+    start_date = parse_date_string(start_value)
+    end_date = parse_date_string(end_value)
+    if not start_date or not end_date:
+        return 0
+    return max(0, (end_date - start_date).days)
+
+
+def current_run_date(run_timestamp):
+    """Return the current run date as YYYY-MM-DD."""
+    return run_timestamp.strftime("%Y-%m-%d")
+
+
+def memory_label(observation_count, signal_acceleration, was_observed, days_since_seen):
+    """Convert memory stats into a simple recurring signal label."""
+    if was_observed and days_since_seen > 7:
+        return "Reappearing"
+    if not was_observed and days_since_seen > 14:
+        return "Dormant"
+    if not was_observed:
+        return "Fading"
+    if signal_acceleration >= 2:
+        return "Accelerating"
+    if observation_count >= 3:
+        return "Persistent"
+    return "Emerging"
+
+
+def momentum_from_acceleration(signal_acceleration, was_observed):
+    """Simple momentum direction for historical rows."""
+    if not was_observed:
+        return "Weakening"
+    if signal_acceleration >= 2:
+        return "Accelerating"
+    if signal_acceleration == 1:
+        return "Stable"
+    return "Stable"
+
+
+def add_memory_observation(observations, entity_type, entity_name, signal_type, market="", sector="", importance=40):
+    """Collect one current-run observation for the historical memory layer."""
+    if not entity_name or entity_name in ["Unknown", "None detected", "Other / Unknown"]:
+        return
+    key = (entity_type, entity_name, signal_type, market or "", sector or "")
+    if key not in observations:
+        observations[key] = {
+            "entity_type": entity_type,
+            "entity_name": entity_name,
+            "signal_type": signal_type,
+            "market_or_region": market or "Unknown",
+            "residential_sector": sector or "General Residential",
+            "current_run_signal_count": 0,
+            "importance": importance,
+        }
+    observations[key]["current_run_signal_count"] += 1
+    observations[key]["importance"] = max(observations[key]["importance"], importance)
+
+
+def build_current_memory_observations(gp_rows, relationship_rows, deal_rows, graph_rows, regional_rows, sector_rows, heatmap_rows):
+    """Build current-run observations from existing intelligence outputs."""
+    observations = {}
+
+    for row in gp_rows:
+        add_memory_observation(
+            observations,
+            "GP / Developer",
+            row.get("canonical_gp_name") or row.get("gp_name"),
+            row.get("activity_type", "Developer activity"),
+            row.get("market_focus"),
+            row.get("residential_sector"),
+            safe_int(row.get("institutional_signal_strength")),
+        )
+
+    for row in relationship_rows:
+        add_memory_observation(
+            observations,
+            "Institutional Capital Partner",
+            row.get("firm_name"),
+            row.get("capital_flow_signal", "Capital-flow signal"),
+            row.get("detected_markets"),
+            row.get("residential_sector"),
+            safe_int(row.get("institutional_relationship_score")),
+        )
+
+    for row in deal_rows:
+        add_memory_observation(observations, "Deal / Project", row.get("project_or_deal_name"), row.get("deal_type"), row.get("market"), row.get("residential_sector"), safe_int(row.get("deal_signal_score")))
+        add_memory_observation(observations, "GP / Developer", row.get("canonical_gp_or_developer") or row.get("gp_or_developer"), row.get("deal_type"), row.get("market"), row.get("residential_sector"), safe_int(row.get("deal_signal_score")))
+        add_memory_observation(observations, "Lender / Debt Provider", row.get("canonical_lender_or_debt_provider") or row.get("lender_or_debt_provider"), row.get("deal_type"), row.get("market"), row.get("residential_sector"), safe_int(row.get("deal_signal_score")))
+        add_memory_observation(observations, "Institutional Capital Partner", row.get("canonical_capital_partner") or row.get("capital_partner"), row.get("deal_type"), row.get("market"), row.get("residential_sector"), safe_int(row.get("deal_signal_score")))
+
+    for row in graph_rows:
+        edge_name = f"{row.get('canonical_source_entity') or row.get('source_entity')} -> {row.get('canonical_target_entity') or row.get('target_entity')}"
+        add_memory_observation(observations, "Relationship Edge", edge_name, row.get("relationship_type"), row.get("market"), "", safe_int(row.get("relationship_strength_score")))
+
+    for row in regional_rows:
+        add_memory_observation(observations, "Market / Region", row.get("market"), row.get("dominant_strategic_angle"), row.get("market"), "", safe_int(row.get("average_relevance_score")))
+
+    for row in sector_rows:
+        add_memory_observation(observations, "Residential Sector", row.get("residential_sector"), row.get("sector_risk_or_opportunity"), row.get("dominant_market_focus"), row.get("residential_sector"), safe_int(float(row.get("average_relevance_score", 0) or 0)))
+
+    for row in heatmap_rows:
+        add_memory_observation(observations, "Regime", row.get("regime"), row.get("strength_label"), "", "", safe_int(row.get("final_score")))
+
+    return observations
+
+
+def build_historical_memory_rows(run_timestamp, gp_rows, relationship_rows, deal_rows, graph_rows, regional_rows, sector_rows, heatmap_rows):
+    """Merge current observations with prior historical_memory.csv rows."""
+    run_date = current_run_date(run_timestamp)
+    previous_rows = read_csv_file(HISTORICAL_MEMORY_OUTPUT_FILE)
+    previous_by_key = {
+        (
+            row.get("entity_type", ""),
+            row.get("entity_name", ""),
+            row.get("signal_type", ""),
+            row.get("market_or_region", ""),
+            row.get("residential_sector", ""),
+        ): row
+        for row in previous_rows
+    }
+    current_observations = build_current_memory_observations(
+        gp_rows,
+        relationship_rows,
+        deal_rows,
+        graph_rows,
+        regional_rows,
+        sector_rows,
+        heatmap_rows,
+    )
+    all_keys = set(previous_by_key) | set(current_observations)
+    rows = []
+
+    for key in all_keys:
+        previous = previous_by_key.get(key, {})
+        current = current_observations.get(key)
+        was_observed = current is not None
+        current_count = safe_int(current.get("current_run_signal_count", 0)) if current else 0
+        prior_run_count = safe_int(previous.get("current_run_signal_count", 0))
+        observation_count = safe_int(previous.get("observation_count", 0)) + current_count
+        first_seen = previous.get("first_seen_date") or run_date
+        last_seen = run_date if was_observed else previous.get("last_seen_date", first_seen)
+        days_since_seen = days_between(previous.get("last_seen_date", first_seen), run_date)
+        signal_acceleration = current_count - prior_run_count
+        importance = safe_int(current.get("importance", 0)) if current else safe_int(previous.get("historical_importance_score", 0))
+        recency_score = 100 if was_observed else max(0, 100 - days_since_seen * 10)
+        frequency_score = min(100, observation_count * 10)
+        california_score = 100 if "California" in key[3] or "Los Angeles" in key[3] else 0
+        institutional_score = 85 if key[0] in ["Institutional Capital Partner", "Lender / Debt Provider", "Relationship Edge"] else 45
+        sector_score = 75 if key[4] not in ["", "General Residential"] else 35
+        debt_score = 80 if any(word in key[2].lower() for word in ["refinancing", "financing", "loan", "debt"]) else 30
+        persistence_score = min(100, round(frequency_score * 0.45 + recency_score * 0.35 + importance * 0.20))
+        historical_importance_score = min(100, round(
+            persistence_score * 0.35
+            + institutional_score * 0.20
+            + california_score * 0.15
+            + sector_score * 0.15
+            + debt_score * 0.15
+        ))
+        recurring_label = memory_label(observation_count, signal_acceleration, was_observed, days_since_seen)
+
+        rows.append({
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "entity_type": key[0],
+            "entity_name": key[1],
+            "signal_type": key[2],
+            "market_or_region": key[3],
+            "residential_sector": key[4],
+            "first_seen_date": first_seen,
+            "last_seen_date": last_seen,
+            "observation_count": observation_count,
+            "current_run_signal_count": current_count,
+            "persistence_score": persistence_score,
+            "momentum_direction": momentum_from_acceleration(signal_acceleration, was_observed),
+            "signal_acceleration": signal_acceleration,
+            "recurring_signal_label": recurring_label,
+            "historical_importance_score": historical_importance_score,
+            "longitudinal_conviction_score": min(100, round(persistence_score * 0.6 + historical_importance_score * 0.4)),
+            "institutional_persistence_score": min(100, round(persistence_score * 0.5 + institutional_score * 0.5)),
+            "capital_flow_strength_score": min(100, round(persistence_score * 0.4 + debt_score * 0.4 + institutional_score * 0.2)),
+        })
+
+    rows.sort(key=lambda row: (-safe_int(row["historical_importance_score"]), -safe_int(row["persistence_score"]), row["entity_name"]))
+    return rows
+
+
+def add_memory_report_section(lines, title, rows, filter_function):
+    """Add a compact historical memory report section."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected_rows = [row for row in rows if filter_function(row)]
+    if not selected_rows:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+    for row in selected_rows[:10]:
+        display_name = row.get("entity_name") or (
+            f"{row.get('canonical_source_entity', '')} -> {row.get('canonical_target_entity', '')}"
+        ).strip(" ->")
+        display_type = row.get("entity_type") or row.get("pattern_type") or row.get("relationship_type", "Signal")
+        label = row.get("recurring_signal_label") or row.get("partnership_stability_label") or row.get("capital_rotation_signal", "Tracked")
+        count = row.get("observation_count") or row.get("repeat_interaction_count") or row.get("current_run_signal_count", 0)
+        importance = (
+            row.get("historical_importance_score")
+            or row.get("capital_flow_strength_score")
+            or row.get("relationship_persistence_score")
+            or 0
+        )
+        lines.append(
+            f"- {display_name} ({display_type}): "
+            f"{label}, {count} observation(s), "
+            f"importance {importance}."
+        )
+    lines.append("")
+
+
+def generate_historical_memory_outputs(memory_rows, dated_output_dir):
+    """Write historical_memory.csv and historical_memory_report.md."""
+    fieldnames = [
+        "run_timestamp", "entity_type", "entity_name", "signal_type", "market_or_region", "residential_sector",
+        "first_seen_date", "last_seen_date", "observation_count", "current_run_signal_count", "persistence_score",
+        "momentum_direction", "signal_acceleration", "recurring_signal_label", "historical_importance_score",
+        "longitudinal_conviction_score", "institutional_persistence_score", "capital_flow_strength_score",
+    ]
+    write_csv_outputs(HISTORICAL_MEMORY_OUTPUT_FILE, fieldnames, memory_rows, dated_output_dir)
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    fastest_rising_gp = next((row for row in memory_rows if row["entity_type"] == "GP / Developer" and row["momentum_direction"] == "Accelerating"), None)
+    if not fastest_rising_gp:
+        fastest_rising_gp = next((row for row in memory_rows if row["entity_type"] == "GP / Developer"), {})
+    strongest_lender = next((row for row in memory_rows if row["entity_type"] == "Lender / Debt Provider"), {})
+    california_rows = [row for row in memory_rows if "California" in row["market_or_region"] or "Los Angeles" in row["market_or_region"]]
+    refinancing_rows = [row for row in memory_rows if "refinanc" in row["signal_type"].lower()]
+
+    lines = [
+        "# Historical Memory Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Memory rows tracked: {len(memory_rows)}",
+        f"- Fastest-rising GP: {fastest_rising_gp.get('entity_name', 'None detected')}",
+        f"- Strongest recurring lender: {strongest_lender.get('entity_name', 'None detected')}",
+        "",
+    ]
+    add_memory_report_section(lines, "Fastest-Rising GP", memory_rows, lambda row: row == fastest_rising_gp)
+    add_memory_report_section(lines, "Strongest Recurring Lender", memory_rows, lambda row: row["entity_type"] == "Lender / Debt Provider")
+    add_memory_report_section(lines, "Recurring California / LA Relationships", california_rows, lambda row: True)
+    add_memory_report_section(lines, "Persistent BTR / Student / Senior Housing Players", memory_rows, lambda row: row["residential_sector"] in ["BTR / Single-Family Rental", "Student Housing", "Senior Housing"])
+    add_memory_report_section(lines, "Recurring Institutional Capital Pairings", memory_rows, lambda row: row["entity_type"] in ["Institutional Capital Partner", "Relationship Edge"])
+    add_memory_report_section(lines, "Strongest Multi-Run Relationships", memory_rows, lambda row: row["entity_type"] == "Relationship Edge")
+    add_memory_report_section(lines, "Accelerating Markets", memory_rows, lambda row: row["entity_type"] == "Market / Region" and row["momentum_direction"] == "Accelerating")
+    add_memory_report_section(lines, "Fading Markets", memory_rows, lambda row: row["entity_type"] == "Market / Region" and row["recurring_signal_label"] == "Fading")
+    add_memory_report_section(lines, "Recurring Refinancing Stress Signals", refinancing_rows, lambda row: True)
+    lines.extend([
+        "## Canonical Deal Summary",
+        "",
+        f"Capital-flow memory uses deal fingerprints from `{os.path.basename(DEAL_FINGERPRINT_REPORT_OUTPUT_FILE)}` to avoid overstating repeated refinancing coverage.",
+        f"Opportunity deduplication details are available in `{os.path.basename(OPPORTUNITY_DEDUPLICATION_REPORT_OUTPUT_FILE)}`.",
+        "",
+        "## Opportunity / Distress Radar",
+        "",
+        f"Opportunity radar is available in `{os.path.basename(OPPORTUNITY_RADAR_REPORT_OUTPUT_FILE)}`.",
+        f"Distress watchlist is available in `{os.path.basename(DISTRESS_WATCHLIST_REPORT_OUTPUT_FILE)}`.",
+        f"Canonical deal fingerprints are available in `{os.path.basename(DEAL_FINGERPRINT_REPORT_OUTPUT_FILE)}`.",
+        f"Opportunity deduplication is available in `{os.path.basename(OPPORTUNITY_DEDUPLICATION_REPORT_OUTPUT_FILE)}`.",
+        f"Timing intelligence is available in `{os.path.basename(TIMING_INTELLIGENCE_REPORT_OUTPUT_FILE)}`.",
+        f"Market entry window scoring is available in `{os.path.basename(MARKET_ENTRY_WINDOW_REPORT_OUTPUT_FILE)}`.",
+        f"Entitlement intelligence is available in `{os.path.basename(ENTITLEMENT_INTELLIGENCE_REPORT_OUTPUT_FILE)}`.",
+        f"LA entitlement watch is available in `{os.path.basename(LA_ENTITLEMENT_WATCH_REPORT_OUTPUT_FILE)}`.",
+        "",
+    ])
+
+    write_markdown_outputs(HISTORICAL_MEMORY_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "fastest_rising_gp": fastest_rising_gp,
+        "strongest_lender": strongest_lender,
+        "strongest_california_la_signal": california_rows[0] if california_rows else {},
+        "top_refinancing_pattern": refinancing_rows[0] if refinancing_rows else {},
+    }
+
+
+def add_capital_observation(observations, pattern_type, entity_name, market, sector, deal_type, score):
+    """Collect one capital-flow observation."""
+    if not entity_name or entity_name in ["Unknown", "None detected"]:
+        return
+    key = (pattern_type, entity_name, market or "Unknown", sector or "General Residential")
+    if key not in observations:
+        observations[key] = {
+            "pattern_type": pattern_type,
+            "entity_name": entity_name,
+            "market_or_region": market or "Unknown",
+            "residential_sector": sector or "General Residential",
+            "current_run_signal_count": 0,
+            "refinancing_frequency": 0,
+            "construction_financing_frequency": 0,
+            "deal_types": set(),
+            "score": 0,
+        }
+    observations[key]["current_run_signal_count"] += 1
+    observations[key]["score"] = max(observations[key]["score"], score)
+    observations[key]["deal_types"].add(deal_type)
+    if deal_type == "Refinancing":
+        observations[key]["refinancing_frequency"] += 1
+    if deal_type == "Construction Financing":
+        observations[key]["construction_financing_frequency"] += 1
+
+
+def build_capital_flow_memory_rows(run_timestamp, deal_rows, relationship_rows):
+    """Track repeated capital-flow patterns over time."""
+    run_date = current_run_date(run_timestamp)
+    observations = {}
+    for row in deal_rows:
+        deal_type = row.get("deal_type", "General Project Signal")
+        add_capital_observation(observations, "Recurring Lender", row.get("canonical_lender_or_debt_provider") or row.get("lender_or_debt_provider"), row.get("market"), row.get("residential_sector"), deal_type, safe_int(row.get("deal_signal_score")))
+        add_capital_observation(observations, "Recurring Capital Partner", row.get("canonical_capital_partner") or row.get("capital_partner"), row.get("market"), row.get("residential_sector"), deal_type, safe_int(row.get("deal_signal_score")))
+        add_capital_observation(observations, "Market-Level Capital Concentration", row.get("market"), row.get("market"), row.get("residential_sector"), deal_type, safe_int(row.get("deal_signal_score")))
+    for row in relationship_rows:
+        add_capital_observation(observations, "Institutional Capital Flow", row.get("firm_name"), row.get("detected_markets"), row.get("residential_sector"), row.get("capital_flow_signal"), safe_int(row.get("institutional_relationship_score")))
+
+    previous_rows = read_csv_file(CAPITAL_FLOW_MEMORY_OUTPUT_FILE)
+    previous_by_key = {
+        (row.get("pattern_type", ""), row.get("entity_name", ""), row.get("market_or_region", ""), row.get("residential_sector", "")): row
+        for row in previous_rows
+    }
+    all_keys = set(previous_by_key) | set(observations)
+    rows = []
+    for key in all_keys:
+        previous = previous_by_key.get(key, {})
+        current = observations.get(key)
+        current_count = safe_int(current.get("current_run_signal_count", 0)) if current else 0
+        prior_count = safe_int(previous.get("current_run_signal_count", 0))
+        observation_count = safe_int(previous.get("observation_count", 0)) + current_count
+        first_seen = previous.get("first_seen_date") or run_date
+        last_seen = run_date if current else previous.get("last_seen_date", first_seen)
+        signal_acceleration = current_count - prior_count
+        refinancing_frequency = safe_int(previous.get("refinancing_frequency", 0)) + (safe_int(current.get("refinancing_frequency", 0)) if current else 0)
+        construction_frequency = safe_int(previous.get("construction_financing_frequency", 0)) + (safe_int(current.get("construction_financing_frequency", 0)) if current else 0)
+        recurring_lender_score = min(100, observation_count * 20) if key[0] == "Recurring Lender" else 0
+        recurring_capital_partner_score = min(100, observation_count * 20) if key[0] in ["Recurring Capital Partner", "Institutional Capital Flow"] else 0
+        stress_score = min(100, refinancing_frequency * 25 + recurring_lender_score * 0.25)
+        capital_flow_strength_score = min(100, round(observation_count * 12 + refinancing_frequency * 10 + construction_frequency * 10 + (safe_int(current.get("score", 0)) if current else 0) * 0.35))
+        if signal_acceleration > 0:
+            direction = "Increasing"
+        elif current_count == 0:
+            direction = "Fading"
+        else:
+            direction = "Stable"
+        rows.append({
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "pattern_type": key[0],
+            "entity_name": key[1],
+            "market_or_region": key[2],
+            "residential_sector": key[3],
+            "first_seen_date": first_seen,
+            "last_seen_date": last_seen,
+            "observation_count": observation_count,
+            "current_run_signal_count": current_count,
+            "recurring_lender_score": recurring_lender_score,
+            "recurring_capital_partner_score": recurring_capital_partner_score,
+            "refinancing_frequency": refinancing_frequency,
+            "construction_financing_frequency": construction_frequency,
+            "capital_flow_direction": direction,
+            "debt_market_stress_label": "Refinancing Stress Watch" if stress_score >= 50 else "Monitor Debt Conditions" if refinancing_frequency else "No Clear Stress",
+            "capital_rotation_signal": "Capital concentration increasing" if direction == "Increasing" else "Capital flow fading" if direction == "Fading" else "Stable capital pattern",
+            "capital_flow_strength_score": capital_flow_strength_score,
+        })
+    rows.sort(key=lambda row: (-safe_int(row["capital_flow_strength_score"]), row["entity_name"]))
+    return rows
+
+
+def generate_capital_flow_memory_outputs(rows, dated_output_dir):
+    """Write capital_flow_memory.csv and capital_flow_report.md."""
+    fieldnames = [
+        "run_timestamp", "pattern_type", "entity_name", "market_or_region", "residential_sector",
+        "first_seen_date", "last_seen_date", "observation_count", "current_run_signal_count",
+        "recurring_lender_score", "recurring_capital_partner_score", "refinancing_frequency",
+        "construction_financing_frequency", "capital_flow_direction", "debt_market_stress_label",
+        "capital_rotation_signal", "capital_flow_strength_score",
+    ]
+    write_csv_outputs(CAPITAL_FLOW_MEMORY_OUTPUT_FILE, fieldnames, rows, dated_output_dir)
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lenders = [row for row in rows if row["pattern_type"] == "Recurring Lender"]
+    relationships = [row for row in rows if row["pattern_type"] in ["Recurring Capital Partner", "Institutional Capital Flow"]]
+    markets = [
+        row for row in rows
+        if row["pattern_type"] == "Market-Level Capital Concentration"
+        and row["entity_name"] not in ["Unknown", "Other / Unknown", "National / Other"]
+    ]
+    stress_rows = [row for row in rows if row["debt_market_stress_label"] == "Refinancing Stress Watch"]
+    construction_rows = [row for row in rows if safe_int(row["construction_financing_frequency"]) > 0]
+    lines = ["# Capital Flow Memory Report", "", f"Generated: {generated_at}", ""]
+    add_memory_report_section(lines, "Debt-Market Stress Summary", stress_rows, lambda row: True)
+    add_memory_report_section(lines, "Capital Migration Patterns", relationships, lambda row: True)
+    add_memory_report_section(lines, "Recurring Construction Lending Activity", construction_rows, lambda row: True)
+    add_memory_report_section(lines, "Agency Financing Patterns", rows, lambda row: row["entity_name"] in ["Fannie Mae", "Freddie Mac", "fannie mae", "freddie mac"])
+    add_memory_report_section(lines, "Refinancing Hotspots", stress_rows, lambda row: True)
+    add_memory_report_section(lines, "Institutional Capital Concentration", markets, lambda row: True)
+    lines.extend([
+        "## Opportunity / Distress Radar",
+        "",
+        f"Opportunity radar is available in `{os.path.basename(OPPORTUNITY_RADAR_REPORT_OUTPUT_FILE)}`.",
+        f"Distress watchlist is available in `{os.path.basename(DISTRESS_WATCHLIST_REPORT_OUTPUT_FILE)}`.",
+        f"Canonical deal fingerprints are available in `{os.path.basename(DEAL_FINGERPRINT_REPORT_OUTPUT_FILE)}`.",
+        f"Opportunity deduplication is available in `{os.path.basename(OPPORTUNITY_DEDUPLICATION_REPORT_OUTPUT_FILE)}`.",
+        f"Timing intelligence is available in `{os.path.basename(TIMING_INTELLIGENCE_REPORT_OUTPUT_FILE)}`.",
+        f"Market entry window scoring is available in `{os.path.basename(MARKET_ENTRY_WINDOW_REPORT_OUTPUT_FILE)}`.",
+        "",
+    ])
+    write_markdown_outputs(CAPITAL_FLOW_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "top_recurring_lender": lenders[0] if lenders else {},
+        "top_gp_capital_relationship": relationships[0] if relationships else {},
+        "top_capital_market": markets[0] if markets else {},
+        "top_refinancing_stress": stress_rows[0] if stress_rows else {},
+    }
+
+
+def build_relationship_persistence_rows(run_timestamp, graph_rows):
+    """Track recurring relationship edges over time."""
+    run_date = current_run_date(run_timestamp)
+    previous_rows = read_csv_file(RELATIONSHIP_PERSISTENCE_OUTPUT_FILE)
+    previous_by_key = {
+        (row.get("canonical_source_entity", ""), row.get("canonical_target_entity", ""), row.get("relationship_type", ""), row.get("market", "")): row
+        for row in previous_rows
+    }
+    current = {}
+    for row in graph_rows:
+        key = (
+            row.get("canonical_source_entity") or row.get("source_entity"),
+            row.get("canonical_target_entity") or row.get("target_entity"),
+            row.get("relationship_type"),
+            row.get("market"),
+        )
+        if key not in current:
+            current[key] = {"count": 0, "score": 0, "deal_type": row.get("deal_type", "")}
+        current[key]["count"] += 1
+        current[key]["score"] = max(current[key]["score"], safe_int(row.get("relationship_strength_score")))
+    rows = []
+    for key in set(previous_by_key) | set(current):
+        previous = previous_by_key.get(key, {})
+        current_row = current.get(key)
+        current_count = safe_int(current_row.get("count", 0)) if current_row else 0
+        repeat_count = safe_int(previous.get("repeat_interaction_count", 0)) + current_count
+        first_seen = previous.get("first_seen_date") or run_date
+        last_seen = run_date if current_row else previous.get("last_seen_date", first_seen)
+        score = min(100, round(repeat_count * 18 + (safe_int(current_row.get("score", 0)) if current_row else safe_int(previous.get("relationship_persistence_score", 0))) * 0.45))
+        relationship_type = key[2]
+        if score >= 75:
+            stability = "Durable"
+        elif current_count == 0:
+            stability = "Fading"
+        elif repeat_count >= 2:
+            stability = "Recurring"
+        else:
+            stability = "Emerging"
+        rows.append({
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "canonical_source_entity": key[0],
+            "canonical_target_entity": key[1],
+            "relationship_type": relationship_type,
+            "market": key[3],
+            "deal_type": current_row.get("deal_type", previous.get("deal_type", "")) if current_row else previous.get("deal_type", ""),
+            "first_seen_date": first_seen,
+            "last_seen_date": last_seen,
+            "repeat_interaction_count": repeat_count,
+            "relationship_persistence_score": score,
+            "partnership_stability_label": stability,
+            "strategic_relationship_label": "Repeat JV Partnership" if relationship_type == "JV / Partnership" and repeat_count >= 2 else "Strategic Relationship Watch" if score >= 60 else "General Relationship",
+            "capital_alignment_label": "Aligned Capital Relationship" if relationship_type in ["Financing Relationship", "Capital Flow", "JV / Partnership"] and repeat_count >= 2 else "No Clear Capital Alignment",
+            "relationship_momentum": "Accelerating" if current_count > safe_int(previous.get("current_run_signal_count", 0)) else "Fading" if current_count == 0 else "Stable",
+            "current_run_signal_count": current_count,
+        })
+    rows.sort(key=lambda row: (-safe_int(row["relationship_persistence_score"]), row["canonical_source_entity"]))
+    return rows
+
+
+def generate_relationship_persistence_outputs(rows, dated_output_dir):
+    """Write relationship_persistence.csv and relationship_persistence_report.md."""
+    fieldnames = [
+        "run_timestamp", "canonical_source_entity", "canonical_target_entity", "relationship_type", "market", "deal_type",
+        "first_seen_date", "last_seen_date", "repeat_interaction_count", "relationship_persistence_score",
+        "partnership_stability_label", "strategic_relationship_label", "capital_alignment_label", "relationship_momentum",
+        "current_run_signal_count",
+    ]
+    write_csv_outputs(RELATIONSHIP_PERSISTENCE_OUTPUT_FILE, fieldnames, rows, dated_output_dir)
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = ["# Relationship Persistence Report", "", f"Generated: {generated_at}", ""]
+    add_memory_report_section(lines, "Strongest Persistent GP Relationships", rows, lambda row: True)
+    add_memory_report_section(lines, "Most Durable Lender Relationships", rows, lambda row: row["relationship_type"] == "Financing Relationship")
+    add_memory_report_section(lines, "Recurring JV Structures", rows, lambda row: row["relationship_type"] == "JV / Partnership")
+    add_memory_report_section(lines, "Repeat Market-Entry Patterns", rows, lambda row: row["relationship_type"] in ["Market Expansion", "Development Activity"])
+    add_memory_report_section(lines, "Repeated California / LA Partnerships", rows, lambda row: row["market"] in ["Los Angeles", "California"])
+    write_markdown_outputs(RELATIONSHIP_PERSISTENCE_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    meaningful_rows = [
+        row for row in rows
+        if row["canonical_source_entity"] != row["canonical_target_entity"]
+        and row["canonical_source_entity"] not in ["Unknown", "Other / Unknown"]
+        and row["canonical_target_entity"] not in ["Unknown", "Other / Unknown"]
+    ]
+    return {
+        "strongest_relationship": meaningful_rows[0] if meaningful_rows else (rows[0] if rows else {}),
+        "repeat_jv_pairs": [row for row in rows if row["relationship_type"] == "JV / Partnership"],
+        "repeat_lender_pairs": [row for row in rows if row["relationship_type"] == "Financing Relationship"],
+    }
+
+
+def find_keyword_matches(text, keywords):
+    """Return keywords found in text."""
+    lowered_text = (text or "").lower()
+    return [keyword for keyword in keywords if keyword.lower() in lowered_text]
+
+
+def get_deal_context_text(row):
+    """Join useful deal fields for opportunity/distress keyword detection."""
+    return " ".join(str(row.get(field, "")) for field in [
+        "project_or_deal_name",
+        "deal_type",
+        "asset_type",
+        "market",
+        "city_or_submarket",
+        "state_or_region",
+        "gp_or_developer",
+        "institutional_partner",
+        "lender_or_debt_provider",
+        "capital_partner",
+        "loan_amount",
+        "acquisition_price",
+        "development_cost",
+        "cap_rate",
+        "construction_start_or_delivery_timing",
+        "entitlement_or_permitting_stage",
+        "source_article_title",
+    ])
+
+
+def get_opportunity_type(row, text):
+    """Detect the primary opportunity type for a deal/project row."""
+    debt_matches = find_keyword_matches(text, DEBT_STRESS_KEYWORDS)
+    distress_matches = find_keyword_matches(text, DISTRESS_KEYWORDS)
+    stalled_matches = find_keyword_matches(text, STALLED_DEVELOPMENT_KEYWORDS)
+    opportunity_matches = find_keyword_matches(text, OPPORTUNITY_KEYWORDS)
+    deal_type = row.get("deal_type", "")
+    sector = row.get("residential_sector", "")
+    market = row.get("market", "")
+
+    if distress_matches:
+        return "Distressed Seller / Sponsor Stress"
+    if "preferred equity" in [match.lower() for match in debt_matches] or "rescue capital" in [match.lower() for match in debt_matches]:
+        return "Preferred Equity / Rescue Capital Need"
+    if "recapitalization" in opportunity_matches or deal_type == "Recapitalization":
+        return "Recapitalization Opportunity"
+    if deal_type == "Refinancing" or "refinancing" in [match.lower() for match in debt_matches]:
+        return "Refinancing Gap"
+    if deal_type == "Construction Financing" or "construction loan" in [match.lower() for match in debt_matches]:
+        return "Construction Financing Gap"
+    if stalled_matches:
+        return "Stalled Development"
+    if deal_type == "Acquisition" or "acquisition" in opportunity_matches:
+        return "Acquisition Opportunity"
+    if deal_type == "JV / Partnership":
+        return "JV / Partnership Gap"
+    if deal_type == "Entitlement / Permitting" or market in ["Los Angeles", "California"]:
+        return "LA / California Entitlement Opportunity"
+    if deal_type == "Office-to-Residential Conversion" or "office-to-residential" in opportunity_matches:
+        return "Office-to-Residential Conversion Opportunity"
+    if sector == "BTR / Single-Family Rental" or deal_type == "BTR / Build-to-Rent":
+        return "BTR / SFR Platform Opportunity"
+    if sector in ["Affordable Housing", "Workforce Housing"]:
+        return "Affordable / Workforce Housing Opportunity"
+    if row.get("gp_or_developer") != "Unknown":
+        return "GP Capability Partnership Opportunity"
+    if deal_type in ["Development Start", "General Project Signal"]:
+        return "Land / Pipeline Opportunity"
+    return "Monitor Only"
+
+
+def get_distress_type(text, deal_type):
+    """Detect the primary distress type from keywords and deal type."""
+    lowered = (text or "").lower()
+    if "foreclosure" in lowered:
+        return "foreclosure"
+    if "receivership" in lowered:
+        return "receivership"
+    if "bankruptcy" in lowered or "default" in lowered:
+        return "loan default"
+    if "preferred equity" in lowered:
+        return "preferred equity"
+    if "rescue capital" in lowered:
+        return "rescue capital"
+    if "recapitalization" in lowered or deal_type == "Recapitalization":
+        return "recapitalization need"
+    if "construction loan" in lowered or deal_type == "Construction Financing":
+        return "construction loan gap"
+    if "bridge loan" in lowered:
+        return "bridge loan stress"
+    if "floating rate" in lowered:
+        return "floating-rate debt"
+    if "maturity" in lowered:
+        return "maturity wall"
+    if "stalled" in lowered or "delayed" in lowered or "paused" in lowered:
+        return "stalled project"
+    if "refinancing" in lowered or deal_type == "Refinancing":
+        return "refinancing stress"
+    if find_keyword_matches(text, DISTRESS_KEYWORDS):
+        return "distressed sale"
+    return ""
+
+
+def max_score_for_entity(rows, name, name_fields, score_field):
+    """Find the highest score for an entity across rows."""
+    if not name or name == "Unknown":
+        return 0
+    canonical_name = canonical_gp_value(name)
+    scores = []
+    for row in rows:
+        for field in name_fields:
+            value = row.get(field, "")
+            if value == name or canonical_gp_value(value) == canonical_name:
+                scores.append(safe_int(row.get(score_field)))
+                break
+    return max(scores) if scores else 0
+
+
+def max_score_for_market(rows, market, score_field):
+    """Find the highest score for a market across rows."""
+    if not market:
+        return 0
+    scores = [
+        safe_int(row.get(score_field))
+        for row in rows
+        if row.get("market_or_region") == market
+        or row.get("market") == market
+        or row.get("entity_name") == market
+    ]
+    return max(scores) if scores else 0
+
+
+def get_opportunity_priority_label(score):
+    """Label opportunity score."""
+    if score >= 80:
+        return "Immediate Opportunity Watch"
+    if score >= 60:
+        return "Strategic Opportunity Watch"
+    if score >= 40:
+        return "Monitor"
+    return "Low Signal"
+
+
+def get_distress_priority_label(score):
+    """Label distress score."""
+    if score >= 80:
+        return "Critical Distress Watch"
+    if score >= 60:
+        return "High Distress Watch"
+    if score >= 40:
+        return "Monitor"
+    return "Low Signal"
+
+
+def get_confidence_label(score, evidence_count):
+    """Assign confidence from score and evidence count."""
+    if score >= 75 and evidence_count >= 3:
+        return "High"
+    if score >= 50 and evidence_count >= 2:
+        return "Medium"
+    return "Low"
+
+
+def get_potential_woomi_angle(opportunity_type, market, sector):
+    """Create a Woomi-specific angle for the opportunity row."""
+    if market in ["Los Angeles", "California"]:
+        return "Evaluate LA / California entitlement, zoning, or local GP partnership relevance"
+    if opportunity_type in ["Refinancing Gap", "Construction Financing Gap", "Preferred Equity / Rescue Capital Need"]:
+        return "Track potential rescue capital, debt recapitalization, or capital partner opening"
+    if opportunity_type in ["Acquisition Opportunity", "Distressed Seller / Sponsor Stress"]:
+        return "Use as a possible acquisition, pricing, or distressed basis benchmark"
+    if opportunity_type in ["JV / Partnership Gap", "GP Capability Partnership Opportunity"]:
+        return "Map possible GP partnership or capability-building relationship"
+    if sector == "BTR / Single-Family Rental":
+        return "Monitor BTR / SFR platform strategy and possible partner benchmarks"
+    if sector in ["Affordable Housing", "Workforce Housing"]:
+        return "Monitor public-private, LIHTC, or workforce housing partnership angle"
+    return "Monitor for underwriting, market-entry, or partnership implications"
+
+
+def get_opportunity_next_action(opportunity_type, score):
+    """Recommend a next action for an opportunity row."""
+    if score >= 80:
+        return "Add to executive opportunity review"
+    if opportunity_type in ["Refinancing Gap", "Construction Financing Gap", "Preferred Equity / Rescue Capital Need"]:
+        return "Track debt stack, maturity, lender, and recapitalization details"
+    if opportunity_type in ["Acquisition Opportunity", "Distressed Seller / Sponsor Stress"]:
+        return "Research owner, basis, pricing, and transaction history"
+    if opportunity_type in ["JV / Partnership Gap", "GP Capability Partnership Opportunity"]:
+        return "Map GP, capital partner, and relationship history"
+    if opportunity_type == "LA / California Entitlement Opportunity":
+        return "Review entitlement, zoning, permitting, and local sponsor context"
+    return "Monitor for repeated signals"
+
+
+def build_opportunity_radar_rows(run_timestamp, deal_rows, materiality_rows, severity_rows, relationship_rows, graph_rows, memory_rows, capital_flow_rows, gp_watchlist_rows):
+    """Build opportunity radar rows from deal, relationship, and memory layers."""
+    rows = []
+    max_materiality = max([safe_int(row.get("materiality_score")) for row in materiality_rows] or [0])
+    max_impact = max([safe_int(row.get("impact_score")) for row in materiality_rows] or [0])
+    max_severity = max([safe_int(row.get("severity_score")) for row in severity_rows] or [0])
+
+    for index, deal in enumerate(deal_rows, start=1):
+        text = get_deal_context_text(deal)
+        opportunity_type = get_opportunity_type(deal, text)
+        debt_matches = find_keyword_matches(text, DEBT_STRESS_KEYWORDS)
+        distress_matches = find_keyword_matches(text, DISTRESS_KEYWORDS)
+        stalled_matches = find_keyword_matches(text, STALLED_DEVELOPMENT_KEYWORDS)
+        opportunity_matches = find_keyword_matches(text, OPPORTUNITY_KEYWORDS)
+        if opportunity_type == "Monitor Only" and not (debt_matches or distress_matches or stalled_matches or opportunity_matches):
+            continue
+
+        gp_name = deal.get("canonical_gp_or_developer") or deal.get("gp_or_developer", "Unknown")
+        lender_name = deal.get("canonical_lender_or_debt_provider") or deal.get("lender_or_debt_provider", "Unknown")
+        capital_name = deal.get("canonical_capital_partner") or deal.get("capital_partner", "Unknown")
+        market = deal.get("market", "Other / Unknown")
+        relationship_score = max_score_for_entity(
+            graph_rows,
+            gp_name,
+            ["canonical_source_entity", "canonical_target_entity", "source_entity", "target_entity"],
+            "relationship_strength_score",
+        )
+        institutional_score = max(
+            max_score_for_entity(relationship_rows, gp_name, ["firm_name"], "institutional_relationship_score"),
+            max_score_for_entity(relationship_rows, capital_name, ["firm_name"], "institutional_relationship_score"),
+        )
+        memory_score = max(
+            max_score_for_entity(memory_rows, gp_name, ["entity_name"], "historical_importance_score"),
+            max_score_for_market(memory_rows, market, "historical_importance_score"),
+        )
+        capital_score = max(
+            max_score_for_entity(capital_flow_rows, lender_name, ["entity_name"], "capital_flow_strength_score"),
+            max_score_for_market(capital_flow_rows, market, "capital_flow_strength_score"),
+        )
+        gp_score = max_score_for_entity(gp_watchlist_rows, gp_name, ["canonical_gp_name", "gp_name"], "emerging_gp_score")
+        california_score = 100 if market in ["Los Angeles", "California"] else 0
+        sector_score = 80 if deal.get("residential_sector") in ["Multifamily", "Apartment", "BTR / Single-Family Rental", "Affordable Housing", "Workforce Housing", "Office-to-Residential Conversion"] else 40
+        debt_stress_score = 80 if debt_matches else 0
+
+        score = min(100, round(
+            safe_int(deal.get("deal_signal_score")) * 0.25
+            + max_materiality * 0.10
+            + max_impact * 0.10
+            + max_severity * 0.10
+            + institutional_score * 0.10
+            + relationship_score * 0.10
+            + memory_score * 0.08
+            + capital_score * 0.07
+            + debt_stress_score * 0.04
+            + california_score * 0.03
+            + sector_score * 0.02
+            + gp_score * 0.01
+        ))
+        evidence = sorted(set(debt_matches + distress_matches + stalled_matches + opportunity_matches + [deal.get("deal_type", "")]))
+        evidence_count = len([item for item in evidence if item])
+
+        rows.append({
+            "opportunity_id": f"OPP-{run_timestamp.strftime('%Y%m%d')}-{index:03d}",
+            "deal_fingerprint_id": deal.get("deal_fingerprint_id", ""),
+            "duplicate_cluster_id": deal.get("duplicate_cluster_id", ""),
+            "opportunity_type": opportunity_type,
+            "market": market,
+            "residential_sector": deal.get("residential_sector", "General Residential"),
+            "gp_or_developer": gp_name,
+            "lender_or_capital_provider": lender_name if lender_name != "Unknown" else capital_name,
+            "related_project_or_deal": deal.get("project_or_deal_name", ""),
+            "source_article_title": deal.get("source_article_title", ""),
+            "source": deal.get("source", ""),
+            "url": deal.get("url", ""),
+            "opportunity_score": score,
+            "opportunity_uniqueness_score": max(20, 100 - max(0, safe_int(deal.get("duplicate_count")) - 1) * 20),
+            "event_materiality_score": min(100, round(safe_int(deal.get("deal_signal_score")) * 0.6 + max_materiality * 0.4)),
+            "repeat_coverage_score": min(100, safe_int(deal.get("duplicate_count")) * 25),
+            "institutional_confirmation_score": min(100, round((institutional_score + relationship_score + capital_score) / 3)),
+            "opportunity_priority_label": get_opportunity_priority_label(score),
+            "evidence_signals": "; ".join(evidence) or "Deal/project signal",
+            "why_it_matters": f"{opportunity_type} may create a pricing, capital, partnership, or pipeline opening in {market}.",
+            "potential_woomi_angle": get_potential_woomi_angle(opportunity_type, market, deal.get("residential_sector", "")),
+            "recommended_next_action": get_opportunity_next_action(opportunity_type, score),
+            "confidence_level": get_confidence_label(score, evidence_count),
+        })
+
+    rows.sort(key=lambda row: (-safe_int(row["opportunity_score"]), row["opportunity_type"], row["market"]))
+    return rows
+
+
+def build_distress_watchlist_rows(run_timestamp, deal_rows, capital_flow_rows, memory_rows):
+    """Build distress watchlist rows from deal and capital-flow signals."""
+    rows = []
+    for index, deal in enumerate(deal_rows, start=1):
+        text = get_deal_context_text(deal)
+        distress_type = get_distress_type(text, deal.get("deal_type", ""))
+        debt_matches = find_keyword_matches(text, DEBT_STRESS_KEYWORDS)
+        distress_matches = find_keyword_matches(text, DISTRESS_KEYWORDS)
+        stalled_matches = find_keyword_matches(text, STALLED_DEVELOPMENT_KEYWORDS)
+        if not distress_type and not debt_matches and not distress_matches and not stalled_matches:
+            continue
+
+        market = deal.get("market", "Other / Unknown")
+        lender = deal.get("canonical_lender_or_debt_provider") or deal.get("lender_or_debt_provider", "Unknown")
+        capital_score = max(
+            max_score_for_entity(capital_flow_rows, lender, ["entity_name"], "capital_flow_strength_score"),
+            max_score_for_market(capital_flow_rows, market, "capital_flow_strength_score"),
+        )
+        memory_score = max_score_for_market(memory_rows, market, "capital_flow_strength_score")
+        keyword_score = min(100, (len(debt_matches) + len(distress_matches) * 2 + len(stalled_matches)) * 18)
+        score = min(100, round(
+            safe_int(deal.get("deal_signal_score")) * 0.35
+            + capital_score * 0.25
+            + memory_score * 0.10
+            + keyword_score * 0.20
+            + (10 if market in ["Los Angeles", "California"] else 0)
+        ))
+        evidence = sorted(set(debt_matches + distress_matches + stalled_matches + [deal.get("deal_type", "")]))
+        rows.append({
+            "distress_id": f"DST-{run_timestamp.strftime('%Y%m%d')}-{index:03d}",
+            "deal_fingerprint_id": deal.get("deal_fingerprint_id", ""),
+            "duplicate_cluster_id": deal.get("duplicate_cluster_id", ""),
+            "distress_type": distress_type or "refinancing stress",
+            "market": market,
+            "residential_sector": deal.get("residential_sector", "General Residential"),
+            "gp_or_developer": deal.get("canonical_gp_or_developer") or deal.get("gp_or_developer", "Unknown"),
+            "lender_or_debt_provider": lender,
+            "related_project_or_deal": deal.get("project_or_deal_name", ""),
+            "distress_score": score,
+            "distress_priority_label": get_distress_priority_label(score),
+            "evidence_signals": "; ".join(evidence),
+            "potential_woomi_angle": get_potential_woomi_angle("Refinancing Gap", market, deal.get("residential_sector", "")),
+            "recommended_next_action": "Track debt maturity, lender exposure, sponsor stress, and recapitalization options" if score >= 60 else "Monitor for repeated distress signals",
+            "source_article_title": deal.get("source_article_title", ""),
+            "url": deal.get("url", ""),
+            "confidence_level": get_confidence_label(score, len(evidence)),
+        })
+
+    rows.sort(key=lambda row: (-safe_int(row["distress_score"]), row["distress_type"], row["market"]))
+    return rows
+
+
+def add_opportunity_section(lines, title, rows, filter_function, score_field, type_field):
+    """Add opportunity/distress section to Markdown."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected_rows = [row for row in rows if filter_function(row)]
+    if not selected_rows:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+    for row in selected_rows[:10]:
+        lines.append(
+            f"- {row.get(type_field)} in {row.get('market')}: "
+            f"{row.get('related_project_or_deal')}, score {row.get(score_field)}. "
+            f"{row.get('recommended_next_action')}."
+        )
+    lines.append("")
+
+
+def generate_opportunity_radar_outputs(opportunity_rows, dated_output_dir):
+    """Write opportunity_radar.csv and opportunity_radar_report.md."""
+    fieldnames = [
+        "opportunity_id", "deal_fingerprint_id", "duplicate_cluster_id", "opportunity_type", "market", "residential_sector", "gp_or_developer",
+        "lender_or_capital_provider", "related_project_or_deal", "source_article_title", "source", "url",
+        "opportunity_score", "opportunity_uniqueness_score", "event_materiality_score",
+        "repeat_coverage_score", "institutional_confirmation_score", "opportunity_priority_label", "evidence_signals", "why_it_matters",
+        "potential_woomi_angle", "recommended_next_action", "confidence_level",
+    ]
+    write_csv_outputs(OPPORTUNITY_RADAR_OUTPUT_FILE, fieldnames, opportunity_rows, dated_output_dir)
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = ["# Opportunity Radar Report", "", f"Generated: {generated_at}", "", f"- Total opportunities detected: {len(opportunity_rows)}", ""]
+    add_opportunity_section(lines, "Top 10 Opportunities", opportunity_rows, lambda row: True, "opportunity_score", "opportunity_type")
+    add_opportunity_section(lines, "LA / California Opportunities", opportunity_rows, lambda row: row["market"] in ["Los Angeles", "California"], "opportunity_score", "opportunity_type")
+    add_opportunity_section(lines, "Acquisition / Recapitalization Opportunities", opportunity_rows, lambda row: row["opportunity_type"] in ["Acquisition Opportunity", "Recapitalization Opportunity"], "opportunity_score", "opportunity_type")
+    add_opportunity_section(lines, "Distressed / Rescue Capital Opportunities", opportunity_rows, lambda row: row["opportunity_type"] in ["Distressed Seller / Sponsor Stress", "Preferred Equity / Rescue Capital Need", "Refinancing Gap"], "opportunity_score", "opportunity_type")
+    add_opportunity_section(lines, "BTR / SFR Opportunities", opportunity_rows, lambda row: row["opportunity_type"] == "BTR / SFR Platform Opportunity" or row["residential_sector"] == "BTR / Single-Family Rental", "opportunity_score", "opportunity_type")
+    add_opportunity_section(lines, "Office-to-Residential Opportunities", opportunity_rows, lambda row: row["opportunity_type"] == "Office-to-Residential Conversion Opportunity", "opportunity_score", "opportunity_type")
+    add_opportunity_section(lines, "Affordable / Workforce Opportunities", opportunity_rows, lambda row: row["opportunity_type"] == "Affordable / Workforce Housing Opportunity" or row["residential_sector"] in ["Affordable Housing", "Workforce Housing"], "opportunity_score", "opportunity_type")
+    add_opportunity_section(lines, "Potential GP Partnership Opportunities", opportunity_rows, lambda row: row["opportunity_type"] in ["JV / Partnership Gap", "GP Capability Partnership Opportunity"], "opportunity_score", "opportunity_type")
+    lines.extend([
+        "## Timing / Market Entry Window Summary",
+        "",
+        f"Timing intelligence is available in `{os.path.basename(TIMING_INTELLIGENCE_REPORT_OUTPUT_FILE)}`.",
+        f"Market entry window scoring is available in `{os.path.basename(MARKET_ENTRY_WINDOW_REPORT_OUTPUT_FILE)}`.",
+        "",
+        "## Deduplicated Opportunity Summary",
+        "",
+        f"Canonical event cleanup is available in `{os.path.basename(OPPORTUNITY_DEDUPLICATION_REPORT_OUTPUT_FILE)}`.",
+        f"Deal fingerprints are available in `{os.path.basename(DEAL_FINGERPRINT_REPORT_OUTPUT_FILE)}`.",
+        "Opportunity rows use canonical fingerprints so repeated article coverage does not inflate the radar.",
+        "",
+        "## Multi-Source Confirmation Summary",
+        "",
+        "Repeat coverage increases confirmation only when it maps to the same canonical event fingerprint.",
+        "",
+    ])
+    lines.extend(["## Implications for Woomi / Woomi Global", ""])
+    if opportunity_rows:
+        lines.append("- Use Immediate and Strategic Opportunity Watch rows as a first-pass agenda for acquisition, recapitalization, JV, and market-entry discussion.")
+        lines.append("- Cross-check top rows against relationship persistence and capital-flow memory before outreach or underwriting work.")
+    else:
+        lines.append("- No opportunity radar items were detected in this run.")
+    lines.extend(["", "## Recommended Executive Follow-up", ""])
+    for row in opportunity_rows[:5]:
+        lines.append(f"- {row['recommended_next_action']}: {row['opportunity_type']} in {row['market']}.")
+    if not opportunity_rows:
+        lines.append("- Continue monitoring for repeated opportunity signals.")
+    lines.append("")
+    write_markdown_outputs(OPPORTUNITY_RADAR_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "total_opportunities": len(opportunity_rows),
+        "top_opportunity": opportunity_rows[0] if opportunity_rows else {},
+        "la_california_count": len([row for row in opportunity_rows if row["market"] in ["Los Angeles", "California"]]),
+        "executive_follow_up": [row["recommended_next_action"] for row in opportunity_rows[:5]],
+    }
+
+
+def generate_distress_watchlist_outputs(distress_rows, dated_output_dir):
+    """Write distress_watchlist.csv and distress_watchlist_report.md."""
+    fieldnames = [
+        "distress_id", "deal_fingerprint_id", "duplicate_cluster_id", "distress_type", "market", "residential_sector", "gp_or_developer",
+        "lender_or_debt_provider", "related_project_or_deal", "distress_score", "distress_priority_label",
+        "evidence_signals", "potential_woomi_angle", "recommended_next_action", "source_article_title",
+        "url", "confidence_level",
+    ]
+    write_csv_outputs(DISTRESS_WATCHLIST_OUTPUT_FILE, fieldnames, distress_rows, dated_output_dir)
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = ["# Distress Watchlist Report", "", f"Generated: {generated_at}", "", f"- Total distress signals: {len(distress_rows)}", ""]
+    add_opportunity_section(lines, "Top Distress Watch Items", distress_rows, lambda row: True, "distress_score", "distress_type")
+    add_opportunity_section(lines, "Refinancing Stress Watch", distress_rows, lambda row: "refinancing" in row["distress_type"], "distress_score", "distress_type")
+    add_opportunity_section(lines, "Construction Financing Gap Watch", distress_rows, lambda row: "construction" in row["distress_type"], "distress_score", "distress_type")
+    add_opportunity_section(lines, "Stalled Project Watch", distress_rows, lambda row: "stalled" in row["distress_type"], "distress_score", "distress_type")
+    add_opportunity_section(lines, "Distressed Seller / Sponsor Watch", distress_rows, lambda row: row["distress_type"] in ["distressed sale", "foreclosure", "receivership", "loan default"], "distress_score", "distress_type")
+    lines.extend([
+        "## Timing / Market Entry Window Summary",
+        "",
+        f"Timing intelligence is available in `{os.path.basename(TIMING_INTELLIGENCE_REPORT_OUTPUT_FILE)}`.",
+        f"Market entry window scoring is available in `{os.path.basename(MARKET_ENTRY_WINDOW_REPORT_OUTPUT_FILE)}`.",
+        "",
+        "## Deduplicated Distress Summary",
+        "",
+        f"Distress rows are checked against `{os.path.basename(DEAL_FINGERPRINT_REPORT_OUTPUT_FILE)}` and `{os.path.basename(OPPORTUNITY_DEDUPLICATION_REPORT_OUTPUT_FILE)}`.",
+        "This helps avoid counting repeated refinancing or stalled-project coverage as separate distress events.",
+        "",
+    ])
+    lines.extend(["## Market Concentration of Distress Signals", ""])
+    market_counts = Counter(row["market"] for row in distress_rows)
+    if market_counts:
+        for market, count in market_counts.most_common(8):
+            lines.append(f"- {market}: {count} distress signal(s)")
+    else:
+        lines.append("- No distress market concentration detected.")
+    lines.extend(["", "## Implications for Woomi / Woomi Global", ""])
+    if distress_rows:
+        lines.append("- Distress rows can highlight recapitalization, rescue capital, acquisition basis, or lender pressure themes to monitor.")
+    else:
+        lines.append("- No distress watchlist items were detected in this run.")
+    lines.extend(["", "## Recommended Next Actions", ""])
+    for row in distress_rows[:5]:
+        lines.append(f"- {row['recommended_next_action']}: {row['distress_type']} in {row['market']}.")
+    if not distress_rows:
+        lines.append("- Continue monitoring debt and sponsor-stress language.")
+    lines.append("")
+    write_markdown_outputs(DISTRESS_WATCHLIST_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "total_distress": len(distress_rows),
+        "top_distress": distress_rows[0] if distress_rows else {},
+        "refinancing_stress_count": len([row for row in distress_rows if "refinancing" in row["distress_type"]]),
+        "construction_gap_count": len([row for row in distress_rows if "construction" in row["distress_type"]]),
+    }
+
+
+def build_opportunity_deduplication_rows(run_timestamp, raw_opportunity_rows, raw_distress_rows):
+    """Cluster opportunities and distress rows by deal_fingerprint_id."""
+    grouped = {}
+
+    def add_row(row, row_kind):
+        fingerprint_id = row.get("deal_fingerprint_id") or row.get("opportunity_id") or row.get("distress_id")
+        grouped.setdefault(fingerprint_id, {"opportunities": [], "distress": []})
+        grouped[fingerprint_id][row_kind].append(row)
+
+    for row in raw_opportunity_rows:
+        add_row(row, "opportunities")
+    for row in raw_distress_rows:
+        add_row(row, "distress")
+
+    rows = []
+    for index, (fingerprint_id, group) in enumerate(grouped.items(), start=1):
+        opportunities = group["opportunities"]
+        distress = group["distress"]
+        combined = opportunities + distress
+        if not combined:
+            continue
+        primary = sorted(
+            combined,
+            key=lambda row: -max(safe_int(row.get("opportunity_score")), safe_int(row.get("distress_score"))),
+        )[0]
+        opportunity_scores = [safe_int(row.get("opportunity_score")) for row in opportunities]
+        distress_scores = [safe_int(row.get("distress_score")) for row in distress]
+        duplicate_count = len(combined)
+        source_titles = sorted(set(row.get("source_article_title", "") for row in combined if row.get("source_article_title")))
+        deduped_opportunity_score = max(opportunity_scores or [0])
+        deduped_distress_score = max(distress_scores or [0])
+        rows.append({
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "duplicate_cluster_id": primary.get("duplicate_cluster_id") or f"OCL-{run_timestamp.strftime('%Y%m%d')}-{index:03d}",
+            "deal_fingerprint_id": fingerprint_id,
+            "duplicate_count": duplicate_count,
+            "primary_reference_article": primary.get("source_article_title", ""),
+            "duplicate_articles": "; ".join(source_titles[:10]),
+            "deduplicated_opportunity_score": deduped_opportunity_score,
+            "deduplicated_distress_score": deduped_distress_score,
+            "opportunities_before_deduplication": len(opportunities),
+            "distress_before_deduplication": len(distress),
+            "opportunities_removed_via_deduplication": max(0, len(opportunities) - 1),
+            "distress_inflation_prevented": max(0, len(distress) - 1),
+            "multi_source_confirmation": "Yes" if duplicate_count > 1 else "No",
+            "strongest_opportunity_type": primary.get("opportunity_type", ""),
+            "strongest_distress_type": primary.get("distress_type", ""),
+            "market": primary.get("market", "Other / Unknown"),
+            "residential_sector": primary.get("residential_sector", "General Residential"),
+        })
+
+    rows.sort(
+        key=lambda row: (
+            -safe_int(row["duplicate_count"]),
+            -safe_int(row["deduplicated_opportunity_score"]),
+            -safe_int(row["deduplicated_distress_score"]),
+        )
+    )
+    return rows
+
+
+def dedupe_rows_by_fingerprint(rows, score_field):
+    """Keep the strongest opportunity or distress row per canonical event."""
+    best_rows = {}
+    for row in rows:
+        key = row.get("deal_fingerprint_id") or row.get("duplicate_cluster_id") or row.get("source_article_title")
+        if key not in best_rows or safe_int(row.get(score_field)) > safe_int(best_rows[key].get(score_field)):
+            best_rows[key] = row
+    return sorted(best_rows.values(), key=lambda row: -safe_int(row.get(score_field)))
+
+
+def generate_opportunity_deduplication_outputs(dedup_rows, dated_output_dir):
+    """Write opportunity_deduplication.csv and report."""
+    fieldnames = [
+        "run_timestamp", "duplicate_cluster_id", "deal_fingerprint_id", "duplicate_count",
+        "primary_reference_article", "duplicate_articles", "deduplicated_opportunity_score",
+        "deduplicated_distress_score", "opportunities_before_deduplication",
+        "distress_before_deduplication", "opportunities_removed_via_deduplication",
+        "distress_inflation_prevented", "multi_source_confirmation",
+        "strongest_opportunity_type", "strongest_distress_type", "market", "residential_sector",
+    ]
+    write_csv_outputs(OPPORTUNITY_DEDUPLICATION_OUTPUT_FILE, fieldnames, dedup_rows, dated_output_dir)
+
+    duplicate_clusters = [row for row in dedup_rows if safe_int(row.get("duplicate_count")) > 1]
+    removed_opportunities = sum(safe_int(row.get("opportunities_removed_via_deduplication")) for row in dedup_rows)
+    distress_prevented = sum(safe_int(row.get("distress_inflation_prevented")) for row in dedup_rows)
+    multi_source_rows = [row for row in dedup_rows if row.get("multi_source_confirmation") == "Yes"]
+    refinancing_rows = [row for row in dedup_rows if "refinancing" in row.get("strongest_distress_type", "").lower() or "refinancing" in row.get("strongest_opportunity_type", "").lower()]
+    partnership_rows = [row for row in dedup_rows if "partnership" in row.get("strongest_opportunity_type", "").lower() or "jv" in row.get("strongest_opportunity_type", "").lower()]
+    california_rows = [row for row in dedup_rows if row.get("market") in ["Los Angeles", "California"]]
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = [
+        "# Opportunity Deduplication Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total duplicate clusters: {len(duplicate_clusters)}",
+        f"- Opportunities removed via deduplication: {removed_opportunities}",
+        f"- Distress inflation prevented: {distress_prevented}",
+        "",
+    ]
+    add_dedup_section(lines, "Strongest Multi-Source Confirmed Opportunities", multi_source_rows)
+    add_dedup_section(lines, "Repeated Refinancing Stories", refinancing_rows)
+    add_dedup_section(lines, "Repeated GP Partnership Stories", partnership_rows)
+    add_dedup_section(lines, "California / LA Duplicate Project Tracking", california_rows)
+    lines.extend([
+        "## Why This Matters",
+        "",
+        "- Deduplication prevents syndicated or repeated articles from overstating opportunity, distress, GP, and capital-flow signals.",
+        "- Multi-source confirmation still raises confidence when different sources point to the same canonical event.",
+        "",
+    ])
+    write_markdown_outputs(OPPORTUNITY_DEDUPLICATION_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "total_duplicate_clusters": len(duplicate_clusters),
+        "opportunities_removed": removed_opportunities,
+        "distress_inflation_prevented": distress_prevented,
+        "strongest_multi_source_opportunity": multi_source_rows[0] if multi_source_rows else {},
+    }
+
+
+def add_dedup_section(lines, title, rows):
+    """Add one deduplication report section."""
+    lines.append(f"## {title}")
+    lines.append("")
+    if not rows:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+    for row in rows[:10]:
+        lines.append(
+            f"- {row.get('primary_reference_article')}: {row.get('market')}, "
+            f"{row.get('duplicate_count')} related row(s), "
+            f"opportunity score {row.get('deduplicated_opportunity_score')}, "
+            f"distress score {row.get('deduplicated_distress_score')}."
+        )
+    lines.append("")
+
+
+def extract_timing_reference(text):
+    """Pull a short timing phrase from article/deal text."""
+    patterns = [
+        r"\b(?:in|by|during|through|until)\s+(?:Q[1-4]\s+)?20\d{2}\b",
+        r"\b(?:Q[1-4]\s+20\d{2})\b",
+        r"\b(?:0-3|3-6|6-12|12\+)\s+months?\b",
+        r"\b(?:next|this)\s+(?:quarter|year|month)\b",
+        r"\b20\d{2}\b",
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, text, flags=re.IGNORECASE)
+        if match:
+            return match.group(0)
+    return "No explicit timing reference"
+
+
+def get_timing_signal_type(text, deal_type, opportunity_type="", distress_type="", sector=""):
+    """Classify a row into one simple timing signal type."""
+    refinancing_matches = find_keyword_matches(text, REFINANCING_TIMING_KEYWORDS)
+    development_matches = find_keyword_matches(text, DEVELOPMENT_TIMING_KEYWORDS)
+    entitlement_matches = find_keyword_matches(text, ENTITLEMENT_TIMING_KEYWORDS)
+    capital_matches = find_keyword_matches(text, CAPITAL_ACQUISITION_TIMING_KEYWORDS)
+
+    if refinancing_matches or "Refinancing" in deal_type or "Refinancing" in opportunity_type:
+        return "Refinancing / Maturity Window"
+    if "construction start" in refinancing_matches:
+        return "Construction Start"
+    if any(word in text.lower() for word in ["broke ground", "construction start", "starts in"]) or deal_type == "Development Start":
+        return "Construction Start"
+    if any(word in text.lower() for word in ["expected delivery", "delivery in", "opens in", "completed"]):
+        return "Construction Completion / Delivery"
+    if any(word in text.lower() for word in ["lease-up", "preleasing", "stabilized"]):
+        return "Lease-Up / Stabilization"
+    if entitlement_matches or deal_type == "Entitlement / Permitting":
+        return "Entitlement / Permitting"
+    if "Capital Re-entry" in opportunity_type or "capital deployment" in text.lower() or "re-entry" in text.lower():
+        return "Capital Re-entry"
+    if "Acquisition" in opportunity_type or deal_type == "Acquisition":
+        return "Acquisition Window"
+    if "distressed sale" in text.lower() or "Distress" in opportunity_type or distress_type:
+        return "Distress Sale Timing"
+    if "Recapitalization" in opportunity_type or deal_type == "Recapitalization":
+        return "Recapitalization Timing"
+    if "office-to-residential" in text.lower() or deal_type == "Office-to-Residential Conversion":
+        return "Office-to-Residential Conversion Timing"
+    if sector == "BTR / Single-Family Rental" or "BTR" in deal_type:
+        return "BTR / SFR Expansion Timing"
+    if "supply" in text.lower() or "delivery" in text.lower() or "starts" in text.lower():
+        return "Supply Wave Timing"
+    if development_matches or capital_matches:
+        return "General Timing Signal"
+    return ""
+
+
+def get_estimated_timing_bucket(timing_reference, text):
+    """Convert timing language into a rough monitoring bucket."""
+    combined = f"{timing_reference} {text}".lower()
+    current_year = datetime.now().year
+    if any(word in combined for word in ["immediate", "this month", "this quarter", "next quarter", "0-3"]):
+        return "Immediate / 0-3 Months"
+    if "3-6" in combined or "near-term" in combined:
+        return "Near-Term / 3-6 Months"
+    if "6-12" in combined or "next year" in combined:
+        return "Medium-Term / 6-12 Months"
+    years = [safe_int(year) for year in re.findall(r"\b20\d{2}\b", combined)]
+    if years:
+        soonest = min(years)
+        if soonest <= current_year:
+            return "Immediate / 0-3 Months"
+        if soonest == current_year + 1:
+            return "Medium-Term / 6-12 Months"
+        return "Long-Term / 12+ Months"
+    return "Unknown Timing"
+
+
+def get_timing_urgency_score(signal_type, timing_bucket, base_score, market):
+    """Score timing urgency from signal type, bucket, and existing signal quality."""
+    type_bonus = {
+        "Refinancing / Maturity Window": 22,
+        "Distress Sale Timing": 22,
+        "Recapitalization Timing": 20,
+        "Acquisition Window": 18,
+        "Entitlement / Permitting": 16,
+        "Construction Start": 14,
+        "Construction Completion / Delivery": 14,
+        "Lease-Up / Stabilization": 12,
+        "Capital Re-entry": 18,
+        "Office-to-Residential Conversion Timing": 16,
+        "BTR / SFR Expansion Timing": 14,
+        "Supply Wave Timing": 14,
+        "General Timing Signal": 8,
+    }.get(signal_type, 0)
+    bucket_bonus = {
+        "Immediate / 0-3 Months": 28,
+        "Near-Term / 3-6 Months": 22,
+        "Medium-Term / 6-12 Months": 14,
+        "Long-Term / 12+ Months": 6,
+        "Unknown Timing": 4,
+    }.get(timing_bucket, 0)
+    market_bonus = 8 if market in ["Los Angeles", "California"] else 0
+    return min(100, round(base_score * 0.45 + type_bonus + bucket_bonus + market_bonus))
+
+
+def get_timing_confidence(score, timing_reference, evidence_count):
+    """Label timing confidence."""
+    if score >= 75 and timing_reference != "No explicit timing reference" and evidence_count >= 2:
+        return "High"
+    if score >= 55 and evidence_count >= 1:
+        return "Medium"
+    return "Low"
+
+
+def get_potential_timing_action(signal_type, market):
+    """Create a Woomi action tied to timing."""
+    if signal_type == "Refinancing / Maturity Window":
+        return "Track maturity, refinancing options, lender appetite, and recapitalization timing"
+    if signal_type in ["Distress Sale Timing", "Recapitalization Timing"]:
+        return "Prepare sponsor, lender, and rescue-capital watchlist"
+    if signal_type == "Acquisition Window":
+        return "Monitor pricing evidence and possible acquisition outreach timing"
+    if signal_type == "Entitlement / Permitting":
+        return "Track entitlement, zoning, permitting, and public-agency milestones"
+    if signal_type in ["Construction Start", "Construction Completion / Delivery", "Supply Wave Timing"]:
+        return "Monitor delivery, lease-up, concession, and supply pipeline timing"
+    if signal_type == "Capital Re-entry":
+        return "Track institutional capital re-entry and GP partner conversations"
+    if signal_type in ["BTR / SFR Expansion Timing", "Office-to-Residential Conversion Timing"]:
+        return "Monitor sector-specific platform timing and potential partnership relevance"
+    if market in ["Los Angeles", "California"]:
+        return "Track California / LA timing because local windows can affect entitlement and sourcing strategy"
+    return "Monitor timing signal for repeated confirmation"
+
+
+def get_monitoring_frequency(score, bucket):
+    """Recommend how often to monitor a timing signal."""
+    if score >= 80 or bucket == "Immediate / 0-3 Months":
+        return "Weekly"
+    if score >= 65 or bucket == "Near-Term / 3-6 Months":
+        return "Biweekly"
+    if score >= 50 or bucket == "Medium-Term / 6-12 Months":
+        return "Monthly"
+    if bucket == "Long-Term / 12+ Months":
+        return "Quarterly"
+    return "Monitor Only"
+
+
+def build_timing_intelligence_rows(run_timestamp, deal_rows, opportunity_rows, distress_rows):
+    """Build timing_intelligence.csv rows from deals, opportunities, and distress."""
+    rows = []
+    seen_keys = set()
+
+    source_rows = []
+    for row in deal_rows:
+        source_rows.append(("deal", row))
+    for row in opportunity_rows:
+        source_rows.append(("opportunity", row))
+    for row in distress_rows:
+        source_rows.append(("distress", row))
+
+    for index, (row_kind, row) in enumerate(source_rows, start=1):
+        text = " ".join([
+            row.get("source_article_title", ""),
+            row.get("related_project_or_deal", ""),
+            row.get("project_or_deal_name", ""),
+            row.get("evidence_signals", ""),
+            row.get("construction_start_or_delivery_timing", ""),
+            row.get("entitlement_or_permitting_stage", ""),
+        ])
+        signal_type = get_timing_signal_type(
+            text,
+            row.get("deal_type", ""),
+            row.get("opportunity_type", ""),
+            row.get("distress_type", ""),
+            row.get("residential_sector", ""),
+        )
+        if not signal_type:
+            continue
+
+        timing_reference = extract_timing_reference(text)
+        timing_bucket = get_estimated_timing_bucket(timing_reference, text)
+        base_score = max(
+            safe_int(row.get("deal_signal_score")),
+            safe_int(row.get("opportunity_score")),
+            safe_int(row.get("distress_score")),
+            safe_int(row.get("relevance_score")),
+        )
+        market = row.get("market") or "Other / Unknown"
+        score = get_timing_urgency_score(signal_type, timing_bucket, base_score, market)
+        evidence = sorted(set(
+            find_keyword_matches(text, REFINANCING_TIMING_KEYWORDS)
+            + find_keyword_matches(text, DEVELOPMENT_TIMING_KEYWORDS)
+            + find_keyword_matches(text, ENTITLEMENT_TIMING_KEYWORDS)
+            + find_keyword_matches(text, CAPITAL_ACQUISITION_TIMING_KEYWORDS)
+            + [signal_type]
+        ))
+        key = (
+            row.get("deal_fingerprint_id", ""),
+            signal_type,
+            row.get("source_article_title", ""),
+        )
+        if key in seen_keys:
+            continue
+        seen_keys.add(key)
+
+        rows.append({
+            "timing_signal_id": f"TIM-{run_timestamp.strftime('%Y%m%d')}-{len(rows) + 1:03d}",
+            "timing_signal_type": signal_type,
+            "market": market,
+            "residential_sector": row.get("residential_sector", "General Residential"),
+            "gp_or_developer": row.get("canonical_gp_or_developer") or row.get("gp_or_developer", "Unknown"),
+            "lender_or_capital_provider": row.get("lender_or_capital_provider") or row.get("canonical_lender_or_debt_provider") or row.get("lender_or_debt_provider", "Unknown"),
+            "related_project_or_deal": row.get("related_project_or_deal") or row.get("project_or_deal_name", ""),
+            "timing_reference": timing_reference,
+            "estimated_timing_bucket": timing_bucket,
+            "timing_urgency_score": score,
+            "timing_confidence": get_timing_confidence(score, timing_reference, len(evidence)),
+            "evidence_signals": "; ".join(evidence),
+            "source_article_title": row.get("source_article_title", ""),
+            "source": row.get("source", ""),
+            "url": row.get("url", ""),
+            "potential_woomi_action": get_potential_timing_action(signal_type, market),
+            "recommended_monitoring_frequency": get_monitoring_frequency(score, timing_bucket),
+        })
+
+    rows.sort(key=lambda row: (-safe_int(row["timing_urgency_score"]), row["timing_signal_type"], row["market"]))
+    return rows
+
+
+def generate_timing_intelligence_outputs(timing_rows, dated_output_dir):
+    """Write timing_intelligence.csv and timing_intelligence_report.md."""
+    fieldnames = [
+        "timing_signal_id", "timing_signal_type", "market", "residential_sector",
+        "gp_or_developer", "lender_or_capital_provider", "related_project_or_deal",
+        "timing_reference", "estimated_timing_bucket", "timing_urgency_score",
+        "timing_confidence", "evidence_signals", "source_article_title", "source",
+        "url", "potential_woomi_action", "recommended_monitoring_frequency",
+    ]
+    write_csv_outputs(TIMING_INTELLIGENCE_OUTPUT_FILE, fieldnames, timing_rows, dated_output_dir)
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = [
+        "# Timing Intelligence Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total timing signals detected: {len(timing_rows)}",
+        "",
+    ]
+    add_timing_section(lines, "Top Timing Signals", timing_rows, lambda row: True)
+    add_timing_section(lines, "Refinancing / Maturity Timing Watch", timing_rows, lambda row: row["timing_signal_type"] == "Refinancing / Maturity Window")
+    add_timing_section(lines, "Construction Start / Delivery Watch", timing_rows, lambda row: row["timing_signal_type"] in ["Construction Start", "Construction Completion / Delivery"])
+    add_timing_section(lines, "Entitlement / Permitting Timing Watch", timing_rows, lambda row: row["timing_signal_type"] == "Entitlement / Permitting")
+    add_timing_section(lines, "Acquisition / Capital Re-entry Timing Watch", timing_rows, lambda row: row["timing_signal_type"] in ["Acquisition Window", "Capital Re-entry", "Recapitalization Timing"])
+    add_timing_section(lines, "LA / California Timing Signals", timing_rows, lambda row: row["market"] in ["Los Angeles", "California"])
+    add_timing_section(lines, "BTR / SFR Timing Signals", timing_rows, lambda row: row["timing_signal_type"] == "BTR / SFR Expansion Timing" or row["residential_sector"] == "BTR / Single-Family Rental")
+    lines.extend(["## Recommended Monitoring Cadence", ""])
+    cadence_counts = Counter(row["recommended_monitoring_frequency"] for row in timing_rows)
+    if cadence_counts:
+        for cadence, count in cadence_counts.most_common():
+            lines.append(f"- {cadence}: {count} timing signal(s)")
+    else:
+        lines.append("- No timing cadence generated this run.")
+    lines.extend([
+        "",
+        "## Implications for Woomi / Woomi Global",
+        "",
+        "- Timing intelligence helps separate immediate watch items from longer-cycle monitoring items.",
+        "- Refinancing, entitlement, delivery, and capital re-entry timing should feed weekly strategy and sourcing cadence decisions.",
+        f"- Permit and entitlement detail is available in `{os.path.basename(ENTITLEMENT_INTELLIGENCE_REPORT_OUTPUT_FILE)}` and `{os.path.basename(LA_ENTITLEMENT_WATCH_REPORT_OUTPUT_FILE)}`.",
+        "",
+    ])
+    write_markdown_outputs(TIMING_INTELLIGENCE_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "total_timing_signals": len(timing_rows),
+        "top_timing_signal": timing_rows[0] if timing_rows else {},
+        "refinancing_maturity_count": len([row for row in timing_rows if row["timing_signal_type"] == "Refinancing / Maturity Window"]),
+        "construction_delivery_count": len([row for row in timing_rows if row["timing_signal_type"] in ["Construction Start", "Construction Completion / Delivery"]]),
+        "entitlement_permitting_count": len([row for row in timing_rows if row["timing_signal_type"] == "Entitlement / Permitting"]),
+    }
+
+
+def add_timing_section(lines, title, rows, filter_function):
+    """Add one timing report section."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected_rows = [row for row in rows if filter_function(row)]
+    if not selected_rows:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+    for row in selected_rows[:10]:
+        lines.append(
+            f"- {row['timing_signal_type']} in {row['market']}: "
+            f"{row['timing_reference']}, score {row['timing_urgency_score']}, "
+            f"{row['recommended_monitoring_frequency']} monitoring. "
+            f"{row['potential_woomi_action']}."
+        )
+    lines.append("")
+
+
+def score_market_entry_window(market, timing_rows, opportunity_rows, distress_rows, capital_flow_rows, regional_rows, sector_rows, gp_rows, severity_rows, materiality_rows):
+    """Calculate one market entry window score and supporting metrics."""
+    market_timing = [row for row in timing_rows if row.get("market") == market or (market == "National / Other" and row.get("market") in ["National", "Other / Unknown"])]
+    market_opportunities = [row for row in opportunity_rows if row.get("market") == market or (market == "National / Other" and row.get("market") in ["National", "Other / Unknown"])]
+    market_distress = [row for row in distress_rows if row.get("market") == market or (market == "National / Other" and row.get("market") in ["National", "Other / Unknown"])]
+    regional_score = max_score_for_market(regional_rows, market, "average_relevance_score")
+    capital_flow_score = max_score_for_market(capital_flow_rows, market, "capital_flow_strength_score")
+    opportunity_score = max([safe_int(row.get("opportunity_score")) for row in market_opportunities] or [0])
+    distress_score = max([safe_int(row.get("distress_score")) for row in market_distress] or [0])
+    timing_score = max([safe_int(row.get("timing_urgency_score")) for row in market_timing] or [0])
+    max_materiality = max([safe_int(row.get("materiality_score")) for row in materiality_rows] or [0])
+    max_impact = max([safe_int(row.get("impact_score")) for row in materiality_rows] or [0])
+    max_severity = max([safe_int(row.get("severity_score")) for row in severity_rows] or [0])
+    gp_activity_score = max([safe_int(row.get("emerging_gp_score")) for row in gp_rows if market in row.get("primary_market", "") or market in row.get("california_la_presence", "")] or [0])
+    residential_sector_fit = get_market_sector_fit(market, sector_rows)
+    woomi_fit = 100 if market in ["Los Angeles", "California"] else 75 if market in ["Sun Belt", "Texas", "Florida", "Seattle"] else 55
+    supply_pressure_score = max_severity if any(row.get("timing_signal_type") in ["Construction Start", "Construction Completion / Delivery", "Supply Wave Timing"] for row in market_timing) else round(max_severity * 0.45)
+    financing_stress_score = max(distress_score, max_severity if any(row.get("timing_signal_type") == "Refinancing / Maturity Window" for row in market_timing) else 0)
+    institutional_activity_score = max(capital_flow_score, opportunity_score)
+    market_entry_score = min(100, round(
+        timing_score * 0.20
+        + opportunity_score * 0.18
+        + distress_score * 0.12
+        + capital_flow_score * 0.12
+        + financing_stress_score * 0.10
+        + supply_pressure_score * 0.08
+        + institutional_activity_score * 0.08
+        + gp_activity_score * 0.05
+        + residential_sector_fit * 0.04
+        + woomi_fit * 0.03
+    ))
+    return {
+        "market_entry_score": market_entry_score,
+        "timing_signal_count": len(market_timing),
+        "opportunity_count": len(market_opportunities),
+        "distress_signal_count": len(market_distress),
+        "capital_flow_score": capital_flow_score,
+        "financing_stress_score": financing_stress_score,
+        "supply_pressure_score": supply_pressure_score,
+        "institutional_activity_score": institutional_activity_score,
+        "gp_activity_score": gp_activity_score,
+        "residential_sector_fit": residential_sector_fit,
+        "woomi_strategic_fit": woomi_fit,
+    }
+
+
+def get_market_sector_fit(market, sector_rows):
+    """Estimate residential sector fit for a market."""
+    if market in ["Los Angeles", "California"]:
+        return 90
+    if market in ["Sun Belt", "Texas", "Florida"]:
+        return 80
+    if market in ["New York", "Seattle"]:
+        return 65
+    if sector_rows:
+        top_score = safe_int(float(sector_rows[0].get("average_relevance_score", 0) or 0))
+        return min(80, max(45, top_score))
+    return 45
+
+
+def get_market_entry_window_label(score):
+    """Label market entry score."""
+    if score >= 80:
+        return "Active Watch Window"
+    if score >= 65:
+        return "Selective Entry Window"
+    if score >= 50:
+        return "Early Signal / Prepare"
+    if score >= 30:
+        return "Monitor Only"
+    return "Not Attractive Now"
+
+
+def get_recommended_entry_posture(row):
+    """Recommend posture from market entry row."""
+    if row["market_entry_window_label"] == "Active Watch Window":
+        return "Actively source opportunities"
+    if row["market"] in ["Los Angeles", "California"] and safe_int(row["timing_signal_count"]) > 0:
+        return "Track entitlement / permitting pipeline"
+    if safe_int(row["distress_signal_count"]) > 0 or safe_int(row["financing_stress_score"]) >= 60:
+        return "Monitor refinancing and distress pipeline"
+    if safe_int(row["opportunity_count"]) > 0 or safe_int(row["gp_activity_score"]) >= 60:
+        return "Prepare GP conversations"
+    if safe_int(row["supply_pressure_score"]) >= 60:
+        return "Wait for better pricing evidence"
+    return "Monitor only"
+
+
+def build_market_entry_window_rows(run_timestamp, timing_rows, opportunity_rows, distress_rows, capital_flow_rows, regional_rows, sector_rows, gp_rows, severity_rows, materiality_rows):
+    """Build market_entry_window.csv rows for key markets."""
+    markets = ["Los Angeles", "California", "Sun Belt", "Texas", "Florida", "New York", "Seattle", "National / Other"]
+    rows = []
+    for market in markets:
+        scores = score_market_entry_window(
+            market,
+            timing_rows,
+            opportunity_rows,
+            distress_rows,
+            capital_flow_rows,
+            regional_rows,
+            sector_rows,
+            gp_rows,
+            severity_rows,
+            materiality_rows,
+        )
+        row = {
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "market": market,
+            **scores,
+        }
+        row["market_entry_window_label"] = get_market_entry_window_label(row["market_entry_score"])
+        row["recommended_entry_posture"] = get_recommended_entry_posture(row)
+        row["key_entry_risks"] = get_market_entry_risks(row)
+        row["key_entry_opportunities"] = get_market_entry_opportunities(row)
+        rows.append(row)
+    rows.sort(key=lambda row: (-safe_int(row["market_entry_score"]), row["market"]))
+    return rows
+
+
+def get_market_entry_risks(row):
+    """Explain key market entry risks."""
+    risks = []
+    if safe_int(row["financing_stress_score"]) >= 60:
+        risks.append("financing stress and refinancing pressure")
+    if safe_int(row["supply_pressure_score"]) >= 60:
+        risks.append("supply, delivery, lease-up, or concession pressure")
+    if row["market"] in ["Los Angeles", "California"]:
+        risks.append("entitlement, zoning, permitting, and policy uncertainty")
+    if not risks:
+        risks.append("limited timing evidence")
+    return "; ".join(risks)
+
+
+def get_market_entry_opportunities(row):
+    """Explain key market entry opportunities."""
+    opportunities = []
+    if safe_int(row["opportunity_count"]) > 0:
+        opportunities.append("active opportunity radar signals")
+    if safe_int(row["distress_signal_count"]) > 0:
+        opportunities.append("possible distress or recapitalization watch")
+    if safe_int(row["capital_flow_score"]) >= 60:
+        opportunities.append("capital-flow or institutional activity signal")
+    if row["market"] in ["Los Angeles", "California"]:
+        opportunities.append("core Woomi California / LA strategic relevance")
+    if not opportunities:
+        opportunities.append("general monitoring value")
+    return "; ".join(opportunities)
+
+
+def generate_market_entry_window_outputs(entry_rows, dated_output_dir):
+    """Write market_entry_window.csv and market_entry_window_report.md."""
+    fieldnames = [
+        "run_timestamp", "market", "market_entry_score", "timing_signal_count",
+        "opportunity_count", "distress_signal_count", "capital_flow_score",
+        "financing_stress_score", "supply_pressure_score", "institutional_activity_score",
+        "gp_activity_score", "residential_sector_fit", "woomi_strategic_fit",
+        "market_entry_window_label", "recommended_entry_posture", "key_entry_risks",
+        "key_entry_opportunities",
+    ]
+    write_csv_outputs(MARKET_ENTRY_WINDOW_OUTPUT_FILE, fieldnames, entry_rows, dated_output_dir)
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = [
+        "# Market Entry Window Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+    ]
+    add_market_entry_section(lines, "Top Market Entry Windows", entry_rows, lambda row: True)
+    add_market_entry_section(lines, "LA / California Entry Window", entry_rows, lambda row: row["market"] in ["Los Angeles", "California"])
+    add_market_entry_section(lines, "Sun Belt Entry Window", entry_rows, lambda row: row["market"] in ["Sun Belt", "Texas", "Florida"])
+    add_market_entry_section(lines, "New York / Refinancing Stress Window", entry_rows, lambda row: row["market"] == "New York")
+    lines.extend([
+        "## Entitlement / LA Watch Summary",
+        "",
+        f"Developer-grade entitlement detail is available in `{os.path.basename(ENTITLEMENT_INTELLIGENCE_REPORT_OUTPUT_FILE)}`.",
+        f"LA / California entitlement watch is available in `{os.path.basename(LA_ENTITLEMENT_WATCH_REPORT_OUTPUT_FILE)}`.",
+        "",
+        "## Sector-Specific Entry Implications",
+        "",
+        "- Multifamily and apartment signals remain the core entry lens.",
+        "- BTR / SFR, affordable/workforce housing, and office conversion timing should be reviewed when their timing signals appear.",
+        "",
+        "## Recommended Entry Posture By Market",
+        "",
+    ])
+    for row in entry_rows:
+        lines.append(f"- {row['market']}: {row['recommended_entry_posture']} ({row['market_entry_window_label']}).")
+    lines.extend([
+        "",
+        "## Key Risks and Opportunities",
+        "",
+    ])
+    for row in entry_rows[:5]:
+        lines.append(f"- {row['market']}: risks: {row['key_entry_risks']}; opportunities: {row['key_entry_opportunities']}.")
+    lines.extend([
+        "",
+        "## Executive Summary for Woomi",
+        "",
+    ])
+    if entry_rows:
+        top = entry_rows[0]
+        lines.append(
+            f"- Top current market entry window is {top['market']} with a {top['market_entry_window_label']} label and posture: {top['recommended_entry_posture']}."
+        )
+    else:
+        lines.append("- No market entry windows were detected.")
+    lines.append("")
+    write_markdown_outputs(MARKET_ENTRY_WINDOW_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "top_market_entry_window": entry_rows[0] if entry_rows else {},
+        "la_california_rows": [row for row in entry_rows if row["market"] in ["Los Angeles", "California"]],
+    }
+
+
+def add_market_entry_section(lines, title, rows, filter_function):
+    """Add one market entry report section."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected_rows = [row for row in rows if filter_function(row)]
+    if not selected_rows:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+    for row in selected_rows:
+        lines.append(
+            f"- {row['market']}: score {row['market_entry_score']}, "
+            f"{row['market_entry_window_label']}, posture: {row['recommended_entry_posture']}."
+        )
+    lines.append("")
+
+
+def get_entitlement_signal_type(text):
+    """Classify an entitlement or permit signal."""
+    lower_text = text.lower()
+    if any(word in lower_text for word in ["sb 35", "builder's remedy", "builders remedy"]):
+        return "Builder's Remedy / SB 35"
+    if any(word in lower_text for word in ["housing element", "rhna"]):
+        return "Housing Element / RHNA"
+    if any(word in lower_text for word in ["density bonus", "toc", "transit-oriented communities", "height bonus", "far bonus"]):
+        return "Density Bonus / TOC"
+    if any(word in lower_text for word in ["ceqa", "eir", "environmental review"]):
+        return "CEQA / Environmental Review"
+    if any(word in lower_text for word in ["building permit", "construction permit", "permit issued"]):
+        return "Building Permit / Construction Permit"
+    if any(word in lower_text for word in ["planning approval", "planning commission", "city council approval", "approved by city council", "site plan approval"]):
+        return "Planning Approval"
+    if any(word in lower_text for word in ["office-to-residential", "office conversion"]):
+        return "Office-to-Residential Conversion"
+    if any(word in lower_text for word in ["adaptive reuse", "adaptive reuse ordinance"]):
+        return "Adaptive Reuse"
+    if any(word in lower_text for word in ["affordable overlay", "inclusionary housing", "mixed-income approval"]):
+        return "Affordable Housing Requirement"
+    if any(word in lower_text for word in ["zoning", "rezoning", "upzoning", "variance", "specific plan", "general plan amendment"]):
+        return "Zoning / Rezoning"
+    if any(word in lower_text for word in ["entitlement", "entitled", "ministerial approval", "by-right approval"]):
+        return "Entitlement Approval"
+    return "General Entitlement Signal"
+
+
+def get_entitlement_stage(text):
+    """Estimate the entitlement stage from simple wording."""
+    lower_text = text.lower()
+    if any(word in lower_text for word in ["delayed", "appeal", "appealed", "lawsuit", "paused", "postponed"]):
+        return "Delayed / Appealed"
+    if any(word in lower_text for word in ["permit issued", "building permit", "construction permit"]):
+        return "Permitted"
+    if any(word in lower_text for word in ["construction ready", "ready to start", "broke ground"]):
+        return "Construction Ready"
+    if any(word in lower_text for word in ["approved", "entitled", "city council approval", "planning approval"]):
+        return "Approved / Entitled"
+    if any(word in lower_text for word in ["under review", "environmental review", "planning commission", "ceqa", "eir"]):
+        return "Under Review"
+    if any(word in lower_text for word in ["proposed", "plans", "filed", "application"]):
+        return "Early Planning"
+    return "Unknown Stage"
+
+
+def get_approval_body(text):
+    """Identify likely approval body."""
+    lower_text = text.lower()
+    if "planning commission" in lower_text:
+        return "Planning Commission"
+    if "city council" in lower_text:
+        return "City Council"
+    if "city planning" in lower_text or "planning department" in lower_text:
+        return "City Planning Department"
+    if "hcd" in lower_text or "california department of housing" in lower_text:
+        return "California HCD"
+    if "housing authority" in lower_text:
+        return "Local Housing Authority"
+    return "Unknown"
+
+
+def get_regulatory_theme(text, signal_type, stage):
+    """Summarize the regulatory theme."""
+    lower_text = text.lower()
+    if signal_type == "Density Bonus / TOC":
+        return "Density incentive"
+    if signal_type == "Affordable Housing Requirement":
+        return "Affordable housing compliance"
+    if signal_type == "CEQA / Environmental Review":
+        return "CEQA risk"
+    if any(word in lower_text for word in ["rezoning", "upzoning", "housing element", "rhna"]):
+        return "Zoning reform"
+    if any(word in lower_text for word in ["permit issued", "ministerial", "by-right", "sb 35"]):
+        return "Permit acceleration"
+    if signal_type in ["Office-to-Residential Conversion", "Adaptive Reuse"]:
+        return "Office conversion policy"
+    if any(word in lower_text for word in ["toc", "transit-oriented"]):
+        return "Transit-oriented development"
+    if stage == "Delayed / Appealed":
+        return "Entitlement delay risk"
+    return "General regulatory watch"
+
+
+def yes_no_signal(text, keywords):
+    """Return a simple yes/no signal based on keywords."""
+    return "Yes" if find_keyword_matches(text, keywords) else "No"
+
+
+def get_affordability_component(text):
+    """Detect affordability-related requirements."""
+    lower_text = text.lower()
+    if any(word in lower_text for word in ["affordable", "lihtc", "tax credit", "income-restricted", "inclusionary", "mixed-income", "workforce"]):
+        return "Yes"
+    return "No"
+
+
+def get_density_or_zoning_signal(text):
+    """Describe density or zoning signal."""
+    matches = find_keyword_matches(text, [
+        "density bonus", "toc", "transit-oriented communities", "zoning",
+        "rezoning", "upzoning", "parking reduction", "height bonus",
+        "far bonus", "variance", "specific plan", "general plan amendment",
+    ])
+    return "; ".join(matches) if matches else "No clear density / zoning signal"
+
+
+def score_entitlement_risk(text, stage, signal_type):
+    """Score entitlement risk from environmental, delay, and uncertainty terms."""
+    lower_text = text.lower()
+    score = 20
+    if any(word in lower_text for word in ["ceqa", "eir", "environmental review"]):
+        score += 25
+    if any(word in lower_text for word in ["appeal", "lawsuit", "delayed", "permit delay", "postponed", "paused"]):
+        score += 25
+    if any(word in lower_text for word in ["rezoning", "variance", "general plan amendment", "city council"]):
+        score += 15
+    if any(word in lower_text for word in ["affordable", "inclusionary", "mixed-income"]):
+        score += 10
+    if stage in ["Unknown Stage", "Under Review"]:
+        score += 8
+    if signal_type == "CEQA / Environmental Review":
+        score += 12
+    return min(100, score)
+
+
+def score_entitlement_opportunity(text, stage, signal_type, market, sector, gp_name):
+    """Score entitlement opportunity from approvals, incentives, and market fit."""
+    lower_text = text.lower()
+    score = 20
+    if stage in ["Approved / Entitled", "Permitted", "Construction Ready"]:
+        score += 25
+    if any(word in lower_text for word in ["density bonus", "toc", "by-right", "ministerial", "sb 35", "builder"]):
+        score += 18
+    if signal_type in ["Office-to-Residential Conversion", "Adaptive Reuse"]:
+        score += 12
+    if market in ["Los Angeles", "California"]:
+        score += 15
+    if sector in ["Multifamily", "Apartment", "Affordable Housing", "Mixed-Use Residential", "Office-to-Residential Conversion"]:
+        score += 10
+    if gp_name and gp_name != "Unknown":
+        score += 5
+    return min(100, score)
+
+
+def get_woomi_developer_relevance(risk_score, opportunity_score, market):
+    """Label relevance to Woomi developer capability building."""
+    if market in ["Los Angeles", "California"] and max(risk_score, opportunity_score) >= 65:
+        return "High relevance to LA / California developer strategy"
+    if max(risk_score, opportunity_score) >= 60:
+        return "Relevant to US residential developer capability"
+    if max(risk_score, opportunity_score) >= 40:
+        return "General entitlement monitoring"
+    return "Low relevance"
+
+
+def get_entitlement_follow_up(signal_type, stage, market):
+    """Recommend an entitlement follow-up."""
+    if market in ["Los Angeles", "California"]:
+        return "Track local planning filings, approval body, sponsor, and entitlement precedent"
+    if signal_type == "CEQA / Environmental Review":
+        return "Monitor CEQA timeline, appeals, and environmental review milestones"
+    if signal_type == "Density Bonus / TOC":
+        return "Benchmark density bonus / TOC use and project economics"
+    if signal_type in ["Building Permit / Construction Permit", "Entitlement Approval"]:
+        return "Track construction-ready pipeline and comparable sponsor execution"
+    if signal_type in ["Office-to-Residential Conversion", "Adaptive Reuse"]:
+        return "Review office conversion feasibility, policy support, and local sponsor activity"
+    return "Monitor entitlement status for repeated confirmation"
+
+
+def detect_la_submarket(text, market):
+    """Detect LA / Southern California submarket label."""
+    lower_text = text.lower()
+    for keyword in LA_ENTITLEMENT_MARKET_KEYWORDS:
+        if keyword in lower_text:
+            if keyword in ["la", "l.a.", "los angeles"]:
+                return "Los Angeles"
+            return keyword.title()
+    if market in ["Los Angeles", "California"]:
+        return market
+    return "Other / Unknown"
+
+
+def build_entitlement_intelligence_rows(run_timestamp, articles, deal_rows, timing_rows):
+    """Build entitlement intelligence rows from articles, deals, and timing signals."""
+    rows = []
+    source_rows = []
+    for article in articles:
+        source_rows.append(("article", article))
+    for deal in deal_rows:
+        source_rows.append(("deal", deal))
+    for timing in timing_rows:
+        source_rows.append(("timing", timing))
+
+    seen = set()
+    for row_kind, row in source_rows:
+        text = " ".join([
+            row.get("title", ""),
+            row.get("summary", ""),
+            row.get("source_article_title", ""),
+            row.get("project_or_deal_name", ""),
+            row.get("related_project_or_deal", ""),
+            row.get("article_text_sample", ""),
+            row.get("evidence_signals", ""),
+            row.get("entitlement_or_permitting_stage", ""),
+        ])
+        matches = find_keyword_matches(text, ENTITLEMENT_SIGNAL_KEYWORDS)
+        if not matches and row.get("deal_type") != "Entitlement / Permitting" and row.get("timing_signal_type") != "Entitlement / Permitting":
+            continue
+
+        market = row.get("market") or row.get("market_focus") or "Other / Unknown"
+        sector = row.get("residential_sector", "General Residential")
+        gp_name = row.get("canonical_gp_or_developer") or row.get("gp_or_developer", "Unknown")
+        signal_type = get_entitlement_signal_type(text)
+        stage = get_entitlement_stage(text)
+        timing_reference = row.get("timing_reference") or extract_timing_reference(text)
+        risk_score = score_entitlement_risk(text, stage, signal_type)
+        opportunity_score = score_entitlement_opportunity(text, stage, signal_type, market, sector, gp_name)
+        key = (row.get("url", ""), row.get("source_article_title") or row.get("title", ""), signal_type)
+        if key in seen:
+            continue
+        seen.add(key)
+
+        rows.append({
+            "entitlement_signal_id": f"ENT-{run_timestamp.strftime('%Y%m%d')}-{len(rows) + 1:03d}",
+            "market": market,
+            "city_or_submarket": row.get("city_or_submarket") or detect_la_submarket(text, market),
+            "residential_sector": sector,
+            "gp_or_developer": gp_name,
+            "project_or_deal_name": row.get("project_or_deal_name") or row.get("related_project_or_deal") or row.get("title", ""),
+            "entitlement_signal_type": signal_type,
+            "entitlement_stage": stage,
+            "approval_body": get_approval_body(text),
+            "regulatory_theme": get_regulatory_theme(text, signal_type, stage),
+            "affordability_component": get_affordability_component(text),
+            "density_or_zoning_signal": get_density_or_zoning_signal(text),
+            "ceqa_or_environmental_signal": yes_no_signal(text, ["ceqa", "eir", "environmental review"]),
+            "timing_reference": timing_reference,
+            "entitlement_risk_score": risk_score,
+            "entitlement_opportunity_score": opportunity_score,
+            "woomi_developer_relevance": get_woomi_developer_relevance(risk_score, opportunity_score, market),
+            "recommended_follow_up": get_entitlement_follow_up(signal_type, stage, market),
+            "source_article_title": row.get("source_article_title") or row.get("title", ""),
+            "source": row.get("source", ""),
+            "url": row.get("url", ""),
+            "confidence_level": get_confidence_label(max(risk_score, opportunity_score), len(matches)),
+        })
+
+    rows.sort(key=lambda item: (-max(safe_int(item["entitlement_risk_score"]), safe_int(item["entitlement_opportunity_score"])), item["market"]))
+    return rows
+
+
+def generate_entitlement_intelligence_outputs(entitlement_rows, dated_output_dir):
+    """Write entitlement_intelligence.csv and entitlement_intelligence_report.md."""
+    fieldnames = [
+        "entitlement_signal_id", "market", "city_or_submarket", "residential_sector",
+        "gp_or_developer", "project_or_deal_name", "entitlement_signal_type",
+        "entitlement_stage", "approval_body", "regulatory_theme",
+        "affordability_component", "density_or_zoning_signal",
+        "ceqa_or_environmental_signal", "timing_reference",
+        "entitlement_risk_score", "entitlement_opportunity_score",
+        "woomi_developer_relevance", "recommended_follow_up",
+        "source_article_title", "source", "url", "confidence_level",
+    ]
+    write_csv_outputs(ENTITLEMENT_INTELLIGENCE_OUTPUT_FILE, fieldnames, entitlement_rows, dated_output_dir)
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = ["# Entitlement Intelligence Report", "", f"Generated: {generated_at}", "", f"- Total entitlement signals detected: {len(entitlement_rows)}", ""]
+    add_entitlement_section(lines, "Top Entitlement Opportunities", entitlement_rows, lambda row: True, "entitlement_opportunity_score")
+    add_entitlement_section(lines, "Top Entitlement Risks", entitlement_rows, lambda row: True, "entitlement_risk_score")
+    add_entitlement_section(lines, "Planning / Approval Signals", entitlement_rows, lambda row: row["entitlement_signal_type"] in ["Planning Approval", "Entitlement Approval", "Building Permit / Construction Permit"], "entitlement_opportunity_score")
+    add_entitlement_section(lines, "Density Bonus / TOC Signals", entitlement_rows, lambda row: row["entitlement_signal_type"] == "Density Bonus / TOC", "entitlement_opportunity_score")
+    add_entitlement_section(lines, "CEQA / Environmental Review Signals", entitlement_rows, lambda row: row["entitlement_signal_type"] == "CEQA / Environmental Review" or row["ceqa_or_environmental_signal"] == "Yes", "entitlement_risk_score")
+    add_entitlement_section(lines, "Affordable Housing Requirement Signals", entitlement_rows, lambda row: row["affordability_component"] == "Yes", "entitlement_opportunity_score")
+    add_entitlement_section(lines, "Office-to-Residential Conversion Signals", entitlement_rows, lambda row: row["entitlement_signal_type"] in ["Office-to-Residential Conversion", "Adaptive Reuse"], "entitlement_opportunity_score")
+    lines.extend([
+        "## Implications for Woomi / Woomi Global",
+        "",
+        "- Entitlement intelligence helps track project approval precedent, local policy risk, and construction-ready pipeline timing.",
+        "- LA / California signals should feed site strategy, sponsor mapping, and entitlement-risk assumptions.",
+        f"- Submarket-level site strategy detail is available in `{os.path.basename(SUBMARKET_INTELLIGENCE_REPORT_OUTPUT_FILE)}` and `{os.path.basename(LA_SUBMARKET_WATCH_REPORT_OUTPUT_FILE)}`.",
+        "",
+        "## Recommended Entitlement Follow-up Actions",
+        "",
+    ])
+    for row in entitlement_rows[:8]:
+        lines.append(f"- {row['recommended_follow_up']}: {row['entitlement_signal_type']} in {row['city_or_submarket']}.")
+    if not entitlement_rows:
+        lines.append("- Continue monitoring for planning, zoning, CEQA, and permit signals.")
+    lines.append("")
+    write_markdown_outputs(ENTITLEMENT_INTELLIGENCE_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "total_entitlement_signals": len(entitlement_rows),
+        "top_opportunity": max(entitlement_rows, key=lambda row: safe_int(row["entitlement_opportunity_score"])) if entitlement_rows else {},
+        "top_risk": max(entitlement_rows, key=lambda row: safe_int(row["entitlement_risk_score"])) if entitlement_rows else {},
+        "density_toc_count": len([row for row in entitlement_rows if row["entitlement_signal_type"] == "Density Bonus / TOC"]),
+        "ceqa_environmental_count": len([row for row in entitlement_rows if row["entitlement_signal_type"] == "CEQA / Environmental Review" or row["ceqa_or_environmental_signal"] == "Yes"]),
+        "office_conversion_count": len([row for row in entitlement_rows if row["entitlement_signal_type"] in ["Office-to-Residential Conversion", "Adaptive Reuse"]]),
+    }
+
+
+def add_entitlement_section(lines, title, rows, filter_function, score_field):
+    """Add one entitlement report section."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected = [row for row in rows if filter_function(row)]
+    selected.sort(key=lambda row: -safe_int(row.get(score_field)))
+    if not selected:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+    for row in selected[:10]:
+        lines.append(
+            f"- {row['entitlement_signal_type']} in {row['city_or_submarket']}: "
+            f"{row['entitlement_stage']}, {score_field} {row[score_field]}. "
+            f"{row['recommended_follow_up']}."
+        )
+    lines.append("")
+
+
+def build_la_entitlement_watch_rows(run_timestamp, entitlement_rows):
+    """Build a focused LA / California entitlement watchlist."""
+    rows = []
+    for row in entitlement_rows:
+        combined = " ".join([row.get("market", ""), row.get("city_or_submarket", ""), row.get("source_article_title", ""), row.get("project_or_deal_name", "")]).lower()
+        if not any(keyword in combined for keyword in LA_ENTITLEMENT_MARKET_KEYWORDS) and row.get("market") not in ["Los Angeles", "California"]:
+            continue
+        local_score = min(100, round(
+            safe_int(row["entitlement_opportunity_score"]) * 0.35
+            + safe_int(row["entitlement_risk_score"]) * 0.25
+            + (25 if row.get("market") in ["Los Angeles", "California"] else 10)
+            + (15 if row.get("residential_sector") in ["Multifamily", "Apartment", "Affordable Housing", "Mixed-Use Residential", "Office-to-Residential Conversion"] else 5)
+        ))
+        relevance = "High relevance to LA site strategy" if local_score >= 75 else "Relevant to California entitlement monitoring" if local_score >= 55 else "General LA / California monitoring" if local_score >= 35 else "Low relevance"
+        rows.append({
+            "la_watch_id": f"LAW-{run_timestamp.strftime('%Y%m%d')}-{len(rows) + 1:03d}",
+            "la_submarket": row.get("city_or_submarket", "Los Angeles"),
+            "project_or_deal_name": row.get("project_or_deal_name", ""),
+            "gp_or_developer": row.get("gp_or_developer", "Unknown"),
+            "residential_sector": row.get("residential_sector", "General Residential"),
+            "entitlement_signal_type": row.get("entitlement_signal_type", ""),
+            "entitlement_stage": row.get("entitlement_stage", ""),
+            "entitlement_risk_score": row.get("entitlement_risk_score", 0),
+            "entitlement_opportunity_score": row.get("entitlement_opportunity_score", 0),
+            "local_relevance_score": local_score,
+            "woomi_site_strategy_relevance": relevance,
+            "potential_site_strategy_angle": get_la_site_strategy_angle(row),
+            "recommended_local_follow_up": get_la_local_follow_up(row),
+            "source_article_title": row.get("source_article_title", ""),
+            "url": row.get("url", ""),
+            "confidence_level": row.get("confidence_level", "Low"),
+        })
+    rows.sort(key=lambda item: (-safe_int(item["local_relevance_score"]), item["la_submarket"]))
+    return rows
+
+
+def get_la_site_strategy_angle(row):
+    """Explain why an LA/California entitlement item matters."""
+    if row["entitlement_signal_type"] == "Density Bonus / TOC":
+        return "Monitor density bonus use"
+    if row["affordability_component"] == "Yes":
+        return "Watch affordable housing requirement"
+    if row["entitlement_signal_type"] in ["Office-to-Residential Conversion", "Adaptive Reuse"]:
+        return "Track office-to-residential feasibility"
+    if row["entitlement_stage"] in ["Approved / Entitled", "Permitted", "Construction Ready"]:
+        return "Benchmark permitting timeline"
+    if row["gp_or_developer"] != "Unknown":
+        return "Monitor local sponsor activity"
+    return "Track entitlement precedent"
+
+
+def get_la_local_follow_up(row):
+    """Recommend local LA entitlement follow-up."""
+    if row["entitlement_signal_type"] == "CEQA / Environmental Review":
+        return "Review CEQA status, appeal risk, and approval timeline"
+    if row["entitlement_signal_type"] == "Density Bonus / TOC":
+        return "Compare density bonus / TOC precedent with target-site assumptions"
+    if row["entitlement_stage"] in ["Approved / Entitled", "Permitted", "Construction Ready"]:
+        return "Monitor construction-ready pipeline and sponsor execution"
+    return "Track local planning docket, sponsor, submarket, and entitlement precedent"
+
+
+def generate_la_entitlement_watch_outputs(la_rows, dated_output_dir):
+    """Write la_entitlement_watch.csv and la_entitlement_watch_report.md."""
+    fieldnames = [
+        "la_watch_id", "la_submarket", "project_or_deal_name", "gp_or_developer",
+        "residential_sector", "entitlement_signal_type", "entitlement_stage",
+        "entitlement_risk_score", "entitlement_opportunity_score",
+        "local_relevance_score", "woomi_site_strategy_relevance",
+        "potential_site_strategy_angle", "recommended_local_follow_up",
+        "source_article_title", "url", "confidence_level",
+    ]
+    write_csv_outputs(LA_ENTITLEMENT_WATCH_OUTPUT_FILE, fieldnames, la_rows, dated_output_dir)
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = ["# LA / California Entitlement Watch Report", "", f"Generated: {generated_at}", "", f"- Total LA / California entitlement watch items: {len(la_rows)}", ""]
+    add_la_watch_section(lines, "Top LA / California Entitlement Opportunities", la_rows, "entitlement_opportunity_score")
+    add_la_watch_section(lines, "Top LA / California Entitlement Risks", la_rows, "entitlement_risk_score")
+    lines.extend(["## Submarket Watch Table", "", "| Submarket | Items | Top relevance |", "| --- | ---: | ---: |"])
+    submarket_counts = Counter(row["la_submarket"] for row in la_rows)
+    for submarket, count in submarket_counts.most_common():
+        top_score = max(safe_int(row["local_relevance_score"]) for row in la_rows if row["la_submarket"] == submarket)
+        lines.append(f"| {submarket} | {count} | {top_score} |")
+    if not submarket_counts:
+        lines.append("| None detected | 0 | 0 |")
+    lines.append("")
+    add_la_watch_section(lines, "Project / Sponsor Watch", la_rows, "local_relevance_score")
+    add_la_watch_section(lines, "Office-to-Residential Watch", [row for row in la_rows if row["entitlement_signal_type"] in ["Office-to-Residential Conversion", "Adaptive Reuse"]], "local_relevance_score")
+    add_la_watch_section(lines, "Affordable / Density Bonus Watch", [row for row in la_rows if row["entitlement_signal_type"] == "Density Bonus / TOC" or "affordable" in row["potential_site_strategy_angle"].lower()], "local_relevance_score")
+    lines.extend(["## Recommended Local Follow-up Actions", ""])
+    for row in la_rows[:8]:
+        lines.append(f"- {row['recommended_local_follow_up']}: {row['la_submarket']} / {row['entitlement_signal_type']}.")
+    if not la_rows:
+        lines.append("- Continue monitoring LA / California entitlement and permit signals.")
+    lines.extend([
+        "",
+        "## Submarket / Parcel Intelligence Reference",
+        "",
+        f"Submarket-level site strategy detail is available in `{os.path.basename(SUBMARKET_INTELLIGENCE_REPORT_OUTPUT_FILE)}` and `{os.path.basename(LA_SUBMARKET_WATCH_REPORT_OUTPUT_FILE)}`.",
+    ])
+    lines.append("")
+    write_markdown_outputs(LA_ENTITLEMENT_WATCH_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "total_la_watch_items": len(la_rows),
+        "top_la_watch_item": la_rows[0] if la_rows else {},
+        "recommended_follow_up": [row["recommended_local_follow_up"] for row in la_rows[:5]],
+    }
+
+
+def add_la_watch_section(lines, title, rows, score_field):
+    """Add an LA watch report section."""
+    lines.append(f"## {title}")
+    lines.append("")
+    if not rows:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+    rows = sorted(rows, key=lambda row: -safe_int(row.get(score_field)))
+    for row in rows[:10]:
+        lines.append(
+            f"- {row['la_submarket']}: {row['entitlement_signal_type']}, "
+            f"{row['entitlement_stage']}, score {row.get(score_field)}. "
+            f"{row['potential_site_strategy_angle']}."
+        )
+    lines.append("")
+
+
+def detect_submarkets_from_text(text):
+    """Find known submarkets mentioned in a text block."""
+    lower_text = (text or "").lower()
+    detected = []
+    for name in LA_SUBMARKETS + OTHER_STRATEGIC_SUBMARKETS:
+        if name.lower() in lower_text:
+            detected.append(name)
+    if "l.a." in lower_text or re.search(r"\bla\b", lower_text):
+        detected.append("Los Angeles")
+    return sorted(set(detected))
+
+
+def get_parent_market_for_submarket(submarket):
+    """Map a submarket to its broader parent market."""
+    if submarket in LA_SUBMARKETS or submarket == "Los Angeles":
+        if submarket in ["Orange County", "Irvine", "Anaheim", "Santa Ana", "Costa Mesa"]:
+            return "Orange County"
+        if submarket in ["Inland Empire", "Ontario", "Rancho Cucamonga", "Riverside", "San Bernardino"]:
+            return "Inland Empire"
+        return "Los Angeles"
+    if submarket in ["Brooklyn", "Queens", "Manhattan", "Long Island City", "Jersey City", "New York"]:
+        return "New York"
+    if submarket in ["Bellevue", "Redmond", "Seattle"]:
+        return "Seattle"
+    if submarket in ["Austin", "Dallas", "Fort Worth", "Houston"]:
+        return "Texas"
+    if submarket in ["Tampa", "Orlando", "Miami"]:
+        return "Florida"
+    if submarket in ["Nashville", "Atlanta", "Charlotte", "Raleigh"]:
+        return "Southeast"
+    if submarket in ["Phoenix", "Scottsdale"]:
+        return "Arizona"
+    return "National / Other"
+
+
+def detect_site_strategy_theme(text):
+    """Detect a site strategy or corridor theme from text."""
+    lower_text = (text or "").lower()
+    matches = []
+    for theme, keywords in SITE_STRATEGY_THEME_KEYWORDS.items():
+        if any(keyword in lower_text for keyword in keywords):
+            matches.append(theme)
+    if not matches:
+        return "General submarket monitoring"
+    return "; ".join(matches[:3])
+
+
+def add_submarket_observation(observations, submarket, row, source_type, text):
+    """Add one observation to a submarket aggregation bucket."""
+    if not submarket:
+        return
+    parent_market = get_parent_market_for_submarket(submarket)
+    if submarket not in observations:
+        observations[submarket] = {
+            "submarket_name": submarket,
+            "parent_market": parent_market,
+            "article_count": 0,
+            "deal_count": 0,
+            "entitlement_signal_count": 0,
+            "opportunity_count": 0,
+            "distress_signal_count": 0,
+            "timing_signal_count": 0,
+            "residential_sectors": [],
+            "deal_types": [],
+            "entitlement_signals": [],
+            "themes": [],
+            "opportunity_scores": [],
+            "risk_scores": [],
+            "complexity_scores": [],
+            "evidence": [],
+            "gps": [],
+            "projects": [],
+        }
+    bucket = observations[submarket]
+    if source_type == "article":
+        bucket["article_count"] += 1
+    elif source_type == "deal":
+        bucket["deal_count"] += 1
+        bucket["deal_types"].append(row.get("deal_type", "General Project Signal"))
+    elif source_type == "entitlement":
+        bucket["entitlement_signal_count"] += 1
+        bucket["entitlement_signals"].append(row.get("entitlement_signal_type", "General Entitlement Signal"))
+        bucket["risk_scores"].append(safe_int(row.get("entitlement_risk_score")))
+        bucket["opportunity_scores"].append(safe_int(row.get("entitlement_opportunity_score")))
+        bucket["complexity_scores"].append(get_execution_complexity_score(row, text))
+    elif source_type == "opportunity":
+        bucket["opportunity_count"] += 1
+        bucket["opportunity_scores"].append(safe_int(row.get("opportunity_score")))
+    elif source_type == "distress":
+        bucket["distress_signal_count"] += 1
+        bucket["risk_scores"].append(safe_int(row.get("distress_score")))
+    elif source_type == "timing":
+        bucket["timing_signal_count"] += 1
+        bucket["opportunity_scores"].append(round(safe_int(row.get("timing_urgency_score")) * 0.5))
+
+    sector = row.get("residential_sector")
+    if sector:
+        bucket["residential_sectors"].append(sector)
+    gp_name = row.get("canonical_gp_or_developer") or row.get("gp_or_developer")
+    if gp_name and gp_name != "Unknown":
+        bucket["gps"].append(gp_name)
+    project = row.get("project_or_deal_name") or row.get("related_project_or_deal") or row.get("source_article_title") or row.get("title")
+    if project:
+        bucket["projects"].append(project)
+        bucket["evidence"].append(project)
+    theme = detect_site_strategy_theme(text)
+    if theme != "General submarket monitoring":
+        bucket["themes"].append(theme)
+
+
+def get_execution_complexity_score(row, text):
+    """Score local execution complexity."""
+    lower_text = (text or "").lower()
+    score = 20
+    if any(word in lower_text for word in ["ceqa", "eir", "appeal", "lawsuit"]):
+        score += 25
+    if any(word in lower_text for word in ["permit delay", "delayed", "under review", "planning commission"]):
+        score += 18
+    if any(word in lower_text for word in ["affordable", "inclusionary", "mixed-income"]):
+        score += 12
+    if any(word in lower_text for word in ["urban infill", "adaptive reuse", "office conversion", "office-to-residential"]):
+        score += 15
+    if row.get("entitlement_stage") in ["Unknown Stage", "Under Review", "Delayed / Appealed"]:
+        score += 10
+    return min(100, score)
+
+
+def finalize_submarket_rows(run_timestamp, observations):
+    """Convert submarket buckets into final CSV rows."""
+    rows = []
+    for bucket in observations.values():
+        article_count = bucket["article_count"]
+        deal_count = bucket["deal_count"]
+        entitlement_count = bucket["entitlement_signal_count"]
+        opportunity_count = bucket["opportunity_count"]
+        distress_count = bucket["distress_signal_count"]
+        timing_count = bucket["timing_signal_count"]
+        parent_market = bucket["parent_market"]
+        opportunity_score = min(100, round(
+            opportunity_count * 15
+            + deal_count * 8
+            + entitlement_count * 7
+            + timing_count * 5
+            + max(bucket["opportunity_scores"] or [0]) * 0.35
+            + (12 if parent_market in ["Los Angeles", "Orange County", "Inland Empire"] else 0)
+        ))
+        risk_score = min(100, round(
+            distress_count * 15
+            + max(bucket["risk_scores"] or [0]) * 0.55
+            + (8 if "CEQA / Environmental Review" in bucket["entitlement_signals"] else 0)
+        ))
+        complexity_score = min(100, round(
+            max(bucket["complexity_scores"] or [20])
+            + (10 if parent_market in ["Los Angeles", "Orange County", "Inland Empire"] else 0)
+        ))
+        rows.append({
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "submarket_name": bucket["submarket_name"],
+            "parent_market": parent_market,
+            "article_count": article_count,
+            "deal_count": deal_count,
+            "entitlement_signal_count": entitlement_count,
+            "opportunity_count": opportunity_count,
+            "distress_signal_count": distress_count,
+            "timing_signal_count": timing_count,
+            "dominant_residential_sector": most_common_from_list(bucket["residential_sectors"], "General Residential"),
+            "dominant_deal_type": most_common_from_list(bucket["deal_types"], "General Project Signal"),
+            "dominant_entitlement_signal": most_common_from_list(bucket["entitlement_signals"], "General Entitlement Signal"),
+            "site_strategy_theme": most_common_from_list(bucket["themes"], "General submarket monitoring"),
+            "submarket_opportunity_score": opportunity_score,
+            "submarket_risk_score": risk_score,
+            "execution_complexity_score": complexity_score,
+            "woomi_site_strategy_relevance": get_submarket_woomi_relevance(opportunity_score, risk_score, parent_market),
+            "recommended_submarket_action": get_recommended_submarket_action(bucket, opportunity_score, risk_score, complexity_score),
+            "key_evidence": "; ".join(sorted(set(bucket["evidence"]))[:5]),
+        })
+    rows.sort(key=lambda row: (-safe_int(row["submarket_opportunity_score"]), -safe_int(row["submarket_risk_score"]), row["submarket_name"]))
+    return rows
+
+
+def most_common_from_list(values, default_value):
+    """Return most common non-empty list item."""
+    clean_values = [value for value in values if value]
+    if not clean_values:
+        return default_value
+    return Counter(clean_values).most_common(1)[0][0]
+
+
+def get_submarket_woomi_relevance(opportunity_score, risk_score, parent_market):
+    """Label submarket relevance to Woomi site strategy."""
+    if parent_market in ["Los Angeles", "Orange County", "Inland Empire"] and max(opportunity_score, risk_score) >= 55:
+        return "High relevance to Woomi site strategy"
+    if max(opportunity_score, risk_score) >= 45:
+        return "Strategic watch submarket"
+    if max(opportunity_score, risk_score) >= 25:
+        return "General monitoring"
+    return "Low relevance"
+
+
+def get_recommended_submarket_action(bucket, opportunity_score, risk_score, complexity_score):
+    """Recommend one submarket follow-up action."""
+    entitlement_signals = bucket["entitlement_signals"]
+    themes = " ".join(bucket["themes"]).lower()
+    if entitlement_signals:
+        return "Monitor entitlement precedent"
+    if risk_score >= 55 and bucket["distress_signal_count"] > 0:
+        return "Monitor refinancing / distress pipeline"
+    if opportunity_score >= 60:
+        return "Review potential acquisition pipeline"
+    if bucket["gps"]:
+        return "Track local GP / sponsor activity"
+    if "office conversion" in themes or "adaptive reuse" in themes:
+        return "Watch office-to-residential feasibility"
+    if complexity_score >= 65:
+        return "Track local planning docket"
+    return "Monitor only"
+
+
+def build_submarket_intelligence_rows(run_timestamp, articles, deal_rows, entitlement_rows, opportunity_rows, distress_rows, timing_rows):
+    """Aggregate submarket intelligence across major pipeline rows."""
+    observations = {}
+    datasets = [
+        ("article", articles),
+        ("deal", deal_rows),
+        ("entitlement", entitlement_rows),
+        ("opportunity", opportunity_rows),
+        ("distress", distress_rows),
+        ("timing", timing_rows),
+    ]
+    for source_type, rows in datasets:
+        for row in rows:
+            text = " ".join([
+                row.get("title", ""),
+                row.get("source_article_title", ""),
+                row.get("project_or_deal_name", ""),
+                row.get("related_project_or_deal", ""),
+                row.get("city_or_submarket", ""),
+                row.get("market", ""),
+                row.get("market_focus", ""),
+                row.get("article_text_sample", ""),
+                row.get("evidence_signals", ""),
+                row.get("site_strategy_theme", ""),
+            ])
+            submarkets = detect_submarkets_from_text(text)
+            if not submarkets and row.get("city_or_submarket") and row.get("city_or_submarket") != "Unknown":
+                submarkets = [row.get("city_or_submarket")]
+            for submarket in submarkets:
+                add_submarket_observation(observations, submarket, row, source_type, text)
+    return finalize_submarket_rows(run_timestamp, observations)
+
+
+def generate_submarket_intelligence_outputs(submarket_rows, dated_output_dir):
+    """Write submarket_intelligence.csv and submarket_intelligence_report.md."""
+    fieldnames = [
+        "run_timestamp", "submarket_name", "parent_market", "article_count",
+        "deal_count", "entitlement_signal_count", "opportunity_count",
+        "distress_signal_count", "timing_signal_count", "dominant_residential_sector",
+        "dominant_deal_type", "dominant_entitlement_signal", "site_strategy_theme",
+        "submarket_opportunity_score", "submarket_risk_score",
+        "execution_complexity_score", "woomi_site_strategy_relevance",
+        "recommended_submarket_action", "key_evidence",
+    ]
+    write_csv_outputs(SUBMARKET_INTELLIGENCE_OUTPUT_FILE, fieldnames, submarket_rows, dated_output_dir)
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = ["# Submarket Intelligence Report", "", f"Generated: {generated_at}", "", f"- Total submarkets detected: {len(submarket_rows)}", ""]
+    add_submarket_section(lines, "Top Submarkets By Opportunity Score", submarket_rows, "submarket_opportunity_score")
+    add_submarket_section(lines, "Top Submarkets By Risk Score", submarket_rows, "submarket_risk_score")
+    add_submarket_section(lines, "Highest Execution Complexity Submarkets", submarket_rows, "execution_complexity_score")
+    lines.extend(["## Sector Themes By Submarket", ""])
+    for row in submarket_rows[:12]:
+        lines.append(f"- {row['submarket_name']}: {row['dominant_residential_sector']}, {row['site_strategy_theme']}.")
+    lines.extend(["", "## Timing and Entitlement Signals By Submarket", ""])
+    for row in submarket_rows[:12]:
+        lines.append(f"- {row['submarket_name']}: {row['timing_signal_count']} timing signal(s), {row['entitlement_signal_count']} entitlement signal(s).")
+    lines.extend([
+        "",
+        "## Implications for Woomi / Woomi Global",
+        "",
+        "- Submarket intelligence helps turn broad regional monitoring into site-screening and local execution watchlists.",
+        "- LA / California submarkets with entitlement or execution complexity should be reviewed before sourcing or underwriting assumptions are finalized.",
+        f"- Asset / parcel-level site clues are available in `{os.path.basename(ASSET_PARCEL_INTELLIGENCE_REPORT_OUTPUT_FILE)}` and `{os.path.basename(LA_ASSET_WATCH_REPORT_OUTPUT_FILE)}`.",
+        "",
+        "## Recommended Submarket Follow-up Actions",
+        "",
+    ])
+    for row in submarket_rows[:8]:
+        lines.append(f"- {row['recommended_submarket_action']}: {row['submarket_name']} ({row['woomi_site_strategy_relevance']}).")
+    if not submarket_rows:
+        lines.append("- Continue monitoring for submarket-level signals.")
+    lines.append("")
+    write_markdown_outputs(SUBMARKET_INTELLIGENCE_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "total_submarkets": len(submarket_rows),
+        "top_opportunity_submarket": max(submarket_rows, key=lambda row: safe_int(row["submarket_opportunity_score"])) if submarket_rows else {},
+        "top_risk_submarket": max(submarket_rows, key=lambda row: safe_int(row["submarket_risk_score"])) if submarket_rows else {},
+        "highest_complexity_submarket": max(submarket_rows, key=lambda row: safe_int(row["execution_complexity_score"])) if submarket_rows else {},
+    }
+
+
+def add_submarket_section(lines, title, rows, score_field):
+    """Add a submarket report section."""
+    lines.append(f"## {title}")
+    lines.append("")
+    if not rows:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+    for row in sorted(rows, key=lambda item: -safe_int(item.get(score_field)))[:10]:
+        lines.append(
+            f"- {row['submarket_name']} ({row['parent_market']}): "
+            f"{score_field} {row[score_field]}, {row['recommended_submarket_action']}."
+        )
+    lines.append("")
+
+
+def build_la_submarket_watch_rows(run_timestamp, submarket_rows):
+    """Build a focused LA / Southern California submarket watchlist."""
+    rows = []
+    for row in submarket_rows:
+        if row["parent_market"] not in ["Los Angeles", "Orange County", "Inland Empire"] and row["submarket_name"] not in ["California", "Southern California"]:
+            continue
+        submarket = row["submarket_name"]
+        potential_strategy = get_la_submarket_strategy(submarket, row)
+        rows.append({
+            "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "la_submarket": submarket,
+            "article_count": row["article_count"],
+            "deal_count": row["deal_count"],
+            "entitlement_signal_count": row["entitlement_signal_count"],
+            "opportunity_count": row["opportunity_count"],
+            "distress_signal_count": row["distress_signal_count"],
+            "timing_signal_count": row["timing_signal_count"],
+            "residential_sector_focus": row["dominant_residential_sector"],
+            "entitlement_theme": row["dominant_entitlement_signal"],
+            "site_strategy_theme": row["site_strategy_theme"],
+            "local_gp_or_developer": "Unknown",
+            "project_or_deal_reference": row["key_evidence"],
+            "la_opportunity_score": row["submarket_opportunity_score"],
+            "la_execution_risk_score": max(safe_int(row["submarket_risk_score"]), safe_int(row["execution_complexity_score"])),
+            "entitlement_precedent_signal": "Yes" if safe_int(row["entitlement_signal_count"]) > 0 else "No",
+            "potential_woomi_site_strategy": potential_strategy,
+            "recommended_local_follow_up": get_la_submarket_follow_up(row),
+            "confidence_level": get_confidence_label(max(safe_int(row["submarket_opportunity_score"]), safe_int(row["submarket_risk_score"])), safe_int(row["article_count"]) + safe_int(row["deal_count"]) + safe_int(row["entitlement_signal_count"])),
+        })
+    rows.sort(key=lambda item: (-safe_int(item["la_opportunity_score"]), -safe_int(item["la_execution_risk_score"]), item["la_submarket"]))
+    return rows
+
+
+def get_la_submarket_strategy(submarket, row):
+    """Create a Woomi site strategy angle for LA submarkets."""
+    lower_submarket = submarket.lower()
+    theme = row.get("site_strategy_theme", "").lower()
+    if "koreatown" in lower_submarket or "wilshire" in lower_submarket:
+        return "Koreatown multifamily watch"
+    if "dtla" in lower_submarket or "downtown" in lower_submarket or "adaptive reuse" in theme:
+        return "DTLA adaptive reuse watch"
+    if "hollywood" in lower_submarket or "transit" in theme:
+        return "Hollywood / transit-oriented housing watch"
+    if "pasadena" in lower_submarket:
+        return "Pasadena entitlement precedent watch"
+    if "long beach" in lower_submarket:
+        return "Long Beach mixed-use residential watch"
+    if row["parent_market"] == "Orange County":
+        return "Orange County suburban apartment watch"
+    if row["parent_market"] == "Inland Empire":
+        return "Inland Empire BTR / rental housing watch"
+    if "Density Bonus" in row.get("dominant_entitlement_signal", "") or "density bonus" in theme:
+        return "LA affordable / density bonus watch"
+    return "Monitor only"
+
+
+def get_la_submarket_follow_up(row):
+    """Recommend local follow-up for LA submarket watch."""
+    if safe_int(row["entitlement_signal_count"]) > 0:
+        return "Track local planning docket and entitlement precedent"
+    if safe_int(row["opportunity_count"]) > 0:
+        return "Review potential acquisition pipeline"
+    if safe_int(row["distress_signal_count"]) > 0:
+        return "Monitor refinancing / distress pipeline"
+    if "office conversion" in row.get("site_strategy_theme", "").lower() or "adaptive reuse" in row.get("site_strategy_theme", "").lower():
+        return "Watch office-to-residential feasibility"
+    return "Monitor only"
+
+
+def generate_la_submarket_watch_outputs(la_rows, dated_output_dir):
+    """Write la_submarket_watch.csv and la_submarket_watch_report.md."""
+    fieldnames = [
+        "run_timestamp", "la_submarket", "article_count", "deal_count",
+        "entitlement_signal_count", "opportunity_count", "distress_signal_count",
+        "timing_signal_count", "residential_sector_focus", "entitlement_theme",
+        "site_strategy_theme", "local_gp_or_developer", "project_or_deal_reference",
+        "la_opportunity_score", "la_execution_risk_score",
+        "entitlement_precedent_signal", "potential_woomi_site_strategy",
+        "recommended_local_follow_up", "confidence_level",
+    ]
+    write_csv_outputs(LA_SUBMARKET_WATCH_OUTPUT_FILE, fieldnames, la_rows, dated_output_dir)
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = ["# LA / Southern California Submarket Watch Report", "", f"Generated: {generated_at}", "", f"- Total LA / Southern California submarkets detected: {len(la_rows)}", ""]
+    add_la_submarket_section(lines, "Top LA / Southern California Submarkets", la_rows, lambda row: True)
+    add_la_submarket_section(lines, "Koreatown / Wilshire Watch", la_rows, lambda row: row["la_submarket"] in ["Koreatown", "Wilshire", "Mid-Wilshire", "Miracle Mile"])
+    add_la_submarket_section(lines, "DTLA / Adaptive Reuse Watch", la_rows, lambda row: row["la_submarket"] in ["DTLA", "Downtown Los Angeles", "Arts District", "Fashion District"] or "adaptive reuse" in row["site_strategy_theme"].lower())
+    add_la_submarket_section(lines, "Hollywood / Transit-Oriented Watch", la_rows, lambda row: "Hollywood" in row["la_submarket"] or "transit" in row["site_strategy_theme"].lower())
+    add_la_submarket_section(lines, "Pasadena / Entitlement Precedent Watch", la_rows, lambda row: row["la_submarket"] == "Pasadena")
+    add_la_submarket_section(lines, "Long Beach / Mixed-Use Watch", la_rows, lambda row: row["la_submarket"] == "Long Beach")
+    add_la_submarket_section(lines, "Orange County / Suburban Apartment Watch", la_rows, lambda row: row["la_submarket"] in ["Orange County", "Irvine", "Anaheim", "Santa Ana", "Costa Mesa"])
+    add_la_submarket_section(lines, "Inland Empire / BTR Watch", la_rows, lambda row: row["la_submarket"] in ["Inland Empire", "Ontario", "Rancho Cucamonga", "Riverside", "San Bernardino"])
+    add_la_submarket_section(lines, "LA Density Bonus / TOC Watch", la_rows, lambda row: "Density Bonus" in row["entitlement_theme"] or "density bonus" in row["site_strategy_theme"].lower())
+    add_la_submarket_section(lines, "LA CEQA / Entitlement Risk Watch", la_rows, lambda row: safe_int(row["la_execution_risk_score"]) >= 55)
+    lines.extend(["## Recommended Local Follow-up Actions", ""])
+    for row in la_rows[:8]:
+        lines.append(f"- {row['recommended_local_follow_up']}: {row['la_submarket']} / {row['potential_woomi_site_strategy']}.")
+    if not la_rows:
+        lines.append("- Continue monitoring LA and Southern California submarket signals.")
+    lines.extend([
+        "",
+        "## Asset / Parcel Intelligence Reference",
+        "",
+        f"Asset / parcel-level site clues are available in `{os.path.basename(ASSET_PARCEL_INTELLIGENCE_REPORT_OUTPUT_FILE)}` and `{os.path.basename(LA_ASSET_WATCH_REPORT_OUTPUT_FILE)}`.",
+    ])
+    lines.append("")
+    write_markdown_outputs(LA_SUBMARKET_WATCH_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "total_la_submarkets": len(la_rows),
+        "koreatown_wilshire_count": len([row for row in la_rows if row["la_submarket"] in ["Koreatown", "Wilshire", "Mid-Wilshire", "Miracle Mile"]]),
+        "dtla_adaptive_reuse_count": len([row for row in la_rows if row["la_submarket"] in ["DTLA", "Downtown Los Angeles", "Arts District", "Fashion District"] or "adaptive reuse" in row["site_strategy_theme"].lower()]),
+        "hollywood_tod_count": len([row for row in la_rows if "Hollywood" in row["la_submarket"] or "transit" in row["site_strategy_theme"].lower()]),
+        "orange_county_count": len([row for row in la_rows if row["la_submarket"] in ["Orange County", "Irvine", "Anaheim", "Santa Ana", "Costa Mesa"]]),
+        "inland_empire_count": len([row for row in la_rows if row["la_submarket"] in ["Inland Empire", "Ontario", "Rancho Cucamonga", "Riverside", "San Bernardino"]]),
+        "recommended_follow_up": [row["recommended_local_follow_up"] for row in la_rows[:5]],
+    }
+
+
+def add_la_submarket_section(lines, title, rows, filter_function):
+    """Add one LA submarket watch report section."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected = [row for row in rows if filter_function(row)]
+    if not selected:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+    for row in selected[:10]:
+        lines.append(
+            f"- {row['la_submarket']}: opportunity {row['la_opportunity_score']}, "
+            f"risk {row['la_execution_risk_score']}, {row['potential_woomi_site_strategy']}."
+        )
+    lines.append("")
+
+
+def extract_first_match(pattern, text):
+    """Return the first regex match as text."""
+    match = pattern.search(text or "")
+    if not match:
+        return ""
+    if isinstance(match.groups(), tuple) and match.groups():
+        return " and ".join(group for group in match.groups() if group)
+    return match.group(0)
+
+
+def extract_asset_text(row):
+    """Build a text block for asset / parcel extraction."""
+    return " ".join([
+        row.get("title", ""),
+        row.get("source_article_title", ""),
+        row.get("project_or_deal_name", ""),
+        row.get("related_project_or_deal", ""),
+        row.get("canonical_project_name", ""),
+        row.get("evidence_signals", ""),
+        row.get("article_text_sample", ""),
+        row.get("entitlement_or_permitting_stage", ""),
+        row.get("construction_start_or_delivery_timing", ""),
+    ])
+
+
+def get_asset_strategy_signal(row, text):
+    """Classify the asset-level strategy signal."""
+    lower_text = text.lower()
+    deal_type = row.get("deal_type", "")
+    if any(word in lower_text for word in ["distressed", "stalled", "paused", "foreclosure", "receivership"]):
+        return "Distressed / Stalled Asset"
+    if any(word in lower_text for word in ["refinancing", "recapitalization", "bridge loan", "construction loan"]):
+        return "Refinancing / Recapitalization"
+    if any(word in lower_text for word in ["office-to-residential", "office conversion", "adaptive reuse"]):
+        return "Office-to-Residential Conversion"
+    if any(word in lower_text for word in ["affordable", "density bonus", "toc", "inclusionary"]):
+        return "Affordable / Density Bonus Strategy"
+    if any(word in lower_text for word in ["permit issued", "building permit", "construction ready", "entitled"]):
+        return "Construction-Ready Pipeline"
+    if any(word in lower_text for word in ["broke ground", "construction start"]) or deal_type == "Development Start":
+        return "Development Start"
+    if any(word in lower_text for word in ["delivery", "opened", "completed", "lease-up", "stabilized"]):
+        return "Lease-Up / Delivery"
+    if any(word in lower_text for word in ["entitlement", "planning", "zoning", "rezoning"]):
+        return "Entitlement Play"
+    if any(word in lower_text for word in SITE_PARCEL_ACTIVITY_KEYWORDS):
+        return "Acquisition / Site Control"
+    return "General Asset Signal"
+
+
+def get_site_control_signal(row, text):
+    """Infer site control status from wording."""
+    lower_text = text.lower()
+    if any(word in lower_text for word in SITE_PARCEL_ACTIVITY_KEYWORDS + ["purchased", "acquired"]):
+        return "Site acquired"
+    if any(word in lower_text for word in ["land", "parcel", "site", "acre"]):
+        return "Land / parcel referenced"
+    if any(word in lower_text for word in ["entitlement", "planning approval", "under review"]):
+        return "Project under entitlement"
+    if any(word in lower_text for word in ["permit issued", "building permit", "construction ready"]):
+        return "Permitted / construction ready"
+    if row.get("deal_type") == "Refinancing" or "refinance" in lower_text:
+        return "Existing asset refinance"
+    if row.get("deal_type") in ["Acquisition", "Disposition / Exit"] or "sale" in lower_text:
+        return "Existing asset sale"
+    return "Unknown site control"
+
+
+def get_execution_stage_from_asset(text, entitlement_status, permit_status):
+    """Infer project/site execution stage."""
+    lower_text = text.lower()
+    if any(word in lower_text for word in ["distressed", "stalled", "paused", "delayed"]):
+        return "Distressed / Stalled"
+    if any(word in lower_text for word in ["stabilized", "operating"]):
+        return "Stabilized / Operating"
+    if any(word in lower_text for word in ["delivered", "delivery", "lease-up", "opened", "completed"]):
+        return "Delivered / Lease-Up"
+    if any(word in lower_text for word in ["under construction", "broke ground", "construction started"]):
+        return "Under Construction"
+    if permit_status != "Unknown":
+        return "Permitted"
+    if entitlement_status != "Unknown":
+        return "Entitlement / Planning"
+    if any(word in lower_text for word in SITE_PARCEL_ACTIVITY_KEYWORDS):
+        return "Site Controlled"
+    if any(word in lower_text for word in ["site", "parcel", "land"]):
+        return "Site Search / Early Signal"
+    return "Unknown"
+
+
+PRIMARY_DEVELOPMENT_CATEGORY_LABELS = {
+    "approval_watch": "Approval Watch",
+    "construction_delivery_watch": "Construction / Delivery Watch",
+    "site_parcel_activity": "Site / Parcel Activity",
+    "excluded": "Other / Excluded",
+}
+
+PRIMARY_CONSTRUCTION_TERMS = [
+    "broke ground", "breaks ground", "construction started", "starts construction",
+    "under construction", "vertical construction", "wood framing", "framing takes shape", "topping out",
+    "topped out", "opening", "opens", "completed", "completion", "delivered",
+    "delivery", "lease-up", "occupancy", "move-ins", "absorption",
+]
+PRIMARY_APPROVAL_TERMS = [
+    "permit", "permits", "permitting", "entitlement", "entitled", "zoning",
+    "rezoning", "planning commission", "approved", "approval", "ceqa",
+    "environmental review", "hud review", "density bonus", "affordable overlay",
+    "conditional approval",
+]
+PRIMARY_EXCLUDED_FINANCE_TERMS = [
+    "refinancing", "recapitalization", "bridge loan", "construction loan",
+    "capital markets transaction", "lender announcement",
+]
+
+
+def classify_primary_development_category(text, headline=""):
+    """Assign one Recent Development Activity bucket and a short reason."""
+    lower_text = (text or "").lower()
+    lower_headline = (headline or "").lower()
+    matched_construction = next((term for term in PRIMARY_CONSTRUCTION_TERMS if term in lower_text), "")
+    matched_approval = next((term for term in PRIMARY_APPROVAL_TERMS if term in lower_text), "")
+    matched_site = next((term for term in SITE_PARCEL_ACTIVITY_KEYWORDS if term in lower_text), "")
+    matched_finance = next((term for term in PRIMARY_EXCLUDED_FINANCE_TERMS if term in lower_text), "")
+    disposition_only = any(term in lower_text for term in ["disposition", "sale of operating asset"])
+    operating_asset_acquisition = (
+        any(term in lower_headline for term in ["apartment building", "apartment community", "multifamily property"])
+        and any(term in lower_headline for term in ["acquires", "acquired", "buys", "purchase"])
+        and not any(term in lower_headline for term in ["development site", "parcel", "land", "redevelopment"])
+    )
+    if matched_construction:
+        return "construction_delivery_watch", f"matched {matched_construction}"
+    if matched_approval:
+        return "approval_watch", f"matched {matched_approval}"
+    if operating_asset_acquisition:
+        return "excluded", "excluded operating-asset acquisition"
+    if matched_site:
+        return "site_parcel_activity", f"matched {matched_site}"
+    if matched_finance:
+        return "excluded", f"excluded financing-only article: {matched_finance}"
+    if disposition_only:
+        return "excluded", "excluded operating-asset disposition"
+    return "excluded", "no clear development milestone"
+
+
+def extract_entitlement_status(text):
+    """Extract simple entitlement status."""
+    lower_text = text.lower()
+    if "entitled" in lower_text or "entitlement approval" in lower_text:
+        return "Entitled / approved"
+    if "under review" in lower_text or "planning commission" in lower_text:
+        return "Under planning review"
+    if "zoning" in lower_text or "rezoning" in lower_text:
+        return "Zoning / rezoning signal"
+    return "Unknown"
+
+
+def extract_permit_status(text):
+    """Extract simple permit status."""
+    lower_text = text.lower()
+    if "permit issued" in lower_text:
+        return "Permit issued"
+    if "building permit" in lower_text:
+        return "Building permit signal"
+    if "construction permit" in lower_text:
+        return "Construction permit signal"
+    return "Unknown"
+
+
+def extract_construction_status(text):
+    """Extract simple construction status."""
+    lower_text = text.lower()
+    if "under construction" in lower_text:
+        return "Under construction"
+    if "broke ground" in lower_text or "construction started" in lower_text:
+        return "Construction started"
+    if "completed" in lower_text or "opened" in lower_text:
+        return "Completed / opened"
+    if "delayed" in lower_text or "paused" in lower_text:
+        return "Delayed / paused"
+    return "Unknown"
+
+
+def get_asset_scores(row, text, address, site_control, execution_stage, strategy_signal, graph_rows, opportunity_rows, distress_rows):
+    """Calculate opportunity and risk scores for one asset/site signal."""
+    market = row.get("market") or row.get("market_focus") or "Other / Unknown"
+    gp_name = row.get("canonical_gp_or_developer") or row.get("gp_or_developer", "Unknown")
+    base_score = max(safe_int(row.get("deal_signal_score")), safe_int(row.get("relevance_score")), 35)
+    graph_score = max_score_for_entity(graph_rows, gp_name, ["canonical_source_entity", "canonical_target_entity", "source_entity", "target_entity"], "relationship_strength_score")
+    opportunity_score = max_score_for_entity(opportunity_rows, row.get("project_or_deal_name", ""), ["related_project_or_deal", "source_article_title"], "opportunity_score")
+    distress_score = max_score_for_entity(distress_rows, row.get("project_or_deal_name", ""), ["related_project_or_deal", "source_article_title"], "distress_score")
+    specificity = 20 if address else 10 if row.get("project_or_deal_name") else 0
+    la_bonus = 12 if market in ["Los Angeles", "California"] or any(term in text.lower() for term in LA_ENTITLEMENT_MARKET_KEYWORDS) else 0
+    status_bonus = 15 if execution_stage in ["Permitted", "Under Construction", "Entitlement / Planning", "Site Controlled"] else 5
+    number_bonus = 8 if row.get("unit_count") or row.get("dollar_amount") or row.get("loan_amount") else 0
+    sector_bonus = 8 if row.get("residential_sector") in ["Multifamily", "Apartment", "Affordable Housing", "Mixed-Use Residential", "Office-to-Residential Conversion", "BTR / Single-Family Rental"] else 3
+    asset_opportunity_score = min(100, round(
+        base_score * 0.30 + graph_score * 0.12 + opportunity_score * 0.18
+        + specificity + la_bonus + status_bonus + number_bonus + sector_bonus
+    ))
+    risk_bonus = 0
+    lower_text = text.lower()
+    if any(word in lower_text for word in ["ceqa", "appeal", "lawsuit", "environmental review"]):
+        risk_bonus += 20
+    if any(word in lower_text for word in ["delayed", "paused", "stalled", "postponed"]):
+        risk_bonus += 20
+    if gp_name == "Unknown":
+        risk_bonus += 8
+    if execution_stage in ["Unknown", "Entitlement / Planning"]:
+        risk_bonus += 8
+    if strategy_signal == "Office-to-Residential Conversion":
+        risk_bonus += 10
+    if "urban infill" in lower_text or market in ["Los Angeles", "California"]:
+        risk_bonus += 6
+    asset_risk_score = min(100, round(distress_score * 0.35 + risk_bonus + base_score * 0.18))
+    return asset_opportunity_score, asset_risk_score
+
+
+def get_woomi_asset_relevance(asset_score, risk_score, strategy_signal, market):
+    """Label Woomi relevance for asset/site rows."""
+    if market in ["Los Angeles", "California"] and max(asset_score, risk_score) >= 60:
+        return "High relevance to Woomi site strategy"
+    if strategy_signal in ["Acquisition / Site Control", "Refinancing / Recapitalization"] and asset_score >= 55:
+        return "Relevant to acquisition / JV sourcing"
+    if strategy_signal in ["Entitlement Play", "Construction-Ready Pipeline", "Affordable / Density Bonus Strategy"]:
+        return "Relevant to entitlement monitoring"
+    if asset_score >= 45:
+        return "Relevant to underwriting benchmark"
+    if asset_score >= 30:
+        return "General monitoring"
+    return "Low relevance"
+
+
+def get_asset_follow_up(strategy_signal, relevance):
+    """Recommend an asset-level follow-up."""
+    if relevance == "High relevance to Woomi site strategy":
+        return "Review site details, sponsor, entitlement path, and local precedent"
+    if strategy_signal in ["Acquisition / Site Control", "Refinancing / Recapitalization"]:
+        return "Review acquisition, financing, ownership, and comparable transaction details"
+    if strategy_signal in ["Entitlement Play", "Construction-Ready Pipeline", "Affordable / Density Bonus Strategy"]:
+        return "Track entitlement, permit, density bonus, and construction-readiness milestones"
+    if strategy_signal == "Office-to-Residential Conversion":
+        return "Monitor office conversion feasibility and policy support"
+    if strategy_signal == "Distressed / Stalled Asset":
+        return "Monitor sponsor stress, lender exposure, and restart path"
+    return "Monitor asset-level signal for repeated confirmation"
+
+
+def build_asset_parcel_intelligence_rows(run_timestamp, articles, deal_rows, fingerprint_rows, opportunity_rows, distress_rows, entitlement_rows, la_entitlement_rows, submarket_rows, la_submarket_rows, timing_rows, graph_rows, gp_watchlist_rows, relationship_rows):
+    """Build project/site-level asset and parcel intelligence rows."""
+    rows = []
+    seen = set()
+    source_rows = []
+    for article in articles:
+        source_rows.append(("article", article))
+    for deal in deal_rows:
+        source_rows.append(("deal", deal))
+    for ent in entitlement_rows:
+        source_rows.append(("entitlement", ent))
+    for timing in timing_rows:
+        source_rows.append(("timing", timing))
+    for opp in opportunity_rows:
+        source_rows.append(("opportunity", opp))
+    for distress in distress_rows:
+        source_rows.append(("distress", distress))
+
+    for source_type, row in source_rows:
+        text = extract_asset_text(row)
+        address = extract_first_match(ASSET_ADDRESS_PATTERN, text)
+        intersection = extract_first_match(ASSET_INTERSECTION_PATTERN, text)
+        site_size = extract_first_match(SITE_SIZE_PATTERN, text)
+        submarkets = detect_submarkets_from_text(text)
+        neighborhood = row.get("city_or_submarket") or (submarkets[0] if submarkets else "")
+        project_name = row.get("canonical_project_name") or row.get("project_or_deal_name") or row.get("related_project_or_deal") or row.get("title") or row.get("source_article_title") or "Unknown Asset / Project"
+        if not any([address, intersection, site_size, row.get("unit_count"), row.get("dollar_amount"), row.get("loan_amount"), row.get("project_or_deal_name"), row.get("related_project_or_deal")]):
+            continue
+        key = (project_name, address, row.get("url", ""))
+        if key in seen:
+            continue
+        seen.add(key)
+        entitlement_status = extract_entitlement_status(text)
+        permit_status = extract_permit_status(text)
+        construction_status = extract_construction_status(text)
+        strategy_signal = get_asset_strategy_signal(row, text)
+        site_control = get_site_control_signal(row, text)
+        execution_stage = get_execution_stage_from_asset(text, entitlement_status, permit_status)
+        primary_category, primary_category_reason = classify_primary_development_category(
+            text,
+            row.get("source_article_title") or row.get("title", ""),
+        )
+        market = row.get("market") or row.get("market_focus") or "Other / Unknown"
+        asset_score, risk_score = get_asset_scores(row, text, address, site_control, execution_stage, strategy_signal, graph_rows, opportunity_rows, distress_rows)
+        relevance = get_woomi_asset_relevance(asset_score, risk_score, strategy_signal, market)
+        gp_name = row.get("canonical_gp_or_developer") or row.get("gp_or_developer", "Unknown")
+        lender = row.get("lender_or_capital_provider") or row.get("canonical_lender_or_debt_provider") or row.get("lender_or_debt_provider") or row.get("canonical_capital_partner") or "Unknown"
+        confidence_evidence = len([value for value in [address, intersection, site_size, row.get("unit_count"), gp_name if gp_name != "Unknown" else "", project_name if project_name != "Unknown Asset / Project" else ""] if value])
+        rows.append({
+            "asset_signal_id": f"AST-{run_timestamp.strftime('%Y%m%d')}-{len(rows) + 1:03d}",
+            "canonical_asset_or_project_name": project_name,
+            "raw_project_or_property_name": row.get("project_or_deal_name") or row.get("related_project_or_deal") or row.get("source_article_title") or row.get("title", ""),
+            "address_or_location_clue": address or neighborhood or market,
+            "intersection_or_corridor": intersection or detect_site_strategy_theme(text),
+            "neighborhood_or_submarket": neighborhood or "Unknown",
+            "city": "Los Angeles" if market in ["Los Angeles", "California"] or any(term in text.lower() for term in LA_ENTITLEMENT_MARKET_KEYWORDS) else market,
+            "state_or_region": row.get("state_or_region") or ("California" if market in ["Los Angeles", "California"] else market),
+            "residential_sector": row.get("residential_sector", "General Residential"),
+            "asset_type": row.get("asset_type", row.get("residential_sector", "Unknown Residential")),
+            "gp_or_developer": gp_name,
+            "owner_or_sponsor": gp_name,
+            "lender_or_capital_partner": lender,
+            "entitlement_status": entitlement_status,
+            "permit_status": permit_status,
+            "construction_status": construction_status,
+            "delivery_or_timing_reference": row.get("timing_reference") or row.get("construction_start_or_delivery_timing") or extract_timing_reference(text),
+            "unit_count": row.get("unit_count", ""),
+            "dollar_amount": row.get("dollar_amount") or row.get("loan_amount") or row.get("acquisition_price", ""),
+            "site_size_or_area": site_size,
+            "deal_or_project_type": row.get("deal_type") or row.get("opportunity_type") or row.get("distress_type") or strategy_signal,
+            "asset_strategy_signal": strategy_signal,
+            "site_control_signal": site_control,
+            "execution_stage": execution_stage,
+            "primary_development_category": primary_category,
+            "primary_category_reason": primary_category_reason,
+            "asset_opportunity_score": asset_score,
+            "asset_risk_score": risk_score,
+            "woomi_asset_relevance": relevance,
+            "recommended_asset_follow_up": get_asset_follow_up(strategy_signal, relevance),
+            "evidence_article_title": row.get("source_article_title") or row.get("title", ""),
+            "source": row.get("source", ""),
+            "url": row.get("url", ""),
+            "confidence_level": get_confidence_label(max(asset_score, risk_score), confidence_evidence),
+        })
+    rows.sort(key=lambda item: (-safe_int(item["asset_opportunity_score"]), -safe_int(item["asset_risk_score"]), item["canonical_asset_or_project_name"]))
+    return rows
+
+
+def generate_asset_parcel_intelligence_outputs(asset_rows, dated_output_dir):
+    """Write asset_parcel_intelligence.csv and Markdown report."""
+    fieldnames = [
+        "asset_signal_id", "canonical_asset_or_project_name", "raw_project_or_property_name",
+        "address_or_location_clue", "intersection_or_corridor", "neighborhood_or_submarket",
+        "city", "state_or_region", "residential_sector", "asset_type", "gp_or_developer",
+        "owner_or_sponsor", "lender_or_capital_partner", "entitlement_status", "permit_status",
+        "construction_status", "delivery_or_timing_reference", "unit_count", "dollar_amount",
+        "site_size_or_area", "deal_or_project_type", "asset_strategy_signal",
+        "site_control_signal", "execution_stage", "primary_development_category",
+        "primary_category_reason", "asset_opportunity_score", "asset_risk_score",
+        "woomi_asset_relevance", "recommended_asset_follow_up", "evidence_article_title",
+        "source", "url", "confidence_level",
+    ]
+    write_csv_outputs(ASSET_PARCEL_INTELLIGENCE_OUTPUT_FILE, fieldnames, asset_rows, dated_output_dir)
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = ["# Real Asset & Parcel Intelligence Report", "", f"Generated: {generated_at}", "", f"- Total asset / parcel signals: {len(asset_rows)}", ""]
+    add_asset_section(lines, "Top Site-Level Opportunities", asset_rows, "asset_opportunity_score", lambda row: True)
+    add_asset_section(lines, "Top Site-Level Risks", asset_rows, "asset_risk_score", lambda row: True)
+    add_asset_section(lines, "Assets With Address / Location Clues", asset_rows, "asset_opportunity_score", lambda row: row["address_or_location_clue"] not in ["", "Unknown", "Other / Unknown"])
+    add_asset_section(lines, "Assets With Identified Developers / Sponsors", asset_rows, "asset_opportunity_score", lambda row: row["gp_or_developer"] != "Unknown")
+    add_asset_section(lines, "Assets With Entitlement or Permit Signals", asset_rows, "asset_opportunity_score", lambda row: row["entitlement_status"] != "Unknown" or row["permit_status"] != "Unknown")
+    add_asset_section(lines, "Assets With Financing / Refinancing Signals", asset_rows, "asset_risk_score", lambda row: row["asset_strategy_signal"] == "Refinancing / Recapitalization")
+    add_asset_section(lines, "Office-to-Residential Asset Signals", asset_rows, "asset_opportunity_score", lambda row: row["asset_strategy_signal"] == "Office-to-Residential Conversion")
+    add_asset_section(lines, "Affordable / Density Bonus Asset Signals", asset_rows, "asset_opportunity_score", lambda row: row["asset_strategy_signal"] == "Affordable / Density Bonus Strategy")
+    lines.extend([
+        "## Implications for Woomi / Woomi Global",
+        "",
+        "- Asset and parcel intelligence helps connect strategy signals to specific sites, sponsors, permits, financing events, and construction stages.",
+        "- Rows with addresses, named projects, entitlement status, or site control clues should feed underwriting, local sponsor mapping, and site-screening conversations.",
+        "",
+        "## Recommended Asset-Level Follow-up Actions",
+        "",
+    ])
+    for row in asset_rows[:8]:
+        lines.append(f"- {row['recommended_asset_follow_up']}: {row['canonical_asset_or_project_name']}.")
+    if not asset_rows:
+        lines.append("- Continue monitoring for address, project, permit, and site-control clues.")
+    lines.append("")
+    write_markdown_outputs(ASSET_PARCEL_INTELLIGENCE_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "total_asset_signals": len(asset_rows),
+        "top_opportunity": max(asset_rows, key=lambda row: safe_int(row["asset_opportunity_score"])) if asset_rows else {},
+        "top_risk": max(asset_rows, key=lambda row: safe_int(row["asset_risk_score"])) if asset_rows else {},
+        "address_clue_count": len([row for row in asset_rows if row["address_or_location_clue"] not in ["", "Unknown", "Other / Unknown"]]),
+        "entitlement_permit_count": len([row for row in asset_rows if row["entitlement_status"] != "Unknown" or row["permit_status"] != "Unknown"]),
+        "financing_refinancing_count": len([row for row in asset_rows if row["asset_strategy_signal"] == "Refinancing / Recapitalization"]),
+        "office_conversion_count": len([row for row in asset_rows if row["asset_strategy_signal"] == "Office-to-Residential Conversion"]),
+        "affordable_density_count": len([row for row in asset_rows if row["asset_strategy_signal"] == "Affordable / Density Bonus Strategy"]),
+    }
+
+
+def add_asset_section(lines, title, rows, score_field, filter_function):
+    """Add one asset report section."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected = [row for row in rows if filter_function(row)]
+    if not selected:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+    for row in sorted(selected, key=lambda item: -safe_int(item.get(score_field)))[:10]:
+        lines.append(
+            f"- {row['canonical_asset_or_project_name']}: {row['asset_strategy_signal']}, "
+            f"{row['address_or_location_clue']}, {score_field} {row[score_field]}."
+        )
+    lines.append("")
+
+
+def build_la_asset_watch_rows(run_timestamp, asset_rows):
+    """Build LA / Southern California asset watch rows."""
+    rows = []
+    for row in asset_rows:
+        combined = " ".join([
+            row.get("address_or_location_clue", ""), row.get("neighborhood_or_submarket", ""),
+            row.get("city", ""), row.get("state_or_region", ""), row.get("evidence_article_title", ""),
+            row.get("canonical_asset_or_project_name", ""),
+        ]).lower()
+        if not any(term in combined for term in LA_ENTITLEMENT_MARKET_KEYWORDS):
+            continue
+        la_submarket = detect_la_submarket(combined, "Los Angeles")
+        local_bonus = 15 if row["asset_strategy_signal"] in ["Entitlement Play", "Construction-Ready Pipeline", "Affordable / Density Bonus Strategy", "Acquisition / Site Control"] else 5
+        la_opportunity_score = min(100, safe_int(row["asset_opportunity_score"]) + local_bonus)
+        la_risk_score = min(100, safe_int(row["asset_risk_score"]) + (10 if row["execution_stage"] in ["Entitlement / Planning", "Distressed / Stalled"] else 0))
+        rows.append({
+            "la_asset_watch_id": f"LAA-{run_timestamp.strftime('%Y%m%d')}-{len(rows) + 1:03d}",
+            "asset_or_project_name": row["canonical_asset_or_project_name"],
+            "address_or_location_clue": row["address_or_location_clue"],
+            "la_submarket": la_submarket,
+            "gp_or_developer": row["gp_or_developer"],
+            "residential_sector": row["residential_sector"],
+            "entitlement_status": row["entitlement_status"],
+            "construction_status": row["construction_status"],
+            "asset_strategy_signal": row["asset_strategy_signal"],
+            "site_control_signal": row["site_control_signal"],
+            "execution_stage": row["execution_stage"],
+            "la_asset_opportunity_score": la_opportunity_score,
+            "la_asset_risk_score": la_risk_score,
+            "woomi_site_relevance": "High relevance to Woomi site strategy" if la_opportunity_score >= 70 else "Relevant to LA site monitoring" if la_opportunity_score >= 50 else "General LA monitoring",
+            "potential_woomi_strategy_angle": get_la_asset_strategy_angle(row),
+            "recommended_local_follow_up": get_la_asset_follow_up(row),
+            "source_article_title": row["evidence_article_title"],
+            "url": row["url"],
+            "confidence_level": row["confidence_level"],
+        })
+    rows.sort(key=lambda item: (-safe_int(item["la_asset_opportunity_score"]), -safe_int(item["la_asset_risk_score"]), item["asset_or_project_name"]))
+    return rows
+
+
+def get_la_asset_strategy_angle(row):
+    """Create an LA asset strategy angle."""
+    if row["site_control_signal"] in ["Site acquired", "Land / parcel referenced"]:
+        return "Track site control precedent"
+    if row["asset_strategy_signal"] == "Entitlement Play":
+        return "Monitor entitlement path"
+    if row["asset_strategy_signal"] == "Affordable / Density Bonus Strategy":
+        return "Benchmark density bonus use"
+    if row["asset_strategy_signal"] in ["Acquisition / Site Control", "Refinancing / Recapitalization"]:
+        return "Review acquisition comparables"
+    if row["asset_strategy_signal"] == "Construction-Ready Pipeline":
+        return "Watch construction-ready pipeline"
+    if row["gp_or_developer"] != "Unknown":
+        return "Track local sponsor activity"
+    if row["asset_strategy_signal"] == "Office-to-Residential Conversion":
+        return "Monitor office conversion feasibility"
+    return "Monitor only"
+
+
+def get_la_asset_follow_up(row):
+    """Recommend local LA asset follow-up."""
+    if row["woomi_asset_relevance"] == "High relevance to Woomi site strategy":
+        return "Review parcel clue, entitlement path, sponsor, and comparable sites"
+    if row["asset_strategy_signal"] in ["Entitlement Play", "Affordable / Density Bonus Strategy"]:
+        return "Track entitlement docket, density bonus use, and affordability requirement"
+    if row["asset_strategy_signal"] == "Refinancing / Recapitalization":
+        return "Track lender, maturity, owner, and recapitalization path"
+    return "Monitor asset for repeated local confirmation"
+
+
+def generate_la_asset_watch_outputs(la_asset_rows, dated_output_dir):
+    """Write la_asset_watch.csv and Markdown report."""
+    fieldnames = [
+        "la_asset_watch_id", "asset_or_project_name", "address_or_location_clue",
+        "la_submarket", "gp_or_developer", "residential_sector", "entitlement_status",
+        "construction_status", "asset_strategy_signal", "site_control_signal",
+        "execution_stage", "la_asset_opportunity_score", "la_asset_risk_score",
+        "woomi_site_relevance", "potential_woomi_strategy_angle",
+        "recommended_local_follow_up", "source_article_title", "url", "confidence_level",
+    ]
+    write_csv_outputs(LA_ASSET_WATCH_OUTPUT_FILE, fieldnames, la_asset_rows, dated_output_dir)
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = ["# LA / Southern California Asset Watch Report", "", f"Generated: {generated_at}", "", f"- Total LA / Southern California asset watch items: {len(la_asset_rows)}", ""]
+    add_la_asset_section(lines, "Top LA Site-Level Opportunities", la_asset_rows, "la_asset_opportunity_score", lambda row: True)
+    add_la_asset_section(lines, "Top LA Site-Level Risks", la_asset_rows, "la_asset_risk_score", lambda row: True)
+    add_la_asset_section(lines, "Koreatown / Wilshire Site Watch", la_asset_rows, "la_asset_opportunity_score", lambda row: row["la_submarket"] in ["Koreatown", "Wilshire", "Mid-Wilshire", "Miracle Mile"])
+    add_la_asset_section(lines, "DTLA / Office Conversion Site Watch", la_asset_rows, "la_asset_opportunity_score", lambda row: row["la_submarket"] in ["DTLA", "Downtown Los Angeles", "Arts District"] or row["asset_strategy_signal"] == "Office-to-Residential Conversion")
+    add_la_asset_section(lines, "Hollywood / TOD Site Watch", la_asset_rows, "la_asset_opportunity_score", lambda row: "Hollywood" in row["la_submarket"] or "transit" in row["potential_woomi_strategy_angle"].lower())
+    add_la_asset_section(lines, "Pasadena / Entitlement Watch", la_asset_rows, "la_asset_opportunity_score", lambda row: row["la_submarket"] == "Pasadena")
+    add_la_asset_section(lines, "Orange County / Suburban Apartment Watch", la_asset_rows, "la_asset_opportunity_score", lambda row: row["la_submarket"] in ["Orange County", "Irvine", "Anaheim", "Santa Ana", "Costa Mesa"])
+    add_la_asset_section(lines, "Inland Empire / BTR Watch", la_asset_rows, "la_asset_opportunity_score", lambda row: row["la_submarket"] in ["Inland Empire", "Ontario", "Rancho Cucamonga", "Riverside", "San Bernardino"])
+    add_la_asset_section(lines, "Local Sponsor / Developer Watch", la_asset_rows, "la_asset_opportunity_score", lambda row: row["gp_or_developer"] != "Unknown")
+    lines.extend(["## Recommended LA Asset Follow-up Actions", ""])
+    for row in la_asset_rows[:8]:
+        lines.append(f"- {row['recommended_local_follow_up']}: {row['asset_or_project_name']}.")
+    if not la_asset_rows:
+        lines.append("- Continue monitoring for LA address, project, permit, and sponsor clues.")
+    lines.append("")
+    write_markdown_outputs(LA_ASSET_WATCH_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "total_la_asset_watch_items": len(la_asset_rows),
+        "recommended_follow_up": [row["recommended_local_follow_up"] for row in la_asset_rows[:5]],
+    }
+
+
+def add_la_asset_section(lines, title, rows, score_field, filter_function):
+    """Add a section to the LA asset watch report."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected = [row for row in rows if filter_function(row)]
+    if not selected:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+    for row in sorted(selected, key=lambda item: -safe_int(item.get(score_field)))[:10]:
+        lines.append(
+            f"- {row['asset_or_project_name']}: {row['la_submarket']}, "
+            f"{row['asset_strategy_signal']}, {score_field} {row[score_field]}."
+        )
+    lines.append("")
+
+
+def get_lifecycle_text(row):
+    """Combine useful text fields for lifecycle classification."""
+    fields = [
+        "canonical_asset_or_project_name", "raw_project_or_property_name",
+        "address_or_location_clue", "intersection_or_corridor",
+        "neighborhood_or_submarket", "city", "state_or_region",
+        "entitlement_status", "permit_status", "construction_status",
+        "delivery_or_timing_reference", "deal_or_project_type",
+        "asset_strategy_signal", "site_control_signal", "execution_stage",
+        "evidence_article_title", "source_article_title", "title",
+        "timing_reference", "evidence_signals",
+    ]
+    return " ".join(str(row.get(field, "")) for field in fields)
+
+
+def detect_lifecycle_stage(row):
+    """Classify a project into a simple development lifecycle stage."""
+    text = get_lifecycle_text(row).lower()
+    current_execution_stage = row.get("execution_stage", "")
+    if current_execution_stage == "Distressed / Stalled":
+        return "Distressed / Stalled"
+    if current_execution_stage == "Under Construction":
+        return "Vertical Construction"
+    if current_execution_stage == "Delivered / Lease-Up":
+        return "Delivery / Opening"
+    if current_execution_stage == "Stabilized / Operating":
+        return "Stabilized / Operating"
+    if current_execution_stage == "Permitted":
+        return "Building Permit / Construction Permit"
+    if current_execution_stage == "Site Controlled":
+        return "Site Acquisition / Site Control"
+    if current_execution_stage == "Entitlement / Planning":
+        return "Entitlement Under Review"
+
+    priority_order = [
+        "Distressed / Stalled",
+        "Refinancing / Recapitalization",
+        "Lease-Up",
+        "Delivery / Opening",
+        "Topped Out",
+        "Vertical Construction",
+        "Construction Started",
+        "Construction Ready",
+        "Building Permit / Construction Permit",
+        "Entitled / Approved",
+        "Entitlement Under Review",
+        "Environmental Review / CEQA",
+        "Community Review",
+        "Planning Filed",
+        "Site Acquisition / Site Control",
+        "Early Site Signal",
+        "Stabilized / Operating",
+    ]
+    for stage in priority_order:
+        if any(keyword in text for keyword in LIFECYCLE_STAGE_KEYWORDS[stage]):
+            return stage
+    return "Unknown Stage"
+
+
+def get_lifecycle_progression_signal(stage, row, historical_memory_rows):
+    """Label whether a lifecycle item looks new, progressing, stalled, or mature."""
+    text = get_lifecycle_text(row).lower()
+    project_name = row.get("canonical_asset_or_project_name", "")
+    historical_match = any(
+        project_name and project_name.lower() in memory.get("entity_name", "").lower()
+        for memory in historical_memory_rows
+    )
+    if stage == "Distressed / Stalled" or any(word in text for word in ["stalled", "delayed", "paused", "default"]):
+        return "Stalled"
+    if stage in ["Delivery / Opening", "Lease-Up", "Stabilized / Operating", "Refinancing / Recapitalization"]:
+        return "Mature / Operating"
+    if historical_match:
+        return "Reappearing"
+    if stage in [
+        "Entitled / Approved", "Building Permit / Construction Permit",
+        "Construction Ready", "Construction Started", "Vertical Construction",
+    ]:
+        return "Progressing"
+    if stage != "Unknown Stage":
+        return "Newly Detected"
+    return "Unknown"
+
+
+def get_lifecycle_flags(row, stage):
+    """Create simple risk flags for entitlement, financing, construction, and lease-up."""
+    text = get_lifecycle_text(row).lower()
+    entitlement_flag = "High" if any(word in text for word in ["ceqa", "appeal", "lawsuit", "environmental review"]) else "Medium" if stage in ["Community Review", "Environmental Review / CEQA", "Entitlement Under Review", "Planning Filed"] else "Low" if stage != "Unknown Stage" else "Unknown"
+    financing_flag = "High" if any(word in text for word in ["refinancing", "loan maturity", "debt package", "construction loan", "floating-rate", "bridge loan"]) else "Medium" if stage in ["Construction Ready", "Construction Started", "Refinancing / Recapitalization"] else "Low" if stage != "Unknown Stage" else "Unknown"
+    construction_flag = "High" if any(word in text for word in ["delayed", "paused", "construction stopped", "stalled"]) else "Medium" if stage in ["Construction Ready", "Construction Started", "Vertical Construction"] else "Low" if stage != "Unknown Stage" else "Unknown"
+    lease_up_flag = "High" if any(word in text for word in ["concession", "vacancy", "lease-up risk"]) else "Medium" if stage in ["Delivery / Opening", "Lease-Up"] else "Low" if stage != "Unknown Stage" else "Unknown"
+    return entitlement_flag, financing_flag, construction_flag, lease_up_flag
+
+
+def get_lifecycle_scores(row, stage, opportunity_rows, distress_rows, graph_rows):
+    """Score lifecycle opportunity and risk from stage, asset quality, and related signals."""
+    text = get_lifecycle_text(row).lower()
+    project_name = row.get("canonical_asset_or_project_name", "")
+    gp_name = row.get("gp_or_developer", "Unknown")
+    asset_opportunity = safe_int(row.get("asset_opportunity_score"))
+    asset_risk = safe_int(row.get("asset_risk_score"))
+    opportunity_score = max_score_for_entity(opportunity_rows, project_name, ["related_project_or_deal", "source_article_title"], "opportunity_score")
+    distress_score = max_score_for_entity(distress_rows, project_name, ["related_project_or_deal", "source_article_title"], "distress_score")
+    graph_score = max_score_for_entity(graph_rows, gp_name, ["canonical_source_entity", "canonical_target_entity", "source_entity", "target_entity"], "relationship_strength_score")
+    stage_opportunity_bonus = {
+        "Entitled / Approved": 18,
+        "Building Permit / Construction Permit": 22,
+        "Construction Ready": 25,
+        "Construction Started": 18,
+        "Vertical Construction": 14,
+        "Delivery / Opening": 10,
+        "Site Acquisition / Site Control": 15,
+        "Planning Filed": 12,
+        "Early Site Signal": 8,
+        "Refinancing / Recapitalization": 15,
+        "Distressed / Stalled": 12,
+    }.get(stage, 4)
+    stage_risk_bonus = {
+        "Environmental Review / CEQA": 24,
+        "Community Review": 16,
+        "Entitlement Under Review": 14,
+        "Distressed / Stalled": 30,
+        "Refinancing / Recapitalization": 18,
+        "Lease-Up": 10,
+        "Unknown Stage": 12,
+    }.get(stage, 4)
+    la_bonus = 10 if any(term in text for term in LA_ENTITLEMENT_MARKET_KEYWORDS) else 0
+    specificity_bonus = 10 if row.get("address_or_location_clue") not in ["", "Unknown", "Other / Unknown"] else 0
+    developer_bonus = 8 if gp_name != "Unknown" else 0
+    timing_bonus = 8 if row.get("delivery_or_timing_reference") else 0
+    lifecycle_opportunity_score = min(100, round(
+        asset_opportunity * 0.35 + opportunity_score * 0.18 + graph_score * 0.10
+        + stage_opportunity_bonus + la_bonus + specificity_bonus + developer_bonus + timing_bonus
+    ))
+    text_risk_bonus = 0
+    if any(word in text for word in ["ceqa", "appeal", "lawsuit", "environmental review"]):
+        text_risk_bonus += 18
+    if any(word in text for word in ["delayed", "stalled", "paused", "default", "foreclosure"]):
+        text_risk_bonus += 22
+    if gp_name == "Unknown":
+        text_risk_bonus += 8
+    lifecycle_risk_score = min(100, round(
+        asset_risk * 0.35 + distress_score * 0.25 + stage_risk_bonus + text_risk_bonus
+    ))
+    return lifecycle_opportunity_score, lifecycle_risk_score
+
+
+def get_lifecycle_relevance(stage, opportunity_score, risk_score):
+    """Label why a lifecycle row matters to Woomi."""
+    if stage in ["Construction Ready", "Construction Started", "Building Permit / Construction Permit"] and opportunity_score >= 65:
+        return "High relevance to development timing"
+    if stage in ["Planning Filed", "Community Review", "Environmental Review / CEQA", "Entitlement Under Review", "Entitled / Approved"]:
+        return "Relevant to entitlement monitoring"
+    if stage in ["Site Acquisition / Site Control", "Refinancing / Recapitalization", "Distressed / Stalled"]:
+        return "Relevant to acquisition / JV timing"
+    if stage in ["Delivery / Opening", "Lease-Up", "Stabilized / Operating"]:
+        return "Relevant to underwriting benchmark"
+    if max(opportunity_score, risk_score) >= 40:
+        return "General monitoring"
+    return "Low relevance"
+
+
+def get_lifecycle_follow_up(stage, relevance):
+    """Recommend a lifecycle next step."""
+    if stage in ["Planning Filed", "Community Review", "Environmental Review / CEQA", "Entitlement Under Review"]:
+        return "Track planning docket, approval path, CEQA risk, and sponsor activity"
+    if stage in ["Entitled / Approved", "Building Permit / Construction Permit", "Construction Ready"]:
+        return "Monitor permit issuance, financing, and construction-start timing"
+    if stage in ["Construction Started", "Vertical Construction", "Topped Out"]:
+        return "Benchmark construction timeline, sponsor execution, and delivery risk"
+    if stage in ["Delivery / Opening", "Lease-Up", "Stabilized / Operating"]:
+        return "Benchmark delivery, lease-up, occupancy, and rent assumptions"
+    if stage == "Refinancing / Recapitalization":
+        return "Track lender, maturity, debt terms, and recapitalization need"
+    if stage == "Distressed / Stalled":
+        return "Monitor sponsor stress, lender exposure, and potential restart or rescue capital path"
+    if relevance == "High relevance to development timing":
+        return "Review timing implication with development and investment teams"
+    return "Monitor lifecycle signal for repeated confirmation"
+
+
+def get_previous_lifecycle_stage(project_name):
+    """Look up the most recent archived lifecycle stage for the same project, if available."""
+    if not project_name:
+        return ""
+    path = DEVELOPMENT_LIFECYCLE_OUTPUT_FILE
+    if not os.path.exists(path):
+        return ""
+    try:
+        with open(path, "r", encoding="utf-8-sig", newline="") as file:
+            rows = list(csv.DictReader(file))
+    except (OSError, csv.Error):
+        return ""
+    for row in reversed(rows):
+        if row.get("canonical_asset_or_project_name", "").lower() == project_name.lower():
+            return row.get("current_lifecycle_stage", "")
+    return ""
+
+
+def build_development_lifecycle_rows(run_timestamp, asset_rows, entitlement_rows, la_entitlement_rows, timing_rows, deal_rows, fingerprint_rows, opportunity_rows, distress_rows, submarket_rows, graph_rows, gp_watchlist_rows, historical_memory_rows):
+    """Turn asset/project signals into a development lifecycle pipeline."""
+    rows = []
+    seen = set()
+    for asset in asset_rows:
+        project_name = asset.get("canonical_asset_or_project_name") or "Unknown Project"
+        url = asset.get("url", "")
+        key = (project_name, url)
+        if key in seen:
+            continue
+        seen.add(key)
+        stage = detect_lifecycle_stage(asset)
+        previous_stage = get_previous_lifecycle_stage(project_name)
+        progression = get_lifecycle_progression_signal(stage, asset, historical_memory_rows)
+        opportunity_score, risk_score = get_lifecycle_scores(asset, stage, opportunity_rows, distress_rows, graph_rows)
+        entitlement_flag, financing_flag, construction_flag, lease_up_flag = get_lifecycle_flags(asset, stage)
+        timing_bucket = "Unknown Timing"
+        timing_match = next(
+            (
+                timing for timing in timing_rows
+                if project_name.lower() in timing.get("related_project_or_deal", "").lower()
+                or project_name.lower() in timing.get("source_article_title", "").lower()
+            ),
+            {},
+        )
+        if timing_match:
+            timing_bucket = timing_match.get("estimated_timing_bucket", "Unknown Timing")
+        relevance = get_lifecycle_relevance(stage, opportunity_score, risk_score)
+        evidence = []
+        for value in [
+            stage,
+            asset.get("entitlement_status", ""),
+            asset.get("permit_status", ""),
+            asset.get("construction_status", ""),
+            asset.get("asset_strategy_signal", ""),
+            asset.get("delivery_or_timing_reference", ""),
+        ]:
+            if value and value != "Unknown":
+                evidence.append(value)
+        rows.append({
+            "lifecycle_id": f"LC-{run_timestamp.strftime('%Y%m%d')}-{len(rows) + 1:03d}",
+            "canonical_asset_or_project_name": project_name,
+            "market": asset.get("state_or_region") or asset.get("city") or "Other / Unknown",
+            "city_or_submarket": asset.get("neighborhood_or_submarket") or asset.get("city") or "Unknown",
+            "residential_sector": asset.get("residential_sector", "General Residential"),
+            "gp_or_developer": asset.get("gp_or_developer", "Unknown"),
+            "lender_or_capital_partner": asset.get("lender_or_capital_partner", "Unknown"),
+            "current_lifecycle_stage": stage,
+            "primary_development_category": asset.get("primary_development_category", "excluded"),
+            "primary_category_reason": asset.get("primary_category_reason", "no clear development milestone"),
+            "previous_lifecycle_stage_if_known": previous_stage,
+            "lifecycle_progression_signal": progression,
+            "lifecycle_risk_score": risk_score,
+            "lifecycle_opportunity_score": opportunity_score,
+            "timing_bucket": timing_bucket,
+            "entitlement_complexity_flag": entitlement_flag,
+            "financing_dependency_flag": financing_flag,
+            "construction_execution_flag": construction_flag,
+            "lease_up_risk_flag": lease_up_flag,
+            "woomi_lifecycle_relevance": relevance,
+            "recommended_lifecycle_follow_up": get_lifecycle_follow_up(stage, relevance),
+            "evidence_signals": "; ".join(evidence[:6]),
+            "source_article_title": asset.get("evidence_article_title", ""),
+            "source": asset.get("source", ""),
+            "url": url,
+            "confidence_level": get_confidence_label(max(opportunity_score, risk_score), len(evidence)),
+        })
+    rows.sort(key=lambda item: (-safe_int(item["lifecycle_opportunity_score"]), -safe_int(item["lifecycle_risk_score"]), item["canonical_asset_or_project_name"]))
+    return rows
+
+
+def generate_development_lifecycle_outputs(lifecycle_rows, dated_output_dir):
+    """Write development_lifecycle.csv and Markdown report."""
+    fieldnames = [
+        "lifecycle_id", "canonical_asset_or_project_name", "market", "city_or_submarket",
+        "residential_sector", "gp_or_developer", "lender_or_capital_partner",
+        "current_lifecycle_stage", "primary_development_category", "primary_category_reason",
+        "previous_lifecycle_stage_if_known",
+        "lifecycle_progression_signal", "lifecycle_risk_score",
+        "lifecycle_opportunity_score", "timing_bucket", "entitlement_complexity_flag",
+        "financing_dependency_flag", "construction_execution_flag", "lease_up_risk_flag",
+        "woomi_lifecycle_relevance", "recommended_lifecycle_follow_up",
+        "evidence_signals", "source_article_title", "source", "url", "confidence_level",
+    ]
+    write_csv_outputs(DEVELOPMENT_LIFECYCLE_OUTPUT_FILE, fieldnames, lifecycle_rows, dated_output_dir)
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    stage_counts = Counter(row["current_lifecycle_stage"] for row in lifecycle_rows)
+    lines = [
+        "# Development Lifecycle Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total lifecycle records: {len(lifecycle_rows)}",
+        "",
+        "## Lifecycle Stage Distribution",
+        "",
+    ]
+    if stage_counts:
+        for stage, count in stage_counts.most_common():
+            lines.append(f"- {stage}: {count}")
+    else:
+        lines.append("- No lifecycle records detected.")
+    lines.append("")
+    add_lifecycle_section(lines, "Top Development Timing Opportunities", lifecycle_rows, "lifecycle_opportunity_score", lambda row: True)
+    add_lifecycle_section(lines, "Top Lifecycle Risks", lifecycle_rows, "lifecycle_risk_score", lambda row: True)
+    add_lifecycle_section(lines, "Projects Under Entitlement / Planning", lifecycle_rows, "lifecycle_opportunity_score", lambda row: row["current_lifecycle_stage"] in ["Planning Filed", "Community Review", "Environmental Review / CEQA", "Entitlement Under Review", "Entitled / Approved"])
+    add_lifecycle_section(lines, "Construction-Ready / Construction-Start Signals", lifecycle_rows, "lifecycle_opportunity_score", lambda row: row["current_lifecycle_stage"] in ["Building Permit / Construction Permit", "Construction Ready", "Construction Started", "Vertical Construction"])
+    add_lifecycle_section(lines, "Delivery / Lease-Up Signals", lifecycle_rows, "lifecycle_opportunity_score", lambda row: row["current_lifecycle_stage"] in ["Delivery / Opening", "Lease-Up", "Stabilized / Operating"])
+    add_lifecycle_section(lines, "Distressed / Stalled Lifecycle Signals", lifecycle_rows, "lifecycle_risk_score", lambda row: row["current_lifecycle_stage"] == "Distressed / Stalled")
+    add_lifecycle_section(lines, "Refinancing / Recapitalization Lifecycle Signals", lifecycle_rows, "lifecycle_risk_score", lambda row: row["current_lifecycle_stage"] == "Refinancing / Recapitalization")
+    lines.extend([
+        "## Implications for Woomi / Woomi Global",
+        "",
+        "- Lifecycle intelligence helps translate site-level clues into timing decisions: watch, prepare, underwrite, partner, or wait.",
+        "- LA / California rows with planning, CEQA, permit, construction-ready, or stalled signals should be reviewed alongside entitlement and asset reports.",
+        "",
+        "## Recommended Lifecycle Follow-up Actions",
+        "",
+    ])
+    for row in lifecycle_rows[:8]:
+        lines.append(f"- {row['recommended_lifecycle_follow_up']}: {row['canonical_asset_or_project_name']}.")
+    if not lifecycle_rows:
+        lines.append("- Continue monitoring for planning, permit, construction, delivery, and refinancing lifecycle clues.")
+    lines.append("")
+    write_markdown_outputs(DEVELOPMENT_LIFECYCLE_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "total_lifecycle_records": len(lifecycle_rows),
+        "stage_distribution": dict(stage_counts),
+        "top_lifecycle_opportunity": max(lifecycle_rows, key=lambda row: safe_int(row["lifecycle_opportunity_score"])) if lifecycle_rows else {},
+        "top_lifecycle_risk": max(lifecycle_rows, key=lambda row: safe_int(row["lifecycle_risk_score"])) if lifecycle_rows else {},
+        "construction_ready_start_count": len([row for row in lifecycle_rows if row["current_lifecycle_stage"] in ["Building Permit / Construction Permit", "Construction Ready", "Construction Started", "Vertical Construction"]]),
+        "entitlement_planning_count": len([row for row in lifecycle_rows if row["current_lifecycle_stage"] in ["Planning Filed", "Community Review", "Environmental Review / CEQA", "Entitlement Under Review", "Entitled / Approved"]]),
+        "stalled_distressed_count": len([row for row in lifecycle_rows if row["current_lifecycle_stage"] == "Distressed / Stalled"]),
+        "refinancing_recapitalization_count": len([row for row in lifecycle_rows if row["current_lifecycle_stage"] == "Refinancing / Recapitalization"]),
+        "recommended_follow_up": [row["recommended_lifecycle_follow_up"] for row in lifecycle_rows[:5]],
+    }
+
+
+def add_lifecycle_section(lines, title, rows, score_field, filter_function):
+    """Add a lifecycle report section."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected = [row for row in rows if filter_function(row)]
+    if not selected:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+    for row in sorted(selected, key=lambda item: -safe_int(item.get(score_field)))[:10]:
+        lines.append(
+            f"- {row['canonical_asset_or_project_name']}: {row['current_lifecycle_stage']}, "
+            f"{row['city_or_submarket']}, {score_field} {row[score_field]}."
+        )
+    lines.append("")
+
+
+def build_la_development_lifecycle_watch_rows(run_timestamp, lifecycle_rows):
+    """Build LA / Southern California lifecycle watch rows."""
+    rows = []
+    for row in lifecycle_rows:
+        combined = " ".join([
+            row.get("market", ""), row.get("city_or_submarket", ""),
+            row.get("canonical_asset_or_project_name", ""), row.get("source_article_title", ""),
+            row.get("evidence_signals", ""),
+        ]).lower()
+        if not any(term in combined for term in LA_ENTITLEMENT_MARKET_KEYWORDS):
+            continue
+        la_submarket = detect_la_submarket(combined, "Los Angeles")
+        rows.append({
+            "la_lifecycle_watch_id": f"LALC-{run_timestamp.strftime('%Y%m%d')}-{len(rows) + 1:03d}",
+            "project_or_asset_name": row["canonical_asset_or_project_name"],
+            "la_submarket": la_submarket,
+            "gp_or_developer": row["gp_or_developer"],
+            "residential_sector": row["residential_sector"],
+            "current_lifecycle_stage": row["current_lifecycle_stage"],
+            "lifecycle_risk_score": row["lifecycle_risk_score"],
+            "lifecycle_opportunity_score": row["lifecycle_opportunity_score"],
+            "timing_bucket": row["timing_bucket"],
+            "entitlement_complexity_flag": row["entitlement_complexity_flag"],
+            "financing_dependency_flag": row["financing_dependency_flag"],
+            "potential_woomi_site_strategy": get_la_lifecycle_strategy(row),
+            "recommended_local_follow_up": get_la_lifecycle_follow_up(row),
+            "evidence_signals": row["evidence_signals"],
+            "source_article_title": row["source_article_title"],
+            "url": row["url"],
+            "confidence_level": row["confidence_level"],
+        })
+    rows.sort(key=lambda item: (-safe_int(item["lifecycle_opportunity_score"]), -safe_int(item["lifecycle_risk_score"]), item["project_or_asset_name"]))
+    return rows
+
+
+def get_la_lifecycle_strategy(row):
+    """Translate lifecycle stage into an LA site-strategy lens."""
+    stage = row["current_lifecycle_stage"]
+    if stage in ["Planning Filed", "Community Review", "Environmental Review / CEQA", "Entitlement Under Review"]:
+        return "Track early entitlement precedent"
+    if stage in ["Entitled / Approved", "Building Permit / Construction Permit"]:
+        return "Monitor permit issuance"
+    if stage == "Construction Ready":
+        return "Watch construction-ready pipeline"
+    if stage in ["Site Acquisition / Site Control", "Refinancing / Recapitalization"]:
+        return "Review acquisition / JV timing"
+    if stage == "Distressed / Stalled":
+        return "Monitor stalled project opportunity"
+    if stage in ["Delivery / Opening", "Lease-Up", "Stabilized / Operating"]:
+        return "Benchmark delivery / lease-up timing"
+    return "Monitor only"
+
+
+def get_la_lifecycle_follow_up(row):
+    """Recommend a local follow-up for an LA lifecycle watch item."""
+    stage = row["current_lifecycle_stage"]
+    if stage in ["Planning Filed", "Community Review", "Environmental Review / CEQA", "Entitlement Under Review"]:
+        return "Track local planning docket, CEQA exposure, and sponsor response"
+    if stage in ["Entitled / Approved", "Building Permit / Construction Permit", "Construction Ready"]:
+        return "Monitor permit status, financing, and construction-start readiness"
+    if stage in ["Construction Started", "Vertical Construction", "Topped Out"]:
+        return "Track construction progress and delivery timeline"
+    if stage in ["Refinancing / Recapitalization", "Distressed / Stalled"]:
+        return "Review lender exposure, sponsor stress, and possible JV or rescue-capital angle"
+    return "Monitor lifecycle status for repeated confirmation"
+
+
+def generate_la_development_lifecycle_watch_outputs(la_lifecycle_rows, dated_output_dir):
+    """Write la_development_lifecycle_watch.csv and Markdown report."""
+    fieldnames = [
+        "la_lifecycle_watch_id", "project_or_asset_name", "la_submarket",
+        "gp_or_developer", "residential_sector", "current_lifecycle_stage",
+        "lifecycle_risk_score", "lifecycle_opportunity_score", "timing_bucket",
+        "entitlement_complexity_flag", "financing_dependency_flag",
+        "potential_woomi_site_strategy", "recommended_local_follow_up",
+        "evidence_signals", "source_article_title", "url", "confidence_level",
+    ]
+    write_csv_outputs(LA_DEVELOPMENT_LIFECYCLE_WATCH_OUTPUT_FILE, fieldnames, la_lifecycle_rows, dated_output_dir)
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    stage_counts = Counter(row["current_lifecycle_stage"] for row in la_lifecycle_rows)
+    lines = [
+        "# LA Development Lifecycle Watch Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total LA lifecycle watch items: {len(la_lifecycle_rows)}",
+        "",
+        "## LA Lifecycle Stage Distribution",
+        "",
+    ]
+    if stage_counts:
+        for stage, count in stage_counts.most_common():
+            lines.append(f"- {stage}: {count}")
+    else:
+        lines.append("- No LA lifecycle watch items detected.")
+    lines.append("")
+    add_la_lifecycle_section(lines, "Koreatown / Wilshire Lifecycle Watch", la_lifecycle_rows, lambda row: row["la_submarket"] in ["Koreatown", "Wilshire", "Mid-Wilshire", "Miracle Mile"])
+    add_la_lifecycle_section(lines, "DTLA Lifecycle Watch", la_lifecycle_rows, lambda row: row["la_submarket"] in ["DTLA", "Downtown Los Angeles", "Arts District"])
+    add_la_lifecycle_section(lines, "Hollywood Lifecycle Watch", la_lifecycle_rows, lambda row: "Hollywood" in row["la_submarket"])
+    add_la_lifecycle_section(lines, "Pasadena Lifecycle Watch", la_lifecycle_rows, lambda row: row["la_submarket"] == "Pasadena")
+    add_la_lifecycle_section(lines, "Long Beach Lifecycle Watch", la_lifecycle_rows, lambda row: row["la_submarket"] == "Long Beach")
+    add_la_lifecycle_section(lines, "Orange County Lifecycle Watch", la_lifecycle_rows, lambda row: row["la_submarket"] in ["Orange County", "Irvine", "Anaheim", "Santa Ana", "Costa Mesa"])
+    add_la_lifecycle_section(lines, "Inland Empire Lifecycle Watch", la_lifecycle_rows, lambda row: row["la_submarket"] in ["Inland Empire", "Ontario", "Rancho Cucamonga", "Riverside", "San Bernardino"])
+    add_la_lifecycle_section(lines, "Stalled / Distressed LA Project Watch", la_lifecycle_rows, lambda row: row["current_lifecycle_stage"] == "Distressed / Stalled")
+    add_la_lifecycle_section(lines, "Construction-Ready LA Project Watch", la_lifecycle_rows, lambda row: row["current_lifecycle_stage"] in ["Building Permit / Construction Permit", "Construction Ready", "Construction Started", "Vertical Construction"])
+    lines.extend(["## Recommended LA Lifecycle Follow-up Actions", ""])
+    for row in la_lifecycle_rows[:8]:
+        lines.append(f"- {row['recommended_local_follow_up']}: {row['project_or_asset_name']}.")
+    if not la_lifecycle_rows:
+        lines.append("- Continue monitoring LA planning, permit, construction, and delivery signals.")
+    lines.append("")
+    write_markdown_outputs(LA_DEVELOPMENT_LIFECYCLE_WATCH_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "total_la_lifecycle_watch_items": len(la_lifecycle_rows),
+        "stage_distribution": dict(stage_counts),
+        "recommended_follow_up": [row["recommended_local_follow_up"] for row in la_lifecycle_rows[:5]],
+    }
+
+
+def add_la_lifecycle_section(lines, title, rows, filter_function):
+    """Add a local LA lifecycle section."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected = [row for row in rows if filter_function(row)]
+    if not selected:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+    for row in sorted(selected, key=lambda item: -safe_int(item["lifecycle_opportunity_score"]))[:10]:
+        lines.append(
+            f"- {row['project_or_asset_name']}: {row['current_lifecycle_stage']}, "
+            f"{row['potential_woomi_site_strategy']}, opportunity {row['lifecycle_opportunity_score']}."
+        )
+    lines.append("")
+
+
+def append_lifecycle_summary_to_reports(lifecycle_summary, la_lifecycle_summary, dated_output_dir):
+    """Append a short lifecycle note to already-generated reports and archive copies."""
+    stage_text = ", ".join(
+        f"{stage}: {count}"
+        for stage, count in list(lifecycle_summary["stage_distribution"].items())[:5]
+    ) or "No lifecycle stages detected"
+    lines = [
+        "",
+        "## Development Lifecycle Intelligence Summary",
+        "",
+        f"- Lifecycle records: {lifecycle_summary['total_lifecycle_records']}",
+        f"- LA lifecycle watch items: {la_lifecycle_summary['total_la_lifecycle_watch_items']}",
+        f"- Stage mix: {stage_text}",
+        "- See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.",
+        "",
+    ]
+    report_paths = [
+        WEEKLY_MEMO_OUTPUT_FILE,
+        EXECUTIVE_PRIORITY_BRIEF_OUTPUT_FILE,
+        ASSET_PARCEL_INTELLIGENCE_REPORT_OUTPUT_FILE,
+        LA_ASSET_WATCH_REPORT_OUTPUT_FILE,
+        ENTITLEMENT_INTELLIGENCE_REPORT_OUTPUT_FILE,
+        LA_ENTITLEMENT_WATCH_REPORT_OUTPUT_FILE,
+        TIMING_INTELLIGENCE_REPORT_OUTPUT_FILE,
+        MARKET_ENTRY_WINDOW_REPORT_OUTPUT_FILE,
+        OPPORTUNITY_RADAR_REPORT_OUTPUT_FILE,
+        DISTRESS_WATCHLIST_REPORT_OUTPUT_FILE,
+        SUBMARKET_INTELLIGENCE_REPORT_OUTPUT_FILE,
+        LA_SUBMARKET_WATCH_REPORT_OUTPUT_FILE,
+    ]
+    for path in report_paths:
+        append_markdown_section(path, lines)
+        if SAVE_DATED_OUTPUT:
+            append_markdown_section(os.path.join(dated_output_dir, os.path.basename(path)), lines)
+
+
+def normalize_lifecycle_match_key(row):
+    """Create a simple matching key for comparing projects across runs."""
+    name = row.get("canonical_asset_or_project_name") or row.get("project_or_asset_name") or ""
+    url = row.get("url", "")
+    gp_name = row.get("gp_or_developer", "")
+    market = row.get("market", "")
+    city = row.get("city_or_submarket", "")
+    clean_name = re.sub(r"[^a-z0-9]+", " ", name.lower()).strip()
+    if clean_name:
+        return clean_name
+    fallback = " ".join([url, gp_name, market, city]).lower()
+    return re.sub(r"[^a-z0-9]+", " ", fallback).strip()
+
+
+def parse_date_from_lifecycle_id(lifecycle_id, fallback_date):
+    """Extract YYYYMMDD from lifecycle IDs such as LC-20260514-001."""
+    match = re.search(r"(\d{8})", lifecycle_id or "")
+    if not match:
+        return fallback_date
+    try:
+        return datetime.strptime(match.group(1), "%Y%m%d")
+    except ValueError:
+        return fallback_date
+
+
+def get_transition_type(previous_stage, current_stage, previous_seen):
+    """Classify stage movement between the previous and current lifecycle snapshots."""
+    current_rank = LIFECYCLE_STAGE_RANK.get(current_stage, 0)
+    previous_rank = LIFECYCLE_STAGE_RANK.get(previous_stage, 0)
+    if not previous_seen:
+        return "Newly Detected Project"
+    if current_stage in ["Delivery / Opening", "Lease-Up", "Stabilized / Operating"]:
+        return "Mature / Operating"
+    if current_stage == "Distressed / Stalled":
+        return "Possible Stall"
+    if previous_stage == "Unknown Stage" and current_stage != "Unknown Stage":
+        return "Reappearing Project"
+    if current_rank > previous_rank and current_rank > 0 and previous_rank >= 0:
+        return "Forward Progression"
+    if current_rank == previous_rank and current_stage not in ["Unknown Stage", "Refinancing / Recapitalization"]:
+        return "Same Stage Persistence"
+    if current_rank < previous_rank and current_rank >= 0:
+        return "Stage Regression / Conflicting Signal"
+    if current_stage == "Refinancing / Recapitalization":
+        return "Same Stage Persistence" if previous_stage == current_stage else "Reappearing Project"
+    return "Unknown Transition"
+
+
+def get_execution_momentum_label(transition_type):
+    """Convert transition type into a simpler momentum label."""
+    if transition_type == "Forward Progression":
+        return "Advancing"
+    if transition_type == "Same Stage Persistence":
+        return "Stable"
+    if transition_type == "Possible Stall":
+        return "Stalled Risk"
+    if transition_type == "Reappearing Project":
+        return "Reappearing"
+    if transition_type == "Mature / Operating":
+        return "Mature"
+    if transition_type == "Stage Regression / Conflicting Signal":
+        return "Conflicting"
+    return "Unknown"
+
+
+def get_transition_relevance(current_stage, transition_type, progression_score, stall_risk_score):
+    """Label why the transition matters for timing."""
+    if transition_type == "Forward Progression" and progression_score >= 70:
+        return "High relevance to entry timing"
+    if current_stage in ["Planning Filed", "Community Review", "Environmental Review / CEQA", "Entitlement Under Review", "Entitled / Approved"]:
+        return "Relevant to entitlement timing"
+    if current_stage in ["Building Permit / Construction Permit", "Construction Ready", "Construction Started", "Vertical Construction", "Topped Out", "Delivery / Opening", "Lease-Up"]:
+        return "Relevant to construction timing"
+    if current_stage == "Refinancing / Recapitalization":
+        return "Relevant to refinancing / recap timing"
+    if max(progression_score, stall_risk_score) >= 40:
+        return "General monitoring"
+    return "Low relevance"
+
+
+def get_transition_follow_up(row, transition_type):
+    """Recommend a transition follow-up action."""
+    stage = row["current_stage"]
+    if transition_type == "Forward Progression":
+        return "Verify the stage move and update development timing assumptions"
+    if transition_type == "Possible Stall":
+        return "Check entitlement, financing, sponsor, and construction delay causes"
+    if transition_type == "Stage Regression / Conflicting Signal":
+        return "Review source evidence and resolve conflicting lifecycle signals"
+    if transition_type == "Reappearing Project":
+        return "Refresh project file and check whether the sponsor or timing changed"
+    if stage == "Refinancing / Recapitalization":
+        return "Track maturity, lender, recapitalization need, and potential JV angle"
+    if stage in ["Delivery / Opening", "Lease-Up", "Stabilized / Operating"]:
+        return "Use as delivery, lease-up, and underwriting benchmark"
+    return "Monitor for another run to confirm lifecycle direction"
+
+
+def get_days_between_dates(older_date, newer_date):
+    """Return non-negative day difference between two datetime values."""
+    return max(0, (newer_date.date() - older_date.date()).days)
+
+
+def build_lifecycle_transition_rows(run_timestamp, lifecycle_rows, previous_lifecycle_rows, asset_rows, fingerprint_rows, historical_memory_rows, relationship_persistence_rows, timing_rows, entitlement_rows, opportunity_rows, distress_rows):
+    """Compare latest lifecycle rows with previous lifecycle rows."""
+    previous_by_key = {
+        normalize_lifecycle_match_key(row): row
+        for row in previous_lifecycle_rows
+        if normalize_lifecycle_match_key(row)
+    }
+    rows = []
+    for current in lifecycle_rows:
+        key = normalize_lifecycle_match_key(current)
+        previous = previous_by_key.get(key, {})
+        previous_stage = previous.get("current_lifecycle_stage", "")
+        current_stage = current.get("current_lifecycle_stage", "Unknown Stage")
+        previous_rank = LIFECYCLE_STAGE_RANK.get(previous_stage, 0)
+        current_rank = LIFECYCLE_STAGE_RANK.get(current_stage, 0)
+        transition_type = get_transition_type(previous_stage, current_stage, bool(previous))
+        previous_date = parse_date_from_lifecycle_id(previous.get("lifecycle_id", ""), run_timestamp)
+        first_seen_date = previous_date if previous else run_timestamp
+        last_seen_date = previous_date if previous else run_timestamp
+        days_since_first_seen = get_days_between_dates(first_seen_date, run_timestamp)
+        days_since_last_seen = get_days_between_dates(last_seen_date, run_timestamp)
+        observation_count = 2 if previous else 1
+        text = get_lifecycle_text(current).lower()
+        progression_score = 25
+        if transition_type == "Forward Progression":
+            progression_score += 35
+        if current_rank >= LIFECYCLE_STAGE_RANK["Entitled / Approved"]:
+            progression_score += 15
+        if current_stage in ["Construction Started", "Vertical Construction", "Delivery / Opening", "Lease-Up"]:
+            progression_score += 15
+        progression_score += min(15, safe_int(current.get("lifecycle_opportunity_score")) // 8)
+        if any(term in text for term in LA_ENTITLEMENT_MARKET_KEYWORDS):
+            progression_score += 8
+        if previous:
+            progression_score += 5
+        progression_score = min(100, progression_score)
+
+        stall_risk_score = 10
+        if transition_type == "Same Stage Persistence" and current_rank <= LIFECYCLE_STAGE_RANK["Entitlement Under Review"]:
+            stall_risk_score += 25
+        if transition_type == "Possible Stall":
+            stall_risk_score += 40
+        if transition_type == "Stage Regression / Conflicting Signal":
+            stall_risk_score += 30
+        if any(word in text for word in ["ceqa", "appeal", "delay", "delayed", "stalled", "paused", "lawsuit"]):
+            stall_risk_score += 20
+        if any(word in text for word in ["refinancing", "loan maturity", "floating-rate", "bridge loan", "construction loan"]):
+            stall_risk_score += 12
+        if current_stage == "Unknown Stage" and observation_count > 1:
+            stall_risk_score += 18
+        stall_risk_score += min(15, safe_int(current.get("lifecycle_risk_score")) // 7)
+        stall_risk_score = min(100, stall_risk_score)
+
+        row = {
+            "lifecycle_transition_id": f"LCT-{run_timestamp.strftime('%Y%m%d')}-{len(rows) + 1:03d}",
+            "canonical_asset_or_project_name": current.get("canonical_asset_or_project_name", ""),
+            "market": current.get("market", "Other / Unknown"),
+            "city_or_submarket": current.get("city_or_submarket", "Unknown"),
+            "residential_sector": current.get("residential_sector", "General Residential"),
+            "gp_or_developer": current.get("gp_or_developer", "Unknown"),
+            "previous_stage": previous_stage or "No Previous Record",
+            "current_stage": current_stage,
+            "previous_stage_rank": previous_rank,
+            "current_stage_rank": current_rank,
+            "transition_type": transition_type,
+            "stage_change": current_rank - previous_rank,
+            "days_since_first_seen": days_since_first_seen,
+            "days_since_last_seen": days_since_last_seen,
+            "observation_count": observation_count,
+            "progression_score": progression_score,
+            "stall_risk_score": stall_risk_score,
+            "execution_momentum_label": get_execution_momentum_label(transition_type),
+            "woomi_timing_relevance": get_transition_relevance(current_stage, transition_type, progression_score, stall_risk_score),
+            "recommended_transition_follow_up": "",
+            "evidence_article_title": current.get("source_article_title", ""),
+            "source": current.get("source", ""),
+            "url": current.get("url", ""),
+            "confidence_level": get_confidence_label(max(progression_score, stall_risk_score), observation_count + (1 if current.get("evidence_signals") else 0)),
+        }
+        row["recommended_transition_follow_up"] = get_transition_follow_up(row, transition_type)
+        rows.append(row)
+    rows.sort(key=lambda item: (-safe_int(item["progression_score"]), -safe_int(item["stall_risk_score"]), item["canonical_asset_or_project_name"]))
+    return rows
+
+
+def generate_lifecycle_transition_outputs(transition_rows, dated_output_dir):
+    """Write lifecycle_transition.csv and Markdown report."""
+    fieldnames = [
+        "lifecycle_transition_id", "canonical_asset_or_project_name", "market",
+        "city_or_submarket", "residential_sector", "gp_or_developer",
+        "previous_stage", "current_stage", "previous_stage_rank",
+        "current_stage_rank", "transition_type", "stage_change",
+        "days_since_first_seen", "days_since_last_seen", "observation_count",
+        "progression_score", "stall_risk_score", "execution_momentum_label",
+        "woomi_timing_relevance", "recommended_transition_follow_up",
+        "evidence_article_title", "source", "url", "confidence_level",
+    ]
+    write_csv_outputs(LIFECYCLE_TRANSITION_OUTPUT_FILE, fieldnames, transition_rows, dated_output_dir)
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    transition_counts = Counter(row["transition_type"] for row in transition_rows)
+    lines = [
+        "# Lifecycle Transition Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total lifecycle transitions analyzed: {len(transition_rows)}",
+        f"- Newly detected projects: {transition_counts.get('Newly Detected Project', 0)}",
+        f"- Forward progression projects: {transition_counts.get('Forward Progression', 0)}",
+        f"- Possible stalled projects: {transition_counts.get('Possible Stall', 0)}",
+        f"- Reappearing projects: {transition_counts.get('Reappearing Project', 0)}",
+        "",
+    ]
+    add_transition_section(lines, "Strongest Progression Signals", transition_rows, "progression_score", lambda row: True)
+    add_transition_section(lines, "Highest Stall Risk Signals", transition_rows, "stall_risk_score", lambda row: True)
+    add_transition_section(lines, "Newly Detected Projects", transition_rows, "progression_score", lambda row: row["transition_type"] == "Newly Detected Project")
+    add_transition_section(lines, "Forward Progression Projects", transition_rows, "progression_score", lambda row: row["transition_type"] == "Forward Progression")
+    add_transition_section(lines, "Possible Stalled Projects", transition_rows, "stall_risk_score", lambda row: row["transition_type"] == "Possible Stall")
+    add_transition_section(lines, "Reappearing Projects", transition_rows, "progression_score", lambda row: row["transition_type"] == "Reappearing Project")
+    add_transition_section(lines, "Refinancing / Recap Timing Transitions", transition_rows, "stall_risk_score", lambda row: row["current_stage"] == "Refinancing / Recapitalization")
+    add_transition_section(lines, "Construction Start Transitions", transition_rows, "progression_score", lambda row: row["current_stage"] in ["Construction Started", "Vertical Construction", "Construction Ready", "Building Permit / Construction Permit"])
+    lines.extend([
+        "## Implications for Woomi / Woomi Global",
+        "",
+        "- Lifecycle transitions help separate one-time project mentions from projects that are actually moving through approval, permit, construction, delivery, or refinancing stages.",
+        "- Forward movement can inform timing for GP conversations, underwriting updates, and market-entry readiness.",
+        "- Stall or conflicting signals should be checked before treating a project as executable pipeline.",
+        "",
+        "## Recommended Transition Follow-up Actions",
+        "",
+    ])
+    for row in transition_rows[:8]:
+        lines.append(f"- {row['recommended_transition_follow_up']}: {row['canonical_asset_or_project_name']}.")
+    if not transition_rows:
+        lines.append("- Continue monitoring lifecycle records until enough multi-run history exists.")
+    lines.append("")
+    write_markdown_outputs(LIFECYCLE_TRANSITION_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "total_transitions": len(transition_rows),
+        "newly_detected_count": transition_counts.get("Newly Detected Project", 0),
+        "forward_progression_count": transition_counts.get("Forward Progression", 0),
+        "possible_stall_count": transition_counts.get("Possible Stall", 0),
+        "top_progression_signal": max(transition_rows, key=lambda row: safe_int(row["progression_score"])) if transition_rows else {},
+        "highest_stall_risk": max(transition_rows, key=lambda row: safe_int(row["stall_risk_score"])) if transition_rows else {},
+        "recommended_follow_up": [row["recommended_transition_follow_up"] for row in transition_rows[:5]],
+    }
+
+
+def add_transition_section(lines, title, rows, score_field, filter_function):
+    """Add a lifecycle transition report section."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected = [row for row in rows if filter_function(row)]
+    if not selected:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+    for row in sorted(selected, key=lambda item: -safe_int(item.get(score_field)))[:10]:
+        lines.append(
+            f"- {row['canonical_asset_or_project_name']}: {row['previous_stage']} -> "
+            f"{row['current_stage']}, {row['transition_type']}, {score_field} {row[score_field]}."
+        )
+    lines.append("")
+
+
+def get_la_entry_timing_signal(row):
+    """Create a local LA timing signal from transition and stage."""
+    stage = row["current_stage"]
+    if stage in ["Planning Filed", "Community Review", "Environmental Review / CEQA", "Entitlement Under Review", "Entitled / Approved"]:
+        return "Early entitlement watch"
+    if stage == "Building Permit / Construction Permit":
+        return "Permit issuance watch"
+    if stage in ["Construction Ready", "Construction Started", "Vertical Construction"]:
+        return "Construction start watch"
+    if stage in ["Delivery / Opening", "Lease-Up", "Stabilized / Operating"]:
+        return "Delivery / lease-up benchmark"
+    if row["transition_type"] == "Possible Stall" or stage == "Distressed / Stalled":
+        return "Stalled project opportunity watch"
+    if stage == "Refinancing / Recapitalization":
+        return "Refinancing / recap timing watch"
+    return "Monitor only"
+
+
+def get_la_transition_strategy(row):
+    """Translate LA transition rows into a site-strategy angle."""
+    if row["transition_type"] == "Forward Progression":
+        return "Update timing assumptions and watch next milestone"
+    if row["transition_type"] == "Possible Stall":
+        return "Review stalled project opportunity and sponsor constraints"
+    if row["current_stage"] in ["Planning Filed", "Community Review", "Environmental Review / CEQA", "Entitlement Under Review"]:
+        return "Track entitlement path and local precedent"
+    if row["current_stage"] in ["Building Permit / Construction Permit", "Construction Ready"]:
+        return "Monitor permit-to-start conversion"
+    if row["current_stage"] == "Refinancing / Recapitalization":
+        return "Monitor refinancing or recap timing"
+    return "Monitor only"
+
+
+def build_la_lifecycle_transition_watch_rows(run_timestamp, transition_rows):
+    """Build LA / Southern California lifecycle transition watch rows."""
+    rows = []
+    for row in transition_rows:
+        combined = " ".join([
+            row.get("market", ""), row.get("city_or_submarket", ""),
+            row.get("canonical_asset_or_project_name", ""), row.get("evidence_article_title", ""),
+        ]).lower()
+        if not any(term in combined for term in LA_ENTITLEMENT_MARKET_KEYWORDS):
+            continue
+        rows.append({
+            "la_transition_watch_id": f"LAT-{run_timestamp.strftime('%Y%m%d')}-{len(rows) + 1:03d}",
+            "project_or_asset_name": row["canonical_asset_or_project_name"],
+            "la_submarket": detect_la_submarket(combined, "Los Angeles"),
+            "gp_or_developer": row["gp_or_developer"],
+            "residential_sector": row["residential_sector"],
+            "previous_stage": row["previous_stage"],
+            "current_stage": row["current_stage"],
+            "transition_type": row["transition_type"],
+            "progression_score": row["progression_score"],
+            "stall_risk_score": row["stall_risk_score"],
+            "execution_momentum_label": row["execution_momentum_label"],
+            "la_entry_timing_signal": get_la_entry_timing_signal(row),
+            "potential_woomi_site_strategy": get_la_transition_strategy(row),
+            "recommended_local_follow_up": row["recommended_transition_follow_up"],
+            "evidence_article_title": row["evidence_article_title"],
+            "url": row["url"],
+            "confidence_level": row["confidence_level"],
+        })
+    rows.sort(key=lambda item: (-safe_int(item["progression_score"]), -safe_int(item["stall_risk_score"]), item["project_or_asset_name"]))
+    return rows
+
+
+def generate_la_lifecycle_transition_watch_outputs(la_transition_rows, dated_output_dir):
+    """Write la_lifecycle_transition_watch.csv and Markdown report."""
+    fieldnames = [
+        "la_transition_watch_id", "project_or_asset_name", "la_submarket",
+        "gp_or_developer", "residential_sector", "previous_stage", "current_stage",
+        "transition_type", "progression_score", "stall_risk_score",
+        "execution_momentum_label", "la_entry_timing_signal",
+        "potential_woomi_site_strategy", "recommended_local_follow_up",
+        "evidence_article_title", "url", "confidence_level",
+    ]
+    write_csv_outputs(LA_LIFECYCLE_TRANSITION_WATCH_OUTPUT_FILE, fieldnames, la_transition_rows, dated_output_dir)
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = [
+        "# LA Lifecycle Transition Watch Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total LA lifecycle transition watch items: {len(la_transition_rows)}",
+        "",
+    ]
+    add_la_transition_section(lines, "LA Projects Moving Forward", la_transition_rows, lambda row: row["transition_type"] == "Forward Progression")
+    add_la_transition_section(lines, "LA Projects With Stall Risk", la_transition_rows, lambda row: row["transition_type"] == "Possible Stall" or row["stall_risk_score"] >= 60)
+    add_la_transition_section(lines, "LA Permit / Construction Start Watch", la_transition_rows, lambda row: row["la_entry_timing_signal"] in ["Permit issuance watch", "Construction start watch"])
+    add_la_transition_section(lines, "LA Refinancing / Recap Timing Watch", la_transition_rows, lambda row: row["la_entry_timing_signal"] == "Refinancing / recap timing watch")
+    add_la_transition_section(lines, "LA Delivery / Lease-Up Benchmarks", la_transition_rows, lambda row: row["la_entry_timing_signal"] == "Delivery / lease-up benchmark")
+    lines.extend(["## Recommended LA Transition Follow-up Actions", ""])
+    for row in la_transition_rows[:8]:
+        lines.append(f"- {row['recommended_local_follow_up']}: {row['project_or_asset_name']}.")
+    if not la_transition_rows:
+        lines.append("- Continue monitoring LA lifecycle rows across future runs.")
+    lines.append("")
+    write_markdown_outputs(LA_LIFECYCLE_TRANSITION_WATCH_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "total_la_transition_watch_items": len(la_transition_rows),
+        "recommended_follow_up": [row["recommended_local_follow_up"] for row in la_transition_rows[:5]],
+    }
+
+
+def add_la_transition_section(lines, title, rows, filter_function):
+    """Add a section to the LA transition report."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected = [row for row in rows if filter_function(row)]
+    if not selected:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+    for row in selected[:10]:
+        lines.append(
+            f"- {row['project_or_asset_name']}: {row['previous_stage']} -> "
+            f"{row['current_stage']}, {row['la_entry_timing_signal']}."
+        )
+    lines.append("")
+
+
+def append_lifecycle_transition_summary_to_reports(transition_summary, la_transition_summary, dated_output_dir):
+    """Append lifecycle transition summary to existing reports."""
+    lines = [
+        "",
+        "## Lifecycle Transition Summary",
+        "",
+        f"- Lifecycle transitions analyzed: {transition_summary['total_transitions']}",
+        f"- Newly detected projects: {transition_summary['newly_detected_count']}",
+        f"- Forward progression projects: {transition_summary['forward_progression_count']}",
+        f"- Possible stalled projects: {transition_summary['possible_stall_count']}",
+        f"- LA lifecycle transition watch items: {la_transition_summary['total_la_transition_watch_items']}",
+        "- See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.",
+        "",
+    ]
+    report_paths = [
+        WEEKLY_MEMO_OUTPUT_FILE,
+        EXECUTIVE_PRIORITY_BRIEF_OUTPUT_FILE,
+        DEVELOPMENT_LIFECYCLE_REPORT_OUTPUT_FILE,
+        LA_DEVELOPMENT_LIFECYCLE_WATCH_REPORT_OUTPUT_FILE,
+        ASSET_PARCEL_INTELLIGENCE_REPORT_OUTPUT_FILE,
+        LA_ASSET_WATCH_REPORT_OUTPUT_FILE,
+        OPPORTUNITY_RADAR_REPORT_OUTPUT_FILE,
+        DISTRESS_WATCHLIST_REPORT_OUTPUT_FILE,
+        TIMING_INTELLIGENCE_REPORT_OUTPUT_FILE,
+        MARKET_ENTRY_WINDOW_REPORT_OUTPUT_FILE,
+    ]
+    for path in report_paths:
+        append_markdown_section(path, lines)
+        if SAVE_DATED_OUTPUT:
+            append_markdown_section(os.path.join(dated_output_dir, os.path.basename(path)), lines)
+
+
+def normalize_project_identity_text(value):
+    """Normalize project, address, and title text for matching."""
+    text = str(value or "").lower()
+    replacements = {
+        " boulevard": " blvd",
+        " avenue": " ave",
+        " street": " st",
+        " road": " rd",
+        " drive": " dr",
+        " apartments": "",
+        " apartment": "",
+        " community": "",
+        " development": "",
+        " project": "",
+        " tower": "",
+        " towers": "",
+        " site": "",
+    }
+    for old, new in replacements.items():
+        text = text.replace(old, new)
+    text = re.sub(r"[^a-z0-9]+", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def get_project_raw_reference(row):
+    """Return the best raw project reference from a row."""
+    for field in [
+        "canonical_asset_or_project_name", "project_or_asset_name",
+        "project_or_deal_name", "related_project_or_deal",
+        "canonical_project_name", "canonical_deal_name",
+        "source_article_title", "evidence_article_title", "title",
+    ]:
+        if row.get(field):
+            return row.get(field)
+    return "Unknown Project"
+
+
+def get_project_location(row):
+    """Return best location clue for project identity matching."""
+    for field in [
+        "address_or_location_clue", "city_or_submarket", "la_submarket",
+        "market", "state_or_region", "city",
+    ]:
+        value = row.get(field)
+        if value and value not in ["Unknown", "Other / Unknown", "National / Other"]:
+            return value
+    return row.get("market", "Other / Unknown")
+
+
+def get_project_market(row):
+    """Return project market from several possible field names."""
+    return row.get("market") or row.get("state_or_region") or row.get("city") or row.get("market_focus") or "Other / Unknown"
+
+
+def get_project_submarket(row):
+    """Return project submarket from several possible field names."""
+    return row.get("submarket") or row.get("city_or_submarket") or row.get("neighborhood_or_submarket") or row.get("la_submarket") or "Unknown"
+
+
+def build_project_reference_rows(source_file, rows):
+    """Convert source rows into common project-reference records."""
+    references = []
+    for row in rows:
+        raw_reference = get_project_raw_reference(row)
+        if raw_reference == "Unknown Project" and not row.get("url"):
+            continue
+        references.append({
+            "raw_project_reference": raw_reference,
+            "address_or_location_clue": get_project_location(row),
+            "market": get_project_market(row),
+            "submarket": get_project_submarket(row),
+            "gp_or_developer": row.get("gp_or_developer") or row.get("canonical_gp_or_developer") or row.get("source_entity") or "Unknown",
+            "lender_or_capital_partner": row.get("lender_or_capital_partner") or row.get("lender_or_debt_provider") or row.get("capital_partner") or row.get("target_entity") or "Unknown",
+            "residential_sector": row.get("residential_sector", "General Residential"),
+            "source_file": source_file,
+            "url": row.get("url", ""),
+            "source_article_title": row.get("source_article_title") or row.get("evidence_article_title") or row.get("title", ""),
+            "unit_count": row.get("unit_count", ""),
+            "dollar_amount": row.get("dollar_amount") or row.get("loan_amount") or row.get("acquisition_price", ""),
+            "deal_fingerprint_id": row.get("deal_fingerprint_id", ""),
+            "_source_row": row,
+        })
+    return references
+
+
+def get_project_identity_key(reference):
+    """Create a canonical key and confidence reason for one project reference."""
+    address = normalize_project_identity_text(reference["address_or_location_clue"])
+    name = normalize_project_identity_text(reference["raw_project_reference"])
+    market = normalize_project_identity_text(reference["market"])
+    developer = normalize_project_identity_text(reference["gp_or_developer"])
+    if address and developer and developer != "unknown":
+        return f"addr:{address}|dev:{developer}", 100, "exact address + developer match"
+    if name and market and developer and developer != "unknown":
+        return f"name:{name}|market:{market}|dev:{developer}", 90, "project name + market + developer match"
+    if address and market:
+        return f"addr:{address}|market:{market}", 80, "address/location + market match"
+    if name and market:
+        title_words = " ".join(name.split()[:8])
+        return f"title:{title_words}|market:{market}", 70, "strong title similarity + same market"
+    if name or address:
+        partial = name or address
+        return f"partial:{' '.join(partial.split()[:6])}", 60, "partial project/location match"
+    return f"weak:{normalize_project_identity_text(reference.get('url', 'unknown'))}", 40, "weak match / needs review"
+
+
+def build_project_identity_rows(run_timestamp, asset_rows, la_asset_rows, fingerprint_rows, deal_rows, lifecycle_rows, transition_rows, la_transition_rows, opportunity_rows, distress_rows, entitlement_rows, la_entitlement_rows, graph_rows, historical_memory_rows):
+    """Resolve raw project references into canonical project identities."""
+    references = []
+    references.extend(build_project_reference_rows("asset_parcel_intelligence.csv", asset_rows))
+    references.extend(build_project_reference_rows("la_asset_watch.csv", la_asset_rows))
+    references.extend(build_project_reference_rows("deal_fingerprints.csv", fingerprint_rows))
+    references.extend(build_project_reference_rows("deal_pipeline.csv", deal_rows))
+    references.extend(build_project_reference_rows("development_lifecycle.csv", lifecycle_rows))
+    references.extend(build_project_reference_rows("lifecycle_transition.csv", transition_rows))
+    references.extend(build_project_reference_rows("la_lifecycle_transition_watch.csv", la_transition_rows))
+    references.extend(build_project_reference_rows("opportunity_radar.csv", opportunity_rows))
+    references.extend(build_project_reference_rows("distress_watchlist.csv", distress_rows))
+    references.extend(build_project_reference_rows("entitlement_intelligence.csv", entitlement_rows))
+    references.extend(build_project_reference_rows("la_entitlement_watch.csv", la_entitlement_rows))
+    references.extend(build_project_reference_rows("relationship_graph.csv", graph_rows))
+    references.extend(build_project_reference_rows("historical_memory.csv", historical_memory_rows))
+
+    clusters = {}
+    for reference in references:
+        key, confidence, matched_by = get_project_identity_key(reference)
+        clusters.setdefault(key, {
+            "references": [],
+            "confidence": confidence,
+            "matched_by": matched_by,
+        })
+        clusters[key]["references"].append(reference)
+        clusters[key]["confidence"] = max(clusters[key]["confidence"], confidence)
+
+    identity_rows = []
+    for index, (key, cluster) in enumerate(sorted(clusters.items()), start=1):
+        canonical_id = f"PRJ-{run_timestamp.strftime('%Y%m%d')}-{index:04d}"
+        refs = cluster["references"]
+        best_reference = max(
+            refs,
+            key=lambda item: (
+                len(str(item.get("address_or_location_clue", ""))),
+                len(str(item.get("raw_project_reference", ""))),
+            ),
+        )
+        canonical_name = best_reference["raw_project_reference"]
+        canonical_location = normalize_project_identity_text(best_reference["address_or_location_clue"])
+        duplicate_cluster_id = f"DUP-{index:04d}" if len(refs) > 1 else ""
+        source_files = sorted(set(ref["source_file"] for ref in refs))
+        for ref in refs:
+            identity_rows.append({
+                "raw_project_reference": ref["raw_project_reference"],
+                "canonical_project_id": canonical_id,
+                "canonical_project_name": canonical_name,
+                "canonical_location_key": canonical_location or normalize_project_identity_text(ref["market"]),
+                "address_or_location_clue": ref["address_or_location_clue"],
+                "market": ref["market"],
+                "submarket": ref["submarket"],
+                "gp_or_developer": ref["gp_or_developer"],
+                "lender_or_capital_partner": ref["lender_or_capital_partner"],
+                "residential_sector": ref["residential_sector"],
+                "source_file": ref["source_file"],
+                "occurrence_count": len(refs),
+                "identity_confidence": cluster["confidence"],
+                "matched_by": cluster["matched_by"],
+                "duplicate_project_cluster_id": duplicate_cluster_id,
+                "needs_manual_review": "Yes" if cluster["confidence"] < 70 else "No",
+                "notes": f"Matched across {len(source_files)} source file(s): {', '.join(source_files[:4])}",
+            })
+            source_row = ref.get("_source_row")
+            if source_row is not None:
+                source_row["canonical_project_id"] = canonical_id
+                source_row["canonical_project_name"] = canonical_name
+                source_row["project_identity_confidence"] = cluster["confidence"]
+
+    identity_rows.sort(key=lambda row: (-safe_int(row["occurrence_count"]), -safe_int(row["identity_confidence"]), row["canonical_project_name"]))
+    return identity_rows
+
+
+def generate_project_identity_outputs(identity_rows, dated_output_dir):
+    """Write project_identity.csv and Markdown report."""
+    fieldnames = [
+        "raw_project_reference", "canonical_project_id", "canonical_project_name",
+        "canonical_location_key", "address_or_location_clue", "market", "submarket",
+        "gp_or_developer", "lender_or_capital_partner", "residential_sector",
+        "source_file", "occurrence_count", "identity_confidence", "matched_by",
+        "duplicate_project_cluster_id", "needs_manual_review", "notes",
+    ]
+    write_csv_outputs(PROJECT_IDENTITY_OUTPUT_FILE, fieldnames, identity_rows, dated_output_dir)
+    canonical_ids = set(row["canonical_project_id"] for row in identity_rows)
+    duplicate_ids = set(row["duplicate_project_cluster_id"] for row in identity_rows if row["duplicate_project_cluster_id"])
+    high_confidence = [row for row in identity_rows if safe_int(row["identity_confidence"]) >= 80]
+    low_confidence = [row for row in identity_rows if row["needs_manual_review"] == "Yes"]
+    top_repeated = sorted(identity_rows, key=lambda row: -safe_int(row["occurrence_count"]))[:10]
+    la_rows = [row for row in identity_rows if any(term in " ".join([row["market"], row["submarket"], row["address_or_location_clue"], row["canonical_project_name"]]).lower() for term in LA_ENTITLEMENT_MARKET_KEYWORDS)]
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = [
+        "# Project Identity Resolution Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total raw project references: {len(identity_rows)}",
+        f"- Total canonical projects: {len(canonical_ids)}",
+        f"- Duplicate project clusters: {len(duplicate_ids)}",
+        f"- High-confidence project identities: {len(high_confidence)}",
+        f"- Low-confidence identities needing review: {len(low_confidence)}",
+        f"- LA / California project references: {len(la_rows)}",
+        "",
+        "## Top Repeated Projects",
+        "",
+    ]
+    if top_repeated:
+        for row in top_repeated:
+            lines.append(f"- {row['canonical_project_name']}: {row['occurrence_count']} occurrence(s), confidence {row['identity_confidence']}.")
+    else:
+        lines.append("- None detected.")
+    lines.extend(["", "## Low-Confidence Identities Needing Review", ""])
+    for row in low_confidence[:10]:
+        lines.append(f"- {row['raw_project_reference']}: {row['matched_by']}.")
+    if not low_confidence:
+        lines.append("- No low-confidence identities detected.")
+    lines.extend([
+        "",
+        "## Identity Cleanup Recommendations",
+        "",
+        "- Review low-confidence rows before using them as hard project matches.",
+        "- Add known project aliases and address variants when the same LA project appears under multiple titles.",
+        "- Use canonical_project_id in lifecycle, opportunity, and relationship review to avoid duplicate project inflation.",
+        "",
+    ])
+    write_markdown_outputs(PROJECT_IDENTITY_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "total_raw_references": len(identity_rows),
+        "total_canonical_projects": len(canonical_ids),
+        "duplicate_clusters": len(duplicate_ids),
+        "top_repeated_project": top_repeated[0] if top_repeated else {},
+        "low_confidence_count": len(low_confidence),
+    }
+
+
+def build_persistent_asset_memory_rows(run_timestamp, identity_rows, lifecycle_rows, transition_rows, asset_rows, entitlement_rows, timing_rows, opportunity_rows, distress_rows, graph_rows):
+    """Create persistent asset memory from canonical project identities."""
+    grouped = {}
+    for row in identity_rows:
+        grouped.setdefault(row["canonical_project_id"], {
+            "identity_rows": [],
+            "lifecycle_rows": [],
+            "transition_rows": [],
+            "asset_rows": [],
+        })
+        grouped[row["canonical_project_id"]]["identity_rows"].append(row)
+    for row in lifecycle_rows:
+        grouped.setdefault(row.get("canonical_project_id", ""), {"identity_rows": [], "lifecycle_rows": [], "transition_rows": [], "asset_rows": []})
+        grouped[row.get("canonical_project_id", "")]["lifecycle_rows"].append(row)
+    for row in transition_rows:
+        grouped.setdefault(row.get("canonical_project_id", ""), {"identity_rows": [], "lifecycle_rows": [], "transition_rows": [], "asset_rows": []})
+        grouped[row.get("canonical_project_id", "")]["transition_rows"].append(row)
+    for row in asset_rows:
+        grouped.setdefault(row.get("canonical_project_id", ""), {"identity_rows": [], "lifecycle_rows": [], "transition_rows": [], "asset_rows": []})
+        grouped[row.get("canonical_project_id", "")]["asset_rows"].append(row)
+
+    rows = []
+    for canonical_id, group in grouped.items():
+        if not canonical_id:
+            continue
+        refs = group["identity_rows"]
+        lifecycle_group = group["lifecycle_rows"]
+        transition_group = group["transition_rows"]
+        asset_group = group["asset_rows"]
+        if not refs:
+            continue
+        best = max(refs, key=lambda row: safe_int(row["identity_confidence"]))
+        lifecycle_history = [row.get("current_lifecycle_stage", "Unknown Stage") for row in lifecycle_group]
+        latest_stage = lifecycle_history[0] if lifecycle_history else "Unknown Stage"
+        transition_type = transition_group[0].get("transition_type", "Newly Detected Project") if transition_group else "Newly Detected Project"
+        opportunity_score = max([safe_int(row.get("asset_opportunity_score")) for row in asset_group] + [safe_int(row.get("progression_score")) for row in transition_group] + [0])
+        risk_score = max([safe_int(row.get("asset_risk_score")) for row in asset_group] + [safe_int(row.get("stall_risk_score")) for row in transition_group] + [0])
+        combined_text = " ".join(row.get("raw_project_reference", "") for row in refs).lower()
+        entitlement_count = sum(1 for row in refs if "entitlement" in row["source_file"] or any(word in combined_text for word in ["entitlement", "permit", "ceqa", "planning"]))
+        timing_count = sum(1 for row in refs if "timing" in row["source_file"] or any(word in combined_text for word in ["delivery", "construction", "lease-up", "opened"]))
+        financing_count = sum(1 for row in refs if any(word in " ".join([row.get("raw_project_reference", ""), row.get("lender_or_capital_partner", "")]).lower() for word in ["loan", "refinancing", "recapitalization", "fannie", "freddie", "debt"]))
+        distress_count = sum(1 for row in refs if "distress" in row["source_file"] or any(word in combined_text for word in ["distressed", "stalled", "default", "foreclosure", "delayed"]))
+        relationship_count = sum(1 for row in refs if row["source_file"] == "relationship_graph.csv")
+        if transition_type == "Forward Progression":
+            progression_status = "Progressing"
+        elif transition_type == "Possible Stall":
+            progression_status = "Possible Stall"
+        elif transition_type == "Reappearing Project":
+            progression_status = "Reappearing"
+        elif transition_type == "Mature / Operating":
+            progression_status = "Mature / Operating"
+        elif transition_type == "Same Stage Persistence":
+            progression_status = "Persistent Same Stage"
+        elif transition_type == "Newly Detected Project":
+            progression_status = "Newly Detected"
+        else:
+            progression_status = "Unknown"
+        if risk_score >= 70:
+            stall_label = "High Stall Risk"
+        elif risk_score >= 50:
+            stall_label = "Medium Stall Risk"
+        elif risk_score >= 25:
+            stall_label = "Low Stall Risk"
+        elif latest_stage == "Unknown Stage":
+            stall_label = "Unknown"
+        else:
+            stall_label = "No Clear Stall Risk"
+        persistent_score = min(100, round(
+            min(30, safe_int(best["occurrence_count"]) * 6)
+            + opportunity_score * 0.30
+            + risk_score * 0.15
+            + min(15, len(set(row["source_file"] for row in refs)) * 4)
+            + (10 if any(term in " ".join([best["market"], best["submarket"], best["canonical_project_name"]]).lower() for term in LA_ENTITLEMENT_MARKET_KEYWORDS) else 0)
+        ))
+        if persistent_score >= 75:
+            priority = "Priority Asset Watch"
+        elif persistent_score >= 55:
+            priority = "Strategic Asset Watch"
+        elif persistent_score >= 35:
+            priority = "General Asset Monitoring"
+        else:
+            priority = "Low Priority"
+        rows.append({
+            "canonical_project_id": canonical_id,
+            "canonical_project_name": best["canonical_project_name"],
+            "market": best["market"],
+            "submarket": best["submarket"],
+            "residential_sector": best["residential_sector"],
+            "gp_or_developer": best["gp_or_developer"],
+            "first_seen_date": run_timestamp.strftime("%Y-%m-%d"),
+            "last_seen_date": run_timestamp.strftime("%Y-%m-%d"),
+            "observation_count": safe_int(best["occurrence_count"]),
+            "source_count": len(set(row["source_file"] for row in refs)),
+            "lifecycle_stage_history": "; ".join(lifecycle_history[:8]),
+            "latest_lifecycle_stage": latest_stage,
+            "highest_opportunity_score": opportunity_score,
+            "highest_risk_score": risk_score,
+            "entitlement_signal_count": entitlement_count,
+            "timing_signal_count": timing_count,
+            "financing_signal_count": financing_count,
+            "distress_signal_count": distress_count,
+            "relationship_edge_count": relationship_count,
+            "progression_status": progression_status,
+            "stall_risk_label": stall_label,
+            "persistent_asset_score": persistent_score,
+            "woomi_asset_watch_priority": priority,
+            "recommended_asset_memory_follow_up": get_asset_memory_follow_up(priority, progression_status, latest_stage),
+        })
+    rows.sort(key=lambda row: (-safe_int(row["persistent_asset_score"]), -safe_int(row["highest_risk_score"]), row["canonical_project_name"]))
+    return rows
+
+
+def get_asset_memory_follow_up(priority, progression_status, latest_stage):
+    """Recommend next step for persistent asset memory."""
+    if priority == "Priority Asset Watch":
+        return "Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes"
+    if progression_status == "Possible Stall":
+        return "Review stalled-project causes and possible JV, rescue-capital, or acquisition angle"
+    if latest_stage in ["Planning Filed", "Environmental Review / CEQA", "Entitlement Under Review"]:
+        return "Track entitlement path and local approval milestones"
+    if latest_stage in ["Construction Started", "Vertical Construction", "Delivery / Opening", "Lease-Up"]:
+        return "Benchmark construction, delivery, lease-up, and operating assumptions"
+    return "Monitor for repeated project updates"
+
+
+def generate_persistent_asset_memory_outputs(memory_rows, dated_output_dir):
+    """Write persistent_asset_memory.csv and Markdown report."""
+    fieldnames = [
+        "canonical_project_id", "canonical_project_name", "market", "submarket",
+        "residential_sector", "gp_or_developer", "first_seen_date", "last_seen_date",
+        "observation_count", "source_count", "lifecycle_stage_history",
+        "latest_lifecycle_stage", "highest_opportunity_score", "highest_risk_score",
+        "entitlement_signal_count", "timing_signal_count", "financing_signal_count",
+        "distress_signal_count", "relationship_edge_count", "progression_status",
+        "stall_risk_label", "persistent_asset_score", "woomi_asset_watch_priority",
+        "recommended_asset_memory_follow_up",
+    ]
+    write_csv_outputs(PERSISTENT_ASSET_MEMORY_OUTPUT_FILE, fieldnames, memory_rows, dated_output_dir)
+    newly_detected = [row for row in memory_rows if row["progression_status"] == "Newly Detected"]
+    progressing = [row for row in memory_rows if row["progression_status"] == "Progressing"]
+    stalled = [row for row in memory_rows if row["progression_status"] == "Possible Stall" or row["stall_risk_label"] in ["High Stall Risk", "Medium Stall Risk"]]
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = [
+        "# Persistent Asset Memory Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total persistent assets tracked: {len(memory_rows)}",
+        f"- Newly detected assets: {len(newly_detected)}",
+        f"- Progressing assets: {len(progressing)}",
+        f"- Possible stalled assets: {len(stalled)}",
+        "",
+    ]
+    add_memory_section(lines, "Highest Priority Asset Watch Items", memory_rows, lambda row: row["woomi_asset_watch_priority"] in ["Priority Asset Watch", "Strategic Asset Watch"])
+    add_memory_section(lines, "Assets With Repeated Financing Signals", memory_rows, lambda row: safe_int(row["financing_signal_count"]) > 0)
+    add_memory_section(lines, "Assets With Repeated Entitlement Signals", memory_rows, lambda row: safe_int(row["entitlement_signal_count"]) > 0)
+    add_memory_section(lines, "Recurring Asset Signals", memory_rows, lambda row: safe_int(row["observation_count"]) >= 2)
+    lines.extend([
+        "## Implications for Woomi / Woomi Global",
+        "",
+        "- Persistent asset memory helps convert article flow into a durable watchlist of recurring projects, sponsors, lifecycle stages, and risk signals.",
+        "- High-scoring assets should be reviewed for potential site precedent, GP outreach, underwriting comparables, or timing windows.",
+        "",
+        "## Recommended Asset Memory Follow-up",
+        "",
+    ])
+    for row in memory_rows[:8]:
+        lines.append(f"- {row['recommended_asset_memory_follow_up']}: {row['canonical_project_name']}.")
+    if not memory_rows:
+        lines.append("- Continue monitoring until recurring project identities emerge.")
+    lines.append("")
+    write_markdown_outputs(PERSISTENT_ASSET_MEMORY_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "total_persistent_assets": len(memory_rows),
+        "newly_detected_count": len(newly_detected),
+        "progressing_count": len(progressing),
+        "possible_stalled_count": len(stalled),
+        "highest_priority_asset": memory_rows[0] if memory_rows else {},
+        "recommended_follow_up": [row["recommended_asset_memory_follow_up"] for row in memory_rows[:5]],
+    }
+
+
+def add_memory_section(lines, title, rows, filter_function):
+    """Add a persistent asset memory report section."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected = [row for row in rows if filter_function(row)]
+    if not selected:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+    for row in selected[:10]:
+        lines.append(
+            f"- {row['canonical_project_name']}: {row['woomi_asset_watch_priority']}, "
+            f"{row['latest_lifecycle_stage']}, score {row['persistent_asset_score']}."
+        )
+    lines.append("")
+
+
+def build_la_persistent_asset_watch_rows(run_timestamp, memory_rows, identity_rows):
+    """Build LA / Southern California persistent asset watch rows."""
+    rows = []
+    address_by_id = {}
+    for row in identity_rows:
+        if row["address_or_location_clue"] and row["address_or_location_clue"] not in ["Unknown", "Other / Unknown"]:
+            address_by_id.setdefault(row["canonical_project_id"], row["address_or_location_clue"])
+    for row in memory_rows:
+        combined = " ".join([row["market"], row["submarket"], row["canonical_project_name"]]).lower()
+        if not any(term in combined for term in LA_ENTITLEMENT_MARKET_KEYWORDS):
+            continue
+        opportunity_score = safe_int(row["highest_opportunity_score"])
+        risk_score = safe_int(row["highest_risk_score"])
+        rows.append({
+            "la_persistent_watch_id": f"LAP-{run_timestamp.strftime('%Y%m%d')}-{len(rows) + 1:03d}",
+            "canonical_project_id": row["canonical_project_id"],
+            "canonical_project_name": row["canonical_project_name"],
+            "la_submarket": detect_la_submarket(combined, "Los Angeles"),
+            "address_or_location_clue": address_by_id.get(row["canonical_project_id"], row["submarket"]),
+            "gp_or_developer": row["gp_or_developer"],
+            "residential_sector": row["residential_sector"],
+            "latest_lifecycle_stage": row["latest_lifecycle_stage"],
+            "progression_status": row["progression_status"],
+            "stall_risk_label": row["stall_risk_label"],
+            "entitlement_signal_count": row["entitlement_signal_count"],
+            "timing_signal_count": row["timing_signal_count"],
+            "financing_signal_count": row["financing_signal_count"],
+            "opportunity_score": opportunity_score,
+            "risk_score": risk_score,
+            "woomi_site_strategy_relevance": "High relevance to LA site strategy" if row["woomi_asset_watch_priority"] == "Priority Asset Watch" else "Relevant to California site monitoring" if row["woomi_asset_watch_priority"] == "Strategic Asset Watch" else "General LA / California monitoring",
+            "potential_woomi_strategy_angle": get_la_persistent_asset_angle(row),
+            "recommended_local_follow_up": row["recommended_asset_memory_follow_up"],
+            "confidence_level": get_confidence_label(max(opportunity_score, risk_score, safe_int(row["persistent_asset_score"])), safe_int(row["observation_count"])),
+        })
+    rows.sort(key=lambda row: (-safe_int(row["opportunity_score"]), -safe_int(row["risk_score"]), row["canonical_project_name"]))
+    return rows
+
+
+def get_la_persistent_asset_angle(row):
+    """Create LA persistent asset strategy angle."""
+    if safe_int(row["observation_count"]) >= 2:
+        return "Track repeat project updates"
+    if row["latest_lifecycle_stage"] in ["Planning Filed", "Environmental Review / CEQA", "Entitlement Under Review", "Entitled / Approved"]:
+        return "Monitor entitlement progression"
+    if row["latest_lifecycle_stage"] in ["Building Permit / Construction Permit", "Construction Ready", "Construction Started", "Vertical Construction"]:
+        return "Watch permit / construction transition"
+    if row["latest_lifecycle_stage"] in ["Delivery / Opening", "Lease-Up", "Stabilized / Operating"]:
+        return "Benchmark delivery / lease-up timing"
+    if row["progression_status"] == "Possible Stall":
+        return "Monitor stalled project opportunity"
+    if row["gp_or_developer"] != "Unknown":
+        return "Track local sponsor execution"
+    if row["woomi_asset_watch_priority"] in ["Priority Asset Watch", "Strategic Asset Watch"]:
+        return "Use as comparable development precedent"
+    return "Monitor only"
+
+
+def generate_la_persistent_asset_watch_outputs(la_rows, dated_output_dir):
+    """Write la_persistent_asset_watch.csv and Markdown report."""
+    fieldnames = [
+        "la_persistent_watch_id", "canonical_project_id", "canonical_project_name",
+        "la_submarket", "address_or_location_clue", "gp_or_developer",
+        "residential_sector", "latest_lifecycle_stage", "progression_status",
+        "stall_risk_label", "entitlement_signal_count", "timing_signal_count",
+        "financing_signal_count", "opportunity_score", "risk_score",
+        "woomi_site_strategy_relevance", "potential_woomi_strategy_angle",
+        "recommended_local_follow_up", "confidence_level",
+    ]
+    write_csv_outputs(LA_PERSISTENT_ASSET_WATCH_OUTPUT_FILE, fieldnames, la_rows, dated_output_dir)
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = [
+        "# LA Persistent Asset Watch Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total LA persistent asset watch items: {len(la_rows)}",
+        "",
+    ]
+    add_la_persistent_section(lines, "Priority LA Asset Watch Items", la_rows, lambda row: row["woomi_site_strategy_relevance"] == "High relevance to LA site strategy")
+    add_la_persistent_section(lines, "Koreatown / Wilshire Persistent Assets", la_rows, lambda row: row["la_submarket"] in ["Koreatown", "Wilshire", "Mid-Wilshire", "Miracle Mile"])
+    add_la_persistent_section(lines, "DTLA Persistent Assets", la_rows, lambda row: row["la_submarket"] in ["DTLA", "Downtown Los Angeles", "Arts District"])
+    add_la_persistent_section(lines, "Hollywood Persistent Assets", la_rows, lambda row: "Hollywood" in row["la_submarket"])
+    add_la_persistent_section(lines, "Pasadena Persistent Assets", la_rows, lambda row: row["la_submarket"] == "Pasadena")
+    add_la_persistent_section(lines, "Orange County Persistent Assets", la_rows, lambda row: row["la_submarket"] in ["Orange County", "Irvine", "Anaheim", "Santa Ana", "Costa Mesa"])
+    add_la_persistent_section(lines, "Stalled / Delayed LA Asset Watch", la_rows, lambda row: row["stall_risk_label"] in ["High Stall Risk", "Medium Stall Risk"])
+    add_la_persistent_section(lines, "Construction / Delivery Transition Watch", la_rows, lambda row: row["latest_lifecycle_stage"] in ["Construction Started", "Vertical Construction", "Delivery / Opening", "Lease-Up"])
+    lines.extend(["## Recommended Local Follow-up Actions", ""])
+    for row in la_rows[:8]:
+        lines.append(f"- {row['recommended_local_follow_up']}: {row['canonical_project_name']}.")
+    if not la_rows:
+        lines.append("- Continue monitoring LA persistent asset identities.")
+    lines.append("")
+    write_markdown_outputs(LA_PERSISTENT_ASSET_WATCH_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "total_la_persistent_watch_items": len(la_rows),
+        "recommended_follow_up": [row["recommended_local_follow_up"] for row in la_rows[:5]],
+    }
+
+
+def add_la_persistent_section(lines, title, rows, filter_function):
+    """Add a section to the LA persistent asset watch report."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected = [row for row in rows if filter_function(row)]
+    if not selected:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+    for row in selected[:10]:
+        lines.append(
+            f"- {row['canonical_project_name']}: {row['la_submarket']}, "
+            f"{row['latest_lifecycle_stage']}, {row['potential_woomi_strategy_angle']}."
+        )
+    lines.append("")
+
+
+def get_union_fieldnames(rows, preferred_fields):
+    """Return preferred fields plus any extra row keys, excluding private helper keys."""
+    fieldnames = list(preferred_fields)
+    for row in rows:
+        for key in row.keys():
+            if key.startswith("_"):
+                continue
+            if key not in fieldnames:
+                fieldnames.append(key)
+    return fieldnames
+
+
+def rewrite_rows_with_project_identity(path, rows, dated_output_dir):
+    """Rewrite an existing CSV with added canonical project identity fields."""
+    if not rows:
+        return
+    preferred = [
+        "canonical_project_id",
+        "canonical_project_name",
+        "project_identity_confidence",
+    ]
+    fieldnames = get_union_fieldnames(rows, preferred)
+    clean_rows = [
+        {key: value for key, value in row.items() if not key.startswith("_")}
+        for row in rows
+    ]
+    write_csv_outputs(path, fieldnames, clean_rows, dated_output_dir)
+
+
+def rewrite_project_identity_fields_in_existing_outputs(dated_output_dir, asset_rows, deal_rows, lifecycle_rows, transition_rows, opportunity_rows, distress_rows, graph_rows):
+    """Add canonical project fields to key output CSVs after identity resolution."""
+    rewrite_rows_with_project_identity(ASSET_PARCEL_INTELLIGENCE_OUTPUT_FILE, asset_rows, dated_output_dir)
+    rewrite_rows_with_project_identity(DEAL_PIPELINE_OUTPUT_FILE, deal_rows, dated_output_dir)
+    rewrite_rows_with_project_identity(DEVELOPMENT_LIFECYCLE_OUTPUT_FILE, lifecycle_rows, dated_output_dir)
+    rewrite_rows_with_project_identity(LIFECYCLE_TRANSITION_OUTPUT_FILE, transition_rows, dated_output_dir)
+    rewrite_rows_with_project_identity(OPPORTUNITY_RADAR_OUTPUT_FILE, opportunity_rows, dated_output_dir)
+    rewrite_rows_with_project_identity(DISTRESS_WATCHLIST_OUTPUT_FILE, distress_rows, dated_output_dir)
+    rewrite_rows_with_project_identity(RELATIONSHIP_GRAPH_OUTPUT_FILE, graph_rows, dated_output_dir)
+
+
+def append_persistent_asset_summary_to_reports(identity_summary, memory_summary, la_memory_summary, dated_output_dir):
+    """Append persistent asset memory summary to existing reports."""
+    lines = [
+        "",
+        "## Persistent Asset Memory Summary",
+        "",
+        f"- Raw project references: {identity_summary['total_raw_references']}",
+        f"- Canonical projects: {identity_summary['total_canonical_projects']}",
+        f"- Duplicate project clusters: {identity_summary['duplicate_clusters']}",
+        f"- Persistent assets tracked: {memory_summary['total_persistent_assets']}",
+        f"- LA persistent asset watch items: {la_memory_summary['total_la_persistent_watch_items']}",
+        "- See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.",
+        "",
+    ]
+    report_paths = [
+        WEEKLY_MEMO_OUTPUT_FILE,
+        EXECUTIVE_PRIORITY_BRIEF_OUTPUT_FILE,
+        ASSET_PARCEL_INTELLIGENCE_REPORT_OUTPUT_FILE,
+        LA_ASSET_WATCH_REPORT_OUTPUT_FILE,
+        DEVELOPMENT_LIFECYCLE_REPORT_OUTPUT_FILE,
+        LA_DEVELOPMENT_LIFECYCLE_WATCH_REPORT_OUTPUT_FILE,
+        LIFECYCLE_TRANSITION_REPORT_OUTPUT_FILE,
+        LA_LIFECYCLE_TRANSITION_WATCH_REPORT_OUTPUT_FILE,
+        OPPORTUNITY_RADAR_REPORT_OUTPUT_FILE,
+        DISTRESS_WATCHLIST_REPORT_OUTPUT_FILE,
+        RELATIONSHIP_GRAPH_REPORT_OUTPUT_FILE,
+    ]
+    for path in report_paths:
+        append_markdown_section(path, lines)
+        if SAVE_DATED_OUTPUT:
+            append_markdown_section(os.path.join(dated_output_dir, os.path.basename(path)), lines)
+
+
+def get_source_quality_score_for_project(project_id, identity_rows, source_activation_rows):
+    """Score source quality for a canonical project."""
+    project_sources = [
+        row.get("source_file", "")
+        for row in identity_rows
+        if row.get("canonical_project_id") == project_id
+    ]
+    source_text = " ".join(project_sources).lower()
+    score = 30
+    if any(name in source_text for name in ["source_activation", "source_health", "urbanize", "bisnow", "multifamily", "deal_pipeline"]):
+        score += 15
+    if any(name in source_text for name in ["institutional", "relationship", "gp_watchlist", "deal_pipeline", "opportunity"]):
+        score += 15
+    if any(name in source_text for name in ["la_", "entitlement", "asset", "lifecycle"]):
+        score += 10
+    if len(set(project_sources)) >= 3:
+        score += 20
+    if any(row.get("source_status") == "Working" for row in source_activation_rows):
+        score += 5
+    if any("placeholder" in " ".join(str(value) for value in row.values()).lower() for row in source_activation_rows[:20]):
+        score -= 5
+    return max(0, min(100, score))
+
+
+def get_signal_quality_label(score):
+    """Label overall signal quality."""
+    if score >= 85:
+        return "Institutional Grade"
+    if score >= 70:
+        return "High Confidence"
+    if score >= 55:
+        return "Moderate Confidence"
+    if score >= 40:
+        return "Weak Signal"
+    return "Noise Risk"
+
+
+def get_institutional_confidence_label(score, source_score):
+    """Label institutional confidence."""
+    if score >= 85 and source_score >= 60:
+        return "Strong Institutional Signal"
+    if score >= 70:
+        return "Institutional Watch"
+    if score >= 55:
+        return "Early Institutional Signal"
+    if score >= 40:
+        return "Speculative"
+    return "Weak"
+
+
+def get_false_positive_risk(score, identity_confidence, specificity_score):
+    """Estimate false-positive risk from signal quality and specificity."""
+    if score >= 80 and identity_confidence >= 80 and specificity_score >= 60:
+        return "Very Low"
+    if score >= 65:
+        return "Low"
+    if score >= 45:
+        return "Moderate"
+    return "High"
+
+
+def get_signal_decay_risk(memory_row, transition_rows):
+    """Estimate whether a signal is persistent, stable, fading, weakening, or noisy."""
+    project_id = memory_row.get("canonical_project_id", "")
+    transition = next((row for row in transition_rows if row.get("canonical_project_id") == project_id), {})
+    if safe_int(memory_row.get("observation_count")) >= 5:
+        return "Persistent"
+    if transition.get("execution_momentum_label") in ["Advancing", "Stable", "Mature"]:
+        return "Stable"
+    if transition.get("execution_momentum_label") == "Conflicting":
+        return "Weakening"
+    if memory_row.get("latest_lifecycle_stage") == "Unknown Stage":
+        return "Likely Noise"
+    return "Fading"
+
+
+def get_recommended_signal_action(score, false_positive_risk):
+    """Recommend what to do with a calibrated signal."""
+    if score >= 85 and false_positive_risk in ["Very Low", "Low"]:
+        return "Immediate strategic review"
+    if score >= 70:
+        return "Add to executive watchlist"
+    if score >= 55:
+        return "Monitor for confirmation"
+    if score >= 40:
+        return "Track only"
+    return "Deprioritize"
+
+
+def build_signal_quality_rows(run_timestamp, source_activation_rows, source_health_rows, identity_rows, memory_rows, transition_rows, lifecycle_rows, fingerprint_rows, opportunity_rows, distress_rows, asset_rows, graph_rows, gp_watchlist_rows, relationship_rows, timing_rows):
+    """Build unified strategic signal quality rows."""
+    identity_by_id = {}
+    for row in identity_rows:
+        identity_by_id.setdefault(row["canonical_project_id"], []).append(row)
+    transition_by_id = {row.get("canonical_project_id"): row for row in transition_rows if row.get("canonical_project_id")}
+    lifecycle_by_id = {}
+    for row in lifecycle_rows:
+        lifecycle_by_id.setdefault(row.get("canonical_project_id"), []).append(row)
+    asset_by_id = {}
+    for row in asset_rows:
+        asset_by_id.setdefault(row.get("canonical_project_id"), []).append(row)
+    rows = []
+    for memory in memory_rows:
+        project_id = memory["canonical_project_id"]
+        identity_group = identity_by_id.get(project_id, [])
+        transition = transition_by_id.get(project_id, {})
+        lifecycle_group = lifecycle_by_id.get(project_id, [])
+        asset_group = asset_by_id.get(project_id, [])
+        source_quality = get_source_quality_score_for_project(project_id, identity_rows, source_activation_rows)
+        source_count = safe_int(memory.get("source_count"))
+        observation_count = safe_int(memory.get("observation_count"))
+        multi_source_score = min(100, source_count * 18 + observation_count * 5)
+        best_identity_confidence = max([safe_int(row.get("identity_confidence")) for row in identity_group] + [0])
+        specificity_score = 20
+        if best_identity_confidence >= 80:
+            specificity_score += 20
+        if any(row.get("address_or_location_clue") not in ["", "Unknown", "Other / Unknown"] for row in identity_group):
+            specificity_score += 20
+        if memory.get("gp_or_developer") != "Unknown":
+            specificity_score += 15
+        if any(row.get("lender_or_capital_partner") not in ["", "Unknown"] for row in identity_group):
+            specificity_score += 10
+        if any(row.get("unit_count") or row.get("dollar_amount") for row in asset_group):
+            specificity_score += 10
+        specificity_score = min(100, specificity_score)
+        lifecycle_consistency_score = 65
+        if transition.get("transition_type") in ["Forward Progression", "Same Stage Persistence", "Mature / Operating"]:
+            lifecycle_consistency_score += 20
+        if transition.get("transition_type") == "Stage Regression / Conflicting Signal":
+            lifecycle_consistency_score -= 30
+        if memory.get("latest_lifecycle_stage") == "Unknown Stage":
+            lifecycle_consistency_score -= 15
+        if len(set(row.get("current_lifecycle_stage") for row in lifecycle_group)) <= 2:
+            lifecycle_consistency_score += 10
+        lifecycle_consistency_score = max(0, min(100, lifecycle_consistency_score))
+        persistence_score = min(100, safe_int(memory.get("persistent_asset_score")) + min(15, observation_count * 2))
+        overall = round(
+            source_quality * 0.20
+            + multi_source_score * 0.22
+            + specificity_score * 0.22
+            + lifecycle_consistency_score * 0.18
+            + persistence_score * 0.18
+        )
+        if best_identity_confidence < 60:
+            overall -= 10
+        if memory.get("gp_or_developer") == "Unknown" and memory.get("submarket") in ["Unknown", "Other / Unknown"]:
+            overall -= 10
+        overall = max(0, min(100, overall))
+        quality_label = get_signal_quality_label(overall)
+        institutional_label = get_institutional_confidence_label(overall, source_quality)
+        false_positive_risk = get_false_positive_risk(overall, best_identity_confidence, specificity_score)
+        signal_decay = get_signal_decay_risk(memory, transition_rows)
+        rows.append({
+            "signal_quality_id": f"SQ-{run_timestamp.strftime('%Y%m%d')}-{len(rows) + 1:03d}",
+            "canonical_project_id": project_id,
+            "canonical_project_name": memory["canonical_project_name"],
+            "market": memory["market"],
+            "submarket": memory["submarket"],
+            "gp_or_developer": memory["gp_or_developer"],
+            "residential_sector": memory["residential_sector"],
+            "source_quality_score": source_quality,
+            "multi_source_confirmation_score": multi_source_score,
+            "specificity_score": specificity_score,
+            "lifecycle_consistency_score": lifecycle_consistency_score,
+            "persistence_score": persistence_score,
+            "overall_signal_quality_score": overall,
+            "signal_quality_label": quality_label,
+            "institutional_confidence_label": institutional_label,
+            "false_positive_risk": false_positive_risk,
+            "signal_decay_risk": signal_decay,
+            "supporting_source_count": source_count,
+            "recurring_observation_count": observation_count,
+            "lifecycle_consistency_flag": "Consistent" if lifecycle_consistency_score >= 70 else "Needs Review" if lifecycle_consistency_score >= 45 else "Conflicting / Weak",
+            "multi_source_confirmation_flag": "Confirmed" if source_count >= 3 or observation_count >= 5 else "Partial" if source_count >= 2 or observation_count >= 2 else "Single Source",
+            "recommended_signal_action": get_recommended_signal_action(overall, false_positive_risk),
+            "evidence_summary": f"{source_count} source file(s), {observation_count} observation(s), latest stage {memory['latest_lifecycle_stage']}, identity confidence {best_identity_confidence}",
+        })
+    rows.sort(key=lambda row: (-safe_int(row["overall_signal_quality_score"]), -safe_int(row["persistence_score"]), row["canonical_project_name"]))
+    return rows
+
+
+def generate_signal_quality_outputs(signal_rows, dated_output_dir):
+    """Write signal_quality.csv and Markdown report."""
+    fieldnames = [
+        "signal_quality_id", "canonical_project_id", "canonical_project_name",
+        "market", "submarket", "gp_or_developer", "residential_sector",
+        "source_quality_score", "multi_source_confirmation_score", "specificity_score",
+        "lifecycle_consistency_score", "persistence_score",
+        "overall_signal_quality_score", "signal_quality_label",
+        "institutional_confidence_label", "false_positive_risk", "signal_decay_risk",
+        "supporting_source_count", "recurring_observation_count",
+        "lifecycle_consistency_flag", "multi_source_confirmation_flag",
+        "recommended_signal_action", "evidence_summary",
+    ]
+    write_csv_outputs(SIGNAL_QUALITY_OUTPUT_FILE, fieldnames, signal_rows, dated_output_dir)
+    institutional = [row for row in signal_rows if row["signal_quality_label"] == "Institutional Grade"]
+    high_conf = [row for row in signal_rows if row["signal_quality_label"] in ["Institutional Grade", "High Confidence"]]
+    weak = [row for row in signal_rows if row["signal_quality_label"] in ["Weak Signal", "Noise Risk"]]
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = [
+        "# Strategic Signal Quality Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total signals evaluated: {len(signal_rows)}",
+        f"- Institutional-grade signals: {len(institutional)}",
+        f"- High-confidence signals: {len(high_conf)}",
+        f"- Weak/noisy signals: {len(weak)}",
+        "",
+    ]
+    add_signal_quality_section(lines, "Strongest Recurring Signals", signal_rows, lambda row: safe_int(row["recurring_observation_count"]) >= 2)
+    add_signal_quality_section(lines, "Strongest LA / California Signals", signal_rows, lambda row: any(term in " ".join([row["market"], row["submarket"], row["canonical_project_name"]]).lower() for term in LA_ENTITLEMENT_MARKET_KEYWORDS))
+    add_signal_quality_section(lines, "Most Persistent Projects", signal_rows, lambda row: row["signal_decay_risk"] == "Persistent")
+    add_signal_quality_section(lines, "Strongest Refinancing / Stress Signals", signal_rows, lambda row: any(word in row["canonical_project_name"].lower() for word in ["refinancing", "recapitalization", "loan", "debt", "distress"]))
+    add_signal_quality_section(lines, "Strongest Entitlement Progression Signals", signal_rows, lambda row: any(word in row["canonical_project_name"].lower() for word in ["entitlement", "permit", "planning", "ceqa", "approved"]))
+    add_signal_quality_section(lines, "Strongest Construction-Start Signals", signal_rows, lambda row: any(word in row["canonical_project_name"].lower() for word in ["construction", "broke ground", "framing", "delivery"]))
+    lines.extend([
+        "## Implications for Woomi / Woomi Global",
+        "",
+        "- Signal quality calibration helps separate institutional-grade project intelligence from noisy one-off mentions.",
+        "- High-quality signals should receive management attention before weaker signals inflate opportunity or lifecycle conclusions.",
+        "",
+        "## Recommended Signal Quality Follow-up Actions",
+        "",
+    ])
+    for row in signal_rows[:8]:
+        lines.append(f"- {row['recommended_signal_action']}: {row['canonical_project_name']} ({row['signal_quality_label']}).")
+    if not signal_rows:
+        lines.append("- Continue monitoring until calibrated project signals are available.")
+    lines.append("")
+    write_markdown_outputs(SIGNAL_QUALITY_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "total_signals": len(signal_rows),
+        "institutional_grade_count": len(institutional),
+        "high_confidence_count": len(high_conf),
+        "weak_noisy_count": len(weak),
+        "top_institutional_signal": institutional[0] if institutional else (signal_rows[0] if signal_rows else {}),
+        "strongest_recurring_signal": next((row for row in signal_rows if safe_int(row["recurring_observation_count"]) >= 2), signal_rows[0] if signal_rows else {}),
+        "strongest_la_signal": next((row for row in signal_rows if any(term in " ".join([row["market"], row["submarket"], row["canonical_project_name"]]).lower() for term in LA_ENTITLEMENT_MARKET_KEYWORDS)), {}),
+        "recommended_follow_up": [row["recommended_signal_action"] for row in signal_rows[:5]],
+    }
+
+
+def add_signal_quality_section(lines, title, rows, filter_function):
+    """Add one signal quality report section."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected = [row for row in rows if filter_function(row)]
+    if not selected:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+    for row in selected[:10]:
+        lines.append(
+            f"- {row['canonical_project_name']}: {row['signal_quality_label']}, "
+            f"score {row['overall_signal_quality_score']}, {row['evidence_summary']}."
+        )
+    lines.append("")
+
+
+def get_strategic_theme_for_watchlist(row, memory_by_id):
+    """Create a strategic theme for a high-confidence signal."""
+    memory = memory_by_id.get(row["canonical_project_id"], {})
+    text = " ".join([row["canonical_project_name"], memory.get("latest_lifecycle_stage", "")]).lower()
+    if any(word in text for word in ["refinancing", "recapitalization", "loan", "debt"]):
+        return "Refinancing opportunity"
+    if any(word in text for word in ["entitlement", "permit", "planning", "ceqa", "approved"]):
+        return "Entitlement progression"
+    if any(word in text for word in ["construction", "framing", "broke ground"]):
+        return "Construction start pipeline"
+    if any(word in text for word in ["blackstone", "brookfield", "capital", "jv", "partnership"]):
+        return "Institutional capital movement"
+    if any(word in text for word in ["distress", "stalled", "default"]):
+        return "Distressed opportunity"
+    if any(term in " ".join([row["market"], row["submarket"]]).lower() for term in LA_ENTITLEMENT_MARKET_KEYWORDS):
+        return "LA urban infill opportunity"
+    if "affordable" in text:
+        return "Affordable housing pipeline"
+    if "btr" in text or "build to rent" in text:
+        return "BTR expansion"
+    if "student" in text:
+        return "Student housing expansion"
+    if "senior" in text:
+        return "Senior housing growth"
+    return "Institutional capital movement"
+
+
+def get_watchlist_action(row, theme):
+    """Recommend executive action for high-confidence watchlist rows."""
+    if row["signal_quality_label"] == "Institutional Grade":
+        return "Review immediately"
+    if theme == "Refinancing opportunity":
+        return "Watch refinancing timing"
+    if theme == "Entitlement progression":
+        return "Track entitlement progression"
+    if theme == "Construction start pipeline":
+        return "Monitor construction execution"
+    if row["institutional_confidence_label"] == "Strong Institutional Signal":
+        return "Add to investment committee watch"
+    if row["gp_or_developer"] != "Unknown":
+        return "Monitor sponsor relationship"
+    return "Maintain on strategic radar"
+
+
+def build_high_confidence_watchlist_rows(run_timestamp, signal_rows, memory_rows):
+    """Build high_confidence_watchlist.csv rows."""
+    memory_by_id = {row["canonical_project_id"]: row for row in memory_rows}
+    rows = []
+    for signal in signal_rows:
+        if signal["signal_quality_label"] not in ["Institutional Grade", "High Confidence"] and signal["institutional_confidence_label"] != "Strong Institutional Signal":
+            continue
+        memory = memory_by_id.get(signal["canonical_project_id"], {})
+        theme = get_strategic_theme_for_watchlist(signal, memory_by_id)
+        rows.append({
+            "watchlist_id": f"HCW-{run_timestamp.strftime('%Y%m%d')}-{len(rows) + 1:03d}",
+            "canonical_project_id": signal["canonical_project_id"],
+            "canonical_project_name": signal["canonical_project_name"],
+            "market": signal["market"],
+            "submarket": signal["submarket"],
+            "gp_or_developer": signal["gp_or_developer"],
+            "residential_sector": signal["residential_sector"],
+            "latest_lifecycle_stage": memory.get("latest_lifecycle_stage", "Unknown Stage"),
+            "opportunity_score": memory.get("highest_opportunity_score", 0),
+            "risk_score": memory.get("highest_risk_score", 0),
+            "overall_signal_quality_score": signal["overall_signal_quality_score"],
+            "institutional_confidence_label": signal["institutional_confidence_label"],
+            "supporting_source_count": signal["supporting_source_count"],
+            "recurring_observation_count": signal["recurring_observation_count"],
+            "strategic_theme": theme,
+            "woomi_relevance": memory.get("woomi_asset_watch_priority", "General Asset Monitoring"),
+            "recommended_executive_action": get_watchlist_action(signal, theme),
+            "supporting_evidence_summary": signal["evidence_summary"],
+        })
+    rows.sort(key=lambda row: (-safe_int(row["overall_signal_quality_score"]), -safe_int(row["opportunity_score"]), row["canonical_project_name"]))
+    return rows
+
+
+def generate_high_confidence_watchlist_outputs(watchlist_rows, dated_output_dir):
+    """Write high_confidence_watchlist.csv and Markdown report."""
+    fieldnames = [
+        "watchlist_id", "canonical_project_id", "canonical_project_name",
+        "market", "submarket", "gp_or_developer", "residential_sector",
+        "latest_lifecycle_stage", "opportunity_score", "risk_score",
+        "overall_signal_quality_score", "institutional_confidence_label",
+        "supporting_source_count", "recurring_observation_count", "strategic_theme",
+        "woomi_relevance", "recommended_executive_action",
+        "supporting_evidence_summary",
+    ]
+    write_csv_outputs(HIGH_CONFIDENCE_WATCHLIST_OUTPUT_FILE, fieldnames, watchlist_rows, dated_output_dir)
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    lines = [
+        "# High Confidence Watchlist Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total high-confidence watchlist items: {len(watchlist_rows)}",
+        "",
+    ]
+    add_watchlist_section(lines, "Top Institutional-Grade Opportunities", watchlist_rows, lambda row: safe_int(row["opportunity_score"]) >= safe_int(row["risk_score"]))
+    add_watchlist_section(lines, "Top Institutional-Grade Risks", watchlist_rows, lambda row: safe_int(row["risk_score"]) > safe_int(row["opportunity_score"]))
+    add_watchlist_section(lines, "Strongest LA / Southern California Watch Items", watchlist_rows, lambda row: any(term in " ".join([row["market"], row["submarket"], row["canonical_project_name"]]).lower() for term in LA_ENTITLEMENT_MARKET_KEYWORDS))
+    add_watchlist_section(lines, "Strongest GP / Developer Signals", watchlist_rows, lambda row: row["gp_or_developer"] != "Unknown")
+    add_watchlist_section(lines, "Strongest Capital Flow Signals", watchlist_rows, lambda row: row["strategic_theme"] in ["Institutional capital movement", "Refinancing opportunity"])
+    add_watchlist_section(lines, "Strongest Refinancing Opportunities", watchlist_rows, lambda row: row["strategic_theme"] == "Refinancing opportunity")
+    add_watchlist_section(lines, "Strongest Construction-Ready Opportunities", watchlist_rows, lambda row: row["strategic_theme"] == "Construction start pipeline")
+    lines.extend(["## Recommended Executive Actions", ""])
+    for row in watchlist_rows[:8]:
+        lines.append(f"- {row['recommended_executive_action']}: {row['canonical_project_name']}.")
+    if not watchlist_rows:
+        lines.append("- No high-confidence watchlist items were detected in this run.")
+    lines.append("")
+    write_markdown_outputs(HIGH_CONFIDENCE_WATCHLIST_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "total_watchlist_items": len(watchlist_rows),
+        "top_opportunity": max(watchlist_rows, key=lambda row: safe_int(row["opportunity_score"])) if watchlist_rows else {},
+        "top_risk": max(watchlist_rows, key=lambda row: safe_int(row["risk_score"])) if watchlist_rows else {},
+        "recommended_actions": [row["recommended_executive_action"] for row in watchlist_rows[:5]],
+    }
+
+
+def add_watchlist_section(lines, title, rows, filter_function):
+    """Add a high-confidence watchlist report section."""
+    lines.append(f"## {title}")
+    lines.append("")
+    selected = [row for row in rows if filter_function(row)]
+    if not selected:
+        lines.append("- None detected.")
+        lines.append("")
+        return
+    for row in selected[:10]:
+        lines.append(
+            f"- {row['canonical_project_name']}: {row['strategic_theme']}, "
+            f"quality {row['overall_signal_quality_score']}, action: {row['recommended_executive_action']}."
+        )
+    lines.append("")
+
+
+def append_signal_quality_summary_to_reports(signal_summary, watchlist_summary, dated_output_dir):
+    """Append signal quality summary to existing reports."""
+    lines = [
+        "",
+        "## Signal Quality / Confidence Summary",
+        "",
+        f"- Signals evaluated: {signal_summary['total_signals']}",
+        f"- Institutional-grade signals: {signal_summary['institutional_grade_count']}",
+        f"- High-confidence signals: {signal_summary['high_confidence_count']}",
+        f"- Weak/noisy signals: {signal_summary['weak_noisy_count']}",
+        f"- High-confidence watchlist items: {watchlist_summary['total_watchlist_items']}",
+        "- See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.",
+        "",
+    ]
+    report_paths = [
+        WEEKLY_MEMO_OUTPUT_FILE,
+        EXECUTIVE_PRIORITY_BRIEF_OUTPUT_FILE,
+        OPPORTUNITY_RADAR_REPORT_OUTPUT_FILE,
+        DISTRESS_WATCHLIST_REPORT_OUTPUT_FILE,
+        LIFECYCLE_TRANSITION_REPORT_OUTPUT_FILE,
+        DEVELOPMENT_LIFECYCLE_REPORT_OUTPUT_FILE,
+        PERSISTENT_ASSET_MEMORY_REPORT_OUTPUT_FILE,
+        GP_WATCHLIST_REPORT_OUTPUT_FILE,
+        INSTITUTIONAL_RELATIONSHIP_REPORT_OUTPUT_FILE,
+    ]
+    for path in report_paths:
+        append_markdown_section(path, lines)
+        if SAVE_DATED_OUTPUT:
+            append_markdown_section(os.path.join(dated_output_dir, os.path.basename(path)), lines)
+
+
+def get_dashboard_priority(score):
+    """Convert a dashboard score into a simple card priority."""
+    score = safe_int(score)
+    if score >= 80:
+        return "Critical"
+    if score >= 65:
+        return "High"
+    if score >= 45:
+        return "Medium"
+    return "Low"
+
+
+def add_dashboard_card(cards, run_timestamp, card_type, title, score, market, sector, gp_name, summary, why_it_matters, action, source_report, url=""):
+    """Append one dashboard-ready card."""
+    cards.append({
+        "card_id": f"CARD-{run_timestamp.strftime('%Y%m%d')}-{len(cards) + 1:03d}",
+        "card_type": card_type,
+        "card_title": title,
+        "card_priority": get_dashboard_priority(score),
+        "card_score": safe_int(score),
+        "market": market or "Other / Unknown",
+        "residential_sector": sector or "General Residential",
+        "gp_or_developer": gp_name or "Unknown",
+        "summary": summary,
+        "why_it_matters": why_it_matters,
+        "recommended_action": action,
+        "source_report": source_report,
+        "source_url_if_available": url,
+    })
+
+
+def build_dashboard_summary_row(run_timestamp, articles, high_confidence_rows, signal_rows, opportunity_rows, distress_rows, la_asset_rows, gp_watchlist_rows, market_entry_rows, lifecycle_rows, regional_rows, sector_rows):
+    """Build the single dashboard summary row for this run."""
+    institutional_grade_count = len([row for row in signal_rows if row["signal_quality_label"] == "Institutional Grade"])
+    top_market = regional_rows[0]["market"] if regional_rows else "Other / Unknown"
+    top_sector = sector_rows[0]["residential_sector"] if sector_rows else "General Residential"
+    top_gp = gp_watchlist_rows[0]["canonical_gp_name"] if gp_watchlist_rows else "None"
+    top_opportunity = opportunity_rows[0]["opportunity_type"] if opportunity_rows else "None"
+    top_distress = distress_rows[0]["distress_type"] if distress_rows else "None"
+    top_market_entry = market_entry_rows[0]["market"] if market_entry_rows else "None"
+    top_lifecycle = lifecycle_rows[0]["canonical_asset_or_project_name"] if lifecycle_rows else "None"
+    highest_quality = high_confidence_rows[0]["canonical_project_name"] if high_confidence_rows else (signal_rows[0]["canonical_project_name"] if signal_rows else "None")
+    if high_confidence_rows:
+        focus = f"Review {high_confidence_rows[0]['canonical_project_name']} and related high-confidence project signals."
+    elif opportunity_rows:
+        focus = f"Review {opportunity_rows[0]['opportunity_type']} opportunity signals."
+    else:
+        focus = "Monitor market signals and source quality until stronger opportunities emerge."
+    return {
+        "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+        "total_articles": len(articles),
+        "high_confidence_signals": len(high_confidence_rows),
+        "institutional_grade_signals": institutional_grade_count,
+        "opportunity_count": len(opportunity_rows),
+        "distress_count": len(distress_rows),
+        "la_asset_watch_count": len(la_asset_rows),
+        "gp_watchlist_count": len(gp_watchlist_rows),
+        "top_market": top_market,
+        "top_residential_sector": top_sector,
+        "top_gp": top_gp,
+        "top_opportunity": top_opportunity,
+        "top_distress_signal": top_distress,
+        "top_market_entry_window": top_market_entry,
+        "top_lifecycle_signal": top_lifecycle,
+        "highest_quality_signal": highest_quality,
+        "recommended_executive_focus": focus,
+    }
+
+
+def build_dashboard_cards(run_timestamp, high_confidence_rows, opportunity_rows, distress_rows, la_asset_rows, gp_watchlist_rows, market_entry_rows, entitlement_rows, transition_rows, capital_flow_rows, source_activation_rows):
+    """Build dashboard-ready card rows from top intelligence outputs."""
+    cards = []
+    for row in high_confidence_rows[:5]:
+        add_dashboard_card(
+            cards, run_timestamp, "Signal Quality", row["canonical_project_name"],
+            row["overall_signal_quality_score"], row["market"], row["residential_sector"],
+            row["gp_or_developer"], row["supporting_evidence_summary"],
+            "High-confidence calibrated signal with multi-layer support.",
+            row["recommended_executive_action"], "high_confidence_watchlist_report.md",
+        )
+    for row in opportunity_rows[:5]:
+        add_dashboard_card(
+            cards, run_timestamp, "Opportunity", row["opportunity_type"],
+            row["opportunity_score"], row["market"], row["residential_sector"],
+            row["gp_or_developer"], row["why_it_matters"],
+            row["potential_woomi_angle"], row["recommended_next_action"],
+            "opportunity_radar_report.md", row.get("url", ""),
+        )
+    for row in distress_rows[:5]:
+        add_dashboard_card(
+            cards, run_timestamp, "Distress", row["distress_type"],
+            row["distress_score"], row["market"], row["residential_sector"],
+            row["gp_or_developer"], row["evidence_signals"],
+            row["potential_woomi_angle"], row["recommended_next_action"],
+            "distress_watchlist_report.md", row.get("url", ""),
+        )
+    for row in la_asset_rows[:5]:
+        add_dashboard_card(
+            cards, run_timestamp, "LA Asset Watch", row["asset_or_project_name"],
+            row["la_asset_opportunity_score"], row["la_submarket"], row["residential_sector"],
+            row["gp_or_developer"], row["potential_woomi_strategy_angle"],
+            "LA / Southern California project-level watch item.",
+            row["recommended_local_follow_up"], "la_asset_watch_report.md", row.get("url", ""),
+        )
+    for row in gp_watchlist_rows[:5]:
+        add_dashboard_card(
+            cards, run_timestamp, "GP Watch", row["canonical_gp_name"],
+            row["emerging_gp_score"], row["primary_market"], row["residential_sector_focus"],
+            row["canonical_gp_name"], row["likely_growth_direction"],
+            row["potential_woomi_use_case"], row["recommended_follow_up"],
+            "gp_watchlist_report.md",
+        )
+    for row in market_entry_rows[:3]:
+        add_dashboard_card(
+            cards, run_timestamp, "Market Entry Window", row["market"],
+            row["market_entry_score"], row["market"], row["residential_sector_fit"],
+            "Unknown", row["market_entry_window_label"],
+            row["key_entry_opportunities"], row["recommended_entry_posture"],
+            "market_entry_window_report.md",
+        )
+    for row in entitlement_rows[:3]:
+        add_dashboard_card(
+            cards, run_timestamp, "Entitlement Watch", row["entitlement_signal_type"],
+            max(safe_int(row["entitlement_opportunity_score"]), safe_int(row["entitlement_risk_score"])),
+            row["market"], row["residential_sector"], row["gp_or_developer"],
+            row["regulatory_theme"], "Entitlement and permitting can affect site timing and execution risk.",
+            row["recommended_follow_up"], "entitlement_intelligence_report.md", row.get("url", ""),
+        )
+    for row in transition_rows[:3]:
+        add_dashboard_card(
+            cards, run_timestamp, "Lifecycle Watch", row["canonical_asset_or_project_name"],
+            max(safe_int(row["progression_score"]), safe_int(row["stall_risk_score"])),
+            row["market"], row["residential_sector"], row["gp_or_developer"],
+            row["transition_type"], "Lifecycle transition affects timing and project execution confidence.",
+            row["recommended_transition_follow_up"], "lifecycle_transition_report.md", row.get("url", ""),
+        )
+    for row in capital_flow_rows[:3]:
+        add_dashboard_card(
+            cards, run_timestamp, "Capital Flow", row.get("entity_name", "Capital Flow Signal"),
+            row.get("capital_flow_strength_score", row.get("historical_importance_score", 0)),
+            row.get("market", row.get("entity_name", "Other / Unknown")),
+            row.get("residential_sector", "General Residential"),
+            row.get("entity_name", "Unknown"), row["capital_flow_direction"],
+            "Capital-flow memory can identify repeated lenders, refinancing stress, and capital concentration.",
+            "Track capital flow pattern and related relationships", "capital_flow_report.md",
+        )
+    failing_sources = [row for row in source_activation_rows if row.get("source_status") == "Failed"]
+    if failing_sources:
+        add_dashboard_card(
+            cards, run_timestamp, "Source Health", "Critical source validation warnings",
+            min(100, 45 + len(failing_sources)), "National / Other", "General Residential",
+            "Unknown", f"{len(failing_sources)} source(s) failed validation.",
+            "Source reliability affects dashboard signal confidence.",
+            "Review failed critical feeds and manual-review queue", "source_activation_report.md",
+        )
+    cards.sort(key=lambda row: (-safe_int(row["card_score"]), row["card_title"]))
+    return cards
+
+
+def add_dashboard_watchlist_rows(rows, category, source_rows, name_field, score_field, priority_field, stage_field, follow_up_field, source_report, limit=10):
+    """Add dashboard watchlist rows from a source table."""
+    for row in source_rows[:limit]:
+        rows.append({
+            "watchlist_category": category,
+            "item_name": row.get(name_field, "Unknown"),
+            "market": row.get("market") or row.get("la_submarket") or row.get("primary_market") or "Other / Unknown",
+            "residential_sector": row.get("residential_sector") or row.get("residential_sector_focus") or "General Residential",
+            "gp_or_developer": row.get("gp_or_developer") or row.get("canonical_gp_name") or "Unknown",
+            "score": row.get(score_field, 0),
+            "priority_label": row.get(priority_field, ""),
+            "status_or_stage": row.get(stage_field, ""),
+            "signal_quality_label": row.get("signal_quality_label") or row.get("institutional_confidence_label") or "",
+            "recommended_follow_up": row.get(follow_up_field, ""),
+            "source_report": source_report,
+        })
+
+
+def build_dashboard_watchlists(high_confidence_rows, opportunity_rows, distress_rows, la_asset_rows, gp_watchlist_rows, entitlement_rows, transition_rows, capital_flow_rows, market_entry_rows, source_activation_rows):
+    """Build dashboard watchlist rows."""
+    rows = []
+    add_dashboard_watchlist_rows(rows, "High Confidence Signals", high_confidence_rows, "canonical_project_name", "overall_signal_quality_score", "woomi_relevance", "latest_lifecycle_stage", "recommended_executive_action", "high_confidence_watchlist_report.md")
+    add_dashboard_watchlist_rows(rows, "Opportunities", opportunity_rows, "opportunity_type", "opportunity_score", "opportunity_priority_label", "opportunity_type", "recommended_next_action", "opportunity_radar_report.md")
+    add_dashboard_watchlist_rows(rows, "Distress", distress_rows, "distress_type", "distress_score", "distress_priority_label", "distress_type", "recommended_next_action", "distress_watchlist_report.md")
+    add_dashboard_watchlist_rows(rows, "LA Assets", la_asset_rows, "asset_or_project_name", "la_asset_opportunity_score", "woomi_site_relevance", "execution_stage", "recommended_local_follow_up", "la_asset_watch_report.md")
+    add_dashboard_watchlist_rows(rows, "GP Watchlist", gp_watchlist_rows, "canonical_gp_name", "emerging_gp_score", "gp_tier", "momentum_label", "recommended_follow_up", "gp_watchlist_report.md")
+    add_dashboard_watchlist_rows(rows, "Entitlement", entitlement_rows, "project_or_deal_name", "entitlement_opportunity_score", "woomi_developer_relevance", "entitlement_stage", "recommended_follow_up", "entitlement_intelligence_report.md")
+    add_dashboard_watchlist_rows(rows, "Lifecycle", transition_rows, "canonical_asset_or_project_name", "progression_score", "woomi_timing_relevance", "current_stage", "recommended_transition_follow_up", "lifecycle_transition_report.md")
+    add_dashboard_watchlist_rows(rows, "Capital Flow", capital_flow_rows, "entity_name", "capital_flow_strength_score", "debt_market_stress_label", "capital_flow_direction", "capital_rotation_signal", "capital_flow_report.md")
+    add_dashboard_watchlist_rows(rows, "Market Entry", market_entry_rows, "market", "market_entry_score", "market_entry_window_label", "recommended_entry_posture", "recommended_entry_posture", "market_entry_window_report.md")
+    add_dashboard_watchlist_rows(rows, "Source Activation", source_activation_rows, "source_name", "source_quality_score", "source_priority_label", "source_status", "source_status", "source_activation_report.md")
+    rows.sort(key=lambda row: -safe_int(row["score"]))
+    return rows
+
+
+def generate_dashboard_outputs(run_timestamp, articles, high_confidence_rows, signal_rows, opportunity_rows, distress_rows, market_entry_rows, gp_watchlist_rows, relationship_rows, graph_rows, persistent_asset_rows, la_persistent_asset_rows, lifecycle_rows, transition_rows, timing_rows, entitlement_rows, la_entitlement_rows, asset_rows, la_asset_rows, regional_rows, sector_rows, capital_flow_rows, source_activation_rows, dated_output_dir):
+    """Write dashboard-ready summary, cards, watchlists, and Markdown brief."""
+    summary_row = build_dashboard_summary_row(
+        run_timestamp, articles, high_confidence_rows, signal_rows, opportunity_rows,
+        distress_rows, la_asset_rows, gp_watchlist_rows, market_entry_rows,
+        lifecycle_rows, regional_rows, sector_rows,
+    )
+    summary_fields = [
+        "run_timestamp", "total_articles", "high_confidence_signals",
+        "institutional_grade_signals", "opportunity_count", "distress_count",
+        "la_asset_watch_count", "gp_watchlist_count", "top_market",
+        "top_residential_sector", "top_gp", "top_opportunity",
+        "top_distress_signal", "top_market_entry_window", "top_lifecycle_signal",
+        "highest_quality_signal", "recommended_executive_focus",
+    ]
+    write_csv_outputs(DASHBOARD_SUMMARY_OUTPUT_FILE, summary_fields, [summary_row], dated_output_dir)
+
+    cards = build_dashboard_cards(
+        run_timestamp, high_confidence_rows, opportunity_rows, distress_rows,
+        la_asset_rows, gp_watchlist_rows, market_entry_rows, entitlement_rows,
+        transition_rows, capital_flow_rows, source_activation_rows,
+    )
+    card_fields = [
+        "card_id", "card_type", "card_title", "card_priority", "card_score",
+        "market", "residential_sector", "gp_or_developer", "summary",
+        "why_it_matters", "recommended_action", "source_report",
+        "source_url_if_available",
+    ]
+    write_csv_outputs(DASHBOARD_CARDS_OUTPUT_FILE, card_fields, cards, dated_output_dir)
+
+    watchlists = build_dashboard_watchlists(
+        high_confidence_rows, opportunity_rows, distress_rows, la_asset_rows,
+        gp_watchlist_rows, entitlement_rows, transition_rows, capital_flow_rows,
+        market_entry_rows, source_activation_rows,
+    )
+    watchlist_fields = [
+        "watchlist_category", "item_name", "market", "residential_sector",
+        "gp_or_developer", "score", "priority_label", "status_or_stage",
+        "signal_quality_label", "recommended_follow_up", "source_report",
+    ]
+    write_csv_outputs(DASHBOARD_WATCHLISTS_OUTPUT_FILE, watchlist_fields, watchlists, dated_output_dir)
+
+    lines = build_executive_dashboard_brief(run_timestamp, summary_row, cards, watchlists)
+    write_markdown_outputs(EXECUTIVE_DASHBOARD_BRIEF_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "summary": summary_row,
+        "total_cards": len(cards),
+        "total_watchlist_items": len(watchlists),
+        "top_card": cards[0] if cards else {},
+        "recommended_focus": summary_row["recommended_executive_focus"],
+        "cards": cards,
+        "watchlists": watchlists,
+    }
+
+
+def build_executive_dashboard_brief(run_timestamp, summary, cards, watchlists):
+    """Create a concise executive dashboard brief."""
+    lines = [
+        "# Executive Dashboard Brief",
+        "",
+        f"Generated: {run_timestamp.strftime('%Y-%m-%d %H:%M:%S')}",
+        "",
+        "## Executive Snapshot",
+        "",
+        f"- Total articles reviewed: {summary['total_articles']}",
+        f"- High-confidence signals: {summary['high_confidence_signals']}",
+        f"- Institutional-grade signals: {summary['institutional_grade_signals']}",
+        f"- Opportunities: {summary['opportunity_count']}",
+        f"- Distress signals: {summary['distress_count']}",
+        f"- Recommended executive focus: {summary['recommended_executive_focus']}",
+        "",
+        "## Top 5 Things to Review Today",
+        "",
+    ]
+    for card in cards[:5]:
+        lines.append(f"- {card['card_title']} ({card['card_type']}, {card['card_priority']}): {card['recommended_action']}.")
+    if not cards:
+        lines.append("- No dashboard cards generated.")
+    sections = [
+        ("Immediate Watch Items", lambda row: row["card_priority"] in ["Critical", "High"]),
+        ("LA / California Watch", lambda row: any(term in " ".join([row["market"], row["card_title"]]).lower() for term in LA_ENTITLEMENT_MARKET_KEYWORDS)),
+        ("GP / Capital Partner Watch", lambda row: row["card_type"] in ["GP Watch", "Capital Flow"]),
+        ("Opportunity / Distress Watch", lambda row: row["card_type"] in ["Opportunity", "Distress"]),
+        ("Development Lifecycle Watch", lambda row: row["card_type"] in ["Lifecycle Watch", "Entitlement Watch", "LA Asset Watch"]),
+        ("Capital Flow Watch", lambda row: row["card_type"] == "Capital Flow"),
+        ("Source Health Notes", lambda row: row["card_type"] == "Source Health"),
+    ]
+    for title, filter_function in sections:
+        lines.extend(["", f"## {title}", ""])
+        selected = [card for card in cards if filter_function(card)][:5]
+        if selected:
+            for card in selected:
+                lines.append(f"- {card['card_title']}: {card['summary']} Action: {card['recommended_action']}.")
+        else:
+            lines.append("- No items flagged.")
+    lines.extend(["", "## Recommended Management Actions", ""])
+    for card in cards[:5]:
+        lines.append(f"- {card['recommended_action']} ({card['source_report']}).")
+    if not cards:
+        lines.append("- Continue monitoring dashboard files for stronger signals.")
+    lines.append("")
+    return lines
+
+
+def append_dashboard_summary_to_reports(dashboard_summary, dated_output_dir):
+    """Append a short dashboard note to executive reports."""
+    lines = [
+        "",
+        "## Dashboard Summary",
+        "",
+        f"- Dashboard cards: {dashboard_summary['total_cards']}",
+        f"- Dashboard watchlist items: {dashboard_summary['total_watchlist_items']}",
+        f"- Recommended focus: {dashboard_summary['recommended_focus']}",
+        "- Start with `executive_dashboard_brief.md`, then review `dashboard_cards.csv` and `dashboard_watchlists.csv` for future dashboard inputs.",
+        "",
+    ]
+    for path in [WEEKLY_MEMO_OUTPUT_FILE, EXECUTIVE_PRIORITY_BRIEF_OUTPUT_FILE]:
+        append_markdown_section(path, lines)
+        if SAVE_DATED_OUTPUT:
+            append_markdown_section(os.path.join(dated_output_dir, os.path.basename(path)), lines)
+
+
+def append_markdown_section(path, lines):
+    """Append a Markdown section if the target report exists."""
+    if not os.path.exists(path):
+        return
+    with open(path, "a", encoding="utf-8") as file:
+        file.write("\n\n" + "\n".join(lines) + "\n")
+
+
+def translate_label_to_korean(text):
+    """Translate recurring strategy labels; keep company/project names intact."""
+    translations = {
+        "Executive Priority": "경영진 우선 검토",
+        "Opportunity": "기회 신호",
+        "Distress": "스트레스 / 부실 신호",
+        "Capital Flow": "자본 흐름",
+        "Refinancing Stress": "리파이낸싱 압박",
+        "Entitlement / Permitting": "인허가 / 권리확보",
+        "Lifecycle Watch": "개발 단계 모니터링",
+        "LA Asset Watch": "LA 자산 / 프로젝트 모니터링",
+        "High Confidence": "높은 신뢰도",
+        "Institutional Grade": "기관투자자급 신호",
+        "Monitor Only": "모니터링",
+        "Immediate Watch": "즉시 검토",
+        "Strategic Watch": "전략적 관찰",
+        "Financing Stress": "금융 스트레스",
+        "Supply Pressure": "공급 압력",
+        "Selective Capital Re-entry": "선별적 자본 재진입",
+        "Policy / Entitlement Watch": "정책 / 인허가 관찰",
+        "Construction Cost Pressure": "공사비 압력",
+        "Developer Strategy Shift": "개발사 전략 변화",
+        "Must Read": "필독",
+        "Review": "검토",
+        "Monitor": "모니터링",
+        "Critical": "긴급",
+        "High": "높음",
+        "Medium": "중간",
+        "Low": "낮음",
+    }
+    return translations.get(str(text), str(text))
+
+
+def translate_section_title_to_korean(text):
+    """Translate common report section titles."""
+    translations = {
+        "Executive Snapshot": "경영진 요약",
+        "Top 5 Things to Review Today": "오늘 우선 확인 Top 5",
+        "Immediate Watch Items": "즉시 확인 항목",
+        "LA / California Watch": "LA / California Watch",
+        "GP / Capital Partner Watch": "GP / 자본 파트너 Watch",
+        "Opportunity / Distress Watch": "기회 / 부실 Watch",
+        "Development Lifecycle Watch": "개발 단계 Watch",
+        "Capital Flow Watch": "자본 흐름 Watch",
+        "Recommended Management Actions": "추천 경영진 액션",
+    }
+    return translations.get(str(text), str(text))
+
+
+def translate_priority_label_to_korean(text):
+    """Translate priority and tier labels."""
+    translations = {
+        "Tier 1 Executive Attention": "Tier 1 경영진 즉시 검토",
+        "Tier 2 Strategic Review": "Tier 2 전략 검토",
+        "Tier 3 Monitoring": "Tier 3 모니터링",
+        "Background": "참고",
+        "Immediate Opportunity Watch": "즉시 기회 검토",
+        "Strategic Opportunity Watch": "전략적 기회 관찰",
+        "Critical Distress Watch": "긴급 부실 관찰",
+        "High Distress Watch": "높은 부실 관찰",
+    }
+    return translations.get(str(text), translate_label_to_korean(text))
+
+
+def translate_market_label_to_korean(text):
+    """Translate broad market labels while preserving common English market names."""
+    translations = {
+        "National": "전국",
+        "National / Other": "전국 / 기타",
+        "Other / Unknown": "기타 / 미확인",
+    }
+    return translations.get(str(text), str(text))
+
+
+def translate_residential_sector_to_korean(text):
+    """Translate residential sector labels."""
+    translations = {
+        "Multifamily": "멀티패밀리",
+        "Apartment": "아파트",
+        "Student Housing": "학생주택",
+        "Senior Housing": "시니어 하우징",
+        "BTR / Single-Family Rental": "BTR / 단독주택 임대",
+        "Affordable Housing": "어포더블 하우징",
+        "Mixed-Use Residential": "주거복합",
+        "Office-to-Residential Conversion": "오피스-주거 전환",
+        "Workforce Housing": "워크포스 하우징",
+        "Manufactured Housing": "제조주택",
+        "General Residential": "일반 주거",
+    }
+    return translations.get(str(text), str(text))
+
+
+def translate_action_label_to_korean(text):
+    """Translate common action labels."""
+    translations = {
+        "Read full article": "원문 확인",
+        "Track source for follow-up": "후속 모니터링",
+        "Add to weekly strategy memo": "주간 전략 메모 반영",
+        "Monitor only": "모니터링",
+        "Ignore unless repeated": "반복 신호일 때만 검토",
+        "Review immediately": "즉시 검토",
+        "Add to investment committee watch": "투자위원회 Watch에 추가",
+        "Monitor sponsor relationship": "스폰서 관계 모니터링",
+        "Track entitlement progression": "인허가 진행상황 추적",
+        "Benchmark underwriting": "언더라이팅 벤치마크",
+        "Watch refinancing timing": "리파이낸싱 타이밍 관찰",
+    }
+    return translations.get(str(text), str(text))
+
+
+def create_korean_executive_summary(report_name, source_rows_or_text):
+    """Create a short Korean executive summary from structured data."""
+    count = len(source_rows_or_text) if isinstance(source_rows_or_text, list) else len(str(source_rows_or_text).splitlines())
+    return (
+        f"{report_name} 기준 핵심 신호 {count}건을 요약했습니다. "
+        "본 리포트는 유료 API 없이 규칙 기반으로 작성되며, "
+        "우미 / 우미글로벌의 미국 주거 개발 전략 관점에서 우선순위와 후속 조치를 빠르게 확인하기 위한 자료입니다."
+    )
+
+
+def get_first_existing_value(row, field_names, default=""):
+    """Return the first non-empty value from several possible field names."""
+    for field_name in field_names:
+        value = row.get(field_name, "")
+        if value not in ["", None]:
+            return value
+    return default
+
+
+def get_top_rows(rows, score_fields, limit=5):
+    """Sort rows by the first available numeric score field."""
+    def row_score(row):
+        for field in score_fields:
+            value = row.get(field, "")
+            if value not in ["", None]:
+                return safe_int(value)
+        return 0
+    return sorted(rows, key=row_score, reverse=True)[:limit]
+
+
+def build_korean_report_header(title, run_timestamp, source_file):
+    """Common Korean report header."""
+    return [
+        f"# {title}",
+        "",
+        f"- 생성 시각: {run_timestamp.strftime(TIMESTAMP_FORMAT)}",
+        f"- 참고 원문 파일: `{source_file}`",
+        "- 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.",
+        "",
+    ]
+
+
+def add_korean_bullet(lines, row, title_fields, score_fields=None, extra_fields=None):
+    """Append one concise Korean bullet from a structured row."""
+    title = get_first_existing_value(row, title_fields, "이름 미확인")
+    market = translate_market_label_to_korean(
+        get_first_existing_value(row, ["market", "market_focus", "la_submarket"], "기타 / 미확인")
+    )
+    sector = translate_residential_sector_to_korean(
+        get_first_existing_value(row, ["residential_sector"], "General Residential")
+    )
+    score_text = ""
+    if score_fields:
+        score = get_first_existing_value(row, score_fields, "")
+        if score != "":
+            score_text = f", 점수 {score}"
+    extras = [str(row.get(field, "")) for field in (extra_fields or []) if row.get(field, "")]
+    extra_text = f" ({'; '.join(extras)})" if extras else ""
+    lines.append(f"- {title}: {market}, {sector}{score_text}{extra_text}")
+
+
+def get_korean_report_paths():
+    """Return all Korean report latest paths."""
+    return [
+        EXECUTIVE_DASHBOARD_BRIEF_KO_OUTPUT_FILE,
+        WEEKLY_STRATEGY_MEMO_KO_OUTPUT_FILE,
+        EXECUTIVE_PRIORITY_BRIEF_KO_OUTPUT_FILE,
+        OPPORTUNITY_RADAR_REPORT_KO_OUTPUT_FILE,
+        DISTRESS_WATCHLIST_REPORT_KO_OUTPUT_FILE,
+        HIGH_CONFIDENCE_WATCHLIST_REPORT_KO_OUTPUT_FILE,
+        LA_ASSET_WATCH_REPORT_KO_OUTPUT_FILE,
+        LA_ENTITLEMENT_WATCH_REPORT_KO_OUTPUT_FILE,
+        LA_DEVELOPMENT_LIFECYCLE_WATCH_REPORT_KO_OUTPUT_FILE,
+        GP_WATCHLIST_REPORT_KO_OUTPUT_FILE,
+        KOREAN_REPORTING_INDEX_OUTPUT_FILE,
+    ]
+
+
+def write_simple_korean_report(path, title, source_file, run_timestamp, sections, dated_output_dir):
+    """Write one Korean Markdown report from title and section tuples."""
+    lines = build_korean_report_header(title, run_timestamp, source_file)
+    for section_title, section_lines in sections:
+        lines.extend([f"## {section_title}", ""])
+        if section_lines:
+            lines.extend(section_lines)
+        else:
+            lines.append("- 해당 신호 없음")
+        lines.append("")
+    write_markdown_outputs(path, lines, dated_output_dir)
+
+
+def make_korean_row_bullets(rows, title_fields, score_fields=None, extra_fields=None, limit=5):
+    """Build Korean bullet lines for report sections."""
+    lines = []
+    for row in get_top_rows(rows, score_fields or [], limit) if score_fields else rows[:limit]:
+        add_korean_bullet(lines, row, title_fields, score_fields, extra_fields)
+    return lines or ["- 해당 신호 없음"]
+
+
+def generate_korean_reports(
+    run_timestamp,
+    dashboard_summary,
+    dashboard_cards,
+    dashboard_watchlists,
+    high_confidence_rows,
+    signal_quality_rows,
+    executive_priority_rows,
+    scenario_rows,
+    market_entry_rows,
+    opportunity_rows,
+    distress_rows,
+    la_asset_rows,
+    la_persistent_asset_rows,
+    la_entitlement_rows,
+    entitlement_rows,
+    la_lifecycle_rows,
+    la_transition_rows,
+    gp_watchlist_rows,
+    relationship_rows,
+    graph_rows,
+    dated_output_dir,
+):
+    """Generate Korean executive reports without calling any paid API."""
+    if not GENERATE_KOREAN_REPORTS:
+        return {"generated": False, "warnings": ["Korean report generation is disabled."], "report_count": 0}
+
+    warnings = []
+    if USE_GPT_TRANSLATION:
+        warnings.append("USE_GPT_TRANSLATION is True, but this version still uses rule-based Korean reporting only.")
+
+    top_card = dashboard_summary.get("top_card") or {}
+    summary_lines = [
+        create_korean_executive_summary("경영진 대시보드", dashboard_cards),
+        f"- 저장 기사 수: {dashboard_summary.get('summary', {}).get('total_articles', 0)}",
+        f"- 높은 신뢰도 신호: {len(high_confidence_rows)}",
+        f"- 대시보드 카드: {len(dashboard_cards)}",
+        f"- 최우선 카드: {top_card.get('card_title', '없음')}",
+        f"- 추천 경영진 포커스: {dashboard_summary.get('recommended_focus', '핵심 신호 확인')}",
+    ]
+    write_simple_korean_report(
+        EXECUTIVE_DASHBOARD_BRIEF_KO_OUTPUT_FILE,
+        "한국어 경영진 대시보드 브리핑",
+        os.path.basename(EXECUTIVE_DASHBOARD_BRIEF_OUTPUT_FILE),
+        run_timestamp,
+        [
+            ("오늘의 핵심 브리핑", summary_lines),
+            ("우선 확인 Top 5", make_korean_row_bullets(dashboard_cards, ["card_title"], ["card_score"], ["card_type", "recommended_action"], 5)),
+            ("LA / California Watch", make_korean_row_bullets([row for row in dashboard_cards if "LA" in row.get("card_type", "") or "California" in row.get("market", "") or "Los Angeles" in row.get("market", "")], ["card_title"], ["card_score"], ["recommended_action"], 5)),
+            ("GP / Capital Partner Watch", make_korean_row_bullets([row for row in dashboard_cards if row.get("card_type") in ["GP Watch", "Capital Flow"]], ["card_title"], ["card_score"], ["recommended_action"], 5)),
+            ("Opportunity / Distress Watch", make_korean_row_bullets([row for row in dashboard_cards if row.get("card_type") in ["Opportunity", "Distress"]], ["card_title"], ["card_score"], ["recommended_action"], 5)),
+            ("추천 경영진 액션", ["- `executive_priority_brief_ko.md`에서 Tier 1 / Tier 2 안건을 확인합니다.", "- `high_confidence_watchlist_report_ko.md`에서 노이즈를 제외한 핵심 신호를 확인합니다."]),
+        ],
+        dated_output_dir,
+    )
+
+    write_simple_korean_report(
+        WEEKLY_STRATEGY_MEMO_KO_OUTPUT_FILE,
+        "한국어 주간 전략 메모",
+        os.path.basename(WEEKLY_MEMO_OUTPUT_FILE),
+        run_timestamp,
+        [
+            ("주간 전략 요약", [create_korean_executive_summary("주간 전략 메모", executive_priority_rows), f"- 추천 포커스: {dashboard_summary.get('recommended_focus', '핵심 신호 확인')}"]),
+            ("시장 국면", make_korean_row_bullets(executive_priority_rows, ["regime"], ["executive_priority_score"], ["executive_attention_tier"], 5)),
+            ("자본시장 / GP 동향", make_korean_row_bullets(scenario_rows, ["scenario_name"], None, ["scenario_probability_label", "recommended_strategy_response"], 3)),
+            ("지역 / 섹터 관찰", make_korean_row_bullets(market_entry_rows, ["market"], ["market_entry_score"], ["market_entry_window_label", "recommended_entry_posture"], 5)),
+            ("우미 전략 시사점", ["- 금융 스트레스가 지속될 경우 보수적 언더라이팅과 차입 민감도 검토가 필요합니다.", "- 기관자본 재진입 신호는 가격 발견과 GP 파트너 후보 검토에 활용할 수 있습니다.", "- LA / California 신호는 인허가, zoning, site control 관점에서 별도 추적합니다."]),
+        ],
+        dated_output_dir,
+    )
+
+    write_simple_korean_report(
+        EXECUTIVE_PRIORITY_BRIEF_KO_OUTPUT_FILE,
+        "한국어 경영진 우선순위 브리프",
+        os.path.basename(EXECUTIVE_PRIORITY_BRIEF_OUTPUT_FILE),
+        run_timestamp,
+        [
+            ("경영진 우선순위", make_korean_row_bullets(executive_priority_rows, ["regime"], ["executive_priority_score"], ["executive_attention_tier", "recommended_action_timing"], 6)),
+            ("Tier 1 / Tier 2 안건", [f"- {row.get('regime', '')}: {row.get('management_message', '')}" for row in executive_priority_rows if "Tier 1" in row.get("executive_attention_tier", "") or "Tier 2" in row.get("executive_attention_tier", "")]),
+            ("추천 회의 안건", [f"- {row.get('recommended_action', '핵심 신호 검토')}" for row in dashboard_cards[:5]]),
+        ],
+        dated_output_dir,
+    )
+
+    la_opportunity_rows = [row for row in opportunity_rows if "California" in row.get("market", "") or "Los Angeles" in row.get("market", "")]
+    partnership_rows = [row for row in opportunity_rows if "JV" in row.get("opportunity_type", "") or "Partnership" in row.get("opportunity_type", "")]
+    write_simple_korean_report(
+        OPPORTUNITY_RADAR_REPORT_KO_OUTPUT_FILE,
+        "한국어 기회 레이더 리포트",
+        os.path.basename(OPPORTUNITY_RADAR_REPORT_OUTPUT_FILE),
+        run_timestamp,
+        [
+            ("주요 기회 신호", make_korean_row_bullets(opportunity_rows, ["opportunity_type", "source_article_title"], ["opportunity_score"], ["opportunity_priority_label", "recommended_next_action"], 10)),
+            ("LA / California 기회", make_korean_row_bullets(la_opportunity_rows, ["opportunity_type", "source_article_title"], ["opportunity_score"], ["potential_woomi_angle"], 5)),
+            ("JV / Partnership Gap", make_korean_row_bullets(partnership_rows, ["gp_or_developer", "opportunity_type"], ["opportunity_score"], ["potential_woomi_angle"], 5)),
+            ("추천 후속 조치", ["- 상위 기회는 관련 GP, 자본 파트너, 프로젝트 단계, 시장 진입 타이밍을 함께 확인합니다."]),
+        ],
+        dated_output_dir,
+    )
+
+    write_simple_korean_report(
+        DISTRESS_WATCHLIST_REPORT_KO_OUTPUT_FILE,
+        "한국어 스트레스 / 부실 Watchlist",
+        os.path.basename(DISTRESS_WATCHLIST_REPORT_OUTPUT_FILE),
+        run_timestamp,
+        [
+            ("리파이낸싱 압박", make_korean_row_bullets([row for row in distress_rows if "refinancing" in (row.get("distress_type", "") + row.get("evidence_signals", "")).lower()], ["distress_type", "source_article_title"], ["distress_score"], ["recommended_next_action"], 5)),
+            ("공사금융 갭", make_korean_row_bullets([row for row in distress_rows if "construction" in (row.get("distress_type", "") + row.get("evidence_signals", "")).lower()], ["distress_type", "source_article_title"], ["distress_score"], ["recommended_next_action"], 5)),
+            ("부실 / 지연 프로젝트", make_korean_row_bullets(distress_rows, ["distress_type", "related_project_or_deal"], ["distress_score"], ["distress_priority_label"], 10)),
+            ("우미 관점 기회 가능성", ["- 부실 신호는 단순 위기보다 가격 조정, rescue capital, JV gap 가능성 관점에서 확인합니다."]),
+        ],
+        dated_output_dir,
+    )
+
+    institutional_rows = [row for row in signal_quality_rows if row.get("signal_quality_label") == "Institutional Grade"]
+    write_simple_korean_report(
+        HIGH_CONFIDENCE_WATCHLIST_REPORT_KO_OUTPUT_FILE,
+        "한국어 높은 신뢰도 Watchlist",
+        os.path.basename(HIGH_CONFIDENCE_WATCHLIST_REPORT_OUTPUT_FILE),
+        run_timestamp,
+        [
+            ("높은 신뢰도 신호", make_korean_row_bullets(high_confidence_rows, ["canonical_project_name"], ["overall_signal_quality_score"], ["strategic_theme", "recommended_executive_action"], 10)),
+            ("기관투자자급 신호", make_korean_row_bullets(institutional_rows, ["canonical_project_name"], ["overall_signal_quality_score"], ["institutional_confidence_label"], 5)),
+            ("노이즈 제외 후 봐야 할 항목", ["- 반복 출현, 구체적 프로젝트명, sponsor/lender 식별, lifecycle 일관성이 있는 항목을 우선 검토합니다."]),
+        ],
+        dated_output_dir,
+    )
+
+    write_simple_korean_report(
+        LA_ASSET_WATCH_REPORT_KO_OUTPUT_FILE,
+        "한국어 LA 자산 / 프로젝트 Watch",
+        os.path.basename(LA_ASSET_WATCH_REPORT_OUTPUT_FILE),
+        run_timestamp,
+        [
+            ("LA / Southern California 자산 Watch", make_korean_row_bullets(la_asset_rows, ["asset_or_project_name", "source_article_title"], ["la_asset_opportunity_score"], ["execution_stage", "recommended_local_follow_up"], 10)),
+            ("프로젝트 / 부지 단서", [f"- {row.get('asset_or_project_name', '미확인')}: {row.get('address_or_location_clue', '주소 단서 없음')}, {row.get('la_submarket', 'Submarket 미확인')}" for row in la_asset_rows[:5]]),
+            ("인허가 / 개발 단계", make_korean_row_bullets(la_persistent_asset_rows, ["canonical_project_name"], ["opportunity_score"], ["latest_lifecycle_stage", "recommended_local_follow_up"], 5)),
+            ("추천 현지 확인 사항", ["- 주소 단서, 스폰서, site control, 인허가 단계, financing signal을 함께 확인합니다."]),
+        ],
+        dated_output_dir,
+    )
+
+    write_simple_korean_report(
+        LA_ENTITLEMENT_WATCH_REPORT_KO_OUTPUT_FILE,
+        "한국어 LA / California 인허가 Watch",
+        os.path.basename(LA_ENTITLEMENT_WATCH_REPORT_OUTPUT_FILE),
+        run_timestamp,
+        [
+            ("LA / California 인허가 Watch", make_korean_row_bullets(la_entitlement_rows, ["project_or_deal_name", "entitlement_signal_type"], ["local_relevance_score"], ["entitlement_stage", "recommended_local_follow_up"], 10)),
+            ("Density Bonus / TOC", make_korean_row_bullets([row for row in entitlement_rows if "Density" in row.get("entitlement_signal_type", "") or "TOC" in row.get("entitlement_signal_type", "")], ["project_or_deal_name", "entitlement_signal_type"], ["entitlement_opportunity_score"], ["regulatory_theme"], 5)),
+            ("CEQA / Environmental Review", make_korean_row_bullets([row for row in entitlement_rows if "CEQA" in row.get("entitlement_signal_type", "") or "Environmental" in row.get("entitlement_signal_type", "")], ["project_or_deal_name", "entitlement_signal_type"], ["entitlement_risk_score"], ["regulatory_theme"], 5)),
+            ("Planning / Permit Signals", make_korean_row_bullets([row for row in entitlement_rows if "Planning" in row.get("entitlement_signal_type", "") or "Permit" in row.get("entitlement_signal_type", "")], ["project_or_deal_name", "entitlement_signal_type"], ["entitlement_opportunity_score"], ["entitlement_stage"], 5)),
+        ],
+        dated_output_dir,
+    )
+
+    write_simple_korean_report(
+        LA_DEVELOPMENT_LIFECYCLE_WATCH_REPORT_KO_OUTPUT_FILE,
+        "한국어 LA 개발 단계 Watch",
+        os.path.basename(LA_DEVELOPMENT_LIFECYCLE_WATCH_REPORT_OUTPUT_FILE),
+        run_timestamp,
+        [
+            ("개발 단계별 프로젝트 현황", make_korean_row_bullets(la_lifecycle_rows, ["project_or_asset_name"], ["lifecycle_opportunity_score"], ["current_lifecycle_stage", "recommended_local_follow_up"], 10)),
+            ("진행 / 정체 / 재등장 신호", make_korean_row_bullets(la_transition_rows, ["project_or_asset_name"], ["progression_score", "stall_risk_score"], ["transition_type", "execution_momentum_label"], 10)),
+            ("인허가 / 착공 / 리스업 타이밍", ["- Entitled / Approved, Construction Started, Delivery / Opening으로 이동하는 프로젝트는 별도 확인 대상입니다.", "- Possible Stall 또는 Same Stage Persistence는 지연 / 재자본화 기회 가능성을 점검합니다."]),
+        ],
+        dated_output_dir,
+    )
+
+    partnership_graph_rows = [row for row in graph_rows if "Partnership" in row.get("relationship_type", "") or "JV" in row.get("relationship_type", "")]
+    write_simple_korean_report(
+        GP_WATCHLIST_REPORT_KO_OUTPUT_FILE,
+        "한국어 GP Watchlist",
+        os.path.basename(GP_WATCHLIST_REPORT_OUTPUT_FILE),
+        run_timestamp,
+        [
+            ("주요 GP Watchlist", make_korean_row_bullets(gp_watchlist_rows, ["canonical_gp_name"], ["emerging_gp_score"], ["gp_tier", "potential_woomi_use_case"], 10)),
+            ("기관자본 연결성", make_korean_row_bullets(relationship_rows, ["firm_name"], ["institutional_relationship_score"], ["capital_flow_signal", "relationship_signal"], 5)),
+            ("JV / Partnership 가능성", [f"- {row.get('source_entity', '')} → {row.get('target_entity', '')}: {row.get('relationship_type', '')}, 점수 {row.get('relationship_strength_score', '')}" for row in partnership_graph_rows[:5]]),
+            ("우미 파트너십 관점", ["- GP 신호는 자본 파트너, 시장, 프로젝트 단계, 반복 출현 여부와 함께 검토합니다.", "- LA / California 또는 기관자본 연결성이 있는 GP는 우선 Watch 대상입니다."]),
+        ],
+        dated_output_dir,
+    )
+
+    generate_korean_reporting_index(run_timestamp, dated_output_dir)
+    return {"generated": len(warnings) == 0, "warnings": warnings, "report_count": len(get_korean_report_paths())}
+
+
+def generate_korean_reporting_index(run_timestamp, dated_output_dir):
+    """Write the Korean report reading-order index."""
+    lines = [
+        "# 한국어 리포트 인덱스",
+        "",
+        f"생성 시각: {run_timestamp.strftime(TIMESTAMP_FORMAT)}",
+        "",
+        "## 추천 읽기 순서",
+        "",
+        "1. `executive_dashboard_brief_ko.md`",
+        "2. `executive_priority_brief_ko.md`",
+        "3. `high_confidence_watchlist_report_ko.md`",
+        "4. `opportunity_radar_report_ko.md`",
+        "5. `la_asset_watch_report_ko.md`",
+        "6. `gp_watchlist_report_ko.md`",
+        "7. `weekly_strategy_memo_ko.md`",
+        "",
+        "## 사용 목적별 추천 리포트",
+        "",
+        "- 경영진 10분 브리핑: `executive_dashboard_brief_ko.md`",
+        "- 주간 전략회의: `weekly_strategy_memo_ko.md`",
+        "- LA / California 부지 모니터링: `la_asset_watch_report_ko.md`, `la_entitlement_watch_report_ko.md`",
+        "- GP / 파트너 후보 검토: `gp_watchlist_report_ko.md`",
+        "- 리파이낸싱 / 부실 기회 검토: `distress_watchlist_report_ko.md`, `opportunity_radar_report_ko.md`",
+        "- 투자위원회 사전 검토: `executive_priority_brief_ko.md`, `high_confidence_watchlist_report_ko.md`",
+        "",
+        "## 참고",
+        "",
+        "- 현재 한국어 리포트는 규칙 기반 요약이며, OpenAI/GPT API를 호출하지 않습니다.",
+        "- 회사명, 프로젝트명, 시장명은 원문 식별을 위해 대부분 English 그대로 유지합니다.",
+    ]
+    write_markdown_outputs(KOREAN_REPORTING_INDEX_OUTPUT_FILE, lines, dated_output_dir)
+
+
+def append_korean_report_references(dated_output_dir):
+    """Add Korean report references to key English reports."""
+    if not GENERATE_KOREAN_REPORTS:
+        return
+    lines = [
+        "## Korean Report Reference",
+        "",
+        f"- Korean executive reports are available in `{os.path.basename(KOREAN_REPORTING_INDEX_OUTPUT_FILE)}`.",
+        f"- Start with `{os.path.basename(EXECUTIVE_DASHBOARD_BRIEF_KO_OUTPUT_FILE)}` for a Korean executive briefing.",
+        "",
+    ]
+    for path in [EXECUTIVE_DASHBOARD_BRIEF_OUTPUT_FILE, RUN_SUMMARY_OUTPUT_FILE]:
+        if os.path.exists(path):
+            append_markdown_section(path, lines)
+        if SAVE_DATED_OUTPUT:
+            archive_path = get_archive_path(path, dated_output_dir)
+            if os.path.exists(archive_path):
+                append_markdown_section(archive_path, lines)
+
+
+def generate_source_health_outputs(dated_output_dir, gp_source_coverage_rows=None, source_activation_rows=None):
+    """Write source_health.csv and source_health_report.md."""
+    fieldnames = [
+        "source_name",
+        "source_category",
+        "platform_type",
+        "source_url",
+        "fetch_status",
+        "entries_found",
+        "articles_saved",
+        "error_message",
+        "source_quality_label",
+    ]
+    write_csv_outputs(
+        SOURCE_HEALTH_OUTPUT_FILE,
+        fieldnames,
+        SOURCE_HEALTH_ROWS,
+        dated_output_dir,
+    )
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    total_sources = len(SOURCE_HEALTH_ROWS)
+    working_sources = [
+        row for row in SOURCE_HEALTH_ROWS
+        if row["fetch_status"] == "OK"
+    ]
+    failing_sources = [
+        row for row in SOURCE_HEALTH_ROWS
+        if row["source_quality_label"] == "Failing"
+    ]
+    placeholder_sources = [
+        row for row in SOURCE_HEALTH_ROWS
+        if row["source_quality_label"] == "Placeholder / Needs Review"
+    ]
+    high_value_sources = [
+        row for row in SOURCE_HEALTH_ROWS
+        if row["source_quality_label"] == "High Value"
+    ]
+    useful_sources = [
+        row for row in SOURCE_HEALTH_ROWS
+        if row["source_quality_label"] == "Useful"
+    ]
+    watch_sources = [
+        row for row in SOURCE_HEALTH_ROWS
+        if row["source_quality_label"] == "Watch"
+    ]
+
+    lines = [
+        "# Source Health Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total sources attempted: {total_sources}",
+        f"- Working sources: {len(working_sources)}",
+        f"- Failing sources: {len(failing_sources)}",
+        f"- Placeholder sources: {len(placeholder_sources)}",
+        "",
+        "## High-Value Sources",
+        "",
+    ]
+
+    if not high_value_sources:
+        lines.append("- No source saved 3 or more articles in this run.")
+    else:
+        for row in high_value_sources:
+            lines.append(
+                f"- {row['source_name']} ({row['source_category']}): "
+                f"{row['articles_saved']} saved article(s)."
+            )
+
+    lines.extend([
+        "",
+        "## Useful Sources",
+        "",
+    ])
+
+    if not useful_sources:
+        lines.append("- No additional useful sources in this run.")
+    else:
+        for row in useful_sources:
+            lines.append(
+                f"- {row['source_name']} ({row['source_category']}): "
+                f"{row['articles_saved']} saved article(s)."
+            )
+
+    lines.extend([
+        "",
+        "## Failing Sources",
+        "",
+    ])
+
+    if not failing_sources:
+        lines.append("- No failing confirmed feed URLs in this run.")
+    else:
+        for row in failing_sources:
+            lines.append(
+                f"- {row['source_name']}: {row['error_message'] or 'No entries returned'}"
+            )
+
+    lines.extend([
+        "",
+        "## Sources Needing Manual Review",
+        "",
+    ])
+
+    if not placeholder_sources:
+        lines.append("- No placeholder sources need manual RSS review.")
+    else:
+        for row in placeholder_sources:
+            lines.append(
+                f"- {row['source_name']} ({row['source_category']}): confirm whether a public RSS feed exists."
+            )
+
+    lines.extend([
+        "",
+        "## Watch List",
+        "",
+    ])
+
+    if not watch_sources:
+        lines.append("- No watch-list sources in this run.")
+    else:
+        for row in watch_sources:
+            lines.append(
+                f"- {row['source_name']}: {row['entries_found']} entries found, but no articles passed filtering."
+            )
+
+    lines.extend([
+        "",
+        "## GP Source Expansion Summary",
+        "",
+        f"Developer / GP source coverage is available in `{os.path.basename(GP_SOURCE_COVERAGE_REPORT_OUTPUT_FILE)}`.",
+    ])
+    if gp_source_coverage_rows:
+        expansion_rows = [
+            row for row in gp_source_coverage_rows
+            if row["source_category"] == GP_SOURCE_EXPANSION_CATEGORY
+        ]
+        working_expansion = [
+            row for row in expansion_rows
+            if row["feed_status"] == "OK"
+        ]
+        manual_review = [
+            row for row in expansion_rows
+            if row["needs_manual_review"] == "Yes"
+        ]
+        lines.append(f"- GP source expansion rows tracked: {len(expansion_rows)}")
+        lines.append(f"- Working GP source expansion feeds: {len(working_expansion)}")
+        lines.append(f"- GP source expansion placeholders/manual review: {len(manual_review)}")
+    else:
+        lines.append("- GP source coverage rows were not available for this run.")
+
+    lines.extend([
+        "",
+        "## Source Activation Summary",
+        "",
+        f"Validated source activation scoring is available in `{os.path.basename(SOURCE_ACTIVATION_REPORT_OUTPUT_FILE)}`.",
+    ])
+    if source_activation_rows:
+        working_activation = [
+            row for row in source_activation_rows
+            if row["source_status"] == "Working"
+        ]
+        failed_critical = [
+            row for row in source_activation_rows
+            if row["source_priority_label"] == "Failed Critical Source"
+        ]
+        lines.append(f"- Working activated sources: {len(working_activation)}")
+        lines.append(f"- Failed critical sources: {len(failed_critical)}")
+        if source_activation_rows:
+            top_source = source_activation_rows[0]
+            lines.append(
+                f"- Highest quality source this run: {top_source['source_name']} "
+                f"({top_source['source_quality_score']})."
+            )
+    else:
+        lines.append("- Source activation rows were not available for this run.")
+
+    lines.extend([
+        "",
+        "## Recommended Source Improvement Actions",
+        "",
+        "- Confirm placeholder feed URLs for developer, GP, brokerage, and public-agency sources.",
+        "- Replace failing URLs with confirmed public RSS or newsroom feeds when available.",
+        "- Keep source-category bonuses modest so strong sources improve prioritization without overriding article relevance.",
+        "- Review High Value and Useful sources first when improving GP, capital-flow, and relationship intelligence.",
+        "",
+    ])
+
+    write_markdown_outputs(
+        SOURCE_HEALTH_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+    return {
+        "total_sources": total_sources,
+        "working_sources": len(working_sources),
+        "failing_sources": len(failing_sources),
+        "placeholder_sources": len(placeholder_sources),
+        "high_value_sources": high_value_sources,
+        "manual_review_sources": placeholder_sources,
+    }
+
+
+def count_site_parcel_candidates(articles):
+    """Count saved articles with land, site-control, or parcel language."""
+    candidate_count = 0
+    for article in articles:
+        combined_text = " ".join([
+            str(article.get("title", "")),
+            str(article.get("article_text_sample", "")),
+            str(article.get("matched_keywords", "")),
+            str(article.get("reason_for_inclusion", "")),
+        ]).lower()
+        if any(keyword in combined_text for keyword in SITE_PARCEL_ACTIVITY_KEYWORDS):
+            candidate_count += 1
+    return candidate_count
+
+
+def get_site_parcel_coverage_status(source_row, candidate_count):
+    """Translate collector state into compact Site / Parcel source diagnostics."""
+    fetch_status = source_row.get("fetch_status", "")
+    source_url = source_row.get("source_url", "")
+    error_message = str(source_row.get("error_message", ""))
+
+    if not source_url or fetch_status == "Placeholder":
+        return "skipped", "No public feed URL configured"
+
+    if fetch_status == "Failed":
+        lowered_error = error_message.lower()
+        if any(token in lowered_error for token in ["403", "401", "blocked", "forbidden"]):
+            return "blocked", error_message or "Feed access blocked"
+        return "error", error_message or "Feed collection failed"
+
+    if candidate_count <= 0:
+        return "no relevant articles", "No saved Site / Parcel candidates detected"
+
+    return "success", ""
+
+
+def build_source_coverage_rows(articles):
+    """Build diagnostics for the added Site / Parcel source universe."""
+    health_by_name = {
+        row["source_name"]: row
+        for row in SOURCE_HEALTH_ROWS
+    }
+    articles_by_source = {}
+    for article in articles:
+        articles_by_source.setdefault(article.get("source", ""), []).append(article)
+
+    rows = []
+    for source in SITE_PARCEL_SOURCE_EXPANSION_SOURCES:
+        source_name = source["source"]
+        health_row = health_by_name.get(source_name, {
+            "source_name": source_name,
+            "source_url": source.get("url", ""),
+            "fetch_status": "Placeholder" if not source.get("url") else "Failed",
+            "entries_found": 0,
+            "error_message": "Source was not attempted in this run",
+        })
+        source_articles = articles_by_source.get(source_name, [])
+        candidate_count = count_site_parcel_candidates(source_articles)
+        status, reason = get_site_parcel_coverage_status(health_row, candidate_count)
+        rows.append({
+            "source_name": source_name,
+            "attempted_url_or_feed": source.get("url", ""),
+            "status": status,
+            "article_count_fetched": health_row.get("entries_found", 0),
+            "site_parcel_candidate_count": candidate_count,
+            "reason_if_unavailable": reason,
+        })
+    return rows
+
+
+def generate_source_coverage_outputs(articles, dated_output_dir):
+    """Write Site / Parcel source-coverage diagnostics as CSV and Markdown."""
+    rows = build_source_coverage_rows(articles)
+    fieldnames = [
+        "source_name",
+        "attempted_url_or_feed",
+        "status",
+        "article_count_fetched",
+        "site_parcel_candidate_count",
+        "reason_if_unavailable",
+    ]
+    write_csv_outputs(
+        SOURCE_COVERAGE_REPORT_OUTPUT_FILE,
+        fieldnames,
+        rows,
+        dated_output_dir,
+    )
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    successful_rows = [
+        row for row in rows
+        if row["status"] in {"success", "no relevant articles"}
+    ]
+    inaccessible_rows = [
+        row for row in rows
+        if row["status"] in {"blocked", "error", "skipped"}
+    ]
+    zero_candidate_rows = [
+        row for row in rows
+        if int(row["site_parcel_candidate_count"]) == 0
+    ]
+    top_candidate_rows = sorted(
+        rows,
+        key=lambda row: int(row["site_parcel_candidate_count"]),
+        reverse=True,
+    )[:5]
+
+    lines = [
+        "# Site / Parcel Source Coverage Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        f"- Total added sources attempted: {len(rows)}",
+        f"- Successful sources: {len(successful_rows)}",
+        f"- Blocked / inaccessible / skipped sources: {len(inaccessible_rows)}",
+        f"- Sources with zero Site / Parcel candidates: {len(zero_candidate_rows)}",
+        "",
+        "## Top Site / Parcel Candidate Sources",
+        "",
+    ]
+    if not any(int(row["site_parcel_candidate_count"]) > 0 for row in top_candidate_rows):
+        lines.append("- No added source produced a saved Site / Parcel candidate in this run.")
+    else:
+        for row in top_candidate_rows:
+            if int(row["site_parcel_candidate_count"]) <= 0:
+                continue
+            lines.append(
+                f"- {row['source_name']}: "
+                f"{row['site_parcel_candidate_count']} candidate(s) from "
+                f"{row['article_count_fetched']} fetched article(s)."
+            )
+
+    lines.extend([
+        "",
+        "## Why Coverage May Still Be Thin",
+        "",
+        "- Many candidate sources still require a confirmed public feed URL before they can be collected automatically.",
+        "- A working source can fetch many entries but still produce zero saved Site / Parcel candidates if current coverage is financing-led or outside the relevance threshold.",
+        "- This report measures article visibility from public feeds, not the full private land transaction universe.",
+        "",
+        "## Source Detail",
+        "",
+    ])
+    for row in rows:
+        lines.append(
+            f"- {row['source_name']}: {row['status']} | "
+            f"fetched {row['article_count_fetched']} | "
+            f"Site / Parcel candidates {row['site_parcel_candidate_count']} | "
+            f"{row['reason_if_unavailable'] or 'Available'}"
+        )
+
+    write_markdown_outputs(
+        SOURCE_COVERAGE_REPORT_MD_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+    return rows
+
+
+MARKET_INTELLIGENCE_CLUSTER_RULES = [
+    {
+        "signal_cluster": "Refinancing pressure unresolved",
+        "keywords": ["refinancing", "bridge loan", "recapitalization", "recap", "loan maturity", "debt maturity"],
+        "regime_label": "Capital Markets",
+    },
+    {
+        "signal_cluster": "Construction financing still selective",
+        "keywords": ["construction financing", "construction loan", "bridge financing"],
+        "regime_label": "Capital Markets",
+    },
+    {
+        "signal_cluster": "LA entitlement precedent accumulation",
+        "keywords": ["entitlement", "density bonus", "affordable overlay", "planning commission", "permit", "zoning"],
+        "regime_label": "Development",
+    },
+    {
+        "signal_cluster": "Sun Belt lease-up pressure watch",
+        "keywords": ["lease-up", "concessions", "absorption", "vacancy", "new supply"],
+        "regime_label": "Supply Conditions",
+    },
+    {
+        "signal_cluster": "Institutional recap over expansion",
+        "keywords": ["recapitalization", "recap", "refinancing", "capital raise"],
+        "regime_label": "Institutional Behavior",
+    },
+    {
+        "signal_cluster": "JV / partnership activity observed",
+        "keywords": ["joint venture", "jv", "partnership"],
+        "regime_label": "Institutional Behavior",
+    },
+]
+
+LOW_INFORMATION_PHRASES = [
+    "announces", "welcomes", "celebrates", "launches", "opens new office",
+    "appoints", "promotes", "named", "award", "recognition",
+]
+
+MARKET_SIGNAL_TERMS = [
+    "transaction", "acquisition", "joint venture", "jv", "financing", "refinancing",
+    "recapitalization", "recap", "entitlement", "permit", "zoning", "construction",
+    "lease-up", "delivery", "opening", "absorption", "concessions",
+]
+
+
+def normalize_market_intelligence_title(value):
+    """Normalize article titles for lightweight duplicate suppression."""
+    text = re.sub(r"[^a-z0-9\s]", " ", str(value or "").lower())
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def title_similarity_score(left, right):
+    """Return a simple token-overlap similarity score."""
+    left_tokens = set(normalize_market_intelligence_title(left).split())
+    right_tokens = set(normalize_market_intelligence_title(right).split())
+    if not left_tokens or not right_tokens:
+        return 0
+    return len(left_tokens & right_tokens) / len(left_tokens | right_tokens)
+
+
+def is_low_information_market_article(article):
+    """Flag article blurbs that look like low-information PR mentions."""
+    blob = " ".join([
+        str(article.get("title", "")),
+        str(article.get("article_text_sample", "")),
+        str(article.get("matched_keywords", "")),
+    ]).lower()
+    has_pr_language = any(term in blob for term in LOW_INFORMATION_PHRASES)
+    has_real_signal = any(term in blob for term in MARKET_SIGNAL_TERMS)
+    return has_pr_language and not has_real_signal
+
+
+def dedupe_market_cluster_articles(articles):
+    """Keep one representative article for near-duplicate cluster evidence."""
+    kept = []
+    duplicate_count = 0
+    seen_urls = set()
+    for article in articles:
+        url = str(article.get("url", "")).strip().lower()
+        title = article.get("title", "")
+        if url and url in seen_urls:
+            duplicate_count += 1
+            continue
+        if any(title_similarity_score(title, kept_article.get("title", "")) >= 0.85 for kept_article in kept):
+            duplicate_count += 1
+            continue
+        kept.append(article)
+        if url:
+            seen_urls.add(url)
+    return kept, duplicate_count
+
+
+def generate_market_intelligence_diagnostics(articles, dated_output_dir):
+    """Write article-cluster diagnostics for the Market Intelligence page."""
+    prior_rows = read_csv_file(MARKET_INTELLIGENCE_DIAGNOSTICS_OUTPUT_FILE)
+    prior_diagnostics_files = []
+    runs_dir = os.path.join(OUTPUT_DIR, "runs")
+    if os.path.isdir(runs_dir):
+        for run_name in sorted(os.listdir(runs_dir), reverse=True):
+            candidate = os.path.join(runs_dir, run_name, "market_intelligence_diagnostics.csv")
+            if os.path.exists(candidate) and candidate != os.path.join(dated_output_dir, "market_intelligence_diagnostics.csv"):
+                prior_diagnostics_files.append(candidate)
+    if not prior_rows and prior_diagnostics_files:
+        prior_rows = read_csv_file(prior_diagnostics_files[0])
+    prior_counts = {
+        row.get("generated_signal_cluster", ""): safe_int(row.get("supporting_article_count", 0))
+        for row in prior_rows
+    }
+    rows = []
+    for rule in MARKET_INTELLIGENCE_CLUSTER_RULES:
+        matched_articles = []
+        matched_keywords = Counter()
+        lifecycle_tags = Counter()
+        financing_patterns = Counter()
+        markets = Counter()
+        sources = Counter()
+        lenders = Counter()
+        lender_terms = [
+            "fannie mae", "freddie mac", "berkadia", "greystone", "walker & dunlop",
+            "jll", "cbre", "bridge loan", "agency lending",
+        ]
+        for article in articles:
+            blob = " ".join([
+                str(article.get("title", "")),
+                str(article.get("article_text_sample", "")),
+                str(article.get("matched_keywords", "")),
+                str(article.get("topics", "")),
+            ]).lower()
+            hits = [keyword for keyword in rule["keywords"] if keyword in blob]
+            if not hits:
+                continue
+            matched_articles.append(article)
+            matched_keywords.update(hits)
+            lifecycle_tags.update(
+                topic.strip()
+                for topic in str(article.get("topics", "")).split(";")
+                if topic.strip()
+            )
+            market = (
+                article.get("primary_market")
+                or article.get("market_focus")
+                or article.get("market")
+                or ""
+            )
+            if market and market not in {"Unknown", "Other / Unknown"}:
+                markets.update([market])
+            source = article.get("source") or ""
+            if source:
+                sources.update([source])
+            lenders.update(term for term in lender_terms if term in blob)
+            financing_patterns.update(
+                keyword for keyword in hits
+                if keyword in {"refinancing", "bridge loan", "recapitalization", "recap", "construction financing", "construction loan"}
+            )
+        low_information_articles = [article for article in matched_articles if is_low_information_market_article(article)]
+        informative_articles = [article for article in matched_articles if article not in low_information_articles]
+        deduped_articles, duplicate_count = dedupe_market_cluster_articles(informative_articles)
+        article_count = len(deduped_articles)
+        raw_article_count = len(matched_articles)
+        sources = Counter(article.get("source") or "" for article in deduped_articles if article.get("source"))
+        source_diversity_score = len(sources)
+        dominant_source, dominant_source_count = sources.most_common(1)[0] if sources else ("", 0)
+        dominant_source_share = round(dominant_source_count / article_count, 3) if article_count else 0
+        source_concentration_warning = dominant_source_share > 0.5
+        same_source_repetition_score = max(0, raw_article_count - source_diversity_score)
+        prior_count = prior_counts.get(rule["signal_cluster"], 0)
+        delta = article_count - prior_count
+        lender_diversity_score = len(lenders)
+        cluster_status = (
+            "newly emerging" if prior_count == 0 and article_count > 0
+            else "expanding" if delta > 0
+            else "fading" if delta < 0
+            else "stable" if article_count > 0
+            else "inactive"
+        )
+        interpretation_driver = "; ".join(
+            part for part in [
+                markets.most_common(1)[0][0] if markets else "",
+                financing_patterns.most_common(1)[0][0] if financing_patterns else "",
+                lifecycle_tags.most_common(1)[0][0] if lifecycle_tags else "",
+                f"{source_diversity_score} source(s)",
+                f"{lender_diversity_score} lender signal(s)" if lender_diversity_score else "",
+            ]
+            if part
+        )
+        regime_shift_signal = (
+            "broader confirmation" if delta > 0 and source_diversity_score >= 2
+            else "narrow but recurring" if article_count > 0 and source_diversity_score <= 1
+            else "weakening visibility" if delta < 0
+            else "steady visibility"
+        )
+        if article_count >= 5 and source_diversity_score >= 3 and not source_concentration_warning:
+            signal_confidence_label = "Broadly Confirmed"
+            confidence_explanation = "multi-source confirmation without strong source concentration"
+        elif dominant_source_share > 0.7:
+            signal_confidence_label = "Source-Concentrated"
+            confidence_explanation = f"{dominant_source or 'one source'} contributes more than 70% of retained evidence"
+        elif article_count >= 3 and source_diversity_score >= 2:
+            signal_confidence_label = "Moderate Signal"
+            confidence_explanation = "repeated signal with some cross-source confirmation"
+        elif article_count in {1, 2}:
+            signal_confidence_label = "Early Signal"
+            confidence_explanation = "meaningful but still thin evidence base"
+        else:
+            signal_confidence_label = "Low Confidence"
+            confidence_explanation = "evidence is mostly low-information, duplicate, or absent"
+        rows.append({
+            "generated_signal_cluster": rule["signal_cluster"],
+            "supporting_article_count": article_count,
+            "prior_run_article_count": prior_count,
+            "prior_run_delta": delta,
+            "cluster_status_vs_prior_run": (
+                "New" if prior_count == 0 and article_count > 0
+                else "Increased" if delta > 0
+                else "Decreased" if delta < 0
+                else "Stable"
+            ),
+            "dominant_market": markets.most_common(1)[0][0] if markets else "",
+            "dominant_keywords": "; ".join(keyword for keyword, _ in matched_keywords.most_common(5)),
+            "dominant_lifecycle_tags": "; ".join(tag for tag, _ in lifecycle_tags.most_common(5)),
+            "dominant_financing_patterns": "; ".join(pattern for pattern, _ in financing_patterns.most_common(5)),
+            "dominant_financing_pattern": financing_patterns.most_common(1)[0][0] if financing_patterns else "",
+            "source_diversity_score": source_diversity_score,
+            "lender_diversity_score": lender_diversity_score,
+            "source_concentration_warning": "true" if source_concentration_warning else "false",
+            "dominant_source": dominant_source,
+            "dominant_source_share": dominant_source_share,
+            "same_source_repetition_score": same_source_repetition_score,
+            "duplicate_count": duplicate_count,
+            "low_information_article_count": len(low_information_articles),
+            "signal_confidence_label": signal_confidence_label,
+            "confidence_explanation": confidence_explanation,
+            "cluster_status": cluster_status,
+            "interpretation_driver": interpretation_driver,
+            "regime_shift_signal": regime_shift_signal,
+            "generated_regime_labels": rule["regime_label"],
+        })
+    rows_by_cluster = {row["generated_signal_cluster"]: row for row in rows}
+    synthesis_bullets = []
+    synthesis_drivers = []
+    caution_flags = []
+    woomi_watchpoint_driver = []
+    financing_row = rows_by_cluster.get("Refinancing pressure unresolved", {})
+    construction_row = rows_by_cluster.get("Construction financing still selective", {})
+    entitlement_row = rows_by_cluster.get("LA entitlement precedent accumulation", {})
+    supply_row = rows_by_cluster.get("Sun Belt lease-up pressure watch", {})
+    jv_row = rows_by_cluster.get("JV / partnership activity observed", {})
+    if (
+        safe_int(financing_row.get("supporting_article_count"))
+        or safe_int(construction_row.get("supporting_article_count"))
+    ):
+        synthesis_bullets.append("자본시장은 완전히 닫힌 상태라기보다, 선별적 refinancing과 construction financing 중심으로 작동하고 있습니다.")
+        synthesis_drivers.append("refinancing + construction financing")
+        woomi_watchpoint_driver.append("debt stress / recap")
+    if safe_int(entitlement_row.get("supporting_article_count")):
+        if entitlement_row.get("signal_confidence_label") == "Source-Concentrated":
+            synthesis_bullets.append("LA 인허가 관련 보도는 계속 관찰되지만, 특정 source 집중도가 높아 시장 전반의 가속으로 일반화하기는 어렵습니다.")
+            caution_flags.append("LA entitlement source concentration")
+        else:
+            synthesis_bullets.append("LA 인허가 precedent는 꾸준히 누적되고 있으며, affordable incentive 기반 개발 흐름이 계속 기사화되고 있습니다.")
+        synthesis_drivers.append("LA entitlement")
+        woomi_watchpoint_driver.append("LA entitlement verification")
+    if safe_int(supply_row.get("supporting_article_count")):
+        synthesis_bullets.append("Sun Belt는 신규 공급 소화와 lease-up 속도 확인이 필요한 시장으로 계속 관찰됩니다.")
+        synthesis_drivers.append("Sun Belt lease-up / absorption")
+        woomi_watchpoint_driver.append("absorption durability")
+    if safe_int(jv_row.get("supporting_article_count")):
+        if jv_row.get("signal_confidence_label") in {"Early Signal", "Source-Concentrated"}:
+            synthesis_bullets.append("JV / partnership 신호는 아직 초기 단계로 보이며, 반복 확인 전까지는 관계 구축 후보 수준으로 관리하는 편이 적절합니다.")
+            caution_flags.append("JV early / concentrated")
+        else:
+            synthesis_bullets.append("JV / partnership activity는 선택적 자본 재진입의 초기 징후로 함께 관찰됩니다.")
+        synthesis_drivers.append("JV / partnership")
+        woomi_watchpoint_driver.append("partner mapping")
+    synthesis_confidence = (
+        "Cautious"
+        if caution_flags
+        else "Moderate"
+        if synthesis_bullets
+        else "Low"
+    )
+    regime_synthesis_text = " | ".join(synthesis_bullets[:3])
+    for row in rows:
+        row["regime_synthesis_text"] = regime_synthesis_text
+        row["synthesis_drivers"] = "; ".join(synthesis_drivers)
+        row["synthesis_confidence"] = synthesis_confidence
+        row["caution_flags"] = "; ".join(caution_flags)
+        row["woomi_watchpoint_driver"] = "; ".join(woomi_watchpoint_driver)
+    write_csv_outputs(
+        MARKET_INTELLIGENCE_DIAGNOSTICS_OUTPUT_FILE,
+        [
+            "generated_signal_cluster",
+            "supporting_article_count",
+            "prior_run_article_count",
+            "prior_run_delta",
+            "cluster_status_vs_prior_run",
+            "dominant_market",
+            "dominant_keywords",
+            "dominant_lifecycle_tags",
+            "dominant_financing_patterns",
+            "dominant_financing_pattern",
+            "source_diversity_score",
+            "lender_diversity_score",
+            "source_concentration_warning",
+            "dominant_source",
+            "dominant_source_share",
+            "same_source_repetition_score",
+            "duplicate_count",
+            "low_information_article_count",
+            "signal_confidence_label",
+            "confidence_explanation",
+            "cluster_status",
+            "interpretation_driver",
+            "regime_shift_signal",
+            "generated_regime_labels",
+            "regime_synthesis_text",
+            "synthesis_drivers",
+            "synthesis_confidence",
+            "caution_flags",
+            "woomi_watchpoint_driver",
+        ],
+        rows,
+        dated_output_dir,
+    )
+    update_regime_history_outputs(rows, dated_output_dir)
+    return rows
+
+
+def confidence_rank(label):
+    """Convert confidence labels into simple numeric ranks for averaging."""
+    return {
+        "Low Confidence": 1,
+        "Early Signal": 2,
+        "Source-Concentrated": 2,
+        "Moderate Signal": 3,
+        "Broadly Confirmed": 4,
+    }.get(label, 1)
+
+
+def regime_persistence_label(history_rows, current_row):
+    """Classify rolling regime maturity from historical rows."""
+    active_rows = [row for row in history_rows if safe_int(row.get("retained_evidence_count")) > 0]
+    current_count = safe_int(current_row.get("retained_evidence_count"))
+    if current_count == 0:
+        return "Dormant"
+    if len(active_rows) <= 1:
+        return "Newly Emerging"
+    counts = [safe_int(row.get("retained_evidence_count")) for row in active_rows[-3:]]
+    latest_confidence = current_row.get("confidence_label", "")
+    latest_share = float(current_row.get("dominant_source_share", 0) or 0)
+    if len(counts) >= 3 and counts[-1] > counts[0]:
+        return "Building"
+    if latest_share > 0.7 and current_count >= max(counts):
+        return "Peaking"
+    if len(counts) >= 2 and counts[-1] < counts[-2]:
+        return "Weakening"
+    if len(active_rows) >= 3 and latest_confidence in {"Moderate Signal", "Broadly Confirmed"}:
+        return "Persistent"
+    return "Building"
+
+
+def regime_trend_direction(history_rows, current_row):
+    """Infer recent direction from the last few observations."""
+    current_count = safe_int(current_row.get("retained_evidence_count"))
+    recent = history_rows[-4:]
+    previous_active = [safe_int(row.get("retained_evidence_count")) for row in recent[:-1]]
+    if current_count == 0:
+        return "inactive"
+    if previous_active and all(value == 0 for value in previous_active):
+        return "re-emerging"
+    if len(previous_active) >= 2 and current_count > previous_active[-1] > previous_active[-2]:
+        return "accelerating"
+    if previous_active and current_count < previous_active[-1]:
+        return "weakening"
+    return "stable"
+
+
+def update_regime_history_outputs(diagnostic_rows, dated_output_dir):
+    """Persist rolling regime history and write timeline summaries."""
+    run_date = datetime.now().strftime("%Y-%m-%d")
+    existing = read_csv_file(REGIME_HISTORY_OUTPUT_FILE)
+    current_rows = []
+    for row in diagnostic_rows:
+        current_rows.append({
+            "run_date": run_date,
+            "cluster_title": row["generated_signal_cluster"],
+            "article_count": row.get("supporting_article_count", 0),
+            "retained_evidence_count": row.get("supporting_article_count", 0),
+            "confidence_label": row.get("signal_confidence_label", ""),
+            "dominant_market": row.get("dominant_market", ""),
+            "dominant_financing_pattern": row.get("dominant_financing_pattern", ""),
+            "cluster_status": row.get("cluster_status", ""),
+            "synthesis_participation": "Yes" if row["generated_signal_cluster"] in str(row.get("synthesis_drivers", "")) else "",
+            "source_diversity": row.get("source_diversity_score", 0),
+            "lender_diversity": row.get("lender_diversity_score", 0),
+            "dominant_source_share": row.get("dominant_source_share", 0),
+        })
+    history_rows = existing + current_rows
+    history_rows.sort(key=lambda item: (item.get("cluster_title", ""), item.get("run_date", "")))
+    timeline_rows = []
+    for cluster_title in sorted({row.get("cluster_title") for row in history_rows}):
+        cluster_history = [row for row in history_rows if row.get("cluster_title") == cluster_title]
+        current = cluster_history[-1]
+        dates = [parse_date_string(row.get("run_date")) for row in cluster_history if parse_date_string(row.get("run_date"))]
+        today = parse_date_string(run_date)
+        recent_7 = [row for row in cluster_history if today and parse_date_string(row.get("run_date")) and (today - parse_date_string(row.get("run_date"))).days <= 7]
+        recent_30 = [row for row in cluster_history if today and parse_date_string(row.get("run_date")) and (today - parse_date_string(row.get("run_date"))).days <= 30]
+        active_recent = [row for row in cluster_history if safe_int(row.get("retained_evidence_count")) > 0]
+        consecutive = 0
+        for row in reversed(cluster_history):
+            if safe_int(row.get("retained_evidence_count")) > 0:
+                consecutive += 1
+            else:
+                break
+        avg_count = round(sum(safe_int(row.get("retained_evidence_count")) for row in recent_30) / max(1, len(recent_30)), 2)
+        avg_confidence = round(sum(confidence_rank(row.get("confidence_label", "")) for row in recent_30) / max(1, len(recent_30)), 2)
+        persistence = regime_persistence_label(cluster_history, current)
+        trend = regime_trend_direction(cluster_history, current)
+        if trend == "accelerating":
+            shift = f"{cluster_title} signal is accelerating versus prior runs."
+        elif trend == "weakening":
+            shift = f"{cluster_title} visibility is weakening versus prior runs."
+        elif trend == "re-emerging":
+            shift = f"{cluster_title} signals have re-emerged after a quiet period."
+        elif persistence == "Peaking":
+            shift = "Signal visibility remains elevated, but confirmation breadth is narrowing."
+        else:
+            shift = "steady visibility"
+        timeline_rows.append({
+            "run_date": run_date,
+            "cluster_title": cluster_title,
+            "persistence_label": persistence,
+            "trend_direction": trend,
+            "consecutive_run_count": consecutive,
+            "7d_presence": len([row for row in recent_7 if safe_int(row.get("retained_evidence_count")) > 0]),
+            "30d_presence": len([row for row in recent_30 if safe_int(row.get("retained_evidence_count")) > 0]),
+            "average_article_count": avg_count,
+            "average_confidence": avg_confidence,
+            "article_count": current.get("article_count", 0),
+            "retained_count": current.get("retained_evidence_count", 0),
+            "source_diversity": current.get("source_diversity", 0),
+            "lender_diversity": current.get("lender_diversity", 0),
+            "dominant_market": current.get("dominant_market", ""),
+            "confidence_label": current.get("confidence_label", ""),
+            "regime_shift_signal": shift,
+            "synthesis_participation": current.get("synthesis_participation", ""),
+        })
+    history_fields = [
+        "run_date", "cluster_title", "article_count", "retained_evidence_count", "confidence_label",
+        "dominant_market", "dominant_financing_pattern", "cluster_status", "synthesis_participation",
+        "source_diversity", "lender_diversity", "dominant_source_share",
+    ]
+    timeline_fields = [
+        "run_date", "cluster_title", "persistence_label", "trend_direction", "consecutive_run_count",
+        "7d_presence", "30d_presence", "average_article_count", "average_confidence", "article_count",
+        "retained_count", "source_diversity", "lender_diversity", "dominant_market", "confidence_label",
+        "regime_shift_signal", "synthesis_participation",
+    ]
+    write_csv_outputs(REGIME_HISTORY_OUTPUT_FILE, history_fields, history_rows, dated_output_dir)
+    write_csv_outputs(REGIME_TIMELINE_OUTPUT_FILE, timeline_fields, timeline_rows, dated_output_dir)
+
+
+# ---------------------------------------------------------
+# 10. Intelligence layer generators
+# Pipeline manifest, health checks, error log, and run summary.
+# ---------------------------------------------------------
+
+def get_pipeline_output_catalog():
+    """
+    Central list of major outputs.
+
+    The manifest and health check use this table so future maintenance only has
+    one obvious place to add a new output file.
+    """
+    return [
+        {
+            "path": OUTPUT_FILE,
+            "category": "Raw Collection",
+            "short_description": "All saved articles above the relevance threshold.",
+            "recommended_reader": "Strategy Team",
+            "expected_columns": ["title", "source", "relevance_score", "market_focus"],
+        },
+        {
+            "path": HIGH_PRIORITY_OUTPUT_FILE,
+            "category": "Strategy Briefing",
+            "short_description": "Must Read and Review articles.",
+            "recommended_reader": "Executive",
+            "expected_columns": ["title", "action_level", "relevance_score"],
+        },
+        {
+            "path": MARKET_SIGNALS_OUTPUT_FILE,
+            "category": "Strategy Briefing",
+            "short_description": "Articles with numeric market signals.",
+            "recommended_reader": "Strategy Team",
+            "expected_columns": ["title", "market_signal", "extracted_numbers"],
+        },
+        {
+            "path": STRATEGY_BRIEFING_OUTPUT_FILE,
+            "category": "Strategy Briefing",
+            "short_description": "Core briefing dataset for strategic review.",
+            "recommended_reader": "Executive",
+            "expected_columns": ["title", "strategic_implication", "woomi_relevance"],
+        },
+        {
+            "path": DAILY_BRIEFING_OUTPUT_FILE,
+            "category": "Strategy Briefing",
+            "short_description": "Human-readable daily strategy briefing.",
+            "recommended_reader": "Executive",
+        },
+        {
+            "path": WEEKLY_MEMO_OUTPUT_FILE,
+            "category": "Strategy Briefing",
+            "short_description": "Weekly memo with trends, regimes, and strategic implications.",
+            "recommended_reader": "Executive",
+        },
+        {
+            "path": EXECUTIVE_DASHBOARD_BRIEF_OUTPUT_FILE,
+            "category": "Executive Dashboard",
+            "short_description": "Concise dashboard-ready executive brief.",
+            "recommended_reader": "Executive",
+        },
+        {
+            "path": EXECUTIVE_DASHBOARD_BRIEF_KO_OUTPUT_FILE,
+            "category": "Executive Dashboard",
+            "short_description": "Korean executive dashboard briefing.",
+            "recommended_reader": "Executive",
+        },
+        {
+            "path": WEEKLY_STRATEGY_MEMO_KO_OUTPUT_FILE,
+            "category": "Strategy Briefing",
+            "short_description": "Korean weekly strategy memo.",
+            "recommended_reader": "Executive",
+        },
+        {
+            "path": EXECUTIVE_PRIORITY_BRIEF_KO_OUTPUT_FILE,
+            "category": "Executive Dashboard",
+            "short_description": "Korean executive priority brief.",
+            "recommended_reader": "Executive",
+        },
+        {
+            "path": OPPORTUNITY_RADAR_REPORT_KO_OUTPUT_FILE,
+            "category": "Opportunity / Distress",
+            "short_description": "Korean opportunity radar report.",
+            "recommended_reader": "Investment Team",
+        },
+        {
+            "path": DISTRESS_WATCHLIST_REPORT_KO_OUTPUT_FILE,
+            "category": "Opportunity / Distress",
+            "short_description": "Korean distress watchlist report.",
+            "recommended_reader": "Investment Team",
+        },
+        {
+            "path": HIGH_CONFIDENCE_WATCHLIST_REPORT_KO_OUTPUT_FILE,
+            "category": "Quality Control",
+            "short_description": "Korean high-confidence watchlist report.",
+            "recommended_reader": "Executive",
+        },
+        {
+            "path": LA_ASSET_WATCH_REPORT_KO_OUTPUT_FILE,
+            "category": "Deal / Asset Intelligence",
+            "short_description": "Korean LA asset watch report.",
+            "recommended_reader": "US Local Team",
+        },
+        {
+            "path": LA_ENTITLEMENT_WATCH_REPORT_KO_OUTPUT_FILE,
+            "category": "Entitlement / Lifecycle Intelligence",
+            "short_description": "Korean LA entitlement watch report.",
+            "recommended_reader": "US Local Team",
+        },
+        {
+            "path": LA_DEVELOPMENT_LIFECYCLE_WATCH_REPORT_KO_OUTPUT_FILE,
+            "category": "Entitlement / Lifecycle Intelligence",
+            "short_description": "Korean LA development lifecycle watch report.",
+            "recommended_reader": "US Local Team",
+        },
+        {
+            "path": GP_WATCHLIST_REPORT_KO_OUTPUT_FILE,
+            "category": "GP / Institutional Intelligence",
+            "short_description": "Korean GP watchlist report.",
+            "recommended_reader": "Strategy Team",
+        },
+        {
+            "path": KOREAN_REPORTING_INDEX_OUTPUT_FILE,
+            "category": "Strategy Briefing",
+            "short_description": "Index and reading order for Korean reports.",
+            "recommended_reader": "Executive",
+        },
+        {
+            "path": DASHBOARD_SUMMARY_OUTPUT_FILE,
+            "category": "Executive Dashboard",
+            "short_description": "One-row run summary for future dashboard metrics.",
+            "recommended_reader": "Technical / Maintenance",
+            "expected_columns": ["run_timestamp", "recommended_executive_focus"],
+        },
+        {
+            "path": DASHBOARD_CARDS_OUTPUT_FILE,
+            "category": "Executive Dashboard",
+            "short_description": "Dashboard-ready card data.",
+            "recommended_reader": "Technical / Maintenance",
+            "expected_columns": ["card_title", "card_type", "card_score"],
+        },
+        {
+            "path": DASHBOARD_WATCHLISTS_OUTPUT_FILE,
+            "category": "Executive Dashboard",
+            "short_description": "Dashboard-ready watchlist data.",
+            "recommended_reader": "Technical / Maintenance",
+            "expected_columns": ["watchlist_category", "item_name", "score"],
+        },
+        {
+            "path": HIGH_CONFIDENCE_WATCHLIST_OUTPUT_FILE,
+            "category": "Quality Control",
+            "short_description": "Highest-confidence strategic signals.",
+            "recommended_reader": "Executive",
+            "expected_columns": ["canonical_project_name", "overall_signal_quality_score"],
+        },
+        {
+            "path": SIGNAL_QUALITY_OUTPUT_FILE,
+            "category": "Quality Control",
+            "short_description": "Signal confidence and false-positive risk scoring.",
+            "recommended_reader": "Strategy Team",
+            "expected_columns": ["overall_signal_quality_score", "signal_quality_label"],
+        },
+        {
+            "path": SOURCE_HEALTH_OUTPUT_FILE,
+            "category": "Source Management",
+            "short_description": "Feed status and source usefulness.",
+            "recommended_reader": "Technical / Maintenance",
+            "expected_columns": ["source_name", "fetch_status", "source_quality_label"],
+        },
+        {
+            "path": SOURCE_COVERAGE_REPORT_OUTPUT_FILE,
+            "category": "Source Management",
+            "short_description": "Site / Parcel feed coverage diagnostics.",
+            "recommended_reader": "Technical / Maintenance",
+            "expected_columns": [
+                "source_name",
+                "status",
+                "article_count_fetched",
+                "site_parcel_candidate_count",
+            ],
+        },
+        {
+            "path": SOURCE_ACTIVATION_OUTPUT_FILE,
+            "category": "Source Management",
+            "short_description": "Validated source activation and source quality scoring.",
+            "recommended_reader": "Technical / Maintenance",
+            "expected_columns": ["source_name", "source_status", "source_quality_score"],
+        },
+        {
+            "path": SOURCE_HEALTH_REPORT_OUTPUT_FILE,
+            "category": "Source Management",
+            "short_description": "Readable source health report.",
+            "recommended_reader": "Technical / Maintenance",
+        },
+        {
+            "path": SOURCE_COVERAGE_REPORT_MD_OUTPUT_FILE,
+            "category": "Source Management",
+            "short_description": "Readable Site / Parcel source coverage report.",
+            "recommended_reader": "Technical / Maintenance",
+        },
+        {
+            "path": SOURCE_ACTIVATION_REPORT_OUTPUT_FILE,
+            "category": "Source Management",
+            "short_description": "Readable source activation report.",
+            "recommended_reader": "Technical / Maintenance",
+        },
+        {
+            "path": OPPORTUNITY_RADAR_OUTPUT_FILE,
+            "category": "Opportunity / Distress",
+            "short_description": "Acquisition, recapitalization, JV, and market-entry opportunities.",
+            "recommended_reader": "Investment Team",
+            "expected_columns": ["opportunity_type", "opportunity_score", "confidence_level"],
+        },
+        {
+            "path": DISTRESS_WATCHLIST_OUTPUT_FILE,
+            "category": "Opportunity / Distress",
+            "short_description": "Refinancing stress, stalled project, and distress signals.",
+            "recommended_reader": "Investment Team",
+            "expected_columns": ["distress_type", "distress_score", "confidence_level"],
+        },
+        {
+            "path": DEAL_PIPELINE_OUTPUT_FILE,
+            "category": "Deal / Asset Intelligence",
+            "short_description": "Extracted deal and project pipeline signals.",
+            "recommended_reader": "Investment Team",
+            "expected_columns": ["deal_type", "market", "deal_signal_score"],
+        },
+        {
+            "path": ASSET_PARCEL_INTELLIGENCE_OUTPUT_FILE,
+            "category": "Deal / Asset Intelligence",
+            "short_description": "Asset, parcel, address, sponsor, and site-level clues.",
+            "recommended_reader": "Development Team",
+            "expected_columns": ["canonical_asset_or_project_name", "asset_opportunity_score"],
+        },
+        {
+            "path": LA_ASSET_WATCH_OUTPUT_FILE,
+            "category": "Deal / Asset Intelligence",
+            "short_description": "LA and Southern California asset watchlist.",
+            "recommended_reader": "US Local Team",
+            "expected_columns": ["asset_or_project_name", "la_asset_opportunity_score"],
+        },
+        {
+            "path": PROJECT_IDENTITY_OUTPUT_FILE,
+            "category": "Deal / Asset Intelligence",
+            "short_description": "Canonical project identity resolution.",
+            "recommended_reader": "Technical / Maintenance",
+            "expected_columns": ["canonical_project_id", "identity_confidence"],
+        },
+        {
+            "path": PERSISTENT_ASSET_MEMORY_OUTPUT_FILE,
+            "category": "Historical Memory",
+            "short_description": "Persistent project memory across runs.",
+            "recommended_reader": "Development Team",
+            "expected_columns": ["canonical_project_id", "persistent_asset_score"],
+        },
+        {
+            "path": LA_PERSISTENT_ASSET_WATCH_OUTPUT_FILE,
+            "category": "Historical Memory",
+            "short_description": "Persistent LA and Southern California asset watch.",
+            "recommended_reader": "US Local Team",
+            "expected_columns": ["canonical_project_id", "woomi_site_strategy_relevance"],
+        },
+        {
+            "path": ENTITLEMENT_INTELLIGENCE_OUTPUT_FILE,
+            "category": "Entitlement / Lifecycle Intelligence",
+            "short_description": "Zoning, permitting, entitlement, and approval signals.",
+            "recommended_reader": "Development Team",
+            "expected_columns": ["entitlement_signal_type", "entitlement_risk_score"],
+        },
+        {
+            "path": LA_ENTITLEMENT_WATCH_OUTPUT_FILE,
+            "category": "Entitlement / Lifecycle Intelligence",
+            "short_description": "LA and California entitlement watchlist.",
+            "recommended_reader": "US Local Team",
+            "expected_columns": ["la_submarket", "local_relevance_score"],
+        },
+        {
+            "path": DEVELOPMENT_LIFECYCLE_OUTPUT_FILE,
+            "category": "Entitlement / Lifecycle Intelligence",
+            "short_description": "Development lifecycle stage classification.",
+            "recommended_reader": "Development Team",
+            "expected_columns": ["current_lifecycle_stage", "lifecycle_opportunity_score"],
+        },
+        {
+            "path": LIFECYCLE_TRANSITION_OUTPUT_FILE,
+            "category": "Entitlement / Lifecycle Intelligence",
+            "short_description": "Lifecycle progression and stall tracking.",
+            "recommended_reader": "Development Team",
+            "expected_columns": ["transition_type", "progression_score", "stall_risk_score"],
+        },
+        {
+            "path": TIMING_INTELLIGENCE_OUTPUT_FILE,
+            "category": "Entitlement / Lifecycle Intelligence",
+            "short_description": "Timing signals for refinancing, delivery, permitting, and entry windows.",
+            "recommended_reader": "Strategy Team",
+            "expected_columns": ["timing_signal_type", "timing_urgency_score"],
+        },
+        {
+            "path": MARKET_ENTRY_WINDOW_OUTPUT_FILE,
+            "category": "Strategy Briefing",
+            "short_description": "Market entry window scoring by region.",
+            "recommended_reader": "Investment Team",
+            "expected_columns": ["market", "market_entry_score", "market_entry_window_label"],
+        },
+        {
+            "path": GP_WATCHLIST_OUTPUT_FILE,
+            "category": "GP / Institutional Intelligence",
+            "short_description": "Emerging GP ranking and watchlist.",
+            "recommended_reader": "Strategy Team",
+            "expected_columns": ["canonical_gp_name", "emerging_gp_score", "gp_tier"],
+        },
+        {
+            "path": GP_INTELLIGENCE_OUTPUT_FILE,
+            "category": "GP / Institutional Intelligence",
+            "short_description": "Developer and GP intelligence signals.",
+            "recommended_reader": "Strategy Team",
+            "expected_columns": ["gp_name", "institutional_signal_strength"],
+        },
+        {
+            "path": INSTITUTIONAL_RELATIONSHIPS_OUTPUT_FILE,
+            "category": "GP / Institutional Intelligence",
+            "short_description": "Institutional relationship and capital-flow scoring.",
+            "recommended_reader": "Strategy Team",
+            "expected_columns": ["firm_name", "institutional_relationship_score"],
+        },
+        {
+            "path": RELATIONSHIP_GRAPH_OUTPUT_FILE,
+            "category": "GP / Institutional Intelligence",
+            "short_description": "Developer, lender, capital partner, and market relationship edges.",
+            "recommended_reader": "Strategy Team",
+            "expected_columns": ["source_entity", "target_entity", "relationship_strength_score"],
+        },
+        {
+            "path": REGIONAL_INTELLIGENCE_OUTPUT_FILE,
+            "category": "Strategy Briefing",
+            "short_description": "Market and regional intelligence summary.",
+            "recommended_reader": "US Local Team",
+            "expected_columns": ["market", "woomi_market_relevance"],
+        },
+        {
+            "path": RESIDENTIAL_SECTOR_OUTPUT_FILE,
+            "category": "Strategy Briefing",
+            "short_description": "Residential sector coverage beyond multifamily.",
+            "recommended_reader": "Strategy Team",
+            "expected_columns": ["residential_sector", "woomi_sector_relevance"],
+        },
+        {
+            "path": HISTORICAL_MEMORY_OUTPUT_FILE,
+            "category": "Historical Memory",
+            "short_description": "Recurring entities and signals across runs.",
+            "recommended_reader": "Strategy Team",
+            "expected_columns": ["entity_name", "persistence_score"],
+        },
+        {
+            "path": CAPITAL_FLOW_MEMORY_OUTPUT_FILE,
+            "category": "Historical Memory",
+            "short_description": "Capital-flow memory and lender recurrence tracking.",
+            "recommended_reader": "Finance / Treasury",
+            "expected_columns": ["entity_name", "capital_flow_strength_score"],
+        },
+        {
+            "path": RELATIONSHIP_PERSISTENCE_OUTPUT_FILE,
+            "category": "Historical Memory",
+            "short_description": "Recurring GP, lender, and capital relationships.",
+            "recommended_reader": "Strategy Team",
+            "expected_columns": [
+                "canonical_source_entity",
+                "canonical_target_entity",
+                "relationship_persistence_score",
+            ],
+        },
+        {
+            "path": PIPELINE_MANIFEST_OUTPUT_FILE,
+            "category": "Quality Control",
+            "short_description": "Index of major outputs and their status.",
+            "recommended_reader": "Technical / Maintenance",
+        },
+        {
+            "path": PIPELINE_MANIFEST_REPORT_OUTPUT_FILE,
+            "category": "Quality Control",
+            "short_description": "Human-readable pipeline output index.",
+            "recommended_reader": "Technical / Maintenance",
+        },
+        {
+            "path": PIPELINE_HEALTH_OUTPUT_FILE,
+            "category": "Quality Control",
+            "short_description": "Machine-readable pipeline health checks.",
+            "recommended_reader": "Technical / Maintenance",
+        },
+        {
+            "path": PIPELINE_HEALTH_REPORT_OUTPUT_FILE,
+            "category": "Quality Control",
+            "short_description": "Human-readable pipeline health report.",
+            "recommended_reader": "Technical / Maintenance",
+        },
+        {
+            "path": ERROR_LOG_FILE,
+            "category": "Quality Control",
+            "short_description": "Append-only log of non-fatal warnings and errors.",
+            "recommended_reader": "Technical / Maintenance",
+        },
+        {
+            "path": RUN_SUMMARY_OUTPUT_FILE,
+            "category": "Quality Control",
+            "short_description": "Short beginner-friendly summary of the latest run.",
+            "recommended_reader": "Executive",
+        },
+    ]
+
+
+def get_output_row_count_or_section_count(path):
+    """Return row count for CSVs or heading count for Markdown files."""
+    if not os.path.exists(path):
+        return 0
+
+    if path.endswith(".csv"):
+        return len(read_csv_file(path))
+
+    if path.endswith(".md"):
+        return count_markdown_sections(path)
+
+    return 0
+
+
+def build_pipeline_manifest_rows(run_timestamp):
+    """Build rows for output/pipeline_manifest.csv."""
+    rows = []
+
+    for item in get_pipeline_output_catalog():
+        path = item["path"]
+        exists = os.path.exists(path)
+        last_updated = ""
+
+        if exists:
+            last_updated = datetime.fromtimestamp(os.path.getmtime(path)).strftime(
+                TIMESTAMP_FORMAT,
+            )
+
+        rows.append({
+            "file_name": os.path.basename(path),
+            "file_type": get_file_type(path),
+            "category": item["category"],
+            "generated_status": "Generated" if exists else "Missing",
+            "row_count_or_section_count": get_output_row_count_or_section_count(path),
+            "last_updated": last_updated,
+            "short_description": item["short_description"],
+            "recommended_reader": item["recommended_reader"],
+        })
+
+    return rows
+
+
+def generate_pipeline_manifest_outputs(run_timestamp, dated_output_dir):
+    """Write the pipeline manifest CSV and Markdown index."""
+    manifest_rows = build_pipeline_manifest_rows(run_timestamp)
+    fieldnames = [
+        "file_name",
+        "file_type",
+        "category",
+        "generated_status",
+        "row_count_or_section_count",
+        "last_updated",
+        "short_description",
+        "recommended_reader",
+    ]
+    write_csv_outputs(
+        PIPELINE_MANIFEST_OUTPUT_FILE,
+        fieldnames,
+        manifest_rows,
+        dated_output_dir,
+    )
+
+    missing_rows = [
+        row for row in manifest_rows if row["generated_status"] != "Generated"
+    ]
+    lines = [
+        "# Pipeline Manifest",
+        "",
+        f"Generated: {run_timestamp.strftime(TIMESTAMP_FORMAT)}",
+        "",
+        "This file is the output index for the single-file MVP. It helps you see what was generated, who should read it, and where each output fits in the research workflow.",
+        "",
+        "## Summary",
+        "",
+        f"- Total tracked outputs: {len(manifest_rows)}",
+        f"- Generated outputs: {len(manifest_rows) - len(missing_rows)}",
+        f"- Missing outputs: {len(missing_rows)}",
+        f"- First file to open: `{EXECUTIVE_OPEN_FIRST_FILE}`",
+        "",
+        "## Output Index",
+        "",
+        "| File | Type | Category | Status | Rows / Sections | Reader |",
+        "|---|---|---|---|---:|---|",
+    ]
+
+    for row in manifest_rows:
+        lines.append(
+            f"| `{row['file_name']}` | {row['file_type']} | {row['category']} | "
+            f"{row['generated_status']} | {row['row_count_or_section_count']} | "
+            f"{row['recommended_reader']} |"
+        )
+
+    if missing_rows:
+        lines.extend(["", "## Missing Outputs", ""])
+        for row in missing_rows:
+            lines.append(f"- `{row['file_name']}`: {row['short_description']}")
+
+    write_markdown_outputs(
+        PIPELINE_MANIFEST_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+    return manifest_rows
+
+
+def add_health_check(rows, check_name, component, status, details, recommended_fix):
+    """Append one health check row."""
+    rows.append({
+        "check_name": check_name,
+        "component": component,
+        "status": status,
+        "details": details,
+        "recommended_fix": recommended_fix,
+    })
+
+
+def build_pipeline_health_rows(run_timestamp, dated_output_dir):
+    """Run lightweight checks against important outputs and configuration."""
+    rows = []
+    catalog = get_pipeline_output_catalog()
+    self_generated_health_outputs = {
+        PIPELINE_HEALTH_OUTPUT_FILE,
+        PIPELINE_HEALTH_REPORT_OUTPUT_FILE,
+        ERROR_LOG_FILE,
+        RUN_SUMMARY_OUTPUT_FILE,
+    }
+
+    add_health_check(
+        rows,
+        "source_registry_has_entries",
+        "Source registry",
+        "OK" if RSS_FEEDS else "Error",
+        f"{len(RSS_FEEDS)} sources configured.",
+        "Add source records to RSS_FEEDS or SOURCE_REGISTRY.",
+    )
+
+    add_health_check(
+        rows,
+        "archive_folder_created",
+        "Archive",
+        "OK" if os.path.exists(dated_output_dir) else "Error",
+        dated_output_dir,
+        "Create the dated archive folder before writing outputs.",
+    )
+
+    latest_run_rows = read_csv_file(RUN_LOG_FILE)
+    add_health_check(
+        rows,
+        "latest_run_timestamp_exists",
+        "Run log",
+        "OK" if latest_run_rows else "Warning",
+        latest_run_rows[-1].get("run_timestamp", "") if latest_run_rows else "No run_log rows found.",
+        "Run the script once successfully to create or update run_log.csv.",
+    )
+
+    for item in catalog:
+        path = item["path"]
+        file_name = os.path.basename(path)
+
+        if path in self_generated_health_outputs:
+            add_health_check(
+                rows,
+                f"self_generated_{file_name}",
+                file_name,
+                "Not Checked",
+                "This maintenance file is generated after the health check starts.",
+                "Open the file after the run completes to confirm it was written.",
+            )
+            continue
+
+        if not os.path.exists(path):
+            add_health_check(
+                rows,
+                f"file_exists_{file_name}",
+                file_name,
+                "Error",
+                f"{file_name} was not found.",
+                "Rerun the pipeline and inspect earlier error messages.",
+            )
+            continue
+
+        add_health_check(
+            rows,
+            f"file_exists_{file_name}",
+            file_name,
+            "OK",
+            f"{file_name} exists.",
+            "No action needed.",
+        )
+
+        if path.endswith(".csv"):
+            try:
+                csv_rows = read_csv_file(path)
+                fieldnames = read_csv_fieldnames(path)
+                add_health_check(
+                    rows,
+                    f"csv_readable_{file_name}",
+                    file_name,
+                    "OK",
+                    f"{len(csv_rows)} rows read.",
+                    "No action needed.",
+                )
+
+                expected_columns = item.get("expected_columns", [])
+                missing_columns = [
+                    column for column in expected_columns if column not in fieldnames
+                ]
+                add_health_check(
+                    rows,
+                    f"expected_columns_{file_name}",
+                    file_name,
+                    "OK" if not missing_columns else "Warning",
+                    (
+                        "Expected columns present."
+                        if not missing_columns
+                        else "Missing columns: " + ", ".join(missing_columns)
+                    ),
+                    "Check the output fieldnames for this generator.",
+                )
+
+                if file_name in IMPORTANT_ZERO_ROW_OUTPUTS and len(csv_rows) == 0:
+                    add_health_check(
+                        rows,
+                        f"nonzero_rows_{file_name}",
+                        file_name,
+                        "Warning",
+                        f"{file_name} has zero rows.",
+                        "Check source feeds, filters, and threshold settings.",
+                    )
+            except Exception as error:
+                add_health_check(
+                    rows,
+                    f"csv_readable_{file_name}",
+                    file_name,
+                    "Error",
+                    str(error),
+                    "Open the CSV and check for malformed rows or encoding problems.",
+                )
+
+    for path in [
+        DASHBOARD_SUMMARY_OUTPUT_FILE,
+        DASHBOARD_CARDS_OUTPUT_FILE,
+        DASHBOARD_WATCHLISTS_OUTPUT_FILE,
+        HIGH_CONFIDENCE_WATCHLIST_OUTPUT_FILE,
+    ]:
+        file_name = os.path.basename(path)
+        add_health_check(
+            rows,
+            f"important_output_generated_{file_name}",
+            file_name,
+            "OK" if os.path.exists(path) else "Error",
+            f"{file_name} generated: {os.path.exists(path)}",
+            "Rerun the pipeline and check the dashboard or signal-quality layer.",
+        )
+
+    return rows
+
+
+def generate_pipeline_health_outputs(run_timestamp, dated_output_dir):
+    """Write pipeline health CSV and Markdown report."""
+    health_rows = build_pipeline_health_rows(run_timestamp, dated_output_dir)
+    fieldnames = [
+        "check_name",
+        "component",
+        "status",
+        "details",
+        "recommended_fix",
+    ]
+    write_csv_outputs(
+        PIPELINE_HEALTH_OUTPUT_FILE,
+        fieldnames,
+        health_rows,
+        dated_output_dir,
+    )
+
+    ok_count = sum(1 for row in health_rows if row["status"] == "OK")
+    not_checked_count = sum(1 for row in health_rows if row["status"] == "Not Checked")
+    warning_rows = [row for row in health_rows if row["status"] == "Warning"]
+    error_rows = [row for row in health_rows if row["status"] == "Error"]
+    overall_status = "OK"
+    if error_rows:
+        overall_status = "Error"
+    elif warning_rows:
+        overall_status = "Warning"
+
+    missing_files = [
+        row for row in health_rows
+        if row["status"] == "Error" and row["check_name"].startswith("file_exists_")
+    ]
+    missing_columns = [
+        row for row in health_rows
+        if row["status"] == "Warning" and row["check_name"].startswith("expected_columns_")
+    ]
+    zero_rows = [
+        row for row in health_rows
+        if row["status"] == "Warning" and row["check_name"].startswith("nonzero_rows_")
+    ]
+
+    lines = [
+        "# Pipeline Health Report",
+        "",
+        f"Generated: {run_timestamp.strftime(TIMESTAMP_FORMAT)}",
+        "",
+        "## Overall Status",
+        "",
+        f"- Overall pipeline status: {overall_status}",
+        f"- Total checks: {len(health_rows)}",
+        f"- OK: {ok_count}",
+        f"- Warning: {len(warning_rows)}",
+        f"- Error: {len(error_rows)}",
+        f"- Not checked: {not_checked_count}",
+        "",
+        "## Missing Files",
+        "",
+    ]
+
+    if missing_files:
+        for row in missing_files:
+            lines.append(f"- {row['component']}: {row['details']}")
+    else:
+        lines.append("- None")
+
+    lines.extend(["", "## Missing Columns", ""])
+    if missing_columns:
+        for row in missing_columns:
+            lines.append(f"- {row['component']}: {row['details']}")
+    else:
+        lines.append("- None")
+
+    lines.extend(["", "## Zero-Row Important Outputs", ""])
+    if zero_rows:
+        for row in zero_rows:
+            lines.append(f"- {row['component']}: {row['details']}")
+    else:
+        lines.append("- None")
+
+    lines.extend(["", "## Recommended Maintenance Actions", ""])
+    if error_rows or warning_rows:
+        for row in (error_rows + warning_rows)[:12]:
+            lines.append(f"- {row['component']}: {row['recommended_fix']}")
+    else:
+        lines.append("- No immediate maintenance action needed.")
+
+    write_markdown_outputs(
+        PIPELINE_HEALTH_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+    return {
+        "overall_status": overall_status,
+        "total_checks": len(health_rows),
+        "ok_count": ok_count,
+        "warning_count": len(warning_rows),
+        "error_count": len(error_rows),
+        "not_checked_count": not_checked_count,
+        "health_rows": health_rows,
+    }
+
+
+def append_error_log_rows(run_timestamp, rows):
+    """Append non-fatal pipeline issues to output/error_log.csv."""
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    file_exists = os.path.exists(ERROR_LOG_FILE)
+    fieldnames = [
+        "run_timestamp",
+        "component",
+        "error_type",
+        "error_message",
+        "severity",
+        "recommended_fix",
+    ]
+
+    with open(ERROR_LOG_FILE, mode="a", newline="", encoding="utf-8-sig") as file:
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
+
+        if not file_exists:
+            writer.writeheader()
+
+        for row in rows:
+            writer.writerow(row)
+
+
+def build_error_log_rows(run_timestamp, health_summary):
+    """Convert source and health warnings into simple maintenance log rows."""
+    rows = []
+    timestamp = run_timestamp.strftime(TIMESTAMP_FORMAT)
+
+    for source_row in SOURCE_HEALTH_ROWS:
+        if source_row["fetch_status"] in ["Failed", "Placeholder"]:
+            rows.append({
+                "run_timestamp": timestamp,
+                "component": source_row["source_name"],
+                "error_type": source_row["fetch_status"],
+                "error_message": source_row.get("error_message", ""),
+                "severity": "Warning",
+                "recommended_fix": "Review or replace this source URL if it is important.",
+            })
+
+    for health_row in health_summary["health_rows"]:
+        if health_row["status"] in ["Warning", "Error"]:
+            rows.append({
+                "run_timestamp": timestamp,
+                "component": health_row["component"],
+                "error_type": health_row["status"],
+                "error_message": health_row["details"],
+                "severity": health_row["status"],
+                "recommended_fix": health_row["recommended_fix"],
+            })
+
+    if not rows:
+        rows.append({
+            "run_timestamp": timestamp,
+            "component": "Pipeline",
+            "error_type": "No Issues",
+            "error_message": "No warning or error health checks were detected.",
+            "severity": "Info",
+            "recommended_fix": "No action needed.",
+        })
+
+    return rows
+
+
+def generate_run_summary(
+    run_timestamp,
+    total_articles,
+    high_confidence_count,
+    opportunity_count,
+    distress_count,
+    la_asset_watch_count,
+    dashboard_summary,
+    health_summary,
+    dated_output_dir,
+):
+    """Write a short, beginner-friendly latest run summary."""
+    top_card = dashboard_summary.get("top_card") or {}
+    suggested_next_action = "Open the executive dashboard brief first, then review the high-confidence watchlist."
+
+    if health_summary["overall_status"] == "Error":
+        suggested_next_action = "Open pipeline_health_report.md first and fix errors before using the analysis."
+    elif health_summary["overall_status"] == "Warning":
+        suggested_next_action = "Open executive_dashboard_brief.md first, then review pipeline_health_report.md warnings."
+
+    lines = [
+        "# Run Summary",
+        "",
+        f"Generated: {run_timestamp.strftime(TIMESTAMP_FORMAT)}",
+        "",
+        "## Quick Counts",
+        "",
+        f"- Total articles saved: {total_articles}",
+        f"- High-confidence signals: {high_confidence_count}",
+        f"- Opportunities: {opportunity_count}",
+        f"- Distress signals: {distress_count}",
+        f"- LA asset watch items: {la_asset_watch_count}",
+        f"- Dashboard cards: {dashboard_summary.get('total_cards', 0)}",
+        f"- Pipeline health status: {health_summary['overall_status']}",
+        "",
+        "## Key Files To Open First",
+        "",
+        "- `executive_dashboard_brief.md`",
+        "- `high_confidence_watchlist_report.md`",
+        "- `pipeline_health_report.md`",
+        "- `pipeline_manifest.md`",
+        "",
+        "## Top Dashboard Signal",
+        "",
+        f"- {top_card.get('card_title', 'None')} ({top_card.get('card_type', 'No card')})",
+        "",
+        "## Suggested Next Action",
+        "",
+        f"- {suggested_next_action}",
+    ]
+
+    write_markdown_outputs(RUN_SUMMARY_OUTPUT_FILE, lines, dated_output_dir)
+    return suggested_next_action
+
+
+def generate_pipeline_stabilization_outputs(
+    run_timestamp,
+    articles,
+    high_confidence_rows,
+    opportunity_rows,
+    distress_rows,
+    la_asset_rows,
+    dashboard_summary,
+    dated_output_dir,
+):
+    """Generate manifest, health, error log, and run summary outputs."""
+    generate_pipeline_manifest_outputs(run_timestamp, dated_output_dir)
+    health_summary = generate_pipeline_health_outputs(run_timestamp, dated_output_dir)
+    error_rows = build_error_log_rows(run_timestamp, health_summary)
+    append_error_log_rows(run_timestamp, error_rows)
+    if SAVE_DATED_OUTPUT and os.path.exists(ERROR_LOG_FILE):
+        write_csv_file(
+            get_archive_path(ERROR_LOG_FILE, dated_output_dir),
+            [
+                "run_timestamp",
+                "component",
+                "error_type",
+                "error_message",
+                "severity",
+                "recommended_fix",
+            ],
+            read_csv_file(ERROR_LOG_FILE),
+        )
+    suggested_next_action = generate_run_summary(
+        run_timestamp,
+        len(articles),
+        len(high_confidence_rows),
+        len(opportunity_rows),
+        len(distress_rows),
+        len(la_asset_rows),
+        dashboard_summary,
+        health_summary,
+        dated_output_dir,
+    )
+
+    # Regenerate the manifest after health, error log, and run summary exist.
+    manifest_rows = generate_pipeline_manifest_outputs(run_timestamp, dated_output_dir)
+
+    return {
+        "manifest_rows": manifest_rows,
+        "health_summary": health_summary,
+        "error_rows": error_rows,
+        "suggested_next_action": suggested_next_action,
+    }
+
+
+# ---------------------------------------------------------
+# 13. Main pipeline
+# ---------------------------------------------------------
+
+def save_to_csv(articles):
+    """Save article dictionaries to all MVP CSV outputs."""
+    run_timestamp = datetime.now()
+    set_current_run_context(run_timestamp)
+    dated_output_dir = get_dated_output_dir(run_timestamp)
+    previous_article_rows = read_csv_file(OUTPUT_FILE)
+    new_article_count, duplicate_article_count = classify_new_articles_for_manifest(
+        articles,
+        previous_article_rows,
+    )
+    CURRENT_RUN_MANIFEST_STATS["article_count"] = len(articles)
+    CURRENT_RUN_MANIFEST_STATS["new_article_count"] = new_article_count
+    CURRENT_RUN_MANIFEST_STATS["duplicate_article_count"] = duplicate_article_count
+    (
+        previous_strategy_rows,
+        previous_market_signal_rows,
+        previous_archive_folder,
+    ) = get_previous_archived_run_data(dated_output_dir)
+    previous_heatmap_rows = get_previous_archived_file_rows(
+        REGIME_HEATMAP_OUTPUT_FILE,
+        dated_output_dir,
+    )
+    previous_lifecycle_rows = get_previous_archived_file_rows(
+        DEVELOPMENT_LIFECYCLE_OUTPUT_FILE,
+        dated_output_dir,
+    )
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+    if SAVE_DATED_OUTPUT:
+        os.makedirs(dated_output_dir, exist_ok=True)
+
+    fieldnames = [
+        "collected_at",
+        "source",
+        "source_category",
+        "platform_type",
+        "residential_sector",
+        "published",
+        "relevance_score",
+        "priority",
+        "action_level",
+        "market_focus",
+        "strategic_angle",
+        "decision_use",
+        "strategic_implication",
+        "woomi_relevance",
+        "recommended_next_step",
+        "reason_for_inclusion",
+        "market_signal",
+        "extracted_numbers",
+        "article_text_sample",
+        "llm_analysis_prompt",
+        "llm_prompt_quality_score",
+        "llm_prompt_quality_label",
+        "missing_prompt_context",
+        "gpt_strategic_analysis",
+        "topics",
+        "matched_keywords",
+        "title",
+        "url",
+        "previously_seen_article",
+    ]
+
+    # The high-priority file is a shorter daily briefing list.
+    # It keeps Must Read and Review items, and excludes Monitor items.
+    high_priority_articles = [
+        article
+        for article in articles
+        if article["action_level"] in ["Must Read", "Review"]
+    ]
+    market_signal_articles = [
+        article
+        for article in articles
+        if article["market_signal"] != "No Clear Numeric Signal"
+    ]
+    strategy_briefing_articles = [
+        article
+        for article in articles
+        if article["action_level"] in ["Must Read", "Review"]
+        or article["woomi_relevance"] == "High relevance to US residential developer strategy"
+    ]
+
+    action_level_order = {
+        "Must Read": 0,
+        "Review": 1,
+        "Monitor": 2,
+    }
+    strategy_briefing_articles.sort(
+        key=lambda article: (
+            action_level_order.get(article["action_level"], 99),
+            -article["relevance_score"],
+        )
+    )
+
+    # Only strategy-briefing articles get LLM prompts for now.
+    # Other rows keep the column blank.
+    for article in articles:
+        article["llm_analysis_prompt"] = ""
+        article["llm_prompt_quality_score"] = 0
+        article["llm_prompt_quality_label"] = "Poor"
+        article["missing_prompt_context"] = "No LLM prompt generated"
+
+    for article in strategy_briefing_articles:
+        article["llm_analysis_prompt"] = build_llm_analysis_prompt(article)
+        (
+            article["llm_prompt_quality_score"],
+            article["llm_prompt_quality_label"],
+            article["missing_prompt_context"],
+        ) = evaluate_llm_prompt_quality(article)
+
+    analyzed_count, gpt_status_message = run_openai_analysis(strategy_briefing_articles)
+
+    for article in articles:
+        if "gpt_strategic_analysis" not in article:
+            article["gpt_strategic_analysis"] = "GPT analysis not enabled"
+
+    try:
+        write_csv_outputs(
+            OUTPUT_FILE,
+            fieldnames,
+            articles,
+            dated_output_dir,
+        )
+        write_csv_outputs(
+            HIGH_PRIORITY_OUTPUT_FILE,
+            fieldnames,
+            high_priority_articles,
+            dated_output_dir,
+        )
+        write_csv_outputs(
+            MARKET_SIGNALS_OUTPUT_FILE,
+            fieldnames,
+            market_signal_articles,
+            dated_output_dir,
+        )
+        write_csv_outputs(
+            STRATEGY_BRIEFING_OUTPUT_FILE,
+            fieldnames,
+            strategy_briefing_articles,
+            dated_output_dir,
+        )
+
+        generate_markdown_report(
+            articles,
+            high_priority_articles,
+            market_signal_articles,
+            strategy_briefing_articles,
+            dated_output_dir,
+        )
+        generate_weekly_strategy_memo(
+            articles,
+            high_priority_articles,
+            market_signal_articles,
+            strategy_briefing_articles,
+            dated_output_dir,
+        )
+        gp_source_coverage_rows = build_gp_source_coverage_rows(
+            run_timestamp,
+            articles,
+        )
+        gp_source_coverage_summary = generate_gp_source_coverage_outputs(
+            gp_source_coverage_rows,
+            dated_output_dir,
+        )
+        source_activation_rows = build_source_activation_rows(
+            run_timestamp,
+            articles,
+        )
+        source_activation_summary = generate_source_activation_outputs(
+            source_activation_rows,
+            dated_output_dir,
+        )
+        source_health_summary = generate_source_health_outputs(
+            dated_output_dir,
+            gp_source_coverage_rows,
+            source_activation_rows,
+        )
+        generate_source_coverage_outputs(
+            articles,
+            dated_output_dir,
+        )
+        generate_market_intelligence_diagnostics(
+            articles,
+            dated_output_dir,
+        )
+        generate_llm_prompt_pack(strategy_briefing_articles, dated_output_dir)
+        generate_llm_prompt_quality_report(strategy_briefing_articles, dated_output_dir)
+        generate_gpt_analysis_preview(
+            strategy_briefing_articles,
+            analyzed_count,
+            gpt_status_message,
+            dated_output_dir,
+        )
+        key_thematic_alerts = generate_thematic_trends(
+            strategy_briefing_articles,
+            market_signal_articles,
+            previous_strategy_rows,
+            previous_market_signal_rows,
+            previous_archive_folder,
+            dated_output_dir,
+        )
+        heatmap_rows = build_regime_heatmap_rows(
+            run_timestamp,
+            strategy_briefing_articles,
+            market_signal_articles,
+        )
+        generate_regime_heatmap_outputs(heatmap_rows, dated_output_dir)
+        momentum_rows = build_regime_momentum_rows(
+            run_timestamp,
+            heatmap_rows,
+            previous_heatmap_rows,
+        )
+        momentum_summary = generate_regime_momentum_outputs(
+            heatmap_rows,
+            momentum_rows,
+            dated_output_dir,
+        )
+        narrative_regime = generate_narrative_regime(
+            strategy_briefing_articles,
+            market_signal_articles,
+            key_thematic_alerts,
+            heatmap_rows,
+            dated_output_dir,
+        )
+        severity_rows = build_narrative_severity_rows(
+            run_timestamp,
+            strategy_briefing_articles,
+            heatmap_rows,
+            momentum_rows,
+            narrative_regime,
+        )
+        severity_summary = generate_narrative_severity_outputs(
+            severity_rows,
+            dated_output_dir,
+        )
+        materiality_rows = build_materiality_impact_rows(
+            run_timestamp,
+            strategy_briefing_articles,
+            severity_rows,
+        )
+        materiality_summary = generate_materiality_impact_outputs(
+            materiality_rows,
+            dated_output_dir,
+        )
+        executive_priority_rows = build_executive_priority_rows(
+            run_timestamp,
+            materiality_rows,
+            severity_rows,
+            heatmap_rows,
+            momentum_rows,
+        )
+        scenario_rows = build_strategy_scenario_rows(
+            run_timestamp,
+            executive_priority_rows,
+            materiality_rows,
+            severity_rows,
+            heatmap_rows,
+            momentum_rows,
+            strategy_briefing_articles,
+        )
+        regional_rows = build_regional_intelligence_rows(
+            run_timestamp,
+            articles,
+            strategy_briefing_articles,
+            market_signal_articles,
+            executive_priority_rows,
+            scenario_rows,
+        )
+        gp_rows = build_gp_intelligence_rows(
+            run_timestamp,
+            articles,
+            strategy_briefing_articles,
+            market_signal_articles,
+            executive_priority_rows,
+            regional_rows,
+            scenario_rows,
+        )
+        relationship_rows = build_institutional_relationship_rows(
+            run_timestamp,
+            articles,
+            gp_rows,
+        )
+        deal_rows = build_deal_pipeline_rows(
+            run_timestamp,
+            articles,
+        )
+        deal_fingerprint_rows = build_deal_fingerprint_rows(
+            run_timestamp,
+            deal_rows,
+        )
+        unique_deal_rows = get_unique_deal_rows_by_fingerprint(deal_rows)
+        graph_rows = build_relationship_graph_rows(
+            unique_deal_rows,
+            gp_rows,
+            relationship_rows,
+            regional_rows,
+            market_signal_articles,
+            strategy_briefing_articles,
+        )
+        entity_rows = build_entity_resolution_rows(
+            graph_rows,
+            deal_rows,
+            gp_rows,
+            relationship_rows,
+            regional_rows,
+            articles,
+        )
+        sector_rows = build_residential_sector_rows(
+            run_timestamp,
+            articles,
+            high_priority_articles,
+            market_signal_articles,
+            unique_deal_rows,
+            gp_rows,
+        )
+        gp_watchlist_rows = build_gp_watchlist_rows(
+            run_timestamp,
+            gp_rows,
+            relationship_rows,
+            graph_rows,
+            unique_deal_rows,
+            regional_rows,
+            sector_rows,
+            executive_priority_rows,
+            articles,
+        )
+        dominant_sector = sector_rows[0]["residential_sector"] if sector_rows else "General Residential"
+        for row in executive_priority_rows:
+            row["residential_sector"] = dominant_sector
+        executive_priority_summary = generate_executive_priority_outputs(
+            executive_priority_rows,
+            dated_output_dir,
+            regional_rows,
+            gp_rows,
+            relationship_rows,
+            unique_deal_rows,
+            graph_rows,
+            sector_rows,
+            gp_watchlist_rows,
+        )
+        scenario_summary = generate_strategy_scenario_outputs(
+            scenario_rows,
+            dated_output_dir,
+            gp_rows,
+            relationship_rows,
+            unique_deal_rows,
+            graph_rows,
+            sector_rows,
+        )
+        regional_summary = generate_regional_intelligence_outputs(
+            regional_rows,
+            dated_output_dir,
+            unique_deal_rows,
+            graph_rows,
+        )
+        gp_summary = generate_gp_intelligence_outputs(
+            gp_rows,
+            dated_output_dir,
+            relationship_rows,
+            unique_deal_rows,
+            graph_rows,
+        )
+        relationship_summary = generate_institutional_relationship_outputs(
+            relationship_rows,
+            dated_output_dir,
+            unique_deal_rows,
+            graph_rows,
+            gp_watchlist_rows,
+        )
+        graph_summary = generate_relationship_graph_outputs(
+            graph_rows,
+            dated_output_dir,
+            gp_watchlist_rows,
+        )
+        entity_summary = generate_entity_resolution_outputs(
+            entity_rows,
+            dated_output_dir,
+        )
+        sector_summary = generate_residential_sector_outputs(
+            sector_rows,
+            dated_output_dir,
+        )
+        gp_watchlist_summary = generate_gp_watchlist_outputs(
+            gp_watchlist_rows,
+            dated_output_dir,
+        )
+        deal_summary = generate_deal_pipeline_outputs(
+            deal_rows,
+            dated_output_dir,
+            graph_rows,
+        )
+        deal_fingerprint_summary = generate_deal_fingerprint_outputs(
+            deal_fingerprint_rows,
+            dated_output_dir,
+        )
+        historical_memory_rows = build_historical_memory_rows(
+            run_timestamp,
+            gp_rows,
+            relationship_rows,
+            unique_deal_rows,
+            graph_rows,
+            regional_rows,
+            sector_rows,
+            heatmap_rows,
+        )
+        historical_memory_summary = generate_historical_memory_outputs(
+            historical_memory_rows,
+            dated_output_dir,
+        )
+        capital_flow_memory_rows = build_capital_flow_memory_rows(
+            run_timestamp,
+            unique_deal_rows,
+            relationship_rows,
+        )
+        capital_flow_summary = generate_capital_flow_memory_outputs(
+            capital_flow_memory_rows,
+            dated_output_dir,
+        )
+        relationship_persistence_rows = build_relationship_persistence_rows(
+            run_timestamp,
+            graph_rows,
+        )
+        relationship_persistence_summary = generate_relationship_persistence_outputs(
+            relationship_persistence_rows,
+            dated_output_dir,
+        )
+        raw_opportunity_rows = build_opportunity_radar_rows(
+            run_timestamp,
+            deal_rows,
+            materiality_rows,
+            severity_rows,
+            relationship_rows,
+            graph_rows,
+            historical_memory_rows,
+            capital_flow_memory_rows,
+            gp_watchlist_rows,
+        )
+        raw_distress_rows = build_distress_watchlist_rows(
+            run_timestamp,
+            deal_rows,
+            capital_flow_memory_rows,
+            historical_memory_rows,
+        )
+        opportunity_deduplication_rows = build_opportunity_deduplication_rows(
+            run_timestamp,
+            raw_opportunity_rows,
+            raw_distress_rows,
+        )
+        opportunity_deduplication_summary = generate_opportunity_deduplication_outputs(
+            opportunity_deduplication_rows,
+            dated_output_dir,
+        )
+        opportunity_rows = dedupe_rows_by_fingerprint(
+            raw_opportunity_rows,
+            "opportunity_score",
+        )
+        opportunity_summary = generate_opportunity_radar_outputs(
+            opportunity_rows,
+            dated_output_dir,
+        )
+        distress_rows = dedupe_rows_by_fingerprint(
+            raw_distress_rows,
+            "distress_score",
+        )
+        distress_summary = generate_distress_watchlist_outputs(
+            distress_rows,
+            dated_output_dir,
+        )
+        timing_rows = build_timing_intelligence_rows(
+            run_timestamp,
+            deal_rows,
+            opportunity_rows,
+            distress_rows,
+        )
+        timing_summary = generate_timing_intelligence_outputs(
+            timing_rows,
+            dated_output_dir,
+        )
+        market_entry_rows = build_market_entry_window_rows(
+            run_timestamp,
+            timing_rows,
+            opportunity_rows,
+            distress_rows,
+            capital_flow_memory_rows,
+            regional_rows,
+            sector_rows,
+            gp_watchlist_rows,
+            severity_rows,
+            materiality_rows,
+        )
+        market_entry_summary = generate_market_entry_window_outputs(
+            market_entry_rows,
+            dated_output_dir,
+        )
+        entitlement_rows = build_entitlement_intelligence_rows(
+            run_timestamp,
+            articles,
+            deal_rows,
+            timing_rows,
+        )
+        entitlement_summary = generate_entitlement_intelligence_outputs(
+            entitlement_rows,
+            dated_output_dir,
+        )
+        la_entitlement_rows = build_la_entitlement_watch_rows(
+            run_timestamp,
+            entitlement_rows,
+        )
+        la_entitlement_summary = generate_la_entitlement_watch_outputs(
+            la_entitlement_rows,
+            dated_output_dir,
+        )
+        submarket_rows = build_submarket_intelligence_rows(
+            run_timestamp,
+            articles,
+            deal_rows,
+            entitlement_rows,
+            opportunity_rows,
+            distress_rows,
+            timing_rows,
+        )
+        submarket_summary = generate_submarket_intelligence_outputs(
+            submarket_rows,
+            dated_output_dir,
+        )
+        la_submarket_rows = build_la_submarket_watch_rows(
+            run_timestamp,
+            submarket_rows,
+        )
+        la_submarket_summary = generate_la_submarket_watch_outputs(
+            la_submarket_rows,
+            dated_output_dir,
+        )
+        asset_rows = build_asset_parcel_intelligence_rows(
+            run_timestamp,
+            articles,
+            deal_rows,
+            deal_fingerprint_rows,
+            opportunity_rows,
+            distress_rows,
+            entitlement_rows,
+            la_entitlement_rows,
+            submarket_rows,
+            la_submarket_rows,
+            timing_rows,
+            graph_rows,
+            gp_watchlist_rows,
+            relationship_rows,
+        )
+        asset_summary = generate_asset_parcel_intelligence_outputs(
+            asset_rows,
+            dated_output_dir,
+        )
+        la_asset_rows = build_la_asset_watch_rows(
+            run_timestamp,
+            asset_rows,
+        )
+        la_asset_summary = generate_la_asset_watch_outputs(
+            la_asset_rows,
+            dated_output_dir,
+        )
+        lifecycle_rows = build_development_lifecycle_rows(
+            run_timestamp,
+            asset_rows,
+            entitlement_rows,
+            la_entitlement_rows,
+            timing_rows,
+            deal_rows,
+            deal_fingerprint_rows,
+            opportunity_rows,
+            distress_rows,
+            submarket_rows,
+            graph_rows,
+            gp_watchlist_rows,
+            historical_memory_rows,
+        )
+        lifecycle_summary = generate_development_lifecycle_outputs(
+            lifecycle_rows,
+            dated_output_dir,
+        )
+        la_lifecycle_rows = build_la_development_lifecycle_watch_rows(
+            run_timestamp,
+            lifecycle_rows,
+        )
+        la_lifecycle_summary = generate_la_development_lifecycle_watch_outputs(
+            la_lifecycle_rows,
+            dated_output_dir,
+        )
+        append_lifecycle_summary_to_reports(
+            lifecycle_summary,
+            la_lifecycle_summary,
+            dated_output_dir,
+        )
+        lifecycle_transition_rows = build_lifecycle_transition_rows(
+            run_timestamp,
+            lifecycle_rows,
+            previous_lifecycle_rows,
+            asset_rows,
+            deal_fingerprint_rows,
+            historical_memory_rows,
+            relationship_persistence_rows,
+            timing_rows,
+            entitlement_rows,
+            opportunity_rows,
+            distress_rows,
+        )
+        lifecycle_transition_summary = generate_lifecycle_transition_outputs(
+            lifecycle_transition_rows,
+            dated_output_dir,
+        )
+        la_transition_rows = build_la_lifecycle_transition_watch_rows(
+            run_timestamp,
+            lifecycle_transition_rows,
+        )
+        la_transition_summary = generate_la_lifecycle_transition_watch_outputs(
+            la_transition_rows,
+            dated_output_dir,
+        )
+        append_lifecycle_transition_summary_to_reports(
+            lifecycle_transition_summary,
+            la_transition_summary,
+            dated_output_dir,
+        )
+        project_identity_rows = build_project_identity_rows(
+            run_timestamp,
+            asset_rows,
+            la_asset_rows,
+            deal_fingerprint_rows,
+            deal_rows,
+            lifecycle_rows,
+            lifecycle_transition_rows,
+            la_transition_rows,
+            opportunity_rows,
+            distress_rows,
+            entitlement_rows,
+            la_entitlement_rows,
+            graph_rows,
+            historical_memory_rows,
+        )
+        project_identity_summary = generate_project_identity_outputs(
+            project_identity_rows,
+            dated_output_dir,
+        )
+        persistent_asset_rows = build_persistent_asset_memory_rows(
+            run_timestamp,
+            project_identity_rows,
+            lifecycle_rows,
+            lifecycle_transition_rows,
+            asset_rows,
+            entitlement_rows,
+            timing_rows,
+            opportunity_rows,
+            distress_rows,
+            graph_rows,
+        )
+        persistent_asset_summary = generate_persistent_asset_memory_outputs(
+            persistent_asset_rows,
+            dated_output_dir,
+        )
+        la_persistent_asset_rows = build_la_persistent_asset_watch_rows(
+            run_timestamp,
+            persistent_asset_rows,
+            project_identity_rows,
+        )
+        la_persistent_asset_summary = generate_la_persistent_asset_watch_outputs(
+            la_persistent_asset_rows,
+            dated_output_dir,
+        )
+        rewrite_project_identity_fields_in_existing_outputs(
+            dated_output_dir,
+            asset_rows,
+            deal_rows,
+            lifecycle_rows,
+            lifecycle_transition_rows,
+            opportunity_rows,
+            distress_rows,
+            graph_rows,
+        )
+        append_persistent_asset_summary_to_reports(
+            project_identity_summary,
+            persistent_asset_summary,
+            la_persistent_asset_summary,
+            dated_output_dir,
+        )
+        signal_quality_rows = build_signal_quality_rows(
+            run_timestamp,
+            source_activation_rows,
+            SOURCE_HEALTH_ROWS,
+            project_identity_rows,
+            persistent_asset_rows,
+            lifecycle_transition_rows,
+            lifecycle_rows,
+            deal_fingerprint_rows,
+            opportunity_rows,
+            distress_rows,
+            asset_rows,
+            graph_rows,
+            gp_watchlist_rows,
+            relationship_rows,
+            timing_rows,
+        )
+        signal_quality_summary = generate_signal_quality_outputs(
+            signal_quality_rows,
+            dated_output_dir,
+        )
+        high_confidence_rows = build_high_confidence_watchlist_rows(
+            run_timestamp,
+            signal_quality_rows,
+            persistent_asset_rows,
+        )
+        high_confidence_summary = generate_high_confidence_watchlist_outputs(
+            high_confidence_rows,
+            dated_output_dir,
+        )
+        append_signal_quality_summary_to_reports(
+            signal_quality_summary,
+            high_confidence_summary,
+            dated_output_dir,
+        )
+        dashboard_summary = generate_dashboard_outputs(
+            run_timestamp,
+            articles,
+            high_confidence_rows,
+            signal_quality_rows,
+            opportunity_rows,
+            distress_rows,
+            market_entry_rows,
+            gp_watchlist_rows,
+            relationship_rows,
+            graph_rows,
+            persistent_asset_rows,
+            la_persistent_asset_rows,
+            lifecycle_rows,
+            lifecycle_transition_rows,
+            timing_rows,
+            entitlement_rows,
+            la_entitlement_rows,
+            asset_rows,
+            la_asset_rows,
+            regional_rows,
+            sector_rows,
+            capital_flow_memory_rows,
+            source_activation_rows,
+            dated_output_dir,
+        )
+        append_dashboard_summary_to_reports(
+            dashboard_summary,
+            dated_output_dir,
+        )
+        korean_report_summary = generate_korean_reports(
+            run_timestamp,
+            dashboard_summary,
+            dashboard_summary["cards"],
+            dashboard_summary["watchlists"],
+            high_confidence_rows,
+            signal_quality_rows,
+            executive_priority_rows,
+            scenario_rows,
+            market_entry_rows,
+            opportunity_rows,
+            distress_rows,
+            la_asset_rows,
+            la_persistent_asset_rows,
+            la_entitlement_rows,
+            entitlement_rows,
+            la_lifecycle_rows,
+            la_transition_rows,
+            gp_watchlist_rows,
+            relationship_rows,
+            graph_rows,
+            dated_output_dir,
+        )
+        append_regime_log(
+            run_timestamp,
+            narrative_regime,
+            len(articles),
+            len(high_priority_articles),
+            len(market_signal_articles),
+            len(strategy_briefing_articles),
+            most_common_label(strategy_briefing_articles, "strategic_angle"),
+            most_common_label(strategy_briefing_articles, "market_focus"),
+            most_common_label(market_signal_articles, "market_signal"),
+        )
+        regime_transition = generate_regime_transition_report(dated_output_dir)
+        append_run_log(
+            run_timestamp,
+            len(articles),
+            len(high_priority_articles),
+            len(market_signal_articles),
+            len(strategy_briefing_articles),
+            len(strategy_briefing_articles),
+            analyzed_count,
+            dated_output_dir if SAVE_DATED_OUTPUT else OUTPUT_DIR,
+        )
+        trend_metrics = generate_trend_alerts(dated_output_dir)
+        stabilization_summary = generate_pipeline_stabilization_outputs(
+            run_timestamp,
+            articles,
+            high_confidence_rows,
+            opportunity_rows,
+            distress_rows,
+            la_asset_rows,
+            dashboard_summary,
+            dated_output_dir,
+        )
+        append_korean_report_references(dated_output_dir)
+        run_manifest_path = write_run_manifest_json(dated_output_dir)
+
+        print(f"[Done] CSV saved: {OUTPUT_FILE}")
+        print(f"[Done] Saved article count: {len(articles)}")
+        print(f"[Run] Run ID: {CURRENT_RUN_CONTEXT['run_id']}")
+        print(f"[Run] New articles: {new_article_count}")
+        print(f"[Run] Previously seen articles: {duplicate_article_count}")
+        print(f"[Done] Run manifest saved: {run_manifest_path}")
+        print(f"[Done] High-priority CSV saved: {HIGH_PRIORITY_OUTPUT_FILE}")
+        print(f"[Done] High-priority article count: {len(high_priority_articles)}")
+        print(f"[Done] Market signals CSV saved: {MARKET_SIGNALS_OUTPUT_FILE}")
+        print(f"[Done] Market-signal article count: {len(market_signal_articles)}")
+        print(f"[Done] Strategy briefing CSV saved: {STRATEGY_BRIEFING_OUTPUT_FILE}")
+        print(f"[Done] Strategy-briefing article count: {len(strategy_briefing_articles)}")
+        print(f"[Done] Markdown briefing saved: {DAILY_BRIEFING_OUTPUT_FILE}")
+        print(f"[Done] Weekly strategy memo saved: {WEEKLY_MEMO_OUTPUT_FILE}")
+        print(f"[Done] Source health CSV saved: {SOURCE_HEALTH_OUTPUT_FILE}")
+        print(f"[Done] Source health report saved: {SOURCE_HEALTH_REPORT_OUTPUT_FILE}")
+        print(f"[Done] GP source coverage CSV saved: {GP_SOURCE_COVERAGE_OUTPUT_FILE}")
+        print(f"[Done] GP source coverage report saved: {GP_SOURCE_COVERAGE_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Source activation CSV saved: {SOURCE_ACTIVATION_OUTPUT_FILE}")
+        print(f"[Done] Source activation report saved: {SOURCE_ACTIVATION_REPORT_OUTPUT_FILE}")
+        print(f"[Done] LLM prompt pack saved: {LLM_PROMPT_PACK_OUTPUT_FILE}")
+        print(f"[Done] LLM prompt count: {len(strategy_briefing_articles)}")
+        print(f"[Done] LLM prompt quality report saved: {LLM_PROMPT_QUALITY_REPORT_OUTPUT_FILE}")
+        print(f"[Done] GPT analysis preview saved: {GPT_ANALYSIS_PREVIEW_OUTPUT_FILE}")
+        print(f"[Done] GPT-analyzed article count: {analyzed_count}")
+        print(f"[Done] Thematic trends saved: {THEMATIC_TRENDS_OUTPUT_FILE}")
+        print(f"[Done] Regime heatmap CSV saved: {REGIME_HEATMAP_OUTPUT_FILE}")
+        print(f"[Done] Regime heatmap report saved: {REGIME_HEATMAP_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Regime momentum CSV saved: {REGIME_MOMENTUM_OUTPUT_FILE}")
+        print(f"[Done] Regime momentum report saved: {REGIME_MOMENTUM_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Narrative regime saved: {NARRATIVE_REGIME_OUTPUT_FILE}")
+        print(f"[Done] Narrative severity CSV saved: {NARRATIVE_SEVERITY_OUTPUT_FILE}")
+        print(f"[Done] Narrative severity report saved: {NARRATIVE_SEVERITY_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Materiality impact CSV saved: {MATERIALITY_IMPACT_OUTPUT_FILE}")
+        print(f"[Done] Materiality impact report saved: {MATERIALITY_IMPACT_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Executive priorities CSV saved: {EXECUTIVE_PRIORITIES_OUTPUT_FILE}")
+        print(f"[Done] Executive priority brief saved: {EXECUTIVE_PRIORITY_BRIEF_OUTPUT_FILE}")
+        print(f"[Done] Strategy scenarios CSV saved: {STRATEGY_SCENARIOS_OUTPUT_FILE}")
+        print(f"[Done] Strategy scenario report saved: {STRATEGY_SCENARIO_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Regional intelligence CSV saved: {REGIONAL_INTELLIGENCE_OUTPUT_FILE}")
+        print(f"[Done] Regional intelligence report saved: {REGIONAL_INTELLIGENCE_REPORT_OUTPUT_FILE}")
+        print(f"[Done] GP intelligence CSV saved: {GP_INTELLIGENCE_OUTPUT_FILE}")
+        print(f"[Done] GP intelligence report saved: {GP_INTELLIGENCE_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Institutional relationships CSV saved: {INSTITUTIONAL_RELATIONSHIPS_OUTPUT_FILE}")
+        print(f"[Done] Institutional relationship report saved: {INSTITUTIONAL_RELATIONSHIP_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Deal pipeline CSV saved: {DEAL_PIPELINE_OUTPUT_FILE}")
+        print(f"[Done] Deal pipeline report saved: {DEAL_PIPELINE_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Deal fingerprints CSV saved: {DEAL_FINGERPRINT_OUTPUT_FILE}")
+        print(f"[Done] Deal fingerprint report saved: {DEAL_FINGERPRINT_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Relationship graph CSV saved: {RELATIONSHIP_GRAPH_OUTPUT_FILE}")
+        print(f"[Done] Relationship graph report saved: {RELATIONSHIP_GRAPH_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Entity resolution CSV saved: {ENTITY_RESOLUTION_OUTPUT_FILE}")
+        print(f"[Done] Entity resolution report saved: {ENTITY_RESOLUTION_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Residential sector CSV saved: {RESIDENTIAL_SECTOR_OUTPUT_FILE}")
+        print(f"[Done] Residential sector report saved: {RESIDENTIAL_SECTOR_REPORT_OUTPUT_FILE}")
+        print(f"[Done] GP watchlist CSV saved: {GP_WATCHLIST_OUTPUT_FILE}")
+        print(f"[Done] GP watchlist report saved: {GP_WATCHLIST_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Historical memory CSV saved: {HISTORICAL_MEMORY_OUTPUT_FILE}")
+        print(f"[Done] Historical memory report saved: {HISTORICAL_MEMORY_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Capital flow memory CSV saved: {CAPITAL_FLOW_MEMORY_OUTPUT_FILE}")
+        print(f"[Done] Capital flow report saved: {CAPITAL_FLOW_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Relationship persistence CSV saved: {RELATIONSHIP_PERSISTENCE_OUTPUT_FILE}")
+        print(f"[Done] Relationship persistence report saved: {RELATIONSHIP_PERSISTENCE_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Opportunity radar CSV saved: {OPPORTUNITY_RADAR_OUTPUT_FILE}")
+        print(f"[Done] Opportunity radar report saved: {OPPORTUNITY_RADAR_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Opportunity deduplication CSV saved: {OPPORTUNITY_DEDUPLICATION_OUTPUT_FILE}")
+        print(f"[Done] Opportunity deduplication report saved: {OPPORTUNITY_DEDUPLICATION_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Distress watchlist CSV saved: {DISTRESS_WATCHLIST_OUTPUT_FILE}")
+        print(f"[Done] Distress watchlist report saved: {DISTRESS_WATCHLIST_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Timing intelligence CSV saved: {TIMING_INTELLIGENCE_OUTPUT_FILE}")
+        print(f"[Done] Timing intelligence report saved: {TIMING_INTELLIGENCE_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Market entry window CSV saved: {MARKET_ENTRY_WINDOW_OUTPUT_FILE}")
+        print(f"[Done] Market entry window report saved: {MARKET_ENTRY_WINDOW_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Entitlement intelligence CSV saved: {ENTITLEMENT_INTELLIGENCE_OUTPUT_FILE}")
+        print(f"[Done] Entitlement intelligence report saved: {ENTITLEMENT_INTELLIGENCE_REPORT_OUTPUT_FILE}")
+        print(f"[Done] LA entitlement watch CSV saved: {LA_ENTITLEMENT_WATCH_OUTPUT_FILE}")
+        print(f"[Done] LA entitlement watch report saved: {LA_ENTITLEMENT_WATCH_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Submarket intelligence CSV saved: {SUBMARKET_INTELLIGENCE_OUTPUT_FILE}")
+        print(f"[Done] Submarket intelligence report saved: {SUBMARKET_INTELLIGENCE_REPORT_OUTPUT_FILE}")
+        print(f"[Done] LA submarket watch CSV saved: {LA_SUBMARKET_WATCH_OUTPUT_FILE}")
+        print(f"[Done] LA submarket watch report saved: {LA_SUBMARKET_WATCH_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Asset parcel intelligence CSV saved: {ASSET_PARCEL_INTELLIGENCE_OUTPUT_FILE}")
+        print(f"[Done] Asset parcel intelligence report saved: {ASSET_PARCEL_INTELLIGENCE_REPORT_OUTPUT_FILE}")
+        print(f"[Done] LA asset watch CSV saved: {LA_ASSET_WATCH_OUTPUT_FILE}")
+        print(f"[Done] LA asset watch report saved: {LA_ASSET_WATCH_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Development lifecycle CSV saved: {DEVELOPMENT_LIFECYCLE_OUTPUT_FILE}")
+        print(f"[Done] Development lifecycle report saved: {DEVELOPMENT_LIFECYCLE_REPORT_OUTPUT_FILE}")
+        print(f"[Done] LA development lifecycle watch CSV saved: {LA_DEVELOPMENT_LIFECYCLE_WATCH_OUTPUT_FILE}")
+        print(f"[Done] LA development lifecycle watch report saved: {LA_DEVELOPMENT_LIFECYCLE_WATCH_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Lifecycle transition CSV saved: {LIFECYCLE_TRANSITION_OUTPUT_FILE}")
+        print(f"[Done] Lifecycle transition report saved: {LIFECYCLE_TRANSITION_REPORT_OUTPUT_FILE}")
+        print(f"[Done] LA lifecycle transition watch CSV saved: {LA_LIFECYCLE_TRANSITION_WATCH_OUTPUT_FILE}")
+        print(f"[Done] LA lifecycle transition watch report saved: {LA_LIFECYCLE_TRANSITION_WATCH_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Project identity CSV saved: {PROJECT_IDENTITY_OUTPUT_FILE}")
+        print(f"[Done] Project identity report saved: {PROJECT_IDENTITY_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Persistent asset memory CSV saved: {PERSISTENT_ASSET_MEMORY_OUTPUT_FILE}")
+        print(f"[Done] Persistent asset memory report saved: {PERSISTENT_ASSET_MEMORY_REPORT_OUTPUT_FILE}")
+        print(f"[Done] LA persistent asset watch CSV saved: {LA_PERSISTENT_ASSET_WATCH_OUTPUT_FILE}")
+        print(f"[Done] LA persistent asset watch report saved: {LA_PERSISTENT_ASSET_WATCH_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Signal quality CSV saved: {SIGNAL_QUALITY_OUTPUT_FILE}")
+        print(f"[Done] Signal quality report saved: {SIGNAL_QUALITY_REPORT_OUTPUT_FILE}")
+        print(f"[Done] High-confidence watchlist CSV saved: {HIGH_CONFIDENCE_WATCHLIST_OUTPUT_FILE}")
+        print(f"[Done] High-confidence watchlist report saved: {HIGH_CONFIDENCE_WATCHLIST_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Dashboard summary CSV saved: {DASHBOARD_SUMMARY_OUTPUT_FILE}")
+        print(f"[Done] Dashboard cards CSV saved: {DASHBOARD_CARDS_OUTPUT_FILE}")
+        print(f"[Done] Dashboard watchlists CSV saved: {DASHBOARD_WATCHLISTS_OUTPUT_FILE}")
+        print(f"[Done] Executive dashboard brief saved: {EXECUTIVE_DASHBOARD_BRIEF_OUTPUT_FILE}")
+        print(f"[Done] Korean executive dashboard brief saved: {EXECUTIVE_DASHBOARD_BRIEF_KO_OUTPUT_FILE}")
+        print(f"[Done] Korean reporting index saved: {KOREAN_REPORTING_INDEX_OUTPUT_FILE}")
+        print(f"[Korean] Reports generated: {korean_report_summary['report_count']}")
+        if korean_report_summary["warnings"]:
+            for warning in korean_report_summary["warnings"]:
+                print(f"[Korean Warning] {warning}")
+        else:
+            print("[Korean] Generation warnings: None")
+        print(f"[Done] Pipeline manifest CSV saved: {PIPELINE_MANIFEST_OUTPUT_FILE}")
+        print(f"[Done] Pipeline manifest report saved: {PIPELINE_MANIFEST_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Pipeline health CSV saved: {PIPELINE_HEALTH_OUTPUT_FILE}")
+        print(f"[Done] Pipeline health report saved: {PIPELINE_HEALTH_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Error log updated: {ERROR_LOG_FILE}")
+        print(f"[Done] Run summary saved: {RUN_SUMMARY_OUTPUT_FILE}")
+        print(
+            f"[Health] Overall pipeline health: "
+            f"{stabilization_summary['health_summary']['overall_status']}"
+        )
+        print(
+            f"[Health] Warnings: "
+            f"{stabilization_summary['health_summary']['warning_count']}; "
+            f"Errors: {stabilization_summary['health_summary']['error_count']}"
+        )
+        print(
+            f"[Manifest] Total output files tracked: "
+            f"{len(stabilization_summary['manifest_rows'])}"
+        )
+        print(f"[Summary] Top file to open first: {EXECUTIVE_OPEN_FIRST_FILE}")
+        print(f"[Fingerprint] Total canonical deals: {deal_fingerprint_summary['total_canonical_deals']}")
+        print(f"[Fingerprint] Total duplicate clusters: {len(deal_fingerprint_summary['duplicate_clusters'])}")
+        print(
+            "[Fingerprint] Top recurring canonical project: "
+            + deal_fingerprint_summary["top_recurring_project"].get("canonical_project_name", "None")
+        )
+        print(
+            "[Fingerprint] Strongest recurring refinancing event: "
+            + deal_fingerprint_summary["strongest_refinancing_event"].get("canonical_event_name", "None")
+        )
+        print(f"[Fingerprint] California / LA recurring project count: {deal_fingerprint_summary['california_la_count']}")
+        print(
+            "[Deduplication] Strongest multi-source confirmed opportunity: "
+            + opportunity_deduplication_summary["strongest_multi_source_opportunity"].get("primary_reference_article", "None")
+        )
+        print(f"[Deduplication] Opportunities removed: {opportunity_deduplication_summary['opportunities_removed']}")
+        print(f"[Deduplication] Distress inflation prevented: {opportunity_deduplication_summary['distress_inflation_prevented']}")
+        print(f"[Opportunity] Total opportunities detected: {opportunity_summary['total_opportunities']}")
+        if opportunity_summary["top_opportunity"]:
+            print(
+                f"[Opportunity] Top opportunity: "
+                f"{opportunity_summary['top_opportunity']['opportunity_type']} "
+                f"in {opportunity_summary['top_opportunity']['market']} "
+                f"({opportunity_summary['top_opportunity']['opportunity_score']})"
+            )
+        else:
+            print("[Opportunity] Top opportunity: None")
+        print(f"[Opportunity] LA / California opportunity count: {opportunity_summary['la_california_count']}")
+        print(f"[Distress] Total distress signals: {distress_summary['total_distress']}")
+        if distress_summary["top_distress"]:
+            print(
+                f"[Distress] Top distress signal: "
+                f"{distress_summary['top_distress']['distress_type']} "
+                f"in {distress_summary['top_distress']['market']} "
+                f"({distress_summary['top_distress']['distress_score']})"
+            )
+        else:
+            print("[Distress] Top distress signal: None")
+        print(f"[Distress] Refinancing stress signals: {distress_summary['refinancing_stress_count']}")
+        print(f"[Distress] Construction financing gap signals: {distress_summary['construction_gap_count']}")
+        print(f"[Timing] Total timing signals detected: {timing_summary['total_timing_signals']}")
+        if timing_summary["top_timing_signal"]:
+            top_timing = timing_summary["top_timing_signal"]
+            print(
+                f"[Timing] Top timing signal: {top_timing['timing_signal_type']} "
+                f"in {top_timing['market']} ({top_timing['timing_urgency_score']})"
+            )
+        else:
+            print("[Timing] Top timing signal: None")
+        print(f"[Timing] Refinancing / maturity timing count: {timing_summary['refinancing_maturity_count']}")
+        print(f"[Timing] Construction start / delivery timing count: {timing_summary['construction_delivery_count']}")
+        print(f"[Timing] Entitlement / permitting timing count: {timing_summary['entitlement_permitting_count']}")
+        if market_entry_summary["top_market_entry_window"]:
+            top_window = market_entry_summary["top_market_entry_window"]
+            print(
+                f"[Entry Window] Top market entry window: {top_window['market']} "
+                f"({top_window['market_entry_window_label']}, {top_window['market_entry_score']})"
+            )
+        else:
+            print("[Entry Window] Top market entry window: None")
+        la_entry = next((row for row in market_entry_summary["la_california_rows"] if row["market"] == "Los Angeles"), None)
+        ca_entry = next((row for row in market_entry_summary["la_california_rows"] if row["market"] == "California"), None)
+        if la_entry:
+            print(f"[Entry Window] LA entry window label: {la_entry['market_entry_window_label']}")
+            print(f"[Entry Window] Recommended Woomi entry posture: {la_entry['recommended_entry_posture']}")
+        elif ca_entry:
+            print(f"[Entry Window] California entry window label: {ca_entry['market_entry_window_label']}")
+            print(f"[Entry Window] Recommended Woomi entry posture: {ca_entry['recommended_entry_posture']}")
+        print(f"[Entitlement] Total entitlement signals detected: {entitlement_summary['total_entitlement_signals']}")
+        print(f"[Entitlement] Total LA / California entitlement watch items: {la_entitlement_summary['total_la_watch_items']}")
+        if entitlement_summary["top_opportunity"]:
+            print(
+                f"[Entitlement] Top opportunity: "
+                f"{entitlement_summary['top_opportunity']['entitlement_signal_type']} "
+                f"in {entitlement_summary['top_opportunity']['market']} "
+                f"({entitlement_summary['top_opportunity']['entitlement_opportunity_score']})"
+            )
+        else:
+            print("[Entitlement] Top opportunity: None")
+        if entitlement_summary["top_risk"]:
+            print(
+                f"[Entitlement] Top risk: "
+                f"{entitlement_summary['top_risk']['entitlement_signal_type']} "
+                f"in {entitlement_summary['top_risk']['market']} "
+                f"({entitlement_summary['top_risk']['entitlement_risk_score']})"
+            )
+        else:
+            print("[Entitlement] Top risk: None")
+        if la_entitlement_summary["top_la_watch_item"]:
+            print(
+                f"[Entitlement] Top LA / California watch item: "
+                f"{la_entitlement_summary['top_la_watch_item']['la_submarket']} "
+                f"({la_entitlement_summary['top_la_watch_item']['local_relevance_score']})"
+            )
+        else:
+            print("[Entitlement] Top LA / California watch item: None")
+        print(f"[Entitlement] Density bonus / TOC signal count: {entitlement_summary['density_toc_count']}")
+        print(f"[Entitlement] CEQA / environmental signal count: {entitlement_summary['ceqa_environmental_count']}")
+        print(f"[Entitlement] Office-to-residential signal count: {entitlement_summary['office_conversion_count']}")
+        if la_entitlement_summary["recommended_follow_up"]:
+            print(f"[Entitlement] Recommended Woomi follow-up: {la_entitlement_summary['recommended_follow_up'][0]}")
+        else:
+            print("[Entitlement] Recommended Woomi follow-up: Continue monitoring entitlement and permit signals")
+        print(f"[Submarket] Total submarkets detected: {submarket_summary['total_submarkets']}")
+        print(f"[Submarket] Total LA / Southern California submarkets detected: {la_submarket_summary['total_la_submarkets']}")
+        if submarket_summary["top_opportunity_submarket"]:
+            top_submarket = submarket_summary["top_opportunity_submarket"]
+            print(
+                f"[Submarket] Top opportunity submarket: "
+                f"{top_submarket['submarket_name']} ({top_submarket['submarket_opportunity_score']})"
+            )
+        else:
+            print("[Submarket] Top opportunity submarket: None")
+        if submarket_summary["top_risk_submarket"]:
+            risk_submarket = submarket_summary["top_risk_submarket"]
+            print(
+                f"[Submarket] Top risk submarket: "
+                f"{risk_submarket['submarket_name']} ({risk_submarket['submarket_risk_score']})"
+            )
+        else:
+            print("[Submarket] Top risk submarket: None")
+        if submarket_summary["highest_complexity_submarket"]:
+            complex_submarket = submarket_summary["highest_complexity_submarket"]
+            print(
+                f"[Submarket] Highest execution complexity submarket: "
+                f"{complex_submarket['submarket_name']} ({complex_submarket['execution_complexity_score']})"
+            )
+        else:
+            print("[Submarket] Highest execution complexity submarket: None")
+        print(f"[Submarket] Koreatown / Wilshire signal count: {la_submarket_summary['koreatown_wilshire_count']}")
+        print(f"[Submarket] DTLA / adaptive reuse signal count: {la_submarket_summary['dtla_adaptive_reuse_count']}")
+        print(f"[Submarket] Hollywood / TOD signal count: {la_submarket_summary['hollywood_tod_count']}")
+        print(f"[Submarket] Orange County signal count: {la_submarket_summary['orange_county_count']}")
+        print(f"[Submarket] Inland Empire signal count: {la_submarket_summary['inland_empire_count']}")
+        if la_submarket_summary["recommended_follow_up"]:
+            print(f"[Submarket] Recommended Woomi submarket follow-up: {la_submarket_summary['recommended_follow_up'][0]}")
+        else:
+            print("[Submarket] Recommended Woomi submarket follow-up: Continue monitoring local submarket signals")
+        print(f"[Asset] Total asset / parcel signals: {asset_summary['total_asset_signals']}")
+        print(f"[Asset] Total LA / Southern California asset watch items: {la_asset_summary['total_la_asset_watch_items']}")
+        if asset_summary["top_opportunity"]:
+            print(
+                f"[Asset] Top asset-level opportunity: "
+                f"{asset_summary['top_opportunity']['canonical_asset_or_project_name']} "
+                f"({asset_summary['top_opportunity']['asset_opportunity_score']})"
+            )
+        else:
+            print("[Asset] Top asset-level opportunity: None")
+        if asset_summary["top_risk"]:
+            print(
+                f"[Asset] Top asset-level risk: "
+                f"{asset_summary['top_risk']['canonical_asset_or_project_name']} "
+                f"({asset_summary['top_risk']['asset_risk_score']})"
+            )
+        else:
+            print("[Asset] Top asset-level risk: None")
+        print(f"[Asset] Assets with address/location clues: {asset_summary['address_clue_count']}")
+        print(f"[Asset] Assets with entitlement / permit signals: {asset_summary['entitlement_permit_count']}")
+        print(f"[Asset] Assets with financing / refinancing signals: {asset_summary['financing_refinancing_count']}")
+        print(f"[Asset] Office-to-residential asset signal count: {asset_summary['office_conversion_count']}")
+        print(f"[Asset] Affordable / density bonus asset signal count: {asset_summary['affordable_density_count']}")
+        if la_asset_summary["recommended_follow_up"]:
+            print(f"[Asset] Recommended Woomi asset-level follow-up: {la_asset_summary['recommended_follow_up'][0]}")
+        else:
+            print("[Asset] Recommended Woomi asset-level follow-up: Continue monitoring asset-level clues")
+        print(f"[Lifecycle] Total lifecycle records: {lifecycle_summary['total_lifecycle_records']}")
+        print(f"[Lifecycle] Total LA lifecycle watch items: {la_lifecycle_summary['total_la_lifecycle_watch_items']}")
+        print("[Lifecycle] Stage distribution:")
+        if lifecycle_summary["stage_distribution"]:
+            for stage, count in lifecycle_summary["stage_distribution"].items():
+                print(f"[Lifecycle] {stage}: {count}")
+        else:
+            print("[Lifecycle] None detected")
+        if lifecycle_summary["top_lifecycle_opportunity"]:
+            top_lifecycle = lifecycle_summary["top_lifecycle_opportunity"]
+            print(
+                f"[Lifecycle] Top lifecycle opportunity: "
+                f"{top_lifecycle['canonical_asset_or_project_name']} "
+                f"({top_lifecycle['current_lifecycle_stage']}, {top_lifecycle['lifecycle_opportunity_score']})"
+            )
+        else:
+            print("[Lifecycle] Top lifecycle opportunity: None")
+        if lifecycle_summary["top_lifecycle_risk"]:
+            risk_lifecycle = lifecycle_summary["top_lifecycle_risk"]
+            print(
+                f"[Lifecycle] Top lifecycle risk: "
+                f"{risk_lifecycle['canonical_asset_or_project_name']} "
+                f"({risk_lifecycle['current_lifecycle_stage']}, {risk_lifecycle['lifecycle_risk_score']})"
+            )
+        else:
+            print("[Lifecycle] Top lifecycle risk: None")
+        print(f"[Lifecycle] Construction-ready / construction-start signal count: {lifecycle_summary['construction_ready_start_count']}")
+        print(f"[Lifecycle] Entitlement / planning signal count: {lifecycle_summary['entitlement_planning_count']}")
+        print(f"[Lifecycle] Stalled / distressed lifecycle signal count: {lifecycle_summary['stalled_distressed_count']}")
+        print(f"[Lifecycle] Refinancing / recapitalization lifecycle signal count: {lifecycle_summary['refinancing_recapitalization_count']}")
+        if lifecycle_summary["recommended_follow_up"]:
+            print(f"[Lifecycle] Recommended Woomi lifecycle follow-up: {lifecycle_summary['recommended_follow_up'][0]}")
+        else:
+            print("[Lifecycle] Recommended Woomi lifecycle follow-up: Continue monitoring project lifecycle stages")
+        print(f"[Transition] Total lifecycle transitions analyzed: {lifecycle_transition_summary['total_transitions']}")
+        print(f"[Transition] Newly detected projects: {lifecycle_transition_summary['newly_detected_count']}")
+        print(f"[Transition] Forward progression project count: {lifecycle_transition_summary['forward_progression_count']}")
+        print(f"[Transition] Possible stalled project count: {lifecycle_transition_summary['possible_stall_count']}")
+        print(f"[Transition] LA lifecycle transition watch count: {la_transition_summary['total_la_transition_watch_items']}")
+        if lifecycle_transition_summary["top_progression_signal"]:
+            top_transition = lifecycle_transition_summary["top_progression_signal"]
+            print(
+                f"[Transition] Strongest progression signal: "
+                f"{top_transition['canonical_asset_or_project_name']} "
+                f"({top_transition['transition_type']}, {top_transition['progression_score']})"
+            )
+        else:
+            print("[Transition] Strongest progression signal: None")
+        if lifecycle_transition_summary["highest_stall_risk"]:
+            stall_transition = lifecycle_transition_summary["highest_stall_risk"]
+            print(
+                f"[Transition] Highest stall risk signal: "
+                f"{stall_transition['canonical_asset_or_project_name']} "
+                f"({stall_transition['transition_type']}, {stall_transition['stall_risk_score']})"
+            )
+        else:
+            print("[Transition] Highest stall risk signal: None")
+        if lifecycle_transition_summary["recommended_follow_up"]:
+            print(f"[Transition] Recommended Woomi transition follow-up: {lifecycle_transition_summary['recommended_follow_up'][0]}")
+        else:
+            print("[Transition] Recommended Woomi transition follow-up: Continue monitoring transitions across runs")
+        print(f"[Project Identity] Total raw project references: {project_identity_summary['total_raw_references']}")
+        print(f"[Project Identity] Total canonical projects: {project_identity_summary['total_canonical_projects']}")
+        print(f"[Project Identity] Duplicate project clusters: {project_identity_summary['duplicate_clusters']}")
+        print(f"[Asset Memory] Total persistent assets tracked: {persistent_asset_summary['total_persistent_assets']}")
+        print(f"[Asset Memory] Total LA persistent asset watch items: {la_persistent_asset_summary['total_la_persistent_watch_items']}")
+        if project_identity_summary["top_repeated_project"]:
+            top_repeated = project_identity_summary["top_repeated_project"]
+            print(
+                f"[Project Identity] Top repeated project: "
+                f"{top_repeated['canonical_project_name']} "
+                f"({top_repeated['occurrence_count']} occurrence(s))"
+            )
+        else:
+            print("[Project Identity] Top repeated project: None")
+        if persistent_asset_summary["highest_priority_asset"]:
+            priority_asset = persistent_asset_summary["highest_priority_asset"]
+            print(
+                f"[Asset Memory] Highest priority asset watch item: "
+                f"{priority_asset['canonical_project_name']} "
+                f"({priority_asset['woomi_asset_watch_priority']}, {priority_asset['persistent_asset_score']})"
+            )
+        else:
+            print("[Asset Memory] Highest priority asset watch item: None")
+        print(f"[Asset Memory] Possible stalled asset count: {persistent_asset_summary['possible_stalled_count']}")
+        if persistent_asset_summary["recommended_follow_up"]:
+            print(f"[Asset Memory] Recommended Woomi asset memory follow-up: {persistent_asset_summary['recommended_follow_up'][0]}")
+        else:
+            print("[Asset Memory] Recommended Woomi asset memory follow-up: Continue monitoring canonical project identities")
+        print(f"[Signal Quality] Total signals evaluated: {signal_quality_summary['total_signals']}")
+        print(f"[Signal Quality] Institutional-grade signal count: {signal_quality_summary['institutional_grade_count']}")
+        print(f"[Signal Quality] High-confidence signal count: {signal_quality_summary['high_confidence_count']}")
+        print(f"[Signal Quality] Weak/noisy signal count: {signal_quality_summary['weak_noisy_count']}")
+        if high_confidence_summary["top_opportunity"]:
+            print(
+                f"[Signal Quality] Top institutional-grade opportunity: "
+                f"{high_confidence_summary['top_opportunity']['canonical_project_name']} "
+                f"({high_confidence_summary['top_opportunity']['overall_signal_quality_score']})"
+            )
+        else:
+            print("[Signal Quality] Top institutional-grade opportunity: None")
+        if high_confidence_summary["top_risk"]:
+            print(
+                f"[Signal Quality] Top institutional-grade risk: "
+                f"{high_confidence_summary['top_risk']['canonical_project_name']} "
+                f"({high_confidence_summary['top_risk']['risk_score']})"
+            )
+        else:
+            print("[Signal Quality] Top institutional-grade risk: None")
+        if signal_quality_summary["strongest_recurring_signal"]:
+            print(
+                f"[Signal Quality] Strongest recurring signal: "
+                f"{signal_quality_summary['strongest_recurring_signal']['canonical_project_name']} "
+                f"({signal_quality_summary['strongest_recurring_signal']['overall_signal_quality_score']})"
+            )
+        else:
+            print("[Signal Quality] Strongest recurring signal: None")
+        if signal_quality_summary["strongest_la_signal"]:
+            print(
+                f"[Signal Quality] Strongest LA / California signal: "
+                f"{signal_quality_summary['strongest_la_signal']['canonical_project_name']} "
+                f"({signal_quality_summary['strongest_la_signal']['overall_signal_quality_score']})"
+            )
+        else:
+            print("[Signal Quality] Strongest LA / California signal: None")
+        if high_confidence_summary["recommended_actions"]:
+            print(f"[Signal Quality] Recommended Woomi executive follow-up: {high_confidence_summary['recommended_actions'][0]}")
+        else:
+            print("[Signal Quality] Recommended Woomi executive follow-up: Monitor for confirmation")
+        print(f"[Dashboard] Total dashboard cards: {dashboard_summary['total_cards']}")
+        print(f"[Dashboard] Total dashboard watchlist items: {dashboard_summary['total_watchlist_items']}")
+        if dashboard_summary["top_card"]:
+            print(
+                f"[Dashboard] Top executive dashboard card: "
+                f"{dashboard_summary['top_card']['card_title']} "
+                f"({dashboard_summary['top_card']['card_type']}, {dashboard_summary['top_card']['card_score']})"
+            )
+        else:
+            print("[Dashboard] Top executive dashboard card: None")
+        print(f"[Dashboard] Recommended executive focus: {dashboard_summary['recommended_focus']}")
+        if opportunity_summary["executive_follow_up"]:
+            for action in opportunity_summary["executive_follow_up"]:
+                print(f"[Opportunity Follow-up] {action}")
+        else:
+            print("[Opportunity Follow-up] Continue monitoring for repeated opportunity signals")
+        print(
+            "[Memory] Strongest recurring GP: "
+            + historical_memory_summary["fastest_rising_gp"].get("entity_name", "None")
+        )
+        print(
+            "[Memory] Strongest recurring lender: "
+            + historical_memory_summary["strongest_lender"].get("entity_name", "None")
+        )
+        print(
+            "[Memory] Strongest persistent relationship: "
+            + (
+                f"{relationship_persistence_summary['strongest_relationship'].get('canonical_source_entity', 'None')} -> "
+                f"{relationship_persistence_summary['strongest_relationship'].get('canonical_target_entity', 'None')}"
+                if relationship_persistence_summary["strongest_relationship"]
+                else "None"
+            )
+        )
+        print(
+            "[Memory] Strongest California/LA recurring signal: "
+            + historical_memory_summary["strongest_california_la_signal"].get("entity_name", "None")
+        )
+        print(
+            "[Memory] Top refinancing stress pattern: "
+            + capital_flow_summary["top_refinancing_stress"].get("entity_name", "None")
+        )
+        print(
+            "[Memory] Top capital-flow market: "
+            + capital_flow_summary["top_capital_market"].get("entity_name", "None")
+        )
+        print("[GP Watchlist] Top 5 emerging GPs:")
+        if gp_watchlist_summary["top_five"]:
+            for row in gp_watchlist_summary["top_five"]:
+                print(
+                    f"[GP Watchlist] {row['canonical_gp_name']}: "
+                    f"{row['emerging_gp_score']} ({row['gp_tier']})"
+                )
+        else:
+            print("[GP Watchlist] None detected")
+        print(
+            "[GP Watchlist] Tier 1 Strategic GPs: "
+            + (
+                ", ".join(row["canonical_gp_name"] for row in gp_watchlist_summary["tier_1"])
+                if gp_watchlist_summary["tier_1"]
+                else "None"
+            )
+        )
+        print(
+            "[GP Watchlist] California / LA strategic watch GPs: "
+            + (
+                ", ".join(row["canonical_gp_name"] for row in gp_watchlist_summary["california_la_watch"][:10])
+                if gp_watchlist_summary["california_la_watch"]
+                else "None"
+            )
+        )
+        print(
+            "[GP Watchlist] Institutional capital magnet GPs: "
+            + (
+                ", ".join(row["canonical_gp_name"] for row in gp_watchlist_summary["institutional_capital_magnets"][:10])
+                if gp_watchlist_summary["institutional_capital_magnets"]
+                else "None"
+            )
+        )
+        print("[Sector] Top residential sectors:")
+        for row in sector_summary["top_sectors"]:
+            print(
+                f"[Sector] {row['residential_sector']}: "
+                f"{row['article_count']} article(s), "
+                f"{row['woomi_sector_relevance']}"
+            )
+        print(f"[Sector] Student Housing detected: {sector_summary['student_detected']}")
+        print(f"[Sector] Senior Housing detected: {sector_summary['senior_detected']}")
+        print(f"[Sector] BTR / SFR detected: {sector_summary['btr_detected']}")
+        print(f"[Sector] Office-to-Residential detected: {sector_summary['office_conversion_detected']}")
+        if entity_summary["top_canonical_firms"]:
+            for entity, count in entity_summary["top_canonical_firms"]:
+                print(f"[Entity Firm] {entity}: {count}")
+        else:
+            print("[Entity Firm] None detected")
+        if entity_summary["top_canonical_markets"]:
+            for entity, count in entity_summary["top_canonical_markets"]:
+                print(f"[Entity Market] {entity}: {count}")
+        else:
+            print("[Entity Market] None detected")
+        if entity_summary["weak_matches"]:
+            for row in entity_summary["weak_matches"][:5]:
+                print(
+                    f"[Entity Weak] {row['raw_entity']} -> "
+                    f"{row['canonical_entity']} ({row['confidence_score']})"
+                )
+        else:
+            print("[Entity Weak] None detected")
+        print(f"[Graph] Total relationship edges: {graph_summary['total_edges']}")
+        print(f"[Graph] Most connected developer / GP: {graph_summary['most_connected_developer_gp']}")
+        print(f"[Graph] Most connected lender / debt provider: {graph_summary['most_connected_lender']}")
+        print(f"[Graph] Most connected market: {graph_summary['most_connected_market']}")
+        if graph_summary["strongest_edge"]:
+            edge = graph_summary["strongest_edge"]
+            print(
+                f"[Graph] Strongest edge: {edge['source_entity']} -> "
+                f"{edge['target_entity']} ({edge['relationship_strength_score']})"
+            )
+        else:
+            print("[Graph] Strongest edge: None")
+        if graph_summary["partnership_signals"]:
+            for edge in graph_summary["partnership_signals"][:5]:
+                print(
+                    f"[Graph Partnership] {edge['source_entity']} -> "
+                    f"{edge['target_entity']}: {edge['recommended_follow_up']}"
+                )
+        else:
+            print("[Graph Partnership] None detected")
+        print(f"[Deal] Total deal/project signals: {deal_summary['total_deal_signals']}")
+        print(f"[Deal] High deal intelligence count: {deal_summary['high_deal_intelligence_count']}")
+        if deal_summary["top_deal_signal"]:
+            top_deal = deal_summary["top_deal_signal"]
+            print(
+                f"[Deal] Top signal: {top_deal['deal_type']} - "
+                f"{top_deal['project_or_deal_name']} "
+                f"({top_deal['deal_signal_score']})"
+            )
+        else:
+            print("[Deal] Top signal: None")
+
+        if deal_summary["california_la_deals"]:
+            for row in deal_summary["california_la_deals"][:5]:
+                print(f"[Deal California/LA] {row['deal_type']}: {row['source_article_title']}")
+        else:
+            print("[Deal California/LA] None detected")
+
+        if deal_summary["financing_refinancing_signals"]:
+            for row in deal_summary["financing_refinancing_signals"][:5]:
+                print(f"[Deal Financing] {row['deal_type']}: {row['source_article_title']}")
+        else:
+            print("[Deal Financing] None detected")
+        print(f"[Source Health] Total sources attempted: {source_health_summary['total_sources']}")
+        print(f"[Source Health] Working sources: {source_health_summary['working_sources']}")
+        print(f"[Source Health] Failing sources: {source_health_summary['failing_sources']}")
+        print(f"[Source Health] Placeholder sources: {source_health_summary['placeholder_sources']}")
+        if source_health_summary["high_value_sources"]:
+            for row in source_health_summary["high_value_sources"]:
+                print(
+                    f"[Source Health] High Value: {row['source_name']} "
+                    f"({row['articles_saved']} saved)"
+                )
+        else:
+            print("[Source Health] High Value: None")
+
+        if source_health_summary["manual_review_sources"]:
+            for row in source_health_summary["manual_review_sources"][:10]:
+                print(f"[Source Review] {row['source_name']}")
+        else:
+            print("[Source Review] None")
+        print(f"[GP Source Coverage] Total GP/developer sources tracked: {gp_source_coverage_summary['total_sources']}")
+        print(f"[GP Source Coverage] Working GP/developer sources: {len(gp_source_coverage_summary['working_sources'])}")
+        print(f"[GP Source Coverage] Placeholder/manual review sources: {len(gp_source_coverage_summary['placeholder_sources'])}")
+        if gp_source_coverage_summary["critical_missing_sources"]:
+            for row in gp_source_coverage_summary["critical_missing_sources"][:10]:
+                print(f"[GP Source Coverage] Critical missing: {row['source_name']}")
+        else:
+            print("[GP Source Coverage] Critical missing: None")
+        if gp_source_coverage_summary["new_gp_signal_sources"]:
+            for row in gp_source_coverage_summary["new_gp_signal_sources"][:10]:
+                print(
+                    f"[GP Source Coverage] GP signal source: {row['source_name']} "
+                    f"({row['gp_related_articles']} GP-related article(s))"
+                )
+        else:
+            print("[GP Source Coverage] New GP signals detected: None")
+        print(
+            "[Activation] Working GP sources: "
+            + (
+                ", ".join(row["source_name"] for row in source_activation_summary["working_gp_sources"][:10])
+                if source_activation_summary["working_gp_sources"]
+                else "None"
+            )
+        )
+        print(
+            "[Activation] Activated institutional sources: "
+            + (
+                ", ".join(row["source_name"] for row in source_activation_summary["activated_institutional_sources"][:10])
+                if source_activation_summary["activated_institutional_sources"]
+                else "None"
+            )
+        )
+        if source_activation_summary["highest_signal_source"]:
+            source_row = source_activation_summary["highest_signal_source"]
+            print(
+                f"[Activation] Highest-signal source: {source_row['source_name']} "
+                f"({source_row['source_quality_score']})"
+            )
+        else:
+            print("[Activation] Highest-signal source: None")
+        print(
+            "[Activation] Failed critical feeds: "
+            + (
+                ", ".join(row["source_name"] for row in source_activation_summary["failed_critical_sources"][:10])
+                if source_activation_summary["failed_critical_sources"]
+                else "None"
+            )
+        )
+        print(
+            "[Activation] California/LA source coverage: "
+            + (
+                ", ".join(row["source_name"] for row in source_activation_summary["california_la_sources"][:10])
+                if source_activation_summary["california_la_sources"]
+                else "None"
+            )
+        )
+        print(f"[Regime] Primary regime: {narrative_regime['primary_regime']}")
+        print(
+            f"[Regime] Secondary regime: "
+            f"{narrative_regime['secondary_regime'] or 'None detected'}"
+        )
+        print(f"[Regime] Confidence level: {narrative_regime['confidence']}")
+        print(f"[Done] Regime log updated: {REGIME_LOG_FILE}")
+        print(f"[Done] Regime transition report saved: {REGIME_TRANSITION_OUTPUT_FILE}")
+        print(f"[Transition] Label: {regime_transition['transition_label']}")
+        print(f"[Transition] Persistence count: {regime_transition['persistence_count']}")
+        print(f"[Done] Run log updated: {RUN_LOG_FILE}")
+        print(f"[Done] Trend alerts saved: {TREND_ALERTS_OUTPUT_FILE}")
+
+        for alert in key_thematic_alerts:
+            print(f"[Theme] {alert}")
+
+        for row in heatmap_rows:
+            print(
+                f"[Heatmap] {row['regime']}: "
+                f"{row['final_score']} ({row['strength_label']})"
+            )
+
+        print(
+            f"[Momentum] Top regime: {momentum_summary['top_regime']} "
+            f"({momentum_summary['top_score']})"
+        )
+        print(
+            f"[Momentum] Second regime: {momentum_summary['second_regime']} "
+            f"({momentum_summary['second_score']})"
+        )
+        print(f"[Momentum] Dominant regime spread: {momentum_summary['dominant_spread']}")
+
+        for row in momentum_rows:
+            print(f"[Momentum] {row['regime']}: {row['momentum_label']}")
+
+        print(
+            f"[Severity] Top severity regime: "
+            f"{severity_summary['top_severity_regime']} "
+            f"({severity_summary['top_severity_score']})"
+        )
+        print(
+            f"[Severity] Top conviction regime: "
+            f"{severity_summary['top_conviction_regime']} "
+            f"({severity_summary['top_conviction_score']})"
+        )
+
+        if severity_summary["immediate_attention_items"]:
+            print(
+                "[Severity] Immediate Attention: "
+                + ", ".join(severity_summary["immediate_attention_items"])
+            )
+        else:
+            print("[Severity] Immediate Attention: None")
+
+        print(
+            f"[Materiality] Top materiality regime: "
+            f"{materiality_summary['top_materiality_regime']} "
+            f"({materiality_summary['top_materiality_score']})"
+        )
+        print(
+            f"[Materiality] Top impact regime: "
+            f"{materiality_summary['top_impact_regime']} "
+            f"({materiality_summary['top_impact_score']})"
+        )
+
+        if materiality_summary["critical_business_impact_items"]:
+            print(
+                "[Materiality] Critical Business Impact: "
+                + ", ".join(materiality_summary["critical_business_impact_items"])
+            )
+        else:
+            print("[Materiality] Critical Business Impact: None")
+
+        print("[Executive] Top 3 priorities:")
+        for row in executive_priority_summary["top_three"]:
+            print(
+                f"[Executive] Rank {row['executive_priority_rank']}: "
+                f"{row['regime']} ({row['executive_priority_score']})"
+            )
+
+        print(
+            "[Executive] Tier 1: "
+            + (
+                ", ".join(executive_priority_summary["tier_1_items"])
+                if executive_priority_summary["tier_1_items"]
+                else "None"
+            )
+        )
+
+        for agenda_item in executive_priority_summary["management_agenda"]:
+            print(f"[Agenda] {agenda_item}")
+
+        print(f"[Scenario] Base Case: {scenario_summary['base_label']}")
+        print(f"[Scenario] Bull Case: {scenario_summary['bull_label']}")
+        print(f"[Scenario] Bear Case: {scenario_summary['bear_label']}")
+
+        for posture in scenario_summary["recommended_posture"]:
+            print(f"[Posture] {posture}")
+
+        print("[Regional] Top 5 markets:")
+        for row in regional_summary["top_markets"]:
+            print(
+                f"[Regional] {row['market']}: "
+                f"{row['woomi_market_relevance']}, "
+                f"{row['market_article_count']} article(s)"
+            )
+
+        for row in regional_summary["la_california_rows"]:
+            print(
+                f"[Regional] {row['market']} relevance: "
+                f"{row['woomi_market_relevance']}"
+            )
+
+        for action in regional_summary["follow_up_actions"]:
+            print(f"[Regional Action] {action}")
+
+        print("[GP] Top GP signals:")
+        if gp_summary["top_gp_signals"]:
+            for row in gp_summary["top_gp_signals"]:
+                print(
+                    f"[GP] {row['gp_name']}: "
+                    f"{row['institutional_signal_strength']} "
+                    f"({row['strategic_priority_label']})"
+                )
+        else:
+            print("[GP] None detected")
+
+        if gp_summary["california_la_activity"]:
+            for row in gp_summary["california_la_activity"]:
+                print(f"[GP California/LA] {row['gp_name']}: {row['activity_type']}")
+        else:
+            print("[GP California/LA] None detected")
+
+        if gp_summary["innovation_signals"]:
+            for row in gp_summary["innovation_signals"]:
+                print(f"[GP Innovation] {row['gp_name']}: {row['activity_type']}")
+        else:
+            print("[GP Innovation] None detected")
+
+        if gp_summary["partnership_implications"]:
+            for row in gp_summary["partnership_implications"]:
+                print(
+                    f"[GP Partnership] {row['gp_name']}: "
+                    f"{row['potential_implication_for_woomi']}"
+                )
+        else:
+            print("[GP Partnership] None detected")
+
+        print("[Institutional] Top relationship signals:")
+        if relationship_summary["top_relationship_signals"]:
+            for row in relationship_summary["top_relationship_signals"]:
+                print(
+                    f"[Institutional] {row['firm_name']}: "
+                    f"{row['institutional_relationship_score']} "
+                    f"({row['relationship_signal']})"
+                )
+        else:
+            print("[Institutional] None detected")
+
+        if relationship_summary["tier_1_watch"]:
+            for row in relationship_summary["tier_1_watch"]:
+                print(
+                    f"[Institutional Tier 1] {row['firm_name']}: "
+                    f"{row['capital_flow_signal']}"
+                )
+        else:
+            print("[Institutional Tier 1] None detected")
+
+        if relationship_summary["california_la_signals"]:
+            for row in relationship_summary["california_la_signals"]:
+                print(
+                    f"[Institutional California/LA] {row['firm_name']}: "
+                    f"{row['recommended_follow_up']}"
+                )
+        else:
+            print("[Institutional California/LA] None detected")
+
+        if relationship_summary["jv_partnership_signals"]:
+            for row in relationship_summary["jv_partnership_signals"]:
+                print(
+                    f"[Institutional JV] {row['firm_name']}: "
+                    f"{row['partnership_relevance_to_woomi']}"
+                )
+        else:
+            print("[Institutional JV] None detected")
+
+        for metric in trend_metrics:
+            print(f"[Trend] {metric['label']}: {metric['alert_label']}")
+
+        if SAVE_DATED_OUTPUT:
+            print(f"[Done] Dated output folder: {dated_output_dir}")
+
+    except Exception as error:
+        print(f"[Error] Failed to save CSV: {error}")
+        append_error_log_rows(datetime.now(), [{
+            "run_timestamp": datetime.now().strftime(TIMESTAMP_FORMAT),
+            "component": "Main pipeline",
+            "error_type": type(error).__name__,
+            "error_message": str(error),
+            "severity": "Critical",
+            "recommended_fix": "Review the traceback context, then rerun python -m py_compile news_collector.py and python news_collector.py.",
+        }])
+
+
+# ---------------------------------------------------------
+# 9. Main function
+# ---------------------------------------------------------
+
+def main():
+    print("Starting US Multifamily Research MVP")
+
+    all_articles = []
+    SOURCE_HEALTH_ROWS.clear()
+
+    for feed_info in RSS_FEEDS:
+        print(f"[Collecting] {feed_info['source']}")
+
+        articles = fetch_feed(feed_info)
+        print(f"  - Relevant articles: {len(articles)}")
+
+        all_articles.extend(articles)
+
+    unique_articles = remove_duplicates(all_articles)
+
+    # Sort highest-scoring articles first so the CSV opens with the
+    # most relevant developer-strategy intelligence.
+    unique_articles.sort(
+        key=lambda article: article["relevance_score"],
+        reverse=True,
+    )
+
+    save_to_csv(unique_articles)
+
+    print("Program finished")
+
+
+# ---------------------------------------------------------
+# 10. Run main() only when this file is executed directly
+# ---------------------------------------------------------
+
+if __name__ == "__main__":
+    main()

@@ -11854,6 +11854,209 @@ def page_rent_comp_lab(shared, filters):
     st.dataframe(empty_candidate_review_template(), use_container_width=True, hide_index=True)
 
 
+def build_rent_comp_query(criteria):
+    """Keep source queries simple because listing sites often ignore complex URL filters."""
+    return str(criteria.get("site_address", "") or "").strip()
+
+
+def build_google_search_url(query):
+    return f"https://www.google.com/search?q={quote_plus(query)}"
+
+
+def build_comp_search_pack(criteria):
+    """Create a source pack for manual candidate discovery and rent verification."""
+    address = build_rent_comp_query(criteria)
+    return [
+        {
+            "Group": "A. Find candidate properties",
+            "Source": "Google Maps",
+            "Search purpose": "Use this to identify candidate properties",
+            "Direct search link": f"https://www.google.com/maps/search/{quote_plus(f'luxury apartments near {address}')}",
+            "Suggested manual check item": "Start here to map nearby Class A or newer multifamily assets.",
+        },
+        {
+            "Group": "A. Find candidate properties",
+            "Source": "Google Search",
+            "Search purpose": "Use this to identify candidate properties",
+            "Direct search link": build_google_search_url(f"new apartment buildings near {address}"),
+            "Suggested manual check item": "Look for recently built or professionally managed apartment assets.",
+        },
+        {
+            "Group": "A. Find candidate properties",
+            "Source": "Google Search",
+            "Search purpose": "Use this to identify candidate properties",
+            "Direct search link": build_google_search_url(f"site:apartments.com apartments near {address}"),
+            "Suggested manual check item": "Use site-specific results to surface candidate Apartments.com listings.",
+        },
+        {
+            "Group": "B. Verify asking rents",
+            "Source": "Zillow",
+            "Search purpose": "Use this to verify asking rent and unit availability",
+            "Direct search link": f"https://www.google.com/search?q={quote_plus(f'Zillow apartments for rent near {address}')}",
+            "Suggested manual check item": "Verify active rent, unit type, concessions, and listing freshness.",
+        },
+        {
+            "Group": "B. Verify asking rents",
+            "Source": "Apartments.com",
+            "Search purpose": "Use this to verify asking rent and unit availability",
+            "Direct search link": f"https://www.apartments.com/apartments/?sk={quote_plus(f'apartments for rent near {address}')}",
+            "Suggested manual check item": "Check unit availability, floor plan, quoted rent, and specials.",
+        },
+        {
+            "Group": "B. Verify asking rents",
+            "Source": "Homes.com",
+            "Search purpose": "Use this to verify asking rent and unit availability",
+            "Direct search link": f"https://www.homes.com/apartments-for-rent/?q={quote_plus(f'apartments for rent near {address}')}",
+            "Suggested manual check item": "Cross-check rent and property quality against other listing sources.",
+        },
+        {
+            "Group": "C. Cross-check quality / exclusions",
+            "Source": "Google Search",
+            "Search purpose": "Use this to screen out non-comparable assets",
+            "Direct search link": build_google_search_url(f"{address} student housing senior housing furnished apartments"),
+            "Suggested manual check item": "Screen for student, senior, furnished, short-term, or otherwise non-comparable assets.",
+        },
+    ]
+
+
+def render_comp_search_card(row):
+    st.markdown(
+        f"""
+        <div class="pilot-card">
+            <div class="section-kicker">{row.get('Source', '')}</div>
+            <div class="signal-title">{row.get('Search purpose', '')}</div>
+            <div class="pilot-muted">{row.get('Suggested manual check item', '')}</div>
+            <div style="margin-top:0.45rem;">
+                <a href="{row.get('Direct search link', '#')}" target="_blank" rel="noopener noreferrer">Open source search</a>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+def render_analyst_search_criteria(criteria):
+    exclusions = criteria.get("exclusions", [])
+    exclusion_text = ", ".join(exclusions) if exclusions else "None"
+    st.markdown("### Analyst search criteria")
+    st.markdown(
+        f"""
+        <div class="pilot-card">
+            <div class="pilot-muted">
+                <strong>Radius:</strong> {criteria.get('radius')} miles<br>
+                <strong>Unit type:</strong> {criteria.get('unit_type')}<br>
+                <strong>Year built preference:</strong> {criteria.get('year_built')}<br>
+                <strong>Asset quality:</strong> {criteria.get('asset_quality')}<br>
+                <strong>Exclusions:</strong> {exclusion_text}
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        "<div class='rent-lab-note'>Radius and quality filters are analyst criteria. External sites may not preserve these filters automatically, so use the generated links to identify candidates and verify them manually.</div>",
+        unsafe_allow_html=True,
+    )
+
+
+def page_rent_comp_lab(shared, filters):
+    st.title("Micro Rent Intelligence")
+    st.caption("Nearby premium multifamily rent comps for underwriting reference")
+    st.markdown(
+        """
+        <style>
+        .rent-lab-note {
+            color:#64748b;
+            font-size:0.86rem;
+            line-height:1.45;
+            word-break:keep-all;
+            overflow-wrap:break-word;
+            margin:0.25rem 0 0.85rem 0;
+        }
+        @media (max-width: 768px) {
+            .rent-lab-note { font-size:0.84rem; }
+            div[data-testid="stDataFrame"] { max-width:100%; overflow-x:auto; }
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        "<div class='rent-lab-note'>This tool narrows the search universe for underwriting rent comps. Final comp selection and rent assumptions should be confirmed by analyst review.</div>",
+        unsafe_allow_html=True,
+    )
+
+    site_address = st.text_input("Enter Site Address", value="1045 Dewey Ave Los Angeles CA")
+    col_a, col_b = st.columns(2)
+    with col_a:
+        radius = st.selectbox("Search radius", ["0.5", "1.0", "2.0", "3.0"], index=1, format_func=lambda x: f"{x} miles")
+        unit_type = st.selectbox("Unit type", ["Any", "Studio", "1BR", "2BR"], index=0)
+        year_built = st.selectbox("Year built preference", ["Any", "2015+", "2020+"], index=0)
+    with col_b:
+        asset_quality = st.selectbox(
+            "Asset quality",
+            ["Premium multifamily", "Class A", "Newer apartment", "Any"],
+            index=0,
+        )
+        exclude_student = st.checkbox("Exclude student housing", value=True)
+        exclude_senior = st.checkbox("Exclude senior housing", value=True)
+        exclude_furnished = st.checkbox("Exclude furnished", value=False)
+        exclude_short_term = st.checkbox("Exclude short-term rental", value=True)
+
+    exclusions = []
+    if exclude_student:
+        exclusions.append("student housing")
+    if exclude_senior:
+        exclusions.append("senior housing")
+    if exclude_furnished:
+        exclusions.append("furnished")
+    if exclude_short_term:
+        exclusions.append("short-term rental")
+
+    criteria = {
+        "site_address": site_address,
+        "radius": radius,
+        "unit_type": unit_type,
+        "year_built": year_built,
+        "asset_quality": asset_quality,
+        "exclusions": exclusions,
+    }
+    st.button("Generate Rent Comps", use_container_width=False)
+
+    render_analyst_search_criteria(criteria)
+    search_pack = build_comp_search_pack(criteria)
+
+    st.markdown("### Comp Search Pack")
+    grouped = {}
+    for row in search_pack:
+        grouped.setdefault(row["Group"], []).append(row)
+    for group, rows in grouped.items():
+        st.markdown(f"#### {group}")
+        for row in rows:
+            render_comp_search_card(row)
+
+    st.markdown("### Suggested review sequence")
+    st.markdown(
+        """
+        1. Open Google Maps candidate search.
+        2. Pick 5~8 relevant Class A / newer multifamily assets.
+        3. Verify current asking rents on Zillow / Apartments.com / Homes.com.
+        4. Record rent, concession, unit type, source, and notes.
+        """
+    )
+
+    st.markdown("### Candidate Review Template")
+    st.caption("Analyst worksheet for recording observed nearby asking rents after checking the source links.")
+    st.markdown(
+        "<div class='rent-lab-note'>Template fields: Property · Distance · Year Built · Unit Type · Asking Rent · Concession · Source · Notes</div>",
+        unsafe_allow_html=True,
+    )
+    st.dataframe(empty_candidate_review_template(), use_container_width=True, hide_index=True)
+
+    with st.expander("Search pack table", expanded=False):
+        st.dataframe(pd.DataFrame(search_pack), use_container_width=True, hide_index=True)
+
+
 def main():
     st.set_page_config(
         page_title="US Residential Intelligence",

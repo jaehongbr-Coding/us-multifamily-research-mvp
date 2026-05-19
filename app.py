@@ -8,6 +8,7 @@ does not need a database, and does not modify the collector pipeline.
 from datetime import datetime
 from difflib import SequenceMatcher
 from pathlib import Path
+from urllib.parse import quote_plus
 import re
 
 import pandas as pd
@@ -11660,6 +11661,197 @@ def page_rent_comp_lab(shared, filters):
             - Underwriting rent recommendation workflow
             """
         )
+
+
+def build_rent_comp_query(criteria):
+    """Build a source-search phrase for analyst rent comp screening."""
+    parts = [
+        criteria.get("site_address", ""),
+        f"apartments for rent within {criteria.get('radius', '1.0')} miles",
+    ]
+    unit_type = criteria.get("unit_type", "Any")
+    if unit_type != "Any":
+        parts.append(unit_type)
+    year_built = criteria.get("year_built", "Any")
+    if year_built != "Any":
+        parts.append(f"built {year_built}")
+    asset_quality = criteria.get("asset_quality", "Any")
+    if asset_quality != "Any":
+        parts.append(asset_quality)
+    for excluded in criteria.get("exclusions", []):
+        parts.append(f"-{excluded}")
+    return " ".join(part for part in parts if part).strip()
+
+
+def build_comp_search_pack(criteria):
+    """Create direct source search links without claiming automated rent extraction."""
+    query = build_rent_comp_query(criteria)
+    encoded_query = quote_plus(query)
+    encoded_address = quote_plus(criteria.get("site_address", ""))
+    return [
+        {
+            "Source": "Zillow",
+            "Search purpose": "Check nearby asking rents and active apartment listings",
+            "Direct search link": f"https://www.zillow.com/homes/for_rent/?searchQueryState=%7B%22usersSearchTerm%22%3A%22{encoded_address}%22%7D",
+            "Suggested manual check item": "Confirm unit type, quoted rent, concessions, building age, and multifamily relevance.",
+        },
+        {
+            "Source": "Homes.com",
+            "Search purpose": "Cross-check active multifamily rental listings near the site",
+            "Direct search link": f"https://www.homes.com/apartments-for-rent/?q={encoded_query}",
+            "Suggested manual check item": "Review comparable quality, distance, rent basis, parking, and amenity package.",
+        },
+        {
+            "Source": "Apartments.com",
+            "Search purpose": "Review professionally managed apartment comps and unit availability",
+            "Direct search link": f"https://www.apartments.com/apartments/?sk={encoded_query}",
+            "Suggested manual check item": "Check property class, unit plan, quoted rent, specials, and availability date.",
+        },
+        {
+            "Source": "Google Maps",
+            "Search purpose": "Identify nearby premium apartment candidates and verify distance context",
+            "Direct search link": f"https://www.google.com/maps/search/{encoded_query}",
+            "Suggested manual check item": "Use map proximity to screen out non-comparable locations and weaker assets.",
+        },
+    ]
+
+
+def empty_candidate_review_template():
+    """Blank analyst table for manual rent comp review."""
+    return pd.DataFrame(
+        [
+            {
+                "Property": "",
+                "Distance": "",
+                "Year Built": "",
+                "Unit Type": "",
+                "Asking Rent": "",
+                "Concession": "",
+                "Source": "",
+                "Notes": "",
+            }
+            for _ in range(8)
+        ]
+    )
+
+
+def render_comp_search_card(row):
+    st.markdown(
+        f"""
+        <div class="pilot-card">
+            <div class="section-kicker">{row.get('Source', '')}</div>
+            <div class="signal-title">{row.get('Search purpose', '')}</div>
+            <div class="pilot-muted">{row.get('Suggested manual check item', '')}</div>
+            <div style="margin-top:0.45rem;">
+                <a href="{row.get('Direct search link', '#')}" target="_blank" rel="noopener noreferrer">Open source search</a>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+def page_rent_comp_lab(shared, filters):
+    st.title("Micro Rent Intelligence")
+    st.caption("Nearby premium multifamily rent comps for underwriting reference")
+    st.markdown(
+        """
+        <style>
+        .rent-lab-note {
+            color:#64748b;
+            font-size:0.86rem;
+            line-height:1.45;
+            word-break:keep-all;
+            overflow-wrap:break-word;
+            margin:0.25rem 0 0.85rem 0;
+        }
+        .rent-pack-grid {
+            display:grid;
+            grid-template-columns:repeat(2, minmax(0, 1fr));
+            gap:0.55rem;
+            margin:0.35rem 0 0.8rem 0;
+        }
+        @media (max-width: 768px) {
+            .rent-lab-note { font-size:0.84rem; }
+            .rent-pack-grid { display:block; }
+            div[data-testid="stDataFrame"] { max-width:100%; overflow-x:auto; }
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+    st.markdown(
+        "<div class='rent-lab-note'>This tool narrows the search universe for underwriting rent comps. Final comp selection and rent assumptions should be confirmed by analyst review.</div>",
+        unsafe_allow_html=True,
+    )
+
+    site_address = st.text_input("Enter Site Address", value="1045 Dewey Ave Los Angeles CA")
+    col_a, col_b = st.columns(2)
+    with col_a:
+        radius = st.selectbox("Search radius", ["0.5", "1.0", "2.0", "3.0"], index=1, format_func=lambda x: f"{x} miles")
+        unit_type = st.selectbox("Unit type", ["Any", "Studio", "1BR", "2BR"], index=0)
+        year_built = st.selectbox("Year built preference", ["Any", "2015+", "2020+"], index=0)
+    with col_b:
+        asset_quality = st.selectbox(
+            "Asset quality",
+            ["Premium multifamily", "Class A", "Newer apartment", "Any"],
+            index=0,
+        )
+        exclude_student = st.checkbox("Exclude student housing", value=True)
+        exclude_senior = st.checkbox("Exclude senior housing", value=True)
+        exclude_furnished = st.checkbox("Exclude furnished", value=False)
+        exclude_short_term = st.checkbox("Exclude short-term rental", value=True)
+
+    exclusions = []
+    if exclude_student:
+        exclusions.append("student housing")
+    if exclude_senior:
+        exclusions.append("senior housing")
+    if exclude_furnished:
+        exclusions.append("furnished")
+    if exclude_short_term:
+        exclusions.append("short-term rental")
+
+    criteria = {
+        "site_address": site_address,
+        "radius": radius,
+        "unit_type": unit_type,
+        "year_built": year_built,
+        "asset_quality": asset_quality,
+        "exclusions": exclusions,
+    }
+    generate = st.button("Generate Rent Comps", use_container_width=False)
+    if generate:
+        st.session_state["rent_comp_generated"] = True
+
+    # Keep links tied to the visible inputs so criteria changes immediately refresh the candidate pack.
+    search_pack = build_comp_search_pack(criteria)
+
+    st.markdown("### Comp Search Pack")
+    st.caption("Direct source searches generated from the current site address and comp criteria.")
+    for row in search_pack:
+        render_comp_search_card(row)
+
+    with st.expander("Search pack table", expanded=False):
+        table_rows = []
+        for row in search_pack:
+            table_rows.append(
+                {
+                    "Source": row["Source"],
+                    "Search purpose": row["Search purpose"],
+                    "Direct search link": row["Direct search link"],
+                    "Suggested manual check item": row["Suggested manual check item"],
+                }
+            )
+        st.dataframe(pd.DataFrame(table_rows), use_container_width=True, hide_index=True)
+
+    st.markdown("### Candidate Review Template")
+    st.caption("Analyst worksheet for recording observed nearby asking rents after checking the source links.")
+    st.markdown(
+        "<div class='rent-lab-note'>Template fields: Property · Distance · Year Built · Unit Type · Asking Rent · Concession · Source · Notes</div>",
+        unsafe_allow_html=True,
+    )
+    st.dataframe(empty_candidate_review_template(), use_container_width=True, hide_index=True)
 
 
 def main():

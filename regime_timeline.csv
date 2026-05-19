@@ -1,7 +1,0 @@
-﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
-20260519-101015-3b20d522,2026-05-19,Construction financing still selective,Building,stable,7,7,7,2.29,2.14,2,2,2,0,New York,Early Signal,steady visibility,
-20260519-101015-3b20d522,2026-05-19,Institutional recap over expansion,Building,stable,7,7,7,1.86,2.0,2,2,2,1,New York,Early Signal,steady visibility,
-20260519-101015-3b20d522,2026-05-19,JV / partnership activity observed,Persistent,stable,7,7,7,3.57,2.86,4,4,3,1,New York,Moderate Signal,steady visibility,
-20260519-101015-3b20d522,2026-05-19,LA entitlement precedent accumulation,Persistent,stable,7,7,7,8.57,3.86,9,9,4,0,Los Angeles,Broadly Confirmed,steady visibility,
-20260519-101015-3b20d522,2026-05-19,Refinancing pressure unresolved,Building,stable,6,6,6,1.71,1.86,2,2,2,1,New York,Early Signal,steady visibility,
-20260519-101015-3b20d522,2026-05-19,Sun Belt lease-up pressure watch,Building,stable,7,7,7,2.43,2.29,2,2,2,0,National,Early Signal,steady visibility,

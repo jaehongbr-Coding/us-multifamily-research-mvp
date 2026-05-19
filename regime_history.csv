@@ -1,0 +1,43 @@
+﻿run_id,run_date,cluster_title,article_count,retained_evidence_count,confidence_label,dominant_market,dominant_financing_pattern,cluster_status,synthesis_participation,source_diversity,lender_diversity,dominant_source_share
+20260519-094328-3cc9b605,2026-05-18,Construction financing still selective,4,4,Moderate Signal,Los Angeles,construction loan,stable,,3,1,0.5
+20260519-094328-3cc9b605,2026-05-19,Construction financing still selective,2,2,Early Signal,New York,construction financing,stable,,2,0,0.5
+20260519-094328-3cc9b605,2026-05-19,Construction financing still selective,2,2,Early Signal,New York,construction financing,stable,,2,0,0.5
+20260519-094539-12048fc0,2026-05-19,Construction financing still selective,2,2,Early Signal,New York,construction financing,stable,,2,0,0.5
+20260519-094653-54bed00b,2026-05-19,Construction financing still selective,2,2,Early Signal,New York,construction financing,stable,,2,0,0.5
+20260519-100239-266bdd6c,2026-05-19,Construction financing still selective,2,2,Early Signal,New York,construction financing,stable,,2,0,0.5
+20260519-101015-3b20d522,2026-05-19,Construction financing still selective,2,2,Early Signal,New York,construction financing,stable,,2,0,0.5
+20260519-094328-3cc9b605,2026-05-18,Institutional recap over expansion,1,1,Source-Concentrated,National,,stable,,1,0,1.0
+20260519-094328-3cc9b605,2026-05-19,Institutional recap over expansion,2,2,Early Signal,New York,refinancing,stable,,2,1,0.5
+20260519-094328-3cc9b605,2026-05-19,Institutional recap over expansion,2,2,Early Signal,New York,refinancing,stable,,2,1,0.5
+20260519-094539-12048fc0,2026-05-19,Institutional recap over expansion,2,2,Early Signal,New York,refinancing,stable,,2,1,0.5
+20260519-094653-54bed00b,2026-05-19,Institutional recap over expansion,2,2,Early Signal,New York,refinancing,stable,,2,1,0.5
+20260519-100239-266bdd6c,2026-05-19,Institutional recap over expansion,2,2,Early Signal,New York,refinancing,stable,,2,1,0.5
+20260519-101015-3b20d522,2026-05-19,Institutional recap over expansion,2,2,Early Signal,New York,refinancing,stable,,2,1,0.5
+20260519-094328-3cc9b605,2026-05-18,JV / partnership activity observed,1,1,Source-Concentrated,Sun Belt,,stable,,1,0,1.0
+20260519-094328-3cc9b605,2026-05-19,JV / partnership activity observed,4,4,Moderate Signal,New York,,stable,,3,1,0.5
+20260519-094328-3cc9b605,2026-05-19,JV / partnership activity observed,4,4,Moderate Signal,New York,,stable,,3,1,0.5
+20260519-094539-12048fc0,2026-05-19,JV / partnership activity observed,4,4,Moderate Signal,New York,,stable,,3,1,0.5
+20260519-094653-54bed00b,2026-05-19,JV / partnership activity observed,4,4,Moderate Signal,New York,,stable,,3,1,0.5
+20260519-100239-266bdd6c,2026-05-19,JV / partnership activity observed,4,4,Moderate Signal,New York,,stable,,3,1,0.5
+20260519-101015-3b20d522,2026-05-19,JV / partnership activity observed,4,4,Moderate Signal,New York,,stable,,3,1,0.5
+20260519-094328-3cc9b605,2026-05-18,LA entitlement precedent accumulation,6,6,Moderate Signal,Los Angeles,,fading,,2,0,0.667
+20260519-094328-3cc9b605,2026-05-19,LA entitlement precedent accumulation,9,9,Broadly Confirmed,Los Angeles,,stable,,4,0,0.333
+20260519-094328-3cc9b605,2026-05-19,LA entitlement precedent accumulation,9,9,Broadly Confirmed,Los Angeles,,stable,,4,0,0.333
+20260519-094539-12048fc0,2026-05-19,LA entitlement precedent accumulation,9,9,Broadly Confirmed,Los Angeles,,stable,,4,0,0.333
+20260519-094653-54bed00b,2026-05-19,LA entitlement precedent accumulation,9,9,Broadly Confirmed,Los Angeles,,stable,,4,0,0.333
+20260519-100239-266bdd6c,2026-05-19,LA entitlement precedent accumulation,9,9,Broadly Confirmed,Los Angeles,,stable,,4,0,0.333
+20260519-101015-3b20d522,2026-05-19,LA entitlement precedent accumulation,9,9,Broadly Confirmed,Los Angeles,,stable,,4,0,0.333
+20260519-094328-3cc9b605,2026-05-18,Refinancing pressure unresolved,0,0,Low Confidence,,,inactive,,0,0,0
+20260519-094328-3cc9b605,2026-05-19,Refinancing pressure unresolved,2,2,Early Signal,New York,refinancing,stable,,2,1,0.5
+20260519-094328-3cc9b605,2026-05-19,Refinancing pressure unresolved,2,2,Early Signal,New York,refinancing,stable,,2,1,0.5
+20260519-094539-12048fc0,2026-05-19,Refinancing pressure unresolved,2,2,Early Signal,New York,refinancing,stable,,2,1,0.5
+20260519-094653-54bed00b,2026-05-19,Refinancing pressure unresolved,2,2,Early Signal,New York,refinancing,stable,,2,1,0.5
+20260519-100239-266bdd6c,2026-05-19,Refinancing pressure unresolved,2,2,Early Signal,New York,refinancing,stable,,2,1,0.5
+20260519-101015-3b20d522,2026-05-19,Refinancing pressure unresolved,2,2,Early Signal,New York,refinancing,stable,,2,1,0.5
+20260519-094328-3cc9b605,2026-05-18,Sun Belt lease-up pressure watch,5,5,Broadly Confirmed,Sun Belt,,stable,,5,0,0.2
+20260519-094328-3cc9b605,2026-05-19,Sun Belt lease-up pressure watch,2,2,Early Signal,National,,stable,,2,0,0.5
+20260519-094328-3cc9b605,2026-05-19,Sun Belt lease-up pressure watch,2,2,Early Signal,National,,stable,,2,0,0.5
+20260519-094539-12048fc0,2026-05-19,Sun Belt lease-up pressure watch,2,2,Early Signal,National,,stable,,2,0,0.5
+20260519-094653-54bed00b,2026-05-19,Sun Belt lease-up pressure watch,2,2,Early Signal,National,,stable,,2,0,0.5
+20260519-100239-266bdd6c,2026-05-19,Sun Belt lease-up pressure watch,2,2,Early Signal,National,,stable,,2,0,0.5
+20260519-101015-3b20d522,2026-05-19,Sun Belt lease-up pressure watch,2,2,Early Signal,National,,stable,,2,0,0.5

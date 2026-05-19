@@ -1,0 +1,26 @@
+﻿run_date,run_id,source_name,attempted_url_or_feed,status,article_count_fetched,site_parcel_candidate_count,reason_if_unavailable
+2026-05-19,20260519-101015-3b20d522,REBusiness Online,https://rebusinessonline.com/feed/atom/,no relevant articles,20,0,No saved Site / Parcel candidates detected
+2026-05-19,20260519-101015-3b20d522,Connect CRE Apartments,https://www.connectcre.com/feed?property-sector=apartments,error,0,0,RSS parsing issue
+2026-05-19,20260519-101015-3b20d522,Connect CRE Texas,https://www.connectcre.com/feed?story-market=texas,error,0,0,RSS parsing issue
+2026-05-19,20260519-101015-3b20d522,Connect CRE South Florida,https://www.connectcre.com/feed?story-market=south-florida,error,0,0,RSS parsing issue
+2026-05-19,20260519-101015-3b20d522,Connect CRE Phoenix,https://www.connectcre.com/feed?story-market=phoenix,error,0,0,RSS parsing issue
+2026-05-19,20260519-101015-3b20d522,Connect CRE Atlanta,https://www.connectcre.com/feed?story-market=atlanta,error,0,0,RSS parsing issue
+2026-05-19,20260519-101015-3b20d522,Connect CRE Charlotte,https://www.connectcre.com/feed?story-market=charlotte,error,0,0,RSS parsing issue
+2026-05-19,20260519-101015-3b20d522,Connect CRE Orange County,https://www.connectcre.com/feed?story-market=orange-county,error,0,0,RSS parsing issue
+2026-05-19,20260519-101015-3b20d522,CRE Daily,,skipped,0,0,No public feed URL configured
+2026-05-19,20260519-101015-3b20d522,Institutional Property Advisors,,skipped,0,0,No public feed URL configured
+2026-05-19,20260519-101015-3b20d522,JLL Newsroom,,skipped,0,0,No public feed URL configured
+2026-05-19,20260519-101015-3b20d522,CBRE Newsroom,,skipped,0,0,No public feed URL configured
+2026-05-19,20260519-101015-3b20d522,Cushman & Wakefield Newsroom,,skipped,0,0,No public feed URL configured
+2026-05-19,20260519-101015-3b20d522,Marcus & Millichap Newsroom,,skipped,0,0,No public feed URL configured
+2026-05-19,20260519-101015-3b20d522,Dallas Business Journal,,skipped,0,0,No public feed URL configured
+2026-05-19,20260519-101015-3b20d522,Austin Business Journal,,skipped,0,0,No public feed URL configured
+2026-05-19,20260519-101015-3b20d522,South Florida Business Journal,,skipped,0,0,No public feed URL configured
+2026-05-19,20260519-101015-3b20d522,Phoenix Business Journal,,skipped,0,0,No public feed URL configured
+2026-05-19,20260519-101015-3b20d522,Atlanta Business Chronicle,,skipped,0,0,No public feed URL configured
+2026-05-19,20260519-101015-3b20d522,Charlotte Business Journal,,skipped,0,0,No public feed URL configured
+2026-05-19,20260519-101015-3b20d522,Los Angeles Business Journal,,skipped,0,0,No public feed URL configured
+2026-05-19,20260519-101015-3b20d522,San Francisco Business Times,,skipped,0,0,No public feed URL configured
+2026-05-19,20260519-101015-3b20d522,Orange County Business Journal,,skipped,0,0,No public feed URL configured
+2026-05-19,20260519-101015-3b20d522,Denver Business Journal,,skipped,0,0,No public feed URL configured
+2026-05-19,20260519-101015-3b20d522,Nashville Business Journal,,skipped,0,0,No public feed URL configured

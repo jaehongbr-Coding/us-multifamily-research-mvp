@@ -33,6 +33,8 @@ from bs4 import BeautifulSoup
 # ---------------------------------------------------------
 
 OUTPUT_DIR = "output"
+INPUT_DIR = "input"
+COSTAR_INPUT_DIR = os.path.join(INPUT_DIR, "costar")
 RUNS_DIR = os.path.join(OUTPUT_DIR, "runs")
 RUN_LOG_FILE = os.path.join(OUTPUT_DIR, "run_log.csv")
 ERROR_LOG_FILE = os.path.join(OUTPUT_DIR, "error_log.csv")
@@ -58,6 +60,14 @@ SOURCE_HEALTH_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "source_health.csv")
 SOURCE_COVERAGE_REPORT_OUTPUT_FILE = os.path.join(
     OUTPUT_DIR,
     "source_coverage_report.csv",
+)
+COSTAR_INTAKE_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "costar_intake_report.csv",
+)
+COSTAR_INTAKE_REPORT_MD_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "costar_intake_report.md",
 )
 MARKET_INTELLIGENCE_DIAGNOSTICS_OUTPUT_FILE = os.path.join(
     OUTPUT_DIR,
@@ -776,6 +786,14 @@ SOURCE_REGISTRY.extend(GP_SOURCE_EXPANSION_SOURCES)
 
 RSS_FEEDS = SOURCE_REGISTRY
 SOURCE_HEALTH_ROWS = []
+COSTAR_INTAKE_DIAGNOSTIC_ROWS = []
+COSTAR_INTAKE_SUMMARY = {
+    "files_loaded": 0,
+    "rows_loaded": 0,
+    "rows_accepted": 0,
+    "rows_skipped": 0,
+    "missing_required_fields": "",
+}
 
 
 # ---------------------------------------------------------
@@ -2694,6 +2712,442 @@ def read_csv_fieldnames(path):
     with open(path, mode="r", newline="", encoding="utf-8-sig") as file:
         reader = csv.DictReader(file)
         return reader.fieldnames or []
+
+
+def normalize_costar_column_name(name):
+    """Normalize a manually exported column name for flexible matching."""
+    return re.sub(r"[^a-z0-9]+", "", str(name).strip().lower())
+
+
+def get_costar_row_value(row, candidate_names):
+    """Return the first non-empty value from a row using flexible column names."""
+    normalized_row = {
+        normalize_costar_column_name(key): value
+        for key, value in row.items()
+    }
+
+    for candidate in candidate_names:
+        value = normalized_row.get(normalize_costar_column_name(candidate), "")
+        if value is None:
+            continue
+        text_value = clean_text(str(value))
+        if text_value:
+            return text_value
+
+    return ""
+
+
+def read_costar_csv_rows(path):
+    """Read a manually exported CoStar CSV using common encodings."""
+    last_error = None
+    for encoding in ["utf-8-sig", "utf-8", "cp1252"]:
+        try:
+            with open(path, mode="r", newline="", encoding=encoding) as file:
+                return list(csv.DictReader(file))
+        except UnicodeDecodeError as error:
+            last_error = error
+
+    raise last_error or ValueError("Unable to read CSV file")
+
+
+def read_costar_excel_rows(path):
+    """Read a manually exported CoStar Excel file when pandas support exists."""
+    try:
+        import pandas as pd
+    except Exception as error:
+        raise RuntimeError(
+            "Excel intake requires pandas and an Excel engine such as openpyxl."
+        ) from error
+
+    dataframe = pd.read_excel(path)
+    dataframe = dataframe.fillna("")
+    return dataframe.to_dict("records")
+
+
+def read_costar_intake_rows(path):
+    """Read supported CoStar intake files without any web scraping."""
+    extension = os.path.splitext(path)[1].lower()
+
+    if extension == ".csv":
+        return read_costar_csv_rows(path)
+
+    if extension in {".xlsx", ".xls"}:
+        return read_costar_excel_rows(path)
+
+    raise ValueError("Unsupported CoStar intake file type")
+
+
+def infer_costar_residential_sector(text, asset_type):
+    """Prefer CoStar asset type, then fall back to existing sector detection."""
+    asset_type_lower = str(asset_type).lower()
+    combined_text = f"{asset_type} {text}".lower()
+
+    if "student" in combined_text:
+        return "Student Housing"
+    if "senior" in combined_text:
+        return "Senior Housing"
+    if "affordable" in combined_text:
+        return "Affordable Housing"
+    if any(token in combined_text for token in ["build-to-rent", "built-to-rent", "btr", "single-family rental", "sfr"]):
+        return "Build-to-Rent / SFR"
+    if any(token in asset_type_lower for token in ["multifamily", "apartment", "residential"]):
+        return "Multifamily"
+
+    return get_residential_sector(combined_text)
+
+
+def normalize_costar_intake_row(row, file_name, row_number):
+    """Convert one manual CoStar row into the existing article schema."""
+    title = get_costar_row_value(row, [
+        "title",
+        "headline",
+        "article title",
+        "report title",
+        "name",
+    ])
+    summary = get_costar_row_value(row, [
+        "summary",
+        "snippet",
+        "description",
+        "abstract",
+        "body",
+        "notes",
+        "excerpt",
+    ])
+    published = get_costar_row_value(row, [
+        "published_date",
+        "published",
+        "publication date",
+        "article date",
+        "date",
+        "posted",
+    ])
+    url_or_reference = get_costar_row_value(row, [
+        "url",
+        "link",
+        "article url",
+        "source url",
+        "reference",
+        "report link",
+        "costar url",
+    ])
+    market = get_costar_row_value(row, [
+        "market",
+        "metro",
+        "city",
+        "submarket",
+        "location",
+    ])
+    region = get_costar_row_value(row, [
+        "region",
+        "state",
+        "geography",
+        "county",
+    ])
+    asset_type = get_costar_row_value(row, [
+        "asset_type",
+        "asset type",
+        "property type",
+        "sector",
+        "use",
+    ])
+    raw_category = get_costar_row_value(row, [
+        "raw_category",
+        "category",
+        "topic",
+        "topics",
+        "type",
+        "tag",
+        "tags",
+    ])
+
+    missing_fields = []
+    if not title:
+        missing_fields.append("title")
+        return None, missing_fields
+
+    article_text_sample = get_article_text_sample(summary)
+    combined_text = " ".join([
+        title,
+        summary,
+        market,
+        region,
+        asset_type,
+        raw_category,
+    ])
+    combined_lower = combined_text.lower()
+    source_category = "Manual Licensed Intake"
+
+    relevance_score, matched_keywords, extracted_numbers, market_signal = score_article(
+        "CoStar",
+        title,
+        summary,
+        article_text_sample,
+        source_category=source_category,
+    )
+    relevance_score = max(relevance_score, 65)
+    market_focus = market or region or get_market_focus(combined_lower)
+    residential_sector = infer_costar_residential_sector(combined_text, asset_type)
+    matched_topics = classify_article(combined_lower)
+    strategic_angle = get_strategic_angle(combined_lower)
+    action_level = get_action_level(relevance_score)
+    decision_use = get_decision_use(strategic_angle)
+    if raw_category and raw_category not in matched_topics:
+        matched_topics.append(raw_category)
+
+    reference = url_or_reference or f"CoStar manual export: {file_name} row {row_number}"
+
+    return {
+        "collected_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "source": "CoStar",
+        "source_category": source_category,
+        "platform_type": "Manual Export",
+        "residential_sector": residential_sector,
+        "published": published,
+        "relevance_score": relevance_score,
+        "priority": get_priority(relevance_score),
+        "action_level": action_level,
+        "market_focus": market_focus,
+        "strategic_angle": strategic_angle,
+        "decision_use": decision_use,
+        "strategic_implication": get_strategic_implication(
+            relevance_score,
+            action_level,
+            strategic_angle,
+            market_focus,
+            decision_use,
+            market_signal,
+            extracted_numbers,
+            matched_keywords,
+        ),
+        "woomi_relevance": get_woomi_relevance(
+            relevance_score,
+            action_level,
+            strategic_angle,
+            market_signal,
+        ),
+        "recommended_next_step": "Analyst review of manually exported CoStar source",
+        "reason_for_inclusion": (
+            "Included from a manually exported CoStar file. "
+            "No CoStar scraping, login automation, or paywall bypass was used."
+        ),
+        "market_signal": market_signal,
+        "extracted_numbers": "; ".join(extracted_numbers[:12]),
+        "article_text_sample": article_text_sample,
+        "topics": "; ".join(matched_topics),
+        "matched_keywords": "; ".join(matched_keywords[:12]),
+        "title": title,
+        "url": reference,
+    }, missing_fields
+
+
+def reset_costar_intake_diagnostics():
+    """Clear CoStar intake diagnostics before each collector run."""
+    COSTAR_INTAKE_DIAGNOSTIC_ROWS.clear()
+    COSTAR_INTAKE_SUMMARY.update({
+        "files_loaded": 0,
+        "rows_loaded": 0,
+        "rows_accepted": 0,
+        "rows_skipped": 0,
+        "missing_required_fields": "",
+    })
+
+
+def load_costar_intake_files():
+    """
+    Load manually exported CoStar CSV/XLS/XLSX files from input/costar/.
+
+    This function is intentionally offline-only. It never logs in, scrapes,
+    calls CoStar, or attempts to bypass subscription controls.
+    """
+    reset_costar_intake_diagnostics()
+    os.makedirs(COSTAR_INPUT_DIR, exist_ok=True)
+
+    supported_extensions = {".csv", ".xlsx", ".xls"}
+    intake_files = sorted(
+        os.path.join(COSTAR_INPUT_DIR, file_name)
+        for file_name in os.listdir(COSTAR_INPUT_DIR)
+        if os.path.isfile(os.path.join(COSTAR_INPUT_DIR, file_name))
+        and os.path.splitext(file_name)[1].lower() in supported_extensions
+    )
+    costar_articles = []
+    missing_field_counter = Counter()
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    if not intake_files:
+        COSTAR_INTAKE_DIAGNOSTIC_ROWS.append({
+            "generated_at": generated_at,
+            "file_name": "",
+            "file_type": "",
+            "file_status": "no files",
+            "rows_loaded": 0,
+            "rows_accepted": 0,
+            "rows_skipped": 0,
+            "missing_required_fields": "",
+            "notes": f"No supported CoStar files found in {COSTAR_INPUT_DIR}.",
+        })
+        return costar_articles
+
+    for path in intake_files:
+        file_name = os.path.basename(path)
+        file_type = os.path.splitext(path)[1].lower().lstrip(".")
+        rows_loaded = 0
+        rows_accepted = 0
+        rows_skipped = 0
+        missing_fields_for_file = Counter()
+        status = "success"
+        notes = ""
+
+        try:
+            rows = read_costar_intake_rows(path)
+            rows_loaded = len(rows)
+        except Exception as error:
+            status = "error"
+            notes = str(error)
+            rows = []
+
+        for row_number, row in enumerate(rows, start=2):
+            article, missing_fields = normalize_costar_intake_row(row, file_name, row_number)
+            if missing_fields:
+                rows_skipped += 1
+                missing_fields_for_file.update(missing_fields)
+                missing_field_counter.update(missing_fields)
+                continue
+
+            if article:
+                rows_accepted += 1
+                costar_articles.append(article)
+            else:
+                rows_skipped += 1
+
+        if status == "success" and rows_accepted == 0 and rows_loaded > 0:
+            status = "no accepted rows"
+            notes = "Rows were loaded, but no row had the required title field."
+
+        COSTAR_INTAKE_DIAGNOSTIC_ROWS.append({
+            "generated_at": generated_at,
+            "file_name": file_name,
+            "file_type": file_type,
+            "file_status": status,
+            "rows_loaded": rows_loaded,
+            "rows_accepted": rows_accepted,
+            "rows_skipped": rows_skipped,
+            "missing_required_fields": "; ".join(sorted(missing_fields_for_file)),
+            "notes": notes,
+        })
+
+        if status in {"success", "no accepted rows"}:
+            COSTAR_INTAKE_SUMMARY["files_loaded"] += 1
+        COSTAR_INTAKE_SUMMARY["rows_loaded"] += rows_loaded
+        COSTAR_INTAKE_SUMMARY["rows_accepted"] += rows_accepted
+        COSTAR_INTAKE_SUMMARY["rows_skipped"] += rows_skipped
+
+    COSTAR_INTAKE_SUMMARY["missing_required_fields"] = "; ".join(
+        sorted(missing_field_counter)
+    )
+
+    if COSTAR_INTAKE_SUMMARY["rows_accepted"] > 0:
+        add_source_health_row(
+            "CoStar",
+            "Manual Licensed Intake",
+            COSTAR_INPUT_DIR,
+            "OK",
+            COSTAR_INTAKE_SUMMARY["rows_loaded"],
+            COSTAR_INTAKE_SUMMARY["rows_accepted"],
+            "Manual export intake only; no scraping performed.",
+            "Manual Export",
+        )
+
+    return costar_articles
+
+
+def generate_costar_intake_report_outputs(dated_output_dir):
+    """Write CoStar intake diagnostics as current and dated report files."""
+    fieldnames = [
+        "generated_at",
+        "file_name",
+        "file_type",
+        "file_status",
+        "rows_loaded",
+        "rows_accepted",
+        "rows_skipped",
+        "missing_required_fields",
+        "notes",
+    ]
+    rows = COSTAR_INTAKE_DIAGNOSTIC_ROWS or [{
+        "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "file_name": "",
+        "file_type": "",
+        "file_status": "not run",
+        "rows_loaded": 0,
+        "rows_accepted": 0,
+        "rows_skipped": 0,
+        "missing_required_fields": "",
+        "notes": "CoStar intake was not executed in this run.",
+    }]
+    write_csv_outputs(
+        COSTAR_INTAKE_REPORT_OUTPUT_FILE,
+        fieldnames,
+        rows,
+        dated_output_dir,
+    )
+
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    files_loaded = COSTAR_INTAKE_SUMMARY.get("files_loaded", 0)
+    rows_loaded = COSTAR_INTAKE_SUMMARY.get("rows_loaded", 0)
+    rows_accepted = COSTAR_INTAKE_SUMMARY.get("rows_accepted", 0)
+    rows_skipped = COSTAR_INTAKE_SUMMARY.get("rows_skipped", 0)
+    missing_fields = COSTAR_INTAKE_SUMMARY.get("missing_required_fields", "")
+    lines = [
+        "# CoStar Manual Intake Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        "This report covers manually exported CoStar files placed in `input/costar/`.",
+        "The collector does not scrape CoStar, automate login, or bypass paywalls.",
+        "",
+        "## Summary",
+        "",
+        f"- Files loaded: {files_loaded}",
+        f"- Rows loaded: {rows_loaded}",
+        f"- Rows accepted: {rows_accepted}",
+        f"- Rows skipped: {rows_skipped}",
+        f"- Missing required fields: {missing_fields or 'None'}",
+        "",
+        "## File Detail",
+        "",
+    ]
+
+    for row in rows:
+        lines.append(
+            f"- {row['file_name'] or 'No file'}: {row['file_status']} | "
+            f"loaded {row['rows_loaded']} | accepted {row['rows_accepted']} | "
+            f"skipped {row['rows_skipped']} | "
+            f"{row['notes'] or 'No notes'}"
+        )
+
+    lines.extend([
+        "",
+        "## Safe Intake Notes",
+        "",
+        "- Place only files your company is allowed to export or save under its CoStar subscription rights.",
+        "- Supported file types: CSV, XLSX, XLS when local Python packages can read them.",
+        "- PDF intake is intentionally left for a later version.",
+        "",
+    ])
+
+    write_markdown_outputs(
+        COSTAR_INTAKE_REPORT_MD_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+
+    return {
+        "files_loaded": files_loaded,
+        "rows_loaded": rows_loaded,
+        "rows_accepted": rows_accepted,
+        "rows_skipped": rows_skipped,
+    }
 
 
 def count_markdown_sections(path):
@@ -19460,6 +19914,13 @@ def get_pipeline_output_catalog():
             ],
         },
         {
+            "path": COSTAR_INTAKE_REPORT_OUTPUT_FILE,
+            "category": "Source Management",
+            "short_description": "Diagnostics for manually exported CoStar intake files.",
+            "recommended_reader": "Technical / Maintenance",
+            "expected_columns": ["file_status", "rows_loaded", "rows_accepted", "rows_skipped"],
+        },
+        {
             "path": SOURCE_ACTIVATION_OUTPUT_FILE,
             "category": "Source Management",
             "short_description": "Validated source activation and source quality scoring.",
@@ -19476,6 +19937,12 @@ def get_pipeline_output_catalog():
             "path": SOURCE_COVERAGE_REPORT_MD_OUTPUT_FILE,
             "category": "Source Management",
             "short_description": "Readable Site / Parcel source coverage report.",
+            "recommended_reader": "Technical / Maintenance",
+        },
+        {
+            "path": COSTAR_INTAKE_REPORT_MD_OUTPUT_FILE,
+            "category": "Source Management",
+            "short_description": "Readable CoStar manual intake diagnostics.",
             "recommended_reader": "Technical / Maintenance",
         },
         {
@@ -20403,6 +20870,7 @@ def save_to_csv(articles):
             articles,
             dated_output_dir,
         )
+        generate_costar_intake_report_outputs(dated_output_dir)
         generate_market_intelligence_diagnostics(
             articles,
             dated_output_dir,
@@ -21048,6 +21516,8 @@ def save_to_csv(articles):
         print(f"[Done] Source health report saved: {SOURCE_HEALTH_REPORT_OUTPUT_FILE}")
         print(f"[Done] GP source coverage CSV saved: {GP_SOURCE_COVERAGE_OUTPUT_FILE}")
         print(f"[Done] GP source coverage report saved: {GP_SOURCE_COVERAGE_REPORT_OUTPUT_FILE}")
+        print(f"[Done] CoStar intake CSV saved: {COSTAR_INTAKE_REPORT_OUTPUT_FILE}")
+        print(f"[Done] CoStar intake report saved: {COSTAR_INTAKE_REPORT_MD_OUTPUT_FILE}")
         print(f"[Done] Source activation CSV saved: {SOURCE_ACTIVATION_OUTPUT_FILE}")
         print(f"[Done] Source activation report saved: {SOURCE_ACTIVATION_REPORT_OUTPUT_FILE}")
         print(f"[Done] LLM prompt pack saved: {LLM_PROMPT_PACK_OUTPUT_FILE}")
@@ -21904,6 +22374,13 @@ def main():
         print(f"  - Relevant articles: {len(articles)}")
 
         all_articles.extend(articles)
+
+    costar_articles = load_costar_intake_files()
+    if costar_articles:
+        print(f"[CoStar Intake] Manual articles loaded: {len(costar_articles)}")
+        all_articles.extend(costar_articles)
+    else:
+        print("[CoStar Intake] No manual CoStar articles loaded")
 
     unique_articles = remove_duplicates(all_articles)
 

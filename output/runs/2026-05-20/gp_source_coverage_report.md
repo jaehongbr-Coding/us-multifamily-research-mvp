@@ -1,6 +1,6 @@
 # GP Source Coverage Report
 
-Generated: 2026-05-20 05:18:44
+Generated: 2026-05-20 23:01:54
 
 - GP/developer coverage sources tracked: 107
 - Working GP/developer sources: 2
@@ -27,7 +27,7 @@ Generated: 2026-05-20 05:18:44
 
 ## Working GP / Developer Sources
 
-- Blackstone Real Estate Source Expansion (Institutional Capital Platform): Critical Source, OK, 3 saved article(s).
+- Blackstone Real Estate Source Expansion (Institutional Capital Platform): Critical Source, OK, 4 saved article(s).
 
 ## Working Lender / Capital Markets Sources
 

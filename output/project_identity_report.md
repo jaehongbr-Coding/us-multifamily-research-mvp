@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-05-20 05:18:49
+Generated: 2026-05-20 23:01:58
 
-- Total raw project references: 807
-- Total canonical projects: 157
-- Duplicate project clusters: 98
-- High-confidence project identities: 807
+- Total raw project references: 719
+- Total canonical projects: 141
+- Duplicate project clusters: 71
+- High-confidence project identities: 719
 - Low-confidence identities needing review: 0
-- LA / California project references: 409
+- LA / California project references: 280
 
 ## Top Repeated Projects
 
-- Construction Financing - Los Angeles - Seachange Partners Receives $15.6M in Construction Financing for Two Affordable Housing Pr...: 65 occurrence(s), confidence 80.
-- Construction Financing - Los Angeles - Seachange Partners Receives $15.6M in Construction Financing for Two Affordable Housing Pr...: 65 occurrence(s), confidence 80.
-- Construction Financing - Los Angeles - Seachange Partners Receives $15.6M in Construction Financing for Two Affordable Housing Pr...: 65 occurrence(s), confidence 80.
-- Construction Financing - Los Angeles - Seachange Partners Receives $15.6M in Construction Financing for Two Affordable Housing Pr...: 65 occurrence(s), confidence 80.
-- Construction Financing - Los Angeles - Seachange Partners Receives $15.6M in Construction Financing for Two Affordable Housing Pr...: 65 occurrence(s), confidence 80.
-- Construction Financing - Los Angeles - Seachange Partners Receives $15.6M in Construction Financing for Two Affordable Housing Pr...: 65 occurrence(s), confidence 80.
-- Construction Financing - Los Angeles - Seachange Partners Receives $15.6M in Construction Financing for Two Affordable Housing Pr...: 65 occurrence(s), confidence 80.
-- Construction Financing - Los Angeles - Seachange Partners Receives $15.6M in Construction Financing for Two Affordable Housing Pr...: 65 occurrence(s), confidence 80.
-- Construction Financing - Los Angeles - Seachange Partners Receives $15.6M in Construction Financing for Two Affordable Housing Pr...: 65 occurrence(s), confidence 80.
-- Construction Financing - Los Angeles - Seachange Partners Receives $15.6M in Construction Financing for Two Affordable Housing Pr...: 65 occurrence(s), confidence 80.
+- Construction Financing - Other / Unknown - Drew Capital Secures $16.25M in Construction Loan Financing For 77-Unit Multifamily Proper...: 74 occurrence(s), confidence 80.
+- Construction Financing - Other / Unknown - Drew Capital Secures $16.25M in Construction Loan Financing For 77-Unit Multifamily Proper...: 74 occurrence(s), confidence 80.
+- Construction Financing - Other / Unknown - Drew Capital Secures $16.25M in Construction Loan Financing For 77-Unit Multifamily Proper...: 74 occurrence(s), confidence 80.
+- Construction Financing - Other / Unknown - Drew Capital Secures $16.25M in Construction Loan Financing For 77-Unit Multifamily Proper...: 74 occurrence(s), confidence 80.
+- Construction Financing - Other / Unknown - Drew Capital Secures $16.25M in Construction Loan Financing For 77-Unit Multifamily Proper...: 74 occurrence(s), confidence 80.
+- Construction Financing - Other / Unknown - Drew Capital Secures $16.25M in Construction Loan Financing For 77-Unit Multifamily Proper...: 74 occurrence(s), confidence 80.
+- Construction Financing - Other / Unknown - Drew Capital Secures $16.25M in Construction Loan Financing For 77-Unit Multifamily Proper...: 74 occurrence(s), confidence 80.
+- Construction Financing - Other / Unknown - Drew Capital Secures $16.25M in Construction Loan Financing For 77-Unit Multifamily Proper...: 74 occurrence(s), confidence 80.
+- Construction Financing - Other / Unknown - Drew Capital Secures $16.25M in Construction Loan Financing For 77-Unit Multifamily Proper...: 74 occurrence(s), confidence 80.
+- Construction Financing - Other / Unknown - Drew Capital Secures $16.25M in Construction Loan Financing For 77-Unit Multifamily Proper...: 74 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

@@ -1,13 +1,13 @@
 # Regime Transition Report
 
-Generated: 2026-05-20 05:18:49
+Generated: 2026-05-20 23:01:58
 
 ## Summary
 
 - Current primary regime: Developer Strategy Shift
 - Previous primary regime: Developer Strategy Shift
 - Regime changed: No
-- Consecutive runs in current regime: 3
+- Consecutive runs in current regime: 4
 - Confidence direction: stable
 - Market signals direction: stable
 - Transition label: Persistent Regime
@@ -19,6 +19,7 @@ Generated: 2026-05-20 05:18:49
 | 2026-05-19 02:17:00 | Developer Strategy Shift | Selective Capital Re-entry | High | 30 | Developer Strategy | Sun Belt | Supply / Starts Signal |
 | 2026-05-20 04:06:06 | Developer Strategy Shift | Selective Capital Re-entry | High | 43 | Developer Strategy | Sun Belt | Rent Growth Signal |
 | 2026-05-20 05:18:44 | Developer Strategy Shift | Selective Capital Re-entry | High | 43 | Developer Strategy | Sun Belt | Rent Growth Signal |
+| 2026-05-20 23:01:54 | Developer Strategy Shift | Selective Capital Re-entry | High | 38 | Developer Strategy | Sun Belt | Deal Size Signal |
 
 ## Historical Persistence Summary
 

@@ -1,8 +1,8 @@
 # LA Lifecycle Transition Watch Report
 
-Generated: 2026-05-20 05:18:49
+Generated: 2026-05-20 23:01:58
 
-- Total LA lifecycle transition watch items: 53
+- Total LA lifecycle transition watch items: 39
 
 ## LA Projects Moving Forward
 
@@ -10,48 +10,47 @@ Generated: 2026-05-20 05:18:49
 
 ## LA Projects With Stall Risk
 
-- Fault lines surface as projects tap California’s CEQA exemption law: Environmental Review / CEQA -> Environmental Review / CEQA, Early entitlement watch.
+- None detected.
 
 ## LA Permit / Construction Start Watch
 
-- Development Start - Other / Unknown - Major Development Groundbreaking on Landmark Multifamily Mixed-Use Community The Piazza at...: Construction Started -> Construction Started, Construction start watch.
-- Major Development Groundbreaking on Landmark Multifamily Mixed-Use Community The Piazza at Ardmore in Philadelphia: Construction Started -> Construction Started, Construction start watch.
+- None detected.
 
 ## LA Refinancing / Recap Timing Watch
 
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 - General Project Signal - California - Anaheim Industrial Outdoor Storage Site Secures Bridge Loan: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Refinancing - Other / Unknown - Northmarq’s Debt + Equity Team Arranges $13.54M Refinance of Sherwood Glen & Keller Flats...: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 - Anaheim Industrial Outdoor Storage Site Secures Bridge Loan: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 - Refinancing - Sun Belt - Georgia Tech Student Housing Investors Ink Refi: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 
 ## LA Delivery / Lease-Up Benchmarks
 
-- Construction Financing - Los Angeles - Berkadia Lines Up Construction Loan for Seachange Partners: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
 - Office-to-Residential Conversion - Los Angeles - Former IBM offices at 3424 Wilshire to become housing: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
-- Refinancing - New York - The Dermot Company Secures $355M Refinancing Loan for Class A Multifamily Rental Tower on...: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
-- The Dermot Company Secures $355M Refinancing Loan for Class A Multifamily Rental Tower on the Upper West Side: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
 - Former IBM offices at 3424 Wilshire to become housing: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
-- General Project Signal - Other / Unknown - The Community Builders Completes 64-Unit Affordable Housing Development in Cleveland: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
+- BTR / Build-to-Rent - Other / Unknown - Trilogy Investment Company Completes Horizontal Development at REV3 at The Celeste in Hunt...: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- PCCP Announces Acquisition of Skymor Sanford an 84-Unit Build-to-Rent Townhome Community in Sanford Florida: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- BTR / Build-to-Rent - Sun Belt - PCCP Announces Acquisition of Skymor Sanford an 84-Unit Build-to-Rent Townhome Community i...: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
 
 ## Recommended LA Transition Follow-up Actions
 
-- Use as delivery, lease-up, and underwriting benchmark: Construction Financing - Los Angeles - Berkadia Lines Up Construction Loan for Seachange Partners.
 - Use as delivery, lease-up, and underwriting benchmark: Office-to-Residential Conversion - Los Angeles - Former IBM offices at 3424 Wilshire to become housing.
-- Use as delivery, lease-up, and underwriting benchmark: Refinancing - New York - The Dermot Company Secures $355M Refinancing Loan for Class A Multifamily Rental Tower on....
-- Use as delivery, lease-up, and underwriting benchmark: The Dermot Company Secures $355M Refinancing Loan for Class A Multifamily Rental Tower on the Upper West Side.
 - Use as delivery, lease-up, and underwriting benchmark: Former IBM offices at 3424 Wilshire to become housing.
-- Use as delivery, lease-up, and underwriting benchmark: General Project Signal - Other / Unknown - The Community Builders Completes 64-Unit Affordable Housing Development in Cleveland.
-- Monitor for another run to confirm lifecycle direction: Development Start - Other / Unknown - Major Development Groundbreaking on Landmark Multifamily Mixed-Use Community The Piazza at....
-- Monitor for another run to confirm lifecycle direction: Major Development Groundbreaking on Landmark Multifamily Mixed-Use Community The Piazza at Ardmore in Philadelphia.
+- Use as delivery, lease-up, and underwriting benchmark: BTR / Build-to-Rent - Other / Unknown - Trilogy Investment Company Completes Horizontal Development at REV3 at The Celeste in Hunt....
+- Use as delivery, lease-up, and underwriting benchmark: PCCP Announces Acquisition of Skymor Sanford an 84-Unit Build-to-Rent Townhome Community in Sanford Florida.
+- Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily.
+- Use as delivery, lease-up, and underwriting benchmark: BTR / Build-to-Rent - Sun Belt - PCCP Announces Acquisition of Skymor Sanford an 84-Unit Build-to-Rent Townhome Community i....
+- Track maturity, lender, recapitalization need, and potential JV angle: General Project Signal - California - Anaheim Industrial Outdoor Storage Site Secures Bridge Loan.
+- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Other / Unknown - Northmarq’s Debt + Equity Team Arranges $13.54M Refinance of Sherwood Glen & Keller Flats....
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 807
-- Canonical projects: 157
-- Duplicate project clusters: 98
-- Persistent assets tracked: 157
-- LA persistent asset watch items: 91
+- Raw project references: 719
+- Canonical projects: 141
+- Duplicate project clusters: 71
+- Persistent assets tracked: 141
+- LA persistent asset watch items: 64
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

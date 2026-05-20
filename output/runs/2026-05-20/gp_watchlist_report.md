@@ -1,21 +1,17 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-05-20 05:18:44
+Generated: 2026-05-20 23:01:55
 
-- GP/developer candidates reviewed: 8
+- GP/developer candidates reviewed: 4
 - Tier 1 Strategic GPs: 0
 - Tier 2 High Potential GPs: 1
 
 ## Top Emerging GPs
 
-- Quarterra: 73 (Tier 2 High Potential GP), Seattle, Institutional-backed regional expansion.
-- Hines: 66 (Tier 3 Monitoring GP), New York, Distressed opportunity positioning.
-- Carmel Partners: 64 (Tier 3 Monitoring GP), New York, Selective residential growth.
-- UDR: 64 (Tier 3 Monitoring GP), New York, Selective residential growth.
+- Related Companies: 73 (Tier 2 High Potential GP), New York, California / LA strategic positioning.
 - Wood Partners: 64 (Tier 3 Monitoring GP), Sun Belt, Institutional-backed regional expansion.
 - Blackstone: 59 (Tier 3 Monitoring GP), New York, Selective residential growth.
-- BGO: 48 (Emerging Watchlist), Sun Belt, Institutional-backed regional expansion.
-- PMG: 46 (Emerging Watchlist), Sun Belt, Institutional-backed regional expansion.
+- JPI: 48 (Emerging Watchlist), Sun Belt, Selective residential growth.
 
 ## Tier 1 Strategic GP
 
@@ -23,11 +19,11 @@ Generated: 2026-05-20 05:18:44
 
 ## Tier 2 High Potential GP
 
-- Quarterra: score 73, Tier 2 High Potential GP, Seattle, Potential GP partnership candidate. Track JV and capital partner activity.
+- Related Companies: score 73, Tier 2 High Potential GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## California / LA GP Activity
 
-- No current GP signal detected.
+- Related Companies: score 73, Tier 2 High Potential GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## BTR / SFR GP Activity
 
@@ -47,24 +43,17 @@ Generated: 2026-05-20 05:18:44
 
 ## Institutional Capital Magnet
 
-- Quarterra: score 73, Tier 2 High Potential GP, Seattle, Potential GP partnership candidate. Track JV and capital partner activity.
-- Hines: score 66, Tier 3 Monitoring GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
-- Carmel Partners: score 64, Tier 3 Monitoring GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
-- UDR: score 64, Tier 3 Monitoring GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
+- Related Companies: score 73, Tier 2 High Potential GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
 - Wood Partners: score 64, Tier 3 Monitoring GP, Sun Belt, Potential GP partnership candidate. Track JV and capital partner activity.
 - Blackstone: score 59, Tier 3 Monitoring GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
-- BGO: score 48, Emerging Watchlist, Sun Belt, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
-- PMG: score 46, Emerging Watchlist, Sun Belt, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- JPI: score 48, Emerging Watchlist, Sun Belt, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## Potential Woomi Partnership Candidates
 
-- Quarterra: score 73, Tier 2 High Potential GP, Seattle, Potential GP partnership candidate. Track JV and capital partner activity.
-- Hines: score 66, Tier 3 Monitoring GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
-- Carmel Partners: score 64, Tier 3 Monitoring GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
-- UDR: score 64, Tier 3 Monitoring GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
+- Related Companies: score 73, Tier 2 High Potential GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
 - Wood Partners: score 64, Tier 3 Monitoring GP, Sun Belt, Potential GP partnership candidate. Track JV and capital partner activity.
 - Blackstone: score 59, Tier 3 Monitoring GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
-- BGO: score 48, Emerging Watchlist, Sun Belt, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- JPI: score 48, Emerging Watchlist, Sun Belt, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## GP Source Expansion Summary
 
@@ -93,31 +82,26 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Recommended Management Meeting Targets
 
-- Quarterra: Track JV and capital partner activity (Medium confidence).
-- Hines: Track JV and capital partner activity (Medium confidence).
-- Carmel Partners: Track JV and capital partner activity (Medium confidence).
-- UDR: Track JV and capital partner activity (Medium confidence).
+- Related Companies: Track JV and capital partner activity (Medium confidence).
 - Wood Partners: Track JV and capital partner activity (Medium confidence).
+- Blackstone: Track JV and capital partner activity (Medium confidence).
+- JPI: Track JV and capital partner activity (Medium confidence).
 
 ## Recommended Strategic Follow-up Actions
 
-- Quarterra: Track JV and capital partner activity.
-- Hines: Track JV and capital partner activity.
-- Carmel Partners: Track JV and capital partner activity.
-- UDR: Track JV and capital partner activity.
+- Related Companies: Track JV and capital partner activity.
 - Wood Partners: Track JV and capital partner activity.
 - Blackstone: Track JV and capital partner activity.
-- BGO: Review institutional pricing and capital flow signals.
-- PMG: Review institutional pricing and capital flow signals.
+- JPI: Track JV and capital partner activity.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 157
-- Institutional-grade signals: 18
-- High-confidence signals: 36
-- Weak/noisy signals: 109
-- High-confidence watchlist items: 36
+- Signals evaluated: 141
+- Institutional-grade signals: 14
+- High-confidence signals: 25
+- Weak/noisy signals: 106
+- High-confidence watchlist items: 25
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

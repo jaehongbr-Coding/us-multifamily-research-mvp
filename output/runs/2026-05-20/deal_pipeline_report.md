@@ -1,105 +1,105 @@
 # Deal & Project Pipeline Report
 
-Generated: 2026-05-20 05:18:44
+Generated: 2026-05-20 23:01:55
 
-- Total deal/project signals found: 73
-- High deal intelligence count: 9
+- Total deal/project signals found: 70
+- High deal intelligence count: 3
 
 ## Top 10 Deal / Project Signals
 
-- Refinancing - New York - JLL Arranges $141.8M Refinancing for Wolf Point West Luxury Apartment Tower in Chicago: Refinancing, New York, score 95. Capital market signal.
-- Construction Financing - Los Angeles - Seachange Partners Receives $15.6M in Construction Financing for Two Affordable Housing Pr...: Construction Financing, Los Angeles, score 91. Capital market signal.
-- Refinancing - New York - JLL Arranges $142M for Luxury River North MF Property: Refinancing, New York, score 85. Capital market signal.
-- Construction Financing - Sun Belt - Hudson Bay Capital Provides $129M to Develop Luxury Apartments in Houston: Construction Financing, Sun Belt, score 83. Pricing benchmark.
 - Entitlement / Permitting - Los Angeles - Tommy Beadel on why Los Angeles is the easiest place to develop real estate: Entitlement / Permitting, Los Angeles, score 83. Capital market signal.
-- Construction Financing - Los Angeles - Berkadia Lines Up Construction Loan for Seachange Partners: Construction Financing, Los Angeles, score 81. Capital market signal.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Construction Financing, California, score 81. Capital market signal.
 - Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M: Disposition / Exit, Sun Belt, score 81. Underwriting benchmark.
-- Acquisition - New York - Carmel Partners Seals Acquisition of UWS Multifamily Portfolio Minority Stake: Acquisition, New York, score 80. Pricing benchmark.
 - Office-to-Residential Conversion - Los Angeles - Former IBM offices at 3424 Wilshire to become housing: Office-to-Residential Conversion, Los Angeles, score 79. Capital market signal.
+- Office-to-Residential Conversion - New York - Merchants Capital Provides $26.3M in Financing for Historic Manhattan Multifamily Property: Office-to-Residential Conversion, New York, score 79. Capital market signal.
+- JV / Partnership - New York - Willets Point Development Welcomes First Residents: JV / Partnership, New York, score 75. GP partnership reference.
+- Acquisition - Sun Belt - El-Ad Pays $45.5M for Coconut Grove Property: Acquisition, Sun Belt, score 73. Pricing benchmark.
+- Acquisition - Sun Belt - Walker & Dunlop Arranges $128.5 Financing for Houston Apartment Developer: Acquisition, Sun Belt, score 73. Pricing benchmark.
+- Construction Financing - Other / Unknown - CIBC, Citizens Bank Provide $108M Construction Loan for Fairfax Apartment Complex: Construction Financing, Other / Unknown, score 73. Capital market signal.
+- Refinancing - Other / Unknown - Northmarq’s Debt + Equity Team Arranges $13.54M Refinance of Sherwood Glen & Keller Flats...: Refinancing, Other / Unknown, score 73. Capital market signal.
 
 ## California / LA Deal Watch
 
-- Construction Financing - Los Angeles - Seachange Partners Receives $15.6M in Construction Financing for Two Affordable Housing Pr...: Construction Financing, Los Angeles, score 91. Capital market signal.
 - Entitlement / Permitting - Los Angeles - Tommy Beadel on why Los Angeles is the easiest place to develop real estate: Entitlement / Permitting, Los Angeles, score 83. Capital market signal.
-- Construction Financing - Los Angeles - Berkadia Lines Up Construction Loan for Seachange Partners: Construction Financing, Los Angeles, score 81. Capital market signal.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Construction Financing, California, score 81. Capital market signal.
 - Office-to-Residential Conversion - Los Angeles - Former IBM offices at 3424 Wilshire to become housing: Office-to-Residential Conversion, Los Angeles, score 79. Capital market signal.
-- JV / Partnership - California - Harbor Associates, Farallon Capital Acquire 280,000 SF Yorba Linda Commerce Center in Cali...: JV / Partnership, California, score 77. Pricing benchmark.
-- Entitlement / Permitting - Los Angeles - 96 apartments + retail proposed at 8871 W. Venice Blvd.: Entitlement / Permitting, Los Angeles, score 73. Entitlement / zoning watch.
-- General Project Signal - California - JLL, HJ Sims Secure $252.1M in Financing for Planned 214-Unit Seniors Housing Project in H...: General Project Signal, California, score 71. Capital market signal.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: General Project Signal, California, score 66. Capital market signal.
+- Disposition / Exit - California - Livermore Apartment Seller Doubles Unit Count with 1031 Exchange: Disposition / Exit, California, score 64. Entitlement / zoning watch.
 - General Project Signal - Los Angeles - New proposal emerges for affordable housing at 1316 Linwood Ave. in Westlake: General Project Signal, Los Angeles, score 63. Entitlement / zoning watch.
+- General Project Signal - California - Anaheim Industrial Outdoor Storage Site Secures Bridge Loan: General Project Signal, California, score 55. Capital market signal.
+- Entitlement / Permitting - California - Formal Application Filed For Outer Richmond Safeway Redevelopment, San Francisco: Entitlement / Permitting, California, score 47. Entitlement / zoning watch.
+- General Project Signal - Los Angeles - Soaring above the 17-acre One Beverly Hills site: General Project Signal, Los Angeles, score 46. Entitlement / zoning watch.
 
 ## GP / Developer Activity
 
-- Refinancing - New York - JLL Arranges $141.8M Refinancing for Wolf Point West Luxury Apartment Tower in Chicago: Refinancing, New York, score 95. Capital market signal.
-- Refinancing - New York - JLL Arranges $142M for Luxury River North MF Property: Refinancing, New York, score 85. Capital market signal.
 - Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M: Disposition / Exit, Sun Belt, score 81. Underwriting benchmark.
-- Acquisition - New York - Carmel Partners Seals Acquisition of UWS Multifamily Portfolio Minority Stake: Acquisition, New York, score 80. Pricing benchmark.
-- Construction Financing - Sun Belt - PMG, LNDMRK Score $126M Financing for Wynwood Condos: Construction Financing, Sun Belt, score 76. Capital market signal.
+- JV / Partnership - New York - Willets Point Development Welcomes First Residents: JV / Partnership, New York, score 75. GP partnership reference.
 - JV / Partnership - New York - Blackstone Announces Joint Venture with Google to Create New TPU Cloud: JV / Partnership, New York, score 71. GP partnership reference.
-- Development Start - Seattle - Quarterra, MacNaughton Advance Construction on 796-Unit Seattle MF Project: Development Start, Seattle, score 67. Pipeline / supply signal.
-- Acquisition - Sun Belt - BGO Acquires 851,500 SF Logistics Facility in Metro Charlotte: Acquisition, Sun Belt, score 58. Monitor only.
+- Operational / Property Management Tech - Sun Belt - VoltaGrid Announces $1 Billion Strategic Equity Investment from Blackstone and Halliburton...: Operational / Property Management Tech, Sun Belt, score 65. Pricing benchmark.
 - General Project Signal - New York - Ares Acquires Stake in Rover Pipeline from Blackstone Energy Transition Partners to Serve...: General Project Signal, New York, score 48. Monitor only.
 
 ## Financing / Refinancing Signals
 
-- Refinancing - New York - JLL Arranges $141.8M Refinancing for Wolf Point West Luxury Apartment Tower in Chicago: Refinancing, New York, score 95. Capital market signal.
-- Construction Financing - Los Angeles - Seachange Partners Receives $15.6M in Construction Financing for Two Affordable Housing Pr...: Construction Financing, Los Angeles, score 91. Capital market signal.
-- Refinancing - New York - JLL Arranges $142M for Luxury River North MF Property: Refinancing, New York, score 85. Capital market signal.
-- Construction Financing - Sun Belt - Hudson Bay Capital Provides $129M to Develop Luxury Apartments in Houston: Construction Financing, Sun Belt, score 83. Pricing benchmark.
 - Entitlement / Permitting - Los Angeles - Tommy Beadel on why Los Angeles is the easiest place to develop real estate: Entitlement / Permitting, Los Angeles, score 83. Capital market signal.
-- Construction Financing - Los Angeles - Berkadia Lines Up Construction Loan for Seachange Partners: Construction Financing, Los Angeles, score 81. Capital market signal.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Construction Financing, California, score 81. Capital market signal.
 - Office-to-Residential Conversion - Los Angeles - Former IBM offices at 3424 Wilshire to become housing: Office-to-Residential Conversion, Los Angeles, score 79. Capital market signal.
-- JV / Partnership - California - Harbor Associates, Farallon Capital Acquire 280,000 SF Yorba Linda Commerce Center in Cali...: JV / Partnership, California, score 77. Pricing benchmark.
-- Construction Financing - Sun Belt - PMG, LNDMRK Score $126M Financing for Wynwood Condos: Construction Financing, Sun Belt, score 76. Capital market signal.
+- Office-to-Residential Conversion - New York - Merchants Capital Provides $26.3M in Financing for Historic Manhattan Multifamily Property: Office-to-Residential Conversion, New York, score 79. Capital market signal.
+- Acquisition - Sun Belt - Walker & Dunlop Arranges $128.5 Financing for Houston Apartment Developer: Acquisition, Sun Belt, score 73. Pricing benchmark.
+- Construction Financing - Other / Unknown - CIBC, Citizens Bank Provide $108M Construction Loan for Fairfax Apartment Complex: Construction Financing, Other / Unknown, score 73. Capital market signal.
+- Refinancing - Other / Unknown - Northmarq’s Debt + Equity Team Arranges $13.54M Refinance of Sherwood Glen & Keller Flats...: Refinancing, Other / Unknown, score 73. Capital market signal.
+- Acquisition - Sun Belt - Walker & Dunlop Arranges $128.5M Acquisition Loan for Houston Apartment Complex: Acquisition, Sun Belt, score 72. Pricing benchmark.
+- BTR / Build-to-Rent - Sun Belt - Keystone Snags Refi on 166-Unit Apache Junction BTR Community: BTR / Build-to-Rent, Sun Belt, score 69. Capital market signal.
+- Disposition / Exit - Sun Belt - Eaton Vance Picks Charlotte Rental Community for $65.8M: Disposition / Exit, Sun Belt, score 69. Capital market signal.
 
 ## Project Pipeline / Supply Signals
 
-- Refinancing - New York - JLL Arranges $141.8M Refinancing for Wolf Point West Luxury Apartment Tower in Chicago: Refinancing, New York, score 95. Capital market signal.
-- Construction Financing - Los Angeles - Seachange Partners Receives $15.6M in Construction Financing for Two Affordable Housing Pr...: Construction Financing, Los Angeles, score 91. Capital market signal.
-- Construction Financing - Sun Belt - Hudson Bay Capital Provides $129M to Develop Luxury Apartments in Houston: Construction Financing, Sun Belt, score 83. Pricing benchmark.
 - Entitlement / Permitting - Los Angeles - Tommy Beadel on why Los Angeles is the easiest place to develop real estate: Entitlement / Permitting, Los Angeles, score 83. Capital market signal.
 - Office-to-Residential Conversion - Los Angeles - Former IBM offices at 3424 Wilshire to become housing: Office-to-Residential Conversion, Los Angeles, score 79. Capital market signal.
-- JV / Partnership - California - Harbor Associates, Farallon Capital Acquire 280,000 SF Yorba Linda Commerce Center in Cali...: JV / Partnership, California, score 77. Pricing benchmark.
-- Refinancing - New York - The Dermot Company Secures $355M Refinancing Loan for Class A Multifamily Rental Tower on...: Refinancing, New York, score 75. Capital market signal.
-- Entitlement / Permitting - Los Angeles - 96 apartments + retail proposed at 8871 W. Venice Blvd.: Entitlement / Permitting, Los Angeles, score 73. Entitlement / zoning watch.
-- Development Start - Seattle - Quarterra, MacNaughton Advance Construction on 796-Unit Seattle MF Project: Development Start, Seattle, score 67. Pipeline / supply signal.
+- Office-to-Residential Conversion - New York - Merchants Capital Provides $26.3M in Financing for Historic Manhattan Multifamily Property: Office-to-Residential Conversion, New York, score 79. Capital market signal.
+- Construction Financing - Other / Unknown - CIBC, Citizens Bank Provide $108M Construction Loan for Fairfax Apartment Complex: Construction Financing, Other / Unknown, score 73. Capital market signal.
+- Refinancing - Other / Unknown - Northmarq’s Debt + Equity Team Arranges $13.54M Refinance of Sherwood Glen & Keller Flats...: Refinancing, Other / Unknown, score 73. Capital market signal.
 - General Project Signal - Los Angeles - New proposal emerges for affordable housing at 1316 Linwood Ave. in Westlake: General Project Signal, Los Angeles, score 63. Entitlement / zoning watch.
+- General Project Signal - Sun Belt - Dobbins Begins Construction on 230-Unit Apartment Development in New Port Richey, Florida: General Project Signal, Sun Belt, score 54. Underwriting benchmark.
+- Acquisition - Other / Unknown - Cushman & Wakefield, JLL Broker Sale of 2,043-Unit Self-Storage Portfolio in Chicago: Acquisition, Other / Unknown, score 52. Underwriting benchmark.
+- General Project Signal - Sun Belt - Insignia Pursuing Embassy Row Redevelopment: General Project Signal, Sun Belt, score 51. Underwriting benchmark.
+- Entitlement / Permitting - California - Formal Application Filed For Outer Richmond Safeway Redevelopment, San Francisco: Entitlement / Permitting, California, score 47. Entitlement / zoning watch.
 
 ## BTR / Modular / Innovation Signals
 
 - BTR / Build-to-Rent - Sun Belt - Keystone Snags Refi on 166-Unit Apache Junction BTR Community: BTR / Build-to-Rent, Sun Belt, score 69. Capital market signal.
+- Operational / Property Management Tech - Sun Belt - VoltaGrid Announces $1 Billion Strategic Equity Investment from Blackstone and Halliburton...: Operational / Property Management Tech, Sun Belt, score 65. Pricing benchmark.
+- BTR / Build-to-Rent - Sun Belt - PCCP Announces Acquisition of Skymor Sanford an 84-Unit Build-to-Rent Townhome Community i...: BTR / Build-to-Rent, Sun Belt, score 47. Pipeline / supply signal.
 - BTR / Build-to-Rent - Sun Belt - NexMetro Debuts 229-Unit San Tan Valley BTR Community: BTR / Build-to-Rent, Sun Belt, score 44. Pipeline / supply signal.
+- BTR / Build-to-Rent - Other / Unknown - Trilogy Investment Company Completes Horizontal Development at REV3 at The Celeste in Hunt...: BTR / Build-to-Rent, Other / Unknown, score 29. Pipeline / supply signal.
+- BTR / Build-to-Rent - National - House Passes BTR-Friendly Housing Bill, But Senate Fight Looms: BTR / Build-to-Rent, National, score 26. Pipeline / supply signal.
+- BTR / Build-to-Rent - National - Build-to-Rent Investors Catch a Break in U.S. House Bill: BTR / Build-to-Rent, National, score 25. Pipeline / supply signal.
 - BTR / Build-to-Rent - Other / Unknown - Build-to-rent sale mandate cut from House’s ROAD to Housing bill: BTR / Build-to-Rent, Other / Unknown, score 24. Pipeline / supply signal.
 
 ## Pricing / Cap Rate / Valuation Signals
 
-- Construction Financing - Sun Belt - Hudson Bay Capital Provides $129M to Develop Luxury Apartments in Houston: Construction Financing, Sun Belt, score 83. Pricing benchmark.
-- Acquisition - New York - Carmel Partners Seals Acquisition of UWS Multifamily Portfolio Minority Stake: Acquisition, New York, score 80. Pricing benchmark.
-- JV / Partnership - California - Harbor Associates, Farallon Capital Acquire 280,000 SF Yorba Linda Commerce Center in Cali...: JV / Partnership, California, score 77. Pricing benchmark.
 - Acquisition - Sun Belt - El-Ad Pays $45.5M for Coconut Grove Property: Acquisition, Sun Belt, score 73. Pricing benchmark.
 - Acquisition - Sun Belt - Walker & Dunlop Arranges $128.5 Financing for Houston Apartment Developer: Acquisition, Sun Belt, score 73. Pricing benchmark.
+- Acquisition - Sun Belt - Walker & Dunlop Arranges $128.5M Acquisition Loan for Houston Apartment Complex: Acquisition, Sun Belt, score 72. Pricing benchmark.
+- Operational / Property Management Tech - Sun Belt - VoltaGrid Announces $1 Billion Strategic Equity Investment from Blackstone and Halliburton...: Operational / Property Management Tech, Sun Belt, score 65. Pricing benchmark.
+- Acquisition - Other / Unknown - Walker & Dunlop Arranges $71.5M Acquisition Financing for Virginia Student Housing Communi...: Acquisition, Other / Unknown, score 62. Pricing benchmark.
 - Acquisition - New York - Benchmark Buys Upper West Side Apartment Building From Heller for $42M: Acquisition, New York, score 59. Pricing benchmark.
-- Acquisition - Sun Belt - Finmarc Sells Capital Marketplace Retail Center in Raleigh for $80.6M: Acquisition, Sun Belt, score 59. Pricing benchmark.
+- Acquisition - Southeast - CBRE Negotiates $6.5M Sale of Cintas Distribution Center in Myrtle Beach, South Carolina: Acquisition, Southeast, score 57. Pricing benchmark.
+- Acquisition - Sun Belt - Belkorp Buys Manufacturing Facility in Phoenix’s Sky Harbor Submarket for $44.1M: Acquisition, Sun Belt, score 56. Pricing benchmark.
 - Acquisition - Sun Belt - COFE Acquires 400K-SF Atlanta Warehouse Project: Acquisition, Sun Belt, score 56. Pricing benchmark.
-- Acquisition - Sun Belt - Walker & Dunlop Arranges $128.5M Acquisition Financing for Houston Luxury Residential Comm...: Acquisition, Sun Belt, score 56. Pricing benchmark.
-- Acquisition - Texas - Apartment Investor Targets San Antonio Value-Add Rental Assets: Acquisition, Texas, score 49. Pricing benchmark.
+- Acquisition - Other / Unknown - Chozick Realty Negotiates $3.2M Sale of Hartford Apartment Building: Acquisition, Other / Unknown, score 51. Pricing benchmark.
 
 ## Deal / Project Signals By Residential Sector
 
-- Apartment: 29 deal/project signal(s)
-- Affordable Housing: 11 deal/project signal(s)
-- Multifamily: 11 deal/project signal(s)
-- General Residential: 9 deal/project signal(s)
-- Mixed-Use Residential: 5 deal/project signal(s)
-- BTR / Single-Family Rental: 3 deal/project signal(s)
+- Apartment: 28 deal/project signal(s)
+- General Residential: 11 deal/project signal(s)
+- Multifamily: 9 deal/project signal(s)
+- Affordable Housing: 7 deal/project signal(s)
+- BTR / Single-Family Rental: 7 deal/project signal(s)
+- Student Housing: 3 deal/project signal(s)
 - Senior Housing: 2 deal/project signal(s)
 - Office-to-Residential Conversion: 1 deal/project signal(s)
+- Mixed-Use Residential: 1 deal/project signal(s)
 - Workforce Housing: 1 deal/project signal(s)
-- Student Housing: 1 deal/project signal(s)
 
 ## Canonical Deal Summary
 
@@ -110,11 +110,11 @@ Use those reports to separate repeated coverage from genuinely separate events.
 ## Relationship Graph Intelligence
 
 Developer, lender, capital partner, market, and deal edges are available in `relationship_graph_report.md`.
-- Hines -> hines: Financing Relationship, score 100.
-- Hines -> jll: Financing Relationship, score 100.
-- Hines -> hines: Financing Relationship, score 95.
-- Hines -> jll: Financing Relationship, score 95.
-- Hines -> New York: Financing Relationship, score 92.
+- Related Companies -> related: JV / Partnership, score 96.
+- Wood Partners -> northmarq: Financing Relationship, score 90.
+- Related Companies -> JV / Partnership - New York - Willets Point Development Welcomes First Residents: JV / Partnership, score 88.
+- Related Companies -> New York: JV / Partnership, score 88.
+- Blackstone -> blackstone: JV / Partnership, score 87.
 
 ## Implications for Woomi / Woomi Global
 
@@ -125,11 +125,11 @@ Developer, lender, capital partner, market, and deal edges are available in `rel
 
 ## Recommended Follow-up Actions
 
-- Capital market signal: read `JLL Arranges $141.8M Refinancing for Wolf Point West Luxury Apartment Tower in Chicago` from REBusiness Online. Canonical market: New York.
-- Capital market signal: read `Seachange Partners Receives $15.6M in Construction Financing for Two Affordable Housing Projects in Los Angeles` from REBusiness Online. Canonical market: Los Angeles.
-- Capital market signal: read `JLL Arranges $142M for Luxury River North MF Property` from Connect CRE Apartments. Canonical market: New York.
-- Pricing benchmark: read `Hudson Bay Capital Provides $129M to Develop Luxury Apartments in Houston` from Commercial Observer. Canonical market: Sun Belt.
 - Capital market signal: read `Tommy Beadel on why Los Angeles is the easiest place to develop real estate` from Urbanize LA. Canonical market: Los Angeles.
-- Capital market signal: read `Berkadia Lines Up Construction Loan for Seachange Partners` from Connect CRE. Canonical market: Los Angeles.
 - Capital market signal: read `JLL Lines Up $144M Construction Loan for Santa Ana Multifamily` from Connect CRE Orange County. Canonical market: California.
 - Underwriting benchmark: read `Charlotte Apartment Project Fetches $107M` from Connect CRE Charlotte. Canonical market: Sun Belt.
+- Capital market signal: read `Former IBM offices at 3424 Wilshire to become housing` from Urbanize LA. Canonical market: Los Angeles.
+- Capital market signal: read `Merchants Capital Provides $26.3M in Financing for Historic Manhattan Multifamily Property` from REBusiness Online. Canonical market: New York.
+- GP partnership reference: read `Willets Point Development Welcomes First Residents` from Connect CRE Apartments. Canonical market: New York.
+- Pricing benchmark: read `El-Ad Pays $45.5M for Coconut Grove Property` from Connect CRE South Florida. Canonical market: Sun Belt.
+- Pricing benchmark: read `Walker & Dunlop Arranges $128.5 Financing for Houston Apartment Developer` from Connect CRE Texas. Canonical market: Sun Belt.

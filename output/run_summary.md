@@ -1,15 +1,15 @@
 # Run Summary
 
-Generated: 2026-05-20 05:18:44
+Generated: 2026-05-20 23:01:54
 
 ## Quick Counts
 
 - Total articles saved: 88
-- High-confidence signals: 36
-- Opportunities: 65
-- Distress signals: 16
-- LA asset watch items: 56
-- Dashboard cards: 38
+- High-confidence signals: 25
+- Opportunities: 64
+- Distress signals: 13
+- LA asset watch items: 43
+- Dashboard cards: 37
 - Pipeline health status: OK
 
 ## Key Files To Open First
@@ -21,7 +21,7 @@ Generated: 2026-05-20 05:18:44
 
 ## Top Dashboard Signal
 
-- Berkadia (Capital Flow)
+- Blackstone (Capital Flow)
 
 ## Suggested Next Action
 

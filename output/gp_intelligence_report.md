@@ -1,28 +1,20 @@
 # GP / Developer Intelligence Report
 
-Generated: 2026-05-20 05:18:44
+Generated: 2026-05-20 23:01:55
 
 ## Top Institutional Signals
 
-- Blackstone: acquisition; refinancing; JV / partnership; capital raise, New York, sources: Developer / GP Newsrooms, strength 93. potential JV partnership signal; monitor JV activity.
-- Hines: refinancing; JV / partnership; operational technology / AI adoption, New York, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
-- Quarterra: development start; JV / partnership; operational technology / AI adoption, Seattle, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
+- Blackstone: acquisition; refinancing; JV / partnership; capital raise; operational technology / AI adoption, New York, sources: Developer / GP Newsrooms, strength 100. potential JV partnership signal; monitor JV activity.
+- Related Companies: JV / partnership; operational technology / AI adoption, New York, sources: Site / Parcel Source Expansion, strength 81. potential JV partnership signal; monitor JV activity.
 - Wood Partners: disposition / exit; JV / partnership; operational technology / AI adoption, Sun Belt, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
-- Carmel Partners: acquisition; disposition / exit; JV / partnership, New York, sources: Core Multifamily News, strength 63. potential JV partnership signal; monitor JV activity.
-- UDR: acquisition; disposition / exit; JV / partnership, New York, sources: Core Multifamily News, strength 63. potential JV partnership signal; monitor JV activity.
-- PMG: operational technology / AI adoption, Sun Belt, sources: Site / Parcel Source Expansion, strength 61. competitive pressure indicator; track construction innovation strategy.
-- BGO: acquisition; disposition / exit, Sun Belt, sources: Site / Parcel Source Expansion, strength 54. benchmark underwriting assumptions; monitor only.
+- JPI: JV / partnership; market expansion, Sun Belt, sources: Core Multifamily News, strength 63. potential JV partnership signal; monitor JV activity.
 
 ## Major GP Strategic Movements
 
-- Blackstone: acquisition; refinancing; JV / partnership; capital raise, New York, sources: Developer / GP Newsrooms, strength 93. potential JV partnership signal; monitor JV activity.
-- Hines: refinancing; JV / partnership; operational technology / AI adoption, New York, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
-- Quarterra: development start; JV / partnership; operational technology / AI adoption, Seattle, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
+- Blackstone: acquisition; refinancing; JV / partnership; capital raise; operational technology / AI adoption, New York, sources: Developer / GP Newsrooms, strength 100. potential JV partnership signal; monitor JV activity.
+- Related Companies: JV / partnership; operational technology / AI adoption, New York, sources: Site / Parcel Source Expansion, strength 81. potential JV partnership signal; monitor JV activity.
 - Wood Partners: disposition / exit; JV / partnership; operational technology / AI adoption, Sun Belt, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
-- Carmel Partners: acquisition; disposition / exit; JV / partnership, New York, sources: Core Multifamily News, strength 63. potential JV partnership signal; monitor JV activity.
-- UDR: acquisition; disposition / exit; JV / partnership, New York, sources: Core Multifamily News, strength 63. potential JV partnership signal; monitor JV activity.
-- PMG: operational technology / AI adoption, Sun Belt, sources: Site / Parcel Source Expansion, strength 61. competitive pressure indicator; track construction innovation strategy.
-- BGO: acquisition; disposition / exit, Sun Belt, sources: Site / Parcel Source Expansion, strength 54. benchmark underwriting assumptions; monitor only.
+- JPI: JV / partnership; market expansion, Sun Belt, sources: Core Multifamily News, strength 63. potential JV partnership signal; monitor JV activity.
 
 ## California / LA Developer Activity
 
@@ -30,54 +22,50 @@ Generated: 2026-05-20 05:18:44
 
 ## Sun Belt Expansion Watch
 
-- BGO: acquisition; disposition / exit, Sun Belt, sources: Site / Parcel Source Expansion, strength 54. benchmark underwriting assumptions; monitor only.
+- JPI: JV / partnership; market expansion, Sun Belt, sources: Core Multifamily News, strength 63. potential JV partnership signal; monitor JV activity.
 
 ## BTR / Modular / Innovation Watch
 
-- Hines: refinancing; JV / partnership; operational technology / AI adoption, New York, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
-- Quarterra: development start; JV / partnership; operational technology / AI adoption, Seattle, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
+- Blackstone: acquisition; refinancing; JV / partnership; capital raise; operational technology / AI adoption, New York, sources: Developer / GP Newsrooms, strength 100. potential JV partnership signal; monitor JV activity.
+- Related Companies: JV / partnership; operational technology / AI adoption, New York, sources: Site / Parcel Source Expansion, strength 81. potential JV partnership signal; monitor JV activity.
 - Wood Partners: disposition / exit; JV / partnership; operational technology / AI adoption, Sun Belt, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
-- PMG: operational technology / AI adoption, Sun Belt, sources: Site / Parcel Source Expansion, strength 61. competitive pressure indicator; track construction innovation strategy.
 
 ## Distressed / Refinancing Watch
 
-- Blackstone: acquisition; refinancing; JV / partnership; capital raise, New York, sources: Developer / GP Newsrooms, strength 93. potential JV partnership signal; monitor JV activity.
-- Hines: refinancing; JV / partnership; operational technology / AI adoption, New York, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- Blackstone: acquisition; refinancing; JV / partnership; capital raise; operational technology / AI adoption, New York, sources: Developer / GP Newsrooms, strength 100. potential JV partnership signal; monitor JV activity.
 
 ## Potential Partnership Signals
 
-- Blackstone: acquisition; refinancing; JV / partnership; capital raise, New York, sources: Developer / GP Newsrooms, strength 93. potential JV partnership signal; monitor JV activity.
-- Hines: refinancing; JV / partnership; operational technology / AI adoption, New York, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
-- Quarterra: development start; JV / partnership; operational technology / AI adoption, Seattle, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
+- Blackstone: acquisition; refinancing; JV / partnership; capital raise; operational technology / AI adoption, New York, sources: Developer / GP Newsrooms, strength 100. potential JV partnership signal; monitor JV activity.
+- Related Companies: JV / partnership; operational technology / AI adoption, New York, sources: Site / Parcel Source Expansion, strength 81. potential JV partnership signal; monitor JV activity.
 - Wood Partners: disposition / exit; JV / partnership; operational technology / AI adoption, Sun Belt, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
-- Carmel Partners: acquisition; disposition / exit; JV / partnership, New York, sources: Core Multifamily News, strength 63. potential JV partnership signal; monitor JV activity.
-- UDR: acquisition; disposition / exit; JV / partnership, New York, sources: Core Multifamily News, strength 63. potential JV partnership signal; monitor JV activity.
+- JPI: JV / partnership; market expansion, Sun Belt, sources: Core Multifamily News, strength 63. potential JV partnership signal; monitor JV activity.
 
 ## Institutional Relationship Layer
 
 Firm-tier weighting, capital-flow inference, and relationship scoring are available in `institutional_relationship_report.md`.
 
-- Hines: Tier 2 / Strategic Watch, Refinancing / Recapitalization, Potential JV / Partnership Signal.
-- Quarterra: Tier 3 / Growth and Market Signal Watch, Development Capital Deployment, Potential JV / Partnership Signal.
-- Carmel Partners: Tier 2 / Strategic Watch, Capital Inflow, Potential JV / Partnership Signal.
+- Related Companies: Tier 1 / Immediate Strategic Importance, Operational / Platform Investment, Potential JV / Partnership Signal.
+- Blackstone: Tier 1 / Immediate Strategic Importance, Capital Inflow, Potential JV / Partnership Signal.
+- Wood Partners: Tier 3 / Growth and Market Signal Watch, Capital Outflow / Exit, Potential JV / Partnership Signal.
 
 ## Deal / Project Pipeline Context
 
 Deal and project extraction is available in `deal_pipeline_report.md`.
-- Hines: Refinancing, New York, Capital market signal.
-- Hines: Refinancing, New York, Capital market signal.
 - Wood Partners: Disposition / Exit, Sun Belt, Underwriting benchmark.
-- UDR: Acquisition, New York, Pricing benchmark.
-- PMG: Construction Financing, Sun Belt, Capital market signal.
+- Related Companies: JV / Partnership, New York, GP partnership reference.
+- Blackstone: JV / Partnership, New York, GP partnership reference.
+- Blackstone: Operational / Property Management Tech, Sun Belt, Pricing benchmark.
+- Blackstone: General Project Signal, New York, Monitor only.
 
 ## Relationship Graph Context
 
 Developer and GP relationship edges are available in `relationship_graph_report.md`.
-- Hines -> hines: Financing Relationship.
-- Hines -> jll: Financing Relationship.
-- Hines -> hines: Financing Relationship.
-- Hines -> jll: Financing Relationship.
-- Hines -> New York: Financing Relationship.
+- Related Companies -> related: JV / Partnership.
+- Wood Partners -> northmarq: Financing Relationship.
+- Related Companies -> JV / Partnership - New York - Willets Point Development Welcomes First Residents: JV / Partnership.
+- Related Companies -> New York: JV / Partnership.
+- Blackstone -> blackstone: JV / Partnership.
 
 ## Competitive Landscape Implications for Woomi
 
@@ -87,10 +75,6 @@ Developer and GP relationship edges are available in `relationship_graph_report.
 ## Recommended Executive Follow-Up
 
 - Blackstone: monitor JV activity
-- Hines: monitor JV activity
-- Quarterra: monitor JV activity
+- Related Companies: monitor JV activity
 - Wood Partners: monitor JV activity
-- Carmel Partners: monitor JV activity
-- UDR: monitor JV activity
-- PMG: track construction innovation strategy
-- BGO: monitor only
+- JPI: monitor JV activity

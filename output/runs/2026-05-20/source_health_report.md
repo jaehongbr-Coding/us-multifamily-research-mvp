@@ -1,6 +1,6 @@
 # Source Health Report
 
-Generated: 2026-05-20 05:18:44
+Generated: 2026-05-20 23:01:54
 
 - Total sources attempted: 152
 - Working sources: 22
@@ -11,27 +11,26 @@ Generated: 2026-05-20 05:18:44
 
 - Multifamily Dive (Core Multifamily News): 3 saved article(s).
 - Multifamily Executive (Core Multifamily News): 3 saved article(s).
-- Yield PRO (Core Multifamily News): 8 saved article(s).
-- Bisnow (Core Multifamily News): 3 saved article(s).
+- Yield PRO (Core Multifamily News): 9 saved article(s).
+- Bisnow (Core Multifamily News): 5 saved article(s).
 - Commercial Observer (Core Multifamily News): 5 saved article(s).
 - NAHB Eye on Housing - Multifamily (Public Agency / Housing Data): 13 saved article(s).
-- Blackstone Real Estate (Developer / GP Newsrooms): 3 saved article(s).
-- Urbanize LA (Regional / California / LA Sources): 8 saved article(s).
-- SF YIMBY (Regional / California / LA Sources): 3 saved article(s).
+- Blackstone Real Estate (Developer / GP Newsrooms): 4 saved article(s).
+- Urbanize LA (Regional / California / LA Sources): 7 saved article(s).
 - REBusiness Online (Site / Parcel Source Expansion): 11 saved article(s).
-- Connect CRE Apartments (Site / Parcel Source Expansion): 9 saved article(s).
-- Connect CRE Texas (Site / Parcel Source Expansion): 4 saved article(s).
-- Connect CRE South Florida (Site / Parcel Source Expansion): 5 saved article(s).
+- Connect CRE Apartments (Site / Parcel Source Expansion): 8 saved article(s).
+- Connect CRE Texas (Site / Parcel Source Expansion): 3 saved article(s).
+- Connect CRE South Florida (Site / Parcel Source Expansion): 4 saved article(s).
 - Connect CRE Phoenix (Site / Parcel Source Expansion): 3 saved article(s).
+- Connect CRE Atlanta (Site / Parcel Source Expansion): 3 saved article(s).
 - Connect CRE Charlotte (Site / Parcel Source Expansion): 3 saved article(s).
 - Connect CRE Orange County (Site / Parcel Source Expansion): 3 saved article(s).
-- Blackstone Real Estate Source Expansion (Developer / GP Source Expansion): 3 saved article(s).
+- Blackstone Real Estate Source Expansion (Developer / GP Source Expansion): 4 saved article(s).
 
 ## Useful Sources
 
 - Connect CRE (Core Multifamily News): 2 saved article(s).
-- HousingWire (Core Multifamily News): 1 saved article(s).
-- Connect CRE Atlanta (Site / Parcel Source Expansion): 2 saved article(s).
+- SF YIMBY (Regional / California / LA Sources): 2 saved article(s).
 
 ## Failing Sources
 
@@ -172,6 +171,7 @@ Generated: 2026-05-20 05:18:44
 ## Watch List
 
 - Construction Dive: 10 entries found, but no articles passed filtering.
+- HousingWire: 10 entries found, but no articles passed filtering.
 - Federal Reserve - Press Releases: 20 entries found, but no articles passed filtering.
 
 ## GP Source Expansion Summary
@@ -186,7 +186,7 @@ Developer / GP source coverage is available in `gp_source_coverage_report.md`.
 Validated source activation scoring is available in `source_activation_report.md`.
 - Working activated sources: 22
 - Failed critical sources: 8
-- Highest quality source this run: REBusiness Online (87).
+- Highest quality source this run: Connect CRE Orange County (84).
 
 ## Recommended Source Improvement Actions
 

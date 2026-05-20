@@ -1,73 +1,77 @@
 # Capital Flow Memory Report
 
-Generated: 2026-05-20 05:18:44
+Generated: 2026-05-20 23:01:55
 
 ## Debt-Market Stress Summary
 
-- JLL (Recurring Lender): Stable capital pattern, 4 observation(s), importance 100.
-- New York (Market-Level Capital Concentration): Stable capital pattern, 11 observation(s), importance 100.
-- Other / Unknown (Market-Level Capital Concentration): Stable capital pattern, 17 observation(s), importance 100.
-- Sun Belt (Market-Level Capital Concentration): Stable capital pattern, 33 observation(s), importance 100.
-- hines (Recurring Capital Partner): Stable capital pattern, 4 observation(s), importance 100.
-- New York (Market-Level Capital Concentration): Stable capital pattern, 2 observation(s), importance 70.
-- kkr (Recurring Capital Partner): Stable capital pattern, 2 observation(s), importance 65.
-- walker & dunlop (Recurring Lender): Stable capital pattern, 2 observation(s), importance 65.
-- Sun Belt (Market-Level Capital Concentration): Stable capital pattern, 2 observation(s), importance 59.
+- New York (Market-Level Capital Concentration): Stable capital pattern, 14 observation(s), importance 100.
+- Other / Unknown (Market-Level Capital Concentration): Capital concentration increasing, 24 observation(s), importance 100.
+- Sun Belt (Market-Level Capital Concentration): Stable capital pattern, 44 observation(s), importance 100.
+- JLL (Recurring Lender): Capital flow fading, 4 observation(s), importance 88.
+- hines (Recurring Capital Partner): Capital flow fading, 4 observation(s), importance 88.
+- Sun Belt (Market-Level Capital Concentration): Stable capital pattern, 3 observation(s), importance 81.
+- New York (Market-Level Capital Concentration): Capital flow fading, 2 observation(s), importance 44.
+- kkr (Recurring Capital Partner): Capital flow fading, 2 observation(s), importance 44.
+- walker & dunlop (Recurring Lender): Capital flow fading, 2 observation(s), importance 44.
 
 ## Capital Migration Patterns
 
-- hines (Recurring Capital Partner): Stable capital pattern, 4 observation(s), importance 100.
-- Blackstone (Recurring Capital Partner): Stable capital pattern, 6 observation(s), importance 97.
-- Blackstone (Institutional Capital Flow): Stable capital pattern, 3 observation(s), importance 68.
-- Wood Partners (Institutional Capital Flow): Stable capital pattern, 3 observation(s), importance 68.
-- kkr (Recurring Capital Partner): Stable capital pattern, 2 observation(s), importance 65.
-- PMG (Institutional Capital Flow): Stable capital pattern, 3 observation(s), importance 64.
-- Hines (Institutional Capital Flow): Stable capital pattern, 2 observation(s), importance 59.
-- Carmel Partners (Institutional Capital Flow): Stable capital pattern, 2 observation(s), importance 57.
-- Quarterra (Institutional Capital Flow): Stable capital pattern, 2 observation(s), importance 57.
-- UDR (Institutional Capital Flow): Stable capital pattern, 2 observation(s), importance 57.
+- Blackstone (Recurring Capital Partner): Stable capital pattern, 8 observation(s), importance 100.
+- hines (Recurring Capital Partner): Capital flow fading, 4 observation(s), importance 88.
+- Wood Partners (Institutional Capital Flow): Stable capital pattern, 4 observation(s), importance 80.
+- Related Companies (Institutional Capital Flow): Capital concentration increasing, 1 observation(s), importance 47.
+- Blackstone (Institutional Capital Flow): Capital concentration increasing, 1 observation(s), importance 44.
+- kkr (Recurring Capital Partner): Capital flow fading, 2 observation(s), importance 44.
+- JPI (Institutional Capital Flow): Capital concentration increasing, 1 observation(s), importance 39.
+- Related Companies (Recurring Capital Partner): Capital concentration increasing, 1 observation(s), importance 38.
+- Blackstone (Institutional Capital Flow): Capital flow fading, 3 observation(s), importance 36.
+- PMG (Institutional Capital Flow): Capital flow fading, 3 observation(s), importance 36.
 
 ## Recurring Construction Lending Activity
 
-- Berkadia (Recurring Lender): Stable capital pattern, 4 observation(s), importance 100.
-- California (Market-Level Capital Concentration): Stable capital pattern, 5 observation(s), importance 100.
-- Los Angeles (Market-Level Capital Concentration): Stable capital pattern, 10 observation(s), importance 100.
-- New York (Market-Level Capital Concentration): Stable capital pattern, 5 observation(s), importance 100.
-- Other / Unknown (Market-Level Capital Concentration): Stable capital pattern, 8 observation(s), importance 100.
-- Sun Belt (Market-Level Capital Concentration): Stable capital pattern, 33 observation(s), importance 100.
-- walker & dunlop (Recurring Lender): Stable capital pattern, 4 observation(s), importance 97.
-- JLL (Recurring Lender): Stable capital pattern, 3 observation(s), importance 94.
-- Seattle (Market-Level Capital Concentration): Stable capital pattern, 4 observation(s), importance 94.
-- JLL (Recurring Lender): Stable capital pattern, 2 observation(s), importance 70.
+- California (Market-Level Capital Concentration): Capital concentration increasing, 7 observation(s), importance 100.
+- JLL (Recurring Lender): Stable capital pattern, 4 observation(s), importance 100.
+- Los Angeles (Market-Level Capital Concentration): Stable capital pattern, 12 observation(s), importance 100.
+- New York (Market-Level Capital Concentration): Stable capital pattern, 14 observation(s), importance 100.
+- New York (Market-Level Capital Concentration): Capital concentration increasing, 7 observation(s), importance 100.
+- Other / Unknown (Market-Level Capital Concentration): Capital concentration increasing, 23 observation(s), importance 100.
+- Other / Unknown (Market-Level Capital Concentration): Capital concentration increasing, 24 observation(s), importance 100.
+- Other / Unknown (Market-Level Capital Concentration): Stable capital pattern, 9 observation(s), importance 100.
+- Sun Belt (Market-Level Capital Concentration): Stable capital pattern, 44 observation(s), importance 100.
+- walker & dunlop (Recurring Lender): Stable capital pattern, 6 observation(s), importance 100.
 
 ## Agency Financing Patterns
 
-- Fannie Mae (Recurring Lender): Stable capital pattern, 3 observation(s), importance 60.
+- Fannie Mae (Recurring Lender): Stable capital pattern, 4 observation(s), importance 72.
+- Fannie Mae (Recurring Lender): Capital concentration increasing, 1 observation(s), importance 48.
+- Freddie Mac (Recurring Lender): Capital concentration increasing, 1 observation(s), importance 43.
+- Freddie Mac (Recurring Lender): Capital concentration increasing, 1 observation(s), importance 40.
+- Freddie Mac (Recurring Lender): Capital concentration increasing, 1 observation(s), importance 34.
 
 ## Refinancing Hotspots
 
-- JLL (Recurring Lender): Stable capital pattern, 4 observation(s), importance 100.
-- New York (Market-Level Capital Concentration): Stable capital pattern, 11 observation(s), importance 100.
-- Other / Unknown (Market-Level Capital Concentration): Stable capital pattern, 17 observation(s), importance 100.
-- Sun Belt (Market-Level Capital Concentration): Stable capital pattern, 33 observation(s), importance 100.
-- hines (Recurring Capital Partner): Stable capital pattern, 4 observation(s), importance 100.
-- New York (Market-Level Capital Concentration): Stable capital pattern, 2 observation(s), importance 70.
-- kkr (Recurring Capital Partner): Stable capital pattern, 2 observation(s), importance 65.
-- walker & dunlop (Recurring Lender): Stable capital pattern, 2 observation(s), importance 65.
-- Sun Belt (Market-Level Capital Concentration): Stable capital pattern, 2 observation(s), importance 59.
+- New York (Market-Level Capital Concentration): Stable capital pattern, 14 observation(s), importance 100.
+- Other / Unknown (Market-Level Capital Concentration): Capital concentration increasing, 24 observation(s), importance 100.
+- Sun Belt (Market-Level Capital Concentration): Stable capital pattern, 44 observation(s), importance 100.
+- JLL (Recurring Lender): Capital flow fading, 4 observation(s), importance 88.
+- hines (Recurring Capital Partner): Capital flow fading, 4 observation(s), importance 88.
+- Sun Belt (Market-Level Capital Concentration): Stable capital pattern, 3 observation(s), importance 81.
+- New York (Market-Level Capital Concentration): Capital flow fading, 2 observation(s), importance 44.
+- kkr (Recurring Capital Partner): Capital flow fading, 2 observation(s), importance 44.
+- walker & dunlop (Recurring Lender): Capital flow fading, 2 observation(s), importance 44.
 
 ## Institutional Capital Concentration
 
-- California (Market-Level Capital Concentration): Stable capital pattern, 5 observation(s), importance 100.
+- California (Market-Level Capital Concentration): Capital concentration increasing, 7 observation(s), importance 100.
 - California (Market-Level Capital Concentration): Stable capital pattern, 7 observation(s), importance 100.
-- Los Angeles (Market-Level Capital Concentration): Stable capital pattern, 10 observation(s), importance 100.
-- Los Angeles (Market-Level Capital Concentration): Stable capital pattern, 8 observation(s), importance 100.
-- New York (Market-Level Capital Concentration): Stable capital pattern, 11 observation(s), importance 100.
-- New York (Market-Level Capital Concentration): Stable capital pattern, 5 observation(s), importance 100.
-- Sun Belt (Market-Level Capital Concentration): Stable capital pattern, 10 observation(s), importance 100.
-- Sun Belt (Market-Level Capital Concentration): Stable capital pattern, 8 observation(s), importance 100.
-- Sun Belt (Market-Level Capital Concentration): Stable capital pattern, 33 observation(s), importance 100.
-- California (Market-Level Capital Concentration): Stable capital pattern, 6 observation(s), importance 99.
+- California (Market-Level Capital Concentration): Stable capital pattern, 8 observation(s), importance 100.
+- Los Angeles (Market-Level Capital Concentration): Stable capital pattern, 12 observation(s), importance 100.
+- New York (Market-Level Capital Concentration): Stable capital pattern, 14 observation(s), importance 100.
+- New York (Market-Level Capital Concentration): Capital concentration increasing, 7 observation(s), importance 100.
+- New York (Market-Level Capital Concentration): Stable capital pattern, 8 observation(s), importance 100.
+- Sun Belt (Market-Level Capital Concentration): Stable capital pattern, 14 observation(s), importance 100.
+- Sun Belt (Market-Level Capital Concentration): Capital concentration increasing, 9 observation(s), importance 100.
+- Sun Belt (Market-Level Capital Concentration): Stable capital pattern, 9 observation(s), importance 100.
 
 ## Opportunity / Distress Radar
 

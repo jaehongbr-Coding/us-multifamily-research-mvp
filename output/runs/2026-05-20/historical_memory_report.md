@@ -1,79 +1,79 @@
 # Historical Memory Report
 
-Generated: 2026-05-20 05:18:44
+Generated: 2026-05-20 23:01:55
 
-- Memory rows tracked: 321
-- Fastest-rising GP: Hines
+- Memory rows tracked: 418
+- Fastest-rising GP: Quarterra
 - Strongest recurring lender: Berkadia
 
 ## Fastest-Rising GP
 
-- Hines (GP / Developer): Persistent, 4 observation(s), importance 57.
+- Quarterra (GP / Developer): Fading, 1 observation(s), importance 56.
 
 ## Strongest Recurring Lender
 
-- Berkadia (Lender / Debt Provider): Persistent, 4 observation(s), importance 80.
-- JLL (Lender / Debt Provider): Persistent, 3 observation(s), importance 78.
-- JLL (Lender / Debt Provider): Persistent, 4 observation(s), importance 71.
-- JLL (Lender / Debt Provider): Persistent, 4 observation(s), importance 65.
+- Berkadia (Lender / Debt Provider): Fading, 4 observation(s), importance 79.
+- JLL (Lender / Debt Provider): Persistent, 4 observation(s), importance 79.
+- JLL (Lender / Debt Provider): Persistent, 5 observation(s), importance 73.
 - JLL (Lender / Debt Provider): Fading, 1 observation(s), importance 65.
 - cushman (Lender / Debt Provider): Fading, 1 observation(s), importance 65.
 - cushman (Lender / Debt Provider): Fading, 1 observation(s), importance 65.
 - walker & dunlop (Lender / Debt Provider): Fading, 1 observation(s), importance 65.
-- JLL (Lender / Debt Provider): Persistent, 3 observation(s), importance 63.
-- walker & dunlop (Lender / Debt Provider): Emerging, 2 observation(s), importance 62.
+- JLL (Lender / Debt Provider): Persistent, 4 observation(s), importance 64.
+- JLL (Lender / Debt Provider): Fading, 4 observation(s), importance 63.
+- CBRE (Lender / Debt Provider): Fading, 2 observation(s), importance 61.
 
 ## Recurring California / LA Relationships
 
-- Berkadia (Lender / Debt Provider): Persistent, 4 observation(s), importance 80.
-- JLL -> JLL (Relationship Edge): Persistent, 7 observation(s), importance 78.
-- JLL (Lender / Debt Provider): Persistent, 3 observation(s), importance 78.
-- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 14 observation(s), importance 74.
-- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 9 observation(s), importance 73.
-- JLL (Lender / Debt Provider): Persistent, 4 observation(s), importance 71.
-- JLL -> California (Relationship Edge): Persistent, 3 observation(s), importance 71.
-- California -> JLL (Relationship Edge): Persistent, 3 observation(s), importance 71.
-- Los Angeles -> Berkadia (Relationship Edge): Emerging, 2 observation(s), importance 71.
-- Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily (Deal / Project): Persistent, 3 observation(s), importance 70.
+- JLL -> JLL (Relationship Edge): Persistent, 9 observation(s), importance 81.
+- Berkadia (Lender / Debt Provider): Fading, 4 observation(s), importance 79.
+- JLL (Lender / Debt Provider): Persistent, 4 observation(s), importance 79.
+- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 10 observation(s), importance 75.
+- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 17 observation(s), importance 74.
+- JLL (Lender / Debt Provider): Persistent, 5 observation(s), importance 73.
+- JLL -> California (Relationship Edge): Persistent, 4 observation(s), importance 73.
+- California -> JLL (Relationship Edge): Persistent, 4 observation(s), importance 72.
+- Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily (Deal / Project): Persistent, 4 observation(s), importance 71.
+- Berkadia -> Berkadia (Relationship Edge): Fading, 2 observation(s), importance 70.
 
 ## Persistent BTR / Student / Senior Housing Players
 
-- JLL (Lender / Debt Provider): Persistent, 4 observation(s), importance 71.
-- Senior Housing (Residential Sector): Emerging, 2 observation(s), importance 61.
-- General Project Signal - California - JLL, HJ Sims Secure $252.1M in Financing for Planned 214-Unit Seniors Housing Project in H... (Deal / Project): Emerging, 2 observation(s), importance 60.
-- General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project (Deal / Project): Emerging, 2 observation(s), importance 60.
-- Fannie Mae (Lender / Debt Provider): Persistent, 3 observation(s), importance 54.
-- Refinancing - Sun Belt - Georgia Tech Student Housing Investors Ink Refi (Deal / Project): Emerging, 2 observation(s), importance 51.
+- JLL (Lender / Debt Provider): Persistent, 5 observation(s), importance 73.
+- General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project (Deal / Project): Persistent, 3 observation(s), importance 61.
+- General Project Signal - California - JLL, HJ Sims Secure $252.1M in Financing for Planned 214-Unit Seniors Housing Project in H... (Deal / Project): Fading, 2 observation(s), importance 59.
+- Senior Housing (Residential Sector): Fading, 2 observation(s), importance 59.
+- Fannie Mae (Lender / Debt Provider): Persistent, 4 observation(s), importance 56.
+- Refinancing - Sun Belt - Georgia Tech Student Housing Investors Ink Refi (Deal / Project): Persistent, 3 observation(s), importance 52.
+- Freddie Mac (Lender / Debt Provider): Emerging, 1 observation(s), importance 51.
+- Construction Financing - Florida - Peachtree Supplies $45M C-PACE Loan for Florida Senior Housing Project (Deal / Project): Emerging, 1 observation(s), importance 50.
+- ares (Institutional Capital Partner): Emerging, 1 observation(s), importance 50.
 - cushman (Lender / Debt Provider): Fading, 1 observation(s), importance 49.
-- BTR / Build-to-Rent - Sun Belt - Keystone Snags Refi on 166-Unit Apache Junction BTR Community (Deal / Project): Persistent, 3 observation(s), importance 46.
-- BTR / Single-Family Rental (Residential Sector): Emerging, 2 observation(s), importance 45.
-- Student Housing (Residential Sector): Emerging, 2 observation(s), importance 45.
 
 ## Recurring Institutional Capital Pairings
 
-- JLL -> JLL (Relationship Edge): Persistent, 7 observation(s), importance 78.
-- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 14 observation(s), importance 74.
-- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 9 observation(s), importance 73.
-- JLL -> California (Relationship Edge): Persistent, 3 observation(s), importance 71.
-- California -> JLL (Relationship Edge): Persistent, 3 observation(s), importance 71.
-- Los Angeles -> Berkadia (Relationship Edge): Emerging, 2 observation(s), importance 71.
-- Berkadia -> Berkadia (Relationship Edge): Emerging, 2 observation(s), importance 70.
-- Los Angeles -> Los Angeles (Relationship Edge): Emerging, 2 observation(s), importance 70.
-- Berkadia -> Los Angeles (Relationship Edge): Emerging, 2 observation(s), importance 70.
-- Hines -> JLL (Relationship Edge): Persistent, 10 observation(s), importance 69.
+- JLL -> JLL (Relationship Edge): Persistent, 9 observation(s), importance 81.
+- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 10 observation(s), importance 75.
+- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 17 observation(s), importance 74.
+- JLL -> California (Relationship Edge): Persistent, 4 observation(s), importance 73.
+- California -> JLL (Relationship Edge): Persistent, 4 observation(s), importance 72.
+- Berkadia -> Berkadia (Relationship Edge): Fading, 2 observation(s), importance 70.
+- Berkadia -> Los Angeles (Relationship Edge): Fading, 2 observation(s), importance 70.
+- Los Angeles -> Berkadia (Relationship Edge): Fading, 2 observation(s), importance 70.
+- Los Angeles -> Los Angeles (Relationship Edge): Fading, 2 observation(s), importance 70.
+- California -> cushman (Relationship Edge): Fading, 2 observation(s), importance 68.
 
 ## Strongest Multi-Run Relationships
 
-- JLL -> JLL (Relationship Edge): Persistent, 7 observation(s), importance 78.
-- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 14 observation(s), importance 74.
-- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 9 observation(s), importance 73.
-- JLL -> California (Relationship Edge): Persistent, 3 observation(s), importance 71.
-- California -> JLL (Relationship Edge): Persistent, 3 observation(s), importance 71.
-- Los Angeles -> Berkadia (Relationship Edge): Emerging, 2 observation(s), importance 71.
-- Berkadia -> Berkadia (Relationship Edge): Emerging, 2 observation(s), importance 70.
-- Los Angeles -> Los Angeles (Relationship Edge): Emerging, 2 observation(s), importance 70.
-- Berkadia -> Los Angeles (Relationship Edge): Emerging, 2 observation(s), importance 70.
-- Hines -> JLL (Relationship Edge): Persistent, 10 observation(s), importance 69.
+- JLL -> JLL (Relationship Edge): Persistent, 9 observation(s), importance 81.
+- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 10 observation(s), importance 75.
+- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 17 observation(s), importance 74.
+- JLL -> California (Relationship Edge): Persistent, 4 observation(s), importance 73.
+- California -> JLL (Relationship Edge): Persistent, 4 observation(s), importance 72.
+- Berkadia -> Berkadia (Relationship Edge): Fading, 2 observation(s), importance 70.
+- Berkadia -> Los Angeles (Relationship Edge): Fading, 2 observation(s), importance 70.
+- Los Angeles -> Berkadia (Relationship Edge): Fading, 2 observation(s), importance 70.
+- Los Angeles -> Los Angeles (Relationship Edge): Fading, 2 observation(s), importance 70.
+- California -> cushman (Relationship Edge): Fading, 2 observation(s), importance 68.
 
 ## Accelerating Markets
 
@@ -81,24 +81,27 @@ Generated: 2026-05-20 05:18:44
 
 ## Fading Markets
 
-- California (Market / Region): Fading, 1 observation(s), importance 50.
+- California (Market / Region): Fading, 2 observation(s), importance 61.
 - Dallas (Market / Region): Fading, 1 observation(s), importance 42.
 - Phoenix (Market / Region): Fading, 1 observation(s), importance 42.
-- Seattle (Market / Region): Fading, 1 observation(s), importance 34.
-- Texas (Market / Region): Fading, 1 observation(s), importance 34.
+- National / Other (Market / Region): Fading, 3 observation(s), importance 39.
+- Southeast (Market / Region): Fading, 3 observation(s), importance 39.
+- Dallas (Market / Region): Fading, 2 observation(s), importance 37.
+- Seattle (Market / Region): Fading, 2 observation(s), importance 37.
+- Texas (Market / Region): Fading, 2 observation(s), importance 37.
 
 ## Recurring Refinancing Stress Signals
 
-- JLL (Lender / Debt Provider): Persistent, 4 observation(s), importance 65.
-- hines (Institutional Capital Partner): Persistent, 4 observation(s), importance 65.
-- Hines (Institutional Capital Partner): Emerging, 2 observation(s), importance 63.
-- kkr (Institutional Capital Partner): Emerging, 2 observation(s), importance 60.
-- walker & dunlop (Lender / Debt Provider): Emerging, 2 observation(s), importance 60.
-- Hines (GP / Developer): Persistent, 4 observation(s), importance 57.
+- JLL (Lender / Debt Provider): Fading, 4 observation(s), importance 63.
+- hines (Institutional Capital Partner): Fading, 4 observation(s), importance 63.
+- Hines (Institutional Capital Partner): Fading, 2 observation(s), importance 60.
+- kkr (Institutional Capital Partner): Fading, 2 observation(s), importance 60.
+- walker & dunlop (Lender / Debt Provider): Fading, 2 observation(s), importance 60.
+- Fannie Mae (Lender / Debt Provider): Emerging, 1 observation(s), importance 59.
+- Freddie Mac (Lender / Debt Provider): Emerging, 1 observation(s), importance 58.
 - Hines (Institutional Capital Partner): Fading, 1 observation(s), importance 57.
 - JLL (Lender / Debt Provider): Fading, 1 observation(s), importance 57.
 - hines (Institutional Capital Partner): Fading, 1 observation(s), importance 57.
-- Refinancing - New York - JLL Arranges $141.8M Refinancing for Wolf Point West Luxury Apartment Tower in Chicago (Deal / Project): Emerging, 2 observation(s), importance 54.
 
 ## Canonical Deal Summary
 

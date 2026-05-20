@@ -1,6 +1,6 @@
 # LA / Southern California Submarket Watch Report
 
-Generated: 2026-05-20 04:06:08
+Generated: 2026-05-20 05:18:45
 
 - Total LA / Southern California submarkets detected: 12
 

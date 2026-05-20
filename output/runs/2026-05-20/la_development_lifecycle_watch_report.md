@@ -1,6 +1,6 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-05-20 04:06:11
+Generated: 2026-05-20 05:18:49
 
 - Total LA lifecycle watch items: 55
 
@@ -50,7 +50,7 @@ Generated: 2026-05-20 04:06:11
 ## Construction-Ready LA Project Watch
 
 - Development Start - Other / Unknown - Major Development Groundbreaking on Landmark Multifamily Mixed-Use Community The Piazza at...: Construction Started, Monitor only, opportunity 67.
-- Major Development Groundbreaking on Landmark Multifamily Mixed-Use Community The Piazza at Ardmore in Philadelphia: Construction Started, Monitor only, opportunity 60.
+- Major Development Groundbreaking on Landmark Multifamily Mixed-Use Community The Piazza at Ardmore in Philadelphia: Construction Started, Monitor only, opportunity 61.
 
 ## Recommended LA Lifecycle Follow-up Actions
 
@@ -68,7 +68,7 @@ Generated: 2026-05-20 04:06:11
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 101
-- Newly detected projects: 55
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 53

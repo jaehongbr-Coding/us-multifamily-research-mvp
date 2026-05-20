@@ -1,6 +1,6 @@
 # Timing Intelligence Report
 
-Generated: 2026-05-20 04:06:08
+Generated: 2026-05-20 05:18:45
 
 - Total timing signals detected: 60
 
@@ -69,10 +69,10 @@ Generated: 2026-05-20 04:06:08
 - Entitlement / Permitting in Los Angeles: No explicit timing reference, score 73, Biweekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
 - Construction Completion / Delivery in Los Angeles: No explicit timing reference, score 71, Biweekly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
 - Construction Completion / Delivery in Los Angeles: No explicit timing reference, score 71, Biweekly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
-- Distress Sale Timing in California: No explicit timing reference, score 67, Biweekly monitoring. Prepare sponsor, lender, and rescue-capital watchlist.
-- Distress Sale Timing in Los Angeles: No explicit timing reference, score 67, Biweekly monitoring. Prepare sponsor, lender, and rescue-capital watchlist.
-- Distress Sale Timing in Los Angeles: No explicit timing reference, score 67, Biweekly monitoring. Prepare sponsor, lender, and rescue-capital watchlist.
-- Distress Sale Timing in California: No explicit timing reference, score 63, Monthly monitoring. Prepare sponsor, lender, and rescue-capital watchlist.
+- Distress Sale Timing in California: No explicit timing reference, score 68, Biweekly monitoring. Prepare sponsor, lender, and rescue-capital watchlist.
+- Distress Sale Timing in Los Angeles: No explicit timing reference, score 68, Biweekly monitoring. Prepare sponsor, lender, and rescue-capital watchlist.
+- Distress Sale Timing in Los Angeles: No explicit timing reference, score 68, Biweekly monitoring. Prepare sponsor, lender, and rescue-capital watchlist.
+- Distress Sale Timing in California: No explicit timing reference, score 64, Monthly monitoring. Prepare sponsor, lender, and rescue-capital watchlist.
 - Office-to-Residential Conversion Timing in Los Angeles: No explicit timing reference, score 59, Monthly monitoring. Monitor sector-specific platform timing and potential partnership relevance.
 - Entitlement / Permitting in California: No explicit timing reference, score 53, Monthly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
 
@@ -84,9 +84,9 @@ Generated: 2026-05-20 04:06:08
 
 ## Recommended Monitoring Cadence
 
-- Monthly: 27 timing signal(s)
+- Monthly: 30 timing signal(s)
 - Biweekly: 16 timing signal(s)
-- Monitor Only: 13 timing signal(s)
+- Monitor Only: 10 timing signal(s)
 - Weekly: 4 timing signal(s)
 
 ## Implications for Woomi / Woomi Global
@@ -110,7 +110,7 @@ Generated: 2026-05-20 04:06:08
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 101
-- Newly detected projects: 55
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 53

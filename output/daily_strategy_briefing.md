@@ -1,6 +1,6 @@
 # US Multifamily Daily Strategy Briefing
 
-Generated: 2026-05-20 04:06:06
+Generated: 2026-05-20 05:18:44
 
 - Total saved articles: 88
 - High-priority article count: 56

@@ -1,7 +1,7 @@
 ﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
-20260520-040606-6613d3b9,2026-05-20,Construction financing still selective,Building,stable,2,2,2,7.5,4.0,9,9,6,4,Sun Belt,Broadly Confirmed,steady visibility,
-20260520-040606-6613d3b9,2026-05-20,Institutional recap over expansion,Building,stable,2,2,2,3.0,2.5,4,4,4,1,New York,Moderate Signal,steady visibility,
-20260520-040606-6613d3b9,2026-05-20,JV / partnership activity observed,Weakening,weakening,2,2,2,6.5,4.0,6,6,5,3,New York,Broadly Confirmed,JV / partnership activity observed visibility is weakening versus prior runs.,
-20260520-040606-6613d3b9,2026-05-20,LA entitlement precedent accumulation,Weakening,weakening,2,2,2,9.0,4.0,8,8,5,0,Los Angeles,Broadly Confirmed,LA entitlement precedent accumulation visibility is weakening versus prior runs.,
-20260520-040606-6613d3b9,2026-05-20,Refinancing pressure unresolved,Building,stable,2,2,2,6.0,4.0,7,7,6,3,New York,Broadly Confirmed,steady visibility,
-20260520-040606-6613d3b9,2026-05-20,Sun Belt lease-up pressure watch,Building,stable,2,2,2,2.0,2.0,2,2,2,0,National,Early Signal,steady visibility,
+20260520-051844-b14f8dba,2026-05-20,Construction financing still selective,Building,stable,3,3,3,8.0,4.0,9,9,6,4,Sun Belt,Broadly Confirmed,steady visibility,
+20260520-051844-b14f8dba,2026-05-20,Institutional recap over expansion,Building,stable,3,3,3,3.33,2.67,4,4,4,1,New York,Moderate Signal,steady visibility,
+20260520-051844-b14f8dba,2026-05-20,JV / partnership activity observed,Persistent,stable,3,3,3,6.33,4.0,6,6,5,3,New York,Broadly Confirmed,steady visibility,
+20260520-051844-b14f8dba,2026-05-20,LA entitlement precedent accumulation,Persistent,stable,3,3,3,8.67,4.0,8,8,5,0,Los Angeles,Broadly Confirmed,steady visibility,
+20260520-051844-b14f8dba,2026-05-20,Refinancing pressure unresolved,Building,stable,3,3,3,6.33,4.0,7,7,6,3,New York,Broadly Confirmed,steady visibility,
+20260520-051844-b14f8dba,2026-05-20,Sun Belt lease-up pressure watch,Building,stable,3,3,3,2.0,2.0,2,2,2,0,National,Early Signal,steady visibility,

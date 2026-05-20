@@ -1,6 +1,6 @@
 # 한국어 주간 전략 메모
 
-- 생성 시각: 2026-05-20 04:06:06
+- 생성 시각: 2026-05-20 05:18:44
 - 참고 원문 파일: `weekly_strategy_memo.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -15,7 +15,7 @@
 - Selective Capital Re-entry: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention)
 - Supply Pressure: 기타 / 미확인, 아파트, 점수 100 (Tier 2 Strategic Review)
 - Developer Strategy Shift: 기타 / 미확인, 아파트, 점수 98 (Tier 2 Strategic Review)
-- Policy / Entitlement Watch: 기타 / 미확인, 아파트, 점수 68 (Tier 3 Monitoring)
+- Policy / Entitlement Watch: 기타 / 미확인, 아파트, 점수 76 (Tier 3 Monitoring)
 
 ## 자본시장 / GP 동향
 
@@ -25,11 +25,11 @@
 
 ## 지역 / 섹터 관찰
 
-- Sun Belt: Sun Belt, 일반 주거, 점수 82 (Active Watch Window; Actively source opportunities)
+- Sun Belt: Sun Belt, 일반 주거, 점수 83 (Active Watch Window; Actively source opportunities)
 - New York: New York, 일반 주거, 점수 80 (Active Watch Window; Actively source opportunities)
 - Los Angeles: Los Angeles, 일반 주거, 점수 78 (Selective Entry Window; Track entitlement / permitting pipeline)
-- California: California, 일반 주거, 점수 72 (Selective Entry Window; Track entitlement / permitting pipeline)
-- Seattle: Seattle, 일반 주거, 점수 67 (Selective Entry Window; Monitor refinancing and distress pipeline)
+- Seattle: Seattle, 일반 주거, 점수 75 (Selective Entry Window; Monitor refinancing and distress pipeline)
+- California: California, 일반 주거, 점수 73 (Selective Entry Window; Track entitlement / permitting pipeline)
 
 ## 우미 전략 시사점
 

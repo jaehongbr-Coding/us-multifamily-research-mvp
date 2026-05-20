@@ -1,6 +1,6 @@
 # Run Summary
 
-Generated: 2026-05-20 04:06:06
+Generated: 2026-05-20 05:18:44
 
 ## Quick Counts
 
@@ -21,7 +21,7 @@ Generated: 2026-05-20 04:06:06
 
 ## Top Dashboard Signal
 
-- Construction Financing - Los Angeles - Seachange Partners Receives $15.6M in Construction Financing for Two Affordable Housing Pr... (LA Asset Watch)
+- Berkadia (Capital Flow)
 
 ## Suggested Next Action
 

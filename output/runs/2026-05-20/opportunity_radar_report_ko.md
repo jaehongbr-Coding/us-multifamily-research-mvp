@@ -1,19 +1,19 @@
 # 한국어 기회 레이더 리포트
 
-- 생성 시각: 2026-05-20 04:06:06
+- 생성 시각: 2026-05-20 05:18:44
 - 참고 원문 파일: `opportunity_radar_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
 ## 주요 기회 신호
 
-- Refinancing Gap: New York, 아파트, 점수 91 (Immediate Opportunity Watch; Add to executive opportunity review)
+- Refinancing Gap: New York, 아파트, 점수 92 (Immediate Opportunity Watch; Add to executive opportunity review)
 - Refinancing Gap: New York, 아파트, 점수 89 (Immediate Opportunity Watch; Add to executive opportunity review)
+- Acquisition Opportunity: New York, 멀티패밀리, 점수 83 (Immediate Opportunity Watch; Add to executive opportunity review)
 - GP Capability Partnership Opportunity: Sun Belt, 아파트, 점수 83 (Immediate Opportunity Watch; Add to executive opportunity review)
-- Acquisition Opportunity: New York, 멀티패밀리, 점수 82 (Immediate Opportunity Watch; Add to executive opportunity review)
+- JV / Partnership Gap: New York, 일반 주거, 점수 80 (Immediate Opportunity Watch; Add to executive opportunity review)
 - Construction Financing Gap: Sun Belt, 아파트, 점수 79 (Strategic Opportunity Watch; Track debt stack, maturity, lender, and recapitalization details)
-- JV / Partnership Gap: New York, 일반 주거, 점수 79 (Strategic Opportunity Watch; Map GP, capital partner, and relationship history)
-- GP Capability Partnership Opportunity: Seattle, 아파트, 점수 75 (Strategic Opportunity Watch; Map GP, capital partner, and relationship history)
-- GP Capability Partnership Opportunity: New York, 일반 주거, 점수 73 (Strategic Opportunity Watch; Map GP, capital partner, and relationship history)
+- GP Capability Partnership Opportunity: Seattle, 아파트, 점수 78 (Strategic Opportunity Watch; Map GP, capital partner, and relationship history)
+- GP Capability Partnership Opportunity: New York, 일반 주거, 점수 74 (Strategic Opportunity Watch; Map GP, capital partner, and relationship history)
 - Construction Financing Gap: California, 아파트, 점수 71 (Strategic Opportunity Watch; Track debt stack, maturity, lender, and recapitalization details)
 - Construction Financing Gap: Los Angeles, 어포더블 하우징, 점수 71 (Strategic Opportunity Watch; Track debt stack, maturity, lender, and recapitalization details)
 
@@ -28,9 +28,9 @@
 ## JV / Partnership Gap
 
 - Wood Partners: Sun Belt, 아파트, 점수 83 (Map possible GP partnership or capability-building relationship)
-- Blackstone: New York, 일반 주거, 점수 79 (Map possible GP partnership or capability-building relationship)
-- Quarterra: Seattle, 아파트, 점수 75 (Map possible GP partnership or capability-building relationship)
-- Blackstone: New York, 일반 주거, 점수 73 (Map possible GP partnership or capability-building relationship)
+- Blackstone: New York, 일반 주거, 점수 80 (Map possible GP partnership or capability-building relationship)
+- Quarterra: Seattle, 아파트, 점수 78 (Map possible GP partnership or capability-building relationship)
+- Blackstone: New York, 일반 주거, 점수 74 (Map possible GP partnership or capability-building relationship)
 - Unknown: California, 일반 주거, 점수 66 (Evaluate LA / California entitlement, zoning, or local GP partnership relevance)
 
 ## 추천 후속 조치

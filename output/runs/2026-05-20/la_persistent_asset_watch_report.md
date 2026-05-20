@@ -1,6 +1,6 @@
 # LA Persistent Asset Watch Report
 
-Generated: 2026-05-20 04:06:11
+Generated: 2026-05-20 05:18:49
 
 - Total LA persistent asset watch items: 91
 
@@ -15,6 +15,7 @@ Generated: 2026-05-20 04:06:11
 - Acquisition - Sun Belt - Finmarc Sells Capital Marketplace Retail Center in Raleigh for $80.6M: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
 - Disposition / Exit - Sun Belt - Institutional Property Advisors Brokers Luxury Apartment Sale in Dallas: Los Angeles, Unknown Stage, Track repeat project updates.
 - Entitlement / Permitting - California - Formal Application Filed For Outer Richmond Safeway Redevelopment, San Francisco: California, Planning Filed, Track repeat project updates.
+- Construction Financing - National - North American Development Group Lands $106M to Build Boca Raton Rental: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
 
 ## Koreatown / Wilshire Persistent Assets
 

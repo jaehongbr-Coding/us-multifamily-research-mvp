@@ -1,6 +1,6 @@
 # Pipeline Manifest
 
-Generated: 2026-05-20 04:06:06
+Generated: 2026-05-20 05:18:44
 
 This file is the output index for the single-file MVP. It helps you see what was generated, who should read it, and where each output fits in the research workflow.
 
@@ -71,5 +71,5 @@ This file is the output index for the single-file MVP. It helps you see what was
 | `pipeline_manifest.md` | Markdown | Quality Control | Generated | 3 | Technical / Maintenance |
 | `pipeline_health.csv` | CSV | Quality Control | Generated | 137 | Technical / Maintenance |
 | `pipeline_health_report.md` | Markdown | Quality Control | Generated | 6 | Technical / Maintenance |
-| `error_log.csv` | CSV | Quality Control | Generated | 260 | Technical / Maintenance |
+| `error_log.csv` | CSV | Quality Control | Generated | 390 | Technical / Maintenance |
 | `run_summary.md` | Markdown | Quality Control | Generated | 5 | Executive |

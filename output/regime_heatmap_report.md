@@ -1,6 +1,6 @@
 # Regime Heatmap Report
 
-Generated: 2026-05-20 04:06:06
+Generated: 2026-05-20 05:18:44
 
 Scores are calibrated with capped weighted components, so final_score is less likely to saturate at 100 unless the supporting signals are very strong.
 

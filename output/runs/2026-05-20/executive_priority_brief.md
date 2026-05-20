@@ -1,6 +1,6 @@
 # Executive Priority Brief
 
-Generated: 2026-05-20 04:06:07
+Generated: 2026-05-20 05:18:44
 
 ## Top 3 Executive Priorities
 
@@ -16,7 +16,7 @@ Generated: 2026-05-20 04:06:07
 | 2 | Selective Capital Re-entry | 100 | Tier 1 Executive Attention | Investment Team; Strategy Team; Executive Committee; US Local Team | This Week |
 | 3 | Supply Pressure | 100 | Tier 2 Strategic Review | Investment Team; Development Team; US Local Team | This Week |
 | 4 | Developer Strategy Shift | 98 | Tier 2 Strategic Review | Strategy Team; Development Team; US Local Team | This Week |
-| 5 | Policy / Entitlement Watch | 68 | Tier 3 Monitoring | Development Team; US Local Team; Strategy Team | Next IC / Strategy Meeting |
+| 5 | Policy / Entitlement Watch | 76 | Tier 3 Monitoring | Development Team; US Local Team; Strategy Team | Next IC / Strategy Meeting |
 | 6 | Construction Cost Pressure | 14 | Background | Development Team; Investment Team; US Local Team | Background Tracking |
 
 ## Tier 1 Executive Attention
@@ -31,7 +31,7 @@ Generated: 2026-05-20 04:06:07
 
 ## Monitoring Items
 
-- Rank 5: Policy / Entitlement Watch (68). Policy and entitlement signals should be monitored because they may affect approvals, zoning strategy, and local development feasibility. Owner: Development Team; US Local Team; Strategy Team. Timing: Next IC / Strategy Meeting.
+- Rank 5: Policy / Entitlement Watch (76). Policy and entitlement signals should be monitored because they may affect approvals, zoning strategy, and local development feasibility. Owner: Development Team; US Local Team; Strategy Team. Timing: Next IC / Strategy Meeting.
 - Rank 6: Construction Cost Pressure (14). Construction cost signals should be reviewed because they may affect feasibility, contingencies, and value engineering. Owner: Development Team; Investment Team; US Local Team. Timing: Background Tracking.
 
 ## Scenario Context
@@ -134,7 +134,7 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 101
-- Newly detected projects: 55
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 53
@@ -158,9 +158,9 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 ## Signal Quality / Confidence Summary
 
 - Signals evaluated: 157
-- Institutional-grade signals: 15
+- Institutional-grade signals: 18
 - High-confidence signals: 36
-- Weak/noisy signals: 111
+- Weak/noisy signals: 109
 - High-confidence watchlist items: 36
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

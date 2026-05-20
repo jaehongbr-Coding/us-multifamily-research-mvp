@@ -1,6 +1,6 @@
 # LA / Southern California Asset Watch Report
 
-Generated: 2026-05-20 04:06:09
+Generated: 2026-05-20 05:18:47
 
 - Total LA / Southern California asset watch items: 56
 
@@ -11,23 +11,23 @@ Generated: 2026-05-20 04:06:09
 - Entitlement / Permitting - Los Angeles - Tommy Beadel on why Los Angeles is the easiest place to develop real estate: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
 - General Project Signal - Los Angeles - New proposal emerges for affordable housing at 1316 Linwood Ave. in Westlake: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 100.
 - General Project Signal - Other / Unknown - The Community Builders Completes 64-Unit Affordable Housing Development in Cleveland: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 96.
-- Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Los Angeles, Refinancing / Recapitalization, la_asset_opportunity_score 94.
+- Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Los Angeles, Refinancing / Recapitalization, la_asset_opportunity_score 95.
 - Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M: Los Angeles, General Asset Signal, la_asset_opportunity_score 92.
 - Construction Financing - Los Angeles - Berkadia Lines Up Construction Loan for Seachange Partners: Los Angeles, Refinancing / Recapitalization, la_asset_opportunity_score 91.
+- General Project Signal - California - JLL, HJ Sims Secure $252.1M in Financing for Planned 214-Unit Seniors Housing Project in H...: Los Angeles, General Asset Signal, la_asset_opportunity_score 90.
 - Refinancing - New York - The Dermot Company Secures $355M Refinancing Loan for Class A Multifamily Rental Tower on...: Los Angeles, Refinancing / Recapitalization, la_asset_opportunity_score 90.
-- Office-to-Residential Conversion - Los Angeles - Former IBM offices at 3424 Wilshire to become housing: Los Angeles, Office-to-Residential Conversion, la_asset_opportunity_score 90.
 
 ## Top LA Site-Level Risks
 
 - Construction Financing - Los Angeles - Seachange Partners Receives $15.6M in Construction Financing for Two Affordable Housing Pr...: Los Angeles, Affordable / Density Bonus Strategy, la_asset_risk_score 66.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 66.
 - General Project Signal - California - JLL, HJ Sims Secure $252.1M in Financing for Planned 214-Unit Seniors Housing Project in H...: Los Angeles, General Asset Signal, la_asset_risk_score 66.
-- General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: Los Angeles, General Asset Signal, la_asset_risk_score 63.
+- General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: Los Angeles, General Asset Signal, la_asset_risk_score 64.
 - Construction Financing - Los Angeles - Berkadia Lines Up Construction Loan for Seachange Partners: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 58.
 - Refinancing - New York - The Dermot Company Secures $355M Refinancing Loan for Class A Multifamily Rental Tower on...: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 48.
 - Fault lines surface as projects tap California’s CEQA exemption law: Los Angeles, General Asset Signal, la_asset_risk_score 48.
 - General Project Signal - California - Anaheim Industrial Outdoor Storage Site Secures Bridge Loan: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 47.
-- Refinancing - Sun Belt - Georgia Tech Student Housing Investors Ink Refi: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 46.
+- Refinancing - Sun Belt - Georgia Tech Student Housing Investors Ink Refi: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 47.
 - Office-to-Residential Conversion - Los Angeles - Former IBM offices at 3424 Wilshire to become housing: Los Angeles, Office-to-Residential Conversion, la_asset_risk_score 42.
 
 ## Koreatown / Wilshire Site Watch
@@ -87,7 +87,7 @@ Generated: 2026-05-20 04:06:09
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 101
-- Newly detected projects: 55
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 53

@@ -1,6 +1,6 @@
 # Narrative Regime Detection
 
-Generated: 2026-05-20 04:06:06
+Generated: 2026-05-20 05:18:44
 
 ## Detected Regime
 
@@ -90,9 +90,7 @@ Regime momentum is available in `regime_momentum_report.md` when previous heatma
 
 ## Key Thematic Context
 
-- Financing Risk is Moderate Increase (21 to 27).
-- Supply Pressure is Sharp Increase (4 to 9).
-- Market signal activity is increasing, led by Rent Growth Signal (9 to 16).
+- No major thematic increase alert was detected in this run.
 
 ## Cross-Theme Interpretation
 

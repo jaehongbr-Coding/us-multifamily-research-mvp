@@ -1,6 +1,6 @@
 # Submarket Intelligence Report
 
-Generated: 2026-05-20 04:06:08
+Generated: 2026-05-20 05:18:45
 
 - Total submarkets detected: 30
 
@@ -11,7 +11,7 @@ Generated: 2026-05-20 04:06:08
 - Los Angeles (Los Angeles): submarket_opportunity_score 100, Monitor entitlement precedent.
 - Atlanta (Southeast): submarket_opportunity_score 100, Monitor entitlement precedent.
 - Charlotte (Southeast): submarket_opportunity_score 100, Monitor entitlement precedent.
-- Seattle (Seattle): submarket_opportunity_score 89, Monitor entitlement precedent.
+- Seattle (Seattle): submarket_opportunity_score 90, Monitor entitlement precedent.
 - Miami (Florida): submarket_opportunity_score 79, Review potential acquisition pipeline.
 - Wilshire (Los Angeles): submarket_opportunity_score 76, Monitor entitlement precedent.
 - Venice (Los Angeles): submarket_opportunity_score 70, Monitor entitlement precedent.
@@ -23,7 +23,7 @@ Generated: 2026-05-20 04:06:08
 - Seattle (Seattle): submarket_risk_score 59, Monitor entitlement precedent.
 - Santa Ana (Orange County): submarket_risk_score 56, Monitor refinancing / distress pipeline.
 - Anaheim (Orange County): submarket_risk_score 51, Review potential acquisition pipeline.
-- Houston (Texas): submarket_risk_score 49, Review potential acquisition pipeline.
+- Houston (Texas): submarket_risk_score 50, Review potential acquisition pipeline.
 - Miami (Florida): submarket_risk_score 47, Review potential acquisition pipeline.
 - Los Angeles (Los Angeles): submarket_risk_score 44, Monitor entitlement precedent.
 - Atlanta (Southeast): submarket_risk_score 15, Monitor entitlement precedent.

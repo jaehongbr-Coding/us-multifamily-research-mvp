@@ -1,6 +1,6 @@
 # US Multifamily Weekly Strategy Memo
 
-Generated: 2026-05-20 04:06:06
+Generated: 2026-05-20 05:18:44
 
 - Total articles reviewed: 88
 - High-priority article count: 56
@@ -296,7 +296,7 @@ Use that report to see which institutional, GP, brokerage, public-agency, and re
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 101
-- Newly detected projects: 55
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 53
@@ -320,9 +320,9 @@ Use that report to see which institutional, GP, brokerage, public-agency, and re
 ## Signal Quality / Confidence Summary
 
 - Signals evaluated: 157
-- Institutional-grade signals: 15
+- Institutional-grade signals: 18
 - High-confidence signals: 36
-- Weak/noisy signals: 111
+- Weak/noisy signals: 109
 - High-confidence watchlist items: 36
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

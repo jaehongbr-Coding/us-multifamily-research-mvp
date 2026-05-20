@@ -1,153 +1,153 @@
 ﻿run_date,run_id,source_name,source_category,platform_type,source_url,fetch_status,entries_found,articles_saved,error_message,source_quality_label
-2026-05-20,20260520-040606-6613d3b9,Multifamily Dive,Core Multifamily News,Other,https://www.multifamilydive.com/feeds/news/,OK,10,3,,High Value
-2026-05-20,20260520-040606-6613d3b9,Multifamily Executive,Core Multifamily News,Other,https://www.multifamilyexecutive.com/rss.xml,OK,10,3,,High Value
-2026-05-20,20260520-040606-6613d3b9,Yield PRO,Core Multifamily News,Other,https://yieldpro.com/feed/,OK,10,8,,High Value
-2026-05-20,20260520-040606-6613d3b9,Multi-Housing News,Core Multifamily News,Other,https://www.multihousingnews.com/feed/,Failed,0,0,RSS parsing issue,Failing
-2026-05-20,20260520-040606-6613d3b9,GlobeSt,Core Multifamily News,Other,https://www.globest.com/feed/,Failed,0,0,RSS parsing issue,Failing
-2026-05-20,20260520-040606-6613d3b9,Bisnow,Core Multifamily News,Other,https://www.bisnow.com/rss,OK,30,3,,High Value
-2026-05-20,20260520-040606-6613d3b9,Commercial Observer,Core Multifamily News,Other,https://commercialobserver.com/feed/,OK,17,5,,High Value
-2026-05-20,20260520-040606-6613d3b9,Connect CRE,Core Multifamily News,Other,https://www.connectcre.com/feed/,OK,10,2,,Useful
-2026-05-20,20260520-040606-6613d3b9,The Real Deal,Core Multifamily News,Other,https://therealdeal.com/feed/,Failed,0,0,RSS parsing issue,Failing
-2026-05-20,20260520-040606-6613d3b9,NAHB Eye on Housing - Multifamily,Public Agency / Housing Data,Other,https://eyeonhousing.org/category/multifamily/feed/,OK,18,13,,High Value
-2026-05-20,20260520-040606-6613d3b9,Construction Dive,Core Multifamily News,Other,https://www.constructiondive.com/feeds/news/,OK,10,0,,Watch
-2026-05-20,20260520-040606-6613d3b9,HousingWire,Core Multifamily News,Other,https://www.housingwire.com/feed/,OK,10,1,,Useful
-2026-05-20,20260520-040606-6613d3b9,Federal Reserve - Press Releases,Public Agency / Housing Data,Other,https://www.federalreserve.gov/feeds/press_all.xml,OK,20,0,,Watch
-2026-05-20,20260520-040606-6613d3b9,PERE,Institutional Real Estate / Capital Markets,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Urban Land Institute,Institutional Real Estate / Capital Markets,Other,https://urbanland.uli.org/feed/,Failed,0,0,RSS parsing issue,Failing
-2026-05-20,20260520-040606-6613d3b9,NMHC News,Institutional Real Estate / Capital Markets,Other,https://www.nmhc.org/news/rss/,Failed,0,0,RSS parsing issue,Failing
-2026-05-20,20260520-040606-6613d3b9,Freddie Mac Multifamily,Institutional Real Estate / Capital Markets,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Fannie Mae Multifamily,Institutional Real Estate / Capital Markets,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,MBA Commercial / Multifamily,Institutional Real Estate / Capital Markets,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Walker & Dunlop Insights,Brokerage / Debt / Research,Other,https://www.walkerdunlop.com/insights/feed/,Failed,0,0,RSS parsing issue,Failing
-2026-05-20,20260520-040606-6613d3b9,Berkadia Research,Brokerage / Debt / Research,Other,https://berkadia.com/feed/,Failed,0,0,RSS parsing issue,Failing
-2026-05-20,20260520-040606-6613d3b9,CBRE Multifamily / Living Sector,Brokerage / Debt / Research,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,JLL Living / Multifamily,Brokerage / Debt / Research,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Cushman & Wakefield Multifamily,Brokerage / Debt / Research,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Marcus & Millichap Research,Brokerage / Debt / Research,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Greystar Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Kennedy Wilson Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Related Companies Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Related California Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Hines Newsroom,Developer / GP Newsrooms,Other,https://www.hines.com/news/feed,Failed,0,0,RSS parsing issue,Failing
-2026-05-20,20260520-040606-6613d3b9,Mill Creek Residential Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Trammell Crow Residential Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Toll Brothers Apartment Living Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Crescent Communities Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,AvalonBay Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Essex Property Trust Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Camden Property Trust Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,UDR Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,MAA Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Equity Residential Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Blackstone Real Estate,Developer / GP Newsrooms,Other,https://www.blackstone.com/news/rss/,OK,10,3,,High Value
-2026-05-20,20260520-040606-6613d3b9,Brookfield Real Estate,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Urbanize LA,Regional / California / LA Sources,Other,https://la.urbanize.city/rss.xml,OK,10,8,,High Value
-2026-05-20,20260520-040606-6613d3b9,LA Business Journal,Regional / California / LA Sources,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Los Angeles City Planning,Regional / California / LA Sources,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,California HCD,Regional / California / LA Sources,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,California YIMBY,Regional / California / LA Sources,Other,https://californiayimby.com/feed,Failed,0,0,RSS parsing issue,Failing
-2026-05-20,20260520-040606-6613d3b9,SF YIMBY,Regional / California / LA Sources,Other,https://sfyimby.com/feed,OK,5,3,,High Value
-2026-05-20,20260520-040606-6613d3b9,Urbanize California,Regional / California / LA Sources,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,REBusiness Online,Site / Parcel Source Expansion,Other,https://rebusinessonline.com/feed/atom/,OK,20,11,,High Value
-2026-05-20,20260520-040606-6613d3b9,Connect CRE Apartments,Site / Parcel Source Expansion,Other,https://www.connectcre.com/feed?property-sector=apartments,OK,10,9,,High Value
-2026-05-20,20260520-040606-6613d3b9,Connect CRE Texas,Site / Parcel Source Expansion,Other,https://www.connectcre.com/feed?story-market=texas,OK,10,4,,High Value
-2026-05-20,20260520-040606-6613d3b9,Connect CRE South Florida,Site / Parcel Source Expansion,Other,https://www.connectcre.com/feed?story-market=south-florida,OK,10,5,,High Value
-2026-05-20,20260520-040606-6613d3b9,Connect CRE Phoenix,Site / Parcel Source Expansion,Other,https://www.connectcre.com/feed?story-market=phoenix,OK,10,3,,High Value
-2026-05-20,20260520-040606-6613d3b9,Connect CRE Atlanta,Site / Parcel Source Expansion,Other,https://www.connectcre.com/feed?story-market=atlanta,OK,10,2,,Useful
-2026-05-20,20260520-040606-6613d3b9,Connect CRE Charlotte,Site / Parcel Source Expansion,Other,https://www.connectcre.com/feed?story-market=charlotte,OK,10,3,,High Value
-2026-05-20,20260520-040606-6613d3b9,Connect CRE Orange County,Site / Parcel Source Expansion,Other,https://www.connectcre.com/feed?story-market=orange-county,OK,10,3,,High Value
-2026-05-20,20260520-040606-6613d3b9,CRE Daily,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Institutional Property Advisors,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,JLL Newsroom,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,CBRE Newsroom,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Cushman & Wakefield Newsroom,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Marcus & Millichap Newsroom,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Dallas Business Journal,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Austin Business Journal,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,South Florida Business Journal,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Phoenix Business Journal,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Atlanta Business Chronicle,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Charlotte Business Journal,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Los Angeles Business Journal,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,San Francisco Business Times,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Orange County Business Journal,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Denver Business Journal,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Nashville Business Journal,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Greystar Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Mill Creek Residential Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Trammell Crow Residential Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Lincoln Property Company Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Fairfield Residential Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Alliance Residential Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Wood Partners Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Hanover Company Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Holland Partner Group Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,JPI Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Kairoi Residential Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,AMLI Residential Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Quarterra Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Toll Brothers Apartment Living Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,AvalonBay Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Camden Property Trust Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,MAA Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,UDR Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Equity Residential Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Essex Property Trust Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Blackstone Real Estate Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,https://www.blackstone.com/news/rss/,OK,10,3,,High Value
-2026-05-20,20260520-040606-6613d3b9,Brookfield Real Estate Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Kennedy Wilson Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Hines Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,https://www.hines.com/news/feed,Failed,0,0,RSS parsing issue,Failing
-2026-05-20,20260520-040606-6613d3b9,GID Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Waterton Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Carmel Partners Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,CIM Group Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,LivCor Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,BGO Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Harbor Group International Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Starwood Capital Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,PGIM Real Estate Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Nuveen Real Estate Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,KKR Real Estate Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Carlyle Real Estate Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Apollo Real Estate Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Invitation Homes Source Expansion,Developer / GP Source Expansion,BTR / SFR Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,American Homes 4 Rent Source Expansion,Developer / GP Source Expansion,BTR / SFR Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Progress Residential Source Expansion,Developer / GP Source Expansion,BTR / SFR Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Tricon Residential Source Expansion,Developer / GP Source Expansion,BTR / SFR Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Pretium Source Expansion,Developer / GP Source Expansion,BTR / SFR Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,NexMetro Communities Source Expansion,Developer / GP Source Expansion,BTR / SFR Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Christopher Todd Communities Source Expansion,Developer / GP Source Expansion,BTR / SFR Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,BB Living Source Expansion,Developer / GP Source Expansion,BTR / SFR Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,AHV Communities Source Expansion,Developer / GP Source Expansion,BTR / SFR Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Quinn Residences Source Expansion,Developer / GP Source Expansion,BTR / SFR Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Core Spaces Source Expansion,Developer / GP Source Expansion,Student Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Landmark Properties Source Expansion,Developer / GP Source Expansion,Student Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,The Dinerstein Companies Source Expansion,Developer / GP Source Expansion,Student Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,LV Collective Source Expansion,Developer / GP Source Expansion,Student Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,CA Ventures Source Expansion,Developer / GP Source Expansion,Student Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Gilbane Development Source Expansion,Developer / GP Source Expansion,Student Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Harrison Street Source Expansion,Developer / GP Source Expansion,Student Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Scion Group Source Expansion,Developer / GP Source Expansion,Student Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,American Campus Communities Source Expansion,Developer / GP Source Expansion,Student Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Welltower Source Expansion,Developer / GP Source Expansion,Senior Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Ventas Source Expansion,Developer / GP Source Expansion,Senior Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Brookdale Source Expansion,Developer / GP Source Expansion,Senior Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Atria Senior Living Source Expansion,Developer / GP Source Expansion,Senior Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Sunrise Senior Living Source Expansion,Developer / GP Source Expansion,Senior Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Erickson Senior Living Source Expansion,Developer / GP Source Expansion,Senior Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Discovery Senior Living Source Expansion,Developer / GP Source Expansion,Senior Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Bridge Investment Group Source Expansion,Developer / GP Source Expansion,Senior Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Avenue Development Source Expansion,Developer / GP Source Expansion,Senior Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Sparrow Partners Source Expansion,Developer / GP Source Expansion,Senior Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Greystone Source Expansion,Developer / GP Source Expansion,Lender / Debt Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Berkadia Source Expansion,Developer / GP Source Expansion,Lender / Debt Platform,https://berkadia.com/feed/,Failed,0,0,RSS parsing issue,Failing
-2026-05-20,20260520-040606-6613d3b9,Walker & Dunlop Source Expansion,Developer / GP Source Expansion,Lender / Debt Platform,https://www.walkerdunlop.com/insights/feed/,Failed,0,0,RSS parsing issue,Failing
-2026-05-20,20260520-040606-6613d3b9,CBRE Capital Markets Source Expansion,Developer / GP Source Expansion,Brokerage / Advisor,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,JLL Capital Markets Source Expansion,Developer / GP Source Expansion,Brokerage / Advisor,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Cushman & Wakefield Source Expansion,Developer / GP Source Expansion,Brokerage / Advisor,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Newmark Source Expansion,Developer / GP Source Expansion,Brokerage / Advisor,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Eastdil Secured Source Expansion,Developer / GP Source Expansion,Brokerage / Advisor,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Northmarq Source Expansion,Developer / GP Source Expansion,Lender / Debt Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Marcus & Millichap Capital Corporation Source Expansion,Developer / GP Source Expansion,Lender / Debt Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Freddie Mac Multifamily Source Expansion,Developer / GP Source Expansion,Lender / Debt Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
-2026-05-20,20260520-040606-6613d3b9,Fannie Mae Multifamily Source Expansion,Developer / GP Source Expansion,Lender / Debt Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Multifamily Dive,Core Multifamily News,Other,https://www.multifamilydive.com/feeds/news/,OK,10,3,,High Value
+2026-05-20,20260520-051844-b14f8dba,Multifamily Executive,Core Multifamily News,Other,https://www.multifamilyexecutive.com/rss.xml,OK,10,3,,High Value
+2026-05-20,20260520-051844-b14f8dba,Yield PRO,Core Multifamily News,Other,https://yieldpro.com/feed/,OK,10,8,,High Value
+2026-05-20,20260520-051844-b14f8dba,Multi-Housing News,Core Multifamily News,Other,https://www.multihousingnews.com/feed/,Failed,0,0,RSS parsing issue,Failing
+2026-05-20,20260520-051844-b14f8dba,GlobeSt,Core Multifamily News,Other,https://www.globest.com/feed/,Failed,0,0,RSS parsing issue,Failing
+2026-05-20,20260520-051844-b14f8dba,Bisnow,Core Multifamily News,Other,https://www.bisnow.com/rss,OK,30,3,,High Value
+2026-05-20,20260520-051844-b14f8dba,Commercial Observer,Core Multifamily News,Other,https://commercialobserver.com/feed/,OK,17,5,,High Value
+2026-05-20,20260520-051844-b14f8dba,Connect CRE,Core Multifamily News,Other,https://www.connectcre.com/feed/,OK,10,2,,Useful
+2026-05-20,20260520-051844-b14f8dba,The Real Deal,Core Multifamily News,Other,https://therealdeal.com/feed/,Failed,0,0,RSS parsing issue,Failing
+2026-05-20,20260520-051844-b14f8dba,NAHB Eye on Housing - Multifamily,Public Agency / Housing Data,Other,https://eyeonhousing.org/category/multifamily/feed/,OK,18,13,,High Value
+2026-05-20,20260520-051844-b14f8dba,Construction Dive,Core Multifamily News,Other,https://www.constructiondive.com/feeds/news/,OK,10,0,,Watch
+2026-05-20,20260520-051844-b14f8dba,HousingWire,Core Multifamily News,Other,https://www.housingwire.com/feed/,OK,10,1,,Useful
+2026-05-20,20260520-051844-b14f8dba,Federal Reserve - Press Releases,Public Agency / Housing Data,Other,https://www.federalreserve.gov/feeds/press_all.xml,OK,20,0,,Watch
+2026-05-20,20260520-051844-b14f8dba,PERE,Institutional Real Estate / Capital Markets,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Urban Land Institute,Institutional Real Estate / Capital Markets,Other,https://urbanland.uli.org/feed/,Failed,0,0,RSS parsing issue,Failing
+2026-05-20,20260520-051844-b14f8dba,NMHC News,Institutional Real Estate / Capital Markets,Other,https://www.nmhc.org/news/rss/,Failed,0,0,RSS parsing issue,Failing
+2026-05-20,20260520-051844-b14f8dba,Freddie Mac Multifamily,Institutional Real Estate / Capital Markets,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Fannie Mae Multifamily,Institutional Real Estate / Capital Markets,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,MBA Commercial / Multifamily,Institutional Real Estate / Capital Markets,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Walker & Dunlop Insights,Brokerage / Debt / Research,Other,https://www.walkerdunlop.com/insights/feed/,Failed,0,0,RSS parsing issue,Failing
+2026-05-20,20260520-051844-b14f8dba,Berkadia Research,Brokerage / Debt / Research,Other,https://berkadia.com/feed/,Failed,0,0,RSS parsing issue,Failing
+2026-05-20,20260520-051844-b14f8dba,CBRE Multifamily / Living Sector,Brokerage / Debt / Research,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,JLL Living / Multifamily,Brokerage / Debt / Research,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Cushman & Wakefield Multifamily,Brokerage / Debt / Research,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Marcus & Millichap Research,Brokerage / Debt / Research,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Greystar Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Kennedy Wilson Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Related Companies Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Related California Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Hines Newsroom,Developer / GP Newsrooms,Other,https://www.hines.com/news/feed,Failed,0,0,RSS parsing issue,Failing
+2026-05-20,20260520-051844-b14f8dba,Mill Creek Residential Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Trammell Crow Residential Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Toll Brothers Apartment Living Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Crescent Communities Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,AvalonBay Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Essex Property Trust Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Camden Property Trust Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,UDR Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,MAA Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Equity Residential Newsroom,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Blackstone Real Estate,Developer / GP Newsrooms,Other,https://www.blackstone.com/news/rss/,OK,10,3,,High Value
+2026-05-20,20260520-051844-b14f8dba,Brookfield Real Estate,Developer / GP Newsrooms,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Urbanize LA,Regional / California / LA Sources,Other,https://la.urbanize.city/rss.xml,OK,10,8,,High Value
+2026-05-20,20260520-051844-b14f8dba,LA Business Journal,Regional / California / LA Sources,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Los Angeles City Planning,Regional / California / LA Sources,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,California HCD,Regional / California / LA Sources,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,California YIMBY,Regional / California / LA Sources,Other,https://californiayimby.com/feed,Failed,0,0,RSS parsing issue,Failing
+2026-05-20,20260520-051844-b14f8dba,SF YIMBY,Regional / California / LA Sources,Other,https://sfyimby.com/feed,OK,5,3,,High Value
+2026-05-20,20260520-051844-b14f8dba,Urbanize California,Regional / California / LA Sources,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,REBusiness Online,Site / Parcel Source Expansion,Other,https://rebusinessonline.com/feed/atom/,OK,20,11,,High Value
+2026-05-20,20260520-051844-b14f8dba,Connect CRE Apartments,Site / Parcel Source Expansion,Other,https://www.connectcre.com/feed?property-sector=apartments,OK,10,9,,High Value
+2026-05-20,20260520-051844-b14f8dba,Connect CRE Texas,Site / Parcel Source Expansion,Other,https://www.connectcre.com/feed?story-market=texas,OK,10,4,,High Value
+2026-05-20,20260520-051844-b14f8dba,Connect CRE South Florida,Site / Parcel Source Expansion,Other,https://www.connectcre.com/feed?story-market=south-florida,OK,10,5,,High Value
+2026-05-20,20260520-051844-b14f8dba,Connect CRE Phoenix,Site / Parcel Source Expansion,Other,https://www.connectcre.com/feed?story-market=phoenix,OK,10,3,,High Value
+2026-05-20,20260520-051844-b14f8dba,Connect CRE Atlanta,Site / Parcel Source Expansion,Other,https://www.connectcre.com/feed?story-market=atlanta,OK,10,2,,Useful
+2026-05-20,20260520-051844-b14f8dba,Connect CRE Charlotte,Site / Parcel Source Expansion,Other,https://www.connectcre.com/feed?story-market=charlotte,OK,10,3,,High Value
+2026-05-20,20260520-051844-b14f8dba,Connect CRE Orange County,Site / Parcel Source Expansion,Other,https://www.connectcre.com/feed?story-market=orange-county,OK,10,3,,High Value
+2026-05-20,20260520-051844-b14f8dba,CRE Daily,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Institutional Property Advisors,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,JLL Newsroom,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,CBRE Newsroom,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Cushman & Wakefield Newsroom,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Marcus & Millichap Newsroom,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Dallas Business Journal,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Austin Business Journal,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,South Florida Business Journal,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Phoenix Business Journal,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Atlanta Business Chronicle,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Charlotte Business Journal,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Los Angeles Business Journal,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,San Francisco Business Times,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Orange County Business Journal,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Denver Business Journal,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Nashville Business Journal,Site / Parcel Source Expansion,Other,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Greystar Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Mill Creek Residential Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Trammell Crow Residential Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Lincoln Property Company Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Fairfield Residential Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Alliance Residential Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Wood Partners Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Hanover Company Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Holland Partner Group Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,JPI Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Kairoi Residential Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,AMLI Residential Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Quarterra Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Toll Brothers Apartment Living Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,AvalonBay Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Camden Property Trust Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,MAA Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,UDR Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Equity Residential Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Essex Property Trust Source Expansion,Developer / GP Source Expansion,Multifamily Developer / Operator,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Blackstone Real Estate Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,https://www.blackstone.com/news/rss/,OK,10,3,,High Value
+2026-05-20,20260520-051844-b14f8dba,Brookfield Real Estate Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Kennedy Wilson Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Hines Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,https://www.hines.com/news/feed,Failed,0,0,RSS parsing issue,Failing
+2026-05-20,20260520-051844-b14f8dba,GID Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Waterton Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Carmel Partners Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,CIM Group Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,LivCor Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,BGO Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Harbor Group International Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Starwood Capital Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,PGIM Real Estate Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Nuveen Real Estate Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,KKR Real Estate Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Carlyle Real Estate Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Apollo Real Estate Source Expansion,Developer / GP Source Expansion,Institutional Capital Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Invitation Homes Source Expansion,Developer / GP Source Expansion,BTR / SFR Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,American Homes 4 Rent Source Expansion,Developer / GP Source Expansion,BTR / SFR Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Progress Residential Source Expansion,Developer / GP Source Expansion,BTR / SFR Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Tricon Residential Source Expansion,Developer / GP Source Expansion,BTR / SFR Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Pretium Source Expansion,Developer / GP Source Expansion,BTR / SFR Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,NexMetro Communities Source Expansion,Developer / GP Source Expansion,BTR / SFR Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Christopher Todd Communities Source Expansion,Developer / GP Source Expansion,BTR / SFR Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,BB Living Source Expansion,Developer / GP Source Expansion,BTR / SFR Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,AHV Communities Source Expansion,Developer / GP Source Expansion,BTR / SFR Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Quinn Residences Source Expansion,Developer / GP Source Expansion,BTR / SFR Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Core Spaces Source Expansion,Developer / GP Source Expansion,Student Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Landmark Properties Source Expansion,Developer / GP Source Expansion,Student Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,The Dinerstein Companies Source Expansion,Developer / GP Source Expansion,Student Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,LV Collective Source Expansion,Developer / GP Source Expansion,Student Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,CA Ventures Source Expansion,Developer / GP Source Expansion,Student Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Gilbane Development Source Expansion,Developer / GP Source Expansion,Student Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Harrison Street Source Expansion,Developer / GP Source Expansion,Student Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Scion Group Source Expansion,Developer / GP Source Expansion,Student Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,American Campus Communities Source Expansion,Developer / GP Source Expansion,Student Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Welltower Source Expansion,Developer / GP Source Expansion,Senior Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Ventas Source Expansion,Developer / GP Source Expansion,Senior Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Brookdale Source Expansion,Developer / GP Source Expansion,Senior Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Atria Senior Living Source Expansion,Developer / GP Source Expansion,Senior Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Sunrise Senior Living Source Expansion,Developer / GP Source Expansion,Senior Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Erickson Senior Living Source Expansion,Developer / GP Source Expansion,Senior Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Discovery Senior Living Source Expansion,Developer / GP Source Expansion,Senior Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Bridge Investment Group Source Expansion,Developer / GP Source Expansion,Senior Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Avenue Development Source Expansion,Developer / GP Source Expansion,Senior Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Sparrow Partners Source Expansion,Developer / GP Source Expansion,Senior Housing Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Greystone Source Expansion,Developer / GP Source Expansion,Lender / Debt Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Berkadia Source Expansion,Developer / GP Source Expansion,Lender / Debt Platform,https://berkadia.com/feed/,Failed,0,0,RSS parsing issue,Failing
+2026-05-20,20260520-051844-b14f8dba,Walker & Dunlop Source Expansion,Developer / GP Source Expansion,Lender / Debt Platform,https://www.walkerdunlop.com/insights/feed/,Failed,0,0,RSS parsing issue,Failing
+2026-05-20,20260520-051844-b14f8dba,CBRE Capital Markets Source Expansion,Developer / GP Source Expansion,Brokerage / Advisor,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,JLL Capital Markets Source Expansion,Developer / GP Source Expansion,Brokerage / Advisor,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Cushman & Wakefield Source Expansion,Developer / GP Source Expansion,Brokerage / Advisor,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Newmark Source Expansion,Developer / GP Source Expansion,Brokerage / Advisor,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Eastdil Secured Source Expansion,Developer / GP Source Expansion,Brokerage / Advisor,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Northmarq Source Expansion,Developer / GP Source Expansion,Lender / Debt Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Marcus & Millichap Capital Corporation Source Expansion,Developer / GP Source Expansion,Lender / Debt Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Freddie Mac Multifamily Source Expansion,Developer / GP Source Expansion,Lender / Debt Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review
+2026-05-20,20260520-051844-b14f8dba,Fannie Mae Multifamily Source Expansion,Developer / GP Source Expansion,Lender / Debt Platform,,Placeholder,0,0,Source URL not yet confirmed,Placeholder / Needs Review

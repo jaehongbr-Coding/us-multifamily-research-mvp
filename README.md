@@ -2814,3 +2814,28 @@ The file is organized into sections:
 - Track market-level supply and demand
 - Track institutional investor and developer activity
 - Add a separate configuration file once the project grows beyond MVP stage
+- ## System Notes
+
+### Automation Architecture
+cron-job.org
+→ GitHub workflow_dispatch
+→ news_collector.py
+→ output/*.csv
+→ Streamlit dashboard
+
+### Why external cron is used
+GitHub scheduled cron execution was unreliable for this project.
+workflow_dispatch triggered externally via cron-job.org is currently more stable.
+
+### Streamlit behavior
+Streamlit Cloud may cache CSV outputs or enter sleep mode.
+If latest outputs are not reflected:
+- Refresh app
+- Use refresh button
+- Reboot app if necessary
+
+### CoStar Intake Policy
+- No scraping
+- No login automation
+- No paywall bypass
+- Manual CSV/XLSX intake only

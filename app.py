@@ -73,7 +73,7 @@ FILTER_FIELD_MAP = {
 # Data loading
 # ---------------------------------------------------------
 
-@st.cache_data
+@st.cache_data(ttl=300)
 def read_csv_safely(path_string):
     """Read a CSV file. Missing files become empty tables for cloud safety."""
     path = Path(path_string)
@@ -86,7 +86,7 @@ def read_csv_safely(path_string):
         return pd.DataFrame()
 
 
-@st.cache_data
+@st.cache_data(ttl=300)
 def read_markdown_safely(path_string):
     """Read a Markdown file. Missing files become blank text for cloud safety."""
     path = Path(path_string)
@@ -10462,6 +10462,14 @@ def page_gp_capital_product(shared, filters):
         render_capital_network_map(shared, filters)
 
 
+def refresh_data_button():
+    """Clear cached output files and reload the current Streamlit view."""
+    if st.button("Refresh data", key="refresh_data", help="Clear cached output files and reload the app."):
+        st.cache_data.clear()
+        st.cache_resource.clear()
+        st.rerun()
+
+
 def app_header(shared):
     st.markdown(
         """
@@ -11415,6 +11423,7 @@ def app_header(shared):
         """,
         unsafe_allow_html=True,
     )
+    refresh_data_button()
 
 
 def render_sidebar_subtitle():

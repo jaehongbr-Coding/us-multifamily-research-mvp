@@ -7,6 +7,7 @@ does not need a database, and does not modify the collector pipeline.
 
 from datetime import datetime
 from difflib import SequenceMatcher
+from html import escape
 from pathlib import Path
 from urllib.parse import quote_plus
 import re
@@ -51,6 +52,7 @@ FILES = {
     "market_intelligence_diagnostics": OUTPUT_DIR / "market_intelligence_diagnostics.csv",
     "regime_history": OUTPUT_DIR / "regime_history.csv",
     "regime_timeline": OUTPUT_DIR / "regime_timeline.csv",
+    "daily_strategy_briefing": OUTPUT_DIR / "daily_strategy_briefing.md",
     "run_summary": OUTPUT_DIR / "run_summary.md",
 }
 
@@ -73,7 +75,7 @@ FILTER_FIELD_MAP = {
 # Data loading
 # ---------------------------------------------------------
 
-@st.cache_data(ttl=300)
+@st.cache_data(ttl=30)
 def read_csv_safely(path_string):
     """Read a CSV file. Missing files become empty tables for cloud safety."""
     path = Path(path_string)
@@ -86,7 +88,7 @@ def read_csv_safely(path_string):
         return pd.DataFrame()
 
 
-@st.cache_data(ttl=300)
+@st.cache_data(ttl=30)
 def read_markdown_safely(path_string):
     """Read a Markdown file. Missing files become blank text for cloud safety."""
     path = Path(path_string)
@@ -128,6 +130,7 @@ def load_shared_data():
         "regime_history": read_csv_safely(str(FILES["regime_history"])),
         "regime_timeline": read_csv_safely(str(FILES["regime_timeline"])),
         "articles": read_csv_safely(str(FILES["articles"])),
+        "daily_strategy_briefing": read_markdown_safely(str(FILES["daily_strategy_briefing"])),
     }
 
 
@@ -10667,12 +10670,12 @@ def get_primary_regime_phrase(shared):
     titles = {cluster.get("title") for cluster in clusters}
     if {"Refinancing pressure unresolved", "Construction financing still selective"} & titles:
         if "JV / partnership activity observed" in titles:
-            return "선별적 자본 재개 + refinancing 압박 지속"
+            return "output 기반 Hero Market View 확인 필요"
         return "refinancing 부담 지속 + construction capital 선별성"
     if "LA entitlement precedent accumulation" in titles:
         return "LA entitlement visibility 지속 + 정책 기반 개발 관찰"
     if "Sun Belt lease-up pressure watch" in titles:
-        return "Sun Belt absorption 확인 필요"
+        return "output 기반 market signal 확인 필요"
     if clusters:
         return clean_cluster_title(clusters[0].get("title"))
     return "시장 집중도 분산 + 추가 관찰 필요"
@@ -10686,7 +10689,7 @@ def get_hero_support_lines(shared):
         if title == "LA entitlement precedent accumulation":
             parts.append("LA entitlement 지속")
         elif title == "Sun Belt lease-up pressure watch":
-            parts.append("Sun Belt absorption 확인 필요")
+            parts.append("output 기반 market signal 확인 필요")
         elif title == "JV / partnership activity observed":
             parts.append("JV activity 제한적 증가")
         elif title == "Refinancing pressure unresolved":
@@ -11066,7 +11069,7 @@ def get_primary_regime_phrase(shared):
     titles = {cluster.get("title") for cluster in clusters}
     if {"Refinancing pressure unresolved", "Construction financing still selective"} & titles:
         if "JV / partnership activity observed" in titles:
-            return "선별적 투자 재개와 refinancing 부담 공존 국면"
+            return "output 기반 Hero Market View 확인 필요"
         return "자금 집행은 선별적으로 재개되지만 debt 부담은 여전한 국면"
     if "LA entitlement precedent accumulation" in titles:
         return "LA 인허가 precedent가 누적되는 정책 기반 개발 관찰 국면"
@@ -12064,6 +12067,198 @@ def page_rent_comp_lab(shared, filters):
 
     with st.expander("Search pack table", expanded=False):
         st.dataframe(pd.DataFrame(search_pack), use_container_width=True, hide_index=True)
+
+
+def safe_text(value, default=""):
+    """Return a clean string for output-driven UI fields."""
+    if value is None:
+        return default
+    try:
+        if pd.isna(value):
+            return default
+    except Exception:
+        pass
+    text = str(value).strip()
+    if not text or text.lower() == "nan":
+        return default
+    return text
+
+
+def latest_summary_value(shared, field_name, default=""):
+    """Read one field from the latest dashboard_summary.csv row."""
+    summary = latest_summary(shared.get("summary", pd.DataFrame()))
+    return safe_text(summary.get(field_name), default)
+
+
+def extract_markdown_section(markdown_text, heading):
+    """Extract one Markdown ## section body from daily_strategy_briefing.md."""
+    if not markdown_text:
+        return ""
+    pattern = rf"^##\s+{re.escape(heading)}\s*$"
+    lines = markdown_text.splitlines()
+    start = None
+    for index, line in enumerate(lines):
+        if re.match(pattern, line.strip()):
+            start = index + 1
+            break
+    if start is None:
+        return ""
+    section_lines = []
+    for line in lines[start:]:
+        if line.startswith("## "):
+            break
+        section_lines.append(line)
+    return "\n".join(section_lines).strip()
+
+
+def first_nonempty_line(text):
+    """Return the first useful line from a Markdown section."""
+    for line in str(text or "").splitlines():
+        cleaned = line.strip().strip("-").strip()
+        if cleaned:
+            return cleaned
+    return ""
+
+
+def split_pipe_values(value):
+    """Split dashboard_summary pipe-delimited fields into readable values."""
+    return [
+        item.strip()
+        for item in str(value or "").split("|")
+        if item and item.strip()
+    ]
+
+
+def get_output_hero_market_view(shared):
+    """Use generated output first, fallback only when old files lack new fields."""
+    markdown_hero = first_nonempty_line(
+        extract_markdown_section(shared.get("daily_strategy_briefing", ""), "Hero Market View")
+    )
+    if markdown_hero:
+        return markdown_hero
+    summary_hero = latest_summary_value(shared, "hero_market_view")
+    if summary_hero:
+        return summary_hero
+    return "오늘 시장은 아직 뚜렷한 regime 변화를 단정하기 어려운 watch-only 국면입니다."
+
+
+def get_output_why_it_matters(shared):
+    """Read generated Why It Matters bullets from daily_strategy_briefing.md."""
+    section = extract_markdown_section(shared.get("daily_strategy_briefing", ""), "Why It Matters")
+    bullets = []
+    for line in section.splitlines():
+        cleaned = line.strip()
+        if cleaned.startswith("- "):
+            bullets.append(cleaned[2:].strip())
+    return bullets[:3]
+
+
+def render_hero_market_view(shared):
+    """Render the generated Hero Market View from output files, not hardcoded text."""
+    hero = get_output_hero_market_view(shared)
+    why_lines = get_output_why_it_matters(shared)
+    confidence = latest_summary_value(shared, "daily_briefing_confidence", "watch only")
+    weekly_market = latest_summary_value(shared, "weekly_momentum_market", "insufficient data")
+    daily_market = latest_summary_value(shared, "daily_mentioned_market", "insufficient data")
+    support = " ".join(why_lines[:2]) if why_lines else "Generated from daily_strategy_briefing.md and dashboard_summary.csv."
+    st.markdown(
+        f"""
+        <div class="desk-hero">
+            <div class="section-kicker">Hero Market View</div>
+            <div class="desk-hero-title">{escape(hero)}</div>
+            <div class="desk-hero-sub">{escape(support)}</div>
+            <div class="small-divider"></div>
+            <div class="pilot-muted">
+                Daily Mentioned Market: {escape(daily_market)} ·
+                Weekly Momentum Market: {escape(weekly_market)} ·
+                Confidence: {escape(confidence)}
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+def compute_homepage_hot_market(shared, filters=None):
+    """Use generated daily/weekly market fields before local fallback scoring."""
+    daily_market = latest_summary_value(shared, "daily_mentioned_market")
+    weekly_market = latest_summary_value(shared, "weekly_momentum_market")
+    reason = latest_summary_value(shared, "weekly_momentum_reason")
+    confidence = latest_summary_value(shared, "daily_briefing_confidence", "watch only")
+    if daily_market or weekly_market:
+        market = weekly_market or daily_market or "시장 집중도 분산"
+        signals = split_pipe_values(reason.replace(",", "|")) if reason else []
+        if not signals:
+            signals = split_pipe_values(latest_summary_value(shared, "key_market_signals"))
+        return {
+            "market": market,
+            "daily_market": daily_market or "insufficient data",
+            "weekly_market": weekly_market or "insufficient data",
+            "signals": signals[:4] or ["insufficient data"],
+            "support": (
+                "Generated from dashboard_summary.csv. "
+                "Daily Mentioned Market is raw visibility; Weekly Momentum Market applies weighted activity and bias controls."
+            ),
+            "confidence": confidence,
+        }
+    return {
+        "market": "시장 집중도 분산",
+        "daily_market": "insufficient data",
+        "weekly_market": "insufficient data",
+        "signals": ["insufficient data"],
+        "support": "New dashboard_summary.csv market fields were not found; using conservative fallback.",
+        "confidence": "watch only",
+    }
+
+
+def render_homepage_hot_market_card(shared, filters=None):
+    """Render output-driven Hot Market card."""
+    render_section_header("TODAY'S HOT MARKET", "Daily Mentioned Market과 Weekly Momentum Market을 분리해 표시합니다.")
+    hot = compute_homepage_hot_market(shared, filters)
+    st.markdown(
+        f"""
+        <div class="hot-market-card">
+            <div class="section-kicker">Weekly Momentum Market</div>
+            <div class="hot-market-name">{escape(hot['weekly_market'])}</div>
+            <div class="pilot-muted">Daily Mentioned Market: {escape(hot['daily_market'])}</div>
+            <div class="small-divider"></div>
+            <div class="pilot-muted">{escape(' / '.join(hot['signals'][:4]))}</div>
+            <div class="pilot-muted">Confidence: {escape(hot.get('confidence', 'watch only'))}</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+    st.caption(hot["support"])
+    close_section()
+
+
+def render_homepage_key_market_signals(shared, filters=None):
+    """Render generated Key Market Signals before falling back to diagnostics."""
+    render_section_header("KEY MARKET SIGNALS", "dashboard_summary.csv와 daily_strategy_briefing.md 기반 핵심 signal입니다.")
+    signals = split_pipe_values(latest_summary_value(shared, "key_market_signals"))
+    markdown_signals = extract_markdown_section(shared.get("daily_strategy_briefing", ""), "Key Market Signals")
+    if signals:
+        for index, signal in enumerate(signals[:3], start=1):
+            st.markdown(
+                f"""
+                <div class="pilot-card">
+                    <div class="section-kicker">Signal {index}</div>
+                    <div class="signal-title">{escape(signal)}</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+    elif markdown_signals:
+        st.markdown(markdown_signals)
+    else:
+        st.caption("New briefing signal output is not available yet.")
+    with st.expander("Generated briefing 원문 보기", expanded=False):
+        briefing_text = shared.get("daily_strategy_briefing", "")
+        if briefing_text:
+            st.markdown(briefing_text)
+        else:
+            missing_file_message(FILES["daily_strategy_briefing"])
+    close_section()
 
 
 def main():

@@ -784,6 +784,179 @@ GP_SOURCE_EXPANSION_SOURCES = [
 
 SOURCE_REGISTRY.extend(GP_SOURCE_EXPANSION_SOURCES)
 
+ADDITIONAL_PUBLIC_SOURCE_CANDIDATES = [
+    {
+        "source": "Connect CRE California",
+        "category": "Regional / California / LA Sources",
+        "url": "https://www.connectcre.com/feed?story-market=california",
+        "source_tier": "Tier 2",
+        "coverage_focus": ["development_pipeline", "entitlement", "la_california"],
+    },
+    {
+        "source": "Commercial Property Executive",
+        "category": "Core Multifamily News",
+        "url": "https://www.commercialsearch.com/news/feed/",
+        "source_tier": "Tier 1",
+        "coverage_focus": ["capital_markets", "development_pipeline", "national_multifamily"],
+    },
+    {
+        "source": "WealthManagement Real Estate",
+        "category": "Institutional Real Estate / Capital Markets",
+        "url": "https://www.wealthmanagement.com/rss.xml",
+        "source_tier": "Tier 3",
+        "coverage_focus": ["institutional_capital", "capital_markets"],
+    },
+    {
+        "source": "Freddie Mac Multifamily Research",
+        "category": "Institutional Real Estate / Capital Markets",
+        "url": "",
+        "source_tier": "Tier 1",
+        "coverage_focus": ["capital_markets", "lease_up_supply", "national_multifamily"],
+        "enabled": False,
+    },
+    {
+        "source": "Fannie Mae Multifamily Research",
+        "category": "Institutional Real Estate / Capital Markets",
+        "url": "",
+        "source_tier": "Tier 1",
+        "coverage_focus": ["capital_markets", "lease_up_supply", "national_multifamily"],
+        "enabled": False,
+    },
+    {
+        "source": "CBRE Research Public Insights",
+        "category": "Brokerage / Debt / Research",
+        "url": "",
+        "source_tier": "Tier 1",
+        "coverage_focus": ["capital_markets", "institutional_capital", "national_multifamily"],
+        "enabled": False,
+    },
+    {
+        "source": "JLL Research Public Insights",
+        "category": "Brokerage / Debt / Research",
+        "url": "",
+        "source_tier": "Tier 1",
+        "coverage_focus": ["capital_markets", "institutional_capital", "development_pipeline"],
+        "enabled": False,
+    },
+    {
+        "source": "Cushman & Wakefield Research Public Insights",
+        "category": "Brokerage / Debt / Research",
+        "url": "",
+        "source_tier": "Tier 1",
+        "coverage_focus": ["capital_markets", "lease_up_supply", "national_multifamily"],
+        "enabled": False,
+    },
+    {
+        "source": "Marcus & Millichap Research Public Insights",
+        "category": "Brokerage / Debt / Research",
+        "url": "",
+        "source_tier": "Tier 1",
+        "coverage_focus": ["capital_markets", "lease_up_supply", "national_multifamily"],
+        "enabled": False,
+    },
+    {
+        "source": "LA City Planning Public Notices",
+        "category": "Regional / California / LA Sources",
+        "url": "",
+        "source_tier": "Tier 2",
+        "coverage_focus": ["entitlement", "development_pipeline", "la_california"],
+        "enabled": False,
+    },
+    {
+        "source": "Mortgage Professional America Commercial",
+        "category": "Institutional Real Estate / Capital Markets",
+        "url": "",
+        "source_tier": "Tier 3",
+        "coverage_focus": ["capital_markets", "financing", "institutional_capital"],
+        "enabled": False,
+    },
+]
+
+SOURCE_REGISTRY.extend(ADDITIONAL_PUBLIC_SOURCE_CANDIDATES)
+
+
+def infer_source_tier(source_name, source_category, platform_type="Other"):
+    """Assign source tiers without requiring every legacy row to be rewritten."""
+    if (
+        source_category in [
+            "Core Multifamily News",
+            "Institutional Real Estate / Capital Markets",
+            "Brokerage / Debt / Research",
+        ]
+        or platform_type in ["Institutional Capital Platform", "Lender / Debt Platform", "Brokerage / Advisor"]
+    ):
+        return "Tier 1"
+    if (
+        source_category in ["Regional / California / LA Sources", "Site / Parcel Source Expansion"]
+        or "Connect CRE" in source_name
+        or "YIMBY" in source_name
+        or "Urbanize" in source_name
+    ):
+        return "Tier 2"
+    return "Tier 3"
+
+
+def infer_coverage_focus(source_name, source_category, platform_type="Other"):
+    """Create semicolon-delimited focus tags for source registry and reports."""
+    blob = f"{source_name} {source_category} {platform_type}".lower()
+    focus = set()
+    if any(term in blob for term in ["capital", "debt", "research", "fannie", "freddie", "berkadia", "walker", "greystone"]):
+        focus.update(["capital_markets", "institutional_capital"])
+    if any(term in blob for term in ["developer", "gp", "newsroom", "hines", "greystar", "blackstone"]):
+        focus.update(["gp_activity", "institutional_capital"])
+    if any(term in blob for term in ["urbanize", "yimby", "planning", "california", "los angeles", "la "]):
+        focus.update(["development_pipeline", "entitlement", "la_california"])
+    if any(term in blob for term in ["site", "parcel", "business journal", "connect cre"]):
+        focus.update(["development_pipeline", "gp_activity"])
+    if any(term in blob for term in ["multifamily", "apartment", "housing"]):
+        focus.add("national_multifamily")
+    if any(term in blob for term in ["yield", "lease", "supply"]):
+        focus.add("lease_up_supply")
+    if any(term in blob for term in ["texas", "florida", "phoenix", "atlanta", "charlotte", "nashville"]):
+        focus.add("sunbelt")
+    if not focus:
+        focus.add("broader_real_estate_news")
+    return ";".join(sorted(focus))
+
+
+def normalize_source_registry(source_rows):
+    """Normalize all source records into one registry schema."""
+    normalized = []
+    seen = set()
+    for row in source_rows:
+        source_name = row.get("source_name") or row.get("source") or ""
+        if not source_name or source_name in seen:
+            continue
+        seen.add(source_name)
+        source_url = row.get("source_url") or row.get("rss_url") or row.get("url") or ""
+        source_category = row.get("source_category") or row.get("category") or "Uncategorized"
+        platform_type = row.get("platform_type", "Other")
+        source_tier = row.get("source_tier") or infer_source_tier(source_name, source_category, platform_type)
+        coverage_focus = row.get("coverage_focus") or infer_coverage_focus(source_name, source_category, platform_type)
+        if isinstance(coverage_focus, list):
+            coverage_focus = ";".join(coverage_focus)
+        enabled = row.get("enabled")
+        if enabled is None:
+            enabled = bool(source_url)
+        normalized_row = dict(row)
+        normalized_row.update({
+            "source": source_name,
+            "source_name": source_name,
+            "url": source_url,
+            "source_url": source_url,
+            "rss_url": source_url,
+            "category": source_category,
+            "source_category": source_category,
+            "source_tier": source_tier,
+            "coverage_focus": coverage_focus,
+            "enabled": bool(enabled),
+            "platform_type": platform_type,
+        })
+        normalized.append(normalized_row)
+    return normalized
+
+
+SOURCE_REGISTRY = normalize_source_registry(SOURCE_REGISTRY)
 RSS_FEEDS = SOURCE_REGISTRY
 SOURCE_HEALTH_ROWS = []
 COSTAR_INTAKE_DIAGNOSTIC_ROWS = []
@@ -2272,6 +2445,9 @@ def should_keep_article(
 
 def get_source_quality_label(fetch_status, entries_found, articles_saved, source_url):
     """Label source quality for the source-health report."""
+    if fetch_status == "Disabled":
+        return "Disabled / Registered"
+
     if not source_url:
         return "Placeholder / Needs Review"
 
@@ -2299,11 +2475,17 @@ def add_source_health_row(
     articles_saved,
     error_message="",
     platform_type="Other",
+    source_tier="",
+    coverage_focus="",
+    enabled=True,
 ):
     """Store one source-health row for later CSV and Markdown output."""
     SOURCE_HEALTH_ROWS.append({
         "source_name": source_name,
         "source_category": source_category,
+        "source_tier": source_tier,
+        "coverage_focus": coverage_focus,
+        "enabled": "Yes" if enabled else "No",
         "platform_type": platform_type,
         "source_url": source_url,
         "fetch_status": fetch_status,
@@ -2325,11 +2507,31 @@ def add_source_health_row(
 
 def fetch_feed(feed_info):
     """Read one RSS feed and return relevant article dictionaries."""
-    source = feed_info["source"]
-    url = feed_info["url"]
-    source_category = feed_info.get("category", "Uncategorized")
+    source = feed_info.get("source_name") or feed_info["source"]
+    url = feed_info.get("source_url") or feed_info.get("rss_url") or feed_info.get("url", "")
+    source_category = feed_info.get("source_category") or feed_info.get("category", "Uncategorized")
     platform_type = feed_info.get("platform_type", "Other")
+    source_tier = feed_info.get("source_tier", "")
+    coverage_focus = feed_info.get("coverage_focus", "")
+    enabled = feed_info.get("enabled", True)
     articles = []
+
+    if not enabled:
+        print(f"[Info] Disabled source registered for review: {source}")
+        add_source_health_row(
+            source,
+            source_category,
+            url,
+            "Disabled",
+            0,
+            0,
+            "Registered source is disabled until a public feed is confirmed",
+            platform_type,
+            source_tier,
+            coverage_focus,
+            enabled,
+        )
+        return articles
 
     if not url:
         print(f"[Warning] Placeholder source needs RSS review: {source}")
@@ -2342,6 +2544,9 @@ def fetch_feed(feed_info):
             0,
             "Source URL not yet confirmed",
             platform_type,
+            source_tier,
+            coverage_focus,
+            enabled,
         )
         return articles
 
@@ -2437,6 +2642,8 @@ def fetch_feed(feed_info):
                 "collected_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                 "source": source,
                 "source_category": source_category,
+                "source_tier": source_tier,
+                "coverage_focus": coverage_focus,
                 "platform_type": platform_type,
                 "residential_sector": residential_sector,
                 "published": published,
@@ -2479,6 +2686,9 @@ def fetch_feed(feed_info):
             len(articles),
             error_message,
             platform_type,
+            source_tier,
+            coverage_focus,
+            enabled,
         )
 
     except Exception as error:
@@ -2492,6 +2702,9 @@ def fetch_feed(feed_info):
             len(articles),
             str(error),
             platform_type,
+            source_tier,
+            coverage_focus,
+            enabled,
         )
 
     return articles
@@ -2502,9 +2715,10 @@ def fetch_feed(feed_info):
 # ---------------------------------------------------------
 
 def remove_duplicates(articles):
-    """Remove duplicate articles using URL first, then normalized title."""
+    """Remove duplicate articles using URL first, then normalized or near-match title."""
     seen_urls = set()
     seen_titles = set()
+    kept_title_keys = []
     unique_articles = []
 
     for article in articles:
@@ -2515,11 +2729,25 @@ def remove_duplicates(articles):
             continue
         if title_key and title_key in seen_titles:
             continue
+        if title_key:
+            title_tokens = set(title_key.split())
+            near_duplicate = False
+            for kept_title_key in kept_title_keys:
+                kept_tokens = set(kept_title_key.split())
+                if not title_tokens or not kept_tokens:
+                    continue
+                similarity = len(title_tokens & kept_tokens) / len(title_tokens | kept_tokens)
+                if similarity >= 0.85:
+                    near_duplicate = True
+                    break
+            if near_duplicate:
+                continue
 
         if url_key:
             seen_urls.add(url_key)
         if title_key:
             seen_titles.add(title_key)
+            kept_title_keys.append(title_key)
         unique_articles.append(article)
 
     return unique_articles
@@ -13204,15 +13432,18 @@ def build_source_activation_rows(run_timestamp, articles):
     }
 
     for source_info in SOURCE_REGISTRY:
-        source_name = source_info["source"]
-        source_category = source_info.get("category", "Uncategorized")
-        source_url = source_info.get("url", "")
+        source_name = source_info.get("source_name") or source_info["source"]
+        source_category = source_info.get("source_category") or source_info.get("category", "Uncategorized")
+        source_url = source_info.get("source_url") or source_info.get("rss_url") or source_info.get("url", "")
         platform_type = source_info.get("platform_type", "Other")
+        source_tier = source_info.get("source_tier", "")
+        coverage_focus = source_info.get("coverage_focus", "")
+        enabled = source_info.get("enabled", True)
         health_row = health_by_source.get(source_name, {})
-        fetch_status = health_row.get("fetch_status", "Placeholder" if not source_url else "Failed")
+        fetch_status = health_row.get("fetch_status", "Disabled" if not enabled else "Placeholder" if not source_url else "Failed")
         entries_found = safe_int(health_row.get("entries_found", 0))
         articles_saved = safe_int(health_row.get("articles_saved", 0))
-        source_status = get_source_status(source_url, fetch_status, entries_found)
+        source_status = "Disabled" if not enabled else get_source_status(source_url, fetch_status, entries_found)
         source_articles = [
             article for article in articles
             if article.get("source") == source_name
@@ -13225,7 +13456,7 @@ def build_source_activation_rows(run_timestamp, articles):
         elif articles_saved > 0:
             signal_density_score = min(100, articles_saved * 20)
 
-        source_priority_tier = get_source_priority_tier(
+        source_priority_tier = source_tier or get_source_priority_tier(
             source_name,
             source_category,
             platform_type,
@@ -13244,12 +13475,19 @@ def build_source_activation_rows(run_timestamp, articles):
             "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
             "source_name": source_name,
             "source_category": source_category,
+            "source_tier": source_priority_tier,
+            "coverage_focus": coverage_focus,
+            "enabled": "Yes" if enabled else "No",
             "platform_type": platform_type,
             "source_priority_tier": source_priority_tier,
             "source_status": source_status,
             "activation_type": get_activation_type(source_url, source_category),
+            "source_url": source_url,
             "feed_url": source_url,
+            "last_success_at": run_timestamp.strftime("%Y-%m-%d %H:%M:%S") if source_status == "Working" else "",
             "last_successful_fetch": run_timestamp.strftime("%Y-%m-%d %H:%M:%S") if source_status == "Working" else "",
+            "last_article_count": articles_saved,
+            "failure_count": 1 if source_status == "Failed" else 0,
             "fetch_attempts": 1 if source_url else 0,
             "fetch_success_rate": 100 if source_status == "Working" else 0,
             "entries_found": entries_found,
@@ -13306,12 +13544,19 @@ def generate_source_activation_outputs(source_activation_rows, dated_output_dir)
         "run_timestamp",
         "source_name",
         "source_category",
+        "source_tier",
+        "coverage_focus",
+        "enabled",
         "platform_type",
         "source_priority_tier",
         "source_status",
         "activation_type",
+        "source_url",
         "feed_url",
+        "last_success_at",
         "last_successful_fetch",
+        "last_article_count",
+        "failure_count",
         "fetch_attempts",
         "fetch_success_rate",
         "entries_found",
@@ -19356,6 +19601,9 @@ def generate_source_health_outputs(dated_output_dir, gp_source_coverage_rows=Non
     fieldnames = [
         "source_name",
         "source_category",
+        "source_tier",
+        "coverage_focus",
+        "enabled",
         "platform_type",
         "source_url",
         "fetch_status",
@@ -19385,6 +19633,10 @@ def generate_source_health_outputs(dated_output_dir, gp_source_coverage_rows=Non
         row for row in SOURCE_HEALTH_ROWS
         if row["source_quality_label"] == "Placeholder / Needs Review"
     ]
+    disabled_sources = [
+        row for row in SOURCE_HEALTH_ROWS
+        if row["source_quality_label"] == "Disabled / Registered"
+    ]
     high_value_sources = [
         row for row in SOURCE_HEALTH_ROWS
         if row["source_quality_label"] == "High Value"
@@ -19407,6 +19659,7 @@ def generate_source_health_outputs(dated_output_dir, gp_source_coverage_rows=Non
         f"- Working sources: {len(working_sources)}",
         f"- Failing sources: {len(failing_sources)}",
         f"- Placeholder sources: {len(placeholder_sources)}",
+        f"- Disabled registered sources: {len(disabled_sources)}",
         "",
         "## High-Value Sources",
         "",
@@ -21167,6 +21420,8 @@ def save_to_csv(articles):
         "collected_at",
         "source",
         "source_category",
+        "source_tier",
+        "coverage_focus",
         "platform_type",
         "residential_sector",
         "published",

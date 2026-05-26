@@ -11441,6 +11441,403 @@ def build_executive_summary(strategy_articles, market_signal_count):
     )
 
 
+DAILY_SIGNAL_CLUSTER_RULES = [
+    {
+        "key": "financing",
+        "label": "Financing / refinancing pressure",
+        "korean_label": "financing / refinancing 부담",
+        "keywords": [
+            "refinancing", "recapitalization", "recap", "bridge loan",
+            "construction loan", "maturity", "debt", "lender", "financing",
+            "fannie mae", "freddie mac", "cmbs",
+        ],
+    },
+    {
+        "key": "capital_flow",
+        "label": "Institutional capital flow",
+        "korean_label": "기관 자본 흐름",
+        "keywords": [
+            "joint venture", "jv", "partnership", "acquisition",
+            "portfolio", "capital partner", "institutional", "fund",
+            "sale", "investment", "preferred equity", "mezzanine",
+        ],
+    },
+    {
+        "key": "development",
+        "label": "Development / entitlement activity",
+        "korean_label": "개발 / 인허가 activity",
+        "keywords": [
+            "entitlement", "permit", "zoning", "approval", "approved",
+            "density bonus", "planning commission", "construction started",
+            "broke ground", "delivery", "opening", "site acquisition",
+            "land acquisition", "parcel",
+        ],
+    },
+    {
+        "key": "supply_demand",
+        "label": "Supply / demand pressure",
+        "korean_label": "공급 / 임대시장 압력",
+        "keywords": [
+            "lease-up", "absorption", "concession", "concessions",
+            "vacancy", "occupancy", "new supply", "deliveries",
+            "rent growth", "asking rent",
+        ],
+    },
+]
+
+
+def article_matches_daily_cluster(article, rule):
+    """Return True when an article supports one daily briefing cluster."""
+    text = " ".join([
+        str(article.get("title", "")),
+        str(article.get("summary", "")),
+        str(article.get("article_text_sample", "")),
+        str(article.get("strategic_angle", "")),
+        str(article.get("market_signal", "")),
+        str(article.get("topics", "")),
+        str(article.get("matched_keywords", "")),
+    ]).lower()
+    return any(keyword in text for keyword in rule["keywords"])
+
+
+def count_duplicate_title_risk(articles):
+    """Estimate duplicate risk after normalization without changing article rows."""
+    title_counts = Counter(
+        normalize_article_title_for_history(article.get("title", ""))
+        for article in articles
+        if article.get("title")
+    )
+    duplicate_count = sum(count - 1 for count in title_counts.values() if count > 1)
+    if not articles:
+        return 0
+    return round(duplicate_count / len(articles), 2)
+
+
+def get_cluster_confidence_label(confidence_score, count, source_diversity, duplicate_risk):
+    """Use conservative confidence labels for briefing signals."""
+    if count <= 1:
+        return "insufficient data"
+    if duplicate_risk >= 0.35:
+        return "watch only"
+    if confidence_score >= 72 and source_diversity >= 3:
+        return "moderate confidence"
+    if confidence_score >= 52:
+        return "watch only"
+    return "insufficient data"
+
+
+def build_daily_signal_clusters(articles, previous_articles=None):
+    """Build dynamic signal clusters from current articles and prior output rows."""
+    previous_articles = previous_articles or []
+    clusters = []
+
+    for rule in DAILY_SIGNAL_CLUSTER_RULES:
+        current_matches = [
+            article for article in articles
+            if article_matches_daily_cluster(article, rule)
+        ]
+        previous_matches = [
+            article for article in previous_articles
+            if article_matches_daily_cluster(article, rule)
+        ]
+        sources = {
+            article.get("source", "")
+            for article in current_matches
+            if article.get("source")
+        }
+        markets = {
+            article.get("market_focus", "")
+            for article in current_matches
+            if article.get("market_focus") and article.get("market_focus") != "Other / Unknown"
+        }
+        duplicate_risk = count_duplicate_title_risk(current_matches)
+        article_count = len(current_matches)
+        previous_count = len(previous_matches)
+        delta = article_count - previous_count
+        source_diversity = len(sources)
+        market_diversity = len(markets)
+        confidence_score = min(
+            100,
+            article_count * 8
+            + source_diversity * 14
+            + market_diversity * 8
+            + (12 if previous_count > 0 else 0)
+            - int(duplicate_risk * 35),
+        )
+        confidence_label = get_cluster_confidence_label(
+            confidence_score,
+            article_count,
+            source_diversity,
+            duplicate_risk,
+        )
+        if delta >= 3:
+            trend = "strengthening"
+        elif delta <= -3:
+            trend = "weakening"
+        elif article_count > 0 and previous_count == 0:
+            trend = "newly observed"
+        else:
+            trend = "stable"
+
+        clusters.append({
+            "key": rule["key"],
+            "label": rule["label"],
+            "korean_label": rule["korean_label"],
+            "article_count": article_count,
+            "previous_count": previous_count,
+            "seven_day_delta": delta,
+            "source_diversity": source_diversity,
+            "market_diversity": market_diversity,
+            "duplicate_risk": duplicate_risk,
+            "confidence_score": confidence_score,
+            "confidence_label": confidence_label,
+            "trend": trend,
+            "top_market": most_common_plain_value(current_matches, "market_focus", "Other / Unknown"),
+            "top_source": most_common_plain_value(current_matches, "source", "None detected"),
+            "top_articles": current_matches[:3],
+        })
+
+    clusters.sort(
+        key=lambda row: (
+            row["confidence_label"] == "insufficient data",
+            -row["confidence_score"],
+            -row["article_count"],
+        )
+    )
+    return clusters
+
+
+def get_weighted_market_scores(articles, previous_articles=None):
+    """Separate simple daily mentions from weighted weekly momentum markets."""
+    previous_articles = previous_articles or []
+    broad_market_labels = {"National", "National / Other", "Other / Unknown"}
+    previous_market_counts = Counter(
+        article.get("market_focus", "")
+        for article in previous_articles
+        if article.get("market_focus") and article.get("market_focus") not in broad_market_labels
+    )
+    market_rows = {}
+
+    for article in articles:
+        market = article.get("market_focus", "")
+        if not market or market in broad_market_labels:
+            continue
+        row = market_rows.setdefault(market, {
+            "market": market,
+            "daily_mentions": 0,
+            "weighted_score": 0,
+            "sources": set(),
+            "signals": Counter(),
+        })
+        row["daily_mentions"] += 1
+        row["sources"].add(article.get("source", ""))
+        text = " ".join([
+            str(article.get("title", "")),
+            str(article.get("strategic_angle", "")),
+            str(article.get("market_signal", "")),
+            str(article.get("matched_keywords", "")),
+        ]).lower()
+        weight = 1
+        if any(term in text for term in ["joint venture", "jv", "acquisition", "construction financing", "refinancing", "recapitalization"]):
+            weight += 3
+        if any(term in text for term in ["lease-up", "concession", "absorption", "vacancy"]):
+            weight += 2
+        if "Urbanize LA".lower() in str(article.get("source", "")).lower():
+            weight -= 1
+        if market == "Sun Belt" and article.get("source") == row.get("top_source"):
+            weight -= 1
+        row["weighted_score"] += max(1, weight)
+        for cluster in DAILY_SIGNAL_CLUSTER_RULES:
+            if article_matches_daily_cluster(article, cluster):
+                row["signals"][cluster["korean_label"]] += 1
+
+    for row in market_rows.values():
+        row["source_diversity"] = len([source for source in row["sources"] if source])
+        row["previous_mentions"] = previous_market_counts.get(row["market"], 0)
+        row["momentum_delta"] = row["daily_mentions"] - row["previous_mentions"]
+        row["weighted_score"] += row["source_diversity"] * 2
+        if row["momentum_delta"] > 0:
+            row["weighted_score"] += min(6, row["momentum_delta"] * 2)
+        row["dominant_signals"] = ", ".join(
+            signal for signal, _count in row["signals"].most_common(3)
+        ) or "mixed signals"
+        del row["sources"]
+        del row["signals"]
+
+    return sorted(
+        market_rows.values(),
+        key=lambda row: (-row["weighted_score"], -row["source_diversity"], row["market"]),
+    )
+
+
+def build_daily_hero_sentence(clusters, market_rows):
+    """Create one concise Hero Market View sentence."""
+    meaningful_clusters = [
+        cluster for cluster in clusters
+        if cluster["article_count"] > 0 and cluster["confidence_label"] != "insufficient data"
+    ]
+    if not meaningful_clusters:
+        return "오늘 시장은 아직 뚜렷한 regime 변화를 단정하기 어려운 watch-only 국면입니다."
+
+    top_labels = [cluster["korean_label"] for cluster in meaningful_clusters[:2]]
+    market = market_rows[0]["market"] if market_rows else "특정 시장"
+    signal_text = " 및 ".join(top_labels)
+    return (
+        f"오늘 시장은 {market} 관찰을 중심으로 "
+        f"{signal_text}이 함께 포착되는 국면입니다."
+    )
+
+
+def build_daily_why_it_matters(clusters, market_rows):
+    """Generate short why-it-matters prose from current cluster quality."""
+    if not clusters or not any(cluster["article_count"] for cluster in clusters):
+        return [
+            "오늘 저장된 기사만으로는 강한 시장 판단을 내리기 어렵습니다.",
+            "기사 축적과 source 다양성이 늘어날 때까지 watch-only로 관리하는 편이 적절합니다.",
+        ]
+
+    strongest = clusters[0]
+    daily_market = market_rows[0]["market"] if market_rows else "특정 시장"
+    sentences = [
+        (
+            f"{strongest['korean_label']} 관련 기사가 {strongest['article_count']}건 포착됐고, "
+            f"source 다양성은 {strongest['source_diversity']}개로 측정됩니다."
+        ),
+        (
+            f"Daily Mentioned Market은 {daily_market}이지만, 단순 기사 수보다 "
+            "source 다양성, 반복 여부, duplicate risk를 함께 봐야 합니다."
+        ),
+    ]
+    if strongest["confidence_label"] in ["insufficient data", "watch only"]:
+        sentences.append("현 단계에서는 직접 투자 판단보다 추가 확인과 반복 관찰이 우선입니다.")
+    else:
+        sentences.append("다만 보수적으로 해석해도 해당 signal은 오늘 briefing에서 우선 확인할 만합니다.")
+    return sentences
+
+
+def build_market_interpretation_lines(clusters):
+    """Create capital, development, financing, and supply-demand interpretation lines."""
+    by_key = {cluster["key"]: cluster for cluster in clusters}
+
+    def line_for(key, strong_text, watch_text):
+        cluster = by_key.get(key, {})
+        if cluster.get("article_count", 0) <= 0:
+            return watch_text + " 현재 기사 기준으로는 뚜렷한 반복 signal이 부족합니다."
+        if cluster.get("confidence_label") == "moderate confidence":
+            return strong_text.format(**cluster)
+        return watch_text + f" {cluster.get('article_count', 0)}건 포착됐지만 {cluster.get('confidence_label', 'watch only')}로 관리합니다."
+
+    return [
+        line_for(
+            "capital_flow",
+            "Capital flow: {article_count}건의 자본 흐름 signal이 포착됐고 {source_diversity}개 source가 확인됩니다.",
+            "Capital flow:",
+        ),
+        line_for(
+            "development",
+            "Development: 개발 / 인허가 signal이 {top_market} 중심으로 반복 관찰됩니다.",
+            "Development:",
+        ),
+        line_for(
+            "financing",
+            "Financing: refinancing 및 debt 관련 signal이 {trend} 상태로 관찰됩니다.",
+            "Financing:",
+        ),
+        line_for(
+            "supply_demand",
+            "Supply / demand: lease-up, concession, absorption 관련 signal이 underwriting 확인 사항으로 남아 있습니다.",
+            "Supply / demand:",
+        ),
+    ]
+
+
+def build_woomi_checkpoint_lines(clusters, market_rows):
+    """Generate three conservative Woomi checkpoints."""
+    checkpoints = []
+    by_key = {cluster["key"]: cluster for cluster in clusters}
+    financing = by_key.get("financing", {})
+    development = by_key.get("development", {})
+    supply = by_key.get("supply_demand", {})
+    market = market_rows[0]["market"] if market_rows else "주요 시장"
+
+    if financing.get("article_count", 0) > 0:
+        checkpoints.append("Debt / recap 후보는 lender, maturity, sponsor 상황을 확인하기 전까지 watch-only로 관리합니다.")
+    if development.get("article_count", 0) > 0:
+        checkpoints.append("개발 / 인허가 signal은 planning docket, entitlement status, sponsor track record로 교차 확인합니다.")
+    if supply.get("article_count", 0) > 0:
+        checkpoints.append("Lease-up 또는 absorption 관련 표현은 rent comp, concession, vacancy 지표로 검증합니다.")
+    if market != "주요 시장":
+        checkpoints.append(f"{market} 관련 signal은 source 편중 여부와 실제 transaction evidence를 분리해서 봅니다.")
+    while len(checkpoints) < 3:
+        checkpoints.append("데이터가 부족한 signal은 투자판단보다 다음 run에서 반복 여부를 먼저 확인합니다.")
+    return checkpoints[:3]
+
+
+def build_daily_briefing_context(articles, previous_articles=None):
+    """Build the reusable daily strategic briefing context."""
+    previous_articles = previous_articles or []
+    clusters = build_daily_signal_clusters(articles, previous_articles)
+    market_rows = get_weighted_market_scores(articles, previous_articles)
+    daily_mentioned_market = most_common_plain_value(
+        [
+            article for article in articles
+            if article.get("market_focus") != "Other / Unknown"
+        ],
+        "market_focus",
+        "insufficient data",
+    )
+    weekly_momentum_market = market_rows[0]["market"] if market_rows else "insufficient data"
+    weekly_momentum_reason = (
+        market_rows[0]["dominant_signals"] if market_rows else "insufficient data"
+    )
+    return {
+        "hero_market_view": build_daily_hero_sentence(clusters, market_rows),
+        "why_it_matters": build_daily_why_it_matters(clusters, market_rows),
+        "clusters": clusters,
+        "market_rows": market_rows,
+        "daily_mentioned_market": daily_mentioned_market,
+        "weekly_momentum_market": weekly_momentum_market,
+        "weekly_momentum_reason": weekly_momentum_reason,
+        "market_interpretation": build_market_interpretation_lines(clusters),
+        "woomi_checkpoints": build_woomi_checkpoint_lines(clusters, market_rows),
+    }
+
+
+def build_rule_based_strategic_interpretation(article):
+    """Generate a non-GPT strategic interpretation for article CSV columns."""
+    market = article.get("market_focus") or "Other / Unknown"
+    angle = article.get("strategic_angle") or "General Monitoring"
+    signal = article.get("market_signal") or "No Clear Numeric Signal"
+    source = article.get("source") or "Unknown source"
+    title = article.get("title") or "Untitled article"
+    confidence_note = "watch only"
+
+    if article.get("action_level") == "Must Read" and safe_int(article.get("relevance_score", 0)) >= 85:
+        confidence_note = "priority review"
+    elif article.get("action_level") == "Review":
+        confidence_note = "review"
+
+    if "Financing Risk" in angle or signal in ["Financing Cost Signal", "Cap Rate Signal"]:
+        core = "financing, refinancing, or debt-market conditions"
+    elif "Supply Pressure" in angle or signal == "Supply / Starts Signal":
+        core = "supply, delivery, lease-up, or absorption conditions"
+    elif "Institutional Flow" in angle or signal == "Deal Size Signal":
+        core = "institutional capital movement or transaction activity"
+    elif "Regulation Risk" in angle:
+        core = "entitlement, zoning, permitting, or policy conditions"
+    elif "Developer Strategy" in angle:
+        core = "development execution or sponsor strategy"
+    else:
+        core = "general market monitoring"
+
+    return (
+        f"Rule-based interpretation: {source} article '{title}' is classified as "
+        f"{confidence_note} for {market}. It points to {core}. "
+        "Treat as a briefing input, not a standalone investment conclusion; "
+        "confirm with source diversity, repeat observation, and market-specific evidence."
+    )
+
+
 def build_llm_analysis_prompt(article):
     """
     Build a structured prompt for a future LLM analysis layer.
@@ -11668,10 +12065,10 @@ def run_openai_analysis(strategy_briefing_articles):
     - If anything is missing, the script prints a warning and continues.
     """
     for article in strategy_briefing_articles:
-        article["gpt_strategic_analysis"] = "GPT analysis not enabled"
+        article["gpt_strategic_analysis"] = build_rule_based_strategic_interpretation(article)
 
     if not USE_OPENAI_ANALYSIS:
-        return 0, "GPT analysis was not enabled."
+        return 0, "GPT analysis disabled; rule-based strategic interpretation generated."
 
     api_key = os.getenv("OPENAI_API_KEY")
 
@@ -11679,9 +12076,9 @@ def run_openai_analysis(strategy_briefing_articles):
         print("[Warning] USE_OPENAI_ANALYSIS=True, but OPENAI_API_KEY is missing. Skipping GPT analysis.")
 
         for article in strategy_briefing_articles:
-            article["gpt_strategic_analysis"] = "GPT analysis skipped: missing OPENAI_API_KEY"
+            article["gpt_strategic_analysis"] = build_rule_based_strategic_interpretation(article)
 
-        return 0, "GPT analysis skipped because OPENAI_API_KEY was missing."
+        return 0, "GPT analysis skipped because OPENAI_API_KEY was missing; rule-based interpretation generated."
 
     try:
         from openai import OpenAI
@@ -11689,9 +12086,9 @@ def run_openai_analysis(strategy_briefing_articles):
         print("[Warning] USE_OPENAI_ANALYSIS=True, but the openai package is not installed. Run: pip install openai")
 
         for article in strategy_briefing_articles:
-            article["gpt_strategic_analysis"] = "GPT analysis skipped: openai package not installed"
+            article["gpt_strategic_analysis"] = build_rule_based_strategic_interpretation(article)
 
-        return 0, "GPT analysis skipped because the openai package was not installed."
+        return 0, "GPT analysis skipped because the openai package was not installed; rule-based interpretation generated."
 
     client = OpenAI(api_key=api_key)
     analyzed_count = 0
@@ -11747,7 +12144,7 @@ def generate_gpt_analysis_preview(
         lines.extend([
             "## Note",
             "",
-            "GPT analysis was not enabled. The CSV column `gpt_strategic_analysis` was filled with `GPT analysis not enabled`.",
+            "GPT analysis was not enabled. The CSV column `gpt_strategic_analysis` was filled with rule-based strategic interpretation instead.",
             "Set `USE_OPENAI_ANALYSIS = True` and provide `OPENAI_API_KEY` later to enable this optional paid analysis mode.",
             "",
         ])
@@ -11785,96 +12182,89 @@ def generate_markdown_report(
     market_signal_articles,
     strategy_briefing_articles,
     dated_output_dir,
+    previous_article_rows=None,
 ):
-    """Generate a human-readable daily strategy briefing in Markdown."""
+    """Generate a data-driven daily strategy briefing in Markdown."""
     generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    context = build_daily_briefing_context(articles, previous_article_rows)
+    key_clusters = [
+        cluster for cluster in context["clusters"]
+        if cluster["article_count"] > 0
+    ][:3]
+
     lines = [
         "# US Multifamily Daily Strategy Briefing",
         "",
         f"Generated: {generated_at}",
         "",
+        "## Hero Market View",
+        "",
+        context["hero_market_view"],
+        "",
+        "## Why It Matters",
+        "",
+    ]
+
+    for sentence in context["why_it_matters"]:
+        lines.append(f"- {sentence}")
+
+    lines.extend([
+        "",
+        "## Key Market Signals",
+        "",
+    ])
+
+    if not key_clusters:
+        lines.append("- insufficient data: no repeatable signal cluster cleared the watch-only threshold.")
+        lines.append("")
+    else:
+        for cluster in key_clusters:
+            lines.append(
+                f"- {cluster['korean_label']}: {cluster['article_count']} article(s), "
+                f"{cluster['source_diversity']} source(s), {cluster['market_diversity']} market(s), "
+                f"{cluster['trend']}, confidence: {cluster['confidence_label']}."
+            )
+        lines.append("")
+
+    lines.extend([
+        "## Market Interpretation",
+        "",
+    ])
+    for item in context["market_interpretation"]:
+        lines.append(f"- {item}")
+
+    lines.extend([
+        "",
+        "## Woomi Checkpoints",
+        "",
+    ])
+    for item in context["woomi_checkpoints"]:
+        lines.append(f"- {item}")
+
+    lines.extend([
+        "",
+        "## Market Coverage Diagnostics",
+        "",
+        f"- Daily Mentioned Market: {context['daily_mentioned_market']}",
+        f"- Weekly Momentum Market: {context['weekly_momentum_market']}",
+        f"- Weekly Momentum Driver: {context['weekly_momentum_reason']}",
         f"- Total saved articles: {len(articles)}",
-        f"- High-priority article count: {len(high_priority_articles)}",
         f"- Market-signal article count: {len(market_signal_articles)}",
         f"- Strategy-briefing article count: {len(strategy_briefing_articles)}",
         "",
-        "## Executive Summary",
+        "## Representative Evidence",
         "",
-        build_executive_summary(
-            strategy_briefing_articles,
-            len(market_signal_articles),
-        ),
-        "",
-        f"LLM-ready prompts are available in `{os.path.basename(LLM_PROMPT_PACK_OUTPUT_FILE)}`.",
-        "",
-    ]
-
-    must_read_articles = [
-        article for article in strategy_briefing_articles
-        if article["action_level"] == "Must Read"
-    ]
-    financing_articles = [
-        article for article in strategy_briefing_articles
-        if "Financing Risk" in article["strategic_angle"]
-        or article["market_signal"] in ["Financing Cost Signal", "Cap Rate Signal"]
-    ]
-    supply_demand_articles = [
-        article for article in strategy_briefing_articles
-        if "Supply Pressure" in article["strategic_angle"]
-        or "Rent Growth / Demand" in article["strategic_angle"]
-        or article["market_signal"] in [
-            "Supply / Starts Signal",
-            "Rent Growth Signal",
-            "Vacancy Signal",
-            "Concession Signal",
-        ]
-    ]
-    policy_articles = [
-        article for article in strategy_briefing_articles
-        if "Regulation Risk" in article["strategic_angle"]
-    ]
-    institutional_articles = [
-        article for article in strategy_briefing_articles
-        if "Institutional Flow" in article["strategic_angle"]
-        or article["market_signal"] == "Deal Size Signal"
-    ]
-    developer_articles = [
-        article for article in strategy_briefing_articles
-        if "Developer Strategy" in article["strategic_angle"]
-        or "Cost Control" in article["strategic_angle"]
-        or article["market_signal"] == "Construction Cost Signal"
-    ]
-
-    add_article_section(lines, "Must Read Articles", must_read_articles)
-    add_article_section(lines, "Key Market Signals", market_signal_articles)
-    add_article_section(lines, "Financing / Capital Markets", financing_articles)
-    add_article_section(lines, "Supply / Demand", supply_demand_articles)
-    add_article_section(lines, "Policy / Regulation", policy_articles)
-    add_article_section(lines, "Institutional Flow / Deals", institutional_articles)
-    add_article_section(lines, "Developer Strategy / Innovation", developer_articles)
-
-    lines.append("## Recommended Follow-up Items")
-    lines.append("")
-
-    follow_up_articles = [
-        article for article in strategy_briefing_articles
-        if article["recommended_next_step"] in [
-            "Read full article",
-            "Add to weekly strategy memo",
-            "Track source for follow-up",
-        ]
-    ]
-
-    if not follow_up_articles:
-        lines.append("No follow-up items today.")
-        lines.append("")
+    ])
+    representative_articles = strategy_briefing_articles[:5] or high_priority_articles[:5]
+    if not representative_articles:
+        lines.append("- No representative articles available in this run.")
     else:
-        for article in follow_up_articles:
+        for article in representative_articles:
             lines.append(
-                f"- {article['recommended_next_step']}: "
-                f"{article['title']} ({article['source']})"
+                f"- {article['title']} ({article['source']}, {article['market_focus']}): "
+                f"{article.get('gpt_strategic_analysis') or build_rule_based_strategic_interpretation(article)}"
             )
-        lines.append("")
+    lines.append("")
 
     write_markdown_outputs(DAILY_BRIEFING_OUTPUT_FILE, lines, dated_output_dir)
 
@@ -17794,6 +18184,36 @@ def get_recommended_signal_action(score, false_positive_risk):
     return "Deprioritize"
 
 
+def build_signal_confidence_reason(source_count, observation_count, specificity_score, lifecycle_consistency_score, false_positive_risk):
+    """Explain the signal-quality score in a compact, auditable way."""
+    reasons = []
+    if source_count >= 3:
+        reasons.append("multi-source confirmation")
+    elif source_count >= 2:
+        reasons.append("partial source diversity")
+    else:
+        reasons.append("single-source or thin source base")
+
+    if observation_count >= 5:
+        reasons.append("persistent observations")
+    elif observation_count >= 2:
+        reasons.append("some recurrence")
+    else:
+        reasons.append("limited recurrence")
+
+    if specificity_score >= 70:
+        reasons.append("specific project / sponsor / location clues")
+    else:
+        reasons.append("limited specificity")
+
+    if lifecycle_consistency_score < 45:
+        reasons.append("lifecycle inconsistency risk")
+    if false_positive_risk in ["High", "Very High"]:
+        reasons.append("false-positive risk needs review")
+
+    return "; ".join(reasons)
+
+
 def build_signal_quality_rows(run_timestamp, source_activation_rows, source_health_rows, identity_rows, memory_rows, transition_rows, lifecycle_rows, fingerprint_rows, opportunity_rows, distress_rows, asset_rows, graph_rows, gp_watchlist_rows, relationship_rows, timing_rows):
     """Build unified strategic signal quality rows."""
     identity_by_id = {}
@@ -17857,6 +18277,13 @@ def build_signal_quality_rows(run_timestamp, source_activation_rows, source_heal
         institutional_label = get_institutional_confidence_label(overall, source_quality)
         false_positive_risk = get_false_positive_risk(overall, best_identity_confidence, specificity_score)
         signal_decay = get_signal_decay_risk(memory, transition_rows)
+        confidence_reason = build_signal_confidence_reason(
+            source_count,
+            observation_count,
+            specificity_score,
+            lifecycle_consistency_score,
+            false_positive_risk,
+        )
         rows.append({
             "signal_quality_id": f"SQ-{run_timestamp.strftime('%Y%m%d')}-{len(rows) + 1:03d}",
             "canonical_project_id": project_id,
@@ -17881,6 +18308,7 @@ def build_signal_quality_rows(run_timestamp, source_activation_rows, source_heal
             "multi_source_confirmation_flag": "Confirmed" if source_count >= 3 or observation_count >= 5 else "Partial" if source_count >= 2 or observation_count >= 2 else "Single Source",
             "recommended_signal_action": get_recommended_signal_action(overall, false_positive_risk),
             "evidence_summary": f"{source_count} source file(s), {observation_count} observation(s), latest stage {memory['latest_lifecycle_stage']}, identity confidence {best_identity_confidence}",
+            "confidence_reason": confidence_reason,
         })
     rows.sort(key=lambda row: (-safe_int(row["overall_signal_quality_score"]), -safe_int(row["persistence_score"]), row["canonical_project_name"]))
     return rows
@@ -17897,7 +18325,7 @@ def generate_signal_quality_outputs(signal_rows, dated_output_dir):
         "institutional_confidence_label", "false_positive_risk", "signal_decay_risk",
         "supporting_source_count", "recurring_observation_count",
         "lifecycle_consistency_flag", "multi_source_confirmation_flag",
-        "recommended_signal_action", "evidence_summary",
+        "recommended_signal_action", "evidence_summary", "confidence_reason",
     ]
     write_csv_outputs(SIGNAL_QUALITY_OUTPUT_FILE, fieldnames, signal_rows, dated_output_dir)
     institutional = [row for row in signal_rows if row["signal_quality_label"] == "Institutional Grade"]
@@ -18164,8 +18592,9 @@ def add_dashboard_card(cards, run_timestamp, card_type, title, score, market, se
     })
 
 
-def build_dashboard_summary_row(run_timestamp, articles, high_confidence_rows, signal_rows, opportunity_rows, distress_rows, la_asset_rows, gp_watchlist_rows, market_entry_rows, lifecycle_rows, regional_rows, sector_rows):
+def build_dashboard_summary_row(run_timestamp, articles, high_confidence_rows, signal_rows, opportunity_rows, distress_rows, la_asset_rows, gp_watchlist_rows, market_entry_rows, lifecycle_rows, regional_rows, sector_rows, previous_article_rows=None):
     """Build the single dashboard summary row for this run."""
+    briefing_context = build_daily_briefing_context(articles, previous_article_rows)
     institutional_grade_count = len([row for row in signal_rows if row["signal_quality_label"] == "Institutional Grade"])
     top_market = regional_rows[0]["market"] if regional_rows else "Other / Unknown"
     top_sector = sector_rows[0]["residential_sector"] if sector_rows else "General Residential"
@@ -18199,6 +18628,17 @@ def build_dashboard_summary_row(run_timestamp, articles, high_confidence_rows, s
         "top_lifecycle_signal": top_lifecycle,
         "highest_quality_signal": highest_quality,
         "recommended_executive_focus": focus,
+        "hero_market_view": briefing_context["hero_market_view"],
+        "daily_mentioned_market": briefing_context["daily_mentioned_market"],
+        "weekly_momentum_market": briefing_context["weekly_momentum_market"],
+        "weekly_momentum_reason": briefing_context["weekly_momentum_reason"],
+        "daily_briefing_confidence": briefing_context["clusters"][0]["confidence_label"] if briefing_context["clusters"] else "insufficient data",
+        "key_market_signals": " | ".join(
+            f"{cluster['korean_label']} ({cluster['article_count']}, {cluster['confidence_label']})"
+            for cluster in briefing_context["clusters"][:3]
+            if cluster["article_count"] > 0
+        ) or "insufficient data",
+        "woomi_checkpoints": " | ".join(briefing_context["woomi_checkpoints"]),
     }
 
 
@@ -18327,12 +18767,12 @@ def build_dashboard_watchlists(high_confidence_rows, opportunity_rows, distress_
     return rows
 
 
-def generate_dashboard_outputs(run_timestamp, articles, high_confidence_rows, signal_rows, opportunity_rows, distress_rows, market_entry_rows, gp_watchlist_rows, relationship_rows, graph_rows, persistent_asset_rows, la_persistent_asset_rows, lifecycle_rows, transition_rows, timing_rows, entitlement_rows, la_entitlement_rows, asset_rows, la_asset_rows, regional_rows, sector_rows, capital_flow_rows, source_activation_rows, dated_output_dir):
+def generate_dashboard_outputs(run_timestamp, articles, high_confidence_rows, signal_rows, opportunity_rows, distress_rows, market_entry_rows, gp_watchlist_rows, relationship_rows, graph_rows, persistent_asset_rows, la_persistent_asset_rows, lifecycle_rows, transition_rows, timing_rows, entitlement_rows, la_entitlement_rows, asset_rows, la_asset_rows, regional_rows, sector_rows, capital_flow_rows, source_activation_rows, dated_output_dir, previous_article_rows=None):
     """Write dashboard-ready summary, cards, watchlists, and Markdown brief."""
     summary_row = build_dashboard_summary_row(
         run_timestamp, articles, high_confidence_rows, signal_rows, opportunity_rows,
         distress_rows, la_asset_rows, gp_watchlist_rows, market_entry_rows,
-        lifecycle_rows, regional_rows, sector_rows,
+        lifecycle_rows, regional_rows, sector_rows, previous_article_rows,
     )
     summary_fields = [
         "run_timestamp", "total_articles", "high_confidence_signals",
@@ -18341,6 +18781,9 @@ def generate_dashboard_outputs(run_timestamp, articles, high_confidence_rows, si
         "top_residential_sector", "top_gp", "top_opportunity",
         "top_distress_signal", "top_market_entry_window", "top_lifecycle_signal",
         "highest_quality_signal", "recommended_executive_focus",
+        "hero_market_view", "daily_mentioned_market", "weekly_momentum_market",
+        "weekly_momentum_reason", "daily_briefing_confidence",
+        "key_market_signals", "woomi_checkpoints",
     ]
     write_csv_outputs(DASHBOARD_SUMMARY_OUTPUT_FILE, summary_fields, [summary_row], dated_output_dir)
 
@@ -20802,8 +21245,12 @@ def save_to_csv(articles):
     analyzed_count, gpt_status_message = run_openai_analysis(strategy_briefing_articles)
 
     for article in articles:
-        if "gpt_strategic_analysis" not in article:
-            article["gpt_strategic_analysis"] = "GPT analysis not enabled"
+        if (
+            "gpt_strategic_analysis" not in article
+            or not article["gpt_strategic_analysis"]
+            or article["gpt_strategic_analysis"] == "GPT analysis not enabled"
+        ):
+            article["gpt_strategic_analysis"] = build_rule_based_strategic_interpretation(article)
 
     try:
         write_csv_outputs(
@@ -20837,6 +21284,7 @@ def save_to_csv(articles):
             market_signal_articles,
             strategy_briefing_articles,
             dated_output_dir,
+            previous_article_rows,
         )
         generate_weekly_strategy_memo(
             articles,
@@ -21434,6 +21882,7 @@ def save_to_csv(articles):
             capital_flow_memory_rows,
             source_activation_rows,
             dated_output_dir,
+            previous_article_rows,
         )
         append_dashboard_summary_to_reports(
             dashboard_summary,

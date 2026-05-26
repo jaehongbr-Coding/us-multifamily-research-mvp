@@ -1,44 +1,51 @@
 # Lifecycle Transition Report
 
-Generated: 2026-05-26 08:10:42
+Generated: 2026-05-26 23:02:15
 
-- Total lifecycle transitions analyzed: 88
-- Newly detected projects: 3
+- Total lifecycle transitions analyzed: 99
+- Newly detected projects: 41
 - Forward progression projects: 0
 - Possible stalled projects: 1
 - Reappearing projects: 0
 
 ## Strongest Progression Signals
 
-- Rexford Launches Construction on Single-Tenant Kearny Mesa Industrial: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 71.
-- Investment Firm Acquires SoHo Mixed-Use for $43M: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 69.
-- AV Management Acquires Multifamily Property 73-75 Sullivan Street in SoHo Manhattan for $43M: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 69.
-- Acquisition - New York - Investment Firm Acquires SoHo Mixed-Use for $43M: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 68.
-- Acquisition - New York - AV Management Acquires Multifamily Property 73-75 Sullivan Street in SoHo Manhattan for $4...: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 68.
 - Acquisition - Sun Belt - US Merchants Picks Up Rail-Ready Surprise Warehouse for $63.8M: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 67.
-- BTR / Build-to-Rent - Sun Belt - Legacy MCS Completes Two Build-to-Rent Communities in Hutto Expanding Presence in Fast-Gro...: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 67.
-- Disposition / Exit - Texas - The Statesman at Horseshoe Bay Breaks Ground Introducing $108M Luxury Senior Living Commun...: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 66.
-- Disposition / Exit - National - Scion and Ares Acquire $910M Multifamily Student Housing Portfolio from Harrison Street As...: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 65.
 - General Project Signal - Other / Unknown - Multifamily Absorption Rate Remains Below 50%: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 65.
+- Construction Financing - Sun Belt - Hillpointe Secures $67M Construction Loan for Tampa Apartments and Breaks Ground: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 64.
+- Hillpointe Secures $67M Construction Loan for Tampa Apartments and Breaks Ground: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 64.
+- Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 63.
+- Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 63.
+- Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 63.
+- Acquisition - Sun Belt - Miami Apartments Trade for $109.9M: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 63.
+- General Project Signal - California - Anaheim Industrial Outdoor Storage Site Secures Bridge Loan: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 62.
+- Development Start - Other / Unknown - $28M Housing, Mixed-Use Development in Baltimore Breaks Ground: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 62.
 
 ## Highest Stall Risk Signals
 
 - Disposition / Exit - Los Angeles - L.A.'s poor ParkScore, Oceanwide sale delayed, and more: Distressed / Stalled -> Distressed / Stalled, Possible Stall, stall_risk_score 84.
-- Construction Financing - Other / Unknown - Eastern Bank Leads Financing for Wood Partners’ First Rhode Island Project: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 39.
 - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 39.
 - Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 39.
 - Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
 - Developer revives plan for Best Western hotel at 2645 S. Western Ave. in Jefferson Park: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
 - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
-- Acquisition - Sun Belt - Dominium Acquires Affordable Seniors Housing Community in Duluth, Georgia, Plans $9.9M Ren...: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 38.
 - Entitlement / Permitting - Other / Unknown - Plans Increase For 1223 East 33rd Avenue in Fruitvale, Oakland: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
 - El-Ad Pays $45.5M for Coconut Grove Property: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
+- Demolition Permits Filed For 1939 Market Street in San Francisco: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
+- NexMetro Debuts 229-Unit San Tan Valley BTR Community: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
 
 ## Newly Detected Projects
 
-- Rexford Launches Construction on Single-Tenant Kearny Mesa Industrial: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 71.
-- Disposition / Exit - Los Angeles - Avison Young Markets Echo Park Multifamily Portfolio: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 42.
-- Safehold Closes on Ground Leases for Affordable in Santa Clarita, Santa Cruz: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 40.
+- Construction Financing - Sun Belt - Hillpointe Secures $67M Construction Loan for Tampa Apartments and Breaks Ground: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 64.
+- Hillpointe Secures $67M Construction Loan for Tampa Apartments and Breaks Ground: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 64.
+- Acquisition - Sun Belt - Miami Apartments Trade for $109.9M: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 63.
+- Development Start - Other / Unknown - $28M Housing, Mixed-Use Development in Baltimore Breaks Ground: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 62.
+- Refinancing - California - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 58.
+- Refinancing - New York - Black Bear Capital Arranges $39M Loan for Refinancing of Long Island Apartment Complex: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 58.
+- 17 apartments planned at 2217 S. Fox Hills Dr. in Century City: No Previous Record -> Site Acquisition / Site Control, Newly Detected Project, progression_score 43.
+- Entitlement / Permitting - Los Angeles - 17 apartments planned at 2217 S. Fox Hills Dr. in Century City: No Previous Record -> Early Site Signal, Newly Detected Project, progression_score 43.
+- Acquisition - California - Pacific Urban Investors Secures San Diego Multifamily Asset for $90M: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 42.
+- General Project Signal - Los Angeles - Renderings revealed: Arts District towers at 2143 E. Violet Street: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 42.
 
 ## Forward Progression Projects
 
@@ -55,20 +62,21 @@ Generated: 2026-05-26 08:10:42
 ## Refinancing / Recap Timing Transitions
 
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 31.
+- Refinancing - California - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 31.
 - Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 30.
 - General Project Signal - California - Anaheim Industrial Outdoor Storage Site Secures Bridge Loan: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 30.
-- Construction Financing - Sun Belt - Madison Realty Capital Originates $91.8M Construction Loan for Multifamily Project in Sout...: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 30.
+- Refinancing - New York - Black Bear Capital Arranges $39M Loan for Refinancing of Long Island Apartment Complex: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
 - General Project Signal - Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 30.
-- Refinancing - New York - Dwight Capital Provides $54M HUD-Insured Loan for Refinancing of Queens Apartment Building: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 30.
-- Refinancing - Sun Belt - Dwight Capital Closes $130M HUD Refi on N. Miami Apartments: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 30.
 - Refinancing - Sun Belt - Georgia Tech Student Housing Investors Ink Refi: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 30.
 - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
 - Anaheim Industrial Outdoor Storage Site Secures Bridge Loan: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
 
 ## Construction Start Transitions
 
-- Rexford Launches Construction on Single-Tenant Kearny Mesa Industrial: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 71.
-- Disposition / Exit - Texas - The Statesman at Horseshoe Bay Breaks Ground Introducing $108M Luxury Senior Living Commun...: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 66.
+- Construction Financing - Sun Belt - Hillpointe Secures $67M Construction Loan for Tampa Apartments and Breaks Ground: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 64.
+- Hillpointe Secures $67M Construction Loan for Tampa Apartments and Breaks Ground: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 64.
+- Acquisition - Sun Belt - Miami Apartments Trade for $109.9M: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 63.
+- Development Start - Other / Unknown - $28M Housing, Mixed-Use Development in Baltimore Breaks Ground: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 62.
 
 ## Implications for Woomi / Woomi Global
 
@@ -78,24 +86,24 @@ Generated: 2026-05-26 08:10:42
 
 ## Recommended Transition Follow-up Actions
 
-- Monitor for another run to confirm lifecycle direction: Rexford Launches Construction on Single-Tenant Kearny Mesa Industrial.
-- Use as delivery, lease-up, and underwriting benchmark: Investment Firm Acquires SoHo Mixed-Use for $43M.
-- Use as delivery, lease-up, and underwriting benchmark: AV Management Acquires Multifamily Property 73-75 Sullivan Street in SoHo Manhattan for $43M.
-- Use as delivery, lease-up, and underwriting benchmark: Acquisition - New York - Investment Firm Acquires SoHo Mixed-Use for $43M.
-- Use as delivery, lease-up, and underwriting benchmark: Acquisition - New York - AV Management Acquires Multifamily Property 73-75 Sullivan Street in SoHo Manhattan for $4....
 - Use as delivery, lease-up, and underwriting benchmark: Acquisition - Sun Belt - US Merchants Picks Up Rail-Ready Surprise Warehouse for $63.8M.
-- Use as delivery, lease-up, and underwriting benchmark: BTR / Build-to-Rent - Sun Belt - Legacy MCS Completes Two Build-to-Rent Communities in Hutto Expanding Presence in Fast-Gro....
-- Monitor for another run to confirm lifecycle direction: Disposition / Exit - Texas - The Statesman at Horseshoe Bay Breaks Ground Introducing $108M Luxury Senior Living Commun....
+- Use as delivery, lease-up, and underwriting benchmark: General Project Signal - Other / Unknown - Multifamily Absorption Rate Remains Below 50%.
+- Monitor for another run to confirm lifecycle direction: Construction Financing - Sun Belt - Hillpointe Secures $67M Construction Loan for Tampa Apartments and Breaks Ground.
+- Monitor for another run to confirm lifecycle direction: Hillpointe Secures $67M Construction Loan for Tampa Apartments and Breaks Ground.
+- Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily.
+- Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments.
+- Track maturity, lender, recapitalization need, and potential JV angle: Alta Developers Lands $91.8M Construction Loan for Miami Apartments.
+- Monitor for another run to confirm lifecycle direction: Acquisition - Sun Belt - Miami Apartments Trade for $109.9M.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 689
-- Canonical projects: 146
-- Duplicate project clusters: 94
-- Persistent assets tracked: 146
-- LA persistent asset watch items: 88
+- Raw project references: 759
+- Canonical projects: 164
+- Duplicate project clusters: 89
+- Persistent assets tracked: 164
+- LA persistent asset watch items: 98
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -103,10 +111,10 @@ Generated: 2026-05-26 08:10:42
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 146
+- Signals evaluated: 164
 - Institutional-grade signals: 13
-- High-confidence signals: 30
-- Weak/noisy signals: 103
-- High-confidence watchlist items: 30
+- High-confidence signals: 27
+- Weak/noisy signals: 125
+- High-confidence watchlist items: 27
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

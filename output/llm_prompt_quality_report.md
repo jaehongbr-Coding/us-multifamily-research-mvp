@@ -1,32 +1,32 @@
 # LLM Prompt Quality Report
 
-Generated: 2026-05-26 08:10:38
+Generated: 2026-05-26 23:02:11
 
-- Total prompts reviewed: 58
-- Average prompt quality score: 90.6
-- Excellent prompts: 39
+- Total prompts reviewed: 62
+- Average prompt quality score: 90.5
+- Excellent prompts: 43
 - Good prompts: 19
 - Needs Improvement prompts: 0
 - Poor prompts: 0
 
 ## Top 5 Strongest Prompts
 
-- 98 (Excellent): Apartment REITs Equity Residential and AvalonBay Communities Inc Announced Merger for $52B Apartment REIT
-- 98 (Excellent): Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four Years
-- 98 (Excellent): Dutch Investor Pays $110M for New Rental in Aventura, Fla.
-- 98 (Excellent): Arbor Realty Trust Lends $125M on Chicago Apartments Acquisition
-- 98 (Excellent): Investment Firm Acquires SoHo Mixed-Use for $43M
+- 98 (Excellent): Bridge Investment Group Lends $40M on Tampa Apartments Buy
+- 98 (Excellent): $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments
+- 98 (Excellent): Well-Located Bergen County Multifamily Trades for $29M
+- 98 (Excellent): 17 apartments planned at 2217 S. Fox Hills Dr. in Century City
+- 98 (Excellent): Habitat development opens for residents next to La Cienega/Jefferson Station
 
 ## Top 5 Weakest Prompts
 
 - 74 (Good): Best Year for Missing Middle Construction Since 2007 - Missing: missing extracted numbers; missing market focus; missing market signal
 - 74 (Good): Missing Middle Weakness - Missing: missing extracted numbers; missing market focus; missing market signal
-- 74 (Good): Multifamily project starts declined further in Q1: CoStar - Missing: missing extracted numbers; missing market focus; missing market signal
+- 74 (Good): Kolbe Completes New Multifamily Development in Wisconsin - Missing: missing extracted numbers; missing market focus; missing market signal
+- 74 (Good): Newly Constructed 60-Unit Property Across from UChicago Hits the Market - Missing: missing extracted numbers; missing market focus; missing market signal
 - 74 (Good): Shorter Apartment Construction Time in 2024 - Missing: missing extracted numbers; missing market focus; missing market signal
-- 82 (Good): The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist - Missing: missing extracted numbers; missing market signal
 
 ## Common Missing Context Issues
 
-- missing market signal: 28
-- missing extracted numbers: 17
-- missing market focus: 9
+- missing market signal: 27
+- missing extracted numbers: 16
+- missing market focus: 15

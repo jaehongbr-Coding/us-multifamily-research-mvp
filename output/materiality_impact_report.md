@@ -1,6 +1,6 @@
 # Materiality / Impact Report
 
-Generated: 2026-05-26 08:10:38
+Generated: 2026-05-26 23:02:11
 
 - Top materiality regime: Developer Strategy Shift (100)
 - Top impact regime: Developer Strategy Shift (100)
@@ -11,18 +11,18 @@ Generated: 2026-05-26 08:10:38
 | --- | ---: | ---: | --- | --- | --- |
 | Developer Strategy Shift | 100 | 100 | Critical Business Impact | GP Partnership; Cost Management; Leasing / Operations; Strategic Monitoring; LA / California Strategy | Add to weekly strategy memo |
 | Financing Stress | 100 | 100 | Critical Business Impact | Underwriting; Financing; Capital Markets; LA / California Strategy | Tighten underwriting assumptions |
+| Policy / Entitlement Watch | 100 | 100 | Critical Business Impact | Land / Pipeline; LA / California Strategy; Strategic Monitoring | Monitor LA / California entitlement changes |
 | Selective Capital Re-entry | 100 | 100 | Critical Business Impact | GP Partnership; Capital Markets; Strategic Monitoring; LA / California Strategy | Track capital partner activity |
 | Supply Pressure | 100 | 100 | Critical Business Impact | Underwriting; Land / Pipeline; Leasing / Operations; LA / California Strategy | Review supply pipeline assumptions |
-| Policy / Entitlement Watch | 100 | 98 | Critical Business Impact | Land / Pipeline; LA / California Strategy; Strategic Monitoring | Monitor LA / California entitlement changes |
-| Construction Cost Pressure | 59 | 60 | High Business Impact | Underwriting; Cost Management; LA / California Strategy | Review construction cost assumptions |
+| Construction Cost Pressure | 0 | 15 | Low Business Impact | Underwriting; Cost Management; LA / California Strategy | Review construction cost assumptions |
 
 ## Key Business Risks / Opportunities
 
 - Developer Strategy Shift: Changes in developer strategy may reveal capability gaps or opportunities in BTR, modular, technology, and product design.
 - Financing Stress: Debt cost and credit availability may affect construction loan sizing, refinancing assumptions, and exit cap rates.
+- Policy / Entitlement Watch: Entitlement, zoning, permitting, or housing policy changes may create both approval risk and development opportunity.
 - Selective Capital Re-entry: Institutional capital re-entry may provide pricing discovery and GP partnership signals.
 - Supply Pressure: New supply, concessions, and vacancy pressure may affect lease-up assumptions and rent growth underwriting.
-- Policy / Entitlement Watch: Entitlement, zoning, permitting, or housing policy changes may create both approval risk and development opportunity.
 - Construction Cost Pressure: Labor, materials, and construction cost pressure may affect feasibility, contingencies, and value engineering.
 
 ## Implications for Woomi / Woomi Global
@@ -36,7 +36,6 @@ Generated: 2026-05-26 08:10:38
 
 - Developer Strategy Shift: Add to weekly strategy memo (Critical Business Impact).
 - Financing Stress: Tighten underwriting assumptions (Critical Business Impact).
+- Policy / Entitlement Watch: Monitor LA / California entitlement changes (Critical Business Impact).
 - Selective Capital Re-entry: Track capital partner activity (Critical Business Impact).
 - Supply Pressure: Review supply pipeline assumptions (Critical Business Impact).
-- Policy / Entitlement Watch: Monitor LA / California entitlement changes (Critical Business Impact).
-- Construction Cost Pressure: Review construction cost assumptions (High Business Impact).

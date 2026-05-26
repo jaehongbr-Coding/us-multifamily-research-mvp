@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-05-26 08:10:42
+Generated: 2026-05-26 23:02:15
 
-- Total raw project references: 689
-- Total canonical projects: 146
-- Duplicate project clusters: 94
-- High-confidence project identities: 689
+- Total raw project references: 759
+- Total canonical projects: 164
+- Duplicate project clusters: 89
+- High-confidence project identities: 759
 - Low-confidence identities needing review: 0
-- LA / California project references: 386
+- LA / California project references: 453
 
 ## Top Repeated Projects
 
-- Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four...: 64 occurrence(s), confidence 80.
-- Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four...: 64 occurrence(s), confidence 80.
-- Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four...: 64 occurrence(s), confidence 80.
-- Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four...: 64 occurrence(s), confidence 80.
-- Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four...: 64 occurrence(s), confidence 80.
-- Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four...: 64 occurrence(s), confidence 80.
-- Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four...: 64 occurrence(s), confidence 80.
-- Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four...: 64 occurrence(s), confidence 80.
-- Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four...: 64 occurrence(s), confidence 80.
-- Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four...: 64 occurrence(s), confidence 80.
+- Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition: 65 occurrence(s), confidence 80.
+- Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition: 65 occurrence(s), confidence 80.
+- Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition: 65 occurrence(s), confidence 80.
+- Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition: 65 occurrence(s), confidence 80.
+- Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition: 65 occurrence(s), confidence 80.
+- Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition: 65 occurrence(s), confidence 80.
+- Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition: 65 occurrence(s), confidence 80.
+- Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition: 65 occurrence(s), confidence 80.
+- Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition: 65 occurrence(s), confidence 80.
+- Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition: 65 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

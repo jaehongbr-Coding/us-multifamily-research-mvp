@@ -1,19 +1,17 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-05-26 08:10:39
+Generated: 2026-05-26 23:02:11
 
-- GP/developer candidates reviewed: 6
+- GP/developer candidates reviewed: 4
 - Tier 1 Strategic GPs: 0
-- Tier 2 High Potential GPs: 2
+- Tier 2 High Potential GPs: 0
 
 ## Top Emerging GPs
 
-- Wood Partners: 74 (Tier 2 High Potential GP), Other / Unknown, Institutional-backed regional expansion.
-- Brookfield: 70 (Tier 2 High Potential GP), National, California / LA strategic positioning.
-- AvalonBay: 66 (Tier 3 Monitoring GP), New York, California / LA strategic positioning.
-- Blackstone: 59 (Tier 3 Monitoring GP), New York, Selective residential growth.
-- Hanover Company: 34 (Low Signal), Other / Unknown, California / LA strategic positioning.
-- Equity Residential: 33 (Low Signal), New York, Selective residential growth.
+- Wood Partners: 64 (Tier 3 Monitoring GP), Sun Belt, Institutional-backed regional expansion.
+- AvalonBay: 63 (Tier 3 Monitoring GP), National, California / LA strategic positioning.
+- Blackstone: 60 (Tier 3 Monitoring GP), New York, Selective residential growth.
+- Equity Residential: 30 (Low Signal), National, Selective residential growth.
 
 ## Tier 1 Strategic GP
 
@@ -21,15 +19,11 @@ Generated: 2026-05-26 08:10:39
 
 ## Tier 2 High Potential GP
 
-- Wood Partners: score 74, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
-- Brookfield: score 70, Tier 2 High Potential GP, National, Capital market and pricing discovery reference. Review LA / California development activity.
+- No current GP signal detected.
 
 ## California / LA GP Activity
 
-- Wood Partners: score 74, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
-- Brookfield: score 70, Tier 2 High Potential GP, National, Capital market and pricing discovery reference. Review LA / California development activity.
-- AvalonBay: score 66, Tier 3 Monitoring GP, New York, LA / California developer strategy watch. Review LA / California development activity.
-- Hanover Company: score 34, Low Signal, Other / Unknown, LA / California developer strategy watch. Review LA / California development activity.
+- AvalonBay: score 63, Tier 3 Monitoring GP, National, LA / California developer strategy watch. Review LA / California development activity.
 
 ## BTR / SFR GP Activity
 
@@ -49,18 +43,15 @@ Generated: 2026-05-26 08:10:39
 
 ## Institutional Capital Magnet
 
-- Wood Partners: score 74, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
-- Brookfield: score 70, Tier 2 High Potential GP, National, Capital market and pricing discovery reference. Review LA / California development activity.
-- AvalonBay: score 66, Tier 3 Monitoring GP, New York, LA / California developer strategy watch. Review LA / California development activity.
-- Blackstone: score 59, Tier 3 Monitoring GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
-- Equity Residential: score 33, Low Signal, New York, General developer monitoring. Monitor only.
+- Wood Partners: score 64, Tier 3 Monitoring GP, Sun Belt, Potential GP partnership candidate. Track JV and capital partner activity.
+- AvalonBay: score 63, Tier 3 Monitoring GP, National, LA / California developer strategy watch. Review LA / California development activity.
+- Blackstone: score 60, Tier 3 Monitoring GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## Potential Woomi Partnership Candidates
 
-- Wood Partners: score 74, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
-- Brookfield: score 70, Tier 2 High Potential GP, National, Capital market and pricing discovery reference. Review LA / California development activity.
-- AvalonBay: score 66, Tier 3 Monitoring GP, New York, LA / California developer strategy watch. Review LA / California development activity.
-- Blackstone: score 59, Tier 3 Monitoring GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
+- Wood Partners: score 64, Tier 3 Monitoring GP, Sun Belt, Potential GP partnership candidate. Track JV and capital partner activity.
+- AvalonBay: score 63, Tier 3 Monitoring GP, National, LA / California developer strategy watch. Review LA / California development activity.
+- Blackstone: score 60, Tier 3 Monitoring GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## GP Source Expansion Summary
 
@@ -90,26 +81,23 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 ## Recommended Management Meeting Targets
 
 - Wood Partners: Track JV and capital partner activity (Medium confidence).
-- Brookfield: Review LA / California development activity (Medium confidence).
 - Blackstone: Track JV and capital partner activity (Medium confidence).
 
 ## Recommended Strategic Follow-up Actions
 
 - Wood Partners: Track JV and capital partner activity.
-- Brookfield: Review LA / California development activity.
 - AvalonBay: Review LA / California development activity.
 - Blackstone: Track JV and capital partner activity.
-- Hanover Company: Review LA / California development activity.
 - Equity Residential: Monitor only.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 146
+- Signals evaluated: 164
 - Institutional-grade signals: 13
-- High-confidence signals: 30
-- Weak/noisy signals: 103
-- High-confidence watchlist items: 30
+- High-confidence signals: 27
+- Weak/noisy signals: 125
+- High-confidence watchlist items: 27
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

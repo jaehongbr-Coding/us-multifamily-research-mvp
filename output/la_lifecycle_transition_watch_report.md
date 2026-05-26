@@ -1,8 +1,8 @@
 # LA Lifecycle Transition Watch Report
 
-Generated: 2026-05-26 08:10:42
+Generated: 2026-05-26 23:02:15
 
-- Total LA lifecycle transition watch items: 48
+- Total LA lifecycle transition watch items: 49
 
 ## LA Projects Moving Forward
 
@@ -14,7 +14,7 @@ Generated: 2026-05-26 08:10:42
 
 ## LA Permit / Construction Start Watch
 
-- Rexford Launches Construction on Single-Tenant Kearny Mesa Industrial: No Previous Record -> Vertical Construction, Construction start watch.
+- None detected.
 
 ## LA Refinancing / Recap Timing Watch
 
@@ -22,6 +22,8 @@ Generated: 2026-05-26 08:10:42
 - Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 - General Project Signal - California - Anaheim Industrial Outdoor Storage Site Secures Bridge Loan: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Refinancing - California - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Refinancing - New York - Black Bear Capital Arranges $39M Loan for Refinancing of Long Island Apartment Complex: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 - Anaheim Industrial Outdoor Storage Site Secures Bridge Loan: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 - Refinancing - Sun Belt - Georgia Tech Student Housing Investors Ink Refi: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 
@@ -31,23 +33,23 @@ Generated: 2026-05-26 08:10:42
 
 ## Recommended LA Transition Follow-up Actions
 
-- Monitor for another run to confirm lifecycle direction: Rexford Launches Construction on Single-Tenant Kearny Mesa Industrial.
 - Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily.
 - Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments.
 - Track maturity, lender, recapitalization need, and potential JV angle: Alta Developers Lands $91.8M Construction Loan for Miami Apartments.
 - Track maturity, lender, recapitalization need, and potential JV angle: General Project Signal - California - Anaheim Industrial Outdoor Storage Site Secures Bridge Loan.
+- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - California - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments.
+- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - New York - Black Bear Capital Arranges $39M Loan for Refinancing of Long Island Apartment Complex.
 - Track maturity, lender, recapitalization need, and potential JV angle: Anaheim Industrial Outdoor Storage Site Secures Bridge Loan.
 - Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Sun Belt - Georgia Tech Student Housing Investors Ink Refi.
-- Monitor for another run to confirm lifecycle direction: Construction Financing - Other / Unknown - Eastern Bank Leads Financing for Wood Partners’ First Rhode Island Project.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 689
-- Canonical projects: 146
-- Duplicate project clusters: 94
-- Persistent assets tracked: 146
-- LA persistent asset watch items: 88
+- Raw project references: 759
+- Canonical projects: 164
+- Duplicate project clusters: 89
+- Persistent assets tracked: 164
+- LA persistent asset watch items: 98
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

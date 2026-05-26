@@ -1,111 +1,116 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-05-26 08:10:39
+Generated: 2026-05-26 23:02:11
 
-- Total relationship edges: 111
-- Most connected developer / GP: AvalonBay (7 edge(s))
-- Most connected lender / debt provider: jll (5 edge(s))
+- Total relationship edges: 119
+- Most connected developer / GP: Blackstone (10 edge(s))
+- Most connected lender / debt provider: jll (6 edge(s))
 - Most connected market: Sun Belt (17 edge(s))
-- Strongest relationship edge: AvalonBay -> equity residential
+- Strongest relationship edge: Wood Partners -> northmarq
 - Highest Woomi relevance edge: Blackstone -> blackstone
 
 ## Top 10 Relationship Edges
 
-- AvalonBay -> equity residential: Capital Flow, New York, score 95. Track GP relationship history.
-- Brookfield -> brookfield: Acquisition / Buyer, National, score 92. Track GP relationship history.
-- Wood Partners -> northmarq: Financing Relationship, Sun Belt, score 91. Track GP relationship history.
-- Blackstone -> blackstone: JV / Partnership, New York, score 87. Review potential JV relevance.
-- Brookfield -> Acquisition - National - Arbor Realty Trust Lends $125M on Chicago Apartments Acquisition: Acquisition / Buyer, National, score 84. Track GP relationship history.
-- Brookfield -> National: Acquisition / Buyer, National, score 84. Track GP relationship history.
-- AvalonBay -> General Project Signal - New York - Apartment REITs Equity Residential and AvalonBay Communities Inc Announced Merger for $52B...: Pricing / Valuation Signal, New York, score 83. Track GP relationship history.
-- AvalonBay -> equity residential: Capital Flow, National, score 82. Track GP relationship history.
-- Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four... -> cbre: Financing Relationship, California, score 81. Monitor lender activity.
-- AvalonBay -> Manhattan: Market Expansion, New York, score 81. Track GP relationship history.
+- Wood Partners -> northmarq: Financing Relationship, Sun Belt, score 90. Track GP relationship history.
+- Blackstone -> blackstone: JV / Partnership, New York, score 88. Review potential JV relevance.
+- Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily -> jll: Financing Relationship, California, score 81. Monitor lender activity.
+- AvalonBay -> equity residential: Capital Flow, National, score 80. Track GP relationship history.
+- Blackstone -> JV / Partnership - New York - Blackstone Announces Joint Venture with Google to Create New TPU Cloud: JV / Partnership, New York, score 80. Review potential JV relevance.
+- Blackstone -> New York: JV / Partnership, New York, score 80. Review potential JV relevance.
+- Blackstone -> blackstone: Capital Flow, Sun Belt, score 80. Track GP relationship history.
+- Disposition / Exit - California - Northmarq: Multifamily Sale Serves as Benchmark for Fresno Market -> northmarq: Financing Relationship, California, score 80. Monitor lender activity.
+- Blackstone -> blackstone: Disposition / Seller, National, score 76. Track GP relationship history.
+- Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily -> California: Financing Relationship, California, score 73. Track LA / California activity.
 
 ## Developer / GP Relationship Map
 
-- AvalonBay -> equity residential: Capital Flow, New York, score 95. Track GP relationship history.
-- Brookfield -> brookfield: Acquisition / Buyer, National, score 92. Track GP relationship history.
-- Wood Partners -> northmarq: Financing Relationship, Sun Belt, score 91. Track GP relationship history.
-- Blackstone -> blackstone: JV / Partnership, New York, score 87. Review potential JV relevance.
-- Brookfield -> Acquisition - National - Arbor Realty Trust Lends $125M on Chicago Apartments Acquisition: Acquisition / Buyer, National, score 84. Track GP relationship history.
-- Brookfield -> National: Acquisition / Buyer, National, score 84. Track GP relationship history.
-- AvalonBay -> General Project Signal - New York - Apartment REITs Equity Residential and AvalonBay Communities Inc Announced Merger for $52B...: Pricing / Valuation Signal, New York, score 83. Track GP relationship history.
-- AvalonBay -> equity residential: Capital Flow, National, score 82. Track GP relationship history.
-- AvalonBay -> Manhattan: Market Expansion, New York, score 81. Track GP relationship history.
-- AvalonBay -> New York: Market Expansion, New York, score 81. Track GP relationship history.
+- Wood Partners -> northmarq: Financing Relationship, Sun Belt, score 90. Track GP relationship history.
+- Blackstone -> blackstone: JV / Partnership, New York, score 88. Review potential JV relevance.
+- AvalonBay -> equity residential: Capital Flow, National, score 80. Track GP relationship history.
+- Blackstone -> JV / Partnership - New York - Blackstone Announces Joint Venture with Google to Create New TPU Cloud: JV / Partnership, New York, score 80. Review potential JV relevance.
+- Blackstone -> New York: JV / Partnership, New York, score 80. Review potential JV relevance.
+- Blackstone -> blackstone: Capital Flow, Sun Belt, score 80. Track GP relationship history.
+- Blackstone -> blackstone: Disposition / Seller, National, score 76. Track GP relationship history.
+- Wood Partners -> Atlanta: Disposition / Seller, Sun Belt, score 71. Track GP relationship history.
+- Wood Partners -> Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M: Disposition / Seller, Sun Belt, score 71. Track GP relationship history.
+- Wood Partners -> Sun Belt: Disposition / Seller, Sun Belt, score 71. Track GP relationship history.
 
 ## Lender / Debt Provider Relationship Map
 
-- Wood Partners -> northmarq: Financing Relationship, Sun Belt, score 91. Track GP relationship history.
-- Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four... -> cbre: Financing Relationship, California, score 81. Monitor lender activity.
+- Wood Partners -> northmarq: Financing Relationship, Sun Belt, score 90. Track GP relationship history.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily -> jll: Financing Relationship, California, score 81. Monitor lender activity.
 - Disposition / Exit - California - Northmarq: Multifamily Sale Serves as Benchmark for Fresno Market -> northmarq: Financing Relationship, California, score 80. Monitor lender activity.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project -> jll: Financing Relationship, California, score 73. Monitor lender activity.
-- Acquisition - New York - Investment Firm Acquires SoHo Mixed-Use for $43M -> cushman: Financing Relationship, New York, score 70. Monitor lender activity.
 - Acquisition - Sun Belt - El-Ad Pays $45.5M for Coconut Grove Property -> berkadia: Financing Relationship, Sun Belt, score 70. Monitor lender activity.
+- Disposition / Exit - New York - Well-Located Bergen County Multifamily Trades for $29M -> cushman: Financing Relationship, New York, score 68. Monitor lender activity.
 - Disposition / Exit - Sun Belt - Eaton Vance Picks Charlotte Rental Community for $65.8M -> jll: Financing Relationship, Sun Belt, score 68. Monitor lender activity.
 - General Project Signal - Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan -> berkadia: Financing Relationship, Florida, score 65. Monitor lender activity.
 - General Project Signal - California - Anaheim Industrial Outdoor Storage Site Secures Bridge Loan -> jll: Financing Relationship, California, score 63. Monitor lender activity.
+- Acquisition - Arizona - Trumark Real Estate Management Buys Multi-Tenant Industrial Building in Peoria, Arizona fo... -> cbre: Financing Relationship, Arizona, score 57. Monitor lender activity.
 
 ## Capital Partner / Institutional Flow Map
 
-- AvalonBay -> equity residential: Capital Flow, New York, score 95. Track GP relationship history.
-- Brookfield -> brookfield: Acquisition / Buyer, National, score 92. Track GP relationship history.
-- Blackstone -> blackstone: JV / Partnership, New York, score 87. Review potential JV relevance.
-- AvalonBay -> equity residential: Capital Flow, National, score 82. Track GP relationship history.
-- Blackstone -> blackstone: Capital Flow, Sun Belt, score 79. Track GP relationship history.
+- Blackstone -> blackstone: JV / Partnership, New York, score 88. Review potential JV relevance.
+- AvalonBay -> equity residential: Capital Flow, National, score 80. Track GP relationship history.
+- Blackstone -> blackstone: Capital Flow, Sun Belt, score 80. Track GP relationship history.
+- Blackstone -> blackstone: Disposition / Seller, National, score 76. Track GP relationship history.
+- General Project Signal - Southeast - Related Breaks Ground on $200M Multifamily Project Along St. Johns River in Jacksonville -> related: Capital Flow, Southeast, score 57. Monitor only.
 - JV / Partnership - National - Ares, Scion Launch JV With $910M Deal For Student Housing Portfolio -> ares: JV / Partnership, National, score 55. Review potential JV relevance.
-- Disposition / Exit - National - Scion and Ares Acquire $910M Multifamily Student Housing Portfolio from Harrison Street As... -> ares: Disposition / Seller, National, score 47. Monitor only.
+- JV / Partnership - Other / Unknown - Scion Group, Ares Management Corp. partner for $910M student housing buy -> ares: JV / Partnership, Other / Unknown, score 55. Review potential JV relevance.
+- Acquisition - Sun Belt - JLL Negotiates Sale of 357,570 SF Distribution Center in Northwest Houston -> ares: Acquisition / Buyer, Sun Belt, score 49. Monitor only.
+- Disposition / Exit - Other / Unknown - Newly Constructed 60-Unit Property Across from UChicago Hits the Market -> essex: Disposition / Seller, Other / Unknown, score 43. Monitor only.
 
 ## Market Relationship Map
 
-- Brookfield -> National: Acquisition / Buyer, National, score 84. Track GP relationship history.
-- AvalonBay -> Manhattan: Market Expansion, New York, score 81. Track GP relationship history.
-- AvalonBay -> New York: Market Expansion, New York, score 81. Track GP relationship history.
-- Blackstone -> New York: JV / Partnership, New York, score 79. Review potential JV relevance.
+- Blackstone -> New York: JV / Partnership, New York, score 80. Review potential JV relevance.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily -> California: Financing Relationship, California, score 73. Track LA / California activity.
-- Wood Partners -> Atlanta: Disposition / Seller, Sun Belt, score 72. Track GP relationship history.
-- Wood Partners -> Sun Belt: Disposition / Seller, Sun Belt, score 72. Track GP relationship history.
-- Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four... -> California: Acquisition / Buyer, California, score 71. Track LA / California activity.
-- Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four... -> Sacramento: Acquisition / Buyer, California, score 71. Track LA / California activity.
+- Wood Partners -> Atlanta: Disposition / Seller, Sun Belt, score 71. Track GP relationship history.
+- Wood Partners -> Sun Belt: Disposition / Seller, Sun Belt, score 71. Track GP relationship history.
+- Acquisition - California - Pacific Urban Investors Secures San Diego Multifamily Asset for $90M -> California: Acquisition / Buyer, California, score 70. Track LA / California activity.
+- Acquisition - California - Pacific Urban Investors Secures San Diego Multifamily Asset for $90M -> San Diego: Acquisition / Buyer, California, score 70. Track LA / California activity.
 - Entitlement / Permitting - Los Angeles - Habitat development opens for residents next to La Cienega/Jefferson Station -> Los Angeles: Entitlement / Permitting, Los Angeles, score 70. Track LA / California activity.
+- Refinancing - California - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments -> California: Financing Relationship, California, score 70. Track LA / California activity.
+- Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition -> California: Acquisition / Buyer, California, score 68. Track LA / California activity.
+- Blackstone -> National: Disposition / Seller, National, score 68. Track GP relationship history.
 
 ## California / LA Relationship Signals
 
-- Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four... -> cbre: Financing Relationship, California, score 81. Monitor lender activity.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily -> jll: Financing Relationship, California, score 81. Monitor lender activity.
 - Disposition / Exit - California - Northmarq: Multifamily Sale Serves as Benchmark for Fresno Market -> northmarq: Financing Relationship, California, score 80. Monitor lender activity.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily -> California: Financing Relationship, California, score 73. Track LA / California activity.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project -> jll: Financing Relationship, California, score 73. Monitor lender activity.
-- Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four... -> California: Acquisition / Buyer, California, score 71. Track LA / California activity.
-- Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four... -> Sacramento: Acquisition / Buyer, California, score 71. Track LA / California activity.
+- Acquisition - California - Pacific Urban Investors Secures San Diego Multifamily Asset for $90M -> California: Acquisition / Buyer, California, score 70. Track LA / California activity.
+- Acquisition - California - Pacific Urban Investors Secures San Diego Multifamily Asset for $90M -> San Diego: Acquisition / Buyer, California, score 70. Track LA / California activity.
 - Entitlement / Permitting - Los Angeles - Habitat development opens for residents next to La Cienega/Jefferson Station -> Los Angeles: Entitlement / Permitting, Los Angeles, score 70. Track LA / California activity.
+- Refinancing - California - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments -> California: Financing Relationship, California, score 70. Track LA / California activity.
 - Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition -> California: Acquisition / Buyer, California, score 68. Track LA / California activity.
 - Entitlement / Permitting - California - Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown -> California: Entitlement / Permitting, California, score 66. Track LA / California activity.
 
 ## Potential Woomi Partnership Signals
 
-- Blackstone -> blackstone: JV / Partnership, New York, score 87. Review potential JV relevance.
-- Blackstone -> JV / Partnership - New York - Blackstone Announces Joint Venture with Google to Create New TPU Cloud: JV / Partnership, New York, score 79. Review potential JV relevance.
-- Blackstone -> New York: JV / Partnership, New York, score 79. Review potential JV relevance.
+- Blackstone -> blackstone: JV / Partnership, New York, score 88. Review potential JV relevance.
+- Blackstone -> JV / Partnership - New York - Blackstone Announces Joint Venture with Google to Create New TPU Cloud: JV / Partnership, New York, score 80. Review potential JV relevance.
+- Blackstone -> New York: JV / Partnership, New York, score 80. Review potential JV relevance.
+- JV / Partnership - Sun Belt - Bridge Investment Group Lends $40M on Tampa Apartments Buy -> Sun Belt: JV / Partnership, Sun Belt, score 60. Review potential JV relevance.
+- JV / Partnership - Sun Belt - Bridge Investment Group Lends $40M on Tampa Apartments Buy -> Tampa: JV / Partnership, Sun Belt, score 60. Review potential JV relevance.
 - JV / Partnership - National - Ares, Scion Launch JV With $910M Deal For Student Housing Portfolio -> ares: JV / Partnership, National, score 55. Review potential JV relevance.
+- JV / Partnership - Other / Unknown - Scion Group, Ares Management Corp. partner for $910M student housing buy -> ares: JV / Partnership, Other / Unknown, score 55. Review potential JV relevance.
 - JV / Partnership - National - Ares, Scion Launch JV With $910M Deal For Student Housing Portfolio -> National: JV / Partnership, National, score 47. Review potential JV relevance.
 
 ## Canonical Relationship Map
 
 | Source | Target | Relationship | Confidence |
 | --- | --- | --- | ---: |
-| AvalonBay | equity residential | Capital Flow | 40 |
-| Brookfield | Brookfield | Acquisition / Buyer | 75 |
 | Wood Partners | northmarq | Financing Relationship | 40 |
 | Blackstone | Blackstone | JV / Partnership | 75 |
-| Brookfield | Los Angeles | Acquisition / Buyer | 60 |
-| Brookfield | National | Acquisition / Buyer | 40 |
-| AvalonBay | Los Angeles | Pricing / Valuation Signal | 40 |
+| JLL | JLL | Financing Relationship | 60 |
 | AvalonBay | equity residential | Capital Flow | 40 |
-| California | CBRE | Financing Relationship | 60 |
-| AvalonBay | New York | Market Expansion | 40 |
+| Blackstone | Blackstone | JV / Partnership | 60 |
+| Blackstone | New York | JV / Partnership | 100 |
+| Blackstone | Blackstone | Capital Flow | 75 |
+| California | northmarq | Financing Relationship | 40 |
+| Blackstone | Blackstone | Disposition / Seller | 75 |
+| JLL | California | Financing Relationship | 60 |
 
 ## Multi-Source Confirmation Summary
 
@@ -115,11 +120,10 @@ Relationship repeat strength uses unique canonical deal/event counts instead of 
 ## Emerging GP Watchlist Reference
 
 Ranked GP watchlist signals are available in `gp_watchlist_report.md`.
-- Wood Partners: 74 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- Brookfield: 70 (Tier 2 High Potential GP), Capital market and pricing discovery reference.
-- AvalonBay: 66 (Tier 3 Monitoring GP), LA / California developer strategy watch.
-- Blackstone: 59 (Tier 3 Monitoring GP), Potential GP partnership candidate.
-- Hanover Company: 34 (Low Signal), LA / California developer strategy watch.
+- Wood Partners: 64 (Tier 3 Monitoring GP), Potential GP partnership candidate.
+- AvalonBay: 63 (Tier 3 Monitoring GP), LA / California developer strategy watch.
+- Blackstone: 60 (Tier 3 Monitoring GP), Potential GP partnership candidate.
+- Equity Residential: 30 (Low Signal), General developer monitoring.
 
 ## GP Source Expansion Summary
 
@@ -139,23 +143,23 @@ Longitudinal memory is available in `historical_memory_report.md`.
 
 ## Recommended Executive Follow-Up
 
-- Track GP relationship history: AvalonBay -> equity residential (Capital Flow).
-- Track GP relationship history: Brookfield -> brookfield (Acquisition / Buyer).
 - Track GP relationship history: Wood Partners -> northmarq (Financing Relationship).
 - Review potential JV relevance: Blackstone -> blackstone (JV / Partnership).
-- Track GP relationship history: Brookfield -> Acquisition - National - Arbor Realty Trust Lends $125M on Chicago Apartments Acquisition (Acquisition / Buyer).
-- Track GP relationship history: Brookfield -> National (Acquisition / Buyer).
-- Track GP relationship history: AvalonBay -> General Project Signal - New York - Apartment REITs Equity Residential and AvalonBay Communities Inc Announced Merger for $52B... (Pricing / Valuation Signal).
+- Monitor lender activity: Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily -> jll (Financing Relationship).
 - Track GP relationship history: AvalonBay -> equity residential (Capital Flow).
+- Review potential JV relevance: Blackstone -> JV / Partnership - New York - Blackstone Announces Joint Venture with Google to Create New TPU Cloud (JV / Partnership).
+- Review potential JV relevance: Blackstone -> New York (JV / Partnership).
+- Track GP relationship history: Blackstone -> blackstone (Capital Flow).
+- Monitor lender activity: Disposition / Exit - California - Northmarq: Multifamily Sale Serves as Benchmark for Fresno Market -> northmarq (Financing Relationship).
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 689
-- Canonical projects: 146
-- Duplicate project clusters: 94
-- Persistent assets tracked: 146
-- LA persistent asset watch items: 88
+- Raw project references: 759
+- Canonical projects: 164
+- Duplicate project clusters: 89
+- Persistent assets tracked: 164
+- LA persistent asset watch items: 98
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

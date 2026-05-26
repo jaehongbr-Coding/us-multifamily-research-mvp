@@ -1,17 +1,16 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-05-26 08:10:42
+Generated: 2026-05-26 23:02:15
 
-- Total LA lifecycle watch items: 50
+- Total LA lifecycle watch items: 51
 
 ## LA Lifecycle Stage Distribution
 
-- Unknown Stage: 29
+- Unknown Stage: 28
 - Site Acquisition / Site Control: 10
-- Refinancing / Recapitalization: 6
-- Early Site Signal: 3
+- Refinancing / Recapitalization: 8
+- Early Site Signal: 4
 - Distressed / Stalled: 1
-- Vertical Construction: 1
 
 ## Koreatown / Wilshire Lifecycle Watch
 
@@ -48,28 +47,28 @@ Generated: 2026-05-26 08:10:42
 
 ## Construction-Ready LA Project Watch
 
-- Rexford Launches Construction on Single-Tenant Kearny Mesa Industrial: Vertical Construction, Monitor only, opportunity 65.
+- None detected.
 
 ## Recommended LA Lifecycle Follow-up Actions
 
-- Monitor lifecycle status for repeated confirmation: Construction Financing - Other / Unknown - Eastern Bank Leads Financing for Wood Partners’ First Rhode Island Project.
-- Monitor lifecycle status for repeated confirmation: General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History.
 - Monitor lifecycle status for repeated confirmation: Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M.
+- Monitor lifecycle status for repeated confirmation: General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History.
 - Monitor lifecycle status for repeated confirmation: JV / Partnership - New York - Blackstone Announces Joint Venture with Google to Create New TPU Cloud.
 - Monitor lifecycle status for repeated confirmation: Operational / Property Management Tech - Sun Belt - VoltaGrid Announces $1 Billion Strategic Equity Investment from Blackstone and Halliburton....
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - California - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments.
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments.
-- Monitor lifecycle status for repeated confirmation: General Project Signal - California - Affordable Housing Pivot For 11880 Skyline Boulevard, Oakland Hills.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - New York - Black Bear Capital Arranges $39M Loan for Refinancing of Long Island Apartment Complex.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 88
-- Newly detected projects: 3
+- Lifecycle transitions analyzed: 99
+- Newly detected projects: 41
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 48
+- LA lifecycle transition watch items: 49
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -77,10 +76,10 @@ Generated: 2026-05-26 08:10:42
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 689
-- Canonical projects: 146
-- Duplicate project clusters: 94
-- Persistent assets tracked: 146
-- LA persistent asset watch items: 88
+- Raw project references: 759
+- Canonical projects: 164
+- Duplicate project clusters: 89
+- Persistent assets tracked: 164
+- LA persistent asset watch items: 98
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

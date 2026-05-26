@@ -1,21 +1,21 @@
 # LA Persistent Asset Watch Report
 
-Generated: 2026-05-26 08:10:42
+Generated: 2026-05-26 23:02:15
 
-- Total LA persistent asset watch items: 88
+- Total LA persistent asset watch items: 98
 
 ## Priority LA Asset Watch Items
 
-- Construction Financing - Other / Unknown - Eastern Bank Leads Financing for Wood Partners’ First Rhode Island Project: Los Angeles, Unknown Stage, Track repeat project updates.
 - General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History: Los Angeles, Unknown Stage, Track repeat project updates.
 - Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M: Los Angeles, Unknown Stage, Track repeat project updates.
-- Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four...: California, Refinancing / Recapitalization, Track repeat project updates.
-- Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
-- Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four...: California, Unknown Stage, Track repeat project updates.
+- Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition: California, Refinancing / Recapitalization, Track repeat project updates.
+- Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Los Angeles, Early Site Signal, Track repeat project updates.
+- Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
 - JV / Partnership - New York - Blackstone Announces Joint Venture with Google to Create New TPU Cloud: Los Angeles, Unknown Stage, Track repeat project updates.
-- Acquisition - Sun Belt - Dominium Acquires Affordable Seniors Housing Community in Duluth, Georgia, Plans $9.9M Ren...: Los Angeles, Early Site Signal, Track repeat project updates.
+- Refinancing - New York - Black Bear Capital Arranges $39M Loan for Refinancing of Long Island Apartment Complex: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
+- Acquisition - California - Pacific Urban Investors Secures San Diego Multifamily Asset for $90M: California, Unknown Stage, Track repeat project updates.
 - Operational / Property Management Tech - Sun Belt - VoltaGrid Announces $1 Billion Strategic Equity Investment from Blackstone and Halliburton...: Los Angeles, Unknown Stage, Track repeat project updates.
-- Modular / Construction Innovation - California - Modular Apartment Construction Gains Momentum In Bay Area: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
+- General Project Signal - Southeast - Related Breaks Ground on $200M Multifamily Project Along St. Johns River in Jacksonville: Los Angeles, Unknown Stage, Track repeat project updates.
 
 ## Koreatown / Wilshire Persistent Assets
 
@@ -42,9 +42,9 @@ Generated: 2026-05-26 08:10:42
 
 ## Stalled / Delayed LA Asset Watch
 
-- Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four...: California, Refinancing / Recapitalization, Track repeat project updates.
+- Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition: California, Refinancing / Recapitalization, Track repeat project updates.
 - Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Los Angeles, Unknown Stage, Track repeat project updates.
-- Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
+- Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Los Angeles, Early Site Signal, Track repeat project updates.
 
 ## Construction / Delivery Transition Watch
 
@@ -52,11 +52,11 @@ Generated: 2026-05-26 08:10:42
 
 ## Recommended Local Follow-up Actions
 
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Other / Unknown - Eastern Bank Leads Financing for Wood Partners’ First Rhode Island Project.
 - Monitor for repeated project updates: Entitlement / Permitting - California - Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown.
+- Monitor for repeated project updates: Entitlement / Permitting - Los Angeles - 17 apartments planned at 2217 S. Fox Hills Dr. in Century City.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four....
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition.
 - Monitor for repeated project updates: Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd..
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd..
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four....
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments.

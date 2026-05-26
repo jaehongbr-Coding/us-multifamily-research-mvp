@@ -1,6 +1,6 @@
 # Site / Parcel Source Coverage Report
 
-Generated: 2026-05-26 08:10:38
+Generated: 2026-05-26 23:02:11
 
 - Total added sources attempted: 25
 - Successful sources: 8

@@ -1,41 +1,37 @@
 # Institutional Relationship & Capital Flow Report
 
-Generated: 2026-05-26 08:10:39
+Generated: 2026-05-26 23:02:11
 
 ## Top Institutional Relationship Signals
 
-- Brookfield: score 100, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- Wood Partners: score 98, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Blackstone: score 93, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- AvalonBay: score 92, No Clear Capital Flow Signal, No Clear Relationship Signal. Review California / LA capital and developer activity.
-- Equity Residential: score 84, No Clear Capital Flow Signal, No Clear Relationship Signal. Monitor only.
-- Hanover Company: score 43, No Clear Capital Flow Signal, No Clear Relationship Signal. Monitor only.
+- Blackstone: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Wood Partners: score 91, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- AvalonBay: score 81, No Clear Capital Flow Signal, No Clear Relationship Signal. Review California / LA capital and developer activity.
+- Equity Residential: score 73, No Clear Capital Flow Signal, No Clear Relationship Signal. Monitor only.
 
 ## Tier 1 Firm Watch
 
-- Brookfield: score 100, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- Blackstone: score 93, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- AvalonBay: score 92, No Clear Capital Flow Signal, No Clear Relationship Signal. Review California / LA capital and developer activity.
-- Equity Residential: score 84, No Clear Capital Flow Signal, No Clear Relationship Signal. Monitor only.
+- Blackstone: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- AvalonBay: score 81, No Clear Capital Flow Signal, No Clear Relationship Signal. Review California / LA capital and developer activity.
+- Equity Residential: score 73, No Clear Capital Flow Signal, No Clear Relationship Signal. Monitor only.
 
 ## California / LA Capital and Developer Watch
 
-- AvalonBay: score 92, No Clear Capital Flow Signal, No Clear Relationship Signal. Review California / LA capital and developer activity.
+- AvalonBay: score 81, No Clear Capital Flow Signal, No Clear Relationship Signal. Review California / LA capital and developer activity.
 
 ## Capital Inflow / Outflow Signals
 
-- Brookfield: score 100, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- Wood Partners: score 98, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Blackstone: score 93, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Blackstone: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Wood Partners: score 91, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 
 ## JV / Partnership Signals
 
-- Wood Partners: score 98, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Blackstone: score 93, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Blackstone: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Wood Partners: score 91, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 
 ## Competitive Benchmark Signals
 
-- Brookfield: score 100, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- No current signal detected.
 
 ## Pricing Discovery Signals
 
@@ -45,39 +41,36 @@ Generated: 2026-05-26 08:10:39
 
 | Firm | Market | Source Category | Activity Type | Capital Flow | Relationship Signal | Woomi Implication |
 | --- | --- | --- | --- | --- | --- | --- |
-| Brookfield | National | Core Multifamily News | acquisition; refinancing; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
-| Wood Partners | Other / Unknown; Sun Belt | Core Multifamily News; Site / Parcel Source Expansion | disposition / exit; refinancing; JV / partnership; operational technology / AI adoption | Capital Outflow / Exit | Potential JV / Partnership Signal | potential JV partnership signal |
-| Blackstone | New York; Sun Belt | Developer / GP Newsrooms | acquisition; refinancing; JV / partnership; capital raise; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
-| AvalonBay | National; New York | Core Multifamily News | market expansion | No Clear Capital Flow Signal | No Clear Relationship Signal | benchmark underwriting assumptions |
-| Equity Residential | National; New York | Core Multifamily News | market expansion | No Clear Capital Flow Signal | No Clear Relationship Signal | benchmark underwriting assumptions |
-| Hanover Company | Other / Unknown | Regional / California / LA Sources | market expansion | No Clear Capital Flow Signal | No Clear Relationship Signal | benchmark underwriting assumptions |
+| Blackstone | National; New York; Sun Belt | Core Multifamily News; Developer / GP Newsrooms | acquisition; disposition / exit; refinancing; JV / partnership; capital raise; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
+| Wood Partners | Sun Belt | Site / Parcel Source Expansion | disposition / exit; JV / partnership; operational technology / AI adoption | Capital Outflow / Exit | Potential JV / Partnership Signal | potential JV partnership signal |
+| AvalonBay | National | Core Multifamily News | market expansion | No Clear Capital Flow Signal | No Clear Relationship Signal | benchmark underwriting assumptions |
+| Equity Residential | National | Core Multifamily News | market expansion | No Clear Capital Flow Signal | No Clear Relationship Signal | benchmark underwriting assumptions |
 
 ## Deal / Project Intelligence
 
 Deal and project-level extraction is available in `deal_pipeline_report.md`.
-- General Project Signal in New York: equity residential / equity residential / Unknown.
-- Acquisition in California: Unknown / Unknown / cbre.
 - Construction Financing in California: Unknown / Unknown / jll.
 - Disposition / Exit in Sun Belt: Unknown / Unknown / northmarq.
 - Disposition / Exit in California: Unknown / Unknown / northmarq.
+- Acquisition in Sun Belt: Unknown / Unknown / berkadia.
+- JV / Partnership in New York: blackstone / blackstone / Unknown.
 
 ## Relationship Graph Intelligence
 
 Capital partner, lender, GP, and market edges are available in `relationship_graph_report.md`.
-- AvalonBay -> equity residential: Capital Flow.
-- Brookfield -> brookfield: Acquisition / Buyer.
 - Wood Partners -> northmarq: Financing Relationship.
 - Blackstone -> blackstone: JV / Partnership.
+- Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily -> jll: Financing Relationship.
 - AvalonBay -> equity residential: Capital Flow.
+- Blackstone -> blackstone: Capital Flow.
 
 ## High-Scoring GP Watchlist Reference
 
 Emerging GP watchlist rankings are available in `gp_watchlist_report.md`.
-- Wood Partners: 74 (Tier 2 High Potential GP), Strong partnership signal.
-- Brookfield: 70 (Tier 2 High Potential GP), Moderate partnership signal.
-- AvalonBay: 66 (Tier 3 Monitoring GP), Moderate partnership signal.
-- Blackstone: 59 (Tier 3 Monitoring GP), Strong partnership signal.
-- Hanover Company: 34 (Low Signal), No clear partnership signal.
+- Wood Partners: 64 (Tier 3 Monitoring GP), Strong partnership signal.
+- AvalonBay: 63 (Tier 3 Monitoring GP), Moderate partnership signal.
+- Blackstone: 60 (Tier 3 Monitoring GP), Strong partnership signal.
+- Equity Residential: 30 (Low Signal), No clear partnership signal.
 
 ## GP Source Expansion Summary
 
@@ -112,21 +105,19 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Recommended Executive Follow-Up
 
-- Brookfield: Track capital deployment and pricing signals
-- Wood Partners: Map potential GP / JV relationship and monitor partnership activity
 - Blackstone: Map potential GP / JV relationship and monitor partnership activity
+- Wood Partners: Map potential GP / JV relationship and monitor partnership activity
 - AvalonBay: Review California / LA capital and developer activity
 - Equity Residential: Monitor only
-- Hanover Company: Monitor only
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 146
+- Signals evaluated: 164
 - Institutional-grade signals: 13
-- High-confidence signals: 30
-- Weak/noisy signals: 103
-- High-confidence watchlist items: 30
+- High-confidence signals: 27
+- Weak/noisy signals: 125
+- High-confidence watchlist items: 27
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

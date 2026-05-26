@@ -1,6 +1,6 @@
 # Source Health Report
 
-Generated: 2026-05-26 08:10:38
+Generated: 2026-05-26 23:02:11
 
 - Total sources attempted: 163
 - Working sources: 24
@@ -11,26 +11,26 @@ Generated: 2026-05-26 08:10:38
 ## High-Value Sources
 
 - Multifamily Executive (Core Multifamily News): 3 saved article(s).
-- Yield PRO (Core Multifamily News): 9 saved article(s).
-- Bisnow (Core Multifamily News): 6 saved article(s).
-- Commercial Observer (Core Multifamily News): 3 saved article(s).
-- Connect CRE (Core Multifamily News): 3 saved article(s).
-- NAHB Eye on Housing - Multifamily (Public Agency / Housing Data): 13 saved article(s).
+- Yield PRO (Core Multifamily News): 8 saved article(s).
+- Bisnow (Core Multifamily News): 5 saved article(s).
+- Connect CRE (Core Multifamily News): 5 saved article(s).
+- NAHB Eye on Housing - Multifamily (Public Agency / Housing Data): 14 saved article(s).
 - Blackstone Real Estate (Developer / GP Newsrooms): 3 saved article(s).
-- Urbanize LA (Regional / California / LA Sources): 7 saved article(s).
+- Urbanize LA (Regional / California / LA Sources): 9 saved article(s).
 - SF YIMBY (Regional / California / LA Sources): 4 saved article(s).
-- REBusiness Online (Site / Parcel Source Expansion): 5 saved article(s).
-- Connect CRE Apartments (Site / Parcel Source Expansion): 4 saved article(s).
+- REBusiness Online (Site / Parcel Source Expansion): 9 saved article(s).
+- Connect CRE Apartments (Site / Parcel Source Expansion): 7 saved article(s).
 - Connect CRE South Florida (Site / Parcel Source Expansion): 5 saved article(s).
 - Connect CRE Phoenix (Site / Parcel Source Expansion): 3 saved article(s).
 - Connect CRE Charlotte (Site / Parcel Source Expansion): 3 saved article(s).
 - Connect CRE Orange County (Site / Parcel Source Expansion): 3 saved article(s).
 - Blackstone Real Estate Source Expansion (Developer / GP Source Expansion): 3 saved article(s).
-- Connect CRE California (Regional / California / LA Sources): 6 saved article(s).
+- Connect CRE California (Regional / California / LA Sources): 4 saved article(s).
 
 ## Useful Sources
 
 - Multifamily Dive (Core Multifamily News): 2 saved article(s).
+- Commercial Observer (Core Multifamily News): 1 saved article(s).
 - Connect CRE Atlanta (Site / Parcel Source Expansion): 2 saved article(s).
 
 ## Failing Sources

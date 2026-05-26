@@ -11301,6 +11301,189 @@ def page_executive_briefing(shared, filters):
         render_market_regime_summary(shared, filters)
 
 
+def build_regime_interpretation_from_outputs(shared):
+    """Create an executive market-regime sentence from generated signal fields."""
+    key_signals = latest_summary_value(shared, "key_market_signals")
+    daily_market = latest_summary_value(shared, "daily_mentioned_market", "the current article set")
+    output_hero = get_output_hero_market_view(shared)
+    signal_blob = key_signals.lower()
+    themes = []
+
+    if any(term in signal_blob for term in ["financing", "refinancing", "debt", "recap"]):
+        themes.append("차환 및 recap 수요가 지속 관찰되며 debt 부담이 완전히 해소되지 않은 흐름")
+    if any(term in signal_blob for term in ["기관", "capital", "jv", "partnership", "institutional"]):
+        themes.append("기관 자본이 전면적인 risk-on보다 선별적 집행에 가까운 흐름")
+    if any(term in signal_blob for term in ["개발", "인허가", "entitlement", "approval", "permit"]):
+        themes.append("개발 및 인허가 관련 공개 visibility가 유지되는 흐름")
+    if any(term in signal_blob for term in ["공급", "lease-up", "absorption", "demand", "concession"]):
+        themes.append("공급 소화와 lease-up 내구성을 추가 확인해야 하는 흐름")
+
+    if themes:
+        primary = themes[0]
+        secondary = f" 동시에 {themes[1]}" if len(themes) > 1 else ""
+        return (
+            f"현재 시장은 {primary}{secondary}으로 해석됩니다. "
+            f"{daily_market}은 이번 run에서 기사 visibility가 가장 높게 관찰된 시장입니다."
+        )
+
+    return output_hero
+
+
+def render_hero_market_view(shared):
+    """Render an executive-facing regime view from generated output files."""
+    hero = build_regime_interpretation_from_outputs(shared)
+    why_lines = get_output_why_it_matters(shared)
+    confidence = latest_summary_value(shared, "daily_briefing_confidence", "watch only")
+    daily_market = latest_summary_value(shared, "daily_mentioned_market", "insufficient data")
+    support = why_lines[0] if why_lines else "dashboard_summary.csv와 daily_strategy_briefing.md의 최신 output을 기반으로 구성한 시장 국면 해석입니다."
+    st.markdown(
+        f"""
+        <div class="desk-hero">
+            <div class="section-kicker">Hero Market View</div>
+            <div class="desk-hero-title">{escape(hero)}</div>
+            <div class="desk-hero-sub">{escape(support)}</div>
+            <div class="small-divider"></div>
+            <div class="pilot-muted">
+                Daily Mentioned Market: {escape(daily_market)} · Briefing confidence: {escape(confidence)}
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+def compute_homepage_hot_market(shared, filters=None):
+    """Use Daily Mentioned Market as a visibility metric; keep weekly momentum internal."""
+    daily_market = latest_summary_value(shared, "daily_mentioned_market")
+    reason = latest_summary_value(shared, "weekly_momentum_reason")
+    confidence = latest_summary_value(shared, "daily_briefing_confidence", "watch only")
+    if daily_market:
+        signals = split_pipe_values(reason.replace(",", "|")) if reason else []
+        if not signals:
+            signals = split_pipe_values(latest_summary_value(shared, "key_market_signals"))
+        return {
+            "daily_market": daily_market,
+            "signals": signals[:4] or ["insufficient data"],
+            "support": "Based on current article visibility and source activity.",
+            "confidence": confidence,
+        }
+    return {
+        "daily_market": "시장 집중도 분산",
+        "signals": ["insufficient data"],
+        "support": "Based on current article visibility and source activity.",
+        "confidence": "watch only",
+    }
+
+
+def render_homepage_hot_market_card(shared, filters=None):
+    """Render a cleaner Hot Market card without exposing weekly momentum."""
+    render_section_header("TODAY'S HOT MARKET", "Current article visibility, not a standalone investment conclusion.")
+    hot = compute_homepage_hot_market(shared, filters)
+    st.markdown(
+        f"""
+        <div class="hot-market-card">
+            <div class="section-kicker">Daily Mentioned Market</div>
+            <div class="hot-market-name">{escape(hot['daily_market'])}</div>
+            <div class="small-divider"></div>
+            <div class="pilot-muted">{escape(' / '.join(hot['signals'][:4]))}</div>
+            <div class="pilot-muted">Briefing confidence: {escape(hot.get('confidence', 'watch only'))}</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+    st.caption(hot["support"])
+    close_section()
+
+
+def render_homepage_key_market_signals(shared, filters=None):
+    """Render generated key signals only; keep generated notes out of the main flow."""
+    render_section_header("KEY MARKET SIGNALS", "Top generated signals for today's executive scan.")
+    signals = split_pipe_values(latest_summary_value(shared, "key_market_signals"))
+    markdown_signals = extract_markdown_section(shared.get("daily_strategy_briefing", ""), "Key Market Signals")
+    if signals:
+        for index, signal in enumerate(signals[:3], start=1):
+            st.markdown(
+                f"""
+                <div class="pilot-card">
+                    <div class="section-kicker">Signal {index}</div>
+                    <div class="signal-title">{escape(signal)}</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+    elif markdown_signals:
+        st.markdown(markdown_signals)
+    else:
+        st.caption("New briefing signal output is not available yet.")
+    close_section()
+
+
+def select_representative_evidence(shared, limit=5):
+    """Pick diverse article evidence for executive review."""
+    articles = shared.get("articles", pd.DataFrame())
+    if articles is None or articles.empty:
+        return []
+
+    candidates = articles.copy()
+    if "relevance_score" in candidates.columns:
+        candidates["_evidence_score"] = pd.to_numeric(candidates["relevance_score"], errors="coerce").fillna(0)
+    else:
+        candidates["_evidence_score"] = 0
+    if "action_level" in candidates.columns:
+        candidates["_evidence_score"] += candidates["action_level"].astype(str).map({
+            "Must Read": 20,
+            "Review": 10,
+            "Monitor": 2,
+        }).fillna(0)
+
+    selected = []
+    used_sources = set()
+    used_markets = set()
+    used_sponsors = set()
+    used_titles = set()
+    used_urls = set()
+    used_narratives = set()
+
+    for _, row in candidates.sort_values("_evidence_score", ascending=False).iterrows():
+        item = row.to_dict()
+        title_key = re.sub(r"[^a-z0-9]+", " ", str(item.get("title", "")).lower()).strip()
+        url_key = str(item.get("url", "")).strip().lower()
+        narrative_key = re.sub(
+            r"[^a-z0-9]+",
+            " ",
+            str(item.get("market_signal", item.get("gpt_strategic_analysis", ""))).lower(),
+        ).strip()[:140]
+        source = str(item.get("source", "")).strip()
+        market = str(item.get("market_focus", item.get("market", ""))).strip()
+        sponsor = str(item.get("gp_or_developer", item.get("canonical_gp_name", ""))).strip()
+        if not title_key or title_key in used_titles or (url_key and url_key in used_urls):
+            continue
+        diversity_penalty = sum([
+            source in used_sources and bool(source),
+            market in used_markets and bool(market),
+            sponsor in used_sponsors and bool(sponsor),
+            narrative_key in used_narratives and bool(narrative_key),
+        ])
+        if diversity_penalty >= 2 and len(selected) < 3:
+            continue
+        selected.append(item)
+        used_titles.add(title_key)
+        if url_key:
+            used_urls.add(url_key)
+        if narrative_key:
+            used_narratives.add(narrative_key)
+        if source:
+            used_sources.add(source)
+        if market:
+            used_markets.add(market)
+        if sponsor:
+            used_sponsors.add(sponsor)
+        if len(selected) >= limit:
+            break
+
+    return selected
+
+
 def main():
     st.set_page_config(
         page_title="US Residential Intelligence",
@@ -12261,6 +12444,244 @@ def render_homepage_key_market_signals(shared, filters=None):
     close_section()
 
 
+def build_regime_interpretation_from_outputs(shared):
+    """Create an executive market-regime sentence from generated signal fields."""
+    key_signals = latest_summary_value(shared, "key_market_signals")
+    daily_market = latest_summary_value(shared, "daily_mentioned_market", "the current article set")
+    signal_blob = key_signals.lower()
+    themes = []
+
+    if any(term in signal_blob for term in ["financing", "refinancing", "debt", "recap"]):
+        themes.append("selective refinancing / debt-market pressure")
+    if any(term in signal_blob for term in ["기관 자본", "capital", "jv", "partnership"]):
+        themes.append("disciplined institutional capital deployment")
+    if any(term in signal_blob for term in ["개발", "인허가", "entitlement", "approval"]):
+        themes.append("development and entitlement visibility")
+    if any(term in signal_blob for term in ["공급", "lease-up", "absorption", "demand"]):
+        themes.append("supply / lease-up underwriting risk")
+
+    if not themes:
+        return get_output_hero_market_view(shared)
+
+    theme_text = themes[0] if len(themes) == 1 else f"{themes[0]} with {themes[1]}"
+    return (
+        f"The current market read is closer to a {theme_text} regime, "
+        f"with {daily_market} showing the highest article visibility in this run."
+    )
+
+
+def render_hero_market_view(shared):
+    """Render an executive-facing regime view from generated output files."""
+    hero = build_regime_interpretation_from_outputs(shared)
+    why_lines = get_output_why_it_matters(shared)
+    confidence = latest_summary_value(shared, "daily_briefing_confidence", "watch only")
+    daily_market = latest_summary_value(shared, "daily_mentioned_market", "insufficient data")
+    support = why_lines[0] if why_lines else "Generated from daily_strategy_briefing.md and dashboard_summary.csv."
+    st.markdown(
+        f"""
+        <div class="desk-hero">
+            <div class="section-kicker">Hero Market View</div>
+            <div class="desk-hero-title">{escape(hero)}</div>
+            <div class="desk-hero-sub">{escape(support)}</div>
+            <div class="small-divider"></div>
+            <div class="pilot-muted">
+                Daily Mentioned Market: {escape(daily_market)} ·
+                Confidence: {escape(confidence)}
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+def compute_homepage_hot_market(shared, filters=None):
+    """Use Daily Mentioned Market as a visibility metric; keep momentum internal."""
+    daily_market = latest_summary_value(shared, "daily_mentioned_market")
+    reason = latest_summary_value(shared, "weekly_momentum_reason")
+    confidence = latest_summary_value(shared, "daily_briefing_confidence", "watch only")
+    if daily_market:
+        signals = split_pipe_values(reason.replace(",", "|")) if reason else []
+        if not signals:
+            signals = split_pipe_values(latest_summary_value(shared, "key_market_signals"))
+        return {
+            "daily_market": daily_market,
+            "signals": signals[:4] or ["insufficient data"],
+            "support": "Based on current article visibility and source activity.",
+            "confidence": confidence,
+        }
+    return {
+        "daily_market": "시장 집중도 분산",
+        "signals": ["insufficient data"],
+        "support": "Based on current article visibility and source activity.",
+        "confidence": "watch only",
+    }
+
+
+def render_homepage_hot_market_card(shared, filters=None):
+    """Render a cleaner Hot Market card without exposing weekly momentum."""
+    render_section_header("TODAY'S HOT MARKET", "Current article visibility, not a standalone investment conclusion.")
+    hot = compute_homepage_hot_market(shared, filters)
+    st.markdown(
+        f"""
+        <div class="hot-market-card">
+            <div class="section-kicker">Daily Mentioned Market</div>
+            <div class="hot-market-name">{escape(hot['daily_market'])}</div>
+            <div class="small-divider"></div>
+            <div class="pilot-muted">{escape(' / '.join(hot['signals'][:4]))}</div>
+            <div class="pilot-muted">Confidence: {escape(hot.get('confidence', 'watch only'))}</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+    st.caption(hot["support"])
+    close_section()
+
+
+def render_homepage_key_market_signals(shared, filters=None):
+    """Render generated key signals only; move raw notes out of the main flow."""
+    render_section_header("KEY MARKET SIGNALS", "Top generated signals for today's executive scan.")
+    signals = split_pipe_values(latest_summary_value(shared, "key_market_signals"))
+    markdown_signals = extract_markdown_section(shared.get("daily_strategy_briefing", ""), "Key Market Signals")
+    if signals:
+        for index, signal in enumerate(signals[:3], start=1):
+            st.markdown(
+                f"""
+                <div class="pilot-card">
+                    <div class="section-kicker">Signal {index}</div>
+                    <div class="signal-title">{escape(signal)}</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+    elif markdown_signals:
+        st.markdown(markdown_signals)
+    else:
+        st.caption("New briefing signal output is not available yet.")
+    close_section()
+
+
+def select_representative_evidence(shared, limit=5):
+    """Pick diverse article evidence for executive review."""
+    articles = shared.get("articles", pd.DataFrame())
+    if articles is None or articles.empty:
+        return []
+
+    candidates = articles.copy()
+    if "relevance_score" in candidates.columns:
+        candidates["_evidence_score"] = pd.to_numeric(candidates["relevance_score"], errors="coerce").fillna(0)
+    else:
+        candidates["_evidence_score"] = 0
+    if "action_level" in candidates.columns:
+        candidates["_evidence_score"] += candidates["action_level"].astype(str).map({
+            "Must Read": 20,
+            "Review": 10,
+            "Monitor": 2,
+        }).fillna(0)
+
+    selected = []
+    used_sources = set()
+    used_markets = set()
+    used_sponsors = set()
+    used_titles = set()
+
+    for _, row in candidates.sort_values("_evidence_score", ascending=False).iterrows():
+        item = row.to_dict()
+        title_key = re.sub(r"[^a-z0-9]+", " ", str(item.get("title", "")).lower()).strip()
+        source = str(item.get("source", "")).strip()
+        market = str(item.get("market_focus", item.get("market", ""))).strip()
+        sponsor = str(item.get("gp_or_developer", item.get("canonical_gp_name", ""))).strip()
+        if not title_key or title_key in used_titles:
+            continue
+        diversity_penalty = sum([
+            source in used_sources and bool(source),
+            market in used_markets and bool(market),
+            sponsor in used_sponsors and bool(sponsor),
+        ])
+        if diversity_penalty >= 2 and len(selected) < 3:
+            continue
+        selected.append(item)
+        used_titles.add(title_key)
+        if source:
+            used_sources.add(source)
+        if market:
+            used_markets.add(market)
+        if sponsor:
+            used_sponsors.add(sponsor)
+        if len(selected) >= limit:
+            break
+
+    return selected
+
+
+def render_representative_evidence(shared):
+    """Show concise, diverse evidence without raw diagnostics."""
+    render_section_header("Representative Evidence", "Diverse source and market examples supporting today's briefing.")
+    evidence_rows = select_representative_evidence(shared, limit=5)
+    if not evidence_rows:
+        st.caption("No representative article evidence is available yet.")
+        close_section()
+        return
+
+    for row in evidence_rows:
+        title = safe_text(row.get("title"), "Untitled article")
+        source = safe_text(row.get("source"), "Unknown source")
+        market = safe_text(row.get("market_focus") or row.get("market"), "Unknown market")
+        signal = safe_text(row.get("market_signal"), "Market observation")
+        interpretation = safe_text(row.get("gpt_strategic_analysis") or row.get("strategic_implication"), "")
+        url = safe_text(row.get("url"), "")
+        with st.expander(f"{title} | {source} | {market}", expanded=False):
+            st.caption(f"{source} · {market} · {signal}")
+            if interpretation:
+                st.write(truncate_text(interpretation, 520))
+            if url.startswith("http"):
+                st.markdown(f"[원문 기사 보기]({url})")
+
+    close_section()
+
+
+def render_internal_signal_diagnostics(shared):
+    """Move raw reasoning and diagnostics behind analyst-only expanders."""
+    with st.expander("Internal Signal Diagnostics", expanded=False):
+        diagnostics = extract_markdown_section(shared.get("daily_strategy_briefing", ""), "Market Coverage Diagnostics")
+        if diagnostics:
+            st.markdown(diagnostics)
+        else:
+            st.caption("No Market Coverage Diagnostics section found in daily_strategy_briefing.md.")
+        summary = latest_summary(shared.get("summary", pd.DataFrame()))
+        if summary:
+            st.caption(
+                "Internal metrics: "
+                f"Weekly Momentum Market = {summary.get('weekly_momentum_market', 'n/a')}; "
+                f"Momentum reason = {summary.get('weekly_momentum_reason', 'n/a')}"
+            )
+
+
+def render_ai_strategic_interpretation_notes(shared):
+    """Keep generated briefing notes available but out of the main narrative."""
+    with st.expander("AI Strategic Interpretation Notes", expanded=False):
+        briefing_text = shared.get("daily_strategy_briefing", "")
+        if briefing_text:
+            st.markdown(briefing_text)
+        else:
+            missing_file_message(FILES["daily_strategy_briefing"])
+
+
+def page_executive_briefing(shared, filters):
+    st.title("오늘의 브리핑")
+    render_hero_market_view(shared)
+    render_homepage_hot_market_card(shared, filters)
+    render_homepage_key_market_signals(shared, filters)
+    render_homepage_development_watch(shared, filters)
+    render_homepage_capital_flow_watch(shared, filters)
+    render_representative_evidence(shared)
+    render_ai_strategic_interpretation_notes(shared)
+    render_internal_signal_diagnostics(shared)
+    with st.expander("상세 시장 해석", expanded=False):
+        render_woomi_market_checkpoints(shared, filters)
+        render_today_market_interpretation(shared, filters)
+        render_market_regime_summary(shared, filters)
+
+
 def main():
     st.set_page_config(
         page_title="US Residential Intelligence",
@@ -12308,6 +12729,180 @@ def main():
     pages[page_name](shared, filters)
     st.divider()
     st.caption("US Residential Intelligence | Institutional Morning Brief | Pilot v0.1")
+
+
+def build_regime_interpretation_from_outputs(shared):
+    """Final UI override: translate generated output into a market-regime sentence."""
+    key_signals = latest_summary_value(shared, "key_market_signals")
+    daily_market = latest_summary_value(shared, "daily_mentioned_market", "the current article set")
+    signal_blob = key_signals.lower()
+    themes = []
+
+    if any(term in signal_blob for term in ["financing", "refinancing", "debt", "recap"]):
+        themes.append("차환 및 recap 수요가 지속 관찰되며 debt 부담이 완전히 해소되지 않은 흐름")
+    if any(term in signal_blob for term in ["기관", "capital", "jv", "partnership", "institutional"]):
+        themes.append("기관 자본이 전면적인 risk-on보다 선별적 집행에 가까운 흐름")
+    if any(term in signal_blob for term in ["개발", "인허가", "entitlement", "approval", "permit"]):
+        themes.append("개발 및 인허가 관련 공개 visibility가 유지되는 흐름")
+    if any(term in signal_blob for term in ["공급", "lease-up", "absorption", "demand", "concession"]):
+        themes.append("공급 소화와 lease-up 내구성을 추가 확인해야 하는 흐름")
+
+    if themes:
+        secondary = f" 동시에 {themes[1]}" if len(themes) > 1 else ""
+        return (
+            f"현재 시장은 {themes[0]}{secondary}으로 해석됩니다. "
+            f"{daily_market}은 이번 run에서 기사 visibility가 가장 높게 관찰된 시장입니다."
+        )
+    return get_output_hero_market_view(shared)
+
+
+def render_hero_market_view(shared):
+    """Final UI override: keep hero dynamic but more briefing-like."""
+    hero = build_regime_interpretation_from_outputs(shared)
+    why_lines = get_output_why_it_matters(shared)
+    confidence = latest_summary_value(shared, "daily_briefing_confidence", "watch only")
+    daily_market = latest_summary_value(shared, "daily_mentioned_market", "insufficient data")
+    support = why_lines[0] if why_lines else "최신 output 파일을 기반으로 구성한 시장 국면 해석입니다."
+    st.markdown(
+        f"""
+        <div class="desk-hero">
+            <div class="section-kicker">Hero Market View</div>
+            <div class="desk-hero-title">{escape(hero)}</div>
+            <div class="desk-hero-sub">{escape(support)}</div>
+            <div class="small-divider"></div>
+            <div class="pilot-muted">
+                Daily Mentioned Market: {escape(daily_market)} · Briefing confidence: {escape(confidence)}
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+def compute_homepage_hot_market(shared, filters=None):
+    """Final UI override: show only Daily Mentioned Market in the active card."""
+    daily_market = latest_summary_value(shared, "daily_mentioned_market")
+    reason = latest_summary_value(shared, "weekly_momentum_reason")
+    confidence = latest_summary_value(shared, "daily_briefing_confidence", "watch only")
+    signals = split_pipe_values(reason.replace(",", "|")) if reason else []
+    if not signals:
+        signals = split_pipe_values(latest_summary_value(shared, "key_market_signals"))
+    return {
+        "daily_market": daily_market or "시장 집중도 분산",
+        "signals": signals[:4] or ["insufficient data"],
+        "support": "Based on current article visibility and source activity.",
+        "confidence": confidence,
+    }
+
+
+def render_homepage_hot_market_card(shared, filters=None):
+    """Final UI override: keep weekly momentum hidden from main UI."""
+    render_section_header("TODAY'S HOT MARKET", "Current article visibility, not a standalone investment conclusion.")
+    hot = compute_homepage_hot_market(shared, filters)
+    st.markdown(
+        f"""
+        <div class="hot-market-card">
+            <div class="section-kicker">Daily Mentioned Market</div>
+            <div class="hot-market-name">{escape(hot['daily_market'])}</div>
+            <div class="small-divider"></div>
+            <div class="pilot-muted">{escape(' / '.join(hot['signals'][:4]))}</div>
+            <div class="pilot-muted">Briefing confidence: {escape(hot.get('confidence', 'watch only'))}</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+    st.caption(hot["support"])
+    close_section()
+
+
+def render_homepage_key_market_signals(shared, filters=None):
+    """Final UI override: no raw generated briefing inside key signal flow."""
+    render_section_header("KEY MARKET SIGNALS", "Top generated signals for today's executive scan.")
+    signals = split_pipe_values(latest_summary_value(shared, "key_market_signals"))
+    markdown_signals = extract_markdown_section(shared.get("daily_strategy_briefing", ""), "Key Market Signals")
+    if signals:
+        for index, signal in enumerate(signals[:3], start=1):
+            st.markdown(
+                f"""
+                <div class="pilot-card">
+                    <div class="section-kicker">Signal {index}</div>
+                    <div class="signal-title">{escape(signal)}</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+    elif markdown_signals:
+        st.markdown(markdown_signals)
+    else:
+        st.caption("New briefing signal output is not available yet.")
+    close_section()
+
+
+def select_representative_evidence(shared, limit=5):
+    """Final UI override: prioritize diverse, non-repetitive evidence."""
+    articles = shared.get("articles", pd.DataFrame())
+    if articles is None or articles.empty:
+        return []
+
+    candidates = articles.copy()
+    candidates["_evidence_score"] = 0
+    if "relevance_score" in candidates.columns:
+        candidates["_evidence_score"] += pd.to_numeric(candidates["relevance_score"], errors="coerce").fillna(0)
+    if "action_level" in candidates.columns:
+        candidates["_evidence_score"] += candidates["action_level"].astype(str).map({
+            "Must Read": 20,
+            "Review": 10,
+            "Monitor": 2,
+        }).fillna(0)
+
+    selected = []
+    used_sources = set()
+    used_markets = set()
+    used_sponsors = set()
+    used_titles = set()
+    used_urls = set()
+    used_narratives = set()
+
+    for _, row in candidates.sort_values("_evidence_score", ascending=False).iterrows():
+        item = row.to_dict()
+        title_key = re.sub(r"[^a-z0-9]+", " ", str(item.get("title", "")).lower()).strip()
+        url_key = str(item.get("url", "")).strip().lower()
+        narrative_key = re.sub(
+            r"[^a-z0-9]+",
+            " ",
+            str(item.get("market_signal", item.get("gpt_strategic_analysis", ""))).lower(),
+        ).strip()[:140]
+        source = str(item.get("source", "")).strip()
+        market = str(item.get("market_focus", item.get("market", ""))).strip()
+        sponsor = str(item.get("gp_or_developer", item.get("canonical_gp_name", ""))).strip()
+
+        if not title_key or title_key in used_titles or (url_key and url_key in used_urls):
+            continue
+        diversity_penalty = sum([
+            source in used_sources and bool(source),
+            market in used_markets and bool(market),
+            sponsor in used_sponsors and bool(sponsor),
+            narrative_key in used_narratives and bool(narrative_key),
+        ])
+        if diversity_penalty >= 2 and len(selected) < 3:
+            continue
+
+        selected.append(item)
+        used_titles.add(title_key)
+        if url_key:
+            used_urls.add(url_key)
+        if narrative_key:
+            used_narratives.add(narrative_key)
+        if source:
+            used_sources.add(source)
+        if market:
+            used_markets.add(market)
+        if sponsor:
+            used_sponsors.add(sponsor)
+        if len(selected) >= limit:
+            break
+
+    return selected
 
 
 if __name__ == "__main__":

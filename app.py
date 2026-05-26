@@ -13225,5 +13225,142 @@ def main():
     st.caption("US Residential Intelligence | Institutional Morning Brief | Pilot v0.1")
 
 
+def display_cluster_title(title):
+    """User-facing Korean cluster titles for the Market Intelligence page."""
+    return {
+        "Refinancing pressure unresolved": "refinancing 부담 지속 관찰",
+        "Construction financing still selective": "construction financing 선별성 관찰",
+        "LA entitlement precedent accumulation": "LA 인허가 precedent 반복 관찰",
+        "Sun Belt lease-up pressure watch": "Sun Belt lease-up / absorption 관찰",
+        "JV / partnership activity observed": "JV / partnership 관찰",
+        "Institutional capital activity": "기관 자본 움직임 관찰",
+    }.get(str(title or ""), str(title or "반복 시장 관찰"))
+
+
+def soft_observation_label(count, confidence=""):
+    """Keep user-facing signal language conservative."""
+    try:
+        count_value = int(float(count))
+    except Exception:
+        count_value = 0
+    confidence_text = str(confidence or "").lower()
+    if count_value <= 1:
+        return "관찰 초기 단계"
+    if "source" in confidence_text or "low" in confidence_text:
+        return "추가 확인 필요"
+    if count_value < 4:
+        return "반복 관찰"
+    return "반복 관찰 확대"
+
+
+def render_market_flow_card(heading, cluster):
+    diagnostic = cluster.get("diagnostic", {}) if isinstance(cluster, dict) else {}
+    title = display_cluster_title(cluster.get("title")) if isinstance(cluster, dict) else "반복 시장 관찰"
+    count = cluster.get("frequency", 0) if isinstance(cluster, dict) else 0
+    signal = cluster.get("dominant_signal", "") if isinstance(cluster, dict) else ""
+    confidence = diagnostic.get("signal_confidence_label", "")
+    status = soft_observation_label(count, confidence)
+    evidence = cluster.get("evidence", []) if isinstance(cluster, dict) else []
+    interpretation = cluster.get("interpretation", "") if isinstance(cluster, dict) else ""
+    supporting_line = interpretation or (evidence[0] if evidence else "이번 run의 반복 관찰 흐름으로만 참고합니다.")
+    st.markdown(
+        f"""
+        <div class="pilot-card">
+            <div class="section-kicker">{escape(heading)}</div>
+            <div class="signal-title">{escape(title)}</div>
+            <div class="pilot-muted">{escape(status)} · {escape(str(count))}건 관찰</div>
+            <div class="small-divider"></div>
+            <div>{escape(truncate_text(supporting_line, 220))}</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+    if signal:
+        st.caption(f"주요 관찰어: {signal}")
+
+
+def render_current_market_flows(shared, filters=None):
+    """Render the simplified Regime Snapshot replacement."""
+    render_section_header(
+        "Current Market Flows",
+        "이번 run에서 반복 관찰된 시장 흐름을 자본시장, 개발흐름, 공급/임대시장, 기관행동 기준으로 압축합니다.",
+    )
+    clusters = market_signal_clusters(shared)
+    if not clusters:
+        st.caption("이번 run에서는 반복 관찰 흐름을 구성할 만큼 충분한 기사 cluster가 제한적입니다. 추가 확인이 필요합니다.")
+        close_section()
+        return
+
+    buckets = {}
+    for cluster in clusters:
+        label = ko_regime_label(cluster.get("regime"))
+        buckets.setdefault(label, []).append(cluster)
+
+    shown = False
+    for heading in ["자본시장", "개발 흐름", "공급 / 임대시장", "기관 행동 흐름"]:
+        items = buckets.get(heading, [])
+        if not items:
+            continue
+        render_market_flow_card(heading, items[0])
+        shown = True
+
+    if not shown:
+        for cluster in clusters[:4]:
+            render_market_flow_card("시장 관찰", cluster)
+    close_section()
+
+
+def render_repeated_signal_clusters(shared, filters=None):
+    """Render the simplified Signal Cluster replacement."""
+    render_section_header(
+        "Repeated Signal Clusters",
+        "여러 기사에서 반복 관찰되는 패턴을 정리합니다. 투자 결론이 아니라 추가 확인 대상입니다.",
+    )
+    clusters = market_signal_clusters(shared)
+    if not clusters:
+        st.caption("이번 run에서는 반복 signal cluster가 충분히 포착되지 않았습니다.")
+        close_section()
+        return
+
+    for cluster in clusters[:6]:
+        diagnostic = cluster.get("diagnostic", {})
+        timeline = cluster.get("timeline", regime_timeline_map(shared).get(cluster.get("title"), {}))
+        confidence = diagnostic.get("signal_confidence_label", "")
+        count = cluster.get("frequency", 0)
+        status = soft_observation_label(count, confidence)
+        title = display_cluster_title(cluster.get("title"))
+        dominant = cluster.get("dominant_signal", "") or diagnostic.get("dominant_financing_patterns", "")
+        label = f"{title} · {count}건 · {status}"
+        with st.expander(label, expanded=False):
+            if dominant:
+                st.caption(f"반복 관찰어: {dominant}")
+            persistence = timeline.get("persistence_label", "")
+            trend = timeline.get("trend_direction", "")
+            if persistence or trend or confidence:
+                subdued = " · ".join(value for value in [persistence, trend, confidence] if value)
+                st.caption(f"내부 참고: {subdued}")
+            evidence = cluster.get("evidence", [])
+            if evidence:
+                st.markdown("**관찰 근거**")
+                for item in evidence[:4]:
+                    st.markdown(f"- {item}")
+            interpretation = cluster.get("interpretation", "")
+            if interpretation:
+                st.markdown("**보수적 해석**")
+                st.write(truncate_text(interpretation, 320))
+            market = diagnostic.get("dominant_market", "")
+            if market:
+                st.caption(f"주요 관련 시장: {market}")
+            st.caption("위 내용은 투자 판단이 아니라 후속 확인을 위한 반복 관찰 요약입니다.")
+    close_section()
+
+
+def page_market_intelligence_product(shared, filters):
+    """Simplified market intelligence page focused on repeated observed flows."""
+    st.title("시장 인텔리전스")
+    render_current_market_flows(shared, filters)
+    render_repeated_signal_clusters(shared, filters)
+
+
 if __name__ == "__main__":
     main()

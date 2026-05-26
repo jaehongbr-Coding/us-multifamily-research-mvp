@@ -20,7 +20,7 @@ import json
 import os
 import re
 from collections import Counter
-from datetime import datetime
+from datetime import datetime, timedelta
 from html import unescape
 
 import feedparser
@@ -75,6 +75,10 @@ MARKET_INTELLIGENCE_DIAGNOSTICS_OUTPUT_FILE = os.path.join(
 )
 REGIME_HISTORY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "regime_history.csv")
 REGIME_TIMELINE_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "regime_timeline.csv")
+SIGNAL_MEMORY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "signal_memory.csv")
+SIGNAL_MEMORY_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "signal_memory_report.md")
+CLASSIFICATION_QUALITY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "classification_quality.csv")
+CLASSIFICATION_QUALITY_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "classification_quality_report.md")
 SOURCE_ACTIVATION_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "source_activation.csv")
 GP_SOURCE_COVERAGE_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "gp_source_coverage.csv")
 HISTORICAL_MEMORY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "historical_memory.csv")
@@ -967,6 +971,12 @@ COSTAR_INTAKE_SUMMARY = {
     "rows_skipped": 0,
     "missing_required_fields": "",
 }
+CURRENT_SIGNAL_MEMORY_SUMMARY = {
+    "top_persistent_signal": "",
+    "top_strengthening_signal": "",
+    "signal_memory_count": 0,
+    "memory_status_summary": "Signal memory not generated yet",
+}
 
 
 # ---------------------------------------------------------
@@ -1838,6 +1848,342 @@ def classify_article(text):
             matched_topics.append(topic)
 
     return matched_topics
+
+
+ARTICLE_CLASSIFICATION_FIELDS = [
+    "primary_topic",
+    "secondary_topic",
+    "capital_event_type",
+    "development_stage",
+    "supply_demand_signal",
+    "institutional_activity_type",
+    "financing_type",
+    "asset_strategy",
+    "entity_role",
+    "market_relevance_reason",
+    "classification_confidence",
+    "classification_reason",
+]
+
+CAPITAL_EVENT_RULES = [
+    ("recapitalization", ["recapitalization", "recap", "recapitalizes", "recapitalized"]),
+    ("refinancing", ["refinancing", "refinance", "refinanced", "refi"]),
+    ("construction_financing", ["construction financing", "construction loan", "construction debt"]),
+    ("bridge_loan", ["bridge loan", "bridge financing", "bridge debt"]),
+    ("permanent_loan", ["permanent loan", "permanent financing"]),
+    ("preferred_equity", ["preferred equity", "pref equity"]),
+    ("mezzanine_financing", ["mezzanine", "mezz debt", "mezzanine financing"]),
+    ("joint_venture", ["joint venture", " jv ", "JV ", "partnership", "forms venture"]),
+    ("platform_investment", ["platform investment", "launches platform", "investment platform"]),
+    ("merger_acquisition", ["merger", "acquisition of company", "acquires company", "m&a"]),
+    ("other_capital_event", ["fund close", "closes fund", "launches fund", "raises fund", "fundraising", "capital raise"]),
+    ("debt_extension", ["debt extension", "loan extension", "maturity extension", "extends loan"]),
+    ("distress_sale", ["distress sale", "distressed sale", "foreclosure sale", "receiver sale"]),
+    ("acquisition", ["acquisition", "acquires", "acquired", "buys", "purchase", "purchased"]),
+    ("disposition", ["disposition", "sells", "sold", "sale of", "trades for"]),
+]
+
+DEVELOPMENT_STAGE_RULES = [
+    ("construction_start", ["broke ground", "breaks ground", "construction started", "starts construction", "groundbreaking"]),
+    ("under_construction", ["under construction", "vertical construction", "wood framing", "framing takes shape", "topping out", "topped out"]),
+    ("delivery", ["delivered", "delivery", "completed", "completion", "opens", "opened", "opening"]),
+    ("lease_up", ["lease-up", "lease up", "leasing begins", "move-ins", "move ins"]),
+    ("stabilization", ["stabilized", "stabilization"]),
+    ("planning_commission", ["planning commission", "city planning", "planning board"]),
+    ("density_bonus", ["density bonus", "toc", "transit oriented communities"]),
+    ("entitlement", ["entitlement", "entitled", "approval", "approved"]),
+    ("zoning", ["zoning", "rezoning", "zone change"]),
+    ("permit", ["permit", "permits", "permitting", "building permit"]),
+    ("site_acquisition", ["site acquisition", "acquired site", "buys site", "development site acquisition"]),
+    ("land_assembly", ["land assembly", "land assemblage", "assemblage"]),
+    ("redevelopment", ["redevelopment", "redevelop"]),
+    ("adaptive_reuse", ["adaptive reuse", "office-to-residential", "office conversion"]),
+]
+
+SUPPLY_DEMAND_RULES = [
+    ("effective_rent_growth", ["effective rent growth", "rent growth", "asking rent", "rents rose", "rent increased"]),
+    ("rent_decline", ["rent decline", "rents fell", "rents declined", "negative rent growth"]),
+    ("vacancy", ["vacancy", "vacant"]),
+    ("absorption", ["absorption", "net absorption"]),
+    ("concession", ["concession", "concessions", "one month free"]),
+    ("occupancy", ["occupancy", "occupied"]),
+    ("renewal_rate", ["renewal rate", "renewals"]),
+    ("supply_pressure", ["supply pressure", "new supply", "supply pipeline", "deliveries"]),
+    ("oversupply", ["oversupply", "overbuilt", "supply glut"]),
+    ("demand_resilience", ["demand resilience", "strong demand", "resilient demand"]),
+    ("lease_up_velocity", ["lease-up velocity", "lease up velocity", "leasing velocity"]),
+]
+
+INSTITUTIONAL_ACTIVITY_RULES = [
+    ("sponsor_recapitalization", ["recapitalization", "recap"]),
+    ("lender_activity", ["lender", "lending", "loan", "financing", "fannie mae", "freddie mac", "berkadia", "greystone", "walker & dunlop"]),
+    ("reit_activity", ["reit", "real estate investment trust"]),
+    ("pension_fund_activity", ["pension fund", "calpers", "calstrs", "teachers"]),
+    ("insurance_capital", ["insurance company", "life insurance", "insurer"]),
+    ("private_equity_activity", ["private equity", "blackstone", "kkr", "apollo", "brookfield"]),
+    ("family_office_activity", ["family office"]),
+    ("foreign_capital", ["foreign capital", "sovereign", "international investor"]),
+    ("public_private_partnership", ["public-private partnership", "public private partnership", " p3 "]),
+    ("gp_acquisition", ["gp", "sponsor", "acquires", "acquisition"]),
+    ("gp_disposition", ["gp", "sponsor", "sells", "disposition"]),
+]
+
+FINANCING_TYPE_RULES = [
+    ("agency_debt", ["agency debt", "fannie mae", "freddie mac", "hud loan", "agency loan"]),
+    ("construction_loan", ["construction loan", "construction financing"]),
+    ("bridge_loan", ["bridge loan", "bridge financing"]),
+    ("permanent_financing", ["permanent financing", "permanent loan"]),
+    ("preferred_equity", ["preferred equity", "pref equity"]),
+    ("mezzanine", ["mezzanine", "mezz debt"]),
+    ("tax_credit_financing", ["tax credit", "lihtc", "low-income housing tax credit"]),
+    ("public_subsidy", ["subsidy", "grant", "public funding", "bond financing"]),
+    ("cmbs", ["cmbs", "commercial mortgage-backed"]),
+    ("debt_fund", ["debt fund", "private credit"]),
+    ("bank_loan", ["bank loan", "bank financing", "bank lender"]),
+]
+
+ASSET_STRATEGY_RULES = [
+    ("affordable_housing", ["affordable housing", "income-restricted", "lihtc", "density bonus", "affordable"]),
+    ("workforce_housing", ["workforce housing"]),
+    ("senior_housing", ["senior housing", "active adult"]),
+    ("student_housing", ["student housing"]),
+    ("btr", ["build-to-rent", "build to rent", " btr ", "single-family rental", "sfr"]),
+    ("mixed_use", ["mixed-use", "mixed use"]),
+    ("adaptive_reuse", ["adaptive reuse", "office-to-residential", "office conversion"]),
+    ("development", ["development site", "groundbreaking", "under construction", "entitlement", "permit"]),
+    ("value_add", ["value-add", "renovation", "reposition", "repositioning"]),
+    ("opportunistic", ["distressed", "foreclosure", "rescue capital", "opportunistic"]),
+    ("core_plus", ["core-plus", "core plus"]),
+    ("core", ["core asset", "stabilized core"]),
+]
+
+ENTITY_ROLE_RULES = [
+    ("lender", ["lender", "loan", "financing", "mortgage", "fannie mae", "freddie mac", "berkadia", "greystone", "walker & dunlop"]),
+    ("broker", ["broker", "brokerage", "arranged the sale", "represented", "marcus & millichap", "cbre", "jll", "cushman"]),
+    ("public_agency", ["city council", "planning commission", "housing authority", "public agency", "hud"]),
+    ("reit", ["reit", "real estate investment trust"]),
+    ("operator", ["operator", "operations", "property operations"]),
+    ("property_manager", ["property manager", "property management", "manager"]),
+    ("developer", ["developer", "develops", "development", "construction", "entitlement"]),
+    ("sponsor", ["sponsor", "gp", "general partner"]),
+    ("gp", [" gp ", "general partner"]),
+    ("investor", ["investor", "institutional investor", "private equity", "capital partner"]),
+]
+
+PRIMARY_TOPIC_PRIORITY = [
+    "capital_markets",
+    "development_pipeline",
+    "supply_demand",
+    "institutional_capital",
+    "gp_activity",
+    "entitlement_policy",
+    "operations_property_management",
+    "macro_financing",
+    "transaction_market",
+    "research_data",
+]
+
+
+def normalize_keyword_text(value):
+    """Normalize text for simple rule-based article classification."""
+    return f" {clean_text(str(value or '')).lower()} "
+
+
+def unique_list(values):
+    """Return values in first-seen order without duplicates."""
+    seen = set()
+    cleaned = []
+    for value in values:
+        key = str(value).strip().lower()
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        cleaned.append(value)
+    return cleaned
+
+
+def match_rule_labels(text, rules):
+    """Return all labels whose keyword rules are found in text."""
+    matches = []
+    for label, keywords in rules:
+        if find_matches(text, [keyword.lower() for keyword in keywords]):
+            matches.append(label)
+    return unique_list(matches)
+
+
+def first_or_none(values, default="none"):
+    """Return a semicolon-friendly label list or default."""
+    cleaned = [str(value).strip() for value in values if str(value).strip()]
+    return "; ".join(cleaned) if cleaned else default
+
+
+def classify_primary_topic(text, capital_events, development_stages, supply_signals, institutional_activity, financing_types, asset_strategy):
+    """Choose one primary topic from the article classification signals."""
+    capital_event_set = set(capital_events or [])
+    development_stage_set = set(development_stages or [])
+    financing_event_set = {
+        "refinancing", "recapitalization", "construction_financing", "bridge_loan",
+        "permanent_loan", "preferred_equity", "mezzanine_financing", "debt_extension",
+    }
+    institution_event_set = {
+        "merger_acquisition", "joint_venture", "platform_investment", "other_capital_event",
+    }
+    transaction_event_set = {"acquisition", "disposition", "distress_sale"}
+    explicit_execution_stage_set = {
+        "construction_start", "under_construction", "delivery", "lease_up",
+        "stabilization", "entitlement", "zoning", "permit", "planning_commission",
+        "site_acquisition", "land_assembly", "redevelopment", "adaptive_reuse",
+    }
+    if capital_event_set & financing_event_set:
+        return "capital_markets"
+    if capital_event_set & institution_event_set:
+        return "institutional_capital"
+    if capital_event_set & transaction_event_set and not (development_stage_set & explicit_execution_stage_set):
+        return "transaction_market"
+    topic_hits = {
+        "capital_markets": bool(financing_types and financing_types != ["none"]),
+        "development_pipeline": bool(development_stage_set - {"none", "density_bonus"}),
+        "supply_demand": bool(supply_signals and supply_signals != ["none"]),
+        "institutional_capital": bool(set(institutional_activity) - {"none"}),
+        "gp_activity": bool(find_matches(text, [" gp ", "sponsor", "developer", "joint venture", "partnership"])),
+        "entitlement_policy": bool(set(development_stages) & {"entitlement", "zoning", "permit", "planning_commission", "density_bonus"}),
+        "operations_property_management": bool(find_matches(text, ["property management", "operator", "operations", "renewal", "occupancy"])),
+        "macro_financing": bool(find_matches(text, ["fed", "interest rate", "treasury", "inflation", "economy", "macro"])),
+        "transaction_market": bool(set(capital_events) & {"acquisition", "disposition", "distress_sale", "merger_acquisition"}),
+        "research_data": bool(find_matches(text, ["report", "survey", "index", "forecast", "research", "outlook"])),
+    }
+    for topic in PRIMARY_TOPIC_PRIORITY:
+        if topic_hits.get(topic):
+            return topic
+    if asset_strategy and asset_strategy != ["unknown"]:
+        return "research_data"
+    return "other"
+
+
+def get_secondary_topic(primary_topic, text, capital_events, development_stages, supply_signals, institutional_activity):
+    """Add a secondary topic when the article has a meaningful second signal."""
+    topic_candidates = []
+    if primary_topic != "capital_markets" and capital_events and capital_events != ["none"]:
+        topic_candidates.append("capital_markets")
+    if primary_topic != "development_pipeline" and development_stages and development_stages != ["none"]:
+        topic_candidates.append("development_pipeline")
+    if primary_topic != "supply_demand" and supply_signals and supply_signals != ["none"]:
+        topic_candidates.append("supply_demand")
+    if primary_topic != "institutional_capital" and institutional_activity and institutional_activity != ["none"]:
+        topic_candidates.append("institutional_capital")
+    if primary_topic != "macro_financing" and find_matches(text, ["fed", "interest rate", "treasury", "inflation"]):
+        topic_candidates.append("macro_financing")
+    return "; ".join(unique_list(topic_candidates[:2])) or "none"
+
+
+def classify_article_confidence(text, matched_groups):
+    """Conservative confidence label for rule-based classification."""
+    strong_hits = sum(1 for group in matched_groups if group and group not in [["none"], ["unknown"]])
+    title_weighted_terms = [
+        "refinance", "recap", "bridge loan", "construction loan", "joint venture",
+        "acquires", "sells", "permit", "entitlement", "broke ground", "lease-up",
+        "concession", "vacancy", "fannie mae", "freddie mac",
+    ]
+    if find_matches(text[:300], title_weighted_terms):
+        return "high"
+    if strong_hits >= 2:
+        return "medium"
+    if strong_hits == 1:
+        return "low"
+    return "unknown"
+
+
+def build_classification_reason(primary_topic, capital_events, development_stages, supply_signals, institutional_activity, financing_types, confidence):
+    """Explain why the rule-based classifier chose the labels."""
+    reasons = []
+    if capital_events and capital_events != ["none"]:
+        reasons.append(f"Capital event keywords detected: {', '.join(capital_events[:3])}.")
+    if financing_types and financing_types != ["none"]:
+        reasons.append(f"Financing type keywords detected: {', '.join(financing_types[:3])}.")
+    if development_stages and development_stages != ["none"]:
+        reasons.append(f"Development-stage terms detected: {', '.join(development_stages[:3])}.")
+    if supply_signals and supply_signals != ["none"]:
+        reasons.append(f"Supply/demand terms detected: {', '.join(supply_signals[:3])}.")
+    if institutional_activity and institutional_activity != ["none"]:
+        reasons.append(f"Institutional activity terms detected: {', '.join(institutional_activity[:3])}.")
+    if not reasons:
+        reasons.append("No clear rule-based event keyword was detected.")
+    reasons.append(f"Primary topic set to {primary_topic}; confidence {confidence}.")
+    return " ".join(reasons)
+
+
+def build_market_relevance_reason(article, primary_topic, market):
+    """Short market relevance explanation for article-level classification."""
+    if market and market != "Other / Unknown":
+        return f"Market reference detected as {market}."
+    if primary_topic in ["macro_financing", "capital_markets"]:
+        return "No specific market detected; treated as broader capital markets context."
+    return "No specific market detected; relevance remains broad."
+
+
+def enrich_article_classification(article):
+    """Add detailed rule-based classification fields to an article row."""
+    text = normalize_keyword_text(" ".join([
+        article.get("title", ""),
+        article.get("article_text_sample", ""),
+        article.get("topics", ""),
+        article.get("matched_keywords", ""),
+        article.get("market_signal", ""),
+        article.get("strategic_angle", ""),
+        article.get("reason_for_inclusion", ""),
+    ]))
+    capital_events = match_rule_labels(text, CAPITAL_EVENT_RULES) or ["none"]
+    development_stages = match_rule_labels(text, DEVELOPMENT_STAGE_RULES) or ["none"]
+    supply_signals = match_rule_labels(text, SUPPLY_DEMAND_RULES) or ["none"]
+    institutional_activity = match_rule_labels(text, INSTITUTIONAL_ACTIVITY_RULES) or ["none"]
+    financing_types = match_rule_labels(text, FINANCING_TYPE_RULES) or ["none"]
+    asset_strategy = match_rule_labels(text, ASSET_STRATEGY_RULES) or ["unknown"]
+    entity_roles = match_rule_labels(text, ENTITY_ROLE_RULES) or ["unknown"]
+    primary_topic = classify_primary_topic(
+        text,
+        capital_events,
+        development_stages,
+        supply_signals,
+        institutional_activity,
+        financing_types,
+        asset_strategy,
+    )
+    secondary_topic = get_secondary_topic(
+        primary_topic,
+        text,
+        capital_events,
+        development_stages,
+        supply_signals,
+        institutional_activity,
+    )
+    confidence = classify_article_confidence(
+        text,
+        [capital_events, development_stages, supply_signals, institutional_activity, financing_types],
+    )
+    market = article.get("market_focus") or "Other / Unknown"
+    article.update({
+        "primary_topic": primary_topic,
+        "secondary_topic": secondary_topic,
+        "capital_event_type": first_or_none(capital_events),
+        "development_stage": first_or_none(development_stages),
+        "supply_demand_signal": first_or_none(supply_signals),
+        "institutional_activity_type": first_or_none(institutional_activity),
+        "financing_type": first_or_none(financing_types),
+        "asset_strategy": first_or_none(asset_strategy, "unknown"),
+        "entity_role": first_or_none(entity_roles, "unknown"),
+        "market_relevance_reason": build_market_relevance_reason(article, primary_topic, market),
+        "classification_confidence": confidence,
+        "classification_reason": build_classification_reason(
+            primary_topic,
+            capital_events,
+            development_stages,
+            supply_signals,
+            institutional_activity,
+            financing_types,
+            confidence,
+        ),
+    })
+    return article
 
 
 def get_priority(relevance_score):
@@ -18621,6 +18967,531 @@ def generate_signal_quality_outputs(signal_rows, dated_output_dir):
     }
 
 
+def build_classification_quality_rows(run_timestamp, articles):
+    """Summarize article-classification quality by primary topic."""
+    grouped = {}
+    for article in articles:
+        topic = article.get("primary_topic") or "other"
+        grouped.setdefault(topic, []).append(article)
+
+    rows = []
+    for topic, topic_articles in grouped.items():
+        confidence_counts = Counter(
+            article.get("classification_confidence") or "unknown"
+            for article in topic_articles
+        )
+        markets = Counter(
+            article.get("market_focus") or "Other / Unknown"
+            for article in topic_articles
+        )
+        sources = Counter(
+            article.get("source") or "Unknown"
+            for article in topic_articles
+        )
+        rows.append({
+            "run_date": run_timestamp.strftime("%Y-%m-%d"),
+            "run_id": CURRENT_RUN_CONTEXT.get("run_id", ""),
+            "primary_topic": topic,
+            "article_count": len(topic_articles),
+            "high_confidence_count": confidence_counts.get("high", 0),
+            "medium_confidence_count": confidence_counts.get("medium", 0),
+            "low_confidence_count": confidence_counts.get("low", 0),
+            "unknown_count": confidence_counts.get("unknown", 0),
+            "top_markets": "; ".join(
+                f"{market} ({count})"
+                for market, count in markets.most_common(5)
+            ),
+            "top_sources": "; ".join(
+                f"{source} ({count})"
+                for source, count in sources.most_common(5)
+            ),
+        })
+    rows.sort(key=lambda row: (-safe_int(row["article_count"]), row["primary_topic"]))
+    return rows
+
+
+def generate_classification_quality_outputs(run_timestamp, articles, dated_output_dir):
+    """Write article classification quality outputs."""
+    rows = build_classification_quality_rows(run_timestamp, articles)
+    fieldnames = [
+        "run_date",
+        "run_id",
+        "primary_topic",
+        "article_count",
+        "high_confidence_count",
+        "medium_confidence_count",
+        "low_confidence_count",
+        "unknown_count",
+        "top_markets",
+        "top_sources",
+    ]
+    write_csv_outputs(CLASSIFICATION_QUALITY_OUTPUT_FILE, fieldnames, rows, dated_output_dir)
+
+    low_confidence_articles = [
+        article for article in articles
+        if article.get("classification_confidence") in ["low", "unknown"]
+    ]
+    topic_distribution = "; ".join(
+        f"{row['primary_topic']}: {row['article_count']}"
+        for row in rows[:8]
+    ) or "No article rows available"
+    lines = [
+        "# Classification Quality Report",
+        "",
+        f"Generated: {run_timestamp.strftime(TIMESTAMP_FORMAT)}",
+        "",
+        "## Classification Summary",
+        "",
+        f"- Total articles classified: {len(articles)}",
+        f"- Topic distribution: {topic_distribution}",
+        "- Classification is rule-based and conservative. Low or unknown labels should be treated as review queues, not failures.",
+        "",
+        "## Topic Distribution",
+        "",
+    ]
+    for row in rows:
+        lines.append(
+            f"- {row['primary_topic']}: {row['article_count']} article(s), "
+            f"high {row['high_confidence_count']}, medium {row['medium_confidence_count']}, "
+            f"low {row['low_confidence_count']}, unknown {row['unknown_count']}. "
+            f"Top markets: {row['top_markets'] or 'None'}."
+        )
+    lines.extend([
+        "",
+        "## Low Confidence / Unknown Articles",
+        "",
+    ])
+    if low_confidence_articles:
+        for article in low_confidence_articles[:20]:
+            lines.append(
+                f"- {article.get('title', 'Untitled')} "
+                f"({article.get('source', 'Unknown source')}, {article.get('market_focus', 'Other / Unknown')}): "
+                f"{article.get('classification_reason', 'No classification reason available')}"
+            )
+        if len(low_confidence_articles) > 20:
+            lines.append(f"- Additional low/unknown rows omitted: {len(low_confidence_articles) - 20}")
+    else:
+        lines.append("- No low-confidence or unknown classification rows in this run.")
+    lines.extend([
+        "",
+        "## Data Quality Notes",
+        "",
+        "- Source summaries and RSS snippets can be thin, so some articles remain low confidence until full context is available.",
+        "- Similar financing and transaction language can overlap; detailed fields should be read together rather than as one definitive label.",
+        "- Market labels remain conservative when geography is not explicit.",
+        "",
+        "## Recommended Rule Improvements",
+        "",
+        "- Review low-confidence rows after several runs and add source-specific terms only when repeated misclassification is visible.",
+        "- Add sponsor/lender dictionaries gradually as relationship intelligence matures.",
+        "- Keep broad words such as multifamily, housing, and property from driving development classification by themselves.",
+    ])
+    write_markdown_outputs(CLASSIFICATION_QUALITY_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return rows
+
+
+def parse_memory_date(value):
+    """Parse run/article dates safely for signal memory."""
+    text = str(value or "").strip()
+    if not text:
+        return None
+    for fmt in [
+        "%Y-%m-%d",
+        "%Y-%m-%d %H:%M:%S",
+        "%a, %d %b %Y %H:%M:%S %z",
+        "%a, %d %b %Y %H:%M:%S %Z",
+    ]:
+        try:
+            return datetime.strptime(text, fmt).date()
+        except Exception:
+            continue
+    try:
+        parsed = datetime.fromisoformat(text.replace("Z", "+00:00"))
+        return parsed.date()
+    except Exception:
+        return None
+
+
+def get_archive_article_rows(current_dated_output_dir):
+    """Read archived articles.csv files from output/runs/* safely."""
+    rows = []
+    if not os.path.isdir(RUNS_DIR):
+        return rows
+    current_archive_path = os.path.abspath(os.path.join(current_dated_output_dir, "articles.csv"))
+    for run_folder in sorted(os.listdir(RUNS_DIR)):
+        folder_path = os.path.join(RUNS_DIR, run_folder)
+        if not os.path.isdir(folder_path):
+            continue
+        article_path = os.path.join(folder_path, "articles.csv")
+        if os.path.abspath(article_path) == current_archive_path or not os.path.exists(article_path):
+            continue
+        for row in read_csv_file(article_path):
+            enriched = dict(row)
+            enriched["_archive_run_date"] = run_folder
+            rows.append(enriched)
+    return rows
+
+
+def normalize_signal_memory_key(signal_category, signal_name, market):
+    """Create stable memory key from category, name, and market."""
+    raw = f"{signal_category}|{signal_name}|{market}".lower()
+    raw = re.sub(r"[^a-z0-9]+", "_", raw)
+    return re.sub(r"_+", "_", raw).strip("_")
+
+
+def get_article_signal_name(row):
+    """Choose a conservative signal name from article fields."""
+    for field in [
+        "capital_event_type",
+        "development_stage",
+        "supply_demand_signal",
+        "institutional_activity_type",
+        "financing_type",
+    ]:
+        values = [
+            item.strip()
+            for item in str(row.get(field, "") or "").split(";")
+            if item.strip() and item.strip() not in ["none", "unknown"]
+        ]
+        if values:
+            return values[0]
+    market_signal = str(row.get("market_signal", "") or "").strip()
+    if market_signal and market_signal != "No Clear Numeric Signal":
+        return market_signal
+    topics = [item.strip() for item in str(row.get("topics", "") or "").split(";") if item.strip()]
+    if topics:
+        return topics[0]
+    strategic_angle = str(row.get("strategic_angle", "") or "").strip()
+    if strategic_angle:
+        return strategic_angle
+    return "General Market Observation"
+
+
+def get_article_signal_category(row):
+    """Choose a broad signal category for memory tracking."""
+    primary_topic = str(row.get("primary_topic", "") or "").strip()
+    if primary_topic:
+        return primary_topic
+    strategic_angle = str(row.get("strategic_angle", "") or "").strip()
+    if strategic_angle:
+        return strategic_angle
+    decision_use = str(row.get("decision_use", "") or "").strip()
+    if decision_use:
+        return decision_use
+    source_category = str(row.get("source_category", "") or "").strip()
+    if source_category:
+        return source_category
+    return "Market Observation"
+
+
+def article_to_signal_memory_observation(row, fallback_run_date, fallback_run_id):
+    """Convert an article row into a signal memory observation."""
+    observed_date = (
+        parse_memory_date(row.get("run_date"))
+        or parse_memory_date(row.get("published"))
+        or parse_memory_date(row.get("collected_at"))
+        or parse_memory_date(row.get("_archive_run_date"))
+        or fallback_run_date
+    )
+    signal_name = get_article_signal_name(row)
+    signal_category = get_article_signal_category(row)
+    market = str(row.get("market_focus") or row.get("market") or "Other / Unknown").strip() or "Other / Unknown"
+    return {
+        "observed_date": observed_date,
+        "run_id": str(row.get("run_id") or fallback_run_id or ""),
+        "signal_name": signal_name,
+        "signal_category": signal_category,
+        "market": market,
+        "source": str(row.get("source", "") or "").strip(),
+        "title": str(row.get("title", "") or "").strip(),
+        "url": normalize_article_url(row.get("url", "")),
+        "normalized_signal_key": normalize_signal_memory_key(signal_category, signal_name, market),
+    }
+
+
+def collect_signal_memory_observations(current_articles, run_timestamp, dated_output_dir):
+    """Collect current and archived article observations for signal memory."""
+    fallback_date = run_timestamp.date()
+    fallback_run_id = CURRENT_RUN_CONTEXT.get("run_id", "")
+    rows = []
+    seen_article_keys = set()
+    for row in get_archive_article_rows(dated_output_dir):
+        observation = article_to_signal_memory_observation(row, fallback_date, row.get("run_id", ""))
+        if not observation["observed_date"]:
+            continue
+        article_key = observation["url"] or normalize_article_title_for_history(observation["title"])
+        dedupe_key = (observation["normalized_signal_key"], article_key, observation["observed_date"])
+        if article_key and dedupe_key in seen_article_keys:
+            continue
+        if article_key:
+            seen_article_keys.add(dedupe_key)
+        rows.append(observation)
+    for row in current_articles:
+        current_row = dict(row)
+        current_row["run_date"] = fallback_date.strftime("%Y-%m-%d")
+        current_row["run_id"] = fallback_run_id
+        observation = article_to_signal_memory_observation(current_row, fallback_date, fallback_run_id)
+        article_key = observation["url"] or normalize_article_title_for_history(observation["title"])
+        dedupe_key = (observation["normalized_signal_key"], article_key, observation["observed_date"])
+        if article_key and dedupe_key in seen_article_keys:
+            continue
+        if article_key:
+            seen_article_keys.add(dedupe_key)
+        rows.append(observation)
+    return rows
+
+
+def score_signal_memory(article_count_today, article_count_7d, article_count_previous_7d, article_count_30d, days_7d, days_30d, source_count_30d, last_seen_date, today):
+    """Return persistence, momentum, freshness, and diversity scores."""
+    persistence_score = min(100, round(days_30d * 12 + article_count_30d * 2))
+    if article_count_previous_7d <= 0:
+        momentum_score = 65 if article_count_7d > 0 else 35
+    else:
+        delta_ratio = (article_count_7d - article_count_previous_7d) / max(1, article_count_previous_7d)
+        momentum_score = round(50 + max(-40, min(40, delta_ratio * 40)))
+    if last_seen_date:
+        days_since_seen = max(0, (today - last_seen_date).days)
+        freshness_score = max(0, min(100, 100 - days_since_seen * 14))
+    else:
+        freshness_score = 0
+    diversity_score = min(100, round(source_count_30d * 25))
+    if article_count_today == 0 and article_count_7d == 0:
+        momentum_score = min(momentum_score, 25)
+    return persistence_score, momentum_score, freshness_score, diversity_score
+
+
+def classify_signal_memory_status(article_count_today, article_count_7d, article_count_previous_7d, days_7d, days_30d, first_seen_date, today):
+    """Classify signal memory status with conservative language."""
+    if article_count_today == 0 and article_count_7d == 0 and days_30d > 0:
+        return "Dormant Signal"
+    if first_seen_date == today and article_count_today > 0:
+        return "New Signal"
+    if days_30d >= 5:
+        return "Persistent Signal"
+    if article_count_7d > article_count_previous_7d and article_count_7d >= 2:
+        return "Strengthening Signal"
+    if article_count_previous_7d > article_count_7d and article_count_previous_7d >= 2:
+        return "Weakening Signal"
+    if days_7d >= 2:
+        return "Repeated Watch"
+    if article_count_today > 0 or article_count_7d > 0:
+        return "Early Watch"
+    return "Insufficient History"
+
+
+def build_signal_memory_reason(status, article_count_7d, article_count_30d, source_count_30d, days_30d):
+    """Explain the memory status without implying an investment conclusion."""
+    if status == "New Signal":
+        return "오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다."
+    if status == "Strengthening Signal":
+        return f"최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 {article_count_7d}건이 최근 7일에 관찰되었습니다."
+    if status == "Weakening Signal":
+        return "최근 7일 관찰 강도가 이전 기간보다 낮아졌습니다. 추세 단정보다 후속 확인이 필요합니다."
+    if status == "Persistent Signal":
+        return f"최근 30일 중 {days_30d}일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다."
+    if status == "Repeated Watch":
+        return "최근 7일 내 2일 이상 반복 관찰되었습니다. 추가 source 확인이 필요합니다."
+    if status == "Dormant Signal":
+        return "과거에는 관찰됐지만 최근 7일에는 포착되지 않았습니다."
+    if source_count_30d <= 1:
+        return "source 다양성이 제한되어 있어 추가 확인이 필요합니다."
+    return f"최근 30일 {article_count_30d}건, {source_count_30d}개 source에서 관찰되었습니다."
+
+
+def build_signal_memory_rows(run_timestamp, articles, dated_output_dir):
+    """Build rolling signal-memory rows from current and archived articles."""
+    observations = collect_signal_memory_observations(articles, run_timestamp, dated_output_dir)
+    today = run_timestamp.date()
+    groups = {}
+    for observation in observations:
+        key = observation["normalized_signal_key"]
+        groups.setdefault(key, []).append(observation)
+
+    rows = []
+    for key, items in groups.items():
+        dates = [item["observed_date"] for item in items if item["observed_date"]]
+        if not dates:
+            continue
+        first_seen = min(dates)
+        last_seen = max(dates)
+        today_items = [item for item in items if item["observed_date"] == today]
+        recent_7 = [item for item in items if 0 <= (today - item["observed_date"]).days <= 6]
+        previous_7 = [item for item in items if 7 <= (today - item["observed_date"]).days <= 13]
+        recent_30 = [item for item in items if 0 <= (today - item["observed_date"]).days <= 29]
+        sources_today = {item["source"] for item in today_items if item["source"]}
+        sources_7d = {item["source"] for item in recent_7 if item["source"]}
+        sources_30d = {item["source"] for item in recent_30 if item["source"]}
+        days_7d = len({item["observed_date"] for item in recent_7})
+        days_30d = len({item["observed_date"] for item in recent_30})
+        article_count_today = len(today_items)
+        article_count_7d = len(recent_7)
+        article_count_previous_7d = len(previous_7)
+        article_count_30d = len(recent_30)
+        representative = max(items, key=lambda item: item["observed_date"])
+        status = classify_signal_memory_status(
+            article_count_today,
+            article_count_7d,
+            article_count_previous_7d,
+            days_7d,
+            days_30d,
+            first_seen,
+            today,
+        )
+        persistence_score, momentum_score, freshness_score, diversity_score = score_signal_memory(
+            article_count_today,
+            article_count_7d,
+            article_count_previous_7d,
+            article_count_30d,
+            days_7d,
+            days_30d,
+            len(sources_30d),
+            last_seen,
+            today,
+        )
+        rows.append({
+            "run_date": today.strftime("%Y-%m-%d"),
+            "run_id": CURRENT_RUN_CONTEXT.get("run_id", ""),
+            "signal_name": representative["signal_name"],
+            "signal_category": representative["signal_category"],
+            "market": representative["market"],
+            "normalized_signal_key": key,
+            "source_count_today": len(sources_today),
+            "article_count_today": article_count_today,
+            "article_count_7d": article_count_7d,
+            "article_count_30d": article_count_30d,
+            "source_count_7d": len(sources_7d),
+            "source_count_30d": len(sources_30d),
+            "first_seen_date": first_seen.strftime("%Y-%m-%d"),
+            "last_seen_date": last_seen.strftime("%Y-%m-%d"),
+            "days_observed_7d": days_7d,
+            "days_observed_30d": days_30d,
+            "persistence_score": persistence_score,
+            "momentum_score": momentum_score,
+            "freshness_score": freshness_score,
+            "diversity_score": diversity_score,
+            "memory_status": status,
+            "memory_reason": build_signal_memory_reason(
+                status,
+                article_count_7d,
+                article_count_30d,
+                len(sources_30d),
+                days_30d,
+            ),
+        })
+    rows.sort(key=lambda row: (
+        row["memory_status"] not in ["Strengthening Signal", "Persistent Signal", "Repeated Watch", "New Signal"],
+        -safe_int(row["persistence_score"]),
+        -safe_int(row["momentum_score"]),
+        row["signal_name"],
+    ))
+    return rows
+
+
+def summarize_signal_memory_rows(memory_rows):
+    """Build compact dashboard-summary fields from signal memory."""
+    status_counts = Counter(row.get("memory_status", "") for row in memory_rows)
+    persistent = [
+        row for row in memory_rows
+        if row.get("memory_status") == "Persistent Signal"
+    ]
+    strengthening = [
+        row for row in memory_rows
+        if row.get("memory_status") == "Strengthening Signal"
+    ]
+    top_persistent = persistent[0]["signal_name"] if persistent else ""
+    top_strengthening = strengthening[0]["signal_name"] if strengthening else ""
+    summary_bits = [
+        f"{status}: {count}"
+        for status, count in status_counts.most_common()
+        if status
+    ]
+    return {
+        "top_persistent_signal": top_persistent,
+        "top_strengthening_signal": top_strengthening,
+        "signal_memory_count": len(memory_rows),
+        "memory_status_summary": "; ".join(summary_bits) or "No signal memory rows",
+    }
+
+
+def add_signal_memory_report_section(lines, title, rows, statuses):
+    """Add one section to the signal memory Markdown report."""
+    lines.extend([f"## {title}", ""])
+    selected = [row for row in rows if row.get("memory_status") in statuses]
+    if not selected:
+        lines.extend(["- None detected.", ""])
+        return
+    for row in selected[:8]:
+        lines.append(
+            f"- {row['signal_name']} / {row['market']}: {row['memory_status']}. "
+            f"{row['memory_reason']}"
+        )
+    lines.append("")
+
+
+def generate_signal_memory_outputs(run_timestamp, articles, dated_output_dir):
+    """Write signal_memory.csv and signal_memory_report.md."""
+    global CURRENT_SIGNAL_MEMORY_SUMMARY
+    rows = build_signal_memory_rows(run_timestamp, articles, dated_output_dir)
+    fieldnames = [
+        "run_date",
+        "run_id",
+        "signal_name",
+        "signal_category",
+        "market",
+        "normalized_signal_key",
+        "source_count_today",
+        "article_count_today",
+        "article_count_7d",
+        "article_count_30d",
+        "source_count_7d",
+        "source_count_30d",
+        "first_seen_date",
+        "last_seen_date",
+        "days_observed_7d",
+        "days_observed_30d",
+        "persistence_score",
+        "momentum_score",
+        "freshness_score",
+        "diversity_score",
+        "memory_status",
+        "memory_reason",
+    ]
+    write_csv_outputs(SIGNAL_MEMORY_OUTPUT_FILE, fieldnames, rows, dated_output_dir)
+    CURRENT_SIGNAL_MEMORY_SUMMARY = summarize_signal_memory_rows(rows)
+
+    generated_at = run_timestamp.strftime("%Y-%m-%d %H:%M:%S")
+    lines = [
+        "# Signal Memory Report",
+        "",
+        f"Generated: {generated_at}",
+        "",
+        "## Signal Memory Summary",
+        "",
+        f"- Total memory rows: {len(rows)}",
+        f"- Status summary: {CURRENT_SIGNAL_MEMORY_SUMMARY['memory_status_summary']}",
+        "- Signal Memory is a repeated-observation tracker, not an investment decision engine.",
+        "",
+    ]
+    add_signal_memory_report_section(lines, "Strengthening Signals", rows, {"Strengthening Signal"})
+    add_signal_memory_report_section(lines, "Persistent Signals", rows, {"Persistent Signal"})
+    add_signal_memory_report_section(lines, "New / Early Watch Signals", rows, {"New Signal", "Early Watch", "Repeated Watch"})
+    add_signal_memory_report_section(lines, "Weakening or Dormant Signals", rows, {"Weakening Signal", "Dormant Signal"})
+    lines.extend([
+        "## Notes on Data Limitations",
+        "",
+        "- Counts are based on saved public-feed articles and manually ingested rows where available.",
+        "- Source visibility can distort signal strength; repeated observation does not mean the whole market has shifted.",
+        "- If archive history is limited, statuses are intentionally conservative.",
+        "- Use this file to decide what needs further verification, not to make direct investment conclusions.",
+        "",
+    ])
+    write_markdown_outputs(SIGNAL_MEMORY_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "rows": rows,
+        "summary": CURRENT_SIGNAL_MEMORY_SUMMARY,
+    }
+
+
 def add_signal_quality_section(lines, title, rows, filter_function):
     """Add one signal quality report section."""
     lines.append(f"## {title}")
@@ -18840,6 +19711,7 @@ def add_dashboard_card(cards, run_timestamp, card_type, title, score, market, se
 def build_dashboard_summary_row(run_timestamp, articles, high_confidence_rows, signal_rows, opportunity_rows, distress_rows, la_asset_rows, gp_watchlist_rows, market_entry_rows, lifecycle_rows, regional_rows, sector_rows, previous_article_rows=None):
     """Build the single dashboard summary row for this run."""
     briefing_context = build_daily_briefing_context(articles, previous_article_rows)
+    signal_memory_summary = CURRENT_SIGNAL_MEMORY_SUMMARY
     institutional_grade_count = len([row for row in signal_rows if row["signal_quality_label"] == "Institutional Grade"])
     top_market = regional_rows[0]["market"] if regional_rows else "Other / Unknown"
     top_sector = sector_rows[0]["residential_sector"] if sector_rows else "General Residential"
@@ -18878,6 +19750,10 @@ def build_dashboard_summary_row(run_timestamp, articles, high_confidence_rows, s
         "weekly_momentum_market": briefing_context["weekly_momentum_market"],
         "weekly_momentum_reason": briefing_context["weekly_momentum_reason"],
         "daily_briefing_confidence": briefing_context["clusters"][0]["confidence_label"] if briefing_context["clusters"] else "insufficient data",
+        "top_persistent_signal": signal_memory_summary.get("top_persistent_signal", ""),
+        "top_strengthening_signal": signal_memory_summary.get("top_strengthening_signal", ""),
+        "signal_memory_count": signal_memory_summary.get("signal_memory_count", 0),
+        "memory_status_summary": signal_memory_summary.get("memory_status_summary", "No signal memory rows"),
         "key_market_signals": " | ".join(
             f"{cluster['korean_label']} ({cluster['article_count']}, {cluster['confidence_label']})"
             for cluster in briefing_context["clusters"][:3]
@@ -19028,6 +19904,8 @@ def generate_dashboard_outputs(run_timestamp, articles, high_confidence_rows, si
         "highest_quality_signal", "recommended_executive_focus",
         "hero_market_view", "daily_mentioned_market", "weekly_momentum_market",
         "weekly_momentum_reason", "daily_briefing_confidence",
+        "top_persistent_signal", "top_strengthening_signal",
+        "signal_memory_count", "memory_status_summary",
         "key_market_signals", "woomi_checkpoints",
     ]
     write_csv_outputs(DASHBOARD_SUMMARY_OUTPUT_FILE, summary_fields, [summary_row], dated_output_dir)
@@ -21449,6 +22327,7 @@ def save_to_csv(articles):
         "url",
         "previously_seen_article",
     ]
+    fieldnames.extend(ARTICLE_CLASSIFICATION_FIELDS)
 
     # The high-priority file is a shorter daily briefing list.
     # It keeps Must Read and Review items, and excludes Monitor items.
@@ -21506,6 +22385,7 @@ def save_to_csv(articles):
             or article["gpt_strategic_analysis"] == "GPT analysis not enabled"
         ):
             article["gpt_strategic_analysis"] = build_rule_based_strategic_interpretation(article)
+        enrich_article_classification(article)
 
     try:
         write_csv_outputs(
@@ -22112,6 +22992,16 @@ def save_to_csv(articles):
             high_confidence_summary,
             dated_output_dir,
         )
+        classification_quality_rows = generate_classification_quality_outputs(
+            run_timestamp,
+            articles,
+            dated_output_dir,
+        )
+        signal_memory_summary = generate_signal_memory_outputs(
+            run_timestamp,
+            articles,
+            dated_output_dir,
+        )
         dashboard_summary = generate_dashboard_outputs(
             run_timestamp,
             articles,
@@ -22224,6 +23114,9 @@ def save_to_csv(articles):
         print(f"[Done] CoStar intake report saved: {COSTAR_INTAKE_REPORT_MD_OUTPUT_FILE}")
         print(f"[Done] Source activation CSV saved: {SOURCE_ACTIVATION_OUTPUT_FILE}")
         print(f"[Done] Source activation report saved: {SOURCE_ACTIVATION_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Signal memory CSV saved: {SIGNAL_MEMORY_OUTPUT_FILE}")
+        print(f"[Done] Signal memory report saved: {SIGNAL_MEMORY_REPORT_OUTPUT_FILE}")
+        print(f"[Signal Memory] Rows: {signal_memory_summary['summary']['signal_memory_count']}")
         print(f"[Done] LLM prompt pack saved: {LLM_PROMPT_PACK_OUTPUT_FILE}")
         print(f"[Done] LLM prompt count: {len(strategy_briefing_articles)}")
         print(f"[Done] LLM prompt quality report saved: {LLM_PROMPT_QUALITY_REPORT_OUTPUT_FILE}")
@@ -22305,6 +23198,8 @@ def save_to_csv(articles):
         print(f"[Done] LA persistent asset watch report saved: {LA_PERSISTENT_ASSET_WATCH_REPORT_OUTPUT_FILE}")
         print(f"[Done] Signal quality CSV saved: {SIGNAL_QUALITY_OUTPUT_FILE}")
         print(f"[Done] Signal quality report saved: {SIGNAL_QUALITY_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Classification quality CSV saved: {CLASSIFICATION_QUALITY_OUTPUT_FILE}")
+        print(f"[Done] Classification quality report saved: {CLASSIFICATION_QUALITY_REPORT_OUTPUT_FILE}")
         print(f"[Done] High-confidence watchlist CSV saved: {HIGH_CONFIDENCE_WATCHLIST_OUTPUT_FILE}")
         print(f"[Done] High-confidence watchlist report saved: {HIGH_CONFIDENCE_WATCHLIST_REPORT_OUTPUT_FILE}")
         print(f"[Done] Dashboard summary CSV saved: {DASHBOARD_SUMMARY_OUTPUT_FILE}")

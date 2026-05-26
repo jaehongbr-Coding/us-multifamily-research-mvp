@@ -1,10 +1,10 @@
 # Deal Fingerprint Report
 
-Generated: 2026-05-26 06:05:16
+Generated: 2026-05-26 08:10:39
 
 - Total canonical deals detected: 62
 - Duplicate clusters detected: 0
-- California / LA recurring project count: 15
+- California / LA recurring project count: 16
 
 ## Largest Duplicate Clusters
 
@@ -33,9 +33,9 @@ Generated: 2026-05-26 06:05:16
 - Acquisition - Unknown - California: California, 1 article(s), 1 source(s), confidence 65.
 - Entitlement / Permitting - Unknown - California: California, 1 article(s), 1 source(s), confidence 65.
 - General Project Signal - Unknown - California: California, 1 article(s), 1 source(s), confidence 75.
+- Disposition / Exit - Unknown - Los Angeles: Los Angeles, 1 article(s), 1 source(s), confidence 65.
 - General Project Signal - Unknown - California: California, 1 article(s), 1 source(s), confidence 75.
 - Disposition / Exit - Unknown - Los Angeles: Los Angeles, 1 article(s), 1 source(s), confidence 65.
-- Entitlement / Permitting - Unknown - Los Angeles: Los Angeles, 1 article(s), 1 source(s), confidence 55.
 
 ## Recurring GP / Lender Relationships
 

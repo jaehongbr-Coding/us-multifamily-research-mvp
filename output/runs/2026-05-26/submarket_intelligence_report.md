@@ -1,6 +1,6 @@
 # Submarket Intelligence Report
 
-Generated: 2026-05-26 06:05:17
+Generated: 2026-05-26 08:10:40
 
 - Total submarkets detected: 30
 
@@ -40,8 +40,8 @@ Generated: 2026-05-26 06:05:17
 - Atlanta (Southeast): execution_complexity_score 30, Monitor entitlement precedent.
 - Santa Ana (Orange County): execution_complexity_score 30, Monitor refinancing / distress pipeline.
 - Anaheim (Orange County): execution_complexity_score 30, Review potential acquisition pipeline.
+- Echo Park (Los Angeles): execution_complexity_score 30, Monitor only.
 - Long Beach (Los Angeles): execution_complexity_score 30, Monitor only.
-- Century City (Los Angeles): execution_complexity_score 30, Monitor only.
 
 ## Sector Themes By Submarket
 
@@ -56,7 +56,7 @@ Generated: 2026-05-26 06:05:17
 - Santa Ana: Apartment, General submarket monitoring.
 - Anaheim: General Residential, General submarket monitoring.
 - Manhattan: Multifamily, Density bonus corridor.
-- Long Beach: Affordable Housing, General submarket monitoring.
+- Echo Park: Apartment, General submarket monitoring.
 
 ## Timing and Entitlement Signals By Submarket
 
@@ -71,7 +71,7 @@ Generated: 2026-05-26 06:05:17
 - Santa Ana: 1 timing signal(s), 0 entitlement signal(s).
 - Anaheim: 1 timing signal(s), 0 entitlement signal(s).
 - Manhattan: 2 timing signal(s), 0 entitlement signal(s).
-- Long Beach: 0 timing signal(s), 0 entitlement signal(s).
+- Echo Park: 0 timing signal(s), 0 entitlement signal(s).
 
 ## Implications for Woomi / Woomi Global
 
@@ -94,8 +94,8 @@ Generated: 2026-05-26 06:05:17
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 86
-- LA lifecycle watch items: 47
-- Stage mix: Site Acquisition / Site Control: 14, Unknown Stage: 49, Refinancing / Recapitalization: 10, Early Site Signal: 3, Distressed / Stalled: 1
+- Lifecycle records: 88
+- LA lifecycle watch items: 50
+- Stage mix: Site Acquisition / Site Control: 14, Unknown Stage: 50, Refinancing / Recapitalization: 10, Early Site Signal: 3, Distressed / Stalled: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

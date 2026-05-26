@@ -1,7 +1,7 @@
 ﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
-20260526-060516-8f6cea4b,2026-05-26,Construction financing still selective,Persistent,stable,10,10,10,6.5,4.0,5,5,4,2,Sun Belt,Broadly Confirmed,steady visibility,
-20260526-060516-8f6cea4b,2026-05-26,Institutional recap over expansion,Building,stable,10,10,10,2.4,2.2,2,2,2,0,New York,Early Signal,steady visibility,
-20260526-060516-8f6cea4b,2026-05-26,JV / partnership activity observed,Building,stable,10,10,10,4.6,3.4,2,2,2,0,New York,Early Signal,steady visibility,
-20260526-060516-8f6cea4b,2026-05-26,LA entitlement precedent accumulation,Persistent,stable,10,10,10,9.7,3.5,11,11,4,0,Los Angeles,Moderate Signal,steady visibility,
-20260526-060516-8f6cea4b,2026-05-26,Refinancing pressure unresolved,Persistent,stable,10,10,10,5.4,4.0,5,5,4,3,Sun Belt,Broadly Confirmed,steady visibility,
-20260526-060516-8f6cea4b,2026-05-26,Sun Belt lease-up pressure watch,Building,stable,10,10,10,2.3,2.2,2,2,2,0,National,Early Signal,steady visibility,
+20260526-081038-35a22dfb,2026-05-26,Construction financing still selective,Persistent,stable,11,11,11,6.36,4.0,5,5,4,2,Sun Belt,Broadly Confirmed,steady visibility,
+20260526-081038-35a22dfb,2026-05-26,Institutional recap over expansion,Building,stable,11,11,11,2.36,2.18,2,2,2,0,New York,Early Signal,steady visibility,
+20260526-081038-35a22dfb,2026-05-26,JV / partnership activity observed,Building,stable,11,11,11,4.36,3.27,2,2,2,0,New York,Early Signal,steady visibility,
+20260526-081038-35a22dfb,2026-05-26,LA entitlement precedent accumulation,Persistent,stable,11,11,11,9.82,3.45,11,11,4,0,Los Angeles,Moderate Signal,steady visibility,
+20260526-081038-35a22dfb,2026-05-26,Refinancing pressure unresolved,Persistent,stable,11,11,11,5.36,4.0,5,5,4,3,Sun Belt,Broadly Confirmed,steady visibility,
+20260526-081038-35a22dfb,2026-05-26,Sun Belt lease-up pressure watch,Building,stable,11,11,11,2.27,2.18,2,2,2,0,National,Early Signal,steady visibility,

@@ -1,6 +1,6 @@
 # LA / Southern California Submarket Watch Report
 
-Generated: 2026-05-26 06:05:17
+Generated: 2026-05-26 08:10:40
 
 - Total LA / Southern California submarkets detected: 11
 
@@ -11,9 +11,9 @@ Generated: 2026-05-26 06:05:17
 - Wilshire: opportunity 69, risk 55, Koreatown multifamily watch.
 - Santa Ana: opportunity 65, risk 57, Orange County suburban apartment watch.
 - Anaheim: opportunity 63, risk 52, Orange County suburban apartment watch.
+- Echo Park: opportunity 58, risk 30, Monitor only.
 - Long Beach: opportunity 58, risk 30, Long Beach mixed-use residential watch.
 - California: opportunity 24, risk 20, Monitor only.
-- Century City: opportunity 12, risk 30, Monitor only.
 - Irvine: opportunity 12, risk 30, Orange County suburban apartment watch.
 - Orange County: opportunity 12, risk 30, Orange County suburban apartment watch.
 
@@ -67,9 +67,9 @@ Generated: 2026-05-26 06:05:17
 - Track local planning docket and entitlement precedent: Wilshire / Koreatown multifamily watch.
 - Review potential acquisition pipeline: Santa Ana / Orange County suburban apartment watch.
 - Review potential acquisition pipeline: Anaheim / Orange County suburban apartment watch.
+- Review potential acquisition pipeline: Echo Park / Monitor only.
 - Review potential acquisition pipeline: Long Beach / Long Beach mixed-use residential watch.
 - Monitor only: California / Monitor only.
-- Monitor only: Century City / Monitor only.
 
 ## Asset / Parcel Intelligence Reference
 
@@ -79,8 +79,8 @@ Asset / parcel-level site clues are available in `asset_parcel_intelligence_repo
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 86
-- LA lifecycle watch items: 47
-- Stage mix: Site Acquisition / Site Control: 14, Unknown Stage: 49, Refinancing / Recapitalization: 10, Early Site Signal: 3, Distressed / Stalled: 1
+- Lifecycle records: 88
+- LA lifecycle watch items: 50
+- Stage mix: Site Acquisition / Site Control: 14, Unknown Stage: 50, Refinancing / Recapitalization: 10, Early Site Signal: 3, Distressed / Stalled: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

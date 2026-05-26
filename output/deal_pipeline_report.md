@@ -1,6 +1,6 @@
 # Deal & Project Pipeline Report
 
-Generated: 2026-05-26 06:05:16
+Generated: 2026-05-26 08:10:39
 
 - Total deal/project signals found: 62
 - High deal intelligence count: 5
@@ -27,9 +27,9 @@ Generated: 2026-05-26 06:05:16
 - Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition: Acquisition, California, score 73. Pricing benchmark.
 - Entitlement / Permitting - California - Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown: Entitlement / Permitting, California, score 73. Entitlement / zoning watch.
 - General Project Signal - California - Affordable housing takes shape at 101 Pacific Coast Hwy. in Long Beach: General Project Signal, California, score 72. Entitlement / zoning watch.
+- Disposition / Exit - Los Angeles - Avison Young Markets Echo Park Multifamily Portfolio: Disposition / Exit, Los Angeles, score 69. Entitlement / zoning watch.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: General Project Signal, California, score 66. Capital market signal.
 - Disposition / Exit - Los Angeles - L.A.'s poor ParkScore, Oceanwide sale delayed, and more: Disposition / Exit, Los Angeles, score 61. Capital market signal.
-- Entitlement / Permitting - Los Angeles - Developer revives plan for Best Western hotel at 2645 S. Western Ave. in Jefferson Park: Entitlement / Permitting, Los Angeles, score 60. Entitlement / zoning watch.
 
 ## GP / Developer Activity
 
@@ -63,10 +63,10 @@ Generated: 2026-05-26 06:05:16
 - Entitlement / Permitting - California - Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown: Entitlement / Permitting, California, score 73. Entitlement / zoning watch.
 - General Project Signal - California - Affordable housing takes shape at 101 Pacific Coast Hwy. in Long Beach: General Project Signal, California, score 72. Entitlement / zoning watch.
 - Acquisition - Arizona - Bascom Arizona Ventures Buys Multifamily Community in Tucson for $45.5M: Acquisition, Arizona, score 70. Pricing benchmark.
+- Disposition / Exit - Los Angeles - Avison Young Markets Echo Park Multifamily Portfolio: Disposition / Exit, Los Angeles, score 69. Entitlement / zoning watch.
 - Entitlement / Permitting - Los Angeles - Developer revives plan for Best Western hotel at 2645 S. Western Ave. in Jefferson Park: Entitlement / Permitting, Los Angeles, score 60. Entitlement / zoning watch.
 - Entitlement / Permitting - California - Demolition Permits Filed For 1939 Market Street in San Francisco: Entitlement / Permitting, California, score 56. Entitlement / zoning watch.
 - Entitlement / Permitting - Other / Unknown - Plans Increase For 1223 East 33rd Avenue in Fruitvale, Oakland: Entitlement / Permitting, Other / Unknown, score 54. Entitlement / zoning watch.
-- General Project Signal - Sun Belt - Insignia Pursuing Embassy Row Redevelopment: General Project Signal, Sun Belt, score 51. Underwriting benchmark.
 
 ## BTR / Modular / Innovation Signals
 
@@ -94,10 +94,10 @@ Generated: 2026-05-26 06:05:16
 
 ## Deal / Project Signals By Residential Sector
 
-- Apartment: 29 deal/project signal(s)
+- Apartment: 30 deal/project signal(s)
 - Multifamily: 8 deal/project signal(s)
-- General Residential: 6 deal/project signal(s)
 - Affordable Housing: 5 deal/project signal(s)
+- General Residential: 5 deal/project signal(s)
 - BTR / Single-Family Rental: 5 deal/project signal(s)
 - Senior Housing: 3 deal/project signal(s)
 - Student Housing: 3 deal/project signal(s)

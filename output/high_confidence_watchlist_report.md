@@ -1,6 +1,6 @@
 # High Confidence Watchlist Report
 
-Generated: 2026-05-26 06:05:20
+Generated: 2026-05-26 08:10:42
 
 - Total high-confidence watchlist items: 30
 
@@ -19,7 +19,7 @@ Generated: 2026-05-26 06:05:20
 
 ## Top Institutional-Grade Risks
 
-- Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: LA urban infill opportunity, quality 80, action: Maintain on strategic radar.
+- None detected.
 
 ## Strongest LA / Southern California Watch Items
 

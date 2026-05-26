@@ -1,8 +1,8 @@
 # Opportunity Radar Report
 
-Generated: 2026-05-26 06:05:17
+Generated: 2026-05-26 08:10:40
 
-- Total opportunities detected: 55
+- Total opportunities detected: 56
 
 ## Top 10 Opportunities
 
@@ -27,8 +27,8 @@ Generated: 2026-05-26 06:05:17
 - LA / California Entitlement Opportunity in California: Entitlement / Permitting - California - Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown, score 67. Review entitlement, zoning, permitting, and local sponsor context.
 - LA / California Entitlement Opportunity in California: General Project Signal - California - Affordable housing takes shape at 101 Pacific Coast Hwy. in Long Beach, score 67. Review entitlement, zoning, permitting, and local sponsor context.
 - LA / California Entitlement Opportunity in California: General Project Signal - California - Anaheim Industrial Outdoor Storage Site Secures Bridge Loan, score 65. Review entitlement, zoning, permitting, and local sponsor context.
+- LA / California Entitlement Opportunity in Los Angeles: Disposition / Exit - Los Angeles - Avison Young Markets Echo Park Multifamily Portfolio, score 65. Review entitlement, zoning, permitting, and local sponsor context.
 - LA / California Entitlement Opportunity in California: General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project, score 64. Review entitlement, zoning, permitting, and local sponsor context.
-- LA / California Entitlement Opportunity in California: Modular / Construction Innovation - California - Modular Apartment Construction Gains Momentum In Bay Area, score 63. Review entitlement, zoning, permitting, and local sponsor context.
 
 ## Acquisition / Recapitalization Opportunities
 
@@ -38,8 +38,8 @@ Generated: 2026-05-26 06:05:17
 - Acquisition Opportunity in California: Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition, score 67. Research owner, basis, pricing, and transaction history.
 - Acquisition Opportunity in Sun Belt: Acquisition - Sun Belt - Dutch Investor Pays $110M for New Rental in Aventura, Fla., score 63. Research owner, basis, pricing, and transaction history.
 - Acquisition Opportunity in Sun Belt: Acquisition - Sun Belt - El-Ad Pays $45.5M for Coconut Grove Property, score 62. Research owner, basis, pricing, and transaction history.
+- Acquisition Opportunity in Arizona: Acquisition - Arizona - Bascom Arizona Ventures Buys Multifamily Community in Tucson for $45.5M, score 61. Research owner, basis, pricing, and transaction history.
 - Acquisition Opportunity in New York: Acquisition - New York - Investment Firm Acquires SoHo Mixed-Use for $43M, score 61. Research owner, basis, pricing, and transaction history.
-- Acquisition Opportunity in Arizona: Acquisition - Arizona - Bascom Arizona Ventures Buys Multifamily Community in Tucson for $45.5M, score 60. Research owner, basis, pricing, and transaction history.
 - Acquisition Opportunity in Sun Belt: Acquisition - Sun Belt - Dominium Acquires Affordable Seniors Housing Community in Duluth, Georgia, Plans $9.9M Ren..., score 60. Research owner, basis, pricing, and transaction history.
 - Acquisition Opportunity in New York: Acquisition - New York - AV Management Acquires Multifamily Property 73-75 Sullivan Street in SoHo Manhattan for $4..., score 58. Research owner, basis, pricing, and transaction history.
 
@@ -54,7 +54,7 @@ Generated: 2026-05-26 06:05:17
 - BTR / SFR Platform Opportunity in Sun Belt: BTR / Build-to-Rent - Sun Belt - Work Begins on 94-Unit Scottsdale Luxury BTR Community, score 56. Monitor for repeated signals.
 - BTR / SFR Platform Opportunity in Sun Belt: BTR / Build-to-Rent - Sun Belt - Legacy MCS Completes Two Build-to-Rent Communities in Hutto Expanding Presence in Fast-Gro..., score 55. Monitor for repeated signals.
 - BTR / SFR Platform Opportunity in Sun Belt: BTR / Build-to-Rent - Sun Belt - NexMetro Debuts 229-Unit San Tan Valley BTR Community, score 55. Monitor for repeated signals.
-- BTR / SFR Platform Opportunity in Arizona: BTR / Build-to-Rent - Arizona - Work Begins on Avala a 94-Unit Scottsdale Luxury Multifamily Build-to-Rent Community, score 53. Monitor for repeated signals.
+- BTR / SFR Platform Opportunity in Arizona: BTR / Build-to-Rent - Arizona - Work Begins on Avala a 94-Unit Scottsdale Luxury Multifamily Build-to-Rent Community, score 54. Monitor for repeated signals.
 - BTR / SFR Platform Opportunity in National: BTR / Build-to-Rent - National - House Passes BTR-Friendly Housing Bill, But Senate Fight Looms, score 50. Monitor for repeated signals.
 
 ## Office-to-Residential Opportunities
@@ -111,9 +111,9 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 86
-- LA lifecycle watch items: 47
-- Stage mix: Site Acquisition / Site Control: 14, Unknown Stage: 49, Refinancing / Recapitalization: 10, Early Site Signal: 3, Distressed / Stalled: 1
+- Lifecycle records: 88
+- LA lifecycle watch items: 50
+- Stage mix: Site Acquisition / Site Control: 14, Unknown Stage: 50, Refinancing / Recapitalization: 10, Early Site Signal: 3, Distressed / Stalled: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -121,11 +121,11 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 86
-- Newly detected projects: 0
+- Lifecycle transitions analyzed: 88
+- Newly detected projects: 3
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 45
+- LA lifecycle transition watch items: 48
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -133,11 +133,11 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 677
-- Canonical projects: 142
-- Duplicate project clusters: 95
-- Persistent assets tracked: 142
-- LA persistent asset watch items: 83
+- Raw project references: 689
+- Canonical projects: 146
+- Duplicate project clusters: 94
+- Persistent assets tracked: 146
+- LA persistent asset watch items: 88
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -145,10 +145,10 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 142
+- Signals evaluated: 146
 - Institutional-grade signals: 13
 - High-confidence signals: 30
-- Weak/noisy signals: 99
+- Weak/noisy signals: 103
 - High-confidence watchlist items: 30
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

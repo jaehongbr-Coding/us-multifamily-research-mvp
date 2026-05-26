@@ -1,8 +1,8 @@
 # LA / Southern California Asset Watch Report
 
-Generated: 2026-05-26 06:05:18
+Generated: 2026-05-26 08:10:41
 
-- Total LA / Southern California asset watch items: 50
+- Total LA / Southern California asset watch items: 53
 
 ## Top LA Site-Level Opportunities
 
@@ -78,9 +78,9 @@ Generated: 2026-05-26 06:05:18
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 86
-- LA lifecycle watch items: 47
-- Stage mix: Site Acquisition / Site Control: 14, Unknown Stage: 49, Refinancing / Recapitalization: 10, Early Site Signal: 3, Distressed / Stalled: 1
+- Lifecycle records: 88
+- LA lifecycle watch items: 50
+- Stage mix: Site Acquisition / Site Control: 14, Unknown Stage: 50, Refinancing / Recapitalization: 10, Early Site Signal: 3, Distressed / Stalled: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -88,11 +88,11 @@ Generated: 2026-05-26 06:05:18
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 86
-- Newly detected projects: 0
+- Lifecycle transitions analyzed: 88
+- Newly detected projects: 3
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 45
+- LA lifecycle transition watch items: 48
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -100,10 +100,10 @@ Generated: 2026-05-26 06:05:18
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 677
-- Canonical projects: 142
-- Duplicate project clusters: 95
-- Persistent assets tracked: 142
-- LA persistent asset watch items: 83
+- Raw project references: 689
+- Canonical projects: 146
+- Duplicate project clusters: 94
+- Persistent assets tracked: 146
+- LA persistent asset watch items: 88
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

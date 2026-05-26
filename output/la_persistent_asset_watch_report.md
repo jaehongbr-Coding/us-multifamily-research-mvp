@@ -1,8 +1,8 @@
 # LA Persistent Asset Watch Report
 
-Generated: 2026-05-26 06:05:19
+Generated: 2026-05-26 08:10:42
 
-- Total LA persistent asset watch items: 83
+- Total LA persistent asset watch items: 88
 
 ## Priority LA Asset Watch Items
 
@@ -10,11 +10,11 @@ Generated: 2026-05-26 06:05:19
 - General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History: Los Angeles, Unknown Stage, Track repeat project updates.
 - Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M: Los Angeles, Unknown Stage, Track repeat project updates.
 - Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four...: California, Refinancing / Recapitalization, Track repeat project updates.
+- Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
 - Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four...: California, Unknown Stage, Track repeat project updates.
 - JV / Partnership - New York - Blackstone Announces Joint Venture with Google to Create New TPU Cloud: Los Angeles, Unknown Stage, Track repeat project updates.
 - Acquisition - Sun Belt - Dominium Acquires Affordable Seniors Housing Community in Duluth, Georgia, Plans $9.9M Ren...: Los Angeles, Early Site Signal, Track repeat project updates.
 - Operational / Property Management Tech - Sun Belt - VoltaGrid Announces $1 Billion Strategic Equity Investment from Blackstone and Halliburton...: Los Angeles, Unknown Stage, Track repeat project updates.
-- Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
 - Modular / Construction Innovation - California - Modular Apartment Construction Gains Momentum In Bay Area: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
 
 ## Koreatown / Wilshire Persistent Assets
@@ -58,5 +58,5 @@ Generated: 2026-05-26 06:05:19
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four....
 - Monitor for repeated project updates: Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd..
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd..
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four....
-- Monitor for repeated project updates: Entitlement / Permitting - Los Angeles - Developer revives plan for Best Western hotel at 2645 S. Western Ave. in Jefferson Park.

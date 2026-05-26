@@ -1,6 +1,6 @@
 # Strategy Scenario Report
 
-Generated: 2026-05-26 06:05:16
+Generated: 2026-05-26 08:10:39
 
 ## Scenario Overview
 
@@ -14,7 +14,7 @@ This report converts the current executive priorities into Base, Bull, and Bear 
 - Implication for Woomi: Woomi should treat US residential strategy as attractive but underwriting-sensitive, with capital partner tracking and disciplined project screening.
 - Recommended strategy response: Underwriting: conservative, with explicit debt and exit-cap sensitivity; Capital partners: active monitoring of institutional capital and pricing discovery; LA / California: targeted monitoring if local signals appear; GP / developer partnerships: prioritize proven partners with financing and execution discipline; Development timing: selective starts only where lease-up and financing assumptions are resilient; Cost focus: maintain value engineering review on new opportunities.
 - Key risks to monitor: Debt cost, refinancing assumptions, exit cap rates, lease-up pace, concessions, and capital partner behavior.
-- Trigger events to watch: Financing momentum turning Accelerating, capital momentum turning Fading, supply score rising above 60, or LA / California signal count rising above 14.
+- Trigger events to watch: Financing momentum turning Accelerating, capital momentum turning Fading, supply score rising above 60, or LA / California signal count rising above 16.
 
 ## Bull Case
 
@@ -46,7 +46,7 @@ This report converts the current executive priorities into Base, Bull, and Bear 
 
 ## Key Triggers to Watch
 
-- Base Case: Financing momentum turning Accelerating, capital momentum turning Fading, supply score rising above 60, or LA / California signal count rising above 14.
+- Base Case: Financing momentum turning Accelerating, capital momentum turning Fading, supply score rising above 60, or LA / California signal count rising above 16.
 - Bull Case: Financing Stress momentum Improving or Weakening, Selective Capital Re-entry Accelerating, deal-size signals increasing, and concession/vacancy signals staying stable.
 - Bear Case: Financing Stress momentum Stable turning Accelerating, Supply Pressure momentum Stable turning Accelerating, or Selective Capital Re-entry momentum Stable turning Fading.
 
@@ -85,8 +85,8 @@ Network relationship signals are available in `relationship_graph_report.md`.
 
 Broader residential sector coverage is available in `residential_sector_report.md`.
 - Apartment: Core Strategy Sector; Keep in weekly developer strategy review.
-- Multifamily: Core Strategy Sector; Keep in weekly developer strategy review.
 - Affordable Housing: Strategic Expansion Sector; Track LA / California affordability, entitlement, and public-private partnership signals.
+- Multifamily: Core Strategy Sector; Keep in weekly developer strategy review.
 - BTR / Single-Family Rental: Strategic Expansion Sector; Monitor BTR / SFR operators, capital flows, and target markets.
 - Student Housing: Strategic Expansion Sector; Monitor university-market demand and partnership signals.
 

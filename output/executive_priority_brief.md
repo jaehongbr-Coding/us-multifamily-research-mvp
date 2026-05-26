@@ -1,6 +1,6 @@
 # Executive Priority Brief
 
-Generated: 2026-05-26 06:05:16
+Generated: 2026-05-26 08:10:39
 
 ## Top 3 Executive Priorities
 
@@ -17,7 +17,7 @@ Generated: 2026-05-26 06:05:16
 | 3 | Supply Pressure | 100 | Tier 2 Strategic Review | Investment Team; Development Team; US Local Team | This Week |
 | 4 | Developer Strategy Shift | 98 | Tier 2 Strategic Review | Strategy Team; Development Team; US Local Team | This Week |
 | 5 | Policy / Entitlement Watch | 97 | Tier 3 Monitoring | Development Team; US Local Team; Strategy Team | This Week |
-| 6 | Construction Cost Pressure | 58 | Tier 3 Monitoring | Development Team; Investment Team; US Local Team | Monthly Monitoring |
+| 6 | Construction Cost Pressure | 50 | Tier 3 Monitoring | Development Team; Investment Team; US Local Team | Monthly Monitoring |
 
 ## Tier 1 Executive Attention
 
@@ -32,7 +32,7 @@ Generated: 2026-05-26 06:05:16
 ## Monitoring Items
 
 - Rank 5: Policy / Entitlement Watch (97). Policy and entitlement signals should be monitored because they may affect approvals, zoning strategy, and local development feasibility. Owner: Development Team; US Local Team; Strategy Team. Timing: This Week.
-- Rank 6: Construction Cost Pressure (58). Construction cost signals should be reviewed because they may affect feasibility, contingencies, and value engineering. Owner: Development Team; Investment Team; US Local Team. Timing: Monthly Monitoring.
+- Rank 6: Construction Cost Pressure (50). Construction cost signals should be reviewed because they may affect feasibility, contingencies, and value engineering. Owner: Development Team; Investment Team; US Local Team. Timing: Monthly Monitoring.
 
 ## Scenario Context
 
@@ -123,9 +123,9 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 86
-- LA lifecycle watch items: 47
-- Stage mix: Site Acquisition / Site Control: 14, Unknown Stage: 49, Refinancing / Recapitalization: 10, Early Site Signal: 3, Distressed / Stalled: 1
+- Lifecycle records: 88
+- LA lifecycle watch items: 50
+- Stage mix: Site Acquisition / Site Control: 14, Unknown Stage: 50, Refinancing / Recapitalization: 10, Early Site Signal: 3, Distressed / Stalled: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -133,11 +133,11 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 86
-- Newly detected projects: 0
+- Lifecycle transitions analyzed: 88
+- Newly detected projects: 3
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 45
+- LA lifecycle transition watch items: 48
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -145,11 +145,11 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 677
-- Canonical projects: 142
-- Duplicate project clusters: 95
-- Persistent assets tracked: 142
-- LA persistent asset watch items: 83
+- Raw project references: 689
+- Canonical projects: 146
+- Duplicate project clusters: 94
+- Persistent assets tracked: 146
+- LA persistent asset watch items: 88
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -157,10 +157,10 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 142
+- Signals evaluated: 146
 - Institutional-grade signals: 13
 - High-confidence signals: 30
-- Weak/noisy signals: 99
+- Weak/noisy signals: 103
 - High-confidence watchlist items: 30
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

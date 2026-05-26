@@ -1,18 +1,18 @@
 # Development Lifecycle Report
 
-Generated: 2026-05-26 06:05:19
+Generated: 2026-05-26 08:10:42
 
-- Total lifecycle records: 86
+- Total lifecycle records: 88
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 49
+- Unknown Stage: 50
 - Site Acquisition / Site Control: 14
 - Refinancing / Recapitalization: 10
 - Delivery / Opening: 8
 - Early Site Signal: 3
+- Vertical Construction: 2
 - Distressed / Stalled: 1
-- Vertical Construction: 1
 
 ## Top Development Timing Opportunities
 
@@ -46,6 +46,7 @@ Generated: 2026-05-26 06:05:19
 
 ## Construction-Ready / Construction-Start Signals
 
+- Rexford Launches Construction on Single-Tenant Kearny Mesa Industrial: Vertical Construction, Unknown, lifecycle_opportunity_score 65.
 - Disposition / Exit - Texas - The Statesman at Horseshoe Bay Breaks Ground Introducing $108M Luxury Senior Living Commun...: Vertical Construction, Texas, lifecycle_opportunity_score 52.
 
 ## Delivery / Lease-Up Signals
@@ -96,11 +97,11 @@ Generated: 2026-05-26 06:05:19
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 86
-- Newly detected projects: 0
+- Lifecycle transitions analyzed: 88
+- Newly detected projects: 3
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 45
+- LA lifecycle transition watch items: 48
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -108,11 +109,11 @@ Generated: 2026-05-26 06:05:19
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 677
-- Canonical projects: 142
-- Duplicate project clusters: 95
-- Persistent assets tracked: 142
-- LA persistent asset watch items: 83
+- Raw project references: 689
+- Canonical projects: 146
+- Duplicate project clusters: 94
+- Persistent assets tracked: 146
+- LA persistent asset watch items: 88
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -120,10 +121,10 @@ Generated: 2026-05-26 06:05:19
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 142
+- Signals evaluated: 146
 - Institutional-grade signals: 13
 - High-confidence signals: 30
-- Weak/noisy signals: 99
+- Weak/noisy signals: 103
 - High-confidence watchlist items: 30
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

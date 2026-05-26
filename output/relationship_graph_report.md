@@ -1,8 +1,8 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-05-26 06:05:16
+Generated: 2026-05-26 08:10:39
 
-- Total relationship edges: 112
+- Total relationship edges: 111
 - Most connected developer / GP: AvalonBay (7 edge(s))
 - Most connected lender / debt provider: jll (5 edge(s))
 - Most connected market: Sun Belt (17 edge(s))
@@ -152,10 +152,10 @@ Longitudinal memory is available in `historical_memory_report.md`.
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 677
-- Canonical projects: 142
-- Duplicate project clusters: 95
-- Persistent assets tracked: 142
-- LA persistent asset watch items: 83
+- Raw project references: 689
+- Canonical projects: 146
+- Duplicate project clusters: 94
+- Persistent assets tracked: 146
+- LA persistent asset watch items: 88
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

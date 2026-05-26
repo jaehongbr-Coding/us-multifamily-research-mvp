@@ -1,13 +1,13 @@
 # Executive Dashboard Brief
 
-Generated: 2026-05-26 06:05:16
+Generated: 2026-05-26 08:10:38
 
 ## Executive Snapshot
 
-- Total articles reviewed: 76
+- Total articles reviewed: 78
 - High-confidence signals: 30
 - Institutional-grade signals: 13
-- Opportunities: 55
+- Opportunities: 56
 - Distress signals: 10
 - Recommended executive focus: Review General Project Signal - Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan and related high-confidence project signals.
 
@@ -67,7 +67,7 @@ Generated: 2026-05-26 06:05:16
 
 ## Source Health Notes
 
-- Critical source validation warnings: 12 source(s) failed validation. Action: Review failed critical feeds and manual-review queue.
+- Critical source validation warnings: 13 source(s) failed validation. Action: Review failed critical feeds and manual-review queue.
 
 ## Recommended Management Actions
 

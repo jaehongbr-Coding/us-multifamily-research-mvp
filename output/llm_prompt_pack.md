@@ -1,6 +1,6 @@
 # LLM Prompt Pack for US Multifamily Strategy Analysis
 
-Generated: 2026-05-26 06:05:16
+Generated: 2026-05-26 08:10:38
 
 ## Instructions
 
@@ -8,7 +8,7 @@ This file prepares prompts for a future GPT-based analysis layer.
 The current MVP does not call a paid LLM API.
 Copy one prompt at a time into an LLM, or use this file later as input for an API workflow.
 
-Prompt count: 57
+Prompt count: 58
 
 ## Prompt 1: The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist
 
@@ -542,7 +542,35 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 20: Modular Apartment Construction Gains Momentum In Bay Area
+## Prompt 20: Avison Young Markets Echo Park Multifamily Portfolio
+
+- Quality score: 98
+- Quality label: Excellent
+- Missing context: None
+
+```text
+You are a strategic research analyst for Woomi / Woomi Global.
+Analyze the following US multifamily housing article for developer strategy.
+
+Article context:
+- Title: Avison Young Markets Echo Park Multifamily Portfolio
+- Source: Connect CRE California
+- URL: https://www.connectcre.com/stories/avison-young-markets-echo-park-multifamily-portfolio/
+- Market focus: Los Angeles
+- Strategic angle: Institutional Flow
+- Market signal: Supply / Starts Signal
+- Extracted numbers: 190 units
+- Strategic implication: Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in Los Angeles.
+- Woomi relevance: High relevance to US residential developer strategy
+
+Please answer in concise bullet points:
+1. Why does this article matter for a US multifamily developer?
+2. What is the implication for Woomi / Woomi Global?
+3. What risk or opportunity does this indicate?
+4. What follow-up question should the strategy team ask?
+```
+
+## Prompt 21: Modular Apartment Construction Gains Momentum In Bay Area
 
 - Quality score: 82
 - Quality label: Good
@@ -570,7 +598,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 21: Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition
+## Prompt 22: Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition
 
 - Quality score: 98
 - Quality label: Excellent
@@ -598,7 +626,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 22: Plans Increase For 1223 East 33rd Avenue in Fruitvale, Oakland
+## Prompt 23: Plans Increase For 1223 East 33rd Avenue in Fruitvale, Oakland
 
 - Quality score: 82
 - Quality label: Good
@@ -626,7 +654,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 23: Dominium Acquires Affordable Seniors Housing Community in Duluth, Georgia, Plans $9.9M Renovation
+## Prompt 24: Dominium Acquires Affordable Seniors Housing Community in Duluth, Georgia, Plans $9.9M Renovation
 
 - Quality score: 98
 - Quality label: Excellent
@@ -654,7 +682,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 24: Affordable housing takes shape at 101 Pacific Coast Hwy. in Long Beach
+## Prompt 25: Affordable housing takes shape at 101 Pacific Coast Hwy. in Long Beach
 
 - Quality score: 98
 - Quality label: Excellent
@@ -682,7 +710,35 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 25: Construction Begins on Second Phase of Luxury Apartment Project in Blue Springs, Missouri
+## Prompt 26: Safehold Closes on Ground Leases for Affordable in Santa Clarita, Santa Cruz
+
+- Quality score: 82
+- Quality label: Good
+- Missing context: missing extracted numbers; missing market signal
+
+```text
+You are a strategic research analyst for Woomi / Woomi Global.
+Analyze the following US multifamily housing article for developer strategy.
+
+Article context:
+- Title: Safehold Closes on Ground Leases for Affordable in Santa Clarita, Santa Cruz
+- Source: Connect CRE California
+- URL: https://www.connectcre.com/stories/safehold-closes-on-ground-leases-for-affordable-in-santa-clarita-santa-cruz/
+- Market focus: Los Angeles
+- Strategic angle: Developer Strategy
+- Market signal: No Clear Numeric Signal
+- Extracted numbers: None detected
+- Strategic implication: Review for developer strategy because the article may inform site selection, product type, adaptive reuse, build-to-rent, or market entry.
+- Woomi relevance: High relevance to US residential developer strategy
+
+Please answer in concise bullet points:
+1. Why does this article matter for a US multifamily developer?
+2. What is the implication for Woomi / Woomi Global?
+3. What risk or opportunity does this indicate?
+4. What follow-up question should the strategy team ask?
+```
+
+## Prompt 27: Construction Begins on Second Phase of Luxury Apartment Project in Blue Springs, Missouri
 
 - Quality score: 90
 - Quality label: Excellent
@@ -710,7 +766,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 26: Dwight Capital Closes $130M HUD Refi on N. Miami Apartments
+## Prompt 28: Dwight Capital Closes $130M HUD Refi on N. Miami Apartments
 
 - Quality score: 90
 - Quality label: Excellent
@@ -738,7 +794,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 27: Developer revives plan for Best Western hotel at 2645 S. Western Ave. in Jefferson Park
+## Prompt 29: Developer revives plan for Best Western hotel at 2645 S. Western Ave. in Jefferson Park
 
 - Quality score: 82
 - Quality label: Good
@@ -766,7 +822,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 28: StreetLights Residential Converting Vintage Charlotte Theater Site to Mixed-Use Multifamily Apartments and Retail Space
+## Prompt 30: StreetLights Residential Converting Vintage Charlotte Theater Site to Mixed-Use Multifamily Apartments and Retail Space
 
 - Quality score: 82
 - Quality label: Good
@@ -794,7 +850,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 29: AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History
+## Prompt 31: AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History
 
 - Quality score: 90
 - Quality label: Excellent
@@ -822,7 +878,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 30: Insignia Pursuing Embassy Row Redevelopment
+## Prompt 32: Insignia Pursuing Embassy Row Redevelopment
 
 - Quality score: 90
 - Quality label: Excellent
@@ -850,7 +906,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 31: Best Year for Missing Middle Construction Since 2007
+## Prompt 33: Best Year for Missing Middle Construction Since 2007
 
 - Quality score: 74
 - Quality label: Good
@@ -878,7 +934,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 32: Missing Middle Weakness
+## Prompt 34: Missing Middle Weakness
 
 - Quality score: 74
 - Quality label: Good
@@ -906,7 +962,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 33: Fresh renderings for mixed-use project at 3205 Ocean Park Blvd. in Santa Monica
+## Prompt 35: Fresh renderings for mixed-use project at 3205 Ocean Park Blvd. in Santa Monica
 
 - Quality score: 82
 - Quality label: Good
@@ -934,7 +990,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 34: Multifamily starts rose again in April
+## Prompt 36: Multifamily starts rose again in April
 
 - Quality score: 82
 - Quality label: Good
@@ -962,7 +1018,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 35: Multifamily project starts declined further in Q1: CoStar
+## Prompt 37: Multifamily project starts declined further in Q1: CoStar
 
 - Quality score: 74
 - Quality label: Good
@@ -990,7 +1046,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 36: Bascom Arizona Ventures Buys Multifamily Community in Tucson for $45.5M
+## Prompt 38: Bascom Arizona Ventures Buys Multifamily Community in Tucson for $45.5M
 
 - Quality score: 98
 - Quality label: Excellent
@@ -1018,7 +1074,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 37: Work Begins on 94-Unit Scottsdale Luxury BTR Community
+## Prompt 39: Work Begins on 94-Unit Scottsdale Luxury BTR Community
 
 - Quality score: 98
 - Quality label: Excellent
@@ -1046,7 +1102,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 38: JLL Arranges $252M Financing for Huntington Beach Seniors Project
+## Prompt 40: JLL Arranges $252M Financing for Huntington Beach Seniors Project
 
 - Quality score: 90
 - Quality label: Excellent
@@ -1074,7 +1130,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 39: Multifamily starts forecasts mostly lower in May
+## Prompt 41: Multifamily starts forecasts mostly lower in May
 
 - Quality score: 82
 - Quality label: Good
@@ -1102,7 +1158,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 40: Scion and Ares Acquire $910M Multifamily Student Housing Portfolio from Harrison Street Asset Management
+## Prompt 42: Scion and Ares Acquire $910M Multifamily Student Housing Portfolio from Harrison Street Asset Management
 
 - Quality score: 98
 - Quality label: Excellent
@@ -1130,7 +1186,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 41: Legacy MCS Completes Two Build-to-Rent Communities in Hutto Expanding Presence in Fast-Growing Austin Metropolitan Area Corridor
+## Prompt 43: Legacy MCS Completes Two Build-to-Rent Communities in Hutto Expanding Presence in Fast-Growing Austin Metropolitan Area Corridor
 
 - Quality score: 82
 - Quality label: Good
@@ -1158,7 +1214,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 42: AV Management Acquires Multifamily Property 73-75 Sullivan Street in SoHo Manhattan for $43M
+## Prompt 44: AV Management Acquires Multifamily Property 73-75 Sullivan Street in SoHo Manhattan for $43M
 
 - Quality score: 98
 - Quality label: Excellent
@@ -1186,7 +1242,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 43: Grand Peaks Sells Miami-Area Apartments for $65.5M
+## Prompt 45: Grand Peaks Sells Miami-Area Apartments for $65.5M
 
 - Quality score: 90
 - Quality label: Excellent
@@ -1214,7 +1270,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 44: NexMetro Debuts 229-Unit San Tan Valley BTR Community
+## Prompt 46: NexMetro Debuts 229-Unit San Tan Valley BTR Community
 
 - Quality score: 82
 - Quality label: Good
@@ -1242,7 +1298,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 45: Demolition Permits Filed For 1939 Market Street in San Francisco
+## Prompt 47: Demolition Permits Filed For 1939 Market Street in San Francisco
 
 - Quality score: 82
 - Quality label: Good
@@ -1270,7 +1326,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 46: Multifamily Absorption Rate Remains Below 50%
+## Prompt 48: Multifamily Absorption Rate Remains Below 50%
 
 - Quality score: 90
 - Quality label: Excellent
@@ -1298,7 +1354,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 47: Shorter Apartment Construction Time in 2024
+## Prompt 49: Shorter Apartment Construction Time in 2024
 
 - Quality score: 74
 - Quality label: Good
@@ -1326,7 +1382,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 48: L.A.'s poor ParkScore, Oceanwide sale delayed, and more
+## Prompt 50: L.A.'s poor ParkScore, Oceanwide sale delayed, and more
 
 - Quality score: 98
 - Quality label: Excellent
@@ -1354,7 +1410,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 49: Centralization Associated with Occupancy Uplift
+## Prompt 51: Centralization Associated with Occupancy Uplift
 
 - Quality score: 90
 - Quality label: Excellent
@@ -1382,7 +1438,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 50: Work Begins on Avala a 94-Unit Scottsdale Luxury Multifamily Build-to-Rent Community
+## Prompt 52: Work Begins on Avala a 94-Unit Scottsdale Luxury Multifamily Build-to-Rent Community
 
 - Quality score: 98
 - Quality label: Excellent
@@ -1410,7 +1466,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 51: Cambridge Properties Bringing New Life to Aging Charlotte Center
+## Prompt 53: Cambridge Properties Bringing New Life to Aging Charlotte Center
 
 - Quality score: 82
 - Quality label: Good
@@ -1438,7 +1494,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 52: Blackstone Announces Joint Venture with Google to Create New TPU Cloud
+## Prompt 54: Blackstone Announces Joint Venture with Google to Create New TPU Cloud
 
 - Quality score: 98
 - Quality label: Excellent
@@ -1466,7 +1522,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 53: Ares, Scion Launch JV With $910M Deal For Student Housing Portfolio
+## Prompt 55: Ares, Scion Launch JV With $910M Deal For Student Housing Portfolio
 
 - Quality score: 98
 - Quality label: Excellent
@@ -1494,7 +1550,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 54: Affordable Housing Pivot For 11880 Skyline Boulevard, Oakland Hills
+## Prompt 56: Affordable Housing Pivot For 11880 Skyline Boulevard, Oakland Hills
 
 - Quality score: 98
 - Quality label: Excellent
@@ -1522,35 +1578,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 55: CRE Sales Fall 33%, Reversing Q1 Momentum As Debt Costs Climb
-
-- Quality score: 98
-- Quality label: Excellent
-- Missing context: None
-
-```text
-You are a strategic research analyst for Woomi / Woomi Global.
-Analyze the following US multifamily housing article for developer strategy.
-
-Article context:
-- Title: CRE Sales Fall 33%, Reversing Q1 Momentum As Debt Costs Climb
-- Source: Bisnow
-- URL: https://www.bisnow.com/national/news/capital-markets/cre-sales-fall-33-percent-reversing-first-quarter-momentum-debt-costs-climb-134663
-- Market focus: National
-- Strategic angle: Financing Risk; Institutional Flow
-- Market signal: Financing Cost Signal
-- Extracted numbers: 33%
-- Strategic implication: Monitor financing conditions because the article includes capital markets, cbre, debt and 33%, which may affect construction loans, refinancing risk, and exit cap rates.
-- Woomi relevance: High relevance to US residential developer strategy
-
-Please answer in concise bullet points:
-1. Why does this article matter for a US multifamily developer?
-2. What is the implication for Woomi / Woomi Global?
-3. What risk or opportunity does this indicate?
-4. What follow-up question should the strategy team ask?
-```
-
-## Prompt 56: VoltaGrid Announces $1 Billion Strategic Equity Investment from Blackstone and Halliburton to Fund Growth and Acquisition of Propell
+## Prompt 57: VoltaGrid Announces $1 Billion Strategic Equity Investment from Blackstone and Halliburton to Fund Growth and Acquisition of Propell
 
 - Quality score: 98
 - Quality label: Excellent
@@ -1578,7 +1606,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 57: US Merchants Picks Up Rail-Ready Surprise Warehouse for $63.8M
+## Prompt 58: US Merchants Picks Up Rail-Ready Surprise Warehouse for $63.8M
 
 - Quality score: 98
 - Quality label: Excellent

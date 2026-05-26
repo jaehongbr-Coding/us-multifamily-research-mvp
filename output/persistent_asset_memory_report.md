@@ -1,16 +1,16 @@
 # Persistent Asset Memory Report
 
-Generated: 2026-05-26 06:05:19
+Generated: 2026-05-26 08:10:42
 
-- Total persistent assets tracked: 142
-- Newly detected assets: 109
+- Total persistent assets tracked: 146
+- Newly detected assets: 114
 - Progressing assets: 0
 - Possible stalled assets: 6
 
 ## Highest Priority Asset Watch Items
 
 - Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four...: Priority Asset Watch, Refinancing / Recapitalization, score 91.
-- Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Priority Asset Watch, Site Acquisition / Site Control, score 89.
+- Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Priority Asset Watch, Site Acquisition / Site Control, score 90.
 - General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History: Priority Asset Watch, Unknown Stage, score 88.
 - Acquisition - Sun Belt - Dominium Acquires Affordable Seniors Housing Community in Duluth, Georgia, Plans $9.9M Ren...: Priority Asset Watch, Early Site Signal, score 87.
 - Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M: Priority Asset Watch, Unknown Stage, score 86.
@@ -36,7 +36,7 @@ Generated: 2026-05-26 06:05:19
 ## Assets With Repeated Entitlement Signals
 
 - Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four...: Priority Asset Watch, Refinancing / Recapitalization, score 91.
-- Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Priority Asset Watch, Site Acquisition / Site Control, score 89.
+- Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Priority Asset Watch, Site Acquisition / Site Control, score 90.
 - Acquisition - Sun Belt - Dominium Acquires Affordable Seniors Housing Community in Duluth, Georgia, Plans $9.9M Ren...: Priority Asset Watch, Early Site Signal, score 87.
 - Modular / Construction Innovation - California - Modular Apartment Construction Gains Momentum In Bay Area: Priority Asset Watch, Site Acquisition / Site Control, score 84.
 - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History: Priority Asset Watch, Unknown Stage, score 78.
@@ -49,7 +49,7 @@ Generated: 2026-05-26 06:05:19
 ## Recurring Asset Signals
 
 - Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four...: Priority Asset Watch, Refinancing / Recapitalization, score 91.
-- Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Priority Asset Watch, Site Acquisition / Site Control, score 89.
+- Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Priority Asset Watch, Site Acquisition / Site Control, score 90.
 - General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History: Priority Asset Watch, Unknown Stage, score 88.
 - Acquisition - Sun Belt - Dominium Acquires Affordable Seniors Housing Community in Duluth, Georgia, Plans $9.9M Ren...: Priority Asset Watch, Early Site Signal, score 87.
 - Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M: Priority Asset Watch, Unknown Stage, score 86.
@@ -79,10 +79,10 @@ Generated: 2026-05-26 06:05:19
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 142
+- Signals evaluated: 146
 - Institutional-grade signals: 13
 - High-confidence signals: 30
-- Weak/noisy signals: 99
+- Weak/noisy signals: 103
 - High-confidence watchlist items: 30
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

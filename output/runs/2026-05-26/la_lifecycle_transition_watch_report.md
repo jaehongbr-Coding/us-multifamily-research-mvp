@@ -1,8 +1,8 @@
 # LA Lifecycle Transition Watch Report
 
-Generated: 2026-05-26 06:05:19
+Generated: 2026-05-26 08:10:42
 
-- Total LA lifecycle transition watch items: 45
+- Total LA lifecycle transition watch items: 48
 
 ## LA Projects Moving Forward
 
@@ -14,7 +14,7 @@ Generated: 2026-05-26 06:05:19
 
 ## LA Permit / Construction Start Watch
 
-- None detected.
+- Rexford Launches Construction on Single-Tenant Kearny Mesa Industrial: No Previous Record -> Vertical Construction, Construction start watch.
 
 ## LA Refinancing / Recap Timing Watch
 
@@ -31,6 +31,7 @@ Generated: 2026-05-26 06:05:19
 
 ## Recommended LA Transition Follow-up Actions
 
+- Monitor for another run to confirm lifecycle direction: Rexford Launches Construction on Single-Tenant Kearny Mesa Industrial.
 - Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily.
 - Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments.
 - Track maturity, lender, recapitalization need, and potential JV angle: Alta Developers Lands $91.8M Construction Loan for Miami Apartments.
@@ -38,16 +39,15 @@ Generated: 2026-05-26 06:05:19
 - Track maturity, lender, recapitalization need, and potential JV angle: Anaheim Industrial Outdoor Storage Site Secures Bridge Loan.
 - Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Sun Belt - Georgia Tech Student Housing Investors Ink Refi.
 - Monitor for another run to confirm lifecycle direction: Construction Financing - Other / Unknown - Eastern Bank Leads Financing for Wood Partners’ First Rhode Island Project.
-- Monitor for another run to confirm lifecycle direction: General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 677
-- Canonical projects: 142
-- Duplicate project clusters: 95
-- Persistent assets tracked: 142
-- LA persistent asset watch items: 83
+- Raw project references: 689
+- Canonical projects: 146
+- Duplicate project clusters: 94
+- Persistent assets tracked: 146
+- LA persistent asset watch items: 88
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

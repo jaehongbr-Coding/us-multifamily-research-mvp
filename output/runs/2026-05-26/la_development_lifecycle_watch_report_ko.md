@@ -1,6 +1,6 @@
 # 한국어 LA 개발 단계 Watch
 
-- 생성 시각: 2026-05-26 06:05:16
+- 생성 시각: 2026-05-26 08:10:38
 - 참고 원문 파일: `la_development_lifecycle_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -19,6 +19,7 @@
 
 ## 진행 / 정체 / 재등장 신호
 
+- Rexford Launches Construction on Single-Tenant Kearny Mesa Industrial: Los Angeles, 일반 주거, 점수 71 (Newly Detected Project; Unknown)
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: California, 아파트, 점수 63 (Same Stage Persistence; Stable)
 - Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Los Angeles, 아파트, 점수 63 (Same Stage Persistence; Stable)
 - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Los Angeles, 아파트, 점수 63 (Same Stage Persistence; Stable)
@@ -28,7 +29,6 @@
 - Construction Financing - Other / Unknown - Eastern Bank Leads Financing for Wood Partners’ First Rhode Island Project: Los Angeles, 아파트, 점수 50 (Same Stage Persistence; Stable)
 - General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History: Los Angeles, 아파트, 점수 50 (Unknown Transition; Unknown)
 - JV / Partnership - New York - Blackstone Announces Joint Venture with Google to Create New TPU Cloud: Los Angeles, 일반 주거, 점수 49 (Unknown Transition; Unknown)
-- Operational / Property Management Tech - Sun Belt - VoltaGrid Announces $1 Billion Strategic Equity Investment from Blackstone and Halliburton...: Los Angeles, 일반 주거, 점수 49 (Unknown Transition; Unknown)
 
 ## 인허가 / 착공 / 리스업 타이밍
 

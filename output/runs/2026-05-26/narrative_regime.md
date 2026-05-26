@@ -1,6 +1,6 @@
 # Narrative Regime Detection
 
-Generated: 2026-05-26 06:05:16
+Generated: 2026-05-26 08:10:38
 
 ## Detected Regime
 
@@ -13,10 +13,10 @@ Generated: 2026-05-26 06:05:16
 
 | Regime | Score |
 | --- | ---: |
-| Developer Strategy Shift | 182 |
-| Selective Capital Re-entry | 145 |
-| Financing Stress | 120 |
-| Supply Pressure | 44 |
+| Developer Strategy Shift | 188 |
+| Selective Capital Re-entry | 144 |
+| Financing Stress | 112 |
+| Supply Pressure | 47 |
 | Policy / Entitlement Watch | 30 |
 | Construction Cost Pressure | 5 |
 
@@ -32,20 +32,20 @@ Regime momentum is available in `regime_momentum_report.md` when previous heatma
 | Financing Stress | 81 | Very Strong |
 | Policy / Entitlement Watch | 67 | Strong |
 | Developer Strategy Shift | 59 | Moderate |
-| Construction Cost Pressure | 25 | Weak |
+| Construction Cost Pressure | 22 | Weak |
 | Stable Monitoring Environment | 0 | Not Detected |
 
 ## Signal Inputs
 
-- Strategy-briefing articles reviewed: 57
+- Strategy-briefing articles reviewed: 58
 - Market-signal articles reviewed: 33
 - Articles with extracted numbers: 33
-- Institutional player mentions: 17
+- Institutional player mentions: 16
 
 ### Strategic Angles
 
-- Developer Strategy: 36
-- Financing Risk: 20
+- Developer Strategy: 37
+- Financing Risk: 19
 - Institutional Flow: 19
 - Regulation Risk: 6
 - Supply Pressure: 5
@@ -55,14 +55,14 @@ Regime momentum is available in `regime_momentum_report.md` when previous heatma
 
 - Rent Growth Signal: 13
 - Deal Size Signal: 10
-- Financing Cost Signal: 5
-- Supply / Starts Signal: 4
+- Supply / Starts Signal: 5
+- Financing Cost Signal: 4
 - Vacancy Signal: 1
 
 ### Decision Uses
 
-- Track Developer Strategy: 36
-- Track Financing Conditions: 20
+- Track Developer Strategy: 37
+- Track Financing Conditions: 19
 - Track Institutional Capital Flow: 19
 - Track Regulation Risk: 6
 - Track Supply Pipeline: 5
@@ -73,24 +73,25 @@ Regime momentum is available in `regime_momentum_report.md` when previous heatma
 - Sun Belt: 17
 - California: 10
 - Other / Unknown: 9
-- National: 8
+- National: 7
+- Los Angeles: 6
 - New York: 5
-- Los Angeles: 4
 
 ### Action Levels
 
-- Must Read: 38
+- Must Read: 40
 - Review: 13
-- Monitor: 6
+- Monitor: 5
 
 ### Woomi Relevance
 
-- High relevance to US residential developer strategy: 46
+- High relevance to US residential developer strategy: 47
 - Medium relevance to market monitoring: 11
 
 ## Key Thematic Context
 
-- No major thematic increase alert was detected in this run.
+- Los Angeles focus is Sharp Increase (4 to 6).
+- Market signal activity is increasing, led by Supply / Starts Signal (4 to 5).
 
 ## Cross-Theme Interpretation
 

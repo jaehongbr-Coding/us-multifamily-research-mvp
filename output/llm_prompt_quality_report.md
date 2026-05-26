@@ -1,11 +1,11 @@
 # LLM Prompt Quality Report
 
-Generated: 2026-05-26 06:05:16
+Generated: 2026-05-26 08:10:38
 
-- Total prompts reviewed: 57
-- Average prompt quality score: 90.7
+- Total prompts reviewed: 58
+- Average prompt quality score: 90.6
 - Excellent prompts: 39
-- Good prompts: 18
+- Good prompts: 19
 - Needs Improvement prompts: 0
 - Poor prompts: 0
 
@@ -27,6 +27,6 @@ Generated: 2026-05-26 06:05:16
 
 ## Common Missing Context Issues
 
-- missing market signal: 27
-- missing extracted numbers: 16
+- missing market signal: 28
+- missing extracted numbers: 17
 - missing market focus: 9

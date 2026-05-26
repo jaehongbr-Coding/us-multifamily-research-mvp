@@ -1,6 +1,6 @@
 # Opportunity Deduplication Report
 
-Generated: 2026-05-26 06:05:17
+Generated: 2026-05-26 08:10:40
 
 - Total duplicate clusters: 10
 - Opportunities removed via deduplication: 0
@@ -45,7 +45,7 @@ Generated: 2026-05-26 06:05:17
 - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition: California, 1 related row(s), opportunity score 67, distress score 0.
 - Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown: California, 1 related row(s), opportunity score 67, distress score 0.
 - Affordable housing takes shape at 101 Pacific Coast Hwy. in Long Beach: California, 1 related row(s), opportunity score 67, distress score 0.
-- JLL Arranges $252M Financing for Huntington Beach Seniors Project: California, 1 related row(s), opportunity score 64, distress score 0.
+- Avison Young Markets Echo Park Multifamily Portfolio: Los Angeles, 1 related row(s), opportunity score 65, distress score 0.
 
 ## Why This Matters
 

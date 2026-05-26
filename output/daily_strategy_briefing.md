@@ -1,6 +1,6 @@
 # US Multifamily Daily Strategy Briefing
 
-Generated: 2026-05-26 06:05:16
+Generated: 2026-05-26 08:10:38
 
 ## Hero Market View
 
@@ -8,19 +8,19 @@ Generated: 2026-05-26 06:05:16
 
 ## Why It Matters
 
-- financing / refinancing 부담 관련 기사가 37건 포착됐고, source 다양성은 15개로 측정됩니다.
+- financing / refinancing 부담 관련 기사가 37건 포착됐고, source 다양성은 16개로 측정됩니다.
 - Daily Mentioned Market은 Sun Belt이지만, 단순 기사 수보다 source 다양성, 반복 여부, duplicate risk를 함께 봐야 합니다.
 - 다만 보수적으로 해석해도 해당 signal은 오늘 briefing에서 우선 확인할 만합니다.
 
 ## Key Market Signals
 
-- financing / refinancing 부담: 37 article(s), 15 source(s), 7 market(s), stable, confidence: moderate confidence.
-- 기관 자본 흐름: 24 article(s), 13 source(s), 6 market(s), stable, confidence: moderate confidence.
+- financing / refinancing 부담: 37 article(s), 16 source(s), 7 market(s), stable, confidence: moderate confidence.
+- 기관 자본 흐름: 24 article(s), 14 source(s), 6 market(s), stable, confidence: moderate confidence.
 - 공급 / 임대시장 압력: 19 article(s), 9 source(s), 6 market(s), stable, confidence: moderate confidence.
 
 ## Market Interpretation
 
-- Capital flow: 24건의 자본 흐름 signal이 포착됐고 13개 source가 확인됩니다.
+- Capital flow: 24건의 자본 흐름 signal이 포착됐고 14개 source가 확인됩니다.
 - Development: 개발 / 인허가 signal이 Los Angeles 중심으로 반복 관찰됩니다.
 - Financing: refinancing 및 debt 관련 signal이 stable 상태로 관찰됩니다.
 - Supply / demand: lease-up, concession, absorption 관련 signal이 underwriting 확인 사항으로 남아 있습니다.
@@ -36,9 +36,9 @@ Generated: 2026-05-26 06:05:16
 - Daily Mentioned Market: Sun Belt
 - Weekly Momentum Market: Sun Belt
 - Weekly Momentum Driver: financing / refinancing 부담, 기관 자본 흐름, 공급 / 임대시장 압력
-- Total saved articles: 76
+- Total saved articles: 78
 - Market-signal article count: 33
-- Strategy-briefing article count: 57
+- Strategy-briefing article count: 58
 
 ## Representative Evidence
 

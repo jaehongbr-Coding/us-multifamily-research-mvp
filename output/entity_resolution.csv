@@ -1,171 +1,171 @@
 ﻿run_date,run_id,raw_entity,canonical_entity,entity_type,alias_matched,confidence_score,source_file,occurrence_count,notes
-2026-05-26,20260526-060516-8f6cea4b,Acquisition - Arizona - Bascom Arizona Ventures Buys Multifamily Community in Tucson for $45.5M,Acquisition - Arizona - Bascom Arizona Ventures Buys Multifamily Community in Tucson for $45.5M,Project / Deal,,40,relationship_graph.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Arizona,Arizona,Market / Region,,40,articles.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Arizona,Arizona,Market / Region,,40,deal_pipeline.csv,3,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Arizona,Arizona,Market / Region,,40,regional_intelligence.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Arizona,Arizona,Market / Region,,40,relationship_graph.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,AvalonBay,AvalonBay,Developer / GP,,40,deal_pipeline.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,AvalonBay,AvalonBay,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,AvalonBay,AvalonBay,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,AvalonBay,AvalonBay,Developer / GP,,40,relationship_graph.csv,7,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,"BTR / Build-to-Rent - National - House Passes BTR-Friendly Housing Bill, But Senate Fight Looms","BTR / Build-to-Rent - National - House Passes BTR-Friendly Housing Bill, But Senate Fight Looms",Project / Deal,,40,relationship_graph.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,berkadia,Berkadia,Lender / Debt Provider,Berkadia,75,deal_pipeline.csv,2,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,berkadia,Berkadia,Lender / Debt Provider,Berkadia,75,relationship_graph.csv,2,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,Blackstone,Blackstone,Developer / GP,Blackstone,100,deal_pipeline.csv,2,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,Blackstone,Blackstone,Developer / GP,Blackstone,100,gp_intelligence.csv,1,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,Blackstone,Blackstone,Developer / GP,Blackstone,100,institutional_relationships.csv,1,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,Blackstone,Blackstone,Developer / GP,Blackstone,100,relationship_graph.csv,7,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,blackstone,Blackstone,Institutional Capital,Blackstone,75,deal_pipeline.csv,2,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,blackstone,Blackstone,Institutional Capital,Blackstone,75,relationship_graph.csv,2,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,JV / Partnership - New York - Blackstone Announces Joint Venture with Google to Create New TPU Cloud,Blackstone,Project / Deal,Blackstone,60,relationship_graph.csv,1,partial match
-2026-05-26,20260526-060516-8f6cea4b,Operational / Property Management Tech - Sun Belt - VoltaGrid Announces $1 Billion Strategic Equity Investment from Blackstone and Halliburton...,Blackstone,Project / Deal,Blackstone,60,relationship_graph.csv,1,partial match
-2026-05-26,20260526-060516-8f6cea4b,Brookfield,Brookfield,Developer / GP,Brookfield,100,deal_pipeline.csv,1,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,Brookfield,Brookfield,Developer / GP,Brookfield,100,gp_intelligence.csv,1,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,Brookfield,Brookfield,Developer / GP,Brookfield,100,institutional_relationships.csv,1,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,Brookfield,Brookfield,Developer / GP,Brookfield,100,relationship_graph.csv,3,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,brookfield,Brookfield,Institutional Capital,Brookfield,75,deal_pipeline.csv,1,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,brookfield,Brookfield,Institutional Capital,Brookfield,75,relationship_graph.csv,1,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,cbre,CBRE,Lender / Debt Provider,CBRE,75,deal_pipeline.csv,2,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,cbre,CBRE,Lender / Debt Provider,CBRE,75,relationship_graph.csv,2,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,California,California,Market / Region,California,100,articles.csv,11,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,California,California,Market / Region,California,100,deal_pipeline.csv,18,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,California,California,Market / Region,California,100,regional_intelligence.csv,1,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,California,California,Market / Region,California,100,relationship_graph.csv,11,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition,California,Project / Deal,California,60,relationship_graph.csv,1,partial match
-2026-05-26,20260526-060516-8f6cea4b,Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four...,California,Project / Deal,California,60,relationship_graph.csv,3,partial match
-2026-05-26,20260526-060516-8f6cea4b,Disposition / Exit - California - Northmarq: Multifamily Sale Serves as Benchmark for Fresno Market,California,Project / Deal,California,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,Entitlement / Permitting - California - Demolition Permits Filed For 1939 Market Street in San Francisco,California,Project / Deal,California,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,General Project Signal - California - Affordable housing takes shape at 101 Pacific Coast Hwy. in Long Beach,California,Project / Deal,California,60,relationship_graph.csv,1,partial match
-2026-05-26,20260526-060516-8f6cea4b,General Project Signal - California - Anaheim Industrial Outdoor Storage Site Secures Bridge Loan,California,Project / Deal,California,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,Development Start - National - Multifamily starts forecasts mostly lower in May,Development Start - National - Multifamily starts forecasts mostly lower in May,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Development Start - National - Multifamily starts rose again in April,Development Start - National - Multifamily starts rose again in April,Project / Deal,,40,relationship_graph.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Development Start - Other / Unknown - Fourth Quarter 2025 Multifamily Construction Data,Development Start - Other / Unknown - Fourth Quarter 2025 Multifamily Construction Data,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Development Start - Other / Unknown - Missing Middle Weakness,Development Start - Other / Unknown - Missing Middle Weakness,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Development Start - Other / Unknown - Overall Housing Starts Inch Lower in 2025,Development Start - Other / Unknown - Overall Housing Starts Inch Lower in 2025,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Development Start - Other / Unknown - Third Quarter 2025 Multifamily Construction Data,Development Start - Other / Unknown - Third Quarter 2025 Multifamily Construction Data,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,"Disposition / Exit - National - CRE Sales Fall 33%, Reversing Q1 Momentum As Debt Costs Climb","Disposition / Exit - National - CRE Sales Fall 33%, Reversing Q1 Momentum As Debt Costs Climb",Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Disposition / Exit - National - Scion and Ares Acquire $910M Multifamily Student Housing Portfolio from Harrison Street As...,Disposition / Exit - National - Scion and Ares Acquire $910M Multifamily Student Housing Portfolio from Harrison Street As...,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter,Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Disposition / Exit - Texas - The Statesman at Horseshoe Bay Breaks Ground Introducing $108M Luxury Senior Living Commun...,Disposition / Exit - Texas - The Statesman at Horseshoe Bay Breaks Ground Introducing $108M Luxury Senior Living Commun...,Project / Deal,,40,relationship_graph.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Entitlement / Permitting - Other / Unknown - Builders Stay Cautious as Single-Family Permits Weaken,Entitlement / Permitting - Other / Unknown - Builders Stay Cautious as Single-Family Permits Weaken,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Entitlement / Permitting - Other / Unknown - Shorter Apartment Construction Time in 2024,Entitlement / Permitting - Other / Unknown - Shorter Apartment Construction Time in 2024,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Equity Residential,Equity Residential,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Equity Residential,Equity Residential,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,fannie mae,Fannie Mae,Lender / Debt Provider,Fannie Mae,75,deal_pipeline.csv,1,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,fannie mae,Fannie Mae,Lender / Debt Provider,Fannie Mae,75,relationship_graph.csv,1,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,Florida,Florida,Market / Region,,40,articles.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Florida,Florida,Market / Region,,40,deal_pipeline.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Florida,Florida,Market / Region,,40,regional_intelligence.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Florida,Florida,Market / Region,,40,relationship_graph.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,General Project Signal - Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan,General Project Signal - Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,"General Project Signal - Other / Unknown - Construction Begins on Second Phase of Luxury Apartment Project in Blue Springs, Missouri","General Project Signal - Other / Unknown - Construction Begins on Second Phase of Luxury Apartment Project in Blue Springs, Missouri",Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,General Project Signal - Other / Unknown - Multifamily Absorption Rate Remains Below 50%,General Project Signal - Other / Unknown - Multifamily Absorption Rate Remains Below 50%,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Hanover Company,Hanover Company,Developer / GP,,40,deal_pipeline.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Hanover Company,Hanover Company,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Hanover Company,Hanover Company,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Hanover Company,Hanover Company,Developer / GP,,40,relationship_graph.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Houston,Houston,Market / Region,,40,deal_pipeline.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Houston,Houston,Market / Region,,40,relationship_graph.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,jll,JLL,Lender / Debt Provider,JLL,75,deal_pipeline.csv,5,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,jll,JLL,Lender / Debt Provider,JLL,75,relationship_graph.csv,5,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily,JLL,Project / Deal,JLL,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project,JLL,Project / Deal,JLL,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,L.A.,Los Angeles,Market / Region,LA,90,deal_pipeline.csv,1,known alias match
-2026-05-26,20260526-060516-8f6cea4b,L.A.,Los Angeles,Market / Region,LA,90,relationship_graph.csv,1,known alias match
-2026-05-26,20260526-060516-8f6cea4b,Los Angeles,Los Angeles,Market / Region,Los Angeles,100,articles.csv,4,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,Los Angeles,Los Angeles,Market / Region,Los Angeles,100,deal_pipeline.csv,7,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,Los Angeles,Los Angeles,Market / Region,Los Angeles,100,regional_intelligence.csv,1,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,Los Angeles,Los Angeles,Market / Region,Los Angeles,100,relationship_graph.csv,4,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,Acquisition - National - Arbor Realty Trust Lends $125M on Chicago Apartments Acquisition,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,1,partial match
-2026-05-26,20260526-060516-8f6cea4b,"Acquisition - Sun Belt - Dominium Acquires Affordable Seniors Housing Community in Duluth, Georgia, Plans $9.9M Ren...",Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,"Acquisition - Sun Belt - Dutch Investor Pays $110M for New Rental in Aventura, Fla.",Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,Acquisition - Sun Belt - El-Ad Pays $45.5M for Coconut Grove Property,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,3,partial match
-2026-05-26,20260526-060516-8f6cea4b,BTR / Build-to-Rent - Arizona - Work Begins on Avala a 94-Unit Scottsdale Luxury Multifamily Build-to-Rent Community,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,Construction Financing - Other / Unknown - Eastern Bank Leads Financing for Wood Partners’ First Rhode Island Project,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,1,partial match
-2026-05-26,20260526-060516-8f6cea4b,Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,"Disposition / Exit - Los Angeles - L.A.'s poor ParkScore, Oceanwide sale delayed, and more",Los Angeles,Project / Deal,Los Angeles,60,relationship_graph.csv,1,partial match
-2026-05-26,20260526-060516-8f6cea4b,Entitlement / Permitting - California - Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown,Los Angeles,Project / Deal,Koreatown,60,relationship_graph.csv,1,partial match
-2026-05-26,20260526-060516-8f6cea4b,Entitlement / Permitting - Los Angeles - Developer revives plan for Best Western hotel at 2645 S. Western Ave. in Jefferson Park,Los Angeles,Project / Deal,Los Angeles,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,Entitlement / Permitting - Los Angeles - Habitat development opens for residents next to La Cienega/Jefferson Station,Los Angeles,Project / Deal,Los Angeles,60,relationship_graph.csv,1,partial match
-2026-05-26,20260526-060516-8f6cea4b,"Entitlement / Permitting - Other / Unknown - Plans Increase For 1223 East 33rd Avenue in Fruitvale, Oakland",Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,"General Project Signal - California - Affordable Housing Pivot For 11880 Skyline Boulevard, Oakland Hills",Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,"General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History",Los Angeles,Project / Deal,LA,60,relationship_graph.csv,1,partial match
-2026-05-26,20260526-060516-8f6cea4b,General Project Signal - New York - Apartment REITs Equity Residential and AvalonBay Communities Inc Announced Merger for $52B...,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,1,partial match
-2026-05-26,20260526-060516-8f6cea4b,"General Project Signal - Other / Unknown - Formal Application For 19300 Stevens Creek Boulevard, Cupertino",Los Angeles,Project / Deal,LA,60,relationship_graph.csv,1,partial match
-2026-05-26,20260526-060516-8f6cea4b,"JV / Partnership - National - Ares, Scion Launch JV With $910M Deal For Student Housing Portfolio",Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,Modular / Construction Innovation - California - Modular Apartment Construction Gains Momentum In Bay Area,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.,Los Angeles,Project / Deal,Los Angeles,60,relationship_graph.csv,1,partial match
-2026-05-26,20260526-060516-8f6cea4b,National,National,Market / Region,,40,articles.csv,13,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,National,National,Market / Region,,40,deal_pipeline.csv,14,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,National,National,Market / Region,,40,relationship_graph.csv,6,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,National / Other,National / Other,Market / Region,,40,regional_intelligence.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Manhattan,New York,Market / Region,Manhattan,75,deal_pipeline.csv,1,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,Manhattan,New York,Market / Region,Manhattan,75,relationship_graph.csv,1,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,New York,New York,Market / Region,New York,100,articles.csv,6,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,New York,New York,Market / Region,New York,100,deal_pipeline.csv,9,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,New York,New York,Market / Region,New York,100,regional_intelligence.csv,1,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,New York,New York,Market / Region,New York,100,relationship_graph.csv,5,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,Acquisition - New York - AV Management Acquires Multifamily Property 73-75 Sullivan Street in SoHo Manhattan for $4...,New York,Project / Deal,New York,60,relationship_graph.csv,1,partial match
-2026-05-26,20260526-060516-8f6cea4b,Acquisition - New York - Investment Firm Acquires SoHo Mixed-Use for $43M,New York,Project / Deal,New York,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,Refinancing - New York - Dwight Capital Provides $54M HUD-Insured Loan for Refinancing of Queens Apartment Building,New York,Project / Deal,New York,60,relationship_graph.csv,1,partial match
-2026-05-26,20260526-060516-8f6cea4b,"Operational / Property Management Tech - Other / Unknown - Morgan Properties Hires Tech Czar To Deploy AI Across 110,000 Apartments","Operational / Property Management Tech - Other / Unknown - Morgan Properties Hires Tech Czar To Deploy AI Across 110,000 Apartments",Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Other / Unknown,Other / Unknown,Market / Region,,40,articles.csv,17,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Other / Unknown,Other / Unknown,Market / Region,,40,deal_pipeline.csv,13,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Sacramento,Sacramento,Market / Region,,40,deal_pipeline.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Sacramento,Sacramento,Market / Region,,40,relationship_graph.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,San Francisco,San Francisco,Market / Region,,40,deal_pipeline.csv,3,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,San Francisco,San Francisco,Market / Region,,40,relationship_graph.csv,3,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Scottsdale,Scottsdale,Market / Region,,40,deal_pipeline.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Scottsdale,Scottsdale,Market / Region,,40,relationship_graph.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Seattle,Seattle,Market / Region,,40,regional_intelligence.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Southeast,Southeast,Market / Region,,40,articles.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Southeast,Southeast,Market / Region,,40,regional_intelligence.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Atlanta,Sun Belt,Market / Region,Atlanta,75,deal_pipeline.csv,6,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,Atlanta,Sun Belt,Market / Region,Atlanta,75,relationship_graph.csv,6,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,Austin,Sun Belt,Market / Region,Austin,75,deal_pipeline.csv,1,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,Austin,Sun Belt,Market / Region,Austin,75,regional_intelligence.csv,1,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,Austin,Sun Belt,Market / Region,Austin,75,relationship_graph.csv,1,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,Dallas,Sun Belt,Market / Region,Dallas,75,regional_intelligence.csv,1,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,Miami,Sun Belt,Market / Region,Miami,75,deal_pipeline.csv,6,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,Miami,Sun Belt,Market / Region,Miami,75,relationship_graph.csv,6,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,Phoenix,Sun Belt,Market / Region,Phoenix,75,deal_pipeline.csv,3,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,Phoenix,Sun Belt,Market / Region,Phoenix,75,regional_intelligence.csv,1,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,Phoenix,Sun Belt,Market / Region,Phoenix,75,relationship_graph.csv,3,case or punctuation normalized match
-2026-05-26,20260526-060516-8f6cea4b,Sun Belt,Sun Belt,Market / Region,Sun Belt,100,articles.csv,20,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,Sun Belt,Sun Belt,Market / Region,Sun Belt,100,deal_pipeline.csv,17,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,Sun Belt,Sun Belt,Market / Region,Sun Belt,100,regional_intelligence.csv,1,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,Sun Belt,Sun Belt,Market / Region,Sun Belt,100,relationship_graph.csv,17,exact canonical match
-2026-05-26,20260526-060516-8f6cea4b,Acquisition - Sun Belt - US Merchants Picks Up Rail-Ready Surprise Warehouse for $63.8M,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,3,partial match
-2026-05-26,20260526-060516-8f6cea4b,BTR / Build-to-Rent - Sun Belt - Legacy MCS Completes Two Build-to-Rent Communities in Hutto Expanding Presence in Fast-Gro...,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,BTR / Build-to-Rent - Sun Belt - NexMetro Debuts 229-Unit San Tan Valley BTR Community,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,BTR / Build-to-Rent - Sun Belt - Work Begins on 94-Unit Scottsdale Luxury BTR Community,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,Construction Financing - Sun Belt - Madison Realty Capital Originates $91.8M Construction Loan for Multifamily Project in Sout...,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,1,partial match
-2026-05-26,20260526-060516-8f6cea4b,Disposition / Exit - Sun Belt - Eaton Vance Picks Charlotte Rental Community for $65.8M,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,3,partial match
-2026-05-26,20260526-060516-8f6cea4b,Disposition / Exit - Sun Belt - Grand Peaks Sells Miami-Area Apartments for $65.5M,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,Entitlement / Permitting - Sun Belt - Cambridge Properties Bringing New Life to Aging Charlotte Center,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,General Project Signal - Sun Belt - Insignia Pursuing Embassy Row Redevelopment,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,Refinancing - Sun Belt - Dwight Capital Closes $130M HUD Refi on N. Miami Apartments,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,Refinancing - Sun Belt - Georgia Tech Student Housing Investors Ink Refi,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,2,partial match
-2026-05-26,20260526-060516-8f6cea4b,Texas,Texas,Market / Region,,40,articles.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Texas,Texas,Market / Region,,40,deal_pipeline.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Texas,Texas,Market / Region,,40,regional_intelligence.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Texas,Texas,Market / Region,,40,relationship_graph.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,U.S.,U.S.,Market / Region,,40,deal_pipeline.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,U.S.,U.S.,Market / Region,,40,relationship_graph.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Unknown,Unknown,Developer / GP,,40,deal_pipeline.csv,54,unknown entity needs review
-2026-05-26,20260526-060516-8f6cea4b,Unknown,Unknown,Institutional Capital,,40,deal_pipeline.csv,55,unknown entity needs review
-2026-05-26,20260526-060516-8f6cea4b,Unknown,Unknown,Lender / Debt Provider,,40,deal_pipeline.csv,49,unknown entity needs review
-2026-05-26,20260526-060516-8f6cea4b,Unknown,Unknown,Market / Region,,40,deal_pipeline.csv,13,unknown entity needs review
-2026-05-26,20260526-060516-8f6cea4b,Wood Partners,Wood Partners,Developer / GP,,40,deal_pipeline.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Wood Partners,Wood Partners,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Wood Partners,Wood Partners,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,Wood Partners,Wood Partners,Developer / GP,,40,relationship_graph.csv,5,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,ares,ares,Institutional Capital,,40,deal_pipeline.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,ares,ares,Institutional Capital,,40,relationship_graph.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,cushman,cushman,Lender / Debt Provider,,40,deal_pipeline.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,cushman,cushman,Lender / Debt Provider,,40,relationship_graph.csv,1,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,equity residential,equity residential,Institutional Capital,,40,deal_pipeline.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,equity residential,equity residential,Institutional Capital,,40,relationship_graph.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,northmarq,northmarq,Lender / Debt Provider,,40,deal_pipeline.csv,2,weak match / needs review
-2026-05-26,20260526-060516-8f6cea4b,northmarq,northmarq,Lender / Debt Provider,,40,relationship_graph.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Acquisition - Arizona - Bascom Arizona Ventures Buys Multifamily Community in Tucson for $45.5M,Acquisition - Arizona - Bascom Arizona Ventures Buys Multifamily Community in Tucson for $45.5M,Project / Deal,,40,relationship_graph.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Arizona,Arizona,Market / Region,,40,articles.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Arizona,Arizona,Market / Region,,40,deal_pipeline.csv,3,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Arizona,Arizona,Market / Region,,40,regional_intelligence.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Arizona,Arizona,Market / Region,,40,relationship_graph.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,AvalonBay,AvalonBay,Developer / GP,,40,deal_pipeline.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,AvalonBay,AvalonBay,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,AvalonBay,AvalonBay,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,AvalonBay,AvalonBay,Developer / GP,,40,relationship_graph.csv,7,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,"BTR / Build-to-Rent - National - House Passes BTR-Friendly Housing Bill, But Senate Fight Looms","BTR / Build-to-Rent - National - House Passes BTR-Friendly Housing Bill, But Senate Fight Looms",Project / Deal,,40,relationship_graph.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,berkadia,Berkadia,Lender / Debt Provider,Berkadia,75,deal_pipeline.csv,2,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,berkadia,Berkadia,Lender / Debt Provider,Berkadia,75,relationship_graph.csv,2,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,Blackstone,Blackstone,Developer / GP,Blackstone,100,deal_pipeline.csv,2,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,Blackstone,Blackstone,Developer / GP,Blackstone,100,gp_intelligence.csv,1,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,Blackstone,Blackstone,Developer / GP,Blackstone,100,institutional_relationships.csv,1,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,Blackstone,Blackstone,Developer / GP,Blackstone,100,relationship_graph.csv,7,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,blackstone,Blackstone,Institutional Capital,Blackstone,75,deal_pipeline.csv,2,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,blackstone,Blackstone,Institutional Capital,Blackstone,75,relationship_graph.csv,2,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,JV / Partnership - New York - Blackstone Announces Joint Venture with Google to Create New TPU Cloud,Blackstone,Project / Deal,Blackstone,60,relationship_graph.csv,1,partial match
+2026-05-26,20260526-081038-35a22dfb,Operational / Property Management Tech - Sun Belt - VoltaGrid Announces $1 Billion Strategic Equity Investment from Blackstone and Halliburton...,Blackstone,Project / Deal,Blackstone,60,relationship_graph.csv,1,partial match
+2026-05-26,20260526-081038-35a22dfb,Brookfield,Brookfield,Developer / GP,Brookfield,100,deal_pipeline.csv,1,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,Brookfield,Brookfield,Developer / GP,Brookfield,100,gp_intelligence.csv,1,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,Brookfield,Brookfield,Developer / GP,Brookfield,100,institutional_relationships.csv,1,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,Brookfield,Brookfield,Developer / GP,Brookfield,100,relationship_graph.csv,3,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,brookfield,Brookfield,Institutional Capital,Brookfield,75,deal_pipeline.csv,1,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,brookfield,Brookfield,Institutional Capital,Brookfield,75,relationship_graph.csv,1,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,cbre,CBRE,Lender / Debt Provider,CBRE,75,deal_pipeline.csv,1,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,cbre,CBRE,Lender / Debt Provider,CBRE,75,relationship_graph.csv,1,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,California,California,Market / Region,California,100,articles.csv,12,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,California,California,Market / Region,California,100,deal_pipeline.csv,18,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,California,California,Market / Region,California,100,regional_intelligence.csv,1,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,California,California,Market / Region,California,100,relationship_graph.csv,11,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition,California,Project / Deal,California,60,relationship_graph.csv,1,partial match
+2026-05-26,20260526-081038-35a22dfb,Acquisition - California - Sacramento Multifamily Sale 16 Powerhouse Achieves Market’s Highest Price Per Unit in Four...,California,Project / Deal,California,60,relationship_graph.csv,3,partial match
+2026-05-26,20260526-081038-35a22dfb,Disposition / Exit - California - Northmarq: Multifamily Sale Serves as Benchmark for Fresno Market,California,Project / Deal,California,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,Entitlement / Permitting - California - Demolition Permits Filed For 1939 Market Street in San Francisco,California,Project / Deal,California,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,General Project Signal - California - Affordable housing takes shape at 101 Pacific Coast Hwy. in Long Beach,California,Project / Deal,California,60,relationship_graph.csv,1,partial match
+2026-05-26,20260526-081038-35a22dfb,General Project Signal - California - Anaheim Industrial Outdoor Storage Site Secures Bridge Loan,California,Project / Deal,California,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,Development Start - National - Multifamily starts forecasts mostly lower in May,Development Start - National - Multifamily starts forecasts mostly lower in May,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Development Start - National - Multifamily starts rose again in April,Development Start - National - Multifamily starts rose again in April,Project / Deal,,40,relationship_graph.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Development Start - Other / Unknown - Fourth Quarter 2025 Multifamily Construction Data,Development Start - Other / Unknown - Fourth Quarter 2025 Multifamily Construction Data,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Development Start - Other / Unknown - Missing Middle Weakness,Development Start - Other / Unknown - Missing Middle Weakness,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Development Start - Other / Unknown - Overall Housing Starts Inch Lower in 2025,Development Start - Other / Unknown - Overall Housing Starts Inch Lower in 2025,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Development Start - Other / Unknown - Third Quarter 2025 Multifamily Construction Data,Development Start - Other / Unknown - Third Quarter 2025 Multifamily Construction Data,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Disposition / Exit - National - Scion and Ares Acquire $910M Multifamily Student Housing Portfolio from Harrison Street As...,Disposition / Exit - National - Scion and Ares Acquire $910M Multifamily Student Housing Portfolio from Harrison Street As...,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter,Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Disposition / Exit - Texas - The Statesman at Horseshoe Bay Breaks Ground Introducing $108M Luxury Senior Living Commun...,Disposition / Exit - Texas - The Statesman at Horseshoe Bay Breaks Ground Introducing $108M Luxury Senior Living Commun...,Project / Deal,,40,relationship_graph.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Entitlement / Permitting - Other / Unknown - Builders Stay Cautious as Single-Family Permits Weaken,Entitlement / Permitting - Other / Unknown - Builders Stay Cautious as Single-Family Permits Weaken,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Entitlement / Permitting - Other / Unknown - Shorter Apartment Construction Time in 2024,Entitlement / Permitting - Other / Unknown - Shorter Apartment Construction Time in 2024,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Equity Residential,Equity Residential,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Equity Residential,Equity Residential,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,fannie mae,Fannie Mae,Lender / Debt Provider,Fannie Mae,75,deal_pipeline.csv,1,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,fannie mae,Fannie Mae,Lender / Debt Provider,Fannie Mae,75,relationship_graph.csv,1,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,Florida,Florida,Market / Region,,40,articles.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Florida,Florida,Market / Region,,40,deal_pipeline.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Florida,Florida,Market / Region,,40,regional_intelligence.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Florida,Florida,Market / Region,,40,relationship_graph.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,General Project Signal - Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan,General Project Signal - Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,"General Project Signal - Other / Unknown - Construction Begins on Second Phase of Luxury Apartment Project in Blue Springs, Missouri","General Project Signal - Other / Unknown - Construction Begins on Second Phase of Luxury Apartment Project in Blue Springs, Missouri",Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,General Project Signal - Other / Unknown - Multifamily Absorption Rate Remains Below 50%,General Project Signal - Other / Unknown - Multifamily Absorption Rate Remains Below 50%,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Hanover Company,Hanover Company,Developer / GP,,40,deal_pipeline.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Hanover Company,Hanover Company,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Hanover Company,Hanover Company,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Hanover Company,Hanover Company,Developer / GP,,40,relationship_graph.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Houston,Houston,Market / Region,,40,deal_pipeline.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Houston,Houston,Market / Region,,40,relationship_graph.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,jll,JLL,Lender / Debt Provider,JLL,75,deal_pipeline.csv,5,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,jll,JLL,Lender / Debt Provider,JLL,75,relationship_graph.csv,5,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily,JLL,Project / Deal,JLL,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project,JLL,Project / Deal,JLL,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,L.A.,Los Angeles,Market / Region,LA,90,deal_pipeline.csv,1,known alias match
+2026-05-26,20260526-081038-35a22dfb,L.A.,Los Angeles,Market / Region,LA,90,relationship_graph.csv,1,known alias match
+2026-05-26,20260526-081038-35a22dfb,Los Angeles,Los Angeles,Market / Region,Los Angeles,100,articles.csv,6,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,Los Angeles,Los Angeles,Market / Region,Los Angeles,100,deal_pipeline.csv,9,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,Los Angeles,Los Angeles,Market / Region,Los Angeles,100,regional_intelligence.csv,1,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,Los Angeles,Los Angeles,Market / Region,Los Angeles,100,relationship_graph.csv,5,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,Acquisition - National - Arbor Realty Trust Lends $125M on Chicago Apartments Acquisition,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,1,partial match
+2026-05-26,20260526-081038-35a22dfb,"Acquisition - Sun Belt - Dominium Acquires Affordable Seniors Housing Community in Duluth, Georgia, Plans $9.9M Ren...",Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,"Acquisition - Sun Belt - Dutch Investor Pays $110M for New Rental in Aventura, Fla.",Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,Acquisition - Sun Belt - El-Ad Pays $45.5M for Coconut Grove Property,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,3,partial match
+2026-05-26,20260526-081038-35a22dfb,BTR / Build-to-Rent - Arizona - Work Begins on Avala a 94-Unit Scottsdale Luxury Multifamily Build-to-Rent Community,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,Construction Financing - Other / Unknown - Eastern Bank Leads Financing for Wood Partners’ First Rhode Island Project,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,1,partial match
+2026-05-26,20260526-081038-35a22dfb,Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,Disposition / Exit - Los Angeles - Avison Young Markets Echo Park Multifamily Portfolio,Los Angeles,Project / Deal,Los Angeles,60,relationship_graph.csv,1,partial match
+2026-05-26,20260526-081038-35a22dfb,"Disposition / Exit - Los Angeles - L.A.'s poor ParkScore, Oceanwide sale delayed, and more",Los Angeles,Project / Deal,Los Angeles,60,relationship_graph.csv,1,partial match
+2026-05-26,20260526-081038-35a22dfb,Entitlement / Permitting - California - Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown,Los Angeles,Project / Deal,Koreatown,60,relationship_graph.csv,1,partial match
+2026-05-26,20260526-081038-35a22dfb,Entitlement / Permitting - Los Angeles - Developer revives plan for Best Western hotel at 2645 S. Western Ave. in Jefferson Park,Los Angeles,Project / Deal,Los Angeles,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,Entitlement / Permitting - Los Angeles - Habitat development opens for residents next to La Cienega/Jefferson Station,Los Angeles,Project / Deal,Los Angeles,60,relationship_graph.csv,1,partial match
+2026-05-26,20260526-081038-35a22dfb,"Entitlement / Permitting - Other / Unknown - Plans Increase For 1223 East 33rd Avenue in Fruitvale, Oakland",Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,"General Project Signal - California - Affordable Housing Pivot For 11880 Skyline Boulevard, Oakland Hills",Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,"General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History",Los Angeles,Project / Deal,LA,60,relationship_graph.csv,1,partial match
+2026-05-26,20260526-081038-35a22dfb,General Project Signal - New York - Apartment REITs Equity Residential and AvalonBay Communities Inc Announced Merger for $52B...,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,1,partial match
+2026-05-26,20260526-081038-35a22dfb,"General Project Signal - Other / Unknown - Formal Application For 19300 Stevens Creek Boulevard, Cupertino",Los Angeles,Project / Deal,LA,60,relationship_graph.csv,1,partial match
+2026-05-26,20260526-081038-35a22dfb,"JV / Partnership - National - Ares, Scion Launch JV With $910M Deal For Student Housing Portfolio",Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,Modular / Construction Innovation - California - Modular Apartment Construction Gains Momentum In Bay Area,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.,Los Angeles,Project / Deal,Los Angeles,60,relationship_graph.csv,1,partial match
+2026-05-26,20260526-081038-35a22dfb,National,National,Market / Region,,40,articles.csv,12,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,National,National,Market / Region,,40,deal_pipeline.csv,12,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,National,National,Market / Region,,40,relationship_graph.csv,5,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,National / Other,National / Other,Market / Region,,40,regional_intelligence.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Manhattan,New York,Market / Region,Manhattan,75,deal_pipeline.csv,1,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,Manhattan,New York,Market / Region,Manhattan,75,relationship_graph.csv,1,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,New York,New York,Market / Region,New York,100,articles.csv,6,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,New York,New York,Market / Region,New York,100,deal_pipeline.csv,9,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,New York,New York,Market / Region,New York,100,regional_intelligence.csv,1,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,New York,New York,Market / Region,New York,100,relationship_graph.csv,5,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,Acquisition - New York - AV Management Acquires Multifamily Property 73-75 Sullivan Street in SoHo Manhattan for $4...,New York,Project / Deal,New York,60,relationship_graph.csv,1,partial match
+2026-05-26,20260526-081038-35a22dfb,Acquisition - New York - Investment Firm Acquires SoHo Mixed-Use for $43M,New York,Project / Deal,New York,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,Refinancing - New York - Dwight Capital Provides $54M HUD-Insured Loan for Refinancing of Queens Apartment Building,New York,Project / Deal,New York,60,relationship_graph.csv,1,partial match
+2026-05-26,20260526-081038-35a22dfb,"Operational / Property Management Tech - Other / Unknown - Morgan Properties Hires Tech Czar To Deploy AI Across 110,000 Apartments","Operational / Property Management Tech - Other / Unknown - Morgan Properties Hires Tech Czar To Deploy AI Across 110,000 Apartments",Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Other / Unknown,Other / Unknown,Market / Region,,40,articles.csv,17,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Other / Unknown,Other / Unknown,Market / Region,,40,deal_pipeline.csv,13,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Sacramento,Sacramento,Market / Region,,40,deal_pipeline.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Sacramento,Sacramento,Market / Region,,40,relationship_graph.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,San Francisco,San Francisco,Market / Region,,40,deal_pipeline.csv,3,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,San Francisco,San Francisco,Market / Region,,40,relationship_graph.csv,3,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Scottsdale,Scottsdale,Market / Region,,40,deal_pipeline.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Scottsdale,Scottsdale,Market / Region,,40,relationship_graph.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Seattle,Seattle,Market / Region,,40,regional_intelligence.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Southeast,Southeast,Market / Region,,40,articles.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Southeast,Southeast,Market / Region,,40,regional_intelligence.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Atlanta,Sun Belt,Market / Region,Atlanta,75,deal_pipeline.csv,6,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,Atlanta,Sun Belt,Market / Region,Atlanta,75,relationship_graph.csv,6,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,Austin,Sun Belt,Market / Region,Austin,75,deal_pipeline.csv,1,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,Austin,Sun Belt,Market / Region,Austin,75,regional_intelligence.csv,1,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,Austin,Sun Belt,Market / Region,Austin,75,relationship_graph.csv,1,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,Dallas,Sun Belt,Market / Region,Dallas,75,regional_intelligence.csv,1,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,Miami,Sun Belt,Market / Region,Miami,75,deal_pipeline.csv,6,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,Miami,Sun Belt,Market / Region,Miami,75,relationship_graph.csv,6,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,Phoenix,Sun Belt,Market / Region,Phoenix,75,deal_pipeline.csv,3,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,Phoenix,Sun Belt,Market / Region,Phoenix,75,regional_intelligence.csv,1,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,Phoenix,Sun Belt,Market / Region,Phoenix,75,relationship_graph.csv,3,case or punctuation normalized match
+2026-05-26,20260526-081038-35a22dfb,Sun Belt,Sun Belt,Market / Region,Sun Belt,100,articles.csv,20,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,Sun Belt,Sun Belt,Market / Region,Sun Belt,100,deal_pipeline.csv,17,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,Sun Belt,Sun Belt,Market / Region,Sun Belt,100,regional_intelligence.csv,1,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,Sun Belt,Sun Belt,Market / Region,Sun Belt,100,relationship_graph.csv,17,exact canonical match
+2026-05-26,20260526-081038-35a22dfb,Acquisition - Sun Belt - US Merchants Picks Up Rail-Ready Surprise Warehouse for $63.8M,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,3,partial match
+2026-05-26,20260526-081038-35a22dfb,BTR / Build-to-Rent - Sun Belt - Legacy MCS Completes Two Build-to-Rent Communities in Hutto Expanding Presence in Fast-Gro...,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,BTR / Build-to-Rent - Sun Belt - NexMetro Debuts 229-Unit San Tan Valley BTR Community,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,BTR / Build-to-Rent - Sun Belt - Work Begins on 94-Unit Scottsdale Luxury BTR Community,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,Construction Financing - Sun Belt - Madison Realty Capital Originates $91.8M Construction Loan for Multifamily Project in Sout...,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,1,partial match
+2026-05-26,20260526-081038-35a22dfb,Disposition / Exit - Sun Belt - Eaton Vance Picks Charlotte Rental Community for $65.8M,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,3,partial match
+2026-05-26,20260526-081038-35a22dfb,Disposition / Exit - Sun Belt - Grand Peaks Sells Miami-Area Apartments for $65.5M,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,Entitlement / Permitting - Sun Belt - Cambridge Properties Bringing New Life to Aging Charlotte Center,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,General Project Signal - Sun Belt - Insignia Pursuing Embassy Row Redevelopment,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,Refinancing - Sun Belt - Dwight Capital Closes $130M HUD Refi on N. Miami Apartments,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,Refinancing - Sun Belt - Georgia Tech Student Housing Investors Ink Refi,Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,2,partial match
+2026-05-26,20260526-081038-35a22dfb,Texas,Texas,Market / Region,,40,articles.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Texas,Texas,Market / Region,,40,deal_pipeline.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Texas,Texas,Market / Region,,40,regional_intelligence.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Texas,Texas,Market / Region,,40,relationship_graph.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,U.S.,U.S.,Market / Region,,40,deal_pipeline.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,U.S.,U.S.,Market / Region,,40,relationship_graph.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Unknown,Unknown,Developer / GP,,40,deal_pipeline.csv,54,unknown entity needs review
+2026-05-26,20260526-081038-35a22dfb,Unknown,Unknown,Institutional Capital,,40,deal_pipeline.csv,55,unknown entity needs review
+2026-05-26,20260526-081038-35a22dfb,Unknown,Unknown,Lender / Debt Provider,,40,deal_pipeline.csv,50,unknown entity needs review
+2026-05-26,20260526-081038-35a22dfb,Unknown,Unknown,Market / Region,,40,deal_pipeline.csv,13,unknown entity needs review
+2026-05-26,20260526-081038-35a22dfb,Wood Partners,Wood Partners,Developer / GP,,40,deal_pipeline.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Wood Partners,Wood Partners,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Wood Partners,Wood Partners,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,Wood Partners,Wood Partners,Developer / GP,,40,relationship_graph.csv,5,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,ares,ares,Institutional Capital,,40,deal_pipeline.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,ares,ares,Institutional Capital,,40,relationship_graph.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,cushman,cushman,Lender / Debt Provider,,40,deal_pipeline.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,cushman,cushman,Lender / Debt Provider,,40,relationship_graph.csv,1,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,equity residential,equity residential,Institutional Capital,,40,deal_pipeline.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,equity residential,equity residential,Institutional Capital,,40,relationship_graph.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,northmarq,northmarq,Lender / Debt Provider,,40,deal_pipeline.csv,2,weak match / needs review
+2026-05-26,20260526-081038-35a22dfb,northmarq,northmarq,Lender / Debt Provider,,40,relationship_graph.csv,2,weak match / needs review

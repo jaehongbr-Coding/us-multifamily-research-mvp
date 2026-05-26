@@ -1,15 +1,16 @@
 # Lifecycle Transition Report
 
-Generated: 2026-05-26 06:05:19
+Generated: 2026-05-26 08:10:42
 
-- Total lifecycle transitions analyzed: 86
-- Newly detected projects: 0
+- Total lifecycle transitions analyzed: 88
+- Newly detected projects: 3
 - Forward progression projects: 0
 - Possible stalled projects: 1
 - Reappearing projects: 0
 
 ## Strongest Progression Signals
 
+- Rexford Launches Construction on Single-Tenant Kearny Mesa Industrial: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 71.
 - Investment Firm Acquires SoHo Mixed-Use for $43M: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 69.
 - AV Management Acquires Multifamily Property 73-75 Sullivan Street in SoHo Manhattan for $43M: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 69.
 - Acquisition - New York - Investment Firm Acquires SoHo Mixed-Use for $43M: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 68.
@@ -19,7 +20,6 @@ Generated: 2026-05-26 06:05:19
 - Disposition / Exit - Texas - The Statesman at Horseshoe Bay Breaks Ground Introducing $108M Luxury Senior Living Commun...: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 66.
 - Disposition / Exit - National - Scion and Ares Acquire $910M Multifamily Student Housing Portfolio from Harrison Street As...: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 65.
 - General Project Signal - Other / Unknown - Multifamily Absorption Rate Remains Below 50%: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 65.
-- Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 63.
 
 ## Highest Stall Risk Signals
 
@@ -36,7 +36,9 @@ Generated: 2026-05-26 06:05:19
 
 ## Newly Detected Projects
 
-- None detected.
+- Rexford Launches Construction on Single-Tenant Kearny Mesa Industrial: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 71.
+- Disposition / Exit - Los Angeles - Avison Young Markets Echo Park Multifamily Portfolio: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 42.
+- Safehold Closes on Ground Leases for Affordable in Santa Clarita, Santa Cruz: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 40.
 
 ## Forward Progression Projects
 
@@ -65,6 +67,7 @@ Generated: 2026-05-26 06:05:19
 
 ## Construction Start Transitions
 
+- Rexford Launches Construction on Single-Tenant Kearny Mesa Industrial: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 71.
 - Disposition / Exit - Texas - The Statesman at Horseshoe Bay Breaks Ground Introducing $108M Luxury Senior Living Commun...: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 66.
 
 ## Implications for Woomi / Woomi Global
@@ -75,6 +78,7 @@ Generated: 2026-05-26 06:05:19
 
 ## Recommended Transition Follow-up Actions
 
+- Monitor for another run to confirm lifecycle direction: Rexford Launches Construction on Single-Tenant Kearny Mesa Industrial.
 - Use as delivery, lease-up, and underwriting benchmark: Investment Firm Acquires SoHo Mixed-Use for $43M.
 - Use as delivery, lease-up, and underwriting benchmark: AV Management Acquires Multifamily Property 73-75 Sullivan Street in SoHo Manhattan for $43M.
 - Use as delivery, lease-up, and underwriting benchmark: Acquisition - New York - Investment Firm Acquires SoHo Mixed-Use for $43M.
@@ -82,17 +86,16 @@ Generated: 2026-05-26 06:05:19
 - Use as delivery, lease-up, and underwriting benchmark: Acquisition - Sun Belt - US Merchants Picks Up Rail-Ready Surprise Warehouse for $63.8M.
 - Use as delivery, lease-up, and underwriting benchmark: BTR / Build-to-Rent - Sun Belt - Legacy MCS Completes Two Build-to-Rent Communities in Hutto Expanding Presence in Fast-Gro....
 - Monitor for another run to confirm lifecycle direction: Disposition / Exit - Texas - The Statesman at Horseshoe Bay Breaks Ground Introducing $108M Luxury Senior Living Commun....
-- Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - National - Scion and Ares Acquire $910M Multifamily Student Housing Portfolio from Harrison Street As....
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 677
-- Canonical projects: 142
-- Duplicate project clusters: 95
-- Persistent assets tracked: 142
-- LA persistent asset watch items: 83
+- Raw project references: 689
+- Canonical projects: 146
+- Duplicate project clusters: 94
+- Persistent assets tracked: 146
+- LA persistent asset watch items: 88
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -100,10 +103,10 @@ Generated: 2026-05-26 06:05:19
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 142
+- Signals evaluated: 146
 - Institutional-grade signals: 13
 - High-confidence signals: 30
-- Weak/noisy signals: 99
+- Weak/noisy signals: 103
 - High-confidence watchlist items: 30
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

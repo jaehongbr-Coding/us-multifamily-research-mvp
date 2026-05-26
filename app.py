@@ -12905,5 +12905,124 @@ def select_representative_evidence(shared, limit=5):
     return selected
 
 
+def one_line_strategic_relevance(row):
+    """Create a compact evidence rationale without exposing diagnostic prose."""
+    signal = safe_text(row.get("market_signal"), "")
+    implication = safe_text(row.get("strategic_implication"), "")
+    analysis = safe_text(row.get("gpt_strategic_analysis"), "")
+    lifecycle = safe_text(row.get("lifecycle_stage"), "")
+    market = safe_text(row.get("market_focus") or row.get("market"), "")
+
+    candidate = implication or analysis or signal
+    if candidate and "GPT analysis not enabled" not in candidate:
+        return truncate_text(candidate, 190)
+    if signal:
+        return truncate_text(signal, 190)
+    if lifecycle and market:
+        return f"{market} 시장에서 {lifecycle} 관련 관찰 근거로 참고할 수 있습니다."
+    if market:
+        return f"{market} 관련 시장 visibility를 확인하기 위한 대표 기사입니다."
+    return "오늘 브리핑의 시장 관찰을 뒷받침하는 대표 기사입니다."
+
+
+def render_representative_evidence(shared):
+    """Final UI override: make evidence the main proof layer below the hero."""
+    render_section_header("Representative Evidence", "Today's briefing evidence, selected for source / market / sponsor diversity.")
+    evidence_rows = select_representative_evidence(shared, limit=5)
+    if not evidence_rows:
+        st.caption("No representative article evidence is available yet.")
+        close_section()
+        return
+
+    for row in evidence_rows:
+        title = safe_text(row.get("title"), "Untitled article")
+        source = safe_text(row.get("source"), "Unknown source")
+        market = safe_text(row.get("market_focus") or row.get("market"), "Unknown market")
+        relevance = one_line_strategic_relevance(row)
+        url = safe_text(row.get("url"), "")
+        st.markdown(
+            f"""
+            <div class="pilot-card">
+                <div class="signal-title">{escape(title)}</div>
+                <div class="pilot-muted">{escape(source)} · {escape(market)}</div>
+                <div class="small-divider"></div>
+                <div>{escape(relevance)}</div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        if url.startswith("http"):
+            st.markdown(f"[원문 기사 보기]({url})")
+    close_section()
+
+
+def render_woomi_watch_items(shared, limit=3):
+    """Render short Woomi checkpoints from generated briefing output."""
+    render_section_header("Woomi Checkpoints", "검증해야 할 포인트만 짧게 남깁니다.")
+    section = extract_markdown_section(shared.get("daily_strategy_briefing", ""), "Woomi Checkpoints")
+    checkpoints = []
+    for line in section.splitlines():
+        cleaned = line.strip()
+        if cleaned.startswith("- "):
+            checkpoints.append(cleaned[2:].strip())
+    if not checkpoints:
+        checkpoints = get_output_why_it_matters(shared)
+    if not checkpoints:
+        checkpoints = [
+            "시장 관찰은 직접 투자 결론보다 sponsor, lender, market evidence 추가 확인에 우선 활용합니다.",
+            "기사 visibility가 높은 테마는 source 편중 가능성을 함께 점검합니다.",
+            "실제 underwriting 전에는 rent, lease-up, financing terms, entitlement status를 별도 검증합니다.",
+        ]
+
+    for item in checkpoints[:limit]:
+        st.markdown(
+            f"""
+            <div class="pilot-card">
+                <div>{escape(item)}</div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+    close_section()
+
+
+def render_analyst_debug_internal_notes(shared):
+    """Collapse generated notes, diagnostics, and hidden market metrics into one analyst-only area."""
+    with st.expander("Analyst Debug / Internal Notes", expanded=False):
+        tabs = st.tabs(["Strategic Notes", "Signal Diagnostics", "Hidden Metrics"])
+        with tabs[0]:
+            briefing_text = shared.get("daily_strategy_briefing", "")
+            if briefing_text:
+                st.markdown(briefing_text)
+            else:
+                missing_file_message(FILES["daily_strategy_briefing"])
+        with tabs[1]:
+            diagnostics = extract_markdown_section(shared.get("daily_strategy_briefing", ""), "Market Coverage Diagnostics")
+            if diagnostics:
+                st.markdown(diagnostics)
+            else:
+                st.caption("No Market Coverage Diagnostics section found in daily_strategy_briefing.md.")
+        with tabs[2]:
+            summary = latest_summary(shared.get("summary", pd.DataFrame()))
+            if summary:
+                st.caption(f"Daily Mentioned Market: {summary.get('daily_mentioned_market', 'n/a')}")
+                st.caption(f"Weekly Momentum Market: {summary.get('weekly_momentum_market', 'n/a')}")
+                st.caption(f"Momentum reason: {summary.get('weekly_momentum_reason', 'n/a')}")
+                st.caption(f"Briefing confidence: {summary.get('daily_briefing_confidence', 'n/a')}")
+            else:
+                st.caption("dashboard_summary.csv metrics are not available.")
+
+
+def page_executive_briefing(shared, filters):
+    """Final compressed executive briefing flow."""
+    st.title("오늘의 브리핑")
+    render_hero_market_view(shared)
+    render_representative_evidence(shared)
+    render_homepage_capital_flow_watch(shared, filters)
+    render_homepage_development_watch(shared, filters)
+    render_woomi_watch_items(shared)
+    render_analyst_debug_internal_notes(shared)
+
+
 if __name__ == "__main__":
     main()

@@ -13020,8 +13020,209 @@ def page_executive_briefing(shared, filters):
     render_representative_evidence(shared)
     render_homepage_capital_flow_watch(shared, filters)
     render_homepage_development_watch(shared, filters)
-    render_woomi_watch_items(shared)
-    render_analyst_debug_internal_notes(shared)
+
+
+def count_unique_values(df, columns):
+    """Count unique non-empty values across the first available column name."""
+    if df is None or df.empty:
+        return 0
+    for column in columns:
+        if column in df.columns:
+            values = df[column].dropna().astype(str).str.strip()
+            values = values[(values != "") & (values.str.lower() != "nan")]
+            return int(values.nunique())
+    return 0
+
+
+def count_repeated_values(df, columns):
+    """Count values that appear more than once across the first available column."""
+    if df is None or df.empty:
+        return 0
+    for column in columns:
+        if column in df.columns:
+            values = df[column].dropna().astype(str).str.strip()
+            values = values[(values != "") & (values.str.lower() != "nan")]
+            if values.empty:
+                return 0
+            return int((values.value_counts() > 1).sum())
+    return 0
+
+
+def render_internal_lab_signal_diagnostics(shared):
+    """Show generated signal metrics without polluting the executive page."""
+    summary = latest_summary(shared.get("summary", pd.DataFrame()))
+    articles = shared.get("articles", pd.DataFrame())
+    market_signals = shared.get("market_signals", pd.DataFrame())
+    strategy_briefing = shared.get("strategy_briefing", pd.DataFrame())
+
+    metrics = [
+        ("Daily Mentioned Market", summary.get("daily_mentioned_market", "n/a") if summary else "n/a"),
+        ("Weekly Momentum Market", summary.get("weekly_momentum_market", "n/a") if summary else "n/a"),
+        ("Weekly Momentum Driver", summary.get("weekly_momentum_reason", "n/a") if summary else "n/a"),
+        ("Briefing confidence", summary.get("daily_briefing_confidence", "n/a") if summary else "n/a"),
+        ("Market signal article count", len(market_signals) if market_signals is not None else 0),
+        ("Strategy briefing article count", len(strategy_briefing) if strategy_briefing is not None else 0),
+    ]
+    for label, value in metrics:
+        st.markdown(
+            f"""
+            <div class="pilot-card">
+                <div class="section-kicker">{escape(label)}</div>
+                <div>{escape(str(value))}</div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+    diagnostics = extract_markdown_section(shared.get("daily_strategy_briefing", ""), "Market Coverage Diagnostics")
+    with st.expander("Market Coverage Diagnostics", expanded=False):
+        if diagnostics:
+            st.markdown(diagnostics)
+        else:
+            st.caption("No Market Coverage Diagnostics section found in daily_strategy_briefing.md.")
+
+
+def render_internal_lab_hidden_metrics(shared):
+    """Summarize lower-level data health and clustering signals."""
+    articles = shared.get("articles", pd.DataFrame())
+    regime_history = shared.get("regime_history", pd.DataFrame())
+    regime_timeline = shared.get("regime_timeline", pd.DataFrame())
+    relationship_persistence = shared.get("relationship_persistence", pd.DataFrame())
+
+    total_articles = len(articles) if articles is not None else 0
+    source_diversity = count_unique_values(articles, ["source"])
+    repeated_sponsors = count_repeated_values(articles, ["gp_or_developer", "canonical_gp_name", "sponsor"])
+    repeated_lenders = count_repeated_values(articles, ["lender", "lender_name", "capital_provider"])
+    unique_clusters = count_unique_values(regime_timeline, ["cluster_title", "signal_cluster", "cluster_label"])
+    persistence_rows = len(regime_history) if regime_history is not None else 0
+    relationship_rows = len(relationship_persistence) if relationship_persistence is not None else 0
+
+    metrics = [
+        ("Total saved articles", total_articles),
+        ("Source diversity", source_diversity),
+        ("Repeated sponsor / GP count", repeated_sponsors),
+        ("Repeated lender count", repeated_lenders),
+        ("Regime cluster count", unique_clusters),
+        ("Regime persistence rows", persistence_rows),
+        ("Relationship persistence rows", relationship_rows),
+    ]
+    for label, value in metrics:
+        st.markdown(
+            f"""
+            <div class="pilot-card">
+                <div class="section-kicker">{escape(label)}</div>
+                <div>{escape(str(value))}</div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+
+def render_internal_lab_debug_qa(shared):
+    """Basic output-file and parsing QA for analyst review."""
+    summary = latest_summary(shared.get("summary", pd.DataFrame()))
+    expected_columns = {
+        "dashboard_summary.csv": ["hero_market_view", "daily_mentioned_market", "weekly_momentum_market", "daily_briefing_confidence"],
+        "articles.csv": ["title", "source", "url"],
+        "daily_strategy_briefing.md": [],
+    }
+
+    qa_rows = []
+    for label, columns in expected_columns.items():
+        path = OUTPUT_DIR / label
+        exists = path.exists()
+        missing_columns = []
+        if label == "dashboard_summary.csv":
+            df = shared.get("summary", pd.DataFrame())
+            missing_columns = [column for column in columns if column not in df.columns]
+        elif label == "articles.csv":
+            df = shared.get("articles", pd.DataFrame())
+            missing_columns = [column for column in columns if column not in df.columns]
+        qa_rows.append({
+            "Output": label,
+            "Exists": "yes" if exists else "no",
+            "Missing columns": ", ".join(missing_columns) if missing_columns else "none",
+        })
+
+    st.dataframe(pd.DataFrame(qa_rows), use_container_width=True, hide_index=True)
+    st.caption(f"dashboard_summary latest run timestamp: {summary.get('run_timestamp', 'n/a') if summary else 'n/a'}")
+
+    articles = shared.get("articles", pd.DataFrame())
+    duplicate_titles = count_repeated_values(articles, ["title"])
+    duplicate_urls = count_repeated_values(articles, ["url"])
+    st.caption(f"Duplicate title groups: {duplicate_titles}")
+    st.caption(f"Duplicate URL groups: {duplicate_urls}")
+
+
+def page_internal_lab(shared, filters):
+    """Analyst-facing lab for generated notes, diagnostics, hidden metrics, and QA."""
+    st.title("Internal Lab")
+    st.caption("분석 엔진, output parsing, 내부 metric을 확인하는 analyst/research QA 공간입니다.")
+
+    tabs = st.tabs(["Strategic Notes", "Signal Diagnostics", "Hidden Metrics", "Debug / Internal QA"])
+    with tabs[0]:
+        with st.expander("daily_strategy_briefing.md", expanded=False):
+            briefing_text = shared.get("daily_strategy_briefing", "")
+            if briefing_text:
+                st.markdown(briefing_text)
+            else:
+                missing_file_message(FILES["daily_strategy_briefing"])
+    with tabs[1]:
+        render_internal_lab_signal_diagnostics(shared)
+    with tabs[2]:
+        render_internal_lab_hidden_metrics(shared)
+    with tabs[3]:
+        render_internal_lab_debug_qa(shared)
+
+
+def main():
+    st.set_page_config(
+        page_title="US Residential Intelligence",
+        page_icon="🏙️",
+        layout="wide",
+        initial_sidebar_state="expanded",
+    )
+    inject_css()
+    inject_mobile_css()
+    if not OUTPUT_DIR.exists():
+        st.warning(CLOUD_MISSING_MESSAGE)
+    shared = load_shared_data()
+    st.session_state["shared_data"] = shared
+    summary = latest_summary(shared["summary"])
+    latest_run = summary.get("run_timestamp", "run timestamp unavailable")
+
+    st.sidebar.title("US Residential Intelligence")
+    render_sidebar_subtitle()
+    pages = {
+        "오늘의 브리핑": page_executive_briefing,
+        "시장 인텔리전스": page_market_intelligence_product,
+        "최근 개발 Activity": page_development_status_product,
+        "GP / 자본 동향": page_gp_capital_product,
+        "Rent Comp Lab": page_rent_comp_lab,
+        "기사 모음": page_article_feed,
+        "Internal Lab": page_internal_lab,
+    }
+    if is_admin_mode():
+        pages["시스템 / 설정"] = page_system_settings_product
+    page_name = st.sidebar.radio("페이지", list(pages.keys()), index=0)
+    st.sidebar.markdown(
+        f"""
+        <div class="sidebar-version">
+            <strong>Pilot Version</strong><br>
+            v0.1<br><br>
+            최근 실행 시간<br>
+            {latest_run}
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    filters = {}
+    app_header(shared)
+    st.caption(f"최근 실행: {latest_run}")
+    pages[page_name](shared, filters)
+    st.divider()
+    st.caption("US Residential Intelligence | Institutional Morning Brief | Pilot v0.1")
 
 
 if __name__ == "__main__":

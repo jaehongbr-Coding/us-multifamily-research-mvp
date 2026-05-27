@@ -1,22 +1,22 @@
 # Executive Dashboard Brief
 
-Generated: 2026-05-27 01:36:18
+Generated: 2026-05-27 23:02:07
 
 ## Executive Snapshot
 
 - Total articles reviewed: 85
-- High-confidence signals: 27
-- Institutional-grade signals: 13
-- Opportunities: 63
-- Distress signals: 9
-- Recommended executive focus: Review General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History and related high-confidence project signals.
+- High-confidence signals: 23
+- Institutional-grade signals: 12
+- Opportunities: 64
+- Distress signals: 18
+- Recommended executive focus: Review Refinancing - National - ACRE Supplies $351M Refi for Four-State Multifamily Portfolio and related high-confidence project signals.
 
 ## Top 5 Things to Review Today
 
 - Berkadia (Capital Flow, Critical): Track capital flow pattern and related relationships.
 - Berkadia (Capital Flow, Critical): Track capital flow pattern and related relationships.
 - Blackstone (Capital Flow, Critical): Track capital flow pattern and related relationships.
-- Entitlement / Permitting - California - Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown (LA Asset Watch, Critical): Review parcel clue, entitlement path, sponsor, and comparable sites.
+- Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes... (LA Asset Watch, Critical): Review parcel clue, entitlement path, sponsor, and comparable sites.
 - Entitlement / Permitting - Los Angeles - 17 apartments planned at 2217 S. Fox Hills Dr. in Century City (LA Asset Watch, Critical): Review parcel clue, entitlement path, sponsor, and comparable sites.
 
 ## Immediate Watch Items
@@ -24,40 +24,40 @@ Generated: 2026-05-27 01:36:18
 - Berkadia: Stable Action: Track capital flow pattern and related relationships.
 - Berkadia: Stable Action: Track capital flow pattern and related relationships.
 - Blackstone: Stable Action: Track capital flow pattern and related relationships.
-- Entitlement / Permitting - California - Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
+- Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Review acquisition comparables Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 - Entitlement / Permitting - Los Angeles - 17 apartments planned at 2217 S. Fox Hills Dr. in Century City: Monitor entitlement path Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 
 ## LA / California Watch
 
 - Blackstone: Stable Action: Track capital flow pattern and related relationships.
-- Entitlement / Permitting - California - Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
+- Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Review acquisition comparables Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 - Entitlement / Permitting - Los Angeles - 17 apartments planned at 2217 S. Fox Hills Dr. in Century City: Monitor entitlement path Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
-- Entitlement / Permitting - Los Angeles - Developer revives plan for Best Western hotel at 2645 S. Western Ave. in Jefferson Park: Monitor entitlement path Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
-- General Project Signal - California - Affordable housing takes shape at 101 Pacific Coast Hwy. in Long Beach: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
+- Entitlement / Permitting - Southeast - 40 apartments slated for 4080 Lafayette Place in Culver City: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
+- General Project Signal - Los Angeles - Affordable housing slated for 1418 S. Mansfield Ave. in Mid-City: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 
 ## GP / Capital Partner Watch
 
 - Berkadia: Stable Action: Track capital flow pattern and related relationships.
 - Berkadia: Stable Action: Track capital flow pattern and related relationships.
 - Blackstone: Stable Action: Track capital flow pattern and related relationships.
-- Wood Partners: Institutional-backed regional expansion Action: Track JV and capital partner activity.
-- AvalonBay: California / LA strategic positioning Action: Review LA / California development activity.
+- Harbor Group International: California / LA strategic positioning Action: Track JV and capital partner activity.
+- Blackstone: California / LA strategic positioning Action: Track JV and capital partner activity.
 
 ## Opportunity / Distress Watch
 
 - GP Capability Partnership Opportunity: GP Capability Partnership Opportunity may create a pricing, capital, partnership, or pipeline opening in Sun Belt. Action: Add to executive opportunity review.
-- JV / Partnership Gap: JV / Partnership Gap may create a pricing, capital, partnership, or pipeline opening in New York. Action: Add to executive opportunity review.
+- JV / Partnership Gap: JV / Partnership Gap may create a pricing, capital, partnership, or pipeline opening in New York. Action: Map GP, capital partner, and relationship history.
 - Acquisition Opportunity: Acquisition Opportunity may create a pricing, capital, partnership, or pipeline opening in Sun Belt. Action: Research owner, basis, pricing, and transaction history.
-- Affordable / Workforce Housing Opportunity: Affordable / Workforce Housing Opportunity may create a pricing, capital, partnership, or pipeline opening in National. Action: Monitor for repeated signals.
-- GP Capability Partnership Opportunity: GP Capability Partnership Opportunity may create a pricing, capital, partnership, or pipeline opening in National. Action: Map GP, capital partner, and relationship history.
+- Refinancing Gap: Refinancing Gap may create a pricing, capital, partnership, or pipeline opening in National. Action: Track debt stack, maturity, lender, and recapitalization details.
+- Refinancing Gap: Refinancing Gap may create a pricing, capital, partnership, or pipeline opening in Other / Unknown. Action: Track debt stack, maturity, lender, and recapitalization details.
 
 ## Development Lifecycle Watch
 
-- Entitlement / Permitting - California - Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
+- Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Review acquisition comparables Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 - Entitlement / Permitting - Los Angeles - 17 apartments planned at 2217 S. Fox Hills Dr. in Century City: Monitor entitlement path Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
-- Entitlement / Permitting - Los Angeles - Developer revives plan for Best Western hotel at 2645 S. Western Ave. in Jefferson Park: Monitor entitlement path Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
-- General Project Signal - California - Affordable housing takes shape at 101 Pacific Coast Hwy. in Long Beach: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
-- Entitlement / Permitting - Other / Unknown - Plans Increase For 1223 East 33rd Avenue in Fruitvale, Oakland: Track site control precedent Action: Track entitlement docket, density bonus use, and affordability requirement.
+- Entitlement / Permitting - Southeast - 40 apartments slated for 4080 Lafayette Place in Culver City: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
+- General Project Signal - Los Angeles - Affordable housing slated for 1418 S. Mansfield Ave. in Mid-City: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
+- JV / Partnership - California - New Rendering For 650 Divisadero Street, San Francisco: Monitor entitlement path Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 
 ## Capital Flow Watch
 

@@ -1,10 +1,10 @@
 {
-  "run_id": "20260527-013618-38446781",
+  "run_id": "20260527-230207-4be4208e",
   "run_date": "2026-05-27",
-  "run_timestamp": "2026-05-27 01:36:18",
+  "run_timestamp": "2026-05-27 23:02:07",
   "article_count": 85,
-  "new_article_count": 0,
-  "duplicate_article_count": 85,
+  "new_article_count": 37,
+  "duplicate_article_count": 48,
   "output_files_generated": [
     "articles.csv",
     "asset_parcel_intelligence.csv",

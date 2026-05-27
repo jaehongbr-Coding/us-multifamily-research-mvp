@@ -1,11 +1,11 @@
 # Signal Memory Report
 
-Generated: 2026-05-27 01:36:18
+Generated: 2026-05-27 23:02:07
 
 ## Signal Memory Summary
 
-- Total memory rows: 199
-- Status summary: New Signal: 59; Persistent Signal: 48; Early Watch: 44; Dormant Signal: 30; Strengthening Signal: 17; Weakening Signal: 1
+- Total memory rows: 196
+- Status summary: New Signal: 56; Persistent Signal: 48; Early Watch: 44; Dormant Signal: 30; Strengthening Signal: 17; Weakening Signal: 1
 - Signal Memory is a repeated-observation tracker, not an investment decision engine.
 
 ## Strengthening Signals
@@ -35,11 +35,11 @@ Generated: 2026-05-27 01:36:18
 - effective_rent_growth / Other / Unknown: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
 - acquisition / Sun Belt: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
 - delivery / Other / Unknown: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
-- effective_rent_growth / National: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
-- acquisition / Other / Unknown: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- lender_activity / Other / Unknown: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- acquisition / California: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
 - disposition / Sun Belt: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
-- Developer Strategy / Other / Unknown: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
-- Development Strategy / National: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- effective_rent_growth / National: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- Development Strategy / Other / Unknown: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
 
 ## Weakening or Dormant Signals
 

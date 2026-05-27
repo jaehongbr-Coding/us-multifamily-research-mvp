@@ -1,28 +1,24 @@
 # LA Persistent Asset Watch Report
 
-Generated: 2026-05-27 01:36:21
+Generated: 2026-05-27 23:02:11
 
-- Total LA persistent asset watch items: 98
+- Total LA persistent asset watch items: 92
 
 ## Priority LA Asset Watch Items
 
-- General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History: Los Angeles, Unknown Stage, Track repeat project updates.
 - Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M: Los Angeles, Unknown Stage, Track repeat project updates.
 - Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition: California, Refinancing / Recapitalization, Track repeat project updates.
-- Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Los Angeles, Early Site Signal, Track repeat project updates.
 - Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
 - JV / Partnership - New York - Blackstone Announces Joint Venture with Google to Create New TPU Cloud: Los Angeles, Unknown Stage, Track repeat project updates.
-- Refinancing - New York - Black Bear Capital Arranges $39M Loan for Refinancing of Long Island Apartment Complex: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
-- Acquisition - California - Pacific Urban Investors Secures San Diego Multifamily Asset for $90M: California, Unknown Stage, Track repeat project updates.
+- Entitlement / Permitting - Sun Belt - Cambridge Properties Bringing New Life to Aging Charlotte Center: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
 - Operational / Property Management Tech - Sun Belt - VoltaGrid Announces $1 Billion Strategic Equity Investment from Blackstone and Halliburton...: Los Angeles, Unknown Stage, Track repeat project updates.
-- General Project Signal - Southeast - Related Breaks Ground on $200M Multifamily Project Along St. Johns River in Jacksonville: Los Angeles, Unknown Stage, Track repeat project updates.
+- Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
+- Apogee Therapeutics Announces $1.3 Billion Strategic Financing Collaboration with Blackstone Life Sciences to Advance Phase 3 Development and Commercialization of Zumilokibart: Los Angeles, Unknown Stage, Track repeat project updates.
+- Acquisition - Sun Belt - Matthews Negotiates Sale of 10,031 SF Retail Center in Clarksville, Tennessee: Los Angeles, Unknown Stage, Track repeat project updates.
 
 ## Koreatown / Wilshire Persistent Assets
 
-- Entitlement / Permitting - California - Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown: Koreatown, Unknown Stage, Track repeat project updates.
-- Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown: Koreatown, Site Acquisition / Site Control, Track repeat project updates.
-- Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown: Koreatown, Unknown Stage, Track local sponsor execution.
-- Entitlement / Permitting - California - Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown: Koreatown, Unknown Stage, Track repeat project updates.
+- None detected.
 
 ## DTLA Persistent Assets
 
@@ -30,7 +26,8 @@ Generated: 2026-05-27 01:36:21
 
 ## Hollywood Persistent Assets
 
-- None detected.
+- Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in West Hollywood: Hollywood, Refinancing / Recapitalization, Track repeat project updates.
+- Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in West Hollywood: Hollywood, Unknown Stage, Monitor only.
 
 ## Pasadena Persistent Assets
 
@@ -42,9 +39,9 @@ Generated: 2026-05-27 01:36:21
 
 ## Stalled / Delayed LA Asset Watch
 
+- Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Los Angeles, Unknown Stage, Track repeat project updates.
 - Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition: California, Refinancing / Recapitalization, Track repeat project updates.
-- Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Los Angeles, Unknown Stage, Track repeat project updates.
-- Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Los Angeles, Early Site Signal, Track repeat project updates.
+- Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
 
 ## Construction / Delivery Transition Watch
 
@@ -52,11 +49,11 @@ Generated: 2026-05-27 01:36:21
 
 ## Recommended Local Follow-up Actions
 
-- Monitor for repeated project updates: Entitlement / Permitting - California - Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown.
+- Monitor for repeated project updates: Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes....
 - Monitor for repeated project updates: Entitlement / Permitting - Los Angeles - 17 apartments planned at 2217 S. Fox Hills Dr. in Century City.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History.
+- Monitor for repeated project updates: General Project Signal - Los Angeles - Affordable housing slated for 1418 S. Mansfield Ave. in Mid-City.
+- Monitor for repeated project updates: Entitlement / Permitting - Southeast - 40 apartments slated for 4080 Lafayette Place in Culver City.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition.
-- Monitor for repeated project updates: Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd..
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd..
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments.
+- Monitor for repeated project updates: JV / Partnership - California - New Rendering For 650 Divisadero Street, San Francisco.

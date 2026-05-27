@@ -1,57 +1,55 @@
 # Regional Intelligence Report
 
-Generated: 2026-05-27 01:36:18
+Generated: 2026-05-27 23:02:07
 
 ## Top 5 Markets By Relevance
 
-- Los Angeles: Core Watch Market, 12 article(s), average relevance 91.2.
-- California: Core Watch Market, 12 article(s), average relevance 88.7.
-- National / Other: General Monitoring, 36 article(s), average relevance 73.0.
-- Sun Belt: Strategic Watch Market, 18 article(s), average relevance 80.4.
-- Florida: Strategic Watch Market, 10 article(s), average relevance 87.3.
+- California: Core Watch Market, 15 article(s), average relevance 87.0.
+- Los Angeles: Core Watch Market, 12 article(s), average relevance 90.5.
+- National / Other: General Monitoring, 31 article(s), average relevance 71.4.
+- Sun Belt: Strategic Watch Market, 19 article(s), average relevance 81.7.
+- Southeast: Strategic Watch Market, 10 article(s), average relevance 84.3.
 
 ## LA / California Focus
 
+- California: 15 article(s), 7 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
 - Los Angeles: 12 article(s), 7 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
-- California: 12 article(s), 7 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
 
 ## Sun Belt / Texas / Southeast
 
-- Sun Belt: 18 article(s), 7 market signal(s), Strategic Watch Market. Track institutional capital activity.
-- Florida: 10 article(s), 6 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
-- Southeast: 9 article(s), 4 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
-- Phoenix: 3 article(s), 2 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
-- Austin: 1 article(s), 0 market signal(s), Strategic Watch Market. Track institutional capital activity.
-- Texas: 2 article(s), 0 market signal(s), Strategic Watch Market. Track institutional capital activity.
-- Arizona: 1 article(s), 1 market signal(s), Strategic Watch Market. Track institutional capital activity.
-- Dallas: 1 article(s), 0 market signal(s), General Monitoring. Monitor only.
+- Sun Belt: 19 article(s), 9 market signal(s), Strategic Watch Market. Track institutional capital activity.
+- Southeast: 10 article(s), 5 market signal(s), Strategic Watch Market. Track institutional capital activity.
+- Florida: 6 article(s), 2 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
+- Phoenix: 4 article(s), 3 market signal(s), Strategic Watch Market. Monitor supply pipeline and concessions.
+- Texas: 3 article(s), 1 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
+- Dallas: 1 article(s), 0 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
 
 ## Coastal Markets
 
-- New York: 4 article(s), 3 market signal(s), General Monitoring. Track institutional capital activity.
-- Seattle: 1 article(s), 0 market signal(s), Strategic Watch Market. Track institutional capital activity.
+- New York: 7 article(s), 6 market signal(s), General Monitoring. Track institutional capital activity.
+- Seattle: 2 article(s), 1 market signal(s), Strategic Watch Market. Monitor supply pipeline and concessions.
 
 ## National Market Signals
 
-- National / Other: 36 article(s), 13 market signal(s), General Monitoring. Track institutional capital activity.
+- National / Other: 31 article(s), 13 market signal(s), General Monitoring. Watch GP / developer partnership opportunities.
 
 ## Deal / Project Intelligence
 
 Market-level deal and project signals are available in `deal_pipeline_report.md`.
+- Los Angeles: Construction Financing, Capital market signal.
 - Los Angeles: Entitlement / Permitting, Entitlement / zoning watch.
+- California: Acquisition, Pricing benchmark.
 - California: Construction Financing, Capital market signal.
 - Sun Belt: Disposition / Exit, Underwriting benchmark.
-- California: Acquisition, Pricing benchmark.
-- California: Disposition / Exit, Entitlement / zoning watch.
 
 ## Relationship Graph Intelligence
 
 Market-level relationship edges are available in `relationship_graph_report.md`.
 - New York: Blackstone -> New York (JV / Partnership).
+- Los Angeles: Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes... -> Los Angeles (Financing Relationship).
 - California: Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily -> California (Financing Relationship).
-- Sun Belt: Wood Partners -> Atlanta (Disposition / Seller).
-- Sun Belt: Wood Partners -> Sun Belt (Disposition / Seller).
-- California: Acquisition - California - Pacific Urban Investors Secures San Diego Multifamily Asset for $90M -> California (Acquisition / Buyer).
+- California: Refinancing - California - HUD Section 223(f) Loan Refinances Chula Vista Multifamily -> California (Financing Relationship).
+- California: Acquisition - California - CBRE Negotiates $34.5M Million Sale of Multifamily Community in Sacramento -> California (Acquisition / Buyer).
 
 ## Canonical Deal Summary
 
@@ -74,11 +72,11 @@ Opportunity deduplication is available in `opportunity_deduplication_report.md`.
 
 ## Recommended Regional Follow-up Actions
 
-- Los Angeles: Track LA / California entitlement and zoning updates
 - California: Track LA / California entitlement and zoning updates
+- Los Angeles: Track LA / California entitlement and zoning updates
 - Sun Belt: Track institutional capital activity
+- Southeast: Track institutional capital activity
 - Florida: Watch GP / developer partnership opportunities
-- Southeast: Watch GP / developer partnership opportunities
-- Phoenix: Watch GP / developer partnership opportunities
-- Austin: Track institutional capital activity
-- Seattle: Track institutional capital activity
+- Phoenix: Monitor supply pipeline and concessions
+- Texas: Review development underwriting assumptions
+- Seattle: Monitor supply pipeline and concessions

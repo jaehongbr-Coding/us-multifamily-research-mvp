@@ -1,13 +1,13 @@
 # 한국어 주간 전략 메모
 
-- 생성 시각: 2026-05-27 01:36:18
+- 생성 시각: 2026-05-27 23:02:07
 - 참고 원문 파일: `weekly_strategy_memo.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
 ## 주간 전략 요약
 
 주간 전략 메모 기준 핵심 신호 6건을 요약했습니다. 본 리포트는 유료 API 없이 규칙 기반으로 작성되며, 우미 / 우미글로벌의 미국 주거 개발 전략 관점에서 우선순위와 후속 조치를 빠르게 확인하기 위한 자료입니다.
-- 추천 포커스: Review General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History and related high-confidence project signals.
+- 추천 포커스: Review Refinancing - National - ACRE Supplies $351M Refi for Four-State Multifamily Portfolio and related high-confidence project signals.
 
 ## 시장 국면
 
@@ -25,11 +25,11 @@
 
 ## 지역 / 섹터 관찰
 
-- Sun Belt: Sun Belt, 일반 주거, 점수 82 (Active Watch Window; Actively source opportunities)
-- California: California, 일반 주거, 점수 78 (Selective Entry Window; Track entitlement / permitting pipeline)
-- New York: New York, 일반 주거, 점수 76 (Selective Entry Window; Monitor refinancing and distress pipeline)
-- Los Angeles: Los Angeles, 일반 주거, 점수 72 (Selective Entry Window; Track entitlement / permitting pipeline)
-- Florida: Florida, 일반 주거, 점수 64 (Early Signal / Prepare; Monitor refinancing and distress pipeline)
+- Sun Belt: Sun Belt, 일반 주거, 점수 83 (Active Watch Window; Actively source opportunities)
+- California: California, 일반 주거, 점수 82 (Active Watch Window; Actively source opportunities)
+- Los Angeles: Los Angeles, 일반 주거, 점수 79 (Selective Entry Window; Track entitlement / permitting pipeline)
+- New York: New York, 일반 주거, 점수 75 (Selective Entry Window; Monitor refinancing and distress pipeline)
+- Texas: Texas, 일반 주거, 점수 71 (Selective Entry Window; Monitor refinancing and distress pipeline)
 
 ## 우미 전략 시사점
 

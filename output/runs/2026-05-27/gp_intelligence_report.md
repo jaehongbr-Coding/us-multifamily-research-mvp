@@ -1,20 +1,20 @@
 # GP / Developer Intelligence Report
 
-Generated: 2026-05-27 01:36:18
+Generated: 2026-05-27 23:02:07
 
 ## Top Institutional Signals
 
-- Blackstone: acquisition; disposition / exit; refinancing; JV / partnership; capital raise; operational technology / AI adoption, New York, sources: Core Multifamily News; Developer / GP Newsrooms, strength 100. potential JV partnership signal; monitor JV activity.
+- Blackstone: acquisition; refinancing; JV / partnership; capital raise; operational technology / AI adoption, New York, sources: Developer / GP Newsrooms, strength 100. potential JV partnership signal; monitor JV activity.
 - Wood Partners: disposition / exit; JV / partnership; operational technology / AI adoption, Sun Belt, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
-- AvalonBay: market expansion, National, sources: Core Multifamily News, strength 59. benchmark underwriting assumptions; monitor only.
-- Equity Residential: market expansion, National, sources: Core Multifamily News, strength 51. benchmark underwriting assumptions; monitor only.
+- Harbor Group International: refinancing; JV / partnership, National, sources: Core Multifamily News, strength 63. potential JV partnership signal; monitor JV activity.
+- Hines: refinancing; JV / partnership, Other / Unknown, sources: Core Multifamily News, strength 60. potential JV partnership signal; monitor JV activity.
 
 ## Major GP Strategic Movements
 
-- Blackstone: acquisition; disposition / exit; refinancing; JV / partnership; capital raise; operational technology / AI adoption, New York, sources: Core Multifamily News; Developer / GP Newsrooms, strength 100. potential JV partnership signal; monitor JV activity.
+- Blackstone: acquisition; refinancing; JV / partnership; capital raise; operational technology / AI adoption, New York, sources: Developer / GP Newsrooms, strength 100. potential JV partnership signal; monitor JV activity.
 - Wood Partners: disposition / exit; JV / partnership; operational technology / AI adoption, Sun Belt, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
-- AvalonBay: market expansion, National, sources: Core Multifamily News, strength 59. benchmark underwriting assumptions; monitor only.
-- Equity Residential: market expansion, National, sources: Core Multifamily News, strength 51. benchmark underwriting assumptions; monitor only.
+- Harbor Group International: refinancing; JV / partnership, National, sources: Core Multifamily News, strength 63. potential JV partnership signal; monitor JV activity.
+- Hines: refinancing; JV / partnership, Other / Unknown, sources: Core Multifamily News, strength 60. potential JV partnership signal; monitor JV activity.
 
 ## California / LA Developer Activity
 
@@ -26,17 +26,21 @@ Generated: 2026-05-27 01:36:18
 
 ## BTR / Modular / Innovation Watch
 
-- Blackstone: acquisition; disposition / exit; refinancing; JV / partnership; capital raise; operational technology / AI adoption, New York, sources: Core Multifamily News; Developer / GP Newsrooms, strength 100. potential JV partnership signal; monitor JV activity.
+- Blackstone: acquisition; refinancing; JV / partnership; capital raise; operational technology / AI adoption, New York, sources: Developer / GP Newsrooms, strength 100. potential JV partnership signal; monitor JV activity.
 - Wood Partners: disposition / exit; JV / partnership; operational technology / AI adoption, Sun Belt, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
 
 ## Distressed / Refinancing Watch
 
-- Blackstone: acquisition; disposition / exit; refinancing; JV / partnership; capital raise; operational technology / AI adoption, New York, sources: Core Multifamily News; Developer / GP Newsrooms, strength 100. potential JV partnership signal; monitor JV activity.
+- Blackstone: acquisition; refinancing; JV / partnership; capital raise; operational technology / AI adoption, New York, sources: Developer / GP Newsrooms, strength 100. potential JV partnership signal; monitor JV activity.
+- Harbor Group International: refinancing; JV / partnership, National, sources: Core Multifamily News, strength 63. potential JV partnership signal; monitor JV activity.
+- Hines: refinancing; JV / partnership, Other / Unknown, sources: Core Multifamily News, strength 60. potential JV partnership signal; monitor JV activity.
 
 ## Potential Partnership Signals
 
-- Blackstone: acquisition; disposition / exit; refinancing; JV / partnership; capital raise; operational technology / AI adoption, New York, sources: Core Multifamily News; Developer / GP Newsrooms, strength 100. potential JV partnership signal; monitor JV activity.
+- Blackstone: acquisition; refinancing; JV / partnership; capital raise; operational technology / AI adoption, New York, sources: Developer / GP Newsrooms, strength 100. potential JV partnership signal; monitor JV activity.
 - Wood Partners: disposition / exit; JV / partnership; operational technology / AI adoption, Sun Belt, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
+- Harbor Group International: refinancing; JV / partnership, National, sources: Core Multifamily News, strength 63. potential JV partnership signal; monitor JV activity.
+- Hines: refinancing; JV / partnership, Other / Unknown, sources: Core Multifamily News, strength 60. potential JV partnership signal; monitor JV activity.
 
 ## Institutional Relationship Layer
 
@@ -44,7 +48,7 @@ Firm-tier weighting, capital-flow inference, and relationship scoring are availa
 
 - Blackstone: Tier 1 / Immediate Strategic Importance, Capital Inflow, Potential JV / Partnership Signal.
 - Wood Partners: Tier 3 / Growth and Market Signal Watch, Capital Outflow / Exit, Potential JV / Partnership Signal.
-- AvalonBay: Tier 1 / Immediate Strategic Importance, No Clear Capital Flow Signal, No Clear Relationship Signal.
+- Harbor Group International: Tier 3 / Growth and Market Signal Watch, Refinancing / Recapitalization, Potential JV / Partnership Signal.
 
 ## Deal / Project Pipeline Context
 
@@ -52,17 +56,17 @@ Deal and project extraction is available in `deal_pipeline_report.md`.
 - Wood Partners: Disposition / Exit, Sun Belt, Underwriting benchmark.
 - Blackstone: JV / Partnership, New York, GP partnership reference.
 - Blackstone: Operational / Property Management Tech, Sun Belt, Pricing benchmark.
-- Blackstone: Disposition / Exit, National, Monitor only.
-- AvalonBay: General Project Signal, National, Underwriting benchmark.
+- Hines: Refinancing, Other / Unknown, Capital market signal.
+- Harbor Group International: Refinancing, National, Capital market signal.
 
 ## Relationship Graph Context
 
 Developer and GP relationship edges are available in `relationship_graph_report.md`.
 - Wood Partners -> northmarq: Financing Relationship.
 - Blackstone -> blackstone: JV / Partnership.
-- AvalonBay -> equity residential: Capital Flow.
 - Blackstone -> JV / Partnership - New York - Blackstone Announces Joint Venture with Google to Create New TPU Cloud: JV / Partnership.
 - Blackstone -> New York: JV / Partnership.
+- Blackstone -> blackstone: Capital Flow.
 
 ## Competitive Landscape Implications for Woomi
 
@@ -73,5 +77,5 @@ Developer and GP relationship edges are available in `relationship_graph_report.
 
 - Blackstone: monitor JV activity
 - Wood Partners: monitor JV activity
-- AvalonBay: monitor only
-- Equity Residential: monitor only
+- Harbor Group International: monitor JV activity
+- Hines: monitor JV activity

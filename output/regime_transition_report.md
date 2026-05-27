@@ -1,13 +1,13 @@
 # Regime Transition Report
 
-Generated: 2026-05-27 01:36:21
+Generated: 2026-05-27 23:02:12
 
 ## Summary
 
 - Current primary regime: Selective Capital Re-entry
 - Previous primary regime: Selective Capital Re-entry
 - Regime changed: No
-- Consecutive runs in current regime: 2
+- Consecutive runs in current regime: 3
 - Confidence direction: stable
 - Market signals direction: stable
 - Transition label: Persistent Regime
@@ -16,11 +16,11 @@ Generated: 2026-05-27 01:36:21
 
 | Run Timestamp | Primary Regime | Secondary Regime | Confidence | Market Signals | Top Strategic Angle | Top Market Focus | Top Market Signal |
 | --- | --- | --- | --- | ---: | --- | --- | --- |
-| 2026-05-25 23:02:12 | Developer Strategy Shift | Selective Capital Re-entry | High | 33 | Developer Strategy | Sun Belt | Rent Growth Signal |
 | 2026-05-26 06:05:16 | Developer Strategy Shift | Selective Capital Re-entry | High | 33 | Developer Strategy | Sun Belt | Rent Growth Signal |
 | 2026-05-26 08:10:38 | Developer Strategy Shift | Selective Capital Re-entry | High | 33 | Developer Strategy | Sun Belt | Rent Growth Signal |
 | 2026-05-26 23:02:11 | Selective Capital Re-entry | Developer Strategy Shift | High | 40 | Developer Strategy | Other / Unknown | Rent Growth Signal |
 | 2026-05-27 01:36:18 | Selective Capital Re-entry | Developer Strategy Shift | High | 40 | Developer Strategy | Other / Unknown | Rent Growth Signal |
+| 2026-05-27 23:02:07 | Selective Capital Re-entry | Developer Strategy Shift | High | 43 | Developer Strategy | Sun Belt | Rent Growth Signal |
 
 ## Historical Persistence Summary
 

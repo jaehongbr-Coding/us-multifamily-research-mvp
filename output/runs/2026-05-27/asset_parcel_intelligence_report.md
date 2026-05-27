@@ -1,89 +1,88 @@
 # Real Asset & Parcel Intelligence Report
 
-Generated: 2026-05-27 01:36:20
+Generated: 2026-05-27 23:02:09
 
-- Total asset / parcel signals: 99
+- Total asset / parcel signals: 101
 
 ## Top Site-Level Opportunities
 
-- Entitlement / Permitting - California - Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown: Affordable / Density Bonus Strategy, 611 S. Hobart Blvd, asset_opportunity_score 95.
+- Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Refinancing / Recapitalization, 8025 Santa Monica Blvd, asset_opportunity_score 96.
 - Entitlement / Permitting - Los Angeles - 17 apartments planned at 2217 S. Fox Hills Dr. in Century City: Entitlement Play, 2217 S. Fox Hills Dr, asset_opportunity_score 95.
-- General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History: General Asset Signal, National, asset_opportunity_score 93.
+- General Project Signal - Los Angeles - Affordable housing slated for 1418 S. Mansfield Ave. in Mid-City: Affordable / Density Bonus Strategy, 1418 S. Mansfield Ave, asset_opportunity_score 94.
+- Entitlement / Permitting - Southeast - 40 apartments slated for 4080 Lafayette Place in Culver City: Entitlement Play, 4080 Lafayette Place, asset_opportunity_score 92.
 - Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M: General Asset Signal, Atlanta, asset_opportunity_score 87.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Refinancing / Recapitalization, California, asset_opportunity_score 86.
 - Refinancing - California - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments: Refinancing / Recapitalization, California, asset_opportunity_score 86.
-- Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Office-to-Residential Conversion, 10900 Wilshire Blvd, asset_opportunity_score 86.
+- Refinancing - California - HUD Section 223(f) Loan Refinances Chula Vista Multifamily: Refinancing / Recapitalization, California, asset_opportunity_score 86.
 - Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, Miami, asset_opportunity_score 85.
-- Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition: General Asset Signal, California, asset_opportunity_score 85.
-- Disposition / Exit - California - Northmarq: Multifamily Sale Serves as Benchmark for Fresno Market: General Asset Signal, California, asset_opportunity_score 85.
+- Acquisition - California - CBRE Negotiates $34.5M Million Sale of Multifamily Community in Sacramento: General Asset Signal, California, asset_opportunity_score 85.
 
 ## Top Site-Level Risks
 
 - Disposition / Exit - Los Angeles - L.A.'s poor ParkScore, Oceanwide sale delayed, and more: General Asset Signal, Los Angeles, asset_risk_score 71.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Refinancing / Recapitalization, California, asset_risk_score 67.
 - Refinancing - California - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments: Refinancing / Recapitalization, California, asset_risk_score 67.
+- Refinancing - California - HUD Section 223(f) Loan Refinances Chula Vista Multifamily: Refinancing / Recapitalization, California, asset_risk_score 67.
+- Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Refinancing / Recapitalization, 8025 Santa Monica Blvd, asset_risk_score 66.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: General Asset Signal, California, asset_risk_score 64.
+- Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Refinancing / Recapitalization, California, asset_risk_score 61.
 - General Project Signal - Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: Refinancing / Recapitalization, Florida, asset_risk_score 55.
-- Acquisition - Sun Belt - JLL Negotiates Sale of 357,570 SF Distribution Center in Northwest Houston: General Asset Signal, Houston, asset_risk_score 52.
-- Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Office-to-Residential Conversion, 10900 Wilshire Blvd, asset_risk_score 50.
-- Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Office-to-Residential Conversion, 10900 Wilshire Blvd, asset_risk_score 50.
-- Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, Miami, asset_risk_score 47.
-- Construction Financing - Sun Belt - Hillpointe Secures $67M Construction Loan for Tampa Apartments and Breaks Ground: Refinancing / Recapitalization, Tampa, asset_risk_score 47.
+- Refinancing - Sun Belt - Northmarq Arranges Refi for 199-Unit Corpus Christi Rental Community: Refinancing / Recapitalization, Houston, asset_risk_score 55.
+- Refinancing - Texas - Northmarq’s Debt + Equity Team Arranges Refinancing of Wood River Apartments in Corpus Chr...: Refinancing / Recapitalization, Texas, asset_risk_score 54.
 
 ## Assets With Address / Location Clues
 
-- Entitlement / Permitting - California - Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown: Affordable / Density Bonus Strategy, 611 S. Hobart Blvd, asset_opportunity_score 95.
+- Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Refinancing / Recapitalization, 8025 Santa Monica Blvd, asset_opportunity_score 96.
 - Entitlement / Permitting - Los Angeles - 17 apartments planned at 2217 S. Fox Hills Dr. in Century City: Entitlement Play, 2217 S. Fox Hills Dr, asset_opportunity_score 95.
-- General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History: General Asset Signal, National, asset_opportunity_score 93.
+- General Project Signal - Los Angeles - Affordable housing slated for 1418 S. Mansfield Ave. in Mid-City: Affordable / Density Bonus Strategy, 1418 S. Mansfield Ave, asset_opportunity_score 94.
+- Entitlement / Permitting - Southeast - 40 apartments slated for 4080 Lafayette Place in Culver City: Entitlement Play, 4080 Lafayette Place, asset_opportunity_score 92.
 - Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M: General Asset Signal, Atlanta, asset_opportunity_score 87.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Refinancing / Recapitalization, California, asset_opportunity_score 86.
 - Refinancing - California - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments: Refinancing / Recapitalization, California, asset_opportunity_score 86.
-- Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Office-to-Residential Conversion, 10900 Wilshire Blvd, asset_opportunity_score 86.
+- Refinancing - California - HUD Section 223(f) Loan Refinances Chula Vista Multifamily: Refinancing / Recapitalization, California, asset_opportunity_score 86.
 - Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, Miami, asset_opportunity_score 85.
-- Acquisition - California - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition: General Asset Signal, California, asset_opportunity_score 85.
-- Disposition / Exit - California - Northmarq: Multifamily Sale Serves as Benchmark for Fresno Market: General Asset Signal, California, asset_opportunity_score 85.
+- Acquisition - California - CBRE Negotiates $34.5M Million Sale of Multifamily Community in Sacramento: General Asset Signal, California, asset_opportunity_score 85.
 
 ## Assets With Identified Developers / Sponsors
 
-- General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History: General Asset Signal, National, asset_opportunity_score 93.
 - Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M: General Asset Signal, Atlanta, asset_opportunity_score 87.
 - JV / Partnership - New York - Blackstone Announces Joint Venture with Google to Create New TPU Cloud: General Asset Signal, New York, asset_opportunity_score 84.
 - Operational / Property Management Tech - Sun Belt - VoltaGrid Announces $1 Billion Strategic Equity Investment from Blackstone and Halliburton...: General Asset Signal, Houston, asset_opportunity_score 82.
-- Disposition / Exit - National - Greysteel Brokers Sale of Two Richmond Virginia Area Multifamily Low-Income Housing Tax Cr...: General Asset Signal, National, asset_opportunity_score 78.
+- Refinancing - National - ACRE Supplies $351M Refi for Four-State Multifamily Portfolio: Refinancing / Recapitalization, National, asset_opportunity_score 77.
+- General Project Signal - Other / Unknown - Apogee Therapeutics Announces $1.3 Billion Strategic Financing Collaboration with Blacksto...: General Asset Signal, Unknown, asset_opportunity_score 77.
+- Refinancing - Other / Unknown - Mesa West Provides $44M Refi for West Virginia Industrial Park: Refinancing / Recapitalization, Unknown, asset_opportunity_score 68.
 
 ## Assets With Entitlement or Permit Signals
 
-- None detected.
+- Daytona Beach Okays Massive Avalon Park Group Development: Entitlement Play, Florida, asset_opportunity_score 57.
 
 ## Assets With Financing / Refinancing Signals
 
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Refinancing / Recapitalization, California, asset_risk_score 67.
 - Refinancing - California - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments: Refinancing / Recapitalization, California, asset_risk_score 67.
+- Refinancing - California - HUD Section 223(f) Loan Refinances Chula Vista Multifamily: Refinancing / Recapitalization, California, asset_risk_score 67.
+- Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Refinancing / Recapitalization, 8025 Santa Monica Blvd, asset_risk_score 66.
+- Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Refinancing / Recapitalization, California, asset_risk_score 61.
 - General Project Signal - Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: Refinancing / Recapitalization, Florida, asset_risk_score 55.
+- Refinancing - Sun Belt - Northmarq Arranges Refi for 199-Unit Corpus Christi Rental Community: Refinancing / Recapitalization, Houston, asset_risk_score 55.
+- Refinancing - Texas - Northmarq’s Debt + Equity Team Arranges Refinancing of Wood River Apartments in Corpus Chr...: Refinancing / Recapitalization, Texas, asset_risk_score 54.
 - Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, Miami, asset_risk_score 47.
-- Construction Financing - Sun Belt - Hillpointe Secures $67M Construction Loan for Tampa Apartments and Breaks Ground: Refinancing / Recapitalization, Tampa, asset_risk_score 47.
 - General Project Signal - California - Anaheim Industrial Outdoor Storage Site Secures Bridge Loan: Refinancing / Recapitalization, California, asset_risk_score 47.
-- Refinancing - Sun Belt - Georgia Tech Student Housing Investors Ink Refi: Refinancing / Recapitalization, Atlanta, asset_risk_score 47.
-- Refinancing - New York - Black Bear Capital Arranges $39M Loan for Refinancing of Long Island Apartment Complex: Refinancing / Recapitalization, New York, asset_risk_score 46.
-- Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, 6075 Sunset Drive, asset_risk_score 26.
-- Hillpointe Secures $67M Construction Loan for Tampa Apartments and Breaks Ground: Refinancing / Recapitalization, 7400 Interbay Blvd, asset_risk_score 26.
 
 ## Office-to-Residential Asset Signals
 
-- Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Office-to-Residential Conversion, 10900 Wilshire Blvd, asset_opportunity_score 86.
-- Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd.: Office-to-Residential Conversion, 10900 Wilshire Blvd, asset_opportunity_score 75.
-- Office-to-Residential Conversion - National - Dwight Capital Provides $114M HUD-Insured Loan for Office-to-Apartment Conversion in Milwa...: Office-to-Residential Conversion, Unknown, asset_opportunity_score 71.
+- None detected.
 
 ## Affordable / Density Bonus Asset Signals
 
-- Entitlement / Permitting - California - Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown: Affordable / Density Bonus Strategy, 611 S. Hobart Blvd, asset_opportunity_score 95.
+- General Project Signal - Los Angeles - Affordable housing slated for 1418 S. Mansfield Ave. in Mid-City: Affordable / Density Bonus Strategy, 1418 S. Mansfield Ave, asset_opportunity_score 94.
 - General Project Signal - California - Affordable housing takes shape at 101 Pacific Coast Hwy. in Long Beach: Affordable / Density Bonus Strategy, California, asset_opportunity_score 84.
-- General Project Signal - California - Affordable Housing Pivot For 11880 Skyline Boulevard, Oakland Hills: Affordable / Density Bonus Strategy, 11880 Skyline Boulevard, asset_opportunity_score 81.
+- JV / Partnership - Los Angeles - Logos Faith Development St Rest Friendship Baptist Church Broke Ground on New Faith-Based...: Affordable / Density Bonus Strategy, Los Angeles, asset_opportunity_score 76.
 - Hudson Valley Property Group Expands California Presence with Elk Grove Acquisition: Affordable / Density Bonus Strategy, 10149 Bruceville Rd, asset_opportunity_score 75.
-- Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown: Affordable / Density Bonus Strategy, 611 S. Hobart Blvd, asset_opportunity_score 75.
+- Affordable housing slated for 1418 S. Mansfield Ave. in Mid-City: Affordable / Density Bonus Strategy, 1418 S. Mansfield Ave, asset_opportunity_score 75.
+- New Rendering For 650 Divisadero Street, San Francisco: Affordable / Density Bonus Strategy, 650 Divisadero Street, asset_opportunity_score 74.
 - General Project Signal - Other / Unknown - Colibri Commons Affordable Housing Opens in East Palo Alto: Affordable / Density Bonus Strategy, Unknown, asset_opportunity_score 65.
 - Demolition Permits Filed For 1939 Market Street in San Francisco: Affordable / Density Bonus Strategy, 1939 Market Street, asset_opportunity_score 64.
-- Affordable Housing Pivot For 11880 Skyline Boulevard, Oakland Hills: Affordable / Density Bonus Strategy, 11880 Skyline Boulevard, asset_opportunity_score 62.
 - Colibri Commons Affordable Housing Opens in East Palo Alto: Affordable / Density Bonus Strategy, 965 Weeks Street, asset_opportunity_score 58.
 
 ## Implications for Woomi / Woomi Global
@@ -93,22 +92,22 @@ Generated: 2026-05-27 01:36:20
 
 ## Recommended Asset-Level Follow-up Actions
 
-- Review site details, sponsor, entitlement path, and local precedent: Entitlement / Permitting - California - Affordable housing unwrapped at 611 S. Hobart Blvd. in Koreatown.
+- Review site details, sponsor, entitlement path, and local precedent: Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes....
 - Review site details, sponsor, entitlement path, and local precedent: Entitlement / Permitting - Los Angeles - 17 apartments planned at 2217 S. Fox Hills Dr. in Century City.
-- Monitor asset-level signal for repeated confirmation: General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History.
+- Review site details, sponsor, entitlement path, and local precedent: General Project Signal - Los Angeles - Affordable housing slated for 1418 S. Mansfield Ave. in Mid-City.
+- Track entitlement, permit, density bonus, and construction-readiness milestones: Entitlement / Permitting - Southeast - 40 apartments slated for 4080 Lafayette Place in Culver City.
 - Monitor asset-level signal for repeated confirmation: Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M.
 - Review site details, sponsor, entitlement path, and local precedent: Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily.
 - Review site details, sponsor, entitlement path, and local precedent: Refinancing - California - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments.
-- Review site details, sponsor, entitlement path, and local precedent: Office-to-Residential Conversion - Los Angeles - Adaptive reuse planned for Westwood office tower at 10900 Wilshire Blvd..
-- Review acquisition, financing, ownership, and comparable transaction details: Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments.
+- Review site details, sponsor, entitlement path, and local precedent: Refinancing - California - HUD Section 223(f) Loan Refinances Chula Vista Multifamily.
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 99
-- LA lifecycle watch items: 51
-- Stage mix: Unknown Stage: 63, Refinancing / Recapitalization: 9, Site Acquisition / Site Control: 16, Early Site Signal: 4, Vertical Construction: 4
+- Lifecycle records: 101
+- LA lifecycle watch items: 56
+- Stage mix: Refinancing / Recapitalization: 18, Unknown Stage: 56, Site Acquisition / Site Control: 12, Early Site Signal: 1, Vertical Construction: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -116,11 +115,11 @@ Generated: 2026-05-27 01:36:20
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 99
-- Newly detected projects: 0
+- Lifecycle transitions analyzed: 101
+- Newly detected projects: 50
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 49
+- LA lifecycle transition watch items: 52
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -128,10 +127,10 @@ Generated: 2026-05-27 01:36:20
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 759
-- Canonical projects: 164
+- Raw project references: 772
+- Canonical projects: 161
 - Duplicate project clusters: 89
-- Persistent assets tracked: 164
-- LA persistent asset watch items: 98
+- Persistent assets tracked: 161
+- LA persistent asset watch items: 92
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

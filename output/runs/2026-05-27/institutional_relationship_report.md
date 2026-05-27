@@ -1,33 +1,33 @@
 # Institutional Relationship & Capital Flow Report
 
-Generated: 2026-05-27 01:36:18
+Generated: 2026-05-27 23:02:07
 
 ## Top Institutional Relationship Signals
 
-- Blackstone: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Blackstone: score 92, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Wood Partners: score 91, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- AvalonBay: score 81, No Clear Capital Flow Signal, No Clear Relationship Signal. Review California / LA capital and developer activity.
-- Equity Residential: score 73, No Clear Capital Flow Signal, No Clear Relationship Signal. Monitor only.
+- Harbor Group International: score 83, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Hines: score 77, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 
 ## Tier 1 Firm Watch
 
-- Blackstone: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- AvalonBay: score 81, No Clear Capital Flow Signal, No Clear Relationship Signal. Review California / LA capital and developer activity.
-- Equity Residential: score 73, No Clear Capital Flow Signal, No Clear Relationship Signal. Monitor only.
+- Blackstone: score 92, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 
 ## California / LA Capital and Developer Watch
 
-- AvalonBay: score 81, No Clear Capital Flow Signal, No Clear Relationship Signal. Review California / LA capital and developer activity.
+- No current signal detected.
 
 ## Capital Inflow / Outflow Signals
 
-- Blackstone: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Blackstone: score 92, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Wood Partners: score 91, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 
 ## JV / Partnership Signals
 
-- Blackstone: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Blackstone: score 92, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Wood Partners: score 91, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Harbor Group International: score 83, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Hines: score 77, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 
 ## Competitive Benchmark Signals
 
@@ -41,36 +41,36 @@ Generated: 2026-05-27 01:36:18
 
 | Firm | Market | Source Category | Activity Type | Capital Flow | Relationship Signal | Woomi Implication |
 | --- | --- | --- | --- | --- | --- | --- |
-| Blackstone | National; New York; Sun Belt | Core Multifamily News; Developer / GP Newsrooms | acquisition; disposition / exit; refinancing; JV / partnership; capital raise; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
+| Blackstone | New York; Other / Unknown; Sun Belt | Developer / GP Newsrooms | acquisition; refinancing; JV / partnership; capital raise; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
 | Wood Partners | Sun Belt | Site / Parcel Source Expansion | disposition / exit; JV / partnership; operational technology / AI adoption | Capital Outflow / Exit | Potential JV / Partnership Signal | potential JV partnership signal |
-| AvalonBay | National | Core Multifamily News | market expansion | No Clear Capital Flow Signal | No Clear Relationship Signal | benchmark underwriting assumptions |
-| Equity Residential | National | Core Multifamily News | market expansion | No Clear Capital Flow Signal | No Clear Relationship Signal | benchmark underwriting assumptions |
+| Harbor Group International | National | Core Multifamily News | refinancing; JV / partnership | Refinancing / Recapitalization | Potential JV / Partnership Signal | potential JV partnership signal |
+| Hines | Other / Unknown | Core Multifamily News | refinancing; JV / partnership | Refinancing / Recapitalization | Potential JV / Partnership Signal | potential JV partnership signal |
 
 ## Deal / Project Intelligence
 
 Deal and project-level extraction is available in `deal_pipeline_report.md`.
+- Acquisition in California: Unknown / Unknown / cbre.
 - Construction Financing in California: Unknown / Unknown / jll.
 - Disposition / Exit in Sun Belt: Unknown / Unknown / northmarq.
+- Refinancing in California: Unknown / Unknown / walker & dunlop.
 - Disposition / Exit in California: Unknown / Unknown / northmarq.
-- Acquisition in Sun Belt: Unknown / Unknown / berkadia.
-- JV / Partnership in New York: blackstone / blackstone / Unknown.
 
 ## Relationship Graph Intelligence
 
 Capital partner, lender, GP, and market edges are available in `relationship_graph_report.md`.
 - Wood Partners -> northmarq: Financing Relationship.
 - Blackstone -> blackstone: JV / Partnership.
+- Acquisition - California - CBRE Negotiates $34.5M Million Sale of Multifamily Community in Sacramento -> cbre: Financing Relationship.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily -> jll: Financing Relationship.
-- AvalonBay -> equity residential: Capital Flow.
-- Blackstone -> blackstone: Capital Flow.
+- Refinancing - California - HUD Section 223(f) Loan Refinances Chula Vista Multifamily -> walker & dunlop: Financing Relationship.
 
 ## High-Scoring GP Watchlist Reference
 
 Emerging GP watchlist rankings are available in `gp_watchlist_report.md`.
+- Harbor Group International: 71 (Tier 2 High Potential GP), Strong partnership signal.
+- Blackstone: 68 (Tier 3 Monitoring GP), Strong partnership signal.
 - Wood Partners: 64 (Tier 3 Monitoring GP), Strong partnership signal.
-- AvalonBay: 63 (Tier 3 Monitoring GP), Moderate partnership signal.
-- Blackstone: 60 (Tier 3 Monitoring GP), Strong partnership signal.
-- Equity Residential: 30 (Low Signal), No clear partnership signal.
+- Hines: 53 (Emerging Watchlist), Strong partnership signal.
 
 ## GP Source Expansion Summary
 
@@ -101,23 +101,22 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 - JV / partnership signals should be mapped to potential GP relationship targets and compared with Woomi's US entry needs.
 - Capital inflow or deployment signals can help benchmark pricing, underwriting assumptions, and market timing.
-- High California / LA relevance should be connected to entitlement, zoning, and local developer capability tracking.
 
 ## Recommended Executive Follow-Up
 
 - Blackstone: Map potential GP / JV relationship and monitor partnership activity
 - Wood Partners: Map potential GP / JV relationship and monitor partnership activity
-- AvalonBay: Review California / LA capital and developer activity
-- Equity Residential: Monitor only
+- Harbor Group International: Map potential GP / JV relationship and monitor partnership activity
+- Hines: Map potential GP / JV relationship and monitor partnership activity
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 164
-- Institutional-grade signals: 13
-- High-confidence signals: 27
-- Weak/noisy signals: 124
-- High-confidence watchlist items: 27
+- Signals evaluated: 161
+- Institutional-grade signals: 12
+- High-confidence signals: 23
+- Weak/noisy signals: 121
+- High-confidence watchlist items: 23
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

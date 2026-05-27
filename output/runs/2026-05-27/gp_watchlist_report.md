@@ -1,17 +1,17 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-05-27 01:36:18
+Generated: 2026-05-27 23:02:07
 
 - GP/developer candidates reviewed: 4
 - Tier 1 Strategic GPs: 0
-- Tier 2 High Potential GPs: 0
+- Tier 2 High Potential GPs: 1
 
 ## Top Emerging GPs
 
+- Harbor Group International: 71 (Tier 2 High Potential GP), National, California / LA strategic positioning.
+- Blackstone: 68 (Tier 3 Monitoring GP), New York, California / LA strategic positioning.
 - Wood Partners: 64 (Tier 3 Monitoring GP), Sun Belt, Institutional-backed regional expansion.
-- AvalonBay: 63 (Tier 3 Monitoring GP), National, California / LA strategic positioning.
-- Blackstone: 60 (Tier 3 Monitoring GP), New York, Selective residential growth.
-- Equity Residential: 30 (Low Signal), National, Selective residential growth.
+- Hines: 53 (Emerging Watchlist), Other / Unknown, Distressed opportunity positioning.
 
 ## Tier 1 Strategic GP
 
@@ -19,11 +19,12 @@ Generated: 2026-05-27 01:36:18
 
 ## Tier 2 High Potential GP
 
-- No current GP signal detected.
+- Harbor Group International: score 71, Tier 2 High Potential GP, National, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## California / LA GP Activity
 
-- AvalonBay: score 63, Tier 3 Monitoring GP, National, LA / California developer strategy watch. Review LA / California development activity.
+- Harbor Group International: score 71, Tier 2 High Potential GP, National, Potential GP partnership candidate. Track JV and capital partner activity.
+- Blackstone: score 68, Tier 3 Monitoring GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## BTR / SFR GP Activity
 
@@ -43,15 +44,17 @@ Generated: 2026-05-27 01:36:18
 
 ## Institutional Capital Magnet
 
+- Harbor Group International: score 71, Tier 2 High Potential GP, National, Potential GP partnership candidate. Track JV and capital partner activity.
+- Blackstone: score 68, Tier 3 Monitoring GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
 - Wood Partners: score 64, Tier 3 Monitoring GP, Sun Belt, Potential GP partnership candidate. Track JV and capital partner activity.
-- AvalonBay: score 63, Tier 3 Monitoring GP, National, LA / California developer strategy watch. Review LA / California development activity.
-- Blackstone: score 60, Tier 3 Monitoring GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
+- Hines: score 53, Emerging Watchlist, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## Potential Woomi Partnership Candidates
 
+- Harbor Group International: score 71, Tier 2 High Potential GP, National, Potential GP partnership candidate. Track JV and capital partner activity.
+- Blackstone: score 68, Tier 3 Monitoring GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
 - Wood Partners: score 64, Tier 3 Monitoring GP, Sun Belt, Potential GP partnership candidate. Track JV and capital partner activity.
-- AvalonBay: score 63, Tier 3 Monitoring GP, National, LA / California developer strategy watch. Review LA / California development activity.
-- Blackstone: score 60, Tier 3 Monitoring GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
+- Hines: score 53, Emerging Watchlist, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## GP Source Expansion Summary
 
@@ -80,24 +83,26 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Recommended Management Meeting Targets
 
-- Wood Partners: Track JV and capital partner activity (Medium confidence).
+- Harbor Group International: Track JV and capital partner activity (Medium confidence).
 - Blackstone: Track JV and capital partner activity (Medium confidence).
+- Wood Partners: Track JV and capital partner activity (Medium confidence).
+- Hines: Track JV and capital partner activity (Medium confidence).
 
 ## Recommended Strategic Follow-up Actions
 
-- Wood Partners: Track JV and capital partner activity.
-- AvalonBay: Review LA / California development activity.
+- Harbor Group International: Track JV and capital partner activity.
 - Blackstone: Track JV and capital partner activity.
-- Equity Residential: Monitor only.
+- Wood Partners: Track JV and capital partner activity.
+- Hines: Track JV and capital partner activity.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 164
-- Institutional-grade signals: 13
-- High-confidence signals: 27
-- Weak/noisy signals: 124
-- High-confidence watchlist items: 27
+- Signals evaluated: 161
+- Institutional-grade signals: 12
+- High-confidence signals: 23
+- Weak/noisy signals: 121
+- High-confidence watchlist items: 23
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

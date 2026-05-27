@@ -1,60 +1,68 @@
 # Development Lifecycle Report
 
-Generated: 2026-05-27 01:36:21
+Generated: 2026-05-27 23:02:11
 
-- Total lifecycle records: 99
+- Total lifecycle records: 101
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 63
-- Site Acquisition / Site Control: 16
-- Refinancing / Recapitalization: 9
-- Early Site Signal: 4
-- Vertical Construction: 4
-- Delivery / Opening: 2
+- Unknown Stage: 56
+- Refinancing / Recapitalization: 18
+- Site Acquisition / Site Control: 12
+- Delivery / Opening: 9
+- Vertical Construction: 2
+- Early Site Signal: 1
 - Distressed / Stalled: 1
+- Construction Ready: 1
+- Entitlement Under Review: 1
 
 ## Top Development Timing Opportunities
 
+- Refinancing - National - ACRE Supplies $351M Refi for Four-State Multifamily Portfolio: Refinancing / Recapitalization, National, lifecycle_opportunity_score 99.
 - Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M: Unknown Stage, Atlanta, lifecycle_opportunity_score 94.
-- General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History: Unknown Stage, National, lifecycle_opportunity_score 94.
-- JV / Partnership - New York - Blackstone Announces Joint Venture with Google to Create New TPU Cloud: Unknown Stage, New York, lifecycle_opportunity_score 93.
+- JV / Partnership - New York - Blackstone Announces Joint Venture with Google to Create New TPU Cloud: Unknown Stage, New York, lifecycle_opportunity_score 92.
 - Operational / Property Management Tech - Sun Belt - VoltaGrid Announces $1 Billion Strategic Equity Investment from Blackstone and Halliburton...: Unknown Stage, Houston, lifecycle_opportunity_score 92.
+- Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Refinancing / Recapitalization, Los Angeles, lifecycle_opportunity_score 90.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Refinancing / Recapitalization, California, lifecycle_opportunity_score 86.
 - Refinancing - California - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments: Refinancing / Recapitalization, California, lifecycle_opportunity_score 86.
+- Refinancing - California - HUD Section 223(f) Loan Refinances Chula Vista Multifamily: Refinancing / Recapitalization, California, lifecycle_opportunity_score 86.
 - Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, Miami, lifecycle_opportunity_score 84.
-- Refinancing - New York - Black Bear Capital Arranges $39M Loan for Refinancing of Long Island Apartment Complex: Refinancing / Recapitalization, New York, lifecycle_opportunity_score 83.
-- General Project Signal - California - Affordable Housing Pivot For 11880 Skyline Boulevard, Oakland Hills: Site Acquisition / Site Control, San Francisco, lifecycle_opportunity_score 82.
-- Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, Miami, lifecycle_opportunity_score 81.
+- Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in West Hollywood: Refinancing / Recapitalization, Hollywood, lifecycle_opportunity_score 82.
 
 ## Top Lifecycle Risks
 
 - Disposition / Exit - Los Angeles - L.A.'s poor ParkScore, Oceanwide sale delayed, and more: Distressed / Stalled, Los Angeles, lifecycle_risk_score 100.
+- Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 68.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Refinancing / Recapitalization, California, lifecycle_risk_score 68.
 - Refinancing - California - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments: Refinancing / Recapitalization, California, lifecycle_risk_score 68.
+- Refinancing - California - HUD Section 223(f) Loan Refinances Chula Vista Multifamily: Refinancing / Recapitalization, California, lifecycle_risk_score 68.
+- Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Refinancing / Recapitalization, California, lifecycle_risk_score 64.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: Unknown Stage, California, lifecycle_risk_score 61.
 - General Project Signal - Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: Refinancing / Recapitalization, Florida, lifecycle_risk_score 60.
-- General Project Signal - California - Anaheim Industrial Outdoor Storage Site Secures Bridge Loan: Refinancing / Recapitalization, California, lifecycle_risk_score 59.
-- Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, Miami, lifecycle_risk_score 57.
-- Refinancing - New York - Black Bear Capital Arranges $39M Loan for Refinancing of Long Island Apartment Complex: Refinancing / Recapitalization, New York, lifecycle_risk_score 57.
-- Acquisition - Sun Belt - JLL Negotiates Sale of 357,570 SF Distribution Center in Northwest Houston: Unknown Stage, Houston, lifecycle_risk_score 57.
-- Refinancing - Sun Belt - Georgia Tech Student Housing Investors Ink Refi: Refinancing / Recapitalization, Atlanta, lifecycle_risk_score 56.
+- Refinancing - Sun Belt - Northmarq Arranges Refi for 199-Unit Corpus Christi Rental Community: Refinancing / Recapitalization, Houston, lifecycle_risk_score 60.
+- Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in West Hollywood: Refinancing / Recapitalization, Hollywood, lifecycle_risk_score 59.
 
 ## Projects Under Entitlement / Planning
 
-- None detected.
+- Daytona Beach Okays Massive Avalon Park Group Development: Entitlement Under Review, Unknown, lifecycle_opportunity_score 62.
 
 ## Construction-Ready / Construction-Start Signals
 
-- Hillpointe Secures $67M Construction Loan for Tampa Apartments and Breaks Ground: Vertical Construction, Tampa, lifecycle_opportunity_score 79.
-- Construction Financing - Sun Belt - Hillpointe Secures $67M Construction Loan for Tampa Apartments and Breaks Ground: Vertical Construction, Tampa, lifecycle_opportunity_score 73.
+- JV / Partnership - Los Angeles - Logos Faith Development St Rest Friendship Baptist Church Broke Ground on New Faith-Based...: Vertical Construction, Los Angeles, lifecycle_opportunity_score 79.
+- JV / Partnership - National - $99M+ Debt and Equity Financing Secured by Merchants Capital Supports Leasing of 296 Workf...: Construction Ready, National, lifecycle_opportunity_score 76.
 - Acquisition - Sun Belt - Miami Apartments Trade for $109.9M: Vertical Construction, Miami, lifecycle_opportunity_score 67.
-- Development Start - Other / Unknown - $28M Housing, Mixed-Use Development in Baltimore Breaks Ground: Vertical Construction, Unknown, lifecycle_opportunity_score 57.
 
 ## Delivery / Lease-Up Signals
 
+- Acquisition - California - Bridgeton Divests of 36,000 SF Museum Parc Mixed-Use Property in San Francisco: Delivery / Opening, California, lifecycle_opportunity_score 76.
+- Bridgeton Divests of 36,000 SF Museum Parc Mixed-Use Property in San Francisco: Delivery / Opening, Unknown, lifecycle_opportunity_score 65.
+- Refinancing - New York - Naftali Group and Access Real Estate Secures $374M Refinance of Waterfront Multifamily Mix...: Delivery / Opening, Brooklyn, lifecycle_opportunity_score 62.
+- Acquisition - Seattle - Commune Capital Sells Self-Storage Property in Bellevue, Washington for $50.7M: Delivery / Opening, Bellevue, lifecycle_opportunity_score 57.
 - Acquisition - Sun Belt - US Merchants Picks Up Rail-Ready Surprise Warehouse for $63.8M: Delivery / Opening, Phoenix, lifecycle_opportunity_score 57.
+- Commune Capital Sells Self-Storage Property in Bellevue, Washington for $50.7M: Delivery / Opening, Bellevue, lifecycle_opportunity_score 54.
+- Canary Wharf's £1.5B BTR Bet Pays Off: Delivery / Opening, Unknown, lifecycle_opportunity_score 54.
 - General Project Signal - Other / Unknown - Multifamily Absorption Rate Remains Below 50%: Delivery / Opening, Unknown, lifecycle_opportunity_score 46.
+- BTR / Build-to-Rent - Other / Unknown - Canary Wharf's £1.5B BTR Bet Pays Off: Delivery / Opening, Unknown, lifecycle_opportunity_score 44.
 
 ## Distressed / Stalled Lifecycle Signals
 
@@ -62,15 +70,16 @@ Generated: 2026-05-27 01:36:21
 
 ## Refinancing / Recapitalization Lifecycle Signals
 
+- Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 68.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Refinancing / Recapitalization, California, lifecycle_risk_score 68.
 - Refinancing - California - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments: Refinancing / Recapitalization, California, lifecycle_risk_score 68.
+- Refinancing - California - HUD Section 223(f) Loan Refinances Chula Vista Multifamily: Refinancing / Recapitalization, California, lifecycle_risk_score 68.
+- Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Refinancing / Recapitalization, California, lifecycle_risk_score 64.
 - General Project Signal - Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: Refinancing / Recapitalization, Florida, lifecycle_risk_score 60.
+- Refinancing - Sun Belt - Northmarq Arranges Refi for 199-Unit Corpus Christi Rental Community: Refinancing / Recapitalization, Houston, lifecycle_risk_score 60.
+- Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in West Hollywood: Refinancing / Recapitalization, Hollywood, lifecycle_risk_score 59.
 - General Project Signal - California - Anaheim Industrial Outdoor Storage Site Secures Bridge Loan: Refinancing / Recapitalization, California, lifecycle_risk_score 59.
-- Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, Miami, lifecycle_risk_score 57.
-- Refinancing - New York - Black Bear Capital Arranges $39M Loan for Refinancing of Long Island Apartment Complex: Refinancing / Recapitalization, New York, lifecycle_risk_score 57.
-- Refinancing - Sun Belt - Georgia Tech Student Housing Investors Ink Refi: Refinancing / Recapitalization, Atlanta, lifecycle_risk_score 56.
-- Anaheim Industrial Outdoor Storage Site Secures Bridge Loan: Refinancing / Recapitalization, Anaheim, lifecycle_risk_score 51.
-- Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, Miami, lifecycle_risk_score 50.
+- Refinancing - Texas - Northmarq’s Debt + Equity Team Arranges Refinancing of Wood River Apartments in Corpus Chr...: Refinancing / Recapitalization, Texas, lifecycle_risk_score 59.
 
 ## Implications for Woomi / Woomi Global
 
@@ -79,24 +88,24 @@ Generated: 2026-05-27 01:36:21
 
 ## Recommended Lifecycle Follow-up Actions
 
+- Track lender, maturity, debt terms, and recapitalization need: Refinancing - National - ACRE Supplies $351M Refi for Four-State Multifamily Portfolio.
 - Monitor lifecycle signal for repeated confirmation: Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M.
-- Monitor lifecycle signal for repeated confirmation: General Project Signal - National - AvalonBay, Equity Residential Strike Largest REIT Merger In U.S. History.
 - Monitor lifecycle signal for repeated confirmation: JV / Partnership - New York - Blackstone Announces Joint Venture with Google to Create New TPU Cloud.
 - Monitor lifecycle signal for repeated confirmation: Operational / Property Management Tech - Sun Belt - VoltaGrid Announces $1 Billion Strategic Equity Investment from Blackstone and Halliburton....
+- Track lender, maturity, debt terms, and recapitalization need: Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes....
 - Track lender, maturity, debt terms, and recapitalization need: Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily.
 - Track lender, maturity, debt terms, and recapitalization need: Refinancing - California - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments.
-- Track lender, maturity, debt terms, and recapitalization need: Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments.
-- Track lender, maturity, debt terms, and recapitalization need: Refinancing - New York - Black Bear Capital Arranges $39M Loan for Refinancing of Long Island Apartment Complex.
+- Track lender, maturity, debt terms, and recapitalization need: Refinancing - California - HUD Section 223(f) Loan Refinances Chula Vista Multifamily.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 99
-- Newly detected projects: 0
+- Lifecycle transitions analyzed: 101
+- Newly detected projects: 50
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 49
+- LA lifecycle transition watch items: 52
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -104,11 +113,11 @@ Generated: 2026-05-27 01:36:21
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 759
-- Canonical projects: 164
+- Raw project references: 772
+- Canonical projects: 161
 - Duplicate project clusters: 89
-- Persistent assets tracked: 164
-- LA persistent asset watch items: 98
+- Persistent assets tracked: 161
+- LA persistent asset watch items: 92
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -116,10 +125,10 @@ Generated: 2026-05-27 01:36:21
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 164
-- Institutional-grade signals: 13
-- High-confidence signals: 27
-- Weak/noisy signals: 124
-- High-confidence watchlist items: 27
+- Signals evaluated: 161
+- Institutional-grade signals: 12
+- High-confidence signals: 23
+- Weak/noisy signals: 121
+- High-confidence watchlist items: 23
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

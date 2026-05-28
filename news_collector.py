@@ -19,6 +19,7 @@ import hashlib
 import json
 import os
 import re
+import sys
 from collections import Counter
 from datetime import datetime, timedelta
 from html import unescape
@@ -26,6 +27,12 @@ from html import unescape
 import feedparser
 import requests
 from bs4 import BeautifulSoup
+
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    pass
 
 
 # ---------------------------------------------------------
@@ -79,6 +86,7 @@ SIGNAL_MEMORY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "signal_memory.csv")
 SIGNAL_MEMORY_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "signal_memory_report.md")
 CLASSIFICATION_QUALITY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "classification_quality.csv")
 CLASSIFICATION_QUALITY_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "classification_quality_report.md")
+SIGNAL_TUNING_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "signal_tuning_report.md")
 SOURCE_ACTIVATION_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "source_activation.csv")
 GP_SOURCE_COVERAGE_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "gp_source_coverage.csv")
 HISTORICAL_MEMORY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "historical_memory.csv")
@@ -1851,6 +1859,9 @@ def classify_article(text):
 
 
 ARTICLE_CLASSIFICATION_FIELDS = [
+    "original_url",
+    "article_integrity_status",
+    "article_integrity_reason",
     "primary_topic",
     "secondary_topic",
     "capital_event_type",
@@ -1863,6 +1874,10 @@ ARTICLE_CLASSIFICATION_FIELDS = [
     "market_relevance_reason",
     "classification_confidence",
     "classification_reason",
+    "article_richness_score",
+    "strategic_relevance_score",
+    "strategic_relevance_reason",
+    "representative_evidence_score",
 ]
 
 CAPITAL_EVENT_RULES = [
@@ -2184,6 +2199,203 @@ def enrich_article_classification(article):
         ),
     })
     return article
+
+
+def get_article_identity_key(article):
+    """Return URL-first article identity key for integrity and dedupe checks."""
+    url = normalize_article_url(article.get("url") or article.get("original_url") or "")
+    if url:
+        return f"url:{url}"
+    return f"title:{normalize_article_title_for_history(article.get('title', ''))}"
+
+
+def detect_source_url_mismatch(article):
+    """Flag likely title/source/url cross-contamination for known fragile feeds."""
+    source = str(article.get("source", "") or "").lower()
+    url = str(article.get("url", "") or article.get("original_url", "") or "").lower()
+    if not source or not url:
+        return False
+    expected_domains = [
+        ("sf yimby", ["sfyimby", "yimby"]),
+        ("urbanize la", ["urbanize.la", "la.urbanize"]),
+        ("connect cre", ["connectcre"]),
+        ("yield pro", ["yieldpro"]),
+        ("commercial observer", ["commercialobserver"]),
+        ("multifamily dive", ["multifamilydive"]),
+        ("multi-housing news", ["multihousingnews"]),
+    ]
+    for source_hint, domain_hints in expected_domains:
+        if source_hint in source and not any(domain in url for domain in domain_hints):
+            return True
+    return False
+
+
+def apply_article_integrity_checks(articles):
+    """Add conservative article identity integrity flags without merging metadata."""
+    url_to_titles = {}
+    title_to_urls = {}
+    for article in articles:
+        url = normalize_article_url(article.get("url") or article.get("original_url") or "")
+        title_key = normalize_article_title_for_history(article.get("title", ""))
+        if url and title_key:
+            url_to_titles.setdefault(url, set()).add(title_key)
+            title_to_urls.setdefault(title_key, set()).add(url)
+
+    for article in articles:
+        article["original_url"] = article.get("original_url") or article.get("url", "")
+        reasons = []
+        status = "valid"
+        url = normalize_article_url(article.get("url") or article.get("original_url") or "")
+        title_key = normalize_article_title_for_history(article.get("title", ""))
+        if not article.get("title") or not article.get("source") or not url:
+            status = "incomplete_metadata"
+            reasons.append("missing title, source, or URL")
+        if url and len(url_to_titles.get(url, set())) > 1:
+            status = "url_title_mismatch"
+            reasons.append("same URL appears with multiple normalized titles")
+        if title_key and len(title_to_urls.get(title_key, set())) > 1 and status == "valid":
+            status = "suspicious_duplicate"
+            reasons.append("same normalized title appears with multiple URLs")
+        if detect_source_url_mismatch(article):
+            status = "url_title_mismatch"
+            reasons.append("source name does not match expected URL domain")
+        if status != "valid":
+            if article.get("classification_confidence") == "high":
+                article["classification_confidence"] = "medium"
+            elif article.get("classification_confidence") == "medium":
+                article["classification_confidence"] = "low"
+        article["article_integrity_status"] = status
+        article["article_integrity_reason"] = "; ".join(reasons) or "title/source/url metadata are internally consistent"
+    return articles
+
+
+def calculate_article_richness_score(article):
+    """Score how much concrete evidence an article carries."""
+    text = normalize_keyword_text(" ".join([
+        article.get("title", ""),
+        article.get("article_text_sample", ""),
+        article.get("matched_keywords", ""),
+        article.get("capital_event_type", ""),
+        article.get("development_stage", ""),
+        article.get("financing_type", ""),
+    ]))
+    score = 0
+    if article.get("market_focus") and article.get("market_focus") != "Other / Unknown":
+        score += 15
+    if find_matches(text, ["$", "million", "billion", "units", "acre", "loan", "financing"]):
+        score += 15
+    if article.get("capital_event_type") not in ["", "none"]:
+        score += 15
+    if article.get("development_stage") not in ["", "none"]:
+        score += 15
+    if article.get("institutional_activity_type") not in ["", "none"]:
+        score += 10
+    if article.get("entity_role") not in ["", "unknown"]:
+        score += 10
+    if len(str(article.get("article_text_sample", ""))) >= 160:
+        score += 10
+    if article.get("source"):
+        score += 10
+    return min(100, score)
+
+
+def calculate_strategic_relevance(article):
+    """Score observed strategic behavior, not investment attractiveness."""
+    title_text = normalize_keyword_text(article.get("title", ""))
+    text = normalize_keyword_text(" ".join([
+        article.get("title", ""),
+        article.get("article_text_sample", ""),
+        article.get("matched_keywords", ""),
+        article.get("primary_topic", ""),
+        article.get("capital_event_type", ""),
+        article.get("development_stage", ""),
+        article.get("institutional_activity_type", ""),
+        article.get("asset_strategy", ""),
+    ]))
+    positive_rules = [
+        (18, "sponsor expansion", ["expands", "expansion", "enters", "entry", "grows presence"]),
+        (18, "multi-phase development", ["phase ii", "second phase", "next phase", "multi-phase", "phased"]),
+        (18, "platform or fund activity", ["platform", "fund close", "capital raise", "launches fund"]),
+        (16, "JV or partnership activity", ["joint venture", " jv ", "partnership"]),
+        (16, "development continuation", ["construction begins", "broke ground", "under construction", "delivers", "opens"]),
+        (15, "entitlement persistence", ["entitlement", "zoning", "permit", "density bonus", "planning commission"]),
+        (14, "institutional acquisition behavior", ["acquires", "acquisition", "portfolio", "reit", "institutional investor"]),
+        (12, "lease-up or absorption behavior", ["lease-up", "absorption", "concession", "occupancy"]),
+        (10, "large-scale refinance tied to strategy", ["recapitalization", "recap", "refinancing", "bridge loan"]),
+    ]
+    negative_rules = [
+        (-28, "event/webinar or promotion", ["webinar", "conference", "event", "register", "sponsored", "award", "recognition"]),
+        (-22, "thin PR language", ["announces", "welcomes", "celebrates", "appoints", "promotes", "opens new office"]),
+        (-45, "non-multifamily contamination", [
+            "industrial", "warehouse", "logistics", "office lease", "retail center",
+            "life sciences", "therapeutics", "commercialization", "halliburton",
+            "propell", "energy", "power generation",
+        ]),
+        (-14, "generic commentary", ["commentary", "opinion", "podcast", "interview"]),
+    ]
+    score = 35
+    reasons = []
+    for points, reason, keywords in positive_rules:
+        if find_matches(text, keywords):
+            score += points
+            reasons.append(reason)
+    for points, reason, keywords in negative_rules:
+        if find_matches(text, keywords):
+            score += points
+            reasons.append(reason)
+    if "non-multifamily contamination" in reasons and not find_matches(text, ["multifamily", "apartment", "housing", "residential", "btr", "rental"]):
+        score = min(score, 25)
+    source = str(article.get("source", "") or "").lower()
+    source_prone_to_page_bleed = any(source_name in source for source_name in ["sf yimby", "urbanize"])
+    strong_capital_reasons = {"JV or partnership activity", "institutional acquisition behavior"}
+    title_has_capital_signal = bool(find_matches(title_text, [
+        "joint venture", " jv ", "partnership", "acquires", "acquisition",
+        "sale", "sells", "divests", "financing", "loan", "refinance",
+    ]))
+    if source_prone_to_page_bleed and not title_has_capital_signal and any(reason in reasons for reason in strong_capital_reasons):
+        score -= 25
+        reasons.append("source feed cross-signal penalty")
+    richness = calculate_article_richness_score(article)
+    score += round(richness * 0.25)
+    if article.get("article_integrity_status") != "valid":
+        score -= 25
+        reasons.append("integrity penalty")
+    if article.get("classification_confidence") in ["low", "unknown"]:
+        score -= 10
+        reasons.append("classification confidence penalty")
+    score = max(0, min(100, score))
+    if not reasons:
+        reasons.append("general market observation with limited strategic behavior evidence")
+    return score, "; ".join(unique_list(reasons[:5])), richness
+
+
+def enrich_signal_tuning_fields(articles):
+    """Add integrity, richness, strategic relevance, and evidence scores."""
+    apply_article_integrity_checks(articles)
+    for article in articles:
+        relevance_score, relevance_reason, richness_score = calculate_strategic_relevance(article)
+        article["article_richness_score"] = richness_score
+        article["strategic_relevance_score"] = relevance_score
+        article["strategic_relevance_reason"] = relevance_reason
+        if "source feed cross-signal penalty" in relevance_reason:
+            if article.get("article_integrity_status") == "valid":
+                article["article_integrity_status"] = "suspicious_duplicate"
+                article["article_integrity_reason"] = "source-feed signal bleed suspected"
+            if article.get("classification_confidence") == "high":
+                article["classification_confidence"] = "medium"
+            elif article.get("classification_confidence") == "medium":
+                article["classification_confidence"] = "low"
+        evidence_score = relevance_score
+        if "Financing Risk" in str(article.get("strategic_angle", "")) and article.get("primary_topic") == "capital_markets":
+            evidence_score -= 8
+        if article.get("development_stage") not in ["", "none"] or article.get("institutional_activity_type") not in ["", "none"]:
+            evidence_score += 6
+        if article.get("article_integrity_status") != "valid":
+            evidence_score -= 20
+        if "source feed cross-signal penalty" in relevance_reason:
+            evidence_score -= 25
+        article["representative_evidence_score"] = max(0, min(100, evidence_score))
+    return articles
 
 
 def get_priority(relevance_score):
@@ -2723,6 +2935,21 @@ def score_article(source, title, summary, article_text_sample="", source_categor
 
     if low_value_matches and not core_matches:
         score -= 15
+
+    non_residential_terms = [
+        "industrial", "warehouse", "logistics", "office lease", "office tower",
+        "retail center", "shopping center", "hotel only", "life sciences",
+        "therapeutics", "commercialization", "halliburton", "propell",
+        "energy", "power generation",
+    ]
+    residential_context_terms = [
+        "multifamily", "apartment", "apartments", "residential", "housing",
+        "rental", "student housing", "senior housing", "build-to-rent",
+    ]
+    if find_matches(text, non_residential_terms) and not find_matches(text, residential_context_terms):
+        score -= 28
+    if "connect cre" in str(source or "").lower() and find_matches(text, non_residential_terms) and not core_matches:
+        score -= 18
 
     score = max(0, min(score, 100))
 
@@ -12130,14 +12357,25 @@ def build_daily_signal_clusters(articles, previous_articles=None):
         delta = article_count - previous_count
         source_diversity = len(sources)
         market_diversity = len(markets)
+        integrity_issue_count = len([
+            article for article in current_matches
+            if article.get("article_integrity_status") and article.get("article_integrity_status") != "valid"
+        ])
+        average_strategic_relevance = round(
+            sum(safe_int(article.get("strategic_relevance_score")) for article in current_matches)
+            / max(1, article_count),
+            1,
+        )
         confidence_score = min(
             100,
             article_count * 8
             + source_diversity * 14
             + market_diversity * 8
+            + int(average_strategic_relevance * 0.18)
             + (12 if previous_count > 0 else 0)
             - int(duplicate_risk * 35),
         )
+        confidence_score = max(0, confidence_score - integrity_issue_count * 12)
         confidence_label = get_cluster_confidence_label(
             confidence_score,
             article_count,
@@ -12163,12 +12401,21 @@ def build_daily_signal_clusters(articles, previous_articles=None):
             "source_diversity": source_diversity,
             "market_diversity": market_diversity,
             "duplicate_risk": duplicate_risk,
+            "integrity_issue_count": integrity_issue_count,
+            "average_strategic_relevance": average_strategic_relevance,
             "confidence_score": confidence_score,
             "confidence_label": confidence_label,
             "trend": trend,
             "top_market": most_common_plain_value(current_matches, "market_focus", "Other / Unknown"),
             "top_source": most_common_plain_value(current_matches, "source", "None detected"),
-            "top_articles": current_matches[:3],
+            "top_articles": sorted(
+                current_matches,
+                key=lambda article: (
+                    -safe_int(article.get("representative_evidence_score")),
+                    article.get("article_integrity_status") != "valid",
+                    -safe_int(article.get("relevance_score")),
+                ),
+            )[:3],
         })
 
     clusters.sort(
@@ -12216,6 +12463,14 @@ def get_weighted_market_scores(articles, previous_articles=None):
             weight += 3
         if any(term in text for term in ["lease-up", "concession", "absorption", "vacancy"]):
             weight += 2
+        if any(term in text for term in ["construction begins", "broke ground", "under construction", "entitlement", "permit", "phase", "platform"]):
+            weight += 3
+        if safe_int(article.get("strategic_relevance_score")) >= 70:
+            weight += 2
+        if article.get("primary_topic") == "capital_markets" and "Financing Risk" in str(article.get("strategic_angle", "")):
+            weight -= 1
+        if article.get("article_integrity_status") != "valid":
+            weight -= 3
         if "Urbanize LA".lower() in str(article.get("source", "")).lower():
             weight -= 1
         if market == "Sun Belt" and article.get("source") == row.get("top_source"):
@@ -12253,12 +12508,24 @@ def build_daily_hero_sentence(clusters, market_rows):
     if not meaningful_clusters:
         return "오늘 시장은 아직 뚜렷한 regime 변화를 단정하기 어려운 watch-only 국면입니다."
 
-    top_labels = [cluster["korean_label"] for cluster in meaningful_clusters[:2]]
+    strongest = meaningful_clusters[0]
+    secondary = meaningful_clusters[1] if len(meaningful_clusters) > 1 else {}
     market = market_rows[0]["market"] if market_rows else "특정 시장"
-    signal_text = " 및 ".join(top_labels)
+    trend_phrase = {
+        "strengthening": "강화되는 모습",
+        "newly observed": "새롭게 포착되는 모습",
+        "weakening": "다소 약화되는 모습",
+        "stable": "반복 관찰되는 모습",
+    }.get(strongest.get("trend"), "반복 관찰되는 모습")
+    secondary_phrase = (
+        f" 동시에 {secondary.get('korean_label')}도 보조 신호로 확인됩니다."
+        if secondary and secondary.get("article_count", 0) > 0
+        else ""
+    )
     return (
-        f"오늘 시장은 {market} 관찰을 중심으로 "
-        f"{signal_text}이 함께 포착되는 국면입니다."
+        f"오늘 시장은 {market} 관찰을 중심으로 {strongest['korean_label']}이 "
+        f"{trend_phrase}입니다.{secondary_phrase} "
+        "이는 투자 결론보다 source 다양성과 실제 거래/개발 evidence를 함께 확인해야 하는 관찰 신호입니다."
     )
 
 
@@ -12829,14 +13096,23 @@ def generate_markdown_report(
         "## Representative Evidence",
         "",
     ])
-    representative_articles = strategy_briefing_articles[:5] or high_priority_articles[:5]
+    representative_pool = strategy_briefing_articles or high_priority_articles or articles
+    representative_articles = sorted(
+        representative_pool,
+        key=lambda article: (
+            article.get("article_integrity_status") != "valid",
+            -safe_int(article.get("representative_evidence_score")),
+            -safe_int(article.get("strategic_relevance_score")),
+            -safe_int(article.get("relevance_score")),
+        ),
+    )[:5]
     if not representative_articles:
         lines.append("- No representative articles available in this run.")
     else:
         for article in representative_articles:
             lines.append(
                 f"- {article['title']} ({article['source']}, {article['market_focus']}): "
-                f"{article.get('gpt_strategic_analysis') or build_rule_based_strategic_interpretation(article)}"
+                f"{article.get('strategic_relevance_reason') or article.get('strategic_implication')}"
             )
     lines.append("")
 
@@ -19090,6 +19366,154 @@ def generate_classification_quality_outputs(run_timestamp, articles, dated_outpu
     return rows
 
 
+def generate_signal_tuning_report(run_timestamp, articles, dated_output_dir):
+    """Write a compact QA report for integrity, evidence quality, and weighting issues."""
+    top_strategic = sorted(
+        articles,
+        key=lambda article: (
+            -safe_int(article.get("strategic_relevance_score")),
+            -safe_int(article.get("article_richness_score")),
+        ),
+    )[:10]
+    low_quality = sorted(
+        [
+            article for article in articles
+            if safe_int(article.get("representative_evidence_score")) < 45
+            or article.get("classification_confidence") in ["low", "unknown"]
+        ],
+        key=lambda article: (
+            safe_int(article.get("representative_evidence_score")),
+            safe_int(article.get("strategic_relevance_score")),
+        ),
+    )[:15]
+    integrity_issues = [
+        article for article in articles
+        if article.get("article_integrity_status") != "valid"
+    ]
+    financing_articles = [
+        article for article in articles
+        if article.get("primary_topic") == "capital_markets"
+        or "Financing Risk" in str(article.get("strategic_angle", ""))
+    ]
+    development_behavior_articles = [
+        article for article in articles
+        if article.get("development_stage") not in ["", "none"]
+        or article.get("institutional_activity_type") not in ["", "none"]
+        or any(
+            term in normalize_keyword_text(article.get("strategic_relevance_reason", ""))
+            for term in ["sponsor expansion", "multi-phase", "development continuation", "entitlement persistence"]
+        )
+    ]
+    contamination_terms = [
+        "industrial", "warehouse", "logistics", "office lease", "retail center",
+        "life sciences", "therapeutics", "commercialization", "halliburton",
+        "propell", "energy", "power generation",
+    ]
+    contamination_candidates = [
+        article for article in articles
+        if find_matches(
+            normalize_keyword_text(" ".join([
+                article.get("title", ""),
+                article.get("article_text_sample", ""),
+            ])),
+            contamination_terms,
+        )
+        and article.get("residential_sector") in ["General Residential", "", None]
+    ]
+
+    lines = [
+        "# Signal Tuning Report",
+        "",
+        f"Generated: {run_timestamp.strftime(TIMESTAMP_FORMAT)}",
+        "",
+        "## Top Strategic Relevance Articles",
+        "",
+    ]
+    if top_strategic:
+        for article in top_strategic:
+            lines.append(
+                f"- {article.get('strategic_relevance_score', 0)} / richness {article.get('article_richness_score', 0)}: "
+                f"{article.get('title', 'Untitled')} ({article.get('source', 'Unknown')}, {article.get('market_focus', 'Other / Unknown')}) - "
+                f"{article.get('strategic_relevance_reason', '')}"
+            )
+    else:
+        lines.append("- No strategic relevance articles available.")
+
+    lines.extend([
+        "",
+        "## Low Quality Evidence Candidates",
+        "",
+    ])
+    if low_quality:
+        for article in low_quality:
+            lines.append(
+                f"- {article.get('representative_evidence_score', 0)}: {article.get('title', 'Untitled')} "
+                f"({article.get('source', 'Unknown')}) - confidence {article.get('classification_confidence', 'unknown')}; "
+                f"integrity {article.get('article_integrity_status', 'unknown')}"
+            )
+    else:
+        lines.append("- No low-quality evidence candidates were flagged.")
+
+    lines.extend([
+        "",
+        "## Potential Parsing Integrity Issues",
+        "",
+    ])
+    if integrity_issues:
+        for article in integrity_issues[:20]:
+            lines.append(
+                f"- {article.get('article_integrity_status')}: {article.get('title', 'Untitled')} "
+                f"({article.get('source', 'Unknown')}) - {article.get('article_integrity_reason', '')}"
+            )
+    else:
+        lines.append("- No title/source/url integrity issues detected in this run.")
+
+    lines.extend([
+        "",
+        "## Financing Bias Observations",
+        "",
+        f"- Financing-oriented articles: {len(financing_articles)}",
+        f"- Development / sponsor behavior articles: {len(development_behavior_articles)}",
+    ])
+    if len(financing_articles) > len(development_behavior_articles) * 1.5:
+        lines.append("- Financing coverage remains elevated; representative evidence scoring applies a mild penalty to simple financing mentions.")
+    else:
+        lines.append("- Financing coverage does not dominate the current representative evidence pool.")
+
+    lines.extend([
+        "",
+        "## Source Contamination Observations",
+        "",
+    ])
+    if contamination_candidates:
+        for article in contamination_candidates[:15]:
+            lines.append(
+                f"- Review possible non-multifamily contamination: {article.get('title', 'Untitled')} "
+                f"({article.get('source', 'Unknown')})"
+            )
+    else:
+        lines.append("- No obvious office/industrial/retail contamination candidates detected after filtering.")
+
+    lines.extend([
+        "",
+        "## Suggested Weighting Adjustments",
+        "",
+        "- Continue favoring development continuation, entitlement persistence, sponsor expansion, JV/partnership, and institutional acquisition behavior over simple financing keyword matches.",
+        "- Review low-confidence rows after several runs before adding new source-specific rules.",
+        "- Treat parsing integrity issues as evidence-quality penalties rather than deleting rows outright.",
+        "- Keep Hero Market View tied to daily evidence plus persistence, not persistence alone.",
+    ])
+    write_markdown_outputs(SIGNAL_TUNING_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "top_strategic_count": len(top_strategic),
+        "low_quality_count": len(low_quality),
+        "integrity_issue_count": len(integrity_issues),
+        "financing_article_count": len(financing_articles),
+        "development_behavior_article_count": len(development_behavior_articles),
+        "contamination_candidate_count": len(contamination_candidates),
+    }
+
+
 def parse_memory_date(value):
     """Parse run/article dates safely for signal memory."""
     text = str(value or "").strip()
@@ -22386,6 +22810,7 @@ def save_to_csv(articles):
         ):
             article["gpt_strategic_analysis"] = build_rule_based_strategic_interpretation(article)
         enrich_article_classification(article)
+    enrich_signal_tuning_fields(articles)
 
     try:
         write_csv_outputs(
@@ -22997,6 +23422,11 @@ def save_to_csv(articles):
             articles,
             dated_output_dir,
         )
+        signal_tuning_summary = generate_signal_tuning_report(
+            run_timestamp,
+            articles,
+            dated_output_dir,
+        )
         signal_memory_summary = generate_signal_memory_outputs(
             run_timestamp,
             articles,
@@ -23200,6 +23630,7 @@ def save_to_csv(articles):
         print(f"[Done] Signal quality report saved: {SIGNAL_QUALITY_REPORT_OUTPUT_FILE}")
         print(f"[Done] Classification quality CSV saved: {CLASSIFICATION_QUALITY_OUTPUT_FILE}")
         print(f"[Done] Classification quality report saved: {CLASSIFICATION_QUALITY_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Signal tuning report saved: {SIGNAL_TUNING_REPORT_OUTPUT_FILE}")
         print(f"[Done] High-confidence watchlist CSV saved: {HIGH_CONFIDENCE_WATCHLIST_OUTPUT_FILE}")
         print(f"[Done] High-confidence watchlist report saved: {HIGH_CONFIDENCE_WATCHLIST_REPORT_OUTPUT_FILE}")
         print(f"[Done] Dashboard summary CSV saved: {DASHBOARD_SUMMARY_OUTPUT_FILE}")

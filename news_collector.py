@@ -89,6 +89,14 @@ CLASSIFICATION_QUALITY_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "classifica
 SIGNAL_TUNING_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "signal_tuning_report.md")
 SOURCE_ACTIVATION_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "source_activation.csv")
 GP_SOURCE_COVERAGE_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "gp_source_coverage.csv")
+GP_CAPITAL_COVERAGE_DIAGNOSTICS_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "gp_capital_coverage_diagnostics.csv",
+)
+GP_CAPITAL_COVERAGE_DIAGNOSTICS_REPORT_OUTPUT_FILE = os.path.join(
+    OUTPUT_DIR,
+    "gp_capital_coverage_diagnostics_report.md",
+)
 HISTORICAL_MEMORY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "historical_memory.csv")
 CAPITAL_FLOW_MEMORY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "capital_flow_memory.csv")
 RELATIONSHIP_PERSISTENCE_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "relationship_persistence.csv")
@@ -1859,9 +1867,25 @@ def classify_article(text):
 
 
 ARTICLE_CLASSIFICATION_FIELDS = [
+    "article_id",
+    "canonical_article_id",
+    "source_page_url",
+    "extracted_article_title",
+    "access_status",
     "original_url",
     "article_integrity_status",
     "article_integrity_reason",
+    "primary_display_section",
+    "secondary_display_sections",
+    "section_routing_reason",
+    "repeat_exposure_status",
+    "days_since_first_seen",
+    "freshness_score",
+    "repeat_penalty_reason",
+    "gp_capital_activity_type",
+    "gp_capital_repeat_status",
+    "gp_capital_exclusion_reason",
+    "gp_capital_selected_flag",
     "primary_topic",
     "secondary_topic",
     "capital_event_type",
@@ -2209,6 +2233,223 @@ def get_article_identity_key(article):
     return f"title:{normalize_article_title_for_history(article.get('title', ''))}"
 
 
+def make_canonical_article_id(article):
+    """Create a stable URL-first id that keeps title/url/source metadata locked."""
+    url_key = normalize_article_url(article.get("original_url") or article.get("url") or "")
+    if url_key:
+        base = f"url|{url_key}"
+    else:
+        base = "|".join([
+            "title",
+            normalize_article_title_for_history(article.get("title", "")),
+            str(article.get("source", "")).strip().lower(),
+            str(article.get("published", ""))[:10],
+        ])
+    digest = hashlib.sha1(base.encode("utf-8", errors="ignore")).hexdigest()[:16]
+    return f"art_{digest}"
+
+
+def get_article_access_status(article):
+    """Classify page access without scraping around paywalls."""
+    text = normalize_keyword_text(article.get("article_text_sample", ""))
+    source = str(article.get("source", "") or "").lower()
+    url = str(article.get("url", "") or article.get("original_url", "") or "").lower()
+    if find_matches(text, [
+        "subscribe", "subscription", "sign in", "log in", "login",
+        "register to continue", "for subscribers", "paywall",
+    ]):
+        return "paywall_or_limited"
+    if any(source_hint in source for source_hint in ["connect cre", "sf yimby", "urbanize"]):
+        if not text or len(text) < 120:
+            return "paywall_or_limited"
+        if "category" in url or "tag" in url or "page/" in url:
+            return "multi_article_page"
+    if not text:
+        return "rss_only"
+    return "accessible"
+
+
+def lock_article_identity_fields(article):
+    """Keep source article identity fields together before downstream processing."""
+    article["original_url"] = article.get("original_url") or article.get("url", "")
+    article["source_page_url"] = article.get("source_page_url") or article.get("url", "")
+    article["extracted_article_title"] = article.get("extracted_article_title") or article.get("title", "")
+    article["canonical_article_id"] = article.get("canonical_article_id") or make_canonical_article_id(article)
+    article["article_id"] = article.get("article_id") or article["canonical_article_id"]
+    article["access_status"] = article.get("access_status") or get_article_access_status(article)
+    return article
+
+
+def get_primary_display_section(article):
+    """Route one article to one primary app section with deterministic priority."""
+    text = normalize_keyword_text(" ".join([
+        article.get("title", ""),
+        article.get("article_text_sample", ""),
+        article.get("matched_keywords", ""),
+        article.get("primary_topic", ""),
+        article.get("capital_event_type", ""),
+        article.get("development_stage", ""),
+        article.get("financing_type", ""),
+    ]))
+    development_hit = article.get("development_stage") not in ["", "none"] or find_matches(text, [
+        "entitlement", "permit", "zoning", "planning commission", "density bonus",
+        "construction start", "broke ground", "under construction", "delivery",
+        "opened", "lease-up", "modular", "office-to-residential", "adaptive reuse",
+    ])
+    capital_hit = (
+        article.get("capital_event_type") not in ["", "none"]
+        or article.get("financing_type") not in ["", "none"]
+        or find_matches(text, [
+            "acquisition", "disposition", "refinancing", "recapitalization",
+            "bridge loan", "construction loan", "joint venture", "jv", "loan",
+        ])
+    )
+    market_hit = article.get("primary_topic") in ["research_data", "macro_financing", "supply_demand"] or find_matches(text, [
+        "market report", "research", "forecast", "starts", "vacancy", "absorption",
+        "concession", "rent growth", "fed", "treasury", "inflation",
+    ])
+    secondary = []
+    if development_hit:
+        secondary.append("Development Activity")
+    if capital_hit:
+        secondary.append("GP / Capital Activity")
+    if market_hit:
+        secondary.append("Market Intelligence")
+    if development_hit:
+        primary = "Development Activity"
+        reason = "development milestone or entitlement signal has display priority"
+    elif capital_hit:
+        primary = "GP / Capital Activity"
+        reason = "capital event, financing, transaction, or sponsor activity detected"
+    elif market_hit:
+        primary = "Market Intelligence"
+        reason = "broad market commentary, research, or supply-demand signal detected"
+    else:
+        primary = "Article Feed"
+        reason = "no stronger section-specific signal detected"
+    secondary = [section for section in unique_list(secondary) if section != primary]
+    return primary, secondary, reason
+
+
+GP_CAPITAL_CANDIDATE_KEYWORDS = [
+    "acquisition", "acquire", "acquired", "buys", "buyer", "sale", "sells",
+    "sold", "disposition", "portfolio", "recapitalization", "recap",
+    "refinance", "refinancing", "loan", "bridge loan", "construction loan",
+    "debt", "lender", "joint venture", " jv ", "partnership", "platform",
+    "investment vehicle", "fund", "capital raise", "preferred equity",
+    "mezzanine", "merger", "reit", "sponsor", "developer",
+    "institutional investor",
+]
+
+
+GP_CAPITAL_ACTIVITY_RULES = [
+    ("construction_financing", ["construction loan", "construction financing", "construction debt"]),
+    ("recapitalization", ["recapitalization", "recap", "recapitalized"]),
+    ("refinancing", ["refinance", "refinancing", "refi"]),
+    ("joint_venture", ["joint venture", " jv ", "partnership"]),
+    ("platform_expansion", ["platform", "expansion", "expands", "launches platform"]),
+    ("fund_capital_raise", ["fund", "capital raise", "fund close", "investment vehicle"]),
+    ("portfolio_transaction", ["portfolio", "multi-property", "eight-property"]),
+    ("lender_activity", ["lender", "loan", "debt", "bridge loan", "agency debt"]),
+    ("reit_activity", ["reit"]),
+    ("acquisition", ["acquisition", "acquire", "acquired", "buys", "buyer"]),
+    ("disposition", ["disposition", "sale", "sells", "sold", "divests"]),
+    ("other_capital_event", GP_CAPITAL_CANDIDATE_KEYWORDS),
+]
+
+
+def get_gp_capital_text(article):
+    """Build search text for GP / capital diagnostics."""
+    return normalize_keyword_text(" ".join([
+        article.get("title", ""),
+        article.get("article_text_sample", ""),
+        article.get("matched_keywords", ""),
+        article.get("capital_event_type", ""),
+        article.get("institutional_activity_type", ""),
+        article.get("financing_type", ""),
+        article.get("strategic_angle", ""),
+        article.get("primary_topic", ""),
+    ]))
+
+
+def classify_gp_capital_activity_type(article):
+    """Classify GP / capital candidate articles into diagnostic activity types."""
+    text = get_gp_capital_text(article)
+    for label, keywords in GP_CAPITAL_ACTIVITY_RULES:
+        if find_matches(text, keywords):
+            return label
+    if article.get("capital_event_type") not in ["", "none"]:
+        return article.get("capital_event_type")
+    if article.get("institutional_activity_type") not in ["", "none"]:
+        return article.get("institutional_activity_type")
+    return "none"
+
+
+def is_gp_capital_candidate(article):
+    """Return True when an article should be counted in GP / capital diagnostics."""
+    if article.get("capital_event_type") not in ["", "none"]:
+        return True
+    if article.get("institutional_activity_type") not in ["", "none"]:
+        return True
+    if article.get("financing_type") not in ["", "none"]:
+        return True
+    if article.get("primary_display_section") == "GP / Capital Activity":
+        return True
+    return bool(find_matches(get_gp_capital_text(article), GP_CAPITAL_CANDIDATE_KEYWORDS))
+
+
+def apply_gp_capital_diagnostic_fields(articles):
+    """Add article-level GP / capital candidate, repeat, and selection fields."""
+    strong_activity_types = {
+        "acquisition", "disposition", "refinancing", "construction_financing",
+        "recapitalization", "joint_venture", "platform_expansion",
+        "portfolio_transaction", "fund_capital_raise", "lender_activity",
+        "reit_activity",
+    }
+    for article in articles:
+        if not is_gp_capital_candidate(article):
+            article["gp_capital_activity_type"] = "none"
+            article["gp_capital_repeat_status"] = "not_candidate"
+            article["gp_capital_exclusion_reason"] = "not a GP / capital candidate"
+            article["gp_capital_selected_flag"] = "No"
+            continue
+
+        activity_type = classify_gp_capital_activity_type(article)
+        article["gp_capital_activity_type"] = activity_type
+        reasons = []
+        low_relevance = safe_int(article.get("relevance_score")) < 55 and safe_int(article.get("representative_evidence_score")) < 40
+        integrity_issue = article.get("article_integrity_status") != "valid"
+        repeat_penalty = article.get("repeat_exposure_status") == "repeat_penalized"
+        important_follow_up = (
+            activity_type in strong_activity_types
+            and safe_int(article.get("strategic_relevance_score")) >= 65
+            and safe_int(article.get("freshness_score")) >= 45
+        )
+
+        if repeat_penalty and important_follow_up:
+            repeat_status = "retained_repeat"
+        elif repeat_penalty:
+            repeat_status = "repeat_penalized"
+            reasons.append("repeat exposure penalty")
+        elif article.get("previously_seen_article") == "Yes":
+            repeat_status = "repeated_but_retained"
+        else:
+            repeat_status = "new_candidate"
+        article["gp_capital_repeat_status"] = repeat_status
+
+        if integrity_issue:
+            reasons.append("article integrity issue")
+        if low_relevance:
+            reasons.append("low relevance or thin evidence")
+        if article.get("access_status") == "paywall_or_limited":
+            reasons.append("limited page access")
+
+        selected = not integrity_issue and not low_relevance and (not repeat_penalty or important_follow_up)
+        article["gp_capital_selected_flag"] = "Yes" if selected else "No"
+        article["gp_capital_exclusion_reason"] = "; ".join(unique_list(reasons)) or "selected or retained for GP / capital review"
+    return articles
+
+
 def detect_source_url_mismatch(article):
     """Flag likely title/source/url cross-contamination for known fragile feeds."""
     source = str(article.get("source", "") or "").lower()
@@ -2230,6 +2471,23 @@ def detect_source_url_mismatch(article):
     return False
 
 
+def detect_title_text_mismatch(article):
+    """Detect likely feed/page bleed when fetched page text does not support the RSS title."""
+    source = str(article.get("source", "") or "").lower()
+    if not any(source_hint in source for source_hint in ["connect cre", "sf yimby", "urbanize"]):
+        return False
+    sample_key = normalize_article_title_for_history(article.get("article_text_sample", ""))
+    title_tokens = {
+        token for token in normalize_article_title_for_history(article.get("title", "")).split()
+        if len(token) >= 4
+    }
+    if len(sample_key) < 120 or len(title_tokens) < 3:
+        return False
+    sample_tokens = set(sample_key.split())
+    overlap = len(title_tokens & sample_tokens) / max(1, len(title_tokens))
+    return overlap < 0.25
+
+
 def apply_article_integrity_checks(articles):
     """Add conservative article identity integrity flags without merging metadata."""
     url_to_titles = {}
@@ -2242,6 +2500,7 @@ def apply_article_integrity_checks(articles):
             title_to_urls.setdefault(title_key, set()).add(url)
 
     for article in articles:
+        lock_article_identity_fields(article)
         article["original_url"] = article.get("original_url") or article.get("url", "")
         reasons = []
         status = "valid"
@@ -2257,8 +2516,14 @@ def apply_article_integrity_checks(articles):
             status = "suspicious_duplicate"
             reasons.append("same normalized title appears with multiple URLs")
         if detect_source_url_mismatch(article):
-            status = "url_title_mismatch"
+            status = "suspicious_mismatch"
             reasons.append("source name does not match expected URL domain")
+        if article.get("access_status") == "multi_article_page":
+            status = "suspicious_mismatch"
+            reasons.append("source page may contain multiple article blocks")
+        if detect_title_text_mismatch(article):
+            status = "suspicious_mismatch"
+            reasons.append("fetched page text does not sufficiently match RSS title")
         if status != "valid":
             if article.get("classification_confidence") == "high":
                 article["classification_confidence"] = "medium"
@@ -2329,7 +2594,8 @@ def calculate_strategic_relevance(article):
         (-45, "non-multifamily contamination", [
             "industrial", "warehouse", "logistics", "office lease", "retail center",
             "life sciences", "therapeutics", "commercialization", "halliburton",
-            "propell", "energy", "power generation",
+            "propell", "energy", "power generation", "data center", "cloud",
+            "tpu", "google cloud", "semiconductor",
         ]),
         (-14, "generic commentary", ["commentary", "opinion", "podcast", "interview"]),
     ]
@@ -2395,6 +2661,7 @@ def enrich_signal_tuning_fields(articles):
         if "source feed cross-signal penalty" in relevance_reason:
             evidence_score -= 25
         article["representative_evidence_score"] = max(0, min(100, evidence_score))
+    apply_gp_capital_diagnostic_fields(articles)
     return articles
 
 
@@ -2940,7 +3207,8 @@ def score_article(source, title, summary, article_text_sample="", source_categor
         "industrial", "warehouse", "logistics", "office lease", "office tower",
         "retail center", "shopping center", "hotel only", "life sciences",
         "therapeutics", "commercialization", "halliburton", "propell",
-        "energy", "power generation",
+        "energy", "power generation", "data center", "cloud", "tpu",
+        "google cloud", "semiconductor",
     ]
     residential_context_terms = [
         "multifamily", "apartment", "apartments", "residential", "housing",
@@ -3242,7 +3510,16 @@ def fetch_feed(feed_info):
                 "matched_keywords": "; ".join(matched_keywords[:12]),
                 "title": title,
                 "url": link,
+                "original_url": link,
+                "source_page_url": link,
+                "extracted_article_title": title,
+                "access_status": get_article_access_status({
+                    "source": source,
+                    "url": link,
+                    "article_text_sample": article_text_sample,
+                }),
             }
+            lock_article_identity_fields(article)
 
             articles.append(article)
 
@@ -3381,7 +3658,7 @@ def article_history_keys(rows):
     url_keys = set()
     title_keys = set()
     for row in rows:
-        url_key = normalize_article_url(row.get("url", ""))
+        url_key = normalize_article_url(row.get("url") or row.get("original_url") or "")
         title_key = normalize_article_title_for_history(row.get("title", ""))
         if url_key:
             url_keys.add(url_key)
@@ -3401,7 +3678,8 @@ def classify_new_articles_for_manifest(articles, previous_article_rows):
     new_count = 0
     duplicate_count = 0
     for article in articles:
-        url_key = normalize_article_url(article.get("url", ""))
+        lock_article_identity_fields(article)
+        url_key = normalize_article_url(article.get("url") or article.get("original_url") or "")
         title_key = normalize_article_title_for_history(article.get("title", ""))
         is_duplicate = bool((url_key and url_key in seen_urls) or (title_key and title_key in seen_titles))
         article["previously_seen_article"] = "Yes" if is_duplicate else "No"
@@ -3414,6 +3692,136 @@ def classify_new_articles_for_manifest(articles, previous_article_rows):
         if title_key:
             seen_titles.add(title_key)
     return new_count, duplicate_count
+
+
+def iter_archived_article_rows():
+    """Yield historical article rows from dated archives and latest output."""
+    seen_paths = set()
+    candidate_paths = [OUTPUT_FILE]
+    if os.path.isdir(RUNS_DIR):
+        for root, _dirs, files in os.walk(RUNS_DIR):
+            if os.path.basename(OUTPUT_FILE) in files:
+                candidate_paths.append(os.path.join(root, os.path.basename(OUTPUT_FILE)))
+    for path in candidate_paths:
+        if path in seen_paths or not os.path.exists(path):
+            continue
+        seen_paths.add(path)
+        for row in read_csv_file(path):
+            yield row
+
+
+def extract_previous_representative_titles():
+    """Read prior daily briefing evidence bullets before this run overwrites them."""
+    if not os.path.exists(DAILY_BRIEFING_OUTPUT_FILE):
+        return set()
+    try:
+        with open(DAILY_BRIEFING_OUTPUT_FILE, "r", encoding="utf-8-sig") as file:
+            lines = file.readlines()
+    except OSError:
+        return set()
+    in_section = False
+    titles = set()
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith("## Representative Evidence"):
+            in_section = True
+            continue
+        if in_section and stripped.startswith("## "):
+            break
+        if in_section and stripped.startswith("- "):
+            title_part = stripped[2:].split(" (", 1)[0].strip()
+            title_key = normalize_article_title_for_history(title_part)
+            if title_key:
+                titles.add(title_key)
+    return titles
+
+
+def build_article_first_seen_index(history_rows):
+    """Build URL/title first-seen lookup for freshness and repeat exposure scoring."""
+    first_seen = {}
+    for row in history_rows:
+        keys = [
+            f"url:{normalize_article_url(row.get('url') or row.get('original_url') or '')}",
+            f"title:{normalize_article_title_for_history(row.get('title') or row.get('source_article_title') or '')}",
+        ]
+        date_value = row.get("run_date") or row.get("published") or row.get("collected_at") or ""
+        parsed = parse_memory_date(date_value)
+        if not parsed:
+            continue
+        for key in keys:
+            if key.endswith(":"):
+                continue
+            if key not in first_seen or parsed < first_seen[key]:
+                first_seen[key] = parsed
+    return first_seen
+
+
+def apply_freshness_and_routing_fields(articles, run_timestamp, previous_evidence_titles):
+    """Add display routing and repeat exposure penalties after classification is known."""
+    first_seen = build_article_first_seen_index(list(iter_archived_article_rows()))
+    run_date = run_timestamp.date()
+    for article in articles:
+        lock_article_identity_fields(article)
+        primary, secondary, reason = get_primary_display_section(article)
+        article["primary_display_section"] = primary
+        article["secondary_display_sections"] = "; ".join(secondary)
+        article["section_routing_reason"] = reason
+
+        keys = [
+            f"url:{normalize_article_url(article.get('url') or article.get('original_url') or '')}",
+            f"title:{normalize_article_title_for_history(article.get('title') or '')}",
+        ]
+        title_key = normalize_article_title_for_history(article.get("title", ""))
+        first_seen_date = None
+        for key in keys:
+            if key.endswith(":"):
+                continue
+            candidate = first_seen.get(key)
+            if candidate and (not first_seen_date or candidate < first_seen_date):
+                first_seen_date = candidate
+        if not first_seen_date:
+            first_seen_date = run_date
+        days_seen = max(0, (run_date - first_seen_date).days)
+        article["days_since_first_seen"] = days_seen
+
+        freshness_score = 100
+        repeat_reasons = []
+        if article.get("previously_seen_article") == "Yes":
+            freshness_score -= min(45, 18 + days_seen * 4)
+            repeat_reasons.append("previously seen article")
+        if title_key in previous_evidence_titles:
+            freshness_score -= 30
+            repeat_reasons.append("appeared in prior Representative Evidence")
+        if article.get("access_status") == "paywall_or_limited":
+            freshness_score -= 12
+            repeat_reasons.append("limited page access")
+        if article.get("article_integrity_status") != "valid":
+            freshness_score -= 20
+            repeat_reasons.append("article integrity penalty")
+
+        follow_up_terms = ["update", "follow-up", "phase", "opens", "broke ground", "under construction", "launches", "expands"]
+        if days_seen > 0 and find_matches(normalize_keyword_text(article.get("title", "")), follow_up_terms):
+            freshness_score += 15
+            repeat_reasons.append("possible follow-up or updated development signal")
+        freshness_score = max(0, min(100, freshness_score))
+        article["freshness_score"] = freshness_score
+        if freshness_score >= 85 and article.get("previously_seen_article") != "Yes":
+            article["repeat_exposure_status"] = "new_or_fresh"
+        elif freshness_score >= 60:
+            article["repeat_exposure_status"] = "acceptable_repeat"
+        else:
+            article["repeat_exposure_status"] = "repeat_penalized"
+        article["repeat_penalty_reason"] = "; ".join(unique_list(repeat_reasons)) or "fresh article or no repeat penalty"
+        evidence_score = safe_int(article.get("representative_evidence_score"))
+        if article["repeat_exposure_status"] == "repeat_penalized":
+            evidence_score -= 25
+        elif article["repeat_exposure_status"] == "acceptable_repeat":
+            evidence_score -= 8
+        if primary != "Market Intelligence" and "Market Intelligence" in secondary:
+            evidence_score -= 4
+        article["representative_evidence_score"] = max(0, min(100, evidence_score))
+    apply_gp_capital_diagnostic_fields(articles)
+    return articles
 
 
 def add_run_fields_to_rows(fieldnames, rows):
@@ -8088,6 +8496,15 @@ def build_gp_intelligence_rows(
 
         if not gp_articles:
             continue
+        representative_article = sorted(
+            gp_articles,
+            key=lambda article: (
+                article.get("primary_display_section") != "GP / Capital Activity",
+                article.get("repeat_exposure_status") == "repeat_penalized",
+                article.get("article_integrity_status") != "valid",
+                -safe_int(article.get("representative_evidence_score")),
+            ),
+        )[0]
 
         activity_types = detect_gp_activity_types(gp_articles)
         market_focus = most_common_label(gp_articles, "market_focus")
@@ -8109,6 +8526,17 @@ def build_gp_intelligence_rows(
         )
 
         rows.append({
+            "canonical_article_id": representative_article.get("canonical_article_id", ""),
+            "related_canonical_article_ids": "; ".join(unique_list(
+                article.get("canonical_article_id", "")
+                for article in gp_articles
+                if article.get("canonical_article_id")
+            )),
+            "primary_display_section": representative_article.get("primary_display_section", ""),
+            "repeat_exposure_status": representative_article.get("repeat_exposure_status", ""),
+            "freshness_score": representative_article.get("freshness_score", ""),
+            "article_integrity_status": representative_article.get("article_integrity_status", ""),
+            "access_status": representative_article.get("access_status", ""),
             "gp_name": gp_name,
             "canonical_gp_name": canonicalize_entity(gp_name, "Developer / GP")["canonical_entity"],
             "residential_sector": most_common_plain_value(gp_articles, "residential_sector", "General Residential"),
@@ -8206,6 +8634,13 @@ def generate_gp_intelligence_outputs(
 ):
     """Write gp_intelligence.csv and gp_intelligence_report.md."""
     fieldnames = [
+        "canonical_article_id",
+        "related_canonical_article_ids",
+        "primary_display_section",
+        "repeat_exposure_status",
+        "freshness_score",
+        "article_integrity_status",
+        "access_status",
         "gp_name",
         "canonical_gp_name",
         "residential_sector",
@@ -9480,6 +9915,13 @@ def build_deal_pipeline_rows(run_timestamp, articles):
 
         rows.append({
             "run_timestamp": run_timestamp.strftime("%Y-%m-%d %H:%M:%S"),
+            "canonical_article_id": article.get("canonical_article_id", ""),
+            "article_integrity_status": article.get("article_integrity_status", ""),
+            "primary_display_section": article.get("primary_display_section", ""),
+            "secondary_display_sections": article.get("secondary_display_sections", ""),
+            "repeat_exposure_status": article.get("repeat_exposure_status", ""),
+            "freshness_score": article.get("freshness_score", ""),
+            "access_status": article.get("access_status", ""),
             "project_or_deal_name": build_project_or_deal_name(article, deal_type, market),
             "deal_type": deal_type,
             "asset_type": asset_type,
@@ -9583,6 +10025,13 @@ def generate_deal_pipeline_outputs(deal_rows, dated_output_dir, graph_rows=None)
     """Write deal_pipeline.csv and deal_pipeline_report.md."""
     fieldnames = [
         "run_timestamp",
+        "canonical_article_id",
+        "article_integrity_status",
+        "primary_display_section",
+        "secondary_display_sections",
+        "repeat_exposure_status",
+        "freshness_score",
+        "access_status",
         "deal_fingerprint_id",
         "fingerprint_confidence",
         "canonical_project_name",
@@ -12411,8 +12860,9 @@ def build_daily_signal_clusters(articles, previous_articles=None):
             "top_articles": sorted(
                 current_matches,
                 key=lambda article: (
-                    -safe_int(article.get("representative_evidence_score")),
                     article.get("article_integrity_status") != "valid",
+                    article.get("repeat_exposure_status") == "repeat_penalized",
+                    -safe_int(article.get("representative_evidence_score")),
                     -safe_int(article.get("relevance_score")),
                 ),
             )[:3],
@@ -12614,7 +13064,103 @@ def build_woomi_checkpoint_lines(clusters, market_rows):
     return checkpoints[:3]
 
 
-def build_daily_briefing_context(articles, previous_articles=None):
+def extract_previous_hero_market_view():
+    """Read the prior Hero Market View before overwriting the daily briefing."""
+    if not os.path.exists(DAILY_BRIEFING_OUTPUT_FILE):
+        return ""
+    try:
+        with open(DAILY_BRIEFING_OUTPUT_FILE, "r", encoding="utf-8-sig") as file:
+            lines = file.readlines()
+    except OSError:
+        return ""
+    in_section = False
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith("## Hero Market View"):
+            in_section = True
+            continue
+        if in_section and stripped.startswith("## "):
+            break
+        if in_section and stripped:
+            return stripped
+    return ""
+
+
+def get_fresh_signal_phrase(articles):
+    """Summarize fresh evidence so Hero copy can react to daily evidence."""
+    fresh_articles = [
+        article for article in articles
+        if article.get("repeat_exposure_status") != "repeat_penalized"
+        and article.get("article_integrity_status") == "valid"
+    ]
+    text = normalize_keyword_text(" ".join(
+        " ".join([
+            article.get("title", ""),
+            article.get("development_stage", ""),
+            article.get("capital_event_type", ""),
+            article.get("asset_strategy", ""),
+            article.get("matched_keywords", ""),
+        ])
+        for article in fresh_articles
+    ))
+    phrases = []
+    if find_matches(text, ["joint venture", " jv ", "partnership"]):
+        phrases.append("JV / partnership 신호")
+    if find_matches(text, ["platform", "expansion", "enters", "entry"]):
+        phrases.append("platform 또는 sponsor 확장")
+    if find_matches(text, ["entitlement", "permit", "density bonus", "zoning"]):
+        phrases.append("인허가 / entitlement 흐름")
+    if find_matches(text, ["modular", "prefabrication"]):
+        phrases.append("modular construction")
+    if find_matches(text, ["office-to-residential", "adaptive reuse", "conversion"]):
+        phrases.append("office-to-residential 전환")
+    if find_matches(text, ["broke ground", "under construction", "opens", "delivery", "lease-up"]):
+        phrases.append("개발 진행 / delivery")
+    if find_matches(text, ["refinancing", "recapitalization", "bridge loan", "construction loan"]):
+        phrases.append("refinancing / debt 부담")
+    return " · ".join(unique_list(phrases[:3]))
+
+
+def build_refreshed_daily_hero_sentence(clusters, market_rows, articles, previous_hero=""):
+    """Create stale-resistant Hero Market View copy from persistence plus fresh evidence."""
+    meaningful_clusters = [
+        cluster for cluster in clusters
+        if cluster["article_count"] > 0 and cluster["confidence_label"] != "insufficient data"
+    ]
+    if not meaningful_clusters:
+        return "오늘 시장은 아직 뚜렷한 국면 변화를 단정하기 어렵습니다. 신규 evidence와 source 다양성이 부족해 watch-only로 관리하는 것이 적절합니다."
+    strongest = meaningful_clusters[0]
+    secondary = meaningful_clusters[1] if len(meaningful_clusters) > 1 else {}
+    market = market_rows[0]["market"] if market_rows else "특정 시장"
+    trend_phrase = {
+        "strengthening": "강화되는 모습",
+        "newly observed": "새롭게 포착되는 모습",
+        "weakening": "다소 약화되는 모습",
+        "stable": "반복 관찰되는 모습",
+    }.get(strongest.get("trend"), "반복 관찰되는 모습")
+    secondary_phrase = (
+        f" 동시에 {secondary.get('korean_label')}도 보조 신호로 확인됩니다."
+        if secondary and secondary.get("article_count", 0) > 0
+        else ""
+    )
+    fresh_phrase = get_fresh_signal_phrase(articles)
+    evidence_sentence = (
+        f"오늘 새 evidence에서는 {fresh_phrase}이 함께 관찰됩니다."
+        if fresh_phrase
+        else "오늘 새 evidence는 제한적이어서 기존 관찰을 보수적으로 유지합니다."
+    )
+    hero = (
+        f"오늘 시장은 {market} 관찰을 중심으로 {strongest['korean_label']}이 "
+        f"{trend_phrase}입니다.{secondary_phrase} {evidence_sentence} "
+        "투자 결론보다는 source 다양성, 실제 거래/개발 evidence, 반복 노출 여부를 함께 확인해야 합니다."
+    )
+    if previous_hero and normalize_keyword_text(previous_hero) == normalize_keyword_text(hero):
+        hero = hero.replace("오늘 시장은", "이번 run에서는", 1)
+        hero += " 전일과 동일한 구조적 신호가 유지되지만, 대표 evidence 구성은 fresh signal 중심으로 재점검했습니다."
+    return hero
+
+
+def build_daily_briefing_context(articles, previous_articles=None, previous_hero=""):
     """Build the reusable daily strategic briefing context."""
     previous_articles = previous_articles or []
     clusters = build_daily_signal_clusters(articles, previous_articles)
@@ -12632,7 +13178,7 @@ def build_daily_briefing_context(articles, previous_articles=None):
         market_rows[0]["dominant_signals"] if market_rows else "insufficient data"
     )
     return {
-        "hero_market_view": build_daily_hero_sentence(clusters, market_rows),
+        "hero_market_view": build_refreshed_daily_hero_sentence(clusters, market_rows, articles, previous_hero),
         "why_it_matters": build_daily_why_it_matters(clusters, market_rows),
         "clusters": clusters,
         "market_rows": market_rows,
@@ -13027,7 +13573,11 @@ def generate_markdown_report(
 ):
     """Generate a data-driven daily strategy briefing in Markdown."""
     generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    context = build_daily_briefing_context(articles, previous_article_rows)
+    context = build_daily_briefing_context(
+        articles,
+        previous_article_rows,
+        extract_previous_hero_market_view(),
+    )
     key_clusters = [
         cluster for cluster in context["clusters"]
         if cluster["article_count"] > 0
@@ -13101,11 +13651,19 @@ def generate_markdown_report(
         representative_pool,
         key=lambda article: (
             article.get("article_integrity_status") != "valid",
+            article.get("repeat_exposure_status") == "repeat_penalized",
             -safe_int(article.get("representative_evidence_score")),
+            -safe_int(article.get("freshness_score")),
             -safe_int(article.get("strategic_relevance_score")),
             -safe_int(article.get("relevance_score")),
         ),
-    )[:5]
+    )
+    representative_articles = [
+        article for article in representative_articles
+        if article.get("article_integrity_status") == "valid"
+        and article.get("repeat_exposure_status") != "repeat_penalized"
+        and safe_int(article.get("representative_evidence_score")) >= 40
+    ][:5]
     if not representative_articles:
         lines.append("- No representative articles available in this run.")
     else:
@@ -17160,6 +17718,13 @@ def build_asset_parcel_intelligence_rows(run_timestamp, articles, deal_rows, fin
         confidence_evidence = len([value for value in [address, intersection, site_size, row.get("unit_count"), gp_name if gp_name != "Unknown" else "", project_name if project_name != "Unknown Asset / Project" else ""] if value])
         rows.append({
             "asset_signal_id": f"AST-{run_timestamp.strftime('%Y%m%d')}-{len(rows) + 1:03d}",
+            "canonical_article_id": row.get("canonical_article_id", ""),
+            "article_integrity_status": row.get("article_integrity_status", ""),
+            "primary_display_section": row.get("primary_display_section", ""),
+            "secondary_display_sections": row.get("secondary_display_sections", ""),
+            "repeat_exposure_status": row.get("repeat_exposure_status", ""),
+            "freshness_score": row.get("freshness_score", ""),
+            "access_status": row.get("access_status", ""),
             "canonical_asset_or_project_name": project_name,
             "raw_project_or_property_name": row.get("project_or_deal_name") or row.get("related_project_or_deal") or row.get("source_article_title") or row.get("title", ""),
             "address_or_location_clue": address or neighborhood or market,
@@ -17201,7 +17766,10 @@ def build_asset_parcel_intelligence_rows(run_timestamp, articles, deal_rows, fin
 def generate_asset_parcel_intelligence_outputs(asset_rows, dated_output_dir):
     """Write asset_parcel_intelligence.csv and Markdown report."""
     fieldnames = [
-        "asset_signal_id", "canonical_asset_or_project_name", "raw_project_or_property_name",
+        "asset_signal_id", "canonical_article_id", "article_integrity_status",
+        "primary_display_section", "secondary_display_sections", "repeat_exposure_status",
+        "freshness_score", "access_status",
+        "canonical_asset_or_project_name", "raw_project_or_property_name",
         "address_or_location_clue", "intersection_or_corridor", "neighborhood_or_submarket",
         "city", "state_or_region", "residential_sector", "asset_type", "gp_or_developer",
         "owner_or_sponsor", "lender_or_capital_partner", "entitlement_status", "permit_status",
@@ -17628,6 +18196,13 @@ def build_development_lifecycle_rows(run_timestamp, asset_rows, entitlement_rows
                 evidence.append(value)
         rows.append({
             "lifecycle_id": f"LC-{run_timestamp.strftime('%Y%m%d')}-{len(rows) + 1:03d}",
+            "canonical_article_id": asset.get("canonical_article_id", ""),
+            "article_integrity_status": asset.get("article_integrity_status", ""),
+            "primary_display_section": asset.get("primary_display_section", ""),
+            "secondary_display_sections": asset.get("secondary_display_sections", ""),
+            "repeat_exposure_status": asset.get("repeat_exposure_status", ""),
+            "freshness_score": asset.get("freshness_score", ""),
+            "access_status": asset.get("access_status", ""),
             "canonical_asset_or_project_name": project_name,
             "market": asset.get("state_or_region") or asset.get("city") or "Other / Unknown",
             "city_or_submarket": asset.get("neighborhood_or_submarket") or asset.get("city") or "Unknown",
@@ -17661,7 +18236,10 @@ def build_development_lifecycle_rows(run_timestamp, asset_rows, entitlement_rows
 def generate_development_lifecycle_outputs(lifecycle_rows, dated_output_dir):
     """Write development_lifecycle.csv and Markdown report."""
     fieldnames = [
-        "lifecycle_id", "canonical_asset_or_project_name", "market", "city_or_submarket",
+        "lifecycle_id", "canonical_article_id", "article_integrity_status",
+        "primary_display_section", "secondary_display_sections", "repeat_exposure_status",
+        "freshness_score", "access_status",
+        "canonical_asset_or_project_name", "market", "city_or_submarket",
         "residential_sector", "gp_or_developer", "lender_or_capital_partner",
         "current_lifecycle_stage", "primary_development_category", "primary_category_reason",
         "previous_lifecycle_stage_if_known",
@@ -20134,7 +20712,11 @@ def add_dashboard_card(cards, run_timestamp, card_type, title, score, market, se
 
 def build_dashboard_summary_row(run_timestamp, articles, high_confidence_rows, signal_rows, opportunity_rows, distress_rows, la_asset_rows, gp_watchlist_rows, market_entry_rows, lifecycle_rows, regional_rows, sector_rows, previous_article_rows=None):
     """Build the single dashboard summary row for this run."""
-    briefing_context = build_daily_briefing_context(articles, previous_article_rows)
+    briefing_context = build_daily_briefing_context(
+        articles,
+        previous_article_rows,
+        extract_previous_hero_market_view(),
+    )
     signal_memory_summary = CURRENT_SIGNAL_MEMORY_SUMMARY
     institutional_grade_count = len([row for row in signal_rows if row["signal_quality_label"] == "Institutional Grade"])
     top_market = regional_rows[0]["market"] if regional_rows else "Other / Unknown"
@@ -21108,6 +21690,201 @@ def generate_source_health_outputs(dated_output_dir, gp_source_coverage_rows=Non
         "placeholder_sources": len(placeholder_sources),
         "high_value_sources": high_value_sources,
         "manual_review_sources": placeholder_sources,
+    }
+
+
+def build_gp_capital_coverage_diagnostics_rows(run_timestamp, articles):
+    """Aggregate GP / Capital candidate coverage by source for operational QA."""
+    articles_by_source = {}
+    for article in articles:
+        articles_by_source.setdefault(article.get("source", "Unknown"), []).append(article)
+
+    health_by_source = {row.get("source_name", "Unknown"): row for row in SOURCE_HEALTH_ROWS}
+    all_sources = sorted(set(health_by_source.keys()) | set(articles_by_source.keys()))
+    rows = []
+    for source in all_sources:
+        source_articles = articles_by_source.get(source, [])
+        health = health_by_source.get(source, {})
+        candidates = [article for article in source_articles if is_gp_capital_candidate(article)]
+        selected = [article for article in candidates if article.get("gp_capital_selected_flag") == "Yes"]
+        repeated = [
+            article for article in candidates
+            if article.get("gp_capital_repeat_status") in ["repeat_penalized", "retained_repeat", "repeated_but_retained"]
+        ]
+        reason_counter = Counter()
+        for article in candidates:
+            for reason in split_labels(article.get("gp_capital_exclusion_reason", "")):
+                if reason and reason != "selected or retained for GP / capital review":
+                    reason_counter[reason] += 1
+        if health.get("fetch_status") not in ["OK", "Disabled", "Placeholder", ""]:
+            reason_counter[f"source fetch status: {health.get('fetch_status')}"] += 1
+        if health.get("error_message"):
+            reason_counter[health.get("error_message")] += 1
+
+        rows.append({
+            "run_date": run_timestamp.strftime("%Y-%m-%d"),
+            "source": source,
+            "source_tier": health.get("source_tier") or most_common_plain_value(source_articles, "source_tier", ""),
+            "coverage_focus": health.get("coverage_focus") or most_common_plain_value(source_articles, "coverage_focus", ""),
+            "fetch_status": health.get("fetch_status", ""),
+            "source_error_message": health.get("error_message", ""),
+            "total_articles_collected": len(source_articles),
+            "gp_capital_candidate_count": len(candidates),
+            "new_gp_capital_candidate_count": len([
+                article for article in candidates
+                if article.get("gp_capital_repeat_status") == "new_candidate"
+            ]),
+            "repeated_gp_capital_candidate_count": len(repeated),
+            "excluded_by_repeat_penalty_count": len([
+                article for article in candidates
+                if article.get("gp_capital_repeat_status") == "repeat_penalized"
+            ]),
+            "excluded_by_low_relevance_count": len([
+                article for article in candidates
+                if "low relevance" in article.get("gp_capital_exclusion_reason", "")
+            ]),
+            "excluded_by_integrity_issue_count": len([
+                article for article in candidates
+                if article.get("article_integrity_status") != "valid"
+            ]),
+            "selected_gp_capital_count": len(selected),
+            "retained_repeat_count": len([
+                article for article in candidates
+                if article.get("gp_capital_repeat_status") == "retained_repeat"
+            ]),
+            "top_activity_types": "; ".join(
+                f"{label}:{count}"
+                for label, count in Counter(
+                    article.get("gp_capital_activity_type", "none")
+                    for article in candidates
+                ).most_common(5)
+            ),
+            "top_exclusion_reasons": "; ".join(
+                f"{reason}:{count}"
+                for reason, count in reason_counter.most_common(5)
+            ) or "none",
+        })
+    rows.sort(
+        key=lambda row: (
+            -safe_int(row["gp_capital_candidate_count"]),
+            -safe_int(row["selected_gp_capital_count"]),
+            row["source"],
+        )
+    )
+    return rows
+
+
+def generate_gp_capital_coverage_diagnostics_outputs(run_timestamp, articles, dated_output_dir):
+    """Write GP / Capital source coverage diagnostics CSV and Markdown report."""
+    rows = build_gp_capital_coverage_diagnostics_rows(run_timestamp, articles)
+    fieldnames = [
+        "run_date",
+        "source",
+        "source_tier",
+        "coverage_focus",
+        "fetch_status",
+        "source_error_message",
+        "total_articles_collected",
+        "gp_capital_candidate_count",
+        "new_gp_capital_candidate_count",
+        "repeated_gp_capital_candidate_count",
+        "excluded_by_repeat_penalty_count",
+        "excluded_by_low_relevance_count",
+        "excluded_by_integrity_issue_count",
+        "selected_gp_capital_count",
+        "retained_repeat_count",
+        "top_activity_types",
+        "top_exclusion_reasons",
+    ]
+    write_csv_outputs(
+        GP_CAPITAL_COVERAGE_DIAGNOSTICS_OUTPUT_FILE,
+        fieldnames,
+        rows,
+        dated_output_dir,
+    )
+
+    focus_sources = [
+        "Commercial Observer", "Bisnow", "Connect CRE", "Connect CRE Apartments",
+        "Connect CRE Texas", "Connect CRE South Florida", "REBusiness Online",
+        "The Real Deal", "GlobeSt",
+    ]
+    total_candidates = sum(safe_int(row["gp_capital_candidate_count"]) for row in rows)
+    total_selected = sum(safe_int(row["selected_gp_capital_count"]) for row in rows)
+    total_repeat_excluded = sum(safe_int(row["excluded_by_repeat_penalty_count"]) for row in rows)
+    total_integrity_excluded = sum(safe_int(row["excluded_by_integrity_issue_count"]) for row in rows)
+    top_candidate_sources = [
+        row for row in rows
+        if safe_int(row["gp_capital_candidate_count"]) > 0
+    ][:10]
+    failing_focus_sources = [
+        row for row in rows
+        if any(focus.lower() == row["source"].lower() for focus in focus_sources)
+        and row.get("fetch_status") not in ["OK", "Disabled", "Placeholder", ""]
+    ]
+
+    lines = [
+        "# GP / Capital Coverage Diagnostics",
+        "",
+        f"Generated: {run_timestamp.strftime('%Y-%m-%d %H:%M:%S')}",
+        "",
+        "## Summary",
+        "",
+        f"- GP / Capital candidate articles: {total_candidates}",
+        f"- Selected GP / Capital articles: {total_selected}",
+        f"- Excluded by repeat penalty: {total_repeat_excluded}",
+        f"- Excluded by integrity issue: {total_integrity_excluded}",
+        "",
+        "## Top Candidate Sources",
+        "",
+    ]
+    if top_candidate_sources:
+        for row in top_candidate_sources:
+            lines.append(
+                f"- {row['source']}: {row['gp_capital_candidate_count']} candidate(s), "
+                f"{row['selected_gp_capital_count']} selected, activities: {row['top_activity_types'] or 'none'}."
+            )
+    else:
+        lines.append("- No GP / Capital candidates detected in this run.")
+    lines.extend(["", "## Focus Source Coverage", ""])
+    for source in focus_sources:
+        match = next((row for row in rows if row["source"].lower() == source.lower()), {})
+        if not match:
+            lines.append(f"- {source}: not registered in this run.")
+            continue
+        lines.append(
+            f"- {source}: status {match.get('fetch_status', 'unknown')}, "
+            f"articles {match.get('total_articles_collected', 0)}, "
+            f"candidates {match.get('gp_capital_candidate_count', 0)}, "
+            f"selected {match.get('selected_gp_capital_count', 0)}."
+        )
+    lines.extend(["", "## Source Failures / Parsing Issues", ""])
+    if failing_focus_sources:
+        for row in failing_focus_sources:
+            lines.append(
+                f"- {row['source']}: {row.get('fetch_status')} - {row.get('source_error_message') or 'no error message'}"
+            )
+    else:
+        lines.append("- No focus-source fetch failures detected beyond disabled/placeholders.")
+    lines.extend([
+        "",
+        "## Interpretation Notes",
+        "",
+        "- If candidate count is high but selected count is low, review repeat, low relevance, and integrity exclusion columns.",
+        "- `retained_repeat_count` shows repeated articles kept because they still look like meaningful follow-up activity.",
+        "- Source failures explain whether low GP / Capital volume is source availability rather than classifier strictness.",
+        "",
+    ])
+    write_markdown_outputs(
+        GP_CAPITAL_COVERAGE_DIAGNOSTICS_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+    return {
+        "rows": rows,
+        "total_candidates": total_candidates,
+        "total_selected": total_selected,
+        "total_repeat_excluded": total_repeat_excluded,
+        "total_integrity_excluded": total_integrity_excluded,
     }
 
 
@@ -22713,6 +23490,7 @@ def save_to_csv(articles):
         DEVELOPMENT_LIFECYCLE_OUTPUT_FILE,
         dated_output_dir,
     )
+    previous_representative_titles = extract_previous_representative_titles()
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     if SAVE_DATED_OUTPUT:
@@ -22811,6 +23589,28 @@ def save_to_csv(articles):
             article["gpt_strategic_analysis"] = build_rule_based_strategic_interpretation(article)
         enrich_article_classification(article)
     enrich_signal_tuning_fields(articles)
+    apply_freshness_and_routing_fields(
+        articles,
+        run_timestamp,
+        previous_representative_titles,
+    )
+    strategy_briefing_articles.sort(
+        key=lambda article: (
+            article.get("repeat_exposure_status") == "repeat_penalized",
+            article.get("article_integrity_status") != "valid",
+            -safe_int(article.get("representative_evidence_score")),
+            -safe_int(article.get("strategic_relevance_score")),
+            action_level_order.get(article["action_level"], 99),
+        )
+    )
+    high_priority_articles.sort(
+        key=lambda article: (
+            article.get("repeat_exposure_status") == "repeat_penalized",
+            article.get("article_integrity_status") != "valid",
+            -safe_int(article.get("representative_evidence_score")),
+            -safe_int(article.get("relevance_score")),
+        )
+    )
 
     try:
         write_csv_outputs(
@@ -22873,6 +23673,11 @@ def save_to_csv(articles):
             dated_output_dir,
             gp_source_coverage_rows,
             source_activation_rows,
+        )
+        gp_capital_coverage_summary = generate_gp_capital_coverage_diagnostics_outputs(
+            run_timestamp,
+            articles,
+            dated_output_dir,
         )
         generate_source_coverage_outputs(
             articles,

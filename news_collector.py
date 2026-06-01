@@ -100,6 +100,7 @@ GP_CAPITAL_COVERAGE_DIAGNOSTICS_REPORT_OUTPUT_FILE = os.path.join(
     OUTPUT_DIR,
     "gp_capital_coverage_diagnostics_report.md",
 )
+GP_ROUTING_QUALITY_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "gp_routing_quality_report.md")
 SOURCE_RECOVERY_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "source_recovery_report.md")
 FRESHNESS_QUALITY_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "freshness_quality_report.md")
 HISTORICAL_MEMORY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "historical_memory.csv")
@@ -1723,10 +1724,31 @@ TOPIC_KEYWORDS = {
 # Market focus labels and score bonuses for geographies that matter for
 # daily US multifamily strategy monitoring.
 MARKET_FOCUS_RULES = [
+    {"label": "Louisville / Kentucky", "bonus": 4, "keywords": ["louisville", "louisville kentucky", "louisville, kentucky"]},
+    {"label": "Kentucky", "bonus": 3, "keywords": ["kentucky", "ky."]},
+    {"label": "Wethersfield / Connecticut", "bonus": 4, "keywords": ["wethersfield", "wethersfield connecticut", "wethersfield, connecticut"]},
+    {"label": "Connecticut", "bonus": 3, "keywords": ["connecticut"]},
+    {"label": "Baton Rouge / Louisiana", "bonus": 4, "keywords": ["baton rouge"]},
+    {"label": "Louisiana", "bonus": 3, "keywords": ["louisiana"]},
+    {"label": "Northern Virginia", "bonus": 5, "keywords": ["northern virginia", "national landing", "arlington virginia", "arlington, virginia"]},
+    {"label": "Virginia", "bonus": 3, "keywords": ["virginia"]},
+    {"label": "Atlanta / Georgia", "bonus": 5, "keywords": ["atlanta", "duluth", "atlanta georgia", "duluth georgia"]},
+    {"label": "Georgia", "bonus": 3, "keywords": ["georgia"]},
+    {"label": "Phoenix / Arizona", "bonus": 5, "keywords": ["phoenix", "gilbert", "scottsdale", "tempe", "tucson", "phoenix arizona", "gilbert arizona"]},
+    {"label": "Denver / Colorado", "bonus": 4, "keywords": ["denver", "colorado"]},
+    {"label": "Las Vegas / Nevada", "bonus": 4, "keywords": ["las vegas", "nevada"]},
+    {"label": "Utah", "bonus": 3, "keywords": ["utah", "salt lake city"]},
+    {"label": "Tennessee", "bonus": 3, "keywords": ["tennessee", "nashville"]},
+    {"label": "South Florida", "bonus": 5, "keywords": ["south florida", "miami", "sarasota", "tampa", "port richey"]},
+    {"label": "Dallas / North Texas", "bonus": 5, "keywords": ["north texas", "dallas", "fort worth", "dallas-fort worth"]},
+    {"label": "Austin / Texas", "bonus": 4, "keywords": ["austin", "austin texas"]},
+    {"label": "Houston / Texas", "bonus": 4, "keywords": ["houston", "houston texas"]},
+    {"label": "New York City", "bonus": 5, "keywords": ["new york city", "nyc", "manhattan", "brooklyn", "queens", "west village"]},
+    {"label": "Washington DC", "bonus": 4, "keywords": ["washington dc", "washington d.c.", "washington, d.c.", "noMa", "district of columbia"]},
     {
         "label": "Los Angeles",
         "bonus": 15,
-        "keywords": ["los angeles", "l.a.", "la county", "southern california"],
+        "keywords": ["los angeles", "l.a.", "la county", "southern california", "santa monica", "beverly hills", "riverside", "inland empire"],
     },
     {
         "label": "California",
@@ -1739,6 +1761,10 @@ MARKET_FOCUS_RULES = [
             "orange county",
             "bay area",
             "sacramento",
+            "santa monica",
+            "beverly hills",
+            "riverside",
+            "inland empire",
         ],
     },
     {
@@ -1759,6 +1785,8 @@ MARKET_FOCUS_RULES = [
             "tampa",
             "orlando",
             "miami",
+            "sarasota",
+            "port richey",
         ],
     },
     {
@@ -1793,7 +1821,7 @@ MARKET_FOCUS_RULES = [
     {
         "label": "Florida",
         "bonus": 0,
-        "keywords": ["florida", "miami", "orlando", "tampa", "jacksonville"],
+        "keywords": ["florida", "miami", "orlando", "tampa", "jacksonville", "sarasota", "port richey"],
     },
     {
         "label": "Arizona",
@@ -1906,6 +1934,9 @@ ARTICLE_CLASSIFICATION_FIELDS = [
     "freshness_reason",
     "freshness_score",
     "repeat_penalty_reason",
+    "extracted_city",
+    "extracted_state",
+    "extracted_market_reason",
     "gp_capital_activity_type",
     "gp_capital_repeat_status",
     "gp_capital_exclusion_reason",
@@ -1930,7 +1961,7 @@ ARTICLE_CLASSIFICATION_FIELDS = [
 
 CAPITAL_EVENT_RULES = [
     ("recapitalization", ["recapitalization", "recap", "recapitalizes", "recapitalized"]),
-    ("refinancing", ["refinancing", "refinance", "refinanced", "refi"]),
+    ("refinancing", ["refinancing", "refinance", "refinanced", "refis"]),
     ("construction_financing", ["construction financing", "construction loan", "construction debt"]),
     ("bridge_loan", ["bridge loan", "bridge financing", "bridge debt"]),
     ("permanent_loan", ["permanent loan", "permanent financing"]),
@@ -1959,6 +1990,7 @@ DEVELOPMENT_STAGE_RULES = [
     ("permit", ["permit", "permits", "permitting", "building permit"]),
     ("site_acquisition", ["site acquisition", "acquired site", "buys site", "development site acquisition"]),
     ("land_assembly", ["land assembly", "land assemblage", "assemblage"]),
+    ("renovation_repositioning", ["renovation", "repositioning", "reposition", "rebrand", "transformation", "value-add", "value add"]),
     ("redevelopment", ["redevelopment", "redevelop"]),
     ("adaptive_reuse", ["adaptive reuse", "office-to-residential", "office conversion"]),
 ]
@@ -2196,7 +2228,6 @@ def enrich_article_classification(article):
             article.get("url", "") or article.get("original_url", ""),
             article.get("source", ""),
             article.get("topics", ""),
-            article.get("matched_keywords", ""),
         ]
     else:
         classification_text_parts = [
@@ -2241,6 +2272,21 @@ def enrich_article_classification(article):
     )
     if limited_access and confidence in ["high", "medium"]:
         confidence = "low"
+    city, state, extracted_market, market_reason = extract_market_details(
+        " ".join([
+            article.get("title", ""),
+            article.get("summary", ""),
+            article.get("article_text_sample", ""),
+            article.get("source", ""),
+        ]),
+        article.get("market_focus") or "Other / Unknown",
+    )
+    if extracted_market and (
+        article.get("market_focus") in ["", "Other / Unknown", "National"]
+        or city
+        or state
+    ):
+        article["market_focus"] = extracted_market
     market = article.get("market_focus") or "Other / Unknown"
     classification_reason = build_classification_reason(
         primary_topic,
@@ -2256,6 +2302,14 @@ def enrich_article_classification(article):
             "Limited/paywalled article; classification is based on title, URL, source, and available lead text only. "
             + classification_reason
         )
+    if find_matches(text, [
+        "property management", "third-party management", "assumes management",
+        "management platform", "operating platform", "operator",
+    ]):
+        classification_reason = (
+            classification_reason
+            + " Operator/property management activity detected."
+        )
     article.update({
         "primary_topic": primary_topic,
         "secondary_topic": secondary_topic,
@@ -2267,6 +2321,9 @@ def enrich_article_classification(article):
         "asset_strategy": first_or_none(asset_strategy, "unknown"),
         "entity_role": first_or_none(entity_roles, "unknown"),
         "market_relevance_reason": build_market_relevance_reason(article, primary_topic, market),
+        "extracted_city": city,
+        "extracted_state": state,
+        "extracted_market_reason": market_reason,
         "classification_confidence": confidence,
         "classification_reason": classification_reason,
     })
@@ -2390,6 +2447,17 @@ def get_primary_display_section(article):
     text = normalize_keyword_text(" ".join([
         part for part in text_parts if part
     ]))
+    asset_strategy_hit = is_asset_strategy_article(article)
+    deal_financing_hit = is_deal_level_financing_article(article)
+    operator_activity_hit = find_matches(text, ["property management", "third-party management", "assumes management", "management platform", "operating platform", "operator", "management company"])
+    macro_finance_only = find_matches(text, MACRO_FINANCE_TERMS) and not deal_financing_hit
+    title_text = normalize_keyword_text(article.get("title", ""))
+    title_capital_event_hit = find_matches(title_text, [
+        "joint venture", "led joint venture", " jv ", "acquisition", "acquires",
+        "acquired", "buys", "sells", "sold", "recapitalization", "recap",
+        "refinance", "refinancing", "refis", "loan", "lends", "capital raise",
+        "fund close", "platform",
+    ])
     development_hit = article.get("development_stage") not in ["", "none"] or find_matches(text, [
         "entitlement", "permit", "zoning", "planning commission", "density bonus",
         "construction start", "broke ground", "under construction", "delivery",
@@ -2397,11 +2465,13 @@ def get_primary_display_section(article):
         "law", "bill", "mandate", "development approval", "starts", "begins",
         "breaks ground", "construction", "build", "to build", "purchased site",
         "acquired land", "land assemblage", "vacant site", "targeting site",
-        "plans to build",
+        "plans to build", "renovation", "repositioning", "rebrand", "transformation",
     ])
     capital_hit = (
         article.get("capital_event_type") not in ["", "none"]
         or article.get("financing_type") not in ["", "none"]
+        or deal_financing_hit
+        or operator_activity_hit
         or find_matches(text, [
             "acquisition", "disposition", "refinancing", "recapitalization",
             "bridge loan", "construction loan", "joint venture", "jv", "loan",
@@ -2419,7 +2489,22 @@ def get_primary_display_section(article):
         secondary.append("GP / Capital Activity")
     if market_hit:
         secondary.append("Market Intelligence")
-    if development_hit:
+    if macro_finance_only:
+        primary = "Market Intelligence"
+        reason = "macro finance or rate outlook signal detected"
+    elif asset_strategy_hit and not deal_financing_hit:
+        primary = "Development Activity"
+        reason = "renovation, repositioning, redevelopment, or asset strategy signal detected"
+    elif deal_financing_hit:
+        primary = "GP / Capital Activity"
+        reason = "property-level financing, lender, refinancing, or recapitalization signal detected"
+    elif operator_activity_hit:
+        primary = "GP / Capital Activity"
+        reason = "operator or property management platform activity detected"
+    elif title_capital_event_hit and capital_hit:
+        primary = "GP / Capital Activity"
+        reason = "headline-level GP, transaction, financing, or capital event detected"
+    elif development_hit:
         primary = "Development Activity"
         reason = "development milestone or entitlement signal has display priority"
     elif capital_hit:
@@ -2439,46 +2524,120 @@ GP_CAPITAL_CANDIDATE_KEYWORDS = [
     "acquisition", "acquire", "acquired", "buys", "buyer", "sale", "sells",
     "sold", "disposition", "portfolio", "recapitalization", "recap",
     "refinance", "refinancing", "loan", "bridge loan", "construction loan",
-    "debt", "lender", "joint venture", " jv ", "partnership", "platform",
+    "acquisition loan", "mortgage", "financing", "debt", "lender", "cmbs",
+    "joint venture", " jv ", "partnership", "platform",
     "investment vehicle", "fund", "capital raise", "preferred equity",
-    "mezzanine", "merger", "reit", "sponsor", "developer",
-    "institutional investor",
+    "mezzanine", "merger", "reit",
+    "institutional investor", "property management", "third-party management",
+    "assumes management", "management platform", "operating platform", "operator",
 ]
 
 
 GP_CAPITAL_ACTIVITY_RULES = [
+    ("asset_management_operator_activity", ["property management", "third-party management", "assumes management", "management platform", "operating platform", "operator", "management company"]),
     ("construction_financing", ["construction loan", "construction financing", "construction debt"]),
-    ("recapitalization", ["recapitalization", "recap", "recapitalized"]),
-    ("refinancing", ["refinance", "refinancing", "refi"]),
+    ("acquisition_financing", ["acquisition loan", "acquisition financing"]),
+    ("equity_transaction", ["equity transaction", "led joint venture", "equity investment", "preferred equity"]),
     ("joint_venture", ["joint venture", " jv ", "partnership"]),
-    ("platform_expansion", ["platform", "expansion", "expands", "launches platform"]),
-    ("fund_capital_raise", ["fund", "capital raise", "fund close", "investment vehicle"]),
-    ("portfolio_transaction", ["portfolio", "multi-property", "eight-property"]),
-    ("lender_activity", ["lender", "loan", "debt", "bridge loan", "agency debt"]),
-    ("reit_activity", ["reit"]),
+    ("recapitalization", ["recapitalization", "recap", "recapitalized"]),
+    ("refinancing", ["refinance", "refinancing", "refis"]),
+    ("disposition_exit", ["disposition", "sale", "sells", "sold", "divests"]),
     ("acquisition", ["acquisition", "acquire", "acquired", "buys", "buyer"]),
-    ("disposition", ["disposition", "sale", "sells", "sold", "divests"]),
+    ("platform_expansion", ["platform", "expansion", "expands", "launches platform"]),
+    ("capital_raise", ["fund", "capital raise", "fund close", "investment vehicle"]),
+    ("portfolio_transaction", ["portfolio", "multi-property", "eight-property"]),
+    ("debt_financing", ["lender", "lends", "loan", "mortgage", "debt", "bridge loan", "agency debt", "financing", "cmbs"]),
+    ("reit_activity", ["reit"]),
     ("other_capital_event", GP_CAPITAL_CANDIDATE_KEYWORDS),
 ]
 
 
 def get_gp_capital_text(article):
     """Build search text for GP / capital diagnostics."""
-    return normalize_keyword_text(" ".join([
-        article.get("title", ""),
-        article.get("article_text_sample", ""),
-        article.get("matched_keywords", ""),
-        article.get("capital_event_type", ""),
-        article.get("institutional_activity_type", ""),
-        article.get("financing_type", ""),
-        article.get("strategic_angle", ""),
-        article.get("primary_topic", ""),
-    ]))
+    access_status = article.get("access_status") or article.get("content_access_status")
+    if is_limited_access_status(access_status):
+        parts = [
+            article.get("title", ""),
+            article.get("url", "") or article.get("original_url", ""),
+            article.get("source", ""),
+            article.get("capital_event_type", ""),
+            article.get("financing_type", ""),
+            article.get("primary_topic", ""),
+        ]
+    else:
+        parts = [
+            article.get("title", ""),
+            article.get("article_text_sample", ""),
+            article.get("matched_keywords", ""),
+            article.get("capital_event_type", ""),
+            article.get("institutional_activity_type", ""),
+            article.get("financing_type", ""),
+            article.get("strategic_angle", ""),
+            article.get("primary_topic", ""),
+        ]
+    return normalize_keyword_text(" ".join(parts))
+
+
+MACRO_FINANCE_TERMS = [
+    "fed", "federal reserve", "treasury", "sofr", "interest rate outlook",
+    "rates outlook", "inflation", "monetary policy", "bond yield",
+]
+
+
+DEAL_FINANCE_TERMS = [
+    "loan", "refis", "refinance", "refinancing", "bridge loan", "construction loan",
+    "acquisition loan", "mortgage", "lender", "lends", "financing", "debt",
+    "recap", "recapitalization", "cmbs",
+]
+
+
+DEAL_FINANCE_EVENT_FIELDS = {
+    "refinancing", "recapitalization", "construction_financing", "bridge_loan",
+    "permanent_loan", "preferred_equity", "mezzanine_financing", "debt_extension",
+}
+
+
+DEAL_SPECIFIC_TERMS = [
+    "$", "million", "apartment building", "apartment community", "property",
+    "development", "units", "unit", "sponsor", "borrower", "bank", "trust",
+    "capital", "arranges", "provides", "lends", "refis",
+]
+
+
+def is_deal_level_financing_article(article):
+    """Separate property/sponsor financing events from macro rate commentary."""
+    text = get_gp_capital_text(article)
+    title_text = normalize_keyword_text(article.get("title", ""))
+    has_debt = find_matches(text, DEAL_FINANCE_TERMS)
+    if not has_debt:
+        return False
+    has_debt_in_title = find_matches(title_text, DEAL_FINANCE_TERMS)
+    has_explicit_financing_field = (
+        article.get("capital_event_type") in DEAL_FINANCE_EVENT_FIELDS
+        or article.get("financing_type") not in ["", "none"]
+    )
+    if not has_debt_in_title and not has_explicit_financing_field:
+        return False
+    has_macro = find_matches(title_text, MACRO_FINANCE_TERMS)
+    has_deal_specific = (
+        find_matches(text, DEAL_SPECIFIC_TERMS)
+        or article.get("market_focus") not in ["", "Other / Unknown", "National"]
+        or bool(extract_market_details(text, article.get("market_focus"))[1])
+    )
+    return bool(has_deal_specific and not (has_macro and not has_deal_specific))
+
+
+def is_asset_strategy_article(article):
+    """Identify renovation/repositioning strategy that should not inflate capital deal counts."""
+    text = get_gp_capital_text(article)
+    return find_matches(text, ["renovation", "repositioning", "reposition", "rebrand", "transformation", "adaptive reuse", "value-add", "value add"])
 
 
 def classify_gp_capital_activity_type(article):
     """Classify GP / capital candidate articles into diagnostic activity types."""
     text = get_gp_capital_text(article)
+    if is_asset_strategy_article(article) and not find_matches(text, ["loan", "refis", "refinancing", "joint venture", "acquisition", "sale", "sold"]):
+        return "asset_strategy"
     for label, keywords in GP_CAPITAL_ACTIVITY_RULES:
         if find_matches(text, keywords):
             return label
@@ -2491,6 +2650,10 @@ def classify_gp_capital_activity_type(article):
 
 def is_gp_capital_candidate(article):
     """Return True when an article should be counted in GP / capital diagnostics."""
+    if is_asset_strategy_article(article) and not is_deal_level_financing_article(article):
+        return False
+    if is_deal_level_financing_article(article):
+        return True
     if article.get("capital_event_type") not in ["", "none"]:
         return True
     if article.get("institutional_activity_type") not in ["", "none"]:
@@ -2505,10 +2668,11 @@ def is_gp_capital_candidate(article):
 def apply_gp_capital_diagnostic_fields(articles):
     """Add article-level GP / capital candidate, repeat, and selection fields."""
     strong_activity_types = {
-        "acquisition", "disposition", "refinancing", "construction_financing",
+        "acquisition", "disposition_exit", "refinancing", "construction_financing",
+        "acquisition_financing", "debt_financing", "equity_transaction",
         "recapitalization", "joint_venture", "platform_expansion",
-        "portfolio_transaction", "fund_capital_raise", "lender_activity",
-        "reit_activity",
+        "portfolio_transaction", "capital_raise", "lender_activity",
+        "reit_activity", "asset_management_operator_activity",
     }
     for article in articles:
         if not is_gp_capital_candidate(article):
@@ -2526,6 +2690,19 @@ def apply_gp_capital_diagnostic_fields(articles):
         repeat_penalty = article.get("repeat_exposure_status") == "repeat_penalized"
         old_article = article.get("freshness_bucket") == "old_31d_plus"
         stale_article = article.get("freshness_bucket") == "stale_15_30d"
+        primary_section = article.get("primary_display_section", "")
+        deal_financing_hit = is_deal_level_financing_article(article)
+        operator_activity_hit = activity_type == "asset_management_operator_activity"
+        promotion_or_event = find_matches(get_gp_capital_text(article), [
+            "webinar", "conference", "speaker spotlight", "event", "register",
+            "award", "recognition", "sponsored content",
+        ])
+        development_primary_without_capital_event = (
+            primary_section == "Development Activity"
+            and not deal_financing_hit
+            and not operator_activity_hit
+            and activity_type in {"lender_activity", "debt_financing", "disposition_exit", "other_capital_event"}
+        )
         important_follow_up = (
             activity_type in strong_activity_types
             and safe_int(article.get("strategic_relevance_score")) >= 65
@@ -2553,10 +2730,16 @@ def apply_gp_capital_diagnostic_fields(articles):
             reasons.append("stale 15-30 day article without strong follow-up signal")
         if is_limited_access_status(article.get("access_status")):
             reasons.append("limited page access")
+        if promotion_or_event:
+            reasons.append("event, webinar, or thin promotional article")
+        if development_primary_without_capital_event:
+            reasons.append("development article without confirmed capital event")
 
         selected = (
             not integrity_issue
             and not low_relevance
+            and not promotion_or_event
+            and not development_primary_without_capital_event
             and (not repeat_penalty or important_follow_up)
             and (not old_article or important_follow_up)
             and (not stale_article or important_follow_up)
@@ -2918,6 +3101,70 @@ def get_market_focus(text):
             return rule["label"]
 
     return "Other / Unknown"
+
+
+MARKET_DETAIL_RULES = [
+    ("Louisville", "Kentucky", ["louisville"]),
+    ("Wethersfield", "Connecticut", ["wethersfield"]),
+    ("Baton Rouge", "Louisiana", ["baton rouge"]),
+    ("Northern Virginia", "Virginia", ["northern virginia", "national landing"]),
+    ("Atlanta", "Georgia", ["atlanta", "duluth"]),
+    ("Phoenix", "Arizona", ["phoenix", "gilbert", "scottsdale", "tempe", "tucson"]),
+    ("Denver", "Colorado", ["denver"]),
+    ("Las Vegas", "Nevada", ["las vegas"]),
+    ("Salt Lake City", "Utah", ["salt lake city"]),
+    ("Nashville", "Tennessee", ["nashville"]),
+    ("Miami", "Florida", ["miami", "south florida"]),
+    ("Sarasota", "Florida", ["sarasota"]),
+    ("Tampa", "Florida", ["tampa"]),
+    ("Port Richey", "Florida", ["port richey"]),
+    ("Los Angeles", "California", ["los angeles", "hollywood", "koreatown"]),
+    ("Moreno Valley", "California", ["moreno valley"]),
+    ("West Palm Beach", "Florida", ["west palm beach"]),
+    ("San Francisco", "California", ["san francisco"]),
+    ("Santa Monica", "California", ["santa monica"]),
+    ("Beverly Hills", "California", ["beverly hills"]),
+    ("Riverside", "California", ["riverside", "inland empire"]),
+    ("Dallas", "Texas", ["dallas", "north texas", "fort worth", "dallas-fort worth"]),
+    ("Austin", "Texas", ["austin"]),
+    ("Houston", "Texas", ["houston"]),
+    ("New York City", "New York", ["new york city", "nyc", "manhattan", "brooklyn", "queens", "west village"]),
+    ("Washington DC", "Washington DC", ["washington dc", "washington d.c.", "washington, d.c.", "noma", "district of columbia"]),
+]
+
+
+STATE_MARKET_KEYWORDS = {
+    "Kentucky": ["kentucky"],
+    "Connecticut": ["connecticut"],
+    "Louisiana": ["louisiana"],
+    "Virginia": ["virginia"],
+    "Georgia": ["georgia"],
+    "Arizona": ["arizona"],
+    "Colorado": ["colorado"],
+    "Nevada": ["nevada"],
+    "Utah": ["utah"],
+    "Tennessee": ["tennessee"],
+    "Florida": ["florida"],
+    "California": ["california"],
+    "Texas": ["texas"],
+    "New York": ["new york"],
+    "Washington DC": ["washington dc", "washington d.c.", "district of columbia"],
+}
+
+
+def extract_market_details(text, market_focus=None):
+    """Extract city/state detail before falling back to broad market buckets."""
+    normalized = normalize_keyword_text(text)
+    for city, state, keywords in MARKET_DETAIL_RULES:
+        if find_matches(normalized, keywords):
+            label = f"{city} / {state}" if city != state else state
+            return city, state, label, f"matched city/metro keyword: {city}"
+    for state, keywords in STATE_MARKET_KEYWORDS.items():
+        if find_matches(normalized, keywords):
+            return "", state, state, f"matched state keyword: {state}"
+    if market_focus and market_focus != "Other / Unknown":
+        return "", "", market_focus, f"used broad market bucket: {market_focus}"
+    return "", "", "Other / Unknown", "no city, state, or market keyword detected"
 
 
 def get_market_focus_bonus(market_focus):
@@ -3668,6 +3915,12 @@ def fetch_feed(feed_info):
             matched_topics = classify_article(combined_text)
             strategic_angle = get_strategic_angle(combined_text)
             market_focus = get_market_focus(combined_text)
+            extracted_city, extracted_state, extracted_market, extracted_market_reason = extract_market_details(
+                combined_text,
+                market_focus,
+            )
+            if extracted_market and extracted_market != "Other / Unknown":
+                market_focus = extracted_market
             residential_sector = get_residential_sector(combined_text)
             action_level = get_action_level(relevance_score)
             decision_use = get_decision_use(strategic_angle)
@@ -3706,6 +3959,9 @@ def fetch_feed(feed_info):
                 "priority": get_priority(relevance_score),
                 "action_level": action_level,
                 "market_focus": market_focus,
+                "extracted_city": extracted_city,
+                "extracted_state": extracted_state,
+                "extracted_market_reason": extracted_market_reason,
                 "strategic_angle": strategic_angle,
                 "decision_use": decision_use,
                 "strategic_implication": strategic_implication,
@@ -4643,6 +4899,12 @@ def normalize_costar_intake_row(row, file_name, row_number):
     )
     relevance_score = max(relevance_score, 65)
     market_focus = market or region or get_market_focus(combined_lower)
+    extracted_city, extracted_state, extracted_market, extracted_market_reason = extract_market_details(
+        combined_lower,
+        market_focus,
+    )
+    if extracted_market and extracted_market != "Other / Unknown":
+        market_focus = extracted_market
     residential_sector = infer_costar_residential_sector(combined_text, asset_type)
     matched_topics = classify_article(combined_lower)
     strategic_angle = get_strategic_angle(combined_lower)
@@ -4664,6 +4926,9 @@ def normalize_costar_intake_row(row, file_name, row_number):
         "priority": get_priority(relevance_score),
         "action_level": action_level,
         "market_focus": market_focus,
+        "extracted_city": extracted_city,
+        "extracted_state": extracted_state,
+        "extracted_market_reason": extracted_market_reason,
         "strategic_angle": strategic_angle,
         "decision_use": decision_use,
         "strategic_implication": get_strategic_implication(
@@ -9090,6 +9355,9 @@ def build_gp_intelligence_rows(
             "freshness_score": representative_article.get("freshness_score", ""),
             "article_integrity_status": representative_article.get("article_integrity_status", ""),
             "access_status": representative_article.get("access_status", ""),
+            "extracted_city": representative_article.get("extracted_city", ""),
+            "extracted_state": representative_article.get("extracted_state", ""),
+            "extracted_market_reason": representative_article.get("extracted_market_reason", ""),
             "gp_name": gp_name,
             "canonical_gp_name": canonicalize_entity(gp_name, "Developer / GP")["canonical_entity"],
             "residential_sector": most_common_plain_value(gp_articles, "residential_sector", "General Residential"),
@@ -9200,6 +9468,9 @@ def generate_gp_intelligence_outputs(
         "freshness_score",
         "article_integrity_status",
         "access_status",
+        "extracted_city",
+        "extracted_state",
+        "extracted_market_reason",
         "gp_name",
         "canonical_gp_name",
         "residential_sector",
@@ -18867,9 +19138,12 @@ def build_development_lifecycle_rows(run_timestamp, asset_rows, entitlement_rows
             "freshness_reason": asset.get("freshness_reason", ""),
             "freshness_score": asset.get("freshness_score", ""),
             "access_status": asset.get("access_status", ""),
+            "extracted_city": asset.get("extracted_city", ""),
+            "extracted_state": asset.get("extracted_state", ""),
+            "extracted_market_reason": asset.get("extracted_market_reason", ""),
             "canonical_asset_or_project_name": project_name,
-            "market": asset.get("state_or_region") or asset.get("city") or "Other / Unknown",
-            "city_or_submarket": asset.get("neighborhood_or_submarket") or asset.get("city") or "Unknown",
+            "market": asset.get("market_focus") or asset.get("state_or_region") or asset.get("city") or "Other / Unknown",
+            "city_or_submarket": asset.get("neighborhood_or_submarket") or asset.get("extracted_city") or asset.get("city") or "Unknown",
             "residential_sector": asset.get("residential_sector", "General Residential"),
             "gp_or_developer": asset.get("gp_or_developer", "Unknown"),
             "lender_or_capital_partner": asset.get("lender_or_capital_partner", "Unknown"),
@@ -18906,6 +19180,7 @@ def generate_development_lifecycle_outputs(lifecycle_rows, dated_output_dir):
         "published_date_normalized", "collected_date_normalized", "article_age_days",
         "freshness_bucket", "freshness_status", "freshness_reason",
         "freshness_score", "access_status",
+        "extracted_city", "extracted_state", "extracted_market_reason",
         "canonical_asset_or_project_name", "market", "city_or_submarket",
         "residential_sector", "gp_or_developer", "lender_or_capital_partner",
         "current_lifecycle_stage", "primary_development_category", "primary_category_reason",
@@ -22927,6 +23202,81 @@ def generate_gp_capital_coverage_diagnostics_outputs(run_timestamp, articles, da
     }
 
 
+def generate_gp_routing_quality_report(run_timestamp, articles, dated_output_dir):
+    """Write a compact QA report for market extraction and GP / Capital routing."""
+    candidates = [article for article in articles if is_gp_capital_candidate(article)]
+    selected = [article for article in candidates if article.get("gp_capital_selected_flag") == "Yes"]
+    activity_counts = Counter(article.get("gp_capital_activity_type", "none") for article in candidates)
+    unknown_market_articles = [
+        article for article in articles
+        if article.get("market_focus") in ["", "Other / Unknown", "National"]
+    ]
+    excluded = [
+        article for article in articles
+        if not is_gp_capital_candidate(article)
+        and find_matches(get_gp_capital_text(article), GP_CAPITAL_CANDIDATE_KEYWORDS + DEAL_FINANCE_TERMS)
+    ]
+    lines = [
+        "# GP Routing Quality Report",
+        "",
+        f"Generated: {run_timestamp.strftime('%Y-%m-%d %H:%M:%S')}",
+        "",
+        "## Summary",
+        f"- Total GP / Capital candidates: {len(candidates)}",
+        f"- Selected GP / Capital articles: {len(selected)}",
+        f"- Debt Financing count: {activity_counts.get('debt_financing', 0)}",
+        f"- Refinancing count: {activity_counts.get('refinancing', 0)}",
+        f"- Construction Financing count: {activity_counts.get('construction_financing', 0)}",
+        f"- Acquisition Financing count: {activity_counts.get('acquisition_financing', 0)}",
+        f"- Equity Transaction count: {activity_counts.get('equity_transaction', 0)}",
+        f"- Operator Activity count: {activity_counts.get('asset_management_operator_activity', 0)}",
+        f"- Other / Unknown market count: {len(unknown_market_articles)}",
+        "",
+        "## Activity Type Distribution",
+    ]
+    for label, count in activity_counts.most_common():
+        lines.append(f"- {label}: {count}")
+    if not activity_counts:
+        lines.append("- No GP / Capital candidates detected.")
+
+    lines.extend(["", "## Excluded from GP / Capital with Reason"])
+    if excluded:
+        for article in excluded[:15]:
+            reason = "asset strategy / development routing" if is_asset_strategy_article(article) else "macro or insufficient deal-level financing context"
+            lines.append(
+                f"- {article.get('title', 'Untitled')} | {article.get('source', 'Unknown')} | {reason}"
+            )
+    else:
+        lines.append("- No obvious GP / Capital keyword article was excluded.")
+
+    lines.extend(["", "## Top Unresolved Market Extraction Examples"])
+    if unknown_market_articles:
+        for article in unknown_market_articles[:15]:
+            lines.append(
+                f"- {article.get('title', 'Untitled')} | {article.get('source', 'Unknown')} | "
+                f"{article.get('extracted_market_reason', 'no extraction reason')}"
+            )
+    else:
+        lines.append("- No unresolved market examples.")
+
+    lines.extend(["", "## Sample Selected GP / Capital Articles"])
+    for article in selected[:15]:
+        lines.append(
+            f"- {article.get('title', 'Untitled')} | {article.get('gp_capital_activity_type', '')} | "
+            f"{article.get('market_focus', 'Other / Unknown')} | {article.get('source', 'Unknown')}"
+        )
+    if not selected:
+        lines.append("- None selected.")
+
+    write_markdown_outputs(GP_ROUTING_QUALITY_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "candidate_count": len(candidates),
+        "selected_count": len(selected),
+        "unknown_market_count": len(unknown_market_articles),
+        "activity_counts": dict(activity_counts),
+    }
+
+
 def count_site_parcel_candidates(articles):
     """Count saved articles with land, site-control, or parcel language."""
     candidate_count = 0
@@ -24741,6 +25091,11 @@ def save_to_csv(articles):
             dated_output_dir,
         )
         gp_capital_coverage_summary = generate_gp_capital_coverage_diagnostics_outputs(
+            run_timestamp,
+            articles,
+            dated_output_dir,
+        )
+        gp_routing_quality_summary = generate_gp_routing_quality_report(
             run_timestamp,
             articles,
             dated_output_dir,

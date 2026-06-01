@@ -9195,6 +9195,13 @@ def article_feed_source(shared):
 
 
 def article_feed_category(row):
+    primary_section = str(row.get("primary_display_section", "") or "").strip().lower()
+    if primary_section == "gp / capital activity" or truthy_display_flag(row.get("gp_capital_selected_flag")):
+        return "gp_capital"
+    if primary_section == "development activity":
+        return "development"
+    if primary_section == "market intelligence":
+        return "market"
     blob = text_blob(row)
     has_market = any(term in blob for term in ARTICLE_CATEGORY_TERMS["market"])
     has_market_finance = any(term in blob for term in ARTICLE_MARKET_FINANCE_TERMS)
@@ -9203,9 +9210,14 @@ def article_feed_category(row):
     has_gp_capital = any(term in blob for term in ARTICLE_CATEGORY_TERMS["gp_capital"])
     gp_capital_is_primary = has_gp_capital and not has_development
 
-    # Financing-led articles belong in Market unless they also describe a real
-    # execution milestone such as construction start, delivery, or lease-up.
-    if has_market_finance and not has_execution_milestone:
+    deal_finance_terms = ["loan", "refi", "refinancing", "bridge loan", "construction loan", "acquisition loan", "mortgage", "lender", "financing", "recap", "recapitalization", "cmbs"]
+    macro_terms = ["fed", "treasury", "sofr", "interest rate outlook", "inflation", "bond yield"]
+    deal_specific_terms = ["$", "million", "property", "apartment", "development", "units", "bank", "trust", "arranges", "provides", "lends"]
+    has_deal_finance = any(term in blob for term in deal_finance_terms) and any(term in blob for term in deal_specific_terms)
+    has_macro_finance = any(term in blob for term in macro_terms)
+    if has_deal_finance and not has_execution_milestone:
+        return "gp_capital"
+    if has_market_finance and not has_execution_milestone and not has_deal_finance:
         return "market"
     if has_market and not has_execution_milestone:
         return "market"
@@ -13706,13 +13718,19 @@ def gp_capital_activity_label(row):
     mapping = {
         "acquisition": "Acquisition",
         "disposition": "Disposition / Exit",
+        "disposition_exit": "Disposition / Exit",
+        "debt_financing": "Debt Financing",
         "refinancing": "Refinancing",
         "construction_financing": "Construction Financing",
+        "acquisition_financing": "Acquisition Financing",
         "recapitalization": "Recapitalization",
+        "equity_transaction": "Equity Transaction",
         "joint_venture": "JV / Partnership",
         "platform_expansion": "Platform Expansion",
+        "asset_management_operator_activity": "Asset Management / Operator Activity",
         "portfolio_transaction": "Portfolio Transaction",
         "fund_capital_raise": "Fund / Capital Raise",
+        "capital_raise": "Capital Raise",
         "lender_activity": "Lender Activity",
         "reit_activity": "REIT Activity",
     }

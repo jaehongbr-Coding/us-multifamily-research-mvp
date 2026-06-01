@@ -9251,6 +9251,9 @@ def render_article_feed_item(row):
     market = get_first(item, ["market_focus", "market", "primary_market"], "시장 미확인")
     published = article_feed_date(item)
     with st.expander(f"{title} | {source} · {market} · {published}", expanded=False):
+        notice = limited_access_notice(item)
+        if notice:
+            st.caption(notice)
         st.write(f"**Source:** {source}")
         st.write(f"**Published:** {published}")
         st.write(f"**Category:** {category_label}")
@@ -13511,6 +13514,40 @@ def truthy_display_flag(value):
     return str(value or "").strip().lower() in {"1", "true", "yes", "y", "selected"}
 
 
+def freshness_label(row):
+    """Final compact freshness label override for article cards."""
+    bucket = freshness_bucket_value(row)
+    age = row.get("article_age_days", "")
+    bucket_label = {
+        "fresh_0_3d": "fresh",
+        "recent_4_14d": "recent",
+        "stale_15_30d": "stale",
+        "old_31d_plus": "historical",
+        "unknown_date": "date review",
+    }.get(bucket, bucket)
+    try:
+        if pd.notna(age) and str(age).strip() != "":
+            return f"{int(float(age))}d · {bucket_label}"
+    except Exception:
+        pass
+    return bucket_label
+
+
+def is_limited_access_item(row):
+    """Return True when collector marked the card as title/lead-only evidence."""
+    status = str(
+        row.get("content_access_status", "")
+        or row.get("access_status", "")
+        or ""
+    ).strip().lower()
+    return status in {"limited_or_paywall", "paywall_or_limited"}
+
+
+def limited_access_notice(row):
+    """Small user-facing notice for limited/paywalled rows."""
+    return "Limited article, title-based classification" if is_limited_access_item(row) else ""
+
+
 def display_freshness_note(row):
     """Small user-facing freshness note for article cards."""
     label = freshness_label(row)
@@ -13560,6 +13597,9 @@ def render_article_feed_item(row):
         st.write(f"**Source:** {source}")
         st.write(f"**Published:** {published}")
         st.write(f"**Freshness:** {freshness}")
+        notice = limited_access_notice(item)
+        if notice:
+            st.caption(notice)
         st.write(f"**Category:** {category_label}")
         snippet = get_first(item, ["article_text_sample", "summary", "why_it_matters", "strategic_implication"], "")
         if snippet:
@@ -14066,6 +14106,7 @@ def build_capital_events(shared):
                     "event_title": title,
                     "source": get_first(item, ["source", "source_report"], ""),
                     "url": url,
+                    "access_status": get_first(item, ["content_access_status", "access_status"], ""),
                     "freshness": display_freshness_note(item),
                     "article_count": int(as_number(item.get("article_count", 1), fallback=1) or 1),
                 })
@@ -14097,6 +14138,7 @@ def build_capital_events(shared):
             "event_title": title,
             "source": get_first(item, ["source", "source_report"], ""),
             "url": get_url(item),
+            "access_status": get_first(item, ["content_access_status", "access_status"], ""),
             "freshness": display_freshness_note(item),
             "article_count": int(as_number(item.get("article_count", 1), fallback=1) or 1),
         })
@@ -14116,6 +14158,9 @@ def render_capital_event_cards(shared, filters=None):
         headline = f"{entity} | {event.get('activity_type', 'Capital Flow')} | {event.get('market', 'Market not specified')}{(' · ' + freshness) if freshness else ''}"
         with st.expander(headline, expanded=False):
             render_pilot_chips([(capital_event_tag(event.get("activity_type", "Capital Flow")), "confirmed")])
+            notice = limited_access_notice(event)
+            if notice:
+                st.caption(notice)
             if event.get("lead_sponsor"):
                 st.write(f"**Lead Sponsor:** {event['lead_sponsor']}")
             if event.get("capital_provider"):
@@ -14346,6 +14391,40 @@ def render_development_pipeline_card(row, category):
             st.markdown(f"[Read original article]({url})")
         else:
             st.caption("링크 검증 필요")
+
+
+def render_development_pipeline_card(row, category):
+    """Final development card renderer with verified identity and access notice."""
+    item = row.to_dict() if hasattr(row, "to_dict") else row
+    title = development_article_title(item)
+    sponsor = get_gp(item) or get_first(item, ["owner_or_sponsor"], "Sponsor not specified")
+    stage = get_lifecycle_stage(item) or get_first(item, ["entitlement_stage", "execution_stage", "construction_status"], "Stage not specified")
+    category_reason = get_first(item, ["primary_category_reason"], "")
+    freshness = display_freshness_note(item)
+    published = get_first(item, ["published", "published_date_normalized"], "")
+    source = development_source_label(item)
+    headline = f"{title} | {development_market_label(item)} · {source} · {stage} · {freshness}"
+    access_status = str(
+        item.get("content_access_status", "")
+        or item.get("access_status", "")
+        or ""
+    ).strip().lower()
+    with st.expander(headline, expanded=False):
+        if sponsor:
+            st.caption(f"GP / sponsor: {sponsor}")
+        st.caption(f"Source: {source} · Published: {published or 'date not specified'} · Freshness: {freshness}")
+        if access_status in {"limited_or_paywall", "paywall_or_limited", "multi_article_page"}:
+            st.caption("Limited article, title-based classification")
+        st.write(f"**Why it matters:** {get_reason(item)}")
+        st.write(f"**Woomi angle:** {development_woomi_angle(item, category)}")
+        st.write(f"**Lifecycle stage:** {stage}")
+        if category_reason:
+            st.write(f"**Category reason:** {category_reason}")
+        url = verified_development_url(item)
+        if isinstance(url, str) and url.startswith("http"):
+            st.markdown(f"[Read original article]({url})")
+        else:
+            st.caption("Link verification needed")
 
 
 if __name__ == "__main__":

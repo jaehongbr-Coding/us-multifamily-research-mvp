@@ -89,6 +89,7 @@ SIGNAL_MEMORY_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "signal_memory_repor
 CLASSIFICATION_QUALITY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "classification_quality.csv")
 CLASSIFICATION_QUALITY_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "classification_quality_report.md")
 SIGNAL_TUNING_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "signal_tuning_report.md")
+CONTENT_ACCESS_QUALITY_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "content_access_quality_report.md")
 SOURCE_ACTIVATION_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "source_activation.csv")
 GP_SOURCE_COVERAGE_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "gp_source_coverage.csv")
 GP_CAPITAL_COVERAGE_DIAGNOSTICS_OUTPUT_FILE = os.path.join(
@@ -1888,6 +1889,7 @@ ARTICLE_CLASSIFICATION_FIELDS = [
     "source_page_url",
     "extracted_article_title",
     "access_status",
+    "content_access_status",
     "original_url",
     "article_integrity_status",
     "article_integrity_reason",
@@ -1952,7 +1954,7 @@ DEVELOPMENT_STAGE_RULES = [
     ("stabilization", ["stabilized", "stabilization"]),
     ("planning_commission", ["planning commission", "city planning", "planning board"]),
     ("density_bonus", ["density bonus", "toc", "transit oriented communities"]),
-    ("entitlement", ["entitlement", "entitled", "approval", "approved"]),
+    ("entitlement", ["entitlement", "entitled", "approval", "approved", "housing law", "senate bill", "mandate", "development approval"]),
     ("zoning", ["zoning", "rezoning", "zone change"]),
     ("permit", ["permit", "permits", "permitting", "building permit"]),
     ("site_acquisition", ["site acquisition", "acquired site", "buys site", "development site acquisition"]),
@@ -2184,14 +2186,30 @@ def build_market_relevance_reason(article, primary_topic, market):
 
 def enrich_article_classification(article):
     """Add detailed rule-based classification fields to an article row."""
+    access_status = normalize_access_status(article.get("access_status") or get_article_access_status(article))
+    article["access_status"] = access_status
+    article["content_access_status"] = access_status
+    limited_access = is_limited_access_status(access_status)
+    if limited_access:
+        classification_text_parts = [
+            article.get("title", ""),
+            article.get("url", "") or article.get("original_url", ""),
+            article.get("source", ""),
+            article.get("topics", ""),
+            article.get("matched_keywords", ""),
+        ]
+    else:
+        classification_text_parts = [
+            article.get("title", ""),
+            article.get("article_text_sample", ""),
+            article.get("topics", ""),
+            article.get("matched_keywords", ""),
+            article.get("market_signal", ""),
+            article.get("strategic_angle", ""),
+            article.get("reason_for_inclusion", ""),
+        ]
     text = normalize_keyword_text(" ".join([
-        article.get("title", ""),
-        article.get("article_text_sample", ""),
-        article.get("topics", ""),
-        article.get("matched_keywords", ""),
-        article.get("market_signal", ""),
-        article.get("strategic_angle", ""),
-        article.get("reason_for_inclusion", ""),
+        part for part in classification_text_parts if part
     ]))
     capital_events = match_rule_labels(text, CAPITAL_EVENT_RULES) or ["none"]
     development_stages = match_rule_labels(text, DEVELOPMENT_STAGE_RULES) or ["none"]
@@ -2221,7 +2239,23 @@ def enrich_article_classification(article):
         text,
         [capital_events, development_stages, supply_signals, institutional_activity, financing_types],
     )
+    if limited_access and confidence in ["high", "medium"]:
+        confidence = "low"
     market = article.get("market_focus") or "Other / Unknown"
+    classification_reason = build_classification_reason(
+        primary_topic,
+        capital_events,
+        development_stages,
+        supply_signals,
+        institutional_activity,
+        financing_types,
+        confidence,
+    )
+    if limited_access:
+        classification_reason = (
+            "Limited/paywalled article; classification is based on title, URL, source, and available lead text only. "
+            + classification_reason
+        )
     article.update({
         "primary_topic": primary_topic,
         "secondary_topic": secondary_topic,
@@ -2234,15 +2268,7 @@ def enrich_article_classification(article):
         "entity_role": first_or_none(entity_roles, "unknown"),
         "market_relevance_reason": build_market_relevance_reason(article, primary_topic, market),
         "classification_confidence": confidence,
-        "classification_reason": build_classification_reason(
-            primary_topic,
-            capital_events,
-            development_stages,
-            supply_signals,
-            institutional_activity,
-            financing_types,
-            confidence,
-        ),
+        "classification_reason": classification_reason,
     })
     return article
 
@@ -2271,19 +2297,54 @@ def make_canonical_article_id(article):
     return f"art_{digest}"
 
 
+LIMITED_ACCESS_KEYWORDS = [
+    "continue reading",
+    "free account",
+    "subscribe",
+    "subscription",
+    "sign in",
+    "log in",
+    "login",
+    "register",
+    "register to continue",
+    "full story",
+    "members only",
+    "for subscribers",
+    "paywall",
+]
+
+
+def normalize_access_status(value):
+    """Normalize legacy access labels to one limited-access value."""
+    status = str(value or "").strip().lower()
+    if status in {"paywall_or_limited", "limited_or_paywall"}:
+        return "limited_or_paywall"
+    return status or ""
+
+
+def is_limited_access_status(value):
+    """Return True when an article should be treated as title/lead-only evidence."""
+    return normalize_access_status(value) == "limited_or_paywall"
+
+
 def get_article_access_status(article):
     """Classify page access without scraping around paywalls."""
-    text = normalize_keyword_text(article.get("article_text_sample", ""))
+    text = normalize_keyword_text(" ".join([
+        article.get("title", ""),
+        article.get("summary", ""),
+        article.get("article_text_sample", ""),
+        article.get("reason_for_inclusion", ""),
+    ]))
     source = str(article.get("source", "") or "").lower()
     url = str(article.get("url", "") or article.get("original_url", "") or "").lower()
-    if find_matches(text, [
-        "subscribe", "subscription", "sign in", "log in", "login",
-        "register to continue", "for subscribers", "paywall",
-    ]):
-        return "paywall_or_limited"
+    sample_text = normalize_keyword_text(article.get("article_text_sample", ""))
+    if find_matches(text, LIMITED_ACCESS_KEYWORDS):
+        return "limited_or_paywall"
+    if "bisnow" in source and len(sample_text) <= 650:
+        return "limited_or_paywall"
     if any(source_hint in source for source_hint in ["connect cre", "sf yimby", "urbanize"]):
         if not text or len(text) < 120:
-            return "paywall_or_limited"
+            return "limited_or_paywall"
         if "category" in url or "tag" in url or "page/" in url:
             return "multi_article_page"
     if not text:
@@ -2298,25 +2359,45 @@ def lock_article_identity_fields(article):
     article["extracted_article_title"] = article.get("extracted_article_title") or article.get("title", "")
     article["canonical_article_id"] = article.get("canonical_article_id") or make_canonical_article_id(article)
     article["article_id"] = article.get("article_id") or article["canonical_article_id"]
-    article["access_status"] = article.get("access_status") or get_article_access_status(article)
+    access_status = normalize_access_status(article.get("access_status") or get_article_access_status(article))
+    article["access_status"] = access_status
+    article["content_access_status"] = access_status
     return article
 
 
 def get_primary_display_section(article):
     """Route one article to one primary app section with deterministic priority."""
+    if is_limited_access_status(article.get("access_status")):
+        text_parts = [
+            article.get("title", ""),
+            article.get("url", "") or article.get("original_url", ""),
+            article.get("source", ""),
+            article.get("primary_topic", ""),
+            article.get("capital_event_type", ""),
+            article.get("development_stage", ""),
+            article.get("financing_type", ""),
+        ]
+    else:
+        text_parts = [
+            article.get("title", ""),
+            article.get("article_text_sample", ""),
+            article.get("matched_keywords", ""),
+            article.get("primary_topic", ""),
+            article.get("capital_event_type", ""),
+            article.get("development_stage", ""),
+            article.get("financing_type", ""),
+        ]
     text = normalize_keyword_text(" ".join([
-        article.get("title", ""),
-        article.get("article_text_sample", ""),
-        article.get("matched_keywords", ""),
-        article.get("primary_topic", ""),
-        article.get("capital_event_type", ""),
-        article.get("development_stage", ""),
-        article.get("financing_type", ""),
+        part for part in text_parts if part
     ]))
     development_hit = article.get("development_stage") not in ["", "none"] or find_matches(text, [
         "entitlement", "permit", "zoning", "planning commission", "density bonus",
         "construction start", "broke ground", "under construction", "delivery",
         "opened", "lease-up", "modular", "office-to-residential", "adaptive reuse",
+        "law", "bill", "mandate", "development approval", "starts", "begins",
+        "breaks ground", "construction", "build", "to build", "purchased site",
+        "acquired land", "land assemblage", "vacant site", "targeting site",
+        "plans to build",
     ])
     capital_hit = (
         article.get("capital_event_type") not in ["", "none"]
@@ -2324,6 +2405,7 @@ def get_primary_display_section(article):
         or find_matches(text, [
             "acquisition", "disposition", "refinancing", "recapitalization",
             "bridge loan", "construction loan", "joint venture", "jv", "loan",
+            "sells", "sale", "fund", "capital raise", "partnership",
         ])
     )
     market_hit = article.get("primary_topic") in ["research_data", "macro_financing", "supply_demand"] or find_matches(text, [
@@ -2469,7 +2551,7 @@ def apply_gp_capital_diagnostic_fields(articles):
             reasons.append("historical article over 30 days old")
         elif stale_article and not important_follow_up:
             reasons.append("stale 15-30 day article without strong follow-up signal")
-        if article.get("access_status") == "paywall_or_limited":
+        if is_limited_access_status(article.get("access_status")):
             reasons.append("limited page access")
 
         selected = (
@@ -2507,6 +2589,8 @@ def detect_source_url_mismatch(article):
 
 def detect_title_text_mismatch(article):
     """Detect likely feed/page bleed when fetched page text does not support the RSS title."""
+    if is_limited_access_status(article.get("access_status")):
+        return False
     source = str(article.get("source", "") or "").lower()
     if not any(source_hint in source for source_hint in ["connect cre", "sf yimby", "urbanize"]):
         return False
@@ -2552,7 +2636,7 @@ def apply_article_integrity_checks(articles):
         if detect_source_url_mismatch(article):
             status = "suspicious_mismatch"
             reasons.append("source name does not match expected URL domain")
-        if article.get("access_status") == "multi_article_page":
+        if normalize_access_status(article.get("access_status")) == "multi_article_page":
             status = "suspicious_mismatch"
             reasons.append("source page may contain multiple article blocks")
         if detect_title_text_mismatch(article):
@@ -2628,9 +2712,7 @@ def locked_identity_from_lookup(row, article_lookup):
         integrity_status = "suspicious_mismatch"
         reason = "title and original_url slug appear to reference different articles"
         integrity_reason = f"{integrity_reason}; {reason}".strip("; ")
-    access_status = identity.get("access_status") or row.get("access_status", "")
-    if access_status == "paywall_or_limited":
-        access_status = "limited_or_paywall"
+    access_status = normalize_access_status(identity.get("access_status") or row.get("access_status", ""))
     return {
         "canonical_article_id": canonical_id or identity.get("canonical_article_id", ""),
         "title": title,
@@ -2643,6 +2725,7 @@ def locked_identity_from_lookup(row, article_lookup):
         "article_integrity_status": integrity_status,
         "article_integrity_reason": integrity_reason,
         "access_status": access_status,
+        "content_access_status": access_status,
         "published_date_normalized": identity.get("published_date_normalized") or row.get("published_date_normalized", ""),
         "collected_date_normalized": identity.get("collected_date_normalized") or row.get("collected_date_normalized", ""),
         "article_age_days": identity.get("article_age_days") or row.get("article_age_days", ""),
@@ -2740,6 +2823,9 @@ def calculate_strategic_relevance(article):
     if source_prone_to_page_bleed and not title_has_capital_signal and any(reason in reasons for reason in strong_capital_reasons):
         score -= 25
         reasons.append("source feed cross-signal penalty")
+    if is_limited_access_status(article.get("access_status")):
+        score -= 8
+        reasons.append("limited article: title/lead-based review needed")
     richness = calculate_article_richness_score(article)
     score += round(richness * 0.25)
     if article.get("article_integrity_status") != "valid":
@@ -4033,7 +4119,7 @@ def apply_freshness_and_routing_fields(articles, run_timestamp, previous_evidenc
         if title_key in previous_evidence_titles:
             freshness_score -= 30
             repeat_reasons.append("appeared in prior Representative Evidence")
-        if article.get("access_status") == "paywall_or_limited":
+        if is_limited_access_status(article.get("access_status")):
             freshness_score -= 12
             repeat_reasons.append("limited page access")
         if article.get("article_integrity_status") != "valid":
@@ -4197,6 +4283,91 @@ def generate_freshness_quality_report(articles, dated_output_dir):
         "old_development_excluded": len(development_excluded),
         "old_gp_capital_excluded": len(gp_excluded),
         "unknown_date_count": len(unknown_date_articles),
+    }
+
+
+def generate_content_access_quality_report(articles, dated_output_dir):
+    """Write QA summary separating limited access from identity mismatch issues."""
+    limited_articles = [
+        article for article in articles
+        if is_limited_access_status(article.get("access_status") or article.get("content_access_status"))
+    ]
+    limited_by_source = Counter(article.get("source", "Unknown") or "Unknown" for article in limited_articles)
+    limited_by_section = Counter(article.get("primary_display_section", "Unrouted") or "Unrouted" for article in limited_articles)
+    suspicious_mismatch_count = sum(
+        1 for article in articles
+        if str(article.get("article_integrity_status", "")).strip().lower() == "suspicious_mismatch"
+    )
+    limited_suspicious_count = sum(
+        1 for article in limited_articles
+        if str(article.get("article_integrity_status", "")).strip().lower() == "suspicious_mismatch"
+    )
+    limited_development_selected = sum(
+        1 for article in limited_articles
+        if article.get("primary_display_section") == "Development Activity"
+        and should_include_in_current_exposure(article, "development_activity")
+    )
+    limited_gp_selected = sum(
+        1 for article in limited_articles
+        if article.get("primary_display_section") == "GP / Capital Activity"
+        and article.get("gp_capital_selected_flag") == "Yes"
+    )
+    limited_representative_selected = sum(
+        1 for article in limited_articles
+        if should_include_in_current_exposure(article, "representative_evidence")
+        and safe_int(article.get("representative_evidence_score")) >= 55
+    )
+
+    lines = [
+        "# Content Access Quality Report",
+        "",
+        "Limited articles are retained only as conservative title/lead-based evidence. Limited access is tracked separately from article identity mismatches.",
+        "",
+        "## Summary",
+        f"- Total articles: {len(articles)}",
+        f"- Total limited_or_paywall articles: {len(limited_articles)}",
+        f"- suspicious_mismatch articles: {suspicious_mismatch_count}",
+        f"- limited_or_paywall and suspicious_mismatch overlap: {limited_suspicious_count}",
+        f"- Limited articles selected into Development Activity: {limited_development_selected}",
+        f"- Limited articles selected into GP / Capital Activity: {limited_gp_selected}",
+        f"- Limited articles selected into Representative Evidence: {limited_representative_selected}",
+        "",
+        "## Limited Articles by Source",
+    ]
+    if limited_by_source:
+        for source, count in limited_by_source.most_common(20):
+            lines.append(f"- {source}: {count}")
+    else:
+        lines.append("- None detected")
+
+    lines.extend(["", "## Limited Articles by Display Section"])
+    if limited_by_section:
+        for section, count in limited_by_section.most_common():
+            lines.append(f"- {section}: {count}")
+    else:
+        lines.append("- None detected")
+
+    lines.extend(["", "## Sample Limited Articles"])
+    if limited_articles:
+        for article in limited_articles[:12]:
+            lines.append(
+                f"- {article.get('title', 'Untitled')} | {article.get('source', 'Unknown')} | "
+                f"{article.get('primary_display_section', 'Unrouted')} | "
+                f"{article.get('classification_confidence', 'unknown')} confidence"
+            )
+    else:
+        lines.append("- None detected")
+
+    lines.extend([
+        "",
+        "## Notes",
+        "- `limited_or_paywall` is an access status, not an article identity failure.",
+        "- Detailed fields for limited articles should be reviewed before being used in investment conclusions.",
+    ])
+    write_markdown_outputs(CONTENT_ACCESS_QUALITY_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "limited_articles": len(limited_articles),
+        "limited_suspicious_overlap": limited_suspicious_count,
     }
 
 
@@ -24464,6 +24635,10 @@ def save_to_csv(articles):
         previous_representative_titles,
     )
     freshness_quality_summary = generate_freshness_quality_report(
+        articles,
+        dated_output_dir,
+    )
+    content_access_quality_summary = generate_content_access_quality_report(
         articles,
         dated_output_dir,
     )

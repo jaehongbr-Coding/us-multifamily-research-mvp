@@ -13877,5 +13877,255 @@ def render_representative_evidence(shared):
     close_section()
 
 
+def infer_capital_entity_from_title(title):
+    """Infer a capital participant from headline text when structured fields are empty."""
+    clean_title = str(title or "").strip()
+    if not clean_title:
+        return ""
+    lead_patterns = [
+        r"^([A-Z0-9][A-Za-z0-9&.,' -]{1,80}?)\s+(?:acquires|acquire|buys|sells|sold|lands|secures|closes|forms|launches|refinances|refis|recaps|gets|develops|opens|plans|begins|arranges|assumes|negotiates|provides|breaks)\b",
+        r"^([A-Z0-9][A-Za-z0-9&.,' -]{1,80}?)\s+(?:partners with|forms partnership|forms JV|forms joint venture)\b",
+        r"^([A-Z0-9][A-Za-z0-9&.,' -]{1,80}?)\s+(?:and|&)\s+.{3,70}?\s+(?:form|forms|launch|launches|close|closes|secure|secures)\b",
+        r"^([A-Z0-9][A-Za-z0-9&.,' -]{1,80}?)\s+(?:JV|joint venture|partnership)\b",
+    ]
+    for pattern in lead_patterns:
+        match = re.search(pattern, clean_title, flags=re.IGNORECASE)
+        if match:
+            candidate = re.sub(r"\s+", " ", match.group(1)).strip(" -,:|")
+            word_count = len(candidate.split())
+            is_acronym = bool(re.fullmatch(r"[A-Z0-9&.]{3,}", candidate))
+            if (2 <= word_count <= 8) or is_acronym:
+                return candidate
+    known_entities = [
+        "Blackstone", "Greystar", "Hines", "Related", "Crescent Communities",
+        "Berkadia", "Walker & Dunlop", "Greystone", "CBRE", "JLL",
+        "Marcus & Millichap", "Cushman & Wakefield", "Fannie Mae", "Freddie Mac",
+    ]
+    lowered = clean_title.lower()
+    for entity in known_entities:
+        if entity.lower() in lowered:
+            return entity
+    return ""
+
+
+def capital_event_entity(event):
+    """Return the best available entity label without falling back to noisy placeholders."""
+    title = event.get("event_title", "") if isinstance(event, dict) else ""
+    for field in ["lead_sponsor", "capital_provider", "lender", "jv_partner", "developer", "sponsor"]:
+        value = clean_capital_entity(event.get(field, "")) if isinstance(event, dict) else ""
+        if value:
+            return value
+    inferred = infer_capital_entity_from_title(title)
+    return inferred or "Participant not identified"
+
+
+def development_monitor_universe(shared):
+    """Current-facing development universe with safe primary-category fallback."""
+    frames = []
+    for key in ["development_lifecycle", "entitlement_intelligence", "la_entitlement", "asset_parcel_intelligence", "la_assets", "timing_intelligence", "articles"]:
+        frame = shared.get(key, pd.DataFrame())
+        if frame is not None and not frame.empty:
+            frames.append(frame.copy())
+    if not frames:
+        return pd.DataFrame()
+    combined = pd.concat(frames, ignore_index=True, sort=False)
+    combined = filter_current_freshness(combined, include_historical=False)
+    if combined.empty:
+        return combined
+    combined["_dev_blob"] = combined.apply(lambda row: text_blob(row.to_dict()), axis=1)
+    combined["_dev_title"] = combined.apply(lambda row: development_article_title(row.to_dict()), axis=1)
+    combined["_normalized_dev_title"] = combined["_dev_title"].apply(normalize_development_title)
+    combined["_dev_key"] = combined.apply(
+        lambda row: str(get_url(row.to_dict()) or row["_dev_title"]).strip().lower(),
+        axis=1,
+    )
+    combined = combined.drop_duplicates("_dev_key", keep="first")
+    combined["_primary_development_category"] = combined.apply(
+        lambda row: classify_primary_development_category(row.to_dict()),
+        axis=1,
+    )
+    category_priority = {"construction": 0, "approval": 1, "site": 2, "": 3}
+    combined["_category_priority"] = combined["_primary_development_category"].map(category_priority).fillna(3)
+    write_development_routing_diagnostics(combined)
+    combined = combined.sort_values(["_category_priority", "_freshness_rank"] if "_freshness_rank" in combined.columns else ["_category_priority"])
+    combined = combined.drop_duplicates("_normalized_dev_title", keep="first")
+    return combined
+
+
+def development_watch_rows(shared, category):
+    """Return one development bucket without assuming internal columns already exist."""
+    universe = development_monitor_universe(shared)
+    if universe.empty:
+        return universe
+    if "_primary_development_category" not in universe.columns:
+        universe = universe.copy()
+        universe["_primary_development_category"] = universe.apply(
+            lambda row: classify_primary_development_category(row.to_dict()),
+            axis=1,
+        )
+    matched = universe[universe["_primary_development_category"] == category]
+    score_columns = [
+        "entitlement_opportunity_score", "local_relevance_score", "lifecycle_opportunity_score",
+        "asset_opportunity_score", "la_asset_opportunity_score", "timing_urgency_score",
+    ]
+    ranked = sort_by_score(matched, score_columns)
+    return diversify_development_rows(ranked, limit=10)
+
+
+def build_capital_events(shared):
+    """Use collector-selected fresh GP-capital rows, with title-based entity fallback."""
+    articles = shared.get("articles", pd.DataFrame())
+    events = []
+    if articles is not None and not articles.empty and "gp_capital_selected_flag" in articles.columns:
+        selected = articles[
+            articles.apply(
+                lambda row: truthy_display_flag(row.get("gp_capital_selected_flag")) and is_fresh_or_recent(row.to_dict()),
+                axis=1,
+            )
+        ].copy()
+        selected = filter_current_freshness(selected, include_historical=False, require_fresh_recent=True)
+        if not selected.empty:
+            selected["_event_sort"] = pd.to_numeric(
+                selected.get("strategic_relevance_score", selected.get("representative_evidence_score", 0)),
+                errors="coerce",
+            ).fillna(0)
+            selected = selected.sort_values(["_freshness_rank", "_event_sort"], ascending=[True, False])
+            seen = set()
+            for _, row in selected.iterrows():
+                item = row.to_dict()
+                title = get_title(item)
+                url = get_url(item)
+                sponsor = clean_capital_entity(get_first(item, ["gp_or_developer", "canonical_gp_name", "firm_name", "lead_sponsor", "developer", "sponsor"], ""))
+                lender = clean_capital_entity(get_first(item, ["lender_or_capital_partner", "lender", "capital_provider"], ""))
+                capital_provider = clean_capital_entity(get_first(item, ["capital_provider", "institutional_partner"], ""))
+                inferred = infer_capital_entity_from_title(title)
+                if not sponsor and inferred and inferred not in {lender, capital_provider}:
+                    sponsor = inferred
+                market = get_first(item, ["market_focus", "market", "primary_market"], "Market not specified")
+                activity = gp_capital_activity_label(item)
+                key = (
+                    str(url).strip().lower()
+                    or normalized_headline(title)
+                    or f"{normalize_entity_name(sponsor or lender or capital_provider)}|{activity}|{market}".lower()
+                )
+                if not key or key in seen:
+                    continue
+                seen.add(key)
+                events.append({
+                    "lead_sponsor": sponsor,
+                    "capital_provider": capital_provider,
+                    "lender": lender,
+                    "jv_partner": get_first(item, ["jv_partner", "partner"], ""),
+                    "activity_type": activity,
+                    "market": market,
+                    "event_title": title,
+                    "source": get_first(item, ["source", "source_report"], ""),
+                    "url": url,
+                    "freshness": display_freshness_note(item),
+                    "article_count": int(as_number(item.get("article_count", 1), fallback=1) or 1),
+                })
+                if len(events) >= 10:
+                    break
+    if events:
+        return events
+
+    deals = shared.get("deal_pipeline", pd.DataFrame())
+    if deals is None or deals.empty:
+        return []
+    deals = filter_current_freshness(deals.copy(), include_historical=False)
+    seen = set()
+    for _, row in deals.iterrows():
+        item = row.to_dict()
+        title = get_title(item)
+        key = str(get_url(item)).strip().lower() or normalized_headline(title)
+        if not key or key in seen or is_old_or_background(item):
+            continue
+        seen.add(key)
+        sponsor = clean_capital_entity(get_first(item, ["gp_or_developer", "canonical_gp_name", "firm_name", "developer", "sponsor"], "")) or infer_capital_entity_from_title(title)
+        events.append({
+            "lead_sponsor": sponsor,
+            "capital_provider": clean_capital_entity(get_first(item, ["capital_provider", "institutional_partner"], "")),
+            "lender": clean_capital_entity(get_first(item, ["lender_or_capital_partner", "lender"], "")),
+            "jv_partner": get_first(item, ["jv_partner", "partner"], ""),
+            "activity_type": event_activity_from_row(item),
+            "market": get_first(item, ["market_focus", "market"], "Market not specified"),
+            "event_title": title,
+            "source": get_first(item, ["source", "source_report"], ""),
+            "url": get_url(item),
+            "freshness": display_freshness_note(item),
+            "article_count": int(as_number(item.get("article_count", 1), fallback=1) or 1),
+        })
+        if len(events) >= 10:
+            break
+    return events
+
+
+def render_capital_event_cards(shared, filters=None):
+    events = build_capital_events(shared)
+    if not events:
+        st.caption("현재 fresh/recent 기준으로 표시할 GP / 자본 event가 충분히 포착되지 않았습니다.")
+        return
+    for event in events:
+        entity = capital_event_entity(event)
+        freshness = event.get("freshness", "")
+        headline = f"{entity} | {event.get('activity_type', 'Capital Flow')} | {event.get('market', 'Market not specified')}{(' · ' + freshness) if freshness else ''}"
+        with st.expander(headline, expanded=False):
+            render_pilot_chips([(capital_event_tag(event.get("activity_type", "Capital Flow")), "confirmed")])
+            if event.get("lead_sponsor"):
+                st.write(f"**Lead Sponsor:** {event['lead_sponsor']}")
+            if event.get("capital_provider"):
+                st.write(f"**Capital Provider:** {event['capital_provider']}")
+            if event.get("lender"):
+                st.write(f"**Lender:** {event['lender']}")
+            if event.get("jv_partner"):
+                st.write(f"**JV Partner:** {event['jv_partner']}")
+            st.write(f"**Related Market:** {event.get('market', 'Market not specified')}")
+            st.write(f"**Related Article:** {event.get('event_title', '')}")
+            if freshness:
+                st.caption(f"Freshness: {freshness}")
+            source = event.get("source", "")
+            url = event.get("url", "")
+            if source:
+                if url:
+                    st.markdown(f"**Source:** [{source}]({url})")
+                else:
+                    st.write(f"**Source:** {source}")
+            if url:
+                st.markdown(f"[원문 기사 보기]({url})")
+
+
+def render_capital_network_map(shared, filters=None):
+    """Render a safe daily capital event table without assuming article_count exists."""
+    st.markdown("### Capital Network Map")
+    events = build_capital_events(shared)
+    if not events:
+        st.caption("현재 표시할 자본 event가 충분히 포착되지 않았습니다.")
+        return
+    display_rows = []
+    for event in events[:12]:
+        entity = capital_event_entity(event)
+        partner = clean_capital_entity(event.get("capital_provider", "")) or clean_capital_entity(event.get("lender", "")) or clean_capital_entity(event.get("jv_partner", ""))
+        relationship = f"{entity} → {partner}" if partner and partner != entity else entity
+        canonical_title = normalized_capital_event_title(event.get("event_title", ""))
+        display_rows.append({
+            "관계": relationship,
+            "활동 유형": event.get("activity_type", "Capital Flow"),
+            "시장": event.get("market", "Market not specified"),
+            "관련 기사 수": int(as_number(event.get("article_count", 1), fallback=1) or 1),
+            "주요 source": event.get("source", ""),
+            "_event_key": "|".join([
+                entity.lower(),
+                str(event.get("activity_type", "")).lower(),
+                canonical_title,
+            ]),
+        })
+    display = pd.DataFrame(display_rows).drop_duplicates("_event_key")
+    st.dataframe(
+        display[["관계", "활동 유형", "시장", "관련 기사 수", "주요 source"]],
+        use_container_width=True,
+        hide_index=True,
+    )
+
+
 if __name__ == "__main__":
     main()

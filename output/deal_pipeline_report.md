@@ -1,8 +1,8 @@
 # Deal & Project Pipeline Report
 
-Generated: 2026-06-01 02:31:41
+Generated: 2026-06-01 05:46:38
 
-- Total deal/project signals found: 53
+- Total deal/project signals found: 54
 - High deal intelligence count: 6
 
 ## Top 10 Deal / Project Signals
@@ -62,9 +62,9 @@ Generated: 2026-06-01 02:31:41
 - Entitlement / Permitting - Los Angeles - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Entitlement / Permitting, Los Angeles, score 63. Entitlement / zoning watch.
 - General Project Signal - Los Angeles - Affordable housing slated for 1418 S. Mansfield Ave. in Mid-City: General Project Signal, Los Angeles, score 63. Entitlement / zoning watch.
 - Acquisition - Other / Unknown - Avison Young Negotiates $19.1M Sale of Apartment Building in Wethersfield, Connecticut: Acquisition, Other / Unknown, score 62. Pricing benchmark.
+- Entitlement / Permitting - California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: Entitlement / Permitting, California, score 60. Entitlement / zoning watch.
 - Disposition / Exit - Other / Unknown - Colorado Coalition for the Homeless Converting Downtown Denver YMCA Space to Multifamily A...: Disposition / Exit, Other / Unknown, score 56. Underwriting benchmark.
 - General Project Signal - Sun Belt - Insignia Pursuing Embassy Row Multifamily Mixed-Use Redevelopment in Atlanta: General Project Signal, Sun Belt, score 55. Underwriting benchmark.
-- General Project Signal - Sun Belt - Insignia Pursuing Embassy Row Redevelopment: General Project Signal, Sun Belt, score 51. Underwriting benchmark.
 
 ## BTR / Modular / Innovation Signals
 
@@ -85,7 +85,7 @@ Generated: 2026-06-01 02:31:41
 
 - Apartment: 23 deal/project signal(s)
 - Affordable Housing: 10 deal/project signal(s)
-- Multifamily: 9 deal/project signal(s)
+- Multifamily: 10 deal/project signal(s)
 - Office-to-Residential Conversion: 3 deal/project signal(s)
 - Mixed-Use Residential: 2 deal/project signal(s)
 - General Residential: 2 deal/project signal(s)

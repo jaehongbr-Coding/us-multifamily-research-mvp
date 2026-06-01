@@ -1,8 +1,8 @@
 # LA Lifecycle Transition Watch Report
 
-Generated: 2026-06-01 02:31:44
+Generated: 2026-06-01 05:46:41
 
-- Total LA lifecycle transition watch items: 46
+- Total LA lifecycle transition watch items: 48
 
 ## LA Projects Moving Forward
 
@@ -32,27 +32,28 @@ Generated: 2026-06-01 02:31:44
 ## LA Delivery / Lease-Up Benchmarks
 
 - JV / Partnership - California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
+- Entitlement / Permitting - California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
 - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
 
 ## Recommended LA Transition Follow-up Actions
 
 - Use as delivery, lease-up, and underwriting benchmark: JV / Partnership - California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex.
 - Monitor for another run to confirm lifecycle direction: JV / Partnership - Los Angeles - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing.
+- Use as delivery, lease-up, and underwriting benchmark: Entitlement / Permitting - California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A....
 - Monitor for another run to confirm lifecycle direction: Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing.
 - Use as delivery, lease-up, and underwriting benchmark: PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex.
 - Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes....
 - Track maturity, lender, recapitalization need, and potential JV angle: Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties.
 - Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments.
-- Track maturity, lender, recapitalization need, and potential JV angle: Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in West Hollywood.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 610
-- Canonical projects: 119
-- Duplicate project clusters: 62
-- Persistent assets tracked: 119
-- LA persistent asset watch items: 78
+- Raw project references: 627
+- Canonical projects: 122
+- Duplicate project clusters: 64
+- Persistent assets tracked: 122
+- LA persistent asset watch items: 81
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

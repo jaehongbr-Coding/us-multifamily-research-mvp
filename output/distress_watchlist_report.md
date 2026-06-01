@@ -1,6 +1,6 @@
 # Distress Watchlist Report
 
-Generated: 2026-06-01 02:31:42
+Generated: 2026-06-01 05:46:39
 
 - Total distress signals: 11
 
@@ -74,9 +74,9 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 80
-- LA lifecycle watch items: 48
-- Stage mix: Delivery / Opening: 7, Unknown Stage: 41, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 17, Vertical Construction: 4
+- Lifecycle records: 82
+- LA lifecycle watch items: 50
+- Stage mix: Delivery / Opening: 8, Unknown Stage: 41, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 17, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -84,11 +84,11 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 80
-- Newly detected projects: 0
+- Lifecycle transitions analyzed: 82
+- Newly detected projects: 2
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 46
+- LA lifecycle transition watch items: 48
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -96,11 +96,11 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 610
-- Canonical projects: 119
-- Duplicate project clusters: 62
-- Persistent assets tracked: 119
-- LA persistent asset watch items: 78
+- Raw project references: 627
+- Canonical projects: 122
+- Duplicate project clusters: 64
+- Persistent assets tracked: 122
+- LA persistent asset watch items: 81
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -108,10 +108,10 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 119
+- Signals evaluated: 122
 - Institutional-grade signals: 12
-- High-confidence signals: 19
-- Weak/noisy signals: 90
-- High-confidence watchlist items: 19
+- High-confidence signals: 20
+- Weak/noisy signals: 92
+- High-confidence watchlist items: 20
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

@@ -1,12 +1,12 @@
 # Freshness Quality Report
 
-Generated: 2026-06-01 02:31:38
+Generated: 2026-06-01 05:46:34
 
 ## Freshness Summary
 
 - Total articles reviewed: 75
-- fresh_0_3d: 29
-- recent_4_14d: 23
+- fresh_0_3d: 30
+- recent_4_14d: 22
 - stale_15_30d: 7
 - old_31d_plus: 16
 - unknown_date: 0
@@ -31,10 +31,18 @@ Generated: 2026-06-01 02:31:38
 
 ## Old Articles Excluded From Development Activity Top Exposure
 
+- JLL Lines Up $144M Construction Loan for Santa Ana Multifamily (Connect CRE Orange County): marked historical/background.
+- Best Year for Missing Middle Construction Since 2007 (NAHB Eye on Housing - Multifamily): marked historical/background.
 - Missing Middle Weakness (NAHB Eye on Housing - Multifamily): marked historical/background.
 - Multifamily Absorption Rate Remains Below 50% (NAHB Eye on Housing - Multifamily): marked historical/background.
 - Cambridge Properties Bringing New Life to Aging Charlotte Center (Connect CRE Charlotte): marked historical/background.
 - Builders Stay Cautious as Single-Family Permits Weaken (NAHB Eye on Housing - Multifamily): marked historical/background.
+- Fourth Quarter 2025 Multifamily Construction Data (NAHB Eye on Housing - Multifamily): marked historical/background.
+- Overall Housing Starts Inch Lower in 2025 (NAHB Eye on Housing - Multifamily): marked historical/background.
+- Third Quarter 2025 Multifamily Construction Data (NAHB Eye on Housing - Multifamily): marked historical/background.
+- August Private Residential Construction Spending Edges Higher (NAHB Eye on Housing - Multifamily): marked historical/background.
+- Multifamily Developer Confidence Increases in Third Quarter, But Still in Negative Territory (NAHB Eye on Housing - Multifamily): marked historical/background.
+- NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter (NAHB Eye on Housing - Multifamily): marked historical/background.
 
 ## Old Articles Excluded From GP / Capital Activity
 

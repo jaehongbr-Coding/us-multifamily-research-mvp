@@ -1,25 +1,25 @@
 # Regional Intelligence Report
 
-Generated: 2026-06-01 02:31:41
+Generated: 2026-06-01 05:46:38
 
 ## Top 5 Markets By Relevance
 
-- California: Core Watch Market, 13 article(s), average relevance 90.3.
+- California: Core Watch Market, 14 article(s), average relevance 90.4.
 - Los Angeles: Core Watch Market, 12 article(s), average relevance 93.8.
 - National / Other: General Monitoring, 30 article(s), average relevance 72.6.
-- Sun Belt: Strategic Watch Market, 18 article(s), average relevance 81.2.
+- Sun Belt: Strategic Watch Market, 17 article(s), average relevance 82.2.
 - Southeast: Strategic Watch Market, 10 article(s), average relevance 85.0.
 
 ## LA / California Focus
 
-- California: 13 article(s), 6 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
+- California: 14 article(s), 6 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
 - Los Angeles: 12 article(s), 5 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
 
 ## Sun Belt / Texas / Southeast
 
-- Sun Belt: 18 article(s), 2 market signal(s), Strategic Watch Market. Monitor supply pipeline and concessions.
+- Sun Belt: 17 article(s), 2 market signal(s), Strategic Watch Market. Monitor supply pipeline and concessions.
 - Southeast: 10 article(s), 1 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
-- Florida: 9 article(s), 2 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
+- Florida: 8 article(s), 2 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
 - Phoenix: 2 article(s), 2 market signal(s), Strategic Watch Market. Monitor supply pipeline and concessions.
 - Arizona: 1 article(s), 1 market signal(s), Strategic Watch Market. Track institutional capital activity.
 - Dallas: 1 article(s), 0 market signal(s), General Monitoring. Monitor only.

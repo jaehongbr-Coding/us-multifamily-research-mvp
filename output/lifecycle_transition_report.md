@@ -1,17 +1,18 @@
 # Lifecycle Transition Report
 
-Generated: 2026-06-01 02:31:44
+Generated: 2026-06-01 05:46:41
 
-- Total lifecycle transitions analyzed: 80
-- Newly detected projects: 0
+- Total lifecycle transitions analyzed: 82
+- Newly detected projects: 2
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- Reappearing projects: 2
+- Reappearing projects: 0
 
 ## Strongest Progression Signals
 
 - JV / Partnership - California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 80.
 - JV / Partnership - Los Angeles - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 78.
+- Entitlement / Permitting - California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 72.
 - Refinancing - Florida - Benefit Street Partners Provides $82M Refi for Sarasota County Multifamily: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 71.
 - Acquisition - Arizona - Wood Partners Sells 278-Unit Alta Rise Multifamily Community in Gilbert, Arizona: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 71.
 - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 70.
@@ -19,7 +20,6 @@ Generated: 2026-06-01 02:31:44
 - Acquisition - Sun Belt - Miami Apartments Trade for $109.9M: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 68.
 - CJM Development Completes 168-Unit Utah Multifamily Affordable Housing Community: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 68.
 - Refinancing - New York - Affinius Capital Led Joint Venture Closes $3.5B Acquisition of Veris Residential: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 67.
-- Development Start - Other / Unknown - CJM Development Completes 168-Unit Utah Multifamily Affordable Housing Community: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 66.
 
 ## Highest Stall Risk Signals
 
@@ -36,7 +36,8 @@ Generated: 2026-06-01 02:31:44
 
 ## Newly Detected Projects
 
-- None detected.
+- Entitlement / Permitting - California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 72.
+- First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A Trickle: No Previous Record -> Entitlement Under Review, Newly Detected Project, progression_score 40.
 
 ## Forward Progression Projects
 
@@ -48,8 +49,7 @@ Generated: 2026-06-01 02:31:44
 
 ## Reappearing Projects
 
-- Acquisition - Florida - Aventon to Build 270-Unit Port Richey Rental Community: Unknown Stage -> Site Acquisition / Site Control, Reappearing Project, progression_score 38.
-- W. Palm Beach Developer Eyeing 25-Story Apartment Tower: Unknown Stage -> Site Acquisition / Site Control, Reappearing Project, progression_score 36.
+- None detected.
 
 ## Refinancing / Recap Timing Transitions
 
@@ -81,22 +81,22 @@ Generated: 2026-06-01 02:31:44
 
 - Use as delivery, lease-up, and underwriting benchmark: JV / Partnership - California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex.
 - Monitor for another run to confirm lifecycle direction: JV / Partnership - Los Angeles - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing.
+- Use as delivery, lease-up, and underwriting benchmark: Entitlement / Permitting - California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A....
 - Use as delivery, lease-up, and underwriting benchmark: Refinancing - Florida - Benefit Street Partners Provides $82M Refi for Sarasota County Multifamily.
 - Use as delivery, lease-up, and underwriting benchmark: Acquisition - Arizona - Wood Partners Sells 278-Unit Alta Rise Multifamily Community in Gilbert, Arizona.
 - Monitor for another run to confirm lifecycle direction: Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing.
 - Use as delivery, lease-up, and underwriting benchmark: PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex.
 - Monitor for another run to confirm lifecycle direction: Acquisition - Sun Belt - Miami Apartments Trade for $109.9M.
-- Use as delivery, lease-up, and underwriting benchmark: CJM Development Completes 168-Unit Utah Multifamily Affordable Housing Community.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 610
-- Canonical projects: 119
-- Duplicate project clusters: 62
-- Persistent assets tracked: 119
-- LA persistent asset watch items: 78
+- Raw project references: 627
+- Canonical projects: 122
+- Duplicate project clusters: 64
+- Persistent assets tracked: 122
+- LA persistent asset watch items: 81
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -104,10 +104,10 @@ Generated: 2026-06-01 02:31:44
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 119
+- Signals evaluated: 122
 - Institutional-grade signals: 12
-- High-confidence signals: 19
-- Weak/noisy signals: 90
-- High-confidence watchlist items: 19
+- High-confidence signals: 20
+- Weak/noisy signals: 92
+- High-confidence watchlist items: 20
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

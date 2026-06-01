@@ -1,11 +1,11 @@
 # Signal Memory Report
 
-Generated: 2026-06-01 02:31:38
+Generated: 2026-06-01 05:46:34
 
 ## Signal Memory Summary
 
-- Total memory rows: 222
-- Status summary: Persistent Signal: 84; Dormant Signal: 74; Early Watch: 40; Strengthening Signal: 22; Weakening Signal: 2
+- Total memory rows: 224
+- Status summary: Persistent Signal: 84; Dormant Signal: 74; Early Watch: 40; Strengthening Signal: 22; New Signal: 2; Weakening Signal: 2
 - Signal Memory is a repeated-observation tracker, not an investment decision engine.
 
 ## Strengthening Signals
@@ -16,8 +16,8 @@ Generated: 2026-06-01 02:31:38
 - acquisition / Florida: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 4건이 최근 7일에 관찰되었습니다.
 - adaptive_reuse / New York: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 4건이 최근 7일에 관찰되었습니다.
 - construction_start / Los Angeles: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 4건이 최근 7일에 관찰되었습니다.
-- delivery / Sun Belt: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 4건이 최근 7일에 관찰되었습니다.
 - density_bonus / Southeast: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 4건이 최근 7일에 관찰되었습니다.
+- lender_activity / Other / Unknown: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 4건이 최근 7일에 관찰되었습니다.
 
 ## Persistent Signals
 
@@ -32,14 +32,14 @@ Generated: 2026-06-01 02:31:38
 
 ## New / Early Watch Signals
 
+- entitlement / Sun Belt: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- zoning / California: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
 - Macro & Financing / Sun Belt: Early Watch. 최근 30일 4건, 2개 source에서 관찰되었습니다.
 - Deal Size Signal / Sun Belt: Early Watch. 최근 30일 2건, 2개 source에서 관찰되었습니다.
 - Deal Size Signal / New York: Early Watch. 최근 30일 2건, 2개 source에서 관찰되었습니다.
 - Deal Size Signal / Arizona: Early Watch. source 다양성이 제한되어 있어 추가 확인이 필요합니다.
 - Supply / Starts Signal / California: Early Watch. source 다양성이 제한되어 있어 추가 확인이 필요합니다.
 - Deal Size Signal / Other / Unknown: Early Watch. source 다양성이 제한되어 있어 추가 확인이 필요합니다.
-- Deal Size Signal / Florida: Early Watch. source 다양성이 제한되어 있어 추가 확인이 필요합니다.
-- Development Strategy / Sun Belt: Early Watch. source 다양성이 제한되어 있어 추가 확인이 필요합니다.
 
 ## Weakening or Dormant Signals
 

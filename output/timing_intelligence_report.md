@@ -1,8 +1,8 @@
 # Timing Intelligence Report
 
-Generated: 2026-06-01 02:31:42
+Generated: 2026-06-01 05:46:39
 
-- Total timing signals detected: 44
+- Total timing signals detected: 45
 
 ## Top Timing Signals
 
@@ -43,6 +43,7 @@ Generated: 2026-06-01 02:31:42
 - Entitlement / Permitting in California: No explicit timing reference, score 73, Biweekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
 - Entitlement / Permitting in Los Angeles: No explicit timing reference, score 73, Biweekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
 - Entitlement / Permitting in Los Angeles: No explicit timing reference, score 73, Biweekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
+- Entitlement / Permitting in California: No explicit timing reference, score 69, Biweekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
 - Entitlement / Permitting in Sun Belt: No explicit timing reference, score 52, Monthly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
 - Entitlement / Permitting in Other / Unknown: No explicit timing reference, score 50, Monthly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
 - Entitlement / Permitting in Other / Unknown: No explicit timing reference, score 45, Monitor Only monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
@@ -64,6 +65,7 @@ Generated: 2026-06-01 02:31:42
 - Entitlement / Permitting in Los Angeles: No explicit timing reference, score 73, Biweekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
 - Construction Start in Los Angeles: No explicit timing reference, score 71, Biweekly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
 - Recapitalization Timing in California: No explicit timing reference, score 70, Biweekly monitoring. Prepare sponsor, lender, and rescue-capital watchlist.
+- Entitlement / Permitting in California: No explicit timing reference, score 69, Biweekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
 - Construction Completion / Delivery in California: No explicit timing reference, score 68, Biweekly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
 - Distress Sale Timing in California: No explicit timing reference, score 68, Biweekly monitoring. Prepare sponsor, lender, and rescue-capital watchlist.
 - Distress Sale Timing in Los Angeles: No explicit timing reference, score 68, Biweekly monitoring. Prepare sponsor, lender, and rescue-capital watchlist.
@@ -76,7 +78,7 @@ Generated: 2026-06-01 02:31:42
 ## Recommended Monitoring Cadence
 
 - Monthly: 23 timing signal(s)
-- Biweekly: 13 timing signal(s)
+- Biweekly: 14 timing signal(s)
 - Weekly: 4 timing signal(s)
 - Monitor Only: 4 timing signal(s)
 
@@ -90,9 +92,9 @@ Generated: 2026-06-01 02:31:42
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 80
-- LA lifecycle watch items: 48
-- Stage mix: Delivery / Opening: 7, Unknown Stage: 41, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 17, Vertical Construction: 4
+- Lifecycle records: 82
+- LA lifecycle watch items: 50
+- Stage mix: Delivery / Opening: 8, Unknown Stage: 41, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 17, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -100,10 +102,10 @@ Generated: 2026-06-01 02:31:42
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 80
-- Newly detected projects: 0
+- Lifecycle transitions analyzed: 82
+- Newly detected projects: 2
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 46
+- LA lifecycle transition watch items: 48
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 

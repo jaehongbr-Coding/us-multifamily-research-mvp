@@ -1,6 +1,6 @@
 # Signal Tuning Report
 
-Generated: 2026-06-01 02:31:38
+Generated: 2026-06-01 05:46:34
 
 ## Top Strategic Relevance Articles
 
@@ -19,6 +19,7 @@ Generated: 2026-06-01 02:31:38
 
 - 0: Best Year for Missing Middle Construction Since 2007 (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: Missing Middle Weakness (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
+- 0: Lee & Associates’ Report: Industrial and Multifamily Slow, Office Recovers, Retail Demand Holds (REBusiness Online) - confidence low; integrity valid
 - 0: Centralization Associated with Occupancy Uplift (Multifamily Executive) - confidence high; integrity valid
 - 0: Fourth Quarter 2025 Multifamily Construction Data (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: Overall Housing Starts Inch Lower in 2025 (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
@@ -31,7 +32,6 @@ Generated: 2026-06-01 02:31:38
 - 0: Charlotte Apartment Project Fetches $107M (Connect CRE Charlotte) - confidence medium; integrity valid
 - 0: JLL Lines Up $144M Construction Loan for Santa Ana Multifamily (Connect CRE Orange County) - confidence high; integrity valid
 - 0: Multifamily Absorption Rate Remains Below 50% (NAHB Eye on Housing - Multifamily) - confidence medium; integrity valid
-- 0: Builders Stay Cautious as Single-Family Permits Weaken (NAHB Eye on Housing - Multifamily) - confidence high; integrity valid
 
 ## Potential Parsing Integrity Issues
 
@@ -39,8 +39,8 @@ Generated: 2026-06-01 02:31:38
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 22
-- Development / sponsor behavior articles: 53
+- Financing-oriented articles: 23
+- Development / sponsor behavior articles: 54
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

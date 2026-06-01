@@ -1,6 +1,6 @@
 # Market Entry Window Report
 
-Generated: 2026-06-01 02:31:42
+Generated: 2026-06-01 05:46:39
 
 ## Top Market Entry Windows
 
@@ -65,9 +65,9 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 80
-- LA lifecycle watch items: 48
-- Stage mix: Delivery / Opening: 7, Unknown Stage: 41, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 17, Vertical Construction: 4
+- Lifecycle records: 82
+- LA lifecycle watch items: 50
+- Stage mix: Delivery / Opening: 8, Unknown Stage: 41, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 17, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -75,10 +75,10 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 80
-- Newly detected projects: 0
+- Lifecycle transitions analyzed: 82
+- Newly detected projects: 2
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 46
+- LA lifecycle transition watch items: 48
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 

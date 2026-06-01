@@ -1,16 +1,16 @@
 # Entity Resolution Report
 
-Generated: 2026-06-01 02:31:41
+Generated: 2026-06-01 05:46:38
 
-- Total raw entities reviewed: 135
-- Total canonical entities created: 42
+- Total raw entities reviewed: 138
+- Total canonical entities created: 43
 - Possible duplicate entity groups: 5
-- Weak matches needing review: 100
+- Weak matches needing review: 103
 - Unknown entities needing review: 4
 
 ## Top Canonical Firms
 
-- Unknown: 143 occurrence(s)
+- Unknown: 146 occurrence(s)
 - Wood Partners: 10 occurrence(s)
 - JLL: 8 occurrence(s)
 - Berkadia: 6 occurrence(s)
@@ -23,10 +23,10 @@ Generated: 2026-06-01 02:31:41
 
 ## Top Canonical Markets
 
-- Sun Belt: 70 occurrence(s)
+- Sun Belt: 69 occurrence(s)
 - Los Angeles: 38 occurrence(s)
 - Other / Unknown: 37 occurrence(s)
-- California: 25 occurrence(s)
+- California: 28 occurrence(s)
 - New York: 22 occurrence(s)
 - Unknown: 15 occurrence(s)
 - Florida: 14 occurrence(s)
@@ -38,7 +38,7 @@ Generated: 2026-06-01 02:31:41
 
 - California: California, Disposition / Exit - California - Carlsbad Lifestyle Center Fetches $91M in Sale to 11North, JV / Partnership - California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex, Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties
 - JLL: Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily, General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project, jll
-- Los Angeles: Acquisition - Sun Belt - El-Ad Pays $45.5M for Coconut Grove Property, Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes..., Construction Financing - New York - Dwight Mortgage Trust Lends $55M on Rockland County, N.Y., Multifamily Development, Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments, Disposition / Exit - Los Angeles - Covina Apartments Trade on In-Place Cash Flow, Rental Upside, Disposition / Exit - Los Angeles - Metro breaks ground on North Hollywood - Pasadena BRT line, Entitlement / Permitting - California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica, Entitlement / Permitting - Los Angeles - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown, Entitlement / Permitting - Los Angeles - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills, General Project Signal - Los Angeles - Affordable housing slated for 1418 S. Mansfield Ave. in Mid-City, General Project Signal - Sun Belt - Insignia Pursuing Embassy Row Multifamily Mixed-Use Redevelopment in Atlanta, JV / Partnership - Los Angeles - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing, JV / Partnership - Los Angeles - RAND reviews ULA impacts, Mayor's race focuses on housing, and more, Los Angeles, Modular / Construction Innovation - Los Angeles - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South..., Office-to-Residential Conversion - National - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg..., Office-to-Residential Conversion - National - JBG SMITH Commences Office-to-Residential Conversion in National Landing, Refinancing - New York - PNC Bank Refis West Village Apartment Building With $404M Loan, Refinancing - Other / Unknown - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments Villa Annette
+- Los Angeles: Acquisition - Sun Belt - El-Ad Pays $45.5M for Coconut Grove Property, Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes..., Construction Financing - New York - Dwight Mortgage Trust Lends $55M on Rockland County, N.Y., Multifamily Development, Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments, Disposition / Exit - Los Angeles - Covina Apartments Trade on In-Place Cash Flow, Rental Upside, Disposition / Exit - Los Angeles - Metro breaks ground on North Hollywood - Pasadena BRT line, Entitlement / Permitting - California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A..., Entitlement / Permitting - California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica, Entitlement / Permitting - Los Angeles - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown, Entitlement / Permitting - Los Angeles - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills, General Project Signal - Los Angeles - Affordable housing slated for 1418 S. Mansfield Ave. in Mid-City, General Project Signal - Sun Belt - Insignia Pursuing Embassy Row Multifamily Mixed-Use Redevelopment in Atlanta, JV / Partnership - Los Angeles - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing, JV / Partnership - Los Angeles - RAND reviews ULA impacts, Mayor's race focuses on housing, and more, Los Angeles, Modular / Construction Innovation - Los Angeles - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South..., Office-to-Residential Conversion - National - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg..., Office-to-Residential Conversion - National - JBG SMITH Commences Office-to-Residential Conversion in National Landing, Refinancing - New York - PNC Bank Refis West Village Apartment Building With $404M Loan, Refinancing - Other / Unknown - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments Villa Annette
 - New York: JV / Partnership - New York - IPA Arranges $27M Acquisition Loan for Apartment Community in D.C’s NoMa District, Manhattan, New York, Office-to-Residential Conversion - New York - Speaker Spotlight: Adam Greene of RXR, Refinancing - New York - Affinius Capital Led Joint Venture Closes $3.5B Acquisition of Veris Residential
 - Sun Belt: Acquisition - Sun Belt - Miami Apartments Trade for $109.9M, Atlanta, Austin, BTR / Build-to-Rent - Sun Belt - Work Begins on 94-Unit Scottsdale Luxury BTR Community, Dallas, Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M, Disposition / Exit - Sun Belt - Eaton Vance Picks Charlotte Rental Community for $65.8M, Disposition / Exit - Sun Belt - Grand Peaks Sells Miami-Area Apartments for $65.5M, Entitlement / Permitting - Sun Belt - Cambridge Properties Bringing New Life to Aging Charlotte Center, General Project Signal - Sun Belt - Empire Group Starts Work on $170M Phoenix Apartment Tower, General Project Signal - Sun Belt - Insignia Pursuing Embassy Row Redevelopment, Miami, Phoenix, Refinancing - Sun Belt - Georgia Tech Student Housing Investors Ink Refi, Sun Belt
 

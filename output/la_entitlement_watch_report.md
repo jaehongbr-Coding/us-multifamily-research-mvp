@@ -1,13 +1,14 @@
 # LA / California Entitlement Watch Report
 
-Generated: 2026-06-01 02:31:42
+Generated: 2026-06-01 05:46:39
 
-- Total LA / California entitlement watch items: 9
+- Total LA / California entitlement watch items: 10
 
 ## Top LA / California Entitlement Opportunities
 
 - California: Entitlement Approval, Unknown Stage, score 50. Monitor local sponsor activity.
 - Los Angeles: Zoning / Rezoning, Unknown Stage, score 48. Track entitlement precedent.
+- Los Angeles: Zoning / Rezoning, Unknown Stage, score 45. Track entitlement precedent.
 - Los Angeles: Planning Approval, Under Review, score 45. Track entitlement precedent.
 - Los Angeles: Entitlement Approval, Unknown Stage, score 45. Track entitlement precedent.
 - Los Angeles: Entitlement Approval, Unknown Stage, score 45. Track entitlement precedent.
@@ -19,6 +20,7 @@ Generated: 2026-06-01 02:31:42
 ## Top LA / California Entitlement Risks
 
 - California: Entitlement Approval, Unknown Stage, score 28. Monitor local sponsor activity.
+- Los Angeles: Zoning / Rezoning, Unknown Stage, score 28. Track entitlement precedent.
 - Los Angeles: Planning Approval, Under Review, score 28. Track entitlement precedent.
 - Los Angeles: Entitlement Approval, Unknown Stage, score 28. Track entitlement precedent.
 - Los Angeles: Entitlement Approval, Unknown Stage, score 28. Track entitlement precedent.
@@ -32,13 +34,14 @@ Generated: 2026-06-01 02:31:42
 
 | Submarket | Items | Top relevance |
 | --- | ---: | ---: |
-| Los Angeles | 7 | 63 |
+| Los Angeles | 8 | 63 |
 | California | 1 | 64 |
 | Atlanta | 1 | 42 |
 
 ## Project / Sponsor Watch
 
 - California: Entitlement Approval, Unknown Stage, score 64. Monitor local sponsor activity.
+- Los Angeles: Zoning / Rezoning, Unknown Stage, score 63. Track entitlement precedent.
 - Los Angeles: Planning Approval, Under Review, score 63. Track entitlement precedent.
 - Los Angeles: Entitlement Approval, Unknown Stage, score 63. Track entitlement precedent.
 - Los Angeles: Entitlement Approval, Unknown Stage, score 63. Track entitlement precedent.
@@ -60,12 +63,12 @@ Generated: 2026-06-01 02:31:42
 ## Recommended Local Follow-up Actions
 
 - Track local planning docket, sponsor, submarket, and entitlement precedent: California / Entitlement Approval.
+- Track local planning docket, sponsor, submarket, and entitlement precedent: Los Angeles / Zoning / Rezoning.
 - Track local planning docket, sponsor, submarket, and entitlement precedent: Los Angeles / Planning Approval.
 - Track local planning docket, sponsor, submarket, and entitlement precedent: Los Angeles / Entitlement Approval.
 - Track local planning docket, sponsor, submarket, and entitlement precedent: Los Angeles / Entitlement Approval.
 - Track local planning docket, sponsor, submarket, and entitlement precedent: Los Angeles / Entitlement Approval.
 - Track local planning docket, sponsor, submarket, and entitlement precedent: Los Angeles / Zoning / Rezoning.
-- Track local planning docket, sponsor, submarket, and entitlement precedent: Los Angeles / Office-to-Residential Conversion.
 - Track local planning docket, sponsor, submarket, and entitlement precedent: Los Angeles / Office-to-Residential Conversion.
 
 ## Submarket / Parcel Intelligence Reference
@@ -76,8 +79,8 @@ Submarket-level site strategy detail is available in `submarket_intelligence_rep
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 80
-- LA lifecycle watch items: 48
-- Stage mix: Delivery / Opening: 7, Unknown Stage: 41, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 17, Vertical Construction: 4
+- Lifecycle records: 82
+- LA lifecycle watch items: 50
+- Stage mix: Delivery / Opening: 8, Unknown Stage: 41, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 17, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

@@ -1,8 +1,8 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-06-01 02:31:41
+Generated: 2026-06-01 05:46:38
 
-- Total relationship edges: 82
+- Total relationship edges: 84
 - Most connected developer / GP: Wood Partners (6 edge(s))
 - Most connected lender / debt provider: jll (4 edge(s))
 - Most connected market: Sun Belt (12 edge(s))
@@ -147,10 +147,10 @@ Longitudinal memory is available in `historical_memory_report.md`.
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 610
-- Canonical projects: 119
-- Duplicate project clusters: 62
-- Persistent assets tracked: 119
-- LA persistent asset watch items: 78
+- Raw project references: 627
+- Canonical projects: 122
+- Duplicate project clusters: 64
+- Persistent assets tracked: 122
+- LA persistent asset watch items: 81
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

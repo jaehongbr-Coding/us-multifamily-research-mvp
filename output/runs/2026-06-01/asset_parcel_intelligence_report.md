@@ -1,8 +1,8 @@
 # Real Asset & Parcel Intelligence Report
 
-Generated: 2026-06-01 02:31:43
+Generated: 2026-06-01 05:46:40
 
-- Total asset / parcel signals: 82
+- Total asset / parcel signals: 84
 
 ## Top Site-Level Opportunities
 
@@ -55,6 +55,8 @@ Generated: 2026-06-01 02:31:43
 ## Assets With Entitlement or Permit Signals
 
 - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Entitlement Play, 349 N. Oakhurst Ave, asset_opportunity_score 85.
+- Entitlement / Permitting - California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: Lease-Up / Delivery, San Francisco, asset_opportunity_score 74.
+- First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A Trickle: Entitlement Play, Los Angeles, asset_opportunity_score 52.
 
 ## Assets With Financing / Refinancing Signals
 
@@ -110,9 +112,9 @@ Generated: 2026-06-01 02:31:43
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 80
-- LA lifecycle watch items: 48
-- Stage mix: Delivery / Opening: 7, Unknown Stage: 41, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 17, Vertical Construction: 4
+- Lifecycle records: 82
+- LA lifecycle watch items: 50
+- Stage mix: Delivery / Opening: 8, Unknown Stage: 41, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 17, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -120,11 +122,11 @@ Generated: 2026-06-01 02:31:43
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 80
-- Newly detected projects: 0
+- Lifecycle transitions analyzed: 82
+- Newly detected projects: 2
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 46
+- LA lifecycle transition watch items: 48
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -132,10 +134,10 @@ Generated: 2026-06-01 02:31:43
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 610
-- Canonical projects: 119
-- Duplicate project clusters: 62
-- Persistent assets tracked: 119
-- LA persistent asset watch items: 78
+- Raw project references: 627
+- Canonical projects: 122
+- Duplicate project clusters: 64
+- Persistent assets tracked: 122
+- LA persistent asset watch items: 81
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

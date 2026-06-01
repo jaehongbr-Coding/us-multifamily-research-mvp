@@ -1,17 +1,17 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-06-01 02:31:44
+Generated: 2026-06-01 05:46:41
 
-- Total LA lifecycle watch items: 48
+- Total LA lifecycle watch items: 50
 
 ## LA Lifecycle Stage Distribution
 
 - Unknown Stage: 22
 - Site Acquisition / Site Control: 12
 - Refinancing / Recapitalization: 9
-- Delivery / Opening: 2
+- Delivery / Opening: 3
 - Vertical Construction: 2
-- Entitlement Under Review: 1
+- Entitlement Under Review: 2
 
 ## Koreatown / Wilshire Lifecycle Watch
 
@@ -65,11 +65,11 @@ Generated: 2026-06-01 02:31:44
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 80
-- Newly detected projects: 0
+- Lifecycle transitions analyzed: 82
+- Newly detected projects: 2
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 46
+- LA lifecycle transition watch items: 48
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -77,10 +77,10 @@ Generated: 2026-06-01 02:31:44
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 610
-- Canonical projects: 119
-- Duplicate project clusters: 62
-- Persistent assets tracked: 119
-- LA persistent asset watch items: 78
+- Raw project references: 627
+- Canonical projects: 122
+- Duplicate project clusters: 64
+- Persistent assets tracked: 122
+- LA persistent asset watch items: 81
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

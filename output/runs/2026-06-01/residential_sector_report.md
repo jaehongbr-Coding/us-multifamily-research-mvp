@@ -1,6 +1,6 @@
 # Residential Sector Coverage Report
 
-Generated: 2026-06-01 02:31:41
+Generated: 2026-06-01 05:46:38
 
 - Active residential sectors: 9
 
@@ -8,7 +8,7 @@ Generated: 2026-06-01 02:31:41
 
 - Apartment: 29 article(s), 15 high-priority, 23 deal/project, Core Strategy Sector.
 - Affordable Housing: 13 article(s), 9 high-priority, 10 deal/project, Strategic Expansion Sector.
-- Multifamily: 19 article(s), 4 high-priority, 9 deal/project, Core Strategy Sector.
+- Multifamily: 19 article(s), 5 high-priority, 10 deal/project, Core Strategy Sector.
 - Office-to-Residential Conversion: 3 article(s), 3 high-priority, 3 deal/project, Strategic Expansion Sector.
 - BTR / Single-Family Rental: 1 article(s), 1 high-priority, 1 deal/project, Strategic Expansion Sector.
 - Student Housing: 2 article(s), 0 high-priority, 2 deal/project, Strategic Expansion Sector.
@@ -20,7 +20,7 @@ Generated: 2026-06-01 02:31:41
 
 - Apartment: Core Strategy Sector, average relevance 88.6, dominant market Sun Belt.
 - Affordable Housing: Strategic Expansion Sector, average relevance 84.2, dominant market Los Angeles.
-- Multifamily: Core Strategy Sector, average relevance 66.9, dominant market Other / Unknown.
+- Multifamily: Core Strategy Sector, average relevance 68.4, dominant market Other / Unknown.
 - Office-to-Residential Conversion: Strategic Expansion Sector, average relevance 86.0, dominant market National.
 - BTR / Single-Family Rental: Strategic Expansion Sector, average relevance 85.0, dominant market Sun Belt.
 - Student Housing: Strategic Expansion Sector, average relevance 62.5, dominant market Sun Belt.
@@ -30,7 +30,7 @@ Generated: 2026-06-01 02:31:41
 ## Multifamily / Apartment
 
 - Apartment: 29 article(s), 23 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
-- Multifamily: 19 article(s), 9 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
+- Multifamily: 19 article(s), 10 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
 
 ## BTR / SFR
 

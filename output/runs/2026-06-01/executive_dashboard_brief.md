@@ -1,13 +1,13 @@
 # Executive Dashboard Brief
 
-Generated: 2026-06-01 02:31:38
+Generated: 2026-06-01 05:46:34
 
 ## Executive Snapshot
 
 - Total articles reviewed: 75
-- High-confidence signals: 19
+- High-confidence signals: 20
 - Institutional-grade signals: 12
-- Opportunities: 50
+- Opportunities: 51
 - Distress signals: 11
 - Recommended executive focus: Review JV / Partnership - California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex and related high-confidence project signals.
 

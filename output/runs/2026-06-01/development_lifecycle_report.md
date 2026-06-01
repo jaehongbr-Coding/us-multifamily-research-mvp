@@ -1,17 +1,17 @@
 # Development Lifecycle Report
 
-Generated: 2026-06-01 02:31:44
+Generated: 2026-06-01 05:46:41
 
-- Total lifecycle records: 80
+- Total lifecycle records: 82
 
 ## Lifecycle Stage Distribution
 
 - Unknown Stage: 41
 - Site Acquisition / Site Control: 17
 - Refinancing / Recapitalization: 10
-- Delivery / Opening: 7
+- Delivery / Opening: 8
 - Vertical Construction: 4
-- Entitlement Under Review: 1
+- Entitlement Under Review: 2
 
 ## Top Development Timing Opportunities
 
@@ -42,6 +42,7 @@ Generated: 2026-06-01 02:31:44
 ## Projects Under Entitlement / Planning
 
 - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Entitlement Under Review, Los Angeles, lifecycle_opportunity_score 73.
+- First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A Trickle: Entitlement Under Review, Los Angeles, lifecycle_opportunity_score 62.
 
 ## Construction-Ready / Construction-Start Signals
 
@@ -56,6 +57,7 @@ Generated: 2026-06-01 02:31:44
 - Acquisition - Arizona - Wood Partners Sells 278-Unit Alta Rise Multifamily Community in Gilbert, Arizona: Delivery / Opening, Arizona, lifecycle_opportunity_score 90.
 - Refinancing - Florida - Benefit Street Partners Provides $82M Refi for Sarasota County Multifamily: Delivery / Opening, Florida, lifecycle_opportunity_score 89.
 - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: Delivery / Opening, Inland Empire, lifecycle_opportunity_score 80.
+- Entitlement / Permitting - California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: Delivery / Opening, San Francisco, lifecycle_opportunity_score 75.
 - CJM Development Completes 168-Unit Utah Multifamily Affordable Housing Community: Delivery / Opening, Unknown, lifecycle_opportunity_score 71.
 - Refinancing - New York - Affinius Capital Led Joint Venture Closes $3.5B Acquisition of Veris Residential: Delivery / Opening, New York, lifecycle_opportunity_score 62.
 - General Project Signal - Other / Unknown - Multifamily Absorption Rate Remains Below 50%: Delivery / Opening, Unknown, lifecycle_opportunity_score 27.
@@ -97,11 +99,11 @@ Generated: 2026-06-01 02:31:44
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 80
-- Newly detected projects: 0
+- Lifecycle transitions analyzed: 82
+- Newly detected projects: 2
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 46
+- LA lifecycle transition watch items: 48
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -109,11 +111,11 @@ Generated: 2026-06-01 02:31:44
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 610
-- Canonical projects: 119
-- Duplicate project clusters: 62
-- Persistent assets tracked: 119
-- LA persistent asset watch items: 78
+- Raw project references: 627
+- Canonical projects: 122
+- Duplicate project clusters: 64
+- Persistent assets tracked: 122
+- LA persistent asset watch items: 81
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -121,10 +123,10 @@ Generated: 2026-06-01 02:31:44
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 119
+- Signals evaluated: 122
 - Institutional-grade signals: 12
-- High-confidence signals: 19
-- Weak/noisy signals: 90
-- High-confidence watchlist items: 19
+- High-confidence signals: 20
+- Weak/noisy signals: 92
+- High-confidence watchlist items: 20
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

@@ -1,6 +1,6 @@
 # Source Activation Report
 
-Generated: 2026-06-01 02:31:38
+Generated: 2026-06-01 05:46:35
 
 - Total sources evaluated: 163
 - Working sources: 24
@@ -28,8 +28,8 @@ Generated: 2026-06-01 02:31:38
 - NAHB Eye on Housing - Multifamily (Tier 3): Working, RSS, score 70, 15 saved article(s).
 - Connect CRE Atlanta (Tier 2): Working, RSS, score 68, 3 saved article(s).
 - Connect CRE Phoenix (Tier 2): Working, RSS, score 61, 2 saved article(s).
+- Bisnow (Tier 1): Working, RSS, score 60, 2 saved article(s).
 - Multifamily Executive (Tier 1): Working, RSS, score 58, 3 saved article(s).
-- Connect CRE California (Tier 2): Working, RSS, score 54, 5 saved article(s).
 
 ## Highest Institutional-Value Sources
 
@@ -37,8 +37,8 @@ Generated: 2026-06-01 02:31:38
 - Yield PRO (Tier 1): Working, RSS, score 90, 10 saved article(s).
 - Commercial Observer (Tier 1): Working, RSS, score 83, 4 saved article(s).
 - Multifamily Dive (Tier 1): Working, RSS, score 72, 2 saved article(s).
+- Bisnow (Tier 1): Working, RSS, score 60, 2 saved article(s).
 - Multifamily Executive (Tier 1): Working, RSS, score 58, 3 saved article(s).
-- Bisnow (Tier 1): Working, RSS, score 51, 2 saved article(s).
 - HousingWire (Tier 1): Working, RSS, score 48, 1 saved article(s).
 - Blackstone Real Estate Source Expansion (Tier 1): Working, RSS, score 45, 1 saved article(s).
 - Construction Dive (Tier 1): Working, RSS, score 45, 0 saved article(s).
@@ -50,6 +50,7 @@ Generated: 2026-06-01 02:31:38
 - Connect CRE Orange County (Tier 2): Working, RSS, score 89, 3 saved article(s).
 - Connect CRE Apartments (Tier 2): Working, RSS, score 80, 6 saved article(s).
 - Connect CRE Atlanta (Tier 2): Working, RSS, score 68, 3 saved article(s).
+- Bisnow (Tier 1): Working, RSS, score 60, 2 saved article(s).
 - Connect CRE California (Tier 2): Working, RSS, score 54, 5 saved article(s).
 - Blackstone Real Estate Source Expansion (Tier 1): Working, RSS, score 45, 1 saved article(s).
 - Blackstone Real Estate (Tier 3): Working, RSS, score 38, 1 saved article(s).
@@ -59,7 +60,6 @@ Generated: 2026-06-01 02:31:38
 - Atlanta Business Chronicle (Tier 2): Disabled, Manual, score 13, 0 saved article(s).
 - California HCD (Tier 2): Disabled, Manual, score 13, 0 saved article(s).
 - Dallas Business Journal (Tier 2): Disabled, Manual, score 13, 0 saved article(s).
-- LA Business Journal (Tier 2): Disabled, Manual, score 13, 0 saved article(s).
 
 ## Failed Critical Sources
 
@@ -94,8 +94,8 @@ Generated: 2026-06-01 02:31:38
 - NAHB Eye on Housing - Multifamily (Tier 3): Working, RSS, score 70, 15 saved article(s).
 - Connect CRE Atlanta (Tier 2): Working, RSS, score 68, 3 saved article(s).
 - Connect CRE Phoenix (Tier 2): Working, RSS, score 61, 2 saved article(s).
+- Bisnow (Tier 1): Working, RSS, score 60, 2 saved article(s).
 - Multifamily Executive (Tier 1): Working, RSS, score 58, 3 saved article(s).
-- Connect CRE California (Tier 2): Working, RSS, score 54, 5 saved article(s).
 
 ## HTML-Only / Newsroom Sources
 
@@ -118,9 +118,9 @@ Generated: 2026-06-01 02:31:38
 | 11 | NAHB Eye on Housing - Multifamily | Tier 3 | Working | 70 | 15 | 100 |
 | 12 | Connect CRE Atlanta | Tier 2 | Working | 68 | 3 | 70 |
 | 13 | Connect CRE Phoenix | Tier 2 | Working | 61 | 2 | 50 |
-| 14 | Multifamily Executive | Tier 1 | Working | 58 | 3 | 40 |
-| 15 | Connect CRE California | Tier 2 | Working | 54 | 5 | 30 |
-| 16 | Bisnow | Tier 1 | Working | 51 | 2 | 10 |
+| 14 | Bisnow | Tier 1 | Working | 60 | 2 | 17 |
+| 15 | Multifamily Executive | Tier 1 | Working | 58 | 3 | 40 |
+| 16 | Connect CRE California | Tier 2 | Working | 54 | 5 | 30 |
 | 17 | HousingWire | Tier 1 | Working | 48 | 1 | 10 |
 | 18 | Blackstone Real Estate Source Expansion | Tier 1 | Working | 45 | 1 | 0 |
 | 19 | Construction Dive | Tier 1 | Working | 45 | 0 | 0 |

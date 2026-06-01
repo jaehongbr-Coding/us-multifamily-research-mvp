@@ -1,6 +1,6 @@
 # 한국어 LA 개발 단계 Watch
 
-- 생성 시각: 2026-06-01 02:31:38
+- 생성 시각: 2026-06-01 05:46:34
 - 참고 원문 파일: `la_development_lifecycle_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -21,6 +21,7 @@
 
 - JV / Partnership - California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: California, 아파트, 점수 80 (Mature / Operating; Mature)
 - JV / Partnership - Los Angeles - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing: Los Angeles, 어포더블 하우징, 점수 78 (Same Stage Persistence; Stable)
+- Entitlement / Permitting - California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: Los Angeles, 멀티패밀리, 점수 72 (Newly Detected Project; Unknown)
 - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing: California, 어포더블 하우징, 점수 70 (Same Stage Persistence; Stable)
 - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: Los Angeles, 아파트, 점수 70 (Mature / Operating; Mature)
 - Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Los Angeles, 어포더블 하우징, 점수 64 (Same Stage Persistence; Stable)
@@ -28,7 +29,6 @@
 - Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Los Angeles, 아파트, 점수 63 (Same Stage Persistence; Stable)
 - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in West Hollywood: Hollywood, 어포더블 하우징, 점수 63 (Same Stage Persistence; Stable)
 - Refinancing - New York - PNC Bank Refis West Village Apartment Building With $404M Loan: Los Angeles, 아파트, 점수 63 (Same Stage Persistence; Stable)
-- Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Los Angeles, 아파트, 점수 63 (Same Stage Persistence; Stable)
 
 ## 인허가 / 착공 / 리스업 타이밍
 

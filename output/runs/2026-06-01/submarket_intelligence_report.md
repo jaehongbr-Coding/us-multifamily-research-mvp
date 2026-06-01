@@ -1,8 +1,8 @@
 # Submarket Intelligence Report
 
-Generated: 2026-06-01 02:31:42
+Generated: 2026-06-01 05:46:39
 
-- Total submarkets detected: 27
+- Total submarkets detected: 28
 
 ## Top Submarkets By Opportunity Score
 
@@ -62,7 +62,7 @@ Generated: 2026-06-01 02:31:42
 
 - New York: 7 timing signal(s), 1 entitlement signal(s).
 - Santa Monica: 2 timing signal(s), 2 entitlement signal(s).
-- Los Angeles: 0 timing signal(s), 5 entitlement signal(s).
+- Los Angeles: 0 timing signal(s), 6 entitlement signal(s).
 - Miami: 3 timing signal(s), 0 entitlement signal(s).
 - Hollywood: 1 timing signal(s), 1 entitlement signal(s).
 - Charlotte: 1 timing signal(s), 1 entitlement signal(s).
@@ -94,8 +94,8 @@ Generated: 2026-06-01 02:31:42
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 80
-- LA lifecycle watch items: 48
-- Stage mix: Delivery / Opening: 7, Unknown Stage: 41, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 17, Vertical Construction: 4
+- Lifecycle records: 82
+- LA lifecycle watch items: 50
+- Stage mix: Delivery / Opening: 8, Unknown Stage: 41, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 17, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

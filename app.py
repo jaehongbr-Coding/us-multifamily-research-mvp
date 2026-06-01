@@ -25,6 +25,9 @@ OUTPUT_DIR = BASE_DIR / "output"
 
 FILES = {
     "articles": OUTPUT_DIR / "articles.csv",
+    "high_priority_articles": OUTPUT_DIR / "high_priority_articles.csv",
+    "market_signals": OUTPUT_DIR / "market_signals.csv",
+    "strategy_briefing": OUTPUT_DIR / "strategy_briefing.csv",
     "korean_brief": OUTPUT_DIR / "executive_dashboard_brief_ko.md",
     "dashboard_summary": OUTPUT_DIR / "dashboard_summary.csv",
     "dashboard_cards": OUTPUT_DIR / "dashboard_cards.csv",
@@ -104,6 +107,9 @@ def load_shared_data():
     """Load every dashboard dataset from relative output/ paths."""
     return {
         "summary": read_csv_safely(str(FILES["dashboard_summary"])),
+        "high_priority_articles": read_csv_safely(str(FILES["high_priority_articles"])),
+        "market_signals": read_csv_safely(str(FILES["market_signals"])),
+        "strategy_briefing": read_csv_safely(str(FILES["strategy_briefing"])),
         "cards": read_csv_safely(str(FILES["dashboard_cards"])),
         "watchlists": read_csv_safely(str(FILES["dashboard_watchlists"])),
         "high_confidence": read_csv_safely(str(FILES["high_confidence"])),
@@ -191,6 +197,85 @@ def get_first(row, fields, default=""):
         if value not in ["", None] and not pd.isna(value):
             return value
     return default
+
+
+def freshness_bucket_value(row):
+    """Return collector freshness bucket, tolerating older or mislabeled rows."""
+    bucket = str(row.get("freshness_bucket", "") or "").strip()
+    status = str(row.get("freshness_status", "") or "").strip()
+    if bucket:
+        return bucket
+    if status in {"fresh_0_3d", "recent_4_14d", "stale_15_30d", "old_31d_plus", "unknown_date"}:
+        return status
+    if status == "historical_only":
+        return "old_31d_plus"
+    if status == "stale_penalized":
+        return "stale_15_30d"
+    if status in {"current", "usable_recent"}:
+        return "recent_4_14d"
+    age = as_number(row.get("article_age_days", ""), fallback=-1)
+    if age >= 31:
+        return "old_31d_plus"
+    if age >= 15:
+        return "stale_15_30d"
+    if age >= 4:
+        return "recent_4_14d"
+    if age >= 0:
+        return "fresh_0_3d"
+    return "unknown_date"
+
+
+def is_old_or_background(row):
+    """True when a row should be hidden from default current-facing pages."""
+    bucket = freshness_bucket_value(row)
+    status = str(row.get("freshness_status", "") or "").strip()
+    return bucket == "old_31d_plus" or status in {"historical_only", "old_31d_plus", "background_only"}
+
+
+def is_fresh_or_recent(row):
+    """True for default GP/capital exposure."""
+    bucket = freshness_bucket_value(row)
+    status = str(row.get("freshness_status", "") or "").strip()
+    return bucket in {"fresh_0_3d", "recent_4_14d"} or status in {"current", "usable_recent"}
+
+
+def freshness_rank(row):
+    """Sort current rows before stale/unknown rows."""
+    bucket = freshness_bucket_value(row)
+    return {
+        "fresh_0_3d": 0,
+        "recent_4_14d": 1,
+        "stale_15_30d": 3,
+        "unknown_date": 4,
+        "old_31d_plus": 9,
+    }.get(bucket, 5)
+
+
+def freshness_label(row):
+    """Compact freshness label for article cards."""
+    bucket = freshness_bucket_value(row)
+    age = row.get("article_age_days", "")
+    try:
+        if pd.notna(age) and str(age).strip() != "":
+            return f"{bucket} · {int(float(age))}d"
+    except Exception:
+        pass
+    return bucket
+
+
+def filter_current_freshness(df, include_historical=False, require_fresh_recent=False):
+    """Hide old/background rows by default and optionally require fresh/recent rows."""
+    if df is None or df.empty:
+        return df
+    working = df.copy()
+    if not include_historical:
+        working = working[~working.apply(lambda row: is_old_or_background(row.to_dict()), axis=1)]
+    if require_fresh_recent:
+        working = working[working.apply(lambda row: is_fresh_or_recent(row.to_dict()), axis=1)]
+    if working.empty:
+        return working
+    working["_freshness_rank"] = working.apply(lambda row: freshness_rank(row.to_dict()), axis=1)
+    return working.sort_values("_freshness_rank")
 
 
 def get_title(row):
@@ -8574,6 +8659,9 @@ def development_monitor_universe(shared):
     if not available:
         return pd.DataFrame()
     combined = pd.concat(available, ignore_index=True, sort=False)
+    combined = filter_current_freshness(combined, include_historical=False)
+    if combined.empty:
+        return combined
     combined["_dev_blob"] = combined.apply(lambda row: text_blob(row.to_dict()), axis=1)
     combined["_dev_title"] = combined.apply(lambda row: development_article_title(row.to_dict()), axis=1)
     combined["_normalized_dev_title"] = combined["_dev_title"].apply(normalize_development_title)
@@ -8763,6 +8851,17 @@ def development_region(row):
 
 
 def article_freshness_bonus(row):
+    bucket = freshness_bucket_value(row)
+    if bucket == "fresh_0_3d":
+        return 16
+    if bucket == "recent_4_14d":
+        return 8
+    if bucket == "stale_15_30d":
+        return -18
+    if bucket == "old_31d_plus":
+        return -80
+    if bucket == "unknown_date":
+        return -10
     blob = " ".join(str(row.get(field, "")) for field in ["url", "timing_reference", "delivery_or_timing_reference", "source_article_title"])
     years = [int(year) for year in re.findall(r"\b20\d{2}\b", blob)]
     if not years:
@@ -13360,6 +13459,422 @@ def page_market_intelligence_product(shared, filters):
     st.title("시장 인텔리전스")
     render_current_market_flows(shared, filters)
     render_repeated_signal_clusters(shared, filters)
+
+
+def truthy_display_flag(value):
+    """Return True for collector flags saved as strings, ints, or bools."""
+    return str(value or "").strip().lower() in {"1", "true", "yes", "y", "selected"}
+
+
+def display_freshness_note(row):
+    """Small user-facing freshness note for article cards."""
+    label = freshness_label(row)
+    if not label or label == "unknown_date":
+        return "freshness 미확인"
+    return label
+
+
+def article_feed_rows(shared, include_historical=False):
+    """Article Feed defaults to current/recent signal rows, with historical rows opt-in."""
+    df = article_feed_source(shared)
+    if df.empty:
+        return df
+    rows = filter_current_freshness(df.copy(), include_historical=include_historical)
+    if rows.empty:
+        return rows
+    rows["_article_category"] = rows.apply(lambda row: article_feed_category(row.to_dict()), axis=1)
+    rows["_article_title"] = rows.apply(lambda row: get_title(row.to_dict()), axis=1)
+    rows["_article_key"] = rows.apply(
+        lambda row: normalized_headline(row["_article_title"]) or str(get_url(row.to_dict())).strip().lower(),
+        axis=1,
+    )
+    rows = rows.drop_duplicates("_article_key", keep="first")
+    rows["_freshness_rank"] = rows.apply(lambda row: freshness_rank(row.to_dict()), axis=1)
+    rows["_published_sort"] = pd.to_datetime(rows.get("published"), errors="coerce", utc=True)
+    rows["_run_sort"] = pd.to_datetime(rows.get("collected_at"), errors="coerce", utc=True)
+    return rows.sort_values(
+        ["_freshness_rank", "_published_sort", "_run_sort"],
+        ascending=[True, False, False],
+        na_position="last",
+    )
+
+
+def render_article_feed_item(row):
+    item = row.to_dict() if hasattr(row, "to_dict") else row
+    category_label = {
+        "market": "시장 기사",
+        "development": "개발 기사",
+        "gp_capital": "GP / 자본 기사",
+    }.get(item.get("_article_category"), "시장 기사")
+    title = item.get("_article_title") or get_title(item)
+    source = get_first(item, ["source", "source_report"], "Source 미확인")
+    market = get_first(item, ["market_focus", "market", "primary_market"], "시장 미확인")
+    published = article_feed_date(item)
+    freshness = display_freshness_note(item)
+    with st.expander(f"{title} | {source} · {market} · {published} · {freshness}", expanded=False):
+        st.write(f"**Source:** {source}")
+        st.write(f"**Published:** {published}")
+        st.write(f"**Freshness:** {freshness}")
+        st.write(f"**Category:** {category_label}")
+        snippet = get_first(item, ["article_text_sample", "summary", "why_it_matters", "strategic_implication"], "")
+        if snippet:
+            st.write(f"**Summary / snippet:** {truncate_text(snippet, 420)}")
+        st.write(f"**Related market:** {market}")
+        gp = get_first(item, ["gp_or_developer", "canonical_gp_name", "firm_name"], "")
+        if gp:
+            st.write(f"**Related GP / developer:** {gp}")
+        why = get_first(item, ["strategic_implication", "why_it_matters", "reason_for_inclusion"], "")
+        if why:
+            st.write(f"**Why it may matter:** {why}")
+        url = get_url(item)
+        if isinstance(url, str) and url.startswith("http"):
+            st.markdown(f"[원문 기사 보기]({url})")
+
+
+def page_article_feed(shared, filters):
+    st.title("기사 모음 / Article Feed")
+    st.caption("수집된 주요 기사들을 카테고리별로 확인하는 페이지입니다.")
+    include_historical = st.toggle(
+        "Historical / Background 포함",
+        value=False,
+        help="31일 초과, historical-only, background-only 기사를 함께 봅니다.",
+    )
+    if not include_historical:
+        st.caption("기본 화면은 current/recent signal 중심입니다. 오래된 기사는 토글을 켤 때만 표시됩니다.")
+    rows = article_feed_rows(shared, include_historical=include_historical)
+    if rows.empty:
+        missing_file_message(FILES["articles"])
+        return
+    counts = rows["_article_category"].value_counts()
+    cols = st.columns(3)
+    metrics = [
+        ("시장 기사 수", int(counts.get("market", 0))),
+        ("개발 기사 수", int(counts.get("development", 0))),
+        ("GP / 자본 기사 수", int(counts.get("gp_capital", 0))),
+    ]
+    for col, (label, value) in zip(cols, metrics):
+        with col:
+            render_compact_metric(label, value)
+    st.caption(
+        "시장 기사: financing / macro / capital markets 중심 | "
+        "개발 기사: entitlement / construction / delivery / site 중심 | "
+        "GP / 자본 기사: sponsor / lender / JV / capital partner 중심"
+    )
+    render_article_feed_section("시장 기사", rows[rows["_article_category"] == "market"])
+    render_article_feed_section("개발 기사", rows[rows["_article_category"] == "development"])
+    render_article_feed_section("GP / 자본 기사", rows[rows["_article_category"] == "gp_capital"])
+
+
+def development_monitor_universe(shared):
+    """Current-facing development universe with historical/background rows hidden."""
+    frames = []
+    for key in ["development_lifecycle", "asset_parcel", "la_strategy", "articles"]:
+        frame = shared.get(key, pd.DataFrame())
+        if frame is not None and not frame.empty:
+            frames.append(frame.copy())
+    if not frames:
+        return pd.DataFrame()
+    combined = pd.concat(frames, ignore_index=True, sort=False)
+    combined = filter_current_freshness(combined, include_historical=False)
+    if combined.empty:
+        return combined
+    combined["_development_title"] = combined.apply(lambda row: get_title(row.to_dict()), axis=1)
+    combined["_development_key"] = combined.apply(
+        lambda row: normalized_headline(row["_development_title"]) or str(get_url(row.to_dict())).strip().lower(),
+        axis=1,
+    )
+    combined = combined.drop_duplicates("_development_key", keep="first")
+    combined["_freshness_rank"] = combined.apply(lambda row: freshness_rank(row.to_dict()), axis=1)
+    return combined.sort_values("_freshness_rank")
+
+
+def render_development_pipeline_card(row, category):
+    item = row.to_dict() if hasattr(row, "to_dict") else row
+    title = get_title(item)
+    sponsor = get_gp(item) or get_first(item, ["owner_or_sponsor"], "Sponsor 미확인")
+    stage = get_lifecycle_stage(item) or get_first(item, ["entitlement_stage", "execution_stage", "construction_status"], "단계 미확인")
+    category_reason = get_first(item, ["primary_category_reason"], "")
+    freshness = display_freshness_note(item)
+    headline = f"{title} | {development_market_label(item)} · {development_source_label(item)} · {stage} · {freshness}"
+    with st.expander(headline, expanded=False):
+        if sponsor:
+            st.caption(f"GP / sponsor: {sponsor}")
+        st.caption(f"Freshness: {freshness}")
+        st.write(f"**Why it matters:** {get_reason(item)}")
+        st.write(f"**Woomi angle:** {development_woomi_angle(item, category)}")
+        st.write(f"**Lifecycle stage:** {stage}")
+        if category_reason:
+            st.write(f"**Category reason:** {category_reason}")
+        url = get_url(item)
+        if isinstance(url, str) and url.startswith("http"):
+            st.markdown(f"[Read original article]({url})")
+
+
+def gp_capital_activity_label(row):
+    item = row.to_dict() if hasattr(row, "to_dict") else row
+    raw = get_first(
+        item,
+        ["gp_capital_activity_type", "capital_event_type", "institutional_activity_type", "activity_type"],
+        "",
+    )
+    value = str(raw or "").strip().lower()
+    mapping = {
+        "acquisition": "Acquisition",
+        "disposition": "Disposition / Exit",
+        "refinancing": "Refinancing",
+        "construction_financing": "Construction Financing",
+        "recapitalization": "Recapitalization",
+        "joint_venture": "JV / Partnership",
+        "platform_expansion": "Platform Expansion",
+        "portfolio_transaction": "Portfolio Transaction",
+        "fund_capital_raise": "Fund / Capital Raise",
+        "lender_activity": "Lender Activity",
+        "reit_activity": "REIT Activity",
+    }
+    if value in mapping:
+        return mapping[value]
+    inferred = event_activity_from_row(item)
+    return inferred if inferred and inferred != "Entity Mention Only" else "Capital Flow"
+
+
+def build_capital_events(shared):
+    """Use collector-selected, fresh/recent GP-capital rows as the default capital event universe."""
+    articles = shared.get("articles", pd.DataFrame())
+    events = []
+    if articles is not None and not articles.empty and "gp_capital_selected_flag" in articles.columns:
+        selected = articles[
+            articles.apply(
+                lambda row: truthy_display_flag(row.get("gp_capital_selected_flag")) and is_fresh_or_recent(row.to_dict()),
+                axis=1,
+            )
+        ].copy()
+        selected = filter_current_freshness(selected, include_historical=False, require_fresh_recent=True)
+        if not selected.empty:
+            selected["_event_sort"] = pd.to_numeric(
+                selected.get("strategic_relevance_score", selected.get("representative_evidence_score", 0)),
+                errors="coerce",
+            ).fillna(0)
+            selected = selected.sort_values(["_freshness_rank", "_event_sort"], ascending=[True, False])
+            seen = set()
+            for _, row in selected.iterrows():
+                item = row.to_dict()
+                title = get_title(item)
+                url = get_url(item)
+                sponsor = get_first(item, ["gp_or_developer", "canonical_gp_name", "firm_name", "lead_sponsor"], "")
+                lender = get_first(item, ["lender_or_capital_partner", "lender", "capital_provider"], "")
+                market = get_first(item, ["market_focus", "market", "primary_market"], "Market not specified")
+                activity = gp_capital_activity_label(item)
+                key = (
+                    str(url).strip().lower()
+                    or normalized_headline(title)
+                    or f"{normalize_entity_name(sponsor)}|{activity}|{market}".lower()
+                )
+                if not key or key in seen:
+                    continue
+                seen.add(key)
+                events.append({
+                    "lead_sponsor": sponsor,
+                    "capital_provider": get_first(item, ["capital_provider", "institutional_partner"], ""),
+                    "lender": lender,
+                    "jv_partner": get_first(item, ["jv_partner", "partner"], ""),
+                    "activity_type": activity,
+                    "market": market,
+                    "event_title": title,
+                    "source": get_first(item, ["source", "source_report"], ""),
+                    "url": url,
+                    "freshness": display_freshness_note(item),
+                })
+                if len(events) >= 10:
+                    break
+    if events:
+        return events
+
+    deals = shared.get("deal_pipeline", pd.DataFrame())
+    if deals is None or deals.empty:
+        return []
+    deals = filter_current_freshness(deals.copy(), include_historical=False)
+    seen = set()
+    for _, row in deals.iterrows():
+        item = row.to_dict()
+        title = get_title(item)
+        key = str(get_url(item)).strip().lower() or normalized_headline(title)
+        if not key or key in seen or is_old_or_background(item):
+            continue
+        seen.add(key)
+        events.append({
+            "lead_sponsor": get_first(item, ["gp_or_developer", "canonical_gp_name", "firm_name"], ""),
+            "capital_provider": get_first(item, ["capital_provider", "institutional_partner"], ""),
+            "lender": get_first(item, ["lender_or_capital_partner", "lender"], ""),
+            "jv_partner": get_first(item, ["jv_partner", "partner"], ""),
+            "activity_type": event_activity_from_row(item),
+            "market": get_first(item, ["market_focus", "market"], "Market not specified"),
+            "event_title": title,
+            "source": get_first(item, ["source", "source_report"], ""),
+            "url": get_url(item),
+            "freshness": display_freshness_note(item),
+        })
+        if len(events) >= 10:
+            break
+    return events
+
+
+def render_capital_event_cards(shared, filters=None):
+    events = build_capital_events(shared)
+    if not events:
+        st.caption("현재 fresh/recent 기준으로 표시할 GP / 자본 event가 충분히 포착되지 않았습니다.")
+        return
+    for event in events:
+        entity = event["lead_sponsor"] or event["capital_provider"] or event["lender"] or "Entity not specified"
+        freshness = event.get("freshness", "")
+        headline = f"{entity} | {event['activity_type']} | {event['market']}{(' · ' + freshness) if freshness else ''}"
+        with st.expander(headline, expanded=False):
+            render_pilot_chips([(capital_event_tag(event["activity_type"]), "confirmed")])
+            if event["lead_sponsor"]:
+                st.write(f"**Lead Sponsor:** {event['lead_sponsor']}")
+            if event["capital_provider"]:
+                st.write(f"**Capital Provider:** {event['capital_provider']}")
+            if event["lender"]:
+                st.write(f"**Lender:** {event['lender']}")
+            if event["jv_partner"]:
+                st.write(f"**JV Partner:** {event['jv_partner']}")
+            st.write(f"**Related Market:** {event['market']}")
+            st.write(f"**Related Article:** {event['event_title']}")
+            if freshness:
+                st.caption(f"Freshness: {freshness}")
+            if event["source"]:
+                if event["url"]:
+                    st.markdown(f"**Source:** [{event['source']}]({event['url']})")
+                else:
+                    st.write(f"**Source:** {event['source']}")
+            if event["url"]:
+                st.markdown(f"[원문 기사 보기]({event['url']})")
+
+
+def representative_evidence_source(shared):
+    """Prefer already freshness-penalized collector outputs over the full article pool."""
+    for key in ["high_priority_articles", "strategy_briefing", "market_signals"]:
+        frame = shared.get(key, pd.DataFrame())
+        if frame is not None and not frame.empty:
+            current = filter_current_freshness(frame.copy(), include_historical=False)
+            if not current.empty:
+                return current
+    articles = shared.get("articles", pd.DataFrame())
+    if articles is None or articles.empty:
+        return pd.DataFrame()
+    return filter_current_freshness(articles.copy(), include_historical=False)
+
+
+def select_representative_evidence(shared, limit=5):
+    """Select only freshness-penalized evidence outputs, with diversity caps."""
+    candidates = representative_evidence_source(shared)
+    if candidates is None or candidates.empty:
+        return []
+    candidates = candidates.copy()
+    candidates["_evidence_score"] = 0.0
+    for column, weight in [
+        ("representative_evidence_score", 1.0),
+        ("strategic_relevance_score", 1.0),
+        ("relevance_score", 1.0),
+        ("signal_strength_score", 0.7),
+    ]:
+        if column in candidates.columns:
+            candidates["_evidence_score"] += pd.to_numeric(candidates[column], errors="coerce").fillna(0) * weight
+    if "action_level" in candidates.columns:
+        candidates["_evidence_score"] += candidates["action_level"].astype(str).map({
+            "Must Read": 20,
+            "Review": 10,
+            "Monitor": 2,
+        }).fillna(0)
+    candidates["_evidence_score"] += candidates.apply(lambda row: article_freshness_bonus(row.to_dict()), axis=1)
+    candidates = candidates[~candidates.apply(lambda row: is_old_or_background(row.to_dict()), axis=1)]
+    if "article_integrity_status" in candidates.columns:
+        candidates = candidates[
+            ~candidates["article_integrity_status"].astype(str).str.lower().isin(
+                {"suspicious_mismatch", "url_title_mismatch", "suspicious_duplicate"}
+            )
+        ]
+    if candidates.empty:
+        return []
+
+    selected = []
+    used_sources = set()
+    used_markets = set()
+    used_sponsors = set()
+    used_titles = set()
+    used_urls = set()
+    used_narratives = set()
+
+    for _, row in candidates.sort_values("_evidence_score", ascending=False).iterrows():
+        item = row.to_dict()
+        title_key = normalized_headline(get_title(item))
+        url_key = str(get_url(item)).strip().lower()
+        narrative_key = re.sub(
+            r"[^a-z0-9]+",
+            " ",
+            str(item.get("market_signal", item.get("gpt_strategic_analysis", ""))).lower(),
+        ).strip()[:140]
+        source = str(item.get("source", "")).strip()
+        market = str(item.get("market_focus", item.get("market", ""))).strip()
+        sponsor = str(item.get("gp_or_developer", item.get("canonical_gp_name", ""))).strip()
+
+        if not title_key or title_key in used_titles or (url_key and url_key in used_urls):
+            continue
+        diversity_penalty = sum([
+            source in used_sources and bool(source),
+            market in used_markets and bool(market),
+            sponsor in used_sponsors and bool(sponsor),
+            narrative_key in used_narratives and bool(narrative_key),
+        ])
+        if diversity_penalty >= 2 and len(selected) < 3:
+            continue
+
+        selected.append(item)
+        used_titles.add(title_key)
+        if url_key:
+            used_urls.add(url_key)
+        if narrative_key:
+            used_narratives.add(narrative_key)
+        if source:
+            used_sources.add(source)
+        if market:
+            used_markets.add(market)
+        if sponsor:
+            used_sponsors.add(sponsor)
+        if len(selected) >= limit:
+            break
+    return selected
+
+
+def render_representative_evidence(shared):
+    """Main proof layer: use selected evidence outputs and show freshness clearly."""
+    render_section_header("Representative Evidence", "Freshness-penalized briefing evidence selected for source / market / sponsor diversity.")
+    evidence_rows = select_representative_evidence(shared, limit=5)
+    if not evidence_rows:
+        st.caption("No current representative article evidence is available yet.")
+        close_section()
+        return
+
+    for row in evidence_rows:
+        title = safe_text(row.get("title") or row.get("headline"), "Untitled article")
+        source = safe_text(row.get("source"), "Unknown source")
+        market = safe_text(row.get("market_focus") or row.get("market"), "Unknown market")
+        relevance = one_line_strategic_relevance(row)
+        url = safe_text(row.get("url") or row.get("original_url"), "")
+        freshness = display_freshness_note(row)
+        st.markdown(
+            f"""
+            <div class="pilot-card">
+                <div class="signal-title">{escape(title)}</div>
+                <div class="pilot-muted">{escape(source)} · {escape(market)} · {escape(freshness)}</div>
+                <div class="small-divider"></div>
+                <div>{escape(relevance)}</div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        if url.startswith("http"):
+            st.markdown(f"[원문 기사 보기]({url})")
+    close_section()
 
 
 if __name__ == "__main__":

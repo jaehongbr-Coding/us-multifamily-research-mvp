@@ -1284,6 +1284,18 @@ SITE_PARCEL_ACTIVITY_KEYWORDS = [
     "development parcel",
     "multifamily development site",
     "mixed-use development site",
+    "acquired land",
+    "acquired site",
+    "purchased land",
+    "purchased site",
+    "bought site",
+    "vacant land",
+    "parcel acquired",
+    "entitled site",
+    "to build",
+    "plans to build",
+    "proposed on site",
+    "build-to-rent site",
 ]
 
 REFINANCING_TIMING_KEYWORDS = [
@@ -17911,6 +17923,63 @@ PRIMARY_EXCLUDED_FINANCE_TERMS = [
     "capital markets transaction", "lender announcement",
 ]
 
+SITE_PARCEL_STRONG_TERMS = [
+    "land acquisition", "site acquisition", "parcel acquisition",
+    "acquired land", "acquired site", "purchased land", "purchased site",
+    "bought land", "bought site", "development site", "vacant land",
+    "parcel acquired", "assemblage", "land assemblage", "entitled site",
+    "proposed on site", "build-to-rent site", "planned multifamily site",
+    "proposed multifamily site", "development parcel", "multifamily development site",
+    "mixed-use development site",
+]
+
+SITE_PARCEL_TO_BUILD_TERMS = [
+    "to build", "plans to build", "planned to build", "proposes to build",
+    "seeks to build", "will build",
+]
+
+OPERATING_ASSET_TRANSACTION_TERMS = [
+    "sold", "sale", "sells", "acquired", "acquisition", "trades",
+    "apartment complex sold", "multifamily sale", "property sale",
+    "portfolio sale", "buyer", "seller", "price per unit",
+    "loan assumed", "mortgage assumed",
+]
+
+OPERATING_ASSET_TERMS = [
+    "apartment complex", "apartment community", "apartment building",
+    "multifamily community", "multifamily property", "apartments",
+    "units", "unit community", "rentals",
+]
+
+
+def has_operating_asset_transaction_signal(lower_text, lower_headline):
+    """Detect completed/operating asset transactions that should not route to Site / Parcel."""
+    blob = f"{lower_headline} {lower_text}"
+    matched_transaction = any(term in blob for term in OPERATING_ASSET_TRANSACTION_TERMS)
+    matched_asset = any(term in blob for term in OPERATING_ASSET_TERMS)
+    sale_combo = (
+        any(term in blob for term in ["sold", "sells", "sale", "trades", "buyer", "seller"])
+        and any(term in blob for term in ["price", "per unit", "$", "million", "loan assumed", "mortgage assumed"])
+    )
+    completed_asset_combo = (
+        any(term in blob for term in ["apartment complex", "units", "multifamily community", "apartment community"])
+        and any(term in blob for term in ["sold", "sells", "buyer", "seller", "price", "per unit"])
+    )
+    return matched_transaction and (matched_asset or sale_combo or completed_asset_combo)
+
+
+def site_parcel_positive_signal(lower_text, lower_headline):
+    """Return the strongest site/parcel signal term when the article implies development entry."""
+    blob = f"{lower_headline} {lower_text}"
+    for term in SITE_PARCEL_STRONG_TERMS:
+        if term in blob:
+            return term
+    if any(term in blob for term in SITE_PARCEL_TO_BUILD_TERMS) and any(
+        term in blob for term in ["community", "project", "rental", "apartments", "homes", "units", "development"]
+    ):
+        return "to build development project"
+    return ""
+
 
 def classify_primary_development_category(text, headline=""):
     """Assign one Recent Development Activity bucket and a short reason."""
@@ -17918,8 +17987,9 @@ def classify_primary_development_category(text, headline=""):
     lower_headline = (headline or "").lower()
     matched_construction = next((term for term in PRIMARY_CONSTRUCTION_TERMS if term in lower_text), "")
     matched_approval = next((term for term in PRIMARY_APPROVAL_TERMS if term in lower_text), "")
-    matched_site = next((term for term in SITE_PARCEL_ACTIVITY_KEYWORDS if term in lower_text), "")
+    matched_site = site_parcel_positive_signal(lower_text, lower_headline)
     matched_finance = next((term for term in PRIMARY_EXCLUDED_FINANCE_TERMS if term in lower_text), "")
+    transaction_override = has_operating_asset_transaction_signal(lower_text, lower_headline)
     disposition_only = any(term in lower_text for term in ["disposition", "sale of operating asset"])
     operating_asset_acquisition = (
         any(term in lower_headline for term in ["apartment building", "apartment community", "multifamily property"])
@@ -17928,12 +17998,18 @@ def classify_primary_development_category(text, headline=""):
     )
     if matched_construction:
         return "construction_delivery_watch", f"matched {matched_construction}"
+    if transaction_override and not matched_site:
+        return "excluded", "transaction override: operating asset sale/acquisition"
     if matched_approval:
         return "approval_watch", f"matched {matched_approval}"
     if operating_asset_acquisition:
-        return "excluded", "excluded operating-asset acquisition"
+        return "excluded", "transaction override: operating-asset acquisition"
+    if transaction_override and matched_site and matched_site in {"to build development project"}:
+        return "site_parcel_activity", f"site acquisition signal: {matched_site}"
+    if transaction_override:
+        return "excluded", "transaction override: completed asset transaction"
     if matched_site:
-        return "site_parcel_activity", f"matched {matched_site}"
+        return "site_parcel_activity", f"site acquisition signal: {matched_site}"
     if matched_finance:
         return "excluded", f"excluded financing-only article: {matched_finance}"
     if disposition_only:
@@ -22690,7 +22766,8 @@ def count_site_parcel_candidates(articles):
             str(article.get("matched_keywords", "")),
             str(article.get("reason_for_inclusion", "")),
         ]).lower()
-        if any(keyword in combined_text for keyword in SITE_PARCEL_ACTIVITY_KEYWORDS):
+        category, _ = classify_primary_development_category(combined_text, article.get("title", ""))
+        if category == "site_parcel_activity":
             candidate_count += 1
     return candidate_count
 

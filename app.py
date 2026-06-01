@@ -8770,19 +8770,64 @@ def classify_primary_development_category(row):
     if upstream_category in PRIMARY_DEVELOPMENT_CATEGORY_MAP:
         return PRIMARY_DEVELOPMENT_CATEGORY_MAP[upstream_category]
     blob = text_blob(row)
+    headline = str(row.get("title") or row.get("source_article_title") or row.get("evidence_article_title") or "").lower()
+    operating_transaction_terms = [
+        "sold", "sale", "sells", "acquired", "acquisition", "trades",
+        "apartment complex sold", "multifamily sale", "property sale",
+        "portfolio sale", "buyer", "seller", "price per unit",
+        "loan assumed", "mortgage assumed", "apartment deals",
+        "buying properties", "investors buying", "investment strategy",
+    ]
+    operating_asset_terms = [
+        "apartment complex", "apartment community", "apartment building",
+        "multifamily community", "multifamily property", "apartments",
+        "units", "rentals",
+    ]
+    strong_site_terms = [
+        "land acquisition", "site acquisition", "parcel acquisition",
+        "acquired land", "acquired site", "purchased land", "purchased site",
+        "bought land", "bought site", "development site", "vacant land",
+        "parcel acquired", "assemblage", "land assemblage", "entitled site",
+        "proposed on site", "build-to-rent site", "planned multifamily site",
+        "proposed multifamily site", "development parcel", "multifamily development site",
+        "mixed-use development site",
+    ]
+    to_build_signal = (
+        any(term in blob for term in ["to build", "plans to build", "proposes to build", "seeks to build", "will build"])
+        and any(term in blob for term in ["community", "project", "rental", "apartments", "homes", "units", "development"])
+    )
+    strong_site_hit = any(term in blob for term in strong_site_terms) or to_build_signal
+    transaction_override = (
+        any(term in blob for term in operating_transaction_terms)
+        and (
+            any(term in blob for term in operating_asset_terms)
+            or (
+                any(term in blob for term in ["sold", "sells", "sale", "trades", "buyer", "seller"])
+                and any(term in blob for term in ["price", "per unit", "$", "million"])
+            )
+            or any(term in blob for term in ["apartment deals", "buying properties", "investors buying"])
+        )
+    )
+    transaction_topic = str(row.get("primary_topic", "") or "").strip().lower() in {
+        "transaction_market", "capital_markets", "institutional_capital", "gp_activity"
+    }
     if has_any_term(blob, DEVELOPMENT_EXCLUSION_TERMS["refinancing"]):
         return ""
     has_execution = has_any_term(blob, DEVELOPMENT_CATEGORY_TERMS["construction"])
     has_approval = has_any_term(blob, DEVELOPMENT_CATEGORY_TERMS["approval"])
-    has_site = has_any_term(blob, DEVELOPMENT_CATEGORY_TERMS["site"])
+    has_site = strong_site_hit or has_any_term(blob, DEVELOPMENT_CATEGORY_TERMS["site"])
     financing_only = has_any_term(blob, DEVELOPMENT_EXCLUSION_TERMS["construction_financing"]) and not has_execution
     if financing_only:
         return ""
     # Priority routing: execution milestone > approval precedent > site entry.
     if has_execution:
         return "construction"
+    if (transaction_override or transaction_topic) and not strong_site_hit:
+        return ""
     if has_approval:
         return "approval"
+    if transaction_override and not to_build_signal:
+        return ""
     if has_site and not has_any_term(blob, DEVELOPMENT_EXCLUSION_TERMS["non_site_acquisition"]):
         return "site"
     return ""

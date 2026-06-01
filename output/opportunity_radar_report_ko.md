@@ -1,6 +1,6 @@
 # 한국어 기회 레이더 리포트
 
-- 생성 시각: 2026-06-01 01:21:39
+- 생성 시각: 2026-06-01 02:03:08
 - 참고 원문 파일: `opportunity_radar_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -10,7 +10,7 @@
 - LA / California Entitlement Opportunity: California, 아파트, 점수 87 (Immediate Opportunity Watch; Add to executive opportunity review)
 - Refinancing Gap: Florida, 멀티패밀리, 점수 85 (Immediate Opportunity Watch; Add to executive opportunity review)
 - GP Capability Partnership Opportunity: Sun Belt, 아파트, 점수 84 (Immediate Opportunity Watch; Add to executive opportunity review)
-- Acquisition Opportunity: Arizona, 아파트, 점수 82 (Immediate Opportunity Watch; Add to executive opportunity review)
+- Acquisition Opportunity: Arizona, 아파트, 점수 83 (Immediate Opportunity Watch; Add to executive opportunity review)
 - Construction Financing Gap: California, 아파트, 점수 72 (Strategic Opportunity Watch; Track debt stack, maturity, lender, and recapitalization details)
 - Construction Financing Gap: Los Angeles, 어포더블 하우징, 점수 72 (Strategic Opportunity Watch; Track debt stack, maturity, lender, and recapitalization details)
 - Office-to-Residential Conversion Opportunity: New York, 오피스-주거 전환, 점수 71 (Strategic Opportunity Watch; Monitor for repeated signals)

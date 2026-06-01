@@ -1,6 +1,6 @@
 # US Multifamily Weekly Strategy Memo
 
-Generated: 2026-06-01 01:21:39
+Generated: 2026-06-01 02:03:08
 
 - Total articles reviewed: 75
 - High-priority article count: 36
@@ -143,17 +143,16 @@ Use that report to see which institutional, GP, brokerage, public-agency, and re
 
 ## Key Themes This Week
 
-- Developer Strategy: 26 article(s). Top example: JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virginia.
-- Financing Risk: 14 article(s). Top example: Affinius Capital Led Joint Venture Closes $3.5B Acquisition of Veris Residential.
-- Institutional Flow: 13 article(s). Top example: Affinius Capital Led Joint Venture Closes $3.5B Acquisition of Veris Residential.
-- Regulation Risk: 5 article(s). Top example: Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in West Hollywood.
+- Developer Strategy: 26 article(s). Top example: Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing.
+- Financing Risk: 14 article(s). Top example: JBG SMITH Commences Office-to-Residential Conversion in National Landing.
+- Institutional Flow: 13 article(s). Top example: PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties.
+- Regulation Risk: 5 article(s). Top example: Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica.
 - Rent Growth / Demand: 4 article(s). Top example: Colorado Coalition for the Homeless Converting Downtown Denver YMCA Space to Multifamily Affordable Housing Apartments.
-- Supply Pressure: 3 article(s). Top example: Empire Group Starts Work on $170M Phoenix Apartment Tower.
+- Supply Pressure: 3 article(s). Top example: Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing.
 
 ## Financing & Capital Markets
 
-- Affinius Capital Led Joint Venture Closes $3.5B Acquisition of Veris Residential (Yield PRO, Core Multifamily News, score 77, Review): Monitor financing conditions because the article includes acquisition, financing, joint venture and $3.5b, $3.5 billion, $300 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://yieldpro.com/2026/05/102-fleet-in-brooklyn/)
-- IPA Arranges $27M Acquisition Loan for Apartment Community in D.C’s NoMa District (REBusiness Online, Site / Parcel Source Expansion, score 98, Must Read): Monitor financing conditions because the article includes acquisition, apartment, apartments and $27m, $27 million, $1,700, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/ipa-arranges-27m-acquisition-loan-for-apartment-community-in-d-cs-noma-district/)
+- JBG SMITH Commences Office-to-Residential Conversion in National Landing (Connect CRE Apartments, Site / Parcel Source Expansion, score 100, Must Read): Monitor financing conditions because the article includes apartment, apartments, construction and no specific number, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/jbg-smith-commences-office-to-residential-conversion-in-national-landing/)
 - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in West Hollywood (Urbanize LA, Regional / California / LA Sources, score 100, Must Read): Monitor financing conditions because the article includes affordable housing, apartment, apartments and $48, 115 apartments, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://la.urbanize.city/post/developer-scores-construction-loan-mixed-use-project-8025-santa-monica-blvd-west-hollywood)
 - Benefit Street Partners Provides $82M Refi for Sarasota County Multifamily (Commercial Observer, Core Multifamily News, score 87, Must Read): Monitor financing conditions because the article includes berkadia, debt, loan and $82m, $82.1 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://commercialobserver.com/2026/05/benefit-street-partners-82m-refi-sarasota-county-multifamily/)
 - PNC Bank Refis West Village Apartment Building With $404M Loan (Commercial Observer, Core Multifamily News, score 100, Must Read): Monitor financing conditions because the article includes agency debt, apartment, debt and $404m, $404 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://commercialobserver.com/2026/05/pnc-bank-rockrose-west-village-apartment-building/)
@@ -162,11 +161,12 @@ Use that report to see which institutional, GP, brokerage, public-agency, and re
 - Dwight Mortgage Trust Lends $55M on Rockland County, N.Y., Multifamily Development (Commercial Observer, Core Multifamily News, score 92, Must Read): Monitor financing conditions because the article includes construction, developer, development and $55m, $55 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://commercialobserver.com/2026/05/dwight-mortgage-trust-rockland-county-apartments/)
 - Merchants Capital Provides $99M in Financing for Indiana Workforce Housing (Connect CRE Apartments, Site / Parcel Source Expansion, score 100, Must Read): Monitor financing conditions because the article includes apartment, apartments, construction and $99m, $99 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/merchants-capital-provides-99m-in-financing-for-indiana-workforce-housing/)
 - Speaker Spotlight: Adam Greene of RXR (Commercial Observer, Core Multifamily News, score 75, Review): Monitor financing conditions because the article includes conversion, development, multifamily and no specific number, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://commercialobserver.com/2026/05/speaker-spotlight-adam-greene-of-rxr/)
+- Affinius Capital Led Joint Venture Closes $3.5B Acquisition of Veris Residential (Yield PRO, Core Multifamily News, score 77, Review): Monitor financing conditions because the article includes acquisition, financing, joint venture and $3.5b, $3.5 billion, $300 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://yieldpro.com/2026/05/102-fleet-in-brooklyn/)
 
 ## Supply / Demand Signals
 
-- IPA Arranges $27M Acquisition Loan for Apartment Community in D.C’s NoMa District (REBusiness Online, Site / Parcel Source Expansion, score 98, Must Read): Monitor financing conditions because the article includes acquisition, apartment, apartments and $27m, $27 million, $1,700, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/ipa-arranges-27m-acquisition-loan-for-apartment-community-in-d-cs-noma-district/)
-- JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virginia (Yield PRO, Core Multifamily News, score 83, Review): Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in National. [Link](https://yieldpro.com/2026/05/crystal-drive/)
+- Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing (Connect CRE Apartments, Site / Parcel Source Expansion, score 100, Must Read): Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in Los Angeles. [Link](https://www.connectcre.com/stories/logos-faith-st-rest-break-ground-on-138-unit-affordable-housing/)
+- Aventon to Build 270-Unit Port Richey Rental Community (Connect CRE Apartments, Site / Parcel Source Expansion, score 73, Review): Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Florida. [Link](https://www.connectcre.com/stories/aventon-to-build-270-unit-port-richey-rental-community/)
 - Avison Young Negotiates $19.1M Sale of Apartment Building in Wethersfield, Connecticut (REBusiness Online, Site / Parcel Source Expansion, score 92, Must Read): Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in Other / Unknown. [Link](https://rebusinessonline.com/avison-young-negotiates-19-1m-sale-of-apartment-building-in-wethersfield-connecticut/)
 - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown (Urbanize LA, Regional / California / LA Sources, score 100, Must Read): Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Los Angeles. [Link](https://la.urbanize.city/post/150-apartments-debut-549-s-harvard-blvd-koreatown)
 - Colorado Coalition for the Homeless Converting Downtown Denver YMCA Space to Multifamily Affordable Housing Apartments (Yield PRO, Core Multifamily News, score 85, Must Read): Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Other / Unknown. [Link](https://yieldpro.com/2026/05/downtown-denver-ymca/)
@@ -174,41 +174,41 @@ Use that report to see which institutional, GP, brokerage, public-agency, and re
 - Empire Group Starts Work on $170M Phoenix Apartment Tower (Connect CRE Phoenix, Site / Parcel Source Expansion, score 100, Must Read): Monitor financing conditions because the article includes apartment, apartments, development and $170m, $131.2 million, $170 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/empire-group-starts-work-on-170m-phoenix-apartment-tower/)
 - Speaker Spotlight: Adam Greene of RXR (Commercial Observer, Core Multifamily News, score 75, Review): Monitor financing conditions because the article includes conversion, development, multifamily and no specific number, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://commercialobserver.com/2026/05/speaker-spotlight-adam-greene-of-rxr/)
 - Lee & Associates’ Report: Industrial and Multifamily Slow, Office Recovers, Retail Demand Holds (REBusiness Online, Site / Parcel Source Expansion, score 75, Review): Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in National. [Link](https://rebusinessonline.com/lee-associates-q1-2026-report-industrial-and-multifamily-slow-office-recovers-retail-demand-holds/)
-- Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing (Connect CRE Apartments, Site / Parcel Source Expansion, score 100, Must Read): Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in Los Angeles. [Link](https://www.connectcre.com/stories/logos-faith-st-rest-break-ground-on-138-unit-affordable-housing/)
+- IPA Arranges $27M Acquisition Loan for Apartment Community in D.C’s NoMa District (REBusiness Online, Site / Parcel Source Expansion, score 98, Must Read): Monitor financing conditions because the article includes acquisition, apartment, apartments and $27m, $27 million, $1,700, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/ipa-arranges-27m-acquisition-loan-for-apartment-community-in-d-cs-noma-district/)
 
 ## Policy & Regulation Watch
 
+- Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica (Urbanize LA, Regional / California / LA Sources, score 100, Must Read): Monitor regulation risk because the article may affect entitlement, zoning, rent rules, affordability requirements, or permitting strategy. [Link](https://la.urbanize.city/post/updated-plan-apartments-1238-lincoln-blvd-santa-monica)
 - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in West Hollywood (Urbanize LA, Regional / California / LA Sources, score 100, Must Read): Monitor financing conditions because the article includes affordable housing, apartment, apartments and $48, 115 apartments, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://la.urbanize.city/post/developer-scores-construction-loan-mixed-use-project-8025-santa-monica-blvd-west-hollywood)
 - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown (Urbanize LA, Regional / California / LA Sources, score 100, Must Read): Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Los Angeles. [Link](https://la.urbanize.city/post/150-apartments-debut-549-s-harvard-blvd-koreatown)
 - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills (Urbanize LA, Regional / California / LA Sources, score 100, Must Read): Monitor regulation risk because the article may affect entitlement, zoning, rent rules, affordability requirements, or permitting strategy. [Link](https://la.urbanize.city/post/infill-housing-slated-349-n-oakhurst-ave-beverly-hills)
-- Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica (Urbanize LA, Regional / California / LA Sources, score 100, Must Read): Monitor regulation risk because the article may affect entitlement, zoning, rent rules, affordability requirements, or permitting strategy. [Link](https://la.urbanize.city/post/updated-plan-apartments-1238-lincoln-blvd-santa-monica)
 - RAND reviews ULA impacts, Mayor's race focuses on housing, and more (Urbanize LA, Regional / California / LA Sources, score 100, Must Read): Monitor financing conditions because the article includes affordable housing, construction, development and 31%, 72%, $6, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://la.urbanize.city/post/rand-reviews-ula-impacts-mayors-race-focuses-housing-and-more)
 
 ## Institutional Flow / Deals
 
-- Affinius Capital Led Joint Venture Closes $3.5B Acquisition of Veris Residential (Yield PRO, Core Multifamily News, score 77, Review): Monitor financing conditions because the article includes acquisition, financing, joint venture and $3.5b, $3.5 billion, $300 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://yieldpro.com/2026/05/102-fleet-in-brooklyn/)
-- PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex (Connect CRE, Core Multifamily News, score 94, Must Read): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://www.connectcre.com/stories/pccp-alliance-residential-snap-up-garden-style-riverside-complex/)
-- IPA Arranges $27M Acquisition Loan for Apartment Community in D.C’s NoMa District (REBusiness Online, Site / Parcel Source Expansion, score 98, Must Read): Monitor financing conditions because the article includes acquisition, apartment, apartments and $27m, $27 million, $1,700, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/ipa-arranges-27m-acquisition-loan-for-apartment-community-in-d-cs-noma-district/)
-- JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virginia (Yield PRO, Core Multifamily News, score 83, Review): Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in National. [Link](https://yieldpro.com/2026/05/crystal-drive/)
-- Wood Partners Sells 278-Unit Alta Rise Multifamily Community in Gilbert, Arizona (REBusiness Online, Site / Parcel Source Expansion, score 100, Must Read): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://rebusinessonline.com/wood-partners-sells-278-unit-alta-rise-multifamily-community-in-gilbert-arizona/)
+- PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties (Connect CRE Orange County, Site / Parcel Source Expansion, score 84, Review): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://www.connectcre.com/stories/pef-advisors-freestone-capital-form-jv-to-recapitalize-affordable-properties/)
+- JBG SMITH Commences Office-to-Residential Conversion in National Landing (Connect CRE Apartments, Site / Parcel Source Expansion, score 100, Must Read): Monitor financing conditions because the article includes apartment, apartments, construction and no specific number, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/jbg-smith-commences-office-to-residential-conversion-in-national-landing/)
 - Metro breaks ground on North Hollywood - Pasadena BRT line (Urbanize LA, Regional / California / LA Sources, score 65, Monitor): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://la.urbanize.city/post/metro-breaks-ground-north-hollywood-pasadena-brt-line)
 - Avison Young Negotiates $19.1M Sale of Apartment Building in Wethersfield, Connecticut (REBusiness Online, Site / Parcel Source Expansion, score 92, Must Read): Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in Other / Unknown. [Link](https://rebusinessonline.com/avison-young-negotiates-19-1m-sale-of-apartment-building-in-wethersfield-connecticut/)
 - Covina Apartments Trade on In-Place Cash Flow, Rental Upside (Connect CRE, Core Multifamily News, score 99, Must Read): Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Los Angeles. [Link](https://www.connectcre.com/stories/covina-apartments-trade-on-in-place-cash-flow-rental-upside/)
 - Carlsbad Lifestyle Center Fetches $91M in Sale to 11North (Connect CRE, Core Multifamily News, score 58, Monitor): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://www.connectcre.com/stories/carlsbad-lifestyle-center-fetches-91m-in-sale-to-11north/)
-- PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties (Connect CRE Orange County, Site / Parcel Source Expansion, score 84, Review): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://www.connectcre.com/stories/pef-advisors-freestone-capital-form-jv-to-recapitalize-affordable-properties/)
+- Affinius Capital Led Joint Venture Closes $3.5B Acquisition of Veris Residential (Yield PRO, Core Multifamily News, score 77, Review): Monitor financing conditions because the article includes acquisition, financing, joint venture and $3.5b, $3.5 billion, $300 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://yieldpro.com/2026/05/102-fleet-in-brooklyn/)
+- PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex (Connect CRE, Core Multifamily News, score 94, Must Read): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://www.connectcre.com/stories/pccp-alliance-residential-snap-up-garden-style-riverside-complex/)
+- IPA Arranges $27M Acquisition Loan for Apartment Community in D.C’s NoMa District (REBusiness Online, Site / Parcel Source Expansion, score 98, Must Read): Monitor financing conditions because the article includes acquisition, apartment, apartments and $27m, $27 million, $1,700, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/ipa-arranges-27m-acquisition-loan-for-apartment-community-in-d-cs-noma-district/)
+- JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virginia (Yield PRO, Core Multifamily News, score 83, Review): Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in National. [Link](https://yieldpro.com/2026/05/crystal-drive/)
 
 ## Developer Strategy / Innovation
 
-- JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virginia (Yield PRO, Core Multifamily News, score 83, Review): Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in National. [Link](https://yieldpro.com/2026/05/crystal-drive/)
+- Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing (Connect CRE Apartments, Site / Parcel Source Expansion, score 100, Must Read): Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in Los Angeles. [Link](https://www.connectcre.com/stories/logos-faith-st-rest-break-ground-on-138-unit-affordable-housing/)
+- JBG SMITH Commences Office-to-Residential Conversion in National Landing (Connect CRE Apartments, Site / Parcel Source Expansion, score 100, Must Read): Monitor financing conditions because the article includes apartment, apartments, construction and no specific number, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/jbg-smith-commences-office-to-residential-conversion-in-national-landing/)
+- Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica (Urbanize LA, Regional / California / LA Sources, score 100, Must Read): Monitor regulation risk because the article may affect entitlement, zoning, rent rules, affordability requirements, or permitting strategy. [Link](https://la.urbanize.city/post/updated-plan-apartments-1238-lincoln-blvd-santa-monica)
+- Aventon to Build 270-Unit Port Richey Rental Community (Connect CRE Apartments, Site / Parcel Source Expansion, score 73, Review): Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Florida. [Link](https://www.connectcre.com/stories/aventon-to-build-270-unit-port-richey-rental-community/)
 - Metro breaks ground on North Hollywood - Pasadena BRT line (Urbanize LA, Regional / California / LA Sources, score 65, Monitor): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://la.urbanize.city/post/metro-breaks-ground-north-hollywood-pasadena-brt-line)
 - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in West Hollywood (Urbanize LA, Regional / California / LA Sources, score 100, Must Read): Monitor financing conditions because the article includes affordable housing, apartment, apartments and $48, 115 apartments, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://la.urbanize.city/post/developer-scores-construction-loan-mixed-use-project-8025-santa-monica-blvd-west-hollywood)
 - Avison Young Negotiates $19.1M Sale of Apartment Building in Wethersfield, Connecticut (REBusiness Online, Site / Parcel Source Expansion, score 92, Must Read): Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in Other / Unknown. [Link](https://rebusinessonline.com/avison-young-negotiates-19-1m-sale-of-apartment-building-in-wethersfield-connecticut/)
 - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown (Urbanize LA, Regional / California / LA Sources, score 100, Must Read): Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Los Angeles. [Link](https://la.urbanize.city/post/150-apartments-debut-549-s-harvard-blvd-koreatown)
 - PNC Bank Refis West Village Apartment Building With $404M Loan (Commercial Observer, Core Multifamily News, score 100, Must Read): Monitor financing conditions because the article includes agency debt, apartment, debt and $404m, $404 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://commercialobserver.com/2026/05/pnc-bank-rockrose-west-village-apartment-building/)
 - CJM Development Completes 168-Unit Utah Multifamily Affordable Housing Community (Yield PRO, Core Multifamily News, score 76, Review): Review for developer strategy because the article may inform site selection, product type, adaptive reuse, build-to-rent, or market entry. [Link](https://yieldpro.com/2026/05/homestead-landing-apartments/)
-- Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills (Urbanize LA, Regional / California / LA Sources, score 100, Must Read): Monitor regulation risk because the article may affect entitlement, zoning, rent rules, affordability requirements, or permitting strategy. [Link](https://la.urbanize.city/post/infill-housing-slated-349-n-oakhurst-ave-beverly-hills)
-- Empire Group Starts Work on $170M Phoenix Apartment Tower (Connect CRE Phoenix, Site / Parcel Source Expansion, score 100, Must Read): Monitor financing conditions because the article includes apartment, apartments, development and $170m, $131.2 million, $170 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/empire-group-starts-work-on-170m-phoenix-apartment-tower/)
-- Dwight Mortgage Trust Lends $55M on Rockland County, N.Y., Multifamily Development (Commercial Observer, Core Multifamily News, score 92, Must Read): Monitor financing conditions because the article includes construction, developer, development and $55m, $55 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://commercialobserver.com/2026/05/dwight-mortgage-trust-rockland-county-apartments/)
 
 ## Implications for Woomi / US Residential Developer Strategy
 
@@ -220,11 +220,11 @@ Use that report to see which institutional, GP, brokerage, public-agency, and re
 
 ## Recommended Follow-up Actions
 
-- Add to weekly strategy memo: Affinius Capital Led Joint Venture Closes $3.5B Acquisition of Veris Residential (Yield PRO)
-- Read full article: PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex (Connect CRE)
-- Read full article: IPA Arranges $27M Acquisition Loan for Apartment Community in D.C’s NoMa District (REBusiness Online)
-- Add to weekly strategy memo: JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virginia (Yield PRO)
-- Read full article: Wood Partners Sells 278-Unit Alta Rise Multifamily Community in Gilbert, Arizona (REBusiness Online)
+- Read full article: Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing (Connect CRE Apartments)
+- Track source for follow-up: PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties (Connect CRE Orange County)
+- Read full article: JBG SMITH Commences Office-to-Residential Conversion in National Landing (Connect CRE Apartments)
+- Read full article: Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica (Urbanize LA)
+- Track source for follow-up: Aventon to Build 270-Unit Port Richey Rental Community (Connect CRE Apartments)
 - Add to weekly strategy memo: Metro breaks ground on North Hollywood - Pasadena BRT line (Urbanize LA)
 - Read full article: Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in West Hollywood (Urbanize LA)
 - Read full article: Avison Young Negotiates $19.1M Sale of Apartment Building in Wethersfield, Connecticut (REBusiness Online)
@@ -248,11 +248,11 @@ Use that report to see which institutional, GP, brokerage, public-agency, and re
 - Track source for follow-up: Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily)
 - Track source for follow-up: Speaker Spotlight: Adam Greene of RXR (Commercial Observer)
 - Track source for follow-up: Lee & Associates’ Report: Industrial and Multifamily Slow, Office Recovers, Retail Demand Holds (REBusiness Online)
-- Read full article: Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing (Connect CRE Apartments)
-- Track source for follow-up: PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties (Connect CRE Orange County)
-- Read full article: JBG SMITH Commences Office-to-Residential Conversion in National Landing (Connect CRE Apartments)
-- Read full article: Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica (Urbanize LA)
-- Track source for follow-up: Aventon to Build 270-Unit Port Richey Rental Community (Connect CRE Apartments)
+- Add to weekly strategy memo: Affinius Capital Led Joint Venture Closes $3.5B Acquisition of Veris Residential (Yield PRO)
+- Read full article: PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex (Connect CRE)
+- Read full article: IPA Arranges $27M Acquisition Loan for Apartment Community in D.C’s NoMa District (REBusiness Online)
+- Add to weekly strategy memo: JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virginia (Yield PRO)
+- Read full article: Wood Partners Sells 278-Unit Alta Rise Multifamily Community in Gilbert, Arizona (REBusiness Online)
 - Add to weekly strategy memo: Scion Group, Ares Management Corp. partner for $910M student housing buy (Multifamily Dive)
 - Read full article: Alta Developers Lands $91.8M Construction Loan for Miami Apartments (Connect CRE South Florida)
 - Read full article: JLL Arranges $252M Financing for Huntington Beach Seniors Project (Connect CRE Orange County)
@@ -264,9 +264,9 @@ Use that report to see which institutional, GP, brokerage, public-agency, and re
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 79
+- Lifecycle records: 80
 - LA lifecycle watch items: 48
-- Stage mix: Delivery / Opening: 7, Unknown Stage: 43, Site Acquisition / Site Control: 14, Refinancing / Recapitalization: 10, Vertical Construction: 4
+- Stage mix: Delivery / Opening: 7, Unknown Stage: 43, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 15, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -274,8 +274,8 @@ Use that report to see which institutional, GP, brokerage, public-agency, and re
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 79
-- Newly detected projects: 0
+- Lifecycle transitions analyzed: 80
+- Newly detected projects: 1
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 46
@@ -286,7 +286,7 @@ Use that report to see which institutional, GP, brokerage, public-agency, and re
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 607
+- Raw project references: 610
 - Canonical projects: 119
 - Duplicate project clusters: 62
 - Persistent assets tracked: 119

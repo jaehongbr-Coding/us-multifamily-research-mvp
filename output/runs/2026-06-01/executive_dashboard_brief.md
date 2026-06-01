@@ -1,6 +1,6 @@
 # Executive Dashboard Brief
 
-Generated: 2026-06-01 01:21:39
+Generated: 2026-06-01 02:03:08
 
 ## Executive Snapshot
 
@@ -13,32 +13,32 @@ Generated: 2026-06-01 01:21:39
 
 ## Top 5 Things to Review Today
 
+- Alliance Residential (Capital Flow, Critical): Track capital flow pattern and related relationships.
 - Arizona (Capital Flow, Critical): Track capital flow pattern and related relationships.
 - Berkadia (Capital Flow, Critical): Track capital flow pattern and related relationships.
-- Berkadia (Capital Flow, Critical): Track capital flow pattern and related relationships.
-- Entitlement / Permitting - California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica (LA Asset Watch, Critical): Review parcel clue, entitlement path, sponsor, and comparable sites.
-- Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills (LA Asset Watch, Critical): Review parcel clue, entitlement path, sponsor, and comparable sites.
+- Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes... (LA Asset Watch, Critical): Review parcel clue, entitlement path, sponsor, and comparable sites.
+- Entitlement / Permitting - Los Angeles - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown (LA Asset Watch, Critical): Review parcel clue, entitlement path, sponsor, and comparable sites.
 
 ## Immediate Watch Items
 
+- Alliance Residential: Stable Action: Track capital flow pattern and related relationships.
 - Arizona: Stable Action: Track capital flow pattern and related relationships.
 - Berkadia: Stable Action: Track capital flow pattern and related relationships.
-- Berkadia: Stable Action: Track capital flow pattern and related relationships.
-- Entitlement / Permitting - California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Monitor entitlement path Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
-- Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Monitor entitlement path Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
+- Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Review acquisition comparables Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
+- Entitlement / Permitting - Los Angeles - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown: Monitor entitlement path Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 
 ## LA / California Watch
 
-- Entitlement / Permitting - California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Monitor entitlement path Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
-- Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Monitor entitlement path Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
-- Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
-- JV / Partnership - California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: 9 source file(s), 10 observation(s), latest stage Delivery / Opening, identity confidence 100 Action: Review immediately.
+- Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Review acquisition comparables Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 - Entitlement / Permitting - Los Angeles - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown: Monitor entitlement path Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
+- Entitlement / Permitting - Los Angeles - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Monitor entitlement path Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
+- General Project Signal - Los Angeles - Affordable housing slated for 1418 S. Mansfield Ave. in Mid-City: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
+- Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Monitor entitlement path Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 
 ## GP / Capital Partner Watch
 
+- Alliance Residential: Stable Action: Track capital flow pattern and related relationships.
 - Arizona: Stable Action: Track capital flow pattern and related relationships.
-- Berkadia: Stable Action: Track capital flow pattern and related relationships.
 - Berkadia: Stable Action: Track capital flow pattern and related relationships.
 - Alliance Residential: Institutional-backed regional expansion Action: Track JV and capital partner activity.
 - Wood Partners: Institutional-backed regional expansion Action: Track JV and capital partner activity.
@@ -53,16 +53,16 @@ Generated: 2026-06-01 01:21:39
 
 ## Development Lifecycle Watch
 
-- Entitlement / Permitting - California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Monitor entitlement path Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
-- Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Monitor entitlement path Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
-- Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
+- Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Review acquisition comparables Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 - Entitlement / Permitting - Los Angeles - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown: Monitor entitlement path Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
+- Entitlement / Permitting - Los Angeles - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Monitor entitlement path Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 - General Project Signal - Los Angeles - Affordable housing slated for 1418 S. Mansfield Ave. in Mid-City: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
+- Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Monitor entitlement path Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 
 ## Capital Flow Watch
 
+- Alliance Residential: Stable Action: Track capital flow pattern and related relationships.
 - Arizona: Stable Action: Track capital flow pattern and related relationships.
-- Berkadia: Stable Action: Track capital flow pattern and related relationships.
 - Berkadia: Stable Action: Track capital flow pattern and related relationships.
 
 ## Source Health Notes

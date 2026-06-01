@@ -1,6 +1,6 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-06-01 01:21:41
+Generated: 2026-06-01 02:03:12
 
 - Total relationship edges: 82
 - Most connected developer / GP: Wood Partners (6 edge(s))
@@ -147,7 +147,7 @@ Longitudinal memory is available in `historical_memory_report.md`.
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 607
+- Raw project references: 610
 - Canonical projects: 119
 - Duplicate project clusters: 62
 - Persistent assets tracked: 119

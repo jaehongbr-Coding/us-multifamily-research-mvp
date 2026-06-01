@@ -1,6 +1,6 @@
 # Pipeline Manifest
 
-Generated: 2026-06-01 01:21:39
+Generated: 2026-06-01 02:03:08
 
 This file is the output index for the single-file MVP. It helps you see what was generated, who should read it, and where each output fits in the research workflow.
 
@@ -49,15 +49,15 @@ This file is the output index for the single-file MVP. It helps you see what was
 | `opportunity_radar.csv` | CSV | Opportunity / Distress | Generated | 50 | Investment Team |
 | `distress_watchlist.csv` | CSV | Opportunity / Distress | Generated | 11 | Investment Team |
 | `deal_pipeline.csv` | CSV | Deal / Asset Intelligence | Generated | 53 | Investment Team |
-| `asset_parcel_intelligence.csv` | CSV | Deal / Asset Intelligence | Generated | 81 | Development Team |
+| `asset_parcel_intelligence.csv` | CSV | Deal / Asset Intelligence | Generated | 82 | Development Team |
 | `la_asset_watch.csv` | CSV | Deal / Asset Intelligence | Generated | 52 | US Local Team |
-| `project_identity.csv` | CSV | Deal / Asset Intelligence | Generated | 607 | Technical / Maintenance |
+| `project_identity.csv` | CSV | Deal / Asset Intelligence | Generated | 610 | Technical / Maintenance |
 | `persistent_asset_memory.csv` | CSV | Historical Memory | Generated | 119 | Development Team |
 | `la_persistent_asset_watch.csv` | CSV | Historical Memory | Generated | 78 | US Local Team |
 | `entitlement_intelligence.csv` | CSV | Entitlement / Lifecycle Intelligence | Generated | 12 | Development Team |
 | `la_entitlement_watch.csv` | CSV | Entitlement / Lifecycle Intelligence | Generated | 9 | US Local Team |
-| `development_lifecycle.csv` | CSV | Entitlement / Lifecycle Intelligence | Generated | 79 | Development Team |
-| `lifecycle_transition.csv` | CSV | Entitlement / Lifecycle Intelligence | Generated | 79 | Development Team |
+| `development_lifecycle.csv` | CSV | Entitlement / Lifecycle Intelligence | Generated | 80 | Development Team |
+| `lifecycle_transition.csv` | CSV | Entitlement / Lifecycle Intelligence | Generated | 80 | Development Team |
 | `timing_intelligence.csv` | CSV | Entitlement / Lifecycle Intelligence | Generated | 44 | Strategy Team |
 | `market_entry_window.csv` | CSV | Strategy Briefing | Generated | 8 | Investment Team |
 | `gp_watchlist.csv` | CSV | GP / Institutional Intelligence | Generated | 6 | Strategy Team |
@@ -73,5 +73,5 @@ This file is the output index for the single-file MVP. It helps you see what was
 | `pipeline_manifest.md` | Markdown | Quality Control | Generated | 3 | Technical / Maintenance |
 | `pipeline_health.csv` | CSV | Quality Control | Generated | 141 | Technical / Maintenance |
 | `pipeline_health_report.md` | Markdown | Quality Control | Generated | 6 | Technical / Maintenance |
-| `error_log.csv` | CSV | Quality Control | Generated | 1430 | Technical / Maintenance |
+| `error_log.csv` | CSV | Quality Control | Generated | 1443 | Technical / Maintenance |
 | `run_summary.md` | Markdown | Quality Control | Generated | 5 | Executive |

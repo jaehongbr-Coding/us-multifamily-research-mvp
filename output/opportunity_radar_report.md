@@ -1,6 +1,6 @@
 # Opportunity Radar Report
 
-Generated: 2026-06-01 01:21:42
+Generated: 2026-06-01 02:03:13
 
 - Total opportunities detected: 50
 
@@ -10,7 +10,7 @@ Generated: 2026-06-01 01:21:42
 - LA / California Entitlement Opportunity in California: Entitlement / Permitting - California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica, score 87. Add to executive opportunity review.
 - Refinancing Gap in Florida: Refinancing - Florida - Benefit Street Partners Provides $82M Refi for Sarasota County Multifamily, score 85. Add to executive opportunity review.
 - GP Capability Partnership Opportunity in Sun Belt: Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M, score 84. Add to executive opportunity review.
-- Acquisition Opportunity in Arizona: Acquisition - Arizona - Wood Partners Sells 278-Unit Alta Rise Multifamily Community in Gilbert, Arizona, score 82. Add to executive opportunity review.
+- Acquisition Opportunity in Arizona: Acquisition - Arizona - Wood Partners Sells 278-Unit Alta Rise Multifamily Community in Gilbert, Arizona, score 83. Add to executive opportunity review.
 - Construction Financing Gap in California: Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily, score 72. Track debt stack, maturity, lender, and recapitalization details.
 - Construction Financing Gap in Los Angeles: Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes..., score 72. Track debt stack, maturity, lender, and recapitalization details.
 - Office-to-Residential Conversion Opportunity in New York: Office-to-Residential Conversion - New York - Speaker Spotlight: Adam Greene of RXR, score 71. Monitor for repeated signals.
@@ -32,7 +32,7 @@ Generated: 2026-06-01 01:21:42
 
 ## Acquisition / Recapitalization Opportunities
 
-- Acquisition Opportunity in Arizona: Acquisition - Arizona - Wood Partners Sells 278-Unit Alta Rise Multifamily Community in Gilbert, Arizona, score 82. Add to executive opportunity review.
+- Acquisition Opportunity in Arizona: Acquisition - Arizona - Wood Partners Sells 278-Unit Alta Rise Multifamily Community in Gilbert, Arizona, score 83. Add to executive opportunity review.
 - Recapitalization Opportunity in California: Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties, score 66. Monitor for repeated signals.
 - Acquisition Opportunity in Sun Belt: Acquisition - Sun Belt - El-Ad Pays $45.5M for Coconut Grove Property, score 62. Research owner, basis, pricing, and transaction history.
 - Acquisition Opportunity in New York: JV / Partnership - New York - IPA Arranges $27M Acquisition Loan for Apartment Community in D.C’s NoMa District, score 60. Research owner, basis, pricing, and transaction history.
@@ -111,9 +111,9 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 79
+- Lifecycle records: 80
 - LA lifecycle watch items: 48
-- Stage mix: Delivery / Opening: 7, Unknown Stage: 43, Site Acquisition / Site Control: 14, Refinancing / Recapitalization: 10, Vertical Construction: 4
+- Stage mix: Delivery / Opening: 7, Unknown Stage: 43, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 15, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -121,8 +121,8 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 79
-- Newly detected projects: 0
+- Lifecycle transitions analyzed: 80
+- Newly detected projects: 1
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 46
@@ -133,7 +133,7 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 607
+- Raw project references: 610
 - Canonical projects: 119
 - Duplicate project clusters: 62
 - Persistent assets tracked: 119

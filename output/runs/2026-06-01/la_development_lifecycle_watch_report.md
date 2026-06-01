@@ -1,6 +1,6 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-06-01 01:21:44
+Generated: 2026-06-01 02:03:15
 
 - Total LA lifecycle watch items: 48
 
@@ -47,26 +47,26 @@ Generated: 2026-06-01 01:21:44
 
 ## Construction-Ready LA Project Watch
 
+- JV / Partnership - Los Angeles - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing: Vertical Construction, Monitor only, opportunity 84.
 - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing: Vertical Construction, Monitor only, opportunity 83.
-- JV / Partnership - Los Angeles - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing: Vertical Construction, Monitor only, opportunity 79.
 
 ## Recommended LA Lifecycle Follow-up Actions
 
 - Monitor lifecycle status for repeated confirmation: JV / Partnership - California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex.
 - Monitor lifecycle status for repeated confirmation: Entitlement / Permitting - California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica.
-- Monitor lifecycle status for repeated confirmation: Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M.
-- Monitor lifecycle status for repeated confirmation: Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica.
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes....
+- Monitor lifecycle status for repeated confirmation: Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - New York - PNC Bank Refis West Village Apartment Building With $404M Loan.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments.
+- Track construction progress and delivery timeline: JV / Partnership - Los Angeles - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing.
 - Track construction progress and delivery timeline: Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing.
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in West Hollywood.
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 79
-- Newly detected projects: 0
+- Lifecycle transitions analyzed: 80
+- Newly detected projects: 1
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 46
@@ -77,7 +77,7 @@ Generated: 2026-06-01 01:21:44
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 607
+- Raw project references: 610
 - Canonical projects: 119
 - Duplicate project clusters: 62
 - Persistent assets tracked: 119

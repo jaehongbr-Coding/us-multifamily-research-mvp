@@ -1,6 +1,6 @@
 # Run Summary
 
-Generated: 2026-06-01 01:21:39
+Generated: 2026-06-01 02:03:08
 
 ## Quick Counts
 
@@ -21,7 +21,7 @@ Generated: 2026-06-01 01:21:39
 
 ## Top Dashboard Signal
 
-- Arizona (Capital Flow)
+- Alliance Residential (Capital Flow)
 
 ## Suggested Next Action
 

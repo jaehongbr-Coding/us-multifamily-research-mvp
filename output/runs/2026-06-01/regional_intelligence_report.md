@@ -1,6 +1,6 @@
 # Regional Intelligence Report
 
-Generated: 2026-06-01 01:21:41
+Generated: 2026-06-01 02:03:12
 
 ## Top 5 Markets By Relevance
 

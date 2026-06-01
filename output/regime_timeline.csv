@@ -1,7 +1,7 @@
 ﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
-20260601-012139-c701e5e3,2026-06-01,Construction financing still selective,Persistent,stable,20,12,20,5.55,3.75,4,4,4,1,Los Angeles,Moderate Signal,steady visibility,
-20260601-012139-c701e5e3,2026-06-01,Institutional recap over expansion,Persistent,stable,20,12,20,2.75,2.5,3,3,3,0,California,Moderate Signal,steady visibility,
-20260601-012139-c701e5e3,2026-06-01,JV / partnership activity observed,Persistent,stable,20,12,20,5.95,3.5,9,9,7,0,Los Angeles,Broadly Confirmed,steady visibility,
-20260601-012139-c701e5e3,2026-06-01,LA entitlement precedent accumulation,Persistent,stable,20,12,20,10.05,3.3,9,9,4,0,Los Angeles,Moderate Signal,steady visibility,
-20260601-012139-c701e5e3,2026-06-01,Refinancing pressure unresolved,Persistent,stable,20,12,20,5.4,3.95,5,5,4,2,Florida,Broadly Confirmed,steady visibility,
-20260601-012139-c701e5e3,2026-06-01,Sun Belt lease-up pressure watch,Persistent,stable,20,12,20,2.75,2.45,4,4,3,0,National,Moderate Signal,steady visibility,
+20260601-020308-c84a5578,2026-06-01,Construction financing still selective,Persistent,stable,21,13,21,5.48,3.71,4,4,4,1,Los Angeles,Moderate Signal,steady visibility,
+20260601-020308-c84a5578,2026-06-01,Institutional recap over expansion,Persistent,stable,21,13,21,2.76,2.52,3,3,3,0,California,Moderate Signal,steady visibility,
+20260601-020308-c84a5578,2026-06-01,JV / partnership activity observed,Persistent,stable,21,13,21,6.1,3.52,9,9,7,0,Los Angeles,Broadly Confirmed,steady visibility,
+20260601-020308-c84a5578,2026-06-01,LA entitlement precedent accumulation,Persistent,stable,21,13,21,10.0,3.29,9,9,4,0,Los Angeles,Moderate Signal,steady visibility,
+20260601-020308-c84a5578,2026-06-01,Refinancing pressure unresolved,Persistent,stable,21,13,21,5.38,3.95,5,5,4,2,Florida,Broadly Confirmed,steady visibility,
+20260601-020308-c84a5578,2026-06-01,Sun Belt lease-up pressure watch,Persistent,stable,21,13,21,2.81,2.48,4,4,3,0,National,Moderate Signal,steady visibility,

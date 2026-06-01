@@ -396,7 +396,7 @@ def get_reason(row):
 
 def get_url(row):
     """Find original URL if available."""
-    return get_first(row, ["url", "source_url_if_available"], "")
+    return get_first(row, ["original_url", "url", "source_url_if_available"], "")
 
 
 def text_blob(row):
@@ -14125,6 +14125,182 @@ def render_capital_network_map(shared, filters=None):
         use_container_width=True,
         hide_index=True,
     )
+
+
+ARTICLE_IDENTITY_STOPWORDS = {
+    "the", "and", "for", "with", "from", "into", "near", "over", "under",
+    "apartments", "apartment", "multifamily", "housing", "community", "project",
+    "development", "residential", "units", "unit", "new", "latest", "planned",
+}
+
+
+def app_identity_tokens(value):
+    text = normalized_headline(value)
+    return {
+        token for token in text.split()
+        if len(token) >= 4 and token not in ARTICLE_IDENTITY_STOPWORDS and not token.isdigit()
+    }
+
+
+def app_url_slug_text(url):
+    text = str(url or "").split("#", 1)[0].split("?", 1)[0].rstrip("/")
+    if not text:
+        return ""
+    slug = text.rsplit("/", 1)[-1]
+    return slug.replace("-", " ").replace("_", " ")
+
+
+def app_title_url_mismatch(title, url):
+    title_tokens = app_identity_tokens(title)
+    slug_tokens = app_identity_tokens(app_url_slug_text(url))
+    if len(title_tokens) < 2 or len(slug_tokens) < 2:
+        return False
+    return len(title_tokens & slug_tokens) == 0
+
+
+def article_identity_lookup_from_shared(shared):
+    articles = shared.get("articles", pd.DataFrame())
+    lookup = {}
+    if articles is None or articles.empty or "canonical_article_id" not in articles.columns:
+        return lookup
+    for _, row in articles.iterrows():
+        item = row.to_dict()
+        canonical_id = str(item.get("canonical_article_id", "") or "").strip()
+        if canonical_id and canonical_id not in lookup:
+            lookup[canonical_id] = item
+    return lookup
+
+
+def apply_canonical_article_identity(df, shared):
+    """Lock development display fields to the source article for matching canonical ids."""
+    if df is None or df.empty or "canonical_article_id" not in df.columns:
+        return df
+    lookup = article_identity_lookup_from_shared(shared)
+    if not lookup:
+        return df
+    rows = []
+    for _, row in df.iterrows():
+        item = row.to_dict()
+        canonical_id = str(item.get("canonical_article_id", "") or "").strip()
+        article = lookup.get(canonical_id)
+        if article:
+            title = get_first(article, ["title", "source_article_title"], item.get("source_article_title") or item.get("title", ""))
+            url = get_url(article) or get_url(item)
+            item["title"] = title
+            item["source_article_title"] = title
+            item["evidence_article_title"] = title
+            item["original_url"] = url
+            item["url"] = url
+            item["source"] = get_first(article, ["source"], item.get("source", ""))
+            item["published"] = get_first(article, ["published", "published_date_normalized"], item.get("published", ""))
+            item["summary"] = get_first(article, ["summary", "article_text_sample"], item.get("summary", ""))
+            for field in [
+                "article_integrity_status", "article_integrity_reason", "access_status",
+                "published_date_normalized", "collected_date_normalized", "article_age_days",
+                "freshness_bucket", "freshness_status", "freshness_reason", "freshness_score",
+            ]:
+                if article.get(field):
+                    item[field] = article.get(field)
+        title_for_check = item.get("source_article_title") or item.get("title", "")
+        url_for_check = get_url(item)
+        if title_for_check and url_for_check and app_title_url_mismatch(title_for_check, url_for_check):
+            item["article_integrity_status"] = "suspicious_mismatch"
+            reason = item.get("article_integrity_reason", "")
+            mismatch_reason = "display title and original_url slug appear to reference different articles"
+            item["article_integrity_reason"] = f"{reason}; {mismatch_reason}".strip("; ")
+        rows.append(item)
+    return pd.DataFrame(rows)
+
+
+def is_development_integrity_visible(row):
+    status = str(row.get("article_integrity_status", "") or "").strip().lower()
+    return status not in {"suspicious_mismatch", "url_title_mismatch", "suspicious_duplicate"}
+
+
+def development_monitor_universe(shared):
+    """Current-facing development universe with canonical article identity locking."""
+    frames = []
+    for key in ["development_lifecycle", "entitlement_intelligence", "la_entitlement", "asset_parcel_intelligence", "la_assets", "timing_intelligence", "articles"]:
+        frame = shared.get(key, pd.DataFrame())
+        if frame is not None and not frame.empty:
+            frames.append(frame.copy())
+    if not frames:
+        return pd.DataFrame()
+    combined = pd.concat(frames, ignore_index=True, sort=False)
+    combined = apply_canonical_article_identity(combined, shared)
+    combined = filter_current_freshness(combined, include_historical=False)
+    if combined.empty:
+        return combined
+    combined = combined[combined.apply(lambda row: is_development_integrity_visible(row.to_dict()), axis=1)]
+    if combined.empty:
+        return combined
+    combined["_dev_blob"] = combined.apply(lambda row: text_blob(row.to_dict()), axis=1)
+    combined["_dev_title"] = combined.apply(lambda row: development_article_title(row.to_dict()), axis=1)
+    combined["_normalized_dev_title"] = combined["_dev_title"].apply(normalize_development_title)
+    combined["_dev_key"] = combined.apply(
+        lambda row: str(get_url(row.to_dict()) or row["_dev_title"]).strip().lower(),
+        axis=1,
+    )
+    combined = combined.drop_duplicates("_dev_key", keep="first")
+    combined["_primary_development_category"] = combined.apply(
+        lambda row: classify_primary_development_category(row.to_dict()),
+        axis=1,
+    )
+    category_priority = {"construction": 0, "approval": 1, "site": 2, "": 3}
+    combined["_category_priority"] = combined["_primary_development_category"].map(category_priority).fillna(3)
+    access_penalty = combined.apply(
+        lambda row: 1 if str(row.get("access_status", "")).lower() in {"limited_or_paywall", "paywall_or_limited", "multi_article_page"} else 0,
+        axis=1,
+    )
+    combined["_access_penalty"] = access_penalty
+    write_development_routing_diagnostics(combined)
+    sort_cols = ["_category_priority", "_access_penalty"]
+    if "_freshness_rank" in combined.columns:
+        sort_cols.append("_freshness_rank")
+    combined = combined.sort_values(sort_cols)
+    combined = combined.drop_duplicates("_normalized_dev_title", keep="first")
+    return combined
+
+
+def verified_development_url(row):
+    """Return a URL only when the title/link identity is not suspicious."""
+    title = row.get("source_article_title") or row.get("title") or ""
+    url = get_url(row)
+    status = str(row.get("article_integrity_status", "") or "").strip().lower()
+    if not url or status in {"suspicious_mismatch", "url_title_mismatch", "suspicious_duplicate"}:
+        return ""
+    if app_title_url_mismatch(title, url):
+        return ""
+    return url
+
+
+def render_development_pipeline_card(row, category):
+    item = row.to_dict() if hasattr(row, "to_dict") else row
+    title = development_article_title(item)
+    sponsor = get_gp(item) or get_first(item, ["owner_or_sponsor"], "Sponsor 미확인")
+    stage = get_lifecycle_stage(item) or get_first(item, ["entitlement_stage", "execution_stage", "construction_status"], "단계 미확인")
+    category_reason = get_first(item, ["primary_category_reason"], "")
+    freshness = display_freshness_note(item)
+    published = get_first(item, ["published", "published_date_normalized"], "")
+    source = development_source_label(item)
+    headline = f"{title} | {development_market_label(item)} · {source} · {stage} · {freshness}"
+    access_status = str(item.get("access_status", "") or "").strip().lower()
+    with st.expander(headline, expanded=False):
+        if sponsor:
+            st.caption(f"GP / sponsor: {sponsor}")
+        st.caption(f"Source: {source} · Published: {published or 'date 미확인'} · Freshness: {freshness}")
+        if access_status in {"limited_or_paywall", "paywall_or_limited", "multi_article_page"}:
+            st.caption("본문 접근 제한 가능")
+        st.write(f"**Why it matters:** {get_reason(item)}")
+        st.write(f"**Woomi angle:** {development_woomi_angle(item, category)}")
+        st.write(f"**Lifecycle stage:** {stage}")
+        if category_reason:
+            st.write(f"**Category reason:** {category_reason}")
+        url = verified_development_url(item)
+        if isinstance(url, str) and url.startswith("http"):
+            st.markdown(f"[Read original article]({url})")
+        else:
+            st.caption("링크 검증 필요")
 
 
 if __name__ == "__main__":

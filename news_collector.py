@@ -2556,6 +2556,91 @@ def apply_article_integrity_checks(articles):
     return articles
 
 
+ARTICLE_SLUG_STOPWORDS = {
+    "the", "and", "for", "with", "from", "into", "near", "over", "under",
+    "apartments", "apartment", "multifamily", "housing", "community", "project",
+    "development", "residential", "units", "unit", "new", "latest", "planned",
+}
+
+
+def meaningful_article_tokens(value):
+    """Return meaningful tokens for conservative title/link integrity checks."""
+    tokens = normalize_article_title_for_history(value).split()
+    return {
+        token for token in tokens
+        if len(token) >= 4 and token not in ARTICLE_SLUG_STOPWORDS and not token.isdigit()
+    }
+
+
+def url_slug_text(value):
+    """Extract URL path slug text without query parameters."""
+    url = normalize_article_url(value)
+    if not url:
+        return ""
+    path = re.sub(r"^https?://[^/]+/?", "", url)
+    path = path.rsplit("/", 1)[-1] if "/" in path else path
+    return path.replace("-", " ").replace("_", " ")
+
+
+def title_url_slug_mismatch(title, url):
+    """Detect obvious title/link mismatches without penalizing sparse URLs."""
+    title_tokens = meaningful_article_tokens(title)
+    slug_tokens = meaningful_article_tokens(url_slug_text(url))
+    if len(title_tokens) < 2 or len(slug_tokens) < 2:
+        return False
+    overlap = title_tokens & slug_tokens
+    return len(overlap) == 0
+
+
+def make_article_identity_lookup(articles):
+    """Map canonical ids to immutable source article identity fields."""
+    lookup = {}
+    for article in articles or []:
+        canonical_id = article.get("canonical_article_id") or make_canonical_article_id(article)
+        if not canonical_id:
+            continue
+        lookup[canonical_id] = article
+    return lookup
+
+
+def locked_identity_from_lookup(row, article_lookup):
+    """Return source article identity fields locked by canonical_article_id."""
+    canonical_id = row.get("canonical_article_id", "")
+    article = article_lookup.get(canonical_id, {}) if canonical_id else {}
+    identity = article if article else row
+    title = identity.get("title") or identity.get("source_article_title") or row.get("source_article_title") or row.get("title", "")
+    url = identity.get("original_url") or identity.get("url") or row.get("original_url") or row.get("url", "")
+    integrity_status = identity.get("article_integrity_status") or row.get("article_integrity_status", "")
+    integrity_reason = identity.get("article_integrity_reason") or row.get("article_integrity_reason", "")
+    if title_url_slug_mismatch(title, url):
+        integrity_status = "suspicious_mismatch"
+        reason = "title and original_url slug appear to reference different articles"
+        integrity_reason = f"{integrity_reason}; {reason}".strip("; ")
+    access_status = identity.get("access_status") or row.get("access_status", "")
+    if access_status == "paywall_or_limited":
+        access_status = "limited_or_paywall"
+    return {
+        "canonical_article_id": canonical_id or identity.get("canonical_article_id", ""),
+        "title": title,
+        "source_article_title": title,
+        "source": identity.get("source") or row.get("source", ""),
+        "original_url": url,
+        "url": url,
+        "published": identity.get("published") or row.get("published", ""),
+        "summary": identity.get("summary") or identity.get("article_text_sample") or row.get("summary", ""),
+        "article_integrity_status": integrity_status,
+        "article_integrity_reason": integrity_reason,
+        "access_status": access_status,
+        "published_date_normalized": identity.get("published_date_normalized") or row.get("published_date_normalized", ""),
+        "collected_date_normalized": identity.get("collected_date_normalized") or row.get("collected_date_normalized", ""),
+        "article_age_days": identity.get("article_age_days") or row.get("article_age_days", ""),
+        "freshness_bucket": identity.get("freshness_bucket") or row.get("freshness_bucket", ""),
+        "freshness_status": identity.get("freshness_status") or row.get("freshness_status", ""),
+        "freshness_reason": identity.get("freshness_reason") or row.get("freshness_reason", ""),
+        "freshness_score": identity.get("freshness_score") or row.get("freshness_score", ""),
+    }
+
+
 def calculate_article_richness_score(article):
     """Score how much concrete evidence an article carries."""
     text = normalize_keyword_text(" ".join([
@@ -17964,6 +18049,7 @@ def build_asset_parcel_intelligence_rows(run_timestamp, articles, deal_rows, fin
     rows = []
     seen = set()
     source_rows = []
+    article_lookup = make_article_identity_lookup(articles)
     for article in articles:
         source_rows.append(("article", article))
     for deal in deal_rows:
@@ -17978,6 +18064,7 @@ def build_asset_parcel_intelligence_rows(run_timestamp, articles, deal_rows, fin
         source_rows.append(("distress", distress))
 
     for source_type, row in source_rows:
+        identity = locked_identity_from_lookup(row, article_lookup)
         text = extract_asset_text(row)
         address = extract_first_match(ASSET_ADDRESS_PATTERN, text)
         intersection = extract_first_match(ASSET_INTERSECTION_PATTERN, text)
@@ -18003,9 +18090,9 @@ def build_asset_parcel_intelligence_rows(run_timestamp, articles, deal_rows, fin
         )
         market = row.get("market") or row.get("market_focus") or "Other / Unknown"
         asset_score, risk_score = get_asset_scores(row, text, address, site_control, execution_stage, strategy_signal, graph_rows, opportunity_rows, distress_rows)
-        freshness_bucket = row.get("freshness_bucket") or "unknown_date"
-        freshness_status = row.get("freshness_status") or "unknown_date_review"
-        freshness_reason = row.get("freshness_reason") or "derived row did not carry source published date"
+        freshness_bucket = identity.get("freshness_bucket") or "unknown_date"
+        freshness_status = identity.get("freshness_status") or "unknown_date_review"
+        freshness_reason = identity.get("freshness_reason") or "derived row did not carry source published date"
         if freshness_bucket == "old_31d_plus":
             asset_score = max(0, asset_score - 55)
             risk_score = max(0, risk_score - 55)
@@ -18023,19 +18110,24 @@ def build_asset_parcel_intelligence_rows(run_timestamp, articles, deal_rows, fin
         confidence_evidence = len([value for value in [address, intersection, site_size, row.get("unit_count"), gp_name if gp_name != "Unknown" else "", project_name if project_name != "Unknown Asset / Project" else ""] if value])
         rows.append({
             "asset_signal_id": f"AST-{run_timestamp.strftime('%Y%m%d')}-{len(rows) + 1:03d}",
-            "canonical_article_id": row.get("canonical_article_id", ""),
-            "article_integrity_status": row.get("article_integrity_status", ""),
+            "canonical_article_id": identity.get("canonical_article_id", ""),
+            "title": identity.get("title", ""),
+            "original_url": identity.get("original_url", ""),
+            "published": identity.get("published", ""),
+            "summary": identity.get("summary", ""),
+            "article_integrity_status": identity.get("article_integrity_status", ""),
+            "article_integrity_reason": identity.get("article_integrity_reason", ""),
             "primary_display_section": row.get("primary_display_section", ""),
             "secondary_display_sections": row.get("secondary_display_sections", ""),
             "repeat_exposure_status": row.get("repeat_exposure_status", ""),
-            "published_date_normalized": row.get("published_date_normalized", ""),
-            "collected_date_normalized": row.get("collected_date_normalized", ""),
-            "article_age_days": row.get("article_age_days", ""),
+            "published_date_normalized": identity.get("published_date_normalized", ""),
+            "collected_date_normalized": identity.get("collected_date_normalized", ""),
+            "article_age_days": identity.get("article_age_days", ""),
             "freshness_bucket": freshness_bucket,
             "freshness_status": freshness_status,
             "freshness_reason": freshness_reason,
-            "freshness_score": row.get("freshness_score", ""),
-            "access_status": row.get("access_status", ""),
+            "freshness_score": identity.get("freshness_score", ""),
+            "access_status": identity.get("access_status", ""),
             "canonical_asset_or_project_name": project_name,
             "raw_project_or_property_name": row.get("project_or_deal_name") or row.get("related_project_or_deal") or row.get("source_article_title") or row.get("title", ""),
             "address_or_location_clue": address or neighborhood or market,
@@ -18065,9 +18157,9 @@ def build_asset_parcel_intelligence_rows(run_timestamp, articles, deal_rows, fin
             "asset_risk_score": risk_score,
             "woomi_asset_relevance": relevance,
             "recommended_asset_follow_up": get_asset_follow_up(strategy_signal, relevance),
-            "evidence_article_title": row.get("source_article_title") or row.get("title", ""),
-            "source": row.get("source", ""),
-            "url": row.get("url", ""),
+            "evidence_article_title": identity.get("source_article_title", ""),
+            "source": identity.get("source", ""),
+            "url": identity.get("url", ""),
             "confidence_level": get_confidence_label(max(asset_score, risk_score), confidence_evidence),
         })
     rows.sort(key=lambda item: (-safe_int(item["asset_opportunity_score"]), -safe_int(item["asset_risk_score"]), item["canonical_asset_or_project_name"]))
@@ -18077,7 +18169,8 @@ def build_asset_parcel_intelligence_rows(run_timestamp, articles, deal_rows, fin
 def generate_asset_parcel_intelligence_outputs(asset_rows, dated_output_dir):
     """Write asset_parcel_intelligence.csv and Markdown report."""
     fieldnames = [
-        "asset_signal_id", "canonical_article_id", "article_integrity_status",
+        "asset_signal_id", "canonical_article_id", "title", "original_url",
+        "published", "summary", "article_integrity_status", "article_integrity_reason",
         "primary_display_section", "secondary_display_sections", "repeat_exposure_status",
         "published_date_normalized", "collected_date_normalized", "article_age_days",
         "freshness_bucket", "freshness_status", "freshness_reason",
@@ -18510,7 +18603,12 @@ def build_development_lifecycle_rows(run_timestamp, asset_rows, entitlement_rows
         rows.append({
             "lifecycle_id": f"LC-{run_timestamp.strftime('%Y%m%d')}-{len(rows) + 1:03d}",
             "canonical_article_id": asset.get("canonical_article_id", ""),
+            "title": asset.get("title") or asset.get("evidence_article_title", ""),
+            "original_url": asset.get("original_url") or asset.get("url", ""),
+            "published": asset.get("published", ""),
+            "summary": asset.get("summary", ""),
             "article_integrity_status": asset.get("article_integrity_status", ""),
+            "article_integrity_reason": asset.get("article_integrity_reason", ""),
             "primary_display_section": asset.get("primary_display_section", ""),
             "secondary_display_sections": asset.get("secondary_display_sections", ""),
             "repeat_exposure_status": asset.get("repeat_exposure_status", ""),
@@ -18543,9 +18641,9 @@ def build_development_lifecycle_rows(run_timestamp, asset_rows, entitlement_rows
             "woomi_lifecycle_relevance": relevance,
             "recommended_lifecycle_follow_up": get_lifecycle_follow_up(stage, relevance),
             "evidence_signals": "; ".join(evidence[:6]),
-            "source_article_title": asset.get("evidence_article_title", ""),
+            "source_article_title": asset.get("title") or asset.get("evidence_article_title", ""),
             "source": asset.get("source", ""),
-            "url": url,
+            "url": asset.get("original_url") or url,
             "confidence_level": get_confidence_label(max(opportunity_score, risk_score), len(evidence)),
         })
     rows.sort(key=lambda item: (-safe_int(item["lifecycle_opportunity_score"]), -safe_int(item["lifecycle_risk_score"]), item["canonical_asset_or_project_name"]))
@@ -18555,7 +18653,8 @@ def build_development_lifecycle_rows(run_timestamp, asset_rows, entitlement_rows
 def generate_development_lifecycle_outputs(lifecycle_rows, dated_output_dir):
     """Write development_lifecycle.csv and Markdown report."""
     fieldnames = [
-        "lifecycle_id", "canonical_article_id", "article_integrity_status",
+        "lifecycle_id", "canonical_article_id", "title", "original_url",
+        "published", "summary", "article_integrity_status", "article_integrity_reason",
         "primary_display_section", "secondary_display_sections", "repeat_exposure_status",
         "published_date_normalized", "collected_date_normalized", "article_age_days",
         "freshness_bucket", "freshness_status", "freshness_reason",

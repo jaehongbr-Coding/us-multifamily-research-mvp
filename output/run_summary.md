@@ -1,11 +1,11 @@
 # Run Summary
 
-Generated: 2026-06-01 00:35:55
+Generated: 2026-06-01 01:21:39
 
 ## Quick Counts
 
 - Total articles saved: 75
-- High-confidence signals: 19
+- High-confidence signals: 18
 - Opportunities: 50
 - Distress signals: 11
 - LA asset watch items: 52

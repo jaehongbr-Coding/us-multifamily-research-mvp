@@ -1,6 +1,6 @@
 # Distress Watchlist Report
 
-Generated: 2026-06-01 00:35:59
+Generated: 2026-06-01 01:21:42
 
 - Total distress signals: 11
 
@@ -74,9 +74,9 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 80
+- Lifecycle records: 79
 - LA lifecycle watch items: 48
-- Stage mix: Delivery / Opening: 7, Unknown Stage: 43, Site Acquisition / Site Control: 15, Refinancing / Recapitalization: 10, Vertical Construction: 4
+- Stage mix: Delivery / Opening: 7, Unknown Stage: 43, Site Acquisition / Site Control: 14, Refinancing / Recapitalization: 10, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -84,7 +84,7 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 80
+- Lifecycle transitions analyzed: 79
 - Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
@@ -96,7 +96,7 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 610
+- Raw project references: 607
 - Canonical projects: 119
 - Duplicate project clusters: 62
 - Persistent assets tracked: 119
@@ -110,8 +110,8 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 - Signals evaluated: 119
 - Institutional-grade signals: 12
-- High-confidence signals: 19
+- High-confidence signals: 18
 - Weak/noisy signals: 90
-- High-confidence watchlist items: 19
+- High-confidence watchlist items: 18
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

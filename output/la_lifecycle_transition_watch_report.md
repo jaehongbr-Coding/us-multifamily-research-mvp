@@ -1,6 +1,6 @@
 # LA Lifecycle Transition Watch Report
 
-Generated: 2026-06-01 00:36:01
+Generated: 2026-06-01 01:21:44
 
 - Total LA lifecycle transition watch items: 46
 
@@ -49,7 +49,7 @@ Generated: 2026-06-01 00:36:01
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 610
+- Raw project references: 607
 - Canonical projects: 119
 - Duplicate project clusters: 62
 - Persistent assets tracked: 119

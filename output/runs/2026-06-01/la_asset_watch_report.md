@@ -1,6 +1,6 @@
 # LA / Southern California Asset Watch Report
 
-Generated: 2026-06-01 00:36:00
+Generated: 2026-06-01 01:21:43
 
 - Total LA / Southern California asset watch items: 52
 
@@ -80,9 +80,9 @@ Generated: 2026-06-01 00:36:00
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 80
+- Lifecycle records: 79
 - LA lifecycle watch items: 48
-- Stage mix: Delivery / Opening: 7, Unknown Stage: 43, Site Acquisition / Site Control: 15, Refinancing / Recapitalization: 10, Vertical Construction: 4
+- Stage mix: Delivery / Opening: 7, Unknown Stage: 43, Site Acquisition / Site Control: 14, Refinancing / Recapitalization: 10, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -90,7 +90,7 @@ Generated: 2026-06-01 00:36:00
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 80
+- Lifecycle transitions analyzed: 79
 - Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
@@ -102,7 +102,7 @@ Generated: 2026-06-01 00:36:00
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 610
+- Raw project references: 607
 - Canonical projects: 119
 - Duplicate project clusters: 62
 - Persistent assets tracked: 119

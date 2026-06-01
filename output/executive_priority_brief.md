@@ -1,6 +1,6 @@
 # Executive Priority Brief
 
-Generated: 2026-06-01 00:35:58
+Generated: 2026-06-01 01:21:41
 
 ## Top 3 Executive Priorities
 
@@ -15,8 +15,8 @@ Generated: 2026-06-01 00:35:58
 | 1 | Financing Stress | 100 | Tier 1 Executive Attention | Finance / Treasury; Investment Team; Executive Committee; US Local Team | This Week |
 | 2 | Selective Capital Re-entry | 100 | Tier 1 Executive Attention | Investment Team; Strategy Team; Executive Committee; US Local Team | This Week |
 | 3 | Developer Strategy Shift | 98 | Tier 2 Strategic Review | Strategy Team; Development Team; US Local Team | This Week |
-| 4 | Policy / Entitlement Watch | 95 | Tier 2 Strategic Review | Development Team; US Local Team; Strategy Team | This Week |
-| 5 | Supply Pressure | 85 | Tier 3 Monitoring | Investment Team; Development Team; US Local Team | This Week |
+| 4 | Supply Pressure | 98 | Tier 2 Strategic Review | Investment Team; Development Team; US Local Team | This Week |
+| 5 | Policy / Entitlement Watch | 95 | Tier 3 Monitoring | Development Team; US Local Team; Strategy Team | This Week |
 | 6 | Construction Cost Pressure | 26 | Tier 3 Monitoring | Development Team; Investment Team; US Local Team | Background Tracking |
 
 ## Tier 1 Executive Attention
@@ -27,11 +27,11 @@ Generated: 2026-06-01 00:35:58
 ## Tier 2 Strategic Review
 
 - Rank 3: Developer Strategy Shift (98). Developer strategy signals should be reviewed because they may reveal capability needs in product, operations, partnerships, or delivery model. Owner: Strategy Team; Development Team; US Local Team. Timing: This Week.
-- Rank 4: Policy / Entitlement Watch (95). Policy and entitlement signals should be monitored because they may affect approvals, zoning strategy, and local development feasibility. Owner: Development Team; US Local Team; Strategy Team. Timing: This Week.
+- Rank 4: Supply Pressure (98). Supply and lease-up signals should be monitored because they may affect rent growth, vacancy, and development timing. Owner: Investment Team; Development Team; US Local Team. Timing: This Week.
 
 ## Monitoring Items
 
-- Rank 5: Supply Pressure (85). Supply and lease-up signals should be monitored because they may affect rent growth, vacancy, and development timing. Owner: Investment Team; Development Team; US Local Team. Timing: This Week.
+- Rank 5: Policy / Entitlement Watch (95). Policy and entitlement signals should be monitored because they may affect approvals, zoning strategy, and local development feasibility. Owner: Development Team; US Local Team; Strategy Team. Timing: This Week.
 - Rank 6: Construction Cost Pressure (26). Construction cost signals should be reviewed because they may affect feasibility, contingencies, and value engineering. Owner: Development Team; Investment Team; US Local Team. Timing: Background Tracking.
 
 ## Scenario Context
@@ -115,16 +115,16 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 - Review financing assumptions and debt sensitivity for the US residential development pipeline.
 - Track institutional capital activity, pricing discovery, and potential GP or capital partner signals.
+- Review supply pressure, lease-up, vacancy, concession, and rent-growth assumptions in relevant multifamily markets.
 - Discuss developer capability priorities across BTR, modular construction, operations technology, and amenity strategy.
-- Review LA / California entitlement, zoning, and permitting changes that may affect market-entry strategy.
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 80
+- Lifecycle records: 79
 - LA lifecycle watch items: 48
-- Stage mix: Delivery / Opening: 7, Unknown Stage: 43, Site Acquisition / Site Control: 15, Refinancing / Recapitalization: 10, Vertical Construction: 4
+- Stage mix: Delivery / Opening: 7, Unknown Stage: 43, Site Acquisition / Site Control: 14, Refinancing / Recapitalization: 10, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -132,7 +132,7 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 80
+- Lifecycle transitions analyzed: 79
 - Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
@@ -144,7 +144,7 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 610
+- Raw project references: 607
 - Canonical projects: 119
 - Duplicate project clusters: 62
 - Persistent assets tracked: 119
@@ -158,9 +158,9 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 - Signals evaluated: 119
 - Institutional-grade signals: 12
-- High-confidence signals: 19
+- High-confidence signals: 18
 - Weak/noisy signals: 90
-- High-confidence watchlist items: 19
+- High-confidence watchlist items: 18
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 
 

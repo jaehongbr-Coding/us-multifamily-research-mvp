@@ -1,6 +1,6 @@
 # Deal & Project Pipeline Report
 
-Generated: 2026-06-01 00:35:58
+Generated: 2026-06-01 01:21:41
 
 - Total deal/project signals found: 53
 - High deal intelligence count: 6

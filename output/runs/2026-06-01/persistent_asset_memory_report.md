@@ -1,6 +1,6 @@
 # Persistent Asset Memory Report
 
-Generated: 2026-06-01 00:36:01
+Generated: 2026-06-01 01:21:44
 
 - Total persistent assets tracked: 119
 - Newly detected assets: 96
@@ -29,7 +29,7 @@ Generated: 2026-06-01 00:36:01
 - Modular / Construction Innovation - Los Angeles - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: Priority Asset Watch, Site Acquisition / Site Control, score 81.
 - Audubon Unveils Palmer Club Apartments Breathing New Life into Former Fairway View Apartments with Multi-Million Dollar Renovation: Priority Asset Watch, Unknown Stage, score 81.
 - Modular / Construction Innovation - Los Angeles - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: Priority Asset Watch, Unknown Stage, score 75.
-- Disposition / Exit - Other / Unknown - Colorado Coalition for the Homeless Converting Downtown Denver YMCA Space to Multifamily A...: Strategic Asset Watch, Delivery / Opening, score 71.
+- Disposition / Exit - Other / Unknown - Colorado Coalition for the Homeless Converting Downtown Denver YMCA Space to Multifamily A...: Strategic Asset Watch, Delivery / Opening, score 70.
 - Refinancing - Florida - Benefit Street Partners Provides $82M Refi for Sarasota County Multifamily: Strategic Asset Watch, Delivery / Opening, score 70.
 - General Project Signal - Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: Strategic Asset Watch, Site Acquisition / Site Control, score 68.
 
@@ -40,7 +40,7 @@ Generated: 2026-06-01 00:36:01
 - Audubon Unveils Palmer Club Apartments Breathing New Life into Former Fairway View Apartments with Multi-Million Dollar Renovation: Priority Asset Watch, Unknown Stage, score 81.
 - Modular / Construction Innovation - Los Angeles - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: Priority Asset Watch, Unknown Stage, score 75.
 - Entitlement / Permitting - California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Strategic Asset Watch, Unknown Stage, score 74.
-- Disposition / Exit - Other / Unknown - Colorado Coalition for the Homeless Converting Downtown Denver YMCA Space to Multifamily A...: Strategic Asset Watch, Delivery / Opening, score 71.
+- Disposition / Exit - Other / Unknown - Colorado Coalition for the Homeless Converting Downtown Denver YMCA Space to Multifamily A...: Strategic Asset Watch, Delivery / Opening, score 70.
 - Disposition / Exit - Other / Unknown - Colorado Coalition for the Homeless Converting Downtown Denver YMCA Space to Multifamily A...: Strategic Asset Watch, Refinancing / Recapitalization, score 62.
 - Entitlement / Permitting - Los Angeles - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Strategic Asset Watch, Unknown Stage, score 58.
 - Entitlement / Permitting - California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Strategic Asset Watch, Unknown Stage, score 58.
@@ -81,8 +81,8 @@ Generated: 2026-06-01 00:36:01
 
 - Signals evaluated: 119
 - Institutional-grade signals: 12
-- High-confidence signals: 19
+- High-confidence signals: 18
 - Weak/noisy signals: 90
-- High-confidence watchlist items: 19
+- High-confidence watchlist items: 18
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

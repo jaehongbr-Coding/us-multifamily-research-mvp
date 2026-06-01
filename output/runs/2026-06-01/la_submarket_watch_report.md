@@ -1,6 +1,6 @@
 # LA / Southern California Submarket Watch Report
 
-Generated: 2026-06-01 00:35:59
+Generated: 2026-06-01 01:21:42
 
 - Total LA / Southern California submarkets detected: 13
 
@@ -13,7 +13,7 @@ Generated: 2026-06-01 00:35:59
 - Koreatown: opportunity 71, risk 40, Koreatown multifamily watch.
 - Riverside: opportunity 71, risk 30, Inland Empire BTR / rental housing watch.
 - Santa Ana: opportunity 65, risk 57, Orange County suburban apartment watch.
-- Pasadena: opportunity 56, risk 30, Hollywood / transit-oriented housing watch.
+- Pasadena: opportunity 57, risk 30, Hollywood / transit-oriented housing watch.
 - South LA: opportunity 56, risk 30, Monitor only.
 - California: opportunity 24, risk 20, Monitor only.
 
@@ -29,12 +29,12 @@ Generated: 2026-06-01 00:35:59
 
 - Hollywood: opportunity 95, risk 57, Hollywood / transit-oriented housing watch.
 - West Hollywood: opportunity 72, risk 57, Hollywood / transit-oriented housing watch.
-- Pasadena: opportunity 56, risk 30, Hollywood / transit-oriented housing watch.
+- Pasadena: opportunity 57, risk 30, Hollywood / transit-oriented housing watch.
 - Burbank: opportunity 12, risk 30, Hollywood / transit-oriented housing watch.
 
 ## Pasadena / Entitlement Precedent Watch
 
-- Pasadena: opportunity 56, risk 30, Hollywood / transit-oriented housing watch.
+- Pasadena: opportunity 57, risk 30, Hollywood / transit-oriented housing watch.
 
 ## Long Beach / Mixed-Use Watch
 
@@ -81,8 +81,8 @@ Asset / parcel-level site clues are available in `asset_parcel_intelligence_repo
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 80
+- Lifecycle records: 79
 - LA lifecycle watch items: 48
-- Stage mix: Delivery / Opening: 7, Unknown Stage: 43, Site Acquisition / Site Control: 15, Refinancing / Recapitalization: 10, Vertical Construction: 4
+- Stage mix: Delivery / Opening: 7, Unknown Stage: 43, Site Acquisition / Site Control: 14, Refinancing / Recapitalization: 10, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

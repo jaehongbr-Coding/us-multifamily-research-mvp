@@ -1,11 +1,11 @@
 # Executive Dashboard Brief
 
-Generated: 2026-06-01 00:35:55
+Generated: 2026-06-01 01:21:39
 
 ## Executive Snapshot
 
 - Total articles reviewed: 75
-- High-confidence signals: 19
+- High-confidence signals: 18
 - Institutional-grade signals: 12
 - Opportunities: 50
 - Distress signals: 11

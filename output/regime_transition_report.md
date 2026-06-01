@@ -1,26 +1,26 @@
 # Regime Transition Report
 
-Generated: 2026-06-01 00:36:01
+Generated: 2026-06-01 01:21:44
 
 ## Summary
 
 - Current primary regime: Developer Strategy Shift
 - Previous primary regime: Developer Strategy Shift
 - Regime changed: No
-- Consecutive runs in current regime: 5
+- Consecutive runs in current regime: 6
 - Confidence direction: stable
-- Market signals direction: decreasing
+- Market signals direction: stable
 - Transition label: Persistent Regime
 
 ## Recent Regime History
 
 | Run Timestamp | Primary Regime | Secondary Regime | Confidence | Market Signals | Top Strategic Angle | Top Market Focus | Top Market Signal |
 | --- | --- | --- | --- | ---: | --- | --- | --- |
-| 2026-05-28 23:01:55 | Developer Strategy Shift | Financing Stress | High | 32 | Developer Strategy | Sun Belt | Rent Growth Signal |
 | 2026-05-29 23:01:38 | Developer Strategy Shift | Selective Capital Re-entry | High | 32 | Developer Strategy | Other / Unknown | Rent Growth Signal |
 | 2026-05-30 23:02:08 | Developer Strategy Shift | Financing Stress | High | 33 | Developer Strategy | Other / Unknown | Rent Growth Signal |
 | 2026-05-31 23:01:56 | Developer Strategy Shift | Financing Stress | High | 31 | Developer Strategy | Sun Belt | Rent Growth Signal |
 | 2026-06-01 00:35:55 | Developer Strategy Shift | Selective Capital Re-entry | High | 22 | Developer Strategy | Los Angeles | Rent Growth Signal |
+| 2026-06-01 01:21:39 | Developer Strategy Shift | Selective Capital Re-entry | High | 22 | Developer Strategy | Los Angeles | Rent Growth Signal |
 
 ## Historical Persistence Summary
 
@@ -31,4 +31,4 @@ Recurring relationship tracking is available in `relationship_persistence_report
 ## Strategy Interpretation
 
 - Developer Strategy Shift persistence may indicate changes in product strategy, partnerships, adaptive reuse, or delivery models.
-- Market-signal volume is decreasing, so this run may contain fewer quantified market signals.
+- Market-signal volume is stable compared with the previous run.

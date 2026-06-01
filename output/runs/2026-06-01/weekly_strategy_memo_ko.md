@@ -1,6 +1,6 @@
 # 한국어 주간 전략 메모
 
-- 생성 시각: 2026-06-01 00:35:55
+- 생성 시각: 2026-06-01 01:21:39
 - 참고 원문 파일: `weekly_strategy_memo.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -14,8 +14,8 @@
 - Financing Stress: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention)
 - Selective Capital Re-entry: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention)
 - Developer Strategy Shift: 기타 / 미확인, 아파트, 점수 98 (Tier 2 Strategic Review)
-- Policy / Entitlement Watch: 기타 / 미확인, 아파트, 점수 95 (Tier 2 Strategic Review)
-- Supply Pressure: 기타 / 미확인, 아파트, 점수 85 (Tier 3 Monitoring)
+- Supply Pressure: 기타 / 미확인, 아파트, 점수 98 (Tier 2 Strategic Review)
+- Policy / Entitlement Watch: 기타 / 미확인, 아파트, 점수 95 (Tier 3 Monitoring)
 
 ## 자본시장 / GP 동향
 

@@ -1,6 +1,6 @@
 # Narrative Regime Detection
 
-Generated: 2026-06-01 00:35:58
+Generated: 2026-06-01 01:21:41
 
 ## Detected Regime
 
@@ -73,8 +73,8 @@ Regime momentum is available in `regime_momentum_report.md` when previous heatma
 - Los Angeles: 9
 - Other / Unknown: 7
 - Sun Belt: 7
-- California: 5
 - New York: 5
+- California: 5
 - National: 3
 
 ### Action Levels

@@ -1,10 +1,10 @@
 # Strategic Signal Quality Report
 
-Generated: 2026-06-01 00:36:01
+Generated: 2026-06-01 01:21:44
 
 - Total signals evaluated: 119
 - Institutional-grade signals: 12
-- High-confidence signals: 19
+- High-confidence signals: 18
 - Weak/noisy signals: 90
 
 ## Strongest Recurring Signals

@@ -1,6 +1,6 @@
 # Strategy Scenario Report
 
-Generated: 2026-06-01 00:35:58
+Generated: 2026-06-01 01:21:41
 
 ## Scenario Overview
 
@@ -34,7 +34,7 @@ This report converts the current executive priorities into Base, Bull, and Bear 
 - Implication for Woomi: Woomi should slow aggressive expansion assumptions, protect downside, and use the period to build local intelligence and partner optionality.
 - Recommended strategy response: Underwriting: defensive, with tighter debt, cap-rate, rent-growth, and absorption assumptions; Capital partners: watch for capital pullback and distressed pricing signals; LA / California: avoid policy-complex deals unless entitlement upside is clear; GP / developer partnerships: favor partners with balance-sheet strength and local operating depth; Development timing: delay marginal starts and prioritize downside-protected pipeline decisions; Cost focus: raise contingency, procurement, and value engineering scrutiny.
 - Key risks to monitor: Higher debt costs, widening exit cap assumptions, falling transaction liquidity, elevated concessions, and delayed lease-up.
-- Trigger events to watch: Financing Stress momentum Stable turning Accelerating, Supply Pressure momentum Fading turning Accelerating, or Selective Capital Re-entry momentum Stable turning Fading.
+- Trigger events to watch: Financing Stress momentum Stable turning Accelerating, Supply Pressure momentum Stable turning Accelerating, or Selective Capital Re-entry momentum Stable turning Fading.
 
 ## Scenario Comparison Table
 
@@ -48,7 +48,7 @@ This report converts the current executive priorities into Base, Bull, and Bear 
 
 - Base Case: Financing momentum turning Accelerating, capital momentum turning Fading, supply score rising above 60, or LA / California signal count rising above 14.
 - Bull Case: Financing Stress momentum Improving or Weakening, Selective Capital Re-entry Accelerating, deal-size signals increasing, and concession/vacancy signals staying stable.
-- Bear Case: Financing Stress momentum Stable turning Accelerating, Supply Pressure momentum Fading turning Accelerating, or Selective Capital Re-entry momentum Stable turning Fading.
+- Bear Case: Financing Stress momentum Stable turning Accelerating, Supply Pressure momentum Stable turning Accelerating, or Selective Capital Re-entry momentum Stable turning Fading.
 
 ## GP / Developer Scenario Context
 

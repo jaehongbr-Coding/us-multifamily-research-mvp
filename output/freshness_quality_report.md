@@ -1,13 +1,13 @@
 # Freshness Quality Report
 
-Generated: 2026-06-01 05:46:34
+Generated: 2026-06-01 06:48:06
 
 ## Freshness Summary
 
-- Total articles reviewed: 75
-- fresh_0_3d: 30
+- Total articles reviewed: 65
+- fresh_0_3d: 21
 - recent_4_14d: 22
-- stale_15_30d: 7
+- stale_15_30d: 6
 - old_31d_plus: 16
 - unknown_date: 0
 
@@ -31,7 +31,6 @@ Generated: 2026-06-01 05:46:34
 
 ## Old Articles Excluded From Development Activity Top Exposure
 
-- JLL Lines Up $144M Construction Loan for Santa Ana Multifamily (Connect CRE Orange County): marked historical/background.
 - Best Year for Missing Middle Construction Since 2007 (NAHB Eye on Housing - Multifamily): marked historical/background.
 - Missing Middle Weakness (NAHB Eye on Housing - Multifamily): marked historical/background.
 - Multifamily Absorption Rate Remains Below 50% (NAHB Eye on Housing - Multifamily): marked historical/background.
@@ -49,14 +48,8 @@ Generated: 2026-06-01 05:46:34
 - Eaton Vance Picks Charlotte Rental Community for $65.8M (Connect CRE Charlotte): repeat exposure penalty; historical article over 30 days old
 - Charlotte Apartment Project Fetches $107M (Connect CRE Charlotte): repeat exposure penalty; historical article over 30 days old
 - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily (Connect CRE Orange County): repeat exposure penalty; historical article over 30 days old
-- Best Year for Missing Middle Construction Since 2007 (NAHB Eye on Housing - Multifamily): repeat exposure penalty; historical article over 30 days old
-- Missing Middle Weakness (NAHB Eye on Housing - Multifamily): repeat exposure penalty; historical article over 30 days old
-- Cambridge Properties Bringing New Life to Aging Charlotte Center (Connect CRE Charlotte): repeat exposure penalty; historical article over 30 days old
-- Builders Stay Cautious as Single-Family Permits Weaken (NAHB Eye on Housing - Multifamily): repeat exposure penalty; historical article over 30 days old
 - Overall Housing Starts Inch Lower in 2025 (NAHB Eye on Housing - Multifamily): repeat exposure penalty; historical article over 30 days old
-- August Private Residential Construction Spending Edges Higher (NAHB Eye on Housing - Multifamily): repeat exposure penalty; historical article over 30 days old
-- Multifamily Developer Confidence Increases in Third Quarter, But Still in Negative Territory (NAHB Eye on Housing - Multifamily): repeat exposure penalty; historical article over 30 days old
-- NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter (NAHB Eye on Housing - Multifamily): repeat exposure penalty; historical article over 30 days old
+- NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter (NAHB Eye on Housing - Multifamily): repeat exposure penalty; historical article over 30 days old; development article without confirmed capital event
 - Investment, NOI, and Covenants: Managing the risks (Multifamily Executive): repeat exposure penalty; low relevance or thin evidence; historical article over 30 days old
 
 ## Unknown Date Articles
@@ -67,8 +60,8 @@ Generated: 2026-06-01 05:46:34
 
 - NAHB Eye on Housing - Multifamily: 12 stale/old/unknown-date article(s)
 - Multifamily Executive: 3 stale/old/unknown-date article(s)
-- Connect CRE South Florida: 3 stale/old/unknown-date article(s)
 - Connect CRE Charlotte: 3 stale/old/unknown-date article(s)
+- Connect CRE South Florida: 2 stale/old/unknown-date article(s)
 - Connect CRE Orange County: 1 stale/old/unknown-date article(s)
 - Blackstone Real Estate: 1 stale/old/unknown-date article(s)
 

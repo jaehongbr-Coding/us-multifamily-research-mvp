@@ -3,13 +3,13 @@
 Limited articles are retained only as conservative title/lead-based evidence. Limited access is tracked separately from article identity mismatches.
 
 ## Summary
-- Total articles: 75
+- Total articles: 65
 - Total limited_or_paywall articles: 3
 - suspicious_mismatch articles: 0
 - limited_or_paywall and suspicious_mismatch overlap: 0
 - Limited articles selected into Development Activity: 2
 - Limited articles selected into GP / Capital Activity: 0
-- Limited articles selected into Representative Evidence: 1
+- Limited articles selected into Representative Evidence: 0
 
 ## Limited Articles by Source
 - Bisnow: 2
@@ -21,7 +21,7 @@ Limited articles are retained only as conservative title/lead-based evidence. Li
 
 ## Sample Limited Articles
 - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A Trickle | Bisnow | Development Activity | low confidence
-- Lee & Associates’ Report: Industrial and Multifamily Slow, Office Recovers, Retail Demand Holds | REBusiness Online | Market Intelligence | low confidence
+- Lee & Associates’ Report: Industrial and Multifamily Slow, Office Recovers, Retail Demand Holds | REBusiness Online | Market Intelligence | unknown confidence
 - North Texas Cities Slow New Multifamily Housing Law Through 'Unnecessary Mandates' | Bisnow | Development Activity | low confidence
 
 ## Notes

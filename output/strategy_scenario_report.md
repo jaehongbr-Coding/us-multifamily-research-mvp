@@ -1,6 +1,6 @@
 # Strategy Scenario Report
 
-Generated: 2026-06-01 05:46:38
+Generated: 2026-06-01 06:48:11
 
 ## Scenario Overview
 
@@ -9,12 +9,12 @@ This report converts the current executive priorities into Base, Bull, and Bear 
 ## Base Case
 
 - Probability label: Most Likely
-- Key assumptions: Current dominant priorities remain in place: Financing Stress, Selective Capital Re-entry, Supply Pressure. Financing Stress score 81, Selective Capital Re-entry score 89, Supply Pressure score 73.
-- Expected market environment: The market remains mixed: Financing Stress and Selective Capital Re-entry stay important, with 21 strategy-briefing articles containing numeric market signals.
+- Key assumptions: Current dominant priorities remain in place: Financing Stress, Selective Capital Re-entry, Developer Strategy Shift. Financing Stress score 81, Selective Capital Re-entry score 89, Supply Pressure score 63.
+- Expected market environment: The market remains mixed: Financing Stress and Selective Capital Re-entry stay important, with 17 strategy-briefing articles containing numeric market signals.
 - Implication for Woomi: Woomi should treat US residential strategy as attractive but underwriting-sensitive, with capital partner tracking and disciplined project screening.
 - Recommended strategy response: Underwriting: conservative, with explicit debt and exit-cap sensitivity; Capital partners: active monitoring of institutional capital and pricing discovery; LA / California: targeted monitoring if local signals appear; GP / developer partnerships: prioritize proven partners with financing and execution discipline; Development timing: selective starts only where lease-up and financing assumptions are resilient; Cost focus: maintain value engineering review on new opportunities.
 - Key risks to monitor: Debt cost, refinancing assumptions, exit cap rates, lease-up pace, concessions, and capital partner behavior.
-- Trigger events to watch: Financing momentum turning Accelerating, capital momentum turning Fading, supply score rising above 60, or LA / California signal count rising above 15.
+- Trigger events to watch: Financing momentum turning Accelerating, capital momentum turning Fading, supply score rising above 60, or LA / California signal count rising above 3.
 
 ## Bull Case
 
@@ -34,21 +34,21 @@ This report converts the current executive priorities into Base, Bull, and Bear 
 - Implication for Woomi: Woomi should slow aggressive expansion assumptions, protect downside, and use the period to build local intelligence and partner optionality.
 - Recommended strategy response: Underwriting: defensive, with tighter debt, cap-rate, rent-growth, and absorption assumptions; Capital partners: watch for capital pullback and distressed pricing signals; LA / California: avoid policy-complex deals unless entitlement upside is clear; GP / developer partnerships: favor partners with balance-sheet strength and local operating depth; Development timing: delay marginal starts and prioritize downside-protected pipeline decisions; Cost focus: raise contingency, procurement, and value engineering scrutiny.
 - Key risks to monitor: Higher debt costs, widening exit cap assumptions, falling transaction liquidity, elevated concessions, and delayed lease-up.
-- Trigger events to watch: Financing Stress momentum Stable turning Accelerating, Supply Pressure momentum Improving turning Accelerating, or Selective Capital Re-entry momentum Stable turning Fading.
+- Trigger events to watch: Financing Stress momentum Stable turning Accelerating, Supply Pressure momentum Weakening turning Accelerating, or Selective Capital Re-entry momentum Stable turning Fading.
 
 ## Scenario Comparison Table
 
 | Scenario | Probability | Expected Environment | Recommended Response |
 | --- | --- | --- | --- |
-| Base Case | Most Likely | The market remains mixed: Financing Stress and Selective Capital Re-entry stay important, with 21 strategy-briefing articles containing numeric market signals. | Underwriting: conservative, with explicit debt and exit-cap sensitivity; Capital partners: active monitoring of institutional capital and pricing discovery; LA / California: targeted monitoring if local signals appear; GP / developer partnerships: prioritize proven partners with financing and execution discipline; Development timing: selective starts only where lease-up and financing assumptions are resilient; Cost focus: maintain value engineering review on new opportunities. |
+| Base Case | Most Likely | The market remains mixed: Financing Stress and Selective Capital Re-entry stay important, with 17 strategy-briefing articles containing numeric market signals. | Underwriting: conservative, with explicit debt and exit-cap sensitivity; Capital partners: active monitoring of institutional capital and pricing discovery; LA / California: targeted monitoring if local signals appear; GP / developer partnerships: prioritize proven partners with financing and execution discipline; Development timing: selective starts only where lease-up and financing assumptions are resilient; Cost focus: maintain value engineering review on new opportunities. |
 | Bull Case | Plausible Upside | Debt markets become less restrictive, institutional buyers and partners become more active, and supply concerns are absorbed through stronger demand or slower new starts. | Underwriting: moderately constructive but still sensitivity-tested; Capital partners: increase outreach to capital partners and GP candidates; LA / California: screen LA / California opportunities where entitlement path is credible; GP / developer partnerships: expand partner tracking for acquisition and development opportunities; Development timing: prepare to move faster on high-conviction opportunities; Cost focus: keep cost discipline but avoid over-defensive assumptions. |
 | Bear Case | Plausible Downside | Debt availability remains constrained, lease-up and vacancy pressure increase, and institutional capital becomes more selective or pauses. | Underwriting: defensive, with tighter debt, cap-rate, rent-growth, and absorption assumptions; Capital partners: watch for capital pullback and distressed pricing signals; LA / California: avoid policy-complex deals unless entitlement upside is clear; GP / developer partnerships: favor partners with balance-sheet strength and local operating depth; Development timing: delay marginal starts and prioritize downside-protected pipeline decisions; Cost focus: raise contingency, procurement, and value engineering scrutiny. |
 
 ## Key Triggers to Watch
 
-- Base Case: Financing momentum turning Accelerating, capital momentum turning Fading, supply score rising above 60, or LA / California signal count rising above 15.
+- Base Case: Financing momentum turning Accelerating, capital momentum turning Fading, supply score rising above 60, or LA / California signal count rising above 3.
 - Bull Case: Financing Stress momentum Improving or Weakening, Selective Capital Re-entry Accelerating, deal-size signals increasing, and concession/vacancy signals staying stable.
-- Bear Case: Financing Stress momentum Stable turning Accelerating, Supply Pressure momentum Improving turning Accelerating, or Selective Capital Re-entry momentum Stable turning Fading.
+- Bear Case: Financing Stress momentum Stable turning Accelerating, Supply Pressure momentum Weakening turning Accelerating, or Selective Capital Re-entry momentum Stable turning Fading.
 
 ## GP / Developer Scenario Context
 
@@ -56,36 +56,36 @@ Detailed GP intelligence is available in `gp_intelligence_report.md`.
 - Wood Partners: operational efficiency push may be relevant to potential JV partnership signal.
 - Alliance Residential: operational efficiency push may be relevant to potential JV partnership signal.
 - Crescent Communities: operational efficiency push may be relevant to potential JV partnership signal.
-- Lincoln Property Company: operational efficiency push may be relevant to competitive pressure indicator.
 - Blackstone: stable platform monitoring may be relevant to capital market sentiment indicator.
+- Lincoln Property Company: operational efficiency push may be relevant to competitive pressure indicator.
 
 ## Institutional Relationship Context
 
 Capital-flow and relationship signals are available in `institutional_relationship_report.md`.
 Use that report to identify whether scenario assumptions are supported by firm-level capital deployment, partnership, or pricing-discovery signals.
-- Wood Partners: Map potential GP / JV relationship and monitor partnership activity (Potential JV / Partnership Signal).
-- Lincoln Property Company: Review California / LA capital and developer activity (GP Capability Benchmark Signal).
 - Alliance Residential: Map potential GP / JV relationship and monitor partnership activity (Potential JV / Partnership Signal).
+- Lincoln Property Company: Review California / LA capital and developer activity (GP Capability Benchmark Signal).
+- Wood Partners: Map potential GP / JV relationship and monitor partnership activity (Potential JV / Partnership Signal).
 
 ## Deal / Project Scenario Context
 
 Deal and project-level signals are available in `deal_pipeline_report.md`.
-- Construction Financing: Capital market signal in Los Angeles.
-- Entitlement / Permitting: Entitlement / zoning watch in Los Angeles.
-- JV / Partnership: Pricing benchmark in California.
+- Refinancing: Capital market signal in Sarasota / Florida.
+- Construction Financing: Capital market signal in California.
+- Disposition / Exit: Underwriting benchmark in Atlanta / Georgia.
 
 ## Relationship Graph Scenario Context
 
 Network relationship signals are available in `relationship_graph_report.md`.
-- JV / Partnership: Alliance Residential to California in California.
-- JV / Partnership: Alliance Residential to JV / Partnership - California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex in California.
-- Financing Relationship: Wood Partners to northmarq in Sun Belt.
+- Financing Relationship: Wood Partners to northmarq in Atlanta / Georgia.
+- Financing Relationship: Crescent Communities to berkadia in Sarasota / Florida.
+- JV / Partnership: Alliance Residential to JV / Partnership - Riverside / California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex in Riverside / California.
 
 ## Residential Sector Scenario Implications
 
 Broader residential sector coverage is available in `residential_sector_report.md`.
 - Apartment: Core Strategy Sector; Keep in weekly developer strategy review.
-- Affordable Housing: Strategic Expansion Sector; Track LA / California affordability, entitlement, and public-private partnership signals.
+- Affordable Housing: Strategic Expansion Sector; Add to sector watchlist.
 - Multifamily: Core Strategy Sector; Keep in weekly developer strategy review.
 - Office-to-Residential Conversion: Strategic Expansion Sector; Track conversion feasibility, policy support, and construction cost assumptions.
 - BTR / Single-Family Rental: Strategic Expansion Sector; Monitor BTR / SFR operators, capital flows, and target markets.

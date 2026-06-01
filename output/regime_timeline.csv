@@ -1,7 +1,7 @@
 ﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
-20260601-054634-41ca5227,2026-06-01,Construction financing still selective,Persistent,stable,23,15,23,5.35,3.65,4,4,4,1,Los Angeles,Moderate Signal,steady visibility,
-20260601-054634-41ca5227,2026-06-01,Institutional recap over expansion,Persistent,stable,23,15,23,2.78,2.57,3,3,3,0,California,Moderate Signal,steady visibility,
-20260601-054634-41ca5227,2026-06-01,JV / partnership activity observed,Persistent,stable,23,15,23,6.35,3.57,9,9,7,0,Los Angeles,Broadly Confirmed,steady visibility,
-20260601-054634-41ca5227,2026-06-01,LA entitlement precedent accumulation,Building,stable,23,15,23,9.96,3.26,10,10,5,0,Los Angeles,Moderate Signal,steady visibility,
-20260601-054634-41ca5227,2026-06-01,Refinancing pressure unresolved,Persistent,stable,23,15,23,5.35,3.96,5,5,4,2,Florida,Broadly Confirmed,steady visibility,
-20260601-054634-41ca5227,2026-06-01,Sun Belt lease-up pressure watch,Persistent,stable,23,15,23,2.91,2.52,4,4,3,0,National,Moderate Signal,steady visibility,
+20260601-064806-993581e0,2026-06-01,Construction financing still selective,Persistent,stable,24,16,24,5.29,3.62,4,4,4,1,Los Angeles / California,Moderate Signal,steady visibility,
+20260601-064806-993581e0,2026-06-01,Institutional recap over expansion,Persistent,stable,24,16,24,2.79,2.58,3,3,3,1,California,Moderate Signal,steady visibility,
+20260601-064806-993581e0,2026-06-01,JV / partnership activity observed,Weakening,weakening,24,16,24,6.38,3.58,7,7,6,0,Santa Monica / California,Broadly Confirmed,JV / partnership activity observed visibility is weakening versus prior runs.,
+20260601-064806-993581e0,2026-06-01,LA entitlement precedent accumulation,Building,stable,24,16,24,9.96,3.25,10,10,5,0,Los Angeles / California,Moderate Signal,steady visibility,
+20260601-064806-993581e0,2026-06-01,Refinancing pressure unresolved,Weakening,weakening,24,16,24,5.29,3.92,4,4,4,3,Miami / Florida,Moderate Signal,Refinancing pressure unresolved visibility is weakening versus prior runs.,
+20260601-064806-993581e0,2026-06-01,Sun Belt lease-up pressure watch,Persistent,stable,24,16,24,2.96,2.54,4,4,3,0,National,Moderate Signal,steady visibility,

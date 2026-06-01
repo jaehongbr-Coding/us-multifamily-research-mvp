@@ -1,6 +1,6 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-06-01 05:46:38
+Generated: 2026-06-01 06:48:11
 
 - GP/developer candidates reviewed: 6
 - Tier 1 Strategic GPs: 0
@@ -8,12 +8,12 @@ Generated: 2026-06-01 05:46:38
 
 ## Top Emerging GPs
 
-- Alliance Residential: 83 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
-- Wood Partners: 70 (Tier 2 High Potential GP), Sun Belt, Institutional-backed regional expansion.
-- Lincoln Property Company: 65 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
-- Crescent Communities: 65 (Tier 3 Monitoring GP), Florida, Institutional-backed regional expansion.
+- Alliance Residential: 79 (Tier 2 High Potential GP), Riverside / California, California / LA strategic positioning.
+- Wood Partners: 77 (Tier 2 High Potential GP), Phoenix / Arizona, California / LA strategic positioning.
+- Crescent Communities: 63 (Tier 3 Monitoring GP), Sarasota / Florida, Distressed opportunity positioning.
+- Lincoln Property Company: 60 (Tier 3 Monitoring GP), Santa Monica / California, California / LA strategic positioning.
 - Blackstone: 49 (Emerging Watchlist), New York, Distressed opportunity positioning.
-- RXR: 35 (Low Signal), New York, Selective residential growth.
+- RXR: 35 (Low Signal), New York City / New York, Selective residential growth.
 
 ## Tier 1 Strategic GP
 
@@ -21,13 +21,14 @@ Generated: 2026-06-01 05:46:38
 
 ## Tier 2 High Potential GP
 
-- Alliance Residential: score 83, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Wood Partners: score 70, Tier 2 High Potential GP, Sun Belt, Potential GP partnership candidate. Track JV and capital partner activity.
+- Alliance Residential: score 79, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Wood Partners: score 77, Tier 2 High Potential GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## California / LA GP Activity
 
-- Alliance Residential: score 83, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Lincoln Property Company: score 65, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Alliance Residential: score 79, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Wood Partners: score 77, Tier 2 High Potential GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
+- Lincoln Property Company: score 60, Tier 3 Monitoring GP, Santa Monica / California, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## BTR / SFR GP Activity
 
@@ -47,17 +48,17 @@ Generated: 2026-06-01 05:46:38
 
 ## Institutional Capital Magnet
 
-- Alliance Residential: score 83, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Wood Partners: score 70, Tier 2 High Potential GP, Sun Belt, Potential GP partnership candidate. Track JV and capital partner activity.
-- Lincoln Property Company: score 65, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Crescent Communities: score 65, Tier 3 Monitoring GP, Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- Alliance Residential: score 79, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Wood Partners: score 77, Tier 2 High Potential GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
+- Crescent Communities: score 63, Tier 3 Monitoring GP, Sarasota / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- Lincoln Property Company: score 60, Tier 3 Monitoring GP, Santa Monica / California, Capital market and pricing discovery reference. Review LA / California development activity.
 - Blackstone: score 49, Emerging Watchlist, New York, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
 
 ## Potential Woomi Partnership Candidates
 
-- Alliance Residential: score 83, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Wood Partners: score 70, Tier 2 High Potential GP, Sun Belt, Potential GP partnership candidate. Track JV and capital partner activity.
-- Crescent Communities: score 65, Tier 3 Monitoring GP, Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- Alliance Residential: score 79, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Wood Partners: score 77, Tier 2 High Potential GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
+- Crescent Communities: score 63, Tier 3 Monitoring GP, Sarasota / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Blackstone: score 49, Emerging Watchlist, New York, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
 
 ## GP Source Expansion Summary
@@ -95,8 +96,8 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 - Alliance Residential: Track JV and capital partner activity.
 - Wood Partners: Track JV and capital partner activity.
-- Lincoln Property Company: Review LA / California development activity.
 - Crescent Communities: Track JV and capital partner activity.
+- Lincoln Property Company: Review LA / California development activity.
 - Blackstone: Review institutional pricing and capital flow signals.
 - RXR: Monitor only.
 
@@ -104,10 +105,10 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 122
-- Institutional-grade signals: 12
-- High-confidence signals: 20
-- Weak/noisy signals: 92
-- High-confidence watchlist items: 20
+- Signals evaluated: 151
+- Institutional-grade signals: 7
+- High-confidence signals: 28
+- Weak/noisy signals: 104
+- High-confidence watchlist items: 28
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

@@ -1,45 +1,45 @@
 # Signal Memory Report
 
-Generated: 2026-06-01 05:46:34
+Generated: 2026-06-01 06:48:06
 
 ## Signal Memory Summary
 
-- Total memory rows: 224
-- Status summary: Persistent Signal: 84; Dormant Signal: 74; Early Watch: 40; Strengthening Signal: 22; New Signal: 2; Weakening Signal: 2
+- Total memory rows: 258
+- Status summary: Dormant Signal: 74; Persistent Signal: 73; Early Watch: 42; New Signal: 36; Strengthening Signal: 31; Weakening Signal: 2
 - Signal Memory is a repeated-observation tracker, not an investment decision engine.
 
 ## Strengthening Signals
 
-- refinancing / Other / Unknown: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 5건이 최근 7일에 관찰되었습니다.
+- Developer Strategy / Sun Belt: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 8건이 최근 7일에 관찰되었습니다.
+- acquisition / Other / Unknown: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 6건이 최근 7일에 관찰되었습니다.
+- joint_venture / National: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 5건이 최근 7일에 관찰되었습니다.
 - refinancing / National: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 5건이 최근 7일에 관찰되었습니다.
-- acquisition / Arizona: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 4건이 최근 7일에 관찰되었습니다.
-- acquisition / Florida: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 4건이 최근 7일에 관찰되었습니다.
-- adaptive_reuse / New York: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 4건이 최근 7일에 관찰되었습니다.
-- construction_start / Los Angeles: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 4건이 최근 7일에 관찰되었습니다.
-- density_bonus / Southeast: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 4건이 최근 7일에 관찰되었습니다.
-- lender_activity / Other / Unknown: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 4건이 최근 7일에 관찰되었습니다.
+- refinancing / New York: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 5건이 최근 7일에 관찰되었습니다.
+- Development Strategy / Los Angeles: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 4건이 최근 7일에 관찰되었습니다.
+- Development Strategy / Florida: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 4건이 최근 7일에 관찰되었습니다.
+- Supply & Demand / Sun Belt: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 4건이 최근 7일에 관찰되었습니다.
 
 ## Persistent Signals
 
 - delivery / Other / Unknown: Persistent Signal. 최근 30일 중 6일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
-- disposition / Sun Belt: Persistent Signal. 최근 30일 중 6일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
 - effective_rent_growth / National: Persistent Signal. 최근 30일 중 6일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
 - effective_rent_growth / Other / Unknown: Persistent Signal. 최근 30일 중 6일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
 - lender_activity / Other / Unknown: Persistent Signal. 최근 30일 중 6일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
 - Macro & Financing / National: Persistent Signal. 최근 30일 중 7일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
 - Development Strategy / Other / Unknown: Persistent Signal. 최근 30일 중 8일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
 - Development Strategy / Other / Unknown: Persistent Signal. 최근 30일 중 8일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
+- Rent Growth Signal / Other / Unknown: Persistent Signal. 최근 30일 중 8일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
 
 ## New / Early Watch Signals
 
-- entitlement / Sun Belt: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
-- zoning / California: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
-- Macro & Financing / Sun Belt: Early Watch. 최근 30일 4건, 2개 source에서 관찰되었습니다.
-- Deal Size Signal / Sun Belt: Early Watch. 최근 30일 2건, 2개 source에서 관찰되었습니다.
-- Deal Size Signal / New York: Early Watch. 최근 30일 2건, 2개 source에서 관찰되었습니다.
-- Deal Size Signal / Arizona: Early Watch. source 다양성이 제한되어 있어 추가 확인이 필요합니다.
-- Supply / Starts Signal / California: Early Watch. source 다양성이 제한되어 있어 추가 확인이 필요합니다.
-- Deal Size Signal / Other / Unknown: Early Watch. source 다양성이 제한되어 있어 추가 확인이 필요합니다.
+- disposition / Atlanta / Georgia: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- planning_commission / Los Angeles / California: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- Developer Strategy / Las Vegas / Nevada: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- Developer Strategy / Atlanta / Georgia: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- Development Strategy / Los Angeles / California: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- Development Strategy / Miami / Florida: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- Rent Growth Signal / National: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- acquisition / Phoenix / Arizona: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
 
 ## Weakening or Dormant Signals
 

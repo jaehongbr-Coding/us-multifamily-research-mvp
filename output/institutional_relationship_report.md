@@ -1,13 +1,13 @@
 # Institutional Relationship & Capital Flow Report
 
-Generated: 2026-06-01 05:46:38
+Generated: 2026-06-01 06:48:11
 
 ## Top Institutional Relationship Signals
 
-- Wood Partners: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Alliance Residential: score 99, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Lincoln Property Company: score 98, Development Capital Deployment, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Alliance Residential: score 97, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Crescent Communities: score 86, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Wood Partners: score 98, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Crescent Communities: score 88, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Blackstone: score 74, Refinancing / Recapitalization, Capital Partner Tracking Signal. Track refinancing or recapitalization pipeline.
 - RXR: score 73, Operational / Platform Investment, GP Capability Benchmark Signal. Monitor only.
 
@@ -17,20 +17,20 @@ Generated: 2026-06-01 05:46:38
 
 ## California / LA Capital and Developer Watch
 
+- Alliance Residential: score 99, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Lincoln Property Company: score 98, Development Capital Deployment, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Alliance Residential: score 97, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 
 ## Capital Inflow / Outflow Signals
 
-- Wood Partners: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Alliance Residential: score 99, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Lincoln Property Company: score 98, Development Capital Deployment, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Alliance Residential: score 97, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Wood Partners: score 98, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 
 ## JV / Partnership Signals
 
-- Wood Partners: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Alliance Residential: score 97, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Crescent Communities: score 86, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Alliance Residential: score 99, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Wood Partners: score 98, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Crescent Communities: score 88, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 
 ## Competitive Benchmark Signals
 
@@ -45,21 +45,21 @@ Generated: 2026-06-01 05:46:38
 
 | Firm | Market | Source Category | Activity Type | Capital Flow | Relationship Signal | Woomi Implication |
 | --- | --- | --- | --- | --- | --- | --- |
-| Wood Partners | Arizona; Sun Belt | Core Multifamily News; Site / Parcel Source Expansion | acquisition; disposition / exit; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
-| Lincoln Property Company | California | Regional / California / LA Sources | entitlement; operational technology / AI adoption | Development Capital Deployment | GP Capability Benchmark Signal | competitive pressure indicator |
-| Alliance Residential | California | Core Multifamily News | acquisition; disposition / exit; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
-| Crescent Communities | Florida | Core Multifamily News | refinancing; JV / partnership; operational technology / AI adoption | Refinancing / Recapitalization | Potential JV / Partnership Signal | potential JV partnership signal |
+| Alliance Residential | Riverside / California | Core Multifamily News | acquisition; disposition / exit; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
+| Lincoln Property Company | Santa Monica / California | Regional / California / LA Sources | entitlement; operational technology / AI adoption | Development Capital Deployment | GP Capability Benchmark Signal | competitive pressure indicator |
+| Wood Partners | Atlanta / Georgia; Phoenix / Arizona | Site / Parcel Source Expansion | acquisition; disposition / exit; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
+| Crescent Communities | Sarasota / Florida | Core Multifamily News | refinancing; JV / partnership; operational technology / AI adoption | Refinancing / Recapitalization | Potential JV / Partnership Signal | potential JV partnership signal |
 | Blackstone | New York | Developer / GP Newsrooms | refinancing | Refinancing / Recapitalization | Capital Partner Tracking Signal | capital market sentiment indicator |
-| RXR | New York | Core Multifamily News | office-to-residential conversion | Operational / Platform Investment | GP Capability Benchmark Signal | construction strategy signal |
+| RXR | New York City / New York | Core Multifamily News | office-to-residential conversion | Operational / Platform Investment | GP Capability Benchmark Signal | construction strategy signal |
 
 ## Deal / Project Intelligence
 
 Deal and project-level extraction is available in `deal_pipeline_report.md`.
+- Refinancing in Sarasota / Florida: Unknown / Unknown / berkadia.
 - Construction Financing in California: Unknown / Unknown / jll.
-- Disposition / Exit in Sun Belt: Unknown / Unknown / northmarq.
-- Refinancing in Florida: Unknown / Unknown / berkadia.
-- Acquisition in Sun Belt: Unknown / Unknown / berkadia.
-- Refinancing in New York: Unknown / Unknown / freddie mac.
+- Disposition / Exit in Atlanta / Georgia: Unknown / Unknown / northmarq.
+- Refinancing in New York City / New York: Unknown / Unknown / freddie mac.
+- Disposition / Exit in Atlanta / Georgia: Unknown / Unknown / jll.
 
 ## Relationship Graph Intelligence
 
@@ -68,15 +68,15 @@ Capital partner, lender, GP, and market edges are available in `relationship_gra
 - Crescent Communities -> berkadia: Financing Relationship.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily -> jll: Financing Relationship.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project -> jll: Financing Relationship.
-- Acquisition - Sun Belt - El-Ad Pays $45.5M for Coconut Grove Property -> berkadia: Financing Relationship.
+- Refinancing - New York City / New York - PNC Bank Refis West Village Apartment Building With $404M Loan -> freddie mac: Financing Relationship.
 
 ## High-Scoring GP Watchlist Reference
 
 Emerging GP watchlist rankings are available in `gp_watchlist_report.md`.
-- Alliance Residential: 83 (Tier 2 High Potential GP), Strong partnership signal.
-- Wood Partners: 70 (Tier 2 High Potential GP), Strong partnership signal.
-- Lincoln Property Company: 65 (Tier 3 Monitoring GP), No clear partnership signal.
-- Crescent Communities: 65 (Tier 3 Monitoring GP), Strong partnership signal.
+- Alliance Residential: 79 (Tier 2 High Potential GP), Strong partnership signal.
+- Wood Partners: 77 (Tier 2 High Potential GP), Strong partnership signal.
+- Crescent Communities: 63 (Tier 3 Monitoring GP), Strong partnership signal.
+- Lincoln Property Company: 60 (Tier 3 Monitoring GP), No clear partnership signal.
 - Blackstone: 49 (Emerging Watchlist), Moderate partnership signal.
 
 ## GP Source Expansion Summary
@@ -112,9 +112,9 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Recommended Executive Follow-Up
 
-- Wood Partners: Map potential GP / JV relationship and monitor partnership activity
-- Lincoln Property Company: Review California / LA capital and developer activity
 - Alliance Residential: Map potential GP / JV relationship and monitor partnership activity
+- Lincoln Property Company: Review California / LA capital and developer activity
+- Wood Partners: Map potential GP / JV relationship and monitor partnership activity
 - Crescent Communities: Map potential GP / JV relationship and monitor partnership activity
 - Blackstone: Track refinancing or recapitalization pipeline
 - RXR: Monitor only
@@ -123,10 +123,10 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 122
-- Institutional-grade signals: 12
-- High-confidence signals: 20
-- Weak/noisy signals: 92
-- High-confidence watchlist items: 20
+- Signals evaluated: 151
+- Institutional-grade signals: 7
+- High-confidence signals: 28
+- Weak/noisy signals: 104
+- High-confidence watchlist items: 28
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

@@ -1,45 +1,45 @@
 # Entitlement Intelligence Report
 
-Generated: 2026-06-01 05:46:39
+Generated: 2026-06-01 06:48:12
 
-- Total entitlement signals detected: 13
+- Total entitlement signals detected: 12
 
 ## Top Entitlement Opportunities
 
-- Entitlement Approval in California: Unknown Stage, entitlement_opportunity_score 50. Track local planning filings, approval body, sponsor, and entitlement precedent.
 - Zoning / Rezoning in Los Angeles: Unknown Stage, entitlement_opportunity_score 48. Monitor entitlement status for repeated confirmation.
 - Entitlement Approval in Unknown: Unknown Stage, entitlement_opportunity_score 48. Track construction-ready pipeline and comparable sponsor execution.
-- Zoning / Rezoning in Los Angeles: Unknown Stage, entitlement_opportunity_score 45. Track local planning filings, approval body, sponsor, and entitlement precedent.
-- Planning Approval in Los Angeles: Under Review, entitlement_opportunity_score 45. Track local planning filings, approval body, sponsor, and entitlement precedent.
-- Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 45. Track local planning filings, approval body, sponsor, and entitlement precedent.
-- Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 45. Track local planning filings, approval body, sponsor, and entitlement precedent.
-- Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 45. Track local planning filings, approval body, sponsor, and entitlement precedent.
+- Office-to-Residential Conversion in Other / Unknown: Unknown Stage, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
 - Office-to-Residential Conversion in Los Angeles: Unknown Stage, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
-- Office-to-Residential Conversion in Los Angeles: Unknown Stage, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
+- Entitlement Approval in Santa Monica: Unknown Stage, entitlement_opportunity_score 35. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Atlanta: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
+- Planning Approval in Los Angeles: Under Review, entitlement_opportunity_score 30. Monitor entitlement status for repeated confirmation.
+- Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Los Angeles / California: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 
 ## Top Entitlement Risks
 
-- Entitlement Approval in California: Unknown Stage, entitlement_risk_score 28. Track local planning filings, approval body, sponsor, and entitlement precedent.
 - Zoning / Rezoning in Los Angeles: Unknown Stage, entitlement_risk_score 28. Monitor entitlement status for repeated confirmation.
 - Entitlement Approval in Unknown: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
-- Zoning / Rezoning in Los Angeles: Unknown Stage, entitlement_risk_score 28. Track local planning filings, approval body, sponsor, and entitlement precedent.
-- Planning Approval in Los Angeles: Under Review, entitlement_risk_score 28. Track local planning filings, approval body, sponsor, and entitlement precedent.
-- Entitlement Approval in Los Angeles: Unknown Stage, entitlement_risk_score 28. Track local planning filings, approval body, sponsor, and entitlement precedent.
-- Entitlement Approval in Los Angeles: Unknown Stage, entitlement_risk_score 28. Track local planning filings, approval body, sponsor, and entitlement precedent.
-- Entitlement Approval in Los Angeles: Unknown Stage, entitlement_risk_score 28. Track local planning filings, approval body, sponsor, and entitlement precedent.
+- Office-to-Residential Conversion in Other / Unknown: Unknown Stage, entitlement_risk_score 28. Review office conversion feasibility, policy support, and local sponsor activity.
 - Office-to-Residential Conversion in Los Angeles: Unknown Stage, entitlement_risk_score 28. Review office conversion feasibility, policy support, and local sponsor activity.
-- Office-to-Residential Conversion in Los Angeles: Unknown Stage, entitlement_risk_score 28. Review office conversion feasibility, policy support, and local sponsor activity.
+- Entitlement Approval in Santa Monica: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Atlanta: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
+- Planning Approval in Los Angeles: Under Review, entitlement_risk_score 28. Monitor entitlement status for repeated confirmation.
+- Entitlement Approval in Los Angeles: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Los Angeles / California: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Los Angeles: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
 
 ## Planning / Approval Signals
 
-- Entitlement Approval in California: Unknown Stage, entitlement_opportunity_score 50. Track local planning filings, approval body, sponsor, and entitlement precedent.
 - Entitlement Approval in Unknown: Unknown Stage, entitlement_opportunity_score 48. Track construction-ready pipeline and comparable sponsor execution.
-- Planning Approval in Los Angeles: Under Review, entitlement_opportunity_score 45. Track local planning filings, approval body, sponsor, and entitlement precedent.
-- Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 45. Track local planning filings, approval body, sponsor, and entitlement precedent.
-- Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 45. Track local planning filings, approval body, sponsor, and entitlement precedent.
-- Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 45. Track local planning filings, approval body, sponsor, and entitlement precedent.
-- Entitlement Approval in Unknown: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Santa Monica: Unknown Stage, entitlement_opportunity_score 35. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Atlanta: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
+- Planning Approval in Los Angeles: Under Review, entitlement_opportunity_score 30. Monitor entitlement status for repeated confirmation.
+- Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Los Angeles / California: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Unknown: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 
 ## Density Bonus / TOC Signals
 
@@ -55,9 +55,8 @@ Generated: 2026-06-01 05:46:39
 
 ## Office-to-Residential Conversion Signals
 
-- Office-to-Residential Conversion in Los Angeles: Unknown Stage, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
-- Office-to-Residential Conversion in Los Angeles: Unknown Stage, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
 - Office-to-Residential Conversion in Other / Unknown: Unknown Stage, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
+- Office-to-Residential Conversion in Los Angeles: Unknown Stage, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
 
 ## Implications for Woomi / Woomi Global
 
@@ -67,21 +66,21 @@ Generated: 2026-06-01 05:46:39
 
 ## Recommended Entitlement Follow-up Actions
 
-- Track local planning filings, approval body, sponsor, and entitlement precedent: Entitlement Approval in California.
 - Monitor entitlement status for repeated confirmation: Zoning / Rezoning in Los Angeles.
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Unknown.
-- Track local planning filings, approval body, sponsor, and entitlement precedent: Zoning / Rezoning in Los Angeles.
-- Track local planning filings, approval body, sponsor, and entitlement precedent: Planning Approval in Los Angeles.
-- Track local planning filings, approval body, sponsor, and entitlement precedent: Entitlement Approval in Los Angeles.
-- Track local planning filings, approval body, sponsor, and entitlement precedent: Entitlement Approval in Los Angeles.
-- Track local planning filings, approval body, sponsor, and entitlement precedent: Entitlement Approval in Los Angeles.
+- Review office conversion feasibility, policy support, and local sponsor activity: Office-to-Residential Conversion in Other / Unknown.
+- Review office conversion feasibility, policy support, and local sponsor activity: Office-to-Residential Conversion in Los Angeles.
+- Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Santa Monica.
+- Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Atlanta.
+- Monitor entitlement status for repeated confirmation: Planning Approval in Los Angeles.
+- Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Los Angeles.
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 82
-- LA lifecycle watch items: 50
-- Stage mix: Delivery / Opening: 8, Unknown Stage: 41, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 17, Vertical Construction: 4
+- Lifecycle records: 70
+- LA lifecycle watch items: 44
+- Stage mix: Delivery / Opening: 6, Unknown Stage: 35, Refinancing / Recapitalization: 11, Site Acquisition / Site Control: 13, Vertical Construction: 3
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

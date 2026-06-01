@@ -1,64 +1,64 @@
 # Entity Resolution Report
 
-Generated: 2026-06-01 05:46:38
+Generated: 2026-06-01 06:48:11
 
-- Total raw entities reviewed: 138
-- Total canonical entities created: 43
+- Total raw entities reviewed: 182
+- Total canonical entities created: 56
 - Possible duplicate entity groups: 5
-- Weak matches needing review: 103
+- Weak matches needing review: 153
 - Unknown entities needing review: 4
 
 ## Top Canonical Firms
 
-- Unknown: 146 occurrence(s)
-- Wood Partners: 10 occurrence(s)
-- JLL: 8 occurrence(s)
-- Berkadia: 6 occurrence(s)
-- Crescent Communities: 6 occurrence(s)
-- Alliance Residential: 5 occurrence(s)
-- Lincoln Property Company: 5 occurrence(s)
-- RXR: 5 occurrence(s)
+- Unknown: 128 occurrence(s)
+- Wood Partners: 11 occurrence(s)
+- JLL: 10 occurrence(s)
+- Crescent Communities: 7 occurrence(s)
+- Alliance Residential: 6 occurrence(s)
+- Lincoln Property Company: 6 occurrence(s)
+- RXR: 6 occurrence(s)
+- Berkadia: 4 occurrence(s)
 - Blackstone: 2 occurrence(s)
 - Freddie Mac: 2 occurrence(s)
 
 ## Top Canonical Markets
 
-- Sun Belt: 69 occurrence(s)
-- Los Angeles: 38 occurrence(s)
-- Other / Unknown: 37 occurrence(s)
-- California: 28 occurrence(s)
-- New York: 22 occurrence(s)
-- Unknown: 15 occurrence(s)
-- Florida: 14 occurrence(s)
-- National: 14 occurrence(s)
-- Arizona: 5 occurrence(s)
-- Southeast: 3 occurrence(s)
+- Los Angeles: 61 occurrence(s)
+- Sun Belt: 40 occurrence(s)
+- California: 29 occurrence(s)
+- Other / Unknown: 27 occurrence(s)
+- New York: 16 occurrence(s)
+- Unknown: 11 occurrence(s)
+- South Florida: 8 occurrence(s)
+- National: 6 occurrence(s)
+- Santa Monica: 4 occurrence(s)
+- Denver / Colorado: 3 occurrence(s)
 
 ## Possible Duplicate Entities
 
-- California: California, Disposition / Exit - California - Carlsbad Lifestyle Center Fetches $91M in Sale to 11North, JV / Partnership - California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex, Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties
+- California: California, Disposition / Exit - California - Carlsbad Lifestyle Center Fetches $91M in Sale to 11North, JV / Partnership - Riverside / California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex, Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties, Riverside / California, San Francisco / California, Santa Monica / California
 - JLL: Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily, General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project, jll
-- Los Angeles: Acquisition - Sun Belt - El-Ad Pays $45.5M for Coconut Grove Property, Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes..., Construction Financing - New York - Dwight Mortgage Trust Lends $55M on Rockland County, N.Y., Multifamily Development, Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments, Disposition / Exit - Los Angeles - Covina Apartments Trade on In-Place Cash Flow, Rental Upside, Disposition / Exit - Los Angeles - Metro breaks ground on North Hollywood - Pasadena BRT line, Entitlement / Permitting - California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A..., Entitlement / Permitting - California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica, Entitlement / Permitting - Los Angeles - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown, Entitlement / Permitting - Los Angeles - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills, General Project Signal - Los Angeles - Affordable housing slated for 1418 S. Mansfield Ave. in Mid-City, General Project Signal - Sun Belt - Insignia Pursuing Embassy Row Multifamily Mixed-Use Redevelopment in Atlanta, JV / Partnership - Los Angeles - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing, JV / Partnership - Los Angeles - RAND reviews ULA impacts, Mayor's race focuses on housing, and more, Los Angeles, Modular / Construction Innovation - Los Angeles - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South..., Office-to-Residential Conversion - National - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg..., Office-to-Residential Conversion - National - JBG SMITH Commences Office-to-Residential Conversion in National Landing, Refinancing - New York - PNC Bank Refis West Village Apartment Building With $404M Loan, Refinancing - Other / Unknown - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments Villa Annette
-- New York: JV / Partnership - New York - IPA Arranges $27M Acquisition Loan for Apartment Community in D.C’s NoMa District, Manhattan, New York, Office-to-Residential Conversion - New York - Speaker Spotlight: Adam Greene of RXR, Refinancing - New York - Affinius Capital Led Joint Venture Closes $3.5B Acquisition of Veris Residential
-- Sun Belt: Acquisition - Sun Belt - Miami Apartments Trade for $109.9M, Atlanta, Austin, BTR / Build-to-Rent - Sun Belt - Work Begins on 94-Unit Scottsdale Luxury BTR Community, Dallas, Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M, Disposition / Exit - Sun Belt - Eaton Vance Picks Charlotte Rental Community for $65.8M, Disposition / Exit - Sun Belt - Grand Peaks Sells Miami-Area Apartments for $65.5M, Entitlement / Permitting - Sun Belt - Cambridge Properties Bringing New Life to Aging Charlotte Center, General Project Signal - Sun Belt - Empire Group Starts Work on $170M Phoenix Apartment Tower, General Project Signal - Sun Belt - Insignia Pursuing Embassy Row Redevelopment, Miami, Phoenix, Refinancing - Sun Belt - Georgia Tech Student Housing Investors Ink Refi, Sun Belt
+- Los Angeles: Atlanta / Georgia, Construction Financing - Los Angeles / California - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes..., Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments, Construction Financing - New York - Dwight Mortgage Trust Lends $55M on Rockland County, N.Y., Multifamily Development, Dallas / Texas, Disposition / Exit - Atlanta / Georgia - Charlotte Apartment Project Fetches $107M, Disposition / Exit - Atlanta / Georgia - Eaton Vance Picks Charlotte Rental Community for $65.8M, Disposition / Exit - Los Angeles / California - Covina Apartments Trade on In-Place Cash Flow, Rental Upside, Disposition / Exit - Los Angeles / California - Metro breaks ground on North Hollywood - Pasadena BRT line, Entitlement / Permitting - Atlanta / Georgia - Cambridge Properties Bringing New Life to Aging Charlotte Center, Entitlement / Permitting - Los Angeles / California - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown, Entitlement / Permitting - Los Angeles / California - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills, Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A..., Entitlement / Permitting - Santa Monica / California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica, General Project Signal - Atlanta / Georgia - Insignia Pursuing Embassy Row Redevelopment, General Project Signal - Los Angeles / California - Affordable housing slated for 1418 S. Mansfield Ave. in Mid-City, JV / Partnership - Los Angeles / California - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing, JV / Partnership - Santa Monica / California - RAND reviews ULA impacts, Mayor's race focuses on housing, and more, Las Vegas / Nevada, Los Angeles, Los Angeles / California, Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South..., National Landing, Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Commences Office-to-Residential Conversion in National Landing, Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi, Refinancing - New York City / New York - PNC Bank Refis West Village Apartment Building With $404M Loan
+- New York: Manhattan, New York, New York City, New York City / New York, Office-to-Residential Conversion - New York City / New York - Speaker Spotlight: Adam Greene of RXR
+- Sun Belt: Acquisition - Miami / Florida - Miami Apartments Trade for $109.9M, Acquisition - Phoenix / Arizona - Wood Partners Sells 278-Unit Alta Rise Multifamily Community in Gilbert, Arizona, Atlanta, Austin, BTR / Build-to-Rent - Phoenix / Arizona - Work Begins on 94-Unit Scottsdale Luxury BTR Community, Dallas, Disposition / Exit - Miami / Florida - Grand Peaks Sells Miami-Area Apartments for $65.5M, General Project Signal - Miami / Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan, General Project Signal - Phoenix / Arizona - Empire Group Starts Work on $170M Phoenix Apartment Tower, Miami / Florida, Phoenix, Phoenix / Arizona, Sun Belt
 
 ## Weak Matches Needing Manual Review
 
-- Acquisition - Arizona - Wood Partners Sells 278-Unit Alta Rise Multifamily Community in Gilbert, Arizona -> Acquisition - Arizona - Wood Partners Sells 278-Unit Alta Rise Multifamily Community in Gilbert, Arizona (40, relationship_graph.csv)
-- Acquisition - Florida - Aventon to Build 270-Unit Port Richey Rental Community -> Acquisition - Florida - Aventon to Build 270-Unit Port Richey Rental Community (40, relationship_graph.csv)
-- Acquisition - Other / Unknown - Avison Young Negotiates $19.1M Sale of Apartment Building in Wethersfield, Connecticut -> Acquisition - Other / Unknown - Avison Young Negotiates $19.1M Sale of Apartment Building in Wethersfield, Connecticut (40, relationship_graph.csv)
+- Acquisition - Port Richey / Florida - Aventon to Build 270-Unit Port Richey Rental Community -> Acquisition - Port Richey / Florida - Aventon to Build 270-Unit Port Richey Rental Community (40, relationship_graph.csv)
+- Acquisition - Wethersfield / Connecticut - Avison Young Negotiates $19.1M Sale of Apartment Building in Wethersfield, Connecticut -> Acquisition - Wethersfield / Connecticut - Avison Young Negotiates $19.1M Sale of Apartment Building in Wethersfield, Connecticut (40, relationship_graph.csv)
 - Alliance Residential -> Alliance Residential (40, deal_pipeline.csv)
 - Alliance Residential -> Alliance Residential (40, gp_intelligence.csv)
 - Alliance Residential -> Alliance Residential (40, institutional_relationships.csv)
 - Alliance Residential -> Alliance Residential (40, relationship_graph.csv)
-- Arizona -> Arizona (40, articles.csv)
-- Arizona -> Arizona (40, deal_pipeline.csv)
 - Arizona -> Arizona (40, regional_intelligence.csv)
-- Arizona -> Arizona (40, relationship_graph.csv)
-- Disposition / Exit - California - Carlsbad Lifestyle Center Fetches $91M in Sale to 11North -> California (60, relationship_graph.csv)
-- JV / Partnership - California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex -> California (60, relationship_graph.csv)
-- Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties -> California (60, relationship_graph.csv)
-- Crescent Communities -> Crescent Communities (40, deal_pipeline.csv)
+- Riverside / California -> California (60, articles.csv)
+- Riverside / California -> California (60, deal_pipeline.csv)
+- Riverside / California -> California (60, relationship_graph.csv)
+- San Francisco / California -> California (60, articles.csv)
+- San Francisco / California -> California (60, deal_pipeline.csv)
+- San Francisco / California -> California (60, relationship_graph.csv)
+- Santa Monica / California -> California (60, articles.csv)
+- Santa Monica / California -> California (60, deal_pipeline.csv)
 
 ## Relationship Graph Improvement Notes
 

@@ -1,14 +1,14 @@
 # Run Summary
 
-Generated: 2026-06-01 05:46:34
+Generated: 2026-06-01 06:48:06
 
 ## Quick Counts
 
-- Total articles saved: 75
-- High-confidence signals: 20
-- Opportunities: 51
-- Distress signals: 11
-- LA asset watch items: 54
+- Total articles saved: 65
+- High-confidence signals: 28
+- Opportunities: 43
+- Distress signals: 10
+- LA asset watch items: 44
 - Dashboard cards: 38
 - Pipeline health status: OK
 
@@ -21,7 +21,7 @@ Generated: 2026-06-01 05:46:34
 
 ## Top Dashboard Signal
 
-- Alliance Residential (Capital Flow)
+- Arizona (Capital Flow)
 
 ## Suggested Next Action
 

@@ -1,8 +1,8 @@
 # LA / Southern California Asset Watch Report
 
-Generated: 2026-06-01 06:48:13
+Generated: 2026-06-01 07:28:41
 
-- Total LA / Southern California asset watch items: 44
+- Total LA / Southern California asset watch items: 53
 
 ## Top LA Site-Level Opportunities
 
@@ -21,14 +21,14 @@ Generated: 2026-06-01 06:48:13
 
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: Los Angeles, General Asset Signal, la_asset_risk_score 64.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 61.
-- Construction Financing - Los Angeles / California - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 55.
-- Refinancing - New York City / New York - PNC Bank Refis West Village Apartment Building With $404M Loan: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 55.
-- Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 45.
+- Construction Financing - Los Angeles / California - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 56.
+- Refinancing - New York City / New York - PNC Bank Refis West Village Apartment Building With $404M Loan: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 56.
+- Refinancing - Moreno Valley / California - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments Villa Annette: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 51.
+- Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 47.
+- Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 46.
 - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Los Angeles, Entitlement Play, la_asset_risk_score 44.
 - Construction Financing - New York - Dwight Mortgage Trust Lends $55M on Rockland County, N.Y., Multifamily Development: Los Angeles, General Asset Signal, la_asset_risk_score 44.
-- Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 43.
 - JBG SMITH Commences Office-to-Residential Conversion in National Landing: Los Angeles, Office-to-Residential Conversion, la_asset_risk_score 36.
-- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Commences Office-to-Residential Conversion in National Landing: Los Angeles, Office-to-Residential Conversion, la_asset_risk_score 36.
 
 ## Koreatown / Wilshire Site Watch
 
@@ -36,9 +36,12 @@ Generated: 2026-06-01 06:48:13
 
 ## DTLA / Office Conversion Site Watch
 
+- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: Los Angeles, Office-to-Residential Conversion, la_asset_opportunity_score 84.
 - JBG SMITH Commences Office-to-Residential Conversion in National Landing: Los Angeles, Office-to-Residential Conversion, la_asset_opportunity_score 80.
 - Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Commences Office-to-Residential Conversion in National Landing: Los Angeles, Office-to-Residential Conversion, la_asset_opportunity_score 79.
-- JBG SMITH Commences Office-to-Residential Conversion in National Landing: Los Angeles, Office-to-Residential Conversion, la_asset_opportunity_score 44.
+- JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virginia: Los Angeles, Office-to-Residential Conversion, la_asset_opportunity_score 76.
+- JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virginia: Los Angeles, Office-to-Residential Conversion, la_asset_opportunity_score 45.
+- JBG SMITH Commences Office-to-Residential Conversion in National Landing: Los Angeles, Office-to-Residential Conversion, la_asset_opportunity_score 45.
 
 ## Hollywood / TOD Site Watch
 
@@ -77,9 +80,9 @@ Generated: 2026-06-01 06:48:13
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 70
-- LA lifecycle watch items: 44
-- Stage mix: Delivery / Opening: 6, Unknown Stage: 35, Refinancing / Recapitalization: 11, Site Acquisition / Site Control: 13, Vertical Construction: 3
+- Lifecycle records: 82
+- LA lifecycle watch items: 50
+- Stage mix: Delivery / Opening: 8, Unknown Stage: 40, Refinancing / Recapitalization: 12, Site Acquisition / Site Control: 16, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -87,11 +90,11 @@ Generated: 2026-06-01 06:48:13
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 70
-- Newly detected projects: 33
+- Lifecycle transitions analyzed: 82
+- Newly detected projects: 12
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 42
+- LA lifecycle transition watch items: 48
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -99,10 +102,10 @@ Generated: 2026-06-01 06:48:13
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 561
-- Canonical projects: 151
-- Duplicate project clusters: 91
-- Persistent assets tracked: 151
-- LA persistent asset watch items: 105
+- Raw project references: 645
+- Canonical projects: 172
+- Duplicate project clusters: 106
+- Persistent assets tracked: 172
+- LA persistent asset watch items: 116
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

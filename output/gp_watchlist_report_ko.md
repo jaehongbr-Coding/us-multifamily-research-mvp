@@ -1,6 +1,6 @@
 # 한국어 GP Watchlist
 
-- 생성 시각: 2026-06-01 06:48:06
+- 생성 시각: 2026-06-01 07:28:33
 - 참고 원문 파일: `gp_watchlist_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -15,9 +15,9 @@
 
 ## 기관자본 연결성
 
+- Wood Partners: 기타 / 미확인, 아파트, 점수 100 (Capital Inflow; Potential JV / Partnership Signal)
 - Alliance Residential: 기타 / 미확인, 아파트, 점수 99 (Capital Inflow; Potential JV / Partnership Signal)
 - Lincoln Property Company: 기타 / 미확인, 아파트, 점수 98 (Development Capital Deployment; GP Capability Benchmark Signal)
-- Wood Partners: 기타 / 미확인, 아파트, 점수 98 (Capital Inflow; Potential JV / Partnership Signal)
 - Crescent Communities: 기타 / 미확인, 멀티패밀리, 점수 88 (Refinancing / Recapitalization; Potential JV / Partnership Signal)
 - Blackstone: 기타 / 미확인, 일반 주거, 점수 74 (Refinancing / Recapitalization; Capital Partner Tracking Signal)
 

@@ -1,10 +1,10 @@
 # GP / Developer Intelligence Report
 
-Generated: 2026-06-01 06:48:11
+Generated: 2026-06-01 07:28:39
 
 ## Top Institutional Signals
 
-- Wood Partners: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- Wood Partners: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
 - Alliance Residential: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Riverside / California, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
 - Crescent Communities: refinancing; JV / partnership; operational technology / AI adoption, Sarasota / Florida, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
 - Blackstone: refinancing, New York, sources: Developer / GP Newsrooms, strength 70. capital market sentiment indicator; track refinancing pipeline.
@@ -13,7 +13,7 @@ Generated: 2026-06-01 06:48:11
 
 ## Major GP Strategic Movements
 
-- Wood Partners: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- Wood Partners: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
 - Alliance Residential: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Riverside / California, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
 - Crescent Communities: refinancing; JV / partnership; operational technology / AI adoption, Sarasota / Florida, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
 - Blackstone: refinancing, New York, sources: Developer / GP Newsrooms, strength 70. capital market sentiment indicator; track refinancing pipeline.
@@ -30,7 +30,7 @@ Generated: 2026-06-01 06:48:11
 
 ## BTR / Modular / Innovation Watch
 
-- Wood Partners: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- Wood Partners: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
 - Alliance Residential: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Riverside / California, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
 - Crescent Communities: refinancing; JV / partnership; operational technology / AI adoption, Sarasota / Florida, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
 - Lincoln Property Company: entitlement; operational technology / AI adoption, Santa Monica / California, sources: Regional / California / LA Sources, strength 61. competitive pressure indicator; track construction innovation strategy.
@@ -42,7 +42,7 @@ Generated: 2026-06-01 06:48:11
 
 ## Potential Partnership Signals
 
-- Wood Partners: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- Wood Partners: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
 - Alliance Residential: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Riverside / California, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
 - Crescent Communities: refinancing; JV / partnership; operational technology / AI adoption, Sarasota / Florida, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
 
@@ -50,9 +50,9 @@ Generated: 2026-06-01 06:48:11
 
 Firm-tier weighting, capital-flow inference, and relationship scoring are available in `institutional_relationship_report.md`.
 
+- Wood Partners: Tier 3 / Growth and Market Signal Watch, Capital Inflow, Potential JV / Partnership Signal.
 - Alliance Residential: Tier 3 / Growth and Market Signal Watch, Capital Inflow, Potential JV / Partnership Signal.
 - Lincoln Property Company: Tier 2 / Strategic Watch, Development Capital Deployment, GP Capability Benchmark Signal.
-- Wood Partners: Tier 3 / Growth and Market Signal Watch, Capital Inflow, Potential JV / Partnership Signal.
 
 ## Deal / Project Pipeline Context
 

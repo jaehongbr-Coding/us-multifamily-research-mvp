@@ -1,35 +1,36 @@
 # 한국어 스트레스 / 부실 Watchlist
 
-- 생성 시각: 2026-06-01 06:48:06
+- 생성 시각: 2026-06-01 07:28:33
 - 참고 원문 파일: `distress_watchlist_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
 ## 리파이낸싱 압박
 
-- refinancing stress: Sarasota / Florida, 멀티패밀리, 점수 64 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
-- refinancing stress: New York City / New York, 아파트, 점수 61 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
+- refinancing stress: Sarasota / Florida, 멀티패밀리, 점수 65 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
+- refinancing stress: New York City / New York, 아파트, 점수 62 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
 - refinancing stress: Denver / Colorado, 일반 주거, 점수 52 (Monitor for repeated distress signals)
-- refinancing stress: Atlanta / Georgia, 학생주택, 점수 45 (Monitor for repeated distress signals)
+- refinancing stress: Atlanta / Georgia, 학생주택, 점수 51 (Monitor for repeated distress signals)
+- refinancing stress: New York City / New York, 멀티패밀리, 점수 49 (Monitor for repeated distress signals)
 
 ## 공사금융 갭
 
 - construction loan gap: California, 아파트, 점수 76 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
-- construction loan gap: Los Angeles / California, 어포더블 하우징, 점수 61 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
+- construction loan gap: Los Angeles / California, 어포더블 하우징, 점수 62 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
+- construction loan gap: Miami / Florida, 아파트, 점수 59 (Monitor for repeated distress signals)
 - construction loan gap: New York, 주거복합, 점수 55 (Monitor for repeated distress signals)
-- construction loan gap: Miami / Florida, 아파트, 점수 54 (Monitor for repeated distress signals)
 
 ## 부실 / 지연 프로젝트
 
 - construction loan gap: California, 아파트, 점수 76 (High Distress Watch)
 - recapitalization need: California, 어포더블 하우징, 점수 67 (High Distress Watch)
-- refinancing stress: Sarasota / Florida, 멀티패밀리, 점수 64 (High Distress Watch)
-- construction loan gap: Los Angeles / California, 어포더블 하우징, 점수 61 (High Distress Watch)
-- refinancing stress: New York City / New York, 아파트, 점수 61 (High Distress Watch)
+- refinancing stress: Sarasota / Florida, 멀티패밀리, 점수 65 (High Distress Watch)
+- construction loan gap: Los Angeles / California, 어포더블 하우징, 점수 62 (High Distress Watch)
+- refinancing stress: New York City / New York, 아파트, 점수 62 (High Distress Watch)
+- construction loan gap: Miami / Florida, 아파트, 점수 59 (Monitor)
 - bridge loan stress: Miami / Florida, 아파트, 점수 58 (Monitor)
 - construction loan gap: New York, 주거복합, 점수 55 (Monitor)
-- construction loan gap: Miami / Florida, 아파트, 점수 54 (Monitor)
 - refinancing stress: Denver / Colorado, 일반 주거, 점수 52 (Monitor)
-- refinancing stress: Atlanta / Georgia, 학생주택, 점수 45 (Monitor)
+- refinancing stress: Atlanta / Georgia, 학생주택, 점수 51 (Monitor)
 
 ## 우미 관점 기회 가능성
 

@@ -1,11 +1,11 @@
 # Source Recovery Report
 
-Generated: 2026-06-01 06:48:11
+Generated: 2026-06-01 07:28:39
 
 ## Summary
 
 - Sources reviewed: 163
-- Failing attempted sources: 14
+- Failing attempted sources: 13
 - Focus sources reviewed: 11
 
 ## Focus Source Status
@@ -34,7 +34,6 @@ Generated: 2026-06-01 06:48:11
 | Berkadia Research | Failed | rss_changed | 83 | 15 | 51 | homepage reachable | RSS feed failed, but fallback page is reachable; consider source-specific parser or sitemap ingestion. |
 | Hines Source Expansion | Failed | paywall_restricted | 83 | 15 | 37 | no reliable fallback found | Do not scrape restricted content; use public RSS, summary pages, or manual intake only. |
 | California YIMBY | Failed | feed_parse_error | 8 | 80 | 8 | no reliable fallback found | Inspect feed format; may require alternate feed URL or tolerant XML parsing. |
-| Yield PRO | Failed | paywall_restricted | 15 | 15 | 71 | sitemap reachable | RSS feed failed, but fallback page is reachable; consider source-specific parser or sitemap ingestion. |
 | Hines Newsroom | Failed | paywall_restricted | 68 | 0 | 0 | no reliable fallback found | Do not scrape restricted content; use public RSS, summary pages, or manual intake only. |
 | Commercial Property Executive | Failed | paywall_restricted | 37 | 39 | 67 | no reliable fallback found | Do not scrape restricted content; use public RSS, summary pages, or manual intake only. |
 | Urban Land Institute | Failed | paywall_restricted | 55 | 15 | 37 | not probed | Do not scrape restricted content; use public RSS, summary pages, or manual intake only. |

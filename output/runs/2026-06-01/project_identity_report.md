@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-06-01 06:48:13
+Generated: 2026-06-01 07:28:42
 
-- Total raw project references: 561
-- Total canonical projects: 151
-- Duplicate project clusters: 91
-- High-confidence project identities: 561
+- Total raw project references: 645
+- Total canonical projects: 172
+- Duplicate project clusters: 106
+- High-confidence project identities: 645
 - Low-confidence identities needing review: 0
-- LA / California project references: 390
+- LA / California project references: 434
 
 ## Top Repeated Projects
 
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: 51 occurrence(s), confidence 80.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: 51 occurrence(s), confidence 80.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: 51 occurrence(s), confidence 80.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: 51 occurrence(s), confidence 80.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: 51 occurrence(s), confidence 80.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: 51 occurrence(s), confidence 80.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: 51 occurrence(s), confidence 80.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: 51 occurrence(s), confidence 80.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: 51 occurrence(s), confidence 80.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: 51 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: 59 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: 59 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: 59 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: 59 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: 59 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: 59 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: 59 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: 59 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: 59 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: 59 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

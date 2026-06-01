@@ -1,14 +1,14 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-06-01 06:48:13
+Generated: 2026-06-01 07:28:42
 
-- Total LA lifecycle watch items: 44
+- Total LA lifecycle watch items: 50
 
 ## LA Lifecycle Stage Distribution
 
-- Unknown Stage: 19
-- Site Acquisition / Site Control: 10
-- Refinancing / Recapitalization: 8
+- Unknown Stage: 22
+- Site Acquisition / Site Control: 12
+- Refinancing / Recapitalization: 9
 - Delivery / Opening: 3
 - Vertical Construction: 2
 - Entitlement Under Review: 2
@@ -58,18 +58,18 @@ Generated: 2026-06-01 06:48:13
 - Monitor lifecycle status for repeated confirmation: Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica.
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - New York City / New York - PNC Bank Refis West Village Apartment Building With $404M Loan.
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Moreno Valley / California - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments Villa Annette.
 - Monitor lifecycle status for repeated confirmation: Construction Financing - New York - Dwight Mortgage Trust Lends $55M on Rockland County, N.Y., Multifamily Development.
-- Track construction progress and delivery timeline: JV / Partnership - Los Angeles / California - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 70
-- Newly detected projects: 33
+- Lifecycle transitions analyzed: 82
+- Newly detected projects: 12
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 42
+- LA lifecycle transition watch items: 48
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -77,10 +77,10 @@ Generated: 2026-06-01 06:48:13
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 561
-- Canonical projects: 151
-- Duplicate project clusters: 91
-- Persistent assets tracked: 151
-- LA persistent asset watch items: 105
+- Raw project references: 645
+- Canonical projects: 172
+- Duplicate project clusters: 106
+- Persistent assets tracked: 172
+- LA persistent asset watch items: 116
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

@@ -1,8 +1,8 @@
 # Deal & Project Pipeline Report
 
-Generated: 2026-06-01 06:48:11
+Generated: 2026-06-01 07:28:39
 
-- Total deal/project signals found: 48
+- Total deal/project signals found: 54
 - High deal intelligence count: 3
 
 ## Top 10 Deal / Project Signals
@@ -49,9 +49,9 @@ Generated: 2026-06-01 06:48:11
 - Disposition / Exit - Atlanta / Georgia - Eaton Vance Picks Charlotte Rental Community for $65.8M: Disposition / Exit, Atlanta / Georgia, score 69. Capital market signal.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: General Project Signal, California, score 66. Capital market signal.
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Construction Financing, Miami / Florida, score 65. Capital market signal.
+- Refinancing - Moreno Valley / California - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments Villa Annette: Refinancing, Moreno Valley / California, score 65. Capital market signal.
 - JV / Partnership - Washington DC - IPA Arranges $27M Acquisition Loan for Apartment Community in D.C’s NoMa District: JV / Partnership, Washington DC, score 64. Pricing benchmark.
 - General Project Signal - Miami / Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: General Project Signal, Miami / Florida, score 63. Capital market signal.
-- Construction Financing - New York - Dwight Mortgage Trust Lends $55M on Rockland County, N.Y., Multifamily Development: Construction Financing, New York, score 62. Capital market signal.
 
 ## Project Pipeline / Supply Signals
 
@@ -59,12 +59,12 @@ Generated: 2026-06-01 06:48:11
 - Construction Financing - Los Angeles / California - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Construction Financing, Los Angeles / California, score 75. Capital market signal.
 - Entitlement / Permitting - Los Angeles / California - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown: Entitlement / Permitting, Los Angeles / California, score 75. Entitlement / zoning watch.
 - Acquisition - Wethersfield / Connecticut - Avison Young Negotiates $19.1M Sale of Apartment Building in Wethersfield, Connecticut: Acquisition, Wethersfield / Connecticut, score 74. Pricing benchmark.
+- Disposition / Exit - Denver / Colorado - Colorado Coalition for the Homeless Converting Downtown Denver YMCA Space to Multifamily A...: Disposition / Exit, Denver / Colorado, score 67. Underwriting benchmark.
 - Entitlement / Permitting - Santa Monica / California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Entitlement / Permitting, Santa Monica / California, score 67. Entitlement / zoning watch.
 - Entitlement / Permitting - Los Angeles / California - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Entitlement / Permitting, Los Angeles / California, score 55. Entitlement / zoning watch.
 - General Project Signal - Los Angeles / California - Affordable housing slated for 1418 S. Mansfield Ave. in Mid-City: General Project Signal, Los Angeles / California, score 55. Underwriting benchmark.
+- General Project Signal - Atlanta / Georgia - Insignia Pursuing Embassy Row Multifamily Mixed-Use Redevelopment in Atlanta: General Project Signal, Atlanta / Georgia, score 55. Underwriting benchmark.
 - Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: Entitlement / Permitting, San Francisco / California, score 52. Entitlement / zoning watch.
-- General Project Signal - Atlanta / Georgia - Insignia Pursuing Embassy Row Redevelopment: General Project Signal, Atlanta / Georgia, score 50. Underwriting benchmark.
-- Entitlement / Permitting - Atlanta / Georgia - Cambridge Properties Bringing New Life to Aging Charlotte Center: Entitlement / Permitting, Atlanta / Georgia, score 43. Entitlement / zoning watch.
 
 ## BTR / Modular / Innovation Signals
 
@@ -77,18 +77,19 @@ Generated: 2026-06-01 06:48:11
 - Acquisition - Wethersfield / Connecticut - Avison Young Negotiates $19.1M Sale of Apartment Building in Wethersfield, Connecticut: Acquisition, Wethersfield / Connecticut, score 74. Pricing benchmark.
 - JV / Partnership - Washington DC - IPA Arranges $27M Acquisition Loan for Apartment Community in D.C’s NoMa District: JV / Partnership, Washington DC, score 64. Pricing benchmark.
 - Disposition / Exit - Los Angeles / California - Covina Apartments Trade on In-Place Cash Flow, Rental Upside: Disposition / Exit, Los Angeles / California, score 61. Pricing benchmark.
+- Refinancing - New York City / New York - Affinius Capital Led Joint Venture Closes $3.5B Acquisition of Veris Residential: Refinancing, New York City / New York, score 57. Pricing benchmark.
 - Acquisition - Miami / Florida - Miami Apartments Trade for $109.9M: Acquisition, Miami / Florida, score 50. Pricing benchmark.
 
 ## Deal / Project Signals By Residential Sector
 
-- Apartment: 21 deal/project signal(s)
-- Multifamily: 9 deal/project signal(s)
-- Affordable Housing: 8 deal/project signal(s)
+- Apartment: 22 deal/project signal(s)
+- Multifamily: 10 deal/project signal(s)
+- Affordable Housing: 10 deal/project signal(s)
 - General Residential: 3 deal/project signal(s)
-- Office-to-Residential Conversion: 2 deal/project signal(s)
+- Office-to-Residential Conversion: 3 deal/project signal(s)
+- Mixed-Use Residential: 2 deal/project signal(s)
 - Student Housing: 2 deal/project signal(s)
 - Senior Housing: 1 deal/project signal(s)
-- Mixed-Use Residential: 1 deal/project signal(s)
 - BTR / Single-Family Rental: 1 deal/project signal(s)
 
 ## Canonical Deal Summary

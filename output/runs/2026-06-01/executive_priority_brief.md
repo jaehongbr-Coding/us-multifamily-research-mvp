@@ -1,12 +1,12 @@
 # Executive Priority Brief
 
-Generated: 2026-06-01 06:48:11
+Generated: 2026-06-01 07:28:39
 
 ## Top 3 Executive Priorities
 
 - Rank 1: Financing Stress (100, Tier 1 Executive Attention)
 - Rank 2: Selective Capital Re-entry (100, Tier 1 Executive Attention)
-- Rank 3: Developer Strategy Shift (98, Tier 2 Strategic Review)
+- Rank 3: Supply Pressure (100, Tier 2 Strategic Review)
 
 ## Full Priority Table
 
@@ -14,10 +14,10 @@ Generated: 2026-06-01 06:48:11
 | ---: | --- | ---: | --- | --- | --- |
 | 1 | Financing Stress | 100 | Tier 1 Executive Attention | Finance / Treasury; Investment Team; Executive Committee; US Local Team | This Week |
 | 2 | Selective Capital Re-entry | 100 | Tier 1 Executive Attention | Investment Team; Strategy Team; Executive Committee; US Local Team | This Week |
-| 3 | Developer Strategy Shift | 98 | Tier 2 Strategic Review | Strategy Team; Development Team; US Local Team | This Week |
-| 4 | Policy / Entitlement Watch | 95 | Tier 2 Strategic Review | Development Team; US Local Team; Strategy Team | This Week |
-| 5 | Supply Pressure | 84 | Tier 3 Monitoring | Investment Team; Development Team; US Local Team | This Week |
-| 6 | Construction Cost Pressure | 23 | Tier 3 Monitoring | Development Team; Investment Team; US Local Team | Background Tracking |
+| 3 | Supply Pressure | 100 | Tier 2 Strategic Review | Investment Team; Development Team; US Local Team | This Week |
+| 4 | Developer Strategy Shift | 98 | Tier 2 Strategic Review | Strategy Team; Development Team; US Local Team | This Week |
+| 5 | Policy / Entitlement Watch | 95 | Tier 3 Monitoring | Development Team; US Local Team; Strategy Team | This Week |
+| 6 | Construction Cost Pressure | 31 | Tier 3 Monitoring | Development Team; Investment Team; US Local Team | Background Tracking |
 
 ## Tier 1 Executive Attention
 
@@ -26,13 +26,13 @@ Generated: 2026-06-01 06:48:11
 
 ## Tier 2 Strategic Review
 
-- Rank 3: Developer Strategy Shift (98). Developer strategy signals should be reviewed because they may reveal capability needs in product, operations, partnerships, or delivery model. Owner: Strategy Team; Development Team; US Local Team. Timing: This Week.
-- Rank 4: Policy / Entitlement Watch (95). Policy and entitlement signals should be monitored because they may affect approvals, zoning strategy, and local development feasibility. Owner: Development Team; US Local Team; Strategy Team. Timing: This Week.
+- Rank 3: Supply Pressure (100). Supply and lease-up signals should be monitored because they may affect rent growth, vacancy, and development timing. Owner: Investment Team; Development Team; US Local Team. Timing: This Week.
+- Rank 4: Developer Strategy Shift (98). Developer strategy signals should be reviewed because they may reveal capability needs in product, operations, partnerships, or delivery model. Owner: Strategy Team; Development Team; US Local Team. Timing: This Week.
 
 ## Monitoring Items
 
-- Rank 5: Supply Pressure (84). Supply and lease-up signals should be monitored because they may affect rent growth, vacancy, and development timing. Owner: Investment Team; Development Team; US Local Team. Timing: This Week.
-- Rank 6: Construction Cost Pressure (23). Construction cost signals should be reviewed because they may affect feasibility, contingencies, and value engineering. Owner: Development Team; Investment Team; US Local Team. Timing: Background Tracking.
+- Rank 5: Policy / Entitlement Watch (95). Policy and entitlement signals should be monitored because they may affect approvals, zoning strategy, and local development feasibility. Owner: Development Team; US Local Team; Strategy Team. Timing: This Week.
+- Rank 6: Construction Cost Pressure (31). Construction cost signals should be reviewed because they may affect feasibility, contingencies, and value engineering. Owner: Development Team; Investment Team; US Local Team. Timing: Background Tracking.
 
 ## Scenario Context
 
@@ -59,9 +59,9 @@ Developer and GP platform intelligence is available in `gp_intelligence_report.m
 Institutional relationship and capital-flow intelligence is available in `institutional_relationship_report.md`.
 Use that report to compare GP partnership, pricing discovery, and capital partner tracking signals.
 
+- Wood Partners: Potential JV / Partnership Signal, Capital Inflow, score 100.
 - Alliance Residential: Potential JV / Partnership Signal, Capital Inflow, score 99.
 - Lincoln Property Company: GP Capability Benchmark Signal, Development Capital Deployment, score 98.
-- Wood Partners: Potential JV / Partnership Signal, Capital Inflow, score 98.
 
 ## Deal / Project Pipeline Context
 
@@ -115,16 +115,16 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 - Review financing assumptions and debt sensitivity for the US residential development pipeline.
 - Track institutional capital activity, pricing discovery, and potential GP or capital partner signals.
+- Review supply pressure, lease-up, vacancy, concession, and rent-growth assumptions in relevant multifamily markets.
 - Discuss developer capability priorities across BTR, modular construction, operations technology, and amenity strategy.
-- Review LA / California entitlement, zoning, and permitting changes that may affect market-entry strategy.
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 70
-- LA lifecycle watch items: 44
-- Stage mix: Delivery / Opening: 6, Unknown Stage: 35, Refinancing / Recapitalization: 11, Site Acquisition / Site Control: 13, Vertical Construction: 3
+- Lifecycle records: 82
+- LA lifecycle watch items: 50
+- Stage mix: Delivery / Opening: 8, Unknown Stage: 40, Refinancing / Recapitalization: 12, Site Acquisition / Site Control: 16, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -132,11 +132,11 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 70
-- Newly detected projects: 33
+- Lifecycle transitions analyzed: 82
+- Newly detected projects: 12
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 42
+- LA lifecycle transition watch items: 48
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -144,11 +144,11 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 561
-- Canonical projects: 151
-- Duplicate project clusters: 91
-- Persistent assets tracked: 151
-- LA persistent asset watch items: 105
+- Raw project references: 645
+- Canonical projects: 172
+- Duplicate project clusters: 106
+- Persistent assets tracked: 172
+- LA persistent asset watch items: 116
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -156,11 +156,11 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 151
+- Signals evaluated: 172
 - Institutional-grade signals: 7
-- High-confidence signals: 28
-- Weak/noisy signals: 104
-- High-confidence watchlist items: 28
+- High-confidence signals: 34
+- Weak/noisy signals: 117
+- High-confidence watchlist items: 34
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 
 
@@ -170,6 +170,6 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 - Dashboard cards: 38
 - Dashboard watchlist items: 94
-- Recommended focus: Review Construction Financing - New York - Dwight Mortgage Trust Lends $55M on Rockland County, N.Y., Multifamily Development and related high-confidence project signals.
+- Recommended focus: Review JV / Partnership - Riverside / California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex and related high-confidence project signals.
 - Start with `executive_dashboard_brief.md`, then review `dashboard_cards.csv` and `dashboard_watchlists.csv` for future dashboard inputs.
 

@@ -1,7 +1,7 @@
 ﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
-20260601-064806-993581e0,2026-06-01,Construction financing still selective,Persistent,stable,24,16,24,5.29,3.62,4,4,4,1,Los Angeles / California,Moderate Signal,steady visibility,
-20260601-064806-993581e0,2026-06-01,Institutional recap over expansion,Persistent,stable,24,16,24,2.79,2.58,3,3,3,1,California,Moderate Signal,steady visibility,
-20260601-064806-993581e0,2026-06-01,JV / partnership activity observed,Weakening,weakening,24,16,24,6.38,3.58,7,7,6,0,Santa Monica / California,Broadly Confirmed,JV / partnership activity observed visibility is weakening versus prior runs.,
-20260601-064806-993581e0,2026-06-01,LA entitlement precedent accumulation,Building,stable,24,16,24,9.96,3.25,10,10,5,0,Los Angeles / California,Moderate Signal,steady visibility,
-20260601-064806-993581e0,2026-06-01,Refinancing pressure unresolved,Weakening,weakening,24,16,24,5.29,3.92,4,4,4,3,Miami / Florida,Moderate Signal,Refinancing pressure unresolved visibility is weakening versus prior runs.,
-20260601-064806-993581e0,2026-06-01,Sun Belt lease-up pressure watch,Persistent,stable,24,16,24,2.96,2.54,4,4,3,0,National,Moderate Signal,steady visibility,
+20260601-072833-c2587107,2026-06-01,Construction financing still selective,Persistent,stable,25,17,25,5.24,3.6,4,4,4,1,Los Angeles / California,Moderate Signal,steady visibility,
+20260601-072833-c2587107,2026-06-01,Institutional recap over expansion,Building,stable,25,17,25,2.84,2.6,4,4,4,1,California,Moderate Signal,steady visibility,
+20260601-072833-c2587107,2026-06-01,JV / partnership activity observed,Persistent,stable,25,17,25,6.48,3.6,9,9,7,0,Northern Virginia / Virginia,Broadly Confirmed,steady visibility,
+20260601-072833-c2587107,2026-06-01,LA entitlement precedent accumulation,Persistent,stable,25,17,25,9.96,3.24,10,10,5,0,Los Angeles / California,Moderate Signal,steady visibility,
+20260601-072833-c2587107,2026-06-01,Refinancing pressure unresolved,Building,stable,25,17,25,5.32,3.92,6,6,5,3,Moreno Valley / California,Broadly Confirmed,steady visibility,
+20260601-072833-c2587107,2026-06-01,Sun Belt lease-up pressure watch,Persistent,stable,25,17,25,3.0,2.56,4,4,3,0,National,Moderate Signal,steady visibility,

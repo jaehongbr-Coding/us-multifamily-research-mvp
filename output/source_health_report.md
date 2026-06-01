@@ -1,16 +1,17 @@
 # Source Health Report
 
-Generated: 2026-06-01 06:48:06
+Generated: 2026-06-01 07:28:33
 
 - Total sources attempted: 163
-- Working sources: 23
-- Failing sources: 14
+- Working sources: 24
+- Failing sources: 13
 - Placeholder sources: 0
 - Disabled registered sources: 126
 
 ## High-Value Sources
 
 - Multifamily Executive (Core Multifamily News): 3 saved article(s).
+- Yield PRO (Core Multifamily News): 10 saved article(s).
 - Commercial Observer (Core Multifamily News): 4 saved article(s).
 - Connect CRE (Core Multifamily News): 3 saved article(s).
 - NAHB Eye on Housing - Multifamily (Public Agency / Housing Data): 15 saved article(s).
@@ -34,7 +35,6 @@ Generated: 2026-06-01 06:48:06
 
 ## Failing Sources
 
-- Yield PRO: RSS parsing issue: status=403; <unknown>:5:32: not well-formed (invalid token)
 - Multi-Housing News: RSS parsing issue: status=403; <unknown>:2:1246: not well-formed (invalid token)
 - GlobeSt: RSS parsing issue: status=404; <unknown>:2:0: syntax error
 - The Real Deal: RSS parsing issue: status=301; text/html; charset=utf-8 is not an XML media type
@@ -71,8 +71,8 @@ Developer / GP source coverage is available in `gp_source_coverage_report.md`.
 ## Source Activation Summary
 
 Validated source activation scoring is available in `source_activation_report.md`.
-- Working activated sources: 23
-- Failed critical sources: 12
+- Working activated sources: 24
+- Failed critical sources: 11
 - Highest quality source this run: Connect CRE (92).
 
 ## Recommended Source Improvement Actions

@@ -1,11 +1,12 @@
 # Timing Intelligence Report
 
-Generated: 2026-06-01 06:48:12
+Generated: 2026-06-01 07:28:40
 
-- Total timing signals detected: 41
+- Total timing signals detected: 46
 
 ## Top Timing Signals
 
+- Refinancing / Maturity Window in Moreno Valley / California: No explicit timing reference, score 71, Biweekly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
 - Refinancing / Maturity Window in New York City / New York: No explicit timing reference, score 71, Biweekly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
 - Construction Start in Other / Unknown: 2026, score 70, Weekly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
 - Construction Start in Other / Unknown: 2025, score 70, Weekly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
@@ -15,12 +16,13 @@ Generated: 2026-06-01 06:48:12
 - Distress Sale Timing in California: No explicit timing reference, score 68, Biweekly monitoring. Prepare sponsor, lender, and rescue-capital watchlist.
 - Refinancing / Maturity Window in Sarasota / Florida: No explicit timing reference, score 67, Biweekly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
 - Acquisition Window in Wethersfield / Connecticut: No explicit timing reference, score 65, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
-- Entitlement / Permitting in Los Angeles / California: No explicit timing reference, score 65, Biweekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
 
 ## Refinancing / Maturity Timing Watch
 
+- Refinancing / Maturity Window in Moreno Valley / California: No explicit timing reference, score 71, Biweekly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
 - Refinancing / Maturity Window in New York City / New York: No explicit timing reference, score 71, Biweekly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
 - Refinancing / Maturity Window in Sarasota / Florida: No explicit timing reference, score 67, Biweekly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
+- Refinancing / Maturity Window in New York City / New York: No explicit timing reference, score 61, Monthly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
 - Refinancing / Maturity Window in Atlanta / Georgia: No explicit timing reference, score 55, Monthly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
 - Refinancing / Maturity Window in Denver / Colorado: No explicit timing reference, score 49, Monitor Only monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
 
@@ -34,8 +36,8 @@ Generated: 2026-06-01 06:48:12
 - Construction Completion / Delivery in Riverside / California: No explicit timing reference, score 63, Monthly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
 - Construction Start in Los Angeles / California: No explicit timing reference, score 63, Monthly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
 - Construction Start in Other / Unknown: No explicit timing reference, score 58, Monthly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
+- Construction Start in Utah: No explicit timing reference, score 54, Monthly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
 - Construction Completion / Delivery in Other / Unknown: No explicit timing reference, score 53, Monthly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
-- Construction Start in Miami / Florida: No explicit timing reference, score 44, Monitor Only monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
 
 ## Entitlement / Permitting Timing Watch
 
@@ -53,7 +55,7 @@ Generated: 2026-06-01 06:48:12
 - Acquisition Window in Wethersfield / Connecticut: No explicit timing reference, score 65, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Acquisition Window in Phoenix / Arizona: No explicit timing reference, score 58, Monthly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Acquisition Window in Port Richey / Florida: No explicit timing reference, score 57, Monthly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
-- Acquisition Window in Miami / Florida: No explicit timing reference, score 46, Monitor Only monitoring. Monitor pricing evidence and possible acquisition outreach timing.
+- Acquisition Window in Miami / Florida: No explicit timing reference, score 47, Monitor Only monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Acquisition Window in Washington DC: No explicit timing reference, score 46, Monitor Only monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 
 ## LA / California Timing Signals
@@ -68,9 +70,9 @@ Generated: 2026-06-01 06:48:12
 
 ## Recommended Monitoring Cadence
 
-- Monthly: 21 timing signal(s)
-- Biweekly: 9 timing signal(s)
-- Monitor Only: 7 timing signal(s)
+- Monthly: 24 timing signal(s)
+- Biweekly: 10 timing signal(s)
+- Monitor Only: 8 timing signal(s)
 - Weekly: 4 timing signal(s)
 
 ## Implications for Woomi / Woomi Global
@@ -83,9 +85,9 @@ Generated: 2026-06-01 06:48:12
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 70
-- LA lifecycle watch items: 44
-- Stage mix: Delivery / Opening: 6, Unknown Stage: 35, Refinancing / Recapitalization: 11, Site Acquisition / Site Control: 13, Vertical Construction: 3
+- Lifecycle records: 82
+- LA lifecycle watch items: 50
+- Stage mix: Delivery / Opening: 8, Unknown Stage: 40, Refinancing / Recapitalization: 12, Site Acquisition / Site Control: 16, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -93,10 +95,10 @@ Generated: 2026-06-01 06:48:12
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 70
-- Newly detected projects: 33
+- Lifecycle transitions analyzed: 82
+- Newly detected projects: 12
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 42
+- LA lifecycle transition watch items: 48
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 

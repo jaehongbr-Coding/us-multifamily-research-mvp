@@ -1,11 +1,11 @@
 # Freshness Quality Report
 
-Generated: 2026-06-01 06:48:06
+Generated: 2026-06-01 07:28:33
 
 ## Freshness Summary
 
-- Total articles reviewed: 65
-- fresh_0_3d: 21
+- Total articles reviewed: 75
+- fresh_0_3d: 31
 - recent_4_14d: 22
 - stale_15_30d: 6
 - old_31d_plus: 16
@@ -32,15 +32,10 @@ Generated: 2026-06-01 06:48:06
 ## Old Articles Excluded From Development Activity Top Exposure
 
 - Best Year for Missing Middle Construction Since 2007 (NAHB Eye on Housing - Multifamily): marked historical/background.
-- Missing Middle Weakness (NAHB Eye on Housing - Multifamily): marked historical/background.
-- Multifamily Absorption Rate Remains Below 50% (NAHB Eye on Housing - Multifamily): marked historical/background.
 - Cambridge Properties Bringing New Life to Aging Charlotte Center (Connect CRE Charlotte): marked historical/background.
 - Builders Stay Cautious as Single-Family Permits Weaken (NAHB Eye on Housing - Multifamily): marked historical/background.
 - Fourth Quarter 2025 Multifamily Construction Data (NAHB Eye on Housing - Multifamily): marked historical/background.
-- Overall Housing Starts Inch Lower in 2025 (NAHB Eye on Housing - Multifamily): marked historical/background.
 - Third Quarter 2025 Multifamily Construction Data (NAHB Eye on Housing - Multifamily): marked historical/background.
-- August Private Residential Construction Spending Edges Higher (NAHB Eye on Housing - Multifamily): marked historical/background.
-- Multifamily Developer Confidence Increases in Third Quarter, But Still in Negative Territory (NAHB Eye on Housing - Multifamily): marked historical/background.
 - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter (NAHB Eye on Housing - Multifamily): marked historical/background.
 
 ## Old Articles Excluded From GP / Capital Activity

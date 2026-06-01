@@ -1,11 +1,11 @@
 # Signal Memory Report
 
-Generated: 2026-06-01 06:48:06
+Generated: 2026-06-01 07:28:33
 
 ## Signal Memory Summary
 
-- Total memory rows: 258
-- Status summary: Dormant Signal: 74; Persistent Signal: 73; Early Watch: 42; New Signal: 36; Strengthening Signal: 31; Weakening Signal: 2
+- Total memory rows: 266
+- Status summary: Dormant Signal: 74; Persistent Signal: 73; New Signal: 44; Early Watch: 42; Strengthening Signal: 31; Weakening Signal: 2
 - Signal Memory is a repeated-observation tracker, not an investment decision engine.
 
 ## Strengthening Signals
@@ -33,13 +33,13 @@ Generated: 2026-06-01 06:48:06
 ## New / Early Watch Signals
 
 - disposition / Atlanta / Georgia: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- joint_venture / Northern Virginia / Virginia: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
 - planning_commission / Los Angeles / California: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- refinancing / New York City / New York: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
 - Developer Strategy / Las Vegas / Nevada: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
 - Developer Strategy / Atlanta / Georgia: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
 - Development Strategy / Los Angeles / California: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
-- Development Strategy / Miami / Florida: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
-- Rent Growth Signal / National: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
-- acquisition / Phoenix / Arizona: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- Development Strategy / West Palm Beach / Florida: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
 
 ## Weakening or Dormant Signals
 

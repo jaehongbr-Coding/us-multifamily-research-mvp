@@ -1,36 +1,36 @@
 # Residential Sector Coverage Report
 
-Generated: 2026-06-01 06:48:11
+Generated: 2026-06-01 07:28:39
 
 - Active residential sectors: 9
 
 ## Sector Coverage Summary
 
-- Apartment: 26 article(s), 13 high-priority, 21 deal/project, Core Strategy Sector.
-- Affordable Housing: 10 article(s), 7 high-priority, 8 deal/project, Strategic Expansion Sector.
-- Multifamily: 16 article(s), 3 high-priority, 9 deal/project, Core Strategy Sector.
-- Office-to-Residential Conversion: 2 article(s), 2 high-priority, 2 deal/project, Strategic Expansion Sector.
+- Apartment: 28 article(s), 15 high-priority, 22 deal/project, Core Strategy Sector.
+- Affordable Housing: 13 article(s), 9 high-priority, 10 deal/project, Strategic Expansion Sector.
+- Multifamily: 19 article(s), 5 high-priority, 10 deal/project, Core Strategy Sector.
+- Office-to-Residential Conversion: 3 article(s), 3 high-priority, 3 deal/project, Strategic Expansion Sector.
 - BTR / Single-Family Rental: 1 article(s), 1 high-priority, 1 deal/project, Strategic Expansion Sector.
 - Student Housing: 2 article(s), 0 high-priority, 2 deal/project, Strategic Expansion Sector.
-- Mixed-Use Residential: 3 article(s), 2 high-priority, 1 deal/project, Monitoring Sector.
+- Mixed-Use Residential: 4 article(s), 3 high-priority, 2 deal/project, Monitoring Sector.
 - Senior Housing: 1 article(s), 1 high-priority, 1 deal/project, Monitoring Sector.
 - General Residential: 4 article(s), 0 high-priority, 3 deal/project, Monitoring Sector.
 
 ## Top Residential Sectors By Relevance
 
 - Apartment: Core Strategy Sector, average relevance 88.0, dominant market Other / Unknown.
-- Affordable Housing: Strategic Expansion Sector, average relevance 87.1, dominant market Los Angeles / California.
-- Multifamily: Core Strategy Sector, average relevance 67.7, dominant market Other / Unknown.
-- Office-to-Residential Conversion: Strategic Expansion Sector, average relevance 87.5, dominant market Northern Virginia / Virginia.
+- Affordable Housing: Strategic Expansion Sector, average relevance 85.1, dominant market Los Angeles / California.
+- Multifamily: Core Strategy Sector, average relevance 68.6, dominant market Other / Unknown.
+- Office-to-Residential Conversion: Strategic Expansion Sector, average relevance 87.7, dominant market Northern Virginia / Virginia.
 - BTR / Single-Family Rental: Strategic Expansion Sector, average relevance 82.0, dominant market Phoenix / Arizona.
 - Student Housing: Strategic Expansion Sector, average relevance 61.0, dominant market Atlanta / Georgia.
-- Mixed-Use Residential: Monitoring Sector, average relevance 78.7, dominant market Los Angeles / California.
+- Mixed-Use Residential: Monitoring Sector, average relevance 84.0, dominant market Atlanta / Georgia.
 - Senior Housing: Monitoring Sector, average relevance 85.0, dominant market California.
 
 ## Multifamily / Apartment
 
-- Apartment: 26 article(s), 21 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
-- Multifamily: 16 article(s), 9 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
+- Apartment: 28 article(s), 22 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
+- Multifamily: 19 article(s), 10 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
 
 ## BTR / SFR
 
@@ -46,12 +46,12 @@ Generated: 2026-06-01 06:48:11
 
 ## Affordable / Workforce Housing
 
-- Affordable Housing: 10 article(s), 8 deal/project signal(s), Strategic Expansion Sector. Add to sector watchlist.
+- Affordable Housing: 13 article(s), 10 deal/project signal(s), Strategic Expansion Sector. Add to sector watchlist.
 - Workforce Housing: 0 article(s), 0 deal/project signal(s), Monitoring Sector. Add to sector watchlist.
 
 ## Office-to-Residential Conversion
 
-- Office-to-Residential Conversion: 2 article(s), 2 deal/project signal(s), Strategic Expansion Sector. Track conversion feasibility, policy support, and construction cost assumptions.
+- Office-to-Residential Conversion: 3 article(s), 3 deal/project signal(s), Strategic Expansion Sector. Track conversion feasibility, policy support, and construction cost assumptions.
 
 ## Sector Implications for Woomi / Woomi Global
 

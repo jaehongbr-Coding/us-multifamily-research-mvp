@@ -22,7 +22,9 @@ import re
 import sys
 from collections import Counter
 from datetime import datetime, timedelta
+from email.utils import parsedate_to_datetime
 from html import unescape
+from urllib.parse import urljoin, urlparse
 
 import feedparser
 import requests
@@ -97,6 +99,8 @@ GP_CAPITAL_COVERAGE_DIAGNOSTICS_REPORT_OUTPUT_FILE = os.path.join(
     OUTPUT_DIR,
     "gp_capital_coverage_diagnostics_report.md",
 )
+SOURCE_RECOVERY_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "source_recovery_report.md")
+FRESHNESS_QUALITY_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "freshness_quality_report.md")
 HISTORICAL_MEMORY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "historical_memory.csv")
 CAPITAL_FLOW_MEMORY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "capital_flow_memory.csv")
 RELATIONSHIP_PERSISTENCE_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "relationship_persistence.csv")
@@ -1880,6 +1884,12 @@ ARTICLE_CLASSIFICATION_FIELDS = [
     "section_routing_reason",
     "repeat_exposure_status",
     "days_since_first_seen",
+    "published_date_normalized",
+    "collected_date_normalized",
+    "article_age_days",
+    "freshness_bucket",
+    "freshness_status",
+    "freshness_reason",
     "freshness_score",
     "repeat_penalty_reason",
     "gp_capital_activity_type",
@@ -2420,6 +2430,8 @@ def apply_gp_capital_diagnostic_fields(articles):
         low_relevance = safe_int(article.get("relevance_score")) < 55 and safe_int(article.get("representative_evidence_score")) < 40
         integrity_issue = article.get("article_integrity_status") != "valid"
         repeat_penalty = article.get("repeat_exposure_status") == "repeat_penalized"
+        old_article = article.get("freshness_bucket") == "old_31d_plus"
+        stale_article = article.get("freshness_bucket") == "stale_15_30d"
         important_follow_up = (
             activity_type in strong_activity_types
             and safe_int(article.get("strategic_relevance_score")) >= 65
@@ -2441,10 +2453,20 @@ def apply_gp_capital_diagnostic_fields(articles):
             reasons.append("article integrity issue")
         if low_relevance:
             reasons.append("low relevance or thin evidence")
+        if old_article and not important_follow_up:
+            reasons.append("historical article over 30 days old")
+        elif stale_article and not important_follow_up:
+            reasons.append("stale 15-30 day article without strong follow-up signal")
         if article.get("access_status") == "paywall_or_limited":
             reasons.append("limited page access")
 
-        selected = not integrity_issue and not low_relevance and (not repeat_penalty or important_follow_up)
+        selected = (
+            not integrity_issue
+            and not low_relevance
+            and (not repeat_penalty or important_follow_up)
+            and (not old_article or important_follow_up)
+            and (not stale_article or important_follow_up)
+        )
         article["gp_capital_selected_flag"] = "Yes" if selected else "No"
         article["gp_capital_exclusion_reason"] = "; ".join(unique_list(reasons)) or "selected or retained for GP / capital review"
     return articles
@@ -3397,7 +3419,16 @@ def fetch_feed(feed_info):
         error_message = ""
 
         if feed.bozo and not feed.entries:
+            bozo_detail = str(getattr(feed, "bozo_exception", "") or "").strip()
+            status_detail = str(getattr(feed, "status", "") or "").strip()
+            detail_parts = []
+            if status_detail:
+                detail_parts.append(f"status={status_detail}")
+            if bozo_detail:
+                detail_parts.append(bozo_detail[:180])
             error_message = "RSS parsing issue"
+            if detail_parts:
+                error_message = f"{error_message}: {'; '.join(detail_parts)}"
             print(f"[Warning] RSS parsing issue: {source}")
 
         for entry in feed.entries:
@@ -3756,6 +3787,105 @@ def build_article_first_seen_index(history_rows):
     return first_seen
 
 
+def get_article_collected_date(article, fallback_date):
+    """Parse collected_at/run_date into a normalized date."""
+    return (
+        parse_memory_date(article.get("collected_at"))
+        or parse_memory_date(article.get("run_date"))
+        or fallback_date
+    )
+
+
+def classify_article_freshness(article, run_date):
+    """Classify article freshness from published date with safe fallbacks."""
+    published_date = (
+        parse_memory_date(article.get("published_date_normalized"))
+        or parse_memory_date(article.get("published"))
+        or parse_memory_date(article.get("published_date"))
+        or parse_memory_date(article.get("updated"))
+    )
+    collected_date = get_article_collected_date(article, run_date)
+    reasons = []
+
+    if published_date:
+        age_days = max(0, (run_date - published_date).days)
+        if published_date > run_date + timedelta(days=1):
+            bucket = "unknown_date"
+            status = "unknown_date_review"
+            reasons.append("published date is in the future or suspicious")
+            return {
+                "published_date_normalized": published_date.strftime("%Y-%m-%d"),
+                "collected_date_normalized": collected_date.strftime("%Y-%m-%d") if collected_date else "",
+                "article_age_days": "",
+                "freshness_bucket": bucket,
+                "freshness_status": status,
+                "freshness_reason": "; ".join(reasons),
+                "freshness_penalty": 25,
+            }
+        if age_days <= 3:
+            bucket = "fresh_0_3d"
+            status = "current"
+            penalty = 0
+        elif age_days <= 14:
+            bucket = "recent_4_14d"
+            status = "usable_recent"
+            penalty = 0
+        elif age_days <= 30:
+            bucket = "stale_15_30d"
+            status = "stale_penalized"
+            penalty = 20
+        else:
+            bucket = "old_31d_plus"
+            status = "historical_only"
+            penalty = 50
+        reasons.append(f"published date parsed; article age {age_days} day(s)")
+        return {
+            "published_date_normalized": published_date.strftime("%Y-%m-%d"),
+            "collected_date_normalized": collected_date.strftime("%Y-%m-%d") if collected_date else "",
+            "article_age_days": age_days,
+            "freshness_bucket": bucket,
+            "freshness_status": status,
+            "freshness_reason": "; ".join(reasons),
+            "freshness_penalty": penalty,
+        }
+
+    collected_is_current = bool(collected_date and (run_date - collected_date).days <= 1)
+    trusted_source = str(article.get("source_tier", "")) == "Tier 1" or safe_int(article.get("relevance_score")) >= 70
+    if collected_is_current and trusted_source:
+        status = "usable_recent"
+        penalty = 15
+        reasons.append("published date unavailable; current collection from relatively strong source")
+    else:
+        status = "unknown_date_review"
+        penalty = 15
+        reasons.append("published date could not be parsed")
+    return {
+        "published_date_normalized": "",
+        "collected_date_normalized": collected_date.strftime("%Y-%m-%d") if collected_date else "",
+        "article_age_days": "",
+        "freshness_bucket": "unknown_date",
+        "freshness_status": status,
+        "freshness_reason": "; ".join(reasons),
+        "freshness_penalty": penalty,
+    }
+
+
+def should_include_in_current_exposure(article, surface_name):
+    """Gate main current-facing outputs while retaining historical rows in articles.csv."""
+    bucket = article.get("freshness_bucket", "")
+    strategic_score = safe_int(article.get("strategic_relevance_score"))
+    evidence_score = safe_int(article.get("representative_evidence_score"))
+    if bucket == "old_31d_plus":
+        return False
+    if bucket == "stale_15_30d":
+        return strategic_score >= 70 and evidence_score >= 45
+    if bucket == "unknown_date":
+        if surface_name == "market_signal":
+            return safe_int(article.get("freshness_score")) >= 50
+        return safe_int(article.get("freshness_score")) >= 60
+    return True
+
+
 def apply_freshness_and_routing_fields(articles, run_timestamp, previous_evidence_titles):
     """Add display routing and repeat exposure penalties after classification is known."""
     first_seen = build_article_first_seen_index(list(iter_archived_article_rows()))
@@ -3783,9 +3913,23 @@ def apply_freshness_and_routing_fields(articles, run_timestamp, previous_evidenc
             first_seen_date = run_date
         days_seen = max(0, (run_date - first_seen_date).days)
         article["days_since_first_seen"] = days_seen
+        freshness_layer = classify_article_freshness(article, run_date)
+        for freshness_key in [
+            "published_date_normalized",
+            "collected_date_normalized",
+            "article_age_days",
+            "freshness_bucket",
+            "freshness_status",
+            "freshness_reason",
+        ]:
+            article[freshness_key] = freshness_layer.get(freshness_key, "")
+        date_freshness_penalty = safe_int(freshness_layer.get("freshness_penalty"))
 
         freshness_score = 100
         repeat_reasons = []
+        if date_freshness_penalty:
+            freshness_score -= date_freshness_penalty
+            repeat_reasons.append(article.get("freshness_reason", "date freshness penalty"))
         if article.get("previously_seen_article") == "Yes":
             freshness_score -= min(45, 18 + days_seen * 4)
             repeat_reasons.append("previously seen article")
@@ -3813,6 +3957,16 @@ def apply_freshness_and_routing_fields(articles, run_timestamp, previous_evidenc
             article["repeat_exposure_status"] = "repeat_penalized"
         article["repeat_penalty_reason"] = "; ".join(unique_list(repeat_reasons)) or "fresh article or no repeat penalty"
         evidence_score = safe_int(article.get("representative_evidence_score"))
+        strategic_score = safe_int(article.get("strategic_relevance_score"))
+        if article["freshness_bucket"] == "old_31d_plus":
+            evidence_score = 0
+            strategic_score = max(0, strategic_score - 50)
+        elif article["freshness_bucket"] == "stale_15_30d":
+            evidence_score -= 20
+            strategic_score -= 20
+        elif article["freshness_bucket"] == "unknown_date":
+            evidence_score -= 15
+            strategic_score -= 15
         if article["repeat_exposure_status"] == "repeat_penalized":
             evidence_score -= 25
         elif article["repeat_exposure_status"] == "acceptable_repeat":
@@ -3820,8 +3974,133 @@ def apply_freshness_and_routing_fields(articles, run_timestamp, previous_evidenc
         if primary != "Market Intelligence" and "Market Intelligence" in secondary:
             evidence_score -= 4
         article["representative_evidence_score"] = max(0, min(100, evidence_score))
+        article["strategic_relevance_score"] = max(0, min(100, strategic_score))
     apply_gp_capital_diagnostic_fields(articles)
     return articles
+
+
+def generate_freshness_quality_report(articles, dated_output_dir):
+    """Write a freshness QA report so old articles do not quietly dominate current surfaces."""
+    bucket_counts = Counter(article.get("freshness_bucket", "unknown_date") for article in articles)
+    source_stale_counts = Counter()
+    unknown_date_articles = []
+    old_articles = []
+    rep_excluded = []
+    development_excluded = []
+    gp_excluded = []
+
+    for article in articles:
+        bucket = article.get("freshness_bucket", "")
+        source = article.get("source", "Unknown")
+        if bucket in ["stale_15_30d", "old_31d_plus", "unknown_date"]:
+            source_stale_counts[source] += 1
+        if bucket == "unknown_date":
+            unknown_date_articles.append(article)
+        if bucket == "old_31d_plus":
+            old_articles.append(article)
+            if safe_int(article.get("representative_evidence_score")) == 0:
+                rep_excluded.append(article)
+            if article.get("primary_display_section") == "Development Activity":
+                development_excluded.append(article)
+            if is_gp_capital_candidate(article) and article.get("gp_capital_selected_flag") != "Yes":
+                gp_excluded.append(article)
+
+    lines = [
+        "# Freshness Quality Report",
+        "",
+        f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+        "",
+        "## Freshness Summary",
+        "",
+        f"- Total articles reviewed: {len(articles)}",
+    ]
+    for bucket in ["fresh_0_3d", "recent_4_14d", "stale_15_30d", "old_31d_plus", "unknown_date"]:
+        lines.append(f"- {bucket}: {bucket_counts.get(bucket, 0)}")
+
+    lines.extend([
+        "",
+        "## Old Articles Excluded From Representative Evidence",
+        "",
+    ])
+    if not rep_excluded:
+        lines.append("- No 31d+ article remains eligible for representative evidence.")
+    else:
+        for article in rep_excluded[:15]:
+            lines.append(
+                f"- {article.get('title', 'Untitled')} ({article.get('source', 'Unknown')}, "
+                f"{article.get('published_date_normalized') or 'unknown date'}): {article.get('freshness_reason', '')}"
+            )
+
+    lines.extend([
+        "",
+        "## Old Articles Excluded From Development Activity Top Exposure",
+        "",
+    ])
+    if not development_excluded:
+        lines.append("- No 31d+ development article is expected to rank in top current exposure after score penalty.")
+    else:
+        for article in development_excluded[:15]:
+            lines.append(
+                f"- {article.get('title', 'Untitled')} ({article.get('source', 'Unknown')}): marked historical/background."
+            )
+
+    lines.extend([
+        "",
+        "## Old Articles Excluded From GP / Capital Activity",
+        "",
+    ])
+    if not gp_excluded:
+        lines.append("- No 31d+ GP / Capital candidate remained selected unless retained as meaningful follow-up.")
+    else:
+        for article in gp_excluded[:15]:
+            lines.append(
+                f"- {article.get('title', 'Untitled')} ({article.get('source', 'Unknown')}): "
+                f"{article.get('gp_capital_exclusion_reason', 'historical article')}"
+            )
+
+    lines.extend([
+        "",
+        "## Unknown Date Articles",
+        "",
+    ])
+    if not unknown_date_articles:
+        lines.append("- No articles had unparseable published dates.")
+    else:
+        for article in unknown_date_articles[:20]:
+            lines.append(
+                f"- {article.get('title', 'Untitled')} ({article.get('source', 'Unknown')}): "
+                f"{article.get('freshness_status', '')}; {article.get('freshness_reason', '')}"
+            )
+
+    lines.extend([
+        "",
+        "## Sources With Stale / Unknown Dates",
+        "",
+    ])
+    if not source_stale_counts:
+        lines.append("- No stale or unknown-date concentration detected.")
+    else:
+        for source, count in source_stale_counts.most_common(20):
+            lines.append(f"- {source}: {count} stale/old/unknown-date article(s)")
+
+    lines.extend([
+        "",
+        "## Recommended Source / Date Parsing Fixes",
+        "",
+        "- Review sources with repeated `unknown_date` rows and confirm whether RSS entries expose `published` or `updated` fields.",
+        "- Treat 31d+ articles as historical/background context unless they are explicit follow-up items.",
+        "- Keep articles in `articles.csv`, but suppress old rows from current evidence, development, GP/capital, and market signal top exposure.",
+        "- If a source backfills old articles into RSS, prefer collected-date only as a fallback and keep the article in review status.",
+    ])
+
+    write_markdown_outputs(FRESHNESS_QUALITY_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "bucket_counts": dict(bucket_counts),
+        "old_representative_excluded": len(rep_excluded),
+        "old_development_excluded": len(development_excluded),
+        "old_gp_capital_excluded": len(gp_excluded),
+        "unknown_date_count": len(unknown_date_articles),
+    }
 
 
 def add_run_fields_to_rows(fieldnames, rows):
@@ -8534,6 +8813,12 @@ def build_gp_intelligence_rows(
             )),
             "primary_display_section": representative_article.get("primary_display_section", ""),
             "repeat_exposure_status": representative_article.get("repeat_exposure_status", ""),
+            "published_date_normalized": representative_article.get("published_date_normalized", ""),
+            "collected_date_normalized": representative_article.get("collected_date_normalized", ""),
+            "article_age_days": representative_article.get("article_age_days", ""),
+            "freshness_bucket": representative_article.get("freshness_bucket", ""),
+            "freshness_status": representative_article.get("freshness_status", ""),
+            "freshness_reason": representative_article.get("freshness_reason", ""),
             "freshness_score": representative_article.get("freshness_score", ""),
             "article_integrity_status": representative_article.get("article_integrity_status", ""),
             "access_status": representative_article.get("access_status", ""),
@@ -8638,6 +8923,12 @@ def generate_gp_intelligence_outputs(
         "related_canonical_article_ids",
         "primary_display_section",
         "repeat_exposure_status",
+        "published_date_normalized",
+        "collected_date_normalized",
+        "article_age_days",
+        "freshness_bucket",
+        "freshness_status",
+        "freshness_reason",
         "freshness_score",
         "article_integrity_status",
         "access_status",
@@ -17712,6 +18003,20 @@ def build_asset_parcel_intelligence_rows(run_timestamp, articles, deal_rows, fin
         )
         market = row.get("market") or row.get("market_focus") or "Other / Unknown"
         asset_score, risk_score = get_asset_scores(row, text, address, site_control, execution_stage, strategy_signal, graph_rows, opportunity_rows, distress_rows)
+        freshness_bucket = row.get("freshness_bucket") or "unknown_date"
+        freshness_status = row.get("freshness_status") or "unknown_date_review"
+        freshness_reason = row.get("freshness_reason") or "derived row did not carry source published date"
+        if freshness_bucket == "old_31d_plus":
+            asset_score = max(0, asset_score - 55)
+            risk_score = max(0, risk_score - 55)
+            if not freshness_status:
+                freshness_status = "historical_only"
+        elif freshness_bucket == "stale_15_30d":
+            asset_score = max(0, asset_score - 20)
+            risk_score = max(0, risk_score - 20)
+        elif freshness_bucket == "unknown_date":
+            asset_score = max(0, asset_score - 15)
+            risk_score = max(0, risk_score - 15)
         relevance = get_woomi_asset_relevance(asset_score, risk_score, strategy_signal, market)
         gp_name = row.get("canonical_gp_or_developer") or row.get("gp_or_developer", "Unknown")
         lender = row.get("lender_or_capital_provider") or row.get("canonical_lender_or_debt_provider") or row.get("lender_or_debt_provider") or row.get("canonical_capital_partner") or "Unknown"
@@ -17723,6 +18028,12 @@ def build_asset_parcel_intelligence_rows(run_timestamp, articles, deal_rows, fin
             "primary_display_section": row.get("primary_display_section", ""),
             "secondary_display_sections": row.get("secondary_display_sections", ""),
             "repeat_exposure_status": row.get("repeat_exposure_status", ""),
+            "published_date_normalized": row.get("published_date_normalized", ""),
+            "collected_date_normalized": row.get("collected_date_normalized", ""),
+            "article_age_days": row.get("article_age_days", ""),
+            "freshness_bucket": freshness_bucket,
+            "freshness_status": freshness_status,
+            "freshness_reason": freshness_reason,
             "freshness_score": row.get("freshness_score", ""),
             "access_status": row.get("access_status", ""),
             "canonical_asset_or_project_name": project_name,
@@ -17768,6 +18079,8 @@ def generate_asset_parcel_intelligence_outputs(asset_rows, dated_output_dir):
     fieldnames = [
         "asset_signal_id", "canonical_article_id", "article_integrity_status",
         "primary_display_section", "secondary_display_sections", "repeat_exposure_status",
+        "published_date_normalized", "collected_date_normalized", "article_age_days",
+        "freshness_bucket", "freshness_status", "freshness_reason",
         "freshness_score", "access_status",
         "canonical_asset_or_project_name", "raw_project_or_property_name",
         "address_or_location_clue", "intersection_or_corridor", "neighborhood_or_submarket",
@@ -18201,6 +18514,12 @@ def build_development_lifecycle_rows(run_timestamp, asset_rows, entitlement_rows
             "primary_display_section": asset.get("primary_display_section", ""),
             "secondary_display_sections": asset.get("secondary_display_sections", ""),
             "repeat_exposure_status": asset.get("repeat_exposure_status", ""),
+            "published_date_normalized": asset.get("published_date_normalized", ""),
+            "collected_date_normalized": asset.get("collected_date_normalized", ""),
+            "article_age_days": asset.get("article_age_days", ""),
+            "freshness_bucket": asset.get("freshness_bucket", ""),
+            "freshness_status": asset.get("freshness_status", ""),
+            "freshness_reason": asset.get("freshness_reason", ""),
             "freshness_score": asset.get("freshness_score", ""),
             "access_status": asset.get("access_status", ""),
             "canonical_asset_or_project_name": project_name,
@@ -18238,6 +18557,8 @@ def generate_development_lifecycle_outputs(lifecycle_rows, dated_output_dir):
     fieldnames = [
         "lifecycle_id", "canonical_article_id", "article_integrity_status",
         "primary_display_section", "secondary_display_sections", "repeat_exposure_status",
+        "published_date_normalized", "collected_date_normalized", "article_age_days",
+        "freshness_bucket", "freshness_status", "freshness_reason",
         "freshness_score", "access_status",
         "canonical_asset_or_project_name", "market", "city_or_submarket",
         "residential_sector", "gp_or_developer", "lender_or_capital_partner",
@@ -20097,16 +20418,30 @@ def parse_memory_date(value):
     text = str(value or "").strip()
     if not text:
         return None
+    text = re.sub(r"\s+", " ", text)
     for fmt in [
         "%Y-%m-%d",
         "%Y-%m-%d %H:%M:%S",
+        "%Y-%m-%dT%H:%M:%S",
+        "%Y-%m-%dT%H:%M:%S%z",
+        "%Y-%m-%dT%H:%M:%S.%f%z",
         "%a, %d %b %Y %H:%M:%S %z",
         "%a, %d %b %Y %H:%M:%S %Z",
+        "%a, %d %b %Y %H:%M:%S",
+        "%d %b %Y",
+        "%B %d, %Y",
+        "%b %d, %Y",
     ]:
         try:
             return datetime.strptime(text, fmt).date()
         except Exception:
             continue
+    try:
+        parsed = parsedate_to_datetime(text)
+        if parsed:
+            return parsed.date()
+    except Exception:
+        pass
     try:
         parsed = datetime.fromisoformat(text.replace("Z", "+00:00"))
         return parsed.date()
@@ -21690,6 +22025,364 @@ def generate_source_health_outputs(dated_output_dir, gp_source_coverage_rows=Non
         "placeholder_sources": len(placeholder_sources),
         "high_value_sources": high_value_sources,
         "manual_review_sources": placeholder_sources,
+    }
+
+
+def classify_source_failure_type(source_row):
+    """Classify source failures so recovery work can target the right fix."""
+    status = str(source_row.get("fetch_status", "")).lower()
+    error = str(source_row.get("error_message", "")).lower()
+    url = str(source_row.get("source_url", "")).lower()
+
+    if status in ["ok", "disabled", "placeholder"]:
+        return ""
+    if any(term in error for term in ["timed out", "timeout", "read timed out"]):
+        return "timeout"
+    if "robots" in error:
+        return "robots_restricted"
+    if any(term in error for term in ["403", "forbidden", "not authorized"]):
+        return "paywall_restricted"
+    if any(term in error for term in ["404", "not found"]):
+        return "rss_not_found"
+    if any(term in error for term in ["status=301", "status=302", "status=308", "moved"]):
+        return "rss_changed"
+    if "rss parsing issue" in error or "bozo" in error or "syntax" in error:
+        if "/feed" in url or "rss" in url:
+            return "feed_parse_error"
+        return "html_structure_changed"
+    if "html" in error or "parse" in error:
+        return "html_structure_changed"
+    return "unknown"
+
+
+def score_source_importance(source_row, focus_terms, category_terms):
+    """Return a 0-100 importance score from source metadata tags."""
+    text = " ".join([
+        str(source_row.get("source_name", "")),
+        str(source_row.get("source_category", "")),
+        str(source_row.get("coverage_focus", "")),
+        str(source_row.get("platform_type", "")),
+    ]).lower()
+    score = 0
+    for term, points in focus_terms:
+        if term in text:
+            score += points
+    for term, points in category_terms:
+        if term in text:
+            score += points
+    tier = source_row.get("source_tier", "")
+    if tier == "Tier 1":
+        score += 15
+    elif tier == "Tier 2":
+        score += 8
+    return max(0, min(100, score))
+
+
+def get_source_importance_scores(source_row):
+    """Score how useful a source is for the major intelligence surfaces."""
+    gp_capital = score_source_importance(
+        source_row,
+        [
+            ("capital", 22),
+            ("institutional", 18),
+            ("gp_activity", 18),
+            ("lender", 16),
+            ("debt", 16),
+            ("brokerage", 12),
+            ("developer", 10),
+        ],
+        [
+            ("commercial observer", 18),
+            ("bisnow", 14),
+            ("real deal", 14),
+            ("globest", 14),
+            ("connect cre", 14),
+            ("rebusiness", 12),
+        ],
+    )
+    development = score_source_importance(
+        source_row,
+        [
+            ("development_pipeline", 24),
+            ("entitlement", 18),
+            ("la_california", 14),
+            ("site", 12),
+            ("parcel", 12),
+            ("planning", 12),
+        ],
+        [
+            ("urbanize", 18),
+            ("yimby", 16),
+            ("connect cre", 12),
+            ("business journal", 10),
+        ],
+    )
+    market = score_source_importance(
+        source_row,
+        [
+            ("capital_markets", 22),
+            ("lease_up_supply", 14),
+            ("national_multifamily", 16),
+            ("research", 14),
+            ("macro", 12),
+        ],
+        [
+            ("multifamily", 14),
+            ("yield pro", 12),
+            ("housingwire", 10),
+            ("freddie", 12),
+            ("fannie", 12),
+        ],
+    )
+    return gp_capital, development, market
+
+
+def get_base_url(url):
+    """Return source homepage from a feed URL."""
+    try:
+        parsed = urlparse(url)
+        if not parsed.scheme or not parsed.netloc:
+            return ""
+        return f"{parsed.scheme}://{parsed.netloc}/"
+    except Exception:
+        return ""
+
+
+def get_fallback_probe_urls(source_row):
+    """Build lightweight fallback probe URLs for failed RSS sources."""
+    source_url = source_row.get("source_url", "")
+    base_url = get_base_url(source_url)
+    if not base_url:
+        return []
+    candidates = [
+        ("source page", source_url),
+        ("homepage", base_url),
+        ("sitemap", urljoin(base_url, "sitemap.xml")),
+    ]
+    seen = set()
+    unique = []
+    for label, url in candidates:
+        if url and url not in seen:
+            seen.add(url)
+            unique.append((label, url))
+    return unique
+
+
+def probe_source_fallbacks(source_row):
+    """Check whether sitemap/category/home fallback collection is plausible."""
+    if source_row.get("fetch_status") == "OK":
+        return "not needed", "", ""
+    if not source_row.get("source_url"):
+        return "manual feed discovery needed", "", ""
+
+    probe_results = []
+    for label, url in get_fallback_probe_urls(source_row):
+        try:
+            response = requests.get(
+                url,
+                headers=RSS_REQUEST_HEADERS,
+                timeout=4,
+                allow_redirects=True,
+            )
+            status_code = response.status_code
+            content_type = response.headers.get("content-type", "")
+            if status_code == 200:
+                text_sample = response.text[:3000].lower()
+                if "xml" in content_type or "<urlset" in text_sample or "<rss" in text_sample or "<feed" in text_sample:
+                    return f"{label} reachable", url, f"HTTP {status_code}, XML/feed-like response"
+                if any(term in text_sample for term in ["article", "multifamily", "real estate", "commercial real estate", "apartments"]):
+                    return f"{label} reachable", url, f"HTTP {status_code}, HTML page may support category scraping"
+                probe_results.append(f"{label}: HTTP {status_code}")
+            elif status_code in [401, 402, 403]:
+                probe_results.append(f"{label}: HTTP {status_code} restricted")
+            elif status_code == 404:
+                probe_results.append(f"{label}: HTTP 404")
+            else:
+                probe_results.append(f"{label}: HTTP {status_code}")
+        except requests.exceptions.Timeout:
+            probe_results.append(f"{label}: timeout")
+        except Exception as error:
+            probe_results.append(f"{label}: {str(error)[:80]}")
+
+    return "no reliable fallback found", "", "; ".join(probe_results[:5])
+
+
+def get_source_recovery_recommendation(source_row, failure_type, fallback_status):
+    """Generate a concise source recovery recommendation."""
+    status = source_row.get("fetch_status", "")
+    if status == "OK":
+        return "Feed is working; no recovery needed."
+    if status == "Disabled":
+        return "Registered but disabled; enable only after confirming a public feed or permitted export path."
+    if status == "Placeholder":
+        return "Find a confirmed public RSS/feed URL or keep as manual-review source."
+    if "reachable" in fallback_status:
+        return "RSS feed failed, but fallback page is reachable; consider source-specific parser or sitemap ingestion."
+    if failure_type == "rss_not_found":
+        return "Replace the feed URL; current RSS endpoint appears unavailable."
+    if failure_type == "rss_changed":
+        return "Check redirects and update to the current canonical feed URL."
+    if failure_type == "feed_parse_error":
+        return "Inspect feed format; may require alternate feed URL or tolerant XML parsing."
+    if failure_type == "html_structure_changed":
+        return "RSS URL may now return HTML; verify source-specific category or sitemap fallback."
+    if failure_type == "paywall_restricted":
+        return "Do not scrape restricted content; use public RSS, summary pages, or manual intake only."
+    if failure_type == "robots_restricted":
+        return "Do not bypass robots restrictions; keep disabled or manual intake only."
+    if failure_type == "timeout":
+        return "Retry with conservative timeout/backoff; keep failure isolated from full collector."
+    return "Manual source review needed."
+
+
+def generate_source_recovery_report(dated_output_dir):
+    """Write a focused source recovery report for failing or low-volume sources."""
+    health_by_source = {row.get("source_name", ""): row for row in SOURCE_HEALTH_ROWS}
+    source_rows = []
+    for source_info in SOURCE_REGISTRY:
+        source_name = source_info.get("source_name") or source_info.get("source", "")
+        if not source_name:
+            continue
+        health = health_by_source.get(source_name, {})
+        row = dict(source_info)
+        row.update({
+            "source_name": source_name,
+            "rss_url": source_info.get("source_url") or source_info.get("rss_url") or source_info.get("url", ""),
+            "status": health.get("fetch_status", "Not Attempted"),
+            "error_message": health.get("error_message", ""),
+            "last_article_count": health.get("articles_saved", "0"),
+            "last_success_date": CURRENT_RUN_CONTEXT.get("run_date", "") if health.get("fetch_status") == "OK" else "",
+            "source_tier": source_info.get("source_tier", ""),
+            "coverage_focus": source_info.get("coverage_focus", ""),
+        })
+        source_rows.append(row)
+
+    report_rows = []
+    focus_names = ["Connect CRE", "The Real Deal", "GlobeSt"]
+    for row in source_rows:
+        failure_type = classify_source_failure_type({
+            "fetch_status": row.get("status", ""),
+            "error_message": row.get("error_message", ""),
+            "source_url": row.get("rss_url", ""),
+        })
+        gp_score, development_score, market_score = get_source_importance_scores(row)
+        is_focus_source = any(name.lower() in row.get("source_name", "").lower() for name in focus_names)
+        should_probe = (
+            row.get("status") not in ["OK", "Disabled", "Placeholder"]
+            and (is_focus_source or max(gp_score, development_score, market_score) >= 60)
+        )
+        fallback_status = ""
+        fallback_url = ""
+        fallback_detail = ""
+        if should_probe:
+            fallback_status, fallback_url, fallback_detail = probe_source_fallbacks({
+                "fetch_status": row.get("status", ""),
+                "source_url": row.get("rss_url", ""),
+            })
+        elif row.get("status") not in ["OK", "Disabled", "Placeholder"]:
+            fallback_status = "not probed"
+            fallback_detail = "Probe skipped for lower-priority failed source"
+        report_rows.append({
+            "source_name": row.get("source_name", ""),
+            "rss_url": row.get("rss_url", ""),
+            "status": row.get("status", ""),
+            "error_type": failure_type,
+            "last_success_date": row.get("last_success_date", ""),
+            "last_article_count": row.get("last_article_count", "0"),
+            "source_tier": row.get("source_tier", ""),
+            "coverage_focus": row.get("coverage_focus", ""),
+            "gp_capital_relevance": gp_score,
+            "development_relevance": development_score,
+            "market_relevance": market_score,
+            "fallback_status": fallback_status,
+            "fallback_url": fallback_url,
+            "fallback_detail": fallback_detail,
+            "recovery_recommendation": get_source_recovery_recommendation(row, failure_type, fallback_status),
+        })
+
+    focus_rows = [
+        row for row in report_rows
+        if any(name.lower() in row["source_name"].lower() for name in focus_names)
+    ]
+    failing_rows = [
+        row for row in report_rows
+        if row["status"] not in ["OK", "Disabled", "Placeholder"]
+    ]
+    high_importance_failures = sorted(
+        failing_rows,
+        key=lambda row: max(row["gp_capital_relevance"], row["development_relevance"], row["market_relevance"]),
+        reverse=True,
+    )
+
+    lines = [
+        "# Source Recovery Report",
+        "",
+        f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+        "",
+        "## Summary",
+        "",
+        f"- Sources reviewed: {len(report_rows)}",
+        f"- Failing attempted sources: {len(failing_rows)}",
+        f"- Focus sources reviewed: {len(focus_rows)}",
+        "",
+        "## Focus Source Status",
+        "",
+        "| source_name | rss_url | status | error_type | last_success_date | last_article_count | fallback | recovery_recommendation |",
+        "| --- | --- | --- | --- | --- | ---: | --- | --- |",
+    ]
+
+    if not focus_rows:
+        lines.append("| No focus sources found |  |  |  |  |  |  |  |")
+    else:
+        for row in focus_rows:
+            lines.append(
+                "| {source_name} | {rss_url} | {status} | {error_type} | {last_success_date} | {last_article_count} | {fallback_status} | {recovery_recommendation} |".format(
+                    **{key: str(value).replace("|", "/") for key, value in row.items()}
+                )
+            )
+
+    lines.extend([
+        "",
+        "## High-Importance Failures",
+        "",
+        "| source_name | status | error_type | GP/Capital | Development | Market | fallback | recommendation |",
+        "| --- | --- | --- | ---: | ---: | ---: | --- | --- |",
+    ])
+    if not high_importance_failures:
+        lines.append("| No high-importance failures detected |  |  |  |  |  |  |  |")
+    else:
+        for row in high_importance_failures[:25]:
+            lines.append(
+                f"| {row['source_name']} | {row['status']} | {row['error_type']} | "
+                f"{row['gp_capital_relevance']} | {row['development_relevance']} | {row['market_relevance']} | "
+                f"{row['fallback_status']} | {row['recovery_recommendation']} |"
+            )
+
+    lines.extend([
+        "",
+        "## Failure Type Guide",
+        "",
+        "- `rss_not_found`: configured RSS endpoint appears unavailable.",
+        "- `rss_changed`: redirects or source changes suggest the feed URL may have moved.",
+        "- `feed_parse_error`: feedparser could not parse the configured feed.",
+        "- `html_structure_changed`: configured feed may now return HTML or a changed page structure.",
+        "- `paywall_restricted`: access appears restricted; use public feeds or manual intake only.",
+        "- `robots_restricted`: do not bypass; use permitted public paths only.",
+        "- `timeout`: retry/backoff may help, but the collector remains isolated.",
+        "- `unknown`: manual source review needed.",
+        "",
+        "## Recovery Notes",
+        "",
+        "- RSS recovery should prefer official public RSS feeds, sitemap XML, or public category pages.",
+        "- Do not automate login, bypass paywalls, or ignore robots restrictions.",
+        "- If fallback pages are reachable, add source-specific parsers only after confirming stable public article links.",
+    ])
+
+    write_markdown_outputs(SOURCE_RECOVERY_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "sources_reviewed": len(report_rows),
+        "failing_sources": len(failing_rows),
+        "focus_sources": len(focus_rows),
     }
 
 
@@ -23594,6 +24287,25 @@ def save_to_csv(articles):
         run_timestamp,
         previous_representative_titles,
     )
+    freshness_quality_summary = generate_freshness_quality_report(
+        articles,
+        dated_output_dir,
+    )
+    high_priority_articles = [
+        article
+        for article in high_priority_articles
+        if should_include_in_current_exposure(article, "representative_evidence")
+    ]
+    market_signal_articles = [
+        article
+        for article in market_signal_articles
+        if should_include_in_current_exposure(article, "market_signal")
+    ]
+    strategy_briefing_articles = [
+        article
+        for article in strategy_briefing_articles
+        if should_include_in_current_exposure(article, "representative_evidence")
+    ]
     strategy_briefing_articles.sort(
         key=lambda article: (
             article.get("repeat_exposure_status") == "repeat_penalized",
@@ -23673,6 +24385,9 @@ def save_to_csv(articles):
             dated_output_dir,
             gp_source_coverage_rows,
             source_activation_rows,
+        )
+        source_recovery_summary = generate_source_recovery_report(
+            dated_output_dir,
         )
         gp_capital_coverage_summary = generate_gp_capital_coverage_diagnostics_outputs(
             run_timestamp,

@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-06-01 07:28:42
+Generated: 2026-06-01 23:01:54
 
-- Total raw project references: 645
-- Total canonical projects: 172
-- Duplicate project clusters: 106
-- High-confidence project identities: 645
+- Total raw project references: 683
+- Total canonical projects: 170
+- Duplicate project clusters: 109
+- High-confidence project identities: 683
 - Low-confidence identities needing review: 0
-- LA / California project references: 434
+- LA / California project references: 555
 
 ## Top Repeated Projects
 
-- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: 59 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: 59 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: 59 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: 59 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: 59 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: 59 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: 59 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: 59 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: 59 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: 59 occurrence(s), confidence 80.
+- Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: 56 occurrence(s), confidence 80.
+- Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: 56 occurrence(s), confidence 80.
+- Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: 56 occurrence(s), confidence 80.
+- Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: 56 occurrence(s), confidence 80.
+- Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: 56 occurrence(s), confidence 80.
+- Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: 56 occurrence(s), confidence 80.
+- Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: 56 occurrence(s), confidence 80.
+- Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: 56 occurrence(s), confidence 80.
+- Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: 56 occurrence(s), confidence 80.
+- Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: 56 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

@@ -1,7 +1,7 @@
 ﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
-20260601-072833-c2587107,2026-06-01,Construction financing still selective,Persistent,stable,25,17,25,5.24,3.6,4,4,4,1,Los Angeles / California,Moderate Signal,steady visibility,
-20260601-072833-c2587107,2026-06-01,Institutional recap over expansion,Building,stable,25,17,25,2.84,2.6,4,4,4,1,California,Moderate Signal,steady visibility,
-20260601-072833-c2587107,2026-06-01,JV / partnership activity observed,Persistent,stable,25,17,25,6.48,3.6,9,9,7,0,Northern Virginia / Virginia,Broadly Confirmed,steady visibility,
-20260601-072833-c2587107,2026-06-01,LA entitlement precedent accumulation,Persistent,stable,25,17,25,9.96,3.24,10,10,5,0,Los Angeles / California,Moderate Signal,steady visibility,
-20260601-072833-c2587107,2026-06-01,Refinancing pressure unresolved,Building,stable,25,17,25,5.32,3.92,6,6,5,3,Moreno Valley / California,Broadly Confirmed,steady visibility,
-20260601-072833-c2587107,2026-06-01,Sun Belt lease-up pressure watch,Persistent,stable,25,17,25,3.0,2.56,4,4,3,0,National,Moderate Signal,steady visibility,
+20260601-230146-450c13c8,2026-06-01,Construction financing still selective,Building,stable,26,18,26,5.23,3.62,5,5,4,2,Washington DC,Broadly Confirmed,steady visibility,
+20260601-230146-450c13c8,2026-06-01,Institutional recap over expansion,Building,accelerating,26,18,26,2.92,2.65,5,5,4,1,California,Broadly Confirmed,Institutional recap over expansion signal is accelerating versus prior runs.,
+20260601-230146-450c13c8,2026-06-01,JV / partnership activity observed,Building,stable,26,18,26,6.58,3.62,9,9,7,0,Riverside / California,Broadly Confirmed,steady visibility,
+20260601-230146-450c13c8,2026-06-01,LA entitlement precedent accumulation,Building,stable,26,18,26,10.08,3.23,13,13,6,1,Los Angeles / California,Moderate Signal,steady visibility,
+20260601-230146-450c13c8,2026-06-01,Refinancing pressure unresolved,Building,stable,26,18,26,5.35,3.92,6,6,5,2,Miami / Florida,Broadly Confirmed,steady visibility,
+20260601-230146-450c13c8,2026-06-01,Sun Belt lease-up pressure watch,Building,stable,26,18,26,3.08,2.62,5,5,4,1,National,Broadly Confirmed,steady visibility,

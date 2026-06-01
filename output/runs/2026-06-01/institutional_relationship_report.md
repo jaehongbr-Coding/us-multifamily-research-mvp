@@ -1,15 +1,15 @@
 # Institutional Relationship & Capital Flow Report
 
-Generated: 2026-06-01 07:28:39
+Generated: 2026-06-01 23:01:51
 
 ## Top Institutional Relationship Signals
 
-- Wood Partners: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Alliance Residential: score 99, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Alliance Residential: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Lincoln Property Company: score 98, Development Capital Deployment, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Crescent Communities: score 88, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Wood Partners: score 91, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Crescent Communities: score 81, Capital Outflow / Exit, GP Capability Benchmark Signal. Monitor only.
 - Blackstone: score 74, Refinancing / Recapitalization, Capital Partner Tracking Signal. Track refinancing or recapitalization pipeline.
-- RXR: score 73, Operational / Platform Investment, GP Capability Benchmark Signal. Monitor only.
+- Harbor Group International: score 69, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 
 ## Tier 1 Firm Watch
 
@@ -17,25 +17,27 @@ Generated: 2026-06-01 07:28:39
 
 ## California / LA Capital and Developer Watch
 
-- Alliance Residential: score 99, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Alliance Residential: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Lincoln Property Company: score 98, Development Capital Deployment, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 
 ## Capital Inflow / Outflow Signals
 
-- Wood Partners: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Alliance Residential: score 99, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Alliance Residential: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Lincoln Property Company: score 98, Development Capital Deployment, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- Wood Partners: score 91, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Crescent Communities: score 81, Capital Outflow / Exit, GP Capability Benchmark Signal. Monitor only.
+- Harbor Group International: score 69, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 
 ## JV / Partnership Signals
 
-- Wood Partners: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Alliance Residential: score 99, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Crescent Communities: score 88, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Alliance Residential: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Wood Partners: score 91, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 
 ## Competitive Benchmark Signals
 
 - Lincoln Property Company: score 98, Development Capital Deployment, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- RXR: score 73, Operational / Platform Investment, GP Capability Benchmark Signal. Monitor only.
+- Crescent Communities: score 81, Capital Outflow / Exit, GP Capability Benchmark Signal. Monitor only.
+- Harbor Group International: score 69, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 
 ## Pricing Discovery Signals
 
@@ -45,39 +47,39 @@ Generated: 2026-06-01 07:28:39
 
 | Firm | Market | Source Category | Activity Type | Capital Flow | Relationship Signal | Woomi Implication |
 | --- | --- | --- | --- | --- | --- | --- |
-| Wood Partners | Atlanta / Georgia; Phoenix / Arizona | Core Multifamily News; Site / Parcel Source Expansion | acquisition; disposition / exit; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
-| Alliance Residential | Riverside / California | Core Multifamily News | acquisition; disposition / exit; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
+| Alliance Residential | Riverside / California | Regional / California / LA Sources; Site / Parcel Source Expansion | acquisition; disposition / exit; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
 | Lincoln Property Company | Santa Monica / California | Regional / California / LA Sources | entitlement; operational technology / AI adoption | Development Capital Deployment | GP Capability Benchmark Signal | competitive pressure indicator |
-| Crescent Communities | Sarasota / Florida | Core Multifamily News | refinancing; JV / partnership; operational technology / AI adoption | Refinancing / Recapitalization | Potential JV / Partnership Signal | potential JV partnership signal |
+| Wood Partners | Atlanta / Georgia | Site / Parcel Source Expansion | disposition / exit; JV / partnership; operational technology / AI adoption | Capital Outflow / Exit | Potential JV / Partnership Signal | potential JV partnership signal |
+| Crescent Communities | Atlanta / Georgia | Site / Parcel Source Expansion | disposition / exit; BTR expansion; operational technology / AI adoption | Capital Outflow / Exit | GP Capability Benchmark Signal | benchmark underwriting assumptions |
 | Blackstone | New York | Developer / GP Newsrooms | refinancing | Refinancing / Recapitalization | Capital Partner Tracking Signal | capital market sentiment indicator |
-| RXR | New York City / New York | Core Multifamily News | office-to-residential conversion | Operational / Platform Investment | GP Capability Benchmark Signal | construction strategy signal |
+| Harbor Group International | Atlanta / Georgia | Site / Parcel Source Expansion | acquisition; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
 
 ## Deal / Project Intelligence
 
 Deal and project-level extraction is available in `deal_pipeline_report.md`.
-- Refinancing in Sarasota / Florida: Unknown / Unknown / berkadia.
 - Construction Financing in California: Unknown / Unknown / jll.
 - Disposition / Exit in Atlanta / Georgia: Unknown / Unknown / northmarq.
-- Refinancing in New York City / New York: Unknown / Unknown / freddie mac.
+- Refinancing in California: Unknown / Unknown / walker & dunlop.
+- Refinancing in Sarasota / Florida: Unknown / Unknown / berkadia.
 - Disposition / Exit in Atlanta / Georgia: Unknown / Unknown / jll.
 
 ## Relationship Graph Intelligence
 
 Capital partner, lender, GP, and market edges are available in `relationship_graph_report.md`.
 - Wood Partners -> northmarq: Financing Relationship.
-- Crescent Communities -> berkadia: Financing Relationship.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily -> jll: Financing Relationship.
+- Refinancing - California - Walker & Dunlop Arranges $101.6M HUD Loan for Multifamily Community in Chula Vista Califor... -> walker & dunlop: Financing Relationship.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project -> jll: Financing Relationship.
-- Refinancing - New York City / New York - PNC Bank Refis West Village Apartment Building With $404M Loan -> freddie mac: Financing Relationship.
+- Refinancing - Sarasota / Florida - Berkadia Secures $82.1M Loan to Refinance Class A Multifamily Asset in Sarasota County Flo... -> berkadia: Financing Relationship.
 
 ## High-Scoring GP Watchlist Reference
 
 Emerging GP watchlist rankings are available in `gp_watchlist_report.md`.
-- Alliance Residential: 79 (Tier 2 High Potential GP), Strong partnership signal.
-- Wood Partners: 77 (Tier 2 High Potential GP), Strong partnership signal.
-- Crescent Communities: 63 (Tier 3 Monitoring GP), Strong partnership signal.
+- Alliance Residential: 80 (Tier 2 High Potential GP), Strong partnership signal.
+- Wood Partners: 71 (Tier 2 High Potential GP), Strong partnership signal.
 - Lincoln Property Company: 60 (Tier 3 Monitoring GP), No clear partnership signal.
-- Blackstone: 49 (Emerging Watchlist), Moderate partnership signal.
+- Crescent Communities: 52 (Emerging Watchlist), No clear partnership signal.
+- Harbor Group International: 52 (Emerging Watchlist), No clear partnership signal.
 
 ## GP Source Expansion Summary
 
@@ -112,21 +114,21 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Recommended Executive Follow-Up
 
-- Wood Partners: Map potential GP / JV relationship and monitor partnership activity
 - Alliance Residential: Map potential GP / JV relationship and monitor partnership activity
 - Lincoln Property Company: Review California / LA capital and developer activity
-- Crescent Communities: Map potential GP / JV relationship and monitor partnership activity
+- Wood Partners: Map potential GP / JV relationship and monitor partnership activity
+- Crescent Communities: Monitor only
 - Blackstone: Track refinancing or recapitalization pipeline
-- RXR: Monitor only
+- Harbor Group International: Track capital deployment and pricing signals
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 172
-- Institutional-grade signals: 7
-- High-confidence signals: 34
-- Weak/noisy signals: 117
-- High-confidence watchlist items: 34
+- Signals evaluated: 170
+- Institutional-grade signals: 8
+- High-confidence signals: 28
+- Weak/noisy signals: 120
+- High-confidence watchlist items: 28
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

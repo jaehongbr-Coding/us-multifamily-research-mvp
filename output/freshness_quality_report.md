@@ -1,13 +1,13 @@
 # Freshness Quality Report
 
-Generated: 2026-06-01 07:28:33
+Generated: 2026-06-01 23:01:46
 
 ## Freshness Summary
 
-- Total articles reviewed: 75
-- fresh_0_3d: 31
-- recent_4_14d: 22
-- stale_15_30d: 6
+- Total articles reviewed: 79
+- fresh_0_3d: 43
+- recent_4_14d: 15
+- stale_15_30d: 5
 - old_31d_plus: 16
 - unknown_date: 0
 
@@ -56,7 +56,7 @@ Generated: 2026-06-01 07:28:33
 - NAHB Eye on Housing - Multifamily: 12 stale/old/unknown-date article(s)
 - Multifamily Executive: 3 stale/old/unknown-date article(s)
 - Connect CRE Charlotte: 3 stale/old/unknown-date article(s)
-- Connect CRE South Florida: 2 stale/old/unknown-date article(s)
+- Connect CRE South Florida: 1 stale/old/unknown-date article(s)
 - Connect CRE Orange County: 1 stale/old/unknown-date article(s)
 - Blackstone Real Estate: 1 stale/old/unknown-date article(s)
 

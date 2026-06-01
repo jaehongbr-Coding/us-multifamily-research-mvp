@@ -1,109 +1,110 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-06-01 07:28:39
+Generated: 2026-06-01 23:01:51
 
-- Total relationship edges: 104
-- Most connected developer / GP: Wood Partners (7 edge(s))
-- Most connected lender / debt provider: jll (5 edge(s))
-- Most connected market: Los Angeles / California (8 edge(s))
+- Total relationship edges: 114
+- Most connected developer / GP: Alliance Residential (6 edge(s))
+- Most connected lender / debt provider: jll (4 edge(s))
+- Most connected market: Los Angeles / California (9 edge(s))
 - Strongest relationship edge: Wood Partners -> northmarq
-- Highest Woomi relevance edge: Alliance Residential -> JV / Partnership - Riverside / California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex
+- Highest Woomi relevance edge: Alliance Residential -> JV / Partnership - Riverside / California - PCCP, Alliance Residential Buy 184-Unit Multifamily Community in Riverside, California
 
 ## Top 10 Relationship Edges
 
-- Wood Partners -> northmarq: Financing Relationship, Atlanta / Georgia, score 91. Track GP relationship history.
-- Crescent Communities -> berkadia: Financing Relationship, Sarasota / Florida, score 89. Track GP relationship history.
+- Wood Partners -> northmarq: Financing Relationship, Atlanta / Georgia, score 90. Track GP relationship history.
+- Alliance Residential -> JV / Partnership - Riverside / California - PCCP, Alliance Residential Buy 184-Unit Multifamily Community in Riverside, California: JV / Partnership, Riverside / California, score 88. Review potential JV relevance.
+- Alliance Residential -> Riverside: JV / Partnership, Riverside / California, score 88. Review potential JV relevance.
+- Alliance Residential -> Riverside / California: JV / Partnership, Riverside / California, score 88. Review potential JV relevance.
 - Alliance Residential -> JV / Partnership - Riverside / California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: JV / Partnership, Riverside / California, score 84. Review potential JV relevance.
 - Alliance Residential -> Riverside: JV / Partnership, Riverside / California, score 84. Review potential JV relevance.
 - Alliance Residential -> Riverside / California: JV / Partnership, Riverside / California, score 84. Review potential JV relevance.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily -> jll: Financing Relationship, California, score 81. Monitor lender activity.
-- Crescent Communities -> Refinancing - Sarasota / Florida - Benefit Street Partners Provides $82M Refi for Sarasota County Multifamily: Financing Relationship, Sarasota / Florida, score 81. Track GP relationship history.
-- Crescent Communities -> Sarasota: Financing Relationship, Sarasota / Florida, score 81. Track GP relationship history.
-- Crescent Communities -> Sarasota / Florida: Financing Relationship, Sarasota / Florida, score 81. Track GP relationship history.
-- Wood Partners -> Acquisition - Phoenix / Arizona - Wood Partners Sells 278-Unit Alta Rise Multifamily Community in Gilbert, Arizona: Acquisition / Buyer, Phoenix / Arizona, score 80. Track GP relationship history.
+- Refinancing - California - Walker & Dunlop Arranges $101.6M HUD Loan for Multifamily Community in Chula Vista Califor... -> walker & dunlop: Financing Relationship, California, score 79. Monitor lender activity.
+- Lincoln Property Company -> Entitlement / Permitting - Santa Monica / California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Entitlement / Permitting, Santa Monica / California, score 75. Track GP relationship history.
 
 ## Developer / GP Relationship Map
 
-- Wood Partners -> northmarq: Financing Relationship, Atlanta / Georgia, score 91. Track GP relationship history.
-- Crescent Communities -> berkadia: Financing Relationship, Sarasota / Florida, score 89. Track GP relationship history.
+- Wood Partners -> northmarq: Financing Relationship, Atlanta / Georgia, score 90. Track GP relationship history.
+- Alliance Residential -> JV / Partnership - Riverside / California - PCCP, Alliance Residential Buy 184-Unit Multifamily Community in Riverside, California: JV / Partnership, Riverside / California, score 88. Review potential JV relevance.
+- Alliance Residential -> Riverside: JV / Partnership, Riverside / California, score 88. Review potential JV relevance.
+- Alliance Residential -> Riverside / California: JV / Partnership, Riverside / California, score 88. Review potential JV relevance.
 - Alliance Residential -> JV / Partnership - Riverside / California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: JV / Partnership, Riverside / California, score 84. Review potential JV relevance.
 - Alliance Residential -> Riverside: JV / Partnership, Riverside / California, score 84. Review potential JV relevance.
 - Alliance Residential -> Riverside / California: JV / Partnership, Riverside / California, score 84. Review potential JV relevance.
-- Crescent Communities -> Refinancing - Sarasota / Florida - Benefit Street Partners Provides $82M Refi for Sarasota County Multifamily: Financing Relationship, Sarasota / Florida, score 81. Track GP relationship history.
-- Crescent Communities -> Sarasota: Financing Relationship, Sarasota / Florida, score 81. Track GP relationship history.
-- Crescent Communities -> Sarasota / Florida: Financing Relationship, Sarasota / Florida, score 81. Track GP relationship history.
-- Wood Partners -> Acquisition - Phoenix / Arizona - Wood Partners Sells 278-Unit Alta Rise Multifamily Community in Gilbert, Arizona: Acquisition / Buyer, Phoenix / Arizona, score 80. Track GP relationship history.
-- Wood Partners -> Gilbert: Acquisition / Buyer, Phoenix / Arizona, score 80. Track GP relationship history.
+- Lincoln Property Company -> Entitlement / Permitting - Santa Monica / California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Entitlement / Permitting, Santa Monica / California, score 75. Track GP relationship history.
+- Lincoln Property Company -> Santa Monica: Entitlement / Permitting, Santa Monica / California, score 75. Track GP relationship history.
+- Lincoln Property Company -> Santa Monica / California: Entitlement / Permitting, Santa Monica / California, score 75. Track GP relationship history.
 
 ## Lender / Debt Provider Relationship Map
 
-- Wood Partners -> northmarq: Financing Relationship, Atlanta / Georgia, score 91. Track GP relationship history.
-- Crescent Communities -> berkadia: Financing Relationship, Sarasota / Florida, score 89. Track GP relationship history.
+- Wood Partners -> northmarq: Financing Relationship, Atlanta / Georgia, score 90. Track GP relationship history.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily -> jll: Financing Relationship, California, score 81. Monitor lender activity.
+- Refinancing - California - Walker & Dunlop Arranges $101.6M HUD Loan for Multifamily Community in Chula Vista Califor... -> walker & dunlop: Financing Relationship, California, score 79. Monitor lender activity.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project -> jll: Financing Relationship, California, score 73. Monitor lender activity.
-- Refinancing - New York City / New York - PNC Bank Refis West Village Apartment Building With $404M Loan -> freddie mac: Financing Relationship, New York City / New York, score 70. Monitor lender activity.
+- Refinancing - Sarasota / Florida - Berkadia Secures $82.1M Loan to Refinance Class A Multifamily Asset in Sarasota County Flo... -> berkadia: Financing Relationship, Sarasota / Florida, score 69. Monitor lender activity.
 - Disposition / Exit - Atlanta / Georgia - Eaton Vance Picks Charlotte Rental Community for $65.8M -> jll: Financing Relationship, Atlanta / Georgia, score 68. Monitor lender activity.
-- Disposition / Exit - California - Carlsbad Lifestyle Center Fetches $91M in Sale to 11North -> jll: Financing Relationship, California, score 67. Monitor lender activity.
+- Disposition / Exit - California - Carlsbad Lifestyle Center Fetches $91M in Sale to 11North -> jll: Financing Relationship, California, score 68. Monitor lender activity.
 - General Project Signal - Miami / Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan -> berkadia: Financing Relationship, Miami / Florida, score 65. Monitor lender activity.
-- Refinancing - Denver / Colorado - Stout Street Hospitality Receives Refinancing for Magnolia Hotel Denver -> jll: Financing Relationship, Denver / Colorado, score 51. Monitor lender activity.
+- General Project Signal - New York City / New York - Avison Young Arranges $404M Permanent Loan for Iconic 479-Unit Multifamily Building The Ar... -> freddie mac: Financing Relationship, New York City / New York, score 65. Monitor lender activity.
+- Office-to-Residential Conversion - Los Angeles / California - Mayor Bass: Adaptive Reuse Key to Revitalizing Downtown LA -> cbre: Financing Relationship, Los Angeles / California, score 64. Monitor lender activity.
 
 ## Capital Partner / Institutional Flow Map
 
-- JV / Partnership - Other / Unknown - Scion Group, Ares Management Corp. partner for $910M student housing buy -> ares: JV / Partnership, Other / Unknown, score 55. Review potential JV relevance.
+- Disposition / Exit - Other / Unknown - Newly Constructed Mid-Rise Multifamily Property Across from University of Chicago Hits the... -> essex: Disposition / Seller, Other / Unknown, score 42. Monitor only.
 
 ## Market Relationship Map
 
+- Alliance Residential -> Riverside: JV / Partnership, Riverside / California, score 88. Review potential JV relevance.
+- Alliance Residential -> Riverside / California: JV / Partnership, Riverside / California, score 88. Review potential JV relevance.
 - Alliance Residential -> Riverside: JV / Partnership, Riverside / California, score 84. Review potential JV relevance.
 - Alliance Residential -> Riverside / California: JV / Partnership, Riverside / California, score 84. Review potential JV relevance.
-- Crescent Communities -> Sarasota: Financing Relationship, Sarasota / Florida, score 81. Track GP relationship history.
-- Crescent Communities -> Sarasota / Florida: Financing Relationship, Sarasota / Florida, score 81. Track GP relationship history.
-- Wood Partners -> Gilbert: Acquisition / Buyer, Phoenix / Arizona, score 80. Track GP relationship history.
-- Wood Partners -> Phoenix / Arizona: Acquisition / Buyer, Phoenix / Arizona, score 80. Track GP relationship history.
 - Lincoln Property Company -> Santa Monica: Entitlement / Permitting, Santa Monica / California, score 75. Track GP relationship history.
 - Lincoln Property Company -> Santa Monica / California: Entitlement / Permitting, Santa Monica / California, score 75. Track GP relationship history.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily -> California: Financing Relationship, California, score 73. Track LA / California activity.
-- Wood Partners -> Atlanta: Disposition / Seller, Atlanta / Georgia, score 72. Track GP relationship history.
+- Refinancing - California - Walker & Dunlop Arranges $101.6M HUD Loan for Multifamily Community in Chula Vista Califor... -> California: Financing Relationship, California, score 71. Track LA / California activity.
+- Wood Partners -> Atlanta: Disposition / Seller, Atlanta / Georgia, score 71. Track GP relationship history.
+- Wood Partners -> Atlanta / Georgia: Disposition / Seller, Atlanta / Georgia, score 71. Track GP relationship history.
 
 ## California / LA Relationship Signals
 
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily -> jll: Financing Relationship, California, score 81. Monitor lender activity.
+- Refinancing - California - Walker & Dunlop Arranges $101.6M HUD Loan for Multifamily Community in Chula Vista Califor... -> walker & dunlop: Financing Relationship, California, score 79. Monitor lender activity.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily -> California: Financing Relationship, California, score 73. Track LA / California activity.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project -> jll: Financing Relationship, California, score 73. Monitor lender activity.
-- Disposition / Exit - California - Carlsbad Lifestyle Center Fetches $91M in Sale to 11North -> jll: Financing Relationship, California, score 67. Monitor lender activity.
-- Construction Financing - Los Angeles / California - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes... -> Los Angeles: Financing Relationship, Los Angeles / California, score 63. Monitor only.
+- Refinancing - California - Walker & Dunlop Arranges $101.6M HUD Loan for Multifamily Community in Chula Vista Califor... -> California: Financing Relationship, California, score 71. Track LA / California activity.
+- Disposition / Exit - California - Carlsbad Lifestyle Center Fetches $91M in Sale to 11North -> jll: Financing Relationship, California, score 68. Monitor lender activity.
+- Acquisition - California - Adam Neumann’s Flow Makes First West Coast Acquisition -> California: Acquisition / Buyer, California, score 61. Track LA / California activity.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties -> California: Financing Relationship, California, score 61. Track LA / California activity.
+- Entitlement / Permitting - Los Angeles / California - Venice Dell affordable housing project notches legal win -> Los Angeles: Entitlement / Permitting, Los Angeles / California, score 59. Monitor only.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project -> California: Market Expansion, California, score 57. Track LA / California activity.
-- JV / Partnership - Los Angeles / California - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing -> Los Angeles: JV / Partnership, Los Angeles / California, score 56. Review potential JV relevance.
-- Entitlement / Permitting - Los Angeles / California - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills -> Los Angeles: Entitlement / Permitting, Los Angeles / California, score 50. Monitor only.
-- Disposition / Exit - California - Carlsbad Lifestyle Center Fetches $91M in Sale to 11North -> California: Disposition / Seller, California, score 48. Track LA / California activity.
 
 ## Potential Woomi Partnership Signals
 
+- Alliance Residential -> JV / Partnership - Riverside / California - PCCP, Alliance Residential Buy 184-Unit Multifamily Community in Riverside, California: JV / Partnership, Riverside / California, score 88. Review potential JV relevance.
+- Alliance Residential -> Riverside: JV / Partnership, Riverside / California, score 88. Review potential JV relevance.
+- Alliance Residential -> Riverside / California: JV / Partnership, Riverside / California, score 88. Review potential JV relevance.
 - Alliance Residential -> JV / Partnership - Riverside / California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: JV / Partnership, Riverside / California, score 84. Review potential JV relevance.
 - Alliance Residential -> Riverside: JV / Partnership, Riverside / California, score 84. Review potential JV relevance.
 - Alliance Residential -> Riverside / California: JV / Partnership, Riverside / California, score 84. Review potential JV relevance.
 - JV / Partnership - Santa Monica / California - RAND reviews ULA impacts, Mayor's race focuses on housing, and more -> Santa Monica: JV / Partnership, Santa Monica / California, score 60. Review potential JV relevance.
 - JV / Partnership - Santa Monica / California - RAND reviews ULA impacts, Mayor's race focuses on housing, and more -> Santa Monica / California: JV / Partnership, Santa Monica / California, score 60. Review potential JV relevance.
-- JV / Partnership - Washington DC - IPA Arranges $27M Acquisition Loan for Apartment Community in D.C’s NoMa District -> Washington DC: JV / Partnership, Washington DC, score 60. Review potential JV relevance.
-- JV / Partnership - Washington DC - IPA Arranges $27M Acquisition Loan for Apartment Community in D.C’s NoMa District -> Washington, D.C.: JV / Partnership, Washington DC, score 60. Review potential JV relevance.
-- JV / Partnership - Los Angeles / California - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing -> Los Angeles: JV / Partnership, Los Angeles / California, score 56. Review potential JV relevance.
-- JV / Partnership - Los Angeles / California - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing -> Los Angeles / California: JV / Partnership, Los Angeles / California, score 56. Review potential JV relevance.
-- JV / Partnership - Other / Unknown - Scion Group, Ares Management Corp. partner for $910M student housing buy -> ares: JV / Partnership, Other / Unknown, score 55. Review potential JV relevance.
+- JV / Partnership - Washington DC - St. John Properties, Somerset Companies Break Ground on $148M Maryland MF Project -> Washington DC: JV / Partnership, Washington DC, score 56. Review potential JV relevance.
+- JV / Partnership - Washington DC - St. John Properties, Somerset Companies Break Ground on $148M Maryland MF Project -> Washington Dc: JV / Partnership, Washington DC, score 56. Review potential JV relevance.
 
 ## Canonical Relationship Map
 
 | Source | Target | Relationship | Confidence |
 | --- | --- | --- | ---: |
 | Wood Partners | northmarq | Financing Relationship | 40 |
-| Crescent Communities | Berkadia | Financing Relationship | 40 |
+| Alliance Residential | California | JV / Partnership | 40 |
+| Alliance Residential | Riverside | JV / Partnership | 40 |
+| Alliance Residential | California | JV / Partnership | 40 |
 | Alliance Residential | California | JV / Partnership | 40 |
 | Alliance Residential | Riverside | JV / Partnership | 40 |
 | Alliance Residential | California | JV / Partnership | 40 |
 | JLL | JLL | Financing Relationship | 60 |
-| Crescent Communities | Refinancing - Sarasota / Florida - Benefit Street Partners Provides $82M Refi for Sarasota County Multifamily | Financing Relationship | 40 |
-| Crescent Communities | Sarasota | Financing Relationship | 40 |
-| Crescent Communities | Sarasota / Florida | Financing Relationship | 40 |
-| Wood Partners | Sun Belt | Acquisition / Buyer | 40 |
+| Los Angeles | walker & dunlop | Financing Relationship | 40 |
+| Lincoln Property Company | Los Angeles | Entitlement / Permitting | 40 |
 
 ## Multi-Source Confirmation Summary
 
@@ -113,11 +114,11 @@ Relationship repeat strength uses unique canonical deal/event counts instead of 
 ## Emerging GP Watchlist Reference
 
 Ranked GP watchlist signals are available in `gp_watchlist_report.md`.
-- Alliance Residential: 79 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- Wood Partners: 77 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- Crescent Communities: 63 (Tier 3 Monitoring GP), Potential GP partnership candidate.
+- Alliance Residential: 80 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- Wood Partners: 71 (Tier 2 High Potential GP), Potential GP partnership candidate.
 - Lincoln Property Company: 60 (Tier 3 Monitoring GP), Capital market and pricing discovery reference.
-- Blackstone: 49 (Emerging Watchlist), Capital market and pricing discovery reference.
+- Crescent Communities: 52 (Emerging Watchlist), Capital market and pricing discovery reference.
+- Harbor Group International: 52 (Emerging Watchlist), Capital market and pricing discovery reference.
 
 ## GP Source Expansion Summary
 
@@ -138,22 +139,22 @@ Longitudinal memory is available in `historical_memory_report.md`.
 ## Recommended Executive Follow-Up
 
 - Track GP relationship history: Wood Partners -> northmarq (Financing Relationship).
-- Track GP relationship history: Crescent Communities -> berkadia (Financing Relationship).
+- Review potential JV relevance: Alliance Residential -> JV / Partnership - Riverside / California - PCCP, Alliance Residential Buy 184-Unit Multifamily Community in Riverside, California (JV / Partnership).
+- Review potential JV relevance: Alliance Residential -> Riverside (JV / Partnership).
+- Review potential JV relevance: Alliance Residential -> Riverside / California (JV / Partnership).
 - Review potential JV relevance: Alliance Residential -> JV / Partnership - Riverside / California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex (JV / Partnership).
 - Review potential JV relevance: Alliance Residential -> Riverside (JV / Partnership).
 - Review potential JV relevance: Alliance Residential -> Riverside / California (JV / Partnership).
 - Monitor lender activity: Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily -> jll (Financing Relationship).
-- Track GP relationship history: Crescent Communities -> Refinancing - Sarasota / Florida - Benefit Street Partners Provides $82M Refi for Sarasota County Multifamily (Financing Relationship).
-- Track GP relationship history: Crescent Communities -> Sarasota (Financing Relationship).
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 645
-- Canonical projects: 172
-- Duplicate project clusters: 106
-- Persistent assets tracked: 172
-- LA persistent asset watch items: 116
+- Raw project references: 683
+- Canonical projects: 170
+- Duplicate project clusters: 109
+- Persistent assets tracked: 170
+- LA persistent asset watch items: 123
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

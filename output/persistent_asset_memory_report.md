@@ -1,63 +1,63 @@
 # Persistent Asset Memory Report
 
-Generated: 2026-06-01 07:28:42
+Generated: 2026-06-01 23:01:54
 
-- Total persistent assets tracked: 172
-- Newly detected assets: 135
+- Total persistent assets tracked: 170
+- Newly detected assets: 151
 - Progressing assets: 0
 - Possible stalled assets: 4
 
 ## Highest Priority Asset Watch Items
 
-- Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Priority Asset Watch, Refinancing / Recapitalization, score 87.
-- JV / Partnership - Riverside / California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: Priority Asset Watch, Delivery / Opening, score 87.
-- Construction Financing - New York - Dwight Mortgage Trust Lends $55M on Rockland County, N.Y., Multifamily Development: Priority Asset Watch, Site Acquisition / Site Control, score 86.
+- Recapitalization - California - PEF Advisors with Freestone Capital Form Joint Venture to Recapitalize Affordable Housing...: Priority Asset Watch, Refinancing / Recapitalization, score 90.
+- JV / Partnership - Riverside / California - PCCP, Alliance Residential Buy 184-Unit Multifamily Community in Riverside, California: Priority Asset Watch, Delivery / Opening, score 89.
+- Office-to-Residential Conversion - Los Angeles / California - L.A. Mayor Karen Bass On Fast-Tracking Housing and Reviving Downtown: Priority Asset Watch, Site Acquisition / Site Control, score 87.
+- Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Priority Asset Watch, Refinancing / Recapitalization, score 85.
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Priority Asset Watch, Refinancing / Recapitalization, score 84.
-- General Project Signal - Atlanta / Georgia - Insignia Pursuing Embassy Row Multifamily Mixed-Use Redevelopment in Atlanta: Priority Asset Watch, Refinancing / Recapitalization, score 84.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: Priority Asset Watch, Refinancing / Recapitalization, score 83.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: Priority Asset Watch, Vertical Construction, score 81.
-- General Project Signal - Atlanta / Georgia - Insignia Pursuing Embassy Row Multifamily Mixed-Use Redevelopment in Atlanta: Priority Asset Watch, Unknown Stage, score 77.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: Priority Asset Watch, Site Acquisition / Site Control, score 75.
-- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: Priority Asset Watch, Site Acquisition / Site Control, score 75.
+- Entitlement / Permitting - Atlanta / Georgia - Cambridge Properties Bringing New Life to Aging Charlotte Center: Priority Asset Watch, Refinancing / Recapitalization, score 83.
+- Entitlement / Permitting - Los Angeles / California - New plan unveiled for West Hollywood's Melrose Triangle development: Priority Asset Watch, Unknown Stage, score 82.
+- Acquisition - Atlanta / Georgia - Converted Belmont Mill Trades for $55.5M: Priority Asset Watch, Unknown Stage, score 81.
+- BTR / Build-to-Rent - Atlanta / Georgia - Crescent Debuts 151-Unit Lawrenceville BTR Community: Priority Asset Watch, Delivery / Opening, score 80.
+- Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: Priority Asset Watch, Delivery / Opening, score 79.
 
 ## Assets With Repeated Financing Signals
 
-- Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Priority Asset Watch, Refinancing / Recapitalization, score 87.
+- Recapitalization - California - PEF Advisors with Freestone Capital Form Joint Venture to Recapitalize Affordable Housing...: Priority Asset Watch, Refinancing / Recapitalization, score 90.
+- Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Priority Asset Watch, Refinancing / Recapitalization, score 85.
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Priority Asset Watch, Refinancing / Recapitalization, score 84.
-- General Project Signal - Atlanta / Georgia - Insignia Pursuing Embassy Row Multifamily Mixed-Use Redevelopment in Atlanta: Priority Asset Watch, Refinancing / Recapitalization, score 84.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: Priority Asset Watch, Refinancing / Recapitalization, score 83.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: Priority Asset Watch, Vertical Construction, score 81.
-- General Project Signal - Atlanta / Georgia - Insignia Pursuing Embassy Row Multifamily Mixed-Use Redevelopment in Atlanta: Priority Asset Watch, Unknown Stage, score 77.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: Priority Asset Watch, Site Acquisition / Site Control, score 75.
-- Refinancing - New York City / New York - PNC Bank Refis West Village Apartment Building With $404M Loan: Strategic Asset Watch, Refinancing / Recapitalization, score 74.
-- Refinancing - Moreno Valley / California - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments Villa Annette: Strategic Asset Watch, Refinancing / Recapitalization, score 73.
-- Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Strategic Asset Watch, Site Acquisition / Site Control, score 73.
+- Entitlement / Permitting - Atlanta / Georgia - Cambridge Properties Bringing New Life to Aging Charlotte Center: Priority Asset Watch, Refinancing / Recapitalization, score 83.
+- Entitlement / Permitting - Atlanta / Georgia - Cambridge Properties Bringing New Life to Aging Charlotte Center: Priority Asset Watch, Site Acquisition / Site Control, score 76.
+- Office-to-Residential Conversion - New York - Partnership Breaks Ground on $147M Affordable Housing Redevelopment in Poughkeepsie, New Y...: Strategic Asset Watch, Unknown Stage, score 74.
+- Refinancing - Sarasota / Florida - Berkadia Secures $82.1M Loan to Refinance Class A Multifamily Asset in Sarasota County Flo...: Strategic Asset Watch, Refinancing / Recapitalization, score 73.
+- Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: Strategic Asset Watch, Unknown Stage, score 65.
+- Refinancing - Miami / Florida - Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables an...: Strategic Asset Watch, Site Acquisition / Site Control, score 63.
+- General Project Signal - National - Lument Closes $28M Loan for Ohio Multifamily Property: Strategic Asset Watch, Unknown Stage, score 56.
 
 ## Assets With Repeated Entitlement Signals
 
-- General Project Signal - Atlanta / Georgia - Insignia Pursuing Embassy Row Multifamily Mixed-Use Redevelopment in Atlanta: Priority Asset Watch, Refinancing / Recapitalization, score 84.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: Priority Asset Watch, Refinancing / Recapitalization, score 83.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: Priority Asset Watch, Vertical Construction, score 81.
-- General Project Signal - Atlanta / Georgia - Insignia Pursuing Embassy Row Multifamily Mixed-Use Redevelopment in Atlanta: Priority Asset Watch, Unknown Stage, score 77.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: Priority Asset Watch, Site Acquisition / Site Control, score 75.
+- Recapitalization - California - PEF Advisors with Freestone Capital Form Joint Venture to Recapitalize Affordable Housing...: Priority Asset Watch, Refinancing / Recapitalization, score 90.
+- Office-to-Residential Conversion - Los Angeles / California - L.A. Mayor Karen Bass On Fast-Tracking Housing and Reviving Downtown: Priority Asset Watch, Site Acquisition / Site Control, score 87.
+- Entitlement / Permitting - Atlanta / Georgia - Cambridge Properties Bringing New Life to Aging Charlotte Center: Priority Asset Watch, Refinancing / Recapitalization, score 83.
+- Entitlement / Permitting - Los Angeles / California - New plan unveiled for West Hollywood's Melrose Triangle development: Priority Asset Watch, Unknown Stage, score 82.
+- Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: Priority Asset Watch, Delivery / Opening, score 79.
+- Office-to-Residential Conversion - Los Angeles / California - L.A. Mayor Karen Bass On Fast-Tracking Housing and Reviving Downtown: Priority Asset Watch, Delivery / Opening, score 78.
+- Entitlement / Permitting - Atlanta / Georgia - Cambridge Properties Bringing New Life to Aging Charlotte Center: Priority Asset Watch, Site Acquisition / Site Control, score 76.
+- Office-to-Residential Conversion - Los Angeles / California - L.A. Mayor Karen Bass On Fast-Tracking Housing and Reviving Downtown: Priority Asset Watch, Entitlement Under Review, score 75.
 - Entitlement / Permitting - Santa Monica / California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Priority Asset Watch, Unknown Stage, score 75.
-- First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A Trickle: Strategic Asset Watch, Entitlement Under Review, score 70.
-- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: Strategic Asset Watch, Unknown Stage, score 70.
-- Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: Strategic Asset Watch, Delivery / Opening, score 67.
-- Entitlement / Permitting - Santa Monica / California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Strategic Asset Watch, Unknown Stage, score 63.
+- Office-to-Residential Conversion - New York - Partnership Breaks Ground on $147M Affordable Housing Redevelopment in Poughkeepsie, New Y...: Strategic Asset Watch, Unknown Stage, score 74.
 
 ## Recurring Asset Signals
 
-- Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Priority Asset Watch, Refinancing / Recapitalization, score 87.
-- JV / Partnership - Riverside / California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: Priority Asset Watch, Delivery / Opening, score 87.
-- Construction Financing - New York - Dwight Mortgage Trust Lends $55M on Rockland County, N.Y., Multifamily Development: Priority Asset Watch, Site Acquisition / Site Control, score 86.
+- Recapitalization - California - PEF Advisors with Freestone Capital Form Joint Venture to Recapitalize Affordable Housing...: Priority Asset Watch, Refinancing / Recapitalization, score 90.
+- JV / Partnership - Riverside / California - PCCP, Alliance Residential Buy 184-Unit Multifamily Community in Riverside, California: Priority Asset Watch, Delivery / Opening, score 89.
+- Office-to-Residential Conversion - Los Angeles / California - L.A. Mayor Karen Bass On Fast-Tracking Housing and Reviving Downtown: Priority Asset Watch, Site Acquisition / Site Control, score 87.
+- Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Priority Asset Watch, Refinancing / Recapitalization, score 85.
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Priority Asset Watch, Refinancing / Recapitalization, score 84.
-- General Project Signal - Atlanta / Georgia - Insignia Pursuing Embassy Row Multifamily Mixed-Use Redevelopment in Atlanta: Priority Asset Watch, Refinancing / Recapitalization, score 84.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: Priority Asset Watch, Refinancing / Recapitalization, score 83.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: Priority Asset Watch, Vertical Construction, score 81.
-- General Project Signal - Atlanta / Georgia - Insignia Pursuing Embassy Row Multifamily Mixed-Use Redevelopment in Atlanta: Priority Asset Watch, Unknown Stage, score 77.
-- Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: Priority Asset Watch, Site Acquisition / Site Control, score 75.
-- Office-to-Residential Conversion - Northern Virginia / Virginia - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: Priority Asset Watch, Site Acquisition / Site Control, score 75.
+- Entitlement / Permitting - Atlanta / Georgia - Cambridge Properties Bringing New Life to Aging Charlotte Center: Priority Asset Watch, Refinancing / Recapitalization, score 83.
+- Entitlement / Permitting - Los Angeles / California - New plan unveiled for West Hollywood's Melrose Triangle development: Priority Asset Watch, Unknown Stage, score 82.
+- Acquisition - Atlanta / Georgia - Converted Belmont Mill Trades for $55.5M: Priority Asset Watch, Unknown Stage, score 81.
+- BTR / Build-to-Rent - Atlanta / Georgia - Crescent Debuts 151-Unit Lawrenceville BTR Community: Priority Asset Watch, Delivery / Opening, score 80.
+- Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: Priority Asset Watch, Delivery / Opening, score 79.
 
 ## Implications for Woomi / Woomi Global
 
@@ -66,23 +66,23 @@ Generated: 2026-06-01 07:28:42
 
 ## Recommended Asset Memory Follow-up
 
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - Riverside / California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - New York - Dwight Mortgage Trust Lends $55M on Rockland County, N.Y., Multifamily Development.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Recapitalization - California - PEF Advisors with Freestone Capital Form Joint Venture to Recapitalize Affordable Housing....
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - Riverside / California - PCCP, Alliance Residential Buy 184-Unit Multifamily Community in Riverside, California.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Office-to-Residential Conversion - Los Angeles / California - L.A. Mayor Karen Bass On Fast-Tracking Housing and Reviving Downtown.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Atlanta / Georgia - Insignia Pursuing Embassy Row Multifamily Mixed-Use Redevelopment in Atlanta.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South....
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Modular / Construction Innovation - Los Angeles / California - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South....
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Atlanta / Georgia - Insignia Pursuing Embassy Row Multifamily Mixed-Use Redevelopment in Atlanta.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Entitlement / Permitting - Atlanta / Georgia - Cambridge Properties Bringing New Life to Aging Charlotte Center.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Entitlement / Permitting - Los Angeles / California - New plan unveiled for West Hollywood's Melrose Triangle development.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - Atlanta / Georgia - Converted Belmont Mill Trades for $55.5M.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 172
-- Institutional-grade signals: 7
-- High-confidence signals: 34
-- Weak/noisy signals: 117
-- High-confidence watchlist items: 34
+- Signals evaluated: 170
+- Institutional-grade signals: 8
+- High-confidence signals: 28
+- Weak/noisy signals: 120
+- High-confidence watchlist items: 28
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

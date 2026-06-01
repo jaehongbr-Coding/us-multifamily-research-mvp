@@ -1,74 +1,73 @@
 # GP Routing Quality Report
 
-Generated: 2026-06-01 07:28:33
+Generated: 2026-06-01 23:01:46
 
 ## Summary
-- Total GP / Capital candidates: 40
-- Selected GP / Capital articles: 17
-- Debt Financing count: 7
+- Total GP / Capital candidates: 45
+- Selected GP / Capital articles: 27
+- Debt Financing count: 8
 - Refinancing count: 4
 - Construction Financing count: 5
-- Acquisition Financing count: 1
-- Equity Transaction count: 1
+- Acquisition Financing count: 0
+- Equity Transaction count: 0
 - Operator Activity count: 1
-- Other / Unknown market count: 22
+- Other / Unknown market count: 27
 
 ## Routing Regression Summary
-- Market Intelligence routed articles: 13
-- Development Activity routed articles: 33
-- GP / Capital Activity routed articles: 24
-- Market-protected research / macro / supply articles: 9
+- Market Intelligence routed articles: 16
+- Development Activity routed articles: 30
+- GP / Capital Activity routed articles: 29
+- Market-protected research / macro / supply articles: 12
 - Approval / Entitlement development rows: 0
 - Site / Parcel development rows: 0
 - Routing rule: market and macro context is protected unless a headline-level deal, project, sponsor, or lender event is confirmed.
 - Routing rule: approval / entitlement wording takes priority over Site / Parcel when both appear.
 
 ## Activity Type Distribution
-- disposition_exit: 11
-- debt_financing: 7
+- disposition_exit: 15
+- debt_financing: 8
 - joint_venture: 6
 - construction_financing: 5
 - refinancing: 4
-- acquisition: 2
-- acquisition_financing: 1
+- acquisition: 4
 - lender_activity: 1
-- equity_transaction: 1
 - platform_expansion: 1
 - asset_management_operator_activity: 1
 
 ## Excluded from GP / Capital with Reason
-- JBG SMITH Commences Office-to-Residential Conversion in National Landing | Connect CRE Apartments | asset strategy / development routing
+- Partnership Breaks Ground on $147M Affordable Housing Redevelopment in Poughkeepsie, New York | REBusiness Online | asset strategy / development routing
+- Eastham Capital Announces Disposition of Multifamily Asset in Humble Texas Eagle Crest Apartments | Yield PRO | asset strategy / development routing
 
 ## Top Unresolved Market Extraction Examples
 - The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist | Multifamily Executive | used broad market bucket: National
-- Merchants Capital Provides $99M in Financing for Indiana Workforce Housing | Connect CRE Apartments | no city, state, or market keyword detected
+- Lument Closes $28M Loan for Ohio Multifamily Property | Connect CRE | used broad market bucket: National
+- Interra Realty Brokers Sale of Bucktown Mixed-Use Property | Connect CRE | no city, state, or market keyword detected
+- BHI Lends $170M on Third Avenue Office-to-Resi Conversion | Commercial Observer | no city, state, or market keyword detected
+- Marcus & Millichap Arranges Sale of 24-Unit Multifamily Property Lake Country Apartments in Siren Wisconsin | Yield PRO | no city, state, or market keyword detected
 - Best Year for Missing Middle Construction Since 2007 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Missing Middle Weakness | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- Newly Constructed Mid-Rise Multifamily Property Across from University of Chicago Hits the Market | Yield PRO | no city, state, or market keyword detected
 - Multifamily Missing Middle Construction: First Quarter 2026 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- SAGE Arranges $21.5M Sale of Northern New Jersey Apartment Building | REBusiness Online | no city, state, or market keyword detected
 - Multifamily Absorption Rate Remains Below 50% | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- Lee & Associates’ Report: Industrial and Multifamily Slow, Office Recovers, Retail Demand Holds | REBusiness Online | used broad market bucket: National
 - Centralization Associated with Occupancy Uplift | Multifamily Executive | no city, state, or market keyword detected
+- Walker & Dunlop Leads $16.5B Fannie Mae Lending Market | Commercial Observer | used broad market bucket: National
 - Rent Prices Continue to Rise, While Absorption Remains Low | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Builders Stay Cautious as Single-Family Permits Weaken | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- First Quarter 2026 Multifamily Construction Data | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- Fourth Quarter 2025 Multifamily Construction Data | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- Overall Housing Starts Inch Lower in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- Third Quarter 2025 Multifamily Construction Data | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- Private Residential Construction Spending Increases in March | NAHB Eye on Housing - Multifamily | used broad market bucket: National
 
 ## Sample Selected GP / Capital Articles
-- $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments Villa Annette | construction_financing | Moreno Valley / California | Yield PRO
-- PNC Bank Refis West Village Apartment Building With $404M Loan | refinancing | New York City / New York | Commercial Observer
-- Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in West Hollywood | construction_financing | Los Angeles / California | Urbanize LA
-- Wood Partners Sells 278-Unit Alta Rise Multifamily Community in Gilbert, Arizona | disposition_exit | Phoenix / Arizona | REBusiness Online
-- Merchants Capital Provides $99M in Financing for Indiana Workforce Housing | debt_financing | Other / Unknown | Connect CRE Apartments
+- Lument Closes $28M Loan for Ohio Multifamily Property | debt_financing | National | Connect CRE
+- Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF | construction_financing | Washington DC | Connect CRE
+- PCCP, Alliance Residential Buy 184-Unit Multifamily Community in Riverside, California | joint_venture | Riverside / California | REBusiness Online
 - Empire Group Starts Work on $170M Phoenix Apartment Tower | debt_financing | Phoenix / Arizona | Connect CRE Phoenix
-- Covina Apartments Trade on In-Place Cash Flow, Rental Upside | disposition_exit | Los Angeles / California | Connect CRE
-- Benefit Street Partners Provides $82M Refi for Sarasota County Multifamily | refinancing | Sarasota / Florida | Commercial Observer
-- Dwight Mortgage Trust Lends $55M on Rockland County, N.Y., Multifamily Development | construction_financing | New York | Commercial Observer
-- Colorado Coalition for the Homeless Converting Downtown Denver YMCA Space to Multifamily Affordable Housing Apartments | disposition_exit | Denver / Colorado | Yield PRO
-- JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virginia | joint_venture | Northern Virginia / Virginia | Yield PRO
-- Affinius Capital Led Joint Venture Closes $3.5B Acquisition of Veris Residential | equity_transaction | New York City / New York | Yield PRO
-- Georgia Tech Student Housing Investors Ink Refi | refinancing | Atlanta / Georgia | Connect CRE Atlanta
-- Carlsbad Lifestyle Center Fetches $91M in Sale to 11North | disposition_exit | California | Connect CRE
-- Miami Apartments Trade for $109.9M | acquisition | Miami / Florida | Connect CRE South Florida
+- Covina Apartments Trade on In-Place Cash Flow, Rental Upside | disposition_exit | Los Angeles / California | Connect CRE California
+- PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex | joint_venture | Riverside / California | Connect CRE California
+- Avison Young Arranges $404M Permanent Loan for Iconic 479-Unit Multifamily Building The Archive at 666 Greenwich Street | debt_financing | New York City / New York | Yield PRO
+- Berkadia Secures $82.1M Loan to Refinance Class A Multifamily Asset in Sarasota County Florida | refinancing | Sarasota / Florida | Yield PRO
+- Interra Realty Brokers Sale of Bucktown Mixed-Use Property | disposition_exit | Other / Unknown | Connect CRE
+- BHI Lends $170M on Third Avenue Office-to-Resi Conversion | construction_financing | Other / Unknown | Commercial Observer
+- Marcus & Millichap Arranges Sale of 24-Unit Multifamily Property Lake Country Apartments in Siren Wisconsin | disposition_exit | Other / Unknown | Yield PRO
+- Walker & Dunlop Arranges $101.6M HUD Loan for Multifamily Community in Chula Vista California | refinancing | California | Yield PRO
+- S3 Capital Provides $132M Loan for Washington Heights Student Housing | construction_financing | New York | Connect CRE
+- St. John Properties, Somerset Companies Break Ground on $148M Maryland MF Project | joint_venture | Washington DC | Connect CRE Apartments
+- PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties | joint_venture | California | Connect CRE Orange County

@@ -1,19 +1,19 @@
 # Trend Alerts
 
-Generated: 2026-06-01 07:28:42
+Generated: 2026-06-01 23:01:54
 
-- Latest run timestamp: 2026-06-01 07:28:33
-- Previous run timestamp: 2026-06-01 06:48:06
+- Latest run timestamp: 2026-06-01 23:01:46
+- Previous run timestamp: 2026-06-01 07:28:33
 
 ## Trend Metrics
 
 | Metric | Latest | Previous | Change | Percentage Change | Alert |
 | --- | ---: | ---: | ---: | ---: | --- |
-| Total article volume | 75 | 65 | 10 | 15.4% | Stable |
-| High-priority article volume | 37 | 29 | 8 | 27.6% | Moderate Increase |
-| Market-signal article volume | 22 | 18 | 4 | 22.2% | Moderate Increase |
-| Strategy-briefing article volume | 40 | 32 | 8 | 25.0% | Moderate Increase |
+| Total article volume | 79 | 75 | 4 | 5.3% | Stable |
+| High-priority article volume | 38 | 37 | 1 | 2.7% | Stable |
+| Market-signal article volume | 25 | 22 | 3 | 13.6% | Stable |
+| Strategy-briefing article volume | 41 | 40 | 1 | 2.5% | Stable |
 
 ## Interpretation for Strategy Team
 
-- Strategy-briefing articles increased, so more items may require review by the strategy team.
+- All monitored volumes are stable, so the market signal environment appears stable in this run.

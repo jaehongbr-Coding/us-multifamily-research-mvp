@@ -1,21 +1,21 @@
 # LA / Southern California Submarket Watch Report
 
-Generated: 2026-06-01 07:28:40
+Generated: 2026-06-01 23:01:52
 
 - Total LA / Southern California submarkets detected: 13
 
 ## Top LA / Southern California Submarkets
 
 - Los Angeles: opportunity 100, risk 55, Monitor only.
-- Santa Monica: opportunity 100, risk 49, Monitor only.
-- Hollywood: opportunity 78, risk 49, Hollywood / transit-oriented housing watch.
-- West Hollywood: opportunity 70, risk 49, Hollywood / transit-oriented housing watch.
+- Santa Monica: opportunity 100, risk 40, Monitor only.
+- Riverside: opportunity 93, risk 30, Inland Empire BTR / rental housing watch.
+- Hollywood: opportunity 76, risk 40, Hollywood / transit-oriented housing watch.
+- Venice: opportunity 69, risk 52, Monitor only.
 - Koreatown: opportunity 69, risk 40, Koreatown multifamily watch.
-- Riverside: opportunity 68, risk 30, Inland Empire BTR / rental housing watch.
+- West Hollywood: opportunity 68, risk 40, Hollywood / transit-oriented housing watch.
 - Santa Ana: opportunity 65, risk 57, Orange County suburban apartment watch.
-- South LA: opportunity 54, risk 30, Monitor only.
-- California: opportunity 24, risk 20, Monitor only.
-- Pasadena: opportunity 20, risk 30, Hollywood / transit-oriented housing watch.
+- California: opportunity 48, risk 20, Monitor only.
+- Orange County: opportunity 20, risk 30, Orange County suburban apartment watch.
 
 ## Koreatown / Wilshire Watch
 
@@ -27,8 +27,8 @@ Generated: 2026-06-01 07:28:40
 
 ## Hollywood / Transit-Oriented Watch
 
-- Hollywood: opportunity 78, risk 49, Hollywood / transit-oriented housing watch.
-- West Hollywood: opportunity 70, risk 49, Hollywood / transit-oriented housing watch.
+- Hollywood: opportunity 76, risk 40, Hollywood / transit-oriented housing watch.
+- West Hollywood: opportunity 68, risk 40, Hollywood / transit-oriented housing watch.
 - Pasadena: opportunity 20, risk 30, Hollywood / transit-oriented housing watch.
 - Burbank: opportunity 12, risk 30, Hollywood / transit-oriented housing watch.
 
@@ -43,11 +43,11 @@ Generated: 2026-06-01 07:28:40
 ## Orange County / Suburban Apartment Watch
 
 - Santa Ana: opportunity 65, risk 57, Orange County suburban apartment watch.
-- Orange County: opportunity 12, risk 30, Orange County suburban apartment watch.
+- Orange County: opportunity 20, risk 30, Orange County suburban apartment watch.
 
 ## Inland Empire / BTR Watch
 
-- Riverside: opportunity 68, risk 30, Inland Empire BTR / rental housing watch.
+- Riverside: opportunity 93, risk 30, Inland Empire BTR / rental housing watch.
 - Inland Empire: opportunity 12, risk 30, Inland Empire BTR / rental housing watch.
 
 ## LA Density Bonus / TOC Watch
@@ -63,12 +63,12 @@ Generated: 2026-06-01 07:28:40
 
 - Track local planning docket and entitlement precedent: Los Angeles / Monitor only.
 - Track local planning docket and entitlement precedent: Santa Monica / Monitor only.
-- Track local planning docket and entitlement precedent: Hollywood / Hollywood / transit-oriented housing watch.
-- Track local planning docket and entitlement precedent: West Hollywood / Hollywood / transit-oriented housing watch.
-- Track local planning docket and entitlement precedent: Koreatown / Koreatown multifamily watch.
 - Review potential acquisition pipeline: Riverside / Inland Empire BTR / rental housing watch.
+- Track local planning docket and entitlement precedent: Hollywood / Hollywood / transit-oriented housing watch.
+- Track local planning docket and entitlement precedent: Venice / Monitor only.
+- Track local planning docket and entitlement precedent: Koreatown / Koreatown multifamily watch.
+- Track local planning docket and entitlement precedent: West Hollywood / Hollywood / transit-oriented housing watch.
 - Review potential acquisition pipeline: Santa Ana / Orange County suburban apartment watch.
-- Review potential acquisition pipeline: South LA / Monitor only.
 
 ## Asset / Parcel Intelligence Reference
 
@@ -79,7 +79,7 @@ Asset / parcel-level site clues are available in `asset_parcel_intelligence_repo
 ## Development Lifecycle Intelligence Summary
 
 - Lifecycle records: 82
-- LA lifecycle watch items: 50
-- Stage mix: Delivery / Opening: 8, Unknown Stage: 40, Refinancing / Recapitalization: 12, Site Acquisition / Site Control: 16, Vertical Construction: 4
+- LA lifecycle watch items: 54
+- Stage mix: Delivery / Opening: 8, Unknown Stage: 49, Site Acquisition / Site Control: 11, Refinancing / Recapitalization: 11, Entitlement Under Review: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

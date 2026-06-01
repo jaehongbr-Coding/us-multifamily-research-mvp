@@ -1,6 +1,6 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-06-01 07:28:39
+Generated: 2026-06-01 23:01:51
 
 - GP/developer candidates reviewed: 6
 - Tier 1 Strategic GPs: 0
@@ -8,12 +8,12 @@ Generated: 2026-06-01 07:28:39
 
 ## Top Emerging GPs
 
-- Alliance Residential: 79 (Tier 2 High Potential GP), Riverside / California, California / LA strategic positioning.
-- Wood Partners: 77 (Tier 2 High Potential GP), Atlanta / Georgia, California / LA strategic positioning.
-- Crescent Communities: 63 (Tier 3 Monitoring GP), Sarasota / Florida, Distressed opportunity positioning.
+- Alliance Residential: 80 (Tier 2 High Potential GP), Riverside / California, California / LA strategic positioning.
+- Wood Partners: 71 (Tier 2 High Potential GP), Atlanta / Georgia, California / LA strategic positioning.
 - Lincoln Property Company: 60 (Tier 3 Monitoring GP), Santa Monica / California, California / LA strategic positioning.
+- Crescent Communities: 52 (Emerging Watchlist), Atlanta / Georgia, BTR / SFR platform growth.
+- Harbor Group International: 52 (Emerging Watchlist), Atlanta / Georgia, California / LA strategic positioning.
 - Blackstone: 49 (Emerging Watchlist), New York, Distressed opportunity positioning.
-- RXR: 35 (Low Signal), New York City / New York, Selective residential growth.
 
 ## Tier 1 Strategic GP
 
@@ -21,18 +21,20 @@ Generated: 2026-06-01 07:28:39
 
 ## Tier 2 High Potential GP
 
-- Alliance Residential: score 79, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Wood Partners: score 77, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
+- Alliance Residential: score 80, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Wood Partners: score 71, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## California / LA GP Activity
 
-- Alliance Residential: score 79, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Wood Partners: score 77, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
+- Alliance Residential: score 80, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Wood Partners: score 71, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
 - Lincoln Property Company: score 60, Tier 3 Monitoring GP, Santa Monica / California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Crescent Communities: score 52, Emerging Watchlist, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
+- Harbor Group International: score 52, Emerging Watchlist, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## BTR / SFR GP Activity
 
-- No current GP signal detected.
+- Crescent Communities: score 52, Emerging Watchlist, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## Affordable Housing GP Activity
 
@@ -40,7 +42,7 @@ Generated: 2026-06-01 07:28:39
 
 ## Student Housing GP Activity
 
-- No current GP signal detected.
+- Harbor Group International: score 52, Emerging Watchlist, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## Innovation-Oriented GP Activity
 
@@ -48,17 +50,17 @@ Generated: 2026-06-01 07:28:39
 
 ## Institutional Capital Magnet
 
-- Alliance Residential: score 79, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Wood Partners: score 77, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Crescent Communities: score 63, Tier 3 Monitoring GP, Sarasota / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- Alliance Residential: score 80, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Wood Partners: score 71, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
 - Lincoln Property Company: score 60, Tier 3 Monitoring GP, Santa Monica / California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Crescent Communities: score 52, Emerging Watchlist, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
+- Harbor Group International: score 52, Emerging Watchlist, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
 - Blackstone: score 49, Emerging Watchlist, New York, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
 
 ## Potential Woomi Partnership Candidates
 
-- Alliance Residential: score 79, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Wood Partners: score 77, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Crescent Communities: score 63, Tier 3 Monitoring GP, Sarasota / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- Alliance Residential: score 80, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Wood Partners: score 71, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
 - Blackstone: score 49, Emerging Watchlist, New York, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
 
 ## GP Source Expansion Summary
@@ -89,26 +91,25 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 ## Recommended Management Meeting Targets
 
 - Alliance Residential: Track JV and capital partner activity (High confidence).
-- Wood Partners: Track JV and capital partner activity (High confidence).
-- Crescent Communities: Track JV and capital partner activity (Medium confidence).
+- Wood Partners: Track JV and capital partner activity (Medium confidence).
 
 ## Recommended Strategic Follow-up Actions
 
 - Alliance Residential: Track JV and capital partner activity.
 - Wood Partners: Track JV and capital partner activity.
-- Crescent Communities: Track JV and capital partner activity.
 - Lincoln Property Company: Review LA / California development activity.
+- Crescent Communities: Review LA / California development activity.
+- Harbor Group International: Review LA / California development activity.
 - Blackstone: Review institutional pricing and capital flow signals.
-- RXR: Monitor only.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 172
-- Institutional-grade signals: 7
-- High-confidence signals: 34
-- Weak/noisy signals: 117
-- High-confidence watchlist items: 34
+- Signals evaluated: 170
+- Institutional-grade signals: 8
+- High-confidence signals: 28
+- Weak/noisy signals: 120
+- High-confidence watchlist items: 28
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

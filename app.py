@@ -9196,12 +9196,6 @@ def article_feed_source(shared):
 
 def article_feed_category(row):
     primary_section = str(row.get("primary_display_section", "") or "").strip().lower()
-    if primary_section == "gp / capital activity" or truthy_display_flag(row.get("gp_capital_selected_flag")):
-        return "gp_capital"
-    if primary_section == "development activity":
-        return "development"
-    if primary_section == "market intelligence":
-        return "market"
     blob = text_blob(row)
     has_market = any(term in blob for term in ARTICLE_CATEGORY_TERMS["market"])
     has_market_finance = any(term in blob for term in ARTICLE_MARKET_FINANCE_TERMS)
@@ -9215,6 +9209,21 @@ def article_feed_category(row):
     deal_specific_terms = ["$", "million", "property", "apartment", "development", "units", "bank", "trust", "arranges", "provides", "lends"]
     has_deal_finance = any(term in blob for term in deal_finance_terms) and any(term in blob for term in deal_specific_terms)
     has_macro_finance = any(term in blob for term in macro_terms)
+    market_protection_terms = [
+        "interest rate", "treasury", "sofr", "cpi", "inflation", "rent growth",
+        "vacancy", "absorption", "concession", "market report", "economist",
+        "outlook", "confidence", "housing starts", "construction spending",
+        "survey", "index", "forecast", "research",
+    ]
+    has_market_protection = any(term in blob for term in market_protection_terms)
+    if has_market_protection and not has_deal_finance and not has_execution_milestone:
+        return "market"
+    if primary_section == "gp / capital activity" or truthy_display_flag(row.get("gp_capital_selected_flag")):
+        return "gp_capital"
+    if primary_section == "development activity":
+        return "development"
+    if primary_section == "market intelligence":
+        return "market"
     if has_deal_finance and not has_execution_milestone:
         return "gp_capital"
     if has_market_finance and not has_execution_milestone and not has_deal_finance:
@@ -14003,6 +14012,10 @@ def infer_capital_entity_from_title(title):
         "Blackstone", "Greystar", "Hines", "Related", "Crescent Communities",
         "Berkadia", "Walker & Dunlop", "Greystone", "CBRE", "JLL",
         "Marcus & Millichap", "Cushman & Wakefield", "Fannie Mae", "Freddie Mac",
+        "PNC Bank", "IPA", "Institutional Property Advisors", "Dwight Mortgage Trust",
+        "Benefit Street Partners", "Affinius Capital", "29th Street Living",
+        "JBG SMITH", "Scion Group", "Ares Management", "Wood Partners",
+        "Avison Young", "Bascom", "RXR",
     ]
     lowered = clean_title.lower()
     for entity in known_entities:

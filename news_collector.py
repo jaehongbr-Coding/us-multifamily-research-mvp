@@ -2437,12 +2437,13 @@ def get_primary_display_section(article):
     else:
         text_parts = [
             article.get("title", ""),
-            article.get("article_text_sample", ""),
-            article.get("matched_keywords", ""),
+            article.get("summary", ""),
+            article.get("source", ""),
             article.get("primary_topic", ""),
             article.get("capital_event_type", ""),
             article.get("development_stage", ""),
             article.get("financing_type", ""),
+            article.get("supply_demand_signal", ""),
         ]
     text = normalize_keyword_text(" ".join([
         part for part in text_parts if part
@@ -2456,7 +2457,23 @@ def get_primary_display_section(article):
         "joint venture", "led joint venture", " jv ", "acquisition", "acquires",
         "acquired", "buys", "sells", "sold", "recapitalization", "recap",
         "refinance", "refinancing", "refis", "loan", "lends", "capital raise",
-        "fund close", "platform",
+        "fund close", "platform", "debt financing", "construction loan",
+        "acquisition loan", "asset management", "assumes management",
+    ])
+    title_development_event_hit = find_matches(title_text, [
+        "final approval", "final okay", "town approval", "still needs approval",
+        "planning review", "planning commission", "entitlement", "zoning",
+        "rezoning", "permit", "density bonus", "to build", "plans to build",
+        "construction start", "breaks ground", "broke ground", "under construction",
+        "delivery", "opening", "lease-up", "acquired land", "purchased site",
+        "development site", "site control", "vacant parcel",
+    ])
+    market_protection_hit = find_matches(text, [
+        "interest rate", "interest rates", "treasury", "sofr", "cpi", "inflation",
+        "rent growth", "vacancy", "absorption", "concession", "market report",
+        "economist", "outlook", "confidence", "housing starts", "starts",
+        "permits", "construction spending", "survey", "index", "forecast",
+        "research", "data that matters",
     ])
     development_hit = article.get("development_stage") not in ["", "none"] or find_matches(text, [
         "entitlement", "permit", "zoning", "planning commission", "density bonus",
@@ -2492,6 +2509,9 @@ def get_primary_display_section(article):
     if macro_finance_only:
         primary = "Market Intelligence"
         reason = "macro finance or rate outlook signal detected"
+    elif market_protection_hit and not title_capital_event_hit and not title_development_event_hit and not deal_financing_hit:
+        primary = "Market Intelligence"
+        reason = "market, macro, research, or supply-demand article without confirmed deal or project event"
     elif asset_strategy_hit and not deal_financing_hit:
         primary = "Development Activity"
         reason = "renovation, repositioning, redevelopment, or asset strategy signal detected"
@@ -18358,7 +18378,8 @@ PRIMARY_APPROVAL_TERMS = [
     "permit", "permits", "permitting", "entitlement", "entitled", "zoning",
     "rezoning", "planning commission", "approved", "approval", "ceqa",
     "environmental review", "hud review", "density bonus", "affordable overlay",
-    "conditional approval",
+    "conditional approval", "final approval", "final okay", "town approval",
+    "still needs approval", "planning review", "commission review",
 ]
 PRIMARY_EXCLUDED_FINANCE_TERMS = [
     "refinancing", "recapitalization", "bridge loan", "construction loan",
@@ -23207,6 +23228,18 @@ def generate_gp_routing_quality_report(run_timestamp, articles, dated_output_dir
     candidates = [article for article in articles if is_gp_capital_candidate(article)]
     selected = [article for article in candidates if article.get("gp_capital_selected_flag") == "Yes"]
     activity_counts = Counter(article.get("gp_capital_activity_type", "none") for article in candidates)
+    primary_section_counts = Counter(article.get("primary_display_section", "Unrouted") or "Unrouted" for article in articles)
+    development_category_counts = Counter(article.get("primary_development_category", "") or "not_applicable" for article in articles)
+    market_protected_count = sum(
+        1 for article in articles
+        if article.get("primary_display_section") == "Market Intelligence"
+        and any(term in normalize_keyword_text(" ".join([
+            str(article.get("title", "")),
+            str(article.get("summary", "")),
+            str(article.get("primary_topic", "")),
+            str(article.get("supply_demand_signal", "")),
+        ])) for term in ["market report", "outlook", "vacancy", "absorption", "concession", "rent growth", "economist", "starts", "permits", "construction spending"])
+    )
     unknown_market_articles = [
         article for article in articles
         if article.get("market_focus") in ["", "Other / Unknown", "National"]
@@ -23231,6 +23264,16 @@ def generate_gp_routing_quality_report(run_timestamp, articles, dated_output_dir
         f"- Equity Transaction count: {activity_counts.get('equity_transaction', 0)}",
         f"- Operator Activity count: {activity_counts.get('asset_management_operator_activity', 0)}",
         f"- Other / Unknown market count: {len(unknown_market_articles)}",
+        "",
+        "## Routing Regression Summary",
+        f"- Market Intelligence routed articles: {primary_section_counts.get('Market Intelligence', 0)}",
+        f"- Development Activity routed articles: {primary_section_counts.get('Development Activity', 0)}",
+        f"- GP / Capital Activity routed articles: {primary_section_counts.get('GP / Capital Activity', 0)}",
+        f"- Market-protected research / macro / supply articles: {market_protected_count}",
+        f"- Approval / Entitlement development rows: {development_category_counts.get('approval_watch', 0)}",
+        f"- Site / Parcel development rows: {development_category_counts.get('site_parcel_activity', 0)}",
+        "- Routing rule: market and macro context is protected unless a headline-level deal, project, sponsor, or lender event is confirmed.",
+        "- Routing rule: approval / entitlement wording takes priority over Site / Parcel when both appear.",
         "",
         "## Activity Type Distribution",
     ]

@@ -1,15 +1,16 @@
 # Site / Parcel Source Coverage Report
 
-Generated: 2026-06-01 02:03:12
+Generated: 2026-06-01 02:31:41
 
 - Total added sources attempted: 25
 - Successful sources: 8
 - Blocked / inaccessible / skipped sources: 17
-- Sources with zero Site / Parcel candidates: 24
+- Sources with zero Site / Parcel candidates: 23
 
 ## Top Site / Parcel Candidate Sources
 
-- Connect CRE Apartments: 1 candidate(s) from 10 fetched article(s).
+- Connect CRE South Florida: 1 candidate(s) from 10 fetched article(s).
+- Connect CRE Atlanta: 1 candidate(s) from 10 fetched article(s).
 
 ## Why Coverage May Still Be Thin
 
@@ -20,11 +21,11 @@ Generated: 2026-06-01 02:03:12
 ## Source Detail
 
 - REBusiness Online: no relevant articles | fetched 20 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
-- Connect CRE Apartments: success | fetched 10 | Site / Parcel candidates 1 | Available
+- Connect CRE Apartments: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
 - Connect CRE Texas: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
-- Connect CRE South Florida: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
+- Connect CRE South Florida: success | fetched 10 | Site / Parcel candidates 1 | Available
 - Connect CRE Phoenix: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
-- Connect CRE Atlanta: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
+- Connect CRE Atlanta: success | fetched 10 | Site / Parcel candidates 1 | Available
 - Connect CRE Charlotte: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
 - Connect CRE Orange County: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
 - CRE Daily: skipped | fetched 0 | Site / Parcel candidates 0 | No public feed URL configured

@@ -1,6 +1,6 @@
 # Executive Priority Brief
 
-Generated: 2026-06-01 02:03:12
+Generated: 2026-06-01 02:31:41
 
 ## Top 3 Executive Priorities
 
@@ -124,7 +124,7 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 - Lifecycle records: 80
 - LA lifecycle watch items: 48
-- Stage mix: Delivery / Opening: 7, Unknown Stage: 43, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 15, Vertical Construction: 4
+- Stage mix: Delivery / Opening: 7, Unknown Stage: 41, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 17, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -133,7 +133,7 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 80
-- Newly detected projects: 1
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 46
@@ -158,9 +158,9 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 - Signals evaluated: 119
 - Institutional-grade signals: 12
-- High-confidence signals: 18
+- High-confidence signals: 19
 - Weak/noisy signals: 90
-- High-confidence watchlist items: 18
+- High-confidence watchlist items: 19
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 
 

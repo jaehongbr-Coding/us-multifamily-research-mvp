@@ -1,6 +1,6 @@
 # Real Asset & Parcel Intelligence Report
 
-Generated: 2026-06-01 02:03:14
+Generated: 2026-06-01 02:31:43
 
 - Total asset / parcel signals: 82
 
@@ -112,7 +112,7 @@ Generated: 2026-06-01 02:03:14
 
 - Lifecycle records: 80
 - LA lifecycle watch items: 48
-- Stage mix: Delivery / Opening: 7, Unknown Stage: 43, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 15, Vertical Construction: 4
+- Stage mix: Delivery / Opening: 7, Unknown Stage: 41, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 17, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -121,7 +121,7 @@ Generated: 2026-06-01 02:03:14
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 80
-- Newly detected projects: 1
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 46

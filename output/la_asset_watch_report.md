@@ -1,6 +1,6 @@
 # LA / Southern California Asset Watch Report
 
-Generated: 2026-06-01 02:03:14
+Generated: 2026-06-01 02:31:43
 
 - Total LA / Southern California asset watch items: 52
 
@@ -14,8 +14,8 @@ Generated: 2026-06-01 02:03:14
 - Entitlement / Permitting - California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
 - JV / Partnership - Los Angeles - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 100.
 - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 100.
+- Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Los Angeles, Acquisition / Site Control, la_asset_opportunity_score 100.
 - JV / Partnership - California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: Los Angeles, Lease-Up / Delivery, la_asset_opportunity_score 100.
-- Aventon to Build 270-Unit Port Richey Rental Community: Los Angeles, Acquisition / Site Control, la_asset_opportunity_score 92.
 
 ## Top LA Site-Level Risks
 
@@ -82,7 +82,7 @@ Generated: 2026-06-01 02:03:14
 
 - Lifecycle records: 80
 - LA lifecycle watch items: 48
-- Stage mix: Delivery / Opening: 7, Unknown Stage: 43, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 15, Vertical Construction: 4
+- Stage mix: Delivery / Opening: 7, Unknown Stage: 41, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 17, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -91,7 +91,7 @@ Generated: 2026-06-01 02:03:14
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 80
-- Newly detected projects: 1
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 46

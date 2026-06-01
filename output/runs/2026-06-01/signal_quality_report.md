@@ -1,10 +1,10 @@
 # Strategic Signal Quality Report
 
-Generated: 2026-06-01 02:03:15
+Generated: 2026-06-01 02:31:44
 
 - Total signals evaluated: 119
 - Institutional-grade signals: 12
-- High-confidence signals: 18
+- High-confidence signals: 19
 - Weak/noisy signals: 90
 
 ## Strongest Recurring Signals
@@ -17,8 +17,8 @@ Generated: 2026-06-01 02:03:15
 - Construction Financing - New York - Dwight Mortgage Trust Lends $55M on Rockland County, N.Y., Multifamily Development: Institutional Grade, score 88, 8 source file(s), 25 observation(s), latest stage Site Acquisition / Site Control, identity confidence 80.
 - Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Institutional Grade, score 88, 4 source file(s), 22 observation(s), latest stage Refinancing / Recapitalization, identity confidence 80.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Institutional Grade, score 88, 7 source file(s), 30 observation(s), latest stage Vertical Construction, identity confidence 80.
+- General Project Signal - Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: Institutional Grade, score 88, 7 source file(s), 18 observation(s), latest stage Site Acquisition / Site Control, identity confidence 80.
 - Entitlement / Permitting - California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Institutional Grade, score 87, 8 source file(s), 9 observation(s), latest stage Unknown Stage, identity confidence 100.
-- Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M: Institutional Grade, score 87, 5 source file(s), 5 observation(s), latest stage Unknown Stage, identity confidence 100.
 
 ## Strongest LA / California Signals
 
@@ -43,8 +43,8 @@ Generated: 2026-06-01 02:03:15
 - Construction Financing - New York - Dwight Mortgage Trust Lends $55M on Rockland County, N.Y., Multifamily Development: Institutional Grade, score 88, 8 source file(s), 25 observation(s), latest stage Site Acquisition / Site Control, identity confidence 80.
 - Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Institutional Grade, score 88, 4 source file(s), 22 observation(s), latest stage Refinancing / Recapitalization, identity confidence 80.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Institutional Grade, score 88, 7 source file(s), 30 observation(s), latest stage Vertical Construction, identity confidence 80.
+- General Project Signal - Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: Institutional Grade, score 88, 7 source file(s), 18 observation(s), latest stage Site Acquisition / Site Control, identity confidence 80.
 - Entitlement / Permitting - California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Institutional Grade, score 87, 8 source file(s), 9 observation(s), latest stage Unknown Stage, identity confidence 100.
-- Disposition / Exit - Sun Belt - Charlotte Apartment Project Fetches $107M: Institutional Grade, score 87, 5 source file(s), 5 observation(s), latest stage Unknown Stage, identity confidence 100.
 
 ## Strongest Refinancing / Stress Signals
 
@@ -52,7 +52,7 @@ Generated: 2026-06-01 02:03:15
 - Refinancing - New York - PNC Bank Refis West Village Apartment Building With $404M Loan: Institutional Grade, score 94, 4 source file(s), 6 observation(s), latest stage Refinancing / Recapitalization, identity confidence 80.
 - Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Institutional Grade, score 88, 4 source file(s), 22 observation(s), latest stage Refinancing / Recapitalization, identity confidence 80.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Institutional Grade, score 88, 7 source file(s), 30 observation(s), latest stage Vertical Construction, identity confidence 80.
-- General Project Signal - Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: Institutional Grade, score 85, 7 source file(s), 18 observation(s), latest stage Site Acquisition / Site Control, identity confidence 80.
+- General Project Signal - Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: Institutional Grade, score 88, 7 source file(s), 18 observation(s), latest stage Site Acquisition / Site Control, identity confidence 80.
 - JV / Partnership - New York - IPA Arranges $27M Acquisition Loan for Apartment Community in D.C’s NoMa District: High Confidence, score 79, 4 source file(s), 4 observation(s), latest stage Unknown Stage, identity confidence 80.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Moderate Confidence, score 62, 2 source file(s), 9 observation(s), latest stage Unknown Stage, identity confidence 80.
 - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in West Hollywood: Moderate Confidence, score 60, 2 source file(s), 2 observation(s), latest stage Refinancing / Recapitalization, identity confidence 80.

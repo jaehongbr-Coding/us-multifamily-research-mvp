@@ -1,6 +1,6 @@
 # 한국어 LA 개발 단계 Watch
 
-- 생성 시각: 2026-06-01 02:03:08
+- 생성 시각: 2026-06-01 02:31:38
 - 참고 원문 파일: `la_development_lifecycle_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -9,8 +9,8 @@
 - JV / Partnership - California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: California, 아파트, 점수 100 (Delivery / Opening; Monitor lifecycle status for repeated confirmation)
 - Entitlement / Permitting - California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Los Angeles, 아파트, 점수 99 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
 - Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Los Angeles, 어포더블 하우징, 점수 90 (Refinancing / Recapitalization; Review lender exposure, sponsor stress, and possible JV or rescue-capital angle)
-- Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Los Angeles, 아파트, 점수 85 (Site Acquisition / Site Control; Monitor lifecycle status for repeated confirmation)
-- Refinancing - New York - PNC Bank Refis West Village Apartment Building With $404M Loan: Los Angeles, 아파트, 점수 84 (Refinancing / Recapitalization; Review lender exposure, sponsor stress, and possible JV or rescue-capital angle)
+- Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Los Angeles, 아파트, 점수 88 (Site Acquisition / Site Control; Monitor lifecycle status for repeated confirmation)
+- Refinancing - New York - PNC Bank Refis West Village Apartment Building With $404M Loan: Los Angeles, 아파트, 점수 85 (Refinancing / Recapitalization; Review lender exposure, sponsor stress, and possible JV or rescue-capital angle)
 - Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Los Angeles, 아파트, 점수 84 (Refinancing / Recapitalization; Review lender exposure, sponsor stress, and possible JV or rescue-capital angle)
 - JV / Partnership - Los Angeles - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing: Los Angeles, 어포더블 하우징, 점수 84 (Vertical Construction; Track construction progress and delivery timeline)
 - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing: California, 어포더블 하우징, 점수 83 (Vertical Construction; Track construction progress and delivery timeline)

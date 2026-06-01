@@ -1,6 +1,6 @@
 # Opportunity Radar Report
 
-Generated: 2026-06-01 02:03:13
+Generated: 2026-06-01 02:31:42
 
 - Total opportunities detected: 50
 
@@ -43,8 +43,8 @@ Generated: 2026-06-01 02:03:13
 ## Distressed / Rescue Capital Opportunities
 
 - Refinancing Gap in Florida: Refinancing - Florida - Benefit Street Partners Provides $82M Refi for Sarasota County Multifamily, score 85. Add to executive opportunity review.
-- Refinancing Gap in New York: Refinancing - New York - PNC Bank Refis West Village Apartment Building With $404M Loan, score 65. Track debt stack, maturity, lender, and recapitalization details.
-- Refinancing Gap in New York: Refinancing - New York - Affinius Capital Led Joint Venture Closes $3.5B Acquisition of Veris Residential, score 61. Track debt stack, maturity, lender, and recapitalization details.
+- Refinancing Gap in New York: Refinancing - New York - PNC Bank Refis West Village Apartment Building With $404M Loan, score 66. Track debt stack, maturity, lender, and recapitalization details.
+- Refinancing Gap in New York: Refinancing - New York - Affinius Capital Led Joint Venture Closes $3.5B Acquisition of Veris Residential, score 62. Track debt stack, maturity, lender, and recapitalization details.
 - Refinancing Gap in Other / Unknown: Refinancing - Other / Unknown - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments Villa Annette, score 61. Track debt stack, maturity, lender, and recapitalization details.
 - Refinancing Gap in Sun Belt: Refinancing - Sun Belt - Georgia Tech Student Housing Investors Ink Refi, score 58. Track debt stack, maturity, lender, and recapitalization details.
 
@@ -113,7 +113,7 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 - Lifecycle records: 80
 - LA lifecycle watch items: 48
-- Stage mix: Delivery / Opening: 7, Unknown Stage: 43, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 15, Vertical Construction: 4
+- Stage mix: Delivery / Opening: 7, Unknown Stage: 41, Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 17, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -122,7 +122,7 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 80
-- Newly detected projects: 1
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 46
@@ -147,8 +147,8 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 - Signals evaluated: 119
 - Institutional-grade signals: 12
-- High-confidence signals: 18
+- High-confidence signals: 19
 - Weak/noisy signals: 90
-- High-confidence watchlist items: 18
+- High-confidence watchlist items: 19
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

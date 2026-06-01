@@ -1,12 +1,12 @@
 # Lifecycle Transition Report
 
-Generated: 2026-06-01 02:03:15
+Generated: 2026-06-01 02:31:44
 
 - Total lifecycle transitions analyzed: 80
-- Newly detected projects: 1
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- Reappearing projects: 0
+- Reappearing projects: 2
 
 ## Strongest Progression Signals
 
@@ -27,16 +27,16 @@ Generated: 2026-06-01 02:03:15
 - PNC Bank Refis West Village Apartment Building With $404M Loan: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 40.
 - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Entitlement Under Review -> Entitlement Under Review, Same Stage Persistence, stall_risk_score 40.
 - Dwight Mortgage Trust Lends $55M on Rockland County, N.Y., Multifamily Development: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 39.
+- Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
 - Affordable housing slated for 1418 S. Mansfield Ave. in Mid-City: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
 - Modular / Construction Innovation - Los Angeles - Modular housing manufacturing proposed for city-owned site at 10901 S. Clovis St. in South...: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
 - Office-to-Residential Conversion - National - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virg...: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
-- Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
 - JBG SMITH Begins Latest Office-to-Residential Conversion in National Landing Northern Virginia: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
 - JBG SMITH Commences Office-to-Residential Conversion in National Landing: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
 
 ## Newly Detected Projects
 
-- West Palm Beach Developer Proposes 25-Story Multifamily Mixed-Income Apartment Tower: No Previous Record -> Site Acquisition / Site Control, Newly Detected Project, progression_score 30.
+- None detected.
 
 ## Forward Progression Projects
 
@@ -48,7 +48,8 @@ Generated: 2026-06-01 02:03:15
 
 ## Reappearing Projects
 
-- None detected.
+- Acquisition - Florida - Aventon to Build 270-Unit Port Richey Rental Community: Unknown Stage -> Site Acquisition / Site Control, Reappearing Project, progression_score 38.
+- W. Palm Beach Developer Eyeing 25-Story Apartment Tower: Unknown Stage -> Site Acquisition / Site Control, Reappearing Project, progression_score 36.
 
 ## Refinancing / Recap Timing Transitions
 
@@ -105,8 +106,8 @@ Generated: 2026-06-01 02:03:15
 
 - Signals evaluated: 119
 - Institutional-grade signals: 12
-- High-confidence signals: 18
+- High-confidence signals: 19
 - Weak/noisy signals: 90
-- High-confidence watchlist items: 18
+- High-confidence watchlist items: 19
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

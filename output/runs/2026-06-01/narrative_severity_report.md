@@ -1,6 +1,6 @@
 # Narrative Severity Report
 
-Generated: 2026-06-01 02:03:12
+Generated: 2026-06-01 02:31:41
 
 - Top severity regime: Selective Capital Re-entry (100)
 - Top conviction regime: Selective Capital Re-entry (100)

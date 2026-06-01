@@ -1,6 +1,6 @@
 # Opportunity Deduplication Report
 
-Generated: 2026-06-01 02:03:13
+Generated: 2026-06-01 02:31:42
 
 - Total duplicate clusters: 11
 - Opportunities removed via deduplication: 0
@@ -12,19 +12,19 @@ Generated: 2026-06-01 02:03:13
 - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: California, 2 related row(s), opportunity score 72, distress score 76.
 - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in West Hollywood: Los Angeles, 2 related row(s), opportunity score 72, distress score 76.
 - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: California, 2 related row(s), opportunity score 66, distress score 67.
-- PNC Bank Refis West Village Apartment Building With $404M Loan: New York, 2 related row(s), opportunity score 65, distress score 63.
+- PNC Bank Refis West Village Apartment Building With $404M Loan: New York, 2 related row(s), opportunity score 66, distress score 63.
 - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Sun Belt, 2 related row(s), opportunity score 64, distress score 60.
 - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: Florida, 2 related row(s), opportunity score 63, distress score 59.
+- Affinius Capital Led Joint Venture Closes $3.5B Acquisition of Veris Residential: New York, 2 related row(s), opportunity score 62, distress score 57.
 - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments Villa Annette: Other / Unknown, 2 related row(s), opportunity score 61, distress score 59.
-- Affinius Capital Led Joint Venture Closes $3.5B Acquisition of Veris Residential: New York, 2 related row(s), opportunity score 61, distress score 57.
 - Dwight Mortgage Trust Lends $55M on Rockland County, N.Y., Multifamily Development: New York, 2 related row(s), opportunity score 59, distress score 55.
 
 ## Repeated Refinancing Stories
 
 - Benefit Street Partners Provides $82M Refi for Sarasota County Multifamily: Florida, 2 related row(s), opportunity score 85, distress score 65.
-- PNC Bank Refis West Village Apartment Building With $404M Loan: New York, 2 related row(s), opportunity score 65, distress score 63.
+- PNC Bank Refis West Village Apartment Building With $404M Loan: New York, 2 related row(s), opportunity score 66, distress score 63.
+- Affinius Capital Led Joint Venture Closes $3.5B Acquisition of Veris Residential: New York, 2 related row(s), opportunity score 62, distress score 57.
 - $46M Bridge Loan Refinances Newly Built Moreno Valley Apartments Villa Annette: Other / Unknown, 2 related row(s), opportunity score 61, distress score 59.
-- Affinius Capital Led Joint Venture Closes $3.5B Acquisition of Veris Residential: New York, 2 related row(s), opportunity score 61, distress score 57.
 - Georgia Tech Student Housing Investors Ink Refi: Sun Belt, 2 related row(s), opportunity score 58, distress score 53.
 
 ## Repeated GP Partnership Stories

@@ -1,6 +1,6 @@
 # Residential Sector Coverage Report
 
-Generated: 2026-06-01 02:03:12
+Generated: 2026-06-01 02:31:41
 
 - Active residential sectors: 9
 

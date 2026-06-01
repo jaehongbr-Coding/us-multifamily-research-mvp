@@ -1,13 +1,13 @@
 # Development Lifecycle Report
 
-Generated: 2026-06-01 02:03:15
+Generated: 2026-06-01 02:31:44
 
 - Total lifecycle records: 80
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 43
-- Site Acquisition / Site Control: 15
+- Unknown Stage: 41
+- Site Acquisition / Site Control: 17
 - Refinancing / Recapitalization: 10
 - Delivery / Opening: 7
 - Vertical Construction: 4
@@ -20,8 +20,8 @@ Generated: 2026-06-01 02:03:15
 - Construction Financing - Los Angeles - Developer scores construction loan for mixed-use project at 8025 Santa Monica Blvd. in Wes...: Refinancing / Recapitalization, Los Angeles, lifecycle_opportunity_score 90.
 - Acquisition - Arizona - Wood Partners Sells 278-Unit Alta Rise Multifamily Community in Gilbert, Arizona: Delivery / Opening, Arizona, lifecycle_opportunity_score 90.
 - Refinancing - Florida - Benefit Street Partners Provides $82M Refi for Sarasota County Multifamily: Delivery / Opening, Florida, lifecycle_opportunity_score 89.
-- Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Site Acquisition / Site Control, Los Angeles, lifecycle_opportunity_score 85.
-- Refinancing - New York - PNC Bank Refis West Village Apartment Building With $404M Loan: Refinancing / Recapitalization, Manhattan, lifecycle_opportunity_score 84.
+- Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Site Acquisition / Site Control, Los Angeles, lifecycle_opportunity_score 88.
+- Refinancing - New York - PNC Bank Refis West Village Apartment Building With $404M Loan: Refinancing / Recapitalization, Manhattan, lifecycle_opportunity_score 85.
 - Construction Financing - Sun Belt - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, Miami, lifecycle_opportunity_score 84.
 - JV / Partnership - Los Angeles - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing: Vertical Construction, Los Angeles, lifecycle_opportunity_score 84.
 - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing: Vertical Construction, Unknown, lifecycle_opportunity_score 83.
@@ -98,7 +98,7 @@ Generated: 2026-06-01 02:03:15
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 80
-- Newly detected projects: 1
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 46
@@ -123,8 +123,8 @@ Generated: 2026-06-01 02:03:15
 
 - Signals evaluated: 119
 - Institutional-grade signals: 12
-- High-confidence signals: 18
+- High-confidence signals: 19
 - Weak/noisy signals: 90
-- High-confidence watchlist items: 18
+- High-confidence watchlist items: 19
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

@@ -1,6 +1,6 @@
 # 한국어 LA 자산 / 프로젝트 Watch
 
-- 생성 시각: 2026-06-01 02:03:08
+- 생성 시각: 2026-06-01 02:31:38
 - 참고 원문 파일: `la_asset_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -14,8 +14,8 @@
 - Entitlement / Permitting - California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Los Angeles, 아파트, 점수 100 (Unknown; Review parcel clue, entitlement path, sponsor, and comparable sites)
 - JV / Partnership - Los Angeles - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing: Los Angeles, 어포더블 하우징, 점수 100 (Under Construction; Review parcel clue, entitlement path, sponsor, and comparable sites)
 - Logos Faith, St. Rest Break Ground on 138-Unit Affordable Housing: Los Angeles, 어포더블 하우징, 점수 100 (Under Construction; Review parcel clue, entitlement path, sponsor, and comparable sites)
+- Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Los Angeles, 아파트, 점수 100 (Site Controlled; Review parcel clue, entitlement path, sponsor, and comparable sites)
 - JV / Partnership - California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: Los Angeles, 아파트, 점수 100 (Delivered / Lease-Up; Review parcel clue, entitlement path, sponsor, and comparable sites)
-- Aventon to Build 270-Unit Port Richey Rental Community: Los Angeles, 아파트, 점수 92 (Site Controlled; Monitor asset for repeated local confirmation)
 
 ## 프로젝트 / 부지 단서
 

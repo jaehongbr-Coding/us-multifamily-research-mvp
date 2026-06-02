@@ -170,7 +170,10 @@ def expand_sidebar_if_needed(page) -> str:
 
 def click_by_label(page, target: dict) -> tuple[bool, str]:
     sidebar = page.locator('[data-testid="stSidebar"]')
-    for label in target["label_candidates"]:
+    label_candidates = list(target["label_candidates"])
+    if target.get("slug") == "01_today_briefing":
+        label_candidates = ["오늘의 브리핑", "오늘", "브리핑"] + label_candidates
+    for label in label_candidates:
         candidates = [
             sidebar.get_by_text(label, exact=True),
             sidebar.get_by_text(label, exact=False),

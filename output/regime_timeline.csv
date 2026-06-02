@@ -1,7 +1,7 @@
 ﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
-20260602-040308-43dadaf3,2026-06-02,Construction financing still selective,Persistent,stable,29,20,29,5.21,3.66,5,5,4,2,Washington DC,Broadly Confirmed,steady visibility,
-20260602-040308-43dadaf3,2026-06-02,Institutional recap over expansion,Persistent,stable,29,20,29,3.14,2.79,5,5,4,1,California,Broadly Confirmed,steady visibility,
-20260602-040308-43dadaf3,2026-06-02,JV / partnership activity observed,Persistent,stable,29,20,29,6.83,3.66,9,9,7,0,Riverside / California,Broadly Confirmed,steady visibility,
-20260602-040308-43dadaf3,2026-06-02,LA entitlement precedent accumulation,Persistent,stable,29,20,29,10.38,3.21,13,13,6,1,Los Angeles / California,Moderate Signal,steady visibility,
-20260602-040308-43dadaf3,2026-06-02,Refinancing pressure unresolved,Persistent,stable,29,20,29,5.41,3.93,6,6,5,2,Miami / Florida,Broadly Confirmed,steady visibility,
-20260602-040308-43dadaf3,2026-06-02,Sun Belt lease-up pressure watch,Persistent,stable,29,20,29,3.28,2.76,5,5,4,1,National,Broadly Confirmed,steady visibility,
+20260602-045446-a07523c4,2026-06-02,Construction financing still selective,Persistent,stable,30,21,30,5.2,3.67,5,5,4,2,Washington DC,Broadly Confirmed,steady visibility,
+20260602-045446-a07523c4,2026-06-02,Institutional recap over expansion,Persistent,stable,30,21,30,3.2,2.83,5,5,4,1,California,Broadly Confirmed,steady visibility,
+20260602-045446-a07523c4,2026-06-02,JV / partnership activity observed,Persistent,stable,30,21,30,6.9,3.67,9,9,7,0,Riverside / California,Broadly Confirmed,steady visibility,
+20260602-045446-a07523c4,2026-06-02,LA entitlement precedent accumulation,Persistent,stable,30,21,30,10.47,3.2,13,13,6,1,Los Angeles / California,Moderate Signal,steady visibility,
+20260602-045446-a07523c4,2026-06-02,Refinancing pressure unresolved,Persistent,stable,30,21,30,5.43,3.93,6,6,5,2,Miami / Florida,Broadly Confirmed,steady visibility,
+20260602-045446-a07523c4,2026-06-02,Sun Belt lease-up pressure watch,Persistent,stable,30,21,30,3.33,2.8,5,5,4,1,National,Broadly Confirmed,steady visibility,

@@ -1,6 +1,6 @@
 # Opportunity Radar Report
 
-Generated: 2026-06-02 04:03:15
+Generated: 2026-06-02 04:54:56
 
 - Total opportunities detected: 56
 
@@ -76,7 +76,7 @@ Generated: 2026-06-02 04:03:15
 - JV / Partnership Gap in Riverside / California: JV / Partnership - Riverside / California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex, score 84. Add to executive opportunity review.
 - GP Capability Partnership Opportunity in Atlanta / Georgia: Disposition / Exit - Atlanta / Georgia - Charlotte Apartment Project Fetches $107M, score 83. Add to executive opportunity review.
 - GP Capability Partnership Opportunity in Los Angeles / California: Disposition / Exit - Los Angeles / California - Covina Apartments Trade on In-Place Cash Flow, Rental Upside, score 80. Add to executive opportunity review.
-- GP Capability Partnership Opportunity in New York City / New York: General Project Signal - New York City / New York - Avison Young Arranges $404M Permanent Loan for Iconic 479-Unit Multifamily Building The Ar..., score 79. Map GP, capital partner, and relationship history.
+- GP Capability Partnership Opportunity in New York City / New York: General Project Signal - New York City / New York - Avison Young Arranges $404M Permanent Loan for Iconic 479-Unit Multifamily Building The Ar..., score 80. Add to executive opportunity review.
 - GP Capability Partnership Opportunity in Other / Unknown: Disposition / Exit - Other / Unknown - Marcus & Millichap Arranges Sale of 24-Unit Multifamily Property Lake Country Apartments i..., score 77. Map GP, capital partner, and relationship history.
 - GP Capability Partnership Opportunity in National: General Project Signal - National - Walker & Dunlop Leads $16.5B Fannie Mae Lending Market, score 71. Map GP, capital partner, and relationship history.
 - GP Capability Partnership Opportunity in Other / Unknown: Disposition / Exit - Other / Unknown - Newly Constructed Mid-Rise Multifamily Property Across from University of Chicago Hits the..., score 70. Map GP, capital partner, and relationship history.

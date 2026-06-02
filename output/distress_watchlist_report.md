@@ -1,6 +1,6 @@
 # Distress Watchlist Report
 
-Generated: 2026-06-02 04:03:15
+Generated: 2026-06-02 04:54:56
 
 - Total distress signals: 10
 
@@ -9,8 +9,8 @@ Generated: 2026-06-02 04:03:15
 - construction loan gap in California: Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily, score 80. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - recapitalization need in California: Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties, score 72. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - recapitalization need in California: Recapitalization - California - PEF Advisors with Freestone Capital Form Joint Venture to Recapitalize Affordable Housing..., score 70. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
-- refinancing stress in Sarasota / Florida: Refinancing - Sarasota / Florida - Berkadia Secures $82.1M Loan to Refinance Class A Multifamily Asset in Sarasota County Flo..., score 66. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
-- bridge loan stress in Miami / Florida: General Project Signal - Miami / Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan, score 63. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- refinancing stress in Sarasota / Florida: Refinancing - Sarasota / Florida - Berkadia Secures $82.1M Loan to Refinance Class A Multifamily Asset in Sarasota County Flo..., score 67. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- bridge loan stress in Miami / Florida: General Project Signal - Miami / Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan, score 64. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - construction loan gap in Washington DC: Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF, score 63. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - construction loan gap in Miami / Florida: Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments, score 60. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - refinancing stress in Miami / Florida: Refinancing - Miami / Florida - Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables an..., score 60. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
@@ -19,7 +19,7 @@ Generated: 2026-06-02 04:03:15
 
 ## Refinancing Stress Watch
 
-- refinancing stress in Sarasota / Florida: Refinancing - Sarasota / Florida - Berkadia Secures $82.1M Loan to Refinance Class A Multifamily Asset in Sarasota County Flo..., score 66. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- refinancing stress in Sarasota / Florida: Refinancing - Sarasota / Florida - Berkadia Secures $82.1M Loan to Refinance Class A Multifamily Asset in Sarasota County Flo..., score 67. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - refinancing stress in Miami / Florida: Refinancing - Miami / Florida - Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables an..., score 60. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - refinancing stress in Atlanta / Georgia: Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi, score 52. Monitor for repeated distress signals.
 

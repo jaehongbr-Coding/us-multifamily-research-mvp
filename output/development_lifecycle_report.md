@@ -1,6 +1,6 @@
 # Development Lifecycle Report
 
-Generated: 2026-06-02 04:03:19
+Generated: 2026-06-02 04:54:59
 
 - Total lifecycle records: 82
 
@@ -57,7 +57,7 @@ Generated: 2026-06-02 04:03:19
 - Jefferson Apartment Group Delivers Luxury Multifamily Community J Optimist Park in Charlotte North Carolina: Delivery / Opening, Charlotte, lifecycle_opportunity_score 72.
 - Palmdale Chipotle Sale Sets Cap Rate Benchmark: Delivery / Opening, Unknown, lifecycle_opportunity_score 67.
 - Disposition / Exit - Los Angeles / California - Palmdale Chipotle Sale Sets Cap Rate Benchmark: Delivery / Opening, Los Angeles, lifecycle_opportunity_score 58.
-- General Project Signal - Other / Unknown - Multifamily Absorption Rate Remains Below 50%: Delivery / Opening, Unknown, lifecycle_opportunity_score 27.
+- General Project Signal - Other / Unknown - Multifamily Absorption Rate Remains Below 50%: Delivery / Opening, Unknown, lifecycle_opportunity_score 28.
 
 ## Distressed / Stalled Lifecycle Signals
 

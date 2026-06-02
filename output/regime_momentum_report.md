@@ -1,6 +1,6 @@
 # Regime Momentum Report
 
-Generated: 2026-06-02 04:03:11
+Generated: 2026-06-02 04:54:51
 
 - Top regime by final_score: Selective Capital Re-entry (89)
 - Second regime by final_score: Financing Stress (69)

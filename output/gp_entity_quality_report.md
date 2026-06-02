@@ -1,6 +1,6 @@
 # GP / Capital Entity Quality Report
 
-Generated: 2026-06-02 04:03:12
+Generated: 2026-06-02 04:54:52
 
 ## Summary
 

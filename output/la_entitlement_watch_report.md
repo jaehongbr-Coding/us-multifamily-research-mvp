@@ -1,6 +1,6 @@
 # LA / California Entitlement Watch Report
 
-Generated: 2026-06-02 04:03:15
+Generated: 2026-06-02 04:54:56
 
 - Total LA / California entitlement watch items: 13
 

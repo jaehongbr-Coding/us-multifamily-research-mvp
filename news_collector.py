@@ -186,6 +186,8 @@ GP_WATCHLIST_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "gp_watchlist.csv")
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "articles.csv")
 HIGH_PRIORITY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "high_priority_articles.csv")
 MARKET_SIGNALS_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "market_signals.csv")
+RENT_DEMAND_SIGNALS_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "rent_demand_signals.csv")
+ROUTING_BALANCE_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "routing_balance_report.md")
 STRATEGY_BRIEFING_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "strategy_briefing.csv")
 DAILY_BRIEFING_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "daily_strategy_briefing.md")
 WEEKLY_MEMO_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "weekly_strategy_memo.md")
@@ -1912,6 +1914,83 @@ def classify_article(text):
     return matched_topics
 
 
+RENT_DEMAND_RULES = [
+    ("rent_growth", ["rent growth", "asking rent", "effective rent", "rent prices", "rent price"]),
+    ("absorption", ["absorption"]),
+    ("vacancy", ["vacancy"]),
+    ("occupancy", ["occupancy"]),
+    ("concessions", ["concession", "concessions"]),
+    ("leasing", ["lease-up", "leasing gains"]),
+    ("demand", [
+        "resident demand", "renter demand", "apartment supply pressure",
+        "developer confidence",
+    ]),
+]
+
+RENT_DEMAND_KEYWORDS = list(dict.fromkeys([
+    keyword
+    for _, keywords in RENT_DEMAND_RULES
+    for keyword in keywords
+]))
+
+
+def get_rent_demand_text(article):
+    """Build text used to separate rent, demand, vacancy, and leasing signals."""
+    return normalize_keyword_text(" ".join([
+        article.get("title", ""),
+        article.get("summary", ""),
+        article.get("article_text_sample", ""),
+        article.get("market_signal", ""),
+        article.get("supply_demand_signal", ""),
+        article.get("matched_keywords", ""),
+        article.get("primary_topic", ""),
+    ]))
+
+
+def classify_rent_demand_signal(article):
+    """Return rent/demand flag, type, and reason for one article."""
+    text = get_rent_demand_text(article)
+    title_text = normalize_keyword_text(article.get("title", ""))
+    supply_context = normalize_keyword_text(" ".join([
+        article.get("primary_topic", ""),
+        article.get("supply_demand_signal", ""),
+        article.get("market_signal", ""),
+    ]))
+    primary_supply_demand = normalize_keyword_text(article.get("primary_topic", "")) == "supply_demand"
+    strong_non_rent_event = find_matches(
+        title_text,
+        [
+            "breaks ground", "broke ground", "groundbreaking", "delivers",
+            "debuts", "opens", "sale", "sells", "acquisition", "acquires",
+            "buy", "buys", "loan", "financing", "refinancing", "refi",
+        ],
+    )
+    for signal_type, keywords in RENT_DEMAND_RULES:
+        matched = find_matches(text, keywords)
+        if matched:
+            title_matched = find_matches(title_text, keywords)
+            explicit_supply_context = find_matches(supply_context, ["supply_demand", "rent", "vacancy", "absorption", "occupancy", "leasing"])
+            if not title_matched and not primary_supply_demand:
+                continue
+            if signal_type == "leasing" and not title_matched and not explicit_supply_context:
+                continue
+            if signal_type == "demand" and not title_matched and not explicit_supply_context:
+                continue
+            if strong_non_rent_event and not title_matched and not explicit_supply_context:
+                continue
+            return "Yes", signal_type, f"matched rent/demand keyword: {matched[0]}"
+    return "No", "", ""
+
+
+def apply_rent_demand_fields(articles):
+    """Annotate articles with rent/demand candidate fields before routing output."""
+    for article in articles:
+        flag, signal_type, reason = classify_rent_demand_signal(article)
+        article["rent_demand_flag"] = flag
+        article["rent_demand_type"] = signal_type
+        article["rent_demand_reason"] = reason
+
+
 ARTICLE_CLASSIFICATION_FIELDS = [
     "article_id",
     "canonical_article_id",
@@ -1947,6 +2026,9 @@ ARTICLE_CLASSIFICATION_FIELDS = [
     "entity_extraction_method",
     "entity_extraction_confidence",
     "entity_extraction_reason",
+    "rent_demand_flag",
+    "rent_demand_type",
+    "rent_demand_reason",
     "gp_or_developer",
     "lender_or_capital_partner",
     "capital_provider",
@@ -2475,11 +2557,21 @@ def get_primary_display_section(article):
     title_development_event_hit = find_matches(title_text, [
         "final approval", "final okay", "town approval", "still needs approval",
         "planning review", "planning commission", "entitlement", "zoning",
-        "rezoning", "permit", "density bonus", "to build", "plans to build",
+        "rezoning", "permit", "permits filed", "density bonus", "to build", "plans to build",
         "construction start", "breaks ground", "broke ground", "under construction",
-        "delivery", "opening", "lease-up", "acquired land", "purchased site",
+        "groundbreaking", "starts work", "delivers", "completed", "opens",
+        "debuts", "delivery", "opening", "redevelopment", "adaptive reuse",
+        "office-to-residential", "conversion", "proposed", "planned",
+        "new plan", "unveiled", "site plan", "project", "development",
+        "build", "acquired land", "purchased site",
         "development site", "site control", "vacant parcel",
     ])
+    title_execution_development_hit = find_matches(title_text, [
+        "delivers", "delivered", "breaks ground", "broke ground",
+        "groundbreaking", "opens", "opened", "debuts", "redevelopment",
+        "construction starts", "starts construction", "starts work",
+    ])
+    rent_demand_hit = find_matches(text, RENT_DEMAND_KEYWORDS)
     market_protection_hit = find_matches(text, [
         "interest rate", "interest rates", "treasury", "sofr", "cpi", "inflation",
         "rent growth", "vacancy", "absorption", "concession", "market report",
@@ -2489,29 +2581,32 @@ def get_primary_display_section(article):
     ])
     generic_policy_or_market_noise = find_matches(text, [
         "rand reviews", "generic policy review", "mayor's race", "mayor race",
-        "mayor discussion", "rent growth", "construction spending",
-        "market report", "cap rate benchmark", "data that matters",
+        "mayor discussion", "construction spending", "market report",
+        "cap rate benchmark", "data that matters",
         "chief economist",
     ])
     development_execution_hit = find_matches(text, [
         "breaks ground", "broke ground", "starts construction", "construction starts",
-        "construction start", "delivers", "delivered", "opens", "opened",
-        "completed", "completes", "begins leasing", "lease-up",
+        "construction start", "groundbreaking", "starts work", "delivers",
+        "delivered", "opens", "opened", "completed", "completes", "debuts",
+        "begins leasing",
     ])
     development_approval_hit = find_matches(text, [
         "entitlement", "entitled", "zoning", "rezoning", "permit filed",
         "permits filed", "permit", "planning commission", "approved",
-        "final approval", "density bonus", "ceqa", "hud review",
+        "final approval", "approval", "planning review", "density bonus",
+        "ceqa", "hud review", "legal win",
     ])
     development_site_hit = find_matches(text, [
-        "acquired land", "land assemblage", "purchased site", "development site",
-        "vacant site", "entitled site", "site control", "parcel", "to build",
-        "plans to build", "developer eyeing", "targeting site", "wants to build",
-        "planning to build",
+        "purchased land", "acquired land", "land assemblage", "site acquisition",
+        "site control", "parcel acquired", "vacant site",
+        "development site acquired",
     ])
     development_strategy_hit = find_matches(text, [
         "redevelopment", "adaptive reuse", "office-to-residential", "conversion",
-        "renovation", "repositioning",
+        "renovation", "repositioning", "proposed", "planned", "new plan",
+        "updated plan", "unveiled", "to build", "plans to build", "build",
+        "project", "development",
     ])
     strong_transaction_hit = find_matches(text, [
         "disposition", "sells", "sale", "acquired", "acquisition", "buys",
@@ -2535,6 +2630,7 @@ def get_primary_display_section(article):
         strong_development_hit
         and not development_transaction_excluded
         and not (generic_policy_or_market_noise and not title_development_event_hit)
+        and not (rent_demand_hit and not title_development_event_hit)
     )
     capital_hit = (
         article.get("capital_event_type") not in ["", "none"]
@@ -2564,12 +2660,18 @@ def get_primary_display_section(article):
     elif generic_policy_or_market_noise and not title_development_event_hit:
         primary = "Market Intelligence"
         reason = "generic policy, market, or research article excluded from Development Activity"
+    elif rent_demand_hit and not title_development_event_hit and not title_capital_event_hit:
+        primary = "Market Intelligence"
+        reason = "rent, demand, vacancy, absorption, or leasing signal separated from Development Activity"
     elif market_protection_hit and not title_capital_event_hit and not title_development_event_hit and not deal_financing_hit:
         primary = "Market Intelligence"
         reason = "market, macro, research, or supply-demand article without confirmed deal or project event"
     elif asset_strategy_hit and not deal_financing_hit and not development_transaction_excluded:
         primary = "Development Activity"
         reason = "renovation, repositioning, redevelopment, or asset strategy signal detected"
+    elif title_execution_development_hit and development_hit:
+        primary = "Development Activity"
+        reason = "headline-level development execution event overrides sponsor/capital keywords"
     elif deal_financing_hit:
         primary = "GP / Capital Activity"
         reason = "property-level financing, lender, refinancing, or recapitalization signal detected"
@@ -18866,7 +18968,12 @@ PRIMARY_APPROVAL_TERMS = [
     "environmental review", "hud review", "density bonus", "affordable overlay",
     "permit filed", "permits filed", "conditional approval", "final approval", "final okay", "town approval",
     "still needs approval", "planning review", "commission review", "proposed",
-    "developer eyeing",
+    "developer eyeing", "legal win",
+]
+PRIMARY_DEVELOPMENT_STRATEGY_TERMS = [
+    "redevelopment", "adaptive reuse", "office-to-residential", "conversion",
+    "planned", "new plan", "updated plan", "unveiled", "site plan",
+    "project", "development", "build", "to build", "plans to build",
 ]
 PRIMARY_EXCLUDED_TRANSACTION_TERMS = [
     "disposition", "sells", "sale", "acquired", "acquisition", "buys",
@@ -18885,13 +18992,9 @@ PRIMARY_EXCLUDED_FINANCE_TERMS = [
 ]
 
 SITE_PARCEL_STRONG_TERMS = [
-    "land acquisition", "site acquisition", "parcel acquisition",
-    "acquired land", "acquired site", "purchased land", "purchased site",
-    "bought land", "bought site", "development site", "vacant land",
-    "parcel acquired", "assemblage", "land assemblage", "entitled site",
-    "proposed on site", "build-to-rent site", "planned multifamily site",
-    "proposed multifamily site", "development parcel", "multifamily development site",
-    "mixed-use development site", "vacant site", "site control", "parcel",
+    "purchased land", "acquired land", "land assemblage", "site acquisition",
+    "site control", "parcel acquired", "vacant site",
+    "development site acquired",
 ]
 
 SITE_PARCEL_TO_BUILD_TERMS = [
@@ -18936,15 +19039,6 @@ def site_parcel_positive_signal(lower_text, lower_headline):
     for term in SITE_PARCEL_STRONG_TERMS:
         if term in blob:
             return term
-    acres_to_build = re.search(r"\b\d+(?:\.\d+)?\s+acres?\b", blob) and any(
-        term in blob for term in SITE_PARCEL_TO_BUILD_TERMS + ["proposed development"]
-    )
-    if acres_to_build:
-        return "acres plus build plan"
-    if any(term in blob for term in SITE_PARCEL_TO_BUILD_TERMS) and any(
-        term in blob for term in ["community", "project", "rental", "apartments", "homes", "units", "development"]
-    ):
-        return "to build development project"
     return ""
 
 
@@ -18966,10 +19060,11 @@ def classify_primary_development_category(text, headline=""):
     lower_headline = (headline or "").lower()
     matched_construction = next((term for term in PRIMARY_CONSTRUCTION_TERMS if term in lower_text), "")
     matched_approval = next((term for term in PRIMARY_APPROVAL_TERMS if term in lower_text), "")
+    matched_strategy = next((term for term in PRIMARY_DEVELOPMENT_STRATEGY_TERMS if term in lower_text), "")
     matched_site = site_parcel_positive_signal(lower_text, lower_headline)
     headline_development_hit = any(
         term in lower_headline
-        for term in PRIMARY_CONSTRUCTION_TERMS + PRIMARY_APPROVAL_TERMS + SITE_PARCEL_STRONG_TERMS + SITE_PARCEL_TO_BUILD_TERMS
+        for term in PRIMARY_CONSTRUCTION_TERMS + PRIMARY_APPROVAL_TERMS + PRIMARY_DEVELOPMENT_STRATEGY_TERMS + SITE_PARCEL_STRONG_TERMS + SITE_PARCEL_TO_BUILD_TERMS
     )
     matched_finance = next((term for term in PRIMARY_EXCLUDED_FINANCE_TERMS if term in lower_text), "")
     matched_transaction = next((term for term in PRIMARY_EXCLUDED_TRANSACTION_TERMS if term in f"{lower_headline} {lower_text}"), "")
@@ -18997,7 +19092,7 @@ def classify_primary_development_category(text, headline=""):
         return "excluded", "transaction override: operating-asset acquisition"
     if matched_site:
         return "site_parcel_activity", f"site acquisition signal: {matched_site}"
-    if any(term in lower_text for term in ["redevelopment", "adaptive reuse", "office-to-residential", "conversion"]):
+    if matched_strategy:
         return "construction_delivery_watch", "matched development / asset strategy execution"
     if any(term in lower_text for term in ["renovation", "repositioning"]) and not matched_transaction:
         return "construction_delivery_watch", "matched execution-tied renovation / repositioning"
@@ -25423,6 +25518,119 @@ def generate_pipeline_stabilization_outputs(
     }
 
 
+def is_blank_output_value(value):
+    """Return True for blank, None, or stringified nan output values."""
+    if value is None:
+        return True
+    text = str(value).strip()
+    return text == "" or text.lower() in {"nan", "none", "null"}
+
+
+def write_rent_demand_signal_outputs(articles, dated_output_dir):
+    """Write a compact rent/demand candidate file without adding a UI surface."""
+    fieldnames = [
+        "collected_at",
+        "source",
+        "published",
+        "title",
+        "url",
+        "market_focus",
+        "related_market",
+        "primary_display_section",
+        "rent_demand_flag",
+        "rent_demand_type",
+        "rent_demand_reason",
+        "market_signal",
+        "supply_demand_signal",
+        "summary",
+        "article_text_sample",
+    ]
+    rows = [
+        {field: article.get(field, "") for field in fieldnames}
+        for article in articles
+        if str(article.get("rent_demand_flag", "")).strip().lower() == "yes"
+    ]
+    write_csv_outputs(RENT_DEMAND_SIGNALS_OUTPUT_FILE, fieldnames, rows, dated_output_dir)
+    return rows
+
+
+def generate_routing_balance_report(articles, rent_demand_articles, dated_output_dir):
+    """Summarize section-routing balance and known regression guardrails."""
+    section_counts = {}
+    for article in articles:
+        section = article.get("primary_display_section") or "Article Feed"
+        section_counts[section] = section_counts.get(section, 0) + 1
+
+    transaction_excluded = [
+        article for article in articles
+        if article.get("primary_display_section") != "Development Activity"
+        and (
+            "transaction" in str(article.get("section_routing_reason", "")).lower()
+            or find_matches(
+                normalize_keyword_text(" ".join([
+                    article.get("title", ""),
+                    article.get("summary", ""),
+                    article.get("capital_event_type", ""),
+                    article.get("financing_type", ""),
+                ])),
+                PRIMARY_EXCLUDED_TRANSACTION_TERMS + PRIMARY_EXCLUDED_FINANCE_TERMS,
+            )
+        )
+    ]
+    missing_source = sum(1 for article in articles if is_blank_output_value(article.get("source")))
+    missing_market = sum(
+        1 for article in articles
+        if is_blank_output_value(article.get("market_focus"))
+        and is_blank_output_value(article.get("related_market"))
+    )
+    missing_stage = sum(
+        1 for article in articles
+        if is_blank_output_value(article.get("lifecycle_stage"))
+        and is_blank_output_value(article.get("development_stage"))
+    )
+
+    lines = [
+        "# Routing Balance Report",
+        "",
+        f"- Market Intelligence count: {section_counts.get('Market Intelligence', 0)}",
+        f"- Development Activity count: {section_counts.get('Development Activity', 0)}",
+        f"- GP / Capital Activity count: {section_counts.get('GP / Capital Activity', 0)}",
+        f"- Rent/Demand candidate count: {len(rent_demand_articles)}",
+        f"- Development-excluded transaction article count: {len(transaction_excluded)}",
+        f"- Source missing count: {missing_source}",
+        f"- Market missing count: {missing_market}",
+        f"- Stage missing count: {missing_stage}",
+        "",
+        "## Rent/Demand Titles",
+    ]
+    if rent_demand_articles:
+        lines.extend([f"- {article.get('title', 'Untitled')}" for article in rent_demand_articles])
+    else:
+        lines.append("- None")
+
+    lines.extend(["", "## Sample Validation"])
+    for article in articles[:10]:
+        lines.append(
+            "- "
+            f"{article.get('title', 'Untitled')} | "
+            f"{article.get('primary_display_section', 'Article Feed')} | "
+            f"rent_demand={article.get('rent_demand_flag', 'No')} | "
+            f"{article.get('section_routing_reason', '')}"
+        )
+
+    write_markdown_outputs(ROUTING_BALANCE_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {
+        "market_intelligence_count": section_counts.get("Market Intelligence", 0),
+        "development_activity_count": section_counts.get("Development Activity", 0),
+        "gp_capital_activity_count": section_counts.get("GP / Capital Activity", 0),
+        "rent_demand_candidate_count": len(rent_demand_articles),
+        "development_excluded_transaction_count": len(transaction_excluded),
+        "source_missing_count": missing_source,
+        "market_missing_count": missing_market,
+        "stage_missing_count": missing_stage,
+    }
+
+
 # ---------------------------------------------------------
 # 13. Main pipeline
 # ---------------------------------------------------------
@@ -25551,6 +25759,7 @@ def save_to_csv(articles):
         ):
             article["gpt_strategic_analysis"] = build_rule_based_strategic_interpretation(article)
         enrich_article_classification(article)
+    apply_rent_demand_fields(articles)
     enrich_signal_tuning_fields(articles)
     apply_freshness_and_routing_fields(
         articles,
@@ -25621,6 +25830,15 @@ def save_to_csv(articles):
             STRATEGY_BRIEFING_OUTPUT_FILE,
             fieldnames,
             strategy_briefing_articles,
+            dated_output_dir,
+        )
+        rent_demand_articles = write_rent_demand_signal_outputs(
+            articles,
+            dated_output_dir,
+        )
+        routing_balance_summary = generate_routing_balance_report(
+            articles,
+            rent_demand_articles,
             dated_output_dir,
         )
 
@@ -26335,6 +26553,9 @@ def save_to_csv(articles):
         print(f"[Done] High-priority article count: {len(high_priority_articles)}")
         print(f"[Done] Market signals CSV saved: {MARKET_SIGNALS_OUTPUT_FILE}")
         print(f"[Done] Market-signal article count: {len(market_signal_articles)}")
+        print(f"[Done] Rent/Demand signals CSV saved: {RENT_DEMAND_SIGNALS_OUTPUT_FILE}")
+        print(f"[Done] Rent/Demand candidate count: {routing_balance_summary['rent_demand_candidate_count']}")
+        print(f"[Done] Routing balance report saved: {ROUTING_BALANCE_REPORT_OUTPUT_FILE}")
         print(f"[Done] Strategy briefing CSV saved: {STRATEGY_BRIEFING_OUTPUT_FILE}")
         print(f"[Done] Strategy-briefing article count: {len(strategy_briefing_articles)}")
         print(f"[Done] Markdown briefing saved: {DAILY_BRIEFING_OUTPUT_FILE}")

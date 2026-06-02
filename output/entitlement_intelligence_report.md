@@ -1,6 +1,6 @@
 # Entitlement Intelligence Report
 
-Generated: 2026-06-02 01:03:28
+Generated: 2026-06-02 02:11:21
 
 - Total entitlement signals detected: 15
 

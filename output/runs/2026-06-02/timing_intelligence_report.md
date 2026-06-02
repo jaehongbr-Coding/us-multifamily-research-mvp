@@ -1,6 +1,6 @@
 # Timing Intelligence Report
 
-Generated: 2026-06-02 01:03:28
+Generated: 2026-06-02 02:11:21
 
 - Total timing signals detected: 48
 
@@ -103,7 +103,7 @@ Generated: 2026-06-02 01:03:28
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 82
-- Newly detected projects: 1
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 52

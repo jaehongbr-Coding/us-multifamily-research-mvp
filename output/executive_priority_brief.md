@@ -1,6 +1,6 @@
 # Executive Priority Brief
 
-Generated: 2026-06-02 01:03:24
+Generated: 2026-06-02 02:11:17
 
 ## Top 3 Executive Priorities
 
@@ -133,7 +133,7 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 82
-- Newly detected projects: 1
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 52

@@ -1,10 +1,10 @@
 # GP Routing Quality Report
 
-Generated: 2026-06-02 01:03:10
+Generated: 2026-06-02 02:11:12
 
 ## Summary
 - Total GP / Capital candidates: 44
-- Selected GP / Capital articles: 24
+- Selected GP / Capital articles: 27
 - Debt Financing count: 8
 - Refinancing count: 3
 - Construction Financing count: 5
@@ -14,9 +14,9 @@ Generated: 2026-06-02 01:03:10
 - Other / Unknown market count: 28
 
 ## Routing Regression Summary
-- Market Intelligence routed articles: 17
-- Development Activity routed articles: 30
-- GP / Capital Activity routed articles: 28
+- Market Intelligence routed articles: 24
+- Development Activity routed articles: 18
+- GP / Capital Activity routed articles: 32
 - Market-protected research / macro / supply articles: 13
 - Approval / Entitlement development rows: 0
 - Site / Parcel development rows: 0
@@ -60,6 +60,7 @@ Generated: 2026-06-02 01:03:10
 - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF | construction_financing | Washington DC | Connect CRE
 - PCCP, Alliance Residential Buy 184-Unit Multifamily Community in Riverside, California | joint_venture | Riverside / California | REBusiness Online
 - Covina Apartments Trade on In-Place Cash Flow, Rental Upside | disposition_exit | Los Angeles / California | Connect CRE California
+- PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex | joint_venture | Riverside / California | Connect CRE California
 - Avison Young Arranges $404M Permanent Loan for Iconic 479-Unit Multifamily Building The Archive at 666 Greenwich Street | debt_financing | New York City / New York | Yield PRO
 - Berkadia Secures $82.1M Loan to Refinance Class A Multifamily Asset in Sarasota County Florida | refinancing | Sarasota / Florida | Yield PRO
 - Interra Realty Brokers Sale of Bucktown Mixed-Use Property | disposition_exit | Other / Unknown | Connect CRE
@@ -69,5 +70,4 @@ Generated: 2026-06-02 01:03:10
 - St. John Properties, Somerset Companies Break Ground on $148M Maryland MF Project | joint_venture | Washington DC | Connect CRE Apartments
 - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties | joint_venture | California | Connect CRE Orange County
 - Newly Constructed Mid-Rise Multifamily Property Across from University of Chicago Hits the Market | disposition_exit | Other / Unknown | Yield PRO
-- Adam Neumann’s Flow Makes First West Coast Acquisition | acquisition | California | Connect CRE Apartments
-- Town Lane Picks Up 186-Bed League City Sr. Living Facility | disposition_exit | Houston / Texas | Connect CRE Texas
+- SAGE Arranges $21.5M Sale of Northern New Jersey Apartment Building | disposition_exit | Other / Unknown | REBusiness Online

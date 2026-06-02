@@ -1,6 +1,6 @@
 # 한국어 경영진 대시보드 브리핑
 
-- 생성 시각: 2026-06-02 01:03:10
+- 생성 시각: 2026-06-02 02:11:12
 - 참고 원문 파일: `executive_dashboard_brief.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -16,8 +16,8 @@
 ## 우선 확인 Top 5
 
 - Arizona: Arizona, 아파트, 점수 100 (Capital Flow; Track capital flow pattern and related relationships)
-- Atlanta / Georgia: Atlanta / Georgia, 아파트, 점수 100 (Capital Flow; Track capital flow pattern and related relationships)
 - Atlanta / Georgia: Atlanta / Georgia, 학생주택, 점수 100 (Capital Flow; Track capital flow pattern and related relationships)
+- Atlanta / Georgia: Atlanta / Georgia, 아파트, 점수 100 (Capital Flow; Track capital flow pattern and related relationships)
 - Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Los Angeles, 아파트, 점수 100 (LA Asset Watch; Track lender, maturity, owner, and recapitalization path)
 - Entitlement / Permitting - Los Angeles / California - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown: Los Angeles, 어포더블 하우징, 점수 100 (LA Asset Watch; Track entitlement docket, density bonus use, and affordability requirement)
 
@@ -32,8 +32,8 @@
 ## GP / Capital Partner Watch
 
 - Arizona: Arizona, 아파트, 점수 100 (Track capital flow pattern and related relationships)
-- Atlanta / Georgia: Atlanta / Georgia, 아파트, 점수 100 (Track capital flow pattern and related relationships)
 - Atlanta / Georgia: Atlanta / Georgia, 학생주택, 점수 100 (Track capital flow pattern and related relationships)
+- Atlanta / Georgia: Atlanta / Georgia, 아파트, 점수 100 (Track capital flow pattern and related relationships)
 - Alliance Residential: Riverside / California, 아파트, 점수 80 (Track JV and capital partner activity)
 - PCCP: Riverside / California, 아파트, 점수 79 (Track JV and capital partner activity)
 

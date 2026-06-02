@@ -1,6 +1,6 @@
 # Source Activation Report
 
-Generated: 2026-06-02 01:03:10
+Generated: 2026-06-02 02:11:13
 
 - Total sources evaluated: 163
 - Working sources: 24

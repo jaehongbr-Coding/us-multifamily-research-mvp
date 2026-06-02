@@ -1,6 +1,6 @@
 # Source Recovery Report
 
-Generated: 2026-06-02 01:03:22
+Generated: 2026-06-02 02:11:14
 
 ## Summary
 
@@ -14,7 +14,7 @@ Generated: 2026-06-02 01:03:22
 | --- | --- | --- | --- | --- | ---: | --- | --- |
 | GlobeSt | https://www.globest.com/feed/ | Failed | rss_not_found |  | 0 | homepage reachable | RSS feed failed, but fallback page is reachable; consider source-specific parser or sitemap ingestion. |
 | Connect CRE | https://www.connectcre.com/feed/ | OK |  | 2026-06-02 | 5 |  | Manual source review needed. |
-| The Real Deal | https://therealdeal.com/feed/ | Failed | rss_changed |  | 0 | homepage reachable | RSS feed failed, but fallback page is reachable; consider source-specific parser or sitemap ingestion. |
+| The Real Deal | https://therealdeal.com/feed/ | Failed | rss_changed |  | 0 | source page reachable | RSS feed failed, but fallback page is reachable; consider source-specific parser or sitemap ingestion. |
 | Connect CRE Apartments | https://www.connectcre.com/feed?property-sector=apartments | OK |  | 2026-06-02 | 8 |  | Manual source review needed. |
 | Connect CRE Texas | https://www.connectcre.com/feed?story-market=texas | OK |  | 2026-06-02 | 2 |  | Manual source review needed. |
 | Connect CRE South Florida | https://www.connectcre.com/feed?story-market=south-florida | OK |  | 2026-06-02 | 4 |  | Manual source review needed. |
@@ -40,7 +40,7 @@ Generated: 2026-06-02 01:03:22
 | NMHC News | Failed | feed_parse_error | 55 | 15 | 37 | not probed | Inspect feed format; may require alternate feed URL or tolerant XML parsing. |
 | Multi-Housing News | Failed | paywall_restricted | 15 | 15 | 45 | not probed | Do not scrape restricted content; use public RSS, summary pages, or manual intake only. |
 | GlobeSt | Failed | rss_not_found | 29 | 15 | 45 | homepage reachable | RSS feed failed, but fallback page is reachable; consider source-specific parser or sitemap ingestion. |
-| The Real Deal | Failed | rss_changed | 29 | 15 | 45 | homepage reachable | RSS feed failed, but fallback page is reachable; consider source-specific parser or sitemap ingestion. |
+| The Real Deal | Failed | rss_changed | 29 | 15 | 45 | source page reachable | RSS feed failed, but fallback page is reachable; consider source-specific parser or sitemap ingestion. |
 
 ## Failure Type Guide
 

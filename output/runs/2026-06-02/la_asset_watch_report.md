@@ -1,6 +1,6 @@
 # LA / Southern California Asset Watch Report
 
-Generated: 2026-06-02 01:03:30
+Generated: 2026-06-02 02:11:23
 
 - Total LA / Southern California asset watch items: 57
 
@@ -23,7 +23,7 @@ Generated: 2026-06-02 01:03:30
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 54.
 - Recapitalization - California - PEF Advisors with Freestone Capital Form Joint Venture to Recapitalize Affordable Housing...: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 51.
 - Refinancing - Sarasota / Florida - Berkadia Secures $82.1M Loan to Refinance Class A Multifamily Asset in Sarasota County Flo...: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 49.
-- Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 47.
+- Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 48.
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 47.
 - Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 46.
 - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Los Angeles, Entitlement Play, la_asset_risk_score 36.
@@ -95,7 +95,7 @@ Generated: 2026-06-02 01:03:30
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 82
-- Newly detected projects: 1
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 52

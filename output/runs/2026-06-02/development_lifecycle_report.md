@@ -1,6 +1,6 @@
 # Development Lifecycle Report
 
-Generated: 2026-06-02 01:03:33
+Generated: 2026-06-02 02:11:25
 
 - Total lifecycle records: 82
 
@@ -35,14 +35,14 @@ Generated: 2026-06-02 01:03:33
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: Unknown Stage, California, lifecycle_risk_score 52.
 - Refinancing - Sarasota / Florida - Berkadia Secures $82.1M Loan to Refinance Class A Multifamily Asset in Sarasota County Flo...: Refinancing / Recapitalization, Sarasota, lifecycle_risk_score 52.
 - Construction Financing - New York - S3 Capital Provides $132M Loan for Washington Heights Student Housing: Unknown Stage, New York, lifecycle_risk_score 52.
-- Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Refinancing / Recapitalization, Washington Dc, lifecycle_risk_score 50.
-- Refinancing - Miami / Florida - Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables an...: Refinancing / Recapitalization, Miami, lifecycle_risk_score 46.
-- General Project Signal - Miami / Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 43.
+- Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Refinancing / Recapitalization, Washington Dc, lifecycle_risk_score 51.
+- Refinancing - Miami / Florida - Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables an...: Refinancing / Recapitalization, Miami, lifecycle_risk_score 47.
+- General Project Signal - Miami / Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 44.
 
 ## Projects Under Entitlement / Planning
 
 - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Entitlement Under Review, Los Angeles, lifecycle_opportunity_score 80.
-- First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A Trickle: Entitlement Under Review, Los Angeles, lifecycle_opportunity_score 59.
+- First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A Trickle: Entitlement Under Review, Los Angeles, lifecycle_opportunity_score 60.
 
 ## Construction-Ready / Construction-Start Signals
 
@@ -53,7 +53,7 @@ Generated: 2026-06-02 01:03:33
 - JV / Partnership - Riverside / California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: Delivery / Opening, Riverside, lifecycle_opportunity_score 100.
 - BTR / Build-to-Rent - Atlanta / Georgia - Crescent Debuts 151-Unit Lawrenceville BTR Community: Delivery / Opening, Atlanta, lifecycle_opportunity_score 92.
 - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: Delivery / Opening, Inland Empire, lifecycle_opportunity_score 87.
-- Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: Delivery / Opening, San Francisco, lifecycle_opportunity_score 73.
+- Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: Delivery / Opening, San Francisco, lifecycle_opportunity_score 74.
 - Jefferson Apartment Group Delivers Luxury Multifamily Community J Optimist Park in Charlotte North Carolina: Delivery / Opening, Charlotte, lifecycle_opportunity_score 72.
 - Palmdale Chipotle Sale Sets Cap Rate Benchmark: Delivery / Opening, Unknown, lifecycle_opportunity_score 67.
 - Disposition / Exit - Los Angeles / California - Palmdale Chipotle Sale Sets Cap Rate Benchmark: Delivery / Opening, Los Angeles, lifecycle_opportunity_score 58.
@@ -70,9 +70,9 @@ Generated: 2026-06-02 01:03:33
 - Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi: Refinancing / Recapitalization, Atlanta, lifecycle_risk_score 55.
 - Recapitalization - California - PEF Advisors with Freestone Capital Form Joint Venture to Recapitalize Affordable Housing...: Refinancing / Recapitalization, California, lifecycle_risk_score 53.
 - Refinancing - Sarasota / Florida - Berkadia Secures $82.1M Loan to Refinance Class A Multifamily Asset in Sarasota County Flo...: Refinancing / Recapitalization, Sarasota, lifecycle_risk_score 52.
-- Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Refinancing / Recapitalization, Washington Dc, lifecycle_risk_score 50.
-- Refinancing - Miami / Florida - Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables an...: Refinancing / Recapitalization, Miami, lifecycle_risk_score 46.
-- General Project Signal - Miami / Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 43.
+- Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Refinancing / Recapitalization, Washington Dc, lifecycle_risk_score 51.
+- Refinancing - Miami / Florida - Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables an...: Refinancing / Recapitalization, Miami, lifecycle_risk_score 47.
+- General Project Signal - Miami / Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 44.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Refinancing / Recapitalization, California, lifecycle_risk_score 40.
 - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, Miami, lifecycle_risk_score 39.
 
@@ -97,7 +97,7 @@ Generated: 2026-06-02 01:03:33
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 82
-- Newly detected projects: 1
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 52

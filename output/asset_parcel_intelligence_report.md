@@ -1,6 +1,6 @@
 # Real Asset & Parcel Intelligence Report
 
-Generated: 2026-06-02 01:03:30
+Generated: 2026-06-02 02:11:23
 
 - Total asset / parcel signals: 83
 
@@ -24,7 +24,7 @@ Generated: 2026-06-02 01:03:30
 - Recapitalization - California - PEF Advisors with Freestone Capital Form Joint Venture to Recapitalize Affordable Housing...: Refinancing / Recapitalization, California, asset_risk_score 51.
 - Construction Financing - New York - S3 Capital Provides $132M Loan for Washington Heights Student Housing: General Asset Signal, New York, asset_risk_score 51.
 - Refinancing - Sarasota / Florida - Berkadia Secures $82.1M Loan to Refinance Class A Multifamily Asset in Sarasota County Flo...: Refinancing / Recapitalization, Sarasota, asset_risk_score 49.
-- Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Refinancing / Recapitalization, Washington Dc, asset_risk_score 47.
+- Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Refinancing / Recapitalization, Washington Dc, asset_risk_score 48.
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, South Florida, asset_risk_score 47.
 - Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi: Refinancing / Recapitalization, Atlanta, asset_risk_score 46.
 - Office-to-Residential Conversion - New York - Partnership Breaks Ground on $147M Affordable Housing Redevelopment in Poughkeepsie, New Y...: Office-to-Residential Conversion, New York, asset_risk_score 44.
@@ -59,15 +59,15 @@ Generated: 2026-06-02 01:03:30
 ## Assets With Entitlement or Permit Signals
 
 - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Entitlement Play, 349 N. Oakhurst Ave, asset_opportunity_score 85.
-- Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: Lease-Up / Delivery, San Francisco, asset_opportunity_score 72.
-- First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A Trickle: Entitlement Play, Los Angeles, asset_opportunity_score 50.
+- Entitlement / Permitting - San Francisco / California - First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A...: Lease-Up / Delivery, San Francisco, asset_opportunity_score 73.
+- First Projects Advance Under San Francisco's New Zoning Plan, But Costs Hold Pipeline To A Trickle: Entitlement Play, Los Angeles, asset_opportunity_score 51.
 
 ## Assets With Financing / Refinancing Signals
 
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Refinancing / Recapitalization, California, asset_risk_score 54.
 - Recapitalization - California - PEF Advisors with Freestone Capital Form Joint Venture to Recapitalize Affordable Housing...: Refinancing / Recapitalization, California, asset_risk_score 51.
 - Refinancing - Sarasota / Florida - Berkadia Secures $82.1M Loan to Refinance Class A Multifamily Asset in Sarasota County Flo...: Refinancing / Recapitalization, Sarasota, asset_risk_score 49.
-- Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Refinancing / Recapitalization, Washington Dc, asset_risk_score 47.
+- Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Refinancing / Recapitalization, Washington Dc, asset_risk_score 48.
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, South Florida, asset_risk_score 47.
 - Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi: Refinancing / Recapitalization, Atlanta, asset_risk_score 46.
 - Refinancing - Miami / Florida - Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables an...: Refinancing / Recapitalization, Miami, asset_risk_score 40.
@@ -119,7 +119,7 @@ Generated: 2026-06-02 01:03:30
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 82
-- Newly detected projects: 1
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 52

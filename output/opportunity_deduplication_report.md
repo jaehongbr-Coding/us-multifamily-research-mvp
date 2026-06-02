@@ -1,6 +1,6 @@
 # Opportunity Deduplication Report
 
-Generated: 2026-06-02 01:03:28
+Generated: 2026-06-02 02:11:21
 
 - Total duplicate clusters: 10
 - Opportunities removed via deduplication: 0
@@ -12,23 +12,23 @@ Generated: 2026-06-02 01:03:28
 - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: California, 2 related row(s), opportunity score 88, distress score 72.
 - Berkadia Secures $82.1M Loan to Refinance Class A Multifamily Asset in Sarasota County Florida: Sarasota / Florida, 2 related row(s), opportunity score 88, distress score 66.
 - PEF Advisors with Freestone Capital Form Joint Venture to Recapitalize Affordable Housing Properties: California, 2 related row(s), opportunity score 87, distress score 70.
-- S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: Miami / Florida, 2 related row(s), opportunity score 86, distress score 62.
-- Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Washington DC, 2 related row(s), opportunity score 82, distress score 61.
-- Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables and Announces New Partner: Miami / Florida, 2 related row(s), opportunity score 79, distress score 58.
+- S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: Miami / Florida, 2 related row(s), opportunity score 86, distress score 63.
+- Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Washington DC, 2 related row(s), opportunity score 83, distress score 63.
+- Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables and Announces New Partner: Miami / Florida, 2 related row(s), opportunity score 79, distress score 59.
 - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Miami / Florida, 2 related row(s), opportunity score 63, distress score 59.
 - S3 Capital Provides $132M Loan for Washington Heights Student Housing: New York, 2 related row(s), opportunity score 59, distress score 55.
-- Georgia Tech Student Housing Investors Ink Refi: Atlanta / Georgia, 2 related row(s), opportunity score 56, distress score 51.
+- Georgia Tech Student Housing Investors Ink Refi: Atlanta / Georgia, 2 related row(s), opportunity score 57, distress score 52.
 
 ## Repeated Refinancing Stories
 
 - Berkadia Secures $82.1M Loan to Refinance Class A Multifamily Asset in Sarasota County Florida: Sarasota / Florida, 2 related row(s), opportunity score 88, distress score 66.
-- Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Washington DC, 2 related row(s), opportunity score 82, distress score 61.
-- Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables and Announces New Partner: Miami / Florida, 2 related row(s), opportunity score 79, distress score 58.
-- Georgia Tech Student Housing Investors Ink Refi: Atlanta / Georgia, 2 related row(s), opportunity score 56, distress score 51.
+- Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Washington DC, 2 related row(s), opportunity score 83, distress score 63.
+- Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables and Announces New Partner: Miami / Florida, 2 related row(s), opportunity score 79, distress score 59.
+- Georgia Tech Student Housing Investors Ink Refi: Atlanta / Georgia, 2 related row(s), opportunity score 57, distress score 52.
 
 ## Repeated GP Partnership Stories
 
-- S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: Miami / Florida, 2 related row(s), opportunity score 86, distress score 62.
+- S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: Miami / Florida, 2 related row(s), opportunity score 86, distress score 63.
 - Eaton Vance Picks Charlotte Rental Community for $65.8M: Atlanta / Georgia, 1 related row(s), opportunity score 87, distress score 0.
 - PCCP, Alliance Residential Buy 184-Unit Multifamily Community in Riverside, California: Riverside / California, 1 related row(s), opportunity score 86, distress score 0.
 - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: Riverside / California, 1 related row(s), opportunity score 84, distress score 0.

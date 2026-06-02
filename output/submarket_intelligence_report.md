@@ -1,6 +1,6 @@
 # Submarket Intelligence Report
 
-Generated: 2026-06-02 01:03:28
+Generated: 2026-06-02 02:11:21
 
 - Total submarkets detected: 30
 
@@ -19,10 +19,10 @@ Generated: 2026-06-02 01:03:28
 
 ## Top Submarkets By Risk Score
 
-- Miami (Florida): submarket_risk_score 79, Monitor refinancing / distress pipeline.
+- Miami (Florida): submarket_risk_score 80, Monitor refinancing / distress pipeline.
 - Santa Ana (Orange County): submarket_risk_score 59, Monitor refinancing / distress pipeline.
 - New York (New York): submarket_risk_score 45, Monitor entitlement precedent.
-- Atlanta (Southeast): submarket_risk_score 43, Monitor entitlement precedent.
+- Atlanta (Southeast): submarket_risk_score 44, Monitor entitlement precedent.
 - Venice (Los Angeles): submarket_risk_score 21, Monitor entitlement precedent.
 - Charlotte (Southeast): submarket_risk_score 15, Monitor entitlement precedent.
 - Los Angeles (Los Angeles): submarket_risk_score 15, Monitor entitlement precedent.

@@ -1,9 +1,9 @@
 # Persistent Asset Memory Report
 
-Generated: 2026-06-02 01:03:33
+Generated: 2026-06-02 02:11:25
 
 - Total persistent assets tracked: 169
-- Newly detected assets: 115
+- Newly detected assets: 114
 - Progressing assets: 0
 - Possible stalled assets: 3
 

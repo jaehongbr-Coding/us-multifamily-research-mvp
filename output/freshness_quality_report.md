@@ -1,6 +1,6 @@
 # Freshness Quality Report
 
-Generated: 2026-06-02 01:03:10
+Generated: 2026-06-02 02:11:13
 
 ## Freshness Summary
 
@@ -31,12 +31,8 @@ Generated: 2026-06-02 01:03:10
 
 ## Old Articles Excluded From Development Activity Top Exposure
 
-- Best Year for Missing Middle Construction Since 2007 (NAHB Eye on Housing - Multifamily): marked historical/background.
 - Cambridge Properties Bringing New Life to Aging Charlotte Center (Connect CRE Charlotte): marked historical/background.
 - Builders Stay Cautious as Single-Family Permits Weaken (NAHB Eye on Housing - Multifamily): marked historical/background.
-- Fourth Quarter 2025 Multifamily Construction Data (NAHB Eye on Housing - Multifamily): marked historical/background.
-- Third Quarter 2025 Multifamily Construction Data (NAHB Eye on Housing - Multifamily): marked historical/background.
-- NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter (NAHB Eye on Housing - Multifamily): marked historical/background.
 
 ## Old Articles Excluded From GP / Capital Activity
 
@@ -44,7 +40,7 @@ Generated: 2026-06-02 01:03:10
 - Charlotte Apartment Project Fetches $107M (Connect CRE Charlotte): repeat exposure penalty; historical article over 30 days old
 - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily (Connect CRE Orange County): repeat exposure penalty; historical article over 30 days old
 - Overall Housing Starts Inch Lower in 2025 (NAHB Eye on Housing - Multifamily): repeat exposure penalty; historical article over 30 days old
-- NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter (NAHB Eye on Housing - Multifamily): repeat exposure penalty; historical article over 30 days old; development article without confirmed capital event
+- NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter (NAHB Eye on Housing - Multifamily): repeat exposure penalty; historical article over 30 days old
 - Investment, NOI, and Covenants: Managing the risks (Multifamily Executive): repeat exposure penalty; low relevance or thin evidence; historical article over 30 days old
 
 ## Unknown Date Articles

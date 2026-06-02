@@ -1,6 +1,6 @@
 # Opportunity Radar Report
 
-Generated: 2026-06-02 01:03:28
+Generated: 2026-06-02 02:11:21
 
 - Total opportunities detected: 56
 
@@ -40,9 +40,9 @@ Generated: 2026-06-02 01:03:28
 ## Distressed / Rescue Capital Opportunities
 
 - Refinancing Gap in Sarasota / Florida: Refinancing - Sarasota / Florida - Berkadia Secures $82.1M Loan to Refinance Class A Multifamily Asset in Sarasota County Flo..., score 88. Add to executive opportunity review.
-- Refinancing Gap in Washington DC: Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF, score 82. Add to executive opportunity review.
+- Refinancing Gap in Washington DC: Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF, score 83. Add to executive opportunity review.
 - Refinancing Gap in Miami / Florida: Refinancing - Miami / Florida - Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables an..., score 79. Track debt stack, maturity, lender, and recapitalization details.
-- Refinancing Gap in Atlanta / Georgia: Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi, score 56. Track debt stack, maturity, lender, and recapitalization details.
+- Refinancing Gap in Atlanta / Georgia: Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi, score 57. Track debt stack, maturity, lender, and recapitalization details.
 
 ## BTR / SFR Opportunities
 
@@ -65,8 +65,8 @@ Generated: 2026-06-02 01:03:28
 - LA / California Entitlement Opportunity in Los Angeles / California: Entitlement / Permitting - Los Angeles / California - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown, score 63. Review entitlement, zoning, permitting, and local sponsor context.
 - LA / California Entitlement Opportunity in Los Angeles / California: Entitlement / Permitting - Los Angeles / California - Venice Dell affordable housing project notches legal win, score 63. Review entitlement, zoning, permitting, and local sponsor context.
 - Office-to-Residential Conversion Opportunity in New York: Office-to-Residential Conversion - New York - Partnership Breaks Ground on $147M Affordable Housing Redevelopment in Poughkeepsie, New Y..., score 62. Monitor for repeated signals.
-- JV / Partnership Gap in Santa Monica / California: JV / Partnership - Santa Monica / California - RAND reviews ULA impacts, Mayor's race focuses on housing, and more, score 59. Map GP, capital partner, and relationship history.
-- Affordable / Workforce Housing Opportunity in National: General Project Signal - National - Lument Closes $28M Loan for Ohio Multifamily Property, score 54. Monitor for repeated signals.
+- JV / Partnership Gap in Santa Monica / California: JV / Partnership - Santa Monica / California - RAND reviews ULA impacts, Mayor's race focuses on housing, and more, score 60. Map GP, capital partner, and relationship history.
+- Affordable / Workforce Housing Opportunity in National: General Project Signal - National - Lument Closes $28M Loan for Ohio Multifamily Property, score 55. Monitor for repeated signals.
 
 ## Potential GP Partnership Opportunities
 
@@ -124,7 +124,7 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 82
-- Newly detected projects: 1
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 52

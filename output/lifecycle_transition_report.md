@@ -1,9 +1,9 @@
 # Lifecycle Transition Report
 
-Generated: 2026-06-02 01:03:33
+Generated: 2026-06-02 02:11:25
 
 - Total lifecycle transitions analyzed: 82
-- Newly detected projects: 1
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - Reappearing projects: 0
@@ -36,7 +36,7 @@ Generated: 2026-06-02 01:03:33
 
 ## Newly Detected Projects
 
-- General Project Signal - National - Multifamily construction spending lower in April: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 31.
+- None detected.
 
 ## Forward Progression Projects
 

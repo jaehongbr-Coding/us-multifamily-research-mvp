@@ -1,6 +1,6 @@
 # Market Entry Window Report
 
-Generated: 2026-06-02 01:03:28
+Generated: 2026-06-02 02:11:21
 
 ## Top Market Entry Windows
 
@@ -76,7 +76,7 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 82
-- Newly detected projects: 1
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 52

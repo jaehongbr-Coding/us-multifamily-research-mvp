@@ -2001,7 +2001,7 @@ PROJECT_ANCHOR_ASSET_TERMS = [
 ]
 
 PROJECT_ANCHOR_SITE_TERMS = [
-    "site", "parcel", "street", "avenue", "boulevard", "road", "drive",
+    "site", "parcel",
     "land assemblage", "site acquisition", "acquired land", "purchased land",
     "entitled site", "planned project", "development site",
 ]
@@ -2063,6 +2063,10 @@ def detect_project_anchor(article):
     text = get_project_anchor_text(article)
     title_text = normalize_keyword_text(article.get("title", ""))
     reasons = []
+    market_data_title = find_matches(title_text, [
+        "construction spending", "rent growth", "rent prices", "absorption",
+        "vacancy", "occupancy", "housing starts", "market data",
+    ])
 
     unit_match = re.search(r"\b\d{2,5}\s*[- ]?(?:unit|home|apartment|bed|residence|story|acre)s?\b", text)
     if unit_match:
@@ -2095,6 +2099,9 @@ def detect_project_anchor(article):
     name_match = find_matches(text, PROJECT_ANCHOR_NAME_HINTS)
     if name_match:
         reasons.append(f"named asset/project hint: {name_match[0]}")
+
+    if market_data_title and not (unit_match or address_match or name_match or execution_match):
+        reasons = []
 
     generic_only_anchor = (
         len(reasons) == 1
@@ -2674,6 +2681,61 @@ GP_PLATFORM_CORPORATE_TERMS = [
 ]
 
 
+LOW_VALUE_PROMOTIONAL_STRONG_TERMS = [
+    "webinar", "webcast", "register", "registration", "sponsored",
+    "sponsor content", "paid content", "white paper", "whitepaper",
+    "ebook", "download", "newsletter signup", "conference", "panel",
+    "interview promotion",
+]
+
+LOW_VALUE_PROMOTIONAL_CONTEXT_TERMS = [
+    "chat with", "fireside chat", "live event", "virtual event",
+    "event registration", "register now", "join us", "chief economist",
+]
+
+MARKET_DATA_PROTECTION_TERMS = [
+    "construction spending", "rent growth", "rent prices", "asking rent",
+    "effective rent", "absorption", "vacancy", "occupancy", "housing starts",
+    "private residential construction", "market report", "index", "survey",
+]
+
+
+def detect_low_value_promotional_reason(article):
+    """Detect promotional/event content without suppressing real market-data articles."""
+    title = normalize_keyword_text(article.get("title", ""))
+    title_context = normalize_keyword_text(" ".join([
+        article.get("title", ""),
+        article.get("summary", ""),
+        article.get("source", ""),
+        article.get("url", "") or article.get("original_url", ""),
+    ]))
+    blob = normalize_keyword_text(" ".join([
+        article.get("title", ""),
+        article.get("summary", ""),
+        article.get("article_text_sample", ""),
+        article.get("source", ""),
+        article.get("url", "") or article.get("original_url", ""),
+    ]))
+    if "chat with" in title and "chief economist" in title:
+        return "chat-with-chief-economist promotional format"
+    matched_strong = find_matches(title_context, LOW_VALUE_PROMOTIONAL_STRONG_TERMS)
+    if matched_strong:
+        if find_matches(title_context, MARKET_DATA_PROTECTION_TERMS) and not any(
+            term in title_context
+            for term in ["webinar", "webcast", "register", "registration", "sponsored", "paid content"]
+        ):
+            return ""
+        return f"promotional/event keyword: {matched_strong[0]}"
+    if "chief economist" in blob and find_matches(blob, LOW_VALUE_PROMOTIONAL_CONTEXT_TERMS):
+        return "chief economist article in promotional/event context"
+    return ""
+
+
+def is_low_value_promotional_article(article):
+    """Return True when the article should be excluded from primary analysis display."""
+    return bool(detect_low_value_promotional_reason(article))
+
+
 def has_platform_or_corporate_capital_signal(text):
     """Detect capital behavior without a dominant project or asset anchor."""
     return find_matches(text, GP_PLATFORM_CORPORATE_TERMS)
@@ -2691,6 +2753,13 @@ def has_macro_market_signal(text):
 
 def get_primary_display_section(article):
     """Route one article to one primary app section with deterministic priority."""
+    if (
+        article.get("article_integrity_status") == "low_value_promotional"
+        or is_low_value_promotional_article(article)
+    ):
+        reason = detect_low_value_promotional_reason(article) or "low-value promotional article"
+        return "Excluded", [], f"low_value_promotional: {reason}"
+
     if is_limited_access_status(article.get("access_status")):
         text_parts = [
             article.get("title", ""),
@@ -2780,7 +2849,13 @@ def get_primary_display_section(article):
     development_site_hit = find_matches(text, [
         "purchased land", "acquired land", "land assemblage", "site acquisition",
         "site control", "parcel acquired", "vacant site",
-        "development site acquired",
+        "development site acquired", "site acquired", "acquired site",
+        "assembled land", "controls site", "under contract", "parcel",
+        "development site", "entitled site", "plans to build",
+        "proposes to build", "eyeing site", "looking at acres",
+        "targets site", "targeting site", "redevelopment site",
+        "former site", "city-owned site", "ground lease",
+        "long-term lease site",
     ])
     development_strategy_hit = find_matches(text, [
         "redevelopment", "adaptive reuse", "office-to-residential", "conversion",
@@ -3210,6 +3285,10 @@ def apply_article_integrity_checks(articles):
         if detect_title_text_mismatch(article):
             status = "suspicious_mismatch"
             reasons.append("fetched page text does not sufficiently match RSS title")
+        promotional_reason = detect_low_value_promotional_reason(article)
+        if promotional_reason:
+            status = "low_value_promotional"
+            reasons.append(promotional_reason)
         if status != "valid":
             if article.get("classification_confidence") == "high":
                 article["classification_confidence"] = "medium"
@@ -19205,10 +19284,40 @@ SITE_PARCEL_STRONG_TERMS = [
     "development site acquired",
 ]
 
+SITE_PARCEL_POSITIVE_TERMS = [
+    "site acquired", "acquired site", "purchased land", "acquired land",
+    "land assemblage", "assembled land", "site control", "controls site",
+    "under contract", "parcel", "vacant site", "development site",
+    "entitled site", "plans to build", "proposes to build", "eyeing site",
+    "looking at acres", "targets site", "targeting site", "redevelopment site",
+    "former site", "city-owned site", "ground lease", "long-term lease site",
+]
+
 SITE_PARCEL_TO_BUILD_TERMS = [
     "to build", "plans to build", "planned to build", "proposes to build",
     "seeks to build", "will build", "wants to build", "planning to build",
     "developer eyeing", "targeting site",
+]
+
+SITE_PARCEL_TRANSACTION_EXCLUSION_TERMS = [
+    "apartment sale", "apartment building sold", "sale of apartment building",
+    "buyer", "seller", "price per unit", "stabilized property sale",
+    "trades for $", "sells apartments for", "acquisition of existing apartment community",
+    "recapitalization of existing property", "apartment community sold",
+    "multifamily community sold", "operating asset sale",
+]
+
+SITE_PARCEL_TRANSACTION_OVERRIDE_TERMS = [
+    "redevelopment", "conversion", "vacant", "entitled", "plans to build",
+    "proposes to build", "site control", "development site", "parcel",
+    "ground lease", "city-owned site", "former site", "acres",
+]
+
+SITE_PARCEL_PROJECT_ANCHOR_TERMS = [
+    "project", "development", "community", "apartment tower", "btr community",
+    "rental community", "mixed-use", "affordable housing redevelopment",
+    "to build", "plans to build", "proposes to build", "wants to build",
+    "developer eyeing", "targeting", "targets site", "site plan",
 ]
 
 OPERATING_ASSET_TRANSACTION_TERMS = [
@@ -19241,12 +19350,40 @@ def has_operating_asset_transaction_signal(lower_text, lower_headline):
     return matched_transaction and (matched_asset or sale_combo or completed_asset_combo)
 
 
+def has_site_parcel_project_anchor(blob):
+    """Require project/site context before broad site terms can enter Site / Parcel."""
+    unit_count_hit = bool(re.search(r"\b\d{2,4}\s*-\s*unit\b|\b\d{2,4}\s+unit\b", blob))
+    acreage_hit = bool(re.search(r"\b\d+(?:\.\d+)?\s+acres?\b", blob))
+    address_hit = bool(re.search(r"\b\d{2,5}\s+[a-z0-9][a-z0-9 .'-]+\s+(street|st|avenue|ave|road|rd|boulevard|blvd|drive|dr|lane|ln|way)\b", blob))
+    anchor_term_hit = any(term in blob for term in SITE_PARCEL_PROJECT_ANCHOR_TERMS)
+    return unit_count_hit or acreage_hit or address_hit or anchor_term_hit
+
+
+def has_site_parcel_transaction_exclusion(lower_text, lower_headline):
+    """Detect operating-asset sale language that should not become Site / Parcel."""
+    blob = f"{lower_headline} {lower_text}"
+    if any(term in blob for term in SITE_PARCEL_TRANSACTION_OVERRIDE_TERMS):
+        return False
+    explicit_exclusion = any(term in blob for term in SITE_PARCEL_TRANSACTION_EXCLUSION_TERMS)
+    operating_transaction = has_operating_asset_transaction_signal(lower_text, lower_headline)
+    return explicit_exclusion or operating_transaction
+
+
 def site_parcel_positive_signal(lower_text, lower_headline):
     """Return the strongest site/parcel signal term when the article implies development entry."""
     blob = f"{lower_headline} {lower_text}"
+    if has_site_parcel_transaction_exclusion(lower_text, lower_headline):
+        return ""
     for term in SITE_PARCEL_STRONG_TERMS:
         if term in blob:
             return term
+    if not has_site_parcel_project_anchor(blob):
+        return ""
+    for term in SITE_PARCEL_POSITIVE_TERMS + SITE_PARCEL_TO_BUILD_TERMS:
+        if term in blob:
+            return term
+    if re.search(r"\b\d+(?:\.\d+)?\s+acres?\b", blob) and any(term in blob for term in ["build", "development", "project", "site"]):
+        return "acres + development/site signal"
     return ""
 
 
@@ -19272,7 +19409,7 @@ def classify_primary_development_category(text, headline=""):
     matched_site = site_parcel_positive_signal(lower_text, lower_headline)
     headline_development_hit = any(
         term in lower_headline
-        for term in PRIMARY_CONSTRUCTION_TERMS + PRIMARY_APPROVAL_TERMS + PRIMARY_DEVELOPMENT_STRATEGY_TERMS + SITE_PARCEL_STRONG_TERMS + SITE_PARCEL_TO_BUILD_TERMS
+        for term in PRIMARY_CONSTRUCTION_TERMS + PRIMARY_APPROVAL_TERMS + PRIMARY_DEVELOPMENT_STRATEGY_TERMS + SITE_PARCEL_STRONG_TERMS + SITE_PARCEL_POSITIVE_TERMS + SITE_PARCEL_TO_BUILD_TERMS
     )
     matched_finance = next((term for term in PRIMARY_EXCLUDED_FINANCE_TERMS if term in lower_text), "")
     matched_transaction = next((term for term in PRIMARY_EXCLUDED_TRANSACTION_TERMS if term in f"{lower_headline} {lower_text}"), "")
@@ -19290,6 +19427,8 @@ def classify_primary_development_category(text, headline=""):
         return "excluded", f"transaction / capital guard: {matched_transaction}"
     if matched_construction:
         return "construction_delivery_watch", f"matched {matched_construction}"
+    if matched_site:
+        return "site_parcel_activity", f"site/parcel signal with project anchor: {matched_site}"
     if matched_approval:
         return "approval_watch", f"matched {matched_approval}"
     if matched_transaction and not matched_site:
@@ -19298,8 +19437,6 @@ def classify_primary_development_category(text, headline=""):
         return "excluded", "transaction override: operating asset sale/acquisition"
     if operating_asset_acquisition:
         return "excluded", "transaction override: operating-asset acquisition"
-    if matched_site:
-        return "site_parcel_activity", f"site acquisition signal: {matched_site}"
     if matched_strategy:
         return "construction_delivery_watch", "matched development / asset strategy execution"
     if any(term in lower_text for term in ["renovation", "repositioning"]) and not matched_transaction:
@@ -25813,6 +25950,30 @@ def generate_routing_balance_report(articles, rent_demand_articles, dated_output
         1 for article in articles
         if str(article.get("has_project_anchor", "")).strip().lower() == "true"
     )
+    low_value_promotional_articles = [
+        article for article in articles
+        if article.get("article_integrity_status") == "low_value_promotional"
+        or article.get("primary_display_section") == "Excluded"
+        or is_low_value_promotional_article(article)
+    ]
+    site_parcel_included_examples = []
+    site_parcel_excluded_transaction_examples = []
+    for article in articles:
+        title = article.get("title", "")
+        text = " ".join([
+            article.get("title", ""),
+            article.get("summary", ""),
+            article.get("article_text_sample", ""),
+        ])
+        category, category_reason = classify_primary_development_category(text, title)
+        lower_text = text.lower()
+        lower_headline = title.lower()
+        blob = f"{lower_headline} {lower_text}"
+        has_site_term = any(term in blob for term in SITE_PARCEL_POSITIVE_TERMS + SITE_PARCEL_STRONG_TERMS + SITE_PARCEL_TO_BUILD_TERMS)
+        if category == "site_parcel_activity":
+            site_parcel_included_examples.append((article, category_reason))
+        elif has_site_term and has_site_parcel_transaction_exclusion(lower_text, lower_headline):
+            site_parcel_excluded_transaction_examples.append((article, "operating-asset transaction guard"))
 
     lines = [
         "# Routing Balance Report",
@@ -25820,9 +25981,13 @@ def generate_routing_balance_report(articles, rent_demand_articles, dated_output
         f"- Market Intelligence count: {section_counts.get('Market Intelligence', 0)}",
         f"- Development Activity count: {section_counts.get('Development Activity', 0)}",
         f"- GP / Capital Activity count: {section_counts.get('GP / Capital Activity', 0)}",
+        f"- Excluded count: {section_counts.get('Excluded', 0)}",
         f"- Rent/Demand candidate count: {len(rent_demand_articles)}",
         f"- Project anchor article count: {project_anchor_count}",
         f"- Development-excluded transaction article count: {len(transaction_excluded)}",
+        f"- Low-value promotional excluded count: {len(low_value_promotional_articles)}",
+        f"- Site / Parcel positive candidates count: {len(site_parcel_included_examples)}",
+        f"- Site / Parcel excluded transaction count: {len(site_parcel_excluded_transaction_examples)}",
         f"- Source missing count: {missing_source}",
         f"- Market missing count: {missing_market}",
         f"- Stage missing count: {missing_stage}",
@@ -25831,6 +25996,39 @@ def generate_routing_balance_report(articles, rent_demand_articles, dated_output
     ]
     if rent_demand_articles:
         lines.extend([f"- {article.get('title', 'Untitled')}" for article in rent_demand_articles])
+    else:
+        lines.append("- None")
+
+    lines.extend(["", "## Excluded Promotional Articles"])
+    if low_value_promotional_articles:
+        for article in low_value_promotional_articles[:10]:
+            lines.append(
+                "- "
+                f"{article.get('title', 'Untitled')} | "
+                f"{detect_low_value_promotional_reason(article) or article.get('section_routing_reason', '')}"
+            )
+    else:
+        lines.append("- None")
+
+    lines.extend(["", "## Site / Parcel Included Examples"])
+    if site_parcel_included_examples:
+        for article, reason in site_parcel_included_examples[:10]:
+            lines.append(
+                "- "
+                f"{article.get('title', 'Untitled')} | "
+                f"{article.get('primary_display_section', 'Article Feed')} | {reason}"
+            )
+    else:
+        lines.append("- None")
+
+    lines.extend(["", "## Site / Parcel Excluded Transaction Examples"])
+    if site_parcel_excluded_transaction_examples:
+        for article, reason in site_parcel_excluded_transaction_examples[:10]:
+            lines.append(
+                "- "
+                f"{article.get('title', 'Untitled')} | "
+                f"{article.get('primary_display_section', 'Article Feed')} | {reason}"
+            )
     else:
         lines.append("- None")
 
@@ -25852,6 +26050,9 @@ def generate_routing_balance_report(articles, rent_demand_articles, dated_output
         "rent_demand_candidate_count": len(rent_demand_articles),
         "project_anchor_count": project_anchor_count,
         "development_excluded_transaction_count": len(transaction_excluded),
+        "low_value_promotional_excluded_count": len(low_value_promotional_articles),
+        "site_parcel_positive_candidates_count": len(site_parcel_included_examples),
+        "site_parcel_excluded_transaction_count": len(site_parcel_excluded_transaction_examples),
         "source_missing_count": missing_source,
         "market_missing_count": missing_market,
         "stage_missing_count": missing_stage,

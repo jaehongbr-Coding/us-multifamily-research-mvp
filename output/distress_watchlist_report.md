@@ -1,6 +1,6 @@
 # Distress Watchlist Report
 
-Generated: 2026-06-02 02:11:21
+Generated: 2026-06-02 04:03:15
 
 - Total distress signals: 10
 
@@ -12,22 +12,22 @@ Generated: 2026-06-02 02:11:21
 - refinancing stress in Sarasota / Florida: Refinancing - Sarasota / Florida - Berkadia Secures $82.1M Loan to Refinance Class A Multifamily Asset in Sarasota County Flo..., score 66. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - bridge loan stress in Miami / Florida: General Project Signal - Miami / Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan, score 63. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - construction loan gap in Washington DC: Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF, score 63. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
-- construction loan gap in Miami / Florida: Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments, score 59. Monitor for repeated distress signals.
-- refinancing stress in Miami / Florida: Refinancing - Miami / Florida - Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables an..., score 59. Monitor for repeated distress signals.
+- construction loan gap in Miami / Florida: Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments, score 60. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- refinancing stress in Miami / Florida: Refinancing - Miami / Florida - Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables an..., score 60. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - construction loan gap in New York: Construction Financing - New York - S3 Capital Provides $132M Loan for Washington Heights Student Housing, score 55. Monitor for repeated distress signals.
 - refinancing stress in Atlanta / Georgia: Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi, score 52. Monitor for repeated distress signals.
 
 ## Refinancing Stress Watch
 
 - refinancing stress in Sarasota / Florida: Refinancing - Sarasota / Florida - Berkadia Secures $82.1M Loan to Refinance Class A Multifamily Asset in Sarasota County Flo..., score 66. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
-- refinancing stress in Miami / Florida: Refinancing - Miami / Florida - Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables an..., score 59. Monitor for repeated distress signals.
+- refinancing stress in Miami / Florida: Refinancing - Miami / Florida - Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables an..., score 60. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - refinancing stress in Atlanta / Georgia: Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi, score 52. Monitor for repeated distress signals.
 
 ## Construction Financing Gap Watch
 
 - construction loan gap in California: Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily, score 80. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - construction loan gap in Washington DC: Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF, score 63. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
-- construction loan gap in Miami / Florida: Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments, score 59. Monitor for repeated distress signals.
+- construction loan gap in Miami / Florida: Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments, score 60. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - construction loan gap in New York: Construction Financing - New York - S3 Capital Provides $132M Loan for Washington Heights Student Housing, score 55. Monitor for repeated distress signals.
 
 ## Stalled Project Watch

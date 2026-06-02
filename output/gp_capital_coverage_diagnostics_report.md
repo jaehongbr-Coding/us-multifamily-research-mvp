@@ -1,11 +1,11 @@
 # GP / Capital Coverage Diagnostics
 
-Generated: 2026-06-02 02:11:12
+Generated: 2026-06-02 04:03:08
 
 ## Summary
 
 - GP / Capital candidate articles: 44
-- Selected GP / Capital articles: 27
+- Selected GP / Capital articles: 26
 - Excluded by repeat penalty: 14
 - Excluded by integrity issue: 2
 
@@ -13,8 +13,8 @@ Generated: 2026-06-02 02:11:12
 
 - Yield PRO: 6 candidate(s), 6 selected, activities: refinancing:2; disposition_exit:2; debt_financing:1; joint_venture:1.
 - Connect CRE: 4 candidate(s), 4 selected, activities: construction_financing:2; debt_financing:1; disposition_exit:1.
-- Connect CRE California: 4 candidate(s), 4 selected, activities: disposition_exit:3; joint_venture:1.
 - Connect CRE Apartments: 4 candidate(s), 3 selected, activities: disposition_exit:2; joint_venture:1; acquisition:1.
+- Connect CRE California: 4 candidate(s), 3 selected, activities: disposition_exit:3; joint_venture:1.
 - Connect CRE Orange County: 3 candidate(s), 1 selected, activities: construction_financing:1; debt_financing:1; joint_venture:1.
 - Connect CRE South Florida: 3 candidate(s), 1 selected, activities: construction_financing:1; debt_financing:1; acquisition:1.
 - Commercial Observer: 2 candidate(s), 2 selected, activities: construction_financing:1; debt_financing:1.

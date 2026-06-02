@@ -1,6 +1,6 @@
 # 한국어 LA 자산 / 프로젝트 Watch
 
-- 생성 시각: 2026-06-02 02:11:12
+- 생성 시각: 2026-06-02 04:03:08
 - 참고 원문 파일: `la_asset_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -11,11 +11,11 @@
 - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Los Angeles, 아파트, 점수 100 (Entitlement / Planning; Track entitlement docket, density bonus use, and affordability requirement)
 - Entitlement / Permitting - Los Angeles / California - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown: Los Angeles, 어포더블 하우징, 점수 100 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
 - Entitlement / Permitting - Los Angeles / California - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Los Angeles, 아파트, 점수 100 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
+- Entitlement / Permitting - Los Angeles / California - Venice Dell affordable housing project notches legal win: Los Angeles, 어포더블 하우징, 점수 100 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
 - Disposition / Exit - Los Angeles / California - Covina Apartments Trade on In-Place Cash Flow, Rental Upside: Los Angeles, 아파트, 점수 100 (Unknown; Monitor asset for repeated local confirmation)
 - Entitlement / Permitting - Santa Monica / California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Los Angeles, 아파트, 점수 100 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
 - JV / Partnership - Riverside / California - PCCP, Alliance Residential Buy 184-Unit Multifamily Community in Riverside, California: Los Angeles, 아파트, 점수 100 (Unknown; Monitor asset for repeated local confirmation)
-- JV / Partnership - Riverside / California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: Los Angeles, 아파트, 점수 100 (Delivered / Lease-Up; Monitor asset for repeated local confirmation)
-- Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Los Angeles, 아파트, 점수 100 (Site Controlled; Monitor asset for repeated local confirmation)
+- Entitlement / Permitting - San Francisco / California - Demolition Permits Filed For 860-880 McAllister Street, San Francisco: Los Angeles, 시니어 하우징, 점수 100 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
 
 ## 프로젝트 / 부지 단서
 

@@ -1,6 +1,6 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-06-02 02:11:17
+Generated: 2026-06-02 04:03:12
 
 - GP/developer candidates reviewed: 35
 - Tier 1 Strategic GPs: 0

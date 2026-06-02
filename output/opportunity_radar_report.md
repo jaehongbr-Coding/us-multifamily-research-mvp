@@ -1,6 +1,6 @@
 # Opportunity Radar Report
 
-Generated: 2026-06-02 02:11:21
+Generated: 2026-06-02 04:03:15
 
 - Total opportunities detected: 56
 
@@ -41,7 +41,7 @@ Generated: 2026-06-02 02:11:21
 
 - Refinancing Gap in Sarasota / Florida: Refinancing - Sarasota / Florida - Berkadia Secures $82.1M Loan to Refinance Class A Multifamily Asset in Sarasota County Flo..., score 88. Add to executive opportunity review.
 - Refinancing Gap in Washington DC: Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF, score 83. Add to executive opportunity review.
-- Refinancing Gap in Miami / Florida: Refinancing - Miami / Florida - Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables an..., score 79. Track debt stack, maturity, lender, and recapitalization details.
+- Refinancing Gap in Miami / Florida: Refinancing - Miami / Florida - Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables an..., score 80. Add to executive opportunity review.
 - Refinancing Gap in Atlanta / Georgia: Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi, score 57. Track debt stack, maturity, lender, and recapitalization details.
 
 ## BTR / SFR Opportunities
@@ -62,10 +62,10 @@ Generated: 2026-06-02 02:11:21
 - Recapitalization Opportunity in California: Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties, score 88. Add to executive opportunity review.
 - Recapitalization Opportunity in California: Recapitalization - California - PEF Advisors with Freestone Capital Form Joint Venture to Recapitalize Affordable Housing..., score 87. Add to executive opportunity review.
 - Office-to-Residential Conversion Opportunity in Los Angeles / California: Office-to-Residential Conversion - Los Angeles / California - L.A. Mayor Karen Bass On Fast-Tracking Housing and Reviving Downtown, score 78. Monitor for repeated signals.
-- LA / California Entitlement Opportunity in Los Angeles / California: Entitlement / Permitting - Los Angeles / California - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown, score 63. Review entitlement, zoning, permitting, and local sponsor context.
-- LA / California Entitlement Opportunity in Los Angeles / California: Entitlement / Permitting - Los Angeles / California - Venice Dell affordable housing project notches legal win, score 63. Review entitlement, zoning, permitting, and local sponsor context.
+- LA / California Entitlement Opportunity in Los Angeles / California: Entitlement / Permitting - Los Angeles / California - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown, score 64. Review entitlement, zoning, permitting, and local sponsor context.
+- LA / California Entitlement Opportunity in Los Angeles / California: Entitlement / Permitting - Los Angeles / California - Venice Dell affordable housing project notches legal win, score 64. Review entitlement, zoning, permitting, and local sponsor context.
 - Office-to-Residential Conversion Opportunity in New York: Office-to-Residential Conversion - New York - Partnership Breaks Ground on $147M Affordable Housing Redevelopment in Poughkeepsie, New Y..., score 62. Monitor for repeated signals.
-- JV / Partnership Gap in Santa Monica / California: JV / Partnership - Santa Monica / California - RAND reviews ULA impacts, Mayor's race focuses on housing, and more, score 60. Map GP, capital partner, and relationship history.
+- JV / Partnership Gap in Santa Monica / California: JV / Partnership - Santa Monica / California - RAND reviews ULA impacts, Mayor's race focuses on housing, and more, score 61. Map GP, capital partner, and relationship history.
 - Affordable / Workforce Housing Opportunity in National: General Project Signal - National - Lument Closes $28M Loan for Ohio Multifamily Property, score 55. Monitor for repeated signals.
 
 ## Potential GP Partnership Opportunities
@@ -77,7 +77,7 @@ Generated: 2026-06-02 02:11:21
 - GP Capability Partnership Opportunity in Atlanta / Georgia: Disposition / Exit - Atlanta / Georgia - Charlotte Apartment Project Fetches $107M, score 83. Add to executive opportunity review.
 - GP Capability Partnership Opportunity in Los Angeles / California: Disposition / Exit - Los Angeles / California - Covina Apartments Trade on In-Place Cash Flow, Rental Upside, score 80. Add to executive opportunity review.
 - GP Capability Partnership Opportunity in New York City / New York: General Project Signal - New York City / New York - Avison Young Arranges $404M Permanent Loan for Iconic 479-Unit Multifamily Building The Ar..., score 79. Map GP, capital partner, and relationship history.
-- GP Capability Partnership Opportunity in Other / Unknown: Disposition / Exit - Other / Unknown - Marcus & Millichap Arranges Sale of 24-Unit Multifamily Property Lake Country Apartments i..., score 76. Map GP, capital partner, and relationship history.
+- GP Capability Partnership Opportunity in Other / Unknown: Disposition / Exit - Other / Unknown - Marcus & Millichap Arranges Sale of 24-Unit Multifamily Property Lake Country Apartments i..., score 77. Map GP, capital partner, and relationship history.
 - GP Capability Partnership Opportunity in National: General Project Signal - National - Walker & Dunlop Leads $16.5B Fannie Mae Lending Market, score 71. Map GP, capital partner, and relationship history.
 - GP Capability Partnership Opportunity in Other / Unknown: Disposition / Exit - Other / Unknown - Newly Constructed Mid-Rise Multifamily Property Across from University of Chicago Hits the..., score 70. Map GP, capital partner, and relationship history.
 

@@ -1,6 +1,6 @@
 # Real Asset & Parcel Intelligence Report
 
-Generated: 2026-06-02 02:11:23
+Generated: 2026-06-02 04:03:17
 
 - Total asset / parcel signals: 83
 
@@ -12,8 +12,8 @@ Generated: 2026-06-02 02:11:23
 - Entitlement / Permitting - Santa Monica / California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Entitlement Play, 1238 Lincoln Blvd, asset_opportunity_score 98.
 - Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Refinancing / Recapitalization, Washington Dc, asset_opportunity_score 97.
 - Disposition / Exit - Los Angeles / California - Covina Apartments Trade on In-Place Cash Flow, Rental Upside: General Asset Signal, Los Angeles, asset_opportunity_score 96.
+- Entitlement / Permitting - Los Angeles / California - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown: Entitlement Play, 549 S. Harvard Blvd, asset_opportunity_score 95.
 - General Project Signal - New York City / New York - Avison Young Arranges $404M Permanent Loan for Iconic 479-Unit Multifamily Building The Ar...: General Asset Signal, 666 Greenwich Street, asset_opportunity_score 95.
-- Entitlement / Permitting - Los Angeles / California - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown: Entitlement Play, 549 S. Harvard Blvd, asset_opportunity_score 94.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: General Asset Signal, California, asset_opportunity_score 93.
 - Disposition / Exit - Other / Unknown - Marcus & Millichap Arranges Sale of 24-Unit Multifamily Property Lake Country Apartments i...: General Asset Signal, Unknown, asset_opportunity_score 93.
 
@@ -28,7 +28,7 @@ Generated: 2026-06-02 02:11:23
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, South Florida, asset_risk_score 47.
 - Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi: Refinancing / Recapitalization, Atlanta, asset_risk_score 46.
 - Office-to-Residential Conversion - New York - Partnership Breaks Ground on $147M Affordable Housing Redevelopment in Poughkeepsie, New Y...: Office-to-Residential Conversion, New York, asset_risk_score 44.
-- Refinancing - Miami / Florida - Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables an...: Refinancing / Recapitalization, Miami, asset_risk_score 40.
+- Refinancing - Miami / Florida - Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables an...: Refinancing / Recapitalization, Miami, asset_risk_score 41.
 
 ## Assets With Address / Location Clues
 
@@ -38,8 +38,8 @@ Generated: 2026-06-02 02:11:23
 - Entitlement / Permitting - Santa Monica / California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Entitlement Play, 1238 Lincoln Blvd, asset_opportunity_score 98.
 - Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Refinancing / Recapitalization, Washington Dc, asset_opportunity_score 97.
 - Disposition / Exit - Los Angeles / California - Covina Apartments Trade on In-Place Cash Flow, Rental Upside: General Asset Signal, Los Angeles, asset_opportunity_score 96.
+- Entitlement / Permitting - Los Angeles / California - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown: Entitlement Play, 549 S. Harvard Blvd, asset_opportunity_score 95.
 - General Project Signal - New York City / New York - Avison Young Arranges $404M Permanent Loan for Iconic 479-Unit Multifamily Building The Ar...: General Asset Signal, 666 Greenwich Street, asset_opportunity_score 95.
-- Entitlement / Permitting - Los Angeles / California - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown: Entitlement Play, 549 S. Harvard Blvd, asset_opportunity_score 94.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: General Asset Signal, California, asset_opportunity_score 93.
 - Office-to-Residential Conversion - Los Angeles / California - Mayor Bass: Adaptive Reuse Key to Revitalizing Downtown LA: Office-to-Residential Conversion, Los Angeles, asset_opportunity_score 90.
 
@@ -70,7 +70,7 @@ Generated: 2026-06-02 02:11:23
 - Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Refinancing / Recapitalization, Washington Dc, asset_risk_score 48.
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, South Florida, asset_risk_score 47.
 - Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi: Refinancing / Recapitalization, Atlanta, asset_risk_score 46.
-- Refinancing - Miami / Florida - Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables an...: Refinancing / Recapitalization, Miami, asset_risk_score 40.
+- Refinancing - Miami / Florida - Baron Property Group Secures Pre-Development Financing for Merrick Parc in Coral Gables an...: Refinancing / Recapitalization, Miami, asset_risk_score 41.
 - General Project Signal - Miami / Florida - S. Florida Ritz-Carlton Developer Inks $401M Bridge Loan: Refinancing / Recapitalization, South Florida, asset_risk_score 28.
 - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, 6075 Sunset Drive, asset_risk_score 18.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Refinancing / Recapitalization, California, asset_risk_score 5.
@@ -85,7 +85,7 @@ Generated: 2026-06-02 02:11:23
 
 ## Affordable / Density Bonus Asset Signals
 
-- Entitlement / Permitting - Los Angeles / California - Venice Dell affordable housing project notches legal win: Affordable / Density Bonus Strategy, Los Angeles, asset_opportunity_score 84.
+- Entitlement / Permitting - Los Angeles / California - Venice Dell affordable housing project notches legal win: Affordable / Density Bonus Strategy, Los Angeles, asset_opportunity_score 85.
 - Demolition Permits Filed For 860-880 McAllister Street, San Francisco: Affordable / Density Bonus Strategy, 860-880 McAllister Street, asset_opportunity_score 71.
 
 ## Implications for Woomi / Woomi Global
@@ -101,8 +101,8 @@ Generated: 2026-06-02 02:11:23
 - Track entitlement, permit, density bonus, and construction-readiness milestones: Entitlement / Permitting - Santa Monica / California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica.
 - Review acquisition, financing, ownership, and comparable transaction details: Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF.
 - Monitor asset-level signal for repeated confirmation: Disposition / Exit - Los Angeles / California - Covina Apartments Trade on In-Place Cash Flow, Rental Upside.
-- Monitor asset-level signal for repeated confirmation: General Project Signal - New York City / New York - Avison Young Arranges $404M Permanent Loan for Iconic 479-Unit Multifamily Building The Ar....
 - Track entitlement, permit, density bonus, and construction-readiness milestones: Entitlement / Permitting - Los Angeles / California - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown.
+- Monitor asset-level signal for repeated confirmation: General Project Signal - New York City / New York - Avison Young Arranges $404M Permanent Loan for Iconic 479-Unit Multifamily Building The Ar....
 
 
 

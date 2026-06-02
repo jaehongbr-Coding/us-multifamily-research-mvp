@@ -1,6 +1,6 @@
 # Narrative Regime Detection
 
-Generated: 2026-06-02 02:11:14
+Generated: 2026-06-02 04:03:11
 
 ## Detected Regime
 
@@ -48,8 +48,8 @@ Regime momentum is available in `regime_momentum_report.md` when previous heatma
 - Institutional Flow: 18
 - Financing Risk: 14
 - Regulation Risk: 7
-- Supply Pressure: 3
 - Rent Growth / Demand: 3
+- Supply Pressure: 3
 
 ### Market Signals
 
@@ -64,17 +64,17 @@ Regime momentum is available in `regime_momentum_report.md` when previous heatma
 - Track Institutional Capital Flow: 18
 - Track Financing Conditions: 14
 - Track Regulation Risk: 7
-- Track Supply Pipeline: 3
 - Track Rent / Vacancy Trend: 3
+- Track Supply Pipeline: 3
 
 ### Market Focus
 
 - Los Angeles / California: 8
 - Other / Unknown: 6
 - California: 4
-- Riverside / California: 2
+- Santa Monica / California: 2
 - Washington DC: 2
-- New York: 2
+- Houston / Texas: 2
 
 ### Action Levels
 

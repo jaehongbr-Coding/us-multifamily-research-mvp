@@ -1,6 +1,6 @@
 # LA / Southern California Asset Watch Report
 
-Generated: 2026-06-02 02:11:23
+Generated: 2026-06-02 04:03:17
 
 - Total LA / Southern California asset watch items: 57
 
@@ -11,11 +11,11 @@ Generated: 2026-06-02 02:11:23
 - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
 - Entitlement / Permitting - Los Angeles / California - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
 - Entitlement / Permitting - Los Angeles / California - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
+- Entitlement / Permitting - Los Angeles / California - Venice Dell affordable housing project notches legal win: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 100.
 - Disposition / Exit - Los Angeles / California - Covina Apartments Trade on In-Place Cash Flow, Rental Upside: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
 - Entitlement / Permitting - Santa Monica / California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
 - JV / Partnership - Riverside / California - PCCP, Alliance Residential Buy 184-Unit Multifamily Community in Riverside, California: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
-- JV / Partnership - Riverside / California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: Los Angeles, Lease-Up / Delivery, la_asset_opportunity_score 100.
-- Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Los Angeles, Acquisition / Site Control, la_asset_opportunity_score 100.
+- Entitlement / Permitting - San Francisco / California - Demolition Permits Filed For 860-880 McAllister Street, San Francisco: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
 
 ## Top LA Site-Level Risks
 
@@ -64,9 +64,9 @@ Generated: 2026-06-02 02:11:23
 - Disposition / Exit - Los Angeles / California - Covina Apartments Trade on In-Place Cash Flow, Rental Upside: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
 - Entitlement / Permitting - Santa Monica / California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
 - JV / Partnership - Riverside / California - PCCP, Alliance Residential Buy 184-Unit Multifamily Community in Riverside, California: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
+- Entitlement / Permitting - San Francisco / California - Demolition Permits Filed For 860-880 McAllister Street, San Francisco: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
 - JV / Partnership - Riverside / California - PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex: Los Angeles, Lease-Up / Delivery, la_asset_opportunity_score 100.
 - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica: Los Angeles, Acquisition / Site Control, la_asset_opportunity_score 100.
-- Entitlement / Permitting - San Francisco / California - Demolition Permits Filed For 860-880 McAllister Street, San Francisco: Los Angeles, Entitlement Play, la_asset_opportunity_score 99.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: Los Angeles, General Asset Signal, la_asset_opportunity_score 98.
 
 ## Recommended LA Asset Follow-up Actions
@@ -76,9 +76,9 @@ Generated: 2026-06-02 02:11:23
 - Track entitlement docket, density bonus use, and affordability requirement: Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills.
 - Track entitlement docket, density bonus use, and affordability requirement: Entitlement / Permitting - Los Angeles / California - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown.
 - Track entitlement docket, density bonus use, and affordability requirement: Entitlement / Permitting - Los Angeles / California - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills.
+- Track entitlement docket, density bonus use, and affordability requirement: Entitlement / Permitting - Los Angeles / California - Venice Dell affordable housing project notches legal win.
 - Monitor asset for repeated local confirmation: Disposition / Exit - Los Angeles / California - Covina Apartments Trade on In-Place Cash Flow, Rental Upside.
 - Track entitlement docket, density bonus use, and affordability requirement: Entitlement / Permitting - Santa Monica / California - Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica.
-- Monitor asset for repeated local confirmation: JV / Partnership - Riverside / California - PCCP, Alliance Residential Buy 184-Unit Multifamily Community in Riverside, California.
 
 
 

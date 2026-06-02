@@ -1,6 +1,6 @@
 # Executive Dashboard Brief
 
-Generated: 2026-06-02 02:11:12
+Generated: 2026-06-02 04:03:08
 
 ## Executive Snapshot
 
@@ -13,16 +13,16 @@ Generated: 2026-06-02 02:11:12
 
 ## Top 5 Things to Review Today
 
+- Alliance Residential (Capital Flow, Critical): Track capital flow pattern and related relationships.
 - Arizona (Capital Flow, Critical): Track capital flow pattern and related relationships.
-- Atlanta / Georgia (Capital Flow, Critical): Track capital flow pattern and related relationships.
 - Atlanta / Georgia (Capital Flow, Critical): Track capital flow pattern and related relationships.
 - Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF (LA Asset Watch, Critical): Track lender, maturity, owner, and recapitalization path.
 - Entitlement / Permitting - Los Angeles / California - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown (LA Asset Watch, Critical): Track entitlement docket, density bonus use, and affordability requirement.
 
 ## Immediate Watch Items
 
+- Alliance Residential: Stable Action: Track capital flow pattern and related relationships.
 - Arizona: Fading Action: Track capital flow pattern and related relationships.
-- Atlanta / Georgia: Stable Action: Track capital flow pattern and related relationships.
 - Atlanta / Georgia: Stable Action: Track capital flow pattern and related relationships.
 - Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Review acquisition comparables Action: Track lender, maturity, owner, and recapitalization path.
 - Entitlement / Permitting - Los Angeles / California - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
@@ -30,15 +30,15 @@ Generated: 2026-06-02 02:11:12
 ## LA / California Watch
 
 - Atlanta / Georgia: Stable Action: Track capital flow pattern and related relationships.
-- Atlanta / Georgia: Stable Action: Track capital flow pattern and related relationships.
 - Construction Financing - Washington DC - Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF: Review acquisition comparables Action: Track lender, maturity, owner, and recapitalization path.
 - Entitlement / Permitting - Los Angeles / California - 150 apartments debut at 549 S. Harvard Blvd. in Koreatown: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
 - Entitlement / Permitting - Los Angeles / California - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
+- Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
 
 ## GP / Capital Partner Watch
 
+- Alliance Residential: Stable Action: Track capital flow pattern and related relationships.
 - Arizona: Fading Action: Track capital flow pattern and related relationships.
-- Atlanta / Georgia: Stable Action: Track capital flow pattern and related relationships.
 - Atlanta / Georgia: Stable Action: Track capital flow pattern and related relationships.
 - Alliance Residential: California / LA strategic positioning Action: Track JV and capital partner activity.
 - PCCP: California / LA strategic positioning Action: Track JV and capital partner activity.
@@ -61,8 +61,8 @@ Generated: 2026-06-02 02:11:12
 
 ## Capital Flow Watch
 
+- Alliance Residential: Stable Action: Track capital flow pattern and related relationships.
 - Arizona: Fading Action: Track capital flow pattern and related relationships.
-- Atlanta / Georgia: Stable Action: Track capital flow pattern and related relationships.
 - Atlanta / Georgia: Stable Action: Track capital flow pattern and related relationships.
 
 ## Source Health Notes

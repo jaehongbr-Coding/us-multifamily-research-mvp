@@ -1,6 +1,6 @@
 # Deal Fingerprint Report
 
-Generated: 2026-06-02 02:11:17
+Generated: 2026-06-02 04:03:12
 
 - Total canonical deals detected: 60
 - Duplicate clusters detected: 0

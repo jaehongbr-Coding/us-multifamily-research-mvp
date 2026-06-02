@@ -1,6 +1,6 @@
 # LA Persistent Asset Watch Report
 
-Generated: 2026-06-02 02:11:25
+Generated: 2026-06-02 04:03:19
 
 - Total LA persistent asset watch items: 119
 
@@ -13,8 +13,8 @@ Generated: 2026-06-02 02:11:25
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: California, Unknown Stage, Track repeat project updates.
 - Office-to-Residential Conversion - Los Angeles / California - L.A. Mayor Karen Bass On Fast-Tracking Housing and Reviving Downtown: Los Angeles, Unknown Stage, Track repeat project updates.
 - Recapitalization - California - PEF Advisors with Freestone Capital Form Joint Venture to Recapitalize Affordable Housing...: California, Refinancing / Recapitalization, Track repeat project updates.
-- Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
 - Entitlement / Permitting - Los Angeles / California - Infill housing slated for 349 N. Oakhurst Ave. in Beverly Hills: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
+- Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
 - Entitlement / Permitting - Los Angeles / California - New plan unveiled for West Hollywood's Melrose Triangle development: Los Angeles, Unknown Stage, Track repeat project updates.
 
 ## Koreatown / Wilshire Persistent Assets

@@ -1,10 +1,10 @@
 # US Multifamily Daily Strategy Briefing
 
-Generated: 2026-06-02 02:11:13
+Generated: 2026-06-02 04:03:08
 
 ## Hero Market View
 
-오늘 시장은 California 관찰을 중심으로 financing / refinancing 부담이 반복 관찰되는 모습입니다. 동시에 기관 자본 흐름도 보조 신호로 확인됩니다. 오늘 새 evidence에서는 JV / partnership 신호 · 인허가 / entitlement 흐름 · office-to-residential 전환이 함께 관찰됩니다. 투자 결론보다는 source 다양성, 실제 거래/개발 evidence, 반복 노출 여부를 함께 확인해야 합니다.
+오늘 시장은 California 관찰을 중심으로 financing / refinancing 부담이 반복 관찰되는 모습입니다. 동시에 기관 자본 흐름도 보조 신호로 확인됩니다. 오늘 새 evidence에서는 JV / partnership 신호 · platform 또는 sponsor 확장 · 인허가 / entitlement 흐름이 함께 관찰됩니다. 투자 결론보다는 source 다양성, 실제 거래/개발 evidence, 반복 노출 여부를 함께 확인해야 합니다.
 
 ## Why It Matters
 
@@ -42,8 +42,8 @@ Generated: 2026-06-02 02:11:13
 
 ## Representative Evidence
 
-- PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex (Connect CRE California, Riverside / California): JV or partnership activity; institutional acquisition behavior
-- Adam Neumann’s Flow Makes First West Coast Acquisition (Connect CRE Apartments, California): sponsor expansion; institutional acquisition behavior
-- PCCP, Alliance Residential Buy 184-Unit Multifamily Community in Riverside, California (REBusiness Online, Riverside / California): JV or partnership activity; institutional acquisition behavior
-- Basis Investment Group Secures $43M Refinancing for Newly Built Philadelphia MF (Connect CRE, Washington DC): lease-up or absorption behavior; large-scale refinance tied to strategy
-- Partnership Breaks Ground on $147M Affordable Housing Redevelopment in Poughkeepsie, New York (REBusiness Online, New York): JV or partnership activity
+- Updated plan for apartments at 1238 Lincoln Blvd. in Santa Monica (Urbanize LA, Santa Monica / California): sponsor expansion; entitlement persistence; classification confidence penalty
+- St. John Properties, Somerset Companies Break Ground on $148M Maryland MF Project (Connect CRE Apartments, Washington DC): JV or partnership activity
+- Metro breaks ground on North Hollywood - Pasadena BRT line (Urbanize LA, Los Angeles / California): entitlement persistence
+- SAGE Arranges $21.5M Sale of Northern New Jersey Apartment Building (REBusiness Online, Other / Unknown): institutional acquisition behavior
+- Town Lane Picks Up 186-Bed League City Sr. Living Facility (Connect CRE Texas, Houston / Texas): institutional acquisition behavior

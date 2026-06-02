@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import argparse
 import shutil
+import sys
 import time
 from datetime import datetime
 from pathlib import Path
@@ -30,7 +31,6 @@ OUTPUT_DIR = BASE_DIR / "output"
 DAILY_QA_DIR = OUTPUT_DIR / "daily_qa"
 QUALITY_REPORT = OUTPUT_DIR / "run_quality_check_report.md"
 QA_PROMPT = DAILY_QA_DIR / "qa_prompt.md"
-CAPTURE_MANIFEST = DAILY_QA_DIR / "capture_manifest.md"
 
 APP_URL = "http://localhost:8501"
 
@@ -139,108 +139,32 @@ def locator_count(locator) -> int:
         return 0
 
 
-def expand_sidebar_if_needed(page) -> str:
-    """Best-effort expansion for Streamlit sidebars that start collapsed."""
-    selectors = [
-        '[data-testid="collapsedControl"]',
-        '[data-testid="stSidebarCollapsedControl"]',
-        'button[aria-label*="Open sidebar"]',
-        'button[aria-label*="open sidebar"]',
-        'button[aria-label*="Expand sidebar"]',
-        'button[title*="sidebar"]',
-    ]
-    for selector in selectors:
-        control = page.locator(selector)
-        if locator_count(control) > 0:
-            try:
-                control.first.click(timeout=3000)
-                page.wait_for_timeout(1000)
-                return f"expanded sidebar via {selector}"
-            except Exception:
-                continue
+def click_page(page, target: dict) -> tuple[bool, str]:
     sidebar = page.locator('[data-testid="stSidebar"]')
-    if locator_count(sidebar) > 0:
-        try:
-            if sidebar.first.is_visible(timeout=1000):
-                return "sidebar already visible"
-        except Exception:
-            pass
-    return "sidebar expansion control not found"
-
-
-def click_by_label(page, target: dict) -> tuple[bool, str]:
-    sidebar = page.locator('[data-testid="stSidebar"]')
-    label_candidates = list(target["label_candidates"])
-    if target.get("slug") == "01_today_briefing":
-        label_candidates = ["오늘의 브리핑", "오늘", "브리핑"] + label_candidates
-    for label in label_candidates:
+    for label in target["label_candidates"]:
         candidates = [
             sidebar.get_by_text(label, exact=True),
             sidebar.get_by_text(label, exact=False),
             page.get_by_role("radio", name=label, exact=False),
-            page.get_by_text(label, exact=True),
-            page.get_by_text(label, exact=False),
         ]
         for candidate in candidates:
             if locator_count(candidate) > 0:
                 try:
-                    candidate.first.click(timeout=6000, force=True)
+                    candidate.first.click(timeout=6000)
                     return True, f"clicked label candidate: {label}"
                 except Exception:
                     continue
-    return False, "page label was not found in the sidebar"
 
-
-def click_radio_by_index(page, target: dict) -> tuple[bool, str]:
-    """Click the requested page radio by index, independent of label text."""
     index = target.get("radio_index")
-    if index is None:
-        return False, "no radio_index configured for this page"
-
-    sidebar = page.locator('[data-testid="stSidebar"]')
-    if locator_count(sidebar) == 0:
-        return False, "sidebar locator not found"
-
-    errors: list[str] = []
-    radiogroups = sidebar.locator('[role="radiogroup"]')
-    group_count = locator_count(radiogroups)
-    for group_idx in range(group_count - 1, -1, -1):
-        group = radiogroups.nth(group_idx)
-        for selector in ['[role="radio"]', 'label', 'div[role="radio"]']:
-            options = group.locator(selector)
-            if locator_count(options) > index:
-                try:
-                    options.nth(index).click(timeout=6000, force=True)
-                    return True, f"clicked radiogroup {group_idx} option index {index}"
-                except Exception as exc:
-                    errors.append(f"radiogroup {group_idx} {selector}: {exc}")
-
-    for selector in [
-        '[data-testid="stSidebar"] [role="radio"]',
-        '[data-testid="stSidebar"] label',
-    ]:
-        options = page.locator(selector)
-        if locator_count(options) > index:
+    if index is not None:
+        radios = sidebar.locator('[role="radio"]')
+        if locator_count(radios) > index:
             try:
-                options.nth(index).click(timeout=6000, force=True)
-                return True, f"clicked {selector} index {index}"
+                radios.nth(index).click(timeout=6000)
+                return True, f"clicked sidebar radio index: {index}"
             except Exception as exc:
-                errors.append(f"{selector}: {exc}")
-
-    reason = "; ".join(errors[-3:]) if errors else f"no sidebar radio option found at index {index}"
-    return False, reason
-
-
-def click_page(page, target: dict) -> tuple[bool, str, str]:
-    label_clicked, label_reason = click_by_label(page, target)
-    if label_clicked:
-        return True, "label", label_reason
-
-    index_clicked, index_reason = click_radio_by_index(page, target)
-    if index_clicked:
-        return True, "radio_index", index_reason
-
-    return False, "missing", f"{label_reason}; radio_index fallback failed: {index_reason}"
+                return False, f"radio index fallback failed: {exc}"
+    return False, "page label was not found in the sidebar"
 
 
 def capture_pages(url: str, timeout_seconds: int, viewport_width: int, viewport_height: int) -> list[dict]:
@@ -266,31 +190,23 @@ def capture_pages(url: str, timeout_seconds: int, viewport_width: int, viewport_
         page = context.new_page()
         page.goto(url, wait_until="domcontentloaded", timeout=timeout_seconds * 1000)
         page.wait_for_timeout(3000)
-        sidebar_note = expand_sidebar_if_needed(page)
 
         for target in PAGES:
-            clicked, click_method, note = click_page(page, target)
+            clicked, note = click_page(page, target)
+            screenshot_path = DAILY_QA_DIR / f"{target['slug']}_{timestamp}.png"
             if clicked:
                 page.wait_for_timeout(3500)
-                screenshot_path = DAILY_QA_DIR / f"{target['slug']}_{timestamp}.png"
                 page.screenshot(path=str(screenshot_path), full_page=True)
                 status = "captured"
-                failure_reason = ""
             else:
-                page.wait_for_timeout(1000)
-                screenshot_path = DAILY_QA_DIR / f"missing_{target['slug']}_{timestamp}.png"
-                page.screenshot(path=str(screenshot_path), full_page=True)
-                status = "diagnostic"
-                failure_reason = note
+                status = "missing"
+                screenshot_path = None
             results.append({
                 "name": target["name"],
                 "slug": target["slug"],
                 "status": status,
-                "path": str(screenshot_path),
-                "click_method": click_method,
+                "path": str(screenshot_path) if screenshot_path else "",
                 "note": note,
-                "failure_reason": failure_reason,
-                "sidebar_note": sidebar_note,
             })
 
         context.close()
@@ -299,63 +215,36 @@ def capture_pages(url: str, timeout_seconds: int, viewport_width: int, viewport_
     return results
 
 
-def write_capture_manifest(capture_results: list[dict]) -> None:
-    lines = [
-        "# Streamlit Capture Manifest",
-        "",
-        f"- Generated at: {datetime.now().isoformat(timespec='seconds')}",
-        f"- Output folder: {DAILY_QA_DIR}",
-        "",
-        "| Page | Status | Screenshot | Click method | Failure reason |",
-        "| --- | --- | --- | --- | --- |",
-    ]
-    for result in capture_results:
-        screenshot = Path(result["path"]).name if result.get("path") else ""
-        lines.append(
-            "| "
-            f"{result.get('name', '')} | "
-            f"{result.get('status', '')} | "
-            f"{screenshot} | "
-            f"{result.get('click_method', '')} | "
-            f"{result.get('failure_reason', '') or result.get('note', '')} |"
-        )
-    CAPTURE_MANIFEST.write_text("\n".join(lines) + "\n", encoding="utf-8")
-
-
 def write_qa_prompt(capture_results: list[dict]) -> None:
     quality_copy = copy_quality_report()
     report_summary = summarize_quality_report()
-    write_capture_manifest(capture_results)
     lines = [
         "# Daily QA Review Prompt",
         "",
         f"- Generated at: {datetime.now().isoformat(timespec='seconds')}",
         f"- Streamlit URL: {APP_URL}",
         f"- Quality report copy: {quality_copy.name if quality_copy else 'missing'}",
-        f"- Capture manifest: {CAPTURE_MANIFEST.name}",
         "",
-        "## Screenshot Files",
+        "## 오늘 캡쳐 파일 목록",
     ]
     for result in capture_results:
-        screenshot_name = Path(result["path"]).name if result.get("path") else "no screenshot"
-        lines.append(
-            f"- {result['name']}: {result['status']} | `{screenshot_name}` | "
-            f"method={result.get('click_method', '')} | "
-            f"reason={result.get('failure_reason', '')}"
-        )
+        if result["status"] == "captured":
+            lines.append(f"- {result['name']}: `{Path(result['path']).name}`")
+        else:
+            lines.append(f"- {result['name']}: MISSING ({result['note']})")
 
     lines.extend([
         "",
-        "## run_quality_check_report.md Summary",
+        "## run_quality_check_report.md 요약",
         *report_summary,
         "",
-        "## Human Review Checklist",
-        "1. Article Feed section routing errors",
-        "2. Transaction or market articles mixed into Development Activity",
-        "3. Project development articles routed too heavily into GP/Capital",
-        "4. Source/Market/Stage missing values",
-        "5. Repeated copy or low-value briefing text",
-        "6. Missing Site/Parcel candidates",
+        "## 사람이 검토해야 할 체크리스트",
+        "1. 기사모음 section routing 오류",
+        "2. Development Activity에 거래/시장기사가 섞였는지",
+        "3. GP/Capital에 project 개발기사가 과도하게 들어갔는지",
+        "4. Source/Market/Stage missing 여부",
+        "5. 반복 문구나 무의미한 briefing 문구",
+        "6. Site/Parcel 후보 누락 여부",
         "",
         "아래 캡쳐와 리포트를 보고 수정 제안만 작성하고, 코드 수정은 승인 전까지 하지 말 것",
     ])
@@ -377,15 +266,12 @@ def main() -> int:
     results = capture_pages(args.url, args.timeout, args.viewport_width, args.viewport_height)
     write_qa_prompt(results)
     captured = sum(1 for result in results if result["status"] == "captured")
-    diagnostic = sum(1 for result in results if result["status"] == "diagnostic")
-    missing = len(results) - captured - diagnostic
+    missing = len(results) - captured
     print(f"Saved daily QA files under: {DAILY_QA_DIR}")
     print(f"Captured pages: {captured}")
-    print(f"Diagnostic screenshots: {diagnostic}")
-    print(f"Missing pages without screenshot: {missing}")
-    print(f"Capture manifest: {CAPTURE_MANIFEST}")
+    print(f"Missing pages: {missing}")
     print(f"QA prompt: {QA_PROMPT}")
-    return 0 if captured or diagnostic else 1
+    return 0 if captured else 1
 
 
 if __name__ == "__main__":

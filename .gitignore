@@ -1,4 +1,6 @@
 __pycache__/
+**/__pycache__/
+*.pyc
 *.py[cod]
 *.pyo
 
@@ -19,7 +21,6 @@ env/
 *.bak
 ~$*
 
-# Keep generated intelligence outputs for now.
-!output/*.csv
-!output/*.md
-!output/runs/
+# Generated runtime outputs
+output/
+articles.csv

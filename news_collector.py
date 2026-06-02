@@ -2487,15 +2487,55 @@ def get_primary_display_section(article):
         "permits", "construction spending", "survey", "index", "forecast",
         "research", "data that matters",
     ])
-    development_hit = article.get("development_stage") not in ["", "none"] or find_matches(text, [
-        "entitlement", "permit", "zoning", "planning commission", "density bonus",
-        "construction start", "broke ground", "under construction", "delivery",
-        "opened", "lease-up", "modular", "office-to-residential", "adaptive reuse",
-        "law", "bill", "mandate", "development approval", "starts", "begins",
-        "breaks ground", "construction", "build", "to build", "purchased site",
-        "acquired land", "land assemblage", "vacant site", "targeting site",
-        "plans to build", "renovation", "repositioning", "rebrand", "transformation",
+    generic_policy_or_market_noise = find_matches(text, [
+        "rand reviews", "generic policy review", "mayor's race", "mayor race",
+        "mayor discussion", "rent growth", "construction spending",
+        "market report", "cap rate benchmark", "data that matters",
+        "chief economist",
     ])
+    development_execution_hit = find_matches(text, [
+        "breaks ground", "broke ground", "starts construction", "construction starts",
+        "construction start", "delivers", "delivered", "opens", "opened",
+        "completed", "completes", "begins leasing", "lease-up",
+    ])
+    development_approval_hit = find_matches(text, [
+        "entitlement", "entitled", "zoning", "rezoning", "permit filed",
+        "permits filed", "permit", "planning commission", "approved",
+        "final approval", "density bonus", "ceqa", "hud review",
+    ])
+    development_site_hit = find_matches(text, [
+        "acquired land", "land assemblage", "purchased site", "development site",
+        "vacant site", "entitled site", "site control", "parcel", "to build",
+        "plans to build", "developer eyeing", "targeting site", "wants to build",
+        "planning to build",
+    ])
+    development_strategy_hit = find_matches(text, [
+        "redevelopment", "adaptive reuse", "office-to-residential", "conversion",
+        "renovation", "repositioning",
+    ])
+    strong_transaction_hit = find_matches(text, [
+        "disposition", "sells", "sale", "acquired", "acquisition", "buys",
+        "buyer", "seller", "refinance", "refinancing", "loan", "financing",
+        "debt", "mortgage", "cap rate", "brokered", "brokerage",
+        "arranged sale", "secured loan", "provides loan", "closes loan",
+    ])
+    strong_development_hit = bool(
+        development_execution_hit
+        or development_approval_hit
+        or development_site_hit
+        or development_strategy_hit
+        or article.get("development_stage") not in ["", "none"]
+    )
+    development_transaction_excluded = bool(strong_transaction_hit and not (
+        development_execution_hit
+        or development_approval_hit
+        or development_site_hit
+    ))
+    development_hit = (
+        strong_development_hit
+        and not development_transaction_excluded
+        and not (generic_policy_or_market_noise and not title_development_event_hit)
+    )
     capital_hit = (
         article.get("capital_event_type") not in ["", "none"]
         or article.get("financing_type") not in ["", "none"]
@@ -2521,10 +2561,13 @@ def get_primary_display_section(article):
     if macro_finance_only:
         primary = "Market Intelligence"
         reason = "macro finance or rate outlook signal detected"
+    elif generic_policy_or_market_noise and not title_development_event_hit:
+        primary = "Market Intelligence"
+        reason = "generic policy, market, or research article excluded from Development Activity"
     elif market_protection_hit and not title_capital_event_hit and not title_development_event_hit and not deal_financing_hit:
         primary = "Market Intelligence"
         reason = "market, macro, research, or supply-demand article without confirmed deal or project event"
-    elif asset_strategy_hit and not deal_financing_hit:
+    elif asset_strategy_hit and not deal_financing_hit and not development_transaction_excluded:
         primary = "Development Activity"
         reason = "renovation, repositioning, redevelopment, or asset strategy signal detected"
     elif deal_financing_hit:
@@ -2536,6 +2579,12 @@ def get_primary_display_section(article):
     elif title_capital_event_hit and capital_hit:
         primary = "GP / Capital Activity"
         reason = "headline-level GP, transaction, financing, or capital event detected"
+    elif development_transaction_excluded and capital_hit:
+        primary = "GP / Capital Activity"
+        reason = "transaction or financing article excluded from Development Activity"
+    elif development_transaction_excluded and market_hit:
+        primary = "Market Intelligence"
+        reason = "market or policy article excluded from Development Activity by transaction guard"
     elif development_hit:
         primary = "Development Activity"
         reason = "development milestone or entitlement signal has display priority"
@@ -18807,16 +18856,28 @@ PRIMARY_DEVELOPMENT_CATEGORY_LABELS = {
 
 PRIMARY_CONSTRUCTION_TERMS = [
     "broke ground", "breaks ground", "construction started", "starts construction",
-    "under construction", "vertical construction", "wood framing", "framing takes shape", "topping out",
+    "construction starts", "construction start", "under construction", "vertical construction", "wood framing", "framing takes shape", "topping out",
     "topped out", "opening", "opens", "completed", "completion", "delivered",
-    "delivery", "lease-up", "occupancy", "move-ins", "absorption",
+    "delivers", "delivery", "debuts", "begins leasing", "lease-up", "occupancy", "move-ins",
 ]
 PRIMARY_APPROVAL_TERMS = [
     "permit", "permits", "permitting", "entitlement", "entitled", "zoning",
     "rezoning", "planning commission", "approved", "approval", "ceqa",
     "environmental review", "hud review", "density bonus", "affordable overlay",
-    "conditional approval", "final approval", "final okay", "town approval",
-    "still needs approval", "planning review", "commission review",
+    "permit filed", "permits filed", "conditional approval", "final approval", "final okay", "town approval",
+    "still needs approval", "planning review", "commission review", "proposed",
+    "developer eyeing",
+]
+PRIMARY_EXCLUDED_TRANSACTION_TERMS = [
+    "disposition", "sells", "sale", "acquired", "acquisition", "buys",
+    "buyer", "seller", "refinance", "refinancing", "loan", "financing",
+    "debt", "mortgage", "cap rate", "brokered", "brokerage",
+    "arranged sale", "secured loan", "provides loan", "closes loan",
+]
+PRIMARY_GENERIC_POLICY_MARKET_TERMS = [
+    "rand reviews", "generic policy review", "market report", "mayor discussion",
+    "rent growth", "absorption", "construction spending", "cap rate benchmark",
+    "data that matters", "chief economist", "outlook", "survey", "index",
 ]
 PRIMARY_EXCLUDED_FINANCE_TERMS = [
     "refinancing", "recapitalization", "bridge loan", "construction loan",
@@ -18830,12 +18891,13 @@ SITE_PARCEL_STRONG_TERMS = [
     "parcel acquired", "assemblage", "land assemblage", "entitled site",
     "proposed on site", "build-to-rent site", "planned multifamily site",
     "proposed multifamily site", "development parcel", "multifamily development site",
-    "mixed-use development site",
+    "mixed-use development site", "vacant site", "site control", "parcel",
 ]
 
 SITE_PARCEL_TO_BUILD_TERMS = [
     "to build", "plans to build", "planned to build", "proposes to build",
-    "seeks to build", "will build",
+    "seeks to build", "will build", "wants to build", "planning to build",
+    "developer eyeing", "targeting site",
 ]
 
 OPERATING_ASSET_TRANSACTION_TERMS = [
@@ -18874,11 +18936,28 @@ def site_parcel_positive_signal(lower_text, lower_headline):
     for term in SITE_PARCEL_STRONG_TERMS:
         if term in blob:
             return term
+    acres_to_build = re.search(r"\b\d+(?:\.\d+)?\s+acres?\b", blob) and any(
+        term in blob for term in SITE_PARCEL_TO_BUILD_TERMS + ["proposed development"]
+    )
+    if acres_to_build:
+        return "acres plus build plan"
     if any(term in blob for term in SITE_PARCEL_TO_BUILD_TERMS) and any(
         term in blob for term in ["community", "project", "rental", "apartments", "homes", "units", "development"]
     ):
         return "to build development project"
     return ""
+
+
+def is_generic_policy_or_market_development_noise(lower_text, lower_headline):
+    """Detect generic policy, market, or unreadable articles that should not become development rows."""
+    blob = f"{lower_headline} {lower_text}"
+    if any(term in blob for term in PRIMARY_GENERIC_POLICY_MARKET_TERMS):
+        return True
+    if any(term in blob for term in ["market report", "rent growth", "construction spending", "absorption"]):
+        return True
+    if "mayor" in blob and not any(term in blob for term in PRIMARY_APPROVAL_TERMS + PRIMARY_CONSTRUCTION_TERMS + SITE_PARCEL_STRONG_TERMS):
+        return True
+    return False
 
 
 def classify_primary_development_category(text, headline=""):
@@ -18888,7 +18967,13 @@ def classify_primary_development_category(text, headline=""):
     matched_construction = next((term for term in PRIMARY_CONSTRUCTION_TERMS if term in lower_text), "")
     matched_approval = next((term for term in PRIMARY_APPROVAL_TERMS if term in lower_text), "")
     matched_site = site_parcel_positive_signal(lower_text, lower_headline)
+    headline_development_hit = any(
+        term in lower_headline
+        for term in PRIMARY_CONSTRUCTION_TERMS + PRIMARY_APPROVAL_TERMS + SITE_PARCEL_STRONG_TERMS + SITE_PARCEL_TO_BUILD_TERMS
+    )
     matched_finance = next((term for term in PRIMARY_EXCLUDED_FINANCE_TERMS if term in lower_text), "")
+    matched_transaction = next((term for term in PRIMARY_EXCLUDED_TRANSACTION_TERMS if term in f"{lower_headline} {lower_text}"), "")
+    generic_policy_noise = is_generic_policy_or_market_development_noise(lower_text, lower_headline)
     transaction_override = has_operating_asset_transaction_signal(lower_text, lower_headline)
     disposition_only = any(term in lower_text for term in ["disposition", "sale of operating asset"])
     operating_asset_acquisition = (
@@ -18896,20 +18981,28 @@ def classify_primary_development_category(text, headline=""):
         and any(term in lower_headline for term in ["acquires", "acquired", "buys", "purchase"])
         and not any(term in lower_headline for term in ["development site", "parcel", "land", "redevelopment"])
     )
+    if generic_policy_noise and not headline_development_hit and not matched_site:
+        return "excluded", "excluded generic policy / market article"
+    if matched_transaction and not headline_development_hit and not matched_site:
+        return "excluded", f"transaction / capital guard: {matched_transaction}"
     if matched_construction:
         return "construction_delivery_watch", f"matched {matched_construction}"
-    if transaction_override and not matched_site:
-        return "excluded", "transaction override: operating asset sale/acquisition"
     if matched_approval:
         return "approval_watch", f"matched {matched_approval}"
+    if matched_transaction and not matched_site:
+        return "excluded", f"transaction / capital guard: {matched_transaction}"
+    if transaction_override and not matched_site:
+        return "excluded", "transaction override: operating asset sale/acquisition"
     if operating_asset_acquisition:
         return "excluded", "transaction override: operating-asset acquisition"
-    if transaction_override and matched_site and matched_site in {"to build development project"}:
-        return "site_parcel_activity", f"site acquisition signal: {matched_site}"
-    if transaction_override:
-        return "excluded", "transaction override: completed asset transaction"
     if matched_site:
         return "site_parcel_activity", f"site acquisition signal: {matched_site}"
+    if any(term in lower_text for term in ["redevelopment", "adaptive reuse", "office-to-residential", "conversion"]):
+        return "construction_delivery_watch", "matched development / asset strategy execution"
+    if any(term in lower_text for term in ["renovation", "repositioning"]) and not matched_transaction:
+        return "construction_delivery_watch", "matched execution-tied renovation / repositioning"
+    if transaction_override:
+        return "excluded", "transaction override: completed asset transaction"
     if matched_finance:
         return "excluded", f"excluded financing-only article: {matched_finance}"
     if disposition_only:

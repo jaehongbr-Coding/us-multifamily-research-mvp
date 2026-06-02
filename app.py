@@ -8615,13 +8615,14 @@ DEVELOPMENT_CATEGORY_TERMS = {
         "permit", "permitting", "entitlement", "zoning", "rezoning", "ceqa",
         "hud review", "density bonus", "approval", "planning commission",
         "environmental review", "affordable overlay", "conditional approval",
+        "final approval", "approved", "proposed", "developer eyeing",
     ],
     "construction": [
         "wood framing", "framing takes shape", "vertical construction",
         "construction started", "starts construction", "construction start",
         "broke ground", "breaks ground", "under construction", "topping out",
         "topped out", "delivery", "delivered", "opening", "opened",
-        "completion", "completed", "lease-up", "lease up", "occupancy",
+        "completion", "completed", "debuts", "lease-up", "lease up", "occupancy",
         "move-ins", "absorption",
     ],
     "site": [
@@ -8636,6 +8637,33 @@ DEVELOPMENT_EXCLUSION_TERMS = {
     "construction_financing": ["construction financing", "construction loan", "bridge loan"],
     "non_site_acquisition": ["lease-up", "lease up", "completion", "delivered", "delivery"],
 }
+
+DEVELOPMENT_TRANSACTION_EXCLUSION_TERMS = [
+    "disposition", "sells", "sale", "acquired", "acquisition", "buys",
+    "buyer", "seller", "refinance", "refinancing", "loan", "financing",
+    "debt", "mortgage", "cap rate", "brokered", "brokerage",
+    "arranged sale", "secured loan", "provides loan", "closes loan",
+]
+
+DEVELOPMENT_EXECUTION_ALLOW_TERMS = [
+    "breaks ground", "broke ground", "starts construction", "construction starts",
+    "construction start", "delivers", "delivered", "opens", "completed",
+    "completes", "begins leasing", "lease-up", "permit filed", "permits filed",
+    "entitled", "final approval", "approved", "planning commission", "site plan",
+    "proposed", "planned development", "developer eyeing", "to build", "plans to build",
+]
+
+SITE_PARCEL_REQUIRED_TERMS = [
+    "acquired land", "purchased site", "land assemblage", "development site",
+    "vacant site", "site control", "parcel", "acres", "developer eyeing",
+    "targeting site", "wants to build", "planning to build", "to build",
+    "plans to build", "proposed development",
+]
+
+DEVELOPMENT_GENERIC_NOISE_TERMS = [
+    "rand reviews", "generic policy review", "market report", "mayor discussion",
+    "rent growth", "absorption", "construction spending", "cap rate benchmark",
+]
 
 PRIMARY_DEVELOPMENT_CATEGORY_MAP = {
     "approval_watch": "approval",
@@ -8768,7 +8796,12 @@ def classify_primary_development_category(row):
     """Assign exactly one development category, or exclude the article from this page."""
     upstream_category = str(row.get("primary_development_category", "") or "").strip()
     if upstream_category in PRIMARY_DEVELOPMENT_CATEGORY_MAP:
-        return PRIMARY_DEVELOPMENT_CATEGORY_MAP[upstream_category]
+        mapped = PRIMARY_DEVELOPMENT_CATEGORY_MAP[upstream_category]
+        if mapped == "site":
+            blob_for_site = text_blob(row)
+            if not has_any_term(blob_for_site, SITE_PARCEL_REQUIRED_TERMS):
+                return ""
+        return mapped
     blob = text_blob(row)
     headline = str(row.get("title") or row.get("source_article_title") or row.get("evidence_article_title") or "").lower()
     operating_transaction_terms = [
@@ -8811,6 +8844,13 @@ def classify_primary_development_category(row):
     transaction_topic = str(row.get("primary_topic", "") or "").strip().lower() in {
         "transaction_market", "capital_markets", "institutional_capital", "gp_activity"
     }
+    generic_noise = has_any_term(blob, DEVELOPMENT_GENERIC_NOISE_TERMS)
+    strong_transaction = has_any_term(blob, DEVELOPMENT_TRANSACTION_EXCLUSION_TERMS)
+    explicit_development = has_any_term(blob, DEVELOPMENT_EXECUTION_ALLOW_TERMS)
+    if generic_noise and not explicit_development:
+        return ""
+    if strong_transaction and not explicit_development:
+        return ""
     if has_any_term(blob, DEVELOPMENT_EXCLUSION_TERMS["refinancing"]):
         return ""
     has_execution = has_any_term(blob, DEVELOPMENT_CATEGORY_TERMS["construction"])
@@ -8828,7 +8868,7 @@ def classify_primary_development_category(row):
         return "approval"
     if transaction_override and not to_build_signal:
         return ""
-    if has_site and not has_any_term(blob, DEVELOPMENT_EXCLUSION_TERMS["non_site_acquisition"]):
+    if has_site and not has_any_term(blob, DEVELOPMENT_EXCLUSION_TERMS["non_site_acquisition"]) and has_any_term(blob, SITE_PARCEL_REQUIRED_TERMS):
         return "site"
     return ""
 

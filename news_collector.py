@@ -61,6 +61,7 @@ EXECUTIVE_PRIORITIES_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "executive_prioritie
 STRATEGY_SCENARIOS_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "strategy_scenarios.csv")
 REGIONAL_INTELLIGENCE_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "regional_intelligence.csv")
 GP_INTELLIGENCE_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "gp_intelligence.csv")
+GP_ENTITY_QUALITY_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "gp_entity_quality_report.md")
 INSTITUTIONAL_RELATIONSHIPS_OUTPUT_FILE = os.path.join(
     OUTPUT_DIR,
     "institutional_relationships.csv",
@@ -1941,6 +1942,17 @@ ARTICLE_CLASSIFICATION_FIELDS = [
     "gp_capital_repeat_status",
     "gp_capital_exclusion_reason",
     "gp_capital_selected_flag",
+    "lead_entity",
+    "counterparties",
+    "entity_extraction_method",
+    "entity_extraction_confidence",
+    "entity_extraction_reason",
+    "gp_or_developer",
+    "lender_or_capital_partner",
+    "capital_provider",
+    "institutional_partner",
+    "lead_sponsor",
+    "jv_partner",
     "primary_topic",
     "secondary_topic",
     "capital_event_type",
@@ -2700,10 +2712,12 @@ def apply_gp_capital_diagnostic_fields(articles):
             article["gp_capital_repeat_status"] = "not_candidate"
             article["gp_capital_exclusion_reason"] = "not a GP / capital candidate"
             article["gp_capital_selected_flag"] = "No"
+            apply_gp_capital_entity_fields(article)
             continue
 
         activity_type = classify_gp_capital_activity_type(article)
         article["gp_capital_activity_type"] = activity_type
+        apply_gp_capital_entity_fields(article)
         reasons = []
         low_relevance = safe_int(article.get("relevance_score")) < 55 and safe_int(article.get("representative_evidence_score")) < 40
         integrity_issue = article.get("article_integrity_status") != "valid"
@@ -9063,9 +9077,17 @@ GP_TRACKING_UNIVERSE = [
     "Equity Residential",
     "Brookfield",
     "Blackstone",
+    "Berkshire Hathaway",
     "Kennedy Wilson",
+    "PCCP",
     "Mavrek",
     "Crescent Communities",
+    "Basis Investment Group",
+    "PEF Advisors",
+    "Freestone Capital",
+    "Benefit Street Partners",
+    "PNC Bank",
+    "Merchants Capital",
     "Quarterra",
     "LivCor",
     "Carmel Partners",
@@ -9078,6 +9100,31 @@ GP_TRACKING_UNIVERSE = [
     "Waterton",
     "Harbor Group International",
     "CIM Group",
+    "IPA",
+    "Avison Young",
+    "JLL",
+    "CBRE",
+    "Greystone",
+    "Dwight Mortgage Trust",
+    "Affinius Capital",
+    "29th Street Living",
+    "Bridge Investment Group",
+    "Ares Management",
+    "Scion Group",
+    "National Equity Fund",
+    "Ballast",
+    "Bascom Group",
+    "Standard Real Estate Investments",
+    "Berkadia",
+    "Walker & Dunlop",
+    "Marcus & Millichap",
+    "Capital Square",
+    "BHI",
+    "SAGE",
+    "Essex Realty Group",
+    "MacFarlane Partners",
+    "Fannie Mae",
+    "Freddie Mac",
     "Mack Real Estate Group",
     "Tishman Speyer",
     "RXR",
@@ -9092,7 +9139,274 @@ GP_ALIASES = {
     "PMG": ["pmg"],
     "JPI": ["jpi"],
     "GID": ["gid"],
+    "IPA": ["ipa", "institutional property advisors"],
+    "PCCP": ["pccp"],
+    "PNC Bank": ["pnc", "pnc bank"],
+    "29th Street Living": ["29th street living", "twenty ninth street living"],
+    "Bascom Group": ["bascom", "the bascom group"],
+    "Walker & Dunlop": ["walker & dunlop", "walker and dunlop"],
+    "Marcus & Millichap": ["marcus & millichap", "marcus and millichap"],
+    "BHI": ["bhi"],
+    "SAGE": ["sage"],
 }
+
+CAPITAL_ENTITY_DICTIONARY = unique_list(GP_TRACKING_UNIVERSE + [
+    "Institutional Property Advisors",
+])
+
+CAPITAL_ENTITY_LEGAL_SUFFIXES = [
+    "Capital", "Partners", "Group", "Residential", "Investment Group", "Investments",
+    "Advisors", "Bank", "Trust", "Management", "Living", "Real Estate", "Equity Fund",
+    "Mortgage Trust", "Property Company", "Communities", "Companies",
+]
+
+CAPITAL_ENTITY_EVENT_VERBS = [
+    "acquires", "acquire", "acquired", "buys", "buy", "purchases", "purchased",
+    "sells", "sold", "trades", "provides", "secures", "secured", "lends",
+    "refis", "refinances", "refinanced", "finances", "forms", "partners",
+    "assumes", "recapitalizes", "recaps", "raises", "closes", "arranges",
+]
+
+CAPITAL_ENTITY_STOP_PHRASES = {
+    "apartments", "apartment", "multifamily", "housing", "property", "properties",
+    "portfolio", "community", "communities", "complex", "project", "site",
+    "development", "loan", "financing", "refi", "refinancing", "sale",
+    "acquisition", "units", "unit", "btr", "build to rent", "built to rent",
+}
+
+
+def capital_entity_text_parts(article):
+    """Return title-first text surfaces for capital entity extraction."""
+    return [
+        article.get("title", ""),
+        article.get("summary", ""),
+        article.get("article_text_sample", ""),
+        article.get("matched_keywords", ""),
+        article.get("reason_for_inclusion", ""),
+        article.get("market_signal", ""),
+        article.get("gpt_strategic_analysis", ""),
+    ]
+
+
+def clean_extracted_entity_name(value):
+    """Normalize an extracted firm name and reject obvious asset descriptors."""
+    candidate = re.sub(r"\s+", " ", str(value or "")).strip(" \t\r\n-,:;|.()[]")
+    candidate = re.sub(r"^(?:the|a|an)\s+", "", candidate, flags=re.IGNORECASE)
+    candidate = re.sub(r"\s+(?:and|&)\s*$", "", candidate, flags=re.IGNORECASE).strip(" -,:;|.")
+    if not candidate:
+        return ""
+    lowered = candidate.lower()
+    if re.match(r"^\d", candidate):
+        return ""
+    if any(noisy in lowered for noisy in ["facebook twitter linkedin", "lending market residential"]):
+        return ""
+    if lowered in CAPITAL_ENTITY_STOP_PHRASES:
+        return ""
+    if len(candidate) > 90:
+        return ""
+    words = candidate.split()
+    is_acronym = bool(re.fullmatch(r"[A-Z0-9&.]{2,}", candidate))
+    is_dictionary_entity = any(
+        re.sub(r"[^a-z0-9]+", " ", entity.lower()).strip()
+        == re.sub(r"[^a-z0-9]+", " ", candidate.lower()).strip()
+        for entity in CAPITAL_ENTITY_DICTIONARY
+    )
+    has_entity_suffix = any(suffix.lower() in lowered for suffix in CAPITAL_ENTITY_LEGAL_SUFFIXES)
+    if is_dictionary_entity or is_acronym or has_entity_suffix:
+        return candidate
+    return ""
+
+
+def match_dictionary_capital_entities(article):
+    """Return dictionary entities found in title, summary, or source text."""
+    text = " ".join(capital_entity_text_parts(article))
+    lowered = text.lower()
+    matches = []
+    for entity in CAPITAL_ENTITY_DICTIONARY:
+        aliases = get_gp_aliases(entity) if entity in GP_TRACKING_UNIVERSE else [entity.lower()]
+        first_position = None
+        for alias in aliases:
+            if not alias:
+                continue
+            pattern = r"(?<![a-z0-9])" + re.escape(alias.lower()) + r"(?![a-z0-9])"
+            match = re.search(pattern, lowered)
+            if match:
+                first_position = match.start() if first_position is None else min(first_position, match.start())
+        if first_position is not None:
+            matches.append((first_position, entity))
+    return unique_list(entity for _, entity in sorted(matches, key=lambda item: item[0]))
+
+
+def extract_title_capital_entities(title):
+    """Infer lead/counterparty names from headline grammar."""
+    clean_title = re.sub(r"\s+", " ", str(title or "")).strip()
+    if not clean_title:
+        return []
+    entities = []
+    verb_group = "|".join(re.escape(verb) for verb in CAPITAL_ENTITY_EVENT_VERBS)
+    lead_match = re.search(
+        rf"^([A-Z0-9][A-Za-z0-9&.,' -]{{1,100}}?)\s+(?:{verb_group})\b",
+        clean_title,
+        flags=re.IGNORECASE,
+    )
+    if lead_match:
+        lead_part = lead_match.group(1)
+        split_parts = re.split(r"\s+(?:and|&)\s+", lead_part)
+        for part in split_parts:
+            entity = clean_extracted_entity_name(part)
+            if entity:
+                entities.append(entity)
+    partner_match = re.search(
+        r"\b(?:with|from|to|by|for)\s+([A-Z0-9][A-Za-z0-9&.,' -]{1,90}?)(?:\s+(?:on|for|in|at|near|with|to|from)\b|$|[,;:|-])",
+        clean_title,
+    )
+    if partner_match:
+        entity = clean_extracted_entity_name(partner_match.group(1))
+        if entity:
+            entities.append(entity)
+    return unique_list(entities)
+
+
+def extract_capital_event_sentence_entities(article):
+    """Extract entity candidates from sentences around capital-event keywords."""
+    text = " ".join(capital_entity_text_parts(article))
+    sentences = re.split(r"(?<=[.!?])\s+|\s+[|]\s+", text)
+    event_pattern = re.compile(
+        r"\b(?:acquires?|buys?|purchases?|sells?|sale|trades?|provides?|secures?|lends?|loan|financing|refinancing|refis|joint venture|jv|partners?|assumes management|operator|recapitalization|recap|capital raise)\b",
+        flags=re.IGNORECASE,
+    )
+    candidates = []
+    entity_pattern = re.compile(
+        r"\b([A-Z0-9][A-Za-z0-9&.'-]*(?:\s+[A-Z0-9][A-Za-z0-9&.'-]*){0,5}\s+(?:Capital|Partners|Group|Residential|Investments?|Advisors|Bank|Trust|Management|Living|Real Estate|Fund|Mortgage Trust|Property Company|Communities|Companies))\b"
+    )
+    for sentence in sentences[:8]:
+        if not event_pattern.search(sentence):
+            continue
+        for match in entity_pattern.finditer(sentence):
+            entity = clean_extracted_entity_name(match.group(1))
+            if entity:
+                candidates.append(entity)
+    return unique_list(candidates)
+
+
+def choose_lead_entity_for_activity(entities, activity_type):
+    """Pick the lead participant using event-type-specific hints."""
+    if not entities:
+        return "", []
+    if activity_type in {"debt_financing", "refinancing", "construction_financing", "acquisition_financing", "lender_activity"}:
+        lender_terms = ("bank", "capital", "mortgage", "trust", "partners", "greystone", "merchants")
+        for entity in entities:
+            if any(term in entity.lower() for term in lender_terms):
+                return entity, [item for item in entities if item != entity]
+    return entities[0], [item for item in entities[1:] if item != entities[0]]
+
+
+def filter_subsumed_entity_candidates(entities):
+    """Remove noisy longer candidates that merely extend a cleaner entity name."""
+    filtered = []
+    normalized_entities = [
+        (entity, re.sub(r"[^a-z0-9]+", " ", str(entity).lower()).strip())
+        for entity in entities
+    ]
+    dictionary_norms = {
+        re.sub(r"[^a-z0-9]+", " ", str(entity).lower()).strip()
+        for entity in CAPITAL_ENTITY_DICTIONARY
+    }
+    for entity, normalized in normalized_entities:
+        if not normalized:
+            continue
+        is_dictionary_entity = normalized in dictionary_norms
+        is_subsumed = any(
+            other_normalized != normalized
+            and other_normalized in dictionary_norms
+            and (
+                normalized.startswith(other_normalized + " ")
+                or other_normalized.startswith(normalized + " ")
+            )
+            for other_entity, other_normalized in normalized_entities
+            if other_entity != entity and other_normalized
+        )
+        if is_dictionary_entity or not is_subsumed:
+            filtered.append(entity)
+    return unique_list(filtered)
+
+
+def extract_gp_capital_entities(article):
+    """Extract lead entity/counterparties for GP-capital article rows."""
+    activity_type = article.get("gp_capital_activity_type") or classify_gp_capital_activity_type(article)
+    dictionary_matches = match_dictionary_capital_entities(article)
+    title_matches = extract_title_capital_entities(article.get("title", ""))
+    sentence_matches = extract_capital_event_sentence_entities(article)
+    candidates = filter_subsumed_entity_candidates(unique_list(dictionary_matches + title_matches + sentence_matches))
+
+    if candidates:
+        if dictionary_matches:
+            method = "dictionary_match"
+            confidence = "high"
+            reason = "Matched known institutional / GP entity in title, summary, or source text."
+        elif title_matches:
+            method = "title_lead_pattern"
+            confidence = "medium"
+            reason = "Inferred entity from headline lead segment and capital-event verb."
+        else:
+            method = "capital_event_sentence"
+            confidence = "medium"
+            reason = "Inferred entity from source text near capital-event language."
+        lead_entity, counterparties = choose_lead_entity_for_activity(candidates, activity_type)
+        return {
+            "lead_entity": lead_entity,
+            "counterparties": "; ".join(counterparties),
+            "entity_extraction_method": method,
+            "entity_extraction_confidence": confidence,
+            "entity_extraction_reason": reason,
+        }
+
+    title_fallback = extract_title_capital_entities(article.get("title", ""))
+    if title_fallback:
+        lead_entity, counterparties = choose_lead_entity_for_activity(title_fallback, activity_type)
+        return {
+            "lead_entity": lead_entity,
+            "counterparties": "; ".join(counterparties),
+            "entity_extraction_method": "title_fallback",
+            "entity_extraction_confidence": "low",
+            "entity_extraction_reason": "Low-confidence entity candidate from title only.",
+        }
+
+    return {
+        "lead_entity": "Participant not identified",
+        "counterparties": "",
+        "entity_extraction_method": "unresolved",
+        "entity_extraction_confidence": "unresolved",
+        "entity_extraction_reason": "No institution name detected in dictionary, title, summary, or source text.",
+    }
+
+
+def apply_gp_capital_entity_fields(article):
+    """Populate article-level entity fields for downstream CSVs and app cards."""
+    if not is_gp_capital_candidate(article):
+        for field in [
+            "lead_entity", "counterparties", "entity_extraction_method",
+            "entity_extraction_confidence", "entity_extraction_reason",
+            "gp_or_developer", "lead_sponsor", "lender_or_capital_partner",
+            "capital_provider", "institutional_partner", "jv_partner",
+        ]:
+            article.setdefault(field, "")
+        return article
+    extracted = extract_gp_capital_entities(article)
+    article.update(extracted)
+    lead_entity = extracted.get("lead_entity", "")
+    counterparties = extracted.get("counterparties", "")
+    if lead_entity and lead_entity != "Participant not identified":
+        article["gp_or_developer"] = article.get("gp_or_developer") or lead_entity
+        article["lead_sponsor"] = article.get("lead_sponsor") or lead_entity
+    if counterparties:
+        article["capital_provider"] = article.get("capital_provider") or counterparties.split("; ")[0]
+        article["institutional_partner"] = article.get("institutional_partner") or counterparties
+        article["jv_partner"] = article.get("jv_partner") or counterparties
+    if article.get("gp_capital_activity_type") in {"debt_financing", "refinancing", "construction_financing", "acquisition_financing", "lender_activity"}:
+        if lead_entity and lead_entity != "Participant not identified":
+            article["lender_or_capital_partner"] = article.get("lender_or_capital_partner") or lead_entity
+    return article
 
 GP_ACTIVITY_KEYWORDS = {
     "acquisition": ["acquire", "acquisition", "buy", "purchase", "purchased"],
@@ -9128,6 +9442,25 @@ def article_matches_gp(article, gp_name):
     ]).lower()
 
     return any(alias in text for alias in get_gp_aliases(gp_name))
+
+
+def article_matches_capital_entity(article, entity_name):
+    """Return True when an article was extracted or matched to a capital entity."""
+    if not entity_name:
+        return False
+    extracted_entities = split_labels("; ".join([
+        article.get("lead_entity", ""),
+        article.get("counterparties", ""),
+        article.get("gp_or_developer", ""),
+        article.get("capital_provider", ""),
+        article.get("lender_or_capital_partner", ""),
+        article.get("institutional_partner", ""),
+        article.get("jv_partner", ""),
+    ]))
+    normalized_entity = normalize_entity_text(entity_name)
+    if any(normalize_entity_text(value) == normalized_entity for value in extracted_entities):
+        return True
+    return article_matches_gp(article, entity_name)
 
 
 def detect_gp_activity_types(articles):
@@ -9319,11 +9652,17 @@ def build_gp_intelligence_rows(
 ):
     """Build GP/developer intelligence rows from the current article set."""
     rows = []
+    extracted_entities = [
+        article.get("lead_entity", "")
+        for article in articles
+        if article.get("lead_entity") and article.get("lead_entity") != "Participant not identified"
+    ]
+    firm_universe = unique_list(GP_TRACKING_UNIVERSE + extracted_entities)
 
-    for gp_name in GP_TRACKING_UNIVERSE:
+    for gp_name in firm_universe:
         gp_articles = [
             article for article in articles
-            if article_matches_gp(article, gp_name)
+            if article_matches_capital_entity(article, gp_name)
         ]
 
         if not gp_articles:
@@ -9380,6 +9719,16 @@ def build_gp_intelligence_rows(
             "extracted_market_reason": representative_article.get("extracted_market_reason", ""),
             "gp_name": gp_name,
             "canonical_gp_name": canonicalize_entity(gp_name, "Developer / GP")["canonical_entity"],
+            "lead_entity": gp_name,
+            "counterparties": "; ".join(unique_list(
+                counterparty
+                for article in gp_articles
+                for counterparty in split_labels(article.get("counterparties", ""))
+                if counterparty and normalize_entity_text(counterparty) != normalize_entity_text(gp_name)
+            )),
+            "entity_extraction_method": most_common_plain_value(gp_articles, "entity_extraction_method", ""),
+            "entity_extraction_confidence": most_common_plain_value(gp_articles, "entity_extraction_confidence", ""),
+            "entity_extraction_reason": most_common_plain_value(gp_articles, "entity_extraction_reason", ""),
             "residential_sector": most_common_plain_value(gp_articles, "residential_sector", "General Residential"),
             "activity_type": "; ".join(activity_types),
             "market_focus": market_focus,
@@ -9493,6 +9842,11 @@ def generate_gp_intelligence_outputs(
         "extracted_market_reason",
         "gp_name",
         "canonical_gp_name",
+        "lead_entity",
+        "counterparties",
+        "entity_extraction_method",
+        "entity_extraction_confidence",
+        "entity_extraction_reason",
         "residential_sector",
         "activity_type",
         "market_focus",
@@ -9680,6 +10034,89 @@ def generate_gp_intelligence_outputs(
             row for row in gp_rows
             if row["potential_implication_for_woomi"] == "potential JV partnership signal"
         ],
+    }
+
+
+def generate_gp_entity_quality_report(articles, dated_output_dir):
+    """Write QA metrics for GP / Capital entity extraction."""
+    gp_articles = [
+        article for article in articles
+        if is_gp_capital_candidate(article)
+    ]
+    unresolved = [
+        article for article in gp_articles
+        if article.get("lead_entity") == "Participant not identified"
+        or article.get("entity_extraction_method") == "unresolved"
+    ]
+    dictionary_matches = [
+        article for article in gp_articles
+        if article.get("entity_extraction_method") == "dictionary_match"
+    ]
+    title_fallbacks = [
+        article for article in gp_articles
+        if article.get("entity_extraction_method") in {"title_lead_pattern", "title_fallback"}
+    ]
+    low_confidence = [
+        article for article in gp_articles
+        if article.get("entity_extraction_confidence") in {"low", "unresolved"}
+    ]
+    resolved_samples = [
+        article for article in gp_articles
+        if article.get("lead_entity")
+        and article.get("lead_entity") != "Participant not identified"
+    ][:10]
+
+    lines = [
+        "# GP / Capital Entity Quality Report",
+        "",
+        f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+        "",
+        "## Summary",
+        "",
+        f"- Total GP/Capital articles: {len(gp_articles)}",
+        f"- Participant not identified: {len(unresolved)}",
+        f"- Dictionary match: {len(dictionary_matches)}",
+        f"- Title fallback / headline extraction: {len(title_fallbacks)}",
+        f"- Low confidence or unresolved: {len(low_confidence)}",
+        "",
+        "## Representative Resolved Samples",
+        "",
+    ]
+    if resolved_samples:
+        for article in resolved_samples:
+            lines.append(
+                f"- {article.get('lead_entity', '')}: {article.get('title', 'Untitled')} "
+                f"({article.get('entity_extraction_method', '')}, {article.get('entity_extraction_confidence', '')})"
+            )
+    else:
+        lines.append("- No resolved GP/Capital entity samples.")
+    lines.extend([
+        "",
+        "## Unresolved Examples",
+        "",
+    ])
+    if unresolved:
+        for article in unresolved[:10]:
+            lines.append(
+                f"- {article.get('title', 'Untitled')} | "
+                f"{article.get('source', 'Unknown source')} | "
+                f"{article.get('entity_extraction_reason', '')}"
+            )
+    else:
+        lines.append("- No unresolved GP/Capital entity examples.")
+    lines.append("")
+
+    write_markdown_outputs(
+        GP_ENTITY_QUALITY_REPORT_OUTPUT_FILE,
+        lines,
+        dated_output_dir,
+    )
+    return {
+        "gp_capital_article_count": len(gp_articles),
+        "participant_not_identified_count": len(unresolved),
+        "dictionary_match_count": len(dictionary_matches),
+        "title_fallback_count": len(title_fallbacks),
+        "low_confidence_count": len(low_confidence),
     }
 
 
@@ -9875,7 +10312,7 @@ def build_institutional_relationship_rows(run_timestamp, articles, gp_rows):
         firm_name = gp_row["gp_name"]
         firm_articles = [
             article for article in articles
-            if article_matches_gp(article, firm_name)
+            if article_matches_capital_entity(article, firm_name)
         ]
 
         if not firm_articles:
@@ -25328,6 +25765,10 @@ def save_to_csv(articles):
             relationship_rows,
             unique_deal_rows,
             graph_rows,
+        )
+        gp_entity_quality_summary = generate_gp_entity_quality_report(
+            articles,
+            dated_output_dir,
         )
         relationship_summary = generate_institutional_relationship_outputs(
             relationship_rows,

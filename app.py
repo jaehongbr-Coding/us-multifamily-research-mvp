@@ -14015,7 +14015,11 @@ def infer_capital_entity_from_title(title):
         "PNC Bank", "IPA", "Institutional Property Advisors", "Dwight Mortgage Trust",
         "Benefit Street Partners", "Affinius Capital", "29th Street Living",
         "JBG SMITH", "Scion Group", "Ares Management", "Wood Partners",
-        "Avison Young", "Bascom", "RXR",
+        "Avison Young", "Bascom", "RXR", "Berkshire Hathaway", "PCCP",
+        "Alliance Residential", "Basis Investment Group", "PEF Advisors",
+        "Freestone Capital", "Merchants Capital", "Bridge Investment Group",
+        "Brookfield", "Blackstone", "National Equity Fund", "Ballast",
+        "Bascom Group", "Standard Real Estate Investments",
     ]
     lowered = clean_title.lower()
     for entity in known_entities:
@@ -14027,9 +14031,11 @@ def infer_capital_entity_from_title(title):
 def capital_event_entity(event):
     """Return the best available entity label without falling back to noisy placeholders."""
     title = event.get("event_title", "") if isinstance(event, dict) else ""
-    for field in ["lead_sponsor", "capital_provider", "lender", "jv_partner", "developer", "sponsor"]:
+    for field in ["lead_entity", "lead_sponsor", "capital_provider", "lender", "jv_partner", "developer", "sponsor"]:
         value = clean_capital_entity(event.get(field, "")) if isinstance(event, dict) else ""
         if value:
+            if event.get("entity_extraction_confidence") == "low":
+                return f"Entity candidate: {value}"
             return value
     inferred = infer_capital_entity_from_title(title)
     return inferred or "Participant not identified"
@@ -14111,9 +14117,11 @@ def build_capital_events(shared):
                 item = row.to_dict()
                 title = get_title(item)
                 url = get_url(item)
-                sponsor = clean_capital_entity(get_first(item, ["gp_or_developer", "canonical_gp_name", "firm_name", "lead_sponsor", "developer", "sponsor"], ""))
+                lead_entity = clean_capital_entity(get_first(item, ["lead_entity"], ""))
+                counterparties = clean_capital_entity(get_first(item, ["counterparties"], ""))
+                sponsor = clean_capital_entity(get_first(item, ["lead_entity", "gp_or_developer", "canonical_gp_name", "firm_name", "lead_sponsor", "developer", "sponsor"], ""))
                 lender = clean_capital_entity(get_first(item, ["lender_or_capital_partner", "lender", "capital_provider"], ""))
-                capital_provider = clean_capital_entity(get_first(item, ["capital_provider", "institutional_partner"], ""))
+                capital_provider = clean_capital_entity(get_first(item, ["capital_provider", "institutional_partner", "counterparties"], ""))
                 inferred = infer_capital_entity_from_title(title)
                 if not sponsor and inferred and inferred not in {lender, capital_provider}:
                     sponsor = inferred
@@ -14128,10 +14136,15 @@ def build_capital_events(shared):
                     continue
                 seen.add(key)
                 events.append({
+                    "lead_entity": lead_entity,
                     "lead_sponsor": sponsor,
                     "capital_provider": capital_provider,
                     "lender": lender,
-                    "jv_partner": get_first(item, ["jv_partner", "partner"], ""),
+                    "jv_partner": get_first(item, ["jv_partner", "partner", "counterparties"], ""),
+                    "counterparties": counterparties,
+                    "entity_extraction_method": get_first(item, ["entity_extraction_method"], ""),
+                    "entity_extraction_confidence": get_first(item, ["entity_extraction_confidence"], ""),
+                    "entity_extraction_reason": get_first(item, ["entity_extraction_reason"], ""),
                     "activity_type": activity,
                     "market": market,
                     "event_title": title,
@@ -14160,10 +14173,15 @@ def build_capital_events(shared):
         seen.add(key)
         sponsor = clean_capital_entity(get_first(item, ["gp_or_developer", "canonical_gp_name", "firm_name", "developer", "sponsor"], "")) or infer_capital_entity_from_title(title)
         events.append({
+            "lead_entity": clean_capital_entity(get_first(item, ["lead_entity"], "")),
             "lead_sponsor": sponsor,
             "capital_provider": clean_capital_entity(get_first(item, ["capital_provider", "institutional_partner"], "")),
             "lender": clean_capital_entity(get_first(item, ["lender_or_capital_partner", "lender"], "")),
-            "jv_partner": get_first(item, ["jv_partner", "partner"], ""),
+            "jv_partner": get_first(item, ["jv_partner", "partner", "counterparties"], ""),
+            "counterparties": clean_capital_entity(get_first(item, ["counterparties"], "")),
+            "entity_extraction_method": get_first(item, ["entity_extraction_method"], ""),
+            "entity_extraction_confidence": get_first(item, ["entity_extraction_confidence"], ""),
+            "entity_extraction_reason": get_first(item, ["entity_extraction_reason"], ""),
             "activity_type": event_activity_from_row(item),
             "market": get_first(item, ["market_focus", "market"], "Market not specified"),
             "event_title": title,

@@ -9060,6 +9060,15 @@ def article_feed_source(shared):
 
 
 def article_feed_category(row):
+    primary_section = str(row.get("primary_display_section", "") or "").strip().lower()
+    if primary_section == "market intelligence":
+        return "market"
+    if primary_section == "development activity":
+        return "development"
+    if primary_section == "gp / capital activity":
+        return "gp_capital"
+    if primary_section:
+        return "other"
     blob = text_blob(row)
     has_market = any(term in blob for term in ARTICLE_CATEGORY_TERMS["market"])
     has_market_finance = any(term in blob for term in ARTICLE_MARKET_FINANCE_TERMS)

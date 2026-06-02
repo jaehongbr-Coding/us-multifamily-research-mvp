@@ -188,6 +188,7 @@ HIGH_PRIORITY_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "high_priority_articles.csv
 MARKET_SIGNALS_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "market_signals.csv")
 RENT_DEMAND_SIGNALS_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "rent_demand_signals.csv")
 ROUTING_BALANCE_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "routing_balance_report.md")
+ROUTING_REGRESSION_REPORT_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "routing_regression_report.md")
 STRATEGY_BRIEFING_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "strategy_briefing.csv")
 DAILY_BRIEFING_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "daily_strategy_briefing.md")
 WEEKLY_MEMO_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "weekly_strategy_memo.md")
@@ -1991,6 +1992,147 @@ def apply_rent_demand_fields(articles):
         article["rent_demand_reason"] = reason
 
 
+PROJECT_ANCHOR_ASSET_TERMS = [
+    "project", "development", "community", "apartment tower", "apartments",
+    "multifamily community", "multifamily property", "btr community",
+    "rental community", "affordable housing redevelopment",
+    "affordable housing properties", "senior housing",
+    "seniors project", "mixed-use project", "redevelopment",
+]
+
+PROJECT_ANCHOR_SITE_TERMS = [
+    "site", "parcel", "street", "avenue", "boulevard", "road", "drive",
+    "land assemblage", "site acquisition", "acquired land", "purchased land",
+    "entitled site", "planned project", "development site",
+]
+
+PROJECT_ANCHOR_EXECUTION_TERMS = [
+    "construction start", "construction starts", "starts construction",
+    "breaks ground", "broke ground", "groundbreaking", "delivers",
+    "delivered", "opens", "opened", "debuts", "leasing", "lease-up",
+    "to build", "plans to build", "targeting", "proposed",
+]
+
+PROJECT_ANCHOR_FINANCING_TERMS = [
+    "construction loan", "construction financing", "pre-development financing",
+    "project financing", "acquisition financing", "secured financing",
+    "lands financing", "lands loan", "arranges financing",
+]
+
+PROJECT_ANCHOR_NAME_HINTS = [
+    "alta ", "merrick parc", "the archive", "lake country apartments",
+    "eagle crest apartments", "melrose triangle", "venice dell",
+    "j optimist park", "oakhurst", "harvard blvd", "lincoln blvd",
+    "gladys ave", "huntington beach", "port richey", "duluth",
+]
+
+
+def get_project_anchor_text(article):
+    """Build text used for project-first routing."""
+    return normalize_keyword_text(" ".join([
+        article.get("title", ""),
+        article.get("summary", ""),
+        article.get("article_text_sample", ""),
+        article.get("matched_keywords", ""),
+        article.get("development_stage", ""),
+        article.get("capital_event_type", ""),
+        article.get("financing_type", ""),
+        article.get("residential_sector", ""),
+    ]))
+
+
+def infer_development_lifecycle_hint(text):
+    """Infer a compact lifecycle hint from project-anchor evidence."""
+    if find_matches(text, ["breaks ground", "broke ground", "groundbreaking", "construction starts", "starts construction", "construction start"]):
+        return "Construction Start"
+    if find_matches(text, ["delivers", "delivered", "opens", "opened", "debuts"]):
+        return "Delivery / Opening"
+    if find_matches(text, ["lease-up", "leasing", "begins leasing"]):
+        return "Leasing / Lease-Up"
+    if find_matches(text, ["permit", "approval", "entitlement", "zoning", "planning commission", "new zoning plan"]):
+        return "Approval / Entitlement"
+    if find_matches(text, ["site acquisition", "acquired land", "purchased land", "land assemblage", "site control", "development site"]):
+        return "Site Acquisition / Site Control"
+    if find_matches(text, PROJECT_ANCHOR_FINANCING_TERMS + ["refinancing", "refinance", "recapitalization", "recap"]):
+        return "Project Financing / Capital Event"
+    return "Project / Asset"
+
+
+def detect_project_anchor(article):
+    """Detect whether an article is anchored to a specific project, asset, or site."""
+    text = get_project_anchor_text(article)
+    title_text = normalize_keyword_text(article.get("title", ""))
+    reasons = []
+
+    unit_match = re.search(r"\b\d{2,5}\s*[- ]?(?:unit|home|apartment|bed|residence|story|acre)s?\b", text)
+    if unit_match:
+        reasons.append(f"unit/site count: {unit_match.group(0)}")
+
+    address_match = re.search(
+        r"\b\d{2,6}\s+[a-z0-9.'-]+(?:\s+[a-z0-9.'-]+){0,4}\s+"
+        r"(?:st|street|ave|avenue|blvd|boulevard|rd|road|dr|drive|ln|lane|way|ct|court)\b",
+        text,
+    )
+    if address_match:
+        reasons.append(f"address/street: {address_match.group(0)}")
+
+    execution_match = find_matches(title_text, PROJECT_ANCHOR_EXECUTION_TERMS) or find_matches(text, PROJECT_ANCHOR_EXECUTION_TERMS)
+    if execution_match:
+        reasons.append(f"execution milestone: {execution_match[0]}")
+
+    site_match = find_matches(text, PROJECT_ANCHOR_SITE_TERMS)
+    if site_match:
+        reasons.append(f"site/parcel signal: {site_match[0]}")
+
+    asset_match = find_matches(text, PROJECT_ANCHOR_ASSET_TERMS)
+    if asset_match:
+        reasons.append(f"project/asset term: {asset_match[0]}")
+
+    financing_match = find_matches(text, PROJECT_ANCHOR_FINANCING_TERMS)
+    if financing_match and (unit_match or address_match or asset_match or site_match):
+        reasons.append(f"project financing tied to anchor: {financing_match[0]}")
+
+    name_match = find_matches(text, PROJECT_ANCHOR_NAME_HINTS)
+    if name_match:
+        reasons.append(f"named asset/project hint: {name_match[0]}")
+
+    generic_only_anchor = (
+        len(reasons) == 1
+        and reasons[0].startswith("project/asset term:")
+        and find_matches(text, [
+            "rand reviews", "mayor's race", "mayor race", "mayor discussion",
+            "market report", "economist", "outlook", "rent growth",
+            "construction spending", "absorption", "vacancy",
+        ])
+    )
+    weak_generic_anchor = (
+        len(reasons) == 1
+        and reasons[0] in {"project/asset term: project", "project/asset term: development"}
+    )
+    if generic_only_anchor or weak_generic_anchor:
+        reasons = []
+
+    project_anchor = bool(reasons)
+    confidence = "none"
+    if len(reasons) >= 2:
+        confidence = "high"
+    elif project_anchor:
+        confidence = "medium"
+    return {
+        "has_project_anchor": "True" if project_anchor else "False",
+        "project_anchor_reason": "; ".join(reasons[:5]) if reasons else "no identifiable project, asset, site, address, or unit-count anchor",
+        "project_anchor_confidence": confidence,
+        "development_lifecycle_hint": infer_development_lifecycle_hint(text) if project_anchor else "",
+    }
+
+
+def apply_project_anchor_fields(articles):
+    """Annotate articles with project-first routing fields."""
+    for article in articles:
+        anchor = detect_project_anchor(article)
+        article.update(anchor)
+
+
 ARTICLE_CLASSIFICATION_FIELDS = [
     "article_id",
     "canonical_article_id",
@@ -2026,6 +2168,10 @@ ARTICLE_CLASSIFICATION_FIELDS = [
     "entity_extraction_method",
     "entity_extraction_confidence",
     "entity_extraction_reason",
+    "has_project_anchor",
+    "project_anchor_reason",
+    "project_anchor_confidence",
+    "development_lifecycle_hint",
     "rent_demand_flag",
     "rent_demand_type",
     "rent_demand_reason",
@@ -2516,6 +2662,33 @@ def lock_article_identity_fields(article):
     return article
 
 
+GP_PLATFORM_CORPORATE_TERMS = [
+    "fund close", "closes fund", "capital raise", "raises capital",
+    "launches platform", "platform launch", "lending platform",
+    "debt platform", "management platform", "operating platform",
+    "corporate acquisition", "company-level acquisition", "merger",
+    "acquires btr player", "acquires homebuilder", "acquires taylor morrison",
+    "berkshire hathaway acquires", "portfolio strategy",
+    "portfolio-wide strategy", "institutional strategy",
+    "capital strategy", "lender appetite", "financing market",
+]
+
+
+def has_platform_or_corporate_capital_signal(text):
+    """Detect capital behavior without a dominant project or asset anchor."""
+    return find_matches(text, GP_PLATFORM_CORPORATE_TERMS)
+
+
+def has_macro_market_signal(text):
+    """Detect market, macro, or research articles without a project anchor."""
+    return find_matches(text, [
+        "rent growth", "rent prices", "absorption", "vacancy", "occupancy",
+        "construction spending", "market report", "economist", "outlook",
+        "forecast", "survey", "index", "data that matters", "chief economist",
+        "interest rate", "treasury", "sofr", "inflation", "fed",
+    ])
+
+
 def get_primary_display_section(article):
     """Route one article to one primary app section with deterministic priority."""
     if is_limited_access_status(article.get("access_status")):
@@ -2524,6 +2697,8 @@ def get_primary_display_section(article):
             article.get("url", "") or article.get("original_url", ""),
             article.get("source", ""),
             article.get("primary_topic", ""),
+            article.get("summary", ""),
+            article.get("article_text_sample", ""),
             article.get("capital_event_type", ""),
             article.get("development_stage", ""),
             article.get("financing_type", ""),
@@ -2534,6 +2709,7 @@ def get_primary_display_section(article):
             article.get("summary", ""),
             article.get("source", ""),
             article.get("primary_topic", ""),
+            article.get("article_text_sample", ""),
             article.get("capital_event_type", ""),
             article.get("development_stage", ""),
             article.get("financing_type", ""),
@@ -2547,6 +2723,8 @@ def get_primary_display_section(article):
     operator_activity_hit = find_matches(text, ["property management", "third-party management", "assumes management", "management platform", "operating platform", "operator", "management company"])
     macro_finance_only = find_matches(text, MACRO_FINANCE_TERMS) and not deal_financing_hit
     title_text = normalize_keyword_text(article.get("title", ""))
+    has_project_anchor = str(article.get("has_project_anchor", "")).strip().lower() == "true"
+    project_anchor_reason = article.get("project_anchor_reason", "")
     title_capital_event_hit = find_matches(title_text, [
         "joint venture", "led joint venture", " jv ", "acquisition", "acquires",
         "acquired", "buys", "sells", "sold", "recapitalization", "recap",
@@ -2572,6 +2750,8 @@ def get_primary_display_section(article):
         "construction starts", "starts construction", "starts work",
     ])
     rent_demand_hit = find_matches(text, RENT_DEMAND_KEYWORDS)
+    platform_corporate_hit = has_platform_or_corporate_capital_signal(text)
+    macro_market_hit = has_macro_market_signal(text)
     market_protection_hit = find_matches(text, [
         "interest rate", "interest rates", "treasury", "sofr", "cpi", "inflation",
         "rent growth", "vacancy", "absorption", "concession", "market report",
@@ -2615,6 +2795,8 @@ def get_primary_display_section(article):
         "arranged sale", "secured loan", "provides loan", "closes loan",
     ])
     strong_development_hit = bool(
+        has_project_anchor
+        or
         development_execution_hit
         or development_approval_hit
         or development_site_hit
@@ -2654,7 +2836,22 @@ def get_primary_display_section(article):
         secondary.append("GP / Capital Activity")
     if market_hit:
         secondary.append("Market Intelligence")
-    if macro_finance_only:
+    if has_project_anchor and not platform_corporate_hit:
+        primary = "Development Activity"
+        lifecycle_hint = article.get("development_lifecycle_hint", "Project / Asset")
+        if find_matches(text, PROJECT_ANCHOR_FINANCING_TERMS + ["construction loan", "refinancing", "recapitalization", "recap"]):
+            reason = f"development_project_anchor: project financing/capital event tied to project ({project_anchor_reason})"
+        elif title_capital_event_hit or capital_hit:
+            reason = f"development_project_anchor: capital event with identifiable project/asset ({project_anchor_reason})"
+        else:
+            reason = f"development_project_anchor: {lifecycle_hint} ({project_anchor_reason})"
+    elif platform_corporate_hit and capital_hit:
+        primary = "GP / Capital Activity"
+        if find_matches(text, ["berkshire hathaway acquires", "corporate acquisition", "company-level acquisition", "merger", "acquires taylor morrison"]):
+            reason = f"gp_capital_corporate_mna: {platform_corporate_hit[0]}"
+        else:
+            reason = f"gp_capital_platform: {platform_corporate_hit[0]} without project anchor"
+    elif macro_finance_only:
         primary = "Market Intelligence"
         reason = "macro finance or rate outlook signal detected"
     elif generic_policy_or_market_noise and not title_development_event_hit:
@@ -2662,7 +2859,10 @@ def get_primary_display_section(article):
         reason = "generic policy, market, or research article excluded from Development Activity"
     elif rent_demand_hit and not title_development_event_hit and not title_capital_event_hit:
         primary = "Market Intelligence"
-        reason = "rent, demand, vacancy, absorption, or leasing signal separated from Development Activity"
+        reason = "market_macro_guard: rent, demand, vacancy, absorption, or leasing article without project anchor"
+    elif macro_market_hit and not has_project_anchor and not title_capital_event_hit:
+        primary = "Market Intelligence"
+        reason = f"market_macro_guard: {macro_market_hit[0]} without project anchor"
     elif market_protection_hit and not title_capital_event_hit and not title_development_event_hit and not deal_financing_hit:
         primary = "Market Intelligence"
         reason = "market, macro, research, or supply-demand article without confirmed deal or project event"
@@ -9880,6 +10080,10 @@ def build_gp_intelligence_rows(
             "entity_extraction_method": most_common_plain_value(gp_articles, "entity_extraction_method", ""),
             "entity_extraction_confidence": most_common_plain_value(gp_articles, "entity_extraction_confidence", ""),
             "entity_extraction_reason": most_common_plain_value(gp_articles, "entity_extraction_reason", ""),
+            "has_project_anchor": representative_article.get("has_project_anchor", ""),
+            "project_anchor_reason": representative_article.get("project_anchor_reason", ""),
+            "project_anchor_confidence": representative_article.get("project_anchor_confidence", ""),
+            "development_lifecycle_hint": representative_article.get("development_lifecycle_hint", ""),
             "residential_sector": most_common_plain_value(gp_articles, "residential_sector", "General Residential"),
             "activity_type": "; ".join(activity_types),
             "market_focus": market_focus,
@@ -9998,6 +10202,10 @@ def generate_gp_intelligence_outputs(
         "entity_extraction_method",
         "entity_extraction_confidence",
         "entity_extraction_reason",
+        "has_project_anchor",
+        "project_anchor_reason",
+        "project_anchor_confidence",
+        "development_lifecycle_hint",
         "residential_sector",
         "activity_type",
         "market_focus",
@@ -19284,6 +19492,10 @@ def build_asset_parcel_intelligence_rows(run_timestamp, articles, deal_rows, fin
             "primary_display_section": row.get("primary_display_section", ""),
             "secondary_display_sections": row.get("secondary_display_sections", ""),
             "repeat_exposure_status": row.get("repeat_exposure_status", ""),
+            "has_project_anchor": row.get("has_project_anchor", ""),
+            "project_anchor_reason": row.get("project_anchor_reason", ""),
+            "project_anchor_confidence": row.get("project_anchor_confidence", ""),
+            "development_lifecycle_hint": row.get("development_lifecycle_hint", ""),
             "published_date_normalized": identity.get("published_date_normalized", ""),
             "collected_date_normalized": identity.get("collected_date_normalized", ""),
             "article_age_days": identity.get("article_age_days", ""),
@@ -19336,6 +19548,8 @@ def generate_asset_parcel_intelligence_outputs(asset_rows, dated_output_dir):
         "asset_signal_id", "canonical_article_id", "title", "original_url",
         "published", "summary", "article_integrity_status", "article_integrity_reason",
         "primary_display_section", "secondary_display_sections", "repeat_exposure_status",
+        "has_project_anchor", "project_anchor_reason", "project_anchor_confidence",
+        "development_lifecycle_hint",
         "published_date_normalized", "collected_date_normalized", "article_age_days",
         "freshness_bucket", "freshness_status", "freshness_reason",
         "freshness_score", "access_status",
@@ -19776,6 +19990,10 @@ def build_development_lifecycle_rows(run_timestamp, asset_rows, entitlement_rows
             "primary_display_section": asset.get("primary_display_section", ""),
             "secondary_display_sections": asset.get("secondary_display_sections", ""),
             "repeat_exposure_status": asset.get("repeat_exposure_status", ""),
+            "has_project_anchor": asset.get("has_project_anchor", ""),
+            "project_anchor_reason": asset.get("project_anchor_reason", ""),
+            "project_anchor_confidence": asset.get("project_anchor_confidence", ""),
+            "development_lifecycle_hint": asset.get("development_lifecycle_hint", ""),
             "published_date_normalized": asset.get("published_date_normalized", ""),
             "collected_date_normalized": asset.get("collected_date_normalized", ""),
             "article_age_days": asset.get("article_age_days", ""),
@@ -19823,6 +20041,8 @@ def generate_development_lifecycle_outputs(lifecycle_rows, dated_output_dir):
         "lifecycle_id", "canonical_article_id", "title", "original_url",
         "published", "summary", "article_integrity_status", "article_integrity_reason",
         "primary_display_section", "secondary_display_sections", "repeat_exposure_status",
+        "has_project_anchor", "project_anchor_reason", "project_anchor_confidence",
+        "development_lifecycle_hint",
         "published_date_normalized", "collected_date_normalized", "article_age_days",
         "freshness_bucket", "freshness_status", "freshness_reason",
         "freshness_score", "access_status",
@@ -25589,6 +25809,11 @@ def generate_routing_balance_report(articles, rent_demand_articles, dated_output
         and is_blank_output_value(article.get("development_stage"))
     )
 
+    project_anchor_count = sum(
+        1 for article in articles
+        if str(article.get("has_project_anchor", "")).strip().lower() == "true"
+    )
+
     lines = [
         "# Routing Balance Report",
         "",
@@ -25596,6 +25821,7 @@ def generate_routing_balance_report(articles, rent_demand_articles, dated_output
         f"- Development Activity count: {section_counts.get('Development Activity', 0)}",
         f"- GP / Capital Activity count: {section_counts.get('GP / Capital Activity', 0)}",
         f"- Rent/Demand candidate count: {len(rent_demand_articles)}",
+        f"- Project anchor article count: {project_anchor_count}",
         f"- Development-excluded transaction article count: {len(transaction_excluded)}",
         f"- Source missing count: {missing_source}",
         f"- Market missing count: {missing_market}",
@@ -25624,11 +25850,101 @@ def generate_routing_balance_report(articles, rent_demand_articles, dated_output
         "development_activity_count": section_counts.get("Development Activity", 0),
         "gp_capital_activity_count": section_counts.get("GP / Capital Activity", 0),
         "rent_demand_candidate_count": len(rent_demand_articles),
+        "project_anchor_count": project_anchor_count,
         "development_excluded_transaction_count": len(transaction_excluded),
         "source_missing_count": missing_source,
         "market_missing_count": missing_market,
         "stage_missing_count": missing_stage,
     }
+
+
+ROUTING_REGRESSION_SAMPLES = [
+    ("Development Activity", "PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex"),
+    ("Development Activity", "Alta Developers Lands $91.8M Construction Loan for Miami Apartments"),
+    ("Development Activity", "Partnership Breaks Ground on $147M Affordable Housing Redevelopment"),
+    ("Development Activity", "Basis Investment Group Secures $43M Financing for Newly Built Philadelphia MF"),
+    ("Development Activity", "JLL Arranges $252M Financing for Huntington Beach Seniors Project"),
+    ("Development Activity", "Portman Targeting Duluth for Mixed-Use Project"),
+    ("Development Activity", "Aventon to Build 270-Unit Port Richey Rental Community"),
+    ("Development Activity", "First Projects Advance Under San Francisco's New Zoning Plan"),
+    ("Development Activity", "Jefferson Apartment Group Delivers Luxury Multifamily Community"),
+    ("GP / Capital Activity", "Berkshire Hathaway acquires BTR player Taylor Morrison"),
+    ("GP / Capital Activity", "Blackstone Real Estate Debt Strategies Launches Homebuilder Lending Platform"),
+    ("Market Intelligence", "Rent growth is positive for the month of May"),
+    ("Market Intelligence", "Multifamily construction spending lower in April"),
+    ("Market Intelligence", "Rent Prices Continue to Rise, While Absorption Remains Low"),
+]
+
+
+def find_regression_sample_article(articles, sample_title):
+    """Find the nearest article for a routing regression sample string."""
+    sample_norm = normalize_keyword_text(sample_title)
+    sample_terms = [
+        term for term in re.findall(r"[a-z0-9]+", sample_norm)
+        if len(term) >= 4 and term not in {"multifamily", "apartments", "project", "community"}
+    ]
+    best = None
+    best_score = 0
+    for article in articles:
+        title = article.get("title", "")
+        title_norm = normalize_keyword_text(title)
+        if not title_norm:
+            continue
+        if sample_norm in title_norm or title_norm in sample_norm:
+            return article, 100
+        score = sum(1 for term in sample_terms if term in title_norm)
+        if score > best_score:
+            best = article
+            best_score = score
+    if best and best_score >= max(2, min(4, len(sample_terms))):
+        return best, best_score
+    return None, 0
+
+
+def generate_routing_regression_report(articles, dated_output_dir):
+    """Write sample-level routing regression checks for project-first routing."""
+    section_counts = Counter(article.get("primary_display_section", "Article Feed") or "Article Feed" for article in articles)
+    lines = [
+        "# Routing Regression Report",
+        "",
+        "## Project-First Routing Summary",
+        "",
+        f"- Market Intelligence count: {section_counts.get('Market Intelligence', 0)}",
+        f"- Development Activity count: {section_counts.get('Development Activity', 0)}",
+        f"- GP / Capital Activity count: {section_counts.get('GP / Capital Activity', 0)}",
+        f"- Project anchor article count: {sum(1 for article in articles if str(article.get('has_project_anchor', '')).lower() == 'true')}",
+        "",
+        "## Regression Samples",
+        "",
+    ]
+    passed = 0
+    checked = 0
+    for expected, sample_title in ROUTING_REGRESSION_SAMPLES:
+        article, score = find_regression_sample_article(articles, sample_title)
+        if not article:
+            lines.append(f"- MISSING | expected {expected} | {sample_title}")
+            continue
+        checked += 1
+        actual = article.get("primary_display_section", "")
+        status = "PASS" if actual == expected else "CHECK"
+        if status == "PASS":
+            passed += 1
+        lines.append(
+            f"- {status} | expected {expected} | actual {actual} | "
+            f"{article.get('title', sample_title)} | "
+            f"anchor={article.get('has_project_anchor', '')} | "
+            f"reason={article.get('section_routing_reason', '')}"
+        )
+    lines.extend([
+        "",
+        "## Result",
+        "",
+        f"- Checked samples present in current run: {checked}",
+        f"- Passed expected section: {passed}",
+        f"- Missing sample titles: {len(ROUTING_REGRESSION_SAMPLES) - checked}",
+    ])
+    write_markdown_outputs(ROUTING_REGRESSION_REPORT_OUTPUT_FILE, lines, dated_output_dir)
+    return {"checked": checked, "passed": passed}
 
 
 # ---------------------------------------------------------
@@ -25760,6 +26076,7 @@ def save_to_csv(articles):
             article["gpt_strategic_analysis"] = build_rule_based_strategic_interpretation(article)
         enrich_article_classification(article)
     apply_rent_demand_fields(articles)
+    apply_project_anchor_fields(articles)
     enrich_signal_tuning_fields(articles)
     apply_freshness_and_routing_fields(
         articles,
@@ -25839,6 +26156,10 @@ def save_to_csv(articles):
         routing_balance_summary = generate_routing_balance_report(
             articles,
             rent_demand_articles,
+            dated_output_dir,
+        )
+        routing_regression_summary = generate_routing_regression_report(
+            articles,
             dated_output_dir,
         )
 
@@ -26556,6 +26877,7 @@ def save_to_csv(articles):
         print(f"[Done] Rent/Demand signals CSV saved: {RENT_DEMAND_SIGNALS_OUTPUT_FILE}")
         print(f"[Done] Rent/Demand candidate count: {routing_balance_summary['rent_demand_candidate_count']}")
         print(f"[Done] Routing balance report saved: {ROUTING_BALANCE_REPORT_OUTPUT_FILE}")
+        print(f"[Done] Routing regression report saved: {ROUTING_REGRESSION_REPORT_OUTPUT_FILE}")
         print(f"[Done] Strategy briefing CSV saved: {STRATEGY_BRIEFING_OUTPUT_FILE}")
         print(f"[Done] Strategy-briefing article count: {len(strategy_briefing_articles)}")
         print(f"[Done] Markdown briefing saved: {DAILY_BRIEFING_OUTPUT_FILE}")

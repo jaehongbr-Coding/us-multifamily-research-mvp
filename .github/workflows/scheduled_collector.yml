@@ -32,6 +32,12 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add output/
-          git commit -m "Daily news collector output update" || echo "No changes to commit"
-          git push
+         git add -f output
+
+if git diff --cached --quiet; then
+  echo "No output changes to commit"
+  exit 0
+fi
+
+git commit -m "Daily news collector output update"
+git push

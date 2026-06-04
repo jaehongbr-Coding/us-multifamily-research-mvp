@@ -2,351 +2,241 @@
 
 ## 1. 프로젝트 이름
 
-US Residential Intelligence App  
-미국 주거시장 전략 리서치 앱
+US Residential Intelligence App
+
+미국 주요 주거시장 뉴스 축적 및 정리 앱
 
 ---
 
-## 2. 프로젝트 목적
+## 2. 현재 앱 목표
 
-이 앱은 미국 주거 및 멀티패밀리 개발시장 관련 뉴스를 수집하고,  
-부동산 디벨로퍼 역량 강화와 해외 투자전략 수립에 필요한 시장 시그널을 정리하기 위한 내부 리서치 도구이다.
+이 프로젝트의 1차 목표는 미국 주요 주거시장 관련 뉴스를 안정적으로 수집하고, 시장/섹터/이벤트 태그별로 잘 정리해 축적하는 것이다.
 
-단순 뉴스 수집기가 아니라, 다음과 같은 질문에 답하는 것을 목표로 한다.
+기존에는 뉴스 스크랩 앱에서 시장 인텔리전스 앱으로 바로 확장하는 방향을 고려했지만, 현재 방향은 다음과 같이 재정의한다.
 
-- 현재 미국 주거 개발시장은 어떤 국면인가?
-- 어느 지역에서 개발, 거래, 자본 유입, 규제 변화가 활발한가?
-- 주요 GP / Developer들은 어디에서 어떤 움직임을 보이고 있는가?
-- 금리, 대출환경, 건설비, 임대수요 변화가 개발시장에 어떤 영향을 주는가?
-- 향후 우미글로벌 / 우미 USA의 미국 주거 개발 역량 강화에 참고할 만한 시그널은 무엇인가?
+- 1단계: Core 15 + Watchlist 8 시장의 주거 관련 뉴스를 안정적으로 수집, 정리, 축적한다.
+- 2단계: 충분한 기사 데이터가 쌓인 뒤 전략적 해석, 시장 인텔리전스, GP Action, 브리핑 기능을 고도화한다.
+
+따라서 현재 앱의 핵심은 의미 해석이나 투자 판단이 아니라, 신뢰할 수 있는 기사 데이터베이스를 만드는 것이다.
 
 ---
 
-## 3. 사용자 배경
+## 3. 1차 목표
 
-사용자는 해외 상업용 부동산 펀드 설정 및 간접투자 업무를 수행해온 부동산 펀드매니저이다.
+Core 15 + Watchlist 8 시장에서 다음 정보를 꾸준히 축적한다.
 
-현재 우미글로벌 본사 차원에서 미국 현지 디벨로퍼 역량 강화를 위한 중장기 전략 수립을 담당하고 있다.
+- 어떤 시장에서 어떤 주거 관련 뉴스가 발생했는가
+- 어떤 섹터와 관련된 기사인가
+- 어떤 이벤트 태그가 붙을 수 있는가
+- 원문 링크와 출처가 신뢰 가능한가
+- access_limited 기사인지 여부
+- 향후 분석에 사용할 수 있을 만큼 기사 메타데이터가 정리되어 있는가
 
-우미건설은 미국 상업용 부동산 시장에서 주거 상품, 특히 멀티패밀리 등 개발사업의 Developer 지위 확보를 목표로 하고 있다.
+중요한 원칙은 기사 하나를 `market`, `development`, `gp_capital` 중 하나로 억지로 단일 분류하지 않는 것이다.
 
----
-
-## 4. 현재 개발 단계
-
-현재 단계는 MVP 이후의 초기 고도화 단계이다.
-
-초기 MVP는 다음 기능을 목표로 한다.
-
-- 미국 주거시장 관련 뉴스 수집
-- RSS 또는 공개 웹 기반 기사 수집
-- 키워드 기반 필터링
-- 기사 제목, 출처, 날짜, URL 저장
-- CSV 파일로 결과 저장
-- Streamlit 기반 웹 앱 화면 구성
-
-향후 목표는 다음과 같다.
-
-- Excel 리포트 출력
-- Markdown 리포트 출력
-- 기사 요약 추가
-- 한국어 번역 레이어 추가
-- GP / Developer Intelligence Layer 추가
-- Residential Sector Coverage Layer 추가
-- 시장 시그널 분석 고도화
-- 모바일 웹 대응
+기사 하나는 여러 event_tags를 가질 수 있다. 예를 들어 특정 개발 프로젝트의 construction loan 기사는 `development`, `financing/refinancing`, `construction start` 태그를 동시에 가질 수 있다.
 
 ---
 
-## 5. 기술 스택
+## 4. 대상 시장
 
-현재 또는 예상 기술 스택은 다음과 같다.
+### 4.1 Core 15
 
-- Python
-- Streamlit
-- GitHub
-- VS Code
-- CSV
-- 향후 Excel / Markdown
-- 향후 데이터베이스 적용 가능성 있음
+- Los Angeles / Southern California
+- New York / Northern New Jersey
+- Dallas-Fort Worth
+- Houston
+- Atlanta
+- Phoenix
+- Miami / South Florida
+- Washington DC / Northern Virginia
+- Seattle
+- Denver
+- Austin
+- Charlotte
+- Raleigh-Durham
+- Nashville
+- Tampa / St. Petersburg
 
----
+### 4.2 Watchlist 8
 
-## 6. 주요 파일
-
-현재 핵심 파일은 다음과 같다.
-
-- `app.py`  
-  Streamlit 웹 앱의 메인 화면 파일
-
-- `news_collector.py`  
-  뉴스 수집, 필터링, 저장 로직을 담당하는 파일
-
-- `README.md`  
-  프로젝트 설명 및 실행 방법 문서
-
-- `articles/`  
-  수집된 기사 결과가 저장되는 폴더
-
-- `PROJECT_CONTEXT.md`  
-  AI 비서와 Codex가 프로젝트의 목적, 구조, 방향성을 이해하기 위한 기준 문서
+- Orlando
+- San Antonio
+- Las Vegas
+- Salt Lake City
+- Jacksonville
+- Columbus
+- Minneapolis
+- San Diego
 
 ---
 
-## 7. 핵심 화면 구성
+## 5. 관심 섹터
 
-앱의 메인 홈 화면은 다음 5개 섹션을 중심으로 구성한다.
-
-### 7.1 오늘의 Highlight
-
-아래 섹션들의 핵심 내용을 요약해서 보여주는 영역이다.
-
-- 오늘의 Top 기사
-- 오늘의 Hot Market
-- 개발현황
-- 오늘의 GP Action
-
-단순 제목 나열이 아니라, 오늘 시장에서 읽을 수 있는 핵심 시그널을 짧게 정리해야 한다.
-
-### 7.2 오늘의 Top 기사
-
-수집된 기사 중 중요도와 관련성이 높은 Top 5 기사를 보여준다.
-
-각 기사에는 가능하면 다음 정보가 포함되어야 한다.
-
-- 제목
-- 출처
-- 날짜
-- URL
-- 관련 섹터
-- 관련 지역
-- 관련 시그널
-- 간단 요약
-
-### 7.3 오늘의 Hot Market
-
-거래, 개발, 인허가, 자본 유입, GP 활동 관련 뉴스가 많이 포착된 지역 또는 도시 Top 10을 보여준다.
-
-단, 단순히 permit / entitlement 뉴스가 많다는 이유만으로 Hot Market으로 과대평가하지 않도록 주의한다.  
-Permit과 entitlement 뉴스는 공공자료 기반 보도 편향이 있을 수 있으므로, 거래, 자본 유입, 임대수요, 개발 착공, GP activity와 함께 종합적으로 판단한다.
-
-### 7.4 개발현황
-
-지역별 개발 관련 정보를 정리한다.
-
-가능하면 다음 구분을 사용한다.
-
-- 신규 개발
-- 온고잉 개발
-- 중단 또는 취소
-- 인허가 / entitlement
-- 착공 / construction start
-- 준공 / delivery
-
-### 7.5 오늘의 GP Action
-
-주요 GP, Developer, Institutional Investor의 움직임을 정리한다.
-
-예시 대상은 다음과 같다.
-
-- Blackstone
-- Brookfield
-- Greystar
-- Related
-- Kennedy Wilson
-- Harrison Street
-- PCCP
-- 기타 빠르게 성장하는 GP / Developer
-
-GP Action은 단순 기사 수가 아니라, 시장 방향성과 자본 흐름을 보여주는 중요한 선행 시그널로 본다.
-
----
-
-## 8. 주요 분석 주제
-
-앱은 다음 주제를 중심으로 기사를 수집하고 분석한다.
-
-### 8.1 Macro & Financing
-
-- Fed 금리 결정
-- 미국 10년물 국채금리
-- SOFR
-- 대출 환경
-- 개발 대출 조건
-- 은행 대출 태도
-- 자본시장 유동성
-- 금리 인하 또는 인상 가능성
-
-### 8.2 Equity Flow
-
-- 기관투자자 매입 / 매각
-- Blackstone, Brookfield 등 대형 자본의 움직임
-- GP의 신규 펀드 조성
-- Joint Venture
-- Recapitalization
-- Distressed opportunity
-- Preferred equity / rescue capital
-
-### 8.3 Supply & Demand
-
-- Absorption Rate
-- Vacancy Rate
-- Effective Rent Growth
-- Permits & Starts
-- Construction Pipeline
-- Deliveries
-- Concessions
-- Sunbelt oversupply
-- Workforce housing demand
-- Affordable housing demand
-
-### 8.4 Regulation & Entitlement
-
-- LA / California 주거 개발 규제
-- Zoning
-- Entitlement
-- Permit
-- Density bonus
-- Affordable housing requirement
-- Rent control
-- Environmental review
-
-### 8.5 Construction Cost
-
-- 자재비
-- 인건비
-- 보험료
-- 공사비 상승
-- General Contractor 동향
-- Labor shortage
-- Supply chain
-
----
-
-## 9. 섹터 커버리지
-
-초기 중심 섹터는 미국 주거 및 멀티패밀리이다.
-
-다만 향후 다음 섹터도 함께 커버한다.
+앱은 다음 주거 섹터 관련 뉴스를 우선 수집하고 정리한다.
 
 - Multifamily
-- Student Housing
-- Senior Housing
 - Build-to-Rent
 - Single-Family Rental
-- Workforce Housing
+- Student Housing
+- Senior Housing
 - Affordable Housing
+- Workforce Housing
 - Mixed-use Residential
 
 ---
 
-## 10. 선호하는 정보 출처
+## 6. 관심 이벤트 태그
 
-우선순위가 높은 정보 출처는 다음과 같다.
+기사에는 하나 이상의 event_tags가 붙을 수 있다. 아래 태그는 상호 배타적이지 않다.
 
-- WSJ Real Estate
-- Commercial Observer
-- Bisnow
-- Yardi Matrix
-- RealPage Analytics
-- CoStar News
-- GlobeSt
-- Multi-Housing News
-- Connect CRE
-- Urbanize LA
-- The Real Deal
-- 주요 GP / Developer 보도자료
-
-CoStar는 회사에서 유료 회원으로 접근 가능한 정보가 있으나, 프로그램에서 활용할 때는 이용약관과 접근 권한을 반드시 고려해야 한다.  
-무단 스크래핑은 피하고, 허용된 범위 내에서 수동 입력, 다운로드 파일, API, 내부 허가 방식 등을 우선 검토한다.
-
----
-
-## 11. 중요한 판단 원칙
-
-이 앱은 단순히 기사를 많이 모으는 것이 목적이 아니다.  
-중요한 것은 투자전략과 개발역량 강화에 의미 있는 시그널을 선별하는 것이다.
-
-다음 원칙을 따른다.
-
-1. 기사 수가 많다고 반드시 중요한 시장은 아니다.
-2. Permit / entitlement 뉴스는 보도 편향이 있을 수 있다.
-3. GP / Developer의 실제 자본 투입, 매입, 매각, JV, 개발 착공은 중요한 시그널이다.
-4. Macro와 Financing 정보는 개발사업의 feasibility와 exit cap rate에 직접 영향을 주므로 중요하다.
-5. Sunbelt 시장은 단순 성장 지역으로 보지 않고, 공급 과잉과 absorption 상황을 함께 검토한다.
-6. Affordable / Workforce Housing은 정책, 수요, 자본 측면에서 별도 의미가 있으므로 독립적으로 관찰한다.
-7. 기사 제목만 보고 판단하지 않고, 가능하면 본문 요약과 맥락을 함께 본다.
-8. 임원 보고용으로 사용할 수 있도록 결론과 시사점을 명확하게 정리한다.
+- development
+- permit / entitlement
+- land / site acquisition
+- construction start
+- under construction
+- delivery / completion
+- transaction / sale
+- acquisition
+- financing / refinancing
+- JV / recapitalization
+- policy / regulation
+- market data / supply-demand
+- construction cost
+- rent / occupancy / absorption
 
 ---
 
-## 12. UI / UX 방향
+## 7. 핵심 원칙
 
-앱은 복잡한 분석 도구보다 매일 아침 빠르게 시장을 읽을 수 있는 리서치 대시보드를 지향한다.
-
-중요한 UI 방향은 다음과 같다.
-
-- 홈 화면은 단순하고 읽기 쉬워야 한다.
-- 글자 크기와 여백을 충분히 확보한다.
-- 기사 제목만 나열하지 말고, 핵심 요약과 시그널을 함께 보여준다.
-- 사용자가 제목 아래에서 바로 기사 내용을 확인할 수 있어야 한다.
-- 불필요한 모드 구분은 줄인다.
-- 모바일에서도 읽기 편한 구조를 고려한다.
-
-현재 제거하거나 축소하기로 한 항목은 다음과 같다.
-
-- 오늘 우선 액션
-- 핵심 관계 구축
-- 경영진모드
-- 상세분석모드
-- 리뷰모드
-- Sidebar의 오늘의 집중검토
-- Sidebar의 상세필터
+1. 기사 하나를 시장/개발/GP자본 중 하나로 강제 분류하지 않는다.
+2. 기사 하나는 여러 event_tags를 가질 수 있다.
+3. 앱의 1차 목적은 의미 해석이 아니라 기사 축적과 정리다.
+4. 오늘의 브리핑, 시장 인텔리전스, GP Action 등 해석성 기능은 2단계로 미룬다.
+5. Article Feed를 중심 화면으로 강화한다.
+6. access_limited 기사는 핵심 분석에서 제외하고 별도 보관한다.
+7. 원문 링크, 출처, 날짜, 시장, 섹터, 태그를 안정적으로 남기는 것을 우선한다.
+8. 기사 수집과 정리 로직은 단순하고 검증 가능해야 한다.
 
 ---
 
-## 13. 선호하는 표현
+## 8. 1단계 기능 범위
 
-앱 내 표현은 직관적이고 실무적인 용어를 사용한다.
+1단계에서 우선 구현하고 안정화할 기능은 다음과 같다.
 
-선호 표현:
+- Core 15 + Watchlist 8 시장 중심의 뉴스 수집
+- 주거 섹터별 기사 정리
+- event_tags 기반 기사 정리
+- Article Feed 중심 화면
+- 기사 원문 링크 유지
+- 출처, 날짜, 제목, 요약, 시장, 섹터, 이벤트 태그 저장
+- access_limited 기사 별도 보관
+- output CSV/Markdown 기반의 단순하고 안정적인 실행 구조
+- output 파일이 없거나 비어 있어도 앱이 죽지 않는 방어 로직
 
-- 시그널 분석
+1단계에서는 `Article Feed`가 가장 중요한 화면이다.
+
+---
+
+## 9. 2단계 기능 범위
+
+2단계는 충분한 기사 데이터가 쌓인 뒤 고도화한다.
+
+- 오늘의 브리핑
 - 시장 인텔리전스
-- 시장 국면 요약
-- 개발현황
-- 오늘의 GP Action
 - 오늘의 Hot Market
-- 오늘의 Highlight
+- 개발현황 해석
+- GP Action
+- GP / Capital 동향 분석
+- 전략적 해석
+- 시장별 트렌드 비교
+- 섹터별 기회/리스크 해석
+- 장기 기사 축적 데이터를 기반으로 한 월간/분기 리포트
 
-피하거나 재검토할 표현:
-
-- 고신뢰 신호
-- conviction memory
-- 시장 timing 해석
-- 과도하게 추상적인 AI식 표현
-- 근거가 약한 결론형 표현
+2단계 기능은 1단계 데이터 구조가 안정화된 뒤 확장한다. 해석성 기능이 기사 축적 구조보다 앞서가면 앱의 기준이 흔들릴 수 있으므로, 현재는 Article Feed와 태그 구조를 우선한다.
 
 ---
 
-## 14. Codex 작업 원칙
+## 10. 주요 파일
 
-Codex는 코드를 수정하기 전에 다음을 확인해야 한다.
+- `app.py`
+  - Streamlit 앱 화면과 Article Feed 표시를 담당한다.
 
-1. 현재 파일 구조 확인
-2. 핵심 파일 확인
-3. 기존 기능을 깨지 않도록 수정
-4. 수정한 파일 목록 제시
-5. 실행 방법 제시
-6. 테스트 또는 확인 방법 제시
-7. 불확실한 부분은 추정하지 말고 명시
+- `news_collector.py`
+  - 뉴스 수집, 필터링, 저장 로직을 담당한다.
 
-Codex에 줄 작업 지시는 가능한 한 다음 형식을 따른다.
+- `requirements.txt`
+  - Python 패키지 의존성을 정의한다.
 
-```text
-목표:
-수정 대상:
-현재 문제:
-원하는 결과:
-주의사항:
-완료 후 알려줄 내용:
+- `.gitignore`
+  - output 파일과 실행 결과물을 Git에서 제외한다.
+
+- `README.md`
+  - 프로젝트 설명과 실행 방법을 문서화한다.
+
+- `scripts/`
+  - QA, 자동화, 보조 실행 스크립트를 보관한다.
+
+- `PROJECT_CONTEXT.md`
+  - Codex가 프로젝트 목적, 현재 방향, 우선순위를 이해하기 위한 기준 문서다.
+
+---
+
+## 11. 현재 UI 방향
+
+현재 UI는 Article Feed를 중심으로 정리한다.
+
+우선순위는 다음과 같다.
+
+1. Article Feed
+2. 시장/섹터/event_tags 필터
+3. access_limited 기사 분리
+4. 기사 원문 링크 접근성
+5. 기사 축적 현황 확인
+6. 이후 브리핑/인텔리전스 화면 확장
+
+현재 단계에서 브리핑, GP Action, 시장 인텔리전스 화면은 참고 기능 또는 2단계 기능으로 본다.
+
+---
+
+## 12. access_limited 기사 처리
+
+Urbanize, SF YIMBY 등 일부 소스는 접속 직후 짧게 본문이 보였다가 제한 화면으로 전환될 수 있다.
+
+이런 기사는 수집 결과에 포함될 수 있지만, 핵심 분석이나 인텔리전스 판단에는 바로 사용하지 않는다.
+
+처리 원칙은 다음과 같다.
+
+- access_limited 여부를 별도 표시한다.
+- Article Feed 하단 또는 별도 섹션에 보관한다.
+- 핵심 분석/해석에서는 제외한다.
+- 원문 접근성이 개선되거나 신뢰 가능한 요약이 확보되면 다시 사용할 수 있다.
+
+---
+
+## 13. Codex 작업 원칙
+
+Codex가 작업할 때는 다음 원칙을 따른다.
+
+1. 요청받은 파일만 수정한다.
+2. 기존 기능을 삭제하거나 단순화하기 전에 사용자에게 확인한다.
+3. 기사 원문 링크 기능을 보존한다.
+4. output 파일이 없거나 비어 있어도 앱이 죽지 않게 한다.
+5. 새 기능보다 안정적인 기사 축적 구조를 우선한다.
+6. Article Feed 관련 작업에서는 category보다 event_tags 구조를 우선 고려한다.
+7. access_limited 기사는 핵심 분석에서 제외하고 별도 보관한다.
+8. 수정 후 문법 검사 또는 실행 확인 방법을 알려준다.
+
+---
+
+## 14. 다음 작업 방향
+
+다음 단계에서는 코드 변경 전에 다음 순서로 작업한다.
+
+1. 현재 output CSV 구조 확인
+2. 기사별 market / sector / event_tags 필드 현황 확인
+3. Article Feed에서 event_tags를 표시하는 방식 설계
+4. 단일 category 중심 분류를 event_tags 중심 구조로 점진 전환
+5. access_limited 기사 분리 방식 안정화
+6. 충분한 기사 데이터가 쌓인 뒤 2단계 인텔리전스 기능 재정비
+

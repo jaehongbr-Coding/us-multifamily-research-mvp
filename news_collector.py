@@ -1840,6 +1840,105 @@ MARKET_FOCUS_RULES = [
 ]
 
 
+CORE_MARKET_ALIASES = {
+    "Los Angeles / Southern California": [
+        "los angeles", "southern california", "la county", "l.a.",
+        "santa monica", "beverly hills", "riverside", "inland empire",
+        "orange county", "urbanize la", "la.urbanize.city", "glendale",
+        "long beach", "south l.a.", "south la", "west hollywood",
+        "venice", "north hollywood",
+    ],
+    "New York / Northern New Jersey": [
+        "new york", "new york city", "nyc", "manhattan", "brooklyn",
+        "queens", "long island city", "northern new jersey",
+        "jersey city", "newark",
+    ],
+    "Dallas-Fort Worth": ["dallas", "fort worth", "dallas-fort worth", "north texas", "dfw"],
+    "Houston": ["houston"],
+    "Atlanta": ["atlanta", "duluth"],
+    "Phoenix": ["phoenix", "scottsdale", "tempe", "gilbert", "mesa"],
+    "Miami / South Florida": ["miami", "south florida", "west palm beach", "palm beach", "fort lauderdale"],
+    "Washington DC / Northern Virginia": [
+        "washington dc", "washington d.c.", "district of columbia",
+        "northern virginia", "arlington virginia", "national landing",
+    ],
+    "Seattle": ["seattle", "puget sound", "bellevue", "tacoma"],
+    "Denver": ["denver"],
+    "Austin": ["austin"],
+    "Charlotte": ["charlotte"],
+    "Raleigh-Durham": ["raleigh", "durham", "research triangle", "raleigh-durham"],
+    "Nashville": ["nashville"],
+    "Tampa / St. Petersburg": ["tampa", "st. petersburg", "st petersburg"],
+}
+
+WATCHLIST_MARKET_ALIASES = {
+    "Orlando": ["orlando"],
+    "San Antonio": ["san antonio"],
+    "Las Vegas": ["las vegas"],
+    "Salt Lake City": ["salt lake city"],
+    "Jacksonville": ["jacksonville"],
+    "Columbus": ["columbus"],
+    "Minneapolis": ["minneapolis", "twin cities"],
+    "San Diego": ["san diego"],
+}
+
+NORMALIZED_SECTOR_RULES = [
+    ("Build-to-Rent", ["build-to-rent", "built-to-rent", "btr", "horizontal apartments"]),
+    ("Single-Family Rental", ["single-family rental", "single family rental", "sfr", "rental homes"]),
+    ("Student Housing", ["student housing", "university housing", "student apartments", "campus housing"]),
+    ("Senior Housing", ["senior housing", "active adult", "assisted living", "independent living", "memory care"]),
+    ("Affordable Housing", ["affordable housing", "lihtc", "tax credit", "income-restricted", "mixed-income"]),
+    ("Workforce Housing", ["workforce housing", "middle-income housing", "attainable housing"]),
+    ("Mixed-use Residential", ["mixed-use residential", "mixed-use", "mixed use", "office-to-residential", "adaptive reuse"]),
+    ("Multifamily", ["multifamily", "multi-family", "apartment", "apartments", "general residential"]),
+]
+
+EVENT_TAG_RULES = [
+    ("development", [
+        "permit filed", "application filed", "filed plans", "proposed apartments",
+        "proposed housing", "entitlement", "zoning", "site prep",
+        "site preparation", "land purchase", "site acquisition",
+        "parcel acquisition", "breaks ground", "groundbreaking",
+        "construction begins", "construction starts", "under construction",
+        "tops out", "delivered", "completion", "opens", "grand opening",
+        "advances toward construction",
+    ]),
+    ("permit/entitlement", ["permit filed", "application filed", "filed plans", "proposed apartments", "proposed housing", "entitlement", "zoning", "approval", "face appeal", "appeal"]),
+    ("land/site acquisition", ["land acquisition", "site acquisition", "parcel acquisition", "land purchase", "development site"]),
+    ("construction start", ["construction start", "construction starts", "construction begins", "breaks ground", "groundbreaking", "work begins", "site prep"]),
+    ("under construction", ["under construction", "vertical construction", "tops out", "site prep underway"]),
+    ("delivery/completion", ["delivery", "deliveries", "completed", "completion", "opens", "grand opening", "lease-up"]),
+    ("transaction/sale", ["property sale", "asset sale", "portfolio sale", "sold", "sells", "disposition", "seeks buyers", "marketed for sale", "facilitates sale"]),
+    ("acquisition", ["acquisition", "acquires", "acquired", "buyout", "buys", "portfolio acquisition", "platform acquisition", "stake acquisition"]),
+    ("financing/refinancing", ["refinancing", "refinance", "loan", "debt financing", "mortgage", "lending platform", "construction loan", "bridge loan", "agency loan", "fha loan"]),
+    ("JV/recapitalization", ["joint venture", "jv", "recapitalization", "recap", "preferred equity"]),
+    ("policy/regulation", ["policy", "regulation", "legislation", "bill", "mandate", "rent control", "zoning reform", "hud", "fha", "fha loan"]),
+    ("market data/supply-demand", ["market data", "supply demand", "supply-demand", "housing starts", "starts data", "permits data", "construction data", "construction time", "developer confidence", "demand", "supply pressure", "pipeline", "oversupply", "vacancy", "missing middle construction"]),
+    ("construction cost", ["construction cost", "labor cost", "insurance cost", "materials cost", "cost increase"]),
+    ("rent/occupancy/absorption", ["rent growth", "effective rent", "asking rent", "occupancy", "vacancy", "absorption", "concession", "concessions"]),
+]
+
+ACCESS_LIMITED_SOURCE_HINTS = ["urbanize", "sf yimby"]
+ACCESS_LIMITED_URL_HINTS = ["urbanize.city", "sfyimby.com", "la.urbanize.city"]
+SF_YIMBY_SOURCE_HINTS = ["sf yimby", "sfyimby.com"]
+BAY_AREA_MARKET_HINTS = [
+    "palo alto", "san antonio road", "alameda county", "newark california",
+    "newark, california", "newark, ca", "san francisco", "bay area",
+    "oakland", "san jose", "berkeley", "fremont",
+]
+ACQUISITION_EVENT_HINTS = [
+    "acquisition", "acquires", "acquired", "buyout", "buys",
+    "buyer acquires", "investor acquires", "portfolio acquisition",
+    "platform acquisition", "company acquisition", "stake acquisition",
+]
+ACQUISITION_FINANCE_BLOCK_HINTS = [
+    "provides loan", "arranges loan", "fha loan", "agency loan", "loan for",
+    "loan for refinancing", "refinancing of", "arranges refinancing",
+    "provides financing", "affordable housing property", "apartment property",
+    "multifamily property", "mortgage", "recapitalization",
+]
+
+
 # ---------------------------------------------------------
 # 4. Small helper functions
 # ---------------------------------------------------------
@@ -2142,6 +2241,14 @@ def apply_project_anchor_fields(articles):
 
 ARTICLE_CLASSIFICATION_FIELDS = [
     "article_id",
+    "canonical_market",
+    "market_tier",
+    "normalized_sector",
+    "event_tags",
+    "access_limited_reason",
+    "is_core_market",
+    "is_watchlist_market",
+    "source_reliability_status",
     "canonical_article_id",
     "source_page_url",
     "extracted_article_title",
@@ -2357,6 +2464,183 @@ def first_or_none(values, default="none"):
     """Return a semicolon-friendly label list or default."""
     cleaned = [str(value).strip() for value in values if str(value).strip()]
     return "; ".join(cleaned) if cleaned else default
+
+
+def article_storage_text(article):
+    """Combine safe article fields for storage-level market/tag normalization."""
+    return normalize_keyword_text(" ".join([
+        str(article.get("title", "") or ""),
+        str(article.get("market_focus", "") or ""),
+        str(article.get("residential_sector", "") or ""),
+        str(article.get("topics", "") or ""),
+        str(article.get("matched_keywords", "") or ""),
+        str(article.get("strategic_angle", "") or ""),
+        str(article.get("decision_use", "") or ""),
+        str(article.get("market_signal", "") or ""),
+        str(article.get("article_text_sample", "") or ""),
+        str(article.get("url", "") or article.get("original_url", "") or ""),
+    ]))
+
+
+def article_market_priority_text(article):
+    """Use title/source/url first so stale market_focus does not override direct clues."""
+    return normalize_keyword_text(" ".join([
+        str(article.get("title", "") or ""),
+        str(article.get("source", "") or ""),
+        str(article.get("url", "") or article.get("original_url", "") or ""),
+    ]))
+
+
+def article_market_body_text(article):
+    """Use readable body text only after title/source/url market clues."""
+    return normalize_keyword_text(str(article.get("article_text_sample", "") or ""))
+
+
+def is_sf_yimby_article(article):
+    """Return True for SF YIMBY source/url so Bay Area names do not hit other metros."""
+    source_url = normalize_keyword_text(" ".join([
+        str(article.get("source", "") or ""),
+        str(article.get("url", "") or article.get("original_url", "") or ""),
+    ]))
+    return bool(find_matches(source_url, SF_YIMBY_SOURCE_HINTS))
+
+
+def has_bay_area_context(article):
+    """Detect Bay Area context before applying Core 15 / Watchlist aliases."""
+    return bool(find_matches(article_market_priority_text(article), BAY_AREA_MARKET_HINTS))
+
+
+def normalize_article_market(article):
+    """Map article geography to the PROJECT_CONTEXT Core 15 / Watchlist 8 labels."""
+    priority_text = article_market_priority_text(article)
+    if is_sf_yimby_article(article) and has_bay_area_context(article):
+        return "San Francisco / Bay Area"
+    for market, aliases in CORE_MARKET_ALIASES.items():
+        if find_matches(priority_text, aliases):
+            return market
+    for market, aliases in WATCHLIST_MARKET_ALIASES.items():
+        if find_matches(priority_text, aliases):
+            return market
+    body_text = article_market_body_text(article)
+    for market, aliases in CORE_MARKET_ALIASES.items():
+        if find_matches(body_text, aliases):
+            return market
+    for market, aliases in WATCHLIST_MARKET_ALIASES.items():
+        if find_matches(body_text, aliases):
+            return market
+    market_focus = str(article.get("market_focus", "") or "").strip()
+    if market_focus and market_focus not in {"Other / Unknown", "National"}:
+        return market_focus
+    return "Other / Unknown"
+
+
+def get_market_tier(canonical_market):
+    """Return core_15, watchlist_8, or other for a normalized market."""
+    if canonical_market in CORE_MARKET_ALIASES:
+        return "core_15"
+    if canonical_market in WATCHLIST_MARKET_ALIASES:
+        return "watchlist_8"
+    return "other"
+
+
+def normalize_article_sector(article):
+    """Map collector sector labels to the PROJECT_CONTEXT residential sectors."""
+    text = article_storage_text(article)
+    for sector, keywords in NORMALIZED_SECTOR_RULES:
+        if find_matches(text, keywords):
+            return sector
+    sector = str(article.get("residential_sector", "") or "").strip()
+    return sector or "Other Residential"
+
+
+def has_explicit_acquisition_signal(text):
+    """Keep acquisition tags for real buyer/acquisition signals, not loan/property text."""
+    strong_patterns = [
+        r"\b(acquires|acquired|buys|buyout)\b",
+        r"\b(buyer|investor)\s+acquires\b",
+        r"\b(company|platform|portfolio|stake)\s+acquisition\b",
+        r"\bacquisition\s+of\s+(a |an |the )?(company|platform|portfolio|stake)\b",
+        r"\bpurchase\s+of\s+(a |an |the )?(company|platform|portfolio)\b",
+    ]
+    if any(re.search(pattern, text) for pattern in strong_patterns):
+        return True
+    if find_matches(text, ACQUISITION_FINANCE_BLOCK_HINTS):
+        return False
+    return bool(find_matches(text, ["acquisition"]))
+
+
+def build_event_tags(article):
+    """Create multi-tag article labels for Article Feed storage, not a single category."""
+    text = article_storage_text(article)
+    tags = []
+    for tag, keywords in EVENT_TAG_RULES:
+        if tag == "acquisition" and not has_explicit_acquisition_signal(text):
+            continue
+        if find_matches(text, keywords):
+            tags.append(tag)
+    return "; ".join(unique_list(tags))
+
+
+def get_access_limited_reason(article, access_status):
+    """Explain why an article is open, limited, rss-only, or uncertain."""
+    source = str(article.get("source", "") or "").lower()
+    url = str(article.get("url", "") or article.get("original_url", "") or "").lower()
+    sample = str(article.get("article_text_sample", "") or "")
+    text = normalize_keyword_text(" ".join([
+        article.get("title", ""),
+        article.get("summary", ""),
+        sample,
+        article.get("reason_for_inclusion", ""),
+    ]))
+    if access_status == "access_limited":
+        if is_access_limited_source(article) and not has_reliable_readable_article_text(article):
+            return "limited source or insufficient readable article text"
+        if has_access_limited_warning_text(text):
+            return "page text includes subscription or login language"
+        if len(normalize_keyword_text(sample).strip()) < 120:
+            return "article body sample is too short for reliable open access"
+        return "limited article access detected"
+    if access_status == "rss_only":
+        return "article retained from RSS/title metadata only"
+    if access_status == "multi_article_page":
+        return "url appears to be a tag/category page rather than one article"
+    if access_status == "open":
+        return "article page appears accessible from collected text"
+    return "access status could not be determined"
+
+
+def get_source_reliability_status(article, access_status):
+    """Store a simple source reliability flag for Article Feed filtering."""
+    if access_status == "access_limited":
+        return "access_limited_source"
+    if access_status == "multi_article_page":
+        return "multi_article_page"
+    if access_status == "rss_only":
+        return "rss_only"
+    if not article.get("source") or not (article.get("url") or article.get("original_url")):
+        return "missing_source_or_url"
+    return "standard"
+
+
+def apply_article_storage_fields(articles):
+    """Add PROJECT_CONTEXT article-storage columns while preserving legacy fields."""
+    for article in articles:
+        lock_article_identity_fields(article)
+        canonical_market = normalize_article_market(article)
+        market_tier = get_market_tier(canonical_market)
+        access_status = normalize_access_status(article.get("access_status") or get_article_access_status(article))
+        article["article_id"] = article.get("article_id") or make_canonical_article_id(article)
+        article["canonical_market"] = canonical_market
+        article["market_tier"] = market_tier
+        article["normalized_sector"] = normalize_article_sector(article)
+        article["event_tags"] = build_event_tags(article)
+        article["access_status"] = access_status
+        article["content_access_status"] = access_status
+        article["access_limited_reason"] = get_access_limited_reason(article, access_status)
+        article["is_core_market"] = "Yes" if market_tier == "core_15" else "No"
+        article["is_watchlist_market"] = "Yes" if market_tier == "watchlist_8" else "No"
+        article["source_reliability_status"] = get_source_reliability_status(article, access_status)
+    return articles
 
 
 def classify_primary_topic(text, capital_events, development_stages, supply_signals, institutional_activity, financing_types, asset_strategy):
@@ -2619,16 +2903,57 @@ LIMITED_ACCESS_KEYWORDS = [
 
 
 def normalize_access_status(value):
-    """Normalize legacy access labels to one limited-access value."""
+    """Normalize legacy access labels to PROJECT_CONTEXT storage values."""
     status = str(value or "").strip().lower()
-    if status in {"paywall_or_limited", "limited_or_paywall"}:
-        return "limited_or_paywall"
+    if status in {"paywall_or_limited", "limited_or_paywall", "access_limited"}:
+        return "access_limited"
+    if status == "accessible":
+        return "open"
     return status or ""
 
 
 def is_limited_access_status(value):
     """Return True when an article should be treated as title/lead-only evidence."""
-    return normalize_access_status(value) == "limited_or_paywall"
+    return normalize_access_status(value) == "access_limited"
+
+
+def is_access_limited_source(article):
+    """Return True for sources/domains that frequently expose only limited text."""
+    source = str(article.get("source", "") or "").lower()
+    url = str(article.get("url", "") or article.get("original_url", "") or "").lower()
+    return (
+        any(hint in source for hint in ACCESS_LIMITED_SOURCE_HINTS)
+        or any(hint in url for hint in ACCESS_LIMITED_URL_HINTS)
+    )
+
+
+def has_access_limited_warning_text(text):
+    """Detect common paywall, subscription, login, and ad-shell language."""
+    warning_terms = [
+        *LIMITED_ACCESS_KEYWORDS,
+        "free articles remaining",
+        "advertisement",
+        "skip to main content advertisement",
+    ]
+    return bool(find_matches(text, warning_terms))
+
+
+def has_reliable_readable_article_text(article):
+    """Require enough non-paywall body text before opening limited-source articles."""
+    sample = str(article.get("article_text_sample", "") or article.get("summary", "") or "")
+    sample_text = normalize_keyword_text(sample)
+    if len(sample.strip()) < 800:
+        return False
+    if has_access_limited_warning_text(sample_text):
+        return False
+    title_terms = [
+        token for token in re.findall(r"[a-z0-9]+", normalize_keyword_text(article.get("title", "")))
+        if len(token) >= 5 and token not in {"apartments", "apartment", "housing", "multifamily", "property", "community"}
+    ]
+    if len(title_terms) < 2:
+        return True
+    overlap = sum(1 for token in title_terms[:8] if token in sample_text)
+    return overlap >= min(2, len(title_terms))
 
 
 def get_article_access_status(article):
@@ -2642,18 +2967,20 @@ def get_article_access_status(article):
     source = str(article.get("source", "") or "").lower()
     url = str(article.get("url", "") or article.get("original_url", "") or "").lower()
     sample_text = normalize_keyword_text(article.get("article_text_sample", ""))
-    if find_matches(text, LIMITED_ACCESS_KEYWORDS):
-        return "limited_or_paywall"
+    if has_access_limited_warning_text(text):
+        return "access_limited"
+    if is_access_limited_source(article) and not has_reliable_readable_article_text(article):
+        return "access_limited"
     if "bisnow" in source and len(sample_text) <= 650:
-        return "limited_or_paywall"
+        return "access_limited"
     if any(source_hint in source for source_hint in ["connect cre", "sf yimby", "urbanize"]):
         if not text or len(text) < 120:
-            return "limited_or_paywall"
+            return "access_limited"
         if "category" in url or "tag" in url or "page/" in url:
             return "multi_article_page"
     if not text:
         return "rss_only"
-    return "accessible"
+    return "open"
 
 
 def lock_article_identity_fields(article):
@@ -26276,6 +26603,7 @@ def save_to_csv(articles):
         ):
             article["gpt_strategic_analysis"] = build_rule_based_strategic_interpretation(article)
         enrich_article_classification(article)
+    apply_article_storage_fields(articles)
     apply_rent_demand_fields(articles)
     apply_project_anchor_fields(articles)
     enrich_signal_tuning_fields(articles)

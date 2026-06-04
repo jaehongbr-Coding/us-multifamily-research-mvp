@@ -8986,60 +8986,191 @@ def page_development_status_product(shared, filters):
 
 ARTICLE_CATEGORY_TERMS = {
     "market": [
-        "fed", "interest rate", "rates", "treasury", "bond yield",
-        "inflation", "macro", "economy", "financing", "refinancing",
-        "recapitalization", "recap", "loan", "mortgage", "debt",
-        "lender", "capital markets", "cmbs", "agency lending", "fannie mae",
-        "freddie mac", "bridge loan", "construction loan", "maturity",
-        "debt maturity", "distress", "liquidity", "cap rate",
+        "oversupply", "absorption", "vacancy", "rent growth", "concession",
+        "concessions", "construction cost", "labor cost", "insurance cost",
+        "developer sentiment", "construction data", "housing starts",
+        "starts data", "permits data", "permits and starts", "fed", "interest rate", "rates", "treasury",
+        "treasury yield", "sofr", "bank lending", "lending environment",
+        "mansion tax", "rent control", "housing policy", "zoning reform",
+        "affordable housing policy", "california regulation", "macro",
+        "market outlook", "sentiment", "policy", "bill", "legislation",
+        "mandate", "house", "senate", "white house", "regulation", "tax",
+        "developers pull back", "pull back on new builds", "cautious builders",
+        "permits weaken", "new builds", "supply pressure", "economy",
+        "inflation", "cap rate",
     ],
     "development": [
-        "entitlement", "permit", "permitting", "zoning", "ceqa",
-        "density bonus", "affordable overlay", "construction started",
-        "broke ground", "vertical construction", "opening", "completion",
-        "delivery", "lease-up", "site acquisition", "parcel",
-        "land assemblage", "redevelopment site",
+        "entitlement", "permit", "permitting", "zoning", "approval",
+        "proposed development", "planned project", "development plan",
+        "site acquisition", "land purchase", "parcel", "groundbreaking",
+        "breaks ground", "broke ground", "construction start",
+        "construction starts", "construction started", "construction begins",
+        "work begins", "site prep", "site preparation", "under construction",
+        "vertical construction", "delivery", "completion", "completed",
+        "opens", "opened", "tops out", "filed plans", "application filed",
+        "permit filed", "entitlement filed", "proposed apartments",
+        "proposed housing", "development proposed", "project proposed",
+        "grand opening", "opening celebration", "advances toward construction",
+        "advance toward construction", "toward construction",
+        "project paused", "shelved", "cancelled",
     ],
     "gp_capital": [
-        "gp", "developer", "sponsor", "joint venture", "jv", "partnership",
-        "institutional investor", "capital partner", "lender relationship",
-        "blackstone", "greystar", "hines", "related", "berkadia",
-        "walker & dunlop", "greystone", "cbre", "jll",
+        "platform acquisition", "company acquisition", "stake acquisition",
+        "portfolio acquisition", "portfolio sale", "large acquisition",
+        "disposition", "large disposition", "joint venture", "jv",
+        "recapitalization", "recap", "preferred equity", "rescue capital",
+        "construction loan", "bridge loan", "refinancing", "inventory loan",
+        "debt financing", "equity financing", "equity syndication", "loan closing",
+        "capital partner", "institutional investor", "blackstone",
+        "brookfield", "berkshire hathaway", "greystar", "related",
+        "kennedy wilson", "harrison street", "pccp", "jll", "cbre",
+        "walker & dunlop", "berkadia",
     ],
 }
 
 ARTICLE_DEVELOPMENT_EXECUTION_TERMS = [
+    "entitlement",
+    "permit",
+    "permitting",
+    "zoning",
+    "approval",
+    "proposed development",
+    "planned project",
+    "development plan",
+    "site acquisition",
+    "land purchase",
+    "land assemblage",
+    "redevelopment site",
+    "parcel acquisition",
     "broke ground",
+    "breaks ground",
+    "groundbreaking",
+    "construction start",
+    "construction starts",
     "construction started",
+    "construction begins",
+    "work begins",
+    "site prep",
+    "site preparation",
     "under construction",
     "vertical construction",
+    "filed plans",
+    "application filed",
+    "permit filed",
+    "entitlement filed",
+    "proposed apartments",
+    "proposed housing",
+    "development proposed",
+    "project proposed",
+    "tops out",
+    "grand opening",
+    "opening celebration",
+    "advances toward construction",
+    "advance toward construction",
+    "toward construction",
     "opened",
+    "opens",
     "completed",
+    "completion",
     "delivered",
-    "lease-up",
+    "delivery",
+    "project paused",
+    "shelved",
+    "cancelled",
 ]
 
 ARTICLE_MARKET_FINANCE_TERMS = [
-    "financing",
-    "refinancing",
-    "recapitalization",
-    "recap",
-    "loan",
-    "mortgage",
-    "debt",
-    "lender",
-    "capital markets",
-    "cmbs",
-    "agency lending",
-    "fannie mae",
-    "freddie mac",
-    "bridge loan",
-    "construction loan",
-    "maturity",
-    "debt maturity",
-    "distress",
-    "liquidity",
-    "cap rate",
+    "refinancing", "recapitalization", "recap", "loan", "loan closing",
+    "mortgage", "debt", "bridge loan", "construction loan",
+    "inventory loan", "debt financing", "equity financing", "equity syndication",
+    "preferred equity", "rescue capital", "capital partner",
+]
+
+ARTICLE_GP_CAPITAL_TRANSACTION_TERMS = [
+    "platform acquisition", "company acquisition", "stake acquisition",
+    "portfolio acquisition", "portfolio sale", "acquisition", "acquires",
+    "acquired", "sale", "sells", "sold", "disposition", "joint venture",
+    "jv", "recapitalization", "recap", "preferred equity", "rescue capital",
+    "construction loan", "bridge loan", "refinancing", "inventory loan",
+    "debt financing", "equity financing", "equity syndication", "loan closing",
+]
+
+ARTICLE_MARKET_DATA_TERMS = [
+    "construction data", "housing starts", "permits and starts",
+    "starts data", "permits data", "market data", "market outlook",
+    "construction time", "apartment construction time", "development time",
+    "oversupply", "absorption", "vacancy", "rent growth", "concessions",
+    "construction cost", "labor cost", "insurance cost",
+    "developer sentiment", "developer confidence", "sentiment", "fed", "interest rate",
+    "treasury yield", "sofr", "lending environment", "bank lending",
+    "mansion tax", "rent control", "housing policy", "zoning reform",
+    "affordable housing policy", "california regulation", "macro",
+    "developers pull back", "pull back on new builds", "cautious builders",
+    "permits weaken", "new builds", "supply pressure",
+]
+
+ARTICLE_MARKET_POLICY_TERMS = [
+    "policy", "bill", "legislation", "mandate", "house", "senate",
+    "white house", "regulation", "tax", "mansion tax", "rent control",
+    "housing bill", "road to housing bill", "zoning reform",
+    "affordable housing policy", "california regulation",
+]
+
+ARTICLE_GP_CAPITAL_ACTOR_TERMS = [
+    "jll", "cbre", "walker & dunlop", "berkadia", "blackstone",
+    "brookfield", "berkshire hathaway",
+]
+
+ARTICLE_GP_CAPITAL_ACTION_TERMS = [
+    "arranged", "arranges", "secured", "secures", "provided", "provides",
+    "launches", "launched", "launch",
+]
+
+ARTICLE_GP_CAPITAL_DEBT_PLATFORM_TERMS = [
+    "loan", "refinancing", "financing", "debt", "lending platform",
+    "mortgage division", "debt strategies", "financing platform",
+]
+
+ARTICLE_GP_CAPITAL_SALE_SCALE_TERMS = [
+    "seeks buyers", "seeking buyers", "sale mandate", "portfolio",
+    "portfolio sale", "apartment portfolio", "apartments",
+]
+
+ARTICLE_PROJECT_SPECIFIC_TERMS = [
+    "specific project", "project would", "project will", "planned project",
+    "proposed development", "development plan", "site acquisition",
+    "land purchase", "parcel acquisition", "land assemblage",
+    "breaks ground", "broke ground", "groundbreaking", "construction start",
+    "construction starts", "construction begins", "site prep",
+    "site preparation", "work begins", "under construction", "filed plans",
+    "application filed", "permit filed", "entitlement filed",
+    "proposed apartments", "proposed housing", "development proposed",
+    "project proposed", "grand opening", "opening celebration",
+    "advances toward construction", "advance toward construction",
+    "toward construction", "tops out", "delivery", "completion", "opens",
+    "project paused", "shelved", "cancelled",
+]
+
+ARTICLE_SITE_TERMS = ["site", "land", "parcel"]
+ARTICLE_SITE_ACTION_TERMS = [
+    "acquisition", "purchase", "assemblage", "bought", "buys", "acquired",
+    "development site", "redevelopment site", "prep", "preparation",
+    "underway", "work begins",
+]
+
+ARTICLE_ACCESS_LIMITED_SOURCE_TERMS = [
+    "urbanize", "urbanize la", "urbanize atlanta", "urbanize chicago",
+    "urbanize new york", "sf yimby",
+]
+
+ARTICLE_ACCESS_LIMITED_URL_TERMS = [
+    "urbanize.city", "sfyimby.com",
+]
+
+ARTICLE_ACCESS_LIMITED_WARNING_TERMS = [
+    "subscribe", "subscription", "sign in", "log in",
+    "free articles remaining", "paywall", "advertisement",
+    "skip to main content advertisement",
 ]
 
 
@@ -9059,37 +9190,217 @@ def article_feed_source(shared):
     return pd.concat(available, ignore_index=True, sort=False) if available else pd.DataFrame()
 
 
-def article_feed_category(row):
-    primary_section = str(row.get("primary_display_section", "") or "").strip().lower()
-    if primary_section == "market intelligence":
-        return "market"
-    if primary_section == "development activity":
-        return "development"
-    if primary_section == "gp / capital activity":
-        return "gp_capital"
-    if primary_section:
-        return "other"
-    blob = text_blob(row)
-    has_market = any(term in blob for term in ARTICLE_CATEGORY_TERMS["market"])
-    has_market_finance = any(term in blob for term in ARTICLE_MARKET_FINANCE_TERMS)
-    has_development = any(term in blob for term in ARTICLE_CATEGORY_TERMS["development"])
-    has_execution_milestone = any(term in blob for term in ARTICLE_DEVELOPMENT_EXECUTION_TERMS)
-    has_gp_capital = any(term in blob for term in ARTICLE_CATEGORY_TERMS["gp_capital"])
-    gp_capital_is_primary = has_gp_capital and not has_development
+def is_access_limited_article(row):
+    source_blob = " ".join(
+        str(row.get(field, "") or "").lower()
+        for field in ["source", "source_report", "platform_type"]
+    )
+    url = str(row.get("url", "") or row.get("source_url_if_available", "") or "").lower()
+    return (
+        any(source in source_blob for source in ARTICLE_ACCESS_LIMITED_SOURCE_TERMS)
+        or any(term in url for term in ARTICLE_ACCESS_LIMITED_URL_TERMS)
+    )
 
-    # Financing-led articles belong in Market unless they also describe a real
-    # execution milestone such as construction start, delivery, or lease-up.
-    if has_market_finance and not has_execution_milestone:
-        return "market"
-    if has_market and not has_execution_milestone:
-        return "market"
-    if gp_capital_is_primary:
-        return "gp_capital"
-    if has_development:
-        return "development"
-    if has_gp_capital:
-        return "gp_capital"
-    return "market"
+
+def article_feed_text_parts(row):
+    title = str(row.get("title", "") or row.get("card_title", "") or row.get("source_article_title", "") or "")
+    source = str(row.get("source", "") or row.get("source_report", "") or row.get("platform_type", "") or "")
+    summary = " ".join(
+        str(row.get(field, "") or "")
+        for field in [
+            "summary",
+            "article_text_sample",
+            "why_it_matters",
+            "strategic_implication",
+            "reason_for_inclusion",
+            "market_signal",
+        ]
+    )
+    url = str(row.get("url", "") or row.get("source_url_if_available", "") or "")
+    return {
+        "title": title.lower(),
+        "source": source.lower(),
+        "summary": summary.lower(),
+        "url": url.lower(),
+        "display": " ".join([title, source, summary, url]).lower(),
+    }
+
+
+def article_feed_has_term(term, text):
+    if not term:
+        return False
+    if re.search(r"[a-z0-9]$", term):
+        return re.search(rf"(?<![a-z0-9]){re.escape(term)}(?![a-z0-9])", text) is not None
+    return term in text
+
+
+def article_feed_matching_terms(terms, text, limit=4):
+    return [term for term in terms if article_feed_has_term(term, text)][:limit]
+
+
+def article_feed_term_score(terms, parts, strong=False):
+    title_matches = article_feed_matching_terms(terms, parts["title"])
+    source_matches = article_feed_matching_terms(terms, parts["source"])
+    summary_matches = article_feed_matching_terms(terms, parts["summary"])
+    url_matches = article_feed_matching_terms(terms, parts["url"])
+    base = 4 if strong else 2
+    score = 0
+    score += len(title_matches) * (base + 2)
+    score += len(source_matches) * (base + 1)
+    score += len(summary_matches) * base
+    score += len(url_matches)
+    matches = []
+    for term in [*title_matches, *source_matches, *summary_matches, *url_matches]:
+        if term not in matches:
+            matches.append(term)
+    return score, matches[:5]
+
+
+def has_accessible_article_body(row):
+    parts = article_feed_text_parts(row)
+    body = " ".join([parts["summary"], parts["display"]])
+    sample = str(row.get("article_text_sample", "") or row.get("summary", "") or "")
+    has_long_sample = len(sample.strip()) >= 500
+    has_paywall_text = any(term in body for term in ARTICLE_ACCESS_LIMITED_WARNING_TERMS)
+    return has_long_sample and not has_paywall_text
+
+
+def article_feed_confidence(top_score, second_score, reason_count, access_limited=False, override=False):
+    if override or (top_score >= 8 and top_score - second_score >= 3):
+        return "medium" if access_limited else "high"
+    if top_score >= 4:
+        return "medium"
+    if top_score >= 3 and reason_count:
+        return "medium"
+    return "low"
+
+
+def classify_article_feed_row(row):
+    primary_section = str(row.get("primary_display_section", "") or "").strip().lower()
+    parts = article_feed_text_parts(row)
+    display = parts["display"]
+    title_summary = " ".join(
+        str(row.get(field, "") or "").lower()
+        for field in ["title", "summary", "article_text_sample"]
+    )
+    limited_source = is_access_limited_article(row)
+
+    market_score, market_matches = article_feed_term_score(ARTICLE_MARKET_DATA_TERMS, parts, strong=True)
+    market_policy_score, market_policy_matches = article_feed_term_score(ARTICLE_MARKET_POLICY_TERMS, parts, strong=True)
+    development_score, development_matches = article_feed_term_score(ARTICLE_DEVELOPMENT_EXECUTION_TERMS, parts, strong=True)
+    capital_score, capital_matches = article_feed_term_score(ARTICLE_GP_CAPITAL_TRANSACTION_TERMS, parts, strong=True)
+    capital_name_score, capital_name_matches = article_feed_term_score(ARTICLE_CATEGORY_TERMS["gp_capital"], parts)
+    finance_score, finance_matches = article_feed_term_score(ARTICLE_MARKET_FINANCE_TERMS, parts, strong=True)
+    capital_score += capital_name_score + finance_score
+    capital_matches = [*capital_matches, *capital_name_matches, *finance_matches][:5]
+
+    has_policy_override = bool(article_feed_matching_terms(ARTICLE_MARKET_POLICY_TERMS, title_summary))
+    has_market_data_title = bool(article_feed_matching_terms(ARTICLE_MARKET_DATA_TERMS, title_summary))
+    gp_actor_matches = article_feed_matching_terms(ARTICLE_GP_CAPITAL_ACTOR_TERMS, title_summary)
+    gp_action_matches = article_feed_matching_terms(ARTICLE_GP_CAPITAL_ACTION_TERMS, title_summary)
+    gp_debt_platform_matches = article_feed_matching_terms(ARTICLE_GP_CAPITAL_DEBT_PLATFORM_TERMS, title_summary)
+    gp_sale_scale_matches = article_feed_matching_terms(ARTICLE_GP_CAPITAL_SALE_SCALE_TERMS, title_summary)
+    has_gp_debt_arranger = bool(gp_actor_matches and gp_action_matches and gp_debt_platform_matches)
+    has_gp_debt_platform = bool(gp_actor_matches and gp_debt_platform_matches)
+    has_gp_sale_scale = bool(gp_sale_scale_matches and re.search(r"\b\d{3,}[\d,]*\b", title_summary))
+    has_lender_side_capability = bool(
+        article_feed_matching_terms(["mortgage division", "lending platform", "financing platform", "debt strategies"], title_summary)
+    )
+    has_site_action = (
+        bool(article_feed_matching_terms(ARTICLE_SITE_TERMS, title_summary))
+        and bool(article_feed_matching_terms(ARTICLE_SITE_ACTION_TERMS, title_summary))
+    )
+    if has_site_action:
+        development_score += 5
+        if "site/land/parcel action" not in development_matches:
+            development_matches.append("site/land/parcel action")
+
+    if limited_source and not has_accessible_article_body(row):
+        return {
+            "category": "access_limited",
+            "confidence": "low",
+            "reason": "source is access-limited and article body/snippet is not reliable enough",
+        }
+
+    # Priority exceptions prevent keyword drift: policy/data beats transaction
+    # words, while true site-prep/groundbreaking/filing milestones beat generic
+    # market language.
+    if has_policy_override:
+        market_score += 8
+        category = "market"
+        reason = "policy/bill/regulation signal: " + ", ".join(market_policy_matches)
+        confidence = article_feed_confidence(market_score, max(development_score, capital_score), len(market_policy_matches), limited_source, override=True)
+    elif has_market_data_title:
+        market_score += 6
+        category = "market"
+        reason = "market data signal: " + ", ".join(market_matches or article_feed_matching_terms(ARTICLE_MARKET_DATA_TERMS, title_summary))
+        confidence = article_feed_confidence(market_score, max(development_score, capital_score), len(market_matches), limited_source, override=True)
+    elif has_gp_debt_arranger or has_gp_debt_platform or has_gp_sale_scale or has_lender_side_capability:
+        capital_score += 8
+        category = "gp_capital"
+        capital_override_matches = [
+            *gp_actor_matches,
+            *gp_action_matches,
+            *gp_debt_platform_matches,
+            *gp_sale_scale_matches,
+        ]
+        reason_terms = []
+        for term in capital_override_matches:
+            if term not in reason_terms:
+                reason_terms.append(term)
+        reason = "gp_capital transaction/platform signal: " + ", ".join(reason_terms or ["lender-side capability"])
+        confidence = article_feed_confidence(capital_score, max(market_score, development_score), len(reason_terms), limited_source, override=True)
+    else:
+        scores = {
+            "market": market_score,
+            "development": development_score,
+            "gp_capital": capital_score,
+        }
+        sorted_scores = sorted(scores.items(), key=lambda item: item[1], reverse=True)
+        category, top_score = sorted_scores[0]
+        second_score = sorted_scores[1][1]
+        match_map = {
+            "market": market_matches,
+            "development": development_matches,
+            "gp_capital": capital_matches,
+        }
+        if top_score < 3:
+            return {
+                "category": "review",
+                "confidence": "low",
+                "reason": "not enough article evidence for market/development/gp_capital",
+            }
+        confidence = article_feed_confidence(top_score, second_score, len(match_map[category]), limited_source)
+        if confidence == "low":
+            return {
+                "category": "review",
+                "confidence": "low",
+                "reason": "weak or conflicting category signals",
+            }
+        reason = f"{category} signal: " + ", ".join(match_map[category] or ["collector context"])
+
+    if primary_section == "market intelligence" and category == "review":
+        category, confidence, reason = "market", "medium", "collector routed this article to market intelligence"
+    if primary_section == "development activity" and category == "review":
+        category, confidence, reason = "development", "medium", "collector routed this article to development activity"
+    if primary_section == "gp / capital activity" and category == "review":
+        category, confidence, reason = "gp_capital", "medium", "collector routed this article to gp/capital activity"
+
+    if not display.strip():
+        return {
+            "category": "review",
+            "confidence": "low",
+            "reason": "missing title/source/summary/url evidence",
+        }
+    return {
+        "category": category,
+        "confidence": confidence,
+        "reason": reason,
+    }
+
+
+def article_feed_category(row):
+    return classify_article_feed_row(row)["category"]
 
 
 def article_feed_rows(shared):
@@ -9097,7 +9408,6 @@ def article_feed_rows(shared):
     if df.empty:
         return df
     rows = df.copy()
-    rows["_article_category"] = rows.apply(lambda row: article_feed_category(row.to_dict()), axis=1)
     rows["_article_title"] = rows.apply(lambda row: get_title(row.to_dict()), axis=1)
     rows["_article_key"] = rows.apply(
         lambda row: normalized_headline(row["_article_title"]) or str(get_url(row.to_dict())).strip().lower(),
@@ -9119,6 +9429,8 @@ def render_article_feed_item(row):
         "market": "시장 기사",
         "development": "개발 기사",
         "gp_capital": "GP / 자본 기사",
+        "review": "Review",
+        "access_limited": "Access-limited",
     }.get(item.get("_article_category"), "시장 기사")
     title = item.get("_article_title") or get_title(item)
     source = get_first(item, ["source", "source_report"], "Source 미확인")
@@ -9128,6 +9440,12 @@ def render_article_feed_item(row):
         st.write(f"**Source:** {source}")
         st.write(f"**Published:** {published}")
         st.write(f"**Category:** {category_label}")
+        confidence = get_first(item, ["_article_confidence"], "")
+        reason = get_first(item, ["_article_category_reason"], "")
+        if confidence:
+            st.write(f"**Classification confidence:** {confidence}")
+        if reason:
+            st.caption(f"Classification reason: {reason}")
         snippet = get_first(item, ["article_text_sample", "summary", "why_it_matters", "strategic_implication"], "")
         if snippet:
             st.write(f"**Summary / snippet:** {truncate_text(snippet, 420)}")
@@ -9152,6 +9470,14 @@ def render_article_feed_section(title, rows, limit=12):
         render_article_feed_item(row)
 
 
+def render_article_feed_collapsed_section(title, rows, limit=20):
+    if rows.empty:
+        return
+    with st.expander(title, expanded=False):
+        for _, row in rows.head(limit).iterrows():
+            render_article_feed_item(row)
+
+
 def page_article_feed(shared, filters):
     st.title("기사 모음 / Article Feed")
     st.caption("수집된 주요 기사들을 카테고리별로 확인하는 페이지입니다.")
@@ -9160,6 +9486,13 @@ def page_article_feed(shared, filters):
         missing_file_message(FILES["articles"])
         return
     counts = rows["_article_category"].value_counts()
+    review_count = int(counts.get("review", 0))
+    access_limited_count = int(counts.get("access_limited", 0))
+    total_count = max(len(rows), 1)
+    review_ratio = review_count / total_count
+    access_limited_ratio = access_limited_count / total_count
+    if review_ratio > 0.25:
+        st.warning("Review 기사 비율이 25%를 넘었습니다. Article Feed 분류 기준 점검이 필요합니다.")
     cols = st.columns(3)
     metrics = [
         ("시장 기사 수", int(counts.get("market", 0))),
@@ -9174,9 +9507,675 @@ def page_article_feed(shared, filters):
         "개발 기사: entitlement / construction / delivery / site 중심 | "
         "GP / 자본 기사: sponsor / lender / JV / capital partner 중심"
     )
-    render_article_feed_section("시장 기사", rows[rows["_article_category"] == "market"])
-    render_article_feed_section("개발 기사", rows[rows["_article_category"] == "development"])
-    render_article_feed_section("GP / 자본 기사", rows[rows["_article_category"] == "gp_capital"])
+    st.caption(f"Review ratio: {review_ratio:.1%} | Access-limited ratio: {access_limited_ratio:.1%}")
+    normal_confidence = rows["_article_confidence"].isin(["high", "medium"])
+    render_article_feed_section("시장 기사", rows[(rows["_article_category"] == "market") & normal_confidence])
+    render_article_feed_section("개발 기사", rows[(rows["_article_category"] == "development") & normal_confidence])
+    render_article_feed_section("GP / 자본 기사", rows[(rows["_article_category"] == "gp_capital") & normal_confidence])
+    render_article_feed_collapsed_section("Review / classification tuning samples", rows[rows["_article_category"] == "review"])
+    render_article_feed_collapsed_section("Access-limited sources", rows[rows["_article_category"] == "access_limited"])
+
+
+def article_feed_date(row):
+    value = get_first(row, ["published", "collected_at"], "")
+    if not value:
+        return "날짜 미확인"
+    parsed = pd.to_datetime(value, errors="coerce", utc=True)
+    if not pd.isna(parsed):
+        return parsed.strftime("%Y-%m-%d")
+    return truncate_text(str(value), 24)
+
+
+def article_feed_split_tags(value):
+    tags = []
+    for tag in str(value or "").split(";"):
+        clean_tag = tag.strip()
+        if clean_tag and clean_tag not in tags:
+            tags.append(clean_tag)
+    return tags
+
+
+def article_feed_unique_values(rows, column):
+    if rows.empty or column not in rows.columns:
+        return []
+    values = []
+    for value in rows[column].dropna().astype(str):
+        clean_value = value.strip()
+        if clean_value and clean_value not in values:
+            values.append(clean_value)
+    return sorted(values)
+
+
+def article_feed_unique_tags(rows):
+    tags = []
+    if rows.empty or "event_tags" not in rows.columns:
+        return tags
+    for value in rows["event_tags"].dropna().astype(str):
+        for tag in article_feed_split_tags(value):
+            if tag not in tags:
+                tags.append(tag)
+    return sorted(tags)
+
+
+ARTICLE_FEED_CORE_15_MARKETS = [
+    "Los Angeles / Southern California",
+    "New York / Northern New Jersey",
+    "Dallas-Fort Worth",
+    "Houston",
+    "Atlanta",
+    "Phoenix",
+    "Miami / South Florida",
+    "Washington DC / Northern Virginia",
+    "Seattle",
+    "Denver",
+    "Austin",
+    "Charlotte",
+    "Raleigh-Durham",
+    "Nashville",
+    "Tampa / St. Petersburg",
+]
+
+ARTICLE_FEED_WATCHLIST_8_MARKETS = [
+    "Orlando",
+    "San Antonio",
+    "Las Vegas",
+    "Salt Lake City",
+    "Jacksonville",
+    "Columbus",
+    "Minneapolis",
+    "San Diego",
+]
+
+ARTICLE_FEED_OTHER_MARKETS = ["San Francisco / Bay Area", "National / Macro", "Non-Core Local", "Unknown"]
+ARTICLE_FEED_BROAD_MARKET_VALUES = {
+    "",
+    "California",
+    "Sun Belt",
+    "Southeast",
+    "Texas",
+    "Florida",
+    "Arizona",
+    "National",
+    "Other / Unknown",
+}
+
+ARTICLE_FEED_MACRO_MARKET_TERMS = [
+    "absorption",
+    "vacancy",
+    "rent growth",
+    "housing starts",
+    "construction data",
+    "construction spending",
+    "developer confidence",
+    "market data",
+    "national",
+    "u.s.",
+    "nationwide",
+    "overall",
+    "survey",
+    "index",
+]
+
+ARTICLE_FEED_NON_CORE_LOCAL_TERMS = [
+    "nokomis",
+    "sarasota",
+    "baltimore",
+    "baltimore county",
+    "connecticut",
+    "southern connecticut",
+    "hilton head",
+    "south carolina",
+    "kenosha",
+    "wisconsin",
+    "ohio",
+    "cleveland",
+    "cincinnati",
+]
+
+ARTICLE_FEED_BAY_AREA_TERMS = [
+    "san francisco",
+    "bay area",
+    "palo alto",
+    "alameda county",
+    "newark california",
+    "newark, california",
+    "oakland",
+    "san jose",
+    "berkeley",
+    "fremont",
+]
+
+
+def article_feed_market_text(row):
+    return " ".join(
+        str(row.get(field, "") or "").lower()
+        for field in [
+            "title",
+            "canonical_market",
+            "market_focus",
+            "source",
+            "topics",
+            "event_tags",
+            "article_text_sample",
+            "url",
+        ]
+    )
+
+
+def article_feed_text_has_any(text, terms):
+    padded = f" {text.lower()} "
+    return any(term in padded for term in terms)
+
+
+def article_feed_has_specific_market_hint(row):
+    text = article_feed_market_text(row)
+    market_alias_terms = [
+        *(market.lower() for market in ARTICLE_FEED_CORE_15_MARKETS),
+        *(market.lower() for market in ARTICLE_FEED_WATCHLIST_8_MARKETS),
+        "los angeles",
+        "southern california",
+        "new york",
+        "northern new jersey",
+        "dallas",
+        "fort worth",
+        "houston",
+        "atlanta",
+        "phoenix",
+        "miami",
+        "south florida",
+        "washington dc",
+        "northern virginia",
+        "seattle",
+        "denver",
+        "austin",
+        "charlotte",
+        "raleigh",
+        "durham",
+        "nashville",
+        "tampa",
+        "st. petersburg",
+        "orlando",
+        "san antonio",
+        "las vegas",
+        "salt lake city",
+        "jacksonville",
+        "columbus",
+        "minneapolis",
+        "san diego",
+        *ARTICLE_FEED_NON_CORE_LOCAL_TERMS,
+        *ARTICLE_FEED_BAY_AREA_TERMS,
+    ]
+    return article_feed_text_has_any(text, market_alias_terms)
+
+
+def article_feed_display_market(row):
+    market = str(row.get("canonical_market", "") or "").strip()
+    text = article_feed_market_text(row)
+    if market in ARTICLE_FEED_CORE_15_MARKETS or market in ARTICLE_FEED_WATCHLIST_8_MARKETS:
+        return market
+    if (
+        market == "San Francisco / Bay Area"
+        or "san francisco" in market.lower()
+        or "bay area" in market.lower()
+        or article_feed_text_has_any(text, ARTICLE_FEED_BAY_AREA_TERMS)
+    ):
+        return "San Francisco / Bay Area"
+    if (
+        market == "National"
+        or str(row.get("market_focus", "") or "").strip() == "National"
+        or (article_feed_text_has_any(text, ARTICLE_FEED_MACRO_MARKET_TERMS) and not article_feed_has_specific_market_hint(row))
+    ):
+        return "National / Macro"
+    if market and market not in ARTICLE_FEED_BROAD_MARKET_VALUES:
+        return "Non-Core Local"
+    if article_feed_text_has_any(text, ARTICLE_FEED_NON_CORE_LOCAL_TERMS):
+        return "Non-Core Local"
+    if market in {"California", "Texas", "Florida", "Arizona"}:
+        return "Non-Core Local"
+    return "Unknown"
+
+
+def article_feed_market_options(rows, market_group):
+    if market_group == "Core 15":
+        return ["All", *ARTICLE_FEED_CORE_15_MARKETS]
+    if market_group == "Watchlist 8":
+        return ["All", *ARTICLE_FEED_WATCHLIST_8_MARKETS]
+    if market_group == "Other":
+        options = []
+        if not rows.empty:
+            for _, row in rows.iterrows():
+                market = article_feed_display_market(row.to_dict())
+                if market not in ARTICLE_FEED_CORE_15_MARKETS and market not in ARTICLE_FEED_WATCHLIST_8_MARKETS and market not in options:
+                    options.append(market)
+        ordered = [market for market in ARTICLE_FEED_OTHER_MARKETS if market in options or market == "Other / Unknown"]
+        ordered.extend(sorted(market for market in options if market not in ordered))
+        return ["All", *ordered]
+    return [
+        "All",
+        *ARTICLE_FEED_CORE_15_MARKETS,
+        *ARTICLE_FEED_WATCHLIST_8_MARKETS,
+        *ARTICLE_FEED_OTHER_MARKETS,
+    ]
+
+
+def article_feed_market_group(row):
+    market = article_feed_display_market(row)
+    tier = str(row.get("market_tier", "") or "").strip().lower()
+    if tier == "core_15" or market in ARTICLE_FEED_CORE_15_MARKETS or str(row.get("is_core_market", "")).strip().lower() == "yes":
+        return "Core 15"
+    if tier == "watchlist_8" or market in ARTICLE_FEED_WATCHLIST_8_MARKETS or str(row.get("is_watchlist_market", "")).strip().lower() == "yes":
+        return "Watchlist 8"
+    return "Other"
+
+
+def article_feed_is_access_limited(row):
+    return str(row.get("access_status", "") or "").strip().lower() == "access_limited"
+
+
+def filter_article_feed_rows(rows, market_group, market, sector, event_tag, include_access_limited):
+    if rows.empty:
+        return rows
+    filtered = rows.copy()
+    if not include_access_limited:
+        filtered = filtered[~filtered.apply(lambda row: article_feed_is_access_limited(row.to_dict()), axis=1)]
+    if market_group != "All":
+        filtered = filtered[filtered.apply(lambda row: article_feed_market_group(row.to_dict()) == market_group, axis=1)]
+    if market != "All":
+        filtered = filtered[filtered.apply(lambda row: article_feed_display_market(row.to_dict()) == market, axis=1)]
+    if sector != "All" and "normalized_sector" in filtered.columns:
+        filtered = filtered[filtered["normalized_sector"].fillna("").astype(str) == sector]
+    if event_tag != "All" and "event_tags" in filtered.columns:
+        filtered = filtered[filtered["event_tags"].fillna("").astype(str).apply(lambda value: event_tag in article_feed_split_tags(value))]
+    return filtered
+
+
+def render_article_feed_item(row):
+    item = row.to_dict() if hasattr(row, "to_dict") else row
+    title = item.get("_article_title") or get_title(item)
+    source = get_first(item, ["source", "source_report"], "Source 미확인")
+    market = get_first(item, ["canonical_market", "market_focus", "market", "primary_market"], "시장 미확인")
+    sector = get_first(item, ["normalized_sector", "residential_sector", "residential_sector_focus"], "섹터 미확인")
+    published = article_feed_date(item)
+    tags = article_feed_split_tags(item.get("event_tags", ""))[:2]
+    url = get_url(item)
+    with st.container():
+        st.markdown(f"**{title}**")
+        st.caption(f"{source} · {published}")
+        st.write(f"{market} · {sector}")
+        if tags:
+            st.caption(" · ".join(tags))
+        if article_feed_is_access_limited(item):
+            st.caption("접근 제한 가능")
+        if isinstance(url, str) and url.startswith("http"):
+            st.markdown(f"[원문 보기]({url})")
+
+
+def page_article_feed(shared, filters):
+    st.title("기사 모음 / Article Feed")
+    st.caption("수집된 주요 주거시장 뉴스를 시장, 섹터, 이벤트 태그별로 확인합니다.")
+    rows = article_feed_rows(shared)
+    if rows.empty:
+        missing_file_message(FILES["articles"])
+        return
+
+    total_articles = len(rows)
+    core_count = int(rows.apply(lambda row: article_feed_market_group(row.to_dict()) == "Core 15", axis=1).sum())
+    watchlist_count = int(rows.apply(lambda row: article_feed_market_group(row.to_dict()) == "Watchlist 8", axis=1).sum())
+    access_limited_count = int(rows.apply(lambda row: article_feed_is_access_limited(row.to_dict()), axis=1).sum())
+    cols = st.columns(4)
+    metrics = [
+        ("전체 기사 수", total_articles),
+        ("Core 15 기사 수", core_count),
+        ("Watchlist 8 기사 수", watchlist_count),
+        ("Access-limited 기사 수", access_limited_count),
+    ]
+    for col, (label, value) in zip(cols, metrics):
+        with col:
+            render_compact_metric(label, value)
+    other_counts = rows.apply(lambda row: article_feed_display_market(row.to_dict()), axis=1).value_counts()
+    st.caption(
+        "National / Macro: "
+        f"{int(other_counts.get('National / Macro', 0))} · "
+        "Non-Core Local: "
+        f"{int(other_counts.get('Non-Core Local', 0))} · "
+        "Unknown: "
+        f"{int(other_counts.get('Unknown', 0))}"
+    )
+
+    filter_cols = st.columns([1, 1.3, 1.2, 1.4, 1])
+    with filter_cols[0]:
+        market_group = st.selectbox("시장 그룹", ["All", "Core 15", "Watchlist 8", "Other"], key="article_feed_market_group")
+    with filter_cols[1]:
+        market = st.selectbox("시장", ["All", *article_feed_unique_values(rows, "canonical_market")], key="article_feed_market")
+    with filter_cols[2]:
+        sector = st.selectbox("섹터", ["All", *article_feed_unique_values(rows, "normalized_sector")], key="article_feed_sector")
+    with filter_cols[3]:
+        event_tag = st.selectbox("이벤트 태그", ["All", *article_feed_unique_tags(rows)], key="article_feed_event_tag")
+    with filter_cols[4]:
+        include_access_limited = st.checkbox("접근 제한 기사 포함", value=False, key="article_feed_include_access_limited")
+
+    filtered_rows = filter_article_feed_rows(
+        rows,
+        market_group,
+        market,
+        sector,
+        event_tag,
+        include_access_limited,
+    )
+    st.caption(f"표시 기사 수: {len(filtered_rows)}")
+    if filtered_rows.empty:
+        st.caption("조건에 맞는 기사가 없습니다.")
+        return
+    for _, row in filtered_rows.iterrows():
+        render_article_feed_item(row)
+
+
+def render_article_feed_item(row):
+    item = row.to_dict() if hasattr(row, "to_dict") else row
+    title = item.get("_article_title") or get_title(item)
+    source = get_first(item, ["source", "source_report"], "Source 미확인")
+    market = article_feed_display_market(item)
+    sector = get_first(item, ["normalized_sector", "residential_sector", "residential_sector_focus"], "섹터 미확인")
+    published = article_feed_date(item)
+    tags = article_feed_split_tags(item.get("event_tags", ""))[:2]
+    url = get_url(item)
+    with st.container():
+        st.markdown(f"**{title}**")
+        st.caption(f"{source} · {published}")
+        st.write(f"{market} · {sector}")
+        if tags:
+            st.caption(" · ".join(tags))
+        if article_feed_is_access_limited(item):
+            st.caption("접근 제한 가능")
+        if isinstance(url, str) and url.startswith("http"):
+            st.markdown(f"[원문 보기]({url})")
+
+
+def page_article_feed(shared, filters):
+    st.title("기사 모음 / Article Feed")
+    st.caption("수집된 주요 주거시장 뉴스를 시장, 섹터, 이벤트 태그별로 확인합니다.")
+    rows = article_feed_rows(shared)
+    if rows.empty:
+        missing_file_message(FILES["articles"])
+        return
+
+    total_articles = len(rows)
+    core_count = int(rows.apply(lambda row: article_feed_market_group(row.to_dict()) == "Core 15", axis=1).sum())
+    watchlist_count = int(rows.apply(lambda row: article_feed_market_group(row.to_dict()) == "Watchlist 8", axis=1).sum())
+    access_limited_count = int(rows.apply(lambda row: article_feed_is_access_limited(row.to_dict()), axis=1).sum())
+    cols = st.columns(4)
+    metrics = [
+        ("전체 기사 수", total_articles),
+        ("Core 15 기사 수", core_count),
+        ("Watchlist 8 기사 수", watchlist_count),
+        ("Access-limited 기사 수", access_limited_count),
+    ]
+    for col, (label, value) in zip(cols, metrics):
+        with col:
+            render_compact_metric(label, value)
+
+    filter_cols = st.columns([1, 1.3, 1.2, 1.4, 1])
+    with filter_cols[0]:
+        market_group = st.selectbox("시장 그룹", ["All", "Core 15", "Watchlist 8", "Other"], key="article_feed_market_group")
+    with filter_cols[1]:
+        market = st.selectbox("시장", article_feed_market_options(rows, market_group), key="article_feed_market")
+    with filter_cols[2]:
+        sector = st.selectbox("섹터", ["All", *article_feed_unique_values(rows, "normalized_sector")], key="article_feed_sector")
+    with filter_cols[3]:
+        event_tag = st.selectbox("이벤트 태그", ["All", *article_feed_unique_tags(rows)], key="article_feed_event_tag")
+    with filter_cols[4]:
+        include_access_limited = st.checkbox("접근 제한 기사 포함", value=False, key="article_feed_include_access_limited")
+
+    filtered_rows = filter_article_feed_rows(
+        rows,
+        market_group,
+        market,
+        sector,
+        event_tag,
+        include_access_limited,
+    )
+    st.caption(f"표시 기사 수: {len(filtered_rows)}")
+    if filtered_rows.empty:
+        st.caption("조건에 맞는 기사가 없습니다.")
+        return
+    for _, row in filtered_rows.iterrows():
+        render_article_feed_item(row)
+
+
+def market_dashboard_rows(shared):
+    return article_feed_rows(shared)
+
+
+def article_market_order():
+    return [
+        *ARTICLE_FEED_CORE_15_MARKETS,
+        *ARTICLE_FEED_WATCHLIST_8_MARKETS,
+        "San Francisco / Bay Area",
+        "National / Macro",
+        "Non-Core Local",
+        "Unknown",
+    ]
+
+
+def market_dashboard_market_counts(rows):
+    if rows.empty:
+        return pd.Series(dtype=int)
+    values = rows.apply(lambda row: article_feed_display_market(row.to_dict()), axis=1)
+    counts = values.value_counts()
+    ordered = [market for market in article_market_order() if counts.get(market, 0) > 0]
+    return counts.reindex(ordered).fillna(0).astype(int)
+
+
+def market_dashboard_sector_counts(rows, limit=10):
+    if rows.empty or "normalized_sector" not in rows.columns:
+        return pd.Series(dtype=int)
+    values = rows["normalized_sector"].fillna("").astype(str).str.strip()
+    values = values.replace({"": "Other", "nan": "Other", "None": "Other"})
+    return values.value_counts().head(limit)
+
+
+def market_dashboard_event_tag_counts(rows, limit=10):
+    if rows.empty or "event_tags" not in rows.columns:
+        return pd.Series(dtype=int)
+    tags = []
+    for value in rows["event_tags"].dropna().astype(str):
+        tags.extend(article_feed_split_tags(value))
+    if not tags:
+        return pd.Series(dtype=int)
+    return pd.Series(tags).value_counts().head(limit)
+
+
+def market_dashboard_recent_rows(rows, limit=5):
+    if rows.empty:
+        return rows
+    recent = rows.copy()
+    if "_published_sort" not in recent.columns:
+        recent["_published_sort"] = pd.to_datetime(recent.get("published"), errors="coerce", utc=True)
+    if "_run_sort" not in recent.columns:
+        recent["_run_sort"] = pd.to_datetime(recent.get("collected_at"), errors="coerce", utc=True)
+    return recent.sort_values(["_published_sort", "_run_sort"], ascending=[False, False], na_position="last").head(limit)
+
+
+def render_market_dashboard_chart(title, series):
+    st.markdown(f"### {title}")
+    if series is None or series.empty:
+        st.caption("표시할 기사 데이터가 없습니다.")
+        return
+    st.bar_chart(series)
+
+
+def page_market_dashboard(shared, filters):
+    st.title("Market Dashboard")
+    st.caption("수집된 미국 주거시장 뉴스를 시장, 섹터, 이벤트 기준으로 확인합니다.")
+    rows = market_dashboard_rows(shared)
+    if rows.empty:
+        missing_file_message(FILES["articles"])
+        return
+
+    total_articles = len(rows)
+    core_count = int(rows.apply(lambda row: article_feed_market_group(row.to_dict()) == "Core 15", axis=1).sum())
+    watchlist_count = int(rows.apply(lambda row: article_feed_market_group(row.to_dict()) == "Watchlist 8", axis=1).sum())
+    access_limited_count = int(rows.apply(lambda row: article_feed_is_access_limited(row.to_dict()), axis=1).sum())
+    cols = st.columns(4)
+    metrics = [
+        ("전체 기사 수", total_articles),
+        ("Core 15 기사 수", core_count),
+        ("Watchlist 8 기사 수", watchlist_count),
+        ("Access-limited 기사 수", access_limited_count),
+    ]
+    for col, (label, value) in zip(cols, metrics):
+        with col:
+            render_compact_metric(label, value)
+
+    chart_cols = st.columns(2)
+    with chart_cols[0]:
+        render_market_dashboard_chart("시장별 기사 수", market_dashboard_market_counts(rows))
+    with chart_cols[1]:
+        render_market_dashboard_chart("섹터별 기사 수", market_dashboard_sector_counts(rows))
+
+    render_market_dashboard_chart("이벤트 태그별 기사 수", market_dashboard_event_tag_counts(rows))
+
+    st.markdown("### Top Markets")
+    top_markets = market_dashboard_market_counts(rows).head(8)
+    if top_markets.empty:
+        st.caption("표시할 시장 데이터가 없습니다.")
+    else:
+        st.table(pd.DataFrame({
+            "시장 / 분류": top_markets.index,
+            "기사 수": top_markets.values,
+        }))
+
+    st.markdown("### 최근 기사")
+    recent_rows = market_dashboard_recent_rows(rows, limit=5)
+    if recent_rows.empty:
+        st.caption("표시할 최근 기사가 없습니다.")
+    else:
+        for _, row in recent_rows.iterrows():
+            render_article_feed_item(row)
+
+    st.caption("지도형 시장 대시보드는 다음 단계에서 추가 예정입니다.")
+
+
+def market_dashboard_chip_text(series, limit=8):
+    if series is None or series.empty:
+        return "표시할 기사 데이터가 없습니다."
+    items = []
+    for label, value in series.head(limit).items():
+        items.append(f"**{label}** {int(value)}")
+    return " · ".join(items)
+
+
+def market_dashboard_count_table(series, label_column, count_column, limit):
+    if series is None or series.empty:
+        return pd.DataFrame(columns=[label_column, count_column])
+    trimmed = series.head(limit)
+    return pd.DataFrame({
+        label_column: trimmed.index,
+        count_column: trimmed.astype(int).values,
+    })
+
+
+def render_market_dashboard_capture_cards(market_counts):
+    st.markdown("### 오늘의 시장 포착")
+    non_macro_counts = market_counts.drop(
+        labels=["National / Macro", "Non-Core Local", "Unknown"],
+        errors="ignore",
+    )
+    non_macro_counts = non_macro_counts[non_macro_counts > 0]
+    if non_macro_counts.empty:
+        top_market = "No tracked market"
+        top_count = 0
+    else:
+        top_market = str(non_macro_counts.idxmax())
+        top_count = int(non_macro_counts.max())
+
+    macro_count = int(market_counts.get("National / Macro", 0))
+    non_core_count = int(market_counts.get("Non-Core Local", 0))
+    cards = [
+        ("최다 포착 시장", top_market, top_count),
+        ("전국/매크로 흐름", "National / Macro", macro_count),
+        ("비추적 지역 신호", "Non-Core Local", non_core_count),
+    ]
+    cols = st.columns(3)
+    for col, (label, value, count) in zip(cols, cards):
+        with col:
+            st.markdown(
+                f"""
+                <div class="metric-card">
+                    <div class="metric-label">{label}</div>
+                    <div class="metric-value" style="font-size:1.1rem;line-height:1.3;">{value}</div>
+                    <div class="metric-footnote">{count} articles</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+
+
+def render_market_dashboard_ranking(market_counts, limit=10):
+    st.markdown("### 기사 분포 랭킹")
+    ranking = market_counts[market_counts > 0].sort_values(ascending=False).head(limit)
+    if ranking.empty:
+        st.caption("표시할 시장 데이터가 없습니다.")
+        return
+    max_count = max(int(ranking.max()), 1)
+    for market, count in ranking.items():
+        count = int(count)
+        label_col, count_col = st.columns([4, 1])
+        with label_col:
+            st.markdown(f"**{market}**")
+        with count_col:
+            st.markdown(f"{count} articles")
+        st.progress(min(count / max_count, 1.0))
+
+
+def page_market_dashboard(shared, filters):
+    st.title("Market Dashboard")
+    st.caption("수집된 미국 주거시장 뉴스를 시장, 섹터, 이벤트 기준으로 확인합니다.")
+    rows = market_dashboard_rows(shared)
+    if rows.empty:
+        missing_file_message(FILES["articles"])
+        return
+
+    total_articles = len(rows)
+    core_count = int(rows.apply(lambda row: article_feed_market_group(row.to_dict()) == "Core 15", axis=1).sum())
+    watchlist_count = int(rows.apply(lambda row: article_feed_market_group(row.to_dict()) == "Watchlist 8", axis=1).sum())
+    access_limited_count = int(rows.apply(lambda row: article_feed_is_access_limited(row.to_dict()), axis=1).sum())
+
+    cols = st.columns(4)
+    metrics = [
+        ("전체 기사 수", total_articles),
+        ("Core 15 기사 수", core_count),
+        ("Watchlist 8 기사 수", watchlist_count),
+        ("Access-limited 기사 수", access_limited_count),
+    ]
+    for col, (label, value) in zip(cols, metrics):
+        with col:
+            render_compact_metric(label, value)
+
+    market_counts = market_dashboard_market_counts(rows)
+    sector_counts = market_dashboard_sector_counts(rows, limit=5)
+    event_tag_counts = market_dashboard_event_tag_counts(rows, limit=8)
+
+    render_market_dashboard_capture_cards(market_counts)
+    render_market_dashboard_ranking(market_counts, limit=10)
+
+    st.markdown("### 최근 수집 기사")
+    recent_rows = market_dashboard_recent_rows(rows, limit=3)
+    if recent_rows.empty:
+        st.caption("표시할 최근 기사가 없습니다.")
+    else:
+        for _, row in recent_rows.iterrows():
+            render_article_feed_item(row)
+
+    summary_cols = st.columns(2)
+    with summary_cols[0]:
+        st.markdown("### 주요 섹터")
+        st.table(market_dashboard_count_table(sector_counts, "섹터", "기사 수", limit=5))
+    with summary_cols[1]:
+        st.markdown("### 주요 이벤트 태그")
+        st.table(market_dashboard_count_table(event_tag_counts, "이벤트 태그", "기사 수", limit=8))
+
+    st.caption("지도형 시장 대시보드는 다음 단계에서 추가 예정입니다.")
 
 
 MARKET_SIGNAL_RULES = [
@@ -11374,6 +12373,49 @@ def main():
     pages[page_name](shared, filters)
     st.divider()
     st.caption("US Residential Intelligence | Institutional Morning Brief | Pilot v0.1")
+
+
+# ACTIVE MAIN - Article Feed phase navigation
+def main():
+    st.set_page_config(
+        page_title="US Residential Intelligence",
+        page_icon="🏙️",
+        layout="wide",
+        initial_sidebar_state="expanded",
+    )
+    inject_css()
+    if not OUTPUT_DIR.exists():
+        st.warning(CLOUD_MISSING_MESSAGE)
+    shared = load_shared_data()
+    st.session_state["shared_data"] = shared
+    summary = latest_summary(shared["summary"])
+    latest_run = summary.get("run_timestamp", "run timestamp unavailable")
+
+    st.sidebar.title("US Residential Intelligence")
+    st.sidebar.caption("US residential news archive")
+    pages = {
+        "Market Dashboard": page_market_dashboard,
+        "Article Feed": page_article_feed,
+    }
+    page_name = st.sidebar.radio("Page", list(pages.keys()), index=0)
+    st.sidebar.markdown(
+        f"""
+        <div class="sidebar-version">
+            <strong>Pilot Version</strong><br>
+            v0.1<br><br>
+            Latest run<br>
+            {latest_run}
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    filters = {}
+    app_header(shared)
+    st.caption(f"Latest run: {latest_run}")
+    pages[page_name](shared, filters)
+    st.divider()
+    st.caption("US Residential Intelligence | News Archive Dashboard | Pilot v0.1")
 
 
 if __name__ == "__main__":

@@ -1,3 +1,5 @@
+# DEPRECATED
+# Replaced by scheduled_collector.yml
 name: Daily News Collector
 
 on:

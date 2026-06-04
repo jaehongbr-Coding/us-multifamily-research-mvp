@@ -1,15 +1,15 @@
 # Executive Dashboard Brief
 
-Generated: 2026-06-04 00:01:36
+Generated: 2026-06-04 08:14:13
 
 ## Executive Snapshot
 
-- Total articles reviewed: 81
-- High-confidence signals: 43
-- Institutional-grade signals: 15
-- Opportunities: 55
+- Total articles reviewed: 80
+- High-confidence signals: 44
+- Institutional-grade signals: 16
+- Opportunities: 53
 - Distress signals: 10
-- Recommended executive focus: Review Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties and related high-confidence project signals.
+- Recommended executive focus: Review Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments and related high-confidence project signals.
 
 ## Top 5 Things to Review Today
 

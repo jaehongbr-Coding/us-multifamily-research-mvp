@@ -1,6 +1,6 @@
 # 한국어 LA / California 인허가 Watch
 
-- 생성 시각: 2026-06-04 00:01:36
+- 생성 시각: 2026-06-04 08:14:13
 - 참고 원문 파일: `la_entitlement_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -23,7 +23,6 @@
 
 ## CEQA / Environmental Review
 
-- Could 'Living As A Service' Be The Future Of The Apartment Business?: 전국, 아파트, 점수 65 (CEQA risk)
 - Renters remain cautious but demand holds steady: Sun Belt, 아파트, 점수 65 (CEQA risk)
 
 ## Planning / Permit Signals

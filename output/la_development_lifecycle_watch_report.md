@@ -1,6 +1,6 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-06-04 00:01:48
+Generated: 2026-06-04 08:14:25
 
 - Total LA lifecycle watch items: 52
 
@@ -66,8 +66,8 @@ Generated: 2026-06-04 00:01:48
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 84
-- Newly detected projects: 53
+- Lifecycle transitions analyzed: 80
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 52
@@ -78,10 +78,10 @@ Generated: 2026-06-04 00:01:48
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 685
-- Canonical projects: 169
-- Duplicate project clusters: 118
-- Persistent assets tracked: 169
-- LA persistent asset watch items: 123
+- Raw project references: 662
+- Canonical projects: 164
+- Duplicate project clusters: 115
+- Persistent assets tracked: 164
+- LA persistent asset watch items: 122
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

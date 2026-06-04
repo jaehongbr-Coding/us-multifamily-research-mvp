@@ -1,8 +1,8 @@
 # LA / Southern California Asset Watch Report
 
-Generated: 2026-06-04 00:01:46
+Generated: 2026-06-04 08:14:23
 
-- Total LA / Southern California asset watch items: 57
+- Total LA / Southern California asset watch items: 56
 
 ## Top LA Site-Level Opportunities
 
@@ -25,7 +25,7 @@ Generated: 2026-06-04 00:01:46
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 54.
 - Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 49.
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 47.
-- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 44.
+- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 46.
 - Development Start - California - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach: Los Angeles, Affordable / Density Bonus Strategy, la_asset_risk_score 40.
 - Development Start - California - Affirmed Housing, VTA Break Ground on San Jose TOD: Los Angeles, Development Start, la_asset_risk_score 40.
 - General Project Signal - California - Construction Tops Out at La Mesa Townhome/Apartment Complex: Los Angeles, General Asset Signal, la_asset_risk_score 39.
@@ -82,9 +82,9 @@ Generated: 2026-06-04 00:01:46
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 84
+- Lifecycle records: 80
 - LA lifecycle watch items: 52
-- Stage mix: Refinancing / Recapitalization: 12, Unknown Stage: 52, Site Acquisition / Site Control: 12, Entitlement Under Review: 1, Community Review: 1
+- Stage mix: Refinancing / Recapitalization: 12, Unknown Stage: 49, Site Acquisition / Site Control: 11, Entitlement Under Review: 1, Community Review: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -92,8 +92,8 @@ Generated: 2026-06-04 00:01:46
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 84
-- Newly detected projects: 53
+- Lifecycle transitions analyzed: 80
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 52
@@ -104,10 +104,10 @@ Generated: 2026-06-04 00:01:46
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 685
-- Canonical projects: 169
-- Duplicate project clusters: 118
-- Persistent assets tracked: 169
-- LA persistent asset watch items: 123
+- Raw project references: 662
+- Canonical projects: 164
+- Duplicate project clusters: 115
+- Persistent assets tracked: 164
+- LA persistent asset watch items: 122
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

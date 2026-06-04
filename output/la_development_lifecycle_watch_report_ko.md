@@ -1,6 +1,6 @@
 # 한국어 LA 개발 단계 Watch
 
-- 생성 시각: 2026-06-04 00:01:36
+- 생성 시각: 2026-06-04 08:14:13
 - 참고 원문 파일: `la_development_lifecycle_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -19,16 +19,16 @@
 
 ## 진행 / 정체 / 재등장 신호
 
-- Timber Senior Apartments Open in Newark, Alameda County: Los Angeles, 아파트, 점수 71 (Newly Detected Project; Unknown)
+- Timber Senior Apartments Open in Newark, Alameda County: Los Angeles, 아파트, 점수 76 (Mature / Operating; Mature)
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: California, 어포더블 하우징, 점수 65 (Same Stage Persistence; Stable)
+- Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments: Los Angeles, 아파트, 점수 65 (Same Stage Persistence; Stable)
+- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Los Angeles, 아파트, 점수 65 (Same Stage Persistence; Stable)
 - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Los Angeles, 아파트, 점수 64 (Same Stage Persistence; Stable)
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: California, 아파트, 점수 64 (Same Stage Persistence; Stable)
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Los Angeles, 아파트, 점수 63 (Same Stage Persistence; Stable)
+- Refinancing - New York City / New York - Derby Copeland Capital Provides $54 Million Refi for Lexington Avenue Condo: Los Angeles, 일반 주거, 점수 62 (Same Stage Persistence; Stable)
 - Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi: Los Angeles, 학생주택, 점수 61 (Same Stage Persistence; Stable)
-- Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments: Los Angeles, 아파트, 점수 60 (Newly Detected Project; Unknown)
-- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Los Angeles, 아파트, 점수 60 (Newly Detected Project; Unknown)
-- Refinancing - New York City / New York - Derby Copeland Capital Provides $54 Million Refi for Lexington Avenue Condo: Los Angeles, 일반 주거, 점수 57 (Newly Detected Project; Unknown)
-- Office-to-Residential Conversion - Los Angeles / California - Mayor Bass: Adaptive Reuse Key to Revitalizing Downtown LA: Los Angeles, 오피스-주거 전환, 점수 50 (Unknown Transition; Unknown)
+- Acquisition - California - CBRE Brokers $3.7M Sale of Multi-Tenant Retail Property in Santee, California: California, 일반 주거, 점수 50 (Unknown Transition; Unknown)
 
 ## 인허가 / 착공 / 리스업 타이밍
 

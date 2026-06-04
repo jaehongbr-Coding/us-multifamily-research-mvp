@@ -1,15 +1,15 @@
 # GP / Developer Intelligence Report
 
-Generated: 2026-06-04 00:01:42
+Generated: 2026-06-04 08:14:18
 
 ## Top Institutional Signals
 
 - CBRE: acquisition; disposition / exit; office-to-residential conversion; operational technology / AI adoption, California, sources: Core Multifamily News; Regional / California / LA Sources; Site / Parcel Source Expansion, strength 100. competitive pressure indicator; review LA / California development activity.
 - JLL: acquisition; disposition / exit; refinancing; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 100. competitive pressure indicator; track refinancing pipeline.
-- Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News, strength 97. competitive pressure indicator; track construction innovation strategy.
 - Freestone Capital: recapitalization; JV / partnership; capital raise; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 83. potential JV partnership signal; monitor JV activity.
 - PEF Advisors: recapitalization; JV / partnership; capital raise; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 83. potential JV partnership signal; monitor JV activity.
 - Santa Ana Multifamily JLL Capital: refinancing; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 83. competitive pressure indicator; track refinancing pipeline.
+- Marcus & Millichap: disposition / exit; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News, strength 77. competitive pressure indicator; track construction innovation strategy.
 - BHI: refinancing; operational technology / AI adoption, New York, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
 - Berkadia: refinancing; operational technology / AI adoption, Sarasota / Florida, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track refinancing pipeline.
 - Dunlop Capital: refinancing; operational technology / AI adoption, New York, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
@@ -19,10 +19,10 @@ Generated: 2026-06-04 00:01:42
 
 - CBRE: acquisition; disposition / exit; office-to-residential conversion; operational technology / AI adoption, California, sources: Core Multifamily News; Regional / California / LA Sources; Site / Parcel Source Expansion, strength 100. competitive pressure indicator; review LA / California development activity.
 - JLL: acquisition; disposition / exit; refinancing; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 100. competitive pressure indicator; track refinancing pipeline.
-- Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News, strength 97. competitive pressure indicator; track construction innovation strategy.
 - Freestone Capital: recapitalization; JV / partnership; capital raise; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 83. potential JV partnership signal; monitor JV activity.
 - PEF Advisors: recapitalization; JV / partnership; capital raise; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 83. potential JV partnership signal; monitor JV activity.
 - Santa Ana Multifamily JLL Capital: refinancing; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 83. competitive pressure indicator; track refinancing pipeline.
+- Marcus & Millichap: disposition / exit; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News, strength 77. competitive pressure indicator; track construction innovation strategy.
 - BHI: refinancing; operational technology / AI adoption, New York, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
 - Berkadia: refinancing; operational technology / AI adoption, Sarasota / Florida, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track refinancing pipeline.
 - Dunlop Capital: refinancing; operational technology / AI adoption, New York, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
@@ -44,10 +44,10 @@ Generated: 2026-06-04 00:01:42
 
 - CBRE: acquisition; disposition / exit; office-to-residential conversion; operational technology / AI adoption, California, sources: Core Multifamily News; Regional / California / LA Sources; Site / Parcel Source Expansion, strength 100. competitive pressure indicator; review LA / California development activity.
 - JLL: acquisition; disposition / exit; refinancing; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 100. competitive pressure indicator; track refinancing pipeline.
-- Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News, strength 97. competitive pressure indicator; track construction innovation strategy.
 - Freestone Capital: recapitalization; JV / partnership; capital raise; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 83. potential JV partnership signal; monitor JV activity.
 - PEF Advisors: recapitalization; JV / partnership; capital raise; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 83. potential JV partnership signal; monitor JV activity.
 - Santa Ana Multifamily JLL Capital: refinancing; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 83. competitive pressure indicator; track refinancing pipeline.
+- Marcus & Millichap: disposition / exit; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News, strength 77. competitive pressure indicator; track construction innovation strategy.
 - BHI: refinancing; operational technology / AI adoption, New York, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
 - Berkadia: refinancing; operational technology / AI adoption, Sarasota / Florida, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track refinancing pipeline.
 - Dunlop Capital: refinancing; operational technology / AI adoption, New York, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
@@ -115,9 +115,9 @@ Developer and GP relationship edges are available in `relationship_graph_report.
 
 - CBRE: review LA / California development activity
 - JLL: track refinancing pipeline
-- Marcus & Millichap: track construction innovation strategy
 - Freestone Capital: monitor JV activity
 - PEF Advisors: monitor JV activity
 - Santa Ana Multifamily JLL Capital: track refinancing pipeline
+- Marcus & Millichap: track construction innovation strategy
 - BHI: track refinancing pipeline
 - Berkadia: track refinancing pipeline

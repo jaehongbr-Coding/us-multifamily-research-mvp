@@ -1,14 +1,14 @@
 # Development Lifecycle Report
 
-Generated: 2026-06-04 00:01:48
+Generated: 2026-06-04 08:14:24
 
-- Total lifecycle records: 84
+- Total lifecycle records: 80
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 52
+- Unknown Stage: 49
 - Refinancing / Recapitalization: 12
-- Site Acquisition / Site Control: 12
+- Site Acquisition / Site Control: 11
 - Delivery / Opening: 4
 - Entitlement Under Review: 1
 - Community Review: 1
@@ -38,8 +38,8 @@ Generated: 2026-06-04 00:01:48
 - Refinancing - Sarasota / Florida - Berkadia Arranges $82.1M Refinancing for Apartment Community in Nokomis, Florida: Refinancing / Recapitalization, Sarasota, lifecycle_risk_score 52.
 - Refinancing - New York City / New York - Derby Copeland Capital Provides $54 Million Refi for Lexington Avenue Condo: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 52.
 - Refinancing - Connecticut - Newmark Provides $115.6M Agency Loan for Refinancing of Southern Connecticut Multifamily P...: Refinancing / Recapitalization, Connecticut, lifecycle_risk_score 51.
+- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Refinancing / Recapitalization, Austin, lifecycle_risk_score 48.
 - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Entitlement Under Review, Glendale, lifecycle_risk_score 48.
-- Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi: Refinancing / Recapitalization, Atlanta, lifecycle_risk_score 48.
 
 ## Projects Under Entitlement / Planning
 
@@ -69,8 +69,8 @@ Generated: 2026-06-04 00:01:48
 - Refinancing - Sarasota / Florida - Berkadia Arranges $82.1M Refinancing for Apartment Community in Nokomis, Florida: Refinancing / Recapitalization, Sarasota, lifecycle_risk_score 52.
 - Refinancing - New York City / New York - Derby Copeland Capital Provides $54 Million Refi for Lexington Avenue Condo: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 52.
 - Refinancing - Connecticut - Newmark Provides $115.6M Agency Loan for Refinancing of Southern Connecticut Multifamily P...: Refinancing / Recapitalization, Connecticut, lifecycle_risk_score 51.
+- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Refinancing / Recapitalization, Austin, lifecycle_risk_score 48.
 - Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi: Refinancing / Recapitalization, Atlanta, lifecycle_risk_score 48.
-- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Refinancing / Recapitalization, Austin, lifecycle_risk_score 46.
 - Berkadia Arranges $82.1M Refinancing for Apartment Community in Nokomis, Florida: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 44.
 - Newmark Provides $115.6M Agency Loan for Refinancing of Southern Connecticut Multifamily Properties: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 43.
 
@@ -94,8 +94,8 @@ Generated: 2026-06-04 00:01:48
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 84
-- Newly detected projects: 53
+- Lifecycle transitions analyzed: 80
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 52
@@ -106,11 +106,11 @@ Generated: 2026-06-04 00:01:48
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 685
-- Canonical projects: 169
-- Duplicate project clusters: 118
-- Persistent assets tracked: 169
-- LA persistent asset watch items: 123
+- Raw project references: 662
+- Canonical projects: 164
+- Duplicate project clusters: 115
+- Persistent assets tracked: 164
+- LA persistent asset watch items: 122
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -118,10 +118,10 @@ Generated: 2026-06-04 00:01:48
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 169
-- Institutional-grade signals: 15
-- High-confidence signals: 43
-- Weak/noisy signals: 99
-- High-confidence watchlist items: 43
+- Signals evaluated: 164
+- Institutional-grade signals: 16
+- High-confidence signals: 44
+- Weak/noisy signals: 96
+- High-confidence watchlist items: 44
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

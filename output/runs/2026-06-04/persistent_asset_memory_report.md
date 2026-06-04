@@ -1,11 +1,11 @@
 # Persistent Asset Memory Report
 
-Generated: 2026-06-04 00:01:48
+Generated: 2026-06-04 08:14:25
 
-- Total persistent assets tracked: 169
-- Newly detected assets: 151
+- Total persistent assets tracked: 164
+- Newly detected assets: 115
 - Progressing assets: 0
-- Possible stalled assets: 3
+- Possible stalled assets: 5
 
 ## Highest Priority Asset Watch Items
 
@@ -16,9 +16,9 @@ Generated: 2026-06-04 00:01:48
 - Office-to-Residential Conversion - Los Angeles / California - Mayor Bass: Adaptive Reuse Key to Revitalizing Downtown LA: Priority Asset Watch, Unknown Stage, score 88.
 - General Project Signal - California - Good + Roberts Tops Out on $29M San Diego Multifamily Mixed-Use Housing Development: Priority Asset Watch, Unknown Stage, score 86.
 - Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Priority Asset Watch, Unknown Stage, score 86.
+- JV / Partnership - Riverside / California - Blackstone’s Link Logistics Sells Light Industrial Portfolio for $1.8B: Priority Asset Watch, Unknown Stage, score 85.
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Priority Asset Watch, Refinancing / Recapitalization, score 84.
 - BTR / Build-to-Rent - Phoenix / Arizona - Berkshire Hathaway acquires BTR player Taylor Morrison for $8.5B: Priority Asset Watch, Unknown Stage, score 84.
-- JV / Partnership - Riverside / California - Blackstone’s Link Logistics Sells Light Industrial Portfolio for $1.8B: Priority Asset Watch, Unknown Stage, score 84.
 
 ## Assets With Repeated Financing Signals
 
@@ -31,7 +31,7 @@ Generated: 2026-06-04 00:01:48
 - Refinancing - New York City / New York - Derby Copeland Capital Provides $54 Million Refi for Lexington Avenue Condo: Priority Asset Watch, Refinancing / Recapitalization, score 78.
 - Entitlement / Permitting - Atlanta / Georgia - Cambridge Properties Bringing New Life to Aging Charlotte Center: Priority Asset Watch, Site Acquisition / Site Control, score 75.
 - Entitlement / Permitting - Atlanta / Georgia - Cambridge Properties Bringing New Life to Aging Charlotte Center: Priority Asset Watch, Refinancing / Recapitalization, score 75.
-- General Project Signal - New York - BHI Provides Condo Inventory Loan for Ground-Up Luxury Project: Strategic Asset Watch, Unknown Stage, score 74.
+- General Project Signal - New York - BHI Provides Condo Inventory Loan for Ground-Up Luxury Project: Priority Asset Watch, Unknown Stage, score 75.
 
 ## Assets With Repeated Entitlement Signals
 
@@ -39,12 +39,12 @@ Generated: 2026-06-04 00:01:48
 - Office-to-Residential Conversion - Los Angeles / California - Mayor Bass: Adaptive Reuse Key to Revitalizing Downtown LA: Priority Asset Watch, Unknown Stage, score 88.
 - General Project Signal - California - Good + Roberts Tops Out on $29M San Diego Multifamily Mixed-Use Housing Development: Priority Asset Watch, Unknown Stage, score 86.
 - General Project Signal - Santa Monica / California - Metro-adjacent affordable housing rises at 1640 20th Street in Santa Monica: Priority Asset Watch, Unknown Stage, score 82.
-- Disposition / Exit - Dallas / Texas - Contentious Dallas City Property Could Become Apartments, Retail: Priority Asset Watch, Unknown Stage, score 79.
+- Disposition / Exit - Dallas / Texas - Contentious Dallas City Property Could Become Apartments, Retail: Priority Asset Watch, Unknown Stage, score 80.
+- Entitlement / Permitting - New York - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Priority Asset Watch, Community Review, score 79.
+- Disposition / Exit - Dallas / Texas - Contentious Dallas City Property Could Become Apartments, Retail: Priority Asset Watch, Site Acquisition / Site Control, score 78.
 - Entitlement / Permitting - Atlanta / Georgia - Cambridge Properties Bringing New Life to Aging Charlotte Center: Priority Asset Watch, Site Acquisition / Site Control, score 75.
 - Entitlement / Permitting - Atlanta / Georgia - Cambridge Properties Bringing New Life to Aging Charlotte Center: Priority Asset Watch, Refinancing / Recapitalization, score 75.
-- Disposition / Exit - Dallas / Texas - Contentious Dallas City Property Could Become Apartments, Retail: Strategic Asset Watch, Site Acquisition / Site Control, score 74.
-- Entitlement / Permitting - New York - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Strategic Asset Watch, Community Review, score 73.
-- Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl...: Strategic Asset Watch, Site Acquisition / Site Control, score 69.
+- Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl...: Strategic Asset Watch, Site Acquisition / Site Control, score 74.
 
 ## Recurring Asset Signals
 
@@ -55,9 +55,9 @@ Generated: 2026-06-04 00:01:48
 - Office-to-Residential Conversion - Los Angeles / California - Mayor Bass: Adaptive Reuse Key to Revitalizing Downtown LA: Priority Asset Watch, Unknown Stage, score 88.
 - General Project Signal - California - Good + Roberts Tops Out on $29M San Diego Multifamily Mixed-Use Housing Development: Priority Asset Watch, Unknown Stage, score 86.
 - Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Priority Asset Watch, Unknown Stage, score 86.
+- JV / Partnership - Riverside / California - Blackstone’s Link Logistics Sells Light Industrial Portfolio for $1.8B: Priority Asset Watch, Unknown Stage, score 85.
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Priority Asset Watch, Refinancing / Recapitalization, score 84.
 - BTR / Build-to-Rent - Phoenix / Arizona - Berkshire Hathaway acquires BTR player Taylor Morrison for $8.5B: Priority Asset Watch, Unknown Stage, score 84.
-- JV / Partnership - Riverside / California - Blackstone’s Link Logistics Sells Light Industrial Portfolio for $1.8B: Priority Asset Watch, Unknown Stage, score 84.
 
 ## Implications for Woomi / Woomi Global
 
@@ -73,16 +73,16 @@ Generated: 2026-06-04 00:01:48
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Office-to-Residential Conversion - Los Angeles / California - Mayor Bass: Adaptive Reuse Key to Revitalizing Downtown LA.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - California - Good + Roberts Tops Out on $29M San Diego Multifamily Mixed-Use Housing Development.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - Riverside / California - Blackstone’s Link Logistics Sells Light Industrial Portfolio for $1.8B.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 169
-- Institutional-grade signals: 15
-- High-confidence signals: 43
-- Weak/noisy signals: 99
-- High-confidence watchlist items: 43
+- Signals evaluated: 164
+- Institutional-grade signals: 16
+- High-confidence signals: 44
+- Weak/noisy signals: 96
+- High-confidence watchlist items: 44
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

@@ -1,6 +1,6 @@
 # LA / Southern California Submarket Watch Report
 
-Generated: 2026-06-04 00:01:45
+Generated: 2026-06-04 08:14:21
 
 - Total LA / Southern California submarkets detected: 13
 
@@ -78,8 +78,8 @@ Asset / parcel-level site clues are available in `asset_parcel_intelligence_repo
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 84
+- Lifecycle records: 80
 - LA lifecycle watch items: 52
-- Stage mix: Refinancing / Recapitalization: 12, Unknown Stage: 52, Site Acquisition / Site Control: 12, Entitlement Under Review: 1, Community Review: 1
+- Stage mix: Refinancing / Recapitalization: 12, Unknown Stage: 49, Site Acquisition / Site Control: 11, Entitlement Under Review: 1, Community Review: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

@@ -1,6 +1,6 @@
 # Opportunity Deduplication Report
 
-Generated: 2026-06-04 00:01:45
+Generated: 2026-06-04 08:14:21
 
 - Total duplicate clusters: 10
 - Opportunities removed via deduplication: 0
@@ -13,10 +13,10 @@ Generated: 2026-06-04 00:01:45
 - Slate Property Group Closes on $86M Refi for LIC Apartments: New York, 2 related row(s), opportunity score 86, distress score 67.
 - Berkadia Arranges $82.1M Refinancing for Apartment Community in Nokomis, Florida: Sarasota / Florida, 2 related row(s), opportunity score 86, distress score 67.
 - Newmark Provides $115.6M Agency Loan for Refinancing of Southern Connecticut Multifamily Properties: Connecticut, 2 related row(s), opportunity score 86, distress score 65.
-- Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Austin / Texas, 2 related row(s), opportunity score 82, distress score 50.
+- Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Austin / Texas, 2 related row(s), opportunity score 84, distress score 56.
 - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Miami / Florida, 2 related row(s), opportunity score 63, distress score 60.
-- PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Hollywood: Los Angeles / California, 2 related row(s), opportunity score 61, distress score 56.
-- Derby Copeland Capital Provides $54 Million Refi for Lexington Avenue Condo: New York City / New York, 2 related row(s), opportunity score 58, distress score 53.
+- PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Hollywood: Los Angeles / California, 2 related row(s), opportunity score 61, distress score 57.
+- Derby Copeland Capital Provides $54 Million Refi for Lexington Avenue Condo: New York City / New York, 2 related row(s), opportunity score 58, distress score 54.
 - Georgia Tech Student Housing Investors Ink Refi: Atlanta / Georgia, 2 related row(s), opportunity score 57, distress score 52.
 
 ## Repeated Refinancing Stories
@@ -24,7 +24,7 @@ Generated: 2026-06-04 00:01:45
 - Slate Property Group Closes on $86M Refi for LIC Apartments: New York, 2 related row(s), opportunity score 86, distress score 67.
 - Berkadia Arranges $82.1M Refinancing for Apartment Community in Nokomis, Florida: Sarasota / Florida, 2 related row(s), opportunity score 86, distress score 67.
 - Newmark Provides $115.6M Agency Loan for Refinancing of Southern Connecticut Multifamily Properties: Connecticut, 2 related row(s), opportunity score 86, distress score 65.
-- Derby Copeland Capital Provides $54 Million Refi for Lexington Avenue Condo: New York City / New York, 2 related row(s), opportunity score 58, distress score 53.
+- Derby Copeland Capital Provides $54 Million Refi for Lexington Avenue Condo: New York City / New York, 2 related row(s), opportunity score 58, distress score 54.
 - Georgia Tech Student Housing Investors Ink Refi: Atlanta / Georgia, 2 related row(s), opportunity score 57, distress score 52.
 
 ## Repeated GP Partnership Stories
@@ -32,10 +32,9 @@ Generated: 2026-06-04 00:01:45
 - Eaton Vance Picks Charlotte Rental Community for $65.8M: Atlanta / Georgia, 1 related row(s), opportunity score 87, distress score 0.
 - Charlotte Apartment Project Fetches $107M: Atlanta / Georgia, 1 related row(s), opportunity score 83, distress score 0.
 - Blackstone’s Link Logistics Sells Light Industrial Portfolio for $1.8B: Riverside / California, 1 related row(s), opportunity score 80, distress score 0.
-- Marcus & Millichap Brokers $4.85M Sale of Miami Apartment Building: Miami / Florida, 1 related row(s), opportunity score 78, distress score 0.
+- Marcus & Millichap Brokers $4.85M Sale of Miami Apartment Building: Miami / Florida, 1 related row(s), opportunity score 77, distress score 0.
 - BHI Provides Condo Inventory Loan for Ground-Up Luxury Project: New York, 1 related row(s), opportunity score 76, distress score 0.
-- Marcus & Millichap Facilitates Sale of 160-Unit Multifamily Property in Kenosha Wisconsin: Other / Unknown, 1 related row(s), opportunity score 74, distress score 0.
-- Marcus & Millichap Brokers Chicago Area Multifamily Asset Sale: Other / Unknown, 1 related row(s), opportunity score 71, distress score 0.
+- Marcus & Millichap Facilitates Sale of 160-Unit Multifamily Property in Kenosha Wisconsin: Other / Unknown, 1 related row(s), opportunity score 72, distress score 0.
 
 ## California / LA Duplicate Project Tracking
 

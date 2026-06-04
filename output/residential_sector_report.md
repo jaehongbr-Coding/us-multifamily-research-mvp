@@ -1,15 +1,15 @@
 # Residential Sector Coverage Report
 
-Generated: 2026-06-04 00:01:42
+Generated: 2026-06-04 08:14:18
 
 - Active residential sectors: 9
 
 ## Sector Coverage Summary
 
-- Apartment: 38 article(s), 21 high-priority, 27 deal/project, Core Strategy Sector.
-- Affordable Housing: 11 article(s), 9 high-priority, 9 deal/project, Strategic Expansion Sector.
+- Apartment: 36 article(s), 20 high-priority, 26 deal/project, Core Strategy Sector.
+- Affordable Housing: 12 article(s), 10 high-priority, 9 deal/project, Strategic Expansion Sector.
+- Multifamily: 14 article(s), 2 high-priority, 7 deal/project, Core Strategy Sector.
 - BTR / Single-Family Rental: 3 article(s), 2 high-priority, 3 deal/project, Strategic Expansion Sector.
-- Multifamily: 14 article(s), 1 high-priority, 8 deal/project, Core Strategy Sector.
 - Office-to-Residential Conversion: 1 article(s), 1 high-priority, 1 deal/project, Strategic Expansion Sector.
 - Student Housing: 1 article(s), 0 high-priority, 1 deal/project, Strategic Expansion Sector.
 - Mixed-Use Residential: 6 article(s), 3 high-priority, 4 deal/project, Monitoring Sector.
@@ -18,10 +18,10 @@ Generated: 2026-06-04 00:01:42
 
 ## Top Residential Sectors By Relevance
 
-- Apartment: Core Strategy Sector, average relevance 82.9, dominant market Other / Unknown.
-- Affordable Housing: Strategic Expansion Sector, average relevance 91.3, dominant market California.
+- Apartment: Core Strategy Sector, average relevance 83.5, dominant market Other / Unknown.
+- Affordable Housing: Strategic Expansion Sector, average relevance 90.2, dominant market California.
+- Multifamily: Core Strategy Sector, average relevance 67.6, dominant market Other / Unknown.
 - BTR / Single-Family Rental: Strategic Expansion Sector, average relevance 74.3, dominant market Phoenix / Arizona.
-- Multifamily: Core Strategy Sector, average relevance 66.6, dominant market Other / Unknown.
 - Office-to-Residential Conversion: Strategic Expansion Sector, average relevance 100.0, dominant market Los Angeles / California.
 - Student Housing: Strategic Expansion Sector, average relevance 65.0, dominant market Atlanta / Georgia.
 - Mixed-Use Residential: Monitoring Sector, average relevance 72.7, dominant market California.
@@ -29,8 +29,8 @@ Generated: 2026-06-04 00:01:42
 
 ## Multifamily / Apartment
 
-- Apartment: 38 article(s), 27 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
-- Multifamily: 14 article(s), 8 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
+- Apartment: 36 article(s), 26 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
+- Multifamily: 14 article(s), 7 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
 
 ## BTR / SFR
 
@@ -46,7 +46,7 @@ Generated: 2026-06-04 00:01:42
 
 ## Affordable / Workforce Housing
 
-- Affordable Housing: 11 article(s), 9 deal/project signal(s), Strategic Expansion Sector. Track LA / California affordability, entitlement, and public-private partnership signals.
+- Affordable Housing: 12 article(s), 9 deal/project signal(s), Strategic Expansion Sector. Track LA / California affordability, entitlement, and public-private partnership signals.
 - Workforce Housing: 0 article(s), 0 deal/project signal(s), Monitoring Sector. Add to sector watchlist.
 
 ## Office-to-Residential Conversion
@@ -62,8 +62,8 @@ Generated: 2026-06-04 00:01:42
 
 - Apartment: Keep in weekly developer strategy review
 - Affordable Housing: Track LA / California affordability, entitlement, and public-private partnership signals
-- BTR / Single-Family Rental: Monitor BTR / SFR operators, capital flows, and target markets
 - Multifamily: Keep in weekly developer strategy review
+- BTR / Single-Family Rental: Monitor BTR / SFR operators, capital flows, and target markets
 - Office-to-Residential Conversion: Track conversion feasibility, policy support, and construction cost assumptions
 - Student Housing: Monitor university-market demand and partnership signals
 - Mixed-Use Residential: Add to sector watchlist

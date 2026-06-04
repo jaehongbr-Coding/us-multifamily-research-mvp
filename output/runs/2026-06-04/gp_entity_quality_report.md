@@ -1,14 +1,14 @@
 # GP / Capital Entity Quality Report
 
-Generated: 2026-06-04 00:01:42
+Generated: 2026-06-04 08:14:18
 
 ## Summary
 
-- Total GP/Capital articles: 45
-- Participant not identified: 20
-- Dictionary match: 17
+- Total GP/Capital articles: 42
+- Participant not identified: 17
+- Dictionary match: 16
 - Title fallback / headline extraction: 3
-- Low confidence or unresolved: 20
+- Low confidence or unresolved: 17
 
 ## Representative Resolved Samples
 
@@ -27,11 +27,11 @@ Generated: 2026-06-04 00:01:42
 
 - The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist | Multifamily Executive | No institution name detected in dictionary, title, summary, or source text.
 - Construction kicks off for affordable housing at 706 W. 85th Street in South L.A. | Urbanize LA | No institution name detected in dictionary, title, summary, or source text.
-- Metro-adjacent affordable housing rises at 1640 20th Street in Santa Monica | Urbanize LA | No institution name detected in dictionary, title, summary, or source text.
 - Lument Provides $28M FHA Loan for Ohio Affordable Housing Property | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
 - Empire Group Starts Work on $170M Phoenix Apartment Tower | Connect CRE Phoenix | No institution name detected in dictionary, title, summary, or source text.
 - LRT Company Launches $21M DST Investment for Ground-Leased Multifamily Site Near Hilton Head Island South Carolina | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
 - Interra Realty Brokers $23M Sale of Suburban Chicago Apartments | Connect CRE | No institution name detected in dictionary, title, summary, or source text.
 - Pacific Urban Investors Acquires 140-Unit Multifamily Community in San Diego | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
 - Greysteel Brokers $10M Sale, Financing of Norfolk Apartments | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
-- Flow Enters West Coast With $175M San Jose Multifamily Buy | Bisnow | No institution name detected in dictionary, title, summary, or source text.
+- Renters remain cautious but demand holds steady | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.
+- Charlotte BTR Investors Pause Deals As They Await Fate Of Federal Housing Bill | Bisnow | No institution name detected in dictionary, title, summary, or source text.

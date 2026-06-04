@@ -1,18 +1,18 @@
 # Routing Balance Report
 
-- Market Intelligence count: 16
-- Development Activity count: 59
+- Market Intelligence count: 17
+- Development Activity count: 57
 - GP / Capital Activity count: 4
 - Excluded count: 1
 - Rent/Demand candidate count: 6
-- Project anchor article count: 55
+- Project anchor article count: 53
 - Development-excluded transaction article count: 4
 - Low-value promotional excluded count: 1
 - Site / Parcel positive candidates count: 6
 - Site / Parcel excluded transaction count: 0
 - Source missing count: 0
 - Market missing count: 0
-- Stage missing count: 58
+- Stage missing count: 66
 
 ## Rent/Demand Titles
 - Multifamily Absorption Rate Remains Below 50%

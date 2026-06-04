@@ -1,13 +1,13 @@
 # Regime Transition Report
 
-Generated: 2026-06-04 00:01:48
+Generated: 2026-06-04 08:14:25
 
 ## Summary
 
 - Current primary regime: Developer Strategy Shift
 - Previous primary regime: Developer Strategy Shift
 - Regime changed: No
-- Consecutive runs in current regime: 17
+- Consecutive runs in current regime: 18
 - Confidence direction: stable
 - Market signals direction: stable
 - Transition label: Persistent Regime
@@ -16,11 +16,11 @@ Generated: 2026-06-04 00:01:48
 
 | Run Timestamp | Primary Regime | Secondary Regime | Confidence | Market Signals | Top Strategic Angle | Top Market Focus | Top Market Signal |
 | --- | --- | --- | --- | ---: | --- | --- | --- |
-| 2026-06-02 01:03:10 | Developer Strategy Shift | Selective Capital Re-entry | High | 25 | Developer Strategy | Los Angeles / California | Rent Growth Signal |
 | 2026-06-02 02:11:12 | Developer Strategy Shift | Selective Capital Re-entry | High | 25 | Developer Strategy | Los Angeles / California | Rent Growth Signal |
 | 2026-06-02 04:03:08 | Developer Strategy Shift | Selective Capital Re-entry | High | 25 | Developer Strategy | Los Angeles / California | Rent Growth Signal |
 | 2026-06-02 04:54:46 | Developer Strategy Shift | Selective Capital Re-entry | High | 25 | Developer Strategy | Los Angeles / California | Rent Growth Signal |
 | 2026-06-04 00:01:36 | Developer Strategy Shift | Selective Capital Re-entry | High | 25 | Developer Strategy | California | Rent Growth Signal |
+| 2026-06-04 08:14:13 | Developer Strategy Shift | Selective Capital Re-entry | High | 24 | Developer Strategy | California | Rent Growth Signal |
 
 ## Historical Persistence Summary
 

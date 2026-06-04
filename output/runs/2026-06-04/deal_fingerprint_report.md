@@ -1,8 +1,8 @@
 # Deal Fingerprint Report
 
-Generated: 2026-06-04 00:01:42
+Generated: 2026-06-04 08:14:18
 
-- Total canonical deals detected: 59
+- Total canonical deals detected: 57
 - Duplicate clusters detected: 0
 - California / LA recurring project count: 11
 

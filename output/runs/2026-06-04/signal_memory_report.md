@@ -1,17 +1,17 @@
 # Signal Memory Report
 
-Generated: 2026-06-04 00:01:36
+Generated: 2026-06-04 08:14:13
 
 ## Signal Memory Summary
 
-- Total memory rows: 285
-- Status summary: Dormant Signal: 160; Strengthening Signal: 59; Persistent Signal: 35; New Signal: 23; Repeated Watch: 3; Early Watch: 3; Weakening Signal: 2
+- Total memory rows: 291
+- Status summary: Dormant Signal: 160; Strengthening Signal: 59; Persistent Signal: 35; New Signal: 29; Repeated Watch: 3; Early Watch: 3; Weakening Signal: 2
 - Signal Memory is a repeated-observation tracker, not an investment decision engine.
 
 ## Strengthening Signals
 
 - Developer Strategy / Sun Belt: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 6건이 최근 7일에 관찰되었습니다.
-- disposition / Other / Unknown: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 7건이 최근 7일에 관찰되었습니다.
+- disposition / Other / Unknown: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 6건이 최근 7일에 관찰되었습니다.
 - joint_venture / National: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 4건이 최근 7일에 관찰되었습니다.
 - refinancing / National: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 3건이 최근 7일에 관찰되었습니다.
 - Development Strategy / Los Angeles: Strengthening Signal. 최근 7일 기사 수가 이전 7일 대비 증가했습니다. 총 3건이 최근 7일에 관찰되었습니다.
@@ -35,11 +35,11 @@ Generated: 2026-06-04 00:01:36
 - Supply & Demand / Sun Belt: Repeated Watch. 최근 7일 내 2일 이상 반복 관찰되었습니다. 추가 source 확인이 필요합니다.
 - density_bonus / Southeast: Repeated Watch. 최근 7일 내 2일 이상 반복 관찰되었습니다. 추가 source 확인이 필요합니다.
 - refinancing / Other / Unknown: Repeated Watch. 최근 7일 내 2일 이상 반복 관찰되었습니다. 추가 source 확인이 필요합니다.
-- construction_start / California: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
 - joint_venture / San Francisco / California: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
-- Developer Strategy / National: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- Developer Strategy / Other / Unknown: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- Development Strategy / Santa Monica / California: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- Development Strategy / Los Angeles / California: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
 - Development Strategy / Dallas / Texas: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
-- Development Strategy / Texas: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
 
 ## Weakening or Dormant Signals
 

@@ -1,6 +1,6 @@
 # 한국어 스트레스 / 부실 Watchlist
 
-- 생성 시각: 2026-06-04 00:01:36
+- 생성 시각: 2026-06-04 08:14:13
 - 참고 원문 파일: `distress_watchlist_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -9,15 +9,15 @@
 - refinancing stress: New York, 아파트, 점수 67 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
 - refinancing stress: Sarasota / Florida, 아파트, 점수 67 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
 - refinancing stress: Connecticut, 아파트, 점수 65 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
-- refinancing stress: New York City / New York, 일반 주거, 점수 53 (Monitor for repeated distress signals)
+- refinancing stress: New York City / New York, 일반 주거, 점수 54 (Monitor for repeated distress signals)
 - refinancing stress: Atlanta / Georgia, 학생주택, 점수 52 (Monitor for repeated distress signals)
 
 ## 공사금융 갭
 
 - construction loan gap: California, 아파트, 점수 80 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
 - construction loan gap: Miami / Florida, 아파트, 점수 60 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
-- construction loan gap: Los Angeles / California, 어포더블 하우징, 점수 56 (Monitor for repeated distress signals)
-- construction loan gap: Austin / Texas, 아파트, 점수 50 (Monitor for repeated distress signals)
+- construction loan gap: Los Angeles / California, 어포더블 하우징, 점수 57 (Monitor for repeated distress signals)
+- construction loan gap: Austin / Texas, 아파트, 점수 56 (Monitor for repeated distress signals)
 
 ## 부실 / 지연 프로젝트
 
@@ -27,10 +27,10 @@
 - refinancing stress: Sarasota / Florida, 아파트, 점수 67 (High Distress Watch)
 - refinancing stress: Connecticut, 아파트, 점수 65 (High Distress Watch)
 - construction loan gap: Miami / Florida, 아파트, 점수 60 (High Distress Watch)
-- construction loan gap: Los Angeles / California, 어포더블 하우징, 점수 56 (Monitor)
-- refinancing stress: New York City / New York, 일반 주거, 점수 53 (Monitor)
+- construction loan gap: Los Angeles / California, 어포더블 하우징, 점수 57 (Monitor)
+- construction loan gap: Austin / Texas, 아파트, 점수 56 (Monitor)
+- refinancing stress: New York City / New York, 일반 주거, 점수 54 (Monitor)
 - refinancing stress: Atlanta / Georgia, 학생주택, 점수 52 (Monitor)
-- construction loan gap: Austin / Texas, 아파트, 점수 50 (Monitor)
 
 ## 우미 관점 기회 가능성
 

@@ -1,8 +1,8 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-06-04 00:01:42
+Generated: 2026-06-04 08:14:18
 
-- GP/developer candidates reviewed: 24
+- GP/developer candidates reviewed: 25
 - Tier 1 Strategic GPs: 0
 - Tier 2 High Potential GPs: 8
 
@@ -139,10 +139,10 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 169
-- Institutional-grade signals: 15
-- High-confidence signals: 43
-- Weak/noisy signals: 99
-- High-confidence watchlist items: 43
+- Signals evaluated: 164
+- Institutional-grade signals: 16
+- High-confidence signals: 44
+- Weak/noisy signals: 96
+- High-confidence watchlist items: 44
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

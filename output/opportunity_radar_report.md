@@ -1,8 +1,8 @@
 # Opportunity Radar Report
 
-Generated: 2026-06-04 00:01:45
+Generated: 2026-06-04 08:14:21
 
-- Total opportunities detected: 55
+- Total opportunities detected: 53
 
 ## Top 10 Opportunities
 
@@ -15,7 +15,7 @@ Generated: 2026-06-04 00:01:45
 - Refinancing Gap in Connecticut: Refinancing - Connecticut - Newmark Provides $115.6M Agency Loan for Refinancing of Southern Connecticut Multifamily P..., score 86. Add to executive opportunity review.
 - Refinancing Gap in New York: Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments, score 86. Add to executive opportunity review.
 - Refinancing Gap in Sarasota / Florida: Refinancing - Sarasota / Florida - Berkadia Arranges $82.1M Refinancing for Apartment Community in Nokomis, Florida, score 86. Add to executive opportunity review.
-- GP Capability Partnership Opportunity in Atlanta / Georgia: Disposition / Exit - Atlanta / Georgia - Charlotte Apartment Project Fetches $107M, score 83. Add to executive opportunity review.
+- Construction Financing Gap in Austin / Texas: Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences, score 84. Add to executive opportunity review.
 
 ## LA / California Opportunities
 
@@ -35,13 +35,12 @@ Generated: 2026-06-04 00:01:45
 - Recapitalization Opportunity in California: Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties, score 88. Add to executive opportunity review.
 - Acquisition Opportunity in California: Acquisition - California - CBRE Brokers $3.7M Sale of Multi-Tenant Retail Property in Santee, California, score 87. Add to executive opportunity review.
 - Acquisition Opportunity in California: Acquisition - California - Pacific Urban Investors Acquires 140-Unit Multifamily Community in San Diego, score 64. Research owner, basis, pricing, and transaction history.
-- Acquisition Opportunity in Miami / Florida: Acquisition - Miami / Florida - Flow Enters West Coast With $175M San Jose Multifamily Buy, score 59. Research owner, basis, pricing, and transaction history.
 - Acquisition Opportunity in San Francisco / California: JV / Partnership - San Francisco / California - ArtHaus, Belay Expand into San Francisco with Nob Hill Acquisition, score 59. Research owner, basis, pricing, and transaction history.
+- Acquisition Opportunity in Houston / Texas: Acquisition - Houston / Texas - Recent Houston Highrise Buyer Plans $11M Revamp, score 58. Research owner, basis, pricing, and transaction history.
 - Acquisition Opportunity in New York City / New York: Acquisition - New York City / New York - Arrow Lines Up Acquisition Financing for 7-Property Mixed-Use Portfolio, score 58. Research owner, basis, pricing, and transaction history.
-- Acquisition Opportunity in Houston / Texas: Acquisition - Houston / Texas - Recent Houston Highrise Buyer Plans $11M Revamp, score 57. Research owner, basis, pricing, and transaction history.
+- Acquisition Opportunity in Miami / Florida: Acquisition - Miami / Florida - Miami Apartments Trade for $109.9M, score 57. Research owner, basis, pricing, and transaction history.
 - Acquisition Opportunity in Other / Unknown: Acquisition - Other / Unknown - LRT Company Launches $21M DST Investment for Ground-Leased Multifamily Site Near Hilton He..., score 57. Research owner, basis, pricing, and transaction history.
 - Acquisition Opportunity in San Francisco / California: JV / Partnership - San Francisco / California - ArtHaus Partners with Belay Investment Group Expand into San Francisco with Multifamily Ac..., score 57. Research owner, basis, pricing, and transaction history.
-- Acquisition Opportunity in Miami / Florida: Acquisition - Miami / Florida - Miami Apartments Trade for $109.9M, score 56. Research owner, basis, pricing, and transaction history.
 
 ## Distressed / Rescue Capital Opportunities
 
@@ -54,8 +53,8 @@ Generated: 2026-06-04 00:01:45
 ## BTR / SFR Opportunities
 
 - BTR / SFR Platform Opportunity in Phoenix / Arizona: BTR / Build-to-Rent - Phoenix / Arizona - Berkshire Hathaway acquires BTR player Taylor Morrison for $8.5B, score 72. Monitor for repeated signals.
+- BTR / SFR Platform Opportunity in Phoenix / Arizona: BTR / Build-to-Rent - Phoenix / Arizona - Work Begins on 94-Unit Scottsdale Luxury BTR Community, score 55. Monitor for repeated signals.
 - BTR / SFR Platform Opportunity in Sun Belt: BTR / Build-to-Rent - Sun Belt - Charlotte BTR Investors Pause Deals As They Await Fate Of Federal Housing Bill, score 55. Monitor for repeated signals.
-- BTR / SFR Platform Opportunity in Phoenix / Arizona: BTR / Build-to-Rent - Phoenix / Arizona - Work Begins on 94-Unit Scottsdale Luxury BTR Community, score 54. Monitor for repeated signals.
 
 ## Office-to-Residential Opportunities
 
@@ -79,10 +78,9 @@ Generated: 2026-06-04 00:01:45
 - GP Capability Partnership Opportunity in Atlanta / Georgia: Disposition / Exit - Atlanta / Georgia - Eaton Vance Picks Charlotte Rental Community for $65.8M, score 87. Add to executive opportunity review.
 - GP Capability Partnership Opportunity in Atlanta / Georgia: Disposition / Exit - Atlanta / Georgia - Charlotte Apartment Project Fetches $107M, score 83. Add to executive opportunity review.
 - JV / Partnership Gap in Riverside / California: JV / Partnership - Riverside / California - Blackstone’s Link Logistics Sells Light Industrial Portfolio for $1.8B, score 80. Add to executive opportunity review.
-- GP Capability Partnership Opportunity in Miami / Florida: Disposition / Exit - Miami / Florida - Marcus & Millichap Brokers $4.85M Sale of Miami Apartment Building, score 78. Map GP, capital partner, and relationship history.
+- GP Capability Partnership Opportunity in Miami / Florida: Disposition / Exit - Miami / Florida - Marcus & Millichap Brokers $4.85M Sale of Miami Apartment Building, score 77. Map GP, capital partner, and relationship history.
 - GP Capability Partnership Opportunity in New York: General Project Signal - New York - BHI Provides Condo Inventory Loan for Ground-Up Luxury Project, score 76. Map GP, capital partner, and relationship history.
-- GP Capability Partnership Opportunity in Other / Unknown: Disposition / Exit - Other / Unknown - Marcus & Millichap Facilitates Sale of 160-Unit Multifamily Property in Kenosha Wisconsin, score 74. Map GP, capital partner, and relationship history.
-- GP Capability Partnership Opportunity in Other / Unknown: Disposition / Exit - Other / Unknown - Marcus & Millichap Brokers Chicago Area Multifamily Asset Sale, score 71. Map GP, capital partner, and relationship history.
+- GP Capability Partnership Opportunity in Other / Unknown: Disposition / Exit - Other / Unknown - Marcus & Millichap Facilitates Sale of 160-Unit Multifamily Property in Kenosha Wisconsin, score 72. Map GP, capital partner, and relationship history.
 
 ## Timing / Market Entry Window Summary
 
@@ -116,9 +114,9 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 84
+- Lifecycle records: 80
 - LA lifecycle watch items: 52
-- Stage mix: Refinancing / Recapitalization: 12, Unknown Stage: 52, Site Acquisition / Site Control: 12, Entitlement Under Review: 1, Community Review: 1
+- Stage mix: Refinancing / Recapitalization: 12, Unknown Stage: 49, Site Acquisition / Site Control: 11, Entitlement Under Review: 1, Community Review: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -126,8 +124,8 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 84
-- Newly detected projects: 53
+- Lifecycle transitions analyzed: 80
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 52
@@ -138,11 +136,11 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 685
-- Canonical projects: 169
-- Duplicate project clusters: 118
-- Persistent assets tracked: 169
-- LA persistent asset watch items: 123
+- Raw project references: 662
+- Canonical projects: 164
+- Duplicate project clusters: 115
+- Persistent assets tracked: 164
+- LA persistent asset watch items: 122
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -150,10 +148,10 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 169
-- Institutional-grade signals: 15
-- High-confidence signals: 43
-- Weak/noisy signals: 99
-- High-confidence watchlist items: 43
+- Signals evaluated: 164
+- Institutional-grade signals: 16
+- High-confidence signals: 44
+- Weak/noisy signals: 96
+- High-confidence watchlist items: 44
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

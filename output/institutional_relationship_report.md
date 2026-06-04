@@ -1,19 +1,19 @@
 # Institutional Relationship & Capital Flow Report
 
-Generated: 2026-06-04 00:01:42
+Generated: 2026-06-04 08:14:18
 
 ## Top Institutional Relationship Signals
 
 - CBRE: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - JLL: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - Lincoln Property Company: score 98, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Marcus & Millichap: score 97, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 - Freestone Capital: score 93, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - PEF Advisors: score 93, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Lake Austin Four Seasons Residences TYKO Capital: score 91, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Nob Hill Acquisition ArtHaus Partners: score 91, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - PSRS: score 91, Refinancing / Recapitalization, Capital Partner Tracking Signal. Review California / LA capital and developer activity.
 - Santa Ana Multifamily JLL Capital: score 91, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- Wood Partners: score 91, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 
 ## Tier 1 Firm Watch
 
@@ -34,12 +34,12 @@ Generated: 2026-06-04 00:01:42
 
 - CBRE: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - JLL: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Marcus & Millichap: score 97, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 - Freestone Capital: score 93, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - PEF Advisors: score 93, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Nob Hill Acquisition ArtHaus Partners: score 91, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Wood Partners: score 91, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - TARGO Capital Partners: score 88, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Marcus & Millichap: score 87, Capital Outflow / Exit, GP Capability Benchmark Signal. Monitor only.
 - Blackstone: score 84, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Hudson Bay Capital: score 83, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 
@@ -59,8 +59,8 @@ Generated: 2026-06-04 00:01:42
 
 - CBRE: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - JLL: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Marcus & Millichap: score 97, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 - Santa Ana Multifamily JLL Capital: score 91, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- Marcus & Millichap: score 87, Capital Outflow / Exit, GP Capability Benchmark Signal. Monitor only.
 - BHI: score 83, Refinancing / Recapitalization, GP Capability Benchmark Signal. Track refinancing or recapitalization pipeline.
 - Berkadia: score 83, Refinancing / Recapitalization, GP Capability Benchmark Signal. Track refinancing or recapitalization pipeline.
 - Dunlop Capital: score 83, Refinancing / Recapitalization, GP Capability Benchmark Signal. Track refinancing or recapitalization pipeline.
@@ -79,13 +79,13 @@ Generated: 2026-06-04 00:01:42
 | CBRE | California; Las Vegas / Nevada; Los Angeles / California | Core Multifamily News; Regional / California / LA Sources; Site / Parcel Source Expansion | acquisition; disposition / exit; office-to-residential conversion; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
 | JLL | Atlanta / Georgia; California | Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
 | Lincoln Property Company | Austin / Texas | Site / Parcel Source Expansion | refinancing; JV / partnership; operational technology / AI adoption | Refinancing / Recapitalization | Potential JV / Partnership Signal | potential JV partnership signal |
-| Marcus & Millichap | Miami / Florida; Other / Unknown | Core Multifamily News | acquisition; disposition / exit; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
 | Freestone Capital | California | Site / Parcel Source Expansion | recapitalization; JV / partnership; capital raise; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
 | PEF Advisors | California | Site / Parcel Source Expansion | recapitalization; JV / partnership; capital raise; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
 | Lake Austin Four Seasons Residences TYKO Capital | Austin / Texas | Site / Parcel Source Expansion | refinancing; JV / partnership; operational technology / AI adoption | Refinancing / Recapitalization | Potential JV / Partnership Signal | potential JV partnership signal |
 | Nob Hill Acquisition ArtHaus Partners | San Francisco / California | Site / Parcel Source Expansion | acquisition; JV / partnership; market expansion; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
 | PSRS | Los Angeles / California | Site / Parcel Source Expansion | refinancing | Refinancing / Recapitalization | Capital Partner Tracking Signal | capital market sentiment indicator |
 | Santa Ana Multifamily JLL Capital | California | Site / Parcel Source Expansion | refinancing; operational technology / AI adoption | Refinancing / Recapitalization | GP Capability Benchmark Signal | competitive pressure indicator |
+| Wood Partners | Atlanta / Georgia | Site / Parcel Source Expansion | disposition / exit; JV / partnership; operational technology / AI adoption | Capital Outflow / Exit | Potential JV / Partnership Signal | potential JV partnership signal |
 
 ## Deal / Project Intelligence
 
@@ -150,20 +150,20 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 - CBRE: Review California / LA capital and developer activity
 - JLL: Review California / LA capital and developer activity
 - Lincoln Property Company: Map potential GP / JV relationship and monitor partnership activity
-- Marcus & Millichap: Track capital deployment and pricing signals
 - Freestone Capital: Map potential GP / JV relationship and monitor partnership activity
 - PEF Advisors: Map potential GP / JV relationship and monitor partnership activity
 - Lake Austin Four Seasons Residences TYKO Capital: Map potential GP / JV relationship and monitor partnership activity
 - Nob Hill Acquisition ArtHaus Partners: Map potential GP / JV relationship and monitor partnership activity
+- PSRS: Review California / LA capital and developer activity
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 169
-- Institutional-grade signals: 15
-- High-confidence signals: 43
-- Weak/noisy signals: 99
-- High-confidence watchlist items: 43
+- Signals evaluated: 164
+- Institutional-grade signals: 16
+- High-confidence signals: 44
+- Weak/noisy signals: 96
+- High-confidence watchlist items: 44
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

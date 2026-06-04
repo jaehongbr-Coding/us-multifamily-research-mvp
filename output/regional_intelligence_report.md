@@ -1,14 +1,14 @@
 # Regional Intelligence Report
 
-Generated: 2026-06-04 00:01:42
+Generated: 2026-06-04 08:14:18
 
 ## Top 5 Markets By Relevance
 
 - California: Core Watch Market, 23 article(s), average relevance 82.4.
 - Los Angeles: Core Watch Market, 13 article(s), average relevance 88.8.
-- National / Other: General Monitoring, 26 article(s), average relevance 71.3.
+- National / Other: General Monitoring, 25 article(s), average relevance 72.3.
 - Southeast: Strategic Watch Market, 9 article(s), average relevance 83.1.
-- Texas: Strategic Watch Market, 7 article(s), average relevance 75.3.
+- Texas: Strategic Watch Market, 8 article(s), average relevance 76.2.
 
 ## LA / California Focus
 
@@ -18,8 +18,8 @@ Generated: 2026-06-04 00:01:42
 ## Sun Belt / Texas / Southeast
 
 - Southeast: 9 article(s), 1 market signal(s), Strategic Watch Market. Monitor supply pipeline and concessions.
-- Texas: 7 article(s), 0 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
-- Florida: 7 article(s), 3 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
+- Texas: 8 article(s), 0 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
+- Florida: 6 article(s), 2 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
 - Arizona: 3 article(s), 3 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
 - Phoenix: 3 article(s), 3 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
 - Austin: 2 article(s), 0 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
@@ -33,7 +33,7 @@ Generated: 2026-06-04 00:01:42
 
 ## National Market Signals
 
-- National / Other: 26 article(s), 4 market signal(s), General Monitoring. Track institutional capital activity.
+- National / Other: 25 article(s), 4 market signal(s), General Monitoring. Track institutional capital activity.
 
 ## Deal / Project Intelligence
 

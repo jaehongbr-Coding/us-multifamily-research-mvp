@@ -1,8 +1,8 @@
 # Deal & Project Pipeline Report
 
-Generated: 2026-06-04 00:01:42
+Generated: 2026-06-04 08:14:18
 
-- Total deal/project signals found: 59
+- Total deal/project signals found: 57
 - High deal intelligence count: 6
 
 ## Top 10 Deal / Project Signals
@@ -81,7 +81,6 @@ Generated: 2026-06-04 00:01:42
 - Acquisition - California - CBRE Brokers $3.7M Sale of Multi-Tenant Retail Property in Santee, California: Acquisition, California, score 78. Pricing benchmark.
 - JV / Partnership - Riverside / California - Blackstone’s Link Logistics Sells Light Industrial Portfolio for $1.8B: JV / Partnership, Riverside / California, score 73. Pricing benchmark.
 - Acquisition - New York City / New York - Arrow Lines Up Acquisition Financing for 7-Property Mixed-Use Portfolio: Acquisition, New York City / New York, score 62. Pricing benchmark.
-- Acquisition - Miami / Florida - Flow Enters West Coast With $175M San Jose Multifamily Buy: Acquisition, Miami / Florida, score 60. Pricing benchmark.
 - JV / Partnership - San Francisco / California - ArtHaus, Belay Expand into San Francisco with Nob Hill Acquisition: JV / Partnership, San Francisco / California, score 59. Pricing benchmark.
 - Acquisition - Houston / Texas - Recent Houston Highrise Buyer Plans $11M Revamp: Acquisition, Houston / Texas, score 58. Pricing benchmark.
 - Acquisition - Other / Unknown - LRT Company Launches $21M DST Investment for Ground-Leased Multifamily Site Near Hilton He...: Acquisition, Other / Unknown, score 55. Pricing benchmark.
@@ -91,9 +90,9 @@ Generated: 2026-06-04 00:01:42
 
 ## Deal / Project Signals By Residential Sector
 
-- Apartment: 27 deal/project signal(s)
+- Apartment: 26 deal/project signal(s)
 - Affordable Housing: 9 deal/project signal(s)
-- Multifamily: 8 deal/project signal(s)
+- Multifamily: 7 deal/project signal(s)
 - General Residential: 5 deal/project signal(s)
 - Mixed-Use Residential: 4 deal/project signal(s)
 - BTR / Single-Family Rental: 3 deal/project signal(s)

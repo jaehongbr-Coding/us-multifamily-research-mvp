@@ -1,8 +1,8 @@
 # Timing Intelligence Report
 
-Generated: 2026-06-04 00:01:45
+Generated: 2026-06-04 08:14:21
 
-- Total timing signals detected: 48
+- Total timing signals detected: 47
 
 ## Top Timing Signals
 
@@ -54,11 +54,10 @@ Generated: 2026-06-04 00:01:45
 - Acquisition Window in Other / Unknown: No explicit timing reference, score 67, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Acquisition Window in California: No explicit timing reference, score 65, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Acquisition Window in New York City / New York: No explicit timing reference, score 63, Monthly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
-- Acquisition Window in Miami / Florida: No explicit timing reference, score 61, Monthly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Acquisition Window in Houston / Texas: No explicit timing reference, score 58, Monthly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Acquisition Window in San Francisco / California: No explicit timing reference, score 49, Monitor Only monitoring. Monitor pricing evidence and possible acquisition outreach timing.
+- Acquisition Window in Miami / Florida: No explicit timing reference, score 48, Monitor Only monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Acquisition Window in San Francisco / California: No explicit timing reference, score 48, Monitor Only monitoring. Monitor pricing evidence and possible acquisition outreach timing.
-- Acquisition Window in Miami / Florida: No explicit timing reference, score 47, Monitor Only monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 
 ## LA / California Timing Signals
 
@@ -81,7 +80,7 @@ Generated: 2026-06-04 00:01:45
 
 - Monthly: 19 timing signal(s)
 - Biweekly: 16 timing signal(s)
-- Monitor Only: 9 timing signal(s)
+- Monitor Only: 8 timing signal(s)
 - Weekly: 4 timing signal(s)
 
 ## Implications for Woomi / Woomi Global
@@ -94,9 +93,9 @@ Generated: 2026-06-04 00:01:45
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 84
+- Lifecycle records: 80
 - LA lifecycle watch items: 52
-- Stage mix: Refinancing / Recapitalization: 12, Unknown Stage: 52, Site Acquisition / Site Control: 12, Entitlement Under Review: 1, Community Review: 1
+- Stage mix: Refinancing / Recapitalization: 12, Unknown Stage: 49, Site Acquisition / Site Control: 11, Entitlement Under Review: 1, Community Review: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -104,8 +103,8 @@ Generated: 2026-06-04 00:01:45
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 84
-- Newly detected projects: 53
+- Lifecycle transitions analyzed: 80
+- Newly detected projects: 0
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 52

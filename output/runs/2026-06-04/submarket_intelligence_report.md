@@ -1,8 +1,8 @@
 # Submarket Intelligence Report
 
-Generated: 2026-06-04 00:01:45
+Generated: 2026-06-04 08:14:21
 
-- Total submarkets detected: 33
+- Total submarkets detected: 32
 
 ## Top Submarkets By Opportunity Score
 
@@ -23,12 +23,12 @@ Generated: 2026-06-04 00:01:45
 - Santa Ana (Orange County): submarket_risk_score 59, Monitor refinancing / distress pipeline.
 - Miami (Florida): submarket_risk_score 48, Review potential acquisition pipeline.
 - Hollywood (Los Angeles): submarket_risk_score 46, Monitor entitlement precedent.
+- Austin (Texas): submarket_risk_score 46, Track local GP / sponsor activity.
 - Atlanta (Southeast): submarket_risk_score 44, Monitor entitlement precedent.
 - Los Angeles (Los Angeles): submarket_risk_score 44, Monitor entitlement precedent.
-- Other / Unknown (National / Other): submarket_risk_score 44, Monitor entitlement precedent.
-- Austin (Texas): submarket_risk_score 42, Track local GP / sponsor activity.
 - Glendale (Los Angeles): submarket_risk_score 25, Monitor entitlement precedent.
 - Venice (Los Angeles): submarket_risk_score 21, Monitor entitlement precedent.
+- Charlotte (Southeast): submarket_risk_score 15, Monitor entitlement precedent.
 
 ## Highest Execution Complexity Submarkets
 
@@ -61,7 +61,7 @@ Generated: 2026-06-04 00:01:45
 ## Timing and Entitlement Signals By Submarket
 
 - New York: 6 timing signal(s), 2 entitlement signal(s).
-- Miami: 4 timing signal(s), 0 entitlement signal(s).
+- Miami: 3 timing signal(s), 0 entitlement signal(s).
 - Atlanta: 3 timing signal(s), 1 entitlement signal(s).
 - Los Angeles: 2 timing signal(s), 5 entitlement signal(s).
 - Charlotte: 2 timing signal(s), 1 entitlement signal(s).
@@ -94,8 +94,8 @@ Generated: 2026-06-04 00:01:45
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 84
+- Lifecycle records: 80
 - LA lifecycle watch items: 52
-- Stage mix: Refinancing / Recapitalization: 12, Unknown Stage: 52, Site Acquisition / Site Control: 12, Entitlement Under Review: 1, Community Review: 1
+- Stage mix: Refinancing / Recapitalization: 12, Unknown Stage: 49, Site Acquisition / Site Control: 11, Entitlement Under Review: 1, Community Review: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

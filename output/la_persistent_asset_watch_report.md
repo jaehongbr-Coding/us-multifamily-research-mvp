@@ -1,8 +1,8 @@
 # LA Persistent Asset Watch Report
 
-Generated: 2026-06-04 00:01:48
+Generated: 2026-06-04 08:14:25
 
-- Total LA persistent asset watch items: 123
+- Total LA persistent asset watch items: 122
 
 ## Priority LA Asset Watch Items
 
@@ -43,6 +43,8 @@ Generated: 2026-06-04 00:01:48
 - Entitlement / Permitting - New York - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Glendale, Unknown Stage, Track repeat project updates.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: California, Refinancing / Recapitalization, Track repeat project updates.
 - Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl...: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
+- Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Glendale, Entitlement Under Review, Track repeat project updates.
+- Entitlement / Permitting - New York - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Glendale, Community Review, Track repeat project updates.
 
 ## Construction / Delivery Transition Watch
 

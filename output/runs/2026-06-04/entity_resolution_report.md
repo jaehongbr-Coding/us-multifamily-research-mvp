@@ -1,6 +1,6 @@
 # Entity Resolution Report
 
-Generated: 2026-06-04 00:01:42
+Generated: 2026-06-04 08:14:18
 
 - Total raw entities reviewed: 258
 - Total canonical entities created: 63
@@ -10,13 +10,13 @@ Generated: 2026-06-04 00:01:42
 
 ## Top Canonical Firms
 
-- Unknown: 148 occurrence(s)
+- Unknown: 143 occurrence(s)
 - JLL: 23 occurrence(s)
 - CBRE: 21 occurrence(s)
-- Marcus & Millichap: 10 occurrence(s)
 - Berkadia: 9 occurrence(s)
 - Blackstone: 9 occurrence(s)
 - Freddie Mac: 8 occurrence(s)
+- Marcus & Millichap: 8 occurrence(s)
 - Wood Partners: 7 occurrence(s)
 - Berkshire Hathaway: 6 occurrence(s)
 - Lincoln Property Company: 6 occurrence(s)
@@ -24,15 +24,15 @@ Generated: 2026-06-04 00:01:42
 ## Top Canonical Markets
 
 - California: 61 occurrence(s)
-- Sun Belt: 61 occurrence(s)
+- Sun Belt: 56 occurrence(s)
 - Los Angeles: 54 occurrence(s)
-- Other / Unknown: 30 occurrence(s)
+- Other / Unknown: 28 occurrence(s)
 - New York: 23 occurrence(s)
-- Unknown: 12 occurrence(s)
+- Unknown: 11 occurrence(s)
 - National: 8 occurrence(s)
 - Southeast: 5 occurrence(s)
 - Connecticut: 4 occurrence(s)
-- Santa Monica: 4 occurrence(s)
+- Houston / Texas: 4 occurrence(s)
 
 ## Possible Duplicate Entities
 
@@ -44,7 +44,7 @@ Generated: 2026-06-04 00:01:42
 - JLL: Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily, General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project, JLL, Santa Ana Multifamily JLL Capital, jll
 - Los Angeles: Acquisition - Houston / Texas - Recent Houston Highrise Buyer Plans $11M Revamp, Acquisition - Other / Unknown - LRT Company Launches $21M DST Investment for Ground-Leased Multifamily Site Near Hilton He..., Atlanta / Georgia, BTR / Build-to-Rent - Phoenix / Arizona - Berkshire Hathaway acquires BTR player Taylor Morrison for $8.5B, Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences, Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl..., Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments, Dallas / Texas, Development Start - Los Angeles / California - Construction kicks off for affordable housing at 706 W. 85th Street in South L.A., Disposition / Exit - Atlanta / Georgia - Charlotte Apartment Project Fetches $107M, Disposition / Exit - Atlanta / Georgia - Eaton Vance Picks Charlotte Rental Community for $65.8M, Disposition / Exit - Dallas / Texas - Contentious Dallas City Property Could Become Apartments, Retail, Entitlement / Permitting - Atlanta / Georgia - Cambridge Properties Bringing New Life to Aging Charlotte Center, Entitlement / Permitting - California - 80 homes coming to 824 S. Gladys Ave. in San Gabriel, Entitlement / Permitting - Los Angeles / California - New plan unveiled for West Hollywood's Melrose Triangle development, Entitlement / Permitting - Los Angeles / California - SCAG releases preliminary SB 79 map, Entitlement / Permitting - Los Angeles / California - Venice Dell affordable housing project notches legal win, Entitlement / Permitting - New York - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale, General Project Signal - Atlanta / Georgia - Insignia Pursuing Embassy Row Redevelopment, General Project Signal - California - Construction Tops Out at La Mesa Townhome/Apartment Complex, General Project Signal - Dallas / Texas - Seco Planning 12-Story, $100M FW Apartment Highrise, Inland Empire, JV / Partnership - San Francisco / California - ArtHaus Partners with Belay Investment Group Expand into San Francisco with Multifamily Ac..., JV / Partnership - San Francisco / California - ArtHaus, Belay Expand into San Francisco with Nob Hill Acquisition, Las Vegas / Nevada, Los Angeles, Los Angeles / California, Office-to-Residential Conversion - Los Angeles / California - Mayor Bass: Adaptive Reuse Key to Revitalizing Downtown LA, Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi, Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments, Refinancing - New York City / New York - Derby Copeland Capital Provides $54 Million Refi for Lexington Avenue Condo
 - New York: Acquisition - New York City / New York - Arrow Lines Up Acquisition Financing for 7-Property Mixed-Use Portfolio, General Project Signal - New York - BHI Provides Condo Inventory Loan for Ground-Up Luxury Project, Manhattan, New York, New York City / New York
-- Sun Belt: Acquisition - Miami / Florida - Flow Enters West Coast With $175M San Jose Multifamily Buy, Acquisition - Miami / Florida - Miami Apartments Trade for $109.9M, Atlanta, Austin, Austin / Texas, BTR / Build-to-Rent - Phoenix / Arizona - Work Begins on 94-Unit Scottsdale Luxury BTR Community, BTR / Build-to-Rent - Sun Belt - Charlotte BTR Investors Pause Deals As They Await Fate Of Federal Housing Bill, Charlotte, Dallas, Disposition / Exit - Miami / Florida - Marcus & Millichap Brokers $4.85M Sale of Miami Apartment Building, General Project Signal - Phoenix / Arizona - Empire Group Starts Work on $170M Phoenix Apartment Tower, Miami, Miami / Florida, Phoenix, Phoenix / Arizona, Sun Belt
+- Sun Belt: Acquisition - Miami / Florida - Miami Apartments Trade for $109.9M, Atlanta, Austin, Austin / Texas, BTR / Build-to-Rent - Phoenix / Arizona - Work Begins on 94-Unit Scottsdale Luxury BTR Community, BTR / Build-to-Rent - Sun Belt - Charlotte BTR Investors Pause Deals As They Await Fate Of Federal Housing Bill, Charlotte, Dallas, Disposition / Exit - Miami / Florida - Marcus & Millichap Brokers $4.85M Sale of Miami Apartment Building, General Project Signal - Phoenix / Arizona - Empire Group Starts Work on $170M Phoenix Apartment Tower, Miami, Miami / Florida, Phoenix, Phoenix / Arizona, Sun Belt
 
 ## Weak Matches Needing Manual Review
 

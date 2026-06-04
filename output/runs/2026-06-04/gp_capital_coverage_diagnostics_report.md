@@ -1,35 +1,35 @@
 # GP / Capital Coverage Diagnostics
 
-Generated: 2026-06-04 00:01:36
+Generated: 2026-06-04 08:14:13
 
 ## Summary
 
-- GP / Capital candidate articles: 45
+- GP / Capital candidate articles: 42
 - Selected GP / Capital articles: 24
-- Excluded by repeat penalty: 11
+- Excluded by repeat penalty: 7
 - Excluded by integrity issue: 1
 
 ## Top Candidate Sources
 
 - REBusiness Online: 6 candidate(s), 5 selected, activities: refinancing:2; acquisition:2; construction_financing:1; disposition_exit:1.
 - Connect CRE: 5 candidate(s), 3 selected, activities: disposition_exit:2; debt_financing:1; refinancing:1; acquisition_financing:1.
-- Yield PRO: 5 candidate(s), 1 selected, activities: disposition_exit:4; joint_venture:1.
-- Bisnow: 3 candidate(s), 3 selected, activities: acquisition:1; lender_activity:1; none:1.
+- Yield PRO: 4 candidate(s), 1 selected, activities: disposition_exit:3; joint_venture:1.
 - Multifamily Dive: 3 candidate(s), 3 selected, activities: asset_management_operator_activity:2; acquisition:1.
 - Connect CRE Texas: 3 candidate(s), 2 selected, activities: construction_financing:1; acquisition:1; disposition_exit:1.
 - Connect CRE Orange County: 3 candidate(s), 1 selected, activities: construction_financing:1; debt_financing:1; joint_venture:1.
 - NAHB Eye on Housing - Multifamily: 3 candidate(s), 1 selected, activities: acquisition:1; debt_financing:1; disposition_exit:1.
+- Bisnow: 2 candidate(s), 2 selected, activities: debt_financing:1; lender_activity:1.
 - Commercial Observer: 2 candidate(s), 2 selected, activities: joint_venture:1; refinancing:1.
 - Connect CRE Apartments: 2 candidate(s), 2 selected, activities: disposition_exit:1; joint_venture:1.
 
 ## Focus Source Coverage
 
 - Commercial Observer: status OK, articles 2, candidates 2, selected 2.
-- Bisnow: status OK, articles 3, candidates 3, selected 3.
+- Bisnow: status OK, articles 2, candidates 2, selected 2.
 - Connect CRE: status OK, articles 5, candidates 5, selected 3.
 - Connect CRE Apartments: status OK, articles 4, candidates 2, selected 2.
 - Connect CRE Texas: status OK, articles 4, candidates 3, selected 2.
-- Connect CRE South Florida: status OK, articles 4, candidates 2, selected 1.
+- Connect CRE South Florida: status OK, articles 4, candidates 2, selected 2.
 - REBusiness Online: status OK, articles 8, candidates 6, selected 5.
 - The Real Deal: status Failed, articles 0, candidates 0, selected 0.
 - GlobeSt: status Failed, articles 0, candidates 0, selected 0.

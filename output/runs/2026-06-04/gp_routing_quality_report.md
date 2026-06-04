@@ -1,22 +1,22 @@
 # GP Routing Quality Report
 
-Generated: 2026-06-04 08:14:13
+Generated: 2026-06-04 23:02:01
 
 ## Summary
-- Total GP / Capital candidates: 42
-- Selected GP / Capital articles: 24
-- Debt Financing count: 7
-- Refinancing count: 5
-- Construction Financing count: 4
+- Total GP / Capital candidates: 41
+- Selected GP / Capital articles: 20
+- Debt Financing count: 8
+- Refinancing count: 2
+- Construction Financing count: 8
 - Acquisition Financing count: 1
 - Equity Transaction count: 0
-- Operator Activity count: 2
-- Other / Unknown market count: 25
+- Operator Activity count: 3
+- Other / Unknown market count: 31
 
 ## Routing Regression Summary
-- Market Intelligence routed articles: 17
-- Development Activity routed articles: 57
-- GP / Capital Activity routed articles: 4
+- Market Intelligence routed articles: 16
+- Development Activity routed articles: 55
+- GP / Capital Activity routed articles: 6
 - Market-protected research / macro / supply articles: 7
 - Approval / Entitlement development rows: 0
 - Site / Parcel development rows: 0
@@ -24,50 +24,52 @@ Generated: 2026-06-04 08:14:13
 - Routing rule: approval / entitlement wording takes priority over Site / Parcel when both appear.
 
 ## Activity Type Distribution
-- disposition_exit: 11
-- debt_financing: 7
-- acquisition: 6
-- refinancing: 5
-- construction_financing: 4
-- joint_venture: 4
+- debt_financing: 8
+- construction_financing: 8
+- disposition_exit: 7
+- acquisition: 4
+- joint_venture: 3
+- asset_management_operator_activity: 3
 - lender_activity: 2
-- asset_management_operator_activity: 2
+- capital_raise: 2
+- refinancing: 2
 - acquisition_financing: 1
+- none: 1
 
 ## Excluded from GP / Capital with Reason
-- Construction Tops Out at La Mesa Townhome/Apartment Complex | Connect CRE Apartments | macro or insufficient deal-level financing context
-- Good + Roberts Tops Out on $29M San Diego Multifamily Mixed-Use Housing Development | Yield PRO | macro or insufficient deal-level financing context
+- Construction Tops Out at La Mesa Townhome/Apartment Complex | Connect CRE California | macro or insufficient deal-level financing context
+- Advanced Real Estate Acquires, Rebrands Rowland Heights Apartments | Connect CRE | asset strategy / development routing
 
 ## Top Unresolved Market Extraction Examples
 - The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist | Multifamily Executive | used broad market bucket: National
-- Lument Provides $28M FHA Loan for Ohio Affordable Housing Property | REBusiness Online | used broad market bucket: National
-- LRT Company Launches $21M DST Investment for Ground-Leased Multifamily Site Near Hilton Head Island South Carolina | Yield PRO | no city, state, or market keyword detected
-- Marcus & Millichap Facilitates Sale of 160-Unit Multifamily Property in Kenosha Wisconsin | Yield PRO | no city, state, or market keyword detected
-- Interra Realty Brokers $23M Sale of Suburban Chicago Apartments | Connect CRE | no city, state, or market keyword detected
+- IZO Capital Launches $120M Structured Finance Platform for Multifamily Rental Housing Development | Yield PRO | used broad market bucket: National
+- Interra Realty Arranges $5M Sale of Multifamily Building in Chicago’s Bucktown | REBusiness Online | no city, state, or market keyword detected
 - Best Year for Missing Middle Construction Since 2007 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Missing Middle Weakness | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- Are rent concessions rising or falling? It’s complicated. | Multifamily Dive | no city, state, or market keyword detected
+- Condyne Plans Adaptive Reuse of Former Konica Minolta Building | Connect CRE | no city, state, or market keyword detected
 - Multifamily Missing Middle Construction: First Quarter 2026 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- Even with border enforcement housing supply still constrained | Yield PRO | used broad market bucket: National
 - Multifamily Absorption Rate Remains Below 50% | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Centralization Associated with Occupancy Uplift | Multifamily Executive | no city, state, or market keyword detected
+- Eastern Bank Provides $39M Bridge Loan for Worcester, Mass., 55-Plus Community | Commercial Observer | no city, state, or market keyword detected
+- $39M Bridge Loan Arranged by JLL for Central Massachusetts Active Adult Community in Worcester Massachusetts | Yield PRO | no city, state, or market keyword detected
+- Core Spaces to Develop Three Student Housing Projects Totaling 3,500 Beds in Champaign, Illinois | REBusiness Online | no city, state, or market keyword detected
 - Rent Prices Continue to Rise, While Absorption Remains Low | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - First Quarter 2026 Multifamily Construction Data | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- Fourth Quarter 2025 Multifamily Construction Data | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- Overall Housing Starts Inch Lower in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 
 ## Sample Selected GP / Capital Articles
-- BHI Provides Condo Inventory Loan for Ground-Up Luxury Project | debt_financing | New York | Connect CRE
-- Berkadia Arranges $82.1M Refinancing for Apartment Community in Nokomis, Florida | refinancing | Sarasota / Florida | REBusiness Online
-- Lument Provides $28M FHA Loan for Ohio Affordable Housing Property | acquisition | National | REBusiness Online
-- PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Hollywood | construction_financing | Los Angeles / California | REBusiness Online
-- Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences | construction_financing | Austin / Texas | Connect CRE Texas
-- Alta Developers Lands $91.8M Construction Loan for Miami Apartments | construction_financing | Miami / Florida | Connect CRE South Florida
-- Slate Property Group Closes on $86M Refi for LIC Apartments | refinancing | New York | Connect CRE
-- Newmark Provides $115.6M Agency Loan for Refinancing of Southern Connecticut Multifamily Properties | refinancing | Connecticut | REBusiness Online
-- Arrow Lines Up Acquisition Financing for 7-Property Mixed-Use Portfolio | acquisition_financing | New York City / New York | Connect CRE
-- Pacific Urban Investors Acquires 140-Unit Multifamily Community in San Diego | acquisition | California | REBusiness Online
-- Greysteel Brokers $10M Sale, Financing of Norfolk Apartments | disposition_exit | Washington DC | Connect CRE Apartments
-- PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties | joint_venture | California | Connect CRE Orange County
+- Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Angeles Arranged by Berkadia | construction_financing | Los Angeles / California | Yield PRO
+- IZO Capital Launches $120M Structured Finance Platform for Multifamily Rental Housing Development | construction_financing | National | Yield PRO
+- Scottsdale Developer Inks $141M Construction Loan for Luxury Apartments | construction_financing | Phoenix / Arizona | Connect CRE Apartments
+- Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments | capital_raise | Atlanta / Georgia | Connect CRE Apartments
+- IPA Capital Markets Arranges $27M for Luxury DC Multifamily | joint_venture | Washington DC | Connect CRE Apartments
+- Red Oak Capital Provides $7.7M Acquisition Loan for Multifamily Community in Memphis | acquisition_financing | Tennessee | REBusiness Online
+- ArtHaus, Belay Expand into San Francisco with Nob Hill Acquisition | joint_venture | San Francisco / California | Connect CRE California
+- Walker & Dunlop Arranges $223M Bridge Financing for Madison Capital Luxury Multifamily Portfolio | capital_raise | Austin / Texas | Yield PRO
+- Moody’s Sees Limited Impact of Five-Year Cap on NYC Apartment Rents | debt_financing | New York City / New York | Connect CRE Apartments
 - Multifamily CMBS Loan Distress Keeps Rising | debt_financing | Houston / Texas | Bisnow
-- ArtHaus, Belay Expand into San Francisco with Nob Hill Acquisition | joint_venture | San Francisco / California | Connect CRE Apartments
 - Renters remain cautious but demand holds steady | asset_management_operator_activity | Sun Belt | Multifamily Dive
+- Recent Houston Highrise Buyer Plans $11M Revamp | acquisition | Houston / Texas | Connect CRE Texas
+- Eastern Bank Provides $39M Bridge Loan for Worcester, Mass., 55-Plus Community | construction_financing | Other / Unknown | Commercial Observer
+- $39M Bridge Loan Arranged by JLL for Central Massachusetts Active Adult Community in Worcester Massachusetts | construction_financing | Other / Unknown | Yield PRO
+- Berkshire Hathaway acquires BTR player Taylor Morrison for $8.5B | acquisition | Phoenix / Arizona | Multifamily Dive

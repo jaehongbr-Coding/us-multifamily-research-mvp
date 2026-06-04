@@ -1,15 +1,15 @@
 # Site / Parcel Source Coverage Report
 
-Generated: 2026-06-04 08:14:17
+Generated: 2026-06-04 23:02:12
 
 - Total added sources attempted: 25
-- Successful sources: 8
-- Blocked / inaccessible / skipped sources: 17
+- Successful sources: 7
+- Blocked / inaccessible / skipped sources: 18
 - Sources with zero Site / Parcel candidates: 22
 
 ## Top Site / Parcel Candidate Sources
 
-- Connect CRE Apartments: 1 candidate(s) from 10 fetched article(s).
+- Connect CRE Texas: 1 candidate(s) from 10 fetched article(s).
 - Connect CRE South Florida: 1 candidate(s) from 10 fetched article(s).
 - Connect CRE Atlanta: 1 candidate(s) from 10 fetched article(s).
 
@@ -22,12 +22,12 @@ Generated: 2026-06-04 08:14:17
 ## Source Detail
 
 - REBusiness Online: no relevant articles | fetched 20 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
-- Connect CRE Apartments: success | fetched 10 | Site / Parcel candidates 1 | Available
-- Connect CRE Texas: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
+- Connect CRE Apartments: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
+- Connect CRE Texas: success | fetched 10 | Site / Parcel candidates 1 | Available
 - Connect CRE South Florida: success | fetched 10 | Site / Parcel candidates 1 | Available
 - Connect CRE Phoenix: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
 - Connect CRE Atlanta: success | fetched 10 | Site / Parcel candidates 1 | Available
-- Connect CRE Charlotte: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
+- Connect CRE Charlotte: error | fetched 0 | Site / Parcel candidates 0 | RSS parsing issue: status=404; <unknown>:22:51: not well-formed (invalid token)
 - Connect CRE Orange County: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
 - CRE Daily: skipped | fetched 0 | Site / Parcel candidates 0 | No public feed URL configured
 - Institutional Property Advisors: skipped | fetched 0 | Site / Parcel candidates 0 | No public feed URL configured

@@ -1,6 +1,6 @@
 # Executive Priority Brief
 
-Generated: 2026-06-04 08:14:18
+Generated: 2026-06-04 23:02:13
 
 ## Top 3 Executive Priorities
 
@@ -16,8 +16,8 @@ Generated: 2026-06-04 08:14:18
 | 2 | Selective Capital Re-entry | 100 | Tier 1 Executive Attention | Investment Team; Strategy Team; Executive Committee; US Local Team | This Week |
 | 3 | Supply Pressure | 100 | Tier 2 Strategic Review | Investment Team; Development Team; US Local Team | This Week |
 | 4 | Developer Strategy Shift | 98 | Tier 2 Strategic Review | Strategy Team; Development Team; US Local Team | This Week |
-| 5 | Policy / Entitlement Watch | 85 | Tier 3 Monitoring | Development Team; US Local Team; Strategy Team | This Week |
-| 6 | Construction Cost Pressure | 22 | Tier 3 Monitoring | Development Team; Investment Team; US Local Team | Background Tracking |
+| 5 | Policy / Entitlement Watch | 92 | Tier 3 Monitoring | Development Team; US Local Team; Strategy Team | This Week |
+| 6 | Construction Cost Pressure | 18 | Background | Development Team; Investment Team; US Local Team | Background Tracking |
 
 ## Tier 1 Executive Attention
 
@@ -31,8 +31,8 @@ Generated: 2026-06-04 08:14:18
 
 ## Monitoring Items
 
-- Rank 5: Policy / Entitlement Watch (85). Policy and entitlement signals should be monitored because they may affect approvals, zoning strategy, and local development feasibility. Owner: Development Team; US Local Team; Strategy Team. Timing: This Week.
-- Rank 6: Construction Cost Pressure (22). Construction cost signals should be reviewed because they may affect feasibility, contingencies, and value engineering. Owner: Development Team; Investment Team; US Local Team. Timing: Background Tracking.
+- Rank 5: Policy / Entitlement Watch (92). Policy and entitlement signals should be monitored because they may affect approvals, zoning strategy, and local development feasibility. Owner: Development Team; US Local Team; Strategy Team. Timing: This Week.
+- Rank 6: Construction Cost Pressure (18). Construction cost signals should be reviewed because they may affect feasibility, contingencies, and value engineering. Owner: Development Team; Investment Team; US Local Team. Timing: Background Tracking.
 
 ## Scenario Context
 
@@ -48,27 +48,27 @@ Sun Belt, Texas, Southeast, or related growth-market signals appear in the curre
 ## GP / Developer Intelligence
 
 Developer and GP platform intelligence is available in `gp_intelligence_report.md`.
-- CBRE: Immediate Watch, acquisition; disposition / exit; office-to-residential conversion; operational technology / AI adoption, review LA / California development activity.
-- JLL: Immediate Watch, acquisition; disposition / exit; refinancing; operational technology / AI adoption, track refinancing pipeline.
-- Freestone Capital: Immediate Watch, recapitalization; JV / partnership; capital raise; operational technology / AI adoption, monitor JV activity.
-- PEF Advisors: Immediate Watch, recapitalization; JV / partnership; capital raise; operational technology / AI adoption, monitor JV activity.
-- Santa Ana Multifamily JLL Capital: Immediate Watch, refinancing; operational technology / AI adoption, track refinancing pipeline.
+- JLL: Immediate Watch, refinancing; operational technology / AI adoption, track refinancing pipeline.
+- Berkshire Hathaway: Immediate Watch, acquisition; BTR expansion; JV / partnership; operational technology / AI adoption, monitor JV activity.
+- Eastern Bank: Immediate Watch, refinancing; operational technology / AI adoption, track refinancing pipeline.
+- Marcus & Millichap: Immediate Watch, acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, monitor JV activity.
+- Walker & Dunlop: Immediate Watch, refinancing; capital raise; operational technology / AI adoption, track refinancing pipeline.
 
 ## Institutional Relationship Context
 
 Institutional relationship and capital-flow intelligence is available in `institutional_relationship_report.md`.
 Use that report to compare GP partnership, pricing discovery, and capital partner tracking signals.
 
-- CBRE: GP Capability Benchmark Signal, Capital Inflow, score 100.
-- JLL: GP Capability Benchmark Signal, Capital Inflow, score 100.
-- Lincoln Property Company: Potential JV / Partnership Signal, Refinancing / Recapitalization, score 98.
+- Berkshire Hathaway: Potential JV / Partnership Signal, Capital Inflow, score 100.
+- Generation Real Estate Partners: Potential JV / Partnership Signal, Capital Inflow, score 99.
+- Hanover Company: GP Capability Benchmark Signal, Capital Outflow / Exit, score 99.
 
 ## Deal / Project Pipeline Context
 
 Deal and project extraction is available in `deal_pipeline_report.md`.
 - Construction Financing in California: Capital market signal (High Deal Intelligence).
-- Refinancing in Sarasota / Florida: Capital market signal (High Deal Intelligence).
-- Refinancing in New York: Capital market signal (High Deal Intelligence).
+- Disposition / Exit in Los Angeles / California: Underwriting benchmark (High Deal Intelligence).
+- Construction Financing in Los Angeles / California: Capital market signal (High Deal Intelligence).
 
 ## Relationship Graph Context
 
@@ -80,17 +80,17 @@ Developer, lender, capital partner, market, and deal connections are available i
 ## Residential Sector Coverage Context
 
 Sector-level residential coverage is available in `residential_sector_report.md`.
-- Affordable Housing: Track LA / California affordability, entitlement, and public-private partnership signals.
-- BTR / Single-Family Rental: Monitor BTR / SFR operators, capital flows, and target markets.
-- Office-to-Residential Conversion: Track conversion feasibility, policy support, and construction cost assumptions.
+- Affordable Housing: Add to sector watchlist.
 - Student Housing: Monitor university-market demand and partnership signals.
+- Office-to-Residential Conversion: Track conversion feasibility, policy support, and construction cost assumptions.
+- BTR / Single-Family Rental: Monitor BTR / SFR operators, capital flows, and target markets.
 
 ## Emerging GP Watchlist Summary
 
 Emerging GP ranking and partnership watchlist signals are available in `gp_watchlist_report.md`.
 - Freestone Capital: Tier 2 High Potential GP, score 77, Potential GP partnership candidate.
 - PEF Advisors: Tier 2 High Potential GP, score 77, Potential GP partnership candidate.
-- JLL: Tier 2 High Potential GP, score 76, Capital market and pricing discovery reference.
+- Berkshire Hathaway: Tier 2 High Potential GP, score 76, Potential GP partnership candidate.
 
 ## Historical Persistence Summary
 
@@ -122,9 +122,9 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 80
-- LA lifecycle watch items: 52
-- Stage mix: Refinancing / Recapitalization: 12, Unknown Stage: 49, Site Acquisition / Site Control: 11, Entitlement Under Review: 1, Community Review: 1
+- Lifecycle records: 79
+- LA lifecycle watch items: 53
+- Stage mix: Refinancing / Recapitalization: 11, Delivery / Opening: 10, Unknown Stage: 41, Building Permit / Construction Permit: 1, Site Acquisition / Site Control: 11
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -132,11 +132,11 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 80
-- Newly detected projects: 0
+- Lifecycle transitions analyzed: 79
+- Newly detected projects: 37
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 52
+- LA lifecycle transition watch items: 53
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -144,11 +144,11 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 662
-- Canonical projects: 164
-- Duplicate project clusters: 115
-- Persistent assets tracked: 164
-- LA persistent asset watch items: 122
+- Raw project references: 632
+- Canonical projects: 153
+- Duplicate project clusters: 108
+- Persistent assets tracked: 153
+- LA persistent asset watch items: 111
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -156,11 +156,11 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 164
-- Institutional-grade signals: 16
-- High-confidence signals: 44
-- Weak/noisy signals: 96
-- High-confidence watchlist items: 44
+- Signals evaluated: 153
+- Institutional-grade signals: 12
+- High-confidence signals: 35
+- Weak/noisy signals: 94
+- High-confidence watchlist items: 35
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 
 
@@ -169,7 +169,7 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 ## Dashboard Summary
 
 - Dashboard cards: 38
-- Dashboard watchlist items: 98
-- Recommended focus: Review Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments and related high-confidence project signals.
+- Dashboard watchlist items: 97
+- Recommended focus: Review Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties and related high-confidence project signals.
 - Start with `executive_dashboard_brief.md`, then review `dashboard_cards.csv` and `dashboard_watchlists.csv` for future dashboard inputs.
 

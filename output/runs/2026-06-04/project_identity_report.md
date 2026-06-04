@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-06-04 08:14:25
+Generated: 2026-06-04 23:02:18
 
-- Total raw project references: 662
-- Total canonical projects: 164
-- Duplicate project clusters: 115
-- High-confidence project identities: 662
+- Total raw project references: 632
+- Total canonical projects: 153
+- Duplicate project clusters: 108
+- High-confidence project identities: 632
 - Low-confidence identities needing review: 0
-- LA / California project references: 535
+- LA / California project references: 425
 
 ## Top Repeated Projects
 
-- Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl...: 45 occurrence(s), confidence 80.
-- Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl...: 45 occurrence(s), confidence 80.
-- Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl...: 45 occurrence(s), confidence 80.
-- Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl...: 45 occurrence(s), confidence 80.
-- Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl...: 45 occurrence(s), confidence 80.
-- Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl...: 45 occurrence(s), confidence 80.
-- Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl...: 45 occurrence(s), confidence 80.
-- Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl...: 45 occurrence(s), confidence 80.
-- Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl...: 45 occurrence(s), confidence 80.
-- Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl...: 45 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - RHO Residential Awarded Management of 6,000+ Unit Former Veris Residential Portfolio: 42 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - RHO Residential Awarded Management of 6,000+ Unit Former Veris Residential Portfolio: 42 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - RHO Residential Awarded Management of 6,000+ Unit Former Veris Residential Portfolio: 42 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - RHO Residential Awarded Management of 6,000+ Unit Former Veris Residential Portfolio: 42 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - RHO Residential Awarded Management of 6,000+ Unit Former Veris Residential Portfolio: 42 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - RHO Residential Awarded Management of 6,000+ Unit Former Veris Residential Portfolio: 42 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - RHO Residential Awarded Management of 6,000+ Unit Former Veris Residential Portfolio: 42 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - RHO Residential Awarded Management of 6,000+ Unit Former Veris Residential Portfolio: 42 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - RHO Residential Awarded Management of 6,000+ Unit Former Veris Residential Portfolio: 42 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - RHO Residential Awarded Management of 6,000+ Unit Former Veris Residential Portfolio: 42 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

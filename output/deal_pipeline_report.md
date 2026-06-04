@@ -1,104 +1,101 @@
 # Deal & Project Pipeline Report
 
-Generated: 2026-06-04 08:14:18
+Generated: 2026-06-04 23:02:13
 
-- Total deal/project signals found: 57
-- High deal intelligence count: 6
+- Total deal/project signals found: 53
+- High deal intelligence count: 4
 
 ## Top 10 Deal / Project Signals
 
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Construction Financing, California, score 93. Capital market signal.
-- Refinancing - Sarasota / Florida - Berkadia Arranges $82.1M Refinancing for Apartment Community in Nokomis, Florida: Refinancing, Sarasota / Florida, score 85. Capital market signal.
-- Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments: Refinancing, New York, score 85. Capital market signal.
-- Refinancing - Connecticut - Newmark Provides $115.6M Agency Loan for Refinancing of Southern Connecticut Multifamily P...: Refinancing, Connecticut, score 83. Capital market signal.
-- Disposition / Exit - Atlanta / Georgia - Charlotte Apartment Project Fetches $107M: Disposition / Exit, Atlanta / Georgia, score 81. Underwriting benchmark.
-- Disposition / Exit - Atlanta / Georgia - Eaton Vance Picks Charlotte Rental Community for $65.8M: Disposition / Exit, Atlanta / Georgia, score 81. Capital market signal.
-- Acquisition - California - CBRE Brokers $3.7M Sale of Multi-Tenant Retail Property in Santee, California: Acquisition, California, score 78. Pricing benchmark.
+- Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Disposition / Exit, Los Angeles / California, score 91. Underwriting benchmark.
+- Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang...: Construction Financing, Los Angeles / California, score 85. Capital market signal.
+- Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester: Disposition / Exit, Los Angeles / California, score 83. Underwriting benchmark.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: General Project Signal, California, score 78. Capital market signal.
-- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Construction Financing, Austin / Texas, score 77. Capital market signal.
-- Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Disposition / Exit, California, score 76. Entitlement / zoning watch.
+- General Project Signal - Atlanta / Georgia - Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments: General Project Signal, Atlanta / Georgia, score 75. Capital market signal.
+- JV / Partnership - Washington DC - IPA Capital Markets Arranges $27M for Luxury DC Multifamily: JV / Partnership, Washington DC, score 75. Pricing benchmark.
+- Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Disposition / Exit, California, score 74. Entitlement / zoning watch.
+- Acquisition - Tennessee - Red Oak Capital Provides $7.7M Acquisition Loan for Multifamily Community in Memphis: Acquisition, Tennessee, score 73. Pricing benchmark.
+- Development Start - California - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach: Development Start, California, score 73. Pipeline / supply signal.
 
 ## California / LA Deal Watch
 
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Construction Financing, California, score 93. Capital market signal.
-- Acquisition - California - CBRE Brokers $3.7M Sale of Multi-Tenant Retail Property in Santee, California: Acquisition, California, score 78. Pricing benchmark.
+- Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Disposition / Exit, Los Angeles / California, score 91. Underwriting benchmark.
+- Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang...: Construction Financing, Los Angeles / California, score 85. Capital market signal.
+- Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester: Disposition / Exit, Los Angeles / California, score 83. Underwriting benchmark.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: General Project Signal, California, score 78. Capital market signal.
-- Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Disposition / Exit, California, score 76. Entitlement / zoning watch.
-- Entitlement / Permitting - Los Angeles / California - Venice Dell affordable housing project notches legal win: Entitlement / Permitting, Los Angeles / California, score 75. Entitlement / zoning watch.
+- Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Disposition / Exit, California, score 74. Entitlement / zoning watch.
 - Development Start - California - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach: Development Start, California, score 73. Pipeline / supply signal.
-- Office-to-Residential Conversion - Los Angeles / California - Mayor Bass: Adaptive Reuse Key to Revitalizing Downtown LA: Office-to-Residential Conversion, Los Angeles / California, score 71. Construction strategy reference.
-- General Project Signal - California - Construction Tops Out at La Mesa Townhome/Apartment Complex: General Project Signal, California, score 70. Entitlement / zoning watch.
+- General Project Signal - California - Construction Tops Out at La Mesa Townhome/Apartment Complex: General Project Signal, California, score 73. Entitlement / zoning watch.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Recapitalization, California, score 69. Capital market signal.
-- Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl...: Construction Financing, Los Angeles / California, score 65. Capital market signal.
+- Acquisition - Los Angeles / California - Colliers Brokers $16.6M Sale of Affordable Housing Complex in West Los Angeles: Acquisition, Los Angeles / California, score 65. Pricing benchmark.
 
 ## GP / Developer Activity
 
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Construction Financing, California, score 93. Capital market signal.
-- Refinancing - Sarasota / Florida - Berkadia Arranges $82.1M Refinancing for Apartment Community in Nokomis, Florida: Refinancing, Sarasota / Florida, score 85. Capital market signal.
-- Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments: Refinancing, New York, score 85. Capital market signal.
-- Refinancing - Connecticut - Newmark Provides $115.6M Agency Loan for Refinancing of Southern Connecticut Multifamily P...: Refinancing, Connecticut, score 83. Capital market signal.
-- Disposition / Exit - Atlanta / Georgia - Charlotte Apartment Project Fetches $107M: Disposition / Exit, Atlanta / Georgia, score 81. Underwriting benchmark.
-- Disposition / Exit - Atlanta / Georgia - Eaton Vance Picks Charlotte Rental Community for $65.8M: Disposition / Exit, Atlanta / Georgia, score 81. Capital market signal.
-- Acquisition - California - CBRE Brokers $3.7M Sale of Multi-Tenant Retail Property in Santee, California: Acquisition, California, score 78. Pricing benchmark.
+- Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Disposition / Exit, Los Angeles / California, score 91. Underwriting benchmark.
+- Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang...: Construction Financing, Los Angeles / California, score 85. Capital market signal.
+- Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester: Disposition / Exit, Los Angeles / California, score 83. Underwriting benchmark.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: General Project Signal, California, score 78. Capital market signal.
-- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Construction Financing, Austin / Texas, score 77. Capital market signal.
-- Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Disposition / Exit, California, score 76. Entitlement / zoning watch.
+- General Project Signal - Atlanta / Georgia - Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments: General Project Signal, Atlanta / Georgia, score 75. Capital market signal.
+- JV / Partnership - Washington DC - IPA Capital Markets Arranges $27M for Luxury DC Multifamily: JV / Partnership, Washington DC, score 75. Pricing benchmark.
+- Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Disposition / Exit, California, score 74. Entitlement / zoning watch.
+- General Project Signal - Austin / Texas - Walker & Dunlop Arranges $223M Bridge Financing for Madison Capital Luxury Multifamily Por...: General Project Signal, Austin / Texas, score 71. Capital market signal.
+- Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Recapitalization, California, score 69. Capital market signal.
 
 ## Financing / Refinancing Signals
 
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Construction Financing, California, score 93. Capital market signal.
-- Refinancing - Sarasota / Florida - Berkadia Arranges $82.1M Refinancing for Apartment Community in Nokomis, Florida: Refinancing, Sarasota / Florida, score 85. Capital market signal.
-- Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments: Refinancing, New York, score 85. Capital market signal.
-- Refinancing - Connecticut - Newmark Provides $115.6M Agency Loan for Refinancing of Southern Connecticut Multifamily P...: Refinancing, Connecticut, score 83. Capital market signal.
-- Disposition / Exit - Atlanta / Georgia - Eaton Vance Picks Charlotte Rental Community for $65.8M: Disposition / Exit, Atlanta / Georgia, score 81. Capital market signal.
+- Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang...: Construction Financing, Los Angeles / California, score 85. Capital market signal.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: General Project Signal, California, score 78. Capital market signal.
-- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Construction Financing, Austin / Texas, score 77. Capital market signal.
-- Disposition / Exit - Miami / Florida - Marcus & Millichap Brokers $4.85M Sale of Miami Apartment Building: Disposition / Exit, Miami / Florida, score 69. Capital market signal.
+- General Project Signal - Atlanta / Georgia - Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments: General Project Signal, Atlanta / Georgia, score 75. Capital market signal.
+- JV / Partnership - Washington DC - IPA Capital Markets Arranges $27M for Luxury DC Multifamily: JV / Partnership, Washington DC, score 75. Pricing benchmark.
+- Acquisition - Tennessee - Red Oak Capital Provides $7.7M Acquisition Loan for Multifamily Community in Memphis: Acquisition, Tennessee, score 73. Pricing benchmark.
+- General Project Signal - Austin / Texas - Walker & Dunlop Arranges $223M Bridge Financing for Madison Capital Luxury Multifamily Por...: General Project Signal, Austin / Texas, score 71. Capital market signal.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Recapitalization, California, score 69. Capital market signal.
-- General Project Signal - New York - BHI Provides Condo Inventory Loan for Ground-Up Luxury Project: General Project Signal, New York, score 67. Capital market signal.
+- Construction Financing - Other / Unknown - $39M Bridge Loan Arranged by JLL for Central Massachusetts Active Adult Community in Worce...: Construction Financing, Other / Unknown, score 65. Capital market signal.
+- Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Construction Financing, Miami / Florida, score 65. Capital market signal.
 
 ## Project Pipeline / Supply Signals
 
-- Entitlement / Permitting - Los Angeles / California - Venice Dell affordable housing project notches legal win: Entitlement / Permitting, Los Angeles / California, score 75. Entitlement / zoning watch.
+- Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Disposition / Exit, Los Angeles / California, score 91. Underwriting benchmark.
+- Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester: Disposition / Exit, Los Angeles / California, score 83. Underwriting benchmark.
+- Acquisition - Tennessee - Red Oak Capital Provides $7.7M Acquisition Loan for Multifamily Community in Memphis: Acquisition, Tennessee, score 73. Pricing benchmark.
 - Development Start - California - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach: Development Start, California, score 73. Pipeline / supply signal.
-- General Project Signal - California - Construction Tops Out at La Mesa Townhome/Apartment Complex: General Project Signal, California, score 70. Entitlement / zoning watch.
+- General Project Signal - California - Construction Tops Out at La Mesa Townhome/Apartment Complex: General Project Signal, California, score 73. Entitlement / zoning watch.
+- Acquisition - Texas - Marcus & Millichap Brokers Sale of 119-Unit Multifamily Portfolio in Kerrville, Texas: Acquisition, Texas, score 68. Underwriting benchmark.
 - Development Start - Los Angeles / California - Construction kicks off for affordable housing at 706 W. 85th Street in South L.A.: Development Start, Los Angeles / California, score 65. Pipeline / supply signal.
+- Entitlement / Permitting - Los Angeles / California - Affordable housing proposed for 23022 W. Ventura Blvd. in Woodland Hills: Entitlement / Permitting, Los Angeles / California, score 65. Entitlement / zoning watch.
 - Entitlement / Permitting - Los Angeles / California - New plan unveiled for West Hollywood's Melrose Triangle development: Entitlement / Permitting, Los Angeles / California, score 65. Entitlement / zoning watch.
 - Entitlement / Permitting - New York - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Entitlement / Permitting, New York, score 65. Entitlement / zoning watch.
-- General Project Signal - Southeast - St. John Properties, Somerset Break Ground on $148M Multifamily Community in Baltimore Cou...: General Project Signal, Southeast, score 65. Underwriting benchmark.
-- Development Start - California - Affirmed Housing, VTA Break Ground on San Jose TOD: Development Start, California, score 63. Pipeline / supply signal.
-- Entitlement / Permitting - California - 80 homes coming to 824 S. Gladys Ave. in San Gabriel: Entitlement / Permitting, California, score 57. Entitlement / zoning watch.
-- General Project Signal - Dallas / Texas - Seco Planning 12-Story, $100M FW Apartment Highrise: General Project Signal, Dallas / Texas, score 57. Underwriting benchmark.
 
 ## BTR / Modular / Innovation Signals
 
 - BTR / Build-to-Rent - Phoenix / Arizona - Berkshire Hathaway acquires BTR player Taylor Morrison for $8.5B: BTR / Build-to-Rent, Phoenix / Arizona, score 59. Pipeline / supply signal.
-- BTR / Build-to-Rent - Phoenix / Arizona - Work Begins on 94-Unit Scottsdale Luxury BTR Community: BTR / Build-to-Rent, Phoenix / Arizona, score 45. Pipeline / supply signal.
-- BTR / Build-to-Rent - Sun Belt - Charlotte BTR Investors Pause Deals As They Await Fate Of Federal Housing Bill: BTR / Build-to-Rent, Sun Belt, score 44. Pipeline / supply signal.
+- BTR / Build-to-Rent - National - IZO Capital Launches $120M Structured Finance Platform for Multifamily Rental Housing Deve...: BTR / Build-to-Rent, National, score 51. Capital market signal.
 
 ## Pricing / Cap Rate / Valuation Signals
 
-- Acquisition - California - CBRE Brokers $3.7M Sale of Multi-Tenant Retail Property in Santee, California: Acquisition, California, score 78. Pricing benchmark.
-- JV / Partnership - Riverside / California - Blackstone’s Link Logistics Sells Light Industrial Portfolio for $1.8B: JV / Partnership, Riverside / California, score 73. Pricing benchmark.
-- Acquisition - New York City / New York - Arrow Lines Up Acquisition Financing for 7-Property Mixed-Use Portfolio: Acquisition, New York City / New York, score 62. Pricing benchmark.
-- JV / Partnership - San Francisco / California - ArtHaus, Belay Expand into San Francisco with Nob Hill Acquisition: JV / Partnership, San Francisco / California, score 59. Pricing benchmark.
+- JV / Partnership - Washington DC - IPA Capital Markets Arranges $27M for Luxury DC Multifamily: JV / Partnership, Washington DC, score 75. Pricing benchmark.
+- Acquisition - Tennessee - Red Oak Capital Provides $7.7M Acquisition Loan for Multifamily Community in Memphis: Acquisition, Tennessee, score 73. Pricing benchmark.
+- Acquisition - Los Angeles / California - Colliers Brokers $16.6M Sale of Affordable Housing Complex in West Los Angeles: Acquisition, Los Angeles / California, score 65. Pricing benchmark.
+- JV / Partnership - San Francisco / California - ArtHaus, Belay Expand into San Francisco with Nob Hill Acquisition: JV / Partnership, San Francisco / California, score 62. Pricing benchmark.
 - Acquisition - Houston / Texas - Recent Houston Highrise Buyer Plans $11M Revamp: Acquisition, Houston / Texas, score 58. Pricing benchmark.
-- Acquisition - Other / Unknown - LRT Company Launches $21M DST Investment for Ground-Leased Multifamily Site Near Hilton He...: Acquisition, Other / Unknown, score 55. Pricing benchmark.
-- JV / Partnership - San Francisco / California - ArtHaus Partners with Belay Investment Group Expand into San Francisco with Multifamily Ac...: JV / Partnership, San Francisco / California, score 53. Pricing benchmark.
-- Office-to-Residential Conversion - National - Lument Provides $28M FHA Loan for Ohio Affordable Housing Property: Office-to-Residential Conversion, National, score 51. Pricing benchmark.
+- Acquisition - Other / Unknown - Interra Realty Arranges $5M Sale of Multifamily Building in Chicago’s Bucktown: Acquisition, Other / Unknown, score 52. Pricing benchmark.
 - Acquisition - Miami / Florida - Miami Apartments Trade for $109.9M: Acquisition, Miami / Florida, score 50. Pricing benchmark.
 
 ## Deal / Project Signals By Residential Sector
 
-- Apartment: 26 deal/project signal(s)
-- Affordable Housing: 9 deal/project signal(s)
-- Multifamily: 7 deal/project signal(s)
-- General Residential: 5 deal/project signal(s)
-- Mixed-Use Residential: 4 deal/project signal(s)
-- BTR / Single-Family Rental: 3 deal/project signal(s)
-- Senior Housing: 1 deal/project signal(s)
+- Apartment: 21 deal/project signal(s)
+- Affordable Housing: 10 deal/project signal(s)
+- Multifamily: 9 deal/project signal(s)
+- Senior Housing: 4 deal/project signal(s)
+- General Residential: 3 deal/project signal(s)
+- Mixed-Use Residential: 2 deal/project signal(s)
+- Student Housing: 2 deal/project signal(s)
+- BTR / Single-Family Rental: 1 deal/project signal(s)
 - Office-to-Residential Conversion: 1 deal/project signal(s)
-- Student Housing: 1 deal/project signal(s)
 
 ## Canonical Deal Summary
 
@@ -113,7 +110,7 @@ Developer, lender, capital partner, market, and deal edges are available in `rel
 - JLL -> California: Financing Relationship, score 97.
 - JLL -> Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Financing Relationship, score 97.
 - JLL -> jll: Financing Relationship, score 96.
-- CBRE -> cbre: Financing Relationship, score 92.
+- CBRE -> cbre: Financing Relationship, score 95.
 
 ## Implications for Woomi / Woomi Global
 
@@ -124,10 +121,10 @@ Developer, lender, capital partner, market, and deal edges are available in `rel
 ## Recommended Follow-up Actions
 
 - Capital market signal: read `JLL Lines Up $144M Construction Loan for Santa Ana Multifamily` from Connect CRE Orange County. Canonical market: California.
-- Capital market signal: read `Berkadia Arranges $82.1M Refinancing for Apartment Community in Nokomis, Florida` from REBusiness Online. Canonical market: Sarasota / Florida.
-- Capital market signal: read `Slate Property Group Closes on $86M Refi for LIC Apartments` from Connect CRE. Canonical market: New York.
-- Capital market signal: read `Newmark Provides $115.6M Agency Loan for Refinancing of Southern Connecticut Multifamily Properties` from REBusiness Online. Canonical market: Connecticut.
-- Underwriting benchmark: read `Charlotte Apartment Project Fetches $107M` from Connect CRE Charlotte. Canonical market: Los Angeles.
-- Capital market signal: read `Eaton Vance Picks Charlotte Rental Community for $65.8M` from Connect CRE Charlotte. Canonical market: Los Angeles.
-- Pricing benchmark: read `CBRE Brokers $3.7M Sale of Multi-Tenant Retail Property in Santee, California` from REBusiness Online. Canonical market: California.
+- Underwriting benchmark: read `Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson` from Urbanize LA. Canonical market: Los Angeles.
+- Capital market signal: read `Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Angeles Arranged by Berkadia` from Yield PRO. Canonical market: Los Angeles.
+- Underwriting benchmark: read `19-story high-rise starts work at 6055 Center Drive in Westchester` from Urbanize LA. Canonical market: Los Angeles.
 - Capital market signal: read `JLL Arranges $252M Financing for Huntington Beach Seniors Project` from Connect CRE Orange County. Canonical market: California.
+- Capital market signal: read `Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments` from Connect CRE Apartments. Canonical market: Los Angeles.
+- Pricing benchmark: read `IPA Capital Markets Arranges $27M for Luxury DC Multifamily` from Connect CRE Apartments. Canonical market: Washington DC.
+- Entitlement / zoning watch: read `Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale` from Connect CRE Orange County. Canonical market: California.

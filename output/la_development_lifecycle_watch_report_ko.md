@@ -1,34 +1,34 @@
 # 한국어 LA 개발 단계 Watch
 
-- 생성 시각: 2026-06-04 08:14:13
+- 생성 시각: 2026-06-04 23:02:01
 - 참고 원문 파일: `la_development_lifecycle_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
 ## 개발 단계별 프로젝트 현황
 
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: California, 어포더블 하우징, 점수 100 (Refinancing / Recapitalization; Review lender exposure, sponsor stress, and possible JV or rescue-capital angle)
-- Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments: Los Angeles, 아파트, 점수 100 (Refinancing / Recapitalization; Review lender exposure, sponsor stress, and possible JV or rescue-capital angle)
-- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Los Angeles, 아파트, 점수 100 (Refinancing / Recapitalization; Review lender exposure, sponsor stress, and possible JV or rescue-capital angle)
-- Office-to-Residential Conversion - Los Angeles / California - Mayor Bass: Adaptive Reuse Key to Revitalizing Downtown LA: Los Angeles, 오피스-주거 전환, 점수 96 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
-- Acquisition - California - CBRE Brokers $3.7M Sale of Multi-Tenant Retail Property in Santee, California: California, 일반 주거, 점수 96 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
-- Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: California, 일반 주거, 점수 96 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
+- General Project Signal - Atlanta / Georgia - Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments: Los Angeles, 아파트, 점수 100 (Refinancing / Recapitalization; Review lender exposure, sponsor stress, and possible JV or rescue-capital angle)
+- Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang...: Los Angeles, 어포더블 하우징, 점수 100 (Delivery / Opening; Monitor lifecycle status for repeated confirmation)
+- Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Los Angeles, 어포더블 하우징, 점수 100 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
+- 19-story high-rise starts work at 6055 Center Drive in Westchester: Los Angeles, 주거복합, 점수 100 (Building Permit / Construction Permit; Monitor permit status, financing, and construction-start readiness)
+- Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester: Los Angeles, 주거복합, 점수 97 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
+- Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Los Angeles, 어포더블 하우징, 점수 97 (Site Acquisition / Site Control; Monitor lifecycle status for repeated confirmation)
+- Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: California, 일반 주거, 점수 95 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: California, 아파트, 점수 94 (Refinancing / Recapitalization; Review lender exposure, sponsor stress, and possible JV or rescue-capital angle)
-- General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: California, 시니어 하우징, 점수 93 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
-- JV / Partnership - Riverside / California - Blackstone’s Link Logistics Sells Light Industrial Portfolio for $1.8B: Los Angeles, 일반 주거, 점수 93 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
-- Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Los Angeles, 아파트, 점수 89 (Refinancing / Recapitalization; Review lender exposure, sponsor stress, and possible JV or rescue-capital angle)
+- BTR / Build-to-Rent - Phoenix / Arizona - Berkshire Hathaway acquires BTR player Taylor Morrison for $8.5B: Los Angeles, BTR / 단독주택 임대, 점수 94 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
 
 ## 진행 / 정체 / 재등장 신호
 
 - Timber Senior Apartments Open in Newark, Alameda County: Los Angeles, 아파트, 점수 76 (Mature / Operating; Mature)
+- Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang...: Los Angeles, 어포더블 하우징, 점수 75 (Newly Detected Project; Unknown)
+- Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Angeles Arranged by Berkadia: Los Angeles, 어포더블 하우징, 점수 74 (Newly Detected Project; Unknown)
+- Zilber Residential Group, Homes by Towne Complete 209-Unit Multifamily Community in Roseville, California: California, 아파트, 점수 73 (Newly Detected Project; Unknown)
+- General Project Signal - California - Zilber Residential Group, Homes by Towne Complete 209-Unit Multifamily Community in Rosevi...: California, 아파트, 점수 72 (Newly Detected Project; Unknown)
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: California, 어포더블 하우징, 점수 65 (Same Stage Persistence; Stable)
-- Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments: Los Angeles, 아파트, 점수 65 (Same Stage Persistence; Stable)
-- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Los Angeles, 아파트, 점수 65 (Same Stage Persistence; Stable)
 - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Los Angeles, 아파트, 점수 64 (Same Stage Persistence; Stable)
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: California, 아파트, 점수 64 (Same Stage Persistence; Stable)
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Los Angeles, 아파트, 점수 63 (Same Stage Persistence; Stable)
-- Refinancing - New York City / New York - Derby Copeland Capital Provides $54 Million Refi for Lexington Avenue Condo: Los Angeles, 일반 주거, 점수 62 (Same Stage Persistence; Stable)
 - Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi: Los Angeles, 학생주택, 점수 61 (Same Stage Persistence; Stable)
-- Acquisition - California - CBRE Brokers $3.7M Sale of Multi-Tenant Retail Property in Santee, California: California, 일반 주거, 점수 50 (Unknown Transition; Unknown)
 
 ## 인허가 / 착공 / 리스업 타이밍
 

@@ -1,60 +1,63 @@
 # Thematic Trends
 
-Generated: 2026-06-04 08:14:17
+Generated: 2026-06-04 23:02:12
 
 - Previous archive used: output/runs/2026-06-04
-- Latest strategy-briefing articles: 43
-- Latest market-signal articles: 24
+- Latest strategy-briefing articles: 42
+- Latest market-signal articles: 26
 
 ## Key Thematic Alerts
 
-- Supply Pressure is Sharp Increase (1 to 3).
+- Supply Pressure is Moderate Increase (3 to 4).
+- Market signal activity is increasing, led by Supply / Starts Signal (6 to 9).
 
 ## Theme Count Details
 
 | Category | Theme | Latest | Previous | Change | Percentage Change | Alert |
 | --- | --- | ---: | ---: | ---: | ---: | --- |
-| Action Level | Must Read | 26 | 27 | -1 | -3.7% | Stable |
-| Action Level | Review | 12 | 10 | 2 | 20.0% | Moderate Increase |
-| Action Level | Monitor | 5 | 5 | 0 | 0.0% | Stable |
-| Decision Use | Track Developer Strategy | 27 | 27 | 0 | 0.0% | Stable |
-| Decision Use | Track Financing Conditions | 20 | 19 | 1 | 5.3% | Stable |
-| Decision Use | Track Institutional Capital Flow | 16 | 17 | -1 | -5.9% | Stable |
-| Decision Use | Track Rent / Vacancy Trend | 5 | 3 | 2 | 66.7% | Sharp Increase |
+| Action Level | Must Read | 26 | 26 | 0 | 0.0% | Stable |
+| Action Level | Review | 13 | 12 | 1 | 8.3% | Stable |
+| Action Level | Monitor | 3 | 5 | -2 | -40.0% | Moderate Decrease |
+| Decision Use | Track Developer Strategy | 26 | 27 | -1 | -3.7% | Stable |
+| Decision Use | Track Financing Conditions | 18 | 20 | -2 | -10.0% | Stable |
+| Decision Use | Track Institutional Capital Flow | 18 | 16 | 2 | 12.5% | Stable |
 | Decision Use | Track Regulation Risk | 4 | 4 | 0 | 0.0% | Stable |
-| Decision Use | Track Supply Pipeline | 3 | 1 | 2 | 200.0% | Sharp Increase |
-| Market Focus | California | 7 | 7 | 0 | 0.0% | Stable |
-| Market Focus | Los Angeles / California | 5 | 5 | 0 | 0.0% | Stable |
-| Market Focus | Other / Unknown | 4 | 4 | 0 | 0.0% | Stable |
-| Market Focus | New York | 3 | 3 | 0 | 0.0% | Stable |
-| Market Focus | Austin / Texas | 2 | 2 | 0 | 0.0% | Stable |
-| Market Focus | Houston / Texas | 2 | 1 | 1 | 100.0% | Sharp Increase |
-| Market Focus | Miami / Florida | 2 | 3 | -1 | -33.3% | Moderate Decrease |
-| Market Focus | National | 2 | 1 | 1 | 100.0% | Sharp Increase |
+| Decision Use | Track Rent / Vacancy Trend | 4 | 5 | -1 | -20.0% | Moderate Decrease |
+| Decision Use | Track Supply Pipeline | 4 | 3 | 1 | 33.3% | Moderate Increase |
+| Market Focus | Los Angeles / California | 8 | 5 | 3 | 60.0% | Sharp Increase |
+| Market Focus | Other / Unknown | 8 | 4 | 4 | 100.0% | Sharp Increase |
+| Market Focus | California | 6 | 7 | -1 | -14.3% | Stable |
+| Market Focus | Miami / Florida | 3 | 2 | 1 | 50.0% | Sharp Increase |
+| Market Focus | Houston / Texas | 2 | 2 | 0 | 0.0% | Stable |
 | Market Focus | New York City / New York | 2 | 2 | 0 | 0.0% | Stable |
 | Market Focus | Phoenix / Arizona | 2 | 2 | 0 | 0.0% | Stable |
-| Market Focus | San Francisco / California | 2 | 2 | 0 | 0.0% | Stable |
-| Market Focus | Sun Belt | 2 | 2 | 0 | 0.0% | Stable |
-| Market Focus | Connecticut | 1 | 1 | 0 | 0.0% | Stable |
+| Market Focus | Atlanta / Georgia | 1 | 0 | 1 | 100.0% | New Theme |
+| Market Focus | Austin / Texas | 1 | 2 | -1 | -50.0% | Sharp Decrease |
 | Market Focus | Dallas / Texas | 1 | 1 | 0 | 0.0% | Stable |
-| Market Focus | Riverside / California | 1 | 1 | 0 | 0.0% | Stable |
+| Market Focus | National | 1 | 2 | -1 | -50.0% | Sharp Decrease |
+| Market Focus | New York | 1 | 3 | -2 | -66.7% | Sharp Decrease |
+| Market Focus | San Francisco / California | 1 | 2 | -1 | -50.0% | Sharp Decrease |
 | Market Focus | Santa Monica / California | 1 | 1 | 0 | 0.0% | Stable |
-| Market Focus | Sarasota / Florida | 1 | 1 | 0 | 0.0% | Stable |
-| Market Focus | Southeast | 1 | 1 | 0 | 0.0% | Stable |
+| Market Focus | Sun Belt | 1 | 2 | -1 | -50.0% | Sharp Decrease |
+| Market Focus | Tennessee | 1 | 0 | 1 | 100.0% | New Theme |
 | Market Focus | Texas | 1 | 1 | 0 | 0.0% | Stable |
 | Market Focus | Washington DC | 1 | 1 | 0 | 0.0% | Stable |
-| Market Signal | Rent Growth Signal | 9 | 9 | 0 | 0.0% | Stable |
-| Market Signal | Deal Size Signal | 8 | 9 | -1 | -11.1% | Stable |
-| Market Signal | Supply / Starts Signal | 6 | 6 | 0 | 0.0% | Stable |
-| Market Signal | Financing Cost Signal | 1 | 1 | 0 | 0.0% | Stable |
-| Strategic Angle | Developer Strategy | 27 | 27 | 0 | 0.0% | Stable |
-| Strategic Angle | Financing Risk | 20 | 19 | 1 | 5.3% | Stable |
-| Strategic Angle | Institutional Flow | 16 | 17 | -1 | -5.9% | Stable |
-| Strategic Angle | Rent Growth / Demand | 5 | 3 | 2 | 66.7% | Sharp Increase |
+| Market Focus | Connecticut | 0 | 1 | -1 | -100.0% | Sharp Decrease |
+| Market Focus | Riverside / California | 0 | 1 | -1 | -100.0% | Sharp Decrease |
+| Market Focus | Sarasota / Florida | 0 | 1 | -1 | -100.0% | Sharp Decrease |
+| Market Focus | Southeast | 0 | 1 | -1 | -100.0% | Sharp Decrease |
+| Market Signal | Supply / Starts Signal | 9 | 6 | 3 | 50.0% | Sharp Increase |
+| Market Signal | Rent Growth Signal | 8 | 9 | -1 | -11.1% | Stable |
+| Market Signal | Deal Size Signal | 6 | 8 | -2 | -25.0% | Moderate Decrease |
+| Market Signal | Financing Cost Signal | 3 | 1 | 2 | 200.0% | Sharp Increase |
+| Strategic Angle | Developer Strategy | 26 | 27 | -1 | -3.7% | Stable |
+| Strategic Angle | Financing Risk | 18 | 20 | -2 | -10.0% | Stable |
+| Strategic Angle | Institutional Flow | 18 | 16 | 2 | 12.5% | Stable |
 | Strategic Angle | Regulation Risk | 4 | 4 | 0 | 0.0% | Stable |
-| Strategic Angle | Supply Pressure | 3 | 1 | 2 | 200.0% | Sharp Increase |
-| Woomi Relevance | High relevance to US residential developer strategy | 32 | 33 | -1 | -3.0% | Stable |
-| Woomi Relevance | Medium relevance to market monitoring | 11 | 9 | 2 | 22.2% | Moderate Increase |
+| Strategic Angle | Rent Growth / Demand | 4 | 5 | -1 | -20.0% | Moderate Decrease |
+| Strategic Angle | Supply Pressure | 4 | 3 | 1 | 33.3% | Moderate Increase |
+| Woomi Relevance | High relevance to US residential developer strategy | 31 | 32 | -1 | -3.1% | Stable |
+| Woomi Relevance | Medium relevance to market monitoring | 11 | 11 | 0 | 0.0% | Stable |
 
 ## Interpretation for Strategy Team
 

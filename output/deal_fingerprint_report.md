@@ -1,10 +1,10 @@
 # Deal Fingerprint Report
 
-Generated: 2026-06-04 08:14:18
+Generated: 2026-06-04 23:02:13
 
-- Total canonical deals detected: 57
+- Total canonical deals detected: 53
 - Duplicate clusters detected: 0
-- California / LA recurring project count: 11
+- California / LA recurring project count: 9
 
 ## Largest Duplicate Clusters
 
@@ -17,64 +17,63 @@ Generated: 2026-06-04 08:14:18
 ## Strongest Recurring Refinancing Events
 
 - Construction Financing - JLL - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
-- Refinancing - Berkadia - Berkadia - Sarasota / Florida: Sarasota / Florida, 1 article(s), 1 source(s), confidence 90.
-- Refinancing - Walker & Dunlop - walker & dunlop - New York: New York, 1 article(s), 1 source(s), confidence 90.
-- Refinancing - Freddie Mac - Freddie Mac - Connecticut: Connecticut, 1 article(s), 1 source(s), confidence 90.
-- Construction Financing - Lincoln Property Company - Sun Belt: Austin / Texas, 1 article(s), 1 source(s), confidence 80.
+- Construction Financing - Berkshire Hathaway - Berkadia - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 90.
 - Recapitalization - PEF Advisors - California: California, 1 article(s), 1 source(s), confidence 70.
-- Construction Financing - Unknown - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 65.
+- Construction Financing - JLL - JLL - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 80.
+- Construction Financing - JLL - JLL - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 80.
 - Construction Financing - Unknown - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 65.
-- Refinancing - Unknown - New York: New York City / New York, 1 article(s), 1 source(s), confidence 65.
+- Construction Financing - Unknown - Sun Belt: Phoenix / Arizona, 1 article(s), 1 source(s), confidence 65.
+- Construction Financing - Unknown - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 65.
+- Refinancing - Unknown - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 65.
 - Refinancing - Unknown - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 55.
 
 ## Recurring California / LA Projects
 
 - Construction Financing - JLL - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
-- Acquisition - CBRE - California: California, 1 article(s), 1 source(s), confidence 90.
 - General Project Signal - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
 - Disposition / Exit - CBRE - California: California, 1 article(s), 1 source(s), confidence 90.
-- Development Start - Unknown - California: California, 1 article(s), 1 source(s), confidence 65.
 - General Project Signal - Unknown - California: California, 1 article(s), 1 source(s), confidence 75.
+- Development Start - Unknown - California: California, 1 article(s), 1 source(s), confidence 65.
 - Recapitalization - PEF Advisors - California: California, 1 article(s), 1 source(s), confidence 70.
 - Development Start - Unknown - California: California, 1 article(s), 1 source(s), confidence 55.
-- Acquisition - Unknown - California: California, 1 article(s), 1 source(s), confidence 55.
-- Entitlement / Permitting - Unknown - California: California, 1 article(s), 1 source(s), confidence 65.
+- General Project Signal - Unknown - California: California, 1 article(s), 1 source(s), confidence 65.
+- Development Start - Unknown - California: California, 1 article(s), 1 source(s), confidence 65.
 
 ## Recurring GP / Lender Relationships
 
-- Acquisition - CBRE - California: California, 1 article(s), 1 source(s), confidence 90.
+- Disposition / Exit - CBRE - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 100.
+- Construction Financing - Berkshire Hathaway - Berkadia - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 90.
 - Construction Financing - JLL - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
 - Disposition / Exit - CBRE - California: California, 1 article(s), 1 source(s), confidence 90.
-- Disposition / Exit - JLL - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
-- Disposition / Exit - Wood Partners - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
+- Disposition / Exit - Hanover Company - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 90.
 - General Project Signal - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
-- Refinancing - Berkadia - Berkadia - Sarasota / Florida: Sarasota / Florida, 1 article(s), 1 source(s), confidence 90.
-- Refinancing - Freddie Mac - Freddie Mac - Connecticut: Connecticut, 1 article(s), 1 source(s), confidence 90.
-- Refinancing - Walker & Dunlop - walker & dunlop - New York: New York, 1 article(s), 1 source(s), confidence 90.
+- General Project Signal - Walker & Dunlop - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
+- General Project Signal - Walker & Dunlop - Sun Belt: Austin / Texas, 1 article(s), 1 source(s), confidence 90.
+- Acquisition - Marcus & Millichap - Texas: Texas, 1 article(s), 1 source(s), confidence 80.
 - BTR / Build-to-Rent - Berkshire Hathaway - Sun Belt: Phoenix / Arizona, 1 article(s), 1 source(s), confidence 80.
 
 ## Most Frequently Referenced Developments
 
-- Acquisition - CBRE - California: California, 1 article(s), 1 source(s), confidence 90.
+- Disposition / Exit - CBRE - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 100.
+- Construction Financing - Berkshire Hathaway - Berkadia - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 90.
 - Construction Financing - JLL - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
 - Disposition / Exit - CBRE - California: California, 1 article(s), 1 source(s), confidence 90.
-- Disposition / Exit - JLL - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
-- Disposition / Exit - Wood Partners - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
+- Disposition / Exit - Hanover Company - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 90.
 - General Project Signal - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
-- Refinancing - Berkadia - Berkadia - Sarasota / Florida: Sarasota / Florida, 1 article(s), 1 source(s), confidence 90.
-- Refinancing - Freddie Mac - Freddie Mac - Connecticut: Connecticut, 1 article(s), 1 source(s), confidence 90.
-- Refinancing - Walker & Dunlop - walker & dunlop - New York: New York, 1 article(s), 1 source(s), confidence 90.
+- General Project Signal - Walker & Dunlop - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
+- General Project Signal - Walker & Dunlop - Sun Belt: Austin / Texas, 1 article(s), 1 source(s), confidence 90.
+- Acquisition - Marcus & Millichap - Texas: Texas, 1 article(s), 1 source(s), confidence 80.
 - BTR / Build-to-Rent - Berkshire Hathaway - Sun Belt: Phoenix / Arizona, 1 article(s), 1 source(s), confidence 80.
 
 ## Highest-Confidence Canonical Events
 
-- Acquisition - CBRE - California: California, 1 article(s), 1 source(s), confidence 90.
+- Disposition / Exit - CBRE - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 100.
+- Construction Financing - Berkshire Hathaway - Berkadia - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 90.
 - Construction Financing - JLL - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
 - Disposition / Exit - CBRE - California: California, 1 article(s), 1 source(s), confidence 90.
-- Disposition / Exit - JLL - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
-- Disposition / Exit - Wood Partners - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
+- Disposition / Exit - Hanover Company - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 90.
 - General Project Signal - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
-- Refinancing - Berkadia - Berkadia - Sarasota / Florida: Sarasota / Florida, 1 article(s), 1 source(s), confidence 90.
-- Refinancing - Freddie Mac - Freddie Mac - Connecticut: Connecticut, 1 article(s), 1 source(s), confidence 90.
-- Refinancing - Walker & Dunlop - walker & dunlop - New York: New York, 1 article(s), 1 source(s), confidence 90.
+- General Project Signal - Walker & Dunlop - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
+- General Project Signal - Walker & Dunlop - Sun Belt: Austin / Texas, 1 article(s), 1 source(s), confidence 90.
+- Acquisition - Marcus & Millichap - Texas: Texas, 1 article(s), 1 source(s), confidence 80.
 - BTR / Build-to-Rent - Berkshire Hathaway - Sun Belt: Phoenix / Arizona, 1 article(s), 1 source(s), confidence 80.

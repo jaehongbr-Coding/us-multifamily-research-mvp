@@ -1,37 +1,37 @@
 # GP / Capital Entity Quality Report
 
-Generated: 2026-06-04 08:14:18
+Generated: 2026-06-04 23:02:13
 
 ## Summary
 
-- Total GP/Capital articles: 42
+- Total GP/Capital articles: 41
 - Participant not identified: 17
-- Dictionary match: 16
-- Title fallback / headline extraction: 3
+- Dictionary match: 13
+- Title fallback / headline extraction: 1
 - Low confidence or unresolved: 17
 
 ## Representative Resolved Samples
 
-- BHI: BHI Provides Condo Inventory Loan for Ground-Up Luxury Project (dictionary_match, high)
-- Berkadia: Berkadia Arranges $82.1M Refinancing for Apartment Community in Nokomis, Florida (dictionary_match, high)
-- PSRS: PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Hollywood (title_lead_pattern, medium)
-- Lake Austin Four Seasons Residences TYKO Capital: Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences (dictionary_match, high)
+- Wakefield Represents The Green Companies: Cushman & Wakefield Represents The Green Companies in the Sale of Green House Multifamily Development in Miami (capital_event_sentence, medium)
+- Seachange Partners: Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Angeles Arranged by Berkadia (dictionary_match, high)
+- IZO Capital: IZO Capital Launches $120M Structured Finance Platform for Multifamily Rental Housing Development (capital_event_sentence, medium)
+- Hanover Company: 19-story high-rise starts work at 6055 Center Drive in Westchester (dictionary_match, high)
+- Generation Real Estate Partners: Colliers Brokers $16.6M Sale of Affordable Housing Complex in West Los Angeles (capital_event_sentence, medium)
+- Luxury Apartments The Hampton Group: Scottsdale Developer Inks $141M Construction Loan for Luxury Apartments (capital_event_sentence, medium)
+- Walker & Dunlop: Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments (dictionary_match, high)
 - Miami Apartments Madison Realty Capital: Alta Developers Lands $91.8M Construction Loan for Miami Apartments (capital_event_sentence, medium)
-- JLL: Eaton Vance Picks Charlotte Rental Community for $65.8M (dictionary_match, high)
-- Wood Partners: Charlotte Apartment Project Fetches $107M (dictionary_match, high)
 - Santa Ana Multifamily JLL Capital: JLL Lines Up $144M Construction Loan for Santa Ana Multifamily (dictionary_match, high)
-- Dunlop Capital: Slate Property Group Closes on $86M Refi for LIC Apartments (dictionary_match, high)
-- Marcus & Millichap: Marcus & Millichap Facilitates Sale of 160-Unit Multifamily Property in Kenosha Wisconsin (dictionary_match, high)
+- IPA: IPA Capital Markets Arranges $27M for Luxury DC Multifamily (dictionary_match, high)
 
 ## Unresolved Examples
 
 - The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist | Multifamily Executive | No institution name detected in dictionary, title, summary, or source text.
 - Construction kicks off for affordable housing at 706 W. 85th Street in South L.A. | Urbanize LA | No institution name detected in dictionary, title, summary, or source text.
-- Lument Provides $28M FHA Loan for Ohio Affordable Housing Property | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
 - Empire Group Starts Work on $170M Phoenix Apartment Tower | Connect CRE Phoenix | No institution name detected in dictionary, title, summary, or source text.
-- LRT Company Launches $21M DST Investment for Ground-Leased Multifamily Site Near Hilton Head Island South Carolina | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
-- Interra Realty Brokers $23M Sale of Suburban Chicago Apartments | Connect CRE | No institution name detected in dictionary, title, summary, or source text.
-- Pacific Urban Investors Acquires 140-Unit Multifamily Community in San Diego | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
-- Greysteel Brokers $10M Sale, Financing of Norfolk Apartments | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
+- Interra Realty Arranges $5M Sale of Multifamily Building in Chicago’s Bucktown | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
+- Moody’s Sees Limited Impact of Five-Year Cap on NYC Apartment Rents | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
 - Renters remain cautious but demand holds steady | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.
-- Charlotte BTR Investors Pause Deals As They Await Fate Of Federal Housing Bill | Bisnow | No institution name detected in dictionary, title, summary, or source text.
+- Estia Roseville 209 New Rental Homes in the Greater Sacramento area Debuts First Cottage Apartment Home Community | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
+- Overall Housing Starts Inch Lower in 2025 | NAHB Eye on Housing - Multifamily | No institution name detected in dictionary, title, summary, or source text.
+- Spring leasing gains traction as apartment supply pressure eases | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.
+- RHO Residential Awarded Management of 6,000+ Unit Former Veris Residential Portfolio | Yield PRO | No institution name detected in dictionary, title, summary, or source text.

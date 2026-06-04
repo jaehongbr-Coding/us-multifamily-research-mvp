@@ -1,45 +1,46 @@
 # Development Lifecycle Report
 
-Generated: 2026-06-04 08:14:24
+Generated: 2026-06-04 23:02:18
 
-- Total lifecycle records: 80
+- Total lifecycle records: 79
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 49
-- Refinancing / Recapitalization: 12
+- Unknown Stage: 41
+- Refinancing / Recapitalization: 11
 - Site Acquisition / Site Control: 11
-- Delivery / Opening: 4
+- Delivery / Opening: 10
+- Early Site Signal: 2
+- Building Permit / Construction Permit: 1
 - Entitlement Under Review: 1
 - Community Review: 1
-- Early Site Signal: 1
 - Vertical Construction: 1
 
 ## Top Development Timing Opportunities
 
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Refinancing / Recapitalization, California, lifecycle_opportunity_score 100.
-- Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments: Refinancing / Recapitalization, New York, lifecycle_opportunity_score 100.
-- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Refinancing / Recapitalization, Austin, lifecycle_opportunity_score 100.
-- Berkadia Arranges $82.1M Refinancing for Apartment Community in Nokomis, Florida: Refinancing / Recapitalization, Unknown, lifecycle_opportunity_score 100.
-- Refinancing - Sarasota / Florida - Berkadia Arranges $82.1M Refinancing for Apartment Community in Nokomis, Florida: Refinancing / Recapitalization, Sarasota, lifecycle_opportunity_score 96.
-- Office-to-Residential Conversion - Los Angeles / California - Mayor Bass: Adaptive Reuse Key to Revitalizing Downtown LA: Unknown Stage, Los Angeles, lifecycle_opportunity_score 96.
-- Acquisition - California - CBRE Brokers $3.7M Sale of Multi-Tenant Retail Property in Santee, California: Unknown Stage, California, lifecycle_opportunity_score 96.
-- Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Unknown Stage, California, lifecycle_opportunity_score 96.
-- Refinancing - Connecticut - Newmark Provides $115.6M Agency Loan for Refinancing of Southern Connecticut Multifamily P...: Refinancing / Recapitalization, Connecticut, lifecycle_opportunity_score 95.
+- General Project Signal - Atlanta / Georgia - Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments: Refinancing / Recapitalization, Atlanta, lifecycle_opportunity_score 100.
+- Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang...: Delivery / Opening, Los Angeles, lifecycle_opportunity_score 100.
+- Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Unknown Stage, Los Angeles, lifecycle_opportunity_score 100.
+- 19-story high-rise starts work at 6055 Center Drive in Westchester: Building Permit / Construction Permit, Houston, lifecycle_opportunity_score 100.
+- Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester: Unknown Stage, Houston, lifecycle_opportunity_score 97.
+- Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Site Acquisition / Site Control, Los Angeles, lifecycle_opportunity_score 97.
+- Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Unknown Stage, California, lifecycle_opportunity_score 95.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Refinancing / Recapitalization, California, lifecycle_opportunity_score 94.
+- BTR / Build-to-Rent - Phoenix / Arizona - Berkshire Hathaway acquires BTR player Taylor Morrison for $8.5B: Unknown Stage, Scottsdale, lifecycle_opportunity_score 94.
 
 ## Top Lifecycle Risks
 
 - Entitlement / Permitting - New York - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Community Review, New York, lifecycle_risk_score 61.
+- Construction Financing - Phoenix / Arizona - Scottsdale Developer Inks $141M Construction Loan for Luxury Apartments: Refinancing / Recapitalization, Phoenix, lifecycle_risk_score 59.
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 57.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Refinancing / Recapitalization, California, lifecycle_risk_score 55.
-- Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl...: Unknown Stage, Los Angeles, lifecycle_risk_score 53.
-- Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments: Refinancing / Recapitalization, New York, lifecycle_risk_score 52.
-- Refinancing - Sarasota / Florida - Berkadia Arranges $82.1M Refinancing for Apartment Community in Nokomis, Florida: Refinancing / Recapitalization, Sarasota, lifecycle_risk_score 52.
-- Refinancing - New York City / New York - Derby Copeland Capital Provides $54 Million Refi for Lexington Avenue Condo: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 52.
-- Refinancing - Connecticut - Newmark Provides $115.6M Agency Loan for Refinancing of Southern Connecticut Multifamily P...: Refinancing / Recapitalization, Connecticut, lifecycle_risk_score 51.
-- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Refinancing / Recapitalization, Austin, lifecycle_risk_score 48.
+- Refinancing - Miami / Florida - Blueprint Arranges Refinancing for 100-Unit Seniors Housing Community in South Florida: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 55.
+- Construction Financing - Miami / Florida - Kengo Kuma-Designed Miami Project Lands $85M Construction Loan: Refinancing / Recapitalization, Miami, lifecycle_risk_score 53.
+- General Project Signal - Atlanta / Georgia - Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments: Refinancing / Recapitalization, Atlanta, lifecycle_risk_score 51.
 - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Entitlement Under Review, Glendale, lifecycle_risk_score 48.
+- Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi: Refinancing / Recapitalization, Atlanta, lifecycle_risk_score 48.
+- Construction Financing - Other / Unknown - Eastern Bank Provides $39M Bridge Loan for Worcester, Mass., 55-Plus Community: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 47.
 
 ## Projects Under Entitlement / Planning
 
@@ -48,13 +49,20 @@ Generated: 2026-06-04 08:14:24
 
 ## Construction-Ready / Construction-Start Signals
 
+- 19-story high-rise starts work at 6055 Center Drive in Westchester: Building Permit / Construction Permit, Houston, lifecycle_opportunity_score 100.
 - Acquisition - Miami / Florida - Miami Apartments Trade for $109.9M: Vertical Construction, South Florida, lifecycle_opportunity_score 66.
 
 ## Delivery / Lease-Up Signals
 
+- Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang...: Delivery / Opening, Los Angeles, lifecycle_opportunity_score 100.
+- Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Angeles Arranged by Berkadia: Delivery / Opening, Unknown, lifecycle_opportunity_score 88.
+- Zilber Residential Group, Homes by Towne Complete 209-Unit Multifamily Community in Roseville, California: Delivery / Opening, Unknown, lifecycle_opportunity_score 82.
+- Construction Financing - Other / Unknown - $39M Bridge Loan Arranged by JLL for Central Massachusetts Active Adult Community in Worce...: Delivery / Opening, Unknown, lifecycle_opportunity_score 80.
+- General Project Signal - California - Zilber Residential Group, Homes by Towne Complete 209-Unit Multifamily Community in Rosevi...: Delivery / Opening, California, lifecycle_opportunity_score 78.
 - Timber Senior Apartments Open in Newark, Alameda County: Delivery / Opening, Unknown, lifecycle_opportunity_score 67.
-- Greysteel Brokers $10M Sale, Financing of Norfolk Apartments: Delivery / Opening, Unknown, lifecycle_opportunity_score 63.
-- Disposition / Exit - Washington DC - Greysteel Brokers $10M Sale, Financing of Norfolk Apartments: Delivery / Opening, Virginia, lifecycle_opportunity_score 48.
+- Interra Realty Arranges $5M Sale of Multifamily Building in Chicago’s Bucktown: Delivery / Opening, Unknown, lifecycle_opportunity_score 59.
+- Trailhead Vista Cuts The Ribbon on New luxury Apartment Community at The Edge of Newark’s TJ Evans Trail: Delivery / Opening, Unknown, lifecycle_opportunity_score 54.
+- Acquisition - Other / Unknown - Interra Realty Arranges $5M Sale of Multifamily Building in Chicago’s Bucktown: Delivery / Opening, Unknown, lifecycle_opportunity_score 52.
 - General Project Signal - Other / Unknown - Multifamily Absorption Rate Remains Below 50%: Delivery / Opening, Unknown, lifecycle_opportunity_score 27.
 
 ## Distressed / Stalled Lifecycle Signals
@@ -63,16 +71,16 @@ Generated: 2026-06-04 08:14:24
 
 ## Refinancing / Recapitalization Lifecycle Signals
 
+- Construction Financing - Phoenix / Arizona - Scottsdale Developer Inks $141M Construction Loan for Luxury Apartments: Refinancing / Recapitalization, Phoenix, lifecycle_risk_score 59.
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 57.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Refinancing / Recapitalization, California, lifecycle_risk_score 55.
-- Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments: Refinancing / Recapitalization, New York, lifecycle_risk_score 52.
-- Refinancing - Sarasota / Florida - Berkadia Arranges $82.1M Refinancing for Apartment Community in Nokomis, Florida: Refinancing / Recapitalization, Sarasota, lifecycle_risk_score 52.
-- Refinancing - New York City / New York - Derby Copeland Capital Provides $54 Million Refi for Lexington Avenue Condo: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 52.
-- Refinancing - Connecticut - Newmark Provides $115.6M Agency Loan for Refinancing of Southern Connecticut Multifamily P...: Refinancing / Recapitalization, Connecticut, lifecycle_risk_score 51.
-- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Refinancing / Recapitalization, Austin, lifecycle_risk_score 48.
+- Refinancing - Miami / Florida - Blueprint Arranges Refinancing for 100-Unit Seniors Housing Community in South Florida: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 55.
+- Construction Financing - Miami / Florida - Kengo Kuma-Designed Miami Project Lands $85M Construction Loan: Refinancing / Recapitalization, Miami, lifecycle_risk_score 53.
+- General Project Signal - Atlanta / Georgia - Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments: Refinancing / Recapitalization, Atlanta, lifecycle_risk_score 51.
 - Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi: Refinancing / Recapitalization, Atlanta, lifecycle_risk_score 48.
-- Berkadia Arranges $82.1M Refinancing for Apartment Community in Nokomis, Florida: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 44.
-- Newmark Provides $115.6M Agency Loan for Refinancing of Southern Connecticut Multifamily Properties: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 43.
+- Construction Financing - Other / Unknown - Eastern Bank Provides $39M Bridge Loan for Worcester, Mass., 55-Plus Community: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 47.
+- Kengo Kuma-Designed Miami Project Lands $85M Construction Loan: Refinancing / Recapitalization, Miami, lifecycle_risk_score 46.
+- Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Refinancing / Recapitalization, California, lifecycle_risk_score 40.
 
 ## Implications for Woomi / Woomi Global
 
@@ -82,23 +90,23 @@ Generated: 2026-06-04 08:14:24
 ## Recommended Lifecycle Follow-up Actions
 
 - Track lender, maturity, debt terms, and recapitalization need: Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties.
-- Track lender, maturity, debt terms, and recapitalization need: Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments.
-- Track lender, maturity, debt terms, and recapitalization need: Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences.
-- Track lender, maturity, debt terms, and recapitalization need: Berkadia Arranges $82.1M Refinancing for Apartment Community in Nokomis, Florida.
-- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Sarasota / Florida - Berkadia Arranges $82.1M Refinancing for Apartment Community in Nokomis, Florida.
-- Monitor lifecycle signal for repeated confirmation: Office-to-Residential Conversion - Los Angeles / California - Mayor Bass: Adaptive Reuse Key to Revitalizing Downtown LA.
-- Monitor lifecycle signal for repeated confirmation: Acquisition - California - CBRE Brokers $3.7M Sale of Multi-Tenant Retail Property in Santee, California.
+- Track lender, maturity, debt terms, and recapitalization need: General Project Signal - Atlanta / Georgia - Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments.
+- Benchmark delivery, lease-up, occupancy, and rent assumptions: Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang....
+- Monitor lifecycle signal for repeated confirmation: Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson.
+- Monitor permit issuance, financing, and construction-start timing: 19-story high-rise starts work at 6055 Center Drive in Westchester.
+- Monitor lifecycle signal for repeated confirmation: Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester.
+- Monitor lifecycle signal for repeated confirmation: Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson.
 - Monitor lifecycle signal for repeated confirmation: Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 80
-- Newly detected projects: 0
+- Lifecycle transitions analyzed: 79
+- Newly detected projects: 37
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 52
+- LA lifecycle transition watch items: 53
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -106,11 +114,11 @@ Generated: 2026-06-04 08:14:24
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 662
-- Canonical projects: 164
-- Duplicate project clusters: 115
-- Persistent assets tracked: 164
-- LA persistent asset watch items: 122
+- Raw project references: 632
+- Canonical projects: 153
+- Duplicate project clusters: 108
+- Persistent assets tracked: 153
+- LA persistent asset watch items: 111
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -118,10 +126,10 @@ Generated: 2026-06-04 08:14:24
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 164
-- Institutional-grade signals: 16
-- High-confidence signals: 44
-- Weak/noisy signals: 96
-- High-confidence watchlist items: 44
+- Signals evaluated: 153
+- Institutional-grade signals: 12
+- High-confidence signals: 35
+- Weak/noisy signals: 94
+- High-confidence watchlist items: 35
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

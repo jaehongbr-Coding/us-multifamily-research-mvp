@@ -1,6 +1,6 @@
 # 한국어 LA 자산 / 프로젝트 Watch
 
-- 생성 시각: 2026-06-04 08:14:13
+- 생성 시각: 2026-06-04 23:02:01
 - 참고 원문 파일: `la_asset_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -8,30 +8,30 @@
 
 - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Los Angeles, 어포더블 하우징, 점수 100 (Entitlement / Planning; Track entitlement docket, density bonus use, and affordability requirement)
 - Entitlement / Permitting - New York - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Los Angeles, 어포더블 하우징, 점수 100 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
-- Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments: Los Angeles, 아파트, 점수 100 (Unknown; Track lender, maturity, owner, and recapitalization path)
-- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Los Angeles, 아파트, 점수 100 (Unknown; Track lender, maturity, owner, and recapitalization path)
+- General Project Signal - Atlanta / Georgia - Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments: Los Angeles, 아파트, 점수 100 (Unknown; Track lender, maturity, owner, and recapitalization path)
+- Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang...: Los Angeles, 어포더블 하우징, 점수 100 (Delivered / Lease-Up; Track entitlement docket, density bonus use, and affordability requirement)
 - Development Start - California - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach: Los Angeles, 어포더블 하우징, 점수 100 (Unknown; Review parcel clue, entitlement path, sponsor, and comparable sites)
-- Entitlement / Permitting - Los Angeles / California - Venice Dell affordable housing project notches legal win: Los Angeles, 어포더블 하우징, 점수 100 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
-- Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl...: Los Angeles, 어포더블 하우징, 점수 99 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
-- Development Start - Los Angeles / California - Construction kicks off for affordable housing at 706 W. 85th Street in South L.A.: Los Angeles, 어포더블 하우징, 점수 99 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
-- Entitlement / Permitting - Los Angeles / California - New plan unveiled for West Hollywood's Melrose Triangle development: Los Angeles, 아파트, 점수 99 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
-- General Project Signal - Santa Monica / California - Metro-adjacent affordable housing rises at 1640 20th Street in Santa Monica: Los Angeles, 어포더블 하우징, 점수 98 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
+- Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester: Los Angeles, 주거복합, 점수 100 (Unknown; Monitor asset for repeated local confirmation)
+- Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Los Angeles, 어포더블 하우징, 점수 100 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
+- Entitlement / Permitting - Los Angeles / California - Affordable housing proposed for 23022 W. Ventura Blvd. in Woodland Hills: Los Angeles, 어포더블 하우징, 점수 100 (Site Search / Early Signal; Track entitlement docket, density bonus use, and affordability requirement)
+- 19-story high-rise starts work at 6055 Center Drive in Westchester: Los Angeles, 주거복합, 점수 100 (Permitted; Monitor asset for repeated local confirmation)
+- Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Los Angeles, 어포더블 하우징, 점수 100 (Site Controlled; Track entitlement docket, density bonus use, and affordability requirement)
 
 ## 프로젝트 / 부지 단서
 
 - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: 3411 Foothill Blvd, Los Angeles
 - Entitlement / Permitting - New York - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: 3411 Foothill Blvd, Los Angeles
-- Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments: New York, Los Angeles
-- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Austin, Los Angeles
+- General Project Signal - Atlanta / Georgia - Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments: Atlanta, Los Angeles
+- Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang...: Los Angeles, Los Angeles
 - Development Start - California - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach: 4151 E. Fountain Ave, Los Angeles
 
 ## 인허가 / 개발 단계
 
-- Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments: Los Angeles, 아파트, 점수 99 (Refinancing / Recapitalization; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
-- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Los Angeles, 아파트, 점수 98 (Refinancing / Recapitalization; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
+- Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang...: Los Angeles, 어포더블 하우징, 점수 100 (Delivery / Opening; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
+- Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester: Los Angeles, 주거복합, 점수 100 (Unknown Stage; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
+- Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Los Angeles, 어포더블 하우징, 점수 100 (Unknown Stage; Monitor for repeated project updates)
+- General Project Signal - Atlanta / Georgia - Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments: Los Angeles, 아파트, 점수 99 (Refinancing / Recapitalization; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
 - Development Start - California - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach: Long Beach, 어포더블 하우징, 점수 95 (Unknown Stage; Monitor for repeated project updates)
-- Entitlement / Permitting - New York - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Glendale, 어포더블 하우징, 점수 94 (Unknown Stage; Monitor for repeated project updates)
-- Office-to-Residential Conversion - Los Angeles / California - Mayor Bass: Adaptive Reuse Key to Revitalizing Downtown LA: Los Angeles, 오피스-주거 전환, 점수 91 (Unknown Stage; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
 
 ## 추천 현지 확인 사항
 

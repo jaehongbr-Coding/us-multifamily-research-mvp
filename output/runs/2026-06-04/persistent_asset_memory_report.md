@@ -1,63 +1,63 @@
 # Persistent Asset Memory Report
 
-Generated: 2026-06-04 08:14:25
+Generated: 2026-06-04 23:02:18
 
-- Total persistent assets tracked: 164
-- Newly detected assets: 115
+- Total persistent assets tracked: 153
+- Newly detected assets: 130
 - Progressing assets: 0
 - Possible stalled assets: 5
 
 ## Highest Priority Asset Watch Items
 
-- Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments: Priority Asset Watch, Refinancing / Recapitalization, score 92.
-- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Priority Asset Watch, Refinancing / Recapitalization, score 91.
-- Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl...: Priority Asset Watch, Site Acquisition / Site Control, score 89.
+- General Project Signal - Atlanta / Georgia - Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments: Priority Asset Watch, Refinancing / Recapitalization, score 92.
+- Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang...: Priority Asset Watch, Delivery / Opening, score 91.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Priority Asset Watch, Refinancing / Recapitalization, score 89.
-- Office-to-Residential Conversion - Los Angeles / California - Mayor Bass: Adaptive Reuse Key to Revitalizing Downtown LA: Priority Asset Watch, Unknown Stage, score 88.
-- General Project Signal - California - Good + Roberts Tops Out on $29M San Diego Multifamily Mixed-Use Housing Development: Priority Asset Watch, Unknown Stage, score 86.
+- General Project Signal - California - Zilber Residential Group, Homes by Towne Complete 209-Unit Multifamily Community in Rosevi...: Priority Asset Watch, Delivery / Opening, score 86.
 - Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Priority Asset Watch, Unknown Stage, score 86.
-- JV / Partnership - Riverside / California - Blackstone’s Link Logistics Sells Light Industrial Portfolio for $1.8B: Priority Asset Watch, Unknown Stage, score 85.
-- Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Priority Asset Watch, Refinancing / Recapitalization, score 84.
-- BTR / Build-to-Rent - Phoenix / Arizona - Berkshire Hathaway acquires BTR player Taylor Morrison for $8.5B: Priority Asset Watch, Unknown Stage, score 84.
+- BTR / Build-to-Rent - Phoenix / Arizona - Berkshire Hathaway acquires BTR player Taylor Morrison for $8.5B: Priority Asset Watch, Unknown Stage, score 86.
+- General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: Priority Asset Watch, Refinancing / Recapitalization, score 82.
+- Development Start - Los Angeles / California - Construction kicks off for affordable housing at 706 W. 85th Street in South L.A.: Priority Asset Watch, Site Acquisition / Site Control, score 82.
+- General Project Signal - Santa Monica / California - Metro-adjacent affordable housing rises at 1640 20th Street in Santa Monica: Priority Asset Watch, Unknown Stage, score 82.
+- Disposition / Exit - Dallas / Texas - Contentious Dallas City Property Could Become Apartments, Retail: Priority Asset Watch, Unknown Stage, score 80.
 
 ## Assets With Repeated Financing Signals
 
-- Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments: Priority Asset Watch, Refinancing / Recapitalization, score 92.
-- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Priority Asset Watch, Refinancing / Recapitalization, score 91.
+- General Project Signal - Atlanta / Georgia - Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments: Priority Asset Watch, Refinancing / Recapitalization, score 92.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Priority Asset Watch, Refinancing / Recapitalization, score 89.
-- Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Priority Asset Watch, Refinancing / Recapitalization, score 84.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: Priority Asset Watch, Refinancing / Recapitalization, score 82.
-- Refinancing - Connecticut - Newmark Provides $115.6M Agency Loan for Refinancing of Southern Connecticut Multifamily P...: Priority Asset Watch, Refinancing / Recapitalization, score 78.
-- Refinancing - New York City / New York - Derby Copeland Capital Provides $54 Million Refi for Lexington Avenue Condo: Priority Asset Watch, Refinancing / Recapitalization, score 78.
-- Entitlement / Permitting - Atlanta / Georgia - Cambridge Properties Bringing New Life to Aging Charlotte Center: Priority Asset Watch, Site Acquisition / Site Control, score 75.
-- Entitlement / Permitting - Atlanta / Georgia - Cambridge Properties Bringing New Life to Aging Charlotte Center: Priority Asset Watch, Refinancing / Recapitalization, score 75.
-- General Project Signal - New York - BHI Provides Condo Inventory Loan for Ground-Up Luxury Project: Priority Asset Watch, Unknown Stage, score 75.
+- Refinancing - Miami / Florida - Blueprint Arranges Refinancing for 100-Unit Seniors Housing Community in South Florida: Priority Asset Watch, Refinancing / Recapitalization, score 75.
+- General Project Signal - Atlanta / Georgia - Insignia Pursuing Embassy Row Redevelopment: Priority Asset Watch, Site Acquisition / Site Control, score 75.
+- General Project Signal - Atlanta / Georgia - Insignia Pursuing Embassy Row Redevelopment: Priority Asset Watch, Refinancing / Recapitalization, score 75.
+- Construction Financing - Other / Unknown - $39M Bridge Loan Arranged by JLL for Central Massachusetts Active Adult Community in Worce...: Strategic Asset Watch, Unknown Stage, score 74.
+- Construction Financing - Phoenix / Arizona - Scottsdale Developer Inks $141M Construction Loan for Luxury Apartments: Strategic Asset Watch, Refinancing / Recapitalization, score 72.
+- Disposition / Exit - Miami / Florida - Cushman & Wakefield Represents The Green Companies in the Sale of Green House Multifamily...: Strategic Asset Watch, Refinancing / Recapitalization, score 69.
+- Disposition / Exit - Miami / Florida - Cushman & Wakefield Represents The Green Companies in the Sale of Green House Multifamily...: Strategic Asset Watch, Refinancing / Recapitalization, score 66.
 
 ## Assets With Repeated Entitlement Signals
 
-- Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl...: Priority Asset Watch, Site Acquisition / Site Control, score 89.
-- Office-to-Residential Conversion - Los Angeles / California - Mayor Bass: Adaptive Reuse Key to Revitalizing Downtown LA: Priority Asset Watch, Unknown Stage, score 88.
-- General Project Signal - California - Good + Roberts Tops Out on $29M San Diego Multifamily Mixed-Use Housing Development: Priority Asset Watch, Unknown Stage, score 86.
+- Development Start - Los Angeles / California - Construction kicks off for affordable housing at 706 W. 85th Street in South L.A.: Priority Asset Watch, Site Acquisition / Site Control, score 82.
 - General Project Signal - Santa Monica / California - Metro-adjacent affordable housing rises at 1640 20th Street in Santa Monica: Priority Asset Watch, Unknown Stage, score 82.
 - Disposition / Exit - Dallas / Texas - Contentious Dallas City Property Could Become Apartments, Retail: Priority Asset Watch, Unknown Stage, score 80.
 - Entitlement / Permitting - New York - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Priority Asset Watch, Community Review, score 79.
 - Disposition / Exit - Dallas / Texas - Contentious Dallas City Property Could Become Apartments, Retail: Priority Asset Watch, Site Acquisition / Site Control, score 78.
-- Entitlement / Permitting - Atlanta / Georgia - Cambridge Properties Bringing New Life to Aging Charlotte Center: Priority Asset Watch, Site Acquisition / Site Control, score 75.
-- Entitlement / Permitting - Atlanta / Georgia - Cambridge Properties Bringing New Life to Aging Charlotte Center: Priority Asset Watch, Refinancing / Recapitalization, score 75.
-- Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl...: Strategic Asset Watch, Site Acquisition / Site Control, score 74.
+- Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Strategic Asset Watch, Unknown Stage, score 70.
+- General Project Signal - Other / Unknown - RHO Residential Awarded Management of 6,000+ Unit Former Veris Residential Portfolio: Strategic Asset Watch, Site Acquisition / Site Control, score 70.
+- Development Start - Los Angeles / California - Construction kicks off for affordable housing at 706 W. 85th Street in South L.A.: Strategic Asset Watch, Site Acquisition / Site Control, score 70.
+- Renters remain cautious but demand holds steady: Strategic Asset Watch, Unknown Stage, score 64.
+- Entitlement / Permitting - New York - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Strategic Asset Watch, Unknown Stage, score 62.
 
 ## Recurring Asset Signals
 
-- Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments: Priority Asset Watch, Refinancing / Recapitalization, score 92.
-- Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences: Priority Asset Watch, Refinancing / Recapitalization, score 91.
-- Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl...: Priority Asset Watch, Site Acquisition / Site Control, score 89.
+- General Project Signal - Atlanta / Georgia - Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments: Priority Asset Watch, Refinancing / Recapitalization, score 92.
+- Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang...: Priority Asset Watch, Delivery / Opening, score 91.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Priority Asset Watch, Refinancing / Recapitalization, score 89.
-- Office-to-Residential Conversion - Los Angeles / California - Mayor Bass: Adaptive Reuse Key to Revitalizing Downtown LA: Priority Asset Watch, Unknown Stage, score 88.
-- General Project Signal - California - Good + Roberts Tops Out on $29M San Diego Multifamily Mixed-Use Housing Development: Priority Asset Watch, Unknown Stage, score 86.
+- General Project Signal - California - Zilber Residential Group, Homes by Towne Complete 209-Unit Multifamily Community in Rosevi...: Priority Asset Watch, Delivery / Opening, score 86.
 - Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Priority Asset Watch, Unknown Stage, score 86.
-- JV / Partnership - Riverside / California - Blackstone’s Link Logistics Sells Light Industrial Portfolio for $1.8B: Priority Asset Watch, Unknown Stage, score 85.
-- Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Priority Asset Watch, Refinancing / Recapitalization, score 84.
-- BTR / Build-to-Rent - Phoenix / Arizona - Berkshire Hathaway acquires BTR player Taylor Morrison for $8.5B: Priority Asset Watch, Unknown Stage, score 84.
+- BTR / Build-to-Rent - Phoenix / Arizona - Berkshire Hathaway acquires BTR player Taylor Morrison for $8.5B: Priority Asset Watch, Unknown Stage, score 86.
+- General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: Priority Asset Watch, Refinancing / Recapitalization, score 82.
+- Development Start - Los Angeles / California - Construction kicks off for affordable housing at 706 W. 85th Street in South L.A.: Priority Asset Watch, Site Acquisition / Site Control, score 82.
+- General Project Signal - Santa Monica / California - Metro-adjacent affordable housing rises at 1640 20th Street in Santa Monica: Priority Asset Watch, Unknown Stage, score 82.
+- Disposition / Exit - Dallas / Texas - Contentious Dallas City Property Could Become Apartments, Retail: Priority Asset Watch, Unknown Stage, score 80.
 
 ## Implications for Woomi / Woomi Global
 
@@ -66,23 +66,23 @@ Generated: 2026-06-04 08:14:25
 
 ## Recommended Asset Memory Follow-up
 
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - New York - Slate Property Group Closes on $86M Refi for LIC Apartments.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Austin / Texas - Developer Duo Inks $870M Construction Loan for Lake Austin Four Seasons Residences.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Los Angeles / California - PSRS Arranges $6.8M in Construction Financing for Affordable Housing Project in North Holl....
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Atlanta / Georgia - Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang....
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Office-to-Residential Conversion - Los Angeles / California - Mayor Bass: Adaptive Reuse Key to Revitalizing Downtown LA.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - California - Good + Roberts Tops Out on $29M San Diego Multifamily Mixed-Use Housing Development.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - California - Zilber Residential Group, Homes by Towne Complete 209-Unit Multifamily Community in Rosevi....
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - Riverside / California - Blackstone’s Link Logistics Sells Light Industrial Portfolio for $1.8B.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: BTR / Build-to-Rent - Phoenix / Arizona - Berkshire Hathaway acquires BTR player Taylor Morrison for $8.5B.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Development Start - Los Angeles / California - Construction kicks off for affordable housing at 706 W. 85th Street in South L.A..
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 164
-- Institutional-grade signals: 16
-- High-confidence signals: 44
-- Weak/noisy signals: 96
-- High-confidence watchlist items: 44
+- Signals evaluated: 153
+- Institutional-grade signals: 12
+- High-confidence signals: 35
+- Weak/noisy signals: 94
+- High-confidence watchlist items: 35
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

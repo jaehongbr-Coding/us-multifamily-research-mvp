@@ -1,34 +1,33 @@
 # Source Health Report
 
-Generated: 2026-06-04 08:14:13
+Generated: 2026-06-04 23:02:02
 
 - Total sources attempted: 163
-- Working sources: 24
-- Failing sources: 13
+- Working sources: 23
+- Failing sources: 14
 - Placeholder sources: 0
 - Disabled registered sources: 126
 
 ## High-Value Sources
 
-- Multifamily Dive (Core Multifamily News): 3 saved article(s).
+- Multifamily Dive (Core Multifamily News): 6 saved article(s).
 - Multifamily Executive (Core Multifamily News): 3 saved article(s).
-- Yield PRO (Core Multifamily News): 7 saved article(s).
-- Connect CRE (Core Multifamily News): 5 saved article(s).
+- Yield PRO (Core Multifamily News): 9 saved article(s).
 - NAHB Eye on Housing - Multifamily (Public Agency / Housing Data): 15 saved article(s).
-- Urbanize LA (Regional / California / LA Sources): 8 saved article(s).
-- REBusiness Online (Site / Parcel Source Expansion): 8 saved article(s).
+- Urbanize LA (Regional / California / LA Sources): 9 saved article(s).
+- REBusiness Online (Site / Parcel Source Expansion): 7 saved article(s).
 - Connect CRE Apartments (Site / Parcel Source Expansion): 6 saved article(s).
-- Connect CRE Texas (Site / Parcel Source Expansion): 5 saved article(s).
+- Connect CRE Texas (Site / Parcel Source Expansion): 3 saved article(s).
 - Connect CRE South Florida (Site / Parcel Source Expansion): 4 saved article(s).
 - Connect CRE Atlanta (Site / Parcel Source Expansion): 3 saved article(s).
-- Connect CRE Charlotte (Site / Parcel Source Expansion): 3 saved article(s).
 - Connect CRE Orange County (Site / Parcel Source Expansion): 4 saved article(s).
-- Connect CRE California (Regional / California / LA Sources): 5 saved article(s).
+- Connect CRE California (Regional / California / LA Sources): 6 saved article(s).
 
 ## Useful Sources
 
-- Bisnow (Core Multifamily News): 2 saved article(s).
+- Bisnow (Core Multifamily News): 1 saved article(s).
 - Commercial Observer (Core Multifamily News): 2 saved article(s).
+- Connect CRE (Core Multifamily News): 2 saved article(s).
 - SF YIMBY (Regional / California / LA Sources): 2 saved article(s).
 - Connect CRE Phoenix (Site / Parcel Source Expansion): 2 saved article(s).
 
@@ -43,6 +42,7 @@ Generated: 2026-06-04 08:14:13
 - Berkadia Research: RSS parsing issue: status=301; <unknown>:7:866: not well-formed (invalid token)
 - Hines Newsroom: RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token)
 - California YIMBY: RSS parsing issue: <urlopen error [Errno -2] Name or service not known>
+- Connect CRE Charlotte: RSS parsing issue: status=404; <unknown>:22:51: not well-formed (invalid token)
 - Hines Source Expansion: RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token)
 - Berkadia Source Expansion: RSS parsing issue: status=301; <unknown>:7:866: not well-formed (invalid token)
 - Walker & Dunlop Source Expansion: RSS parsing issue: status=301; <unknown>:2:2016: not well-formed (invalid token)
@@ -71,9 +71,9 @@ Developer / GP source coverage is available in `gp_source_coverage_report.md`.
 ## Source Activation Summary
 
 Validated source activation scoring is available in `source_activation_report.md`.
-- Working activated sources: 24
+- Working activated sources: 23
 - Failed critical sources: 11
-- Highest quality source this run: Connect CRE (94).
+- Highest quality source this run: Yield PRO (94).
 
 ## Recommended Source Improvement Actions
 

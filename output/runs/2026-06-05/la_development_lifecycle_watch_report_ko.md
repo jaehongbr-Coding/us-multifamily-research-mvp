@@ -1,34 +1,34 @@
 # 한국어 LA 개발 단계 Watch
 
-- 생성 시각: 2026-06-05 11:41:13
+- 생성 시각: 2026-06-05 23:01:48
 - 참고 원문 파일: `la_development_lifecycle_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
 ## 개발 단계별 프로젝트 현황
 
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: California, 어포더블 하우징, 점수 100 (Refinancing / Recapitalization; Review lender exposure, sponsor stress, and possible JV or rescue-capital angle)
-- General Project Signal - Atlanta / Georgia - Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments: Los Angeles, 아파트, 점수 100 (Refinancing / Recapitalization; Review lender exposure, sponsor stress, and possible JV or rescue-capital angle)
-- Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang...: Los Angeles, 어포더블 하우징, 점수 100 (Delivery / Opening; Monitor lifecycle status for repeated confirmation)
+- Refinancing - New York City / New York - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi: Los Angeles, 어포더블 하우징, 점수 100 (Delivery / Opening; Monitor lifecycle status for repeated confirmation)
+- JLL Real Estate Capital Provides $70M for West Village Multifamily Refi: Los Angeles, 어포더블 하우징, 점수 100 (Delivery / Opening; Monitor lifecycle status for repeated confirmation)
 - Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Los Angeles, 어포더블 하우징, 점수 100 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
+- JV / Partnership - Houston / Texas - Longacre Acquires 541-Unit Houston Multifamily Community Scaling Joint Venture’s 17 State...: Los Angeles, 아파트, 점수 100 (Site Acquisition / Site Control; Monitor lifecycle status for repeated confirmation)
 - 19-story high-rise starts work at 6055 Center Drive in Westchester: Los Angeles, 주거복합, 점수 100 (Building Permit / Construction Permit; Monitor permit status, financing, and construction-start readiness)
 - Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester: Los Angeles, 주거복합, 점수 97 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
 - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Los Angeles, 어포더블 하우징, 점수 97 (Site Acquisition / Site Control; Monitor lifecycle status for repeated confirmation)
 - Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: California, 일반 주거, 점수 95 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: California, 아파트, 점수 94 (Refinancing / Recapitalization; Review lender exposure, sponsor stress, and possible JV or rescue-capital angle)
-- BTR / Build-to-Rent - Phoenix / Arizona - Berkshire Hathaway acquires BTR player Taylor Morrison for $8.5B: Los Angeles, BTR / 단독주택 임대, 점수 94 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
 
 ## 진행 / 정체 / 재등장 신호
 
-- Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang...: Los Angeles, 어포더블 하우징, 점수 80 (Mature / Operating; Mature)
-- Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Angeles Arranged by Berkadia: Los Angeles, 어포더블 하우징, 점수 79 (Mature / Operating; Mature)
-- Zilber Residential Group, Homes by Towne Complete 209-Unit Multifamily Community in Roseville, California: California, 아파트, 점수 78 (Mature / Operating; Mature)
-- General Project Signal - California - Zilber Residential Group, Homes by Towne Complete 209-Unit Multifamily Community in Rosevi...: California, 아파트, 점수 77 (Mature / Operating; Mature)
-- General Project Signal - Atlanta / Georgia - Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments: Los Angeles, 아파트, 점수 65 (Same Stage Persistence; Stable)
+- Refinancing - New York City / New York - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi: Los Angeles, 어포더블 하우징, 점수 75 (Newly Detected Project; Unknown)
+- JLL Real Estate Capital Provides $70M for West Village Multifamily Refi: Los Angeles, 어포더블 하우징, 점수 75 (Newly Detected Project; Unknown)
+- Arrow Real Estate Advisors Arranges $70M for Delaware MF Development: Los Angeles, 아파트, 점수 73 (Newly Detected Project; Unknown)
+- Gantry Secures $39.5M Construction Takeout Loan for Saint Paul Class A Multifamily Community Edison at Woodbury: Los Angeles, 아파트, 점수 72 (Newly Detected Project; Unknown)
+- General Project Signal - National - Gantry Secures $39.5M Construction Takeout Loan for Saint Paul Class A Multifamily Communi...: Los Angeles, 아파트, 점수 72 (Newly Detected Project; Unknown)
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: California, 어포더블 하우징, 점수 65 (Same Stage Persistence; Stable)
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: California, 아파트, 점수 64 (Same Stage Persistence; Stable)
-- Construction Financing - Miami / Florida - Kengo Kuma-Designed Miami Project Lands $85M Construction Loan: Los Angeles, 주거복합, 점수 62 (Same Stage Persistence; Stable)
-- Kengo Kuma-Designed Miami Project Lands $85M Construction Loan: Los Angeles, 주거복합, 점수 61 (Same Stage Persistence; Stable)
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Los Angeles, 아파트, 점수 61 (Same Stage Persistence; Stable)
+- Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Los Angeles, 아파트, 점수 61 (Same Stage Persistence; Stable)
+- Slatt Capital Arranges $27M Construction Loan for San Gabriel Mixed-Use: Los Angeles, 주거복합, 점수 59 (Newly Detected Project; Unknown)
 
 ## 인허가 / 착공 / 리스업 타이밍
 

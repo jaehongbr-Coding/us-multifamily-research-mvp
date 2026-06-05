@@ -2,10 +2,10 @@
 
 ## Project-First Routing Summary
 
-- Market Intelligence count: 16
-- Development Activity count: 54
-- GP / Capital Activity count: 7
-- Project anchor article count: 53
+- Market Intelligence count: 17
+- Development Activity count: 55
+- GP / Capital Activity count: 2
+- Project anchor article count: 51
 
 ## Regression Samples
 
@@ -18,7 +18,7 @@
 - MISSING | expected Development Activity | Aventon to Build 270-Unit Port Richey Rental Community
 - MISSING | expected Development Activity | First Projects Advance Under San Francisco's New Zoning Plan
 - MISSING | expected Development Activity | Jefferson Apartment Group Delivers Luxury Multifamily Community
-- PASS | expected GP / Capital Activity | actual GP / Capital Activity | Berkshire Hathaway acquires BTR player Taylor Morrison for $8.5B | anchor=False | reason=gp_capital_corporate_mna: acquires btr player
+- MISSING | expected GP / Capital Activity | Berkshire Hathaway acquires BTR player Taylor Morrison
 - MISSING | expected GP / Capital Activity | Blackstone Real Estate Debt Strategies Launches Homebuilder Lending Platform
 - MISSING | expected Market Intelligence | Rent growth is positive for the month of May
 - MISSING | expected Market Intelligence | Multifamily construction spending lower in April
@@ -26,6 +26,6 @@
 
 ## Result
 
-- Checked samples present in current run: 5
-- Passed expected section: 5
-- Missing sample titles: 9
+- Checked samples present in current run: 4
+- Passed expected section: 4
+- Missing sample titles: 10

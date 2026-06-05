@@ -1,13 +1,13 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-06-05 11:41:29
+Generated: 2026-06-05 23:01:58
 
-- Total relationship edges: 102
-- Most connected developer / GP: JLL (10 edge(s))
-- Most connected lender / debt provider: jll (4 edge(s))
-- Most connected market: California (10 edge(s))
+- Total relationship edges: 110
+- Most connected developer / GP: JLL (12 edge(s))
+- Most connected lender / debt provider: jll (3 edge(s))
+- Most connected market: Los Angeles / California (8 edge(s))
 - Strongest relationship edge: JLL -> jll
-- Highest Woomi relevance edge: IPA -> JV / Partnership - Washington DC - IPA Capital Markets Arranges $27M for Luxury DC Multifamily
+- Highest Woomi relevance edge: IPA -> Houston
 
 ## Top 10 Relationship Edges
 
@@ -16,11 +16,11 @@ Generated: 2026-06-05 11:41:29
 - JLL -> Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Financing Relationship, California, score 97. Track GP relationship history.
 - JLL -> jll: Financing Relationship, California, score 96. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Los Angeles / California, score 95. Track GP relationship history.
-- Berkshire Hathaway -> berkadia: Financing Relationship, Los Angeles / California, score 93. Track GP relationship history.
+- JLL -> freddie mac: Financing Relationship, New York City / New York, score 93. Track GP relationship history.
+- Walker & Dunlop -> walker & dunlop: Financing Relationship, Florida, score 93. Track GP relationship history.
+- Greystone -> related: Financing Relationship, Phoenix / Arizona, score 92. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, California, score 89. Track GP relationship history.
-- Walker & Dunlop -> walker & dunlop: Financing Relationship, Atlanta / Georgia, score 89. Track GP relationship history.
-- Berkshire Hathaway -> Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang...: Financing Relationship, Los Angeles / California, score 85. Track GP relationship history.
-- Berkshire Hathaway -> Los Angeles: Financing Relationship, Los Angeles / California, score 85. Track GP relationship history.
+- Berkadia -> berkadia: Financing Relationship, Miami / Florida, score 87. Track GP relationship history.
 
 ## Developer / GP Relationship Map
 
@@ -29,41 +29,40 @@ Generated: 2026-06-05 11:41:29
 - JLL -> Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Financing Relationship, California, score 97. Track GP relationship history.
 - JLL -> jll: Financing Relationship, California, score 96. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Los Angeles / California, score 95. Track GP relationship history.
-- Berkshire Hathaway -> berkadia: Financing Relationship, Los Angeles / California, score 93. Track GP relationship history.
+- JLL -> freddie mac: Financing Relationship, New York City / New York, score 93. Track GP relationship history.
+- Walker & Dunlop -> walker & dunlop: Financing Relationship, Florida, score 93. Track GP relationship history.
+- Greystone -> related: Financing Relationship, Phoenix / Arizona, score 92. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, California, score 89. Track GP relationship history.
-- Walker & Dunlop -> walker & dunlop: Financing Relationship, Atlanta / Georgia, score 89. Track GP relationship history.
-- Berkshire Hathaway -> Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang...: Financing Relationship, Los Angeles / California, score 85. Track GP relationship history.
-- Berkshire Hathaway -> Los Angeles: Financing Relationship, Los Angeles / California, score 85. Track GP relationship history.
+- Berkadia -> berkadia: Financing Relationship, Miami / Florida, score 87. Track GP relationship history.
 
 ## Lender / Debt Provider Relationship Map
 
 - JLL -> jll: Financing Relationship, California, score 100. Track GP relationship history.
 - JLL -> jll: Financing Relationship, California, score 96. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Los Angeles / California, score 95. Track GP relationship history.
-- Berkshire Hathaway -> berkadia: Financing Relationship, Los Angeles / California, score 93. Track GP relationship history.
+- JLL -> freddie mac: Financing Relationship, New York City / New York, score 93. Track GP relationship history.
+- Walker & Dunlop -> walker & dunlop: Financing Relationship, Florida, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, California, score 89. Track GP relationship history.
-- Walker & Dunlop -> walker & dunlop: Financing Relationship, Atlanta / Georgia, score 89. Track GP relationship history.
-- Walker & Dunlop -> walker & dunlop: Financing Relationship, Austin / Texas, score 85. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Other / Unknown, score 80. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Other / Unknown, score 80. Track GP relationship history.
-- Disposition / Exit - Miami / Florida - Cushman & Wakefield Represents The Green Companies in the Sale of Green House Multifamily... -> cushman: Financing Relationship, Miami / Florida, score 64. Monitor lender activity.
+- Berkadia -> berkadia: Financing Relationship, Miami / Florida, score 87. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Other / Unknown, score 84. Track GP relationship history.
+- Berkadia -> berkadia: Financing Relationship, Houston / Texas, score 81. Track GP relationship history.
 
 ## Capital Partner / Institutional Flow Map
 
-- No relationship edge detected.
+- Greystone -> related: Financing Relationship, Phoenix / Arizona, score 92. Track GP relationship history.
 
 ## Market Relationship Map
 
 - JLL -> California: Financing Relationship, California, score 97. Track GP relationship history.
-- Berkshire Hathaway -> Los Angeles: Financing Relationship, Los Angeles / California, score 85. Track GP relationship history.
-- Berkshire Hathaway -> Los Angeles / California: Financing Relationship, Los Angeles / California, score 85. Track GP relationship history.
+- JLL -> Manhattan: Financing Relationship, New York City / New York, score 85. Track GP relationship history.
+- JLL -> New York City / New York: Financing Relationship, New York City / New York, score 85. Track GP relationship history.
+- Walker & Dunlop -> Florida: Financing Relationship, Florida, score 85. Track GP relationship history.
+- Walker & Dunlop -> Southeast: Financing Relationship, Florida, score 85. Track GP relationship history.
+- Greystone -> Ky.: Financing Relationship, Phoenix / Arizona, score 84. Track GP relationship history.
+- Greystone -> Phoenix / Arizona: Financing Relationship, Phoenix / Arizona, score 84. Track GP relationship history.
 - PEF Advisors -> California: Financing Relationship, California, score 83. Track GP relationship history.
-- IPA -> Washington DC: JV / Partnership, Washington DC, score 80. Review potential JV relevance.
-- IPA -> Washington Dc: JV / Partnership, Washington DC, score 80. Review potential JV relevance.
 - JLL -> California: Market Expansion, California, score 80. Track GP relationship history.
-- CBRE -> Los Angeles: Disposition / Seller, Los Angeles / California, score 76. Track GP relationship history.
-- CBRE -> Los Angeles / California: Disposition / Seller, Los Angeles / California, score 76. Track GP relationship history.
-- Hanover Company -> Houston: Disposition / Seller, Los Angeles / California, score 73. Track GP relationship history.
+- Berkadia -> Miami: Financing Relationship, Miami / Florida, score 79. Track GP relationship history.
 
 ## California / LA Relationship Signals
 
@@ -72,19 +71,19 @@ Generated: 2026-06-05 11:41:29
 - JLL -> Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Financing Relationship, California, score 97. Track GP relationship history.
 - JLL -> jll: Financing Relationship, California, score 96. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, California, score 89. Track GP relationship history.
-- Berkshire Hathaway -> Los Angeles: Financing Relationship, Los Angeles / California, score 85. Track GP relationship history.
 - PEF Advisors -> California: Financing Relationship, California, score 83. Track GP relationship history.
 - PEF Advisors -> Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Financing Relationship, California, score 83. Track GP relationship history.
 - JLL -> General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: Pricing / Valuation Signal, California, score 82. Track GP relationship history.
 - JLL -> California: Market Expansion, California, score 80. Track GP relationship history.
+- CBRE -> Los Angeles: Disposition / Seller, Los Angeles / California, score 76. Track GP relationship history.
 
 ## Potential Woomi Partnership Signals
 
-- IPA -> JV / Partnership - Washington DC - IPA Capital Markets Arranges $27M for Luxury DC Multifamily: JV / Partnership, Washington DC, score 80. Review potential JV relevance.
-- IPA -> Washington DC: JV / Partnership, Washington DC, score 80. Review potential JV relevance.
-- IPA -> Washington Dc: JV / Partnership, Washington DC, score 80. Review potential JV relevance.
-- JV / Partnership - San Francisco / California - ArtHaus, Belay Expand into San Francisco with Nob Hill Acquisition -> California: JV / Partnership, San Francisco / California, score 58. Review potential JV relevance.
-- JV / Partnership - San Francisco / California - ArtHaus, Belay Expand into San Francisco with Nob Hill Acquisition -> San Francisco / California: JV / Partnership, San Francisco / California, score 58. Review potential JV relevance.
+- IPA -> Houston: JV / Partnership, Houston / Texas, score 78. Review potential JV relevance.
+- IPA -> Houston / Texas: JV / Partnership, Houston / Texas, score 78. Review potential JV relevance.
+- IPA -> JV / Partnership - Houston / Texas - Longacre Acquires 541-Unit Houston Multifamily Community Scaling Joint Venture’s 17 State...: JV / Partnership, Houston / Texas, score 78. Review potential JV relevance.
+- PCCP -> JV / Partnership - Texas - JV Closes On 1,128-Bed Texas A&M Housing Deal: JV / Partnership, Texas, score 73. Review potential JV relevance.
+- PCCP -> Texas: JV / Partnership, Texas, score 73. Review potential JV relevance.
 
 ## Canonical Relationship Map
 
@@ -95,11 +94,11 @@ Generated: 2026-06-05 11:41:29
 | JLL | JLL | Financing Relationship | 60 |
 | JLL | JLL | Financing Relationship | 75 |
 | CBRE | CBRE | Financing Relationship | 75 |
-| Berkshire Hathaway | Berkadia | Financing Relationship | 40 |
-| CBRE | CBRE | Financing Relationship | 75 |
+| JLL | Freddie Mac | Financing Relationship | 75 |
 | Walker & Dunlop | walker & dunlop | Financing Relationship | 40 |
-| Berkshire Hathaway | Los Angeles | Financing Relationship | 40 |
-| Berkshire Hathaway | Los Angeles | Financing Relationship | 40 |
+| Greystone | Related Companies | Financing Relationship | 75 |
+| CBRE | CBRE | Financing Relationship | 75 |
+| Berkadia | Berkadia | Financing Relationship | 75 |
 
 ## Multi-Source Confirmation Summary
 
@@ -111,9 +110,9 @@ Relationship repeat strength uses unique canonical deal/event counts instead of 
 Ranked GP watchlist signals are available in `gp_watchlist_report.md`.
 - Freestone Capital: 77 (Tier 2 High Potential GP), Potential GP partnership candidate.
 - PEF Advisors: 77 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- Berkshire Hathaway: 76 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- Nob Hill Acquisition ArtHaus Partners: 75 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- Generation Real Estate Partners: 73 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- JLL: 75 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- JLL: 75 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- JLL: 75 (Tier 2 High Potential GP), Potential GP partnership candidate.
 
 ## GP Source Expansion Summary
 
@@ -138,18 +137,18 @@ Longitudinal memory is available in `historical_memory_report.md`.
 - Track GP relationship history: JLL -> Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily (Financing Relationship).
 - Track GP relationship history: JLL -> jll (Financing Relationship).
 - Track GP relationship history: CBRE -> cbre (Financing Relationship).
-- Track GP relationship history: Berkshire Hathaway -> berkadia (Financing Relationship).
-- Track GP relationship history: CBRE -> cbre (Financing Relationship).
+- Track GP relationship history: JLL -> freddie mac (Financing Relationship).
 - Track GP relationship history: Walker & Dunlop -> walker & dunlop (Financing Relationship).
+- Track GP relationship history: Greystone -> related (Financing Relationship).
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 627
-- Canonical projects: 152
-- Duplicate project clusters: 107
-- Persistent assets tracked: 152
-- LA persistent asset watch items: 110
+- Raw project references: 654
+- Canonical projects: 173
+- Duplicate project clusters: 121
+- Persistent assets tracked: 173
+- LA persistent asset watch items: 114
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

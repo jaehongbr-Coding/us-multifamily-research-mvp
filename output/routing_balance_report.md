@@ -1,27 +1,27 @@
 # Routing Balance Report
 
-- Market Intelligence count: 16
-- Development Activity count: 54
-- GP / Capital Activity count: 7
+- Market Intelligence count: 17
+- Development Activity count: 55
+- GP / Capital Activity count: 2
 - Excluded count: 1
 - Rent/Demand candidate count: 7
-- Project anchor article count: 53
-- Development-excluded transaction article count: 5
+- Project anchor article count: 51
+- Development-excluded transaction article count: 2
 - Low-value promotional excluded count: 1
-- Site / Parcel positive candidates count: 6
+- Site / Parcel positive candidates count: 8
 - Site / Parcel excluded transaction count: 0
 - Source missing count: 0
 - Market missing count: 0
-- Stage missing count: 60
+- Stage missing count: 57
 
 ## Rent/Demand Titles
 - Are rent concessions rising or falling? It’s complicated.
 - Multifamily Absorption Rate Remains Below 50%
 - Centralization Associated with Occupancy Uplift
 - Rent Prices Continue to Rise, While Absorption Remains Low
-- Spring leasing gains traction as apartment supply pressure eases
 - Multifamily Developer Confidence Holds Steady in First Quarter
 - Multifamily Developer Confidence Increases in Third Quarter, But Still in Negative Territory
+- May rents see small seasonal gain amid muted renter demand
 
 ## Excluded Promotional Articles
 - The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist | chat-with-chief-economist promotional format
@@ -30,7 +30,9 @@
 - 19-story high-rise starts work at 6055 Center Drive in Westchester | Development Activity | site/parcel signal with project anchor: parcel
 - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson | Development Activity | site/parcel signal with project anchor: development site
 - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale | Development Activity | site/parcel signal with project anchor: acres + development/site signal
+- Greystar Eyeing 896 Doral Apartment Units | Development Activity | site/parcel signal with project anchor: to build
 - Seco Planning 12-Story, $100M FW Apartment Highrise | Development Activity | site/parcel signal with project anchor: to build
+- Porter Kyle Builders Names Industry Veteran John Rowland Vice President of Construction | Development Activity | site/parcel signal with project anchor: to build
 - W. Palm Beach Developer Eyeing 25-Story Apartment Tower | Development Activity | site/parcel signal with project anchor: to build
 - Portman Targeting Duluth for Mixed-Use Project | Development Activity | site/parcel signal with project anchor: to build
 
@@ -39,12 +41,12 @@
 
 ## Sample Validation
 - The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist | Excluded | rent_demand=No | low_value_promotional: chat-with-chief-economist promotional format
-- Cushman & Wakefield Represents The Green Companies in the Sale of Green House Multifamily Development in Miami | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 14-story; project/asset term: development)
-- Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Angeles Arranged by Berkadia | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (address/street: 1711 corinth avenue; project/asset term: project; project financing tied to anchor: construction financing)
-- IZO Capital Launches $120M Structured Finance Platform for Multifamily Rental Housing Development | GP / Capital Activity | rent_demand=No | gp_capital_platform: lending platform without project anchor
-- 19-story high-rise starts work at 6055 Center Drive in Westchester | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (unit/site count: 19-story; address/street: 6055 center drive; site/parcel signal: site; project/asset term: project)
-- Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (unit/site count: 73-acre; address/street: 9700 w. pico blvd; site/parcel signal: site; project/asset term: project)
-- Affordable housing proposed for 23022 W. Ventura Blvd. in Woodland Hills | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 23022 w. ventura blvd; execution milestone: proposed; site/parcel signal: site; project/asset term: project)
-- Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 3411 foothill blvd; execution milestone: proposed; project/asset term: project)
-- Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach | Development Activity | rent_demand=No | development_project_anchor: Construction Start (address/street: 4151 e. fountain ave; execution milestone: groundbreaking; project/asset term: development)
-- Construction kicks off for affordable housing at 706 W. 85th Street in South L.A. | Development Activity | rent_demand=No | development_project_anchor: Construction Start (address/street: 706 w. 85th street; execution milestone: groundbreaking; project/asset term: project)
+- Gantry Secures $39.5M Construction Takeout Loan for Saint Paul Class A Multifamily Community Edison at Woodbury | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (address/street: 326 karen drive; project/asset term: community)
+- Longacre Acquires 541-Unit Houston Multifamily Community Scaling Joint Venture’s 17 State Turnaround Platform | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 541-unit; project/asset term: community)
+- Scottsdale Developer The Hampton Group Secures $141M Construction Loan for Luxury Apartments IKONIC | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 14-story; project/asset term: development; project financing tied to anchor: construction loan)
+- Dwight Capital Lends $66M of HUD Debt on Texas Luxury Apartments Project | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (project/asset term: project; project financing tied to anchor: construction financing)
+- JLL Real Estate Capital Provides $70M for West Village Multifamily Refi | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (address/street: 100 jane street; execution milestone: opened; project/asset term: development)
+- $14M Refinance Secured for Newly Delivered Wicker Park Multifamily | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 40-unit; execution milestone: delivered; project/asset term: apartments)
+- Slatt Capital Arranges $27M Construction Loan for San Gabriel Mixed-Use | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (address/street: 300 e valley blvd; project/asset term: development; project financing tied to anchor: construction loan)
+- L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 787 s. alameda st; execution milestone: proposed; project/asset term: project)
+- 85 apartments proposed at 15242 W. Parthenia St. in North Hills | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (unit/site count: 85 apartments; address/street: 15242 w. parthenia st; execution milestone: proposed; project/asset term: project)

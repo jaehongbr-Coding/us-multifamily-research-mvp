@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-06-05 11:41:34
+Generated: 2026-06-05 23:02:04
 
-- Total raw project references: 627
-- Total canonical projects: 152
-- Duplicate project clusters: 107
-- High-confidence project identities: 627
+- Total raw project references: 654
+- Total canonical projects: 173
+- Duplicate project clusters: 121
+- High-confidence project identities: 654
 - Low-confidence identities needing review: 0
-- LA / California project references: 422
+- LA / California project references: 418
 
 ## Top Repeated Projects
 
-- Development Start - Los Angeles / California - Construction kicks off for affordable housing at 706 W. 85th Street in South L.A.: 40 occurrence(s), confidence 80.
-- Development Start - Los Angeles / California - Construction kicks off for affordable housing at 706 W. 85th Street in South L.A.: 40 occurrence(s), confidence 80.
-- Development Start - Los Angeles / California - Construction kicks off for affordable housing at 706 W. 85th Street in South L.A.: 40 occurrence(s), confidence 80.
-- Development Start - Los Angeles / California - Construction kicks off for affordable housing at 706 W. 85th Street in South L.A.: 40 occurrence(s), confidence 80.
-- Development Start - Los Angeles / California - Construction kicks off for affordable housing at 706 W. 85th Street in South L.A.: 40 occurrence(s), confidence 80.
-- Development Start - Los Angeles / California - Construction kicks off for affordable housing at 706 W. 85th Street in South L.A.: 40 occurrence(s), confidence 80.
-- Development Start - Los Angeles / California - Construction kicks off for affordable housing at 706 W. 85th Street in South L.A.: 40 occurrence(s), confidence 80.
-- Development Start - Los Angeles / California - Construction kicks off for affordable housing at 706 W. 85th Street in South L.A.: 40 occurrence(s), confidence 80.
-- Development Start - Los Angeles / California - Construction kicks off for affordable housing at 706 W. 85th Street in South L.A.: 40 occurrence(s), confidence 80.
-- Development Start - Los Angeles / California - Construction kicks off for affordable housing at 706 W. 85th Street in South L.A.: 40 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: 41 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: 41 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: 41 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: 41 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: 41 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: 41 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: 41 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: 41 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: 41 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: 41 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

@@ -1,39 +1,39 @@
 # Executive Dashboard Brief
 
-Generated: 2026-06-05 11:41:13
+Generated: 2026-06-05 23:01:48
 
 ## Executive Snapshot
 
-- Total articles reviewed: 79
-- High-confidence signals: 36
-- Institutional-grade signals: 14
-- Opportunities: 50
-- Distress signals: 11
-- Recommended executive focus: Review Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang... and related high-confidence project signals.
+- Total articles reviewed: 76
+- High-confidence signals: 40
+- Institutional-grade signals: 12
+- Opportunities: 53
+- Distress signals: 13
+- Recommended executive focus: Review Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties and related high-confidence project signals.
 
 ## Top 5 Things to Review Today
 
 - Arizona (Capital Flow, Critical): Track capital flow pattern and related relationships.
 - Atlanta / Georgia (Capital Flow, Critical): Track capital flow pattern and related relationships.
 - Atlanta / Georgia (Capital Flow, Critical): Track capital flow pattern and related relationships.
-- Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang... (LA Asset Watch, Critical): Track entitlement docket, density bonus use, and affordability requirement.
 - Development Start - California - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach (LA Asset Watch, Critical): Review parcel clue, entitlement path, sponsor, and comparable sites.
+- Entitlement / Permitting - New York - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale (LA Asset Watch, Critical): Track entitlement docket, density bonus use, and affordability requirement.
 
 ## Immediate Watch Items
 
 - Arizona: Fading Action: Track capital flow pattern and related relationships.
 - Atlanta / Georgia: Stable Action: Track capital flow pattern and related relationships.
 - Atlanta / Georgia: Stable Action: Track capital flow pattern and related relationships.
-- Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang...: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
 - Development Start - California - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
+- Entitlement / Permitting - New York - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
 
 ## LA / California Watch
 
 - Atlanta / Georgia: Stable Action: Track capital flow pattern and related relationships.
 - Atlanta / Georgia: Stable Action: Track capital flow pattern and related relationships.
-- Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang...: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
 - Development Start - California - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 - Entitlement / Permitting - New York - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
+- L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
 
 ## GP / Capital Partner Watch
 
@@ -46,18 +46,18 @@ Generated: 2026-06-05 11:41:13
 ## Opportunity / Distress Watch
 
 - Construction Financing Gap: Construction Financing Gap may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
+- Refinancing Gap: Refinancing Gap may create a pricing, capital, partnership, or pipeline opening in New York City / New York. Action: Add to executive opportunity review.
 - Affordable / Workforce Housing Opportunity: Affordable / Workforce Housing Opportunity may create a pricing, capital, partnership, or pipeline opening in Los Angeles / California. Action: Add to executive opportunity review.
 - LA / California Entitlement Opportunity: LA / California Entitlement Opportunity may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
 - Recapitalization Opportunity: Recapitalization Opportunity may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
-- Construction Financing Gap: Construction Financing Gap may create a pricing, capital, partnership, or pipeline opening in Los Angeles / California. Action: Add to executive opportunity review.
 
 ## Development Lifecycle Watch
 
-- Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang...: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
 - Development Start - California - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 - Entitlement / Permitting - New York - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
-- General Project Signal - Atlanta / Georgia - Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments: Review acquisition comparables Action: Track lender, maturity, owner, and recapitalization path.
+- L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
 - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Track site control precedent Action: Track entitlement docket, density bonus use, and affordability requirement.
+- Refinancing - New York City / New York - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi: Review acquisition comparables Action: Track lender, maturity, owner, and recapitalization path.
 
 ## Capital Flow Watch
 
@@ -74,8 +74,8 @@ Generated: 2026-06-05 11:41:13
 - Track capital flow pattern and related relationships (capital_flow_report.md).
 - Track capital flow pattern and related relationships (capital_flow_report.md).
 - Track capital flow pattern and related relationships (capital_flow_report.md).
-- Track entitlement docket, density bonus use, and affordability requirement (la_asset_watch_report.md).
 - Review parcel clue, entitlement path, sponsor, and comparable sites (la_asset_watch_report.md).
+- Track entitlement docket, density bonus use, and affordability requirement (la_asset_watch_report.md).
 
 
 ## Korean Report Reference

@@ -1,7 +1,7 @@
 ﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
-20260605-114113-2df19a72,2026-06-05,Construction financing still selective,Building,stable,34,19,34,5.35,3.65,9,9,5,4,Miami / Florida,Broadly Confirmed,steady visibility,
-20260605-114113-2df19a72,2026-06-05,Institutional recap over expansion,Persistent,stable,34,19,34,3.29,2.91,3,3,3,0,California,Moderate Signal,steady visibility,
-20260605-114113-2df19a72,2026-06-05,JV / partnership activity observed,Persistent,stable,34,19,34,6.56,3.59,4,4,4,1,Los Angeles / California,Moderate Signal,steady visibility,
-20260605-114113-2df19a72,2026-06-05,LA entitlement precedent accumulation,Building,stable,34,19,34,10.0,3.06,6,6,1,1,Los Angeles / California,Source-Concentrated,steady visibility,
-20260605-114113-2df19a72,2026-06-05,Refinancing pressure unresolved,Persistent,stable,34,19,34,5.5,3.94,6,6,6,3,Atlanta / Georgia,Broadly Confirmed,steady visibility,
-20260605-114113-2df19a72,2026-06-05,Sun Belt lease-up pressure watch,Building,stable,34,19,34,3.56,2.91,6,6,4,0,National,Broadly Confirmed,steady visibility,
+20260605-230148-ea958470,2026-06-05,Construction financing still selective,Persistent,stable,35,20,35,5.46,3.66,9,9,7,4,Phoenix / Arizona,Broadly Confirmed,steady visibility,
+20260605-230148-ea958470,2026-06-05,Institutional recap over expansion,Weakening,weakening,35,20,35,3.26,2.89,2,2,2,0,California,Early Signal,Institutional recap over expansion visibility is weakening versus prior runs.,
+20260605-230148-ea958470,2026-06-05,JV / partnership activity observed,Weakening,weakening,35,20,35,6.46,3.57,3,3,3,0,Houston / Texas,Moderate Signal,JV / partnership activity observed visibility is weakening versus prior runs.,
+20260605-230148-ea958470,2026-06-05,LA entitlement precedent accumulation,Building,stable,35,20,35,9.97,3.03,9,9,2,1,Los Angeles / California,Source-Concentrated,steady visibility,
+20260605-230148-ea958470,2026-06-05,Refinancing pressure unresolved,Weakening,weakening,35,20,35,5.4,3.89,2,2,2,0,California,Early Signal,Refinancing pressure unresolved visibility is weakening versus prior runs.,
+20260605-230148-ea958470,2026-06-05,Sun Belt lease-up pressure watch,Weakening,weakening,35,20,35,3.6,2.94,5,5,4,0,National,Broadly Confirmed,Sun Belt lease-up pressure watch visibility is weakening versus prior runs.,

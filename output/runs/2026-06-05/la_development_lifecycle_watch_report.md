@@ -1,18 +1,18 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-06-05 11:41:34
+Generated: 2026-06-05 23:02:04
 
-- Total LA lifecycle watch items: 52
+- Total LA lifecycle watch items: 50
 
 ## LA Lifecycle Stage Distribution
 
-- Unknown Stage: 25
+- Unknown Stage: 20
 - Site Acquisition / Site Control: 10
 - Refinancing / Recapitalization: 8
-- Delivery / Opening: 4
-- Early Site Signal: 2
+- Delivery / Opening: 5
+- Early Site Signal: 3
+- Entitlement Under Review: 2
 - Building Permit / Construction Permit: 1
-- Entitlement Under Review: 1
 - Community Review: 1
 
 ## Koreatown / Wilshire Lifecycle Watch
@@ -55,23 +55,23 @@ Generated: 2026-06-05 11:41:34
 ## Recommended LA Lifecycle Follow-up Actions
 
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties.
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: General Project Signal - Atlanta / Georgia - Madison Capital Obtains $223M Bridge Loan for 5 SE USA Apartments.
-- Monitor lifecycle status for repeated confirmation: Construction Financing - Los Angeles / California - Seachange Partners Makes its Debut with Two Affordable Multifamily Developments in Los Ang....
+- Monitor lifecycle status for repeated confirmation: Refinancing - New York City / New York - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi.
+- Monitor lifecycle status for repeated confirmation: JLL Real Estate Capital Provides $70M for West Village Multifamily Refi.
 - Monitor lifecycle status for repeated confirmation: Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson.
+- Monitor lifecycle status for repeated confirmation: JV / Partnership - Houston / Texas - Longacre Acquires 541-Unit Houston Multifamily Community Scaling Joint Venture’s 17 State....
 - Monitor permit status, financing, and construction-start readiness: 19-story high-rise starts work at 6055 Center Drive in Westchester.
 - Monitor lifecycle status for repeated confirmation: Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester.
 - Monitor lifecycle status for repeated confirmation: Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson.
-- Monitor lifecycle status for repeated confirmation: Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 78
-- Newly detected projects: 0
+- Lifecycle transitions analyzed: 80
+- Newly detected projects: 39
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 52
+- LA lifecycle transition watch items: 49
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -79,10 +79,10 @@ Generated: 2026-06-05 11:41:34
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 627
-- Canonical projects: 152
-- Duplicate project clusters: 107
-- Persistent assets tracked: 152
-- LA persistent asset watch items: 110
+- Raw project references: 654
+- Canonical projects: 173
+- Duplicate project clusters: 121
+- Persistent assets tracked: 173
+- LA persistent asset watch items: 114
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

@@ -1,23 +1,23 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-06-05 11:41:29
+Generated: 2026-06-05 23:01:58
 
-- GP/developer candidates reviewed: 24
+- GP/developer candidates reviewed: 27
 - Tier 1 Strategic GPs: 0
-- Tier 2 High Potential GPs: 7
+- Tier 2 High Potential GPs: 5
 
 ## Top Emerging GPs
 
 - Freestone Capital: 77 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
 - PEF Advisors: 77 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
-- Berkshire Hathaway: 76 (Tier 2 High Potential GP), Los Angeles / California, California / LA strategic positioning.
-- Nob Hill Acquisition ArtHaus Partners: 75 (Tier 2 High Potential GP), San Francisco / California, California / LA strategic positioning.
-- Generation Real Estate Partners: 73 (Tier 2 High Potential GP), Los Angeles / California, California / LA strategic positioning.
-- JLL: 73 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
-- JLL: 73 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
-- Berkadia: 69 (Tier 3 Monitoring GP), Los Angeles / California, California / LA strategic positioning.
+- JLL: 75 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
+- JLL: 75 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
+- JLL: 75 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
 - CBRE: 65 (Tier 3 Monitoring GP), Los Angeles / California, California / LA strategic positioning.
-- Marcus & Millichap: 65 (Tier 3 Monitoring GP), Washington DC, Selective residential growth.
+- IPA: 64 (Tier 3 Monitoring GP), Houston / Texas, Distressed opportunity positioning.
+- PH Realty Capital: 64 (Tier 3 Monitoring GP), Houston / Texas, Distressed opportunity positioning.
+- Targo Capital: 63 (Tier 3 Monitoring GP), Houston / Texas, Selective residential growth.
+- PCCP: 62 (Tier 3 Monitoring GP), Texas, Institutional-backed regional expansion.
 
 ## Tier 1 Strategic GP
 
@@ -27,24 +27,20 @@ Generated: 2026-06-05 11:41:29
 
 - Freestone Capital: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - PEF Advisors: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Berkshire Hathaway: score 76, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Nob Hill Acquisition ArtHaus Partners: score 75, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Generation Real Estate Partners: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- JLL: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## California / LA GP Activity
 
 - Freestone Capital: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - PEF Advisors: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Berkshire Hathaway: score 76, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Nob Hill Acquisition ArtHaus Partners: score 75, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Generation Real Estate Partners: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- JLL: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Berkadia: score 69, Tier 3 Monitoring GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - CBRE: score 65, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Walker & Dunlop: score 60, Tier 3 Monitoring GP, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
+- Slatt Capital: score 56, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Hanover Company: score 55, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## BTR / SFR GP Activity
 
@@ -54,15 +50,15 @@ Generated: 2026-06-05 11:41:29
 
 - Freestone Capital: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - PEF Advisors: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Berkshire Hathaway: score 76, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Generation Real Estate Partners: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Berkadia: score 69, Tier 3 Monitoring GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - CBRE: score 65, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Seachange Partners: score 59, Tier 3 Monitoring GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Freddie Mac: score 57, Tier 3 Monitoring GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## Student Housing GP Activity
 
-- IZO Capital: score 47, Emerging Watchlist, National, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- PCCP: score 62, Tier 3 Monitoring GP, Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 - Kayne Anderson Real Estate: score 41, Emerging Watchlist, Atlanta / Georgia, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
 
 ## Innovation-Oriented GP Activity
@@ -73,27 +69,27 @@ Generated: 2026-06-05 11:41:29
 
 - Freestone Capital: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - PEF Advisors: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Berkshire Hathaway: score 76, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Nob Hill Acquisition ArtHaus Partners: score 75, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Generation Real Estate Partners: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- JLL: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Berkadia: score 69, Tier 3 Monitoring GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - CBRE: score 65, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Marcus & Millichap: score 65, Tier 3 Monitoring GP, Washington DC, Potential GP partnership candidate. Track JV and capital partner activity.
+- IPA: score 64, Tier 3 Monitoring GP, Houston / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- PH Realty Capital: score 64, Tier 3 Monitoring GP, Houston / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- Targo Capital: score 63, Tier 3 Monitoring GP, Houston / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- PCCP: score 62, Tier 3 Monitoring GP, Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## Potential Woomi Partnership Candidates
 
 - Freestone Capital: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - PEF Advisors: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Berkshire Hathaway: score 76, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Nob Hill Acquisition ArtHaus Partners: score 75, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Generation Real Estate Partners: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- JLL: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Berkadia: score 69, Tier 3 Monitoring GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - CBRE: score 65, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Marcus & Millichap: score 65, Tier 3 Monitoring GP, Washington DC, Potential GP partnership candidate. Track JV and capital partner activity.
+- IPA: score 64, Tier 3 Monitoring GP, Houston / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- PH Realty Capital: score 64, Tier 3 Monitoring GP, Houston / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- Targo Capital: score 63, Tier 3 Monitoring GP, Houston / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- PCCP: score 62, Tier 3 Monitoring GP, Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## GP Source Expansion Summary
 
@@ -124,29 +120,29 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 - Freestone Capital: Track JV and capital partner activity (Medium confidence).
 - PEF Advisors: Track JV and capital partner activity (Medium confidence).
-- Berkshire Hathaway: Track JV and capital partner activity (High confidence).
-- Nob Hill Acquisition ArtHaus Partners: Track JV and capital partner activity (Medium confidence).
-- Generation Real Estate Partners: Track JV and capital partner activity (Medium confidence).
+- JLL: Track JV and capital partner activity (Medium confidence).
+- JLL: Track JV and capital partner activity (Medium confidence).
+- JLL: Track JV and capital partner activity (Medium confidence).
 
 ## Recommended Strategic Follow-up Actions
 
 - Freestone Capital: Track JV and capital partner activity.
 - PEF Advisors: Track JV and capital partner activity.
-- Berkshire Hathaway: Track JV and capital partner activity.
-- Nob Hill Acquisition ArtHaus Partners: Track JV and capital partner activity.
-- Generation Real Estate Partners: Track JV and capital partner activity.
-- JLL: Review LA / California development activity.
-- JLL: Review LA / California development activity.
-- Berkadia: Track JV and capital partner activity.
+- JLL: Track JV and capital partner activity.
+- JLL: Track JV and capital partner activity.
+- JLL: Track JV and capital partner activity.
+- CBRE: Review LA / California development activity.
+- IPA: Track JV and capital partner activity.
+- PH Realty Capital: Track JV and capital partner activity.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 152
-- Institutional-grade signals: 14
-- High-confidence signals: 36
-- Weak/noisy signals: 94
-- High-confidence watchlist items: 36
+- Signals evaluated: 173
+- Institutional-grade signals: 12
+- High-confidence signals: 40
+- Weak/noisy signals: 106
+- High-confidence watchlist items: 40
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

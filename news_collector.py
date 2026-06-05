@@ -2245,6 +2245,9 @@ ARTICLE_CLASSIFICATION_FIELDS = [
     "market_tier",
     "normalized_sector",
     "event_tags",
+    "display_category",
+    "category_tags",
+    "exclude_from_feed",
     "access_limited_reason",
     "is_core_market",
     "is_watchlist_market",
@@ -2622,6 +2625,163 @@ def get_source_reliability_status(article, access_status):
     return "standard"
 
 
+def article_category_text(article):
+    return normalize_keyword_text(" ".join([
+        article.get("title", ""),
+        article.get("source", ""),
+        article.get("url", ""),
+        article.get("summary", ""),
+        article.get("article_text_sample", ""),
+        article.get("matched_keywords", ""),
+        article.get("reason_for_inclusion", ""),
+        article.get("event_tags", ""),
+        article.get("topics", ""),
+    ]))
+
+
+def text_has_any(text, terms):
+    return any(term in text for term in terms)
+
+
+DISPLAY_CATEGORY_ORDER = [
+    "개발/인허가",
+    "거래/투자",
+    "운영/임대",
+    "시장 데이터",
+    "기타",
+]
+
+EXCLUDED_FINANCE_CATEGORY = "제외/금융"
+
+
+def is_finance_excluded_article(article):
+    """Return True when the article is primarily about debt/loan financing."""
+    title_text = normalize_keyword_text(article.get("title", ""))
+    summary_text = normalize_keyword_text(" ".join([
+        article.get("summary", ""),
+        article.get("article_text_sample", ""),
+        article.get("reason_for_inclusion", ""),
+    ]))
+    finance_core_terms = [
+        "construction loan", "bridge loan", "refinancing", "refinance",
+        "agency loan", "fha loan", "mortgage", "acquisition loan",
+        "debt financing", "loan arranged", "arranges loan", "arranged loan",
+        "loan provided", "provides loan", "provided loan", "financing provided",
+        "provides financing", "debt package", "credit facility", "lender",
+        "loan for", "lands loan", "secures loan", "closes loan",
+    ]
+    title_finance_centered = text_has_any(title_text, finance_core_terms)
+    if title_finance_centered:
+        return True
+
+    non_finance_title_terms = [
+        "sale", "sells", "sold", "acquisition", "acquires", "buys", "purchase",
+        "portfolio sale", "joint venture", "jv", "stake", "platform investment",
+        "breaks ground", "groundbreaking", "starts work", "construction start",
+        "opens", "delivers", "development plan", "proposed", "approved",
+        "entitlement", "permit", "zoning", "planning", "site acquisition",
+        "land acquisition", "development site", "project launch",
+    ]
+    title_has_non_finance_core = text_has_any(title_text, non_finance_title_terms)
+    summary_finance_centered = text_has_any(summary_text, finance_core_terms)
+    if summary_finance_centered and not title_has_non_finance_core:
+        return True
+    return False
+
+
+def build_category_tags(article):
+    """Create multi-select Article Feed category tags while preserving event_tags."""
+    if is_finance_excluded_article(article):
+        return EXCLUDED_FINANCE_CATEGORY
+    title_text = normalize_keyword_text(article.get("title", ""))
+    text = article_category_text(article)
+    development_terms = [
+        "develop", "development", "developer", "project", "proposed", "proposal",
+        "planning", "plan", "site plan", "permit", "entitlement", "entitled",
+        "approval", "approved", "zoning", "rezoning", "construction",
+        "construction start", "starts work", "breaks ground", "groundbreak",
+        "under construction", "delivery", "completion", "completed", "opens",
+        "unveiled", "redevelopment", "mixed-use", "mixed use", "apartment tower",
+        "housing community", "affordable housing development", "student housing project",
+        "senior housing project", "btr development", "build-to-rent development",
+        "build to rent development", "to build", "to develop",
+    ]
+    transaction_terms = [
+        "acquisition", "acquire", "acquires", "acquired", "buyer", "buys",
+        "purchase", "sale", "sells", "sold", "disposition", "portfolio sale",
+        "portfolio acquisition", "transaction", "jv", "joint venture",
+        "recapitalization", "recap", "stake", "investment", "invests",
+        "investor", "merger", "platform acquisition",
+    ]
+    finance_terms = [
+        "capital stack", "capital raise", "structured finance",
+    ]
+    operations_terms = [
+        "rent", "rents", "rent growth", "rent prices", "lease", "leasing",
+        "preleasing", "pre-leasing", "occupancy", "vacancy", "absorption",
+        "concession", "concessions", "tenant", "tenants", "stabilized",
+        "operations", "property management", "noi", "covenant",
+        "operating performance", "btr", "build-to-rent", "build to rent",
+    ]
+    market_data_terms = [
+        "market data", "supply", "demand", "absorption rate", "vacancy rate",
+        "absorption", "rent growth", "rent prices", "housing starts",
+        "construction data", "construction spending",
+        "permits data", "starts data", "index", "survey", "forecast", "outlook",
+        "report", "quarter", "first quarter", "quarterly report", "monthly report",
+        "confidence index", "national", "nationwide", "u.s.", "macro",
+    ]
+
+    tag_hits = {
+        "개발/인허가": text_has_any(text, development_terms) or text_has_any(title_text, development_terms),
+        "거래/투자": text_has_any(text, transaction_terms) or text_has_any(title_text, transaction_terms),
+        "금융/대출": text_has_any(text, finance_terms) or text_has_any(title_text, finance_terms),
+        "운영/임대": text_has_any(text, operations_terms) or text_has_any(title_text, operations_terms),
+        "시장 데이터": text_has_any(text, market_data_terms) or text_has_any(title_text, market_data_terms),
+    }
+    tags = [category for category in DISPLAY_CATEGORY_ORDER if tag_hits.get(category)]
+    if not tags:
+        tags = ["기타"]
+    return "; ".join(tags)
+
+
+def build_display_category(article):
+    """Create one short Article Feed category while keeping detailed event_tags."""
+    if is_finance_excluded_article(article):
+        return EXCLUDED_FINANCE_CATEGORY
+    category_tags = article.get("category_tags") or build_category_tags(article)
+    tags = [tag.strip() for tag in str(category_tags).split(";") if tag.strip()]
+    for category in DISPLAY_CATEGORY_ORDER:
+        if category in tags:
+            return category
+    title_text = normalize_keyword_text(article.get("title", ""))
+    text = article_category_text(article)
+    development_terms = [
+        "develop", "development", "project", "proposed", "construction", "starts",
+        "starts work", "breaks ground", "permit", "entitlement", "entitled",
+        "approved", "approval", "redevelopment", "zoning", "planning", "site plan",
+    ]
+    transaction_terms = [
+        "buys", "buy", "acquires", "acquisition", "sells", "sale", "sold",
+        "portfolio acquisition", "portfolio", "joint venture", " jv ",
+        "recapitalization", "recap", "stake", "invests", "investment platform",
+    ]
+    finance_terms = [
+        "capital stack", "capital raise", "structured finance",
+    ]
+    if text_has_any(text, development_terms):
+        return "개발/인허가"
+    if text_has_any(text, transaction_terms):
+        return "거래/투자"
+    if text_has_any(text, finance_terms):
+        return "금융/대출"
+    if text_has_any(text, operations_terms):
+        return "운영/임대"
+    if text_has_any(text, market_data_terms):
+        return "시장 데이터"
+    return "기타"
+
+
 def apply_article_storage_fields(articles):
     """Add PROJECT_CONTEXT article-storage columns while preserving legacy fields."""
     for article in articles:
@@ -2634,6 +2794,9 @@ def apply_article_storage_fields(articles):
         article["market_tier"] = market_tier
         article["normalized_sector"] = normalize_article_sector(article)
         article["event_tags"] = build_event_tags(article)
+        article["category_tags"] = build_category_tags(article)
+        article["display_category"] = build_display_category(article)
+        article["exclude_from_feed"] = "Yes" if article["display_category"] == EXCLUDED_FINANCE_CATEGORY else "No"
         article["access_status"] = access_status
         article["content_access_status"] = access_status
         article["access_limited_reason"] = get_access_limited_reason(article, access_status)
@@ -5041,7 +5204,7 @@ def classify_article_freshness(article, run_date):
         age_days = max(0, (run_date - published_date).days)
         if published_date > run_date + timedelta(days=1):
             bucket = "unknown_date"
-            status = "unknown_date_review"
+            status = "unknown_date"
             reasons.append("published date is in the future or suspicious")
             return {
                 "published_date_normalized": published_date.strftime("%Y-%m-%d"),
@@ -5052,21 +5215,21 @@ def classify_article_freshness(article, run_date):
                 "freshness_reason": "; ".join(reasons),
                 "freshness_penalty": 25,
             }
-        if age_days <= 3:
+        if age_days <= 7:
             bucket = "fresh_0_3d"
-            status = "current"
+            status = "fresh"
             penalty = 0
         elif age_days <= 14:
             bucket = "recent_4_14d"
-            status = "usable_recent"
+            status = "recent"
             penalty = 0
-        elif age_days <= 30:
-            bucket = "stale_15_30d"
-            status = "stale_penalized"
-            penalty = 20
+        elif age_days <= 60:
+            bucket = "old_31d_plus"
+            status = "old"
+            penalty = 50
         else:
             bucket = "old_31d_plus"
-            status = "historical_only"
+            status = "archive"
             penalty = 50
         reasons.append(f"published date parsed; article age {age_days} day(s)")
         return {
@@ -5082,11 +5245,11 @@ def classify_article_freshness(article, run_date):
     collected_is_current = bool(collected_date and (run_date - collected_date).days <= 1)
     trusted_source = str(article.get("source_tier", "")) == "Tier 1" or safe_int(article.get("relevance_score")) >= 70
     if collected_is_current and trusted_source:
-        status = "usable_recent"
+        status = "unknown_date"
         penalty = 15
         reasons.append("published date unavailable; current collection from relatively strong source")
     else:
-        status = "unknown_date_review"
+        status = "unknown_date"
         penalty = 15
         reasons.append("published date could not be parsed")
     return {

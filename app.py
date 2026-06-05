@@ -7,6 +7,7 @@ does not need a database, and does not modify the collector pipeline.
 
 from datetime import datetime
 from difflib import SequenceMatcher
+import html
 from pathlib import Path
 import re
 
@@ -9409,21 +9410,32 @@ def article_feed_rows(shared):
         return df
     rows = df.copy()
     rows["_article_title"] = rows.apply(lambda row: get_title(row.to_dict()), axis=1)
+    rows["_original_order"] = range(len(rows))
+    rows["_published_dt"] = pd.to_datetime(rows.get("published"), errors="coerce", utc=True)
+    rows["_collected_dt"] = pd.to_datetime(rows.get("collected_at"), errors="coerce", utc=True)
+    rows["_title_sort"] = rows["_article_title"].fillna("").astype(str)
+    rows = rows.sort_values(
+        ["_published_dt", "_collected_dt", "_title_sort", "_original_order"],
+        ascending=[False, False, True, True],
+        na_position="last",
+    )
     rows["_article_key"] = rows.apply(
         lambda row: normalized_headline(row["_article_title"]) or str(get_url(row.to_dict())).strip().lower(),
         axis=1,
     )
     rows = rows.drop_duplicates("_article_key", keep="first")
-    rows["_published_sort"] = pd.to_datetime(rows.get("published"), errors="coerce", utc=True)
-    rows["_run_sort"] = pd.to_datetime(rows.get("collected_at"), errors="coerce", utc=True)
-    return rows.sort_values(["_published_sort", "_run_sort"], ascending=[False, False], na_position="last")
+    return rows.sort_values(
+        ["_published_dt", "_collected_dt", "_title_sort", "_original_order"],
+        ascending=[False, False, True, True],
+        na_position="last",
+    )
 
 
 def article_feed_date(row):
     return get_first(row, ["published", "collected_at"], "날짜 미확인")
 
 
-def render_article_feed_item(row):
+def render_article_feed_card_item(row):
     item = row.to_dict() if hasattr(row, "to_dict") else row
     category_label = {
         "market": "시장 기사",
@@ -9557,6 +9569,16 @@ def article_feed_unique_tags(rows):
     return sorted(tags)
 
 
+ARTICLE_FEED_DISPLAY_CATEGORIES = [
+    "시장 데이터",
+    "개발/인허가",
+    "거래/투자",
+    "운영/임대",
+    "기타",
+]
+ARTICLE_FEED_EXCLUDED_FINANCE_CATEGORY = "제외/금융"
+
+
 ARTICLE_FEED_CORE_15_MARKETS = [
     "Los Angeles / Southern California",
     "New York / Northern New Jersey",
@@ -9656,6 +9678,7 @@ def article_feed_market_text(row):
             "source",
             "topics",
             "event_tags",
+            "category_tags",
             "article_text_sample",
             "url",
         ]
@@ -9665,6 +9688,114 @@ def article_feed_market_text(row):
 def article_feed_text_has_any(text, terms):
     padded = f" {text.lower()} "
     return any(term in padded for term in terms)
+
+
+def article_feed_display_category(row):
+    category = article_feed_clean_value(row.get("display_category", ""))
+    if category == ARTICLE_FEED_EXCLUDED_FINANCE_CATEGORY:
+        return category
+    if category in ARTICLE_FEED_DISPLAY_CATEGORIES:
+        return category
+    tags = article_feed_category_tags(row)
+    if tags:
+        return tags[0]
+    return "기타"
+
+
+def article_feed_category_tags(row):
+    raw_tags = article_feed_clean_value(row.get("category_tags", ""))
+    if raw_tags:
+        tags = []
+        for tag in article_feed_split_tags(raw_tags):
+            clean_tag = article_feed_clean_value(tag)
+            if clean_tag == ARTICLE_FEED_EXCLUDED_FINANCE_CATEGORY:
+                return [ARTICLE_FEED_EXCLUDED_FINANCE_CATEGORY]
+            if clean_tag in ARTICLE_FEED_DISPLAY_CATEGORIES and clean_tag not in tags:
+                tags.append(clean_tag)
+        if tags:
+            return [category for category in ARTICLE_FEED_DISPLAY_CATEGORIES if category in tags]
+
+    text = article_feed_market_text(row)
+    title = str(row.get("title", "") or row.get("_article_title", "") or "").lower()
+    development_terms = [
+        "develop", "development", "developer", "project", "proposed", "proposal",
+        "planning", "plan", "site plan", "permit", "entitlement", "entitled",
+        "approval", "approved", "zoning", "rezoning", "construction",
+        "construction start", "starts work", "breaks ground", "groundbreak",
+        "under construction", "delivery", "completion", "completed", "opens",
+        "unveiled", "redevelopment", "mixed-use", "mixed use", "apartment tower",
+        "housing community", "affordable housing development", "student housing project",
+        "senior housing project", "btr development", "build-to-rent development",
+        "build to rent development", "to build", "to develop",
+    ]
+    transaction_terms = [
+        "acquisition", "acquire", "acquires", "acquired", "buyer", "buys",
+        "purchase", "sale", "sells", "sold", "disposition", "portfolio sale",
+        "portfolio acquisition", "transaction", "jv", "joint venture",
+        "recapitalization", "recap", "stake", "investment", "invests",
+        "investor", "merger", "platform acquisition",
+    ]
+    finance_terms = [
+        "capital stack", "capital raise", "structured finance",
+    ]
+    operations_terms = [
+        "rent", "rents", "rent growth", "rent prices", "lease", "leasing",
+        "preleasing", "pre-leasing", "occupancy", "vacancy", "absorption",
+        "concession", "concessions", "tenant", "tenants", "stabilized",
+        "operations", "property management", "noi", "covenant",
+        "operating performance", "btr", "build-to-rent", "build to rent",
+    ]
+    market_data_terms = [
+        "market data", "supply", "demand", "absorption rate", "vacancy rate",
+        "absorption", "rent growth", "rent prices", "housing starts",
+        "construction data", "construction spending",
+        "permits data", "starts data", "index", "survey", "forecast", "outlook",
+        "report", "quarter", "first quarter", "quarterly report", "monthly report",
+        "confidence index", "national", "nationwide", "u.s.", "macro",
+    ]
+    hits = {
+        "개발/인허가": article_feed_text_has_any(title, development_terms) or article_feed_text_has_any(text, development_terms),
+        "거래/투자": article_feed_text_has_any(title, transaction_terms) or article_feed_text_has_any(text, transaction_terms),
+        "운영/임대": article_feed_text_has_any(title, operations_terms) or article_feed_text_has_any(text, operations_terms),
+        "시장 데이터": article_feed_text_has_any(title, market_data_terms) or article_feed_text_has_any(text, market_data_terms),
+    }
+    tags = [category for category in ARTICLE_FEED_DISPLAY_CATEGORIES if hits.get(category)]
+    return tags or ["기타"]
+
+
+def article_feed_is_excluded_finance(row):
+    item = row.to_dict() if hasattr(row, "to_dict") else row
+    if article_feed_clean_value(item.get("exclude_from_feed", "")).lower() == "yes":
+        return True
+    if article_feed_clean_value(item.get("display_category", "")) == ARTICLE_FEED_EXCLUDED_FINANCE_CATEGORY:
+        return True
+    if ARTICLE_FEED_EXCLUDED_FINANCE_CATEGORY in article_feed_category_tags(item):
+        return True
+
+    title = str(item.get("title", "") or item.get("_article_title", "") or "").lower()
+    summary = " ".join(
+        str(item.get(field, "") or "").lower()
+        for field in ["summary", "article_text_sample", "reason_for_inclusion"]
+    )
+    finance_core_terms = [
+        "construction loan", "bridge loan", "refinancing", "refinance",
+        "agency loan", "fha loan", "mortgage", "acquisition loan",
+        "debt financing", "loan arranged", "arranges loan", "arranged loan",
+        "loan provided", "provides loan", "provided loan", "financing provided",
+        "provides financing", "debt package", "credit facility", "lender",
+        "loan for", "lands loan", "secures loan", "closes loan",
+    ]
+    non_finance_title_terms = [
+        "sale", "sells", "sold", "acquisition", "acquires", "buys", "purchase",
+        "portfolio sale", "joint venture", "jv", "stake", "platform investment",
+        "breaks ground", "groundbreaking", "starts work", "construction start",
+        "opens", "delivers", "development plan", "proposed", "approved",
+        "entitlement", "permit", "zoning", "planning", "site acquisition",
+        "land acquisition", "development site", "project launch",
+    ]
+    if article_feed_text_has_any(title, finance_core_terms):
+        return True
+    return article_feed_text_has_any(summary, finance_core_terms) and not article_feed_text_has_any(title, non_finance_title_terms)
 
 
 def article_feed_has_specific_market_hint(row):
@@ -9772,7 +9903,7 @@ def article_feed_is_access_limited(row):
     return str(row.get("access_status", "") or "").strip().lower() == "access_limited"
 
 
-def filter_article_feed_rows(rows, market_group, market, sector, event_tag, include_access_limited):
+def filter_article_feed_rows(rows, market_group, market, sector, display_category, include_access_limited):
     if rows.empty:
         return rows
     filtered = rows.copy()
@@ -9784,8 +9915,8 @@ def filter_article_feed_rows(rows, market_group, market, sector, event_tag, incl
         filtered = filtered[filtered.apply(lambda row: article_feed_display_market(row.to_dict()) == market, axis=1)]
     if sector != "All" and "normalized_sector" in filtered.columns:
         filtered = filtered[filtered["normalized_sector"].fillna("").astype(str) == sector]
-    if event_tag != "All" and "event_tags" in filtered.columns:
-        filtered = filtered[filtered["event_tags"].fillna("").astype(str).apply(lambda value: event_tag in article_feed_split_tags(value))]
+    if display_category != "All":
+        filtered = filtered[filtered.apply(lambda row: display_category in article_feed_category_tags(row.to_dict()), axis=1)]
     return filtered
 
 
@@ -9870,6 +10001,214 @@ def page_article_feed(shared, filters):
         render_article_feed_item(row)
 
 
+def article_feed_card_css():
+    return """
+    <style>
+    .article-feed-card {
+        border: 1px solid rgba(49, 51, 63, 0.14);
+        background: rgba(248, 250, 252, 0.78);
+        border-radius: 8px;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 10px 12px;
+        margin-bottom: 10px;
+    }
+    .article-feed-title {
+        font-weight: 650;
+        font-size: 0.92rem;
+        line-height: 1.3;
+        color: rgb(31, 41, 55);
+        margin-bottom: 5px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .article-feed-meta {
+        color: rgb(90, 99, 112);
+        font-size: 0.79rem;
+        line-height: 1.3;
+        margin: 0 0 2px 0;
+    }
+    .article-feed-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        margin: 5px 0 6px 0;
+        line-height: 1.25;
+    }
+    .article-feed-tag {
+        border: 1px solid rgba(49, 51, 63, 0.12);
+        background: rgba(255, 255, 255, 0.75);
+        border-radius: 999px;
+        padding: 1px 6px;
+        color: rgb(75, 85, 99);
+        font-size: 0.74rem;
+        line-height: 1.25;
+    }
+    .article-feed-access {
+        display: inline-block;
+        border: 1px solid rgba(180, 83, 9, 0.22);
+        background: rgba(255, 247, 237, 0.92);
+        color: rgb(146, 64, 14);
+        border-radius: 999px;
+        padding: 1px 6px;
+        font-size: 0.72rem;
+        line-height: 1.25;
+        margin-top: 5px;
+        white-space: nowrap;
+    }
+    .article-feed-freshness {
+        display: inline-block;
+        border: 1px solid rgba(100, 116, 139, 0.22);
+        background: rgba(241, 245, 249, 0.9);
+        color: rgb(71, 85, 105);
+        border-radius: 999px;
+        padding: 1px 6px;
+        font-size: 0.72rem;
+        line-height: 1.25;
+        margin: 5px 5px 0 0;
+        white-space: nowrap;
+    }
+    .article-feed-link {
+        font-size: 0.8rem;
+        line-height: 1.25;
+        margin-top: 2px;
+    }
+    </style>
+    """
+
+
+def article_feed_clean_value(value, fallback=""):
+    if value is None:
+        return fallback
+    try:
+        if pd.isna(value):
+            return fallback
+    except (TypeError, ValueError):
+        pass
+    clean_value = str(value).strip()
+    if clean_value.lower() in {"", "nan", "none", "null"}:
+        return fallback
+    return clean_value
+
+
+def article_feed_clean_tags(value, limit=3):
+    tags = []
+    for tag in article_feed_split_tags(value):
+        clean_tag = article_feed_clean_value(tag)
+        if clean_tag and clean_tag not in tags:
+            tags.append(clean_tag)
+        if len(tags) >= limit:
+            break
+    return tags
+
+
+def article_feed_card_meta_line(*values):
+    clean_values = [article_feed_clean_value(value) for value in values]
+    clean_values = [value for value in clean_values if value]
+    if not clean_values:
+        return ""
+    return f"<div class=\"article-feed-meta\">{html.escape(' · '.join(clean_values))}</div>"
+
+
+def article_feed_valid_url(value):
+    url = article_feed_clean_value(value)
+    return url if url.startswith(("http://", "https://")) else ""
+
+
+def article_feed_freshness_status(row):
+    item = row.to_dict() if hasattr(row, "to_dict") else row
+    status = article_feed_clean_value(item.get("freshness_status", "")).lower()
+    legacy_status_map = {
+        "current": "fresh",
+        "usable_recent": "fresh",
+        "stale_penalized": "recent",
+        "historical_only": "old",
+        "unknown_date_review": "unknown_date",
+    }
+    status = legacy_status_map.get(status, status)
+    if status in {"fresh", "recent", "old", "archive", "unknown_date"}:
+        return status
+
+    parsed = pd.to_datetime(item.get("published"), errors="coerce", utc=True)
+    if pd.isna(parsed):
+        return "unknown_date"
+    today = pd.Timestamp.now(tz="UTC").normalize()
+    age_days = max(0, int((today - parsed.normalize()).days))
+    if age_days <= 7:
+        return "fresh"
+    if age_days <= 14:
+        return "recent"
+    if age_days <= 60:
+        return "old"
+    return "archive"
+
+
+def filter_article_feed_by_freshness(rows, freshness_filter):
+    if rows.empty:
+        return rows
+    allowed = {
+        "Fresh only": {"fresh"},
+        "Recent 14 days": {"fresh", "recent"},
+        "Include old": {"fresh", "recent", "old"},
+        "Include archive": {"fresh", "recent", "old", "archive", "unknown_date"},
+    }.get(freshness_filter, {"fresh"})
+    return rows[rows.apply(lambda row: article_feed_freshness_status(row.to_dict()) in allowed, axis=1)]
+
+
+def article_feed_category_tag_counts(rows):
+    counts = {category: 0 for category in ARTICLE_FEED_DISPLAY_CATEGORIES}
+    if rows.empty:
+        return counts
+    for _, row in rows.iterrows():
+        for category in article_feed_category_tags(row.to_dict()):
+            counts[category] = counts.get(category, 0) + 1
+    return counts
+
+
+def render_article_feed_card_item(row):
+    item = row.to_dict() if hasattr(row, "to_dict") else row
+    title = article_feed_clean_value(item.get("_article_title") or get_title(item), "Untitled article")
+    source = article_feed_clean_value(get_first(item, ["source", "source_report"], ""))
+    market = article_feed_clean_value(article_feed_display_market(item))
+    sector = article_feed_clean_value(get_first(item, ["normalized_sector", "residential_sector", "residential_sector_focus"], ""))
+    display_category = article_feed_clean_value(article_feed_display_category(item))
+    published = article_feed_clean_value(article_feed_date(item))
+    url = article_feed_valid_url(get_url(item))
+    category_html = (
+        f"<div class='article-feed-tags'><span class='article-feed-tag'>{html.escape(display_category)}</span></div>"
+        if display_category
+        else ""
+    )
+    access_status = article_feed_clean_value(item.get("access_status", ""))
+    access_badge = "<span class='article-feed-access'>접근 제한 가능</span>" if access_status == "access_limited" else ""
+    freshness_status = article_feed_freshness_status(item)
+    freshness_badge = (
+        f"<span class='article-feed-freshness'>{html.escape(freshness_status)}</span>"
+        if freshness_status in {"old", "archive"}
+        else ""
+    )
+    if url:
+        link_html = f"<a href=\"{html.escape(url, quote=True)}\" target=\"_blank\" rel=\"noopener noreferrer\">원문 보기</a>"
+    else:
+        link_html = "<span>원문 링크 없음</span>"
+    source_date_html = article_feed_card_meta_line(source, published)
+    market_sector_html = article_feed_card_meta_line(market, sector)
+    card_html = (
+        "<div class=\"article-feed-card\">"
+        f"<div class=\"article-feed-title\">{html.escape(str(title or '제목 미확인'))}</div>"
+        f"{source_date_html}"
+        f"{market_sector_html}"
+        f"{category_html}"
+        f"<div class=\"article-feed-link\">{link_html}</div>"
+        f"{freshness_badge}"
+        f"{access_badge}"
+        "</div>"
+    )
+    st.markdown(card_html, unsafe_allow_html=True)
+
+
 def render_article_feed_item(row):
     item = row.to_dict() if hasattr(row, "to_dict") else row
     title = item.get("_article_title") or get_title(item)
@@ -9891,59 +10230,159 @@ def render_article_feed_item(row):
             st.markdown(f"[원문 보기]({url})")
 
 
+def render_article_feed_cards(rows):
+    if rows.empty:
+        return
+    st.markdown(article_feed_card_css(), unsafe_allow_html=True)
+    row_items = list(rows.iterrows())
+    for start in range(0, len(row_items), 2):
+        cols = st.columns(2)
+        for offset, (_, row) in enumerate(row_items[start:start + 2]):
+            with cols[offset]:
+                render_article_feed_card_item(row)
+
+
+def article_feed_rerun():
+    rerun = getattr(st, "rerun", None) or getattr(st, "experimental_rerun", None)
+    if rerun:
+        rerun()
+
+
 def page_article_feed(shared, filters):
+    st.markdown("<div id='article-feed-top'></div>", unsafe_allow_html=True)
     st.title("기사 모음 / Article Feed")
-    st.caption("수집된 주요 주거시장 뉴스를 시장, 섹터, 이벤트 태그별로 확인합니다.")
     rows = article_feed_rows(shared)
     if rows.empty:
         missing_file_message(FILES["articles"])
         return
 
     total_articles = len(rows)
+    excluded_finance_count = int(rows.apply(lambda row: article_feed_is_excluded_finance(row.to_dict()), axis=1).sum())
+    rows = rows[~rows.apply(lambda row: article_feed_is_excluded_finance(row.to_dict()), axis=1)].copy()
     core_count = int(rows.apply(lambda row: article_feed_market_group(row.to_dict()) == "Core 15", axis=1).sum())
     watchlist_count = int(rows.apply(lambda row: article_feed_market_group(row.to_dict()) == "Watchlist 8", axis=1).sum())
     access_limited_count = int(rows.apply(lambda row: article_feed_is_access_limited(row.to_dict()), axis=1).sum())
-    cols = st.columns(4)
-    metrics = [
-        ("전체 기사 수", total_articles),
-        ("Core 15 기사 수", core_count),
-        ("Watchlist 8 기사 수", watchlist_count),
-        ("Access-limited 기사 수", access_limited_count),
-    ]
-    for col, (label, value) in zip(cols, metrics):
-        with col:
-            render_compact_metric(label, value)
 
-    filter_cols = st.columns([1, 1.3, 1.2, 1.4, 1])
+    freshness_counts = rows.apply(lambda row: article_feed_freshness_status(row.to_dict()), axis=1).value_counts()
+    fresh_count = int(freshness_counts.get("fresh", 0))
+    recent_14d_count = int(fresh_count + freshness_counts.get("recent", 0))
+    old_count = int(freshness_counts.get("old", 0))
+    archive_count = int(freshness_counts.get("archive", 0))
+    unknown_date_count = int(freshness_counts.get("unknown_date", 0))
+
+    filter_cols = st.columns([0.9, 1.15, 0.95, 1.55, 1, 1, 1])
     with filter_cols[0]:
-        market_group = st.selectbox("시장 그룹", ["All", "Core 15", "Watchlist 8", "Other"], key="article_feed_market_group")
+        market_group = st.selectbox("지역", ["All", "Core 15", "Watchlist 8", "Other"], key="article_feed_market_group")
     with filter_cols[1]:
-        market = st.selectbox("시장", article_feed_market_options(rows, market_group), key="article_feed_market")
+        market = st.selectbox("Market", article_feed_market_options(rows, market_group), key="article_feed_market")
     with filter_cols[2]:
         sector = st.selectbox("섹터", ["All", *article_feed_unique_values(rows, "normalized_sector")], key="article_feed_sector")
     with filter_cols[3]:
-        event_tag = st.selectbox("이벤트 태그", ["All", *article_feed_unique_tags(rows)], key="article_feed_event_tag")
+        display_category = st.selectbox("분류", ["All", *ARTICLE_FEED_DISPLAY_CATEGORIES], key="article_feed_display_category")
     with filter_cols[4]:
+        freshness_filter = st.selectbox(
+            "Freshness",
+            ["Fresh only", "Recent 14 days", "Include old", "Include archive"],
+            index=0,
+            key="article_feed_freshness_filter",
+        )
+    with filter_cols[5]:
         include_access_limited = st.checkbox("접근 제한 기사 포함", value=False, key="article_feed_include_access_limited")
+    with filter_cols[6]:
+        display_limit_label = st.selectbox(
+            "페이지당 표시",
+            ["20개", "40개", "전체 보기"],
+            index=0,
+            key="article_feed_display_limit",
+        )
 
     filtered_rows = filter_article_feed_rows(
         rows,
         market_group,
         market,
         sector,
-        event_tag,
+        display_category,
         include_access_limited,
     )
-    st.caption(f"표시 기사 수: {len(filtered_rows)}")
+    filtered_rows = filter_article_feed_by_freshness(filtered_rows, freshness_filter)
+    matching_count = len(filtered_rows)
+    if display_limit_label == "전체 보기":
+        display_rows = filtered_rows
+        page_start = 1 if matching_count else 0
+        page_end = matching_count
+        page_range_label = f"{page_start}~{page_end}" if matching_count else "0"
+        total_pages = 1
+        current_page = 1
+    else:
+        page_size = int(display_limit_label.replace("개", ""))
+        total_pages = max(1, (matching_count + page_size - 1) // page_size)
+        page_options = [f"{page}페이지" for page in range(1, total_pages + 1)]
+        current_page = int(st.session_state.get("article_feed_current_page", 1) or 1)
+        current_page = max(1, min(current_page, total_pages))
+        st.session_state["article_feed_current_page"] = current_page
+        page_start = ((current_page - 1) * page_size) + 1 if matching_count else 0
+        page_end = min(current_page * page_size, matching_count)
+        display_rows = filtered_rows.iloc[page_start - 1:page_end] if matching_count else filtered_rows.head(0)
+        page_range_label = f"{page_start}~{page_end}" if matching_count else "0"
+
+    result_text = f"조건 일치 기사 {matching_count}개"
+    if matching_count:
+        result_text += f" · 현재 {page_range_label} 표시"
+    st.caption(result_text)
+
+    with st.expander("수집 현황 보기", expanded=False):
+        cols = st.columns(3)
+        metrics = [
+            ("전체 수집", total_articles),
+            ("Fresh", fresh_count),
+            ("Recent 14d", recent_14d_count),
+            ("Old", old_count),
+            ("Archive", archive_count),
+            ("Unknown date", unknown_date_count),
+            ("Core 15", core_count),
+            ("Watchlist 8", watchlist_count),
+            ("Access-limited", access_limited_count),
+            ("제외 금융/대출", excluded_finance_count),
+        ]
+        for index, (label, value) in enumerate(metrics):
+            with cols[index % len(cols)]:
+                render_compact_metric(label, value)
+        category_counts = article_feed_category_tag_counts(rows)
+        st.caption("분류별 태그 수는 복수 태그 기준이므로 전체 기사 수와 합계가 다를 수 있습니다.")
+        st.markdown("**분류별 태그 수**")
+        for category in ARTICLE_FEED_DISPLAY_CATEGORIES:
+            st.markdown(f"- {category}: {int(category_counts.get(category, 0))}")
+
     if filtered_rows.empty:
         st.caption("조건에 맞는 기사가 없습니다.")
+        st.markdown("[맨 위로 이동](#article-feed-top)")
         return
-    for _, row in filtered_rows.iterrows():
-        render_article_feed_item(row)
+    render_article_feed_cards(display_rows)
+    if display_limit_label != "전체 보기" and total_pages > 1:
+        page_options = [f"{page}페이지" for page in range(1, total_pages + 1)]
+        nav_cols = st.columns([1.3, 4])
+        with nav_cols[0]:
+            selected_page = st.selectbox(
+                "페이지",
+                page_options,
+                index=current_page - 1,
+                key="article_feed_page",
+            )
+            selected_page_number = page_options.index(selected_page) + 1
+            if selected_page_number != current_page:
+                st.session_state["article_feed_current_page"] = selected_page_number
+                article_feed_rerun()
+        st.caption(f"현재 {page_range_label} / {matching_count}개")
+    elif matching_count:
+        st.caption(f"현재 {page_range_label} / {matching_count}개")
+    st.markdown("[맨 위로 이동](#article-feed-top)")
 
 
 def market_dashboard_rows(shared):
-    return article_feed_rows(shared)
+    rows = article_feed_rows(shared)
+    if rows.empty:
+        return rows
+    return rows[~rows.apply(lambda row: article_feed_is_excluded_finance(row.to_dict()), axis=1)].copy()
 
 
 def article_market_order():
@@ -11025,7 +11464,7 @@ def inject_css():
             --line: #d7dde6;
             --panel: #ffffff;
         }
-        .block-container { padding-top: 1rem; padding-bottom: 2.2rem; max-width: 1140px; }
+        .block-container { padding-top: 1.1rem; padding-bottom: 2.2rem; max-width: 1140px; }
         section[data-testid="stSidebar"] { width: 16.5rem !important; border-right: 1px solid #e2e8f0; }
         section[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p { font-size: 0.86rem; line-height: 1.35; }
         h1 { font-size: 1.7rem !important; letter-spacing: 0; margin: 0.25rem 0 0.65rem 0 !important; color: var(--ink); }
@@ -11562,7 +12001,7 @@ def inject_css():
             --line: #d7dde6;
             --panel: #ffffff;
         }
-        .block-container { padding-top: 1rem; padding-bottom: 2.2rem; max-width: 1140px; }
+        .block-container { padding-top: 1.1rem; padding-bottom: 2.2rem; max-width: 1140px; }
         section[data-testid="stSidebar"] { width: 16.5rem !important; border-right: 1px solid #e2e8f0; }
         section[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p { font-size: 0.86rem; line-height: 1.35; }
         h1 { font-size: 1.7rem !important; letter-spacing: 0; margin: 0.25rem 0 0.65rem 0 !important; color: var(--ink); }
@@ -11582,7 +12021,8 @@ def inject_css():
             background: var(--panel);
             box-shadow: 0 1px 0 rgba(15, 23, 42, 0.03);
         }
-        .workstation-card, .pilot-panel { padding: 0.95rem 1rem; margin: 0.6rem 0 0.9rem 0; }
+        .workstation-card, .pilot-panel { padding: 0.95rem 1rem; margin: 1rem 0 0.9rem 0; }
+        .workstation-card:first-of-type { margin-top: 1rem; padding: 1rem 1.05rem; }
         .pilot-card { padding: 0.72rem 0.85rem; margin: 0.55rem 0 0.75rem 0; }
         .pilot-section { border-top: 1px solid #dfe5ec; padding-top: 0.95rem; margin-top: 1.15rem; }
         .section-kicker {
@@ -11663,10 +12103,11 @@ def inject_css():
             line-height: 1.45;
         }
         @media (max-width: 760px) {
-            .block-container { padding-left: 0.72rem; padding-right: 0.72rem; padding-top: 0.65rem; }
+            .block-container { padding-left: 0.72rem; padding-right: 0.72rem; padding-top: 1.2rem; }
             h1 { font-size: 1.32rem !important; }
             h3 { font-size: 1rem !important; margin-top: 1rem !important; }
-            .workstation-card, .pilot-panel, .desk-hero, .hot-market-card { padding: 0.78rem 0.82rem; }
+            .workstation-card, .pilot-panel, .desk-hero, .hot-market-card { padding: 0.86rem 0.88rem; }
+            .workstation-card:first-of-type { margin-top: 1.75rem; padding: 0.95rem 0.9rem; }
             .pilot-card { padding: 0.65rem 0.72rem; }
             .signal-title { font-size: 0.95rem; }
             .desk-hero-title { font-size: 1.28rem; line-height: 1.23; }
@@ -11937,7 +12378,7 @@ def inject_css():
             --line: #d7dde6;
             --panel: #ffffff;
         }
-        .block-container { padding-top: 1rem; padding-bottom: 2.2rem; max-width: 1140px; }
+        .block-container { padding-top: 1.1rem; padding-bottom: 2.2rem; max-width: 1140px; }
         section[data-testid="stSidebar"] { width: 16.5rem !important; border-right: 1px solid #e2e8f0; }
         section[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p { font-size: 0.86rem; line-height: 1.35; }
         h1 { font-size: 1.7rem !important; letter-spacing: 0; margin: 0.25rem 0 0.65rem 0 !important; color: var(--ink); }
@@ -11957,7 +12398,8 @@ def inject_css():
             background: var(--panel);
             box-shadow: 0 1px 0 rgba(15, 23, 42, 0.03);
         }
-        .workstation-card, .pilot-panel { padding: 0.95rem 1rem; margin: 0.6rem 0 0.9rem 0; }
+        .workstation-card, .pilot-panel { padding: 0.95rem 1rem; margin: 1rem 0 0.9rem 0; }
+        .workstation-card:first-of-type { margin-top: 1rem; padding: 1rem 1.05rem; }
         .pilot-card { padding: 0.72rem 0.85rem; margin: 0.55rem 0 0.75rem 0; }
         .pilot-section { border-top: 1px solid #dfe5ec; padding-top: 0.95rem; margin-top: 1.15rem; }
         .section-kicker {
@@ -12047,10 +12489,11 @@ def inject_css():
             line-height: 1.45;
         }
         @media (max-width: 760px) {
-            .block-container { padding-left: 0.72rem; padding-right: 0.72rem; padding-top: 0.65rem; }
+            .block-container { padding-left: 0.72rem; padding-right: 0.72rem; padding-top: 1.2rem; }
             h1 { font-size: 1.32rem !important; }
             h3 { font-size: 1rem !important; margin-top: 1rem !important; }
-            .workstation-card, .pilot-panel, .desk-hero, .hot-market-card { padding: 0.78rem 0.82rem; }
+            .workstation-card, .pilot-panel, .desk-hero, .hot-market-card { padding: 0.86rem 0.88rem; }
+            .workstation-card:first-of-type { margin-top: 1.75rem; padding: 0.95rem 0.9rem; }
             .pilot-card { padding: 0.65rem 0.72rem; }
             .signal-title, .header-title-line { font-size: 0.96rem; }
             .desk-hero-title { font-size: 1.22rem; line-height: 1.26; }

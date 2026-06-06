@@ -1,8 +1,8 @@
 # Opportunity Radar Report
 
-Generated: 2026-06-06 08:19:22
+Generated: 2026-06-06 23:03:41
 
-- Total opportunities detected: 53
+- Total opportunities detected: 54
 
 ## Top 10 Opportunities
 
@@ -12,10 +12,10 @@ Generated: 2026-06-06 08:19:22
 - LA / California Entitlement Opportunity in California: General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project, score 88. Add to executive opportunity review.
 - Recapitalization Opportunity in California: Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties, score 88. Add to executive opportunity review.
 - Refinancing Gap in Florida: Refinancing - Florida - Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio, score 88. Add to executive opportunity review.
-- Construction Financing Gap in Phoenix / Arizona: Construction Financing - Phoenix / Arizona - Scottsdale Developer The Hampton Group Secures $141M Construction Loan for Luxury Apartmen..., score 87. Add to executive opportunity review.
 - LA / California Entitlement Opportunity in California: Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale, score 86. Add to executive opportunity review.
 - Construction Financing Gap in Miami / Florida: Construction Financing - Miami / Florida - MG Developer and Vertical Developments Secure $100M Construction Loan for Alhambra Par, score 85. Add to executive opportunity review.
-- Construction Financing Gap in Other / Unknown: Construction Financing - Other / Unknown - The Piñon at Cerrillos Multifamily Community in New Mexico Secures Construction Financing, score 83. Add to executive opportunity review.
+- GP Capability Partnership Opportunity in Los Angeles / California: Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester, score 83. Add to executive opportunity review.
+- GP Capability Partnership Opportunity in Los Angeles / California: Disposition / Exit - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles, score 81. Add to executive opportunity review.
 
 ## LA / California Opportunities
 
@@ -30,7 +30,7 @@ Generated: 2026-06-06 08:19:22
 
 - Recapitalization Opportunity in California: Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties, score 88. Add to executive opportunity review.
 - Acquisition Opportunity in Houston / Texas: Acquisition - Houston / Texas - Berkadia Brokers Sale of 186-Unit Seniors Housing Property Near Houston, score 79. Research owner, basis, pricing, and transaction history.
-- Acquisition Opportunity in Other / Unknown: Acquisition - Other / Unknown - Marcus & Millichap Brokers Sale of 128-Unit Rock Run Residences in Joliet, Illinois, score 70. Research owner, basis, pricing, and transaction history.
+- Acquisition Opportunity in Other / Unknown: Acquisition - Other / Unknown - Marcus & Millichap Brokers Sale of 128-Unit Rock Run Residences in Joliet, Illinois, score 72. Research owner, basis, pricing, and transaction history.
 - Acquisition Opportunity in Los Angeles / California: Acquisition - Los Angeles / California - Advanced Real Estate Acquires, Rebrands Rowland Heights Apartments, score 58. Research owner, basis, pricing, and transaction history.
 - Acquisition Opportunity in New York City / New York: Acquisition - New York City / New York - Jonathan Rose Cos. Buys Upper Manhattan Affordable Housing Building for $53M, score 58. Research owner, basis, pricing, and transaction history.
 - Acquisition Opportunity in Miami / Florida: Acquisition - Miami / Florida - Miami Apartments Trade for $109.9M, score 57. Research owner, basis, pricing, and transaction history.
@@ -68,10 +68,13 @@ Generated: 2026-06-06 08:19:22
 ## Potential GP Partnership Opportunities
 
 - GP Capability Partnership Opportunity in Los Angeles / California: Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester, score 83. Add to executive opportunity review.
+- GP Capability Partnership Opportunity in Los Angeles / California: Disposition / Exit - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles, score 81. Add to executive opportunity review.
+- GP Capability Partnership Opportunity in Los Angeles / California: General Project Signal - Los Angeles / California - $123M Financing Arranged by Marcus & Millichap’s IPA Capital Markets for Bay Area Multifam..., score 80. Add to executive opportunity review.
+- JV / Partnership Gap in Houston / Texas: JV / Partnership - Houston / Texas - Longacre Acquires 541-Unit Houston Multifamily Community Scaling Joint Venture’s 17 State..., score 80. Add to executive opportunity review.
 - GP Capability Partnership Opportunity in Miami / Florida: General Project Signal - Miami / Florida - Greystar Eyeing 896 Doral Apartment Units, score 78. Map GP, capital partner, and relationship history.
-- JV / Partnership Gap in Houston / Texas: JV / Partnership - Houston / Texas - Longacre Acquires 541-Unit Houston Multifamily Community Scaling Joint Venture’s 17 State..., score 78. Map GP, capital partner, and relationship history.
 - JV / Partnership Gap in Texas: JV / Partnership - Texas - JV Closes On 1,128-Bed Texas A&M Housing Deal, score 75. Map GP, capital partner, and relationship history.
-- GP Capability Partnership Opportunity in Other / Unknown: Disposition / Exit - Other / Unknown - Marcus & Millichap Brokers Sale of 160-Unit Multifamily Property in Wisconsin, score 72. Map GP, capital partner, and relationship history.
+- GP Capability Partnership Opportunity in Other / Unknown: Disposition / Exit - Other / Unknown - Marcus & Millichap Brokers Sale of 160-Unit Multifamily Property in Wisconsin, score 74. Map GP, capital partner, and relationship history.
+- JV / Partnership Gap in Riverside / California: JV / Partnership - Riverside / California - Residential Multifamily Community Trades for $355k Per-Unit in Riverside California, score 58. Map GP, capital partner, and relationship history.
 
 ## Timing / Market Entry Window Summary
 
@@ -106,8 +109,8 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 ## Development Lifecycle Intelligence Summary
 
 - Lifecycle records: 80
-- LA lifecycle watch items: 50
-- Stage mix: Refinancing / Recapitalization: 13, Delivery / Opening: 9, Unknown Stage: 39, Site Acquisition / Site Control: 11, Building Permit / Construction Permit: 1
+- LA lifecycle watch items: 54
+- Stage mix: Refinancing / Recapitalization: 11, Delivery / Opening: 9, Unknown Stage: 39, Site Acquisition / Site Control: 12, Building Permit / Construction Permit: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -116,10 +119,10 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 80
-- Newly detected projects: 0
+- Newly detected projects: 5
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 49
+- LA lifecycle transition watch items: 53
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -127,11 +130,11 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 654
-- Canonical projects: 173
-- Duplicate project clusters: 121
-- Persistent assets tracked: 173
-- LA persistent asset watch items: 114
+- Raw project references: 662
+- Canonical projects: 176
+- Duplicate project clusters: 122
+- Persistent assets tracked: 176
+- LA persistent asset watch items: 124
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -139,10 +142,10 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 173
-- Institutional-grade signals: 15
-- High-confidence signals: 40
-- Weak/noisy signals: 105
-- High-confidence watchlist items: 40
+- Signals evaluated: 176
+- Institutional-grade signals: 16
+- High-confidence signals: 42
+- Weak/noisy signals: 108
+- High-confidence watchlist items: 42
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

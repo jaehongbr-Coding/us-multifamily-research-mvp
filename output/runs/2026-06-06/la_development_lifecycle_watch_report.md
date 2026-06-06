@@ -1,16 +1,16 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-06-06 08:19:25
+Generated: 2026-06-06 23:03:44
 
-- Total LA lifecycle watch items: 50
+- Total LA lifecycle watch items: 54
 
 ## LA Lifecycle Stage Distribution
 
-- Unknown Stage: 20
-- Site Acquisition / Site Control: 10
+- Unknown Stage: 22
+- Site Acquisition / Site Control: 11
 - Refinancing / Recapitalization: 8
 - Delivery / Opening: 5
-- Early Site Signal: 3
+- Early Site Signal: 4
 - Entitlement Under Review: 2
 - Building Permit / Construction Permit: 1
 - Community Review: 1
@@ -60,18 +60,18 @@ Generated: 2026-06-06 08:19:25
 - Monitor lifecycle status for repeated confirmation: Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson.
 - Monitor lifecycle status for repeated confirmation: JV / Partnership - Houston / Texas - Longacre Acquires 541-Unit Houston Multifamily Community Scaling Joint Venture’s 17 State....
 - Monitor permit status, financing, and construction-start readiness: 19-story high-rise starts work at 6055 Center Drive in Westchester.
+- Monitor lifecycle status for repeated confirmation: Disposition / Exit - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles.
 - Monitor lifecycle status for repeated confirmation: Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester.
-- Monitor lifecycle status for repeated confirmation: Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson.
 
 
 
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 80
-- Newly detected projects: 0
+- Newly detected projects: 5
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 49
+- LA lifecycle transition watch items: 53
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -79,10 +79,10 @@ Generated: 2026-06-06 08:19:25
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 654
-- Canonical projects: 173
-- Duplicate project clusters: 121
-- Persistent assets tracked: 173
-- LA persistent asset watch items: 114
+- Raw project references: 662
+- Canonical projects: 176
+- Duplicate project clusters: 122
+- Persistent assets tracked: 176
+- LA persistent asset watch items: 124
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

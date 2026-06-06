@@ -1,22 +1,22 @@
 # Deal & Project Pipeline Report
 
-Generated: 2026-06-06 08:19:19
+Generated: 2026-06-06 23:03:38
 
-- Total deal/project signals found: 55
-- High deal intelligence count: 6
+- Total deal/project signals found: 56
+- High deal intelligence count: 5
 
 ## Top 10 Deal / Project Signals
 
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Construction Financing, California, score 93. Capital market signal.
 - Refinancing - Florida - Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio: Refinancing, Florida, score 93. Capital market signal.
 - Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Disposition / Exit, Los Angeles / California, score 91. Underwriting benchmark.
-- Construction Financing - Phoenix / Arizona - Scottsdale Developer The Hampton Group Secures $141M Construction Loan for Luxury Apartmen...: Construction Financing, Phoenix / Arizona, score 85. Capital market signal.
 - Refinancing - New York City / New York - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi: Refinancing, New York City / New York, score 85. Capital market signal.
 - Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester: Disposition / Exit, Los Angeles / California, score 83. Underwriting benchmark.
 - Construction Financing - Miami / Florida - MG Developer and Vertical Developments Secure $100M Construction Loan for Alhambra Par: Construction Financing, Miami / Florida, score 79. Capital market signal.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: General Project Signal, California, score 78. Capital market signal.
 - Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Disposition / Exit, California, score 74. Entitlement / zoning watch.
 - Development Start - California - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach: Development Start, California, score 73. Pipeline / supply signal.
+- Disposition / Exit - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles: Disposition / Exit, Los Angeles / California, score 73. Capital market signal.
 
 ## California / LA Deal Watch
 
@@ -26,32 +26,32 @@ Generated: 2026-06-06 08:19:19
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: General Project Signal, California, score 78. Capital market signal.
 - Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Disposition / Exit, California, score 74. Entitlement / zoning watch.
 - Development Start - California - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach: Development Start, California, score 73. Pipeline / supply signal.
+- Disposition / Exit - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles: Disposition / Exit, Los Angeles / California, score 73. Capital market signal.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Recapitalization, California, score 69. Capital market signal.
 - Construction Financing - Los Angeles / California - Slatt Capital Arranges $27M Construction Loan for San Gabriel Mixed-Use: Construction Financing, Los Angeles / California, score 65. Capital market signal.
 - Entitlement / Permitting - Los Angeles / California - 85 apartments proposed at 15242 W. Parthenia St. in North Hills: Entitlement / Permitting, Los Angeles / California, score 65. Entitlement / zoning watch.
-- Entitlement / Permitting - Los Angeles / California - Affordable housing proposed for 23022 W. Ventura Blvd. in Woodland Hills: Entitlement / Permitting, Los Angeles / California, score 65. Entitlement / zoning watch.
 
 ## GP / Developer Activity
 
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Construction Financing, California, score 93. Capital market signal.
 - Refinancing - Florida - Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio: Refinancing, Florida, score 93. Capital market signal.
 - Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Disposition / Exit, Los Angeles / California, score 91. Underwriting benchmark.
-- Construction Financing - Phoenix / Arizona - Scottsdale Developer The Hampton Group Secures $141M Construction Loan for Luxury Apartmen...: Construction Financing, Phoenix / Arizona, score 85. Capital market signal.
 - Refinancing - New York City / New York - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi: Refinancing, New York City / New York, score 85. Capital market signal.
 - Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester: Disposition / Exit, Los Angeles / California, score 83. Underwriting benchmark.
 - Construction Financing - Miami / Florida - MG Developer and Vertical Developments Secure $100M Construction Loan for Alhambra Par: Construction Financing, Miami / Florida, score 79. Capital market signal.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: General Project Signal, California, score 78. Capital market signal.
 - Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Disposition / Exit, California, score 74. Entitlement / zoning watch.
+- Disposition / Exit - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles: Disposition / Exit, Los Angeles / California, score 73. Capital market signal.
 - JV / Partnership - Texas - JV Closes On 1,128-Bed Texas A&M Housing Deal: JV / Partnership, Texas, score 69. GP partnership reference.
 
 ## Financing / Refinancing Signals
 
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Construction Financing, California, score 93. Capital market signal.
 - Refinancing - Florida - Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio: Refinancing, Florida, score 93. Capital market signal.
-- Construction Financing - Phoenix / Arizona - Scottsdale Developer The Hampton Group Secures $141M Construction Loan for Luxury Apartmen...: Construction Financing, Phoenix / Arizona, score 85. Capital market signal.
 - Refinancing - New York City / New York - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi: Refinancing, New York City / New York, score 85. Capital market signal.
 - Construction Financing - Miami / Florida - MG Developer and Vertical Developments Secure $100M Construction Loan for Alhambra Par: Construction Financing, Miami / Florida, score 79. Capital market signal.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: General Project Signal, California, score 78. Capital market signal.
+- Disposition / Exit - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles: Disposition / Exit, Los Angeles / California, score 73. Capital market signal.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Recapitalization, California, score 69. Capital market signal.
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Construction Financing, Miami / Florida, score 65. Capital market signal.
 - Construction Financing - Austin / Texas - Dwight Capital Lends $66M of HUD Debt on Texas Luxury Apartments Project: Construction Financing, Austin / Texas, score 65. Capital market signal.
@@ -84,10 +84,10 @@ Generated: 2026-06-06 08:19:19
 
 - Apartment: 25 deal/project signal(s)
 - Affordable Housing: 10 deal/project signal(s)
-- Multifamily: 7 deal/project signal(s)
+- Multifamily: 9 deal/project signal(s)
 - Mixed-Use Residential: 4 deal/project signal(s)
-- General Residential: 3 deal/project signal(s)
 - Senior Housing: 2 deal/project signal(s)
+- General Residential: 2 deal/project signal(s)
 - Student Housing: 2 deal/project signal(s)
 - BTR / Single-Family Rental: 1 deal/project signal(s)
 - Office-to-Residential Conversion: 1 deal/project signal(s)
@@ -119,8 +119,8 @@ Developer, lender, capital partner, market, and deal edges are available in `rel
 - Capital market signal: read `JLL Lines Up $144M Construction Loan for Santa Ana Multifamily` from Connect CRE Orange County. Canonical market: California.
 - Capital market signal: read `Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio` from REBusiness Online. Canonical market: Florida.
 - Underwriting benchmark: read `Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson` from Urbanize LA. Canonical market: Los Angeles.
-- Capital market signal: read `Scottsdale Developer The Hampton Group Secures $141M Construction Loan for Luxury Apartments IKONIC` from Yield PRO. Canonical market: Sun Belt.
 - Capital market signal: read `JLL Real Estate Capital Provides $70M for West Village Multifamily Refi` from Commercial Observer. Canonical market: New York.
 - Underwriting benchmark: read `19-story high-rise starts work at 6055 Center Drive in Westchester` from Urbanize LA. Canonical market: Los Angeles.
 - Capital market signal: read `MG Developer and Vertical Developments Secure $100M Construction Loan for Alhambra Par` from Yield PRO. Canonical market: Sun Belt.
 - Capital market signal: read `JLL Arranges $252M Financing for Huntington Beach Seniors Project` from Connect CRE Orange County. Canonical market: California.
+- Entitlement / zoning watch: read `Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale` from Connect CRE Orange County. Canonical market: California.

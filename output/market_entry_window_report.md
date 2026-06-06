@@ -1,14 +1,14 @@
 # Market Entry Window Report
 
-Generated: 2026-06-06 08:19:22
+Generated: 2026-06-06 23:03:41
 
 ## Top Market Entry Windows
 
 - California: score 88, Active Watch Window, posture: Actively source opportunities.
 - Florida: score 79, Selective Entry Window, posture: Monitor refinancing and distress pipeline.
-- National / Other: score 65, Selective Entry Window, posture: Monitor refinancing and distress pipeline.
+- National / Other: score 63, Early Signal / Prepare, posture: Monitor refinancing and distress pipeline.
 - New York: score 54, Early Signal / Prepare, posture: Prepare GP conversations.
-- Texas: score 42, Monitor Only, posture: Prepare GP conversations.
+- Texas: score 43, Monitor Only, posture: Prepare GP conversations.
 - Los Angeles: score 33, Monitor Only, posture: Prepare GP conversations.
 - Sun Belt: score 29, Not Attractive Now, posture: Monitor only.
 - Seattle: score 28, Not Attractive Now, posture: Monitor only.
@@ -21,7 +21,7 @@ Generated: 2026-06-06 08:19:22
 ## Sun Belt Entry Window
 
 - Florida: score 79, Selective Entry Window, posture: Monitor refinancing and distress pipeline.
-- Texas: score 42, Monitor Only, posture: Prepare GP conversations.
+- Texas: score 43, Monitor Only, posture: Prepare GP conversations.
 - Sun Belt: score 29, Not Attractive Now, posture: Monitor only.
 
 ## New York / Refinancing Stress Window
@@ -42,7 +42,7 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 
 - California: Actively source opportunities (Active Watch Window).
 - Florida: Monitor refinancing and distress pipeline (Selective Entry Window).
-- National / Other: Monitor refinancing and distress pipeline (Selective Entry Window).
+- National / Other: Monitor refinancing and distress pipeline (Early Signal / Prepare).
 - New York: Prepare GP conversations (Early Signal / Prepare).
 - Texas: Prepare GP conversations (Monitor Only).
 - Los Angeles: Prepare GP conversations (Monitor Only).
@@ -66,8 +66,8 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 ## Development Lifecycle Intelligence Summary
 
 - Lifecycle records: 80
-- LA lifecycle watch items: 50
-- Stage mix: Refinancing / Recapitalization: 13, Delivery / Opening: 9, Unknown Stage: 39, Site Acquisition / Site Control: 11, Building Permit / Construction Permit: 1
+- LA lifecycle watch items: 54
+- Stage mix: Refinancing / Recapitalization: 11, Delivery / Opening: 9, Unknown Stage: 39, Site Acquisition / Site Control: 12, Building Permit / Construction Permit: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -76,9 +76,9 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 80
-- Newly detected projects: 0
+- Newly detected projects: 5
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 49
+- LA lifecycle transition watch items: 53
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 

@@ -1,8 +1,8 @@
 # LA / Southern California Submarket Watch Report
 
-Generated: 2026-06-06 08:19:22
+Generated: 2026-06-06 23:03:41
 
-- Total LA / Southern California submarkets detected: 7
+- Total LA / Southern California submarkets detected: 8
 
 ## Top LA / Southern California Submarkets
 
@@ -11,6 +11,7 @@ Generated: 2026-06-06 08:19:22
 - Glendale: opportunity 75, risk 65, Monitor only.
 - Santa Ana: opportunity 74, risk 59, Orange County suburban apartment watch.
 - Long Beach: opportunity 63, risk 30, Long Beach mixed-use residential watch.
+- Riverside: opportunity 55, risk 30, Inland Empire BTR / rental housing watch.
 - California: opportunity 32, risk 20, Monitor only.
 - Orange County: opportunity 12, risk 30, Orange County suburban apartment watch.
 
@@ -41,7 +42,7 @@ Generated: 2026-06-06 08:19:22
 
 ## Inland Empire / BTR Watch
 
-- None detected.
+- Riverside: opportunity 55, risk 30, Inland Empire BTR / rental housing watch.
 
 ## LA Density Bonus / TOC Watch
 
@@ -59,6 +60,7 @@ Generated: 2026-06-06 08:19:22
 - Track local planning docket and entitlement precedent: Glendale / Monitor only.
 - Review potential acquisition pipeline: Santa Ana / Orange County suburban apartment watch.
 - Review potential acquisition pipeline: Long Beach / Long Beach mixed-use residential watch.
+- Review potential acquisition pipeline: Riverside / Inland Empire BTR / rental housing watch.
 - Monitor only: California / Monitor only.
 - Monitor only: Orange County / Orange County suburban apartment watch.
 
@@ -71,7 +73,7 @@ Asset / parcel-level site clues are available in `asset_parcel_intelligence_repo
 ## Development Lifecycle Intelligence Summary
 
 - Lifecycle records: 80
-- LA lifecycle watch items: 50
-- Stage mix: Refinancing / Recapitalization: 13, Delivery / Opening: 9, Unknown Stage: 39, Site Acquisition / Site Control: 11, Building Permit / Construction Permit: 1
+- LA lifecycle watch items: 54
+- Stage mix: Refinancing / Recapitalization: 11, Delivery / Opening: 9, Unknown Stage: 39, Site Acquisition / Site Control: 12, Building Permit / Construction Permit: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

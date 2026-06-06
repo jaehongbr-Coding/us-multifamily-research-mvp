@@ -1,14 +1,14 @@
 # 한국어 경영진 대시보드 브리핑
 
-- 생성 시각: 2026-06-06 08:19:08
+- 생성 시각: 2026-06-06 23:03:29
 - 참고 원문 파일: `executive_dashboard_brief.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
 ## 오늘의 핵심 브리핑
 
 경영진 대시보드 기준 핵심 신호 38건을 요약했습니다. 본 리포트는 유료 API 없이 규칙 기반으로 작성되며, 우미 / 우미글로벌의 미국 주거 개발 전략 관점에서 우선순위와 후속 조치를 빠르게 확인하기 위한 자료입니다.
-- 저장 기사 수: 76
-- 높은 신뢰도 신호: 40
+- 저장 기사 수: 77
+- 높은 신뢰도 신호: 42
 - 대시보드 카드: 38
 - 최우선 카드: Arizona
 - 추천 경영진 포커스: Review Refinancing - New York City / New York - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi and related high-confidence project signals.

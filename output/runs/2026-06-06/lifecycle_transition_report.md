@@ -1,9 +1,9 @@
 # Lifecycle Transition Report
 
-Generated: 2026-06-06 08:19:25
+Generated: 2026-06-06 23:03:44
 
 - Total lifecycle transitions analyzed: 80
-- Newly detected projects: 0
+- Newly detected projects: 5
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - Reappearing projects: 0
@@ -36,7 +36,11 @@ Generated: 2026-06-06 08:19:25
 
 ## Newly Detected Projects
 
-- None detected.
+- Disposition / Exit - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles: No Previous Record -> Site Acquisition / Site Control, Newly Detected Project, progression_score 45.
+- General Project Signal - Los Angeles / California - $123M Financing Arranged by Marcus & Millichap’s IPA Capital Markets for Bay Area Multifam...: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 44.
+- General Project Signal - Los Angeles / California - Election results roll in, SB 79 map rolls out, and more: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 42.
+- JV / Partnership - Riverside / California - Residential Multifamily Community Trades for $355k Per-Unit in Riverside California: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 41.
+- Revised Plans Filed For 2785 San Bruno Avenue, San Francisco: No Previous Record -> Early Site Signal, Newly Detected Project, progression_score 41.
 
 ## Forward Progression Projects
 
@@ -55,13 +59,13 @@ Generated: 2026-06-06 08:19:25
 - Construction Financing - Los Angeles / California - Slatt Capital Arranges $27M Construction Loan for San Gabriel Mixed-Use: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 30.
 - Construction Financing - Phoenix / Arizona - Scottsdale Developer Inks $141M Construction Loan for Luxury Apartments: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 30.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
-- Construction Financing - Phoenix / Arizona - Scottsdale Developer The Hampton Group Secures $141M Construction Loan for Luxury Apartmen...: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
 - Refinancing - Florida - Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
 - Construction Financing - Miami / Florida - MG Developer and Vertical Developments Secure $100M Construction Loan for Alhambra Par: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
 - Slatt Capital Arranges $27M Construction Loan for San Gabriel Mixed-Use: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 28.
 - MG Developer and Vertical Developments Secure $100M Construction Loan for Alhambra Par: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 28.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 27.
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 27.
+- Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 27.
 
 ## Construction Start Transitions
 
@@ -89,11 +93,11 @@ Generated: 2026-06-06 08:19:25
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 654
-- Canonical projects: 173
-- Duplicate project clusters: 121
-- Persistent assets tracked: 173
-- LA persistent asset watch items: 114
+- Raw project references: 662
+- Canonical projects: 176
+- Duplicate project clusters: 122
+- Persistent assets tracked: 176
+- LA persistent asset watch items: 124
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -101,10 +105,10 @@ Generated: 2026-06-06 08:19:25
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 173
-- Institutional-grade signals: 15
-- High-confidence signals: 40
-- Weak/noisy signals: 105
-- High-confidence watchlist items: 40
+- Signals evaluated: 176
+- Institutional-grade signals: 16
+- High-confidence signals: 42
+- Weak/noisy signals: 108
+- High-confidence watchlist items: 42
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

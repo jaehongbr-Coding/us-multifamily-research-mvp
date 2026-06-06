@@ -3,24 +3,25 @@
 Limited articles are retained only as conservative title/lead-based evidence. Limited access is tracked separately from article identity mismatches.
 
 ## Summary
-- Total articles: 76
-- Total limited_or_paywall articles: 11
+- Total articles: 77
+- Total limited_or_paywall articles: 12
 - suspicious_mismatch articles: 0
 - limited_or_paywall and suspicious_mismatch overlap: 0
-- Limited articles selected into Development Activity: 10
+- Limited articles selected into Development Activity: 11
 - Limited articles selected into GP / Capital Activity: 1
-- Limited articles selected into Representative Evidence: 1
+- Limited articles selected into Representative Evidence: 0
 
 ## Limited Articles by Source
 - Urbanize LA: 9
+- SF YIMBY: 2
 - Bisnow: 1
-- SF YIMBY: 1
 
 ## Limited Articles by Display Section
-- Development Activity: 10
+- Development Activity: 11
 - GP / Capital Activity: 1
 
 ## Sample Limited Articles
+- Election results roll in, SB 79 map rolls out, and more | Urbanize LA | Development Activity | unknown confidence
 - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA | Urbanize LA | Development Activity | low confidence
 - 85 apartments proposed at 15242 W. Parthenia St. in North Hills | Urbanize LA | Development Activity | unknown confidence
 - 19-story high-rise starts work at 6055 Center Drive in Westchester | Urbanize LA | Development Activity | low confidence
@@ -29,9 +30,9 @@ Limited articles are retained only as conservative title/lead-based evidence. Li
 - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale | Urbanize LA | Development Activity | unknown confidence
 - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach | Urbanize LA | Development Activity | unknown confidence
 - 40-unit development moves forward at 2301 N. Sepulveda Blvd. in Manhattan Beach | Urbanize LA | Development Activity | unknown confidence
+- Revised Plans Filed For 2785 San Bruno Avenue, San Francisco | SF YIMBY | Development Activity | unknown confidence
 - Multifamily CMBS Loan Distress Keeps Rising | Bisnow | GP / Capital Activity | low confidence
 - Permits Filed For 821 Corbett Avenue in Twin Peaks, San Francisco | SF YIMBY | Development Activity | low confidence
-- SCAG releases preliminary SB 79 map | Urbanize LA | Development Activity | unknown confidence
 
 ## Notes
 - `limited_or_paywall` is an access status, not an article identity failure.

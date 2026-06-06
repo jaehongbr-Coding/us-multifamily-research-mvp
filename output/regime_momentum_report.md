@@ -1,16 +1,16 @@
 # Regime Momentum Report
 
-Generated: 2026-06-06 08:19:17
+Generated: 2026-06-06 23:03:36
 
-- Top regime by final_score: Selective Capital Re-entry (84)
+- Top regime by final_score: Selective Capital Re-entry (89)
 - Second regime by final_score: Financing Stress (81)
-- Dominant regime spread: 3
+- Dominant regime spread: 8
 
 ## Momentum Summary
 
 | Regime | Previous Score | Latest Score | Change | Momentum |
 | --- | ---: | ---: | ---: | --- |
-| Selective Capital Re-entry | 84 | 84 | 0 | Stable |
+| Selective Capital Re-entry | 84 | 89 | 5 | Improving |
 | Financing Stress | 81 | 81 | 0 | Stable |
 | Supply Pressure | 77 | 77 | 0 | Stable |
 | Policy / Entitlement Watch | 65 | 65 | 0 | Stable |

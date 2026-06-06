@@ -1,14 +1,14 @@
 # Executive Dashboard Brief
 
-Generated: 2026-06-06 08:19:08
+Generated: 2026-06-06 23:03:29
 
 ## Executive Snapshot
 
-- Total articles reviewed: 76
-- High-confidence signals: 40
-- Institutional-grade signals: 15
-- Opportunities: 53
-- Distress signals: 13
+- Total articles reviewed: 77
+- High-confidence signals: 42
+- Institutional-grade signals: 16
+- Opportunities: 54
+- Distress signals: 11
 - Recommended executive focus: Review Refinancing - New York City / New York - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi and related high-confidence project signals.
 
 ## Top 5 Things to Review Today

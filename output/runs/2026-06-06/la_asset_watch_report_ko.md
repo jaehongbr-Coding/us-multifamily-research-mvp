@@ -1,6 +1,6 @@
 # 한국어 LA 자산 / 프로젝트 Watch
 
-- 생성 시각: 2026-06-06 08:19:08
+- 생성 시각: 2026-06-06 23:03:29
 - 참고 원문 파일: `la_asset_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -30,8 +30,8 @@
 - Refinancing - New York City / New York - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi: Los Angeles, 어포더블 하우징, 점수 100 (Delivery / Opening; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
 - Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester: Los Angeles, 주거복합, 점수 100 (Unknown Stage; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
 - Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Los Angeles, 어포더블 하우징, 점수 100 (Unknown Stage; Monitor for repeated project updates)
+- Disposition / Exit - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles: Los Angeles, 아파트, 점수 96 (Site Acquisition / Site Control; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
 - Development Start - California - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach: Long Beach, 어포더블 하우징, 점수 95 (Unknown Stage; Monitor for repeated project updates)
-- Entitlement / Permitting - New York - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Glendale, 어포더블 하우징, 점수 94 (Unknown Stage; Monitor for repeated project updates)
 
 ## 추천 현지 확인 사항
 

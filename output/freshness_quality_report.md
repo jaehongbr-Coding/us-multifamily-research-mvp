@@ -1,11 +1,11 @@
 # Freshness Quality Report
 
-Generated: 2026-06-06 08:19:09
+Generated: 2026-06-06 23:03:30
 
 ## Freshness Summary
 
-- Total articles reviewed: 76
-- fresh_0_3d: 49
+- Total articles reviewed: 77
+- fresh_0_3d: 50
 - recent_4_14d: 8
 - stale_15_30d: 0
 - old_31d_plus: 19

@@ -1,6 +1,6 @@
 # 한국어 LA 개발 단계 Watch
 
-- 생성 시각: 2026-06-06 08:19:08
+- 생성 시각: 2026-06-06 23:03:29
 - 참고 원문 파일: `la_development_lifecycle_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -12,10 +12,10 @@
 - Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Los Angeles, 어포더블 하우징, 점수 100 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
 - JV / Partnership - Houston / Texas - Longacre Acquires 541-Unit Houston Multifamily Community Scaling Joint Venture’s 17 State...: Los Angeles, 아파트, 점수 100 (Site Acquisition / Site Control; Monitor lifecycle status for repeated confirmation)
 - 19-story high-rise starts work at 6055 Center Drive in Westchester: Los Angeles, 주거복합, 점수 100 (Building Permit / Construction Permit; Monitor permit status, financing, and construction-start readiness)
+- Disposition / Exit - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles: Los Angeles, 아파트, 점수 100 (Site Acquisition / Site Control; Monitor lifecycle status for repeated confirmation)
 - Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester: Los Angeles, 주거복합, 점수 97 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
 - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Los Angeles, 어포더블 하우징, 점수 97 (Site Acquisition / Site Control; Monitor lifecycle status for repeated confirmation)
 - Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: California, 일반 주거, 점수 95 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
-- Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: California, 아파트, 점수 94 (Refinancing / Recapitalization; Review lender exposure, sponsor stress, and possible JV or rescue-capital angle)
 
 ## 진행 / 정체 / 재등장 신호
 

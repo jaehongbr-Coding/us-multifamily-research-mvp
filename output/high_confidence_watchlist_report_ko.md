@@ -1,6 +1,6 @@
 # 한국어 높은 신뢰도 Watchlist
 
-- 생성 시각: 2026-06-06 08:19:08
+- 생성 시각: 2026-06-06 23:03:29
 - 참고 원문 파일: `high_confidence_watchlist_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -10,12 +10,12 @@
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: California, 어포더블 하우징, 점수 95 (Refinancing opportunity; Review immediately)
 - Refinancing - Florida - Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio: Florida, 아파트, 점수 92 (Refinancing opportunity; Review immediately)
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: California, 아파트, 점수 92 (Refinancing opportunity; Review immediately)
+- Disposition / Exit - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles: California, 아파트, 점수 91 (LA urban infill opportunity; Review immediately)
 - Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: California, 일반 주거, 점수 91 (LA urban infill opportunity; Review immediately)
 - Construction Financing - Miami / Florida - MG Developer and Vertical Developments Secure $100M Construction Loan for Alhambra Par: Unknown, 주거복합, 점수 91 (Refinancing opportunity; Review immediately)
-- Construction Financing - Phoenix / Arizona - Scottsdale Developer The Hampton Group Secures $141M Construction Loan for Luxury Apartmen...: Unknown, 아파트, 점수 90 (Refinancing opportunity; Review immediately)
 - JV / Partnership - Houston / Texas - Longacre Acquires 541-Unit Houston Multifamily Community Scaling Joint Venture’s 17 State...: Unknown, 아파트, 점수 90 (Institutional capital movement; Review immediately)
+- General Project Signal - Los Angeles / California - $123M Financing Arranged by Marcus & Millichap’s IPA Capital Markets for Bay Area Multifam...: California, 멀티패밀리, 점수 88 (Institutional capital movement; Review immediately)
 - JV / Partnership - Texas - JV Closes On 1,128-Bed Texas A&M Housing Deal: Texas, 학생주택, 점수 88 (Institutional capital movement; Review immediately)
-- Acquisition - Houston / Texas - Berkadia Brokers Sale of 186-Unit Seniors Housing Property Near Houston: Unknown, 시니어 하우징, 점수 88 (Senior housing growth; Review immediately)
 
 ## 기관투자자급 신호
 

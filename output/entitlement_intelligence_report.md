@@ -1,8 +1,8 @@
 # Entitlement Intelligence Report
 
-Generated: 2026-06-06 08:19:22
+Generated: 2026-06-06 23:03:41
 
-- Total entitlement signals detected: 15
+- Total entitlement signals detected: 14
 
 ## Top Entitlement Opportunities
 
@@ -83,7 +83,7 @@ Generated: 2026-06-06 08:19:22
 ## Development Lifecycle Intelligence Summary
 
 - Lifecycle records: 80
-- LA lifecycle watch items: 50
-- Stage mix: Refinancing / Recapitalization: 13, Delivery / Opening: 9, Unknown Stage: 39, Site Acquisition / Site Control: 11, Building Permit / Construction Permit: 1
+- LA lifecycle watch items: 54
+- Stage mix: Refinancing / Recapitalization: 11, Delivery / Opening: 9, Unknown Stage: 39, Site Acquisition / Site Control: 12, Building Permit / Construction Permit: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

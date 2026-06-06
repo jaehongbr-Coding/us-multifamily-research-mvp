@@ -1,8 +1,8 @@
 # Deal Fingerprint Report
 
-Generated: 2026-06-06 08:19:19
+Generated: 2026-06-06 23:03:38
 
-- Total canonical deals detected: 55
+- Total canonical deals detected: 56
 - Duplicate clusters detected: 0
 - California / LA recurring project count: 6
 
@@ -19,13 +19,13 @@ Generated: 2026-06-06 08:19:19
 - Refinancing - Walker & Dunlop - walker & dunlop - Florida: Florida, 1 article(s), 1 source(s), confidence 100.
 - Construction Financing - JLL - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
 - Refinancing - JLL - Freddie Mac - New York: New York City / New York, 1 article(s), 1 source(s), confidence 90.
-- Construction Financing - Greystone - Sun Belt: Phoenix / Arizona, 1 article(s), 1 source(s), confidence 80.
 - Construction Financing - Berkadia - Berkadia - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
 - Recapitalization - PEF Advisors - California: California, 1 article(s), 1 source(s), confidence 70.
-- Construction Financing - JLL - JLL - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 70.
 - Construction Financing - Unknown - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 65.
 - Construction Financing - Unknown - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 65.
 - Construction Financing - Unknown - Sun Belt: Austin / Texas, 1 article(s), 1 source(s), confidence 65.
+- Construction Financing - Unknown - Sun Belt: Phoenix / Arizona, 1 article(s), 1 source(s), confidence 65.
+- Refinancing - Unknown - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 55.
 
 ## Recurring California / LA Projects
 
@@ -47,7 +47,7 @@ Generated: 2026-06-06 08:19:19
 - General Project Signal - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
 - Refinancing - JLL - Freddie Mac - New York: New York City / New York, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - Berkadia - Houston / Texas: Houston / Texas, 1 article(s), 1 source(s), confidence 80.
-- Construction Financing - Greystone - Sun Belt: Phoenix / Arizona, 1 article(s), 1 source(s), confidence 80.
+- Disposition / Exit - Marcus & Millichap - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 80.
 
 ## Most Frequently Referenced Developments
 
@@ -60,7 +60,7 @@ Generated: 2026-06-06 08:19:19
 - General Project Signal - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
 - Refinancing - JLL - Freddie Mac - New York: New York City / New York, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - Berkadia - Houston / Texas: Houston / Texas, 1 article(s), 1 source(s), confidence 80.
-- Construction Financing - Greystone - Sun Belt: Phoenix / Arizona, 1 article(s), 1 source(s), confidence 80.
+- Disposition / Exit - Marcus & Millichap - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 80.
 
 ## Highest-Confidence Canonical Events
 
@@ -73,4 +73,4 @@ Generated: 2026-06-06 08:19:19
 - General Project Signal - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
 - Refinancing - JLL - Freddie Mac - New York: New York City / New York, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - Berkadia - Houston / Texas: Houston / Texas, 1 article(s), 1 source(s), confidence 80.
-- Construction Financing - Greystone - Sun Belt: Phoenix / Arizona, 1 article(s), 1 source(s), confidence 80.
+- Disposition / Exit - Marcus & Millichap - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 80.

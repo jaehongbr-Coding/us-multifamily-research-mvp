@@ -1,13 +1,13 @@
 # Project Identity Resolution Report
 
-Generated: 2026-06-06 08:19:25
+Generated: 2026-06-06 23:03:44
 
-- Total raw project references: 654
-- Total canonical projects: 173
-- Duplicate project clusters: 121
-- High-confidence project identities: 654
+- Total raw project references: 662
+- Total canonical projects: 176
+- Duplicate project clusters: 122
+- High-confidence project identities: 662
 - Low-confidence identities needing review: 0
-- LA / California project references: 418
+- LA / California project references: 452
 
 ## Top Repeated Projects
 

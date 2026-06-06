@@ -1,6 +1,6 @@
 # Source Health Report
 
-Generated: 2026-06-06 08:19:09
+Generated: 2026-06-06 23:03:30
 
 - Total sources attempted: 163
 - Working sources: 23
@@ -28,7 +28,7 @@ Generated: 2026-06-06 08:19:09
 ## Useful Sources
 
 - Bisnow (Core Multifamily News): 1 saved article(s).
-- SF YIMBY (Regional / California / LA Sources): 1 saved article(s).
+- SF YIMBY (Regional / California / LA Sources): 2 saved article(s).
 - Connect CRE Texas (Site / Parcel Source Expansion): 2 saved article(s).
 
 ## Failing Sources

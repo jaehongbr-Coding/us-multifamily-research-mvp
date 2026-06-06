@@ -1,26 +1,26 @@
 ﻿run_date,run_id,source_name,attempted_url_or_feed,status,article_count_fetched,site_parcel_candidate_count,reason_if_unavailable
-2026-06-06,20260606-081908-38f3e371,REBusiness Online,https://rebusinessonline.com/feed/atom/,no relevant articles,20,0,No saved Site / Parcel candidates detected
-2026-06-06,20260606-081908-38f3e371,Connect CRE Apartments,https://www.connectcre.com/feed?property-sector=apartments,success,10,2,
-2026-06-06,20260606-081908-38f3e371,Connect CRE Texas,https://www.connectcre.com/feed?story-market=texas,success,10,1,
-2026-06-06,20260606-081908-38f3e371,Connect CRE South Florida,https://www.connectcre.com/feed?story-market=south-florida,success,10,1,
-2026-06-06,20260606-081908-38f3e371,Connect CRE Phoenix,https://www.connectcre.com/feed?story-market=phoenix,no relevant articles,10,0,No saved Site / Parcel candidates detected
-2026-06-06,20260606-081908-38f3e371,Connect CRE Atlanta,https://www.connectcre.com/feed?story-market=atlanta,success,10,1,
-2026-06-06,20260606-081908-38f3e371,Connect CRE Charlotte,https://www.connectcre.com/feed?story-market=charlotte,error,0,0,RSS parsing issue: status=404; <unknown>:22:51: not well-formed (invalid token)
-2026-06-06,20260606-081908-38f3e371,Connect CRE Orange County,https://www.connectcre.com/feed?story-market=orange-county,no relevant articles,10,0,No saved Site / Parcel candidates detected
-2026-06-06,20260606-081908-38f3e371,CRE Daily,,skipped,0,0,No public feed URL configured
-2026-06-06,20260606-081908-38f3e371,Institutional Property Advisors,,skipped,0,0,No public feed URL configured
-2026-06-06,20260606-081908-38f3e371,JLL Newsroom,,skipped,0,0,No public feed URL configured
-2026-06-06,20260606-081908-38f3e371,CBRE Newsroom,,skipped,0,0,No public feed URL configured
-2026-06-06,20260606-081908-38f3e371,Cushman & Wakefield Newsroom,,skipped,0,0,No public feed URL configured
-2026-06-06,20260606-081908-38f3e371,Marcus & Millichap Newsroom,,skipped,0,0,No public feed URL configured
-2026-06-06,20260606-081908-38f3e371,Dallas Business Journal,,skipped,0,0,No public feed URL configured
-2026-06-06,20260606-081908-38f3e371,Austin Business Journal,,skipped,0,0,No public feed URL configured
-2026-06-06,20260606-081908-38f3e371,South Florida Business Journal,,skipped,0,0,No public feed URL configured
-2026-06-06,20260606-081908-38f3e371,Phoenix Business Journal,,skipped,0,0,No public feed URL configured
-2026-06-06,20260606-081908-38f3e371,Atlanta Business Chronicle,,skipped,0,0,No public feed URL configured
-2026-06-06,20260606-081908-38f3e371,Charlotte Business Journal,,skipped,0,0,No public feed URL configured
-2026-06-06,20260606-081908-38f3e371,Los Angeles Business Journal,,skipped,0,0,No public feed URL configured
-2026-06-06,20260606-081908-38f3e371,San Francisco Business Times,,skipped,0,0,No public feed URL configured
-2026-06-06,20260606-081908-38f3e371,Orange County Business Journal,,skipped,0,0,No public feed URL configured
-2026-06-06,20260606-081908-38f3e371,Denver Business Journal,,skipped,0,0,No public feed URL configured
-2026-06-06,20260606-081908-38f3e371,Nashville Business Journal,,skipped,0,0,No public feed URL configured
+2026-06-06,20260606-230329-da6be778,REBusiness Online,https://rebusinessonline.com/feed/atom/,no relevant articles,20,0,No saved Site / Parcel candidates detected
+2026-06-06,20260606-230329-da6be778,Connect CRE Apartments,https://www.connectcre.com/feed?property-sector=apartments,success,10,2,
+2026-06-06,20260606-230329-da6be778,Connect CRE Texas,https://www.connectcre.com/feed?story-market=texas,success,10,1,
+2026-06-06,20260606-230329-da6be778,Connect CRE South Florida,https://www.connectcre.com/feed?story-market=south-florida,success,10,1,
+2026-06-06,20260606-230329-da6be778,Connect CRE Phoenix,https://www.connectcre.com/feed?story-market=phoenix,no relevant articles,10,0,No saved Site / Parcel candidates detected
+2026-06-06,20260606-230329-da6be778,Connect CRE Atlanta,https://www.connectcre.com/feed?story-market=atlanta,success,10,1,
+2026-06-06,20260606-230329-da6be778,Connect CRE Charlotte,https://www.connectcre.com/feed?story-market=charlotte,error,0,0,RSS parsing issue: status=404; <unknown>:22:51: not well-formed (invalid token)
+2026-06-06,20260606-230329-da6be778,Connect CRE Orange County,https://www.connectcre.com/feed?story-market=orange-county,no relevant articles,10,0,No saved Site / Parcel candidates detected
+2026-06-06,20260606-230329-da6be778,CRE Daily,,skipped,0,0,No public feed URL configured
+2026-06-06,20260606-230329-da6be778,Institutional Property Advisors,,skipped,0,0,No public feed URL configured
+2026-06-06,20260606-230329-da6be778,JLL Newsroom,,skipped,0,0,No public feed URL configured
+2026-06-06,20260606-230329-da6be778,CBRE Newsroom,,skipped,0,0,No public feed URL configured
+2026-06-06,20260606-230329-da6be778,Cushman & Wakefield Newsroom,,skipped,0,0,No public feed URL configured
+2026-06-06,20260606-230329-da6be778,Marcus & Millichap Newsroom,,skipped,0,0,No public feed URL configured
+2026-06-06,20260606-230329-da6be778,Dallas Business Journal,,skipped,0,0,No public feed URL configured
+2026-06-06,20260606-230329-da6be778,Austin Business Journal,,skipped,0,0,No public feed URL configured
+2026-06-06,20260606-230329-da6be778,South Florida Business Journal,,skipped,0,0,No public feed URL configured
+2026-06-06,20260606-230329-da6be778,Phoenix Business Journal,,skipped,0,0,No public feed URL configured
+2026-06-06,20260606-230329-da6be778,Atlanta Business Chronicle,,skipped,0,0,No public feed URL configured
+2026-06-06,20260606-230329-da6be778,Charlotte Business Journal,,skipped,0,0,No public feed URL configured
+2026-06-06,20260606-230329-da6be778,Los Angeles Business Journal,,skipped,0,0,No public feed URL configured
+2026-06-06,20260606-230329-da6be778,San Francisco Business Times,,skipped,0,0,No public feed URL configured
+2026-06-06,20260606-230329-da6be778,Orange County Business Journal,,skipped,0,0,No public feed URL configured
+2026-06-06,20260606-230329-da6be778,Denver Business Journal,,skipped,0,0,No public feed URL configured
+2026-06-06,20260606-230329-da6be778,Nashville Business Journal,,skipped,0,0,No public feed URL configured

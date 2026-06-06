@@ -1,6 +1,6 @@
 # 한국어 스트레스 / 부실 Watchlist
 
-- 생성 시각: 2026-06-06 08:19:08
+- 생성 시각: 2026-06-06 23:03:29
 - 참고 원문 파일: `distress_watchlist_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -14,23 +14,23 @@
 ## 공사금융 갭
 
 - construction loan gap: California, 아파트, 점수 80 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
-- construction loan gap: Phoenix / Arizona, 아파트, 점수 67 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
 - construction loan gap: Miami / Florida, 주거복합, 점수 65 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
 - construction loan gap: Los Angeles / California, 주거복합, 점수 60 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
 - construction loan gap: Miami / Florida, 아파트, 점수 60 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
+- construction loan gap: Phoenix / Arizona, 아파트, 점수 60 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
 
 ## 부실 / 지연 프로젝트
 
 - construction loan gap: California, 아파트, 점수 80 (Critical Distress Watch)
 - recapitalization need: California, 어포더블 하우징, 점수 72 (High Distress Watch)
 - refinancing stress: Florida, 아파트, 점수 69 (High Distress Watch)
-- construction loan gap: Phoenix / Arizona, 아파트, 점수 67 (High Distress Watch)
 - refinancing stress: New York City / New York, 어포더블 하우징, 점수 66 (High Distress Watch)
 - construction loan gap: Miami / Florida, 주거복합, 점수 65 (High Distress Watch)
 - construction loan gap: Los Angeles / California, 주거복합, 점수 60 (High Distress Watch)
 - construction loan gap: Miami / Florida, 아파트, 점수 60 (High Distress Watch)
 - construction loan gap: Phoenix / Arizona, 아파트, 점수 60 (High Distress Watch)
-- construction loan gap: 기타 / 미확인, 멀티패밀리, 점수 56 (Monitor)
+- construction loan gap: Austin / Texas, 아파트, 점수 56 (Monitor)
+- refinancing stress: 기타 / 미확인, 아파트, 점수 56 (Monitor)
 
 ## 우미 관점 기회 가능성
 

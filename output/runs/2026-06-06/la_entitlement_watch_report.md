@@ -1,8 +1,8 @@
 # LA / California Entitlement Watch Report
 
-Generated: 2026-06-06 08:19:22
+Generated: 2026-06-06 23:03:41
 
-- Total LA / California entitlement watch items: 13
+- Total LA / California entitlement watch items: 12
 
 ## Top LA / California Entitlement Opportunities
 
@@ -27,14 +27,14 @@ Generated: 2026-06-06 08:19:22
 - Los Angeles: Entitlement Approval, Approved / Entitled, score 35. Benchmark permitting timeline.
 - Los Angeles: Entitlement Approval, Early Planning, score 30. Watch affordable housing requirement.
 - Los Angeles: Entitlement Approval, Unknown Stage, score 28. Monitor local sponsor activity.
-- Los Angeles: Entitlement Approval, Unknown Stage, score 28. Track entitlement precedent.
 - Los Angeles: Building Permit / Construction Permit, Permitted, score 20. Benchmark permitting timeline.
+- Unknown: Office-to-Residential Conversion, Early Planning, score 20. Track office-to-residential feasibility.
 
 ## Submarket Watch Table
 
 | Submarket | Items | Top relevance |
 | --- | ---: | ---: |
-| Los Angeles | 10 | 54 |
+| Los Angeles | 9 | 54 |
 | New York | 1 | 47 |
 | Unknown | 1 | 45 |
 | San Francisco | 1 | 40 |
@@ -80,7 +80,7 @@ Submarket-level site strategy detail is available in `submarket_intelligence_rep
 ## Development Lifecycle Intelligence Summary
 
 - Lifecycle records: 80
-- LA lifecycle watch items: 50
-- Stage mix: Refinancing / Recapitalization: 13, Delivery / Opening: 9, Unknown Stage: 39, Site Acquisition / Site Control: 11, Building Permit / Construction Permit: 1
+- LA lifecycle watch items: 54
+- Stage mix: Refinancing / Recapitalization: 11, Delivery / Opening: 9, Unknown Stage: 39, Site Acquisition / Site Control: 12, Building Permit / Construction Permit: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

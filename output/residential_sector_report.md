@@ -1,6 +1,6 @@
 # Residential Sector Coverage Report
 
-Generated: 2026-06-06 08:19:19
+Generated: 2026-06-06 23:03:38
 
 - Active residential sectors: 9
 
@@ -8,19 +8,19 @@ Generated: 2026-06-06 08:19:19
 
 - Apartment: 36 article(s), 24 high-priority, 25 deal/project, Core Strategy Sector.
 - Affordable Housing: 12 article(s), 10 high-priority, 10 deal/project, Strategic Expansion Sector.
-- Multifamily: 14 article(s), 2 high-priority, 7 deal/project, Core Strategy Sector.
+- Multifamily: 16 article(s), 4 high-priority, 9 deal/project, Core Strategy Sector.
 - Student Housing: 2 article(s), 1 high-priority, 2 deal/project, Strategic Expansion Sector.
 - BTR / Single-Family Rental: 1 article(s), 1 high-priority, 1 deal/project, Strategic Expansion Sector.
 - Office-to-Residential Conversion: 1 article(s), 1 high-priority, 1 deal/project, Strategic Expansion Sector.
 - Mixed-Use Residential: 5 article(s), 4 high-priority, 4 deal/project, Monitoring Sector.
 - Senior Housing: 2 article(s), 1 high-priority, 2 deal/project, Monitoring Sector.
-- General Residential: 3 article(s), 0 high-priority, 3 deal/project, Monitoring Sector.
+- General Residential: 2 article(s), 0 high-priority, 2 deal/project, Monitoring Sector.
 
 ## Top Residential Sectors By Relevance
 
-- Apartment: Core Strategy Sector, average relevance 85.5, dominant market Other / Unknown.
+- Apartment: Core Strategy Sector, average relevance 86.1, dominant market Other / Unknown.
 - Affordable Housing: Strategic Expansion Sector, average relevance 90.7, dominant market Los Angeles / California.
-- Multifamily: Core Strategy Sector, average relevance 67.3, dominant market Other / Unknown.
+- Multifamily: Core Strategy Sector, average relevance 69.1, dominant market Other / Unknown.
 - Student Housing: Strategic Expansion Sector, average relevance 70.5, dominant market Texas.
 - BTR / Single-Family Rental: Strategic Expansion Sector, average relevance 77.0, dominant market Phoenix / Arizona.
 - Office-to-Residential Conversion: Strategic Expansion Sector, average relevance 75.0, dominant market Other / Unknown.
@@ -30,7 +30,7 @@ Generated: 2026-06-06 08:19:19
 ## Multifamily / Apartment
 
 - Apartment: 36 article(s), 25 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
-- Multifamily: 14 article(s), 7 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
+- Multifamily: 16 article(s), 9 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
 
 ## BTR / SFR
 

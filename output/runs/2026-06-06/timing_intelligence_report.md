@@ -1,8 +1,8 @@
 # Timing Intelligence Report
 
-Generated: 2026-06-06 08:19:22
+Generated: 2026-06-06 23:03:41
 
-- Total timing signals detected: 46
+- Total timing signals detected: 43
 
 ## Top Timing Signals
 
@@ -45,7 +45,6 @@ Generated: 2026-06-06 08:19:22
 - Entitlement / Permitting in New York: No explicit timing reference, score 65, Biweekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
 - Entitlement / Permitting in New York City / New York: No explicit timing reference, score 63, Monthly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
 - Entitlement / Permitting in San Francisco / California: No explicit timing reference, score 57, Monthly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
-- Entitlement / Permitting in Los Angeles / California: No explicit timing reference, score 44, Monitor Only monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
 
 ## Acquisition / Capital Re-entry Timing Watch
 
@@ -71,9 +70,9 @@ Generated: 2026-06-06 08:19:22
 
 ## Recommended Monitoring Cadence
 
-- Monthly: 24 timing signal(s)
+- Monthly: 22 timing signal(s)
 - Biweekly: 11 timing signal(s)
-- Monitor Only: 7 timing signal(s)
+- Monitor Only: 6 timing signal(s)
 - Weekly: 4 timing signal(s)
 
 ## Implications for Woomi / Woomi Global
@@ -87,8 +86,8 @@ Generated: 2026-06-06 08:19:22
 ## Development Lifecycle Intelligence Summary
 
 - Lifecycle records: 80
-- LA lifecycle watch items: 50
-- Stage mix: Refinancing / Recapitalization: 13, Delivery / Opening: 9, Unknown Stage: 39, Site Acquisition / Site Control: 11, Building Permit / Construction Permit: 1
+- LA lifecycle watch items: 54
+- Stage mix: Refinancing / Recapitalization: 11, Delivery / Opening: 9, Unknown Stage: 39, Site Acquisition / Site Control: 12, Building Permit / Construction Permit: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -97,9 +96,9 @@ Generated: 2026-06-06 08:19:22
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 80
-- Newly detected projects: 0
+- Newly detected projects: 5
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 49
+- LA lifecycle transition watch items: 53
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 

@@ -1,6 +1,6 @@
 # Source Activation Report
 
-Generated: 2026-06-06 08:19:09
+Generated: 2026-06-06 23:03:30
 
 - Total sources evaluated: 163
 - Working sources: 23
@@ -28,8 +28,8 @@ Generated: 2026-06-06 08:19:09
 - Connect CRE Atlanta (Tier 2): Working, RSS, score 68, 3 saved article(s).
 - Connect CRE Phoenix (Tier 2): Working, RSS, score 67, 4 saved article(s).
 - Connect CRE Texas (Tier 2): Working, RSS, score 66, 2 saved article(s).
+- SF YIMBY (Tier 2): Working, RSS, score 65, 2 saved article(s).
 - Multifamily Executive (Tier 1): Working, RSS, score 58, 3 saved article(s).
-- SF YIMBY (Tier 2): Working, RSS, score 52, 1 saved article(s).
 
 ## Highest Institutional-Value Sources
 
@@ -94,8 +94,8 @@ Generated: 2026-06-06 08:19:09
 - Connect CRE Atlanta (Tier 2): Working, RSS, score 68, 3 saved article(s).
 - Connect CRE Phoenix (Tier 2): Working, RSS, score 67, 4 saved article(s).
 - Connect CRE Texas (Tier 2): Working, RSS, score 66, 2 saved article(s).
+- SF YIMBY (Tier 2): Working, RSS, score 65, 2 saved article(s).
 - Multifamily Executive (Tier 1): Working, RSS, score 58, 3 saved article(s).
-- SF YIMBY (Tier 2): Working, RSS, score 52, 1 saved article(s).
 
 ## HTML-Only / Newsroom Sources
 
@@ -118,8 +118,8 @@ Generated: 2026-06-06 08:19:09
 | 11 | Connect CRE Atlanta | Tier 2 | Working | 68 | 3 | 70 |
 | 12 | Connect CRE Phoenix | Tier 2 | Working | 67 | 4 | 60 |
 | 13 | Connect CRE Texas | Tier 2 | Working | 66 | 2 | 60 |
-| 14 | Multifamily Executive | Tier 1 | Working | 58 | 3 | 40 |
-| 15 | SF YIMBY | Tier 2 | Working | 52 | 1 | 40 |
+| 14 | SF YIMBY | Tier 2 | Working | 65 | 2 | 80 |
+| 15 | Multifamily Executive | Tier 1 | Working | 58 | 3 | 40 |
 | 16 | Bisnow | Tier 1 | Working | 50 | 1 | 7 |
 | 17 | Connect CRE California | Tier 2 | Working | 50 | 4 | 20 |
 | 18 | Blackstone Real Estate Source Expansion | Tier 1 | Working | 45 | 0 | 0 |

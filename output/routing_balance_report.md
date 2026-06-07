@@ -12,7 +12,7 @@
 - Site / Parcel excluded transaction count: 0
 - Source missing count: 0
 - Market missing count: 0
-- Stage missing count: 59
+- Stage missing count: 57
 
 ## Rent/Demand Titles
 - Are rent concessions rising or falling? It’s complicated.
@@ -41,9 +41,9 @@
 
 ## Sample Validation
 - The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist | Excluded | rent_demand=No | low_value_promotional: chat-with-chief-economist promotional format
+- Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island City New York | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 186-unit; address/street: 05 30th st; execution milestone: lease-up; project/asset term: apartments)
+- Berkadia Arranges $52.5M Sale of 176-Unit Class A Luxury Multifamily Apartment Community in Poquoson Virginia | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 176-unit; project/asset term: community)
 - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 78-unit; project/asset term: apartments)
-- Gantry Secures $39.5M Construction Takeout Loan for Saint Paul Class A Multifamily Community Edison at Woodbury | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (address/street: 326 karen drive; project/asset term: community)
-- Longacre Acquires 541-Unit Houston Multifamily Community Scaling Joint Venture’s 17 State Turnaround Platform | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 541-unit; project/asset term: community)
 - Dwight Capital Lends $66M of HUD Debt on Texas Luxury Apartments Project | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (project/asset term: project; project financing tied to anchor: construction financing)
 - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (address/street: 100 jane street; execution milestone: opened; project/asset term: development)
 - $14M Refinance Secured for Newly Delivered Wicker Park Multifamily | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 40-unit; execution milestone: delivered; project/asset term: apartments)

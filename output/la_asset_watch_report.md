@@ -1,8 +1,8 @@
 # LA / Southern California Asset Watch Report
 
-Generated: 2026-06-07 10:12:41
+Generated: 2026-06-07 23:02:07
 
-- Total LA / Southern California asset watch items: 55
+- Total LA / Southern California asset watch items: 53
 
 ## Top LA Site-Level Opportunities
 
@@ -10,12 +10,12 @@ Generated: 2026-06-07 10:12:41
 - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
 - Entitlement / Permitting - New York - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
 - Refinancing - New York City / New York - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi: Los Angeles, Refinancing / Recapitalization, la_asset_opportunity_score 100.
-- Development Start - California - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 100.
+- Refinancing - New York - Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island C...: Los Angeles, Refinancing / Recapitalization, la_asset_opportunity_score 100.
 - Entitlement / Permitting - Los Angeles / California - 85 apartments proposed at 15242 W. Parthenia St. in North Hills: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
 - Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
 - Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
 - Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
-- Entitlement / Permitting - Los Angeles / California - Affordable housing proposed for 23022 W. Ventura Blvd. in Woodland Hills: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 100.
+- Disposition / Exit - Virginia - Berkadia Arranges $52.5M Sale of 176-Unit Class A Luxury Multifamily Apartment Community i...: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
 
 ## Top LA Site-Level Risks
 
@@ -25,10 +25,10 @@ Generated: 2026-06-07 10:12:41
 - Entitlement / Permitting - New York - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Los Angeles, Entitlement Play, la_asset_risk_score 54.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 54.
 - Refinancing - New York City / New York - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 46.
-- Development Start - California - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach: Los Angeles, Affordable / Density Bonus Strategy, la_asset_risk_score 40.
+- Refinancing - New York - Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island C...: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 41.
+- Office-to-Residential Conversion - Connecticut - Condyne Capital Plans Adaptive Reuse Multifamily Redevelopment of Former Konica Minolta Bu...: Los Angeles, Office-to-Residential Conversion, la_asset_risk_score 41.
 - Office-to-Residential Conversion - Other / Unknown - Condyne Plans Adaptive Reuse of Former Konica Minolta Building: Los Angeles, Office-to-Residential Conversion, la_asset_risk_score 40.
 - Entitlement / Permitting - Los Angeles / California - 85 apartments proposed at 15242 W. Parthenia St. in North Hills: Los Angeles, Entitlement Play, la_asset_risk_score 34.
-- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: Los Angeles, Entitlement Play, la_asset_risk_score 34.
 
 ## Koreatown / Wilshire Site Watch
 
@@ -36,6 +36,8 @@ Generated: 2026-06-07 10:12:41
 
 ## DTLA / Office Conversion Site Watch
 
+- Condyne Capital Plans Adaptive Reuse Multifamily Redevelopment of Former Konica Minolta Building in Windsor Connecticut: Los Angeles, Office-to-Residential Conversion, la_asset_opportunity_score 75.
+- Office-to-Residential Conversion - Connecticut - Condyne Capital Plans Adaptive Reuse Multifamily Redevelopment of Former Konica Minolta Bu...: Los Angeles, Office-to-Residential Conversion, la_asset_opportunity_score 74.
 - Condyne Plans Adaptive Reuse of Former Konica Minolta Building: Los Angeles, Office-to-Residential Conversion, la_asset_opportunity_score 73.
 - Office-to-Residential Conversion - Other / Unknown - Condyne Plans Adaptive Reuse of Former Konica Minolta Building: Los Angeles, Office-to-Residential Conversion, la_asset_opportunity_score 72.
 
@@ -60,13 +62,13 @@ Generated: 2026-06-07 10:12:41
 - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
 - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
 - Refinancing - New York City / New York - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi: Los Angeles, Refinancing / Recapitalization, la_asset_opportunity_score 100.
+- Refinancing - New York - Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island C...: Los Angeles, Refinancing / Recapitalization, la_asset_opportunity_score 100.
 - Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
 - Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
+- Disposition / Exit - Virginia - Berkadia Arranges $52.5M Sale of 176-Unit Class A Luxury Multifamily Apartment Community i...: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
 - 19-story high-rise starts work at 6055 Center Drive in Westchester: Los Angeles, Construction-Ready Pipeline, la_asset_opportunity_score 100.
 - Disposition / Exit - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
 - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
-- General Project Signal - Los Angeles / California - $123M Financing Arranged by Marcus & Millichap’s IPA Capital Markets for Bay Area Multifam...: Los Angeles, General Asset Signal, la_asset_opportunity_score 99.
-- JV / Partnership - Riverside / California - Residential Multifamily Community Trades for $355k Per-Unit in Riverside California: Los Angeles, General Asset Signal, la_asset_opportunity_score 98.
 
 ## Recommended LA Asset Follow-up Actions
 
@@ -74,7 +76,7 @@ Generated: 2026-06-07 10:12:41
 - Track entitlement docket, density bonus use, and affordability requirement: Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale.
 - Track entitlement docket, density bonus use, and affordability requirement: Entitlement / Permitting - New York - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale.
 - Track lender, maturity, owner, and recapitalization path: Refinancing - New York City / New York - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi.
-- Review parcel clue, entitlement path, sponsor, and comparable sites: Development Start - California - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach.
+- Track lender, maturity, owner, and recapitalization path: Refinancing - New York - Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island C....
 - Track entitlement docket, density bonus use, and affordability requirement: Entitlement / Permitting - Los Angeles / California - 85 apartments proposed at 15242 W. Parthenia St. in North Hills.
 - Track entitlement docket, density bonus use, and affordability requirement: Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA.
 - Monitor asset for repeated local confirmation: Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester.
@@ -83,9 +85,9 @@ Generated: 2026-06-07 10:12:41
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 81
-- LA lifecycle watch items: 55
-- Stage mix: Refinancing / Recapitalization: 11, Delivery / Opening: 10, Unknown Stage: 39, Site Acquisition / Site Control: 12, Building Permit / Construction Permit: 1
+- Lifecycle records: 80
+- LA lifecycle watch items: 53
+- Stage mix: Refinancing / Recapitalization: 9, Delivery / Opening: 9, Unknown Stage: 40, Building Permit / Construction Permit: 1, Site Acquisition / Site Control: 11
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -93,11 +95,11 @@ Generated: 2026-06-07 10:12:41
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 81
-- Newly detected projects: 1
+- Lifecycle transitions analyzed: 80
+- Newly detected projects: 6
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 54
+- LA lifecycle transition watch items: 52
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -105,10 +107,10 @@ Generated: 2026-06-07 10:12:41
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 668
-- Canonical projects: 176
-- Duplicate project clusters: 122
-- Persistent assets tracked: 176
-- LA persistent asset watch items: 124
+- Raw project references: 667
+- Canonical projects: 171
+- Duplicate project clusters: 119
+- Persistent assets tracked: 171
+- LA persistent asset watch items: 121
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

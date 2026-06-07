@@ -1,23 +1,23 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-06-07 10:12:37
+Generated: 2026-06-07 23:02:02
 
-- GP/developer candidates reviewed: 26
+- GP/developer candidates reviewed: 25
 - Tier 1 Strategic GPs: 0
-- Tier 2 High Potential GPs: 8
+- Tier 2 High Potential GPs: 9
 
 ## Top Emerging GPs
 
+- PCCP: 78 (Tier 2 High Potential GP), Texas, Institutional-backed regional expansion.
 - Freestone Capital: 77 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
 - PEF Advisors: 77 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
-- IPA: 76 (Tier 2 High Potential GP), Houston / Texas, California / LA strategic positioning.
-- PCCP: 76 (Tier 2 High Potential GP), Riverside / California, California / LA strategic positioning.
+- IPA: 76 (Tier 2 High Potential GP), Los Angeles / California, California / LA strategic positioning.
+- Marcus & Millichap: 76 (Tier 2 High Potential GP), Los Angeles / California, California / LA strategic positioning.
 - Alliance Residential: 76 (Tier 2 High Potential GP), Riverside / California, California / LA strategic positioning.
 - JLL: 75 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
 - JLL: 75 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
 - JLL: 75 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
 - CBRE: 65 (Tier 3 Monitoring GP), Los Angeles / California, California / LA strategic positioning.
-- PH Realty Capital: 64 (Tier 3 Monitoring GP), Houston / Texas, Distressed opportunity positioning.
 
 ## Tier 1 Strategic GP
 
@@ -25,10 +25,11 @@ Generated: 2026-06-07 10:12:37
 
 ## Tier 2 High Potential GP
 
+- PCCP: score 78, Tier 2 High Potential GP, Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 - Freestone Capital: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - PEF Advisors: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- IPA: score 76, Tier 2 High Potential GP, Houston / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
-- PCCP: score 76, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- IPA: score 76, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Marcus & Millichap: score 76, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Alliance Residential: score 76, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
@@ -36,16 +37,16 @@ Generated: 2026-06-07 10:12:37
 
 ## California / LA GP Activity
 
+- PCCP: score 78, Tier 2 High Potential GP, Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 - Freestone Capital: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - PEF Advisors: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- IPA: score 76, Tier 2 High Potential GP, Houston / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
-- PCCP: score 76, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- IPA: score 76, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Marcus & Millichap: score 76, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Alliance Residential: score 76, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - CBRE: score 65, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Marcus & Millichap: score 61, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## BTR / SFR GP Activity
 
@@ -63,7 +64,7 @@ Generated: 2026-06-07 10:12:37
 
 ## Student Housing GP Activity
 
-- PCCP: score 76, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- PCCP: score 78, Tier 2 High Potential GP, Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 - Kayne Anderson Real Estate: score 41, Emerging Watchlist, Atlanta / Georgia, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
 
 ## Innovation-Oriented GP Activity
@@ -72,29 +73,29 @@ Generated: 2026-06-07 10:12:37
 
 ## Institutional Capital Magnet
 
+- PCCP: score 78, Tier 2 High Potential GP, Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 - Freestone Capital: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - PEF Advisors: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- IPA: score 76, Tier 2 High Potential GP, Houston / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
-- PCCP: score 76, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- IPA: score 76, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Marcus & Millichap: score 76, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Alliance Residential: score 76, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - CBRE: score 65, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
-- PH Realty Capital: score 64, Tier 3 Monitoring GP, Houston / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## Potential Woomi Partnership Candidates
 
+- PCCP: score 78, Tier 2 High Potential GP, Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 - Freestone Capital: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - PEF Advisors: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- IPA: score 76, Tier 2 High Potential GP, Houston / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
-- PCCP: score 76, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- IPA: score 76, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Marcus & Millichap: score 76, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Alliance Residential: score 76, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - JLL: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - CBRE: score 65, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
-- PH Realty Capital: score 64, Tier 3 Monitoring GP, Houston / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## GP Source Expansion Summary
 
@@ -123,20 +124,20 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Recommended Management Meeting Targets
 
+- PCCP: Track JV and capital partner activity (High confidence).
 - Freestone Capital: Track JV and capital partner activity (Medium confidence).
 - PEF Advisors: Track JV and capital partner activity (Medium confidence).
 - IPA: Track JV and capital partner activity (Medium confidence).
-- PCCP: Track JV and capital partner activity (High confidence).
-- Alliance Residential: Track JV and capital partner activity (High confidence).
+- Marcus & Millichap: Track JV and capital partner activity (Medium confidence).
 
 ## Recommended Strategic Follow-up Actions
 
+- PCCP: Track JV and capital partner activity.
 - Freestone Capital: Track JV and capital partner activity.
 - PEF Advisors: Track JV and capital partner activity.
 - IPA: Track JV and capital partner activity.
-- PCCP: Track JV and capital partner activity.
+- Marcus & Millichap: Track JV and capital partner activity.
 - Alliance Residential: Track JV and capital partner activity.
-- JLL: Track JV and capital partner activity.
 - JLL: Track JV and capital partner activity.
 - JLL: Track JV and capital partner activity.
 
@@ -144,10 +145,10 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 176
+- Signals evaluated: 171
 - Institutional-grade signals: 17
-- High-confidence signals: 45
-- Weak/noisy signals: 106
-- High-confidence watchlist items: 45
+- High-confidence signals: 43
+- Weak/noisy signals: 102
+- High-confidence watchlist items: 43
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

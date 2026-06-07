@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-06-07 10:12:31
+Generated: 2026-06-07 23:01:52
 
 ## Top Strategic Relevance Articles
 
-- 100 / richness 85: Longacre Acquires 541-Unit Houston Multifamily Community Scaling Joint Venture’s 17 State Turnaround Platform (Yield PRO, Houston / Texas) - platform or fund activity; JV or partnership activity; institutional acquisition behavior
 - 90 / richness 100: Residential Multifamily Community Trades for $355k Per-Unit in Riverside California (Yield PRO, Riverside / California) - JV or partnership activity; institutional acquisition behavior
 - 87 / richness 90: Miami Apartments Trade for $109.9M (Connect CRE South Florida, Miami / Florida) - development continuation; institutional acquisition behavior
+- 86 / richness 85: Joint Venture Acquires 1,128-Bed Student Housing Community Serving Texas A&M University in College Station Texas (Yield PRO, Texas) - JV or partnership activity; institutional acquisition behavior
+- 86 / richness 85: Institutional Property Advisors Capital Markets Arranges $27M for Newly Built Luxury DC Multifamily (Yield PRO, New York City / New York) - JV or partnership activity; institutional acquisition behavior
 - 83 / richness 70: JV Closes On 1,128-Bed Texas A&M Housing Deal (Connect CRE Texas, Texas) - JV or partnership activity; institutional acquisition behavior
+- 82 / richness 100: Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island City New York (Yield PRO, New York) - lease-up or absorption behavior; large-scale refinance tied to strategy
 - 80 / richness 85: Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio (REBusiness Online, Florida) - institutional acquisition behavior; large-scale refinance tied to strategy
 - 79 / richness 70: PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties (Connect CRE Orange County, California) - JV or partnership activity; large-scale refinance tied to strategy
 - 78 / richness 85: $14M Refinance Secured for Newly Delivered Wicker Park Multifamily (Connect CRE, Other / Unknown) - lease-up or absorption behavior; large-scale refinance tied to strategy
 - 74 / richness 100: Camelback Office-to-Apartment Conversion Nearly Complete (Connect CRE Apartments, Phoenix / Arizona) - institutional acquisition behavior
-- 70 / richness 100: JLL Real Estate Capital Provides $70M for West Village Multifamily Refi (Commercial Observer, New York City / New York) - large-scale refinance tied to strategy
-- 70 / richness 85: Targo Capital Partners Buys 185 East Houston Street, Part of $81M Portfolio (Commercial Observer, Houston / Texas) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -40,7 +40,7 @@ Generated: 2026-06-07 10:12:31
 ## Financing Bias Observations
 
 - Financing-oriented articles: 24
-- Development / sponsor behavior articles: 52
+- Development / sponsor behavior articles: 53
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

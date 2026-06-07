@@ -1,6 +1,6 @@
 # LA / California Entitlement Watch Report
 
-Generated: 2026-06-07 10:12:39
+Generated: 2026-06-07 23:02:06
 
 - Total LA / California entitlement watch items: 12
 
@@ -8,8 +8,8 @@ Generated: 2026-06-07 10:12:39
 
 - Los Angeles: Building Permit / Construction Permit, Permitted, score 60. Benchmark permitting timeline.
 - Los Angeles: Entitlement Approval, Approved / Entitled, score 55. Benchmark permitting timeline.
+- Connecticut: Office-to-Residential Conversion, Early Planning, score 42. Track office-to-residential feasibility.
 - Unknown: Office-to-Residential Conversion, Early Planning, score 42. Track office-to-residential feasibility.
-- Los Angeles: CEQA / Environmental Review, Under Review, score 35. Monitor local sponsor activity.
 - Los Angeles: Entitlement Approval, Unknown Stage, score 35. Monitor local sponsor activity.
 - Los Angeles: CEQA / Environmental Review, Under Review, score 30. Track entitlement precedent.
 - Los Angeles: Planning Approval, Delayed / Appealed, score 30. Monitor local sponsor activity.
@@ -19,7 +19,6 @@ Generated: 2026-06-07 10:12:39
 
 ## Top LA / California Entitlement Risks
 
-- Los Angeles: CEQA / Environmental Review, Under Review, score 65. Monitor local sponsor activity.
 - Los Angeles: CEQA / Environmental Review, Under Review, score 65. Track entitlement precedent.
 - Los Angeles: Planning Approval, Delayed / Appealed, score 60. Monitor local sponsor activity.
 - Los Angeles: Planning Approval, Delayed / Appealed, score 45. Monitor local sponsor activity.
@@ -28,32 +27,35 @@ Generated: 2026-06-07 10:12:39
 - Los Angeles: Entitlement Approval, Early Planning, score 30. Watch affordable housing requirement.
 - Los Angeles: Entitlement Approval, Unknown Stage, score 28. Monitor local sponsor activity.
 - Los Angeles: Building Permit / Construction Permit, Permitted, score 20. Benchmark permitting timeline.
+- Connecticut: Office-to-Residential Conversion, Early Planning, score 20. Track office-to-residential feasibility.
 - Unknown: Office-to-Residential Conversion, Early Planning, score 20. Track office-to-residential feasibility.
 
 ## Submarket Watch Table
 
 | Submarket | Items | Top relevance |
 | --- | ---: | ---: |
-| Los Angeles | 9 | 54 |
+| Los Angeles | 8 | 53 |
 | New York | 1 | 47 |
+| Connecticut | 1 | 45 |
 | Unknown | 1 | 45 |
 | San Francisco | 1 | 40 |
 
 ## Project / Sponsor Watch
 
-- Los Angeles: CEQA / Environmental Review, Under Review, score 54. Monitor local sponsor activity.
 - Los Angeles: Entitlement Approval, Approved / Entitled, score 53. Benchmark permitting timeline.
 - Los Angeles: CEQA / Environmental Review, Under Review, score 52. Track entitlement precedent.
 - Los Angeles: Building Permit / Construction Permit, Permitted, score 51. Benchmark permitting timeline.
 - Los Angeles: Planning Approval, Delayed / Appealed, score 50. Monitor local sponsor activity.
 - Los Angeles: Planning Approval, Delayed / Appealed, score 47. Monitor local sponsor activity.
 - New York: Entitlement Approval, Delayed / Appealed, score 47. Track entitlement precedent.
+- Connecticut: Office-to-Residential Conversion, Early Planning, score 45. Track office-to-residential feasibility.
 - Unknown: Office-to-Residential Conversion, Early Planning, score 45. Track office-to-residential feasibility.
 - Los Angeles: Entitlement Approval, Unknown Stage, score 44. Monitor local sponsor activity.
 - Los Angeles: Entitlement Approval, Early Planning, score 43. Watch affordable housing requirement.
 
 ## Office-to-Residential Watch
 
+- Connecticut: Office-to-Residential Conversion, Early Planning, score 45. Track office-to-residential feasibility.
 - Unknown: Office-to-Residential Conversion, Early Planning, score 45. Track office-to-residential feasibility.
 
 ## Affordable / Density Bonus Watch
@@ -62,13 +64,13 @@ Generated: 2026-06-07 10:12:39
 
 ## Recommended Local Follow-up Actions
 
-- Review CEQA status, appeal risk, and approval timeline: Los Angeles / CEQA / Environmental Review.
 - Monitor construction-ready pipeline and sponsor execution: Los Angeles / Entitlement Approval.
 - Review CEQA status, appeal risk, and approval timeline: Los Angeles / CEQA / Environmental Review.
 - Monitor construction-ready pipeline and sponsor execution: Los Angeles / Building Permit / Construction Permit.
 - Track local planning docket, sponsor, submarket, and entitlement precedent: Los Angeles / Planning Approval.
 - Track local planning docket, sponsor, submarket, and entitlement precedent: Los Angeles / Planning Approval.
 - Track local planning docket, sponsor, submarket, and entitlement precedent: New York / Entitlement Approval.
+- Track local planning docket, sponsor, submarket, and entitlement precedent: Connecticut / Office-to-Residential Conversion.
 - Track local planning docket, sponsor, submarket, and entitlement precedent: Unknown / Office-to-Residential Conversion.
 
 ## Submarket / Parcel Intelligence Reference
@@ -79,8 +81,8 @@ Submarket-level site strategy detail is available in `submarket_intelligence_rep
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 81
-- LA lifecycle watch items: 55
-- Stage mix: Refinancing / Recapitalization: 11, Delivery / Opening: 10, Unknown Stage: 39, Site Acquisition / Site Control: 12, Building Permit / Construction Permit: 1
+- Lifecycle records: 80
+- LA lifecycle watch items: 53
+- Stage mix: Refinancing / Recapitalization: 9, Delivery / Opening: 9, Unknown Stage: 40, Building Permit / Construction Permit: 1, Site Acquisition / Site Control: 11
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

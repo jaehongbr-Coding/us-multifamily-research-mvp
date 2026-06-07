@@ -1,17 +1,17 @@
 # GP Routing Quality Report
 
-Generated: 2026-06-07 10:12:31
+Generated: 2026-06-07 23:01:52
 
 ## Summary
-- Total GP / Capital candidates: 38
-- Selected GP / Capital articles: 15
-- Debt Financing count: 10
-- Refinancing count: 4
-- Construction Financing count: 6
-- Acquisition Financing count: 0
+- Total GP / Capital candidates: 37
+- Selected GP / Capital articles: 14
+- Debt Financing count: 9
+- Refinancing count: 5
+- Construction Financing count: 5
+- Acquisition Financing count: 1
 - Equity Transaction count: 0
-- Operator Activity count: 2
-- Other / Unknown market count: 27
+- Operator Activity count: 1
+- Other / Unknown market count: 26
 
 ## Routing Regression Summary
 - Market Intelligence routed articles: 17
@@ -24,23 +24,24 @@ Generated: 2026-06-07 10:12:31
 - Routing rule: approval / entitlement wording takes priority over Site / Parcel when both appear.
 
 ## Activity Type Distribution
-- debt_financing: 10
-- disposition_exit: 7
-- construction_financing: 6
-- joint_venture: 4
-- refinancing: 4
+- debt_financing: 9
+- disposition_exit: 8
+- refinancing: 5
+- construction_financing: 5
+- joint_venture: 3
 - acquisition: 3
-- asset_management_operator_activity: 2
 - lender_activity: 1
+- asset_management_operator_activity: 1
+- acquisition_financing: 1
 - none: 1
 
 ## Excluded from GP / Capital with Reason
 - Camelback Office-to-Apartment Conversion Nearly Complete | Connect CRE Apartments | asset strategy / development routing
+- Joint Venture Acquires 1,128-Bed Student Housing Community Serving Texas A&M University in College Station Texas | Yield PRO | asset strategy / development routing
 - Advanced Real Estate Acquires, Rebrands Rowland Heights Apartments | Connect CRE Apartments | asset strategy / development routing
 
 ## Top Unresolved Market Extraction Examples
 - The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist | Multifamily Executive | used broad market bucket: National
-- Gantry Secures $39.5M Construction Takeout Loan for Saint Paul Class A Multifamily Community Edison at Woodbury | Yield PRO | used broad market bucket: National
 - $14M Refinance Secured for Newly Delivered Wicker Park Multifamily | Connect CRE | no city, state, or market keyword detected
 - Detroit’s Corktown Neighborhood to Receive 188 New Mixed-Income Units Representing $84M Investment | REBusiness Online | used broad market bucket: National
 - Marcus & Millichap Brokers Sale of 160-Unit Multifamily Property in Wisconsin | Connect CRE | no city, state, or market keyword detected
@@ -54,20 +55,20 @@ Generated: 2026-06-07 10:12:31
 - Rent Prices Continue to Rise, While Absorption Remains Low | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - First Quarter 2026 Multifamily Construction Data | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Fourth Quarter 2025 Multifamily Construction Data | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- Overall Housing Starts Inch Lower in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 
 ## Sample Selected GP / Capital Articles
-- Gantry Secures $39.5M Construction Takeout Loan for Saint Paul Class A Multifamily Community Edison at Woodbury | debt_financing | National | Yield PRO
+- Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island City New York | refinancing | New York | Yield PRO
 - Dwight Capital Lends $66M of HUD Debt on Texas Luxury Apartments Project | construction_financing | Austin / Texas | Commercial Observer
 - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi | refinancing | New York City / New York | Commercial Observer
-- $14M Refinance Secured for Newly Delivered Wicker Park Multifamily | refinancing | Other / Unknown | Connect CRE
 - Slatt Capital Arranges $27M Construction Loan for San Gabriel Mixed-Use | construction_financing | Los Angeles / California | Connect CRE
 - Scottsdale Developer Inks $141M Construction Loan for Luxury Apartments | construction_financing | Phoenix / Arizona | Connect CRE Phoenix
-- Northwood Ravin Launches Pre-Leasing for Boutique Multifamily Community The Artisan in South End Charlotte | asset_management_operator_activity | Sun Belt | Yield PRO
+- Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio | refinancing | Florida | REBusiness Online
 - $123M Financing Arranged by Marcus & Millichap’s IPA Capital Markets for Bay Area Multifamily Property | debt_financing | Los Angeles / California | Yield PRO
 - Residential Multifamily Community Trades for $355k Per-Unit in Riverside California | joint_venture | Riverside / California | Yield PRO
-- Jonathan Rose Cos. Buys Upper Manhattan Affordable Housing Building for $53M | acquisition | New York City / New York | REBusiness Online
 - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties | joint_venture | California | Connect CRE Orange County
-- MG Developer and Vertical Developments Secure $100M Construction Loan for Alhambra Par | construction_financing | Miami / Florida | Yield PRO
 - Renters remain cautious but demand holds steady | asset_management_operator_activity | Sun Belt | Multifamily Dive
+- Institutional Property Advisors Capital Markets Arranges $27M for Newly Built Luxury DC Multifamily | acquisition_financing | New York City / New York | Yield PRO
+- JV Closes On 1,128-Bed Texas A&M Housing Deal | joint_venture | Texas | Connect CRE Texas
 - Miami Apartments Trade for $109.9M | acquisition | Miami / Florida | Connect CRE South Florida
 - HBGI Q1 2026: Single-Family Construction Slips Across All Geographies | debt_financing | Other / Unknown | NAHB Eye on Housing - Multifamily

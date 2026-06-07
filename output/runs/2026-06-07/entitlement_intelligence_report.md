@@ -1,6 +1,6 @@
 # Entitlement Intelligence Report
 
-Generated: 2026-06-07 10:12:39
+Generated: 2026-06-07 23:02:06
 
 - Total entitlement signals detected: 14
 
@@ -8,9 +8,9 @@ Generated: 2026-06-07 10:12:39
 
 - Building Permit / Construction Permit in Los Angeles: Permitted, entitlement_opportunity_score 60. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles: Approved / Entitled, entitlement_opportunity_score 55. Track construction-ready pipeline and comparable sponsor execution.
+- Office-to-Residential Conversion in Connecticut: Early Planning, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
 - Office-to-Residential Conversion in Unknown: Early Planning, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
 - Office-to-Residential Conversion in Phoenix: Unknown Stage, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
-- CEQA / Environmental Review in Los Angeles: Under Review, entitlement_opportunity_score 35. Monitor CEQA timeline, appeals, and environmental review milestones.
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 35. Track construction-ready pipeline and comparable sponsor execution.
 - CEQA / Environmental Review in Los Angeles: Under Review, entitlement_opportunity_score 30. Monitor CEQA timeline, appeals, and environmental review milestones.
 - Planning Approval in Los Angeles: Delayed / Appealed, entitlement_opportunity_score 30. Monitor entitlement status for repeated confirmation.
@@ -20,7 +20,6 @@ Generated: 2026-06-07 10:12:39
 ## Top Entitlement Risks
 
 - CEQA / Environmental Review in Los Angeles: Under Review, entitlement_risk_score 65. Monitor CEQA timeline, appeals, and environmental review milestones.
-- CEQA / Environmental Review in Los Angeles: Under Review, entitlement_risk_score 65. Monitor CEQA timeline, appeals, and environmental review milestones.
 - Planning Approval in Los Angeles: Delayed / Appealed, entitlement_risk_score 60. Monitor entitlement status for repeated confirmation.
 - Planning Approval in Los Angeles: Delayed / Appealed, entitlement_risk_score 45. Monitor entitlement status for repeated confirmation.
 - Entitlement Approval in New York: Delayed / Appealed, entitlement_risk_score 45. Track construction-ready pipeline and comparable sponsor execution.
@@ -29,6 +28,7 @@ Generated: 2026-06-07 10:12:39
 - Office-to-Residential Conversion in Phoenix: Unknown Stage, entitlement_risk_score 28. Review office conversion feasibility, policy support, and local sponsor activity.
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Manhattan: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
+- Building Permit / Construction Permit in Los Angeles: Permitted, entitlement_risk_score 20. Track construction-ready pipeline and comparable sponsor execution.
 
 ## Planning / Approval Signals
 
@@ -50,7 +50,6 @@ Generated: 2026-06-07 10:12:39
 ## CEQA / Environmental Review Signals
 
 - CEQA / Environmental Review in Los Angeles: Under Review, entitlement_risk_score 65. Monitor CEQA timeline, appeals, and environmental review milestones.
-- CEQA / Environmental Review in Los Angeles: Under Review, entitlement_risk_score 65. Monitor CEQA timeline, appeals, and environmental review milestones.
 
 ## Affordable Housing Requirement Signals
 
@@ -58,6 +57,7 @@ Generated: 2026-06-07 10:12:39
 
 ## Office-to-Residential Conversion Signals
 
+- Office-to-Residential Conversion in Connecticut: Early Planning, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
 - Office-to-Residential Conversion in Unknown: Early Planning, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
 - Office-to-Residential Conversion in Phoenix: Unknown Stage, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
 
@@ -70,20 +70,20 @@ Generated: 2026-06-07 10:12:39
 ## Recommended Entitlement Follow-up Actions
 
 - Monitor CEQA timeline, appeals, and environmental review milestones: CEQA / Environmental Review in Los Angeles.
-- Monitor CEQA timeline, appeals, and environmental review milestones: CEQA / Environmental Review in Los Angeles.
 - Monitor entitlement status for repeated confirmation: Planning Approval in Los Angeles.
 - Track construction-ready pipeline and comparable sponsor execution: Building Permit / Construction Permit in Los Angeles.
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Los Angeles.
 - Monitor entitlement status for repeated confirmation: Planning Approval in Los Angeles.
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in New York.
+- Review office conversion feasibility, policy support, and local sponsor activity: Office-to-Residential Conversion in Connecticut.
 - Review office conversion feasibility, policy support, and local sponsor activity: Office-to-Residential Conversion in Unknown.
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 81
-- LA lifecycle watch items: 55
-- Stage mix: Refinancing / Recapitalization: 11, Delivery / Opening: 10, Unknown Stage: 39, Site Acquisition / Site Control: 12, Building Permit / Construction Permit: 1
+- Lifecycle records: 80
+- LA lifecycle watch items: 53
+- Stage mix: Refinancing / Recapitalization: 9, Delivery / Opening: 9, Unknown Stage: 40, Building Permit / Construction Permit: 1, Site Acquisition / Site Control: 11
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

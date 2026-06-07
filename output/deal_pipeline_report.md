@@ -1,9 +1,9 @@
 # Deal & Project Pipeline Report
 
-Generated: 2026-06-07 10:12:37
+Generated: 2026-06-07 23:02:02
 
-- Total deal/project signals found: 56
-- High deal intelligence count: 5
+- Total deal/project signals found: 57
+- High deal intelligence count: 7
 
 ## Top 10 Deal / Project Signals
 
@@ -11,11 +11,11 @@ Generated: 2026-06-07 10:12:37
 - Refinancing - Florida - Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio: Refinancing, Florida, score 93. Capital market signal.
 - Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Disposition / Exit, Los Angeles / California, score 91. Underwriting benchmark.
 - Refinancing - New York City / New York - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi: Refinancing, New York City / New York, score 85. Capital market signal.
+- Refinancing - New York - Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island C...: Refinancing, New York, score 85. Capital market signal.
 - Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester: Disposition / Exit, Los Angeles / California, score 83. Underwriting benchmark.
-- Construction Financing - Miami / Florida - MG Developer and Vertical Developments Secure $100M Construction Loan for Alhambra Par: Construction Financing, Miami / Florida, score 79. Capital market signal.
+- Disposition / Exit - Virginia - Berkadia Arranges $52.5M Sale of 176-Unit Class A Luxury Multifamily Apartment Community i...: Disposition / Exit, Virginia, score 81. Capital market signal.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: General Project Signal, California, score 78. Capital market signal.
 - Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Disposition / Exit, California, score 74. Entitlement / zoning watch.
-- Development Start - California - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach: Development Start, California, score 73. Pipeline / supply signal.
 - Disposition / Exit - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles: Disposition / Exit, Los Angeles / California, score 73. Capital market signal.
 
 ## California / LA Deal Watch
@@ -25,11 +25,11 @@ Generated: 2026-06-07 10:12:37
 - Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester: Disposition / Exit, Los Angeles / California, score 83. Underwriting benchmark.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: General Project Signal, California, score 78. Capital market signal.
 - Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Disposition / Exit, California, score 74. Entitlement / zoning watch.
-- Development Start - California - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach: Development Start, California, score 73. Pipeline / supply signal.
 - Disposition / Exit - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles: Disposition / Exit, Los Angeles / California, score 73. Capital market signal.
 - JV / Partnership - Riverside / California - Residential Multifamily Community Trades for $355k Per-Unit in Riverside California: JV / Partnership, Riverside / California, score 73. Pricing benchmark.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Recapitalization, California, score 69. Capital market signal.
 - Construction Financing - Los Angeles / California - Slatt Capital Arranges $27M Construction Loan for San Gabriel Mixed-Use: Construction Financing, Los Angeles / California, score 65. Capital market signal.
+- Entitlement / Permitting - Los Angeles / California - 85 apartments proposed at 15242 W. Parthenia St. in North Hills: Entitlement / Permitting, Los Angeles / California, score 65. Entitlement / zoning watch.
 
 ## GP / Developer Activity
 
@@ -37,32 +37,32 @@ Generated: 2026-06-07 10:12:37
 - Refinancing - Florida - Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio: Refinancing, Florida, score 93. Capital market signal.
 - Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Disposition / Exit, Los Angeles / California, score 91. Underwriting benchmark.
 - Refinancing - New York City / New York - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi: Refinancing, New York City / New York, score 85. Capital market signal.
+- Refinancing - New York - Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island C...: Refinancing, New York, score 85. Capital market signal.
 - Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester: Disposition / Exit, Los Angeles / California, score 83. Underwriting benchmark.
-- Construction Financing - Miami / Florida - MG Developer and Vertical Developments Secure $100M Construction Loan for Alhambra Par: Construction Financing, Miami / Florida, score 79. Capital market signal.
+- Disposition / Exit - Virginia - Berkadia Arranges $52.5M Sale of 176-Unit Class A Luxury Multifamily Apartment Community i...: Disposition / Exit, Virginia, score 81. Capital market signal.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: General Project Signal, California, score 78. Capital market signal.
 - Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Disposition / Exit, California, score 74. Entitlement / zoning watch.
 - Disposition / Exit - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles: Disposition / Exit, Los Angeles / California, score 73. Capital market signal.
-- JV / Partnership - Riverside / California - Residential Multifamily Community Trades for $355k Per-Unit in Riverside California: JV / Partnership, Riverside / California, score 73. Pricing benchmark.
 
 ## Financing / Refinancing Signals
 
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Construction Financing, California, score 93. Capital market signal.
 - Refinancing - Florida - Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio: Refinancing, Florida, score 93. Capital market signal.
 - Refinancing - New York City / New York - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi: Refinancing, New York City / New York, score 85. Capital market signal.
-- Construction Financing - Miami / Florida - MG Developer and Vertical Developments Secure $100M Construction Loan for Alhambra Par: Construction Financing, Miami / Florida, score 79. Capital market signal.
+- Refinancing - New York - Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island C...: Refinancing, New York, score 85. Capital market signal.
+- Disposition / Exit - Virginia - Berkadia Arranges $52.5M Sale of 176-Unit Class A Luxury Multifamily Apartment Community i...: Disposition / Exit, Virginia, score 81. Capital market signal.
 - General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project: General Project Signal, California, score 78. Capital market signal.
 - Disposition / Exit - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles: Disposition / Exit, Los Angeles / California, score 73. Capital market signal.
+- JV / Partnership - New York City / New York - Institutional Property Advisors Capital Markets Arranges $27M for Newly Built Luxury DC Mu...: JV / Partnership, New York City / New York, score 69. Pricing benchmark.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Recapitalization, California, score 69. Capital market signal.
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Construction Financing, Miami / Florida, score 65. Capital market signal.
-- Construction Financing - Austin / Texas - Dwight Capital Lends $66M of HUD Debt on Texas Luxury Apartments Project: Construction Financing, Austin / Texas, score 65. Capital market signal.
-- Construction Financing - Phoenix / Arizona - Scottsdale Developer Inks $141M Construction Loan for Luxury Apartments: Construction Financing, Phoenix / Arizona, score 65. Capital market signal.
 
 ## Project Pipeline / Supply Signals
 
 - Refinancing - Florida - Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio: Refinancing, Florida, score 93. Capital market signal.
 - Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Disposition / Exit, Los Angeles / California, score 91. Underwriting benchmark.
 - Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester: Disposition / Exit, Los Angeles / California, score 83. Underwriting benchmark.
-- Development Start - California - Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach: Development Start, California, score 73. Pipeline / supply signal.
+- JV / Partnership - Texas - Joint Venture Acquires 1,128-Bed Student Housing Community Serving Texas A&M University in...: JV / Partnership, Texas, score 73. GP partnership reference.
 - JV / Partnership - Texas - JV Closes On 1,128-Bed Texas A&M Housing Deal: JV / Partnership, Texas, score 69. GP partnership reference.
 - General Project Signal - Miami / Florida - Greystar Eyeing 896 Doral Apartment Units: General Project Signal, Miami / Florida, score 66. Underwriting benchmark.
 - Entitlement / Permitting - Los Angeles / California - 85 apartments proposed at 15242 W. Parthenia St. in North Hills: Entitlement / Permitting, Los Angeles / California, score 65. Entitlement / zoning watch.
@@ -77,21 +77,22 @@ Generated: 2026-06-07 10:12:37
 ## Pricing / Cap Rate / Valuation Signals
 
 - JV / Partnership - Riverside / California - Residential Multifamily Community Trades for $355k Per-Unit in Riverside California: JV / Partnership, Riverside / California, score 73. Pricing benchmark.
+- JV / Partnership - New York City / New York - Institutional Property Advisors Capital Markets Arranges $27M for Newly Built Luxury DC Mu...: JV / Partnership, New York City / New York, score 69. Pricing benchmark.
 - Acquisition - New York City / New York - Jonathan Rose Cos. Buys Upper Manhattan Affordable Housing Building for $53M: Acquisition, New York City / New York, score 59. Pricing benchmark.
 - Office-to-Residential Conversion - Phoenix / Arizona - Camelback Office-to-Apartment Conversion Nearly Complete: Office-to-Residential Conversion, Phoenix / Arizona, score 59. Pricing benchmark.
 - Acquisition - Miami / Florida - Miami Apartments Trade for $109.9M: Acquisition, Miami / Florida, score 50. Pricing benchmark.
 
 ## Deal / Project Signals By Residential Sector
 
-- Apartment: 25 deal/project signal(s)
-- Affordable Housing: 10 deal/project signal(s)
-- Multifamily: 9 deal/project signal(s)
+- Apartment: 24 deal/project signal(s)
+- Multifamily: 10 deal/project signal(s)
+- Affordable Housing: 9 deal/project signal(s)
 - Mixed-Use Residential: 4 deal/project signal(s)
+- Student Housing: 3 deal/project signal(s)
 - Senior Housing: 2 deal/project signal(s)
 - General Residential: 2 deal/project signal(s)
-- Student Housing: 2 deal/project signal(s)
+- Office-to-Residential Conversion: 2 deal/project signal(s)
 - BTR / Single-Family Rental: 1 deal/project signal(s)
-- Office-to-Residential Conversion: 1 deal/project signal(s)
 
 ## Canonical Deal Summary
 
@@ -121,7 +122,7 @@ Developer, lender, capital partner, market, and deal edges are available in `rel
 - Capital market signal: read `Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio` from REBusiness Online. Canonical market: Florida.
 - Underwriting benchmark: read `Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson` from Urbanize LA. Canonical market: Los Angeles.
 - Capital market signal: read `JLL Real Estate Capital Provides $70M for West Village Multifamily Refi` from Commercial Observer. Canonical market: New York.
+- Capital market signal: read `Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island City New York` from Yield PRO. Canonical market: New York.
 - Underwriting benchmark: read `19-story high-rise starts work at 6055 Center Drive in Westchester` from Urbanize LA. Canonical market: Los Angeles.
-- Capital market signal: read `MG Developer and Vertical Developments Secure $100M Construction Loan for Alhambra Par` from Yield PRO. Canonical market: Sun Belt.
+- Capital market signal: read `Berkadia Arranges $52.5M Sale of 176-Unit Class A Luxury Multifamily Apartment Community in Poquoson Virginia` from Yield PRO. Canonical market: Virginia.
 - Capital market signal: read `JLL Arranges $252M Financing for Huntington Beach Seniors Project` from Connect CRE Orange County. Canonical market: California.
-- Entitlement / zoning watch: read `Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale` from Connect CRE Orange County. Canonical market: California.

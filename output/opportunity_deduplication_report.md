@@ -1,6 +1,6 @@
 # Opportunity Deduplication Report
 
-Generated: 2026-06-07 10:12:39
+Generated: 2026-06-07 23:02:06
 
 - Total duplicate clusters: 11
 - Opportunities removed via deduplication: 0
@@ -10,31 +10,34 @@ Generated: 2026-06-07 10:12:39
 
 - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: California, 2 related row(s), opportunity score 96, distress score 80.
 - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi: New York City / New York, 2 related row(s), opportunity score 91, distress score 67.
+- Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio: Florida, 2 related row(s), opportunity score 89, distress score 69.
 - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: California, 2 related row(s), opportunity score 88, distress score 72.
-- Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio: Florida, 2 related row(s), opportunity score 88, distress score 69.
-- MG Developer and Vertical Developments Secure $100M Construction Loan for Alhambra Par: Miami / Florida, 2 related row(s), opportunity score 85, distress score 65.
+- Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island City New York: New York, 2 related row(s), opportunity score 86, distress score 66.
 - Slatt Capital Arranges $27M Construction Loan for San Gabriel Mixed-Use: Los Angeles / California, 2 related row(s), opportunity score 64, distress score 60.
 - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Miami / Florida, 2 related row(s), opportunity score 64, distress score 60.
-- Scottsdale Developer Inks $141M Construction Loan for Luxury Apartments: Phoenix / Arizona, 2 related row(s), opportunity score 63, distress score 60.
+- Scottsdale Developer Inks $141M Construction Loan for Luxury Apartments: Phoenix / Arizona, 2 related row(s), opportunity score 64, distress score 60.
 - $14M Refinance Secured for Newly Delivered Wicker Park Multifamily: Other / Unknown, 2 related row(s), opportunity score 61, distress score 56.
 - Dwight Capital Lends $66M of HUD Debt on Texas Luxury Apartments Project: Austin / Texas, 2 related row(s), opportunity score 60, distress score 56.
 
 ## Repeated Refinancing Stories
 
 - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi: New York City / New York, 2 related row(s), opportunity score 91, distress score 67.
-- Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio: Florida, 2 related row(s), opportunity score 88, distress score 69.
+- Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio: Florida, 2 related row(s), opportunity score 89, distress score 69.
+- Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island City New York: New York, 2 related row(s), opportunity score 86, distress score 66.
 - $14M Refinance Secured for Newly Delivered Wicker Park Multifamily: Other / Unknown, 2 related row(s), opportunity score 61, distress score 56.
 - Georgia Tech Student Housing Investors Ink Refi: Atlanta / Georgia, 2 related row(s), opportunity score 58, distress score 52.
 
 ## Repeated GP Partnership Stories
 
+- Berkadia Arranges $52.5M Sale of 176-Unit Class A Luxury Multifamily Apartment Community in Poquoson Virginia: Virginia, 1 related row(s), opportunity score 84, distress score 0.
 - 19-story high-rise starts work at 6055 Center Drive in Westchester: Los Angeles / California, 1 related row(s), opportunity score 83, distress score 0.
 - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles: Los Angeles / California, 1 related row(s), opportunity score 81, distress score 0.
 - Residential Multifamily Community Trades for $355k Per-Unit in Riverside California: Riverside / California, 1 related row(s), opportunity score 81, distress score 0.
 - $123M Financing Arranged by Marcus & Millichap’s IPA Capital Markets for Bay Area Multifamily Property: Los Angeles / California, 1 related row(s), opportunity score 80, distress score 0.
-- Longacre Acquires 541-Unit Houston Multifamily Community Scaling Joint Venture’s 17 State Turnaround Platform: Houston / Texas, 1 related row(s), opportunity score 80, distress score 0.
+- Institutional Property Advisors Capital Markets Arranges $27M for Newly Built Luxury DC Multifamily: New York City / New York, 1 related row(s), opportunity score 80, distress score 0.
+- Joint Venture Acquires 1,128-Bed Student Housing Community Serving Texas A&M University in College Station Texas: Texas, 1 related row(s), opportunity score 80, distress score 0.
+- JV Closes On 1,128-Bed Texas A&M Housing Deal: Texas, 1 related row(s), opportunity score 79, distress score 0.
 - Greystar Eyeing 896 Doral Apartment Units: Miami / Florida, 1 related row(s), opportunity score 78, distress score 0.
-- JV Closes On 1,128-Bed Texas A&M Housing Deal: Texas, 1 related row(s), opportunity score 78, distress score 0.
 - Marcus & Millichap Brokers Sale of 160-Unit Multifamily Property in Wisconsin: Other / Unknown, 1 related row(s), opportunity score 74, distress score 0.
 
 ## California / LA Duplicate Project Tracking
@@ -43,7 +46,6 @@ Generated: 2026-06-07 10:12:39
 - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: California, 2 related row(s), opportunity score 88, distress score 72.
 - JLL Arranges $252M Financing for Huntington Beach Seniors Project: California, 1 related row(s), opportunity score 88, distress score 0.
 - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: California, 1 related row(s), opportunity score 86, distress score 0.
-- Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach: California, 1 related row(s), opportunity score 67, distress score 0.
 - Harbor Island West Marina Launches $70M Redevelopment: California, 1 related row(s), opportunity score 62, distress score 0.
 
 ## Why This Matters

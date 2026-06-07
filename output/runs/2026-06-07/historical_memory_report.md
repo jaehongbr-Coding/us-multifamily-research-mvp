@@ -1,79 +1,79 @@
 # Historical Memory Report
 
-Generated: 2026-06-07 10:12:37
+Generated: 2026-06-07 23:02:02
 
-- Memory rows tracked: 1601
+- Memory rows tracked: 1629
 - Fastest-rising GP: JLL
 - Strongest recurring lender: JLL
 
 ## Fastest-Rising GP
 
-- JLL (GP / Developer): Persistent, 12 observation(s), importance 82.
+- JLL (GP / Developer): Persistent, 13 observation(s), importance 82.
 
 ## Strongest Recurring Lender
 
-- JLL (Lender / Debt Provider): Persistent, 38 observation(s), importance 90.
-- JLL (Lender / Debt Provider): Persistent, 39 observation(s), importance 81.
-- CBRE (Lender / Debt Provider): Persistent, 6 observation(s), importance 76.
+- JLL (Lender / Debt Provider): Persistent, 39 observation(s), importance 90.
+- JLL (Lender / Debt Provider): Persistent, 40 observation(s), importance 81.
+- CBRE (Lender / Debt Provider): Persistent, 7 observation(s), importance 78.
+- CBRE (Lender / Debt Provider): Persistent, 9 observation(s), importance 73.
 - CBRE (Lender / Debt Provider): Fading, 7 observation(s), importance 73.
 - Berkadia (Lender / Debt Provider): Fading, 2 observation(s), importance 73.
-- CBRE (Lender / Debt Provider): Persistent, 8 observation(s), importance 72.
-- walker & dunlop (Lender / Debt Provider): Fading, 4 observation(s), importance 72.
+- walker & dunlop (Lender / Debt Provider): Fading, 4 observation(s), importance 71.
 - JLL (Lender / Debt Provider): Fading, 15 observation(s), importance 68.
-- CBRE (Lender / Debt Provider): Fading, 5 observation(s), importance 67.
+- walker & dunlop (Lender / Debt Provider): Persistent, 5 observation(s), importance 67.
 - northmarq (Lender / Debt Provider): Fading, 9 observation(s), importance 67.
 
 ## Recurring California / LA Relationships
 
-- JLL (Lender / Debt Provider): Persistent, 38 observation(s), importance 90.
-- Santa Ana Multifamily JLL Capital (Institutional Capital Partner): Persistent, 12 observation(s), importance 90.
-- JLL -> JLL (Relationship Edge): Persistent, 93 observation(s), importance 84.
-- CBRE -> CBRE (Relationship Edge): Persistent, 16 observation(s), importance 84.
-- JLL -> California (Relationship Edge): Persistent, 38 observation(s), importance 84.
-- CBRE -> CBRE (Relationship Edge): Persistent, 12 observation(s), importance 84.
-- PEF Advisors -> California (Relationship Edge): Persistent, 32 observation(s), importance 83.
-- Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily (Deal / Project): Persistent, 38 observation(s), importance 82.
-- Freestone Capital (Institutional Capital Partner): Persistent, 12 observation(s), importance 82.
-- JLL (GP / Developer): Persistent, 12 observation(s), importance 82.
+- JLL (Lender / Debt Provider): Persistent, 39 observation(s), importance 90.
+- Santa Ana Multifamily JLL Capital (Institutional Capital Partner): Persistent, 13 observation(s), importance 90.
+- JLL -> JLL (Relationship Edge): Persistent, 96 observation(s), importance 84.
+- CBRE -> CBRE (Relationship Edge): Persistent, 17 observation(s), importance 84.
+- JLL -> California (Relationship Edge): Persistent, 39 observation(s), importance 84.
+- CBRE -> CBRE (Relationship Edge): Persistent, 13 observation(s), importance 84.
+- PEF Advisors -> California (Relationship Edge): Persistent, 34 observation(s), importance 83.
+- Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily (Deal / Project): Persistent, 39 observation(s), importance 82.
+- Freestone Capital (Institutional Capital Partner): Persistent, 13 observation(s), importance 82.
+- JLL (GP / Developer): Persistent, 13 observation(s), importance 82.
 
 ## Persistent BTR / Student / Senior Housing Players
 
-- JLL (Lender / Debt Provider): Persistent, 39 observation(s), importance 81.
-- General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project (Deal / Project): Persistent, 37 observation(s), importance 73.
-- JLL (GP / Developer): Persistent, 12 observation(s), importance 73.
-- Senior Housing (Residential Sector): Persistent, 34 observation(s), importance 73.
-- Kayne Anderson Real Estate (Institutional Capital Partner): Persistent, 12 observation(s), importance 73.
+- JLL (Lender / Debt Provider): Persistent, 40 observation(s), importance 81.
+- General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project (Deal / Project): Persistent, 38 observation(s), importance 73.
+- JLL (GP / Developer): Persistent, 13 observation(s), importance 73.
+- Senior Housing (Residential Sector): Persistent, 35 observation(s), importance 73.
+- Kayne Anderson Real Estate (Institutional Capital Partner): Persistent, 13 observation(s), importance 73.
 - JLL (Institutional Capital Partner): Fading, 2 observation(s), importance 73.
-- Kayne Anderson Real Estate (GP / Developer): Persistent, 12 observation(s), importance 65.
+- PCCP (Institutional Capital Partner): Emerging, 1 observation(s), importance 69.
+- Kayne Anderson Real Estate (GP / Developer): Persistent, 13 observation(s), importance 65.
+- Berkadia (Lender / Debt Provider): Persistent, 10 observation(s), importance 65.
 - JLL (GP / Developer): Fading, 2 observation(s), importance 65.
-- MacFarlane Partners (Institutional Capital Partner): Fading, 4 observation(s), importance 65.
-- Berkadia (Lender / Debt Provider): Persistent, 9 observation(s), importance 64.
 
 ## Recurring Institutional Capital Pairings
 
-- Santa Ana Multifamily JLL Capital (Institutional Capital Partner): Persistent, 12 observation(s), importance 90.
-- JLL -> JLL (Relationship Edge): Persistent, 93 observation(s), importance 84.
-- CBRE -> CBRE (Relationship Edge): Persistent, 16 observation(s), importance 84.
-- JLL -> California (Relationship Edge): Persistent, 38 observation(s), importance 84.
-- CBRE -> CBRE (Relationship Edge): Persistent, 12 observation(s), importance 84.
-- PEF Advisors -> California (Relationship Edge): Persistent, 32 observation(s), importance 83.
-- Freestone Capital (Institutional Capital Partner): Persistent, 12 observation(s), importance 82.
-- PEF Advisors (Institutional Capital Partner): Persistent, 12 observation(s), importance 82.
-- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 16 observation(s), importance 81.
-- Slatt Capital (Institutional Capital Partner): Persistent, 4 observation(s), importance 80.
+- Santa Ana Multifamily JLL Capital (Institutional Capital Partner): Persistent, 13 observation(s), importance 90.
+- JLL -> JLL (Relationship Edge): Persistent, 96 observation(s), importance 84.
+- CBRE -> CBRE (Relationship Edge): Persistent, 17 observation(s), importance 84.
+- JLL -> California (Relationship Edge): Persistent, 39 observation(s), importance 84.
+- CBRE -> CBRE (Relationship Edge): Persistent, 13 observation(s), importance 84.
+- PEF Advisors -> California (Relationship Edge): Persistent, 34 observation(s), importance 83.
+- Freestone Capital (Institutional Capital Partner): Persistent, 13 observation(s), importance 82.
+- PEF Advisors (Institutional Capital Partner): Persistent, 13 observation(s), importance 82.
+- Slatt Capital (Institutional Capital Partner): Persistent, 5 observation(s), importance 82.
+- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 18 observation(s), importance 81.
 
 ## Strongest Multi-Run Relationships
 
-- JLL -> JLL (Relationship Edge): Persistent, 93 observation(s), importance 84.
-- CBRE -> CBRE (Relationship Edge): Persistent, 16 observation(s), importance 84.
-- JLL -> California (Relationship Edge): Persistent, 38 observation(s), importance 84.
-- CBRE -> CBRE (Relationship Edge): Persistent, 12 observation(s), importance 84.
-- PEF Advisors -> California (Relationship Edge): Persistent, 32 observation(s), importance 83.
-- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 16 observation(s), importance 81.
-- Alliance Residential -> California (Relationship Edge): Accelerating, 26 observation(s), importance 75.
-- Alliance Residential -> Riverside (Relationship Edge): Persistent, 13 observation(s), importance 75.
-- JLL -> California (Relationship Edge): Persistent, 39 observation(s), importance 75.
-- JLL -> JLL (Relationship Edge): Persistent, 12 observation(s), importance 75.
+- JLL -> JLL (Relationship Edge): Persistent, 96 observation(s), importance 84.
+- CBRE -> CBRE (Relationship Edge): Persistent, 17 observation(s), importance 84.
+- JLL -> California (Relationship Edge): Persistent, 39 observation(s), importance 84.
+- CBRE -> CBRE (Relationship Edge): Persistent, 13 observation(s), importance 84.
+- PEF Advisors -> California (Relationship Edge): Persistent, 34 observation(s), importance 83.
+- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 18 observation(s), importance 81.
+- Alliance Residential -> California (Relationship Edge): Persistent, 28 observation(s), importance 75.
+- Alliance Residential -> Riverside (Relationship Edge): Persistent, 14 observation(s), importance 75.
+- JLL -> California (Relationship Edge): Persistent, 40 observation(s), importance 75.
+- JLL -> JLL (Relationship Edge): Persistent, 13 observation(s), importance 75.
 
 ## Accelerating Markets
 
@@ -82,7 +82,7 @@ Generated: 2026-06-07 10:12:37
 ## Fading Markets
 
 - Arizona (Market / Region): Fading, 13 observation(s), importance 56.
-- New York (Market / Region): Fading, 21 observation(s), importance 55.
+- New York (Market / Region): Fading, 21 observation(s), importance 54.
 - California (Market / Region): Fading, 4 observation(s), importance 51.
 - Austin (Market / Region): Fading, 10 observation(s), importance 46.
 - National / Other (Market / Region): Fading, 10 observation(s), importance 46.
@@ -94,16 +94,16 @@ Generated: 2026-06-07 10:12:37
 
 ## Recurring Refinancing Stress Signals
 
-- Santa Ana Multifamily JLL Capital (Institutional Capital Partner): Persistent, 12 observation(s), importance 90.
-- JLL (GP / Developer): Persistent, 12 observation(s), importance 81.
-- Slatt Capital (Institutional Capital Partner): Persistent, 4 observation(s), importance 80.
-- JLL (Institutional Capital Partner): Emerging, 2 observation(s), importance 78.
+- Santa Ana Multifamily JLL Capital (Institutional Capital Partner): Persistent, 13 observation(s), importance 90.
+- Slatt Capital (Institutional Capital Partner): Persistent, 5 observation(s), importance 82.
+- JLL (GP / Developer): Persistent, 13 observation(s), importance 81.
+- JLL (Institutional Capital Partner): Persistent, 3 observation(s), importance 79.
+- JLL (GP / Developer): Persistent, 5 observation(s), importance 75.
 - JLL (Institutional Capital Partner): Fading, 2 observation(s), importance 75.
-- Miami Apartments Madison Realty Capital (Institutional Capital Partner): Persistent, 12 observation(s), importance 74.
-- Kayne Anderson Real Estate (Institutional Capital Partner): Persistent, 12 observation(s), importance 73.
-- JLL (GP / Developer): Persistent, 4 observation(s), importance 73.
+- Miami Apartments Madison Realty Capital (Institutional Capital Partner): Persistent, 13 observation(s), importance 74.
+- Kayne Anderson Real Estate (Institutional Capital Partner): Persistent, 13 observation(s), importance 73.
 - JLL (Institutional Capital Partner): Fading, 2 observation(s), importance 73.
-- PSRS (Institutional Capital Partner): Fading, 2 observation(s), importance 72.
+- Slatt Capital (GP / Developer): Persistent, 5 observation(s), importance 72.
 
 ## Canonical Deal Summary
 

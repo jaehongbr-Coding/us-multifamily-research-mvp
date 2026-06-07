@@ -1,8 +1,8 @@
 # LA Lifecycle Transition Watch Report
 
-Generated: 2026-06-07 10:12:42
+Generated: 2026-06-07 23:02:09
 
-- Total LA lifecycle transition watch items: 54
+- Total LA lifecycle transition watch items: 52
 
 ## LA Projects Moving Forward
 
@@ -26,36 +26,34 @@ Generated: 2026-06-07 10:12:42
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 - Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- MG Developer and Vertical Developments Secure $100M Construction Loan for Alhambra Par: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 
 ## LA Delivery / Lease-Up Benchmarks
 
 - Refinancing - New York City / New York - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
 - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
+- Residential Multifamily Community Trades for $355k Per-Unit in Riverside California: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
 - Arrow Real Estate Advisors Arranges $70M for Delaware MF Development: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
-- Gantry Secures $39.5M Construction Takeout Loan for Saint Paul Class A Multifamily Community Edison at Woodbury: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
-- General Project Signal - National - Gantry Secures $39.5M Construction Takeout Loan for Saint Paul Class A Multifamily Communi...: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
-- Residential Multifamily Community Trades for $355k Per-Unit in Riverside California: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- Refinancing - New York - Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island C...: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
 
 ## Recommended LA Transition Follow-up Actions
 
 - Use as delivery, lease-up, and underwriting benchmark: Refinancing - New York City / New York - JLL Real Estate Capital Provides $70M for West Village Multifamily Refi.
 - Use as delivery, lease-up, and underwriting benchmark: JLL Real Estate Capital Provides $70M for West Village Multifamily Refi.
-- Use as delivery, lease-up, and underwriting benchmark: Arrow Real Estate Advisors Arranges $70M for Delaware MF Development.
-- Use as delivery, lease-up, and underwriting benchmark: Gantry Secures $39.5M Construction Takeout Loan for Saint Paul Class A Multifamily Community Edison at Woodbury.
-- Use as delivery, lease-up, and underwriting benchmark: General Project Signal - National - Gantry Secures $39.5M Construction Takeout Loan for Saint Paul Class A Multifamily Communi....
 - Use as delivery, lease-up, and underwriting benchmark: Residential Multifamily Community Trades for $355k Per-Unit in Riverside California.
+- Use as delivery, lease-up, and underwriting benchmark: Arrow Real Estate Advisors Arranges $70M for Delaware MF Development.
+- Use as delivery, lease-up, and underwriting benchmark: Refinancing - New York - Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island C....
 - Track maturity, lender, recapitalization need, and potential JV angle: Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties.
 - Track maturity, lender, recapitalization need, and potential JV angle: Slatt Capital Arranges $27M Construction Loan for San Gabriel Mixed-Use.
+- Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 668
-- Canonical projects: 176
-- Duplicate project clusters: 122
-- Persistent assets tracked: 176
-- LA persistent asset watch items: 124
+- Raw project references: 667
+- Canonical projects: 171
+- Duplicate project clusters: 119
+- Persistent assets tracked: 171
+- LA persistent asset watch items: 121
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-06-07 10:12:42
+Generated: 2026-06-07 23:02:09
 
-- Total raw project references: 668
-- Total canonical projects: 176
-- Duplicate project clusters: 122
-- High-confidence project identities: 668
+- Total raw project references: 667
+- Total canonical projects: 171
+- Duplicate project clusters: 119
+- High-confidence project identities: 667
 - Low-confidence identities needing review: 0
-- LA / California project references: 458
+- LA / California project references: 464
 
 ## Top Repeated Projects
 
-- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: 41 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: 41 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: 41 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: 41 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: 41 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: 41 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: 41 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: 41 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: 41 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: 41 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Connecticut - Condyne Capital Plans Adaptive Reuse Multifamily Redevelopment of Former Konica Minolta Bu...: 41 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Connecticut - Condyne Capital Plans Adaptive Reuse Multifamily Redevelopment of Former Konica Minolta Bu...: 41 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Connecticut - Condyne Capital Plans Adaptive Reuse Multifamily Redevelopment of Former Konica Minolta Bu...: 41 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Connecticut - Condyne Capital Plans Adaptive Reuse Multifamily Redevelopment of Former Konica Minolta Bu...: 41 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Connecticut - Condyne Capital Plans Adaptive Reuse Multifamily Redevelopment of Former Konica Minolta Bu...: 41 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Connecticut - Condyne Capital Plans Adaptive Reuse Multifamily Redevelopment of Former Konica Minolta Bu...: 41 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Connecticut - Condyne Capital Plans Adaptive Reuse Multifamily Redevelopment of Former Konica Minolta Bu...: 41 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Connecticut - Condyne Capital Plans Adaptive Reuse Multifamily Redevelopment of Former Konica Minolta Bu...: 41 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Connecticut - Condyne Capital Plans Adaptive Reuse Multifamily Redevelopment of Former Konica Minolta Bu...: 41 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Connecticut - Condyne Capital Plans Adaptive Reuse Multifamily Redevelopment of Former Konica Minolta Bu...: 41 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

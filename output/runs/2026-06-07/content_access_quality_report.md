@@ -4,20 +4,20 @@ Limited articles are retained only as conservative title/lead-based evidence. Li
 
 ## Summary
 - Total articles: 77
-- Total limited_or_paywall articles: 12
+- Total limited_or_paywall articles: 11
 - suspicious_mismatch articles: 0
 - limited_or_paywall and suspicious_mismatch overlap: 0
-- Limited articles selected into Development Activity: 11
+- Limited articles selected into Development Activity: 10
 - Limited articles selected into GP / Capital Activity: 0
 - Limited articles selected into Representative Evidence: 1
 
 ## Limited Articles by Source
-- Urbanize LA: 9
+- Urbanize LA: 8
 - SF YIMBY: 2
 - Bisnow: 1
 
 ## Limited Articles by Display Section
-- Development Activity: 11
+- Development Activity: 10
 - GP / Capital Activity: 1
 
 ## Sample Limited Articles
@@ -28,7 +28,6 @@ Limited articles are retained only as conservative title/lead-based evidence. Li
 - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson | Urbanize LA | Development Activity | unknown confidence
 - Affordable housing proposed for 23022 W. Ventura Blvd. in Woodland Hills | Urbanize LA | Development Activity | unknown confidence
 - Proposed apartments face appeal at 3411 Foothill Blvd. in Glendale | Urbanize LA | Development Activity | unknown confidence
-- Construction begins for affordable housing at 4151 E. Fountain Ave. in Long Beach | Urbanize LA | Development Activity | unknown confidence
 - 40-unit development moves forward at 2301 N. Sepulveda Blvd. in Manhattan Beach | Urbanize LA | Development Activity | unknown confidence
 - Revised Plans Filed For 2785 San Bruno Avenue, San Francisco | SF YIMBY | Development Activity | unknown confidence
 - Multifamily CMBS Loan Distress Keeps Rising | Bisnow | GP / Capital Activity | low confidence

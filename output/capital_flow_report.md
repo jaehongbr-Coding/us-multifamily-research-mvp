@@ -1,52 +1,52 @@
 # Capital Flow Memory Report
 
-Generated: 2026-06-07 10:12:37
+Generated: 2026-06-07 23:02:02
 
 ## Debt-Market Stress Summary
 
-- Atlanta / Georgia (Market-Level Capital Concentration): Stable capital pattern, 20 observation(s), importance 100.
+- Atlanta / Georgia (Market-Level Capital Concentration): Stable capital pattern, 21 observation(s), importance 100.
 - Berkadia (Recurring Lender): Capital flow fading, 7 observation(s), importance 100.
 - Berkadia (Recurring Lender): Capital flow fading, 8 observation(s), importance 100.
-- California (Market-Level Capital Concentration): Stable capital pattern, 114 observation(s), importance 100.
-- California (Market-Level Capital Concentration): Stable capital pattern, 78 observation(s), importance 100.
-- Florida (Market-Level Capital Concentration): Stable capital pattern, 38 observation(s), importance 100.
+- California (Market-Level Capital Concentration): Stable capital pattern, 115 observation(s), importance 100.
+- California (Market-Level Capital Concentration): Stable capital pattern, 79 observation(s), importance 100.
+- Florida (Market-Level Capital Concentration): Stable capital pattern, 39 observation(s), importance 100.
 - Florida (Market-Level Capital Concentration): Capital flow fading, 8 observation(s), importance 100.
-- Freddie Mac (Recurring Lender): Capital flow fading, 7 observation(s), importance 100.
 - Freddie Mac (Recurring Lender): Capital flow fading, 8 observation(s), importance 100.
-- Freddie Mac (Recurring Lender): Stable capital pattern, 4 observation(s), importance 100.
+- Freddie Mac (Recurring Lender): Stable capital pattern, 5 observation(s), importance 100.
+- Freddie Mac (Recurring Lender): Capital flow fading, 7 observation(s), importance 100.
 
 ## Capital Migration Patterns
 
-- Blackstone (Recurring Capital Partner): Capital flow fading, 19 observation(s), importance 100.
 - Blackstone (Recurring Capital Partner): Capital flow fading, 11 observation(s), importance 100.
+- Blackstone (Recurring Capital Partner): Capital flow fading, 19 observation(s), importance 100.
 - Blackstone (Institutional Capital Flow): Capital flow fading, 19 observation(s), importance 100.
-- CBRE (Institutional Capital Flow): Stable capital pattern, 6 observation(s), importance 100.
-- Freestone Capital (Institutional Capital Flow): Stable capital pattern, 12 observation(s), importance 100.
-- Hanover Company (Institutional Capital Flow): Stable capital pattern, 6 observation(s), importance 100.
-- Kayne Anderson Real Estate (Institutional Capital Flow): Stable capital pattern, 12 observation(s), importance 100.
+- CBRE (Institutional Capital Flow): Stable capital pattern, 7 observation(s), importance 100.
+- Freestone Capital (Institutional Capital Flow): Stable capital pattern, 13 observation(s), importance 100.
+- Hanover Company (Institutional Capital Flow): Stable capital pattern, 7 observation(s), importance 100.
+- Kayne Anderson Real Estate (Institutional Capital Flow): Stable capital pattern, 13 observation(s), importance 100.
 - Lincoln Property Company (Institutional Capital Flow): Capital flow fading, 9 observation(s), importance 100.
-- Luxury Apartments The Hampton Group (Institutional Capital Flow): Stable capital pattern, 6 observation(s), importance 100.
-- Marcus & Millichap (Institutional Capital Flow): Stable capital pattern, 6 observation(s), importance 100.
+- Luxury Apartments The Hampton Group (Institutional Capital Flow): Stable capital pattern, 7 observation(s), importance 100.
+- Miami Apartments Madison Realty Capital (Institutional Capital Flow): Stable capital pattern, 13 observation(s), importance 100.
 
 ## Recurring Construction Lending Activity
 
-- Austin / Texas (Market-Level Capital Concentration): Stable capital pattern, 6 observation(s), importance 100.
-- Berkadia (Recurring Lender): Stable capital pattern, 4 observation(s), importance 100.
-- California (Market-Level Capital Concentration): Stable capital pattern, 114 observation(s), importance 100.
-- JLL (Recurring Lender): Stable capital pattern, 38 observation(s), importance 100.
+- Austin / Texas (Market-Level Capital Concentration): Stable capital pattern, 7 observation(s), importance 100.
+- California (Market-Level Capital Concentration): Stable capital pattern, 115 observation(s), importance 100.
+- JLL (Recurring Lender): Stable capital pattern, 39 observation(s), importance 100.
 - Los Angeles (Market-Level Capital Concentration): Capital flow fading, 77 observation(s), importance 100.
-- Los Angeles / California (Market-Level Capital Concentration): Stable capital pattern, 57 observation(s), importance 100.
-- Los Angeles / California (Market-Level Capital Concentration): Stable capital pattern, 10 observation(s), importance 100.
-- Miami / Florida (Market-Level Capital Concentration): Stable capital pattern, 11 observation(s), importance 100.
-- Miami / Florida (Market-Level Capital Concentration): Stable capital pattern, 46 observation(s), importance 100.
+- Los Angeles / California (Market-Level Capital Concentration): Stable capital pattern, 61 observation(s), importance 100.
+- Los Angeles / California (Market-Level Capital Concentration): Stable capital pattern, 12 observation(s), importance 100.
+- Miami / Florida (Market-Level Capital Concentration): Capital flow fading, 11 observation(s), importance 100.
+- Miami / Florida (Market-Level Capital Concentration): Stable capital pattern, 49 observation(s), importance 100.
 - National (Market-Level Capital Concentration): Capital flow fading, 13 observation(s), importance 100.
+- New York (Market-Level Capital Concentration): Stable capital pattern, 23 observation(s), importance 100.
 
 ## Agency Financing Patterns
 
-- Freddie Mac (Recurring Lender): Capital flow fading, 7 observation(s), importance 100.
 - Freddie Mac (Recurring Lender): Capital flow fading, 8 observation(s), importance 100.
-- Freddie Mac (Recurring Lender): Stable capital pattern, 4 observation(s), importance 100.
-- Freddie Mac (Institutional Capital Flow): Stable capital pattern, 4 observation(s), importance 77.
+- Freddie Mac (Recurring Lender): Stable capital pattern, 5 observation(s), importance 100.
+- Freddie Mac (Recurring Lender): Capital flow fading, 7 observation(s), importance 100.
+- Freddie Mac (Institutional Capital Flow): Stable capital pattern, 5 observation(s), importance 89.
 - Fannie Mae (Recurring Lender): Capital flow fading, 5 observation(s), importance 60.
 - Fannie Mae (Recurring Lender): Capital flow fading, 4 observation(s), importance 48.
 - Fannie Mae (Institutional Capital Flow): Capital flow fading, 4 observation(s), importance 48.
@@ -56,29 +56,29 @@ Generated: 2026-06-07 10:12:37
 
 ## Refinancing Hotspots
 
-- Atlanta / Georgia (Market-Level Capital Concentration): Stable capital pattern, 20 observation(s), importance 100.
+- Atlanta / Georgia (Market-Level Capital Concentration): Stable capital pattern, 21 observation(s), importance 100.
 - Berkadia (Recurring Lender): Capital flow fading, 7 observation(s), importance 100.
 - Berkadia (Recurring Lender): Capital flow fading, 8 observation(s), importance 100.
-- California (Market-Level Capital Concentration): Stable capital pattern, 114 observation(s), importance 100.
-- California (Market-Level Capital Concentration): Stable capital pattern, 78 observation(s), importance 100.
-- Florida (Market-Level Capital Concentration): Stable capital pattern, 38 observation(s), importance 100.
+- California (Market-Level Capital Concentration): Stable capital pattern, 115 observation(s), importance 100.
+- California (Market-Level Capital Concentration): Stable capital pattern, 79 observation(s), importance 100.
+- Florida (Market-Level Capital Concentration): Stable capital pattern, 39 observation(s), importance 100.
 - Florida (Market-Level Capital Concentration): Capital flow fading, 8 observation(s), importance 100.
-- Freddie Mac (Recurring Lender): Capital flow fading, 7 observation(s), importance 100.
 - Freddie Mac (Recurring Lender): Capital flow fading, 8 observation(s), importance 100.
-- Freddie Mac (Recurring Lender): Stable capital pattern, 4 observation(s), importance 100.
+- Freddie Mac (Recurring Lender): Stable capital pattern, 5 observation(s), importance 100.
+- Freddie Mac (Recurring Lender): Capital flow fading, 7 observation(s), importance 100.
 
 ## Institutional Capital Concentration
 
 - Arizona (Market-Level Capital Concentration): Capital flow fading, 14 observation(s), importance 100.
-- Atlanta / Georgia (Market-Level Capital Concentration): Stable capital pattern, 20 observation(s), importance 100.
-- Atlanta / Georgia (Market-Level Capital Concentration): Stable capital pattern, 44 observation(s), importance 100.
-- Austin / Texas (Market-Level Capital Concentration): Stable capital pattern, 6 observation(s), importance 100.
-- California (Market-Level Capital Concentration): Stable capital pattern, 45 observation(s), importance 100.
+- Atlanta / Georgia (Market-Level Capital Concentration): Stable capital pattern, 45 observation(s), importance 100.
+- Atlanta / Georgia (Market-Level Capital Concentration): Stable capital pattern, 21 observation(s), importance 100.
+- Austin / Texas (Market-Level Capital Concentration): Stable capital pattern, 7 observation(s), importance 100.
+- California (Market-Level Capital Concentration): Stable capital pattern, 115 observation(s), importance 100.
+- California (Market-Level Capital Concentration): Stable capital pattern, 53 observation(s), importance 100.
+- California (Market-Level Capital Concentration): Stable capital pattern, 46 observation(s), importance 100.
+- California (Market-Level Capital Concentration): Stable capital pattern, 79 observation(s), importance 100.
 - California (Market-Level Capital Concentration): Capital flow fading, 12 observation(s), importance 100.
-- California (Market-Level Capital Concentration): Stable capital pattern, 114 observation(s), importance 100.
-- California (Market-Level Capital Concentration): Stable capital pattern, 51 observation(s), importance 100.
-- California (Market-Level Capital Concentration): Stable capital pattern, 78 observation(s), importance 100.
-- Dallas / Texas (Market-Level Capital Concentration): Stable capital pattern, 16 observation(s), importance 100.
+- Dallas / Texas (Market-Level Capital Concentration): Stable capital pattern, 18 observation(s), importance 100.
 
 ## Opportunity / Distress Radar
 

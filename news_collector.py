@@ -2368,7 +2368,7 @@ SUPPLY_DEMAND_RULES = [
 
 INSTITUTIONAL_ACTIVITY_RULES = [
     ("sponsor_recapitalization", ["recapitalization", "recap"]),
-    ("lender_activity", ["lender", "lending", "loan", "financing", "fannie mae", "freddie mac", "berkadia", "greystone", "walker & dunlop"]),
+    ("lender_activity", ["lender", "lending", "fannie mae", "freddie mac", "berkadia", "greystone", "walker & dunlop"]),
     ("reit_activity", ["reit", "real estate investment trust"]),
     ("pension_fund_activity", ["pension fund", "calpers", "calstrs", "teachers"]),
     ("insurance_capital", ["insurance company", "life insurance", "insurer"]),
@@ -2423,15 +2423,15 @@ ENTITY_ROLE_RULES = [
 ]
 
 PRIMARY_TOPIC_PRIORITY = [
-    "capital_markets",
     "development_pipeline",
+    "transaction_market",
     "supply_demand",
     "institutional_capital",
     "gp_activity",
     "entitlement_policy",
     "operations_property_management",
     "macro_financing",
-    "transaction_market",
+    "capital_markets",
     "research_data",
 ]
 

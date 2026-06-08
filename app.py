@@ -9435,7 +9435,7 @@ def article_feed_date(row):
     return get_first(row, ["published", "collected_at"], "날짜 미확인")
 
 
-def render_article_feed_card_item(row):
+def legacy_render_article_feed_card_item_01(row):
     item = row.to_dict() if hasattr(row, "to_dict") else row
     category_label = {
         "market": "시장 기사",
@@ -9490,7 +9490,7 @@ def render_article_feed_collapsed_section(title, rows, limit=20):
             render_article_feed_item(row)
 
 
-def page_article_feed(shared, filters):
+def legacy_page_article_feed_01(shared, filters):
     st.title("기사 모음 / Article Feed")
     st.caption("수집된 주요 기사들을 카테고리별로 확인하는 페이지입니다.")
     rows = article_feed_rows(shared)
@@ -9903,7 +9903,7 @@ def article_feed_is_access_limited(row):
     return str(row.get("access_status", "") or "").strip().lower() == "access_limited"
 
 
-def filter_article_feed_rows(rows, market_group, market, sector, display_category, include_access_limited):
+def filter_article_feed_rows(rows, market_group, market, sector, display_category, include_access_limited, event_tag="All"):
     if rows.empty:
         return rows
     filtered = rows.copy()
@@ -9917,6 +9917,10 @@ def filter_article_feed_rows(rows, market_group, market, sector, display_categor
         filtered = filtered[filtered["normalized_sector"].fillna("").astype(str) == sector]
     if display_category != "All":
         filtered = filtered[filtered.apply(lambda row: display_category in article_feed_category_tags(row.to_dict()), axis=1)]
+    if event_tag != "All":
+        filtered = filtered[filtered.apply(
+            lambda row: event_tag in article_feed_split_tags(str(row.to_dict().get("event_tags", ""))), axis=1
+        )]
     return filtered
 
 
@@ -9941,7 +9945,7 @@ def render_article_feed_item(row):
             st.markdown(f"[원문 보기]({url})")
 
 
-def page_article_feed(shared, filters):
+def legacy_page_article_feed_02(shared, filters):
     st.title("기사 모음 / Article Feed")
     st.caption("수집된 주요 주거시장 뉴스를 시장, 섹터, 이벤트 태그별로 확인합니다.")
     rows = article_feed_rows(shared)
@@ -10248,6 +10252,13 @@ def article_feed_rerun():
         rerun()
 
 
+def apply_pending_article_feed_category():
+    pending_category = st.session_state.pop("article_feed_pending_category", None)
+    if pending_category in ARTICLE_FEED_DISPLAY_CATEGORIES:
+        st.session_state["article_feed_display_category"] = pending_category
+        st.session_state["article_feed_current_page"] = 1
+
+
 def page_article_feed(shared, filters):
     st.markdown("<div id='article-feed-top'></div>", unsafe_allow_html=True)
     st.title("기사 모음 / Article Feed")
@@ -10270,7 +10281,9 @@ def page_article_feed(shared, filters):
     archive_count = int(freshness_counts.get("archive", 0))
     unknown_date_count = int(freshness_counts.get("unknown_date", 0))
 
-    filter_cols = st.columns([0.9, 1.15, 0.95, 1.55, 1, 1, 1])
+    apply_pending_article_feed_category()
+
+    filter_cols = st.columns([0.9, 1.15, 0.95, 1.55, 1, 1, 1.2])
     with filter_cols[0]:
         market_group = st.selectbox("지역", ["All", "Core 15", "Watchlist 8", "Other"], key="article_feed_market_group")
     with filter_cols[1]:
@@ -10287,13 +10300,17 @@ def page_article_feed(shared, filters):
             key="article_feed_freshness_filter",
         )
     with filter_cols[5]:
-        include_access_limited = st.checkbox("접근 제한 기사 포함", value=False, key="article_feed_include_access_limited")
-    with filter_cols[6]:
         display_limit_label = st.selectbox(
             "페이지당 표시",
             ["20개", "40개", "전체 보기"],
             index=0,
             key="article_feed_display_limit",
+        )
+    with filter_cols[6]:
+        event_tag = st.selectbox(
+            "Event Tag",
+            ["All", *article_feed_unique_tags(rows)],
+            key="article_feed_event_tag",
         )
 
     filtered_rows = filter_article_feed_rows(
@@ -10302,7 +10319,8 @@ def page_article_feed(shared, filters):
         market,
         sector,
         display_category,
-        include_access_limited,
+        False,
+        event_tag,
     )
     filtered_rows = filter_article_feed_by_freshness(filtered_rows, freshness_filter)
     matching_count = len(filtered_rows)
@@ -10375,6 +10393,16 @@ def page_article_feed(shared, filters):
         st.caption(f"현재 {page_range_label} / {matching_count}개")
     elif matching_count:
         st.caption(f"현재 {page_range_label} / {matching_count}개")
+
+    access_limited_rows = rows[
+        rows.apply(lambda row: article_feed_is_access_limited(row.to_dict()), axis=1)
+    ]
+    if not access_limited_rows.empty:
+        st.divider()
+        with st.expander(f"접근 제한 기사 보관 ({len(access_limited_rows)}건)", expanded=False):
+            st.caption("페이월 등 접근 제한으로 본문 확인이 어려운 기사입니다. 제목과 원문 링크만 보존합니다.")
+            render_article_feed_cards(access_limited_rows)
+
     st.markdown("[맨 위로 이동](#article-feed-top)")
 
 
@@ -10567,9 +10595,137 @@ def render_market_dashboard_ranking(market_counts, limit=10):
         st.progress(min(count / max_count, 1.0))
 
 
+MARKET_DASHBOARD_CATEGORY_CARDS = [
+    (
+        "개발/인허가",
+        "개발계획, 착공, 준공, 인허가, 토지/부지 관련 기사",
+        True,
+    ),
+    (
+        "거래/투자",
+        "자산 매각, 인수, JV, GP/운용사 투자, BTR 지분거래",
+        False,
+    ),
+    (
+        "시장 데이터",
+        "임대료, 흡수율, 공실률, 공급, 정책, 매크로 시장 흐름",
+        False,
+    ),
+]
+
+
+def market_dashboard_category_count(rows, category):
+    if rows.empty:
+        return 0
+    return int(rows.apply(
+        lambda row: (
+            article_feed_clean_value(row.to_dict().get("display_category", "")) == category
+            or category in article_feed_category_tags(row.to_dict())
+        ),
+        axis=1,
+    ).sum())
+
+
+def open_article_feed_with_category(category):
+    st.session_state["article_feed_pending_category"] = category
+    st.session_state["article_feed_display_category"] = category
+    st.session_state["article_feed_current_page"] = 1
+    st.session_state["app_page"] = "Article Feed"
+    st.session_state["article_feed_applied_query_category"] = category
+    try:
+        st.query_params["page"] = "Article Feed"
+        st.query_params["category"] = category
+    except Exception:
+        pass
+
+
+def render_market_dashboard_category_cards(rows):
+    st.markdown("### 기사 성격별 분류")
+    st.caption("Article Feed와 같은 분류 기준으로 현재 수집 기사를 빠르게 엽니다.")
+    st.markdown(
+        """
+        <style>
+        .dashboard-category-card {
+            border: 1px solid #d8dee9;
+            border-radius: 8px;
+            padding: 1rem;
+            min-height: 168px;
+            background: #ffffff;
+            box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05);
+        }
+        .dashboard-category-card.primary {
+            min-height: 204px;
+            border-color: #9bb7d4;
+            background: #f7fbff;
+        }
+        .dashboard-category-title {
+            font-size: 1.05rem;
+            font-weight: 700;
+            margin-bottom: 0.45rem;
+        }
+        .dashboard-category-card.primary .dashboard-category-title {
+            font-size: 1.22rem;
+        }
+        .dashboard-category-count {
+            font-size: 2rem;
+            font-weight: 750;
+            line-height: 1.05;
+            margin: 0.25rem 0 0.55rem;
+        }
+        .dashboard-category-card.primary .dashboard-category-count {
+            font-size: 2.55rem;
+        }
+        .dashboard-category-description {
+            color: #475569;
+            font-size: 0.92rem;
+            line-height: 1.45;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+    primary = MARKET_DASHBOARD_CATEGORY_CARDS[0]
+    secondary_cards = MARKET_DASHBOARD_CATEGORY_CARDS[1:]
+
+    primary_col, secondary_col = st.columns([1.25, 2])
+    with primary_col:
+        category, description, emphasized = primary
+        count = market_dashboard_category_count(rows, category)
+        card_class = "dashboard-category-card primary" if emphasized else "dashboard-category-card"
+        st.markdown(
+            f"""
+            <div class="{card_class}">
+                <div class="dashboard-category-title">{html.escape(category)}</div>
+                <div class="dashboard-category-count">{count}</div>
+                <div class="dashboard-category-description">{html.escape(description)}</div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        st.button("기사 보기", key=f"dashboard_category_{category}", on_click=open_article_feed_with_category, args=(category,))
+
+    with secondary_col:
+        cols = st.columns(2)
+        for col, (category, description, emphasized) in zip(cols, secondary_cards):
+            with col:
+                count = market_dashboard_category_count(rows, category)
+                card_class = "dashboard-category-card primary" if emphasized else "dashboard-category-card"
+                st.markdown(
+                    f"""
+                    <div class="{card_class}">
+                        <div class="dashboard-category-title">{html.escape(category)}</div>
+                        <div class="dashboard-category-count">{count}</div>
+                        <div class="dashboard-category-description">{html.escape(description)}</div>
+                    </div>
+                    """,
+                    unsafe_allow_html=True,
+                )
+                st.button("기사 보기", key=f"dashboard_category_{category}", on_click=open_article_feed_with_category, args=(category,))
+
+
 def page_market_dashboard(shared, filters):
     st.title("Market Dashboard")
-    st.caption("수집된 미국 주거시장 뉴스를 시장, 섹터, 이벤트 기준으로 확인합니다.")
+    st.caption("수집된 미국 주거시장 뉴스를 기사 성격별 분류 중심으로 확인합니다.")
     rows = market_dashboard_rows(shared)
     if rows.empty:
         missing_file_message(FILES["articles"])
@@ -10591,12 +10747,11 @@ def page_market_dashboard(shared, filters):
         with col:
             render_compact_metric(label, value)
 
+    render_market_dashboard_category_cards(rows)
+
     market_counts = market_dashboard_market_counts(rows)
     sector_counts = market_dashboard_sector_counts(rows, limit=5)
     event_tag_counts = market_dashboard_event_tag_counts(rows, limit=8)
-
-    render_market_dashboard_capture_cards(market_counts)
-    render_market_dashboard_ranking(market_counts, limit=10)
 
     st.markdown("### 최근 수집 기사")
     recent_rows = market_dashboard_recent_rows(rows, limit=3)
@@ -12771,7 +12926,7 @@ def page_executive_briefing(shared, filters):
 # Earlier main variants are intentionally preserved as legacy_main_XX so that
 # historical page/render logic remains available while this final entry point
 # stays unambiguous.
-def main():
+def legacy_main_21():
     st.set_page_config(
         page_title="US Residential Intelligence",
         page_icon="🏙️",
@@ -12840,7 +12995,21 @@ def main():
         "Market Dashboard": page_market_dashboard,
         "Article Feed": page_article_feed,
     }
-    page_name = st.sidebar.radio("Page", list(pages.keys()), index=0)
+    try:
+        query_page = st.query_params.get("page")
+        query_category = st.query_params.get("category")
+    except Exception:
+        query_page = None
+        query_category = None
+    if query_page in pages and "app_page" not in st.session_state:
+        st.session_state["app_page"] = query_page
+    if (
+        query_category in ARTICLE_FEED_DISPLAY_CATEGORIES
+        and st.session_state.get("article_feed_applied_query_category") != query_category
+    ):
+        st.session_state["article_feed_pending_category"] = query_category
+        st.session_state["article_feed_applied_query_category"] = query_category
+    page_name = st.sidebar.radio("Page", list(pages.keys()), index=0, key="app_page")
     st.sidebar.markdown(
         f"""
         <div class="sidebar-version">

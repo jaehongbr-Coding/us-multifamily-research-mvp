@@ -10618,10 +10618,7 @@ def market_dashboard_category_count(rows, category):
     if rows.empty:
         return 0
     return int(rows.apply(
-        lambda row: (
-            article_feed_clean_value(row.to_dict().get("display_category", "")) == category
-            or category in article_feed_category_tags(row.to_dict())
-        ),
+        lambda row: article_feed_display_category(row.to_dict()) == category,
         axis=1,
     ).sum())
 
@@ -10641,7 +10638,7 @@ def open_article_feed_with_category(category):
 
 def render_market_dashboard_category_cards(rows):
     st.markdown("### 기사 성격별 분류")
-    st.caption("Article Feed와 같은 분류 기준으로 현재 수집 기사를 빠르게 엽니다.")
+    st.caption("Article Feed와 같은 분류 기준으로 현재 수집 기사를 빠르게 엽니다. 수치는 전체 기간 기준이며 Freshness 필터 미적용입니다.")
     st.markdown(
         """
         <style>
@@ -10753,21 +10750,22 @@ def page_market_dashboard(shared, filters):
     sector_counts = market_dashboard_sector_counts(rows, limit=5)
     event_tag_counts = market_dashboard_event_tag_counts(rows, limit=8)
 
-    st.markdown("### 최근 수집 기사")
-    recent_rows = market_dashboard_recent_rows(rows, limit=3)
-    if recent_rows.empty:
-        st.caption("표시할 최근 기사가 없습니다.")
-    else:
-        for _, row in recent_rows.iterrows():
-            render_article_feed_item(row)
+    with st.expander("최근 수집 기사", expanded=False):
+        recent_rows = market_dashboard_recent_rows(rows, limit=3)
+        if recent_rows.empty:
+            st.caption("표시할 최근 기사가 없습니다.")
+        else:
+            for _, row in recent_rows.iterrows():
+                render_article_feed_item(row)
 
-    summary_cols = st.columns(2)
-    with summary_cols[0]:
-        st.markdown("### 주요 섹터")
-        st.table(market_dashboard_count_table(sector_counts, "섹터", "기사 수", limit=5))
-    with summary_cols[1]:
-        st.markdown("### 주요 이벤트 태그")
-        st.table(market_dashboard_count_table(event_tag_counts, "이벤트 태그", "기사 수", limit=8))
+    with st.expander("주요 섹터 / 이벤트 태그", expanded=False):
+        summary_cols = st.columns(2)
+        with summary_cols[0]:
+            st.markdown("### 주요 섹터")
+            st.table(market_dashboard_count_table(sector_counts, "섹터", "기사 수", limit=5))
+        with summary_cols[1]:
+            st.markdown("### 주요 이벤트 태그")
+            st.table(market_dashboard_count_table(event_tag_counts, "이벤트 태그", "기사 수", limit=8))
 
     st.caption("지도형 시장 대시보드는 다음 단계에서 추가 예정입니다.")
 

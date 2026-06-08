@@ -10618,7 +10618,7 @@ def market_dashboard_category_count(rows, category):
     if rows.empty:
         return 0
     return int(rows.apply(
-        lambda row: article_feed_display_category(row.to_dict()) == category,
+        lambda row: category in article_feed_category_tags(row.to_dict()),
         axis=1,
     ).sum())
 
@@ -10745,27 +10745,6 @@ def page_market_dashboard(shared, filters):
             render_compact_metric(label, value)
 
     render_market_dashboard_category_cards(rows)
-
-    market_counts = market_dashboard_market_counts(rows)
-    sector_counts = market_dashboard_sector_counts(rows, limit=5)
-    event_tag_counts = market_dashboard_event_tag_counts(rows, limit=8)
-
-    with st.expander("최근 수집 기사", expanded=False):
-        recent_rows = market_dashboard_recent_rows(rows, limit=3)
-        if recent_rows.empty:
-            st.caption("표시할 최근 기사가 없습니다.")
-        else:
-            for _, row in recent_rows.iterrows():
-                render_article_feed_item(row)
-
-    with st.expander("주요 섹터 / 이벤트 태그", expanded=False):
-        summary_cols = st.columns(2)
-        with summary_cols[0]:
-            st.markdown("### 주요 섹터")
-            st.table(market_dashboard_count_table(sector_counts, "섹터", "기사 수", limit=5))
-        with summary_cols[1]:
-            st.markdown("### 주요 이벤트 태그")
-            st.table(market_dashboard_count_table(event_tag_counts, "이벤트 태그", "기사 수", limit=8))
 
     st.caption("지도형 시장 대시보드는 다음 단계에서 추가 예정입니다.")
 

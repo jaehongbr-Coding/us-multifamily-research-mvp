@@ -10638,7 +10638,7 @@ def open_article_feed_with_category(category):
 
 def render_market_dashboard_category_cards(rows):
     st.markdown("### 기사 성격별 분류")
-    st.caption("Article Feed와 같은 분류 기준으로 현재 수집 기사를 빠르게 엽니다. 수치는 전체 기간 기준이며 Freshness 필터 미적용입니다.")
+    st.caption("Article Feed와 같은 분류 기준으로 현재 수집 기사를 빠르게 엽니다. 수치는 전체 기간 기준이며 Freshness 필터 미적용입니다. 한 기사가 복수 분류에 동시 포함될 수 있어 합산이 전체 기사 수를 초과할 수 있습니다.")
     st.markdown(
         """
         <style>

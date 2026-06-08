@@ -1,81 +1,92 @@
 # Opportunity Radar Report
 
-Generated: 2026-06-08 14:39:14
+Generated: 2026-06-08 23:02:13
 
-- Total opportunities detected: 56
+- Total opportunities detected: 65
 
 ## Top 10 Opportunities
 
 - Construction Financing Gap in California: Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily, score 96. Add to executive opportunity review.
-- Refinancing Gap in Florida: Refinancing - Florida - Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio, score 89. Add to executive opportunity review.
-- Affordable / Workforce Housing Opportunity in Los Angeles / California: Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson, score 88. Add to executive opportunity review.
+- Refinancing Gap in California: Refinancing - California - Affinius Capital Provides $120M Refi for San Diego Luxury Multifamily Complex, score 96. Add to executive opportunity review.
+- Refinancing Gap in California: Refinancing - California - Affinius Lends $120M to Refinance Kearny Mesa Luxury Apartments, score 96. Add to executive opportunity review.
+- Acquisition Opportunity in California: Acquisition - California - HVPG Acquires Affordable Housing Community in Elk Grove, California, for $83.6M, score 93. Add to executive opportunity review.
+- LA / California Entitlement Opportunity in California: Disposition / Exit - California - CBRE Arranges $8.12M Sale of 1.9‑Acre Multifamily Residential Development Site in Yorba Li..., score 92. Add to executive opportunity review.
+- Refinancing Gap in New York City / New York: Refinancing - New York City / New York - JLL Capital Markets arranges $70M Refinance for Multifamily Property in the Heart of Manha..., score 91. Add to executive opportunity review.
+- Affordable / Workforce Housing Opportunity in Los Angeles / California: Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson, score 89. Add to executive opportunity review.
+- LA / California Entitlement Opportunity in California: General Project Signal - California - IPA Capital Markets Arranges $123M in Financing for Multifamily Property in Burlingame, Ca..., score 89. Add to executive opportunity review.
 - LA / California Entitlement Opportunity in California: General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project, score 88. Add to executive opportunity review.
 - Recapitalization Opportunity in California: Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties, score 88. Add to executive opportunity review.
-- LA / California Entitlement Opportunity in California: Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale, score 86. Add to executive opportunity review.
-- Refinancing Gap in New York: Refinancing - New York - Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island C..., score 86. Add to executive opportunity review.
-- GP Capability Partnership Opportunity in Virginia: Disposition / Exit - Virginia - Berkadia Arranges $52.5M Sale of 176-Unit Class A Luxury Multifamily Apartment Community i..., score 85. Add to executive opportunity review.
-- JV / Partnership Gap in Miami / Florida: JV / Partnership - Miami / Florida - JV Raises $100M for Coral Gables Mixed-Use Project, score 85. Add to executive opportunity review.
-- GP Capability Partnership Opportunity in Los Angeles / California: Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester, score 83. Add to executive opportunity review.
 
 ## LA / California Opportunities
 
 - Construction Financing Gap in California: Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily, score 96. Add to executive opportunity review.
+- Refinancing Gap in California: Refinancing - California - Affinius Capital Provides $120M Refi for San Diego Luxury Multifamily Complex, score 96. Add to executive opportunity review.
+- Refinancing Gap in California: Refinancing - California - Affinius Lends $120M to Refinance Kearny Mesa Luxury Apartments, score 96. Add to executive opportunity review.
+- Acquisition Opportunity in California: Acquisition - California - HVPG Acquires Affordable Housing Community in Elk Grove, California, for $83.6M, score 93. Add to executive opportunity review.
+- LA / California Entitlement Opportunity in California: Disposition / Exit - California - CBRE Arranges $8.12M Sale of 1.9‑Acre Multifamily Residential Development Site in Yorba Li..., score 92. Add to executive opportunity review.
+- LA / California Entitlement Opportunity in California: General Project Signal - California - IPA Capital Markets Arranges $123M in Financing for Multifamily Property in Burlingame, Ca..., score 89. Add to executive opportunity review.
 - LA / California Entitlement Opportunity in California: General Project Signal - California - JLL Arranges $252M Financing for Huntington Beach Seniors Project, score 88. Add to executive opportunity review.
 - Recapitalization Opportunity in California: Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties, score 88. Add to executive opportunity review.
-- LA / California Entitlement Opportunity in California: Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale, score 86. Add to executive opportunity review.
+- LA / California Entitlement Opportunity in California: Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale, score 87. Add to executive opportunity review.
 - LA / California Entitlement Opportunity in California: General Project Signal - California - Four affordable projects in the San Gabriel Valley score $25M in funding, score 63. Review entitlement, zoning, permitting, and local sponsor context.
-- LA / California Entitlement Opportunity in California: Development Start - California - Harbor Island West Marina Launches $70M Redevelopment, score 62. Review entitlement, zoning, permitting, and local sponsor context.
-- LA / California Entitlement Opportunity in California: General Project Signal - California - Here are California's affordable housing income limits for 2026, score 61. Review entitlement, zoning, permitting, and local sponsor context.
 
 ## Acquisition / Recapitalization Opportunities
 
+- Acquisition Opportunity in California: Acquisition - California - HVPG Acquires Affordable Housing Community in Elk Grove, California, for $83.6M, score 93. Add to executive opportunity review.
 - Recapitalization Opportunity in California: Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties, score 88. Add to executive opportunity review.
-- Acquisition Opportunity in Houston / Texas: Acquisition - Houston / Texas - Berkadia Brokers Sale of 186-Unit Seniors Housing Property Near Houston, score 80. Add to executive opportunity review.
-- Acquisition Opportunity in Other / Unknown: Acquisition - Other / Unknown - Marcus & Millichap Brokers Sale of 128-Unit Rock Run Residences in Joliet, Illinois, score 73. Research owner, basis, pricing, and transaction history.
-- Acquisition Opportunity in New York City / New York: Acquisition - New York City / New York - Jonathan Rose Cos. Buys Upper Manhattan Affordable Housing Building for $53M, score 59. Research owner, basis, pricing, and transaction history.
+- Acquisition Opportunity in Los Angeles / California: Acquisition - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Multifamily Property in Los Angeles, score 83. Add to executive opportunity review.
+- Acquisition Opportunity in Seattle: Acquisition - Seattle - Everett Washington Residential Multifamily Community Acquired by New Owner in $53M Deal, score 59. Research owner, basis, pricing, and transaction history.
 - Acquisition Opportunity in Los Angeles / California: Acquisition - Los Angeles / California - Advanced Real Estate Acquires, Rebrands Rowland Heights Apartments, score 58. Research owner, basis, pricing, and transaction history.
 - Acquisition Opportunity in Miami / Florida: Acquisition - Miami / Florida - Miami Apartments Trade for $109.9M, score 57. Research owner, basis, pricing, and transaction history.
+- Acquisition Opportunity in Florida: Acquisition - Florida - Hackberry Lane Adds 400 Student Housing Beds in Florida and Arkansas University Markets, score 55. Research owner, basis, pricing, and transaction history.
+- Acquisition Opportunity in New York: Acquisition - New York - Senior Housing Operator Omni Lifestyle Living Buys Midtown Marriott for $40M, score 55. Research owner, basis, pricing, and transaction history.
+- Acquisition Opportunity in Other / Unknown: Acquisition - Other / Unknown - Advanced Real Estate Acquires and Rebrands Rowland Heights Apartment Community, score 51. Research owner, basis, pricing, and transaction history.
 - Acquisition Opportunity in Other / Unknown: Acquisition - Other / Unknown - Why this apartment owner likes the blue-collar future of the Midwest, score 51. Research owner, basis, pricing, and transaction history.
 
 ## Distressed / Rescue Capital Opportunities
 
-- Refinancing Gap in Florida: Refinancing - Florida - Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio, score 89. Add to executive opportunity review.
-- Refinancing Gap in New York: Refinancing - New York - Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island C..., score 86. Add to executive opportunity review.
-- Refinancing Gap in Other / Unknown: Refinancing - Other / Unknown - $14M Refinance Secured for Newly Delivered Wicker Park Multifamily, score 61. Track debt stack, maturity, lender, and recapitalization details.
+- Refinancing Gap in California: Refinancing - California - Affinius Capital Provides $120M Refi for San Diego Luxury Multifamily Complex, score 96. Add to executive opportunity review.
+- Refinancing Gap in California: Refinancing - California - Affinius Lends $120M to Refinance Kearny Mesa Luxury Apartments, score 96. Add to executive opportunity review.
+- Refinancing Gap in New York City / New York: Refinancing - New York City / New York - JLL Capital Markets arranges $70M Refinance for Multifamily Property in the Heart of Manha..., score 91. Add to executive opportunity review.
+- Refinancing Gap in Other / Unknown: Refinancing - Other / Unknown - Berkadia Provides $35M Refi for Detroit-Area Multifamily Apartment Complex, score 86. Add to executive opportunity review.
+- Refinancing Gap in Other / Unknown: Refinancing - Other / Unknown - $14M Refinance Secured for Newly Delivered Multifamily Community The Ash in Wicker Park Ne..., score 59. Track debt stack, maturity, lender, and recapitalization details.
 - Refinancing Gap in Atlanta / Georgia: Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi, score 58. Track debt stack, maturity, lender, and recapitalization details.
 
 ## BTR / SFR Opportunities
 
+- JV / Partnership Gap in Los Angeles / California: JV / Partnership - Los Angeles / California - JLL Arranges $70M in Bridge Financing for Delaware Industrial Building, score 84. Add to executive opportunity review.
 - BTR / SFR Platform Opportunity in Phoenix / Arizona: BTR / Build-to-Rent - Phoenix / Arizona - Porter Kyle Builders Names Industry Veteran John Rowland Vice President of Construction, score 55. Monitor for repeated signals.
 
 ## Office-to-Residential Opportunities
 
+- Office-to-Residential Conversion Opportunity in Atlanta / Georgia: Office-to-Residential Conversion - Atlanta / Georgia - Asana Starts Transformation of Former Duke Energy HQ, score 60. Monitor for repeated signals.
 - Office-to-Residential Conversion Opportunity in Phoenix / Arizona: Office-to-Residential Conversion - Phoenix / Arizona - Camelback Office-to-Apartment Conversion Nearly Complete, score 59. Monitor for repeated signals.
-- Office-to-Residential Conversion Opportunity in Connecticut: Office-to-Residential Conversion - Connecticut - Condyne Capital Plans Adaptive Reuse Multifamily Redevelopment of Former Konica Minolta Bu..., score 50. Monitor for repeated signals.
 
 ## Affordable / Workforce Opportunities
 
-- Affordable / Workforce Housing Opportunity in Los Angeles / California: Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson, score 88. Add to executive opportunity review.
+- Acquisition Opportunity in California: Acquisition - California - HVPG Acquires Affordable Housing Community in Elk Grove, California, for $83.6M, score 93. Add to executive opportunity review.
+- Affordable / Workforce Housing Opportunity in Los Angeles / California: Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson, score 89. Add to executive opportunity review.
 - Recapitalization Opportunity in California: Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties, score 88. Add to executive opportunity review.
+- JV / Partnership Gap in New York: JV / Partnership - New York - Walker & Dunlop, Pretium Close on $76M Bridge Loan for Chelsea Apartments, score 87. Add to executive opportunity review.
 - LA / California Entitlement Opportunity in California: General Project Signal - California - Four affordable projects in the San Gabriel Valley score $25M in funding, score 63. Review entitlement, zoning, permitting, and local sponsor context.
 - LA / California Entitlement Opportunity in Los Angeles / California: Entitlement / Permitting - Los Angeles / California - 85 apartments proposed at 15242 W. Parthenia St. in North Hills, score 62. Review entitlement, zoning, permitting, and local sponsor context.
 - LA / California Entitlement Opportunity in Los Angeles / California: Entitlement / Permitting - Los Angeles / California - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA, score 62. Review entitlement, zoning, permitting, and local sponsor context.
 - LA / California Entitlement Opportunity in California: General Project Signal - California - Here are California's affordable housing income limits for 2026, score 61. Review entitlement, zoning, permitting, and local sponsor context.
-- Acquisition Opportunity in New York City / New York: Acquisition - New York City / New York - Jonathan Rose Cos. Buys Upper Manhattan Affordable Housing Building for $53M, score 59. Research owner, basis, pricing, and transaction history.
-- Affordable / Workforce Housing Opportunity in National: General Project Signal - National - Detroit’s Corktown Neighborhood to Receive 188 New Mixed-Income Units Representing $84M In..., score 54. Monitor for repeated signals.
+- Construction Financing Gap in New York City / New York: Construction Financing - New York City / New York - Bank Hapoalim Lends $43M on Flushing Resi Complex, score 60. Track debt stack, maturity, lender, and recapitalization details.
+- JV / Partnership Gap in Other / Unknown: JV / Partnership - Other / Unknown - Cinnaire Closes $307M Low Income Housing Tax Credit Equity Fund, score 57. Map GP, capital partner, and relationship history.
 
 ## Potential GP Partnership Opportunities
 
-- GP Capability Partnership Opportunity in Virginia: Disposition / Exit - Virginia - Berkadia Arranges $52.5M Sale of 176-Unit Class A Luxury Multifamily Apartment Community i..., score 85. Add to executive opportunity review.
+- JV / Partnership Gap in New York: JV / Partnership - New York - Walker & Dunlop, Pretium Close on $76M Bridge Loan for Chelsea Apartments, score 87. Add to executive opportunity review.
+- GP Capability Partnership Opportunity in Seattle: Disposition / Exit - Seattle - Newmark Arranges $53M Sale of Waterford Apartments in Everett, score 85. Add to executive opportunity review.
 - JV / Partnership Gap in Miami / Florida: JV / Partnership - Miami / Florida - JV Raises $100M for Coral Gables Mixed-Use Project, score 85. Add to executive opportunity review.
+- JV / Partnership Gap in Los Angeles / California: JV / Partnership - Los Angeles / California - JLL Arranges $70M in Bridge Financing for Delaware Industrial Building, score 84. Add to executive opportunity review.
 - GP Capability Partnership Opportunity in Los Angeles / California: Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester, score 83. Add to executive opportunity review.
-- GP Capability Partnership Opportunity in Los Angeles / California: Disposition / Exit - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles, score 81. Add to executive opportunity review.
-- JV / Partnership Gap in Riverside / California: JV / Partnership - Riverside / California - Residential Multifamily Community Trades for $355k Per-Unit in Riverside California, score 81. Add to executive opportunity review.
-- GP Capability Partnership Opportunity in Los Angeles / California: General Project Signal - Los Angeles / California - $123M Financing Arranged by Marcus & Millichap’s IPA Capital Markets for Bay Area Multifam..., score 80. Add to executive opportunity review.
-- JV / Partnership Gap in New York City / New York: JV / Partnership - New York City / New York - Institutional Property Advisors Capital Markets Arranges $27M for Newly Built Luxury DC Mu..., score 80. Add to executive opportunity review.
-- JV / Partnership Gap in Texas: JV / Partnership - Texas - Joint Venture Acquires 1,128-Bed Student Housing Community Serving Texas A&M University in..., score 80. Add to executive opportunity review.
-- JV / Partnership Gap in Texas: JV / Partnership - Texas - JV Closes On 1,128-Bed Texas A&M Housing Deal, score 79. Map GP, capital partner, and relationship history.
+- GP Capability Partnership Opportunity in Miami / Florida: Disposition / Exit - Miami / Florida - Marcus & Millichap Brokers $5.2M Sale of Multifamily Property in North Miami Florida, score 81. Add to executive opportunity review.
+- GP Capability Partnership Opportunity in Connecticut: Disposition / Exit - Connecticut - Institutional Property Advisors Exclusively Offers Multifamily Development Site in Southea..., score 78. Map GP, capital partner, and relationship history.
 - GP Capability Partnership Opportunity in Miami / Florida: General Project Signal - Miami / Florida - Greystar Eyeing 896 Doral Apartment Units, score 78. Map GP, capital partner, and relationship history.
+- JV / Partnership Gap in Texas: JV / Partnership - Texas - JV Closes On 1,128-Bed Texas A&M Housing Deal, score 77. Map GP, capital partner, and relationship history.
+- GP Capability Partnership Opportunity in Other / Unknown: Disposition / Exit - Other / Unknown - Marcus & Millichap Brokers Sale of Old Town Chicago Multifamily Property, score 76. Map GP, capital partner, and relationship history.
 
 ## Timing / Market Entry Window Summary
 
@@ -100,18 +111,18 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 ## Recommended Executive Follow-up
 
 - Add to executive opportunity review: Construction Financing Gap in California.
-- Add to executive opportunity review: Refinancing Gap in Florida.
-- Add to executive opportunity review: Affordable / Workforce Housing Opportunity in Los Angeles / California.
+- Add to executive opportunity review: Refinancing Gap in California.
+- Add to executive opportunity review: Refinancing Gap in California.
+- Add to executive opportunity review: Acquisition Opportunity in California.
 - Add to executive opportunity review: LA / California Entitlement Opportunity in California.
-- Add to executive opportunity review: Recapitalization Opportunity in California.
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 82
-- LA lifecycle watch items: 53
-- Stage mix: Refinancing / Recapitalization: 9, Delivery / Opening: 7, Unknown Stage: 46, Building Permit / Construction Permit: 1, Site Acquisition / Site Control: 9
+- Lifecycle records: 95
+- LA lifecycle watch items: 59
+- Stage mix: Refinancing / Recapitalization: 12, Unknown Stage: 47, Delivery / Opening: 12, Site Acquisition / Site Control: 14, Building Permit / Construction Permit: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -119,11 +130,11 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 82
-- Newly detected projects: 10
+- Lifecycle transitions analyzed: 95
+- Newly detected projects: 40
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 52
+- LA lifecycle transition watch items: 58
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -131,11 +142,11 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 677
-- Canonical projects: 165
-- Duplicate project clusters: 113
-- Persistent assets tracked: 165
-- LA persistent asset watch items: 112
+- Raw project references: 774
+- Canonical projects: 167
+- Duplicate project clusters: 112
+- Persistent assets tracked: 167
+- LA persistent asset watch items: 105
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -143,10 +154,10 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 165
-- Institutional-grade signals: 16
-- High-confidence signals: 44
-- Weak/noisy signals: 93
-- High-confidence watchlist items: 44
+- Signals evaluated: 167
+- Institutional-grade signals: 20
+- High-confidence signals: 45
+- Weak/noisy signals: 88
+- High-confidence watchlist items: 45
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

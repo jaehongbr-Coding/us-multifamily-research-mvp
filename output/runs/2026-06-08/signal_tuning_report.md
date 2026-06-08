@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-06-08 14:38:59
+Generated: 2026-06-08 23:01:57
 
 ## Top Strategic Relevance Articles
 
-- 87 / richness 90: Residential Multifamily Community Trades for $355k Per-Unit in Riverside California (Yield PRO, Riverside / California) - JV or partnership activity; institutional acquisition behavior
 - 87 / richness 90: Miami Apartments Trade for $109.9M (Connect CRE South Florida, Miami / Florida) - development continuation; institutional acquisition behavior
-- 86 / richness 85: Joint Venture Acquires 1,128-Bed Student Housing Community Serving Texas A&M University in College Station Texas (Yield PRO, Texas) - JV or partnership activity; institutional acquisition behavior
-- 86 / richness 85: Institutional Property Advisors Capital Markets Arranges $27M for Newly Built Luxury DC Multifamily (Yield PRO, New York City / New York) - JV or partnership activity; institutional acquisition behavior
-- 82 / richness 100: Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island City New York (Yield PRO, New York) - lease-up or absorption behavior; large-scale refinance tied to strategy
-- 80 / richness 85: Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio (REBusiness Online, Florida) - institutional acquisition behavior; large-scale refinance tied to strategy
+- 84 / richness 100: Affinius Capital Provides $120M Refi for San Diego Luxury Multifamily Complex (Commercial Observer, California) - institutional acquisition behavior; large-scale refinance tied to strategy
+- 82 / richness 85: Walker & Dunlop, Pretium Close on $76M Bridge Loan for Chelsea Apartments (Connect CRE, New York) - JV or partnership activity; large-scale refinance tied to strategy
 - 80 / richness 60: JV Closes On 1,128-Bed Texas A&M Housing Deal (Connect CRE Texas, Texas) - JV or partnership activity; institutional acquisition behavior
+- 80 / richness 45: Krueger Group Opens 25-Unit Rental Townhome Development in Rocky River, Ohio (REBusiness Online, Other / Unknown) - multi-phase development; development continuation
 - 79 / richness 70: PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties (Connect CRE Orange County, California) - JV or partnership activity; large-scale refinance tied to strategy
-- 76 / richness 75: $14M Refinance Secured for Newly Delivered Wicker Park Multifamily (Connect CRE, Other / Unknown) - lease-up or absorption behavior; large-scale refinance tied to strategy
-- 72 / richness 85: JV Raises $100M for Coral Gables Mixed-Use Project (Connect CRE, Miami / Florida) - JV or partnership activity
+- 76 / richness 75: $14M Refinance Secured for Newly Delivered Multifamily Community The Ash in Wicker Park Neighborhood of Chicago (Yield PRO, Other / Unknown) - lease-up or absorption behavior; large-scale refinance tied to strategy
+- 74 / richness 100: HVPG Acquires Affordable Housing Community in Elk Grove, California, for $83.6M (REBusiness Online, California) - institutional acquisition behavior
+- 72 / richness 85: JV Raises $100M for Coral Gables Mixed-Use Project (Connect CRE South Florida, Miami / Florida) - JV or partnership activity
+- 71 / richness 90: Camelback Office-to-Apartment Conversion Nearly Complete (Connect CRE Phoenix, Phoenix / Arizona) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -39,8 +39,8 @@ Generated: 2026-06-08 14:38:59
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 23
-- Development / sponsor behavior articles: 35
+- Financing-oriented articles: 34
+- Development / sponsor behavior articles: 37
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

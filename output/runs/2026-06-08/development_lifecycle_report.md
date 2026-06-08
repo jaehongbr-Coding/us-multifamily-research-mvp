@@ -1,46 +1,46 @@
 # Development Lifecycle Report
 
-Generated: 2026-06-08 14:39:16
+Generated: 2026-06-08 23:02:17
 
-- Total lifecycle records: 82
+- Total lifecycle records: 95
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 46
-- Refinancing / Recapitalization: 9
-- Site Acquisition / Site Control: 9
-- Delivery / Opening: 7
-- Early Site Signal: 7
+- Unknown Stage: 47
+- Site Acquisition / Site Control: 14
+- Refinancing / Recapitalization: 12
+- Delivery / Opening: 12
+- Early Site Signal: 5
+- Stabilized / Operating: 2
 - Building Permit / Construction Permit: 1
 - Entitlement Under Review: 1
 - Vertical Construction: 1
-- Stabilized / Operating: 1
 
 ## Top Development Timing Opportunities
 
+- Refinancing - California - Affinius Lends $120M to Refinance Kearny Mesa Luxury Apartments: Refinancing / Recapitalization, California, lifecycle_opportunity_score 100.
+- Refinancing - New York City / New York - JLL Capital Markets arranges $70M Refinance for Multifamily Property in the Heart of Manha...: Refinancing / Recapitalization, Manhattan, lifecycle_opportunity_score 100.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Refinancing / Recapitalization, California, lifecycle_opportunity_score 100.
-- Refinancing - New York - Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island C...: Delivery / Opening, New York, lifecycle_opportunity_score 100.
+- JV / Partnership - Los Angeles / California - JLL Arranges $70M in Bridge Financing for Delaware Industrial Building: Unknown Stage, Los Angeles / California, lifecycle_opportunity_score 100.
+- Refinancing - California - Affinius Capital Provides $120M Refi for San Diego Luxury Multifamily Complex: Delivery / Opening, San Diego, lifecycle_opportunity_score 100.
 - Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Unknown Stage, Los Angeles, lifecycle_opportunity_score 100.
-- Disposition / Exit - Virginia - Berkadia Arranges $52.5M Sale of 176-Unit Class A Luxury Multifamily Apartment Community i...: Unknown Stage, Virginia, lifecycle_opportunity_score 100.
+- Acquisition - California - HVPG Acquires Affordable Housing Community in Elk Grove, California, for $83.6M: Delivery / Opening, California, lifecycle_opportunity_score 100.
+- CBRE Arranges $8.12M Sale of 1.9‑Acre Multifamily Residential Development Site in Yorba Linda California: Site Acquisition / Site Control, Orange County, lifecycle_opportunity_score 100.
+- Disposition / Exit - California - CBRE Arranges $8.12M Sale of 1.9‑Acre Multifamily Residential Development Site in Yorba Li...: Site Acquisition / Site Control, California, lifecycle_opportunity_score 100.
 - 19-story high-rise starts work at 6055 Center Drive in Westchester: Building Permit / Construction Permit, Houston, lifecycle_opportunity_score 100.
-- Disposition / Exit - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles: Site Acquisition / Site Control, Los Angeles, lifecycle_opportunity_score 100.
-- Refinancing - Florida - Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio: Refinancing / Recapitalization, Southeast, lifecycle_opportunity_score 97.
-- Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester: Unknown Stage, Houston, lifecycle_opportunity_score 97.
-- Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Site Acquisition / Site Control, Los Angeles, lifecycle_opportunity_score 97.
-- Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Unknown Stage, California, lifecycle_opportunity_score 95.
 
 ## Top Lifecycle Risks
 
 - Construction Financing - Los Angeles / California - Slatt Capital Arranges $27M Construction Loan for San Gabriel Mixed-Use: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 60.
 - Construction Financing - Phoenix / Arizona - Scottsdale Developer Inks $141M Construction Loan for Luxury Apartments: Refinancing / Recapitalization, Phoenix, lifecycle_risk_score 60.
+- Refinancing - California - Affinius Lends $120M to Refinance Kearny Mesa Luxury Apartments: Refinancing / Recapitalization, California, lifecycle_risk_score 59.
+- Refinancing - New York City / New York - JLL Capital Markets arranges $70M Refinance for Multifamily Property in the Heart of Manha...: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 57.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Refinancing / Recapitalization, California, lifecycle_risk_score 55.
-- Construction Financing - Austin / Texas - Dwight Capital Lends $66M of HUD Debt on Texas Luxury Apartments Project: Unknown Stage, Austin, lifecycle_risk_score 53.
-- Refinancing - Florida - Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio: Refinancing / Recapitalization, Southeast, lifecycle_risk_score 52.
-- Slatt Capital Arranges $27M Construction Loan for San Gabriel Mixed-Use: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 42.
-- Refinancing - Other / Unknown - $14M Refinance Secured for Newly Delivered Wicker Park Multifamily: Delivery / Opening, Unknown, lifecycle_risk_score 42.
-- Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 41.
-- Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Refinancing / Recapitalization, California, lifecycle_risk_score 40.
-- Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi: Refinancing / Recapitalization, Atlanta, lifecycle_risk_score 39.
+- Construction Financing - New York City / New York - Bank Hapoalim Lends $43M on Flushing Resi Complex: Unknown Stage, Queens, lifecycle_risk_score 53.
+- JV / Partnership - New York - Walker & Dunlop, Pretium Close on $76M Bridge Loan for Chelsea Apartments: Refinancing / Recapitalization, New York, lifecycle_risk_score 52.
+- Construction Financing - Texas - Dwight Capital Arranges $66M Loan for 312-Unit Abilene Rental Community: Unknown Stage, Texas, lifecycle_risk_score 52.
+- JV / Partnership - Los Angeles / California - JLL Arranges $70M in Bridge Financing for Delaware Industrial Building: Unknown Stage, Los Angeles / California, lifecycle_risk_score 49.
+- Refinancing - California - Affinius Capital Provides $120M Refi for San Diego Luxury Multifamily Complex: Delivery / Opening, San Diego, lifecycle_risk_score 42.
 
 ## Projects Under Entitlement / Planning
 
@@ -53,14 +53,16 @@ Generated: 2026-06-08 14:39:16
 
 ## Delivery / Lease-Up Signals
 
-- Refinancing - New York - Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island C...: Delivery / Opening, New York, lifecycle_opportunity_score 100.
-- Residential Multifamily Community Trades for $355k Per-Unit in Riverside California: Delivery / Opening, Riverside, lifecycle_opportunity_score 90.
-- Acquisition - Houston / Texas - Berkadia Brokers Sale of 186-Unit Seniors Housing Property Near Houston: Delivery / Opening, Houston, lifecycle_opportunity_score 85.
-- Arrow Real Estate Advisors Arranges $70M for Delaware MF Development: Delivery / Opening, Unknown, lifecycle_opportunity_score 81.
+- Refinancing - California - Affinius Capital Provides $120M Refi for San Diego Luxury Multifamily Complex: Delivery / Opening, San Diego, lifecycle_opportunity_score 100.
+- Acquisition - California - HVPG Acquires Affordable Housing Community in Elk Grove, California, for $83.6M: Delivery / Opening, California, lifecycle_opportunity_score 100.
+- Marcus & Millichap Brokers Sale of Old Town Chicago Multifamily Property: Delivery / Opening, Unknown, lifecycle_opportunity_score 95.
+- Affinius Capital Provides $120M Refi for San Diego Luxury Multifamily Complex: Delivery / Opening, Unknown, lifecycle_opportunity_score 90.
+- Asana Starts Transformation of Former Duke Energy HQ: Delivery / Opening, Atlanta, lifecycle_opportunity_score 83.
+- Refinancing - Other / Unknown - Berkadia Provides $35M Refi for Detroit-Area Multifamily Apartment Complex: Delivery / Opening, Unknown, lifecycle_opportunity_score 82.
+- Office-to-Residential Conversion - Atlanta / Georgia - Asana Starts Transformation of Former Duke Energy HQ: Delivery / Opening, Atlanta, lifecycle_opportunity_score 78.
+- Disposition / Exit - Other / Unknown - Marcus & Millichap Brokers Sale of Old Town Chicago Multifamily Property: Delivery / Opening, Unknown, lifecycle_opportunity_score 74.
 - Office-to-Residential Conversion - Phoenix / Arizona - Camelback Office-to-Apartment Conversion Nearly Complete: Delivery / Opening, Phoenix, lifecycle_opportunity_score 63.
-- Refinancing - Other / Unknown - $14M Refinance Secured for Newly Delivered Wicker Park Multifamily: Delivery / Opening, Unknown, lifecycle_opportunity_score 54.
-- NYC's Rent-Stabilized Subsidy Goes Untapped By Nonprofit Buyers: Stabilized / Operating, Los Angeles, lifecycle_opportunity_score 39.
-- General Project Signal - Other / Unknown - Multifamily Absorption Rate Remains Below 50%: Delivery / Opening, Unknown, lifecycle_opportunity_score 27.
+- General Project Signal - New York City / New York - OceanFirst Purges $1.4B In Rent-Stabilized Multifamily Loans Following Flushing Financial...: Stabilized / Operating, New York City, lifecycle_opportunity_score 53.
 
 ## Distressed / Stalled Lifecycle Signals
 
@@ -70,13 +72,14 @@ Generated: 2026-06-08 14:39:16
 
 - Construction Financing - Los Angeles / California - Slatt Capital Arranges $27M Construction Loan for San Gabriel Mixed-Use: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 60.
 - Construction Financing - Phoenix / Arizona - Scottsdale Developer Inks $141M Construction Loan for Luxury Apartments: Refinancing / Recapitalization, Phoenix, lifecycle_risk_score 60.
+- Refinancing - California - Affinius Lends $120M to Refinance Kearny Mesa Luxury Apartments: Refinancing / Recapitalization, California, lifecycle_risk_score 59.
+- Refinancing - New York City / New York - JLL Capital Markets arranges $70M Refinance for Multifamily Property in the Heart of Manha...: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 57.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Refinancing / Recapitalization, California, lifecycle_risk_score 55.
-- Refinancing - Florida - Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio: Refinancing / Recapitalization, Southeast, lifecycle_risk_score 52.
+- JV / Partnership - New York - Walker & Dunlop, Pretium Close on $76M Bridge Loan for Chelsea Apartments: Refinancing / Recapitalization, New York, lifecycle_risk_score 52.
 - Slatt Capital Arranges $27M Construction Loan for San Gabriel Mixed-Use: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 42.
+- Dwight Capital Arranges $66M Loan for 312-Unit Abilene Rental Community: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 41.
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 41.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Refinancing / Recapitalization, California, lifecycle_risk_score 40.
-- Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi: Refinancing / Recapitalization, Atlanta, lifecycle_risk_score 39.
-- Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization, Miami, lifecycle_risk_score 33.
 
 ## Implications for Woomi / Woomi Global
 
@@ -85,24 +88,24 @@ Generated: 2026-06-08 14:39:16
 
 ## Recommended Lifecycle Follow-up Actions
 
+- Track lender, maturity, debt terms, and recapitalization need: Refinancing - California - Affinius Lends $120M to Refinance Kearny Mesa Luxury Apartments.
+- Track lender, maturity, debt terms, and recapitalization need: Refinancing - New York City / New York - JLL Capital Markets arranges $70M Refinance for Multifamily Property in the Heart of Manha....
 - Track lender, maturity, debt terms, and recapitalization need: Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties.
-- Benchmark delivery, lease-up, occupancy, and rent assumptions: Refinancing - New York - Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island C....
+- Monitor lifecycle signal for repeated confirmation: JV / Partnership - Los Angeles / California - JLL Arranges $70M in Bridge Financing for Delaware Industrial Building.
+- Benchmark delivery, lease-up, occupancy, and rent assumptions: Refinancing - California - Affinius Capital Provides $120M Refi for San Diego Luxury Multifamily Complex.
 - Monitor lifecycle signal for repeated confirmation: Disposition / Exit - Los Angeles / California - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson.
-- Monitor lifecycle signal for repeated confirmation: Disposition / Exit - Virginia - Berkadia Arranges $52.5M Sale of 176-Unit Class A Luxury Multifamily Apartment Community i....
-- Monitor permit issuance, financing, and construction-start timing: 19-story high-rise starts work at 6055 Center Drive in Westchester.
-- Monitor lifecycle signal for repeated confirmation: Disposition / Exit - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles.
-- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Florida - Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio.
-- Monitor lifecycle signal for repeated confirmation: Disposition / Exit - Los Angeles / California - 19-story high-rise starts work at 6055 Center Drive in Westchester.
+- Benchmark delivery, lease-up, occupancy, and rent assumptions: Acquisition - California - HVPG Acquires Affordable Housing Community in Elk Grove, California, for $83.6M.
+- Monitor lifecycle signal for repeated confirmation: CBRE Arranges $8.12M Sale of 1.9‑Acre Multifamily Residential Development Site in Yorba Linda California.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 82
-- Newly detected projects: 10
+- Lifecycle transitions analyzed: 95
+- Newly detected projects: 40
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 52
+- LA lifecycle transition watch items: 58
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -110,11 +113,11 @@ Generated: 2026-06-08 14:39:16
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 677
-- Canonical projects: 165
-- Duplicate project clusters: 113
-- Persistent assets tracked: 165
-- LA persistent asset watch items: 112
+- Raw project references: 774
+- Canonical projects: 167
+- Duplicate project clusters: 112
+- Persistent assets tracked: 167
+- LA persistent asset watch items: 105
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -122,10 +125,10 @@ Generated: 2026-06-08 14:39:16
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 165
-- Institutional-grade signals: 16
-- High-confidence signals: 44
-- Weak/noisy signals: 93
-- High-confidence watchlist items: 44
+- Signals evaluated: 167
+- Institutional-grade signals: 20
+- High-confidence signals: 45
+- Weak/noisy signals: 88
+- High-confidence watchlist items: 45
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

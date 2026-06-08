@@ -1,37 +1,37 @@
 # GP / Capital Entity Quality Report
 
-Generated: 2026-06-08 14:39:11
+Generated: 2026-06-08 23:02:08
 
 ## Summary
 
-- Total GP/Capital articles: 40
-- Participant not identified: 15
-- Dictionary match: 17
-- Title fallback / headline extraction: 4
-- Low confidence or unresolved: 15
+- Total GP/Capital articles: 51
+- Participant not identified: 19
+- Dictionary match: 23
+- Title fallback / headline extraction: 5
+- Low confidence or unresolved: 19
 
 ## Representative Resolved Samples
 
-- Dunlop Capital: Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island City New York (dictionary_match, high)
-- Berkadia: Berkadia Arranges $52.5M Sale of 176-Unit Class A Luxury Multifamily Apartment Community in Poquoson Virginia (dictionary_match, high)
-- Marcus & Millichap: Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles (dictionary_match, high)
-- Dwight Capital: Dwight Capital Lends $66M of HUD Debt on Texas Luxury Apartments Project (title_lead_pattern, medium)
-- Berkadia: JV Raises $100M for Coral Gables Mixed-Use Project (dictionary_match, high)
+- CBRE: CBRE Arranges $8.12M Sale of 1.9‑Acre Multifamily Residential Development Site in Yorba Linda California (dictionary_match, high)
+- JLL: JLL Capital Markets arranges $70M Refinance for Multifamily Property in the Heart of Manhattan’s West Village (dictionary_match, high)
+- Berkadia: Berkadia Provides $35M Refi for Detroit-Area Multifamily Apartment Complex (dictionary_match, high)
+- Bank Hapoalim: Bank Hapoalim Lends $43M on Flushing Resi Complex (title_lead_pattern, medium)
+- Affinius Capital: Affinius Capital Provides $120M Refi for San Diego Luxury Multifamily Complex (dictionary_match, high)
+- Walker & Dunlop: Walker & Dunlop, Pretium Close on $76M Bridge Loan for Chelsea Apartments (dictionary_match, high)
+- Affinius Capital: Affinius Lends $120M to Refinance Kearny Mesa Luxury Apartments (dictionary_match, high)
 - Hanover Company: 19-story high-rise starts work at 6055 Center Drive in Westchester (dictionary_match, high)
-- Slatt Capital: Slatt Capital Arranges $27M Construction Loan for San Gabriel Mixed-Use (title_lead_pattern, medium)
-- Miami Apartments Madison Realty Capital: Alta Developers Lands $91.8M Construction Loan for Miami Apartments (capital_event_sentence, medium)
-- Luxury Apartments The Hampton Group: Scottsdale Developer Inks $141M Construction Loan for Luxury Apartments (capital_event_sentence, medium)
-- Santa Ana Multifamily JLL Capital: JLL Lines Up $144M Construction Loan for Santa Ana Multifamily (dictionary_match, high)
+- California Loans Multifamily Western IPA Capital: IPA Capital Markets Arranges $123M in Financing for Multifamily Property in Burlingame, California (dictionary_match, high)
+- Freddie Mac: HVPG Acquires Affordable Housing Community in Elk Grove, California, for $83.6M (dictionary_match, high)
 
 ## Unresolved Examples
 
 - The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist | Multifamily Executive | No institution name detected in dictionary, title, summary, or source text.
-- $14M Refinance Secured for Newly Delivered Wicker Park Multifamily | Connect CRE | No institution name detected in dictionary, title, summary, or source text.
+- Cinnaire Closes $307M LIHTC Equity Fund for 2,259 Affordable Housing Units Across 10 States | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
+- Gantry Secures $40M Construction Takeout Loan for St. Paul Multifamily | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
 - Empire Group Starts Work on $170M Phoenix Apartment Tower | Connect CRE Phoenix | No institution name detected in dictionary, title, summary, or source text.
-- Rosewood Property Co. Begins Leasing 338-Unit Apartment Community in Plano | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
+- Cinnaire Closes $307M Low Income Housing Tax Credit Equity Fund | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
 - NYC's Rent-Stabilized Subsidy Goes Untapped By Nonprofit Buyers | Bisnow | No institution name detected in dictionary, title, summary, or source text.
-- Jonathan Rose Cos. Buys Upper Manhattan Affordable Housing Building for $53M | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
-- Renters remain cautious but demand holds steady | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.
-- Overall Housing Starts Inch Lower in 2025 | NAHB Eye on Housing - Multifamily | No institution name detected in dictionary, title, summary, or source text.
-- How Cross Street Is Bridging The Gap Between Multifamily Property Management, Residential Brokerage | Bisnow | No institution name detected in dictionary, title, summary, or source text.
-- Four affordable projects in the San Gabriel Valley score $25M in funding | Urbanize LA | No institution name detected in dictionary, title, summary, or source text.
+- $14M Refinance Secured for Newly Delivered Multifamily Community The Ash in Wicker Park Neighborhood of Chicago | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
+- Hackberry Lane Adds 400 Student Housing Beds in Florida and Arkansas University Markets | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
+- CF Capital: Multifamily Investment Requires Connecting the Right Dots for Each Deal, Not Riding Market Waves | Connect CRE | No institution name detected in dictionary, title, summary, or source text.
+- OceanFirst Purges $1.4B In Rent-Stabilized Multifamily Loans Following Flushing Financial Merger | Bisnow | No institution name detected in dictionary, title, summary, or source text.

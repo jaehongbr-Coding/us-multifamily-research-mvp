@@ -1,7 +1,7 @@
 ﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
-20260608-143859-a74ae896,2026-06-08,Construction financing still selective,Persistent,stable,40,22,40,5.65,3.7,6,6,6,2,Austin / Texas,Broadly Confirmed,steady visibility,
-20260608-143859-a74ae896,2026-06-08,Institutional recap over expansion,Building,stable,40,22,40,3.15,2.83,3,3,3,1,New York,Moderate Signal,steady visibility,
-20260608-143859-a74ae896,2026-06-08,JV / partnership activity observed,Building,accelerating,40,22,40,6.2,3.52,6,6,4,1,Texas,Broadly Confirmed,JV / partnership activity observed signal is accelerating versus prior runs.,
-20260608-143859-a74ae896,2026-06-08,LA entitlement precedent accumulation,Weakening,weakening,40,22,40,9.72,2.9,7,7,2,1,Los Angeles / California,Source-Concentrated,LA entitlement precedent accumulation visibility is weakening versus prior runs.,
-20260608-143859-a74ae896,2026-06-08,Refinancing pressure unresolved,Building,stable,40,22,40,5.03,3.7,3,3,3,1,New York,Moderate Signal,steady visibility,
-20260608-143859-a74ae896,2026-06-08,Sun Belt lease-up pressure watch,Building,stable,40,22,40,3.83,3.08,6,6,5,1,National,Broadly Confirmed,steady visibility,
+20260608-230157-81fea293,2026-06-08,Construction financing still selective,Building,stable,41,23,41,5.71,3.71,8,8,7,1,Los Angeles / California,Broadly Confirmed,steady visibility,
+20260608-230157-81fea293,2026-06-08,Institutional recap over expansion,Weakening,weakening,41,23,41,3.12,2.8,2,2,2,0,California,Early Signal,Institutional recap over expansion visibility is weakening versus prior runs.,
+20260608-230157-81fea293,2026-06-08,JV / partnership activity observed,Building,accelerating,41,23,41,6.22,3.54,7,7,7,4,New York,Broadly Confirmed,JV / partnership activity observed signal is accelerating versus prior runs.,
+20260608-230157-81fea293,2026-06-08,LA entitlement precedent accumulation,Building,stable,41,23,41,9.66,2.88,7,7,2,1,Los Angeles / California,Source-Concentrated,steady visibility,
+20260608-230157-81fea293,2026-06-08,Refinancing pressure unresolved,Persistent,stable,41,23,41,4.98,3.68,3,3,3,2,New York,Moderate Signal,steady visibility,
+20260608-230157-81fea293,2026-06-08,Sun Belt lease-up pressure watch,Weakening,weakening,41,23,41,3.85,3.1,5,5,4,0,National,Broadly Confirmed,Sun Belt lease-up pressure watch visibility is weakening versus prior runs.,

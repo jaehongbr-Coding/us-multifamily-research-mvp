@@ -1,51 +1,51 @@
 # Lifecycle Transition Report
 
-Generated: 2026-06-08 14:39:16
+Generated: 2026-06-08 23:02:17
 
-- Total lifecycle transitions analyzed: 82
-- Newly detected projects: 10
+- Total lifecycle transitions analyzed: 95
+- Newly detected projects: 40
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - Reappearing projects: 0
 
 ## Strongest Progression Signals
 
-- Refinancing - New York - Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island C...: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 80.
-- Residential Multifamily Community Trades for $355k Per-Unit in Riverside California: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 79.
-- Arrow Real Estate Advisors Arranges $70M for Delaware MF Development: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 78.
-- Acquisition - Houston / Texas - Berkadia Brokers Sale of 186-Unit Seniors Housing Property Near Houston: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 70.
+- Refinancing - California - Affinius Capital Provides $120M Refi for San Diego Luxury Multifamily Complex: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 75.
+- Acquisition - California - HVPG Acquires Affordable Housing Community in Elk Grove, California, for $83.6M: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 75.
+- Office-to-Residential Conversion - Atlanta / Georgia - Asana Starts Transformation of Former Duke Energy HQ: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 72.
 - Acquisition - Miami / Florida - Miami Apartments Trade for $109.9M: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 68.
 - Office-to-Residential Conversion - Phoenix / Arizona - Camelback Office-to-Apartment Conversion Nearly Complete: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 67.
-- Refinancing - Other / Unknown - $14M Refinance Secured for Newly Delivered Wicker Park Multifamily: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 66.
+- Affinius Capital Provides $120M Refi for San Diego Luxury Multifamily Complex: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 66.
+- Marcus & Millichap Brokers Sale of Old Town Chicago Multifamily Property: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 66.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 65.
-- Slatt Capital Arranges $27M Construction Loan for San Gabriel Mixed-Use: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 64.
-- Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 64.
+- Refinancing - Other / Unknown - Berkadia Provides $35M Refi for Detroit-Area Multifamily Apartment Complex: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 65.
+- Asana Starts Transformation of Former Duke Energy HQ: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 65.
 
 ## Highest Stall Risk Signals
 
 - L.A. City Council upholds approval of mixed-use project at 787 S. Alameda St. in DTLA: Entitlement Under Review -> Entitlement Under Review, Same Stage Persistence, stall_risk_score 39.
 - Entitlement / Permitting - Los Angeles / California - 85 apartments proposed at 15242 W. Parthenia St. in North Hills: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 38.
-- Office-to-Residential Conversion - Connecticut - Condyne Capital Plans Adaptive Reuse Multifamily Redevelopment of Former Konica Minolta Bu...: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 38.
-- Acquisition - Los Angeles / California - Advanced Real Estate Acquires, Rebrands Rowland Heights Apartments: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 37.
+- Acquisition - Los Angeles / California - Advanced Real Estate Acquires, Rebrands Rowland Heights Apartments: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
+- Entitlement / Permitting - Other / Unknown - 290 apartments planned at 18430 Sherman Way in Reseda: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 38.
 - BTR / Build-to-Rent - Phoenix / Arizona - Porter Kyle Builders Names Industry Veteran John Rowland Vice President of Construction: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 37.
-- Condyne Capital Plans Adaptive Reuse Multifamily Redevelopment of Former Konica Minolta Building in Windsor Connecticut: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 37.
 - Development Start - California - Harbor Island West Marina Launches $70M Redevelopment: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 37.
-- Disposition / Exit - Los Angeles / California - Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
 - Mixed-use project slated for 9700 W. Pico Blvd. in Pico-Robertson: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
+- 290 apartments planned at 18430 Sherman Way in Reseda: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 36.
 - 85 apartments proposed at 15242 W. Parthenia St. in North Hills: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 36.
+- New Construction Application For 3275-3333 San Bruno Avenue, San Francisco: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
 
 ## Newly Detected Projects
 
-- NYC's Rent-Stabilized Subsidy Goes Untapped By Nonprofit Buyers: No Previous Record -> Stabilized / Operating, Newly Detected Project, progression_score 44.
-- 290 apartments planned at 18430 Sherman Way in Reseda: No Previous Record -> Early Site Signal, Newly Detected Project, progression_score 43.
-- New Construction Application For 3275-3333 San Bruno Avenue, San Francisco: No Previous Record -> Site Acquisition / Site Control, Newly Detected Project, progression_score 43.
-- General Project Signal - San Francisco / California - New Construction Application For 3275-3333 San Bruno Avenue, San Francisco: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 42.
-- Entitlement / Permitting - Other / Unknown - 290 apartments planned at 18430 Sherman Way in Reseda: No Previous Record -> Early Site Signal, Newly Detected Project, progression_score 42.
-- General Project Signal - California - Four affordable projects in the San Gabriel Valley score $25M in funding: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 41.
-- General Project Signal - California - Here are California's affordable housing income limits for 2026: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 41.
-- Here are California's affordable housing income limits for 2026: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 41.
-- JV / Partnership - Miami / Florida - JV Raises $100M for Coral Gables Mixed-Use Project: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 35.
-- Disposition / Exit - National - How Cross Street Is Bridging The Gap Between Multifamily Property Management, Residential...: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 27.
+- Refinancing - California - Affinius Capital Provides $120M Refi for San Diego Luxury Multifamily Complex: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 75.
+- Acquisition - California - HVPG Acquires Affordable Housing Community in Elk Grove, California, for $83.6M: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 75.
+- Office-to-Residential Conversion - Atlanta / Georgia - Asana Starts Transformation of Former Duke Energy HQ: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 72.
+- Affinius Capital Provides $120M Refi for San Diego Luxury Multifamily Complex: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 66.
+- Marcus & Millichap Brokers Sale of Old Town Chicago Multifamily Property: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 66.
+- Refinancing - Other / Unknown - Berkadia Provides $35M Refi for Detroit-Area Multifamily Apartment Complex: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 65.
+- Asana Starts Transformation of Former Duke Energy HQ: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 65.
+- Disposition / Exit - Other / Unknown - Marcus & Millichap Brokers Sale of Old Town Chicago Multifamily Property: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 64.
+- Refinancing - Other / Unknown - $14M Refinance Secured for Newly Delivered Multifamily Community The Ash in Wicker Park Ne...: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 61.
+- General Project Signal - Other / Unknown - Krueger Group Opens 25-Unit Rental Townhome Development in Rocky River, Ohio: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 61.
 
 ## Forward Progression Projects
 
@@ -62,14 +62,15 @@ Generated: 2026-06-08 14:39:16
 ## Refinancing / Recap Timing Transitions
 
 - Construction Financing - Los Angeles / California - Slatt Capital Arranges $27M Construction Loan for San Gabriel Mixed-Use: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 30.
+- Refinancing - California - Affinius Lends $120M to Refinance Kearny Mesa Luxury Apartments: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
+- Refinancing - New York City / New York - JLL Capital Markets arranges $70M Refinance for Multifamily Property in the Heart of Manha...: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
 - Construction Financing - Phoenix / Arizona - Scottsdale Developer Inks $141M Construction Loan for Luxury Apartments: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 30.
 - Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
-- Refinancing - Florida - Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
+- JV / Partnership - New York - Walker & Dunlop, Pretium Close on $76M Bridge Loan for Chelsea Apartments: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
 - Slatt Capital Arranges $27M Construction Loan for San Gabriel Mixed-Use: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 28.
 - Construction Financing - California - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 27.
 - Construction Financing - Miami / Florida - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 27.
 - Refinancing - Atlanta / Georgia - Georgia Tech Student Housing Investors Ink Refi: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 27.
-- Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 26.
 
 ## Construction Start Transitions
 
@@ -84,24 +85,24 @@ Generated: 2026-06-08 14:39:16
 
 ## Recommended Transition Follow-up Actions
 
-- Use as delivery, lease-up, and underwriting benchmark: Refinancing - New York - Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island C....
-- Use as delivery, lease-up, and underwriting benchmark: Residential Multifamily Community Trades for $355k Per-Unit in Riverside California.
-- Use as delivery, lease-up, and underwriting benchmark: Arrow Real Estate Advisors Arranges $70M for Delaware MF Development.
-- Use as delivery, lease-up, and underwriting benchmark: Acquisition - Houston / Texas - Berkadia Brokers Sale of 186-Unit Seniors Housing Property Near Houston.
+- Use as delivery, lease-up, and underwriting benchmark: Refinancing - California - Affinius Capital Provides $120M Refi for San Diego Luxury Multifamily Complex.
+- Use as delivery, lease-up, and underwriting benchmark: Acquisition - California - HVPG Acquires Affordable Housing Community in Elk Grove, California, for $83.6M.
+- Use as delivery, lease-up, and underwriting benchmark: Office-to-Residential Conversion - Atlanta / Georgia - Asana Starts Transformation of Former Duke Energy HQ.
 - Monitor for another run to confirm lifecycle direction: Acquisition - Miami / Florida - Miami Apartments Trade for $109.9M.
 - Use as delivery, lease-up, and underwriting benchmark: Office-to-Residential Conversion - Phoenix / Arizona - Camelback Office-to-Apartment Conversion Nearly Complete.
-- Use as delivery, lease-up, and underwriting benchmark: Refinancing - Other / Unknown - $14M Refinance Secured for Newly Delivered Wicker Park Multifamily.
+- Use as delivery, lease-up, and underwriting benchmark: Affinius Capital Provides $120M Refi for San Diego Luxury Multifamily Complex.
+- Use as delivery, lease-up, and underwriting benchmark: Marcus & Millichap Brokers Sale of Old Town Chicago Multifamily Property.
 - Track maturity, lender, recapitalization need, and potential JV angle: Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 677
-- Canonical projects: 165
-- Duplicate project clusters: 113
-- Persistent assets tracked: 165
-- LA persistent asset watch items: 112
+- Raw project references: 774
+- Canonical projects: 167
+- Duplicate project clusters: 112
+- Persistent assets tracked: 167
+- LA persistent asset watch items: 105
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -109,10 +110,10 @@ Generated: 2026-06-08 14:39:16
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 165
-- Institutional-grade signals: 16
-- High-confidence signals: 44
-- Weak/noisy signals: 93
-- High-confidence watchlist items: 44
+- Signals evaluated: 167
+- Institutional-grade signals: 20
+- High-confidence signals: 45
+- Weak/noisy signals: 88
+- High-confidence watchlist items: 45
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

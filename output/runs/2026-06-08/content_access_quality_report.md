@@ -3,13 +3,13 @@
 Limited articles are retained only as conservative title/lead-based evidence. Limited access is tracked separately from article identity mismatches.
 
 ## Summary
-- Total articles: 81
+- Total articles: 91
 - Total limited_or_paywall articles: 15
 - suspicious_mismatch articles: 0
 - limited_or_paywall and suspicious_mismatch overlap: 0
 - Limited articles selected into Development Activity: 11
-- Limited articles selected into GP / Capital Activity: 1
-- Limited articles selected into Representative Evidence: 2
+- Limited articles selected into GP / Capital Activity: 2
+- Limited articles selected into Representative Evidence: 1
 
 ## Limited Articles by Source
 - Urbanize LA: 9
@@ -32,8 +32,8 @@ Limited articles are retained only as conservative title/lead-based evidence. Li
 - New Construction Application For 3275-3333 San Bruno Avenue, San Francisco | SF YIMBY | Development Activity | unknown confidence
 - Revised Plans Filed For 2785 San Bruno Avenue, San Francisco | SF YIMBY | Development Activity | unknown confidence
 - NYC's Rent-Stabilized Subsidy Goes Untapped By Nonprofit Buyers | Bisnow | GP / Capital Activity | low confidence
-- Multifamily CMBS Loan Distress Keeps Rising | Bisnow | GP / Capital Activity | low confidence
 - Permits Filed For 821 Corbett Avenue in Twin Peaks, San Francisco | SF YIMBY | Development Activity | low confidence
+- OceanFirst Purges $1.4B In Rent-Stabilized Multifamily Loans Following Flushing Financial Merger | Bisnow | GP / Capital Activity | low confidence
 
 ## Notes
 - `limited_or_paywall` is an access status, not an article identity failure.

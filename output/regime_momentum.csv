@@ -1,8 +1,8 @@
 ﻿run_date,run_id,run_timestamp,regime,previous_score,latest_score,score_change,momentum_label
-2026-06-08,20260608-143859-a74ae896,2026-06-08 14:38:59,Selective Capital Re-entry,89,89,0,Stable
-2026-06-08,20260608-143859-a74ae896,2026-06-08 14:38:59,Financing Stress,81,81,0,Stable
-2026-06-08,20260608-143859-a74ae896,2026-06-08 14:38:59,Supply Pressure,82,80,-2,Stable
-2026-06-08,20260608-143859-a74ae896,2026-06-08 14:38:59,Policy / Entitlement Watch,63,67,4,Stable
-2026-06-08,20260608-143859-a74ae896,2026-06-08 14:38:59,Developer Strategy Shift,59,59,0,Stable
-2026-06-08,20260608-143859-a74ae896,2026-06-08 14:38:59,Construction Cost Pressure,3,3,0,Stable
-2026-06-08,20260608-143859-a74ae896,2026-06-08 14:38:59,Stable Monitoring Environment,0,0,0,Stable
+2026-06-08,20260608-230157-81fea293,2026-06-08 23:01:57,Selective Capital Re-entry,89,89,0,Stable
+2026-06-08,20260608-230157-81fea293,2026-06-08 23:01:57,Supply Pressure,80,82,2,Stable
+2026-06-08,20260608-230157-81fea293,2026-06-08 23:01:57,Financing Stress,81,81,0,Stable
+2026-06-08,20260608-230157-81fea293,2026-06-08 23:01:57,Policy / Entitlement Watch,67,67,0,Stable
+2026-06-08,20260608-230157-81fea293,2026-06-08 23:01:57,Developer Strategy Shift,59,59,0,Stable
+2026-06-08,20260608-230157-81fea293,2026-06-08 23:01:57,Construction Cost Pressure,3,22,19,Accelerating
+2026-06-08,20260608-230157-81fea293,2026-06-08 23:01:57,Stable Monitoring Environment,0,0,0,Stable

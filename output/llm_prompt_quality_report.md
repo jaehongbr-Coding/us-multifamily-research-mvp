@@ -1,32 +1,32 @@
 # LLM Prompt Quality Report
 
-Generated: 2026-06-08 14:39:10
+Generated: 2026-06-08 23:02:07
 
-- Total prompts reviewed: 50
-- Average prompt quality score: 91.1
-- Excellent prompts: 34
-- Good prompts: 16
+- Total prompts reviewed: 58
+- Average prompt quality score: 91.5
+- Excellent prompts: 43
+- Good prompts: 15
 - Needs Improvement prompts: 0
 - Poor prompts: 0
 
 ## Top 5 Strongest Prompts
 
-- 98 (Excellent): JV Raises $100M for Coral Gables Mixed-Use Project
-- 98 (Excellent): Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio
-- 98 (Excellent): Jonathan Rose Cos. Buys Upper Manhattan Affordable Housing Building for $53M
-- 98 (Excellent): Berkadia Arranges $52.5M Sale of 176-Unit Class A Luxury Multifamily Apartment Community in Poquoson Virginia
-- 98 (Excellent): Targo Capital Partners Buys 185 East Houston Street, Part of $81M Portfolio
+- 98 (Excellent): Affinius Capital Provides $120M Refi for San Diego Luxury Multifamily Complex
+- 98 (Excellent): Walker & Dunlop, Pretium Close on $76M Bridge Loan for Chelsea Apartments
+- 98 (Excellent): HVPG Acquires Affordable Housing Community in Elk Grove, California, for $83.6M
+- 98 (Excellent): Marcus & Millichap Brokers $47M Sale of Multifamily Property in Los Angeles
+- 98 (Excellent): JV Closes On 1,128-Bed Texas A&M Housing Deal
 
 ## Top 5 Weakest Prompts
 
+- 74 (Good): Equity Residential, AvalonBay name C-suite for multifamily giant - Missing: missing extracted numbers; missing market focus; missing market signal
+- 74 (Good): May rent trends run sideways as multifamily supply stays strong - Missing: missing extracted numbers; missing market focus; missing market signal
 - 74 (Good): Are rent concessions rising or falling? It’s complicated. - Missing: missing extracted numbers; missing market focus; missing market signal
-- 74 (Good): Marcus & Millichap Brokers Sale of 160-Unit Multifamily Property in Wisconsin - Missing: missing extracted numbers; missing market focus; missing market signal
 - 74 (Good): Multifamily Missing Middle Construction: First Quarter 2026 - Missing: missing extracted numbers; missing market focus; missing market signal
-- 82 (Good): Advanced Real Estate Acquires, Rebrands Rowland Heights Apartments - Missing: missing extracted numbers; missing market signal
-- 82 (Good): Berkadia Brokers Sale of 186-Unit Seniors Housing Property Near Houston - Missing: missing extracted numbers; missing market signal
+- 82 (Good): Hackberry Lane Adds 400 Student Housing Beds in Florida and Arkansas University Markets - Missing: missing extracted numbers; missing market signal
 
 ## Common Missing Context Issues
 
-- missing market signal: 22
-- missing extracted numbers: 16
-- missing market focus: 5
+- missing market signal: 20
+- missing extracted numbers: 14
+- missing market focus: 13

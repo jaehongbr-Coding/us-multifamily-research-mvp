@@ -1,53 +1,58 @@
 # Opportunity Deduplication Report
 
-Generated: 2026-06-08 14:39:14
+Generated: 2026-06-08 23:02:13
 
-- Total duplicate clusters: 10
+- Total duplicate clusters: 15
 - Opportunities removed via deduplication: 0
 - Distress inflation prevented: 0
 
 ## Strongest Multi-Source Confirmed Opportunities
 
 - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: California, 2 related row(s), opportunity score 96, distress score 80.
-- Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio: Florida, 2 related row(s), opportunity score 89, distress score 69.
+- Affinius Capital Provides $120M Refi for San Diego Luxury Multifamily Complex: California, 2 related row(s), opportunity score 96, distress score 80.
+- Affinius Lends $120M to Refinance Kearny Mesa Luxury Apartments: California, 2 related row(s), opportunity score 96, distress score 80.
+- JLL Capital Markets arranges $70M Refinance for Multifamily Property in the Heart of Manhattan’s West Village: New York City / New York, 2 related row(s), opportunity score 91, distress score 67.
 - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: California, 2 related row(s), opportunity score 88, distress score 72.
-- Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island City New York: New York, 2 related row(s), opportunity score 86, distress score 66.
+- Walker & Dunlop, Pretium Close on $76M Bridge Loan for Chelsea Apartments: New York, 2 related row(s), opportunity score 87, distress score 66.
+- Berkadia Provides $35M Refi for Detroit-Area Multifamily Apartment Complex: Other / Unknown, 2 related row(s), opportunity score 86, distress score 63.
 - Slatt Capital Arranges $27M Construction Loan for San Gabriel Mixed-Use: Los Angeles / California, 2 related row(s), opportunity score 64, distress score 60.
 - Alta Developers Lands $91.8M Construction Loan for Miami Apartments: Miami / Florida, 2 related row(s), opportunity score 64, distress score 60.
 - Scottsdale Developer Inks $141M Construction Loan for Luxury Apartments: Phoenix / Arizona, 2 related row(s), opportunity score 64, distress score 60.
-- $14M Refinance Secured for Newly Delivered Wicker Park Multifamily: Other / Unknown, 2 related row(s), opportunity score 61, distress score 56.
-- Dwight Capital Lends $66M of HUD Debt on Texas Luxury Apartments Project: Austin / Texas, 2 related row(s), opportunity score 60, distress score 56.
-- Georgia Tech Student Housing Investors Ink Refi: Atlanta / Georgia, 2 related row(s), opportunity score 58, distress score 52.
 
 ## Repeated Refinancing Stories
 
-- Walker & Dunlop Arranges $223M in Bridge Financing for Southeast Multifamily Portfolio: Florida, 2 related row(s), opportunity score 89, distress score 69.
-- Slate Property Group Secures $86.25M Refinance for Dutch House Apartments in Long Island City New York: New York, 2 related row(s), opportunity score 86, distress score 66.
-- $14M Refinance Secured for Newly Delivered Wicker Park Multifamily: Other / Unknown, 2 related row(s), opportunity score 61, distress score 56.
+- Affinius Capital Provides $120M Refi for San Diego Luxury Multifamily Complex: California, 2 related row(s), opportunity score 96, distress score 80.
+- Affinius Lends $120M to Refinance Kearny Mesa Luxury Apartments: California, 2 related row(s), opportunity score 96, distress score 80.
+- JLL Capital Markets arranges $70M Refinance for Multifamily Property in the Heart of Manhattan’s West Village: New York City / New York, 2 related row(s), opportunity score 91, distress score 67.
+- Berkadia Provides $35M Refi for Detroit-Area Multifamily Apartment Complex: Other / Unknown, 2 related row(s), opportunity score 86, distress score 63.
+- $14M Refinance Secured for Newly Delivered Multifamily Community The Ash in Wicker Park Neighborhood of Chicago: Other / Unknown, 2 related row(s), opportunity score 59, distress score 54.
 - Georgia Tech Student Housing Investors Ink Refi: Atlanta / Georgia, 2 related row(s), opportunity score 58, distress score 52.
 
 ## Repeated GP Partnership Stories
 
-- Berkadia Arranges $52.5M Sale of 176-Unit Class A Luxury Multifamily Apartment Community in Poquoson Virginia: Virginia, 1 related row(s), opportunity score 85, distress score 0.
+- Walker & Dunlop, Pretium Close on $76M Bridge Loan for Chelsea Apartments: New York, 2 related row(s), opportunity score 87, distress score 66.
+- Newmark Arranges $53M Sale of Waterford Apartments in Everett: Seattle, 1 related row(s), opportunity score 85, distress score 0.
 - JV Raises $100M for Coral Gables Mixed-Use Project: Miami / Florida, 1 related row(s), opportunity score 85, distress score 0.
+- JLL Arranges $70M in Bridge Financing for Delaware Industrial Building: Los Angeles / California, 1 related row(s), opportunity score 84, distress score 0.
 - 19-story high-rise starts work at 6055 Center Drive in Westchester: Los Angeles / California, 1 related row(s), opportunity score 83, distress score 0.
-- Marcus & Millichap Brokers $47M Sale of Landmark Multifamily Asset in Los Angeles: Los Angeles / California, 1 related row(s), opportunity score 81, distress score 0.
-- Residential Multifamily Community Trades for $355k Per-Unit in Riverside California: Riverside / California, 1 related row(s), opportunity score 81, distress score 0.
-- $123M Financing Arranged by Marcus & Millichap’s IPA Capital Markets for Bay Area Multifamily Property: Los Angeles / California, 1 related row(s), opportunity score 80, distress score 0.
-- Institutional Property Advisors Capital Markets Arranges $27M for Newly Built Luxury DC Multifamily: New York City / New York, 1 related row(s), opportunity score 80, distress score 0.
-- Joint Venture Acquires 1,128-Bed Student Housing Community Serving Texas A&M University in College Station Texas: Texas, 1 related row(s), opportunity score 80, distress score 0.
-- JV Closes On 1,128-Bed Texas A&M Housing Deal: Texas, 1 related row(s), opportunity score 79, distress score 0.
+- Marcus & Millichap Brokers $5.2M Sale of Multifamily Property in North Miami Florida: Miami / Florida, 1 related row(s), opportunity score 81, distress score 0.
+- Institutional Property Advisors Exclusively Offers Multifamily Development Site in Southeastern Connecticut for Sale: Connecticut, 1 related row(s), opportunity score 78, distress score 0.
 - Greystar Eyeing 896 Doral Apartment Units: Miami / Florida, 1 related row(s), opportunity score 78, distress score 0.
+- JV Closes On 1,128-Bed Texas A&M Housing Deal: Texas, 1 related row(s), opportunity score 77, distress score 0.
+- Marcus & Millichap Brokers Sale of Old Town Chicago Multifamily Property: Other / Unknown, 1 related row(s), opportunity score 76, distress score 0.
 
 ## California / LA Duplicate Project Tracking
 
 - JLL Lines Up $144M Construction Loan for Santa Ana Multifamily: California, 2 related row(s), opportunity score 96, distress score 80.
+- Affinius Capital Provides $120M Refi for San Diego Luxury Multifamily Complex: California, 2 related row(s), opportunity score 96, distress score 80.
+- Affinius Lends $120M to Refinance Kearny Mesa Luxury Apartments: California, 2 related row(s), opportunity score 96, distress score 80.
 - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: California, 2 related row(s), opportunity score 88, distress score 72.
+- HVPG Acquires Affordable Housing Community in Elk Grove, California, for $83.6M: California, 1 related row(s), opportunity score 93, distress score 0.
+- CBRE Arranges $8.12M Sale of 1.9‑Acre Multifamily Residential Development Site in Yorba Linda California: California, 1 related row(s), opportunity score 92, distress score 0.
+- IPA Capital Markets Arranges $123M in Financing for Multifamily Property in Burlingame, California: California, 1 related row(s), opportunity score 89, distress score 0.
 - JLL Arranges $252M Financing for Huntington Beach Seniors Project: California, 1 related row(s), opportunity score 88, distress score 0.
-- Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: California, 1 related row(s), opportunity score 86, distress score 0.
+- Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: California, 1 related row(s), opportunity score 87, distress score 0.
 - Four affordable projects in the San Gabriel Valley score $25M in funding: California, 1 related row(s), opportunity score 63, distress score 0.
-- Harbor Island West Marina Launches $70M Redevelopment: California, 1 related row(s), opportunity score 62, distress score 0.
-- Here are California's affordable housing income limits for 2026: California, 1 related row(s), opportunity score 61, distress score 0.
 
 ## Why This Matters
 

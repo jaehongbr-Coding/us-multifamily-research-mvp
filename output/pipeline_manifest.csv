@@ -1,61 +1,61 @@
 ﻿run_date,run_id,file_name,file_type,category,generated_status,row_count_or_section_count,last_updated,short_description,recommended_reader
-2026-06-08,20260608-143859-a74ae896,articles.csv,CSV,Raw Collection,Generated,81,2026-06-08 14:38:59,All saved articles above the relevance threshold.,Strategy Team
-2026-06-08,20260608-143859-a74ae896,high_priority_articles.csv,CSV,Strategy Briefing,Generated,47,2026-06-08 14:38:59,Must Read and Review articles.,Executive
-2026-06-08,20260608-143859-a74ae896,market_signals.csv,CSV,Strategy Briefing,Generated,30,2026-06-08 14:38:59,Articles with numeric market signals.,Strategy Team
-2026-06-08,20260608-143859-a74ae896,strategy_briefing.csv,CSV,Strategy Briefing,Generated,50,2026-06-08 14:38:59,Core briefing dataset for strategic review.,Executive
-2026-06-08,20260608-143859-a74ae896,daily_strategy_briefing.md,Markdown,Strategy Briefing,Generated,8,2026-06-08 14:38:59,Human-readable daily strategy briefing.,Executive
-2026-06-08,20260608-143859-a74ae896,weekly_strategy_memo.md,Markdown,Strategy Briefing,Generated,39,2026-06-08 14:39:16,"Weekly memo with trends, regimes, and strategic implications.",Executive
-2026-06-08,20260608-143859-a74ae896,executive_dashboard_brief.md,Markdown,Executive Dashboard,Generated,11,2026-06-08 14:39:16,Concise dashboard-ready executive brief.,Executive
-2026-06-08,20260608-143859-a74ae896,executive_dashboard_brief_ko.md,Markdown,Executive Dashboard,Generated,7,2026-06-08 14:39:16,Korean executive dashboard briefing.,Executive
-2026-06-08,20260608-143859-a74ae896,weekly_strategy_memo_ko.md,Markdown,Strategy Briefing,Generated,6,2026-06-08 14:39:16,Korean weekly strategy memo.,Executive
-2026-06-08,20260608-143859-a74ae896,executive_priority_brief_ko.md,Markdown,Executive Dashboard,Generated,4,2026-06-08 14:39:16,Korean executive priority brief.,Executive
-2026-06-08,20260608-143859-a74ae896,opportunity_radar_report_ko.md,Markdown,Opportunity / Distress,Generated,5,2026-06-08 14:39:16,Korean opportunity radar report.,Investment Team
-2026-06-08,20260608-143859-a74ae896,distress_watchlist_report_ko.md,Markdown,Opportunity / Distress,Generated,5,2026-06-08 14:39:16,Korean distress watchlist report.,Investment Team
-2026-06-08,20260608-143859-a74ae896,high_confidence_watchlist_report_ko.md,Markdown,Quality Control,Generated,4,2026-06-08 14:39:16,Korean high-confidence watchlist report.,Executive
-2026-06-08,20260608-143859-a74ae896,la_asset_watch_report_ko.md,Markdown,Deal / Asset Intelligence,Generated,5,2026-06-08 14:39:16,Korean LA asset watch report.,US Local Team
-2026-06-08,20260608-143859-a74ae896,la_entitlement_watch_report_ko.md,Markdown,Entitlement / Lifecycle Intelligence,Generated,5,2026-06-08 14:39:16,Korean LA entitlement watch report.,US Local Team
-2026-06-08,20260608-143859-a74ae896,la_development_lifecycle_watch_report_ko.md,Markdown,Entitlement / Lifecycle Intelligence,Generated,4,2026-06-08 14:39:16,Korean LA development lifecycle watch report.,US Local Team
-2026-06-08,20260608-143859-a74ae896,gp_watchlist_report_ko.md,Markdown,GP / Institutional Intelligence,Generated,5,2026-06-08 14:39:16,Korean GP watchlist report.,Strategy Team
-2026-06-08,20260608-143859-a74ae896,korean_reporting_index.md,Markdown,Strategy Briefing,Generated,4,2026-06-08 14:39:16,Index and reading order for Korean reports.,Executive
-2026-06-08,20260608-143859-a74ae896,dashboard_summary.csv,CSV,Executive Dashboard,Generated,1,2026-06-08 14:39:16,One-row run summary for future dashboard metrics.,Technical / Maintenance
-2026-06-08,20260608-143859-a74ae896,dashboard_cards.csv,CSV,Executive Dashboard,Generated,38,2026-06-08 14:39:16,Dashboard-ready card data.,Technical / Maintenance
-2026-06-08,20260608-143859-a74ae896,dashboard_watchlists.csv,CSV,Executive Dashboard,Generated,98,2026-06-08 14:39:16,Dashboard-ready watchlist data.,Technical / Maintenance
-2026-06-08,20260608-143859-a74ae896,high_confidence_watchlist.csv,CSV,Quality Control,Generated,44,2026-06-08 14:39:16,Highest-confidence strategic signals.,Executive
-2026-06-08,20260608-143859-a74ae896,signal_quality.csv,CSV,Quality Control,Generated,165,2026-06-08 14:39:16,Signal confidence and false-positive risk scoring.,Strategy Team
-2026-06-08,20260608-143859-a74ae896,source_health.csv,CSV,Source Management,Generated,163,2026-06-08 14:38:59,Feed status and source usefulness.,Technical / Maintenance
-2026-06-08,20260608-143859-a74ae896,source_coverage_report.csv,CSV,Source Management,Generated,25,2026-06-08 14:39:10,Site / Parcel feed coverage diagnostics.,Technical / Maintenance
-2026-06-08,20260608-143859-a74ae896,costar_intake_report.csv,CSV,Source Management,Generated,1,2026-06-08 14:39:10,Diagnostics for manually exported CoStar intake files.,Technical / Maintenance
-2026-06-08,20260608-143859-a74ae896,source_activation.csv,CSV,Source Management,Generated,163,2026-06-08 14:38:59,Validated source activation and source quality scoring.,Technical / Maintenance
-2026-06-08,20260608-143859-a74ae896,source_health_report.md,Markdown,Source Management,Generated,9,2026-06-08 14:38:59,Readable source health report.,Technical / Maintenance
-2026-06-08,20260608-143859-a74ae896,source_coverage_report.md,Markdown,Source Management,Generated,4,2026-06-08 14:39:10,Readable Site / Parcel source coverage report.,Technical / Maintenance
-2026-06-08,20260608-143859-a74ae896,costar_intake_report.md,Markdown,Source Management,Generated,4,2026-06-08 14:39:10,Readable CoStar manual intake diagnostics.,Technical / Maintenance
-2026-06-08,20260608-143859-a74ae896,source_activation_report.md,Markdown,Source Management,Generated,11,2026-06-08 14:38:59,Readable source activation report.,Technical / Maintenance
-2026-06-08,20260608-143859-a74ae896,opportunity_radar.csv,CSV,Opportunity / Distress,Generated,56,2026-06-08 14:39:16,"Acquisition, recapitalization, JV, and market-entry opportunities.",Investment Team
-2026-06-08,20260608-143859-a74ae896,distress_watchlist.csv,CSV,Opportunity / Distress,Generated,10,2026-06-08 14:39:16,"Refinancing stress, stalled project, and distress signals.",Investment Team
-2026-06-08,20260608-143859-a74ae896,deal_pipeline.csv,CSV,Deal / Asset Intelligence,Generated,59,2026-06-08 14:39:16,Extracted deal and project pipeline signals.,Investment Team
-2026-06-08,20260608-143859-a74ae896,asset_parcel_intelligence.csv,CSV,Deal / Asset Intelligence,Generated,82,2026-06-08 14:39:16,"Asset, parcel, address, sponsor, and site-level clues.",Development Team
-2026-06-08,20260608-143859-a74ae896,la_asset_watch.csv,CSV,Deal / Asset Intelligence,Generated,53,2026-06-08 14:39:15,LA and Southern California asset watchlist.,US Local Team
-2026-06-08,20260608-143859-a74ae896,project_identity.csv,CSV,Deal / Asset Intelligence,Generated,677,2026-06-08 14:39:16,Canonical project identity resolution.,Technical / Maintenance
-2026-06-08,20260608-143859-a74ae896,persistent_asset_memory.csv,CSV,Historical Memory,Generated,165,2026-06-08 14:39:16,Persistent project memory across runs.,Development Team
-2026-06-08,20260608-143859-a74ae896,la_persistent_asset_watch.csv,CSV,Historical Memory,Generated,112,2026-06-08 14:39:16,Persistent LA and Southern California asset watch.,US Local Team
-2026-06-08,20260608-143859-a74ae896,entitlement_intelligence.csv,CSV,Entitlement / Lifecycle Intelligence,Generated,13,2026-06-08 14:39:14,"Zoning, permitting, entitlement, and approval signals.",Development Team
-2026-06-08,20260608-143859-a74ae896,la_entitlement_watch.csv,CSV,Entitlement / Lifecycle Intelligence,Generated,11,2026-06-08 14:39:14,LA and California entitlement watchlist.,US Local Team
-2026-06-08,20260608-143859-a74ae896,development_lifecycle.csv,CSV,Entitlement / Lifecycle Intelligence,Generated,82,2026-06-08 14:39:16,Development lifecycle stage classification.,Development Team
-2026-06-08,20260608-143859-a74ae896,lifecycle_transition.csv,CSV,Entitlement / Lifecycle Intelligence,Generated,82,2026-06-08 14:39:16,Lifecycle progression and stall tracking.,Development Team
-2026-06-08,20260608-143859-a74ae896,timing_intelligence.csv,CSV,Entitlement / Lifecycle Intelligence,Generated,38,2026-06-08 14:39:14,"Timing signals for refinancing, delivery, permitting, and entry windows.",Strategy Team
-2026-06-08,20260608-143859-a74ae896,market_entry_window.csv,CSV,Strategy Briefing,Generated,8,2026-06-08 14:39:14,Market entry window scoring by region.,Investment Team
-2026-06-08,20260608-143859-a74ae896,gp_watchlist.csv,CSV,GP / Institutional Intelligence,Generated,23,2026-06-08 14:39:11,Emerging GP ranking and watchlist.,Strategy Team
-2026-06-08,20260608-143859-a74ae896,gp_intelligence.csv,CSV,GP / Institutional Intelligence,Generated,23,2026-06-08 14:39:11,Developer and GP intelligence signals.,Strategy Team
-2026-06-08,20260608-143859-a74ae896,institutional_relationships.csv,CSV,GP / Institutional Intelligence,Generated,23,2026-06-08 14:39:11,Institutional relationship and capital-flow scoring.,Strategy Team
-2026-06-08,20260608-143859-a74ae896,relationship_graph.csv,CSV,GP / Institutional Intelligence,Generated,118,2026-06-08 14:39:16,"Developer, lender, capital partner, and market relationship edges.",Strategy Team
-2026-06-08,20260608-143859-a74ae896,regional_intelligence.csv,CSV,Strategy Briefing,Generated,13,2026-06-08 14:39:11,Market and regional intelligence summary.,US Local Team
-2026-06-08,20260608-143859-a74ae896,residential_sector_intelligence.csv,CSV,Strategy Briefing,Generated,11,2026-06-08 14:39:11,Residential sector coverage beyond multifamily.,Strategy Team
-2026-06-08,20260608-143859-a74ae896,historical_memory.csv,CSV,Historical Memory,Generated,1646,2026-06-08 14:39:11,Recurring entities and signals across runs.,Strategy Team
-2026-06-08,20260608-143859-a74ae896,capital_flow_memory.csv,CSV,Historical Memory,Generated,367,2026-06-08 14:39:11,Capital-flow memory and lender recurrence tracking.,Finance / Treasury
-2026-06-08,20260608-143859-a74ae896,relationship_persistence.csv,CSV,Historical Memory,Generated,547,2026-06-08 14:39:11,"Recurring GP, lender, and capital relationships.",Strategy Team
-2026-06-08,20260608-143859-a74ae896,pipeline_manifest.csv,CSV,Quality Control,Generated,60,2026-06-08 14:39:17,Index of major outputs and their status.,Technical / Maintenance
-2026-06-08,20260608-143859-a74ae896,pipeline_manifest.md,Markdown,Quality Control,Generated,3,2026-06-08 14:39:17,Human-readable pipeline output index.,Technical / Maintenance
-2026-06-08,20260608-143859-a74ae896,pipeline_health.csv,CSV,Quality Control,Generated,141,2026-06-08 14:39:17,Machine-readable pipeline health checks.,Technical / Maintenance
-2026-06-08,20260608-143859-a74ae896,pipeline_health_report.md,Markdown,Quality Control,Generated,6,2026-06-08 14:39:17,Human-readable pipeline health report.,Technical / Maintenance
-2026-06-08,20260608-143859-a74ae896,error_log.csv,CSV,Quality Control,Generated,1699,2026-06-08 14:39:17,Append-only log of non-fatal warnings and errors.,Technical / Maintenance
-2026-06-08,20260608-143859-a74ae896,run_summary.md,Markdown,Quality Control,Generated,5,2026-06-08 14:39:17,Short beginner-friendly summary of the latest run.,Executive
+2026-06-08,20260608-230157-81fea293,articles.csv,CSV,Raw Collection,Generated,91,2026-06-08 23:01:57,All saved articles above the relevance threshold.,Strategy Team
+2026-06-08,20260608-230157-81fea293,high_priority_articles.csv,CSV,Strategy Briefing,Generated,51,2026-06-08 23:01:57,Must Read and Review articles.,Executive
+2026-06-08,20260608-230157-81fea293,market_signals.csv,CSV,Strategy Briefing,Generated,41,2026-06-08 23:01:57,Articles with numeric market signals.,Strategy Team
+2026-06-08,20260608-230157-81fea293,strategy_briefing.csv,CSV,Strategy Briefing,Generated,58,2026-06-08 23:01:57,Core briefing dataset for strategic review.,Executive
+2026-06-08,20260608-230157-81fea293,daily_strategy_briefing.md,Markdown,Strategy Briefing,Generated,8,2026-06-08 23:01:57,Human-readable daily strategy briefing.,Executive
+2026-06-08,20260608-230157-81fea293,weekly_strategy_memo.md,Markdown,Strategy Briefing,Generated,39,2026-06-08 23:02:18,"Weekly memo with trends, regimes, and strategic implications.",Executive
+2026-06-08,20260608-230157-81fea293,executive_dashboard_brief.md,Markdown,Executive Dashboard,Generated,11,2026-06-08 23:02:18,Concise dashboard-ready executive brief.,Executive
+2026-06-08,20260608-230157-81fea293,executive_dashboard_brief_ko.md,Markdown,Executive Dashboard,Generated,7,2026-06-08 23:02:18,Korean executive dashboard briefing.,Executive
+2026-06-08,20260608-230157-81fea293,weekly_strategy_memo_ko.md,Markdown,Strategy Briefing,Generated,6,2026-06-08 23:02:18,Korean weekly strategy memo.,Executive
+2026-06-08,20260608-230157-81fea293,executive_priority_brief_ko.md,Markdown,Executive Dashboard,Generated,4,2026-06-08 23:02:18,Korean executive priority brief.,Executive
+2026-06-08,20260608-230157-81fea293,opportunity_radar_report_ko.md,Markdown,Opportunity / Distress,Generated,5,2026-06-08 23:02:18,Korean opportunity radar report.,Investment Team
+2026-06-08,20260608-230157-81fea293,distress_watchlist_report_ko.md,Markdown,Opportunity / Distress,Generated,5,2026-06-08 23:02:18,Korean distress watchlist report.,Investment Team
+2026-06-08,20260608-230157-81fea293,high_confidence_watchlist_report_ko.md,Markdown,Quality Control,Generated,4,2026-06-08 23:02:18,Korean high-confidence watchlist report.,Executive
+2026-06-08,20260608-230157-81fea293,la_asset_watch_report_ko.md,Markdown,Deal / Asset Intelligence,Generated,5,2026-06-08 23:02:18,Korean LA asset watch report.,US Local Team
+2026-06-08,20260608-230157-81fea293,la_entitlement_watch_report_ko.md,Markdown,Entitlement / Lifecycle Intelligence,Generated,5,2026-06-08 23:02:18,Korean LA entitlement watch report.,US Local Team
+2026-06-08,20260608-230157-81fea293,la_development_lifecycle_watch_report_ko.md,Markdown,Entitlement / Lifecycle Intelligence,Generated,4,2026-06-08 23:02:18,Korean LA development lifecycle watch report.,US Local Team
+2026-06-08,20260608-230157-81fea293,gp_watchlist_report_ko.md,Markdown,GP / Institutional Intelligence,Generated,5,2026-06-08 23:02:18,Korean GP watchlist report.,Strategy Team
+2026-06-08,20260608-230157-81fea293,korean_reporting_index.md,Markdown,Strategy Briefing,Generated,4,2026-06-08 23:02:18,Index and reading order for Korean reports.,Executive
+2026-06-08,20260608-230157-81fea293,dashboard_summary.csv,CSV,Executive Dashboard,Generated,1,2026-06-08 23:02:18,One-row run summary for future dashboard metrics.,Technical / Maintenance
+2026-06-08,20260608-230157-81fea293,dashboard_cards.csv,CSV,Executive Dashboard,Generated,38,2026-06-08 23:02:18,Dashboard-ready card data.,Technical / Maintenance
+2026-06-08,20260608-230157-81fea293,dashboard_watchlists.csv,CSV,Executive Dashboard,Generated,98,2026-06-08 23:02:18,Dashboard-ready watchlist data.,Technical / Maintenance
+2026-06-08,20260608-230157-81fea293,high_confidence_watchlist.csv,CSV,Quality Control,Generated,45,2026-06-08 23:02:17,Highest-confidence strategic signals.,Executive
+2026-06-08,20260608-230157-81fea293,signal_quality.csv,CSV,Quality Control,Generated,167,2026-06-08 23:02:17,Signal confidence and false-positive risk scoring.,Strategy Team
+2026-06-08,20260608-230157-81fea293,source_health.csv,CSV,Source Management,Generated,163,2026-06-08 23:01:57,Feed status and source usefulness.,Technical / Maintenance
+2026-06-08,20260608-230157-81fea293,source_coverage_report.csv,CSV,Source Management,Generated,25,2026-06-08 23:02:07,Site / Parcel feed coverage diagnostics.,Technical / Maintenance
+2026-06-08,20260608-230157-81fea293,costar_intake_report.csv,CSV,Source Management,Generated,1,2026-06-08 23:02:07,Diagnostics for manually exported CoStar intake files.,Technical / Maintenance
+2026-06-08,20260608-230157-81fea293,source_activation.csv,CSV,Source Management,Generated,163,2026-06-08 23:01:57,Validated source activation and source quality scoring.,Technical / Maintenance
+2026-06-08,20260608-230157-81fea293,source_health_report.md,Markdown,Source Management,Generated,9,2026-06-08 23:01:57,Readable source health report.,Technical / Maintenance
+2026-06-08,20260608-230157-81fea293,source_coverage_report.md,Markdown,Source Management,Generated,4,2026-06-08 23:02:07,Readable Site / Parcel source coverage report.,Technical / Maintenance
+2026-06-08,20260608-230157-81fea293,costar_intake_report.md,Markdown,Source Management,Generated,4,2026-06-08 23:02:07,Readable CoStar manual intake diagnostics.,Technical / Maintenance
+2026-06-08,20260608-230157-81fea293,source_activation_report.md,Markdown,Source Management,Generated,11,2026-06-08 23:01:57,Readable source activation report.,Technical / Maintenance
+2026-06-08,20260608-230157-81fea293,opportunity_radar.csv,CSV,Opportunity / Distress,Generated,65,2026-06-08 23:02:17,"Acquisition, recapitalization, JV, and market-entry opportunities.",Investment Team
+2026-06-08,20260608-230157-81fea293,distress_watchlist.csv,CSV,Opportunity / Distress,Generated,15,2026-06-08 23:02:17,"Refinancing stress, stalled project, and distress signals.",Investment Team
+2026-06-08,20260608-230157-81fea293,deal_pipeline.csv,CSV,Deal / Asset Intelligence,Generated,68,2026-06-08 23:02:17,Extracted deal and project pipeline signals.,Investment Team
+2026-06-08,20260608-230157-81fea293,asset_parcel_intelligence.csv,CSV,Deal / Asset Intelligence,Generated,95,2026-06-08 23:02:17,"Asset, parcel, address, sponsor, and site-level clues.",Development Team
+2026-06-08,20260608-230157-81fea293,la_asset_watch.csv,CSV,Deal / Asset Intelligence,Generated,61,2026-06-08 23:02:15,LA and Southern California asset watchlist.,US Local Team
+2026-06-08,20260608-230157-81fea293,project_identity.csv,CSV,Deal / Asset Intelligence,Generated,774,2026-06-08 23:02:17,Canonical project identity resolution.,Technical / Maintenance
+2026-06-08,20260608-230157-81fea293,persistent_asset_memory.csv,CSV,Historical Memory,Generated,167,2026-06-08 23:02:17,Persistent project memory across runs.,Development Team
+2026-06-08,20260608-230157-81fea293,la_persistent_asset_watch.csv,CSV,Historical Memory,Generated,105,2026-06-08 23:02:17,Persistent LA and Southern California asset watch.,US Local Team
+2026-06-08,20260608-230157-81fea293,entitlement_intelligence.csv,CSV,Entitlement / Lifecycle Intelligence,Generated,13,2026-06-08 23:02:13,"Zoning, permitting, entitlement, and approval signals.",Development Team
+2026-06-08,20260608-230157-81fea293,la_entitlement_watch.csv,CSV,Entitlement / Lifecycle Intelligence,Generated,11,2026-06-08 23:02:13,LA and California entitlement watchlist.,US Local Team
+2026-06-08,20260608-230157-81fea293,development_lifecycle.csv,CSV,Entitlement / Lifecycle Intelligence,Generated,95,2026-06-08 23:02:17,Development lifecycle stage classification.,Development Team
+2026-06-08,20260608-230157-81fea293,lifecycle_transition.csv,CSV,Entitlement / Lifecycle Intelligence,Generated,95,2026-06-08 23:02:17,Lifecycle progression and stall tracking.,Development Team
+2026-06-08,20260608-230157-81fea293,timing_intelligence.csv,CSV,Entitlement / Lifecycle Intelligence,Generated,52,2026-06-08 23:02:13,"Timing signals for refinancing, delivery, permitting, and entry windows.",Strategy Team
+2026-06-08,20260608-230157-81fea293,market_entry_window.csv,CSV,Strategy Briefing,Generated,8,2026-06-08 23:02:13,Market entry window scoring by region.,Investment Team
+2026-06-08,20260608-230157-81fea293,gp_watchlist.csv,CSV,GP / Institutional Intelligence,Generated,26,2026-06-08 23:02:08,Emerging GP ranking and watchlist.,Strategy Team
+2026-06-08,20260608-230157-81fea293,gp_intelligence.csv,CSV,GP / Institutional Intelligence,Generated,26,2026-06-08 23:02:08,Developer and GP intelligence signals.,Strategy Team
+2026-06-08,20260608-230157-81fea293,institutional_relationships.csv,CSV,GP / Institutional Intelligence,Generated,26,2026-06-08 23:02:08,Institutional relationship and capital-flow scoring.,Strategy Team
+2026-06-08,20260608-230157-81fea293,relationship_graph.csv,CSV,GP / Institutional Intelligence,Generated,130,2026-06-08 23:02:17,"Developer, lender, capital partner, and market relationship edges.",Strategy Team
+2026-06-08,20260608-230157-81fea293,regional_intelligence.csv,CSV,Strategy Briefing,Generated,13,2026-06-08 23:02:08,Market and regional intelligence summary.,US Local Team
+2026-06-08,20260608-230157-81fea293,residential_sector_intelligence.csv,CSV,Strategy Briefing,Generated,11,2026-06-08 23:02:08,Residential sector coverage beyond multifamily.,Strategy Team
+2026-06-08,20260608-230157-81fea293,historical_memory.csv,CSV,Historical Memory,Generated,1755,2026-06-08 23:02:08,Recurring entities and signals across runs.,Strategy Team
+2026-06-08,20260608-230157-81fea293,capital_flow_memory.csv,CSV,Historical Memory,Generated,393,2026-06-08 23:02:08,Capital-flow memory and lender recurrence tracking.,Finance / Treasury
+2026-06-08,20260608-230157-81fea293,relationship_persistence.csv,CSV,Historical Memory,Generated,572,2026-06-08 23:02:08,"Recurring GP, lender, and capital relationships.",Strategy Team
+2026-06-08,20260608-230157-81fea293,pipeline_manifest.csv,CSV,Quality Control,Generated,60,2026-06-08 23:02:18,Index of major outputs and their status.,Technical / Maintenance
+2026-06-08,20260608-230157-81fea293,pipeline_manifest.md,Markdown,Quality Control,Generated,3,2026-06-08 23:02:18,Human-readable pipeline output index.,Technical / Maintenance
+2026-06-08,20260608-230157-81fea293,pipeline_health.csv,CSV,Quality Control,Generated,141,2026-06-08 23:02:18,Machine-readable pipeline health checks.,Technical / Maintenance
+2026-06-08,20260608-230157-81fea293,pipeline_health_report.md,Markdown,Quality Control,Generated,6,2026-06-08 23:02:18,Human-readable pipeline health report.,Technical / Maintenance
+2026-06-08,20260608-230157-81fea293,error_log.csv,CSV,Quality Control,Generated,1713,2026-06-08 23:02:18,Append-only log of non-fatal warnings and errors.,Technical / Maintenance
+2026-06-08,20260608-230157-81fea293,run_summary.md,Markdown,Quality Control,Generated,5,2026-06-08 23:02:18,Short beginner-friendly summary of the latest run.,Executive

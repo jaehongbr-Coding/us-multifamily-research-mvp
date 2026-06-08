@@ -1,6 +1,6 @@
 # Site / Parcel Source Coverage Report
 
-Generated: 2026-06-08 14:39:10
+Generated: 2026-06-08 23:02:07
 
 - Total added sources attempted: 25
 - Successful sources: 7
@@ -9,9 +9,9 @@ Generated: 2026-06-08 14:39:10
 
 ## Top Site / Parcel Candidate Sources
 
-- Connect CRE Apartments: 2 candidate(s) from 10 fetched article(s).
-- Connect CRE Texas: 1 candidate(s) from 10 fetched article(s).
-- Connect CRE South Florida: 1 candidate(s) from 10 fetched article(s).
+- Connect CRE South Florida: 2 candidate(s) from 10 fetched article(s).
+- Connect CRE Apartments: 1 candidate(s) from 10 fetched article(s).
+- Connect CRE Phoenix: 1 candidate(s) from 10 fetched article(s).
 - Connect CRE Atlanta: 1 candidate(s) from 10 fetched article(s).
 
 ## Why Coverage May Still Be Thin
@@ -23,10 +23,10 @@ Generated: 2026-06-08 14:39:10
 ## Source Detail
 
 - REBusiness Online: no relevant articles | fetched 20 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
-- Connect CRE Apartments: success | fetched 10 | Site / Parcel candidates 2 | Available
-- Connect CRE Texas: success | fetched 10 | Site / Parcel candidates 1 | Available
-- Connect CRE South Florida: success | fetched 10 | Site / Parcel candidates 1 | Available
-- Connect CRE Phoenix: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
+- Connect CRE Apartments: success | fetched 10 | Site / Parcel candidates 1 | Available
+- Connect CRE Texas: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
+- Connect CRE South Florida: success | fetched 10 | Site / Parcel candidates 2 | Available
+- Connect CRE Phoenix: success | fetched 10 | Site / Parcel candidates 1 | Available
 - Connect CRE Atlanta: success | fetched 10 | Site / Parcel candidates 1 | Available
 - Connect CRE Charlotte: error | fetched 0 | Site / Parcel candidates 0 | RSS parsing issue: status=404; <unknown>:22:51: not well-formed (invalid token)
 - Connect CRE Orange County: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected

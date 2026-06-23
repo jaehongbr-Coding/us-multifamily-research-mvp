@@ -1,6 +1,6 @@
 # Source Recovery Report
 
-Generated: 2026-06-23 00:08:02
+Generated: 2026-06-23 23:58:49
 
 ## Summary
 
@@ -13,16 +13,16 @@ Generated: 2026-06-23 00:08:02
 | source_name | rss_url | status | error_type | last_success_date | last_article_count | fallback | recovery_recommendation |
 | --- | --- | --- | --- | --- | ---: | --- | --- |
 | GlobeSt | https://www.globest.com/feed/ | Failed | rss_not_found |  | 0 | homepage reachable | RSS feed failed, but fallback page is reachable; consider source-specific parser or sitemap ingestion. |
-| Connect CRE | https://www.connectcre.com/feed/ | OK |  | 2026-06-23 | 5 |  | Manual source review needed. |
+| Connect CRE | https://www.connectcre.com/feed/ | OK |  | 2026-06-23 | 3 |  | Manual source review needed. |
 | The Real Deal | https://therealdeal.com/feed/ | Failed | rss_changed |  | 0 | source page reachable | RSS feed failed, but fallback page is reachable; consider source-specific parser or sitemap ingestion. |
-| Connect CRE Apartments | https://www.connectcre.com/feed?property-sector=apartments | OK |  | 2026-06-23 | 8 |  | Manual source review needed. |
-| Connect CRE Texas | https://www.connectcre.com/feed?story-market=texas | OK |  | 2026-06-23 | 3 |  | Manual source review needed. |
+| Connect CRE Apartments | https://www.connectcre.com/feed?property-sector=apartments | OK |  | 2026-06-23 | 7 |  | Manual source review needed. |
+| Connect CRE Texas | https://www.connectcre.com/feed?story-market=texas | OK |  | 2026-06-23 | 5 |  | Manual source review needed. |
 | Connect CRE South Florida | https://www.connectcre.com/feed?story-market=south-florida | OK |  | 2026-06-23 | 3 |  | Manual source review needed. |
-| Connect CRE Phoenix | https://www.connectcre.com/feed?story-market=phoenix | OK |  | 2026-06-23 | 3 |  | Manual source review needed. |
+| Connect CRE Phoenix | https://www.connectcre.com/feed?story-market=phoenix | OK |  | 2026-06-23 | 2 |  | Manual source review needed. |
 | Connect CRE Atlanta | https://www.connectcre.com/feed?story-market=atlanta | OK |  | 2026-06-23 | 1 |  | Manual source review needed. |
 | Connect CRE Charlotte | https://www.connectcre.com/feed?story-market=charlotte | Failed | rss_not_found |  | 0 | no reliable fallback found | Replace the feed URL; current RSS endpoint appears unavailable. |
 | Connect CRE Orange County | https://www.connectcre.com/feed?story-market=orange-county | OK |  | 2026-06-23 | 4 |  | Manual source review needed. |
-| Connect CRE California | https://www.connectcre.com/feed?story-market=california | OK |  | 2026-06-23 | 5 |  | Manual source review needed. |
+| Connect CRE California | https://www.connectcre.com/feed?story-market=california | OK |  | 2026-06-23 | 7 |  | Manual source review needed. |
 
 ## High-Importance Failures
 

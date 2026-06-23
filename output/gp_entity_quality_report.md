@@ -1,37 +1,37 @@
 # GP / Capital Entity Quality Report
 
-Generated: 2026-06-23 00:08:03
+Generated: 2026-06-23 23:58:50
 
 ## Summary
 
-- Total GP/Capital articles: 39
-- Participant not identified: 18
-- Dictionary match: 14
-- Title fallback / headline extraction: 2
-- Low confidence or unresolved: 18
+- Total GP/Capital articles: 42
+- Participant not identified: 17
+- Dictionary match: 19
+- Title fallback / headline extraction: 1
+- Low confidence or unresolved: 17
 
 ## Representative Resolved Samples
 
-- Berkadia: Berkadia Arranges $124.65M Refinancing of Mixed-Use Multifamily Community in Dallas-Fort Worth Metroplex (dictionary_match, high)
-- Blackstone: Blackstone Provides $125M Refi for Dallas-Area Multifamily Mixed-Use Complex (dictionary_match, high)
-- Former JCPenney HQ Residential: Helaba Lends $112M for Dallas-Area Apartments at Former JCPenney HQ (capital_event_sentence, medium)
-- JLL: Mott Haven Development Site Set for One or More Residential Buildings (dictionary_match, high)
-- Naftali Credit Partners: Naftali Credit Partners Arranges $75M Debt for Flatbush Condo Project (capital_event_sentence, medium)
-- Ares Real Estate: Opus, Ares Secure $67M Loan to Take Out Denver Apartment Construction Financing (capital_event_sentence, medium)
-- Berkadia: Developer Duo Closes on $67.5M Financing for Coral Gables Condos (dictionary_match, high)
+- Berkadia: Berkadia Negotiates $6M Multifamily Sale in Lawndale California (dictionary_match, high)
+- Millichap Capital: Marcus & Millichap Brokers $19.75M Sale and $13.3M Financing of 64-Unit Multifamily Property in Livermore California (dictionary_match, high)
+- S3 Capital: S3 Capital Lends $102M for Hell’s Kitchen Office-to-Resi Conversion (title_lead_pattern, medium)
+- Florida Panhandle Multifamily Project Residential: Peachtree Lends $44M on Florida Panhandle Multifamily Project (capital_event_sentence, medium)
+- CBRE: CBRE Arranges Sale of Townhomes in Kenosha (dictionary_match, high)
+- Madison Realty Capital: Walker & Dunlop Arranges $375M Loan for Jersey City Mixed-Use (dictionary_match, high)
+- Berkadia: Berkadia Arranges $124.6M Loan for Refinancing of Irving Mixed-Use Property (dictionary_match, high)
+- Walker & Dunlop: Nasser Freres Receives $375M Construction Loan for Jersey City Apartment Tower (dictionary_match, high)
+- Alliance Residential: Alliance Residential Divests of 258-Unit Multifamily Property in Phoenix (dictionary_match, high)
 - Nitya Capital: Tide Equities Sells Phoenix Rental Asset for $41M (capital_event_sentence, medium)
-- Quarterra: Quarterra Sells 290-Unit Kierland Rental Asset (dictionary_match, high)
-- CBRE: Yorba Linda Parking Lot Sells for Townhome Redevelopment (dictionary_match, high)
 
 ## Unresolved Examples
 
 - The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist | Multifamily Executive | No institution name detected in dictionary, title, summary, or source text.
-- Northmarq Investment Sales team facilitates $14M sale of Mossy Oaks Apartments in Beaufort South Carolina | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
-- Trilogy Investment Receives Construction Loan for 122-Unit Townhome Development in Emerson, Georgia | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
+- Linc Housing plans new project at 3590 Elm Ave. in Long Beach | Urbanize LA | No institution name detected in dictionary, title, summary, or source text.
 - Kolter Inks $91.7M Construction Loan, Starts Work on Delray Beach Rental Community | Connect CRE South Florida | No institution name detected in dictionary, title, summary, or source text.
 - Kidder Closes Hollywood Multifamily Sale Despite Softening Rental Trends | Connect CRE California | No institution name detected in dictionary, title, summary, or source text.
-- Brook Farm, Manor Park to Develop 336-Unit Multifamily Community in Savannah | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
 - American Landmark appoints new investment chief | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.
-- Colliers Facilitates Sale of 118-Unit Multifamily Apartment Property in Bozeman | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
 - What Today’s Renters Want From Their Property Managers | Multifamily Executive | No institution name detected in dictionary, title, summary, or source text.
-- Why Adam America has moved to student housing | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.
+- Why Adam America has moved into student housing | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.
+- Cityview, Stockbridge Cut Ribbon on Gardena Multifamily | Connect CRE | No institution name detected in dictionary, title, summary, or source text.
+- Overall Housing Starts Inch Lower in 2025 | NAHB Eye on Housing - Multifamily | No institution name detected in dictionary, title, summary, or source text.
+- Miami-Dade County Sells Apartment Site for $10 | Connect CRE South Florida | No institution name detected in dictionary, title, summary, or source text.

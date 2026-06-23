@@ -1,2 +1,2 @@
 ﻿run_date,run_id,generated_at,file_name,file_type,file_status,rows_loaded,rows_accepted,rows_skipped,missing_required_fields,notes
-2026-06-23,20260623-000752-0e6f5f71,2026-06-23 00:07:52,,,no files,0,0,0,,No supported CoStar files found in input/costar.
+2026-06-23,20260623-235839-1625a2df,2026-06-23 23:58:39,,,no files,0,0,0,,No supported CoStar files found in input/costar.

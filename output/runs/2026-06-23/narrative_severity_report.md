@@ -1,6 +1,6 @@
 # Narrative Severity Report
 
-Generated: 2026-06-23 00:08:02
+Generated: 2026-06-23 23:58:49
 
 - Top severity regime: Selective Capital Re-entry (100)
 - Top conviction regime: Selective Capital Re-entry (100)
@@ -11,18 +11,18 @@ Generated: 2026-06-23 00:08:02
 | --- | ---: | ---: | --- | --- |
 | Selective Capital Re-entry | 100 | 100 | Immediate Attention | Opportunity / Pricing Signal |
 | Financing Stress | 100 | 89 | Immediate Attention | Risk |
-| Supply Pressure | 100 | 80 | Immediate Attention | Risk |
+| Supply Pressure | 96 | 80 | Immediate Attention | Risk |
+| Policy / Entitlement Watch | 94 | 74 | Immediate Attention | Risk / Opportunity |
 | Developer Strategy Shift | 91 | 92 | Immediate Attention | Opportunity / Capability Signal |
-| Policy / Entitlement Watch | 86 | 63 | Review This Week | Risk / Opportunity |
 | Construction Cost Pressure | 2 | 4 | Background | Risk |
 
 ## Key Evidence
 
-- Selective Capital Re-entry: supporting articles: 21; high-priority supporting articles: 21; supporting articles with extracted numbers: 17; momentum: Stable; Institutional Flow articles: 14; Deal Size Signal articles: 6; Institutional player mentions: 12
-- Financing Stress: supporting articles: 18; high-priority supporting articles: 18; supporting articles with extracted numbers: 14; momentum: Improving; Financing Risk articles: 16; Financing/cap-rate market signals: 4; Financing matched-keyword articles: 14
-- Supply Pressure: supporting articles: 10; high-priority supporting articles: 10; supporting articles with extracted numbers: 9; momentum: Weakening; Supply Pressure articles: 4; Supply/vacancy/concession signals: 6; Supply matched-keyword articles: 5
-- Developer Strategy Shift: supporting articles: 34; high-priority supporting articles: 34; supporting articles with extracted numbers: 21; momentum: Stable; Developer Strategy articles: 34; Developer matched-keyword articles: 12; Must Read articles: 35
-- Policy / Entitlement Watch: supporting articles: 4; high-priority supporting articles: 4; supporting articles with extracted numbers: 4; momentum: Improving; Regulation Risk articles: 4; Policy matched-keyword articles: 4; California / Los Angeles focus count: 6
+- Selective Capital Re-entry: supporting articles: 19; high-priority supporting articles: 18; supporting articles with extracted numbers: 19; momentum: Stable; Institutional Flow articles: 16; Deal Size Signal articles: 9; Institutional player mentions: 10
+- Financing Stress: supporting articles: 18; high-priority supporting articles: 16; supporting articles with extracted numbers: 17; momentum: Improving; Financing Risk articles: 16; Financing/cap-rate market signals: 5; Financing matched-keyword articles: 13
+- Supply Pressure: supporting articles: 7; high-priority supporting articles: 7; supporting articles with extracted numbers: 7; momentum: Weakening; Supply Pressure articles: 4; Supply/vacancy/concession signals: 3; Supply matched-keyword articles: 5
+- Policy / Entitlement Watch: supporting articles: 6; high-priority supporting articles: 6; supporting articles with extracted numbers: 5; momentum: Stable; Regulation Risk articles: 5; Policy matched-keyword articles: 6; California / Los Angeles focus count: 9
+- Developer Strategy Shift: supporting articles: 29; high-priority supporting articles: 28; supporting articles with extracted numbers: 20; momentum: Stable; Developer Strategy articles: 29; Developer matched-keyword articles: 12; Must Read articles: 34
 - Construction Cost Pressure: supporting articles: 0; high-priority supporting articles: 0; supporting articles with extracted numbers: 0; momentum: Stable; Cost Control articles: 0; Construction Cost Signal articles: 0; Cost matched-keyword articles: 0
 
 ## Implications for Woomi / Woomi Global
@@ -37,9 +37,6 @@ Generated: 2026-06-23 00:08:02
 
 - Selective Capital Re-entry: severity 100, conviction 100.
 - Financing Stress: severity 100, conviction 89.
-- Supply Pressure: severity 100, conviction 80.
+- Supply Pressure: severity 96, conviction 80.
+- Policy / Entitlement Watch: severity 94, conviction 74.
 - Developer Strategy Shift: severity 91, conviction 92.
-
-### Review This Week
-
-- Policy / Entitlement Watch: severity 86, conviction 63.

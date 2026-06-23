@@ -2,17 +2,17 @@
 
 - Market Intelligence count: 16
 - Development Activity count: 55
-- GP / Capital Activity count: 1
+- GP / Capital Activity count: 2
 - Excluded count: 2
 - Rent/Demand candidate count: 4
-- Project anchor article count: 51
-- Development-excluded transaction article count: 2
+- Project anchor article count: 52
+- Development-excluded transaction article count: 3
 - Low-value promotional excluded count: 2
-- Site / Parcel positive candidates count: 6
-- Site / Parcel excluded transaction count: 0
+- Site / Parcel positive candidates count: 5
+- Site / Parcel excluded transaction count: 1
 - Source missing count: 0
 - Market missing count: 0
-- Stage missing count: 57
+- Stage missing count: 55
 
 ## Rent/Demand Titles
 - Multifamily Absorption Rate Remains Below 50%
@@ -25,24 +25,23 @@
 - What Today’s Renters Want From Their Property Managers | promotional/event keyword: sponsored
 
 ## Site / Parcel Included Examples
-- Mott Haven Development Site Set for One or More Residential Buildings | Development Activity | site/parcel signal with project anchor: development site
-- Developer retools plan for mixed-use project at 3800 W. 6th St. in Koreatown | Development Activity | site/parcel signal with project anchor: to build
+- Linc Housing plans new project at 3590 Elm Ave. in Long Beach | Development Activity | site/parcel signal with project anchor: to build
 - Yorba Linda Parking Lot Sells for Townhome Redevelopment | Development Activity | site/parcel signal with project anchor: development site
-- Grun Group Files Plans to Build 108 Units in Kew Gardens, Queens | Development Activity | site/parcel signal with project anchor: plans to build
+- New York Developer Seeks to Build 296 Units in Flushing, Queens | Development Activity | site/parcel signal with project anchor: to build
 - Former IHOP Site in Pacific Beach Trades as Redevelopment Opportunity | Development Activity | site/parcel signal with project anchor: development site
 - Portman Targeting Duluth for Mixed-Use Project | Development Activity | site/parcel signal with project anchor: to build
 
 ## Site / Parcel Excluded Transaction Examples
-- None
+- Miami-Dade County Sells Apartment Site for $10 | Development Activity | operating-asset transaction guard
 
 ## Sample Validation
 - The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist | Excluded | rent_demand=No | low_value_promotional: chat-with-chief-economist promotional format
-- Berkadia Arranges $124.65M Refinancing of Mixed-Use Multifamily Community in Dallas-Fort Worth Metroplex | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 908 apartment; project/asset term: community)
-- Northmarq Investment Sales team facilitates $14M sale of Mossy Oaks Apartments in Beaufort South Carolina | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 96-unit; project/asset term: development)
-- Blackstone Provides $125M Refi for Dallas-Area Multifamily Mixed-Use Complex | GP / Capital Activity | rent_demand=No | transaction or financing article excluded from Development Activity
-- Helaba Lends $112M for Dallas-Area Apartments at Former JCPenney HQ | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (project/asset term: project; project financing tied to anchor: construction financing)
-- Culver City’s Housing Strategy: Don’t Be L.A. | Development Activity | rent_demand=No | development milestone or entitlement signal has display priority
-- Mott Haven Development Site Set for One or More Residential Buildings | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (address/street: 122 bruckner blvd; site/parcel signal: site; project/asset term: development)
-- Naftali Credit Partners Arranges $75M Debt for Flatbush Condo Project | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (address/street: 757 flatbush ave; project/asset term: project)
+- Berkadia Negotiates $6M Multifamily Sale in Lawndale California | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 24-unit; project/asset term: apartments)
+- Marcus & Millichap Brokers $19.75M Sale and $13.3M Financing of 64-Unit Multifamily Property in Livermore California | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 64-unit; project/asset term: apartments; project financing tied to anchor: acquisition financing)
+- S3 Capital Lends $102M for Hell’s Kitchen Office-to-Resi Conversion | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (address/street: 311 west 43rd street; project/asset term: apartments; project financing tied to anchor: construction financing)
+- Peachtree Lends $44M on Florida Panhandle Multifamily Project | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (execution milestone: lease-up; project/asset term: project)
+- CBRE Arranges Sale of Townhomes in Kenosha | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 32-unit; project/asset term: community)
+- Walker & Dunlop Arranges $375M Loan for Jersey City Mixed-Use | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (project/asset term: development; project financing tied to anchor: construction loan)
+- Affordable housing takes shape at 733 S. Burlington Ave. in Westlake | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 733 s. burlington ave; site/parcel signal: site; project/asset term: project)
+- Linc Housing plans new project at 3590 Elm Ave. in Long Beach | Development Activity | rent_demand=No | development_project_anchor: Project / Asset (address/street: 3590 elm ave; execution milestone: to build; project/asset term: project)
 - Work beginning for Taix redevelopment at 1911 Sunset Blvd. in Echo Park | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 1911 sunset blvd; project/asset term: project)
-- Adaptive reuse project gets colorful new exterior at 3325 Wilshire Blvd. in Koreatown | Development Activity | rent_demand=No | development_project_anchor: Project / Asset (unit/site count: 13-story; address/street: 3325 wilshire blvd; project/asset term: project)

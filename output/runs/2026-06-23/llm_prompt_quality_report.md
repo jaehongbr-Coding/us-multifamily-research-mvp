@@ -1,32 +1,32 @@
 # LLM Prompt Quality Report
 
-Generated: 2026-06-23 00:08:02
+Generated: 2026-06-23 23:58:49
 
-- Total prompts reviewed: 48
-- Average prompt quality score: 91.2
-- Excellent prompts: 34
-- Good prompts: 14
+- Total prompts reviewed: 46
+- Average prompt quality score: 93.1
+- Excellent prompts: 37
+- Good prompts: 9
 - Needs Improvement prompts: 0
 - Poor prompts: 0
 
 ## Top 5 Strongest Prompts
 
-- 98 (Excellent): Oakline Properties Expands Management Portfolio with Acquisition of Multifamily Property Management Company ResidentialOne
-- 98 (Excellent): Blackstone Provides $125M Refi for Dallas-Area Multifamily Mixed-Use Complex
-- 98 (Excellent): Tide Equities Sells Phoenix Rental Asset for $41M
-- 98 (Excellent): Grun Group Files Plans to Build 108 Units in Kew Gardens, Queens
-- 98 (Excellent): Related Urban Starts Work on $167M S. Miami Affordable Housing Venture
+- 98 (Excellent): Peachtree Lends $44M on Florida Panhandle Multifamily Project
+- 98 (Excellent): Berkadia Arranges $124.6M Loan for Refinancing of Irving Mixed-Use Property
+- 98 (Excellent): Centerbridge Partners Lends $210M on Orange County, Calif., Condos Repositioning
+- 98 (Excellent): Livermore Portfolio Deal Finalized with Sale of Briarwood Apartments
+- 98 (Excellent): Jackson Square Sells 108-Unit Apartment Complex in Everett, Washington for $24.5M
 
 ## Top 5 Weakest Prompts
 
-- 74 (Good): Colliers Facilitates Sale of 118-Unit Multifamily Apartment Property in Bozeman - Missing: missing extracted numbers; missing market focus; missing market signal
-- 74 (Good): John M. Corcoran Launches Leasing at Pawtucket Apartments - Missing: missing extracted numbers; missing market focus; missing market signal
-- 82 (Good): JLL Brokers Sale of 182-Unit Seniors Housing Community Near Seattle - Missing: missing extracted numbers; missing market signal
-- 82 (Good): Native Realty Represents Both Sides in Sale of Flagler Village Multifamily Portfolio with Major Development Upside - Missing: missing extracted numbers; missing market signal
-- 82 (Good): Trilogy Investment Receives Construction Loan for 122-Unit Townhome Development in Emerson, Georgia - Missing: missing extracted numbers; missing market signal
+- 82 (Good): Stratus Development Breaks Ground on Phase II of Athens Multifamily Student Housing Venture Puritan Mill - Missing: missing extracted numbers; missing market signal
+- 82 (Good): Cityview, Stockbridge Cut Ribbon on Gardena Multifamily - Missing: missing extracted numbers; missing market signal
+- 82 (Good): Amazon, C&A Development Plan Capitol Hill Affordable Housing Project - Missing: missing extracted numbers; missing market signal
+- 82 (Good): Meeting Tomorrow At 906 Clement Street, San Francisco - Missing: missing extracted numbers; missing market signal
+- 82 (Good): Work Underway on Student Housing Multifamily Development La Cantera Crossing in San Antonio Texas Near UTSA Campus - Missing: missing extracted numbers; missing market signal
 
 ## Common Missing Context Issues
 
-- missing market signal: 22
-- missing extracted numbers: 14
-- missing market focus: 5
+- missing market signal: 16
+- missing extracted numbers: 9
+- missing market focus: 3

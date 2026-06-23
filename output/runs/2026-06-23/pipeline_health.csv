@@ -1,142 +1,142 @@
 ﻿run_date,run_id,check_name,component,status,details,recommended_fix
-2026-06-23,20260623-000752-0e6f5f71,source_registry_has_entries,Source registry,OK,163 sources configured.,Add source records to RSS_FEEDS or SOURCE_REGISTRY.
-2026-06-23,20260623-000752-0e6f5f71,archive_folder_created,Archive,OK,output/runs/2026-06-23,Create the dated archive folder before writing outputs.
-2026-06-23,20260623-000752-0e6f5f71,latest_run_timestamp_exists,Run log,OK,2026-06-23 00:07:52,Run the script once successfully to create or update run_log.csv.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_articles.csv,articles.csv,OK,articles.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_articles.csv,articles.csv,OK,75 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_articles.csv,articles.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_high_priority_articles.csv,high_priority_articles.csv,OK,high_priority_articles.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_high_priority_articles.csv,high_priority_articles.csv,OK,48 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_high_priority_articles.csv,high_priority_articles.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_market_signals.csv,market_signals.csv,OK,market_signals.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_market_signals.csv,market_signals.csv,OK,26 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_market_signals.csv,market_signals.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_strategy_briefing.csv,strategy_briefing.csv,OK,strategy_briefing.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_strategy_briefing.csv,strategy_briefing.csv,OK,48 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_strategy_briefing.csv,strategy_briefing.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_daily_strategy_briefing.md,daily_strategy_briefing.md,OK,daily_strategy_briefing.md exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_weekly_strategy_memo.md,weekly_strategy_memo.md,OK,weekly_strategy_memo.md exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_executive_dashboard_brief.md,executive_dashboard_brief.md,OK,executive_dashboard_brief.md exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_executive_dashboard_brief_ko.md,executive_dashboard_brief_ko.md,OK,executive_dashboard_brief_ko.md exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_weekly_strategy_memo_ko.md,weekly_strategy_memo_ko.md,OK,weekly_strategy_memo_ko.md exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_executive_priority_brief_ko.md,executive_priority_brief_ko.md,OK,executive_priority_brief_ko.md exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_opportunity_radar_report_ko.md,opportunity_radar_report_ko.md,OK,opportunity_radar_report_ko.md exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_distress_watchlist_report_ko.md,distress_watchlist_report_ko.md,OK,distress_watchlist_report_ko.md exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_high_confidence_watchlist_report_ko.md,high_confidence_watchlist_report_ko.md,OK,high_confidence_watchlist_report_ko.md exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_la_asset_watch_report_ko.md,la_asset_watch_report_ko.md,OK,la_asset_watch_report_ko.md exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_la_entitlement_watch_report_ko.md,la_entitlement_watch_report_ko.md,OK,la_entitlement_watch_report_ko.md exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_la_development_lifecycle_watch_report_ko.md,la_development_lifecycle_watch_report_ko.md,OK,la_development_lifecycle_watch_report_ko.md exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_gp_watchlist_report_ko.md,gp_watchlist_report_ko.md,OK,gp_watchlist_report_ko.md exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_korean_reporting_index.md,korean_reporting_index.md,OK,korean_reporting_index.md exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_dashboard_summary.csv,dashboard_summary.csv,OK,dashboard_summary.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_dashboard_summary.csv,dashboard_summary.csv,OK,1 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_dashboard_summary.csv,dashboard_summary.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_dashboard_cards.csv,dashboard_cards.csv,OK,dashboard_cards.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_dashboard_cards.csv,dashboard_cards.csv,OK,38 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_dashboard_cards.csv,dashboard_cards.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_dashboard_watchlists.csv,dashboard_watchlists.csv,OK,dashboard_watchlists.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_dashboard_watchlists.csv,dashboard_watchlists.csv,OK,98 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_dashboard_watchlists.csv,dashboard_watchlists.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_high_confidence_watchlist.csv,high_confidence_watchlist.csv,OK,high_confidence_watchlist.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_high_confidence_watchlist.csv,high_confidence_watchlist.csv,OK,36 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_high_confidence_watchlist.csv,high_confidence_watchlist.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_signal_quality.csv,signal_quality.csv,OK,signal_quality.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_signal_quality.csv,signal_quality.csv,OK,164 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_signal_quality.csv,signal_quality.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_source_health.csv,source_health.csv,OK,source_health.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_source_health.csv,source_health.csv,OK,163 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_source_health.csv,source_health.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_source_coverage_report.csv,source_coverage_report.csv,OK,source_coverage_report.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_source_coverage_report.csv,source_coverage_report.csv,OK,25 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_source_coverage_report.csv,source_coverage_report.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_costar_intake_report.csv,costar_intake_report.csv,OK,costar_intake_report.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_costar_intake_report.csv,costar_intake_report.csv,OK,1 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_costar_intake_report.csv,costar_intake_report.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_source_activation.csv,source_activation.csv,OK,source_activation.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_source_activation.csv,source_activation.csv,OK,163 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_source_activation.csv,source_activation.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_source_health_report.md,source_health_report.md,OK,source_health_report.md exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_source_coverage_report.md,source_coverage_report.md,OK,source_coverage_report.md exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_costar_intake_report.md,costar_intake_report.md,OK,costar_intake_report.md exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_source_activation_report.md,source_activation_report.md,OK,source_activation_report.md exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_opportunity_radar.csv,opportunity_radar.csv,OK,opportunity_radar.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_opportunity_radar.csv,opportunity_radar.csv,OK,46 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_opportunity_radar.csv,opportunity_radar.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_distress_watchlist.csv,distress_watchlist.csv,OK,distress_watchlist.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_distress_watchlist.csv,distress_watchlist.csv,OK,11 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_distress_watchlist.csv,distress_watchlist.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_deal_pipeline.csv,deal_pipeline.csv,OK,deal_pipeline.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_deal_pipeline.csv,deal_pipeline.csv,OK,50 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_deal_pipeline.csv,deal_pipeline.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_asset_parcel_intelligence.csv,asset_parcel_intelligence.csv,OK,asset_parcel_intelligence.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_asset_parcel_intelligence.csv,asset_parcel_intelligence.csv,OK,79 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_asset_parcel_intelligence.csv,asset_parcel_intelligence.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_la_asset_watch.csv,la_asset_watch.csv,OK,la_asset_watch.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_la_asset_watch.csv,la_asset_watch.csv,OK,53 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_la_asset_watch.csv,la_asset_watch.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_project_identity.csv,project_identity.csv,OK,project_identity.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_project_identity.csv,project_identity.csv,OK,620 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_project_identity.csv,project_identity.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_persistent_asset_memory.csv,persistent_asset_memory.csv,OK,persistent_asset_memory.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_persistent_asset_memory.csv,persistent_asset_memory.csv,OK,164 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_persistent_asset_memory.csv,persistent_asset_memory.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_la_persistent_asset_watch.csv,la_persistent_asset_watch.csv,OK,la_persistent_asset_watch.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_la_persistent_asset_watch.csv,la_persistent_asset_watch.csv,OK,114 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_la_persistent_asset_watch.csv,la_persistent_asset_watch.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_entitlement_intelligence.csv,entitlement_intelligence.csv,OK,entitlement_intelligence.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_entitlement_intelligence.csv,entitlement_intelligence.csv,OK,10 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_entitlement_intelligence.csv,entitlement_intelligence.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_la_entitlement_watch.csv,la_entitlement_watch.csv,OK,la_entitlement_watch.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_la_entitlement_watch.csv,la_entitlement_watch.csv,OK,10 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_la_entitlement_watch.csv,la_entitlement_watch.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_development_lifecycle.csv,development_lifecycle.csv,OK,development_lifecycle.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_development_lifecycle.csv,development_lifecycle.csv,OK,79 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_development_lifecycle.csv,development_lifecycle.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_lifecycle_transition.csv,lifecycle_transition.csv,OK,lifecycle_transition.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_lifecycle_transition.csv,lifecycle_transition.csv,OK,79 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_lifecycle_transition.csv,lifecycle_transition.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_timing_intelligence.csv,timing_intelligence.csv,OK,timing_intelligence.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_timing_intelligence.csv,timing_intelligence.csv,OK,41 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_timing_intelligence.csv,timing_intelligence.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_market_entry_window.csv,market_entry_window.csv,OK,market_entry_window.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_market_entry_window.csv,market_entry_window.csv,OK,8 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_market_entry_window.csv,market_entry_window.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_gp_watchlist.csv,gp_watchlist.csv,OK,gp_watchlist.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_gp_watchlist.csv,gp_watchlist.csv,OK,21 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_gp_watchlist.csv,gp_watchlist.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_gp_intelligence.csv,gp_intelligence.csv,OK,gp_intelligence.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_gp_intelligence.csv,gp_intelligence.csv,OK,21 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_gp_intelligence.csv,gp_intelligence.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_institutional_relationships.csv,institutional_relationships.csv,OK,institutional_relationships.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_institutional_relationships.csv,institutional_relationships.csv,OK,21 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_institutional_relationships.csv,institutional_relationships.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_relationship_graph.csv,relationship_graph.csv,OK,relationship_graph.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_relationship_graph.csv,relationship_graph.csv,OK,104 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_relationship_graph.csv,relationship_graph.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_regional_intelligence.csv,regional_intelligence.csv,OK,regional_intelligence.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_regional_intelligence.csv,regional_intelligence.csv,OK,13 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_regional_intelligence.csv,regional_intelligence.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_residential_sector_intelligence.csv,residential_sector_intelligence.csv,OK,residential_sector_intelligence.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_residential_sector_intelligence.csv,residential_sector_intelligence.csv,OK,11 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_residential_sector_intelligence.csv,residential_sector_intelligence.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_historical_memory.csv,historical_memory.csv,OK,historical_memory.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_historical_memory.csv,historical_memory.csv,OK,2747 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_historical_memory.csv,historical_memory.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_capital_flow_memory.csv,capital_flow_memory.csv,OK,capital_flow_memory.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_capital_flow_memory.csv,capital_flow_memory.csv,OK,626 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_capital_flow_memory.csv,capital_flow_memory.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_relationship_persistence.csv,relationship_persistence.csv,OK,relationship_persistence.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_relationship_persistence.csv,relationship_persistence.csv,OK,843 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_relationship_persistence.csv,relationship_persistence.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_pipeline_manifest.csv,pipeline_manifest.csv,OK,pipeline_manifest.csv exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,csv_readable_pipeline_manifest.csv,pipeline_manifest.csv,OK,60 rows read.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,expected_columns_pipeline_manifest.csv,pipeline_manifest.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
-2026-06-23,20260623-000752-0e6f5f71,file_exists_pipeline_manifest.md,pipeline_manifest.md,OK,pipeline_manifest.md exists.,No action needed.
-2026-06-23,20260623-000752-0e6f5f71,self_generated_pipeline_health.csv,pipeline_health.csv,Not Checked,This maintenance file is generated after the health check starts.,Open the file after the run completes to confirm it was written.
-2026-06-23,20260623-000752-0e6f5f71,self_generated_pipeline_health_report.md,pipeline_health_report.md,Not Checked,This maintenance file is generated after the health check starts.,Open the file after the run completes to confirm it was written.
-2026-06-23,20260623-000752-0e6f5f71,self_generated_error_log.csv,error_log.csv,Not Checked,This maintenance file is generated after the health check starts.,Open the file after the run completes to confirm it was written.
-2026-06-23,20260623-000752-0e6f5f71,self_generated_run_summary.md,run_summary.md,Not Checked,This maintenance file is generated after the health check starts.,Open the file after the run completes to confirm it was written.
-2026-06-23,20260623-000752-0e6f5f71,important_output_generated_dashboard_summary.csv,dashboard_summary.csv,OK,dashboard_summary.csv generated: True,Rerun the pipeline and check the dashboard or signal-quality layer.
-2026-06-23,20260623-000752-0e6f5f71,important_output_generated_dashboard_cards.csv,dashboard_cards.csv,OK,dashboard_cards.csv generated: True,Rerun the pipeline and check the dashboard or signal-quality layer.
-2026-06-23,20260623-000752-0e6f5f71,important_output_generated_dashboard_watchlists.csv,dashboard_watchlists.csv,OK,dashboard_watchlists.csv generated: True,Rerun the pipeline and check the dashboard or signal-quality layer.
-2026-06-23,20260623-000752-0e6f5f71,important_output_generated_high_confidence_watchlist.csv,high_confidence_watchlist.csv,OK,high_confidence_watchlist.csv generated: True,Rerun the pipeline and check the dashboard or signal-quality layer.
+2026-06-23,20260623-235839-1625a2df,source_registry_has_entries,Source registry,OK,163 sources configured.,Add source records to RSS_FEEDS or SOURCE_REGISTRY.
+2026-06-23,20260623-235839-1625a2df,archive_folder_created,Archive,OK,output/runs/2026-06-23,Create the dated archive folder before writing outputs.
+2026-06-23,20260623-235839-1625a2df,latest_run_timestamp_exists,Run log,OK,2026-06-23 23:58:39,Run the script once successfully to create or update run_log.csv.
+2026-06-23,20260623-235839-1625a2df,file_exists_articles.csv,articles.csv,OK,articles.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_articles.csv,articles.csv,OK,76 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_articles.csv,articles.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_high_priority_articles.csv,high_priority_articles.csv,OK,high_priority_articles.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_high_priority_articles.csv,high_priority_articles.csv,OK,44 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_high_priority_articles.csv,high_priority_articles.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_market_signals.csv,market_signals.csv,OK,market_signals.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_market_signals.csv,market_signals.csv,OK,30 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_market_signals.csv,market_signals.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_strategy_briefing.csv,strategy_briefing.csv,OK,strategy_briefing.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_strategy_briefing.csv,strategy_briefing.csv,OK,46 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_strategy_briefing.csv,strategy_briefing.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_daily_strategy_briefing.md,daily_strategy_briefing.md,OK,daily_strategy_briefing.md exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,file_exists_weekly_strategy_memo.md,weekly_strategy_memo.md,OK,weekly_strategy_memo.md exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,file_exists_executive_dashboard_brief.md,executive_dashboard_brief.md,OK,executive_dashboard_brief.md exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,file_exists_executive_dashboard_brief_ko.md,executive_dashboard_brief_ko.md,OK,executive_dashboard_brief_ko.md exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,file_exists_weekly_strategy_memo_ko.md,weekly_strategy_memo_ko.md,OK,weekly_strategy_memo_ko.md exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,file_exists_executive_priority_brief_ko.md,executive_priority_brief_ko.md,OK,executive_priority_brief_ko.md exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,file_exists_opportunity_radar_report_ko.md,opportunity_radar_report_ko.md,OK,opportunity_radar_report_ko.md exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,file_exists_distress_watchlist_report_ko.md,distress_watchlist_report_ko.md,OK,distress_watchlist_report_ko.md exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,file_exists_high_confidence_watchlist_report_ko.md,high_confidence_watchlist_report_ko.md,OK,high_confidence_watchlist_report_ko.md exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,file_exists_la_asset_watch_report_ko.md,la_asset_watch_report_ko.md,OK,la_asset_watch_report_ko.md exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,file_exists_la_entitlement_watch_report_ko.md,la_entitlement_watch_report_ko.md,OK,la_entitlement_watch_report_ko.md exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,file_exists_la_development_lifecycle_watch_report_ko.md,la_development_lifecycle_watch_report_ko.md,OK,la_development_lifecycle_watch_report_ko.md exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,file_exists_gp_watchlist_report_ko.md,gp_watchlist_report_ko.md,OK,gp_watchlist_report_ko.md exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,file_exists_korean_reporting_index.md,korean_reporting_index.md,OK,korean_reporting_index.md exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,file_exists_dashboard_summary.csv,dashboard_summary.csv,OK,dashboard_summary.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_dashboard_summary.csv,dashboard_summary.csv,OK,1 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_dashboard_summary.csv,dashboard_summary.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_dashboard_cards.csv,dashboard_cards.csv,OK,dashboard_cards.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_dashboard_cards.csv,dashboard_cards.csv,OK,38 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_dashboard_cards.csv,dashboard_cards.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_dashboard_watchlists.csv,dashboard_watchlists.csv,OK,dashboard_watchlists.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_dashboard_watchlists.csv,dashboard_watchlists.csv,OK,97 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_dashboard_watchlists.csv,dashboard_watchlists.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_high_confidence_watchlist.csv,high_confidence_watchlist.csv,OK,high_confidence_watchlist.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_high_confidence_watchlist.csv,high_confidence_watchlist.csv,OK,48 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_high_confidence_watchlist.csv,high_confidence_watchlist.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_signal_quality.csv,signal_quality.csv,OK,signal_quality.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_signal_quality.csv,signal_quality.csv,OK,167 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_signal_quality.csv,signal_quality.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_source_health.csv,source_health.csv,OK,source_health.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_source_health.csv,source_health.csv,OK,163 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_source_health.csv,source_health.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_source_coverage_report.csv,source_coverage_report.csv,OK,source_coverage_report.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_source_coverage_report.csv,source_coverage_report.csv,OK,25 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_source_coverage_report.csv,source_coverage_report.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_costar_intake_report.csv,costar_intake_report.csv,OK,costar_intake_report.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_costar_intake_report.csv,costar_intake_report.csv,OK,1 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_costar_intake_report.csv,costar_intake_report.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_source_activation.csv,source_activation.csv,OK,source_activation.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_source_activation.csv,source_activation.csv,OK,163 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_source_activation.csv,source_activation.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_source_health_report.md,source_health_report.md,OK,source_health_report.md exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,file_exists_source_coverage_report.md,source_coverage_report.md,OK,source_coverage_report.md exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,file_exists_costar_intake_report.md,costar_intake_report.md,OK,costar_intake_report.md exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,file_exists_source_activation_report.md,source_activation_report.md,OK,source_activation_report.md exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,file_exists_opportunity_radar.csv,opportunity_radar.csv,OK,opportunity_radar.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_opportunity_radar.csv,opportunity_radar.csv,OK,52 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_opportunity_radar.csv,opportunity_radar.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_distress_watchlist.csv,distress_watchlist.csv,OK,distress_watchlist.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_distress_watchlist.csv,distress_watchlist.csv,OK,9 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_distress_watchlist.csv,distress_watchlist.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_deal_pipeline.csv,deal_pipeline.csv,OK,deal_pipeline.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_deal_pipeline.csv,deal_pipeline.csv,OK,54 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_deal_pipeline.csv,deal_pipeline.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_asset_parcel_intelligence.csv,asset_parcel_intelligence.csv,OK,asset_parcel_intelligence.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_asset_parcel_intelligence.csv,asset_parcel_intelligence.csv,OK,84 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_asset_parcel_intelligence.csv,asset_parcel_intelligence.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_la_asset_watch.csv,la_asset_watch.csv,OK,la_asset_watch.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_la_asset_watch.csv,la_asset_watch.csv,OK,53 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_la_asset_watch.csv,la_asset_watch.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_project_identity.csv,project_identity.csv,OK,project_identity.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_project_identity.csv,project_identity.csv,OK,663 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_project_identity.csv,project_identity.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_persistent_asset_memory.csv,persistent_asset_memory.csv,OK,persistent_asset_memory.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_persistent_asset_memory.csv,persistent_asset_memory.csv,OK,167 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_persistent_asset_memory.csv,persistent_asset_memory.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_la_persistent_asset_watch.csv,la_persistent_asset_watch.csv,OK,la_persistent_asset_watch.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_la_persistent_asset_watch.csv,la_persistent_asset_watch.csv,OK,112 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_la_persistent_asset_watch.csv,la_persistent_asset_watch.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_entitlement_intelligence.csv,entitlement_intelligence.csv,OK,entitlement_intelligence.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_entitlement_intelligence.csv,entitlement_intelligence.csv,OK,17 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_entitlement_intelligence.csv,entitlement_intelligence.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_la_entitlement_watch.csv,la_entitlement_watch.csv,OK,la_entitlement_watch.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_la_entitlement_watch.csv,la_entitlement_watch.csv,OK,15 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_la_entitlement_watch.csv,la_entitlement_watch.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_development_lifecycle.csv,development_lifecycle.csv,OK,development_lifecycle.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_development_lifecycle.csv,development_lifecycle.csv,OK,83 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_development_lifecycle.csv,development_lifecycle.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_lifecycle_transition.csv,lifecycle_transition.csv,OK,lifecycle_transition.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_lifecycle_transition.csv,lifecycle_transition.csv,OK,83 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_lifecycle_transition.csv,lifecycle_transition.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_timing_intelligence.csv,timing_intelligence.csv,OK,timing_intelligence.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_timing_intelligence.csv,timing_intelligence.csv,OK,44 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_timing_intelligence.csv,timing_intelligence.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_market_entry_window.csv,market_entry_window.csv,OK,market_entry_window.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_market_entry_window.csv,market_entry_window.csv,OK,8 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_market_entry_window.csv,market_entry_window.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_gp_watchlist.csv,gp_watchlist.csv,OK,gp_watchlist.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_gp_watchlist.csv,gp_watchlist.csv,OK,21 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_gp_watchlist.csv,gp_watchlist.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_gp_intelligence.csv,gp_intelligence.csv,OK,gp_intelligence.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_gp_intelligence.csv,gp_intelligence.csv,OK,21 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_gp_intelligence.csv,gp_intelligence.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_institutional_relationships.csv,institutional_relationships.csv,OK,institutional_relationships.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_institutional_relationships.csv,institutional_relationships.csv,OK,21 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_institutional_relationships.csv,institutional_relationships.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_relationship_graph.csv,relationship_graph.csv,OK,relationship_graph.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_relationship_graph.csv,relationship_graph.csv,OK,111 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_relationship_graph.csv,relationship_graph.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_regional_intelligence.csv,regional_intelligence.csv,OK,regional_intelligence.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_regional_intelligence.csv,regional_intelligence.csv,OK,13 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_regional_intelligence.csv,regional_intelligence.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_residential_sector_intelligence.csv,residential_sector_intelligence.csv,OK,residential_sector_intelligence.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_residential_sector_intelligence.csv,residential_sector_intelligence.csv,OK,11 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_residential_sector_intelligence.csv,residential_sector_intelligence.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_historical_memory.csv,historical_memory.csv,OK,historical_memory.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_historical_memory.csv,historical_memory.csv,OK,2852 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_historical_memory.csv,historical_memory.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_capital_flow_memory.csv,capital_flow_memory.csv,OK,capital_flow_memory.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_capital_flow_memory.csv,capital_flow_memory.csv,OK,648 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_capital_flow_memory.csv,capital_flow_memory.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_relationship_persistence.csv,relationship_persistence.csv,OK,relationship_persistence.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_relationship_persistence.csv,relationship_persistence.csv,OK,871 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_relationship_persistence.csv,relationship_persistence.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_pipeline_manifest.csv,pipeline_manifest.csv,OK,pipeline_manifest.csv exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,csv_readable_pipeline_manifest.csv,pipeline_manifest.csv,OK,60 rows read.,No action needed.
+2026-06-23,20260623-235839-1625a2df,expected_columns_pipeline_manifest.csv,pipeline_manifest.csv,OK,Expected columns present.,Check the output fieldnames for this generator.
+2026-06-23,20260623-235839-1625a2df,file_exists_pipeline_manifest.md,pipeline_manifest.md,OK,pipeline_manifest.md exists.,No action needed.
+2026-06-23,20260623-235839-1625a2df,self_generated_pipeline_health.csv,pipeline_health.csv,Not Checked,This maintenance file is generated after the health check starts.,Open the file after the run completes to confirm it was written.
+2026-06-23,20260623-235839-1625a2df,self_generated_pipeline_health_report.md,pipeline_health_report.md,Not Checked,This maintenance file is generated after the health check starts.,Open the file after the run completes to confirm it was written.
+2026-06-23,20260623-235839-1625a2df,self_generated_error_log.csv,error_log.csv,Not Checked,This maintenance file is generated after the health check starts.,Open the file after the run completes to confirm it was written.
+2026-06-23,20260623-235839-1625a2df,self_generated_run_summary.md,run_summary.md,Not Checked,This maintenance file is generated after the health check starts.,Open the file after the run completes to confirm it was written.
+2026-06-23,20260623-235839-1625a2df,important_output_generated_dashboard_summary.csv,dashboard_summary.csv,OK,dashboard_summary.csv generated: True,Rerun the pipeline and check the dashboard or signal-quality layer.
+2026-06-23,20260623-235839-1625a2df,important_output_generated_dashboard_cards.csv,dashboard_cards.csv,OK,dashboard_cards.csv generated: True,Rerun the pipeline and check the dashboard or signal-quality layer.
+2026-06-23,20260623-235839-1625a2df,important_output_generated_dashboard_watchlists.csv,dashboard_watchlists.csv,OK,dashboard_watchlists.csv generated: True,Rerun the pipeline and check the dashboard or signal-quality layer.
+2026-06-23,20260623-235839-1625a2df,important_output_generated_high_confidence_watchlist.csv,high_confidence_watchlist.csv,OK,high_confidence_watchlist.csv generated: True,Rerun the pipeline and check the dashboard or signal-quality layer.

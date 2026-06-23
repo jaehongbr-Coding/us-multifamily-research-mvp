@@ -4,8 +4,8 @@
 
 - Market Intelligence count: 16
 - Development Activity count: 55
-- GP / Capital Activity count: 1
-- Project anchor article count: 51
+- GP / Capital Activity count: 2
+- Project anchor article count: 52
 
 ## Regression Samples
 

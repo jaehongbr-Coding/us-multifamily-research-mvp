@@ -1,7 +1,7 @@
 ﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
-20260623-000752-0e6f5f71,2026-06-23,Construction financing still selective,Weakening,weakening,56,8,49,5.9,3.71,6,6,5,2,Miami / Florida,Broadly Confirmed,Construction financing still selective visibility is weakening versus prior runs.,
-20260623-000752-0e6f5f71,2026-06-23,Institutional recap over expansion,Building,stable,56,8,49,3.39,2.92,4,4,4,1,Dallas / Texas,Moderate Signal,steady visibility,
-20260623-000752-0e6f5f71,2026-06-23,JV / partnership activity observed,Weakening,weakening,56,8,49,6.27,3.53,3,3,3,1,California,Moderate Signal,JV / partnership activity observed visibility is weakening versus prior runs.,
-20260623-000752-0e6f5f71,2026-06-23,LA entitlement precedent accumulation,Building,stable,56,8,49,8.92,2.57,6,6,2,0,Los Angeles / California,Source-Concentrated,steady visibility,
-20260623-000752-0e6f5f71,2026-06-23,Refinancing pressure unresolved,Building,stable,56,8,49,4.57,3.45,4,4,4,1,Dallas / Texas,Moderate Signal,steady visibility,
-20260623-000752-0e6f5f71,2026-06-23,Sun Belt lease-up pressure watch,Persistent,stable,56,8,49,3.98,3.24,3,3,2,0,National,Moderate Signal,steady visibility,
+20260623-235839-1625a2df,2026-06-23,Construction financing still selective,Weakening,weakening,57,9,50,5.88,3.72,5,5,5,1,New York City / New York,Broadly Confirmed,Construction financing still selective visibility is weakening versus prior runs.,
+20260623-235839-1625a2df,2026-06-23,Institutional recap over expansion,Weakening,weakening,57,9,50,3.36,2.9,2,2,2,1,Texas,Early Signal,Institutional recap over expansion visibility is weakening versus prior runs.,
+20260623-235839-1625a2df,2026-06-23,JV / partnership activity observed,Weakening,weakening,57,9,50,6.16,3.5,1,1,1,0,California,Source-Concentrated,JV / partnership activity observed visibility is weakening versus prior runs.,
+20260623-235839-1625a2df,2026-06-23,LA entitlement precedent accumulation,Building,stable,57,9,50,8.92,2.58,9,9,3,0,Beverly Hills / California,Moderate Signal,steady visibility,
+20260623-235839-1625a2df,2026-06-23,Refinancing pressure unresolved,Weakening,weakening,57,9,50,4.52,3.42,2,2,2,1,Texas,Early Signal,Refinancing pressure unresolved visibility is weakening versus prior runs.,
+20260623-235839-1625a2df,2026-06-23,Sun Belt lease-up pressure watch,Building,stable,57,9,50,3.98,3.24,4,4,3,0,National,Moderate Signal,steady visibility,

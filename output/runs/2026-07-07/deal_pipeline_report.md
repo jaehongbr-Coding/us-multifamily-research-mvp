@@ -1,100 +1,98 @@
 # Deal & Project Pipeline Report
 
-Generated: 2026-07-07 00:10:03
+Generated: 2026-07-07 23:59:10
 
-- Total deal/project signals found: 73
+- Total deal/project signals found: 64
 - High deal intelligence count: 5
 
 ## Top 10 Deal / Project Signals
 
-- Refinancing - California - KIRE Group Receives $13.3M Loan for Refinancing of Multifamily Property Near San Diego: Refinancing, California, score 93. Capital market signal.
 - Disposition / Exit - California - Yorba Linda Parking Lot Sells for Townhome Redevelopment: Disposition / Exit, California, score 89. Entitlement / zoning watch.
+- Acquisition - Atlanta / Georgia - Northmarq Arranges $25.5M Sale of Manufactured Housing Community in Duluth, Minnesota: Acquisition, Atlanta / Georgia, score 85. Pricing benchmark.
 - General Project Signal - California - Northmarq Secures Fannie Mae DUS Financing for National City Apartments: General Project Signal, California, score 83. Capital market signal.
-- Disposition / Exit - Seattle - CBRE Arranges $24M Sale of 87-UnitMultiffamily Apartment Property in Seattle: Disposition / Exit, Seattle, score 81. Capital market signal.
+- General Project Signal - Florida - Walker & Dunlop Arranges $232M Financing for Workforce Housing Portfolio: General Project Signal, Florida, score 81. Capital market signal.
 - Office-to-Residential Conversion - Los Angeles / California - New details for plans to convert L.A. World Trade center into affordable housing: Office-to-Residential Conversion, Los Angeles / California, score 81. Construction strategy reference.
-- Acquisition - Other / Unknown - Northmarq Arranges $14.3M Acquisition Loan for Kansas Multifamily Property: Acquisition, Other / Unknown, score 75. Pricing benchmark.
-- Refinancing - Other / Unknown - JLL Provides $13.5M Agency Refinancing of Apartment Complex in Scarborough, Maine: Refinancing, Other / Unknown, score 75. Capital market signal.
-- Acquisition - Sun Belt - RREAF Holdings CEO Kip Sowden Drives Southeast Real Estate: Acquisition, Sun Belt, score 74. Pricing benchmark.
-- Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Disposition / Exit, California, score 74. Entitlement / zoning watch.
-- Acquisition - Georgia - Cushman & Wakefield Brokers $87M Sale of Apartment Community in Augusta: Acquisition, Georgia, score 73. Pricing benchmark.
+- Acquisition - Dallas / Texas - IPA Arranges Sale of 250-Unit Alta Firewheel Apartments in Garland, Texas: Acquisition, Dallas / Texas, score 77. Underwriting benchmark.
+- Entitlement / Permitting - Santa Monica / California - Fresh renderings for mixed-use project at 2716 Ocean Park Blvd. in Santa Monica: Entitlement / Permitting, Santa Monica / California, score 77. Entitlement / zoning watch.
+- JV / Partnership - Other / Unknown - Developers Close on Parcel for South Weymouth Naval Air Station Redevelopment: JV / Partnership, Other / Unknown, score 75. GP partnership reference.
+- JV / Partnership - National - JLL Arranges Trophy Seniors Housing Portfolio Sale: JV / Partnership, National, score 75. GP partnership reference.
+- Refinancing - Other / Unknown - Affinius Capital Provides $188M Refi for N.J. Mixed-Use Apartment Complex: Refinancing, Other / Unknown, score 75. Capital market signal.
 
 ## California / LA Deal Watch
 
-- Refinancing - California - KIRE Group Receives $13.3M Loan for Refinancing of Multifamily Property Near San Diego: Refinancing, California, score 93. Capital market signal.
 - Disposition / Exit - California - Yorba Linda Parking Lot Sells for Townhome Redevelopment: Disposition / Exit, California, score 89. Entitlement / zoning watch.
 - General Project Signal - California - Northmarq Secures Fannie Mae DUS Financing for National City Apartments: General Project Signal, California, score 83. Capital market signal.
 - Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Disposition / Exit, California, score 74. Entitlement / zoning watch.
+- Refinancing - California - Slatt Capital Arranges Life Company Loan for Novato Multifamily: Refinancing, California, score 73. Capital market signal.
 - Disposition / Exit - Los Angeles / California - 45-Unit Garden Apartment Property Trades in LA’s Palms Neighborhood: Disposition / Exit, Los Angeles / California, score 69. Underwriting benchmark.
-- Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Recapitalization, California, score 69. Capital market signal.
-- Entitlement / Permitting - Los Angeles / California - 62 apartments underway at 11103 Hartsook Ave. in North Hollywood: Entitlement / Permitting, Los Angeles / California, score 65. Entitlement / zoning watch.
+- Refinancing - California - Slatt Capital Arranges $21M Refinance for 213-Unit Multifamily Community in Novato Califor...: Refinancing, California, score 68. Capital market signal.
+- Acquisition - Los Angeles / California - How Alliance Residential navigated the sales market to buy 2K apartments since December: Acquisition, Los Angeles / California, score 65. Monitor only.
 - Entitlement / Permitting - Los Angeles / California - City Council upholds approval of mixed-use project at 1410 Main St. in Venice: Entitlement / Permitting, Los Angeles / California, score 65. Entitlement / zoning watch.
-- JV / Partnership - Los Angeles / California - L.A. City Council approves $2-billion Fourth & Central development: JV / Partnership, Los Angeles / California, score 64. GP partnership reference.
 - Disposition / Exit - Los Angeles / California - LA City Council Approves $2-Billion Fourth & Central Mixed-Use Project: Disposition / Exit, Los Angeles / California, score 61. Underwriting benchmark.
+- Development Start - California - KTGY and SHAC Mark Announce Groundbreaking of 11 El Camino Real in San Carlos California: Development Start, California, score 58. Pipeline / supply signal.
 
 ## GP / Developer Activity
 
-- Refinancing - California - KIRE Group Receives $13.3M Loan for Refinancing of Multifamily Property Near San Diego: Refinancing, California, score 93. Capital market signal.
 - Disposition / Exit - California - Yorba Linda Parking Lot Sells for Townhome Redevelopment: Disposition / Exit, California, score 89. Entitlement / zoning watch.
+- Acquisition - Atlanta / Georgia - Northmarq Arranges $25.5M Sale of Manufactured Housing Community in Duluth, Minnesota: Acquisition, Atlanta / Georgia, score 85. Pricing benchmark.
 - General Project Signal - California - Northmarq Secures Fannie Mae DUS Financing for National City Apartments: General Project Signal, California, score 83. Capital market signal.
-- Disposition / Exit - Seattle - CBRE Arranges $24M Sale of 87-UnitMultiffamily Apartment Property in Seattle: Disposition / Exit, Seattle, score 81. Capital market signal.
+- General Project Signal - Florida - Walker & Dunlop Arranges $232M Financing for Workforce Housing Portfolio: General Project Signal, Florida, score 81. Capital market signal.
 - Office-to-Residential Conversion - Los Angeles / California - New details for plans to convert L.A. World Trade center into affordable housing: Office-to-Residential Conversion, Los Angeles / California, score 81. Construction strategy reference.
-- Acquisition - Other / Unknown - Northmarq Arranges $14.3M Acquisition Loan for Kansas Multifamily Property: Acquisition, Other / Unknown, score 75. Pricing benchmark.
-- Refinancing - Other / Unknown - JLL Provides $13.5M Agency Refinancing of Apartment Complex in Scarborough, Maine: Refinancing, Other / Unknown, score 75. Capital market signal.
-- Disposition / Exit - California - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale: Disposition / Exit, California, score 74. Entitlement / zoning watch.
-- Acquisition - New York City / New York - Marcus & Millichap Brokers $3.8M Sale of Brooklyn Apartment Building: Acquisition, New York City / New York, score 73. Pricing benchmark.
-- Refinancing - Other / Unknown - Affinius Capital Supplies $180M for Jersey City Multifamily Tower: Refinancing, Other / Unknown, score 73. Capital market signal.
+- Acquisition - Dallas / Texas - IPA Arranges Sale of 250-Unit Alta Firewheel Apartments in Garland, Texas: Acquisition, Dallas / Texas, score 77. Underwriting benchmark.
+- Entitlement / Permitting - Santa Monica / California - Fresh renderings for mixed-use project at 2716 Ocean Park Blvd. in Santa Monica: Entitlement / Permitting, Santa Monica / California, score 77. Entitlement / zoning watch.
+- JV / Partnership - Other / Unknown - Developers Close on Parcel for South Weymouth Naval Air Station Redevelopment: JV / Partnership, Other / Unknown, score 75. GP partnership reference.
+- JV / Partnership - National - JLL Arranges Trophy Seniors Housing Portfolio Sale: JV / Partnership, National, score 75. GP partnership reference.
+- Refinancing - Other / Unknown - Affinius Capital Provides $188M Refi for N.J. Mixed-Use Apartment Complex: Refinancing, Other / Unknown, score 75. Capital market signal.
 
 ## Financing / Refinancing Signals
 
-- Refinancing - California - KIRE Group Receives $13.3M Loan for Refinancing of Multifamily Property Near San Diego: Refinancing, California, score 93. Capital market signal.
+- Acquisition - Atlanta / Georgia - Northmarq Arranges $25.5M Sale of Manufactured Housing Community in Duluth, Minnesota: Acquisition, Atlanta / Georgia, score 85. Pricing benchmark.
 - General Project Signal - California - Northmarq Secures Fannie Mae DUS Financing for National City Apartments: General Project Signal, California, score 83. Capital market signal.
-- Disposition / Exit - Seattle - CBRE Arranges $24M Sale of 87-UnitMultiffamily Apartment Property in Seattle: Disposition / Exit, Seattle, score 81. Capital market signal.
-- Acquisition - Other / Unknown - Northmarq Arranges $14.3M Acquisition Loan for Kansas Multifamily Property: Acquisition, Other / Unknown, score 75. Pricing benchmark.
-- Refinancing - Other / Unknown - JLL Provides $13.5M Agency Refinancing of Apartment Complex in Scarborough, Maine: Refinancing, Other / Unknown, score 75. Capital market signal.
+- General Project Signal - Florida - Walker & Dunlop Arranges $232M Financing for Workforce Housing Portfolio: General Project Signal, Florida, score 81. Capital market signal.
+- Refinancing - Other / Unknown - Affinius Capital Provides $188M Refi for N.J. Mixed-Use Apartment Complex: Refinancing, Other / Unknown, score 75. Capital market signal.
 - Development Start - Miami / Florida - Developer Begins Work on 476-Unit Delray Beach Rental Community: Development Start, Miami / Florida, score 73. Capital market signal.
-- Refinancing - Other / Unknown - Affinius Capital Supplies $180M for Jersey City Multifamily Tower: Refinancing, Other / Unknown, score 73. Capital market signal.
-- Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Recapitalization, California, score 69. Capital market signal.
-- Refinancing - New York City / New York - Citigroup Refis East Flatbush Apartments With $35M Loan: Refinancing, New York City / New York, score 65. Capital market signal.
-- Construction Financing - Other / Unknown - LCOR Secures $192.5M Construction Loan for Biscayne Bay Multifamily Apartments: Construction Financing, Other / Unknown, score 63. Pricing benchmark.
+- Refinancing - California - Slatt Capital Arranges Life Company Loan for Novato Multifamily: Refinancing, California, score 73. Capital market signal.
+- Office-to-Residential Conversion - Miami / Florida - Keyah Lands $38M to Reposition Miami Beach Hotel Into a Starwood Brand: Office-to-Residential Conversion, Miami / Florida, score 68. Capital market signal.
+- Refinancing - California - Slatt Capital Arranges $21M Refinance for 213-Unit Multifamily Community in Novato Califor...: Refinancing, California, score 68. Capital market signal.
+- Refinancing - Seattle - Gantry Secures $40M for Suburban Portland MF Assets: Refinancing, Seattle, score 64. Capital market signal.
+- Construction Financing - Miami / Florida - LCOR Inks $192.5M Construction Loan for Biscayne Bay Apartments: Construction Financing, Miami / Florida, score 61. Capital market signal.
 
 ## Project Pipeline / Supply Signals
 
+- General Project Signal - Florida - Walker & Dunlop Arranges $232M Financing for Workforce Housing Portfolio: General Project Signal, Florida, score 81. Capital market signal.
 - Office-to-Residential Conversion - Los Angeles / California - New details for plans to convert L.A. World Trade center into affordable housing: Office-to-Residential Conversion, Los Angeles / California, score 81. Construction strategy reference.
-- Acquisition - Sun Belt - RREAF Holdings CEO Kip Sowden Drives Southeast Real Estate: Acquisition, Sun Belt, score 74. Pricing benchmark.
+- Acquisition - Dallas / Texas - IPA Arranges Sale of 250-Unit Alta Firewheel Apartments in Garland, Texas: Acquisition, Dallas / Texas, score 77. Underwriting benchmark.
+- Entitlement / Permitting - Santa Monica / California - Fresh renderings for mixed-use project at 2716 Ocean Park Blvd. in Santa Monica: Entitlement / Permitting, Santa Monica / California, score 77. Entitlement / zoning watch.
+- JV / Partnership - National - JLL Arranges Trophy Seniors Housing Portfolio Sale: JV / Partnership, National, score 75. GP partnership reference.
 - Development Start - Miami / Florida - Developer Begins Work on 476-Unit Delray Beach Rental Community: Development Start, Miami / Florida, score 73. Capital market signal.
-- Disposition / Exit - New York City / New York - Aimco Liquidates Last of Its NYC Portfolio in $23M Sale: Disposition / Exit, New York City / New York, score 66. Underwriting benchmark.
-- Disposition / Exit - New York City / New York - Ariel Closes Sale of Upper West Side Section 8 Apartments: Disposition / Exit, New York City / New York, score 65. Underwriting benchmark.
 - Entitlement / Permitting - Beverly Hills / California - 23 homes slated for 227 N. Swall Drive in Beverly Hills: Entitlement / Permitting, Beverly Hills / California, score 65. Entitlement / zoning watch.
-- Entitlement / Permitting - Los Angeles / California - 62 apartments underway at 11103 Hartsook Ave. in North Hollywood: Entitlement / Permitting, Los Angeles / California, score 65. Entitlement / zoning watch.
 - Entitlement / Permitting - Los Angeles / California - City Council upholds approval of mixed-use project at 1410 Main St. in Venice: Entitlement / Permitting, Los Angeles / California, score 65. Entitlement / zoning watch.
-- General Project Signal - New York City / New York - Revised Plan for Pacific Park Development Could Bring 5,600 Multifamily Apartment Units to...: General Project Signal, New York City / New York, score 65. Underwriting benchmark.
-- JV / Partnership - Los Angeles / California - L.A. City Council approves $2-billion Fourth & Central development: JV / Partnership, Los Angeles / California, score 64. GP partnership reference.
+- Disposition / Exit - New York City / New York - Ariel Closes Sale of Upper West Side Section 8 Apartments: Disposition / Exit, New York City / New York, score 64. Underwriting benchmark.
+- Development Start - California - KTGY and SHAC Mark Announce Groundbreaking of 11 El Camino Real in San Carlos California: Development Start, California, score 58. Pipeline / supply signal.
 
 ## BTR / Modular / Innovation Signals
 
-- No current deal/project signal detected.
+- BTR / Build-to-Rent - Phoenix / Arizona - Cavan Cos. Closes Largest Single-Asset Build-for-Rent Multifamily Sale in Phoenix: BTR / Build-to-Rent, Phoenix / Arizona, score 56. Pipeline / supply signal.
 
 ## Pricing / Cap Rate / Valuation Signals
 
-- Acquisition - Other / Unknown - Northmarq Arranges $14.3M Acquisition Loan for Kansas Multifamily Property: Acquisition, Other / Unknown, score 75. Pricing benchmark.
-- Acquisition - Sun Belt - RREAF Holdings CEO Kip Sowden Drives Southeast Real Estate: Acquisition, Sun Belt, score 74. Pricing benchmark.
-- Acquisition - Georgia - Cushman & Wakefield Brokers $87M Sale of Apartment Community in Augusta: Acquisition, Georgia, score 73. Pricing benchmark.
-- Acquisition - New York City / New York - Marcus & Millichap Brokers $3.8M Sale of Brooklyn Apartment Building: Acquisition, New York City / New York, score 73. Pricing benchmark.
-- Acquisition - Other / Unknown - JLL Brokers Sale of 33,140 SF Retail Center in Chicago’s Lincoln Park: Acquisition, Other / Unknown, score 66. Pricing benchmark.
+- Acquisition - Atlanta / Georgia - Northmarq Arranges $25.5M Sale of Manufactured Housing Community in Duluth, Minnesota: Acquisition, Atlanta / Georgia, score 85. Pricing benchmark.
 - Acquisition - Phoenix / Arizona - Alliance Sells Phoenix Apartments for $81.4M: Acquisition, Phoenix / Arizona, score 64. Pricing benchmark.
-- Acquisition - Atlanta / Georgia - Waypoint Pays $87M for Augusta Rental Asset: Acquisition, Atlanta / Georgia, score 63. Pricing benchmark.
-- Construction Financing - Other / Unknown - LCOR Secures $192.5M Construction Loan for Biscayne Bay Multifamily Apartments: Construction Financing, Other / Unknown, score 63. Pricing benchmark.
 - Acquisition - Miami / Florida - Pembroke Pines Rental Asset Trades for $80.5M: Acquisition, Miami / Florida, score 62. Pricing benchmark.
-- Acquisition - Atlanta / Georgia - Trinity Property Consultants Acquires 300-Unit Sandy Springs Georgia Apartment Complex: Acquisition, Atlanta / Georgia, score 57. Pricing benchmark.
+- Acquisition - New York City / New York - Nuveen Buys Pair of Upper West Side Multifamily Properties for $75M: Acquisition, New York City / New York, score 61. Pricing benchmark.
 
 ## Deal / Project Signals By Residential Sector
 
-- Apartment: 35 deal/project signal(s)
-- Affordable Housing: 15 deal/project signal(s)
-- Multifamily: 11 deal/project signal(s)
-- Mixed-Use Residential: 8 deal/project signal(s)
+- Apartment: 28 deal/project signal(s)
+- Affordable Housing: 11 deal/project signal(s)
+- Multifamily: 9 deal/project signal(s)
+- Mixed-Use Residential: 5 deal/project signal(s)
+- Manufactured Housing: 3 deal/project signal(s)
+- Office-to-Residential Conversion: 3 deal/project signal(s)
 - General Residential: 2 deal/project signal(s)
-- Student Housing: 2 deal/project signal(s)
+- Senior Housing: 1 deal/project signal(s)
+- BTR / Single-Family Rental: 1 deal/project signal(s)
+- Student Housing: 1 deal/project signal(s)
 
 ## Canonical Deal Summary
 
@@ -106,10 +104,10 @@ Use those reports to separate repeated coverage from genuinely separate events.
 
 Developer, lender, capital partner, market, and deal edges are available in `relationship_graph_report.md`.
 - CBRE -> cbre: Financing Relationship, score 100.
-- Fannie Mae -> fannie mae: Financing Relationship, score 100.
-- Fannie Mae -> fannie mae: Financing Relationship, score 100.
-- Fannie Mae -> California: Financing Relationship, score 97.
-- Fannie Mae -> Refinancing - California - KIRE Group Receives $13.3M Loan for Refinancing of Multifamily Property Near San Diego: Financing Relationship, score 97.
+- Fannie Mae -> fannie mae: Financing Relationship, score 99.
+- Brookfield -> brookfield: JV / Partnership, score 96.
+- Kennedy Wilson -> kennedy wilson: Capital Flow, score 94.
+- Kennedy Wilson -> jll: Financing Relationship, score 93.
 
 ## Implications for Woomi / Woomi Global
 
@@ -120,11 +118,11 @@ Developer, lender, capital partner, market, and deal edges are available in `rel
 
 ## Recommended Follow-up Actions
 
-- Capital market signal: read `KIRE Group Receives $13.3M Loan for Refinancing of Multifamily Property Near San Diego` from REBusiness Online. Canonical market: California.
 - Entitlement / zoning watch: read `Yorba Linda Parking Lot Sells for Townhome Redevelopment` from Connect CRE Orange County. Canonical market: California.
+- Pricing benchmark: read `Northmarq Arranges $25.5M Sale of Manufactured Housing Community in Duluth, Minnesota` from REBusiness Online. Canonical market: Los Angeles.
 - Capital market signal: read `Northmarq Secures Fannie Mae DUS Financing for National City Apartments` from Connect CRE California. Canonical market: California.
-- Capital market signal: read `CBRE Arranges $24M Sale of 87-UnitMultiffamily Apartment Property in Seattle` from Yield PRO. Canonical market: Seattle.
+- Capital market signal: read `Walker & Dunlop Arranges $232M Financing for Workforce Housing Portfolio` from Yield PRO. Canonical market: Florida.
 - Construction strategy reference: read `New details for plans to convert L.A. World Trade center into affordable housing` from Urbanize LA. Canonical market: Los Angeles.
-- Pricing benchmark: read `Northmarq Arranges $14.3M Acquisition Loan for Kansas Multifamily Property` from REBusiness Online. Canonical market: Other / Unknown.
-- Capital market signal: read `JLL Provides $13.5M Agency Refinancing of Apartment Complex in Scarborough, Maine` from REBusiness Online. Canonical market: Other / Unknown.
-- Pricing benchmark: read `RREAF Holdings CEO Kip Sowden Drives Southeast Real Estate` from Commercial Observer. Canonical market: Sun Belt.
+- Underwriting benchmark: read `IPA Arranges Sale of 250-Unit Alta Firewheel Apartments in Garland, Texas` from REBusiness Online. Canonical market: Los Angeles.
+- Entitlement / zoning watch: read `Fresh renderings for mixed-use project at 2716 Ocean Park Blvd. in Santa Monica` from Urbanize LA. Canonical market: California.
+- GP partnership reference: read `Developers Close on Parcel for South Weymouth Naval Air Station Redevelopment` from Connect CRE. Canonical market: Other / Unknown.

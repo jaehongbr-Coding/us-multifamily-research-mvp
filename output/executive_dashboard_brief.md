@@ -1,14 +1,14 @@
 # Executive Dashboard Brief
 
-Generated: 2026-07-07 00:09:48
+Generated: 2026-07-07 23:59:00
 
 ## Executive Snapshot
 
-- Total articles reviewed: 91
-- High-confidence signals: 44
-- Institutional-grade signals: 12
-- Opportunities: 67
-- Distress signals: 9
+- Total articles reviewed: 81
+- High-confidence signals: 46
+- Institutional-grade signals: 16
+- Opportunities: 58
+- Distress signals: 8
 - Recommended executive focus: Review Office-to-Residential Conversion - Los Angeles / California - New details for plans to convert L.A. World Trade center into affordable housing and related high-confidence project signals.
 
 ## Top 5 Things to Review Today
@@ -21,49 +21,49 @@ Generated: 2026-07-07 00:09:48
 
 ## Immediate Watch Items
 
-- Alliance Residential: Stable Action: Track capital flow pattern and related relationships.
+- Alliance Residential: Fading Action: Track capital flow pattern and related relationships.
 - Arizona: Fading Action: Track capital flow pattern and related relationships.
-- Atlanta / Georgia: Stable Action: Track capital flow pattern and related relationships.
+- Atlanta / Georgia: Fading Action: Track capital flow pattern and related relationships.
 - City Council upholds approval of mixed-use project at 1410 Main St. in Venice: Track site control precedent Action: Track entitlement docket, density bonus use, and affordability requirement.
 - Entitlement / Permitting - Beverly Hills / California - 23 homes slated for 227 N. Swall Drive in Beverly Hills: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
 
 ## LA / California Watch
 
-- Atlanta / Georgia: Stable Action: Track capital flow pattern and related relationships.
+- Atlanta / Georgia: Fading Action: Track capital flow pattern and related relationships.
 - City Council upholds approval of mixed-use project at 1410 Main St. in Venice: Track site control precedent Action: Track entitlement docket, density bonus use, and affordability requirement.
 - Entitlement / Permitting - Beverly Hills / California - 23 homes slated for 227 N. Swall Drive in Beverly Hills: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
-- Entitlement / Permitting - Los Angeles / California - 62 apartments underway at 11103 Hartsook Ave. in North Hollywood: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
-- Office-to-Residential Conversion - Los Angeles / California - New details for plans to convert L.A. World Trade center into affordable housing: Track local sponsor activity Action: Monitor asset for repeated local confirmation.
+- Entitlement / Permitting - Los Angeles / California - City Council upholds approval of mixed-use project at 1410 Main St. in Venice: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
+- General Project Signal - Los Angeles / California - Mixed-use affordable housing slated for 9700 W. Venice Blvd. in Palms: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
 
 ## GP / Capital Partner Watch
 
-- Alliance Residential: Stable Action: Track capital flow pattern and related relationships.
+- Alliance Residential: Fading Action: Track capital flow pattern and related relationships.
 - Arizona: Fading Action: Track capital flow pattern and related relationships.
-- Atlanta / Georgia: Stable Action: Track capital flow pattern and related relationships.
-- CBRE: Institutional-backed regional expansion Action: Track JV and capital partner activity.
-- Fannie Mae: Institutional-backed regional expansion Action: Track JV and capital partner activity.
+- Atlanta / Georgia: Fading Action: Track capital flow pattern and related relationships.
+- Kennedy Wilson: California / LA strategic positioning Action: Track JV and capital partner activity.
+- Fannie Mae: Institutional-backed regional expansion Action: Review LA / California development activity.
 
 ## Opportunity / Distress Watch
 
-- Refinancing Gap: Refinancing Gap may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
 - LA / California Entitlement Opportunity: LA / California Entitlement Opportunity may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
 - LA / California Entitlement Opportunity: LA / California Entitlement Opportunity may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
 - LA / California Entitlement Opportunity: LA / California Entitlement Opportunity may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
-- Recapitalization Opportunity: Recapitalization Opportunity may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
+- Office-to-Residential Conversion Opportunity: Office-to-Residential Conversion Opportunity may create a pricing, capital, partnership, or pipeline opening in Los Angeles / California. Action: Add to executive opportunity review.
+- Refinancing Gap: Refinancing Gap may create a pricing, capital, partnership, or pipeline opening in Other / Unknown. Action: Add to executive opportunity review.
 
 ## Development Lifecycle Watch
 
 - City Council upholds approval of mixed-use project at 1410 Main St. in Venice: Track site control precedent Action: Track entitlement docket, density bonus use, and affordability requirement.
 - Entitlement / Permitting - Beverly Hills / California - 23 homes slated for 227 N. Swall Drive in Beverly Hills: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
-- Entitlement / Permitting - Los Angeles / California - 62 apartments underway at 11103 Hartsook Ave. in North Hollywood: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
+- Entitlement / Permitting - Los Angeles / California - City Council upholds approval of mixed-use project at 1410 Main St. in Venice: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
+- General Project Signal - Los Angeles / California - Mixed-use affordable housing slated for 9700 W. Venice Blvd. in Palms: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
 - Office-to-Residential Conversion - Los Angeles / California - New details for plans to convert L.A. World Trade center into affordable housing: Track local sponsor activity Action: Monitor asset for repeated local confirmation.
-- Refinancing - California - KIRE Group Receives $13.3M Loan for Refinancing of Multifamily Property Near San Diego: Review acquisition comparables Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 
 ## Capital Flow Watch
 
-- Alliance Residential: Stable Action: Track capital flow pattern and related relationships.
+- Alliance Residential: Fading Action: Track capital flow pattern and related relationships.
 - Arizona: Fading Action: Track capital flow pattern and related relationships.
-- Atlanta / Georgia: Stable Action: Track capital flow pattern and related relationships.
+- Atlanta / Georgia: Fading Action: Track capital flow pattern and related relationships.
 
 ## Source Health Notes
 

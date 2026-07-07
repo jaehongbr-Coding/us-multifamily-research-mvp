@@ -1,18 +1,18 @@
 # Routing Balance Report
 
 - Market Intelligence count: 18
-- Development Activity count: 68
-- GP / Capital Activity count: 2
+- Development Activity count: 57
+- GP / Capital Activity count: 1
 - Excluded count: 2
 - Rent/Demand candidate count: 5
-- Project anchor article count: 62
+- Project anchor article count: 54
 - Development-excluded transaction article count: 3
 - Low-value promotional excluded count: 2
-- Site / Parcel positive candidates count: 8
-- Site / Parcel excluded transaction count: 1
+- Site / Parcel positive candidates count: 6
+- Site / Parcel excluded transaction count: 0
 - Source missing count: 0
 - Market missing count: 0
-- Stage missing count: 69
+- Stage missing count: 52
 
 ## Rent/Demand Titles
 - Multifamily Absorption Rate Remains Below 50%
@@ -26,26 +26,24 @@
 - 2026 Resident Experience Management Report | promotional/event keyword: whitepaper
 
 ## Site / Parcel Included Examples
-- Milhaus to Build 194-Unit Affordable Housing Project in Kansas City | Development Activity | site/parcel signal with project anchor: to build
+- Developers Close on Parcel for South Weymouth Naval Air Station Redevelopment | Development Activity | site/parcel signal with project anchor: parcel
 - Yorba Linda Parking Lot Sells for Townhome Redevelopment | Development Activity | site/parcel signal with project anchor: development site
-- Affinius Capital Supplies $180M for Jersey City Multifamily Tower | Development Activity | site/parcel signal with project anchor: to build
 - Developer Duo Adding 350 Apartments to Dunwoody Mixed-Use Project | Development Activity | site/parcel signal with project anchor: to build
+- Cavan Cos. Closes Largest Single-Asset Build-for-Rent Multifamily Sale in Phoenix | Development Activity | site/parcel signal with project anchor: acres + development/site signal
 - Dezer Advancing Plan for 600 N. Miami Apartment Units | Development Activity | site/parcel signal with project anchor: to build
-- Mission Properties Adding 247 Apartment Units, Retail to Charlotte-Area Portfolio | Development Activity | site/parcel signal with project anchor: parcel
-- Preliminary Permits For Affordable Housing in North Natomas, Sacramento | Development Activity | site/parcel signal with project anchor: parcel
-- Portman Targeting Duluth for Mixed-Use Project | Development Activity | site/parcel signal with project anchor: to build
+- Renderings Revealed for 230 Anza Street, San Francisco | Development Activity | site/parcel signal with project anchor: parcel
 
 ## Site / Parcel Excluded Transaction Examples
-- Miami-Dade County Sells Apartment Site for $10 | Development Activity | operating-asset transaction guard
+- None
 
 ## Sample Validation
 - The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist | Excluded | rent_demand=No | low_value_promotional: chat-with-chief-economist promotional format
-- Cushman & Wakefield Brokers $87M Sale of Mason Augusta Apartment Community | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 462-unit; project/asset term: community)
-- Revised Plan for Pacific Park Development Could Bring 5,600 Multifamily Apartment Units to Downtown Brooklyn | Development Activity | rent_demand=No | development_project_anchor: Project / Asset (unit/site count: 600 apartments; execution milestone: proposed; project/asset term: project)
-- CBRE Arranges $24M Sale of 87-UnitMultiffamily Apartment Property in Seattle | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 87-unit; address/street: 1321 queen anne ave; project/asset term: community)
-- Citigroup Refis East Flatbush Apartments With $35M Loan | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 95 apartment; address/street: 406 remsen avenue; project/asset term: apartments)
-- 45-Unit Garden Apartment Property Trades in LA’s Palms Neighborhood | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 45-unit; address/street: 125 million sale of 3717 cardiff ave; project/asset term: community)
-- Priority Capital Advisory Closes $11M to Recapitalize Madison Hotel-to-MF Conversion | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 153 apartment; project/asset term: apartments)
+- Northmarq Arranges $25.5M Sale of Minnesota Manufactured Housing Park | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (address/street: 501 west stowe street; project/asset term: community; named asset/project hint: duluth)
+- Affinius Capital Provides $188M Refi for N.J. Mixed-Use Apartment Complex | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (execution milestone: lease-up; project/asset term: development)
+- Bravo Property Trust Lends $68M on New Jersey Waterfront Apartments | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 180-unit; project/asset term: project; project financing tied to anchor: construction loan)
+- Milhaus Receives Approval to Develop Kansas City Affordable Apartments | Market Intelligence | rent_demand=No | market_macro_guard: rent, demand, vacancy, absorption, or leasing article without project anchor
+- Northmarq’s Mid-Atlantic Team Completes $26M Sale of Manufactured Home Community | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (address/street: 501 west stowe street; project/asset term: community; named asset/project hint: duluth)
+- JLL Arranges Trophy Seniors Housing Portfolio Sale | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 344 units; project/asset term: senior housing)
+- Developers Close on Parcel for South Weymouth Naval Air Station Redevelopment | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (site/parcel signal: parcel; project/asset term: development)
+- Fresh renderings for mixed-use project at 2716 Ocean Park Blvd. in Santa Monica | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 2716 ocean park blvd; project/asset term: project)
 - Mixed-use affordable housing slated for 9700 W. Venice Blvd. in Palms | Development Activity | rent_demand=No | development_project_anchor: Project / Asset (address/street: 9700 w. venice blvd; site/parcel signal: site; project/asset term: apartments)
-- 23 homes slated for 227 N. Swall Drive in Beverly Hills | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (unit/site count: 23 homes; address/street: 227 n. swall drive; site/parcel signal: site; project/asset term: development)
-- SB 79 takes effect, Measure ULA to remain, and more | Development Activity | rent_demand=No | development milestone or entitlement signal has display priority

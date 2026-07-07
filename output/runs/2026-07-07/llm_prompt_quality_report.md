@@ -1,32 +1,32 @@
 # LLM Prompt Quality Report
 
-Generated: 2026-07-07 00:10:01
+Generated: 2026-07-07 23:59:09
 
-- Total prompts reviewed: 53
+- Total prompts reviewed: 50
 - Average prompt quality score: 92.9
-- Excellent prompts: 46
-- Good prompts: 7
+- Excellent prompts: 42
+- Good prompts: 8
 - Needs Improvement prompts: 0
 - Poor prompts: 0
 
 ## Top 5 Strongest Prompts
 
-- 98 (Excellent): Cushman & Wakefield Brokers $87M Sale of Apartment Community in Augusta
-- 98 (Excellent): Marcus & Millichap Brokers $3.8M Sale of Brooklyn Apartment Building
-- 98 (Excellent): Trinity Property Consultants Acquires 300-Unit Sandy Springs Georgia Apartment Complex
-- 98 (Excellent): RREAF Holdings CEO Kip Sowden Drives Southeast Real Estate
-- 98 (Excellent): Kinect Real Estate Partners Closes $127M Fund for MF Projects
+- 98 (Excellent): JLL Arranges Trophy Seniors Housing Portfolio Sale
+- 98 (Excellent): C&C Development Opens Affordable Housing in Irvine
+- 98 (Excellent): Gantry Secures $40M for Pair of Oregon Multifamily Properties
+- 98 (Excellent): Gantry Secures $40M for Suburban Portland MF Assets
+- 98 (Excellent): IPA Arranges Sale of 250-Unit Alta Firewheel Apartments in Garland, Texas
 
 ## Top 5 Weakest Prompts
 
-- 74 (Good): Woodfield Development Closes on West Ashley Site for Westbourne Ashley Landing - Missing: missing extracted numbers; missing market focus; missing market signal
-- 74 (Good): Affordable housing completed at 3300 Washington Blvd. in Arlington Heights - Missing: missing extracted numbers; missing market focus; missing market signal
-- 82 (Good): IPA Negotiates Sale of 201-Unit Apartment Complex Near Downtown Dallas - Missing: missing extracted numbers; missing market signal
-- 82 (Good): Affinius Capital Supplies $180M for Jersey City Multifamily Tower - Missing: missing market focus; missing market signal
-- 82 (Good): LCOR Secures $192.5M Construction Loan for Biscayne Bay Multifamily Apartments - Missing: missing market focus; missing market signal
+- 74 (Good): Tidemark, BOD Holdings Complete 135-Unit Multifamily Project in Somersworth, New Hampshire - Missing: missing extracted numbers; missing market focus; missing market signal
+- 82 (Good): How Alliance Residential navigated the sales market to buy 2K apartments since December - Missing: missing extracted numbers; missing market signal
+- 82 (Good): Berkadia Hires C&W’s Blake Okland as Chief Revenue Officer - Missing: missing extracted numbers; missing market signal
+- 82 (Good): KTGY and SHAC Mark Announce Groundbreaking of 11 El Camino Real in San Carlos California - Missing: missing extracted numbers; missing market signal
+- 82 (Good): NRP Group Breaks Ground on 348-Unit Affordable Housing Project in South Austin - Missing: missing extracted numbers; missing market signal
 
 ## Common Missing Context Issues
 
 - missing market signal: 17
-- missing market focus: 12
-- missing extracted numbers: 5
+- missing extracted numbers: 8
+- missing market focus: 7

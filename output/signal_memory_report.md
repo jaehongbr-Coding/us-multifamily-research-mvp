@@ -1,11 +1,11 @@
 # Signal Memory Report
 
-Generated: 2026-07-07 00:09:48
+Generated: 2026-07-07 23:59:00
 
 ## Signal Memory Summary
 
 - Total memory rows: 542
-- Status summary: Insufficient History: 210; Dormant Signal: 200; Persistent Signal: 78; Early Watch: 26; Strengthening Signal: 15; New Signal: 10; Weakening Signal: 2; Repeated Watch: 1
+- Status summary: Insufficient History: 209; Dormant Signal: 198; Persistent Signal: 80; Early Watch: 26; Strengthening Signal: 16; New Signal: 10; Weakening Signal: 2; Repeated Watch: 1
 - Signal Memory is a repeated-observation tracker, not an investment decision engine.
 
 ## Strengthening Signals
@@ -22,35 +22,35 @@ Generated: 2026-07-07 00:09:48
 ## Persistent Signals
 
 - Development Strategy / Other / Unknown: Persistent Signal. 최근 30일 중 29일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
-- Development Strategy / Los Angeles / California: Persistent Signal. 최근 30일 중 18일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
-- Development Strategy / Other / Unknown: Persistent Signal. 최근 30일 중 10일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
-- Rent Growth Signal / Los Angeles / California: Persistent Signal. 최근 30일 중 16일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
+- Development Strategy / Los Angeles / California: Persistent Signal. 최근 30일 중 17일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
+- Development Strategy / Other / Unknown: Persistent Signal. 최근 30일 중 9일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
+- Rent Growth Signal / Los Angeles / California: Persistent Signal. 최근 30일 중 15일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
 - Supply / Starts Signal / Miami / Florida: Persistent Signal. 최근 30일 중 11일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
 - Supply / Starts Signal / Atlanta / Georgia: Persistent Signal. 최근 30일 중 8일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
+- acquisition / New York: Persistent Signal. 최근 30일 중 9일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
 - acquisition / Atlanta / Georgia: Persistent Signal. 최근 30일 중 15일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
-- construction_financing / New York: Persistent Signal. 최근 30일 중 10일 관찰되었습니다. 다만 기사 기반 반복 관찰이므로 직접 투자 결론은 아닙니다.
 
 ## New / Early Watch Signals
 
 - acquisition / Austin / Texas: Repeated Watch. 최근 7일 내 2일 이상 반복 관찰되었습니다. 추가 source 확인이 필요합니다.
-- Deal Size Signal / New York City / New York: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- disposition / Atlanta / Georgia: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- Developer Strategy / Dallas / Texas: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
 - Development Strategy / Miami / Florida: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
-- Development Strategy / Denver / Colorado: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
-- Macro & Financing / Sun Belt: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
-- Supply / Starts Signal / Tampa / Florida: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
-- acquisition / Georgia: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
-- disposition / Washington DC: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- Macro & Financing / New York: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- Policy & Regulation / New York City / New York: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- Rent Growth Signal / Santa Monica / California: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
+- acquisition / Atlanta / Georgia: New Signal. 오늘 처음 관찰된 신호입니다. 반복 확인 전까지는 관찰 초기 단계로 봅니다.
 
 ## Weakening or Dormant Signals
 
 - Development Strategy / Phoenix / Arizona: Dormant Signal. 과거에는 관찰됐지만 최근 7일에는 포착되지 않았습니다.
 - Macro & Financing / Other / Unknown: Dormant Signal. 과거에는 관찰됐지만 최근 7일에는 포착되지 않았습니다.
 - Supply / Starts Signal / California: Dormant Signal. 과거에는 관찰됐지만 최근 7일에는 포착되지 않았습니다.
-- acquisition / Los Angeles / California: Dormant Signal. 과거에는 관찰됐지만 최근 7일에는 포착되지 않았습니다.
 - acquisition / Phoenix / Arizona: Dormant Signal. 과거에는 관찰됐지만 최근 7일에는 포착되지 않았습니다.
 - construction_financing / California: Dormant Signal. 과거에는 관찰됐지만 최근 7일에는 포착되지 않았습니다.
 - construction_financing / Phoenix / Arizona: Dormant Signal. 과거에는 관찰됐지만 최근 7일에는 포착되지 않았습니다.
 - effective_rent_growth / Miami / Florida: Dormant Signal. 과거에는 관찰됐지만 최근 7일에는 포착되지 않았습니다.
+- joint_venture / Miami / Florida: Dormant Signal. 과거에는 관찰됐지만 최근 7일에는 포착되지 않았습니다.
 
 ## Notes on Data Limitations
 

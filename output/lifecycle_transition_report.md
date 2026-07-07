@@ -1,25 +1,25 @@
 # Lifecycle Transition Report
 
-Generated: 2026-07-07 00:10:16
+Generated: 2026-07-07 23:59:22
 
-- Total lifecycle transitions analyzed: 108
-- Newly detected projects: 59
+- Total lifecycle transitions analyzed: 88
+- Newly detected projects: 45
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - Reappearing projects: 0
 
 ## Strongest Progression Signals
 
-- General Project Signal - New York City / New York - Revised Plan for Pacific Park Development Could Bring 5,600 Multifamily Apartment Units to...: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 72.
-- General Project Signal - Dallas / Texas - Trademark Opens The Vickery in Ft. Worth: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 72.
-- Fairfield Completes 14-Story Houston Multifamily Tower: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 71.
-- Affordable housing completed at 3300 Washington Blvd. in Arlington Heights: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 70.
+- General Project Signal - Dallas / Texas - Trademark Opens The Vickery in Ft. Worth: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 77.
+- PCCP Provides $80M Loan for the Refinance of a 343-Unit Class A Apartment Property in Bethesda Maryland: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 75.
+- Refinancing - Other / Unknown - PCCP Provides $80M Loan for the Refinance of a 343-Unit Class A Apartment Property in Beth...: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 74.
+- Development Start - California - KTGY and SHAC Mark Announce Groundbreaking of 11 El Camino Real in San Carlos California: No Previous Record -> Construction Started, Newly Detected Project, progression_score 73.
+- Development Start - Dallas / Texas - JVP Begins Work on 110K-SF Office Building at Frisco’s The Mix: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 72.
+- Disposition / Exit - Atlanta / Georgia - Northmarq Arranges $25.5M Sale of Minnesota Manufactured Housing Park: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 70.
+- Disposition / Exit - Atlanta / Georgia - Northmarq’s Mid-Atlantic Team Completes $26M Sale of Manufactured Home Community: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 70.
+- Northmarq’s Mid-Atlantic Team Completes $26M Sale of Manufactured Home Community: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 70.
+- Trademark Opens The Vickery in Ft. Worth: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 70.
 - LCOR Inks $192.5M Construction Loan for Biscayne Bay Apartments: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 69.
-- Development Start - Miami / Florida - Developer Begins Work on 476-Unit Delray Beach Rental Community: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 69.
-- Entitlement / Permitting - Other / Unknown - Affordable housing completed at 3300 Washington Blvd. in Arlington Heights: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 67.
-- Development Start - Texas - Core Spaces Advancing 2,201-Bed Texas A&M Student Housing Venture: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 67.
-- LCOR Secures $192.5M Construction Loan for Biscayne Bay Multifamily Apartments: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 66.
-- Trademark Opens The Vickery in Ft. Worth: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 65.
 
 ## Highest Stall Risk Signals
 
@@ -28,24 +28,24 @@ Generated: 2026-07-07 00:10:16
 - Disposition / Exit - Los Angeles / California - Affordable for-sale housing proposed at 9019 Long Beach Blvd. in South Gate: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 38.
 - C&C Development Opens Affordable Housing in Irvine: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
 - Office-to-Residential Conversion - Los Angeles / California - New details for plans to convert L.A. World Trade center into affordable housing: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 37.
-- General Project Signal - Miami / Florida - Miami-Dade County Sells Apartment Site for $10: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 37.
-- 62 apartments underway at 11103 Hartsook Ave. in North Hollywood: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
+- 23 homes slated for 227 N. Swall Drive in Beverly Hills: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
+- Mixed-use affordable housing slated for 9700 W. Venice Blvd. in Palms: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
 - New details for plans to convert L.A. World Trade center into affordable housing: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 36.
-- Preliminary Permits For Affordable Housing in North Natomas, Sacramento: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
 - Yorba Linda Parking Lot Sells for Townhome Redevelopment: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 35.
+- Apartment Locators Balance Transparency With TikTok Trends As Their Influence Expands: No Previous Record -> Environmental Review / CEQA, Newly Detected Project, stall_risk_score 33.
 
 ## Newly Detected Projects
 
-- General Project Signal - New York City / New York - Revised Plan for Pacific Park Development Could Bring 5,600 Multifamily Apartment Units to...: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 72.
-- General Project Signal - Dallas / Texas - Trademark Opens The Vickery in Ft. Worth: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 72.
-- LCOR Secures $192.5M Construction Loan for Biscayne Bay Multifamily Apartments: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 66.
-- Trademark Opens The Vickery in Ft. Worth: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 65.
-- JV / Partnership - Colorado - Serac Capital, WalshDupart Complete 180-Unit Dual-Branded Marriott Hotels in Steamboat Spr...: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 61.
-- Refinancing - California - KIRE Group Receives $13.3M Loan for Refinancing of Multifamily Property Near San Diego: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 60.
-- Refinancing - New York City / New York - Citigroup Refis East Flatbush Apartments With $35M Loan: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 58.
-- Refinancing - Other / Unknown - Affinius Capital Supplies $180M for Jersey City Multifamily Tower: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 50.
-- Refinancing - Other / Unknown - JLL Provides $13.5M Agency Refinancing of Apartment Complex in Scarborough, Maine: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 50.
-- Priority Capital Advisory Announces $11.5M Loan for the Recapitalization of a Recent Hotel-to-Multifamily Conversion in Madison Wisconsin: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 48.
+- PCCP Provides $80M Loan for the Refinance of a 343-Unit Class A Apartment Property in Bethesda Maryland: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 75.
+- Refinancing - Other / Unknown - PCCP Provides $80M Loan for the Refinance of a 343-Unit Class A Apartment Property in Beth...: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 74.
+- Development Start - California - KTGY and SHAC Mark Announce Groundbreaking of 11 El Camino Real in San Carlos California: No Previous Record -> Construction Started, Newly Detected Project, progression_score 73.
+- Development Start - Dallas / Texas - JVP Begins Work on 110K-SF Office Building at Frisco’s The Mix: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 72.
+- Disposition / Exit - Atlanta / Georgia - Northmarq Arranges $25.5M Sale of Minnesota Manufactured Housing Park: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 70.
+- Disposition / Exit - Atlanta / Georgia - Northmarq’s Mid-Atlantic Team Completes $26M Sale of Manufactured Home Community: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 70.
+- Northmarq’s Mid-Atlantic Team Completes $26M Sale of Manufactured Home Community: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 70.
+- JV / Partnership - National - JLL Arranges Trophy Seniors Housing Portfolio Sale: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 66.
+- CBRE Arranges Sale of 16-Story Moore Office Building in Nashville: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 65.
+- Northmarq Arranges $25.5M Sale of Minnesota Manufactured Housing Park: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 62.
 
 ## Forward Progression Projects
 
@@ -61,22 +61,20 @@ Generated: 2026-07-07 00:10:16
 
 ## Refinancing / Recap Timing Transitions
 
-- Refinancing - California - KIRE Group Receives $13.3M Loan for Refinancing of Multifamily Property Near San Diego: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
-- Refinancing - New York City / New York - Citigroup Refis East Flatbush Apartments With $35M Loan: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
+- Refinancing - California - Slatt Capital Arranges $21M Refinance for 213-Unit Multifamily Community in Novato Califor...: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 31.
+- Refinancing - California - Slatt Capital Arranges Life Company Loan for Novato Multifamily: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 31.
+- Refinancing - Seattle - Gantry Secures $40M for Suburban Portland MF Assets: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
 - Construction Financing - Miami / Florida - LCOR Inks $192.5M Construction Loan for Biscayne Bay Apartments: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 30.
-- Construction Financing - Other / Unknown - LCOR Secures $192.5M Construction Loan for Biscayne Bay Multifamily Apartments: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
-- Office-to-Residential Conversion - Other / Unknown - Priority Capital Advisory Announces $11.5M Loan for the Recapitalization of a Recent Hotel...: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
-- Refinancing - Other / Unknown - Affinius Capital Supplies $180M for Jersey City Multifamily Tower: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
-- Refinancing - Other / Unknown - JLL Provides $13.5M Agency Refinancing of Apartment Complex in Scarborough, Maine: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
-- Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 27.
-- Priority Capital Advisory Announces $11.5M Loan for the Recapitalization of a Recent Hotel-to-Multifamily Conversion in Madison Wisconsin: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 27.
+- Refinancing - National - Gantry Secures $40M for Pair of Oregon Multifamily Properties: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
+- Refinancing - Other / Unknown - Affinius Capital Provides $188M Refi for N.J. Mixed-Use Apartment Complex: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
 
 ## Construction Start Transitions
 
+- Development Start - California - KTGY and SHAC Mark Announce Groundbreaking of 11 El Camino Real in San Carlos California: No Previous Record -> Construction Started, Newly Detected Project, progression_score 73.
+- Development Start - Dallas / Texas - JVP Begins Work on 110K-SF Office Building at Frisco’s The Mix: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 72.
 - LCOR Inks $192.5M Construction Loan for Biscayne Bay Apartments: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 69.
 - Development Start - Miami / Florida - Developer Begins Work on 476-Unit Delray Beach Rental Community: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 69.
 - Development Start - Texas - Core Spaces Advancing 2,201-Bed Texas A&M Student Housing Venture: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 67.
-- LCOR Secures $192.5M Construction Loan for Biscayne Bay Multifamily Apartments: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 66.
 
 ## Implications for Woomi / Woomi Global
 
@@ -86,24 +84,24 @@ Generated: 2026-07-07 00:10:16
 
 ## Recommended Transition Follow-up Actions
 
-- Use as delivery, lease-up, and underwriting benchmark: General Project Signal - New York City / New York - Revised Plan for Pacific Park Development Could Bring 5,600 Multifamily Apartment Units to....
 - Use as delivery, lease-up, and underwriting benchmark: General Project Signal - Dallas / Texas - Trademark Opens The Vickery in Ft. Worth.
-- Use as delivery, lease-up, and underwriting benchmark: Fairfield Completes 14-Story Houston Multifamily Tower.
-- Use as delivery, lease-up, and underwriting benchmark: Affordable housing completed at 3300 Washington Blvd. in Arlington Heights.
-- Monitor for another run to confirm lifecycle direction: LCOR Inks $192.5M Construction Loan for Biscayne Bay Apartments.
-- Monitor for another run to confirm lifecycle direction: Development Start - Miami / Florida - Developer Begins Work on 476-Unit Delray Beach Rental Community.
-- Use as delivery, lease-up, and underwriting benchmark: Entitlement / Permitting - Other / Unknown - Affordable housing completed at 3300 Washington Blvd. in Arlington Heights.
-- Monitor for another run to confirm lifecycle direction: Development Start - Texas - Core Spaces Advancing 2,201-Bed Texas A&M Student Housing Venture.
+- Use as delivery, lease-up, and underwriting benchmark: PCCP Provides $80M Loan for the Refinance of a 343-Unit Class A Apartment Property in Bethesda Maryland.
+- Use as delivery, lease-up, and underwriting benchmark: Refinancing - Other / Unknown - PCCP Provides $80M Loan for the Refinance of a 343-Unit Class A Apartment Property in Beth....
+- Monitor for another run to confirm lifecycle direction: Development Start - California - KTGY and SHAC Mark Announce Groundbreaking of 11 El Camino Real in San Carlos California.
+- Monitor for another run to confirm lifecycle direction: Development Start - Dallas / Texas - JVP Begins Work on 110K-SF Office Building at Frisco’s The Mix.
+- Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - Atlanta / Georgia - Northmarq Arranges $25.5M Sale of Minnesota Manufactured Housing Park.
+- Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - Atlanta / Georgia - Northmarq’s Mid-Atlantic Team Completes $26M Sale of Manufactured Home Community.
+- Use as delivery, lease-up, and underwriting benchmark: Northmarq’s Mid-Atlantic Team Completes $26M Sale of Manufactured Home Community.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 822
-- Canonical projects: 204
-- Duplicate project clusters: 137
-- Persistent assets tracked: 204
-- LA persistent asset watch items: 113
+- Raw project references: 714
+- Canonical projects: 191
+- Duplicate project clusters: 126
+- Persistent assets tracked: 191
+- LA persistent asset watch items: 133
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -111,10 +109,10 @@ Generated: 2026-07-07 00:10:16
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 204
-- Institutional-grade signals: 12
-- High-confidence signals: 44
-- Weak/noisy signals: 133
-- High-confidence watchlist items: 44
+- Signals evaluated: 191
+- Institutional-grade signals: 16
+- High-confidence signals: 46
+- Weak/noisy signals: 121
+- High-confidence watchlist items: 46
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

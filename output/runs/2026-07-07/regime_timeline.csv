@@ -1,7 +1,7 @@
 ﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
-20260707-000948-c1f40a65,2026-07-07,Construction financing still selective,Weakening,weakening,70,8,33,5.97,3.73,2,2,2,0,Miami / Florida,Early Signal,Construction financing still selective visibility is weakening versus prior runs.,
-20260707-000948-c1f40a65,2026-07-07,Institutional recap over expansion,Building,stable,70,8,33,3.15,2.61,5,5,4,2,California,Broadly Confirmed,steady visibility,
-20260707-000948-c1f40a65,2026-07-07,JV / partnership activity observed,Building,accelerating,70,8,33,6.61,3.67,10,10,6,0,Los Angeles / California,Broadly Confirmed,JV / partnership activity observed signal is accelerating versus prior runs.,
-20260707-000948-c1f40a65,2026-07-07,LA entitlement precedent accumulation,Weakening,weakening,70,8,33,6.82,2.21,7,7,2,0,Los Angeles / California,Source-Concentrated,LA entitlement precedent accumulation visibility is weakening versus prior runs.,
-20260707-000948-c1f40a65,2026-07-07,Refinancing pressure unresolved,Building,stable,70,8,33,3.67,2.97,5,5,4,2,California,Broadly Confirmed,steady visibility,
-20260707-000948-c1f40a65,2026-07-07,Sun Belt lease-up pressure watch,Persistent,stable,70,8,33,3.67,3.21,3,3,2,0,National,Moderate Signal,steady visibility,
+20260707-235900-c117bd3d,2026-07-07,Construction financing still selective,Persistent,stable,71,9,34,5.88,3.71,3,3,2,0,Miami / Florida,Moderate Signal,steady visibility,
+20260707-235900-c117bd3d,2026-07-07,Institutional recap over expansion,Dormant,inactive,0,8,33,3.06,2.56,0,0,0,0,,Low Confidence,steady visibility,
+20260707-235900-c117bd3d,2026-07-07,JV / partnership activity observed,Weakening,weakening,71,9,34,6.65,3.68,8,8,6,1,National,Broadly Confirmed,JV / partnership activity observed visibility is weakening versus prior runs.,
+20260707-235900-c117bd3d,2026-07-07,LA entitlement precedent accumulation,Weakening,weakening,71,9,34,6.76,2.21,5,5,2,0,Los Angeles / California,Source-Concentrated,LA entitlement precedent accumulation visibility is weakening versus prior runs.,
+20260707-235900-c117bd3d,2026-07-07,Refinancing pressure unresolved,Dormant,inactive,0,8,33,3.56,2.91,0,0,0,0,,Low Confidence,steady visibility,
+20260707-235900-c117bd3d,2026-07-07,Sun Belt lease-up pressure watch,Building,stable,71,9,34,3.68,3.21,4,4,3,0,National,Moderate Signal,steady visibility,

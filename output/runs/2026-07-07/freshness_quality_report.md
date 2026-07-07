@@ -1,14 +1,14 @@
 # Freshness Quality Report
 
-Generated: 2026-07-07 00:09:49
+Generated: 2026-07-07 23:59:01
 
 ## Freshness Summary
 
-- Total articles reviewed: 91
-- fresh_0_3d: 60
-- recent_4_14d: 9
+- Total articles reviewed: 81
+- fresh_0_3d: 53
+- recent_4_14d: 8
 - stale_15_30d: 0
-- old_31d_plus: 22
+- old_31d_plus: 20
 - unknown_date: 0
 
 ## Old Articles Excluded From Representative Evidence
@@ -17,7 +17,6 @@ Generated: 2026-07-07 00:09:49
 - Yorba Linda Parking Lot Sells for Townhome Redevelopment (Connect CRE Orange County, 2026-06-09): published date parsed; article age 28 day(s)
 - Best Year for Missing Middle Construction Since 2007 (NAHB Eye on Housing - Multifamily, 2026-03-17): published date parsed; article age 112 day(s)
 - Missing Middle Weakness (NAHB Eye on Housing - Multifamily, 2026-01-19): published date parsed; article age 169 day(s)
-- PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties (Connect CRE Orange County, 2026-05-27): published date parsed; article age 41 day(s)
 - Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily, 2026-05-27): published date parsed; article age 41 day(s)
 - Multifamily Absorption Rate Remains Below 50% (NAHB Eye on Housing - Multifamily, 2026-03-03): published date parsed; article age 126 day(s)
 - Centralization Associated with Occupancy Uplift (Multifamily Executive, 2026-03-02): published date parsed; article age 127 day(s)
@@ -28,21 +27,19 @@ Generated: 2026-07-07 00:09:49
 - Third Quarter 2025 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-01-20): published date parsed; article age 168 day(s)
 - Private Residential Construction Spending Increases in March (NAHB Eye on Housing - Multifamily, 2026-05-07): published date parsed; article age 61 day(s)
 - August Private Residential Construction Spending Edges Higher (NAHB Eye on Housing - Multifamily, 2025-11-17): published date parsed; article age 232 day(s)
+- Multifamily Developer Confidence Holds Steady in First Quarter (NAHB Eye on Housing - Multifamily, 2026-05-07): published date parsed; article age 61 day(s)
 
 ## Old Articles Excluded From Development Activity Top Exposure
 
 - Yorba Linda Parking Lot Sells for Townhome Redevelopment (Connect CRE Orange County): marked historical/background.
 - Missing Middle Weakness (NAHB Eye on Housing - Multifamily): marked historical/background.
-- PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties (Connect CRE Orange County): marked historical/background.
 - Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily): marked historical/background.
 - Former Bank Branch Positioned as Development Opportunity in Garden Grove Sale (Connect CRE Orange County): marked historical/background.
-- Portman Targeting Duluth for Mixed-Use Project (Connect CRE Atlanta): marked historical/background.
 
 ## Old Articles Excluded From GP / Capital Activity
 
 - The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist (Multifamily Executive): repeat exposure penalty; article integrity issue; historical article over 30 days old; event, webinar, or thin promotional article
 - Yorba Linda Parking Lot Sells for Townhome Redevelopment (Connect CRE Orange County): repeat exposure penalty; historical article over 30 days old; development article without confirmed capital event
-- PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties (Connect CRE Orange County): repeat exposure penalty; historical article over 30 days old
 - Overall Housing Starts Inch Lower in 2025 (NAHB Eye on Housing - Multifamily): repeat exposure penalty; historical article over 30 days old
 - HBGI Q1 2026: Single-Family Construction Slips Across All Geographies (NAHB Eye on Housing - Multifamily): repeat exposure penalty; historical article over 30 days old
 - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter (NAHB Eye on Housing - Multifamily): repeat exposure penalty; historical article over 30 days old
@@ -57,8 +54,7 @@ Generated: 2026-07-07 00:09:49
 
 - NAHB Eye on Housing - Multifamily: 15 stale/old/unknown-date article(s)
 - Multifamily Executive: 3 stale/old/unknown-date article(s)
-- Connect CRE Orange County: 3 stale/old/unknown-date article(s)
-- Connect CRE Atlanta: 1 stale/old/unknown-date article(s)
+- Connect CRE Orange County: 2 stale/old/unknown-date article(s)
 
 ## Recommended Source / Date Parsing Fixes
 

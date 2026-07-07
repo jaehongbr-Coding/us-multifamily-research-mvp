@@ -1,6 +1,6 @@
 # Source Health Report
 
-Generated: 2026-07-07 00:09:49
+Generated: 2026-07-07 23:59:01
 
 - Total sources attempted: 163
 - Working sources: 23
@@ -12,24 +12,25 @@ Generated: 2026-07-07 00:09:49
 
 - Multifamily Executive (Core Multifamily News): 4 saved article(s).
 - Yield PRO (Core Multifamily News): 10 saved article(s).
-- Bisnow (Core Multifamily News): 4 saved article(s).
 - Commercial Observer (Core Multifamily News): 5 saved article(s).
-- Connect CRE (Core Multifamily News): 4 saved article(s).
+- Connect CRE (Core Multifamily News): 6 saved article(s).
 - NAHB Eye on Housing - Multifamily (Public Agency / Housing Data): 15 saved article(s).
-- Urbanize LA (Regional / California / LA Sources): 9 saved article(s).
-- REBusiness Online (Site / Parcel Source Expansion): 12 saved article(s).
-- Connect CRE Apartments (Site / Parcel Source Expansion): 10 saved article(s).
-- Connect CRE Texas (Site / Parcel Source Expansion): 4 saved article(s).
-- Connect CRE South Florida (Site / Parcel Source Expansion): 6 saved article(s).
-- Connect CRE Orange County (Site / Parcel Source Expansion): 4 saved article(s).
+- Urbanize LA (Regional / California / LA Sources): 7 saved article(s).
+- REBusiness Online (Site / Parcel Source Expansion): 9 saved article(s).
+- Connect CRE Apartments (Site / Parcel Source Expansion): 9 saved article(s).
+- Connect CRE Texas (Site / Parcel Source Expansion): 3 saved article(s).
+- Connect CRE South Florida (Site / Parcel Source Expansion): 5 saved article(s).
+- Connect CRE Orange County (Site / Parcel Source Expansion): 3 saved article(s).
 - Connect CRE California (Regional / California / LA Sources): 4 saved article(s).
 
 ## Useful Sources
 
-- Multifamily Dive (Core Multifamily News): 1 saved article(s).
-- SF YIMBY (Regional / California / LA Sources): 2 saved article(s).
+- Multifamily Dive (Core Multifamily News): 2 saved article(s).
+- Bisnow (Core Multifamily News): 2 saved article(s).
+- Construction Dive (Core Multifamily News): 1 saved article(s).
+- SF YIMBY (Regional / California / LA Sources): 1 saved article(s).
 - Connect CRE Phoenix (Site / Parcel Source Expansion): 1 saved article(s).
-- Connect CRE Atlanta (Site / Parcel Source Expansion): 2 saved article(s).
+- Connect CRE Atlanta (Site / Parcel Source Expansion): 1 saved article(s).
 
 ## Failing Sources
 
@@ -54,7 +55,6 @@ Generated: 2026-07-07 00:09:49
 
 ## Watch List
 
-- Construction Dive: 10 entries found, but no articles passed filtering.
 - HousingWire: 10 entries found, but no articles passed filtering.
 - Federal Reserve - Press Releases: 20 entries found, but no articles passed filtering.
 - Blackstone Real Estate: 10 entries found, but no articles passed filtering.
@@ -73,7 +73,7 @@ Developer / GP source coverage is available in `gp_source_coverage_report.md`.
 Validated source activation scoring is available in `source_activation_report.md`.
 - Working activated sources: 23
 - Failed critical sources: 11
-- Highest quality source this run: Connect CRE Orange County (92).
+- Highest quality source this run: Yield PRO (97).
 
 ## Recommended Source Improvement Actions
 

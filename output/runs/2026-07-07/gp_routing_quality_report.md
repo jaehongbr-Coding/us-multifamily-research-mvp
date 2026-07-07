@@ -1,22 +1,22 @@
 # GP Routing Quality Report
 
-Generated: 2026-07-07 00:09:48
+Generated: 2026-07-07 23:59:00
 
 ## Summary
-- Total GP / Capital candidates: 56
-- Selected GP / Capital articles: 25
-- Debt Financing count: 11
-- Refinancing count: 4
-- Construction Financing count: 2
+- Total GP / Capital candidates: 48
+- Selected GP / Capital articles: 23
+- Debt Financing count: 9
+- Refinancing count: 5
+- Construction Financing count: 3
 - Acquisition Financing count: 1
 - Equity Transaction count: 0
-- Operator Activity count: 3
-- Other / Unknown market count: 35
+- Operator Activity count: 2
+- Other / Unknown market count: 30
 
 ## Routing Regression Summary
 - Market Intelligence routed articles: 18
-- Development Activity routed articles: 68
-- GP / Capital Activity routed articles: 2
+- Development Activity routed articles: 57
+- GP / Capital Activity routed articles: 1
 - Market-protected research / macro / supply articles: 7
 - Approval / Entitlement development rows: 0
 - Site / Parcel development rows: 0
@@ -24,48 +24,49 @@ Generated: 2026-07-07 00:09:48
 - Routing rule: approval / entitlement wording takes priority over Site / Parcel when both appear.
 
 ## Activity Type Distribution
-- disposition_exit: 22
-- debt_financing: 11
-- joint_venture: 8
-- acquisition: 5
-- refinancing: 4
-- asset_management_operator_activity: 3
-- construction_financing: 2
+- disposition_exit: 20
+- debt_financing: 9
+- joint_venture: 6
+- refinancing: 5
+- construction_financing: 3
+- asset_management_operator_activity: 2
 - acquisition_financing: 1
+- portfolio_transaction: 1
+- acquisition: 1
 
 ## Excluded from GP / Capital with Reason
 - No obvious GP / Capital keyword article was excluded.
 
 ## Top Unresolved Market Extraction Examples
 - The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist | Multifamily Executive | used broad market bucket: National
-- Priority Capital Advisory Closes $11M to Recapitalize Madison Hotel-to-MF Conversion | Connect CRE | no city, state, or market keyword detected
-- JLL Provides $13.5M Agency Refinancing of Apartment Complex in Scarborough, Maine | REBusiness Online | no city, state, or market keyword detected
-- Milhaus to Build 194-Unit Affordable Housing Project in Kansas City | REBusiness Online | no city, state, or market keyword detected
-- Northmarq Arranges $14.3M Acquisition Loan for Kansas Multifamily Property | REBusiness Online | no city, state, or market keyword detected
-- Affordable housing completed at 3300 Washington Blvd. in Arlington Heights | Urbanize LA | no city, state, or market keyword detected
-- Affordable Housing Approved For 175 Marinwood Avenue, Marin County | SF YIMBY | no city, state, or market keyword detected
-- Affinius Capital Supplies $180M for Jersey City Multifamily Tower | Commercial Observer | no city, state, or market keyword detected
-- LCOR Secures $192.5M Construction Loan for Biscayne Bay Multifamily Apartments | Yield PRO | no city, state, or market keyword detected
+- Affinius Capital Provides $188M Refi for N.J. Mixed-Use Apartment Complex | Commercial Observer | no city, state, or market keyword detected
+- Bravo Property Trust Lends $68M on New Jersey Waterfront Apartments | Commercial Observer | no city, state, or market keyword detected
+- Milhaus Receives Approval to Develop Kansas City Affordable Apartments | Connect CRE | no city, state, or market keyword detected
+- JLL Arranges Trophy Seniors Housing Portfolio Sale | Connect CRE | used broad market bucket: National
+- Developers Close on Parcel for South Weymouth Naval Air Station Redevelopment | Connect CRE | no city, state, or market keyword detected
+- Gantry Secures $40M for Pair of Oregon Multifamily Properties | Yield PRO | used broad market bucket: National
 - Best Year for Missing Middle Construction Since 2007 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Missing Middle Weakness | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- Berkadia Hires C&W’s Blake Okland as Chief Revenue Officer | Commercial Observer | used broad market bucket: National
 - Multifamily Missing Middle Construction: First Quarter 2026 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- Tidemark, BOD Holdings Complete 135-Unit Multifamily Project in Somersworth, New Hampshire | REBusiness Online | no city, state, or market keyword detected
 - Multifamily Absorption Rate Remains Below 50% | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- Priority Capital Advisory Announces $11.5M Loan for the Recapitalization of a Recent Hotel-to-Multifamily Conversion in Madison Wisconsin | Yield PRO | no city, state, or market keyword detected
-- JLL Brokers Sale of 33,140 SF Retail Center in Chicago’s Lincoln Park | REBusiness Online | no city, state, or market keyword detected
+- SSH Real Estate Begins Leasing 186-Unit Multifamily Redevelopment in Downtown Philadelphia | REBusiness Online | no city, state, or market keyword detected
+- Centralization Associated with Occupancy Uplift | Multifamily Executive | no city, state, or market keyword detected
 
 ## Sample Selected GP / Capital Articles
-- Citigroup Refis East Flatbush Apartments With $35M Loan | refinancing | New York City / New York | Commercial Observer
-- Priority Capital Advisory Closes $11M to Recapitalize Madison Hotel-to-MF Conversion | joint_venture | Other / Unknown | Connect CRE
-- JLL Provides $13.5M Agency Refinancing of Apartment Complex in Scarborough, Maine | refinancing | Other / Unknown | REBusiness Online
-- Milhaus to Build 194-Unit Affordable Housing Project in Kansas City | debt_financing | Other / Unknown | REBusiness Online
-- Northmarq Arranges $14.3M Acquisition Loan for Kansas Multifamily Property | acquisition_financing | Other / Unknown | REBusiness Online
-- KIRE Group Receives $13.3M Loan for Refinancing of Multifamily Property Near San Diego | refinancing | California | REBusiness Online
+- Affinius Capital Provides $188M Refi for N.J. Mixed-Use Apartment Complex | joint_venture | Other / Unknown | Commercial Observer
+- Bravo Property Trust Lends $68M on New Jersey Waterfront Apartments | construction_financing | Other / Unknown | Commercial Observer
+- Milhaus Receives Approval to Develop Kansas City Affordable Apartments | debt_financing | Other / Unknown | Connect CRE
+- JLL Arranges Trophy Seniors Housing Portfolio Sale | joint_venture | National | Connect CRE
+- Developers Close on Parcel for South Weymouth Naval Air Station Redevelopment | joint_venture | Other / Unknown | Connect CRE
+- NRP Group Breaks Ground on 348-Unit Affordable Housing Project in South Austin | asset_management_operator_activity | Austin / Texas | REBusiness Online
+- Northmarq Arranges $25.5M Sale of Manufactured Housing Community in Duluth, Minnesota | disposition_exit | Atlanta / Georgia | REBusiness Online
+- Slatt Capital Arranges Life Company Loan for Novato Multifamily | refinancing | California | Connect CRE Apartments
 - Northmarq Secures Fannie Mae DUS Financing for National City Apartments | debt_financing | California | Connect CRE California
 - LA City Council Approves $2-Billion Fourth & Central Mixed-Use Project | disposition_exit | Los Angeles / California | Connect CRE California
-- RREAF Holdings CEO Kip Sowden Drives Southeast Real Estate | asset_management_operator_activity | Sun Belt | Commercial Observer
-- Affinius Capital Supplies $180M for Jersey City Multifamily Tower | refinancing | Other / Unknown | Commercial Observer
-- LCOR Secures $192.5M Construction Loan for Biscayne Bay Multifamily Apartments | construction_financing | Other / Unknown | Yield PRO
-- LCOR Inks $192.5M Construction Loan for Biscayne Bay Apartments | construction_financing | Miami / Florida | Connect CRE South Florida
-- Aimco Liquidates Last of Its NYC Portfolio in $23M Sale | asset_management_operator_activity | New York City / New York | Commercial Observer
-- Trinity Property Consultants Acquires 300-Unit Sandy Springs Georgia Apartment Complex | acquisition | Atlanta / Georgia | Yield PRO
-- CCI Begins Leasing 740 Techwood Student Housing Development Near Georgia Tech | joint_venture | Atlanta / Georgia | REBusiness Online
+- Gantry Secures $40M for Suburban Portland MF Assets | refinancing | Seattle | Connect CRE
+- JLL Capital Markets Arranges Sale of 421-Unit Trophy Apartment Community in Affluent West Harrison Submarket | acquisition_financing | New York | Yield PRO
+- Keyah Lands $38M to Reposition Miami Beach Hotel Into a Starwood Brand | construction_financing | Miami / Florida | Commercial Observer
+- Gantry Secures $40M for Pair of Oregon Multifamily Properties | refinancing | National | Yield PRO
+- Meridian Arranges 10-Year Refi Loan for Kew Gardens Apartments | debt_financing | New York | Connect CRE

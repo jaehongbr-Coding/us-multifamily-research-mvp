@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-07-07 00:10:16
+Generated: 2026-07-07 23:59:22
 
-- Total raw project references: 822
-- Total canonical projects: 204
-- Duplicate project clusters: 137
-- High-confidence project identities: 822
+- Total raw project references: 714
+- Total canonical projects: 191
+- Duplicate project clusters: 126
+- High-confidence project identities: 714
 - Low-confidence identities needing review: 0
-- LA / California project references: 449
+- LA / California project references: 524
 
 ## Top Repeated Projects
 
-- Office-to-Residential Conversion - Other / Unknown - Priority Capital Advisory Announces $11.5M Loan for the Recapitalization of a Recent Hotel...: 55 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Priority Capital Advisory Announces $11.5M Loan for the Recapitalization of a Recent Hotel...: 55 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Priority Capital Advisory Announces $11.5M Loan for the Recapitalization of a Recent Hotel...: 55 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Priority Capital Advisory Announces $11.5M Loan for the Recapitalization of a Recent Hotel...: 55 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Priority Capital Advisory Announces $11.5M Loan for the Recapitalization of a Recent Hotel...: 55 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Priority Capital Advisory Announces $11.5M Loan for the Recapitalization of a Recent Hotel...: 55 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Priority Capital Advisory Announces $11.5M Loan for the Recapitalization of a Recent Hotel...: 55 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Priority Capital Advisory Announces $11.5M Loan for the Recapitalization of a Recent Hotel...: 55 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Priority Capital Advisory Announces $11.5M Loan for the Recapitalization of a Recent Hotel...: 55 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Priority Capital Advisory Announces $11.5M Loan for the Recapitalization of a Recent Hotel...: 55 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - SSH Real Estate Begins Leasing 186-Unit Multifamily Redevelopment in Downtown Philadelphia: 39 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - SSH Real Estate Begins Leasing 186-Unit Multifamily Redevelopment in Downtown Philadelphia: 39 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - SSH Real Estate Begins Leasing 186-Unit Multifamily Redevelopment in Downtown Philadelphia: 39 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - SSH Real Estate Begins Leasing 186-Unit Multifamily Redevelopment in Downtown Philadelphia: 39 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - SSH Real Estate Begins Leasing 186-Unit Multifamily Redevelopment in Downtown Philadelphia: 39 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - SSH Real Estate Begins Leasing 186-Unit Multifamily Redevelopment in Downtown Philadelphia: 39 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - SSH Real Estate Begins Leasing 186-Unit Multifamily Redevelopment in Downtown Philadelphia: 39 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - SSH Real Estate Begins Leasing 186-Unit Multifamily Redevelopment in Downtown Philadelphia: 39 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - SSH Real Estate Begins Leasing 186-Unit Multifamily Redevelopment in Downtown Philadelphia: 39 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - SSH Real Estate Begins Leasing 186-Unit Multifamily Redevelopment in Downtown Philadelphia: 39 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

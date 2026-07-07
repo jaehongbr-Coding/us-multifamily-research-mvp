@@ -3,37 +3,34 @@
 Limited articles are retained only as conservative title/lead-based evidence. Limited access is tracked separately from article identity mismatches.
 
 ## Summary
-- Total articles: 91
-- Total limited_or_paywall articles: 15
+- Total articles: 81
+- Total limited_or_paywall articles: 10
 - suspicious_mismatch articles: 0
 - limited_or_paywall and suspicious_mismatch overlap: 0
-- Limited articles selected into Development Activity: 13
+- Limited articles selected into Development Activity: 8
 - Limited articles selected into GP / Capital Activity: 0
 - Limited articles selected into Representative Evidence: 0
 
 ## Limited Articles by Source
-- Urbanize LA: 9
-- Bisnow: 4
-- SF YIMBY: 2
+- Urbanize LA: 7
+- Bisnow: 2
+- SF YIMBY: 1
 
 ## Limited Articles by Display Section
-- Development Activity: 13
-- Article Feed: 1
-- Market Intelligence: 1
+- Development Activity: 8
+- Article Feed: 2
 
 ## Sample Limited Articles
+- Fresh renderings for mixed-use project at 2716 Ocean Park Blvd. in Santa Monica | Urbanize LA | Development Activity | unknown confidence
 - Mixed-use affordable housing slated for 9700 W. Venice Blvd. in Palms | Urbanize LA | Development Activity | unknown confidence
 - 23 homes slated for 227 N. Swall Drive in Beverly Hills | Urbanize LA | Development Activity | unknown confidence
 - SB 79 takes effect, Measure ULA to remain, and more | Urbanize LA | Development Activity | unknown confidence
 - City Council upholds approval of mixed-use project at 1410 Main St. in Venice | Urbanize LA | Development Activity | low confidence
 - New details for plans to convert L.A. World Trade center into affordable housing | Urbanize LA | Development Activity | unknown confidence
-- 62 apartments underway at 11103 Hartsook Ave. in North Hollywood | Urbanize LA | Development Activity | unknown confidence
-- Affordable housing completed at 3300 Washington Blvd. in Arlington Heights | Urbanize LA | Development Activity | low confidence
-- Affordable Housing Approved For 175 Marinwood Avenue, Marin County | SF YIMBY | Development Activity | low confidence
-- L.A. City Council approves $2-billion Fourth & Central development | Urbanize LA | Development Activity | unknown confidence
+- Renderings Revealed for 230 Anza Street, San Francisco | SF YIMBY | Development Activity | unknown confidence
 - More CRE Pros Are Splitting Time Between NYC And Miami. Here's How They Make It Work | Bisnow | Article Feed | unknown confidence
-- 'We Dodged A Bullet': Mass. Multifamily Market Starts To Thaw After Rent Control Ruling | Bisnow | Market Intelligence | unknown confidence
-- LA City Council Kills Ballot Measure For ULA Multifamily Exemption | Bisnow | Development Activity | unknown confidence
+- Apartment Locators Balance Transparency With TikTok Trends As Their Influence Expands | Bisnow | Article Feed | unknown confidence
+- Affordable for-sale housing proposed at 9019 Long Beach Blvd. in South Gate | Urbanize LA | Development Activity | unknown confidence
 
 ## Notes
 - `limited_or_paywall` is an access status, not an article identity failure.

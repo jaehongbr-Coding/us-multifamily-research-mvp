@@ -1,23 +1,23 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-07-07 00:10:03
+Generated: 2026-07-07 23:59:10
 
-- GP/developer candidates reviewed: 28
+- GP/developer candidates reviewed: 26
 - Tier 1 Strategic GPs: 0
-- Tier 2 High Potential GPs: 7
+- Tier 2 High Potential GPs: 6
 
 ## Top Emerging GPs
 
-- CBRE: 81 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
-- Fannie Mae: 77 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
-- Freestone Capital: 77 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
-- PEF Advisors: 77 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
-- LCOR: 76 (Tier 2 High Potential GP), New York City / New York, Selective residential growth.
-- Kennedy Wilson: 73 (Tier 2 High Potential GP), Los Angeles / California, California / LA strategic positioning.
-- Kinect Real Estate: 73 (Tier 2 High Potential GP), Seattle, Institutional-backed regional expansion.
-- Priority Capital: 63 (Tier 3 Monitoring GP), Other / Unknown, Distressed opportunity positioning.
-- Priority Capital Advisory: 63 (Tier 3 Monitoring GP), Other / Unknown, Distressed opportunity positioning.
-- FPM Partners: 63 (Tier 3 Monitoring GP), Phoenix / Arizona, Selective residential growth.
+- Kennedy Wilson: 77 (Tier 2 High Potential GP), Los Angeles / California, California / LA strategic positioning.
+- Fannie Mae: 73 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
+- Wood Partners: 73 (Tier 2 High Potential GP), Dallas / Texas, California / LA strategic positioning.
+- PCCP: 72 (Tier 2 High Potential GP), Other / Unknown, California / LA strategic positioning.
+- Brookfield: 71 (Tier 2 High Potential GP), Other / Unknown, California / LA strategic positioning.
+- CBRE: 71 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
+- Slatt Capital: 65 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
+- IPA: 65 (Tier 3 Monitoring GP), Dallas / Texas, Selective residential growth.
+- Marcus & Millichap: 65 (Tier 3 Monitoring GP), Dallas / Texas, Selective residential growth.
+- JLL: 64 (Tier 3 Monitoring GP), National, Selective residential growth.
 
 ## Tier 1 Strategic GP
 
@@ -25,24 +25,25 @@ Generated: 2026-07-07 00:10:03
 
 ## Tier 2 High Potential GP
 
-- CBRE: score 81, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Fannie Mae: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Freestone Capital: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- PEF Advisors: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- LCOR: score 76, Tier 2 High Potential GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
-- Kennedy Wilson: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Kinect Real Estate: score 73, Tier 2 High Potential GP, Seattle, Potential GP partnership candidate. Track JV and capital partner activity.
+- Kennedy Wilson: score 77, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Fannie Mae: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Wood Partners: score 73, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- PCCP: score 72, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- Brookfield: score 71, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 71, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## California / LA GP Activity
 
-- CBRE: score 81, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Fannie Mae: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Freestone Capital: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- PEF Advisors: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Kennedy Wilson: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- IPA: score 58, Tier 3 Monitoring GP, Dallas / Texas, Capital market and pricing discovery reference. Review LA / California development activity.
-- Waterton: score 55, Tier 3 Monitoring GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
-- JPI: score 40, Emerging Watchlist, Dallas / Texas, LA / California developer strategy watch. Review LA / California development activity.
+- Kennedy Wilson: score 77, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Fannie Mae: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Wood Partners: score 73, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- PCCP: score 72, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- Brookfield: score 71, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 71, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Slatt Capital: score 65, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Freddie Mac: score 63, Tier 3 Monitoring GP, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
+- Alliance Residential: score 61, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
+- High Street Residential: score 55, Tier 3 Monitoring GP, Santa Monica / California, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## BTR / SFR GP Activity
 
@@ -50,10 +51,10 @@ Generated: 2026-07-07 00:10:03
 
 ## Affordable Housing GP Activity
 
-- Freestone Capital: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- PEF Advisors: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Kennedy Wilson: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Side Section 8 Apartments Ariel Property Advisors: score 42, Emerging Watchlist, New York City / New York, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- Kennedy Wilson: score 77, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- M Development Partners: score 58, Tier 3 Monitoring GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
+- Side Section 8 Apartments Ariel Property Advisors: score 41, Emerging Watchlist, New York City / New York, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- Walker & Dunlop: score 38, Low Signal, Florida, General developer monitoring. Monitor only.
 
 ## Student Housing GP Activity
 
@@ -61,33 +62,33 @@ Generated: 2026-07-07 00:10:03
 
 ## Innovation-Oriented GP Activity
 
-- No current GP signal detected.
+- Starwood Capital Group: score 46, Emerging Watchlist, Miami / Florida, General developer monitoring. Monitor only.
 
 ## Institutional Capital Magnet
 
-- CBRE: score 81, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Fannie Mae: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Freestone Capital: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- PEF Advisors: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- LCOR: score 76, Tier 2 High Potential GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
-- Kennedy Wilson: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Kinect Real Estate: score 73, Tier 2 High Potential GP, Seattle, Potential GP partnership candidate. Track JV and capital partner activity.
-- Priority Capital: score 63, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
-- Priority Capital Advisory: score 63, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
-- FPM Partners: score 63, Tier 3 Monitoring GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
+- Kennedy Wilson: score 77, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Fannie Mae: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Wood Partners: score 73, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- PCCP: score 72, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- Brookfield: score 71, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 71, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Slatt Capital: score 65, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- IPA: score 65, Tier 3 Monitoring GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- Marcus & Millichap: score 65, Tier 3 Monitoring GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 64, Tier 3 Monitoring GP, National, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## Potential Woomi Partnership Candidates
 
-- CBRE: score 81, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Fannie Mae: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Freestone Capital: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- PEF Advisors: score 77, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- LCOR: score 76, Tier 2 High Potential GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
-- Kennedy Wilson: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Kinect Real Estate: score 73, Tier 2 High Potential GP, Seattle, Potential GP partnership candidate. Track JV and capital partner activity.
-- Priority Capital: score 63, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
-- Priority Capital Advisory: score 63, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
-- FPM Partners: score 63, Tier 3 Monitoring GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
+- Kennedy Wilson: score 77, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Fannie Mae: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Wood Partners: score 73, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- PCCP: score 72, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- Brookfield: score 71, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 71, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- IPA: score 65, Tier 3 Monitoring GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- Marcus & Millichap: score 65, Tier 3 Monitoring GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 64, Tier 3 Monitoring GP, National, Potential GP partnership candidate. Track JV and capital partner activity.
+- Freddie Mac: score 63, Tier 3 Monitoring GP, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## GP Source Expansion Summary
 
@@ -116,31 +117,31 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Recommended Management Meeting Targets
 
-- CBRE: Track JV and capital partner activity (Medium confidence).
-- Fannie Mae: Track JV and capital partner activity (Medium confidence).
-- Freestone Capital: Track JV and capital partner activity (Medium confidence).
-- PEF Advisors: Track JV and capital partner activity (Medium confidence).
-- LCOR: Track JV and capital partner activity (Medium confidence).
+- Kennedy Wilson: Track JV and capital partner activity (Medium confidence).
+- Fannie Mae: Review LA / California development activity (Medium confidence).
+- Wood Partners: Track JV and capital partner activity (Medium confidence).
+- PCCP: Track JV and capital partner activity (High confidence).
+- Brookfield: Track JV and capital partner activity (Medium confidence).
 
 ## Recommended Strategic Follow-up Actions
 
-- CBRE: Track JV and capital partner activity.
-- Fannie Mae: Track JV and capital partner activity.
-- Freestone Capital: Track JV and capital partner activity.
-- PEF Advisors: Track JV and capital partner activity.
-- LCOR: Track JV and capital partner activity.
 - Kennedy Wilson: Track JV and capital partner activity.
-- Kinect Real Estate: Track JV and capital partner activity.
-- Priority Capital: Track JV and capital partner activity.
+- Fannie Mae: Review LA / California development activity.
+- Wood Partners: Track JV and capital partner activity.
+- PCCP: Track JV and capital partner activity.
+- Brookfield: Track JV and capital partner activity.
+- CBRE: Review LA / California development activity.
+- Slatt Capital: Review LA / California development activity.
+- IPA: Track JV and capital partner activity.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 204
-- Institutional-grade signals: 12
-- High-confidence signals: 44
-- Weak/noisy signals: 133
-- High-confidence watchlist items: 44
+- Signals evaluated: 191
+- Institutional-grade signals: 16
+- High-confidence signals: 46
+- Weak/noisy signals: 121
+- High-confidence watchlist items: 46
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

@@ -1,18 +1,16 @@
 # Site / Parcel Source Coverage Report
 
-Generated: 2026-07-07 00:10:01
+Generated: 2026-07-07 23:59:09
 
 - Total added sources attempted: 25
 - Successful sources: 7
 - Blocked / inaccessible / skipped sources: 18
-- Sources with zero Site / Parcel candidates: 20
+- Sources with zero Site / Parcel candidates: 22
 
 ## Top Site / Parcel Candidate Sources
 
-- Connect CRE Atlanta: 2 candidate(s) from 10 fetched article(s).
-- REBusiness Online: 1 candidate(s) from 20 fetched article(s).
-- Connect CRE Apartments: 1 candidate(s) from 10 fetched article(s).
 - Connect CRE South Florida: 1 candidate(s) from 10 fetched article(s).
+- Connect CRE Atlanta: 1 candidate(s) from 10 fetched article(s).
 - Connect CRE Orange County: 1 candidate(s) from 10 fetched article(s).
 
 ## Why Coverage May Still Be Thin
@@ -23,12 +21,12 @@ Generated: 2026-07-07 00:10:01
 
 ## Source Detail
 
-- REBusiness Online: success | fetched 20 | Site / Parcel candidates 1 | Available
-- Connect CRE Apartments: success | fetched 10 | Site / Parcel candidates 1 | Available
+- REBusiness Online: no relevant articles | fetched 20 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
+- Connect CRE Apartments: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
 - Connect CRE Texas: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
 - Connect CRE South Florida: success | fetched 10 | Site / Parcel candidates 1 | Available
 - Connect CRE Phoenix: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
-- Connect CRE Atlanta: success | fetched 10 | Site / Parcel candidates 2 | Available
+- Connect CRE Atlanta: success | fetched 10 | Site / Parcel candidates 1 | Available
 - Connect CRE Charlotte: error | fetched 0 | Site / Parcel candidates 0 | RSS parsing issue: status=404; <unknown>:22:51: not well-formed (invalid token)
 - Connect CRE Orange County: success | fetched 10 | Site / Parcel candidates 1 | Available
 - CRE Daily: skipped | fetched 0 | Site / Parcel candidates 0 | No public feed URL configured

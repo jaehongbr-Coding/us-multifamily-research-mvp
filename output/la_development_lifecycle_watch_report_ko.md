@@ -1,34 +1,34 @@
 # 한국어 LA 개발 단계 Watch
 
-- 생성 시각: 2026-07-07 00:09:48
+- 생성 시각: 2026-07-07 23:59:00
 - 참고 원문 파일: `la_development_lifecycle_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
 ## 개발 단계별 프로젝트 현황
 
-- Refinancing - California - KIRE Group Receives $13.3M Loan for Refinancing of Multifamily Property Near San Diego: California, 아파트, 점수 100 (Refinancing / Recapitalization; Review lender exposure, sponsor stress, and possible JV or rescue-capital angle)
 - General Project Signal - California - Northmarq Secures Fannie Mae DUS Financing for National City Apartments: California, 아파트, 점수 100 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
 - Office-to-Residential Conversion - Los Angeles / California - New details for plans to convert L.A. World Trade center into affordable housing: Los Angeles, 어포더블 하우징, 점수 100 (Early Site Signal; Monitor lifecycle status for repeated confirmation)
+- Acquisition - Dallas / Texas - IPA Arranges Sale of 250-Unit Alta Firewheel Apartments in Garland, Texas: Los Angeles, 아파트, 점수 100 (Site Acquisition / Site Control; Monitor lifecycle status for repeated confirmation)
+- Disposition / Exit - National - Berkadia Hires C&W’s Blake Okland as Chief Revenue Officer: Los Angeles, 멀티패밀리, 점수 100 (Site Acquisition / Site Control; Monitor lifecycle status for repeated confirmation)
+- Acquisition - Atlanta / Georgia - Northmarq Arranges $25.5M Sale of Manufactured Housing Community in Duluth, Minnesota: Los Angeles, 제조주택, 점수 97 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
+- Entitlement / Permitting - Santa Monica / California - Fresh renderings for mixed-use project at 2716 Ocean Park Blvd. in Santa Monica: Los Angeles, 주거복합, 점수 97 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
+- PCCP Provides $80M Loan for the Refinance of a 343-Unit Class A Apartment Property in Bethesda Maryland: Los Angeles, 아파트, 점수 96 (Delivery / Opening; Monitor lifecycle status for repeated confirmation)
+- Acquisition - Los Angeles / California - How Alliance Residential navigated the sales market to buy 2K apartments since December: Los Angeles, 아파트, 점수 92 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
 - Yorba Linda Parking Lot Sells for Townhome Redevelopment: Orange County, 아파트, 점수 92 (Site Acquisition / Site Control; Monitor lifecycle status for repeated confirmation)
-- Office-to-Residential Conversion - Los Angeles / California - Kennedy Wilson, Jamison To Convert LA World Trade Center In 4,000-Unit Affordable Housing...: Los Angeles, 어포더블 하우징, 점수 91 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
-- Acquisition - Dallas / Texas - IPA Negotiates Sale of 201-Unit Apartment Complex Near Downtown Dallas: Los Angeles, 아파트, 점수 90 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
-- General Project Signal - Dallas / Texas - JPI to Start Work on $90M Austin Apartment Project: Los Angeles, 주거복합, 점수 90 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
-- Citigroup Refis East Flatbush Apartments With $35M Loan: Los Angeles, 아파트, 점수 89 (Site Acquisition / Site Control; Monitor lifecycle status for repeated confirmation)
-- 23 homes slated for 227 N. Swall Drive in Beverly Hills: Los Angeles, 어포더블 하우징, 점수 88 (Site Acquisition / Site Control; Monitor lifecycle status for repeated confirmation)
-- 62 apartments underway at 11103 Hartsook Ave. in North Hollywood: Los Angeles, 아파트, 점수 88 (Site Acquisition / Site Control; Monitor lifecycle status for repeated confirmation)
+- Refinancing - Other / Unknown - PCCP Provides $80M Loan for the Refinance of a 343-Unit Class A Apartment Property in Beth...: Los Angeles, 아파트, 점수 91 (Delivery / Opening; Monitor lifecycle status for repeated confirmation)
 
 ## 진행 / 정체 / 재등장 신호
 
-- General Project Signal - New York City / New York - Revised Plan for Pacific Park Development Could Bring 5,600 Multifamily Apartment Units to...: Los Angeles, 아파트, 점수 72 (Newly Detected Project; Unknown)
-- General Project Signal - Dallas / Texas - Trademark Opens The Vickery in Ft. Worth: Los Angeles, 아파트, 점수 72 (Newly Detected Project; Unknown)
-- Affordable housing completed at 3300 Washington Blvd. in Arlington Heights: Los Angeles, 어포더블 하우징, 점수 70 (Mature / Operating; Mature)
-- Trademark Opens The Vickery in Ft. Worth: Los Angeles, 아파트, 점수 65 (Newly Detected Project; Unknown)
-- Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: California, 어포더블 하우징, 점수 63 (Same Stage Persistence; Stable)
-- Refinancing - California - KIRE Group Receives $13.3M Loan for Refinancing of Multifamily Property Near San Diego: California, 아파트, 점수 60 (Newly Detected Project; Unknown)
-- Refinancing - New York City / New York - Citigroup Refis East Flatbush Apartments With $35M Loan: Los Angeles, 아파트, 점수 58 (Newly Detected Project; Unknown)
-- Office-to-Residential Conversion - Los Angeles / California - New details for plans to convert L.A. World Trade center into affordable housing: Los Angeles, 어포더블 하우징, 점수 50 (Same Stage Persistence; Stable)
-- General Project Signal - California - Northmarq Secures Fannie Mae DUS Financing for National City Apartments: California, 아파트, 점수 50 (Unknown Transition; Unknown)
-- 62 apartments underway at 11103 Hartsook Ave. in North Hollywood: Los Angeles, 아파트, 점수 49 (Same Stage Persistence; Stable)
+- General Project Signal - Dallas / Texas - Trademark Opens The Vickery in Ft. Worth: Los Angeles, 아파트, 점수 77 (Mature / Operating; Mature)
+- PCCP Provides $80M Loan for the Refinance of a 343-Unit Class A Apartment Property in Bethesda Maryland: Los Angeles, 아파트, 점수 75 (Newly Detected Project; Unknown)
+- Refinancing - Other / Unknown - PCCP Provides $80M Loan for the Refinance of a 343-Unit Class A Apartment Property in Beth...: Los Angeles, 아파트, 점수 74 (Newly Detected Project; Unknown)
+- Development Start - California - KTGY and SHAC Mark Announce Groundbreaking of 11 El Camino Real in San Carlos California: California, 아파트, 점수 73 (Newly Detected Project; Unknown)
+- Development Start - Dallas / Texas - JVP Begins Work on 110K-SF Office Building at Frisco’s The Mix: Los Angeles, 주거복합, 점수 72 (Newly Detected Project; Unknown)
+- Disposition / Exit - Atlanta / Georgia - Northmarq Arranges $25.5M Sale of Minnesota Manufactured Housing Park: Los Angeles, 제조주택, 점수 70 (Newly Detected Project; Unknown)
+- Disposition / Exit - Atlanta / Georgia - Northmarq’s Mid-Atlantic Team Completes $26M Sale of Manufactured Home Community: Los Angeles, 제조주택, 점수 70 (Newly Detected Project; Unknown)
+- Northmarq’s Mid-Atlantic Team Completes $26M Sale of Manufactured Home Community: Los Angeles, 제조주택, 점수 70 (Newly Detected Project; Unknown)
+- Trademark Opens The Vickery in Ft. Worth: Los Angeles, 아파트, 점수 70 (Mature / Operating; Mature)
+- CBRE Arranges Sale of 16-Story Moore Office Building in Nashville: Los Angeles, 일반 주거, 점수 65 (Newly Detected Project; Unknown)
 
 ## 인허가 / 착공 / 리스업 타이밍
 

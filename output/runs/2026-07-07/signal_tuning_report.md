@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-07-07 00:09:48
+Generated: 2026-07-07 23:59:00
 
 ## Top Strategic Relevance Articles
 
-- 93 / richness 70: Priority Capital Advisory Closes $11M to Recapitalize Madison Hotel-to-MF Conversion (Connect CRE, Other / Unknown) - JV or partnership activity; institutional acquisition behavior; large-scale refinance tied to strategy
+- 92 / richness 75: Affinius Capital Provides $188M Refi for N.J. Mixed-Use Apartment Complex (Commercial Observer, Other / Unknown) - JV or partnership activity; lease-up or absorption behavior; large-scale refinance tied to strategy
 - 89 / richness 90: C&C Development Opens Affordable Housing in Irvine (Connect CRE Orange County, Riverside / California) - JV or partnership activity; development continuation
-- 88 / richness 60: Redwood West, Panattoni Team to Acquire Long Beach’s The Pike (Connect CRE California, Los Angeles / California) - sponsor expansion; JV or partnership activity; institutional acquisition behavior; classification confidence penalty
-- 85 / richness 70: Northmarq Arranges $14.3M Acquisition Loan for Kansas Multifamily Property (REBusiness Online, Other / Unknown) - sponsor expansion; institutional acquisition behavior
+- 87 / richness 90: JLL Arranges Trophy Seniors Housing Portfolio Sale (Connect CRE, National) - JV or partnership activity; institutional acquisition behavior
+- 84 / richness 100: Gantry Secures $40M for Pair of Oregon Multifamily Properties (Yield PRO, National) - institutional acquisition behavior; large-scale refinance tied to strategy
+- 80 / richness 85: Gantry Secures $40M for Suburban Portland MF Assets (Connect CRE, Seattle) - institutional acquisition behavior; large-scale refinance tied to strategy
+- 74 / richness 100: CBRE Arranges Sale of 16-Story Moore Office Building in Nashville (REBusiness Online, Atlanta / Georgia) - institutional acquisition behavior
 - 72 / richness 85: Developer Begins Work on 476-Unit Delray Beach Rental Community (Connect CRE South Florida, Miami / Florida) - development continuation
-- 71 / richness 70: Priority Capital Advisory Announces $11.5M Loan for the Recapitalization of a Recent Hotel-to-Multifamily Conversion in Madison Wisconsin (Yield PRO, Other / Unknown) - JV or partnership activity; institutional acquisition behavior; large-scale refinance tied to strategy; thin PR language
-- 70 / richness 85: Cushman & Wakefield Brokers $87M Sale of Apartment Community in Augusta (REBusiness Online, Georgia) - institutional acquisition behavior
-- 70 / richness 85: Marcus & Millichap Brokers $3.8M Sale of Brooklyn Apartment Building (REBusiness Online, New York City / New York) - institutional acquisition behavior
-- 70 / richness 85: IPA Negotiates Sale of 201-Unit Apartment Complex Near Downtown Dallas (REBusiness Online, Dallas / Texas) - institutional acquisition behavior
-- 70 / richness 85: Trinity Property Consultants Acquires 300-Unit Sandy Springs Georgia Apartment Complex (Yield PRO, Atlanta / Georgia) - institutional acquisition behavior
+- 70 / richness 85: IPA Arranges Sale of 250-Unit Alta Firewheel Apartments in Garland, Texas (REBusiness Online, Dallas / Texas) - institutional acquisition behavior
+- 70 / richness 85: Northmarq Arranges $25.5M Sale of Manufactured Housing Community in Duluth, Minnesota (REBusiness Online, Atlanta / Georgia) - institutional acquisition behavior
+- 70 / richness 85: JLL Capital Markets Arranges Sale of 421-Unit Trophy Apartment Community in Affluent West Harrison Submarket (Yield PRO, New York) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -37,13 +37,12 @@ Generated: 2026-07-07 00:09:48
 
 - low_value_promotional: The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist (Multifamily Executive) - chat-with-chief-economist promotional format
 - suspicious_duplicate: New details for plans to convert L.A. World Trade center into affordable housing (Urbanize LA) - source-feed signal bleed suspected
-- suspicious_duplicate: L.A. City Council approves $2-billion Fourth & Central development (Urbanize LA) - source-feed signal bleed suspected
 - low_value_promotional: 2026 Resident Experience Management Report (Multifamily Executive) - promotional/event keyword: whitepaper
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 26
-- Development / sponsor behavior articles: 47
+- Financing-oriented articles: 24
+- Development / sponsor behavior articles: 49
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

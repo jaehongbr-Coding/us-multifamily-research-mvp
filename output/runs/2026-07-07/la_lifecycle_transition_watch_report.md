@@ -1,8 +1,8 @@
 # LA Lifecycle Transition Watch Report
 
-Generated: 2026-07-07 00:10:16
+Generated: 2026-07-07 23:59:22
 
-- Total LA lifecycle transition watch items: 52
+- Total LA lifecycle transition watch items: 51
 
 ## LA Projects Moving Forward
 
@@ -14,40 +14,46 @@ Generated: 2026-07-07 00:10:16
 
 ## LA Permit / Construction Start Watch
 
-- None detected.
+- Development Start - California - KTGY and SHAC Mark Announce Groundbreaking of 11 El Camino Real in San Carlos California: No Previous Record -> Construction Started, Construction start watch.
+- Development Start - Dallas / Texas - JVP Begins Work on 110K-SF Office Building at Frisco’s The Mix: No Previous Record -> Vertical Construction, Construction start watch.
 
 ## LA Refinancing / Recap Timing Watch
 
-- Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Refinancing - California - KIRE Group Receives $13.3M Loan for Refinancing of Multifamily Property Near San Diego: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Refinancing - New York City / New York - Citigroup Refis East Flatbush Apartments With $35M Loan: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Refinancing - California - Slatt Capital Arranges $21M Refinance for 213-Unit Multifamily Community in Novato Califor...: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Refinancing - California - Slatt Capital Arranges Life Company Loan for Novato Multifamily: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Refinancing - Seattle - Gantry Secures $40M for Suburban Portland MF Assets: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 
 ## LA Delivery / Lease-Up Benchmarks
 
-- General Project Signal - New York City / New York - Revised Plan for Pacific Park Development Could Bring 5,600 Multifamily Apartment Units to...: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
-- General Project Signal - Dallas / Texas - Trademark Opens The Vickery in Ft. Worth: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
-- Affordable housing completed at 3300 Washington Blvd. in Arlington Heights: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
-- Trademark Opens The Vickery in Ft. Worth: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- General Project Signal - Dallas / Texas - Trademark Opens The Vickery in Ft. Worth: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
+- PCCP Provides $80M Loan for the Refinance of a 343-Unit Class A Apartment Property in Bethesda Maryland: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- Refinancing - Other / Unknown - PCCP Provides $80M Loan for the Refinance of a 343-Unit Class A Apartment Property in Beth...: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- Disposition / Exit - Atlanta / Georgia - Northmarq Arranges $25.5M Sale of Minnesota Manufactured Housing Park: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- Disposition / Exit - Atlanta / Georgia - Northmarq’s Mid-Atlantic Team Completes $26M Sale of Manufactured Home Community: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- Northmarq’s Mid-Atlantic Team Completes $26M Sale of Manufactured Home Community: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- Trademark Opens The Vickery in Ft. Worth: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
+- CBRE Arranges Sale of 16-Story Moore Office Building in Nashville: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- Northmarq Arranges $25.5M Sale of Minnesota Manufactured Housing Park: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
 
 ## Recommended LA Transition Follow-up Actions
 
-- Use as delivery, lease-up, and underwriting benchmark: General Project Signal - New York City / New York - Revised Plan for Pacific Park Development Could Bring 5,600 Multifamily Apartment Units to....
 - Use as delivery, lease-up, and underwriting benchmark: General Project Signal - Dallas / Texas - Trademark Opens The Vickery in Ft. Worth.
-- Use as delivery, lease-up, and underwriting benchmark: Affordable housing completed at 3300 Washington Blvd. in Arlington Heights.
-- Use as delivery, lease-up, and underwriting benchmark: Trademark Opens The Vickery in Ft. Worth.
-- Track maturity, lender, recapitalization need, and potential JV angle: Recapitalization - California - PEF Advisors, Freestone Capital Form JV to Recapitalize Affordable Properties.
-- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - California - KIRE Group Receives $13.3M Loan for Refinancing of Multifamily Property Near San Diego.
-- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - New York City / New York - Citigroup Refis East Flatbush Apartments With $35M Loan.
-- Monitor for another run to confirm lifecycle direction: Office-to-Residential Conversion - Los Angeles / California - New details for plans to convert L.A. World Trade center into affordable housing.
+- Use as delivery, lease-up, and underwriting benchmark: PCCP Provides $80M Loan for the Refinance of a 343-Unit Class A Apartment Property in Bethesda Maryland.
+- Use as delivery, lease-up, and underwriting benchmark: Refinancing - Other / Unknown - PCCP Provides $80M Loan for the Refinance of a 343-Unit Class A Apartment Property in Beth....
+- Monitor for another run to confirm lifecycle direction: Development Start - California - KTGY and SHAC Mark Announce Groundbreaking of 11 El Camino Real in San Carlos California.
+- Monitor for another run to confirm lifecycle direction: Development Start - Dallas / Texas - JVP Begins Work on 110K-SF Office Building at Frisco’s The Mix.
+- Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - Atlanta / Georgia - Northmarq Arranges $25.5M Sale of Minnesota Manufactured Housing Park.
+- Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - Atlanta / Georgia - Northmarq’s Mid-Atlantic Team Completes $26M Sale of Manufactured Home Community.
+- Use as delivery, lease-up, and underwriting benchmark: Northmarq’s Mid-Atlantic Team Completes $26M Sale of Manufactured Home Community.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 822
-- Canonical projects: 204
-- Duplicate project clusters: 137
-- Persistent assets tracked: 204
-- LA persistent asset watch items: 113
+- Raw project references: 714
+- Canonical projects: 191
+- Duplicate project clusters: 126
+- Persistent assets tracked: 191
+- LA persistent asset watch items: 133
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

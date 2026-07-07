@@ -3,18 +3,18 @@
 ## Project-First Routing Summary
 
 - Market Intelligence count: 18
-- Development Activity count: 68
-- GP / Capital Activity count: 2
-- Project anchor article count: 62
+- Development Activity count: 57
+- GP / Capital Activity count: 1
+- Project anchor article count: 54
 
 ## Regression Samples
 
 - MISSING | expected Development Activity | PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex
 - MISSING | expected Development Activity | Alta Developers Lands $91.8M Construction Loan for Miami Apartments
-- MISSING | expected Development Activity | Partnership Breaks Ground on $147M Affordable Housing Redevelopment
+- PASS | expected Development Activity | actual Development Activity | NRP Group Breaks Ground on 348-Unit Affordable Housing Project in South Austin | anchor=True | reason=development_project_anchor: capital event with identifiable project/asset (unit/site count: 348-unit; execution milestone: breaks ground; project/asset term: project)
 - MISSING | expected Development Activity | Basis Investment Group Secures $43M Financing for Newly Built Philadelphia MF
 - MISSING | expected Development Activity | JLL Arranges $252M Financing for Huntington Beach Seniors Project
-- PASS | expected Development Activity | actual Development Activity | Portman Targeting Duluth for Mixed-Use Project | anchor=True | reason=development_project_anchor: Project / Asset (unit/site count: 55 acres; execution milestone: targeting; project/asset term: project; named asset/project hint: duluth)
+- MISSING | expected Development Activity | Portman Targeting Duluth for Mixed-Use Project
 - MISSING | expected Development Activity | Aventon to Build 270-Unit Port Richey Rental Community
 - MISSING | expected Development Activity | First Projects Advance Under San Francisco's New Zoning Plan
 - MISSING | expected Development Activity | Jefferson Apartment Group Delivers Luxury Multifamily Community

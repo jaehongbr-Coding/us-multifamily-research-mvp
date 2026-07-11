@@ -1,17 +1,17 @@
 # Signal Tuning Report
 
-Generated: 2026-07-10 00:06:50
+Generated: 2026-07-10 23:59:37
 
 ## Top Strategic Relevance Articles
 
-- 100 / richness 70: Priority Capital Advisory Secures $11.5M Loan for Recapitalization of Wisconsin Multifamily Property (REBusiness Online, Other / Unknown) - JV or partnership activity; institutional acquisition behavior; lease-up or absorption behavior; large-scale refinance tied to strategy
-- 92 / richness 75: Affinius Capital Provides $188M Loan for Refinancing of Northern New Jersey Apartment Community (REBusiness Online, Other / Unknown) - JV or partnership activity; lease-up or absorption behavior; large-scale refinance tied to strategy
-- 86 / richness 90: GoodHomes Buys Washington DC Hotel with Plans for Multifamily Conversion (Yield PRO, Washington DC) - entitlement persistence; institutional acquisition behavior
+- 86 / richness 85: Four Mile, Midloch Acquire Apartment Community in Louisville for $38.3M (REBusiness Online, Louisville / Kentucky) - JV or partnership activity; institutional acquisition behavior
+- 85 / richness 85: Madison Commercial Completes Sale of Chick-fil-A Site Near Oglethorpe Mall in Savannah (REBusiness Online, Georgia) - entitlement persistence; institutional acquisition behavior
 - 75 / richness 100: S3 Capital Continues Texas Focus, Provides $28M for New Multifamily Construction (Commercial Observer, Houston / Texas) - entitlement persistence
-- 70 / richness 100: Watermark Lands $105M Refinance for Multifamily Rental Community in Queens (Yield PRO, New York City / New York) - large-scale refinance tied to strategy
-- 70 / richness 85: $8.6M Acquisition Financing Secured for 88-Unit Charleston-Area Community with Full Tax Abatement (Yield PRO, Other / Unknown) - institutional acquisition behavior
-- 70 / richness 85: Pantzer Acquires Class A Multifamily in Downtown Stamford (Connect CRE, New York) - institutional acquisition behavior
-- 70 / richness 85: CBRE Arranges Over $150M in Multifamily Sales (Connect CRE Apartments, New York) - institutional acquisition behavior
+- 73 / richness 90: Partnership Receives $217M in Construction Financing for Brooklyn Affordable Housing Project (REBusiness Online, New York City / New York) - JV or partnership activity
+- 70 / richness 85: In Likely a Culver City Record, Black Equities Buys Multifamily Asset for $106M (Commercial Observer, Los Angeles / California) - institutional acquisition behavior
+- 70 / richness 85: Goodman Real Estate Sells Two Apartment Communities Near Seattle for $172M (REBusiness Online, Seattle) - institutional acquisition behavior
+- 70 / richness 85: Dwight Provides Largest Construction Loan in Company History for Gilroy Multifamily (Connect CRE Apartments, California) - institutional acquisition behavior
+- 70 / richness 85: Pantzer Acquires Class A Multifamily in Downtown Stamford (Connect CRE Apartments, New York) - institutional acquisition behavior
 - 70 / richness 85: Rise48 Equity Acquires N. Phoenix Rental Community (Connect CRE Phoenix, Phoenix / Arizona) - institutional acquisition behavior
 - 70 / richness 85: Orange County Apartment Complex Sells for $133M (Commercial Observer, California) - institutional acquisition behavior
 
@@ -36,13 +36,12 @@ Generated: 2026-07-10 00:06:50
 ## Potential Parsing Integrity Issues
 
 - low_value_promotional: The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist (Multifamily Executive) - chat-with-chief-economist promotional format
-- suspicious_duplicate: Foundation Complete For 1523 Harrison Street, Downtown Oakland (SF YIMBY) - source-feed signal bleed suspected
 - low_value_promotional: 2026 Resident Experience Management Report (Multifamily Executive) - promotional/event keyword: whitepaper
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 27
-- Development / sponsor behavior articles: 43
+- Financing-oriented articles: 20
+- Development / sponsor behavior articles: 39
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

@@ -1,54 +1,47 @@
 # Opportunity Deduplication Report
 
-Generated: 2026-07-10 00:07:14
+Generated: 2026-07-10 23:59:57
 
-- Total duplicate clusters: 15
+- Total duplicate clusters: 11
 - Opportunities removed via deduplication: 0
 - Distress inflation prevented: 0
 
 ## Strongest Multi-Source Confirmed Opportunities
 
-- Berkadia Arranges $85.4M Refinancing for Two Orlando-Area Multifamily Communities: Sun Belt, 2 related row(s), opportunity score 91, distress score 70.
-- JLL Arranges $124.6M Refinancing for Luxury Apartment Tower in Chicago: Other / Unknown, 2 related row(s), opportunity score 89, distress score 67.
-- S3 Originates $111M Construction Loan for Edgewater Rental Community: Miami / Florida, 2 related row(s), opportunity score 88, distress score 67.
-- Pacific Life Insurance Provides $125M Refi for Chicago Luxury Tower: Other / Unknown, 2 related row(s), opportunity score 87, distress score 64.
-- Affinius Capital Provides $188M Loan for Refinancing of Northern New Jersey Apartment Community: Other / Unknown, 2 related row(s), opportunity score 85, distress score 64.
-- JLL Arranges $352M Loan for Refinancing of Midtown Manhattan Office Building: New York City / New York, 2 related row(s), opportunity score 84, distress score 61.
-- Watermark Lands $105M Refinance for Multifamily Rental Community in Queens: New York City / New York, 2 related row(s), opportunity score 83, distress score 64.
-- $76.8M Construction Financing Arranged for 415-Unit Mixed-Use Development in Jacksonville Beach Florida: Florida, 2 related row(s), opportunity score 83, distress score 59.
-- Premier Fulton Market Luxury Tower Secures $124.6M Refinancing Amid Chicago’s Strong Multi-Housing Fundamentals: Other / Unknown, 2 related row(s), opportunity score 83, distress score 59.
-- PCCP Provides $80M to Refinance Bethesda Apartment Property: Washington DC, 2 related row(s), opportunity score 82, distress score 61.
+- Dwight Provides Largest Construction Loan in Company History for Gilroy Multifamily: California, 2 related row(s), opportunity score 92, distress score 77.
+- JLL Arranges $111M Construction Loan for Multifamily Development in Miami’s Edgewater District: Miami / Florida, 2 related row(s), opportunity score 91, distress score 71.
+- Berkadia Secures $85.4M Refinancing of Two Orlando Multifamily Communities: Florida, 2 related row(s), opportunity score 89, distress score 70.
+- S3 Originates $111M Construction Loan for Edgewater Rental Community: Miami / Florida, 2 related row(s), opportunity score 89, distress score 67.
+- Walker & Dunlop Arranges $46.25M Refinance Loan for Colorado Multifamily Apartment Community: Colorado, 2 related row(s), opportunity score 83, distress score 63.
+- LCOR Inks $192.5M Construction Loan for Biscayne Bay Apartments: Miami / Florida, 2 related row(s), opportunity score 63, distress score 59.
+- Partnership Receives $217M in Construction Financing for Brooklyn Affordable Housing Project: New York City / New York, 2 related row(s), opportunity score 62, distress score 59.
+- Redstone Bank, Goldman Sachs, New York State Provide $217M for Alafia Project: New York City / New York, 2 related row(s), opportunity score 62, distress score 59.
+- Grubb Nabs $377M FiDi Construction Loan: The N.Y. Deal Sheet: New York City / New York, 2 related row(s), opportunity score 62, distress score 58.
+- S3 Capital Continues Texas Focus, Provides $28M for New Multifamily Construction: Houston / Texas, 2 related row(s), opportunity score 60, distress score 55.
 
 ## Repeated Refinancing Stories
 
-- Berkadia Arranges $85.4M Refinancing for Two Orlando-Area Multifamily Communities: Sun Belt, 2 related row(s), opportunity score 91, distress score 70.
-- JLL Arranges $124.6M Refinancing for Luxury Apartment Tower in Chicago: Other / Unknown, 2 related row(s), opportunity score 89, distress score 67.
-- Pacific Life Insurance Provides $125M Refi for Chicago Luxury Tower: Other / Unknown, 2 related row(s), opportunity score 87, distress score 64.
-- Affinius Capital Provides $188M Loan for Refinancing of Northern New Jersey Apartment Community: Other / Unknown, 2 related row(s), opportunity score 85, distress score 64.
-- JLL Arranges $352M Loan for Refinancing of Midtown Manhattan Office Building: New York City / New York, 2 related row(s), opportunity score 84, distress score 61.
-- Watermark Lands $105M Refinance for Multifamily Rental Community in Queens: New York City / New York, 2 related row(s), opportunity score 83, distress score 64.
-- Premier Fulton Market Luxury Tower Secures $124.6M Refinancing Amid Chicago’s Strong Multi-Housing Fundamentals: Other / Unknown, 2 related row(s), opportunity score 83, distress score 59.
-- PCCP Provides $80M to Refinance Bethesda Apartment Property: Washington DC, 2 related row(s), opportunity score 82, distress score 61.
-- Slatt Capital Arranges Life Company Loan for Novato Multifamily: California, 2 related row(s), opportunity score 70, distress score 73.
+- Berkadia Secures $85.4M Refinancing of Two Orlando Multifamily Communities: Florida, 2 related row(s), opportunity score 89, distress score 70.
+- Walker & Dunlop Arranges $46.25M Refinance Loan for Colorado Multifamily Apartment Community: Colorado, 2 related row(s), opportunity score 83, distress score 63.
 
 ## Repeated GP Partnership Stories
 
+- CBRE Announces $221M Sale of Luxury Apartment Community in Stamford Connecticut: Connecticut, 1 related row(s), opportunity score 86, distress score 0.
 - Pantzer Acquires Class A Multifamily in Downtown Stamford: New York, 1 related row(s), opportunity score 86, distress score 0.
-- Berkadia Arranges Sale and Financing of 270-Unit Multifamily Community in Manassas Virginia: Virginia, 1 related row(s), opportunity score 82, distress score 0.
 - AvalonBay pays $22M for full-block development site in Miami: Miami / Florida, 1 related row(s), opportunity score 79, distress score 0.
-- Brookfield JV Buys Site For 6,500-Unit Project In Boston Suburbs: Other / Unknown, 1 related row(s), opportunity score 75, distress score 0.
-- MMCC Arranges Financing for Northridge Offices: Los Angeles / California, 1 related row(s), opportunity score 74, distress score 0.
-- Foundation Complete For 1523 Harrison Street, Downtown Oakland: California, 1 related row(s), opportunity score 61, distress score 0.
-- Charney, Tavros Begin Leasing 260-Unit Apartment Building in Brooklyn: New York City / New York, 1 related row(s), opportunity score 61, distress score 0.
+- MMCC Arranges $25.8M in Financing for Omaha Multifamily Property: Other / Unknown, 1 related row(s), opportunity score 75, distress score 0.
+- MMCC Arranges Financing for Northridge Offices: Los Angeles / California, 1 related row(s), opportunity score 72, distress score 0.
 - C&C Development Opens Affordable Housing in Irvine: Riverside / California, 1 related row(s), opportunity score 58, distress score 0.
+- Rockpoint, Urby Launch JV for 69-Story Residential Tower on Jersey City Waterfront: New York, 1 related row(s), opportunity score 57, distress score 0.
+- Four Mile, Midloch Acquire Apartment Community in Louisville for $38.3M: Louisville / Kentucky, 1 related row(s), opportunity score 55, distress score 0.
+- San Francisco’s Treasure Island Debuts 490 Avenue of the Palms Wellness-Driven Serviced Multifamily Residential Lease Offering: San Francisco / California, 1 related row(s), opportunity score 55, distress score 0.
 
 ## California / LA Duplicate Project Tracking
 
-- Slatt Capital Arranges Life Company Loan for Novato Multifamily: California, 2 related row(s), opportunity score 70, distress score 73.
-- Yorba Linda Parking Lot Sells for Townhome Redevelopment: California, 1 related row(s), opportunity score 91, distress score 0.
-- Eagle Real Estate, Vistria Group Acquire 402-Unit Apartment Community in Garden Grove, California: California, 1 related row(s), opportunity score 68, distress score 0.
+- Dwight Provides Largest Construction Loan in Company History for Gilroy Multifamily: California, 2 related row(s), opportunity score 92, distress score 77.
 - Orange County Apartment Complex Sells for $133M: California, 1 related row(s), opportunity score 66, distress score 0.
-- Foundation Complete For 1523 Harrison Street, Downtown Oakland: California, 1 related row(s), opportunity score 61, distress score 0.
+- Kidder Mathews Arranges $12.375M Sale of 52-Unit Apartment Portfolio in Inglewood California: California, 1 related row(s), opportunity score 66, distress score 0.
+- Longtime plan for Arts District apartments showing life signs at 1800 E. 7th Street: Los Angeles, 1 related row(s), opportunity score 62, distress score 0.
 
 ## Why This Matters
 

@@ -1,6 +1,6 @@
 # Narrative Regime Detection
 
-Generated: 2026-07-10 00:07:03
+Generated: 2026-07-10 23:59:48
 
 ## Detected Regime
 
@@ -13,12 +13,12 @@ Generated: 2026-07-10 00:07:03
 
 | Regime | Score |
 | --- | ---: |
-| Developer Strategy Shift | 144 |
-| Selective Capital Re-entry | 130 |
-| Financing Stress | 120 |
-| Supply Pressure | 38 |
-| Policy / Entitlement Watch | 20 |
-| Construction Cost Pressure | 5 |
+| Developer Strategy Shift | 152 |
+| Selective Capital Re-entry | 139 |
+| Financing Stress | 97 |
+| Supply Pressure | 33 |
+| Policy / Entitlement Watch | 25 |
+| Construction Cost Pressure | 0 |
 
 ## Regime Heatmap Reference
 
@@ -29,83 +29,78 @@ Regime momentum is available in `regime_momentum_report.md` when previous heatma
 | --- | ---: | --- |
 | Selective Capital Re-entry | 89 | Very Strong |
 | Financing Stress | 81 | Very Strong |
-| Supply Pressure | 67 | Strong |
-| Policy / Entitlement Watch | 65 | Strong |
+| Policy / Entitlement Watch | 67 | Strong |
 | Developer Strategy Shift | 59 | Moderate |
-| Construction Cost Pressure | 17 | Not Detected |
+| Supply Pressure | 54 | Moderate |
+| Construction Cost Pressure | 5 | Not Detected |
 | Stable Monitoring Environment | 0 | Not Detected |
 
 ## Signal Inputs
 
 - Strategy-briefing articles reviewed: 47
-- Market-signal articles reviewed: 27
-- Articles with extracted numbers: 27
-- Institutional player mentions: 16
+- Market-signal articles reviewed: 26
+- Articles with extracted numbers: 26
+- Institutional player mentions: 11
 
 ### Strategic Angles
 
-- Developer Strategy: 28
-- Financing Risk: 20
-- Institutional Flow: 18
-- Regulation Risk: 4
-- Supply Pressure: 3
-- Rent Growth / Demand: 2
+- Developer Strategy: 30
+- Institutional Flow: 19
+- Financing Risk: 16
+- Regulation Risk: 5
+- Supply Pressure: 2
 
 ### Market Signals
 
-- Rent Growth Signal: 9
-- Deal Size Signal: 7
+- Deal Size Signal: 10
 - Supply / Starts Signal: 6
-- Financing Cost Signal: 5
+- Rent Growth Signal: 6
+- Financing Cost Signal: 4
 
 ### Decision Uses
 
-- Track Developer Strategy: 28
-- Track Financing Conditions: 20
-- Track Institutional Capital Flow: 18
-- Track Regulation Risk: 4
-- Track Supply Pipeline: 3
-- Track Rent / Vacancy Trend: 2
+- Track Developer Strategy: 30
+- Track Institutional Capital Flow: 19
+- Track Financing Conditions: 16
+- Track Regulation Risk: 5
+- Track Supply Pipeline: 2
 
 ### Market Focus
 
-- Other / Unknown: 11
+- Los Angeles / California: 8
+- Other / Unknown: 7
+- Miami / Florida: 6
 - New York City / New York: 5
-- Los Angeles / California: 5
-- Miami / Florida: 4
-- Washington DC: 3
+- Houston / Texas: 4
 - California: 3
 
 ### Action Levels
 
 - Must Read: 32
-- Review: 14
-- Monitor: 1
+- Review: 15
 
 ### Woomi Relevance
 
-- High relevance to US residential developer strategy: 34
-- Medium relevance to market monitoring: 13
+- High relevance to US residential developer strategy: 37
+- Medium relevance to market monitoring: 10
 
 ## Key Thematic Context
 
-- Supply Pressure is Sharp Increase (2 to 3).
-- Regulation Risk is Moderate Increase (3 to 4).
-- Market signal activity is increasing, led by Supply / Starts Signal (4 to 6).
+- Los Angeles focus is New Theme (0 to 1).
+- Regulation Risk is Moderate Increase (4 to 5).
+- Market signal activity is increasing, led by Deal Size Signal (7 to 10).
 
 ## Cross-Theme Interpretation
 
 - Financing stress plus supply pressure may call for more conservative underwriting, especially around leverage, lease-up pace, and exit cap rates.
 - Institutional flow plus cap rate or deal-size signals may indicate pricing discovery by major capital players.
 - California / LA focus plus policy signals may indicate entitlement, zoning, rent control, or housing-production opportunity and risk.
-- Construction cost plus developer strategy signals may point to value engineering, design optimization, or delivery-model changes.
 
 ## Implications for Woomi / Woomi Global
 
 - Keep LA / California monitoring active because local policy, entitlement, and supply signals are directly relevant to market-entry planning.
 - Track institutional capital flow to identify pricing signals, partnership targets, and markets where capital may be returning selectively.
 - Use developer strategy signals to build US residential development capabilities around product type, delivery model, and GP partnership structure.
-- Review value engineering and construction-cost assumptions where project feasibility may depend on design or procurement discipline.
 
 ## Recommended Strategy Team Questions
 
@@ -113,4 +108,3 @@ Regime momentum is available in `regime_momentum_report.md` when previous heatma
 - Are supply signals concentrated in specific markets, product types, or lease-up windows?
 - Are institutional buyers returning to markets, assets, or capital structures relevant to Woomi?
 - Are LA / California policy changes creating entitlement opportunities or risks?
-- Do cost signals require updated value engineering, procurement, or contingency assumptions?

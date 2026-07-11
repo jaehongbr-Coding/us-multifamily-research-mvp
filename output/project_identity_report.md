@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-07-10 00:07:18
+Generated: 2026-07-11 00:00:01
 
-- Total raw project references: 707
-- Total canonical projects: 177
-- Duplicate project clusters: 124
-- High-confidence project identities: 707
+- Total raw project references: 671
+- Total canonical projects: 180
+- Duplicate project clusters: 117
+- High-confidence project identities: 671
 - Low-confidence identities needing review: 0
-- LA / California project references: 341
+- LA / California project references: 347
 
 ## Top Repeated Projects
 
-- Construction Financing - Other / Unknown - Priority Capital Advisory Secures $11.5M Loan for Recapitalization of Wisconsin Multifamil...: 39 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Priority Capital Advisory Secures $11.5M Loan for Recapitalization of Wisconsin Multifamil...: 39 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Priority Capital Advisory Secures $11.5M Loan for Recapitalization of Wisconsin Multifamil...: 39 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Priority Capital Advisory Secures $11.5M Loan for Recapitalization of Wisconsin Multifamil...: 39 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Priority Capital Advisory Secures $11.5M Loan for Recapitalization of Wisconsin Multifamil...: 39 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Priority Capital Advisory Secures $11.5M Loan for Recapitalization of Wisconsin Multifamil...: 39 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Priority Capital Advisory Secures $11.5M Loan for Recapitalization of Wisconsin Multifamil...: 39 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Priority Capital Advisory Secures $11.5M Loan for Recapitalization of Wisconsin Multifamil...: 39 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Priority Capital Advisory Secures $11.5M Loan for Recapitalization of Wisconsin Multifamil...: 39 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Priority Capital Advisory Secures $11.5M Loan for Recapitalization of Wisconsin Multifamil...: 39 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Icon Real Estate Advisors Arranges $3.1M Sale of Clifton New Jersey Mixed-Use Multifamily...: 47 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Icon Real Estate Advisors Arranges $3.1M Sale of Clifton New Jersey Mixed-Use Multifamily...: 47 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Icon Real Estate Advisors Arranges $3.1M Sale of Clifton New Jersey Mixed-Use Multifamily...: 47 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Icon Real Estate Advisors Arranges $3.1M Sale of Clifton New Jersey Mixed-Use Multifamily...: 47 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Icon Real Estate Advisors Arranges $3.1M Sale of Clifton New Jersey Mixed-Use Multifamily...: 47 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Icon Real Estate Advisors Arranges $3.1M Sale of Clifton New Jersey Mixed-Use Multifamily...: 47 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Icon Real Estate Advisors Arranges $3.1M Sale of Clifton New Jersey Mixed-Use Multifamily...: 47 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Icon Real Estate Advisors Arranges $3.1M Sale of Clifton New Jersey Mixed-Use Multifamily...: 47 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Icon Real Estate Advisors Arranges $3.1M Sale of Clifton New Jersey Mixed-Use Multifamily...: 47 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Icon Real Estate Advisors Arranges $3.1M Sale of Clifton New Jersey Mixed-Use Multifamily...: 47 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

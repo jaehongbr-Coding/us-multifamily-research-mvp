@@ -1,40 +1,40 @@
 # Historical Memory Report
 
-Generated: 2026-07-10 00:07:05
+Generated: 2026-07-10 23:59:49
 
-- Memory rows tracked: 4256
-- Fastest-rising GP: Merchants Capital
+- Memory rows tracked: 4354
+- Fastest-rising GP: Fannie Mae
 - Strongest recurring lender: CBRE
 
 ## Fastest-Rising GP
 
-- Merchants Capital (GP / Developer): Accelerating, 2 observation(s), importance 45.
+- Fannie Mae (GP / Developer): Fading, 7 observation(s), importance 75.
 
 ## Strongest Recurring Lender
 
-- CBRE (Lender / Debt Provider): Persistent, 31 observation(s), importance 82.
+- CBRE (Lender / Debt Provider): Fading, 31 observation(s), importance 81.
 - JLL (Lender / Debt Provider): Dormant, 53 observation(s), importance 76.
 - pgim (Lender / Debt Provider): Fading, 5 observation(s), importance 76.
 - Fannie Mae (Lender / Debt Provider): Fading, 7 observation(s), importance 75.
 - Fannie Mae (Lender / Debt Provider): Fading, 2 observation(s), importance 72.
 - CBRE (Lender / Debt Provider): Fading, 41 observation(s), importance 71.
-- northmarq (Lender / Debt Provider): Persistent, 4 observation(s), importance 71.
+- northmarq (Lender / Debt Provider): Fading, 4 observation(s), importance 71.
 - CBRE (Lender / Debt Provider): Dormant, 10 observation(s), importance 68.
 - JLL (Lender / Debt Provider): Fading, 63 observation(s), importance 68.
 - JLL (Lender / Debt Provider): Dormant, 5 observation(s), importance 68.
 
 ## Recurring California / LA Relationships
 
-- CBRE -> CBRE (Relationship Edge): Persistent, 78 observation(s), importance 84.
-- CBRE (Lender / Debt Provider): Persistent, 31 observation(s), importance 82.
+- CBRE -> CBRE (Relationship Edge): Fading, 78 observation(s), importance 83.
 - Fannie Mae -> Fannie Mae (Relationship Edge): Fading, 10 observation(s), importance 82.
 - Fannie Mae (Institutional Capital Partner): Fading, 6 observation(s), importance 82.
+- CBRE (Lender / Debt Provider): Fading, 31 observation(s), importance 81.
 - PEF Advisors -> California (Relationship Edge): Fading, 96 observation(s), importance 79.
-- Slatt Capital (Institutional Capital Partner): Persistent, 3 observation(s), importance 79.
 - Freestone Capital (Institutional Capital Partner): Fading, 44 observation(s), importance 78.
 - Kennedy Wilson (Institutional Capital Partner): Fading, 18 observation(s), importance 78.
 - PEF Advisors (Institutional Capital Partner): Fading, 44 observation(s), importance 78.
 - California -> California (Relationship Edge): Fading, 25 observation(s), importance 78.
+- Los Angeles -> California (Relationship Edge): Fading, 7 observation(s), importance 78.
 
 ## Persistent BTR / Student / Senior Housing Players
 
@@ -47,33 +47,33 @@ Generated: 2026-07-10 00:07:05
 - Courtesy Hawkins Way Capital (Institutional Capital Partner): Dormant, 5 observation(s), importance 60.
 - JLL (Institutional Capital Partner): Fading, 4 observation(s), importance 58.
 - MacFarlane Partners (Institutional Capital Partner): Dormant, 4 observation(s), importance 58.
-- JLL (Lender / Debt Provider): Dormant, 2 observation(s), importance 55.
+- BTR / Single-Family Rental (Residential Sector): Fading, 9 observation(s), importance 55.
 
 ## Recurring Institutional Capital Pairings
 
-- CBRE -> CBRE (Relationship Edge): Persistent, 78 observation(s), importance 84.
+- CBRE -> CBRE (Relationship Edge): Fading, 78 observation(s), importance 83.
 - Fannie Mae -> Fannie Mae (Relationship Edge): Fading, 10 observation(s), importance 82.
 - Fannie Mae (Institutional Capital Partner): Fading, 6 observation(s), importance 82.
 - PEF Advisors -> California (Relationship Edge): Fading, 96 observation(s), importance 79.
-- Slatt Capital (Institutional Capital Partner): Persistent, 3 observation(s), importance 79.
 - Freestone Capital (Institutional Capital Partner): Fading, 44 observation(s), importance 78.
 - Kennedy Wilson (Institutional Capital Partner): Fading, 18 observation(s), importance 78.
 - PEF Advisors (Institutional Capital Partner): Fading, 44 observation(s), importance 78.
 - California -> California (Relationship Edge): Fading, 25 observation(s), importance 78.
+- Los Angeles -> California (Relationship Edge): Fading, 7 observation(s), importance 78.
 - Cypress Equity Investments (Institutional Capital Partner): Fading, 6 observation(s), importance 78.
 
 ## Strongest Multi-Run Relationships
 
-- CBRE -> CBRE (Relationship Edge): Persistent, 78 observation(s), importance 84.
+- CBRE -> CBRE (Relationship Edge): Fading, 78 observation(s), importance 83.
 - Fannie Mae -> Fannie Mae (Relationship Edge): Fading, 10 observation(s), importance 82.
 - PEF Advisors -> California (Relationship Edge): Fading, 96 observation(s), importance 79.
 - California -> California (Relationship Edge): Fading, 25 observation(s), importance 78.
-- Los Angeles -> California (Relationship Edge): Persistent, 7 observation(s), importance 77.
-- Kennedy Wilson -> Kennedy Wilson (Relationship Edge): Persistent, 22 observation(s), importance 76.
-- CBRE -> California (Relationship Edge): Persistent, 146 observation(s), importance 76.
+- Los Angeles -> California (Relationship Edge): Fading, 7 observation(s), importance 78.
+- Kennedy Wilson -> Kennedy Wilson (Relationship Edge): Persistent, 23 observation(s), importance 76.
 - Kennedy Wilson -> California (Relationship Edge): Fading, 9 observation(s), importance 76.
-- Kennedy Wilson -> Kennedy Wilson (Relationship Edge): Persistent, 14 observation(s), importance 75.
-- Kennedy Wilson -> Los Angeles (Relationship Edge): Persistent, 44 observation(s), importance 75.
+- Alliance Residential -> Los Angeles (Relationship Edge): Persistent, 12 observation(s), importance 75.
+- CBRE -> California (Relationship Edge): Fading, 146 observation(s), importance 75.
+- Kennedy Wilson -> Kennedy Wilson (Relationship Edge): Persistent, 15 observation(s), importance 75.
 
 ## Accelerating Markets
 
@@ -81,29 +81,29 @@ Generated: 2026-07-10 00:07:05
 
 ## Fading Markets
 
-- Southeast (Market / Region): Fading, 10 observation(s), importance 57.
-- Austin (Market / Region): Fading, 20 observation(s), importance 55.
-- Seattle (Market / Region): Fading, 10 observation(s), importance 55.
+- Sun Belt (Market / Region): Fading, 10 observation(s), importance 58.
+- Texas (Market / Region): Fading, 13 observation(s), importance 58.
+- National / Other (Market / Region): Fading, 9 observation(s), importance 57.
+- Austin (Market / Region): Fading, 20 observation(s), importance 54.
+- Seattle (Market / Region): Fading, 10 observation(s), importance 54.
 - Dallas (Market / Region): Fading, 8 observation(s), importance 54.
 - New York (Market / Region): Fading, 32 observation(s), importance 53.
 - Arizona (Market / Region): Fading, 26 observation(s), importance 52.
 - Phoenix (Market / Region): Fading, 16 observation(s), importance 52.
-- National / Other (Market / Region): Fading, 47 observation(s), importance 49.
-- Seattle (Market / Region): Fading, 11 observation(s), importance 49.
-- Sun Belt (Market / Region): Fading, 13 observation(s), importance 49.
+- Southeast (Market / Region): Fading, 46 observation(s), importance 51.
 
 ## Recurring Refinancing Stress Signals
 
 - Fannie Mae (Institutional Capital Partner): Fading, 6 observation(s), importance 82.
-- Slatt Capital (Institutional Capital Partner): Persistent, 3 observation(s), importance 79.
 - Cypress Equity Investments (Institutional Capital Partner): Fading, 6 observation(s), importance 78.
+- Slatt Capital (Institutional Capital Partner): Fading, 3 observation(s), importance 78.
 - Santa Ana Multifamily JLL Capital (Institutional Capital Partner): Dormant, 22 observation(s), importance 76.
 - Kennedy Wilson (Institutional Capital Partner): Fading, 5 observation(s), importance 76.
 - pgim (Lender / Debt Provider): Fading, 5 observation(s), importance 76.
+- Dwight Mortgage Trust (Institutional Capital Partner): Emerging, 1 observation(s), importance 76.
 - Fannie Mae (GP / Developer): Fading, 7 observation(s), importance 75.
-- Wells Fargo Bank (Institutional Capital Partner): Persistent, 13 observation(s), importance 74.
-- Slatt Capital (Institutional Capital Partner): Dormant, 8 observation(s), importance 73.
-- Kennedy Wilson (Institutional Capital Partner): Fading, 3 observation(s), importance 72.
+- Marcus & Millichap (Institutional Capital Partner): Emerging, 1 observation(s), importance 75.
+- Millichap Capital (Institutional Capital Partner): Emerging, 1 observation(s), importance 75.
 
 ## Canonical Deal Summary
 

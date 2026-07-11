@@ -1,93 +1,93 @@
 # Real Asset & Parcel Intelligence Report
 
-Generated: 2026-07-10 00:07:15
+Generated: 2026-07-10 23:59:59
 
-- Total asset / parcel signals: 88
+- Total asset / parcel signals: 82
 
 ## Top Site-Level Opportunities
 
-- Refinancing - Sun Belt - Berkadia Arranges $85.4M Refinancing for Two Orlando-Area Multifamily Communities: Refinancing / Recapitalization, Orlando, asset_opportunity_score 100.
+- Construction Financing - California - Dwight Provides Largest Construction Loan in Company History for Gilroy Multifamily: Refinancing / Recapitalization, California, asset_opportunity_score 100.
+- Refinancing - Florida - Berkadia Secures $85.4M Refinancing of Two Orlando Multifamily Communities: Refinancing / Recapitalization, Orlando, asset_opportunity_score 100.
 - Acquisition - Miami / Florida - Avalon Bay Planning Apartments, Retail in South Miami: Entitlement Play, South Florida, asset_opportunity_score 100.
 - Disposition / Exit - New York - Pantzer Acquires Class A Multifamily in Downtown Stamford: General Asset Signal, New York, asset_opportunity_score 100.
-- Entitlement / Permitting - Santa Monica / California - Fresh renderings for mixed-use project at 2716 Ocean Park Blvd. in Santa Monica: Entitlement Play, 2716 Ocean Park Blvd, asset_opportunity_score 100.
+- Acquisition - Los Angeles / California - In Likely a Culver City Record, Black Equities Buys Multifamily Asset for $106M: General Asset Signal, America, asset_opportunity_score 98.
 - Acquisition - Other / Unknown - Northmarq Arranges Fannie Mae Financing for Lawrence Apartments: General Asset Signal, Unknown, asset_opportunity_score 98.
-- General Project Signal - Other / Unknown - Merchants Capital Secures $10M+ for 121-Unit Multifamily Affordable Housing Development in...: Affordable / Density Bonus Strategy, Unknown, asset_opportunity_score 93.
+- Entitlement / Permitting - Los Angeles / California - 78-unit affordable housing complex to rise at 12025 Hoffman St. in Studio City: Affordable / Density Bonus Strategy, 12025 Hoffman St, asset_opportunity_score 94.
+- Disposition / Exit - Los Angeles / California - Northmarq Brokers $5.25M Sale of 105-Unit Silver Lake Development Site in Los Angeles: Acquisition / Site Control, Los Angeles, asset_opportunity_score 94.
 - Office-to-Residential Conversion - Los Angeles / California - Kennedy Wilson, Jamison partner on 4K affordable units in LA: Office-to-Residential Conversion, Los Angeles, asset_opportunity_score 91.
-- Refinancing - New York City / New York - Watermark Lands $105M Refinance for Multifamily Rental Community in Queens: Refinancing / Recapitalization, Queens, asset_opportunity_score 91.
-- Acquisition - New York - CBRE Arranges Over $150M in Multifamily Sales: General Asset Signal, Seattle, asset_opportunity_score 89.
-- Construction Financing - Miami / Florida - S3 Originates $111M Construction Loan for Edgewater Rental Community: Refinancing / Recapitalization, South Florida, asset_opportunity_score 88.
+- Construction Financing - Miami / Florida - S3 Originates $111M Construction Loan for Edgewater Rental Community: Refinancing / Recapitalization, South Florida, asset_opportunity_score 89.
 
 ## Top Site-Level Risks
 
-- Refinancing - California - Slatt Capital Arranges Life Company Loan for Novato Multifamily: Refinancing / Recapitalization, California, asset_risk_score 66.
-- Office-to-Residential Conversion - Los Angeles / California - Kennedy Wilson, Jamison partner on 4K affordable units in LA: Office-to-Residential Conversion, Los Angeles, asset_risk_score 58.
+- Construction Financing - California - Dwight Provides Largest Construction Loan in Company History for Gilroy Multifamily: Refinancing / Recapitalization, California, asset_risk_score 59.
 - Construction Financing - Houston / Texas - S3 Capital Continues Texas Focus, Provides $28M for New Multifamily Construction: General Asset Signal, Houston, asset_risk_score 53.
 - Construction Financing - Miami / Florida - LCOR Inks $192.5M Construction Loan for Biscayne Bay Apartments: Refinancing / Recapitalization, South Florida, asset_risk_score 53.
+- Construction Financing - New York City / New York - Partnership Receives $217M in Construction Financing for Brooklyn Affordable Housing Proje...: Affordable / Density Bonus Strategy, Brooklyn, asset_risk_score 53.
+- Construction Financing - New York City / New York - Redstone Bank, Goldman Sachs, New York State Provide $217M for Alafia Project: General Asset Signal, Brooklyn, asset_risk_score 52.
 - Construction Financing - New York City / New York - Grubb Nabs $377M FiDi Construction Loan: The N.Y. Deal Sheet: Refinancing / Recapitalization, New York City, asset_risk_score 51.
-- Acquisition - Virginia - Berkadia Negotiates Sale of 20-Story High-Rise Apartment Tower in Arlington, Virginia: General Asset Signal, Arlington, Virginia, asset_risk_score 50.
-- Disposition / Exit - Virginia - Berkadia Arranges Sale and Financing of 270-Unit Multifamily Community in Manassas Virgini...: General Asset Signal, Virginia, asset_risk_score 50.
 - Construction Financing - Miami / Florida - S3 Originates $111M Construction Loan for Edgewater Rental Community: Refinancing / Recapitalization, South Florida, asset_risk_score 49.
-- Construction Financing - Other / Unknown - Priority Capital Advisory Secures $11.5M Loan for Recapitalization of Wisconsin Multifamil...: Refinancing / Recapitalization, Unknown, asset_risk_score 49.
-- Refinancing - Other / Unknown - Affinius Capital Provides $188M Loan for Refinancing of Northern New Jersey Apartment Comm...: Refinancing / Recapitalization, Unknown, asset_risk_score 48.
+- Construction Financing - Miami / Florida - Dependable Equities Secures $54M Pre-Construction Financing for Major Multifamily Developm...: General Asset Signal, South Florida, asset_risk_score 49.
+- Refinancing - Colorado - Walker & Dunlop Arranges $46.25M Refinance Loan for Colorado Multifamily Apartment Communi...: Refinancing / Recapitalization, Colorado, asset_risk_score 45.
+- Office-to-Residential Conversion - Los Angeles / California - Koreatown offices at 3700 Wilshire Blvd. to be converted to housing: Office-to-Residential Conversion, 3700 Wilshire Blvd, asset_risk_score 44.
 
 ## Assets With Address / Location Clues
 
-- Refinancing - Sun Belt - Berkadia Arranges $85.4M Refinancing for Two Orlando-Area Multifamily Communities: Refinancing / Recapitalization, Orlando, asset_opportunity_score 100.
+- Construction Financing - California - Dwight Provides Largest Construction Loan in Company History for Gilroy Multifamily: Refinancing / Recapitalization, California, asset_opportunity_score 100.
+- Refinancing - Florida - Berkadia Secures $85.4M Refinancing of Two Orlando Multifamily Communities: Refinancing / Recapitalization, Orlando, asset_opportunity_score 100.
 - Acquisition - Miami / Florida - Avalon Bay Planning Apartments, Retail in South Miami: Entitlement Play, South Florida, asset_opportunity_score 100.
 - Disposition / Exit - New York - Pantzer Acquires Class A Multifamily in Downtown Stamford: General Asset Signal, New York, asset_opportunity_score 100.
-- Entitlement / Permitting - Santa Monica / California - Fresh renderings for mixed-use project at 2716 Ocean Park Blvd. in Santa Monica: Entitlement Play, 2716 Ocean Park Blvd, asset_opportunity_score 100.
+- Acquisition - Los Angeles / California - In Likely a Culver City Record, Black Equities Buys Multifamily Asset for $106M: General Asset Signal, America, asset_opportunity_score 98.
+- Entitlement / Permitting - Los Angeles / California - 78-unit affordable housing complex to rise at 12025 Hoffman St. in Studio City: Affordable / Density Bonus Strategy, 12025 Hoffman St, asset_opportunity_score 94.
+- Disposition / Exit - Los Angeles / California - Northmarq Brokers $5.25M Sale of 105-Unit Silver Lake Development Site in Los Angeles: Acquisition / Site Control, Los Angeles, asset_opportunity_score 94.
 - Office-to-Residential Conversion - Los Angeles / California - Kennedy Wilson, Jamison partner on 4K affordable units in LA: Office-to-Residential Conversion, Los Angeles, asset_opportunity_score 91.
-- Refinancing - New York City / New York - Watermark Lands $105M Refinance for Multifamily Rental Community in Queens: Refinancing / Recapitalization, Queens, asset_opportunity_score 91.
-- Acquisition - New York - CBRE Arranges Over $150M in Multifamily Sales: General Asset Signal, Seattle, asset_opportunity_score 89.
-- Construction Financing - Miami / Florida - S3 Originates $111M Construction Loan for Edgewater Rental Community: Refinancing / Recapitalization, South Florida, asset_opportunity_score 88.
-- Refinancing - California - Slatt Capital Arranges Life Company Loan for Novato Multifamily: Refinancing / Recapitalization, California, asset_opportunity_score 86.
-- Acquisition - Los Angeles / California - How Alliance Residential secured 2K apartments in 6 months: General Asset Signal, Los Angeles, asset_opportunity_score 86.
+- Construction Financing - Miami / Florida - S3 Originates $111M Construction Loan for Edgewater Rental Community: Refinancing / Recapitalization, South Florida, asset_opportunity_score 89.
+- Construction Financing - Miami / Florida - JLL Arranges $111M Construction Loan for Multifamily Development in Miami’s Edgewater Dist...: Refinancing / Recapitalization, Miami, asset_opportunity_score 89.
 
 ## Assets With Identified Developers / Sponsors
 
-- Refinancing - Sun Belt - Berkadia Arranges $85.4M Refinancing for Two Orlando-Area Multifamily Communities: Refinancing / Recapitalization, Orlando, asset_opportunity_score 100.
+- Construction Financing - California - Dwight Provides Largest Construction Loan in Company History for Gilroy Multifamily: Refinancing / Recapitalization, California, asset_opportunity_score 100.
+- Refinancing - Florida - Berkadia Secures $85.4M Refinancing of Two Orlando Multifamily Communities: Refinancing / Recapitalization, Orlando, asset_opportunity_score 100.
 - Acquisition - Miami / Florida - Avalon Bay Planning Apartments, Retail in South Miami: Entitlement Play, South Florida, asset_opportunity_score 100.
 - Disposition / Exit - New York - Pantzer Acquires Class A Multifamily in Downtown Stamford: General Asset Signal, New York, asset_opportunity_score 100.
-- Entitlement / Permitting - Santa Monica / California - Fresh renderings for mixed-use project at 2716 Ocean Park Blvd. in Santa Monica: Entitlement Play, 2716 Ocean Park Blvd, asset_opportunity_score 100.
+- Acquisition - Los Angeles / California - In Likely a Culver City Record, Black Equities Buys Multifamily Asset for $106M: General Asset Signal, America, asset_opportunity_score 98.
 - Acquisition - Other / Unknown - Northmarq Arranges Fannie Mae Financing for Lawrence Apartments: General Asset Signal, Unknown, asset_opportunity_score 98.
-- General Project Signal - Other / Unknown - Merchants Capital Secures $10M+ for 121-Unit Multifamily Affordable Housing Development in...: Affordable / Density Bonus Strategy, Unknown, asset_opportunity_score 93.
 - Office-to-Residential Conversion - Los Angeles / California - Kennedy Wilson, Jamison partner on 4K affordable units in LA: Office-to-Residential Conversion, Los Angeles, asset_opportunity_score 91.
-- Refinancing - New York City / New York - Watermark Lands $105M Refinance for Multifamily Rental Community in Queens: Refinancing / Recapitalization, Queens, asset_opportunity_score 91.
-- Acquisition - New York - CBRE Arranges Over $150M in Multifamily Sales: General Asset Signal, Seattle, asset_opportunity_score 89.
-- Construction Financing - Miami / Florida - S3 Originates $111M Construction Loan for Edgewater Rental Community: Refinancing / Recapitalization, South Florida, asset_opportunity_score 88.
+- Construction Financing - Miami / Florida - S3 Originates $111M Construction Loan for Edgewater Rental Community: Refinancing / Recapitalization, South Florida, asset_opportunity_score 89.
+- Construction Financing - Miami / Florida - JLL Arranges $111M Construction Loan for Multifamily Development in Miami’s Edgewater Dist...: Refinancing / Recapitalization, Miami, asset_opportunity_score 89.
+- Acquisition - Seattle - Goodman Real Estate Sells Two Apartment Communities Near Seattle for $172M: General Asset Signal, Seattle, asset_opportunity_score 89.
 
 ## Assets With Entitlement or Permit Signals
 
+- Seven apartments coming to 217 N. Ave. 55 in Highland Park: Affordable / Density Bonus Strategy, 217 N. Ave, asset_opportunity_score 85.
 - Meeting Tonight For 2700 Shattuck Avenue, South Berkeley: Entitlement Play, 2700 Shattuck Avenue, asset_opportunity_score 72.
 
 ## Assets With Financing / Refinancing Signals
 
-- Refinancing - California - Slatt Capital Arranges Life Company Loan for Novato Multifamily: Refinancing / Recapitalization, California, asset_risk_score 66.
+- Construction Financing - California - Dwight Provides Largest Construction Loan in Company History for Gilroy Multifamily: Refinancing / Recapitalization, California, asset_risk_score 59.
 - Construction Financing - Miami / Florida - LCOR Inks $192.5M Construction Loan for Biscayne Bay Apartments: Refinancing / Recapitalization, South Florida, asset_risk_score 53.
 - Construction Financing - New York City / New York - Grubb Nabs $377M FiDi Construction Loan: The N.Y. Deal Sheet: Refinancing / Recapitalization, New York City, asset_risk_score 51.
 - Construction Financing - Miami / Florida - S3 Originates $111M Construction Loan for Edgewater Rental Community: Refinancing / Recapitalization, South Florida, asset_risk_score 49.
-- Construction Financing - Other / Unknown - Priority Capital Advisory Secures $11.5M Loan for Recapitalization of Wisconsin Multifamil...: Refinancing / Recapitalization, Unknown, asset_risk_score 49.
-- Refinancing - Other / Unknown - Affinius Capital Provides $188M Loan for Refinancing of Northern New Jersey Apartment Comm...: Refinancing / Recapitalization, Unknown, asset_risk_score 48.
-- Refinancing - New York City / New York - JLL Arranges $352M Loan for Refinancing of Midtown Manhattan Office Building: Refinancing / Recapitalization, New York City, asset_risk_score 44.
-- Refinancing - Sun Belt - Berkadia Arranges $85.4M Refinancing for Two Orlando-Area Multifamily Communities: Refinancing / Recapitalization, Orlando, asset_risk_score 42.
-- Refinancing - Other / Unknown - JLL Arranges $124.6M Refinancing for Luxury Apartment Tower in Chicago: Refinancing / Recapitalization, Unknown, asset_risk_score 41.
-- Refinancing - Other / Unknown - Pacific Life Insurance Provides $125M Refi for Chicago Luxury Tower: Refinancing / Recapitalization, Unknown, asset_risk_score 40.
+- Refinancing - Colorado - Walker & Dunlop Arranges $46.25M Refinance Loan for Colorado Multifamily Apartment Communi...: Refinancing / Recapitalization, Colorado, asset_risk_score 45.
+- Construction Financing - Miami / Florida - JLL Arranges $111M Construction Loan for Multifamily Development in Miami’s Edgewater Dist...: Refinancing / Recapitalization, Miami, asset_risk_score 43.
+- Refinancing - Florida - Berkadia Secures $85.4M Refinancing of Two Orlando Multifamily Communities: Refinancing / Recapitalization, Orlando, asset_risk_score 42.
+- LCOR Inks $192.5M Construction Loan for Biscayne Bay Apartments: Refinancing / Recapitalization, 1775 Biscayne Blvd, asset_risk_score 24.
 
 ## Office-to-Residential Asset Signals
 
 - Office-to-Residential Conversion - Los Angeles / California - Kennedy Wilson, Jamison partner on 4K affordable units in LA: Office-to-Residential Conversion, Los Angeles, asset_opportunity_score 91.
 - Office-to-Residential Conversion - Los Angeles / California - Koreatown offices at 3700 Wilshire Blvd. to be converted to housing: Office-to-Residential Conversion, 3700 Wilshire Blvd, asset_opportunity_score 85.
 - Koreatown offices at 3700 Wilshire Blvd. to be converted to housing: Office-to-Residential Conversion, 3700 Wilshire Blvd, asset_opportunity_score 75.
-- Office-to-Residential Conversion - Washington DC - GoodHomes Buys Washington DC Hotel with Plans for Multifamily Conversion: Office-to-Residential Conversion, Washington Dc, asset_opportunity_score 74.
 - Office-to-Residential Conversion - New York City / New York - Structural columns buckle on 21st floor of Manhattan adaptive reuse project: Office-to-Residential Conversion, Manhattan, asset_opportunity_score 57.
 - Office-to-Residential Conversion - New York City / New York - One Project's Buckling Beams And Sagging Floors Rattle NYC's 19M SF Conversion Pipeline: Office-to-Residential Conversion, New York City, asset_opportunity_score 48.
 
 ## Affordable / Density Bonus Asset Signals
 
-- General Project Signal - Other / Unknown - Merchants Capital Secures $10M+ for 121-Unit Multifamily Affordable Housing Development in...: Affordable / Density Bonus Strategy, Unknown, asset_opportunity_score 93.
-- General Project Signal - Other / Unknown - Merchants Capital Secures $10M for Kansas Affordable Housing Development: Affordable / Density Bonus Strategy, Unknown, asset_opportunity_score 85.
-- Charney, Tavros Begin Leasing 260-Unit Apartment Building in Brooklyn: Affordable / Density Bonus Strategy, 251 Douglass St, asset_opportunity_score 69.
-- Foundation Complete For 1523 Harrison Street, Downtown Oakland: Affordable / Density Bonus Strategy, 1523 Harrison Street, asset_opportunity_score 65.
+- Entitlement / Permitting - Los Angeles / California - 78-unit affordable housing complex to rise at 12025 Hoffman St. in Studio City: Affordable / Density Bonus Strategy, 12025 Hoffman St, asset_opportunity_score 94.
+- Northmarq Brokers $5.25M Sale of 105-Unit Silver Lake Development Site in Los Angeles: Affordable / Density Bonus Strategy, 835 North Hyperion Avenue, asset_opportunity_score 85.
+- Seven apartments coming to 217 N. Ave. 55 in Highland Park: Affordable / Density Bonus Strategy, 217 N. Ave, asset_opportunity_score 85.
+- 78-unit affordable housing complex to rise at 12025 Hoffman St. in Studio City: Affordable / Density Bonus Strategy, 12025 Hoffman St, asset_opportunity_score 75.
+- Construction Financing - New York City / New York - Partnership Receives $217M in Construction Financing for Brooklyn Affordable Housing Proje...: Affordable / Density Bonus Strategy, Brooklyn, asset_opportunity_score 69.
+- Partnership Receives $217M in Construction Financing for Brooklyn Affordable Housing Project: Affordable / Density Bonus Strategy, Brooklyn, asset_opportunity_score 52.
 - C&C Development Opens Affordable Housing in Irvine: Affordable / Density Bonus Strategy, 17861 Cartwright Rd, asset_opportunity_score 18.
 - JV / Partnership - Riverside / California - C&C Development Opens Affordable Housing in Irvine: Affordable / Density Bonus Strategy, Riverside, asset_opportunity_score 18.
 
@@ -98,22 +98,22 @@ Generated: 2026-07-10 00:07:15
 
 ## Recommended Asset-Level Follow-up Actions
 
-- Review acquisition, financing, ownership, and comparable transaction details: Refinancing - Sun Belt - Berkadia Arranges $85.4M Refinancing for Two Orlando-Area Multifamily Communities.
+- Review site details, sponsor, entitlement path, and local precedent: Construction Financing - California - Dwight Provides Largest Construction Loan in Company History for Gilroy Multifamily.
+- Review acquisition, financing, ownership, and comparable transaction details: Refinancing - Florida - Berkadia Secures $85.4M Refinancing of Two Orlando Multifamily Communities.
 - Track entitlement, permit, density bonus, and construction-readiness milestones: Acquisition - Miami / Florida - Avalon Bay Planning Apartments, Retail in South Miami.
 - Monitor asset-level signal for repeated confirmation: Disposition / Exit - New York - Pantzer Acquires Class A Multifamily in Downtown Stamford.
-- Track entitlement, permit, density bonus, and construction-readiness milestones: Entitlement / Permitting - Santa Monica / California - Fresh renderings for mixed-use project at 2716 Ocean Park Blvd. in Santa Monica.
+- Monitor asset-level signal for repeated confirmation: Acquisition - Los Angeles / California - In Likely a Culver City Record, Black Equities Buys Multifamily Asset for $106M.
 - Monitor asset-level signal for repeated confirmation: Acquisition - Other / Unknown - Northmarq Arranges Fannie Mae Financing for Lawrence Apartments.
-- Track entitlement, permit, density bonus, and construction-readiness milestones: General Project Signal - Other / Unknown - Merchants Capital Secures $10M+ for 121-Unit Multifamily Affordable Housing Development in....
-- Monitor office conversion feasibility and policy support: Office-to-Residential Conversion - Los Angeles / California - Kennedy Wilson, Jamison partner on 4K affordable units in LA.
-- Review acquisition, financing, ownership, and comparable transaction details: Refinancing - New York City / New York - Watermark Lands $105M Refinance for Multifamily Rental Community in Queens.
+- Track entitlement, permit, density bonus, and construction-readiness milestones: Entitlement / Permitting - Los Angeles / California - 78-unit affordable housing complex to rise at 12025 Hoffman St. in Studio City.
+- Review acquisition, financing, ownership, and comparable transaction details: Disposition / Exit - Los Angeles / California - Northmarq Brokers $5.25M Sale of 105-Unit Silver Lake Development Site in Los Angeles.
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 88
-- LA lifecycle watch items: 42
-- Stage mix: Refinancing / Recapitalization: 12, Site Acquisition / Site Control: 8, Unknown Stage: 47, Delivery / Opening: 9, Construction Ready: 1
+- Lifecycle records: 82
+- LA lifecycle watch items: 45
+- Stage mix: Refinancing / Recapitalization: 6, Unknown Stage: 51, Delivery / Opening: 8, Site Acquisition / Site Control: 9, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -121,11 +121,11 @@ Generated: 2026-07-10 00:07:15
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 88
-- Newly detected projects: 48
+- Lifecycle transitions analyzed: 82
+- Newly detected projects: 36
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 39
+- LA lifecycle transition watch items: 41
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -133,10 +133,10 @@ Generated: 2026-07-10 00:07:15
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 707
-- Canonical projects: 177
-- Duplicate project clusters: 124
-- Persistent assets tracked: 177
-- LA persistent asset watch items: 100
+- Raw project references: 671
+- Canonical projects: 180
+- Duplicate project clusters: 117
+- Persistent assets tracked: 180
+- LA persistent asset watch items: 106
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

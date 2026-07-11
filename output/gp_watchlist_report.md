@@ -1,23 +1,23 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-07-10 00:07:04
+Generated: 2026-07-10 23:59:49
 
-- GP/developer candidates reviewed: 30
+- GP/developer candidates reviewed: 24
 - Tier 1 Strategic GPs: 0
-- Tier 2 High Potential GPs: 5
+- Tier 2 High Potential GPs: 4
 
 ## Top Emerging GPs
 
-- Eagle Real Estate, Vistria Group: 78 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
 - Multifamily Orange County Investments: 78 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
-- CBRE: 73 (Tier 2 High Potential GP), New York, California / LA strategic positioning.
-- JLL: 73 (Tier 2 High Potential GP), Other / Unknown, Institutional-backed regional expansion.
 - Kennedy Wilson: 72 (Tier 2 High Potential GP), Los Angeles / California, California / LA strategic positioning.
+- CBRE: 70 (Tier 2 High Potential GP), Connecticut, California / LA strategic positioning.
+- IPA: 70 (Tier 2 High Potential GP), Miami / Florida, California / LA strategic positioning.
+- JLL: 69 (Tier 3 Monitoring GP), Miami / Florida, California / LA strategic positioning.
 - AvalonBay: 68 (Tier 3 Monitoring GP), Miami / Florida, California / LA strategic positioning.
+- Greystar: 66 (Tier 3 Monitoring GP), Los Angeles / California, California / LA strategic positioning.
 - Edgewater Rental Community S3 Capital: 65 (Tier 3 Monitoring GP), Miami / Florida, California / LA strategic positioning.
-- Slatt Capital: 64 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
-- Dunlop Investment Partners: 63 (Tier 3 Monitoring GP), New York City / New York, Distressed opportunity positioning.
-- Walker & Dunlop: 63 (Tier 3 Monitoring GP), New York City / New York, Distressed opportunity positioning.
+- Dwight Mortgage Trust: 64 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
+- Four Mile Capital: 63 (Tier 3 Monitoring GP), Louisville / Kentucky, Selective residential growth.
 
 ## Tier 1 Strategic GP
 
@@ -25,24 +25,23 @@ Generated: 2026-07-10 00:07:04
 
 ## Tier 2 High Potential GP
 
-- Eagle Real Estate, Vistria Group: score 78, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Multifamily Orange County Investments: score 78, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- CBRE: score 73, Tier 2 High Potential GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 73, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
 - Kennedy Wilson: score 72, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 70, Tier 2 High Potential GP, Connecticut, Capital market and pricing discovery reference. Review LA / California development activity.
+- IPA: score 70, Tier 2 High Potential GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## California / LA GP Activity
 
-- Eagle Real Estate, Vistria Group: score 78, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Multifamily Orange County Investments: score 78, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- CBRE: score 73, Tier 2 High Potential GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 73, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
 - Kennedy Wilson: score 72, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 70, Tier 2 High Potential GP, Connecticut, Capital market and pricing discovery reference. Review LA / California development activity.
+- IPA: score 70, Tier 2 High Potential GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
+- JLL: score 69, Tier 3 Monitoring GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
 - AvalonBay: score 68, Tier 3 Monitoring GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
+- Greystar: score 66, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
 - Edgewater Rental Community S3 Capital: score 65, Tier 3 Monitoring GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
-- Slatt Capital: score 64, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Dwight Mortgage Trust: score 64, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
 - Alliance Residential: score 61, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Marcus & Millichap: score 61, Tier 3 Monitoring GP, Dallas / Texas, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## BTR / SFR GP Activity
 
@@ -50,11 +49,8 @@ Generated: 2026-07-10 00:07:04
 
 ## Affordable Housing GP Activity
 
-- Eagle Real Estate, Vistria Group: score 78, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Multifamily Orange County Investments: score 78, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Affinius Capital: score 62, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
-- Freddie Mac: score 59, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
-- Merchants Capital: score 56, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- Redstone Bank: score 26, Low Signal, New York City / New York, General developer monitoring. Monitor only.
 
 ## Student Housing GP Activity
 
@@ -66,29 +62,29 @@ Generated: 2026-07-10 00:07:04
 
 ## Institutional Capital Magnet
 
-- Eagle Real Estate, Vistria Group: score 78, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Multifamily Orange County Investments: score 78, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- CBRE: score 73, Tier 2 High Potential GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 73, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
 - Kennedy Wilson: score 72, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 70, Tier 2 High Potential GP, Connecticut, Capital market and pricing discovery reference. Review LA / California development activity.
+- IPA: score 70, Tier 2 High Potential GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
+- JLL: score 69, Tier 3 Monitoring GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
 - AvalonBay: score 68, Tier 3 Monitoring GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
+- Greystar: score 66, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
 - Edgewater Rental Community S3 Capital: score 65, Tier 3 Monitoring GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
-- Slatt Capital: score 64, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Dunlop Investment Partners: score 63, Tier 3 Monitoring GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
-- Walker & Dunlop: score 63, Tier 3 Monitoring GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
+- Dwight Mortgage Trust: score 64, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Four Mile Capital: score 63, Tier 3 Monitoring GP, Louisville / Kentucky, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## Potential Woomi Partnership Candidates
 
-- Eagle Real Estate, Vistria Group: score 78, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Multifamily Orange County Investments: score 78, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- CBRE: score 73, Tier 2 High Potential GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 73, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
 - Kennedy Wilson: score 72, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 70, Tier 2 High Potential GP, Connecticut, Capital market and pricing discovery reference. Review LA / California development activity.
+- IPA: score 70, Tier 2 High Potential GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
+- JLL: score 69, Tier 3 Monitoring GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
 - AvalonBay: score 68, Tier 3 Monitoring GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
+- Greystar: score 66, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
 - Edgewater Rental Community S3 Capital: score 65, Tier 3 Monitoring GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
-- Dunlop Investment Partners: score 63, Tier 3 Monitoring GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
-- Walker & Dunlop: score 63, Tier 3 Monitoring GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
-- Affinius Capital: score 62, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- Four Mile Capital: score 63, Tier 3 Monitoring GP, Louisville / Kentucky, Potential GP partnership candidate. Track JV and capital partner activity.
+- Fannie Mae: score 57, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
 
 ## GP Source Expansion Summary
 
@@ -117,31 +113,31 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Recommended Management Meeting Targets
 
-- Eagle Real Estate, Vistria Group: Track JV and capital partner activity (Medium confidence).
 - Multifamily Orange County Investments: Track JV and capital partner activity (Medium confidence).
-- CBRE: Track JV and capital partner activity (Medium confidence).
-- JLL: Track JV and capital partner activity (High confidence).
 - Kennedy Wilson: Track JV and capital partner activity (Medium confidence).
+- CBRE: Review LA / California development activity (Medium confidence).
+- IPA: Review LA / California development activity (High confidence).
+- Four Mile Capital: Track JV and capital partner activity (Medium confidence).
 
 ## Recommended Strategic Follow-up Actions
 
-- Eagle Real Estate, Vistria Group: Track JV and capital partner activity.
 - Multifamily Orange County Investments: Track JV and capital partner activity.
-- CBRE: Track JV and capital partner activity.
-- JLL: Track JV and capital partner activity.
 - Kennedy Wilson: Track JV and capital partner activity.
+- CBRE: Review LA / California development activity.
+- IPA: Review LA / California development activity.
+- JLL: Review LA / California development activity.
 - AvalonBay: Review LA / California development activity.
+- Greystar: Review LA / California development activity.
 - Edgewater Rental Community S3 Capital: Review LA / California development activity.
-- Slatt Capital: Review LA / California development activity.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 177
-- Institutional-grade signals: 19
-- High-confidence signals: 58
-- Weak/noisy signals: 91
-- High-confidence watchlist items: 58
+- Signals evaluated: 180
+- Institutional-grade signals: 16
+- High-confidence signals: 50
+- Weak/noisy signals: 110
+- High-confidence watchlist items: 50
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

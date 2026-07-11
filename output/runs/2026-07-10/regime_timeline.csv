@@ -1,7 +1,7 @@
 ﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
-20260710-000650-d7384633,2026-07-10,Construction financing still selective,Building,weakening,73,8,31,5.68,3.68,5,5,5,1,Miami / Florida,Broadly Confirmed,Construction financing still selective visibility is weakening versus prior runs.,
-20260710-000650-d7384633,2026-07-10,Institutional recap over expansion,Building,stable,1,6,29,3.19,2.55,7,7,2,3,New York City / New York,Moderate Signal,steady visibility,
-20260710-000650-d7384633,2026-07-10,JV / partnership activity observed,Persistent,stable,73,8,31,6.81,3.71,7,7,5,0,Riverside / California,Broadly Confirmed,steady visibility,
-20260710-000650-d7384633,2026-07-10,LA entitlement precedent accumulation,Persistent,stable,73,8,31,6.55,2.26,5,5,3,0,Houston / Texas,Moderate Signal,steady visibility,
-20260710-000650-d7384633,2026-07-10,Refinancing pressure unresolved,Building,stable,1,6,29,3.68,2.87,7,7,2,3,New York City / New York,Moderate Signal,steady visibility,
-20260710-000650-d7384633,2026-07-10,Sun Belt lease-up pressure watch,Persistent,stable,73,8,31,3.39,3.06,4,4,3,0,National,Moderate Signal,steady visibility,
+20260710-235937-714bc49a,2026-07-10,Construction financing still selective,Building,stable,74,9,32,5.78,3.69,9,9,6,1,Miami / Florida,Broadly Confirmed,steady visibility,
+20260710-235937-714bc49a,2026-07-10,Institutional recap over expansion,Weakening,weakening,2,7,30,3.12,2.53,1,1,1,1,Florida,Source-Concentrated,Institutional recap over expansion visibility is weakening versus prior runs.,
+20260710-235937-714bc49a,2026-07-10,JV / partnership activity observed,Weakening,weakening,74,9,32,6.75,3.72,5,5,4,0,New York,Broadly Confirmed,JV / partnership activity observed visibility is weakening versus prior runs.,
+20260710-235937-714bc49a,2026-07-10,LA entitlement precedent accumulation,Building,stable,74,9,32,6.62,2.28,9,9,4,0,Los Angeles / California,Moderate Signal,steady visibility,
+20260710-235937-714bc49a,2026-07-10,Refinancing pressure unresolved,Weakening,weakening,2,7,30,3.59,2.84,1,1,1,1,Florida,Source-Concentrated,Refinancing pressure unresolved visibility is weakening versus prior runs.,
+20260710-235937-714bc49a,2026-07-10,Sun Belt lease-up pressure watch,Weakening,weakening,74,9,32,3.38,3.06,3,3,2,0,National,Moderate Signal,Sun Belt lease-up pressure watch visibility is weakening versus prior runs.,

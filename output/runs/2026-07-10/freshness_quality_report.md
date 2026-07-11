@@ -1,21 +1,19 @@
 # Freshness Quality Report
 
-Generated: 2026-07-10 00:06:51
+Generated: 2026-07-10 23:59:38
 
 ## Freshness Summary
 
-- Total articles reviewed: 84
-- fresh_0_3d: 57
+- Total articles reviewed: 77
+- fresh_0_3d: 52
 - recent_4_14d: 4
 - stale_15_30d: 0
-- old_31d_plus: 23
+- old_31d_plus: 21
 - unknown_date: 0
 
 ## Old Articles Excluded From Representative Evidence
 
 - The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist (Multifamily Executive, 2026-05-05): published date parsed; article age 66 day(s)
-- Developer Begins Work on 476-Unit Delray Beach Rental Community (Connect CRE South Florida, 2026-06-25): published date parsed; article age 15 day(s)
-- Yorba Linda Parking Lot Sells for Townhome Redevelopment (Connect CRE Orange County, 2026-06-09): published date parsed; article age 31 day(s)
 - C&C Development Opens Affordable Housing in Irvine (Connect CRE Orange County, 2026-06-24): published date parsed; article age 16 day(s)
 - Best Year for Missing Middle Construction Since 2007 (NAHB Eye on Housing - Multifamily, 2026-03-17): published date parsed; article age 115 day(s)
 - Missing Middle Weakness (NAHB Eye on Housing - Multifamily, 2026-01-19): published date parsed; article age 172 day(s)
@@ -28,11 +26,11 @@ Generated: 2026-07-10 00:06:51
 - Overall Housing Starts Inch Lower in 2025 (NAHB Eye on Housing - Multifamily, 2026-02-18): published date parsed; article age 142 day(s)
 - Third Quarter 2025 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-01-20): published date parsed; article age 171 day(s)
 - Alliance Sells Phoenix Apartments for $81.4M (Connect CRE Phoenix, 2026-06-25): published date parsed; article age 15 day(s)
+- Private Residential Construction Spending Increases in March (NAHB Eye on Housing - Multifamily, 2026-05-07): published date parsed; article age 64 day(s)
+- August Private Residential Construction Spending Edges Higher (NAHB Eye on Housing - Multifamily, 2025-11-17): published date parsed; article age 235 day(s)
 
 ## Old Articles Excluded From Development Activity Top Exposure
 
-- Developer Begins Work on 476-Unit Delray Beach Rental Community (Connect CRE South Florida): marked historical/background.
-- Yorba Linda Parking Lot Sells for Townhome Redevelopment (Connect CRE Orange County): marked historical/background.
 - C&C Development Opens Affordable Housing in Irvine (Connect CRE Orange County): marked historical/background.
 - Missing Middle Weakness (NAHB Eye on Housing - Multifamily): marked historical/background.
 - Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily): marked historical/background.
@@ -41,8 +39,6 @@ Generated: 2026-07-10 00:06:51
 ## Old Articles Excluded From GP / Capital Activity
 
 - The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist (Multifamily Executive): repeat exposure penalty; article integrity issue; historical article over 30 days old; event, webinar, or thin promotional article
-- Developer Begins Work on 476-Unit Delray Beach Rental Community (Connect CRE South Florida): repeat exposure penalty; historical article over 30 days old; development article without confirmed capital event
-- Yorba Linda Parking Lot Sells for Townhome Redevelopment (Connect CRE Orange County): repeat exposure penalty; historical article over 30 days old; development article without confirmed capital event
 - C&C Development Opens Affordable Housing in Irvine (Connect CRE Orange County): repeat exposure penalty; historical article over 30 days old
 - Overall Housing Starts Inch Lower in 2025 (NAHB Eye on Housing - Multifamily): repeat exposure penalty; historical article over 30 days old
 - Alliance Sells Phoenix Apartments for $81.4M (Connect CRE Phoenix): repeat exposure penalty; historical article over 30 days old; event, webinar, or thin promotional article; development article without confirmed capital event
@@ -59,8 +55,7 @@ Generated: 2026-07-10 00:06:51
 
 - NAHB Eye on Housing - Multifamily: 15 stale/old/unknown-date article(s)
 - Multifamily Executive: 4 stale/old/unknown-date article(s)
-- Connect CRE Orange County: 2 stale/old/unknown-date article(s)
-- Connect CRE South Florida: 1 stale/old/unknown-date article(s)
+- Connect CRE Orange County: 1 stale/old/unknown-date article(s)
 - Connect CRE Phoenix: 1 stale/old/unknown-date article(s)
 
 ## Recommended Source / Date Parsing Fixes

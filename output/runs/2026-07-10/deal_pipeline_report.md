@@ -1,101 +1,102 @@
 # Deal & Project Pipeline Report
 
-Generated: 2026-07-10 00:07:04
+Generated: 2026-07-10 23:59:49
 
-- Total deal/project signals found: 61
+- Total deal/project signals found: 60
 - High deal intelligence count: 8
 
 ## Top 10 Deal / Project Signals
 
-- Refinancing - Sun Belt - Berkadia Arranges $85.4M Refinancing for Two Orlando-Area Multifamily Communities: Refinancing, Sun Belt, score 95. Capital market signal.
-- Disposition / Exit - California - Yorba Linda Parking Lot Sells for Townhome Redevelopment: Disposition / Exit, California, score 89. Entitlement / zoning watch.
+- Acquisition - Seattle - Goodman Real Estate Sells Two Apartment Communities Near Seattle for $172M: Acquisition, Seattle, score 95. Pricing benchmark.
+- Construction Financing - Miami / Florida - JLL Arranges $111M Construction Loan for Multifamily Development in Miami’s Edgewater Dist...: Construction Financing, Miami / Florida, score 95. Capital market signal.
+- Refinancing - Florida - Berkadia Secures $85.4M Refinancing of Two Orlando Multifamily Communities: Refinancing, Florida, score 95. Capital market signal.
 - Acquisition - Miami / Florida - Avalon Bay Planning Apartments, Retail in South Miami: Acquisition, Miami / Florida, score 85. Pricing benchmark.
-- Acquisition - New York - CBRE Arranges Over $150M in Multifamily Sales: Acquisition, New York, score 85. Pricing benchmark.
+- Construction Financing - California - Dwight Provides Largest Construction Loan in Company History for Gilroy Multifamily: Construction Financing, California, score 85. Capital market signal.
 - Construction Financing - Miami / Florida - S3 Originates $111M Construction Loan for Edgewater Rental Community: Construction Financing, Miami / Florida, score 85. Capital market signal.
-- Refinancing - Other / Unknown - JLL Arranges $124.6M Refinancing for Luxury Apartment Tower in Chicago: Refinancing, Other / Unknown, score 85. Capital market signal.
+- Disposition / Exit - Connecticut - CBRE Announces $221M Sale of Luxury Apartment Community in Stamford Connecticut: Disposition / Exit, Connecticut, score 81. Capital market signal.
 - Disposition / Exit - New York - Pantzer Acquires Class A Multifamily in Downtown Stamford: Disposition / Exit, New York, score 81. Underwriting benchmark.
-- Acquisition - California - Eagle Real Estate, Vistria Group Acquire 402-Unit Apartment Community in Garden Grove, Cal...: Acquisition, California, score 80. Pricing benchmark.
-- Entitlement / Permitting - Santa Monica / California - Fresh renderings for mixed-use project at 2716 Ocean Park Blvd. in Santa Monica: Entitlement / Permitting, Santa Monica / California, score 77. Entitlement / zoning watch.
-- Refinancing - New York City / New York - Watermark Lands $105M Refinance for Multifamily Rental Community in Queens: Refinancing, New York City / New York, score 76. Capital market signal.
+- Refinancing - Colorado - Walker & Dunlop Arranges $46.25M Refinance Loan for Colorado Multifamily Apartment Communi...: Refinancing, Colorado, score 79. Capital market signal.
+- Acquisition - Los Angeles / California - In Likely a Culver City Record, Black Equities Buys Multifamily Asset for $106M: Acquisition, Los Angeles / California, score 77. Pricing benchmark.
 
 ## California / LA Deal Watch
 
-- Disposition / Exit - California - Yorba Linda Parking Lot Sells for Townhome Redevelopment: Disposition / Exit, California, score 89. Entitlement / zoning watch.
-- Acquisition - California - Eagle Real Estate, Vistria Group Acquire 402-Unit Apartment Community in Garden Grove, Cal...: Acquisition, California, score 80. Pricing benchmark.
-- Refinancing - California - Slatt Capital Arranges Life Company Loan for Novato Multifamily: Refinancing, California, score 73. Capital market signal.
+- Construction Financing - California - Dwight Provides Largest Construction Loan in Company History for Gilroy Multifamily: Construction Financing, California, score 85. Capital market signal.
+- Disposition / Exit - California - Kidder Mathews Arranges $12.375M Sale of 52-Unit Apartment Portfolio in Inglewood Californ...: Disposition / Exit, California, score 71. Entitlement / zoning watch.
 - Office-to-Residential Conversion - Los Angeles / California - Kennedy Wilson, Jamison partner on 4K affordable units in LA: Office-to-Residential Conversion, Los Angeles / California, score 71. Construction strategy reference.
 - Acquisition - California - Orange County Apartment Complex Sells for $133M: Acquisition, California, score 70. Pricing benchmark.
-- Disposition / Exit - Los Angeles / California - 45-Unit Garden Apartment Property Trades in LA’s Palms Neighborhood: Disposition / Exit, Los Angeles / California, score 69. Underwriting benchmark.
+- Disposition / Exit - Los Angeles / California - Northmarq Brokers $5.25M Sale of 105-Unit Silver Lake Development Site in Los Angeles: Disposition / Exit, Los Angeles / California, score 69. Underwriting benchmark.
 - Acquisition - Los Angeles / California - How Alliance Residential secured 2K apartments in 6 months: Acquisition, Los Angeles / California, score 65. Monitor only.
+- Entitlement / Permitting - Los Angeles / California - 78-unit affordable housing complex to rise at 12025 Hoffman St. in Studio City: Entitlement / Permitting, Los Angeles / California, score 65. Entitlement / zoning watch.
+- Entitlement / Permitting - Los Angeles - Longtime plan for Arts District apartments showing life signs at 1800 E. 7th Street: Entitlement / Permitting, Los Angeles, score 63. Entitlement / zoning watch.
 - JV / Partnership - Riverside / California - C&C Development Opens Affordable Housing in Irvine: JV / Partnership, Riverside / California, score 52. GP partnership reference.
-- JV / Partnership - California - Foundation Complete For 1523 Harrison Street, Downtown Oakland: JV / Partnership, California, score 51. GP partnership reference.
 - General Project Signal - Los Angeles / California - MMCC Arranges Financing for Northridge Offices: General Project Signal, Los Angeles / California, score 50. Capital market signal.
 
 ## GP / Developer Activity
 
-- Refinancing - Sun Belt - Berkadia Arranges $85.4M Refinancing for Two Orlando-Area Multifamily Communities: Refinancing, Sun Belt, score 95. Capital market signal.
-- Disposition / Exit - California - Yorba Linda Parking Lot Sells for Townhome Redevelopment: Disposition / Exit, California, score 89. Entitlement / zoning watch.
+- Acquisition - Seattle - Goodman Real Estate Sells Two Apartment Communities Near Seattle for $172M: Acquisition, Seattle, score 95. Pricing benchmark.
+- Construction Financing - Miami / Florida - JLL Arranges $111M Construction Loan for Multifamily Development in Miami’s Edgewater Dist...: Construction Financing, Miami / Florida, score 95. Capital market signal.
+- Refinancing - Florida - Berkadia Secures $85.4M Refinancing of Two Orlando Multifamily Communities: Refinancing, Florida, score 95. Capital market signal.
 - Acquisition - Miami / Florida - Avalon Bay Planning Apartments, Retail in South Miami: Acquisition, Miami / Florida, score 85. Pricing benchmark.
-- Acquisition - New York - CBRE Arranges Over $150M in Multifamily Sales: Acquisition, New York, score 85. Pricing benchmark.
+- Construction Financing - California - Dwight Provides Largest Construction Loan in Company History for Gilroy Multifamily: Construction Financing, California, score 85. Capital market signal.
 - Construction Financing - Miami / Florida - S3 Originates $111M Construction Loan for Edgewater Rental Community: Construction Financing, Miami / Florida, score 85. Capital market signal.
-- Refinancing - Other / Unknown - JLL Arranges $124.6M Refinancing for Luxury Apartment Tower in Chicago: Refinancing, Other / Unknown, score 85. Capital market signal.
+- Disposition / Exit - Connecticut - CBRE Announces $221M Sale of Luxury Apartment Community in Stamford Connecticut: Disposition / Exit, Connecticut, score 81. Capital market signal.
 - Disposition / Exit - New York - Pantzer Acquires Class A Multifamily in Downtown Stamford: Disposition / Exit, New York, score 81. Underwriting benchmark.
-- Entitlement / Permitting - Santa Monica / California - Fresh renderings for mixed-use project at 2716 Ocean Park Blvd. in Santa Monica: Entitlement / Permitting, Santa Monica / California, score 77. Entitlement / zoning watch.
-- Refinancing - New York City / New York - Watermark Lands $105M Refinance for Multifamily Rental Community in Queens: Refinancing, New York City / New York, score 76. Capital market signal.
-- Acquisition - Other / Unknown - $8.6M Acquisition Financing Secured for 88-Unit Charleston-Area Community with Full Tax Ab...: Acquisition, Other / Unknown, score 75. Pricing benchmark.
+- Refinancing - Colorado - Walker & Dunlop Arranges $46.25M Refinance Loan for Colorado Multifamily Apartment Communi...: Refinancing, Colorado, score 79. Capital market signal.
+- Acquisition - Los Angeles / California - In Likely a Culver City Record, Black Equities Buys Multifamily Asset for $106M: Acquisition, Los Angeles / California, score 77. Pricing benchmark.
 
 ## Financing / Refinancing Signals
 
-- Refinancing - Sun Belt - Berkadia Arranges $85.4M Refinancing for Two Orlando-Area Multifamily Communities: Refinancing, Sun Belt, score 95. Capital market signal.
+- Construction Financing - Miami / Florida - JLL Arranges $111M Construction Loan for Multifamily Development in Miami’s Edgewater Dist...: Construction Financing, Miami / Florida, score 95. Capital market signal.
+- Refinancing - Florida - Berkadia Secures $85.4M Refinancing of Two Orlando Multifamily Communities: Refinancing, Florida, score 95. Capital market signal.
+- Construction Financing - California - Dwight Provides Largest Construction Loan in Company History for Gilroy Multifamily: Construction Financing, California, score 85. Capital market signal.
 - Construction Financing - Miami / Florida - S3 Originates $111M Construction Loan for Edgewater Rental Community: Construction Financing, Miami / Florida, score 85. Capital market signal.
-- Refinancing - Other / Unknown - JLL Arranges $124.6M Refinancing for Luxury Apartment Tower in Chicago: Refinancing, Other / Unknown, score 85. Capital market signal.
-- Refinancing - New York City / New York - Watermark Lands $105M Refinance for Multifamily Rental Community in Queens: Refinancing, New York City / New York, score 76. Capital market signal.
-- Acquisition - Other / Unknown - $8.6M Acquisition Financing Secured for 88-Unit Charleston-Area Community with Full Tax Ab...: Acquisition, Other / Unknown, score 75. Pricing benchmark.
+- Disposition / Exit - Connecticut - CBRE Announces $221M Sale of Luxury Apartment Community in Stamford Connecticut: Disposition / Exit, Connecticut, score 81. Capital market signal.
+- Refinancing - Colorado - Walker & Dunlop Arranges $46.25M Refinance Loan for Colorado Multifamily Apartment Communi...: Refinancing, Colorado, score 79. Capital market signal.
 - Acquisition - Other / Unknown - Northmarq Arranges Fannie Mae Financing for Lawrence Apartments: Acquisition, Other / Unknown, score 75. Pricing benchmark.
-- Construction Financing - Florida - $76.8M Construction Financing Arranged for 415-Unit Mixed-Use Development in Jacksonville...: Construction Financing, Florida, score 75. Capital market signal.
-- Refinancing - Other / Unknown - Affinius Capital Provides $188M Loan for Refinancing of Northern New Jersey Apartment Comm...: Refinancing, Other / Unknown, score 75. Capital market signal.
-- Refinancing - Other / Unknown - Pacific Life Insurance Provides $125M Refi for Chicago Luxury Tower: Refinancing, Other / Unknown, score 75. Capital market signal.
-- Development Start - Miami / Florida - Developer Begins Work on 476-Unit Delray Beach Rental Community: Development Start, Miami / Florida, score 73. Capital market signal.
+- Construction Financing - New York City / New York - Partnership Receives $217M in Construction Financing for Brooklyn Affordable Housing Proje...: Construction Financing, New York City / New York, score 71. Capital market signal.
+- Construction Financing - New York City / New York - Redstone Bank, Goldman Sachs, New York State Provide $217M for Alafia Project: Construction Financing, New York City / New York, score 71. Capital market signal.
+- Construction Financing - Houston / Texas - S3 Capital Continues Texas Focus, Provides $28M for New Multifamily Construction: Construction Financing, Houston / Texas, score 65. Capital market signal.
 
 ## Project Pipeline / Supply Signals
 
-- Refinancing - Sun Belt - Berkadia Arranges $85.4M Refinancing for Two Orlando-Area Multifamily Communities: Refinancing, Sun Belt, score 95. Capital market signal.
-- Refinancing - Other / Unknown - JLL Arranges $124.6M Refinancing for Luxury Apartment Tower in Chicago: Refinancing, Other / Unknown, score 85. Capital market signal.
-- Acquisition - California - Eagle Real Estate, Vistria Group Acquire 402-Unit Apartment Community in Garden Grove, Cal...: Acquisition, California, score 80. Pricing benchmark.
-- Entitlement / Permitting - Santa Monica / California - Fresh renderings for mixed-use project at 2716 Ocean Park Blvd. in Santa Monica: Entitlement / Permitting, Santa Monica / California, score 77. Entitlement / zoning watch.
-- Development Start - Miami / Florida - Developer Begins Work on 476-Unit Delray Beach Rental Community: Development Start, Miami / Florida, score 73. Capital market signal.
-- JV / Partnership - New York City / New York - Charney, Tavros Begin Leasing 260-Unit Apartment Building in Brooklyn: JV / Partnership, New York City / New York, score 68. GP partnership reference.
-- Entitlement / Permitting - Other / Unknown - Wood framing rises for mixed-use building at 9431 Venice Blvd. in Palms: Entitlement / Permitting, Other / Unknown, score 54. Entitlement / zoning watch.
-- General Project Signal - Atlanta / Georgia - Developer Duo Adding 350 Apartments to Dunwoody Mixed-Use Project: General Project Signal, Atlanta / Georgia, score 51. Underwriting benchmark.
-- General Project Signal - Miami / Florida - Dezer Advancing Plan for 600 N. Miami Apartment Units: General Project Signal, Miami / Florida, score 49. Underwriting benchmark.
-- Development Start - Other / Unknown - Missing Middle Weakness: Development Start, Other / Unknown, score 41. Pipeline / supply signal.
+- Acquisition - Seattle - Goodman Real Estate Sells Two Apartment Communities Near Seattle for $172M: Acquisition, Seattle, score 95. Pricing benchmark.
+- Construction Financing - Miami / Florida - JLL Arranges $111M Construction Loan for Multifamily Development in Miami’s Edgewater Dist...: Construction Financing, Miami / Florida, score 95. Capital market signal.
+- Refinancing - Florida - Berkadia Secures $85.4M Refinancing of Two Orlando Multifamily Communities: Refinancing, Florida, score 95. Capital market signal.
+- Construction Financing - New York City / New York - Partnership Receives $217M in Construction Financing for Brooklyn Affordable Housing Proje...: Construction Financing, New York City / New York, score 71. Capital market signal.
+- Construction Financing - New York City / New York - Redstone Bank, Goldman Sachs, New York State Provide $217M for Alafia Project: Construction Financing, New York City / New York, score 71. Capital market signal.
+- Disposition / Exit - California - Kidder Mathews Arranges $12.375M Sale of 52-Unit Apartment Portfolio in Inglewood Californ...: Disposition / Exit, California, score 71. Entitlement / zoning watch.
+- Entitlement / Permitting - Los Angeles / California - 78-unit affordable housing complex to rise at 12025 Hoffman St. in Studio City: Entitlement / Permitting, Los Angeles / California, score 65. Entitlement / zoning watch.
+- General Project Signal - New York City / New York - Redevelopment Plan in Brooklyn Would Bring 5,600 Multifamily Apartment Units to Downtown B...: General Project Signal, New York City / New York, score 65. Underwriting benchmark.
+- Entitlement / Permitting - Los Angeles - Longtime plan for Arts District apartments showing life signs at 1800 E. 7th Street: Entitlement / Permitting, Los Angeles, score 63. Entitlement / zoning watch.
+- General Project Signal - Houston / Texas - Raven Capital Completes 33-Story Multifamily High-Rise in Houston’s Museum District: General Project Signal, Houston / Texas, score 61. Underwriting benchmark.
 
 ## BTR / Modular / Innovation Signals
 
-- No current deal/project signal detected.
+- BTR / Build-to-Rent - Atlanta / Georgia - NexMetro Opening First Atlanta-Area BTR Community: BTR / Build-to-Rent, Atlanta / Georgia, score 36. Pipeline / supply signal.
 
 ## Pricing / Cap Rate / Valuation Signals
 
+- Acquisition - Seattle - Goodman Real Estate Sells Two Apartment Communities Near Seattle for $172M: Acquisition, Seattle, score 95. Pricing benchmark.
 - Acquisition - Miami / Florida - Avalon Bay Planning Apartments, Retail in South Miami: Acquisition, Miami / Florida, score 85. Pricing benchmark.
-- Acquisition - New York - CBRE Arranges Over $150M in Multifamily Sales: Acquisition, New York, score 85. Pricing benchmark.
-- Acquisition - California - Eagle Real Estate, Vistria Group Acquire 402-Unit Apartment Community in Garden Grove, Cal...: Acquisition, California, score 80. Pricing benchmark.
-- Acquisition - Other / Unknown - $8.6M Acquisition Financing Secured for 88-Unit Charleston-Area Community with Full Tax Ab...: Acquisition, Other / Unknown, score 75. Pricing benchmark.
+- Acquisition - Los Angeles / California - In Likely a Culver City Record, Black Equities Buys Multifamily Asset for $106M: Acquisition, Los Angeles / California, score 77. Pricing benchmark.
 - Acquisition - Other / Unknown - Northmarq Arranges Fannie Mae Financing for Lawrence Apartments: Acquisition, Other / Unknown, score 75. Pricing benchmark.
 - Acquisition - California - Orange County Apartment Complex Sells for $133M: Acquisition, California, score 70. Pricing benchmark.
 - Acquisition - Phoenix / Arizona - Alliance Sells Phoenix Apartments for $81.4M: Acquisition, Phoenix / Arizona, score 64. Pricing benchmark.
+- JV / Partnership - Louisville / Kentucky - Four Mile, Midloch Acquire Apartment Community in Louisville for $38.3M: JV / Partnership, Louisville / Kentucky, score 63. Pricing benchmark.
 - Acquisition - Miami / Florida - Pembroke Pines Rental Asset Trades for $80.5M: Acquisition, Miami / Florida, score 62. Pricing benchmark.
+- Acquisition - Other / Unknown - Kiser Group Brokers $3.9M Sale of Apartment, Retail Building in Chicago’s Wicker Park: Acquisition, Other / Unknown, score 54. Pricing benchmark.
 - Acquisition - Atlanta / Georgia - Lion Real Estate Picks Up Atlanta Apartments for $51M: Acquisition, Atlanta / Georgia, score 52. Pricing benchmark.
-- Construction Financing - Other / Unknown - Priority Capital Advisory Secures $11.5M Loan for Recapitalization of Wisconsin Multifamil...: Construction Financing, Other / Unknown, score 48. Pricing benchmark.
 
 ## Deal / Project Signals By Residential Sector
 
-- Apartment: 24 deal/project signal(s)
-- Multifamily: 13 deal/project signal(s)
-- Mixed-Use Residential: 8 deal/project signal(s)
-- Affordable Housing: 8 deal/project signal(s)
-- General Residential: 4 deal/project signal(s)
+- Apartment: 28 deal/project signal(s)
+- Multifamily: 10 deal/project signal(s)
+- Mixed-Use Residential: 9 deal/project signal(s)
+- Affordable Housing: 6 deal/project signal(s)
 - Office-to-Residential Conversion: 3 deal/project signal(s)
+- General Residential: 2 deal/project signal(s)
 - Workforce Housing: 1 deal/project signal(s)
+- BTR / Single-Family Rental: 1 deal/project signal(s)
 
 ## Canonical Deal Summary
 
@@ -106,11 +107,11 @@ Use those reports to separate repeated coverage from genuinely separate events.
 ## Relationship Graph Intelligence
 
 Developer, lender, capital partner, market, and deal edges are available in `relationship_graph_report.md`.
-- CBRE -> cbre: Financing Relationship, score 100.
 - AvalonBay -> cushman: Financing Relationship, score 98.
-- Berkadia -> berkadia: Financing Relationship, score 98.
+- CBRE -> cbre: Financing Relationship, score 98.
+- IPA -> jll: Financing Relationship, score 97.
 - AvalonBay -> avalonbay: Acquisition / Buyer, score 96.
-- Greystar -> berkadia: Financing Relationship, score 94.
+- Berkadia -> berkadia: Financing Relationship, score 95.
 
 ## Implications for Woomi / Woomi Global
 
@@ -121,11 +122,11 @@ Developer, lender, capital partner, market, and deal edges are available in `rel
 
 ## Recommended Follow-up Actions
 
-- Capital market signal: read `Berkadia Arranges $85.4M Refinancing for Two Orlando-Area Multifamily Communities` from Yield PRO. Canonical market: Sun Belt.
-- Entitlement / zoning watch: read `Yorba Linda Parking Lot Sells for Townhome Redevelopment` from Connect CRE Orange County. Canonical market: California.
+- Pricing benchmark: read `Goodman Real Estate Sells Two Apartment Communities Near Seattle for $172M` from REBusiness Online. Canonical market: Seattle.
+- Capital market signal: read `JLL Arranges $111M Construction Loan for Multifamily Development in Miami’s Edgewater District` from REBusiness Online. Canonical market: Sun Belt.
+- Capital market signal: read `Berkadia Secures $85.4M Refinancing of Two Orlando Multifamily Communities` from REBusiness Online. Canonical market: Florida.
 - Pricing benchmark: read `Avalon Bay Planning Apartments, Retail in South Miami` from Connect CRE South Florida. Canonical market: Sun Belt.
-- Pricing benchmark: read `CBRE Arranges Over $150M in Multifamily Sales` from Connect CRE Apartments. Canonical market: New York.
-- Capital market signal: read `S3 Originates $111M Construction Loan for Edgewater Rental Community` from Connect CRE Apartments. Canonical market: Sun Belt.
-- Capital market signal: read `JLL Arranges $124.6M Refinancing for Luxury Apartment Tower in Chicago` from REBusiness Online. Canonical market: Other / Unknown.
-- Underwriting benchmark: read `Pantzer Acquires Class A Multifamily in Downtown Stamford` from Connect CRE. Canonical market: New York.
-- Pricing benchmark: read `Eagle Real Estate, Vistria Group Acquire 402-Unit Apartment Community in Garden Grove, California` from REBusiness Online. Canonical market: California.
+- Capital market signal: read `Dwight Provides Largest Construction Loan in Company History for Gilroy Multifamily` from Connect CRE Apartments. Canonical market: California.
+- Capital market signal: read `S3 Originates $111M Construction Loan for Edgewater Rental Community` from Connect CRE South Florida. Canonical market: Sun Belt.
+- Capital market signal: read `CBRE Announces $221M Sale of Luxury Apartment Community in Stamford Connecticut` from Yield PRO. Canonical market: Connecticut.
+- Underwriting benchmark: read `Pantzer Acquires Class A Multifamily in Downtown Stamford` from Connect CRE Apartments. Canonical market: New York.

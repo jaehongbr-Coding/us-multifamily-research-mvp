@@ -1,47 +1,47 @@
 # Classification Quality Report
 
-Generated: 2026-07-10 00:06:50
+Generated: 2026-07-10 23:59:37
 
 ## Classification Summary
 
-- Total articles classified: 84
-- Topic distribution: capital_markets: 17; transaction_market: 15; gp_activity: 13; supply_demand: 12; development_pipeline: 10; macro_financing: 6; other: 6; institutional_capital: 4
+- Total articles classified: 77
+- Topic distribution: transaction_market: 17; supply_demand: 13; capital_markets: 11; development_pipeline: 10; other: 8; gp_activity: 7; macro_financing: 6; institutional_capital: 4
 - Classification is rule-based and conservative. Low or unknown labels should be treated as review queues, not failures.
 
 ## Topic Distribution
 
-- capital_markets: 17 article(s), high 7, medium 8, low 2, unknown 0. Top markets: Other / Unknown (7); New York City / New York (3); Miami / Florida (2); Houston / Texas (1); California (1).
-- transaction_market: 15 article(s), high 5, medium 8, low 2, unknown 0. Top markets: Other / Unknown (2); New York (2); Miami / Florida (2); Phoenix / Arizona (2); Los Angeles / California (2).
-- gp_activity: 13 article(s), high 0, medium 0, low 1, unknown 12. Top markets: National (3); Atlanta / Georgia (2); Miami / Florida (2); Other / Unknown (2); Los Angeles / California (1).
-- supply_demand: 12 article(s), high 1, medium 0, low 11, unknown 0. Top markets: Other / Unknown (8); National (3); Atlanta / Georgia (1).
-- development_pipeline: 10 article(s), high 1, medium 6, low 3, unknown 0. Top markets: Other / Unknown (4); Miami / Florida (1); California (1); New York City / New York (1); Houston / Texas (1).
-- macro_financing: 6 article(s), high 0, medium 0, low 0, unknown 6. Top markets: Other / Unknown (3); Houston / Texas (1); California (1); Los Angeles / California (1).
-- other: 6 article(s), high 0, medium 0, low 0, unknown 6. Top markets: Los Angeles / California (3); San Francisco / California (1); Other / Unknown (1); New York City / New York (1).
-- institutional_capital: 4 article(s), high 0, medium 2, low 2, unknown 0. Top markets: Virginia (1); Riverside / California (1); New York City / New York (1); Other / Unknown (1).
-- research_data: 1 article(s), high 0, medium 0, low 0, unknown 1. Top markets: Santa Monica / California (1).
+- transaction_market: 17 article(s), high 7, medium 5, low 5, unknown 0. Top markets: Los Angeles / California (3); Other / Unknown (3); Miami / Florida (2); Phoenix / Arizona (2); California (2).
+- supply_demand: 13 article(s), high 1, medium 0, low 12, unknown 0. Top markets: Other / Unknown (8); National (3); Houston / Texas (1); Atlanta / Georgia (1).
+- capital_markets: 11 article(s), high 6, medium 4, low 1, unknown 0. Top markets: Miami / Florida (4); New York City / New York (3); Houston / Texas (1); Florida (1); California (1).
+- development_pipeline: 10 article(s), high 0, medium 4, low 6, unknown 0. Top markets: Other / Unknown (5); New York City / New York (2); Georgia (1); Houston / Texas (1); Atlanta / Georgia (1).
+- other: 8 article(s), high 0, medium 0, low 0, unknown 8. Top markets: Los Angeles / California (4); Los Angeles (1); San Francisco / California (1); Other / Unknown (1); New York City / New York (1).
+- gp_activity: 7 article(s), high 0, medium 0, low 1, unknown 6. Top markets: Miami / Florida (2); National (2); Los Angeles / California (1); Atlanta / Georgia (1); Other / Unknown (1).
+- macro_financing: 6 article(s), high 0, medium 0, low 0, unknown 6. Top markets: Other / Unknown (4); Houston / Texas (1); Los Angeles / California (1).
+- institutional_capital: 4 article(s), high 0, medium 4, low 0, unknown 0. Top markets: New York (1); Louisville / Kentucky (1); Riverside / California (1); San Francisco / California (1).
+- research_data: 1 article(s), high 0, medium 0, low 0, unknown 1. Top markets: Los Angeles / California (1).
 
 ## Low Confidence / Unknown Articles
 
 - Kennedy Wilson, Jamison partner on 4K affordable units in LA (Multifamily Dive, Los Angeles / California): No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
 - The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist (Multifamily Executive, National): Supply/demand terms detected: effective_rent_growth, concession. Primary topic set to supply_demand; confidence low.
+- Northmarq Brokers $5.25M Sale of 105-Unit Silver Lake Development Site in Los Angeles (Yield PRO, Los Angeles / California): Capital event keywords detected: disposition. Primary topic set to transaction_market; confidence low.
+- CBRE Announces $221M Sale of Luxury Apartment Community in Stamford Connecticut (Yield PRO, Connecticut): Capital event keywords detected: disposition. Primary topic set to transaction_market; confidence low. Operator/property management activity detected.
+- Redevelopment Plan in Brooklyn Would Bring 5,600 Multifamily Apartment Units to Downtown Brooklyn (Yield PRO, New York City / New York): Development-stage terms detected: delivery, redevelopment. Primary topic set to development_pipeline; confidence low.
+- Longtime plan for Arts District apartments showing life signs at 1800 E. 7th Street (Urbanize LA, Los Angeles): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to other; confidence unknown.
+- 78-unit affordable housing complex to rise at 12025 Hoffman St. in Studio City (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to research_data; confidence unknown.
+- Seven apartments coming to 217 N. Ave. 55 in Highland Park (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to other; confidence unknown.
 - Koreatown offices at 3700 Wilshire Blvd. to be converted to housing (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to other; confidence unknown.
-- Fresh renderings for mixed-use project at 2716 Ocean Park Blvd. in Santa Monica (Urbanize LA, Santa Monica / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to research_data; confidence unknown.
-- NMHC Survey: Builders, Developers Optimistic About Long-Term Multifamily Construction Activity (REBusiness Online, Washington DC): No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
 - Avalon Bay Planning Apartments, Retail in South Miami (Connect CRE South Florida, Miami / Florida): Capital event keywords detected: acquisition. Primary topic set to transaction_market; confidence low.
-- 45-Unit Garden Apartment Property Trades in LA’s Palms Neighborhood (Connect CRE California, Los Angeles / California): Capital event keywords detected: disposition. Primary topic set to transaction_market; confidence low.
-- Berkadia Arranges Sale and Financing of 270-Unit Multifamily Community in Manassas Virginia (Yield PRO, Virginia): Institutional activity terms detected: lender_activity. Primary topic set to institutional_capital; confidence low.
 - Wood framing rises for mixed-use building at 9431 Venice Blvd. in Palms (Urbanize LA, Other / Unknown): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Development-stage terms detected: under_construction. Primary topic set to development_pipeline; confidence low.
+- Groundbreaking For 11 El Camino Real, San Carlos (SF YIMBY, Other / Unknown): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Development-stage terms detected: construction_start. Primary topic set to development_pipeline; confidence low.
+- Raven Capital Completes 33-Story Multifamily High-Rise in Houston’s Museum District (REBusiness Online, Houston / Texas): Supply/demand terms detected: effective_rent_growth. Primary topic set to supply_demand; confidence low.
 - Best Year for Missing Middle Construction Since 2007 (NAHB Eye on Housing - Multifamily, Other / Unknown): Supply/demand terms detected: supply_pressure. Primary topic set to supply_demand; confidence low.
 - Missing Middle Weakness (NAHB Eye on Housing - Multifamily, Other / Unknown): Supply/demand terms detected: supply_pressure. Primary topic set to supply_demand; confidence low.
 - Developer Duo Adding 350 Apartments to Dunwoody Mixed-Use Project (Connect CRE Atlanta, Atlanta / Georgia): No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
-- Nashville Developer Eyes Former Dance Club Site for Apartment Tower (Connect CRE Apartments, Atlanta / Georgia): No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
+- Preliminary Permits For 2032 Francisco Street, North Berkeley (SF YIMBY, Other / Unknown): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Development-stage terms detected: permit. Primary topic set to development_pipeline; confidence low.
 - Dezer Advancing Plan for 600 N. Miami Apartment Units (Connect CRE South Florida, Miami / Florida): No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
-- The Sunbelt and Multifamily: Oversupply Isn’t the Whole Story (Connect CRE, Atlanta / Georgia): Supply/demand terms detected: supply_pressure, oversupply. Primary topic set to supply_demand; confidence low.
 - Structural columns buckle on 21st floor of Manhattan adaptive reuse project (Multifamily Dive, New York City / New York): Development-stage terms detected: adaptive_reuse. Primary topic set to development_pipeline; confidence low.
-- Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily, Other / Unknown): No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
-- Grubb Nabs $377M FiDi Construction Loan: The N.Y. Deal Sheet (Bisnow, New York City / New York): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Capital event keywords detected: construction_financing. Financing type keywords detected: construction_loan. Primary topic set to capital_markets; confidence low.
-- Texas apartment owners face uphill battles (Multifamily Dive, Houston / Texas): No clear rule-based event keyword was detected. Primary topic set to macro_financing; confidence unknown.
-- Work trudges along for Pico Pico Library in Koreatown (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to other; confidence unknown.
+- Icon Real Estate Advisors Arranges $3.1M Sale of Clifton New Jersey Mixed-Use Multifamily Property (Yield PRO, Other / Unknown): Capital event keywords detected: disposition. Primary topic set to transaction_market; confidence low.
 - Additional low/unknown rows omitted: 26
 
 ## Data Quality Notes

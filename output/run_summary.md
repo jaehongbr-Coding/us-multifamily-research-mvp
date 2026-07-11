@@ -1,14 +1,14 @@
 # Run Summary
 
-Generated: 2026-07-10 00:06:50
+Generated: 2026-07-10 23:59:37
 
 ## Quick Counts
 
-- Total articles saved: 84
-- High-confidence signals: 58
-- Opportunities: 58
-- Distress signals: 15
-- LA asset watch items: 46
+- Total articles saved: 77
+- High-confidence signals: 50
+- Opportunities: 57
+- Distress signals: 11
+- LA asset watch items: 45
 - Dashboard cards: 38
 - Pipeline health status: OK
 
@@ -21,7 +21,7 @@ Generated: 2026-07-10 00:06:50
 
 ## Top Dashboard Signal
 
-- Acquisition - Miami / Florida - Avalon Bay Planning Apartments, Retail in South Miami (LA Asset Watch)
+- Acquisition - Los Angeles / California - In Likely a Culver City Record, Black Equities Buys Multifamily Asset for $106M (LA Asset Watch)
 
 ## Suggested Next Action
 

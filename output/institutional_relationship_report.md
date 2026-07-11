@@ -1,76 +1,71 @@
 # Institutional Relationship & Capital Flow Report
 
-Generated: 2026-07-10 00:07:04
+Generated: 2026-07-10 23:59:49
 
 ## Top Institutional Relationship Signals
 
 - Alliance Residential: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - AvalonBay: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Berkadia: score 100, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- CBRE: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Freddie Mac: score 100, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- CBRE: score 100, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 - Greystar: score 100, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- JLL: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - Kennedy Wilson: score 100, Operational / Platform Investment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- GID: score 98, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- Marcus & Millichap: score 97, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- JLL: score 98, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- Multifamily Orange County Investments: score 96, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Dwight Mortgage Trust: score 91, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- Edgewater Rental Community S3 Capital: score 91, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- Fannie Mae: score 91, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 
 ## Tier 1 Firm Watch
 
 - AvalonBay: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - Greystar: score 100, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 - Kennedy Wilson: score 100, Operational / Platform Investment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Brookfield: score 80, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 
 ## California / LA Capital and Developer Watch
 
 - Alliance Residential: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - AvalonBay: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- CBRE: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- JLL: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - Kennedy Wilson: score 100, Operational / Platform Investment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Marcus & Millichap: score 97, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Eagle Real Estate, Vistria Group: score 96, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- JLL: score 98, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - Multifamily Orange County Investments: score 96, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Dwight Mortgage Trust: score 91, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - Edgewater Rental Community S3 Capital: score 91, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- High Street Residential: score 91, Development Capital Deployment, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- IPA: score 91, Refinancing / Recapitalization, Capital Partner Tracking Signal. Review California / LA capital and developer activity.
+- Madison Capital Group: score 91, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- S3 Capital Continues Texas Focus: score 91, Refinancing / Recapitalization, Capital Partner Tracking Signal. Review California / LA capital and developer activity.
 
 ## Capital Inflow / Outflow Signals
 
 - Alliance Residential: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - AvalonBay: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Berkadia: score 100, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- CBRE: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Freddie Mac: score 100, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- CBRE: score 100, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 - Greystar: score 100, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- JLL: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- GID: score 98, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- Marcus & Millichap: score 97, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Eagle Real Estate, Vistria Group: score 96, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Multifamily Orange County Investments: score 96, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Fannie Mae: score 91, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- Madison Capital Group: score 91, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- Kiser Group: score 90, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- Four Mile Capital: score 89, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Icon Real Estate Advisors: score 83, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 
 ## JV / Partnership Signals
 
 - Kennedy Wilson: score 100, Operational / Platform Investment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Eagle Real Estate, Vistria Group: score 96, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Multifamily Orange County Investments: score 96, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Affinius Capital: score 91, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Priority Capital Advisory: score 83, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Brookfield: score 80, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Dunlop Investment Partners: score 80, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Walker & Dunlop: score 80, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Four Mile Capital: score 89, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- CDK Capital: score 75, No Clear Capital Flow Signal, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 
 ## Competitive Benchmark Signals
 
 - Alliance Residential: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - AvalonBay: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Berkadia: score 100, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- CBRE: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Freddie Mac: score 100, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- CBRE: score 100, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 - Greystar: score 100, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- JLL: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- GID: score 98, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- Marcus & Millichap: score 97, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Merchants Capital: score 96, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- JLL: score 98, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- Dwight Mortgage Trust: score 91, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- Edgewater Rental Community S3 Capital: score 91, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- Fannie Mae: score 91, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- Madison Capital Group: score 91, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- Kiser Group: score 90, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 
 ## Pricing Discovery Signals
 
@@ -82,41 +77,41 @@ Generated: 2026-07-10 00:07:04
 | --- | --- | --- | --- | --- | --- | --- |
 | Alliance Residential | Los Angeles / California; Phoenix / Arizona | Core Multifamily News; Site / Parcel Source Expansion | acquisition; disposition / exit; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
 | AvalonBay | Miami / Florida | Core Multifamily News; Site / Parcel Source Expansion | acquisition; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
-| Berkadia | Sun Belt; Virginia | Core Multifamily News; Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
-| CBRE | California; New York | Core Multifamily News; Site / Parcel Source Expansion | acquisition; disposition / exit; market expansion; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
-| Freddie Mac | Other / Unknown | Core Multifamily News | acquisition; refinancing; capital raise; market expansion; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
-| Greystar | Virginia | Site / Parcel Source Expansion | acquisition; disposition / exit; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
-| JLL | Florida; Miami / Florida; New York City / New York; Other / Unknown | Core Multifamily News; Site / Parcel Source Expansion | acquisition; refinancing; capital raise; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
+| CBRE | Connecticut; New York; Seattle | Core Multifamily News; Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
+| Greystar | Los Angeles / California | Core Multifamily News | acquisition; disposition / exit; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
 | Kennedy Wilson | Los Angeles / California | Core Multifamily News | office-to-residential conversion; JV / partnership; operational technology / AI adoption | Operational / Platform Investment | Potential JV / Partnership Signal | potential JV partnership signal |
-| GID | Virginia | Site / Parcel Source Expansion | acquisition; disposition / exit; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
-| Marcus & Millichap | Dallas / Texas; Los Angeles / California | Regional / California / LA Sources; Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
+| JLL | Miami / Florida | Site / Parcel Source Expansion | refinancing; operational technology / AI adoption | Refinancing / Recapitalization | GP Capability Benchmark Signal | competitive pressure indicator |
+| Multifamily Orange County Investments | California | Core Multifamily News | acquisition; disposition / exit; JV / partnership; market expansion | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
+| Dwight Mortgage Trust | California | Site / Parcel Source Expansion | refinancing; operational technology / AI adoption | Refinancing / Recapitalization | GP Capability Benchmark Signal | competitive pressure indicator |
+| Edgewater Rental Community S3 Capital | Miami / Florida | Site / Parcel Source Expansion | refinancing; operational technology / AI adoption | Refinancing / Recapitalization | GP Capability Benchmark Signal | competitive pressure indicator |
+| Fannie Mae | Other / Unknown | Site / Parcel Source Expansion | acquisition; refinancing; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
 
 ## Deal / Project Intelligence
 
 Deal and project-level extraction is available in `deal_pipeline_report.md`.
-- Refinancing in Sun Belt: Unknown / Unknown / berkadia.
-- Disposition / Exit in California: Unknown / Unknown / cbre.
+- Acquisition in Seattle: Unknown / Unknown / cbre.
+- Construction Financing in Miami / Florida: Unknown / Unknown / jll.
+- Refinancing in Florida: Unknown / Unknown / berkadia.
 - Acquisition in Miami / Florida: avalonbay / avalonbay / cushman.
-- Acquisition in New York: kkr / kkr / cbre.
 - Construction Financing in Miami / Florida: Unknown / Unknown / jll.
 
 ## Relationship Graph Intelligence
 
 Capital partner, lender, GP, and market edges are available in `relationship_graph_report.md`.
-- CBRE -> cbre: Financing Relationship.
 - AvalonBay -> cushman: Financing Relationship.
-- Berkadia -> berkadia: Financing Relationship.
+- CBRE -> cbre: Financing Relationship.
+- IPA -> jll: Financing Relationship.
 - AvalonBay -> avalonbay: Acquisition / Buyer.
-- Greystar -> berkadia: Financing Relationship.
+- Berkadia -> berkadia: Financing Relationship.
 
 ## High-Scoring GP Watchlist Reference
 
 Emerging GP watchlist rankings are available in `gp_watchlist_report.md`.
-- Eagle Real Estate, Vistria Group: 78 (Tier 2 High Potential GP), Strong partnership signal.
 - Multifamily Orange County Investments: 78 (Tier 2 High Potential GP), Strong partnership signal.
-- CBRE: 73 (Tier 2 High Potential GP), Strong partnership signal.
-- JLL: 73 (Tier 2 High Potential GP), Strong partnership signal.
 - Kennedy Wilson: 72 (Tier 2 High Potential GP), Strong partnership signal.
+- CBRE: 70 (Tier 2 High Potential GP), Moderate partnership signal.
+- IPA: 70 (Tier 2 High Potential GP), Moderate partnership signal.
+- JLL: 69 (Tier 3 Monitoring GP), Moderate partnership signal.
 
 ## GP Source Expansion Summary
 
@@ -153,21 +148,21 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 - Alliance Residential: Review California / LA capital and developer activity
 - AvalonBay: Review California / LA capital and developer activity
-- Berkadia: Track capital deployment and pricing signals
-- CBRE: Review California / LA capital and developer activity
-- Freddie Mac: Track capital deployment and pricing signals
+- CBRE: Track capital deployment and pricing signals
 - Greystar: Track capital deployment and pricing signals
-- JLL: Review California / LA capital and developer activity
 - Kennedy Wilson: Map potential GP / JV relationship and monitor partnership activity
+- JLL: Review California / LA capital and developer activity
+- Multifamily Orange County Investments: Map potential GP / JV relationship and monitor partnership activity
+- Dwight Mortgage Trust: Review California / LA capital and developer activity
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 177
-- Institutional-grade signals: 19
-- High-confidence signals: 58
-- Weak/noisy signals: 91
-- High-confidence watchlist items: 58
+- Signals evaluated: 180
+- Institutional-grade signals: 16
+- High-confidence signals: 50
+- Weak/noisy signals: 110
+- High-confidence watchlist items: 50
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

@@ -1,22 +1,22 @@
 # GP Routing Quality Report
 
-Generated: 2026-07-10 00:06:50
+Generated: 2026-07-10 23:59:37
 
 ## Summary
-- Total GP / Capital candidates: 51
-- Selected GP / Capital articles: 28
-- Debt Financing count: 9
-- Refinancing count: 8
-- Construction Financing count: 5
-- Acquisition Financing count: 2
+- Total GP / Capital candidates: 43
+- Selected GP / Capital articles: 22
+- Debt Financing count: 6
+- Refinancing count: 2
+- Construction Financing count: 9
+- Acquisition Financing count: 1
 - Equity Transaction count: 0
-- Operator Activity count: 1
-- Other / Unknown market count: 34
+- Operator Activity count: 2
+- Other / Unknown market count: 28
 
 ## Routing Regression Summary
-- Market Intelligence routed articles: 17
-- Development Activity routed articles: 63
-- GP / Capital Activity routed articles: 2
+- Market Intelligence routed articles: 16
+- Development Activity routed articles: 55
+- GP / Capital Activity routed articles: 4
 - Market-protected research / macro / supply articles: 6
 - Approval / Entitlement development rows: 0
 - Site / Parcel development rows: 0
@@ -24,15 +24,14 @@ Generated: 2026-07-10 00:06:50
 - Routing rule: approval / entitlement wording takes priority over Site / Parcel when both appear.
 
 ## Activity Type Distribution
-- disposition_exit: 13
-- debt_financing: 9
-- refinancing: 8
-- construction_financing: 5
-- joint_venture: 5
-- acquisition: 5
-- acquisition_financing: 2
-- capital_raise: 2
-- asset_management_operator_activity: 1
+- disposition_exit: 15
+- construction_financing: 9
+- debt_financing: 6
+- joint_venture: 4
+- acquisition: 3
+- asset_management_operator_activity: 2
+- refinancing: 2
+- acquisition_financing: 1
 - none: 1
 
 ## Excluded from GP / Capital with Reason
@@ -40,34 +39,34 @@ Generated: 2026-07-10 00:06:50
 
 ## Top Unresolved Market Extraction Examples
 - The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist | Multifamily Executive | used broad market bucket: National
-- $8.6M Acquisition Financing Secured for 88-Unit Charleston-Area Community with Full Tax Abatement | Yield PRO | no city, state, or market keyword detected
-- Northmarq Arranges Fannie Mae Financing for Lawrence Apartments | Connect CRE | no city, state, or market keyword detected
-- Merchants Capital Secures $10M for Kansas Affordable Housing Development | Connect CRE | no city, state, or market keyword detected
-- Affinius Capital Provides $188M Loan for Refinancing of Northern New Jersey Apartment Community | REBusiness Online | no city, state, or market keyword detected
-- JLL Arranges $124.6M Refinancing for Luxury Apartment Tower in Chicago | REBusiness Online | no city, state, or market keyword detected
-- Pacific Life Insurance Provides $125M Refi for Chicago Luxury Tower | Commercial Observer | no city, state, or market keyword detected
+- Northmarq Arranges Fannie Mae Financing for Lawrence Apartments | Connect CRE Apartments | no city, state, or market keyword detected
 - Wood framing rises for mixed-use building at 9431 Venice Blvd. in Palms | Urbanize LA | no city, state, or market keyword detected
-- Flournoy Development Completes Construction on Greenville South Carolina Luxury Multifamily Apartment Project | Yield PRO | no city, state, or market keyword detected
+- Kiser Group Brokers $3.9M Sale of Apartment, Retail Building in Chicago’s Wicker Park | REBusiness Online | no city, state, or market keyword detected
+- Groundbreaking For 11 El Camino Real, San Carlos | SF YIMBY | no city, state, or market keyword detected
 - Best Year for Missing Middle Construction Since 2007 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Missing Middle Weakness | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- Merchants Capital Secures $10M+ for 121-Unit Multifamily Affordable Housing Development in Lawrence Kansas | Yield PRO | no city, state, or market keyword detected
+- Preliminary Permits For 2032 Francisco Street, North Berkeley | SF YIMBY | no city, state, or market keyword detected
+- Icon Real Estate Advisors Arranges $3.1M Sale of Clifton New Jersey Mixed-Use Multifamily Property | Yield PRO | no city, state, or market keyword detected
 - Multifamily Missing Middle Construction: First Quarter 2026 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- Priority Capital Advisory Secures $11.5M Loan for Recapitalization of Wisconsin Multifamily Property | REBusiness Online | no city, state, or market keyword detected
 - Multifamily Absorption Rate Remains Below 50% | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- MMCC Arranges $25.8M in Financing for Omaha Multifamily Property | REBusiness Online | no city, state, or market keyword detected
+- Centralization Associated with Occupancy Uplift | Multifamily Executive | no city, state, or market keyword detected
+- Inland Sells Two Hilton-Branded Hotels in Michigan for $32M | REBusiness Online | used broad market bucket: National
+- Rent Prices Continue to Rise, While Absorption Remains Low | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 
 ## Sample Selected GP / Capital Articles
-- $8.6M Acquisition Financing Secured for 88-Unit Charleston-Area Community with Full Tax Abatement | acquisition_financing | Other / Unknown | Yield PRO
+- CBRE Announces $221M Sale of Luxury Apartment Community in Stamford Connecticut | asset_management_operator_activity | Connecticut | Yield PRO
+- In Likely a Culver City Record, Black Equities Buys Multifamily Asset for $106M | disposition_exit | Los Angeles / California | Commercial Observer
 - S3 Capital Continues Texas Focus, Provides $28M for New Multifamily Construction | construction_financing | Houston / Texas | Commercial Observer
-- Northmarq Arranges Fannie Mae Financing for Lawrence Apartments | acquisition_financing | Other / Unknown | Connect CRE
-- Merchants Capital Secures $10M for Kansas Affordable Housing Development | debt_financing | Other / Unknown | Connect CRE
-- Affinius Capital Provides $188M Loan for Refinancing of Northern New Jersey Apartment Community | joint_venture | Other / Unknown | REBusiness Online
-- JLL Arranges $124.6M Refinancing for Luxury Apartment Tower in Chicago | refinancing | Other / Unknown | REBusiness Online
-- NMHC Survey: Builders, Developers Optimistic About Long-Term Multifamily Construction Activity | debt_financing | Washington DC | REBusiness Online
-- S3 Originates $111M Construction Loan for Edgewater Rental Community | construction_financing | Miami / Florida | Connect CRE Apartments
+- Rockpoint, Urby Launch JV for 69-Story Residential Tower on Jersey City Waterfront | joint_venture | New York | Connect CRE
+- JLL Arranges $111M Construction Loan for Multifamily Development in Miami’s Edgewater District | construction_financing | Miami / Florida | REBusiness Online
+- Berkadia Secures $85.4M Refinancing of Two Orlando Multifamily Communities | refinancing | Florida | REBusiness Online
+- Dwight Provides Largest Construction Loan in Company History for Gilroy Multifamily | construction_financing | California | Connect CRE Apartments
+- Northmarq Arranges Fannie Mae Financing for Lawrence Apartments | acquisition_financing | Other / Unknown | Connect CRE Apartments
+- S3 Originates $111M Construction Loan for Edgewater Rental Community | construction_financing | Miami / Florida | Connect CRE South Florida
 - Avalon Bay Planning Apartments, Retail in South Miami | acquisition | Miami / Florida | Connect CRE South Florida
-- Slatt Capital Arranges Life Company Loan for Novato Multifamily | refinancing | California | Connect CRE California
-- Berkadia Arranges $85.4M Refinancing for Two Orlando-Area Multifamily Communities | refinancing | Sun Belt | Yield PRO
-- Pacific Life Insurance Provides $125M Refi for Chicago Luxury Tower | refinancing | Other / Unknown | Commercial Observer
-- Berkadia Arranges Sale and Financing of 270-Unit Multifamily Community in Manassas Virginia | disposition_exit | Virginia | Yield PRO
-- Eagle Real Estate, Vistria Group Acquire 402-Unit Apartment Community in Garden Grove, California | acquisition | California | REBusiness Online
-- PCCP Provides $80M to Refinance Bethesda Apartment Property | refinancing | Washington DC | Connect CRE Apartments
+- Four Mile, Midloch Acquire Apartment Community in Louisville for $38.3M | joint_venture | Louisville / Kentucky | REBusiness Online
+- Partnership Receives $217M in Construction Financing for Brooklyn Affordable Housing Project | construction_financing | New York City / New York | REBusiness Online
+- Redstone Bank, Goldman Sachs, New York State Provide $217M for Alafia Project | construction_financing | New York City / New York | Commercial Observer
+- Walker & Dunlop Arranges $46.25M Refinance Loan for Colorado Multifamily Apartment Community | refinancing | Colorado | Yield PRO
+- Dependable Equities Secures $54M Pre-Construction Financing for Major Multifamily Development in Fort Lauderdale | construction_financing | Miami / Florida | Yield PRO

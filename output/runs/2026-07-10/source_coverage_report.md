@@ -1,17 +1,16 @@
 # Site / Parcel Source Coverage Report
 
-Generated: 2026-07-10 00:07:03
+Generated: 2026-07-10 23:59:48
 
 - Total added sources attempted: 25
 - Successful sources: 7
 - Blocked / inaccessible / skipped sources: 18
-- Sources with zero Site / Parcel candidates: 22
+- Sources with zero Site / Parcel candidates: 23
 
 ## Top Site / Parcel Candidate Sources
 
 - Connect CRE South Florida: 1 candidate(s) from 10 fetched article(s).
 - Connect CRE Atlanta: 1 candidate(s) from 10 fetched article(s).
-- Connect CRE Orange County: 1 candidate(s) from 10 fetched article(s).
 
 ## Why Coverage May Still Be Thin
 
@@ -28,7 +27,7 @@ Generated: 2026-07-10 00:07:03
 - Connect CRE Phoenix: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
 - Connect CRE Atlanta: success | fetched 10 | Site / Parcel candidates 1 | Available
 - Connect CRE Charlotte: error | fetched 0 | Site / Parcel candidates 0 | RSS parsing issue: status=404; <unknown>:22:51: not well-formed (invalid token)
-- Connect CRE Orange County: success | fetched 10 | Site / Parcel candidates 1 | Available
+- Connect CRE Orange County: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
 - CRE Daily: skipped | fetched 0 | Site / Parcel candidates 0 | No public feed URL configured
 - Institutional Property Advisors: skipped | fetched 0 | Site / Parcel candidates 0 | No public feed URL configured
 - JLL Newsroom: skipped | fetched 0 | Site / Parcel candidates 0 | No public feed URL configured

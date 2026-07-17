@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-07-17 00:00:48
+Generated: 2026-07-17 23:54:45
 
 ## Top Strategic Relevance Articles
 
-- 80 / richness 85: NewPoint Originates $35M Financing for Arlington Hotel-to-Multifamily Conversion (Connect CRE Apartments, Washington DC) - institutional acquisition behavior; large-scale refinance tied to strategy
-- 74 / richness 100: Bascom Acquires Buena Park Apartments as Value-Add Deal (Connect CRE Apartments, California) - institutional acquisition behavior
-- 74 / richness 100: Capital Square Completes 47th Full-Cycle DST Program with the $115M Sale of 2000 West Creek Apartments (Yield PRO, Virginia) - institutional acquisition behavior
-- 72 / richness 90: Silver Lake Development Parcel Increases Density Through Re-Entitlement (Connect CRE California, Los Angeles / California) - entitlement persistence
-- 72 / richness 90: Catholic Homes Secures $147M Construction Loan for Bronx Housing Development (Commercial Observer, New York City / New York) - entitlement persistence
-- 70 / richness 85: LTC Acquires Two Seniors Housing Communities in Colorado, New Mexico for $73M (REBusiness Online, Colorado) - institutional acquisition behavior
+- 88 / richness 85: Western Centers Sells Three-Property Retail Portfolio in Metro Denver for $30.3M (REBusiness Online, Denver / Colorado) - sponsor expansion; institutional acquisition behavior
+- 86 / richness 85: Eastham Capital Sells 200-Unit Apartment Complex in Humble, Texas (REBusiness Online, Houston / Texas) - JV or partnership activity; institutional acquisition behavior
+- 80 / richness 85: NewPoint Provides $34.6M Loan for Hotel-to-Multifamily Conversion Project in Arlington, Virginia (REBusiness Online, Virginia) - institutional acquisition behavior; large-scale refinance tied to strategy
+- 76 / richness 100: Greystone Real Estate Capital Closes $137M Affordable Housing Development Fund (Commercial Observer, National) - development continuation
+- 74 / richness 100: Bascom Acquires Buena Park Apartments as Value-Add Deal (Connect CRE Orange County, California) - institutional acquisition behavior
+- 70 / richness 100: Flournoy Properties Lands $46.5M Refi on Leander Rental Asset (Connect CRE Texas, Austin / Texas) - large-scale refinance tied to strategy
+- 70 / richness 85: Prime Residential Purchases Palm Court Apartments in Los Angeles for $51.2M (REBusiness Online, Los Angeles / California) - institutional acquisition behavior
 - 70 / richness 85: Rise48 Equity Acquires N. Phoenix Rental Community (Connect CRE Phoenix, Phoenix / Arizona) - institutional acquisition behavior
-- 70 / richness 85: Capital Square Sells 2000 West Creek Apartments in Richmond for $115M (REBusiness Online, Virginia) - institutional acquisition behavior
-- 69 / richness 75: Citi Prices Largest Single Bank-Contributed, Multi-Only CMBS Conduit Deal Since GFC (Commercial Observer, Denver / Colorado) - entitlement persistence
-- 68 / richness 75: Milhaus Merges with SRG Residential, Will Acquire Broadshore Capital (Connect CRE Orange County, California) - institutional acquisition behavior
+- 70 / richness 85: Apartment Complex Sells for $51M in Los Angeles’ Miracle Mile (Commercial Observer, Los Angeles / California) - institutional acquisition behavior
+- 70 / richness 85: S2 Capital Offloads 229-Unit Plano Rental Community (Connect CRE Apartments, Dallas / Texas) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -36,12 +36,13 @@ Generated: 2026-07-17 00:00:48
 ## Potential Parsing Integrity Issues
 
 - low_value_promotional: The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist (Multifamily Executive) - chat-with-chief-economist promotional format
+- suspicious_duplicate: Phase One of Treasure Island Redevelopment Opens, San Francisco (SF YIMBY) - source-feed signal bleed suspected
 - low_value_promotional: 2026 Resident Experience Management Report (Multifamily Executive) - promotional/event keyword: whitepaper
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 26
-- Development / sponsor behavior articles: 36
+- Financing-oriented articles: 27
+- Development / sponsor behavior articles: 48
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

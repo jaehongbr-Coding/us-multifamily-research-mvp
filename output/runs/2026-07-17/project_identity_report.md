@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-07-17 00:01:13
+Generated: 2026-07-17 23:55:11
 
-- Total raw project references: 715
-- Total canonical projects: 181
-- Duplicate project clusters: 126
-- High-confidence project identities: 715
+- Total raw project references: 809
+- Total canonical projects: 206
+- Duplicate project clusters: 141
+- High-confidence project identities: 809
 - Low-confidence identities needing review: 0
-- LA / California project references: 416
+- LA / California project references: 430
 
 ## Top Repeated Projects
 
-- General Project Signal - Atlanta / Georgia - Brookhaven Apartment Tower Sells For $101M As Investors Target Prime Atlanta Properties: 42 occurrence(s), confidence 80.
-- General Project Signal - Atlanta / Georgia - Brookhaven Apartment Tower Sells For $101M As Investors Target Prime Atlanta Properties: 42 occurrence(s), confidence 80.
-- General Project Signal - Atlanta / Georgia - Brookhaven Apartment Tower Sells For $101M As Investors Target Prime Atlanta Properties: 42 occurrence(s), confidence 80.
-- General Project Signal - Atlanta / Georgia - Brookhaven Apartment Tower Sells For $101M As Investors Target Prime Atlanta Properties: 42 occurrence(s), confidence 80.
-- General Project Signal - Atlanta / Georgia - Brookhaven Apartment Tower Sells For $101M As Investors Target Prime Atlanta Properties: 42 occurrence(s), confidence 80.
-- General Project Signal - Atlanta / Georgia - Brookhaven Apartment Tower Sells For $101M As Investors Target Prime Atlanta Properties: 42 occurrence(s), confidence 80.
-- General Project Signal - Atlanta / Georgia - Brookhaven Apartment Tower Sells For $101M As Investors Target Prime Atlanta Properties: 42 occurrence(s), confidence 80.
-- General Project Signal - Atlanta / Georgia - Brookhaven Apartment Tower Sells For $101M As Investors Target Prime Atlanta Properties: 42 occurrence(s), confidence 80.
-- General Project Signal - Atlanta / Georgia - Brookhaven Apartment Tower Sells For $101M As Investors Target Prime Atlanta Properties: 42 occurrence(s), confidence 80.
-- General Project Signal - Atlanta / Georgia - Brookhaven Apartment Tower Sells For $101M As Investors Target Prime Atlanta Properties: 42 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 48 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 48 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 48 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 48 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 48 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 48 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 48 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 48 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 48 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 48 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

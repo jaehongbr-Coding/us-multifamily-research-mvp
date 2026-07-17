@@ -1,45 +1,49 @@
 # Opportunity Deduplication Report
 
-Generated: 2026-07-17 00:01:09
+Generated: 2026-07-17 23:55:07
 
-- Total duplicate clusters: 8
+- Total duplicate clusters: 10
 - Opportunities removed via deduplication: 0
 - Distress inflation prevented: 0
 
 ## Strongest Multi-Source Confirmed Opportunities
 
-- S3 Originates $111M Construction Loan for Edgewater Rental Community: Miami / Florida, 2 related row(s), opportunity score 88, distress score 67.
-- PCCP Provides $61M to Refinance 287-Unit DC Apartment Community: Riverside / California, 2 related row(s), opportunity score 87, distress score 64.
-- Affinius Provides $177M Construction Loan for Central Florida Student Housing: Florida, 2 related row(s), opportunity score 83, distress score 63.
-- Fort Lauderdale Developer Inks Financing for Condos, Apartments, Retail: Miami / Florida, 2 related row(s), opportunity score 82, distress score 60.
-- Cushman & Wakefield Arranges $59M for Luxury DC Multifamily Property: Washington DC, 2 related row(s), opportunity score 65, distress score 61.
-- Catholic Homes Secures $147M Construction Loan for Bronx Housing Development: New York City / New York, 2 related row(s), opportunity score 63, distress score 60.
+- Flournoy Properties Lands $46.5M Refi on Leander Rental Asset: Austin / Texas, 2 related row(s), opportunity score 89, distress score 69.
+- S3 Originates $111M Construction Loan for Edgewater Rental Community: Miami / Florida, 2 related row(s), opportunity score 87, distress score 67.
+- Walker & Dunlop Arranges $46.5M Refinance Loan for Austin-Area Multifamily Rental Community: Austin / Texas, 2 related row(s), opportunity score 87, distress score 66.
+- Fort Lauderdale Developer Inks Financing for Condos, Apartments, Retail: Miami / Florida, 2 related row(s), opportunity score 81, distress score 60.
+- Greystone Real Estate Capital Closes $137M Affordable Housing Development Fund: National, 2 related row(s), opportunity score 78, distress score 56.
+- Cushman & Wakefield Arranges $56.6M Refinancing of Luxury Multifamily Community in D.C.: Washington DC, 2 related row(s), opportunity score 65, distress score 61.
+- Ponce Bank Lends $50M for Canarsie Apartments: New York City / New York, 2 related row(s), opportunity score 63, distress score 60.
 - LCOR Inks $192.5M Construction Loan for Biscayne Bay Apartments: Miami / Florida, 2 related row(s), opportunity score 63, distress score 59.
-- Meridian Arranges $186M Financing for Asbury Park Condo Project: New York, 2 related row(s), opportunity score 60, distress score 56.
+- TSB Capital Advisors Arranges Loan for Refinancing of 530-Bed Community Near Arizona State University: Phoenix / Arizona, 2 related row(s), opportunity score 62, distress score 59.
+- Tree Street Group Closes on Financing for Chicago’s First Geothermal Multifamily: Other / Unknown, 2 related row(s), opportunity score 54, distress score 48.
 
 ## Repeated Refinancing Stories
 
-- PCCP Provides $61M to Refinance 287-Unit DC Apartment Community: Riverside / California, 2 related row(s), opportunity score 87, distress score 64.
-- Cushman & Wakefield Arranges $59M for Luxury DC Multifamily Property: Washington DC, 2 related row(s), opportunity score 65, distress score 61.
+- Flournoy Properties Lands $46.5M Refi on Leander Rental Asset: Austin / Texas, 2 related row(s), opportunity score 89, distress score 69.
+- Walker & Dunlop Arranges $46.5M Refinance Loan for Austin-Area Multifamily Rental Community: Austin / Texas, 2 related row(s), opportunity score 87, distress score 66.
+- Cushman & Wakefield Arranges $56.6M Refinancing of Luxury Multifamily Community in D.C.: Washington DC, 2 related row(s), opportunity score 65, distress score 61.
+- TSB Capital Advisors Arranges Loan for Refinancing of 530-Bed Community Near Arizona State University: Phoenix / Arizona, 2 related row(s), opportunity score 62, distress score 59.
 
 ## Repeated GP Partnership Stories
 
 - Financing Secured for Centennial Yards Mixed-Use Project: Atlanta / Georgia, 1 related row(s), opportunity score 83, distress score 0.
+- Prime Residential Pays $51M for Miracle Mile Apartments: Los Angeles / California, 1 related row(s), opportunity score 81, distress score 0.
+- Free-Market NoHo Apartments Generate Strong Buyer Demand: New York City / New York, 1 related row(s), opportunity score 81, distress score 0.
 - 525 apartments start to rise at 22107 S. Vermont Ave. in West Carson: Texas, 1 related row(s), opportunity score 80, distress score 0.
-- Greystar Sells Virginia Apartment Tower for $216M: Virginia, 1 related row(s), opportunity score 80, distress score 0.
-- Marcus & Millichap Arranges $16.65M Sale of Multifamily Property in Manhattan: New York City / New York, 1 related row(s), opportunity score 77, distress score 0.
-- Essex Closes 33-Unit Albany Park Multifamily Transaction: Other / Unknown, 1 related row(s), opportunity score 77, distress score 0.
-- Marcus & Millichap Brokers Sale of Multifamily Property in Sarasota Florida: Sarasota / Florida, 1 related row(s), opportunity score 77, distress score 0.
-- Capital Square Completes 47th Full-Cycle DST Program with the $115M Sale of 2000 West Creek Apartments: Virginia, 1 related row(s), opportunity score 77, distress score 0.
-- Institutional Property Advisors Brokers 205-Unit Downtown Los Angeles Multifamily Asset Sale: Los Angeles / California, 1 related row(s), opportunity score 76, distress score 0.
-- Marcus & Millichap Facilitates $4.8M Sale of 23-Unit Multifamily Property in Green Bay: Other / Unknown, 1 related row(s), opportunity score 75, distress score 0.
+- Greystar Sells Virginia Apartment Tower for $216M: Virginia, 1 related row(s), opportunity score 79, distress score 0.
+- Marcus & Millichap Arranges $15M Sale of 75-Unit Multifamily Property in Wausau Wisconsin: Other / Unknown, 1 related row(s), opportunity score 77, distress score 0.
+- Partnership Underway on 274-Unit Multifamily Project in Horsham, Pennsylvania: New York City / New York, 1 related row(s), opportunity score 74, distress score 0.
+- Joint Venture to Develop 149-Unit Apartment Building in Manhattan’s SoHo District: New York City / New York, 1 related row(s), opportunity score 60, distress score 0.
+- Eastham Capital Sells 200-Unit Apartment Complex in Humble, Texas: Houston / Texas, 1 related row(s), opportunity score 59, distress score 0.
 - C&C Development Opens Affordable Housing in Irvine: Riverside / California, 1 related row(s), opportunity score 58, distress score 0.
 
 ## California / LA Duplicate Project Tracking
 
 - Garden-Style Apartments Go for $78M in North County San Diego: California, 1 related row(s), opportunity score 91, distress score 0.
 - Bascom Acquires Buena Park Apartments as Value-Add Deal: California, 1 related row(s), opportunity score 88, distress score 0.
-- Safehold Announces New Affordable Housing Ground Leases in Ventura County and San Diego County California: California, 1 related row(s), opportunity score 60, distress score 0.
+- Institutional Property Advisors Closes Sale and Arranges Financing for Orange County Multifamily Asset: California, 1 related row(s), opportunity score 84, distress score 0.
 
 ## Why This Matters
 

@@ -1,14 +1,14 @@
 # Run Summary
 
-Generated: 2026-07-17 00:00:48
+Generated: 2026-07-17 23:54:45
 
 ## Quick Counts
 
-- Total articles saved: 84
-- High-confidence signals: 49
-- Opportunities: 60
-- Distress signals: 8
-- LA asset watch items: 52
+- Total articles saved: 96
+- High-confidence signals: 46
+- Opportunities: 69
+- Distress signals: 10
+- LA asset watch items: 53
 - Dashboard cards: 38
 - Pipeline health status: OK
 
@@ -21,7 +21,7 @@ Generated: 2026-07-17 00:00:48
 
 ## Top Dashboard Signal
 
-- Alliance Residential (Capital Flow)
+- Acquisition - California - Bascom Acquires Buena Park Apartments as Value-Add Deal (LA Asset Watch)
 
 ## Suggested Next Action
 

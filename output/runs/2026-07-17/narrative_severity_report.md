@@ -1,6 +1,6 @@
 # Narrative Severity Report
 
-Generated: 2026-07-17 00:00:58
+Generated: 2026-07-17 23:54:58
 
 - Top severity regime: Selective Capital Re-entry (100)
 - Top conviction regime: Selective Capital Re-entry (100)
@@ -10,33 +10,33 @@ Generated: 2026-07-17 00:00:58
 | Regime | Severity | Conviction | Urgency | Risk / Opportunity |
 | --- | ---: | ---: | --- | --- |
 | Selective Capital Re-entry | 100 | 100 | Immediate Attention | Opportunity / Pricing Signal |
+| Supply Pressure | 100 | 92 | Immediate Attention | Risk |
 | Financing Stress | 100 | 86 | Immediate Attention | Risk |
-| Supply Pressure | 93 | 86 | Immediate Attention | Risk |
+| Policy / Entitlement Watch | 97 | 74 | Immediate Attention | Risk / Opportunity |
 | Developer Strategy Shift | 91 | 92 | Immediate Attention | Opportunity / Capability Signal |
-| Policy / Entitlement Watch | 89 | 72 | Immediate Attention | Risk / Opportunity |
-| Construction Cost Pressure | 2 | 4 | Background | Risk |
+| Construction Cost Pressure | 22 | 37 | Background | Risk |
 
 ## Key Evidence
 
-- Selective Capital Re-entry: supporting articles: 28; high-priority supporting articles: 28; supporting articles with extracted numbers: 24; momentum: Stable; Institutional Flow articles: 22; Deal Size Signal articles: 15; Institutional player mentions: 14
-- Financing Stress: supporting articles: 27; high-priority supporting articles: 26; supporting articles with extracted numbers: 22; momentum: Stable; Financing Risk articles: 22; Financing/cap-rate market signals: 5; Financing matched-keyword articles: 19
-- Supply Pressure: supporting articles: 7; high-priority supporting articles: 6; supporting articles with extracted numbers: 6; momentum: Stable; Supply Pressure articles: 3; Supply/vacancy/concession signals: 6; Supply matched-keyword articles: 3
-- Developer Strategy Shift: supporting articles: 33; high-priority supporting articles: 32; supporting articles with extracted numbers: 21; momentum: Stable; Developer Strategy articles: 33; Developer matched-keyword articles: 8; Must Read articles: 34
-- Policy / Entitlement Watch: supporting articles: 7; high-priority supporting articles: 7; supporting articles with extracted numbers: 4; momentum: Stable; Regulation Risk articles: 5; Policy matched-keyword articles: 7; California / Los Angeles focus count: 3
-- Construction Cost Pressure: supporting articles: 0; high-priority supporting articles: 0; supporting articles with extracted numbers: 0; momentum: Stable; Cost Control articles: 0; Construction Cost Signal articles: 0; Cost matched-keyword articles: 0
+- Selective Capital Re-entry: supporting articles: 31; high-priority supporting articles: 30; supporting articles with extracted numbers: 24; momentum: Stable; Institutional Flow articles: 26; Deal Size Signal articles: 10; Institutional player mentions: 10
+- Supply Pressure: supporting articles: 13; high-priority supporting articles: 13; supporting articles with extracted numbers: 11; momentum: Accelerating; Supply Pressure articles: 6; Supply/vacancy/concession signals: 11; Supply matched-keyword articles: 7
+- Financing Stress: supporting articles: 32; high-priority supporting articles: 31; supporting articles with extracted numbers: 24; momentum: Stable; Financing Risk articles: 23; Financing/cap-rate market signals: 3; Financing matched-keyword articles: 22
+- Policy / Entitlement Watch: supporting articles: 13; high-priority supporting articles: 13; supporting articles with extracted numbers: 9; momentum: Stable; Regulation Risk articles: 8; Policy matched-keyword articles: 13; California / Los Angeles focus count: 3
+- Developer Strategy Shift: supporting articles: 38; high-priority supporting articles: 38; supporting articles with extracted numbers: 22; momentum: Stable; Developer Strategy articles: 38; Developer matched-keyword articles: 9; Must Read articles: 42
+- Construction Cost Pressure: supporting articles: 1; high-priority supporting articles: 1; supporting articles with extracted numbers: 0; momentum: Improving; Cost Control articles: 1; Construction Cost Signal articles: 0; Cost matched-keyword articles: 1
 
 ## Implications for Woomi / Woomi Global
 
 - Immediate Attention: track pricing discovery, acquisitions, GP partners, and institutional capital re-entry.
-- Immediate Attention: tighten debt assumptions, refinancing sensitivity, and exit-cap underwriting.
 - Immediate Attention: watch lease-up, vacancy, concessions, and starts before assuming rent-growth durability.
+- Immediate Attention: tighten debt assumptions, refinancing sensitivity, and exit-cap underwriting.
 
 ## Recommended Management Attention Items
 
 ### Immediate Attention
 
 - Selective Capital Re-entry: severity 100, conviction 100.
+- Supply Pressure: severity 100, conviction 92.
 - Financing Stress: severity 100, conviction 86.
-- Supply Pressure: severity 93, conviction 86.
+- Policy / Entitlement Watch: severity 97, conviction 74.
 - Developer Strategy Shift: severity 91, conviction 92.
-- Policy / Entitlement Watch: severity 89, conviction 72.

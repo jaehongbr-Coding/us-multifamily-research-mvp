@@ -1,8 +1,8 @@
 # LA Lifecycle Transition Watch Report
 
-Generated: 2026-07-17 00:01:13
+Generated: 2026-07-17 23:55:11
 
-- Total LA lifecycle transition watch items: 49
+- Total LA lifecycle transition watch items: 51
 
 ## LA Projects Moving Forward
 
@@ -14,27 +14,26 @@ Generated: 2026-07-17 00:01:13
 
 ## LA Permit / Construction Start Watch
 
-- General Project Signal - Los Angeles / California - 157-unit affordable housing complex rising at 7408 S. Figueroa Street: Vertical Construction -> Vertical Construction, Construction start watch.
-- 157-unit affordable housing complex rising at 7408 S. Figueroa Street: Vertical Construction -> Vertical Construction, Construction start watch.
+- Entitlement / Permitting - Los Angeles / California - Apartments under construction at 5547 N. Elmer Ave. in North Hollywood: No Previous Record -> Vertical Construction, Construction start watch.
+- Apartments under construction at 5547 N. Elmer Ave. in North Hollywood: No Previous Record -> Vertical Construction, Construction start watch.
 - Development Start - Atlanta / Georgia - Financing Secured for Centennial Yards Mixed-Use Project: Construction Ready -> Construction Ready, Construction start watch.
 
 ## LA Refinancing / Recap Timing Watch
 
-- Refinancing - Riverside / California - PCCP Provides $61M to Refinance 287-Unit DC Apartment Community: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Construction Financing - Florida - Affinius Provides $177M Construction Loan for Central Florida Student Housing: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Catholic Homes Secures $147M Construction Loan for Bronx Housing Development: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- None detected.
 
 ## LA Delivery / Lease-Up Benchmarks
 
-- None detected.
+- Refinancing - Austin / Texas - Flournoy Properties Lands $46.5M Refi on Leander Rental Asset: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- Dallas Developer Duo Opens 168-Unit Mixed-Income Community: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
 
 ## Recommended LA Transition Follow-up Actions
 
-- Monitor for another run to confirm lifecycle direction: General Project Signal - Los Angeles / California - 157-unit affordable housing complex rising at 7408 S. Figueroa Street.
-- Monitor for another run to confirm lifecycle direction: 157-unit affordable housing complex rising at 7408 S. Figueroa Street.
-- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Riverside / California - PCCP Provides $61M to Refinance 287-Unit DC Apartment Community.
+- Use as delivery, lease-up, and underwriting benchmark: Refinancing - Austin / Texas - Flournoy Properties Lands $46.5M Refi on Leander Rental Asset.
+- Monitor for another run to confirm lifecycle direction: Entitlement / Permitting - Los Angeles / California - Apartments under construction at 5547 N. Elmer Ave. in North Hollywood.
+- Monitor for another run to confirm lifecycle direction: Apartments under construction at 5547 N. Elmer Ave. in North Hollywood.
+- Use as delivery, lease-up, and underwriting benchmark: Dallas Developer Duo Opens 168-Unit Mixed-Income Community.
 - Monitor for another run to confirm lifecycle direction: Development Start - Atlanta / Georgia - Financing Secured for Centennial Yards Mixed-Use Project.
-- Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - Florida - Affinius Provides $177M Construction Loan for Central Florida Student Housing.
 - Monitor for another run to confirm lifecycle direction: Construction Financing - Miami / Florida - Fort Lauderdale Developer Inks Financing for Condos, Apartments, Retail.
 - Monitor for another run to confirm lifecycle direction: Acquisition - California - Bascom Acquires Buena Park Apartments as Value-Add Deal.
 - Monitor for another run to confirm lifecycle direction: Acquisition - Miami / Florida - Avalon Bay Planning Apartments, Retail in South Miami.
@@ -43,10 +42,10 @@ Generated: 2026-07-17 00:01:13
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 715
-- Canonical projects: 181
-- Duplicate project clusters: 126
-- Persistent assets tracked: 181
-- LA persistent asset watch items: 116
+- Raw project references: 809
+- Canonical projects: 206
+- Duplicate project clusters: 141
+- Persistent assets tracked: 206
+- LA persistent asset watch items: 114
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

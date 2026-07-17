@@ -1,18 +1,18 @@
 # Routing Balance Report
 
-- Market Intelligence count: 17
-- Development Activity count: 58
-- GP / Capital Activity count: 7
+- Market Intelligence count: 18
+- Development Activity count: 67
+- GP / Capital Activity count: 9
 - Excluded count: 2
 - Rent/Demand candidate count: 6
-- Project anchor article count: 54
-- Development-excluded transaction article count: 6
+- Project anchor article count: 61
+- Development-excluded transaction article count: 8
 - Low-value promotional excluded count: 2
-- Site / Parcel positive candidates count: 5
+- Site / Parcel positive candidates count: 8
 - Site / Parcel excluded transaction count: 0
 - Source missing count: 0
 - Market missing count: 0
-- Stage missing count: 68
+- Stage missing count: 72
 
 ## Rent/Demand Titles
 - Multifamily Market Sees Strongest Demand Since Mid-2024 As Asking Rents Dip
@@ -27,23 +27,26 @@
 - 2026 Resident Experience Management Report | promotional/event keyword: whitepaper
 
 ## Site / Parcel Included Examples
+- Ponce Bank Lends $50M for Canarsie Apartments | Development Activity | site/parcel signal with project anchor: to build
 - Financing Secured for Centennial Yards Mixed-Use Project | Development Activity | site/parcel signal with project anchor: plans to build
-- Silver Lake Development Parcel Increases Density Through Re-Entitlement | Development Activity | site/parcel signal with project anchor: parcel
+- Apartment Developer Pursuing Phillips Place for Multifamily Community | Development Activity | site/parcel signal with project anchor: to build
 - Developer Duo Adding 350 Apartments to Dunwoody Mixed-Use Project | Development Activity | site/parcel signal with project anchor: to build
+- Developer Acquires Los Angeles Site for Multifamily Affordable Housing Project | Development Activity | site/parcel signal with project anchor: parcel
 - Dezer Advancing Plan for 600 N. Miami Apartment Units | Development Activity | site/parcel signal with project anchor: to build
-- NY State Taps Development Team to Build 1,100-Plus Apartments on Far West Side | Development Activity | site/parcel signal with project anchor: to build
+- Nicholas & Associates to Build 263-Unit Luxury Apartment Community in Madison, Wisconsin | Development Activity | site/parcel signal with project anchor: to build
+- New Housing Law To Send Institutional Investors Flocking To Build-To-Rent | Development Activity | site/parcel signal with project anchor: to build
 
 ## Site / Parcel Excluded Transaction Examples
 - None
 
 ## Sample Validation
 - The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist | Excluded | rent_demand=No | low_value_promotional: chat-with-chief-economist promotional format
-- Leland’s Premier Luxury Multifamily Apartment Community Exchange at Westgate Trades Hands for $58.7M | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 312-unit; address/street: 5214 browning ln; project/asset term: community; project financing tied to anchor: acquisition financing)
-- $54M Equity Deal for New Multifamily High-Rise in Plano Texas | Development Activity | rent_demand=No | development_project_anchor: Project / Asset (unit/site count: 355-unit; address/street: 6501 legacy dr; project/asset term: community)
-- Greystar Reveals Plans For 20,000-Home Garden-Style BTR Push | Development Activity | rent_demand=No | development_project_anchor: Project / Asset (unit/site count: 000-home; execution milestone: targeting; project/asset term: development)
+- Walker & Dunlop Arranges $46.5M Refinance Loan for Austin-Area Multifamily Rental Community | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (project/asset term: community)
+- Ponce Bank Lends $50M for Canarsie Apartments | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (address/street: 951 east 108th street; execution milestone: to build; project/asset term: project; project financing tied to anchor: construction financing)
+- Greystone Real Estate Capital Closes $137M Affordable Housing Development Fund | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (project/asset term: development; project financing tied to anchor: construction financing)
 - Greystar Sells Virginia Apartment Tower for $216M | GP / Capital Activity | rent_demand=No | headline-level GP, transaction, financing, or capital event detected
-- Meridian Arranges $186M Financing for Asbury Park Condo Project | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (address/street: 1201 ocean ave; project/asset term: project; project financing tied to anchor: construction financing)
+- Greystone Real Estate Capital Closes on Second Affordable Housing Fund | GP / Capital Activity | rent_demand=No | property-level financing, lender, refinancing, or recapitalization signal detected
+- Apartments under construction at 5547 N. Elmer Ave. in North Hollywood | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 5547 n. elmer ave; site/parcel signal: site; project/asset term: project)
 - 525 apartments start to rise at 22107 S. Vermont Ave. in West Carson | Development Activity | rent_demand=No | development_project_anchor: Project / Asset (unit/site count: 525 apartments; address/street: 22107 s. vermont ave; project/asset term: development)
 - 70-unit affordable housing complex underway at 1201 E. 119th St. in Watts | Development Activity | rent_demand=No | development_project_anchor: Project / Asset (unit/site count: 70-unit; address/street: 1201 e. 119th st; project/asset term: project)
 - Affordable housing underway at 1035 S. Crenshaw Blvd. | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (unit/site count: 70 apartments; address/street: 1035 s. crenshaw blvd; project/asset term: project)
-- AMLI Residential plans 975 new homes at 100 West Walnut in Pasadena | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 100 west walnut street; project/asset term: project)

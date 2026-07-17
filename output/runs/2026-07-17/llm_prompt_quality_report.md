@@ -1,32 +1,32 @@
 # LLM Prompt Quality Report
 
-Generated: 2026-07-17 00:00:57
+Generated: 2026-07-17 23:54:58
 
-- Total prompts reviewed: 54
-- Average prompt quality score: 91.5
-- Excellent prompts: 39
-- Good prompts: 15
+- Total prompts reviewed: 62
+- Average prompt quality score: 90.9
+- Excellent prompts: 42
+- Good prompts: 20
 - Needs Improvement prompts: 0
 - Poor prompts: 0
 
 ## Top 5 Strongest Prompts
 
-- 98 (Excellent): Capital Square Completes 47th Full-Cycle DST Program with the $115M Sale of 2000 West Creek Apartments
-- 98 (Excellent): LTC Acquires Two Seniors Housing Communities in Colorado, New Mexico for $73M
-- 98 (Excellent): Capital Square Sells 2000 West Creek Apartments in Richmond for $115M
-- 98 (Excellent): Citi Prices Largest Single Bank-Contributed, Multi-Only CMBS Conduit Deal Since GFC
-- 98 (Excellent): Winstar Properties Purchases 205-Unit Apartment Complex in Los Angeles
+- 98 (Excellent): Western Centers Sells Three-Property Retail Portfolio in Metro Denver for $30.3M
+- 98 (Excellent): Eastham Capital Sells 200-Unit Apartment Complex in Humble, Texas
+- 98 (Excellent): NewPoint Provides $34.6M Loan for Hotel-to-Multifamily Conversion Project in Arlington, Virginia
+- 98 (Excellent): Prime Residential Purchases Palm Court Apartments in Los Angeles for $51.2M
+- 98 (Excellent): Apartment Complex Sells for $51M in Los Angeles’ Miracle Mile
 
 ## Top 5 Weakest Prompts
 
-- 74 (Good): Pennrose, HSTF Break Ground on 55-Unit Affordable Housing Redevelopment in Boston - Missing: missing extracted numbers; missing market focus; missing market signal
-- 74 (Good): Woodfield Development Breaks Ground on New Upscale Multifamily Community in Cary North Carolina - Missing: missing extracted numbers; missing market focus; missing market signal
-- 74 (Good): Greystar Reveals Plans For 20,000-Home Garden-Style BTR Push - Missing: missing extracted numbers; missing market focus; missing market signal
-- 82 (Good): West Palm Beach Eyeing Waterfront Rezoning Moratorium - Missing: missing extracted numbers; missing market signal
-- 82 (Good): 320-Unit Gilbert Apartment Community Trades to Camden - Missing: missing extracted numbers; missing market signal
+- 74 (Good): New Multifamily Build-to-Rent Investment Fund from PPR Capital Management - Missing: missing extracted numbers; missing market focus; missing market signal
+- 74 (Good): Tree Street Group Closes on Financing for Chicago’s First Geothermal Multifamily - Missing: missing extracted numbers; missing market focus; missing market signal
+- 74 (Good): Missing Middle Housing For 2615 Ashby Avenue in Elmwood, Berkeley - Missing: missing extracted numbers; missing market focus; missing market signal
+- 74 (Good): Nicholas & Associates Tapped as Contractor for Ground-Up Multifamily Development in Madison - Missing: missing extracted numbers; missing market focus; missing market signal
+- 74 (Good): Nicholas & Associates to Build 263-Unit Luxury Apartment Community in Madison, Wisconsin - Missing: missing extracted numbers; missing market focus; missing market signal
 
 ## Common Missing Context Issues
 
-- missing market signal: 20
-- missing extracted numbers: 15
-- missing market focus: 9
+- missing market signal: 25
+- missing extracted numbers: 20
+- missing market focus: 10

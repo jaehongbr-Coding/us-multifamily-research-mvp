@@ -1,35 +1,36 @@
 # LA / Southern California Submarket Watch Report
 
-Generated: 2026-07-17 00:01:09
+Generated: 2026-07-17 23:55:07
 
-- Total LA / Southern California submarkets detected: 13
+- Total LA / Southern California submarkets detected: 12
 
 ## Top LA / Southern California Submarkets
 
-- Los Angeles: opportunity 98, risk 52, Monitor only.
-- Riverside: opportunity 93, risk 50, Inland Empire BTR / rental housing watch.
+- Miracle Mile: opportunity 92, risk 30, Monitor only.
+- Los Angeles: opportunity 90, risk 52, LA affordable / density bonus watch.
+- Hollywood: opportunity 68, risk 30, Hollywood / transit-oriented housing watch.
 - Pasadena: opportunity 68, risk 30, Pasadena entitlement precedent watch.
-- Silver Lake: opportunity 64, risk 40, Monitor only.
-- Downtown Los Angeles: opportunity 62, risk 30, DTLA adaptive reuse watch.
+- Orange County: opportunity 64, risk 30, Orange County suburban apartment watch.
 - Irvine: opportunity 55, risk 30, Orange County suburban apartment watch.
-- California: opportunity 24, risk 20, Monitor only.
+- Riverside: opportunity 55, risk 30, Inland Empire BTR / rental housing watch.
+- California: opportunity 16, risk 20, Monitor only.
 - Koreatown: opportunity 12, risk 30, Koreatown multifamily watch.
-- Long Beach: opportunity 12, risk 30, Long Beach mixed-use residential watch.
 - Mid-Wilshire: opportunity 12, risk 30, Koreatown multifamily watch.
 
 ## Koreatown / Wilshire Watch
 
+- Miracle Mile: opportunity 92, risk 30, Monitor only.
 - Koreatown: opportunity 12, risk 30, Koreatown multifamily watch.
 - Mid-Wilshire: opportunity 12, risk 30, Koreatown multifamily watch.
 - Wilshire: opportunity 12, risk 30, Koreatown multifamily watch.
 
 ## DTLA / Adaptive Reuse Watch
 
-- Downtown Los Angeles: opportunity 62, risk 30, DTLA adaptive reuse watch.
+- None detected.
 
 ## Hollywood / Transit-Oriented Watch
 
-- None detected.
+- Hollywood: opportunity 68, risk 30, Hollywood / transit-oriented housing watch.
 
 ## Pasadena / Entitlement Precedent Watch
 
@@ -37,20 +38,20 @@ Generated: 2026-07-17 00:01:09
 
 ## Long Beach / Mixed-Use Watch
 
-- Long Beach: opportunity 12, risk 30, Long Beach mixed-use residential watch.
+- None detected.
 
 ## Orange County / Suburban Apartment Watch
 
+- Orange County: opportunity 64, risk 30, Orange County suburban apartment watch.
 - Irvine: opportunity 55, risk 30, Orange County suburban apartment watch.
-- Orange County: opportunity 12, risk 30, Orange County suburban apartment watch.
 
 ## Inland Empire / BTR Watch
 
-- Riverside: opportunity 93, risk 50, Inland Empire BTR / rental housing watch.
+- Riverside: opportunity 55, risk 30, Inland Empire BTR / rental housing watch.
 
 ## LA Density Bonus / TOC Watch
 
-- None detected.
+- Los Angeles: opportunity 90, risk 52, LA affordable / density bonus watch.
 
 ## LA CEQA / Entitlement Risk Watch
 
@@ -58,14 +59,14 @@ Generated: 2026-07-17 00:01:09
 
 ## Recommended Local Follow-up Actions
 
-- Track local planning docket and entitlement precedent: Los Angeles / Monitor only.
-- Review potential acquisition pipeline: Riverside / Inland Empire BTR / rental housing watch.
+- Review potential acquisition pipeline: Miracle Mile / Monitor only.
+- Track local planning docket and entitlement precedent: Los Angeles / LA affordable / density bonus watch.
+- Track local planning docket and entitlement precedent: Hollywood / Hollywood / transit-oriented housing watch.
 - Track local planning docket and entitlement precedent: Pasadena / Pasadena entitlement precedent watch.
-- Track local planning docket and entitlement precedent: Silver Lake / Monitor only.
-- Review potential acquisition pipeline: Downtown Los Angeles / DTLA adaptive reuse watch.
+- Review potential acquisition pipeline: Orange County / Orange County suburban apartment watch.
 - Review potential acquisition pipeline: Irvine / Orange County suburban apartment watch.
+- Review potential acquisition pipeline: Riverside / Inland Empire BTR / rental housing watch.
 - Monitor only: California / Monitor only.
-- Monitor only: Koreatown / Koreatown multifamily watch.
 
 ## Asset / Parcel Intelligence Reference
 
@@ -75,8 +76,8 @@ Asset / parcel-level site clues are available in `asset_parcel_intelligence_repo
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 89
-- LA lifecycle watch items: 50
-- Stage mix: Refinancing / Recapitalization: 8, Unknown Stage: 58, Construction Ready: 1, Site Acquisition / Site Control: 11, Early Site Signal: 5
+- Lifecycle records: 100
+- LA lifecycle watch items: 56
+- Stage mix: Delivery / Opening: 3, Unknown Stage: 68, Site Acquisition / Site Control: 10, Construction Ready: 1, Refinancing / Recapitalization: 6
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

@@ -1,60 +1,66 @@
 # Development Lifecycle Report
 
-Generated: 2026-07-17 00:01:13
+Generated: 2026-07-17 23:55:11
 
-- Total lifecycle records: 89
+- Total lifecycle records: 100
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 58
-- Site Acquisition / Site Control: 11
-- Refinancing / Recapitalization: 8
-- Early Site Signal: 5
+- Unknown Stage: 68
+- Site Acquisition / Site Control: 10
+- Refinancing / Recapitalization: 6
+- Early Site Signal: 4
+- Delivery / Opening: 3
 - Vertical Construction: 3
-- Entitlement Under Review: 2
+- Entitlement Under Review: 3
+- Construction Started: 2
 - Construction Ready: 1
-- Delivery / Opening: 1
 
 ## Top Development Timing Opportunities
 
-- Construction Financing - Florida - Affinius Provides $177M Construction Loan for Central Florida Student Housing: Refinancing / Recapitalization, Orlando, lifecycle_opportunity_score 100.
-- Refinancing - Riverside / California - PCCP Provides $61M to Refinance 287-Unit DC Apartment Community: Refinancing / Recapitalization, Washington Dc, lifecycle_opportunity_score 100.
+- Refinancing - Austin / Texas - Flournoy Properties Lands $46.5M Refi on Leander Rental Asset: Delivery / Opening, Austin, lifecycle_opportunity_score 100.
 - Disposition / Exit - California - Garden-Style Apartments Go for $78M in North County San Diego: Unknown Stage, California, lifecycle_opportunity_score 100.
 - Acquisition - Miami / Florida - Avalon Bay Planning Apartments, Retail in South Miami: Unknown Stage, South Florida, lifecycle_opportunity_score 100.
+- Apartment Complex Sells for $51M in Los Angeles’ Miracle Mile: Site Acquisition / Site Control, Miracle Mile, lifecycle_opportunity_score 100.
 - Development Start - Atlanta / Georgia - Financing Secured for Centennial Yards Mixed-Use Project: Construction Ready, Atlanta, lifecycle_opportunity_score 100.
-- Acquisition - Other / Unknown - Leland’s Premier Luxury Multifamily Apartment Community Exchange at Westgate Trades Hands...: Site Acquisition / Site Control, Unknown, lifecycle_opportunity_score 100.
 - Financing Secured for Centennial Yards Mixed-Use Project: Site Acquisition / Site Control, Atlanta, lifecycle_opportunity_score 100.
 - Acquisition - California - Bascom Acquires Buena Park Apartments as Value-Add Deal: Unknown Stage, California, lifecycle_opportunity_score 99.
 - Construction Financing - Miami / Florida - S3 Originates $111M Construction Loan for Edgewater Rental Community: Refinancing / Recapitalization, South Florida, lifecycle_opportunity_score 97.
-- Construction Financing - Miami / Florida - Fort Lauderdale Developer Inks Financing for Condos, Apartments, Retail: Unknown Stage, South Florida, lifecycle_opportunity_score 97.
+- Refinancing - Austin / Texas - Walker & Dunlop Arranges $46.5M Refinance Loan for Austin-Area Multifamily Rental Communit...: Refinancing / Recapitalization, Austin, lifecycle_opportunity_score 97.
+- Garden-Style Apartments Go for $78M in North County San Diego: Unknown Stage, Unknown, lifecycle_opportunity_score 97.
 
 ## Top Lifecycle Risks
 
-- Construction Financing - New York City / New York - Catholic Homes Secures $147M Construction Loan for Bronx Housing Development: Refinancing / Recapitalization, Nyc, lifecycle_risk_score 60.
-- Refinancing - Washington DC - Cushman & Wakefield Arranges $59M for Luxury DC Multifamily Property: Refinancing / Recapitalization, Washington Dc, lifecycle_risk_score 60.
-- Cushman & Wakefield Arranges $59M for Luxury DC Multifamily Property: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 53.
-- Construction Financing - New York - Meridian Arranges $186M Financing for Asbury Park Condo Project: Unknown Stage, New York, lifecycle_risk_score 53.
+- Refinancing - Washington DC - Cushman & Wakefield Arranges $56.6M Refinancing of Luxury Multifamily Community in D.C.: Refinancing / Recapitalization, Washington, D.C., lifecycle_risk_score 60.
+- Refinancing - Phoenix / Arizona - TSB Capital Advisors Arranges Loan for Refinancing of 530-Bed Community Near Arizona State...: Refinancing / Recapitalization, Tempe, lifecycle_risk_score 59.
+- Construction Financing - New York City / New York - Ponce Bank Lends $50M for Canarsie Apartments: Unknown Stage, Brooklyn, lifecycle_risk_score 54.
+- Cushman & Wakefield Arranges $56.6M Refinancing of Luxury Multifamily Community in D.C.: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 53.
 - Construction Financing - Miami / Florida - S3 Originates $111M Construction Loan for Edgewater Rental Community: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 52.
-- Construction Financing - Florida - Affinius Provides $177M Construction Loan for Central Florida Student Housing: Refinancing / Recapitalization, Orlando, lifecycle_risk_score 50.
-- Refinancing - Riverside / California - PCCP Provides $61M to Refinance 287-Unit DC Apartment Community: Refinancing / Recapitalization, Washington Dc, lifecycle_risk_score 49.
+- Refinancing - Austin / Texas - Walker & Dunlop Arranges $46.5M Refinance Loan for Austin-Area Multifamily Rental Communit...: Refinancing / Recapitalization, Austin, lifecycle_risk_score 52.
+- Construction Financing - Other / Unknown - Tree Street Group Closes on Financing for Chicago’s First Geothermal Multifamily: Unknown Stage, Unknown, lifecycle_risk_score 49.
 - Construction Financing - Miami / Florida - Fort Lauderdale Developer Inks Financing for Condos, Apartments, Retail: Unknown Stage, South Florida, lifecycle_risk_score 43.
-- Construction Financing - Miami / Florida - LCOR Inks $192.5M Construction Loan for Biscayne Bay Apartments: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 41.
-- Catholic Homes Secures $147M Construction Loan for Bronx Housing Development: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 40.
+- Construction Financing - National - Greystone Real Estate Capital Closes $137M Affordable Housing Development Fund: Unknown Stage, National, lifecycle_risk_score 42.
+- General Project Signal - New York - Greystone Real Estate Capital Closes on Second Affordable Housing Fund: Unknown Stage, New York, lifecycle_risk_score 42.
 
 ## Projects Under Entitlement / Planning
 
+- Apartment Developer Pursuing Phillips Place for Multifamily Community: Entitlement Under Review, Atlanta, lifecycle_opportunity_score 72.
 - Entitlement / Permitting - Miami / Florida - West Palm Beach Eyeing Waterfront Rezoning Moratorium: Entitlement Under Review, South Florida, lifecycle_opportunity_score 66.
 - West Palm Beach Eyeing Waterfront Rezoning Moratorium: Entitlement Under Review, Los Angeles, lifecycle_opportunity_score 64.
 
 ## Construction-Ready / Construction-Start Signals
 
 - Development Start - Atlanta / Georgia - Financing Secured for Centennial Yards Mixed-Use Project: Construction Ready, Atlanta, lifecycle_opportunity_score 100.
-- 157-unit affordable housing complex rising at 7408 S. Figueroa Street: Vertical Construction, Los Angeles, lifecycle_opportunity_score 87.
-- General Project Signal - Los Angeles / California - 157-unit affordable housing complex rising at 7408 S. Figueroa Street: Vertical Construction, Los Angeles, lifecycle_opportunity_score 86.
+- Apartments under construction at 5547 N. Elmer Ave. in North Hollywood: Vertical Construction, Hollywood, lifecycle_opportunity_score 91.
+- Entitlement / Permitting - Los Angeles / California - Apartments under construction at 5547 N. Elmer Ave. in North Hollywood: Vertical Construction, Los Angeles, lifecycle_opportunity_score 88.
+- Groundbreaking of 320-Unit Pearl on the River in Florida: Construction Started, Unknown, lifecycle_opportunity_score 88.
+- Development Start - Florida - Groundbreaking of 320-Unit Pearl on the River in Florida: Construction Started, Florida, lifecycle_opportunity_score 66.
 - LCOR Inks $192.5M Construction Loan for Biscayne Bay Apartments: Vertical Construction, Unknown, lifecycle_opportunity_score 59.
 
 ## Delivery / Lease-Up Signals
 
+- Refinancing - Austin / Texas - Flournoy Properties Lands $46.5M Refi on Leander Rental Asset: Delivery / Opening, Austin, lifecycle_opportunity_score 100.
+- Dallas Developer Duo Opens 168-Unit Mixed-Income Community: Delivery / Opening, Dallas, lifecycle_opportunity_score 70.
 - General Project Signal - Other / Unknown - Multifamily Absorption Rate Remains Below 50%: Delivery / Opening, Unknown, lifecycle_opportunity_score 28.
 
 ## Distressed / Stalled Lifecycle Signals
@@ -63,14 +69,12 @@ Generated: 2026-07-17 00:01:13
 
 ## Refinancing / Recapitalization Lifecycle Signals
 
-- Construction Financing - New York City / New York - Catholic Homes Secures $147M Construction Loan for Bronx Housing Development: Refinancing / Recapitalization, Nyc, lifecycle_risk_score 60.
-- Refinancing - Washington DC - Cushman & Wakefield Arranges $59M for Luxury DC Multifamily Property: Refinancing / Recapitalization, Washington Dc, lifecycle_risk_score 60.
-- Cushman & Wakefield Arranges $59M for Luxury DC Multifamily Property: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 53.
+- Refinancing - Washington DC - Cushman & Wakefield Arranges $56.6M Refinancing of Luxury Multifamily Community in D.C.: Refinancing / Recapitalization, Washington, D.C., lifecycle_risk_score 60.
+- Refinancing - Phoenix / Arizona - TSB Capital Advisors Arranges Loan for Refinancing of 530-Bed Community Near Arizona State...: Refinancing / Recapitalization, Tempe, lifecycle_risk_score 59.
+- Cushman & Wakefield Arranges $56.6M Refinancing of Luxury Multifamily Community in D.C.: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 53.
 - Construction Financing - Miami / Florida - S3 Originates $111M Construction Loan for Edgewater Rental Community: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 52.
-- Construction Financing - Florida - Affinius Provides $177M Construction Loan for Central Florida Student Housing: Refinancing / Recapitalization, Orlando, lifecycle_risk_score 50.
-- Refinancing - Riverside / California - PCCP Provides $61M to Refinance 287-Unit DC Apartment Community: Refinancing / Recapitalization, Washington Dc, lifecycle_risk_score 49.
+- Refinancing - Austin / Texas - Walker & Dunlop Arranges $46.5M Refinance Loan for Austin-Area Multifamily Rental Communit...: Refinancing / Recapitalization, Austin, lifecycle_risk_score 52.
 - Construction Financing - Miami / Florida - LCOR Inks $192.5M Construction Loan for Biscayne Bay Apartments: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 41.
-- Catholic Homes Secures $147M Construction Loan for Bronx Housing Development: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 40.
 
 ## Implications for Woomi / Woomi Global
 
@@ -79,24 +83,24 @@ Generated: 2026-07-17 00:01:13
 
 ## Recommended Lifecycle Follow-up Actions
 
-- Track lender, maturity, debt terms, and recapitalization need: Construction Financing - Florida - Affinius Provides $177M Construction Loan for Central Florida Student Housing.
-- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Riverside / California - PCCP Provides $61M to Refinance 287-Unit DC Apartment Community.
+- Benchmark delivery, lease-up, occupancy, and rent assumptions: Refinancing - Austin / Texas - Flournoy Properties Lands $46.5M Refi on Leander Rental Asset.
 - Monitor lifecycle signal for repeated confirmation: Disposition / Exit - California - Garden-Style Apartments Go for $78M in North County San Diego.
 - Monitor lifecycle signal for repeated confirmation: Acquisition - Miami / Florida - Avalon Bay Planning Apartments, Retail in South Miami.
+- Monitor lifecycle signal for repeated confirmation: Apartment Complex Sells for $51M in Los Angeles’ Miracle Mile.
 - Monitor permit issuance, financing, and construction-start timing: Development Start - Atlanta / Georgia - Financing Secured for Centennial Yards Mixed-Use Project.
-- Monitor lifecycle signal for repeated confirmation: Acquisition - Other / Unknown - Leland’s Premier Luxury Multifamily Apartment Community Exchange at Westgate Trades Hands....
 - Monitor lifecycle signal for repeated confirmation: Financing Secured for Centennial Yards Mixed-Use Project.
 - Monitor lifecycle signal for repeated confirmation: Acquisition - California - Bascom Acquires Buena Park Apartments as Value-Add Deal.
+- Track lender, maturity, debt terms, and recapitalization need: Construction Financing - Miami / Florida - S3 Originates $111M Construction Loan for Edgewater Rental Community.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 89
-- Newly detected projects: 40
+- Lifecycle transitions analyzed: 100
+- Newly detected projects: 52
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 49
+- LA lifecycle transition watch items: 51
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -104,11 +108,11 @@ Generated: 2026-07-17 00:01:13
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 715
-- Canonical projects: 181
-- Duplicate project clusters: 126
-- Persistent assets tracked: 181
-- LA persistent asset watch items: 116
+- Raw project references: 809
+- Canonical projects: 206
+- Duplicate project clusters: 141
+- Persistent assets tracked: 206
+- LA persistent asset watch items: 114
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -116,10 +120,10 @@ Generated: 2026-07-17 00:01:13
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 181
+- Signals evaluated: 206
 - Institutional-grade signals: 14
-- High-confidence signals: 49
-- Weak/noisy signals: 108
-- High-confidence watchlist items: 49
+- High-confidence signals: 46
+- Weak/noisy signals: 130
+- High-confidence watchlist items: 46
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

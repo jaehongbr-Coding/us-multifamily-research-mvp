@@ -1,13 +1,13 @@
 # Regime Transition Report
 
-Generated: 2026-07-28 00:04:37
+Generated: 2026-07-29 00:00:10
 
 ## Summary
 
 - Current primary regime: Selective Capital Re-entry
 - Previous primary regime: Selective Capital Re-entry
 - Regime changed: No
-- Consecutive runs in current regime: 8
+- Consecutive runs in current regime: 9
 - Confidence direction: stable
 - Market signals direction: stable
 - Transition label: Persistent Regime
@@ -16,11 +16,11 @@ Generated: 2026-07-28 00:04:37
 
 | Run Timestamp | Primary Regime | Secondary Regime | Confidence | Market Signals | Top Strategic Angle | Top Market Focus | Top Market Signal |
 | --- | --- | --- | --- | ---: | --- | --- | --- |
-| 2026-07-24 00:02:18 | Selective Capital Re-entry | Developer Strategy Shift | High | 28 | Developer Strategy | Other / Unknown | Supply / Starts Signal |
 | 2026-07-25 00:04:56 | Selective Capital Re-entry | Developer Strategy Shift | High | 35 | Developer Strategy | Other / Unknown | Supply / Starts Signal |
 | 2026-07-26 00:03:55 | Selective Capital Re-entry | Developer Strategy Shift | High | 36 | Developer Strategy | Other / Unknown | Supply / Starts Signal |
 | 2026-07-27 00:00:45 | Selective Capital Re-entry | Developer Strategy Shift | High | 34 | Developer Strategy | Other / Unknown | Supply / Starts Signal |
 | 2026-07-28 00:04:12 | Selective Capital Re-entry | Developer Strategy Shift | High | 32 | Developer Strategy | Other / Unknown | Supply / Starts Signal |
+| 2026-07-28 23:59:43 | Selective Capital Re-entry | Developer Strategy Shift | High | 37 | Institutional Flow | Other / Unknown | Deal Size Signal |
 
 ## Historical Persistence Summary
 

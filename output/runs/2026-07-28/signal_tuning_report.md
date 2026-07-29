@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-07-28 00:04:12
+Generated: 2026-07-28 23:59:43
 
 ## Top Strategic Relevance Articles
 
-- 85 / richness 75: MPZ, Capstone Near Completion of $36M Multifamily Adaptive Reuse Project in Templeton, Massachusetts (REBusiness Online, Other / Unknown) - JV or partnership activity; entitlement persistence
-- 80 / richness 75: JV Snags Refi on Tempe Student Housing Community (Connect CRE Phoenix, Phoenix / Arizona) - JV or partnership activity; large-scale refinance tied to strategy
+- 86 / richness 85: Associated Bank Loans $28M for Chicago Transit-Oriented Apartment Development (Connect CRE Apartments, Other / Unknown) - JV or partnership activity; institutional acquisition behavior
+- 83 / richness 90: JLL Arranges $58M Loan for Refinancing of Brooklyn Mixed-Use Building (REBusiness Online, New York City / New York) - JV or partnership activity; large-scale refinance tied to strategy
+- 80 / richness 75: Mesa West Capital Provides $81M Refi for Colorado Multifamily Complex (Commercial Observer, Denver / Colorado) - JV or partnership activity; large-scale refinance tied to strategy
+- 74 / richness 100: Cavan Cos. Sells 334-Unit BTR Community in Phoenix for $112.5M (REBusiness Online, Phoenix / Arizona) - institutional acquisition behavior
 - 74 / richness 100: Bascom Acquires Buena Park Apartments as Value-Add Deal (Connect CRE Orange County, California) - institutional acquisition behavior
-- 74 / richness 75: Mesirow Pays $132M for Midtown Atlanta Apartment Community (Connect CRE Apartments, Atlanta / Georgia) - JV or partnership activity; institutional acquisition behavior; classification confidence penalty
-- 70 / richness 85: Berkadia Arranges $85M Sale of Multifamily Community in Manassas, Virginia (REBusiness Online, Washington DC) - institutional acquisition behavior
-- 70 / richness 85: Berkadia Brokers Sale of 180-Unit Apartment Complex in Northwest Houston (REBusiness Online, Houston / Texas) - institutional acquisition behavior
+- 74 / richness 75: Mesirow Pays $132M for Midtown Atlanta Apartment Community (Connect CRE Atlanta, Atlanta / Georgia) - JV or partnership activity; institutional acquisition behavior; classification confidence penalty
+- 73 / richness 90: Core Spaces Breaks Ground on 1,656-Bed Student Housing Development Near University of Georgia (REBusiness Online, Georgia) - JV or partnership activity
+- 70 / richness 85: Northmarq Negotiates $5.6M Sale of Multifamily Community in Lexington, South Carolina (REBusiness Online, Southeast) - institutional acquisition behavior
 - 70 / richness 85: Walton Communities Offloads Two Atlanta Rental Properties (Connect CRE Atlanta, Atlanta / Georgia) - institutional acquisition behavior
-- 70 / richness 85: Marcus & Millichap Closes $12.5M Sale of La Mesa Seniors Housing (Connect CRE, California) - institutional acquisition behavior
-- 70 / richness 85: MMG Real Estate Arranges Sale of 142-Unit Apartment Complex in Norman, Oklahoma (REBusiness Online, Texas) - institutional acquisition behavior
-- 70 / richness 75: PCCP Provides $51.8M Refi of Gilbert 236-Unit Multifamily Community (Connect CRE Phoenix, Phoenix / Arizona) - JV or partnership activity; large-scale refinance tied to strategy; classification confidence penalty
+- 70 / richness 85: Marcus & Millichap Closes $12.5M Sale of La Mesa Seniors Housing (Connect CRE California, California) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -36,13 +36,12 @@ Generated: 2026-07-28 00:04:12
 ## Potential Parsing Integrity Issues
 
 - low_value_promotional: The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist (Multifamily Executive) - chat-with-chief-economist promotional format
-- suspicious_mismatch: 1929-Vintage Los Feliz Apartments Sell to Dream Street Capital (Connect CRE California) - source page may contain multiple article blocks
 - low_value_promotional: 2026 Resident Experience Management Report (Multifamily Executive) - promotional/event keyword: whitepaper
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 28
-- Development / sponsor behavior articles: 42
+- Financing-oriented articles: 25
+- Development / sponsor behavior articles: 47
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

@@ -1,6 +1,6 @@
 # LA / Southern California Submarket Watch Report
 
-Generated: 2026-07-28 00:04:33
+Generated: 2026-07-29 00:00:05
 
 - Total LA / Southern California submarkets detected: 10
 
@@ -10,12 +10,12 @@ Generated: 2026-07-28 00:04:33
 - Santa Monica: opportunity 68, risk 55, Monitor only.
 - Orange County: opportunity 65, risk 30, Orange County suburban apartment watch.
 - Riverside: opportunity 63, risk 30, Inland Empire BTR / rental housing watch.
+- Long Beach: opportunity 62, risk 30, Long Beach mixed-use residential watch.
 - Irvine: opportunity 55, risk 30, Orange County suburban apartment watch.
-- Glendale: opportunity 54, risk 30, Monitor only.
 - California: opportunity 24, risk 20, Monitor only.
-- Hollywood: opportunity 20, risk 30, Hollywood / transit-oriented housing watch.
 - Costa Mesa: opportunity 12, risk 30, Orange County suburban apartment watch.
 - Wilshire: opportunity 12, risk 30, Koreatown multifamily watch.
+- Southern California: opportunity 8, risk 20, Monitor only.
 
 ## Koreatown / Wilshire Watch
 
@@ -27,7 +27,7 @@ Generated: 2026-07-28 00:04:33
 
 ## Hollywood / Transit-Oriented Watch
 
-- Hollywood: opportunity 20, risk 30, Hollywood / transit-oriented housing watch.
+- None detected.
 
 ## Pasadena / Entitlement Precedent Watch
 
@@ -35,7 +35,7 @@ Generated: 2026-07-28 00:04:33
 
 ## Long Beach / Mixed-Use Watch
 
-- None detected.
+- Long Beach: opportunity 62, risk 30, Long Beach mixed-use residential watch.
 
 ## Orange County / Suburban Apartment Watch
 
@@ -62,10 +62,10 @@ Generated: 2026-07-28 00:04:33
 - Track local planning docket and entitlement precedent: Santa Monica / Monitor only.
 - Review potential acquisition pipeline: Orange County / Orange County suburban apartment watch.
 - Review potential acquisition pipeline: Riverside / Inland Empire BTR / rental housing watch.
+- Review potential acquisition pipeline: Long Beach / Long Beach mixed-use residential watch.
 - Review potential acquisition pipeline: Irvine / Orange County suburban apartment watch.
-- Review potential acquisition pipeline: Glendale / Monitor only.
 - Monitor only: California / Monitor only.
-- Monitor only: Hollywood / Hollywood / transit-oriented housing watch.
+- Monitor only: Costa Mesa / Orange County suburban apartment watch.
 
 ## Asset / Parcel Intelligence Reference
 
@@ -75,8 +75,8 @@ Asset / parcel-level site clues are available in `asset_parcel_intelligence_repo
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 86
-- LA lifecycle watch items: 53
-- Stage mix: Site Acquisition / Site Control: 5, Delivery / Opening: 4, Construction Ready: 1, Unknown Stage: 56, Refinancing / Recapitalization: 4
+- Lifecycle records: 93
+- LA lifecycle watch items: 56
+- Stage mix: Site Acquisition / Site Control: 8, Construction Ready: 1, Unknown Stage: 63, Delivery / Opening: 4, Entitled / Approved: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

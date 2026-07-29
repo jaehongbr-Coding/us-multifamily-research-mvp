@@ -1,23 +1,23 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-07-28 00:04:24
+Generated: 2026-07-28 23:59:54
 
-- GP/developer candidates reviewed: 26
+- GP/developer candidates reviewed: 27
 - Tier 1 Strategic GPs: 0
-- Tier 2 High Potential GPs: 1
+- Tier 2 High Potential GPs: 2
 
 ## Top Emerging GPs
 
-- JLL: 73 (Tier 2 High Potential GP), Dallas / Texas, California / LA strategic positioning.
-- Hines: 68 (Tier 3 Monitoring GP), Dallas / Texas, California / LA strategic positioning.
-- Marcus & Millichap: 67 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
-- Margaritaville Hotel Savannah Tidal Real Estate Partners: 66 (Tier 3 Monitoring GP), Georgia, Selective residential growth.
+- JLL: 74 (Tier 2 High Potential GP), New York City / New York, California / LA strategic positioning.
+- Bell Partners: 73 (Tier 2 High Potential GP), San Francisco / California, California / LA strategic positioning.
+- Marcus & Millichap: 66 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
 - Bascom Group: 65 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
 - Edgewater Rental Community S3 Capital: 65 (Tier 3 Monitoring GP), Miami / Florida, California / LA strategic positioning.
 - PCCP: 63 (Tier 3 Monitoring GP), Phoenix / Arizona, Distressed opportunity positioning.
 - Milhaus Merges with SRG Residential, Will: 63 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
-- Harrison Street Asset Management: 62 (Tier 3 Monitoring GP), Phoenix / Arizona, Distressed opportunity positioning.
-- Berkadia: 61 (Tier 3 Monitoring GP), Washington DC, Selective residential growth.
+- JSB Capital Group: 62 (Tier 3 Monitoring GP), Florida, Institutional-backed regional expansion.
+- Jasmine Kilman Associated Bank: 62 (Tier 3 Monitoring GP), Other / Unknown, Selective residential growth.
+- Mesa West Capital: 62 (Tier 3 Monitoring GP), Denver / Colorado, Distressed opportunity positioning.
 
 ## Tier 1 Strategic GP
 
@@ -25,33 +25,32 @@ Generated: 2026-07-28 00:04:24
 
 ## Tier 2 High Potential GP
 
-- JLL: score 73, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 74, Tier 2 High Potential GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
+- Bell Partners: score 73, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## California / LA GP Activity
 
-- JLL: score 73, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
-- Hines: score 68, Tier 3 Monitoring GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
-- Marcus & Millichap: score 67, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- JLL: score 74, Tier 2 High Potential GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
+- Bell Partners: score 73, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Marcus & Millichap: score 66, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
 - Bascom Group: score 65, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
 - Edgewater Rental Community S3 Capital: score 65, Tier 3 Monitoring GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
 - Milhaus Merges with SRG Residential, Will: score 63, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
 - CIM Group: score 56, Tier 3 Monitoring GP, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
-- IPA: score 56, Tier 3 Monitoring GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
+- IPA: score 55, Tier 3 Monitoring GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
+- Trammell Crow Residential: score 51, Emerging Watchlist, Southeast, LA / California developer strategy watch. Review LA / California development activity.
 
 ## BTR / SFR GP Activity
 
+- Berkadia: score 50, Emerging Watchlist, Phoenix / Arizona, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
 - Arcus Real Estate Capital: score 48, Emerging Watchlist, Phoenix / Arizona, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
 
 ## Affordable Housing GP Activity
 
-- Fannie Mae: score 57, Tier 3 Monitoring GP, New York, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
-- Greystone: score 57, Tier 3 Monitoring GP, New York, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
-- Lawmark Capital: score 45, Emerging Watchlist, Other / Unknown, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
-- NJHMFA: score 36, Low Signal, Other / Unknown, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- No current GP signal detected.
 
 ## Student Housing GP Activity
 
-- Harrison Street Asset Management: score 62, Tier 3 Monitoring GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
 - Atlanta Student Housing Project Radnor Property Group: score 42, Emerging Watchlist, Atlanta / Georgia, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
 
 ## Innovation-Oriented GP Activity
@@ -60,29 +59,28 @@ Generated: 2026-07-28 00:04:24
 
 ## Institutional Capital Magnet
 
-- JLL: score 73, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
-- Hines: score 68, Tier 3 Monitoring GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
-- Marcus & Millichap: score 67, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Margaritaville Hotel Savannah Tidal Real Estate Partners: score 66, Tier 3 Monitoring GP, Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 74, Tier 2 High Potential GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
+- Bell Partners: score 73, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Marcus & Millichap: score 66, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
 - Bascom Group: score 65, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
 - Edgewater Rental Community S3 Capital: score 65, Tier 3 Monitoring GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
 - PCCP: score 63, Tier 3 Monitoring GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
 - Milhaus Merges with SRG Residential, Will: score 63, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Harrison Street Asset Management: score 62, Tier 3 Monitoring GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
-- Berkadia: score 61, Tier 3 Monitoring GP, Washington DC, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- JSB Capital Group: score 62, Tier 3 Monitoring GP, Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- Jasmine Kilman Associated Bank: score 62, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- Mesa West Capital: score 62, Tier 3 Monitoring GP, Denver / Colorado, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## Potential Woomi Partnership Candidates
 
-- JLL: score 73, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
-- Hines: score 68, Tier 3 Monitoring GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
-- Margaritaville Hotel Savannah Tidal Real Estate Partners: score 66, Tier 3 Monitoring GP, Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 74, Tier 2 High Potential GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
+- Bell Partners: score 73, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Edgewater Rental Community S3 Capital: score 65, Tier 3 Monitoring GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
 - PCCP: score 63, Tier 3 Monitoring GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
-- Harrison Street Asset Management: score 62, Tier 3 Monitoring GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
-- Berkadia: score 61, Tier 3 Monitoring GP, Washington DC, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
-- Freddie Mac: score 59, Tier 3 Monitoring GP, Washington DC, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
-- Fannie Mae: score 57, Tier 3 Monitoring GP, New York, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
-- Greystone: score 57, Tier 3 Monitoring GP, New York, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- JSB Capital Group: score 62, Tier 3 Monitoring GP, Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- Jasmine Kilman Associated Bank: score 62, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- Mesa West Capital: score 62, Tier 3 Monitoring GP, Denver / Colorado, Potential GP partnership candidate. Track JV and capital partner activity.
+- Elme Communities: score 52, Emerging Watchlist, Riverside / California, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- CBRE: score 37, Low Signal, Other / Unknown, General developer monitoring. Monitor only.
 
 ## GP Source Expansion Summary
 
@@ -111,31 +109,31 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Recommended Management Meeting Targets
 
-- JLL: Track JV and capital partner activity (Medium confidence).
-- Hines: Track JV and capital partner activity (Medium confidence).
-- Margaritaville Hotel Savannah Tidal Real Estate Partners: Track JV and capital partner activity (Medium confidence).
+- JLL: Track JV and capital partner activity (High confidence).
+- Bell Partners: Track JV and capital partner activity (Medium confidence).
 - PCCP: Track JV and capital partner activity (Medium confidence).
-- Harrison Street Asset Management: Track JV and capital partner activity (Medium confidence).
+- JSB Capital Group: Track JV and capital partner activity (Medium confidence).
+- Jasmine Kilman Associated Bank: Track JV and capital partner activity (Medium confidence).
 
 ## Recommended Strategic Follow-up Actions
 
 - JLL: Track JV and capital partner activity.
-- Hines: Track JV and capital partner activity.
+- Bell Partners: Track JV and capital partner activity.
 - Marcus & Millichap: Review LA / California development activity.
-- Margaritaville Hotel Savannah Tidal Real Estate Partners: Track JV and capital partner activity.
 - Bascom Group: Review LA / California development activity.
 - Edgewater Rental Community S3 Capital: Review LA / California development activity.
 - PCCP: Track JV and capital partner activity.
 - Milhaus Merges with SRG Residential, Will: Review LA / California development activity.
+- JSB Capital Group: Track JV and capital partner activity.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 173
-- Institutional-grade signals: 14
-- High-confidence signals: 38
-- Weak/noisy signals: 110
-- High-confidence watchlist items: 38
+- Signals evaluated: 195
+- Institutional-grade signals: 17
+- High-confidence signals: 44
+- Weak/noisy signals: 122
+- High-confidence watchlist items: 44
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

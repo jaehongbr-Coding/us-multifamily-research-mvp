@@ -1,46 +1,46 @@
 # Development Lifecycle Report
 
-Generated: 2026-08-07 01:42:52
+Generated: 2026-08-07 23:34:44
 
-- Total lifecycle records: 85
+- Total lifecycle records: 89
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 50
-- Refinancing / Recapitalization: 13
-- Site Acquisition / Site Control: 8
-- Delivery / Opening: 7
+- Unknown Stage: 45
+- Site Acquisition / Site Control: 12
+- Delivery / Opening: 12
+- Refinancing / Recapitalization: 10
+- Early Site Signal: 3
+- Vertical Construction: 2
 - Construction Started: 2
 - Entitlement Under Review: 2
-- Early Site Signal: 1
 - Construction Ready: 1
-- Distressed / Stalled: 1
 
 ## Top Development Timing Opportunities
 
 - Refinancing - California - Greystone Provides $106M Freddie Mac Refi on Two El Cajon Properties: Refinancing / Recapitalization, California, lifecycle_opportunity_score 100.
 - Greystone Provides $106M Freddie Mac Refi on Two El Cajon Properties: Refinancing / Recapitalization, Unknown, lifecycle_opportunity_score 100.
-- Value-Add Revere Beach Apartments Refinanced for $67M: Refinancing / Recapitalization, Unknown, lifecycle_opportunity_score 100.
-- General Project Signal - Los Angeles / California - BWE Secures $16.8M to Finance Multifamily Affordable Community in Grapevine Texas: Unknown Stage, Dallas, lifecycle_opportunity_score 100.
-- Office-to-Residential Conversion - California - Olson Co. Buys Office Property in Monterey Park, California for $24.8M, Plans Residential...: Early Site Signal, California, lifecycle_opportunity_score 100.
-- Olson Co. Buys Office Property in Monterey Park, California for $24.8M, Plans Residential Conversion: Site Acquisition / Site Control, Unknown, lifecycle_opportunity_score 100.
+- Construction Financing - Phoenix / Arizona - RXR-Led Team Lands Construction Financing for 301-Unit Denver Rental Community: Site Acquisition / Site Control, Phoenix, lifecycle_opportunity_score 100.
+- Entitlement / Permitting - Texas - Completion nears for mixed-use project at 939 W. Manchester Blvd. in Inglewood: Delivery / Opening, Texas, lifecycle_opportunity_score 100.
+- Acquisition - Seattle - Pacific Urban Acquires Seattle Multifamily Apartment Community A’Capella Apartment Homes f...: Delivery / Opening, Seattle, lifecycle_opportunity_score 100.
+- General Project Signal - Atlanta / Georgia - Core Spaces to Build 1,600 Student Housing Beds with Hub Athens Dougherty Near the Univers...: Site Acquisition / Site Control, Atlanta, lifecycle_opportunity_score 100.
+- JV / Partnership - Atlanta / Georgia - Wood Partners Apex Land Buy Paves Way for Apartment Venture: Site Acquisition / Site Control, Atlanta, lifecycle_opportunity_score 100.
 - Development Start - Atlanta / Georgia - Financing Secured for Centennial Yards Mixed-Use Project: Construction Ready, Atlanta, lifecycle_opportunity_score 100.
-- Disposition / Exit - Los Angeles / California - Camden Property Trust Completes Largest U.S Multifamily Sale Since 2024: Unknown Stage, Los Angeles, lifecycle_opportunity_score 99.
-- JV / Partnership - Atlanta / Georgia - JLL Brokers $147M Sale of Seniors Housing Portfolio in Metro Atlanta: Unknown Stage, Atlanta, lifecycle_opportunity_score 98.
-- Disposition / Exit - California - Costa Mesa Multifamily Changes Hands for Value-Add Repositioning: Unknown Stage, California, lifecycle_opportunity_score 95.
+- Office-to-Residential Conversion - West Palm Beach / Florida - IPA Brokers $90.5M Sale of West Palm Beach Condos, Buyer Plans Multifamily Conversion: Early Site Signal, Southeast, lifecycle_opportunity_score 98.
+- Construction Financing - Denver / Colorado - RXR Joint Venture Receives $125M Construction Financing for Denver Multifamily Mixed-Incom...: Vertical Construction, Denver, lifecycle_opportunity_score 95.
 
 ## Top Lifecycle Risks
 
-- Co-Living Complex Near UCLA Will Become Student Housing: Distressed / Stalled, Unknown, lifecycle_risk_score 69.
-- Construction Financing - California - Lightstone Capital Originates Senior Loans for Two San Diego Multifamily Properties: Unknown Stage, California, lifecycle_risk_score 61.
-- Construction Financing - Dallas / Texas - Concord Arranges $50M Construction Loan for FW Apartments: Refinancing / Recapitalization, Dallas, lifecycle_risk_score 60.
+- Refinancing - Los Angeles / California - Mesa West Capital Provides $52M Loan for Refinancing of Sumner Mill Apartments Near Seattl...: Refinancing / Recapitalization, Seattle, lifecycle_risk_score 61.
 - Construction Financing - Miami / Florida - Arrow Arranges $85M Construction Loan for Miami Condo Project: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 60.
 - Refinancing - Miami / Florida - Baron Property Group Closes on $226.5M Refi for Hialeah Apartment Community: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 60.
-- Refinancing - Seattle - Mesa West Provides $52M Refi for Seattle-Area Apartment Community: Refinancing / Recapitalization, Seattle, lifecycle_risk_score 60.
 - Refinancing - California - Greystone Provides $106M Freddie Mac Refi on Two El Cajon Properties: Refinancing / Recapitalization, California, lifecycle_risk_score 59.
 - BTR / Build-to-Rent - Phoenix / Arizona - Phoenix BTR Investor Inks $73.1M Bridge Loan: Refinancing / Recapitalization, Phoenix, lifecycle_risk_score 59.
-- Construction Financing - Florida - Krea USA Nabs $62M Construction Loan for Lauderhill, Fla., Rental: Refinancing / Recapitalization, Florida, lifecycle_risk_score 58.
+- Refinancing - Seattle - Mesa West Capital Originates $52M Refinance for Seattle-Area Apartments: Refinancing / Recapitalization, Seattle, lifecycle_risk_score 59.
+- Refinancing - Miami / Florida - Valley National Bank Provides $30M Value-Add Refi for Park Towers in Miami: Refinancing / Recapitalization, Miami, lifecycle_risk_score 57.
 - Construction Financing - Miami / Florida - Affiliated Closes Financing on Mixed-Income Fort Lauderdale Apartment Project: Unknown Stage, South Florida, lifecycle_risk_score 54.
+- Construction Financing - Atlanta / Georgia - Developer Duo Obtains Construction Financing for $147M Atlanta Student Housing Project: Unknown Stage, Atlanta, lifecycle_risk_score 52.
+- Construction Financing - Sun Belt - AEW with GMH Move Forward with Luxury Multifamily High-Rise Tower Project in Charlotte: Unknown Stage, Charlotte, lifecycle_risk_score 51.
 
 ## Projects Under Entitlement / Planning
 
@@ -50,35 +50,40 @@ Generated: 2026-08-07 01:42:52
 ## Construction-Ready / Construction-Start Signals
 
 - Development Start - Atlanta / Georgia - Financing Secured for Centennial Yards Mixed-Use Project: Construction Ready, Atlanta, lifecycle_opportunity_score 100.
+- Construction Financing - Denver / Colorado - RXR Joint Venture Receives $125M Construction Financing for Denver Multifamily Mixed-Incom...: Vertical Construction, Denver, lifecycle_opportunity_score 95.
 - Groundbreaking Ceremony to be Held Today at 700 East Saint John Street in San Jose: Construction Started, Unknown, lifecycle_opportunity_score 86.
 - Development Start - California - Groundbreaking Ceremony to be Held Today at 700 East Saint John Street in San Jose: Construction Started, San Jose, lifecycle_opportunity_score 82.
+- RXR Joint Venture Receives $125M Construction Financing for Denver Multifamily Mixed-Income Project AVE Station House: Vertical Construction, Arts District, lifecycle_opportunity_score 79.
 
 ## Delivery / Lease-Up Signals
 
-- Disposition / Exit - Austin / Texas - JLL, Cousins Link Up on Two Austin Office Transactions: Delivery / Opening, Austin, lifecycle_opportunity_score 83.
-- McShane Construction Delivers 332-Unit Ellison Cool Springs Apartments Near Nashville: Delivery / Opening, Nashville, lifecycle_opportunity_score 82.
+- Entitlement / Permitting - Texas - Completion nears for mixed-use project at 939 W. Manchester Blvd. in Inglewood: Delivery / Opening, Texas, lifecycle_opportunity_score 100.
+- Acquisition - Seattle - Pacific Urban Acquires Seattle Multifamily Apartment Community A’Capella Apartment Homes f...: Delivery / Opening, Seattle, lifecycle_opportunity_score 100.
+- Pacific Urban Acquires Seattle Multifamily Apartment Community A’Capella Apartment Homes for $112M: Delivery / Opening, Seattle, lifecycle_opportunity_score 90.
+- Completion nears for mixed-use project at 939 W. Manchester Blvd. in Inglewood: Delivery / Opening, Inglewood, lifecycle_opportunity_score 87.
+- Recapitalization - National - JLL Arranges Recapitalization of Downtown Pittsburgh Mixed-Use Property: Delivery / Opening, America, lifecycle_opportunity_score 86.
+- Refinancing - Other / Unknown - Bridge Investment Group Provides $67M Refi for Value-Add Multifamily Outside Boston: Delivery / Opening, Unknown, lifecycle_opportunity_score 81.
+- Disposition / Exit - Austin / Texas - JLL, Cousins Link Up on Two Austin Office Transactions: Delivery / Opening, Austin, lifecycle_opportunity_score 81.
 - Refinancing - Miami / Florida - Stewards Inks $79M Refi of Hollywood Rental Asset: Delivery / Opening, South Florida, lifecycle_opportunity_score 77.
-- Gantry Secures $15M Construction-to-Permanent Loan for Seattle Multifamily: Delivery / Opening, Seattle, lifecycle_opportunity_score 74.
-- Acquisition - San Francisco / California - Bell Partners Adds Nearly 400 Apartment Homes in Northern California and Greater Boston: Delivery / Opening, California, lifecycle_opportunity_score 73.
-- Disposition / Exit - Los Angeles / California - Co-Living Complex Near UCLA Will Become Student Housing: Delivery / Opening, Los Angeles, lifecycle_opportunity_score 61.
-- General Project Signal - Other / Unknown - Multifamily Absorption Rate Remains Below 50%: Delivery / Opening, Unknown, lifecycle_opportunity_score 28.
+- Commonwealth Development Partners Break Ground on $162M Office-to-Residential Multifamily Conversion in Chicago: Delivery / Opening, Unknown, lifecycle_opportunity_score 66.
+- BTR / Build-to-Rent - Phoenix / Arizona - Porter Kyle Celebrates Grand Opening of Build-to-Rent Multifamily Community The Wayne in H...: Delivery / Opening, Scottsdale, lifecycle_opportunity_score 59.
 
 ## Distressed / Stalled Lifecycle Signals
 
-- Co-Living Complex Near UCLA Will Become Student Housing: Distressed / Stalled, Unknown, lifecycle_risk_score 69.
+- None detected.
 
 ## Refinancing / Recapitalization Lifecycle Signals
 
-- Construction Financing - Dallas / Texas - Concord Arranges $50M Construction Loan for FW Apartments: Refinancing / Recapitalization, Dallas, lifecycle_risk_score 60.
+- Refinancing - Los Angeles / California - Mesa West Capital Provides $52M Loan for Refinancing of Sumner Mill Apartments Near Seattl...: Refinancing / Recapitalization, Seattle, lifecycle_risk_score 61.
 - Construction Financing - Miami / Florida - Arrow Arranges $85M Construction Loan for Miami Condo Project: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 60.
 - Refinancing - Miami / Florida - Baron Property Group Closes on $226.5M Refi for Hialeah Apartment Community: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 60.
-- Refinancing - Seattle - Mesa West Provides $52M Refi for Seattle-Area Apartment Community: Refinancing / Recapitalization, Seattle, lifecycle_risk_score 60.
 - Refinancing - California - Greystone Provides $106M Freddie Mac Refi on Two El Cajon Properties: Refinancing / Recapitalization, California, lifecycle_risk_score 59.
 - BTR / Build-to-Rent - Phoenix / Arizona - Phoenix BTR Investor Inks $73.1M Bridge Loan: Refinancing / Recapitalization, Phoenix, lifecycle_risk_score 59.
-- Construction Financing - Florida - Krea USA Nabs $62M Construction Loan for Lauderhill, Fla., Rental: Refinancing / Recapitalization, Florida, lifecycle_risk_score 58.
-- Refinancing - Sarasota / Florida - Walker & Dunlop Arranges $52M Refinance Loan for Sarasota Multifamily Adult Apartment Comm...: Refinancing / Recapitalization, Sarasota, lifecycle_risk_score 51.
-- Refinancing - Other / Unknown - Value-Add Revere Beach Apartments Refinanced for $67M: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 51.
-- Refinancing - Denver / Colorado - Madison Realty Capital Provides $100M Loan for RXR Multifamily Asset: Refinancing / Recapitalization, Denver, lifecycle_risk_score 50.
+- Refinancing - Seattle - Mesa West Capital Originates $52M Refinance for Seattle-Area Apartments: Refinancing / Recapitalization, Seattle, lifecycle_risk_score 59.
+- Refinancing - Miami / Florida - Valley National Bank Provides $30M Value-Add Refi for Park Towers in Miami: Refinancing / Recapitalization, Miami, lifecycle_risk_score 57.
+- Greystone Provides $106M Freddie Mac Refi on Two El Cajon Properties: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 49.
+- Recapitalization - Other / Unknown - Berkadia Arranges Recapitalization of MF Within Chicago MSA: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 49.
+- Arrow Arranges $85M Construction Loan for Miami Condo Project: Refinancing / Recapitalization, Miami, lifecycle_risk_score 42.
 
 ## Implications for Woomi / Woomi Global
 
@@ -89,22 +94,22 @@ Generated: 2026-08-07 01:42:52
 
 - Track lender, maturity, debt terms, and recapitalization need: Refinancing - California - Greystone Provides $106M Freddie Mac Refi on Two El Cajon Properties.
 - Track lender, maturity, debt terms, and recapitalization need: Greystone Provides $106M Freddie Mac Refi on Two El Cajon Properties.
-- Track lender, maturity, debt terms, and recapitalization need: Value-Add Revere Beach Apartments Refinanced for $67M.
-- Monitor lifecycle signal for repeated confirmation: General Project Signal - Los Angeles / California - BWE Secures $16.8M to Finance Multifamily Affordable Community in Grapevine Texas.
-- Monitor lifecycle signal for repeated confirmation: Office-to-Residential Conversion - California - Olson Co. Buys Office Property in Monterey Park, California for $24.8M, Plans Residential....
-- Monitor lifecycle signal for repeated confirmation: Olson Co. Buys Office Property in Monterey Park, California for $24.8M, Plans Residential Conversion.
+- Monitor lifecycle signal for repeated confirmation: Construction Financing - Phoenix / Arizona - RXR-Led Team Lands Construction Financing for 301-Unit Denver Rental Community.
+- Benchmark delivery, lease-up, occupancy, and rent assumptions: Entitlement / Permitting - Texas - Completion nears for mixed-use project at 939 W. Manchester Blvd. in Inglewood.
+- Benchmark delivery, lease-up, occupancy, and rent assumptions: Acquisition - Seattle - Pacific Urban Acquires Seattle Multifamily Apartment Community A’Capella Apartment Homes f....
+- Monitor lifecycle signal for repeated confirmation: General Project Signal - Atlanta / Georgia - Core Spaces to Build 1,600 Student Housing Beds with Hub Athens Dougherty Near the Univers....
+- Monitor lifecycle signal for repeated confirmation: JV / Partnership - Atlanta / Georgia - Wood Partners Apex Land Buy Paves Way for Apartment Venture.
 - Monitor permit issuance, financing, and construction-start timing: Development Start - Atlanta / Georgia - Financing Secured for Centennial Yards Mixed-Use Project.
-- Monitor lifecycle signal for repeated confirmation: Disposition / Exit - Los Angeles / California - Camden Property Trust Completes Largest U.S Multifamily Sale Since 2024.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 85
-- Newly detected projects: 35
+- Lifecycle transitions analyzed: 89
+- Newly detected projects: 40
 - Forward progression projects: 0
-- Possible stalled projects: 1
-- LA lifecycle transition watch items: 49
+- Possible stalled projects: 0
+- LA lifecycle transition watch items: 48
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -112,11 +117,11 @@ Generated: 2026-08-07 01:42:52
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 692
-- Canonical projects: 161
-- Duplicate project clusters: 109
-- Persistent assets tracked: 161
-- LA persistent asset watch items: 102
+- Raw project references: 734
+- Canonical projects: 184
+- Duplicate project clusters: 124
+- Persistent assets tracked: 184
+- LA persistent asset watch items: 112
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -124,10 +129,10 @@ Generated: 2026-08-07 01:42:52
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 161
-- Institutional-grade signals: 17
-- High-confidence signals: 47
-- Weak/noisy signals: 98
-- High-confidence watchlist items: 47
+- Signals evaluated: 184
+- Institutional-grade signals: 20
+- High-confidence signals: 51
+- Weak/noisy signals: 115
+- High-confidence watchlist items: 51
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

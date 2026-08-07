@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-08-07 01:42:27
+Generated: 2026-08-07 23:34:15
 
 ## Top Strategic Relevance Articles
 
-- 90 / richness 100: JLL Brokers $147M Sale of Seniors Housing Portfolio in Metro Atlanta (REBusiness Online, Atlanta / Georgia) - JV or partnership activity; institutional acquisition behavior
+- 89 / richness 90: RXR Joint Venture Receives $125M Construction Financing for Denver Multifamily Mixed-Income Project AVE Station House (Yield PRO, Denver / Colorado) - JV or partnership activity; development continuation
+- 86 / richness 100: American House, Winterpast Capital Acquire 192-Unit Seniors Housing Community in Kansas City (REBusiness Online, National) - institutional acquisition behavior; lease-up or absorption behavior
 - 81 / richness 90: Stewards Inks $79M Refi of Hollywood Rental Asset (Connect CRE South Florida, Miami / Florida) - institutional acquisition behavior; large-scale refinance tied to strategy
 - 81 / richness 55: MAA expects Sun Belt recovery to boost late-summer rents (Multifamily Dive, Sun Belt) - sponsor expansion; institutional acquisition behavior
-- 80 / richness 75: Madison Realty Capital Provides $100M Loan for RXR Multifamily Asset (Commercial Observer, Denver / Colorado) - JV or partnership activity; large-scale refinance tied to strategy
-- 74 / richness 100: Olson Co. Buys Office Property in Monterey Park, California for $24.8M, Plans Residential Conversion (REBusiness Online, California) - institutional acquisition behavior
+- 81 / richness 55: Centerspace executives outline disposition plans (Multifamily Dive, Other / Unknown) - sponsor expansion; institutional acquisition behavior
+- 74 / richness 100: Pacific Urban Acquires Seattle Multifamily Apartment Community A’Capella Apartment Homes for $112M (Yield PRO, Seattle) - institutional acquisition behavior
 - 74 / richness 75: Mesirow Pays $132M for Midtown Atlanta Apartment Community (Connect CRE Atlanta, Atlanta / Georgia) - JV or partnership activity; institutional acquisition behavior; classification confidence penalty
-- 73 / richness 90: Krea USA Nabs $62M Construction Loan for Lauderhill, Fla., Rental (Commercial Observer, Florida) - development continuation
-- 70 / richness 85: Bell Partners Adds Nearly 400 Apartment Homes in Northern California and Greater Boston (Yield PRO, San Francisco / California) - institutional acquisition behavior
-- 70 / richness 85: Rockwell Pays $42M for 182-Unit Scottsdale Rental Community (Connect CRE Apartments, Phoenix / Arizona) - institutional acquisition behavior
-- 70 / richness 85: Matt Ferrari’s PXV Multifamily makes first acquisition for $29.5M (Multifamily Dive, Atlanta / Georgia) - institutional acquisition behavior
+- 73 / richness 90: AEW with GMH Move Forward with Luxury Multifamily High-Rise Tower Project in Charlotte (Yield PRO, Sun Belt) - JV or partnership activity
+- 70 / richness 100: JLL Arranges Recapitalization of Downtown Pittsburgh Mixed-Use Property (REBusiness Online, National) - large-scale refinance tied to strategy
+- 70 / richness 85: Franklin Street Negotiates Sale of 138-Unit Multifamily Property in Southwest Fort Worth (REBusiness Online, Tampa / Florida) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -21,7 +21,7 @@ Generated: 2026-08-07 01:42:27
 - 0: Best Year for Missing Middle Construction Since 2007 (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: Missing Middle Weakness (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
-- 0: MSCI: Office Prices Show Signs of Recovery as Industrial, Apartments Lose Momentum (Connect CRE) - confidence low; integrity valid
+- 0: MSCI: Office Prices Show Signs of Recovery as Industrial, Apartments Lose Momentum (Connect CRE Apartments) - confidence low; integrity valid
 - 0: First Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: Fourth Quarter 2025 Multifamily Construction Data (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: Overall Housing Starts Inch Lower in 2025 (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
@@ -36,13 +36,14 @@ Generated: 2026-08-07 01:42:27
 ## Potential Parsing Integrity Issues
 
 - low_value_promotional: The Market Data that Matters for the rest of 2026: A Chat with Zillow’s Chief Economist (Multifamily Executive) - chat-with-chief-economist promotional format
+- suspicious_duplicate: Affordable housing nears the finish like at 515 Pioneer Dr. in Glendale (Urbanize LA) - source-feed signal bleed suspected
 - suspicious_duplicate: Adaptive reuse project starting up at 6380 Wilshire Boulevard (Urbanize LA) - source-feed signal bleed suspected
 - low_value_promotional: 2026 Resident Experience Management Report (Multifamily Executive) - promotional/event keyword: whitepaper
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 30
-- Development / sponsor behavior articles: 39
+- Financing-oriented articles: 28
+- Development / sponsor behavior articles: 46
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

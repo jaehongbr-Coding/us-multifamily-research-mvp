@@ -1,20 +1,19 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-08-07 01:42:52
+Generated: 2026-08-07 23:34:44
 
-- Total LA lifecycle watch items: 50
+- Total LA lifecycle watch items: 51
 
 ## LA Lifecycle Stage Distribution
 
-- Unknown Stage: 29
-- Site Acquisition / Site Control: 7
-- Refinancing / Recapitalization: 4
-- Delivery / Opening: 3
+- Unknown Stage: 25
+- Site Acquisition / Site Control: 11
+- Delivery / Opening: 4
+- Refinancing / Recapitalization: 3
+- Early Site Signal: 3
 - Construction Started: 2
 - Entitlement Under Review: 2
-- Early Site Signal: 1
 - Construction Ready: 1
-- Distressed / Stalled: 1
 
 ## Koreatown / Wilshire Lifecycle Watch
 
@@ -46,7 +45,7 @@ Generated: 2026-08-07 01:42:52
 
 ## Stalled / Distressed LA Project Watch
 
-- Co-Living Complex Near UCLA Will Become Student Housing: Distressed / Stalled, Monitor stalled project opportunity, opportunity 64.
+- None detected.
 
 ## Construction-Ready LA Project Watch
 
@@ -58,22 +57,22 @@ Generated: 2026-08-07 01:42:52
 
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - California - Greystone Provides $106M Freddie Mac Refi on Two El Cajon Properties.
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Greystone Provides $106M Freddie Mac Refi on Two El Cajon Properties.
-- Monitor lifecycle status for repeated confirmation: General Project Signal - Los Angeles / California - BWE Secures $16.8M to Finance Multifamily Affordable Community in Grapevine Texas.
-- Monitor lifecycle status for repeated confirmation: Office-to-Residential Conversion - California - Olson Co. Buys Office Property in Monterey Park, California for $24.8M, Plans Residential....
-- Monitor lifecycle status for repeated confirmation: Olson Co. Buys Office Property in Monterey Park, California for $24.8M, Plans Residential Conversion.
+- Monitor lifecycle status for repeated confirmation: Construction Financing - Phoenix / Arizona - RXR-Led Team Lands Construction Financing for 301-Unit Denver Rental Community.
+- Monitor lifecycle status for repeated confirmation: Entitlement / Permitting - Texas - Completion nears for mixed-use project at 939 W. Manchester Blvd. in Inglewood.
+- Monitor lifecycle status for repeated confirmation: Acquisition - Seattle - Pacific Urban Acquires Seattle Multifamily Apartment Community A’Capella Apartment Homes f....
+- Monitor lifecycle status for repeated confirmation: General Project Signal - Atlanta / Georgia - Core Spaces to Build 1,600 Student Housing Beds with Hub Athens Dougherty Near the Univers....
+- Monitor lifecycle status for repeated confirmation: JV / Partnership - Atlanta / Georgia - Wood Partners Apex Land Buy Paves Way for Apartment Venture.
 - Monitor permit status, financing, and construction-start readiness: Development Start - Atlanta / Georgia - Financing Secured for Centennial Yards Mixed-Use Project.
-- Monitor lifecycle status for repeated confirmation: Disposition / Exit - Los Angeles / California - Camden Property Trust Completes Largest U.S Multifamily Sale Since 2024.
-- Monitor lifecycle status for repeated confirmation: JV / Partnership - Atlanta / Georgia - JLL Brokers $147M Sale of Seniors Housing Portfolio in Metro Atlanta.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 85
-- Newly detected projects: 35
+- Lifecycle transitions analyzed: 89
+- Newly detected projects: 40
 - Forward progression projects: 0
-- Possible stalled projects: 1
-- LA lifecycle transition watch items: 49
+- Possible stalled projects: 0
+- LA lifecycle transition watch items: 48
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -81,10 +80,10 @@ Generated: 2026-08-07 01:42:52
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 692
-- Canonical projects: 161
-- Duplicate project clusters: 109
-- Persistent assets tracked: 161
-- LA persistent asset watch items: 102
+- Raw project references: 734
+- Canonical projects: 184
+- Duplicate project clusters: 124
+- Persistent assets tracked: 184
+- LA persistent asset watch items: 112
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

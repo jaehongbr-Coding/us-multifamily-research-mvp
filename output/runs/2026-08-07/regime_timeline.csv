@@ -1,7 +1,7 @@
 ﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
-20260807-014227-b7016404,2026-08-07,Construction financing still selective,Persistent,stable,101,8,30,6.53,3.87,6,6,5,0,Miami / Florida,Broadly Confirmed,steady visibility,
-20260807-014227-b7016404,2026-08-07,Institutional recap over expansion,Persistent,stable,10,8,28,2.9,2.57,4,4,2,3,Miami / Florida,Moderate Signal,steady visibility,
-20260807-014227-b7016404,2026-08-07,JV / partnership activity observed,Persistent,stable,101,8,30,6.23,3.67,3,3,3,1,Atlanta / Georgia,Moderate Signal,steady visibility,
-20260807-014227-b7016404,2026-08-07,LA entitlement precedent accumulation,Weakening,weakening,101,8,30,8.17,2.9,4,4,2,0,Los Angeles / California,Source-Concentrated,LA entitlement precedent accumulation visibility is weakening versus prior runs.,
-20260807-014227-b7016404,2026-08-07,Refinancing pressure unresolved,Persistent,stable,29,8,29,4.1,3.07,6,6,4,5,Miami / Florida,Broadly Confirmed,steady visibility,
-20260807-014227-b7016404,2026-08-07,Sun Belt lease-up pressure watch,Persistent,stable,101,8,30,4.03,3.33,4,4,3,0,National,Moderate Signal,steady visibility,
+20260807-233415-ed5546be,2026-08-07,Construction financing still selective,Building,stable,102,9,31,6.52,3.87,6,6,4,0,Miami / Florida,Broadly Confirmed,steady visibility,
+20260807-233415-ed5546be,2026-08-07,Institutional recap over expansion,Building,accelerating,11,9,29,3.0,2.61,6,6,4,4,Miami / Florida,Broadly Confirmed,Institutional recap over expansion signal is accelerating versus prior runs.,
+20260807-233415-ed5546be,2026-08-07,JV / partnership activity observed,Building,stable,102,9,31,6.19,3.68,5,5,4,0,Atlanta / Georgia,Broadly Confirmed,steady visibility,
+20260807-233415-ed5546be,2026-08-07,LA entitlement precedent accumulation,Persistent,stable,102,9,31,8.16,2.9,8,8,3,0,Los Angeles / California,Moderate Signal,steady visibility,
+20260807-233415-ed5546be,2026-08-07,Refinancing pressure unresolved,Building,accelerating,30,9,30,4.19,3.1,7,7,5,5,Miami / Florida,Broadly Confirmed,Refinancing pressure unresolved signal is accelerating versus prior runs.,
+20260807-233415-ed5546be,2026-08-07,Sun Belt lease-up pressure watch,Building,accelerating,102,9,31,4.13,3.35,7,7,6,0,National,Broadly Confirmed,Sun Belt lease-up pressure watch signal is accelerating versus prior runs.,

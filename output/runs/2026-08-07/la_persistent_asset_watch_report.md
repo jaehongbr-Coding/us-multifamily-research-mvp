@@ -1,21 +1,21 @@
 # LA Persistent Asset Watch Report
 
-Generated: 2026-08-07 01:42:52
+Generated: 2026-08-07 23:34:44
 
-- Total LA persistent asset watch items: 102
+- Total LA persistent asset watch items: 112
 
 ## Priority LA Asset Watch Items
 
 - Refinancing - California - Greystone Provides $106M Freddie Mac Refi on Two El Cajon Properties: California, Refinancing / Recapitalization, Track repeat project updates.
-- Office-to-Residential Conversion - California - Olson Co. Buys Office Property in Monterey Park, California for $24.8M, Plans Residential...: Los Angeles, Early Site Signal, Track repeat project updates.
-- General Project Signal - Los Angeles / California - BWE Secures $16.8M to Finance Multifamily Affordable Community in Grapevine Texas: Los Angeles, Unknown Stage, Track repeat project updates.
-- Disposition / Exit - Los Angeles / California - Camden Property Trust Completes Largest U.S Multifamily Sale Since 2024: Los Angeles, Unknown Stage, Track repeat project updates.
+- Construction Financing - Phoenix / Arizona - RXR-Led Team Lands Construction Financing for 301-Unit Denver Rental Community: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
 - General Project Signal - Santa Monica / California - New look for 353-unit development at 1633 26th St. in Santa Monica: Santa Monica, Unknown Stage, Track repeat project updates.
+- Office-to-Residential Conversion - West Palm Beach / Florida - IPA Brokers $90.5M Sale of West Palm Beach Condos, Buyer Plans Multifamily Conversion: Los Angeles, Early Site Signal, Track repeat project updates.
 - Disposition / Exit - California - Costa Mesa Multifamily Changes Hands for Value-Add Repositioning: California, Unknown Stage, Track repeat project updates.
-- JV / Partnership - Atlanta / Georgia - JLL Brokers $147M Sale of Seniors Housing Portfolio in Metro Atlanta: Los Angeles, Unknown Stage, Track repeat project updates.
-- General Project Signal - Virginia - Capital Square Launches $42.95M DST for Apartment Community Near Richmond Virginia: Los Angeles, Unknown Stage, Track repeat project updates.
+- General Project Signal - Atlanta / Georgia - Core Spaces to Build 1,600 Student Housing Beds with Hub Athens Dougherty Near the Univers...: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
+- Acquisition - Seattle - Pacific Urban Acquires Seattle Multifamily Apartment Community A’Capella Apartment Homes f...: Los Angeles, Delivery / Opening, Track repeat project updates.
+- JV / Partnership - Atlanta / Georgia - Wood Partners Apex Land Buy Paves Way for Apartment Venture: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
 - General Project Signal - Southeast - Mixed-use project rises at 6700 Pacific Coast Highway in Long Beach: Long Beach, Unknown Stage, Track repeat project updates.
-- Acquisition - San Francisco / California - Bell Partners Adds Nearly 400 Apartment Homes in Northern California and Greater Boston: California, Construction Started, Track repeat project updates.
+- Construction Financing - Miami / Florida - Affiliated Closes Financing on Mixed-Income Fort Lauderdale Apartment Project: Los Angeles, Delivery / Opening, Track repeat project updates.
 
 ## Koreatown / Wilshire Persistent Assets
 
@@ -41,26 +41,25 @@ Generated: 2026-08-07 01:42:52
 ## Stalled / Delayed LA Asset Watch
 
 - Refinancing - California - Greystone Provides $106M Freddie Mac Refi on Two El Cajon Properties: California, Refinancing / Recapitalization, Track repeat project updates.
-- Acquisition - San Francisco / California - Bell Partners Adds Nearly 400 Apartment Homes in Northern California and Greater Boston: California, Construction Started, Track repeat project updates.
+- Office-to-Residential Conversion - California - Affordable housing nears the finish like at 515 Pioneer Dr. in Glendale: Glendale, Unknown Stage, Track repeat project updates.
+- Refinancing - Los Angeles / California - Mesa West Capital Provides $52M Loan for Refinancing of Sumner Mill Apartments Near Seattl...: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
 - Construction Financing - Miami / Florida - Affiliated Closes Financing on Mixed-Income Fort Lauderdale Apartment Project: Los Angeles, Delivery / Opening, Track repeat project updates.
-- Construction Financing - Dallas / Texas - Concord Arranges $50M Construction Loan for FW Apartments: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
 - Construction Financing - Atlanta / Georgia - Developer Duo Obtains Construction Financing for $147M Atlanta Student Housing Project: Los Angeles, Unknown Stage, Track repeat project updates.
-- Construction Financing - Florida - Krea USA Nabs $62M Construction Loan for Lauderhill, Fla., Rental: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
-- Office-to-Residential Conversion - Los Angeles / California - L.A. County approves $15M for supportive housing at Metropolitan State Hospital campus: Los Angeles, Distressed / Stalled, Track repeat project updates.
 
 ## Construction / Delivery Transition Watch
 
-- Acquisition - San Francisco / California - Bell Partners Adds Nearly 400 Apartment Homes in Northern California and Greater Boston: California, Construction Started, Track repeat project updates.
+- Acquisition - Seattle - Pacific Urban Acquires Seattle Multifamily Apartment Community A’Capella Apartment Homes f...: Los Angeles, Delivery / Opening, Track repeat project updates.
 - Construction Financing - Miami / Florida - Affiliated Closes Financing on Mixed-Income Fort Lauderdale Apartment Project: Los Angeles, Delivery / Opening, Track repeat project updates.
 - Development Start - California - Groundbreaking Ceremony to be Held Today at 700 East Saint John Street in San Jose: California, Construction Started, Track repeat project updates.
+- Office-to-Residential Conversion - California - Affordable housing nears the finish like at 515 Pioneer Dr. in Glendale: Glendale, Construction Started, Track repeat project updates.
 
 ## Recommended Local Follow-up Actions
 
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - California - Greystone Provides $106M Freddie Mac Refi on Two El Cajon Properties.
 - Monitor for repeated project updates: Office-to-Residential Conversion - Los Angeles / California - Adaptive reuse project starting up at 6380 Wilshire Boulevard.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Office-to-Residential Conversion - California - Olson Co. Buys Office Property in Monterey Park, California for $24.8M, Plans Residential....
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Los Angeles / California - BWE Secures $16.8M to Finance Multifamily Affordable Community in Grapevine Texas.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - Los Angeles / California - Camden Property Trust Completes Largest U.S Multifamily Sale Since 2024.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Phoenix / Arizona - RXR-Led Team Lands Construction Financing for 301-Unit Denver Rental Community.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Santa Monica / California - New look for 353-unit development at 1633 26th St. in Santa Monica.
-- Monitor for repeated project updates: General Project Signal - California - Afforable housing slated for property at 1850 Atlantic Ave. in Long Beach.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Office-to-Residential Conversion - West Palm Beach / Florida - IPA Brokers $90.5M Sale of West Palm Beach Condos, Buyer Plans Multifamily Conversion.
+- Monitor for repeated project updates: Entitlement / Permitting - Los Angeles / California - Affordable housing takes shape at 1332 and 1346 N. Fairfax Avenue.
 - Monitor for repeated project updates: Entitlement / Permitting - Los Angeles / California - New plan for affordable housing at 2127 S. Westwood Boulevard.
+- Monitor for repeated project updates: General Project Signal - Los Angeles / California - Affordable housing with retail pitched for 2306 W. Jefferson Blvd..

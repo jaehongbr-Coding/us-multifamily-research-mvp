@@ -1,21 +1,21 @@
 # 한국어 주간 전략 메모
 
-- 생성 시각: 2026-08-07 01:42:27
+- 생성 시각: 2026-08-07 23:34:15
 - 참고 원문 파일: `weekly_strategy_memo.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
 ## 주간 전략 요약
 
 주간 전략 메모 기준 핵심 신호 6건을 요약했습니다. 본 리포트는 유료 API 없이 규칙 기반으로 작성되며, 우미 / 우미글로벌의 미국 주거 개발 전략 관점에서 우선순위와 후속 조치를 빠르게 확인하기 위한 자료입니다.
-- 추천 포커스: Review Development Start - Atlanta / Georgia - Financing Secured for Centennial Yards Mixed-Use Project and related high-confidence project signals.
+- 추천 포커스: Review Refinancing - California - Greystone Provides $106M Freddie Mac Refi on Two El Cajon Properties and related high-confidence project signals.
 
 ## 시장 국면
 
 - Financing Stress: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention)
-- Selective Capital Re-entry: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention)
-- Developer Strategy Shift: 기타 / 미확인, 아파트, 점수 98 (Tier 2 Strategic Review)
-- Supply Pressure: 기타 / 미확인, 아파트, 점수 98 (Tier 2 Strategic Review)
-- Construction Cost Pressure: 기타 / 미확인, 아파트, 점수 28 (Tier 3 Monitoring)
+- Policy / Entitlement Watch: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention)
+- Selective Capital Re-entry: 기타 / 미확인, 아파트, 점수 100 (Tier 2 Strategic Review)
+- Supply Pressure: 기타 / 미확인, 아파트, 점수 100 (Tier 2 Strategic Review)
+- Developer Strategy Shift: 기타 / 미확인, 아파트, 점수 98 (Tier 3 Monitoring)
 
 ## 자본시장 / GP 동향
 
@@ -26,10 +26,10 @@
 ## 지역 / 섹터 관찰
 
 - California: California, 일반 주거, 점수 91 (Active Watch Window; Actively source opportunities)
-- Seattle: Seattle, 일반 주거, 점수 75 (Selective Entry Window; Monitor refinancing and distress pipeline)
-- National / Other: 전국 / 기타, 일반 주거, 점수 68 (Selective Entry Window; Monitor refinancing and distress pipeline)
-- Florida: Florida, 일반 주거, 점수 66 (Selective Entry Window; Monitor refinancing and distress pipeline)
-- Los Angeles: Los Angeles, 일반 주거, 점수 34 (Monitor Only; Prepare GP conversations)
+- Seattle: Seattle, 일반 주거, 점수 81 (Active Watch Window; Actively source opportunities)
+- National / Other: 전국 / 기타, 일반 주거, 점수 67 (Selective Entry Window; Monitor refinancing and distress pipeline)
+- Sun Belt: Sun Belt, 일반 주거, 점수 65 (Selective Entry Window; Monitor refinancing and distress pipeline)
+- Texas: Texas, 일반 주거, 점수 60 (Early Signal / Prepare; Prepare GP conversations)
 
 ## 우미 전략 시사점
 

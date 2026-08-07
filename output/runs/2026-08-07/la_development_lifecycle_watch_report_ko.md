@@ -1,6 +1,6 @@
 # 한국어 LA 개발 단계 Watch
 
-- 생성 시각: 2026-08-07 01:42:27
+- 생성 시각: 2026-08-07 23:34:15
 - 참고 원문 파일: `la_development_lifecycle_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -8,27 +8,27 @@
 
 - Refinancing - California - Greystone Provides $106M Freddie Mac Refi on Two El Cajon Properties: California, 아파트, 점수 100 (Refinancing / Recapitalization; Review lender exposure, sponsor stress, and possible JV or rescue-capital angle)
 - Greystone Provides $106M Freddie Mac Refi on Two El Cajon Properties: California, 아파트, 점수 100 (Refinancing / Recapitalization; Review lender exposure, sponsor stress, and possible JV or rescue-capital angle)
-- General Project Signal - Los Angeles / California - BWE Secures $16.8M to Finance Multifamily Affordable Community in Grapevine Texas: Los Angeles, 멀티패밀리, 점수 100 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
-- Office-to-Residential Conversion - California - Olson Co. Buys Office Property in Monterey Park, California for $24.8M, Plans Residential...: Los Angeles, 멀티패밀리, 점수 100 (Early Site Signal; Monitor lifecycle status for repeated confirmation)
-- Olson Co. Buys Office Property in Monterey Park, California for $24.8M, Plans Residential Conversion: Los Angeles, 멀티패밀리, 점수 100 (Site Acquisition / Site Control; Monitor lifecycle status for repeated confirmation)
+- Construction Financing - Phoenix / Arizona - RXR-Led Team Lands Construction Financing for 301-Unit Denver Rental Community: Los Angeles, 아파트, 점수 100 (Site Acquisition / Site Control; Monitor lifecycle status for repeated confirmation)
+- Entitlement / Permitting - Texas - Completion nears for mixed-use project at 939 W. Manchester Blvd. in Inglewood: Los Angeles, 어포더블 하우징, 점수 100 (Delivery / Opening; Monitor lifecycle status for repeated confirmation)
+- Acquisition - Seattle - Pacific Urban Acquires Seattle Multifamily Apartment Community A’Capella Apartment Homes f...: Los Angeles, 아파트, 점수 100 (Delivery / Opening; Monitor lifecycle status for repeated confirmation)
+- General Project Signal - Atlanta / Georgia - Core Spaces to Build 1,600 Student Housing Beds with Hub Athens Dougherty Near the Univers...: Los Angeles, 학생주택, 점수 100 (Site Acquisition / Site Control; Monitor lifecycle status for repeated confirmation)
+- JV / Partnership - Atlanta / Georgia - Wood Partners Apex Land Buy Paves Way for Apartment Venture: Los Angeles, 아파트, 점수 100 (Site Acquisition / Site Control; Monitor lifecycle status for repeated confirmation)
 - Development Start - Atlanta / Georgia - Financing Secured for Centennial Yards Mixed-Use Project: Los Angeles, 주거복합, 점수 100 (Construction Ready; Monitor permit status, financing, and construction-start readiness)
-- Disposition / Exit - Los Angeles / California - Camden Property Trust Completes Largest U.S Multifamily Sale Since 2024: Los Angeles, 아파트, 점수 99 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
-- JV / Partnership - Atlanta / Georgia - JLL Brokers $147M Sale of Seniors Housing Portfolio in Metro Atlanta: Los Angeles, 학생주택, 점수 98 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
+- Office-to-Residential Conversion - West Palm Beach / Florida - IPA Brokers $90.5M Sale of West Palm Beach Condos, Buyer Plans Multifamily Conversion: Los Angeles, 아파트, 점수 98 (Early Site Signal; Monitor lifecycle status for repeated confirmation)
 - Disposition / Exit - California - Costa Mesa Multifamily Changes Hands for Value-Add Repositioning: California, 아파트, 점수 95 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
-- General Project Signal - Santa Monica / California - New look for 353-unit development at 1633 26th St. in Santa Monica: Santa Monica, 어포더블 하우징, 점수 95 (Unknown Stage; Monitor lifecycle status for repeated confirmation)
 
 ## 진행 / 정체 / 재등장 신호
 
+- Development Start - California - Groundbreaking Ceremony to be Held Today at 700 East Saint John Street in San Jose: California, 어포더블 하우징, 점수 78 (Same Stage Persistence; Stable)
 - Refinancing - Miami / Florida - Stewards Inks $79M Refi of Hollywood Rental Asset: Hollywood, 아파트, 점수 77 (Mature / Operating; Mature)
-- Acquisition - San Francisco / California - Bell Partners Adds Nearly 400 Apartment Homes in Northern California and Greater Boston: California, 아파트, 점수 77 (Mature / Operating; Mature)
-- Disposition / Exit - Los Angeles / California - Co-Living Complex Near UCLA Will Become Student Housing: Los Angeles, 학생주택, 점수 75 (Mature / Operating; Mature)
-- Development Start - California - Groundbreaking Ceremony to be Held Today at 700 East Saint John Street in San Jose: California, 어포더블 하우징, 점수 73 (Newly Detected Project; Unknown)
-- Groundbreaking Ceremony to be Held Today at 700 East Saint John Street in San Jose: California, 어포더블 하우징, 점수 65 (Newly Detected Project; Unknown)
+- Acquisition - Seattle - Pacific Urban Acquires Seattle Multifamily Apartment Community A’Capella Apartment Homes f...: Los Angeles, 아파트, 점수 75 (Newly Detected Project; Unknown)
+- Pacific Urban Acquires Seattle Multifamily Apartment Community A’Capella Apartment Homes for $112M: Los Angeles, 아파트, 점수 74 (Newly Detected Project; Unknown)
+- Groundbreaking Ceremony to be Held Today at 700 East Saint John Street in San Jose: California, 어포더블 하우징, 점수 70 (Same Stage Persistence; Stable)
+- Refinancing - California - Greystone Provides $106M Freddie Mac Refi on Two El Cajon Properties: California, 아파트, 점수 65 (Same Stage Persistence; Stable)
 - Development Start - Atlanta / Georgia - Financing Secured for Centennial Yards Mixed-Use Project: Los Angeles, 주거복합, 점수 65 (Same Stage Persistence; Stable)
-- Construction Financing - Dallas / Texas - Concord Arranges $50M Construction Loan for FW Apartments: Los Angeles, 아파트, 점수 63 (Same Stage Persistence; Stable)
-- Construction Financing - Florida - Krea USA Nabs $62M Construction Loan for Lauderhill, Fla., Rental: Los Angeles, 멀티패밀리, 점수 63 (Same Stage Persistence; Stable)
-- Refinancing - California - Greystone Provides $106M Freddie Mac Refi on Two El Cajon Properties: California, 아파트, 점수 60 (Newly Detected Project; Unknown)
-- Greystone Provides $106M Freddie Mac Refi on Two El Cajon Properties: California, 아파트, 점수 52 (Newly Detected Project; Unknown)
+- Refinancing - Los Angeles / California - Mesa West Capital Provides $52M Loan for Refinancing of Sumner Mill Apartments Near Seattl...: Los Angeles, 아파트, 점수 58 (Newly Detected Project; Unknown)
+- Greystone Provides $106M Freddie Mac Refi on Two El Cajon Properties: California, 아파트, 점수 57 (Same Stage Persistence; Stable)
+- New plan for affordable housing at 2127 S. Westwood Boulevard: Los Angeles, 어포더블 하우징, 점수 49 (Same Stage Persistence; Stable)
 
 ## 인허가 / 착공 / 리스업 타이밍
 

@@ -1,6 +1,6 @@
 # LA / Southern California Submarket Watch Report
 
-Generated: 2026-10-11 01:36:07
+Generated: 2026-10-12 02:06:29
 
 - Total LA / Southern California submarkets detected: 11
 
@@ -11,7 +11,7 @@ Generated: 2026-10-11 01:36:07
 - West Hollywood: opportunity 68, risk 30, Hollywood / transit-oriented housing watch.
 - Anaheim: opportunity 65, risk 30, Orange County suburban apartment watch.
 - Long Beach: opportunity 61, risk 30, Long Beach mixed-use residential watch.
-- Los Angeles: opportunity 59, risk 55, LA affordable / density bonus watch.
+- Los Angeles: opportunity 51, risk 55, LA affordable / density bonus watch.
 - Southern California: opportunity 41, risk 20, Monitor only.
 - Santa Monica: opportunity 38, risk 40, Monitor only.
 - Orange County: opportunity 20, risk 30, Orange County suburban apartment watch.
@@ -49,11 +49,11 @@ Generated: 2026-10-11 01:36:07
 
 ## LA Density Bonus / TOC Watch
 
-- Los Angeles: opportunity 59, risk 55, LA affordable / density bonus watch.
+- Los Angeles: opportunity 51, risk 55, LA affordable / density bonus watch.
 
 ## LA CEQA / Entitlement Risk Watch
 
-- Los Angeles: opportunity 59, risk 55, LA affordable / density bonus watch.
+- Los Angeles: opportunity 51, risk 55, LA affordable / density bonus watch.
 
 ## Recommended Local Follow-up Actions
 
@@ -74,8 +74,8 @@ Asset / parcel-level site clues are available in `asset_parcel_intelligence_repo
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 76
-- LA lifecycle watch items: 48
-- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 42, Site Acquisition / Site Control: 6, Vertical Construction: 5, Delivery / Opening: 10
+- Lifecycle records: 72
+- LA lifecycle watch items: 45
+- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 40, Site Acquisition / Site Control: 6, Vertical Construction: 5, Delivery / Opening: 8
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

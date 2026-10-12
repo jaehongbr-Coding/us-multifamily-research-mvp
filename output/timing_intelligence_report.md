@@ -1,8 +1,8 @@
 # Timing Intelligence Report
 
-Generated: 2026-10-11 01:36:07
+Generated: 2026-10-12 02:06:29
 
-- Total timing signals detected: 44
+- Total timing signals detected: 42
 
 ## Top Timing Signals
 
@@ -21,6 +21,7 @@ Generated: 2026-10-11 01:36:07
 
 - Refinancing / Maturity Window in California: No explicit timing reference, score 78, Biweekly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
 - Refinancing / Maturity Window in Dallas / Texas: No explicit timing reference, score 71, Biweekly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
+- Refinancing / Maturity Window in Phoenix / Arizona: No explicit timing reference, score 62, Monthly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
 - Refinancing / Maturity Window in Miami / Florida: No explicit timing reference, score 61, Monthly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
 - Refinancing / Maturity Window in Other / Unknown: No explicit timing reference, score 57, Monthly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
 
@@ -31,11 +32,11 @@ Generated: 2026-10-11 01:36:07
 - Construction Completion / Delivery in Los Angeles / California: No explicit timing reference, score 63, Monthly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
 - Construction Start in Los Angeles / California: No explicit timing reference, score 63, Monthly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
 - Construction Start in Los Angeles / California: No explicit timing reference, score 63, Monthly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
-- Construction Start in Los Angeles / California: No explicit timing reference, score 63, Monthly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
 - Construction Start in Phoenix / Arizona: No explicit timing reference, score 62, Monthly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
 - Construction Completion / Delivery in National: No explicit timing reference, score 58, Monthly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
 - Construction Start in Sun Belt: No explicit timing reference, score 56, Monthly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
 - Construction Start in San Francisco / California: No explicit timing reference, score 55, Monthly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
+- Construction Start in Phoenix / Arizona: No explicit timing reference, score 49, Monitor Only monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
 
 ## Entitlement / Permitting Timing Watch
 
@@ -68,14 +69,14 @@ Generated: 2026-10-11 01:36:07
 
 ## BTR / SFR Timing Signals
 
+- Refinancing / Maturity Window in Phoenix / Arizona: No explicit timing reference, score 62, Monthly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
 - BTR / SFR Expansion Timing in Phoenix / Arizona: No explicit timing reference, score 61, Monthly monitoring. Monitor sector-specific platform timing and potential partnership relevance.
-- BTR / SFR Expansion Timing in Florida: No explicit timing reference, score 56, Monthly monitoring. Monitor sector-specific platform timing and potential partnership relevance.
 
 ## Recommended Monitoring Cadence
 
-- Monthly: 22 timing signal(s)
+- Monthly: 21 timing signal(s)
 - Biweekly: 12 timing signal(s)
-- Monitor Only: 7 timing signal(s)
+- Monitor Only: 6 timing signal(s)
 - Weekly: 3 timing signal(s)
 
 ## Implications for Woomi / Woomi Global
@@ -88,9 +89,9 @@ Generated: 2026-10-11 01:36:07
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 76
-- LA lifecycle watch items: 48
-- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 42, Site Acquisition / Site Control: 6, Vertical Construction: 5, Delivery / Opening: 10
+- Lifecycle records: 72
+- LA lifecycle watch items: 45
+- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 40, Site Acquisition / Site Control: 6, Vertical Construction: 5, Delivery / Opening: 8
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -98,10 +99,10 @@ Generated: 2026-10-11 01:36:07
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 76
-- Newly detected projects: 8
+- Lifecycle transitions analyzed: 72
+- Newly detected projects: 3
 - Forward progression projects: 0
-- Possible stalled projects: 1
-- LA lifecycle transition watch items: 45
+- Possible stalled projects: 2
+- LA lifecycle transition watch items: 42
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 

@@ -1,6 +1,6 @@
 # Signal Tuning Report
 
-Generated: 2026-10-11 01:35:43
+Generated: 2026-10-12 02:06:11
 
 ## Top Strategic Relevance Articles
 
@@ -11,9 +11,9 @@ Generated: 2026-10-11 01:35:43
 - 80 / richness 85: Berkadia Arranges Refis for 3 S. Florida Rental Communities (Connect CRE South Florida, Miami / Florida) - institutional acquisition behavior; large-scale refinance tied to strategy
 - 80 / richness 85: JSB Capital Group Secures $238M Refinancing for Class A Multifamily Community in Miami Submarket (Yield PRO, Miami / Florida) - institutional acquisition behavior; large-scale refinance tied to strategy
 - 79 / richness 90: Empire Lands $65.5M Refi on Phoenix BTR Community (Connect CRE Phoenix, Phoenix / Arizona) - lease-up or absorption behavior; large-scale refinance tied to strategy
+- 79 / richness 90: Värde Partners Closed $65.5M Refinance on Newly Delivered Build-to-Rent Community in Phoenix (Yield PRO, Phoenix / Arizona) - lease-up or absorption behavior; large-scale refinance tied to strategy
 - 77 / richness 70: Walker & Dunlop Arranges $630M Fannie Mae Refinance for IMT Capital Multifamily Portfolio (Yield PRO, Other / Unknown) - institutional acquisition behavior; large-scale refinance tied to strategy
 - 76 / richness 100: Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex (Connect CRE South Florida, Miami / Florida) - JV or partnership activity
-- 70 / richness 85: Interstate Equities Pays $84M for Hercules Multifamily (Connect CRE Apartments, California) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -23,7 +23,6 @@ Generated: 2026-10-11 01:35:43
 - 0: Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
 - 0: Investor Takes Over Distressed Atlanta Apartment Asset (Connect CRE Atlanta) - confidence low; integrity valid
 - 0: Thompson Thrift Pursuing 319-Unit Powder Springs Rental Community (Connect CRE Atlanta) - confidence low; integrity valid
-- 0: Top multifamily conferences of 2027 (Multifamily Dive) - confidence unknown; integrity low_value_promotional
 - 0: Second Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: First Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: Fourth Quarter 2025 Multifamily Construction Data (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
@@ -32,17 +31,17 @@ Generated: 2026-10-11 01:35:43
 - 0: 2026 Resident Experience Management Report (Multifamily Executive) - confidence low; integrity low_value_promotional
 - 0: Multifamily Developer Confidence Weakens in Second Quarter (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: Multifamily Developer Confidence Holds Steady in First Quarter (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
+- 0: HBGI Q1 2026: Single-Family Construction Slips Across All Geographies (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
 
 ## Potential Parsing Integrity Issues
 
-- low_value_promotional: Top multifamily conferences of 2027 (Multifamily Dive) - promotional/event keyword: conference
 - low_value_promotional: 2026 Resident Experience Management Report (Multifamily Executive) - promotional/event keyword: whitepaper
 - low_value_promotional: AI, Automation & the Future of Multifamily Finance (Multifamily Executive) - promotional/event keyword: webinar
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 27
-- Development / sponsor behavior articles: 40
+- Financing-oriented articles: 26
+- Development / sponsor behavior articles: 41
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

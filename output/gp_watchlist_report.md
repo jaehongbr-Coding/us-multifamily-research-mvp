@@ -1,10 +1,10 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-10-11 01:35:50
+Generated: 2026-10-12 02:06:17
 
-- GP/developer candidates reviewed: 26
+- GP/developer candidates reviewed: 27
 - Tier 1 Strategic GPs: 0
-- Tier 2 High Potential GPs: 6
+- Tier 2 High Potential GPs: 7
 
 ## Top Emerging GPs
 
@@ -14,7 +14,7 @@ Generated: 2026-10-11 01:35:50
 - Berkadia: 77 (Tier 2 High Potential GP), Miami / Florida, California / LA strategic positioning.
 - Hines: 73 (Tier 2 High Potential GP), Atlanta / Georgia, California / LA strategic positioning.
 - Walker & Dunlop: 73 (Tier 2 High Potential GP), Miami / Florida, California / LA strategic positioning.
-- Empire Group: 69 (Tier 3 Monitoring GP), Phoenix / Arizona, Distressed opportunity positioning.
+- Empire Group: 71 (Tier 2 High Potential GP), Phoenix / Arizona, Distressed opportunity positioning.
 - Jemal Real Estate: 67 (Tier 3 Monitoring GP), Washington DC, Selective residential growth.
 - Courtesy Cresa Jemal Real Estate: 66 (Tier 3 Monitoring GP), Washington DC, Selective residential growth.
 - Marcus & Millichap: 64 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
@@ -31,6 +31,7 @@ Generated: 2026-10-11 01:35:50
 - Berkadia: score 77, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
 - Walker & Dunlop: score 73, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- Empire Group: score 71, Tier 2 High Potential GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## California / LA GP Activity
 
@@ -68,7 +69,7 @@ Generated: 2026-10-11 01:35:50
 - Berkadia: score 77, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
 - Walker & Dunlop: score 73, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
-- Empire Group: score 69, Tier 3 Monitoring GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
+- Empire Group: score 71, Tier 2 High Potential GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
 - Jemal Real Estate: score 67, Tier 3 Monitoring GP, Washington DC, Potential GP partnership candidate. Track JV and capital partner activity.
 - Courtesy Cresa Jemal Real Estate: score 66, Tier 3 Monitoring GP, Washington DC, Potential GP partnership candidate. Track JV and capital partner activity.
 - Marcus & Millichap: score 64, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
@@ -81,7 +82,7 @@ Generated: 2026-10-11 01:35:50
 - Berkadia: score 77, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
 - Walker & Dunlop: score 73, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
-- Empire Group: score 69, Tier 3 Monitoring GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
+- Empire Group: score 71, Tier 2 High Potential GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
 - Jemal Real Estate: score 67, Tier 3 Monitoring GP, Washington DC, Potential GP partnership candidate. Track JV and capital partner activity.
 - Courtesy Cresa Jemal Real Estate: score 66, Tier 3 Monitoring GP, Washington DC, Potential GP partnership candidate. Track JV and capital partner activity.
 - JSB Capital Group: score 62, Tier 3 Monitoring GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
@@ -134,10 +135,10 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 177
-- Institutional-grade signals: 13
-- High-confidence signals: 39
-- Weak/noisy signals: 115
-- High-confidence watchlist items: 39
+- Signals evaluated: 170
+- Institutional-grade signals: 10
+- High-confidence signals: 38
+- Weak/noisy signals: 110
+- High-confidence watchlist items: 38
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

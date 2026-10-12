@@ -1,6 +1,6 @@
 # Executive Priority Brief
 
-Generated: 2026-10-11 01:35:50
+Generated: 2026-10-12 02:06:17
 
 ## Top 3 Executive Priorities
 
@@ -17,7 +17,7 @@ Generated: 2026-10-11 01:35:50
 | 3 | Developer Strategy Shift | 98 | Tier 2 Strategic Review | Strategy Team; Development Team; US Local Team | This Week |
 | 4 | Financing Stress | 97 | Tier 2 Strategic Review | Finance / Treasury; Investment Team; Executive Committee; US Local Team | This Week |
 | 5 | Policy / Entitlement Watch | 97 | Tier 3 Monitoring | Development Team; US Local Team; Strategy Team | This Week |
-| 6 | Construction Cost Pressure | 35 | Tier 3 Monitoring | Development Team; Investment Team; US Local Team | Monthly Monitoring |
+| 6 | Construction Cost Pressure | 26 | Tier 3 Monitoring | Development Team; Investment Team; US Local Team | Background Tracking |
 
 ## Tier 1 Executive Attention
 
@@ -32,7 +32,7 @@ Generated: 2026-10-11 01:35:50
 ## Monitoring Items
 
 - Rank 5: Policy / Entitlement Watch (97). Policy and entitlement signals should be monitored because they may affect approvals, zoning strategy, and local development feasibility. Owner: Development Team; US Local Team; Strategy Team. Timing: This Week.
-- Rank 6: Construction Cost Pressure (35). Construction cost signals should be reviewed because they may affect feasibility, contingencies, and value engineering. Owner: Development Team; Investment Team; US Local Team. Timing: Monthly Monitoring.
+- Rank 6: Construction Cost Pressure (26). Construction cost signals should be reviewed because they may affect feasibility, contingencies, and value engineering. Owner: Development Team; Investment Team; US Local Team. Timing: Background Tracking.
 
 ## Scenario Context
 
@@ -50,8 +50,8 @@ Sun Belt, Texas, Southeast, or related growth-market signals appear in the curre
 Developer and GP platform intelligence is available in `gp_intelligence_report.md`.
 - JLL: Immediate Watch, acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, monitor JV activity.
 - Freddie Mac: Immediate Watch, acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, monitor JV activity.
-- Berkadia: Immediate Watch, acquisition; refinancing; BTR expansion; JV / partnership; operational technology / AI adoption, monitor JV activity.
 - Empire Group: Immediate Watch, refinancing; development start; BTR expansion; JV / partnership; operational technology / AI adoption, monitor JV activity.
+- Berkadia: Immediate Watch, acquisition; refinancing; JV / partnership; operational technology / AI adoption, monitor JV activity.
 - Jemal Real Estate: Immediate Watch, acquisition; refinancing; office-to-residential conversion; JV / partnership; capital raise, monitor JV activity.
 
 ## Institutional Relationship Context
@@ -59,9 +59,9 @@ Developer and GP platform intelligence is available in `gp_intelligence_report.m
 Institutional relationship and capital-flow intelligence is available in `institutional_relationship_report.md`.
 Use that report to compare GP partnership, pricing discovery, and capital partner tracking signals.
 
-- Berkadia: Potential JV / Partnership Signal, Capital Inflow, score 100.
 - Freddie Mac: Potential JV / Partnership Signal, Capital Inflow, score 100.
 - JLL: Potential JV / Partnership Signal, Capital Inflow, score 100.
+- Berkadia: Potential JV / Partnership Signal, Capital Inflow, score 98.
 
 ## Deal / Project Pipeline Context
 
@@ -82,8 +82,8 @@ Developer, lender, capital partner, market, and deal connections are available i
 Sector-level residential coverage is available in `residential_sector_report.md`.
 - Affordable Housing: Add to sector watchlist.
 - Office-to-Residential Conversion: Track conversion feasibility, policy support, and construction cost assumptions.
-- Workforce Housing: Add to sector watchlist.
 - BTR / Single-Family Rental: Monitor BTR / SFR operators, capital flows, and target markets.
+- Workforce Housing: Add to sector watchlist.
 - Student Housing: Monitor university-market demand and partnership signals.
 
 ## Emerging GP Watchlist Summary
@@ -123,9 +123,9 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 76
-- LA lifecycle watch items: 48
-- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 42, Site Acquisition / Site Control: 6, Vertical Construction: 5, Delivery / Opening: 10
+- Lifecycle records: 72
+- LA lifecycle watch items: 45
+- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 40, Site Acquisition / Site Control: 6, Vertical Construction: 5, Delivery / Opening: 8
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -133,11 +133,11 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 76
-- Newly detected projects: 8
+- Lifecycle transitions analyzed: 72
+- Newly detected projects: 3
 - Forward progression projects: 0
-- Possible stalled projects: 1
-- LA lifecycle transition watch items: 45
+- Possible stalled projects: 2
+- LA lifecycle transition watch items: 42
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -145,11 +145,11 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 631
-- Canonical projects: 177
-- Duplicate project clusters: 106
-- Persistent assets tracked: 177
-- LA persistent asset watch items: 121
+- Raw project references: 601
+- Canonical projects: 170
+- Duplicate project clusters: 105
+- Persistent assets tracked: 170
+- LA persistent asset watch items: 116
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -157,11 +157,11 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 177
-- Institutional-grade signals: 13
-- High-confidence signals: 39
-- Weak/noisy signals: 115
-- High-confidence watchlist items: 39
+- Signals evaluated: 170
+- Institutional-grade signals: 10
+- High-confidence signals: 38
+- Weak/noisy signals: 110
+- High-confidence watchlist items: 38
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 
 

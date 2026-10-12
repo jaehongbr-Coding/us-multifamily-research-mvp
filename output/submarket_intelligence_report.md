@@ -1,21 +1,21 @@
 # Submarket Intelligence Report
 
-Generated: 2026-10-11 01:36:07
+Generated: 2026-10-12 02:06:29
 
-- Total submarkets detected: 29
+- Total submarkets detected: 27
 
 ## Top Submarkets By Opportunity Score
 
+- Dallas (Texas): submarket_opportunity_score 100, Monitor refinancing / distress pipeline.
 - Miami (Florida): submarket_opportunity_score 100, Monitor refinancing / distress pipeline.
 - Atlanta (Southeast): submarket_opportunity_score 100, Review potential acquisition pipeline.
 - Phoenix (Arizona): submarket_opportunity_score 100, Monitor entitlement precedent.
-- Dallas (Texas): submarket_opportunity_score 98, Monitor refinancing / distress pipeline.
 - Chinatown (Los Angeles): submarket_opportunity_score 68, Monitor entitlement precedent.
 - Hollywood (Los Angeles): submarket_opportunity_score 68, Monitor entitlement precedent.
 - West Hollywood (Los Angeles): submarket_opportunity_score 68, Monitor entitlement precedent.
 - Anaheim (Orange County): submarket_opportunity_score 65, Review potential acquisition pipeline.
 - Long Beach (Los Angeles): submarket_opportunity_score 61, Review potential acquisition pipeline.
-- Los Angeles (Los Angeles): submarket_opportunity_score 59, Monitor entitlement precedent.
+- Houston (Texas): submarket_opportunity_score 56, Track local GP / sponsor activity.
 
 ## Top Submarkets By Risk Score
 
@@ -45,33 +45,33 @@ Generated: 2026-10-11 01:36:07
 
 ## Sector Themes By Submarket
 
+- Dallas: Apartment, General submarket monitoring.
 - Miami: Apartment, General submarket monitoring.
 - Atlanta: Apartment, Mixed-use corridor.
 - Phoenix: Apartment, Mixed-use corridor.
-- Dallas: Apartment, General submarket monitoring.
 - Chinatown: Affordable Housing, University-adjacent.
 - Hollywood: Workforce Housing, University-adjacent.
 - West Hollywood: Workforce Housing, University-adjacent.
 - Anaheim: Apartment, General submarket monitoring.
 - Long Beach: Affordable Housing, General submarket monitoring.
-- Los Angeles: Apartment, Mixed-use corridor.
 - Houston: General Residential, University-adjacent.
-- New York: Senior Housing, General submarket monitoring.
+- Los Angeles: Apartment, Mixed-use corridor.
+- Austin: Apartment, General submarket monitoring.
 
 ## Timing and Entitlement Signals By Submarket
 
+- Dallas: 4 timing signal(s), 0 entitlement signal(s).
 - Miami: 4 timing signal(s), 0 entitlement signal(s).
 - Atlanta: 4 timing signal(s), 0 entitlement signal(s).
-- Phoenix: 5 timing signal(s), 1 entitlement signal(s).
-- Dallas: 4 timing signal(s), 0 entitlement signal(s).
+- Phoenix: 6 timing signal(s), 1 entitlement signal(s).
 - Chinatown: 1 timing signal(s), 1 entitlement signal(s).
 - Hollywood: 1 timing signal(s), 1 entitlement signal(s).
 - West Hollywood: 1 timing signal(s), 1 entitlement signal(s).
 - Anaheim: 0 timing signal(s), 0 entitlement signal(s).
 - Long Beach: 1 timing signal(s), 0 entitlement signal(s).
-- Los Angeles: 0 timing signal(s), 2 entitlement signal(s).
 - Houston: 1 timing signal(s), 0 entitlement signal(s).
-- New York: 1 timing signal(s), 0 entitlement signal(s).
+- Los Angeles: 0 timing signal(s), 2 entitlement signal(s).
+- Austin: 1 timing signal(s), 0 entitlement signal(s).
 
 ## Implications for Woomi / Woomi Global
 
@@ -81,10 +81,10 @@ Generated: 2026-10-11 01:36:07
 
 ## Recommended Submarket Follow-up Actions
 
+- Monitor refinancing / distress pipeline: Dallas (Strategic watch submarket).
 - Monitor refinancing / distress pipeline: Miami (Strategic watch submarket).
 - Review potential acquisition pipeline: Atlanta (Strategic watch submarket).
 - Monitor entitlement precedent: Phoenix (Strategic watch submarket).
-- Monitor refinancing / distress pipeline: Dallas (Strategic watch submarket).
 - Monitor entitlement precedent: Chinatown (High relevance to Woomi site strategy).
 - Monitor entitlement precedent: Hollywood (High relevance to Woomi site strategy).
 - Monitor entitlement precedent: West Hollywood (High relevance to Woomi site strategy).
@@ -94,8 +94,8 @@ Generated: 2026-10-11 01:36:07
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 76
-- LA lifecycle watch items: 48
-- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 42, Site Acquisition / Site Control: 6, Vertical Construction: 5, Delivery / Opening: 10
+- Lifecycle records: 72
+- LA lifecycle watch items: 45
+- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 40, Site Acquisition / Site Control: 6, Vertical Construction: 5, Delivery / Opening: 8
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

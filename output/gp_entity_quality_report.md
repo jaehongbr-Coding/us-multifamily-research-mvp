@@ -1,14 +1,14 @@
 # GP / Capital Entity Quality Report
 
-Generated: 2026-10-11 01:35:50
+Generated: 2026-10-12 02:06:17
 
 ## Summary
 
-- Total GP/Capital articles: 42
-- Participant not identified: 15
-- Dictionary match: 14
+- Total GP/Capital articles: 40
+- Participant not identified: 12
+- Dictionary match: 13
 - Title fallback / headline extraction: 2
-- Low confidence or unresolved: 15
+- Low confidence or unresolved: 12
 
 ## Representative Resolved Samples
 
@@ -25,13 +25,13 @@ Generated: 2026-10-11 01:35:50
 
 ## Unresolved Examples
 
-- Northmarq’s Investment Sales Team Secures $5.25M Sale of 24-Unit Multifamily Property in Van Nuys California | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
 - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland Hills | Urbanize LA | No institution name detected in dictionary, title, summary, or source text.
 - Investor Takes Over Distressed Atlanta Apartment Asset | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.
 - Problem loans: Tracking the biggest multifamily delinquencies | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.
 - 2 recent multifamily loans in Missouri, Tennessee head to servicing | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.
-- Top multifamily conferences of 2027 | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.
 - Apartment Property in Downtown Wenatchee Changes Hands | Connect CRE | No institution name detected in dictionary, title, summary, or source text.
 - Empire Group Breaks Ground on $288M High-Rise Apartment Tower in Tempe | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
-- Trepp: Multifamily property prices flat in Q2 | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
 - Passco Offloads Buckhead Rental Asset for $87.5M | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.
+- 2026 NOI & Operations Survey Report | Multifamily Executive | No institution name detected in dictionary, title, summary, or source text.
+- 2026 Resident Experience Management Report | Multifamily Executive | No institution name detected in dictionary, title, summary, or source text.
+- HBGI Q1 2026: Single-Family Construction Slips Across All Geographies | NAHB Eye on Housing - Multifamily | No institution name detected in dictionary, title, summary, or source text.

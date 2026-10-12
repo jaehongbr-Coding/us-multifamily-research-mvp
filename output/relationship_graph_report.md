@@ -1,11 +1,11 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-10-11 01:35:50
+Generated: 2026-10-12 02:06:17
 
-- Total relationship edges: 119
+- Total relationship edges: 114
 - Most connected developer / GP: JLL (18 edge(s))
 - Most connected lender / debt provider: jll (4 edge(s))
-- Most connected market: Los Angeles / California (8 edge(s))
+- Most connected market: Los Angeles / California (6 edge(s))
 - Strongest relationship edge: JLL -> freddie mac
 - Highest Woomi relevance edge: Berkadia -> berkadia
 
@@ -43,16 +43,16 @@ Generated: 2026-10-11 01:35:50
 - Berkadia -> berkadia: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
 - JLL -> jll: Financing Relationship, Dallas / Texas, score 93. Track GP relationship history.
 - JLL -> jll: Financing Relationship, Florida, score 89. Track GP relationship history.
-- Berkadia -> berkadia: Financing Relationship, Florida, score 87. Track GP relationship history.
 - Walker & Dunlop -> freddie mac: Financing Relationship, Miami / Florida, score 85. Track GP relationship history.
 - Walker & Dunlop -> fannie mae: Financing Relationship, Other / Unknown, score 77. Track GP relationship history.
 - JLL -> jll: Financing Relationship, Houston / Texas, score 75. Track GP relationship history.
+- Disposition / Exit - Los Angeles / California - Recent Capital Improvements Drive Van Nuys Apartment Deal -> northmarq: Financing Relationship, Los Angeles / California, score 68. Monitor lender activity.
 
 ## Capital Partner / Institutional Flow Map
 
 - Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 86. Track GP relationship history.
 - Greystone -> related: Capital Flow, Miami / Florida, score 81. Track GP relationship history.
-- Essex Realty Group -> essex: Disposition / Seller, Other / Unknown, score 69. Track GP relationship history.
+- Essex Realty Group -> essex: Disposition / Seller, Other / Unknown, score 68. Track GP relationship history.
 
 ## Market Relationship Map
 
@@ -147,10 +147,10 @@ Longitudinal memory is available in `historical_memory_report.md`.
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 631
-- Canonical projects: 177
-- Duplicate project clusters: 106
-- Persistent assets tracked: 177
-- LA persistent asset watch items: 121
+- Raw project references: 601
+- Canonical projects: 170
+- Duplicate project clusters: 105
+- Persistent assets tracked: 170
+- LA persistent asset watch items: 116
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

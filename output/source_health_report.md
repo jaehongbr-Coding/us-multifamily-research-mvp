@@ -1,6 +1,6 @@
 # Source Health Report
 
-Generated: 2026-10-11 01:35:44
+Generated: 2026-10-12 02:06:13
 
 - Total sources attempted: 163
 - Working sources: 22
@@ -10,12 +10,12 @@ Generated: 2026-10-11 01:35:44
 
 ## High-Value Sources
 
-- Multifamily Dive (Core Multifamily News): 5 saved article(s).
+- Multifamily Dive (Core Multifamily News): 6 saved article(s).
 - Multifamily Executive (Core Multifamily News): 3 saved article(s).
-- Yield PRO (Core Multifamily News): 8 saved article(s).
+- Yield PRO (Core Multifamily News): 6 saved article(s).
 - Connect CRE (Core Multifamily News): 4 saved article(s).
 - NAHB Eye on Housing - Multifamily (Public Agency / Housing Data): 16 saved article(s).
-- Urbanize LA (Regional / California / LA Sources): 9 saved article(s).
+- Urbanize LA (Regional / California / LA Sources): 8 saved article(s).
 - SF YIMBY (Regional / California / LA Sources): 3 saved article(s).
 - REBusiness Online (Site / Parcel Source Expansion): 7 saved article(s).
 - Connect CRE Apartments (Site / Parcel Source Expansion): 7 saved article(s).

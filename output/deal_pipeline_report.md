@@ -1,8 +1,8 @@
 # Deal & Project Pipeline Report
 
-Generated: 2026-10-11 01:35:50
+Generated: 2026-10-12 02:06:17
 
-- Total deal/project signals found: 58
+- Total deal/project signals found: 55
 - High deal intelligence count: 6
 
 ## Top 10 Deal / Project Signals
@@ -15,8 +15,8 @@ Generated: 2026-10-11 01:35:50
 - Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of 300-Unit Apartment Community in Northwest Dallas: Refinancing, Dallas / Texas, score 85. Capital market signal.
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Acquisition, Atlanta / Georgia, score 77. Pricing benchmark.
 - Refinancing - Miami / Florida - JSB Capital Group Secures $238M Refinancing for Class A Multifamily Community in Miami Sub...: Refinancing, Miami / Florida, score 77. Pricing benchmark.
-- BTR / Build-to-Rent - Florida - Berkadia Arranges $19.2M Financing for Delray Beach 55+ Build-to-Rent Active Adult Communi...: BTR / Build-to-Rent, Florida, score 76. Pricing benchmark.
-- Development Start - Los Angeles / California - Affordable housing completed at 7220 Maie Avenue in Florence-Firestone: Development Start, Los Angeles / California, score 75. Pipeline / supply signal.
+- Development Start - Los Angeles / California - Senior housing completed at 14513 Central Avenue in Baldwin Park: Development Start, Los Angeles / California, score 75. Capital market signal.
+- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Disposition / Exit, California, score 75. Entitlement / zoning watch.
 
 ## California / LA Deal Watch
 
@@ -24,7 +24,6 @@ Generated: 2026-10-11 01:35:50
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing, California, score 92. Capital market signal.
 - Entitlement / Permitting - California - 388 apartments to replace offices at 3200 E. Carson St. in Lakewood: Entitlement / Permitting, California, score 85. Entitlement / zoning watch.
 - Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Disposition / Exit, California, score 75. Entitlement / zoning watch.
-- Disposition / Exit - Los Angeles / California - Northmarq’s Investment Sales Team Secures $5.25M Sale of 24-Unit Multifamily Property in V...: Disposition / Exit, Los Angeles / California, score 69. Underwriting benchmark.
 - Disposition / Exit - Los Angeles / California - Recent Capital Improvements Drive Van Nuys Apartment Deal: Disposition / Exit, Los Angeles / California, score 69. Underwriting benchmark.
 - Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Development Start, Los Angeles / California, score 65. Pipeline / supply signal.
 
@@ -38,8 +37,8 @@ Generated: 2026-10-11 01:35:50
 - Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of 300-Unit Apartment Community in Northwest Dallas: Refinancing, Dallas / Texas, score 85. Capital market signal.
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Acquisition, Atlanta / Georgia, score 77. Pricing benchmark.
 - Refinancing - Miami / Florida - JSB Capital Group Secures $238M Refinancing for Class A Multifamily Community in Miami Sub...: Refinancing, Miami / Florida, score 77. Pricing benchmark.
-- BTR / Build-to-Rent - Florida - Berkadia Arranges $19.2M Financing for Delray Beach 55+ Build-to-Rent Active Adult Communi...: BTR / Build-to-Rent, Florida, score 76. Pricing benchmark.
 - Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Disposition / Exit, California, score 75. Entitlement / zoning watch.
+- General Project Signal - Florida - JLL Arranges $100M Financing for Two New Multifamily Properties in North Florida: General Project Signal, Florida, score 75. Capital market signal.
 
 ## Financing / Refinancing Signals
 
@@ -49,16 +48,15 @@ Generated: 2026-10-11 01:35:50
 - JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: JV / Partnership, Miami / Florida, score 85. Capital market signal.
 - Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of 300-Unit Apartment Community in Northwest Dallas: Refinancing, Dallas / Texas, score 85. Capital market signal.
 - Refinancing - Miami / Florida - JSB Capital Group Secures $238M Refinancing for Class A Multifamily Community in Miami Sub...: Refinancing, Miami / Florida, score 77. Pricing benchmark.
-- BTR / Build-to-Rent - Florida - Berkadia Arranges $19.2M Financing for Delray Beach 55+ Build-to-Rent Active Adult Communi...: BTR / Build-to-Rent, Florida, score 76. Pricing benchmark.
 - Development Start - Los Angeles / California - Senior housing completed at 14513 Central Avenue in Baldwin Park: Development Start, Los Angeles / California, score 75. Capital market signal.
 - General Project Signal - Florida - JLL Arranges $100M Financing for Two New Multifamily Properties in North Florida: General Project Signal, Florida, score 75. Capital market signal.
 - Acquisition - Austin / Texas - ORIX Buys 322-Unit Austin Apartment Community: Acquisition, Austin / Texas, score 74. Pricing benchmark.
+- General Project Signal - Miami / Florida - Related Affiliate Obtains $167M Loan Package for Miami Apartment Community: General Project Signal, Miami / Florida, score 72. Capital market signal.
 
 ## Project Pipeline / Supply Signals
 
 - Entitlement / Permitting - California - 388 apartments to replace offices at 3200 E. Carson St. in Lakewood: Entitlement / Permitting, California, score 85. Entitlement / zoning watch.
 - Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of 300-Unit Apartment Community in Northwest Dallas: Refinancing, Dallas / Texas, score 85. Capital market signal.
-- Development Start - Los Angeles / California - Affordable housing completed at 7220 Maie Avenue in Florence-Firestone: Development Start, Los Angeles / California, score 75. Pipeline / supply signal.
 - Development Start - Los Angeles / California - Senior housing completed at 14513 Central Avenue in Baldwin Park: Development Start, Los Angeles / California, score 75. Capital market signal.
 - Acquisition - Austin / Texas - ORIX Buys 322-Unit Austin Apartment Community: Acquisition, Austin / Texas, score 74. Pricing benchmark.
 - Office-to-Residential Conversion - Washington DC - Jemal Real Estate, DivcoWest Plan Office-to-Residential Conversion in D.C.’s West End: Office-to-Residential Conversion, Washington DC, score 71. Pricing benchmark.
@@ -66,11 +64,12 @@ Generated: 2026-10-11 01:35:50
 - Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Development Start, Los Angeles / California, score 65. Pipeline / supply signal.
 - Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H...: Entitlement / Permitting, Los Angeles / California, score 65. Capital market signal.
 - Entitlement / Permitting - San Francisco / California - Plans Revealed For 228 Collins Street in Inner Richmond, San Francisco: Entitlement / Permitting, San Francisco / California, score 65. Entitlement / zoning watch.
+- Development Start - Phoenix / Arizona - Empire Group Starts Work on $288M Tempe Apartment Community: Development Start, Phoenix / Arizona, score 64. Capital market signal.
 
 ## BTR / Modular / Innovation Signals
 
-- BTR / Build-to-Rent - Florida - Berkadia Arranges $19.2M Financing for Delray Beach 55+ Build-to-Rent Active Adult Communi...: BTR / Build-to-Rent, Florida, score 76. Pricing benchmark.
 - BTR / Build-to-Rent - Phoenix / Arizona - Empire Lands $65.5M Refi on Phoenix BTR Community: BTR / Build-to-Rent, Phoenix / Arizona, score 60. Capital market signal.
+- BTR / Build-to-Rent - Phoenix / Arizona - Värde Partners Closed $65.5M Refinance on Newly Delivered Build-to-Rent Community in Phoen...: BTR / Build-to-Rent, Phoenix / Arizona, score 54. Capital market signal.
 
 ## Pricing / Cap Rate / Valuation Signals
 
@@ -78,7 +77,6 @@ Generated: 2026-10-11 01:35:50
 - Acquisition - Miami / Florida - Berkadia Arranges Refis for 3 S. Florida Rental Communities: Acquisition, Miami / Florida, score 85. Pricing benchmark.
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Acquisition, Atlanta / Georgia, score 77. Pricing benchmark.
 - Refinancing - Miami / Florida - JSB Capital Group Secures $238M Refinancing for Class A Multifamily Community in Miami Sub...: Refinancing, Miami / Florida, score 77. Pricing benchmark.
-- BTR / Build-to-Rent - Florida - Berkadia Arranges $19.2M Financing for Delray Beach 55+ Build-to-Rent Active Adult Communi...: BTR / Build-to-Rent, Florida, score 76. Pricing benchmark.
 - Acquisition - Austin / Texas - ORIX Buys 322-Unit Austin Apartment Community: Acquisition, Austin / Texas, score 74. Pricing benchmark.
 - Office-to-Residential Conversion - Washington DC - Jemal Real Estate, DivcoWest Plan Office-to-Residential Conversion in D.C.’s West End: Office-to-Residential Conversion, Washington DC, score 71. Pricing benchmark.
 - Office-to-Residential Conversion - Washington DC - Jemal-Led JV Plans 323-Unit Office-to-Resi Conversion in D.C.: Office-to-Residential Conversion, Washington DC, score 71. Pricing benchmark.
@@ -87,15 +85,15 @@ Generated: 2026-10-11 01:35:50
 
 ## Deal / Project Signals By Residential Sector
 
-- Apartment: 28 deal/project signal(s)
-- Multifamily: 10 deal/project signal(s)
-- Senior Housing: 5 deal/project signal(s)
-- Affordable Housing: 4 deal/project signal(s)
+- Apartment: 26 deal/project signal(s)
+- Multifamily: 11 deal/project signal(s)
 - Mixed-Use Residential: 4 deal/project signal(s)
+- Senior Housing: 3 deal/project signal(s)
+- Affordable Housing: 3 deal/project signal(s)
 - Office-to-Residential Conversion: 2 deal/project signal(s)
+- BTR / Single-Family Rental: 2 deal/project signal(s)
 - General Residential: 2 deal/project signal(s)
 - Workforce Housing: 1 deal/project signal(s)
-- BTR / Single-Family Rental: 1 deal/project signal(s)
 - Student Housing: 1 deal/project signal(s)
 
 ## Canonical Deal Summary

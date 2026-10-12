@@ -1,6 +1,6 @@
 # 한국어 LA 자산 / 프로젝트 Watch
 
-- 생성 시각: 2026-10-11 01:35:43
+- 생성 시각: 2026-10-12 02:06:11
 - 참고 원문 파일: `la_asset_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -11,11 +11,11 @@
 - Entitlement / Permitting - San Francisco / California - Plans Revealed For 228 Collins Street in Inner Richmond, San Francisco: Los Angeles, 아파트, 점수 100 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
 - Acquisition - California - Interstate Equities Pays $84M for Hercules Multifamily: Los Angeles, 아파트, 점수 100 (Unknown; Review parcel clue, entitlement path, sponsor, and comparable sites)
 - Entitlement / Permitting - California - 388 apartments to replace offices at 3200 E. Carson St. in Lakewood: Los Angeles, 아파트, 점수 100 (Unknown; Review parcel clue, entitlement path, sponsor, and comparable sites)
-- Development Start - Los Angeles / California - Affordable housing completed at 7220 Maie Avenue in Florence-Firestone: Los Angeles, 어포더블 하우징, 점수 100 (Delivered / Lease-Up; Track entitlement docket, density bonus use, and affordability requirement)
 - Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Los Angeles, 어포더블 하우징, 점수 100 (Under Construction; Monitor asset for repeated local confirmation)
 - General Project Signal - Los Angeles / California - Rendering vs. Reality: Affordable housing at 1400 Long Beach Blvd.: Los Angeles, 어포더블 하우징, 점수 100 (Delivered / Lease-Up; Track entitlement docket, density bonus use, and affordability requirement)
 - JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: Los Angeles, 아파트, 점수 100 (Unknown; Monitor asset for repeated local confirmation)
 - General Project Signal - Miami / Florida - Related Affiliate Obtains $167M Loan Package for Miami Apartment Community: Los Angeles, 아파트, 점수 100 (Unknown; Monitor asset for repeated local confirmation)
+- First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Los Angeles, 어포더블 하우징, 점수 100 (Under Construction; Track entitlement docket, density bonus use, and affordability requirement)
 
 ## 프로젝트 / 부지 단서
 

@@ -1,6 +1,6 @@
 # Distress Watchlist Report
 
-Generated: 2026-10-11 01:36:07
+Generated: 2026-10-12 02:06:29
 
 - Total distress signals: 7
 
@@ -9,7 +9,7 @@ Generated: 2026-10-11 01:36:07
 - refinancing stress in California: Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities, score 80. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - refinancing stress in Dallas / Texas: Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of 300-Unit Apartment Community in Northwest Dallas, score 67. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - refinancing stress in Miami / Florida: Refinancing - Miami / Florida - JSB Capital Group Secures $238M Refinancing for Class A Multifamily Community in Miami Sub..., score 64. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
-- refinancing stress in Other / Unknown: Refinancing - Other / Unknown - Walker & Dunlop Arranges $630M Fannie Mae Refinance for IMT Capital Multifamily Portfolio, score 60. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- refinancing stress in Other / Unknown: Refinancing - Other / Unknown - Walker & Dunlop Arranges $630M Fannie Mae Refinance for IMT Capital Multifamily Portfolio, score 59. Monitor for repeated distress signals.
 - distressed sale in Atlanta / Georgia: Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset, score 58. Monitor for repeated distress signals.
 - construction loan gap in Miami / Florida: Construction Financing - Miami / Florida - Terra-Led JV Lands $507M Construction Loan for South Beach Condo Before Pre-Sales, score 55. Monitor for repeated distress signals.
 - recapitalization need in Dallas / Texas: Recapitalization - Dallas / Texas - Lansing Melbourne Recapitalizes 156-Unit Multifamily Property in Nashua, New Hampshire, score 55. Monitor for repeated distress signals.
@@ -19,7 +19,7 @@ Generated: 2026-10-11 01:36:07
 - refinancing stress in California: Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities, score 80. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - refinancing stress in Dallas / Texas: Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of 300-Unit Apartment Community in Northwest Dallas, score 67. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - refinancing stress in Miami / Florida: Refinancing - Miami / Florida - JSB Capital Group Secures $238M Refinancing for Class A Multifamily Community in Miami Sub..., score 64. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
-- refinancing stress in Other / Unknown: Refinancing - Other / Unknown - Walker & Dunlop Arranges $630M Fannie Mae Refinance for IMT Capital Multifamily Portfolio, score 60. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- refinancing stress in Other / Unknown: Refinancing - Other / Unknown - Walker & Dunlop Arranges $630M Fannie Mae Refinance for IMT Capital Multifamily Portfolio, score 59. Monitor for repeated distress signals.
 
 ## Construction Financing Gap Watch
 
@@ -60,16 +60,16 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 - Track debt maturity, lender exposure, sponsor stress, and recapitalization options: refinancing stress in California.
 - Track debt maturity, lender exposure, sponsor stress, and recapitalization options: refinancing stress in Dallas / Texas.
 - Track debt maturity, lender exposure, sponsor stress, and recapitalization options: refinancing stress in Miami / Florida.
-- Track debt maturity, lender exposure, sponsor stress, and recapitalization options: refinancing stress in Other / Unknown.
+- Monitor for repeated distress signals: refinancing stress in Other / Unknown.
 - Monitor for repeated distress signals: distressed sale in Atlanta / Georgia.
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 76
-- LA lifecycle watch items: 48
-- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 42, Site Acquisition / Site Control: 6, Vertical Construction: 5, Delivery / Opening: 10
+- Lifecycle records: 72
+- LA lifecycle watch items: 45
+- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 40, Site Acquisition / Site Control: 6, Vertical Construction: 5, Delivery / Opening: 8
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -77,11 +77,11 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 76
-- Newly detected projects: 8
+- Lifecycle transitions analyzed: 72
+- Newly detected projects: 3
 - Forward progression projects: 0
-- Possible stalled projects: 1
-- LA lifecycle transition watch items: 45
+- Possible stalled projects: 2
+- LA lifecycle transition watch items: 42
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -89,11 +89,11 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 631
-- Canonical projects: 177
-- Duplicate project clusters: 106
-- Persistent assets tracked: 177
-- LA persistent asset watch items: 121
+- Raw project references: 601
+- Canonical projects: 170
+- Duplicate project clusters: 105
+- Persistent assets tracked: 170
+- LA persistent asset watch items: 116
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -101,10 +101,10 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 177
-- Institutional-grade signals: 13
-- High-confidence signals: 39
-- Weak/noisy signals: 115
-- High-confidence watchlist items: 39
+- Signals evaluated: 170
+- Institutional-grade signals: 10
+- High-confidence signals: 38
+- Weak/noisy signals: 110
+- High-confidence watchlist items: 38
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

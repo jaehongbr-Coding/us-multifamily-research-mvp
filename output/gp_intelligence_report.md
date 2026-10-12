@@ -1,13 +1,13 @@
 # GP / Developer Intelligence Report
 
-Generated: 2026-10-11 01:35:50
+Generated: 2026-10-12 02:06:17
 
 ## Top Institutional Signals
 
 - JLL: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 100. potential JV partnership signal; monitor JV activity.
 - Freddie Mac: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 99. potential JV partnership signal; monitor JV activity.
-- Berkadia: acquisition; refinancing; BTR expansion; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
 - Empire Group: refinancing; development start; BTR expansion; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- Berkadia: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
 - Jemal Real Estate: acquisition; refinancing; office-to-residential conversion; JV / partnership; capital raise, Washington DC, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
 - Walker & Dunlop: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Core Multifamily News, strength 89. potential JV partnership signal; monitor JV activity.
 - Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 83. competitive pressure indicator; review LA / California development activity.
@@ -19,8 +19,8 @@ Generated: 2026-10-11 01:35:50
 
 - JLL: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 100. potential JV partnership signal; monitor JV activity.
 - Freddie Mac: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 99. potential JV partnership signal; monitor JV activity.
-- Berkadia: acquisition; refinancing; BTR expansion; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
 - Empire Group: refinancing; development start; BTR expansion; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- Berkadia: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
 - Jemal Real Estate: acquisition; refinancing; office-to-residential conversion; JV / partnership; capital raise, Washington DC, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
 - Walker & Dunlop: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Core Multifamily News, strength 89. potential JV partnership signal; monitor JV activity.
 - Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 83. competitive pressure indicator; review LA / California development activity.
@@ -44,8 +44,8 @@ Generated: 2026-10-11 01:35:50
 
 - JLL: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 100. potential JV partnership signal; monitor JV activity.
 - Freddie Mac: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 99. potential JV partnership signal; monitor JV activity.
-- Berkadia: acquisition; refinancing; BTR expansion; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
 - Empire Group: refinancing; development start; BTR expansion; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- Berkadia: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
 - Walker & Dunlop: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Core Multifamily News, strength 89. potential JV partnership signal; monitor JV activity.
 - Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 83. competitive pressure indicator; review LA / California development activity.
 - Newport Beach Seniors Communities JLL Capital: refinancing; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 83. competitive pressure indicator; track refinancing pipeline.
@@ -57,8 +57,8 @@ Generated: 2026-10-11 01:35:50
 
 - JLL: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 100. potential JV partnership signal; monitor JV activity.
 - Freddie Mac: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 99. potential JV partnership signal; monitor JV activity.
-- Berkadia: acquisition; refinancing; BTR expansion; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
 - Empire Group: refinancing; development start; BTR expansion; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- Berkadia: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
 - Jemal Real Estate: acquisition; refinancing; office-to-residential conversion; JV / partnership; capital raise, Washington DC, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
 - Walker & Dunlop: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Core Multifamily News, strength 89. potential JV partnership signal; monitor JV activity.
 - Newport Beach Seniors Communities JLL Capital: refinancing; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 83. competitive pressure indicator; track refinancing pipeline.
@@ -70,8 +70,8 @@ Generated: 2026-10-11 01:35:50
 
 - JLL: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 100. potential JV partnership signal; monitor JV activity.
 - Freddie Mac: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 99. potential JV partnership signal; monitor JV activity.
-- Berkadia: acquisition; refinancing; BTR expansion; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
 - Empire Group: refinancing; development start; BTR expansion; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- Berkadia: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
 - Jemal Real Estate: acquisition; refinancing; office-to-residential conversion; JV / partnership; capital raise, Washington DC, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
 - Walker & Dunlop: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Core Multifamily News, strength 89. potential JV partnership signal; monitor JV activity.
 - Courtesy Cresa Jemal Real Estate: acquisition; refinancing; office-to-residential conversion; JV / partnership, Washington DC, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
@@ -83,9 +83,9 @@ Generated: 2026-10-11 01:35:50
 
 Firm-tier weighting, capital-flow inference, and relationship scoring are available in `institutional_relationship_report.md`.
 
-- Berkadia: Tier 3 / Growth and Market Signal Watch, Capital Inflow, Potential JV / Partnership Signal.
 - Freddie Mac: Tier 3 / Growth and Market Signal Watch, Capital Inflow, Potential JV / Partnership Signal.
 - JLL: Tier 3 / Growth and Market Signal Watch, Capital Inflow, Potential JV / Partnership Signal.
+- Berkadia: Tier 3 / Growth and Market Signal Watch, Capital Inflow, Potential JV / Partnership Signal.
 
 ## Deal / Project Pipeline Context
 
@@ -116,8 +116,8 @@ Developer and GP relationship edges are available in `relationship_graph_report.
 
 - JLL: monitor JV activity
 - Freddie Mac: monitor JV activity
-- Berkadia: monitor JV activity
 - Empire Group: monitor JV activity
+- Berkadia: monitor JV activity
 - Jemal Real Estate: monitor JV activity
 - Walker & Dunlop: monitor JV activity
 - Marcus & Millichap: review LA / California development activity

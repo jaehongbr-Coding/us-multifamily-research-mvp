@@ -1,6 +1,6 @@
 # 한국어 LA 개발 단계 Watch
 
-- 생성 시각: 2026-10-11 01:35:43
+- 생성 시각: 2026-10-12 02:06:11
 - 참고 원문 파일: `la_development_lifecycle_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -20,15 +20,15 @@
 ## 진행 / 정체 / 재등장 신호
 
 - Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Los Angeles, 어포더블 하우징, 점수 79 (Same Stage Persistence; Stable)
-- Development Start - Los Angeles / California - Affordable housing completed at 7220 Maie Avenue in Florence-Firestone: Los Angeles, 어포더블 하우징, 점수 78 (Mature / Operating; Mature)
 - Development Start - Los Angeles / California - Senior housing completed at 14513 Central Avenue in Baldwin Park: Los Angeles, 시니어 하우징, 점수 78 (Mature / Operating; Mature)
 - General Project Signal - Los Angeles / California - Rendering vs. Reality: Affordable housing at 1400 Long Beach Blvd.: Los Angeles, 어포더블 하우징, 점수 78 (Mature / Operating; Mature)
 - Rendering vs. Reality: Affordable housing at 1400 Long Beach Blvd.: Los Angeles, 어포더블 하우징, 점수 78 (Mature / Operating; Mature)
-- General Project Signal - Los Angeles / California - The Bloc is on the block, A peek inside the Colburn Center, and more: Los Angeles, 아파트, 점수 72 (Newly Detected Project; Unknown)
+- General Project Signal - Los Angeles / California - The Bloc is on the block, A peek inside the Colburn Center, and more: Los Angeles, 아파트, 점수 77 (Mature / Operating; Mature)
 - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Los Angeles, 어포더블 하우징, 점수 71 (Same Stage Persistence; Stable)
-- Affordable housing completed at 7220 Maie Avenue in Florence-Firestone: Los Angeles, 어포더블 하우징, 점수 70 (Mature / Operating; Mature)
 - Completion nears for mixed-use project at 10608 Pico Blvd.: Los Angeles, 어포더블 하우징, 점수 70 (Mature / Operating; Mature)
 - Senior housing completed at 14513 Central Avenue in Baldwin Park: Los Angeles, 시니어 하우징, 점수 70 (Mature / Operating; Mature)
+- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: California, 시니어 하우징, 점수 65 (Same Stage Persistence; Stable)
+- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of 300-Unit Apartment Community in Northwest Dallas: Los Angeles, 아파트, 점수 65 (Same Stage Persistence; Stable)
 
 ## 인허가 / 착공 / 리스업 타이밍
 

@@ -3,16 +3,16 @@
 - Market Intelligence count: 13
 - Development Activity count: 54
 - GP / Capital Activity count: 6
-- Excluded count: 3
+- Excluded count: 2
 - Rent/Demand candidate count: 4
 - Project anchor article count: 51
 - Development-excluded transaction article count: 6
-- Low-value promotional excluded count: 3
+- Low-value promotional excluded count: 2
 - Site / Parcel positive candidates count: 1
 - Site / Parcel excluded transaction count: 0
 - Source missing count: 0
 - Market missing count: 0
-- Stage missing count: 57
+- Stage missing count: 54
 
 ## Rent/Demand Titles
 - Multifamily Absorption Rate Remains Below 50%
@@ -21,7 +21,6 @@
 - Multifamily Developer Confidence Holds Steady in First Quarter
 
 ## Excluded Promotional Articles
-- Top multifamily conferences of 2027 | promotional/event keyword: conference
 - 2026 Resident Experience Management Report | promotional/event keyword: whitepaper
 - AI, Automation & the Future of Multifamily Finance | promotional/event keyword: webinar
 
@@ -32,7 +31,6 @@
 - None
 
 ## Sample Validation
-- Northmarq’s Investment Sales Team Secures $5.25M Sale of 24-Unit Multifamily Property in Van Nuys California | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 24-unit; address/street: 15022 vanowen st; project/asset term: community)
 - Jemal-Led JV Plans 323-Unit Office-to-Resi Conversion in D.C. | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 323-unit; address/street: 1255 23rd street; project/asset term: development)
 - Merchants Capital Secures $98M for VA Affordable Development | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 491-unit; project/asset term: development)
 - Completion nears for mixed-use project at 10608 Pico Blvd. | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 10608 pico blvd; project/asset term: project)
@@ -42,3 +40,4 @@
 - Rendering vs. Reality: Affordable housing at 1400 Long Beach Blvd. | Development Activity | rent_demand=No | development_project_anchor: Project / Asset (address/street: 1400 long beach blvd; project/asset term: project)
 - Mixed-use project slated to replace Mel's Drive-In in Santa Monica | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 10 freeway at lincoln boulevard; project/asset term: project)
 - 388 apartments to replace offices at 3200 E. Carson St. in Lakewood | Development Activity | rent_demand=No | development_project_anchor: Project / Asset (unit/site count: 388 apartments; address/street: 3200 e. carson st; project/asset term: project)
+- Plans Revealed For 228 Collins Street in Inner Richmond, San Francisco | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (unit/site count: 38 apartments; address/street: 228 collins street; project/asset term: project)

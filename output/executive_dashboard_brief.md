@@ -1,13 +1,13 @@
 # Executive Dashboard Brief
 
-Generated: 2026-10-11 01:35:43
+Generated: 2026-10-12 02:06:11
 
 ## Executive Snapshot
 
-- Total articles reviewed: 76
-- High-confidence signals: 39
-- Institutional-grade signals: 13
-- Opportunities: 50
+- Total articles reviewed: 75
+- High-confidence signals: 38
+- Institutional-grade signals: 10
+- Opportunities: 49
 - Distress signals: 7
 - Recommended executive focus: Review Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of 300-Unit Apartment Community in Northwest Dallas and related high-confidence project signals.
 

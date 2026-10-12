@@ -1,6 +1,6 @@
 # 한국어 GP Watchlist
 
-- 생성 시각: 2026-10-11 01:35:43
+- 생성 시각: 2026-10-12 02:06:11
 - 참고 원문 파일: `gp_watchlist_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -12,17 +12,17 @@
 - Berkadia: 기타 / 미확인, 일반 주거, 점수 77 (Tier 2 High Potential GP; Potential GP partnership candidate)
 - Hines: 기타 / 미확인, 일반 주거, 점수 73 (Tier 2 High Potential GP; Potential GP partnership candidate)
 - Walker & Dunlop: 기타 / 미확인, 일반 주거, 점수 73 (Tier 2 High Potential GP; Potential GP partnership candidate)
-- Empire Group: 기타 / 미확인, 일반 주거, 점수 69 (Tier 3 Monitoring GP; Potential GP partnership candidate)
+- Empire Group: 기타 / 미확인, 일반 주거, 점수 71 (Tier 2 High Potential GP; Potential GP partnership candidate)
 - Jemal Real Estate: 기타 / 미확인, 일반 주거, 점수 67 (Tier 3 Monitoring GP; Potential GP partnership candidate)
 - Courtesy Cresa Jemal Real Estate: 기타 / 미확인, 일반 주거, 점수 66 (Tier 3 Monitoring GP; Potential GP partnership candidate)
 - Marcus & Millichap: 기타 / 미확인, 일반 주거, 점수 64 (Tier 3 Monitoring GP; Capital market and pricing discovery reference)
 
 ## 기관자본 연결성
 
-- Berkadia: 기타 / 미확인, 아파트, 점수 100 (Capital Inflow; Potential JV / Partnership Signal)
 - Freddie Mac: 기타 / 미확인, 아파트, 점수 100 (Capital Inflow; Potential JV / Partnership Signal)
 - JLL: 기타 / 미확인, 아파트, 점수 100 (Capital Inflow; Potential JV / Partnership Signal)
-- Empire Group: 기타 / 미확인, 아파트, 점수 99 (Refinancing / Recapitalization; Potential JV / Partnership Signal)
+- Berkadia: 기타 / 미확인, 아파트, 점수 98 (Capital Inflow; Potential JV / Partnership Signal)
+- Empire Group: 기타 / 미확인, 아파트, 점수 98 (Refinancing / Recapitalization; Potential JV / Partnership Signal)
 - Jemal Real Estate: 기타 / 미확인, 오피스-주거 전환, 점수 98 (Capital Inflow; Potential JV / Partnership Signal)
 
 ## JV / Partnership 가능성

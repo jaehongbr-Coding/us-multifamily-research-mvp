@@ -1,8 +1,8 @@
 # Opportunity Radar Report
 
-Generated: 2026-10-11 01:36:07
+Generated: 2026-10-12 02:06:29
 
-- Total opportunities detected: 50
+- Total opportunities detected: 49
 
 ## Top 10 Opportunities
 
@@ -15,7 +15,7 @@ Generated: 2026-10-11 01:36:07
 - GP Capability Partnership Opportunity in Florida: General Project Signal - Florida - JLL Arranges $100M Financing for Two New Multifamily Properties in North Florida, score 85. Add to executive opportunity review.
 - LA / California Entitlement Opportunity in California: Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993, score 85. Add to executive opportunity review.
 - Refinancing Gap in Miami / Florida: Refinancing - Miami / Florida - JSB Capital Group Secures $238M Refinancing for Class A Multifamily Community in Miami Sub..., score 85. Add to executive opportunity review.
-- BTR / SFR Platform Opportunity in Florida: BTR / Build-to-Rent - Florida - Berkadia Arranges $19.2M Financing for Delray Beach 55+ Build-to-Rent Active Adult Communi..., score 83. Add to executive opportunity review.
+- Acquisition Opportunity in Atlanta / Georgia: Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community, score 81. Add to executive opportunity review.
 
 ## LA / California Opportunities
 
@@ -47,8 +47,8 @@ Generated: 2026-10-11 01:36:07
 
 ## BTR / SFR Opportunities
 
-- BTR / SFR Platform Opportunity in Florida: BTR / Build-to-Rent - Florida - Berkadia Arranges $19.2M Financing for Delray Beach 55+ Build-to-Rent Active Adult Communi..., score 83. Add to executive opportunity review.
 - BTR / SFR Platform Opportunity in Phoenix / Arizona: BTR / Build-to-Rent - Phoenix / Arizona - Empire Lands $65.5M Refi on Phoenix BTR Community, score 60. Monitor for repeated signals.
+- BTR / SFR Platform Opportunity in Phoenix / Arizona: BTR / Build-to-Rent - Phoenix / Arizona - Värde Partners Closed $65.5M Refinance on Newly Delivered Build-to-Rent Community in Phoen..., score 58. Monitor for repeated signals.
 
 ## Office-to-Residential Opportunities
 
@@ -57,7 +57,6 @@ Generated: 2026-10-11 01:36:07
 
 ## Affordable / Workforce Opportunities
 
-- Affordable / Workforce Housing Opportunity in Los Angeles / California: Development Start - Los Angeles / California - Affordable housing completed at 7220 Maie Avenue in Florence-Firestone, score 64. Monitor for repeated signals.
 - Affordable / Workforce Housing Opportunity in Los Angeles / California: Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown, score 61. Monitor for repeated signals.
 - LA / California Entitlement Opportunity in Los Angeles / California: Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H..., score 61. Review entitlement, zoning, permitting, and local sponsor context.
 - Affordable / Workforce Housing Opportunity in Los Angeles / California: General Project Signal - Los Angeles / California - Rendering vs. Reality: Affordable housing at 1400 Long Beach Blvd., score 59. Monitor for repeated signals.
@@ -68,8 +67,8 @@ Generated: 2026-10-11 01:36:07
 - JV / Partnership Gap in Miami / Florida: JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex, score 86. Add to executive opportunity review.
 - GP Capability Partnership Opportunity in Florida: General Project Signal - Florida - JLL Arranges $100M Financing for Two New Multifamily Properties in North Florida, score 85. Add to executive opportunity review.
 - GP Capability Partnership Opportunity in Miami / Florida: General Project Signal - Miami / Florida - Related Affiliate Obtains $167M Loan Package for Miami Apartment Community, score 79. Map GP, capital partner, and relationship history.
-- GP Capability Partnership Opportunity in Other / Unknown: Disposition / Exit - Other / Unknown - Essex Realty Group Closes Sale of $17M Suburban Chicago Apartments, score 76. Map GP, capital partner, and relationship history.
 - GP Capability Partnership Opportunity in Washington DC: General Project Signal - Washington DC - Merchants Capital Secures $98M for VA Affordable Development, score 76. Map GP, capital partner, and relationship history.
+- GP Capability Partnership Opportunity in Other / Unknown: Disposition / Exit - Other / Unknown - Essex Realty Group Closes Sale of $17M Suburban Chicago Apartments, score 75. Map GP, capital partner, and relationship history.
 
 ## Timing / Market Entry Window Summary
 
@@ -103,9 +102,9 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 76
-- LA lifecycle watch items: 48
-- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 42, Site Acquisition / Site Control: 6, Vertical Construction: 5, Delivery / Opening: 10
+- Lifecycle records: 72
+- LA lifecycle watch items: 45
+- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 40, Site Acquisition / Site Control: 6, Vertical Construction: 5, Delivery / Opening: 8
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -113,11 +112,11 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 76
-- Newly detected projects: 8
+- Lifecycle transitions analyzed: 72
+- Newly detected projects: 3
 - Forward progression projects: 0
-- Possible stalled projects: 1
-- LA lifecycle transition watch items: 45
+- Possible stalled projects: 2
+- LA lifecycle transition watch items: 42
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -125,11 +124,11 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 631
-- Canonical projects: 177
-- Duplicate project clusters: 106
-- Persistent assets tracked: 177
-- LA persistent asset watch items: 121
+- Raw project references: 601
+- Canonical projects: 170
+- Duplicate project clusters: 105
+- Persistent assets tracked: 170
+- LA persistent asset watch items: 116
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -137,10 +136,10 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 177
-- Institutional-grade signals: 13
-- High-confidence signals: 39
-- Weak/noisy signals: 115
-- High-confidence watchlist items: 39
+- Signals evaluated: 170
+- Institutional-grade signals: 10
+- High-confidence signals: 38
+- Weak/noisy signals: 110
+- High-confidence watchlist items: 38
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

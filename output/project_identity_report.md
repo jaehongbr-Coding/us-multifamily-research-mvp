@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-10-11 01:36:11
+Generated: 2026-10-12 02:06:31
 
-- Total raw project references: 631
-- Total canonical projects: 177
-- Duplicate project clusters: 106
-- High-confidence project identities: 631
+- Total raw project references: 601
+- Total canonical projects: 170
+- Duplicate project clusters: 105
+- High-confidence project identities: 601
 - Low-confidence identities needing review: 0
-- LA / California project references: 405
+- LA / California project references: 387
 
 ## Top Repeated Projects
 
-- Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H...: 37 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H...: 37 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H...: 37 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H...: 37 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H...: 37 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H...: 37 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H...: 37 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H...: 37 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H...: 37 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H...: 37 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Pre-Leasing Begins at M&R Development’s 478-Unit Luxury Apartment Community Near Milwaukee: 34 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Pre-Leasing Begins at M&R Development’s 478-Unit Luxury Apartment Community Near Milwaukee: 34 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Pre-Leasing Begins at M&R Development’s 478-Unit Luxury Apartment Community Near Milwaukee: 34 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Pre-Leasing Begins at M&R Development’s 478-Unit Luxury Apartment Community Near Milwaukee: 34 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Pre-Leasing Begins at M&R Development’s 478-Unit Luxury Apartment Community Near Milwaukee: 34 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Pre-Leasing Begins at M&R Development’s 478-Unit Luxury Apartment Community Near Milwaukee: 34 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Pre-Leasing Begins at M&R Development’s 478-Unit Luxury Apartment Community Near Milwaukee: 34 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Pre-Leasing Begins at M&R Development’s 478-Unit Luxury Apartment Community Near Milwaukee: 34 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Pre-Leasing Begins at M&R Development’s 478-Unit Luxury Apartment Community Near Milwaukee: 34 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Pre-Leasing Begins at M&R Development’s 478-Unit Luxury Apartment Community Near Milwaukee: 34 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

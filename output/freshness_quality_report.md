@@ -1,11 +1,11 @@
 # Freshness Quality Report
 
-Generated: 2026-10-11 01:35:44
+Generated: 2026-10-12 02:06:12
 
 ## Freshness Summary
 
-- Total articles reviewed: 76
-- fresh_0_3d: 48
+- Total articles reviewed: 75
+- fresh_0_3d: 47
 - recent_4_14d: 5
 - stale_15_30d: 0
 - old_31d_plus: 23
@@ -13,21 +13,21 @@ Generated: 2026-10-11 01:35:44
 
 ## Old Articles Excluded From Representative Evidence
 
-- Best Year for Missing Middle Construction Since 2007 (NAHB Eye on Housing - Multifamily, 2026-03-17): published date parsed; article age 208 day(s)
-- Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 (NAHB Eye on Housing - Multifamily, 2026-07-27): published date parsed; article age 76 day(s)
-- Multifamily Missing Middle Falls Back (NAHB Eye on Housing - Multifamily, 2026-08-26): published date parsed; article age 46 day(s)
-- Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily, 2026-05-27): published date parsed; article age 137 day(s)
-- Multifamily Absorption Rate Remains Below 50% (NAHB Eye on Housing - Multifamily, 2026-08-28): published date parsed; article age 44 day(s)
-- Investor Takes Over Distressed Atlanta Apartment Asset (Connect CRE Atlanta, 2026-09-14): published date parsed; article age 27 day(s)
-- Thompson Thrift Pursuing 319-Unit Powder Springs Rental Community (Connect CRE Atlanta, 2026-08-26): published date parsed; article age 46 day(s)
-- Shorter Apartment Construction Time in 2025 (NAHB Eye on Housing - Multifamily, 2026-09-07): published date parsed; article age 34 day(s)
-- Second Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-08-25): published date parsed; article age 47 day(s)
-- Rent Prices Continue to Rise, While Absorption Remains Low (NAHB Eye on Housing - Multifamily, 2026-05-29): published date parsed; article age 135 day(s)
-- First Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-05-26): published date parsed; article age 138 day(s)
-- Fourth Quarter 2025 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-03-19): published date parsed; article age 206 day(s)
-- Passco Offloads Buckhead Rental Asset for $87.5M (Connect CRE Atlanta, 2026-09-08): published date parsed; article age 33 day(s)
-- ParkProperty Acquires 280-Unit Buckhead Apartment Community (Connect CRE Atlanta, 2026-08-13): published date parsed; article age 59 day(s)
-- 2026 NOI & Operations Survey Report (Multifamily Executive, 2026-09-10): published date parsed; article age 31 day(s)
+- Best Year for Missing Middle Construction Since 2007 (NAHB Eye on Housing - Multifamily, 2026-03-17): published date parsed; article age 209 day(s)
+- Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 (NAHB Eye on Housing - Multifamily, 2026-07-27): published date parsed; article age 77 day(s)
+- Multifamily Missing Middle Falls Back (NAHB Eye on Housing - Multifamily, 2026-08-26): published date parsed; article age 47 day(s)
+- Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily, 2026-05-27): published date parsed; article age 138 day(s)
+- Multifamily Absorption Rate Remains Below 50% (NAHB Eye on Housing - Multifamily, 2026-08-28): published date parsed; article age 45 day(s)
+- Investor Takes Over Distressed Atlanta Apartment Asset (Connect CRE Atlanta, 2026-09-14): published date parsed; article age 28 day(s)
+- Thompson Thrift Pursuing 319-Unit Powder Springs Rental Community (Connect CRE Atlanta, 2026-08-26): published date parsed; article age 47 day(s)
+- Shorter Apartment Construction Time in 2025 (NAHB Eye on Housing - Multifamily, 2026-09-07): published date parsed; article age 35 day(s)
+- Second Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-08-25): published date parsed; article age 48 day(s)
+- Rent Prices Continue to Rise, While Absorption Remains Low (NAHB Eye on Housing - Multifamily, 2026-05-29): published date parsed; article age 136 day(s)
+- First Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-05-26): published date parsed; article age 139 day(s)
+- Fourth Quarter 2025 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-03-19): published date parsed; article age 207 day(s)
+- Passco Offloads Buckhead Rental Asset for $87.5M (Connect CRE Atlanta, 2026-09-08): published date parsed; article age 34 day(s)
+- ParkProperty Acquires 280-Unit Buckhead Apartment Community (Connect CRE Atlanta, 2026-08-13): published date parsed; article age 60 day(s)
+- 2026 NOI & Operations Survey Report (Multifamily Executive, 2026-09-10): published date parsed; article age 32 day(s)
 
 ## Old Articles Excluded From Development Activity Top Exposure
 

@@ -1,8 +1,8 @@
 # Deal Fingerprint Report
 
-Generated: 2026-10-11 01:35:50
+Generated: 2026-10-12 02:06:17
 
-- Total canonical deals detected: 58
+- Total canonical deals detected: 55
 - Duplicate clusters detected: 0
 - California / LA recurring project count: 4
 
@@ -34,7 +34,6 @@ Generated: 2026-10-11 01:35:50
 
 - Acquisition - Berkadia - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
-- BTR / Build-to-Rent - Berkadia - Florida: Florida, 1 article(s), 1 source(s), confidence 90.
 - General Project Signal - JLL - Florida: Florida, 1 article(s), 1 source(s), confidence 90.
 - JV / Partnership - Berkadia - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
 - Refinancing - JLL - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
@@ -42,12 +41,12 @@ Generated: 2026-10-11 01:35:50
 - Refinancing - Walker & Dunlop - Freddie Mac - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
 - Acquisition - JLL - Houston / Texas: Houston / Texas, 1 article(s), 1 source(s), confidence 80.
+- Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
 
 ## Most Frequently Referenced Developments
 
 - Acquisition - Berkadia - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
-- BTR / Build-to-Rent - Berkadia - Florida: Florida, 1 article(s), 1 source(s), confidence 90.
 - General Project Signal - JLL - Florida: Florida, 1 article(s), 1 source(s), confidence 90.
 - JV / Partnership - Berkadia - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
 - Refinancing - JLL - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
@@ -55,12 +54,12 @@ Generated: 2026-10-11 01:35:50
 - Refinancing - Walker & Dunlop - Freddie Mac - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
 - Acquisition - JLL - Houston / Texas: Houston / Texas, 1 article(s), 1 source(s), confidence 80.
+- Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
 
 ## Highest-Confidence Canonical Events
 
 - Acquisition - Berkadia - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
-- BTR / Build-to-Rent - Berkadia - Florida: Florida, 1 article(s), 1 source(s), confidence 90.
 - General Project Signal - JLL - Florida: Florida, 1 article(s), 1 source(s), confidence 90.
 - JV / Partnership - Berkadia - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
 - Refinancing - JLL - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
@@ -68,3 +67,4 @@ Generated: 2026-10-11 01:35:50
 - Refinancing - Walker & Dunlop - Freddie Mac - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
 - Acquisition - JLL - Houston / Texas: Houston / Texas, 1 article(s), 1 source(s), confidence 80.
+- Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.

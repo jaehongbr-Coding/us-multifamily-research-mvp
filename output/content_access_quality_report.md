@@ -3,21 +3,21 @@
 Limited articles are retained only as conservative title/lead-based evidence. Limited access is tracked separately from article identity mismatches.
 
 ## Summary
-- Total articles: 76
-- Total limited_or_paywall articles: 13
+- Total articles: 75
+- Total limited_or_paywall articles: 12
 - suspicious_mismatch articles: 0
 - limited_or_paywall and suspicious_mismatch overlap: 0
-- Limited articles selected into Development Activity: 13
+- Limited articles selected into Development Activity: 12
 - Limited articles selected into GP / Capital Activity: 0
 - Limited articles selected into Representative Evidence: 1
 
 ## Limited Articles by Source
-- Urbanize LA: 9
+- Urbanize LA: 8
 - SF YIMBY: 3
 - Bisnow: 1
 
 ## Limited Articles by Display Section
-- Development Activity: 13
+- Development Activity: 12
 
 ## Sample Limited Articles
 - Completion nears for mixed-use project at 10608 Pico Blvd. | Urbanize LA | Development Activity | low confidence
@@ -27,11 +27,11 @@ Limited articles are retained only as conservative title/lead-based evidence. Li
 - Rendering vs. Reality: Affordable housing at 1400 Long Beach Blvd. | Urbanize LA | Development Activity | unknown confidence
 - Mixed-use project slated to replace Mel's Drive-In in Santa Monica | Urbanize LA | Development Activity | unknown confidence
 - 388 apartments to replace offices at 3200 E. Carson St. in Lakewood | Urbanize LA | Development Activity | unknown confidence
-- Affordable housing completed at 7220 Maie Avenue in Florence-Firestone | Urbanize LA | Development Activity | low confidence
 - Plans Revealed For 228 Collins Street in Inner Richmond, San Francisco | SF YIMBY | Development Activity | unknown confidence
 - Construction To Begin on Multifamily Project at 321 Florida Street in San Francisco | SF YIMBY | Development Activity | unknown confidence
 - The Bloc is on the block, A peek inside the Colburn Center, and more | Urbanize LA | Development Activity | unknown confidence
 - Expansion Proposed For 1201 Greenwich Street in Russian Hill, San Francisco | SF YIMBY | Development Activity | unknown confidence
+- 3 Houston Office Properties, Vacant To Nearly Full, Change Hands | Bisnow | Development Activity | low confidence
 
 ## Notes
 - `limited_or_paywall` is an access status, not an article identity failure.

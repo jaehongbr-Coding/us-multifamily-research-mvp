@@ -1,8 +1,8 @@
 # Real Asset & Parcel Intelligence Report
 
-Generated: 2026-10-11 01:36:09
+Generated: 2026-10-12 02:06:30
 
-- Total asset / parcel signals: 76
+- Total asset / parcel signals: 72
 
 ## Top Site-Level Opportunities
 
@@ -12,10 +12,10 @@ Generated: 2026-10-11 01:36:09
 - Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Development Start, 800 N. Main St, asset_opportunity_score 100.
 - JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: General Asset Signal, South Florida, asset_opportunity_score 100.
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization, California, asset_opportunity_score 96.
-- Development Start - Los Angeles / California - Affordable housing completed at 7220 Maie Avenue in Florence-Firestone: Affordable / Density Bonus Strategy, 7220 Maie Avenue, asset_opportunity_score 95.
 - General Project Signal - Miami / Florida - Related Affiliate Obtains $167M Loan Package for Miami Apartment Community: General Asset Signal, South Florida, asset_opportunity_score 95.
 - Entitlement / Permitting - San Francisco / California - Plans Revealed For 228 Collins Street in Inner Richmond, San Francisco: Entitlement Play, 228 Collins Street, asset_opportunity_score 94.
 - General Project Signal - Los Angeles / California - Rendering vs. Reality: Affordable housing at 1400 Long Beach Blvd.: Affordable / Density Bonus Strategy, 1400 Long Beach Blvd, asset_opportunity_score 94.
+- Refinancing - Miami / Florida - JSB Capital Group Secures $238M Refinancing for Class A Multifamily Community in Miami Sub...: Refinancing / Recapitalization, Miami, asset_opportunity_score 92.
 
 ## Top Site-Level Risks
 
@@ -38,10 +38,10 @@ Generated: 2026-10-11 01:36:09
 - Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Development Start, 800 N. Main St, asset_opportunity_score 100.
 - JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: General Asset Signal, South Florida, asset_opportunity_score 100.
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization, California, asset_opportunity_score 96.
-- Development Start - Los Angeles / California - Affordable housing completed at 7220 Maie Avenue in Florence-Firestone: Affordable / Density Bonus Strategy, 7220 Maie Avenue, asset_opportunity_score 95.
 - General Project Signal - Miami / Florida - Related Affiliate Obtains $167M Loan Package for Miami Apartment Community: General Asset Signal, South Florida, asset_opportunity_score 95.
 - Entitlement / Permitting - San Francisco / California - Plans Revealed For 228 Collins Street in Inner Richmond, San Francisco: Entitlement Play, 228 Collins Street, asset_opportunity_score 94.
 - General Project Signal - Los Angeles / California - Rendering vs. Reality: Affordable housing at 1400 Long Beach Blvd.: Affordable / Density Bonus Strategy, 1400 Long Beach Blvd, asset_opportunity_score 94.
+- Refinancing - Miami / Florida - JSB Capital Group Secures $238M Refinancing for Class A Multifamily Community in Miami Sub...: Refinancing / Recapitalization, Miami, asset_opportunity_score 92.
 
 ## Assets With Identified Developers / Sponsors
 
@@ -78,16 +78,13 @@ Generated: 2026-10-11 01:36:09
 
 ## Affordable / Density Bonus Asset Signals
 
-- Development Start - Los Angeles / California - Affordable housing completed at 7220 Maie Avenue in Florence-Firestone: Affordable / Density Bonus Strategy, 7220 Maie Avenue, asset_opportunity_score 95.
 - General Project Signal - Los Angeles / California - Rendering vs. Reality: Affordable housing at 1400 Long Beach Blvd.: Affordable / Density Bonus Strategy, 1400 Long Beach Blvd, asset_opportunity_score 94.
 - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Affordable / Density Bonus Strategy, 800 N. Main St, asset_opportunity_score 85.
 - General Project Signal - Washington DC - Merchants Capital Secures $98M for VA Affordable Development: Affordable / Density Bonus Strategy, Virginia, asset_opportunity_score 83.
 - Plans Revealed For 228 Collins Street in Inner Richmond, San Francisco: Affordable / Density Bonus Strategy, 228 Collins Street, asset_opportunity_score 75.
-- Affordable housing completed at 7220 Maie Avenue in Florence-Firestone: Affordable / Density Bonus Strategy, 7220 Maie Avenue, asset_opportunity_score 75.
 - Rendering vs. Reality: Affordable housing at 1400 Long Beach Blvd.: Affordable / Density Bonus Strategy, 1400 Long Beach Blvd, asset_opportunity_score 75.
 - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland Hills: Affordable / Density Bonus Strategy, 5717 N. Rudnick Avenue, asset_opportunity_score 70.
 - Senior housing completed at 14513 Central Avenue in Baldwin Park: Affordable / Density Bonus Strategy, 14513 Central Avenue, asset_opportunity_score 70.
-- Disposition / Exit - New York - Governor Kathy Hochul Announces the Completion New Affordable Housing for Seniors in Suffo...: Affordable / Density Bonus Strategy, New York, asset_opportunity_score 53.
 
 ## Implications for Woomi / Woomi Global
 
@@ -102,16 +99,16 @@ Generated: 2026-10-11 01:36:09
 - Monitor asset-level signal for repeated confirmation: Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown.
 - Monitor asset-level signal for repeated confirmation: JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex.
 - Review site details, sponsor, entitlement path, and local precedent: Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities.
-- Track entitlement, permit, density bonus, and construction-readiness milestones: Development Start - Los Angeles / California - Affordable housing completed at 7220 Maie Avenue in Florence-Firestone.
 - Monitor asset-level signal for repeated confirmation: General Project Signal - Miami / Florida - Related Affiliate Obtains $167M Loan Package for Miami Apartment Community.
+- Track entitlement, permit, density bonus, and construction-readiness milestones: Entitlement / Permitting - San Francisco / California - Plans Revealed For 228 Collins Street in Inner Richmond, San Francisco.
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 76
-- LA lifecycle watch items: 48
-- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 42, Site Acquisition / Site Control: 6, Vertical Construction: 5, Delivery / Opening: 10
+- Lifecycle records: 72
+- LA lifecycle watch items: 45
+- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 40, Site Acquisition / Site Control: 6, Vertical Construction: 5, Delivery / Opening: 8
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -119,11 +116,11 @@ Generated: 2026-10-11 01:36:09
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 76
-- Newly detected projects: 8
+- Lifecycle transitions analyzed: 72
+- Newly detected projects: 3
 - Forward progression projects: 0
-- Possible stalled projects: 1
-- LA lifecycle transition watch items: 45
+- Possible stalled projects: 2
+- LA lifecycle transition watch items: 42
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -131,10 +128,10 @@ Generated: 2026-10-11 01:36:09
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 631
-- Canonical projects: 177
-- Duplicate project clusters: 106
-- Persistent assets tracked: 177
-- LA persistent asset watch items: 121
+- Raw project references: 601
+- Canonical projects: 170
+- Duplicate project clusters: 105
+- Persistent assets tracked: 170
+- LA persistent asset watch items: 116
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

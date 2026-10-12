@@ -1,6 +1,6 @@
 # 한국어 주간 전략 메모
 
-- 생성 시각: 2026-10-11 01:35:43
+- 생성 시각: 2026-10-12 02:06:11
 - 참고 원문 파일: `weekly_strategy_memo.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -27,8 +27,8 @@
 
 - California: California, 일반 주거, 점수 87 (Active Watch Window; Actively source opportunities)
 - National / Other: 전국 / 기타, 일반 주거, 점수 67 (Selective Entry Window; Monitor refinancing and distress pipeline)
-- Florida: Florida, 일반 주거, 점수 59 (Early Signal / Prepare; Prepare GP conversations)
 - Sun Belt: Sun Belt, 일반 주거, 점수 55 (Early Signal / Prepare; Prepare GP conversations)
+- Florida: Florida, 일반 주거, 점수 48 (Monitor Only; Prepare GP conversations)
 - Los Angeles: Los Angeles, 일반 주거, 점수 33 (Monitor Only; Monitor only)
 
 ## 우미 전략 시사점

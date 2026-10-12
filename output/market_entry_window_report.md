@@ -1,13 +1,13 @@
 # Market Entry Window Report
 
-Generated: 2026-10-11 01:36:07
+Generated: 2026-10-12 02:06:29
 
 ## Top Market Entry Windows
 
 - California: score 87, Active Watch Window, posture: Actively source opportunities.
 - National / Other: score 67, Selective Entry Window, posture: Monitor refinancing and distress pipeline.
-- Florida: score 59, Early Signal / Prepare, posture: Prepare GP conversations.
 - Sun Belt: score 55, Early Signal / Prepare, posture: Prepare GP conversations.
+- Florida: score 48, Monitor Only, posture: Prepare GP conversations.
 - Los Angeles: score 33, Monitor Only, posture: Monitor only.
 - Texas: score 32, Monitor Only, posture: Monitor only.
 - Seattle: score 31, Monitor Only, posture: Monitor only.
@@ -20,8 +20,8 @@ Generated: 2026-10-11 01:36:07
 
 ## Sun Belt Entry Window
 
-- Florida: score 59, Early Signal / Prepare, posture: Prepare GP conversations.
 - Sun Belt: score 55, Early Signal / Prepare, posture: Prepare GP conversations.
+- Florida: score 48, Monitor Only, posture: Prepare GP conversations.
 - Texas: score 32, Monitor Only, posture: Monitor only.
 
 ## New York / Refinancing Stress Window
@@ -42,8 +42,8 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 
 - California: Actively source opportunities (Active Watch Window).
 - National / Other: Monitor refinancing and distress pipeline (Selective Entry Window).
-- Florida: Prepare GP conversations (Early Signal / Prepare).
 - Sun Belt: Prepare GP conversations (Early Signal / Prepare).
+- Florida: Prepare GP conversations (Monitor Only).
 - Los Angeles: Monitor only (Monitor Only).
 - Texas: Monitor only (Monitor Only).
 - Seattle: Monitor only (Monitor Only).
@@ -53,8 +53,8 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 
 - California: risks: financing stress and refinancing pressure; entitlement, zoning, permitting, and policy uncertainty; opportunities: active opportunity radar signals; possible distress or recapitalization watch; capital-flow or institutional activity signal; core Woomi California / LA strategic relevance.
 - National / Other: risks: financing stress and refinancing pressure; supply, delivery, lease-up, or concession pressure; opportunities: active opportunity radar signals; possible distress or recapitalization watch.
-- Florida: risks: limited timing evidence; opportunities: active opportunity radar signals; capital-flow or institutional activity signal.
 - Sun Belt: risks: supply, delivery, lease-up, or concession pressure; opportunities: active opportunity radar signals; capital-flow or institutional activity signal.
+- Florida: risks: limited timing evidence; opportunities: active opportunity radar signals; capital-flow or institutional activity signal.
 - Los Angeles: risks: entitlement, zoning, permitting, and policy uncertainty; opportunities: capital-flow or institutional activity signal; core Woomi California / LA strategic relevance.
 
 ## Executive Summary for Woomi
@@ -65,9 +65,9 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 76
-- LA lifecycle watch items: 48
-- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 42, Site Acquisition / Site Control: 6, Vertical Construction: 5, Delivery / Opening: 10
+- Lifecycle records: 72
+- LA lifecycle watch items: 45
+- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 40, Site Acquisition / Site Control: 6, Vertical Construction: 5, Delivery / Opening: 8
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -75,10 +75,10 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 76
-- Newly detected projects: 8
+- Lifecycle transitions analyzed: 72
+- Newly detected projects: 3
 - Forward progression projects: 0
-- Possible stalled projects: 1
-- LA lifecycle transition watch items: 45
+- Possible stalled projects: 2
+- LA lifecycle transition watch items: 42
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 

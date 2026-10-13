@@ -1,91 +1,88 @@
 # High Confidence Watchlist Report
 
-Generated: 2026-10-12 02:06:31
+Generated: 2026-10-13 03:25:03
 
 - Total high-confidence watchlist items: 38
 
 ## Top Institutional-Grade Opportunities
 
-- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of 300-Unit Apartment Community in Northwest Dallas: Refinancing opportunity, quality 97, action: Review immediately.
-- Refinancing - Miami / Florida - JSB Capital Group Secures $238M Refinancing for Class A Multifamily Community in Miami Sub...: Refinancing opportunity, quality 97, action: Review immediately.
-- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing opportunity, quality 93, action: Review immediately.
+- Acquisition - California - Hercules Development Partners Divests of Dylan Apartments Near Berkeley, California for $8...: Refinancing opportunity, quality 92, action: Review immediately.
+- Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ...: LA urban infill opportunity, quality 92, action: Review immediately.
+- Recapitalization - Florida - Waypoint Inks $100M Bridge Loan for Two Florida Rental Assets: Refinancing opportunity, quality 92, action: Review immediately.
 - JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: Institutional capital movement, quality 91, action: Review immediately.
-- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: LA urban infill opportunity, quality 91, action: Review immediately.
-- Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: LA urban infill opportunity, quality 89, action: Review immediately.
-- General Project Signal - Miami / Florida - Related Affiliate Obtains $167M Loan Package for Miami Apartment Community: Refinancing opportunity, quality 88, action: Review immediately.
+- JV / Partnership - Riverside / California - Upland Apartments with Value-Add Potential Trade to Limited Partnership: Institutional capital movement, quality 90, action: Review immediately.
+- Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ...: LA urban infill opportunity, quality 88, action: Review immediately.
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: LA urban infill opportunity, quality 88, action: Review immediately.
-- General Project Signal - Florida - JLL Arranges $100M Financing for Two New Multifamily Properties in North Florida: Institutional capital movement, quality 86, action: Review immediately.
-- Development Start - Sun Belt - 5 apartment projects that recently broke ground: Construction start pipeline, quality 86, action: Review immediately.
+- Construction Financing - Miami / Florida - Fuse Group Joint Venture Secures $127M Construction Loan for Miami-Area Multifamily Proper...: Refinancing opportunity, quality 88, action: Review immediately.
+- Disposition / Exit - San Francisco / California - Andrew Eisenberg Promoted to CBRE San Francisco Peninsula Market Leader: LA urban infill opportunity, quality 87, action: Review immediately.
+- Construction Financing - Other / Unknown - Affinius Capital Originates $95M Construction Loan for Oregon State University Student Hou...: Refinancing opportunity, quality 87, action: Review immediately.
 
 ## Top Institutional-Grade Risks
 
-- General Project Signal - Atlanta / Georgia - Germantown Developer Reveals Schedule for Mixed-Use Project: LA urban infill opportunity, quality 79, action: Maintain on strategic radar.
+- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed opportunity, quality 80, action: Maintain on strategic radar.
 
 ## Strongest LA / Southern California Watch Items
 
-- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of 300-Unit Apartment Community in Northwest Dallas: Refinancing opportunity, quality 97, action: Review immediately.
-- Refinancing - Miami / Florida - JSB Capital Group Secures $238M Refinancing for Class A Multifamily Community in Miami Sub...: Refinancing opportunity, quality 97, action: Review immediately.
-- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing opportunity, quality 93, action: Review immediately.
+- Acquisition - California - Hercules Development Partners Divests of Dylan Apartments Near Berkeley, California for $8...: Refinancing opportunity, quality 92, action: Review immediately.
+- Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ...: LA urban infill opportunity, quality 92, action: Review immediately.
 - JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: Institutional capital movement, quality 91, action: Review immediately.
-- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: LA urban infill opportunity, quality 91, action: Review immediately.
-- Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: LA urban infill opportunity, quality 89, action: Review immediately.
-- General Project Signal - Miami / Florida - Related Affiliate Obtains $167M Loan Package for Miami Apartment Community: Refinancing opportunity, quality 88, action: Review immediately.
+- JV / Partnership - Riverside / California - Upland Apartments with Value-Add Potential Trade to Limited Partnership: Institutional capital movement, quality 90, action: Review immediately.
+- Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ...: LA urban infill opportunity, quality 88, action: Review immediately.
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: LA urban infill opportunity, quality 88, action: Review immediately.
-- Entitlement / Permitting - California - 388 apartments to replace offices at 3200 E. Carson St. in Lakewood: Entitlement progression, quality 84, action: Track entitlement progression.
-- Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H...: Entitlement progression, quality 82, action: Track entitlement progression.
+- Disposition / Exit - San Francisco / California - Andrew Eisenberg Promoted to CBRE San Francisco Peninsula Market Leader: LA urban infill opportunity, quality 87, action: Review immediately.
+- Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: LA urban infill opportunity, quality 85, action: Review immediately.
+- General Project Signal - California - Alta Housing Breaks Ground on 108-Unit Affordable Housing Community in Mountain View, Cali...: LA urban infill opportunity, quality 84, action: Maintain on strategic radar.
+- Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Construction start pipeline, quality 82, action: Monitor construction execution.
 
 ## Strongest GP / Developer Signals
 
-- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of 300-Unit Apartment Community in Northwest Dallas: Refinancing opportunity, quality 97, action: Review immediately.
-- Refinancing - Miami / Florida - JSB Capital Group Secures $238M Refinancing for Class A Multifamily Community in Miami Sub...: Refinancing opportunity, quality 97, action: Review immediately.
-- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing opportunity, quality 93, action: Review immediately.
+- Acquisition - California - Hercules Development Partners Divests of Dylan Apartments Near Berkeley, California for $8...: Refinancing opportunity, quality 92, action: Review immediately.
+- Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ...: LA urban infill opportunity, quality 92, action: Review immediately.
+- Recapitalization - Florida - Waypoint Inks $100M Bridge Loan for Two Florida Rental Assets: Refinancing opportunity, quality 92, action: Review immediately.
 - JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: Institutional capital movement, quality 91, action: Review immediately.
-- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: LA urban infill opportunity, quality 91, action: Review immediately.
-- General Project Signal - Miami / Florida - Related Affiliate Obtains $167M Loan Package for Miami Apartment Community: Refinancing opportunity, quality 88, action: Review immediately.
+- JV / Partnership - Riverside / California - Upland Apartments with Value-Add Potential Trade to Limited Partnership: Institutional capital movement, quality 90, action: Review immediately.
+- Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ...: LA urban infill opportunity, quality 88, action: Review immediately.
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: LA urban infill opportunity, quality 88, action: Review immediately.
-- General Project Signal - Florida - JLL Arranges $100M Financing for Two New Multifamily Properties in North Florida: Institutional capital movement, quality 86, action: Review immediately.
-- Refinancing - Other / Unknown - Walker & Dunlop Arranges $630M Fannie Mae Refinance for IMT Capital Multifamily Portfolio: Refinancing opportunity, quality 84, action: Watch refinancing timing.
-- Entitlement / Permitting - California - 388 apartments to replace offices at 3200 E. Carson St. in Lakewood: Entitlement progression, quality 84, action: Track entitlement progression.
+- Construction Financing - Miami / Florida - Fuse Group Joint Venture Secures $127M Construction Loan for Miami-Area Multifamily Proper...: Refinancing opportunity, quality 88, action: Review immediately.
+- Disposition / Exit - San Francisco / California - Andrew Eisenberg Promoted to CBRE San Francisco Peninsula Market Leader: LA urban infill opportunity, quality 87, action: Review immediately.
+- Construction Financing - Other / Unknown - Affinius Capital Originates $95M Construction Loan for Oregon State University Student Hou...: Refinancing opportunity, quality 87, action: Review immediately.
 
 ## Strongest Capital Flow Signals
 
-- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of 300-Unit Apartment Community in Northwest Dallas: Refinancing opportunity, quality 97, action: Review immediately.
-- Refinancing - Miami / Florida - JSB Capital Group Secures $238M Refinancing for Class A Multifamily Community in Miami Sub...: Refinancing opportunity, quality 97, action: Review immediately.
-- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing opportunity, quality 93, action: Review immediately.
+- Acquisition - California - Hercules Development Partners Divests of Dylan Apartments Near Berkeley, California for $8...: Refinancing opportunity, quality 92, action: Review immediately.
+- Recapitalization - Florida - Waypoint Inks $100M Bridge Loan for Two Florida Rental Assets: Refinancing opportunity, quality 92, action: Review immediately.
 - JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: Institutional capital movement, quality 91, action: Review immediately.
-- General Project Signal - Miami / Florida - Related Affiliate Obtains $167M Loan Package for Miami Apartment Community: Refinancing opportunity, quality 88, action: Review immediately.
-- General Project Signal - Florida - JLL Arranges $100M Financing for Two New Multifamily Properties in North Florida: Institutional capital movement, quality 86, action: Review immediately.
-- Refinancing - Other / Unknown - Walker & Dunlop Arranges $630M Fannie Mae Refinance for IMT Capital Multifamily Portfolio: Refinancing opportunity, quality 84, action: Watch refinancing timing.
+- JV / Partnership - Riverside / California - Upland Apartments with Value-Add Potential Trade to Limited Partnership: Institutional capital movement, quality 90, action: Review immediately.
+- Construction Financing - Miami / Florida - Fuse Group Joint Venture Secures $127M Construction Loan for Miami-Area Multifamily Proper...: Refinancing opportunity, quality 88, action: Review immediately.
+- Construction Financing - Other / Unknown - Affinius Capital Originates $95M Construction Loan for Oregon State University Student Hou...: Refinancing opportunity, quality 87, action: Review immediately.
+- Acquisition - Other / Unknown - CBRE Arranges Sale of Development Site for 96-Unit Multifamily Project in Waterloo, Wiscon...: Institutional capital movement, quality 85, action: Review immediately.
 - General Project Signal - Washington DC - Merchants Capital Secures $98M for VA Affordable Development: Institutional capital movement, quality 83, action: Monitor sponsor relationship.
 - Disposition / Exit - Other / Unknown - Essex Realty Group Closes Sale of $17M Suburban Chicago Apartments: Institutional capital movement, quality 83, action: Monitor sponsor relationship.
-- Disposition / Exit - Seattle - Colliers Brokers $18M Sale of 88-Unit Multifamily in Seattle’s Roosevelt Neighborhood: Institutional capital movement, quality 82, action: Maintain on strategic radar.
+- Disposition / Exit - Seattle - Institutional Property Advisors Completes Two Multifamily Sales in the South Puget Sound R...: Institutional capital movement, quality 82, action: Monitor sponsor relationship.
 
 ## Strongest Refinancing Opportunities
 
-- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of 300-Unit Apartment Community in Northwest Dallas: Refinancing opportunity, quality 97, action: Review immediately.
-- Refinancing - Miami / Florida - JSB Capital Group Secures $238M Refinancing for Class A Multifamily Community in Miami Sub...: Refinancing opportunity, quality 97, action: Review immediately.
-- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing opportunity, quality 93, action: Review immediately.
-- General Project Signal - Miami / Florida - Related Affiliate Obtains $167M Loan Package for Miami Apartment Community: Refinancing opportunity, quality 88, action: Review immediately.
-- Refinancing - Other / Unknown - Walker & Dunlop Arranges $630M Fannie Mae Refinance for IMT Capital Multifamily Portfolio: Refinancing opportunity, quality 84, action: Watch refinancing timing.
-- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of 300-Unit Apartment Community in Northwest Dallas: Refinancing opportunity, quality 78, action: Watch refinancing timing.
-- Refinancing - Miami / Florida - JSB Capital Group Secures $238M Refinancing for Class A Multifamily Community in Miami Sub...: Refinancing opportunity, quality 78, action: Watch refinancing timing.
-- Recapitalization - Dallas / Texas - Lansing Melbourne Recapitalizes 156-Unit Multifamily Property in Nashua, New Hampshire: Refinancing opportunity, quality 77, action: Watch refinancing timing.
-- General Project Signal - Miami / Florida - Related Affiliate Obtains $167M Loan Package for Miami Apartment Community: Refinancing opportunity, quality 74, action: Watch refinancing timing.
+- Acquisition - California - Hercules Development Partners Divests of Dylan Apartments Near Berkeley, California for $8...: Refinancing opportunity, quality 92, action: Review immediately.
+- Recapitalization - Florida - Waypoint Inks $100M Bridge Loan for Two Florida Rental Assets: Refinancing opportunity, quality 92, action: Review immediately.
+- Construction Financing - Miami / Florida - Fuse Group Joint Venture Secures $127M Construction Loan for Miami-Area Multifamily Proper...: Refinancing opportunity, quality 88, action: Review immediately.
+- Construction Financing - Other / Unknown - Affinius Capital Originates $95M Construction Loan for Oregon State University Student Hou...: Refinancing opportunity, quality 87, action: Review immediately.
+- Construction Financing - Miami / Florida - Fuse Group Joint Venture Secures $127M Construction Loan for Miami-Area Multifamily Proper...: Refinancing opportunity, quality 76, action: Watch refinancing timing.
+- Acquisition - National - Draper and Kramer Acquires 268-Unit Evanston Apartment Community: Refinancing opportunity, quality 74, action: Watch refinancing timing.
 - Construction Financing - Miami / Florida - Terra-Led JV Lands $507M Construction Loan for South Beach Condo Before Pre-Sales: Refinancing opportunity, quality 73, action: Watch refinancing timing.
+- Refinancing - National - Northmarq Secures $50M Refinancing of Multifamily Asset in MN: Refinancing opportunity, quality 71, action: Watch refinancing timing.
 
 ## Strongest Construction-Ready Opportunities
 
 - Development Start - Sun Belt - 5 apartment projects that recently broke ground: Construction start pipeline, quality 86, action: Review immediately.
-- Development Start - San Francisco / California - Construction To Begin on Multifamily Project at 321 Florida Street in San Francisco: Construction start pipeline, quality 74, action: Monitor construction execution.
-- Development Start - Phoenix / Arizona - Empire Group Breaks Ground on $288M High-Rise Apartment Tower in Tempe: Construction start pipeline, quality 72, action: Monitor construction execution.
+- Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Construction start pipeline, quality 82, action: Monitor construction execution.
 
 ## Recommended Executive Actions
 
-- Review immediately: Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of 300-Unit Apartment Community in Northwest Dallas.
-- Review immediately: Refinancing - Miami / Florida - JSB Capital Group Secures $238M Refinancing for Class A Multifamily Community in Miami Sub....
-- Review immediately: Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities.
+- Review immediately: Acquisition - California - Hercules Development Partners Divests of Dylan Apartments Near Berkeley, California for $8....
+- Review immediately: Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ....
+- Review immediately: Recapitalization - Florida - Waypoint Inks $100M Bridge Loan for Two Florida Rental Assets.
 - Review immediately: JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex.
-- Review immediately: Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993.
-- Review immediately: Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown.
-- Review immediately: General Project Signal - Miami / Florida - Related Affiliate Obtains $167M Loan Package for Miami Apartment Community.
+- Review immediately: JV / Partnership - Riverside / California - Upland Apartments with Value-Add Potential Trade to Limited Partnership.
+- Review immediately: Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ....
 - Review immediately: Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community.
+- Review immediately: Construction Financing - Miami / Florida - Fuse Group Joint Venture Secures $127M Construction Loan for Miami-Area Multifamily Proper....

@@ -1,6 +1,6 @@
 # Site / Parcel Source Coverage Report
 
-Generated: 2026-10-12 02:06:16
+Generated: 2026-10-13 03:24:39
 
 - Total added sources attempted: 25
 - Successful sources: 7
@@ -9,7 +9,7 @@ Generated: 2026-10-12 02:06:16
 
 ## Top Site / Parcel Candidate Sources
 
-- Connect CRE Phoenix: 1 candidate(s) from 10 fetched article(s).
+- REBusiness Online: 1 candidate(s) from 13 fetched article(s).
 
 ## Why Coverage May Still Be Thin
 
@@ -19,11 +19,11 @@ Generated: 2026-10-12 02:06:16
 
 ## Source Detail
 
-- REBusiness Online: no relevant articles | fetched 20 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
+- REBusiness Online: success | fetched 13 | Site / Parcel candidates 1 | Available
 - Connect CRE Apartments: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
 - Connect CRE Texas: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
 - Connect CRE South Florida: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
-- Connect CRE Phoenix: success | fetched 10 | Site / Parcel candidates 1 | Available
+- Connect CRE Phoenix: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
 - Connect CRE Atlanta: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
 - Connect CRE Charlotte: error | fetched 0 | Site / Parcel candidates 0 | RSS parsing issue: status=404; <unknown>:22:51: not well-formed (invalid token)
 - Connect CRE Orange County: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected

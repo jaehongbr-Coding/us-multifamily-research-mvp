@@ -1,21 +1,21 @@
 # LA / Southern California Submarket Watch Report
 
-Generated: 2026-10-12 02:06:29
+Generated: 2026-10-13 03:25:00
 
-- Total LA / Southern California submarkets detected: 11
+- Total LA / Southern California submarkets detected: 13
 
 ## Top LA / Southern California Submarkets
 
+- Orange County: opportunity 79, risk 30, Orange County suburban apartment watch.
 - Chinatown: opportunity 68, risk 40, Monitor only.
 - Hollywood: opportunity 68, risk 30, Hollywood / transit-oriented housing watch.
 - West Hollywood: opportunity 68, risk 30, Hollywood / transit-oriented housing watch.
+- Los Angeles: opportunity 66, risk 30, LA affordable / density bonus watch.
 - Anaheim: opportunity 65, risk 30, Orange County suburban apartment watch.
-- Long Beach: opportunity 61, risk 30, Long Beach mixed-use residential watch.
-- Los Angeles: opportunity 51, risk 55, LA affordable / density bonus watch.
-- Southern California: opportunity 41, risk 20, Monitor only.
-- Santa Monica: opportunity 38, risk 40, Monitor only.
-- Orange County: opportunity 20, risk 30, Orange County suburban apartment watch.
-- California: opportunity 16, risk 20, Monitor only.
+- Riverside: opportunity 64, risk 30, Inland Empire BTR / rental housing watch.
+- Century City: opportunity 61, risk 46, Monitor only.
+- Pasadena: opportunity 55, risk 30, Pasadena entitlement precedent watch.
+- California: opportunity 48, risk 20, Monitor only.
 
 ## Koreatown / Wilshire Watch
 
@@ -32,39 +32,40 @@ Generated: 2026-10-12 02:06:29
 
 ## Pasadena / Entitlement Precedent Watch
 
-- None detected.
+- Pasadena: opportunity 55, risk 30, Pasadena entitlement precedent watch.
 
 ## Long Beach / Mixed-Use Watch
 
-- Long Beach: opportunity 61, risk 30, Long Beach mixed-use residential watch.
+- None detected.
 
 ## Orange County / Suburban Apartment Watch
 
+- Orange County: opportunity 79, risk 30, Orange County suburban apartment watch.
 - Anaheim: opportunity 65, risk 30, Orange County suburban apartment watch.
-- Orange County: opportunity 20, risk 30, Orange County suburban apartment watch.
 
 ## Inland Empire / BTR Watch
 
-- None detected.
+- Riverside: opportunity 64, risk 30, Inland Empire BTR / rental housing watch.
+- Inland Empire: opportunity 20, risk 30, Inland Empire BTR / rental housing watch.
 
 ## LA Density Bonus / TOC Watch
 
-- Los Angeles: opportunity 51, risk 55, LA affordable / density bonus watch.
+- Los Angeles: opportunity 66, risk 30, LA affordable / density bonus watch.
 
 ## LA CEQA / Entitlement Risk Watch
 
-- Los Angeles: opportunity 51, risk 55, LA affordable / density bonus watch.
+- None detected.
 
 ## Recommended Local Follow-up Actions
 
+- Review potential acquisition pipeline: Orange County / Orange County suburban apartment watch.
 - Track local planning docket and entitlement precedent: Chinatown / Monitor only.
 - Track local planning docket and entitlement precedent: Hollywood / Hollywood / transit-oriented housing watch.
 - Track local planning docket and entitlement precedent: West Hollywood / Hollywood / transit-oriented housing watch.
-- Review potential acquisition pipeline: Anaheim / Orange County suburban apartment watch.
-- Review potential acquisition pipeline: Long Beach / Long Beach mixed-use residential watch.
 - Track local planning docket and entitlement precedent: Los Angeles / LA affordable / density bonus watch.
-- Track local planning docket and entitlement precedent: Southern California / Monitor only.
-- Track local planning docket and entitlement precedent: Santa Monica / Monitor only.
+- Review potential acquisition pipeline: Anaheim / Orange County suburban apartment watch.
+- Review potential acquisition pipeline: Riverside / Inland Empire BTR / rental housing watch.
+- Review potential acquisition pipeline: Century City / Monitor only.
 
 ## Asset / Parcel Intelligence Reference
 
@@ -74,8 +75,8 @@ Asset / parcel-level site clues are available in `asset_parcel_intelligence_repo
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 72
-- LA lifecycle watch items: 45
-- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 40, Site Acquisition / Site Control: 6, Vertical Construction: 5, Delivery / Opening: 8
+- Lifecycle records: 77
+- LA lifecycle watch items: 44
+- Stage mix: Refinancing / Recapitalization: 10, Unknown Stage: 37, Delivery / Opening: 9, Site Acquisition / Site Control: 9, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

@@ -1,21 +1,21 @@
 # LA Persistent Asset Watch Report
 
-Generated: 2026-10-12 02:06:31
+Generated: 2026-10-13 03:25:03
 
-- Total LA persistent asset watch items: 116
+- Total LA persistent asset watch items: 101
 
 ## Priority LA Asset Watch Items
 
-- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: California, Refinancing / Recapitalization, Track repeat project updates.
-- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of 300-Unit Apartment Community in Northwest Dallas: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
+- Acquisition - California - Hercules Development Partners Divests of Dylan Apartments Near Berkeley, California for $8...: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
 - JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: Los Angeles, Unknown Stage, Track repeat project updates.
-- General Project Signal - Miami / Florida - Related Affiliate Obtains $167M Loan Package for Miami Apartment Community: Los Angeles, Unknown Stage, Track repeat project updates.
-- Refinancing - Miami / Florida - JSB Capital Group Secures $238M Refinancing for Class A Multifamily Community in Miami Sub...: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
-- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: California, Unknown Stage, Track repeat project updates.
+- Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ...: California, Site Acquisition / Site Control, Track repeat project updates.
+- Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ...: Southern California, Unknown Stage, Track repeat project updates.
+- JV / Partnership - Riverside / California - Upland Apartments with Value-Add Potential Trade to Limited Partnership: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Los Angeles, Unknown Stage, Track repeat project updates.
-- General Project Signal - Atlanta / Georgia - Germantown Developer Reveals Schedule for Mixed-Use Project: Los Angeles, Unknown Stage, Track repeat project updates.
+- Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Los Angeles, Vertical Construction, Track repeat project updates.
 - Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H...: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
-- Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
+- General Project Signal - California - Alta Housing Breaks Ground on 108-Unit Affordable Housing Community in Mountain View, Cali...: California, Unknown Stage, Track repeat project updates.
+- Disposition / Exit - San Francisco / California - Andrew Eisenberg Promoted to CBRE San Francisco Peninsula Market Leader: Los Angeles, Unknown Stage, Track repeat project updates.
 
 ## Koreatown / Wilshire Persistent Assets
 
@@ -31,21 +31,24 @@ Generated: 2026-10-12 02:06:31
 
 ## Pasadena Persistent Assets
 
-- None detected.
+- General Project Signal - Colorado - Affordable housing secures financing at 1756 Colorado Blvd. in Pasadena: Pasadena, Unknown Stage, Monitor only.
+- General Project Signal - Colorado - Affordable housing secures financing at 1756 Colorado Blvd. in Pasadena: Pasadena, Unknown Stage, Track repeat project updates.
+- Affordable housing secures financing at 1756 Colorado Blvd. in Pasadena: Pasadena, Unknown Stage, Track local sponsor execution.
+- General Project Signal - Colorado - Affordable housing secures financing at 1756 Colorado Blvd. in Pasadena: Pasadena, Unknown Stage, Track repeat project updates.
+- General Project Signal - Colorado - Affordable housing secures financing at 1756 Colorado Blvd. in Pasadena: Pasadena, Unknown Stage, Monitor only.
 
 ## Orange County Persistent Assets
 
-- None detected.
+- Disposition / Exit - California - Marcus & Millichap Brokers All-Cash Sale of Vintage Multifamily Property in Orange County...: Orange County, Unknown Stage, Track local sponsor execution.
 
 ## Stalled / Delayed LA Asset Watch
 
-- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: California, Refinancing / Recapitalization, Track repeat project updates.
-- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of 300-Unit Apartment Community in Northwest Dallas: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
-- General Project Signal - Atlanta / Georgia - Germantown Developer Reveals Schedule for Mixed-Use Project: Los Angeles, Unknown Stage, Track repeat project updates.
+- Acquisition - California - Hercules Development Partners Divests of Dylan Apartments Near Berkeley, California for $8...: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
+- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Los Angeles, Distressed / Stalled, Track repeat project updates.
 
 ## Construction / Delivery Transition Watch
 
-- Rendering vs. Reality: Affordable housing at 1400 Long Beach Blvd.: Los Angeles, Delivery / Opening, Track repeat project updates.
+- Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Los Angeles, Vertical Construction, Track repeat project updates.
 - General Project Signal - Los Angeles / California - The Bloc is on the block, A peek inside the Colburn Center, and more: Los Angeles, Delivery / Opening, Track repeat project updates.
 - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Los Angeles, Vertical Construction, Track repeat project updates.
 - Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Los Angeles, Delivery / Opening, Track repeat project updates.
@@ -53,11 +56,11 @@ Generated: 2026-10-12 02:06:31
 
 ## Recommended Local Follow-up Actions
 
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of 300-Unit Apartment Community in Northwest Dallas.
-- Monitor for repeated project updates: Entitlement / Permitting - California - 388 apartments to replace offices at 3200 E. Carson St. in Lakewood.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - California - Hercules Development Partners Divests of Dylan Apartments Near Berkeley, California for $8....
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex.
 - Monitor for repeated project updates: Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Miami / Florida - Related Affiliate Obtains $167M Loan Package for Miami Apartment Community.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ....
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ....
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - Riverside / California - Upland Apartments with Value-Add Potential Trade to Limited Partnership.
 - Monitor for repeated project updates: Entitlement / Permitting - San Francisco / California - Plans Revealed For 228 Collins Street in Inner Richmond, San Francisco.
-- Monitor for repeated project updates: General Project Signal - Los Angeles / California - Rendering vs. Reality: Affordable housing at 1400 Long Beach Blvd..
+- Monitor for repeated project updates: General Project Signal - Colorado - Affordable housing secures financing at 1756 Colorado Blvd. in Pasadena.

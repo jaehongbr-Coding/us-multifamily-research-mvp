@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-10-12 02:06:11
+Generated: 2026-10-13 03:24:23
 
 ## Top Strategic Relevance Articles
 
 - 90 / richness 100: Jemal-Led JV Plans 323-Unit Office-to-Resi Conversion in D.C. (Commercial Observer, Washington DC) - JV or partnership activity; institutional acquisition behavior
-- 90 / richness 100: Jemal Real Estate, DivcoWest Plan Office-to-Residential Conversion in D.C.’s West End (REBusiness Online, Washington DC) - JV or partnership activity; institutional acquisition behavior
-- 82 / richness 75: Merchants Capital Secures $98M for VA Affordable Development (Connect CRE, Washington DC) - multi-phase development; large-scale refinance tied to strategy
+- 85 / richness 90: Fuse Group Joint Venture Secures $127M Construction Loan for Miami-Area Multifamily Property (Yield PRO, Miami / Florida) - JV or partnership activity; lease-up or absorption behavior
+- 84 / richness 100: Waypoint Inks $100M Bridge Loan for Two Florida Rental Assets (Connect CRE Apartments, Florida) - institutional acquisition behavior; large-scale refinance tied to strategy
+- 82 / richness 75: Merchants Capital Secures $98M for VA Affordable Development (Connect CRE Apartments, Washington DC) - multi-phase development; large-scale refinance tied to strategy
 - 81 / richness 60: First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown (Urbanize LA, Los Angeles / California) - sponsor expansion; development continuation; entitlement persistence; limited article: title/lead-based review needed; classification confidence penalty
 - 80 / richness 85: Berkadia Arranges Refis for 3 S. Florida Rental Communities (Connect CRE South Florida, Miami / Florida) - institutional acquisition behavior; large-scale refinance tied to strategy
-- 80 / richness 85: JSB Capital Group Secures $238M Refinancing for Class A Multifamily Community in Miami Submarket (Yield PRO, Miami / Florida) - institutional acquisition behavior; large-scale refinance tied to strategy
 - 79 / richness 90: Empire Lands $65.5M Refi on Phoenix BTR Community (Connect CRE Phoenix, Phoenix / Arizona) - lease-up or absorption behavior; large-scale refinance tied to strategy
-- 79 / richness 90: Värde Partners Closed $65.5M Refinance on Newly Delivered Build-to-Rent Community in Phoenix (Yield PRO, Phoenix / Arizona) - lease-up or absorption behavior; large-scale refinance tied to strategy
-- 77 / richness 70: Walker & Dunlop Arranges $630M Fannie Mae Refinance for IMT Capital Multifamily Portfolio (Yield PRO, Other / Unknown) - institutional acquisition behavior; large-scale refinance tied to strategy
 - 76 / richness 100: Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex (Connect CRE South Florida, Miami / Florida) - JV or partnership activity
+- 74 / richness 100: Hercules Development Partners Divests of Dylan Apartments Near Berkeley, California for $83.5M (REBusiness Online, California) - institutional acquisition behavior
+- 74 / richness 85: Capodagli Property Company Secures $68M Construction Loan for New Jersey Multifamily Development (Yield PRO, Other / Unknown) - multi-phase development
 
 ## Low Quality Evidence Candidates
 
@@ -28,20 +28,19 @@ Generated: 2026-10-12 02:06:11
 - 0: Fourth Quarter 2025 Multifamily Construction Data (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: 2026 NOI & Operations Survey Report (Multifamily Executive) - confidence low; integrity valid
 - 0: Private Residential Construction Spending Increases in March (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
-- 0: 2026 Resident Experience Management Report (Multifamily Executive) - confidence low; integrity low_value_promotional
 - 0: Multifamily Developer Confidence Weakens in Second Quarter (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: Multifamily Developer Confidence Holds Steady in First Quarter (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: HBGI Q1 2026: Single-Family Construction Slips Across All Geographies (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
+- 0: NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
 
 ## Potential Parsing Integrity Issues
 
-- low_value_promotional: 2026 Resident Experience Management Report (Multifamily Executive) - promotional/event keyword: whitepaper
 - low_value_promotional: AI, Automation & the Future of Multifamily Finance (Multifamily Executive) - promotional/event keyword: webinar
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 26
-- Development / sponsor behavior articles: 41
+- Financing-oriented articles: 29
+- Development / sponsor behavior articles: 42
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

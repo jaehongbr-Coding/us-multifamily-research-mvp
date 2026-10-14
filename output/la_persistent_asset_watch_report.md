@@ -1,21 +1,21 @@
 # LA Persistent Asset Watch Report
 
-Generated: 2026-10-13 03:25:03
+Generated: 2026-10-14 01:38:28
 
-- Total LA persistent asset watch items: 101
+- Total LA persistent asset watch items: 94
 
 ## Priority LA Asset Watch Items
 
-- Acquisition - California - Hercules Development Partners Divests of Dylan Apartments Near Berkeley, California for $8...: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
+- Construction Financing - New York - Walker & Dunlop Arranges $203M Financing for East Village Multifamily: Los Angeles, Unknown Stage, Track repeat project updates.
 - JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: Los Angeles, Unknown Stage, Track repeat project updates.
-- Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ...: California, Site Acquisition / Site Control, Track repeat project updates.
-- Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ...: Southern California, Unknown Stage, Track repeat project updates.
 - JV / Partnership - Riverside / California - Upland Apartments with Value-Add Potential Trade to Limited Partnership: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
-- Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Los Angeles, Unknown Stage, Track repeat project updates.
-- Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Los Angeles, Vertical Construction, Track repeat project updates.
-- Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H...: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
-- General Project Signal - California - Alta Housing Breaks Ground on 108-Unit Affordable Housing Community in Mountain View, Cali...: California, Unknown Stage, Track repeat project updates.
-- Disposition / Exit - San Francisco / California - Andrew Eisenberg Promoted to CBRE San Francisco Peninsula Market Leader: Los Angeles, Unknown Stage, Track repeat project updates.
+- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: California, Refinancing / Recapitalization, Track repeat project updates.
+- Construction Financing - New York City / New York - Walker & Dunlop Arranges $203M in Financing for East Village Mixed-Use Multifamily Propert...: Los Angeles, Unknown Stage, Track repeat project updates.
+- Acquisition - Atlanta / Georgia - Hines Acquires Luxury Multifamily Rental Community 99 West Paces for $237.8M in Buckhead: Los Angeles, Unknown Stage, Track repeat project updates.
+- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: California, Unknown Stage, Track repeat project updates.
+- General Project Signal - Florida - Newmark Arranges $76.2M Financing for Citron at The Packing District an Apartment Property...: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
+- Entitlement / Permitting - Los Angeles / California - 101 homes approved at 5034 N. Clydebank Ave. in unincorporated Covina: Los Angeles, Entitled / Approved, Track repeat project updates.
+- JV / Partnership - Dallas / Texas - High Street Residential Led Joint Venture Breaks Ground on 435-Unit Class A Multifamily Co...: Los Angeles, Unknown Stage, Track repeat project updates.
 
 ## Koreatown / Wilshire Persistent Assets
 
@@ -39,28 +39,25 @@ Generated: 2026-10-13 03:25:03
 
 ## Orange County Persistent Assets
 
-- Disposition / Exit - California - Marcus & Millichap Brokers All-Cash Sale of Vintage Multifamily Property in Orange County...: Orange County, Unknown Stage, Track local sponsor execution.
+- None detected.
 
 ## Stalled / Delayed LA Asset Watch
 
-- Acquisition - California - Hercules Development Partners Divests of Dylan Apartments Near Berkeley, California for $8...: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
+- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: California, Refinancing / Recapitalization, Track repeat project updates.
 - Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Los Angeles, Distressed / Stalled, Track repeat project updates.
 
 ## Construction / Delivery Transition Watch
 
-- Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Los Angeles, Vertical Construction, Track repeat project updates.
 - General Project Signal - Los Angeles / California - The Bloc is on the block, A peek inside the Colburn Center, and more: Los Angeles, Delivery / Opening, Track repeat project updates.
-- First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Los Angeles, Vertical Construction, Track repeat project updates.
-- Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Los Angeles, Delivery / Opening, Track repeat project updates.
-- Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H...: Los Angeles, Delivery / Opening, Track repeat project updates.
+- General Project Signal - Dallas / Texas - Leon Capital Provides Equity for 516-Bed Student Housing Project in Binghamton, New York: Los Angeles, Vertical Construction, Track repeat project updates.
 
 ## Recommended Local Follow-up Actions
 
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - California - Hercules Development Partners Divests of Dylan Apartments Near Berkeley, California for $8....
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - New York - Walker & Dunlop Arranges $203M Financing for East Village Multifamily.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex.
-- Monitor for repeated project updates: Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ....
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ....
+- Monitor for repeated project updates: Entitlement / Permitting - Los Angeles / California - Warner Center development site showing activity at 6160 Variel Ave..
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - Riverside / California - Upland Apartments with Value-Add Potential Trade to Limited Partnership.
-- Monitor for repeated project updates: Entitlement / Permitting - San Francisco / California - Plans Revealed For 228 Collins Street in Inner Richmond, San Francisco.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - New York City / New York - Walker & Dunlop Arranges $203M in Financing for East Village Mixed-Use Multifamily Propert....
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - Atlanta / Georgia - Hines Acquires Luxury Multifamily Rental Community 99 West Paces for $237.8M in Buckhead.
 - Monitor for repeated project updates: General Project Signal - Colorado - Affordable housing secures financing at 1756 Colorado Blvd. in Pasadena.

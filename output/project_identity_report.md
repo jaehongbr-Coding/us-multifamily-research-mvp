@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-10-13 03:25:03
+Generated: 2026-10-14 01:38:28
 
-- Total raw project references: 640
-- Total canonical projects: 159
-- Duplicate project clusters: 99
-- High-confidence project identities: 640
+- Total raw project references: 564
+- Total canonical projects: 143
+- Duplicate project clusters: 89
+- High-confidence project identities: 564
 - Low-confidence identities needing review: 0
-- LA / California project references: 381
+- LA / California project references: 349
 
 ## Top Repeated Projects
 
-- Construction Financing - Other / Unknown - Capodagli Property Company Secures $68M Construction Loan for New Jersey Multifamily Devel...: 42 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Capodagli Property Company Secures $68M Construction Loan for New Jersey Multifamily Devel...: 42 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Capodagli Property Company Secures $68M Construction Loan for New Jersey Multifamily Devel...: 42 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Capodagli Property Company Secures $68M Construction Loan for New Jersey Multifamily Devel...: 42 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Capodagli Property Company Secures $68M Construction Loan for New Jersey Multifamily Devel...: 42 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Capodagli Property Company Secures $68M Construction Loan for New Jersey Multifamily Devel...: 42 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Capodagli Property Company Secures $68M Construction Loan for New Jersey Multifamily Devel...: 42 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Capodagli Property Company Secures $68M Construction Loan for New Jersey Multifamily Devel...: 42 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Capodagli Property Company Secures $68M Construction Loan for New Jersey Multifamily Devel...: 42 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Capodagli Property Company Secures $68M Construction Loan for New Jersey Multifamily Devel...: 42 occurrence(s), confidence 80.
+- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: 52 occurrence(s), confidence 80.
+- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: 52 occurrence(s), confidence 80.
+- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: 52 occurrence(s), confidence 80.
+- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: 52 occurrence(s), confidence 80.
+- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: 52 occurrence(s), confidence 80.
+- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: 52 occurrence(s), confidence 80.
+- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: 52 occurrence(s), confidence 80.
+- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: 52 occurrence(s), confidence 80.
+- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: 52 occurrence(s), confidence 80.
+- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: 52 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

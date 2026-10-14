@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-10-13 03:24:23
+Generated: 2026-10-14 01:37:57
 
 ## Top Strategic Relevance Articles
 
-- 90 / richness 100: Jemal-Led JV Plans 323-Unit Office-to-Resi Conversion in D.C. (Commercial Observer, Washington DC) - JV or partnership activity; institutional acquisition behavior
-- 85 / richness 90: Fuse Group Joint Venture Secures $127M Construction Loan for Miami-Area Multifamily Property (Yield PRO, Miami / Florida) - JV or partnership activity; lease-up or absorption behavior
-- 84 / richness 100: Waypoint Inks $100M Bridge Loan for Two Florida Rental Assets (Connect CRE Apartments, Florida) - institutional acquisition behavior; large-scale refinance tied to strategy
-- 82 / richness 75: Merchants Capital Secures $98M for VA Affordable Development (Connect CRE Apartments, Washington DC) - multi-phase development; large-scale refinance tied to strategy
-- 81 / richness 60: First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown (Urbanize LA, Los Angeles / California) - sponsor expansion; development continuation; entitlement persistence; limited article: title/lead-based review needed; classification confidence penalty
+- 86 / richness 75: Ryan Cos. Opens Multifamily Project at Former Ford Motor Co. Twin Cities Assembly Plant (REBusiness Online, Other / Unknown) - JV or partnership activity; development continuation
 - 80 / richness 85: Berkadia Arranges Refis for 3 S. Florida Rental Communities (Connect CRE South Florida, Miami / Florida) - institutional acquisition behavior; large-scale refinance tied to strategy
-- 79 / richness 90: Empire Lands $65.5M Refi on Phoenix BTR Community (Connect CRE Phoenix, Phoenix / Arizona) - lease-up or absorption behavior; large-scale refinance tied to strategy
 - 76 / richness 100: Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex (Connect CRE South Florida, Miami / Florida) - JV or partnership activity
-- 74 / richness 100: Hercules Development Partners Divests of Dylan Apartments Near Berkeley, California for $83.5M (REBusiness Online, California) - institutional acquisition behavior
-- 74 / richness 85: Capodagli Property Company Secures $68M Construction Loan for New Jersey Multifamily Development (Yield PRO, Other / Unknown) - multi-phase development
+- 73 / richness 90: Upland Apartments with Value-Add Potential Trade to Limited Partnership (Connect CRE California, Riverside / California) - JV or partnership activity
+- 72 / richness 85: Kinsmen Property, SK Development to Build 184 Apartments at 50 Third Avenue (Commercial Observer, New York City / New York) - JV or partnership activity
+- 72 / richness 85: Walker & Dunlop Arranges $203M in Financing for East Village Mixed-Use Multifamily Property (Yield PRO, New York City / New York) - JV or partnership activity
+- 72 / richness 60: BH Properties Affiliate Purchases 346-Unit Leander Multifamily Project (Connect CRE Apartments, Austin / Texas) - platform or fund activity; institutional acquisition behavior; classification confidence penalty
+- 70 / richness 85: ORIX Buys 322-Unit Austin Apartment Community (Connect CRE Texas, Austin / Texas) - institutional acquisition behavior
+- 70 / richness 85: American Landmark Acquires 292-Unit Apartment Complex in Southeast Houston (REBusiness Online, Tampa / Florida) - institutional acquisition behavior
+- 70 / richness 85: Hines Acquires Luxury Multifamily Rental Community 99 West Paces for $237.8M in Buckhead (Yield PRO, Atlanta / Georgia) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -39,8 +39,8 @@ Generated: 2026-10-13 03:24:23
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 29
-- Development / sponsor behavior articles: 42
+- Financing-oriented articles: 21
+- Development / sponsor behavior articles: 40
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

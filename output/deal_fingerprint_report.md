@@ -1,10 +1,10 @@
 # Deal Fingerprint Report
 
-Generated: 2026-10-13 03:24:40
+Generated: 2026-10-14 01:38:10
 
-- Total canonical deals detected: 60
+- Total canonical deals detected: 52
 - Duplicate clusters detected: 0
-- California / LA recurring project count: 8
+- California / LA recurring project count: 2
 
 ## Largest Duplicate Clusters
 
@@ -16,62 +16,53 @@ Generated: 2026-10-13 03:24:40
 
 ## Strongest Recurring Refinancing Events
 
+- Construction Financing - Walker & Dunlop - walker & dunlop - New York: New York City / New York, 1 article(s), 1 source(s), confidence 100.
 - Refinancing - JLL - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
-- Construction Financing - Berkadia - Berkadia - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
-- Recapitalization - JLL - JLL - Florida: Florida, 1 article(s), 1 source(s), confidence 90.
-- Construction Financing - Affinius Capital - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 80.
-- Refinancing - Unknown - northmarq - National: National, 1 article(s), 1 source(s), confidence 75.
+- Construction Financing - Walker & Dunlop - walker & dunlop - New York: New York, 1 article(s), 1 source(s), confidence 90.
+- Construction Financing - Walker & Dunlop - walker & dunlop - New York: New York City / New York, 1 article(s), 1 source(s), confidence 90.
 - Refinancing - Unknown - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 65.
-- Construction Financing - Unknown - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 65.
 - Construction Financing - Unknown - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 55.
-- Refinancing - Unknown - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 55.
 
 ## Recurring California / LA Projects
 
-- Acquisition - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
-- Acquisition - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
 - Refinancing - JLL - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
 - Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
-- Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
-- Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
-- Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
-- General Project Signal - Unknown - California: California, 1 article(s), 1 source(s), confidence 65.
 
 ## Recurring GP / Lender Relationships
 
+- Construction Financing - Walker & Dunlop - walker & dunlop - New York: New York City / New York, 1 article(s), 1 source(s), confidence 100.
 - Acquisition - Berkadia - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
-- Acquisition - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
-- Acquisition - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
-- Construction Financing - Berkadia - Berkadia - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
+- Construction Financing - Walker & Dunlop - walker & dunlop - New York: New York, 1 article(s), 1 source(s), confidence 90.
+- Construction Financing - Walker & Dunlop - walker & dunlop - New York: New York City / New York, 1 article(s), 1 source(s), confidence 90.
 - JV / Partnership - Berkadia - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
-- Recapitalization - JLL - JLL - Florida: Florida, 1 article(s), 1 source(s), confidence 90.
+- Office-to-Residential Conversion - CBRE - Washington DC: Washington DC, 1 article(s), 1 source(s), confidence 90.
 - Refinancing - JLL - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
-- Acquisition - Brookfield - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 80.
 - Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
-- Construction Financing - Affinius Capital - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 80.
+- Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
+- Acquisition - IPA - Seattle: Seattle, 1 article(s), 1 source(s), confidence 80.
 
 ## Most Frequently Referenced Developments
 
+- Construction Financing - Walker & Dunlop - walker & dunlop - New York: New York City / New York, 1 article(s), 1 source(s), confidence 100.
 - Acquisition - Berkadia - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
-- Acquisition - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
-- Acquisition - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
-- Construction Financing - Berkadia - Berkadia - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
+- Construction Financing - Walker & Dunlop - walker & dunlop - New York: New York, 1 article(s), 1 source(s), confidence 90.
+- Construction Financing - Walker & Dunlop - walker & dunlop - New York: New York City / New York, 1 article(s), 1 source(s), confidence 90.
 - JV / Partnership - Berkadia - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
-- Recapitalization - JLL - JLL - Florida: Florida, 1 article(s), 1 source(s), confidence 90.
+- Office-to-Residential Conversion - CBRE - Washington DC: Washington DC, 1 article(s), 1 source(s), confidence 90.
 - Refinancing - JLL - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
-- Acquisition - Brookfield - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 80.
 - Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
-- Construction Financing - Affinius Capital - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 80.
+- Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
+- Acquisition - IPA - Seattle: Seattle, 1 article(s), 1 source(s), confidence 80.
 
 ## Highest-Confidence Canonical Events
 
+- Construction Financing - Walker & Dunlop - walker & dunlop - New York: New York City / New York, 1 article(s), 1 source(s), confidence 100.
 - Acquisition - Berkadia - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
-- Acquisition - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
-- Acquisition - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
-- Construction Financing - Berkadia - Berkadia - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
+- Construction Financing - Walker & Dunlop - walker & dunlop - New York: New York, 1 article(s), 1 source(s), confidence 90.
+- Construction Financing - Walker & Dunlop - walker & dunlop - New York: New York City / New York, 1 article(s), 1 source(s), confidence 90.
 - JV / Partnership - Berkadia - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
-- Recapitalization - JLL - JLL - Florida: Florida, 1 article(s), 1 source(s), confidence 90.
+- Office-to-Residential Conversion - CBRE - Washington DC: Washington DC, 1 article(s), 1 source(s), confidence 90.
 - Refinancing - JLL - JLL - California: California, 1 article(s), 1 source(s), confidence 90.
-- Acquisition - Brookfield - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 80.
 - Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
-- Construction Financing - Affinius Capital - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 80.
+- Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
+- Acquisition - IPA - Seattle: Seattle, 1 article(s), 1 source(s), confidence 80.

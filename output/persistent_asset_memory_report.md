@@ -1,62 +1,61 @@
 # Persistent Asset Memory Report
 
-Generated: 2026-10-13 03:25:03
+Generated: 2026-10-14 01:38:28
 
-- Total persistent assets tracked: 159
-- Newly detected assets: 137
+- Total persistent assets tracked: 143
+- Newly detected assets: 124
 - Progressing assets: 0
-- Possible stalled assets: 4
+- Possible stalled assets: 2
 
 ## Highest Priority Asset Watch Items
 
-- Acquisition - California - Hercules Development Partners Divests of Dylan Apartments Near Berkeley, California for $8...: Priority Asset Watch, Refinancing / Recapitalization, score 94.
+- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Priority Asset Watch, Refinancing / Recapitalization, score 93.
+- Construction Financing - New York - Walker & Dunlop Arranges $203M Financing for East Village Multifamily: Priority Asset Watch, Unknown Stage, score 92.
+- Construction Financing - New York City / New York - Walker & Dunlop Arranges $203M in Financing for East Village Mixed-Use Multifamily Propert...: Priority Asset Watch, Unknown Stage, score 91.
+- JV / Partnership - Riverside / California - Upland Apartments with Value-Add Potential Trade to Limited Partnership: Priority Asset Watch, Site Acquisition / Site Control, score 90.
 - JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: Priority Asset Watch, Unknown Stage, score 90.
-- Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ...: Priority Asset Watch, Site Acquisition / Site Control, score 89.
-- Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ...: Priority Asset Watch, Unknown Stage, score 89.
-- Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Priority Asset Watch, Unknown Stage, score 87.
-- JV / Partnership - Riverside / California - Upland Apartments with Value-Add Potential Trade to Limited Partnership: Priority Asset Watch, Site Acquisition / Site Control, score 86.
-- General Project Signal - California - Alta Housing Breaks Ground on 108-Unit Affordable Housing Community in Mountain View, Cali...: Priority Asset Watch, Unknown Stage, score 84.
-- Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Priority Asset Watch, Vertical Construction, score 82.
-- Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H...: Priority Asset Watch, Site Acquisition / Site Control, score 81.
+- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Priority Asset Watch, Unknown Stage, score 88.
+- Acquisition - Atlanta / Georgia - Hines Acquires Luxury Multifamily Rental Community 99 West Paces for $237.8M in Buckhead: Priority Asset Watch, Unknown Stage, score 88.
+- Entitlement / Permitting - Los Angeles / California - 101 homes approved at 5034 N. Clydebank Ave. in unincorporated Covina: Priority Asset Watch, Entitled / Approved, score 81.
+- JV / Partnership - Dallas / Texas - High Street Residential Led Joint Venture Breaks Ground on 435-Unit Class A Multifamily Co...: Priority Asset Watch, Unknown Stage, score 81.
 - Disposition / Exit - San Francisco / California - Andrew Eisenberg Promoted to CBRE San Francisco Peninsula Market Leader: Priority Asset Watch, Unknown Stage, score 80.
 
 ## Assets With Repeated Financing Signals
 
-- Acquisition - California - Hercules Development Partners Divests of Dylan Apartments Near Berkeley, California for $8...: Priority Asset Watch, Refinancing / Recapitalization, score 94.
-- Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Priority Asset Watch, Vertical Construction, score 82.
-- Recapitalization - Florida - Waypoint Inks $100M Bridge Loan for Two Florida Rental Assets: Priority Asset Watch, Delivery / Opening, score 78.
-- Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Priority Asset Watch, Delivery / Opening, score 78.
-- Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H...: Priority Asset Watch, Delivery / Opening, score 78.
-- Construction Financing - Miami / Florida - Fuse Group Joint Venture Secures $127M Construction Loan for Miami-Area Multifamily Proper...: Strategic Asset Watch, Refinancing / Recapitalization, score 73.
-- Construction Financing - Other / Unknown - Affinius Capital Originates $95M Construction Loan for Oregon State University Student Hou...: Strategic Asset Watch, Refinancing / Recapitalization, score 73.
-- Construction Financing - Other / Unknown - Capodagli Property Company Secures $68M Construction Loan for New Jersey Multifamily Devel...: Strategic Asset Watch, Delivery / Opening, score 66.
-- Construction Financing - Miami / Florida - Terra-Led JV Lands $507M Construction Loan for South Beach Condo Before Pre-Sales: Strategic Asset Watch, Refinancing / Recapitalization, score 65.
-- Acquisition - National - Draper and Kramer Acquires 268-Unit Evanston Apartment Community: Strategic Asset Watch, Refinancing / Recapitalization, score 64.
+- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Priority Asset Watch, Refinancing / Recapitalization, score 93.
+- Entitlement / Permitting - Los Angeles / California - 101 homes approved at 5034 N. Clydebank Ave. in unincorporated Covina: Priority Asset Watch, Entitled / Approved, score 81.
+- General Project Signal - Dallas / Texas - Leon Capital Provides Equity for 516-Bed Student Housing Project in Binghamton, New York: Priority Asset Watch, Vertical Construction, score 78.
+- Entitlement / Permitting - Los Angeles / California - 101 homes approved at 5034 N. Clydebank Ave. in unincorporated Covina: Priority Asset Watch, Site Acquisition / Site Control, score 75.
+- Office-to-Residential Conversion - Washington DC - One Street Secures $38M Loan for D.C. Office-to-Condo Conversion: Strategic Asset Watch, Unknown Stage, score 71.
+- Entitlement / Permitting - Los Angeles / California - 101 homes approved at 5034 N. Clydebank Ave. in unincorporated Covina: Strategic Asset Watch, Unknown Stage, score 55.
+- Office-to-Residential Conversion - Washington DC - One Street Secures $38M Loan for D.C. Office-to-Condo Conversion: General Asset Monitoring, Unknown Stage, score 42.
+- One Street Secures $38M Loan for D.C. Office-to-Condo Conversion: Low Priority, Unknown Stage, score 31.
+- One Street Secures $38M Loan for D.C. Office-to-Condo Conversion: Low Priority, Unknown Stage, score 28.
 
 ## Assets With Repeated Entitlement Signals
 
-- Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Priority Asset Watch, Vertical Construction, score 82.
-- Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H...: Priority Asset Watch, Site Acquisition / Site Control, score 81.
-- Entitlement / Permitting - San Francisco / California - Plans Revealed For 228 Collins Street in Inner Richmond, San Francisco: Priority Asset Watch, Early Site Signal, score 79.
-- Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Priority Asset Watch, Delivery / Opening, score 78.
-- Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H...: Priority Asset Watch, Delivery / Opening, score 78.
-- Entitlement / Permitting - San Francisco / California - Plans Revealed For 228 Collins Street in Inner Richmond, San Francisco: Priority Asset Watch, Early Site Signal, score 75.
-- General Project Signal - New York - Catholic Charities Cuts Ribbon on $143M Affordable Seniors Housing in Brownsville: Strategic Asset Watch, Unknown Stage, score 72.
-- Construction Financing - Other / Unknown - Capodagli Property Company Secures $68M Construction Loan for New Jersey Multifamily Devel...: Strategic Asset Watch, Delivery / Opening, score 66.
-- Construction Financing - Other / Unknown - Capodagli Property Company Secures $68M Construction Loan for New Jersey Multifamily Devel...: Strategic Asset Watch, Unknown Stage, score 62.
-- Construction Financing - Other / Unknown - Capodagli Property Company Secures $68M Construction Loan for New Jersey Multifamily Devel...: Strategic Asset Watch, Site Acquisition / Site Control, score 57.
+- Entitlement / Permitting - Los Angeles / California - 101 homes approved at 5034 N. Clydebank Ave. in unincorporated Covina: Priority Asset Watch, Entitled / Approved, score 81.
+- General Project Signal - Dallas / Texas - Leon Capital Provides Equity for 516-Bed Student Housing Project in Binghamton, New York: Priority Asset Watch, Vertical Construction, score 78.
+- Entitlement / Permitting - Los Angeles / California - 101 homes approved at 5034 N. Clydebank Ave. in unincorporated Covina: Priority Asset Watch, Site Acquisition / Site Control, score 75.
+- Office-to-Residential Conversion - Washington DC - One Street Secures $38M Loan for D.C. Office-to-Condo Conversion: Strategic Asset Watch, Unknown Stage, score 71.
+- Entitlement / Permitting - San Francisco / California - Duplex Proposed For 4368 23rd Street in Noe Valley, San Francisco: Strategic Asset Watch, Early Site Signal, score 67.
+- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: Strategic Asset Watch, Vertical Construction, score 66.
+- Entitlement / Permitting - Los Angeles / California - Warner Center development site showing activity at 6160 Variel Ave.: Strategic Asset Watch, Site Acquisition / Site Control, score 61.
+- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: Strategic Asset Watch, Unknown Stage, score 59.
+- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: Strategic Asset Watch, Unknown Stage, score 56.
+- Entitlement / Permitting - Los Angeles / California - 101 homes approved at 5034 N. Clydebank Ave. in unincorporated Covina: Strategic Asset Watch, Unknown Stage, score 55.
 
 ## Recurring Asset Signals
 
-- Acquisition - California - Hercules Development Partners Divests of Dylan Apartments Near Berkeley, California for $8...: Priority Asset Watch, Refinancing / Recapitalization, score 94.
+- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Priority Asset Watch, Refinancing / Recapitalization, score 93.
+- Construction Financing - New York - Walker & Dunlop Arranges $203M Financing for East Village Multifamily: Priority Asset Watch, Unknown Stage, score 92.
+- Construction Financing - New York City / New York - Walker & Dunlop Arranges $203M in Financing for East Village Mixed-Use Multifamily Propert...: Priority Asset Watch, Unknown Stage, score 91.
+- JV / Partnership - Riverside / California - Upland Apartments with Value-Add Potential Trade to Limited Partnership: Priority Asset Watch, Site Acquisition / Site Control, score 90.
 - JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: Priority Asset Watch, Unknown Stage, score 90.
-- Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ...: Priority Asset Watch, Site Acquisition / Site Control, score 89.
-- Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ...: Priority Asset Watch, Unknown Stage, score 89.
-- Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Priority Asset Watch, Unknown Stage, score 87.
-- JV / Partnership - Riverside / California - Upland Apartments with Value-Add Potential Trade to Limited Partnership: Priority Asset Watch, Site Acquisition / Site Control, score 86.
-- General Project Signal - California - Alta Housing Breaks Ground on 108-Unit Affordable Housing Community in Mountain View, Cali...: Priority Asset Watch, Unknown Stage, score 84.
-- Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Priority Asset Watch, Vertical Construction, score 82.
-- Entitlement / Permitting - Los Angeles / California - LAUSD board moves forward with plans for housing at sites in West Hollywood and Woodland H...: Priority Asset Watch, Site Acquisition / Site Control, score 81.
+- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Priority Asset Watch, Unknown Stage, score 88.
+- Acquisition - Atlanta / Georgia - Hines Acquires Luxury Multifamily Rental Community 99 West Paces for $237.8M in Buckhead: Priority Asset Watch, Unknown Stage, score 88.
+- Entitlement / Permitting - Los Angeles / California - 101 homes approved at 5034 N. Clydebank Ave. in unincorporated Covina: Priority Asset Watch, Entitled / Approved, score 81.
+- JV / Partnership - Dallas / Texas - High Street Residential Led Joint Venture Breaks Ground on 435-Unit Class A Multifamily Co...: Priority Asset Watch, Unknown Stage, score 81.
 - Disposition / Exit - San Francisco / California - Andrew Eisenberg Promoted to CBRE San Francisco Peninsula Market Leader: Priority Asset Watch, Unknown Stage, score 80.
 
 ## Implications for Woomi / Woomi Global
@@ -66,23 +65,23 @@ Generated: 2026-10-13 03:25:03
 
 ## Recommended Asset Memory Follow-up
 
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - California - Hercules Development Partners Divests of Dylan Apartments Near Berkeley, California for $8....
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ....
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Marcus & Millichap Arranges Sale of New Multifamily Townhome Property in Southern Californ....
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - New York - Walker & Dunlop Arranges $203M Financing for East Village Multifamily.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - New York City / New York - Walker & Dunlop Arranges $203M in Financing for East Village Mixed-Use Multifamily Propert....
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - Riverside / California - Upland Apartments with Value-Add Potential Trade to Limited Partnership.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - California - Alta Housing Breaks Ground on 108-Unit Affordable Housing Community in Mountain View, Cali....
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - Atlanta / Georgia - Hines Acquires Luxury Multifamily Rental Community 99 West Paces for $237.8M in Buckhead.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Entitlement / Permitting - Los Angeles / California - 101 homes approved at 5034 N. Clydebank Ave. in unincorporated Covina.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 159
+- Signals evaluated: 143
 - Institutional-grade signals: 13
-- High-confidence signals: 38
-- Weak/noisy signals: 107
-- High-confidence watchlist items: 38
+- High-confidence signals: 32
+- Weak/noisy signals: 95
+- High-confidence watchlist items: 32
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

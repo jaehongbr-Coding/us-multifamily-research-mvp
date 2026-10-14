@@ -1,19 +1,19 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-10-13 03:25:03
+Generated: 2026-10-14 01:38:28
 
-- Total LA lifecycle watch items: 44
+- Total LA lifecycle watch items: 41
 
 ## LA Lifecycle Stage Distribution
 
-- Unknown Stage: 16
-- Delivery / Opening: 8
-- Site Acquisition / Site Control: 7
-- Early Site Signal: 5
-- Refinancing / Recapitalization: 3
+- Unknown Stage: 21
+- Site Acquisition / Site Control: 8
+- Delivery / Opening: 5
 - Vertical Construction: 2
+- Refinancing / Recapitalization: 1
 - Entitled / Approved: 1
 - Entitlement Under Review: 1
+- Early Site Signal: 1
 - Distressed / Stalled: 1
 
 ## Koreatown / Wilshire Lifecycle Watch
@@ -38,7 +38,7 @@ Generated: 2026-10-13 03:25:03
 
 ## Orange County Lifecycle Watch
 
-- Disposition / Exit - California - Marcus & Millichap Brokers All-Cash Sale of Vintage Multifamily Property in Orange County...: Delivery / Opening, Benchmark delivery / lease-up timing, opportunity 100.
+- None detected.
 
 ## Inland Empire Lifecycle Watch
 
@@ -50,29 +50,29 @@ Generated: 2026-10-13 03:25:03
 
 ## Construction-Ready LA Project Watch
 
-- First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Vertical Construction, Monitor only, opportunity 91.
-- Development Start - Los Angeles / California - First phase of housing and healthcare campus commences at 800 N. Main St. in Chinatown: Vertical Construction, Monitor only, opportunity 88.
+- Wood framing rising for mixed-use project at 5843 W. Pico Blvd.: Vertical Construction, Monitor only, opportunity 86.
+- Entitlement / Permitting - Other / Unknown - Wood framing rising for mixed-use project at 5843 W. Pico Blvd.: Vertical Construction, Monitor only, opportunity 81.
 
 ## Recommended LA Lifecycle Follow-up Actions
 
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities.
-- Monitor lifecycle status for repeated confirmation: Acquisition - California - Interstate Equities Pays $84M for Hercules Multifamily.
+- Monitor lifecycle status for repeated confirmation: Construction Financing - New York - Walker & Dunlop Arranges $203M Financing for East Village Multifamily.
 - Monitor lifecycle status for repeated confirmation: JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex.
-- Monitor lifecycle status for repeated confirmation: Acquisition - California - Hercules Development Partners Divests of Dylan Apartments Near Berkeley, California for $8....
-- Monitor lifecycle status for repeated confirmation: Disposition / Exit - California - Marcus & Millichap Brokers $5.9M Sale of 23-Unit Multifamily Property in Upland Californi.
-- Monitor lifecycle status for repeated confirmation: Disposition / Exit - California - Marcus & Millichap Brokers All-Cash Sale of Vintage Multifamily Property in Orange County....
-- Monitor lifecycle status for repeated confirmation: Marcus & Millichap Brokers $5.9M Sale of 23-Unit Multifamily Property in Upland Californi.
 - Monitor lifecycle status for repeated confirmation: JV / Partnership - Riverside / California - Upland Apartments with Value-Add Potential Trade to Limited Partnership.
+- Monitor lifecycle status for repeated confirmation: Construction Financing - New York City / New York - Walker & Dunlop Arranges $203M in Financing for East Village Mixed-Use Multifamily Propert....
+- Monitor lifecycle status for repeated confirmation: Acquisition - Atlanta / Georgia - Hines Acquires Luxury Multifamily Rental Community 99 West Paces for $237.8M in Buckhead.
+- Monitor lifecycle status for repeated confirmation: Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993.
+- Monitor lifecycle status for repeated confirmation: Walker & Dunlop Arranges $203M Financing for East Village Multifamily.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 77
-- Newly detected projects: 36
+- Lifecycle transitions analyzed: 69
+- Newly detected projects: 38
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 42
+- LA lifecycle transition watch items: 38
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -80,10 +80,10 @@ Generated: 2026-10-13 03:25:03
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 640
-- Canonical projects: 159
-- Duplicate project clusters: 99
-- Persistent assets tracked: 159
-- LA persistent asset watch items: 101
+- Raw project references: 564
+- Canonical projects: 143
+- Duplicate project clusters: 89
+- Persistent assets tracked: 143
+- LA persistent asset watch items: 94
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

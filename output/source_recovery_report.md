@@ -1,6 +1,6 @@
 # Source Recovery Report
 
-Generated: 2026-10-13 03:24:39
+Generated: 2026-10-14 01:38:09
 
 ## Summary
 
@@ -13,16 +13,16 @@ Generated: 2026-10-13 03:24:39
 | source_name | rss_url | status | error_type | last_success_date | last_article_count | fallback | recovery_recommendation |
 | --- | --- | --- | --- | --- | ---: | --- | --- |
 | GlobeSt | https://www.globest.com/feed/ | Failed | paywall_restricted |  | 0 | no reliable fallback found | Do not scrape restricted content; use public RSS, summary pages, or manual intake only. |
-| Connect CRE | https://www.connectcre.com/feed/ | OK |  | 2026-10-13 | 3 |  | Manual source review needed. |
-| The Real Deal | https://therealdeal.com/feed/ | OK |  | 2026-10-13 | 0 |  | Manual source review needed. |
-| Connect CRE Apartments | https://www.connectcre.com/feed?property-sector=apartments | OK |  | 2026-10-13 | 9 |  | Manual source review needed. |
-| Connect CRE Texas | https://www.connectcre.com/feed?story-market=texas | OK |  | 2026-10-13 | 1 |  | Manual source review needed. |
-| Connect CRE South Florida | https://www.connectcre.com/feed?story-market=south-florida | OK |  | 2026-10-13 | 3 |  | Manual source review needed. |
-| Connect CRE Phoenix | https://www.connectcre.com/feed?story-market=phoenix | OK |  | 2026-10-13 | 2 |  | Manual source review needed. |
-| Connect CRE Atlanta | https://www.connectcre.com/feed?story-market=atlanta | OK |  | 2026-10-13 | 5 |  | Manual source review needed. |
+| Connect CRE | https://www.connectcre.com/feed/ | OK |  | 2026-10-14 | 1 |  | Manual source review needed. |
+| The Real Deal | https://therealdeal.com/feed/ | OK |  | 2026-10-14 | 0 |  | Manual source review needed. |
+| Connect CRE Apartments | https://www.connectcre.com/feed?property-sector=apartments | OK |  | 2026-10-14 | 6 |  | Manual source review needed. |
+| Connect CRE Texas | https://www.connectcre.com/feed?story-market=texas | OK |  | 2026-10-14 | 3 |  | Manual source review needed. |
+| Connect CRE South Florida | https://www.connectcre.com/feed?story-market=south-florida | OK |  | 2026-10-14 | 4 |  | Manual source review needed. |
+| Connect CRE Phoenix | https://www.connectcre.com/feed?story-market=phoenix | OK |  | 2026-10-14 | 1 |  | Manual source review needed. |
+| Connect CRE Atlanta | https://www.connectcre.com/feed?story-market=atlanta | OK |  | 2026-10-14 | 4 |  | Manual source review needed. |
 | Connect CRE Charlotte | https://www.connectcre.com/feed?story-market=charlotte | Failed | rss_not_found |  | 0 | no reliable fallback found | Replace the feed URL; current RSS endpoint appears unavailable. |
-| Connect CRE Orange County | https://www.connectcre.com/feed?story-market=orange-county | OK |  | 2026-10-13 | 2 |  | Manual source review needed. |
-| Connect CRE California | https://www.connectcre.com/feed?story-market=california | OK |  | 2026-10-13 | 5 |  | Manual source review needed. |
+| Connect CRE Orange County | https://www.connectcre.com/feed?story-market=orange-county | OK |  | 2026-10-14 | 2 |  | Manual source review needed. |
+| Connect CRE California | https://www.connectcre.com/feed?story-market=california | OK |  | 2026-10-14 | 3 |  | Manual source review needed. |
 
 ## High-Importance Failures
 

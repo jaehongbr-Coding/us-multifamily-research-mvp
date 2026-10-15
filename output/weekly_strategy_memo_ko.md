@@ -1,6 +1,6 @@
 # 한국어 주간 전략 메모
 
-- 생성 시각: 2026-10-14 01:37:57
+- 생성 시각: 2026-10-15 01:14:24
 - 참고 원문 파일: `weekly_strategy_memo.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -11,11 +11,11 @@
 
 ## 시장 국면
 
+- Financing Stress: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention)
 - Selective Capital Re-entry: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention)
-- Developer Strategy Shift: 기타 / 미확인, 아파트, 점수 98 (Tier 1 Executive Attention)
-- Policy / Entitlement Watch: 기타 / 미확인, 아파트, 점수 94 (Tier 2 Strategic Review)
-- Supply Pressure: 기타 / 미확인, 아파트, 점수 93 (Tier 2 Strategic Review)
-- Financing Stress: 기타 / 미확인, 아파트, 점수 89 (Tier 3 Monitoring)
+- Supply Pressure: 기타 / 미확인, 아파트, 점수 100 (Tier 2 Strategic Review)
+- Developer Strategy Shift: 기타 / 미확인, 아파트, 점수 98 (Tier 2 Strategic Review)
+- Policy / Entitlement Watch: 기타 / 미확인, 아파트, 점수 96 (Tier 3 Monitoring)
 
 ## 자본시장 / GP 동향
 
@@ -26,10 +26,10 @@
 ## 지역 / 섹터 관찰
 
 - California: California, 일반 주거, 점수 86 (Active Watch Window; Actively source opportunities)
-- New York: New York, 일반 주거, 점수 71 (Selective Entry Window; Monitor refinancing and distress pipeline)
-- Seattle: Seattle, 일반 주거, 점수 59 (Early Signal / Prepare; Prepare GP conversations)
-- National / Other: 전국 / 기타, 일반 주거, 점수 55 (Early Signal / Prepare; Monitor refinancing and distress pipeline)
-- Sun Belt: Sun Belt, 일반 주거, 점수 55 (Early Signal / Prepare; Prepare GP conversations)
+- National / Other: 전국 / 기타, 일반 주거, 점수 69 (Selective Entry Window; Monitor refinancing and distress pipeline)
+- New York: New York, 일반 주거, 점수 65 (Selective Entry Window; Monitor refinancing and distress pipeline)
+- Sun Belt: Sun Belt, 일반 주거, 점수 58 (Early Signal / Prepare; Prepare GP conversations)
+- Seattle: Seattle, 일반 주거, 점수 54 (Early Signal / Prepare; Prepare GP conversations)
 
 ## 우미 전략 시사점
 

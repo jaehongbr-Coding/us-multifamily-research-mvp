@@ -1,48 +1,48 @@
 # Classification Quality Report
 
-Generated: 2026-10-14 01:37:57
+Generated: 2026-10-15 01:14:24
 
 ## Classification Summary
 
-- Total articles classified: 72
-- Topic distribution: development_pipeline: 18; transaction_market: 14; supply_demand: 11; capital_markets: 10; gp_activity: 6; institutional_capital: 4; macro_financing: 4; other: 4
+- Total articles classified: 79
+- Topic distribution: development_pipeline: 20; transaction_market: 13; capital_markets: 11; supply_demand: 11; gp_activity: 7; institutional_capital: 6; macro_financing: 6; research_data: 3
 - Classification is rule-based and conservative. Low or unknown labels should be treated as review queues, not failures.
 
 ## Topic Distribution
 
-- development_pipeline: 18 article(s), high 2, medium 6, low 10, unknown 0. Top markets: Other / Unknown (9); National (3); Phoenix / Arizona (1); Sun Belt (1); Austin / Texas (1).
-- transaction_market: 14 article(s), high 2, medium 7, low 5, unknown 0. Top markets: Atlanta / Georgia (4); Other / Unknown (3); Austin / Texas (2); Seattle (2); Tampa / Florida (1).
-- supply_demand: 11 article(s), high 0, medium 0, low 11, unknown 0. Top markets: Other / Unknown (6); Miami / Florida (2); National (2); Dallas / Texas (1).
-- capital_markets: 10 article(s), high 3, medium 5, low 2, unknown 0. Top markets: New York City / New York (2); New York (1); Miami / Florida (1); California (1); Florida (1).
-- gp_activity: 6 article(s), high 0, medium 0, low 0, unknown 6. Top markets: Other / Unknown (3); Dallas / Texas (1); National (1); San Francisco / California (1).
-- institutional_capital: 4 article(s), high 0, medium 3, low 1, unknown 0. Top markets: Miami / Florida (1); Riverside / California (1); Other / Unknown (1); Dallas / Texas (1).
-- macro_financing: 4 article(s), high 0, medium 0, low 0, unknown 4. Top markets: Other / Unknown (2); Colorado (1); Tennessee (1).
-- other: 4 article(s), high 0, medium 0, low 0, unknown 4. Top markets: Los Angeles / California (2); Other / Unknown (1); San Francisco / California (1).
-- research_data: 1 article(s), high 0, medium 0, low 0, unknown 1. Top markets: Los Angeles / California (1).
+- development_pipeline: 20 article(s), high 2, medium 7, low 11, unknown 0. Top markets: Other / Unknown (11); National (2); Austin / Texas (1); Washington DC (1); Phoenix / Arizona (1).
+- transaction_market: 13 article(s), high 1, medium 6, low 6, unknown 0. Top markets: Seattle (3); Atlanta / Georgia (3); Other / Unknown (2); California (2); Austin / Texas (1).
+- capital_markets: 11 article(s), high 4, medium 6, low 1, unknown 0. Top markets: Other / Unknown (4); New York City / New York (2); New York (1); Miami / Florida (1); Dallas / Texas (1).
+- supply_demand: 11 article(s), high 0, medium 0, low 11, unknown 0. Top markets: Other / Unknown (6); Miami / Florida (2); National (2); Phoenix / Arizona (1).
+- gp_activity: 7 article(s), high 0, medium 0, low 0, unknown 7. Top markets: Other / Unknown (4); Atlanta / Georgia (1); National (1); New York City / New York (1).
+- institutional_capital: 6 article(s), high 0, medium 3, low 3, unknown 0. Top markets: California (2); Miami / Florida (1); Riverside / California (1); Sun Belt (1); Dallas / Texas (1).
+- macro_financing: 6 article(s), high 0, medium 0, low 1, unknown 5. Top markets: Other / Unknown (2); Los Angeles / California (1); Colorado (1); New York (1); National (1).
+- research_data: 3 article(s), high 0, medium 0, low 0, unknown 3. Top markets: Colorado (1); Los Angeles / California (1); Other / Unknown (1).
+- other: 2 article(s), high 0, medium 0, low 0, unknown 2. Top markets: Los Angeles / California (1); Other / Unknown (1).
 
 ## Low Confidence / Unknown Articles
 
-- In Sun Belt Multifamily, an Uneven Path Back Toward Boom Times (Commercial Observer, Dallas / Texas): Supply/demand terms detected: effective_rent_growth, supply_pressure, oversupply. Primary topic set to supply_demand; confidence low.
+- 2 San Jose Multifamily Towers Change Hands For Combined $380M (Bisnow, California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Institutional activity terms detected: private_equity_activity. Primary topic set to institutional_capital; confidence low.
+- Phoenix Apartment Concessions Are Luring Students Away From Campus Housing (Bisnow, Phoenix / Arizona): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Supply/demand terms detected: concession, oversupply. Primary topic set to supply_demand; confidence low.
+- More Pasadena affordable housing in the works at 1976 E. Colorado Blvd. (Urbanize LA, Colorado): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to research_data; confidence unknown.
+- Affordable housing takes shape at 327 S. Harbor Blvd. in San Pedro (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to macro_financing; confidence unknown.
 - Warner Center development site showing activity at 6160 Variel Ave. (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to research_data; confidence unknown.
 - New look for Westwood housing complex at 11027 W. Strathmore Dr. (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to other; confidence unknown.
 - Affordable housing secures financing at 1756 Colorado Blvd. in Pasadena (Urbanize LA, Colorado): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to macro_financing; confidence unknown.
-- Completion nears for mixed-use project at 10608 Pico Blvd. (Urbanize LA, Other / Unknown): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Development-stage terms detected: delivery. Primary topic set to development_pipeline; confidence low.
 - New look for large apartment complex at 444 N. Fair Oaks Ave. in Pasadena (Urbanize LA, Other / Unknown): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to other; confidence unknown.
+- Rendering vs. Reality: Mixed-use building at 1808 Lincoln Blvd. in Venice (Urbanize LA, Other / Unknown): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to research_data; confidence unknown.
 - Wood framing rising for mixed-use project at 5843 W. Pico Blvd. (Urbanize LA, Other / Unknown): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Development-stage terms detected: under_construction. Primary topic set to development_pipeline; confidence low.
 - JLL Arranges $276M Refi for Newport Beach Seniors Communities (Connect CRE Orange County, California): Capital event keywords detected: refinancing. Primary topic set to capital_markets; confidence low.
 - Development Group Starts Work on 371-Unit Boynton Beach Multifamily Venture (Connect CRE South Florida, Miami / Florida): Supply/demand terms detected: supply_pressure. Primary topic set to supply_demand; confidence low.
+- North County Apartment Duo Trades for $37M (Connect CRE, California): Capital event keywords detected: disposition. Primary topic set to transaction_market; confidence low.
+- RangeWater, NSKRE Break Ground on 274-Unit Apartment Development at Lulah Hills in Decatur, Georgia (REBusiness Online, Atlanta / Georgia): No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
+- Kennedy Wilson Partners with Hulic, Fuyo General Lease on San Jose Apartment Deal (Connect CRE Apartments, California): Capital event keywords detected: joint_venture. Primary topic set to institutional_capital; confidence low.
 - Best Year for Missing Middle Construction Since 2007 (NAHB Eye on Housing - Multifamily, Other / Unknown): Supply/demand terms detected: supply_pressure. Primary topic set to supply_demand; confidence low.
-- Leon Capital Provides Equity for 516-Bed Student Housing Project in Binghamton, New York (REBusiness Online, Dallas / Texas): No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
-- Subtext Opens MXU Residential Property in St. Louis (Connect CRE, Other / Unknown): Development-stage terms detected: delivery. Primary topic set to development_pipeline; confidence low.
+- Rithm Capital Closes Largest RTL Multifamily Securitization to Date (Connect CRE Apartments, New York): No clear rule-based event keyword was detected. Primary topic set to macro_financing; confidence unknown.
 - Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 (NAHB Eye on Housing - Multifamily, Other / Unknown): Development-stage terms detected: delivery. Primary topic set to development_pipeline; confidence low.
-- Duplex Proposed For 4368 23rd Street in Noe Valley, San Francisco (SF YIMBY, San Francisco / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to other; confidence unknown.
+- Affordable Housing Approved At 2120 Euclid Avenue, East Palo Alto (SF YIMBY, Other / Unknown): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Development-stage terms detected: entitlement. Primary topic set to development_pipeline; confidence low.
 - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993 (Connect CRE Orange County, California): Capital event keywords detected: disposition. Primary topic set to transaction_market; confidence low.
-- IPA Closes Transit-Oriented Multifamily Asset Sale in Seattle (Yield PRO, Seattle): Capital event keywords detected: disposition. Primary topic set to transaction_market; confidence low.
-- Multifamily Missing Middle Falls Back (NAHB Eye on Housing - Multifamily, Other / Unknown): No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
-- Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily, Other / Unknown): No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
-- The Bloc is on the block, A peek inside the Colburn Center, and more (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to other; confidence unknown.
-- Aimco Advancing Luxury Edgewater Apartments (Connect CRE Apartments, Miami / Florida): Supply/demand terms detected: effective_rent_growth, occupancy. Primary topic set to supply_demand; confidence low.
-- Additional low/unknown rows omitted: 24
+- Additional low/unknown rows omitted: 30
 
 ## Data Quality Notes
 

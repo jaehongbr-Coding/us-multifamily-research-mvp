@@ -1,40 +1,51 @@
 # Opportunity Deduplication Report
 
-Generated: 2026-10-14 01:38:26
+Generated: 2026-10-15 01:14:54
 
-- Total duplicate clusters: 7
+- Total duplicate clusters: 10
 - Opportunities removed via deduplication: 0
 - Distress inflation prevented: 0
 
 ## Strongest Multi-Source Confirmed Opportunities
 
 - JLL Arranges $276M Refi for Newport Beach Seniors Communities: California, 2 related row(s), opportunity score 94, distress score 80.
-- Kinsmen Property, SK Development to Build 184 Apartments at 50 Third Avenue: New York City / New York, 2 related row(s), opportunity score 88, distress score 67.
-- Walker & Dunlop Arranges $203M Financing for East Village Multifamily: New York, 2 related row(s), opportunity score 85, distress score 64.
-- Walker & Dunlop Arranges $203M in Financing for East Village Mixed-Use Multifamily Property: New York City / New York, 2 related row(s), opportunity score 84, distress score 62.
-- Century City’s Anderson Towers Refinanced for $550M: Los Angeles / California, 2 related row(s), opportunity score 61, distress score 55.
+- Lone Star Funds Scores $110M Refinancing for Two Stafford Rental Communities: Dallas / Texas, 2 related row(s), opportunity score 90, distress score 70.
+- Walker & Dunlop Arranges $203M Construction Loan for Manhattan Multifamily Project: New York City / New York, 2 related row(s), opportunity score 89, distress score 67.
+- Bank OZK Provides $133M Construction Loan for Culver City, Calif., Mixed-Use Project: Other / Unknown, 2 related row(s), opportunity score 88, distress score 67.
+- Northmarq Provides $24.7M Refinancing for Chicago Apartment Community: Other / Unknown, 2 related row(s), opportunity score 88, distress score 67.
+- Northmarq’s Debt + Equity Team Arranges Refinancing of 410-Unit Multifamily Community in Moscow Mills Missouri: Other / Unknown, 2 related row(s), opportunity score 81, distress score 58.
+- AXA Equitable Provides $103M Recapitalization for Midtown’s Ellington Building: New York City / New York, 2 related row(s), opportunity score 61, distress score 61.
+- CrownGuard Capital Provides $15.5M in Financing for Multifamily Repositioning Project in Rochester: Los Angeles / California, 2 related row(s), opportunity score 61, distress score 56.
+- Western New York Affordable Housing Redevelopment Project Opens with 70-Units: New York, 2 related row(s), opportunity score 60, distress score 56.
 - Investor Takes Over Distressed Atlanta Apartment Asset: Atlanta / Georgia, 2 related row(s), opportunity score 57, distress score 58.
-- Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Ground on Multifamily in Yonkers: Other / Unknown, 2 related row(s), opportunity score 55, distress score 48.
 
 ## Repeated Refinancing Stories
 
 - JLL Arranges $276M Refi for Newport Beach Seniors Communities: California, 2 related row(s), opportunity score 94, distress score 80.
-- Century City’s Anderson Towers Refinanced for $550M: Los Angeles / California, 2 related row(s), opportunity score 61, distress score 55.
+- Lone Star Funds Scores $110M Refinancing for Two Stafford Rental Communities: Dallas / Texas, 2 related row(s), opportunity score 90, distress score 70.
+- Northmarq Provides $24.7M Refinancing for Chicago Apartment Community: Other / Unknown, 2 related row(s), opportunity score 88, distress score 67.
+- Northmarq’s Debt + Equity Team Arranges Refinancing of 410-Unit Multifamily Community in Moscow Mills Missouri: Other / Unknown, 2 related row(s), opportunity score 81, distress score 58.
 
 ## Repeated GP Partnership Stories
 
+- 2 San Jose Multifamily Towers Change Hands For Combined $380M: California, 1 related row(s), opportunity score 92, distress score 0.
+- Kennedy Wilson Partners with Hulic, Fuyo General Lease on San Jose Apartment Deal: California, 1 related row(s), opportunity score 92, distress score 0.
 - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: Miami / Florida, 1 related row(s), opportunity score 86, distress score 0.
 - Upland Apartments with Value-Add Potential Trade to Limited Partnership: Riverside / California, 1 related row(s), opportunity score 83, distress score 0.
-- Andrew Eisenberg Promoted to CBRE San Francisco Peninsula Market Leader: San Francisco / California, 1 related row(s), opportunity score 75, distress score 0.
-- IPA Closes Transit-Oriented Multifamily Asset Sale in Seattle: Seattle, 1 related row(s), opportunity score 75, distress score 0.
-- High Street Residential Led Joint Venture Breaks Ground on 435-Unit Class A Multifamily Community in North Dallas: Dallas / Texas, 1 related row(s), opportunity score 73, distress score 0.
-- High Street Converts Dallas Offices into 435-Unit Apartment Community: Dallas / Texas, 1 related row(s), opportunity score 72, distress score 0.
-- Ryan Cos. Opens Multifamily Project at Former Ford Motor Co. Twin Cities Assembly Plant: Other / Unknown, 1 related row(s), opportunity score 55, distress score 0.
+- Wisconsin MF Portfolio Sale, Financing Deal Completed by Berkadia: Other / Unknown, 1 related row(s), opportunity score 80, distress score 0.
+- Marcus & Millichap Arranges $5.53M Sale of Luxury Multifamily Community in Wausau Wisconsin: Other / Unknown, 1 related row(s), opportunity score 79, distress score 0.
+- Marcus & Millichap Brokers $4.3M Sale of Multifamily Property in Washington DC: Washington DC, 1 related row(s), opportunity score 79, distress score 0.
+- Woodfield Development Acquires West Palm Beach Multifamily Community at Auction: West Palm Beach / Florida, 1 related row(s), opportunity score 77, distress score 0.
+- Marcus & Millichap Brokers $2.2M Sale of 22-Unit Multifamily Property in Indianapolis: Other / Unknown, 1 related row(s), opportunity score 76, distress score 0.
+- High Street Converts Dallas Offices into 435-Unit Apartment Community: Dallas / Texas, 1 related row(s), opportunity score 70, distress score 0.
 
 ## California / LA Duplicate Project Tracking
 
 - JLL Arranges $276M Refi for Newport Beach Seniors Communities: California, 2 related row(s), opportunity score 94, distress score 80.
+- 2 San Jose Multifamily Towers Change Hands For Combined $380M: California, 1 related row(s), opportunity score 92, distress score 0.
+- Kennedy Wilson Partners with Hulic, Fuyo General Lease on San Jose Apartment Deal: California, 1 related row(s), opportunity score 92, distress score 0.
 - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: California, 1 related row(s), opportunity score 87, distress score 0.
+- North County Apartment Duo Trades for $37M: California, 1 related row(s), opportunity score 65, distress score 0.
 
 ## Why This Matters
 

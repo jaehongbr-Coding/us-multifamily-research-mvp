@@ -1,37 +1,37 @@
 # GP / Capital Entity Quality Report
 
-Generated: 2026-10-14 01:38:10
+Generated: 2026-10-15 01:14:31
 
 ## Summary
 
-- Total GP/Capital articles: 38
-- Participant not identified: 14
-- Dictionary match: 15
-- Title fallback / headline extraction: 3
-- Low confidence or unresolved: 14
+- Total GP/Capital articles: 41
+- Participant not identified: 11
+- Dictionary match: 21
+- Title fallback / headline extraction: 4
+- Low confidence or unresolved: 11
 
 ## Representative Resolved Samples
 
-- Walker & Dunlop: Kinsmen Property, SK Development to Build 184 Apartments at 50 Third Avenue (dictionary_match, high)
-- Walker & Dunlop: Walker & Dunlop Arranges $203M Financing for East Village Multifamily (dictionary_match, high)
+- Kennedy Wilson: 2 San Jose Multifamily Towers Change Hands For Combined $380M (dictionary_match, high)
+- Bank OZK: Bank OZK Provides $133M Construction Loan for Culver City, Calif., Mixed-Use Project (dictionary_match, high)
+- Richman Group: Affordable housing takes shape at 327 S. Harbor Blvd. in San Pedro (capital_event_sentence, medium)
+- Walker & Dunlop: Walker & Dunlop Arranges $203M Construction Loan for Manhattan Multifamily Project (dictionary_match, high)
+- Fannie Mae: Northmarq Provides $24.7M Refinancing for Chicago Apartment Community (dictionary_match, high)
+- Berkadia: Wisconsin MF Portfolio Sale, Financing Deal Completed by Berkadia (dictionary_match, high)
 - Berkadia: Berkadia Arranges Refis for 3 S. Florida Rental Communities (dictionary_match, high)
 - Berkadia: Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex (dictionary_match, high)
-- Empire Group: Empire Group Starts Work on $288M Tempe Apartment Community (capital_event_sentence, medium)
-- Newport Beach Seniors Communities JLL Capital: JLL Arranges $276M Refi for Newport Beach Seniors Communities (dictionary_match, high)
-- Kiser Group: Kiser Group Brokers Sale of 345-Unit Apartment Community in Blue Island, Illinois (capital_event_sentence, medium)
-- Franklin BSP Realty Trust: ORIX Buys 322-Unit Austin Apartment Community (title_lead_pattern, medium)
-- Hyperion Group: Development Group Starts Work on 371-Unit Boynton Beach Multifamily Venture (capital_event_sentence, medium)
-- Hines: Hines Acquires Luxury Multifamily Rental Community 99 West Paces for $237.8M in Buckhead (dictionary_match, high)
+- Dunlop Capital: Lone Star Funds Scores $110M Refinancing for Two Stafford Rental Communities (dictionary_match, high)
+- Berkadia: Berkadia Arranges Sale of 228-Unit Multifamily Property Near Madison, Wisconsin (dictionary_match, high)
 
 ## Unresolved Examples
 
+- Western New York Affordable Housing Redevelopment Project Opens with 70-Units | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
 - Affordable housing secures financing at 1756 Colorado Blvd. in Pasadena | Urbanize LA | No institution name detected in dictionary, title, summary, or source text.
-- Annex Group Completes $62.9M Affordable Housing Development in Des Moines | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
-- Newmark Arranges $76.2M Financing for Citron at The Packing District an Apartment Property in Orlando | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
-- American Landmark Acquires 292-Unit Apartment Complex in Southeast Houston | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
+- ONE Street Secures $38M for Georgetown Office-to-Condo Conversion | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
+- Townhome Property in Tacoma Sells at Record Price | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
+- North County Apartment Duo Trades for $37M | Connect CRE | No institution name detected in dictionary, title, summary, or source text.
 - Investor Takes Over Distressed Atlanta Apartment Asset | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.
-- BH Properties Affiliate Purchases 346-Unit Leander Multifamily Project | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
-- Problem loans: Tracking the biggest multifamily delinquencies | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.
-- Chozick Realty Negotiates $42M Sale of Apartment Complex in Avon, Connecticut | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
-- Ryan Cos. Opens Multifamily Project at Former Ford Motor Co. Twin Cities Assembly Plant | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
+- BH Properties Affiliate Purchases 346-Unit Leander Multifamily Project | Connect CRE Texas | No institution name detected in dictionary, title, summary, or source text.
 - Passco Offloads Buckhead Rental Asset for $87.5M | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.
+- 2026 NOI & Operations Survey Report | Multifamily Executive | No institution name detected in dictionary, title, summary, or source text.
+- HBGI Q1 2026: Single-Family Construction Slips Across All Geographies | NAHB Eye on Housing - Multifamily | No institution name detected in dictionary, title, summary, or source text.

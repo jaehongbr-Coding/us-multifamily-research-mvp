@@ -1,70 +1,71 @@
 # Development Lifecycle Report
 
-Generated: 2026-10-14 01:38:28
+Generated: 2026-10-15 01:14:57
 
-- Total lifecycle records: 69
+- Total lifecycle records: 81
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 40
-- Site Acquisition / Site Control: 11
-- Delivery / Opening: 7
-- Vertical Construction: 6
-- Refinancing / Recapitalization: 1
-- Entitled / Approved: 1
-- Entitlement Under Review: 1
-- Early Site Signal: 1
+- Unknown Stage: 47
+- Refinancing / Recapitalization: 9
+- Site Acquisition / Site Control: 7
+- Vertical Construction: 5
+- Delivery / Opening: 5
+- Entitlement Under Review: 4
+- Entitled / Approved: 3
 - Distressed / Stalled: 1
 
 ## Top Development Timing Opportunities
 
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization, California, lifecycle_opportunity_score 100.
-- Construction Financing - New York - Walker & Dunlop Arranges $203M Financing for East Village Multifamily: Unknown Stage, New York, lifecycle_opportunity_score 100.
-- Construction Financing - New York City / New York - Kinsmen Property, SK Development to Build 184 Apartments at 50 Third Avenue: Site Acquisition / Site Control, New York City / New York, lifecycle_opportunity_score 100.
-- Kinsmen Property, SK Development to Build 184 Apartments at 50 Third Avenue: Site Acquisition / Site Control, Unknown, lifecycle_opportunity_score 100.
+- Refinancing - Dallas / Texas - Lone Star Funds Scores $110M Refinancing for Two Stafford Rental Communities: Refinancing / Recapitalization, Dallas, lifecycle_opportunity_score 100.
+- Construction Financing - Other / Unknown - Bank OZK Provides $133M Construction Loan for Culver City, Calif., Mixed-Use Project: Refinancing / Recapitalization, Unknown, lifecycle_opportunity_score 100.
+- JV / Partnership - California - Kennedy Wilson Partners with Hulic, Fuyo General Lease on San Jose Apartment Deal: Unknown Stage, California, lifecycle_opportunity_score 100.
+- Walker & Dunlop Arranges $203M Construction Loan for Manhattan Multifamily Project: Refinancing / Recapitalization, Manhattan, lifecycle_opportunity_score 100.
+- JV / Partnership - California - 2 San Jose Multifamily Towers Change Hands For Combined $380M: Unknown Stage, San Jose, lifecycle_opportunity_score 100.
 - JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: Unknown Stage, South Florida, lifecycle_opportunity_score 100.
 - JV / Partnership - Riverside / California - Upland Apartments with Value-Add Potential Trade to Limited Partnership: Site Acquisition / Site Control, Inland Empire, lifecycle_opportunity_score 100.
-- Construction Financing - New York City / New York - Walker & Dunlop Arranges $203M in Financing for East Village Mixed-Use Multifamily Propert...: Unknown Stage, Manhattan, lifecycle_opportunity_score 99.
-- Acquisition - Atlanta / Georgia - Hines Acquires Luxury Multifamily Rental Community 99 West Paces for $237.8M in Buckhead: Unknown Stage, Atlanta, lifecycle_opportunity_score 98.
+- Construction Financing - New York City / New York - Walker & Dunlop Arranges $203M Construction Loan for Manhattan Multifamily Project: Refinancing / Recapitalization, Manhattan, lifecycle_opportunity_score 99.
 - Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Unknown Stage, California, lifecycle_opportunity_score 97.
-- Walker & Dunlop Arranges $203M Financing for East Village Multifamily: Unknown Stage, New York, lifecycle_opportunity_score 96.
 
 ## Top Lifecycle Risks
 
 - Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled, Atlanta, lifecycle_risk_score 74.
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization, California, lifecycle_risk_score 59.
-- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: Unknown Stage, Unknown, lifecycle_risk_score 48.
-- Construction Financing - New York - Walker & Dunlop Arranges $203M Financing for East Village Multifamily: Unknown Stage, New York, lifecycle_risk_score 45.
-- Construction Financing - New York City / New York - Walker & Dunlop Arranges $203M in Financing for East Village Mixed-Use Multifamily Propert...: Unknown Stage, Manhattan, lifecycle_risk_score 44.
-- Refinancing - Los Angeles / California - Century City’s Anderson Towers Refinanced for $550M: Delivery / Opening, Los Angeles, lifecycle_risk_score 39.
-- Walker & Dunlop Arranges $203M Financing for East Village Multifamily: Unknown Stage, New York, lifecycle_risk_score 37.
-- Walker & Dunlop Arranges $203M in Financing for East Village Mixed-Use Multifamily Property: Unknown Stage, Manhattan, lifecycle_risk_score 36.
-- Construction Financing - New York City / New York - Kinsmen Property, SK Development to Build 184 Apartments at 50 Third Avenue: Site Acquisition / Site Control, New York City / New York, lifecycle_risk_score 35.
-- General Project Signal - Colorado - Affordable housing secures financing at 1756 Colorado Blvd. in Pasadena: Unknown Stage, Colorado, lifecycle_risk_score 32.
+- Refinancing - New York City / New York - AXA Equitable Provides $103M Recapitalization for Midtown’s Ellington Building: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 59.
+- Refinancing - Dallas / Texas - Lone Star Funds Scores $110M Refinancing for Two Stafford Rental Communities: Refinancing / Recapitalization, Dallas, lifecycle_risk_score 53.
+- Construction Financing - Los Angeles / California - CrownGuard Capital Provides $15.5M in Financing for Multifamily Repositioning Project in R...: Unknown Stage, Los Angeles, lifecycle_risk_score 53.
+- Construction Financing - Other / Unknown - Bank OZK Provides $133M Construction Loan for Culver City, Calif., Mixed-Use Project: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 52.
+- Construction Financing - New York City / New York - Walker & Dunlop Arranges $203M Construction Loan for Manhattan Multifamily Project: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 52.
+- Refinancing - Other / Unknown - Northmarq Provides $24.7M Refinancing for Chicago Apartment Community: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 52.
+- Refinancing - Other / Unknown - Northmarq’s Debt + Equity Team Arranges Refinancing of 410-Unit Multifamily Community in M...: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 48.
+- JV / Partnership - California - Kennedy Wilson Partners with Hulic, Fuyo General Lease on San Jose Apartment Deal: Unknown Stage, California, lifecycle_risk_score 47.
 
 ## Projects Under Entitlement / Planning
 
+- Affordable Housing Approved At 2120 Euclid Avenue, East Palo Alto: Entitled / Approved, Unknown, lifecycle_opportunity_score 89.
+- Disposition / Exit - Other / Unknown - Marcus & Millichap Arranges $5.53M Sale of Luxury Multifamily Community in Wausau Wisconsi...: Entitlement Under Review, Unknown, lifecycle_opportunity_score 85.
 - Entitlement / Permitting - Los Angeles / California - 101 homes approved at 5034 N. Clydebank Ave. in unincorporated Covina: Entitled / Approved, Los Angeles, lifecycle_opportunity_score 83.
+- Rendering vs. Reality: Mixed-use building at 1808 Lincoln Blvd. in Venice: Entitlement Under Review, Los Angeles, lifecycle_opportunity_score 80.
+- Entitlement / Permitting - Other / Unknown - Rendering vs. Reality: Mixed-use building at 1808 Lincoln Blvd. in Venice: Entitlement Under Review, Unknown, lifecycle_opportunity_score 75.
 - 101 homes approved at 5034 N. Clydebank Ave. in unincorporated Covina: Entitlement Under Review, Los Angeles, lifecycle_opportunity_score 74.
+- Entitlement / Permitting - Other / Unknown - Affordable Housing Approved At 2120 Euclid Avenue, East Palo Alto: Entitled / Approved, Unknown, lifecycle_opportunity_score 73.
 
 ## Construction-Ready / Construction-Start Signals
 
 - Wood framing rising for mixed-use project at 5843 W. Pico Blvd.: Vertical Construction, Los Angeles, lifecycle_opportunity_score 86.
 - Entitlement / Permitting - Other / Unknown - Wood framing rising for mixed-use project at 5843 W. Pico Blvd.: Vertical Construction, Unknown, lifecycle_opportunity_score 81.
-- OHT Partners Announces Groundbreaking on 402-Unit Multifamily Community in Southwest Austin: Vertical Construction, Austin, lifecycle_opportunity_score 81.
+- 310 W Huron Apartment Development in Chicago Tops Out and Reveals Branding and New Renderings: Vertical Construction, Unknown, lifecycle_opportunity_score 76.
 - Development Start - Phoenix / Arizona - Empire Group Starts Work on $288M Tempe Apartment Community: Vertical Construction, Phoenix, lifecycle_opportunity_score 71.
-- Development Start - Austin / Texas - OHT Partners Announces Groundbreaking on 402-Unit Multifamily Community in Southwest Austi...: Vertical Construction, Austin, lifecycle_opportunity_score 66.
 - Development Start - Sun Belt - 5 apartment projects that recently broke ground: Vertical Construction, Sun Belt, lifecycle_opportunity_score 66.
 
 ## Delivery / Lease-Up Signals
 
-- Completion nears for mixed-use project at 10608 Pico Blvd.: Delivery / Opening, Los Angeles, lifecycle_opportunity_score 83.
-- Entitlement / Permitting - Other / Unknown - Completion nears for mixed-use project at 10608 Pico Blvd.: Delivery / Opening, Unknown, lifecycle_opportunity_score 77.
-- General Project Signal - Los Angeles / California - The Bloc is on the block, A peek inside the Colburn Center, and more: Delivery / Opening, Orange County, lifecycle_opportunity_score 75.
-- Refinancing - Los Angeles / California - Century City’s Anderson Towers Refinanced for $550M: Delivery / Opening, Los Angeles, lifecycle_opportunity_score 73.
-- JV / Partnership - Other / Unknown - Ryan Cos. Opens Multifamily Project at Former Ford Motor Co. Twin Cities Assembly Plant: Delivery / Opening, Unknown, lifecycle_opportunity_score 64.
-- General Project Signal - National - Annex Group Completes $62.9M Affordable Housing Development in Des Moines: Delivery / Opening, Unknown, lifecycle_opportunity_score 53.
-- General Project Signal - Other / Unknown - WinnCompanies, Arch Communities Complete Riverfront Braintree Apartments: Delivery / Opening, Unknown, lifecycle_opportunity_score 49.
+- Woodfield Development Acquires West Palm Beach Multifamily Community at Auction: Delivery / Opening, Los Angeles, lifecycle_opportunity_score 85.
+- Disposition / Exit - West Palm Beach / Florida - Woodfield Development Acquires West Palm Beach Multifamily Community at Auction: Delivery / Opening, Georgia, lifecycle_opportunity_score 84.
+- Affordable housing takes shape at 327 S. Harbor Blvd. in San Pedro: Delivery / Opening, Los Angeles, lifecycle_opportunity_score 83.
+- Disposition / Exit - Other / Unknown - Wisconsin MF Portfolio Sale, Financing Deal Completed by Berkadia: Delivery / Opening, Unknown, lifecycle_opportunity_score 79.
+- Construction Financing - New York - Western New York Affordable Housing Redevelopment Project Opens with 70-Units: Delivery / Opening, New York, lifecycle_opportunity_score 72.
 
 ## Distressed / Stalled Lifecycle Signals
 
@@ -73,6 +74,14 @@ Generated: 2026-10-14 01:38:28
 ## Refinancing / Recapitalization Lifecycle Signals
 
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization, California, lifecycle_risk_score 59.
+- Refinancing - New York City / New York - AXA Equitable Provides $103M Recapitalization for Midtown’s Ellington Building: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 59.
+- Refinancing - Dallas / Texas - Lone Star Funds Scores $110M Refinancing for Two Stafford Rental Communities: Refinancing / Recapitalization, Dallas, lifecycle_risk_score 53.
+- Construction Financing - Other / Unknown - Bank OZK Provides $133M Construction Loan for Culver City, Calif., Mixed-Use Project: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 52.
+- Construction Financing - New York City / New York - Walker & Dunlop Arranges $203M Construction Loan for Manhattan Multifamily Project: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 52.
+- Refinancing - Other / Unknown - Northmarq Provides $24.7M Refinancing for Chicago Apartment Community: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 52.
+- Refinancing - Other / Unknown - Northmarq’s Debt + Equity Team Arranges Refinancing of 410-Unit Multifamily Community in M...: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 48.
+- Walker & Dunlop Arranges $203M Construction Loan for Manhattan Multifamily Project: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 44.
+- Bank OZK Provides $133M Construction Loan for Culver City, Calif., Mixed-Use Project: Refinancing / Recapitalization, Culver City, lifecycle_risk_score 44.
 
 ## Implications for Woomi / Woomi Global
 
@@ -82,20 +91,20 @@ Generated: 2026-10-14 01:38:28
 ## Recommended Lifecycle Follow-up Actions
 
 - Track lender, maturity, debt terms, and recapitalization need: Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities.
-- Monitor lifecycle signal for repeated confirmation: Construction Financing - New York - Walker & Dunlop Arranges $203M Financing for East Village Multifamily.
-- Monitor lifecycle signal for repeated confirmation: Construction Financing - New York City / New York - Kinsmen Property, SK Development to Build 184 Apartments at 50 Third Avenue.
-- Monitor lifecycle signal for repeated confirmation: Kinsmen Property, SK Development to Build 184 Apartments at 50 Third Avenue.
+- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Dallas / Texas - Lone Star Funds Scores $110M Refinancing for Two Stafford Rental Communities.
+- Track lender, maturity, debt terms, and recapitalization need: Construction Financing - Other / Unknown - Bank OZK Provides $133M Construction Loan for Culver City, Calif., Mixed-Use Project.
+- Monitor lifecycle signal for repeated confirmation: JV / Partnership - California - Kennedy Wilson Partners with Hulic, Fuyo General Lease on San Jose Apartment Deal.
+- Track lender, maturity, debt terms, and recapitalization need: Walker & Dunlop Arranges $203M Construction Loan for Manhattan Multifamily Project.
+- Monitor lifecycle signal for repeated confirmation: JV / Partnership - California - 2 San Jose Multifamily Towers Change Hands For Combined $380M.
 - Monitor lifecycle signal for repeated confirmation: JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex.
 - Monitor lifecycle signal for repeated confirmation: JV / Partnership - Riverside / California - Upland Apartments with Value-Add Potential Trade to Limited Partnership.
-- Monitor lifecycle signal for repeated confirmation: Construction Financing - New York City / New York - Walker & Dunlop Arranges $203M in Financing for East Village Mixed-Use Multifamily Propert....
-- Monitor lifecycle signal for repeated confirmation: Acquisition - Atlanta / Georgia - Hines Acquires Luxury Multifamily Rental Community 99 West Paces for $237.8M in Buckhead.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 69
-- Newly detected projects: 38
+- Lifecycle transitions analyzed: 81
+- Newly detected projects: 48
 - Forward progression projects: 0
 - Possible stalled projects: 1
 - LA lifecycle transition watch items: 38
@@ -106,10 +115,10 @@ Generated: 2026-10-14 01:38:28
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 564
-- Canonical projects: 143
-- Duplicate project clusters: 89
-- Persistent assets tracked: 143
+- Raw project references: 627
+- Canonical projects: 164
+- Duplicate project clusters: 103
+- Persistent assets tracked: 164
 - LA persistent asset watch items: 94
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
@@ -118,10 +127,10 @@ Generated: 2026-10-14 01:38:28
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 143
-- Institutional-grade signals: 13
-- High-confidence signals: 32
-- Weak/noisy signals: 95
-- High-confidence watchlist items: 32
+- Signals evaluated: 164
+- Institutional-grade signals: 18
+- High-confidence signals: 41
+- Weak/noisy signals: 98
+- High-confidence watchlist items: 41
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

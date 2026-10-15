@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-10-14 01:38:28
+Generated: 2026-10-15 01:14:57
 
-- Total raw project references: 564
-- Total canonical projects: 143
-- Duplicate project clusters: 89
-- High-confidence project identities: 564
+- Total raw project references: 627
+- Total canonical projects: 164
+- Duplicate project clusters: 103
+- High-confidence project identities: 627
 - Low-confidence identities needing review: 0
-- LA / California project references: 349
+- LA / California project references: 342
 
 ## Top Repeated Projects
 
-- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: 52 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: 52 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: 52 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: 52 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: 52 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: 52 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: 52 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: 52 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: 52 occurrence(s), confidence 80.
-- Construction Financing - Other / Unknown - Saber-Hightower with Rafferty Real Estate and Eagle Realty Group Joint Venture Breaks Grou...: 52 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 39 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 39 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 39 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 39 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 39 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 39 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 39 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 39 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 39 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 39 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

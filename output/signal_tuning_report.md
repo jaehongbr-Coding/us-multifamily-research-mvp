@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-10-14 01:37:57
+Generated: 2026-10-15 01:14:24
 
 ## Top Strategic Relevance Articles
 
-- 86 / richness 75: Ryan Cos. Opens Multifamily Project at Former Ford Motor Co. Twin Cities Assembly Plant (REBusiness Online, Other / Unknown) - JV or partnership activity; development continuation
+- 86 / richness 85: Portsmouth, Marcus Purchase 326-Unit Multifamily Community in Raleigh (REBusiness Online, Sun Belt) - JV or partnership activity; institutional acquisition behavior
+- 82 / richness 85: AXA Equitable Provides $103M Recapitalization for Midtown’s Ellington Building (Commercial Observer, New York City / New York) - JV or partnership activity; large-scale refinance tied to strategy
+- 81 / richness 70: Northmarq’s Debt + Equity Team Arranges Refinancing of 410-Unit Multifamily Community in Moscow Mills Missouri (Yield PRO, Other / Unknown) - platform or fund activity; large-scale refinance tied to strategy
 - 80 / richness 85: Berkadia Arranges Refis for 3 S. Florida Rental Communities (Connect CRE South Florida, Miami / Florida) - institutional acquisition behavior; large-scale refinance tied to strategy
 - 76 / richness 100: Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex (Connect CRE South Florida, Miami / Florida) - JV or partnership activity
+- 74 / richness 100: Woodfield Development Acquires West Palm Beach Multifamily Community at Auction (Yield PRO, West Palm Beach / Florida) - institutional acquisition behavior
+- 73 / richness 90: Western New York Affordable Housing Redevelopment Project Opens with 70-Units (Yield PRO, New York) - development continuation
 - 73 / richness 90: Upland Apartments with Value-Add Potential Trade to Limited Partnership (Connect CRE California, Riverside / California) - JV or partnership activity
-- 72 / richness 85: Kinsmen Property, SK Development to Build 184 Apartments at 50 Third Avenue (Commercial Observer, New York City / New York) - JV or partnership activity
-- 72 / richness 85: Walker & Dunlop Arranges $203M in Financing for East Village Mixed-Use Multifamily Property (Yield PRO, New York City / New York) - JV or partnership activity
-- 72 / richness 60: BH Properties Affiliate Purchases 346-Unit Leander Multifamily Project (Connect CRE Apartments, Austin / Texas) - platform or fund activity; institutional acquisition behavior; classification confidence penalty
-- 70 / richness 85: ORIX Buys 322-Unit Austin Apartment Community (Connect CRE Texas, Austin / Texas) - institutional acquisition behavior
-- 70 / richness 85: American Landmark Acquires 292-Unit Apartment Complex in Southeast Houston (REBusiness Online, Tampa / Florida) - institutional acquisition behavior
-- 70 / richness 85: Hines Acquires Luxury Multifamily Rental Community 99 West Paces for $237.8M in Buckhead (Yield PRO, Atlanta / Georgia) - institutional acquisition behavior
+- 72 / richness 85: Walker & Dunlop Arranges $203M Construction Loan for Manhattan Multifamily Project (REBusiness Online, New York City / New York) - JV or partnership activity
+- 72 / richness 60: BH Properties Affiliate Purchases 346-Unit Leander Multifamily Project (Connect CRE Texas, Austin / Texas) - platform or fund activity; institutional acquisition behavior; classification confidence penalty
 
 ## Low Quality Evidence Candidates
 
@@ -35,12 +35,13 @@ Generated: 2026-10-14 01:37:57
 
 ## Potential Parsing Integrity Issues
 
+- suspicious_duplicate: Affordable housing takes shape at 327 S. Harbor Blvd. in San Pedro (Urbanize LA) - source-feed signal bleed suspected
 - low_value_promotional: AI, Automation & the Future of Multifamily Finance (Multifamily Executive) - promotional/event keyword: webinar
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 21
-- Development / sponsor behavior articles: 40
+- Financing-oriented articles: 26
+- Development / sponsor behavior articles: 45
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

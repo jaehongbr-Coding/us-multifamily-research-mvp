@@ -1,21 +1,20 @@
 # Routing Balance Report
 
 - Market Intelligence count: 14
-- Development Activity count: 62
-- GP / Capital Activity count: 2
+- Development Activity count: 57
+- GP / Capital Activity count: 4
 - Excluded count: 1
-- Rent/Demand candidate count: 5
-- Project anchor article count: 59
-- Development-excluded transaction article count: 2
+- Rent/Demand candidate count: 4
+- Project anchor article count: 54
+- Development-excluded transaction article count: 4
 - Low-value promotional excluded count: 1
-- Site / Parcel positive candidates count: 3
-- Site / Parcel excluded transaction count: 0
+- Site / Parcel positive candidates count: 2
+- Site / Parcel excluded transaction count: 1
 - Source missing count: 0
 - Market missing count: 0
-- Stage missing count: 54
+- Stage missing count: 60
 
 ## Rent/Demand Titles
-- Phoenix Apartment Concessions Are Luring Students Away From Campus Housing
 - Multifamily Absorption Rate Remains Below 50%
 - Rent Prices Continue to Rise, While Absorption Remains Low
 - Multifamily Developer Confidence Weakens in Second Quarter
@@ -27,19 +26,18 @@
 ## Site / Parcel Included Examples
 - Warner Center development site showing activity at 6160 Variel Ave. | Development Activity | site/parcel signal with project anchor: development site
 - Rendering vs. Reality: Mixed-use building at 1808 Lincoln Blvd. in Venice | Development Activity | site/parcel signal with project anchor: former site
-- Marcus & Millichap Arranges $5.53M Sale of Luxury Multifamily Community in Wausau Wisconsin | Development Activity | site/parcel signal with project anchor: development site
 
 ## Site / Parcel Excluded Transaction Examples
-- None
+- Hillpointe Building 358-Unit Reno Rental Community | Development Activity | operating-asset transaction guard
 
 ## Sample Validation
-- Kidder Mathews Arranges Sale of 45-Unit Suncrest Apartments in Walla Walla Washington for $4.3M | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 45-unit; address/street: 1800 evergreen street; project/asset term: community)
-- Western New York Affordable Housing Redevelopment Project Opens with 70-Units | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 70-units; execution milestone: opens; project/asset term: project; project financing tied to anchor: construction loan)
-- 2 San Jose Multifamily Towers Change Hands For Combined $380M | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 039-bed)
-- Phoenix Apartment Concessions Are Luring Students Away From Campus Housing | Development Activity | rent_demand=Yes | development_project_anchor: Project / Asset (project/asset term: apartments)
-- Bank OZK Provides $133M Construction Loan for Culver City, Calif., Mixed-Use Project | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 344 apartments; address/street: 11111 jefferson boulevard; project/asset term: project; project financing tied to anchor: construction loan)
+- Marcus & Millichap Facilitates Sale of Two-Property Multifamily Distressed Portfolio in Dallas | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 229 units; project/asset term: apartments)
+- JLL Arranges $463M Bridge Financing for 8-Property Multifamily Portfolio | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 380 units)
+- JLL Closes Sale of Retail and Multifamily Portfolio in Dallas’ Bishop Arts District | GP / Capital Activity | rent_demand=No | transaction or financing article excluded from Development Activity
+- BridgeCity Lends $84M on Midtown East Office-to-Resi Conversion | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (address/street: 136 east 57th street; project/asset term: apartments; project financing tied to anchor: construction financing)
+- Colorado Federal Bank Lends $23M for Brooklyn Apartments at Former Event Space | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (address/street: 144 greenpoint avenue; project/asset term: development; project financing tied to anchor: construction financing)
+- Culver City Mixed-Use Secures $133M Bank OZK Loan | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (project/asset term: development; project financing tied to anchor: construction financing)
+- Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City | Development Activity | rent_demand=No | development_project_anchor: Project / Asset (address/street: 11111 jefferson blvd; project/asset term: project)
+- Southwest Valley Community Plans take a step forward | Article Feed | rent_demand=No | no stronger section-specific signal detected
+- Jamison flips to affordable housing at 679 S. Harvard Blvd. in Koreatown | Development Activity | rent_demand=No | development_project_anchor: Project / Asset (address/street: 679 s. harvard blvd; project/asset term: project; named asset/project hint: harvard blvd)
 - More Pasadena affordable housing in the works at 1976 E. Colorado Blvd. | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 1976 e. colorado blvd; site/parcel signal: site; project/asset term: development)
-- Affordable housing takes shape at 327 S. Harbor Blvd. in San Pedro | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (address/street: 327 s. harbor blvd; execution milestone: delivered; project/asset term: project)
-- Warner Center development site showing activity at 6160 Variel Ave. | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (unit/site count: 263 apartments; address/street: 6160 variel ave; execution milestone: to build; site/parcel signal: site; project/asset term: development)
-- New look for Westwood housing complex at 11027 W. Strathmore Dr. | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 11027 w. strathmore dr; execution milestone: proposed; project/asset term: project)
-- Affordable housing secures financing at 1756 Colorado Blvd. in Pasadena | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (address/street: 1756 colorado blvd; project/asset term: development)

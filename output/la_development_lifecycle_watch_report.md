@@ -1,19 +1,19 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-10-15 01:14:57
+Generated: 2026-10-16 01:02:12
 
-- Total LA lifecycle watch items: 40
+- Total LA lifecycle watch items: 55
 
 ## LA Lifecycle Stage Distribution
 
-- Unknown Stage: 22
-- Site Acquisition / Site Control: 6
-- Refinancing / Recapitalization: 4
-- Vertical Construction: 2
+- Unknown Stage: 27
+- Site Acquisition / Site Control: 12
+- Refinancing / Recapitalization: 8
+- Distressed / Stalled: 2
 - Delivery / Opening: 2
-- Entitlement Under Review: 2
-- Entitled / Approved: 1
-- Distressed / Stalled: 1
+- Vertical Construction: 2
+- Entitlement Under Review: 1
+- Early Site Signal: 1
 
 ## Koreatown / Wilshire Lifecycle Watch
 
@@ -29,7 +29,6 @@ Generated: 2026-10-15 01:14:57
 
 ## Pasadena Lifecycle Watch
 
-- General Project Signal - Colorado - Affordable housing secures financing at 1756 Colorado Blvd. in Pasadena: Unknown Stage, Monitor only, opportunity 75.
 - Entitlement / Permitting - Colorado - More Pasadena affordable housing in the works at 1976 E. Colorado Blvd.: Unknown Stage, Monitor only, opportunity 72.
 
 ## Long Beach Lifecycle Watch
@@ -46,6 +45,7 @@ Generated: 2026-10-15 01:14:57
 
 ## Stalled / Distressed LA Project Watch
 
+- Disposition / Exit - Dallas / Texas - Marcus & Millichap Facilitates Sale of Two-Property Multifamily Distressed Portfolio in Da...: Distressed / Stalled, Monitor stalled project opportunity, opportunity 100.
 - Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled, Monitor stalled project opportunity, opportunity 58.
 
 ## Construction-Ready LA Project Watch
@@ -55,24 +55,24 @@ Generated: 2026-10-15 01:14:57
 
 ## Recommended LA Lifecycle Follow-up Actions
 
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Disposition / Exit - Dallas / Texas - Marcus & Millichap Facilitates Sale of Two-Property Multifamily Distressed Portfolio in Da....
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Construction Financing - California - Lincoln Property Co., McCourt Partners Receive $132.7M Construction Loan for Culver City M....
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Office-to-Residential Conversion - California - JLL Arranges $210M Refinancing for Grand Hyatt Indian Wells Resort & Villas in California.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Construction Financing - California - Lincoln Property Company Secures $132.7M Construction Loan for Culver City California Mixe....
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Dallas / Texas - Lone Star Funds Scores $110M Refinancing for Two Stafford Rental Communities.
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Construction Financing - Other / Unknown - Bank OZK Provides $133M Construction Loan for Culver City, Calif., Mixed-Use Project.
-- Monitor lifecycle status for repeated confirmation: JV / Partnership - California - Kennedy Wilson Partners with Hulic, Fuyo General Lease on San Jose Apartment Deal.
-- Monitor lifecycle status for repeated confirmation: JV / Partnership - California - 2 San Jose Multifamily Towers Change Hands For Combined $380M.
-- Monitor lifecycle status for repeated confirmation: JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex.
-- Monitor lifecycle status for repeated confirmation: JV / Partnership - Riverside / California - Upland Apartments with Value-Add Potential Trade to Limited Partnership.
-- Monitor lifecycle status for repeated confirmation: Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Lincoln Property Company Secures $132.7M Construction Loan for Culver City California Mixed-Use Development.
+- Monitor lifecycle status for repeated confirmation: Construction Financing - Los Angeles / California - Culver City Mixed-Use Secures $133M Bank OZK Loan.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 81
-- Newly detected projects: 48
+- Lifecycle transitions analyzed: 79
+- Newly detected projects: 44
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 38
+- LA lifecycle transition watch items: 53
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -80,10 +80,10 @@ Generated: 2026-10-15 01:14:57
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 627
-- Canonical projects: 164
-- Duplicate project clusters: 103
-- Persistent assets tracked: 164
-- LA persistent asset watch items: 94
+- Raw project references: 661
+- Canonical projects: 152
+- Duplicate project clusters: 99
+- Persistent assets tracked: 152
+- LA persistent asset watch items: 110
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

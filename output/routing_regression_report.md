@@ -3,9 +3,9 @@
 ## Project-First Routing Summary
 
 - Market Intelligence count: 14
-- Development Activity count: 62
-- GP / Capital Activity count: 2
-- Project anchor article count: 59
+- Development Activity count: 57
+- GP / Capital Activity count: 4
+- Project anchor article count: 54
 
 ## Regression Samples
 

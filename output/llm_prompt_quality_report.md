@@ -1,32 +1,32 @@
 # LLM Prompt Quality Report
 
-Generated: 2026-10-15 01:14:30
+Generated: 2026-10-16 01:01:41
 
-- Total prompts reviewed: 50
-- Average prompt quality score: 91.0
-- Excellent prompts: 35
-- Good prompts: 15
+- Total prompts reviewed: 46
+- Average prompt quality score: 92.1
+- Excellent prompts: 36
+- Good prompts: 10
 - Needs Improvement prompts: 0
 - Poor prompts: 0
 
 ## Top 5 Strongest Prompts
 
-- 98 (Excellent): AXA Equitable Provides $103M Recapitalization for Midtown’s Ellington Building
-- 98 (Excellent): Woodfield Development Acquires West Palm Beach Multifamily Community at Auction
-- 98 (Excellent): CBRE Arranges Acquisition Loan for Fort Greene Mixed-Use
-- 98 (Excellent): Cadence Real Estate Advisors Buys 132-Unit Apartment Property in Seattle
-- 98 (Excellent): Western New York Affordable Housing Redevelopment Project Opens with 70-Units
+- 98 (Excellent): Joint Venture Acquires 1,035-Bed Student Housing Property Near San Jose State University for $204.7M
+- 98 (Excellent): IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield
+- 98 (Excellent): ESJ Inks Acquisition Loan for 144-Unit Kannapolis Rental Asset
+- 98 (Excellent): Eastham Capital, Bender Cos. Buy 198-Unit Multifamily Property in Metro Twin Cities
+- 98 (Excellent): Walker & Dunlop Arranges $110M Refinancing of Two Apartment Communities in Stafford, Texas
 
 ## Top 5 Weakest Prompts
 
-- 74 (Good): Northmarq’s Debt + Equity Team Arranges Refinancing of 410-Unit Multifamily Community in Moscow Mills Missouri - Missing: missing extracted numbers; missing market focus; missing market signal
-- 74 (Good): Wisconsin MF Portfolio Sale, Financing Deal Completed by Berkadia - Missing: missing extracted numbers; missing market focus; missing market signal
-- 74 (Good): Berkadia Arranges Sale of 228-Unit Multifamily Property Near Madison, Wisconsin - Missing: missing extracted numbers; missing market focus; missing market signal
-- 74 (Good): Final Environmental Report Published For Tanforan Mall Redevelopment, San Bruno - Missing: missing extracted numbers; missing market focus; missing market signal
-- 82 (Good): Portsmouth, Marcus Purchase 326-Unit Multifamily Community in Raleigh - Missing: missing extracted numbers; missing market signal
+- 74 (Good): Joint Venture Buys 78-Unit Seniors Housing Complex in Metro Philadelphia - Missing: missing extracted numbers; missing market focus; missing market signal
+- 74 (Good): Hunt Midwest Breaks Ground on 227-Unit Luxury Apartment Complex in Overland Park, Kansas - Missing: missing extracted numbers; missing market focus; missing market signal
+- 82 (Good): Hines Acquires Bishop Arts Multifamily, Retail Portfolio - Missing: missing extracted numbers; missing market signal
+- 82 (Good): JLL Closes Sale of Retail and Multifamily Portfolio in Dallas’ Bishop Arts District - Missing: missing extracted numbers; missing market signal
+- 82 (Good): More Pasadena affordable housing in the works at 1976 E. Colorado Blvd. - Missing: missing extracted numbers; missing market signal
 
 ## Common Missing Context Issues
 
-- missing market signal: 18
-- missing extracted numbers: 13
-- missing market focus: 13
+- missing market signal: 15
+- missing market focus: 10
+- missing extracted numbers: 9

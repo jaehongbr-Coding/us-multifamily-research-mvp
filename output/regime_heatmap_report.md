@@ -1,31 +1,31 @@
 # Regime Heatmap Report
 
-Generated: 2026-10-15 01:14:30
+Generated: 2026-10-16 01:01:41
 
 Scores are calibrated with capped weighted components, so final_score is less likely to saturate at 100 unless the supporting signals are very strong.
 
 - Top regime by final_score: Selective Capital Re-entry (89)
-- Second regime by final_score: Supply Pressure (79)
+- Second regime by final_score: Financing Stress (75)
 
 ## Full Regime Score Table
 
 | Regime | Raw Score | Normalized Score | Final Score | Strength | Supporting Signals |
 | --- | ---: | ---: | ---: | --- | --- |
-| Selective Capital Re-entry | 134 | 89 | 89 | Very Strong | Institutional Flow articles: 24; Deal Size Signal articles: 12; Institutional player mentions: 10 |
-| Supply Pressure | 119 | 79 | 79 | Strong | Supply Pressure articles: 4; Supply/vacancy/concession signals: 10; Supply matched-keyword articles: 4 |
-| Financing Stress | 112 | 75 | 75 | Strong | Financing Risk articles: 23; Financing/cap-rate market signals: 2; Financing matched-keyword articles: 16 |
-| Policy / Entitlement Watch | 100 | 67 | 67 | Strong | Regulation Risk articles: 5; Policy matched-keyword articles: 6; California / Los Angeles focus count: 5 |
-| Developer Strategy Shift | 88 | 59 | 59 | Moderate | Developer Strategy articles: 30; Developer matched-keyword articles: 9; Must Read articles: 38 |
+| Selective Capital Re-entry | 134 | 89 | 89 | Very Strong | Institutional Flow articles: 23; Deal Size Signal articles: 11; Institutional player mentions: 14 |
+| Financing Stress | 112 | 75 | 75 | Strong | Financing Risk articles: 18; Financing/cap-rate market signals: 2; Financing matched-keyword articles: 15 |
+| Policy / Entitlement Watch | 100 | 67 | 67 | Strong | Regulation Risk articles: 5; Policy matched-keyword articles: 6; California / Los Angeles focus count: 11 |
+| Developer Strategy Shift | 88 | 59 | 59 | Moderate | Developer Strategy articles: 29; Developer matched-keyword articles: 12; Must Read articles: 35 |
+| Supply Pressure | 61 | 41 | 41 | Moderate | Supply Pressure articles: 1; Supply/vacancy/concession signals: 7; Supply matched-keyword articles: 1 |
 | Construction Cost Pressure | 0 | 0 | 0 | Not Detected | Cost Control articles: 0; Construction Cost Signal articles: 0; Cost matched-keyword articles: 0 |
-| Stable Monitoring Environment | 0 | 0 | 0 | Not Detected | Highest active regime score before stable adjustment: 134; Monitor articles: 2 |
+| Stable Monitoring Environment | 0 | 0 | 0 | Not Detected | Highest active regime score before stable adjustment: 134; Monitor articles: 1 |
 
 ## Regime Interpretations
 
 - Selective Capital Re-entry (Very Strong): Institutional flow, deal-size, or major-player activity suggests capital-market re-engagement.
-- Supply Pressure (Strong): Supply, starts, deliveries, lease-up, vacancy, or concession signals are visible.
 - Financing Stress (Strong): Debt, rates, refinancing, or cap-rate pressure is visible enough to affect underwriting attention.
 - Policy / Entitlement Watch (Strong): Policy, zoning, permitting, entitlement, rent-control, or housing-production signals require monitoring.
 - Developer Strategy Shift (Moderate): Developer behavior, product strategy, adaptive reuse, BTR, modular, or operating-model signals are visible.
+- Supply Pressure (Moderate): Supply, starts, deliveries, lease-up, vacancy, or concession signals are visible.
 - Construction Cost Pressure (Not Detected): Construction Cost Pressure is not a meaningful signal in this run.
 - Stable Monitoring Environment (Not Detected): Stable Monitoring Environment is not a meaningful signal in this run.
 
@@ -33,5 +33,4 @@ Scores are calibrated with capped weighted components, so final_score is less li
 
 - Financing Stress is strong, so use conservative underwriting and tighter debt-sensitivity assumptions.
 - Selective Capital Re-entry is strong, so track pricing discovery, GP partners, and institutional capital counterparties.
-- Supply Pressure is strong, so monitor lease-up, vacancy, concessions, starts, and delivery timing.
 - Policy / Entitlement Watch is strong, so keep LA / California entitlement, zoning, and permitting changes on the agenda.

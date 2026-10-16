@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-10-15 01:14:24
+Generated: 2026-10-16 01:01:33
 
 ## Top Strategic Relevance Articles
 
-- 86 / richness 85: Portsmouth, Marcus Purchase 326-Unit Multifamily Community in Raleigh (REBusiness Online, Sun Belt) - JV or partnership activity; institutional acquisition behavior
-- 82 / richness 85: AXA Equitable Provides $103M Recapitalization for Midtown’s Ellington Building (Commercial Observer, New York City / New York) - JV or partnership activity; large-scale refinance tied to strategy
-- 81 / richness 70: Northmarq’s Debt + Equity Team Arranges Refinancing of 410-Unit Multifamily Community in Moscow Mills Missouri (Yield PRO, Other / Unknown) - platform or fund activity; large-scale refinance tied to strategy
+- 86 / richness 85: Joint Venture Acquires 1,035-Bed Student Housing Property Near San Jose State University for $204.7M (REBusiness Online, California) - JV or partnership activity; institutional acquisition behavior
+- 83 / richness 70: Joint Venture Buys 78-Unit Seniors Housing Complex in Metro Philadelphia (REBusiness Online, Other / Unknown) - JV or partnership activity; institutional acquisition behavior
 - 80 / richness 85: Berkadia Arranges Refis for 3 S. Florida Rental Communities (Connect CRE South Florida, Miami / Florida) - institutional acquisition behavior; large-scale refinance tied to strategy
 - 76 / richness 100: Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex (Connect CRE South Florida, Miami / Florida) - JV or partnership activity
-- 74 / richness 100: Woodfield Development Acquires West Palm Beach Multifamily Community at Auction (Yield PRO, West Palm Beach / Florida) - institutional acquisition behavior
-- 73 / richness 90: Western New York Affordable Housing Redevelopment Project Opens with 70-Units (Yield PRO, New York) - development continuation
-- 73 / richness 90: Upland Apartments with Value-Add Potential Trade to Limited Partnership (Connect CRE California, Riverside / California) - JV or partnership activity
-- 72 / richness 85: Walker & Dunlop Arranges $203M Construction Loan for Manhattan Multifamily Project (REBusiness Online, New York City / New York) - JV or partnership activity
-- 72 / richness 60: BH Properties Affiliate Purchases 346-Unit Leander Multifamily Project (Connect CRE Texas, Austin / Texas) - platform or fund activity; institutional acquisition behavior; classification confidence penalty
+- 72 / richness 85: IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield (Connect CRE California, California) - JV or partnership activity
+- 70 / richness 85: BridgeCity Lends $84M on Midtown East Office-to-Resi Conversion (Commercial Observer, Other / Unknown) - institutional acquisition behavior
+- 70 / richness 85: ESJ Inks Acquisition Loan for 144-Unit Kannapolis Rental Asset (Connect CRE Apartments, Atlanta / Georgia) - institutional acquisition behavior
+- 68 / richness 75: JLL Arranges $463M Bridge Financing for 8-Property Multifamily Portfolio (Yield PRO, Georgia) - institutional acquisition behavior
+- 68 / richness 75: JLL Arranges $276M Refi for Newport Beach Seniors Communities (Connect CRE Orange County, California) - institutional acquisition behavior; large-scale refinance tied to strategy; classification confidence penalty
+- 68 / richness 75: Hines Pays $237.8M for Buckhead Rental Community (Connect CRE Atlanta, Atlanta / Georgia) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -40,8 +40,8 @@ Generated: 2026-10-15 01:14:24
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 26
-- Development / sponsor behavior articles: 45
+- Financing-oriented articles: 22
+- Development / sponsor behavior articles: 38
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

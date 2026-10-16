@@ -1,7 +1,7 @@
 ﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
-20261015-011424-a5f3cc00,2026-10-15,Construction financing still selective,Weakening,weakening,170,8,31,3.61,2.84,4,4,3,2,New York,Moderate Signal,Construction financing still selective visibility is weakening versus prior runs.,
-20261015-011424-a5f3cc00,2026-10-15,Institutional recap over expansion,Building,stable,58,8,31,3.94,3.1,5,5,5,3,Dallas / Texas,Broadly Confirmed,steady visibility,
-20261015-011424-a5f3cc00,2026-10-15,JV / partnership activity observed,Building,accelerating,170,8,31,4.39,3.19,10,10,8,2,California,Broadly Confirmed,JV / partnership activity observed signal is accelerating versus prior runs.,
-20261015-011424-a5f3cc00,2026-10-15,LA entitlement precedent accumulation,Peaking,stable,170,8,31,7.23,3.13,8,8,2,0,Los Angeles / California,Source-Concentrated,"Signal visibility remains elevated, but confirmation breadth is narrowing.",
-20261015-011424-a5f3cc00,2026-10-15,Refinancing pressure unresolved,Persistent,stable,58,8,31,4.68,3.42,5,5,5,3,Dallas / Texas,Broadly Confirmed,steady visibility,
-20261015-011424-a5f3cc00,2026-10-15,Sun Belt lease-up pressure watch,Persistent,stable,170,8,31,2.87,2.61,4,4,3,1,Phoenix / Arizona,Moderate Signal,steady visibility,
+20261016-010133-11690985,2026-10-16,Construction financing still selective,Building,stable,171,8,31,3.65,2.84,7,7,4,4,California,Broadly Confirmed,steady visibility,
+20261016-010133-11690985,2026-10-16,Institutional recap over expansion,Building,weakening,59,8,31,3.97,3.1,4,4,3,2,California,Moderate Signal,Institutional recap over expansion visibility is weakening versus prior runs.,
+20261016-010133-11690985,2026-10-16,JV / partnership activity observed,Weakening,weakening,171,8,31,4.48,3.23,7,7,4,1,California,Broadly Confirmed,JV / partnership activity observed visibility is weakening versus prior runs.,
+20261016-010133-11690985,2026-10-16,LA entitlement precedent accumulation,Peaking,stable,171,8,31,7.29,3.1,8,8,2,0,Los Angeles / California,Source-Concentrated,"Signal visibility remains elevated, but confirmation breadth is narrowing.",
+20261016-010133-11690985,2026-10-16,Refinancing pressure unresolved,Building,weakening,59,8,31,4.65,3.39,4,4,3,2,California,Moderate Signal,Refinancing pressure unresolved visibility is weakening versus prior runs.,
+20261016-010133-11690985,2026-10-16,Sun Belt lease-up pressure watch,Weakening,weakening,171,8,31,2.84,2.58,2,2,1,0,,Source-Concentrated,Sun Belt lease-up pressure watch visibility is weakening versus prior runs.,

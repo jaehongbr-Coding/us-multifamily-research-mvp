@@ -1,116 +1,114 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-10-16 01:01:42
+Generated: 2026-10-17 01:06:58
 
-- Total relationship edges: 121
-- Most connected developer / GP: Hines (14 edge(s))
-- Most connected lender / debt provider: berkadia (5 edge(s))
-- Most connected market: California (11 edge(s))
-- Strongest relationship edge: Berkadia -> berkadia
+- Total relationship edges: 127
+- Most connected developer / GP: JLL (15 edge(s))
+- Most connected lender / debt provider: jll (5 edge(s))
+- Most connected market: Los Angeles / California (7 edge(s))
+- Strongest relationship edge: Brookfield -> California
 - Highest Woomi relevance edge: Brookfield -> California
 
 ## Top 10 Relationship Edges
 
-- Berkadia -> berkadia: Financing Relationship, California, score 100. Track GP relationship history.
-- Brookfield -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Brookfield -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Brookfield -> JV / Partnership - California - IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield: JV / Partnership, California, score 100. Review potential JV relevance.
-- Brookfield -> JV / Partnership - California - Joint Venture Acquires 1,035-Bed Student Housing Property Near San Jose State University f...: JV / Partnership, California, score 100. Review potential JV relevance.
 - Brookfield -> brookfield: JV / Partnership, California, score 100. Review potential JV relevance.
-- Brookfield -> brookfield: JV / Partnership, California, score 100. Review potential JV relevance.
-- CBRE -> cbre: Financing Relationship, California, score 100. Track GP relationship history.
 - JLL -> jll: Financing Relationship, California, score 100. Track GP relationship history.
-- Kennedy Wilson -> California: JV / Partnership, California, score 100. Review potential JV relevance.
+- CBRE -> cbre: Financing Relationship, Dallas / Texas, score 97. Track GP relationship history.
+- JLL -> California: Financing Relationship, California, score 96. Track GP relationship history.
+- JLL -> Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Financing Relationship, California, score 96. Track GP relationship history.
+- Berkadia -> berkadia: JV / Partnership, Miami / Florida, score 95. Review potential JV relevance.
+- Lincoln Property Company -> berkadia: Financing Relationship, Los Angeles / California, score 95. Track GP relationship history.
+- Walker & Dunlop -> walker & dunlop: Financing Relationship, Texas, score 95. Track GP relationship history.
 
 ## Developer / GP Relationship Map
 
-- Berkadia -> berkadia: Financing Relationship, California, score 100. Track GP relationship history.
-- Brookfield -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Brookfield -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Brookfield -> JV / Partnership - California - IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield: JV / Partnership, California, score 100. Review potential JV relevance.
-- Brookfield -> JV / Partnership - California - Joint Venture Acquires 1,035-Bed Student Housing Property Near San Jose State University f...: JV / Partnership, California, score 100. Review potential JV relevance.
 - Brookfield -> brookfield: JV / Partnership, California, score 100. Review potential JV relevance.
-- Brookfield -> brookfield: JV / Partnership, California, score 100. Review potential JV relevance.
-- CBRE -> cbre: Financing Relationship, California, score 100. Track GP relationship history.
 - JLL -> jll: Financing Relationship, California, score 100. Track GP relationship history.
-- Kennedy Wilson -> California: JV / Partnership, California, score 100. Review potential JV relevance.
+- CBRE -> cbre: Financing Relationship, Dallas / Texas, score 97. Track GP relationship history.
+- JLL -> California: Financing Relationship, California, score 96. Track GP relationship history.
+- JLL -> Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Financing Relationship, California, score 96. Track GP relationship history.
+- Berkadia -> berkadia: JV / Partnership, Miami / Florida, score 95. Review potential JV relevance.
+- Lincoln Property Company -> berkadia: Financing Relationship, Los Angeles / California, score 95. Track GP relationship history.
+- Walker & Dunlop -> walker & dunlop: Financing Relationship, Texas, score 95. Track GP relationship history.
 
 ## Lender / Debt Provider Relationship Map
 
-- Berkadia -> berkadia: Financing Relationship, California, score 100. Track GP relationship history.
-- CBRE -> cbre: Financing Relationship, California, score 100. Track GP relationship history.
 - JLL -> jll: Financing Relationship, California, score 100. Track GP relationship history.
-- Walker & Dunlop -> walker & dunlop: Financing Relationship, Dallas / Texas, score 98. Track GP relationship history.
-- Walker & Dunlop -> walker & dunlop: Financing Relationship, Texas, score 98. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, Dallas / Texas, score 97. Track GP relationship history.
 - Berkadia -> berkadia: JV / Partnership, Miami / Florida, score 95. Review potential JV relevance.
 - Lincoln Property Company -> berkadia: Financing Relationship, Los Angeles / California, score 95. Track GP relationship history.
+- Walker & Dunlop -> walker & dunlop: Financing Relationship, Texas, score 95. Track GP relationship history.
 - Berkadia -> berkadia: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Georgia, score 93. Track GP relationship history.
-- JLL -> jll: Financing Relationship, California, score 91. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, Miami / Florida, score 92. Track GP relationship history.
+- Hines -> jll: Financing Relationship, Dallas / Texas, score 89. Track GP relationship history.
+- Walker & Dunlop -> walker & dunlop: Financing Relationship, Other / Unknown, score 89. Track GP relationship history.
 
 ## Capital Partner / Institutional Flow Map
 
 - Brookfield -> brookfield: JV / Partnership, California, score 100. Review potential JV relevance.
-- Brookfield -> brookfield: JV / Partnership, California, score 100. Review potential JV relevance.
-- Kennedy Wilson -> kennedy wilson: JV / Partnership, California, score 100. Review potential JV relevance.
 - Greystone -> related: Financing Relationship, Miami / Florida, score 88. Track GP relationship history.
 - Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 87. Track GP relationship history.
 - Hines -> hines: Disposition / Seller, Dallas / Texas, score 78. Track GP relationship history.
-- Hines -> hines: Disposition / Seller, Dallas / Texas, score 78. Track GP relationship history.
+- Essex Realty Group -> essex: Disposition / Seller, Other / Unknown, score 71. Track GP relationship history.
 
 ## Market Relationship Map
 
 - Brookfield -> California: JV / Partnership, California, score 100. Review potential JV relevance.
-- Brookfield -> California: JV / Partnership, California, score 100. Review potential JV relevance.
-- Kennedy Wilson -> California: JV / Partnership, California, score 100. Review potential JV relevance.
-- Berkadia -> California: Financing Relationship, California, score 97. Track GP relationship history.
 - JLL -> California: Financing Relationship, California, score 96. Track GP relationship history.
-- Walker & Dunlop -> Dallas: Financing Relationship, Dallas / Texas, score 90. Track GP relationship history.
-- Walker & Dunlop -> Dallas / Texas: Financing Relationship, Dallas / Texas, score 90. Track GP relationship history.
-- Walker & Dunlop -> Texas: Financing Relationship, Texas, score 90. Track GP relationship history.
+- PCCP -> California: Financing Relationship, California, score 92. Track GP relationship history.
+- CBRE -> Dallas: Financing Relationship, Dallas / Texas, score 89. Track GP relationship history.
+- CBRE -> Dallas / Texas: Financing Relationship, Dallas / Texas, score 89. Track GP relationship history.
 - Berkadia -> Miami / Florida: JV / Partnership, Miami / Florida, score 87. Review potential JV relevance.
 - Berkadia -> South Florida: JV / Partnership, Miami / Florida, score 87. Review potential JV relevance.
+- Lincoln Property Company -> Los Angeles: Financing Relationship, Los Angeles / California, score 87. Track GP relationship history.
+- Lincoln Property Company -> Los Angeles / California: Financing Relationship, Los Angeles / California, score 87. Track GP relationship history.
+- Walker & Dunlop -> Texas: Financing Relationship, Texas, score 87. Track GP relationship history.
 
 ## California / LA Relationship Signals
 
-- Berkadia -> berkadia: Financing Relationship, California, score 100. Track GP relationship history.
-- Brookfield -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Brookfield -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Brookfield -> JV / Partnership - California - IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield: JV / Partnership, California, score 100. Review potential JV relevance.
-- Brookfield -> JV / Partnership - California - Joint Venture Acquires 1,035-Bed Student Housing Property Near San Jose State University f...: JV / Partnership, California, score 100. Review potential JV relevance.
 - Brookfield -> brookfield: JV / Partnership, California, score 100. Review potential JV relevance.
-- Brookfield -> brookfield: JV / Partnership, California, score 100. Review potential JV relevance.
-- CBRE -> cbre: Financing Relationship, California, score 100. Track GP relationship history.
 - JLL -> jll: Financing Relationship, California, score 100. Track GP relationship history.
-- Kennedy Wilson -> California: JV / Partnership, California, score 100. Review potential JV relevance.
+- JLL -> California: Financing Relationship, California, score 96. Track GP relationship history.
+- JLL -> Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Financing Relationship, California, score 96. Track GP relationship history.
+- PCCP -> California: Financing Relationship, California, score 92. Track GP relationship history.
+- PCCP -> Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Financing Relationship, California, score 92. Track GP relationship history.
+- Lincoln Property Company -> Los Angeles: Financing Relationship, Los Angeles / California, score 87. Track GP relationship history.
+- High Street Residential -> California: JV / Partnership, California, score 84. Review potential JV relevance.
 
 ## Potential Woomi Partnership Signals
 
 - Brookfield -> California: JV / Partnership, California, score 100. Review potential JV relevance.
-- Brookfield -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Brookfield -> JV / Partnership - California - IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield: JV / Partnership, California, score 100. Review potential JV relevance.
-- Brookfield -> JV / Partnership - California - Joint Venture Acquires 1,035-Bed Student Housing Property Near San Jose State University f...: JV / Partnership, California, score 100. Review potential JV relevance.
 - Brookfield -> brookfield: JV / Partnership, California, score 100. Review potential JV relevance.
-- Brookfield -> brookfield: JV / Partnership, California, score 100. Review potential JV relevance.
-- Kennedy Wilson -> California: JV / Partnership, California, score 100. Review potential JV relevance.
-- Kennedy Wilson -> JV / Partnership - California - Kennedy Wilson Partners with Hulic, Fuyo General Lease on San Jose Apartment Deal: JV / Partnership, California, score 100. Review potential JV relevance.
-- Kennedy Wilson -> kennedy wilson: JV / Partnership, California, score 100. Review potential JV relevance.
 - Berkadia -> berkadia: JV / Partnership, Miami / Florida, score 95. Review potential JV relevance.
+- Berkadia -> JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: JV / Partnership, Miami / Florida, score 87. Review potential JV relevance.
+- Berkadia -> Miami / Florida: JV / Partnership, Miami / Florida, score 87. Review potential JV relevance.
+- Berkadia -> South Florida: JV / Partnership, Miami / Florida, score 87. Review potential JV relevance.
+- Lincoln Property Company -> JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City: JV / Partnership, Other / Unknown, score 86. Review potential JV relevance.
+- High Street Residential -> California: JV / Partnership, California, score 84. Review potential JV relevance.
+- High Street Residential -> JV / Partnership - California - HSR and Barings Break Ground on 501-Unit Multifamily Development at ELCO Yards in Redwood...: JV / Partnership, California, score 84. Review potential JV relevance.
 
 ## Canonical Relationship Map
 
 | Source | Target | Relationship | Confidence |
 | --- | --- | --- | ---: |
-| Berkadia | Berkadia | Financing Relationship | 75 |
-| Brookfield | California | JV / Partnership | 100 |
 | Brookfield | California | JV / Partnership | 100 |
 | Brookfield | Brookfield | JV / Partnership | 60 |
-| Brookfield | California | JV / Partnership | 60 |
 | Brookfield | Brookfield | JV / Partnership | 75 |
-| Brookfield | Brookfield | JV / Partnership | 75 |
-| CBRE | CBRE | Financing Relationship | 75 |
 | JLL | JLL | Financing Relationship | 75 |
-| Kennedy Wilson | California | JV / Partnership | 100 |
+| CBRE | CBRE | Financing Relationship | 75 |
+| JLL | California | Financing Relationship | 100 |
+| JLL | JLL | Financing Relationship | 60 |
+| Berkadia | Berkadia | JV / Partnership | 75 |
+| Lincoln Property Company | Berkadia | Financing Relationship | 40 |
+| Walker & Dunlop | walker & dunlop | Financing Relationship | 40 |
 
 ## Multi-Source Confirmation Summary
 
@@ -120,11 +118,11 @@ Relationship repeat strength uses unique canonical deal/event counts instead of 
 ## Emerging GP Watchlist Reference
 
 Ranked GP watchlist signals are available in `gp_watchlist_report.md`.
-- Kennedy Wilson: 81 (Tier 2 High Potential GP), Potential GP partnership candidate.
 - Marcus & Millichap: 81 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- Brookfield: 79 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- JLL: 77 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- JLL: 77 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- Berkadia: 78 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- Brookfield: 76 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- Hines: 75 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- IPA: 75 (Tier 2 High Potential GP), Potential GP partnership candidate.
 
 ## GP Source Expansion Summary
 
@@ -144,23 +142,23 @@ Longitudinal memory is available in `historical_memory_report.md`.
 
 ## Recommended Executive Follow-Up
 
-- Track GP relationship history: Berkadia -> berkadia (Financing Relationship).
-- Review potential JV relevance: Brookfield -> California (JV / Partnership).
 - Review potential JV relevance: Brookfield -> California (JV / Partnership).
 - Review potential JV relevance: Brookfield -> JV / Partnership - California - IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield (JV / Partnership).
-- Review potential JV relevance: Brookfield -> JV / Partnership - California - Joint Venture Acquires 1,035-Bed Student Housing Property Near San Jose State University f... (JV / Partnership).
 - Review potential JV relevance: Brookfield -> brookfield (JV / Partnership).
-- Review potential JV relevance: Brookfield -> brookfield (JV / Partnership).
+- Track GP relationship history: JLL -> jll (Financing Relationship).
 - Track GP relationship history: CBRE -> cbre (Financing Relationship).
+- Track GP relationship history: JLL -> California (Financing Relationship).
+- Track GP relationship history: JLL -> Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities (Financing Relationship).
+- Review potential JV relevance: Berkadia -> berkadia (JV / Partnership).
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 661
-- Canonical projects: 152
-- Duplicate project clusters: 99
-- Persistent assets tracked: 152
-- LA persistent asset watch items: 110
+- Raw project references: 695
+- Canonical projects: 181
+- Duplicate project clusters: 118
+- Persistent assets tracked: 181
+- LA persistent asset watch items: 121
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

@@ -1,36 +1,36 @@
 # GP / Capital Coverage Diagnostics
 
-Generated: 2026-10-16 01:01:33
+Generated: 2026-10-17 01:06:46
 
 ## Summary
 
-- GP / Capital candidate articles: 41
-- Selected GP / Capital articles: 22
-- Excluded by repeat penalty: 8
+- GP / Capital candidate articles: 47
+- Selected GP / Capital articles: 26
+- Excluded by repeat penalty: 9
 - Excluded by integrity issue: 1
 
 ## Top Candidate Sources
 
-- REBusiness Online: 7 candidate(s), 4 selected, activities: refinancing:2; joint_venture:1; construction_financing:1; disposition_exit:1; asset_management_operator_activity:1.
-- Connect CRE Apartments: 6 candidate(s), 4 selected, activities: disposition_exit:2; acquisition:2; debt_financing:1; acquisition_financing:1.
-- Yield PRO: 6 candidate(s), 3 selected, activities: disposition_exit:4; portfolio_transaction:1; asset_management_operator_activity:1.
-- Commercial Observer: 4 candidate(s), 3 selected, activities: construction_financing:3; disposition_exit:1.
-- Connect CRE California: 3 candidate(s), 2 selected, activities: joint_venture:2; disposition_exit:1.
+- REBusiness Online: 9 candidate(s), 5 selected, activities: disposition_exit:4; debt_financing:2; asset_management_operator_activity:1; construction_financing:1; reit_activity:1.
+- Yield PRO: 7 candidate(s), 4 selected, activities: disposition_exit:3; refinancing:2; acquisition:1; joint_venture:1.
+- Commercial Observer: 6 candidate(s), 6 selected, activities: construction_financing:3; refinancing:3.
+- Connect CRE: 4 candidate(s), 3 selected, activities: debt_financing:2; refinancing:1; disposition_exit:1.
+- Connect CRE Apartments: 4 candidate(s), 2 selected, activities: disposition_exit:2; construction_financing:1; acquisition:1.
 - Connect CRE South Florida: 3 candidate(s), 2 selected, activities: refinancing:1; joint_venture:1; debt_financing:1.
 - Connect CRE Atlanta: 3 candidate(s), 1 selected, activities: acquisition:2; disposition_exit:1.
-- Connect CRE Orange County: 2 candidate(s), 1 selected, activities: refinancing:1; disposition_exit:1.
+- Connect CRE Orange County: 2 candidate(s), 0 selected, activities: refinancing:1; disposition_exit:1.
 - NAHB Eye on Housing - Multifamily: 2 candidate(s), 0 selected, activities: debt_financing:1; disposition_exit:1.
 - Urbanize LA: 2 candidate(s), 0 selected, activities: debt_financing:2.
 
 ## Focus Source Coverage
 
-- Commercial Observer: status OK, articles 4, candidates 4, selected 3.
-- Bisnow: status OK, articles 0, candidates 0, selected 0.
-- Connect CRE: status OK, articles 1, candidates 1, selected 1.
-- Connect CRE Apartments: status OK, articles 6, candidates 6, selected 4.
-- Connect CRE Texas: status OK, articles 1, candidates 1, selected 1.
+- Commercial Observer: status OK, articles 6, candidates 6, selected 6.
+- Bisnow: status OK, articles 2, candidates 1, selected 1.
+- Connect CRE: status OK, articles 5, candidates 4, selected 3.
+- Connect CRE Apartments: status OK, articles 5, candidates 4, selected 2.
+- Connect CRE Texas: status OK, articles 1, candidates 1, selected 0.
 - Connect CRE South Florida: status OK, articles 4, candidates 3, selected 2.
-- REBusiness Online: status OK, articles 10, candidates 7, selected 4.
+- REBusiness Online: status OK, articles 12, candidates 9, selected 5.
 - The Real Deal: status OK, articles 0, candidates 0, selected 0.
 - GlobeSt: status Failed, articles 0, candidates 0, selected 0.
 

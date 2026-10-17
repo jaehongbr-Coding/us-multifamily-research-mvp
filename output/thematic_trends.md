@@ -1,64 +1,63 @@
 # Thematic Trends
 
-Generated: 2026-10-16 01:01:41
+Generated: 2026-10-17 01:06:56
 
-- Previous archive used: output/runs/2026-10-15
-- Latest strategy-briefing articles: 46
-- Latest market-signal articles: 32
+- Previous archive used: output/runs/2026-10-16
+- Latest strategy-briefing articles: 51
+- Latest market-signal articles: 31
 
 ## Key Thematic Alerts
 
-- California focus is Sharp Increase (5 to 11).
-- Market signal activity is increasing, led by Rent Growth Signal (8 to 12).
+- Supply Pressure is Sharp Increase (1 to 2).
+- Market signal activity is increasing, led by Supply / Starts Signal (7 to 9).
 
 ## Theme Count Details
 
 | Category | Theme | Latest | Previous | Change | Percentage Change | Alert |
 | --- | --- | ---: | ---: | ---: | ---: | --- |
-| Action Level | Must Read | 35 | 38 | -3 | -7.9% | Stable |
-| Action Level | Review | 10 | 10 | 0 | 0.0% | Stable |
-| Action Level | Monitor | 1 | 2 | -1 | -50.0% | Sharp Decrease |
-| Decision Use | Track Developer Strategy | 29 | 30 | -1 | -3.3% | Stable |
-| Decision Use | Track Institutional Capital Flow | 23 | 24 | -1 | -4.2% | Stable |
-| Decision Use | Track Financing Conditions | 18 | 23 | -5 | -21.7% | Moderate Decrease |
+| Action Level | Must Read | 37 | 35 | 2 | 5.7% | Stable |
+| Action Level | Review | 13 | 10 | 3 | 30.0% | Moderate Increase |
+| Action Level | Monitor | 1 | 1 | 0 | 0.0% | Stable |
+| Decision Use | Track Developer Strategy | 36 | 29 | 7 | 24.1% | Moderate Increase |
+| Decision Use | Track Institutional Capital Flow | 26 | 23 | 3 | 13.0% | Stable |
+| Decision Use | Track Financing Conditions | 21 | 18 | 3 | 16.7% | Stable |
 | Decision Use | Track Regulation Risk | 5 | 5 | 0 | 0.0% | Stable |
-| Decision Use | Track Rent / Vacancy Trend | 1 | 4 | -3 | -75.0% | Sharp Decrease |
-| Decision Use | Track Supply Pipeline | 1 | 4 | -3 | -75.0% | Sharp Decrease |
-| Market Focus | California | 11 | 5 | 6 | 120.0% | Sharp Increase |
-| Market Focus | Other / Unknown | 10 | 13 | -3 | -23.1% | Moderate Decrease |
-| Market Focus | Los Angeles / California | 6 | 4 | 2 | 50.0% | Sharp Increase |
-| Market Focus | Miami / Florida | 6 | 4 | 2 | 50.0% | Sharp Increase |
-| Market Focus | Dallas / Texas | 4 | 1 | 3 | 300.0% | Sharp Increase |
+| Decision Use | Track Rent / Vacancy Trend | 2 | 1 | 1 | 100.0% | Sharp Increase |
+| Decision Use | Track Supply Pipeline | 2 | 1 | 1 | 100.0% | Sharp Increase |
+| Market Focus | Other / Unknown | 10 | 10 | 0 | 0.0% | Stable |
+| Market Focus | California | 7 | 11 | -4 | -36.4% | Moderate Decrease |
+| Market Focus | Los Angeles / California | 7 | 6 | 1 | 16.7% | Stable |
+| Market Focus | Miami / Florida | 7 | 6 | 1 | 16.7% | Stable |
+| Market Focus | Dallas / Texas | 3 | 4 | -1 | -25.0% | Moderate Decrease |
 | Market Focus | Atlanta / Georgia | 2 | 2 | 0 | 0.0% | Stable |
-| Market Focus | Colorado | 1 | 2 | -1 | -50.0% | Sharp Decrease |
-| Market Focus | Florida | 1 | 0 | 1 | 100.0% | New Theme |
-| Market Focus | Georgia | 1 | 0 | 1 | 100.0% | New Theme |
-| Market Focus | National | 1 | 1 | 0 | 0.0% | Stable |
-| Market Focus | New York City / New York | 1 | 3 | -2 | -66.7% | Sharp Decrease |
-| Market Focus | Santa Monica / California | 1 | 0 | 1 | 100.0% | New Theme |
-| Market Focus | Texas | 1 | 0 | 1 | 100.0% | New Theme |
-| Market Focus | Austin / Texas | 0 | 2 | -2 | -100.0% | Sharp Decrease |
-| Market Focus | New York | 0 | 2 | -2 | -100.0% | Sharp Decrease |
-| Market Focus | Phoenix / Arizona | 0 | 2 | -2 | -100.0% | Sharp Decrease |
-| Market Focus | Riverside / California | 0 | 1 | -1 | -100.0% | Sharp Decrease |
-| Market Focus | Seattle | 0 | 3 | -3 | -100.0% | Sharp Decrease |
-| Market Focus | Sun Belt | 0 | 2 | -2 | -100.0% | Sharp Decrease |
-| Market Focus | Washington DC | 0 | 2 | -2 | -100.0% | Sharp Decrease |
-| Market Focus | West Palm Beach / Florida | 0 | 1 | -1 | -100.0% | Sharp Decrease |
-| Market Signal | Rent Growth Signal | 12 | 8 | 4 | 50.0% | Sharp Increase |
-| Market Signal | Deal Size Signal | 11 | 12 | -1 | -8.3% | Stable |
-| Market Signal | Supply / Starts Signal | 7 | 9 | -2 | -22.2% | Moderate Decrease |
-| Market Signal | Financing Cost Signal | 2 | 2 | 0 | 0.0% | Stable |
-| Market Signal | Vacancy Signal | 0 | 1 | -1 | -100.0% | Sharp Decrease |
-| Strategic Angle | Developer Strategy | 29 | 30 | -1 | -3.3% | Stable |
-| Strategic Angle | Institutional Flow | 23 | 24 | -1 | -4.2% | Stable |
-| Strategic Angle | Financing Risk | 18 | 23 | -5 | -21.7% | Moderate Decrease |
+| Market Focus | National | 2 | 1 | 1 | 100.0% | Sharp Increase |
+| Market Focus | New York City / New York | 2 | 1 | 1 | 100.0% | Sharp Increase |
+| Market Focus | Austin / Texas | 1 | 0 | 1 | 100.0% | New Theme |
+| Market Focus | Beverly Hills / California | 1 | 0 | 1 | 100.0% | New Theme |
+| Market Focus | Colorado | 1 | 1 | 0 | 0.0% | Stable |
+| Market Focus | Florida | 1 | 1 | 0 | 0.0% | Stable |
+| Market Focus | New York | 1 | 0 | 1 | 100.0% | New Theme |
+| Market Focus | Riverside / California | 1 | 0 | 1 | 100.0% | New Theme |
+| Market Focus | Santa Monica / California | 1 | 1 | 0 | 0.0% | Stable |
+| Market Focus | Seattle | 1 | 0 | 1 | 100.0% | New Theme |
+| Market Focus | Southeast | 1 | 0 | 1 | 100.0% | New Theme |
+| Market Focus | Texas | 1 | 1 | 0 | 0.0% | Stable |
+| Market Focus | Washington DC | 1 | 0 | 1 | 100.0% | New Theme |
+| Market Focus | Georgia | 0 | 1 | -1 | -100.0% | Sharp Decrease |
+| Market Signal | Rent Growth Signal | 11 | 12 | -1 | -8.3% | Stable |
+| Market Signal | Deal Size Signal | 9 | 11 | -2 | -18.2% | Stable |
+| Market Signal | Supply / Starts Signal | 9 | 7 | 2 | 28.6% | Moderate Increase |
+| Market Signal | Financing Cost Signal | 1 | 2 | -1 | -50.0% | Sharp Decrease |
+| Market Signal | Vacancy Signal | 1 | 0 | 1 | 100.0% | New Theme |
+| Strategic Angle | Developer Strategy | 36 | 29 | 7 | 24.1% | Moderate Increase |
+| Strategic Angle | Institutional Flow | 26 | 23 | 3 | 13.0% | Stable |
+| Strategic Angle | Financing Risk | 21 | 18 | 3 | 16.7% | Stable |
 | Strategic Angle | Regulation Risk | 5 | 5 | 0 | 0.0% | Stable |
-| Strategic Angle | Rent Growth / Demand | 1 | 4 | -3 | -75.0% | Sharp Decrease |
-| Strategic Angle | Supply Pressure | 1 | 4 | -3 | -75.0% | Sharp Decrease |
-| Woomi Relevance | High relevance to US residential developer strategy | 38 | 43 | -5 | -11.6% | Stable |
-| Woomi Relevance | Medium relevance to market monitoring | 8 | 7 | 1 | 14.3% | Stable |
+| Strategic Angle | Rent Growth / Demand | 2 | 1 | 1 | 100.0% | Sharp Increase |
+| Strategic Angle | Supply Pressure | 2 | 1 | 1 | 100.0% | Sharp Increase |
+| Woomi Relevance | High relevance to US residential developer strategy | 40 | 38 | 2 | 5.3% | Stable |
+| Woomi Relevance | Medium relevance to market monitoring | 11 | 8 | 3 | 37.5% | Moderate Increase |
 
 ## Interpretation for Strategy Team
 
-- California or Los Angeles focus increased, which is directly relevant to Woomi's California / LA strategy.
+- Supply Pressure increased, so the team should watch possible oversupply or lease-up risk.

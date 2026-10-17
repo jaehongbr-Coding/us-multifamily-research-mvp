@@ -1,19 +1,19 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-10-16 01:02:12
+Generated: 2026-10-17 01:07:29
 
-- Total LA lifecycle watch items: 55
+- Total LA lifecycle watch items: 50
 
 ## LA Lifecycle Stage Distribution
 
 - Unknown Stage: 27
-- Site Acquisition / Site Control: 12
-- Refinancing / Recapitalization: 8
-- Distressed / Stalled: 2
-- Delivery / Opening: 2
-- Vertical Construction: 2
-- Entitlement Under Review: 1
+- Site Acquisition / Site Control: 10
+- Refinancing / Recapitalization: 4
+- Delivery / Opening: 4
+- Entitlement Under Review: 2
 - Early Site Signal: 1
+- Environmental Review / CEQA: 1
+- Distressed / Stalled: 1
 
 ## Koreatown / Wilshire Lifecycle Watch
 
@@ -45,34 +45,32 @@ Generated: 2026-10-16 01:02:12
 
 ## Stalled / Distressed LA Project Watch
 
-- Disposition / Exit - Dallas / Texas - Marcus & Millichap Facilitates Sale of Two-Property Multifamily Distressed Portfolio in Da...: Distressed / Stalled, Monitor stalled project opportunity, opportunity 100.
 - Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled, Monitor stalled project opportunity, opportunity 58.
 
 ## Construction-Ready LA Project Watch
 
-- Wood framing rising for mixed-use project at 5843 W. Pico Blvd.: Vertical Construction, Monitor only, opportunity 86.
-- Entitlement / Permitting - Other / Unknown - Wood framing rising for mixed-use project at 5843 W. Pico Blvd.: Vertical Construction, Monitor only, opportunity 81.
+- None detected.
 
 ## Recommended LA Lifecycle Follow-up Actions
 
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Disposition / Exit - Dallas / Texas - Marcus & Millichap Facilitates Sale of Two-Property Multifamily Distressed Portfolio in Da....
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Construction Financing - California - Lincoln Property Co., McCourt Partners Receive $132.7M Construction Loan for Culver City M....
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities.
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Office-to-Residential Conversion - California - JLL Arranges $210M Refinancing for Grand Hyatt Indian Wells Resort & Villas in California.
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Construction Financing - California - Lincoln Property Company Secures $132.7M Construction Loan for Culver City California Mixe....
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Dallas / Texas - Lone Star Funds Scores $110M Refinancing for Two Stafford Rental Communities.
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Lincoln Property Company Secures $132.7M Construction Loan for Culver City California Mixed-Use Development.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Dallas / Texas - SMBC Refis Apartments Near Dallas, Philly With $108M Loan.
+- Monitor lifecycle status for repeated confirmation: Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily.
 - Monitor lifecycle status for repeated confirmation: Construction Financing - Los Angeles / California - Culver City Mixed-Use Secures $133M Bank OZK Loan.
+- Monitor lifecycle status for repeated confirmation: JV / Partnership - California - IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield.
+- Monitor lifecycle status for repeated confirmation: JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex.
+- Monitor lifecycle status for repeated confirmation: Office-to-Residential Conversion - Riverside / California - Citi Provides $210M Refi for Grand Hyatt Resort in Southern California.
+- Monitor lifecycle status for repeated confirmation: JV / Partnership - California - HSR and Barings Break Ground on 501-Unit Multifamily Development at ELCO Yards in Redwood....
+- Monitor lifecycle status for repeated confirmation: JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 79
-- Newly detected projects: 44
+- Lifecycle transitions analyzed: 84
+- Newly detected projects: 46
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 53
+- LA lifecycle transition watch items: 47
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -80,10 +78,10 @@ Generated: 2026-10-16 01:02:12
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 661
-- Canonical projects: 152
-- Duplicate project clusters: 99
-- Persistent assets tracked: 152
-- LA persistent asset watch items: 110
+- Raw project references: 695
+- Canonical projects: 181
+- Duplicate project clusters: 118
+- Persistent assets tracked: 181
+- LA persistent asset watch items: 121
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

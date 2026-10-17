@@ -1,81 +1,80 @@
 # Development Lifecycle Report
 
-Generated: 2026-10-16 01:02:12
+Generated: 2026-10-17 01:07:29
 
-- Total lifecycle records: 79
+- Total lifecycle records: 84
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 45
-- Site Acquisition / Site Control: 13
-- Refinancing / Recapitalization: 9
-- Delivery / Opening: 3
-- Distressed / Stalled: 2
-- Entitled / Approved: 2
-- Vertical Construction: 2
-- Entitlement Under Review: 2
+- Unknown Stage: 53
+- Site Acquisition / Site Control: 11
+- Refinancing / Recapitalization: 7
+- Delivery / Opening: 6
+- Entitlement Under Review: 3
+- Vertical Construction: 1
 - Early Site Signal: 1
+- Environmental Review / CEQA: 1
+- Distressed / Stalled: 1
 
 ## Top Development Timing Opportunities
 
-- Disposition / Exit - Dallas / Texas - Marcus & Millichap Facilitates Sale of Two-Property Multifamily Distressed Portfolio in Da...: Distressed / Stalled, Dallas, lifecycle_opportunity_score 100.
-- Construction Financing - California - Lincoln Property Co., McCourt Partners Receive $132.7M Construction Loan for Culver City M...: Refinancing / Recapitalization, California, lifecycle_opportunity_score 100.
-- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization, California, lifecycle_opportunity_score 100.
-- Office-to-Residential Conversion - California - JLL Arranges $210M Refinancing for Grand Hyatt Indian Wells Resort & Villas in California: Refinancing / Recapitalization, California, lifecycle_opportunity_score 100.
-- Construction Financing - California - Lincoln Property Company Secures $132.7M Construction Loan for Culver City California Mixe...: Refinancing / Recapitalization, California, lifecycle_opportunity_score 100.
-- Refinancing - Dallas / Texas - Lone Star Funds Scores $110M Refinancing for Two Stafford Rental Communities: Refinancing / Recapitalization, Dallas, lifecycle_opportunity_score 100.
-- Lincoln Property Company Secures $132.7M Construction Loan for Culver City California Mixed-Use Development: Refinancing / Recapitalization, Culver City, lifecycle_opportunity_score 100.
+- Refinancing - Dallas / Texas - SMBC Refis Apartments Near Dallas, Philly With $108M Loan: Refinancing / Recapitalization, Dallas, lifecycle_opportunity_score 100.
+- Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Unknown Stage, California, lifecycle_opportunity_score 100.
 - Construction Financing - Los Angeles / California - Culver City Mixed-Use Secures $133M Bank OZK Loan: Unknown Stage, Los Angeles, lifecycle_opportunity_score 100.
 - JV / Partnership - California - IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield: Unknown Stage, California, lifecycle_opportunity_score 100.
-- JV / Partnership - California - Joint Venture Acquires 1,035-Bed Student Housing Property Near San Jose State University f...: Unknown Stage, California, lifecycle_opportunity_score 100.
+- JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: Unknown Stage, South Florida, lifecycle_opportunity_score 100.
+- Office-to-Residential Conversion - Riverside / California - Citi Provides $210M Refi for Grand Hyatt Resort in Southern California: Delivery / Opening, Southern California, lifecycle_opportunity_score 100.
+- JV / Partnership - California - HSR and Barings Break Ground on 501-Unit Multifamily Development at ELCO Yards in Redwood...: Delivery / Opening, California, lifecycle_opportunity_score 100.
+- JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City: Site Acquisition / Site Control, Unknown, lifecycle_opportunity_score 100.
+- Refinancing - Miami / Florida - The Vibe in Miami’s Little Havana Secures $50.8M Refinancing: Refinancing / Recapitalization, Miami, lifecycle_opportunity_score 99.
+- Construction Financing - Miami / Florida - Pearlmark Provides $81M for Apartment Project in Coral Gables: Vertical Construction, Miami, lifecycle_opportunity_score 99.
 
 ## Top Lifecycle Risks
 
-- Disposition / Exit - Dallas / Texas - Marcus & Millichap Facilitates Sale of Two-Property Multifamily Distressed Portfolio in Da...: Distressed / Stalled, Dallas, lifecycle_risk_score 83.
 - Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled, Atlanta, lifecycle_risk_score 74.
-- Construction Financing - California - Lincoln Property Co., McCourt Partners Receive $132.7M Construction Loan for Culver City M...: Refinancing / Recapitalization, California, lifecycle_risk_score 59.
-- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization, California, lifecycle_risk_score 59.
-- Office-to-Residential Conversion - California - JLL Arranges $210M Refinancing for Grand Hyatt Indian Wells Resort & Villas in California: Refinancing / Recapitalization, California, lifecycle_risk_score 58.
-- Construction Financing - California - Lincoln Property Company Secures $132.7M Construction Loan for Culver City California Mixe...: Refinancing / Recapitalization, California, lifecycle_risk_score 55.
-- Refinancing - Dallas / Texas - Lone Star Funds Scores $110M Refinancing for Two Stafford Rental Communities: Refinancing / Recapitalization, Dallas, lifecycle_risk_score 53.
-- Refinancing - Texas - Walker & Dunlop Arranges $110M Refinancing of Two Apartment Communities in Stafford, Texas: Refinancing / Recapitalization, Texas, lifecycle_risk_score 53.
-- Construction Financing - New York City / New York - Colorado Federal Bank Lends $23M for Brooklyn Apartments at Former Event Space: Unknown Stage, Colorado, lifecycle_risk_score 53.
-- Disposition / Exit - Dallas / Texas - JLL Closes Sale of Retail and Multifamily Portfolio in Dallas’ Bishop Arts District: Unknown Stage, Dallas, lifecycle_risk_score 51.
+- Entitlement / Permitting - Other / Unknown - CEQA Notice of Exemption Filed for 359 Hudson Street in Healdsburg: Environmental Review / CEQA, Unknown, lifecycle_risk_score 66.
+- Refinancing - Dallas / Texas - SMBC Refis Apartments Near Dallas, Philly With $108M Loan: Refinancing / Recapitalization, Dallas, lifecycle_risk_score 53.
+- Refinancing - Miami / Florida - The Vibe in Miami’s Little Havana Secures $50.8M Refinancing: Refinancing / Recapitalization, Miami, lifecycle_risk_score 52.
+- Refinancing - Texas - Walker & Dunlop Arranges $110M Refinancing for Two Multifamily Properties in Stafford Texa...: Refinancing / Recapitalization, Texas, lifecycle_risk_score 52.
+- Construction Financing - Beverly Hills / California - Max Benjamin Partners Arranges $74.8M in Construction Financing for Townhome Property in F...: Unknown Stage, Beverly Hills, lifecycle_risk_score 52.
+- Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Unknown Stage, California, lifecycle_risk_score 51.
+- Refinancing - Other / Unknown - Walker & Dunlop Investment Partners Supplies $63M Refi for Illinois Apartments: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 51.
+- Office-to-Residential Conversion - Other / Unknown - Downtown Conversion Lands Construction Loan: The D.C. Deal Sheet: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 51.
+- Construction Financing - Los Angeles / California - Culver City Mixed-Use Secures $133M Bank OZK Loan: Unknown Stage, Los Angeles, lifecycle_risk_score 45.
 
 ## Projects Under Entitlement / Planning
 
-- Affordable Housing Approved At 2120 Euclid Avenue, East Palo Alto: Entitled / Approved, Unknown, lifecycle_opportunity_score 89.
 - Rendering vs. Reality: Mixed-use building at 1808 Lincoln Blvd. in Venice: Entitlement Under Review, Los Angeles, lifecycle_opportunity_score 80.
 - Entitlement / Permitting - Other / Unknown - Rendering vs. Reality: Mixed-use building at 1808 Lincoln Blvd. in Venice: Entitlement Under Review, Unknown, lifecycle_opportunity_score 75.
-- Entitlement / Permitting - Other / Unknown - Affordable Housing Approved At 2120 Euclid Avenue, East Palo Alto: Entitled / Approved, Unknown, lifecycle_opportunity_score 73.
+- CEQA Notice of Exemption Filed for 359 Hudson Street in Healdsburg: Entitlement Under Review, Unknown, lifecycle_opportunity_score 74.
+- Entitlement / Permitting - Other / Unknown - CEQA Notice of Exemption Filed for 359 Hudson Street in Healdsburg: Environmental Review / CEQA, Unknown, lifecycle_opportunity_score 61.
 
 ## Construction-Ready / Construction-Start Signals
 
-- Wood framing rising for mixed-use project at 5843 W. Pico Blvd.: Vertical Construction, Los Angeles, lifecycle_opportunity_score 86.
-- Entitlement / Permitting - Other / Unknown - Wood framing rising for mixed-use project at 5843 W. Pico Blvd.: Vertical Construction, Unknown, lifecycle_opportunity_score 81.
+- Construction Financing - Miami / Florida - Pearlmark Provides $81M for Apartment Project in Coral Gables: Vertical Construction, Miami, lifecycle_opportunity_score 99.
 
 ## Delivery / Lease-Up Signals
 
-- JV / Partnership - Other / Unknown - Joint Venture Buys 78-Unit Seniors Housing Complex in Metro Philadelphia: Delivery / Opening, Unknown, lifecycle_opportunity_score 88.
+- Office-to-Residential Conversion - Riverside / California - Citi Provides $210M Refi for Grand Hyatt Resort in Southern California: Delivery / Opening, Southern California, lifecycle_opportunity_score 100.
+- JV / Partnership - California - HSR and Barings Break Ground on 501-Unit Multifamily Development at ELCO Yards in Redwood...: Delivery / Opening, California, lifecycle_opportunity_score 100.
 - Affordable housing takes shape at 327 S. Harbor Blvd. in San Pedro: Delivery / Opening, Los Angeles, lifecycle_opportunity_score 83.
+- Acquisition - Los Angeles / California - Haven Housing Acquires The Evergrove at Crystal Village Apartment Community in Austin Texa...: Delivery / Opening, Austin, lifecycle_opportunity_score 75.
+- Office-to-Residential Conversion - Washington DC - National Real Estate Advisors Opens Office-to-Residential Conversion Project in D.C.: Delivery / Opening, Washington, D.C., lifecycle_opportunity_score 64.
 - Office-to-Residential Conversion - National - 3 notable office-to-residential conversions in DC: Delivery / Opening, National, lifecycle_opportunity_score 56.
 
 ## Distressed / Stalled Lifecycle Signals
 
-- Disposition / Exit - Dallas / Texas - Marcus & Millichap Facilitates Sale of Two-Property Multifamily Distressed Portfolio in Da...: Distressed / Stalled, Dallas, lifecycle_risk_score 83.
 - Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled, Atlanta, lifecycle_risk_score 74.
 
 ## Refinancing / Recapitalization Lifecycle Signals
 
-- Construction Financing - California - Lincoln Property Co., McCourt Partners Receive $132.7M Construction Loan for Culver City M...: Refinancing / Recapitalization, California, lifecycle_risk_score 59.
-- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization, California, lifecycle_risk_score 59.
-- Office-to-Residential Conversion - California - JLL Arranges $210M Refinancing for Grand Hyatt Indian Wells Resort & Villas in California: Refinancing / Recapitalization, California, lifecycle_risk_score 58.
-- Construction Financing - California - Lincoln Property Company Secures $132.7M Construction Loan for Culver City California Mixe...: Refinancing / Recapitalization, California, lifecycle_risk_score 55.
-- Refinancing - Dallas / Texas - Lone Star Funds Scores $110M Refinancing for Two Stafford Rental Communities: Refinancing / Recapitalization, Dallas, lifecycle_risk_score 53.
-- Refinancing - Texas - Walker & Dunlop Arranges $110M Refinancing of Two Apartment Communities in Stafford, Texas: Refinancing / Recapitalization, Texas, lifecycle_risk_score 53.
-- Lincoln Property Co., McCourt Partners Receive $132.7M Construction Loan for Culver City Multifamily Project: Refinancing / Recapitalization, Culver City, lifecycle_risk_score 49.
-- JLL Arranges $210M Refinancing for Grand Hyatt Indian Wells Resort & Villas in California: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 47.
-- Lincoln Property Company Secures $132.7M Construction Loan for Culver City California Mixed-Use Development: Refinancing / Recapitalization, Culver City, lifecycle_risk_score 46.
+- Refinancing - Dallas / Texas - SMBC Refis Apartments Near Dallas, Philly With $108M Loan: Refinancing / Recapitalization, Dallas, lifecycle_risk_score 53.
+- Refinancing - Miami / Florida - The Vibe in Miami’s Little Havana Secures $50.8M Refinancing: Refinancing / Recapitalization, Miami, lifecycle_risk_score 52.
+- Refinancing - Texas - Walker & Dunlop Arranges $110M Refinancing for Two Multifamily Properties in Stafford Texa...: Refinancing / Recapitalization, Texas, lifecycle_risk_score 52.
+- Refinancing - Other / Unknown - Walker & Dunlop Investment Partners Supplies $63M Refi for Illinois Apartments: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 51.
+- Office-to-Residential Conversion - Other / Unknown - Downtown Conversion Lands Construction Loan: The D.C. Deal Sheet: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 51.
+- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization, California, lifecycle_risk_score 40.
+- Downtown Conversion Lands Construction Loan: The D.C. Deal Sheet: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 34.
 
 ## Implications for Woomi / Woomi Global
 
@@ -84,24 +83,24 @@ Generated: 2026-10-16 01:02:12
 
 ## Recommended Lifecycle Follow-up Actions
 
-- Monitor sponsor stress, lender exposure, and potential restart or rescue capital path: Disposition / Exit - Dallas / Texas - Marcus & Millichap Facilitates Sale of Two-Property Multifamily Distressed Portfolio in Da....
-- Track lender, maturity, debt terms, and recapitalization need: Construction Financing - California - Lincoln Property Co., McCourt Partners Receive $132.7M Construction Loan for Culver City M....
-- Track lender, maturity, debt terms, and recapitalization need: Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities.
-- Track lender, maturity, debt terms, and recapitalization need: Office-to-Residential Conversion - California - JLL Arranges $210M Refinancing for Grand Hyatt Indian Wells Resort & Villas in California.
-- Track lender, maturity, debt terms, and recapitalization need: Construction Financing - California - Lincoln Property Company Secures $132.7M Construction Loan for Culver City California Mixe....
-- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Dallas / Texas - Lone Star Funds Scores $110M Refinancing for Two Stafford Rental Communities.
-- Track lender, maturity, debt terms, and recapitalization need: Lincoln Property Company Secures $132.7M Construction Loan for Culver City California Mixed-Use Development.
+- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Dallas / Texas - SMBC Refis Apartments Near Dallas, Philly With $108M Loan.
+- Monitor lifecycle signal for repeated confirmation: Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily.
 - Monitor lifecycle signal for repeated confirmation: Construction Financing - Los Angeles / California - Culver City Mixed-Use Secures $133M Bank OZK Loan.
+- Monitor lifecycle signal for repeated confirmation: JV / Partnership - California - IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield.
+- Monitor lifecycle signal for repeated confirmation: JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex.
+- Benchmark delivery, lease-up, occupancy, and rent assumptions: Office-to-Residential Conversion - Riverside / California - Citi Provides $210M Refi for Grand Hyatt Resort in Southern California.
+- Benchmark delivery, lease-up, occupancy, and rent assumptions: JV / Partnership - California - HSR and Barings Break Ground on 501-Unit Multifamily Development at ELCO Yards in Redwood....
+- Monitor lifecycle signal for repeated confirmation: JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 79
-- Newly detected projects: 44
+- Lifecycle transitions analyzed: 84
+- Newly detected projects: 46
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 53
+- LA lifecycle transition watch items: 47
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -109,11 +108,11 @@ Generated: 2026-10-16 01:02:12
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 661
-- Canonical projects: 152
-- Duplicate project clusters: 99
-- Persistent assets tracked: 152
-- LA persistent asset watch items: 110
+- Raw project references: 695
+- Canonical projects: 181
+- Duplicate project clusters: 118
+- Persistent assets tracked: 181
+- LA persistent asset watch items: 121
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -121,10 +120,10 @@ Generated: 2026-10-16 01:02:12
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 152
-- Institutional-grade signals: 18
-- High-confidence signals: 45
-- Weak/noisy signals: 88
-- High-confidence watchlist items: 45
+- Signals evaluated: 181
+- Institutional-grade signals: 19
+- High-confidence signals: 51
+- Weak/noisy signals: 105
+- High-confidence watchlist items: 51
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

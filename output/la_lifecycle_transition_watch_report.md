@@ -1,8 +1,8 @@
 # LA Lifecycle Transition Watch Report
 
-Generated: 2026-10-16 01:02:12
+Generated: 2026-10-17 01:07:29
 
-- Total LA lifecycle transition watch items: 53
+- Total LA lifecycle transition watch items: 47
 
 ## LA Projects Moving Forward
 
@@ -14,43 +14,41 @@ Generated: 2026-10-16 01:02:12
 
 ## LA Permit / Construction Start Watch
 
-- Wood framing rising for mixed-use project at 5843 W. Pico Blvd.: Vertical Construction -> Vertical Construction, Construction start watch.
+- None detected.
 
 ## LA Refinancing / Recap Timing Watch
 
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Refinancing - Dallas / Texas - Lone Star Funds Scores $110M Refinancing for Two Stafford Rental Communities: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Construction Financing - California - Lincoln Property Co., McCourt Partners Receive $132.7M Construction Loan for Culver City M...: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Office-to-Residential Conversion - California - JLL Arranges $210M Refinancing for Grand Hyatt Indian Wells Resort & Villas in California: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Construction Financing - California - Lincoln Property Company Secures $132.7M Construction Loan for Culver City California Mixe...: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- JLL Arranges $210M Refinancing for Grand Hyatt Indian Wells Resort & Villas in California: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Lincoln Property Company Secures $132.7M Construction Loan for Culver City California Mixed-Use Development: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Lincoln Property Co., McCourt Partners Receive $132.7M Construction Loan for Culver City Multifamily Project: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Refinancing - Dallas / Texas - SMBC Refis Apartments Near Dallas, Philly With $108M Loan: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Downtown Conversion Lands Construction Loan: The D.C. Deal Sheet: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Office-to-Residential Conversion - Other / Unknown - Downtown Conversion Lands Construction Loan: The D.C. Deal Sheet: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 
 ## LA Delivery / Lease-Up Benchmarks
 
-- JV / Partnership - Other / Unknown - Joint Venture Buys 78-Unit Seniors Housing Complex in Metro Philadelphia: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- JV / Partnership - California - HSR and Barings Break Ground on 501-Unit Multifamily Development at ELCO Yards in Redwood...: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- Office-to-Residential Conversion - Riverside / California - Citi Provides $210M Refi for Grand Hyatt Resort in Southern California: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- Acquisition - Los Angeles / California - Haven Housing Acquires The Evergrove at Crystal Village Apartment Community in Austin Texa...: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
 - Affordable housing takes shape at 327 S. Harbor Blvd. in San Pedro: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
 
 ## Recommended LA Transition Follow-up Actions
 
-- Use as delivery, lease-up, and underwriting benchmark: JV / Partnership - Other / Unknown - Joint Venture Buys 78-Unit Seniors Housing Complex in Metro Philadelphia.
+- Use as delivery, lease-up, and underwriting benchmark: JV / Partnership - California - HSR and Barings Break Ground on 501-Unit Multifamily Development at ELCO Yards in Redwood....
+- Use as delivery, lease-up, and underwriting benchmark: Office-to-Residential Conversion - Riverside / California - Citi Provides $210M Refi for Grand Hyatt Resort in Southern California.
+- Use as delivery, lease-up, and underwriting benchmark: Acquisition - Los Angeles / California - Haven Housing Acquires The Evergrove at Crystal Village Apartment Community in Austin Texa....
 - Use as delivery, lease-up, and underwriting benchmark: Affordable housing takes shape at 327 S. Harbor Blvd. in San Pedro.
-- Monitor for another run to confirm lifecycle direction: Wood framing rising for mixed-use project at 5843 W. Pico Blvd..
 - Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities.
-- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Dallas / Texas - Lone Star Funds Scores $110M Refinancing for Two Stafford Rental Communities.
-- Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - California - Lincoln Property Co., McCourt Partners Receive $132.7M Construction Loan for Culver City M....
-- Track maturity, lender, recapitalization need, and potential JV angle: Office-to-Residential Conversion - California - JLL Arranges $210M Refinancing for Grand Hyatt Indian Wells Resort & Villas in California.
-- Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - California - Lincoln Property Company Secures $132.7M Construction Loan for Culver City California Mixe....
+- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Dallas / Texas - SMBC Refis Apartments Near Dallas, Philly With $108M Loan.
+- Track maturity, lender, recapitalization need, and potential JV angle: Downtown Conversion Lands Construction Loan: The D.C. Deal Sheet.
+- Track maturity, lender, recapitalization need, and potential JV angle: Office-to-Residential Conversion - Other / Unknown - Downtown Conversion Lands Construction Loan: The D.C. Deal Sheet.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 661
-- Canonical projects: 152
-- Duplicate project clusters: 99
-- Persistent assets tracked: 152
-- LA persistent asset watch items: 110
+- Raw project references: 695
+- Canonical projects: 181
+- Duplicate project clusters: 118
+- Persistent assets tracked: 181
+- LA persistent asset watch items: 121
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

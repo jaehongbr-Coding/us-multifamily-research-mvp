@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-10-16 01:01:33
+Generated: 2026-10-17 01:06:46
 
 ## Top Strategic Relevance Articles
 
-- 86 / richness 85: Joint Venture Acquires 1,035-Bed Student Housing Property Near San Jose State University for $204.7M (REBusiness Online, California) - JV or partnership activity; institutional acquisition behavior
-- 83 / richness 70: Joint Venture Buys 78-Unit Seniors Housing Complex in Metro Philadelphia (REBusiness Online, Other / Unknown) - JV or partnership activity; institutional acquisition behavior
+- 85 / richness 70: TruAmerica Multifamily Expands Atlanta Metro Footprint with Bricks at Perimeter Center Acquisition (Yield PRO, Atlanta / Georgia) - sponsor expansion; institutional acquisition behavior
+- 83 / richness 70: JCCG Delivers 225-Unit Build-to-Rent Community in Opelika, Alabama (REBusiness Online, Southeast) - development continuation; institutional acquisition behavior
 - 80 / richness 85: Berkadia Arranges Refis for 3 S. Florida Rental Communities (Connect CRE South Florida, Miami / Florida) - institutional acquisition behavior; large-scale refinance tied to strategy
+- 78 / richness 85: Walker & Dunlop Investment Partners Supplies $63M Refi for Illinois Apartments (Commercial Observer, Other / Unknown) - lease-up or absorption behavior; large-scale refinance tied to strategy
+- 78 / richness 75: SMBC Refis Apartments Near Dallas, Philly With $108M Loan (Commercial Observer, Dallas / Texas) - institutional acquisition behavior; large-scale refinance tied to strategy
+- 77 / richness 70: Build-to-rent now eligible for Federal Housing Administration financing (Multifamily Dive, Other / Unknown) - institutional acquisition behavior; large-scale refinance tied to strategy
 - 76 / richness 100: Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex (Connect CRE South Florida, Miami / Florida) - JV or partnership activity
+- 73 / richness 90: Pearlmark Provides $81M for Apartment Project in Coral Gables (Commercial Observer, Miami / Florida) - development continuation
+- 73 / richness 90: HSR and Barings Break Ground on 501-Unit Multifamily Development at ELCO Yards in Redwood City California (Yield PRO, California) - JV or partnership activity
 - 72 / richness 85: IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield (Connect CRE California, California) - JV or partnership activity
-- 70 / richness 85: BridgeCity Lends $84M on Midtown East Office-to-Resi Conversion (Commercial Observer, Other / Unknown) - institutional acquisition behavior
-- 70 / richness 85: ESJ Inks Acquisition Loan for 144-Unit Kannapolis Rental Asset (Connect CRE Apartments, Atlanta / Georgia) - institutional acquisition behavior
-- 68 / richness 75: JLL Arranges $463M Bridge Financing for 8-Property Multifamily Portfolio (Yield PRO, Georgia) - institutional acquisition behavior
-- 68 / richness 75: JLL Arranges $276M Refi for Newport Beach Seniors Communities (Connect CRE Orange County, California) - institutional acquisition behavior; large-scale refinance tied to strategy; classification confidence penalty
-- 68 / richness 75: Hines Pays $237.8M for Buckhead Rental Community (Connect CRE Atlanta, Atlanta / Georgia) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -40,13 +40,13 @@ Generated: 2026-10-16 01:01:33
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 22
-- Development / sponsor behavior articles: 38
+- Financing-oriented articles: 26
+- Development / sponsor behavior articles: 45
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations
 
-- No obvious office/industrial/retail contamination candidates detected after filtering.
+- Review possible non-multifamily contamination: Link Logistics Acquires 550,992 SF Industrial Property in Youngsville, North Carolina (REBusiness Online)
 
 ## Suggested Weighting Adjustments
 

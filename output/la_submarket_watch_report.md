@@ -1,21 +1,21 @@
 # LA / Southern California Submarket Watch Report
 
-Generated: 2026-10-16 01:02:08
+Generated: 2026-10-17 01:07:24
 
-- Total LA / Southern California submarkets detected: 11
+- Total LA / Southern California submarkets detected: 14
 
 ## Top LA / Southern California Submarkets
 
-- Culver City: opportunity 100, risk 89, Monitor only.
-- Pasadena: opportunity 90, risk 52, Pasadena entitlement precedent watch.
-- California: opportunity 81, risk 45, Monitor only.
+- Culver City: opportunity 93, risk 50, Monitor only.
+- Riverside: opportunity 81, risk 55, Inland Empire BTR / rental housing watch.
+- Echo Park: opportunity 76, risk 44, Monitor only.
 - Santa Monica: opportunity 68, risk 30, Monitor only.
 - Venice: opportunity 68, risk 30, Monitor only.
+- Pasadena: opportunity 67, risk 52, Pasadena entitlement precedent watch.
 - Anaheim: opportunity 65, risk 30, Orange County suburban apartment watch.
-- Arts District: opportunity 63, risk 30, Monitor only.
+- Los Angeles: opportunity 61, risk 55, Monitor only.
 - Koreatown: opportunity 56, risk 30, Koreatown multifamily watch.
-- Los Angeles: opportunity 28, risk 30, Monitor only.
-- Orange County: opportunity 12, risk 30, Orange County suburban apartment watch.
+- California: opportunity 40, risk 20, Monitor only.
 
 ## Koreatown / Wilshire Watch
 
@@ -24,7 +24,7 @@ Generated: 2026-10-16 01:02:08
 
 ## DTLA / Adaptive Reuse Watch
 
-- Arts District: opportunity 63, risk 30, Monitor only.
+- Arts District: opportunity 12, risk 30, Monitor only.
 
 ## Hollywood / Transit-Oriented Watch
 
@@ -32,7 +32,7 @@ Generated: 2026-10-16 01:02:08
 
 ## Pasadena / Entitlement Precedent Watch
 
-- Pasadena: opportunity 90, risk 52, Pasadena entitlement precedent watch.
+- Pasadena: opportunity 67, risk 52, Pasadena entitlement precedent watch.
 
 ## Long Beach / Mixed-Use Watch
 
@@ -45,7 +45,7 @@ Generated: 2026-10-16 01:02:08
 
 ## Inland Empire / BTR Watch
 
-- None detected.
+- Riverside: opportunity 81, risk 55, Inland Empire BTR / rental housing watch.
 
 ## LA Density Bonus / TOC Watch
 
@@ -53,18 +53,19 @@ Generated: 2026-10-16 01:02:08
 
 ## LA CEQA / Entitlement Risk Watch
 
-- Culver City: opportunity 100, risk 89, Monitor only.
+- Riverside: opportunity 81, risk 55, Inland Empire BTR / rental housing watch.
+- Los Angeles: opportunity 61, risk 55, Monitor only.
 
 ## Recommended Local Follow-up Actions
 
 - Review potential acquisition pipeline: Culver City / Monitor only.
-- Track local planning docket and entitlement precedent: Pasadena / Pasadena entitlement precedent watch.
-- Track local planning docket and entitlement precedent: California / Monitor only.
+- Track local planning docket and entitlement precedent: Riverside / Inland Empire BTR / rental housing watch.
+- Track local planning docket and entitlement precedent: Echo Park / Monitor only.
 - Track local planning docket and entitlement precedent: Santa Monica / Monitor only.
 - Track local planning docket and entitlement precedent: Venice / Monitor only.
+- Track local planning docket and entitlement precedent: Pasadena / Pasadena entitlement precedent watch.
 - Review potential acquisition pipeline: Anaheim / Orange County suburban apartment watch.
-- Review potential acquisition pipeline: Arts District / Monitor only.
-- Review potential acquisition pipeline: Koreatown / Koreatown multifamily watch.
+- Track local planning docket and entitlement precedent: Los Angeles / Monitor only.
 
 ## Asset / Parcel Intelligence Reference
 
@@ -74,8 +75,8 @@ Asset / parcel-level site clues are available in `asset_parcel_intelligence_repo
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 79
-- LA lifecycle watch items: 55
-- Stage mix: Distressed / Stalled: 2, Refinancing / Recapitalization: 9, Unknown Stage: 45, Site Acquisition / Site Control: 13, Entitled / Approved: 2
+- Lifecycle records: 84
+- LA lifecycle watch items: 50
+- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 53, Delivery / Opening: 6, Site Acquisition / Site Control: 11, Vertical Construction: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

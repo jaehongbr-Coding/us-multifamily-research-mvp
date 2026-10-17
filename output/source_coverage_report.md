@@ -1,15 +1,15 @@
 # Site / Parcel Source Coverage Report
 
-Generated: 2026-10-16 01:01:41
+Generated: 2026-10-17 01:06:56
 
 - Total added sources attempted: 25
 - Successful sources: 7
 - Blocked / inaccessible / skipped sources: 18
-- Sources with zero Site / Parcel candidates: 25
+- Sources with zero Site / Parcel candidates: 24
 
 ## Top Site / Parcel Candidate Sources
 
-- No added source produced a saved Site / Parcel candidate in this run.
+- REBusiness Online: 1 candidate(s) from 20 fetched article(s).
 
 ## Why Coverage May Still Be Thin
 
@@ -19,7 +19,7 @@ Generated: 2026-10-16 01:01:41
 
 ## Source Detail
 
-- REBusiness Online: no relevant articles | fetched 20 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
+- REBusiness Online: success | fetched 20 | Site / Parcel candidates 1 | Available
 - Connect CRE Apartments: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
 - Connect CRE Texas: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
 - Connect CRE South Florida: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected

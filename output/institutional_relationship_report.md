@@ -1,6 +1,6 @@
 # Institutional Relationship & Capital Flow Report
 
-Generated: 2026-10-17 01:06:58
+Generated: 2026-10-18 00:41:36
 
 ## Top Institutional Relationship Signals
 
@@ -84,7 +84,7 @@ Generated: 2026-10-17 01:06:58
 | Brookfield | California | Regional / California / LA Sources | disposition / exit; JV / partnership; operational technology / AI adoption | Capital Outflow / Exit | Potential JV / Partnership Signal | potential JV partnership signal |
 | Freddie Mac | Miami / Florida; Other / Unknown | Core Multifamily News; Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
 | Hines | Atlanta / Georgia; Dallas / Texas | Site / Parcel Source Expansion | acquisition; disposition / exit; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
-| JLL | California; Dallas / Texas; Miami / Florida; New York City / New York; Riverside / California | Core Multifamily News; Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; office-to-residential conversion; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
+| JLL | California; Dallas / Texas; New York City / New York; Riverside / California | Core Multifamily News; Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; office-to-residential conversion; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
 | Lincoln Property Company | Los Angeles / California; Other / Unknown | Regional / California / LA Sources; Site / Parcel Source Expansion | disposition / exit; refinancing; JV / partnership; operational technology / AI adoption | Capital Outflow / Exit | Potential JV / Partnership Signal | potential JV partnership signal |
 | Marcus & Millichap | California; Other / Unknown | Core Multifamily News; Regional / California / LA Sources; Site / Parcel Source Expansion | acquisition; disposition / exit; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
 | McCourt Partners | Los Angeles / California; Other / Unknown | Regional / California / LA Sources; Site / Parcel Source Expansion | disposition / exit; refinancing; JV / partnership; operational technology / AI adoption | Capital Outflow / Exit | Potential JV / Partnership Signal | potential JV partnership signal |
@@ -164,10 +164,10 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 181
-- Institutional-grade signals: 19
-- High-confidence signals: 51
-- Weak/noisy signals: 105
-- High-confidence watchlist items: 51
+- Signals evaluated: 172
+- Institutional-grade signals: 18
+- High-confidence signals: 52
+- Weak/noisy signals: 98
+- High-confidence watchlist items: 52
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

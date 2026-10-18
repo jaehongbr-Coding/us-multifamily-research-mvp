@@ -1,8 +1,8 @@
 # Submarket Intelligence Report
 
-Generated: 2026-10-17 01:07:24
+Generated: 2026-10-18 00:42:01
 
-- Total submarkets detected: 33
+- Total submarkets detected: 32
 
 ## Top Submarkets By Opportunity Score
 
@@ -19,7 +19,7 @@ Generated: 2026-10-17 01:07:24
 
 ## Top Submarkets By Risk Score
 
-- Miami (Florida): submarket_risk_score 82, Monitor refinancing / distress pipeline.
+- Miami (Florida): submarket_risk_score 65, Monitor refinancing / distress pipeline.
 - Dallas (Texas): submarket_risk_score 54, Review potential acquisition pipeline.
 - Culver City (Los Angeles): submarket_risk_score 50, Review potential acquisition pipeline.
 - Atlanta (Southeast): submarket_risk_score 47, Review potential acquisition pipeline.
@@ -28,7 +28,7 @@ Generated: 2026-10-17 01:07:24
 - Pasadena (Los Angeles): submarket_risk_score 21, Monitor entitlement precedent.
 - Riverside (Inland Empire): submarket_risk_score 15, Monitor entitlement precedent.
 - Other / Unknown (National / Other): submarket_risk_score 15, Monitor entitlement precedent.
-- Los Angeles / California (National / Other): submarket_risk_score 15, Monitor entitlement precedent.
+- Santa Monica (Los Angeles): submarket_risk_score 11, Monitor entitlement precedent.
 
 ## Highest Execution Complexity Submarkets
 
@@ -60,9 +60,9 @@ Generated: 2026-10-17 01:07:24
 
 ## Timing and Entitlement Signals By Submarket
 
-- Miami: 6 timing signal(s), 0 entitlement signal(s).
+- Miami: 4 timing signal(s), 0 entitlement signal(s).
 - Dallas: 2 timing signal(s), 0 entitlement signal(s).
-- Atlanta: 4 timing signal(s), 0 entitlement signal(s).
+- Atlanta: 3 timing signal(s), 0 entitlement signal(s).
 - New York: 2 timing signal(s), 0 entitlement signal(s).
 - Culver City: 1 timing signal(s), 0 entitlement signal(s).
 - Riverside: 2 timing signal(s), 1 entitlement signal(s).
@@ -94,8 +94,8 @@ Generated: 2026-10-17 01:07:24
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 84
-- LA lifecycle watch items: 50
-- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 53, Delivery / Opening: 6, Site Acquisition / Site Control: 11, Vertical Construction: 1
+- Lifecycle records: 79
+- LA lifecycle watch items: 45
+- Stage mix: Refinancing / Recapitalization: 6, Unknown Stage: 52, Delivery / Opening: 6, Site Acquisition / Site Control: 7, Vertical Construction: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

@@ -1,10 +1,10 @@
 # Market Entry Window Report
 
-Generated: 2026-10-17 01:07:24
+Generated: 2026-10-18 00:42:01
 
 ## Top Market Entry Windows
 
-- California: score 91, Active Watch Window, posture: Actively source opportunities.
+- California: score 87, Active Watch Window, posture: Actively source opportunities.
 - Texas: score 80, Active Watch Window, posture: Actively source opportunities.
 - National / Other: score 68, Selective Entry Window, posture: Monitor refinancing and distress pipeline.
 - Seattle: score 53, Early Signal / Prepare, posture: Prepare GP conversations.
@@ -15,7 +15,7 @@ Generated: 2026-10-17 01:07:24
 
 ## LA / California Entry Window
 
-- California: score 91, Active Watch Window, posture: Actively source opportunities.
+- California: score 87, Active Watch Window, posture: Actively source opportunities.
 - Los Angeles: score 33, Monitor Only, posture: Prepare GP conversations.
 
 ## Sun Belt Entry Window
@@ -51,7 +51,7 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 
 ## Key Risks and Opportunities
 
-- California: risks: financing stress and refinancing pressure; supply, delivery, lease-up, or concession pressure; entitlement, zoning, permitting, and policy uncertainty; opportunities: active opportunity radar signals; possible distress or recapitalization watch; capital-flow or institutional activity signal; core Woomi California / LA strategic relevance.
+- California: risks: financing stress and refinancing pressure; entitlement, zoning, permitting, and policy uncertainty; opportunities: active opportunity radar signals; possible distress or recapitalization watch; capital-flow or institutional activity signal; core Woomi California / LA strategic relevance.
 - Texas: risks: financing stress and refinancing pressure; opportunities: active opportunity radar signals; possible distress or recapitalization watch; capital-flow or institutional activity signal.
 - National / Other: risks: financing stress and refinancing pressure; supply, delivery, lease-up, or concession pressure; opportunities: active opportunity radar signals; possible distress or recapitalization watch.
 - Seattle: risks: limited timing evidence; opportunities: active opportunity radar signals; capital-flow or institutional activity signal.
@@ -65,9 +65,9 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 84
-- LA lifecycle watch items: 50
-- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 53, Delivery / Opening: 6, Site Acquisition / Site Control: 11, Vertical Construction: 1
+- Lifecycle records: 79
+- LA lifecycle watch items: 45
+- Stage mix: Refinancing / Recapitalization: 6, Unknown Stage: 52, Delivery / Opening: 6, Site Acquisition / Site Control: 7, Vertical Construction: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -75,10 +75,10 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 84
-- Newly detected projects: 46
+- Lifecycle transitions analyzed: 79
+- Newly detected projects: 3
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 47
+- LA lifecycle transition watch items: 42
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 

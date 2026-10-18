@@ -1,15 +1,15 @@
 # Executive Dashboard Brief
 
-Generated: 2026-10-17 01:06:46
+Generated: 2026-10-18 00:41:28
 
 ## Executive Snapshot
 
-- Total articles reviewed: 81
-- High-confidence signals: 51
-- Institutional-grade signals: 19
-- Opportunities: 59
-- Distress signals: 12
-- Recommended executive focus: Review Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities and related high-confidence project signals.
+- Total articles reviewed: 78
+- High-confidence signals: 52
+- Institutional-grade signals: 18
+- Opportunities: 57
+- Distress signals: 11
+- Recommended executive focus: Review Refinancing - Dallas / Texas - SMBC Refis Apartments Near Dallas, Philly With $108M Loan and related high-confidence project signals.
 
 ## Top 5 Things to Review Today
 
@@ -48,8 +48,8 @@ Generated: 2026-10-17 01:06:46
 - Refinancing Gap: Refinancing Gap may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
 - JV / Partnership Gap: JV / Partnership Gap may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
 - Refinancing Gap: Refinancing Gap may create a pricing, capital, partnership, or pipeline opening in Dallas / Texas. Action: Add to executive opportunity review.
-- Refinancing Gap: Refinancing Gap may create a pricing, capital, partnership, or pipeline opening in Miami / Florida. Action: Add to executive opportunity review.
 - Construction Financing Gap: Construction Financing Gap may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
+- Refinancing Gap: Refinancing Gap may create a pricing, capital, partnership, or pipeline opening in Texas. Action: Add to executive opportunity review.
 
 ## Development Lifecycle Watch
 

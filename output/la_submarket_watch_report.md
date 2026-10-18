@@ -1,6 +1,6 @@
 # LA / Southern California Submarket Watch Report
 
-Generated: 2026-10-17 01:07:24
+Generated: 2026-10-18 00:42:01
 
 - Total LA / Southern California submarkets detected: 14
 
@@ -15,7 +15,7 @@ Generated: 2026-10-17 01:07:24
 - Anaheim: opportunity 65, risk 30, Orange County suburban apartment watch.
 - Los Angeles: opportunity 61, risk 55, Monitor only.
 - Koreatown: opportunity 56, risk 30, Koreatown multifamily watch.
-- California: opportunity 40, risk 20, Monitor only.
+- California: opportunity 32, risk 20, Monitor only.
 
 ## Koreatown / Wilshire Watch
 
@@ -75,8 +75,8 @@ Asset / parcel-level site clues are available in `asset_parcel_intelligence_repo
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 84
-- LA lifecycle watch items: 50
-- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 53, Delivery / Opening: 6, Site Acquisition / Site Control: 11, Vertical Construction: 1
+- Lifecycle records: 79
+- LA lifecycle watch items: 45
+- Stage mix: Refinancing / Recapitalization: 6, Unknown Stage: 52, Delivery / Opening: 6, Site Acquisition / Site Control: 7, Vertical Construction: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

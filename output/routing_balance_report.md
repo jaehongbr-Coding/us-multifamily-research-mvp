@@ -1,18 +1,18 @@
 # Routing Balance Report
 
 - Market Intelligence count: 16
-- Development Activity count: 60
+- Development Activity count: 57
 - GP / Capital Activity count: 3
 - Excluded count: 1
 - Rent/Demand candidate count: 4
-- Project anchor article count: 56
+- Project anchor article count: 53
 - Development-excluded transaction article count: 5
 - Low-value promotional excluded count: 1
-- Site / Parcel positive candidates count: 3
+- Site / Parcel positive candidates count: 2
 - Site / Parcel excluded transaction count: 0
 - Source missing count: 0
 - Market missing count: 0
-- Stage missing count: 60
+- Stage missing count: 57
 
 ## Rent/Demand Titles
 - Multifamily Absorption Rate Remains Below 50%
@@ -24,7 +24,6 @@
 - AI, Automation & the Future of Multifamily Finance | promotional/event keyword: webinar
 
 ## Site / Parcel Included Examples
-- Warner Center development site showing activity at 6160 Variel Ave. | Development Activity | site/parcel signal with project anchor: development site
 - Rendering vs. Reality: Mixed-use building at 1808 Lincoln Blvd. in Venice | Development Activity | site/parcel signal with project anchor: former site
 - Max Benjamin Partners Arranges $74.8M in Construction Financing for Townhome Property in Flagstaff, Arizona | Development Activity | site/parcel signal with project anchor: acres + development/site signal
 
@@ -32,8 +31,8 @@
 - None
 
 ## Sample Validation
+- Groundbreaking of Age-Restricted Affordable Housing for Wildfires Survivors in California | Development Activity | rent_demand=No | development_project_anchor: Construction Start (unit/site count: 60-unit; execution milestone: groundbreaking; site/parcel signal: site; project/asset term: development)
 - Haven Housing Acquires The Evergrove at Crystal Village Apartment Community in Austin Texas | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 346-unit; project/asset term: development)
-- The Vibe in Miami’s Little Havana Secures $50.8M Refinancing | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 194-unit; project/asset term: project)
 - Pearlmark Provides $81M for Apartment Project in Coral Gables | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 160-unit; execution milestone: broke ground; project/asset term: project; project financing tied to anchor: construction financing)
 - Walker & Dunlop Investment Partners Supplies $63M Refi for Illinois Apartments | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (execution milestone: lease-up; project/asset term: development)
 - SMBC Refis Apartments Near Dallas, Philly With $108M Loan | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 600 units; project/asset term: apartments)

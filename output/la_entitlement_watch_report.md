@@ -1,8 +1,8 @@
 # LA / California Entitlement Watch Report
 
-Generated: 2026-10-17 01:07:24
+Generated: 2026-10-18 00:42:01
 
-- Total LA / California entitlement watch items: 9
+- Total LA / California entitlement watch items: 8
 
 ## Top LA / California Entitlement Opportunities
 
@@ -13,7 +13,6 @@ Generated: 2026-10-17 01:07:24
 - Los Angeles: CEQA / Environmental Review, Under Review, score 30. Monitor local sponsor activity.
 - Colorado: Entitlement Approval, Unknown Stage, score 30. Watch affordable housing requirement.
 - Los Angeles / California: Entitlement Approval, Unknown Stage, score 30. Track entitlement precedent.
-- Los Angeles / California: Entitlement Approval, Unknown Stage, score 30. Track entitlement precedent.
 - Santa Monica / California: Entitlement Approval, Early Planning, score 30. Track entitlement precedent.
 
 ## Top LA / California Entitlement Risks
@@ -22,7 +21,6 @@ Generated: 2026-10-17 01:07:24
 - Los Angeles: CEQA / Environmental Review, Under Review, score 65. Monitor local sponsor activity.
 - Colorado: Entitlement Approval, Unknown Stage, score 38. Watch affordable housing requirement.
 - Los Angeles: Office-to-Residential Conversion, Unknown Stage, score 28. Track office-to-residential feasibility.
-- Los Angeles / California: Entitlement Approval, Unknown Stage, score 28. Track entitlement precedent.
 - Los Angeles / California: Entitlement Approval, Unknown Stage, score 28. Track entitlement precedent.
 - Southern California: Office-to-Residential Conversion, Unknown Stage, score 28. Track office-to-residential feasibility.
 - Los Angeles: Entitlement Approval, Approved / Entitled, score 20. Benchmark permitting timeline.
@@ -33,8 +31,8 @@ Generated: 2026-10-17 01:07:24
 | Submarket | Items | Top relevance |
 | --- | ---: | ---: |
 | Los Angeles | 4 | 61 |
-| Los Angeles / California | 2 | 42 |
 | Colorado | 1 | 45 |
+| Los Angeles / California | 1 | 42 |
 | Santa Monica / California | 1 | 40 |
 | Southern California | 1 | 35 |
 
@@ -45,7 +43,6 @@ Generated: 2026-10-17 01:07:24
 - Los Angeles: Entitlement Approval, Approved / Entitled, score 49. Benchmark permitting timeline.
 - Los Angeles: Office-to-Residential Conversion, Unknown Stage, score 48. Track office-to-residential feasibility.
 - Colorado: Entitlement Approval, Unknown Stage, score 45. Watch affordable housing requirement.
-- Los Angeles / California: Entitlement Approval, Unknown Stage, score 42. Track entitlement precedent.
 - Los Angeles / California: Entitlement Approval, Unknown Stage, score 42. Track entitlement precedent.
 - Santa Monica / California: Entitlement Approval, Early Planning, score 40. Track entitlement precedent.
 - Southern California: Office-to-Residential Conversion, Unknown Stage, score 35. Track office-to-residential feasibility.
@@ -68,8 +65,8 @@ Generated: 2026-10-17 01:07:24
 - Track local planning docket, sponsor, submarket, and entitlement precedent: Los Angeles / Office-to-Residential Conversion.
 - Track local planning docket, sponsor, submarket, and entitlement precedent: Colorado / Entitlement Approval.
 - Track local planning docket, sponsor, submarket, and entitlement precedent: Los Angeles / California / Entitlement Approval.
-- Track local planning docket, sponsor, submarket, and entitlement precedent: Los Angeles / California / Entitlement Approval.
 - Track local planning docket, sponsor, submarket, and entitlement precedent: Santa Monica / California / Entitlement Approval.
+- Track local planning docket, sponsor, submarket, and entitlement precedent: Southern California / Office-to-Residential Conversion.
 
 ## Submarket / Parcel Intelligence Reference
 
@@ -79,8 +76,8 @@ Submarket-level site strategy detail is available in `submarket_intelligence_rep
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 84
-- LA lifecycle watch items: 50
-- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 53, Delivery / Opening: 6, Site Acquisition / Site Control: 11, Vertical Construction: 1
+- Lifecycle records: 79
+- LA lifecycle watch items: 45
+- Stage mix: Refinancing / Recapitalization: 6, Unknown Stage: 52, Delivery / Opening: 6, Site Acquisition / Site Control: 7, Vertical Construction: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

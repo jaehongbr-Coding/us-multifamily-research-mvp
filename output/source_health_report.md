@@ -1,6 +1,6 @@
 # Source Health Report
 
-Generated: 2026-10-17 01:06:48
+Generated: 2026-10-18 00:41:29
 
 - Total sources attempted: 163
 - Working sources: 22
@@ -11,11 +11,11 @@ Generated: 2026-10-17 01:06:48
 ## High-Value Sources
 
 - Multifamily Dive (Core Multifamily News): 3 saved article(s).
-- Yield PRO (Core Multifamily News): 8 saved article(s).
+- Yield PRO (Core Multifamily News): 7 saved article(s).
 - Commercial Observer (Core Multifamily News): 6 saved article(s).
 - Connect CRE (Core Multifamily News): 5 saved article(s).
 - NAHB Eye on Housing - Multifamily (Public Agency / Housing Data): 16 saved article(s).
-- Urbanize LA (Regional / California / LA Sources): 8 saved article(s).
+- Urbanize LA (Regional / California / LA Sources): 7 saved article(s).
 - REBusiness Online (Site / Parcel Source Expansion): 12 saved article(s).
 - Connect CRE Apartments (Site / Parcel Source Expansion): 9 saved article(s).
 - Connect CRE South Florida (Site / Parcel Source Expansion): 4 saved article(s).
@@ -26,7 +26,7 @@ Generated: 2026-10-17 01:06:48
 
 - Multifamily Executive (Core Multifamily News): 2 saved article(s).
 - Bisnow (Core Multifamily News): 2 saved article(s).
-- SF YIMBY (Regional / California / LA Sources): 2 saved article(s).
+- SF YIMBY (Regional / California / LA Sources): 1 saved article(s).
 - Connect CRE Texas (Site / Parcel Source Expansion): 2 saved article(s).
 - Connect CRE Orange County (Site / Parcel Source Expansion): 2 saved article(s).
 
@@ -73,7 +73,7 @@ Developer / GP source coverage is available in `gp_source_coverage_report.md`.
 Validated source activation scoring is available in `source_activation_report.md`.
 - Working activated sources: 21
 - Failed critical sources: 11
-- Highest quality source this run: Yield PRO (97).
+- Highest quality source this run: Connect CRE (94).
 
 ## Recommended Source Improvement Actions
 

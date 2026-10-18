@@ -1,6 +1,6 @@
 # 한국어 GP Watchlist
 
-- 생성 시각: 2026-10-17 01:06:46
+- 생성 시각: 2026-10-18 00:41:28
 - 참고 원문 파일: `gp_watchlist_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -11,11 +11,11 @@
 - Brookfield: 기타 / 미확인, 일반 주거, 점수 76 (Tier 2 High Potential GP; Potential GP partnership candidate)
 - Hines: 기타 / 미확인, 일반 주거, 점수 75 (Tier 2 High Potential GP; Potential GP partnership candidate)
 - IPA: 기타 / 미확인, 일반 주거, 점수 75 (Tier 2 High Potential GP; Potential GP partnership candidate)
-- High Street Residential: 기타 / 미확인, 일반 주거, 점수 71 (Tier 2 High Potential GP; Potential GP partnership candidate)
 - Walker & Dunlop: 기타 / 미확인, 일반 주거, 점수 70 (Tier 2 High Potential GP; Potential GP partnership candidate)
 - JLL: 기타 / 미확인, 일반 주거, 점수 68 (Tier 3 Monitoring GP; Potential GP partnership candidate)
 - JLL: 기타 / 미확인, 일반 주거, 점수 68 (Tier 3 Monitoring GP; Potential GP partnership candidate)
 - Lincoln Property Company: 기타 / 미확인, 일반 주거, 점수 68 (Tier 3 Monitoring GP; Potential GP partnership candidate)
+- McCourt Partners: 기타 / 미확인, 일반 주거, 점수 68 (Tier 3 Monitoring GP; Potential GP partnership candidate)
 
 ## 기관자본 연결성
 

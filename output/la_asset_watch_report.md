@@ -1,8 +1,8 @@
 # LA / Southern California Asset Watch Report
 
-Generated: 2026-10-17 01:07:26
+Generated: 2026-10-18 00:42:03
 
-- Total LA / Southern California asset watch items: 49
+- Total LA / Southern California asset watch items: 44
 
 ## Top LA Site-Level Opportunities
 
@@ -15,7 +15,7 @@ Generated: 2026-10-17 01:07:26
 - General Project Signal - Los Angeles / California - Jamison flips to affordable housing at 679 S. Harvard Blvd. in Koreatown: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 100.
 - JV / Partnership - Los Angeles / California - Affordable housing takes shape at 327 S. Harbor Blvd. in San Pedro: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 100.
 - JV / Partnership - California - IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
-- Entitlement / Permitting - Los Angeles / California - Warner Center development site showing activity at 6160 Variel Ave.: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
+- JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
 
 ## Top LA Site-Level Risks
 
@@ -63,9 +63,9 @@ Generated: 2026-10-17 01:07:26
 - JV / Partnership - California - IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
 - JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
 - JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
-- Warner Center development site showing activity at 6160 Variel Ave.: Los Angeles, Acquisition / Site Control, la_asset_opportunity_score 100.
 - Rendering vs. Reality: Mixed-use building at 1808 Lincoln Blvd. in Venice: Los Angeles, Construction-Ready Pipeline, la_asset_opportunity_score 99.
 - Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Los Angeles, General Asset Signal, la_asset_opportunity_score 97.
+- Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Los Angeles, General Asset Signal, la_asset_opportunity_score 97.
 
 ## Recommended LA Asset Follow-up Actions
 
@@ -82,9 +82,9 @@ Generated: 2026-10-17 01:07:26
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 84
-- LA lifecycle watch items: 50
-- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 53, Delivery / Opening: 6, Site Acquisition / Site Control: 11, Vertical Construction: 1
+- Lifecycle records: 79
+- LA lifecycle watch items: 45
+- Stage mix: Refinancing / Recapitalization: 6, Unknown Stage: 52, Delivery / Opening: 6, Site Acquisition / Site Control: 7, Vertical Construction: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -92,11 +92,11 @@ Generated: 2026-10-17 01:07:26
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 84
-- Newly detected projects: 46
+- Lifecycle transitions analyzed: 79
+- Newly detected projects: 3
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 47
+- LA lifecycle transition watch items: 42
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -104,10 +104,10 @@ Generated: 2026-10-17 01:07:26
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 695
-- Canonical projects: 181
-- Duplicate project clusters: 118
-- Persistent assets tracked: 181
-- LA persistent asset watch items: 121
+- Raw project references: 655
+- Canonical projects: 172
+- Duplicate project clusters: 113
+- Persistent assets tracked: 172
+- LA persistent asset watch items: 113
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

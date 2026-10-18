@@ -1,10 +1,10 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-10-17 01:06:58
+Generated: 2026-10-18 00:41:36
 
-- GP/developer candidates reviewed: 32
+- GP/developer candidates reviewed: 33
 - Tier 1 Strategic GPs: 0
-- Tier 2 High Potential GPs: 7
+- Tier 2 High Potential GPs: 6
 
 ## Top Emerging GPs
 
@@ -13,11 +13,11 @@ Generated: 2026-10-17 01:06:58
 - Brookfield: 76 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
 - Hines: 75 (Tier 2 High Potential GP), Dallas / Texas, California / LA strategic positioning.
 - IPA: 75 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
-- High Street Residential: 71 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
 - Walker & Dunlop: 70 (Tier 2 High Potential GP), Other / Unknown, Institutional-backed regional expansion.
-- JLL: 68 (Tier 3 Monitoring GP), Miami / Florida, California / LA strategic positioning.
-- JLL: 68 (Tier 3 Monitoring GP), Miami / Florida, California / LA strategic positioning.
+- JLL: 68 (Tier 3 Monitoring GP), Dallas / Texas, California / LA strategic positioning.
+- JLL: 68 (Tier 3 Monitoring GP), Dallas / Texas, California / LA strategic positioning.
 - Lincoln Property Company: 68 (Tier 3 Monitoring GP), Other / Unknown, California / LA strategic positioning.
+- McCourt Partners: 68 (Tier 3 Monitoring GP), Other / Unknown, California / LA strategic positioning.
 
 ## Tier 1 Strategic GP
 
@@ -30,7 +30,6 @@ Generated: 2026-10-17 01:06:58
 - Brookfield: score 76, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 75, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 - IPA: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- High Street Residential: score 71, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Walker & Dunlop: score 70, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## California / LA GP Activity
@@ -40,11 +39,11 @@ Generated: 2026-10-17 01:06:58
 - Brookfield: score 76, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 75, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 - IPA: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- High Street Residential: score 71, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 68, Tier 3 Monitoring GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 68, Tier 3 Monitoring GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 68, Tier 3 Monitoring GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 68, Tier 3 Monitoring GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 - Lincoln Property Company: score 68, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
 - McCourt Partners: score 68, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 68, Tier 3 Monitoring GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## BTR / SFR GP Activity
 
@@ -62,6 +61,7 @@ Generated: 2026-10-17 01:06:58
 
 - Brookfield: score 76, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - IPA: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
+- First Abu Dhabi Bank: score 60, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## Innovation-Oriented GP Activity
 
@@ -74,11 +74,11 @@ Generated: 2026-10-17 01:06:58
 - Brookfield: score 76, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 75, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 - IPA: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- High Street Residential: score 71, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Walker & Dunlop: score 70, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 68, Tier 3 Monitoring GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 68, Tier 3 Monitoring GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 68, Tier 3 Monitoring GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 68, Tier 3 Monitoring GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 - Lincoln Property Company: score 68, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- McCourt Partners: score 68, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## Potential Woomi Partnership Candidates
 
@@ -87,11 +87,11 @@ Generated: 2026-10-17 01:06:58
 - Brookfield: score 76, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 75, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 - IPA: score 75, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- High Street Residential: score 71, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Walker & Dunlop: score 70, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 68, Tier 3 Monitoring GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 68, Tier 3 Monitoring GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 68, Tier 3 Monitoring GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 68, Tier 3 Monitoring GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 - Lincoln Property Company: score 68, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- McCourt Partners: score 68, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## GP Source Expansion Summary
 
@@ -133,18 +133,18 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 - Brookfield: Track JV and capital partner activity.
 - Hines: Track JV and capital partner activity.
 - IPA: Track JV and capital partner activity.
-- High Street Residential: Track JV and capital partner activity.
 - Walker & Dunlop: Track JV and capital partner activity.
+- JLL: Track JV and capital partner activity.
 - JLL: Track JV and capital partner activity.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 181
-- Institutional-grade signals: 19
-- High-confidence signals: 51
-- Weak/noisy signals: 105
-- High-confidence watchlist items: 51
+- Signals evaluated: 172
+- Institutional-grade signals: 18
+- High-confidence signals: 52
+- Weak/noisy signals: 98
+- High-confidence watchlist items: 52
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

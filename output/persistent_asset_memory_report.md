@@ -1,11 +1,11 @@
 # Persistent Asset Memory Report
 
-Generated: 2026-10-17 01:07:29
+Generated: 2026-10-18 00:42:06
 
-- Total persistent assets tracked: 181
-- Newly detected assets: 156
+- Total persistent assets tracked: 172
+- Newly detected assets: 119
 - Progressing assets: 0
-- Possible stalled assets: 4
+- Possible stalled assets: 6
 
 ## Highest Priority Asset Watch Items
 
@@ -18,7 +18,7 @@ Generated: 2026-10-17 01:07:29
 - Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Priority Asset Watch, Unknown Stage, score 87.
 - Disposition / Exit - Dallas / Texas - Hines Acquires Bishop Arts Multifamily, Retail Portfolio: Priority Asset Watch, Unknown Stage, score 87.
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Priority Asset Watch, Unknown Stage, score 87.
-- Acquisition - Atlanta / Georgia - TruAmerica Multifamily Expands Atlanta Metro Footprint with Bricks at Perimeter Center Acq...: Priority Asset Watch, Unknown Stage, score 86.
+- Acquisition - California - Colliers Brokers Sale of Two-Property Multifamily Portfolio in Fallbrook, California for $...: Priority Asset Watch, Site Acquisition / Site Control, score 86.
 
 ## Assets With Repeated Financing Signals
 
@@ -29,22 +29,22 @@ Generated: 2026-10-17 01:07:29
 - Refinancing - Texas - Walker & Dunlop Arranges $110M Refinancing for Two Multifamily Properties in Stafford Texa...: Priority Asset Watch, Refinancing / Recapitalization, score 78.
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Priority Asset Watch, Refinancing / Recapitalization, score 78.
 - General Project Signal - Other / Unknown - Merchants Capital Secures $30M for 227-Unit Indianapolis Multifamily Development: Strategic Asset Watch, Unknown Stage, score 74.
-- Refinancing - Miami / Florida - The Vibe in Miami’s Little Havana Secures $50.8M Refinancing: Strategic Asset Watch, Refinancing / Recapitalization, score 73.
 - Construction Financing - Beverly Hills / California - Max Benjamin Partners Arranges $74.8M in Construction Financing for Townhome Property in F...: Strategic Asset Watch, Entitlement Under Review, score 73.
 - Acquisition - Other / Unknown - Berkadia Arranges Sale of 458-Unit Multifamily Property in Mount Pleasant, Wisconsin: Strategic Asset Watch, Unknown Stage, score 71.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: Strategic Asset Watch, Entitlement Under Review, score 69.
 
 ## Assets With Repeated Entitlement Signals
 
 - Office-to-Residential Conversion - Riverside / California - Citi Provides $210M Refi for Grand Hyatt Resort in Southern California: Priority Asset Watch, Delivery / Opening, score 85.
-- Acquisition - Los Angeles / California - Haven Housing Acquires The Evergrove at Crystal Village Apartment Community in Austin Texa...: Priority Asset Watch, Site Acquisition / Site Control, score 75.
 - Construction Financing - Beverly Hills / California - Max Benjamin Partners Arranges $74.8M in Construction Financing for Townhome Property in F...: Strategic Asset Watch, Entitlement Under Review, score 73.
-- General Project Signal - Los Angeles / California - Renderings Revealed For 5035 International Boulevard, Melrose, Oakland: Strategic Asset Watch, Site Acquisition / Site Control, score 73.
 - Entitlement / Permitting - Santa Monica / California - Southwest Valley Community Plans take a step forward: Strategic Asset Watch, Early Site Signal, score 71.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: Strategic Asset Watch, Entitlement Under Review, score 69.
 - Downtown Conversion Lands Construction Loan: The D.C. Deal Sheet: Strategic Asset Watch, Unknown Stage, score 69.
-- Entitlement / Permitting - Los Angeles / California - Rendering vs. Reality: 176 apartments at 2225 Sunset Boulevard in Echo Park: Strategic Asset Watch, Site Acquisition / Site Control, score 68.
-- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: Strategic Asset Watch, Entitlement Under Review, score 63.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: Strategic Asset Watch, Entitlement Under Review, score 68.
 - Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: Strategic Asset Watch, Unknown Stage, score 62.
-- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: Strategic Asset Watch, Entitlement Under Review, score 61.
+- Entitlement / Permitting - Los Angeles / California - Rendering vs. Reality: 176 apartments at 2225 Sunset Boulevard in Echo Park: Strategic Asset Watch, Unknown Stage, score 61.
+- General Project Signal - National - Annex Group Breaks Ground on $71M Affordable Housing Community in Indianapolis: Strategic Asset Watch, Unknown Stage, score 60.
+- Office-to-Residential Conversion - Washington DC - National Real Estate Advisors Opens Office-to-Residential Conversion Project in D.C.: Strategic Asset Watch, Unknown Stage, score 60.
 
 ## Recurring Asset Signals
 
@@ -57,7 +57,7 @@ Generated: 2026-10-17 01:07:29
 - Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Priority Asset Watch, Unknown Stage, score 87.
 - Disposition / Exit - Dallas / Texas - Hines Acquires Bishop Arts Multifamily, Retail Portfolio: Priority Asset Watch, Unknown Stage, score 87.
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Priority Asset Watch, Unknown Stage, score 87.
-- Acquisition - Atlanta / Georgia - TruAmerica Multifamily Expands Atlanta Metro Footprint with Bricks at Perimeter Center Acq...: Priority Asset Watch, Unknown Stage, score 86.
+- Acquisition - California - Colliers Brokers Sale of Two-Property Multifamily Portfolio in Fallbrook, California for $...: Priority Asset Watch, Site Acquisition / Site Control, score 86.
 
 ## Implications for Woomi / Woomi Global
 
@@ -79,10 +79,10 @@ Generated: 2026-10-17 01:07:29
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 181
-- Institutional-grade signals: 19
-- High-confidence signals: 51
-- Weak/noisy signals: 105
-- High-confidence watchlist items: 51
+- Signals evaluated: 172
+- Institutional-grade signals: 18
+- High-confidence signals: 52
+- Weak/noisy signals: 98
+- High-confidence watchlist items: 52
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

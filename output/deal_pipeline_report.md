@@ -1,9 +1,9 @@
 # Deal & Project Pipeline Report
 
-Generated: 2026-10-17 01:06:58
+Generated: 2026-10-18 00:41:36
 
-- Total deal/project signals found: 63
-- High deal intelligence count: 11
+- Total deal/project signals found: 61
+- High deal intelligence count: 10
 
 ## Top 10 Deal / Project Signals
 
@@ -16,7 +16,7 @@ Generated: 2026-10-17 01:06:58
 - Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Construction Financing, California, score 85. Capital market signal.
 - Construction Financing - Miami / Florida - Pearlmark Provides $81M for Apartment Project in Coral Gables: Construction Financing, Miami / Florida, score 85. Capital market signal.
 - JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: JV / Partnership, Miami / Florida, score 85. Capital market signal.
-- Refinancing - Miami / Florida - The Vibe in Miami’s Little Havana Secures $50.8M Refinancing: Refinancing, Miami / Florida, score 85. Capital market signal.
+- Construction Financing - Miami / Florida - Related Urban Secures $129M Financing for Downtown Miami Project: Construction Financing, Miami / Florida, score 83. Capital market signal.
 
 ## California / LA Deal Watch
 
@@ -24,10 +24,10 @@ Generated: 2026-10-17 01:06:58
 - JV / Partnership - California - IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield: JV / Partnership, California, score 91. GP partnership reference.
 - Construction Financing - Los Angeles / California - Culver City Mixed-Use Secures $133M Bank OZK Loan: Construction Financing, Los Angeles / California, score 85. Capital market signal.
 - Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Construction Financing, California, score 85. Capital market signal.
-- JV / Partnership - California - HSR and Barings Break Ground on 501-Unit Multifamily Development at ELCO Yards in Redwood...: JV / Partnership, California, score 76. GP partnership reference.
 - Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Disposition / Exit, California, score 75. Entitlement / zoning watch.
 - Office-to-Residential Conversion - Riverside / California - Citi Provides $210M Refi for Grand Hyatt Resort in Southern California: Office-to-Residential Conversion, Riverside / California, score 72. Capital market signal.
 - Acquisition - California - Colliers Brokers Sale of Two-Property Multifamily Portfolio in Fallbrook, California for $...: Acquisition, California, score 71. Pricing benchmark.
+- Development Start - Los Angeles / California - Groundbreaking of Age-Restricted Affordable Housing for Wildfires Survivors in California: Development Start, Los Angeles / California, score 65. Capital market signal.
 - JV / Partnership - Los Angeles / California - Affordable housing takes shape at 327 S. Harbor Blvd. in San Pedro: JV / Partnership, Los Angeles / California, score 65. GP partnership reference.
 - Acquisition - Los Angeles / California - Haven Housing Acquires The Evergrove at Crystal Village Apartment Community in Austin Texa...: Acquisition, Los Angeles / California, score 55. Monitor only.
 
@@ -42,7 +42,7 @@ Generated: 2026-10-17 01:06:58
 - Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Construction Financing, California, score 85. Capital market signal.
 - Construction Financing - Miami / Florida - Pearlmark Provides $81M for Apartment Project in Coral Gables: Construction Financing, Miami / Florida, score 85. Capital market signal.
 - JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: JV / Partnership, Miami / Florida, score 85. Capital market signal.
-- Refinancing - Miami / Florida - The Vibe in Miami’s Little Havana Secures $50.8M Refinancing: Refinancing, Miami / Florida, score 85. Capital market signal.
+- Construction Financing - Miami / Florida - Related Urban Secures $129M Financing for Downtown Miami Project: Construction Financing, Miami / Florida, score 83. Capital market signal.
 
 ## Financing / Refinancing Signals
 
@@ -54,21 +54,21 @@ Generated: 2026-10-17 01:06:58
 - Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Construction Financing, California, score 85. Capital market signal.
 - Construction Financing - Miami / Florida - Pearlmark Provides $81M for Apartment Project in Coral Gables: Construction Financing, Miami / Florida, score 85. Capital market signal.
 - JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: JV / Partnership, Miami / Florida, score 85. Capital market signal.
-- Refinancing - Miami / Florida - The Vibe in Miami’s Little Havana Secures $50.8M Refinancing: Refinancing, Miami / Florida, score 85. Capital market signal.
 - Construction Financing - Miami / Florida - Related Urban Secures $129M Financing for Downtown Miami Project: Construction Financing, Miami / Florida, score 83. Capital market signal.
+- JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City: JV / Partnership, Other / Unknown, score 77. Capital market signal.
 
 ## Project Pipeline / Supply Signals
 
 - Refinancing - Dallas / Texas - SMBC Refis Apartments Near Dallas, Philly With $108M Loan: Refinancing, Dallas / Texas, score 95. Capital market signal.
 - Refinancing - Texas - Walker & Dunlop Arranges $110M Refinancing for Two Multifamily Properties in Stafford Texa...: Refinancing, Texas, score 92. Capital market signal.
 - JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City: JV / Partnership, Other / Unknown, score 77. Capital market signal.
-- JV / Partnership - California - HSR and Barings Break Ground on 501-Unit Multifamily Development at ELCO Yards in Redwood...: JV / Partnership, California, score 76. GP partnership reference.
 - Entitlement / Permitting - Los Angeles / California - Rendering vs. Reality: 176 apartments at 2225 Sunset Boulevard in Echo Park: Entitlement / Permitting, Los Angeles / California, score 75. Entitlement / zoning watch.
-- Entitlement / Permitting - Los Angeles / California - Warner Center development site showing activity at 6160 Variel Ave.: Entitlement / Permitting, Los Angeles / California, score 75. Entitlement / zoning watch.
+- Development Start - Los Angeles / California - Groundbreaking of Age-Restricted Affordable Housing for Wildfires Survivors in California: Development Start, Los Angeles / California, score 65. Capital market signal.
 - Entitlement / Permitting - Santa Monica / California - Southwest Valley Community Plans take a step forward: Entitlement / Permitting, Santa Monica / California, score 65. Entitlement / zoning watch.
 - JV / Partnership - Los Angeles / California - Affordable housing takes shape at 327 S. Harbor Blvd. in San Pedro: JV / Partnership, Los Angeles / California, score 65. GP partnership reference.
 - Entitlement / Permitting - Other / Unknown - Rendering vs. Reality: Mixed-use building at 1808 Lincoln Blvd. in Venice: Entitlement / Permitting, Other / Unknown, score 64. Entitlement / zoning watch.
 - BTR / Build-to-Rent - Southeast - JCCG Delivers 225-Unit Build-to-Rent Community in Opelika, Alabama: BTR / Build-to-Rent, Southeast, score 63. Pipeline / supply signal.
+- Entitlement / Permitting - Colorado - More Pasadena affordable housing in the works at 1976 E. Colorado Blvd.: Entitlement / Permitting, Colorado, score 55. Entitlement / zoning watch.
 
 ## BTR / Modular / Innovation Signals
 
@@ -79,6 +79,7 @@ Generated: 2026-10-17 01:06:58
 
 - Acquisition - Miami / Florida - Berkadia Arranges Refis for 3 S. Florida Rental Communities: Acquisition, Miami / Florida, score 85. Pricing benchmark.
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Acquisition, Atlanta / Georgia, score 77. Pricing benchmark.
+- Acquisition - Texas - Bridge Investment Group Forecloses on Two Multifamily Communities in Texas: Acquisition, Texas, score 75. Pricing benchmark.
 - Acquisition - California - Colliers Brokers Sale of Two-Property Multifamily Portfolio in Fallbrook, California for $...: Acquisition, California, score 71. Pricing benchmark.
 - Acquisition - New York City / New York - Merchants Bank Provides $27.5M in Financing for Brooklyn Affordable Housing Complex: Acquisition, New York City / New York, score 64. Pricing benchmark.
 - Acquisition - Atlanta / Georgia - Passco Offloads Buckhead Rental Asset for $87.5M: Acquisition, Atlanta / Georgia, score 52. Pricing benchmark.
@@ -87,15 +88,15 @@ Generated: 2026-10-17 01:06:58
 
 ## Deal / Project Signals By Residential Sector
 
-- Apartment: 26 deal/project signal(s)
-- Multifamily: 11 deal/project signal(s)
-- Affordable Housing: 11 deal/project signal(s)
-- Mixed-Use Residential: 7 deal/project signal(s)
+- Apartment: 25 deal/project signal(s)
+- Affordable Housing: 12 deal/project signal(s)
+- Multifamily: 10 deal/project signal(s)
+- Mixed-Use Residential: 5 deal/project signal(s)
+- Student Housing: 2 deal/project signal(s)
 - General Residential: 2 deal/project signal(s)
 - BTR / Single-Family Rental: 2 deal/project signal(s)
 - Office-to-Residential Conversion: 2 deal/project signal(s)
 - Senior Housing: 1 deal/project signal(s)
-- Student Housing: 1 deal/project signal(s)
 
 ## Canonical Deal Summary
 

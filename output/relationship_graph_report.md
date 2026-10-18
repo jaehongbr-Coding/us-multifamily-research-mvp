@@ -1,11 +1,11 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-10-17 01:06:58
+Generated: 2026-10-18 00:41:36
 
-- Total relationship edges: 127
-- Most connected developer / GP: JLL (15 edge(s))
-- Most connected lender / debt provider: jll (5 edge(s))
-- Most connected market: Los Angeles / California (7 edge(s))
+- Total relationship edges: 121
+- Most connected developer / GP: JLL (11 edge(s))
+- Most connected lender / debt provider: jll (4 edge(s))
+- Most connected market: Los Angeles / California (6 edge(s))
 - Strongest relationship edge: Brookfield -> California
 - Highest Woomi relevance edge: Brookfield -> California
 
@@ -43,10 +43,10 @@ Generated: 2026-10-17 01:06:58
 - Lincoln Property Company -> berkadia: Financing Relationship, Los Angeles / California, score 95. Track GP relationship history.
 - Walker & Dunlop -> walker & dunlop: Financing Relationship, Texas, score 95. Track GP relationship history.
 - Berkadia -> berkadia: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Miami / Florida, score 92. Track GP relationship history.
 - Hines -> jll: Financing Relationship, Dallas / Texas, score 89. Track GP relationship history.
 - Walker & Dunlop -> walker & dunlop: Financing Relationship, Other / Unknown, score 89. Track GP relationship history.
+- Greystone -> freddie mac: Financing Relationship, Miami / Florida, score 88. Track GP relationship history.
 
 ## Capital Partner / Institutional Flow Map
 
@@ -80,7 +80,7 @@ Generated: 2026-10-17 01:06:58
 - PCCP -> California: Financing Relationship, California, score 92. Track GP relationship history.
 - PCCP -> Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Financing Relationship, California, score 92. Track GP relationship history.
 - Lincoln Property Company -> Los Angeles: Financing Relationship, Los Angeles / California, score 87. Track GP relationship history.
-- High Street Residential -> California: JV / Partnership, California, score 84. Review potential JV relevance.
+- Marcus & Millichap -> California: Disposition / Seller, California, score 75. Track GP relationship history.
 
 ## Potential Woomi Partnership Signals
 
@@ -92,8 +92,8 @@ Generated: 2026-10-17 01:06:58
 - Berkadia -> Miami / Florida: JV / Partnership, Miami / Florida, score 87. Review potential JV relevance.
 - Berkadia -> South Florida: JV / Partnership, Miami / Florida, score 87. Review potential JV relevance.
 - Lincoln Property Company -> JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City: JV / Partnership, Other / Unknown, score 86. Review potential JV relevance.
-- High Street Residential -> California: JV / Partnership, California, score 84. Review potential JV relevance.
-- High Street Residential -> JV / Partnership - California - HSR and Barings Break Ground on 501-Unit Multifamily Development at ELCO Yards in Redwood...: JV / Partnership, California, score 84. Review potential JV relevance.
+- JV / Partnership - Los Angeles / California - Affordable housing takes shape at 327 S. Harbor Blvd. in San Pedro -> Los Angeles: JV / Partnership, Los Angeles / California, score 60. Review potential JV relevance.
+- JV / Partnership - Los Angeles / California - Affordable housing takes shape at 327 S. Harbor Blvd. in San Pedro -> Los Angeles / California: JV / Partnership, Los Angeles / California, score 60. Review potential JV relevance.
 
 ## Canonical Relationship Map
 
@@ -155,10 +155,10 @@ Longitudinal memory is available in `historical_memory_report.md`.
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 695
-- Canonical projects: 181
-- Duplicate project clusters: 118
-- Persistent assets tracked: 181
-- LA persistent asset watch items: 121
+- Raw project references: 655
+- Canonical projects: 172
+- Duplicate project clusters: 113
+- Persistent assets tracked: 172
+- LA persistent asset watch items: 113
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

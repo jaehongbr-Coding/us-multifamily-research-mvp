@@ -1,26 +1,26 @@
 # Regime Transition Report
 
-Generated: 2026-10-17 01:07:30
+Generated: 2026-10-18 00:42:07
 
 ## Summary
 
 - Current primary regime: Developer Strategy Shift
-- Previous primary regime: Selective Capital Re-entry
-- Regime changed: Yes
-- Consecutive runs in current regime: 1
+- Previous primary regime: Developer Strategy Shift
+- Regime changed: No
+- Consecutive runs in current regime: 2
 - Confidence direction: stable
 - Market signals direction: stable
-- Transition label: Possible Regime Shift
+- Transition label: Persistent Regime
 
 ## Recent Regime History
 
 | Run Timestamp | Primary Regime | Secondary Regime | Confidence | Market Signals | Top Strategic Angle | Top Market Focus | Top Market Signal |
 | --- | --- | --- | --- | ---: | --- | --- | --- |
-| 2026-10-13 03:24:23 | Selective Capital Re-entry | Developer Strategy Shift | High | 35 | Developer Strategy | Other / Unknown | Deal Size Signal |
 | 2026-10-14 01:37:57 | Developer Strategy Shift | Selective Capital Re-entry | High | 26 | Developer Strategy | Other / Unknown | Rent Growth Signal |
 | 2026-10-15 01:14:24 | Selective Capital Re-entry | Developer Strategy Shift | High | 32 | Developer Strategy | Other / Unknown | Deal Size Signal |
 | 2026-10-16 01:01:33 | Selective Capital Re-entry | Developer Strategy Shift | High | 32 | Developer Strategy | California | Rent Growth Signal |
 | 2026-10-17 01:06:46 | Developer Strategy Shift | Selective Capital Re-entry | High | 31 | Developer Strategy | Other / Unknown | Rent Growth Signal |
+| 2026-10-18 00:41:28 | Developer Strategy Shift | Selective Capital Re-entry | High | 29 | Developer Strategy | Other / Unknown | Rent Growth Signal |
 
 ## Historical Persistence Summary
 
@@ -30,6 +30,5 @@ Recurring relationship tracking is available in `relationship_persistence_report
 
 ## Strategy Interpretation
 
-- The detected regime changed, so the team should verify whether this is a true market shift or a temporary news-flow effect.
 - Developer Strategy Shift persistence may indicate changes in product strategy, partnerships, adaptive reuse, or delivery models.
 - Market-signal volume is stable compared with the previous run.

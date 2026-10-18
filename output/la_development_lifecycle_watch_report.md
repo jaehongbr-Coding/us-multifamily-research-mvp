@@ -1,16 +1,17 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-10-17 01:07:29
+Generated: 2026-10-18 00:42:06
 
-- Total LA lifecycle watch items: 50
+- Total LA lifecycle watch items: 45
 
 ## LA Lifecycle Stage Distribution
 
-- Unknown Stage: 27
-- Site Acquisition / Site Control: 10
+- Unknown Stage: 25
+- Site Acquisition / Site Control: 6
 - Refinancing / Recapitalization: 4
 - Delivery / Opening: 4
 - Entitlement Under Review: 2
+- Construction Started: 1
 - Early Site Signal: 1
 - Environmental Review / CEQA: 1
 - Distressed / Stalled: 1
@@ -49,7 +50,7 @@ Generated: 2026-10-17 01:07:29
 
 ## Construction-Ready LA Project Watch
 
-- None detected.
+- Development Start - Los Angeles / California - Groundbreaking of Age-Restricted Affordable Housing for Wildfires Survivors in California: Construction Started, Monitor only, opportunity 86.
 
 ## Recommended LA Lifecycle Follow-up Actions
 
@@ -59,18 +60,18 @@ Generated: 2026-10-17 01:07:29
 - Monitor lifecycle status for repeated confirmation: JV / Partnership - California - IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield.
 - Monitor lifecycle status for repeated confirmation: JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex.
 - Monitor lifecycle status for repeated confirmation: Office-to-Residential Conversion - Riverside / California - Citi Provides $210M Refi for Grand Hyatt Resort in Southern California.
-- Monitor lifecycle status for repeated confirmation: JV / Partnership - California - HSR and Barings Break Ground on 501-Unit Multifamily Development at ELCO Yards in Redwood....
 - Monitor lifecycle status for repeated confirmation: JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City.
+- Monitor lifecycle status for repeated confirmation: Construction Financing - Miami / Florida - Related Urban Secures $129M Financing for Downtown Miami Project.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 84
-- Newly detected projects: 46
+- Lifecycle transitions analyzed: 79
+- Newly detected projects: 3
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 47
+- LA lifecycle transition watch items: 42
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -78,10 +79,10 @@ Generated: 2026-10-17 01:07:29
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 695
-- Canonical projects: 181
-- Duplicate project clusters: 118
-- Persistent assets tracked: 181
-- LA persistent asset watch items: 121
+- Raw project references: 655
+- Canonical projects: 172
+- Duplicate project clusters: 113
+- Persistent assets tracked: 172
+- LA persistent asset watch items: 113
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

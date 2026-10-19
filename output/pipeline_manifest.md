@@ -1,6 +1,6 @@
 # Pipeline Manifest
 
-Generated: 2026-10-18 00:41:28
+Generated: 2026-10-19 00:51:48
 
 This file is the output index for the single-file MVP. It helps you see what was generated, who should read it, and where each output fits in the research workflow.
 
@@ -15,10 +15,10 @@ This file is the output index for the single-file MVP. It helps you see what was
 
 | File | Type | Category | Status | Rows / Sections | Reader |
 |---|---|---|---|---:|---|
-| `articles.csv` | CSV | Raw Collection | Generated | 78 | Strategy Team |
-| `high_priority_articles.csv` | CSV | Strategy Briefing | Generated | 47 | Executive |
-| `market_signals.csv` | CSV | Strategy Briefing | Generated | 29 | Strategy Team |
-| `strategy_briefing.csv` | CSV | Strategy Briefing | Generated | 48 | Executive |
+| `articles.csv` | CSV | Raw Collection | Generated | 79 | Strategy Team |
+| `high_priority_articles.csv` | CSV | Strategy Briefing | Generated | 49 | Executive |
+| `market_signals.csv` | CSV | Strategy Briefing | Generated | 30 | Strategy Team |
+| `strategy_briefing.csv` | CSV | Strategy Briefing | Generated | 51 | Executive |
 | `daily_strategy_briefing.md` | Markdown | Strategy Briefing | Generated | 8 | Executive |
 | `weekly_strategy_memo.md` | Markdown | Strategy Briefing | Generated | 39 | Executive |
 | `executive_dashboard_brief.md` | Markdown | Executive Dashboard | Generated | 11 | Executive |
@@ -36,8 +36,8 @@ This file is the output index for the single-file MVP. It helps you see what was
 | `dashboard_summary.csv` | CSV | Executive Dashboard | Generated | 1 | Technical / Maintenance |
 | `dashboard_cards.csv` | CSV | Executive Dashboard | Generated | 38 | Technical / Maintenance |
 | `dashboard_watchlists.csv` | CSV | Executive Dashboard | Generated | 98 | Technical / Maintenance |
-| `high_confidence_watchlist.csv` | CSV | Quality Control | Generated | 52 | Executive |
-| `signal_quality.csv` | CSV | Quality Control | Generated | 172 | Strategy Team |
+| `high_confidence_watchlist.csv` | CSV | Quality Control | Generated | 53 | Executive |
+| `signal_quality.csv` | CSV | Quality Control | Generated | 180 | Strategy Team |
 | `source_health.csv` | CSV | Source Management | Generated | 163 | Technical / Maintenance |
 | `source_coverage_report.csv` | CSV | Source Management | Generated | 25 | Technical / Maintenance |
 | `costar_intake_report.csv` | CSV | Source Management | Generated | 1 | Technical / Maintenance |
@@ -46,32 +46,32 @@ This file is the output index for the single-file MVP. It helps you see what was
 | `source_coverage_report.md` | Markdown | Source Management | Generated | 4 | Technical / Maintenance |
 | `costar_intake_report.md` | Markdown | Source Management | Generated | 4 | Technical / Maintenance |
 | `source_activation_report.md` | Markdown | Source Management | Generated | 11 | Technical / Maintenance |
-| `opportunity_radar.csv` | CSV | Opportunity / Distress | Generated | 57 | Investment Team |
-| `distress_watchlist.csv` | CSV | Opportunity / Distress | Generated | 11 | Investment Team |
+| `opportunity_radar.csv` | CSV | Opportunity / Distress | Generated | 58 | Investment Team |
+| `distress_watchlist.csv` | CSV | Opportunity / Distress | Generated | 10 | Investment Team |
 | `deal_pipeline.csv` | CSV | Deal / Asset Intelligence | Generated | 61 | Investment Team |
-| `asset_parcel_intelligence.csv` | CSV | Deal / Asset Intelligence | Generated | 80 | Development Team |
-| `la_asset_watch.csv` | CSV | Deal / Asset Intelligence | Generated | 44 | US Local Team |
-| `project_identity.csv` | CSV | Deal / Asset Intelligence | Generated | 655 | Technical / Maintenance |
-| `persistent_asset_memory.csv` | CSV | Historical Memory | Generated | 172 | Development Team |
-| `la_persistent_asset_watch.csv` | CSV | Historical Memory | Generated | 113 | US Local Team |
-| `entitlement_intelligence.csv` | CSV | Entitlement / Lifecycle Intelligence | Generated | 12 | Development Team |
-| `la_entitlement_watch.csv` | CSV | Entitlement / Lifecycle Intelligence | Generated | 8 | US Local Team |
-| `development_lifecycle.csv` | CSV | Entitlement / Lifecycle Intelligence | Generated | 79 | Development Team |
-| `lifecycle_transition.csv` | CSV | Entitlement / Lifecycle Intelligence | Generated | 79 | Development Team |
-| `timing_intelligence.csv` | CSV | Entitlement / Lifecycle Intelligence | Generated | 46 | Strategy Team |
+| `asset_parcel_intelligence.csv` | CSV | Deal / Asset Intelligence | Generated | 81 | Development Team |
+| `la_asset_watch.csv` | CSV | Deal / Asset Intelligence | Generated | 42 | US Local Team |
+| `project_identity.csv` | CSV | Deal / Asset Intelligence | Generated | 663 | Technical / Maintenance |
+| `persistent_asset_memory.csv` | CSV | Historical Memory | Generated | 180 | Development Team |
+| `la_persistent_asset_watch.csv` | CSV | Historical Memory | Generated | 114 | US Local Team |
+| `entitlement_intelligence.csv` | CSV | Entitlement / Lifecycle Intelligence | Generated | 11 | Development Team |
+| `la_entitlement_watch.csv` | CSV | Entitlement / Lifecycle Intelligence | Generated | 7 | US Local Team |
+| `development_lifecycle.csv` | CSV | Entitlement / Lifecycle Intelligence | Generated | 81 | Development Team |
+| `lifecycle_transition.csv` | CSV | Entitlement / Lifecycle Intelligence | Generated | 81 | Development Team |
+| `timing_intelligence.csv` | CSV | Entitlement / Lifecycle Intelligence | Generated | 42 | Strategy Team |
 | `market_entry_window.csv` | CSV | Strategy Briefing | Generated | 8 | Investment Team |
-| `gp_watchlist.csv` | CSV | GP / Institutional Intelligence | Generated | 33 | Strategy Team |
-| `gp_intelligence.csv` | CSV | GP / Institutional Intelligence | Generated | 33 | Strategy Team |
-| `institutional_relationships.csv` | CSV | GP / Institutional Intelligence | Generated | 33 | Strategy Team |
-| `relationship_graph.csv` | CSV | GP / Institutional Intelligence | Generated | 121 | Strategy Team |
+| `gp_watchlist.csv` | CSV | GP / Institutional Intelligence | Generated | 30 | Strategy Team |
+| `gp_intelligence.csv` | CSV | GP / Institutional Intelligence | Generated | 30 | Strategy Team |
+| `institutional_relationships.csv` | CSV | GP / Institutional Intelligence | Generated | 30 | Strategy Team |
+| `relationship_graph.csv` | CSV | GP / Institutional Intelligence | Generated | 129 | Strategy Team |
 | `regional_intelligence.csv` | CSV | Strategy Briefing | Generated | 13 | US Local Team |
 | `residential_sector_intelligence.csv` | CSV | Strategy Briefing | Generated | 11 | Strategy Team |
-| `historical_memory.csv` | CSV | Historical Memory | Generated | 11351 | Strategy Team |
-| `capital_flow_memory.csv` | CSV | Historical Memory | Generated | 2326 | Finance / Treasury |
-| `relationship_persistence.csv` | CSV | Historical Memory | Generated | 3036 | Strategy Team |
+| `historical_memory.csv` | CSV | Historical Memory | Generated | 11371 | Strategy Team |
+| `capital_flow_memory.csv` | CSV | Historical Memory | Generated | 2329 | Finance / Treasury |
+| `relationship_persistence.csv` | CSV | Historical Memory | Generated | 3039 | Strategy Team |
 | `pipeline_manifest.csv` | CSV | Quality Control | Generated | 60 | Technical / Maintenance |
 | `pipeline_manifest.md` | Markdown | Quality Control | Generated | 3 | Technical / Maintenance |
 | `pipeline_health.csv` | CSV | Quality Control | Generated | 141 | Technical / Maintenance |
 | `pipeline_health_report.md` | Markdown | Quality Control | Generated | 6 | Technical / Maintenance |
-| `error_log.csv` | CSV | Quality Control | Generated | 3713 | Technical / Maintenance |
+| `error_log.csv` | CSV | Quality Control | Generated | 3728 | Technical / Maintenance |
 | `run_summary.md` | Markdown | Quality Control | Generated | 5 | Executive |

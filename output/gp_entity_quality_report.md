@@ -1,14 +1,14 @@
 # GP / Capital Entity Quality Report
 
-Generated: 2026-10-18 00:41:36
+Generated: 2026-10-19 00:51:55
 
 ## Summary
 
-- Total GP/Capital articles: 46
-- Participant not identified: 11
-- Dictionary match: 23
+- Total GP/Capital articles: 45
+- Participant not identified: 12
+- Dictionary match: 24
 - Title fallback / headline extraction: 2
-- Low confidence or unresolved: 11
+- Low confidence or unresolved: 12
 
 ## Representative Resolved Samples
 
@@ -25,13 +25,13 @@ Generated: 2026-10-18 00:41:36
 
 ## Unresolved Examples
 
-- Haven Housing Acquires The Evergrove at Crystal Village Apartment Community in Austin Texas | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
 - Newmark Arranges $76.2M in Bridge Financing for New Orlando Multifamily Community | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
 - Colliers Brokers Sale of Two-Property Multifamily Portfolio in Fallbrook, California for $37M | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
 - Build-to-rent now eligible for Federal Housing Administration financing | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.
 - NYC Multifamily Sales Rise YTD Despite Sharp Pullback in Q3 | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
 - JCCG Delivers 225-Unit Build-to-Rent Community in Opelika, Alabama | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
 - Investor Takes Over Distressed Atlanta Apartment Asset | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.
+- Reception Benefit Recognizes the Gotham Organization for its Monitor Point Mixed Income Multifamily Development in Brooklyn | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
 - Passco Offloads Buckhead Rental Asset for $87.5M | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.
 - 2026 NOI & Operations Survey Report | Multifamily Executive | No institution name detected in dictionary, title, summary, or source text.
 - HBGI Q1 2026: Single-Family Construction Slips Across All Geographies | NAHB Eye on Housing - Multifamily | No institution name detected in dictionary, title, summary, or source text.

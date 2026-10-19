@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-10-18 00:42:06
+Generated: 2026-10-19 00:52:18
 
-- Total raw project references: 655
-- Total canonical projects: 172
-- Duplicate project clusters: 113
-- High-confidence project identities: 655
+- Total raw project references: 663
+- Total canonical projects: 180
+- Duplicate project clusters: 115
+- High-confidence project identities: 663
 - Low-confidence identities needing review: 0
-- LA / California project references: 394
+- LA / California project references: 397
 
 ## Top Repeated Projects
 
-- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 49 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 49 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 49 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 49 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 49 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 49 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 49 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 49 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 49 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 49 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 39 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 39 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 39 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 39 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 39 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 39 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 39 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 39 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 39 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter: 39 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

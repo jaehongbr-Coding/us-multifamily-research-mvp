@@ -1,19 +1,19 @@
 # GP / Capital Coverage Diagnostics
 
-Generated: 2026-10-18 00:41:28
+Generated: 2026-10-19 00:51:48
 
 ## Summary
 
-- GP / Capital candidate articles: 46
+- GP / Capital candidate articles: 45
 - Selected GP / Capital articles: 24
-- Excluded by repeat penalty: 9
+- Excluded by repeat penalty: 13
 - Excluded by integrity issue: 1
 
 ## Top Candidate Sources
 
 - REBusiness Online: 9 candidate(s), 5 selected, activities: disposition_exit:4; debt_financing:2; asset_management_operator_activity:1; construction_financing:1; reit_activity:1.
 - Commercial Observer: 6 candidate(s), 6 selected, activities: construction_financing:3; refinancing:3.
-- Yield PRO: 6 candidate(s), 2 selected, activities: disposition_exit:3; acquisition:1; refinancing:1; debt_financing:1.
+- Yield PRO: 6 candidate(s), 5 selected, activities: acquisition:2; disposition_exit:1; construction_financing:1; joint_venture:1; acquisition_financing:1.
 - Connect CRE: 4 candidate(s), 3 selected, activities: debt_financing:2; refinancing:1; disposition_exit:1.
 - Connect CRE Apartments: 4 candidate(s), 2 selected, activities: disposition_exit:2; construction_financing:1; acquisition:1.
 - Connect CRE South Florida: 3 candidate(s), 2 selected, activities: refinancing:1; joint_venture:1; debt_financing:1.
@@ -25,7 +25,7 @@ Generated: 2026-10-18 00:41:28
 ## Focus Source Coverage
 
 - Commercial Observer: status OK, articles 6, candidates 6, selected 6.
-- Bisnow: status OK, articles 2, candidates 1, selected 1.
+- Bisnow: status OK, articles 1, candidates 0, selected 0.
 - Connect CRE: status OK, articles 5, candidates 4, selected 3.
 - Connect CRE Apartments: status OK, articles 5, candidates 4, selected 2.
 - Connect CRE Texas: status OK, articles 1, candidates 1, selected 0.

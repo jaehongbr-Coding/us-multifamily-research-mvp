@@ -1,6 +1,6 @@
 # Signal Tuning Report
 
-Generated: 2026-10-18 00:41:28
+Generated: 2026-10-19 00:51:48
 
 ## Top Strategic Relevance Articles
 
@@ -10,10 +10,10 @@ Generated: 2026-10-18 00:41:28
 - 78 / richness 75: SMBC Refis Apartments Near Dallas, Philly With $108M Loan (Commercial Observer, Dallas / Texas) - institutional acquisition behavior; large-scale refinance tied to strategy
 - 77 / richness 70: Build-to-rent now eligible for Federal Housing Administration financing (Multifamily Dive, Other / Unknown) - institutional acquisition behavior; large-scale refinance tied to strategy
 - 76 / richness 100: Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex (Connect CRE South Florida, Miami / Florida) - JV or partnership activity
+- 76 / richness 75: Hillpointe Expands to Nevada with 360-Unit Multifamily Project in Reno (Yield PRO, Nevada) - sponsor expansion; institutional acquisition behavior; classification confidence penalty
+- 74 / richness 100: Cadence Real Estate Acquires Seattle Multifamily Community for $29M (Yield PRO, Seattle) - institutional acquisition behavior
 - 73 / richness 90: Pearlmark Provides $81M for Apartment Project in Coral Gables (Commercial Observer, Miami / Florida) - development continuation
 - 72 / richness 85: IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield (Connect CRE California, California) - JV or partnership activity
-- 70 / richness 85: Haven Housing Acquires The Evergrove at Crystal Village Apartment Community in Austin Texas (Yield PRO, Los Angeles / California) - institutional acquisition behavior
-- 70 / richness 85: BridgeCity Lends $84M on Midtown East Office-to-Resi Conversion (Commercial Observer, Other / Unknown) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -40,8 +40,8 @@ Generated: 2026-10-18 00:41:28
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 27
-- Development / sponsor behavior articles: 44
+- Financing-oriented articles: 26
+- Development / sponsor behavior articles: 46
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

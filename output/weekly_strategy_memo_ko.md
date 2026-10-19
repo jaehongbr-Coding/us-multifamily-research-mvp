@@ -1,6 +1,6 @@
 # 한국어 주간 전략 메모
 
-- 생성 시각: 2026-10-18 00:41:28
+- 생성 시각: 2026-10-19 00:51:48
 - 참고 원문 파일: `weekly_strategy_memo.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -15,7 +15,7 @@
 - Selective Capital Re-entry: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention)
 - Developer Strategy Shift: 기타 / 미확인, 아파트, 점수 98 (Tier 2 Strategic Review)
 - Supply Pressure: 기타 / 미확인, 아파트, 점수 97 (Tier 2 Strategic Review)
-- Policy / Entitlement Watch: 기타 / 미확인, 아파트, 점수 84 (Tier 3 Monitoring)
+- Policy / Entitlement Watch: 기타 / 미확인, 아파트, 점수 63 (Tier 3 Monitoring)
 
 ## 자본시장 / GP 동향
 
@@ -26,9 +26,9 @@
 ## 지역 / 섹터 관찰
 
 - California: California, 일반 주거, 점수 87 (Active Watch Window; Actively source opportunities)
-- Texas: Texas, 일반 주거, 점수 80 (Active Watch Window; Actively source opportunities)
 - National / Other: 전국 / 기타, 일반 주거, 점수 68 (Selective Entry Window; Monitor refinancing and distress pipeline)
-- Seattle: Seattle, 일반 주거, 점수 53 (Early Signal / Prepare; Prepare GP conversations)
+- Texas: Texas, 일반 주거, 점수 60 (Early Signal / Prepare; Prepare GP conversations)
+- Seattle: Seattle, 일반 주거, 점수 59 (Early Signal / Prepare; Prepare GP conversations)
 - Florida: Florida, 일반 주거, 점수 43 (Monitor Only; Prepare GP conversations)
 
 ## 우미 전략 시사점

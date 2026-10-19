@@ -1,8 +1,8 @@
 # LA / Southern California Submarket Watch Report
 
-Generated: 2026-10-18 00:42:01
+Generated: 2026-10-19 00:52:15
 
-- Total LA / Southern California submarkets detected: 14
+- Total LA / Southern California submarkets detected: 13
 
 ## Top LA / Southern California Submarkets
 
@@ -10,12 +10,12 @@ Generated: 2026-10-18 00:42:01
 - Riverside: opportunity 81, risk 55, Inland Empire BTR / rental housing watch.
 - Echo Park: opportunity 76, risk 44, Monitor only.
 - Santa Monica: opportunity 68, risk 30, Monitor only.
-- Venice: opportunity 68, risk 30, Monitor only.
 - Pasadena: opportunity 67, risk 52, Pasadena entitlement precedent watch.
 - Anaheim: opportunity 65, risk 30, Orange County suburban apartment watch.
 - Los Angeles: opportunity 61, risk 55, Monitor only.
 - Koreatown: opportunity 56, risk 30, Koreatown multifamily watch.
 - California: opportunity 32, risk 20, Monitor only.
+- Arts District: opportunity 12, risk 30, Monitor only.
 
 ## Koreatown / Wilshire Watch
 
@@ -62,10 +62,10 @@ Generated: 2026-10-18 00:42:01
 - Track local planning docket and entitlement precedent: Riverside / Inland Empire BTR / rental housing watch.
 - Track local planning docket and entitlement precedent: Echo Park / Monitor only.
 - Track local planning docket and entitlement precedent: Santa Monica / Monitor only.
-- Track local planning docket and entitlement precedent: Venice / Monitor only.
 - Track local planning docket and entitlement precedent: Pasadena / Pasadena entitlement precedent watch.
 - Review potential acquisition pipeline: Anaheim / Orange County suburban apartment watch.
 - Track local planning docket and entitlement precedent: Los Angeles / Monitor only.
+- Review potential acquisition pipeline: Koreatown / Koreatown multifamily watch.
 
 ## Asset / Parcel Intelligence Reference
 
@@ -75,8 +75,8 @@ Asset / parcel-level site clues are available in `asset_parcel_intelligence_repo
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 79
-- LA lifecycle watch items: 45
-- Stage mix: Refinancing / Recapitalization: 6, Unknown Stage: 52, Delivery / Opening: 6, Site Acquisition / Site Control: 7, Vertical Construction: 1
+- Lifecycle records: 81
+- LA lifecycle watch items: 44
+- Stage mix: Refinancing / Recapitalization: 4, Unknown Stage: 56, Vertical Construction: 1, Delivery / Opening: 6, Site Acquisition / Site Control: 7
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

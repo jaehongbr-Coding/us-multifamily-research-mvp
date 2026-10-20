@@ -1,123 +1,114 @@
 # Institutional Relationship & Capital Flow Report
 
-Generated: 2026-10-19 00:51:55
+Generated: 2026-10-20 01:37:05
 
 ## Top Institutional Relationship Signals
 
 - Berkadia: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Brookfield: score 100, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Freddie Mac: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Hines: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- IPA: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - JLL: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - Lincoln Property Company: score 100, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Marcus & Millichap: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - McCourt Partners: score 100, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Richman Group: score 99, Operational / Platform Investment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Marcus & Millichap: score 98, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- PCCP: score 91, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- S3 Capital: score 91, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- Fannie Mae: score 90, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- Hines: score 90, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Newport Beach Seniors Communities JLL Capital: score 90, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 
 ## Tier 1 Firm Watch
 
-- Brookfield: score 100, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Blackstone: score 78, No Clear Capital Flow Signal, No Clear Relationship Signal. Monitor only.
+- Greystar: score 75, Operational / Platform Investment, GP Capability Benchmark Signal. Monitor only.
 
 ## California / LA Capital and Developer Watch
 
 - Berkadia: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Brookfield: score 100, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- IPA: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - JLL: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - Lincoln Property Company: score 100, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Marcus & Millichap: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - McCourt Partners: score 100, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Richman Group: score 99, Operational / Platform Investment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- PCCP: score 96, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- Marcus & Millichap: score 98, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- PCCP: score 91, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - Newport Beach Seniors Communities JLL Capital: score 90, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 
 ## Capital Inflow / Outflow Signals
 
 - Berkadia: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Brookfield: score 100, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Freddie Mac: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Hines: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- IPA: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - JLL: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - Lincoln Property Company: score 100, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Marcus & Millichap: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - McCourt Partners: score 100, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- CBRE: score 97, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- Marcus & Millichap: score 98, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- S3 Capital: score 91, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- Fannie Mae: score 90, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- Hines: score 90, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Hyperion Group: score 89, Development Capital Deployment, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- PACE Loan Group: score 86, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 
 ## JV / Partnership Signals
 
 - Berkadia: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Brookfield: score 100, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Freddie Mac: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Hines: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- IPA: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Lincoln Property Company: score 100, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Marcus & Millichap: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - McCourt Partners: score 100, Capital Outflow / Exit, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Richman Group: score 99, Operational / Platform Investment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Dunlop Investment Partners: score 91, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Hines: score 90, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Preston Forrest Capital: score 83, Operational / Platform Investment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Buckhead Investment Partners: score 68, Distressed Opportunity Positioning, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 
 ## Competitive Benchmark Signals
 
 - JLL: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- CBRE: score 97, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- PCCP: score 96, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Midtown East Office-to-Resi Conversion Residential: score 91, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- Marcus & Millichap: score 98, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- PCCP: score 91, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- S3 Capital: score 91, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- Fannie Mae: score 90, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 - Newport Beach Seniors Communities JLL Capital: score 90, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - Hyperion Group: score 89, Development Capital Deployment, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- Keelbase Capital: score 87, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- PACE Loan Group: score 86, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- Freddie Mac: score 83, Refinancing / Recapitalization, GP Capability Benchmark Signal. Track refinancing or recapitalization pipeline.
 - Merchants Capital: score 83, Refinancing / Recapitalization, GP Capability Benchmark Signal. Track refinancing or recapitalization pipeline.
-- Essex Realty Group: score 80, Capital Outflow / Exit, GP Capability Benchmark Signal. Monitor only.
-- Greystone: score 80, Refinancing / Recapitalization, GP Capability Benchmark Signal. Track refinancing or recapitalization pipeline.
 
 ## Pricing Discovery Signals
 
-- Merchants Bank: score 90, Capital Inflow, Pricing Discovery Signal. Track capital deployment and pricing signals.
-- ICON Real Estate: score 87, Capital Inflow, Pricing Discovery Signal. Track capital deployment and pricing signals.
+- No current signal detected.
 
 ## Relationship Map
 
 | Firm | Market | Source Category | Activity Type | Capital Flow | Relationship Signal | Woomi Implication |
 | --- | --- | --- | --- | --- | --- | --- |
-| Berkadia | Los Angeles / California; Miami / Florida; Other / Unknown | Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
-| Brookfield | California | Regional / California / LA Sources | disposition / exit; JV / partnership; operational technology / AI adoption | Capital Outflow / Exit | Potential JV / Partnership Signal | potential JV partnership signal |
-| Freddie Mac | Miami / Florida; Other / Unknown; Seattle | Core Multifamily News; Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
-| Hines | Atlanta / Georgia; Dallas / Texas | Site / Parcel Source Expansion | acquisition; disposition / exit; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
-| IPA | California; Seattle | Core Multifamily News; Regional / California / LA Sources | acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
-| JLL | California; Dallas / Texas; New York City / New York; Riverside / California | Core Multifamily News; Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; office-to-residential conversion; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
-| Lincoln Property Company | Los Angeles / California; Other / Unknown | Regional / California / LA Sources; Site / Parcel Source Expansion | disposition / exit; refinancing; JV / partnership; operational technology / AI adoption | Capital Outflow / Exit | Potential JV / Partnership Signal | potential JV partnership signal |
-| Marcus & Millichap | California | Regional / California / LA Sources; Site / Parcel Source Expansion | acquisition; disposition / exit; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
-| McCourt Partners | Los Angeles / California; Other / Unknown | Regional / California / LA Sources; Site / Parcel Source Expansion | disposition / exit; refinancing; JV / partnership; operational technology / AI adoption | Capital Outflow / Exit | Potential JV / Partnership Signal | potential JV partnership signal |
-| Richman Group | Los Angeles / California | Regional / California / LA Sources | JV / partnership; operational technology / AI adoption | Operational / Platform Investment | Potential JV / Partnership Signal | potential JV partnership signal |
+| Berkadia | Los Angeles / California; Miami / Florida | Regional / California / LA Sources; Site / Parcel Source Expansion | acquisition; refinancing; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
+| JLL | Atlanta / Georgia; California; Miami / Florida; Other / Unknown | Core Multifamily News; Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
+| Lincoln Property Company | Los Angeles / California; Other / Unknown | Regional / California / LA Sources | disposition / exit; refinancing; JV / partnership; operational technology / AI adoption | Capital Outflow / Exit | Potential JV / Partnership Signal | potential JV partnership signal |
+| McCourt Partners | Los Angeles / California; Other / Unknown | Regional / California / LA Sources | disposition / exit; refinancing; JV / partnership; operational technology / AI adoption | Capital Outflow / Exit | Potential JV / Partnership Signal | potential JV partnership signal |
+| Marcus & Millichap | California; Washington DC | Site / Parcel Source Expansion | acquisition; disposition / exit; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
+| PCCP | California | Site / Parcel Source Expansion | refinancing; operational technology / AI adoption | Refinancing / Recapitalization | GP Capability Benchmark Signal | competitive pressure indicator |
+| S3 Capital | New York City / New York | Site / Parcel Source Expansion | acquisition; refinancing; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
+| Fannie Mae | National; Other / Unknown | Core Multifamily News | acquisition; disposition / exit; refinancing; development start; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
+| Hines | Atlanta / Georgia | Site / Parcel Source Expansion | acquisition; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
+| Newport Beach Seniors Communities JLL Capital | California | Site / Parcel Source Expansion | refinancing; operational technology / AI adoption | Refinancing / Recapitalization | GP Capability Benchmark Signal | competitive pressure indicator |
 
 ## Deal / Project Intelligence
 
 Deal and project-level extraction is available in `deal_pipeline_report.md`.
-- Refinancing in Dallas / Texas: Unknown / Unknown / cbre.
 - Refinancing in California: Unknown / Unknown / jll.
-- JV / Partnership in California: brookfield / brookfield / Unknown.
 - Acquisition in Miami / Florida: Unknown / Unknown / berkadia.
-- Construction Financing in Miami / Florida: Unknown / Unknown / cbre.
+- Construction Financing in Los Angeles / California: Unknown / Unknown / berkadia.
+- Refinancing in Miami / Florida: Unknown / Unknown / jll.
+- Acquisition in Atlanta / Georgia: hines / hines / Unknown.
 
 ## Relationship Graph Intelligence
 
 Capital partner, lender, GP, and market edges are available in `relationship_graph_report.md`.
-- Brookfield -> brookfield: JV / Partnership.
 - JLL -> jll: Financing Relationship.
-- CBRE -> cbre: Financing Relationship.
-- Berkadia -> berkadia: JV / Partnership.
 - Lincoln Property Company -> berkadia: Financing Relationship.
+- Berkadia -> berkadia: Financing Relationship.
+- JLL -> jll: Financing Relationship.
+- JLL -> jll: Financing Relationship.
 
 ## High-Scoring GP Watchlist Reference
 
 Emerging GP watchlist rankings are available in `gp_watchlist_report.md`.
-- Marcus & Millichap: 81 (Tier 2 High Potential GP), Strong partnership signal.
-- Berkadia: 78 (Tier 2 High Potential GP), Strong partnership signal.
-- Brookfield: 76 (Tier 2 High Potential GP), Strong partnership signal.
-- IPA: 76 (Tier 2 High Potential GP), Strong partnership signal.
-- Hines: 75 (Tier 2 High Potential GP), Strong partnership signal.
+- Berkadia: 76 (Tier 2 High Potential GP), Strong partnership signal.
+- JLL: 76 (Tier 2 High Potential GP), Moderate partnership signal.
+- JLL: 76 (Tier 2 High Potential GP), Moderate partnership signal.
+- Hines: 73 (Tier 2 High Potential GP), Strong partnership signal.
+- Lincoln Property Company: 68 (Tier 3 Monitoring GP), Strong partnership signal.
 
 ## GP Source Expansion Summary
 
@@ -153,22 +144,22 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 ## Recommended Executive Follow-Up
 
 - Berkadia: Map potential GP / JV relationship and monitor partnership activity
-- Brookfield: Map potential GP / JV relationship and monitor partnership activity
-- Freddie Mac: Map potential GP / JV relationship and monitor partnership activity
-- Hines: Map potential GP / JV relationship and monitor partnership activity
-- IPA: Map potential GP / JV relationship and monitor partnership activity
 - JLL: Review California / LA capital and developer activity
 - Lincoln Property Company: Map potential GP / JV relationship and monitor partnership activity
-- Marcus & Millichap: Map potential GP / JV relationship and monitor partnership activity
+- McCourt Partners: Map potential GP / JV relationship and monitor partnership activity
+- Marcus & Millichap: Review California / LA capital and developer activity
+- PCCP: Review California / LA capital and developer activity
+- S3 Capital: Track capital deployment and pricing signals
+- Fannie Mae: Track capital deployment and pricing signals
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 180
-- Institutional-grade signals: 21
-- High-confidence signals: 53
-- Weak/noisy signals: 100
-- High-confidence watchlist items: 53
+- Signals evaluated: 131
+- Institutional-grade signals: 13
+- High-confidence signals: 36
+- Weak/noisy signals: 78
+- High-confidence watchlist items: 36
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

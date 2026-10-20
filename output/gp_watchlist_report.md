@@ -1,23 +1,23 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-10-19 00:51:55
+Generated: 2026-10-20 01:37:05
 
-- GP/developer candidates reviewed: 30
+- GP/developer candidates reviewed: 20
 - Tier 1 Strategic GPs: 0
-- Tier 2 High Potential GPs: 7
+- Tier 2 High Potential GPs: 4
 
 ## Top Emerging GPs
 
-- Marcus & Millichap: 81 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
-- Berkadia: 78 (Tier 2 High Potential GP), Miami / Florida, California / LA strategic positioning.
-- Brookfield: 76 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
-- IPA: 76 (Tier 2 High Potential GP), Seattle, Institutional-backed regional expansion.
-- Hines: 75 (Tier 2 High Potential GP), Dallas / Texas, California / LA strategic positioning.
-- Freddie Mac: 70 (Tier 2 High Potential GP), Other / Unknown, Selective residential growth.
-- CBRE: 70 (Tier 2 High Potential GP), New York City / New York, California / LA strategic positioning.
-- JLL: 68 (Tier 3 Monitoring GP), Dallas / Texas, California / LA strategic positioning.
-- JLL: 68 (Tier 3 Monitoring GP), Dallas / Texas, California / LA strategic positioning.
+- Berkadia: 76 (Tier 2 High Potential GP), Miami / Florida, California / LA strategic positioning.
+- JLL: 76 (Tier 2 High Potential GP), Other / Unknown, Institutional-backed regional expansion.
+- JLL: 76 (Tier 2 High Potential GP), Other / Unknown, Institutional-backed regional expansion.
+- Hines: 73 (Tier 2 High Potential GP), Atlanta / Georgia, California / LA strategic positioning.
 - Lincoln Property Company: 68 (Tier 3 Monitoring GP), Other / Unknown, California / LA strategic positioning.
+- McCourt Partners: 68 (Tier 3 Monitoring GP), Other / Unknown, California / LA strategic positioning.
+- Marcus & Millichap: 65 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
+- PCCP: 64 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
+- Fannie Mae: 57 (Tier 3 Monitoring GP), Other / Unknown, Selective residential growth.
+- Buckhead Investment Partners: 57 (Tier 3 Monitoring GP), Houston / Texas, Distressed opportunity positioning.
 
 ## Tier 1 Strategic GP
 
@@ -25,26 +25,21 @@ Generated: 2026-10-19 00:51:55
 
 ## Tier 2 High Potential GP
 
-- Marcus & Millichap: score 81, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Berkadia: score 78, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
-- Brookfield: score 76, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- IPA: score 76, Tier 2 High Potential GP, Seattle, Potential GP partnership candidate. Track JV and capital partner activity.
-- Hines: score 75, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
-- Freddie Mac: score 70, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
-- CBRE: score 70, Tier 2 High Potential GP, New York City / New York, Capital market and pricing discovery reference. Review LA / California development activity.
+- Berkadia: score 76, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 76, Tier 2 High Potential GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
+- JLL: score 76, Tier 2 High Potential GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
+- Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## California / LA GP Activity
 
-- Marcus & Millichap: score 81, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Berkadia: score 78, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
-- Brookfield: score 76, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- IPA: score 76, Tier 2 High Potential GP, Seattle, Potential GP partnership candidate. Track JV and capital partner activity.
-- Hines: score 75, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
-- CBRE: score 70, Tier 2 High Potential GP, New York City / New York, Capital market and pricing discovery reference. Review LA / California development activity.
-- JLL: score 68, Tier 3 Monitoring GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 68, Tier 3 Monitoring GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- Berkadia: score 76, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 76, Tier 2 High Potential GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
+- JLL: score 76, Tier 2 High Potential GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
+- Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
 - Lincoln Property Company: score 68, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
 - McCourt Partners: score 68, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- Marcus & Millichap: score 65, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- PCCP: score 64, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## BTR / SFR GP Activity
 
@@ -52,16 +47,13 @@ Generated: 2026-10-19 00:51:55
 
 ## Affordable Housing GP Activity
 
-- Richman Group: score 60, Tier 3 Monitoring GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Blackstone: score 59, Tier 3 Monitoring GP, Dallas / Texas, LA / California developer strategy watch. Review LA / California development activity.
+- Freddie Mac: score 53, Emerging Watchlist, Other / Unknown, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
 - Merchants Capital: score 53, Emerging Watchlist, Other / Unknown, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
-- Merchants Bank: score 47, Emerging Watchlist, New York City / New York, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
-- Annex Group: score 45, Emerging Watchlist, National, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- Federal Home Loan Bank: score 43, Emerging Watchlist, Dallas / Texas, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
 
 ## Student Housing GP Activity
 
-- Brookfield: score 76, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- IPA: score 76, Tier 2 High Potential GP, Seattle, Potential GP partnership candidate. Track JV and capital partner activity.
+- No current GP signal detected.
 
 ## Innovation-Oriented GP Activity
 
@@ -69,29 +61,29 @@ Generated: 2026-10-19 00:51:55
 
 ## Institutional Capital Magnet
 
-- Marcus & Millichap: score 81, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Berkadia: score 78, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
-- Brookfield: score 76, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- IPA: score 76, Tier 2 High Potential GP, Seattle, Potential GP partnership candidate. Track JV and capital partner activity.
-- Hines: score 75, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
-- Freddie Mac: score 70, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
-- CBRE: score 70, Tier 2 High Potential GP, New York City / New York, Capital market and pricing discovery reference. Review LA / California development activity.
-- JLL: score 68, Tier 3 Monitoring GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 68, Tier 3 Monitoring GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- Berkadia: score 76, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 76, Tier 2 High Potential GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
+- JLL: score 76, Tier 2 High Potential GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
+- Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
 - Lincoln Property Company: score 68, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- McCourt Partners: score 68, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- Marcus & Millichap: score 65, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- PCCP: score 64, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Fannie Mae: score 57, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- Buckhead Investment Partners: score 57, Tier 3 Monitoring GP, Houston / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## Potential Woomi Partnership Candidates
 
-- Marcus & Millichap: score 81, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Berkadia: score 78, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
-- Brookfield: score 76, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- IPA: score 76, Tier 2 High Potential GP, Seattle, Potential GP partnership candidate. Track JV and capital partner activity.
-- Hines: score 75, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
-- Freddie Mac: score 70, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
-- CBRE: score 70, Tier 2 High Potential GP, New York City / New York, Capital market and pricing discovery reference. Review LA / California development activity.
-- JLL: score 68, Tier 3 Monitoring GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 68, Tier 3 Monitoring GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- Berkadia: score 76, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 76, Tier 2 High Potential GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
+- JLL: score 76, Tier 2 High Potential GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
+- Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
 - Lincoln Property Company: score 68, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- McCourt Partners: score 68, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- Fannie Mae: score 57, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- Buckhead Investment Partners: score 57, Tier 3 Monitoring GP, Houston / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
+- Freddie Mac: score 53, Emerging Watchlist, Other / Unknown, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- Merchants Capital: score 53, Emerging Watchlist, Other / Unknown, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
 
 ## GP Source Expansion Summary
 
@@ -120,31 +112,31 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Recommended Management Meeting Targets
 
-- Marcus & Millichap: Track JV and capital partner activity (Medium confidence).
-- Berkadia: Track JV and capital partner activity (High confidence).
-- Brookfield: Track JV and capital partner activity (Medium confidence).
-- IPA: Track JV and capital partner activity (Medium confidence).
+- Berkadia: Track JV and capital partner activity (Medium confidence).
+- JLL: Review LA / California development activity (Medium confidence).
+- JLL: Review LA / California development activity (Medium confidence).
 - Hines: Track JV and capital partner activity (Medium confidence).
+- Lincoln Property Company: Track JV and capital partner activity (Medium confidence).
 
 ## Recommended Strategic Follow-up Actions
 
-- Marcus & Millichap: Track JV and capital partner activity.
 - Berkadia: Track JV and capital partner activity.
-- Brookfield: Track JV and capital partner activity.
-- IPA: Track JV and capital partner activity.
+- JLL: Review LA / California development activity.
+- JLL: Review LA / California development activity.
 - Hines: Track JV and capital partner activity.
-- Freddie Mac: Track JV and capital partner activity.
-- CBRE: Review LA / California development activity.
-- JLL: Track JV and capital partner activity.
+- Lincoln Property Company: Track JV and capital partner activity.
+- McCourt Partners: Track JV and capital partner activity.
+- Marcus & Millichap: Review LA / California development activity.
+- PCCP: Review LA / California development activity.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 180
-- Institutional-grade signals: 21
-- High-confidence signals: 53
-- Weak/noisy signals: 100
-- High-confidence watchlist items: 53
+- Signals evaluated: 131
+- Institutional-grade signals: 13
+- High-confidence signals: 36
+- Weak/noisy signals: 78
+- High-confidence watchlist items: 36
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

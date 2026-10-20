@@ -1,8 +1,8 @@
 # LA Lifecycle Transition Watch Report
 
-Generated: 2026-10-19 00:52:18
+Generated: 2026-10-20 01:37:25
 
-- Total LA lifecycle transition watch items: 41
+- Total LA lifecycle transition watch items: 37
 
 ## LA Projects Moving Forward
 
@@ -14,41 +14,40 @@ Generated: 2026-10-19 00:52:18
 
 ## LA Permit / Construction Start Watch
 
-- Development Start - Los Angeles / California - Groundbreaking of Age-Restricted Affordable Housing for Wildfires Survivors in California: Construction Started -> Construction Started, Construction start watch.
-- Entitlement / Permitting - San Francisco / California - New Building Permits For 230 Anza Street in Lone Mountain, San Francisco: No Previous Record -> Building Permit / Construction Permit, Permit issuance watch.
-- New Building Permits For 230 Anza Street in Lone Mountain, San Francisco: No Previous Record -> Building Permit / Construction Permit, Permit issuance watch.
+- Entitlement / Permitting - San Francisco / California - New Building Permits For 230 Anza Street in Lone Mountain, San Francisco: Building Permit / Construction Permit -> Building Permit / Construction Permit, Permit issuance watch.
+- New Building Permits For 230 Anza Street in Lone Mountain, San Francisco: Building Permit / Construction Permit -> Building Permit / Construction Permit, Permit issuance watch.
 
 ## LA Refinancing / Recap Timing Watch
 
-- Refinancing - Dallas / Texas - SMBC Refis Apartments Near Dallas, Philly With $108M Loan: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- PCCP Provides $41M Senior Loan for the Refinance of 125-Unit Multifamily Community in San Diego: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Construction Financing - New York City / New York - Upper East Side Condo Project Lands $52M Construction Loan: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Refinancing - Dallas / Texas - Northmarq Arranges Major Multifamily Refinance in Richardson Texas: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Northmarq Arranges Major Multifamily Refinance in Richardson Texas: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 
 ## LA Delivery / Lease-Up Benchmarks
 
-- Office-to-Residential Conversion - Riverside / California - Citi Provides $210M Refi for Grand Hyatt Resort in Southern California: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
-- General Project Signal - Dallas / Texas - April Housing Celebrates Grand Reopening of Two Affordable Housing Communities in Fort Wor...: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
-- Affordable housing takes shape at 327 S. Harbor Blvd. in San Pedro: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
+- None detected.
 
 ## Recommended LA Transition Follow-up Actions
 
-- Use as delivery, lease-up, and underwriting benchmark: Office-to-Residential Conversion - Riverside / California - Citi Provides $210M Refi for Grand Hyatt Resort in Southern California.
-- Monitor for another run to confirm lifecycle direction: Development Start - Los Angeles / California - Groundbreaking of Age-Restricted Affordable Housing for Wildfires Survivors in California.
-- Use as delivery, lease-up, and underwriting benchmark: General Project Signal - Dallas / Texas - April Housing Celebrates Grand Reopening of Two Affordable Housing Communities in Fort Wor....
-- Use as delivery, lease-up, and underwriting benchmark: Affordable housing takes shape at 327 S. Harbor Blvd. in San Pedro.
-- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Dallas / Texas - SMBC Refis Apartments Near Dallas, Philly With $108M Loan.
 - Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities.
 - Monitor for another run to confirm lifecycle direction: Entitlement / Permitting - San Francisco / California - New Building Permits For 230 Anza Street in Lone Mountain, San Francisco.
-- Track maturity, lender, recapitalization need, and potential JV angle: PCCP Provides $41M Senior Loan for the Refinance of 125-Unit Multifamily Community in San Diego.
+- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
+- Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - New York City / New York - Upper East Side Condo Project Lands $52M Construction Loan.
+- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Dallas / Texas - Northmarq Arranges Major Multifamily Refinance in Richardson Texas.
+- Monitor for another run to confirm lifecycle direction: New Building Permits For 230 Anza Street in Lone Mountain, San Francisco.
+- Monitor for another run to confirm lifecycle direction: JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City.
+- Monitor for another run to confirm lifecycle direction: Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 663
-- Canonical projects: 180
-- Duplicate project clusters: 115
-- Persistent assets tracked: 180
-- LA persistent asset watch items: 114
+- Raw project references: 537
+- Canonical projects: 131
+- Duplicate project clusters: 85
+- Persistent assets tracked: 131
+- LA persistent asset watch items: 86
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

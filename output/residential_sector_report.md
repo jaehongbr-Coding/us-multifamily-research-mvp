@@ -1,44 +1,45 @@
 # Residential Sector Coverage Report
 
-Generated: 2026-10-19 00:51:55
+Generated: 2026-10-20 01:37:05
 
-- Active residential sectors: 9
+- Active residential sectors: 10
 
 ## Sector Coverage Summary
 
-- Apartment: 37 article(s), 25 high-priority, 27 deal/project, Core Strategy Sector.
-- Affordable Housing: 11 article(s), 10 high-priority, 11 deal/project, Strategic Expansion Sector.
-- Multifamily: 17 article(s), 4 high-priority, 10 deal/project, Core Strategy Sector.
-- BTR / Single-Family Rental: 2 article(s), 2 high-priority, 2 deal/project, Strategic Expansion Sector.
-- Office-to-Residential Conversion: 2 article(s), 2 high-priority, 2 deal/project, Strategic Expansion Sector.
-- Student Housing: 1 article(s), 1 high-priority, 1 deal/project, Strategic Expansion Sector.
-- Mixed-Use Residential: 5 article(s), 4 high-priority, 5 deal/project, Monitoring Sector.
-- General Residential: 3 article(s), 1 high-priority, 2 deal/project, Monitoring Sector.
+- Apartment: 36 article(s), 24 high-priority, 27 deal/project, Core Strategy Sector.
+- Affordable Housing: 5 article(s), 5 high-priority, 5 deal/project, Strategic Expansion Sector.
+- Multifamily: 17 article(s), 2 high-priority, 7 deal/project, Core Strategy Sector.
+- Workforce Housing: 1 article(s), 1 high-priority, 1 deal/project, Strategic Expansion Sector.
+- BTR / Single-Family Rental: 1 article(s), 1 high-priority, 1 deal/project, Strategic Expansion Sector.
+- Student Housing: 2 article(s), 1 high-priority, 1 deal/project, Strategic Expansion Sector.
+- Office-to-Residential Conversion: 1 article(s), 1 high-priority, 1 deal/project, Strategic Expansion Sector.
+- Mixed-Use Residential: 4 article(s), 4 high-priority, 4 deal/project, Monitoring Sector.
+- General Residential: 1 article(s), 0 high-priority, 1 deal/project, Monitoring Sector.
 - Senior Housing: 1 article(s), 0 high-priority, 1 deal/project, Monitoring Sector.
 
 ## Top Residential Sectors By Relevance
 
-- Apartment: Core Strategy Sector, average relevance 85.5, dominant market Other / Unknown.
-- Affordable Housing: Strategic Expansion Sector, average relevance 91.9, dominant market Los Angeles / California.
-- Multifamily: Core Strategy Sector, average relevance 66.2, dominant market Other / Unknown.
-- BTR / Single-Family Rental: Strategic Expansion Sector, average relevance 85.5, dominant market Other / Unknown.
-- Office-to-Residential Conversion: Strategic Expansion Sector, average relevance 85.0, dominant market Washington DC.
-- Student Housing: Strategic Expansion Sector, average relevance 95.0, dominant market California.
-- Mixed-Use Residential: Monitoring Sector, average relevance 93.0, dominant market Los Angeles / California.
-- General Residential: Monitoring Sector, average relevance 61.3, dominant market New York City / New York.
+- Apartment: Core Strategy Sector, average relevance 84.2, dominant market Other / Unknown.
+- Affordable Housing: Strategic Expansion Sector, average relevance 97.0, dominant market Santa Monica / California.
+- Multifamily: Core Strategy Sector, average relevance 62.9, dominant market Other / Unknown.
+- Workforce Housing: Strategic Expansion Sector, average relevance 80.0, dominant market Other / Unknown.
+- BTR / Single-Family Rental: Strategic Expansion Sector, average relevance 94.0, dominant market Other / Unknown.
+- Student Housing: Strategic Expansion Sector, average relevance 77.5, dominant market California.
+- Office-to-Residential Conversion: Strategic Expansion Sector, average relevance 70.0, dominant market National.
+- Mixed-Use Residential: Monitoring Sector, average relevance 99.0, dominant market Los Angeles / California.
 
 ## Multifamily / Apartment
 
-- Apartment: 37 article(s), 27 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
-- Multifamily: 17 article(s), 10 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
+- Apartment: 36 article(s), 27 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
+- Multifamily: 17 article(s), 7 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
 
 ## BTR / SFR
 
-- BTR / Single-Family Rental: 2 article(s), 2 deal/project signal(s), Strategic Expansion Sector. Monitor BTR / SFR operators, capital flows, and target markets.
+- BTR / Single-Family Rental: 1 article(s), 1 deal/project signal(s), Strategic Expansion Sector. Monitor BTR / SFR operators, capital flows, and target markets.
 
 ## Student Housing
 
-- Student Housing: 1 article(s), 1 deal/project signal(s), Strategic Expansion Sector. Monitor university-market demand and partnership signals.
+- Student Housing: 2 article(s), 1 deal/project signal(s), Strategic Expansion Sector. Monitor university-market demand and partnership signals.
 
 ## Senior Housing
 
@@ -46,12 +47,12 @@ Generated: 2026-10-19 00:51:55
 
 ## Affordable / Workforce Housing
 
-- Affordable Housing: 11 article(s), 11 deal/project signal(s), Strategic Expansion Sector. Add to sector watchlist.
-- Workforce Housing: 0 article(s), 0 deal/project signal(s), Monitoring Sector. Add to sector watchlist.
+- Affordable Housing: 5 article(s), 5 deal/project signal(s), Strategic Expansion Sector. Add to sector watchlist.
+- Workforce Housing: 1 article(s), 1 deal/project signal(s), Strategic Expansion Sector. Add to sector watchlist.
 
 ## Office-to-Residential Conversion
 
-- Office-to-Residential Conversion: 2 article(s), 2 deal/project signal(s), Strategic Expansion Sector. Track conversion feasibility, policy support, and construction cost assumptions.
+- Office-to-Residential Conversion: 1 article(s), 1 deal/project signal(s), Strategic Expansion Sector. Track conversion feasibility, policy support, and construction cost assumptions.
 
 ## Sector Implications for Woomi / Woomi Global
 
@@ -62,11 +63,11 @@ Generated: 2026-10-19 00:51:55
 - Apartment: Keep in weekly developer strategy review
 - Affordable Housing: Add to sector watchlist
 - Multifamily: Keep in weekly developer strategy review
+- Workforce Housing: Add to sector watchlist
 - BTR / Single-Family Rental: Monitor BTR / SFR operators, capital flows, and target markets
-- Office-to-Residential Conversion: Track conversion feasibility, policy support, and construction cost assumptions
 - Student Housing: Monitor university-market demand and partnership signals
+- Office-to-Residential Conversion: Track conversion feasibility, policy support, and construction cost assumptions
 - Mixed-Use Residential: Add to sector watchlist
 - General Residential: Add to sector watchlist
 - Senior Housing: Monitor senior housing demand and operating model signals
 - Manufactured Housing: Add to sector watchlist
-- Workforce Housing: Add to sector watchlist

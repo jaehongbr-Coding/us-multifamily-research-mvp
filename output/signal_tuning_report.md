@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-10-19 00:51:48
+Generated: 2026-10-20 01:36:57
 
 ## Top Strategic Relevance Articles
 
-- 83 / richness 70: JCCG Delivers 225-Unit Build-to-Rent Community in Opelika, Alabama (REBusiness Online, Southeast) - development continuation; institutional acquisition behavior
 - 80 / richness 85: Berkadia Arranges Refis for 3 S. Florida Rental Communities (Connect CRE South Florida, Miami / Florida) - institutional acquisition behavior; large-scale refinance tied to strategy
-- 78 / richness 85: Walker & Dunlop Investment Partners Supplies $63M Refi for Illinois Apartments (Commercial Observer, Other / Unknown) - lease-up or absorption behavior; large-scale refinance tied to strategy
-- 78 / richness 75: SMBC Refis Apartments Near Dallas, Philly With $108M Loan (Commercial Observer, Dallas / Texas) - institutional acquisition behavior; large-scale refinance tied to strategy
 - 77 / richness 70: Build-to-rent now eligible for Federal Housing Administration financing (Multifamily Dive, Other / Unknown) - institutional acquisition behavior; large-scale refinance tied to strategy
-- 76 / richness 100: Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex (Connect CRE South Florida, Miami / Florida) - JV or partnership activity
-- 76 / richness 75: Hillpointe Expands to Nevada with 360-Unit Multifamily Project in Reno (Yield PRO, Nevada) - sponsor expansion; institutional acquisition behavior; classification confidence penalty
-- 74 / richness 100: Cadence Real Estate Acquires Seattle Multifamily Community for $29M (Yield PRO, Seattle) - institutional acquisition behavior
-- 73 / richness 90: Pearlmark Provides $81M for Apartment Project in Coral Gables (Commercial Observer, Miami / Florida) - development continuation
-- 72 / richness 85: IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield (Connect CRE California, California) - JV or partnership activity
+- 74 / richness 100: JLL Brokers Sale of 217-Unit Apartment Building in Hoboken (REBusiness Online, Atlanta / Georgia) - institutional acquisition behavior
+- 73 / richness 90: Partnership Completes $636M Rehabilitation of Two Brooklyn Affordable Housing Communities (REBusiness Online, New York City / New York) - JV or partnership activity
+- 73 / richness 90: Joint Venture Underway on 236-Unit Multifamily Project in Denison, Texas (REBusiness Online, Texas) - JV or partnership activity
+- 72 / richness 75: 104 New Apartments Open in Austin for People Exiting Chronic Homelessness (Yield PRO, Dallas / Texas) - sponsor expansion
+- 70 / richness 85: Upper East Side Condo Project Lands $52M Construction Loan (Connect CRE Apartments, New York City / New York) - institutional acquisition behavior
+- 70 / richness 75: Purpose-Built Student Housing Near SDSU Has Financing in Place (Connect CRE California, California) - JV or partnership activity
+- 68 / richness 75: Hines Pays $237.8M for Buckhead Rental Community (Connect CRE Atlanta, Atlanta / Georgia) - institutional acquisition behavior
+- 67 / richness 70: TruAmerica Acquires 446-Unit Apartment Community in Metro Atlanta (REBusiness Online, Atlanta / Georgia) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -35,18 +35,18 @@ Generated: 2026-10-19 00:51:48
 
 ## Potential Parsing Integrity Issues
 
-- suspicious_duplicate: Affordable housing takes shape at 327 S. Harbor Blvd. in San Pedro (Urbanize LA) - source-feed signal bleed suspected
+- low_value_promotional: The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market? (Multifamily Executive) - promotional/event keyword: sponsored
 - low_value_promotional: AI, Automation & the Future of Multifamily Finance (Multifamily Executive) - promotional/event keyword: webinar
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 26
-- Development / sponsor behavior articles: 46
+- Financing-oriented articles: 24
+- Development / sponsor behavior articles: 31
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations
 
-- Review possible non-multifamily contamination: Link Logistics Acquires 550,992 SF Industrial Property in Youngsville, North Carolina (REBusiness Online)
+- No obvious office/industrial/retail contamination candidates detected after filtering.
 
 ## Suggested Weighting Adjustments
 

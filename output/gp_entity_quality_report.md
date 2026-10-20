@@ -1,37 +1,37 @@
 # GP / Capital Entity Quality Report
 
-Generated: 2026-10-19 00:51:55
+Generated: 2026-10-20 01:37:05
 
 ## Summary
 
-- Total GP/Capital articles: 45
-- Participant not identified: 12
-- Dictionary match: 24
-- Title fallback / headline extraction: 2
-- Low confidence or unresolved: 12
+- Total GP/Capital articles: 37
+- Participant not identified: 16
+- Dictionary match: 13
+- Title fallback / headline extraction: 0
+- Low confidence or unresolved: 16
 
 ## Representative Resolved Samples
 
-- CBRE: Pearlmark Provides $81M for Apartment Project in Coral Gables (dictionary_match, high)
-- Dunlop Investment Partners: Walker & Dunlop Investment Partners Supplies $63M Refi for Illinois Apartments (dictionary_match, high)
-- CBRE: SMBC Refis Apartments Near Dallas, Philly With $108M Loan (dictionary_match, high)
-- Midtown East Office-to-Resi Conversion Residential: BridgeCity Lends $84M on Midtown East Office-to-Resi Conversion (capital_event_sentence, medium)
+- JLL: $62.1M Refinancing Secured for North Carolina Multifamily Community (dictionary_match, high)
+- McCourt Partners: Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City (dictionary_match, high)
+- S3 Capital: Upper East Side Condo Project Lands $52M Construction Loan (capital_event_sentence, medium)
+- JLL: Little Havana Apartment Owners Land $50.8M Refi (dictionary_match, high)
 - PCCP: PCCP Provides $41M Refi on North Park Multifamily (dictionary_match, high)
 - Merchants Capital: Merchants Capital Secures $30M for 227-Unit Indianapolis Multifamily Development (dictionary_match, high)
-- McCourt Partners: Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City (dictionary_match, high)
-- Richman Group: Affordable housing takes shape at 327 S. Harbor Blvd. in San Pedro (capital_event_sentence, medium)
+- Berkadia: Berkadia Arranges Refis for 3 S. Florida Rental Communities (dictionary_match, high)
 - McCourt Partners: Culver City Mixed-Use Secures $133M Bank OZK Loan (dictionary_match, high)
-- Hines: Hines Acquires Bishop Arts Multifamily, Retail Portfolio (dictionary_match, high)
+- Newport Beach Seniors Communities JLL Capital: JLL Arranges $276M Refi for Newport Beach Seniors Communities (dictionary_match, high)
+- Federal Home Loan Bank: 104 New Apartments Open in Austin for People Exiting Chronic Homelessness (capital_event_sentence, medium)
 
 ## Unresolved Examples
 
-- Newmark Arranges $76.2M in Bridge Financing for New Orlando Multifamily Community | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
-- Colliers Brokers Sale of Two-Property Multifamily Portfolio in Fallbrook, California for $37M | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
+- Northmarq Arranges Major Multifamily Refinance in Richardson Texas | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
+- HSR, Barings Break Ground on 501-Unit Multifamily Project in Redwood City, California | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
+- Purpose-Built Student Housing Near SDSU Has Financing in Place | Connect CRE California | No institution name detected in dictionary, title, summary, or source text.
 - Build-to-rent now eligible for Federal Housing Administration financing | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.
-- NYC Multifamily Sales Rise YTD Despite Sharp Pullback in Q3 | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
-- JCCG Delivers 225-Unit Build-to-Rent Community in Opelika, Alabama | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
+- TruAmerica Acquires 446-Unit Apartment Community in Metro Atlanta | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
+- Distressed Sales Jump 26%, Led By Multifamily Deals | Bisnow | No institution name detected in dictionary, title, summary, or source text.
+- A Third of Maturing Multifamily Debt Needs Cash Infusion to Refinance | Commercial Observer | No institution name detected in dictionary, title, summary, or source text.
+- Partnership Completes $636M Rehabilitation of Two Brooklyn Affordable Housing Communities | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
 - Investor Takes Over Distressed Atlanta Apartment Asset | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.
-- Reception Benefit Recognizes the Gotham Organization for its Monitor Point Mixed Income Multifamily Development in Brooklyn | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
-- Passco Offloads Buckhead Rental Asset for $87.5M | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.
-- 2026 NOI & Operations Survey Report | Multifamily Executive | No institution name detected in dictionary, title, summary, or source text.
-- HBGI Q1 2026: Single-Family Construction Slips Across All Geographies | NAHB Eye on Housing - Multifamily | No institution name detected in dictionary, title, summary, or source text.
+- The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market? | Multifamily Executive | No institution name detected in dictionary, title, summary, or source text.

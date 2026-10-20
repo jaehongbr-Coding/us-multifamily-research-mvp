@@ -1,69 +1,68 @@
 # Entity Resolution Report
 
-Generated: 2026-10-19 00:51:55
+Generated: 2026-10-20 01:37:05
 
-- Total raw entities reviewed: 280
-- Total canonical entities created: 74
-- Possible duplicate entity groups: 11
-- Weak matches needing review: 207
+- Total raw entities reviewed: 195
+- Total canonical entities created: 59
+- Possible duplicate entity groups: 9
+- Weak matches needing review: 148
 - Unknown entities needing review: 4
 
 ## Top Canonical Firms
 
-- Unknown: 137 occurrence(s)
-- JLL: 26 occurrence(s)
-- CBRE: 23 occurrence(s)
-- Berkadia: 21 occurrence(s)
-- Freddie Mac: 14 occurrence(s)
-- Hines: 13 occurrence(s)
-- Blackstone: 9 occurrence(s)
+- Unknown: 117 occurrence(s)
+- JLL: 33 occurrence(s)
+- Fannie Mae: 13 occurrence(s)
+- Berkadia: 11 occurrence(s)
 - Lincoln Property Company: 9 occurrence(s)
-- PCCP: 9 occurrence(s)
-- Brookfield: 8 occurrence(s)
+- Marcus & Millichap: 9 occurrence(s)
+- Hines: 7 occurrence(s)
+- Merchants Capital: 5 occurrence(s)
+- PCCP: 5 occurrence(s)
+- Freddie Mac: 4 occurrence(s)
 
 ## Top Canonical Markets
 
 - Los Angeles: 49 occurrence(s)
-- Other / Unknown: 43 occurrence(s)
-- California: 42 occurrence(s)
-- Sun Belt: 42 occurrence(s)
-- New York: 31 occurrence(s)
-- Unknown: 18 occurrence(s)
-- National: 9 occurrence(s)
-- Seattle: 9 occurrence(s)
+- Other / Unknown: 44 occurrence(s)
+- Sun Belt: 31 occurrence(s)
+- California: 28 occurrence(s)
+- New York: 21 occurrence(s)
+- National: 17 occurrence(s)
+- Unknown: 17 occurrence(s)
 - South Florida: 6 occurrence(s)
-- Southeast: 5 occurrence(s)
+- Texas: 5 occurrence(s)
+- Washington DC: 3 occurrence(s)
 
 ## Possible Duplicate Entities
 
-- Berkadia: Acquisition - Miami / Florida - Berkadia Arranges Refis for 3 S. Florida Rental Communities, Acquisition - Other / Unknown - Berkadia Arranges Sale of 458-Unit Multifamily Property in Mount Pleasant, Wisconsin, Berkadia, berkadia
-- Blackstone: Blackstone, blackstone
-- Brookfield: Brookfield, JV / Partnership - California - IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield, brookfield
-- CBRE: Acquisition - New York City / New York - CBRE Arranges $12M Acquisition Loan for Mixed-Use Property in Brooklyn’s Fort Greene Neigh..., CBRE, cbre
-- California: Acquisition - California - Colliers Brokers Sale of Two-Property Multifamily Portfolio in Fallbrook, California for $..., Beverly Hills / California, California, Construction Financing - Beverly Hills / California - Max Benjamin Partners Arranges $74.8M in Construction Financing for Townhome Property in F..., Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily, Construction Financing - California - PCCP Provides $41M Senior Loan for the Refinance of 125-Unit Multifamily Community in San..., Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993, Entitlement / Permitting - Colorado - More Pasadena affordable housing in the works at 1976 E. Colorado Blvd., Entitlement / Permitting - San Francisco / California - New Building Permits For 230 Anza Street in Lone Mountain, San Francisco, Office-to-Residential Conversion - Riverside / California - Citi Provides $210M Refi for Grand Hyatt Resort in Southern California, Riverside / California, San Diego, San Francisco / California, Santa Monica / California, Southern California
+- Berkadia: Acquisition - Miami / Florida - Berkadia Arranges Refis for 3 S. Florida Rental Communities, Berkadia, berkadia
+- California: California, Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily, Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993, Entitlement / Permitting - San Francisco / California - New Building Permits For 230 Anza Street in Lone Mountain, San Francisco, General Project Signal - Other / Unknown - Fresh renderings for new workforce housing at 315 N. Pasadena Ave., JV / Partnership - California - HSR, Barings Break Ground on 501-Unit Multifamily Project in Redwood City, California, San Francisco / California, Santa Monica / California
+- Fannie Mae: Fannie Mae, fannie mae
 - Freddie Mac: Freddie Mac, freddie mac
-- JLL: JLL, Newport Beach Seniors Communities JLL Capital, Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities, jll
-- Los Angeles: Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community, Acquisition - Atlanta / Georgia - Passco Offloads Buckhead Rental Asset for $87.5M, Acquisition - Seattle - Keelbase Capital Acquires The Baxter Apartments in Bellevue, Atlanta / Georgia, BTR / Build-to-Rent - Southeast - JCCG Delivers 225-Unit Build-to-Rent Community in Opelika, Alabama, Construction Financing - Los Angeles / California - Culver City Mixed-Use Secures $133M Bank OZK Loan, Dallas / Texas, Development Start - Los Angeles / California - Groundbreaking of Age-Restricted Affordable Housing for Wildfires Survivors in California, Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset, Disposition / Exit - Dallas / Texas - 229-Unit Lawton Multifamily Community Trades Hands, Disposition / Exit - Dallas / Texas - Hines Acquires Bishop Arts Multifamily, Retail Portfolio, Entitlement / Permitting - Los Angeles / California - Rendering vs. Reality: 176 apartments at 2225 Sunset Boulevard in Echo Park, Entitlement / Permitting - Santa Monica / California - Southwest Valley Community Plans take a step forward, General Project Signal - Atlanta / Georgia - Alliance Building 10th Charlotte Rental Community, General Project Signal - Dallas / Texas - April Housing Celebrates Grand Reopening of Two Affordable Housing Communities in Fort Wor..., General Project Signal - Florida - Newmark Arranges $76.2M in Bridge Financing for New Orlando Multifamily Community, General Project Signal - Los Angeles / California - Jamison flips to affordable housing at 679 S. Harvard Blvd. in Koreatown, General Project Signal - National - Annex Group Breaks Ground on $71M Affordable Housing Community in Indianapolis, JV / Partnership - Los Angeles / California - Affordable housing takes shape at 327 S. Harbor Blvd. in San Pedro, JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex, JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City, Los Angeles, Los Angeles / California, Refinancing - Dallas / Texas - SMBC Refis Apartments Near Dallas, Philly With $108M Loan
-- New York: Acquisition - New York City / New York - Link Logistics Acquires 550,992 SF Industrial Property in Youngsville, North Carolina, Acquisition - New York City / New York - Merchants Bank Provides $27.5M in Financing for Brooklyn Affordable Housing Complex, Brooklyn, Disposition / Exit - New York City / New York - NYC Multifamily Sales Rise YTD Despite Sharp Pullback in Q3, General Project Signal - New York - Gilbane, Strada Development Break Ground on Affordable Tower in Castle Hill/Soundview, JV / Partnership - New York City / New York - Reception Benefit Recognizes the Gotham Organization for its Monitor Point Mixed Income Mu..., New York, New York City, New York City / New York, Nyc
-- Related Companies: Construction Financing - Miami / Florida - Related Urban Secures $129M Financing for Downtown Miami Project, related
+- Greystar: General Project Signal - Other / Unknown - Greystar Opens New 416-Unit Community North of Boston, Greystar
+- JLL: Acquisition - Atlanta / Georgia - JLL Brokers Sale of 217-Unit Apartment Building in Hoboken, JLL, Newport Beach Seniors Communities JLL Capital, Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities, jll
+- Los Angeles: Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community, Acquisition - Atlanta / Georgia - Passco Offloads Buckhead Rental Asset for $87.5M, Acquisition - Atlanta / Georgia - TruAmerica Acquires 446-Unit Apartment Community in Metro Atlanta, Atlanta / Georgia, Construction Financing - California - Purpose-Built Student Housing Near SDSU Has Financing in Place, Construction Financing - Los Angeles / California - Culver City Mixed-Use Secures $133M Bank OZK Loan, Construction Financing - New York City / New York - Upper East Side Condo Project Lands $52M Construction Loan, Dallas / Texas, Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset, Disposition / Exit - Dallas / Texas - 104 New Apartments Open in Austin for People Exiting Chronic Homelessness, Disposition / Exit - Dallas / Texas - 229-Unit Lawton Multifamily Community Trades Hands, Disposition / Exit - Los Angeles / California - Newly Constructed Palmdale McDonald’s Trades in All-Cash Deal, Entitlement / Permitting - Los Angeles / California - 32 apartments proposed at 806 N. Sweetzer Ave. in Hollywood, Entitlement / Permitting - Los Angeles / California - Rendering vs. Reality: 176 apartments at 2225 Sunset Boulevard in Echo Park, Entitlement / Permitting - New York City / New York - Stimdel Properties Files Plans to Build 612 Apartments in Astoria, Entitlement / Permitting - Santa Monica / California - Southwest Valley Community Plans take a step forward, JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City, Los Angeles, Los Angeles / California, Operational / Property Management Tech - Atlanta / Georgia - AI Boom, Affordability Drive Rent Gains in a Handful of Apartment Markets, Refinancing - Dallas / Texas - Northmarq Arranges Major Multifamily Refinance in Richardson Texas, Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi, Refinancing - National - A Third of Maturing Multifamily Debt Needs Cash Infusion to Refinance
+- New York: General Project Signal - New York - Gilbane, Strada Development Break Ground on Affordable Tower in Castle Hill/Soundview, JV / Partnership - New York City / New York - Partnership Completes $636M Rehabilitation of Two Brooklyn Affordable Housing Communities, Manhattan, New York, New York City, New York City / New York
+- Sun Belt: Atlanta, Austin, Dallas, General Project Signal - Miami / Florida - Aimco Advancing Luxury Edgewater Apartments, Miami / Florida, Phoenix, Sun Belt
 
 ## Weak Matches Needing Manual Review
 
-- Acquisition - Nevada - Hillpointe Expands to Nevada with 360-Unit Multifamily Project in Reno -> Acquisition - Nevada - Hillpointe Expands to Nevada with 360-Unit Multifamily Project in Reno (40, relationship_graph.csv)
-- Acquisition - Other / Unknown - ICON Real Estate Negotiates $4.1M Sale of Apartment Building in Bayonne, New Jersey -> Acquisition - Other / Unknown - ICON Real Estate Negotiates $4.1M Sale of Apartment Building in Bayonne, New Jersey (40, relationship_graph.csv)
-- Acquisition - Texas - Bridge Investment Group Forecloses on Two Multifamily Communities in Texas -> Acquisition - Texas - Bridge Investment Group Forecloses on Two Multifamily Communities in Texas (40, relationship_graph.csv)
-- Alliance Residential -> Alliance Residential (40, deal_pipeline.csv)
-- Alliance Residential -> Alliance Residential (40, gp_intelligence.csv)
-- Alliance Residential -> Alliance Residential (40, institutional_relationships.csv)
-- Alliance Residential -> Alliance Residential (40, relationship_graph.csv)
-- Annex Group -> Annex Group (40, gp_intelligence.csv)
-- Annex Group -> Annex Group (40, institutional_relationships.csv)
+- Acquisition - Other / Unknown - Draper and Kramer Acquires 268-Unit Apartment Community in Evanston, Illinois -> Acquisition - Other / Unknown - Draper and Kramer Acquires 268-Unit Apartment Community in Evanston, Illinois (40, relationship_graph.csv)
+- Acquisition - Other / Unknown - The Battery Group Has Acquired Multifamily Apartment Community in Indianapolis -> Acquisition - Other / Unknown - The Battery Group Has Acquired Multifamily Apartment Community in Indianapolis (40, relationship_graph.csv)
 - Arizona -> Arizona (40, regional_intelligence.csv)
 - BTR / Build-to-Rent - Other / Unknown - Build-to-rent now eligible for Federal Housing Administration financing -> BTR / Build-to-Rent - Other / Unknown - Build-to-rent now eligible for Federal Housing Administration financing (40, relationship_graph.csv)
 - Acquisition - Miami / Florida - Berkadia Arranges Refis for 3 S. Florida Rental Communities -> Berkadia (60, relationship_graph.csv)
-- Acquisition - Other / Unknown - Berkadia Arranges Sale of 458-Unit Multifamily Property in Mount Pleasant, Wisconsin -> Berkadia (60, relationship_graph.csv)
-- Beverly Hills -> Beverly Hills (40, deal_pipeline.csv)
-- Beverly Hills -> Beverly Hills (40, relationship_graph.csv)
+- Buckhead Investment Partners -> Buckhead Investment Partners (40, gp_intelligence.csv)
+- Buckhead Investment Partners -> Buckhead Investment Partners (40, institutional_relationships.csv)
+- San Francisco / California -> California (60, articles.csv)
+- San Francisco / California -> California (60, deal_pipeline.csv)
+- San Francisco / California -> California (60, relationship_graph.csv)
+- Santa Monica / California -> California (60, articles.csv)
+- Santa Monica / California -> California (60, deal_pipeline.csv)
+- Santa Monica / California -> California (60, relationship_graph.csv)
+- Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily -> California (60, relationship_graph.csv)
+- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993 -> California (60, relationship_graph.csv)
 
 ## Relationship Graph Improvement Notes
 

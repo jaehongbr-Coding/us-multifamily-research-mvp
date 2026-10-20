@@ -1,34 +1,34 @@
 # LA / Southern California Asset Watch Report
 
-Generated: 2026-10-19 00:52:16
+Generated: 2026-10-20 01:37:24
 
-- Total LA / Southern California asset watch items: 42
+- Total LA / Southern California asset watch items: 39
 
 ## Top LA Site-Level Opportunities
 
 - Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
-- Construction Financing - California - PCCP Provides $41M Senior Loan for the Refinance of 125-Unit Multifamily Community in San...: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
-- Refinancing - Dallas / Texas - SMBC Refis Apartments Near Dallas, Philly With $108M Loan: Los Angeles, Refinancing / Recapitalization, la_asset_opportunity_score 100.
 - Construction Financing - Los Angeles / California - Culver City Mixed-Use Secures $133M Bank OZK Loan: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
-- Construction Financing - Miami / Florida - Related Urban Secures $129M Financing for Downtown Miami Project: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
-- Entitlement / Permitting - Colorado - More Pasadena affordable housing in the works at 1976 E. Colorado Blvd.: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 100.
+- Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Los Angeles, Refinancing / Recapitalization, la_asset_opportunity_score 100.
+- Entitlement / Permitting - Los Angeles / California - 32 apartments proposed at 806 N. Sweetzer Ave. in Hollywood: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
 - Entitlement / Permitting - Los Angeles / California - Rendering vs. Reality: 176 apartments at 2225 Sunset Boulevard in Echo Park: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
-- General Project Signal - Los Angeles / California - Jamison flips to affordable housing at 679 S. Harvard Blvd. in Koreatown: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 100.
-- JV / Partnership - Los Angeles / California - Affordable housing takes shape at 327 S. Harbor Blvd. in San Pedro: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 100.
-- JV / Partnership - California - IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
+- Entitlement / Permitting - New York City / New York - Stimdel Properties Files Plans to Build 612 Apartments in Astoria: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
+- Entitlement / Permitting - San Francisco / California - New Building Permits For 230 Anza Street in Lone Mountain, San Francisco: Los Angeles, Construction-Ready Pipeline, la_asset_opportunity_score 100.
+- JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
+- Acquisition - Atlanta / Georgia - JLL Brokers Sale of 217-Unit Apartment Building in Hoboken: Los Angeles, General Asset Signal, la_asset_opportunity_score 99.
+- Entitlement / Permitting - Santa Monica / California - Southwest Valley Community Plans take a step forward: Los Angeles, Entitlement Play, la_asset_opportunity_score 99.
 
 ## Top LA Site-Level Risks
 
+- Construction Financing - California - Purpose-Built Student Housing Near SDSU Has Financing in Place: Los Angeles, General Asset Signal, la_asset_risk_score 63.
 - Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Los Angeles, General Asset Signal, la_asset_risk_score 58.
-- Construction Financing - California - PCCP Provides $41M Senior Loan for the Refinance of 125-Unit Multifamily Community in San...: Los Angeles, General Asset Signal, la_asset_risk_score 56.
-- Construction Financing - Beverly Hills / California - Max Benjamin Partners Arranges $74.8M in Construction Financing for Townhome Property in F...: Los Angeles, General Asset Signal, la_asset_risk_score 52.
-- Refinancing - Dallas / Texas - SMBC Refis Apartments Near Dallas, Philly With $108M Loan: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 50.
+- Refinancing - Dallas / Texas - Northmarq Arranges Major Multifamily Refinance in Richardson Texas: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 55.
+- Acquisition - Atlanta / Georgia - JLL Brokers Sale of 217-Unit Apartment Building in Hoboken: Los Angeles, General Asset Signal, la_asset_risk_score 54.
 - Construction Financing - Los Angeles / California - Culver City Mixed-Use Secures $133M Bank OZK Loan: Los Angeles, General Asset Signal, la_asset_risk_score 48.
-- Construction Financing - Miami / Florida - Related Urban Secures $129M Financing for Downtown Miami Project: Los Angeles, General Asset Signal, la_asset_risk_score 47.
-- CEQA Notice of Exemption Filed for 359 Hudson Street in Healdsburg: Los Angeles, Affordable / Density Bonus Strategy, la_asset_risk_score 47.
-- Acquisition - California - Colliers Brokers Sale of Two-Property Multifamily Portfolio in Fallbrook, California for $...: Los Angeles, General Asset Signal, la_asset_risk_score 39.
-- Colliers Brokers Sale of Two-Property Multifamily Portfolio in Fallbrook, California for $37M: Los Angeles, General Asset Signal, la_asset_risk_score 39.
-- Entitlement / Permitting - Colorado - More Pasadena affordable housing in the works at 1976 E. Colorado Blvd.: Los Angeles, Affordable / Density Bonus Strategy, la_asset_risk_score 34.
+- Construction Financing - New York City / New York - Upper East Side Condo Project Lands $52M Construction Loan: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 47.
+- Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 41.
+- JV / Partnership - California - HSR, Barings Break Ground on 501-Unit Multifamily Project in Redwood City, California: Los Angeles, General Asset Signal, la_asset_risk_score 40.
+- Purpose-Built Student Housing Near SDSU Has Financing in Place: Los Angeles, General Asset Signal, la_asset_risk_score 40.
+- HSR, Barings Break Ground on 501-Unit Multifamily Project in Redwood City, California: Los Angeles, General Asset Signal, la_asset_risk_score 40.
 
 ## Koreatown / Wilshire Site Watch
 
@@ -36,7 +36,7 @@ Generated: 2026-10-19 00:52:16
 
 ## DTLA / Office Conversion Site Watch
 
-- Office-to-Residential Conversion - Riverside / California - Citi Provides $210M Refi for Grand Hyatt Resort in Southern California: Los Angeles, Office-to-Residential Conversion, la_asset_opportunity_score 92.
+- None detected.
 
 ## Hollywood / TOD Site Watch
 
@@ -57,34 +57,34 @@ Generated: 2026-10-19 00:52:16
 ## Local Sponsor / Developer Watch
 
 - Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
-- Construction Financing - California - PCCP Provides $41M Senior Loan for the Refinance of 125-Unit Multifamily Community in San...: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
-- Refinancing - Dallas / Texas - SMBC Refis Apartments Near Dallas, Philly With $108M Loan: Los Angeles, Refinancing / Recapitalization, la_asset_opportunity_score 100.
 - Construction Financing - Los Angeles / California - Culver City Mixed-Use Secures $133M Bank OZK Loan: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
-- Construction Financing - Miami / Florida - Related Urban Secures $129M Financing for Downtown Miami Project: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
-- JV / Partnership - California - IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
-- General Project Signal - Dallas / Texas - April Housing Celebrates Grand Reopening of Two Affordable Housing Communities in Fort Wor...: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 100.
-- JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
+- Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Los Angeles, Refinancing / Recapitalization, la_asset_opportunity_score 100.
 - JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
+- Acquisition - Atlanta / Georgia - JLL Brokers Sale of 217-Unit Apartment Building in Hoboken: Los Angeles, General Asset Signal, la_asset_opportunity_score 99.
 - New Building Permits For 230 Anza Street in Lone Mountain, San Francisco: Los Angeles, Construction-Ready Pipeline, la_asset_opportunity_score 98.
+- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Los Angeles, General Asset Signal, la_asset_opportunity_score 97.
+- Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Los Angeles, General Asset Signal, la_asset_opportunity_score 96.
+- 32 apartments proposed at 806 N. Sweetzer Ave. in Hollywood: Los Angeles, Entitlement Play, la_asset_opportunity_score 90.
+- Rendering vs. Reality: 176 apartments at 2225 Sunset Boulevard in Echo Park: Los Angeles, General Asset Signal, la_asset_opportunity_score 80.
 
 ## Recommended LA Asset Follow-up Actions
 
 - Review parcel clue, entitlement path, sponsor, and comparable sites: Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily.
-- Review parcel clue, entitlement path, sponsor, and comparable sites: Construction Financing - California - PCCP Provides $41M Senior Loan for the Refinance of 125-Unit Multifamily Community in San....
-- Track lender, maturity, owner, and recapitalization path: Refinancing - Dallas / Texas - SMBC Refis Apartments Near Dallas, Philly With $108M Loan.
 - Monitor asset for repeated local confirmation: Construction Financing - Los Angeles / California - Culver City Mixed-Use Secures $133M Bank OZK Loan.
-- Monitor asset for repeated local confirmation: Construction Financing - Miami / Florida - Related Urban Secures $129M Financing for Downtown Miami Project.
-- Track entitlement docket, density bonus use, and affordability requirement: Entitlement / Permitting - Colorado - More Pasadena affordable housing in the works at 1976 E. Colorado Blvd..
+- Track lender, maturity, owner, and recapitalization path: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
+- Track entitlement docket, density bonus use, and affordability requirement: Entitlement / Permitting - Los Angeles / California - 32 apartments proposed at 806 N. Sweetzer Ave. in Hollywood.
 - Track entitlement docket, density bonus use, and affordability requirement: Entitlement / Permitting - Los Angeles / California - Rendering vs. Reality: 176 apartments at 2225 Sunset Boulevard in Echo Park.
-- Track entitlement docket, density bonus use, and affordability requirement: General Project Signal - Los Angeles / California - Jamison flips to affordable housing at 679 S. Harvard Blvd. in Koreatown.
+- Track entitlement docket, density bonus use, and affordability requirement: Entitlement / Permitting - New York City / New York - Stimdel Properties Files Plans to Build 612 Apartments in Astoria.
+- Monitor asset for repeated local confirmation: Entitlement / Permitting - San Francisco / California - New Building Permits For 230 Anza Street in Lone Mountain, San Francisco.
+- Monitor asset for repeated local confirmation: JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City.
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 81
-- LA lifecycle watch items: 44
-- Stage mix: Refinancing / Recapitalization: 4, Unknown Stage: 56, Vertical Construction: 1, Delivery / Opening: 6, Site Acquisition / Site Control: 7
+- Lifecycle records: 66
+- LA lifecycle watch items: 38
+- Stage mix: Unknown Stage: 42, Refinancing / Recapitalization: 7, Site Acquisition / Site Control: 7, Building Permit / Construction Permit: 2, Early Site Signal: 3
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -92,11 +92,11 @@ Generated: 2026-10-19 00:52:16
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 81
-- Newly detected projects: 11
+- Lifecycle transitions analyzed: 66
+- Newly detected projects: 37
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 41
+- LA lifecycle transition watch items: 37
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -104,10 +104,10 @@ Generated: 2026-10-19 00:52:16
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 663
-- Canonical projects: 180
-- Duplicate project clusters: 115
-- Persistent assets tracked: 180
-- LA persistent asset watch items: 114
+- Raw project references: 537
+- Canonical projects: 131
+- Duplicate project clusters: 85
+- Persistent assets tracked: 131
+- LA persistent asset watch items: 86
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

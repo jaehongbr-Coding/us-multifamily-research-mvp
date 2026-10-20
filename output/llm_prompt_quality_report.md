@@ -1,32 +1,32 @@
 # LLM Prompt Quality Report
 
-Generated: 2026-10-19 00:51:54
+Generated: 2026-10-20 01:37:04
 
-- Total prompts reviewed: 51
-- Average prompt quality score: 91.1
-- Excellent prompts: 37
-- Good prompts: 14
+- Total prompts reviewed: 39
+- Average prompt quality score: 89.6
+- Excellent prompts: 23
+- Good prompts: 16
 - Needs Improvement prompts: 0
 - Poor prompts: 0
 
 ## Top 5 Strongest Prompts
 
-- 98 (Excellent): JCCG Delivers 225-Unit Build-to-Rent Community in Opelika, Alabama
-- 98 (Excellent): Cadence Real Estate Acquires Seattle Multifamily Community for $29M
-- 98 (Excellent): CBRE Arranges $12M Acquisition Loan for Mixed-Use Property in Brooklyn’s Fort Greene Neighborhood
-- 98 (Excellent): Colliers Brokers Sale of Two-Property Multifamily Portfolio in Fallbrook, California for $37M
-- 98 (Excellent): SMBC Refis Apartments Near Dallas, Philly With $108M Loan
+- 98 (Excellent): Partnership Completes $636M Rehabilitation of Two Brooklyn Affordable Housing Communities
+- 98 (Excellent): Joint Venture Underway on 236-Unit Multifamily Project in Denison, Texas
+- 98 (Excellent): TruAmerica Acquires 446-Unit Apartment Community in Metro Atlanta
+- 98 (Excellent): Upper East Side Condo Project Lands $52M Construction Loan
+- 98 (Excellent): 32 apartments proposed at 806 N. Sweetzer Ave. in Hollywood
 
 ## Top 5 Weakest Prompts
 
-- 74 (Good): Berkadia Arranges Sale of 458-Unit Multifamily Property in Mount Pleasant, Wisconsin - Missing: missing extracted numbers; missing market focus; missing market signal
+- 74 (Good): Draper and Kramer Acquires 268-Unit Apartment Community in Evanston, Illinois - Missing: missing extracted numbers; missing market focus; missing market signal
 - 74 (Good): Build-to-rent now eligible for Federal Housing Administration financing - Missing: missing extracted numbers; missing market focus; missing market signal
-- 82 (Good): Hines Acquires Bishop Arts Multifamily, Retail Portfolio - Missing: missing extracted numbers; missing market signal
-- 82 (Good): Keelbase Capital Acquires The Baxter Apartments in Bellevue - Missing: missing extracted numbers; missing market signal
-- 82 (Good): New Building Permits For 230 Anza Street in Lone Mountain, San Francisco - Missing: missing extracted numbers; missing market signal
+- 82 (Good): JLL Brokers Sale of 217-Unit Apartment Building in Hoboken - Missing: missing extracted numbers; missing market signal
+- 82 (Good): The Battery Group Has Acquired Multifamily Apartment Community in Indianapolis - Missing: missing market focus; missing market signal
+- 82 (Good): Purpose-Built Student Housing Near SDSU Has Financing in Place - Missing: missing extracted numbers; missing market signal
 
 ## Common Missing Context Issues
 
-- missing market signal: 22
+- missing market signal: 20
 - missing extracted numbers: 13
-- missing market focus: 9
+- missing market focus: 8

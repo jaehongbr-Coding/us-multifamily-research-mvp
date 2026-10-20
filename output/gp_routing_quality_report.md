@@ -1,73 +1,74 @@
 # GP Routing Quality Report
 
-Generated: 2026-10-19 00:51:48
+Generated: 2026-10-20 01:36:57
 
 ## Summary
-- Total GP / Capital candidates: 45
-- Selected GP / Capital articles: 24
+- Total GP / Capital candidates: 37
+- Selected GP / Capital articles: 23
 - Debt Financing count: 8
-- Refinancing count: 7
-- Construction Financing count: 6
-- Acquisition Financing count: 1
+- Refinancing count: 8
+- Construction Financing count: 3
+- Acquisition Financing count: 0
 - Equity Transaction count: 0
-- Operator Activity count: 2
-- Other / Unknown market count: 31
+- Operator Activity count: 1
+- Other / Unknown market count: 35
 
 ## Routing Regression Summary
-- Market Intelligence routed articles: 16
-- Development Activity routed articles: 58
+- Market Intelligence routed articles: 18
+- Development Activity routed articles: 44
 - GP / Capital Activity routed articles: 3
-- Market-protected research / macro / supply articles: 3
+- Market-protected research / macro / supply articles: 4
 - Approval / Entitlement development rows: 0
 - Site / Parcel development rows: 0
 - Routing rule: market and macro context is protected unless a headline-level deal, project, sponsor, or lender event is confirmed.
 - Routing rule: approval / entitlement wording takes priority over Site / Parcel when both appear.
 
 ## Activity Type Distribution
-- disposition_exit: 12
+- disposition_exit: 10
+- refinancing: 8
 - debt_financing: 8
-- refinancing: 7
-- construction_financing: 6
-- acquisition: 5
+- construction_financing: 3
 - joint_venture: 3
-- asset_management_operator_activity: 2
-- reit_activity: 1
-- acquisition_financing: 1
+- acquisition: 2
+- platform_expansion: 1
+- capital_raise: 1
+- asset_management_operator_activity: 1
 
 ## Excluded from GP / Capital with Reason
-- April Housing Celebrates Grand Reopening of Two Affordable Housing Communities in Fort Worth | Yield PRO | asset strategy / development routing
+- JLL Brokers Sale of 217-Unit Apartment Building in Hoboken | REBusiness Online | asset strategy / development routing
+- Draper and Kramer Acquires 268-Unit Apartment Community in Evanston, Illinois | REBusiness Online | asset strategy / development routing
 - 3 notable office-to-residential conversions in DC | Multifamily Dive | asset strategy / development routing
 
 ## Top Unresolved Market Extraction Examples
-- Walker & Dunlop Investment Partners Supplies $63M Refi for Illinois Apartments | Commercial Observer | no city, state, or market keyword detected
-- BridgeCity Lends $84M on Midtown East Office-to-Resi Conversion | Commercial Observer | no city, state, or market keyword detected
-- Merchants Capital Secures $30M for 227-Unit Indianapolis Multifamily Development | Connect CRE | no city, state, or market keyword detected
+- $62.1M Refinancing Secured for North Carolina Multifamily Community | Yield PRO | no city, state, or market keyword detected
 - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City | Urbanize LA | no city, state, or market keyword detected
+- Merchants Capital Secures $30M for 227-Unit Indianapolis Multifamily Development | Connect CRE Apartments | no city, state, or market keyword detected
 - Build-to-rent now eligible for Federal Housing Administration financing | Multifamily Dive | no city, state, or market keyword detected
-- Annex Group Breaks Ground on $71M Affordable Housing Community in Indianapolis | REBusiness Online | used broad market bucket: National
-- Essex Realty Group Closes Sale of Rogers Park Apartment Building | Connect CRE | no city, state, or market keyword detected
-- ICON Real Estate Negotiates $4.1M Sale of Apartment Building in Bayonne, New Jersey | REBusiness Online | no city, state, or market keyword detected
+- Distressed Sales Jump 26%, Led By Multifamily Deals | Bisnow | no city, state, or market keyword detected
+- A Third of Maturing Multifamily Debt Needs Cash Infusion to Refinance | Commercial Observer | used broad market bucket: National
+- Draper and Kramer Acquires 268-Unit Apartment Community in Evanston, Illinois | REBusiness Online | no city, state, or market keyword detected
 - Best Year for Missing Middle Construction Since 2007 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- Berkadia Arranges Sale of 458-Unit Multifamily Property in Mount Pleasant, Wisconsin | REBusiness Online | no city, state, or market keyword detected
 - Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- The Battery Group Has Acquired Multifamily Apartment Community in Indianapolis | Yield PRO | no city, state, or market keyword detected
 - Multifamily Missing Middle Falls Back | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Multifamily Missing Middle Construction: First Quarter 2026 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- Fresh renderings for new workforce housing at 315 N. Pasadena Ave. | Urbanize LA | no city, state, or market keyword detected
 - Multifamily Absorption Rate Remains Below 50% | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- Shorter Apartment Construction Time in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- Multifamily starts forecast lower in October | Yield PRO | used broad market bucket: National
 
 ## Sample Selected GP / Capital Articles
-- Pearlmark Provides $81M for Apartment Project in Coral Gables | construction_financing | Miami / Florida | Commercial Observer
-- Walker & Dunlop Investment Partners Supplies $63M Refi for Illinois Apartments | refinancing | Other / Unknown | Commercial Observer
-- SMBC Refis Apartments Near Dallas, Philly With $108M Loan | refinancing | Dallas / Texas | Commercial Observer
-- BridgeCity Lends $84M on Midtown East Office-to-Resi Conversion | construction_financing | Other / Unknown | Commercial Observer
-- PCCP Provides $41M Refi on North Park Multifamily | refinancing | California | Connect CRE
-- Merchants Capital Secures $30M for 227-Unit Indianapolis Multifamily Development | debt_financing | Other / Unknown | Connect CRE
-- Newmark Arranges $76.2M in Bridge Financing for New Orlando Multifamily Community | debt_financing | Florida | REBusiness Online
-- Culver City Mixed-Use Secures $133M Bank OZK Loan | construction_financing | Los Angeles / California | Connect CRE Apartments
+- Northmarq Arranges Major Multifamily Refinance in Richardson Texas | refinancing | Dallas / Texas | Yield PRO
+- $62.1M Refinancing Secured for North Carolina Multifamily Community | refinancing | Other / Unknown | Yield PRO
+- Upper East Side Condo Project Lands $52M Construction Loan | construction_financing | New York City / New York | Connect CRE Apartments
+- Little Havana Apartment Owners Land $50.8M Refi | refinancing | Miami / Florida | Connect CRE Apartments
+- PCCP Provides $41M Refi on North Park Multifamily | refinancing | California | Connect CRE Apartments
+- Merchants Capital Secures $30M for 227-Unit Indianapolis Multifamily Development | debt_financing | Other / Unknown | Connect CRE Apartments
 - Berkadia Arranges Refis for 3 S. Florida Rental Communities | refinancing | Miami / Florida | Connect CRE South Florida
-- Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex | joint_venture | Miami / Florida | Connect CRE South Florida
-- Merchants Bank Provides $27.5M in Financing for Brooklyn Affordable Housing Complex | asset_management_operator_activity | New York City / New York | REBusiness Online
-- Cadence Real Estate Acquires Seattle Multifamily Community for $29M | disposition_exit | Seattle | Yield PRO
-- Bridge Investment Group Forecloses on Two Multifamily Communities in Texas | acquisition | Texas | Yield PRO
-- Max Benjamin Partners Arranges $74.8M in Construction Financing for Townhome Property in Flagstaff, Arizona | construction_financing | Beverly Hills / California | REBusiness Online
-- Related Urban Secures $129M Financing for Downtown Miami Project | construction_financing | Miami / Florida | Commercial Observer
+- Culver City Mixed-Use Secures $133M Bank OZK Loan | construction_financing | Los Angeles / California | Connect CRE California
+- HSR, Barings Break Ground on 501-Unit Multifamily Project in Redwood City, California | joint_venture | California | REBusiness Online
+- Purpose-Built Student Housing Near SDSU Has Financing in Place | construction_financing | California | Connect CRE California
+- 104 New Apartments Open in Austin for People Exiting Chronic Homelessness | platform_expansion | Dallas / Texas | Yield PRO
+- The South Florida Real Estate Market Leans Evermore on the Wealthy | debt_financing | Miami / Florida | Commercial Observer
+- Build-to-rent now eligible for Federal Housing Administration financing | refinancing | Other / Unknown | Multifamily Dive
+- Distressed Sales Jump 26%, Led By Multifamily Deals | disposition_exit | Other / Unknown | Bisnow
+- A Third of Maturing Multifamily Debt Needs Cash Infusion to Refinance | refinancing | National | Commercial Observer

@@ -1,79 +1,73 @@
 # Development Lifecycle Report
 
-Generated: 2026-10-19 00:52:18
+Generated: 2026-10-20 01:37:25
 
-- Total lifecycle records: 81
+- Total lifecycle records: 66
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 56
+- Unknown Stage: 42
+- Refinancing / Recapitalization: 7
 - Site Acquisition / Site Control: 7
-- Delivery / Opening: 6
-- Refinancing / Recapitalization: 4
+- Early Site Signal: 3
+- Delivery / Opening: 3
 - Building Permit / Construction Permit: 2
-- Vertical Construction: 1
-- Construction Started: 1
-- Early Site Signal: 1
-- Entitlement Under Review: 1
-- Environmental Review / CEQA: 1
-- Distressed / Stalled: 1
+- Distressed / Stalled: 2
 
 ## Top Development Timing Opportunities
 
-- Refinancing - Dallas / Texas - SMBC Refis Apartments Near Dallas, Philly With $108M Loan: Refinancing / Recapitalization, Dallas, lifecycle_opportunity_score 100.
+- Acquisition - Atlanta / Georgia - JLL Brokers Sale of 217-Unit Apartment Building in Hoboken: Unknown Stage, Atlanta / Georgia, lifecycle_opportunity_score 100.
 - Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Unknown Stage, California, lifecycle_opportunity_score 100.
-- PCCP Provides $41M Senior Loan for the Refinance of 125-Unit Multifamily Community in San Diego: Refinancing / Recapitalization, Unknown, lifecycle_opportunity_score 100.
+- Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization, South Florida, lifecycle_opportunity_score 100.
 - Construction Financing - Los Angeles / California - Culver City Mixed-Use Secures $133M Bank OZK Loan: Unknown Stage, Los Angeles, lifecycle_opportunity_score 100.
-- Construction Financing - Miami / Florida - Pearlmark Provides $81M for Apartment Project in Coral Gables: Vertical Construction, Miami, lifecycle_opportunity_score 100.
-- JV / Partnership - California - IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield: Unknown Stage, California, lifecycle_opportunity_score 100.
-- JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex: Unknown Stage, South Florida, lifecycle_opportunity_score 100.
-- General Project Signal - Dallas / Texas - April Housing Celebrates Grand Reopening of Two Affordable Housing Communities in Fort Wor...: Delivery / Opening, Fort Worth, lifecycle_opportunity_score 100.
-- Office-to-Residential Conversion - Riverside / California - Citi Provides $210M Refi for Grand Hyatt Resort in Southern California: Delivery / Opening, Southern California, lifecycle_opportunity_score 100.
 - JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City: Site Acquisition / Site Control, Unknown, lifecycle_opportunity_score 100.
+- New Building Permits For 230 Anza Street in Lone Mountain, San Francisco: Building Permit / Construction Permit, Unknown, lifecycle_opportunity_score 97.
+- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Unknown Stage, California, lifecycle_opportunity_score 95.
+- Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Unknown Stage, Atlanta, lifecycle_opportunity_score 95.
+- Entitlement / Permitting - San Francisco / California - New Building Permits For 230 Anza Street in Lone Mountain, San Francisco: Building Permit / Construction Permit, San Francisco, lifecycle_opportunity_score 93.
+- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization, California, lifecycle_opportunity_score 92.
 
 ## Top Lifecycle Risks
 
-- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled, Atlanta, lifecycle_risk_score 74.
-- Entitlement / Permitting - Other / Unknown - CEQA Notice of Exemption Filed for 359 Hudson Street in Healdsburg: Environmental Review / CEQA, Unknown, lifecycle_risk_score 66.
-- Refinancing - Dallas / Texas - SMBC Refis Apartments Near Dallas, Philly With $108M Loan: Refinancing / Recapitalization, Dallas, lifecycle_risk_score 53.
-- Construction Financing - Beverly Hills / California - Max Benjamin Partners Arranges $74.8M in Construction Financing for Townhome Property in F...: Unknown Stage, Beverly Hills, lifecycle_risk_score 52.
+- Disposition / Exit - Other / Unknown - Distressed Sales Jump 26%, Led By Multifamily Deals: Distressed / Stalled, Unknown, lifecycle_risk_score 89.
+- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled, Atlanta, lifecycle_risk_score 75.
+- Refinancing - Dallas / Texas - Northmarq Arranges Major Multifamily Refinance in Richardson Texas: Refinancing / Recapitalization, Dallas, lifecycle_risk_score 60.
+- Construction Financing - California - Purpose-Built Student Housing Near SDSU Has Financing in Place: Unknown Stage, California, lifecycle_risk_score 59.
+- Construction Financing - New York City / New York - Upper East Side Condo Project Lands $52M Construction Loan: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 57.
+- Refinancing - National - A Third of Maturing Multifamily Debt Needs Cash Infusion to Refinance: Refinancing / Recapitalization, National, lifecycle_risk_score 57.
+- Northmarq Arranges Major Multifamily Refinance in Richardson Texas: Refinancing / Recapitalization, Dallas, lifecycle_risk_score 53.
+- Acquisition - Atlanta / Georgia - JLL Brokers Sale of 217-Unit Apartment Building in Hoboken: Unknown Stage, Atlanta / Georgia, lifecycle_risk_score 51.
 - Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Unknown Stage, California, lifecycle_risk_score 51.
-- Construction Financing - California - PCCP Provides $41M Senior Loan for the Refinance of 125-Unit Multifamily Community in San...: Unknown Stage, San Diego, lifecycle_risk_score 51.
-- Refinancing - Other / Unknown - Walker & Dunlop Investment Partners Supplies $63M Refi for Illinois Apartments: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 51.
-- PCCP Provides $41M Senior Loan for the Refinance of 125-Unit Multifamily Community in San Diego: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 47.
-- Construction Financing - Los Angeles / California - Culver City Mixed-Use Secures $133M Bank OZK Loan: Unknown Stage, Los Angeles, lifecycle_risk_score 45.
-- CEQA Notice of Exemption Filed for 359 Hudson Street in Healdsburg: Entitlement Under Review, Unknown, lifecycle_risk_score 45.
+- Refinancing - Other / Unknown - $62.1M Refinancing Secured for North Carolina Multifamily Community: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 51.
 
 ## Projects Under Entitlement / Planning
 
-- CEQA Notice of Exemption Filed for 359 Hudson Street in Healdsburg: Entitlement Under Review, Unknown, lifecycle_opportunity_score 74.
-- Entitlement / Permitting - Other / Unknown - CEQA Notice of Exemption Filed for 359 Hudson Street in Healdsburg: Environmental Review / CEQA, Unknown, lifecycle_opportunity_score 61.
+- None detected.
 
 ## Construction-Ready / Construction-Start Signals
 
-- Construction Financing - Miami / Florida - Pearlmark Provides $81M for Apartment Project in Coral Gables: Vertical Construction, Miami, lifecycle_opportunity_score 100.
 - New Building Permits For 230 Anza Street in Lone Mountain, San Francisco: Building Permit / Construction Permit, Unknown, lifecycle_opportunity_score 97.
 - Entitlement / Permitting - San Francisco / California - New Building Permits For 230 Anza Street in Lone Mountain, San Francisco: Building Permit / Construction Permit, San Francisco, lifecycle_opportunity_score 93.
-- Development Start - Los Angeles / California - Groundbreaking of Age-Restricted Affordable Housing for Wildfires Survivors in California: Construction Started, Los Angeles, lifecycle_opportunity_score 86.
 
 ## Delivery / Lease-Up Signals
 
-- General Project Signal - Dallas / Texas - April Housing Celebrates Grand Reopening of Two Affordable Housing Communities in Fort Wor...: Delivery / Opening, Fort Worth, lifecycle_opportunity_score 100.
-- Office-to-Residential Conversion - Riverside / California - Citi Provides $210M Refi for Grand Hyatt Resort in Southern California: Delivery / Opening, Southern California, lifecycle_opportunity_score 100.
-- Disposition / Exit - Seattle - Cadence Real Estate Acquires Seattle Multifamily Community for $29M: Delivery / Opening, Seattle, lifecycle_opportunity_score 90.
-- Affordable housing takes shape at 327 S. Harbor Blvd. in San Pedro: Delivery / Opening, Los Angeles, lifecycle_opportunity_score 83.
-- Office-to-Residential Conversion - Washington DC - National Real Estate Advisors Opens Office-to-Residential Conversion Project in D.C.: Delivery / Opening, Washington, D.C., lifecycle_opportunity_score 64.
+- JV / Partnership - New York City / New York - Partnership Completes $636M Rehabilitation of Two Brooklyn Affordable Housing Communities: Delivery / Opening, New York City, lifecycle_opportunity_score 63.
 - Office-to-Residential Conversion - National - 3 notable office-to-residential conversions in DC: Delivery / Opening, National, lifecycle_opportunity_score 56.
+- Subtext Opens VERVE Columbia Near University of South Carolina: Delivery / Opening, Unknown, lifecycle_opportunity_score 52.
 
 ## Distressed / Stalled Lifecycle Signals
 
-- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled, Atlanta, lifecycle_risk_score 74.
+- Disposition / Exit - Other / Unknown - Distressed Sales Jump 26%, Led By Multifamily Deals: Distressed / Stalled, Unknown, lifecycle_risk_score 89.
+- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled, Atlanta, lifecycle_risk_score 75.
 
 ## Refinancing / Recapitalization Lifecycle Signals
 
-- Refinancing - Dallas / Texas - SMBC Refis Apartments Near Dallas, Philly With $108M Loan: Refinancing / Recapitalization, Dallas, lifecycle_risk_score 53.
-- Refinancing - Other / Unknown - Walker & Dunlop Investment Partners Supplies $63M Refi for Illinois Apartments: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 51.
-- PCCP Provides $41M Senior Loan for the Refinance of 125-Unit Multifamily Community in San Diego: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 47.
+- Refinancing - Dallas / Texas - Northmarq Arranges Major Multifamily Refinance in Richardson Texas: Refinancing / Recapitalization, Dallas, lifecycle_risk_score 60.
+- Construction Financing - New York City / New York - Upper East Side Condo Project Lands $52M Construction Loan: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 57.
+- Refinancing - National - A Third of Maturing Multifamily Debt Needs Cash Infusion to Refinance: Refinancing / Recapitalization, National, lifecycle_risk_score 57.
+- Northmarq Arranges Major Multifamily Refinance in Richardson Texas: Refinancing / Recapitalization, Dallas, lifecycle_risk_score 53.
+- Refinancing - Other / Unknown - $62.1M Refinancing Secured for North Carolina Multifamily Community: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 51.
+- Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 49.
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization, California, lifecycle_risk_score 40.
 
 ## Implications for Woomi / Woomi Global
@@ -83,24 +77,24 @@ Generated: 2026-10-19 00:52:18
 
 ## Recommended Lifecycle Follow-up Actions
 
-- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Dallas / Texas - SMBC Refis Apartments Near Dallas, Philly With $108M Loan.
+- Monitor lifecycle signal for repeated confirmation: Acquisition - Atlanta / Georgia - JLL Brokers Sale of 217-Unit Apartment Building in Hoboken.
 - Monitor lifecycle signal for repeated confirmation: Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily.
-- Track lender, maturity, debt terms, and recapitalization need: PCCP Provides $41M Senior Loan for the Refinance of 125-Unit Multifamily Community in San Diego.
+- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
 - Monitor lifecycle signal for repeated confirmation: Construction Financing - Los Angeles / California - Culver City Mixed-Use Secures $133M Bank OZK Loan.
-- Benchmark construction timeline, sponsor execution, and delivery risk: Construction Financing - Miami / Florida - Pearlmark Provides $81M for Apartment Project in Coral Gables.
-- Monitor lifecycle signal for repeated confirmation: JV / Partnership - California - IPA Brokers $205M Student Housing Sale to JV of Coastal Ridge, Brookfield.
-- Monitor lifecycle signal for repeated confirmation: JV / Partnership - Miami / Florida - Development Group Scores Financing for 502-Unit Fort Lauderdale Apartment Complex.
-- Benchmark delivery, lease-up, occupancy, and rent assumptions: General Project Signal - Dallas / Texas - April Housing Celebrates Grand Reopening of Two Affordable Housing Communities in Fort Wor....
+- Monitor lifecycle signal for repeated confirmation: JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City.
+- Monitor permit issuance, financing, and construction-start timing: New Building Permits For 230 Anza Street in Lone Mountain, San Francisco.
+- Monitor lifecycle signal for repeated confirmation: Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993.
+- Monitor lifecycle signal for repeated confirmation: Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 81
-- Newly detected projects: 11
+- Lifecycle transitions analyzed: 66
+- Newly detected projects: 37
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 41
+- LA lifecycle transition watch items: 37
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -108,11 +102,11 @@ Generated: 2026-10-19 00:52:18
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 663
-- Canonical projects: 180
-- Duplicate project clusters: 115
-- Persistent assets tracked: 180
-- LA persistent asset watch items: 114
+- Raw project references: 537
+- Canonical projects: 131
+- Duplicate project clusters: 85
+- Persistent assets tracked: 131
+- LA persistent asset watch items: 86
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -120,10 +114,10 @@ Generated: 2026-10-19 00:52:18
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 180
-- Institutional-grade signals: 21
-- High-confidence signals: 53
-- Weak/noisy signals: 100
-- High-confidence watchlist items: 53
+- Signals evaluated: 131
+- Institutional-grade signals: 13
+- High-confidence signals: 36
+- Weak/noisy signals: 78
+- High-confidence watchlist items: 36
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

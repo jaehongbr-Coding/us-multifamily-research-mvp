@@ -1,105 +1,107 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-10-20 01:37:05
+Generated: 2026-10-21 01:20:31
 
-- Total relationship edges: 92
-- Most connected developer / GP: JLL (14 edge(s))
+- Total relationship edges: 101
+- Most connected developer / GP: JLL (15 edge(s))
 - Most connected lender / debt provider: jll (5 edge(s))
-- Most connected market: Atlanta / Georgia (6 edge(s))
+- Most connected market: California (9 edge(s))
 - Strongest relationship edge: JLL -> jll
-- Highest Woomi relevance edge: Lincoln Property Company -> JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City
+- Highest Woomi relevance edge: High Street Residential -> California
 
 ## Top 10 Relationship Edges
 
 - JLL -> jll: Financing Relationship, California, score 100. Track GP relationship history.
+- JLL -> jll: Financing Relationship, California, score 100. Track GP relationship history.
+- Kennedy Wilson -> jll: Financing Relationship, California, score 100. Track GP relationship history.
+- Kennedy Wilson -> kennedy wilson: Capital Flow, California, score 100. Track GP relationship history.
 - JLL -> California: Financing Relationship, California, score 96. Track GP relationship history.
 - JLL -> Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Financing Relationship, California, score 96. Track GP relationship history.
-- Lincoln Property Company -> berkadia: Financing Relationship, Los Angeles / California, score 95. Track GP relationship history.
-- Berkadia -> berkadia: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
 - JLL -> jll: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
-- PCCP -> California: Financing Relationship, California, score 92. Track GP relationship history.
-- PCCP -> Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Financing Relationship, California, score 92. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Atlanta / Georgia, score 89. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Other / Unknown, score 89. Track GP relationship history.
+- PCCP -> California: Financing Relationship, California, score 93. Track GP relationship history.
+- PCCP -> California: Financing Relationship, California, score 93. Track GP relationship history.
+- PCCP -> Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Financing Relationship, California, score 93. Track GP relationship history.
 
 ## Developer / GP Relationship Map
 
 - JLL -> jll: Financing Relationship, California, score 100. Track GP relationship history.
+- JLL -> jll: Financing Relationship, California, score 100. Track GP relationship history.
+- Kennedy Wilson -> jll: Financing Relationship, California, score 100. Track GP relationship history.
+- Kennedy Wilson -> kennedy wilson: Capital Flow, California, score 100. Track GP relationship history.
 - JLL -> California: Financing Relationship, California, score 96. Track GP relationship history.
 - JLL -> Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Financing Relationship, California, score 96. Track GP relationship history.
-- Lincoln Property Company -> berkadia: Financing Relationship, Los Angeles / California, score 95. Track GP relationship history.
-- Berkadia -> berkadia: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
 - JLL -> jll: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
-- PCCP -> California: Financing Relationship, California, score 92. Track GP relationship history.
-- PCCP -> Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Financing Relationship, California, score 92. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Atlanta / Georgia, score 89. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Other / Unknown, score 89. Track GP relationship history.
+- PCCP -> California: Financing Relationship, California, score 93. Track GP relationship history.
+- PCCP -> California: Financing Relationship, California, score 93. Track GP relationship history.
+- PCCP -> Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Financing Relationship, California, score 93. Track GP relationship history.
 
 ## Lender / Debt Provider Relationship Map
 
 - JLL -> jll: Financing Relationship, California, score 100. Track GP relationship history.
-- Lincoln Property Company -> berkadia: Financing Relationship, Los Angeles / California, score 95. Track GP relationship history.
-- Berkadia -> berkadia: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
+- JLL -> jll: Financing Relationship, California, score 100. Track GP relationship history.
+- Kennedy Wilson -> jll: Financing Relationship, California, score 100. Track GP relationship history.
 - JLL -> jll: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Atlanta / Georgia, score 89. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Other / Unknown, score 89. Track GP relationship history.
-- Fannie Mae -> fannie mae: Financing Relationship, Other / Unknown, score 82. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Other / Unknown, score 82. Track GP relationship history.
-- Merchants Capital -> freddie mac: Financing Relationship, Other / Unknown, score 81. Track GP relationship history.
-- Fannie Mae -> fannie mae: Financing Relationship, National, score 76. Track GP relationship history.
+- Berkadia -> berkadia: Financing Relationship, Miami / Florida, score 92. Track GP relationship history.
+- Walker & Dunlop -> walker & dunlop: Financing Relationship, Southeast, score 87. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Los Angeles / California, score 79. Track GP relationship history.
+- Disposition / Exit - Los Angeles / California - Newly Constructed Palmdale McDonald’s Trades in All-Cash Deal -> cushman: Financing Relationship, Los Angeles / California, score 56. Monitor lender activity.
 
 ## Capital Partner / Institutional Flow Map
 
+- Kennedy Wilson -> kennedy wilson: Capital Flow, California, score 100. Track GP relationship history.
+- Blackstone -> blackstone: Capital Flow, Denver / Colorado, score 92. Track GP relationship history.
+- Blackstone -> blackstone: Capital Flow, Seattle, score 92. Track GP relationship history.
 - Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 86. Track GP relationship history.
+- Kennedy Wilson -> kennedy wilson: Disposition / Seller, Phoenix / Arizona, score 76. Track GP relationship history.
+- Greystone -> essex: Disposition / Seller, Other / Unknown, score 59. Track GP relationship history.
 
 ## Market Relationship Map
 
 - JLL -> California: Financing Relationship, California, score 96. Track GP relationship history.
-- PCCP -> California: Financing Relationship, California, score 92. Track GP relationship history.
-- Lincoln Property Company -> Los Angeles: Financing Relationship, Los Angeles / California, score 87. Track GP relationship history.
-- Lincoln Property Company -> Los Angeles / California: Financing Relationship, Los Angeles / California, score 87. Track GP relationship history.
+- PCCP -> California: Financing Relationship, California, score 93. Track GP relationship history.
+- PCCP -> California: Financing Relationship, California, score 93. Track GP relationship history.
+- Kennedy Wilson -> California: Market Expansion, California, score 92. Track GP relationship history.
+- Kennedy Wilson -> San Diego: Market Expansion, California, score 92. Track GP relationship history.
+- JLL -> California: Acquisition / Buyer, California, score 91. Track GP relationship history.
+- JLL -> Southern California: Acquisition / Buyer, California, score 91. Track GP relationship history.
+- High Street Residential -> California: JV / Partnership, California, score 85. Review potential JV relevance.
 - JLL -> Miami / Florida: Financing Relationship, Miami / Florida, score 85. Track GP relationship history.
 - JLL -> South Florida: Financing Relationship, Miami / Florida, score 85. Track GP relationship history.
-- Berkadia -> Miami / Florida: Acquisition / Buyer, Miami / Florida, score 83. Track GP relationship history.
-- Berkadia -> South Florida: Acquisition / Buyer, Miami / Florida, score 83. Track GP relationship history.
-- JLL -> Atlanta / Georgia: Acquisition / Buyer, Atlanta / Georgia, score 79. Track GP relationship history.
-- Hines -> Atlanta: Acquisition / Buyer, Atlanta / Georgia, score 78. Track GP relationship history.
 
 ## California / LA Relationship Signals
 
 - JLL -> jll: Financing Relationship, California, score 100. Track GP relationship history.
+- JLL -> jll: Financing Relationship, California, score 100. Track GP relationship history.
+- Kennedy Wilson -> jll: Financing Relationship, California, score 100. Track GP relationship history.
+- Kennedy Wilson -> kennedy wilson: Capital Flow, California, score 100. Track GP relationship history.
 - JLL -> California: Financing Relationship, California, score 96. Track GP relationship history.
 - JLL -> Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Financing Relationship, California, score 96. Track GP relationship history.
-- PCCP -> California: Financing Relationship, California, score 92. Track GP relationship history.
-- PCCP -> Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Financing Relationship, California, score 92. Track GP relationship history.
-- Lincoln Property Company -> Los Angeles: Financing Relationship, Los Angeles / California, score 87. Track GP relationship history.
-- Marcus & Millichap -> California: Disposition / Seller, California, score 75. Track GP relationship history.
-- Marcus & Millichap -> Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Disposition / Seller, California, score 75. Track GP relationship history.
-- JV / Partnership - California - HSR, Barings Break Ground on 501-Unit Multifamily Project in Redwood City, California -> California: JV / Partnership, California, score 71. Review potential JV relevance.
-- Construction Financing - California - Purpose-Built Student Housing Near SDSU Has Financing in Place -> California: Financing Relationship, California, score 65. Track LA / California activity.
+- PCCP -> California: Financing Relationship, California, score 93. Track GP relationship history.
+- PCCP -> California: Financing Relationship, California, score 93. Track GP relationship history.
+- PCCP -> Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Financing Relationship, California, score 93. Track GP relationship history.
+- PCCP -> Construction Financing - California - PCCP Provides $41M Refinancing for Multifamily Community in San Diego: Financing Relationship, California, score 93. Track GP relationship history.
 
 ## Potential Woomi Partnership Signals
 
-- Lincoln Property Company -> JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City: JV / Partnership, Other / Unknown, score 86. Review potential JV relevance.
-- JV / Partnership - California - HSR, Barings Break Ground on 501-Unit Multifamily Project in Redwood City, California -> California: JV / Partnership, California, score 71. Review potential JV relevance.
-- JV / Partnership - New York City / New York - Partnership Completes $636M Rehabilitation of Two Brooklyn Affordable Housing Communities -> New York City: JV / Partnership, New York City / New York, score 57. Review potential JV relevance.
-- JV / Partnership - New York City / New York - Partnership Completes $636M Rehabilitation of Two Brooklyn Affordable Housing Communities -> New York City / New York: JV / Partnership, New York City / New York, score 57. Review potential JV relevance.
-- JV / Partnership - Texas - Joint Venture Underway on 236-Unit Multifamily Project in Denison, Texas -> Texas: JV / Partnership, Texas, score 54. Review potential JV relevance.
+- High Street Residential -> California: JV / Partnership, California, score 85. Review potential JV relevance.
+- High Street Residential -> JV / Partnership - California - High Street Residential, Barings Break Ground in Redwood City: JV / Partnership, California, score 85. Review potential JV relevance.
+- JV / Partnership - National - Habitat, Cabrera Capital Break Ground on LeClaire Courts Mixed-Use Redevelopment in Chicag... -> JV / Partnership - National - Habitat, Cabrera Capital Break Ground on LeClaire Courts Mixed-Use Redevelopment in Chicag...: JV / Partnership, National, score 60. Review potential JV relevance.
+- JV / Partnership - Other / Unknown - Partnership Completes Multifamily Project, Public Park in Dover, New Hampshire -> JV / Partnership - Other / Unknown - Partnership Completes Multifamily Project, Public Park in Dover, New Hampshire: JV / Partnership, Other / Unknown, score 44. Review potential JV relevance.
 
 ## Canonical Relationship Map
 
 | Source | Target | Relationship | Confidence |
 | --- | --- | --- | ---: |
 | JLL | JLL | Financing Relationship | 75 |
+| JLL | JLL | Financing Relationship | 75 |
+| Kennedy Wilson | JLL | Financing Relationship | 75 |
+| Kennedy Wilson | Kennedy Wilson | Capital Flow | 75 |
 | JLL | California | Financing Relationship | 100 |
 | JLL | JLL | Financing Relationship | 60 |
-| Lincoln Property Company | Berkadia | Financing Relationship | 40 |
-| Berkadia | Berkadia | Financing Relationship | 75 |
 | JLL | JLL | Financing Relationship | 75 |
 | PCCP | California | Financing Relationship | 40 |
 | PCCP | California | Financing Relationship | 40 |
-| JLL | JLL | Financing Relationship | 75 |
-| JLL | JLL | Financing Relationship | 75 |
+| PCCP | California | Financing Relationship | 40 |
 
 ## Multi-Source Confirmation Summary
 
@@ -109,11 +111,11 @@ Relationship repeat strength uses unique canonical deal/event counts instead of 
 ## Emerging GP Watchlist Reference
 
 Ranked GP watchlist signals are available in `gp_watchlist_report.md`.
-- Berkadia: 76 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- JLL: 76 (Tier 2 High Potential GP), Capital market and pricing discovery reference.
-- JLL: 76 (Tier 2 High Potential GP), Capital market and pricing discovery reference.
-- Hines: 73 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- Lincoln Property Company: 68 (Tier 3 Monitoring GP), Potential GP partnership candidate.
+- Kennedy Wilson: 78 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- A10 Capital: 77 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- CBRE: 77 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- JLL: 76 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- JLL: 76 (Tier 2 High Potential GP), Potential GP partnership candidate.
 
 ## GP Source Expansion Summary
 
@@ -134,22 +136,22 @@ Longitudinal memory is available in `historical_memory_report.md`.
 ## Recommended Executive Follow-Up
 
 - Track GP relationship history: JLL -> jll (Financing Relationship).
+- Track GP relationship history: JLL -> jll (Financing Relationship).
+- Track GP relationship history: Kennedy Wilson -> jll (Financing Relationship).
+- Track GP relationship history: Kennedy Wilson -> kennedy wilson (Capital Flow).
 - Track GP relationship history: JLL -> California (Financing Relationship).
 - Track GP relationship history: JLL -> Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities (Financing Relationship).
-- Track GP relationship history: Lincoln Property Company -> berkadia (Financing Relationship).
-- Track GP relationship history: Berkadia -> berkadia (Financing Relationship).
 - Track GP relationship history: JLL -> jll (Financing Relationship).
 - Track GP relationship history: PCCP -> California (Financing Relationship).
-- Track GP relationship history: PCCP -> Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily (Financing Relationship).
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 537
-- Canonical projects: 131
-- Duplicate project clusters: 85
-- Persistent assets tracked: 131
-- LA persistent asset watch items: 86
+- Raw project references: 555
+- Canonical projects: 132
+- Duplicate project clusters: 81
+- Persistent assets tracked: 132
+- LA persistent asset watch items: 90
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

@@ -1,97 +1,99 @@
 # Deal & Project Pipeline Report
 
-Generated: 2026-10-20 01:37:05
+Generated: 2026-10-21 01:20:31
 
 - Total deal/project signals found: 49
-- High deal intelligence count: 5
+- High deal intelligence count: 8
 
 ## Top 10 Deal / Project Signals
 
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing, California, score 92. Capital market signal.
+- Office-to-Residential Conversion - California - Kennedy Wilson’ Vintage Housing Buys Foreclosed San Diego Tower for Multifamily Redevelopm...: Office-to-Residential Conversion, California, score 89. Pricing benchmark.
+- Acquisition - California - Forbright Bank Provides $50M for Southern California R&D Campus: Acquisition, California, score 88. Pricing benchmark.
 - Acquisition - Miami / Florida - Berkadia Arranges Refis for 3 S. Florida Rental Communities: Acquisition, Miami / Florida, score 85. Pricing benchmark.
-- Construction Financing - Los Angeles / California - Culver City Mixed-Use Secures $133M Bank OZK Loan: Construction Financing, Los Angeles / California, score 85. Capital market signal.
 - Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Construction Financing, California, score 85. Capital market signal.
+- Construction Financing - California - PCCP Provides $41M Refinancing for Multifamily Community in San Diego: Construction Financing, California, score 85. Capital market signal.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing, Miami / Florida, score 85. Capital market signal.
+- Refinancing - Southeast - Canyon Partners Provides $48M Loan for NorthPointe Apartments in Greenville: Refinancing, Southeast, score 80. Capital market signal.
+- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Disposition / Exit, California, score 79. Entitlement / zoning watch.
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Acquisition, Atlanta / Georgia, score 77. Pricing benchmark.
-- JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City: JV / Partnership, Other / Unknown, score 77. Capital market signal.
-- Acquisition - Atlanta / Georgia - JLL Brokers Sale of 217-Unit Apartment Building in Hoboken: Acquisition, Atlanta / Georgia, score 75. Monitor only.
-- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Disposition / Exit, California, score 75. Entitlement / zoning watch.
-- Entitlement / Permitting - Los Angeles / California - Rendering vs. Reality: 176 apartments at 2225 Sunset Boulevard in Echo Park: Entitlement / Permitting, Los Angeles / California, score 75. Entitlement / zoning watch.
 
 ## California / LA Deal Watch
 
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing, California, score 92. Capital market signal.
-- Construction Financing - Los Angeles / California - Culver City Mixed-Use Secures $133M Bank OZK Loan: Construction Financing, Los Angeles / California, score 85. Capital market signal.
+- Office-to-Residential Conversion - California - Kennedy Wilson’ Vintage Housing Buys Foreclosed San Diego Tower for Multifamily Redevelopm...: Office-to-Residential Conversion, California, score 89. Pricing benchmark.
+- Acquisition - California - Forbright Bank Provides $50M for Southern California R&D Campus: Acquisition, California, score 88. Pricing benchmark.
 - Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Construction Financing, California, score 85. Capital market signal.
+- Construction Financing - California - PCCP Provides $41M Refinancing for Multifamily Community in San Diego: Construction Financing, California, score 85. Capital market signal.
+- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Disposition / Exit, California, score 79. Entitlement / zoning watch.
 - Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Disposition / Exit, California, score 75. Entitlement / zoning watch.
-- JV / Partnership - California - HSR, Barings Break Ground on 501-Unit Multifamily Project in Redwood City, California: JV / Partnership, California, score 72. GP partnership reference.
+- JV / Partnership - California - High Street Residential, Barings Break Ground in Redwood City: JV / Partnership, California, score 69. GP partnership reference.
 - Entitlement / Permitting - Los Angeles / California - 32 apartments proposed at 806 N. Sweetzer Ave. in Hollywood: Entitlement / Permitting, Los Angeles / California, score 65. Entitlement / zoning watch.
-- Construction Financing - California - Purpose-Built Student Housing Near SDSU Has Financing in Place: Construction Financing, California, score 62. Capital market signal.
-- Disposition / Exit - Los Angeles / California - Newly Constructed Palmdale McDonald’s Trades in All-Cash Deal: Disposition / Exit, Los Angeles / California, score 55. Underwriting benchmark.
+- General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus: General Project Signal, Los Angeles / California, score 64. Capital market signal.
 
 ## GP / Developer Activity
 
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing, California, score 92. Capital market signal.
+- Office-to-Residential Conversion - California - Kennedy Wilson’ Vintage Housing Buys Foreclosed San Diego Tower for Multifamily Redevelopm...: Office-to-Residential Conversion, California, score 89. Pricing benchmark.
+- Acquisition - California - Forbright Bank Provides $50M for Southern California R&D Campus: Acquisition, California, score 88. Pricing benchmark.
 - Acquisition - Miami / Florida - Berkadia Arranges Refis for 3 S. Florida Rental Communities: Acquisition, Miami / Florida, score 85. Pricing benchmark.
-- Construction Financing - Los Angeles / California - Culver City Mixed-Use Secures $133M Bank OZK Loan: Construction Financing, Los Angeles / California, score 85. Capital market signal.
 - Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Construction Financing, California, score 85. Capital market signal.
+- Construction Financing - California - PCCP Provides $41M Refinancing for Multifamily Community in San Diego: Construction Financing, California, score 85. Capital market signal.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing, Miami / Florida, score 85. Capital market signal.
+- Refinancing - Southeast - Canyon Partners Provides $48M Loan for NorthPointe Apartments in Greenville: Refinancing, Southeast, score 80. Capital market signal.
+- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Disposition / Exit, California, score 79. Entitlement / zoning watch.
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Acquisition, Atlanta / Georgia, score 77. Pricing benchmark.
-- JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City: JV / Partnership, Other / Unknown, score 77. Capital market signal.
-- Acquisition - Atlanta / Georgia - JLL Brokers Sale of 217-Unit Apartment Building in Hoboken: Acquisition, Atlanta / Georgia, score 75. Monitor only.
-- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Disposition / Exit, California, score 75. Entitlement / zoning watch.
-- Refinancing - Other / Unknown - $62.1M Refinancing Secured for North Carolina Multifamily Community: Refinancing, Other / Unknown, score 75. Capital market signal.
 
 ## Financing / Refinancing Signals
 
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing, California, score 92. Capital market signal.
+- Office-to-Residential Conversion - California - Kennedy Wilson’ Vintage Housing Buys Foreclosed San Diego Tower for Multifamily Redevelopm...: Office-to-Residential Conversion, California, score 89. Pricing benchmark.
+- Acquisition - California - Forbright Bank Provides $50M for Southern California R&D Campus: Acquisition, California, score 88. Pricing benchmark.
 - Acquisition - Miami / Florida - Berkadia Arranges Refis for 3 S. Florida Rental Communities: Acquisition, Miami / Florida, score 85. Pricing benchmark.
-- Construction Financing - Los Angeles / California - Culver City Mixed-Use Secures $133M Bank OZK Loan: Construction Financing, Los Angeles / California, score 85. Capital market signal.
 - Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Construction Financing, California, score 85. Capital market signal.
+- Construction Financing - California - PCCP Provides $41M Refinancing for Multifamily Community in San Diego: Construction Financing, California, score 85. Capital market signal.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing, Miami / Florida, score 85. Capital market signal.
-- JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City: JV / Partnership, Other / Unknown, score 77. Capital market signal.
-- Refinancing - Other / Unknown - $62.1M Refinancing Secured for North Carolina Multifamily Community: Refinancing, Other / Unknown, score 75. Capital market signal.
-- Acquisition - Other / Unknown - The Battery Group Has Acquired Multifamily Apartment Community in Indianapolis: Acquisition, Other / Unknown, score 68. Capital market signal.
-- Disposition / Exit - Dallas / Texas - 104 New Apartments Open in Austin for People Exiting Chronic Homelessness: Disposition / Exit, Dallas / Texas, score 68. Capital market signal.
-- Construction Financing - New York City / New York - Upper East Side Condo Project Lands $52M Construction Loan: Construction Financing, New York City / New York, score 65. Pricing benchmark.
+- Refinancing - Southeast - Canyon Partners Provides $48M Loan for NorthPointe Apartments in Greenville: Refinancing, Southeast, score 80. Capital market signal.
+- General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing: General Project Signal, Seattle, score 75. Capital market signal.
+- General Project Signal - Denver / Colorado - Blackstone’s 2021 $1.3B CMBS Multifamily Loan Hits Special Servicing: General Project Signal, Denver / Colorado, score 75. Capital market signal.
 
 ## Project Pipeline / Supply Signals
 
-- JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City: JV / Partnership, Other / Unknown, score 77. Capital market signal.
 - Entitlement / Permitting - Los Angeles / California - Rendering vs. Reality: 176 apartments at 2225 Sunset Boulevard in Echo Park: Entitlement / Permitting, Los Angeles / California, score 75. Entitlement / zoning watch.
-- JV / Partnership - California - HSR, Barings Break Ground on 501-Unit Multifamily Project in Redwood City, California: JV / Partnership, California, score 72. GP partnership reference.
 - Entitlement / Permitting - Los Angeles / California - 32 apartments proposed at 806 N. Sweetzer Ave. in Hollywood: Entitlement / Permitting, Los Angeles / California, score 65. Entitlement / zoning watch.
-- Entitlement / Permitting - Santa Monica / California - Southwest Valley Community Plans take a step forward: Entitlement / Permitting, Santa Monica / California, score 65. Entitlement / zoning watch.
-- Entitlement / Permitting - New York City / New York - Stimdel Properties Files Plans to Build 612 Apartments in Astoria: Entitlement / Permitting, New York City / New York, score 64. Entitlement / zoning watch.
-- Acquisition - Atlanta / Georgia - TruAmerica Acquires 446-Unit Apartment Community in Metro Atlanta: Acquisition, Atlanta / Georgia, score 62. Underwriting benchmark.
-- JV / Partnership - Texas - Joint Venture Underway on 236-Unit Multifamily Project in Denison, Texas: JV / Partnership, Texas, score 58. GP partnership reference.
-- Development Start - National - Multifamily starts forecast lower in October: Development Start, National, score 57. Pipeline / supply signal.
+- General Project Signal - Los Angeles / California - New supportive housing opens at 8209 Sepulveda Blvd. in the Valley: General Project Signal, Los Angeles / California, score 65. Underwriting benchmark.
+- JV / Partnership - National - Habitat, Cabrera Capital Break Ground on LeClaire Courts Mixed-Use Redevelopment in Chicag...: JV / Partnership, National, score 65. Capital market signal.
+- Entitlement / Permitting - Other / Unknown - 75 apartments planned at 925 Eucalyptus Ave. in Inglewood: Entitlement / Permitting, Other / Unknown, score 55. Entitlement / zoning watch.
 - Entitlement / Permitting - San Francisco / California - New Building Permits For 230 Anza Street in Lone Mountain, San Francisco: Entitlement / Permitting, San Francisco / California, score 52. Entitlement / zoning watch.
+- General Project Signal - Florida - 908 Group Breaks Ground on 684-Bed Student Housing Project Near University of Florida: General Project Signal, Florida, score 44. Underwriting benchmark.
+- Entitlement / Permitting - National - Multifamily starts reported lower but completions higher in September: Entitlement / Permitting, National, score 40. Entitlement / zoning watch.
+- General Project Signal - Other / Unknown - Fresh renderings for new workforce housing at 315 N. Pasadena Ave.: General Project Signal, Other / Unknown, score 38. Underwriting benchmark.
+- Entitlement / Permitting - Other / Unknown - Shorter Apartment Construction Time in 2025: Entitlement / Permitting, Other / Unknown, score 37. Entitlement / zoning watch.
 
 ## BTR / Modular / Innovation Signals
 
-- Operational / Property Management Tech - Atlanta / Georgia - AI Boom, Affordability Drive Rent Gains in a Handful of Apartment Markets: Operational / Property Management Tech, Atlanta / Georgia, score 42. Monitor only.
 - BTR / Build-to-Rent - Other / Unknown - Build-to-rent now eligible for Federal Housing Administration financing: BTR / Build-to-Rent, Other / Unknown, score 39. Pipeline / supply signal.
 
 ## Pricing / Cap Rate / Valuation Signals
 
+- Office-to-Residential Conversion - California - Kennedy Wilson’ Vintage Housing Buys Foreclosed San Diego Tower for Multifamily Redevelopm...: Office-to-Residential Conversion, California, score 89. Pricing benchmark.
+- Acquisition - California - Forbright Bank Provides $50M for Southern California R&D Campus: Acquisition, California, score 88. Pricing benchmark.
 - Acquisition - Miami / Florida - Berkadia Arranges Refis for 3 S. Florida Rental Communities: Acquisition, Miami / Florida, score 85. Pricing benchmark.
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Acquisition, Atlanta / Georgia, score 77. Pricing benchmark.
-- Construction Financing - New York City / New York - Upper East Side Condo Project Lands $52M Construction Loan: Construction Financing, New York City / New York, score 65. Pricing benchmark.
 - Acquisition - Atlanta / Georgia - Passco Offloads Buckhead Rental Asset for $87.5M: Acquisition, Atlanta / Georgia, score 52. Pricing benchmark.
 
 ## Deal / Project Signals By Residential Sector
 
-- Apartment: 27 deal/project signal(s)
-- Multifamily: 7 deal/project signal(s)
-- Affordable Housing: 5 deal/project signal(s)
-- Mixed-Use Residential: 4 deal/project signal(s)
+- Apartment: 28 deal/project signal(s)
+- Multifamily: 6 deal/project signal(s)
+- General Residential: 3 deal/project signal(s)
+- Office-to-Residential Conversion: 2 deal/project signal(s)
+- Mixed-Use Residential: 2 deal/project signal(s)
+- Affordable Housing: 2 deal/project signal(s)
+- Student Housing: 2 deal/project signal(s)
+- Workforce Housing: 2 deal/project signal(s)
 - Senior Housing: 1 deal/project signal(s)
-- Student Housing: 1 deal/project signal(s)
-- General Residential: 1 deal/project signal(s)
 - BTR / Single-Family Rental: 1 deal/project signal(s)
-- Workforce Housing: 1 deal/project signal(s)
-- Office-to-Residential Conversion: 1 deal/project signal(s)
 
 ## Canonical Deal Summary
 
@@ -103,10 +105,10 @@ Use those reports to separate repeated coverage from genuinely separate events.
 
 Developer, lender, capital partner, market, and deal edges are available in `relationship_graph_report.md`.
 - JLL -> jll: Financing Relationship, score 100.
+- JLL -> jll: Financing Relationship, score 100.
+- Kennedy Wilson -> jll: Financing Relationship, score 100.
+- Kennedy Wilson -> kennedy wilson: Capital Flow, score 100.
 - JLL -> California: Financing Relationship, score 96.
-- JLL -> Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Financing Relationship, score 96.
-- Lincoln Property Company -> berkadia: Financing Relationship, score 95.
-- Berkadia -> berkadia: Financing Relationship, score 93.
 
 ## Implications for Woomi / Woomi Global
 
@@ -118,10 +120,10 @@ Developer, lender, capital partner, market, and deal edges are available in `rel
 ## Recommended Follow-up Actions
 
 - Capital market signal: read `JLL Arranges $276M Refi for Newport Beach Seniors Communities` from Connect CRE Orange County. Canonical market: California.
+- Pricing benchmark: read `Kennedy Wilson’ Vintage Housing Buys Foreclosed San Diego Tower for Multifamily Redevelopment` from Yield PRO. Canonical market: California.
+- Pricing benchmark: read `Forbright Bank Provides $50M for Southern California R&D Campus` from Commercial Observer. Canonical market: California.
 - Pricing benchmark: read `Berkadia Arranges Refis for 3 S. Florida Rental Communities` from Connect CRE South Florida. Canonical market: Sun Belt.
-- Capital market signal: read `Culver City Mixed-Use Secures $133M Bank OZK Loan` from Connect CRE California. Canonical market: Los Angeles.
-- Capital market signal: read `PCCP Provides $41M Refi on North Park Multifamily` from Connect CRE Apartments. Canonical market: California.
-- Capital market signal: read `Little Havana Apartment Owners Land $50.8M Refi` from Connect CRE Apartments. Canonical market: Sun Belt.
-- Pricing benchmark: read `Hines Pays $237.8M for Buckhead Rental Community` from Connect CRE Atlanta. Canonical market: Los Angeles.
-- Capital market signal: read `Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City` from Urbanize LA. Canonical market: Other / Unknown.
-- Monitor only: read `JLL Brokers Sale of 217-Unit Apartment Building in Hoboken` from REBusiness Online. Canonical market: Los Angeles.
+- Capital market signal: read `PCCP Provides $41M Refi on North Park Multifamily` from Connect CRE California. Canonical market: California.
+- Capital market signal: read `PCCP Provides $41M Refinancing for Multifamily Community in San Diego` from REBusiness Online. Canonical market: California.
+- Capital market signal: read `Little Havana Apartment Owners Land $50.8M Refi` from Connect CRE South Florida. Canonical market: Sun Belt.
+- Capital market signal: read `Canyon Partners Provides $48M Loan for NorthPointe Apartments in Greenville` from REBusiness Online. Canonical market: Southeast.

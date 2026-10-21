@@ -1,24 +1,25 @@
 # Signal Tuning Report
 
-Generated: 2026-10-20 01:36:57
+Generated: 2026-10-21 01:20:24
 
 ## Top Strategic Relevance Articles
 
+- 82 / richness 85: Canyon Partners Provides $48M Loan for NorthPointe Apartments in Greenville (REBusiness Online, Southeast) - JV or partnership activity; large-scale refinance tied to strategy
 - 80 / richness 85: Berkadia Arranges Refis for 3 S. Florida Rental Communities (Connect CRE South Florida, Miami / Florida) - institutional acquisition behavior; large-scale refinance tied to strategy
 - 77 / richness 70: Build-to-rent now eligible for Federal Housing Administration financing (Multifamily Dive, Other / Unknown) - institutional acquisition behavior; large-scale refinance tied to strategy
-- 74 / richness 100: JLL Brokers Sale of 217-Unit Apartment Building in Hoboken (REBusiness Online, Atlanta / Georgia) - institutional acquisition behavior
-- 73 / richness 90: Partnership Completes $636M Rehabilitation of Two Brooklyn Affordable Housing Communities (REBusiness Online, New York City / New York) - JV or partnership activity
-- 73 / richness 90: Joint Venture Underway on 236-Unit Multifamily Project in Denison, Texas (REBusiness Online, Texas) - JV or partnership activity
-- 72 / richness 75: 104 New Apartments Open in Austin for People Exiting Chronic Homelessness (Yield PRO, Dallas / Texas) - sponsor expansion
-- 70 / richness 85: Upper East Side Condo Project Lands $52M Construction Loan (Connect CRE Apartments, New York City / New York) - institutional acquisition behavior
+- 74 / richness 100: Kennedy Wilson’ Vintage Housing Buys Foreclosed San Diego Tower for Multifamily Redevelopment (Yield PRO, California) - institutional acquisition behavior
+- 74 / richness 60: Partnership Completes Multifamily Project, Public Park in Dover, New Hampshire (REBusiness Online, Other / Unknown) - multi-phase development; JV or partnership activity; classification confidence penalty
+- 73 / richness 90: Habitat, Cabrera Capital Break Ground on LeClaire Courts Mixed-Use Redevelopment in Chicago (REBusiness Online, National) - JV or partnership activity
+- 71 / richness 90: Anaheim Sale is First Closing in Broader Multifamily Portfolio (Connect CRE, California) - institutional acquisition behavior
+- 70 / richness 85: IPA Arranges Sale of 288-Unit Apartment Complex in Red Oak, Texas (REBusiness Online, Dallas / Texas) - institutional acquisition behavior
 - 70 / richness 75: Purpose-Built Student Housing Near SDSU Has Financing in Place (Connect CRE California, California) - JV or partnership activity
-- 68 / richness 75: Hines Pays $237.8M for Buckhead Rental Community (Connect CRE Atlanta, Atlanta / Georgia) - institutional acquisition behavior
-- 67 / richness 70: TruAmerica Acquires 446-Unit Apartment Community in Metro Atlanta (REBusiness Online, Atlanta / Georgia) - institutional acquisition behavior
+- 69 / richness 75: Multifamily starts reported lower but completions higher in September (Yield PRO, National) - entitlement persistence
 
 ## Low Quality Evidence Candidates
 
 - 0: Best Year for Missing Middle Construction Since 2007 (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
+- 0: Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993 (Connect CRE Orange County) - confidence low; integrity valid
 - 0: Multifamily Missing Middle Falls Back (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
 - 0: Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
 - 0: Investor Takes Over Distressed Atlanta Apartment Asset (Connect CRE Atlanta) - confidence low; integrity valid
@@ -31,7 +32,6 @@ Generated: 2026-10-20 01:36:57
 - 0: Multifamily Developer Confidence Weakens in Second Quarter (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: Multifamily Developer Confidence Holds Steady in First Quarter (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: HBGI Q1 2026: Single-Family Construction Slips Across All Geographies (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
-- 0: NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
 
 ## Potential Parsing Integrity Issues
 
@@ -40,7 +40,7 @@ Generated: 2026-10-20 01:36:57
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 24
+- Financing-oriented articles: 21
 - Development / sponsor behavior articles: 31
 - Financing coverage does not dominate the current representative evidence pool.
 

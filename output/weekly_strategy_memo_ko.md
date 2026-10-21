@@ -1,21 +1,21 @@
 # 한국어 주간 전략 메모
 
-- 생성 시각: 2026-10-20 01:36:57
+- 생성 시각: 2026-10-21 01:20:24
 - 참고 원문 파일: `weekly_strategy_memo.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
 ## 주간 전략 요약
 
 주간 전략 메모 기준 핵심 신호 6건을 요약했습니다. 본 리포트는 유료 API 없이 규칙 기반으로 작성되며, 우미 / 우미글로벌의 미국 주거 개발 전략 관점에서 우선순위와 후속 조치를 빠르게 확인하기 위한 자료입니다.
-- 추천 포커스: Review Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities and related high-confidence project signals.
+- 추천 포커스: Review Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi and related high-confidence project signals.
 
 ## 시장 국면
 
-- Financing Stress: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention)
-- Developer Strategy Shift: 기타 / 미확인, 아파트, 점수 98 (Tier 1 Executive Attention)
-- Selective Capital Re-entry: 기타 / 미확인, 아파트, 점수 98 (Tier 2 Strategic Review)
-- Policy / Entitlement Watch: 기타 / 미확인, 아파트, 점수 96 (Tier 2 Strategic Review)
-- Supply Pressure: 기타 / 미확인, 아파트, 점수 86 (Tier 3 Monitoring)
+- Selective Capital Re-entry: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention)
+- Supply Pressure: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention)
+- Developer Strategy Shift: 기타 / 미확인, 아파트, 점수 98 (Tier 2 Strategic Review)
+- Financing Stress: 기타 / 미확인, 아파트, 점수 97 (Tier 2 Strategic Review)
+- Policy / Entitlement Watch: 기타 / 미확인, 아파트, 점수 75 (Tier 3 Monitoring)
 
 ## 자본시장 / GP 동향
 
@@ -25,11 +25,11 @@
 
 ## 지역 / 섹터 관찰
 
-- California: California, 일반 주거, 점수 86 (Active Watch Window; Actively source opportunities)
-- National / Other: 전국 / 기타, 일반 주거, 점수 69 (Selective Entry Window; Monitor refinancing and distress pipeline)
-- Texas: Texas, 일반 주거, 점수 42 (Monitor Only; Prepare GP conversations)
-- New York: New York, 일반 주거, 점수 40 (Monitor Only; Prepare GP conversations)
-- Florida: Florida, 일반 주거, 점수 33 (Monitor Only; Prepare GP conversations)
+- California: California, 일반 주거, 점수 91 (Active Watch Window; Actively source opportunities)
+- National / Other: 전국 / 기타, 일반 주거, 점수 47 (Monitor Only; Prepare GP conversations)
+- Seattle: Seattle, 일반 주거, 점수 47 (Monitor Only; Prepare GP conversations)
+- Florida: Florida, 일반 주거, 점수 41 (Monitor Only; Prepare GP conversations)
+- Texas: Texas, 일반 주거, 점수 33 (Monitor Only; Prepare GP conversations)
 
 ## 우미 전략 시사점
 

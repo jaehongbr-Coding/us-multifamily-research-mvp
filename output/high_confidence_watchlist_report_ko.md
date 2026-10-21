@@ -1,29 +1,29 @@
 # 한국어 높은 신뢰도 Watchlist
 
-- 생성 시각: 2026-10-20 01:36:57
+- 생성 시각: 2026-10-21 01:20:24
 - 참고 원문 파일: `high_confidence_watchlist_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
 ## 높은 신뢰도 신호
 
-- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: California, 시니어 하우징, 점수 96 (Refinancing opportunity; Review immediately)
-- Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Unknown, 아파트, 점수 93 (Refinancing opportunity; Review immediately)
-- Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: California, 아파트, 점수 91 (Construction start pipeline; Review immediately)
-- JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City: California, 주거복합, 점수 91 (Institutional capital movement; Review immediately)
-- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: California, 아파트, 점수 91 (LA urban infill opportunity; Review immediately)
-- Acquisition - Atlanta / Georgia - JLL Brokers Sale of 217-Unit Apartment Building in Hoboken: Unknown, 아파트, 점수 88 (LA urban infill opportunity; Review immediately)
-- Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Unknown, 아파트, 점수 88 (LA urban infill opportunity; Review immediately)
-- Disposition / Exit - Washington DC - Marcus & Millichap Brokers Sale of Park MacArthur MF Property in Northwest DC: Unknown, 아파트, 점수 88 (Institutional capital movement; Review immediately)
-- Acquisition - Other / Unknown - The Battery Group Has Acquired Multifamily Apartment Community in Indianapolis: Unknown, 아파트, 점수 87 (Institutional capital movement; Review immediately)
-- Development Start - National - Multifamily starts forecast lower in October: Unknown, 아파트, 점수 86 (Institutional capital movement; Review immediately)
+- Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Unknown, 아파트, 점수 97 (Refinancing opportunity; Review immediately)
+- Acquisition - California - Forbright Bank Provides $50M for Southern California R&D Campus: California, 시니어 하우징, 점수 96 (Refinancing opportunity; Review immediately)
+- Construction Financing - California - PCCP Provides $41M Refinancing for Multifamily Community in San Diego: California, 아파트, 점수 93 (Refinancing opportunity; Review immediately)
+- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: California, 아파트, 점수 93 (LA urban infill opportunity; Review immediately)
+- General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus: California, 일반 주거, 점수 93 (Refinancing opportunity; Review immediately)
+- Refinancing - Southeast - Canyon Partners Provides $48M Loan for NorthPointe Apartments in Greenville: Southeast, 아파트, 점수 92 (Refinancing opportunity; Review immediately)
+- Office-to-Residential Conversion - California - Kennedy Wilson’ Vintage Housing Buys Foreclosed San Diego Tower for Multifamily Redevelopm...: California, 오피스-주거 전환, 점수 91 (LA urban infill opportunity; Review immediately)
+- General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing: Seattle, 아파트, 점수 91 (Institutional capital movement; Review immediately)
+- Acquisition - California - Forbright Bank Provides $50M for Southern California R&D Campus: California, 일반 주거, 점수 91 (LA urban infill opportunity; Review immediately)
+- Office-to-Residential Conversion - Dallas / Texas - Trammell Crow Breaks Ground On Office-To-Resi Conversion In Dallas: The DFW Deal Sheet: Unknown, 아파트, 점수 89 (Construction start pipeline; Review immediately)
 
 ## 기관투자자급 신호
 
-- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: California, 시니어 하우징, 점수 96 (Strong Institutional Signal)
-- Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Unknown, 아파트, 점수 93 (Strong Institutional Signal)
-- Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: California, 아파트, 점수 91 (Strong Institutional Signal)
-- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: California, 아파트, 점수 91 (Strong Institutional Signal)
-- JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City: California, 주거복합, 점수 91 (Strong Institutional Signal)
+- Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Unknown, 아파트, 점수 97 (Strong Institutional Signal)
+- Acquisition - California - Forbright Bank Provides $50M for Southern California R&D Campus: California, 시니어 하우징, 점수 96 (Strong Institutional Signal)
+- Construction Financing - California - PCCP Provides $41M Refinancing for Multifamily Community in San Diego: California, 아파트, 점수 93 (Strong Institutional Signal)
+- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: California, 아파트, 점수 93 (Strong Institutional Signal)
+- General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus: California, 일반 주거, 점수 93 (Strong Institutional Signal)
 
 ## 노이즈 제외 후 봐야 할 항목
 

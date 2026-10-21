@@ -1,27 +1,27 @@
 # Regime Momentum Report
 
-Generated: 2026-10-20 01:37:04
+Generated: 2026-10-21 01:20:30
 
-- Top regime by final_score: Selective Capital Re-entry (84)
-- Second regime by final_score: Financing Stress (81)
-- Dominant regime spread: 3
+- Top regime by final_score: Selective Capital Re-entry (89)
+- Second regime by final_score: Financing Stress (75)
+- Dominant regime spread: 14
 
 ## Momentum Summary
 
 | Regime | Previous Score | Latest Score | Change | Momentum |
 | --- | ---: | ---: | ---: | --- |
-| Selective Capital Re-entry | 89 | 84 | -5 | Weakening |
-| Financing Stress | 75 | 81 | 6 | Improving |
-| Policy / Entitlement Watch | 53 | 67 | 14 | Improving |
+| Selective Capital Re-entry | 84 | 89 | 5 | Improving |
+| Financing Stress | 81 | 75 | -6 | Weakening |
+| Supply Pressure | 54 | 64 | 10 | Improving |
 | Developer Strategy Shift | 59 | 59 | 0 | Stable |
-| Supply Pressure | 59 | 54 | -5 | Weakening |
-| Construction Cost Pressure | 0 | 3 | 3 | Stable |
+| Policy / Entitlement Watch | 67 | 55 | -12 | Weakening |
+| Construction Cost Pressure | 3 | 14 | 11 | Improving |
 | Stable Monitoring Environment | 0 | 0 | 0 | Stable |
 
 ## Concentration Interpretation
 
-- The current regime picture is broad-based because the top scores are close together.
+- The current regime picture is more concentrated because the top score is clearly ahead.
 
 ## Implications for Woomi / Woomi Global
 
-- The dominant regime spread is small, so the market environment looks mixed and should not be interpreted as one clear narrative.
+- No regime is accelerating sharply, but strong current scores still deserve monitoring: Selective Capital Re-entry, Financing Stress, Supply Pressure.

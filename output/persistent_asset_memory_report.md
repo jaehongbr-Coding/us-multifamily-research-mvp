@@ -1,63 +1,63 @@
 # Persistent Asset Memory Report
 
-Generated: 2026-10-20 01:37:25
+Generated: 2026-10-21 01:20:47
 
-- Total persistent assets tracked: 131
-- Newly detected assets: 112
+- Total persistent assets tracked: 132
+- Newly detected assets: 116
 - Progressing assets: 0
-- Possible stalled assets: 6
+- Possible stalled assets: 3
 
 ## Highest Priority Asset Watch Items
 
-- Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Priority Asset Watch, Unknown Stage, score 94.
-- JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City: Priority Asset Watch, Unknown Stage, score 92.
-- Acquisition - Atlanta / Georgia - JLL Brokers Sale of 217-Unit Apartment Building in Hoboken: Priority Asset Watch, Unknown Stage, score 91.
+- Construction Financing - California - PCCP Provides $41M Refinancing for Multifamily Community in San Diego: Priority Asset Watch, Refinancing / Recapitalization, score 94.
+- Office-to-Residential Conversion - California - Kennedy Wilson’ Vintage Housing Buys Foreclosed San Diego Tower for Multifamily Redevelopm...: Priority Asset Watch, Unknown Stage, score 91.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Priority Asset Watch, Refinancing / Recapitalization, score 91.
-- JV / Partnership - California - HSR, Barings Break Ground on 501-Unit Multifamily Project in Redwood City, California: Priority Asset Watch, Unknown Stage, score 90.
-- Operational / Property Management Tech - Atlanta / Georgia - AI Boom, Affordability Drive Rent Gains in a Handful of Apartment Markets: Priority Asset Watch, Unknown Stage, score 88.
-- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Priority Asset Watch, Unknown Stage, score 87.
+- General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus: Priority Asset Watch, Refinancing / Recapitalization, score 89.
+- General Project Signal - Denver / Colorado - Blackstone’s 2021 $1.3B CMBS Multifamily Loan Hits Special Servicing: Priority Asset Watch, Unknown Stage, score 89.
+- General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing: Priority Asset Watch, Unknown Stage, score 89.
+- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Priority Asset Watch, Delivery / Opening, score 88.
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Priority Asset Watch, Unknown Stage, score 87.
-- Disposition / Exit - Dallas / Texas - 104 New Apartments Open in Austin for People Exiting Chronic Homelessness: Priority Asset Watch, Refinancing / Recapitalization, score 85.
-- Acquisition - Other / Unknown - Draper and Kramer Acquires 268-Unit Apartment Community in Evanston, Illinois: Priority Asset Watch, Unknown Stage, score 79.
+- Acquisition - California - Forbright Bank Provides $50M for Southern California R&D Campus: Priority Asset Watch, Unknown Stage, score 87.
+- Office-to-Residential Conversion - Dallas / Texas - Trammell Crow Breaks Ground On Office-To-Resi Conversion In Dallas: The DFW Deal Sheet: Priority Asset Watch, Vertical Construction, score 87.
 
 ## Assets With Repeated Financing Signals
 
-- JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City: Priority Asset Watch, Unknown Stage, score 92.
+- Construction Financing - California - PCCP Provides $41M Refinancing for Multifamily Community in San Diego: Priority Asset Watch, Refinancing / Recapitalization, score 94.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Priority Asset Watch, Refinancing / Recapitalization, score 91.
-- Disposition / Exit - Dallas / Texas - 104 New Apartments Open in Austin for People Exiting Chronic Homelessness: Priority Asset Watch, Refinancing / Recapitalization, score 85.
-- Acquisition - Other / Unknown - Draper and Kramer Acquires 268-Unit Apartment Community in Evanston, Illinois: Priority Asset Watch, Unknown Stage, score 79.
-- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Priority Asset Watch, Refinancing / Recapitalization, score 78.
-- General Project Signal - Other / Unknown - Merchants Capital Secures $30M for 227-Unit Indianapolis Multifamily Development: Strategic Asset Watch, Unknown Stage, score 74.
-- Construction Financing - New York City / New York - Upper East Side Condo Project Lands $52M Construction Loan: Strategic Asset Watch, Refinancing / Recapitalization, score 72.
-- Acquisition - Other / Unknown - The Battery Group Has Acquired Multifamily Apartment Community in Indianapolis: Strategic Asset Watch, Site Acquisition / Site Control, score 72.
-- Disposition / Exit - Dallas / Texas - 104 New Apartments Open in Austin for People Exiting Chronic Homelessness: Strategic Asset Watch, Refinancing / Recapitalization, score 71.
-- Office-to-Residential Conversion - National - 3 notable office-to-residential conversions in DC: Strategic Asset Watch, Refinancing / Recapitalization, score 70.
+- General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus: Priority Asset Watch, Refinancing / Recapitalization, score 89.
+- General Project Signal - Denver / Colorado - Blackstone’s 2021 $1.3B CMBS Multifamily Loan Hits Special Servicing: Priority Asset Watch, Unknown Stage, score 89.
+- Acquisition - California - Forbright Bank Provides $50M for Southern California R&D Campus: Priority Asset Watch, Refinancing / Recapitalization, score 78.
+- Refinancing - Southeast - Canyon Partners Provides $48M Loan for NorthPointe Apartments in Greenville: Priority Asset Watch, Refinancing / Recapitalization, score 76.
+- PCCP Provides $41M Refinancing for Multifamily Community in San Diego: Strategic Asset Watch, Unknown Stage, score 61.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Unknown Stage, score 57.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Early Site Signal, score 57.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Site Acquisition / Site Control, score 57.
 
 ## Assets With Repeated Entitlement Signals
 
-- Entitlement / Permitting - Los Angeles / California - 32 apartments proposed at 806 N. Sweetzer Ave. in Hollywood: Strategic Asset Watch, Early Site Signal, score 73.
-- JV / Partnership - New York City / New York - Partnership Completes $636M Rehabilitation of Two Brooklyn Affordable Housing Communities: Strategic Asset Watch, Site Acquisition / Site Control, score 73.
-- Entitlement / Permitting - Santa Monica / California - Southwest Valley Community Plans take a step forward: Strategic Asset Watch, Early Site Signal, score 71.
-- Operational / Property Management Tech - Atlanta / Georgia - AI Boom, Affordability Drive Rent Gains in a Handful of Apartment Markets: Strategic Asset Watch, Unknown Stage, score 69.
-- Office-to-Residential Conversion - National - 3 notable office-to-residential conversions in DC: Strategic Asset Watch, Unknown Stage, score 68.
-- 'Let's Just Get This Over With': Houston Multifamily Hopes For Capitulation: Strategic Asset Watch, Unknown Stage, score 68.
-- Entitlement / Permitting - San Francisco / California - New Building Permits For 230 Anza Street in Lone Mountain, San Francisco: Strategic Asset Watch, Building Permit / Construction Permit, score 68.
-- Entitlement / Permitting - Los Angeles / California - Rendering vs. Reality: 176 apartments at 2225 Sunset Boulevard in Echo Park: Strategic Asset Watch, Unknown Stage, score 66.
-- Stimdel Properties Files Plans to Build 612 Apartments in Astoria: Strategic Asset Watch, Site Acquisition / Site Control, score 66.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Unknown Stage, score 59.
+- Office-to-Residential Conversion - Dallas / Texas - Trammell Crow Breaks Ground On Office-To-Resi Conversion In Dallas: The DFW Deal Sheet: Priority Asset Watch, Vertical Construction, score 87.
+- Entitlement / Permitting - Los Angeles / California - 32 apartments proposed at 806 N. Sweetzer Ave. in Hollywood: Priority Asset Watch, Delivery / Opening, score 76.
+- Entitlement / Permitting - Los Angeles / California - 32 apartments proposed at 806 N. Sweetzer Ave. in Hollywood: Strategic Asset Watch, Early Site Signal, score 74.
+- Entitlement / Permitting - Los Angeles / California - Rendering vs. Reality: 176 apartments at 2225 Sunset Boulevard in Echo Park: Strategic Asset Watch, Unknown Stage, score 74.
+- Entitlement / Permitting - San Francisco / California - New Building Permits For 230 Anza Street in Lone Mountain, San Francisco: Strategic Asset Watch, Building Permit / Construction Permit, score 74.
+- Entitlement / Permitting - Los Angeles / California - Rendering vs. Reality: 176 apartments at 2225 Sunset Boulevard in Echo Park: Strategic Asset Watch, Unknown Stage, score 71.
+- JV / Partnership - National - Habitat, Cabrera Capital Break Ground on LeClaire Courts Mixed-Use Redevelopment in Chicag...: Strategic Asset Watch, Unknown Stage, score 70.
+- Entitlement / Permitting - Los Angeles / California - Rendering vs. Reality: 176 apartments at 2225 Sunset Boulevard in Echo Park: Strategic Asset Watch, Delivery / Opening, score 69.
+- Entitlement / Permitting - National - Multifamily starts reported lower but completions higher in September: Strategic Asset Watch, Delivery / Opening, score 68.
+- Kennedy Wilson’ Vintage Housing Buys Foreclosed San Diego Tower for Multifamily Redevelopment: Strategic Asset Watch, Unknown Stage, score 64.
 
 ## Recurring Asset Signals
 
-- Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily: Priority Asset Watch, Unknown Stage, score 94.
-- JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City: Priority Asset Watch, Unknown Stage, score 92.
-- Acquisition - Atlanta / Georgia - JLL Brokers Sale of 217-Unit Apartment Building in Hoboken: Priority Asset Watch, Unknown Stage, score 91.
+- Construction Financing - California - PCCP Provides $41M Refinancing for Multifamily Community in San Diego: Priority Asset Watch, Refinancing / Recapitalization, score 94.
+- Office-to-Residential Conversion - California - Kennedy Wilson’ Vintage Housing Buys Foreclosed San Diego Tower for Multifamily Redevelopm...: Priority Asset Watch, Unknown Stage, score 91.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Priority Asset Watch, Refinancing / Recapitalization, score 91.
-- JV / Partnership - California - HSR, Barings Break Ground on 501-Unit Multifamily Project in Redwood City, California: Priority Asset Watch, Unknown Stage, score 90.
-- Operational / Property Management Tech - Atlanta / Georgia - AI Boom, Affordability Drive Rent Gains in a Handful of Apartment Markets: Priority Asset Watch, Unknown Stage, score 88.
-- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Priority Asset Watch, Unknown Stage, score 87.
+- General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus: Priority Asset Watch, Refinancing / Recapitalization, score 89.
+- General Project Signal - Denver / Colorado - Blackstone’s 2021 $1.3B CMBS Multifamily Loan Hits Special Servicing: Priority Asset Watch, Unknown Stage, score 89.
+- General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing: Priority Asset Watch, Unknown Stage, score 89.
+- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Priority Asset Watch, Delivery / Opening, score 88.
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Priority Asset Watch, Unknown Stage, score 87.
-- Disposition / Exit - Dallas / Texas - 104 New Apartments Open in Austin for People Exiting Chronic Homelessness: Priority Asset Watch, Refinancing / Recapitalization, score 85.
-- Acquisition - Other / Unknown - Draper and Kramer Acquires 268-Unit Apartment Community in Evanston, Illinois: Priority Asset Watch, Unknown Stage, score 79.
+- Acquisition - California - Forbright Bank Provides $50M for Southern California R&D Campus: Priority Asset Watch, Unknown Stage, score 87.
+- Office-to-Residential Conversion - Dallas / Texas - Trammell Crow Breaks Ground On Office-To-Resi Conversion In Dallas: The DFW Deal Sheet: Priority Asset Watch, Vertical Construction, score 87.
 
 ## Implications for Woomi / Woomi Global
 
@@ -66,12 +66,12 @@ Generated: 2026-10-20 01:37:25
 
 ## Recommended Asset Memory Follow-up
 
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - California - PCCP Provides $41M Refi on North Park Multifamily.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - Atlanta / Georgia - JLL Brokers Sale of 217-Unit Apartment Building in Hoboken.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - California - PCCP Provides $41M Refinancing for Multifamily Community in San Diego.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Office-to-Residential Conversion - California - Kennedy Wilson’ Vintage Housing Buys Foreclosed San Diego Tower for Multifamily Redevelopm....
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - California - HSR, Barings Break Ground on 501-Unit Multifamily Project in Redwood City, California.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Operational / Property Management Tech - Atlanta / Georgia - AI Boom, Affordability Drive Rent Gains in a Handful of Apartment Markets.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Denver / Colorado - Blackstone’s 2021 $1.3B CMBS Multifamily Loan Hits Special Servicing.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community.
 
@@ -79,10 +79,10 @@ Generated: 2026-10-20 01:37:25
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 131
-- Institutional-grade signals: 13
-- High-confidence signals: 36
-- Weak/noisy signals: 78
-- High-confidence watchlist items: 36
+- Signals evaluated: 132
+- Institutional-grade signals: 16
+- High-confidence signals: 37
+- Weak/noisy signals: 76
+- High-confidence watchlist items: 37
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

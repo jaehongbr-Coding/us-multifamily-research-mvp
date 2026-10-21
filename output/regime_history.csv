@@ -174,6 +174,7 @@
 20261018-004128-92de8944,2026-10-18,Construction financing still selective,8,8,Broadly Confirmed,Miami / Florida,construction financing,stable,,4,4,0.375
 20261019-005148-d4b5bb51,2026-10-19,Construction financing still selective,8,8,Broadly Confirmed,Miami / Florida,construction financing,stable,,4,4,0.375
 20261020-013657-6d0c63f3,2026-10-20,Construction financing still selective,3,3,Moderate Signal,New York City / New York,construction financing,fading,,2,1,0.667
+20261021-012024-bae5e959,2026-10-21,Construction financing still selective,2,2,Early Signal,California,construction financing,fading,,2,2,0.5
 20260519-021700-3e3a74df,2026-05-19,Institutional recap over expansion,2,2,Early Signal,New York,refinancing,newly emerging,,2,1,0.5
 20260520-040606-6613d3b9,2026-05-20,Institutional recap over expansion,4,4,Moderate Signal,New York,refinancing,expanding,,4,1,0.25
 20260520-051844-b14f8dba,2026-05-20,Institutional recap over expansion,4,4,Moderate Signal,New York,refinancing,stable,,4,1,0.25
@@ -349,6 +350,7 @@
 20261018-004128-92de8944,2026-10-18,Institutional recap over expansion,4,4,Moderate Signal,California,refinancing,fading,,4,2,0.25
 20261019-005148-d4b5bb51,2026-10-19,Institutional recap over expansion,3,3,Moderate Signal,California,refinancing,fading,,3,1,0.333
 20261020-013657-6d0c63f3,2026-10-20,Institutional recap over expansion,5,5,Broadly Confirmed,Dallas / Texas,refinancing,expanding,,4,1,0.4
+20261021-012024-bae5e959,2026-10-21,Institutional recap over expansion,5,5,Broadly Confirmed,California,refinancing,stable,,4,2,0.4
 20260519-021700-3e3a74df,2026-05-19,JV / partnership activity observed,7,7,Broadly Confirmed,New York,,newly emerging,,6,1,0.286
 20260520-040606-6613d3b9,2026-05-20,JV / partnership activity observed,6,6,Broadly Confirmed,New York,,fading,,5,3,0.333
 20260520-051844-b14f8dba,2026-05-20,JV / partnership activity observed,6,6,Broadly Confirmed,New York,,stable,,5,3,0.333
@@ -524,6 +526,7 @@
 20261018-004128-92de8944,2026-10-18,JV / partnership activity observed,4,4,Moderate Signal,Los Angeles / California,,fading,,3,1,0.5
 20261019-005148-d4b5bb51,2026-10-19,JV / partnership activity observed,4,4,Moderate Signal,Los Angeles / California,,stable,,3,1,0.5
 20261020-013657-6d0c63f3,2026-10-20,JV / partnership activity observed,5,5,Moderate Signal,California,,expanding,,3,0,0.6
+20261021-012024-bae5e959,2026-10-21,JV / partnership activity observed,6,6,Broadly Confirmed,California,,expanding,,4,1,0.5
 20260519-021700-3e3a74df,2026-05-19,LA entitlement precedent accumulation,10,10,Broadly Confirmed,Los Angeles,,newly emerging,,5,0,0.3
 20260520-040606-6613d3b9,2026-05-20,LA entitlement precedent accumulation,8,8,Broadly Confirmed,Los Angeles,,fading,,5,0,0.25
 20260520-051844-b14f8dba,2026-05-20,LA entitlement precedent accumulation,8,8,Broadly Confirmed,Los Angeles,,stable,,5,0,0.25
@@ -699,6 +702,7 @@
 20261018-004128-92de8944,2026-10-18,LA entitlement precedent accumulation,6,6,Moderate Signal,Los Angeles / California,,fading,,3,0,0.667
 20261019-005148-d4b5bb51,2026-10-19,LA entitlement precedent accumulation,6,6,Broadly Confirmed,Los Angeles / California,,stable,,3,0,0.5
 20261020-013657-6d0c63f3,2026-10-20,LA entitlement precedent accumulation,6,6,Broadly Confirmed,Los Angeles / California,,stable,,4,0,0.5
+20261021-012024-bae5e959,2026-10-21,LA entitlement precedent accumulation,6,6,Broadly Confirmed,Los Angeles / California,,stable,,4,0,0.5
 20260519-021700-3e3a74df,2026-05-19,Refinancing pressure unresolved,5,5,Broadly Confirmed,New York,bridge loan,newly emerging,,4,3,0.4
 20260520-040606-6613d3b9,2026-05-20,Refinancing pressure unresolved,7,7,Broadly Confirmed,New York,refinancing,expanding,,6,3,0.286
 20260520-051844-b14f8dba,2026-05-20,Refinancing pressure unresolved,7,7,Broadly Confirmed,New York,refinancing,stable,,6,3,0.286
@@ -874,6 +878,7 @@
 20261018-004128-92de8944,2026-10-18,Refinancing pressure unresolved,4,4,Moderate Signal,California,refinancing,fading,,4,2,0.25
 20261019-005148-d4b5bb51,2026-10-19,Refinancing pressure unresolved,3,3,Moderate Signal,California,refinancing,fading,,3,1,0.333
 20261020-013657-6d0c63f3,2026-10-20,Refinancing pressure unresolved,5,5,Broadly Confirmed,Dallas / Texas,refinancing,expanding,,4,1,0.4
+20261021-012024-bae5e959,2026-10-21,Refinancing pressure unresolved,6,6,Broadly Confirmed,California,refinancing,expanding,,5,3,0.333
 20260519-021700-3e3a74df,2026-05-19,Sun Belt lease-up pressure watch,2,2,Early Signal,National,,newly emerging,,2,0,0.5
 20260520-040606-6613d3b9,2026-05-20,Sun Belt lease-up pressure watch,2,2,Early Signal,National,,stable,,2,0,0.5
 20260520-051844-b14f8dba,2026-05-20,Sun Belt lease-up pressure watch,2,2,Early Signal,National,,stable,,2,0,0.5
@@ -1049,3 +1054,4 @@
 20261018-004128-92de8944,2026-10-18,Sun Belt lease-up pressure watch,3,3,Moderate Signal,,,stable,,2,1,0.667
 20261019-005148-d4b5bb51,2026-10-19,Sun Belt lease-up pressure watch,3,3,Moderate Signal,,,stable,,2,1,0.667
 20261020-013657-6d0c63f3,2026-10-20,Sun Belt lease-up pressure watch,2,2,Source-Concentrated,,,fading,,1,0,1.0
+20261021-012024-bae5e959,2026-10-21,Sun Belt lease-up pressure watch,2,2,Source-Concentrated,,,stable,,1,0,1.0

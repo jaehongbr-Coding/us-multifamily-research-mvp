@@ -1,21 +1,20 @@
 # LA / Southern California Submarket Watch Report
 
-Generated: 2026-10-20 01:37:23
+Generated: 2026-10-21 01:20:45
 
-- Total LA / Southern California submarkets detected: 10
+- Total LA / Southern California submarkets detected: 9
 
 ## Top LA / Southern California Submarkets
 
-- Culver City: opportunity 93, risk 50, Monitor only.
+- Anaheim: opportunity 93, risk 30, Orange County suburban apartment watch.
 - Echo Park: opportunity 76, risk 44, Monitor only.
 - Hollywood: opportunity 68, risk 30, Hollywood / transit-oriented housing watch.
-- Santa Monica: opportunity 68, risk 30, Monitor only.
-- Anaheim: opportunity 65, risk 30, Orange County suburban apartment watch.
+- Inglewood: opportunity 67, risk 40, Monitor only.
+- Los Angeles: opportunity 64, risk 40, Monitor only.
 - Pasadena: opportunity 54, risk 30, Pasadena entitlement precedent watch.
-- Los Angeles: opportunity 46, risk 30, Monitor only.
-- California: opportunity 32, risk 20, Monitor only.
+- California: opportunity 40, risk 20, Monitor only.
 - Orange County: opportunity 12, risk 30, Orange County suburban apartment watch.
-- West LA: opportunity 12, risk 30, Monitor only.
+- Southern California: opportunity 8, risk 20, Monitor only.
 
 ## Koreatown / Wilshire Watch
 
@@ -39,7 +38,7 @@ Generated: 2026-10-20 01:37:23
 
 ## Orange County / Suburban Apartment Watch
 
-- Anaheim: opportunity 65, risk 30, Orange County suburban apartment watch.
+- Anaheim: opportunity 93, risk 30, Orange County suburban apartment watch.
 - Orange County: opportunity 12, risk 30, Orange County suburban apartment watch.
 
 ## Inland Empire / BTR Watch
@@ -56,14 +55,14 @@ Generated: 2026-10-20 01:37:23
 
 ## Recommended Local Follow-up Actions
 
-- Review potential acquisition pipeline: Culver City / Monitor only.
+- Review potential acquisition pipeline: Anaheim / Orange County suburban apartment watch.
 - Track local planning docket and entitlement precedent: Echo Park / Monitor only.
 - Track local planning docket and entitlement precedent: Hollywood / Hollywood / transit-oriented housing watch.
-- Track local planning docket and entitlement precedent: Santa Monica / Monitor only.
-- Review potential acquisition pipeline: Anaheim / Orange County suburban apartment watch.
-- Review potential acquisition pipeline: Pasadena / Pasadena entitlement precedent watch.
+- Track local planning docket and entitlement precedent: Inglewood / Monitor only.
 - Track local planning docket and entitlement precedent: Los Angeles / Monitor only.
+- Review potential acquisition pipeline: Pasadena / Pasadena entitlement precedent watch.
 - Monitor only: California / Monitor only.
+- Monitor only: Orange County / Orange County suburban apartment watch.
 
 ## Asset / Parcel Intelligence Reference
 
@@ -73,8 +72,8 @@ Asset / parcel-level site clues are available in `asset_parcel_intelligence_repo
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 66
-- LA lifecycle watch items: 38
-- Stage mix: Unknown Stage: 42, Refinancing / Recapitalization: 7, Site Acquisition / Site Control: 7, Building Permit / Construction Permit: 2, Early Site Signal: 3
+- Lifecycle records: 67
+- LA lifecycle watch items: 42
+- Stage mix: Refinancing / Recapitalization: 6, Unknown Stage: 42, Vertical Construction: 1, Delivery / Opening: 6, Site Acquisition / Site Control: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

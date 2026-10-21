@@ -1,26 +1,26 @@
 # Regime Transition Report
 
-Generated: 2026-10-20 01:37:26
+Generated: 2026-10-21 01:20:48
 
 ## Summary
 
 - Current primary regime: Developer Strategy Shift
 - Previous primary regime: Developer Strategy Shift
 - Regime changed: No
-- Consecutive runs in current regime: 4
-- Confidence direction: strengthening
-- Market signals direction: decreasing
-- Transition label: Strengthening Regime
+- Consecutive runs in current regime: 5
+- Confidence direction: stable
+- Market signals direction: stable
+- Transition label: Persistent Regime
 
 ## Recent Regime History
 
 | Run Timestamp | Primary Regime | Secondary Regime | Confidence | Market Signals | Top Strategic Angle | Top Market Focus | Top Market Signal |
 | --- | --- | --- | --- | ---: | --- | --- | --- |
-| 2026-10-16 01:01:33 | Selective Capital Re-entry | Developer Strategy Shift | High | 32 | Developer Strategy | California | Rent Growth Signal |
 | 2026-10-17 01:06:46 | Developer Strategy Shift | Selective Capital Re-entry | High | 31 | Developer Strategy | Other / Unknown | Rent Growth Signal |
 | 2026-10-18 00:41:28 | Developer Strategy Shift | Selective Capital Re-entry | High | 29 | Developer Strategy | Other / Unknown | Rent Growth Signal |
 | 2026-10-19 00:51:48 | Developer Strategy Shift | Selective Capital Re-entry | Medium | 30 | Developer Strategy | Other / Unknown | Deal Size Signal |
 | 2026-10-20 01:36:57 | Developer Strategy Shift | Financing Stress | High | 20 | Developer Strategy | Other / Unknown | Rent Growth Signal |
+| 2026-10-21 01:20:24 | Developer Strategy Shift | Selective Capital Re-entry | High | 21 | Developer Strategy | California | Rent Growth Signal |
 
 ## Historical Persistence Summary
 
@@ -31,4 +31,4 @@ Recurring relationship tracking is available in `relationship_persistence_report
 ## Strategy Interpretation
 
 - Developer Strategy Shift persistence may indicate changes in product strategy, partnerships, adaptive reuse, or delivery models.
-- Market-signal volume is decreasing, so this run may contain fewer quantified market signals.
+- Market-signal volume is stable compared with the previous run.

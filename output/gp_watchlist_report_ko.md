@@ -1,37 +1,36 @@
 # 한국어 GP Watchlist
 
-- 생성 시각: 2026-10-20 01:36:57
+- 생성 시각: 2026-10-21 01:20:24
 - 참고 원문 파일: `gp_watchlist_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
 ## 주요 GP Watchlist
 
-- Berkadia: 기타 / 미확인, 일반 주거, 점수 76 (Tier 2 High Potential GP; Potential GP partnership candidate)
-- JLL: 기타 / 미확인, 일반 주거, 점수 76 (Tier 2 High Potential GP; Capital market and pricing discovery reference)
-- JLL: 기타 / 미확인, 일반 주거, 점수 76 (Tier 2 High Potential GP; Capital market and pricing discovery reference)
+- Kennedy Wilson: 기타 / 미확인, 일반 주거, 점수 78 (Tier 2 High Potential GP; Potential GP partnership candidate)
+- A10 Capital: 기타 / 미확인, 일반 주거, 점수 77 (Tier 2 High Potential GP; Potential GP partnership candidate)
+- CBRE: 기타 / 미확인, 일반 주거, 점수 77 (Tier 2 High Potential GP; Potential GP partnership candidate)
+- JLL: 기타 / 미확인, 일반 주거, 점수 76 (Tier 2 High Potential GP; Potential GP partnership candidate)
+- JLL: 기타 / 미확인, 일반 주거, 점수 76 (Tier 2 High Potential GP; Potential GP partnership candidate)
+- Forbright Bank: 기타 / 미확인, 일반 주거, 점수 75 (Tier 2 High Potential GP; Potential GP partnership candidate)
+- High Street Residential: 기타 / 미확인, 일반 주거, 점수 73 (Tier 2 High Potential GP; Potential GP partnership candidate)
 - Hines: 기타 / 미확인, 일반 주거, 점수 73 (Tier 2 High Potential GP; Potential GP partnership candidate)
-- Lincoln Property Company: 기타 / 미확인, 일반 주거, 점수 68 (Tier 3 Monitoring GP; Potential GP partnership candidate)
-- McCourt Partners: 기타 / 미확인, 일반 주거, 점수 68 (Tier 3 Monitoring GP; Potential GP partnership candidate)
-- Marcus & Millichap: 기타 / 미확인, 일반 주거, 점수 65 (Tier 3 Monitoring GP; Capital market and pricing discovery reference)
-- PCCP: 기타 / 미확인, 일반 주거, 점수 64 (Tier 3 Monitoring GP; Capital market and pricing discovery reference)
-- Fannie Mae: 기타 / 미확인, 일반 주거, 점수 57 (Tier 3 Monitoring GP; Capital market and pricing discovery reference)
-- Buckhead Investment Partners: 기타 / 미확인, 일반 주거, 점수 57 (Tier 3 Monitoring GP; Potential GP partnership candidate)
+- Blackstone: 기타 / 미확인, 일반 주거, 점수 67 (Tier 3 Monitoring GP; Capital market and pricing discovery reference)
+- Marcus & Millichap: 기타 / 미확인, 일반 주거, 점수 67 (Tier 3 Monitoring GP; Capital market and pricing discovery reference)
 
 ## 기관자본 연결성
 
-- Berkadia: 기타 / 미확인, 아파트, 점수 100 (Capital Inflow; Potential JV / Partnership Signal)
-- JLL: 기타 / 미확인, 아파트, 점수 100 (Capital Inflow; GP Capability Benchmark Signal)
-- Lincoln Property Company: 기타 / 미확인, 주거복합, 점수 100 (Capital Outflow / Exit; Potential JV / Partnership Signal)
-- McCourt Partners: 기타 / 미확인, 주거복합, 점수 100 (Capital Outflow / Exit; Potential JV / Partnership Signal)
-- Marcus & Millichap: 기타 / 미확인, 아파트, 점수 98 (Capital Inflow; GP Capability Benchmark Signal)
+- Blackstone: 기타 / 미확인, 아파트, 점수 100 (Capital Outflow / Exit; GP Capability Benchmark Signal)
+- JLL: 기타 / 미확인, 일반 주거, 점수 100 (Capital Inflow; Potential JV / Partnership Signal)
+- Kennedy Wilson: 기타 / 미확인, 오피스-주거 전환, 점수 100 (Capital Inflow; Pricing Discovery Signal)
+- Marcus & Millichap: 기타 / 미확인, 아파트, 점수 100 (Capital Inflow; GP Capability Benchmark Signal)
+- A10 Capital: 기타 / 미확인, 오피스-주거 전환, 점수 99 (Capital Inflow; Pricing Discovery Signal)
 
 ## JV / Partnership 가능성
 
-- Lincoln Property Company → JV / Partnership - Other / Unknown - Developers land financing for mixed-use project at 11111 Jefferson Blvd. in Culver City: JV / Partnership, 점수 86
-- JV / Partnership - California - HSR, Barings Break Ground on 501-Unit Multifamily Project in Redwood City, California → California: JV / Partnership, 점수 71
-- JV / Partnership - New York City / New York - Partnership Completes $636M Rehabilitation of Two Brooklyn Affordable Housing Communities → New York City: JV / Partnership, 점수 57
-- JV / Partnership - New York City / New York - Partnership Completes $636M Rehabilitation of Two Brooklyn Affordable Housing Communities → New York City / New York: JV / Partnership, 점수 57
-- JV / Partnership - Texas - Joint Venture Underway on 236-Unit Multifamily Project in Denison, Texas → Texas: JV / Partnership, 점수 54
+- High Street Residential → California: JV / Partnership, 점수 85
+- High Street Residential → JV / Partnership - California - High Street Residential, Barings Break Ground in Redwood City: JV / Partnership, 점수 85
+- JV / Partnership - National - Habitat, Cabrera Capital Break Ground on LeClaire Courts Mixed-Use Redevelopment in Chicag... → JV / Partnership - National - Habitat, Cabrera Capital Break Ground on LeClaire Courts Mixed-Use Redevelopment in Chicag...: JV / Partnership, 점수 60
+- JV / Partnership - Other / Unknown - Partnership Completes Multifamily Project, Public Park in Dover, New Hampshire → JV / Partnership - Other / Unknown - Partnership Completes Multifamily Project, Public Park in Dover, New Hampshire: JV / Partnership, 점수 44
 
 ## 우미 파트너십 관점
 

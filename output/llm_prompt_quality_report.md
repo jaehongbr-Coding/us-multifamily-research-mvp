@@ -1,32 +1,32 @@
 # LLM Prompt Quality Report
 
-Generated: 2026-10-20 01:37:04
+Generated: 2026-10-21 01:20:30
 
-- Total prompts reviewed: 39
-- Average prompt quality score: 89.6
+- Total prompts reviewed: 38
+- Average prompt quality score: 89.4
 - Excellent prompts: 23
-- Good prompts: 16
+- Good prompts: 15
 - Needs Improvement prompts: 0
 - Poor prompts: 0
 
 ## Top 5 Strongest Prompts
 
-- 98 (Excellent): Partnership Completes $636M Rehabilitation of Two Brooklyn Affordable Housing Communities
-- 98 (Excellent): Joint Venture Underway on 236-Unit Multifamily Project in Denison, Texas
-- 98 (Excellent): TruAmerica Acquires 446-Unit Apartment Community in Metro Atlanta
-- 98 (Excellent): Upper East Side Condo Project Lands $52M Construction Loan
-- 98 (Excellent): 32 apartments proposed at 806 N. Sweetzer Ave. in Hollywood
+- 98 (Excellent): Canyon Partners Provides $48M Loan for NorthPointe Apartments in Greenville
+- 98 (Excellent): Kennedy Wilson’ Vintage Housing Buys Foreclosed San Diego Tower for Multifamily Redevelopment
+- 98 (Excellent): Habitat, Cabrera Capital Break Ground on LeClaire Courts Mixed-Use Redevelopment in Chicago
+- 98 (Excellent): Anaheim Sale is First Closing in Broader Multifamily Portfolio
+- 98 (Excellent): Blackstone’s 2021 $1.3B CMBS Multifamily Loan Hits Special Servicing
 
 ## Top 5 Weakest Prompts
 
-- 74 (Good): Draper and Kramer Acquires 268-Unit Apartment Community in Evanston, Illinois - Missing: missing extracted numbers; missing market focus; missing market signal
+- 74 (Good): Partnership Completes Multifamily Project, Public Park in Dover, New Hampshire - Missing: missing extracted numbers; missing market focus; missing market signal
 - 74 (Good): Build-to-rent now eligible for Federal Housing Administration financing - Missing: missing extracted numbers; missing market focus; missing market signal
-- 82 (Good): JLL Brokers Sale of 217-Unit Apartment Building in Hoboken - Missing: missing extracted numbers; missing market signal
-- 82 (Good): The Battery Group Has Acquired Multifamily Apartment Community in Indianapolis - Missing: missing market focus; missing market signal
-- 82 (Good): Purpose-Built Student Housing Near SDSU Has Financing in Place - Missing: missing extracted numbers; missing market signal
+- 74 (Good): Multifamily starts fell in September amid high construction costs - Missing: missing extracted numbers; missing market focus; missing market signal
+- 82 (Good): IPA Arranges Sale of 288-Unit Apartment Complex in Red Oak, Texas - Missing: missing extracted numbers; missing market signal
+- 82 (Good): Multifamily starts reported lower but completions higher in September - Missing: missing extracted numbers; missing market signal
 
 ## Common Missing Context Issues
 
-- missing market signal: 20
-- missing extracted numbers: 13
-- missing market focus: 8
+- missing market signal: 19
+- missing extracted numbers: 15
+- missing market focus: 7

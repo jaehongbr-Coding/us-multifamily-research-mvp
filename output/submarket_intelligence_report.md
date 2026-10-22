@@ -1,77 +1,77 @@
 # Submarket Intelligence Report
 
-Generated: 2026-10-21 01:20:45
+Generated: 2026-10-22 01:17:18
 
-- Total submarkets detected: 26
+- Total submarkets detected: 24
 
 ## Top Submarkets By Opportunity Score
 
 - Miami (Florida): submarket_opportunity_score 100, Review potential acquisition pipeline.
 - Atlanta (Southeast): submarket_opportunity_score 100, Review potential acquisition pipeline.
-- Dallas (Texas): submarket_opportunity_score 95, Monitor entitlement precedent.
+- New York (New York): submarket_opportunity_score 100, Review potential acquisition pipeline.
 - Anaheim (Orange County): submarket_opportunity_score 93, Review potential acquisition pipeline.
-- Echo Park (Los Angeles): submarket_opportunity_score 76, Monitor entitlement precedent.
-- Hollywood (Los Angeles): submarket_opportunity_score 68, Monitor entitlement precedent.
+- Dallas (Texas): submarket_opportunity_score 82, Review potential acquisition pipeline.
 - Inglewood (Los Angeles): submarket_opportunity_score 67, Monitor entitlement precedent.
-- Los Angeles (Los Angeles): submarket_opportunity_score 64, Monitor entitlement precedent.
+- Santa Monica (Los Angeles): submarket_opportunity_score 66, Monitor entitlement precedent.
+- Seattle (Seattle): submarket_opportunity_score 60, Review potential acquisition pipeline.
+- California (National / Other): submarket_opportunity_score 56, Track local GP / sponsor activity.
 - Pasadena (Los Angeles): submarket_opportunity_score 54, Monitor only.
-- Seattle (Seattle): submarket_opportunity_score 52, Track local GP / sponsor activity.
 
 ## Top Submarkets By Risk Score
 
 - Miami (Florida): submarket_risk_score 52, Review potential acquisition pipeline.
 - Atlanta (Southeast): submarket_risk_score 47, Review potential acquisition pipeline.
-- Echo Park (Los Angeles): submarket_risk_score 44, Monitor entitlement precedent.
-- Dallas (Texas): submarket_risk_score 15, Monitor entitlement precedent.
+- New York (New York): submarket_risk_score 43, Review potential acquisition pipeline.
+- Long Island City (New York): submarket_risk_score 43, Track local GP / sponsor activity.
 - Inglewood (Los Angeles): submarket_risk_score 15, Monitor entitlement precedent.
-- Los Angeles (Los Angeles): submarket_risk_score 15, Monitor entitlement precedent.
-- National (National / Other): submarket_risk_score 15, Monitor entitlement precedent.
-- Other / Unknown (National / Other): submarket_risk_score 15, Monitor entitlement precedent.
-- Hollywood (Los Angeles): submarket_risk_score 11, Monitor entitlement precedent.
+- Santa Monica (Los Angeles): submarket_risk_score 15, Monitor entitlement precedent.
 - Anaheim (Orange County): submarket_risk_score 0, Review potential acquisition pipeline.
+- Dallas (Texas): submarket_risk_score 0, Review potential acquisition pipeline.
+- Seattle (Seattle): submarket_risk_score 0, Review potential acquisition pipeline.
+- California (National / Other): submarket_risk_score 0, Track local GP / sponsor activity.
 
 ## Highest Execution Complexity Submarkets
 
-- Dallas (Texas): execution_complexity_score 45, Monitor entitlement precedent.
-- Other / Unknown (National / Other): execution_complexity_score 45, Monitor entitlement precedent.
-- Echo Park (Los Angeles): execution_complexity_score 40, Monitor entitlement precedent.
+- Santa Monica (Los Angeles): execution_complexity_score 55, Monitor entitlement precedent.
 - Inglewood (Los Angeles): execution_complexity_score 40, Monitor entitlement precedent.
-- Los Angeles (Los Angeles): execution_complexity_score 40, Monitor entitlement precedent.
 - Anaheim (Orange County): execution_complexity_score 30, Review potential acquisition pipeline.
-- Hollywood (Los Angeles): execution_complexity_score 30, Monitor entitlement precedent.
 - Pasadena (Los Angeles): execution_complexity_score 30, Monitor only.
-- National (National / Other): execution_complexity_score 30, Monitor entitlement precedent.
+- Los Angeles (Los Angeles): execution_complexity_score 30, Track local GP / sponsor activity.
 - Orange County (Orange County): execution_complexity_score 30, Track local GP / sponsor activity.
+- Miami (Florida): execution_complexity_score 20, Review potential acquisition pipeline.
+- Atlanta (Southeast): execution_complexity_score 20, Review potential acquisition pipeline.
+- New York (New York): execution_complexity_score 20, Review potential acquisition pipeline.
+- Dallas (Texas): execution_complexity_score 20, Review potential acquisition pipeline.
 
 ## Sector Themes By Submarket
 
 - Miami: Apartment, Waterfront redevelopment.
-- Atlanta: Apartment, General submarket monitoring.
-- Dallas: Apartment, Office conversion corridor.
+- Atlanta: Apartment, University-adjacent.
+- New York: Apartment, Mixed-use corridor.
 - Anaheim: Apartment, General submarket monitoring.
-- Echo Park: Mixed-Use Residential, General submarket monitoring.
-- Hollywood: Apartment, General submarket monitoring.
+- Dallas: Apartment, General submarket monitoring.
 - Inglewood: Apartment, General submarket monitoring.
-- Los Angeles: Apartment, University-adjacent.
-- Pasadena: Workforce Housing, University-adjacent.
+- Santa Monica: Affordable Housing, Office conversion corridor.
 - Seattle: Apartment, General submarket monitoring.
-- Phoenix: Apartment, Transit-oriented development.
-- Brooklyn: Apartment, Transit-oriented development.
+- California: Senior Housing, General submarket monitoring.
+- Pasadena: Workforce Housing, University-adjacent.
+- Long Island City: General Residential, General submarket monitoring.
+- Jersey City: Apartment, General submarket monitoring.
 
 ## Timing and Entitlement Signals By Submarket
 
 - Miami: 3 timing signal(s), 0 entitlement signal(s).
 - Atlanta: 3 timing signal(s), 0 entitlement signal(s).
-- Dallas: 3 timing signal(s), 1 entitlement signal(s).
+- New York: 1 timing signal(s), 0 entitlement signal(s).
 - Anaheim: 1 timing signal(s), 0 entitlement signal(s).
-- Echo Park: 1 timing signal(s), 2 entitlement signal(s).
-- Hollywood: 1 timing signal(s), 1 entitlement signal(s).
+- Dallas: 2 timing signal(s), 0 entitlement signal(s).
 - Inglewood: 1 timing signal(s), 1 entitlement signal(s).
-- Los Angeles: 0 timing signal(s), 2 entitlement signal(s).
-- Pasadena: 0 timing signal(s), 0 entitlement signal(s).
+- Santa Monica: 1 timing signal(s), 1 entitlement signal(s).
 - Seattle: 0 timing signal(s), 0 entitlement signal(s).
-- Phoenix: 0 timing signal(s), 0 entitlement signal(s).
-- Brooklyn: 0 timing signal(s), 0 entitlement signal(s).
+- California: 0 timing signal(s), 0 entitlement signal(s).
+- Pasadena: 0 timing signal(s), 0 entitlement signal(s).
+- Long Island City: 1 timing signal(s), 0 entitlement signal(s).
+- Jersey City: 0 timing signal(s), 0 entitlement signal(s).
 
 ## Implications for Woomi / Woomi Global
 
@@ -83,19 +83,19 @@ Generated: 2026-10-21 01:20:45
 
 - Review potential acquisition pipeline: Miami (Strategic watch submarket).
 - Review potential acquisition pipeline: Atlanta (Strategic watch submarket).
-- Monitor entitlement precedent: Dallas (Strategic watch submarket).
+- Review potential acquisition pipeline: New York (Strategic watch submarket).
 - Review potential acquisition pipeline: Anaheim (High relevance to Woomi site strategy).
-- Monitor entitlement precedent: Echo Park (High relevance to Woomi site strategy).
-- Monitor entitlement precedent: Hollywood (High relevance to Woomi site strategy).
+- Review potential acquisition pipeline: Dallas (Strategic watch submarket).
 - Monitor entitlement precedent: Inglewood (High relevance to Woomi site strategy).
-- Monitor entitlement precedent: Los Angeles (High relevance to Woomi site strategy).
+- Monitor entitlement precedent: Santa Monica (High relevance to Woomi site strategy).
+- Review potential acquisition pipeline: Seattle (Strategic watch submarket).
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 67
-- LA lifecycle watch items: 42
-- Stage mix: Refinancing / Recapitalization: 6, Unknown Stage: 42, Vertical Construction: 1, Delivery / Opening: 6, Site Acquisition / Site Control: 4
+- Lifecycle records: 70
+- LA lifecycle watch items: 44
+- Stage mix: Refinancing / Recapitalization: 6, Unknown Stage: 47, Delivery / Opening: 3, Site Acquisition / Site Control: 8, Vertical Construction: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

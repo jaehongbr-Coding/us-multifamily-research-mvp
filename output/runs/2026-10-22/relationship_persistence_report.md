@@ -1,0 +1,68 @@
+# Relationship Persistence Report
+
+Generated: 2026-10-22 01:16:59
+
+## Strongest Persistent GP Relationships
+
+- Acquisition - Arizona - Bascom Arizona Ventures Buys Multifamily Community in Tucson for $45.5M -> Arizona (Acquisition / Buyer): Durable, 6 observation(s), importance 100.
+- Acquisition - Florida - Aventon to Build 270-Unit Port Richey Rental Community -> Florida (Acquisition / Buyer): Durable, 8 observation(s), importance 100.
+- Acquisition - Other / Unknown - Altmark Group Sells Mott Haven Lots Destined for 99-Unit Redevelopment for $22M -> Acquisition - Other / Unknown - Altmark Group Sells Mott Haven Lots Destined for 99-Unit Redevelopment for $22M (Acquisition / Buyer): Durable, 4 observation(s), importance 100.
+- Acquisition - Other / Unknown - Avison Young Negotiates $19.1M Sale of Apartment Building in Wethersfield, Connecticut -> Acquisition - Other / Unknown - Avison Young Negotiates $19.1M Sale of Apartment Building in Wethersfield, Connecticut (Acquisition / Buyer): Durable, 8 observation(s), importance 100.
+- Acquisition - Other / Unknown - Connect Midwest Multifamily Trends 2026: Navigating Capital Flow & Deal Dynamics -> Acquisition - Other / Unknown - Connect Midwest Multifamily Trends 2026: Navigating Capital Flow & Deal Dynamics (Acquisition / Buyer): Durable, 4 observation(s), importance 100.
+- Acquisition - Other / Unknown - Eastham Capital, Bender Cos. Acquire 220-Unit Fox Run Apartments in Suburban Chicago -> Acquisition - Other / Unknown - Eastham Capital, Bender Cos. Acquire 220-Unit Fox Run Apartments in Suburban Chicago (Acquisition / Buyer): Durable, 4 observation(s), importance 100.
+- Acquisition - Other / Unknown - How multifamily buyers, sellers are navigating rising Treasury yields -> Acquisition - Other / Unknown - How multifamily buyers, sellers are navigating rising Treasury yields (Acquisition / Buyer): Durable, 5 observation(s), importance 100.
+- Acquisition - Other / Unknown - Lincoln Property Co. acquires The Spectrum Cos. -> Acquisition - Other / Unknown - Lincoln Property Co. acquires The Spectrum Cos. (Acquisition / Buyer): Durable, 7 observation(s), importance 100.
+- Acquisition - Other / Unknown - Milhaus, SRG Residential merge, creating $2.5B multifamily development pipeline -> ares (Acquisition / Buyer): Durable, 6 observation(s), importance 100.
+- Acquisition - Texas - ECA Acquires 20-Property Texas Multifamily Portfolio -> Texas (Acquisition / Buyer): Durable, 4 observation(s), importance 100.
+
+## Most Durable Lender Relationships
+
+- Affinius Capital -> Sun Belt (Financing Relationship): Durable, 9 observation(s), importance 100.
+- Affinius Capital -> New York (Financing Relationship): Durable, 11 observation(s), importance 100.
+- Alliance Residential -> California (Financing Relationship): Durable, 6 observation(s), importance 100.
+- AvalonBay -> cushman (Financing Relationship): Durable, 26 observation(s), importance 100.
+- Avison Young -> Fannie Mae (Financing Relationship): Durable, 8 observation(s), importance 100.
+- Avison Young -> New York (Financing Relationship): Durable, 8 observation(s), importance 100.
+- Avison Young -> Kennedy Wilson (Financing Relationship): Durable, 4 observation(s), importance 100.
+- BHI -> Construction Financing - Other / Unknown - BHI Lends $72M on New Jersey Apartments Build (Financing Relationship): Durable, 4 observation(s), importance 100.
+- Bascom Group -> northmarq (Financing Relationship): Durable, 4 observation(s), importance 100.
+- Bascom Group -> Los Angeles (Financing Relationship): Durable, 21 observation(s), importance 100.
+
+## Recurring JV Structures
+
+- Affinius Capital -> Los Angeles (JV / Partnership): Durable, 5 observation(s), importance 100.
+- Affinius Capital -> California (JV / Partnership): Durable, 5 observation(s), importance 100.
+- Alliance Residential -> Riverside (JV / Partnership): Durable, 15 observation(s), importance 100.
+- Alliance Residential -> California (JV / Partnership): Durable, 31 observation(s), importance 100.
+- Alliance Residential -> California (JV / Partnership): Durable, 30 observation(s), importance 100.
+- Alliance Residential -> JLL (JV / Partnership): Durable, 6 observation(s), importance 100.
+- Berkadia -> Los Angeles (JV / Partnership): Durable, 14 observation(s), importance 100.
+- Berkadia -> Berkadia (JV / Partnership): Durable, 26 observation(s), importance 100.
+- Berkadia -> Sun Belt (JV / Partnership): Durable, 38 observation(s), importance 100.
+- Berkadia -> South Florida (JV / Partnership): Durable, 26 observation(s), importance 100.
+
+## Repeat Market-Entry Patterns
+
+- Affinius Capital -> Los Angeles (Market Expansion): Durable, 4 observation(s), importance 100.
+- Affinius Capital -> Sun Belt (Market Expansion): Durable, 4 observation(s), importance 100.
+- AvalonBay -> National (Market Expansion): Durable, 14 observation(s), importance 100.
+- AvalonBay -> New York (Market Expansion): Durable, 7 observation(s), importance 100.
+- AvalonBay -> Sun Belt (Market Expansion): Durable, 12 observation(s), importance 100.
+- Avison Young -> New York (Market Expansion): Durable, 8 observation(s), importance 100.
+- BTR / Build-to-Rent - National - House Passes BTR-Friendly Housing Bill, But Senate Fight Looms -> National (Market Expansion): Durable, 10 observation(s), importance 100.
+- Berkadia -> South Florida (Market Expansion): Durable, 4 observation(s), importance 100.
+- Berkadia -> National (Market Expansion): Durable, 4 observation(s), importance 100.
+- Berkadia -> Sun Belt (Market Expansion): Durable, 8 observation(s), importance 100.
+
+## Repeated California / LA Partnerships
+
+- Affinius Capital -> Los Angeles (JV / Partnership): Durable, 5 observation(s), importance 100.
+- Affinius Capital -> California (JV / Partnership): Durable, 5 observation(s), importance 100.
+- Alliance Residential -> California (JV / Partnership): Durable, 31 observation(s), importance 100.
+- Alliance Residential -> California (Financing Relationship): Durable, 6 observation(s), importance 100.
+- Alliance Residential -> JLL (JV / Partnership): Durable, 6 observation(s), importance 100.
+- AvalonBay -> equity residential (Acquisition / Buyer): Durable, 5 observation(s), importance 100.
+- AvalonBay -> California (Acquisition / Buyer): Durable, 9 observation(s), importance 100.
+- Bascom Group -> California (Acquisition / Buyer): Durable, 87 observation(s), importance 100.
+- Berkadia -> Berkadia (Financing Relationship): Durable, 12 observation(s), importance 100.
+- Berkadia -> California (Disposition / Seller): Durable, 7 observation(s), importance 100.

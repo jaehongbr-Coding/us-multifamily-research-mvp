@@ -1,0 +1,76 @@
+# LA / Southern California Submarket Watch Report
+
+Generated: 2026-10-22 01:17:18
+
+- Total LA / Southern California submarkets detected: 7
+
+## Top LA / Southern California Submarkets
+
+- Anaheim: opportunity 93, risk 30, Orange County suburban apartment watch.
+- Inglewood: opportunity 67, risk 40, Monitor only.
+- Santa Monica: opportunity 66, risk 55, Monitor only.
+- California: opportunity 56, risk 20, Monitor only.
+- Pasadena: opportunity 54, risk 30, Pasadena entitlement precedent watch.
+- Los Angeles: opportunity 44, risk 30, Monitor only.
+- Orange County: opportunity 12, risk 30, Orange County suburban apartment watch.
+
+## Koreatown / Wilshire Watch
+
+- None detected.
+
+## DTLA / Adaptive Reuse Watch
+
+- None detected.
+
+## Hollywood / Transit-Oriented Watch
+
+- None detected.
+
+## Pasadena / Entitlement Precedent Watch
+
+- Pasadena: opportunity 54, risk 30, Pasadena entitlement precedent watch.
+
+## Long Beach / Mixed-Use Watch
+
+- None detected.
+
+## Orange County / Suburban Apartment Watch
+
+- Anaheim: opportunity 93, risk 30, Orange County suburban apartment watch.
+- Orange County: opportunity 12, risk 30, Orange County suburban apartment watch.
+
+## Inland Empire / BTR Watch
+
+- None detected.
+
+## LA Density Bonus / TOC Watch
+
+- None detected.
+
+## LA CEQA / Entitlement Risk Watch
+
+- Santa Monica: opportunity 66, risk 55, Monitor only.
+
+## Recommended Local Follow-up Actions
+
+- Review potential acquisition pipeline: Anaheim / Orange County suburban apartment watch.
+- Track local planning docket and entitlement precedent: Inglewood / Monitor only.
+- Track local planning docket and entitlement precedent: Santa Monica / Monitor only.
+- Monitor only: California / Monitor only.
+- Review potential acquisition pipeline: Pasadena / Pasadena entitlement precedent watch.
+- Monitor only: Los Angeles / Monitor only.
+- Monitor only: Orange County / Orange County suburban apartment watch.
+
+## Asset / Parcel Intelligence Reference
+
+Asset / parcel-level site clues are available in `asset_parcel_intelligence_report.md` and `la_asset_watch_report.md`.
+
+
+
+## Development Lifecycle Intelligence Summary
+
+- Lifecycle records: 70
+- LA lifecycle watch items: 44
+- Stage mix: Refinancing / Recapitalization: 6, Unknown Stage: 47, Delivery / Opening: 3, Site Acquisition / Site Control: 8, Vertical Construction: 2
+- See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
+

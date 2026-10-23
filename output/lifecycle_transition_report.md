@@ -1,9 +1,9 @@
 # Lifecycle Transition Report
 
-Generated: 2026-10-22 01:17:20
+Generated: 2026-10-23 01:16:23
 
-- Total lifecycle transitions analyzed: 70
-- Newly detected projects: 31
+- Total lifecycle transitions analyzed: 61
+- Newly detected projects: 27
 - Forward progression projects: 0
 - Possible stalled projects: 1
 - Reappearing projects: 0
@@ -11,41 +11,41 @@ Generated: 2026-10-22 01:17:20
 ## Strongest Progression Signals
 
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 80.
+- General Project Signal - California - Affordable housing under construction at 12461 Louise Ave. in Del Rey: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 79.
 - General Project Signal - Los Angeles / California - New supportive housing opens at 8209 Sepulveda Blvd. in the Valley: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 78.
-- General Project Signal - California - Affordable housing under construction at 12461 Louise Ave. in Del Rey: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 74.
+- Affordable housing under construction at 12461 Louise Ave. in Del Rey: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 71.
 - New supportive housing opens at 8209 Sepulveda Blvd. in the Valley: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 70.
-- Affordable housing under construction at 12461 Louise Ave. in Del Rey: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 66.
-- Construction Financing - California - PCCP Provides $41M Refinancing for Multifamily Community in San Diego: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 65.
 - General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 65.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 65.
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 64.
-- PCCP Provides $41M Refinancing for Multifamily Community in San Diego: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 57.
+- Entitlement / Permitting - Other / Unknown - Mixed-use project approved for 2701 190th St. in Redondo Beach: Entitled / Approved -> Entitled / Approved, Same Stage Persistence, progression_score 61.
+- Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 60.
 
 ## Highest Stall Risk Signals
 
 - Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled -> Distressed / Stalled, Possible Stall, stall_risk_score 80.
-- Entitlement / Permitting - Other / Unknown - 75 apartments planned at 925 Eucalyptus Ave. in Inglewood: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 38.
-- 75 apartments planned at 925 Eucalyptus Ave. in Inglewood: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 36.
-- IPA Arranges Sale of 288-Unit Apartment Complex in Red Oak, Texas: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
-- General Project Signal - Other / Unknown - Fresh renderings for new workforce housing at 315 N. Pasadena Ave.: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
-- JV / Partnership - National - Habitat, Cabrera Capital Break Ground on LeClaire Courts Mixed-Use Redevelopment in Chicag...: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
-- Disposition / Exit - Los Angeles / California - Newly Constructed Palmdale McDonald’s Trades in All-Cash Deal: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
-- 908 Group Breaks Ground on 684-Bed Student Housing Project Near University of Florida: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
-- General Project Signal - Florida - 908 Group Breaks Ground on 684-Bed Student Housing Project Near University of Florida: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
-- General Project Signal - Miami / Florida - Aimco Advancing Luxury Edgewater Apartments: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
+- Senior affordable housing underway at 233 N. Second Ave. in Covina: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
+- Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: No Previous Record -> Community Review, Newly Detected Project, stall_risk_score 37.
+- Expansion of apartment complex at 6007 Sunset survives appeal: No Previous Record -> Community Review, Newly Detected Project, stall_risk_score 37.
+- General Project Signal - California - Senior affordable housing underway at 233 N. Second Ave. in Covina: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
+- General Project Signal - San Francisco / California - Lurie Advances Plan for Freedom West 2.0; Would Bring 2,400 Apartments to Western Addition: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
+- JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
+- Office-to-Residential Conversion - Santa Monica / California - Santa Monica releases draft plan for airport park conversion: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
+- SJP Partnership Tops Out Construction on Jersey City Apartments: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
+- JV / Partnership - New York - SJP Partnership Tops Out Construction on Jersey City Apartments: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
 
 ## Newly Detected Projects
 
-- General Project Signal - California - Affordable housing under construction at 12461 Louise Ave. in Del Rey: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 74.
-- Affordable housing under construction at 12461 Louise Ave. in Del Rey: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 66.
-- Entitlement / Permitting - Other / Unknown - Mixed-use project approved for 2701 190th St. in Redondo Beach: No Previous Record -> Entitled / Approved, Newly Detected Project, progression_score 56.
-- Acquisition - Los Angeles / California - LivCor Takes Huge Loss on Sale of Multifamily Property in Los Angeles: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 45.
-- JV / Partnership - California - Oberndorf, Bascom Snag Value-Add Opportunity in San Jose: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 44.
-- General Project Signal - Georgia - Newmark Launches Multifamily Bridge Program with Inaugural Financing for Independence Plac...: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 44.
-- Gilbane Development Acquires Sheepshead Bay Site Suited to Large-Scale Affordable Housing: No Previous Record -> Site Acquisition / Site Control, Newly Detected Project, progression_score 44.
-- Disposition / Exit - New York - Gilbane Development Acquires Sheepshead Bay Site Suited to Large-Scale Affordable Housing: No Previous Record -> Site Acquisition / Site Control, Newly Detected Project, progression_score 43.
-- Acquisition - Sun Belt - Developer Buys Land For Active Adult Apartments Near Novant Health Hospital: No Previous Record -> Site Acquisition / Site Control, Newly Detected Project, progression_score 43.
-- Construction Financing - New York City / New York - BridgeCity Capital Lends $36M on Long Island City Condos Build: No Previous Record -> Site Acquisition / Site Control, Newly Detected Project, progression_score 42.
+- Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 60.
+- Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi for 1,461-Unit SoCal Portfolio: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 58.
+- Refinancing - Washington DC - Affinius Capital Lends $98M for D.C. Multifamily Refi: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 51.
+- Affinius Capital Lends $98M for D.C. Multifamily Refi: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 50.
+- JV / Partnership - California - Partnership Buys Museum Park Apartments in San Jose, California for $53.1M: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 45.
+- Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: No Previous Record -> Community Review, Newly Detected Project, progression_score 44.
+- JV / Partnership - Los Angeles / California - Partnership Acquires 358-Unit Apartment Community in Arlington: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 44.
+- BTR / Build-to-Rent - California - Sacramento Build-for Rent Property Lands $53M Refinancing: No Previous Record -> Site Acquisition / Site Control, Newly Detected Project, progression_score 43.
+- Developer plans high-rise apartments at 6409 Sunset Blvd. in Hollywood: No Previous Record -> Site Acquisition / Site Control, Newly Detected Project, progression_score 43.
+- Entitlement / Permitting - Los Angeles / California - Developer plans high-rise apartments at 6409 Sunset Blvd. in Hollywood: No Previous Record -> Early Site Signal, Newly Detected Project, progression_score 42.
 
 ## Forward Progression Projects
 
@@ -61,17 +61,18 @@ Generated: 2026-10-22 01:17:20
 
 ## Refinancing / Recap Timing Transitions
 
-- Construction Financing - California - PCCP Provides $41M Refinancing for Multifamily Community in San Diego: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 30.
+- Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi for 1,461-Unit SoCal Portfolio: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
 - General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
-- Refinancing - Southeast - Canyon Partners Provides $48M Loan for NorthPointe Apartments in Greenville: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
-- PCCP Provides $41M Refinancing for Multifamily Community in San Diego: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 28.
+- Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
+- Refinancing - Washington DC - Affinius Capital Lends $98M for D.C. Multifamily Refi: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
+- Affinius Capital Lends $98M for D.C. Multifamily Refi: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 28.
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 27.
 
 ## Construction Start Transitions
 
-- General Project Signal - California - Affordable housing under construction at 12461 Louise Ave. in Del Rey: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 74.
-- Affordable housing under construction at 12461 Louise Ave. in Del Rey: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 66.
+- General Project Signal - California - Affordable housing under construction at 12461 Louise Ave. in Del Rey: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 79.
+- Affordable housing under construction at 12461 Louise Ave. in Del Rey: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 71.
 
 ## Implications for Woomi / Woomi Global
 
@@ -82,23 +83,23 @@ Generated: 2026-10-22 01:17:20
 ## Recommended Transition Follow-up Actions
 
 - Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
-- Use as delivery, lease-up, and underwriting benchmark: General Project Signal - Los Angeles / California - New supportive housing opens at 8209 Sepulveda Blvd. in the Valley.
 - Monitor for another run to confirm lifecycle direction: General Project Signal - California - Affordable housing under construction at 12461 Louise Ave. in Del Rey.
-- Use as delivery, lease-up, and underwriting benchmark: New supportive housing opens at 8209 Sepulveda Blvd. in the Valley.
+- Use as delivery, lease-up, and underwriting benchmark: General Project Signal - Los Angeles / California - New supportive housing opens at 8209 Sepulveda Blvd. in the Valley.
 - Monitor for another run to confirm lifecycle direction: Affordable housing under construction at 12461 Louise Ave. in Del Rey.
-- Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - California - PCCP Provides $41M Refinancing for Multifamily Community in San Diego.
+- Use as delivery, lease-up, and underwriting benchmark: New supportive housing opens at 8209 Sepulveda Blvd. in the Valley.
 - Track maturity, lender, recapitalization need, and potential JV angle: General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus.
 - Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
+- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 574
-- Canonical projects: 135
-- Duplicate project clusters: 86
-- Persistent assets tracked: 135
-- LA persistent asset watch items: 95
+- Raw project references: 525
+- Canonical projects: 125
+- Duplicate project clusters: 83
+- Persistent assets tracked: 125
+- LA persistent asset watch items: 86
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -106,10 +107,10 @@ Generated: 2026-10-22 01:17:20
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 135
-- Institutional-grade signals: 19
-- High-confidence signals: 33
-- Weak/noisy signals: 84
-- High-confidence watchlist items: 33
+- Signals evaluated: 125
+- Institutional-grade signals: 18
+- High-confidence signals: 32
+- Weak/noisy signals: 77
+- High-confidence watchlist items: 32
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

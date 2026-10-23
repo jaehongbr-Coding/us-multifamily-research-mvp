@@ -1,11 +1,11 @@
 # Freshness Quality Report
 
-Generated: 2026-10-22 01:16:48
+Generated: 2026-10-23 01:15:53
 
 ## Freshness Summary
 
-- Total articles reviewed: 75
-- fresh_0_3d: 47
+- Total articles reviewed: 68
+- fresh_0_3d: 40
 - recent_4_14d: 3
 - stale_15_30d: 0
 - old_31d_plus: 25
@@ -13,21 +13,21 @@ Generated: 2026-10-22 01:16:48
 
 ## Old Articles Excluded From Representative Evidence
 
-- JLL Arranges $276M Refi for Newport Beach Seniors Communities (Connect CRE Orange County, 2026-10-02): published date parsed; article age 20 day(s)
-- Development Group Starts Work on 371-Unit Boynton Beach Multifamily Venture (Connect CRE South Florida, 2026-10-07): published date parsed; article age 15 day(s)
-- Best Year for Missing Middle Construction Since 2007 (NAHB Eye on Housing - Multifamily, 2026-03-17): published date parsed; article age 219 day(s)
-- Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 (NAHB Eye on Housing - Multifamily, 2026-07-27): published date parsed; article age 87 day(s)
-- Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993 (Connect CRE Orange County, 2026-10-06): published date parsed; article age 16 day(s)
-- Multifamily Missing Middle Falls Back (NAHB Eye on Housing - Multifamily, 2026-08-26): published date parsed; article age 57 day(s)
-- Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily, 2026-05-27): published date parsed; article age 148 day(s)
-- Multifamily Absorption Rate Remains Below 50% (NAHB Eye on Housing - Multifamily, 2026-08-28): published date parsed; article age 55 day(s)
-- Hines Pays $237.8M for Buckhead Rental Community (Connect CRE Atlanta, 2026-10-07): published date parsed; article age 15 day(s)
-- Investor Takes Over Distressed Atlanta Apartment Asset (Connect CRE Atlanta, 2026-09-14): published date parsed; article age 38 day(s)
-- Thompson Thrift Pursuing 319-Unit Powder Springs Rental Community (Connect CRE Atlanta, 2026-08-26): published date parsed; article age 57 day(s)
-- Shorter Apartment Construction Time in 2025 (NAHB Eye on Housing - Multifamily, 2026-09-07): published date parsed; article age 45 day(s)
-- Second Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-08-25): published date parsed; article age 58 day(s)
-- Rent Prices Continue to Rise, While Absorption Remains Low (NAHB Eye on Housing - Multifamily, 2026-05-29): published date parsed; article age 146 day(s)
-- First Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-05-26): published date parsed; article age 149 day(s)
+- JLL Arranges $276M Refi for Newport Beach Seniors Communities (Connect CRE Orange County, 2026-10-02): published date parsed; article age 21 day(s)
+- Development Group Starts Work on 371-Unit Boynton Beach Multifamily Venture (Connect CRE South Florida, 2026-10-07): published date parsed; article age 16 day(s)
+- Best Year for Missing Middle Construction Since 2007 (NAHB Eye on Housing - Multifamily, 2026-03-17): published date parsed; article age 220 day(s)
+- Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 (NAHB Eye on Housing - Multifamily, 2026-07-27): published date parsed; article age 88 day(s)
+- Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993 (Connect CRE Orange County, 2026-10-06): published date parsed; article age 17 day(s)
+- Multifamily Missing Middle Falls Back (NAHB Eye on Housing - Multifamily, 2026-08-26): published date parsed; article age 58 day(s)
+- Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily, 2026-05-27): published date parsed; article age 149 day(s)
+- Multifamily Absorption Rate Remains Below 50% (NAHB Eye on Housing - Multifamily, 2026-08-28): published date parsed; article age 56 day(s)
+- Hines Pays $237.8M for Buckhead Rental Community (Connect CRE Atlanta, 2026-10-07): published date parsed; article age 16 day(s)
+- Investor Takes Over Distressed Atlanta Apartment Asset (Connect CRE Atlanta, 2026-09-14): published date parsed; article age 39 day(s)
+- Thompson Thrift Pursuing 319-Unit Powder Springs Rental Community (Connect CRE Atlanta, 2026-08-26): published date parsed; article age 58 day(s)
+- Shorter Apartment Construction Time in 2025 (NAHB Eye on Housing - Multifamily, 2026-09-07): published date parsed; article age 46 day(s)
+- Second Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-08-25): published date parsed; article age 59 day(s)
+- Rent Prices Continue to Rise, While Absorption Remains Low (NAHB Eye on Housing - Multifamily, 2026-05-29): published date parsed; article age 147 day(s)
+- First Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-05-26): published date parsed; article age 150 day(s)
 
 ## Old Articles Excluded From Development Activity Top Exposure
 

@@ -1,22 +1,22 @@
 # GP Routing Quality Report
 
-Generated: 2026-10-22 01:16:46
+Generated: 2026-10-23 01:15:52
 
 ## Summary
-- Total GP / Capital candidates: 46
-- Selected GP / Capital articles: 25
-- Debt Financing count: 9
-- Refinancing count: 5
-- Construction Financing count: 2
-- Acquisition Financing count: 1
+- Total GP / Capital candidates: 34
+- Selected GP / Capital articles: 16
+- Debt Financing count: 8
+- Refinancing count: 7
+- Construction Financing count: 0
+- Acquisition Financing count: 0
 - Equity Transaction count: 0
-- Operator Activity count: 1
-- Other / Unknown market count: 36
+- Operator Activity count: 2
+- Other / Unknown market count: 27
 
 ## Routing Regression Summary
-- Market Intelligence routed articles: 16
-- Development Activity routed articles: 49
-- GP / Capital Activity routed articles: 7
+- Market Intelligence routed articles: 14
+- Development Activity routed articles: 47
+- GP / Capital Activity routed articles: 4
 - Market-protected research / macro / supply articles: 3
 - Approval / Entitlement development rows: 0
 - Site / Parcel development rows: 0
@@ -24,50 +24,47 @@ Generated: 2026-10-22 01:16:46
 - Routing rule: approval / entitlement wording takes priority over Site / Parcel when both appear.
 
 ## Activity Type Distribution
-- disposition_exit: 13
-- debt_financing: 9
-- joint_venture: 9
-- refinancing: 5
+- debt_financing: 8
+- disposition_exit: 8
+- refinancing: 7
+- joint_venture: 4
 - acquisition: 4
-- construction_financing: 2
-- acquisition_financing: 1
+- asset_management_operator_activity: 2
 - capital_raise: 1
-- platform_expansion: 1
-- asset_management_operator_activity: 1
 
 ## Excluded from GP / Capital with Reason
-- Oberndorf, Bascom Snag Value-Add Opportunity in San Jose | Connect CRE | asset strategy / development routing
+- Oberndorf, Bascom Snag Value-Add Opportunity in San Jose | Connect CRE California | asset strategy / development routing
 
 ## Top Unresolved Market Extraction Examples
-- Habitat, Cabrera Capital Break Ground on LeClaire Courts Mixed-Use Redevelopment in Chicago | REBusiness Online | used broad market bucket: National
-- 75 apartments planned at 925 Eucalyptus Ave. in Inglewood | Urbanize LA | no city, state, or market keyword detected
-- Apollo, UDR Forming $2-Billion Multifamily Joint Venture | Connect CRE Apartments | used broad market bucket: National
-- Build-to-rent now eligible for Federal Housing Administration financing | Multifamily Dive | no city, state, or market keyword detected
+- Marcus & Millichap Negotiates $4.9M Sale of Boston Apartment Portfolio | REBusiness Online | no city, state, or market keyword detected
 - Best Year for Missing Middle Construction Since 2007 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - UDR, Apollo form $2B joint venture | Multifamily Dive | no city, state, or market keyword detected
 - Mixed-use project approved for 2701 190th St. in Redondo Beach | Urbanize LA | no city, state, or market keyword detected
 - Multifamily starts fell in September amid high construction costs | Multifamily Dive | no city, state, or market keyword detected
 - Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- Apollo, UDR Partner on $2B Multifamily Joint Venture | Commercial Observer | used broad market bucket: National
 - Multifamily Missing Middle Falls Back | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Multifamily Missing Middle Construction: First Quarter 2026 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- Fresh renderings for new workforce housing at 315 N. Pasadena Ave. | Urbanize LA | no city, state, or market keyword detected
 - Multifamily Absorption Rate Remains Below 50% | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Shorter Apartment Construction Time in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- WinnCompanies Completes $51M Hybrid 55+ Development in Worcester Massachusetts | Yield PRO | no city, state, or market keyword detected
+- Second Quarter 2026 Multifamily Construction Data | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- Rent Prices Continue to Rise, While Absorption Remains Low | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market? | Multifamily Executive | no city, state, or market keyword detected
+- First Quarter 2026 Multifamily Construction Data | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 
 ## Sample Selected GP / Capital Articles
-- LivCor Takes Huge Loss on Sale of Multifamily Property in Los Angeles | disposition_exit | Los Angeles / California | Yield PRO
-- Habitat, Cabrera Capital Break Ground on LeClaire Courts Mixed-Use Redevelopment in Chicago | joint_venture | National | REBusiness Online
-- PCCP Provides $41M Refinancing for Multifamily Community in San Diego | refinancing | California | REBusiness Online
+- Northmarq Arranges $96M Refi for 1,461-Unit SoCal Portfolio | refinancing | Los Angeles / California | Commercial Observer
 - Little Havana Apartment Owners Land $50.8M Refi | refinancing | Miami / Florida | Connect CRE South Florida
 - Berkadia Arranges Refis for 3 S. Florida Rental Communities | refinancing | Miami / Florida | Connect CRE South Florida
-- Apollo, UDR Forming $2-Billion Multifamily Joint Venture | joint_venture | National | Connect CRE Apartments
-- TruAmerica Multifamily Expands Dallas Footprint with Acquisition of 636-Unit Apartment Community | acquisition | Dallas / Texas | Yield PRO
-- Build-to-rent now eligible for Federal Housing Administration financing | refinancing | Other / Unknown | Multifamily Dive
-- High Street Residential, Barings Break Ground in Redwood City | joint_venture | California | Connect CRE California
-- SJP Partnership Tops Out Construction on Jersey City Apartments | joint_venture | New York | Connect CRE
+- Affinius Capital Lends $98M for D.C. Multifamily Refi | refinancing | Washington DC | Commercial Observer
 - UDR, Apollo form $2B joint venture | joint_venture | Other / Unknown | Multifamily Dive
-- Developer Buys Land For Active Adult Apartments Near Novant Health Hospital | acquisition | Sun Belt | Bisnow
-- Agador Spartacus Inks $58.5M Loan to Build Two Deltona BTR Communities | construction_financing | Florida | Connect CRE Apartments
-- Canyon Partners Provides $48M Loan for NorthPointe Apartments in Greenville | joint_venture | Southeast | REBusiness Online
-- Brooklyn Surpasses Manhattan in Multifamily Sales in Q3: Report | disposition_exit | New York City / New York | Commercial Observer
+- Partnership Buys Museum Park Apartments in San Jose, California for $53.1M | joint_venture | California | REBusiness Online
+- Sacramento Build-for Rent Property Lands $53M Refinancing | refinancing | California | Yield PRO
+- SJP Partnership Tops Out Construction on Jersey City Apartments | joint_venture | New York | Connect CRE Apartments
+- Partnership Acquires 358-Unit Apartment Community in Arlington | asset_management_operator_activity | Los Angeles / California | REBusiness Online
+- Carr Properties Buys $12M Arlington Office Building for Conversion Project | acquisition | Washington DC | Connect CRE Apartments
+- Broe Group Makes First SoCal Multifamily Acquisition in San Diego | acquisition | Colorado | Connect CRE Apartments
+- Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset | refinancing | Georgia | Commercial Observer
+- JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus | debt_financing | Los Angeles / California | Connect CRE California
+- Multifamily CMBS delinquency and servicing rates rose yet again | debt_financing | Other / Unknown | Multifamily Dive
+- Morehouse, Spelman Debut $147M Student Housing Project | joint_venture | Atlanta / Georgia | Connect CRE Atlanta

@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-10-22 01:17:20
+Generated: 2026-10-23 01:16:23
 
-- Total raw project references: 574
-- Total canonical projects: 135
-- Duplicate project clusters: 86
-- High-confidence project identities: 574
+- Total raw project references: 525
+- Total canonical projects: 125
+- Duplicate project clusters: 83
+- High-confidence project identities: 525
 - Low-confidence identities needing review: 0
-- LA / California project references: 377
+- LA / California project references: 369
 
 ## Top Repeated Projects
 
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 48 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 48 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 48 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 48 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 48 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 48 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 48 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 48 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 48 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 48 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 30 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 30 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 30 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 30 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 30 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 30 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 30 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 30 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 30 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 30 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

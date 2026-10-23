@@ -1,0 +1,7 @@
+﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
+20261023-011552-34053cb5,2026-10-23,Construction financing still selective,Weakening,weakening,178,8,31,3.94,2.9,1,1,1,2,Los Angeles / California,Source-Concentrated,Construction financing still selective visibility is weakening versus prior runs.,
+20261023-011552-34053cb5,2026-10-23,Institutional recap over expansion,Persistent,stable,66,8,31,4.16,3.19,5,5,4,1,California,Broadly Confirmed,steady visibility,
+20261023-011552-34053cb5,2026-10-23,JV / partnership activity observed,Weakening,weakening,178,8,31,4.84,3.32,6,6,5,0,California,Broadly Confirmed,JV / partnership activity observed visibility is weakening versus prior runs.,
+20261023-011552-34053cb5,2026-10-23,LA entitlement precedent accumulation,Building,stable,178,8,31,6.71,3.19,4,4,2,0,Los Angeles / California,Source-Concentrated,steady visibility,
+20261023-011552-34053cb5,2026-10-23,Refinancing pressure unresolved,Weakening,weakening,66,8,31,4.74,3.45,6,6,5,4,Los Angeles / California,Broadly Confirmed,Refinancing pressure unresolved visibility is weakening versus prior runs.,
+20261023-011552-34053cb5,2026-10-23,Sun Belt lease-up pressure watch,Building,stable,178,8,31,2.81,2.65,3,3,2,0,California,Moderate Signal,steady visibility,

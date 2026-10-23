@@ -1,15 +1,16 @@
 # Development Lifecycle Report
 
-Generated: 2026-10-22 01:17:20
+Generated: 2026-10-23 01:16:23
 
-- Total lifecycle records: 70
+- Total lifecycle records: 61
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 47
-- Site Acquisition / Site Control: 8
-- Refinancing / Recapitalization: 6
+- Unknown Stage: 37
+- Refinancing / Recapitalization: 7
+- Site Acquisition / Site Control: 6
 - Delivery / Opening: 3
+- Community Review: 2
 - Vertical Construction: 2
 - Early Site Signal: 2
 - Entitled / Approved: 1
@@ -17,32 +18,34 @@ Generated: 2026-10-22 01:17:20
 
 ## Top Development Timing Opportunities
 
-- Construction Financing - California - PCCP Provides $41M Refinancing for Multifamily Community in San Diego: Refinancing / Recapitalization, California, lifecycle_opportunity_score 100.
 - General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus: Refinancing / Recapitalization, Los Angeles, lifecycle_opportunity_score 100.
+- Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset: Refinancing / Recapitalization, Georgia, lifecycle_opportunity_score 100.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization, South Florida, lifecycle_opportunity_score 100.
-- PCCP Provides $41M Refinancing for Multifamily Community in San Diego: Refinancing / Recapitalization, Unknown, lifecycle_opportunity_score 100.
-- Acquisition - Los Angeles / California - LivCor Takes Huge Loss on Sale of Multifamily Property in Los Angeles: Unknown Stage, Los Angeles, lifecycle_opportunity_score 100.
-- General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing: Unknown Stage, Seattle, lifecycle_opportunity_score 100.
+- JV / Partnership - California - Partnership Buys Museum Park Apartments in San Jose, California for $53.1M: Unknown Stage, California, lifecycle_opportunity_score 100.
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening, California, lifecycle_opportunity_score 100.
-- JV / Partnership - California - High Street Residential, Barings Break Ground in Redwood City: Unknown Stage, California, lifecycle_opportunity_score 95.
-- JV / Partnership - California - Oberndorf, Bascom Snag Value-Add Opportunity in San Jose: Unknown Stage, California, lifecycle_opportunity_score 95.
-- Refinancing - Southeast - Canyon Partners Provides $48M Loan for NorthPointe Apartments in Greenville: Refinancing / Recapitalization, Southeast, lifecycle_opportunity_score 94.
+- General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing: Unknown Stage, Seattle, lifecycle_opportunity_score 99.
+- Partnership Acquires 358-Unit Apartment Community in Arlington: Site Acquisition / Site Control, Unknown, lifecycle_opportunity_score 99.
+- JV / Partnership - California - Oberndorf, Bascom Snag Value-Add Opportunity in San Jose: Unknown Stage, California, lifecycle_opportunity_score 98.
+- Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Community Review, Los Angeles, lifecycle_opportunity_score 93.
+- Refinancing - Washington DC - Affinius Capital Lends $98M for D.C. Multifamily Refi: Refinancing / Recapitalization, Washington Dc, lifecycle_opportunity_score 93.
 
 ## Top Lifecycle Risks
 
 - Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled, Atlanta, lifecycle_risk_score 75.
-- Construction Financing - California - PCCP Provides $41M Refinancing for Multifamily Community in San Diego: Refinancing / Recapitalization, California, lifecycle_risk_score 58.
+- Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi for 1,461-Unit SoCal Portfolio: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 61.
 - General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 55.
-- Refinancing - Southeast - Canyon Partners Provides $48M Loan for NorthPointe Apartments in Greenville: Refinancing / Recapitalization, Southeast, lifecycle_risk_score 50.
+- Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Community Review, Los Angeles, lifecycle_risk_score 50.
+- Refinancing - Washington DC - Affinius Capital Lends $98M for D.C. Multifamily Refi: Refinancing / Recapitalization, Washington Dc, lifecycle_risk_score 50.
+- Expansion of apartment complex at 6007 Sunset survives appeal: Community Review, Hollywood, lifecycle_risk_score 50.
+- Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset: Refinancing / Recapitalization, Georgia, lifecycle_risk_score 49.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 49.
-- PCCP Provides $41M Refinancing for Multifamily Community in San Diego: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 48.
-- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization, California, lifecycle_risk_score 40.
-- Construction Financing - New York City / New York - BridgeCity Capital Lends $36M on Long Island City Condos Build: Site Acquisition / Site Control, Queens, lifecycle_risk_score 37.
-- General Project Signal - California - Senior affordable housing underway at 233 N. Second Ave. in Covina: Unknown Stage, California, lifecycle_risk_score 34.
-- Office-to-Residential Conversion - Santa Monica / California - Santa Monica releases draft plan for airport park conversion: Unknown Stage, Santa Monica, lifecycle_risk_score 33.
+- Acquisition - Florida - JLL Arranges $64M Sale of Office Park in Boca Raton, Florida: Unknown Stage, Southeast, lifecycle_risk_score 49.
+- BTR / Build-to-Rent - California - Sacramento Build-for Rent Property Lands $53M Refinancing: Site Acquisition / Site Control, Sacramento, lifecycle_risk_score 48.
 
 ## Projects Under Entitlement / Planning
 
+- Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Community Review, Los Angeles, lifecycle_opportunity_score 93.
+- Expansion of apartment complex at 6007 Sunset survives appeal: Community Review, Hollywood, lifecycle_opportunity_score 81.
 - Entitlement / Permitting - Other / Unknown - Mixed-use project approved for 2701 190th St. in Redondo Beach: Entitled / Approved, Unknown, lifecycle_opportunity_score 66.
 
 ## Construction-Ready / Construction-Start Signals
@@ -62,11 +65,12 @@ Generated: 2026-10-22 01:17:20
 
 ## Refinancing / Recapitalization Lifecycle Signals
 
-- Construction Financing - California - PCCP Provides $41M Refinancing for Multifamily Community in San Diego: Refinancing / Recapitalization, California, lifecycle_risk_score 58.
+- Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi for 1,461-Unit SoCal Portfolio: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 61.
 - General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 55.
-- Refinancing - Southeast - Canyon Partners Provides $48M Loan for NorthPointe Apartments in Greenville: Refinancing / Recapitalization, Southeast, lifecycle_risk_score 50.
+- Refinancing - Washington DC - Affinius Capital Lends $98M for D.C. Multifamily Refi: Refinancing / Recapitalization, Washington Dc, lifecycle_risk_score 50.
+- Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset: Refinancing / Recapitalization, Georgia, lifecycle_risk_score 49.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 49.
-- PCCP Provides $41M Refinancing for Multifamily Community in San Diego: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 48.
+- Affinius Capital Lends $98M for D.C. Multifamily Refi: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 42.
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization, California, lifecycle_risk_score 40.
 
 ## Implications for Woomi / Woomi Global
@@ -76,24 +80,24 @@ Generated: 2026-10-22 01:17:20
 
 ## Recommended Lifecycle Follow-up Actions
 
-- Track lender, maturity, debt terms, and recapitalization need: Construction Financing - California - PCCP Provides $41M Refinancing for Multifamily Community in San Diego.
 - Track lender, maturity, debt terms, and recapitalization need: General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus.
+- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset.
 - Track lender, maturity, debt terms, and recapitalization need: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
-- Track lender, maturity, debt terms, and recapitalization need: PCCP Provides $41M Refinancing for Multifamily Community in San Diego.
-- Monitor lifecycle signal for repeated confirmation: Acquisition - Los Angeles / California - LivCor Takes Huge Loss on Sale of Multifamily Property in Los Angeles.
-- Monitor lifecycle signal for repeated confirmation: General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing.
+- Monitor lifecycle signal for repeated confirmation: JV / Partnership - California - Partnership Buys Museum Park Apartments in San Jose, California for $53.1M.
 - Benchmark delivery, lease-up, occupancy, and rent assumptions: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
-- Monitor lifecycle signal for repeated confirmation: JV / Partnership - California - High Street Residential, Barings Break Ground in Redwood City.
+- Monitor lifecycle signal for repeated confirmation: General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing.
+- Monitor lifecycle signal for repeated confirmation: Partnership Acquires 358-Unit Apartment Community in Arlington.
+- Monitor lifecycle signal for repeated confirmation: JV / Partnership - California - Oberndorf, Bascom Snag Value-Add Opportunity in San Jose.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 70
-- Newly detected projects: 31
+- Lifecycle transitions analyzed: 61
+- Newly detected projects: 27
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 42
+- LA lifecycle transition watch items: 39
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -101,11 +105,11 @@ Generated: 2026-10-22 01:17:20
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 574
-- Canonical projects: 135
-- Duplicate project clusters: 86
-- Persistent assets tracked: 135
-- LA persistent asset watch items: 95
+- Raw project references: 525
+- Canonical projects: 125
+- Duplicate project clusters: 83
+- Persistent assets tracked: 125
+- LA persistent asset watch items: 86
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -113,10 +117,10 @@ Generated: 2026-10-22 01:17:20
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 135
-- Institutional-grade signals: 19
-- High-confidence signals: 33
-- Weak/noisy signals: 84
-- High-confidence watchlist items: 33
+- Signals evaluated: 125
+- Institutional-grade signals: 18
+- High-confidence signals: 32
+- Weak/noisy signals: 77
+- High-confidence watchlist items: 32
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

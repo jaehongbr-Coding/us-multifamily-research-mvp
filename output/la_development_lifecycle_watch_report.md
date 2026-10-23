@@ -1,15 +1,16 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-10-22 01:17:20
+Generated: 2026-10-23 01:16:23
 
-- Total LA lifecycle watch items: 44
+- Total LA lifecycle watch items: 41
 
 ## LA Lifecycle Stage Distribution
 
-- Unknown Stage: 23
-- Site Acquisition / Site Control: 7
+- Unknown Stage: 20
 - Refinancing / Recapitalization: 5
+- Site Acquisition / Site Control: 5
 - Delivery / Opening: 3
+- Community Review: 2
 - Vertical Construction: 2
 - Early Site Signal: 2
 - Entitled / Approved: 1
@@ -29,7 +30,7 @@ Generated: 2026-10-22 01:17:20
 
 ## Pasadena Lifecycle Watch
 
-- General Project Signal - Other / Unknown - Fresh renderings for new workforce housing at 315 N. Pasadena Ave.: Unknown Stage, Monitor only, opportunity 70.
+- None detected.
 
 ## Long Beach Lifecycle Watch
 
@@ -54,24 +55,24 @@ Generated: 2026-10-22 01:17:20
 
 ## Recommended LA Lifecycle Follow-up Actions
 
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Construction Financing - California - PCCP Provides $41M Refinancing for Multifamily Community in San Diego.
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset.
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: PCCP Provides $41M Refinancing for Multifamily Community in San Diego.
-- Monitor lifecycle status for repeated confirmation: Acquisition - Los Angeles / California - LivCor Takes Huge Loss on Sale of Multifamily Property in Los Angeles.
-- Monitor lifecycle status for repeated confirmation: General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing.
+- Monitor lifecycle status for repeated confirmation: JV / Partnership - California - Partnership Buys Museum Park Apartments in San Jose, California for $53.1M.
 - Monitor lifecycle status for repeated confirmation: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
-- Monitor lifecycle status for repeated confirmation: JV / Partnership - California - High Street Residential, Barings Break Ground in Redwood City.
+- Monitor lifecycle status for repeated confirmation: General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing.
+- Monitor lifecycle status for repeated confirmation: Partnership Acquires 358-Unit Apartment Community in Arlington.
+- Monitor lifecycle status for repeated confirmation: JV / Partnership - California - Oberndorf, Bascom Snag Value-Add Opportunity in San Jose.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 70
-- Newly detected projects: 31
+- Lifecycle transitions analyzed: 61
+- Newly detected projects: 27
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 42
+- LA lifecycle transition watch items: 39
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -79,10 +80,10 @@ Generated: 2026-10-22 01:17:20
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 574
-- Canonical projects: 135
-- Duplicate project clusters: 86
-- Persistent assets tracked: 135
-- LA persistent asset watch items: 95
+- Raw project references: 525
+- Canonical projects: 125
+- Duplicate project clusters: 83
+- Persistent assets tracked: 125
+- LA persistent asset watch items: 86
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

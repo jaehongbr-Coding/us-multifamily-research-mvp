@@ -1,37 +1,37 @@
 # GP / Capital Entity Quality Report
 
-Generated: 2026-10-23 01:16:04
+Generated: 2026-10-24 01:24:31
 
 ## Summary
 
-- Total GP/Capital articles: 34
-- Participant not identified: 17
-- Dictionary match: 15
-- Title fallback / headline extraction: 0
-- Low confidence or unresolved: 17
+- Total GP/Capital articles: 44
+- Participant not identified: 22
+- Dictionary match: 14
+- Title fallback / headline extraction: 1
+- Low confidence or unresolved: 22
 
 ## Representative Resolved Samples
 
 - Blackstone: 6 Blackstone multifamily properties move to servicing (dictionary_match, high)
-- Voya Investment Management: Northmarq Arranges $96M Refi for 1,461-Unit SoCal Portfolio (capital_event_sentence, medium)
+- Investors Commit Capital: Investors Commit Capital to Fund Multifamily Affordable Housing Development (capital_event_sentence, medium)
+- Bridge Investment Group: Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments (dictionary_match, high)
+- JLL: KKR Refis Brooklyn Apartments With $95M Loan (dictionary_match, high)
+- Voya Investment Management: Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio (capital_event_sentence, medium)
+- CBRE: CBRE Arranges Sale of Future Mixed-Use Development in Wisconsin (dictionary_match, high)
+- Voya Investment Management: Northmarq Arranges $96M Refi on SoCal Apartment Portfolio (capital_event_sentence, medium)
+- CBRE: ORIX Acquires Buckhead Apartments for $83M (dictionary_match, high)
 - JLL: Little Havana Apartment Owners Land $50.8M Refi (dictionary_match, high)
 - Berkadia: Berkadia Arranges Refis for 3 S. Florida Rental Communities (dictionary_match, high)
-- Newport Beach Seniors Communities JLL Capital: JLL Arranges $276M Refi for Newport Beach Seniors Communities (dictionary_match, high)
-- Hyperion Group: Development Group Starts Work on 371-Unit Boynton Beach Multifamily Venture (capital_event_sentence, medium)
-- Affinius Capital: Affinius Capital Lends $98M for D.C. Multifamily Refi (dictionary_match, high)
-- Marcus & Millichap: Marcus & Millichap Negotiates $4.9M Sale of Boston Apartment Portfolio (dictionary_match, high)
-- Marcus & Millichap: Anaheim Sale is First Closing in Broader Multifamily Portfolio (dictionary_match, high)
-- UDR: UDR, Apollo form $2B joint venture (dictionary_match, high)
 
 ## Unresolved Examples
 
+- FIRST DRAFT LIVE: Why Sun Belt Multifamily Giant Cortland Is Moving Its Money North | Bisnow | No institution name detected in dictionary, title, summary, or source text.
+- L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St. | Urbanize LA | No institution name detected in dictionary, title, summary, or source text.
 - Senior affordable housing underway at 233 N. Second Ave. in Covina | Urbanize LA | No institution name detected in dictionary, title, summary, or source text.
-- Sacramento Build-for Rent Property Lands $53M Refinancing | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
-- SJP Partnership Tops Out Construction on Jersey City Apartments | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
+- Hamilton Zanze Announces Sale of Virginia Multifamily Community | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
+- Lehi, Utah Rental Community Trades for $130M | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
+- Hollywood's Yamashiro Complex Gets $25M Refinance: The Los Angeles Deal Sheet | Bisnow | No institution name detected in dictionary, title, summary, or source text.
+- Broe Group Makes First SoCal Multifamily Acquisition in San Diego | Connect CRE California | No institution name detected in dictionary, title, summary, or source text.
+- Colliers Facilitates Sale of Boutique Multifamily Property in Seattle | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
+- RedPeak Acquires 101-Unit Manchester Apartments in Denver | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
 - Multifamily starts fell in September amid high construction costs | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.
-- Carr Properties Buys $12M Arlington Office Building for Conversion Project | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
-- Broe Group Makes First SoCal Multifamily Acquisition in San Diego | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
-- Hamilton Zanze Sells 196-Unit Apartment Community in Virgina Beach | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
-- Investor Takes Over Distressed Atlanta Apartment Asset | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.
-- The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market? | Multifamily Executive | No institution name detected in dictionary, title, summary, or source text.
-- Multifamily CMBS delinquency and servicing rates rose yet again | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.

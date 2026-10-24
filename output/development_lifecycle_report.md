@@ -1,76 +1,86 @@
 # Development Lifecycle Report
 
-Generated: 2026-10-23 01:16:23
+Generated: 2026-10-24 01:24:43
 
-- Total lifecycle records: 61
+- Total lifecycle records: 74
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 37
-- Refinancing / Recapitalization: 7
+- Unknown Stage: 43
+- Refinancing / Recapitalization: 8
+- Delivery / Opening: 6
 - Site Acquisition / Site Control: 6
-- Delivery / Opening: 3
 - Community Review: 2
-- Vertical Construction: 2
-- Early Site Signal: 2
-- Entitled / Approved: 1
-- Distressed / Stalled: 1
+- Building Permit / Construction Permit: 2
+- Entitled / Approved: 2
+- Distressed / Stalled: 2
+- Vertical Construction: 1
+- Early Site Signal: 1
+- Construction Started: 1
 
 ## Top Development Timing Opportunities
 
-- General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus: Refinancing / Recapitalization, Los Angeles, lifecycle_opportunity_score 100.
-- Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset: Refinancing / Recapitalization, Georgia, lifecycle_opportunity_score 100.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization, South Florida, lifecycle_opportunity_score 100.
-- JV / Partnership - California - Partnership Buys Museum Park Apartments in San Jose, California for $53.1M: Unknown Stage, California, lifecycle_opportunity_score 100.
+- KKR Refis Brooklyn Apartments With $95M Loan: Delivery / Opening, Brooklyn, lifecycle_opportunity_score 100.
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening, California, lifecycle_opportunity_score 100.
+- Brighton Multifamily Draws Record Pool of Potential Buyers: Site Acquisition / Site Control, Unknown, lifecycle_opportunity_score 100.
+- Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Unknown Stage, Atlanta, lifecycle_opportunity_score 99.
 - General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing: Unknown Stage, Seattle, lifecycle_opportunity_score 99.
-- Partnership Acquires 358-Unit Apartment Community in Arlington: Site Acquisition / Site Control, Unknown, lifecycle_opportunity_score 99.
-- JV / Partnership - California - Oberndorf, Bascom Snag Value-Add Opportunity in San Jose: Unknown Stage, California, lifecycle_opportunity_score 98.
+- ORIX Acquires Buckhead Apartments for $83M: Unknown Stage, Atlanta, lifecycle_opportunity_score 95.
+- Refinancing - New York City / New York - KKR Refis Brooklyn Apartments With $95M Loan: Delivery / Opening, Brooklyn, lifecycle_opportunity_score 94.
 - Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Community Review, Los Angeles, lifecycle_opportunity_score 93.
-- Refinancing - Washington DC - Affinius Capital Lends $98M for D.C. Multifamily Refi: Refinancing / Recapitalization, Washington Dc, lifecycle_opportunity_score 93.
+- Refinancing - Nevada - Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments: Refinancing / Recapitalization, Nevada, lifecycle_opportunity_score 93.
 
 ## Top Lifecycle Risks
 
+- Acquisition - New York City / New York - NY City Council Passes Bill Giving Nonprofits First Dibs on Distressed Apartment Propertie...: Distressed / Stalled, New York City, lifecycle_risk_score 89.
 - Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled, Atlanta, lifecycle_risk_score 75.
-- Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi for 1,461-Unit SoCal Portfolio: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 61.
-- General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 55.
+- Refinancing - California - Life Company Provides Permanent Loan on Monterey Office Park: Refinancing / Recapitalization, California, lifecycle_risk_score 62.
+- Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi on SoCal Apartment Portfolio: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 61.
+- Refinancing - Los Angeles / California - Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 61.
+- Refinancing - Los Angeles / California - Hollywood's Yamashiro Complex Gets $25M Refinance: The Los Angeles Deal Sheet: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 60.
+- Refinancing - Florida - How development helps Richard Richman’s tax syndication business: Refinancing / Recapitalization, Florida, lifecycle_risk_score 55.
 - Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Community Review, Los Angeles, lifecycle_risk_score 50.
-- Refinancing - Washington DC - Affinius Capital Lends $98M for D.C. Multifamily Refi: Refinancing / Recapitalization, Washington Dc, lifecycle_risk_score 50.
 - Expansion of apartment complex at 6007 Sunset survives appeal: Community Review, Hollywood, lifecycle_risk_score 50.
-- Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset: Refinancing / Recapitalization, Georgia, lifecycle_risk_score 49.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 49.
-- Acquisition - Florida - JLL Arranges $64M Sale of Office Park in Boca Raton, Florida: Unknown Stage, Southeast, lifecycle_risk_score 49.
-- BTR / Build-to-Rent - California - Sacramento Build-for Rent Property Lands $53M Refinancing: Site Acquisition / Site Control, Sacramento, lifecycle_risk_score 48.
 
 ## Projects Under Entitlement / Planning
 
 - Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Community Review, Los Angeles, lifecycle_opportunity_score 93.
+- Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisco: Entitled / Approved, Unknown, lifecycle_opportunity_score 86.
 - Expansion of apartment complex at 6007 Sunset survives appeal: Community Review, Hollywood, lifecycle_opportunity_score 81.
-- Entitlement / Permitting - Other / Unknown - Mixed-use project approved for 2701 190th St. in Redondo Beach: Entitled / Approved, Unknown, lifecycle_opportunity_score 66.
+- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: Entitled / Approved, San Francisco, lifecycle_opportunity_score 80.
 
 ## Construction-Ready / Construction-Start Signals
 
-- Affordable housing under construction at 12461 Louise Ave. in Del Rey: Vertical Construction, Los Angeles, lifecycle_opportunity_score 91.
-- General Project Signal - California - Affordable housing under construction at 12461 Louise Ave. in Del Rey: Vertical Construction, California, lifecycle_opportunity_score 89.
+- Entitlement / Permitting - San Francisco / California - New Building Permits For Backyard ADUs at 466 Frederick Street, San Francisco: Building Permit / Construction Permit, San Francisco, lifecycle_opportunity_score 93.
+- New Building Permits For Backyard ADUs at 466 Frederick Street, San Francisco: Building Permit / Construction Permit, Unknown, lifecycle_opportunity_score 93.
+- Development Start - California - Inglewood breaks ground on new downtown mobility hubs: Vertical Construction, America, lifecycle_opportunity_score 80.
+- Development Start - Other / Unknown - Mixed-Income Affordable Housing Redevelopment Progressing with Second Phase Groundbreaking...: Construction Started, Unknown, lifecycle_opportunity_score 54.
 
 ## Delivery / Lease-Up Signals
 
+- KKR Refis Brooklyn Apartments With $95M Loan: Delivery / Opening, Brooklyn, lifecycle_opportunity_score 100.
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening, California, lifecycle_opportunity_score 100.
-- New supportive housing opens at 8209 Sepulveda Blvd. in the Valley: Delivery / Opening, Los Angeles, lifecycle_opportunity_score 83.
-- General Project Signal - Los Angeles / California - New supportive housing opens at 8209 Sepulveda Blvd. in the Valley: Delivery / Opening, Los Angeles / California, lifecycle_opportunity_score 82.
+- Refinancing - New York City / New York - KKR Refis Brooklyn Apartments With $95M Loan: Delivery / Opening, Brooklyn, lifecycle_opportunity_score 94.
+- Acquisition - Phoenix / Arizona - Founders Group Sells 202-Unit Multifamily Community in Tucson: Delivery / Opening, Tucson, lifecycle_opportunity_score 63.
+- CentrePoint Properties Divests of 52,743 SF Mixed-Use Property in Wheat Ridge, Colorado: Delivery / Opening, Unknown, lifecycle_opportunity_score 62.
+- Acquisition - Colorado - CentrePoint Properties Divests of 52,743 SF Mixed-Use Property in Wheat Ridge, Colorado: Delivery / Opening, Colorado, lifecycle_opportunity_score 58.
 
 ## Distressed / Stalled Lifecycle Signals
 
+- Acquisition - New York City / New York - NY City Council Passes Bill Giving Nonprofits First Dibs on Distressed Apartment Propertie...: Distressed / Stalled, New York City, lifecycle_risk_score 89.
 - Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled, Atlanta, lifecycle_risk_score 75.
 
 ## Refinancing / Recapitalization Lifecycle Signals
 
-- Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi for 1,461-Unit SoCal Portfolio: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 61.
-- General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 55.
-- Refinancing - Washington DC - Affinius Capital Lends $98M for D.C. Multifamily Refi: Refinancing / Recapitalization, Washington Dc, lifecycle_risk_score 50.
-- Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset: Refinancing / Recapitalization, Georgia, lifecycle_risk_score 49.
+- Refinancing - California - Life Company Provides Permanent Loan on Monterey Office Park: Refinancing / Recapitalization, California, lifecycle_risk_score 62.
+- Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi on SoCal Apartment Portfolio: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 61.
+- Refinancing - Los Angeles / California - Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 61.
+- Refinancing - Los Angeles / California - Hollywood's Yamashiro Complex Gets $25M Refinance: The Los Angeles Deal Sheet: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 60.
+- Refinancing - Florida - How development helps Richard Richman’s tax syndication business: Refinancing / Recapitalization, Florida, lifecycle_risk_score 55.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 49.
-- Affinius Capital Lends $98M for D.C. Multifamily Refi: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 42.
+- Refinancing - Nevada - Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments: Refinancing / Recapitalization, Nevada, lifecycle_risk_score 47.
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization, California, lifecycle_risk_score 40.
 
 ## Implications for Woomi / Woomi Global
@@ -80,24 +90,24 @@ Generated: 2026-10-23 01:16:23
 
 ## Recommended Lifecycle Follow-up Actions
 
-- Track lender, maturity, debt terms, and recapitalization need: General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus.
-- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset.
 - Track lender, maturity, debt terms, and recapitalization need: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
-- Monitor lifecycle signal for repeated confirmation: JV / Partnership - California - Partnership Buys Museum Park Apartments in San Jose, California for $53.1M.
+- Benchmark delivery, lease-up, occupancy, and rent assumptions: KKR Refis Brooklyn Apartments With $95M Loan.
 - Benchmark delivery, lease-up, occupancy, and rent assumptions: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
+- Monitor lifecycle signal for repeated confirmation: Brighton Multifamily Draws Record Pool of Potential Buyers.
+- Monitor lifecycle signal for repeated confirmation: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
 - Monitor lifecycle signal for repeated confirmation: General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing.
-- Monitor lifecycle signal for repeated confirmation: Partnership Acquires 358-Unit Apartment Community in Arlington.
-- Monitor lifecycle signal for repeated confirmation: JV / Partnership - California - Oberndorf, Bascom Snag Value-Add Opportunity in San Jose.
+- Monitor lifecycle signal for repeated confirmation: ORIX Acquires Buckhead Apartments for $83M.
+- Benchmark delivery, lease-up, occupancy, and rent assumptions: Refinancing - New York City / New York - KKR Refis Brooklyn Apartments With $95M Loan.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 61
-- Newly detected projects: 27
+- Lifecycle transitions analyzed: 74
+- Newly detected projects: 41
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 39
+- LA lifecycle transition watch items: 40
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -105,10 +115,10 @@ Generated: 2026-10-23 01:16:23
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 525
-- Canonical projects: 125
-- Duplicate project clusters: 83
-- Persistent assets tracked: 125
+- Raw project references: 625
+- Canonical projects: 149
+- Duplicate project clusters: 102
+- Persistent assets tracked: 149
 - LA persistent asset watch items: 86
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
@@ -117,10 +127,10 @@ Generated: 2026-10-23 01:16:23
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 125
-- Institutional-grade signals: 18
-- High-confidence signals: 32
-- Weak/noisy signals: 77
-- High-confidence watchlist items: 32
+- Signals evaluated: 149
+- Institutional-grade signals: 14
+- High-confidence signals: 37
+- Weak/noisy signals: 94
+- High-confidence watchlist items: 37
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

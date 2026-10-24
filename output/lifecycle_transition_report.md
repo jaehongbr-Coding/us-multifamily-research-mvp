@@ -1,9 +1,9 @@
 # Lifecycle Transition Report
 
-Generated: 2026-10-23 01:16:23
+Generated: 2026-10-24 01:24:43
 
-- Total lifecycle transitions analyzed: 61
-- Newly detected projects: 27
+- Total lifecycle transitions analyzed: 74
+- Newly detected projects: 41
 - Forward progression projects: 0
 - Possible stalled projects: 1
 - Reappearing projects: 0
@@ -11,41 +11,41 @@ Generated: 2026-10-23 01:16:23
 ## Strongest Progression Signals
 
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 80.
-- General Project Signal - California - Affordable housing under construction at 12461 Louise Ave. in Del Rey: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 79.
-- General Project Signal - Los Angeles / California - New supportive housing opens at 8209 Sepulveda Blvd. in the Valley: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 78.
-- Affordable housing under construction at 12461 Louise Ave. in Del Rey: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 71.
-- New supportive housing opens at 8209 Sepulveda Blvd. in the Valley: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 70.
-- General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 65.
+- Development Start - California - Inglewood breaks ground on new downtown mobility hubs: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 73.
+- KKR Refis Brooklyn Apartments With $95M Loan: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 67.
+- Refinancing - New York City / New York - KKR Refis Brooklyn Apartments With $95M Loan: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 66.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 65.
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 64.
-- Entitlement / Permitting - Other / Unknown - Mixed-use project approved for 2701 190th St. in Redondo Beach: Entitled / Approved -> Entitled / Approved, Same Stage Persistence, progression_score 61.
-- Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 60.
+- Acquisition - Colorado - CentrePoint Properties Divests of 52,743 SF Mixed-Use Property in Wheat Ridge, Colorado: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 62.
+- Acquisition - Phoenix / Arizona - Founders Group Sells 202-Unit Multifamily Community in Tucson: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 62.
+- CentrePoint Properties Divests of 52,743 SF Mixed-Use Property in Wheat Ridge, Colorado: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 62.
+- Development Start - Other / Unknown - Mixed-Income Affordable Housing Redevelopment Progressing with Second Phase Groundbreaking...: No Previous Record -> Construction Started, Newly Detected Project, progression_score 61.
 
 ## Highest Stall Risk Signals
 
 - Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled -> Distressed / Stalled, Possible Stall, stall_risk_score 80.
+- Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Community Review -> Community Review, Same Stage Persistence, stall_risk_score 62.
+- Expansion of apartment complex at 6007 Sunset survives appeal: Community Review -> Community Review, Same Stage Persistence, stall_risk_score 62.
+- Acquisition - New York City / New York - NY City Council Passes Bill Giving Nonprofits First Dibs on Distressed Apartment Propertie...: No Previous Record -> Distressed / Stalled, Newly Detected Project, stall_risk_score 42.
+- Entitlement / Permitting - Los Angeles / California - Developer plans high-rise apartments at 6409 Sunset Blvd. in Hollywood: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 38.
 - Senior affordable housing underway at 233 N. Second Ave. in Covina: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
-- Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: No Previous Record -> Community Review, Newly Detected Project, stall_risk_score 37.
-- Expansion of apartment complex at 6007 Sunset survives appeal: No Previous Record -> Community Review, Newly Detected Project, stall_risk_score 37.
+- Developer plans high-rise apartments at 6409 Sunset Blvd. in Hollywood: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
+- New master plan for L.A. General Hospital campus gets key approval: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
 - General Project Signal - California - Senior affordable housing underway at 233 N. Second Ave. in Covina: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
-- General Project Signal - San Francisco / California - Lurie Advances Plan for Freedom West 2.0; Would Bring 2,400 Apartments to Western Addition: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
-- JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
-- Office-to-Residential Conversion - Santa Monica / California - Santa Monica releases draft plan for airport park conversion: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
-- SJP Partnership Tops Out Construction on Jersey City Apartments: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
-- JV / Partnership - New York - SJP Partnership Tops Out Construction on Jersey City Apartments: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
+- General Project Signal - California - How Standard Communities builds workforce rentals in California for under $500,000: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
 
 ## Newly Detected Projects
 
-- Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 60.
-- Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi for 1,461-Unit SoCal Portfolio: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 58.
-- Refinancing - Washington DC - Affinius Capital Lends $98M for D.C. Multifamily Refi: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 51.
-- Affinius Capital Lends $98M for D.C. Multifamily Refi: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 50.
-- JV / Partnership - California - Partnership Buys Museum Park Apartments in San Jose, California for $53.1M: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 45.
-- Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: No Previous Record -> Community Review, Newly Detected Project, progression_score 44.
-- JV / Partnership - Los Angeles / California - Partnership Acquires 358-Unit Apartment Community in Arlington: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 44.
-- BTR / Build-to-Rent - California - Sacramento Build-for Rent Property Lands $53M Refinancing: No Previous Record -> Site Acquisition / Site Control, Newly Detected Project, progression_score 43.
-- Developer plans high-rise apartments at 6409 Sunset Blvd. in Hollywood: No Previous Record -> Site Acquisition / Site Control, Newly Detected Project, progression_score 43.
-- Entitlement / Permitting - Los Angeles / California - Developer plans high-rise apartments at 6409 Sunset Blvd. in Hollywood: No Previous Record -> Early Site Signal, Newly Detected Project, progression_score 42.
+- Development Start - California - Inglewood breaks ground on new downtown mobility hubs: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 73.
+- KKR Refis Brooklyn Apartments With $95M Loan: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 67.
+- Refinancing - New York City / New York - KKR Refis Brooklyn Apartments With $95M Loan: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 66.
+- Acquisition - Colorado - CentrePoint Properties Divests of 52,743 SF Mixed-Use Property in Wheat Ridge, Colorado: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 62.
+- Acquisition - Phoenix / Arizona - Founders Group Sells 202-Unit Multifamily Community in Tucson: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 62.
+- CentrePoint Properties Divests of 52,743 SF Mixed-Use Property in Wheat Ridge, Colorado: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 62.
+- Development Start - Other / Unknown - Mixed-Income Affordable Housing Redevelopment Progressing with Second Phase Groundbreaking...: No Previous Record -> Construction Started, Newly Detected Project, progression_score 61.
+- Entitlement / Permitting - San Francisco / California - New Building Permits For Backyard ADUs at 466 Frederick Street, San Francisco: No Previous Record -> Building Permit / Construction Permit, Newly Detected Project, progression_score 59.
+- Refinancing - Los Angeles / California - Hollywood's Yamashiro Complex Gets $25M Refinance: The Los Angeles Deal Sheet: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 58.
+- Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi on SoCal Apartment Portfolio: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 58.
 
 ## Forward Progression Projects
 
@@ -61,18 +61,21 @@ Generated: 2026-10-23 01:16:23
 
 ## Refinancing / Recap Timing Transitions
 
-- Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi for 1,461-Unit SoCal Portfolio: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
-- General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
+- Refinancing - Los Angeles / California - Hollywood's Yamashiro Complex Gets $25M Refinance: The Los Angeles Deal Sheet: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
+- Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi on SoCal Apartment Portfolio: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
+- Refinancing - Los Angeles / California - Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
+- Refinancing - California - Life Company Provides Permanent Loan on Monterey Office Park: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
-- Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
-- Refinancing - Washington DC - Affinius Capital Lends $98M for D.C. Multifamily Refi: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
-- Affinius Capital Lends $98M for D.C. Multifamily Refi: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 28.
+- Refinancing - Florida - How development helps Richard Richman’s tax syndication business: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
+- Refinancing - Nevada - Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 28.
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 27.
 
 ## Construction Start Transitions
 
-- General Project Signal - California - Affordable housing under construction at 12461 Louise Ave. in Del Rey: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 79.
-- Affordable housing under construction at 12461 Louise Ave. in Del Rey: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 71.
+- Development Start - California - Inglewood breaks ground on new downtown mobility hubs: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 73.
+- Development Start - Other / Unknown - Mixed-Income Affordable Housing Redevelopment Progressing with Second Phase Groundbreaking...: No Previous Record -> Construction Started, Newly Detected Project, progression_score 61.
+- Entitlement / Permitting - San Francisco / California - New Building Permits For Backyard ADUs at 466 Frederick Street, San Francisco: No Previous Record -> Building Permit / Construction Permit, Newly Detected Project, progression_score 59.
+- New Building Permits For Backyard ADUs at 466 Frederick Street, San Francisco: No Previous Record -> Building Permit / Construction Permit, Newly Detected Project, progression_score 51.
 
 ## Implications for Woomi / Woomi Global
 
@@ -83,22 +86,22 @@ Generated: 2026-10-23 01:16:23
 ## Recommended Transition Follow-up Actions
 
 - Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
-- Monitor for another run to confirm lifecycle direction: General Project Signal - California - Affordable housing under construction at 12461 Louise Ave. in Del Rey.
-- Use as delivery, lease-up, and underwriting benchmark: General Project Signal - Los Angeles / California - New supportive housing opens at 8209 Sepulveda Blvd. in the Valley.
-- Monitor for another run to confirm lifecycle direction: Affordable housing under construction at 12461 Louise Ave. in Del Rey.
-- Use as delivery, lease-up, and underwriting benchmark: New supportive housing opens at 8209 Sepulveda Blvd. in the Valley.
-- Track maturity, lender, recapitalization need, and potential JV angle: General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus.
+- Monitor for another run to confirm lifecycle direction: Development Start - California - Inglewood breaks ground on new downtown mobility hubs.
+- Use as delivery, lease-up, and underwriting benchmark: KKR Refis Brooklyn Apartments With $95M Loan.
+- Use as delivery, lease-up, and underwriting benchmark: Refinancing - New York City / New York - KKR Refis Brooklyn Apartments With $95M Loan.
 - Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
 - Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities.
+- Use as delivery, lease-up, and underwriting benchmark: Acquisition - Colorado - CentrePoint Properties Divests of 52,743 SF Mixed-Use Property in Wheat Ridge, Colorado.
+- Use as delivery, lease-up, and underwriting benchmark: Acquisition - Phoenix / Arizona - Founders Group Sells 202-Unit Multifamily Community in Tucson.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 525
-- Canonical projects: 125
-- Duplicate project clusters: 83
-- Persistent assets tracked: 125
+- Raw project references: 625
+- Canonical projects: 149
+- Duplicate project clusters: 102
+- Persistent assets tracked: 149
 - LA persistent asset watch items: 86
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
@@ -107,10 +110,10 @@ Generated: 2026-10-23 01:16:23
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 125
-- Institutional-grade signals: 18
-- High-confidence signals: 32
-- Weak/noisy signals: 77
-- High-confidence watchlist items: 32
+- Signals evaluated: 149
+- Institutional-grade signals: 14
+- High-confidence signals: 37
+- Weak/noisy signals: 94
+- High-confidence watchlist items: 37
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

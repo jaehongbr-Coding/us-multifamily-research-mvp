@@ -1,6 +1,6 @@
 # Materiality / Impact Report
 
-Generated: 2026-10-23 01:16:03
+Generated: 2026-10-24 01:24:30
 
 - Top materiality regime: Developer Strategy Shift (100)
 - Top impact regime: Developer Strategy Shift (100)
@@ -13,8 +13,8 @@ Generated: 2026-10-23 01:16:03
 | Financing Stress | 100 | 100 | Critical Business Impact | Underwriting; Financing; Capital Markets; LA / California Strategy | Tighten underwriting assumptions |
 | Selective Capital Re-entry | 100 | 100 | Critical Business Impact | GP Partnership; Capital Markets; Strategic Monitoring; LA / California Strategy | Track capital partner activity |
 | Supply Pressure | 100 | 100 | Critical Business Impact | Underwriting; Land / Pipeline; Leasing / Operations; LA / California Strategy | Review supply pipeline assumptions |
-| Construction Cost Pressure | 47 | 54 | Moderate Business Impact | Underwriting; Cost Management; LA / California Strategy | Review construction cost assumptions |
-| Policy / Entitlement Watch | 42 | 48 | Moderate Business Impact | Land / Pipeline; LA / California Strategy; Strategic Monitoring | Monitor LA / California entitlement changes |
+| Construction Cost Pressure | 67 | 67 | High Business Impact | Underwriting; Cost Management; LA / California Strategy | Review construction cost assumptions |
+| Policy / Entitlement Watch | 67 | 66 | High Business Impact | Land / Pipeline; LA / California Strategy; Strategic Monitoring | Monitor LA / California entitlement changes |
 
 ## Key Business Risks / Opportunities
 
@@ -38,5 +38,5 @@ Generated: 2026-10-23 01:16:03
 - Financing Stress: Tighten underwriting assumptions (Critical Business Impact).
 - Selective Capital Re-entry: Track capital partner activity (Critical Business Impact).
 - Supply Pressure: Review supply pipeline assumptions (Critical Business Impact).
-- Construction Cost Pressure: Review construction cost assumptions (Moderate Business Impact).
-- Policy / Entitlement Watch: Monitor LA / California entitlement changes (Moderate Business Impact).
+- Construction Cost Pressure: Review construction cost assumptions (High Business Impact).
+- Policy / Entitlement Watch: Monitor LA / California entitlement changes (High Business Impact).

@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-10-23 01:16:23
+Generated: 2026-10-24 01:24:43
 
-- Total raw project references: 525
-- Total canonical projects: 125
-- Duplicate project clusters: 83
-- High-confidence project identities: 525
+- Total raw project references: 625
+- Total canonical projects: 149
+- Duplicate project clusters: 102
+- High-confidence project identities: 625
 - Low-confidence identities needing review: 0
-- LA / California project references: 369
+- LA / California project references: 372
 
 ## Top Repeated Projects
 
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 30 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 30 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 30 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 30 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 30 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 30 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 30 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 30 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 30 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 30 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: 36 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: 36 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: 36 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: 36 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: 36 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: 36 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: 36 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: 36 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: 36 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: 36 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

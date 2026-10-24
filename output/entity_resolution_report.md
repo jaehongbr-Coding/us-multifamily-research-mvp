@@ -1,67 +1,67 @@
 # Entity Resolution Report
 
-Generated: 2026-10-23 01:16:04
+Generated: 2026-10-24 01:24:31
 
-- Total raw entities reviewed: 200
-- Total canonical entities created: 56
+- Total raw entities reviewed: 232
+- Total canonical entities created: 71
 - Possible duplicate entity groups: 8
-- Weak matches needing review: 155
+- Weak matches needing review: 183
 - Unknown entities needing review: 4
 
 ## Top Canonical Firms
 
-- Unknown: 118 occurrence(s)
-- JLL: 32 occurrence(s)
-- Hines: 12 occurrence(s)
-- Marcus & Millichap: 10 occurrence(s)
+- Unknown: 153 occurrence(s)
+- JLL: 25 occurrence(s)
+- CBRE: 16 occurrence(s)
+- Marcus & Millichap: 12 occurrence(s)
 - Berkadia: 9 occurrence(s)
-- Bascom Group: 8 occurrence(s)
 - Blackstone: 8 occurrence(s)
-- Affinius Capital: 6 occurrence(s)
+- Hines: 7 occurrence(s)
 - CIM Group: 6 occurrence(s)
-- PCCP: 6 occurrence(s)
+- Bridge Investment Group: 5 occurrence(s)
+- UDR: 5 occurrence(s)
 
 ## Top Canonical Markets
 
-- Los Angeles: 54 occurrence(s)
-- California: 48 occurrence(s)
-- Other / Unknown: 35 occurrence(s)
-- Sun Belt: 26 occurrence(s)
-- Unknown: 12 occurrence(s)
-- Washington DC: 9 occurrence(s)
+- Los Angeles: 65 occurrence(s)
+- California: 45 occurrence(s)
+- Sun Belt: 40 occurrence(s)
+- Other / Unknown: 39 occurrence(s)
+- Unknown: 15 occurrence(s)
+- New York: 11 occurrence(s)
+- Texas: 10 occurrence(s)
+- Seattle: 9 occurrence(s)
+- Colorado: 8 occurrence(s)
 - South Florida: 6 occurrence(s)
-- New York: 5 occurrence(s)
-- Seattle: 5 occurrence(s)
-- Colorado: 4 occurrence(s)
 
 ## Possible Duplicate Entities
 
 - Berkadia: Acquisition - Miami / Florida - Berkadia Arranges Refis for 3 S. Florida Rental Communities, Berkadia, berkadia
 - Blackstone: Blackstone, General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing, blackstone
-- California: Acquisition - Colorado - Broe Group Makes First SoCal Multifamily Acquisition in San Diego, Acquisition - San Francisco / California - Hamilton Zanze Sells 196-Unit Apartment Community in Virgina Beach, California, Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993, Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio, General Project Signal - California - Affordable housing under construction at 12461 Louise Ave. in Del Rey, General Project Signal - California - How Standard Communities builds workforce rentals in California for under $500,000, General Project Signal - California - Senior affordable housing underway at 233 N. Second Ave. in Covina, JV / Partnership - California - Oberndorf, Bascom Snag Value-Add Opportunity in San Jose, JV / Partnership - California - Partnership Buys Museum Park Apartments in San Jose, California for $53.1M, San Francisco / California, Santa Monica / California
-- Fannie Mae: Fannie Mae, fannie mae
-- JLL: Acquisition - Florida - JLL Arranges $64M Sale of Office Park in Boca Raton, Florida, General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus, JLL, Newport Beach Seniors Communities JLL Capital, Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities, jll
-- Los Angeles: Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community, Acquisition - Atlanta / Georgia - Passco Offloads Buckhead Rental Asset for $87.5M, Atlanta / Georgia, BTR / Build-to-Rent - California - Sacramento Build-for Rent Property Lands $53M Refinancing, Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset, Disposition / Exit - Los Angeles / California - Metro breaks ground on Vermont bus rapid transit line, Entitlement / Permitting - Los Angeles / California - Developer plans high-rise apartments at 6409 Sunset Blvd. in Hollywood, Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal, General Project Signal - Los Angeles / California - New supportive housing opens at 8209 Sepulveda Blvd. in the Valley, General Project Signal - Salt Lake City / Utah - Affordable Housing Multifamily Project Advances in Salt Lake City Utah, General Project Signal - San Francisco / California - Lurie Advances Plan for Freedom West 2.0; Would Bring 2,400 Apartments to Western Addition, JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project, JV / Partnership - Los Angeles / California - Partnership Acquires 358-Unit Apartment Community in Arlington, Los Angeles, Los Angeles / California, Office-to-Residential Conversion - Los Angeles / California - New master plan for L.A. General Hospital campus gets key approval, Office-to-Residential Conversion - Santa Monica / California - Santa Monica releases draft plan for airport park conversion, Office-to-Residential Conversion - Washington DC - Carr Properties Plans Office-to-Residential Multifamily Redevelopment Project in Washingto..., Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset, Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi for 1,461-Unit SoCal Portfolio, Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi, Salt Lake City / Utah
-- New York: JV / Partnership - New York - SJP Partnership Tops Out Construction on Jersey City Apartments, New York
-- Sun Belt: Atlanta, Austin, Dallas, General Project Signal - Miami / Florida - Aimco Advancing Luxury Edgewater Apartments, General Project Signal - Phoenix / Arizona - Thompson Thrift Breaks Ground on 273-Unit Luxury Multifamily Community in Fishers, Indiana, Miami / Florida, Phoenix, Phoenix / Arizona, Sun Belt
+- CBRE: Acquisition - Louisville / Kentucky - CBRE Arranges Sale of Future Mixed-Use Development in Wisconsin, CBRE, cbre
+- California: Acquisition - California - Broe Real Estate Group Debuts in Southern California with Multifamily Acquisition in San D..., Acquisition - Colorado - Broe Group Makes First SoCal Multifamily Acquisition in San Diego, California, Development Start - California - Inglewood breaks ground on new downtown mobility hubs, Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993, Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio, Entitlement / Permitting - San Francisco / California - New Building Permits For Backyard ADUs at 466 Frederick Street, San Francisco, General Project Signal - California - How Standard Communities builds workforce rentals in California for under $500,000, General Project Signal - California - Senior affordable housing underway at 233 N. Second Ave. in Covina, Refinancing - California - Life Company Provides Permanent Loan on Monterey Office Park, San Francisco / California, Santa Monica / California, Southern California
+- JLL: JLL, Newport Beach Seniors Communities JLL Capital, Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities, jll
+- Los Angeles: Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community, Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M, Acquisition - Atlanta / Georgia - Passco Offloads Buckhead Rental Asset for $87.5M, Atlanta / Georgia, Development Start - Sun Belt - FIRST DRAFT LIVE: Why Sun Belt Multifamily Giant Cortland Is Moving Its Money North, Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset, Disposition / Exit - Los Angeles / California - Metro breaks ground on Vermont bus rapid transit line, Entitlement / Permitting - Los Angeles / California - Developer plans high-rise apartments at 6409 Sunset Blvd. in Hollywood, Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal, Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St., Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc..., General Project Signal - Los Angeles / California - Affordable housing slated for 5003 N. Kester Ave. in Sherman Oaks, JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project, JV / Partnership - Los Angeles / California - City Council upholds approval of mixed-use project at 12555 Ventura Blvd. in Studio City, Los Angeles, Los Angeles / California, Office-to-Residential Conversion - Los Angeles / California - New master plan for L.A. General Hospital campus gets key approval, Office-to-Residential Conversion - Santa Monica / California - Santa Monica releases draft plan for airport park conversion, Refinancing - Los Angeles / California - Hollywood's Yamashiro Complex Gets $25M Refinance: The Los Angeles Deal Sheet, Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi on SoCal Apartment Portfolio, Refinancing - Los Angeles / California - Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio, Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi
+- New York: Acquisition - New York City / New York - NY City Council Passes Bill Giving Nonprofits First Dibs on Distressed Apartment Propertie..., Brooklyn, New York, New York City, New York City / New York, Refinancing - New York City / New York - KKR Refis Brooklyn Apartments With $95M Loan
+- Sun Belt: Acquisition - Phoenix / Arizona - Founders Group Sells 202-Unit Multifamily Community in Tucson, Atlanta, Austin, Dallas, Disposition / Exit - Phoenix / Arizona - Lehi, Utah Rental Community Trades for $130M, General Project Signal - Miami / Florida - Aimco Advancing Luxury Edgewater Apartments, JV / Partnership - Phoenix / Arizona - Joint Venture Breaks Ground on Student Housing, Retail Development Near University of Texa..., Miami / Florida, Phoenix, Phoenix / Arizona, Sun Belt
 
 ## Weak Matches Needing Manual Review
 
-- Acquisition - Other / Unknown - Marcus & Millichap Negotiates $4.9M Sale of Boston Apartment Portfolio -> Acquisition - Other / Unknown - Marcus & Millichap Negotiates $4.9M Sale of Boston Apartment Portfolio (40, relationship_graph.csv)
-- Affinius Capital -> Affinius Capital (40, deal_pipeline.csv)
-- Affinius Capital -> Affinius Capital (40, gp_intelligence.csv)
-- Affinius Capital -> Affinius Capital (40, institutional_relationships.csv)
-- Affinius Capital -> Affinius Capital (40, relationship_graph.csv)
+- Acquisition - Colorado - CentrePoint Properties Divests of 52,743 SF Mixed-Use Property in Wheat Ridge, Colorado -> Acquisition - Colorado - CentrePoint Properties Divests of 52,743 SF Mixed-Use Property in Wheat Ridge, Colorado (40, relationship_graph.csv)
+- Acquisition - Denver / Colorado - RedPeak Acquires 101-Unit Manchester Apartments in Denver -> Acquisition - Denver / Colorado - RedPeak Acquires 101-Unit Manchester Apartments in Denver (40, relationship_graph.csv)
+- Acquisition - Washington DC - Hamilton Zanze Announces Sale of Virginia Multifamily Community -> Acquisition - Washington DC - Hamilton Zanze Announces Sale of Virginia Multifamily Community (40, relationship_graph.csv)
+- America -> America (40, deal_pipeline.csv)
+- America -> America (40, relationship_graph.csv)
 - Arizona -> Arizona (40, regional_intelligence.csv)
-- Arlington, Virginia -> Arlington, Virginia (40, deal_pipeline.csv)
-- Arlington, Virginia -> Arlington, Virginia (40, relationship_graph.csv)
-- Bascom Group -> Bascom Group (40, deal_pipeline.csv)
-- Bascom Group -> Bascom Group (40, gp_intelligence.csv)
-- Bascom Group -> Bascom Group (40, institutional_relationships.csv)
-- Bascom Group -> Bascom Group (40, relationship_graph.csv)
 - Acquisition - Miami / Florida - Berkadia Arranges Refis for 3 S. Florida Rental Communities -> Berkadia (60, relationship_graph.csv)
 - General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing -> Blackstone (60, relationship_graph.csv)
+- Bridge Investment Group -> Bridge Investment Group (40, deal_pipeline.csv)
+- Bridge Investment Group -> Bridge Investment Group (40, gp_intelligence.csv)
+- Bridge Investment Group -> Bridge Investment Group (40, institutional_relationships.csv)
+- Bridge Investment Group -> Bridge Investment Group (40, relationship_graph.csv)
+- Acquisition - Louisville / Kentucky - CBRE Arranges Sale of Future Mixed-Use Development in Wisconsin -> CBRE (60, relationship_graph.csv)
 - CIM Group -> CIM Group (40, deal_pipeline.csv)
+- CIM Group -> CIM Group (40, gp_intelligence.csv)
 
 ## Relationship Graph Improvement Notes
 

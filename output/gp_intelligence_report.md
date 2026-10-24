@@ -1,91 +1,91 @@
 # GP / Developer Intelligence Report
 
-Generated: 2026-10-23 01:16:04
+Generated: 2026-10-24 01:24:31
 
 ## Top Institutional Signals
 
-- Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 100. competitive pressure indicator; review LA / California development activity.
-- Bascom Group: acquisition; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources; Site / Parcel Source Expansion, strength 99. potential JV partnership signal; monitor JV activity.
-- JLL: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Regional / California / LA Sources; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- Hines: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- JLL: refinancing; JV / partnership; operational technology / AI adoption, New York City / New York, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. competitive pressure indicator; track construction innovation strategy.
+- CBRE: acquisition; disposition / exit; refinancing; operational technology / AI adoption, Louisville / Kentucky, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. competitive pressure indicator; track refinancing pipeline.
+- Voya Investment Management: refinancing; operational technology / AI adoption, Los Angeles / California, sources: Core Multifamily News, strength 89. competitive pressure indicator; track refinancing pipeline.
 - Blackstone: disposition / exit; refinancing; operational technology / AI adoption, Seattle, sources: Core Multifamily News, strength 85. competitive pressure indicator; track refinancing pipeline.
 - Newport Beach Seniors Communities JLL Capital: refinancing; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 83. competitive pressure indicator; track refinancing pipeline.
-- Affinius Capital: refinancing; operational technology / AI adoption, Washington DC, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
 - Berkadia: acquisition; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track construction innovation strategy.
-- Fannie Mae: refinancing; operational technology / AI adoption, Georgia, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
-- Freddie Mac: refinancing; operational technology / AI adoption, Georgia, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
+- Hines: acquisition; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
+- Monterey Office Park Slatt Capital: refinancing; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 73. competitive pressure indicator; track refinancing pipeline.
+- UDR: acquisition; JV / partnership; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
 
 ## Major GP Strategic Movements
 
-- Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 100. competitive pressure indicator; review LA / California development activity.
-- Bascom Group: acquisition; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources; Site / Parcel Source Expansion, strength 99. potential JV partnership signal; monitor JV activity.
-- JLL: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Regional / California / LA Sources; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- Hines: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- JLL: refinancing; JV / partnership; operational technology / AI adoption, New York City / New York, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. competitive pressure indicator; track construction innovation strategy.
+- CBRE: acquisition; disposition / exit; refinancing; operational technology / AI adoption, Louisville / Kentucky, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. competitive pressure indicator; track refinancing pipeline.
+- Voya Investment Management: refinancing; operational technology / AI adoption, Los Angeles / California, sources: Core Multifamily News, strength 89. competitive pressure indicator; track refinancing pipeline.
 - Blackstone: disposition / exit; refinancing; operational technology / AI adoption, Seattle, sources: Core Multifamily News, strength 85. competitive pressure indicator; track refinancing pipeline.
 - Newport Beach Seniors Communities JLL Capital: refinancing; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 83. competitive pressure indicator; track refinancing pipeline.
-- Affinius Capital: refinancing; operational technology / AI adoption, Washington DC, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
 - Berkadia: acquisition; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track construction innovation strategy.
-- Fannie Mae: refinancing; operational technology / AI adoption, Georgia, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
-- Freddie Mac: refinancing; operational technology / AI adoption, Georgia, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
+- Hines: acquisition; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
+- Monterey Office Park Slatt Capital: refinancing; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 73. competitive pressure indicator; track refinancing pipeline.
+- UDR: acquisition; JV / partnership; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
 
 ## California / LA Developer Activity
 
-- Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 100. competitive pressure indicator; review LA / California development activity.
-- Bascom Group: acquisition; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources; Site / Parcel Source Expansion, strength 99. potential JV partnership signal; monitor JV activity.
 - Newport Beach Seniors Communities JLL Capital: refinancing; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 83. competitive pressure indicator; track refinancing pipeline.
+- Monterey Office Park Slatt Capital: refinancing; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 73. competitive pressure indicator; track refinancing pipeline.
 
 ## Sun Belt Expansion Watch
 
-- Greystar: market expansion, Texas, sources: Core Multifamily News, strength 56. benchmark underwriting assumptions; monitor only.
+- Up Campus Student Living: JV / partnership, Texas, sources: Site / Parcel Source Expansion, strength 63. potential JV partnership signal; monitor JV activity.
+- Multifamily Group: disposition / exit, Texas, sources: Core Multifamily News, strength 46. benchmark underwriting assumptions; monitor only.
 
 ## BTR / Modular / Innovation Watch
 
-- Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 100. competitive pressure indicator; review LA / California development activity.
-- Bascom Group: acquisition; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources; Site / Parcel Source Expansion, strength 99. potential JV partnership signal; monitor JV activity.
-- JLL: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Regional / California / LA Sources; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- Hines: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- JLL: refinancing; JV / partnership; operational technology / AI adoption, New York City / New York, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. competitive pressure indicator; track construction innovation strategy.
+- CBRE: acquisition; disposition / exit; refinancing; operational technology / AI adoption, Louisville / Kentucky, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. competitive pressure indicator; track refinancing pipeline.
+- Voya Investment Management: refinancing; operational technology / AI adoption, Los Angeles / California, sources: Core Multifamily News, strength 89. competitive pressure indicator; track refinancing pipeline.
 - Blackstone: disposition / exit; refinancing; operational technology / AI adoption, Seattle, sources: Core Multifamily News, strength 85. competitive pressure indicator; track refinancing pipeline.
 - Newport Beach Seniors Communities JLL Capital: refinancing; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 83. competitive pressure indicator; track refinancing pipeline.
-- Affinius Capital: refinancing; operational technology / AI adoption, Washington DC, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
 - Berkadia: acquisition; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track construction innovation strategy.
-- Fannie Mae: refinancing; operational technology / AI adoption, Georgia, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
-- Freddie Mac: refinancing; operational technology / AI adoption, Georgia, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
+- Hines: acquisition; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
+- Monterey Office Park Slatt Capital: refinancing; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 73. competitive pressure indicator; track refinancing pipeline.
+- UDR: acquisition; JV / partnership; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
 
 ## Distressed / Refinancing Watch
 
-- JLL: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Regional / California / LA Sources; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- Hines: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- JLL: refinancing; JV / partnership; operational technology / AI adoption, New York City / New York, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- CBRE: acquisition; disposition / exit; refinancing; operational technology / AI adoption, Louisville / Kentucky, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. competitive pressure indicator; track refinancing pipeline.
+- Voya Investment Management: refinancing; operational technology / AI adoption, Los Angeles / California, sources: Core Multifamily News, strength 89. competitive pressure indicator; track refinancing pipeline.
 - Blackstone: disposition / exit; refinancing; operational technology / AI adoption, Seattle, sources: Core Multifamily News, strength 85. competitive pressure indicator; track refinancing pipeline.
 - Newport Beach Seniors Communities JLL Capital: refinancing; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 83. competitive pressure indicator; track refinancing pipeline.
-- Affinius Capital: refinancing; operational technology / AI adoption, Washington DC, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
-- Fannie Mae: refinancing; operational technology / AI adoption, Georgia, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
-- Freddie Mac: refinancing; operational technology / AI adoption, Georgia, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
-- Voya Investment Management: refinancing, Los Angeles / California, sources: Core Multifamily News, strength 63. capital market sentiment indicator; track refinancing pipeline.
+- Monterey Office Park Slatt Capital: refinancing; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 73. competitive pressure indicator; track refinancing pipeline.
+- Richman Group: refinancing; operational technology / AI adoption, Florida, sources: Core Multifamily News, strength 70. competitive pressure indicator; track refinancing pipeline.
+- Bridge Investment Group: refinancing; JV / partnership, Nevada, sources: Core Multifamily News, strength 63. potential JV partnership signal; monitor JV activity.
 
 ## Potential Partnership Signals
 
-- Bascom Group: acquisition; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources; Site / Parcel Source Expansion, strength 99. potential JV partnership signal; monitor JV activity.
-- JLL: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Regional / California / LA Sources; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- Hines: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- JLL: refinancing; JV / partnership; operational technology / AI adoption, New York City / New York, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- Hines: acquisition; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
 - UDR: acquisition; JV / partnership; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
-- PCCP: acquisition; JV / partnership, Los Angeles / California, sources: Site / Parcel Source Expansion, strength 63. potential JV partnership signal; monitor JV activity.
+- Bridge Investment Group: refinancing; JV / partnership, Nevada, sources: Core Multifamily News, strength 63. potential JV partnership signal; monitor JV activity.
+- Up Campus Student Living: JV / partnership, Texas, sources: Site / Parcel Source Expansion, strength 63. potential JV partnership signal; monitor JV activity.
 
 ## Institutional Relationship Layer
 
 Firm-tier weighting, capital-flow inference, and relationship scoring are available in `institutional_relationship_report.md`.
 
 - Blackstone: Tier 1 / Immediate Strategic Importance, Capital Outflow / Exit, GP Capability Benchmark Signal.
-- JLL: Tier 3 / Growth and Market Signal Watch, Capital Inflow, Potential JV / Partnership Signal.
+- JLL: Tier 3 / Growth and Market Signal Watch, Refinancing / Recapitalization, Potential JV / Partnership Signal.
 - Marcus & Millichap: Tier 3 / Growth and Market Signal Watch, Capital Inflow, GP Capability Benchmark Signal.
 
 ## Deal / Project Pipeline Context
 
 Deal and project extraction is available in `deal_pipeline_report.md`.
 - JLL: Refinancing, California, Capital market signal.
-- Bascom Group: JV / Partnership, California, Pricing benchmark.
 - Berkadia: Acquisition, Miami / Florida, Pricing benchmark.
-- JLL: Refinancing, Miami / Florida, Capital market signal.
-- Hines: Acquisition, Atlanta / Georgia, Pricing benchmark.
+- CBRE: Acquisition, Atlanta / Georgia, Pricing benchmark.
+- CBRE: Acquisition, Louisville / Kentucky, Pricing benchmark.
+- JLL: Refinancing, New York City / New York, Capital market signal.
 
 ## Relationship Graph Context
 
@@ -93,8 +93,8 @@ Developer and GP relationship edges are available in `relationship_graph_report.
 - JLL -> jll: Financing Relationship.
 - JLL -> California: Financing Relationship.
 - JLL -> Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Financing Relationship.
-- Bascom Group -> California: JV / Partnership.
-- Bascom Group -> JV / Partnership - California - Partnership Buys Museum Park Apartments in San Jose, California for $53.1M: JV / Partnership.
+- CBRE -> cbre: Financing Relationship.
+- CBRE -> cbre: Financing Relationship.
 
 ## Competitive Landscape Implications for Woomi
 
@@ -104,11 +104,11 @@ Developer and GP relationship edges are available in `relationship_graph_report.
 
 ## Recommended Executive Follow-Up
 
-- Marcus & Millichap: review LA / California development activity
-- Bascom Group: monitor JV activity
 - JLL: monitor JV activity
-- Hines: monitor JV activity
+- Marcus & Millichap: track construction innovation strategy
+- CBRE: track refinancing pipeline
+- Voya Investment Management: track refinancing pipeline
 - Blackstone: track refinancing pipeline
 - Newport Beach Seniors Communities JLL Capital: track refinancing pipeline
-- Affinius Capital: track refinancing pipeline
 - Berkadia: track construction innovation strategy
+- Hines: monitor JV activity

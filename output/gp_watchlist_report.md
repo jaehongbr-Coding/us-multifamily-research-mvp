@@ -1,23 +1,23 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-10-23 01:16:04
+Generated: 2026-10-24 01:24:31
 
-- GP/developer candidates reviewed: 16
+- GP/developer candidates reviewed: 17
 - Tier 1 Strategic GPs: 0
-- Tier 2 High Potential GPs: 5
+- Tier 2 High Potential GPs: 3
 
 ## Top Emerging GPs
 
-- Bascom Group: 81 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
-- Hines: 75 (Tier 2 High Potential GP), Atlanta / Georgia, California / LA strategic positioning.
-- PCCP: 74 (Tier 2 High Potential GP), Los Angeles / California, California / LA strategic positioning.
-- JLL: 70 (Tier 2 High Potential GP), Miami / Florida, California / LA strategic positioning.
-- JLL: 70 (Tier 2 High Potential GP), Miami / Florida, California / LA strategic positioning.
-- Marcus & Millichap: 67 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
+- JLL: 76 (Tier 2 High Potential GP), New York City / New York, California / LA strategic positioning.
+- JLL: 76 (Tier 2 High Potential GP), New York City / New York, California / LA strategic positioning.
+- Hines: 73 (Tier 2 High Potential GP), Atlanta / Georgia, California / LA strategic positioning.
+- Marcus & Millichap: 67 (Tier 3 Monitoring GP), Other / Unknown, Institutional-backed regional expansion.
 - Blackstone: 66 (Tier 3 Monitoring GP), Seattle, Institutional-backed regional expansion.
+- CBRE: 66 (Tier 3 Monitoring GP), Louisville / Kentucky, California / LA strategic positioning.
+- Bridge Investment Group: 64 (Tier 3 Monitoring GP), Nevada, Distressed opportunity positioning.
 - UDR: 62 (Tier 3 Monitoring GP), Other / Unknown, Selective residential growth.
+- Voya Investment Management: 61 (Tier 3 Monitoring GP), Los Angeles / California, California / LA strategic positioning.
 - CIM Group: 60 (Tier 3 Monitoring GP), Los Angeles / California, California / LA strategic positioning.
-- Voya Investment Management: 59 (Tier 3 Monitoring GP), Los Angeles / California, California / LA strategic positioning.
 
 ## Tier 1 Strategic GP
 
@@ -25,22 +25,20 @@ Generated: 2026-10-23 01:16:04
 
 ## Tier 2 High Potential GP
 
-- Bascom Group: score 81, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Hines: score 75, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- PCCP: score 74, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 70, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 70, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 76, Tier 2 High Potential GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 76, Tier 2 High Potential GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
+- Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## California / LA GP Activity
 
-- Bascom Group: score 81, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Hines: score 75, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- PCCP: score 74, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 70, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 70, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
-- Marcus & Millichap: score 67, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- JLL: score 76, Tier 2 High Potential GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 76, Tier 2 High Potential GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
+- Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
+- Marcus & Millichap: score 67, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
+- CBRE: score 66, Tier 3 Monitoring GP, Louisville / Kentucky, Capital market and pricing discovery reference. Review LA / California development activity.
+- Voya Investment Management: score 61, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
 - CIM Group: score 60, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Voya Investment Management: score 59, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Monterey Office Park Slatt Capital: score 52, Emerging Watchlist, California, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## BTR / SFR GP Activity
 
@@ -48,11 +46,11 @@ Generated: 2026-10-23 01:16:04
 
 ## Affordable Housing GP Activity
 
-- No current GP signal detected.
+- Investors Commit Capital: score 45, Emerging Watchlist, Other / Unknown, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
 
 ## Student Housing GP Activity
 
-- No current GP signal detected.
+- Up Campus Student Living: score 46, Emerging Watchlist, Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## Innovation-Oriented GP Activity
 
@@ -60,29 +58,27 @@ Generated: 2026-10-23 01:16:04
 
 ## Institutional Capital Magnet
 
-- Bascom Group: score 81, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Hines: score 75, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- PCCP: score 74, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 70, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 70, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
-- Marcus & Millichap: score 67, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- JLL: score 76, Tier 2 High Potential GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 76, Tier 2 High Potential GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
+- Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
+- Marcus & Millichap: score 67, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
 - Blackstone: score 66, Tier 3 Monitoring GP, Seattle, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- CBRE: score 66, Tier 3 Monitoring GP, Louisville / Kentucky, Capital market and pricing discovery reference. Review LA / California development activity.
+- Bridge Investment Group: score 64, Tier 3 Monitoring GP, Nevada, Potential GP partnership candidate. Track JV and capital partner activity.
 - UDR: score 62, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- Voya Investment Management: score 61, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
 - CIM Group: score 60, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Voya Investment Management: score 59, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## Potential Woomi Partnership Candidates
 
-- Bascom Group: score 81, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Hines: score 75, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- PCCP: score 74, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 70, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 70, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 76, Tier 2 High Potential GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 76, Tier 2 High Potential GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
+- Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
 - Blackstone: score 66, Tier 3 Monitoring GP, Seattle, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- CBRE: score 66, Tier 3 Monitoring GP, Louisville / Kentucky, Capital market and pricing discovery reference. Review LA / California development activity.
+- Bridge Investment Group: score 64, Tier 3 Monitoring GP, Nevada, Potential GP partnership candidate. Track JV and capital partner activity.
 - UDR: score 62, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
-- Fannie Mae: score 58, Tier 3 Monitoring GP, Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Freddie Mac: score 58, Tier 3 Monitoring GP, Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Greystar: score 39, Low Signal, Texas, General developer monitoring. Monitor only.
+- Up Campus Student Living: score 46, Emerging Watchlist, Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## GP Source Expansion Summary
 
@@ -111,31 +107,31 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Recommended Management Meeting Targets
 
-- Bascom Group: Track JV and capital partner activity (Medium confidence).
+- JLL: Track JV and capital partner activity (Medium confidence).
+- JLL: Track JV and capital partner activity (Medium confidence).
 - Hines: Track JV and capital partner activity (Medium confidence).
-- PCCP: Track JV and capital partner activity (Medium confidence).
-- JLL: Track JV and capital partner activity (Medium confidence).
-- JLL: Track JV and capital partner activity (Medium confidence).
+- Bridge Investment Group: Track JV and capital partner activity (Medium confidence).
+- UDR: Track JV and capital partner activity (Medium confidence).
 
 ## Recommended Strategic Follow-up Actions
 
-- Bascom Group: Track JV and capital partner activity.
+- JLL: Track JV and capital partner activity.
+- JLL: Track JV and capital partner activity.
 - Hines: Track JV and capital partner activity.
-- PCCP: Track JV and capital partner activity.
-- JLL: Track JV and capital partner activity.
-- JLL: Track JV and capital partner activity.
 - Marcus & Millichap: Review LA / California development activity.
 - Blackstone: Review institutional pricing and capital flow signals.
+- CBRE: Review LA / California development activity.
+- Bridge Investment Group: Track JV and capital partner activity.
 - UDR: Track JV and capital partner activity.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 125
-- Institutional-grade signals: 18
-- High-confidence signals: 32
-- Weak/noisy signals: 77
-- High-confidence watchlist items: 32
+- Signals evaluated: 149
+- Institutional-grade signals: 14
+- High-confidence signals: 37
+- Weak/noisy signals: 94
+- High-confidence watchlist items: 37
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

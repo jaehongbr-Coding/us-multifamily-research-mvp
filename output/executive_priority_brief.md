@@ -1,12 +1,12 @@
 # Executive Priority Brief
 
-Generated: 2026-10-23 01:16:04
+Generated: 2026-10-24 01:24:31
 
 ## Top 3 Executive Priorities
 
 - Rank 1: Financing Stress (100, Tier 1 Executive Attention)
 - Rank 2: Selective Capital Re-entry (100, Tier 1 Executive Attention)
-- Rank 3: Supply Pressure (100, Tier 2 Strategic Review)
+- Rank 3: Developer Strategy Shift (95, Tier 2 Strategic Review)
 
 ## Full Priority Table
 
@@ -14,10 +14,10 @@ Generated: 2026-10-23 01:16:04
 | ---: | --- | ---: | --- | --- | --- |
 | 1 | Financing Stress | 100 | Tier 1 Executive Attention | Finance / Treasury; Investment Team; Executive Committee; US Local Team | This Week |
 | 2 | Selective Capital Re-entry | 100 | Tier 1 Executive Attention | Investment Team; Strategy Team; Executive Committee; US Local Team | This Week |
-| 3 | Supply Pressure | 100 | Tier 2 Strategic Review | Investment Team; Development Team; US Local Team | This Week |
-| 4 | Developer Strategy Shift | 87 | Tier 2 Strategic Review | Strategy Team; Development Team; US Local Team | This Week |
-| 5 | Construction Cost Pressure | 47 | Tier 3 Monitoring | Development Team; Investment Team; US Local Team | Monthly Monitoring |
-| 6 | Policy / Entitlement Watch | 41 | Tier 3 Monitoring | Development Team; US Local Team; Strategy Team | Monthly Monitoring |
+| 3 | Developer Strategy Shift | 95 | Tier 2 Strategic Review | Strategy Team; Development Team; US Local Team | This Week |
+| 4 | Supply Pressure | 93 | Tier 2 Strategic Review | Investment Team; Development Team; US Local Team | This Week |
+| 5 | Policy / Entitlement Watch | 63 | Tier 3 Monitoring | Development Team; US Local Team; Strategy Team | Next IC / Strategy Meeting |
+| 6 | Construction Cost Pressure | 60 | Tier 3 Monitoring | Development Team; Investment Team; US Local Team | Next IC / Strategy Meeting |
 
 ## Tier 1 Executive Attention
 
@@ -26,13 +26,13 @@ Generated: 2026-10-23 01:16:04
 
 ## Tier 2 Strategic Review
 
-- Rank 3: Supply Pressure (100). Supply and lease-up signals should be monitored because they may affect rent growth, vacancy, and development timing. Owner: Investment Team; Development Team; US Local Team. Timing: This Week.
-- Rank 4: Developer Strategy Shift (87). Developer strategy signals should be reviewed because they may reveal capability needs in product, operations, partnerships, or delivery model. Owner: Strategy Team; Development Team; US Local Team. Timing: This Week.
+- Rank 3: Developer Strategy Shift (95). Developer strategy signals should be reviewed because they may reveal capability needs in product, operations, partnerships, or delivery model. Owner: Strategy Team; Development Team; US Local Team. Timing: This Week.
+- Rank 4: Supply Pressure (93). Supply and lease-up signals should be monitored because they may affect rent growth, vacancy, and development timing. Owner: Investment Team; Development Team; US Local Team. Timing: This Week.
 
 ## Monitoring Items
 
-- Rank 5: Construction Cost Pressure (47). Construction cost signals should be reviewed because they may affect feasibility, contingencies, and value engineering. Owner: Development Team; Investment Team; US Local Team. Timing: Monthly Monitoring.
-- Rank 6: Policy / Entitlement Watch (41). Policy and entitlement signals should be monitored because they may affect approvals, zoning strategy, and local development feasibility. Owner: Development Team; US Local Team; Strategy Team. Timing: Monthly Monitoring.
+- Rank 5: Policy / Entitlement Watch (63). Policy and entitlement signals should be monitored because they may affect approvals, zoning strategy, and local development feasibility. Owner: Development Team; US Local Team; Strategy Team. Timing: Next IC / Strategy Meeting.
+- Rank 6: Construction Cost Pressure (60). Construction cost signals should be reviewed because they may affect feasibility, contingencies, and value engineering. Owner: Development Team; Investment Team; US Local Team. Timing: Next IC / Strategy Meeting.
 
 ## Scenario Context
 
@@ -48,10 +48,10 @@ Sun Belt, Texas, Southeast, or related growth-market signals appear in the curre
 ## GP / Developer Intelligence
 
 Developer and GP platform intelligence is available in `gp_intelligence_report.md`.
-- Marcus & Millichap: Immediate Watch, acquisition; disposition / exit; operational technology / AI adoption, review LA / California development activity.
-- Bascom Group: Immediate Watch, acquisition; JV / partnership; operational technology / AI adoption, monitor JV activity.
-- JLL: Immediate Watch, acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, monitor JV activity.
-- Hines: Immediate Watch, acquisition; refinancing; JV / partnership; operational technology / AI adoption, monitor JV activity.
+- JLL: Immediate Watch, refinancing; JV / partnership; operational technology / AI adoption, monitor JV activity.
+- Marcus & Millichap: Immediate Watch, acquisition; disposition / exit; operational technology / AI adoption, track construction innovation strategy.
+- CBRE: Immediate Watch, acquisition; disposition / exit; refinancing; operational technology / AI adoption, track refinancing pipeline.
+- Voya Investment Management: Immediate Watch, refinancing; operational technology / AI adoption, track refinancing pipeline.
 - Blackstone: Immediate Watch, disposition / exit; refinancing; operational technology / AI adoption, track refinancing pipeline.
 
 ## Institutional Relationship Context
@@ -60,15 +60,15 @@ Institutional relationship and capital-flow intelligence is available in `instit
 Use that report to compare GP partnership, pricing discovery, and capital partner tracking signals.
 
 - Blackstone: GP Capability Benchmark Signal, Capital Outflow / Exit, score 100.
-- JLL: Potential JV / Partnership Signal, Capital Inflow, score 100.
+- JLL: Potential JV / Partnership Signal, Refinancing / Recapitalization, score 100.
 - Marcus & Millichap: GP Capability Benchmark Signal, Capital Inflow, score 100.
 
 ## Deal / Project Pipeline Context
 
 Deal and project extraction is available in `deal_pipeline_report.md`.
 - Refinancing in California: Capital market signal (High Deal Intelligence).
-- JV / Partnership in California: Pricing benchmark (High Deal Intelligence).
 - Acquisition in Miami / Florida: Pricing benchmark (High Deal Intelligence).
+- Acquisition in Atlanta / Georgia: Pricing benchmark (High Deal Intelligence).
 
 ## Relationship Graph Context
 
@@ -80,17 +80,17 @@ Developer, lender, capital partner, market, and deal connections are available i
 ## Residential Sector Coverage Context
 
 Sector-level residential coverage is available in `residential_sector_report.md`.
-- Affordable Housing: Track LA / California affordability, entitlement, and public-private partnership signals.
+- Affordable Housing: Add to sector watchlist.
+- Student Housing: Monitor university-market demand and partnership signals.
 - Office-to-Residential Conversion: Track conversion feasibility, policy support, and construction cost assumptions.
 - BTR / Single-Family Rental: Monitor BTR / SFR operators, capital flows, and target markets.
-- Student Housing: Monitor university-market demand and partnership signals.
 
 ## Emerging GP Watchlist Summary
 
 Emerging GP ranking and partnership watchlist signals are available in `gp_watchlist_report.md`.
-- Bascom Group: Tier 2 High Potential GP, score 81, Potential GP partnership candidate.
-- Hines: Tier 2 High Potential GP, score 75, Potential GP partnership candidate.
-- PCCP: Tier 2 High Potential GP, score 74, Potential GP partnership candidate.
+- JLL: Tier 2 High Potential GP, score 76, Potential GP partnership candidate.
+- JLL: Tier 2 High Potential GP, score 76, Potential GP partnership candidate.
+- Hines: Tier 2 High Potential GP, score 73, Potential GP partnership candidate.
 
 ## Historical Persistence Summary
 
@@ -122,9 +122,9 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 61
+- Lifecycle records: 74
 - LA lifecycle watch items: 41
-- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 37, Delivery / Opening: 3, Site Acquisition / Site Control: 6, Community Review: 2
+- Stage mix: Refinancing / Recapitalization: 8, Delivery / Opening: 6, Site Acquisition / Site Control: 6, Unknown Stage: 43, Community Review: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -132,11 +132,11 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 61
-- Newly detected projects: 27
+- Lifecycle transitions analyzed: 74
+- Newly detected projects: 41
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 39
+- LA lifecycle transition watch items: 40
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -144,10 +144,10 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 525
-- Canonical projects: 125
-- Duplicate project clusters: 83
-- Persistent assets tracked: 125
+- Raw project references: 625
+- Canonical projects: 149
+- Duplicate project clusters: 102
+- Persistent assets tracked: 149
 - LA persistent asset watch items: 86
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
@@ -156,11 +156,11 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 125
-- Institutional-grade signals: 18
-- High-confidence signals: 32
-- Weak/noisy signals: 77
-- High-confidence watchlist items: 32
+- Signals evaluated: 149
+- Institutional-grade signals: 14
+- High-confidence signals: 37
+- Weak/noisy signals: 94
+- High-confidence watchlist items: 37
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 
 
@@ -169,7 +169,7 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 ## Dashboard Summary
 
 - Dashboard cards: 38
-- Dashboard watchlist items: 94
+- Dashboard watchlist items: 96
 - Recommended focus: Review Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi and related high-confidence project signals.
 - Start with `executive_dashboard_brief.md`, then review `dashboard_cards.csv` and `dashboard_watchlists.csv` for future dashboard inputs.
 

@@ -1,19 +1,20 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-10-23 01:16:23
+Generated: 2026-10-24 01:24:43
 
 - Total LA lifecycle watch items: 41
 
 ## LA Lifecycle Stage Distribution
 
 - Unknown Stage: 20
-- Refinancing / Recapitalization: 5
+- Refinancing / Recapitalization: 6
 - Site Acquisition / Site Control: 5
-- Delivery / Opening: 3
 - Community Review: 2
-- Vertical Construction: 2
-- Early Site Signal: 2
-- Entitled / Approved: 1
+- Building Permit / Construction Permit: 2
+- Entitled / Approved: 2
+- Delivery / Opening: 1
+- Vertical Construction: 1
+- Early Site Signal: 1
 - Distressed / Stalled: 1
 
 ## Koreatown / Wilshire Lifecycle Watch
@@ -50,29 +51,30 @@ Generated: 2026-10-23 01:16:23
 
 ## Construction-Ready LA Project Watch
 
-- Affordable housing under construction at 12461 Louise Ave. in Del Rey: Vertical Construction, Monitor only, opportunity 91.
-- General Project Signal - California - Affordable housing under construction at 12461 Louise Ave. in Del Rey: Vertical Construction, Monitor only, opportunity 89.
+- Entitlement / Permitting - San Francisco / California - New Building Permits For Backyard ADUs at 466 Frederick Street, San Francisco: Building Permit / Construction Permit, Monitor permit issuance, opportunity 93.
+- New Building Permits For Backyard ADUs at 466 Frederick Street, San Francisco: Building Permit / Construction Permit, Monitor permit issuance, opportunity 93.
+- Development Start - California - Inglewood breaks ground on new downtown mobility hubs: Vertical Construction, Monitor only, opportunity 80.
 
 ## Recommended LA Lifecycle Follow-up Actions
 
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus.
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset.
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
-- Monitor lifecycle status for repeated confirmation: JV / Partnership - California - Partnership Buys Museum Park Apartments in San Jose, California for $53.1M.
 - Monitor lifecycle status for repeated confirmation: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
+- Monitor lifecycle status for repeated confirmation: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
 - Monitor lifecycle status for repeated confirmation: General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing.
-- Monitor lifecycle status for repeated confirmation: Partnership Acquires 358-Unit Apartment Community in Arlington.
-- Monitor lifecycle status for repeated confirmation: JV / Partnership - California - Oberndorf, Bascom Snag Value-Add Opportunity in San Jose.
+- Monitor lifecycle status for repeated confirmation: ORIX Acquires Buckhead Apartments for $83M.
+- Track local planning docket, CEQA exposure, and sponsor response: Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal.
+- Monitor permit status, financing, and construction-start readiness: Entitlement / Permitting - San Francisco / California - New Building Permits For Backyard ADUs at 466 Frederick Street, San Francisco.
+- Monitor permit status, financing, and construction-start readiness: New Building Permits For Backyard ADUs at 466 Frederick Street, San Francisco.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 61
-- Newly detected projects: 27
+- Lifecycle transitions analyzed: 74
+- Newly detected projects: 41
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 39
+- LA lifecycle transition watch items: 40
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -80,10 +82,10 @@ Generated: 2026-10-23 01:16:23
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 525
-- Canonical projects: 125
-- Duplicate project clusters: 83
-- Persistent assets tracked: 125
+- Raw project references: 625
+- Canonical projects: 149
+- Duplicate project clusters: 102
+- Persistent assets tracked: 149
 - LA persistent asset watch items: 86
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

@@ -1,63 +1,63 @@
 # Persistent Asset Memory Report
 
-Generated: 2026-10-23 01:16:23
+Generated: 2026-10-24 01:24:43
 
-- Total persistent assets tracked: 125
-- Newly detected assets: 105
+- Total persistent assets tracked: 149
+- Newly detected assets: 134
 - Progressing assets: 0
-- Possible stalled assets: 3
+- Possible stalled assets: 5
 
 ## Highest Priority Asset Watch Items
 
+- Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Priority Asset Watch, Community Review, score 91.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Priority Asset Watch, Refinancing / Recapitalization, score 91.
-- General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus: Priority Asset Watch, Refinancing / Recapitalization, score 89.
-- Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset: Priority Asset Watch, Refinancing / Recapitalization, score 89.
 - General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing: Priority Asset Watch, Unknown Stage, score 89.
-- JV / Partnership - California - Partnership Buys Museum Park Apartments in San Jose, California for $53.1M: Priority Asset Watch, Unknown Stage, score 89.
-- Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Priority Asset Watch, Community Review, score 88.
+- Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Priority Asset Watch, Unknown Stage, score 89.
 - Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Priority Asset Watch, Delivery / Opening, score 88.
-- Office-to-Residential Conversion - Los Angeles / California - New master plan for L.A. General Hospital campus gets key approval: Priority Asset Watch, Vertical Construction, score 86.
+- Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: Priority Asset Watch, Refinancing / Recapitalization, score 86.
+- General Project Signal - California - How Standard Communities builds workforce rentals in California for under $500,000: Priority Asset Watch, Refinancing / Recapitalization, score 86.
 - Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Priority Asset Watch, Unknown Stage, score 84.
-- BTR / Build-to-Rent - California - Sacramento Build-for Rent Property Lands $53M Refinancing: Priority Asset Watch, Site Acquisition / Site Control, score 84.
+- Development Start - Sun Belt - FIRST DRAFT LIVE: Why Sun Belt Multifamily Giant Cortland Is Moving Its Money North: Priority Asset Watch, Site Acquisition / Site Control, score 81.
+- Refinancing - New York City / New York - KKR Refis Brooklyn Apartments With $95M Loan: Priority Asset Watch, Delivery / Opening, score 78.
 
 ## Assets With Repeated Financing Signals
 
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Priority Asset Watch, Refinancing / Recapitalization, score 91.
-- General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus: Priority Asset Watch, Refinancing / Recapitalization, score 89.
-- Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset: Priority Asset Watch, Refinancing / Recapitalization, score 89.
-- Office-to-Residential Conversion - Los Angeles / California - New master plan for L.A. General Hospital campus gets key approval: Priority Asset Watch, Vertical Construction, score 86.
-- BTR / Build-to-Rent - California - Sacramento Build-for Rent Property Lands $53M Refinancing: Priority Asset Watch, Site Acquisition / Site Control, score 84.
-- General Project Signal - San Francisco / California - Lurie Advances Plan for Freedom West 2.0; Would Bring 2,400 Apartments to Western Addition: Priority Asset Watch, Vertical Construction, score 84.
+- Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: Priority Asset Watch, Refinancing / Recapitalization, score 86.
+- General Project Signal - California - How Standard Communities builds workforce rentals in California for under $500,000: Priority Asset Watch, Refinancing / Recapitalization, score 86.
+- Refinancing - New York City / New York - KKR Refis Brooklyn Apartments With $95M Loan: Priority Asset Watch, Delivery / Opening, score 78.
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Priority Asset Watch, Refinancing / Recapitalization, score 78.
-- Office-to-Residential Conversion - Los Angeles / California - New master plan for L.A. General Hospital campus gets key approval: Priority Asset Watch, Delivery / Opening, score 78.
-- Refinancing - Washington DC - Affinius Capital Lends $98M for D.C. Multifamily Refi: Priority Asset Watch, Refinancing / Recapitalization, score 77.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Entitled / Approved, score 61.
+- Refinancing - Nevada - Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments: Priority Asset Watch, Refinancing / Recapitalization, score 77.
+- Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: Strategic Asset Watch, Site Acquisition / Site Control, score 74.
+- Refinancing - Florida - How development helps Richard Richman’s tax syndication business: Strategic Asset Watch, Refinancing / Recapitalization, score 68.
+- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: Strategic Asset Watch, Construction Started, score 61.
+- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: Strategic Asset Watch, Unknown Stage, score 60.
 
 ## Assets With Repeated Entitlement Signals
 
-- Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Priority Asset Watch, Community Review, score 88.
-- Entitlement / Permitting - Los Angeles / California - Developer plans high-rise apartments at 6409 Sunset Blvd. in Hollywood: Priority Asset Watch, Delivery / Opening, score 79.
-- Office-to-Residential Conversion - Los Angeles / California - New master plan for L.A. General Hospital campus gets key approval: Priority Asset Watch, Delivery / Opening, score 78.
-- Office-to-Residential Conversion - Washington DC - Carr Properties Plans Office-to-Residential Multifamily Redevelopment Project in Washingto...: Strategic Asset Watch, Site Acquisition / Site Control, score 67.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Entitled / Approved, score 61.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Unknown Stage, score 58.
-- Office-to-Residential Conversion - Los Angeles / California - New master plan for L.A. General Hospital campus gets key approval: Strategic Asset Watch, Unknown Stage, score 55.
-- Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: General Asset Monitoring, Unknown Stage, score 52.
-- General Project Signal - San Francisco / California - Lurie Advances Plan for Freedom West 2.0; Would Bring 2,400 Apartments to Western Addition: General Asset Monitoring, Unknown Stage, score 52.
-- Entitlement / Permitting - Los Angeles / California - Developer plans high-rise apartments at 6409 Sunset Blvd. in Hollywood: General Asset Monitoring, Unknown Stage, score 50.
+- Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Priority Asset Watch, Community Review, score 91.
+- Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: Priority Asset Watch, Refinancing / Recapitalization, score 86.
+- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: Priority Asset Watch, Building Permit / Construction Permit, score 77.
+- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: Priority Asset Watch, Building Permit / Construction Permit, score 77.
+- Entitlement / Permitting - Los Angeles / California - Developer plans high-rise apartments at 6409 Sunset Blvd. in Hollywood: Strategic Asset Watch, Early Site Signal, score 74.
+- Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: Strategic Asset Watch, Site Acquisition / Site Control, score 74.
+- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: Strategic Asset Watch, Construction Started, score 61.
+- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: Strategic Asset Watch, Unknown Stage, score 60.
+- Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: Strategic Asset Watch, Unknown Stage, score 55.
+- Entitlement / Permitting - San Francisco / California - New Building Permits For Backyard ADUs at 466 Frederick Street, San Francisco: General Asset Monitoring, Unknown Stage, score 52.
 
 ## Recurring Asset Signals
 
+- Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Priority Asset Watch, Community Review, score 91.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Priority Asset Watch, Refinancing / Recapitalization, score 91.
-- General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus: Priority Asset Watch, Refinancing / Recapitalization, score 89.
-- Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset: Priority Asset Watch, Refinancing / Recapitalization, score 89.
 - General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing: Priority Asset Watch, Unknown Stage, score 89.
-- JV / Partnership - California - Partnership Buys Museum Park Apartments in San Jose, California for $53.1M: Priority Asset Watch, Unknown Stage, score 89.
-- Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Priority Asset Watch, Community Review, score 88.
+- Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Priority Asset Watch, Unknown Stage, score 89.
 - Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Priority Asset Watch, Delivery / Opening, score 88.
-- Office-to-Residential Conversion - Los Angeles / California - New master plan for L.A. General Hospital campus gets key approval: Priority Asset Watch, Vertical Construction, score 86.
+- Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: Priority Asset Watch, Refinancing / Recapitalization, score 86.
+- General Project Signal - California - How Standard Communities builds workforce rentals in California for under $500,000: Priority Asset Watch, Refinancing / Recapitalization, score 86.
 - Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Priority Asset Watch, Unknown Stage, score 84.
-- BTR / Build-to-Rent - California - Sacramento Build-for Rent Property Lands $53M Refinancing: Priority Asset Watch, Site Acquisition / Site Control, score 84.
+- Development Start - Sun Belt - FIRST DRAFT LIVE: Why Sun Belt Multifamily Giant Cortland Is Moving Its Money North: Priority Asset Watch, Site Acquisition / Site Control, score 81.
+- Refinancing - New York City / New York - KKR Refis Brooklyn Apartments With $95M Loan: Priority Asset Watch, Delivery / Opening, score 78.
 
 ## Implications for Woomi / Woomi Global
 
@@ -66,23 +66,23 @@ Generated: 2026-10-23 01:16:23
 
 ## Recommended Asset Memory Follow-up
 
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Los Angeles / California - JLL Arranges $50M Bridge Loan for Thousand Oaks R&D and Office Campus.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Georgia - Newmark Launches Bridge Lending Program, Makes $35M Loan for Georgia Multi Asset.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - California - Partnership Buys Museum Park Apartments in San Jose, California for $53.1M.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Office-to-Residential Conversion - Los Angeles / California - New master plan for L.A. General Hospital campus gets key approval.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St..
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - California - How Standard Communities builds workforce rentals in California for under $500,000.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 125
-- Institutional-grade signals: 18
-- High-confidence signals: 32
-- Weak/noisy signals: 77
-- High-confidence watchlist items: 32
+- Signals evaluated: 149
+- Institutional-grade signals: 14
+- High-confidence signals: 37
+- Weak/noisy signals: 94
+- High-confidence watchlist items: 37
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

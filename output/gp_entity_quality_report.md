@@ -1,14 +1,14 @@
 # GP / Capital Entity Quality Report
 
-Generated: 2026-10-24 01:24:31
+Generated: 2026-10-25 00:53:04
 
 ## Summary
 
-- Total GP/Capital articles: 44
-- Participant not identified: 22
-- Dictionary match: 14
+- Total GP/Capital articles: 47
+- Participant not identified: 24
+- Dictionary match: 16
 - Title fallback / headline extraction: 1
-- Low confidence or unresolved: 22
+- Low confidence or unresolved: 24
 
 ## Representative Resolved Samples
 
@@ -25,13 +25,13 @@ Generated: 2026-10-24 01:24:31
 
 ## Unresolved Examples
 
+- E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
 - FIRST DRAFT LIVE: Why Sun Belt Multifamily Giant Cortland Is Moving Its Money North | Bisnow | No institution name detected in dictionary, title, summary, or source text.
 - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St. | Urbanize LA | No institution name detected in dictionary, title, summary, or source text.
-- Senior affordable housing underway at 233 N. Second Ave. in Covina | Urbanize LA | No institution name detected in dictionary, title, summary, or source text.
 - Hamilton Zanze Announces Sale of Virginia Multifamily Community | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
 - Lehi, Utah Rental Community Trades for $130M | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
 - Hollywood's Yamashiro Complex Gets $25M Refinance: The Los Angeles Deal Sheet | Bisnow | No institution name detected in dictionary, title, summary, or source text.
+- Retail market tightens, L.A. multifamily sales jump, and more | Urbanize LA | No institution name detected in dictionary, title, summary, or source text.
 - Broe Group Makes First SoCal Multifamily Acquisition in San Diego | Connect CRE California | No institution name detected in dictionary, title, summary, or source text.
 - Colliers Facilitates Sale of Boutique Multifamily Property in Seattle | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
 - RedPeak Acquires 101-Unit Manchester Apartments in Denver | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
-- Multifamily starts fell in September amid high construction costs | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.

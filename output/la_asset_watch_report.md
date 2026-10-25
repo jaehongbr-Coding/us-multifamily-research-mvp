@@ -1,14 +1,13 @@
 # LA / Southern California Asset Watch Report
 
-Generated: 2026-10-24 01:24:42
+Generated: 2026-10-25 00:53:16
 
-- Total LA / Southern California asset watch items: 43
+- Total LA / Southern California asset watch items: 44
 
 ## Top LA Site-Level Opportunities
 
 - Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Los Angeles, Refinancing / Recapitalization, la_asset_opportunity_score 100.
-- General Project Signal - California - Senior affordable housing underway at 233 N. Second Ave. in Covina: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 100.
 - General Project Signal - Los Angeles / California - Affordable housing slated for 5003 N. Kester Ave. in Sherman Oaks: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 100.
 - JV / Partnership - Los Angeles / California - City Council upholds approval of mixed-use project at 12555 Ventura Blvd. in Studio City: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
@@ -16,9 +15,11 @@ Generated: 2026-10-24 01:24:42
 - Entitlement / Permitting - San Francisco / California - New Building Permits For Backyard ADUs at 466 Frederick Street, San Francisco: Los Angeles, Construction-Ready Pipeline, la_asset_opportunity_score 100.
 - Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 99.
 - Entitlement / Permitting - Los Angeles / California - Developer plans high-rise apartments at 6409 Sunset Blvd. in Hollywood: Los Angeles, Entitlement Play, la_asset_opportunity_score 99.
+- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Los Angeles, Lease-Up / Delivery, la_asset_opportunity_score 99.
 
 ## Top LA Site-Level Risks
 
+- Refinancing - Los Angeles / California - E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 57.
 - Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi on SoCal Apartment Portfolio: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 56.
 - Refinancing - Los Angeles / California - Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 56.
 - Refinancing - California - Life Company Provides Permanent Loan on Monterey Office Park: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 56.
@@ -27,8 +28,7 @@ Generated: 2026-10-24 01:24:42
 - City Council upholds approval of mixed-use project at 12555 Ventura Blvd. in Studio City: Los Angeles, General Asset Signal, la_asset_risk_score 46.
 - Expansion of apartment complex at 6007 Sunset survives appeal: Los Angeles, General Asset Signal, la_asset_risk_score 46.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Los Angeles, Refinancing / Recapitalization, la_asset_risk_score 41.
-- General Project Signal - California - Senior affordable housing underway at 233 N. Second Ave. in Covina: Los Angeles, Affordable / Density Bonus Strategy, la_asset_risk_score 40.
-- Office-to-Residential Conversion - Los Angeles / California - New master plan for L.A. General Hospital campus gets key approval: Los Angeles, Office-to-Residential Conversion, la_asset_risk_score 38.
+- Disposition / Exit - California - Retail market tightens, L.A. multifamily sales jump, and more: Los Angeles, General Asset Signal, la_asset_risk_score 39.
 
 ## Koreatown / Wilshire Site Watch
 
@@ -72,20 +72,20 @@ Generated: 2026-10-24 01:24:42
 
 - Track entitlement docket, density bonus use, and affordability requirement: Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal.
 - Track lender, maturity, owner, and recapitalization path: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
-- Review parcel clue, entitlement path, sponsor, and comparable sites: General Project Signal - California - Senior affordable housing underway at 233 N. Second Ave. in Covina.
 - Track entitlement docket, density bonus use, and affordability requirement: General Project Signal - Los Angeles / California - Affordable housing slated for 5003 N. Kester Ave. in Sherman Oaks.
 - Monitor asset for repeated local confirmation: JV / Partnership - Los Angeles / California - City Council upholds approval of mixed-use project at 12555 Ventura Blvd. in Studio City.
 - Monitor asset for repeated local confirmation: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
 - Monitor asset for repeated local confirmation: General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing.
 - Monitor asset for repeated local confirmation: Entitlement / Permitting - San Francisco / California - New Building Permits For Backyard ADUs at 466 Frederick Street, San Francisco.
+- Track entitlement docket, density bonus use, and affordability requirement: Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St..
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 74
-- LA lifecycle watch items: 41
-- Stage mix: Refinancing / Recapitalization: 8, Delivery / Opening: 6, Site Acquisition / Site Control: 6, Unknown Stage: 43, Community Review: 2
+- Lifecycle records: 75
+- LA lifecycle watch items: 44
+- Stage mix: Refinancing / Recapitalization: 9, Delivery / Opening: 6, Site Acquisition / Site Control: 6, Unknown Stage: 43, Community Review: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -93,11 +93,11 @@ Generated: 2026-10-24 01:24:42
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 74
-- Newly detected projects: 41
+- Lifecycle transitions analyzed: 75
+- Newly detected projects: 7
 - Forward progression projects: 0
-- Possible stalled projects: 1
-- LA lifecycle transition watch items: 40
+- Possible stalled projects: 2
+- LA lifecycle transition watch items: 41
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -105,10 +105,10 @@ Generated: 2026-10-24 01:24:42
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 625
-- Canonical projects: 149
-- Duplicate project clusters: 102
-- Persistent assets tracked: 149
-- LA persistent asset watch items: 86
+- Raw project references: 642
+- Canonical projects: 153
+- Duplicate project clusters: 106
+- Persistent assets tracked: 153
+- LA persistent asset watch items: 91
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

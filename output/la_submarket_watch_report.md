@@ -1,6 +1,6 @@
 # LA / Southern California Submarket Watch Report
 
-Generated: 2026-10-24 01:24:41
+Generated: 2026-10-25 00:53:15
 
 - Total LA / Southern California submarkets detected: 9
 
@@ -11,7 +11,7 @@ Generated: 2026-10-24 01:24:41
 - Anaheim: opportunity 93, risk 30, Orange County suburban apartment watch.
 - Santa Monica: opportunity 66, risk 55, Monitor only.
 - Inglewood: opportunity 62, risk 30, Monitor only.
-- California: opportunity 32, risk 20, Monitor only.
+- California: opportunity 24, risk 20, Monitor only.
 - Orange County: opportunity 12, risk 30, Orange County suburban apartment watch.
 - San Bernardino: opportunity 12, risk 30, Inland Empire BTR / rental housing watch.
 - Southern California: opportunity 8, risk 20, Monitor only.
@@ -73,8 +73,8 @@ Asset / parcel-level site clues are available in `asset_parcel_intelligence_repo
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 74
-- LA lifecycle watch items: 41
-- Stage mix: Refinancing / Recapitalization: 8, Delivery / Opening: 6, Site Acquisition / Site Control: 6, Unknown Stage: 43, Community Review: 2
+- Lifecycle records: 75
+- LA lifecycle watch items: 44
+- Stage mix: Refinancing / Recapitalization: 9, Delivery / Opening: 6, Site Acquisition / Site Control: 6, Unknown Stage: 43, Community Review: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

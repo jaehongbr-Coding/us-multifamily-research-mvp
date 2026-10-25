@@ -1,12 +1,12 @@
 # Executive Priority Brief
 
-Generated: 2026-10-24 01:24:31
+Generated: 2026-10-25 00:53:04
 
 ## Top 3 Executive Priorities
 
 - Rank 1: Financing Stress (100, Tier 1 Executive Attention)
 - Rank 2: Selective Capital Re-entry (100, Tier 1 Executive Attention)
-- Rank 3: Developer Strategy Shift (95, Tier 2 Strategic Review)
+- Rank 3: Supply Pressure (99, Tier 2 Strategic Review)
 
 ## Full Priority Table
 
@@ -14,10 +14,10 @@ Generated: 2026-10-24 01:24:31
 | ---: | --- | ---: | --- | --- | --- |
 | 1 | Financing Stress | 100 | Tier 1 Executive Attention | Finance / Treasury; Investment Team; Executive Committee; US Local Team | This Week |
 | 2 | Selective Capital Re-entry | 100 | Tier 1 Executive Attention | Investment Team; Strategy Team; Executive Committee; US Local Team | This Week |
-| 3 | Developer Strategy Shift | 95 | Tier 2 Strategic Review | Strategy Team; Development Team; US Local Team | This Week |
-| 4 | Supply Pressure | 93 | Tier 2 Strategic Review | Investment Team; Development Team; US Local Team | This Week |
-| 5 | Policy / Entitlement Watch | 63 | Tier 3 Monitoring | Development Team; US Local Team; Strategy Team | Next IC / Strategy Meeting |
-| 6 | Construction Cost Pressure | 60 | Tier 3 Monitoring | Development Team; Investment Team; US Local Team | Next IC / Strategy Meeting |
+| 3 | Supply Pressure | 99 | Tier 2 Strategic Review | Investment Team; Development Team; US Local Team | This Week |
+| 4 | Developer Strategy Shift | 96 | Tier 2 Strategic Review | Strategy Team; Development Team; US Local Team | This Week |
+| 5 | Policy / Entitlement Watch | 77 | Tier 3 Monitoring | Development Team; US Local Team; Strategy Team | Next IC / Strategy Meeting |
+| 6 | Construction Cost Pressure | 55 | Tier 3 Monitoring | Development Team; Investment Team; US Local Team | Monthly Monitoring |
 
 ## Tier 1 Executive Attention
 
@@ -26,13 +26,13 @@ Generated: 2026-10-24 01:24:31
 
 ## Tier 2 Strategic Review
 
-- Rank 3: Developer Strategy Shift (95). Developer strategy signals should be reviewed because they may reveal capability needs in product, operations, partnerships, or delivery model. Owner: Strategy Team; Development Team; US Local Team. Timing: This Week.
-- Rank 4: Supply Pressure (93). Supply and lease-up signals should be monitored because they may affect rent growth, vacancy, and development timing. Owner: Investment Team; Development Team; US Local Team. Timing: This Week.
+- Rank 3: Supply Pressure (99). Supply and lease-up signals should be monitored because they may affect rent growth, vacancy, and development timing. Owner: Investment Team; Development Team; US Local Team. Timing: This Week.
+- Rank 4: Developer Strategy Shift (96). Developer strategy signals should be reviewed because they may reveal capability needs in product, operations, partnerships, or delivery model. Owner: Strategy Team; Development Team; US Local Team. Timing: This Week.
 
 ## Monitoring Items
 
-- Rank 5: Policy / Entitlement Watch (63). Policy and entitlement signals should be monitored because they may affect approvals, zoning strategy, and local development feasibility. Owner: Development Team; US Local Team; Strategy Team. Timing: Next IC / Strategy Meeting.
-- Rank 6: Construction Cost Pressure (60). Construction cost signals should be reviewed because they may affect feasibility, contingencies, and value engineering. Owner: Development Team; Investment Team; US Local Team. Timing: Next IC / Strategy Meeting.
+- Rank 5: Policy / Entitlement Watch (77). Policy and entitlement signals should be monitored because they may affect approvals, zoning strategy, and local development feasibility. Owner: Development Team; US Local Team; Strategy Team. Timing: Next IC / Strategy Meeting.
+- Rank 6: Construction Cost Pressure (55). Construction cost signals should be reviewed because they may affect feasibility, contingencies, and value engineering. Owner: Development Team; Investment Team; US Local Team. Timing: Monthly Monitoring.
 
 ## Scenario Context
 
@@ -48,11 +48,11 @@ Sun Belt, Texas, Southeast, or related growth-market signals appear in the curre
 ## GP / Developer Intelligence
 
 Developer and GP platform intelligence is available in `gp_intelligence_report.md`.
+- Marcus & Millichap: Immediate Watch, acquisition; disposition / exit; operational technology / AI adoption, review LA / California development activity.
 - JLL: Immediate Watch, refinancing; JV / partnership; operational technology / AI adoption, monitor JV activity.
-- Marcus & Millichap: Immediate Watch, acquisition; disposition / exit; operational technology / AI adoption, track construction innovation strategy.
 - CBRE: Immediate Watch, acquisition; disposition / exit; refinancing; operational technology / AI adoption, track refinancing pipeline.
+- UDR: Immediate Watch, acquisition; JV / partnership; operational technology / AI adoption, monitor JV activity.
 - Voya Investment Management: Immediate Watch, refinancing; operational technology / AI adoption, track refinancing pipeline.
-- Blackstone: Immediate Watch, disposition / exit; refinancing; operational technology / AI adoption, track refinancing pipeline.
 
 ## Institutional Relationship Context
 
@@ -122,9 +122,9 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 74
-- LA lifecycle watch items: 41
-- Stage mix: Refinancing / Recapitalization: 8, Delivery / Opening: 6, Site Acquisition / Site Control: 6, Unknown Stage: 43, Community Review: 2
+- Lifecycle records: 75
+- LA lifecycle watch items: 44
+- Stage mix: Refinancing / Recapitalization: 9, Delivery / Opening: 6, Site Acquisition / Site Control: 6, Unknown Stage: 43, Community Review: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -132,11 +132,11 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 74
-- Newly detected projects: 41
+- Lifecycle transitions analyzed: 75
+- Newly detected projects: 7
 - Forward progression projects: 0
-- Possible stalled projects: 1
-- LA lifecycle transition watch items: 40
+- Possible stalled projects: 2
+- LA lifecycle transition watch items: 41
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -144,11 +144,11 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 625
-- Canonical projects: 149
-- Duplicate project clusters: 102
-- Persistent assets tracked: 149
-- LA persistent asset watch items: 86
+- Raw project references: 642
+- Canonical projects: 153
+- Duplicate project clusters: 106
+- Persistent assets tracked: 153
+- LA persistent asset watch items: 91
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -156,11 +156,11 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 149
-- Institutional-grade signals: 14
-- High-confidence signals: 37
-- Weak/noisy signals: 94
-- High-confidence watchlist items: 37
+- Signals evaluated: 153
+- Institutional-grade signals: 16
+- High-confidence signals: 41
+- Weak/noisy signals: 96
+- High-confidence watchlist items: 41
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 
 
@@ -169,7 +169,7 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 ## Dashboard Summary
 
 - Dashboard cards: 38
-- Dashboard watchlist items: 96
+- Dashboard watchlist items: 97
 - Recommended focus: Review Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi and related high-confidence project signals.
 - Start with `executive_dashboard_brief.md`, then review `dashboard_cards.csv` and `dashboard_watchlists.csv` for future dashboard inputs.
 

@@ -1,8 +1,8 @@
 # Entitlement Intelligence Report
 
-Generated: 2026-10-24 01:24:41
+Generated: 2026-10-25 00:53:15
 
-- Total entitlement signals detected: 8
+- Total entitlement signals detected: 9
 
 ## Top Entitlement Opportunities
 
@@ -14,6 +14,7 @@ Generated: 2026-10-24 01:24:41
 - Entitlement Approval in Los Angeles: Delayed / Appealed, entitlement_opportunity_score 35. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles / California: Early Planning, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Unknown: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Other / Unknown: Early Planning, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 
 ## Top Entitlement Risks
 
@@ -25,6 +26,7 @@ Generated: 2026-10-24 01:24:41
 - Entitlement Approval in Unknown: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
 - Building Permit / Construction Permit in Other / Unknown: Permitted, entitlement_risk_score 20. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles / California: Early Planning, entitlement_risk_score 20. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Other / Unknown: Early Planning, entitlement_risk_score 20. Track construction-ready pipeline and comparable sponsor execution.
 
 ## Planning / Approval Signals
 
@@ -34,6 +36,7 @@ Generated: 2026-10-24 01:24:41
 - Entitlement Approval in Los Angeles: Delayed / Appealed, entitlement_opportunity_score 35. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles / California: Early Planning, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Unknown: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Other / Unknown: Early Planning, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 
 ## Density Bonus / TOC Signals
 
@@ -74,8 +77,8 @@ Generated: 2026-10-24 01:24:41
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 74
-- LA lifecycle watch items: 41
-- Stage mix: Refinancing / Recapitalization: 8, Delivery / Opening: 6, Site Acquisition / Site Control: 6, Unknown Stage: 43, Community Review: 2
+- Lifecycle records: 75
+- LA lifecycle watch items: 44
+- Stage mix: Refinancing / Recapitalization: 9, Delivery / Opening: 6, Site Acquisition / Site Control: 6, Unknown Stage: 43, Community Review: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

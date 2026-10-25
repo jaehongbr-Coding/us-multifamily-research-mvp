@@ -1,6 +1,6 @@
 # Submarket Intelligence Report
 
-Generated: 2026-10-24 01:24:41
+Generated: 2026-10-25 00:53:15
 
 - Total submarkets detected: 26
 
@@ -94,8 +94,8 @@ Generated: 2026-10-24 01:24:41
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 74
-- LA lifecycle watch items: 41
-- Stage mix: Refinancing / Recapitalization: 8, Delivery / Opening: 6, Site Acquisition / Site Control: 6, Unknown Stage: 43, Community Review: 2
+- Lifecycle records: 75
+- LA lifecycle watch items: 44
+- Stage mix: Refinancing / Recapitalization: 9, Delivery / Opening: 6, Site Acquisition / Site Control: 6, Unknown Stage: 43, Community Review: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

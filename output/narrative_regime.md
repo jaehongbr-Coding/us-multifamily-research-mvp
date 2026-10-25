@@ -1,6 +1,6 @@
 # Narrative Regime Detection
 
-Generated: 2026-10-24 01:24:30
+Generated: 2026-10-25 00:53:04
 
 ## Detected Regime
 
@@ -13,11 +13,11 @@ Generated: 2026-10-24 01:24:30
 
 | Regime | Score |
 | --- | ---: |
-| Selective Capital Re-entry | 182 |
+| Selective Capital Re-entry | 199 |
 | Developer Strategy Shift | 105 |
-| Financing Stress | 101 |
-| Supply Pressure | 34 |
-| Policy / Entitlement Watch | 10 |
+| Financing Stress | 99 |
+| Supply Pressure | 41 |
+| Policy / Entitlement Watch | 15 |
 | Construction Cost Pressure | 10 |
 
 ## Regime Heatmap Reference
@@ -29,71 +29,69 @@ Regime momentum is available in `regime_momentum_report.md` when previous heatma
 | --- | ---: | --- |
 | Selective Capital Re-entry | 89 | Very Strong |
 | Financing Stress | 87 | Very Strong |
-| Supply Pressure | 69 | Strong |
-| Developer Strategy Shift | 56 | Moderate |
-| Policy / Entitlement Watch | 41 | Moderate |
+| Supply Pressure | 70 | Strong |
+| Developer Strategy Shift | 59 | Moderate |
+| Policy / Entitlement Watch | 55 | Moderate |
 | Construction Cost Pressure | 31 | Weak |
 | Stable Monitoring Environment | 0 | Not Detected |
 
 ## Signal Inputs
 
-- Strategy-briefing articles reviewed: 42
-- Market-signal articles reviewed: 27
-- Articles with extracted numbers: 27
-- Institutional player mentions: 11
+- Strategy-briefing articles reviewed: 44
+- Market-signal articles reviewed: 28
+- Articles with extracted numbers: 28
+- Institutional player mentions: 13
 
 ### Strategic Angles
 
-- Institutional Flow: 27
+- Institutional Flow: 30
 - Developer Strategy: 19
-- Financing Risk: 15
-- Supply Pressure: 4
-- Rent Growth / Demand: 3
-- Regulation Risk: 2
+- Financing Risk: 14
+- Supply Pressure: 6
+- Rent Growth / Demand: 4
+- Regulation Risk: 3
 
 ### Market Signals
 
 - Deal Size Signal: 11
-- Financing Cost Signal: 6
-- Rent Growth Signal: 6
-- Supply / Starts Signal: 3
+- Financing Cost Signal: 7
+- Rent Growth Signal: 7
+- Supply / Starts Signal: 2
 - Cap Rate Signal: 1
 
 ### Decision Uses
 
-- Track Institutional Capital Flow: 27
+- Track Institutional Capital Flow: 30
 - Track Developer Strategy: 19
-- Track Financing Conditions: 15
-- Track Supply Pipeline: 4
-- Track Rent / Vacancy Trend: 3
-- Track Regulation Risk: 2
+- Track Financing Conditions: 14
+- Track Supply Pipeline: 6
+- Track Rent / Vacancy Trend: 4
+- Track Regulation Risk: 3
 
 ### Market Focus
 
-- Los Angeles / California: 9
+- Los Angeles / California: 10
 - Other / Unknown: 6
 - California: 5
-- Phoenix / Arizona: 3
 - San Francisco / California: 3
-- New York City / New York: 2
+- Texas: 3
+- Phoenix / Arizona: 3
 
 ### Action Levels
 
 - Must Read: 29
-- Review: 10
+- Review: 12
 - Monitor: 3
 
 ### Woomi Relevance
 
-- High relevance to US residential developer strategy: 34
-- Medium relevance to market monitoring: 8
+- High relevance to US residential developer strategy: 35
+- Medium relevance to market monitoring: 9
 
 ## Key Thematic Context
 
-- Financing Risk is Sharp Increase (10 to 15).
-- Institutional Flow is Sharp Increase (14 to 27).
-- Regulation Risk is Sharp Increase (1 to 2).
-- Market signal activity is increasing, led by Deal Size Signal (4 to 11).
+- Supply Pressure is Sharp Increase (4 to 6).
+- Regulation Risk is Sharp Increase (2 to 3).
 
 ## Cross-Theme Interpretation
 

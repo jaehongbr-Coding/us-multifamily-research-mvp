@@ -1,7 +1,7 @@
 ﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
-20261024-012424-e11b3b5a,2026-10-24,Construction financing still selective,Dormant,inactive,0,7,30,3.84,2.84,0,0,0,0,,Low Confidence,steady visibility,
-20261024-012424-e11b3b5a,2026-10-24,Institutional recap over expansion,Building,stable,67,8,31,4.16,3.19,6,6,6,1,Los Angeles / California,Broadly Confirmed,steady visibility,
-20261024-012424-e11b3b5a,2026-10-24,JV / partnership activity observed,Persistent,stable,179,8,31,5.03,3.39,7,7,5,1,Nevada,Broadly Confirmed,steady visibility,
-20261024-012424-e11b3b5a,2026-10-24,LA entitlement precedent accumulation,Building,accelerating,179,8,31,6.71,3.23,5,5,3,0,Los Angeles / California,Moderate Signal,LA entitlement precedent accumulation signal is accelerating versus prior runs.,
-20261024-012424-e11b3b5a,2026-10-24,Refinancing pressure unresolved,Persistent,stable,67,8,31,4.74,3.45,6,6,6,1,Los Angeles / California,Broadly Confirmed,steady visibility,
-20261024-012424-e11b3b5a,2026-10-24,Sun Belt lease-up pressure watch,Building,stable,179,8,31,2.87,2.68,4,4,3,0,Washington DC,Moderate Signal,steady visibility,
+20261025-005259-a3220e97,2026-10-25,Construction financing still selective,Dormant,inactive,0,6,29,3.77,2.81,0,0,0,0,,Low Confidence,steady visibility,
+20261025-005259-a3220e97,2026-10-25,Institutional recap over expansion,Building,accelerating,68,8,31,4.29,3.23,7,7,7,1,Los Angeles / California,Broadly Confirmed,Institutional recap over expansion signal is accelerating versus prior runs.,
+20261025-005259-a3220e97,2026-10-25,JV / partnership activity observed,Building,accelerating,180,8,31,5.13,3.39,8,8,6,1,Nevada,Broadly Confirmed,JV / partnership activity observed signal is accelerating versus prior runs.,
+20261025-005259-a3220e97,2026-10-25,LA entitlement precedent accumulation,Building,accelerating,180,8,31,6.68,3.29,6,6,3,0,Los Angeles / California,Broadly Confirmed,LA entitlement precedent accumulation signal is accelerating versus prior runs.,
+20261025-005259-a3220e97,2026-10-25,Refinancing pressure unresolved,Building,stable,68,8,31,4.87,3.48,7,7,7,1,Los Angeles / California,Broadly Confirmed,steady visibility,
+20261025-005259-a3220e97,2026-10-25,Sun Belt lease-up pressure watch,Building,accelerating,180,8,31,2.97,2.74,5,5,4,0,Washington DC,Broadly Confirmed,Sun Belt lease-up pressure watch signal is accelerating versus prior runs.,

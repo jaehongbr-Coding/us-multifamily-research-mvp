@@ -1,9 +1,9 @@
 # Deal & Project Pipeline Report
 
-Generated: 2026-10-24 01:24:31
+Generated: 2026-10-25 00:53:05
 
-- Total deal/project signals found: 61
-- High deal intelligence count: 6
+- Total deal/project signals found: 62
+- High deal intelligence count: 7
 
 ## Top 10 Deal / Project Signals
 
@@ -13,23 +13,23 @@ Generated: 2026-10-24 01:24:31
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Acquisition, Atlanta / Georgia, score 85. Pricing benchmark.
 - Refinancing - New York City / New York - KKR Refis Brooklyn Apartments With $95M Loan: Refinancing, New York City / New York, score 85. Capital market signal.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing, Miami / Florida, score 85. Capital market signal.
+- Refinancing - Los Angeles / California - E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles: Refinancing, Los Angeles / California, score 83. Capital market signal.
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Acquisition, Atlanta / Georgia, score 77. Pricing benchmark.
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Disposition / Exit, California, score 77. Entitlement / zoning watch.
 - Refinancing - Nevada - Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments: Refinancing, Nevada, score 77. Capital market signal.
-- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Disposition / Exit, California, score 75. Entitlement / zoning watch.
 
 ## California / LA Deal Watch
 
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing, California, score 92. Capital market signal.
+- Refinancing - Los Angeles / California - E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles: Refinancing, Los Angeles / California, score 83. Capital market signal.
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Disposition / Exit, California, score 77. Entitlement / zoning watch.
 - Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Disposition / Exit, California, score 75. Entitlement / zoning watch.
 - JV / Partnership - Los Angeles / California - City Council upholds approval of mixed-use project at 12555 Ventura Blvd. in Studio City: JV / Partnership, Los Angeles / California, score 75. GP partnership reference.
 - Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi on SoCal Apartment Portfolio: Refinancing, Los Angeles / California, score 73. Capital market signal.
 - Refinancing - Los Angeles / California - Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio: Refinancing, Los Angeles / California, score 73. Capital market signal.
+- Disposition / Exit - California - Retail market tightens, L.A. multifamily sales jump, and more: Disposition / Exit, California, score 67. Entitlement / zoning watch.
 - Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Entitlement / Permitting, Los Angeles / California, score 67. Entitlement / zoning watch.
 - Acquisition - California - Broe Real Estate Group Debuts in Southern California with Multifamily Acquisition in San D...: Acquisition, California, score 66. Pricing benchmark.
-- Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: Entitlement / Permitting, Los Angeles / California, score 65. Capital market signal.
-- Refinancing - Los Angeles / California - Hollywood's Yamashiro Complex Gets $25M Refinance: The Los Angeles Deal Sheet: Refinancing, Los Angeles / California, score 64. Capital market signal.
 
 ## GP / Developer Activity
 
@@ -51,19 +51,19 @@ Generated: 2026-10-24 01:24:31
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Acquisition, Atlanta / Georgia, score 85. Pricing benchmark.
 - Refinancing - New York City / New York - KKR Refis Brooklyn Apartments With $95M Loan: Refinancing, New York City / New York, score 85. Capital market signal.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing, Miami / Florida, score 85. Capital market signal.
+- Refinancing - Los Angeles / California - E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles: Refinancing, Los Angeles / California, score 83. Capital market signal.
 - Refinancing - Nevada - Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments: Refinancing, Nevada, score 77. Capital market signal.
 - General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing: General Project Signal, Seattle, score 75. Capital market signal.
 - Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi on SoCal Apartment Portfolio: Refinancing, Los Angeles / California, score 73. Capital market signal.
 - Refinancing - Los Angeles / California - Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio: Refinancing, Los Angeles / California, score 73. Capital market signal.
-- JV / Partnership - Other / Unknown - UDR, Apollo form $2B joint venture: JV / Partnership, Other / Unknown, score 70. Pricing benchmark.
 
 ## Project Pipeline / Supply Signals
 
+- Refinancing - Los Angeles / California - E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles: Refinancing, Los Angeles / California, score 83. Capital market signal.
 - JV / Partnership - Los Angeles / California - City Council upholds approval of mixed-use project at 12555 Ventura Blvd. in Studio City: JV / Partnership, Los Angeles / California, score 75. GP partnership reference.
 - Acquisition - Phoenix / Arizona - Founders Group Sells 202-Unit Multifamily Community in Tucson: Acquisition, Phoenix / Arizona, score 71. Pricing benchmark.
 - Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Entitlement / Permitting, Los Angeles / California, score 67. Entitlement / zoning watch.
 - Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: Entitlement / Permitting, Los Angeles / California, score 65. Capital market signal.
-- General Project Signal - California - Senior affordable housing underway at 233 N. Second Ave. in Covina: General Project Signal, California, score 63. Entitlement / zoning watch.
 - Acquisition - Denver / Colorado - RedPeak Acquires 101-Unit Manchester Apartments in Denver: Acquisition, Denver / Colorado, score 60. Underwriting benchmark.
 - Development Start - California - Inglewood breaks ground on new downtown mobility hubs: Development Start, California, score 57. Pipeline / supply signal.
 - Development Start - Sun Belt - FIRST DRAFT LIVE: Why Sun Belt Multifamily Giant Cortland Is Moving Its Money North: Development Start, Sun Belt, score 55. Pipeline / supply signal.
@@ -90,9 +90,9 @@ Generated: 2026-10-24 01:24:31
 ## Deal / Project Signals By Residential Sector
 
 - Apartment: 32 deal/project signal(s)
-- Multifamily: 9 deal/project signal(s)
-- Affordable Housing: 7 deal/project signal(s)
-- Mixed-Use Residential: 4 deal/project signal(s)
+- Multifamily: 12 deal/project signal(s)
+- Affordable Housing: 6 deal/project signal(s)
+- Mixed-Use Residential: 3 deal/project signal(s)
 - General Residential: 3 deal/project signal(s)
 - Student Housing: 3 deal/project signal(s)
 - Senior Housing: 2 deal/project signal(s)
@@ -128,5 +128,5 @@ Developer, lender, capital partner, market, and deal edges are available in `rel
 - Pricing benchmark: read `ORIX Acquires Buckhead Apartments for $83M` from Connect CRE Apartments. Canonical market: Los Angeles.
 - Capital market signal: read `KKR Refis Brooklyn Apartments With $95M Loan` from Commercial Observer. Canonical market: New York.
 - Capital market signal: read `Little Havana Apartment Owners Land $50.8M Refi` from Connect CRE South Florida. Canonical market: Sun Belt.
+- Capital market signal: read `E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles` from Yield PRO. Canonical market: Los Angeles.
 - Pricing benchmark: read `Hines Pays $237.8M for Buckhead Rental Community` from Connect CRE Atlanta. Canonical market: Los Angeles.
-- Entitlement / zoning watch: read `Anaheim Sale is First Closing in Broader Multifamily Portfolio` from Connect CRE Orange County. Canonical market: California.

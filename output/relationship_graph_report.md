@@ -1,11 +1,11 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-10-24 01:24:31
+Generated: 2026-10-25 00:53:04
 
-- Total relationship edges: 117
+- Total relationship edges: 123
 - Most connected developer / GP: JLL (12 edge(s))
 - Most connected lender / debt provider: jll (3 edge(s))
-- Most connected market: Los Angeles / California (10 edge(s))
+- Most connected market: Los Angeles / California (11 edge(s))
 - Strongest relationship edge: JLL -> jll
 - Highest Woomi relevance edge: UDR -> udr
 
@@ -43,17 +43,19 @@ Generated: 2026-10-24 01:24:31
 - JLL -> jll: Financing Relationship, New York City / New York, score 93. Track GP relationship history.
 - JLL -> jll: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
 - Berkadia -> berkadia: Financing Relationship, Miami / Florida, score 92. Track GP relationship history.
+- Refinancing - Los Angeles / California - E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles -> northmarq: Financing Relationship, Los Angeles / California, score 74. Monitor lender activity.
 - Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi on SoCal Apartment Portfolio -> northmarq: Financing Relationship, Los Angeles / California, score 70. Monitor lender activity.
 - Refinancing - Los Angeles / California - Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio -> northmarq: Financing Relationship, Los Angeles / California, score 70. Monitor lender activity.
 - Disposition / Exit - Phoenix / Arizona - Lehi, Utah Rental Community Trades for $130M -> cushman: Financing Relationship, Phoenix / Arizona, score 68. Monitor lender activity.
-- Acquisition - Colorado - CentrePoint Properties Divests of 52,743 SF Mixed-Use Property in Wheat Ridge, Colorado -> cushman: Financing Relationship, Colorado, score 56. Monitor lender activity.
 
 ## Capital Partner / Institutional Flow Map
 
 - JLL -> kkr: Financing Relationship, New York City / New York, score 93. Track GP relationship history.
 - Blackstone -> blackstone: Capital Flow, Seattle, score 92. Track GP relationship history.
-- UDR -> udr: JV / Partnership, Other / Unknown, score 88. Review potential JV relevance.
+- UDR -> udr: JV / Partnership, Other / Unknown, score 89. Review potential JV relevance.
+- UDR -> udr: JV / Partnership, Other / Unknown, score 87. Review potential JV relevance.
 - Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 86. Track GP relationship history.
+- Essex Realty Group -> essex: Disposition / Seller, Other / Unknown, score 57. Track GP relationship history.
 - Acquisition - Colorado - CentrePoint Properties Divests of 52,743 SF Mixed-Use Property in Wheat Ridge, Colorado -> related: Acquisition / Buyer, Colorado, score 54. Monitor only.
 
 ## Market Relationship Map
@@ -79,20 +81,21 @@ Generated: 2026-10-24 01:24:31
 - CIM Group -> Los Angeles: Entitlement / Permitting, Los Angeles / California, score 75. Track GP relationship history.
 - Marcus & Millichap -> California: Disposition / Seller, California, score 75. Track GP relationship history.
 - Marcus & Millichap -> Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Disposition / Seller, California, score 75. Track GP relationship history.
+- Refinancing - Los Angeles / California - E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles -> Los Angeles: Financing Relationship, Los Angeles / California, score 66. Monitor only.
 - JV / Partnership - Los Angeles / California - City Council upholds approval of mixed-use project at 12555 Ventura Blvd. in Studio City -> Los Angeles: JV / Partnership, Los Angeles / California, score 65. Review potential JV relevance.
-- Acquisition - California - Broe Real Estate Group Debuts in Southern California with Multifamily Acquisition in San D... -> California: Acquisition / Buyer, California, score 62. Track LA / California activity.
 
 ## Potential Woomi Partnership Signals
 
-- UDR -> udr: JV / Partnership, Other / Unknown, score 88. Review potential JV relevance.
-- UDR -> JV / Partnership - Other / Unknown - UDR, Apollo form $2B joint venture: JV / Partnership, Other / Unknown, score 80. Review potential JV relevance.
+- UDR -> udr: JV / Partnership, Other / Unknown, score 89. Review potential JV relevance.
+- UDR -> udr: JV / Partnership, Other / Unknown, score 87. Review potential JV relevance.
+- UDR -> JV / Partnership - Other / Unknown - UDR, Apollo form $2B joint venture: JV / Partnership, Other / Unknown, score 81. Review potential JV relevance.
+- UDR -> JV / Partnership - Other / Unknown - Apollo and UDR Inc Announce 19-Property Multifamily Ownership and Operation Joint Venture: JV / Partnership, Other / Unknown, score 79. Review potential JV relevance.
 - JV / Partnership - Los Angeles / California - City Council upholds approval of mixed-use project at 12555 Ventura Blvd. in Studio City -> Los Angeles: JV / Partnership, Los Angeles / California, score 65. Review potential JV relevance.
 - JV / Partnership - Los Angeles / California - City Council upholds approval of mixed-use project at 12555 Ventura Blvd. in Studio City -> Los Angeles / California: JV / Partnership, Los Angeles / California, score 65. Review potential JV relevance.
 - JV / Partnership - Texas - Joint Venture Completes 873-Bed Student Housing Project in College Station -> Texas: JV / Partnership, Texas, score 50. Review potential JV relevance.
 - JV / Partnership - Phoenix / Arizona - Joint Venture Breaks Ground on Student Housing, Retail Development Near University of Texa... -> Phoenix: JV / Partnership, Phoenix / Arizona, score 49. Review potential JV relevance.
 - JV / Partnership - Phoenix / Arizona - Joint Venture Breaks Ground on Student Housing, Retail Development Near University of Texa... -> Phoenix / Arizona: JV / Partnership, Phoenix / Arizona, score 49. Review potential JV relevance.
 - JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project -> Atlanta: JV / Partnership, Atlanta / Georgia, score 47. Review potential JV relevance.
-- JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project -> Atlanta / Georgia: JV / Partnership, Atlanta / Georgia, score 47. Review potential JV relevance.
 
 ## Canonical Relationship Map
 
@@ -154,10 +157,10 @@ Longitudinal memory is available in `historical_memory_report.md`.
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 625
-- Canonical projects: 149
-- Duplicate project clusters: 102
-- Persistent assets tracked: 149
-- LA persistent asset watch items: 86
+- Raw project references: 642
+- Canonical projects: 153
+- Duplicate project clusters: 106
+- Persistent assets tracked: 153
+- LA persistent asset watch items: 91
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-10-24 01:24:43
+Generated: 2026-10-25 00:53:17
 
-- Total raw project references: 625
-- Total canonical projects: 149
-- Duplicate project clusters: 102
-- High-confidence project identities: 625
+- Total raw project references: 642
+- Total canonical projects: 153
+- Duplicate project clusters: 106
+- High-confidence project identities: 642
 - Low-confidence identities needing review: 0
-- LA / California project references: 372
+- LA / California project references: 439
 
 ## Top Repeated Projects
 
-- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: 36 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: 36 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: 36 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: 36 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: 36 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: 36 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: 36 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: 36 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: 36 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Intersection Development to Break Ground on $70M Roosevelt Row Mixed-Use Multifamily Proje...: 36 occurrence(s), confidence 80.
+- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: 35 occurrence(s), confidence 80.
+- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: 35 occurrence(s), confidence 80.
+- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: 35 occurrence(s), confidence 80.
+- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: 35 occurrence(s), confidence 80.
+- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: 35 occurrence(s), confidence 80.
+- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: 35 occurrence(s), confidence 80.
+- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: 35 occurrence(s), confidence 80.
+- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: 35 occurrence(s), confidence 80.
+- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: 35 occurrence(s), confidence 80.
+- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: 35 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

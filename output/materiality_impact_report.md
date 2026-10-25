@@ -1,6 +1,6 @@
 # Materiality / Impact Report
 
-Generated: 2026-10-24 01:24:30
+Generated: 2026-10-25 00:53:04
 
 - Top materiality regime: Developer Strategy Shift (100)
 - Top impact regime: Developer Strategy Shift (100)
@@ -13,8 +13,8 @@ Generated: 2026-10-24 01:24:30
 | Financing Stress | 100 | 100 | Critical Business Impact | Underwriting; Financing; Capital Markets; LA / California Strategy | Tighten underwriting assumptions |
 | Selective Capital Re-entry | 100 | 100 | Critical Business Impact | GP Partnership; Capital Markets; Strategic Monitoring; LA / California Strategy | Track capital partner activity |
 | Supply Pressure | 100 | 100 | Critical Business Impact | Underwriting; Land / Pipeline; Leasing / Operations; LA / California Strategy | Review supply pipeline assumptions |
-| Construction Cost Pressure | 67 | 67 | High Business Impact | Underwriting; Cost Management; LA / California Strategy | Review construction cost assumptions |
-| Policy / Entitlement Watch | 67 | 66 | High Business Impact | Land / Pipeline; LA / California Strategy; Strategic Monitoring | Monitor LA / California entitlement changes |
+| Policy / Entitlement Watch | 82 | 77 | High Business Impact | Land / Pipeline; LA / California Strategy; Strategic Monitoring | Monitor LA / California entitlement changes |
+| Construction Cost Pressure | 64 | 64 | High Business Impact | Underwriting; Cost Management; LA / California Strategy | Review construction cost assumptions |
 
 ## Key Business Risks / Opportunities
 
@@ -22,8 +22,8 @@ Generated: 2026-10-24 01:24:30
 - Financing Stress: Debt cost and credit availability may affect construction loan sizing, refinancing assumptions, and exit cap rates.
 - Selective Capital Re-entry: Institutional capital re-entry may provide pricing discovery and GP partnership signals.
 - Supply Pressure: New supply, concessions, and vacancy pressure may affect lease-up assumptions and rent growth underwriting.
-- Construction Cost Pressure: Labor, materials, and construction cost pressure may affect feasibility, contingencies, and value engineering.
 - Policy / Entitlement Watch: Entitlement, zoning, permitting, or housing policy changes may create both approval risk and development opportunity.
+- Construction Cost Pressure: Labor, materials, and construction cost pressure may affect feasibility, contingencies, and value engineering.
 
 ## Implications for Woomi / Woomi Global
 
@@ -38,5 +38,5 @@ Generated: 2026-10-24 01:24:30
 - Financing Stress: Tighten underwriting assumptions (Critical Business Impact).
 - Selective Capital Re-entry: Track capital partner activity (Critical Business Impact).
 - Supply Pressure: Review supply pipeline assumptions (Critical Business Impact).
-- Construction Cost Pressure: Review construction cost assumptions (High Business Impact).
 - Policy / Entitlement Watch: Monitor LA / California entitlement changes (High Business Impact).
+- Construction Cost Pressure: Review construction cost assumptions (High Business Impact).

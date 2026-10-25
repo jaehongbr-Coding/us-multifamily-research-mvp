@@ -1,6 +1,6 @@
 # Signal Tuning Report
 
-Generated: 2026-10-24 01:24:24
+Generated: 2026-10-25 00:52:59
 
 ## Top Strategic Relevance Articles
 
@@ -8,12 +8,12 @@ Generated: 2026-10-24 01:24:24
 - 83 / richness 70: UDR, Apollo form $2B joint venture (Multifamily Dive, Other / Unknown) - JV or partnership activity; institutional acquisition behavior
 - 80 / richness 75: Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments (Commercial Observer, Nevada) - JV or partnership activity; large-scale refinance tied to strategy
 - 78 / richness 75: Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio (Commercial Observer, Los Angeles / California) - institutional acquisition behavior; large-scale refinance tied to strategy
+- 75 / richness 65: E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles (Yield PRO, Los Angeles / California) - institutional acquisition behavior; large-scale refinance tied to strategy
 - 74 / richness 100: Founders Group Sells 202-Unit Multifamily Community in Tucson (REBusiness Online, Phoenix / Arizona) - institutional acquisition behavior
 - 73 / richness 90: Joint Venture Breaks Ground on Student Housing, Retail Development Near University of Texas at San Antonio (REBusiness Online, Phoenix / Arizona) - JV or partnership activity
 - 71 / richness 90: Anaheim Sale is First Closing in Broader Multifamily Portfolio (Connect CRE Orange County, California) - institutional acquisition behavior
 - 70 / richness 85: ORIX Acquires Buckhead Apartments for $83M (Connect CRE Apartments, Atlanta / Georgia) - institutional acquisition behavior
 - 70 / richness 85: CentrePoint Properties Divests of 52,743 SF Mixed-Use Property in Wheat Ridge, Colorado (REBusiness Online, Colorado) - institutional acquisition behavior
-- 68 / richness 75: Northmarq Arranges $96M Refi on SoCal Apartment Portfolio (Connect CRE, Los Angeles / California) - institutional acquisition behavior; large-scale refinance tied to strategy; classification confidence penalty
 
 ## Low Quality Evidence Candidates
 
@@ -41,8 +41,8 @@ Generated: 2026-10-24 01:24:24
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 22
-- Development / sponsor behavior articles: 33
+- Financing-oriented articles: 21
+- Development / sponsor behavior articles: 38
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

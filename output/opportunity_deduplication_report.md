@@ -1,6 +1,6 @@
 # Opportunity Deduplication Report
 
-Generated: 2026-10-25 00:53:15
+Generated: 2026-10-26 01:01:08
 
 - Total duplicate clusters: 12
 - Opportunities removed via deduplication: 0
@@ -11,7 +11,7 @@ Generated: 2026-10-25 00:53:15
 - JLL Arranges $276M Refi for Newport Beach Seniors Communities: California, 2 related row(s), opportunity score 95, distress score 80.
 - Little Havana Apartment Owners Land $50.8M Refi: Miami / Florida, 2 related row(s), opportunity score 91, distress score 67.
 - KKR Refis Brooklyn Apartments With $95M Loan: New York City / New York, 2 related row(s), opportunity score 91, distress score 67.
-- Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments: Nevada, 2 related row(s), opportunity score 83, distress score 59.
+- Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments: Nevada, 2 related row(s), opportunity score 84, distress score 63.
 - E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles: Los Angeles / California, 2 related row(s), opportunity score 69, distress score 66.
 - Northmarq Arranges $96M Refi on SoCal Apartment Portfolio: Los Angeles / California, 2 related row(s), opportunity score 67, distress score 63.
 - Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio: Los Angeles / California, 2 related row(s), opportunity score 67, distress score 63.
@@ -24,7 +24,7 @@ Generated: 2026-10-25 00:53:15
 - JLL Arranges $276M Refi for Newport Beach Seniors Communities: California, 2 related row(s), opportunity score 95, distress score 80.
 - Little Havana Apartment Owners Land $50.8M Refi: Miami / Florida, 2 related row(s), opportunity score 91, distress score 67.
 - KKR Refis Brooklyn Apartments With $95M Loan: New York City / New York, 2 related row(s), opportunity score 91, distress score 67.
-- Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments: Nevada, 2 related row(s), opportunity score 83, distress score 59.
+- Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments: Nevada, 2 related row(s), opportunity score 84, distress score 63.
 - E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles: Los Angeles / California, 2 related row(s), opportunity score 69, distress score 66.
 - Northmarq Arranges $96M Refi on SoCal Apartment Portfolio: Los Angeles / California, 2 related row(s), opportunity score 67, distress score 63.
 - Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio: Los Angeles / California, 2 related row(s), opportunity score 67, distress score 63.
@@ -51,7 +51,6 @@ Generated: 2026-10-25 00:53:15
 - Anaheim Sale is First Closing in Broader Multifamily Portfolio: California, 1 related row(s), opportunity score 86, distress score 0.
 - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: California, 1 related row(s), opportunity score 86, distress score 0.
 - Retail market tightens, L.A. multifamily sales jump, and more: California, 1 related row(s), opportunity score 66, distress score 0.
-- Broe Real Estate Group Debuts in Southern California with Multifamily Acquisition in San Diego: California, 1 related row(s), opportunity score 65, distress score 0.
 - Inglewood breaks ground on new downtown mobility hubs: California, 1 related row(s), opportunity score 62, distress score 0.
 - How Standard Communities builds workforce rentals in California for under $500,000: California, 1 related row(s), opportunity score 62, distress score 0.
 

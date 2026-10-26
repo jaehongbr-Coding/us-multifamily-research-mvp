@@ -1,21 +1,21 @@
 # GP / Capital Coverage Diagnostics
 
-Generated: 2026-10-25 00:52:59
+Generated: 2026-10-26 01:00:42
 
 ## Summary
 
-- GP / Capital candidate articles: 47
-- Selected GP / Capital articles: 23
-- Excluded by repeat penalty: 11
+- GP / Capital candidate articles: 45
+- Selected GP / Capital articles: 18
+- Excluded by repeat penalty: 15
 - Excluded by integrity issue: 1
 
 ## Top Candidate Sources
 
-- Yield PRO: 9 candidate(s), 7 selected, activities: disposition_exit:2; acquisition:2; debt_financing:2; refinancing:1; capital_raise:1.
-- REBusiness Online: 5 candidate(s), 4 selected, activities: disposition_exit:2; joint_venture:2; acquisition:1.
+- Yield PRO: 7 candidate(s), 4 selected, activities: disposition_exit:2; debt_financing:2; refinancing:1; joint_venture:1; acquisition:1.
+- REBusiness Online: 5 candidate(s), 2 selected, activities: disposition_exit:2; joint_venture:2; acquisition:1.
 - Connect CRE Apartments: 5 candidate(s), 1 selected, activities: disposition_exit:4; acquisition:1.
+- Multifamily Dive: 4 candidate(s), 2 selected, activities: debt_financing:2; joint_venture:1; refinancing:1.
 - Connect CRE Atlanta: 4 candidate(s), 1 selected, activities: acquisition:2; disposition_exit:1; joint_venture:1.
-- Multifamily Dive: 4 candidate(s), 1 selected, activities: debt_financing:2; joint_venture:1; refinancing:1.
 - Commercial Observer: 3 candidate(s), 3 selected, activities: joint_venture:2; refinancing:1.
 - Connect CRE Orange County: 3 candidate(s), 0 selected, activities: disposition_exit:2; refinancing:1.
 - Connect CRE California: 2 candidate(s), 2 selected, activities: acquisition:1; refinancing:1.
@@ -29,8 +29,8 @@ Generated: 2026-10-25 00:52:59
 - Connect CRE: status OK, articles 3, candidates 2, selected 1.
 - Connect CRE Apartments: status OK, articles 5, candidates 5, selected 1.
 - Connect CRE Texas: status OK, articles 0, candidates 0, selected 0.
-- Connect CRE South Florida: status OK, articles 3, candidates 2, selected 1.
-- REBusiness Online: status OK, articles 6, candidates 5, selected 4.
+- Connect CRE South Florida: status OK, articles 3, candidates 2, selected 0.
+- REBusiness Online: status OK, articles 6, candidates 5, selected 2.
 - The Real Deal: status OK, articles 0, candidates 0, selected 0.
 - GlobeSt: status Failed, articles 0, candidates 0, selected 0.
 

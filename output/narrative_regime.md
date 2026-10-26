@@ -1,6 +1,6 @@
 # Narrative Regime Detection
 
-Generated: 2026-10-25 00:53:04
+Generated: 2026-10-26 01:00:49
 
 ## Detected Regime
 
@@ -13,9 +13,9 @@ Generated: 2026-10-25 00:53:04
 
 | Regime | Score |
 | --- | ---: |
-| Selective Capital Re-entry | 199 |
-| Developer Strategy Shift | 105 |
-| Financing Stress | 99 |
+| Selective Capital Re-entry | 186 |
+| Developer Strategy Shift | 104 |
+| Financing Stress | 94 |
 | Supply Pressure | 41 |
 | Policy / Entitlement Watch | 15 |
 | Construction Cost Pressure | 10 |
@@ -30,30 +30,30 @@ Regime momentum is available in `regime_momentum_report.md` when previous heatma
 | Selective Capital Re-entry | 89 | Very Strong |
 | Financing Stress | 87 | Very Strong |
 | Supply Pressure | 70 | Strong |
-| Developer Strategy Shift | 59 | Moderate |
+| Developer Strategy Shift | 56 | Moderate |
 | Policy / Entitlement Watch | 55 | Moderate |
 | Construction Cost Pressure | 31 | Weak |
 | Stable Monitoring Environment | 0 | Not Detected |
 
 ## Signal Inputs
 
-- Strategy-briefing articles reviewed: 44
-- Market-signal articles reviewed: 28
-- Articles with extracted numbers: 28
+- Strategy-briefing articles reviewed: 43
+- Market-signal articles reviewed: 27
+- Articles with extracted numbers: 27
 - Institutional player mentions: 13
 
 ### Strategic Angles
 
-- Institutional Flow: 30
+- Institutional Flow: 28
 - Developer Strategy: 19
-- Financing Risk: 14
+- Financing Risk: 13
 - Supply Pressure: 6
 - Rent Growth / Demand: 4
 - Regulation Risk: 3
 
 ### Market Signals
 
-- Deal Size Signal: 11
+- Deal Size Signal: 10
 - Financing Cost Signal: 7
 - Rent Growth Signal: 7
 - Supply / Starts Signal: 2
@@ -61,37 +61,36 @@ Regime momentum is available in `regime_momentum_report.md` when previous heatma
 
 ### Decision Uses
 
-- Track Institutional Capital Flow: 30
+- Track Institutional Capital Flow: 28
 - Track Developer Strategy: 19
-- Track Financing Conditions: 14
+- Track Financing Conditions: 13
 - Track Supply Pipeline: 6
 - Track Rent / Vacancy Trend: 4
 - Track Regulation Risk: 3
 
 ### Market Focus
 
-- Los Angeles / California: 10
-- Other / Unknown: 6
-- California: 5
-- San Francisco / California: 3
-- Texas: 3
+- Los Angeles / California: 11
+- Other / Unknown: 5
+- California: 4
 - Phoenix / Arizona: 3
+- Texas: 3
+- New York City / New York: 2
 
 ### Action Levels
 
-- Must Read: 29
+- Must Read: 28
 - Review: 12
 - Monitor: 3
 
 ### Woomi Relevance
 
-- High relevance to US residential developer strategy: 35
-- Medium relevance to market monitoring: 9
+- High relevance to US residential developer strategy: 33
+- Medium relevance to market monitoring: 10
 
 ## Key Thematic Context
 
-- Supply Pressure is Sharp Increase (4 to 6).
-- Regulation Risk is Sharp Increase (2 to 3).
+- No major thematic increase alert was detected in this run.
 
 ## Cross-Theme Interpretation
 

@@ -1,6 +1,6 @@
 # Signal Tuning Report
 
-Generated: 2026-10-25 00:52:59
+Generated: 2026-10-26 01:00:42
 
 ## Top Strategic Relevance Articles
 
@@ -41,8 +41,8 @@ Generated: 2026-10-25 00:52:59
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 21
-- Development / sponsor behavior articles: 38
+- Financing-oriented articles: 20
+- Development / sponsor behavior articles: 39
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

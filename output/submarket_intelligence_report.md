@@ -1,8 +1,8 @@
 # Submarket Intelligence Report
 
-Generated: 2026-10-25 00:53:15
+Generated: 2026-10-26 01:01:09
 
-- Total submarkets detected: 26
+- Total submarkets detected: 25
 
 ## Top Submarkets By Opportunity Score
 
@@ -13,9 +13,9 @@ Generated: 2026-10-25 00:53:15
 - Hollywood (Los Angeles): submarket_opportunity_score 97, Monitor entitlement precedent.
 - Anaheim (Orange County): submarket_opportunity_score 93, Review potential acquisition pipeline.
 - Phoenix (Arizona): submarket_opportunity_score 86, Review potential acquisition pipeline.
-- Santa Monica (Los Angeles): submarket_opportunity_score 66, Monitor entitlement precedent.
 - Brooklyn (New York): submarket_opportunity_score 65, Review potential acquisition pipeline.
 - Inglewood (Los Angeles): submarket_opportunity_score 62, Review potential acquisition pipeline.
+- Seattle (Seattle): submarket_opportunity_score 60, Review potential acquisition pipeline.
 
 ## Top Submarkets By Risk Score
 
@@ -26,18 +26,18 @@ Generated: 2026-10-25 00:53:15
 - Atlanta (Southeast): submarket_risk_score 47, Review potential acquisition pipeline.
 - Los Angeles (Los Angeles): submarket_risk_score 25, Monitor entitlement precedent.
 - San Francisco (National / Other): submarket_risk_score 16, Monitor entitlement precedent.
-- Santa Monica (Los Angeles): submarket_risk_score 15, Monitor entitlement precedent.
 - Other / Unknown (National / Other): submarket_risk_score 11, Monitor entitlement precedent.
 - Anaheim (Orange County): submarket_risk_score 0, Review potential acquisition pipeline.
+- Phoenix (Arizona): submarket_risk_score 0, Review potential acquisition pipeline.
 
 ## Highest Execution Complexity Submarkets
 
 - Los Angeles (Los Angeles): execution_complexity_score 65, Monitor entitlement precedent.
-- Santa Monica (Los Angeles): execution_complexity_score 55, Monitor entitlement precedent.
 - San Francisco (National / Other): execution_complexity_score 32, Monitor entitlement precedent.
 - Hollywood (Los Angeles): execution_complexity_score 30, Monitor entitlement precedent.
 - Anaheim (Orange County): execution_complexity_score 30, Review potential acquisition pipeline.
 - Inglewood (Los Angeles): execution_complexity_score 30, Review potential acquisition pipeline.
+- Koreatown (Los Angeles): execution_complexity_score 30, Monitor only.
 - Orange County (Orange County): execution_complexity_score 30, Track local GP / sponsor activity.
 - San Bernardino (Inland Empire): execution_complexity_score 30, Track local GP / sponsor activity.
 - Miami (Florida): execution_complexity_score 20, Review potential acquisition pipeline.
@@ -52,11 +52,11 @@ Generated: 2026-10-25 00:53:15
 - Hollywood: Apartment, Mixed-use corridor.
 - Anaheim: Apartment, General submarket monitoring.
 - Phoenix: Apartment, University-adjacent.
-- Santa Monica: Affordable Housing, Office conversion corridor.
 - Brooklyn: Apartment, General submarket monitoring.
 - Inglewood: General Residential, Downtown infill.
 - Seattle: Apartment, General submarket monitoring.
 - San Francisco: Senior Housing, University-adjacent; Hospital-adjacent.
+- Other / Unknown: Apartment, General submarket monitoring.
 
 ## Timing and Entitlement Signals By Submarket
 
@@ -67,11 +67,11 @@ Generated: 2026-10-25 00:53:15
 - Hollywood: 2 timing signal(s), 1 entitlement signal(s).
 - Anaheim: 1 timing signal(s), 0 entitlement signal(s).
 - Phoenix: 2 timing signal(s), 0 entitlement signal(s).
-- Santa Monica: 1 timing signal(s), 1 entitlement signal(s).
 - Brooklyn: 2 timing signal(s), 0 entitlement signal(s).
 - Inglewood: 1 timing signal(s), 0 entitlement signal(s).
 - Seattle: 0 timing signal(s), 0 entitlement signal(s).
 - San Francisco: 0 timing signal(s), 1 entitlement signal(s).
+- Other / Unknown: 0 timing signal(s), 2 entitlement signal(s).
 
 ## Implications for Woomi / Woomi Global
 
@@ -88,14 +88,14 @@ Generated: 2026-10-25 00:53:15
 - Monitor entitlement precedent: Hollywood (High relevance to Woomi site strategy).
 - Review potential acquisition pipeline: Anaheim (High relevance to Woomi site strategy).
 - Review potential acquisition pipeline: Phoenix (Strategic watch submarket).
-- Monitor entitlement precedent: Santa Monica (High relevance to Woomi site strategy).
+- Review potential acquisition pipeline: Brooklyn (Strategic watch submarket).
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 75
-- LA lifecycle watch items: 44
-- Stage mix: Refinancing / Recapitalization: 9, Delivery / Opening: 6, Site Acquisition / Site Control: 6, Unknown Stage: 43, Community Review: 2
+- Lifecycle records: 74
+- LA lifecycle watch items: 42
+- Stage mix: Refinancing / Recapitalization: 9, Delivery / Opening: 8, Site Acquisition / Site Control: 6, Unknown Stage: 40, Community Review: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

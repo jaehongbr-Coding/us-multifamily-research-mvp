@@ -1,8 +1,8 @@
 # Deal & Project Pipeline Report
 
-Generated: 2026-10-25 00:53:05
+Generated: 2026-10-26 01:00:50
 
-- Total deal/project signals found: 62
+- Total deal/project signals found: 60
 - High deal intelligence count: 7
 
 ## Top 10 Deal / Project Signals
@@ -29,7 +29,7 @@ Generated: 2026-10-25 00:53:05
 - Refinancing - Los Angeles / California - Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio: Refinancing, Los Angeles / California, score 73. Capital market signal.
 - Disposition / Exit - California - Retail market tightens, L.A. multifamily sales jump, and more: Disposition / Exit, California, score 67. Entitlement / zoning watch.
 - Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Entitlement / Permitting, Los Angeles / California, score 67. Entitlement / zoning watch.
-- Acquisition - California - Broe Real Estate Group Debuts in Southern California with Multifamily Acquisition in San D...: Acquisition, California, score 66. Pricing benchmark.
+- Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: Entitlement / Permitting, Los Angeles / California, score 65. Capital market signal.
 
 ## GP / Developer Activity
 
@@ -82,16 +82,15 @@ Generated: 2026-10-25 00:53:05
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Acquisition, Atlanta / Georgia, score 77. Pricing benchmark.
 - Acquisition - Phoenix / Arizona - Founders Group Sells 202-Unit Multifamily Community in Tucson: Acquisition, Phoenix / Arizona, score 71. Pricing benchmark.
 - JV / Partnership - Other / Unknown - UDR, Apollo form $2B joint venture: JV / Partnership, Other / Unknown, score 70. Pricing benchmark.
-- Acquisition - California - Broe Real Estate Group Debuts in Southern California with Multifamily Acquisition in San D...: Acquisition, California, score 66. Pricing benchmark.
 - Acquisition - Colorado - Broe Group Makes First SoCal Multifamily Acquisition in San Diego: Acquisition, Colorado, score 61. Pricing benchmark.
 - Acquisition - Colorado - CentrePoint Properties Divests of 52,743 SF Mixed-Use Property in Wheat Ridge, Colorado: Acquisition, Colorado, score 57. Pricing benchmark.
 - Acquisition - Atlanta / Georgia - Passco Offloads Buckhead Rental Asset for $87.5M: Acquisition, Atlanta / Georgia, score 52. Pricing benchmark.
 
 ## Deal / Project Signals By Residential Sector
 
-- Apartment: 32 deal/project signal(s)
+- Apartment: 31 deal/project signal(s)
 - Multifamily: 12 deal/project signal(s)
-- Affordable Housing: 6 deal/project signal(s)
+- Affordable Housing: 5 deal/project signal(s)
 - Mixed-Use Residential: 3 deal/project signal(s)
 - General Residential: 3 deal/project signal(s)
 - Student Housing: 3 deal/project signal(s)

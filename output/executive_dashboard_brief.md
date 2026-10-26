@@ -1,13 +1,13 @@
 # Executive Dashboard Brief
 
-Generated: 2026-10-25 00:52:59
+Generated: 2026-10-26 01:00:42
 
 ## Executive Snapshot
 
-- Total articles reviewed: 80
+- Total articles reviewed: 79
 - High-confidence signals: 41
 - Institutional-grade signals: 16
-- Opportunities: 57
+- Opportunities: 55
 - Distress signals: 12
 - Recommended executive focus: Review Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi and related high-confidence project signals.
 

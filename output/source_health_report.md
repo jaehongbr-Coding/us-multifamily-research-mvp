@@ -1,6 +1,6 @@
 # Source Health Report
 
-Generated: 2026-10-25 00:53:00
+Generated: 2026-10-26 01:00:44
 
 - Total sources attempted: 163
 - Working sources: 22
@@ -12,7 +12,7 @@ Generated: 2026-10-25 00:53:00
 
 - Multifamily Dive (Core Multifamily News): 5 saved article(s).
 - Multifamily Executive (Core Multifamily News): 3 saved article(s).
-- Yield PRO (Core Multifamily News): 10 saved article(s).
+- Yield PRO (Core Multifamily News): 9 saved article(s).
 - Commercial Observer (Core Multifamily News): 3 saved article(s).
 - Connect CRE (Core Multifamily News): 3 saved article(s).
 - NAHB Eye on Housing - Multifamily (Public Agency / Housing Data): 16 saved article(s).
@@ -73,7 +73,7 @@ Developer / GP source coverage is available in `gp_source_coverage_report.md`.
 Validated source activation scoring is available in `source_activation_report.md`.
 - Working activated sources: 21
 - Failed critical sources: 11
-- Highest quality source this run: Yield PRO (97).
+- Highest quality source this run: Yield PRO (94).
 
 ## Recommended Source Improvement Actions
 

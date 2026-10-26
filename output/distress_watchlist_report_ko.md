@@ -1,6 +1,6 @@
 # 한국어 스트레스 / 부실 Watchlist
 
-- 생성 시각: 2026-10-25 00:52:59
+- 생성 시각: 2026-10-26 01:00:42
 - 참고 원문 파일: `distress_watchlist_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -25,9 +25,9 @@
 - refinancing stress: Los Angeles / California, 멀티패밀리, 점수 66 (High Distress Watch)
 - refinancing stress: Los Angeles / California, 아파트, 점수 63 (High Distress Watch)
 - refinancing stress: Los Angeles / California, 멀티패밀리, 점수 63 (High Distress Watch)
+- refinancing stress: Nevada, 아파트, 점수 63 (High Distress Watch)
 - refinancing stress: Los Angeles / California, 주거복합, 점수 60 (High Distress Watch)
 - distressed sale: Atlanta / Georgia, 아파트, 점수 59 (Monitor)
-- refinancing stress: Nevada, 아파트, 점수 59 (Monitor)
 
 ## 우미 관점 기회 가능성
 

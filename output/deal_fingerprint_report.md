@@ -1,10 +1,10 @@
 # Deal Fingerprint Report
 
-Generated: 2026-10-25 00:53:05
+Generated: 2026-10-26 01:00:50
 
-- Total canonical deals detected: 62
+- Total canonical deals detected: 60
 - Duplicate clusters detected: 0
-- California / LA recurring project count: 8
+- California / LA recurring project count: 7
 
 ## Largest Duplicate Clusters
 
@@ -33,7 +33,6 @@ Generated: 2026-10-25 00:53:05
 - Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
 - Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
 - Disposition / Exit - Unknown - California: California, 1 article(s), 1 source(s), confidence 65.
-- Acquisition - Unknown - California: California, 1 article(s), 1 source(s), confidence 65.
 - Development Start - Unknown - California: California, 1 article(s), 1 source(s), confidence 65.
 - Refinancing - Unknown - California: California, 1 article(s), 1 source(s), confidence 65.
 - General Project Signal - Unknown - California: California, 1 article(s), 1 source(s), confidence 65.

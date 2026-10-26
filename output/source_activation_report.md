@@ -1,6 +1,6 @@
 # Source Activation Report
 
-Generated: 2026-10-25 00:53:00
+Generated: 2026-10-26 01:00:44
 
 - Total sources evaluated: 163
 - Working sources: 21
@@ -14,7 +14,7 @@ Generated: 2026-10-25 00:53:00
 
 ## Strongest Signal-Generating Sources
 
-- Yield PRO (Tier 1): Working, RSS, score 97, 10 saved article(s).
+- Yield PRO (Tier 1): Working, RSS, score 94, 9 saved article(s).
 - Connect CRE Orange County (Tier 2): Working, RSS, score 93, 3 saved article(s).
 - Connect CRE (Tier 1): Working, RSS, score 92, 3 saved article(s).
 - Multifamily Dive (Tier 1): Working, RSS, score 90, 5 saved article(s).
@@ -32,7 +32,7 @@ Generated: 2026-10-25 00:53:00
 
 ## Highest Institutional-Value Sources
 
-- Yield PRO (Tier 1): Working, RSS, score 97, 10 saved article(s).
+- Yield PRO (Tier 1): Working, RSS, score 94, 9 saved article(s).
 - Connect CRE (Tier 1): Working, RSS, score 92, 3 saved article(s).
 - Multifamily Dive (Tier 1): Working, RSS, score 90, 5 saved article(s).
 - Commercial Observer (Tier 1): Working, RSS, score 84, 3 saved article(s).
@@ -43,7 +43,7 @@ Generated: 2026-10-25 00:53:00
 
 ## California / LA Focused Sources
 
-- Yield PRO (Tier 1): Working, RSS, score 97, 10 saved article(s).
+- Yield PRO (Tier 1): Working, RSS, score 94, 9 saved article(s).
 - Connect CRE Orange County (Tier 2): Working, RSS, score 93, 3 saved article(s).
 - Connect CRE (Tier 1): Working, RSS, score 92, 3 saved article(s).
 - Multifamily Dive (Tier 1): Working, RSS, score 90, 5 saved article(s).
@@ -80,7 +80,7 @@ Generated: 2026-10-25 00:53:00
 
 ## RSS-Ready Sources
 
-- Yield PRO (Tier 1): Working, RSS, score 97, 10 saved article(s).
+- Yield PRO (Tier 1): Working, RSS, score 94, 9 saved article(s).
 - Connect CRE Orange County (Tier 2): Working, RSS, score 93, 3 saved article(s).
 - Connect CRE (Tier 1): Working, RSS, score 92, 3 saved article(s).
 - Multifamily Dive (Tier 1): Working, RSS, score 90, 5 saved article(s).
@@ -104,7 +104,7 @@ Generated: 2026-10-25 00:53:00
 
 | Rank | Source | Tier | Status | Score | Saved | Signal Density |
 | ---: | --- | --- | --- | ---: | ---: | ---: |
-| 1 | Yield PRO | Tier 1 | Working | 97 | 10 | 100 |
+| 1 | Yield PRO | Tier 1 | Working | 94 | 9 | 100 |
 | 2 | Connect CRE Orange County | Tier 2 | Working | 93 | 3 | 100 |
 | 3 | Connect CRE | Tier 1 | Working | 92 | 3 | 100 |
 | 4 | Multifamily Dive | Tier 1 | Working | 90 | 5 | 100 |

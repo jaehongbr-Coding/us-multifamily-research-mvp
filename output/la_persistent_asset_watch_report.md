@@ -1,8 +1,8 @@
 # LA Persistent Asset Watch Report
 
-Generated: 2026-10-25 00:53:17
+Generated: 2026-10-26 01:01:12
 
-- Total LA persistent asset watch items: 91
+- Total LA persistent asset watch items: 84
 
 ## Priority LA Asset Watch Items
 
@@ -13,9 +13,9 @@ Generated: 2026-10-25 00:53:17
 - Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Los Angeles, Community Review, Track repeat project updates.
 - Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
 - Disposition / Exit - California - Retail market tightens, L.A. multifamily sales jump, and more: Los Angeles, Unknown Stage, Track repeat project updates.
-- Acquisition - California - Broe Real Estate Group Debuts in Southern California with Multifamily Acquisition in San D...: Southern California, Unknown Stage, Track repeat project updates.
 - Development Start - California - Inglewood breaks ground on new downtown mobility hubs: California, Vertical Construction, Track repeat project updates.
 - General Project Signal - California - How Standard Communities builds workforce rentals in California for under $500,000: California, Refinancing / Recapitalization, Track repeat project updates.
+- Development Start - Sun Belt - FIRST DRAFT LIVE: Why Sun Belt Multifamily Giant Cortland Is Moving Its Money North: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
 
 ## Koreatown / Wilshire Persistent Assets
 
@@ -49,6 +49,7 @@ Generated: 2026-10-25 00:53:17
 
 - Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: California, Delivery / Opening, Track repeat project updates.
 - Development Start - California - Inglewood breaks ground on new downtown mobility hubs: California, Vertical Construction, Track repeat project updates.
+- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: Los Angeles, Delivery / Opening, Track repeat project updates.
 
 ## Recommended Local Follow-up Actions
 

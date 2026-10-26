@@ -1,8 +1,8 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-10-25 00:53:04
+Generated: 2026-10-26 01:00:50
 
-- GP/developer candidates reviewed: 18
+- GP/developer candidates reviewed: 17
 - Tier 1 Strategic GPs: 0
 - Tier 2 High Potential GPs: 3
 
@@ -46,7 +46,6 @@ Generated: 2026-10-25 00:53:04
 
 ## Affordable Housing GP Activity
 
-- Investors Commit Capital: score 45, Emerging Watchlist, Other / Unknown, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
 - Walker & Dunlop: score 20, Low Signal, Other / Unknown, General developer monitoring. Monitor only.
 
 ## Student Housing GP Activity
@@ -130,10 +129,10 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 153
+- Signals evaluated: 148
 - Institutional-grade signals: 16
 - High-confidence signals: 41
-- Weak/noisy signals: 96
+- Weak/noisy signals: 94
 - High-confidence watchlist items: 41
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

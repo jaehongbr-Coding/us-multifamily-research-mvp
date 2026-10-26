@@ -1,9 +1,9 @@
 # Lifecycle Transition Report
 
-Generated: 2026-10-25 00:53:17
+Generated: 2026-10-26 01:01:12
 
-- Total lifecycle transitions analyzed: 75
-- Newly detected projects: 7
+- Total lifecycle transitions analyzed: 74
+- Newly detected projects: 3
 - Forward progression projects: 0
 - Possible stalled projects: 2
 - Reappearing projects: 0
@@ -29,20 +29,16 @@ Generated: 2026-10-25 00:53:17
 - Expansion of apartment complex at 6007 Sunset survives appeal: Community Review -> Community Review, Same Stage Persistence, stall_risk_score 62.
 - Development Start - Sun Belt - FIRST DRAFT LIVE: Why Sun Belt Multifamily Giant Cortland Is Moving Its Money North: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
 - Entitlement / Permitting - Los Angeles / California - Developer plans high-rise apartments at 6409 Sunset Blvd. in Hollywood: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 38.
+- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 37.
 - Affordable housing slated for 5003 N. Kester Ave. in Sherman Oaks: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
 - Developer plans high-rise apartments at 6409 Sunset Blvd. in Hollywood: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
 - New master plan for L.A. General Hospital campus gets key approval: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
-- Brighton Multifamily Draws Record Pool of Potential Buyers: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
 
 ## Newly Detected Projects
 
-- Refinancing - Los Angeles / California - E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 58.
-- Disposition / Exit - California - Retail market tightens, L.A. multifamily sales jump, and more: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 42.
-- Entitlement / Permitting - Texas - Application Complete For 155 Jefferson Drive, Menlo Park: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 41.
-- Application Complete For 155 Jefferson Drive, Menlo Park: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 41.
-- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: No Previous Record -> Site Acquisition / Site Control, Newly Detected Project, progression_score 41.
-- JV / Partnership - Other / Unknown - Apollo and UDR Inc Announce 19-Property Multifamily Ownership and Operation Joint Venture: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 34.
-- Disposition / Exit - Other / Unknown - Essex Realty Group Closes Historic Schoolhouse Apartments Portfolio in Cary Illinois: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 32.
+- Ira D. Square Opens at 1178 Sonora Court, Sunnyvale: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 64.
+- General Project Signal - Other / Unknown - Ira D. Square Opens at 1178 Sonora Court, Sunnyvale: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 62.
+- Eight townhomes in the works at 146 N. Berendo St. in Koreatown: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 41.
 
 ## Forward Progression Projects
 
@@ -59,11 +55,11 @@ Generated: 2026-10-25 00:53:17
 
 ## Refinancing / Recap Timing Transitions
 
+- Refinancing - Los Angeles / California - E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 30.
 - Refinancing - Los Angeles / California - Hollywood's Yamashiro Complex Gets $25M Refinance: The Los Angeles Deal Sheet: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 30.
 - Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi on SoCal Apartment Portfolio: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 30.
 - Refinancing - Los Angeles / California - Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 30.
 - Refinancing - California - Life Company Provides Permanent Loan on Monterey Office Park: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 30.
-- Refinancing - Los Angeles / California - E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
 - Refinancing - Nevada - Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
 - Refinancing - Florida - How development helps Richard Richman’s tax syndication business: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
@@ -97,11 +93,11 @@ Generated: 2026-10-25 00:53:17
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 642
-- Canonical projects: 153
-- Duplicate project clusters: 106
-- Persistent assets tracked: 153
-- LA persistent asset watch items: 91
+- Raw project references: 624
+- Canonical projects: 148
+- Duplicate project clusters: 100
+- Persistent assets tracked: 148
+- LA persistent asset watch items: 84
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -109,10 +105,10 @@ Generated: 2026-10-25 00:53:17
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 153
+- Signals evaluated: 148
 - Institutional-grade signals: 16
 - High-confidence signals: 41
-- Weak/noisy signals: 96
+- Weak/noisy signals: 94
 - High-confidence watchlist items: 41
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

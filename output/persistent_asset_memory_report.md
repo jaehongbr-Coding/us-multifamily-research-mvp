@@ -1,9 +1,9 @@
 # Persistent Asset Memory Report
 
-Generated: 2026-10-25 00:53:17
+Generated: 2026-10-26 01:01:12
 
-- Total persistent assets tracked: 153
-- Newly detected assets: 115
+- Total persistent assets tracked: 148
+- Newly detected assets: 109
 - Progressing assets: 0
 - Possible stalled assets: 6
 
@@ -28,22 +28,22 @@ Generated: 2026-10-25 00:53:17
 - Refinancing - Nevada - Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments: Priority Asset Watch, Refinancing / Recapitalization, score 78.
 - Refinancing - New York City / New York - KKR Refis Brooklyn Apartments With $95M Loan: Priority Asset Watch, Delivery / Opening, score 78.
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Priority Asset Watch, Refinancing / Recapitalization, score 78.
+- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: Priority Asset Watch, Delivery / Opening, score 76.
 - Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: Priority Asset Watch, Site Acquisition / Site Control, score 75.
 - General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: Strategic Asset Watch, Site Acquisition / Site Control, score 73.
 - Refinancing - Florida - How development helps Richard Richman’s tax syndication business: Strategic Asset Watch, Refinancing / Recapitalization, score 68.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Unknown Stage, score 60.
 
 ## Assets With Repeated Entitlement Signals
 
 - Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Priority Asset Watch, Community Review, score 91.
 - Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: Priority Asset Watch, Refinancing / Recapitalization, score 86.
-- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: Priority Asset Watch, Building Permit / Construction Permit, score 78.
 - Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: Priority Asset Watch, Building Permit / Construction Permit, score 77.
+- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: Priority Asset Watch, Building Permit / Construction Permit, score 76.
+- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: Priority Asset Watch, Delivery / Opening, score 76.
 - Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: Priority Asset Watch, Site Acquisition / Site Control, score 75.
 - Entitlement / Permitting - Los Angeles / California - Developer plans high-rise apartments at 6409 Sunset Blvd. in Hollywood: Strategic Asset Watch, Early Site Signal, score 74.
 - General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: Strategic Asset Watch, Site Acquisition / Site Control, score 73.
 - JV / Partnership - Texas - Joint Venture Completes 873-Bed Student Housing Project in College Station: Strategic Asset Watch, Unknown Stage, score 66.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Unknown Stage, score 60.
 - Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: Strategic Asset Watch, Unknown Stage, score 55.
 
 ## Recurring Asset Signals
@@ -79,10 +79,10 @@ Generated: 2026-10-25 00:53:17
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 153
+- Signals evaluated: 148
 - Institutional-grade signals: 16
 - High-confidence signals: 41
-- Weak/noisy signals: 96
+- Weak/noisy signals: 94
 - High-confidence watchlist items: 41
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

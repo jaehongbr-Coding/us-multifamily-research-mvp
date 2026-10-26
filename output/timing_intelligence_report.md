@@ -1,8 +1,8 @@
 # Timing Intelligence Report
 
-Generated: 2026-10-25 00:53:15
+Generated: 2026-10-26 01:01:09
 
-- Total timing signals detected: 49
+- Total timing signals detected: 47
 
 ## Top Timing Signals
 
@@ -57,18 +57,17 @@ Generated: 2026-10-25 00:53:15
 - Acquisition Window in Louisville / Kentucky: No explicit timing reference, score 67, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Acquisition Window in Miami / Florida: No explicit timing reference, score 67, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Acquisition Window in Washington DC: No explicit timing reference, score 67, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
-- Acquisition Window in California: No explicit timing reference, score 66, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Acquisition Window in Colorado: No explicit timing reference, score 62, Monthly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Acquisition Window in Denver / Colorado: No explicit timing reference, score 61, Monthly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Acquisition Window in Atlanta / Georgia: No explicit timing reference, score 57, Monthly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Acquisition Window in New York City / New York: No explicit timing reference, score 54, Monthly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Acquisition Window in Atlanta / Georgia: No explicit timing reference, score 50, Monthly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
+- Acquisition Window in Phoenix / Arizona: No explicit timing reference, score 50, Monthly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 
 ## LA / California Timing Signals
 
 - Refinancing / Maturity Window in California: No explicit timing reference, score 78, Biweekly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
 - Distress Sale Timing in California: No explicit timing reference, score 70, Biweekly monitoring. Prepare sponsor, lender, and rescue-capital watchlist.
-- Acquisition Window in California: No explicit timing reference, score 66, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Construction Completion / Delivery in California: No explicit timing reference, score 66, Biweekly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
 - Distress Sale Timing in California: No explicit timing reference, score 64, Monthly monitoring. Prepare sponsor, lender, and rescue-capital watchlist.
 - Refinancing / Maturity Window in California: No explicit timing reference, score 59, Monthly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
@@ -81,8 +80,8 @@ Generated: 2026-10-25 00:53:15
 ## Recommended Monitoring Cadence
 
 - Monthly: 23 timing signal(s)
-- Biweekly: 17 timing signal(s)
-- Monitor Only: 6 timing signal(s)
+- Biweekly: 16 timing signal(s)
+- Monitor Only: 5 timing signal(s)
 - Weekly: 3 timing signal(s)
 
 ## Implications for Woomi / Woomi Global
@@ -95,9 +94,9 @@ Generated: 2026-10-25 00:53:15
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 75
-- LA lifecycle watch items: 44
-- Stage mix: Refinancing / Recapitalization: 9, Delivery / Opening: 6, Site Acquisition / Site Control: 6, Unknown Stage: 43, Community Review: 2
+- Lifecycle records: 74
+- LA lifecycle watch items: 42
+- Stage mix: Refinancing / Recapitalization: 9, Delivery / Opening: 8, Site Acquisition / Site Control: 6, Unknown Stage: 40, Community Review: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -105,10 +104,10 @@ Generated: 2026-10-25 00:53:15
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 75
-- Newly detected projects: 7
+- Lifecycle transitions analyzed: 74
+- Newly detected projects: 3
 - Forward progression projects: 0
 - Possible stalled projects: 2
-- LA lifecycle transition watch items: 41
+- LA lifecycle transition watch items: 39
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 

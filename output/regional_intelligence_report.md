@@ -1,23 +1,23 @@
 # Regional Intelligence Report
 
-Generated: 2026-10-25 00:53:04
+Generated: 2026-10-26 01:00:50
 
 ## Top 5 Markets By Relevance
 
-- California: Core Watch Market, 27 article(s), average relevance 82.1.
-- Los Angeles: Core Watch Market, 16 article(s), average relevance 86.8.
-- National / Other: General Monitoring, 28 article(s), average relevance 69.7.
-- Southeast: Strategic Watch Market, 6 article(s), average relevance 75.3.
+- California: Core Watch Market, 25 article(s), average relevance 83.2.
+- Los Angeles: Core Watch Market, 15 article(s), average relevance 89.3.
+- National / Other: General Monitoring, 28 article(s), average relevance 68.4.
+- Southeast: Strategic Watch Market, 7 article(s), average relevance 75.4.
 - Texas: Strategic Watch Market, 4 article(s), average relevance 81.2.
 
 ## LA / California Focus
 
-- California: 27 article(s), 15 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
-- Los Angeles: 16 article(s), 10 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
+- California: 25 article(s), 14 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
+- Los Angeles: 15 article(s), 9 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
 
 ## Sun Belt / Texas / Southeast
 
-- Southeast: 6 article(s), 1 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
+- Southeast: 7 article(s), 1 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
 - Texas: 4 article(s), 0 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
 - Arizona: 3 article(s), 2 market signal(s), Strategic Watch Market. Track institutional capital activity.
 - Phoenix: 3 article(s), 2 market signal(s), Strategic Watch Market. Track institutional capital activity.
@@ -40,7 +40,7 @@ Market-level deal and project signals are available in `deal_pipeline_report.md`
 - California: Disposition / Exit, Entitlement / zoning watch.
 - California: Disposition / Exit, Entitlement / zoning watch.
 - California: Disposition / Exit, Entitlement / zoning watch.
-- California: Acquisition, Pricing benchmark.
+- California: Development Start, Pipeline / supply signal.
 
 ## Relationship Graph Intelligence
 

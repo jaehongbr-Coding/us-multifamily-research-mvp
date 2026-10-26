@@ -1,14 +1,14 @@
 # Development Lifecycle Report
 
-Generated: 2026-10-25 00:53:17
+Generated: 2026-10-26 01:01:12
 
-- Total lifecycle records: 75
+- Total lifecycle records: 74
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 43
+- Unknown Stage: 40
 - Refinancing / Recapitalization: 9
-- Delivery / Opening: 6
+- Delivery / Opening: 8
 - Site Acquisition / Site Control: 6
 - Community Review: 2
 - Building Permit / Construction Permit: 2
@@ -41,8 +41,8 @@ Generated: 2026-10-25 00:53:17
 - Refinancing - Los Angeles / California - Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 61.
 - Refinancing - Los Angeles / California - Hollywood's Yamashiro Complex Gets $25M Refinance: The Los Angeles Deal Sheet: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 60.
 - Refinancing - Florida - How development helps Richard Richman’s tax syndication business: Refinancing / Recapitalization, Florida, lifecycle_risk_score 55.
+- Refinancing - Nevada - Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments: Refinancing / Recapitalization, Nevada, lifecycle_risk_score 51.
 - Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Community Review, Los Angeles, lifecycle_risk_score 50.
-- Expansion of apartment complex at 6007 Sunset survives appeal: Community Review, Hollywood, lifecycle_risk_score 50.
 
 ## Projects Under Entitlement / Planning
 
@@ -63,7 +63,9 @@ Generated: 2026-10-25 00:53:17
 - KKR Refis Brooklyn Apartments With $95M Loan: Delivery / Opening, Brooklyn, lifecycle_opportunity_score 100.
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening, California, lifecycle_opportunity_score 100.
 - Refinancing - New York City / New York - KKR Refis Brooklyn Apartments With $95M Loan: Delivery / Opening, Brooklyn, lifecycle_opportunity_score 94.
+- Ira D. Square Opens at 1178 Sonora Court, Sunnyvale: Delivery / Opening, Unknown, lifecycle_opportunity_score 78.
 - Acquisition - Phoenix / Arizona - Founders Group Sells 202-Unit Multifamily Community in Tucson: Delivery / Opening, Tucson, lifecycle_opportunity_score 63.
+- General Project Signal - Other / Unknown - Ira D. Square Opens at 1178 Sonora Court, Sunnyvale: Delivery / Opening, Unknown, lifecycle_opportunity_score 62.
 - CentrePoint Properties Divests of 52,743 SF Mixed-Use Property in Wheat Ridge, Colorado: Delivery / Opening, Unknown, lifecycle_opportunity_score 62.
 - Acquisition - Colorado - CentrePoint Properties Divests of 52,743 SF Mixed-Use Property in Wheat Ridge, Colorado: Delivery / Opening, Colorado, lifecycle_opportunity_score 58.
 
@@ -80,8 +82,8 @@ Generated: 2026-10-25 00:53:17
 - Refinancing - Los Angeles / California - Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 61.
 - Refinancing - Los Angeles / California - Hollywood's Yamashiro Complex Gets $25M Refinance: The Los Angeles Deal Sheet: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 60.
 - Refinancing - Florida - How development helps Richard Richman’s tax syndication business: Refinancing / Recapitalization, Florida, lifecycle_risk_score 55.
+- Refinancing - Nevada - Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments: Refinancing / Recapitalization, Nevada, lifecycle_risk_score 51.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 49.
-- Refinancing - Nevada - Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments: Refinancing / Recapitalization, Nevada, lifecycle_risk_score 49.
 - Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Refinancing / Recapitalization, California, lifecycle_risk_score 40.
 
 ## Implications for Woomi / Woomi Global
@@ -104,11 +106,11 @@ Generated: 2026-10-25 00:53:17
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 75
-- Newly detected projects: 7
+- Lifecycle transitions analyzed: 74
+- Newly detected projects: 3
 - Forward progression projects: 0
 - Possible stalled projects: 2
-- LA lifecycle transition watch items: 41
+- LA lifecycle transition watch items: 39
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -116,11 +118,11 @@ Generated: 2026-10-25 00:53:17
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 642
-- Canonical projects: 153
-- Duplicate project clusters: 106
-- Persistent assets tracked: 153
-- LA persistent asset watch items: 91
+- Raw project references: 624
+- Canonical projects: 148
+- Duplicate project clusters: 100
+- Persistent assets tracked: 148
+- LA persistent asset watch items: 84
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -128,10 +130,10 @@ Generated: 2026-10-25 00:53:17
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 153
+- Signals evaluated: 148
 - Institutional-grade signals: 16
 - High-confidence signals: 41
-- Weak/noisy signals: 96
+- Weak/noisy signals: 94
 - High-confidence watchlist items: 41
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

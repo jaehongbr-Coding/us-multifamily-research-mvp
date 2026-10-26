@@ -1,8 +1,8 @@
 # Entitlement Intelligence Report
 
-Generated: 2026-10-25 00:53:15
+Generated: 2026-10-26 01:01:09
 
-- Total entitlement signals detected: 9
+- Total entitlement signals detected: 8
 
 ## Top Entitlement Opportunities
 
@@ -10,7 +10,6 @@ Generated: 2026-10-25 00:53:15
 - Building Permit / Construction Permit in Other / Unknown: Permitted, entitlement_opportunity_score 55. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in San Francisco: Approved / Entitled, entitlement_opportunity_score 45. Track construction-ready pipeline and comparable sponsor execution.
 - Office-to-Residential Conversion in Los Angeles: Unknown Stage, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
-- Office-to-Residential Conversion in Santa Monica: Unknown Stage, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
 - Entitlement Approval in Los Angeles: Delayed / Appealed, entitlement_opportunity_score 35. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles / California: Early Planning, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Unknown: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
@@ -22,7 +21,6 @@ Generated: 2026-10-25 00:53:15
 - Entitlement Approval in Los Angeles: Approved / Entitled, entitlement_risk_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in San Francisco: Approved / Entitled, entitlement_risk_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Office-to-Residential Conversion in Los Angeles: Unknown Stage, entitlement_risk_score 28. Review office conversion feasibility, policy support, and local sponsor activity.
-- Office-to-Residential Conversion in Santa Monica: Unknown Stage, entitlement_risk_score 28. Review office conversion feasibility, policy support, and local sponsor activity.
 - Entitlement Approval in Unknown: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
 - Building Permit / Construction Permit in Other / Unknown: Permitted, entitlement_risk_score 20. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles / California: Early Planning, entitlement_risk_score 20. Track construction-ready pipeline and comparable sponsor execution.
@@ -54,7 +52,6 @@ Generated: 2026-10-25 00:53:15
 ## Office-to-Residential Conversion Signals
 
 - Office-to-Residential Conversion in Los Angeles: Unknown Stage, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
-- Office-to-Residential Conversion in Santa Monica: Unknown Stage, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
 
 ## Implications for Woomi / Woomi Global
 
@@ -69,16 +66,16 @@ Generated: 2026-10-25 00:53:15
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Los Angeles.
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in San Francisco.
 - Review office conversion feasibility, policy support, and local sponsor activity: Office-to-Residential Conversion in Los Angeles.
-- Review office conversion feasibility, policy support, and local sponsor activity: Office-to-Residential Conversion in Santa Monica.
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Los Angeles / California.
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Unknown.
+- Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Other / Unknown.
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 75
-- LA lifecycle watch items: 44
-- Stage mix: Refinancing / Recapitalization: 9, Delivery / Opening: 6, Site Acquisition / Site Control: 6, Unknown Stage: 43, Community Review: 2
+- Lifecycle records: 74
+- LA lifecycle watch items: 42
+- Stage mix: Refinancing / Recapitalization: 9, Delivery / Opening: 8, Site Acquisition / Site Control: 6, Unknown Stage: 40, Community Review: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

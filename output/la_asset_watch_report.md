@@ -1,8 +1,8 @@
 # LA / Southern California Asset Watch Report
 
-Generated: 2026-10-25 00:53:16
+Generated: 2026-10-26 01:01:10
 
-- Total LA / Southern California asset watch items: 44
+- Total LA / Southern California asset watch items: 43
 
 ## Top LA Site-Level Opportunities
 
@@ -37,7 +37,6 @@ Generated: 2026-10-25 00:53:16
 ## DTLA / Office Conversion Site Watch
 
 - Office-to-Residential Conversion - Los Angeles / California - New master plan for L.A. General Hospital campus gets key approval: Los Angeles, Office-to-Residential Conversion, la_asset_opportunity_score 78.
-- Office-to-Residential Conversion - Santa Monica / California - Santa Monica releases draft plan for airport park conversion: Los Angeles, Office-to-Residential Conversion, la_asset_opportunity_score 69.
 
 ## Hollywood / TOD Site Watch
 
@@ -65,8 +64,8 @@ Generated: 2026-10-25 00:53:16
 - KKR Refis Brooklyn Apartments With $95M Loan: Los Angeles, Lease-Up / Delivery, la_asset_opportunity_score 92.
 - ORIX Acquires Buckhead Apartments for $83M: Los Angeles, General Asset Signal, la_asset_opportunity_score 91.
 - Affordable housing slated for 5003 N. Kester Ave. in Sherman Oaks: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 90.
+- Eight townhomes in the works at 146 N. Berendo St. in Koreatown: Los Angeles, Entitlement Play, la_asset_opportunity_score 89.
 - Developer plans high-rise apartments at 6409 Sunset Blvd. in Hollywood: Los Angeles, Entitlement Play, la_asset_opportunity_score 88.
-- New Building Permits For Backyard ADUs at 466 Frederick Street, San Francisco: California, Construction-Ready Pipeline, la_asset_opportunity_score 86.
 
 ## Recommended LA Asset Follow-up Actions
 
@@ -83,9 +82,9 @@ Generated: 2026-10-25 00:53:16
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 75
-- LA lifecycle watch items: 44
-- Stage mix: Refinancing / Recapitalization: 9, Delivery / Opening: 6, Site Acquisition / Site Control: 6, Unknown Stage: 43, Community Review: 2
+- Lifecycle records: 74
+- LA lifecycle watch items: 42
+- Stage mix: Refinancing / Recapitalization: 9, Delivery / Opening: 8, Site Acquisition / Site Control: 6, Unknown Stage: 40, Community Review: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -93,11 +92,11 @@ Generated: 2026-10-25 00:53:16
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 75
-- Newly detected projects: 7
+- Lifecycle transitions analyzed: 74
+- Newly detected projects: 3
 - Forward progression projects: 0
 - Possible stalled projects: 2
-- LA lifecycle transition watch items: 41
+- LA lifecycle transition watch items: 39
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -105,10 +104,10 @@ Generated: 2026-10-25 00:53:16
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 642
-- Canonical projects: 153
-- Duplicate project clusters: 106
-- Persistent assets tracked: 153
-- LA persistent asset watch items: 91
+- Raw project references: 624
+- Canonical projects: 148
+- Duplicate project clusters: 100
+- Persistent assets tracked: 148
+- LA persistent asset watch items: 84
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

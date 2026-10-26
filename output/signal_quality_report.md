@@ -1,11 +1,11 @@
 # Strategic Signal Quality Report
 
-Generated: 2026-10-25 00:53:17
+Generated: 2026-10-26 01:01:12
 
-- Total signals evaluated: 153
+- Total signals evaluated: 148
 - Institutional-grade signals: 16
 - High-confidence signals: 41
-- Weak/noisy signals: 96
+- Weak/noisy signals: 94
 
 ## Strongest Recurring Signals
 
@@ -18,7 +18,7 @@ Generated: 2026-10-25 00:53:17
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Institutional Grade, score 91, 5 source file(s), 7 observation(s), latest stage Unknown Stage, identity confidence 100.
 - General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing: Institutional Grade, score 91, 8 source file(s), 10 observation(s), latest stage Unknown Stage, identity confidence 100.
 - Disposition / Exit - Other / Unknown - Brighton Multifamily Draws Record Pool of Potential Buyers: Institutional Grade, score 90, 7 source file(s), 7 observation(s), latest stage Site Acquisition / Site Control, identity confidence 100.
-- General Project Signal - California - How Standard Communities builds workforce rentals in California for under $500,000: Institutional Grade, score 88, 7 source file(s), 19 observation(s), latest stage Refinancing / Recapitalization, identity confidence 80.
+- General Project Signal - California - How Standard Communities builds workforce rentals in California for under $500,000: Institutional Grade, score 88, 7 source file(s), 17 observation(s), latest stage Refinancing / Recapitalization, identity confidence 80.
 
 ## Strongest LA / California Signals
 
@@ -28,7 +28,7 @@ Generated: 2026-10-25 00:53:17
 - Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: Institutional Grade, score 93, 8 source file(s), 8 observation(s), latest stage Community Review, identity confidence 100.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Institutional Grade, score 91, 5 source file(s), 7 observation(s), latest stage Unknown Stage, identity confidence 100.
 - General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing: Institutional Grade, score 91, 8 source file(s), 10 observation(s), latest stage Unknown Stage, identity confidence 100.
-- General Project Signal - California - How Standard Communities builds workforce rentals in California for under $500,000: Institutional Grade, score 88, 7 source file(s), 19 observation(s), latest stage Refinancing / Recapitalization, identity confidence 80.
+- General Project Signal - California - How Standard Communities builds workforce rentals in California for under $500,000: Institutional Grade, score 88, 7 source file(s), 17 observation(s), latest stage Refinancing / Recapitalization, identity confidence 80.
 - Development Start - Sun Belt - FIRST DRAFT LIVE: Why Sun Belt Multifamily Giant Cortland Is Moving Its Money North: Institutional Grade, score 88, 6 source file(s), 6 observation(s), latest stage Site Acquisition / Site Control, identity confidence 80.
 - Development Start - California - Inglewood breaks ground on new downtown mobility hubs: Institutional Grade, score 87, 4 source file(s), 4 observation(s), latest stage Vertical Construction, identity confidence 80.
 - Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: Institutional Grade, score 86, 5 source file(s), 17 observation(s), latest stage Site Acquisition / Site Control, identity confidence 80.
@@ -44,7 +44,7 @@ Generated: 2026-10-25 00:53:17
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Institutional Grade, score 91, 5 source file(s), 7 observation(s), latest stage Unknown Stage, identity confidence 100.
 - General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing: Institutional Grade, score 91, 8 source file(s), 10 observation(s), latest stage Unknown Stage, identity confidence 100.
 - Disposition / Exit - Other / Unknown - Brighton Multifamily Draws Record Pool of Potential Buyers: Institutional Grade, score 90, 7 source file(s), 7 observation(s), latest stage Site Acquisition / Site Control, identity confidence 100.
-- General Project Signal - California - How Standard Communities builds workforce rentals in California for under $500,000: Institutional Grade, score 88, 7 source file(s), 19 observation(s), latest stage Refinancing / Recapitalization, identity confidence 80.
+- General Project Signal - California - How Standard Communities builds workforce rentals in California for under $500,000: Institutional Grade, score 88, 7 source file(s), 17 observation(s), latest stage Refinancing / Recapitalization, identity confidence 80.
 
 ## Strongest Refinancing / Stress Signals
 
@@ -65,10 +65,10 @@ Generated: 2026-10-25 00:53:17
 - Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: Institutional Grade, score 86, 5 source file(s), 17 observation(s), latest stage Site Acquisition / Site Control, identity confidence 80.
 - Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: High Confidence, score 84, 3 source file(s), 22 observation(s), latest stage Refinancing / Recapitalization, identity confidence 80.
 - Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: High Confidence, score 79, 3 source file(s), 5 observation(s), latest stage Building Permit / Construction Permit, identity confidence 80.
+- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: High Confidence, score 75, 5 source file(s), 9 observation(s), latest stage Building Permit / Construction Permit, identity confidence 80.
 - Entitlement / Permitting - Los Angeles / California - Developer plans high-rise apartments at 6409 Sunset Blvd. in Hollywood: High Confidence, score 74, 3 source file(s), 5 observation(s), latest stage Early Site Signal, identity confidence 80.
 - Entitlement / Permitting - Los Angeles / California - Expansion of apartment complex at 6007 Sunset survives appeal: High Confidence, score 72, 3 source file(s), 5 observation(s), latest stage Unknown Stage, identity confidence 100.
-- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: High Confidence, score 71, 3 source file(s), 35 observation(s), latest stage Unknown Stage, identity confidence 80.
-- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: High Confidence, score 70, 5 source file(s), 11 observation(s), latest stage Building Permit / Construction Permit, identity confidence 80.
+- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: High Confidence, score 71, 3 source file(s), 34 observation(s), latest stage Unknown Stage, identity confidence 80.
 - Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: High Confidence, score 70, 5 source file(s), 26 observation(s), latest stage Unknown Stage, identity confidence 80.
 - Entitlement / Permitting - San Francisco / California - New Building Permits For Backyard ADUs at 466 Frederick Street, San Francisco: Moderate Confidence, score 61, 2 source file(s), 8 observation(s), latest stage Unknown Stage, identity confidence 80.
 

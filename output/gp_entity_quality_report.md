@@ -1,19 +1,18 @@
 # GP / Capital Entity Quality Report
 
-Generated: 2026-10-25 00:53:04
+Generated: 2026-10-26 01:00:50
 
 ## Summary
 
-- Total GP/Capital articles: 47
-- Participant not identified: 24
+- Total GP/Capital articles: 45
+- Participant not identified: 23
 - Dictionary match: 16
 - Title fallback / headline extraction: 1
-- Low confidence or unresolved: 24
+- Low confidence or unresolved: 23
 
 ## Representative Resolved Samples
 
 - Blackstone: 6 Blackstone multifamily properties move to servicing (dictionary_match, high)
-- Investors Commit Capital: Investors Commit Capital to Fund Multifamily Affordable Housing Development (capital_event_sentence, medium)
 - Bridge Investment Group: Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments (dictionary_match, high)
 - JLL: KKR Refis Brooklyn Apartments With $95M Loan (dictionary_match, high)
 - Voya Investment Management: Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio (capital_event_sentence, medium)
@@ -22,6 +21,7 @@ Generated: 2026-10-25 00:53:04
 - CBRE: ORIX Acquires Buckhead Apartments for $83M (dictionary_match, high)
 - JLL: Little Havana Apartment Owners Land $50.8M Refi (dictionary_match, high)
 - Berkadia: Berkadia Arranges Refis for 3 S. Florida Rental Communities (dictionary_match, high)
+- Newport Beach Seniors Communities JLL Capital: JLL Arranges $276M Refi for Newport Beach Seniors Communities (dictionary_match, high)
 
 ## Unresolved Examples
 

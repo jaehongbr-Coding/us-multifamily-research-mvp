@@ -1,6 +1,6 @@
 # Distress Watchlist Report
 
-Generated: 2026-10-25 00:53:15
+Generated: 2026-10-26 01:01:09
 
 - Total distress signals: 12
 
@@ -13,9 +13,9 @@ Generated: 2026-10-25 00:53:15
 - refinancing stress in Los Angeles / California: Refinancing - Los Angeles / California - E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles, score 66. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - refinancing stress in Los Angeles / California: Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi on SoCal Apartment Portfolio, score 63. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - refinancing stress in Los Angeles / California: Refinancing - Los Angeles / California - Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio, score 63. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- refinancing stress in Nevada: Refinancing - Nevada - Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments, score 63. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - refinancing stress in Los Angeles / California: Refinancing - Los Angeles / California - Hollywood's Yamashiro Complex Gets $25M Refinance: The Los Angeles Deal Sheet, score 60. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - distressed sale in Atlanta / Georgia: Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset, score 59. Monitor for repeated distress signals.
-- refinancing stress in Nevada: Refinancing - Nevada - Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments, score 59. Monitor for repeated distress signals.
 
 ## Refinancing Stress Watch
 
@@ -26,8 +26,8 @@ Generated: 2026-10-25 00:53:15
 - refinancing stress in Los Angeles / California: Refinancing - Los Angeles / California - E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles, score 66. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - refinancing stress in Los Angeles / California: Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi on SoCal Apartment Portfolio, score 63. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - refinancing stress in Los Angeles / California: Refinancing - Los Angeles / California - Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio, score 63. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- refinancing stress in Nevada: Refinancing - Nevada - Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments, score 63. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - refinancing stress in Los Angeles / California: Refinancing - Los Angeles / California - Hollywood's Yamashiro Complex Gets $25M Refinance: The Los Angeles Deal Sheet, score 60. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
-- refinancing stress in Nevada: Refinancing - Nevada - Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments, score 59. Monitor for repeated distress signals.
 - refinancing stress in Florida: Refinancing - Florida - How development helps Richard Richman’s tax syndication business, score 52. Monitor for repeated distress signals.
 
 ## Construction Financing Gap Watch
@@ -59,8 +59,8 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 - California: 2 distress signal(s)
 - New York City / New York: 2 distress signal(s)
 - Miami / Florida: 1 distress signal(s)
-- Atlanta / Georgia: 1 distress signal(s)
 - Nevada: 1 distress signal(s)
+- Atlanta / Georgia: 1 distress signal(s)
 - Florida: 1 distress signal(s)
 
 ## Implications for Woomi / Woomi Global
@@ -79,9 +79,9 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 75
-- LA lifecycle watch items: 44
-- Stage mix: Refinancing / Recapitalization: 9, Delivery / Opening: 6, Site Acquisition / Site Control: 6, Unknown Stage: 43, Community Review: 2
+- Lifecycle records: 74
+- LA lifecycle watch items: 42
+- Stage mix: Refinancing / Recapitalization: 9, Delivery / Opening: 8, Site Acquisition / Site Control: 6, Unknown Stage: 40, Community Review: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -89,11 +89,11 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 75
-- Newly detected projects: 7
+- Lifecycle transitions analyzed: 74
+- Newly detected projects: 3
 - Forward progression projects: 0
 - Possible stalled projects: 2
-- LA lifecycle transition watch items: 41
+- LA lifecycle transition watch items: 39
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -101,11 +101,11 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 642
-- Canonical projects: 153
-- Duplicate project clusters: 106
-- Persistent assets tracked: 153
-- LA persistent asset watch items: 91
+- Raw project references: 624
+- Canonical projects: 148
+- Duplicate project clusters: 100
+- Persistent assets tracked: 148
+- LA persistent asset watch items: 84
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -113,10 +113,10 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 153
+- Signals evaluated: 148
 - Institutional-grade signals: 16
 - High-confidence signals: 41
-- Weak/noisy signals: 96
+- Weak/noisy signals: 94
 - High-confidence watchlist items: 41
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

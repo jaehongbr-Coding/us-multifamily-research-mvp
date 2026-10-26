@@ -1,8 +1,8 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-10-25 00:53:04
+Generated: 2026-10-26 01:00:50
 
-- Total relationship edges: 123
+- Total relationship edges: 119
 - Most connected developer / GP: JLL (12 edge(s))
 - Most connected lender / debt provider: jll (3 edge(s))
 - Most connected market: Los Angeles / California (11 edge(s))
@@ -157,10 +157,10 @@ Longitudinal memory is available in `historical_memory_report.md`.
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 642
-- Canonical projects: 153
-- Duplicate project clusters: 106
-- Persistent assets tracked: 153
-- LA persistent asset watch items: 91
+- Raw project references: 624
+- Canonical projects: 148
+- Duplicate project clusters: 100
+- Persistent assets tracked: 148
+- LA persistent asset watch items: 84
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

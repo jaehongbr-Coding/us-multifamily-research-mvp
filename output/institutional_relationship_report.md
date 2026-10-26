@@ -1,6 +1,6 @@
 # Institutional Relationship & Capital Flow Report
 
-Generated: 2026-10-25 00:53:04
+Generated: 2026-10-26 01:00:50
 
 ## Top Institutional Relationship Signals
 
@@ -13,7 +13,7 @@ Generated: 2026-10-25 00:53:04
 - Voya Investment Management: score 98, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - Berkadia: score 91, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 - Bridge Investment Group: score 91, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Investors Commit Capital: score 91, Capital Inflow, Capital Partner Tracking Signal. Track capital deployment and pricing signals.
+- Hines: score 90, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 
 ## Tier 1 Firm Watch
 
@@ -36,7 +36,6 @@ Generated: 2026-10-25 00:53:04
 - CBRE: score 98, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 - CIM Group: score 98, Development Capital Deployment, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - Berkadia: score 91, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- Investors Commit Capital: score 91, Capital Inflow, Capital Partner Tracking Signal. Track capital deployment and pricing signals.
 - Hines: score 90, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Founders Group: score 86, Capital Inflow, Pricing Discovery Signal. Track capital deployment and pricing signals.
 - Essex Realty Group: score 62, Capital Outflow / Exit, No Clear Relationship Signal. Monitor only.
@@ -78,7 +77,7 @@ Generated: 2026-10-25 00:53:04
 | Voya Investment Management | Los Angeles / California | Core Multifamily News | refinancing; operational technology / AI adoption | Refinancing / Recapitalization | GP Capability Benchmark Signal | competitive pressure indicator |
 | Berkadia | Miami / Florida | Site / Parcel Source Expansion | acquisition; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
 | Bridge Investment Group | Nevada | Core Multifamily News | refinancing; JV / partnership | Refinancing / Recapitalization | Potential JV / Partnership Signal | potential JV partnership signal |
-| Investors Commit Capital | Other / Unknown | Core Multifamily News | capital raise | Capital Inflow | Capital Partner Tracking Signal | capital market sentiment indicator |
+| Hines | Atlanta / Georgia | Site / Parcel Source Expansion | acquisition; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
 
 ## Deal / Project Intelligence
 
@@ -153,10 +152,10 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 153
+- Signals evaluated: 148
 - Institutional-grade signals: 16
 - High-confidence signals: 41
-- Weak/noisy signals: 96
+- Weak/noisy signals: 94
 - High-confidence watchlist items: 41
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

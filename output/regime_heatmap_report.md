@@ -1,6 +1,6 @@
 # Regime Heatmap Report
 
-Generated: 2026-10-25 00:53:04
+Generated: 2026-10-26 01:00:49
 
 Scores are calibrated with capped weighted components, so final_score is less likely to saturate at 100 unless the supporting signals are very strong.
 
@@ -11,11 +11,11 @@ Scores are calibrated with capped weighted components, so final_score is less li
 
 | Regime | Raw Score | Normalized Score | Final Score | Strength | Supporting Signals |
 | --- | ---: | ---: | ---: | --- | --- |
-| Selective Capital Re-entry | 134 | 89 | 89 | Very Strong | Institutional Flow articles: 30; Deal Size Signal articles: 11; Institutional player mentions: 13 |
-| Financing Stress | 130 | 87 | 87 | Very Strong | Financing Risk articles: 14; Financing/cap-rate market signals: 8; Financing matched-keyword articles: 15 |
+| Selective Capital Re-entry | 134 | 89 | 89 | Very Strong | Institutional Flow articles: 28; Deal Size Signal articles: 10; Institutional player mentions: 13 |
+| Financing Stress | 130 | 87 | 87 | Very Strong | Financing Risk articles: 13; Financing/cap-rate market signals: 8; Financing matched-keyword articles: 15 |
 | Supply Pressure | 105 | 70 | 70 | Strong | Supply Pressure articles: 6; Supply/vacancy/concession signals: 2; Supply matched-keyword articles: 6 |
-| Developer Strategy Shift | 88 | 59 | 59 | Moderate | Developer Strategy articles: 19; Developer matched-keyword articles: 5; Must Read articles: 29 |
-| Policy / Entitlement Watch | 83 | 55 | 55 | Moderate | Regulation Risk articles: 3; Policy matched-keyword articles: 5; California / Los Angeles focus count: 5 |
+| Developer Strategy Shift | 84 | 56 | 56 | Moderate | Developer Strategy articles: 19; Developer matched-keyword articles: 4; Must Read articles: 28 |
+| Policy / Entitlement Watch | 83 | 55 | 55 | Moderate | Regulation Risk articles: 3; Policy matched-keyword articles: 5; California / Los Angeles focus count: 4 |
 | Construction Cost Pressure | 46 | 31 | 31 | Weak | Cost Control articles: 2; Construction Cost Signal articles: 0; Cost matched-keyword articles: 3 |
 | Stable Monitoring Environment | 0 | 0 | 0 | Not Detected | Highest active regime score before stable adjustment: 134; Monitor articles: 3 |
 

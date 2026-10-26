@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-10-25 00:53:17
+Generated: 2026-10-26 01:01:12
 
-- Total raw project references: 642
-- Total canonical projects: 153
-- Duplicate project clusters: 106
-- High-confidence project identities: 642
+- Total raw project references: 624
+- Total canonical projects: 148
+- Duplicate project clusters: 100
+- High-confidence project identities: 624
 - Low-confidence identities needing review: 0
-- LA / California project references: 439
+- LA / California project references: 420
 
 ## Top Repeated Projects
 
-- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: 35 occurrence(s), confidence 80.
-- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: 35 occurrence(s), confidence 80.
-- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: 35 occurrence(s), confidence 80.
-- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: 35 occurrence(s), confidence 80.
-- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: 35 occurrence(s), confidence 80.
-- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: 35 occurrence(s), confidence 80.
-- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: 35 occurrence(s), confidence 80.
-- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: 35 occurrence(s), confidence 80.
-- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: 35 occurrence(s), confidence 80.
-- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: 35 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: 35 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: 35 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: 35 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: 35 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: 35 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: 35 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: 35 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: 35 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: 35 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: 35 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

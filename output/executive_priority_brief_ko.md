@@ -1,6 +1,6 @@
 # 한국어 경영진 우선순위 브리프
 
-- 생성 시각: 2026-10-25 00:52:59
+- 생성 시각: 2026-10-26 01:00:42
 - 참고 원문 파일: `executive_priority_brief.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -9,8 +9,8 @@
 - Financing Stress: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention; This Week)
 - Selective Capital Re-entry: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention; This Week)
 - Supply Pressure: 기타 / 미확인, 아파트, 점수 99 (Tier 2 Strategic Review; This Week)
-- Developer Strategy Shift: 기타 / 미확인, 아파트, 점수 96 (Tier 2 Strategic Review; This Week)
-- Policy / Entitlement Watch: 기타 / 미확인, 아파트, 점수 77 (Tier 3 Monitoring; Next IC / Strategy Meeting)
+- Developer Strategy Shift: 기타 / 미확인, 아파트, 점수 95 (Tier 2 Strategic Review; This Week)
+- Policy / Entitlement Watch: 기타 / 미확인, 아파트, 점수 71 (Tier 3 Monitoring; Next IC / Strategy Meeting)
 - Construction Cost Pressure: 기타 / 미확인, 아파트, 점수 55 (Tier 3 Monitoring; Monthly Monitoring)
 
 ## Tier 1 / Tier 2 안건

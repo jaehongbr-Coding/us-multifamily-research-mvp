@@ -1,116 +1,114 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-10-26 01:00:50
+Generated: 2026-10-27 01:51:11
 
-- Total relationship edges: 119
-- Most connected developer / GP: JLL (12 edge(s))
-- Most connected lender / debt provider: jll (3 edge(s))
-- Most connected market: Los Angeles / California (11 edge(s))
-- Strongest relationship edge: JLL -> jll
-- Highest Woomi relevance edge: UDR -> udr
+- Total relationship edges: 134
+- Most connected developer / GP: JLL (26 edge(s))
+- Most connected lender / debt provider: jll (7 edge(s))
+- Most connected market: California (11 edge(s))
+- Strongest relationship edge: Kennedy Wilson -> California
+- Highest Woomi relevance edge: Kennedy Wilson -> California
 
 ## Top 10 Relationship Edges
 
-- JLL -> jll: Financing Relationship, California, score 100. Track GP relationship history.
-- JLL -> California: Financing Relationship, California, score 96. Track GP relationship history.
-- JLL -> Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Financing Relationship, California, score 96. Track GP relationship history.
+- Kennedy Wilson -> California: JV / Partnership, California, score 100. Review potential JV relevance.
+- Kennedy Wilson -> JV / Partnership - California - Kennedy Wilson, Partners Acquire 312-Unit Multifamily Community in San Jose for $176M: JV / Partnership, California, score 100. Review potential JV relevance.
+- Kennedy Wilson -> cbre: JV / Partnership, California, score 100. Review potential JV relevance.
+- Kennedy Wilson -> kennedy wilson: JV / Partnership, California, score 100. Review potential JV relevance.
+- CBRE -> cbre: Financing Relationship, California, score 99. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Louisville / Kentucky, score 93. Track GP relationship history.
-- JLL -> jll: Financing Relationship, New York City / New York, score 93. Track GP relationship history.
 - JLL -> jll: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
-- JLL -> kkr: Financing Relationship, New York City / New York, score 93. Track GP relationship history.
-- Berkadia -> berkadia: Financing Relationship, Miami / Florida, score 92. Track GP relationship history.
-- Blackstone -> blackstone: Capital Flow, Seattle, score 92. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Washington DC, score 93. Track GP relationship history.
 
 ## Developer / GP Relationship Map
 
-- JLL -> jll: Financing Relationship, California, score 100. Track GP relationship history.
-- JLL -> California: Financing Relationship, California, score 96. Track GP relationship history.
-- JLL -> Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Financing Relationship, California, score 96. Track GP relationship history.
+- Kennedy Wilson -> California: JV / Partnership, California, score 100. Review potential JV relevance.
+- Kennedy Wilson -> JV / Partnership - California - Kennedy Wilson, Partners Acquire 312-Unit Multifamily Community in San Jose for $176M: JV / Partnership, California, score 100. Review potential JV relevance.
+- Kennedy Wilson -> cbre: JV / Partnership, California, score 100. Review potential JV relevance.
+- Kennedy Wilson -> kennedy wilson: JV / Partnership, California, score 100. Review potential JV relevance.
+- CBRE -> cbre: Financing Relationship, California, score 99. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Louisville / Kentucky, score 93. Track GP relationship history.
-- JLL -> jll: Financing Relationship, New York City / New York, score 93. Track GP relationship history.
 - JLL -> jll: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
-- JLL -> kkr: Financing Relationship, New York City / New York, score 93. Track GP relationship history.
-- Berkadia -> berkadia: Financing Relationship, Miami / Florida, score 92. Track GP relationship history.
-- Blackstone -> blackstone: Capital Flow, Seattle, score 92. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Washington DC, score 93. Track GP relationship history.
 
 ## Lender / Debt Provider Relationship Map
 
-- JLL -> jll: Financing Relationship, California, score 100. Track GP relationship history.
+- Kennedy Wilson -> cbre: JV / Partnership, California, score 100. Review potential JV relevance.
+- CBRE -> cbre: Financing Relationship, California, score 99. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Louisville / Kentucky, score 93. Track GP relationship history.
-- JLL -> jll: Financing Relationship, New York City / New York, score 93. Track GP relationship history.
 - JLL -> jll: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Washington DC, score 93. Track GP relationship history.
 - Berkadia -> berkadia: Financing Relationship, Miami / Florida, score 92. Track GP relationship history.
-- Refinancing - Los Angeles / California - E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles -> northmarq: Financing Relationship, Los Angeles / California, score 74. Monitor lender activity.
-- Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi on SoCal Apartment Portfolio -> northmarq: Financing Relationship, Los Angeles / California, score 70. Monitor lender activity.
-- Refinancing - Los Angeles / California - Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio -> northmarq: Financing Relationship, Los Angeles / California, score 70. Monitor lender activity.
-- Disposition / Exit - Phoenix / Arizona - Lehi, Utah Rental Community Trades for $130M -> cushman: Financing Relationship, Phoenix / Arizona, score 68. Monitor lender activity.
+- JLL -> jll: Financing Relationship, New York City / New York, score 89. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Austin / Texas, score 89. Track GP relationship history.
 
 ## Capital Partner / Institutional Flow Map
 
-- JLL -> kkr: Financing Relationship, New York City / New York, score 93. Track GP relationship history.
+- Kennedy Wilson -> kennedy wilson: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> blackstone: Capital Flow, Seattle, score 92. Track GP relationship history.
-- UDR -> udr: JV / Partnership, Other / Unknown, score 89. Review potential JV relevance.
-- UDR -> udr: JV / Partnership, Other / Unknown, score 87. Review potential JV relevance.
+- UDR -> udr: JV / Partnership, Other / Unknown, score 88. Review potential JV relevance.
 - Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 86. Track GP relationship history.
-- Essex Realty Group -> essex: Disposition / Seller, Other / Unknown, score 57. Track GP relationship history.
-- Acquisition - Colorado - CentrePoint Properties Divests of 52,743 SF Mixed-Use Property in Wheat Ridge, Colorado -> related: Acquisition / Buyer, Colorado, score 54. Monitor only.
+- Related California -> related: Capital Flow, Los Angeles / California, score 86. Track GP relationship history.
 
 ## Market Relationship Map
 
-- JLL -> California: Financing Relationship, California, score 96. Track GP relationship history.
-- JLL -> Brooklyn: Financing Relationship, New York City / New York, score 85. Track GP relationship history.
+- Kennedy Wilson -> California: JV / Partnership, California, score 100. Review potential JV relevance.
+- CBRE -> California: Acquisition / Buyer, California, score 89. Track GP relationship history.
 - JLL -> Miami / Florida: Financing Relationship, Miami / Florida, score 85. Track GP relationship history.
-- JLL -> New York City / New York: Financing Relationship, New York City / New York, score 85. Track GP relationship history.
 - JLL -> South Florida: Financing Relationship, Miami / Florida, score 85. Track GP relationship history.
+- JLL -> Washington D.C.: Financing Relationship, Washington DC, score 85. Track GP relationship history.
+- JLL -> Washington DC: Financing Relationship, Washington DC, score 85. Track GP relationship history.
+- CBRE -> Atlanta: Acquisition / Buyer, Atlanta / Georgia, score 83. Track GP relationship history.
 - CBRE -> Atlanta: Acquisition / Buyer, Atlanta / Georgia, score 83. Track GP relationship history.
 - CBRE -> Atlanta / Georgia: Acquisition / Buyer, Atlanta / Georgia, score 83. Track GP relationship history.
-- CBRE -> Louisville: Acquisition / Buyer, Louisville / Kentucky, score 83. Track GP relationship history.
-- CBRE -> Louisville / Kentucky: Acquisition / Buyer, Louisville / Kentucky, score 83. Track GP relationship history.
-- Berkadia -> Miami / Florida: Acquisition / Buyer, Miami / Florida, score 82. Track GP relationship history.
+- CBRE -> Atlanta / Georgia: Acquisition / Buyer, Atlanta / Georgia, score 83. Track GP relationship history.
 
 ## California / LA Relationship Signals
 
-- JLL -> jll: Financing Relationship, California, score 100. Track GP relationship history.
-- JLL -> California: Financing Relationship, California, score 96. Track GP relationship history.
-- JLL -> Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities: Financing Relationship, California, score 96. Track GP relationship history.
+- Kennedy Wilson -> California: JV / Partnership, California, score 100. Review potential JV relevance.
+- Kennedy Wilson -> JV / Partnership - California - Kennedy Wilson, Partners Acquire 312-Unit Multifamily Community in San Jose for $176M: JV / Partnership, California, score 100. Review potential JV relevance.
+- Kennedy Wilson -> cbre: JV / Partnership, California, score 100. Review potential JV relevance.
+- Kennedy Wilson -> kennedy wilson: JV / Partnership, California, score 100. Review potential JV relevance.
+- CBRE -> cbre: Financing Relationship, California, score 99. Track GP relationship history.
+- CBRE -> Acquisition - California - CBRE Arranges $16M Sale of Newly Developed Ohio Truck Stop, Retail Property: Acquisition / Buyer, California, score 89. Track GP relationship history.
+- CBRE -> California: Acquisition / Buyer, California, score 89. Track GP relationship history.
 - Marcus & Millichap -> California: Disposition / Seller, California, score 77. Track GP relationship history.
 - Marcus & Millichap -> Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Disposition / Seller, California, score 77. Track GP relationship history.
-- CIM Group -> Los Angeles: Entitlement / Permitting, Los Angeles / California, score 75. Track GP relationship history.
-- Marcus & Millichap -> California: Disposition / Seller, California, score 75. Track GP relationship history.
-- Marcus & Millichap -> Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Disposition / Seller, California, score 75. Track GP relationship history.
-- Refinancing - Los Angeles / California - E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles -> Los Angeles: Financing Relationship, Los Angeles / California, score 66. Monitor only.
-- JV / Partnership - Los Angeles / California - City Council upholds approval of mixed-use project at 12555 Ventura Blvd. in Studio City -> Los Angeles: JV / Partnership, Los Angeles / California, score 65. Review potential JV relevance.
+- Marcus & Millichap -> California: Disposition / Seller, California, score 76. Track GP relationship history.
 
 ## Potential Woomi Partnership Signals
 
-- UDR -> udr: JV / Partnership, Other / Unknown, score 89. Review potential JV relevance.
-- UDR -> udr: JV / Partnership, Other / Unknown, score 87. Review potential JV relevance.
-- UDR -> JV / Partnership - Other / Unknown - UDR, Apollo form $2B joint venture: JV / Partnership, Other / Unknown, score 81. Review potential JV relevance.
-- UDR -> JV / Partnership - Other / Unknown - Apollo and UDR Inc Announce 19-Property Multifamily Ownership and Operation Joint Venture: JV / Partnership, Other / Unknown, score 79. Review potential JV relevance.
+- Kennedy Wilson -> California: JV / Partnership, California, score 100. Review potential JV relevance.
+- Kennedy Wilson -> JV / Partnership - California - Kennedy Wilson, Partners Acquire 312-Unit Multifamily Community in San Jose for $176M: JV / Partnership, California, score 100. Review potential JV relevance.
+- Kennedy Wilson -> cbre: JV / Partnership, California, score 100. Review potential JV relevance.
+- Kennedy Wilson -> kennedy wilson: JV / Partnership, California, score 100. Review potential JV relevance.
+- UDR -> udr: JV / Partnership, Other / Unknown, score 88. Review potential JV relevance.
+- UDR -> JV / Partnership - Other / Unknown - UDR, Apollo form $2B joint venture: JV / Partnership, Other / Unknown, score 80. Review potential JV relevance.
 - JV / Partnership - Los Angeles / California - City Council upholds approval of mixed-use project at 12555 Ventura Blvd. in Studio City -> Los Angeles: JV / Partnership, Los Angeles / California, score 65. Review potential JV relevance.
 - JV / Partnership - Los Angeles / California - City Council upholds approval of mixed-use project at 12555 Ventura Blvd. in Studio City -> Los Angeles / California: JV / Partnership, Los Angeles / California, score 65. Review potential JV relevance.
-- JV / Partnership - Texas - Joint Venture Completes 873-Bed Student Housing Project in College Station -> Texas: JV / Partnership, Texas, score 50. Review potential JV relevance.
-- JV / Partnership - Phoenix / Arizona - Joint Venture Breaks Ground on Student Housing, Retail Development Near University of Texa... -> Phoenix: JV / Partnership, Phoenix / Arizona, score 49. Review potential JV relevance.
-- JV / Partnership - Phoenix / Arizona - Joint Venture Breaks Ground on Student Housing, Retail Development Near University of Texa... -> Phoenix / Arizona: JV / Partnership, Phoenix / Arizona, score 49. Review potential JV relevance.
 - JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project -> Atlanta: JV / Partnership, Atlanta / Georgia, score 47. Review potential JV relevance.
+- JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project -> Atlanta / Georgia: JV / Partnership, Atlanta / Georgia, score 47. Review potential JV relevance.
 
 ## Canonical Relationship Map
 
 | Source | Target | Relationship | Confidence |
 | --- | --- | --- | ---: |
-| JLL | JLL | Financing Relationship | 75 |
-| JLL | California | Financing Relationship | 100 |
-| JLL | JLL | Financing Relationship | 60 |
+| Kennedy Wilson | California | JV / Partnership | 100 |
+| Kennedy Wilson | Kennedy Wilson | JV / Partnership | 60 |
+| Kennedy Wilson | CBRE | JV / Partnership | 75 |
+| Kennedy Wilson | Kennedy Wilson | JV / Partnership | 75 |
+| CBRE | CBRE | Financing Relationship | 75 |
+| CBRE | CBRE | Financing Relationship | 75 |
 | CBRE | CBRE | Financing Relationship | 75 |
 | CBRE | CBRE | Financing Relationship | 75 |
 | JLL | JLL | Financing Relationship | 75 |
 | JLL | JLL | Financing Relationship | 75 |
-| JLL | kkr | Financing Relationship | 40 |
-| Berkadia | Berkadia | Financing Relationship | 75 |
-| Blackstone | Blackstone | Capital Flow | 75 |
 
 ## Multi-Source Confirmation Summary
 
@@ -120,11 +118,11 @@ Relationship repeat strength uses unique canonical deal/event counts instead of 
 ## Emerging GP Watchlist Reference
 
 Ranked GP watchlist signals are available in `gp_watchlist_report.md`.
-- JLL: 76 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- JLL: 76 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- Kennedy Wilson: 81 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- CBRE: 76 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- JLL: 75 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- JLL: 75 (Tier 2 High Potential GP), Potential GP partnership candidate.
 - Hines: 73 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- Marcus & Millichap: 67 (Tier 3 Monitoring GP), Capital market and pricing discovery reference.
-- Blackstone: 66 (Tier 3 Monitoring GP), Capital market and pricing discovery reference.
 
 ## GP Source Expansion Summary
 
@@ -144,23 +142,23 @@ Longitudinal memory is available in `historical_memory_report.md`.
 
 ## Recommended Executive Follow-Up
 
-- Track GP relationship history: JLL -> jll (Financing Relationship).
-- Track GP relationship history: JLL -> California (Financing Relationship).
-- Track GP relationship history: JLL -> Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities (Financing Relationship).
+- Review potential JV relevance: Kennedy Wilson -> California (JV / Partnership).
+- Review potential JV relevance: Kennedy Wilson -> JV / Partnership - California - Kennedy Wilson, Partners Acquire 312-Unit Multifamily Community in San Jose for $176M (JV / Partnership).
+- Review potential JV relevance: Kennedy Wilson -> cbre (JV / Partnership).
+- Review potential JV relevance: Kennedy Wilson -> kennedy wilson (JV / Partnership).
 - Track GP relationship history: CBRE -> cbre (Financing Relationship).
 - Track GP relationship history: CBRE -> cbre (Financing Relationship).
-- Track GP relationship history: JLL -> jll (Financing Relationship).
-- Track GP relationship history: JLL -> jll (Financing Relationship).
-- Track GP relationship history: JLL -> kkr (Financing Relationship).
+- Track GP relationship history: CBRE -> cbre (Financing Relationship).
+- Track GP relationship history: CBRE -> cbre (Financing Relationship).
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 624
-- Canonical projects: 148
-- Duplicate project clusters: 100
-- Persistent assets tracked: 148
-- LA persistent asset watch items: 84
+- Raw project references: 691
+- Canonical projects: 157
+- Duplicate project clusters: 98
+- Persistent assets tracked: 157
+- LA persistent asset watch items: 95
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

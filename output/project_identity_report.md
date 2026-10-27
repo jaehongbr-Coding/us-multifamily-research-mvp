@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-10-26 01:01:12
+Generated: 2026-10-27 01:51:42
 
-- Total raw project references: 624
-- Total canonical projects: 148
-- Duplicate project clusters: 100
-- High-confidence project identities: 624
+- Total raw project references: 691
+- Total canonical projects: 157
+- Duplicate project clusters: 98
+- High-confidence project identities: 691
 - Low-confidence identities needing review: 0
-- LA / California project references: 420
+- LA / California project references: 406
 
 ## Top Repeated Projects
 
-- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: 35 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: 35 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: 35 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: 35 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: 35 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: 35 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: 35 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: 35 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: 35 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Grover Corlew Acquires Landmark Downtown Fort Lauderdale Tower for $69.7M Plans Improvemen...: 35 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 42 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 42 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 42 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 42 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 42 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 42 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 42 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 42 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 42 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 42 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

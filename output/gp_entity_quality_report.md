@@ -1,37 +1,37 @@
 # GP / Capital Entity Quality Report
 
-Generated: 2026-10-26 01:00:50
+Generated: 2026-10-27 01:51:11
 
 ## Summary
 
-- Total GP/Capital articles: 45
-- Participant not identified: 23
-- Dictionary match: 16
+- Total GP/Capital articles: 47
+- Participant not identified: 13
+- Dictionary match: 24
 - Title fallback / headline extraction: 1
-- Low confidence or unresolved: 23
+- Low confidence or unresolved: 13
 
 ## Representative Resolved Samples
 
 - Blackstone: 6 Blackstone multifamily properties move to servicing (dictionary_match, high)
-- Bridge Investment Group: Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments (dictionary_match, high)
-- JLL: KKR Refis Brooklyn Apartments With $95M Loan (dictionary_match, high)
-- Voya Investment Management: Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio (capital_event_sentence, medium)
-- CBRE: CBRE Arranges Sale of Future Mixed-Use Development in Wisconsin (dictionary_match, high)
-- Voya Investment Management: Northmarq Arranges $96M Refi on SoCal Apartment Portfolio (capital_event_sentence, medium)
-- CBRE: ORIX Acquires Buckhead Apartments for $83M (dictionary_match, high)
-- JLL: Little Havana Apartment Owners Land $50.8M Refi (dictionary_match, high)
-- Berkadia: Berkadia Arranges Refis for 3 S. Florida Rental Communities (dictionary_match, high)
-- Newport Beach Seniors Communities JLL Capital: JLL Arranges $276M Refi for Newport Beach Seniors Communities (dictionary_match, high)
+- Marcus & Millichap: Marcus & Millichap Arranges $7.35M Sale of 36-Unit Multifamily Property in Los Angeles (dictionary_match, high)
+- JLL: JLL Capital Markets Arranges Sale and Financing of 341-Unit Luxury High-Rise in Austin (dictionary_match, high)
+- Former 7Up HQ Revive Capital: Octagon Lends $48M on Missouri Office-to-Resi Conversion of Former 7Up HQ (capital_event_sentence, medium)
+- Upper West Side JLL Capital: JLL Arranges Financing for Lightstone Acquisition on Upper West Side (dictionary_match, high)
+- Alpine Residential: Alpine Residential Completes 500-Unit Multifamily Project in Jersey City (capital_event_sentence, medium)
+- JLL: JLL Negotiates Sale of 132-Unit Apartment Building in Fort Lee, New Jersey (dictionary_match, high)
+- Affinius Capital: Affinius Capital Originates $97.9M Refinancing for Multifamily Community in D.C. (dictionary_match, high)
+- CBRE: CBRE Arranges $83M Acquisition Loan for Luxury Multifamily Community in Atlanta’s Buckhead District (dictionary_match, high)
+- Kennedy Wilson: Kennedy Wilson, Partners Acquire 312-Unit Multifamily Community in San Jose for $176M (dictionary_match, high)
 
 ## Unresolved Examples
 
-- E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
-- FIRST DRAFT LIVE: Why Sun Belt Multifamily Giant Cortland Is Moving Its Money North | Bisnow | No institution name detected in dictionary, title, summary, or source text.
+- Northmarq Closes Sale of 312-Unit Multifamily Community in Clarksville Indiana | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
 - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St. | Urbanize LA | No institution name detected in dictionary, title, summary, or source text.
-- Hamilton Zanze Announces Sale of Virginia Multifamily Community | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
-- Lehi, Utah Rental Community Trades for $130M | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
-- Hollywood's Yamashiro Complex Gets $25M Refinance: The Los Angeles Deal Sheet | Bisnow | No institution name detected in dictionary, title, summary, or source text.
 - Retail market tightens, L.A. multifamily sales jump, and more | Urbanize LA | No institution name detected in dictionary, title, summary, or source text.
-- Broe Group Makes First SoCal Multifamily Acquisition in San Diego | Connect CRE California | No institution name detected in dictionary, title, summary, or source text.
-- Colliers Facilitates Sale of Boutique Multifamily Property in Seattle | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
-- RedPeak Acquires 101-Unit Manchester Apartments in Denver | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
+- SASBs Dominate Conduits 3 to 1 in 2026 CMBS Market | Commercial Observer | No institution name detected in dictionary, title, summary, or source text.
+- Investor Takes Over Distressed Atlanta Apartment Asset | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.
+- Greenberg Gibbons Signs Trader Joe’s, Onelife Fitness to Join $500M Mixed-Use Project in Richmond | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
+- Bainbridge Announced the Successful $107.7M Sale and Management of Bainbridge Midlothian in Richmond Virginia | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
+- The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market? | Multifamily Executive | No institution name detected in dictionary, title, summary, or source text.
+- Passco Offloads Buckhead Rental Asset for $87.5M | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.
+- 2026 NOI & Operations Survey Report | Multifamily Executive | No institution name detected in dictionary, title, summary, or source text.

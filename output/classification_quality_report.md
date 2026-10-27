@@ -1,48 +1,48 @@
 # Classification Quality Report
 
-Generated: 2026-10-26 01:00:42
+Generated: 2026-10-27 01:51:04
 
 ## Classification Summary
 
-- Total articles classified: 79
-- Topic distribution: development_pipeline: 21; transaction_market: 13; capital_markets: 11; supply_demand: 11; institutional_capital: 8; macro_financing: 6; gp_activity: 5; other: 3
+- Total articles classified: 81
+- Topic distribution: development_pipeline: 19; transaction_market: 17; supply_demand: 10; capital_markets: 9; macro_financing: 8; gp_activity: 7; institutional_capital: 5; other: 5
 - Classification is rule-based and conservative. Low or unknown labels should be treated as review queues, not failures.
 
 ## Topic Distribution
 
-- development_pipeline: 21 article(s), high 3, medium 5, low 13, unknown 0. Top markets: Other / Unknown (7); California (4); Los Angeles / California (3); San Francisco / California (2); Atlanta / Georgia (2).
-- transaction_market: 13 article(s), high 2, medium 5, low 6, unknown 0. Top markets: Atlanta / Georgia (4); Louisville / Kentucky (1); Washington DC (1); Phoenix / Arizona (1); Colorado (1).
-- capital_markets: 11 article(s), high 4, medium 4, low 3, unknown 0. Top markets: Los Angeles / California (4); Miami / Florida (2); California (2); Nevada (1); New York City / New York (1).
-- supply_demand: 11 article(s), high 0, medium 0, low 11, unknown 0. Top markets: Other / Unknown (7); National (2); Miami / Florida (1); California (1).
-- institutional_capital: 8 article(s), high 4, medium 1, low 3, unknown 0. Top markets: Other / Unknown (4); Seattle (1); Texas (1); Phoenix / Arizona (1); Atlanta / Georgia (1).
-- macro_financing: 6 article(s), high 0, medium 0, low 0, unknown 6. Top markets: Other / Unknown (3); Sun Belt (1); Los Angeles / California (1); California (1).
-- gp_activity: 5 article(s), high 0, medium 0, low 0, unknown 5. Top markets: Other / Unknown (3); Los Angeles / California (1); National (1).
-- other: 3 article(s), high 0, medium 0, low 0, unknown 3. Top markets: Los Angeles / California (2); Texas (1).
+- development_pipeline: 19 article(s), high 0, medium 6, low 13, unknown 0. Top markets: Other / Unknown (6); California (6); Los Angeles / California (3); New York (1); Atlanta / Georgia (1).
+- transaction_market: 17 article(s), high 2, medium 10, low 5, unknown 0. Top markets: Atlanta / Georgia (5); Other / Unknown (3); New York City / New York (2); Austin / Texas (2); California (2).
+- supply_demand: 10 article(s), high 0, medium 0, low 10, unknown 0. Top markets: Other / Unknown (6); National (2); Miami / Florida (1); California (1).
+- capital_markets: 9 article(s), high 1, medium 6, low 2, unknown 0. Top markets: Los Angeles / California (2); Miami / Florida (2); Other / Unknown (1); Washington DC (1); Tennessee (1).
+- macro_financing: 8 article(s), high 0, medium 0, low 1, unknown 7. Top markets: Other / Unknown (2); Austin / Texas (1); Los Angeles / California (1); Colorado (1); California (1).
+- gp_activity: 7 article(s), high 0, medium 0, low 0, unknown 7. Top markets: Other / Unknown (3); National (2); Phoenix / Arizona (1); Virginia (1).
+- institutional_capital: 5 article(s), high 1, medium 1, low 3, unknown 0. Top markets: Other / Unknown (2); Seattle (1); California (1); Atlanta / Georgia (1).
+- other: 5 article(s), high 0, medium 0, low 0, unknown 5. Top markets: Los Angeles / California (3); Other / Unknown (1); Texas (1).
 - research_data: 1 article(s), high 0, medium 0, low 0, unknown 1. Top markets: Los Angeles / California (1).
 
 ## Low Confidence / Unknown Articles
 
 - 6 Blackstone multifamily properties move to servicing (Multifamily Dive, Seattle): Institutional activity terms detected: private_equity_activity. Primary topic set to institutional_capital; confidence low.
-- FIRST DRAFT LIVE: Why Sun Belt Multifamily Giant Cortland Is Moving Its Money North (Bisnow, Sun Belt): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to macro_financing; confidence unknown.
-- CBRE Arranges Sale of Future Mixed-Use Development in Wisconsin (Connect CRE, Louisville / Kentucky): Capital event keywords detected: acquisition, disposition. Primary topic set to transaction_market; confidence low.
-- Northmarq Arranges $96M Refi on SoCal Apartment Portfolio (Connect CRE, Los Angeles / California): Capital event keywords detected: refinancing. Primary topic set to capital_markets; confidence low.
+- Marcus & Millichap Arranges $7.35M Sale of 36-Unit Multifamily Property in Los Angeles (Yield PRO, Los Angeles / California): Capital event keywords detected: disposition. Primary topic set to transaction_market; confidence low.
+- Northmarq Closes Sale of 312-Unit Multifamily Community in Clarksville Indiana (Yield PRO, Other / Unknown): Capital event keywords detected: disposition. Primary topic set to transaction_market; confidence low.
+- JLL Capital Markets Arranges Sale and Financing of 341-Unit Luxury High-Rise in Austin (Yield PRO, Austin / Texas): No clear rule-based event keyword was detected. Primary topic set to macro_financing; confidence unknown.
+- New look for proposed apartment complex at 5600 Hollywood Blvd. (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to other; confidence unknown.
+- Bjarke Ingels-designed project in the works at 2810 N. Hyperion Ave. in Silver Lake (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to other; confidence unknown.
+- Alveare affordable housing topped out at 1405 S. Broadway in DTLA (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Development-stage terms detected: under_construction. Primary topic set to development_pipeline; confidence low.
+- Mixed-use project completed at Sunset and Fairfax in Hollywood (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Development-stage terms detected: delivery. Primary topic set to development_pipeline; confidence low.
 - City Council upholds approval of mixed-use project at 12555 Ventura Blvd. in Studio City (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Development-stage terms detected: entitlement. Primary topic set to development_pipeline; confidence low.
 - Affordable housing slated for 5003 N. Kester Ave. in Sherman Oaks (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to research_data; confidence unknown.
 - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St. (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to macro_financing; confidence unknown.
-- Expansion of apartment complex at 6007 Sunset survives appeal (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to other; confidence unknown.
+- Affinius Capital Originates $97.9M Refinancing for Multifamily Community in D.C. (REBusiness Online, Washington DC): Capital event keywords detected: refinancing, joint_venture. Primary topic set to capital_markets; confidence low.
+- CBRE Arranges Sale of Future Mixed-Use Development in Wisconsin (Connect CRE Apartments, Louisville / Kentucky): Capital event keywords detected: acquisition, disposition. Primary topic set to transaction_market; confidence low.
+- Northmarq Arranges $96M Refi on SoCal Apartment Portfolio (Connect CRE Apartments, Los Angeles / California): Capital event keywords detected: refinancing. Primary topic set to capital_markets; confidence low.
 - Eight townhomes in the works at 146 N. Berendo St. in Koreatown (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to other; confidence unknown.
-- JLL Arranges $276M Refi for Newport Beach Seniors Communities (Connect CRE Orange County, California): Capital event keywords detected: refinancing. Primary topic set to capital_markets; confidence low.
-- Hollywood's Yamashiro Complex Gets $25M Refinance: The Los Angeles Deal Sheet (Bisnow, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Capital event keywords detected: refinancing. Primary topic set to capital_markets; confidence low.
+- JLL Arranges $333.3M Financing for a Luxury 3-Property Colorado Multifamily Portfolio (Yield PRO, Colorado): No clear rule-based event keyword was detected. Primary topic set to macro_financing; confidence unknown.
 - Retail market tightens, L.A. multifamily sales jump, and more (Urbanize LA, California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to macro_financing; confidence unknown.
-- Developer plans high-rise apartments at 6409 Sunset Blvd. in Hollywood (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
-- New Building Permits For Backyard ADUs at 466 Frederick Street, San Francisco (SF YIMBY, San Francisco / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Development-stage terms detected: permit. Primary topic set to development_pipeline; confidence low.
-- Colliers Facilitates Sale of Boutique Multifamily Property in Seattle (Yield PRO, Seattle): Capital event keywords detected: disposition. Primary topic set to transaction_market; confidence low.
 - Best Year for Missing Middle Construction Since 2007 (NAHB Eye on Housing - Multifamily, Other / Unknown): Supply/demand terms detected: supply_pressure. Primary topic set to supply_demand; confidence low.
-- Multifamily starts fell in September amid high construction costs (Multifamily Dive, Other / Unknown): Supply/demand terms detected: supply_pressure. Primary topic set to supply_demand; confidence low.
-- Brighton Multifamily Draws Record Pool of Potential Buyers (Connect CRE Apartments, Other / Unknown): Capital event keywords detected: disposition. Primary topic set to transaction_market; confidence low.
-- Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 (NAHB Eye on Housing - Multifamily, Other / Unknown): Development-stage terms detected: delivery. Primary topic set to development_pipeline; confidence low.
-- Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993 (Connect CRE Orange County, California): Capital event keywords detected: disposition. Primary topic set to transaction_market; confidence low.
-- Additional low/unknown rows omitted: 31
+- MidPen Housing Completes 176-Unit Ira D. Hall Square Apartments in Silicon Valley (REBusiness Online, California): Development-stage terms detected: delivery. Primary topic set to development_pipeline; confidence low.
+- Origin, Mill Creek Teaming Up on 190-Unit Scottsdale Rental Community (Connect CRE Phoenix, Phoenix / Arizona): No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
+- Additional low/unknown rows omitted: 34
 
 ## Data Quality Notes
 

@@ -1,15 +1,16 @@
 # Site / Parcel Source Coverage Report
 
-Generated: 2026-10-26 01:00:49
+Generated: 2026-10-27 01:51:10
 
 - Total added sources attempted: 25
 - Successful sources: 7
 - Blocked / inaccessible / skipped sources: 18
-- Sources with zero Site / Parcel candidates: 25
+- Sources with zero Site / Parcel candidates: 23
 
 ## Top Site / Parcel Candidate Sources
 
-- No added source produced a saved Site / Parcel candidate in this run.
+- Connect CRE Apartments: 1 candidate(s) from 10 fetched article(s).
+- Connect CRE Phoenix: 1 candidate(s) from 10 fetched article(s).
 
 ## Why Coverage May Still Be Thin
 
@@ -20,10 +21,10 @@ Generated: 2026-10-26 01:00:49
 ## Source Detail
 
 - REBusiness Online: no relevant articles | fetched 20 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
-- Connect CRE Apartments: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
+- Connect CRE Apartments: success | fetched 10 | Site / Parcel candidates 1 | Available
 - Connect CRE Texas: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
 - Connect CRE South Florida: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
-- Connect CRE Phoenix: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
+- Connect CRE Phoenix: success | fetched 10 | Site / Parcel candidates 1 | Available
 - Connect CRE Atlanta: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
 - Connect CRE Charlotte: error | fetched 0 | Site / Parcel candidates 0 | RSS parsing issue: status=404; <unknown>:22:51: not well-formed (invalid token)
 - Connect CRE Orange County: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected

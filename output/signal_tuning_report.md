@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-10-26 01:00:42
+Generated: 2026-10-27 01:51:04
 
 ## Top Strategic Relevance Articles
 
-- 86 / richness 100: KKR Refis Brooklyn Apartments With $95M Loan (Commercial Observer, New York City / New York) - JV or partnership activity; large-scale refinance tied to strategy
+- 86 / richness 85: Kennedy Wilson, Partners Acquire 312-Unit Multifamily Community in San Jose for $176M (REBusiness Online, California) - JV or partnership activity; institutional acquisition behavior
 - 83 / richness 70: UDR, Apollo form $2B joint venture (Multifamily Dive, Other / Unknown) - JV or partnership activity; institutional acquisition behavior
-- 80 / richness 75: Dwight Investment Management Provides $73M Refi for Reno’s Ballpark Apartments (Commercial Observer, Nevada) - JV or partnership activity; large-scale refinance tied to strategy
-- 78 / richness 75: Voya Provides $96M Refi for 1,461-Unit SoCal Portfolio (Commercial Observer, Los Angeles / California) - institutional acquisition behavior; large-scale refinance tied to strategy
-- 75 / richness 65: E&S Ring Secures $96M Refinance on Six Property Multifamily Portfolio in Los Angeles (Yield PRO, Los Angeles / California) - institutional acquisition behavior; large-scale refinance tied to strategy
-- 74 / richness 100: Founders Group Sells 202-Unit Multifamily Community in Tucson (REBusiness Online, Phoenix / Arizona) - institutional acquisition behavior
-- 73 / richness 90: Joint Venture Breaks Ground on Student Housing, Retail Development Near University of Texas at San Antonio (REBusiness Online, Phoenix / Arizona) - JV or partnership activity
+- 78 / richness 75: Northmarq Arranges $95.8M Refinancing for 1,461-Unit Southern California Multifamily Portfolio (REBusiness Online, Los Angeles / California) - institutional acquisition behavior; large-scale refinance tied to strategy
 - 71 / richness 90: Anaheim Sale is First Closing in Broader Multifamily Portfolio (Connect CRE Orange County, California) - institutional acquisition behavior
-- 70 / richness 85: ORIX Acquires Buckhead Apartments for $83M (Connect CRE Apartments, Atlanta / Georgia) - institutional acquisition behavior
-- 70 / richness 85: CentrePoint Properties Divests of 52,743 SF Mixed-Use Property in Wheat Ridge, Colorado (REBusiness Online, Colorado) - institutional acquisition behavior
+- 70 / richness 85: JLL Arranges Financing for Lightstone Acquisition on Upper West Side (Connect CRE, New York City / New York) - institutional acquisition behavior
+- 70 / richness 85: JLL Negotiates Sale of 132-Unit Apartment Building in Fort Lee, New Jersey (REBusiness Online, Austin / Texas) - institutional acquisition behavior
+- 70 / richness 85: CBRE Arranges $83M Acquisition Loan for Luxury Multifamily Community in Atlanta’s Buckhead District (REBusiness Online, Atlanta / Georgia) - institutional acquisition behavior
+- 70 / richness 85: Weidner Adds 341-Unit Rental Asset to Austin Portfolio (Connect CRE Apartments, Austin / Texas) - institutional acquisition behavior
+- 70 / richness 85: ORIX Acquires Buckhead Apartments for $83M (Connect CRE Atlanta, Atlanta / Georgia) - institutional acquisition behavior
+- 70 / richness 85: MMCC Arranges $9.8M Acquisition Loan for Brooklyn Apartment Building (REBusiness Online, New York City / New York) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -41,8 +41,8 @@ Generated: 2026-10-26 01:00:42
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 20
-- Development / sponsor behavior articles: 39
+- Financing-oriented articles: 29
+- Development / sponsor behavior articles: 41
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

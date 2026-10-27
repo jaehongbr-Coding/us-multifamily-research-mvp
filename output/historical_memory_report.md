@@ -1,79 +1,79 @@
 # Historical Memory Report
 
-Generated: 2026-10-26 01:00:51
+Generated: 2026-10-27 01:51:12
 
-- Memory rows tracked: 11773
+- Memory rows tracked: 11864
 - Fastest-rising GP: JLL
 - Strongest recurring lender: JLL
 
 ## Fastest-Rising GP
 
-- JLL (GP / Developer): Persistent, 27 observation(s), importance 82.
+- JLL (GP / Developer): Accelerating, 2 observation(s), importance 45.
 
 ## Strongest Recurring Lender
 
-- JLL (Lender / Debt Provider): Persistent, 27 observation(s), importance 90.
-- northmarq (Lender / Debt Provider): Persistent, 6 observation(s), importance 83.
-- northmarq (Lender / Debt Provider): Persistent, 3 observation(s), importance 77.
+- JLL (Lender / Debt Provider): Fading, 27 observation(s), importance 88.
+- northmarq (Lender / Debt Provider): Fading, 6 observation(s), importance 82.
+- northmarq (Lender / Debt Provider): Persistent, 5 observation(s), importance 81.
+- CBRE (Lender / Debt Provider): Reappearing, 10 observation(s), importance 76.
 - JLL (Lender / Debt Provider): Dormant, 65 observation(s), importance 76.
-- Berkadia (Lender / Debt Provider): Fading, 5 observation(s), importance 73.
+- Berkadia (Lender / Debt Provider): Fading, 5 observation(s), importance 72.
+- JLL (Lender / Debt Provider): Persistent, 8 observation(s), importance 71.
 - Fannie Mae (Lender / Debt Provider): Dormant, 7 observation(s), importance 71.
 - pgim (Lender / Debt Provider): Dormant, 7 observation(s), importance 71.
-- JLL (Lender / Debt Provider): Persistent, 7 observation(s), importance 70.
-- JLL (Lender / Debt Provider): Persistent, 6 observation(s), importance 68.
-- CBRE (Lender / Debt Provider): Fading, 41 observation(s), importance 68.
+- CBRE (Lender / Debt Provider): Emerging, 1 observation(s), importance 69.
 
 ## Recurring California / LA Relationships
 
-- JLL (Lender / Debt Provider): Persistent, 27 observation(s), importance 90.
-- Newport Beach Seniors Communities JLL Capital (Institutional Capital Partner): Persistent, 24 observation(s), importance 90.
-- JLL -> JLL (Relationship Edge): Persistent, 232 observation(s), importance 84.
-- JLL -> California (Relationship Edge): Persistent, 132 observation(s), importance 84.
-- northmarq (Lender / Debt Provider): Persistent, 6 observation(s), importance 83.
-- JLL (GP / Developer): Persistent, 27 observation(s), importance 82.
-- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities (Deal / Project): Persistent, 24 observation(s), importance 82.
-- Los Angeles -> northmarq (Relationship Edge): Persistent, 29 observation(s), importance 82.
-- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 77 observation(s), importance 82.
-- JLL (GP / Developer): Persistent, 29 observation(s), importance 81.
+- JLL (Lender / Debt Provider): Fading, 27 observation(s), importance 88.
+- Newport Beach Seniors Communities JLL Capital (Institutional Capital Partner): Fading, 24 observation(s), importance 88.
+- CBRE -> CBRE (Relationship Edge): Reappearing, 108 observation(s), importance 84.
+- Marcus & Millichap (GP / Developer): Reappearing, 12 observation(s), importance 82.
+- Los Angeles -> northmarq (Relationship Edge): Persistent, 31 observation(s), importance 82.
+- JLL -> California (Relationship Edge): Fading, 132 observation(s), importance 82.
+- JLL -> JLL (Relationship Edge): Fading, 232 observation(s), importance 82.
+- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 81 observation(s), importance 82.
+- northmarq (Lender / Debt Provider): Fading, 6 observation(s), importance 82.
+- California -> California (Relationship Edge): Persistent, 39 observation(s), importance 81.
 
 ## Persistent BTR / Student / Senior Housing Players
 
-- JLL (Lender / Debt Provider): Persistent, 27 observation(s), importance 90.
-- Newport Beach Seniors Communities JLL Capital (Institutional Capital Partner): Persistent, 24 observation(s), importance 90.
-- JLL (GP / Developer): Persistent, 27 observation(s), importance 82.
-- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities (Deal / Project): Persistent, 24 observation(s), importance 82.
-- JLL (GP / Developer): Persistent, 29 observation(s), importance 81.
-- Senior Housing (Residential Sector): Persistent, 86 observation(s), importance 74.
+- JLL (Lender / Debt Provider): Fading, 27 observation(s), importance 88.
+- Newport Beach Seniors Communities JLL Capital (Institutional Capital Partner): Fading, 24 observation(s), importance 88.
+- JLL (GP / Developer): Fading, 29 observation(s), importance 80.
+- JLL (GP / Developer): Fading, 27 observation(s), importance 80.
+- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities (Deal / Project): Fading, 24 observation(s), importance 80.
+- Senior Housing (Residential Sector): Fading, 86 observation(s), importance 72.
 - JLL (Lender / Debt Provider): Dormant, 63 observation(s), importance 68.
-- Student Housing (Residential Sector): Fading, 17 observation(s), importance 66.
-- BTR / Single-Family Rental (Residential Sector): Persistent, 6 observation(s), importance 66.
-- Brookfield (Institutional Capital Partner): Fading, 6 observation(s), importance 66.
+- BTR / Single-Family Rental (Residential Sector): Persistent, 7 observation(s), importance 67.
+- Senior Housing (Residential Sector): Persistent, 5 observation(s), importance 65.
+- Student Housing (Residential Sector): Fading, 17 observation(s), importance 65.
 
 ## Recurring Institutional Capital Pairings
 
-- Newport Beach Seniors Communities JLL Capital (Institutional Capital Partner): Persistent, 24 observation(s), importance 90.
-- JLL -> JLL (Relationship Edge): Persistent, 232 observation(s), importance 84.
-- JLL -> California (Relationship Edge): Persistent, 132 observation(s), importance 84.
-- Los Angeles -> northmarq (Relationship Edge): Persistent, 29 observation(s), importance 82.
-- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 77 observation(s), importance 82.
-- California -> California (Relationship Edge): Persistent, 38 observation(s), importance 81.
-- Voya Investment Management (Institutional Capital Partner): Persistent, 4 observation(s), importance 81.
-- JLL (Institutional Capital Partner): Persistent, 3 observation(s), importance 79.
-- Bascom Group (Institutional Capital Partner): Fading, 44 observation(s), importance 78.
-- PCCP -> California (Relationship Edge): Fading, 17 observation(s), importance 78.
+- Newport Beach Seniors Communities JLL Capital (Institutional Capital Partner): Fading, 24 observation(s), importance 88.
+- CBRE -> CBRE (Relationship Edge): Reappearing, 108 observation(s), importance 84.
+- Los Angeles -> northmarq (Relationship Edge): Persistent, 31 observation(s), importance 82.
+- JLL -> California (Relationship Edge): Fading, 132 observation(s), importance 82.
+- JLL -> JLL (Relationship Edge): Fading, 232 observation(s), importance 82.
+- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 81 observation(s), importance 82.
+- California -> California (Relationship Edge): Persistent, 39 observation(s), importance 81.
+- Voya Investment Management (Institutional Capital Partner): Fading, 4 observation(s), importance 78.
+- PCCP -> California (Relationship Edge): Fading, 17 observation(s), importance 77.
+- JLL (Institutional Capital Partner): Fading, 3 observation(s), importance 77.
 
 ## Strongest Multi-Run Relationships
 
-- JLL -> JLL (Relationship Edge): Persistent, 232 observation(s), importance 84.
-- JLL -> California (Relationship Edge): Persistent, 132 observation(s), importance 84.
-- Los Angeles -> northmarq (Relationship Edge): Persistent, 29 observation(s), importance 82.
-- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 77 observation(s), importance 82.
-- California -> California (Relationship Edge): Persistent, 38 observation(s), importance 81.
-- PCCP -> California (Relationship Edge): Fading, 17 observation(s), importance 78.
-- CIM Group -> Los Angeles (Relationship Edge): Persistent, 12 observation(s), importance 75.
-- Marcus & Millichap -> California (Relationship Edge): Persistent, 215 observation(s), importance 75.
-- Lincoln Property Company -> Los Angeles (Relationship Edge): Fading, 15 observation(s), importance 75.
-- Los Angeles -> California (Relationship Edge): Fading, 9 observation(s), importance 75.
+- CBRE -> CBRE (Relationship Edge): Reappearing, 108 observation(s), importance 84.
+- Los Angeles -> northmarq (Relationship Edge): Persistent, 31 observation(s), importance 82.
+- JLL -> California (Relationship Edge): Fading, 132 observation(s), importance 82.
+- JLL -> JLL (Relationship Edge): Fading, 232 observation(s), importance 82.
+- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 81 observation(s), importance 82.
+- California -> California (Relationship Edge): Persistent, 39 observation(s), importance 81.
+- PCCP -> California (Relationship Edge): Fading, 17 observation(s), importance 77.
+- CBRE -> California (Relationship Edge): Reappearing, 23 observation(s), importance 76.
+- Marcus & Millichap -> California (Relationship Edge): Accelerating, 221 observation(s), importance 75.
+- Marcus & Millichap -> Los Angeles (Relationship Edge): Reappearing, 177 observation(s), importance 75.
 
 ## Accelerating Markets
 
@@ -81,29 +81,29 @@ Generated: 2026-10-26 01:00:51
 
 ## Fading Markets
 
-- Los Angeles (Market / Region): Fading, 6 observation(s), importance 59.
-- Southeast (Market / Region): Fading, 29 observation(s), importance 57.
-- Seattle (Market / Region): Fading, 30 observation(s), importance 55.
+- Sun Belt (Market / Region): Fading, 24 observation(s), importance 57.
+- Los Angeles (Market / Region): Fading, 6 observation(s), importance 57.
+- Southeast (Market / Region): Fading, 29 observation(s), importance 56.
+- Seattle (Market / Region): Fading, 30 observation(s), importance 53.
 - California (Market / Region): Fading, 37 observation(s), importance 53.
-- Austin (Market / Region): Fading, 36 observation(s), importance 50.
-- Dallas (Market / Region): Fading, 42 observation(s), importance 50.
-- National / Other (Market / Region): Fading, 18 observation(s), importance 50.
-- Arizona (Market / Region): Fading, 64 observation(s), importance 49.
-- New York (Market / Region): Fading, 61 observation(s), importance 46.
-- Southeast (Market / Region): Fading, 33 observation(s), importance 46.
+- Arizona (Market / Region): Fading, 53 observation(s), importance 49.
+- New York (Market / Region): Fading, 57 observation(s), importance 49.
+- Phoenix (Market / Region): Fading, 43 observation(s), importance 49.
+- Southeast (Market / Region): Fading, 117 observation(s), importance 49.
+- Texas (Market / Region): Fading, 63 observation(s), importance 49.
 
 ## Recurring Refinancing Stress Signals
 
-- JLL (Lender / Debt Provider): Persistent, 27 observation(s), importance 90.
-- Newport Beach Seniors Communities JLL Capital (Institutional Capital Partner): Persistent, 24 observation(s), importance 90.
-- northmarq (Lender / Debt Provider): Persistent, 6 observation(s), importance 83.
-- JLL (GP / Developer): Persistent, 27 observation(s), importance 82.
-- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities (Deal / Project): Persistent, 24 observation(s), importance 82.
-- JLL (GP / Developer): Persistent, 29 observation(s), importance 81.
-- Voya Investment Management (Institutional Capital Partner): Persistent, 4 observation(s), importance 81.
-- JLL (Institutional Capital Partner): Persistent, 3 observation(s), importance 79.
-- PCCP (Institutional Capital Partner): Fading, 6 observation(s), importance 78.
-- northmarq (Lender / Debt Provider): Persistent, 3 observation(s), importance 77.
+- JLL (Lender / Debt Provider): Fading, 27 observation(s), importance 88.
+- Newport Beach Seniors Communities JLL Capital (Institutional Capital Partner): Fading, 24 observation(s), importance 88.
+- Marcus & Millichap (GP / Developer): Reappearing, 12 observation(s), importance 82.
+- northmarq (Lender / Debt Provider): Fading, 6 observation(s), importance 82.
+- northmarq (Lender / Debt Provider): Persistent, 5 observation(s), importance 81.
+- JLL (GP / Developer): Fading, 29 observation(s), importance 80.
+- JLL (GP / Developer): Fading, 27 observation(s), importance 80.
+- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities (Deal / Project): Fading, 24 observation(s), importance 80.
+- Voya Investment Management (Institutional Capital Partner): Fading, 4 observation(s), importance 78.
+- JLL (Institutional Capital Partner): Fading, 3 observation(s), importance 77.
 
 ## Canonical Deal Summary
 

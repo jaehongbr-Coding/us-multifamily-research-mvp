@@ -1,6 +1,6 @@
 # CoStar Manual Intake Report
 
-Generated: 2026-10-26 01:00:49
+Generated: 2026-10-27 01:51:10
 
 This report covers manually exported CoStar files placed in `input/costar/`.
 The collector does not scrape CoStar, automate login, or bypass paywalls.

@@ -1,119 +1,121 @@
 # Institutional Relationship & Capital Flow Report
 
-Generated: 2026-10-27 01:51:11
+Generated: 2026-10-28 02:02:27
 
 ## Top Institutional Relationship Signals
 
-- Blackstone: score 100, Capital Outflow / Exit, GP Capability Benchmark Signal. Monitor only.
+- Blackstone: score 100, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - CBRE: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Carmel Partners: score 100, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - JLL: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Kennedy Wilson: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Marcus & Millichap: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- UDR: score 93, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Mill Creek Residential: score 92, Operational / Platform Investment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Affinius Capital: score 91, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Berkadia: score 91, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- E&S Ring Management: score 91, Refinancing / Recapitalization, Capital Partner Tracking Signal. Review California / LA capital and developer activity.
+- Mill Creek Residential: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- PCCP: score 98, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Akara Partners: score 97, No Clear Capital Flow Signal, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Associated Bank: score 97, Capital Inflow, Pricing Discovery Signal. Track capital deployment and pricing signals.
+- Greystar: score 96, Refinancing / Recapitalization, Capital Partner Tracking Signal. Track refinancing or recapitalization pipeline.
 
 ## Tier 1 Firm Watch
 
-- Blackstone: score 100, Capital Outflow / Exit, GP Capability Benchmark Signal. Monitor only.
-- Kennedy Wilson: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Blackstone: score 100, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Greystar: score 96, Refinancing / Recapitalization, Capital Partner Tracking Signal. Track refinancing or recapitalization pipeline.
 
 ## California / LA Capital and Developer Watch
 
 - CBRE: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Kennedy Wilson: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Carmel Partners: score 100, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- JLL: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Marcus & Millichap: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- E&S Ring Management: score 91, Refinancing / Recapitalization, Capital Partner Tracking Signal. Review California / LA capital and developer activity.
+- Akara Partners: score 97, No Clear Capital Flow Signal, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Dunlop Capital Markets Real Estate: score 91, Refinancing / Recapitalization, Capital Partner Tracking Signal. Review California / LA capital and developer activity.
+- Essex Realty Group: score 91, Capital Outflow / Exit, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- Freddie Mac: score 91, Refinancing / Recapitalization, Capital Partner Tracking Signal. Review California / LA capital and developer activity.
+- IPA: score 91, Capital Outflow / Exit, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - Related California: score 91, Operational / Platform Investment, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Voya Investment Management: score 91, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Monterey Office Park Slatt Capital: score 65, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 
 ## Capital Inflow / Outflow Signals
 
-- Blackstone: score 100, Capital Outflow / Exit, GP Capability Benchmark Signal. Monitor only.
 - CBRE: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - JLL: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Kennedy Wilson: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Marcus & Millichap: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- UDR: score 93, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Mill Creek Residential: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Associated Bank: score 97, Capital Inflow, Pricing Discovery Signal. Track capital deployment and pricing signals.
+- Rise Properties Trust: score 94, Capital Inflow, Pricing Discovery Signal. Track capital deployment and pricing signals.
 - Berkadia: score 91, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- Millichap Capital: score 91, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- Upper West Side JLL Capital: score 91, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- Hines: score 90, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Essex Realty Group: score 91, Capital Outflow / Exit, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- IPA: score 91, Capital Outflow / Exit, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- Byline Bank: score 90, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 
 ## JV / Partnership Signals
 
+- Blackstone: score 100, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - CBRE: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Carmel Partners: score 100, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - JLL: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Kennedy Wilson: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- UDR: score 93, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Mill Creek Residential: score 92, Operational / Platform Investment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Affinius Capital: score 91, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Former 7Up HQ Revive Capital: score 91, Operational / Platform Investment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Mill Creek Residential: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- PCCP: score 98, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Akara Partners: score 97, No Clear Capital Flow Signal, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Embrey Partners: score 91, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Affinius Capital: score 90, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Hines: score 90, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Bell Partners: score 83, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- PCCP: score 83, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 
 ## Competitive Benchmark Signals
 
-- Blackstone: score 100, Capital Outflow / Exit, GP Capability Benchmark Signal. Monitor only.
 - Marcus & Millichap: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - Berkadia: score 91, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- Millichap Capital: score 91, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- Essex Realty Group: score 91, Capital Outflow / Exit, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- IPA: score 91, Capital Outflow / Exit, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - Related California: score 91, Operational / Platform Investment, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Upper West Side JLL Capital: score 91, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- Voya Investment Management: score 91, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Associated Bank: score 86, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- Sunny Isles Beach Madison Realty Capital: score 66, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- Monterey Office Park Slatt Capital: score 65, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- Byline Bank: score 90, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- Pinterest-Leased Sunnyvale Offices Mesa West Capital: score 79, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 
 ## Pricing Discovery Signals
 
-- Byline Bank: score 80, Capital Inflow, Pricing Discovery Signal. Track capital deployment and pricing signals.
+- Associated Bank: score 97, Capital Inflow, Pricing Discovery Signal. Track capital deployment and pricing signals.
+- Rise Properties Trust: score 94, Capital Inflow, Pricing Discovery Signal. Track capital deployment and pricing signals.
+- Article Student Living: score 81, Capital Inflow, Pricing Discovery Signal. Track capital deployment and pricing signals.
 
 ## Relationship Map
 
 | Firm | Market | Source Category | Activity Type | Capital Flow | Relationship Signal | Woomi Implication |
 | --- | --- | --- | --- | --- | --- | --- |
-| Blackstone | Seattle | Core Multifamily News | disposition / exit; refinancing; operational technology / AI adoption | Capital Outflow / Exit | GP Capability Benchmark Signal | competitive pressure indicator |
-| CBRE | Atlanta / Georgia; California; Louisville / Kentucky | Core Multifamily News; Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
-| JLL | Austin / Texas; Colorado; Miami / Florida; New York City / New York; Washington DC | Core Multifamily News; Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
-| Kennedy Wilson | California | Site / Parcel Source Expansion | acquisition; JV / partnership | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
-| Marcus & Millichap | California; Los Angeles / California; New York City / New York; Other / Unknown | Core Multifamily News; Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
-| UDR | Other / Unknown | Core Multifamily News | acquisition; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
-| Mill Creek Residential | Phoenix / Arizona | Site / Parcel Source Expansion | JV / partnership; operational technology / AI adoption | Operational / Platform Investment | Potential JV / Partnership Signal | potential JV partnership signal |
-| Affinius Capital | Washington DC | Site / Parcel Source Expansion | refinancing; JV / partnership | Refinancing / Recapitalization | Potential JV / Partnership Signal | potential JV partnership signal |
-| Berkadia | Miami / Florida | Site / Parcel Source Expansion | acquisition; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
-| E&S Ring Management | Los Angeles / California | Site / Parcel Source Expansion | refinancing | Refinancing / Recapitalization | Capital Partner Tracking Signal | capital market sentiment indicator |
+| Blackstone | Kentucky | Site / Parcel Source Expansion | refinancing; recapitalization; JV / partnership | Refinancing / Recapitalization | Potential JV / Partnership Signal | potential JV partnership signal |
+| CBRE | Atlanta / Georgia; California | Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
+| Carmel Partners | Los Angeles / California | Core Multifamily News | refinancing; JV / partnership; operational technology / AI adoption | Refinancing / Recapitalization | Potential JV / Partnership Signal | potential JV partnership signal |
+| JLL | Austin / Texas; California; Denver / Colorado; Houston / Texas; Miami / Florida; Other / Unknown | Core Multifamily News; Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
+| Marcus & Millichap | California | Core Multifamily News; Regional / California / LA Sources; Site / Parcel Source Expansion | acquisition; disposition / exit; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
+| Mill Creek Residential | Phoenix / Arizona | Core Multifamily News; Site / Parcel Source Expansion | development start; JV / partnership; capital raise; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
+| PCCP | Nashville / Tennessee; New York | Core Multifamily News; Site / Parcel Source Expansion | refinancing; JV / partnership; operational technology / AI adoption | Refinancing / Recapitalization | Potential JV / Partnership Signal | potential JV partnership signal |
+| Akara Partners | California | Core Multifamily News; Site / Parcel Source Expansion | JV / partnership | No Clear Capital Flow Signal | Potential JV / Partnership Signal | potential JV partnership signal |
+| Associated Bank | Other / Unknown | Core Multifamily News; Site / Parcel Source Expansion | acquisition; refinancing | Capital Inflow | Pricing Discovery Signal | pricing discovery reference |
+| Greystar | Denver / Colorado | Site / Parcel Source Expansion | refinancing | Refinancing / Recapitalization | Capital Partner Tracking Signal | capital market sentiment indicator |
 
 ## Deal / Project Intelligence
 
 Deal and project-level extraction is available in `deal_pipeline_report.md`.
-- JV / Partnership in California: kennedy wilson / kennedy wilson / cbre.
-- Acquisition in California: Unknown / Unknown / cbre.
+- JV / Partnership in California: Unknown / Unknown / jll.
+- Refinancing in California: Unknown / Unknown / freddie mac.
 - Acquisition in Miami / Florida: Unknown / Unknown / berkadia.
 - Acquisition in Atlanta / Georgia: Unknown / Unknown / cbre.
-- Acquisition in Atlanta / Georgia: Unknown / Unknown / cbre.
+- Acquisition in Other / Unknown: Unknown / Unknown / jll.
 
 ## Relationship Graph Intelligence
 
 Capital partner, lender, GP, and market edges are available in `relationship_graph_report.md`.
-- Kennedy Wilson -> cbre: JV / Partnership.
-- Kennedy Wilson -> kennedy wilson: JV / Partnership.
-- CBRE -> cbre: Financing Relationship.
-- CBRE -> cbre: Financing Relationship.
+- JLL -> jll: JV / Partnership.
+- Walker & Dunlop -> freddie mac: Financing Relationship.
+- Blackstone -> blackstone: Financing Relationship.
+- Greystar -> jll: Financing Relationship.
 - CBRE -> cbre: Financing Relationship.
 
 ## High-Scoring GP Watchlist Reference
 
 Emerging GP watchlist rankings are available in `gp_watchlist_report.md`.
-- Kennedy Wilson: 81 (Tier 2 High Potential GP), Strong partnership signal.
+- JLL: 81 (Tier 2 High Potential GP), Strong partnership signal.
 - CBRE: 76 (Tier 2 High Potential GP), Strong partnership signal.
-- JLL: 75 (Tier 2 High Potential GP), Strong partnership signal.
-- JLL: 75 (Tier 2 High Potential GP), Strong partnership signal.
-- Hines: 73 (Tier 2 High Potential GP), Strong partnership signal.
+- Mill Creek Residential: 75 (Tier 2 High Potential GP), Strong partnership signal.
+- Carmel Partners: 73 (Tier 2 High Potential GP), Strong partnership signal.
+- Dunlop Capital Markets Real Estate: 73 (Tier 2 High Potential GP), Moderate partnership signal.
 
 ## GP Source Expansion Summary
 
@@ -148,23 +150,23 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Recommended Executive Follow-Up
 
-- Blackstone: Monitor only
+- Blackstone: Map potential GP / JV relationship and monitor partnership activity
 - CBRE: Map potential GP / JV relationship and monitor partnership activity
+- Carmel Partners: Map potential GP / JV relationship and monitor partnership activity
 - JLL: Map potential GP / JV relationship and monitor partnership activity
-- Kennedy Wilson: Map potential GP / JV relationship and monitor partnership activity
 - Marcus & Millichap: Review California / LA capital and developer activity
-- UDR: Map potential GP / JV relationship and monitor partnership activity
 - Mill Creek Residential: Map potential GP / JV relationship and monitor partnership activity
-- Affinius Capital: Map potential GP / JV relationship and monitor partnership activity
+- PCCP: Map potential GP / JV relationship and monitor partnership activity
+- Akara Partners: Map potential GP / JV relationship and monitor partnership activity
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 157
-- Institutional-grade signals: 19
+- Signals evaluated: 164
+- Institutional-grade signals: 23
 - High-confidence signals: 45
-- Weak/noisy signals: 95
+- Weak/noisy signals: 92
 - High-confidence watchlist items: 45
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

@@ -1,60 +1,60 @@
 # Real Asset & Parcel Intelligence Report
 
-Generated: 2026-10-27 01:51:40
+Generated: 2026-10-28 02:02:48
 
-- Total asset / parcel signals: 85
+- Total asset / parcel signals: 91
 
 ## Top Site-Level Opportunities
 
+- Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland...: Refinancing / Recapitalization, California, asset_opportunity_score 100.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization, South Florida, asset_opportunity_score 100.
-- JV / Partnership - California - Kennedy Wilson, Partners Acquire 312-Unit Multifamily Community in San Jose for $176M: General Asset Signal, California, asset_opportunity_score 100.
-- Acquisition - Atlanta / Georgia - CBRE Arranges $83M Acquisition Loan for Luxury Multifamily Community in Atlanta’s Buckhead...: General Asset Signal, Atlanta, asset_opportunity_score 100.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: General Asset Signal, Atlanta, asset_opportunity_score 100.
 - General Project Signal - Los Angeles / California - Alveare affordable housing topped out at 1405 S. Broadway in DTLA: Affordable / Density Bonus Strategy, Los Angeles, asset_opportunity_score 100.
-- General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing: General Asset Signal, Seattle, asset_opportunity_score 99.
-- Disposition / Exit - Los Angeles / California - Marcus & Millichap Arranges $7.35M Sale of 36-Unit Multifamily Property in Los Angeles: General Asset Signal, Los Angeles, asset_opportunity_score 97.
-- JV / Partnership - Los Angeles / California - City Council upholds approval of mixed-use project at 12555 Ventura Blvd. in Studio City: General Asset Signal, 12555 Ventura Blvd, asset_opportunity_score 95.
+- Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily: Refinancing / Recapitalization, Los Angeles, asset_opportunity_score 99.
+- Construction Financing - Los Angeles / California - Truist Provides $152M for Long Beach, Calif., Apartment Development: General Asset Signal, Los Angeles / California, asset_opportunity_score 98.
+- Disposition / Exit - California - Marcus & Millichap Arranges $9.65M Sale of 35-Unit Multifamily Property in Anaheim Califor...: General Asset Signal, California, asset_opportunity_score 98.
+- JV / Partnership - California - Akara, DEVEN to Break Ground on 305-Bed Student Housing Project Near San Diego State Unive...: General Asset Signal, California, asset_opportunity_score 97.
+- Disposition / Exit - California - Levin Johnston Closes Apartment Sale in One of San Jose’s Strongest Submarkets: Lease-Up / Delivery, California, asset_opportunity_score 97.
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Lease-Up / Delivery, California, asset_opportunity_score 95.
-- General Project Signal - Los Angeles / California - Affordable housing slated for 5003 N. Kester Ave. in Sherman Oaks: Affordable / Density Bonus Strategy, 5003 N. Kester Ave, asset_opportunity_score 94.
 
 ## Top Site-Level Risks
 
-- Refinancing - Los Angeles / California - Northmarq Arranges $95.8M Refinancing for 1,461-Unit Southern California Multifamily Portf...: Refinancing / Recapitalization, Los Angeles, asset_risk_score 57.
-- Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi on SoCal Apartment Portfolio: Refinancing / Recapitalization, Los Angeles, asset_risk_score 56.
-- Refinancing - California - Life Company Provides Permanent Loan on Monterey Office Park: Refinancing / Recapitalization, California, asset_risk_score 56.
-- Refinancing - Washington DC - Affinius Capital Originates $97.9M Refinancing for Multifamily Community in D.C.: Refinancing / Recapitalization, Washington D.C., asset_risk_score 49.
-- City Council upholds approval of mixed-use project at 12555 Ventura Blvd. in Studio City: General Asset Signal, 12555 Ventura Blvd, asset_risk_score 46.
-- Refinancing - Florida - How development helps Richard Richman’s tax syndication business: Refinancing / Recapitalization, Florida, asset_risk_score 46.
-- Office-to-Residential Conversion - Other / Unknown - Octagon Lends $48M on Missouri Office-to-Resi Conversion of Former 7Up HQ: Office-to-Residential Conversion, Unknown, asset_risk_score 44.
-- Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization, South Florida, asset_risk_score 41.
-- Construction Financing - Tennessee - PCCP Provides $71M Senior Construction Loan for the Development of a 360-Unit Apartment Co...: Refinancing / Recapitalization, Tennessee, asset_risk_score 41.
-- Disposition / Exit - California - Retail market tightens, L.A. multifamily sales jump, and more: General Asset Signal, L.A., asset_risk_score 39.
+- Construction Financing - California - Purpose-Built Student Housing Near San Diego State University Campus Secured Construction...: General Asset Signal, San Diego, asset_risk_score 61.
+- Refinancing - California - CBRE Secures $32.8M Refinancing for Hilton Garden Inn Hotel in Cupertino, California: Refinancing / Recapitalization, California, asset_risk_score 54.
+- Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland...: Refinancing / Recapitalization, California, asset_risk_score 52.
+- Recapitalization - Kentucky - Newmark Arranges Recapitalization of Fritz Farm Mixed-Use Center in Lexington, Kentucky: Refinancing / Recapitalization, Kentucky, asset_risk_score 49.
+- Refinancing - Denver / Colorado - JLL Arranges $333.3M Refinancing for 1,184-Unit Multifamily Portfolio Near Denver: Refinancing / Recapitalization, Denver, asset_risk_score 49.
+- Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily: Refinancing / Recapitalization, Los Angeles, asset_risk_score 48.
+- Construction Financing - Nashville / Tennessee - PCCP Provides $71M Construction Loan for Multifamily Project in Spring Hill, Tennessee: Refinancing / Recapitalization, Tennessee, asset_risk_score 48.
+- Construction Financing - New York - PCCP Provides $164M Senior Loan for Paramus Multifamily Project: General Asset Signal, New York, asset_risk_score 48.
+- Refinancing - Washington DC - Affinius Capital Originates $98M Loan to Refinance The Lydian in DC: Refinancing / Recapitalization, Washington Dc, asset_risk_score 48.
+- Construction Financing - Los Angeles / California - Truist Provides $152M for Long Beach, Calif., Apartment Development: General Asset Signal, Los Angeles / California, asset_risk_score 47.
 
 ## Assets With Address / Location Clues
 
+- Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland...: Refinancing / Recapitalization, California, asset_opportunity_score 100.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization, South Florida, asset_opportunity_score 100.
-- JV / Partnership - California - Kennedy Wilson, Partners Acquire 312-Unit Multifamily Community in San Jose for $176M: General Asset Signal, California, asset_opportunity_score 100.
-- Acquisition - Atlanta / Georgia - CBRE Arranges $83M Acquisition Loan for Luxury Multifamily Community in Atlanta’s Buckhead...: General Asset Signal, Atlanta, asset_opportunity_score 100.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: General Asset Signal, Atlanta, asset_opportunity_score 100.
 - General Project Signal - Los Angeles / California - Alveare affordable housing topped out at 1405 S. Broadway in DTLA: Affordable / Density Bonus Strategy, Los Angeles, asset_opportunity_score 100.
-- General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing: General Asset Signal, Seattle, asset_opportunity_score 99.
-- Disposition / Exit - Los Angeles / California - Marcus & Millichap Arranges $7.35M Sale of 36-Unit Multifamily Property in Los Angeles: General Asset Signal, Los Angeles, asset_opportunity_score 97.
-- JV / Partnership - Los Angeles / California - City Council upholds approval of mixed-use project at 12555 Ventura Blvd. in Studio City: General Asset Signal, 12555 Ventura Blvd, asset_opportunity_score 95.
+- Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily: Refinancing / Recapitalization, Los Angeles, asset_opportunity_score 99.
+- Construction Financing - Los Angeles / California - Truist Provides $152M for Long Beach, Calif., Apartment Development: General Asset Signal, Los Angeles / California, asset_opportunity_score 98.
+- Disposition / Exit - California - Marcus & Millichap Arranges $9.65M Sale of 35-Unit Multifamily Property in Anaheim Califor...: General Asset Signal, California, asset_opportunity_score 98.
+- JV / Partnership - California - Akara, DEVEN to Break Ground on 305-Bed Student Housing Project Near San Diego State Unive...: General Asset Signal, California, asset_opportunity_score 97.
+- Disposition / Exit - California - Levin Johnston Closes Apartment Sale in One of San Jose’s Strongest Submarkets: Lease-Up / Delivery, California, asset_opportunity_score 97.
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Lease-Up / Delivery, California, asset_opportunity_score 95.
-- General Project Signal - Los Angeles / California - Affordable housing slated for 5003 N. Kester Ave. in Sherman Oaks: Affordable / Density Bonus Strategy, 5003 N. Kester Ave, asset_opportunity_score 94.
 
 ## Assets With Identified Developers / Sponsors
 
+- Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland...: Refinancing / Recapitalization, California, asset_opportunity_score 100.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization, South Florida, asset_opportunity_score 100.
-- JV / Partnership - California - Kennedy Wilson, Partners Acquire 312-Unit Multifamily Community in San Jose for $176M: General Asset Signal, California, asset_opportunity_score 100.
-- Acquisition - Atlanta / Georgia - CBRE Arranges $83M Acquisition Loan for Luxury Multifamily Community in Atlanta’s Buckhead...: General Asset Signal, Atlanta, asset_opportunity_score 100.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: General Asset Signal, Atlanta, asset_opportunity_score 100.
 - General Project Signal - Los Angeles / California - Alveare affordable housing topped out at 1405 S. Broadway in DTLA: Affordable / Density Bonus Strategy, Los Angeles, asset_opportunity_score 100.
-- General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing: General Asset Signal, Seattle, asset_opportunity_score 99.
-- Disposition / Exit - Los Angeles / California - Marcus & Millichap Arranges $7.35M Sale of 36-Unit Multifamily Property in Los Angeles: General Asset Signal, Los Angeles, asset_opportunity_score 97.
+- Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily: Refinancing / Recapitalization, Los Angeles, asset_opportunity_score 99.
+- Construction Financing - Los Angeles / California - Truist Provides $152M for Long Beach, Calif., Apartment Development: General Asset Signal, Los Angeles / California, asset_opportunity_score 98.
+- Disposition / Exit - California - Marcus & Millichap Arranges $9.65M Sale of 35-Unit Multifamily Property in Anaheim Califor...: General Asset Signal, California, asset_opportunity_score 98.
+- JV / Partnership - California - Akara, DEVEN to Break Ground on 305-Bed Student Housing Project Near San Diego State Unive...: General Asset Signal, California, asset_opportunity_score 97.
+- Disposition / Exit - California - Levin Johnston Closes Apartment Sale in One of San Jose’s Strongest Submarkets: Lease-Up / Delivery, California, asset_opportunity_score 97.
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Lease-Up / Delivery, California, asset_opportunity_score 95.
-- Disposition / Exit - California - Levin Johnston Closes Apartment Sale in One of San Jose’s Strongest Submarkets: Lease-Up / Delivery, California, asset_opportunity_score 94.
-- Acquisition - California - CBRE Arranges $16M Sale of Newly Developed Ohio Truck Stop, Retail Property: General Asset Signal, California, asset_opportunity_score 92.
 
 ## Assets With Entitlement or Permit Signals
 
@@ -62,27 +62,25 @@ Generated: 2026-10-27 01:51:40
 
 ## Assets With Financing / Refinancing Signals
 
-- Refinancing - Los Angeles / California - Northmarq Arranges $95.8M Refinancing for 1,461-Unit Southern California Multifamily Portf...: Refinancing / Recapitalization, Los Angeles, asset_risk_score 57.
-- Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi on SoCal Apartment Portfolio: Refinancing / Recapitalization, Los Angeles, asset_risk_score 56.
-- Refinancing - California - Life Company Provides Permanent Loan on Monterey Office Park: Refinancing / Recapitalization, California, asset_risk_score 56.
-- Refinancing - Washington DC - Affinius Capital Originates $97.9M Refinancing for Multifamily Community in D.C.: Refinancing / Recapitalization, Washington D.C., asset_risk_score 49.
-- Refinancing - Florida - How development helps Richard Richman’s tax syndication business: Refinancing / Recapitalization, Florida, asset_risk_score 46.
+- Refinancing - California - CBRE Secures $32.8M Refinancing for Hilton Garden Inn Hotel in Cupertino, California: Refinancing / Recapitalization, California, asset_risk_score 54.
+- Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland...: Refinancing / Recapitalization, California, asset_risk_score 52.
+- Recapitalization - Kentucky - Newmark Arranges Recapitalization of Fritz Farm Mixed-Use Center in Lexington, Kentucky: Refinancing / Recapitalization, Kentucky, asset_risk_score 49.
+- Refinancing - Denver / Colorado - JLL Arranges $333.3M Refinancing for 1,184-Unit Multifamily Portfolio Near Denver: Refinancing / Recapitalization, Denver, asset_risk_score 49.
+- Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily: Refinancing / Recapitalization, Los Angeles, asset_risk_score 48.
+- Construction Financing - Nashville / Tennessee - PCCP Provides $71M Construction Loan for Multifamily Project in Spring Hill, Tennessee: Refinancing / Recapitalization, Tennessee, asset_risk_score 48.
+- Refinancing - Washington DC - Affinius Capital Originates $98M Loan to Refinance The Lydian in DC: Refinancing / Recapitalization, Washington Dc, asset_risk_score 48.
+- Refinancing - Other / Unknown - How development helps Richard Richman’s tax syndication business: Refinancing / Recapitalization, Unknown, asset_risk_score 45.
+- Refinancing - Other / Unknown - JLL Arranges Loan for Refinancing of 160,904 SF Office Building in Princeton: Refinancing / Recapitalization, Unknown, asset_risk_score 42.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization, South Florida, asset_risk_score 41.
-- Construction Financing - Tennessee - PCCP Provides $71M Senior Construction Loan for the Development of a 360-Unit Apartment Co...: Refinancing / Recapitalization, Tennessee, asset_risk_score 41.
 
 ## Office-to-Residential Asset Signals
 
-- Office-to-Residential Conversion - Other / Unknown - Octagon Lends $48M on Missouri Office-to-Resi Conversion of Former 7Up HQ: Office-to-Residential Conversion, Unknown, asset_opportunity_score 71.
+- None detected.
 
 ## Affordable / Density Bonus Asset Signals
 
 - General Project Signal - Los Angeles / California - Alveare affordable housing topped out at 1405 S. Broadway in DTLA: Affordable / Density Bonus Strategy, Los Angeles, asset_opportunity_score 100.
-- General Project Signal - Los Angeles / California - Affordable housing slated for 5003 N. Kester Ave. in Sherman Oaks: Affordable / Density Bonus Strategy, 5003 N. Kester Ave, asset_opportunity_score 94.
-- Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St.: Affordable / Density Bonus Strategy, Los Angeles, asset_opportunity_score 84.
-- Affordable housing slated for 5003 N. Kester Ave. in Sherman Oaks: Affordable / Density Bonus Strategy, 5003 N. Kester Ave, asset_opportunity_score 75.
-- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: Affordable / Density Bonus Strategy, San Francisco, asset_opportunity_score 69.
 - Ira D. Square Opens at 1178 Sonora Court, Sunnyvale: Affordable / Density Bonus Strategy, 1178 Sonora Court, asset_opportunity_score 64.
-- Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisco: Affordable / Density Bonus Strategy, 356-402 West Clarendon Road, asset_opportunity_score 61.
 
 ## Implications for Woomi / Woomi Global
 
@@ -91,22 +89,22 @@ Generated: 2026-10-27 01:51:40
 
 ## Recommended Asset-Level Follow-up Actions
 
+- Review site details, sponsor, entitlement path, and local precedent: Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland....
 - Review acquisition, financing, ownership, and comparable transaction details: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
-- Review site details, sponsor, entitlement path, and local precedent: JV / Partnership - California - Kennedy Wilson, Partners Acquire 312-Unit Multifamily Community in San Jose for $176M.
-- Monitor asset-level signal for repeated confirmation: Acquisition - Atlanta / Georgia - CBRE Arranges $83M Acquisition Loan for Luxury Multifamily Community in Atlanta’s Buckhead....
 - Monitor asset-level signal for repeated confirmation: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
 - Track entitlement, permit, density bonus, and construction-readiness milestones: General Project Signal - Los Angeles / California - Alveare affordable housing topped out at 1405 S. Broadway in DTLA.
-- Monitor asset-level signal for repeated confirmation: General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing.
-- Monitor asset-level signal for repeated confirmation: Disposition / Exit - Los Angeles / California - Marcus & Millichap Arranges $7.35M Sale of 36-Unit Multifamily Property in Los Angeles.
-- Monitor asset-level signal for repeated confirmation: JV / Partnership - Los Angeles / California - City Council upholds approval of mixed-use project at 12555 Ventura Blvd. in Studio City.
+- Review acquisition, financing, ownership, and comparable transaction details: Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily.
+- Monitor asset-level signal for repeated confirmation: Construction Financing - Los Angeles / California - Truist Provides $152M for Long Beach, Calif., Apartment Development.
+- Review site details, sponsor, entitlement path, and local precedent: Disposition / Exit - California - Marcus & Millichap Arranges $9.65M Sale of 35-Unit Multifamily Property in Anaheim Califor....
+- Review site details, sponsor, entitlement path, and local precedent: JV / Partnership - California - Akara, DEVEN to Break Ground on 305-Bed Student Housing Project Near San Diego State Unive....
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 85
-- LA lifecycle watch items: 48
-- Stage mix: Refinancing / Recapitalization: 7, Unknown Stage: 60, Delivery / Opening: 8, Vertical Construction: 3, Site Acquisition / Site Control: 1
+- Lifecycle records: 91
+- LA lifecycle watch items: 51
+- Stage mix: Refinancing / Recapitalization: 13, Site Acquisition / Site Control: 5, Unknown Stage: 54, Delivery / Opening: 10, Early Site Signal: 3
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -114,11 +112,11 @@ Generated: 2026-10-27 01:51:40
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 85
-- Newly detected projects: 45
+- Lifecycle transitions analyzed: 91
+- Newly detected projects: 54
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 45
+- LA lifecycle transition watch items: 50
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -126,10 +124,10 @@ Generated: 2026-10-27 01:51:40
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 691
-- Canonical projects: 157
-- Duplicate project clusters: 98
-- Persistent assets tracked: 157
-- LA persistent asset watch items: 95
+- Raw project references: 732
+- Canonical projects: 164
+- Duplicate project clusters: 109
+- Persistent assets tracked: 164
+- LA persistent asset watch items: 98
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

@@ -1,69 +1,69 @@
 # Entity Resolution Report
 
-Generated: 2026-10-27 01:51:11
+Generated: 2026-10-28 02:02:27
 
-- Total raw entities reviewed: 251
-- Total canonical entities created: 72
-- Possible duplicate entity groups: 10
-- Weak matches needing review: 192
+- Total raw entities reviewed: 275
+- Total canonical entities created: 81
+- Possible duplicate entity groups: 11
+- Weak matches needing review: 208
 - Unknown entities needing review: 4
 
 ## Top Canonical Firms
 
-- Unknown: 150 occurrence(s)
-- JLL: 51 occurrence(s)
-- CBRE: 31 occurrence(s)
-- Marcus & Millichap: 21 occurrence(s)
+- Unknown: 158 occurrence(s)
+- JLL: 53 occurrence(s)
+- CBRE: 15 occurrence(s)
+- Marcus & Millichap: 14 occurrence(s)
 - Berkadia: 9 occurrence(s)
-- Kennedy Wilson: 9 occurrence(s)
+- Carmel Partners: 9 occurrence(s)
+- PCCP: 9 occurrence(s)
 - Related Companies: 9 occurrence(s)
 - Blackstone: 8 occurrence(s)
-- Hines: 7 occurrence(s)
-- northmarq: 6 occurrence(s)
+- Greystar: 7 occurrence(s)
 
 ## Top Canonical Markets
 
-- Los Angeles: 76 occurrence(s)
-- California: 47 occurrence(s)
+- California: 69 occurrence(s)
+- Los Angeles: 56 occurrence(s)
+- Other / Unknown: 46 occurrence(s)
 - Sun Belt: 40 occurrence(s)
-- Other / Unknown: 39 occurrence(s)
-- New York: 15 occurrence(s)
-- Unknown: 15 occurrence(s)
-- Seattle: 13 occurrence(s)
-- Virginia: 8 occurrence(s)
-- National: 7 occurrence(s)
+- Unknown: 19 occurrence(s)
+- Kentucky: 12 occurrence(s)
+- New York: 10 occurrence(s)
+- National: 9 occurrence(s)
 - South Florida: 6 occurrence(s)
+- Seattle: 5 occurrence(s)
 
 ## Possible Duplicate Entities
 
 - Berkadia: Acquisition - Miami / Florida - Berkadia Arranges Refis for 3 S. Florida Rental Communities, Berkadia, berkadia
-- Blackstone: Blackstone, General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing, blackstone
-- CBRE: Acquisition - Atlanta / Georgia - CBRE Arranges $83M Acquisition Loan for Luxury Multifamily Community in Atlanta’s Buckhead..., Acquisition - California - CBRE Arranges $16M Sale of Newly Developed Ohio Truck Stop, Retail Property, Acquisition - Louisville / Kentucky - CBRE Arranges Sale of Future Mixed-Use Development in Wisconsin, CBRE, cbre
-- California: California, Development Start - California - Inglewood breaks ground on new downtown mobility hubs, Development Start - California - National City Investment Group Commences Workforce Housing Build, Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993, Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio, Disposition / Exit - California - Levin Johnston Closes Apartment Sale in One of San Jose’s Strongest Submarkets, General Project Signal - California - How Standard Communities builds workforce rentals in California for under $500,000, General Project Signal - California - MidPen Housing Completes 176-Unit Ira D. Hall Square Apartments in Silicon Valley, Refinancing - California - Life Company Provides Permanent Loan on Monterey Office Park, San Francisco / California
-- JLL: Acquisition - Austin / Texas - JLL Negotiates Sale of 132-Unit Apartment Building in Fort Lee, New Jersey, Acquisition - New York City / New York - JLL Arranges Financing for Lightstone Acquisition on Upper West Side, Disposition / Exit - Austin / Texas - JLL Capital Markets Arranges Sale and Financing of 341-Unit Luxury High-Rise in Austin, General Project Signal - Colorado - JLL Arranges $333.3M Financing for a Luxury 3-Property Colorado Multifamily Portfolio, JLL, Upper West Side JLL Capital, jll
-- Kennedy Wilson: JV / Partnership - California - Kennedy Wilson, Partners Acquire 312-Unit Multifamily Community in San Jose for $176M, Kennedy Wilson, kennedy wilson
-- Los Angeles: Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community, Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M, Acquisition - Atlanta / Georgia - Passco Offloads Buckhead Rental Asset for $87.5M, Acquisition - Austin / Texas - Weidner Adds 341-Unit Rental Asset to Austin Portfolio, Acquisition - Seattle - Bell Partners Acquires 261-Unit Ballard Apartment Building for $95M, Atlanta / Georgia, Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset, Disposition / Exit - California - Retail market tightens, L.A. multifamily sales jump, and more, Disposition / Exit - Los Angeles / California - Marcus & Millichap Arranges $7.35M Sale of 36-Unit Multifamily Property in Los Angeles, Disposition / Exit - Los Angeles / California - Mixed-use project completed at Sunset and Fairfax in Hollywood, Disposition / Exit - Other / Unknown - Northmarq Closes Sale of 312-Unit Multifamily Community in Clarksville Indiana, Entitlement / Permitting - Los Angeles / California - Bjarke Ingels-designed project in the works at 2810 N. Hyperion Ave. in Silver Lake, Entitlement / Permitting - Los Angeles / California - L.A. County Supes approve gap financing for affordable housing at 5010 E. 3rd St., Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc..., General Project Signal - Las Vegas / Nevada - SASBs Dominate Conduits 3 to 1 in 2026 CMBS Market, General Project Signal - Los Angeles / California - Affordable housing slated for 5003 N. Kester Ave. in Sherman Oaks, General Project Signal - Los Angeles / California - Alveare affordable housing topped out at 1405 S. Broadway in DTLA, JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project, JV / Partnership - Los Angeles / California - City Council upholds approval of mixed-use project at 12555 Ventura Blvd. in Studio City, L.A., Las Vegas, Las Vegas / Nevada, Los Angeles, Los Angeles / California, Modular / Construction Innovation - Los Angeles / California - New look for proposed apartment complex at 5600 Hollywood Blvd., Refinancing - Los Angeles / California - Northmarq Arranges $95.8M Refinancing for 1,461-Unit Southern California Multifamily Portf..., Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi on SoCal Apartment Portfolio, Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi
-- New York: Acquisition - New York City / New York - MMCC Arranges $9.8M Acquisition Loan for Brooklyn Apartment Building, General Project Signal - New York - Alpine Residential Completes 500-Unit Multifamily Project in Jersey City, Manhattan, New York, New York City, New York City / New York
+- Blackstone: Blackstone, blackstone
+- CBRE: CBRE, Refinancing - California - CBRE Secures $32.8M Refinancing for Hilton Garden Inn Hotel in Cupertino, California, cbre
+- California: California, Construction Financing - California - Purpose-Built Student Housing Near San Diego State University Campus Secured Construction..., Development Start - California - Inglewood breaks ground on new downtown mobility hubs, Development Start - California - National City Investment Group Commences Workforce Housing Build, Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993, Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio, Disposition / Exit - California - Essex Realty Group Closes 12-Unit Rogers Park Multifamily Transaction, Disposition / Exit - California - Levin Johnston Closes Apartment Sale in One of San Jose’s Strongest Submarkets, Disposition / Exit - California - Marcus & Millichap Arranges $9.65M Sale of 35-Unit Multifamily Property in Anaheim Califor..., Disposition / Exit - California - Orange County, Calif., Apartment Sales Up 15.6%, but Values Fall, General Project Signal - California - How Standard Communities builds workforce rentals in California for under $500,000, General Project Signal - California - Mesa West Provides First Mortgage for Pinterest-Leased Sunnyvale Offices, JV / Partnership - California - Akara, DEVEN to Break Ground on 305-Bed Student Housing Project Near San Diego State Unive..., JV / Partnership - California - LogosFaith Development Expands into San Diego Market, Orange County, San Diego, San Francisco / California, Southern California
+- Freddie Mac: Freddie Mac, freddie mac
+- JLL: JLL, Refinancing - Denver / Colorado - JLL Arranges $333.3M Refinancing for 1,184-Unit Multifamily Portfolio Near Denver, Refinancing - Other / Unknown - JLL Arranges Loan for Refinancing of 160,904 SF Office Building in Princeton, jll
+- Kennedy Wilson: Disposition / Exit - Virginia - How Bainbridge set a 2026 high-water mark with a Virginia property sale, Entitlement / Permitting - Los Angeles / California - 12 homes pitched for 2315 S. Oakwood Ave. in Venice
+- Los Angeles: Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community, Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M, Acquisition - Atlanta / Georgia - Passco Offloads Buckhead Rental Asset for $87.5M, Acquisition - Austin / Texas - Weidner Adds 341-Unit Rental Asset to Austin Portfolio, Acquisition - Houston / Texas - Dinerstein Sells 82,692 SF Office Building in Houston’s Greenway Plaza, Atlanta / Georgia, Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily, Construction Financing - Los Angeles / California - Truist Provides $152M for Long Beach, Calif., Apartment Development, Development Start - Los Angeles / California - Groundbreaking held for mixed-use project at 3800 W. 6th St. in Koreatown, Development Start - Phoenix / Arizona - Origin Investments and Mill Creek Residential Announce Plans for Modera Old Town an Opport..., Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset, Disposition / Exit - California - Retail market tightens, L.A. multifamily sales jump, and more, Disposition / Exit - Los Angeles / California - Mixed-use project completed at Sunset and Fairfax in Hollywood, Disposition / Exit - Other / Unknown - Kidder Mathews Arranges Sale of 54,886 SF Multifamily Development Site in Kirkland Washing..., Disposition / Exit - Other / Unknown - Northmarq Arranges Sale of Record-Setting 627-Unit Multifamily Community in Lawrence Kansa..., Entitlement / Permitting - Los Angeles / California - Bjarke Ingels-designed project in the works at 2810 N. Hyperion Ave. in Silver Lake, General Project Signal - Los Angeles / California - Alveare affordable housing topped out at 1405 S. Broadway in DTLA, JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project, L.A., Los Angeles, Los Angeles / California, Modular / Construction Innovation - Los Angeles / California - New look for proposed apartment complex at 5600 Hollywood Blvd., Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland..., Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi
+- New York: Construction Financing - New York - PCCP Provides $164M Senior Loan for Paramus Multifamily Project, JV / Partnership - New York City / New York - Crossroads Cos., CrownPoint Group Complete 90-Unit Multifamily Project in Dover, New Jerse..., New York, New York City, New York City / New York
 - Related Companies: Related California, related
-- Sun Belt: Atlanta, Austin, Austin / Texas, Dallas, General Project Signal - Miami / Florida - Aimco Advancing Luxury Edgewater Apartments, Miami / Florida, Phoenix, Phoenix / Arizona, Sun Belt
 
 ## Weak Matches Needing Manual Review
 
-- Acquisition - Other / Unknown - Associated Bank Completes $17M Loan for Libertyville Apartment Acquisition -> Acquisition - Other / Unknown - Associated Bank Completes $17M Loan for Libertyville Apartment Acquisition (40, relationship_graph.csv)
-- Acquisition - Other / Unknown - Byline Bank Provides $17.5M in Financing for Multifamily Property in Columbus -> Acquisition - Other / Unknown - Byline Bank Provides $17.5M in Financing for Multifamily Property in Columbus (40, relationship_graph.csv)
-- Acquisition - Other / Unknown - Marcus & Millichap Announced the Sale of 42-Unit Multifamily Property Sturgis Crossings in... -> Acquisition - Other / Unknown - Marcus & Millichap Announced the Sale of 42-Unit Multifamily Property Sturgis Crossings in... (40, relationship_graph.csv)
+- Acquisition - Kentucky - Article Student Living Acquires 280-Bed Student Housing Community Near University of Kentu... -> Acquisition - Kentucky - Article Student Living Acquires 280-Bed Student Housing Community Near University of Kentu... (40, relationship_graph.csv)
+- Acquisition - National - Morgan Properties CFO on managing an ever-growing portfolio -> Acquisition - National - Morgan Properties CFO on managing an ever-growing portfolio (40, relationship_graph.csv)
+- Acquisition - National - Welltower Earnings Boosted by Senior Housing Acquisitions -> Acquisition - National - Welltower Earnings Boosted by Senior Housing Acquisitions (40, relationship_graph.csv)
+- Acquisition - Other / Unknown - Associated Bank Completes $17M Financing for Transit-Oriented Libertyville Illinois Apartm... -> Acquisition - Other / Unknown - Associated Bank Completes $17M Financing for Transit-Oriented Libertyville Illinois Apartm... (40, relationship_graph.csv)
+- Acquisition - Other / Unknown - Associated Bank Provides $16.5M in Financing for Multifamily Property in Libertyville, Ill... -> Acquisition - Other / Unknown - Associated Bank Provides $16.5M in Financing for Multifamily Property in Libertyville, Ill... (40, relationship_graph.csv)
+- Acquisition - Other / Unknown - Byline Bank Provides $18M for Columbus Multifamily Acquisition -> Acquisition - Other / Unknown - Byline Bank Provides $18M for Columbus Multifamily Acquisition (40, relationship_graph.csv)
+- Acquisition - Seattle - Rise Properties Trust Sells Northline Apartments in Seattle for $17.7M -> Acquisition - Seattle - Rise Properties Trust Sells Northline Apartments in Seattle for $17.7M (40, relationship_graph.csv)
+- Affinius Capital -> Affinius Capital (40, deal_pipeline.csv)
 - Affinius Capital -> Affinius Capital (40, gp_intelligence.csv)
 - Affinius Capital -> Affinius Capital (40, institutional_relationships.csv)
-- Alpine Residential -> Alpine Residential (40, gp_intelligence.csv)
-- Alpine Residential -> Alpine Residential (40, institutional_relationships.csv)
+- Affinius Capital -> Affinius Capital (40, relationship_graph.csv)
+- Akara Partners -> Akara Partners (40, gp_intelligence.csv)
+- Akara Partners -> Akara Partners (40, institutional_relationships.csv)
 - America -> America (40, deal_pipeline.csv)
 - America -> America (40, relationship_graph.csv)
-- Arizona -> Arizona (40, regional_intelligence.csv)
-- Associated Bank -> Associated Bank (40, gp_intelligence.csv)
-- Associated Bank -> Associated Bank (40, institutional_relationships.csv)
-- Bell Partners -> Bell Partners (40, gp_intelligence.csv)
-- Bell Partners -> Bell Partners (40, institutional_relationships.csv)
-- Acquisition - Miami / Florida - Berkadia Arranges Refis for 3 S. Florida Rental Communities -> Berkadia (60, relationship_graph.csv)
 
 ## Relationship Graph Improvement Notes
 

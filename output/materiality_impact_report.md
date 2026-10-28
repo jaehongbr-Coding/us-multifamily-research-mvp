@@ -1,6 +1,6 @@
 # Materiality / Impact Report
 
-Generated: 2026-10-27 01:51:10
+Generated: 2026-10-28 02:02:26
 
 - Top materiality regime: Developer Strategy Shift (100)
 - Top impact regime: Developer Strategy Shift (100)
@@ -13,8 +13,8 @@ Generated: 2026-10-27 01:51:10
 | Financing Stress | 100 | 100 | Critical Business Impact | Underwriting; Financing; Capital Markets; LA / California Strategy | Tighten underwriting assumptions |
 | Selective Capital Re-entry | 100 | 100 | Critical Business Impact | GP Partnership; Capital Markets; Strategic Monitoring; LA / California Strategy | Track capital partner activity |
 | Supply Pressure | 100 | 100 | Critical Business Impact | Underwriting; Land / Pipeline; Leasing / Operations; LA / California Strategy | Review supply pipeline assumptions |
-| Policy / Entitlement Watch | 97 | 92 | Critical Business Impact | Land / Pipeline; LA / California Strategy; Strategic Monitoring | Monitor LA / California entitlement changes |
-| Construction Cost Pressure | 54 | 58 | Moderate Business Impact | Underwriting; Cost Management; LA / California Strategy | Review construction cost assumptions |
+| Policy / Entitlement Watch | 97 | 89 | Critical Business Impact | Land / Pipeline; LA / California Strategy; Strategic Monitoring | Monitor LA / California entitlement changes |
+| Construction Cost Pressure | 21 | 33 | Low Business Impact | Underwriting; Cost Management; LA / California Strategy | Review construction cost assumptions |
 
 ## Key Business Risks / Opportunities
 
@@ -39,4 +39,3 @@ Generated: 2026-10-27 01:51:10
 - Selective Capital Re-entry: Track capital partner activity (Critical Business Impact).
 - Supply Pressure: Review supply pipeline assumptions (Critical Business Impact).
 - Policy / Entitlement Watch: Monitor LA / California entitlement changes (Critical Business Impact).
-- Construction Cost Pressure: Review construction cost assumptions (Moderate Business Impact).

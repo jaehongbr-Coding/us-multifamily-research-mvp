@@ -1,6 +1,6 @@
 # Source Recovery Report
 
-Generated: 2026-10-27 01:51:10
+Generated: 2026-10-28 02:02:26
 
 ## Summary
 
@@ -13,16 +13,16 @@ Generated: 2026-10-27 01:51:10
 | source_name | rss_url | status | error_type | last_success_date | last_article_count | fallback | recovery_recommendation |
 | --- | --- | --- | --- | --- | ---: | --- | --- |
 | GlobeSt | https://www.globest.com/feed/ | Failed | paywall_restricted |  | 0 | no reliable fallback found | Do not scrape restricted content; use public RSS, summary pages, or manual intake only. |
-| Connect CRE | https://www.connectcre.com/feed/ | OK |  | 2026-10-27 | 3 |  | Manual source review needed. |
-| The Real Deal | https://therealdeal.com/feed/ | OK |  | 2026-10-27 | 0 |  | Manual source review needed. |
-| Connect CRE Apartments | https://www.connectcre.com/feed?property-sector=apartments | OK |  | 2026-10-27 | 9 |  | Manual source review needed. |
-| Connect CRE Texas | https://www.connectcre.com/feed?story-market=texas | OK |  | 2026-10-27 | 1 |  | Manual source review needed. |
-| Connect CRE South Florida | https://www.connectcre.com/feed?story-market=south-florida | OK |  | 2026-10-27 | 3 |  | Manual source review needed. |
-| Connect CRE Phoenix | https://www.connectcre.com/feed?story-market=phoenix | OK |  | 2026-10-27 | 1 |  | Manual source review needed. |
-| Connect CRE Atlanta | https://www.connectcre.com/feed?story-market=atlanta | OK |  | 2026-10-27 | 6 |  | Manual source review needed. |
-| Connect CRE Charlotte | https://www.connectcre.com/feed?story-market=charlotte | Failed | rss_not_found |  | 0 | sitemap reachable | RSS feed failed, but fallback page is reachable; consider source-specific parser or sitemap ingestion. |
-| Connect CRE Orange County | https://www.connectcre.com/feed?story-market=orange-county | OK |  | 2026-10-27 | 2 |  | Manual source review needed. |
-| Connect CRE California | https://www.connectcre.com/feed?story-market=california | OK |  | 2026-10-27 | 5 |  | Manual source review needed. |
+| Connect CRE | https://www.connectcre.com/feed/ | OK |  | 2026-10-28 | 5 |  | Manual source review needed. |
+| The Real Deal | https://therealdeal.com/feed/ | OK |  | 2026-10-28 | 0 |  | Manual source review needed. |
+| Connect CRE Apartments | https://www.connectcre.com/feed?property-sector=apartments | OK |  | 2026-10-28 | 7 |  | Manual source review needed. |
+| Connect CRE Texas | https://www.connectcre.com/feed?story-market=texas | OK |  | 2026-10-28 | 2 |  | Manual source review needed. |
+| Connect CRE South Florida | https://www.connectcre.com/feed?story-market=south-florida | OK |  | 2026-10-28 | 3 |  | Manual source review needed. |
+| Connect CRE Phoenix | https://www.connectcre.com/feed?story-market=phoenix | OK |  | 2026-10-28 | 2 |  | Manual source review needed. |
+| Connect CRE Atlanta | https://www.connectcre.com/feed?story-market=atlanta | OK |  | 2026-10-28 | 6 |  | Manual source review needed. |
+| Connect CRE Charlotte | https://www.connectcre.com/feed?story-market=charlotte | Failed | rss_not_found |  | 0 | no reliable fallback found | Replace the feed URL; current RSS endpoint appears unavailable. |
+| Connect CRE Orange County | https://www.connectcre.com/feed?story-market=orange-county | OK |  | 2026-10-28 | 2 |  | Manual source review needed. |
+| Connect CRE California | https://www.connectcre.com/feed?story-market=california | OK |  | 2026-10-28 | 6 |  | Manual source review needed. |
 
 ## High-Importance Failures
 
@@ -32,12 +32,12 @@ Generated: 2026-10-27 01:51:10
 | Walker & Dunlop Source Expansion | Failed | rss_changed | 100 | 15 | 37 | homepage reachable | RSS feed failed, but fallback page is reachable; consider source-specific parser or sitemap ingestion. |
 | Walker & Dunlop Insights | Failed | rss_changed | 83 | 15 | 51 | homepage reachable | RSS feed failed, but fallback page is reachable; consider source-specific parser or sitemap ingestion. |
 | Berkadia Research | Failed | rss_changed | 83 | 15 | 51 | homepage reachable | RSS feed failed, but fallback page is reachable; consider source-specific parser or sitemap ingestion. |
-| Blackstone Real Estate Source Expansion | Failed | paywall_restricted | 83 | 15 | 37 | source page reachable | RSS feed failed, but fallback page is reachable; consider source-specific parser or sitemap ingestion. |
+| Blackstone Real Estate Source Expansion | Failed | paywall_restricted | 83 | 15 | 37 | no reliable fallback found | Do not scrape restricted content; use public RSS, summary pages, or manual intake only. |
 | Hines Source Expansion | Failed | paywall_restricted | 83 | 15 | 37 | no reliable fallback found | Do not scrape restricted content; use public RSS, summary pages, or manual intake only. |
 | California YIMBY | Failed | feed_parse_error | 8 | 80 | 8 | no reliable fallback found | Inspect feed format; may require alternate feed URL or tolerant XML parsing. |
 | Hines Newsroom | Failed | paywall_restricted | 68 | 0 | 0 | no reliable fallback found | Do not scrape restricted content; use public RSS, summary pages, or manual intake only. |
-| Blackstone Real Estate | Failed | paywall_restricted | 68 | 0 | 0 | source page reachable | RSS feed failed, but fallback page is reachable; consider source-specific parser or sitemap ingestion. |
-| Connect CRE Charlotte | Failed | rss_not_found | 40 | 68 | 8 | sitemap reachable | RSS feed failed, but fallback page is reachable; consider source-specific parser or sitemap ingestion. |
+| Blackstone Real Estate | Failed | paywall_restricted | 68 | 0 | 0 | no reliable fallback found | Do not scrape restricted content; use public RSS, summary pages, or manual intake only. |
+| Connect CRE Charlotte | Failed | rss_not_found | 40 | 68 | 8 | no reliable fallback found | Replace the feed URL; current RSS endpoint appears unavailable. |
 | Commercial Property Executive | Failed | paywall_restricted | 37 | 39 | 67 | no reliable fallback found | Do not scrape restricted content; use public RSS, summary pages, or manual intake only. |
 | Urban Land Institute | Failed | paywall_restricted | 55 | 15 | 37 | not probed | Do not scrape restricted content; use public RSS, summary pages, or manual intake only. |
 | NMHC News | Failed | feed_parse_error | 55 | 15 | 37 | not probed | Inspect feed format; may require alternate feed URL or tolerant XML parsing. |

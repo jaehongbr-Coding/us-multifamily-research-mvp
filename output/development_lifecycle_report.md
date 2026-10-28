@@ -1,56 +1,56 @@
 # Development Lifecycle Report
 
-Generated: 2026-10-27 01:51:42
+Generated: 2026-10-28 02:02:50
 
-- Total lifecycle records: 85
+- Total lifecycle records: 91
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 60
-- Delivery / Opening: 8
-- Refinancing / Recapitalization: 7
+- Unknown Stage: 54
+- Refinancing / Recapitalization: 13
+- Delivery / Opening: 10
+- Site Acquisition / Site Control: 5
+- Early Site Signal: 3
 - Vertical Construction: 3
-- Entitled / Approved: 2
-- Early Site Signal: 2
-- Site Acquisition / Site Control: 1
+- Construction Started: 1
 - Stabilized / Operating: 1
 - Distressed / Stalled: 1
 
 ## Top Development Timing Opportunities
 
+- Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland...: Refinancing / Recapitalization, California, lifecycle_opportunity_score 100.
+- Refinancing - California - CBRE Secures $32.8M Refinancing for Hilton Garden Inn Hotel in Cupertino, California: Refinancing / Recapitalization, California, lifecycle_opportunity_score 100.
+- Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily: Refinancing / Recapitalization, Los Angeles, lifecycle_opportunity_score 100.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization, South Florida, lifecycle_opportunity_score 100.
-- JV / Partnership - California - Kennedy Wilson, Partners Acquire 312-Unit Multifamily Community in San Jose for $176M: Unknown Stage, California, lifecycle_opportunity_score 100.
-- Acquisition - Atlanta / Georgia - CBRE Arranges $83M Acquisition Loan for Luxury Multifamily Community in Atlanta’s Buckhead...: Unknown Stage, Atlanta, lifecycle_opportunity_score 100.
+- CBRE Secures $32.8M Refinancing for Hilton Garden Inn Hotel in Cupertino, California: Refinancing / Recapitalization, Unknown, lifecycle_opportunity_score 100.
+- Mesa West Provides $62M Refi for Silicon Valley Office Property: Site Acquisition / Site Control, Unknown, lifecycle_opportunity_score 100.
+- JV / Partnership - California - Akara, DEVEN to Break Ground on 305-Bed Student Housing Project Near San Diego State Unive...: Unknown Stage, California, lifecycle_opportunity_score 100.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Unknown Stage, Atlanta, lifecycle_opportunity_score 100.
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening, California, lifecycle_opportunity_score 100.
 - Disposition / Exit - California - Levin Johnston Closes Apartment Sale in One of San Jose’s Strongest Submarkets: Delivery / Opening, California, lifecycle_opportunity_score 100.
-- General Project Signal - Los Angeles / California - Alveare affordable housing topped out at 1405 S. Broadway in DTLA: Delivery / Opening, Los Angeles, lifecycle_opportunity_score 100.
-- General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing: Unknown Stage, Seattle, lifecycle_opportunity_score 99.
-- Acquisition - California - CBRE Arranges $16M Sale of Newly Developed Ohio Truck Stop, Retail Property: Unknown Stage, California, lifecycle_opportunity_score 98.
-- Refinancing - Washington DC - Affinius Capital Originates $97.9M Refinancing for Multifamily Community in D.C.: Refinancing / Recapitalization, Washington D.C., lifecycle_opportunity_score 97.
 
 ## Top Lifecycle Risks
 
 - Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled, Atlanta, lifecycle_risk_score 75.
-- Refinancing - Los Angeles / California - Northmarq Arranges $95.8M Refinancing for 1,461-Unit Southern California Multifamily Portf...: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 62.
-- Refinancing - California - Life Company Provides Permanent Loan on Monterey Office Park: Refinancing / Recapitalization, California, lifecycle_risk_score 62.
-- Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi on SoCal Apartment Portfolio: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 61.
-- Refinancing - Florida - How development helps Richard Richman’s tax syndication business: Refinancing / Recapitalization, Florida, lifecycle_risk_score 55.
-- Refinancing - Washington DC - Affinius Capital Originates $97.9M Refinancing for Multifamily Community in D.C.: Refinancing / Recapitalization, Washington D.C., lifecycle_risk_score 52.
-- Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 49.
-- Construction Financing - Tennessee - PCCP Provides $71M Senior Construction Loan for the Development of a 360-Unit Apartment Co...: Refinancing / Recapitalization, Tennessee, lifecycle_risk_score 46.
-- Office-to-Residential Conversion - Other / Unknown - Octagon Lends $48M on Missouri Office-to-Resi Conversion of Former 7Up HQ: Unknown Stage, Unknown, lifecycle_risk_score 35.
-- Disposition / Exit - California - Retail market tightens, L.A. multifamily sales jump, and more: Unknown Stage, L.A., lifecycle_risk_score 34.
+- Construction Financing - California - Purpose-Built Student Housing Near San Diego State University Campus Secured Construction...: Unknown Stage, San Diego, lifecycle_risk_score 58.
+- Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland...: Refinancing / Recapitalization, California, lifecycle_risk_score 56.
+- Refinancing - California - CBRE Secures $32.8M Refinancing for Hilton Garden Inn Hotel in Cupertino, California: Refinancing / Recapitalization, California, lifecycle_risk_score 55.
+- Refinancing - Other / Unknown - How development helps Richard Richman’s tax syndication business: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 54.
+- Recapitalization - Kentucky - Newmark Arranges Recapitalization of Fritz Farm Mixed-Use Center in Lexington, Kentucky: Refinancing / Recapitalization, Kentucky, lifecycle_risk_score 52.
+- Refinancing - Denver / Colorado - JLL Arranges $333.3M Refinancing for 1,184-Unit Multifamily Portfolio Near Denver: Refinancing / Recapitalization, Denver, lifecycle_risk_score 52.
+- Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 51.
+- Construction Financing - Nashville / Tennessee - PCCP Provides $71M Construction Loan for Multifamily Project in Spring Hill, Tennessee: Refinancing / Recapitalization, Tennessee, lifecycle_risk_score 51.
+- Refinancing - Washington DC - Affinius Capital Originates $98M Loan to Refinance The Lydian in DC: Refinancing / Recapitalization, Washington Dc, lifecycle_risk_score 51.
 
 ## Projects Under Entitlement / Planning
 
-- Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisco: Entitled / Approved, Unknown, lifecycle_opportunity_score 86.
-- Entitlement / Permitting - San Francisco / California - Plans Approved For Affordable Senior Housing at Laguna Honda Hospital Campus, San Francisc...: Entitled / Approved, San Francisco, lifecycle_opportunity_score 80.
+- None detected.
 
 ## Construction-Ready / Construction-Start Signals
 
 - National City Investment Group Commences Workforce Housing Build: Vertical Construction, Unknown, lifecycle_opportunity_score 88.
-- Development Start - California - National City Investment Group Commences Workforce Housing Build: Vertical Construction, California, lifecycle_opportunity_score 80.
+- Development Start - Los Angeles / California - Groundbreaking held for mixed-use project at 3800 W. 6th St. in Koreatown: Construction Started, Los Angeles / California, lifecycle_opportunity_score 86.
+- Development Start - California - National City Investment Group Commences Workforce Housing Build: Vertical Construction, California, lifecycle_opportunity_score 81.
 - Development Start - California - Inglewood breaks ground on new downtown mobility hubs: Vertical Construction, America, lifecycle_opportunity_score 80.
 
 ## Delivery / Lease-Up Signals
@@ -58,11 +58,12 @@ Generated: 2026-10-27 01:51:42
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening, California, lifecycle_opportunity_score 100.
 - Disposition / Exit - California - Levin Johnston Closes Apartment Sale in One of San Jose’s Strongest Submarkets: Delivery / Opening, California, lifecycle_opportunity_score 100.
 - General Project Signal - Los Angeles / California - Alveare affordable housing topped out at 1405 S. Broadway in DTLA: Delivery / Opening, Los Angeles, lifecycle_opportunity_score 100.
+- Purpose-Built Student Housing Near San Diego State University Campus Secured Construction Financing: Delivery / Opening, Unknown, lifecycle_opportunity_score 81.
 - Ira D. Square Opens at 1178 Sonora Court, Sunnyvale: Delivery / Opening, Unknown, lifecycle_opportunity_score 78.
-- General Project Signal - California - MidPen Housing Completes 176-Unit Ira D. Hall Square Apartments in Silicon Valley: Delivery / Opening, California, lifecycle_opportunity_score 77.
-- Associated Bank Completes $17M Loan for Libertyville Apartment Acquisition: Stabilized / Operating, Unknown, lifecycle_opportunity_score 75.
+- Associated Bank Completes $17M Financing for Transit-Oriented Libertyville Illinois Apartment Acquisition: Stabilized / Operating, Unknown, lifecycle_opportunity_score 75.
 - Mixed-use project completed at Sunset and Fairfax in Hollywood: Delivery / Opening, Hollywood, lifecycle_opportunity_score 72.
 - Disposition / Exit - Los Angeles / California - Mixed-use project completed at Sunset and Fairfax in Hollywood: Delivery / Opening, Los Angeles / California, lifecycle_opportunity_score 64.
+- Acquisition - Seattle - Rise Properties Trust Sells Northline Apartments in Seattle for $17.7M: Delivery / Opening, Seattle, lifecycle_opportunity_score 63.
 - General Project Signal - Other / Unknown - Ira D. Square Opens at 1178 Sonora Court, Sunnyvale: Delivery / Opening, Unknown, lifecycle_opportunity_score 62.
 
 ## Distressed / Stalled Lifecycle Signals
@@ -71,13 +72,16 @@ Generated: 2026-10-27 01:51:42
 
 ## Refinancing / Recapitalization Lifecycle Signals
 
-- Refinancing - Los Angeles / California - Northmarq Arranges $95.8M Refinancing for 1,461-Unit Southern California Multifamily Portf...: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 62.
-- Refinancing - California - Life Company Provides Permanent Loan on Monterey Office Park: Refinancing / Recapitalization, California, lifecycle_risk_score 62.
-- Refinancing - Los Angeles / California - Northmarq Arranges $96M Refi on SoCal Apartment Portfolio: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 61.
-- Refinancing - Florida - How development helps Richard Richman’s tax syndication business: Refinancing / Recapitalization, Florida, lifecycle_risk_score 55.
-- Refinancing - Washington DC - Affinius Capital Originates $97.9M Refinancing for Multifamily Community in D.C.: Refinancing / Recapitalization, Washington D.C., lifecycle_risk_score 52.
+- Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland...: Refinancing / Recapitalization, California, lifecycle_risk_score 56.
+- Refinancing - California - CBRE Secures $32.8M Refinancing for Hilton Garden Inn Hotel in Cupertino, California: Refinancing / Recapitalization, California, lifecycle_risk_score 55.
+- Refinancing - Other / Unknown - How development helps Richard Richman’s tax syndication business: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 54.
+- Recapitalization - Kentucky - Newmark Arranges Recapitalization of Fritz Farm Mixed-Use Center in Lexington, Kentucky: Refinancing / Recapitalization, Kentucky, lifecycle_risk_score 52.
+- Refinancing - Denver / Colorado - JLL Arranges $333.3M Refinancing for 1,184-Unit Multifamily Portfolio Near Denver: Refinancing / Recapitalization, Denver, lifecycle_risk_score 52.
+- Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 51.
+- Construction Financing - Nashville / Tennessee - PCCP Provides $71M Construction Loan for Multifamily Project in Spring Hill, Tennessee: Refinancing / Recapitalization, Tennessee, lifecycle_risk_score 51.
+- Refinancing - Washington DC - Affinius Capital Originates $98M Loan to Refinance The Lydian in DC: Refinancing / Recapitalization, Washington Dc, lifecycle_risk_score 51.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 49.
-- Construction Financing - Tennessee - PCCP Provides $71M Senior Construction Loan for the Development of a 360-Unit Apartment Co...: Refinancing / Recapitalization, Tennessee, lifecycle_risk_score 46.
+- Refinancing - Other / Unknown - JLL Arranges Loan for Refinancing of 160,904 SF Office Building in Princeton: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 49.
 
 ## Implications for Woomi / Woomi Global
 
@@ -86,24 +90,24 @@ Generated: 2026-10-27 01:51:42
 
 ## Recommended Lifecycle Follow-up Actions
 
+- Track lender, maturity, debt terms, and recapitalization need: Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland....
+- Track lender, maturity, debt terms, and recapitalization need: Refinancing - California - CBRE Secures $32.8M Refinancing for Hilton Garden Inn Hotel in Cupertino, California.
+- Track lender, maturity, debt terms, and recapitalization need: Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily.
 - Track lender, maturity, debt terms, and recapitalization need: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
-- Monitor lifecycle signal for repeated confirmation: JV / Partnership - California - Kennedy Wilson, Partners Acquire 312-Unit Multifamily Community in San Jose for $176M.
-- Monitor lifecycle signal for repeated confirmation: Acquisition - Atlanta / Georgia - CBRE Arranges $83M Acquisition Loan for Luxury Multifamily Community in Atlanta’s Buckhead....
+- Track lender, maturity, debt terms, and recapitalization need: CBRE Secures $32.8M Refinancing for Hilton Garden Inn Hotel in Cupertino, California.
+- Monitor lifecycle signal for repeated confirmation: Mesa West Provides $62M Refi for Silicon Valley Office Property.
+- Monitor lifecycle signal for repeated confirmation: JV / Partnership - California - Akara, DEVEN to Break Ground on 305-Bed Student Housing Project Near San Diego State Unive....
 - Monitor lifecycle signal for repeated confirmation: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
-- Benchmark delivery, lease-up, occupancy, and rent assumptions: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
-- Benchmark delivery, lease-up, occupancy, and rent assumptions: Disposition / Exit - California - Levin Johnston Closes Apartment Sale in One of San Jose’s Strongest Submarkets.
-- Benchmark delivery, lease-up, occupancy, and rent assumptions: General Project Signal - Los Angeles / California - Alveare affordable housing topped out at 1405 S. Broadway in DTLA.
-- Monitor lifecycle signal for repeated confirmation: General Project Signal - Seattle - 6 Blackstone multifamily properties move to servicing.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 85
-- Newly detected projects: 45
+- Lifecycle transitions analyzed: 91
+- Newly detected projects: 54
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 45
+- LA lifecycle transition watch items: 50
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -111,11 +115,11 @@ Generated: 2026-10-27 01:51:42
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 691
-- Canonical projects: 157
-- Duplicate project clusters: 98
-- Persistent assets tracked: 157
-- LA persistent asset watch items: 95
+- Raw project references: 732
+- Canonical projects: 164
+- Duplicate project clusters: 109
+- Persistent assets tracked: 164
+- LA persistent asset watch items: 98
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -123,10 +127,10 @@ Generated: 2026-10-27 01:51:42
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 157
-- Institutional-grade signals: 19
+- Signals evaluated: 164
+- Institutional-grade signals: 23
 - High-confidence signals: 45
-- Weak/noisy signals: 95
+- Weak/noisy signals: 92
 - High-confidence watchlist items: 45
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

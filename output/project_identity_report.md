@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-10-27 01:51:42
+Generated: 2026-10-28 02:02:50
 
-- Total raw project references: 691
-- Total canonical projects: 157
-- Duplicate project clusters: 98
-- High-confidence project identities: 691
+- Total raw project references: 732
+- Total canonical projects: 164
+- Duplicate project clusters: 109
+- High-confidence project identities: 732
 - Low-confidence identities needing review: 0
-- LA / California project references: 406
+- LA / California project references: 518
 
 ## Top Repeated Projects
 
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 42 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 42 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 42 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 42 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 42 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 42 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 42 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 42 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 42 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 42 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Northmarq Arranges Sale of Record-Setting 627-Unit Multifamily Community in Lawrence Kansa...: 51 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Northmarq Arranges Sale of Record-Setting 627-Unit Multifamily Community in Lawrence Kansa...: 51 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Northmarq Arranges Sale of Record-Setting 627-Unit Multifamily Community in Lawrence Kansa...: 51 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Northmarq Arranges Sale of Record-Setting 627-Unit Multifamily Community in Lawrence Kansa...: 51 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Northmarq Arranges Sale of Record-Setting 627-Unit Multifamily Community in Lawrence Kansa...: 51 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Northmarq Arranges Sale of Record-Setting 627-Unit Multifamily Community in Lawrence Kansa...: 51 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Northmarq Arranges Sale of Record-Setting 627-Unit Multifamily Community in Lawrence Kansa...: 51 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Northmarq Arranges Sale of Record-Setting 627-Unit Multifamily Community in Lawrence Kansa...: 51 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Northmarq Arranges Sale of Record-Setting 627-Unit Multifamily Community in Lawrence Kansa...: 51 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Northmarq Arranges Sale of Record-Setting 627-Unit Multifamily Community in Lawrence Kansa...: 51 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

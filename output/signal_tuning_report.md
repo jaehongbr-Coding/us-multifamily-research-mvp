@@ -1,27 +1,29 @@
 # Signal Tuning Report
 
-Generated: 2026-10-27 01:51:04
+Generated: 2026-10-28 02:02:15
 
 ## Top Strategic Relevance Articles
 
-- 86 / richness 85: Kennedy Wilson, Partners Acquire 312-Unit Multifamily Community in San Jose for $176M (REBusiness Online, California) - JV or partnership activity; institutional acquisition behavior
-- 83 / richness 70: UDR, Apollo form $2B joint venture (Multifamily Dive, Other / Unknown) - JV or partnership activity; institutional acquisition behavior
-- 78 / richness 75: Northmarq Arranges $95.8M Refinancing for 1,461-Unit Southern California Multifamily Portfolio (REBusiness Online, Los Angeles / California) - institutional acquisition behavior; large-scale refinance tied to strategy
+- 100 / richness 90: Purpose-Built Student Housing Near San Diego State University Campus Secured Construction Financing (Yield PRO, California) - platform or fund activity; JV or partnership activity; development continuation
+- 88 / richness 75: LogosFaith Development Expands into San Diego Market (Connect CRE, California) - sponsor expansion; JV or partnership activity
+- 80 / richness 75: Affinius Capital Originates $98M Loan to Refinance The Lydian in DC (Connect CRE Apartments, Washington DC) - JV or partnership activity; large-scale refinance tied to strategy
+- 79 / richness 70: Welltower Earnings Boosted by Senior Housing Acquisitions (Commercial Observer, National) - institutional acquisition behavior; lease-up or absorption behavior
+- 78 / richness 75: JLL Arranges $333.3M Refinancing for 1,184-Unit Multifamily Portfolio Near Denver (REBusiness Online, Denver / Colorado) - institutional acquisition behavior; large-scale refinance tied to strategy
+- 77 / richness 70: Mesa West Provides $62M Refi for Silicon Valley Office Property (Commercial Observer, Other / Unknown) - institutional acquisition behavior; large-scale refinance tied to strategy
+- 74 / richness 100: Rise Properties Trust Sells Northline Apartments in Seattle for $17.7M (REBusiness Online, Seattle) - institutional acquisition behavior
+- 74 / richness 100: Article Student Living Acquires 280-Bed Student Housing Community Near University of Kentucky (REBusiness Online, Kentucky) - institutional acquisition behavior
+- 73 / richness 90: Crossroads Cos., CrownPoint Group Complete 90-Unit Multifamily Project in Dover, New Jersey (REBusiness Online, New York City / New York) - JV or partnership activity
 - 71 / richness 90: Anaheim Sale is First Closing in Broader Multifamily Portfolio (Connect CRE Orange County, California) - institutional acquisition behavior
-- 70 / richness 85: JLL Arranges Financing for Lightstone Acquisition on Upper West Side (Connect CRE, New York City / New York) - institutional acquisition behavior
-- 70 / richness 85: JLL Negotiates Sale of 132-Unit Apartment Building in Fort Lee, New Jersey (REBusiness Online, Austin / Texas) - institutional acquisition behavior
-- 70 / richness 85: CBRE Arranges $83M Acquisition Loan for Luxury Multifamily Community in Atlanta’s Buckhead District (REBusiness Online, Atlanta / Georgia) - institutional acquisition behavior
-- 70 / richness 85: Weidner Adds 341-Unit Rental Asset to Austin Portfolio (Connect CRE Apartments, Austin / Texas) - institutional acquisition behavior
-- 70 / richness 85: ORIX Acquires Buckhead Apartments for $83M (Connect CRE Atlanta, Atlanta / Georgia) - institutional acquisition behavior
-- 70 / richness 85: MMCC Arranges $9.8M Acquisition Loan for Brooklyn Apartment Building (REBusiness Online, New York City / New York) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
+- 0: Leon Multifamily Building 343-Unit N. Phoenix Venture (Connect CRE Phoenix) - confidence unknown; integrity valid
 - 0: Best Year for Missing Middle Construction Since 2007 (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993 (Connect CRE Orange County) - confidence low; integrity valid
 - 0: Multifamily Missing Middle Falls Back (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
 - 0: Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
+- 0: Aimco Advancing Luxury Edgewater Apartments (Connect CRE South Florida) - confidence low; integrity valid
 - 0: Investor Takes Over Distressed Atlanta Apartment Asset (Connect CRE Atlanta) - confidence low; integrity valid
 - 0: Thompson Thrift Pursuing 319-Unit Powder Springs Rental Community (Connect CRE Atlanta) - confidence low; integrity valid
 - 0: Second Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
@@ -30,18 +32,15 @@ Generated: 2026-10-27 01:51:04
 - 0: 2026 NOI & Operations Survey Report (Multifamily Executive) - confidence low; integrity valid
 - 0: Private Residential Construction Spending Increases in March (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
 - 0: Multifamily Developer Confidence Weakens in Second Quarter (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
-- 0: Multifamily Developer Confidence Holds Steady in First Quarter (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
-- 0: HBGI Q1 2026: Single-Family Construction Slips Across All Geographies (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
 
 ## Potential Parsing Integrity Issues
 
-- suspicious_duplicate: City Council upholds approval of mixed-use project at 12555 Ventura Blvd. in Studio City (Urbanize LA) - source-feed signal bleed suspected
 - low_value_promotional: The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market? (Multifamily Executive) - promotional/event keyword: sponsored
 - low_value_promotional: AI, Automation & the Future of Multifamily Finance (Multifamily Executive) - promotional/event keyword: webinar
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 29
+- Financing-oriented articles: 26
 - Development / sponsor behavior articles: 41
 - Financing coverage does not dominate the current representative evidence pool.
 

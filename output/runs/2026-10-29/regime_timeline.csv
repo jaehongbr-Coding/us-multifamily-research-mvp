@@ -1,0 +1,7 @@
+﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
+20261029-020904-1a4ec2d3,2026-10-29,Construction financing still selective,Building,accelerating,3,5,28,3.84,2.81,6,6,4,1,California,Broadly Confirmed,Construction financing still selective signal is accelerating versus prior runs.,
+20261029-020904-1a4ec2d3,2026-10-29,Institutional recap over expansion,Weakening,weakening,72,8,31,4.87,3.45,3,3,3,2,Nevada,Moderate Signal,Institutional recap over expansion visibility is weakening versus prior runs.,
+20261029-020904-1a4ec2d3,2026-10-29,JV / partnership activity observed,Building,accelerating,184,8,31,5.74,3.48,11,11,7,2,New York,Broadly Confirmed,JV / partnership activity observed signal is accelerating versus prior runs.,
+20261029-020904-1a4ec2d3,2026-10-29,LA entitlement precedent accumulation,Building,stable,184,8,31,6.68,3.32,10,10,4,0,Los Angeles / California,Moderate Signal,steady visibility,
+20261029-020904-1a4ec2d3,2026-10-29,Refinancing pressure unresolved,Weakening,weakening,72,8,31,5.42,3.68,3,3,3,2,Nevada,Moderate Signal,Refinancing pressure unresolved visibility is weakening versus prior runs.,
+20261029-020904-1a4ec2d3,2026-10-29,Sun Belt lease-up pressure watch,Weakening,weakening,184,8,31,3.1,2.84,2,2,1,0,,Source-Concentrated,Sun Belt lease-up pressure watch visibility is weakening versus prior runs.,

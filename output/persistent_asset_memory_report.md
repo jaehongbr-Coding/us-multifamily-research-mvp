@@ -1,62 +1,63 @@
 # Persistent Asset Memory Report
 
-Generated: 2026-10-28 02:02:50
+Generated: 2026-10-29 02:09:38
 
-- Total persistent assets tracked: 164
-- Newly detected assets: 145
+- Total persistent assets tracked: 186
+- Newly detected assets: 167
 - Progressing assets: 0
 - Possible stalled assets: 4
 
 ## Highest Priority Asset Watch Items
 
-- Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland...: Priority Asset Watch, Refinancing / Recapitalization, score 93.
-- Construction Financing - Los Angeles / California - Truist Provides $152M for Long Beach, Calif., Apartment Development: Priority Asset Watch, Refinancing / Recapitalization, score 92.
-- Construction Financing - Los Angeles / California - Truist Provides $152M for Long Beach, Calif., Apartment Development: Priority Asset Watch, Unknown Stage, score 91.
+- Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily: Priority Asset Watch, Refinancing / Recapitalization, score 92.
+- Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach: Priority Asset Watch, Unknown Stage, score 92.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Priority Asset Watch, Refinancing / Recapitalization, score 91.
-- Refinancing - California - CBRE Secures $32.8M Refinancing for Hilton Garden Inn Hotel in Cupertino, California: Priority Asset Watch, Refinancing / Recapitalization, score 90.
+- Acquisition - Riverside / California - JLL Arranges Financing for Lightstone’s Upper West Side Apartment Acquisition: Priority Asset Watch, Unknown Stage, score 90.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Priority Asset Watch, Unknown Stage, score 90.
-- Disposition / Exit - California - Marcus & Millichap Arranges $9.65M Sale of 35-Unit Multifamily Property in Anaheim Califor...: Priority Asset Watch, Delivery / Opening, score 89.
-- JV / Partnership - California - Akara, DEVEN to Break Ground on 305-Bed Student Housing Project Near San Diego State Unive...: Priority Asset Watch, Unknown Stage, score 89.
-- General Project Signal - Los Angeles / California - Alveare affordable housing topped out at 1405 S. Broadway in DTLA: Priority Asset Watch, Delivery / Opening, score 88.
-- Disposition / Exit - California - Essex Realty Group Closes 12-Unit Rogers Park Multifamily Transaction: Priority Asset Watch, Unknown Stage, score 87.
+- Construction Financing - California - Wells Fargo Provides $82M Construction Financing for Oakland Affordable Housing: Priority Asset Watch, Vertical Construction, score 89.
+- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Priority Asset Watch, Delivery / Opening, score 89.
+- General Project Signal - Los Angeles / California - Alveare affordable housing topped out at 1405 S. Broadway in DTLA: Priority Asset Watch, Delivery / Opening, score 87.
+- General Project Signal - California - Mesa West Provides First Mortgage for Pinterest-Leased Sunnyvale Offices: Priority Asset Watch, Unknown Stage, score 86.
+- Acquisition - California - CBRE Negotiates $15.6M Sale of Convenience Store Property in Suburban Columbus: Priority Asset Watch, Unknown Stage, score 86.
 
 ## Assets With Repeated Financing Signals
 
-- Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland...: Priority Asset Watch, Refinancing / Recapitalization, score 93.
-- Construction Financing - Los Angeles / California - Truist Provides $152M for Long Beach, Calif., Apartment Development: Priority Asset Watch, Refinancing / Recapitalization, score 92.
-- Construction Financing - Los Angeles / California - Truist Provides $152M for Long Beach, Calif., Apartment Development: Priority Asset Watch, Unknown Stage, score 91.
+- Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily: Priority Asset Watch, Refinancing / Recapitalization, score 92.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Priority Asset Watch, Refinancing / Recapitalization, score 91.
-- Refinancing - California - CBRE Secures $32.8M Refinancing for Hilton Garden Inn Hotel in Cupertino, California: Priority Asset Watch, Refinancing / Recapitalization, score 90.
-- Disposition / Exit - Other / Unknown - Northmarq Arranges Sale of Record-Setting 627-Unit Multifamily Community in Lawrence Kansa...: Priority Asset Watch, Delivery / Opening, score 80.
-- Recapitalization - Kentucky - Newmark Arranges Recapitalization of Fritz Farm Mixed-Use Center in Lexington, Kentucky: Priority Asset Watch, Refinancing / Recapitalization, score 79.
-- Construction Financing - New York - PCCP Provides $164M Senior Loan for Paramus Multifamily Project: Priority Asset Watch, Unknown Stage, score 78.
-- Refinancing - Washington DC - Affinius Capital Originates $98M Loan to Refinance The Lydian in DC: Priority Asset Watch, Refinancing / Recapitalization, score 78.
-- Acquisition - Other / Unknown - Associated Bank Provides $16.5M in Financing for Multifamily Property in Libertyville, Ill...: Priority Asset Watch, Site Acquisition / Site Control, score 78.
+- Construction Financing - Other / Unknown - PCCP Provides $163.9M Senior Loan for the Construction of 426-Unit Multifamily Project in...: Priority Asset Watch, Site Acquisition / Site Control, score 76.
+- Refinancing - New York City / New York - JLL Arranges $95M Refinancing for Luxury Multifamily Property in Brooklyn: Strategic Asset Watch, Refinancing / Recapitalization, score 72.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Site Acquisition / Site Control, score 62.
+- Refinancing - Nevada - Dwight Investment Management Provides $73M Bridge Loan for Reno Multifamily Community: Strategic Asset Watch, Refinancing / Recapitalization, score 60.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Unknown Stage, score 59.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Site Acquisition / Site Control, score 56.
+- Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily: Strategic Asset Watch, Unknown Stage, score 55.
+- Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Strategic Asset Watch, Unknown Stage, score 55.
 
 ## Assets With Repeated Entitlement Signals
 
-- Disposition / Exit - Other / Unknown - Northmarq Arranges Sale of Record-Setting 627-Unit Multifamily Community in Lawrence Kansa...: Priority Asset Watch, Delivery / Opening, score 80.
-- Entitlement / Permitting - Los Angeles / California - Bjarke Ingels-designed project in the works at 2810 N. Hyperion Ave. in Silver Lake: Strategic Asset Watch, Site Acquisition / Site Control, score 74.
-- Disposition / Exit - Other / Unknown - Kidder Mathews Arranges Sale of 54,886 SF Multifamily Development Site in Kirkland Washing...: Strategic Asset Watch, Delivery / Opening, score 73.
-- Entitlement / Permitting - Los Angeles / California - Bjarke Ingels-designed project in the works at 2810 N. Hyperion Ave. in Silver Lake: Strategic Asset Watch, Unknown Stage, score 72.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Unknown Stage, score 62.
+- Entitlement / Permitting - Los Angeles / California - Bjarke Ingels-designed project in the works at 2810 N. Hyperion Ave. in Silver Lake: Priority Asset Watch, Site Acquisition / Site Control, score 82.
+- Entitlement / Permitting - Dallas / Texas - Prosper Greenlights $2B Italian-Themed Community: Strategic Asset Watch, Unknown Stage, score 69.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Site Acquisition / Site Control, score 62.
 - Entitlement / Permitting - Los Angeles / California - Bjarke Ingels-designed project in the works at 2810 N. Hyperion Ave. in Silver Lake: Strategic Asset Watch, Unknown Stage, score 61.
+- Prosper Greenlights $2B Italian-Themed Community: Strategic Asset Watch, Unknown Stage, score 60.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Unknown Stage, score 59.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Site Acquisition / Site Control, score 56.
 - Entitlement / Permitting - Los Angeles / California - 12 homes pitched for 2315 S. Oakwood Ave. in Venice: General Asset Monitoring, Unknown Stage, score 53.
 - Entitlement / Permitting - Los Angeles / California - Bjarke Ingels-designed project in the works at 2810 N. Hyperion Ave. in Silver Lake: General Asset Monitoring, Unknown Stage, score 52.
-- Entitlement / Permitting - Los Angeles / California - Bjarke Ingels-designed project in the works at 2810 N. Hyperion Ave. in Silver Lake: General Asset Monitoring, Unknown Stage, score 51.
+- General Project Signal - Las Vegas / Nevada - McKnight Senior Village Expands Affordable Senior Housing in Southern Nevada with 60 New A...: General Asset Monitoring, Unknown Stage, score 52.
 
 ## Recurring Asset Signals
 
-- Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland...: Priority Asset Watch, Refinancing / Recapitalization, score 93.
-- Construction Financing - Los Angeles / California - Truist Provides $152M for Long Beach, Calif., Apartment Development: Priority Asset Watch, Refinancing / Recapitalization, score 92.
-- Construction Financing - Los Angeles / California - Truist Provides $152M for Long Beach, Calif., Apartment Development: Priority Asset Watch, Unknown Stage, score 91.
+- Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily: Priority Asset Watch, Refinancing / Recapitalization, score 92.
+- Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach: Priority Asset Watch, Unknown Stage, score 92.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Priority Asset Watch, Refinancing / Recapitalization, score 91.
-- Refinancing - California - CBRE Secures $32.8M Refinancing for Hilton Garden Inn Hotel in Cupertino, California: Priority Asset Watch, Refinancing / Recapitalization, score 90.
+- Acquisition - Riverside / California - JLL Arranges Financing for Lightstone’s Upper West Side Apartment Acquisition: Priority Asset Watch, Unknown Stage, score 90.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Priority Asset Watch, Unknown Stage, score 90.
-- Disposition / Exit - California - Marcus & Millichap Arranges $9.65M Sale of 35-Unit Multifamily Property in Anaheim Califor...: Priority Asset Watch, Delivery / Opening, score 89.
-- JV / Partnership - California - Akara, DEVEN to Break Ground on 305-Bed Student Housing Project Near San Diego State Unive...: Priority Asset Watch, Unknown Stage, score 89.
-- General Project Signal - Los Angeles / California - Alveare affordable housing topped out at 1405 S. Broadway in DTLA: Priority Asset Watch, Delivery / Opening, score 88.
-- Disposition / Exit - California - Essex Realty Group Closes 12-Unit Rogers Park Multifamily Transaction: Priority Asset Watch, Unknown Stage, score 87.
+- Construction Financing - California - Wells Fargo Provides $82M Construction Financing for Oakland Affordable Housing: Priority Asset Watch, Vertical Construction, score 89.
+- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Priority Asset Watch, Delivery / Opening, score 89.
+- General Project Signal - Los Angeles / California - Alveare affordable housing topped out at 1405 S. Broadway in DTLA: Priority Asset Watch, Delivery / Opening, score 87.
+- General Project Signal - California - Mesa West Provides First Mortgage for Pinterest-Leased Sunnyvale Offices: Priority Asset Watch, Unknown Stage, score 86.
+- Acquisition - California - CBRE Negotiates $15.6M Sale of Convenience Store Property in Suburban Columbus: Priority Asset Watch, Unknown Stage, score 86.
 
 ## Implications for Woomi / Woomi Global
 
@@ -65,23 +66,23 @@ Generated: 2026-10-28 02:02:50
 
 ## Recommended Asset Memory Follow-up
 
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland....
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Los Angeles / California - Truist Provides $152M for Long Beach, Calif., Apartment Development.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Los Angeles / California - Truist Provides $152M for Long Beach, Calif., Apartment Development.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - California - CBRE Secures $32.8M Refinancing for Hilton Garden Inn Hotel in Cupertino, California.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - Riverside / California - JLL Arranges Financing for Lightstone’s Upper West Side Apartment Acquisition.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Marcus & Millichap Arranges $9.65M Sale of 35-Unit Multifamily Property in Anaheim Califor....
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - California - Akara, DEVEN to Break Ground on 305-Bed Student Housing Project Near San Diego State Unive....
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - California - Wells Fargo Provides $82M Construction Financing for Oakland Affordable Housing.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Los Angeles / California - Alveare affordable housing topped out at 1405 S. Broadway in DTLA.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 164
-- Institutional-grade signals: 23
-- High-confidence signals: 45
-- Weak/noisy signals: 92
-- High-confidence watchlist items: 45
+- Signals evaluated: 186
+- Institutional-grade signals: 16
+- High-confidence signals: 39
+- Weak/noisy signals: 116
+- High-confidence watchlist items: 39
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

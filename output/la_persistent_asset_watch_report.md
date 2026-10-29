@@ -1,21 +1,21 @@
 # LA Persistent Asset Watch Report
 
-Generated: 2026-10-28 02:02:50
+Generated: 2026-10-29 02:09:38
 
-- Total LA persistent asset watch items: 98
+- Total LA persistent asset watch items: 120
 
 ## Priority LA Asset Watch Items
 
-- Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland...: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Los Angeles, Unknown Stage, Track repeat project updates.
+- Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
+- Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach: Long Beach, Unknown Stage, Track repeat project updates.
+- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: California, Delivery / Opening, Track repeat project updates.
 - General Project Signal - Los Angeles / California - Alveare affordable housing topped out at 1405 S. Broadway in DTLA: Los Angeles, Delivery / Opening, Track repeat project updates.
-- Construction Financing - Los Angeles / California - Truist Provides $152M for Long Beach, Calif., Apartment Development: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
-- Construction Financing - Los Angeles / California - Truist Provides $152M for Long Beach, Calif., Apartment Development: Los Angeles, Unknown Stage, Track repeat project updates.
-- Disposition / Exit - California - Marcus & Millichap Arranges $9.65M Sale of 35-Unit Multifamily Property in Anaheim Califor...: California, Delivery / Opening, Track repeat project updates.
-- JV / Partnership - California - Akara, DEVEN to Break Ground on 305-Bed Student Housing Project Near San Diego State Unive...: California, Unknown Stage, Track repeat project updates.
-- Disposition / Exit - California - Essex Realty Group Closes 12-Unit Rogers Park Multifamily Transaction: California, Unknown Stage, Track repeat project updates.
-- Refinancing - California - CBRE Secures $32.8M Refinancing for Hilton Garden Inn Hotel in Cupertino, California: California, Refinancing / Recapitalization, Track repeat project updates.
+- Acquisition - Riverside / California - JLL Arranges Financing for Lightstone’s Upper West Side Apartment Acquisition: California, Unknown Stage, Track repeat project updates.
+- Acquisition - California - CBRE Negotiates $15.6M Sale of Convenience Store Property in Suburban Columbus: California, Unknown Stage, Track repeat project updates.
+- General Project Signal - California - Mesa West Provides First Mortgage for Pinterest-Leased Sunnyvale Offices: Southern California, Unknown Stage, Track repeat project updates.
+- Construction Financing - California - Wells Fargo Provides $82M Construction Financing for Oakland Affordable Housing: Los Angeles, Vertical Construction, Track repeat project updates.
 
 ## Koreatown / Wilshire Persistent Assets
 
@@ -35,34 +35,28 @@ Generated: 2026-10-28 02:02:50
 
 ## Orange County Persistent Assets
 
-- Disposition / Exit - California - Orange County, Calif., Apartment Sales Up 15.6%, but Values Fall: Orange County, Unknown Stage, Track repeat project updates.
-- Orange County, Calif., Apartment Sales Up 15.6%, but Values Fall: Orange County, Unknown Stage, Track repeat project updates.
+- None detected.
 
 ## Stalled / Delayed LA Asset Watch
 
-- Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland...: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
-- Refinancing - California - CBRE Secures $32.8M Refinancing for Hilton Garden Inn Hotel in Cupertino, California: California, Refinancing / Recapitalization, Track repeat project updates.
-- Construction Financing - California - Purpose-Built Student Housing Near San Diego State University Campus Secured Construction...: California, Unknown Stage, Track repeat project updates.
+- Construction Financing - California - Affordable housing starts work at 400 Centinela Ave. in Inglewood: Los Angeles, Unknown Stage, Track repeat project updates.
+- Construction Financing - California - Wells Fargo Provides $82M Construction Financing for Oakland Affordable Housing: Los Angeles, Vertical Construction, Track repeat project updates.
 - Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Los Angeles, Unknown Stage, Track repeat project updates.
 
 ## Construction / Delivery Transition Watch
 
+- Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: California, Delivery / Opening, Track repeat project updates.
 - General Project Signal - Los Angeles / California - Alveare affordable housing topped out at 1405 S. Broadway in DTLA: Los Angeles, Delivery / Opening, Track repeat project updates.
-- Disposition / Exit - California - Marcus & Millichap Arranges $9.65M Sale of 35-Unit Multifamily Property in Anaheim Califor...: California, Delivery / Opening, Track repeat project updates.
-- Modular / Construction Innovation - Los Angeles / California - New look for proposed apartment complex at 5600 Hollywood Blvd.: Los Angeles, Construction Started, Track repeat project updates.
-- Construction Financing - California - Purpose-Built Student Housing Near San Diego State University Campus Secured Construction...: California, Vertical Construction, Track repeat project updates.
-- Development Start - California - Inglewood breaks ground on new downtown mobility hubs: California, Vertical Construction, Track repeat project updates.
-- Disposition / Exit - Other / Unknown - Northmarq Arranges Sale of Record-Setting 627-Unit Multifamily Community in Lawrence Kansa...: Los Angeles, Delivery / Opening, Track repeat project updates.
-- Disposition / Exit - Other / Unknown - Kidder Mathews Arranges Sale of 54,886 SF Multifamily Development Site in Kirkland Washing...: Los Angeles, Delivery / Opening, Track repeat project updates.
-- Purpose-Built Student Housing Near San Diego State University Campus Secured Construction Financing: California, Delivery / Opening, Track repeat project updates.
+- Construction Financing - California - Wells Fargo Provides $82M Construction Financing for Oakland Affordable Housing: Los Angeles, Vertical Construction, Track repeat project updates.
+- Modular / Construction Innovation - Los Angeles / California - New look for proposed apartment complex at 5600 Hollywood Blvd.: Los Angeles, Vertical Construction, Track repeat project updates.
 
 ## Recommended Local Follow-up Actions
 
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland....
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
+- Monitor for repeated project updates: Modular / Construction Innovation - Los Angeles / California - Modular affordable housing takes shape at 4301 S. Vermont Ave..
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Los Angeles / California - Alveare affordable housing topped out at 1405 S. Broadway in DTLA.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Los Angeles / California - Truist Provides $152M for Long Beach, Calif., Apartment Development.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Los Angeles / California - Truist Provides $152M for Long Beach, Calif., Apartment Development.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Marcus & Millichap Arranges $9.65M Sale of 35-Unit Multifamily Property in Anaheim Califor....
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - California - Akara, DEVEN to Break Ground on 305-Bed Student Housing Project Near San Diego State Unive....
+- Monitor for repeated project updates: Construction Financing - California - Affordable housing starts work at 400 Centinela Ave. in Inglewood.

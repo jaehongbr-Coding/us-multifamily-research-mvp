@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-10-28 02:02:15
+Generated: 2026-10-29 02:09:04
 
 ## Top Strategic Relevance Articles
 
-- 100 / richness 90: Purpose-Built Student Housing Near San Diego State University Campus Secured Construction Financing (Yield PRO, California) - platform or fund activity; JV or partnership activity; development continuation
-- 88 / richness 75: LogosFaith Development Expands into San Diego Market (Connect CRE, California) - sponsor expansion; JV or partnership activity
-- 80 / richness 75: Affinius Capital Originates $98M Loan to Refinance The Lydian in DC (Connect CRE Apartments, Washington DC) - JV or partnership activity; large-scale refinance tied to strategy
-- 79 / richness 70: Welltower Earnings Boosted by Senior Housing Acquisitions (Commercial Observer, National) - institutional acquisition behavior; lease-up or absorption behavior
-- 78 / richness 75: JLL Arranges $333.3M Refinancing for 1,184-Unit Multifamily Portfolio Near Denver (REBusiness Online, Denver / Colorado) - institutional acquisition behavior; large-scale refinance tied to strategy
-- 77 / richness 70: Mesa West Provides $62M Refi for Silicon Valley Office Property (Commercial Observer, Other / Unknown) - institutional acquisition behavior; large-scale refinance tied to strategy
-- 74 / richness 100: Rise Properties Trust Sells Northline Apartments in Seattle for $17.7M (REBusiness Online, Seattle) - institutional acquisition behavior
-- 74 / richness 100: Article Student Living Acquires 280-Bed Student Housing Community Near University of Kentucky (REBusiness Online, Kentucky) - institutional acquisition behavior
-- 73 / richness 90: Crossroads Cos., CrownPoint Group Complete 90-Unit Multifamily Project in Dover, New Jersey (REBusiness Online, New York City / New York) - JV or partnership activity
+- 99 / richness 75: PCCP Provides $163.9M Senior Loan for the Construction of 426-Unit Multifamily Project in Paramus New Jersey (Yield PRO, Other / Unknown) - JV or partnership activity; entitlement persistence; institutional acquisition behavior
+- 90 / richness 100: Joint Venture Breaks Ground on Retail Component of 101-Acre Mixed-Use Project in Kyle, Texas (REBusiness Online, Houston / Texas) - JV or partnership activity; institutional acquisition behavior
+- 88 / richness 75: Logos Faith Development Expands into San Diego Market (Connect CRE California, California) - sponsor expansion; JV or partnership activity
+- 86 / richness 85: Newmark Arranges $108M Sale of 310-Unit Virginia Multifamily Community (Connect CRE Apartments, Washington DC) - JV or partnership activity; institutional acquisition behavior
+- 86 / richness 85: Newmark Arranges $108M Sale of Multifamily Community in Metro Richmond (REBusiness Online, Virginia) - JV or partnership activity; institutional acquisition behavior
+- 80 / richness 75: Dwight Investment Management Provides $73M Bridge Loan for Reno Multifamily Community (REBusiness Online, Nevada) - JV or partnership activity; large-scale refinance tied to strategy
+- 73 / richness 90: Partnership Completes 22-Story Apartment Building in Brooklyn (REBusiness Online, New York City / New York) - JV or partnership activity
 - 71 / richness 90: Anaheim Sale is First Closing in Broader Multifamily Portfolio (Connect CRE Orange County, California) - institutional acquisition behavior
+- 70 / richness 85: JLL Arranges Financing for Lightstone’s Upper West Side Apartment Acquisition (Yield PRO, Riverside / California) - institutional acquisition behavior
+- 70 / richness 85: ORIX Acquires Buckhead Apartments for $83M (Connect CRE Atlanta, Atlanta / Georgia) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -27,9 +27,9 @@ Generated: 2026-10-28 02:02:15
 - 0: Investor Takes Over Distressed Atlanta Apartment Asset (Connect CRE Atlanta) - confidence low; integrity valid
 - 0: Thompson Thrift Pursuing 319-Unit Powder Springs Rental Community (Connect CRE Atlanta) - confidence low; integrity valid
 - 0: Second Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
+- 0: The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market? (Multifamily Executive) - confidence low; integrity low_value_promotional
 - 0: First Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: Fourth Quarter 2025 Multifamily Construction Data (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
-- 0: 2026 NOI & Operations Survey Report (Multifamily Executive) - confidence low; integrity valid
 - 0: Private Residential Construction Spending Increases in March (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
 - 0: Multifamily Developer Confidence Weakens in Second Quarter (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 
@@ -40,8 +40,8 @@ Generated: 2026-10-28 02:02:15
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 26
-- Development / sponsor behavior articles: 41
+- Financing-oriented articles: 25
+- Development / sponsor behavior articles: 37
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

@@ -1,11 +1,13 @@
 # Entitlement Intelligence Report
 
-Generated: 2026-10-28 02:02:46
+Generated: 2026-10-29 02:09:35
 
-- Total entitlement signals detected: 4
+- Total entitlement signals detected: 6
 
 ## Top Entitlement Opportunities
 
+- Zoning / Rezoning in Los Angeles: Approved / Entitled, entitlement_opportunity_score 55. Monitor entitlement status for repeated confirmation.
+- Entitlement Approval in Dallas: Approved / Entitled, entitlement_opportunity_score 55. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles: Early Planning, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
@@ -13,13 +15,16 @@ Generated: 2026-10-28 02:02:46
 
 ## Top Entitlement Risks
 
+- Zoning / Rezoning in Los Angeles: Approved / Entitled, entitlement_risk_score 35. Monitor entitlement status for repeated confirmation.
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Unknown: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Dallas: Approved / Entitled, entitlement_risk_score 20. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles: Early Planning, entitlement_risk_score 20. Track construction-ready pipeline and comparable sponsor execution.
 
 ## Planning / Approval Signals
 
+- Entitlement Approval in Dallas: Approved / Entitled, entitlement_opportunity_score 55. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles: Early Planning, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
@@ -49,6 +54,8 @@ Generated: 2026-10-28 02:02:46
 
 ## Recommended Entitlement Follow-up Actions
 
+- Monitor entitlement status for repeated confirmation: Zoning / Rezoning in Los Angeles.
+- Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Dallas.
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Los Angeles.
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Los Angeles.
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Los Angeles.
@@ -58,8 +65,8 @@ Generated: 2026-10-28 02:02:46
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 91
-- LA lifecycle watch items: 51
-- Stage mix: Refinancing / Recapitalization: 13, Site Acquisition / Site Control: 5, Unknown Stage: 54, Delivery / Opening: 10, Early Site Signal: 3
+- Lifecycle records: 88
+- LA lifecycle watch items: 54
+- Stage mix: Refinancing / Recapitalization: 5, Site Acquisition / Site Control: 14, Unknown Stage: 55, Delivery / Opening: 6, Vertical Construction: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

@@ -1,95 +1,95 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-10-28 02:02:27
+Generated: 2026-10-29 02:09:15
 
-- Total relationship edges: 135
-- Most connected developer / GP: JLL (25 edge(s))
-- Most connected lender / debt provider: jll (9 edge(s))
-- Most connected market: California (16 edge(s))
-- Strongest relationship edge: JLL -> jll
-- Highest Woomi relevance edge: JLL -> jll
+- Total relationship edges: 117
+- Most connected developer / GP: JLL (20 edge(s))
+- Most connected lender / debt provider: jll (5 edge(s))
+- Most connected market: California (9 edge(s))
+- Strongest relationship edge: CBRE -> cbre
+- Highest Woomi relevance edge: JV / Partnership - California - Logos Faith Development Expands into San Diego Market -> California
 
 ## Top 10 Relationship Edges
 
-- JLL -> jll: JV / Partnership, California, score 100. Review potential JV relevance.
-- Walker & Dunlop -> freddie mac: Financing Relationship, California, score 100. Track GP relationship history.
-- JLL -> California: JV / Partnership, California, score 99. Review potential JV relevance.
-- JLL -> JV / Partnership - California - Akara, DEVEN to Break Ground on 305-Bed Student Housing Project Near San Diego State Unive...: JV / Partnership, California, score 99. Review potential JV relevance.
-- Blackstone -> blackstone: Financing Relationship, Kentucky, score 98. Track GP relationship history.
-- Greystar -> jll: Financing Relationship, Denver / Colorado, score 97. Track GP relationship history.
-- Walker & Dunlop -> California: Financing Relationship, California, score 96. Track GP relationship history.
-- Walker & Dunlop -> Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland...: Financing Relationship, California, score 96. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, California, score 95. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Other / Unknown, score 93. Track GP relationship history.
+- JLL -> jll: Financing Relationship, New York, score 93. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
+- JLL -> jll: Financing Relationship, California, score 92. Track GP relationship history.
+- JLL -> jll: Financing Relationship, New York City / New York, score 91. Track GP relationship history.
+- JLL -> kkr: Financing Relationship, New York City / New York, score 91. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Riverside / California, score 89. Track GP relationship history.
+- Carmel Partners -> Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach: Financing Relationship, San Francisco / California, score 88. Track GP relationship history.
+- Carmel Partners -> San Francisco: Financing Relationship, San Francisco / California, score 88. Track GP relationship history.
 
 ## Developer / GP Relationship Map
 
-- JLL -> jll: JV / Partnership, California, score 100. Review potential JV relevance.
-- Walker & Dunlop -> freddie mac: Financing Relationship, California, score 100. Track GP relationship history.
-- JLL -> California: JV / Partnership, California, score 99. Review potential JV relevance.
-- JLL -> JV / Partnership - California - Akara, DEVEN to Break Ground on 305-Bed Student Housing Project Near San Diego State Unive...: JV / Partnership, California, score 99. Review potential JV relevance.
-- Blackstone -> blackstone: Financing Relationship, Kentucky, score 98. Track GP relationship history.
-- Greystar -> jll: Financing Relationship, Denver / Colorado, score 97. Track GP relationship history.
-- Walker & Dunlop -> California: Financing Relationship, California, score 96. Track GP relationship history.
-- Walker & Dunlop -> Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland...: Financing Relationship, California, score 96. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, California, score 95. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Other / Unknown, score 93. Track GP relationship history.
+- JLL -> jll: Financing Relationship, New York, score 93. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
+- JLL -> jll: Financing Relationship, California, score 92. Track GP relationship history.
+- JLL -> jll: Financing Relationship, New York City / New York, score 91. Track GP relationship history.
+- JLL -> kkr: Financing Relationship, New York City / New York, score 91. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Riverside / California, score 89. Track GP relationship history.
+- Carmel Partners -> Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach: Financing Relationship, San Francisco / California, score 88. Track GP relationship history.
+- Carmel Partners -> San Francisco: Financing Relationship, San Francisco / California, score 88. Track GP relationship history.
 
 ## Lender / Debt Provider Relationship Map
 
-- JLL -> jll: JV / Partnership, California, score 100. Review potential JV relevance.
-- Walker & Dunlop -> freddie mac: Financing Relationship, California, score 100. Track GP relationship history.
-- Greystar -> jll: Financing Relationship, Denver / Colorado, score 97. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, California, score 95. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Other / Unknown, score 93. Track GP relationship history.
+- JLL -> jll: Financing Relationship, New York, score 93. Track GP relationship history.
 - JLL -> jll: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
-- Berkadia -> berkadia: Financing Relationship, Miami / Florida, score 92. Track GP relationship history.
-- CBRE -> cbre: Financing Relationship, California, score 91. Track GP relationship history.
-- JLL -> jll: Financing Relationship, California, score 90. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Austin / Texas, score 89. Track GP relationship history.
+- JLL -> jll: Financing Relationship, California, score 92. Track GP relationship history.
+- JLL -> jll: Financing Relationship, New York City / New York, score 91. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Riverside / California, score 89. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, Other / Unknown, score 84. Track GP relationship history.
+- Construction Financing - California - Wells Fargo Provides $82M Construction Financing for Oakland Affordable Housing -> wells fargo: Financing Relationship, California, score 81. Monitor lender activity.
+- Disposition / Exit - Other / Unknown - Historic Kansas City Country Club Plaza Multifamily Asset Trades Amid $1.5B Transformation -> northmarq: Financing Relationship, Other / Unknown, score 64. Monitor lender activity.
 
 ## Capital Partner / Institutional Flow Map
 
-- Blackstone -> blackstone: Financing Relationship, Kentucky, score 98. Track GP relationship history.
-- IPA -> essex: Disposition / Seller, California, score 87. Track GP relationship history.
+- JLL -> kkr: Financing Relationship, New York City / New York, score 91. Track GP relationship history.
 - Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 86. Track GP relationship history.
 - Related California -> related: Capital Flow, Los Angeles / California, score 86. Track GP relationship history.
 
 ## Market Relationship Map
 
-- JLL -> California: JV / Partnership, California, score 99. Review potential JV relevance.
-- Walker & Dunlop -> California: Financing Relationship, California, score 96. Track GP relationship history.
-- Blackstone -> Kentucky: Financing Relationship, Kentucky, score 90. Track GP relationship history.
-- Greystar -> Denver: Financing Relationship, Denver / Colorado, score 89. Track GP relationship history.
-- Greystar -> Denver / Colorado: Financing Relationship, Denver / Colorado, score 89. Track GP relationship history.
+- Carmel Partners -> San Francisco: Financing Relationship, San Francisco / California, score 88. Track GP relationship history.
+- Carmel Partners -> San Francisco / California: Financing Relationship, San Francisco / California, score 88. Track GP relationship history.
+- CBRE -> California: Acquisition / Buyer, California, score 85. Track GP relationship history.
+- CBRE -> National: Acquisition / Buyer, California, score 85. Track GP relationship history.
 - JLL -> Miami / Florida: Financing Relationship, Miami / Florida, score 85. Track GP relationship history.
+- JLL -> New York: Financing Relationship, New York, score 85. Track GP relationship history.
 - JLL -> South Florida: Financing Relationship, Miami / Florida, score 85. Track GP relationship history.
 - Carmel Partners -> Los Angeles: Financing Relationship, Los Angeles / California, score 84. Track GP relationship history.
 - Carmel Partners -> Los Angeles / California: Financing Relationship, Los Angeles / California, score 84. Track GP relationship history.
-- Carmel Partners -> Los Angeles / California: Financing Relationship, Los Angeles / California, score 84. Track GP relationship history.
+- CBRE -> Atlanta: Acquisition / Buyer, Atlanta / Georgia, score 83. Track GP relationship history.
 
 ## California / LA Relationship Signals
 
-- JLL -> jll: JV / Partnership, California, score 100. Review potential JV relevance.
-- Walker & Dunlop -> freddie mac: Financing Relationship, California, score 100. Track GP relationship history.
-- JLL -> California: JV / Partnership, California, score 99. Review potential JV relevance.
-- JLL -> JV / Partnership - California - Akara, DEVEN to Break Ground on 305-Bed Student Housing Project Near San Diego State Unive...: JV / Partnership, California, score 99. Review potential JV relevance.
-- Walker & Dunlop -> California: Financing Relationship, California, score 96. Track GP relationship history.
-- Walker & Dunlop -> Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland...: Financing Relationship, California, score 96. Track GP relationship history.
-- CBRE -> cbre: Financing Relationship, California, score 91. Track GP relationship history.
-- JLL -> jll: Financing Relationship, California, score 90. Track GP relationship history.
-- IPA -> essex: Disposition / Seller, California, score 87. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, California, score 95. Track GP relationship history.
+- JLL -> jll: Financing Relationship, California, score 92. Track GP relationship history.
+- CBRE -> Acquisition - California - CBRE Negotiates $15.6M Sale of Convenience Store Property in Suburban Columbus: Acquisition / Buyer, California, score 85. Track GP relationship history.
+- CBRE -> California: Acquisition / Buyer, California, score 85. Track GP relationship history.
+- CBRE -> National: Acquisition / Buyer, California, score 85. Track GP relationship history.
 - Carmel Partners -> Los Angeles: Financing Relationship, Los Angeles / California, score 84. Track GP relationship history.
+- Construction Financing - California - Wells Fargo Provides $82M Construction Financing for Oakland Affordable Housing -> wells fargo: Financing Relationship, California, score 81. Monitor lender activity.
+- Marcus & Millichap -> California: Disposition / Seller, California, score 80. Track GP relationship history.
+- Marcus & Millichap -> Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: Disposition / Seller, California, score 80. Track GP relationship history.
+- JLL -> General Project Signal - California - Mesa West Provides First Mortgage for Pinterest-Leased Sunnyvale Offices: Pricing / Valuation Signal, California, score 78. Track GP relationship history.
 
 ## Potential Woomi Partnership Signals
 
-- JLL -> jll: JV / Partnership, California, score 100. Review potential JV relevance.
-- JLL -> California: JV / Partnership, California, score 99. Review potential JV relevance.
-- JLL -> JV / Partnership - California - Akara, DEVEN to Break Ground on 305-Bed Student Housing Project Near San Diego State Unive...: JV / Partnership, California, score 99. Review potential JV relevance.
-- JV / Partnership - California - LogosFaith Development Expands into San Diego Market -> California: JV / Partnership, California, score 67. Review potential JV relevance.
+- JV / Partnership - California - Logos Faith Development Expands into San Diego Market -> California: JV / Partnership, California, score 67. Review potential JV relevance.
+- JV / Partnership - New York City / New York - Partnership Completes 22-Story Apartment Building in Brooklyn -> New York City: JV / Partnership, New York City / New York, score 63. Review potential JV relevance.
+- JV / Partnership - New York City / New York - Partnership Completes 22-Story Apartment Building in Brooklyn -> New York City / New York: JV / Partnership, New York City / New York, score 63. Review potential JV relevance.
+- JV / Partnership - Washington DC - Newmark Arranges $108M Sale of 310-Unit Virginia Multifamily Community -> Virginia: JV / Partnership, Washington DC, score 58. Review potential JV relevance.
+- JV / Partnership - Washington DC - Newmark Arranges $108M Sale of 310-Unit Virginia Multifamily Community -> Washington DC: JV / Partnership, Washington DC, score 58. Review potential JV relevance.
+- JV / Partnership - Virginia - Newmark Arranges $108M Sale of Multifamily Community in Metro Richmond -> Virginia: JV / Partnership, Virginia, score 56. Review potential JV relevance.
+- JV / Partnership - Other / Unknown - Mattapan Site Will Contain 105 Affordable Housing Units -> JV / Partnership - Other / Unknown - Mattapan Site Will Contain 105 Affordable Housing Units: JV / Partnership, Other / Unknown, score 54. Review potential JV relevance.
 - JV / Partnership - Texas - Transwestern, NewQuest Advancing Kyle Mixed-Use Project -> Texas: JV / Partnership, Texas, score 51. Review potential JV relevance.
-- JV / Partnership - New York City / New York - Crossroads Cos., CrownPoint Group Complete 90-Unit Multifamily Project in Dover, New Jerse... -> New York City: JV / Partnership, New York City / New York, score 48. Review potential JV relevance.
-- JV / Partnership - New York City / New York - Crossroads Cos., CrownPoint Group Complete 90-Unit Multifamily Project in Dover, New Jerse... -> New York City / New York: JV / Partnership, New York City / New York, score 48. Review potential JV relevance.
 - JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project -> Atlanta: JV / Partnership, Atlanta / Georgia, score 47. Review potential JV relevance.
 - JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project -> Atlanta / Georgia: JV / Partnership, Atlanta / Georgia, score 47. Review potential JV relevance.
 
@@ -97,16 +97,16 @@ Generated: 2026-10-28 02:02:27
 
 | Source | Target | Relationship | Confidence |
 | --- | --- | --- | ---: |
-| JLL | JLL | JV / Partnership | 75 |
-| Walker & Dunlop | Freddie Mac | Financing Relationship | 40 |
-| JLL | California | JV / Partnership | 100 |
-| JLL | California | JV / Partnership | 60 |
-| Blackstone | Blackstone | Financing Relationship | 75 |
-| Greystar | JLL | Financing Relationship | 75 |
-| Walker & Dunlop | California | Financing Relationship | 40 |
-| Walker & Dunlop | Los Angeles | Financing Relationship | 40 |
+| CBRE | CBRE | Financing Relationship | 75 |
 | CBRE | CBRE | Financing Relationship | 75 |
 | JLL | JLL | Financing Relationship | 75 |
+| JLL | JLL | Financing Relationship | 75 |
+| JLL | JLL | Financing Relationship | 75 |
+| JLL | JLL | Financing Relationship | 75 |
+| JLL | kkr | Financing Relationship | 40 |
+| JLL | JLL | Financing Relationship | 75 |
+| Carmel Partners | California | Financing Relationship | 40 |
+| Carmel Partners | San Francisco | Financing Relationship | 40 |
 
 ## Multi-Source Confirmation Summary
 
@@ -116,11 +116,11 @@ Relationship repeat strength uses unique canonical deal/event counts instead of 
 ## Emerging GP Watchlist Reference
 
 Ranked GP watchlist signals are available in `gp_watchlist_report.md`.
-- JLL: 81 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- CBRE: 76 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- Mill Creek Residential: 75 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- Carmel Partners: 73 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- Dunlop Capital Markets Real Estate: 73 (Tier 2 High Potential GP), Capital market and pricing discovery reference.
+- JLL: 76 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- JLL: 76 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- Carmel Partners: 74 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- CBRE: 74 (Tier 2 High Potential GP), Capital market and pricing discovery reference.
+- Hines: 73 (Tier 2 High Potential GP), Potential GP partnership candidate.
 
 ## GP Source Expansion Summary
 
@@ -140,23 +140,23 @@ Longitudinal memory is available in `historical_memory_report.md`.
 
 ## Recommended Executive Follow-Up
 
-- Review potential JV relevance: JLL -> jll (JV / Partnership).
-- Track GP relationship history: Walker & Dunlop -> freddie mac (Financing Relationship).
-- Review potential JV relevance: JLL -> California (JV / Partnership).
-- Review potential JV relevance: JLL -> JV / Partnership - California - Akara, DEVEN to Break Ground on 305-Bed Student Housing Project Near San Diego State Unive... (JV / Partnership).
-- Track GP relationship history: Blackstone -> blackstone (Financing Relationship).
-- Track GP relationship history: Greystar -> jll (Financing Relationship).
-- Track GP relationship history: Walker & Dunlop -> California (Financing Relationship).
-- Track GP relationship history: Walker & Dunlop -> Refinancing - California - Walker & Dunlop Arranges $42M Refinance for San Diego Adult Multifamily Community Woodland... (Financing Relationship).
+- Track GP relationship history: CBRE -> cbre (Financing Relationship).
+- Track GP relationship history: CBRE -> cbre (Financing Relationship).
+- Track GP relationship history: JLL -> jll (Financing Relationship).
+- Track GP relationship history: JLL -> jll (Financing Relationship).
+- Track GP relationship history: JLL -> jll (Financing Relationship).
+- Track GP relationship history: JLL -> jll (Financing Relationship).
+- Track GP relationship history: JLL -> kkr (Financing Relationship).
+- Track GP relationship history: JLL -> jll (Financing Relationship).
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 732
-- Canonical projects: 164
-- Duplicate project clusters: 109
-- Persistent assets tracked: 164
-- LA persistent asset watch items: 98
+- Raw project references: 693
+- Canonical projects: 186
+- Duplicate project clusters: 119
+- Persistent assets tracked: 186
+- LA persistent asset watch items: 120
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

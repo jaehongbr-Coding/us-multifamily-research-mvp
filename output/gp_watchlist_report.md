@@ -1,23 +1,23 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-10-28 02:02:27
+Generated: 2026-10-29 02:09:15
 
-- GP/developer candidates reviewed: 27
+- GP/developer candidates reviewed: 22
 - Tier 1 Strategic GPs: 0
-- Tier 2 High Potential GPs: 10
+- Tier 2 High Potential GPs: 5
 
 ## Top Emerging GPs
 
-- JLL: 81 (Tier 2 High Potential GP), Other / Unknown, Institutional-backed regional expansion.
-- CBRE: 76 (Tier 2 High Potential GP), Atlanta / Georgia, California / LA strategic positioning.
-- Mill Creek Residential: 75 (Tier 2 High Potential GP), Phoenix / Arizona, California / LA strategic positioning.
-- Carmel Partners: 73 (Tier 2 High Potential GP), Los Angeles / California, California / LA strategic positioning.
-- Dunlop Capital Markets Real Estate: 73 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
-- Freddie Mac: 73 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
-- Walker & Dunlop: 73 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
+- JLL: 76 (Tier 2 High Potential GP), Riverside / California, California / LA strategic positioning.
+- JLL: 76 (Tier 2 High Potential GP), Riverside / California, California / LA strategic positioning.
+- Carmel Partners: 74 (Tier 2 High Potential GP), San Francisco / California, California / LA strategic positioning.
+- CBRE: 74 (Tier 2 High Potential GP), Other / Unknown, Institutional-backed regional expansion.
 - Hines: 73 (Tier 2 High Potential GP), Atlanta / Georgia, California / LA strategic positioning.
-- IPA: 72 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
-- Sack Capital Partners: 72 (Tier 2 High Potential GP), San Francisco / California, California / LA strategic positioning.
+- Marcus & Millichap: 69 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
+- Related Companies: 68 (Tier 3 Monitoring GP), Los Angeles / California, California / LA strategic positioning.
+- Related Companies: 68 (Tier 3 Monitoring GP), Los Angeles / California, California / LA strategic positioning.
+- Frontier Group: 65 (Tier 3 Monitoring GP), Washington DC, Selective residential growth.
+- Pinterest-Leased Sunnyvale Offices Mesa West Capital: 65 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
 
 ## Tier 1 Strategic GP
 
@@ -25,29 +25,24 @@ Generated: 2026-10-28 02:02:27
 
 ## Tier 2 High Potential GP
 
-- JLL: score 81, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
-- CBRE: score 76, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Mill Creek Residential: score 75, Tier 2 High Potential GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
-- Carmel Partners: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Dunlop Capital Markets Real Estate: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Freddie Mac: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Walker & Dunlop: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- JLL: score 76, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 76, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Carmel Partners: score 74, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 74, Tier 2 High Potential GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- IPA: score 72, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Sack Capital Partners: score 72, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## California / LA GP Activity
 
-- JLL: score 81, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
-- CBRE: score 76, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Mill Creek Residential: score 75, Tier 2 High Potential GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
-- Carmel Partners: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Dunlop Capital Markets Real Estate: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Freddie Mac: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Walker & Dunlop: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- JLL: score 76, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 76, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Carmel Partners: score 74, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 74, Tier 2 High Potential GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- IPA: score 72, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Sack Capital Partners: score 72, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Marcus & Millichap: score 69, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Related Companies: score 68, Tier 3 Monitoring GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Related Companies: score 68, Tier 3 Monitoring GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Pinterest-Leased Sunnyvale Offices Mesa West Capital: score 65, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Oakland Affordable Housing Residential: score 62, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## BTR / SFR GP Activity
 
@@ -55,13 +50,14 @@ Generated: 2026-10-28 02:02:27
 
 ## Affordable Housing GP Activity
 
+- Carmel Partners: score 74, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Related Companies: score 68, Tier 3 Monitoring GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Related Companies: score 68, Tier 3 Monitoring GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Oakland Affordable Housing Residential: score 62, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## Student Housing GP Activity
 
-- Akara Partners: score 63, Tier 3 Monitoring GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Article Student Living: score 46, Emerging Watchlist, Kentucky, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- No current GP signal detected.
 
 ## Innovation-Oriented GP Activity
 
@@ -69,29 +65,29 @@ Generated: 2026-10-28 02:02:27
 
 ## Institutional Capital Magnet
 
-- JLL: score 81, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
-- CBRE: score 76, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Mill Creek Residential: score 75, Tier 2 High Potential GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
-- Carmel Partners: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Dunlop Capital Markets Real Estate: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Freddie Mac: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Walker & Dunlop: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- JLL: score 76, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 76, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Carmel Partners: score 74, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 74, Tier 2 High Potential GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- IPA: score 72, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Sack Capital Partners: score 72, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Marcus & Millichap: score 69, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Related Companies: score 68, Tier 3 Monitoring GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Related Companies: score 68, Tier 3 Monitoring GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Frontier Group: score 65, Tier 3 Monitoring GP, Washington DC, Potential GP partnership candidate. Track JV and capital partner activity.
+- Pinterest-Leased Sunnyvale Offices Mesa West Capital: score 65, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## Potential Woomi Partnership Candidates
 
-- JLL: score 81, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
-- CBRE: score 76, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Mill Creek Residential: score 75, Tier 2 High Potential GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
-- Carmel Partners: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Dunlop Capital Markets Real Estate: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Freddie Mac: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Walker & Dunlop: score 73, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- JLL: score 76, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 76, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Carmel Partners: score 74, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 74, Tier 2 High Potential GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- IPA: score 72, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Sack Capital Partners: score 72, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Related Companies: score 68, Tier 3 Monitoring GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Related Companies: score 68, Tier 3 Monitoring GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Frontier Group: score 65, Tier 3 Monitoring GP, Washington DC, Potential GP partnership candidate. Track JV and capital partner activity.
+- Pinterest-Leased Sunnyvale Offices Mesa West Capital: score 65, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Dwight Investment Management: score 64, Tier 3 Monitoring GP, Nevada, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## GP Source Expansion Summary
 
@@ -121,30 +117,30 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 ## Recommended Management Meeting Targets
 
 - JLL: Track JV and capital partner activity (Medium confidence).
-- CBRE: Track JV and capital partner activity (Medium confidence).
-- Mill Creek Residential: Track JV and capital partner activity (Medium confidence).
+- JLL: Track JV and capital partner activity (Medium confidence).
 - Carmel Partners: Track JV and capital partner activity (Medium confidence).
-- Dunlop Capital Markets Real Estate: Review LA / California development activity (Medium confidence).
+- CBRE: Review LA / California development activity (Medium confidence).
+- Hines: Track JV and capital partner activity (Medium confidence).
 
 ## Recommended Strategic Follow-up Actions
 
 - JLL: Track JV and capital partner activity.
-- CBRE: Track JV and capital partner activity.
-- Mill Creek Residential: Track JV and capital partner activity.
+- JLL: Track JV and capital partner activity.
 - Carmel Partners: Track JV and capital partner activity.
-- Dunlop Capital Markets Real Estate: Review LA / California development activity.
-- Freddie Mac: Review LA / California development activity.
-- Walker & Dunlop: Review LA / California development activity.
+- CBRE: Review LA / California development activity.
 - Hines: Track JV and capital partner activity.
+- Marcus & Millichap: Review LA / California development activity.
+- Related Companies: Track JV and capital partner activity.
+- Related Companies: Track JV and capital partner activity.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 164
-- Institutional-grade signals: 23
-- High-confidence signals: 45
-- Weak/noisy signals: 92
-- High-confidence watchlist items: 45
+- Signals evaluated: 186
+- Institutional-grade signals: 16
+- High-confidence signals: 39
+- Weak/noisy signals: 116
+- High-confidence watchlist items: 39
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

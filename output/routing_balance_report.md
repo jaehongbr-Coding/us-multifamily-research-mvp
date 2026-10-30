@@ -1,18 +1,18 @@
 # Routing Balance Report
 
-- Market Intelligence count: 15
-- Development Activity count: 63
-- GP / Capital Activity count: 2
+- Market Intelligence count: 13
+- Development Activity count: 59
+- GP / Capital Activity count: 1
 - Excluded count: 2
 - Rent/Demand candidate count: 4
-- Project anchor article count: 60
-- Development-excluded transaction article count: 5
+- Project anchor article count: 56
+- Development-excluded transaction article count: 2
 - Low-value promotional excluded count: 2
-- Site / Parcel positive candidates count: 5
+- Site / Parcel positive candidates count: 6
 - Site / Parcel excluded transaction count: 0
 - Source missing count: 0
 - Market missing count: 0
-- Stage missing count: 61
+- Stage missing count: 57
 
 ## Rent/Demand Titles
 - Multifamily Absorption Rate Remains Below 50%
@@ -25,23 +25,24 @@
 - AI, Automation & the Future of Multifamily Finance | promotional/event keyword: webinar
 
 ## Site / Parcel Included Examples
-- Kidder Mathews Arranges Sale of 54K-SF MF Development Site in Kirkland | Development Activity | site/parcel signal with project anchor: development site
-- Development Site Trades within Atlantic Avenue Mixed-Use Plan | Development Activity | site/parcel signal with project anchor: development site
+- Bank OZK Leads $135M Financing for Yonkers Apartments Build | Development Activity | site/parcel signal with project anchor: to build
+- JLL Negotiates $58M Sale of Multifamily Development Site in Downtown Brooklyn | Development Activity | site/parcel signal with project anchor: development site
+- Northmarq Arranges Sale of 627-Unit Meadowbrook Apartments in Lawrence, Kansas | Development Activity | site/parcel signal with project anchor: acres + development/site signal
 - Origin, Mill Creek Teaming Up on 190-Unit Scottsdale Rental Community | Development Activity | site/parcel signal with project anchor: to build
+- L.A. City Council approves Arts District towers at 2143 E. Violet St. | Development Activity | site/parcel signal with project anchor: to build
 - Plans Revealed For 2101 Brush Street, West Oakland | Development Activity | site/parcel signal with project anchor: parcel
-- Fortune Lands Record $817M From Tyko Capital to Build Miami Faena Condo Towers | Development Activity | site/parcel signal with project anchor: to build
 
 ## Site / Parcel Excluded Transaction Examples
 - None
 
 ## Sample Validation
-- JLL Arranges Financing for Lightstone’s Upper West Side Apartment Acquisition | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 174-unit; address/street: 323 west 96th st; project/asset term: multifamily property; project financing tied to anchor: acquisition financing)
-- HTG Breaks Ground on 73 Affordable Apartments in Kissimmee Florida with Rents Starting at $592 | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 73-unit; execution milestone: breaks ground; project/asset term: community; project financing tied to anchor: secured financing)
-- Marcus & Millichap Arranges $9.5M Sale of Multifamily Property in Washington DC | Market Intelligence | rent_demand=No | market, macro, research, or supply-demand article without confirmed deal or project event
-- Historic Kansas City Country Club Plaza Multifamily Asset Trades Amid $1.5B Transformation | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 64-unit; project/asset term: community)
-- Wells Fargo Provides $82M Construction Financing for Oakland Affordable Housing | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (project/asset term: development; project financing tied to anchor: construction loan)
-- JLL Arranges $135M Financing for Luxury Multifamily in Yonkers | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 282-unit; project/asset term: development; project financing tied to anchor: construction financing)
+- Newmark Arranges Refinancing of Multifamily Property Citadel Apartments in Houston | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 293-unit; address/street: 2220 pinegate drive; project/asset term: community)
+- Cushman & Wakefield Represents Oso Capital in Sale and Financing of Surfside Apartments in Jacksonville Beach Florida to KABR Group | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (project/asset term: apartments)
+- Northmarq Arranges $24M Construction Financing for a 49-Unit 166-Bed Student Housing Community Near UC Berkeley | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 49-unit; address/street: 2372 ellsworth st; project/asset term: project; project financing tied to anchor: construction financing)
+- Marcus & Millichap Offers Upstate New York Multifamily Asset for Sale | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 206-unit; project/asset term: apartments)
+- Bank OZK Leads $135M Financing for Yonkers Apartments Build | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 282-unit; execution milestone: to build; project/asset term: project; project financing tied to anchor: construction loan)
+- RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 299-unit; project/asset term: development; project financing tied to anchor: construction loan)
+- Berkadia Negotiates Student Housing Property Sale in Kansas | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 139-unit)
+- 37-unit affordable housing complex underway at 3751 S. Delmas Ter. in Palms | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (unit/site count: 37-unit; site/parcel signal: site; project/asset term: project)
+- 25 apartments completed at 11013 Hartsook St. in North Hollywood | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (unit/site count: 25 apartments; address/street: 25 apartments completed at 11013 hartsook st; project/asset term: development)
 - 390 apartments underway at 6615 PCH in Long Beach | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 390 apartments; project/asset term: project; project financing tied to anchor: construction financing)
-- Modular affordable housing takes shape at 4301 S. Vermont Ave. | Development Activity | rent_demand=No | development_project_anchor: Construction Start (unit/site count: 188-unit; address/street: 4301 s. vermont ave; execution milestone: broke ground; site/parcel signal: site; project/asset term: project)
-- Affordable housing starts work at 400 Centinela Ave. in Inglewood | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (address/street: 400 centinela ave; execution milestone: groundbreaking; project/asset term: development; project financing tied to anchor: construction financing)
-- 12 homes pitched for 2315 S. Oakwood Ave. in Venice | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (unit/site count: 12 homes; address/street: 2315 s. oakwood ave; site/parcel signal: site; project/asset term: project)

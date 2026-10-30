@@ -1,74 +1,74 @@
 # Deal & Project Pipeline Report
 
-Generated: 2026-10-29 02:09:15
+Generated: 2026-10-30 02:25:50
 
-- Total deal/project signals found: 63
-- High deal intelligence count: 9
+- Total deal/project signals found: 59
+- High deal intelligence count: 11
 
 ## Top 10 Deal / Project Signals
 
+- Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Refinancing, Dallas / Texas, score 95. Capital market signal.
+- Refinancing - Dallas / Texas - Walker & Dunlop Arranges $117M Refinancing for Three Texas Multifamily Properties: Refinancing, Dallas / Texas, score 93. Capital market signal.
 - Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach: Construction Financing, San Francisco / California, score 87. Capital market signal.
+- Construction Financing - Los Angeles / California - PCCP Provides $130M Construction Loan for Newark Multifamily Project: Construction Financing, Los Angeles / California, score 87. Capital market signal.
+- Acquisition - New York City / New York - JLL Negotiates $58M Sale of Multifamily Development Site in Downtown Brooklyn: Acquisition, New York City / New York, score 85. Pricing benchmark.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Acquisition, Atlanta / Georgia, score 85. Pricing benchmark.
-- Construction Financing - New York - JLL Arranges $135M Financing for Luxury Multifamily in Yonkers: Construction Financing, New York, score 85. Capital market signal.
+- Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community: Construction Financing, Atlanta / Georgia, score 85. Capital market signal.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing, Miami / Florida, score 85. Capital market signal.
 - Construction Financing - California - Affordable housing starts work at 400 Centinela Ave. in Inglewood: Construction Financing, California, score 83. Capital market signal.
-- Refinancing - New York City / New York - JLL Arranges $95M Refinancing for Luxury Multifamily Property in Brooklyn: Refinancing, New York City / New York, score 83. Capital market signal.
-- Acquisition - California - CBRE Negotiates $15.6M Sale of Convenience Store Property in Suburban Columbus: Acquisition, California, score 82. Pricing benchmark.
-- Construction Financing - California - Wells Fargo Provides $82M Construction Financing for Oakland Affordable Housing: Construction Financing, California, score 81. Capital market signal.
-- Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: Disposition / Exit, California, score 81. Entitlement / zoning watch.
-- Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Acquisition, Atlanta / Georgia, score 77. Pricing benchmark.
+- Construction Financing - California - Truist Provides $152M Construction Loan for Marina Shores Multifamily Project in Long Beac...: Construction Financing, California, score 83. Capital market signal.
 
 ## California / LA Deal Watch
 
+- Construction Financing - Los Angeles / California - PCCP Provides $130M Construction Loan for Newark Multifamily Project: Construction Financing, Los Angeles / California, score 87. Capital market signal.
 - Construction Financing - California - Affordable housing starts work at 400 Centinela Ave. in Inglewood: Construction Financing, California, score 83. Capital market signal.
-- Acquisition - California - CBRE Negotiates $15.6M Sale of Convenience Store Property in Suburban Columbus: Acquisition, California, score 82. Pricing benchmark.
-- Construction Financing - California - Wells Fargo Provides $82M Construction Financing for Oakland Affordable Housing: Construction Financing, California, score 81. Capital market signal.
-- Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: Disposition / Exit, California, score 81. Entitlement / zoning watch.
+- Construction Financing - California - Truist Provides $152M Construction Loan for Marina Shores Multifamily Project in Long Beac...: Construction Financing, California, score 83. Capital market signal.
+- Entitlement / Permitting - California - 37-unit affordable housing complex underway at 3751 S. Delmas Ter. in Palms: Entitlement / Permitting, California, score 83. Entitlement / zoning watch.
+- Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: Disposition / Exit, California, score 79. Entitlement / zoning watch.
 - Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily: Construction Financing, Los Angeles / California, score 77. Capital market signal.
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Disposition / Exit, California, score 77. Entitlement / zoning watch.
 - Disposition / Exit - California - Anaheim Deal Represents Investor’s First Multifamily Buy Since 1993: Disposition / Exit, California, score 75. Entitlement / zoning watch.
-- General Project Signal - Los Angeles / California - Alveare affordable housing topped out at 1405 S. Broadway in DTLA: General Project Signal, Los Angeles / California, score 75. Underwriting benchmark.
-- General Project Signal - California - Mesa West Provides First Mortgage for Pinterest-Leased Sunnyvale Offices: General Project Signal, California, score 74. Capital market signal.
-- Entitlement / Permitting - Los Angeles / California - 12 homes pitched for 2315 S. Oakwood Ave. in Venice: Entitlement / Permitting, Los Angeles / California, score 65. Entitlement / zoning watch.
+- Construction Financing - San Francisco / California - Northmarq Arranges $24M Construction Financing for a 49-Unit 166-Bed Student Housing Commu...: Construction Financing, San Francisco / California, score 73. Capital market signal.
+- Acquisition - California - Roxborough Makes Second NorCal Apartment Buy Through Latest Fund: Acquisition, California, score 67. Pricing benchmark.
 
 ## GP / Developer Activity
 
+- Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Refinancing, Dallas / Texas, score 95. Capital market signal.
+- Refinancing - Dallas / Texas - Walker & Dunlop Arranges $117M Refinancing for Three Texas Multifamily Properties: Refinancing, Dallas / Texas, score 93. Capital market signal.
 - Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach: Construction Financing, San Francisco / California, score 87. Capital market signal.
+- Construction Financing - Los Angeles / California - PCCP Provides $130M Construction Loan for Newark Multifamily Project: Construction Financing, Los Angeles / California, score 87. Capital market signal.
+- Acquisition - New York City / New York - JLL Negotiates $58M Sale of Multifamily Development Site in Downtown Brooklyn: Acquisition, New York City / New York, score 85. Pricing benchmark.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Acquisition, Atlanta / Georgia, score 85. Pricing benchmark.
-- Construction Financing - New York - JLL Arranges $135M Financing for Luxury Multifamily in Yonkers: Construction Financing, New York, score 85. Capital market signal.
+- Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community: Construction Financing, Atlanta / Georgia, score 85. Capital market signal.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing, Miami / Florida, score 85. Capital market signal.
-- Refinancing - New York City / New York - JLL Arranges $95M Refinancing for Luxury Multifamily Property in Brooklyn: Refinancing, New York City / New York, score 83. Capital market signal.
-- Acquisition - California - CBRE Negotiates $15.6M Sale of Convenience Store Property in Suburban Columbus: Acquisition, California, score 82. Pricing benchmark.
-- Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: Disposition / Exit, California, score 81. Entitlement / zoning watch.
+- Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: Disposition / Exit, California, score 79. Entitlement / zoning watch.
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Acquisition, Atlanta / Georgia, score 77. Pricing benchmark.
-- Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily: Construction Financing, Los Angeles / California, score 77. Capital market signal.
-- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Disposition / Exit, California, score 77. Entitlement / zoning watch.
 
 ## Financing / Refinancing Signals
 
+- Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Refinancing, Dallas / Texas, score 95. Capital market signal.
+- Refinancing - Dallas / Texas - Walker & Dunlop Arranges $117M Refinancing for Three Texas Multifamily Properties: Refinancing, Dallas / Texas, score 93. Capital market signal.
 - Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach: Construction Financing, San Francisco / California, score 87. Capital market signal.
+- Construction Financing - Los Angeles / California - PCCP Provides $130M Construction Loan for Newark Multifamily Project: Construction Financing, Los Angeles / California, score 87. Capital market signal.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Acquisition, Atlanta / Georgia, score 85. Pricing benchmark.
-- Construction Financing - New York - JLL Arranges $135M Financing for Luxury Multifamily in Yonkers: Construction Financing, New York, score 85. Capital market signal.
+- Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community: Construction Financing, Atlanta / Georgia, score 85. Capital market signal.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing, Miami / Florida, score 85. Capital market signal.
 - Construction Financing - California - Affordable housing starts work at 400 Centinela Ave. in Inglewood: Construction Financing, California, score 83. Capital market signal.
-- Refinancing - New York City / New York - JLL Arranges $95M Refinancing for Luxury Multifamily Property in Brooklyn: Refinancing, New York City / New York, score 83. Capital market signal.
-- Construction Financing - California - Wells Fargo Provides $82M Construction Financing for Oakland Affordable Housing: Construction Financing, California, score 81. Capital market signal.
+- Construction Financing - California - Truist Provides $152M Construction Loan for Marina Shores Multifamily Project in Long Beac...: Construction Financing, California, score 83. Capital market signal.
 - Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily: Construction Financing, Los Angeles / California, score 77. Capital market signal.
-- Refinancing - Nevada - Dwight Investment Management Provides $73M Bridge Loan for Reno Multifamily Community: Refinancing, Nevada, score 75. Capital market signal.
-- General Project Signal - California - Mesa West Provides First Mortgage for Pinterest-Leased Sunnyvale Offices: General Project Signal, California, score 74. Capital market signal.
 
 ## Project Pipeline / Supply Signals
 
+- Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Refinancing, Dallas / Texas, score 95. Capital market signal.
+- Refinancing - Dallas / Texas - Walker & Dunlop Arranges $117M Refinancing for Three Texas Multifamily Properties: Refinancing, Dallas / Texas, score 93. Capital market signal.
 - Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach: Construction Financing, San Francisco / California, score 87. Capital market signal.
+- Construction Financing - Los Angeles / California - PCCP Provides $130M Construction Loan for Newark Multifamily Project: Construction Financing, Los Angeles / California, score 87. Capital market signal.
 - Construction Financing - California - Affordable housing starts work at 400 Centinela Ave. in Inglewood: Construction Financing, California, score 83. Capital market signal.
-- General Project Signal - Los Angeles / California - Alveare affordable housing topped out at 1405 S. Broadway in DTLA: General Project Signal, Los Angeles / California, score 75. Underwriting benchmark.
-- Refinancing - Nevada - Dwight Investment Management Provides $73M Bridge Loan for Reno Multifamily Community: Refinancing, Nevada, score 75. Capital market signal.
-- JV / Partnership - New York City / New York - Partnership Completes 22-Story Apartment Building in Brooklyn: JV / Partnership, New York City / New York, score 74. Capital market signal.
-- Disposition / Exit - Los Angeles / California - Mixed-use project completed at Sunset and Fairfax in Hollywood: Disposition / Exit, Los Angeles / California, score 71. Underwriting benchmark.
+- Construction Financing - California - Truist Provides $152M Construction Loan for Marina Shores Multifamily Project in Long Beac...: Construction Financing, California, score 83. Capital market signal.
+- Entitlement / Permitting - California - 37-unit affordable housing complex underway at 3751 S. Delmas Ter. in Palms: Entitlement / Permitting, California, score 83. Entitlement / zoning watch.
 - Modular / Construction Innovation - Los Angeles / California - Modular affordable housing takes shape at 4301 S. Vermont Ave.: Modular / Construction Innovation, Los Angeles / California, score 71. Capital market signal.
 - Development Start - Los Angeles / California - Groundbreaking held for mixed-use project at 3800 W. 6th St. in Koreatown: Development Start, Los Angeles / California, score 65. Pipeline / supply signal.
 - Entitlement / Permitting - Los Angeles / California - 12 homes pitched for 2315 S. Oakwood Ave. in Venice: Entitlement / Permitting, Los Angeles / California, score 65. Entitlement / zoning watch.
-- Entitlement / Permitting - Dallas / Texas - Prosper Greenlights $2B Italian-Themed Community: Entitlement / Permitting, Dallas / Texas, score 62. Entitlement / zoning watch.
 
 ## BTR / Modular / Innovation Signals
 
@@ -78,25 +78,20 @@ Generated: 2026-10-29 02:09:15
 
 ## Pricing / Cap Rate / Valuation Signals
 
+- Acquisition - New York City / New York - JLL Negotiates $58M Sale of Multifamily Development Site in Downtown Brooklyn: Acquisition, New York City / New York, score 85. Pricing benchmark.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Acquisition, Atlanta / Georgia, score 85. Pricing benchmark.
-- Acquisition - California - CBRE Negotiates $15.6M Sale of Convenience Store Property in Suburban Columbus: Acquisition, California, score 82. Pricing benchmark.
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Acquisition, Atlanta / Georgia, score 77. Pricing benchmark.
-- Construction Financing - Other / Unknown - PCCP Provides $163.9M Senior Loan for the Construction of 426-Unit Multifamily Project in...: Construction Financing, Other / Unknown, score 62. Pricing benchmark.
-- JV / Partnership - Washington DC - Newmark Arranges $108M Sale of 310-Unit Virginia Multifamily Community: JV / Partnership, Washington DC, score 62. Pricing benchmark.
-- JV / Partnership - Virginia - Newmark Arranges $108M Sale of Multifamily Community in Metro Richmond: JV / Partnership, Virginia, score 61. Pricing benchmark.
+- Acquisition - California - Roxborough Makes Second NorCal Apartment Buy Through Latest Fund: Acquisition, California, score 67. Pricing benchmark.
+- Acquisition - Other / Unknown - Colliers Brokers $15.3M Sale of South Pointe Apartments in Bloomington, Minnesota: Acquisition, Other / Unknown, score 53. Pricing benchmark.
 - Acquisition - Atlanta / Georgia - Passco Offloads Buckhead Rental Asset for $87.5M: Acquisition, Atlanta / Georgia, score 52. Pricing benchmark.
-- Acquisition - Other / Unknown - Affordable Housing Giant Starts $180M Philly Push: The Philadelphia Deal Sheet: Acquisition, Other / Unknown, score 51. Pricing benchmark.
 
 ## Deal / Project Signals By Residential Sector
 
-- Apartment: 28 deal/project signal(s)
-- Affordable Housing: 13 deal/project signal(s)
-- Multifamily: 8 deal/project signal(s)
-- Mixed-Use Residential: 7 deal/project signal(s)
-- General Residential: 3 deal/project signal(s)
-- Student Housing: 2 deal/project signal(s)
-- Workforce Housing: 1 deal/project signal(s)
-- Senior Housing: 1 deal/project signal(s)
+- Apartment: 31 deal/project signal(s)
+- Affordable Housing: 14 deal/project signal(s)
+- Multifamily: 9 deal/project signal(s)
+- Student Housing: 3 deal/project signal(s)
+- Mixed-Use Residential: 2 deal/project signal(s)
 
 ## Canonical Deal Summary
 
@@ -107,11 +102,11 @@ Use those reports to separate repeated coverage from genuinely separate events.
 ## Relationship Graph Intelligence
 
 Developer, lender, capital partner, market, and deal edges are available in `relationship_graph_report.md`.
-- CBRE -> cbre: Financing Relationship, score 95.
-- CBRE -> cbre: Financing Relationship, score 93.
-- JLL -> jll: Financing Relationship, score 93.
-- JLL -> jll: Financing Relationship, score 93.
-- JLL -> jll: Financing Relationship, score 92.
+- Greystar -> walker & dunlop: Financing Relationship, score 100.
+- Benefit Street Partners -> walker & dunlop: Financing Relationship, score 96.
+- Greystar -> Dallas: Financing Relationship, score 95.
+- Greystar -> Dallas / Texas: Financing Relationship, score 95.
+- Greystar -> Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Financing Relationship, score 95.
 
 ## Implications for Woomi / Woomi Global
 
@@ -122,11 +117,11 @@ Developer, lender, capital partner, market, and deal edges are available in `rel
 
 ## Recommended Follow-up Actions
 
+- Capital market signal: read `Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets` from Connect CRE Apartments. Canonical market: Los Angeles.
+- Capital market signal: read `Walker & Dunlop Arranges $117M Refinancing for Three Texas Multifamily Properties` from Yield PRO. Canonical market: Los Angeles.
 - Capital market signal: read `390 apartments underway at 6615 PCH in Long Beach` from Urbanize LA. Canonical market: California.
+- Capital market signal: read `PCCP Provides $130M Construction Loan for Newark Multifamily Project` from REBusiness Online. Canonical market: Los Angeles.
+- Pricing benchmark: read `JLL Negotiates $58M Sale of Multifamily Development Site in Downtown Brooklyn` from REBusiness Online. Canonical market: New York.
 - Pricing benchmark: read `ORIX Acquires Buckhead Apartments for $83M` from Connect CRE Atlanta. Canonical market: Los Angeles.
-- Capital market signal: read `JLL Arranges $135M Financing for Luxury Multifamily in Yonkers` from Connect CRE. Canonical market: New York.
+- Capital market signal: read `RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community` from Connect CRE. Canonical market: Los Angeles.
 - Capital market signal: read `Little Havana Apartment Owners Land $50.8M Refi` from Connect CRE South Florida. Canonical market: Sun Belt.
-- Capital market signal: read `Affordable housing starts work at 400 Centinela Ave. in Inglewood` from Urbanize LA. Canonical market: California.
-- Capital market signal: read `JLL Arranges $95M Refinancing for Luxury Multifamily Property in Brooklyn` from Yield PRO. Canonical market: New York.
-- Pricing benchmark: read `CBRE Negotiates $15.6M Sale of Convenience Store Property in Suburban Columbus` from REBusiness Online. Canonical market: California.
-- Capital market signal: read `Wells Fargo Provides $82M Construction Financing for Oakland Affordable Housing` from Commercial Observer. Canonical market: California.

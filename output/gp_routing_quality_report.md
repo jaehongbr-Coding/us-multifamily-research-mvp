@@ -1,22 +1,22 @@
 # GP Routing Quality Report
 
-Generated: 2026-10-29 02:09:04
+Generated: 2026-10-30 02:25:43
 
 ## Summary
-- Total GP / Capital candidates: 48
-- Selected GP / Capital articles: 22
-- Debt Financing count: 12
-- Refinancing count: 2
-- Construction Financing count: 4
-- Acquisition Financing count: 1
+- Total GP / Capital candidates: 41
+- Selected GP / Capital articles: 18
+- Debt Financing count: 5
+- Refinancing count: 5
+- Construction Financing count: 6
+- Acquisition Financing count: 0
 - Equity Transaction count: 0
 - Operator Activity count: 1
-- Other / Unknown market count: 30
+- Other / Unknown market count: 27
 
 ## Routing Regression Summary
-- Market Intelligence routed articles: 15
-- Development Activity routed articles: 63
-- GP / Capital Activity routed articles: 2
+- Market Intelligence routed articles: 13
+- Development Activity routed articles: 59
+- GP / Capital Activity routed articles: 1
 - Market-protected research / macro / supply articles: 3
 - Approval / Entitlement development rows: 0
 - Site / Parcel development rows: 0
@@ -24,48 +24,47 @@ Generated: 2026-10-29 02:09:04
 - Routing rule: approval / entitlement wording takes priority over Site / Parcel when both appear.
 
 ## Activity Type Distribution
-- disposition_exit: 15
-- debt_financing: 12
-- joint_venture: 9
-- construction_financing: 4
+- disposition_exit: 16
+- construction_financing: 6
+- refinancing: 5
+- debt_financing: 5
 - acquisition: 4
-- refinancing: 2
-- acquisition_financing: 1
+- joint_venture: 4
 - asset_management_operator_activity: 1
 
 ## Excluded from GP / Capital with Reason
-- Historic Kansas City Country Club Plaza Multifamily Asset Trades Amid $1.5B Transformation | Yield PRO | asset strategy / development routing
+- Eastham Capital and Bender Companies Joint Venture Acquires 204-Unit Residential Community in Omaha | Yield PRO | asset strategy / development routing
 
 ## Top Unresolved Market Extraction Examples
-- Historic Kansas City Country Club Plaza Multifamily Asset Trades Amid $1.5B Transformation | Yield PRO | no city, state, or market keyword detected
+- Bank OZK Leads $135M Financing for Yonkers Apartments Build | Commercial Observer | no city, state, or market keyword detected
 - Construction Starts For 39340 Fremont Boulevard, Fremont | SF YIMBY | no city, state, or market keyword detected
-- CBRE Arranges $85M in Financing for Apartment Community in Downingtown, Pennsylvania | REBusiness Online | no city, state, or market keyword detected
-- Northmarq Brokers Sale of 312-Unit Luxury Apartment Community in Clarksville, Indiana | REBusiness Online | no city, state, or market keyword detected
-- Mattapan Site Will Contain 105 Affordable Housing Units | Connect CRE Apartments | no city, state, or market keyword detected
-- Affordable Housing Giant Starts $180M Philly Push: The Philadelphia Deal Sheet | Bisnow | no city, state, or market keyword detected
+- Northmarq Arranges Sale of 627-Unit Meadowbrook Apartments in Lawrence, Kansas | REBusiness Online | no city, state, or market keyword detected
+- Historic Kansas City Country Club Plaza MF Asset Trades | Connect CRE Apartments | no city, state, or market keyword detected
+- Lightstone Capital Provides $29.5M Loan for Orange, N.J., Multifamily Development | Commercial Observer | no city, state, or market keyword detected
+- Colliers Brokers $15.3M Sale of South Pointe Apartments in Bloomington, Minnesota | REBusiness Online | no city, state, or market keyword detected
 - Best Year for Missing Middle Construction Since 2007 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- PCCP Provides $163.9M Senior Loan for the Construction of 426-Unit Multifamily Project in Paramus New Jersey | Yield PRO | no city, state, or market keyword detected
 - Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- Formal Application For 477 East Hillsdale Boulevard, San Mateo | SF YIMBY | no city, state, or market keyword detected
 - Multifamily Missing Middle Falls Back | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Multifamily Missing Middle Construction: First Quarter 2026 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Multifamily Absorption Rate Remains Below 50% | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Shorter Apartment Construction Time in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Second Quarter 2026 Multifamily Construction Data | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- PCCP Provides a $130M Senior Loan for the Construction of 501-Unit Multifamily Project with a Grocery Store in Newark | Yield PRO | no city, state, or market keyword detected
+- Rent Prices Continue to Rise, While Absorption Remains Low | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 
 ## Sample Selected GP / Capital Articles
-- JLL Arranges Financing for Lightstone’s Upper West Side Apartment Acquisition | acquisition_financing | Riverside / California | Yield PRO
-- Marcus & Millichap Arranges $9.5M Sale of Multifamily Property in Washington DC | disposition_exit | Washington DC | Yield PRO
-- Wells Fargo Provides $82M Construction Financing for Oakland Affordable Housing | construction_financing | California | Commercial Observer
-- JLL Arranges $135M Financing for Luxury Multifamily in Yonkers | construction_financing | New York | Connect CRE
-- CBRE Arranges $85M in Financing for Apartment Community in Downingtown, Pennsylvania | debt_financing | Other / Unknown | REBusiness Online
-- Dwight Investment Management Provides $73M Bridge Loan for Reno Multifamily Community | joint_venture | Nevada | REBusiness Online
+- Newmark Arranges Refinancing of Multifamily Property Citadel Apartments in Houston | refinancing | Houston / Texas | Yield PRO
+- Cushman & Wakefield Represents Oso Capital in Sale and Financing of Surfside Apartments in Jacksonville Beach Florida to KABR Group | disposition_exit | Florida | Yield PRO
+- Northmarq Arranges $24M Construction Financing for a 49-Unit 166-Bed Student Housing Community Near UC Berkeley | construction_financing | San Francisco / California | Yield PRO
+- Bank OZK Leads $135M Financing for Yonkers Apartments Build | construction_financing | Other / Unknown | Commercial Observer
+- RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community | construction_financing | Atlanta / Georgia | Connect CRE
+- PCCP Provides $130M Construction Loan for Newark Multifamily Project | construction_financing | Los Angeles / California | REBusiness Online
+- Truist Provides $152M Construction Loan for Marina Shores Multifamily Project in Long Beach | construction_financing | California | REBusiness Online
+- Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets | refinancing | Dallas / Texas | Connect CRE Apartments
 - ORIX Acquires Buckhead Apartments for $83M | acquisition | Atlanta / Georgia | Connect CRE Atlanta
 - Truist Closes Construction Loan for Long Beach Multifamily | construction_financing | Los Angeles / California | Connect CRE California
 - Logos Faith Development Expands into San Diego Market | joint_venture | California | Connect CRE California
-- Partnership Completes 22-Story Apartment Building in Brooklyn | joint_venture | New York City / New York | REBusiness Online
-- Mattapan Site Will Contain 105 Affordable Housing Units | joint_venture | Other / Unknown | Connect CRE Apartments
-- JLL Arranges $95M Refinancing for Luxury Multifamily Property in Brooklyn | refinancing | New York City / New York | Yield PRO
-- Newmark Arranges $108M Sale of 310-Unit Virginia Multifamily Community | joint_venture | Washington DC | Connect CRE Apartments
-- Newmark Arranges $108M Sale of Multifamily Community in Metro Richmond | joint_venture | Virginia | REBusiness Online
-- PCCP Provides $163.9M Senior Loan for the Construction of 426-Unit Multifamily Project in Paramus New Jersey | joint_venture | Other / Unknown | Yield PRO
+- Lightstone Capital Provides $29.5M Loan for Orange, N.J., Multifamily Development | refinancing | Other / Unknown | Commercial Observer
+- Walker & Dunlop Arranges $117M Refinancing for Three Texas Multifamily Properties | refinancing | Dallas / Texas | Yield PRO
+- Roxborough Makes Second NorCal Apartment Buy Through Latest Fund | acquisition | California | Connect CRE Apartments
+- How Bainbridge set a 2026 high-water mark with a Virginia property sale | disposition_exit | Virginia | Multifamily Dive

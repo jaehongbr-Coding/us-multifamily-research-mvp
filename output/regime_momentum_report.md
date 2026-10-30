@@ -1,6 +1,6 @@
 # Regime Momentum Report
 
-Generated: 2026-10-29 02:09:14
+Generated: 2026-10-30 02:25:49
 
 - Top regime by final_score: Selective Capital Re-entry (89)
 - Second regime by final_score: Financing Stress (81)
@@ -12,10 +12,10 @@ Generated: 2026-10-29 02:09:14
 | --- | ---: | ---: | ---: | --- |
 | Selective Capital Re-entry | 89 | 89 | 0 | Stable |
 | Financing Stress | 81 | 81 | 0 | Stable |
+| Supply Pressure | 63 | 73 | 10 | Improving |
 | Policy / Entitlement Watch | 67 | 67 | 0 | Stable |
-| Supply Pressure | 41 | 63 | 22 | Accelerating |
 | Developer Strategy Shift | 59 | 59 | 0 | Stable |
-| Construction Cost Pressure | 11 | 17 | 6 | Improving |
+| Construction Cost Pressure | 17 | 11 | -6 | Weakening |
 | Stable Monitoring Environment | 0 | 0 | 0 | Stable |
 
 ## Concentration Interpretation
@@ -24,5 +24,4 @@ Generated: 2026-10-29 02:09:14
 
 ## Implications for Woomi / Woomi Global
 
-- Supply Pressure is accelerating, so monitor lease-up, concessions, vacancy, and new starts more closely.
 - The dominant regime spread is small, so the market environment looks mixed and should not be interpreted as one clear narrative.

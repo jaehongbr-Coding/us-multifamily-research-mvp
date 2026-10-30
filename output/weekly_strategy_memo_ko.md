@@ -1,6 +1,6 @@
 # 한국어 주간 전략 메모
 
-- 생성 시각: 2026-10-29 02:09:04
+- 생성 시각: 2026-10-30 02:25:43
 - 참고 원문 파일: `weekly_strategy_memo.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -25,10 +25,10 @@
 
 ## 지역 / 섹터 관찰
 
-- California: California, 일반 주거, 점수 84 (Active Watch Window; Actively source opportunities)
-- New York: New York, 일반 주거, 점수 72 (Selective Entry Window; Monitor refinancing and distress pipeline)
-- National / Other: 전국 / 기타, 일반 주거, 점수 63 (Early Signal / Prepare; Monitor refinancing and distress pipeline)
-- Texas: Texas, 일반 주거, 점수 41 (Monitor Only; Prepare GP conversations)
+- California: California, 일반 주거, 점수 85 (Active Watch Window; Actively source opportunities)
+- National / Other: 전국 / 기타, 일반 주거, 점수 67 (Selective Entry Window; Monitor refinancing and distress pipeline)
+- Florida: Florida, 일반 주거, 점수 49 (Monitor Only; Wait for better pricing evidence)
+- New York: New York, 일반 주거, 점수 42 (Monitor Only; Prepare GP conversations)
 - Los Angeles: Los Angeles, 일반 주거, 점수 34 (Monitor Only; Prepare GP conversations)
 
 ## 우미 전략 시사점

@@ -1,55 +1,55 @@
 # Regional Intelligence Report
 
-Generated: 2026-10-29 02:09:15
+Generated: 2026-10-30 02:25:50
 
 ## Top 5 Markets By Relevance
 
-- California: Core Watch Market, 21 article(s), average relevance 93.0.
-- Los Angeles: Core Watch Market, 12 article(s), average relevance 97.9.
-- National / Other: General Monitoring, 30 article(s), average relevance 72.9.
-- New York: General Monitoring, 8 article(s), average relevance 92.2.
-- Southeast: Strategic Watch Market, 9 article(s), average relevance 82.2.
+- California: Core Watch Market, 22 article(s), average relevance 91.4.
+- Los Angeles: Core Watch Market, 12 article(s), average relevance 93.8.
+- National / Other: General Monitoring, 27 article(s), average relevance 73.2.
+- Southeast: Strategic Watch Market, 9 article(s), average relevance 81.6.
+- New York: General Monitoring, 4 article(s), average relevance 96.0.
 
 ## LA / California Focus
 
-- California: 21 article(s), 11 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
+- California: 22 article(s), 13 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
 - Los Angeles: 12 article(s), 8 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
 
 ## Sun Belt / Texas / Southeast
 
-- Southeast: 9 article(s), 3 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
-- Florida: 4 article(s), 3 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
-- Texas: 5 article(s), 1 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
-- Phoenix: 2 article(s), 0 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
-- Arizona: 3 article(s), 0 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
-- Dallas: 2 article(s), 0 market signal(s), Strategic Watch Market. Monitor only.
+- Southeast: 9 article(s), 4 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
+- Texas: 6 article(s), 3 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
+- Florida: 4 article(s), 1 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
+- Dallas: 4 article(s), 2 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
+- Phoenix: 3 article(s), 0 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
+- Arizona: 4 article(s), 0 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
+- Austin: 2 article(s), 2 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
 
 ## Coastal Markets
 
-- New York: 8 article(s), 5 market signal(s), General Monitoring. Track institutional capital activity.
-- Seattle: 1 article(s), 0 market signal(s), Strategic Watch Market. Track institutional capital activity.
+- New York: 4 article(s), 3 market signal(s), General Monitoring. Monitor supply pipeline and concessions.
 
 ## National Market Signals
 
-- National / Other: 30 article(s), 8 market signal(s), General Monitoring. Monitor supply pipeline and concessions.
+- National / Other: 27 article(s), 5 market signal(s), General Monitoring. Review development underwriting assumptions.
 
 ## Deal / Project Intelligence
 
 Market-level deal and project signals are available in `deal_pipeline_report.md`.
-- New York: Construction Financing, Capital market signal.
 - California: Construction Financing, Capital market signal.
-- California: Acquisition, Pricing benchmark.
 - California: Construction Financing, Capital market signal.
+- California: Entitlement / Permitting, Entitlement / zoning watch.
+- California: Disposition / Exit, Entitlement / zoning watch.
 - California: Disposition / Exit, Entitlement / zoning watch.
 
 ## Relationship Graph Intelligence
 
 Market-level relationship edges are available in `relationship_graph_report.md`.
+- Dallas / Texas: Greystar -> Dallas (Financing Relationship).
+- Dallas / Texas: Greystar -> Dallas / Texas (Financing Relationship).
+- Dallas / Texas: Benefit Street Partners -> Dallas (Financing Relationship).
+- Dallas / Texas: Benefit Street Partners -> Dallas / Texas (Financing Relationship).
 - San Francisco / California: Carmel Partners -> San Francisco (Financing Relationship).
-- San Francisco / California: Carmel Partners -> San Francisco / California (Financing Relationship).
-- California: CBRE -> California (Acquisition / Buyer).
-- California: CBRE -> National (Acquisition / Buyer).
-- Miami / Florida: JLL -> Miami / Florida (Financing Relationship).
 
 ## Canonical Deal Summary
 
@@ -74,9 +74,9 @@ Opportunity deduplication is available in `opportunity_deduplication_report.md`.
 
 - California: Track LA / California entitlement and zoning updates
 - Los Angeles: Track LA / California entitlement and zoning updates
-- Southeast: Review development underwriting assumptions
+- Southeast: Watch GP / developer partnership opportunities
+- Texas: Review development underwriting assumptions
 - Florida: Review development underwriting assumptions
-- Texas: Watch GP / developer partnership opportunities
+- Dallas: Review development underwriting assumptions
 - Phoenix: Watch GP / developer partnership opportunities
 - Arizona: Watch GP / developer partnership opportunities
-- Seattle: Track institutional capital activity

@@ -1,0 +1,7 @@
+﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
+20261030-022543-2c09b0bb,2026-10-30,Construction financing still selective,Building,accelerating,4,5,28,4.03,2.87,8,8,6,2,San Francisco / California,Broadly Confirmed,Construction financing still selective signal is accelerating versus prior runs.,
+20261030-022543-2c09b0bb,2026-10-30,Institutional recap over expansion,Persistent,stable,73,8,31,4.74,3.42,3,3,2,3,Houston / Texas,Moderate Signal,steady visibility,
+20261030-022543-2c09b0bb,2026-10-30,JV / partnership activity observed,Weakening,weakening,185,8,31,5.81,3.55,6,6,4,0,California,Broadly Confirmed,JV / partnership activity observed visibility is weakening versus prior runs.,
+20261030-022543-2c09b0bb,2026-10-30,LA entitlement precedent accumulation,Building,stable,185,8,31,6.77,3.29,10,10,4,0,Los Angeles / California,Moderate Signal,steady visibility,
+20261030-022543-2c09b0bb,2026-10-30,Refinancing pressure unresolved,Persistent,stable,73,8,31,5.32,3.65,4,4,3,3,Houston / Texas,Moderate Signal,steady visibility,
+20261030-022543-2c09b0bb,2026-10-30,Sun Belt lease-up pressure watch,Persistent,stable,185,8,31,3.13,2.87,3,3,2,1,,Moderate Signal,steady visibility,

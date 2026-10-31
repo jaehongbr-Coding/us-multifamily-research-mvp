@@ -1,10 +1,10 @@
 # Deal Fingerprint Report
 
-Generated: 2026-10-30 02:25:50
+Generated: 2026-10-31 02:03:10
 
-- Total canonical deals detected: 59
+- Total canonical deals detected: 61
 - Duplicate clusters detected: 0
-- California / LA recurring project count: 9
+- California / LA recurring project count: 8
 
 ## Largest Duplicate Clusters
 
@@ -17,63 +17,62 @@ Generated: 2026-10-30 02:25:50
 ## Strongest Recurring Refinancing Events
 
 - Refinancing - Greystar - walker & dunlop - Los Angeles: Dallas / Texas, 1 article(s), 1 source(s), confidence 100.
-- Refinancing - Benefit Street Partners - walker & dunlop - Los Angeles: Dallas / Texas, 1 article(s), 1 source(s), confidence 100.
+- Construction Financing - Unknown - northmarq - California: California, 1 article(s), 1 source(s), confidence 85.
 - Construction Financing - Carmel Partners - California: San Francisco / California, 1 article(s), 1 source(s), confidence 90.
-- Construction Financing - PCCP - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 90.
 - Construction Financing - CBRE - CBRE - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
+- Construction Financing - CBRE - CBRE - Sun Belt: Sun Belt, 1 article(s), 1 source(s), confidence 90.
+- Construction Financing - JLL - JLL - New York: New York City / New York, 1 article(s), 1 source(s), confidence 90.
+- Refinancing - Fannie Mae - Fannie Mae - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 90.
+- Refinancing - Greystone - Freddie Mac - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 90.
 - Refinancing - JLL - JLL - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
 - Construction Financing - Unknown - California: California, 1 article(s), 1 source(s), confidence 75.
-- Construction Financing - Unknown - California: California, 1 article(s), 1 source(s), confidence 75.
-- Construction Financing - Carmel Partners - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 80.
-- Construction Financing - JLL - JLL - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 80.
 
 ## Recurring California / LA Projects
 
-- Construction Financing - Unknown - California: California, 1 article(s), 1 source(s), confidence 75.
+- Construction Financing - Unknown - northmarq - California: California, 1 article(s), 1 source(s), confidence 85.
 - Construction Financing - Unknown - California: California, 1 article(s), 1 source(s), confidence 75.
 - Entitlement / Permitting - Unknown - California: California, 1 article(s), 1 source(s), confidence 75.
 - Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
-- Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
+- Acquisition - CBRE - California: California, 1 article(s), 1 source(s), confidence 90.
 - Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
 - Acquisition - Unknown - California: California, 1 article(s), 1 source(s), confidence 65.
-- JV / Partnership - Unknown - California: California, 1 article(s), 1 source(s), confidence 55.
-- JV / Partnership - Unknown - California: California, 1 article(s), 1 source(s), confidence 55.
+- Entitlement / Permitting - Unknown - California: California, 1 article(s), 1 source(s), confidence 55.
 
 ## Recurring GP / Lender Relationships
 
-- Refinancing - Benefit Street Partners - walker & dunlop - Los Angeles: Dallas / Texas, 1 article(s), 1 source(s), confidence 100.
 - Refinancing - Greystar - walker & dunlop - Los Angeles: Dallas / Texas, 1 article(s), 1 source(s), confidence 100.
+- Acquisition - CBRE - California: California, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - CBRE - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
-- Acquisition - JLL - New York: New York City / New York, 1 article(s), 1 source(s), confidence 90.
+- BTR / Build-to-Rent - Berkadia - Sun Belt: Sun Belt, 1 article(s), 1 source(s), confidence 90.
 - Construction Financing - CBRE - CBRE - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
+- Construction Financing - CBRE - CBRE - Sun Belt: Sun Belt, 1 article(s), 1 source(s), confidence 90.
 - Construction Financing - Carmel Partners - California: San Francisco / California, 1 article(s), 1 source(s), confidence 90.
-- Construction Financing - PCCP - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 90.
-- Refinancing - JLL - JLL - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
-- Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
-- Construction Financing - Carmel Partners - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 80.
+- Construction Financing - JLL - JLL - New York: New York City / New York, 1 article(s), 1 source(s), confidence 90.
+- Refinancing - Fannie Mae - Fannie Mae - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 90.
+- Refinancing - Greystone - Freddie Mac - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 90.
 
 ## Most Frequently Referenced Developments
 
-- Refinancing - Benefit Street Partners - walker & dunlop - Los Angeles: Dallas / Texas, 1 article(s), 1 source(s), confidence 100.
 - Refinancing - Greystar - walker & dunlop - Los Angeles: Dallas / Texas, 1 article(s), 1 source(s), confidence 100.
+- Acquisition - CBRE - California: California, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - CBRE - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
-- Acquisition - JLL - New York: New York City / New York, 1 article(s), 1 source(s), confidence 90.
+- BTR / Build-to-Rent - Berkadia - Sun Belt: Sun Belt, 1 article(s), 1 source(s), confidence 90.
 - Construction Financing - CBRE - CBRE - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
+- Construction Financing - CBRE - CBRE - Sun Belt: Sun Belt, 1 article(s), 1 source(s), confidence 90.
 - Construction Financing - Carmel Partners - California: San Francisco / California, 1 article(s), 1 source(s), confidence 90.
-- Construction Financing - PCCP - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 90.
-- Refinancing - JLL - JLL - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
-- Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
-- Construction Financing - Carmel Partners - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 80.
+- Construction Financing - JLL - JLL - New York: New York City / New York, 1 article(s), 1 source(s), confidence 90.
+- Refinancing - Fannie Mae - Fannie Mae - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 90.
+- Refinancing - Greystone - Freddie Mac - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 90.
 
 ## Highest-Confidence Canonical Events
 
-- Refinancing - Benefit Street Partners - walker & dunlop - Los Angeles: Dallas / Texas, 1 article(s), 1 source(s), confidence 100.
 - Refinancing - Greystar - walker & dunlop - Los Angeles: Dallas / Texas, 1 article(s), 1 source(s), confidence 100.
+- Acquisition - CBRE - California: California, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - CBRE - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
-- Acquisition - JLL - New York: New York City / New York, 1 article(s), 1 source(s), confidence 90.
+- BTR / Build-to-Rent - Berkadia - Sun Belt: Sun Belt, 1 article(s), 1 source(s), confidence 90.
 - Construction Financing - CBRE - CBRE - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
+- Construction Financing - CBRE - CBRE - Sun Belt: Sun Belt, 1 article(s), 1 source(s), confidence 90.
 - Construction Financing - Carmel Partners - California: San Francisco / California, 1 article(s), 1 source(s), confidence 90.
-- Construction Financing - PCCP - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 90.
-- Refinancing - JLL - JLL - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 90.
-- Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
-- Construction Financing - Carmel Partners - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 80.
+- Construction Financing - JLL - JLL - New York: New York City / New York, 1 article(s), 1 source(s), confidence 90.
+- Refinancing - Fannie Mae - Fannie Mae - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 90.
+- Refinancing - Greystone - Freddie Mac - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 90.

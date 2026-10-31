@@ -1,32 +1,32 @@
 # LLM Prompt Quality Report
 
-Generated: 2026-10-30 02:25:49
+Generated: 2026-10-31 02:03:09
 
-- Total prompts reviewed: 45
-- Average prompt quality score: 91.4
-- Excellent prompts: 33
-- Good prompts: 12
+- Total prompts reviewed: 54
+- Average prompt quality score: 90.9
+- Excellent prompts: 36
+- Good prompts: 18
 - Needs Improvement prompts: 0
 - Poor prompts: 0
 
 ## Top 5 Strongest Prompts
 
-- 98 (Excellent): JLL Negotiates $58M Sale of Multifamily Development Site in Downtown Brooklyn
-- 98 (Excellent): Roxborough Makes Second NorCal Apartment Buy Through Latest Fund
-- 98 (Excellent): Hillpointe Opens 312-Unit Multifamily Community in White, Georgia
-- 98 (Excellent): PCCP Provides $130M Construction Loan for Newark Multifamily Project
-- 98 (Excellent): Northmarq Arranges $24M Construction Financing for a 49-Unit 166-Bed Student Housing Community Near UC Berkeley
+- 98 (Excellent): Greystone Refis Hollywood, Fla., Apartments With $109M Loan
+- 98 (Excellent): Thorofare Capital Provides $16.5M Acquisition Loan for Houston Multifamily Property
+- 98 (Excellent): CBRE Brokers $18.3M Sale of Five Retail Properties in Eastvale, California
+- 98 (Excellent): HSL Purchases 180-Unit Tucson Rental Community
+- 98 (Excellent): Toro Development Opens $560M Medley Mixed-Use Destination in Johns Creek, Georgia
 
 ## Top 5 Weakest Prompts
 
-- 74 (Good): Northmarq Arranges Sale of 627-Unit Meadowbrook Apartments in Lawrence, Kansas - Missing: missing extracted numbers; missing market focus; missing market signal
-- 74 (Good): Historic Kansas City Country Club Plaza MF Asset Trades - Missing: missing extracted numbers; missing market focus; missing market signal
-- 82 (Good): Eastham Capital and Bender Companies Joint Venture Acquires 204-Unit Residential Community in Omaha - Missing: missing extracted numbers; missing market signal
-- 82 (Good): Cushman & Wakefield Represents Oso Capital in Sale and Financing of Surfside Apartments in Jacksonville Beach Florida to KABR Group - Missing: missing extracted numbers; missing market signal
-- 82 (Good): Berkadia Negotiates Student Housing Property Sale in Kansas - Missing: missing extracted numbers; missing market signal
+- 74 (Good): 80-Unit Seniors Housing Development Opens in Suburban Chicago - Missing: missing extracted numbers; missing market focus; missing market signal
+- 74 (Good): Leyden Township Opens 80 New Affordable Senior Apartments - Missing: missing extracted numbers; missing market focus; missing market signal
+- 74 (Good): 312-Unit Multifamily in Indiana Changes Hands - Missing: missing extracted numbers; missing market focus; missing market signal
+- 82 (Good): Sale and Financing Secured for Seattle’s Bell Ballard Apartment Community - Missing: missing extracted numbers; missing market signal
+- 82 (Good): Legacy Partners Brings 346 Luxury Apartments to Inland Empire Market with Mill House in Ontario California - Missing: missing extracted numbers; missing market signal
 
 ## Common Missing Context Issues
 
-- missing market signal: 18
-- missing extracted numbers: 11
-- missing market focus: 8
+- missing market signal: 22
+- missing extracted numbers: 16
+- missing market focus: 10

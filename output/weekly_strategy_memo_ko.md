@@ -1,21 +1,21 @@
 # 한국어 주간 전략 메모
 
-- 생성 시각: 2026-10-30 02:25:43
+- 생성 시각: 2026-10-31 02:02:59
 - 참고 원문 파일: `weekly_strategy_memo.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
 ## 주간 전략 요약
 
 주간 전략 메모 기준 핵심 신호 6건을 요약했습니다. 본 리포트는 유료 API 없이 규칙 기반으로 작성되며, 우미 / 우미글로벌의 미국 주거 개발 전략 관점에서 우선순위와 후속 조치를 빠르게 확인하기 위한 자료입니다.
-- 추천 포커스: Review Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi and related high-confidence project signals.
+- 추천 포커스: Review Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets and related high-confidence project signals.
 
 ## 시장 국면
 
 - Financing Stress: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention)
 - Selective Capital Re-entry: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention)
-- Supply Pressure: 기타 / 미확인, 아파트, 점수 100 (Tier 2 Strategic Review)
 - Policy / Entitlement Watch: 기타 / 미확인, 아파트, 점수 99 (Tier 2 Strategic Review)
-- Developer Strategy Shift: 기타 / 미확인, 아파트, 점수 98 (Tier 3 Monitoring)
+- Developer Strategy Shift: 기타 / 미확인, 아파트, 점수 98 (Tier 2 Strategic Review)
+- Supply Pressure: 기타 / 미확인, 아파트, 점수 95 (Tier 3 Monitoring)
 
 ## 자본시장 / GP 동향
 
@@ -26,9 +26,9 @@
 ## 지역 / 섹터 관찰
 
 - California: California, 일반 주거, 점수 85 (Active Watch Window; Actively source opportunities)
-- National / Other: 전국 / 기타, 일반 주거, 점수 67 (Selective Entry Window; Monitor refinancing and distress pipeline)
-- Florida: Florida, 일반 주거, 점수 49 (Monitor Only; Wait for better pricing evidence)
-- New York: New York, 일반 주거, 점수 42 (Monitor Only; Prepare GP conversations)
+- Sun Belt: Sun Belt, 일반 주거, 점수 75 (Selective Entry Window; Monitor refinancing and distress pipeline)
+- Seattle: Seattle, 일반 주거, 점수 65 (Selective Entry Window; Prepare GP conversations)
+- National / Other: 전국 / 기타, 일반 주거, 점수 64 (Early Signal / Prepare; Monitor refinancing and distress pipeline)
 - Los Angeles: Los Angeles, 일반 주거, 점수 34 (Monitor Only; Prepare GP conversations)
 
 ## 우미 전략 시사점

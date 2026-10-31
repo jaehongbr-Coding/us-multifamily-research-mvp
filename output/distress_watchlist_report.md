@@ -1,41 +1,39 @@
 # Distress Watchlist Report
 
-Generated: 2026-10-30 02:26:03
+Generated: 2026-10-31 02:03:25
 
-- Total distress signals: 15
+- Total distress signals: 13
 
 ## Top Distress Watch Items
 
-- construction loan gap in California: Construction Financing - California - Truist Provides $152M Construction Loan for Marina Shores Multifamily Project in Long Beac..., score 76. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- construction loan gap in California: Construction Financing - California - Northmarq Arranges $24M in Construction Financing for Student Housing Project Near UC Berk..., score 76. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - construction loan gap in California: Construction Financing - California - Affordable housing starts work at 400 Centinela Ave. in Inglewood, score 73. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - refinancing stress in Dallas / Texas: Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets, score 70. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
-- refinancing stress in Dallas / Texas: Refinancing - Dallas / Texas - Walker & Dunlop Arranges $117M Refinancing for Three Texas Multifamily Properties, score 69. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
-- construction loan gap in Los Angeles / California: Construction Financing - Los Angeles / California - PCCP Provides $130M Construction Loan for Newark Multifamily Project, score 68. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - construction loan gap in Atlanta / Georgia: Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community, score 67. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- construction loan gap in Sun Belt: Construction Financing - Sun Belt - CBRE Arranges $81M Construction Loan for Multifamily Development in Charlotte, score 67. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- refinancing stress in Los Angeles / California: Refinancing - Los Angeles / California - Greystone Refis Hollywood, Fla., Apartments With $109M Loan, score 67. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- refinancing stress in Los Angeles / California: Refinancing - Los Angeles / California - Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista, score 67. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - refinancing stress in Miami / Florida: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi, score 67. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
-- construction loan gap in Los Angeles / California: Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily, score 64. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- construction loan gap in New York City / New York: Construction Financing - New York City / New York - JLL Arranges $135M in Construction Financing for Yonkers Multifamily Project, score 64. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - construction loan gap in San Francisco / California: Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach, score 64. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
-- construction loan gap in Other / Unknown: Construction Financing - Other / Unknown - Bank OZK Leads $135M Financing for Yonkers Apartments Build, score 60. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 
 ## Refinancing Stress Watch
 
 - refinancing stress in Dallas / Texas: Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets, score 70. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
-- refinancing stress in Dallas / Texas: Refinancing - Dallas / Texas - Walker & Dunlop Arranges $117M Refinancing for Three Texas Multifamily Properties, score 69. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- refinancing stress in Los Angeles / California: Refinancing - Los Angeles / California - Greystone Refis Hollywood, Fla., Apartments With $109M Loan, score 67. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- refinancing stress in Los Angeles / California: Refinancing - Los Angeles / California - Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista, score 67. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - refinancing stress in Miami / Florida: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi, score 67. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
-- refinancing stress in Houston / Texas: Refinancing - Houston / Texas - Newmark Arranges Refinancing of Multifamily Property Citadel Apartments in Houston, score 56. Monitor for repeated distress signals.
 - refinancing stress in Other / Unknown: Refinancing - Other / Unknown - Lightstone Capital Provides $29.5M Loan for Orange, N.J., Multifamily Development, score 56. Monitor for repeated distress signals.
 
 ## Construction Financing Gap Watch
 
-- construction loan gap in California: Construction Financing - California - Truist Provides $152M Construction Loan for Marina Shores Multifamily Project in Long Beac..., score 76. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- construction loan gap in California: Construction Financing - California - Northmarq Arranges $24M in Construction Financing for Student Housing Project Near UC Berk..., score 76. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - construction loan gap in California: Construction Financing - California - Affordable housing starts work at 400 Centinela Ave. in Inglewood, score 73. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
-- construction loan gap in Los Angeles / California: Construction Financing - Los Angeles / California - PCCP Provides $130M Construction Loan for Newark Multifamily Project, score 68. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - construction loan gap in Atlanta / Georgia: Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community, score 67. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
-- construction loan gap in Los Angeles / California: Construction Financing - Los Angeles / California - Truist Closes Construction Loan for Long Beach Multifamily, score 64. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- construction loan gap in Sun Belt: Construction Financing - Sun Belt - CBRE Arranges $81M Construction Loan for Multifamily Development in Charlotte, score 67. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- construction loan gap in New York City / New York: Construction Financing - New York City / New York - JLL Arranges $135M in Construction Financing for Yonkers Multifamily Project, score 64. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - construction loan gap in San Francisco / California: Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach, score 64. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
-- construction loan gap in Other / Unknown: Construction Financing - Other / Unknown - Bank OZK Leads $135M Financing for Yonkers Apartments Build, score 60. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
-- construction loan gap in San Francisco / California: Construction Financing - San Francisco / California - Northmarq Arranges $24M Construction Financing for a 49-Unit 166-Bed Student Housing Commu..., score 59. Monitor for repeated distress signals.
-- construction loan gap in Other / Unknown: Construction Financing - Other / Unknown - PCCP Provides a $130M Senior Loan for the Construction of 501-Unit Multifamily Project wit..., score 57. Monitor for repeated distress signals.
+- construction loan gap in Austin / Texas: Construction Financing - Austin / Texas - ARCTRUST and Edison Equity Residential Break Ground on Luxury Age-Restricted Multifamily C..., score 60. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 
 ## Stalled Project Watch
 
@@ -57,14 +55,14 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Market Concentration of Distress Signals
 
-- Other / Unknown: 3 distress signal(s)
 - California: 2 distress signal(s)
-- Dallas / Texas: 2 distress signal(s)
-- Los Angeles / California: 2 distress signal(s)
 - Atlanta / Georgia: 2 distress signal(s)
-- San Francisco / California: 2 distress signal(s)
+- Los Angeles / California: 2 distress signal(s)
+- Dallas / Texas: 1 distress signal(s)
+- Sun Belt: 1 distress signal(s)
 - Miami / Florida: 1 distress signal(s)
-- Houston / Texas: 1 distress signal(s)
+- New York City / New York: 1 distress signal(s)
+- San Francisco / California: 1 distress signal(s)
 
 ## Implications for Woomi / Woomi Global
 
@@ -75,16 +73,16 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 - Track debt maturity, lender exposure, sponsor stress, and recapitalization options: construction loan gap in California.
 - Track debt maturity, lender exposure, sponsor stress, and recapitalization options: construction loan gap in California.
 - Track debt maturity, lender exposure, sponsor stress, and recapitalization options: refinancing stress in Dallas / Texas.
-- Track debt maturity, lender exposure, sponsor stress, and recapitalization options: refinancing stress in Dallas / Texas.
-- Track debt maturity, lender exposure, sponsor stress, and recapitalization options: construction loan gap in Los Angeles / California.
+- Track debt maturity, lender exposure, sponsor stress, and recapitalization options: construction loan gap in Atlanta / Georgia.
+- Track debt maturity, lender exposure, sponsor stress, and recapitalization options: construction loan gap in Sun Belt.
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 83
-- LA lifecycle watch items: 56
-- Stage mix: Refinancing / Recapitalization: 10, Unknown Stage: 49, Delivery / Opening: 6, Site Acquisition / Site Control: 10, Vertical Construction: 2
+- Lifecycle records: 92
+- LA lifecycle watch items: 57
+- Stage mix: Refinancing / Recapitalization: 7, Delivery / Opening: 9, Unknown Stage: 56, Site Acquisition / Site Control: 12, Vertical Construction: 3
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -92,11 +90,11 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 83
-- Newly detected projects: 40
+- Lifecycle transitions analyzed: 92
+- Newly detected projects: 43
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 55
+- LA lifecycle transition watch items: 56
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -104,11 +102,11 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 677
-- Canonical projects: 167
-- Duplicate project clusters: 104
-- Persistent assets tracked: 167
-- LA persistent asset watch items: 118
+- Raw project references: 739
+- Canonical projects: 178
+- Duplicate project clusters: 117
+- Persistent assets tracked: 178
+- LA persistent asset watch items: 122
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -116,10 +114,10 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 167
-- Institutional-grade signals: 15
-- High-confidence signals: 39
-- Weak/noisy signals: 107
-- High-confidence watchlist items: 39
+- Signals evaluated: 178
+- Institutional-grade signals: 21
+- High-confidence signals: 45
+- Weak/noisy signals: 100
+- High-confidence watchlist items: 45
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

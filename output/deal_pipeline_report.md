@@ -1,9 +1,9 @@
 # Deal & Project Pipeline Report
 
-Generated: 2026-10-31 02:03:10
+Generated: 2026-11-01 01:54:39
 
-- Total deal/project signals found: 61
-- High deal intelligence count: 13
+- Total deal/project signals found: 62
+- High deal intelligence count: 12
 
 ## Top 10 Deal / Project Signals
 
@@ -27,9 +27,9 @@ Generated: 2026-10-31 02:03:10
 - Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: Disposition / Exit, California, score 79. Entitlement / zoning watch.
 - Acquisition - California - CBRE Brokers $18.3M Sale of Five Retail Properties in Eastvale, California: Acquisition, California, score 77. Pricing benchmark.
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Disposition / Exit, California, score 77. Entitlement / zoning watch.
+- Disposition / Exit - California - Walker & Dunlop Affordable Investment Sales Offers 100% Affordable Multifamily Community i...: Disposition / Exit, California, score 75. Entitlement / zoning watch.
+- Disposition / Exit - Los Angeles / California - Marcus & Millichap Arranges Sale of Vintage Multifamily Property in Los Angeles: Disposition / Exit, Los Angeles / California, score 73. Capital market signal.
 - Acquisition - California - Roxborough Makes Second NorCal Apartment Buy Through Latest Fund: Acquisition, California, score 70. Pricing benchmark.
-- Entitlement / Permitting - Los Angeles / California - 12 homes pitched for 2315 S. Oakwood Ave. in Venice: Entitlement / Permitting, Los Angeles / California, score 65. Entitlement / zoning watch.
-- Entitlement / Permitting - California - Affordable housing underway at 5403 S. Inglewood Blvd. in Del Rey: Entitlement / Permitting, California, score 63. Entitlement / zoning watch.
 
 ## GP / Developer Activity
 
@@ -42,7 +42,7 @@ Generated: 2026-10-31 02:03:10
 - Refinancing - Los Angeles / California - Greystone Refis Hollywood, Fla., Apartments With $109M Loan: Refinancing, Los Angeles / California, score 85. Capital market signal.
 - Refinancing - Los Angeles / California - Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista: Refinancing, Los Angeles / California, score 85. Capital market signal.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing, Miami / Florida, score 85. Capital market signal.
-- BTR / Build-to-Rent - Sun Belt - Berkadia Arranges $65.5M Bridge Finance for 232-Unit Build-to-Rent Townhome Community in G...: BTR / Build-to-Rent, Sun Belt, score 81. Capital market signal.
+- Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: Disposition / Exit, California, score 79. Entitlement / zoning watch.
 
 ## Financing / Refinancing Signals
 
@@ -67,13 +67,13 @@ Generated: 2026-10-31 02:03:10
 - Entitlement / Permitting - Santa Monica / California - Fresh renderings for Tishman Speyer projects in Downtown Santa Monica: Entitlement / Permitting, Santa Monica / California, score 77. Entitlement / zoning watch.
 - Modular / Construction Innovation - Los Angeles / California - Modular affordable housing takes shape at 4301 S. Vermont Ave.: Modular / Construction Innovation, Los Angeles / California, score 71. Capital market signal.
 - Development Start - Austin / Texas - ARCTRUST, Edison Equity Teaming Up on 175-Unit Austin-Area 55+ Community: Development Start, Austin / Texas, score 70. Pipeline / supply signal.
-- Entitlement / Permitting - Los Angeles / California - 12 homes pitched for 2315 S. Oakwood Ave. in Venice: Entitlement / Permitting, Los Angeles / California, score 65. Entitlement / zoning watch.
 - Entitlement / Permitting - Los Angeles / California - 25 apartments completed at 11013 Hartsook St. in North Hollywood: Entitlement / Permitting, Los Angeles / California, score 65. Entitlement / zoning watch.
+- Entitlement / Permitting - California - Affordable housing underway at 5403 S. Inglewood Blvd. in Del Rey: Entitlement / Permitting, California, score 63. Entitlement / zoning watch.
 
 ## BTR / Modular / Innovation Signals
 
-- BTR / Build-to-Rent - Sun Belt - Berkadia Arranges $65.5M Bridge Finance for 232-Unit Build-to-Rent Townhome Community in G...: BTR / Build-to-Rent, Sun Belt, score 81. Capital market signal.
 - Modular / Construction Innovation - Los Angeles / California - Modular affordable housing takes shape at 4301 S. Vermont Ave.: Modular / Construction Innovation, Los Angeles / California, score 71. Capital market signal.
+- Modular / Construction Innovation - California - Modular Apartment Complex Proposed for 3070 Brook Street, Oakland: Modular / Construction Innovation, California, score 58. Entitlement / zoning watch.
 - Operational / Property Management Tech - Other / Unknown - AI, Automation & the Future of Multifamily Finance: Operational / Property Management Tech, Other / Unknown, score 24. Monitor only.
 
 ## Pricing / Cap Rate / Valuation Signals
@@ -88,13 +88,12 @@ Generated: 2026-10-31 02:03:10
 
 ## Deal / Project Signals By Residential Sector
 
-- Apartment: 34 deal/project signal(s)
-- Affordable Housing: 11 deal/project signal(s)
-- Multifamily: 8 deal/project signal(s)
-- Student Housing: 2 deal/project signal(s)
+- Apartment: 32 deal/project signal(s)
+- Affordable Housing: 12 deal/project signal(s)
+- Multifamily: 9 deal/project signal(s)
+- Student Housing: 3 deal/project signal(s)
+- General Residential: 2 deal/project signal(s)
 - Mixed-Use Residential: 2 deal/project signal(s)
-- BTR / Single-Family Rental: 1 deal/project signal(s)
-- General Residential: 1 deal/project signal(s)
 - Senior Housing: 1 deal/project signal(s)
 - Office-to-Residential Conversion: 1 deal/project signal(s)
 
@@ -108,10 +107,10 @@ Use those reports to separate repeated coverage from genuinely separate events.
 
 Developer, lender, capital partner, market, and deal edges are available in `relationship_graph_report.md`.
 - Greystar -> walker & dunlop: Financing Relationship, score 100.
+- Walker & Dunlop -> walker & dunlop: Financing Relationship, score 96.
 - Greystar -> Dallas: Financing Relationship, score 95.
 - Greystar -> Dallas / Texas: Financing Relationship, score 95.
 - Greystar -> Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Financing Relationship, score 95.
-- Equity Residential -> equity residential: Financing Relationship, score 94.
 
 ## Implications for Woomi / Woomi Global
 

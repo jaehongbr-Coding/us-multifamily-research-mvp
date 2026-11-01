@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-10-31 02:03:28
+Generated: 2026-11-01 01:55:09
 
-- Total raw project references: 739
-- Total canonical projects: 178
-- Duplicate project clusters: 117
-- High-confidence project identities: 739
+- Total raw project references: 749
+- Total canonical projects: 179
+- Duplicate project clusters: 120
+- High-confidence project identities: 749
 - Low-confidence identities needing review: 0
-- LA / California project references: 488
+- LA / California project references: 512
 
 ## Top Repeated Projects
 
-- Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters: 56 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters: 56 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters: 56 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters: 56 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters: 56 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters: 56 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters: 56 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters: 56 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters: 56 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters: 56 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters: 53 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters: 53 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters: 53 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters: 53 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters: 53 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters: 53 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters: 53 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters: 53 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters: 53 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters: 53 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

@@ -1,32 +1,32 @@
 # LLM Prompt Quality Report
 
-Generated: 2026-10-31 02:03:09
+Generated: 2026-11-01 01:54:38
 
-- Total prompts reviewed: 54
-- Average prompt quality score: 90.9
-- Excellent prompts: 36
-- Good prompts: 18
+- Total prompts reviewed: 56
+- Average prompt quality score: 91.6
+- Excellent prompts: 39
+- Good prompts: 17
 - Needs Improvement prompts: 0
 - Poor prompts: 0
 
 ## Top 5 Strongest Prompts
 
-- 98 (Excellent): Greystone Refis Hollywood, Fla., Apartments With $109M Loan
-- 98 (Excellent): Thorofare Capital Provides $16.5M Acquisition Loan for Houston Multifamily Property
-- 98 (Excellent): CBRE Brokers $18.3M Sale of Five Retail Properties in Eastvale, California
+- 98 (Excellent): PCCP and Cityview Joint Venture Recapitalizes Apartment Community in Filipinotown Neighborhood of Los Angeles
+- 98 (Excellent): Roxborough Makes Second NorCal Apartment Buy Through Latest Fund
+- 98 (Excellent): JLL Arranges Bridge Financing for 1184-Unit Multifamily Portfolio in Coveted Highlands Ranch Master-Planned Community
 - 98 (Excellent): HSL Purchases 180-Unit Tucson Rental Community
-- 98 (Excellent): Toro Development Opens $560M Medley Mixed-Use Destination in Johns Creek, Georgia
+- 98 (Excellent): Walker & Dunlop Affordable Investment Sales Offers 100% Affordable Multifamily Community in Firebaugh California
 
 ## Top 5 Weakest Prompts
 
 - 74 (Good): 80-Unit Seniors Housing Development Opens in Suburban Chicago - Missing: missing extracted numbers; missing market focus; missing market signal
 - 74 (Good): Leyden Township Opens 80 New Affordable Senior Apartments - Missing: missing extracted numbers; missing market focus; missing market signal
 - 74 (Good): 312-Unit Multifamily in Indiana Changes Hands - Missing: missing extracted numbers; missing market focus; missing market signal
-- 82 (Good): Sale and Financing Secured for Seattle’s Bell Ballard Apartment Community - Missing: missing extracted numbers; missing market signal
-- 82 (Good): Legacy Partners Brings 346 Luxury Apartments to Inland Empire Market with Mill House in Ontario California - Missing: missing extracted numbers; missing market signal
+- 82 (Good): Legacy Partners Begins Leasing at Ontario Apartments - Missing: missing extracted numbers; missing market signal
+- 82 (Good): ARCTRUST, Edison Equity Teaming Up on 175-Unit Austin-Area 55+ Community - Missing: missing extracted numbers; missing market signal
 
 ## Common Missing Context Issues
 
-- missing market signal: 22
+- missing market signal: 20
 - missing extracted numbers: 16
-- missing market focus: 10
+- missing market focus: 9

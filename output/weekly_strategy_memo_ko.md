@@ -1,6 +1,6 @@
 # 한국어 주간 전략 메모
 
-- 생성 시각: 2026-10-31 02:02:59
+- 생성 시각: 2026-11-01 01:54:31
 - 참고 원문 파일: `weekly_strategy_memo.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -13,9 +13,9 @@
 
 - Financing Stress: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention)
 - Selective Capital Re-entry: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention)
+- Supply Pressure: 기타 / 미확인, 아파트, 점수 100 (Tier 2 Strategic Review)
 - Policy / Entitlement Watch: 기타 / 미확인, 아파트, 점수 99 (Tier 2 Strategic Review)
-- Developer Strategy Shift: 기타 / 미확인, 아파트, 점수 98 (Tier 2 Strategic Review)
-- Supply Pressure: 기타 / 미확인, 아파트, 점수 95 (Tier 3 Monitoring)
+- Developer Strategy Shift: 기타 / 미확인, 아파트, 점수 98 (Tier 3 Monitoring)
 
 ## 자본시장 / GP 동향
 
@@ -26,10 +26,10 @@
 ## 지역 / 섹터 관찰
 
 - California: California, 일반 주거, 점수 85 (Active Watch Window; Actively source opportunities)
-- Sun Belt: Sun Belt, 일반 주거, 점수 75 (Selective Entry Window; Monitor refinancing and distress pipeline)
-- Seattle: Seattle, 일반 주거, 점수 65 (Selective Entry Window; Prepare GP conversations)
+- Sun Belt: Sun Belt, 일반 주거, 점수 71 (Selective Entry Window; Monitor refinancing and distress pipeline)
 - National / Other: 전국 / 기타, 일반 주거, 점수 64 (Early Signal / Prepare; Monitor refinancing and distress pipeline)
-- Los Angeles: Los Angeles, 일반 주거, 점수 34 (Monitor Only; Prepare GP conversations)
+- Florida: Florida, 일반 주거, 점수 60 (Early Signal / Prepare; Monitor refinancing and distress pipeline)
+- Seattle: Seattle, 일반 주거, 점수 39 (Monitor Only; Prepare GP conversations)
 
 ## 우미 전략 시사점
 

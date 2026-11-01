@@ -27,11 +27,11 @@ Limited articles are retained only as conservative title/lead-based evidence. Li
 - 390 apartments underway at 6615 PCH in Long Beach | Urbanize LA | Development Activity | unknown confidence
 - Modular affordable housing takes shape at 4301 S. Vermont Ave. | Urbanize LA | Development Activity | unknown confidence
 - Affordable housing starts work at 400 Centinela Ave. in Inglewood | Urbanize LA | Development Activity | unknown confidence
-- 12 homes pitched for 2315 S. Oakwood Ave. in Venice | Urbanize LA | Development Activity | unknown confidence
 - Construction Starts For 39340 Fremont Boulevard, Fremont | SF YIMBY | Development Activity | unknown confidence
+- Modular Apartment Complex Proposed for 3070 Brook Street, Oakland | SF YIMBY | Development Activity | unknown confidence
 - Voorhees Greenlights 178-Unit Office-To-Resi Conversion Amid Multifamily Boom | Bisnow | Development Activity | unknown confidence
 - 45-Story Tower Proposed For 325 Fremont Street, SoMa, San Francisco | SF YIMBY | Development Activity | unknown confidence
-- Renderings Revealed For 3350 West Bayshore Road, Palo Alto | SF YIMBY | Development Activity | unknown confidence
+- L.A. City Council approves Arts District towers at 2143 E. Violet St. | Urbanize LA | Development Activity | unknown confidence
 
 ## Notes
 - `limited_or_paywall` is an access status, not an article identity failure.

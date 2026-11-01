@@ -1,6 +1,6 @@
 # LA / California Entitlement Watch Report
 
-Generated: 2026-10-31 02:03:25
+Generated: 2026-11-01 01:55:04
 
 - Total LA / California entitlement watch items: 11
 
@@ -14,8 +14,8 @@ Generated: 2026-10-31 02:03:25
 - California: Entitlement Approval, Unknown Stage, score 45. Watch affordable housing requirement.
 - Santa Monica: Entitlement Approval, Unknown Stage, score 35. Monitor local sponsor activity.
 - Los Angeles: Planning Approval, Under Review, score 30. Monitor local sponsor activity.
-- Los Angeles: Entitlement Approval, Unknown Stage, score 30. Track entitlement precedent.
 - Los Angeles / California: Entitlement Approval, Unknown Stage, score 30. Track entitlement precedent.
+- San Francisco: Entitlement Approval, Early Planning, score 30. Track entitlement precedent.
 
 ## Top LA / California Entitlement Risks
 
@@ -25,8 +25,8 @@ Generated: 2026-10-31 02:03:25
 - California: Entitlement Approval, Approved / Entitled, score 30. Watch affordable housing requirement.
 - Santa Monica: Entitlement Approval, Unknown Stage, score 28. Monitor local sponsor activity.
 - Los Angeles: Planning Approval, Under Review, score 28. Monitor local sponsor activity.
-- Los Angeles: Entitlement Approval, Unknown Stage, score 28. Track entitlement precedent.
 - Los Angeles / California: Entitlement Approval, Unknown Stage, score 28. Track entitlement precedent.
+- Los Angeles: Entitlement Approval, Unknown Stage, score 28. Track entitlement precedent.
 - Dallas: Entitlement Approval, Approved / Entitled, score 20. Benchmark permitting timeline.
 - Los Angeles: Density Bonus / TOC, Early Planning, score 20. Monitor density bonus use.
 
@@ -51,8 +51,8 @@ Generated: 2026-10-31 02:03:25
 - Los Angeles: Density Bonus / TOC, Early Planning, score 47. Monitor density bonus use.
 - Santa Monica: Entitlement Approval, Unknown Stage, score 44. Monitor local sponsor activity.
 - Los Angeles: Planning Approval, Under Review, score 42. Monitor local sponsor activity.
-- Los Angeles: Entitlement Approval, Unknown Stage, score 42. Track entitlement precedent.
 - Los Angeles / California: Entitlement Approval, Unknown Stage, score 42. Track entitlement precedent.
+- San Francisco: Entitlement Approval, Early Planning, score 40. Track entitlement precedent.
 
 ## Office-to-Residential Watch
 
@@ -85,7 +85,7 @@ Submarket-level site strategy detail is available in `submarket_intelligence_rep
 ## Development Lifecycle Intelligence Summary
 
 - Lifecycle records: 92
-- LA lifecycle watch items: 57
-- Stage mix: Refinancing / Recapitalization: 7, Delivery / Opening: 9, Unknown Stage: 56, Site Acquisition / Site Control: 12, Vertical Construction: 3
+- LA lifecycle watch items: 58
+- Stage mix: Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 10, Delivery / Opening: 7, Unknown Stage: 56, Vertical Construction: 3
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

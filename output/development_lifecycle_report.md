@@ -1,18 +1,19 @@
 # Development Lifecycle Report
 
-Generated: 2026-10-31 02:03:28
+Generated: 2026-11-01 01:55:09
 
 - Total lifecycle records: 92
 
 ## Lifecycle Stage Distribution
 
 - Unknown Stage: 56
-- Site Acquisition / Site Control: 12
-- Delivery / Opening: 9
-- Refinancing / Recapitalization: 7
+- Refinancing / Recapitalization: 10
+- Site Acquisition / Site Control: 10
+- Delivery / Opening: 7
 - Vertical Construction: 3
 - Early Site Signal: 3
 - Entitlement Under Review: 1
+- Construction Started: 1
 - Distressed / Stalled: 1
 
 ## Top Development Timing Opportunities
@@ -22,11 +23,11 @@ Generated: 2026-10-31 02:03:28
 - Refinancing - Los Angeles / California - Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista: Refinancing / Recapitalization, Los Angeles, lifecycle_opportunity_score 100.
 - Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community: Refinancing / Recapitalization, Atlanta, lifecycle_opportunity_score 100.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization, South Florida, lifecycle_opportunity_score 100.
+- Recapitalization - Los Angeles / California - PCCP and Cityview Joint Venture Recapitalizes Apartment Community in Filipinotown Neighbor...: Refinancing / Recapitalization, Los Angeles, lifecycle_opportunity_score 100.
+- PCCP and Cityview Joint Venture Recapitalizes Apartment Community in Filipinotown Neighborhood of Los Angeles: Refinancing / Recapitalization, Unknown, lifecycle_opportunity_score 100.
+- General Project Signal - Denver / Colorado - JLL Arranges Bridge Financing for 1184-Unit Multifamily Portfolio in Coveted Highlands Ran...: Site Acquisition / Site Control, Denver, lifecycle_opportunity_score 100.
 - CBRE Arranges $81M Construction Loan for Multifamily Development in Charlotte: Delivery / Opening, Charlotte, lifecycle_opportunity_score 100.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Unknown Stage, Atlanta, lifecycle_opportunity_score 100.
-- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening, California, lifecycle_opportunity_score 100.
-- Acquisition - Seattle - Sale and Financing Secured for Seattle’s Bell Ballard Apartment Community: Delivery / Opening, Seattle, lifecycle_opportunity_score 100.
-- BTR / Build-to-Rent - Sun Belt - Berkadia Arranges $65.5M Bridge Finance for 232-Unit Build-to-Rent Townhome Community in G...: Site Acquisition / Site Control, Orlando, lifecycle_opportunity_score 100.
 
 ## Top Lifecycle Risks
 
@@ -50,13 +51,12 @@ Generated: 2026-10-31 02:03:28
 - Development Start - Austin / Texas - ARCTRUST, Edison Equity Teaming Up on 175-Unit Austin-Area 55+ Community: Vertical Construction, Austin, lifecycle_opportunity_score 92.
 - Modular / Construction Innovation - Los Angeles / California - Modular affordable housing takes shape at 4301 S. Vermont Ave.: Vertical Construction, Los Angeles / California, lifecycle_opportunity_score 88.
 - Modular affordable housing takes shape at 4301 S. Vermont Ave.: Vertical Construction, Los Angeles, lifecycle_opportunity_score 83.
+- Construction Financing - Florida - 908 Group Celebrates Groundbreaking of New 684-Bed Student Housing Community Near Universi...: Construction Started, Florida, lifecycle_opportunity_score 64.
 
 ## Delivery / Lease-Up Signals
 
 - CBRE Arranges $81M Construction Loan for Multifamily Development in Charlotte: Delivery / Opening, Charlotte, lifecycle_opportunity_score 100.
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening, California, lifecycle_opportunity_score 100.
-- Acquisition - Seattle - Sale and Financing Secured for Seattle’s Bell Ballard Apartment Community: Delivery / Opening, Seattle, lifecycle_opportunity_score 100.
-- Sale and Financing Secured for Seattle’s Bell Ballard Apartment Community: Delivery / Opening, Seattle, lifecycle_opportunity_score 87.
 - Lightstone Capital Provides $29.5M Loan for Orange, N.J., Multifamily Development: Delivery / Opening, Unknown, lifecycle_opportunity_score 83.
 - 25 apartments completed at 11013 Hartsook St. in North Hollywood: Delivery / Opening, Hollywood, lifecycle_opportunity_score 83.
 - Entitlement / Permitting - Los Angeles / California - 25 apartments completed at 11013 Hartsook St. in North Hollywood: Delivery / Opening, Los Angeles / California, lifecycle_opportunity_score 82.
@@ -76,6 +76,9 @@ Generated: 2026-10-31 02:03:28
 - Construction Financing - Sun Belt - CBRE Arranges $81M Construction Loan for Multifamily Development in Charlotte: Refinancing / Recapitalization, Charlotte, lifecycle_risk_score 52.
 - Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community: Refinancing / Recapitalization, Atlanta, lifecycle_risk_score 49.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 49.
+- 908 Group Celebrates Groundbreaking of New 684-Bed Student Housing Community Near University of Florida: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 49.
+- Recapitalization - Los Angeles / California - PCCP and Cityview Joint Venture Recapitalizes Apartment Community in Filipinotown Neighbor...: Refinancing / Recapitalization, Los Angeles, lifecycle_risk_score 48.
+- PCCP and Cityview Joint Venture Recapitalizes Apartment Community in Filipinotown Neighborhood of Los Angeles: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 41.
 
 ## Implications for Woomi / Woomi Global
 
@@ -89,19 +92,19 @@ Generated: 2026-10-31 02:03:28
 - Track lender, maturity, debt terms, and recapitalization need: Refinancing - Los Angeles / California - Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista.
 - Track lender, maturity, debt terms, and recapitalization need: Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community.
 - Track lender, maturity, debt terms, and recapitalization need: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
-- Benchmark delivery, lease-up, occupancy, and rent assumptions: CBRE Arranges $81M Construction Loan for Multifamily Development in Charlotte.
-- Monitor lifecycle signal for repeated confirmation: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
-- Benchmark delivery, lease-up, occupancy, and rent assumptions: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
+- Track lender, maturity, debt terms, and recapitalization need: Recapitalization - Los Angeles / California - PCCP and Cityview Joint Venture Recapitalizes Apartment Community in Filipinotown Neighbor....
+- Track lender, maturity, debt terms, and recapitalization need: PCCP and Cityview Joint Venture Recapitalizes Apartment Community in Filipinotown Neighborhood of Los Angeles.
+- Monitor lifecycle signal for repeated confirmation: General Project Signal - Denver / Colorado - JLL Arranges Bridge Financing for 1184-Unit Multifamily Portfolio in Coveted Highlands Ran....
 
 
 
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 92
-- Newly detected projects: 43
+- Newly detected projects: 13
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 56
+- LA lifecycle transition watch items: 57
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -109,11 +112,11 @@ Generated: 2026-10-31 02:03:28
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 739
-- Canonical projects: 178
-- Duplicate project clusters: 117
-- Persistent assets tracked: 178
-- LA persistent asset watch items: 122
+- Raw project references: 749
+- Canonical projects: 179
+- Duplicate project clusters: 120
+- Persistent assets tracked: 179
+- LA persistent asset watch items: 126
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -121,10 +124,10 @@ Generated: 2026-10-31 02:03:28
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 178
-- Institutional-grade signals: 21
-- High-confidence signals: 45
-- Weak/noisy signals: 100
-- High-confidence watchlist items: 45
+- Signals evaluated: 179
+- Institutional-grade signals: 24
+- High-confidence signals: 49
+- Weak/noisy signals: 98
+- High-confidence watchlist items: 49
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

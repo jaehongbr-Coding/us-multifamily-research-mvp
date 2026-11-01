@@ -1,8 +1,8 @@
 # Distress Watchlist Report
 
-Generated: 2026-10-31 02:03:25
+Generated: 2026-11-01 01:55:04
 
-- Total distress signals: 13
+- Total distress signals: 15
 
 ## Top Distress Watch Items
 
@@ -34,6 +34,7 @@ Generated: 2026-10-31 02:03:25
 - construction loan gap in New York City / New York: Construction Financing - New York City / New York - JLL Arranges $135M in Construction Financing for Yonkers Multifamily Project, score 64. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - construction loan gap in San Francisco / California: Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach, score 64. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - construction loan gap in Austin / Texas: Construction Financing - Austin / Texas - ARCTRUST and Edison Equity Residential Break Ground on Luxury Age-Restricted Multifamily C..., score 60. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- construction loan gap in Florida: Construction Financing - Florida - 908 Group Celebrates Groundbreaking of New 684-Bed Student Housing Community Near Universi..., score 50. Monitor for repeated distress signals.
 
 ## Stalled Project Watch
 
@@ -55,9 +56,9 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Market Concentration of Distress Signals
 
+- Los Angeles / California: 3 distress signal(s)
 - California: 2 distress signal(s)
 - Atlanta / Georgia: 2 distress signal(s)
-- Los Angeles / California: 2 distress signal(s)
 - Dallas / Texas: 1 distress signal(s)
 - Sun Belt: 1 distress signal(s)
 - Miami / Florida: 1 distress signal(s)
@@ -81,8 +82,8 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 ## Development Lifecycle Intelligence Summary
 
 - Lifecycle records: 92
-- LA lifecycle watch items: 57
-- Stage mix: Refinancing / Recapitalization: 7, Delivery / Opening: 9, Unknown Stage: 56, Site Acquisition / Site Control: 12, Vertical Construction: 3
+- LA lifecycle watch items: 58
+- Stage mix: Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 10, Delivery / Opening: 7, Unknown Stage: 56, Vertical Construction: 3
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -91,10 +92,10 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 92
-- Newly detected projects: 43
+- Newly detected projects: 13
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 56
+- LA lifecycle transition watch items: 57
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -102,11 +103,11 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 739
-- Canonical projects: 178
-- Duplicate project clusters: 117
-- Persistent assets tracked: 178
-- LA persistent asset watch items: 122
+- Raw project references: 749
+- Canonical projects: 179
+- Duplicate project clusters: 120
+- Persistent assets tracked: 179
+- LA persistent asset watch items: 126
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -114,10 +115,10 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 178
-- Institutional-grade signals: 21
-- High-confidence signals: 45
-- Weak/noisy signals: 100
-- High-confidence watchlist items: 45
+- Signals evaluated: 179
+- Institutional-grade signals: 24
+- High-confidence signals: 49
+- Weak/noisy signals: 98
+- High-confidence watchlist items: 49
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

@@ -1,8 +1,8 @@
 # LA Lifecycle Transition Watch Report
 
-Generated: 2026-10-31 02:03:28
+Generated: 2026-11-01 01:55:09
 
-- Total LA lifecycle transition watch items: 56
+- Total LA lifecycle transition watch items: 57
 
 ## LA Projects Moving Forward
 
@@ -21,18 +21,18 @@ Generated: 2026-10-31 02:03:28
 
 - Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 - Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Refinancing - Los Angeles / California - Greystone Refis Hollywood, Fla., Apartments With $109M Loan: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Refinancing - Los Angeles / California - Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Refinancing - Los Angeles / California - Greystone Refis Hollywood, Fla., Apartments With $109M Loan: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Refinancing - Los Angeles / California - Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Recapitalization - Los Angeles / California - PCCP and Cityview Joint Venture Recapitalizes Apartment Community in Filipinotown Neighbor...: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- PCCP and Cityview Joint Venture Recapitalizes Apartment Community in Filipinotown Neighborhood of Los Angeles: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 
 ## LA Delivery / Lease-Up Benchmarks
 
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
 - Entitlement / Permitting - Los Angeles / California - 25 apartments completed at 11013 Hartsook St. in North Hollywood: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
 - 25 apartments completed at 11013 Hartsook St. in North Hollywood: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
-- Acquisition - Seattle - Sale and Financing Secured for Seattle’s Bell Ballard Apartment Community: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
-- Sale and Financing Secured for Seattle’s Bell Ballard Apartment Community: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
-- Disposition / Exit - Atlanta / Georgia - Toro Development Opens $560M Medley Mixed-Use Destination in Johns Creek, Georgia: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- Disposition / Exit - Atlanta / Georgia - Toro Development Opens $560M Medley Mixed-Use Destination in Johns Creek, Georgia: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
 
 ## Recommended LA Transition Follow-up Actions
 
@@ -41,18 +41,18 @@ Generated: 2026-10-31 02:03:28
 - Use as delivery, lease-up, and underwriting benchmark: Entitlement / Permitting - Los Angeles / California - 25 apartments completed at 11013 Hartsook St. in North Hollywood.
 - Monitor for another run to confirm lifecycle direction: Modular affordable housing takes shape at 4301 S. Vermont Ave..
 - Use as delivery, lease-up, and underwriting benchmark: 25 apartments completed at 11013 Hartsook St. in North Hollywood.
-- Use as delivery, lease-up, and underwriting benchmark: Acquisition - Seattle - Sale and Financing Secured for Seattle’s Bell Ballard Apartment Community.
-- Use as delivery, lease-up, and underwriting benchmark: Sale and Financing Secured for Seattle’s Bell Ballard Apartment Community.
 - Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - Atlanta / Georgia - Toro Development Opens $560M Medley Mixed-Use Destination in Johns Creek, Georgia.
+- Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community.
+- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 739
-- Canonical projects: 178
-- Duplicate project clusters: 117
-- Persistent assets tracked: 178
-- LA persistent asset watch items: 122
+- Raw project references: 749
+- Canonical projects: 179
+- Duplicate project clusters: 120
+- Persistent assets tracked: 179
+- LA persistent asset watch items: 126
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

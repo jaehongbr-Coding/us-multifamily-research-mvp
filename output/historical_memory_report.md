@@ -1,79 +1,79 @@
 # Historical Memory Report
 
-Generated: 2026-10-31 02:03:10
+Generated: 2026-11-01 01:54:40
 
-- Memory rows tracked: 12304
-- Fastest-rising GP: IPA
+- Memory rows tracked: 12336
+- Fastest-rising GP: Marcus & Millichap
 - Strongest recurring lender: JLL
 
 ## Fastest-Rising GP
 
-- IPA (GP / Developer): Accelerating, 2 observation(s), importance 59.
+- Marcus & Millichap (GP / Developer): Persistent, 24 observation(s), importance 75.
 
 ## Strongest Recurring Lender
 
-- JLL (Lender / Debt Provider): Fading, 27 observation(s), importance 83.
-- Freddie Mac (Lender / Debt Provider): Fading, 6 observation(s), importance 79.
+- JLL (Lender / Debt Provider): Fading, 27 observation(s), importance 82.
+- Freddie Mac (Lender / Debt Provider): Fading, 6 observation(s), importance 78.
+- northmarq (Lender / Debt Provider): Emerging, 2 observation(s), importance 77.
+- Fannie Mae (Lender / Debt Provider): Emerging, 2 observation(s), importance 77.
+- Freddie Mac (Lender / Debt Provider): Emerging, 2 observation(s), importance 77.
 - JLL (Lender / Debt Provider): Dormant, 65 observation(s), importance 76.
-- northmarq (Lender / Debt Provider): Fading, 6 observation(s), importance 76.
-- northmarq (Lender / Debt Provider): Fading, 5 observation(s), importance 76.
-- northmarq (Lender / Debt Provider): Emerging, 1 observation(s), importance 76.
-- CBRE (Lender / Debt Provider): Persistent, 12 observation(s), importance 75.
-- Fannie Mae (Lender / Debt Provider): Emerging, 1 observation(s), importance 75.
-- Freddie Mac (Lender / Debt Provider): Emerging, 1 observation(s), importance 75.
-- JLL (Lender / Debt Provider): Persistent, 12 observation(s), importance 74.
+- CBRE (Lender / Debt Provider): Persistent, 13 observation(s), importance 75.
+- northmarq (Lender / Debt Provider): Fading, 6 observation(s), importance 75.
+- JLL (Lender / Debt Provider): Persistent, 13 observation(s), importance 74.
+- northmarq (Lender / Debt Provider): Fading, 5 observation(s), importance 74.
 
 ## Recurring California / LA Relationships
 
-- CBRE -> CBRE (Relationship Edge): Persistent, 112 observation(s), importance 84.
-- California -> northmarq (Relationship Edge): Reappearing, 15 observation(s), importance 83.
-- California -> California (Relationship Edge): Persistent, 43 observation(s), importance 83.
-- JLL (Lender / Debt Provider): Fading, 27 observation(s), importance 83.
-- Newport Beach Seniors Communities JLL Capital (Institutional Capital Partner): Fading, 24 observation(s), importance 83.
-- Los Angeles -> California (Relationship Edge): Persistent, 13 observation(s), importance 82.
-- Carmel Partners -> Los Angeles (Relationship Edge): Fading, 11 observation(s), importance 82.
-- PCCP -> Los Angeles (Relationship Edge): Fading, 18 observation(s), importance 82.
-- JLL -> JLL (Relationship Edge): Fading, 234 observation(s), importance 80.
-- California -> California (Relationship Edge): Fading, 9 observation(s), importance 80.
+- CBRE -> CBRE (Relationship Edge): Persistent, 113 observation(s), importance 84.
+- California -> northmarq (Relationship Edge): Persistent, 16 observation(s), importance 83.
+- California -> California (Relationship Edge): Persistent, 44 observation(s), importance 83.
+- Los Angeles -> California (Relationship Edge): Persistent, 14 observation(s), importance 82.
+- PCCP -> Los Angeles (Relationship Edge): Accelerating, 21 observation(s), importance 82.
+- JLL (Lender / Debt Provider): Fading, 27 observation(s), importance 82.
+- Newport Beach Seniors Communities JLL Capital (Institutional Capital Partner): Fading, 24 observation(s), importance 82.
+- Carmel Partners -> California (Relationship Edge): Persistent, 8 observation(s), importance 80.
+- Carmel Partners -> Los Angeles (Relationship Edge): Fading, 11 observation(s), importance 80.
+- JLL -> JLL (Relationship Edge): Fading, 234 observation(s), importance 79.
 
 ## Persistent BTR / Student / Senior Housing Players
 
-- JLL (Lender / Debt Provider): Fading, 27 observation(s), importance 83.
-- Newport Beach Seniors Communities JLL Capital (Institutional Capital Partner): Fading, 24 observation(s), importance 83.
-- northmarq (Lender / Debt Provider): Emerging, 1 observation(s), importance 76.
-- JLL (GP / Developer): Fading, 27 observation(s), importance 75.
-- JLL (GP / Developer): Fading, 29 observation(s), importance 75.
-- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities (Deal / Project): Fading, 24 observation(s), importance 75.
-- Student Housing (Residential Sector): Persistent, 19 observation(s), importance 73.
-- northmarq (Lender / Debt Provider): Fading, 1 observation(s), importance 73.
+- JLL (Lender / Debt Provider): Fading, 27 observation(s), importance 82.
+- Newport Beach Seniors Communities JLL Capital (Institutional Capital Partner): Fading, 24 observation(s), importance 82.
+- northmarq (Lender / Debt Provider): Emerging, 2 observation(s), importance 77.
+- Student Housing (Residential Sector): Persistent, 20 observation(s), importance 73.
+- JLL (GP / Developer): Fading, 27 observation(s), importance 73.
+- JLL (GP / Developer): Fading, 29 observation(s), importance 73.
+- Refinancing - California - JLL Arranges $276M Refi for Newport Beach Seniors Communities (Deal / Project): Fading, 24 observation(s), importance 73.
+- northmarq (Lender / Debt Provider): Fading, 1 observation(s), importance 72.
+- Construction Financing - California - Northmarq Arranges $24M in Construction Financing for Student Housing Project Near UC Berk... (Deal / Project): Emerging, 2 observation(s), importance 69.
 - JLL (Lender / Debt Provider): Dormant, 63 observation(s), importance 68.
-- Construction Financing - California - Northmarq Arranges $24M in Construction Financing for Student Housing Project Near UC Berk... (Deal / Project): Emerging, 1 observation(s), importance 68.
 
 ## Recurring Institutional Capital Pairings
 
-- CBRE -> CBRE (Relationship Edge): Persistent, 112 observation(s), importance 84.
-- California -> northmarq (Relationship Edge): Reappearing, 15 observation(s), importance 83.
-- California -> California (Relationship Edge): Persistent, 43 observation(s), importance 83.
-- Newport Beach Seniors Communities JLL Capital (Institutional Capital Partner): Fading, 24 observation(s), importance 83.
-- Los Angeles -> California (Relationship Edge): Persistent, 13 observation(s), importance 82.
-- Carmel Partners -> Los Angeles (Relationship Edge): Fading, 11 observation(s), importance 82.
-- PCCP -> Los Angeles (Relationship Edge): Fading, 18 observation(s), importance 82.
-- JLL -> JLL (Relationship Edge): Fading, 234 observation(s), importance 80.
-- California -> California (Relationship Edge): Fading, 9 observation(s), importance 80.
-- Los Angeles -> Los Angeles (Relationship Edge): Fading, 81 observation(s), importance 78.
+- CBRE -> CBRE (Relationship Edge): Persistent, 113 observation(s), importance 84.
+- California -> northmarq (Relationship Edge): Persistent, 16 observation(s), importance 83.
+- California -> California (Relationship Edge): Persistent, 44 observation(s), importance 83.
+- Los Angeles -> California (Relationship Edge): Persistent, 14 observation(s), importance 82.
+- PCCP -> Los Angeles (Relationship Edge): Accelerating, 21 observation(s), importance 82.
+- Newport Beach Seniors Communities JLL Capital (Institutional Capital Partner): Fading, 24 observation(s), importance 82.
+- Carmel Partners -> California (Relationship Edge): Persistent, 8 observation(s), importance 80.
+- Carmel Partners -> Los Angeles (Relationship Edge): Fading, 11 observation(s), importance 80.
+- JLL -> JLL (Relationship Edge): Fading, 234 observation(s), importance 79.
+- California -> California (Relationship Edge): Fading, 9 observation(s), importance 79.
 
 ## Strongest Multi-Run Relationships
 
-- CBRE -> CBRE (Relationship Edge): Persistent, 112 observation(s), importance 84.
-- California -> northmarq (Relationship Edge): Reappearing, 15 observation(s), importance 83.
-- California -> California (Relationship Edge): Persistent, 43 observation(s), importance 83.
-- Los Angeles -> California (Relationship Edge): Persistent, 13 observation(s), importance 82.
-- Carmel Partners -> Los Angeles (Relationship Edge): Fading, 11 observation(s), importance 82.
-- PCCP -> Los Angeles (Relationship Edge): Fading, 18 observation(s), importance 82.
-- JLL -> JLL (Relationship Edge): Fading, 234 observation(s), importance 80.
-- California -> California (Relationship Edge): Fading, 9 observation(s), importance 80.
-- Los Angeles -> Los Angeles (Relationship Edge): Fading, 81 observation(s), importance 78.
-- Los Angeles -> northmarq (Relationship Edge): Fading, 31 observation(s), importance 78.
+- CBRE -> CBRE (Relationship Edge): Persistent, 113 observation(s), importance 84.
+- California -> northmarq (Relationship Edge): Persistent, 16 observation(s), importance 83.
+- California -> California (Relationship Edge): Persistent, 44 observation(s), importance 83.
+- Los Angeles -> California (Relationship Edge): Persistent, 14 observation(s), importance 82.
+- PCCP -> Los Angeles (Relationship Edge): Accelerating, 21 observation(s), importance 82.
+- Carmel Partners -> California (Relationship Edge): Persistent, 8 observation(s), importance 80.
+- Carmel Partners -> Los Angeles (Relationship Edge): Fading, 11 observation(s), importance 80.
+- JLL -> JLL (Relationship Edge): Fading, 234 observation(s), importance 79.
+- California -> California (Relationship Edge): Fading, 9 observation(s), importance 79.
+- Fannie Mae -> Los Angeles (Relationship Edge): Persistent, 6 observation(s), importance 77.
 
 ## Accelerating Markets
 
@@ -81,29 +81,29 @@ Generated: 2026-10-31 02:03:10
 
 ## Fading Markets
 
-- Dallas (Market / Region): Fading, 43 observation(s), importance 57.
-- National / Other (Market / Region): Fading, 19 observation(s), importance 57.
-- Southeast (Market / Region): Fading, 30 observation(s), importance 56.
-- Los Angeles (Market / Region): Fading, 6 observation(s), importance 52.
-- New York (Market / Region): Fading, 60 observation(s), importance 49.
-- Seattle (Market / Region): Fading, 39 observation(s), importance 49.
-- Sun Belt (Market / Region): Fading, 62 observation(s), importance 49.
-- Austin (Market / Region): Fading, 80 observation(s), importance 48.
-- Seattle (Market / Region): Fading, 104 observation(s), importance 48.
-- Texas (Market / Region): Fading, 64 observation(s), importance 48.
+- Seattle (Market / Region): Fading, 31 observation(s), importance 57.
+- Dallas (Market / Region): Fading, 43 observation(s), importance 56.
+- National / Other (Market / Region): Fading, 19 observation(s), importance 56.
+- Southeast (Market / Region): Fading, 30 observation(s), importance 55.
+- Los Angeles (Market / Region): Fading, 6 observation(s), importance 51.
+- New York (Market / Region): Fading, 60 observation(s), importance 48.
+- Seattle (Market / Region): Fading, 39 observation(s), importance 48.
+- Sun Belt (Market / Region): Fading, 62 observation(s), importance 48.
+- Austin (Market / Region): Fading, 80 observation(s), importance 46.
+- Seattle (Market / Region): Fading, 104 observation(s), importance 46.
 
 ## Recurring Refinancing Stress Signals
 
-- JLL (Lender / Debt Provider): Fading, 27 observation(s), importance 83.
-- Newport Beach Seniors Communities JLL Capital (Institutional Capital Partner): Fading, 24 observation(s), importance 83.
-- Freddie Mac (Lender / Debt Provider): Fading, 6 observation(s), importance 79.
-- Marcus & Millichap (GP / Developer): Fading, 12 observation(s), importance 76.
-- Carmel Partners (Institutional Capital Partner): Emerging, 1 observation(s), importance 76.
-- Fannie Mae (Institutional Capital Partner): Dormant, 27 observation(s), importance 76.
-- Santa Ana Multifamily JLL Capital (Institutional Capital Partner): Dormant, 22 observation(s), importance 76.
-- northmarq (Lender / Debt Provider): Fading, 6 observation(s), importance 76.
-- northmarq (Lender / Debt Provider): Fading, 5 observation(s), importance 76.
-- Bridge Investment Group (Institutional Capital Partner): Emerging, 1 observation(s), importance 76.
+- JLL (Lender / Debt Provider): Fading, 27 observation(s), importance 82.
+- Newport Beach Seniors Communities JLL Capital (Institutional Capital Partner): Fading, 24 observation(s), importance 82.
+- Carmel Partners (Institutional Capital Partner): Emerging, 2 observation(s), importance 78.
+- Freddie Mac (Lender / Debt Provider): Fading, 6 observation(s), importance 78.
+- Bridge Investment Group (Institutional Capital Partner): Emerging, 2 observation(s), importance 77.
+- Fannie Mae (Institutional Capital Partner): Emerging, 2 observation(s), importance 77.
+- Greystone (Institutional Capital Partner): Emerging, 2 observation(s), importance 77.
+- Playa Vista Capital (Institutional Capital Partner): Emerging, 2 observation(s), importance 77.
+- Fannie Mae (Lender / Debt Provider): Emerging, 2 observation(s), importance 77.
+- Freddie Mac (Lender / Debt Provider): Emerging, 2 observation(s), importance 77.
 
 ## Canonical Deal Summary
 

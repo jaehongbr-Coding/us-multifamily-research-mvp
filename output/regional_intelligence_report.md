@@ -1,19 +1,19 @@
 # Regional Intelligence Report
 
-Generated: 2026-10-31 02:03:10
+Generated: 2026-11-01 01:54:39
 
 ## Top 5 Markets By Relevance
 
-- California: Core Watch Market, 23 article(s), average relevance 88.3.
-- Los Angeles: Core Watch Market, 13 article(s), average relevance 92.0.
-- National / Other: General Monitoring, 30 article(s), average relevance 74.8.
+- California: Core Watch Market, 25 article(s), average relevance 88.3.
+- Los Angeles: Core Watch Market, 16 article(s), average relevance 89.6.
+- National / Other: General Monitoring, 29 article(s), average relevance 74.0.
 - Southeast: Strategic Watch Market, 10 article(s), average relevance 85.2.
 - Texas: Strategic Watch Market, 7 article(s), average relevance 89.9.
 
 ## LA / California Focus
 
-- California: 23 article(s), 14 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
-- Los Angeles: 13 article(s), 9 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
+- California: 25 article(s), 18 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
+- Los Angeles: 16 article(s), 12 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
 
 ## Sun Belt / Texas / Southeast
 
@@ -22,18 +22,18 @@ Generated: 2026-10-31 02:03:10
 - Austin: 3 article(s), 1 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
 - Phoenix: 3 article(s), 1 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
 - Arizona: 4 article(s), 1 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
-- Sun Belt: 2 article(s), 2 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
-- Florida: 3 article(s), 2 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
 - Dallas: 2 article(s), 1 market signal(s), Strategic Watch Market. Monitor only.
+- Florida: 2 article(s), 1 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
+- Sun Belt: 1 article(s), 1 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
 
 ## Coastal Markets
 
 - New York: 3 article(s), 3 market signal(s), General Monitoring. Review development underwriting assumptions.
-- Seattle: 2 article(s), 1 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
+- Seattle: 1 article(s), 1 market signal(s), Strategic Watch Market. Monitor supply pipeline and concessions.
 
 ## National Market Signals
 
-- National / Other: 30 article(s), 6 market signal(s), General Monitoring. Monitor supply pipeline and concessions.
+- National / Other: 29 article(s), 6 market signal(s), General Monitoring. Monitor supply pipeline and concessions.
 
 ## Deal / Project Intelligence
 
@@ -81,4 +81,4 @@ Opportunity deduplication is available in `opportunity_deduplication_report.md`.
 - Austin: Review development underwriting assumptions
 - Phoenix: Watch GP / developer partnership opportunities
 - Arizona: Watch GP / developer partnership opportunities
-- Sun Belt: Review development underwriting assumptions
+- Dallas: Monitor only

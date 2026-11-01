@@ -1,14 +1,14 @@
 # Executive Dashboard Brief
 
-Generated: 2026-10-31 02:02:59
+Generated: 2026-11-01 01:54:31
 
 ## Executive Snapshot
 
 - Total articles reviewed: 82
-- High-confidence signals: 45
-- Institutional-grade signals: 21
+- High-confidence signals: 49
+- Institutional-grade signals: 24
 - Opportunities: 55
-- Distress signals: 13
+- Distress signals: 15
 - Recommended executive focus: Review Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets and related high-confidence project signals.
 
 ## Top 5 Things to Review Today
@@ -40,8 +40,8 @@ Generated: 2026-10-31 02:02:59
 - Acquires 280-Unit Buckhead Apartment Community ParkProperty Capital: Fading Action: Track capital flow pattern and related relationships.
 - Alliance Residential: Fading Action: Track capital flow pattern and related relationships.
 - Arcus Real Estate Capital: Fading Action: Track capital flow pattern and related relationships.
-- Freddie Mac: Institutional-backed regional expansion Action: Track JV and capital partner activity.
-- JLL: Institutional-backed regional expansion Action: Track JV and capital partner activity.
+- Greystar: California / LA strategic positioning Action: Track JV and capital partner activity.
+- IPA: California / LA strategic positioning Action: Track JV and capital partner activity.
 
 ## Opportunity / Distress Watch
 

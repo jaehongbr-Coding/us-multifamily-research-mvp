@@ -1,6 +1,6 @@
 # Source Health Report
 
-Generated: 2026-10-31 02:03:00
+Generated: 2026-11-01 01:54:33
 
 - Total sources attempted: 163
 - Working sources: 22
@@ -73,7 +73,7 @@ Developer / GP source coverage is available in `gp_source_coverage_report.md`.
 Validated source activation scoring is available in `source_activation_report.md`.
 - Working activated sources: 21
 - Failed critical sources: 11
-- Highest quality source this run: REBusiness Online (93).
+- Highest quality source this run: Yield PRO (94).
 
 ## Recommended Source Improvement Actions
 

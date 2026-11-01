@@ -1,15 +1,15 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-10-31 02:03:28
+Generated: 2026-11-01 01:55:09
 
-- Total LA lifecycle watch items: 57
+- Total LA lifecycle watch items: 58
 
 ## LA Lifecycle Stage Distribution
 
-- Unknown Stage: 28
-- Site Acquisition / Site Control: 11
-- Delivery / Opening: 6
-- Refinancing / Recapitalization: 5
+- Unknown Stage: 30
+- Site Acquisition / Site Control: 10
+- Refinancing / Recapitalization: 7
+- Delivery / Opening: 4
 - Early Site Signal: 3
 - Vertical Construction: 2
 - Entitlement Under Review: 1
@@ -60,19 +60,19 @@ Generated: 2026-10-31 02:03:28
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Los Angeles / California - Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista.
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community.
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
-- Monitor lifecycle status for repeated confirmation: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
-- Monitor lifecycle status for repeated confirmation: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
-- Monitor lifecycle status for repeated confirmation: Acquisition - Seattle - Sale and Financing Secured for Seattle’s Bell Ballard Apartment Community.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Recapitalization - Los Angeles / California - PCCP and Cityview Joint Venture Recapitalizes Apartment Community in Filipinotown Neighbor....
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: PCCP and Cityview Joint Venture Recapitalizes Apartment Community in Filipinotown Neighborhood of Los Angeles.
+- Monitor lifecycle status for repeated confirmation: General Project Signal - Denver / Colorado - JLL Arranges Bridge Financing for 1184-Unit Multifamily Portfolio in Coveted Highlands Ran....
 
 
 
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 92
-- Newly detected projects: 43
+- Newly detected projects: 13
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 56
+- LA lifecycle transition watch items: 57
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -80,10 +80,10 @@ Generated: 2026-10-31 02:03:28
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 739
-- Canonical projects: 178
-- Duplicate project clusters: 117
-- Persistent assets tracked: 178
-- LA persistent asset watch items: 122
+- Raw project references: 749
+- Canonical projects: 179
+- Duplicate project clusters: 120
+- Persistent assets tracked: 179
+- LA persistent asset watch items: 126
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

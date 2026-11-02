@@ -1,15 +1,15 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-11-01 01:55:09
+Generated: 2026-11-02 02:09:49
 
-- Total LA lifecycle watch items: 58
+- Total LA lifecycle watch items: 57
 
 ## LA Lifecycle Stage Distribution
 
-- Unknown Stage: 30
+- Unknown Stage: 27
 - Site Acquisition / Site Control: 10
-- Refinancing / Recapitalization: 7
-- Delivery / Opening: 4
+- Refinancing / Recapitalization: 8
+- Delivery / Opening: 5
 - Early Site Signal: 3
 - Vertical Construction: 2
 - Entitlement Under Review: 1
@@ -34,7 +34,7 @@ Generated: 2026-11-01 01:55:09
 ## Long Beach Lifecycle Watch
 
 - Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach: Unknown Stage, Monitor only, opportunity 99.
-- 390 apartments underway at 6615 PCH in Long Beach: Unknown Stage, Monitor only, opportunity 87.
+- 390 apartments underway at 6615 PCH in Long Beach: Unknown Stage, Monitor only, opportunity 88.
 
 ## Orange County Lifecycle Watch
 
@@ -59,20 +59,20 @@ Generated: 2026-11-01 01:55:09
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Los Angeles / California - Greystone Refis Hollywood, Fla., Apartments With $109M Loan.
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Los Angeles / California - Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista.
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Los Angeles / California - Irvine Company Lands $157.2M Fannie Mae Refinancing for 309-Unit Luxury Multifamily Proper....
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Recapitalization - Los Angeles / California - PCCP and Cityview Joint Venture Recapitalizes Apartment Community in Filipinotown Neighbor....
 - Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: PCCP and Cityview Joint Venture Recapitalizes Apartment Community in Filipinotown Neighborhood of Los Angeles.
-- Monitor lifecycle status for repeated confirmation: General Project Signal - Denver / Colorado - JLL Arranges Bridge Financing for 1184-Unit Multifamily Portfolio in Coveted Highlands Ran....
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 92
-- Newly detected projects: 13
+- Lifecycle transitions analyzed: 91
+- Newly detected projects: 8
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 57
+- LA lifecycle transition watch items: 56
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -80,10 +80,10 @@ Generated: 2026-11-01 01:55:09
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 749
-- Canonical projects: 179
-- Duplicate project clusters: 120
-- Persistent assets tracked: 179
-- LA persistent asset watch items: 126
+- Raw project references: 744
+- Canonical projects: 177
+- Duplicate project clusters: 122
+- Persistent assets tracked: 177
+- LA persistent asset watch items: 125
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

@@ -1,8 +1,8 @@
 # LA Lifecycle Transition Watch Report
 
-Generated: 2026-11-01 01:55:09
+Generated: 2026-11-02 02:09:49
 
-- Total LA lifecycle transition watch items: 57
+- Total LA lifecycle transition watch items: 56
 
 ## LA Projects Moving Forward
 
@@ -24,8 +24,9 @@ Generated: 2026-11-01 01:55:09
 - Refinancing - Los Angeles / California - Greystone Refis Hollywood, Fla., Apartments With $109M Loan: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 - Refinancing - Los Angeles / California - Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Recapitalization - Los Angeles / California - PCCP and Cityview Joint Venture Recapitalizes Apartment Community in Filipinotown Neighbor...: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- PCCP and Cityview Joint Venture Recapitalizes Apartment Community in Filipinotown Neighborhood of Los Angeles: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Recapitalization - Los Angeles / California - PCCP and Cityview Joint Venture Recapitalizes Apartment Community in Filipinotown Neighbor...: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- PCCP and Cityview Joint Venture Recapitalizes Apartment Community in Filipinotown Neighborhood of Los Angeles: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Refinancing - Los Angeles / California - Irvine Company Lands $157.2M Fannie Mae Refinancing for 309-Unit Luxury Multifamily Proper...: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 
 ## LA Delivery / Lease-Up Benchmarks
 
@@ -33,6 +34,7 @@ Generated: 2026-11-01 01:55:09
 - Entitlement / Permitting - Los Angeles / California - 25 apartments completed at 11013 Hartsook St. in North Hollywood: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
 - 25 apartments completed at 11013 Hartsook St. in North Hollywood: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
 - Disposition / Exit - Atlanta / Georgia - Toro Development Opens $560M Medley Mixed-Use Destination in Johns Creek, Georgia: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
+- Refinancing - Dallas / Texas - Private Investor Scores Refinance of Three-Property Multifamily Portfolio in Austin and Da...: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
 
 ## Recommended LA Transition Follow-up Actions
 
@@ -42,17 +44,17 @@ Generated: 2026-11-01 01:55:09
 - Monitor for another run to confirm lifecycle direction: Modular affordable housing takes shape at 4301 S. Vermont Ave..
 - Use as delivery, lease-up, and underwriting benchmark: 25 apartments completed at 11013 Hartsook St. in North Hollywood.
 - Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - Atlanta / Georgia - Toro Development Opens $560M Medley Mixed-Use Destination in Johns Creek, Georgia.
+- Use as delivery, lease-up, and underwriting benchmark: Refinancing - Dallas / Texas - Private Investor Scores Refinance of Three-Property Multifamily Portfolio in Austin and Da....
 - Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community.
-- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 749
-- Canonical projects: 179
-- Duplicate project clusters: 120
-- Persistent assets tracked: 179
-- LA persistent asset watch items: 126
+- Raw project references: 744
+- Canonical projects: 177
+- Duplicate project clusters: 122
+- Persistent assets tracked: 177
+- LA persistent asset watch items: 125
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

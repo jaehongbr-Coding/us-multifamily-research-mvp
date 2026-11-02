@@ -1,22 +1,22 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-11-01 01:54:39
+Generated: 2026-11-02 02:09:23
 
-- Total relationship edges: 133
+- Total relationship edges: 135
 - Most connected developer / GP: CBRE (15 edge(s))
 - Most connected lender / debt provider: cbre (4 edge(s))
-- Most connected market: California (10 edge(s))
+- Most connected market: Los Angeles / California (10 edge(s))
 - Strongest relationship edge: Greystar -> walker & dunlop
 - Highest Woomi relevance edge: IPA -> Inland Empire
 
 ## Top 10 Relationship Edges
 
 - Greystar -> walker & dunlop: Financing Relationship, Dallas / Texas, score 100. Track GP relationship history.
-- Walker & Dunlop -> walker & dunlop: Financing Relationship, California, score 96. Track GP relationship history.
+- Brookfield -> brookfield: Financing Relationship, Los Angeles / California, score 98. Track GP relationship history.
+- Brookfield -> fannie mae: Financing Relationship, Los Angeles / California, score 98. Track GP relationship history.
 - Greystar -> Dallas: Financing Relationship, Dallas / Texas, score 95. Track GP relationship history.
 - Greystar -> Dallas / Texas: Financing Relationship, Dallas / Texas, score 95. Track GP relationship history.
 - Greystar -> Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Financing Relationship, Dallas / Texas, score 95. Track GP relationship history.
-- Equity Residential -> equity residential: Financing Relationship, Austin / Texas, score 94. Track GP relationship history.
 - Greystar -> jll: Financing Relationship, Denver / Colorado, score 94. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
@@ -25,11 +25,11 @@ Generated: 2026-11-01 01:54:39
 ## Developer / GP Relationship Map
 
 - Greystar -> walker & dunlop: Financing Relationship, Dallas / Texas, score 100. Track GP relationship history.
-- Walker & Dunlop -> walker & dunlop: Financing Relationship, California, score 96. Track GP relationship history.
+- Brookfield -> brookfield: Financing Relationship, Los Angeles / California, score 98. Track GP relationship history.
+- Brookfield -> fannie mae: Financing Relationship, Los Angeles / California, score 98. Track GP relationship history.
 - Greystar -> Dallas: Financing Relationship, Dallas / Texas, score 95. Track GP relationship history.
 - Greystar -> Dallas / Texas: Financing Relationship, Dallas / Texas, score 95. Track GP relationship history.
 - Greystar -> Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Financing Relationship, Dallas / Texas, score 95. Track GP relationship history.
-- Equity Residential -> equity residential: Financing Relationship, Austin / Texas, score 94. Track GP relationship history.
 - Greystar -> jll: Financing Relationship, Denver / Colorado, score 94. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
@@ -38,19 +38,19 @@ Generated: 2026-11-01 01:54:39
 ## Lender / Debt Provider Relationship Map
 
 - Greystar -> walker & dunlop: Financing Relationship, Dallas / Texas, score 100. Track GP relationship history.
-- Walker & Dunlop -> walker & dunlop: Financing Relationship, California, score 96. Track GP relationship history.
+- Brookfield -> fannie mae: Financing Relationship, Los Angeles / California, score 98. Track GP relationship history.
 - Greystar -> jll: Financing Relationship, Denver / Colorado, score 94. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Sun Belt, score 93. Track GP relationship history.
+- Fannie Mae -> fannie mae: Financing Relationship, Los Angeles / California, score 93. Track GP relationship history.
 - JLL -> jll: Financing Relationship, New York City / New York, score 93. Track GP relationship history.
 - JLL -> jll: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
-- Fannie Mae -> fannie mae: Financing Relationship, Los Angeles / California, score 92. Track GP relationship history.
 - Greystone -> freddie mac: Financing Relationship, Los Angeles / California, score 92. Track GP relationship history.
 
 ## Capital Partner / Institutional Flow Map
 
-- Equity Residential -> equity residential: Financing Relationship, Austin / Texas, score 94. Track GP relationship history.
+- Brookfield -> brookfield: Financing Relationship, Los Angeles / California, score 98. Track GP relationship history.
 - Equity Residential -> equity residential: Development Activity, Austin / Texas, score 86. Track GP relationship history.
 - Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 86. Track GP relationship history.
 - Office-to-Residential Conversion - Other / Unknown - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters -> related: Capital Flow, Other / Unknown, score 62. Monitor only.
@@ -59,10 +59,10 @@ Generated: 2026-11-01 01:54:39
 
 - Greystar -> Dallas: Financing Relationship, Dallas / Texas, score 95. Track GP relationship history.
 - Greystar -> Dallas / Texas: Financing Relationship, Dallas / Texas, score 95. Track GP relationship history.
+- Brookfield -> Los Angeles: Financing Relationship, Los Angeles / California, score 90. Track GP relationship history.
+- Brookfield -> Los Angeles / California: Financing Relationship, Los Angeles / California, score 90. Track GP relationship history.
 - Carmel Partners -> San Francisco: Financing Relationship, San Francisco / California, score 88. Track GP relationship history.
 - Carmel Partners -> San Francisco / California: Financing Relationship, San Francisco / California, score 88. Track GP relationship history.
-- Equity Residential -> Austin: Financing Relationship, Austin / Texas, score 86. Track GP relationship history.
-- Equity Residential -> Austin / Texas: Financing Relationship, Austin / Texas, score 86. Track GP relationship history.
 - CBRE -> Atlanta: Financing Relationship, Atlanta / Georgia, score 85. Track GP relationship history.
 - CBRE -> Atlanta / Georgia: Financing Relationship, Atlanta / Georgia, score 85. Track GP relationship history.
 - CBRE -> Charlotte: Financing Relationship, Sun Belt, score 85. Track GP relationship history.
@@ -70,10 +70,10 @@ Generated: 2026-11-01 01:54:39
 
 ## California / LA Relationship Signals
 
-- Walker & Dunlop -> walker & dunlop: Financing Relationship, California, score 96. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, California, score 91. Track GP relationship history.
+- Brookfield -> Los Angeles: Financing Relationship, Los Angeles / California, score 90. Track GP relationship history.
 - Construction Financing - California - Northmarq Arranges $24M in Construction Financing for Student Housing Project Near UC Berk... -> northmarq: Financing Relationship, California, score 86. Monitor lender activity.
-- Fannie Mae -> Los Angeles: Financing Relationship, Los Angeles / California, score 84. Track GP relationship history.
+- Fannie Mae -> Los Angeles: Financing Relationship, Los Angeles / California, score 85. Track GP relationship history.
 - CBRE -> Acquisition - California - CBRE Brokers $18.3M Sale of Five Retail Properties in Eastvale, California: Acquisition / Buyer, California, score 81. Track GP relationship history.
 - CBRE -> California: Acquisition / Buyer, California, score 81. Track GP relationship history.
 - Marcus & Millichap -> California: Disposition / Seller, California, score 79. Track GP relationship history.
@@ -94,11 +94,11 @@ Generated: 2026-11-01 01:54:39
 | Source | Target | Relationship | Confidence |
 | --- | --- | --- | ---: |
 | Greystar | walker & dunlop | Financing Relationship | 40 |
-| Walker & Dunlop | walker & dunlop | Financing Relationship | 40 |
+| Brookfield | Brookfield | Financing Relationship | 75 |
+| Brookfield | Fannie Mae | Financing Relationship | 75 |
 | Greystar | Sun Belt | Financing Relationship | 75 |
 | Greystar | Los Angeles | Financing Relationship | 60 |
 | Greystar | Los Angeles | Financing Relationship | 60 |
-| Equity Residential | equity residential | Financing Relationship | 40 |
 | Greystar | JLL | Financing Relationship | 75 |
 | CBRE | CBRE | Financing Relationship | 75 |
 | CBRE | CBRE | Financing Relationship | 75 |
@@ -115,8 +115,8 @@ Ranked GP watchlist signals are available in `gp_watchlist_report.md`.
 - Greystar: 75 (Tier 2 High Potential GP), Potential GP partnership candidate.
 - IPA: 75 (Tier 2 High Potential GP), Potential GP partnership candidate.
 - Carmel Partners: 74 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- Walker & Dunlop: 74 (Tier 2 High Potential GP), Potential GP partnership candidate.
 - PCCP: 74 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- Bridge Investment Group: 73 (Tier 2 High Potential GP), Potential GP partnership candidate.
 
 ## GP Source Expansion Summary
 
@@ -137,11 +137,11 @@ Longitudinal memory is available in `historical_memory_report.md`.
 ## Recommended Executive Follow-Up
 
 - Track GP relationship history: Greystar -> walker & dunlop (Financing Relationship).
-- Track GP relationship history: Walker & Dunlop -> walker & dunlop (Financing Relationship).
+- Track GP relationship history: Brookfield -> brookfield (Financing Relationship).
+- Track GP relationship history: Brookfield -> fannie mae (Financing Relationship).
 - Track GP relationship history: Greystar -> Dallas (Financing Relationship).
 - Track GP relationship history: Greystar -> Dallas / Texas (Financing Relationship).
 - Track GP relationship history: Greystar -> Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets (Financing Relationship).
-- Track GP relationship history: Equity Residential -> equity residential (Financing Relationship).
 - Track GP relationship history: Greystar -> jll (Financing Relationship).
 - Track GP relationship history: CBRE -> cbre (Financing Relationship).
 
@@ -149,10 +149,10 @@ Longitudinal memory is available in `historical_memory_report.md`.
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 749
-- Canonical projects: 179
-- Duplicate project clusters: 120
-- Persistent assets tracked: 179
-- LA persistent asset watch items: 126
+- Raw project references: 744
+- Canonical projects: 177
+- Duplicate project clusters: 122
+- Persistent assets tracked: 177
+- LA persistent asset watch items: 125
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

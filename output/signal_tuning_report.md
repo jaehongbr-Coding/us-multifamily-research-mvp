@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-11-01 01:54:31
+Generated: 2026-11-02 02:09:10
 
 ## Top Strategic Relevance Articles
 
 - 82 / richness 85: Greystone Refis Hollywood, Fla., Apartments With $109M Loan (Commercial Observer, Los Angeles / California) - JV or partnership activity; large-scale refinance tied to strategy
+- 81 / richness 90: Private Investor Scores Refinance of Three-Property Multifamily Portfolio in Austin and Dallas-Fort Worth Metro Areas (Yield PRO, Dallas / Texas) - institutional acquisition behavior; large-scale refinance tied to strategy
 - 79 / richness 70: PCCP and Cityview Joint Venture Recapitalizes Apartment Community in Filipinotown Neighborhood of Los Angeles (Yield PRO, Los Angeles / California) - JV or partnership activity; large-scale refinance tied to strategy
 - 76 / richness 75: Lightstone Capital Provides $29.5M Loan for Orange, N.J., Multifamily Development (Commercial Observer, Other / Unknown) - lease-up or absorption behavior; large-scale refinance tied to strategy
 - 75 / richness 50: Legacy Partners Begins Leasing at Ontario Apartments (Connect CRE, Riverside / California) - JV or partnership activity; lease-up or absorption behavior
+- 74 / richness 100: StreetLights Residential Sells Luxury Phoenix-Area Multifamily Property (Yield PRO, Phoenix / Arizona) - institutional acquisition behavior
 - 71 / richness 90: Anaheim Sale is First Closing in Broader Multifamily Portfolio (Connect CRE Orange County, California) - institutional acquisition behavior
 - 70 / richness 85: ORIX Acquires Buckhead Apartments for $83M (Connect CRE Atlanta, Atlanta / Georgia) - institutional acquisition behavior
 - 70 / richness 85: Roxborough Makes Second NorCal Apartment Buy Through Latest Fund (Connect CRE California, California) - institutional acquisition behavior
 - 70 / richness 85: Thorofare Capital Provides $16.5M Acquisition Loan for Houston Multifamily Property (REBusiness Online, Los Angeles / California) - institutional acquisition behavior
-- 70 / richness 85: CBRE Brokers $18.3M Sale of Five Retail Properties in Eastvale, California (REBusiness Online, California) - institutional acquisition behavior
-- 68 / richness 75: JLL Arranges Bridge Financing for 1184-Unit Multifamily Portfolio in Coveted Highlands Ranch Master-Planned Community (Yield PRO, Denver / Colorado) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -40,8 +40,8 @@ Generated: 2026-11-01 01:54:31
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 28
-- Development / sponsor behavior articles: 42
+- Financing-oriented articles: 30
+- Development / sponsor behavior articles: 44
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

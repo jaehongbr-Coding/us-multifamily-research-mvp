@@ -1,18 +1,18 @@
 # Routing Balance Report
 
 - Market Intelligence count: 14
-- Development Activity count: 62
+- Development Activity count: 60
 - GP / Capital Activity count: 3
 - Excluded count: 2
 - Rent/Demand candidate count: 4
-- Project anchor article count: 58
+- Project anchor article count: 56
 - Development-excluded transaction article count: 4
 - Low-value promotional excluded count: 2
 - Site / Parcel positive candidates count: 3
 - Site / Parcel excluded transaction count: 0
 - Source missing count: 0
 - Market missing count: 0
-- Stage missing count: 59
+- Stage missing count: 55
 
 ## Rent/Demand Titles
 - Multifamily Absorption Rate Remains Below 50%
@@ -33,10 +33,10 @@
 - None
 
 ## Sample Validation
+- Irvine Company Lands $157.2M Fannie Mae Refinancing for 309-Unit Luxury Multifamily Property in Los Angeles | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 309-unit; project/asset term: development)
 - JLL Arranges Bridge Financing for 1184-Unit Multifamily Portfolio in Coveted Highlands Ranch Master-Planned Community | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 1184-unit; project/asset term: community)
 - Northmarq Closes Sale of Luxury Multifamily Community The Bend Apartments in Louisville Metro | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 312-unit; address/street: 1909 greentree blvd; project/asset term: community)
 - Marcus & Millichap Arranges Sale of Vintage Multifamily Property in Los Angeles | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 36-unit; address/street: 1717 1725 park ave; project/asset term: apartments)
-- ARCTRUST and Edison Equity Residential Break Ground on Luxury Age-Restricted Multifamily Concierge Community Serenova at Dripping Springs | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 175-residence; execution milestone: groundbreaking; project/asset term: project; project financing tied to anchor: construction loan)
 - Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 309-unit)
 - Greystone Refis Hollywood, Fla., Apartments With $109M Loan | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (project/asset term: apartments)
 - 312-Unit Multifamily in Indiana Changes Hands | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 312-unit; address/street: 1909 greentree blvd; project/asset term: community)

@@ -1,8 +1,8 @@
 # Deal & Project Pipeline Report
 
-Generated: 2026-11-01 01:54:39
+Generated: 2026-11-02 02:09:23
 
-- Total deal/project signals found: 62
+- Total deal/project signals found: 61
 - High deal intelligence count: 12
 
 ## Top 10 Deal / Project Signals
@@ -15,21 +15,21 @@ Generated: 2026-11-01 01:54:39
 - Construction Financing - New York City / New York - JLL Arranges $135M in Construction Financing for Yonkers Multifamily Project: Construction Financing, New York City / New York, score 85. Capital market signal.
 - Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community: Construction Financing, Atlanta / Georgia, score 85. Capital market signal.
 - Refinancing - Los Angeles / California - Greystone Refis Hollywood, Fla., Apartments With $109M Loan: Refinancing, Los Angeles / California, score 85. Capital market signal.
+- Refinancing - Los Angeles / California - Irvine Company Lands $157.2M Fannie Mae Refinancing for 309-Unit Luxury Multifamily Proper...: Refinancing, Los Angeles / California, score 85. Capital market signal.
 - Refinancing - Los Angeles / California - Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista: Refinancing, Los Angeles / California, score 85. Capital market signal.
-- Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing, Miami / Florida, score 85. Capital market signal.
 
 ## California / LA Deal Watch
 
 - Construction Financing - California - Northmarq Arranges $24M in Construction Financing for Student Housing Project Near UC Berk...: Construction Financing, California, score 91. Capital market signal.
+- Refinancing - Los Angeles / California - Irvine Company Lands $157.2M Fannie Mae Refinancing for 309-Unit Luxury Multifamily Proper...: Refinancing, Los Angeles / California, score 85. Capital market signal.
 - Refinancing - Los Angeles / California - Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista: Refinancing, Los Angeles / California, score 85. Capital market signal.
-- Construction Financing - California - Affordable housing starts work at 400 Centinela Ave. in Inglewood: Construction Financing, California, score 83. Capital market signal.
 - Entitlement / Permitting - California - 37-unit affordable housing complex underway at 3751 S. Delmas Ter. in Palms: Entitlement / Permitting, California, score 83. Entitlement / zoning watch.
 - Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: Disposition / Exit, California, score 79. Entitlement / zoning watch.
 - Acquisition - California - CBRE Brokers $18.3M Sale of Five Retail Properties in Eastvale, California: Acquisition, California, score 77. Pricing benchmark.
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Disposition / Exit, California, score 77. Entitlement / zoning watch.
-- Disposition / Exit - California - Walker & Dunlop Affordable Investment Sales Offers 100% Affordable Multifamily Community i...: Disposition / Exit, California, score 75. Entitlement / zoning watch.
 - Disposition / Exit - Los Angeles / California - Marcus & Millichap Arranges Sale of Vintage Multifamily Property in Los Angeles: Disposition / Exit, Los Angeles / California, score 73. Capital market signal.
 - Acquisition - California - Roxborough Makes Second NorCal Apartment Buy Through Latest Fund: Acquisition, California, score 70. Pricing benchmark.
+- Entitlement / Permitting - California - Affordable housing underway at 5403 S. Inglewood Blvd. in Del Rey: Entitlement / Permitting, California, score 63. Entitlement / zoning watch.
 
 ## GP / Developer Activity
 
@@ -40,9 +40,9 @@ Generated: 2026-11-01 01:54:39
 - Construction Financing - New York City / New York - JLL Arranges $135M in Construction Financing for Yonkers Multifamily Project: Construction Financing, New York City / New York, score 85. Capital market signal.
 - Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community: Construction Financing, Atlanta / Georgia, score 85. Capital market signal.
 - Refinancing - Los Angeles / California - Greystone Refis Hollywood, Fla., Apartments With $109M Loan: Refinancing, Los Angeles / California, score 85. Capital market signal.
+- Refinancing - Los Angeles / California - Irvine Company Lands $157.2M Fannie Mae Refinancing for 309-Unit Luxury Multifamily Proper...: Refinancing, Los Angeles / California, score 85. Capital market signal.
 - Refinancing - Los Angeles / California - Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista: Refinancing, Los Angeles / California, score 85. Capital market signal.
 - Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing, Miami / Florida, score 85. Capital market signal.
-- Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: Disposition / Exit, California, score 79. Entitlement / zoning watch.
 
 ## Financing / Refinancing Signals
 
@@ -54,21 +54,21 @@ Generated: 2026-11-01 01:54:39
 - Construction Financing - New York City / New York - JLL Arranges $135M in Construction Financing for Yonkers Multifamily Project: Construction Financing, New York City / New York, score 85. Capital market signal.
 - Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community: Construction Financing, Atlanta / Georgia, score 85. Capital market signal.
 - Refinancing - Los Angeles / California - Greystone Refis Hollywood, Fla., Apartments With $109M Loan: Refinancing, Los Angeles / California, score 85. Capital market signal.
+- Refinancing - Los Angeles / California - Irvine Company Lands $157.2M Fannie Mae Refinancing for 309-Unit Luxury Multifamily Proper...: Refinancing, Los Angeles / California, score 85. Capital market signal.
 - Refinancing - Los Angeles / California - Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista: Refinancing, Los Angeles / California, score 85. Capital market signal.
-- Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing, Miami / Florida, score 85. Capital market signal.
 
 ## Project Pipeline / Supply Signals
 
 - Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Refinancing, Dallas / Texas, score 95. Capital market signal.
 - Construction Financing - California - Northmarq Arranges $24M in Construction Financing for Student Housing Project Near UC Berk...: Construction Financing, California, score 91. Capital market signal.
 - Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach: Construction Financing, San Francisco / California, score 87. Capital market signal.
-- Construction Financing - California - Affordable housing starts work at 400 Centinela Ave. in Inglewood: Construction Financing, California, score 83. Capital market signal.
 - Entitlement / Permitting - California - 37-unit affordable housing complex underway at 3751 S. Delmas Ter. in Palms: Entitlement / Permitting, California, score 83. Entitlement / zoning watch.
 - Entitlement / Permitting - Santa Monica / California - Fresh renderings for Tishman Speyer projects in Downtown Santa Monica: Entitlement / Permitting, Santa Monica / California, score 77. Entitlement / zoning watch.
 - Modular / Construction Innovation - Los Angeles / California - Modular affordable housing takes shape at 4301 S. Vermont Ave.: Modular / Construction Innovation, Los Angeles / California, score 71. Capital market signal.
 - Development Start - Austin / Texas - ARCTRUST, Edison Equity Teaming Up on 175-Unit Austin-Area 55+ Community: Development Start, Austin / Texas, score 70. Pipeline / supply signal.
 - Entitlement / Permitting - Los Angeles / California - 25 apartments completed at 11013 Hartsook St. in North Hollywood: Entitlement / Permitting, Los Angeles / California, score 65. Entitlement / zoning watch.
 - Entitlement / Permitting - California - Affordable housing underway at 5403 S. Inglewood Blvd. in Del Rey: Entitlement / Permitting, California, score 63. Entitlement / zoning watch.
+- Entitlement / Permitting - Dallas / Texas - Prosper Greenlights $2B Italian-Themed Community: Entitlement / Permitting, Dallas / Texas, score 62. Entitlement / zoning watch.
 
 ## BTR / Modular / Innovation Signals
 
@@ -81,6 +81,7 @@ Generated: 2026-11-01 01:54:39
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Acquisition, Atlanta / Georgia, score 85. Pricing benchmark.
 - Acquisition - California - CBRE Brokers $18.3M Sale of Five Retail Properties in Eastvale, California: Acquisition, California, score 77. Pricing benchmark.
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Acquisition, Atlanta / Georgia, score 77. Pricing benchmark.
+- Construction Financing - Phoenix / Arizona - StreetLights Residential Sells Luxury Phoenix-Area Multifamily Property: Construction Financing, Phoenix / Arizona, score 72. Pricing benchmark.
 - Acquisition - California - Roxborough Makes Second NorCal Apartment Buy Through Latest Fund: Acquisition, California, score 70. Pricing benchmark.
 - Acquisition - Phoenix / Arizona - HSL Purchases 180-Unit Tucson Rental Community: Acquisition, Phoenix / Arizona, score 57. Pricing benchmark.
 - Acquisition - Los Angeles / California - Thorofare Capital Provides $16.5M Acquisition Loan for Houston Multifamily Property: Acquisition, Los Angeles / California, score 56. Pricing benchmark.
@@ -88,9 +89,9 @@ Generated: 2026-11-01 01:54:39
 
 ## Deal / Project Signals By Residential Sector
 
-- Apartment: 32 deal/project signal(s)
-- Affordable Housing: 12 deal/project signal(s)
-- Multifamily: 9 deal/project signal(s)
+- Apartment: 31 deal/project signal(s)
+- Multifamily: 13 deal/project signal(s)
+- Affordable Housing: 8 deal/project signal(s)
 - Student Housing: 3 deal/project signal(s)
 - General Residential: 2 deal/project signal(s)
 - Mixed-Use Residential: 2 deal/project signal(s)
@@ -107,10 +108,10 @@ Use those reports to separate repeated coverage from genuinely separate events.
 
 Developer, lender, capital partner, market, and deal edges are available in `relationship_graph_report.md`.
 - Greystar -> walker & dunlop: Financing Relationship, score 100.
-- Walker & Dunlop -> walker & dunlop: Financing Relationship, score 96.
+- Brookfield -> brookfield: Financing Relationship, score 98.
+- Brookfield -> fannie mae: Financing Relationship, score 98.
 - Greystar -> Dallas: Financing Relationship, score 95.
 - Greystar -> Dallas / Texas: Financing Relationship, score 95.
-- Greystar -> Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Financing Relationship, score 95.
 
 ## Implications for Woomi / Woomi Global
 

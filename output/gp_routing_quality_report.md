@@ -1,21 +1,21 @@
 # GP Routing Quality Report
 
-Generated: 2026-11-01 01:54:31
+Generated: 2026-11-02 02:09:10
 
 ## Summary
-- Total GP / Capital candidates: 44
-- Selected GP / Capital articles: 22
-- Debt Financing count: 7
-- Refinancing count: 4
+- Total GP / Capital candidates: 45
+- Selected GP / Capital articles: 19
+- Debt Financing count: 6
+- Refinancing count: 6
 - Construction Financing count: 6
 - Acquisition Financing count: 1
 - Equity Transaction count: 0
 - Operator Activity count: 0
-- Other / Unknown market count: 29
+- Other / Unknown market count: 26
 
 ## Routing Regression Summary
 - Market Intelligence routed articles: 14
-- Development Activity routed articles: 62
+- Development Activity routed articles: 60
 - GP / Capital Activity routed articles: 3
 - Market-protected research / macro / supply articles: 3
 - Approval / Entitlement development rows: 0
@@ -25,10 +25,10 @@ Generated: 2026-11-01 01:54:31
 
 ## Activity Type Distribution
 - disposition_exit: 15
-- debt_financing: 7
+- refinancing: 6
+- debt_financing: 6
 - construction_financing: 6
 - acquisition: 5
-- refinancing: 4
 - joint_venture: 4
 - capital_raise: 1
 - asset_strategy: 1
@@ -40,23 +40,23 @@ Generated: 2026-11-01 01:54:31
 ## Top Unresolved Market Extraction Examples
 - 312-Unit Multifamily in Indiana Changes Hands | Connect CRE | no city, state, or market keyword detected
 - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters | Connect CRE | no city, state, or market keyword detected
-- Construction Starts For 39340 Fremont Boulevard, Fremont | SF YIMBY | no city, state, or market keyword detected
 - Lightstone Capital Provides $29.5M Loan for Orange, N.J., Multifamily Development | Commercial Observer | no city, state, or market keyword detected
-- Voorhees Greenlights 178-Unit Office-To-Resi Conversion Amid Multifamily Boom | Bisnow | no city, state, or market keyword detected
 - Timberland Partners Acquires 192-Unit Apartment Community in Chesterfield, Missouri | REBusiness Online | no city, state, or market keyword detected
 - Best Year for Missing Middle Construction Since 2007 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Major Markets Lead U.S. Investment Sales Recovery | Connect CRE Apartments | used broad market bucket: National
 - 80-Unit Seniors Housing Development Opens in Suburban Chicago | Connect CRE | no city, state, or market keyword detected
 - Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- Leyden Township Opens 80 New Affordable Senior Apartments | Yield PRO | no city, state, or market keyword detected
 - Multifamily Missing Middle Falls Back | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Multifamily Missing Middle Construction: First Quarter 2026 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Multifamily Absorption Rate Remains Below 50% | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Shorter Apartment Construction Time in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- Second Quarter 2026 Multifamily Construction Data | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- Rent Prices Continue to Rise, While Absorption Remains Low | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- Plans Revealed For 2101 Brush Street, West Oakland | SF YIMBY | no city, state, or market keyword detected
 
 ## Sample Selected GP / Capital Articles
+- Irvine Company Lands $157.2M Fannie Mae Refinancing for 309-Unit Luxury Multifamily Property in Los Angeles | refinancing | Los Angeles / California | Yield PRO
 - JLL Arranges Bridge Financing for 1184-Unit Multifamily Portfolio in Coveted Highlands Ranch Master-Planned Community | capital_raise | Denver / Colorado | Yield PRO
-- ARCTRUST and Edison Equity Residential Break Ground on Luxury Age-Restricted Multifamily Concierge Community Serenova at Dripping Springs | construction_financing | Austin / Texas | Yield PRO
 - Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista | refinancing | Los Angeles / California | Commercial Observer
 - Greystone Refis Hollywood, Fla., Apartments With $109M Loan | joint_venture | Los Angeles / California | Commercial Observer
 - Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters | asset_strategy | Other / Unknown | Connect CRE
@@ -66,7 +66,7 @@ Generated: 2026-11-01 01:54:31
 - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community | construction_financing | Atlanta / Georgia | Connect CRE Apartments
 - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets | refinancing | Dallas / Texas | Connect CRE Texas
 - ORIX Acquires Buckhead Apartments for $83M | acquisition | Atlanta / Georgia | Connect CRE Atlanta
-- Lightstone Capital Provides $29.5M Loan for Orange, N.J., Multifamily Development | refinancing | Other / Unknown | Commercial Observer
-- Timberland Partners Acquires 192-Unit Apartment Community in Chesterfield, Missouri | acquisition | Other / Unknown | REBusiness Online
-- Roxborough Makes Second NorCal Apartment Buy Through Latest Fund | acquisition | California | Connect CRE California
-- Walker & Dunlop Affordable Investment Sales Offers 100% Affordable Multifamily Community in Firebaugh California | disposition_exit | California | Yield PRO
+- StreetLights Residential Sells Luxury Phoenix-Area Multifamily Property | construction_financing | Phoenix / Arizona | Yield PRO
+- 908 Group Celebrates Groundbreaking of New 684-Bed Student Housing Community Near University of Florida | construction_financing | Florida | Yield PRO
+- Major Markets Lead U.S. Investment Sales Recovery | disposition_exit | National | Connect CRE Apartments
+- PCCP and Cityview Joint Venture Recapitalizes Apartment Community in Filipinotown Neighborhood of Los Angeles | joint_venture | Los Angeles / California | Yield PRO

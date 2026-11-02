@@ -1,6 +1,6 @@
 # LA / California Entitlement Watch Report
 
-Generated: 2026-11-01 01:55:04
+Generated: 2026-11-02 02:09:45
 
 - Total LA / California entitlement watch items: 11
 
@@ -84,8 +84,8 @@ Submarket-level site strategy detail is available in `submarket_intelligence_rep
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 92
-- LA lifecycle watch items: 58
-- Stage mix: Refinancing / Recapitalization: 10, Site Acquisition / Site Control: 10, Delivery / Opening: 7, Unknown Stage: 56, Vertical Construction: 3
+- Lifecycle records: 91
+- LA lifecycle watch items: 57
+- Stage mix: Refinancing / Recapitalization: 12, Site Acquisition / Site Control: 10, Delivery / Opening: 11, Unknown Stage: 49, Vertical Construction: 3
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

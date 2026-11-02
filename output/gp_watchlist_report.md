@@ -1,23 +1,23 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-11-01 01:54:39
+Generated: 2026-11-02 02:09:23
 
-- GP/developer candidates reviewed: 29
+- GP/developer candidates reviewed: 30
 - Tier 1 Strategic GPs: 0
-- Tier 2 High Potential GPs: 11
+- Tier 2 High Potential GPs: 12
 
 ## Top Emerging GPs
 
 - Greystar: 75 (Tier 2 High Potential GP), Denver / Colorado, California / LA strategic positioning.
 - IPA: 75 (Tier 2 High Potential GP), Riverside / California, California / LA strategic positioning.
 - Carmel Partners: 74 (Tier 2 High Potential GP), San Francisco / California, California / LA strategic positioning.
-- Walker & Dunlop: 74 (Tier 2 High Potential GP), Dallas / Texas, California / LA strategic positioning.
 - PCCP: 74 (Tier 2 High Potential GP), Los Angeles / California, California / LA strategic positioning.
-- CBRE: 73 (Tier 2 High Potential GP), Atlanta / Georgia, California / LA strategic positioning.
 - Bridge Investment Group: 73 (Tier 2 High Potential GP), Los Angeles / California, California / LA strategic positioning.
 - Freddie Mac: 73 (Tier 2 High Potential GP), Los Angeles / California, California / LA strategic positioning.
 - Greystone: 73 (Tier 2 High Potential GP), Los Angeles / California, California / LA strategic positioning.
 - Hines: 73 (Tier 2 High Potential GP), Atlanta / Georgia, California / LA strategic positioning.
+- Brookfield: 71 (Tier 2 High Potential GP), Los Angeles / California, California / LA strategic positioning.
+- CBRE: 71 (Tier 2 High Potential GP), Atlanta / Georgia, California / LA strategic positioning.
 
 ## Tier 1 Strategic GP
 
@@ -28,26 +28,26 @@ Generated: 2026-11-01 01:54:39
 - Greystar: score 75, Tier 2 High Potential GP, Denver / Colorado, Potential GP partnership candidate. Track JV and capital partner activity.
 - IPA: score 75, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Carmel Partners: score 74, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Walker & Dunlop: score 74, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 - PCCP: score 74, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- CBRE: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
 - Bridge Investment Group: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Freddie Mac: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Greystone: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
+- Brookfield: score 71, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 71, Tier 2 High Potential GP, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## California / LA GP Activity
 
 - Greystar: score 75, Tier 2 High Potential GP, Denver / Colorado, Potential GP partnership candidate. Track JV and capital partner activity.
 - IPA: score 75, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Carmel Partners: score 74, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Walker & Dunlop: score 74, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 - PCCP: score 74, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- CBRE: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
 - Bridge Investment Group: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Freddie Mac: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Greystone: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
+- Brookfield: score 71, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 71, Tier 2 High Potential GP, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## BTR / SFR GP Activity
 
@@ -56,7 +56,6 @@ Generated: 2026-11-01 01:54:39
 ## Affordable Housing GP Activity
 
 - Carmel Partners: score 74, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Walker & Dunlop: score 74, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 - JLL: score 70, Tier 2 High Potential GP, Denver / Colorado, Potential GP partnership candidate. Track JV and capital partner activity.
 - Tishman Speyer: score 57, Tier 3 Monitoring GP, Santa Monica / California, Capital market and pricing discovery reference. Review LA / California development activity.
 
@@ -73,26 +72,26 @@ Generated: 2026-11-01 01:54:39
 - Greystar: score 75, Tier 2 High Potential GP, Denver / Colorado, Potential GP partnership candidate. Track JV and capital partner activity.
 - IPA: score 75, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Carmel Partners: score 74, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Walker & Dunlop: score 74, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 - PCCP: score 74, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- CBRE: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
 - Bridge Investment Group: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Freddie Mac: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Greystone: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
+- Brookfield: score 71, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 71, Tier 2 High Potential GP, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## Potential Woomi Partnership Candidates
 
 - Greystar: score 75, Tier 2 High Potential GP, Denver / Colorado, Potential GP partnership candidate. Track JV and capital partner activity.
 - IPA: score 75, Tier 2 High Potential GP, Riverside / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Carmel Partners: score 74, Tier 2 High Potential GP, San Francisco / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Walker & Dunlop: score 74, Tier 2 High Potential GP, Dallas / Texas, Potential GP partnership candidate. Track JV and capital partner activity.
 - PCCP: score 74, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- CBRE: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
 - Bridge Investment Group: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Freddie Mac: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Greystone: score 73, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
+- Brookfield: score 71, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 71, Tier 2 High Potential GP, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## GP Source Expansion Summary
 
@@ -124,28 +123,28 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 - Greystar: Track JV and capital partner activity (Medium confidence).
 - IPA: Track JV and capital partner activity (High confidence).
 - Carmel Partners: Track JV and capital partner activity (Medium confidence).
-- Walker & Dunlop: Track JV and capital partner activity (Medium confidence).
 - PCCP: Track JV and capital partner activity (Medium confidence).
+- Bridge Investment Group: Track JV and capital partner activity (Medium confidence).
 
 ## Recommended Strategic Follow-up Actions
 
 - Greystar: Track JV and capital partner activity.
 - IPA: Track JV and capital partner activity.
 - Carmel Partners: Track JV and capital partner activity.
-- Walker & Dunlop: Track JV and capital partner activity.
 - PCCP: Track JV and capital partner activity.
-- CBRE: Review LA / California development activity.
 - Bridge Investment Group: Track JV and capital partner activity.
 - Freddie Mac: Track JV and capital partner activity.
+- Greystone: Track JV and capital partner activity.
+- Hines: Track JV and capital partner activity.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 179
-- Institutional-grade signals: 24
-- High-confidence signals: 49
-- Weak/noisy signals: 98
-- High-confidence watchlist items: 49
+- Signals evaluated: 177
+- Institutional-grade signals: 26
+- High-confidence signals: 52
+- Weak/noisy signals: 92
+- High-confidence watchlist items: 52
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

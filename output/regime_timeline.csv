@@ -1,7 +1,7 @@
 ﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
-20261101-015431-2b96e17c,2026-11-01,Construction financing still selective,Building,stable,6,6,28,4.35,2.94,9,9,4,2,California,Broadly Confirmed,steady visibility,
-20261101-015431-2b96e17c,2026-11-01,Institutional recap over expansion,Persistent,stable,75,8,31,4.55,3.35,3,3,3,2,Los Angeles / California,Moderate Signal,steady visibility,
-20261101-015431-2b96e17c,2026-11-01,JV / partnership activity observed,Persistent,stable,187,8,31,5.9,3.58,5,5,4,2,Los Angeles / California,Broadly Confirmed,steady visibility,
-20261101-015431-2b96e17c,2026-11-01,LA entitlement precedent accumulation,Building,stable,187,8,31,7.06,3.19,11,11,4,0,Los Angeles / California,Source-Concentrated,steady visibility,
-20261101-015431-2b96e17c,2026-11-01,Refinancing pressure unresolved,Persistent,stable,75,8,31,5.19,3.61,4,4,3,3,Los Angeles / California,Moderate Signal,steady visibility,
-20261101-015431-2b96e17c,2026-11-01,Sun Belt lease-up pressure watch,Persistent,stable,187,8,31,3.16,2.9,3,3,2,1,,Moderate Signal,steady visibility,
+20261102-020910-e6c6dee9,2026-11-02,Construction financing still selective,Weakening,weakening,7,7,28,4.48,3.0,8,8,4,2,Denver / Colorado,Broadly Confirmed,Construction financing still selective visibility is weakening versus prior runs.,
+20261102-020910-e6c6dee9,2026-11-02,Institutional recap over expansion,Building,accelerating,76,8,31,4.61,3.39,4,4,3,2,Los Angeles / California,Moderate Signal,Institutional recap over expansion signal is accelerating versus prior runs.,
+20261102-020910-e6c6dee9,2026-11-02,JV / partnership activity observed,Building,stable,188,8,31,5.87,3.58,5,5,4,2,Los Angeles / California,Broadly Confirmed,steady visibility,
+20261102-020910-e6c6dee9,2026-11-02,LA entitlement precedent accumulation,Peaking,stable,188,8,31,7.19,3.13,11,11,4,0,Los Angeles / California,Source-Concentrated,"Signal visibility remains elevated, but confirmation breadth is narrowing.",
+20261102-020910-e6c6dee9,2026-11-02,Refinancing pressure unresolved,Building,accelerating,76,8,31,5.26,3.65,5,5,3,3,Los Angeles / California,Broadly Confirmed,Refinancing pressure unresolved signal is accelerating versus prior runs.,
+20261102-020910-e6c6dee9,2026-11-02,Sun Belt lease-up pressure watch,Persistent,stable,188,8,31,3.13,2.9,3,3,2,1,,Moderate Signal,steady visibility,

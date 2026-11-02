@@ -1,22 +1,22 @@
 # Executive Dashboard Brief
 
-Generated: 2026-11-01 01:54:31
+Generated: 2026-11-02 02:09:10
 
 ## Executive Snapshot
 
-- Total articles reviewed: 82
-- High-confidence signals: 49
-- Institutional-grade signals: 24
-- Opportunities: 55
-- Distress signals: 15
-- Recommended executive focus: Review Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets and related high-confidence project signals.
+- Total articles reviewed: 80
+- High-confidence signals: 52
+- Institutional-grade signals: 26
+- Opportunities: 54
+- Distress signals: 16
+- Recommended executive focus: Review General Project Signal - Denver / Colorado - JLL Arranges Bridge Financing for 1184-Unit Multifamily Portfolio in Coveted Highlands Ran... and related high-confidence project signals.
 
 ## Top 5 Things to Review Today
 
 - Acquires 280-Unit Buckhead Apartment Community ParkProperty Capital (Capital Flow, Critical): Track capital flow pattern and related relationships.
 - Alliance Residential (Capital Flow, Critical): Track capital flow pattern and related relationships.
 - Arcus Real Estate Capital (Capital Flow, Critical): Track capital flow pattern and related relationships.
-- Construction Financing - California - Affordable housing starts work at 400 Centinela Ave. in Inglewood (LA Asset Watch, Critical): Review parcel clue, entitlement path, sponsor, and comparable sites.
+- Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community (LA Asset Watch, Critical): Track lender, maturity, owner, and recapitalization path.
 - Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach (LA Asset Watch, Critical): Monitor asset for repeated local confirmation.
 
 ## Immediate Watch Items
@@ -24,12 +24,12 @@ Generated: 2026-11-01 01:54:31
 - Acquires 280-Unit Buckhead Apartment Community ParkProperty Capital: Fading Action: Track capital flow pattern and related relationships.
 - Alliance Residential: Fading Action: Track capital flow pattern and related relationships.
 - Arcus Real Estate Capital: Fading Action: Track capital flow pattern and related relationships.
-- Construction Financing - California - Affordable housing starts work at 400 Centinela Ave. in Inglewood: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
+- Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community: Track site control precedent Action: Track lender, maturity, owner, and recapitalization path.
 - Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach: Track local sponsor activity Action: Monitor asset for repeated local confirmation.
 
 ## LA / California Watch
 
-- Construction Financing - California - Affordable housing starts work at 400 Centinela Ave. in Inglewood: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
+- Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community: Track site control precedent Action: Track lender, maturity, owner, and recapitalization path.
 - Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach: Track local sponsor activity Action: Monitor asset for repeated local confirmation.
 - Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Review acquisition comparables Action: Track lender, maturity, owner, and recapitalization path.
 - Refinancing - Los Angeles / California - Greystone Refis Hollywood, Fla., Apartments With $109M Loan: Review acquisition comparables Action: Track lender, maturity, owner, and recapitalization path.
@@ -48,12 +48,12 @@ Generated: 2026-11-01 01:54:31
 - Refinancing Gap: Refinancing Gap may create a pricing, capital, partnership, or pipeline opening in Dallas / Texas. Action: Add to executive opportunity review.
 - Construction Financing Gap: Construction Financing Gap may create a pricing, capital, partnership, or pipeline opening in Atlanta / Georgia. Action: Add to executive opportunity review.
 - Construction Financing Gap: Construction Financing Gap may create a pricing, capital, partnership, or pipeline opening in Sun Belt. Action: Add to executive opportunity review.
-- Refinancing Gap: Refinancing Gap may create a pricing, capital, partnership, or pipeline opening in Miami / Florida. Action: Add to executive opportunity review.
+- Refinancing Gap: Refinancing Gap may create a pricing, capital, partnership, or pipeline opening in Los Angeles / California. Action: Add to executive opportunity review.
 - Refinancing Gap: Refinancing Gap may create a pricing, capital, partnership, or pipeline opening in Los Angeles / California. Action: Add to executive opportunity review.
 
 ## Development Lifecycle Watch
 
-- Construction Financing - California - Affordable housing starts work at 400 Centinela Ave. in Inglewood: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
+- Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community: Track site control precedent Action: Track lender, maturity, owner, and recapitalization path.
 - Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach: Track local sponsor activity Action: Monitor asset for repeated local confirmation.
 - Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Review acquisition comparables Action: Track lender, maturity, owner, and recapitalization path.
 - Refinancing - Los Angeles / California - Greystone Refis Hollywood, Fla., Apartments With $109M Loan: Review acquisition comparables Action: Track lender, maturity, owner, and recapitalization path.
@@ -74,7 +74,7 @@ Generated: 2026-11-01 01:54:31
 - Track capital flow pattern and related relationships (capital_flow_report.md).
 - Track capital flow pattern and related relationships (capital_flow_report.md).
 - Track capital flow pattern and related relationships (capital_flow_report.md).
-- Review parcel clue, entitlement path, sponsor, and comparable sites (la_asset_watch_report.md).
+- Track lender, maturity, owner, and recapitalization path (la_asset_watch_report.md).
 - Monitor asset for repeated local confirmation (la_asset_watch_report.md).
 
 

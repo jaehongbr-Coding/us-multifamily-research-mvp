@@ -1,6 +1,6 @@
 # 한국어 GP Watchlist
 
-- 생성 시각: 2026-11-01 01:54:31
+- 생성 시각: 2026-11-02 02:09:10
 - 참고 원문 파일: `gp_watchlist_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -9,19 +9,19 @@
 - Greystar: 기타 / 미확인, 일반 주거, 점수 75 (Tier 2 High Potential GP; Potential GP partnership candidate)
 - IPA: 기타 / 미확인, 일반 주거, 점수 75 (Tier 2 High Potential GP; Potential GP partnership candidate)
 - Carmel Partners: 기타 / 미확인, 일반 주거, 점수 74 (Tier 2 High Potential GP; Potential GP partnership candidate)
-- Walker & Dunlop: 기타 / 미확인, 일반 주거, 점수 74 (Tier 2 High Potential GP; Potential GP partnership candidate)
 - PCCP: 기타 / 미확인, 일반 주거, 점수 74 (Tier 2 High Potential GP; Potential GP partnership candidate)
-- CBRE: 기타 / 미확인, 일반 주거, 점수 73 (Tier 2 High Potential GP; Capital market and pricing discovery reference)
 - Bridge Investment Group: 기타 / 미확인, 일반 주거, 점수 73 (Tier 2 High Potential GP; Potential GP partnership candidate)
 - Freddie Mac: 기타 / 미확인, 일반 주거, 점수 73 (Tier 2 High Potential GP; Potential GP partnership candidate)
 - Greystone: 기타 / 미확인, 일반 주거, 점수 73 (Tier 2 High Potential GP; Potential GP partnership candidate)
 - Hines: 기타 / 미확인, 일반 주거, 점수 73 (Tier 2 High Potential GP; Potential GP partnership candidate)
+- Brookfield: 기타 / 미확인, 일반 주거, 점수 71 (Tier 2 High Potential GP; Potential GP partnership candidate)
+- CBRE: 기타 / 미확인, 일반 주거, 점수 71 (Tier 2 High Potential GP; Capital market and pricing discovery reference)
 
 ## 기관자본 연결성
 
+- Brookfield: 기타 / 미확인, 멀티패밀리, 점수 100 (Capital Outflow / Exit; GP Capability Benchmark Signal)
 - CBRE: 기타 / 미확인, 아파트, 점수 100 (Capital Inflow; GP Capability Benchmark Signal)
 - Carmel Partners: 기타 / 미확인, 어포더블 하우징, 점수 100 (Refinancing / Recapitalization; Potential JV / Partnership Signal)
-- Equity Residential: 기타 / 미확인, 멀티패밀리, 점수 100 (Refinancing / Recapitalization; Potential JV / Partnership Signal)
 - Greystar: 기타 / 미확인, 멀티패밀리, 점수 100 (Capital Inflow; Potential JV / Partnership Signal)
 - JLL: 기타 / 미확인, 멀티패밀리, 점수 100 (Capital Inflow; GP Capability Benchmark Signal)
 

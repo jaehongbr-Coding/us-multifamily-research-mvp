@@ -1,37 +1,37 @@
 # GP / Capital Entity Quality Report
 
-Generated: 2026-11-02 02:09:23
+Generated: 2026-11-03 03:51:54
 
 ## Summary
 
 - Total GP/Capital articles: 45
-- Participant not identified: 15
-- Dictionary match: 21
-- Title fallback / headline extraction: 5
-- Low confidence or unresolved: 15
+- Participant not identified: 19
+- Dictionary match: 15
+- Title fallback / headline extraction: 4
+- Low confidence or unresolved: 19
 
 ## Representative Resolved Samples
 
-- Fannie Mae: Irvine Company Lands $157.2M Fannie Mae Refinancing for 309-Unit Luxury Multifamily Property in Los Angeles (dictionary_match, high)
-- JLL: JLL Arranges Bridge Financing for 1184-Unit Multifamily Portfolio in Coveted Highlands Ranch Master-Planned Community (dictionary_match, high)
-- Marcus & Millichap: Marcus & Millichap Arranges Sale of Vintage Multifamily Property in Los Angeles (dictionary_match, high)
-- Playa Vista Capital: Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista (dictionary_match, high)
-- Greystone: Greystone Refis Hollywood, Fla., Apartments With $109M Loan (dictionary_match, high)
-- Eastern Bank: Eastern Bank Lends on Adaptive Reuse of Former New London Newspaper Headquarters (title_lead_pattern, medium)
-- Carmel Partners: 390 apartments underway at 6615 PCH in Long Beach (dictionary_match, high)
-- CBRE: CBRE Arranges $81M Construction Loan for Multifamily Development in Charlotte (dictionary_match, high)
-- JLL: JLL Arranges $135M in Construction Financing for Yonkers Multifamily Project (dictionary_match, high)
-- CBRE: RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community (dictionary_match, high)
+- Fannie Mae: Northmarq’s Debt + Equity Team Arranges $26.1M in Financing for Class A Multifamily Community in Sioux Falls (dictionary_match, high)
+- Fort Lauderdale Residential: Atla Lands Lands $140M to Build Rental Tower in Fort Lauderdale (capital_event_sentence, medium)
+- BridgeCity Capital: BridgeCity Lends $28M for Williamsburg Multifamily Development (capital_event_sentence, medium)
+- Courtesy JLL Rechler Equity Partners: PCCP Refis Long Island Apartments With $154M Loan (dictionary_match, high)
+- Madison Realty Capital: Madison Realty Capital, Red Cove Lend $132M for Seattle-Area Apartments Build (capital_event_sentence, medium)
+- Dwight Capital: Dwight Capital Provides $23.5M HUD-Insured Refinancing for Northern New Jersey Apartment Complex (title_lead_pattern, medium)
+- Blackstone: Terra, Fortune Ink $220M Key Biscayne Condo Financing (dictionary_match, high)
+- Benefit Street Partners: Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets (dictionary_match, high)
+- JLL: Little Havana Apartment Owners Land $50.8M Refi (dictionary_match, high)
+- CBRE: ORIX Acquires Buckhead Apartments for $83M (dictionary_match, high)
 
 ## Unresolved Examples
 
-- Northmarq Closes Sale of Luxury Multifamily Community The Bend Apartments in Louisville Metro | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
-- 312-Unit Multifamily in Indiana Changes Hands | Connect CRE | No institution name detected in dictionary, title, summary, or source text.
-- Modular affordable housing takes shape at 4301 S. Vermont Ave. | Urbanize LA | No institution name detected in dictionary, title, summary, or source text.
-- Toro Development Opens $560M Medley Mixed-Use Destination in Johns Creek, Georgia | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
-- Northmarq Arranges $24M in Construction Financing for Student Housing Project Near UC Berkeley | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
-- 908 Group Celebrates Groundbreaking of New 684-Bed Student Housing Community Near University of Florida | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
-- Investor Takes Over Distressed Atlanta Apartment Asset | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.
-- How Bainbridge set a 2026 high-water mark with a Virginia property sale | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.
-- The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market? | Multifamily Executive | No institution name detected in dictionary, title, summary, or source text.
-- Passco Offloads Buckhead Rental Asset for $87.5M | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.
+- New York Life Provides $480M Refi for 10-Property Multifamily Portfolio | Commercial Observer | No institution name detected in dictionary, title, summary, or source text.
+- Northmarq Brokers Sale of 64-Unit, Historic Multifamily Property in Kansas City | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
+- 312-Unit Multifamily in Indiana Changes Hands | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
+- Northmarq Brokers Sale of Newly Built Class A Multifamily Property in Lawrence Kansas | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
+- Kidder Mathews Arranges Sale of 45-Unit Multifamily in Walla Walla | Connect CRE | No institution name detected in dictionary, title, summary, or source text.
+- Kislak Negotiates $33.7M Sale of Apartment Complex in Tom’s River, New Jersey | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
+- Golden Apartment Building Sells For $62M To Chicago Company | Bisnow | No institution name detected in dictionary, title, summary, or source text.
+- Refinancing Multifamily Borrowers Face 41% Increase in Interest Rates | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
+- Seattle Social Housing Developer to Buy West Seattle Apartments for $68M | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
+- RE/MAX Commercial Arranges $4.5M Sale of Mixed-Use Block in Norridge, Illinois | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.

@@ -1,37 +1,37 @@
 # 한국어 LA 자산 / 프로젝트 Watch
 
-- 생성 시각: 2026-11-02 02:09:10
+- 생성 시각: 2026-11-03 03:51:47
 - 참고 원문 파일: `la_asset_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
 ## LA / Southern California 자산 Watch
 
 - Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Los Angeles, 아파트, 점수 100 (Unknown; Track lender, maturity, owner, and recapitalization path)
-- Refinancing - Los Angeles / California - Greystone Refis Hollywood, Fla., Apartments With $109M Loan: Los Angeles, 아파트, 점수 100 (Unknown; Track lender, maturity, owner, and recapitalization path)
-- Refinancing - Los Angeles / California - Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista: Los Angeles, 아파트, 점수 100 (Unknown; Track lender, maturity, owner, and recapitalization path)
-- Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach: Los Angeles, 어포더블 하우징, 점수 100 (Unknown; Monitor asset for repeated local confirmation)
-- Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community: Los Angeles, 아파트, 점수 100 (Site Search / Early Signal; Track lender, maturity, owner, and recapitalization path)
-- Refinancing - Los Angeles / California - Irvine Company Lands $157.2M Fannie Mae Refinancing for 309-Unit Luxury Multifamily Proper...: Los Angeles, 멀티패밀리, 점수 100 (Site Search / Early Signal; Track lender, maturity, owner, and recapitalization path)
-- Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Los Angeles, 아파트, 점수 100 (Site Search / Early Signal; Track lender, maturity, owner, and recapitalization path)
+- Refinancing - New York City / New York - Prime Finance Provides $57M Refi for East Village Multifamily Complex: Los Angeles, 아파트, 점수 100 (Unknown; Track lender, maturity, owner, and recapitalization path)
+- Construction Financing - Other / Unknown - Atla Lands Lands $140M to Build Rental Tower in Fort Lauderdale: Los Angeles, 아파트, 점수 100 (Site Controlled; Monitor asset for repeated local confirmation)
 - Entitlement / Permitting - California - 37-unit affordable housing complex underway at 3751 S. Delmas Ter. in Palms: Los Angeles, 어포더블 하우징, 점수 100 (Unknown; Review parcel clue, entitlement path, sponsor, and comparable sites)
 - Entitlement / Permitting - California - Affordable housing underway at 5403 S. Inglewood Blvd. in Del Rey: Los Angeles, 어포더블 하우징, 점수 100 (Unknown; Review parcel clue, entitlement path, sponsor, and comparable sites)
-- General Project Signal - Denver / Colorado - JLL Arranges Bridge Financing for 1184-Unit Multifamily Portfolio in Coveted Highlands Ran...: Los Angeles, 멀티패밀리, 점수 100 (Site Search / Early Signal; Monitor asset for repeated local confirmation)
+- Refinancing - Other / Unknown - PCCP Refis Long Island Apartments With $154M Loan: Los Angeles, 아파트, 점수 100 (Site Search / Early Signal; Track lender, maturity, owner, and recapitalization path)
+- Entitlement / Permitting - Los Angeles / California - Housing pitched for 5412 Bellingham Ave. in Valley Village: Los Angeles, 어포더블 하우징, 점수 100 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
+- Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: Los Angeles, 아파트, 점수 100 (Unknown; Review parcel clue, entitlement path, sponsor, and comparable sites)
+- Disposition / Exit - California - Marcus & Millichap Brokers $13.6M Sale of 63-Unit Multifamily Property in Davis California: Los Angeles, 아파트, 점수 100 (Unknown; Review parcel clue, entitlement path, sponsor, and comparable sites)
+- Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Los Angeles, 아파트, 점수 100 (Unknown; Monitor asset for repeated local confirmation)
 
 ## 프로젝트 / 부지 단서
 
 - Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Dallas, Los Angeles
-- Refinancing - Los Angeles / California - Greystone Refis Hollywood, Fla., Apartments With $109M Loan: Los Angeles / California, Los Angeles
-- Refinancing - Los Angeles / California - Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista: Los Angeles, Los Angeles
-- Construction Financing - San Francisco / California - 390 apartments underway at 6615 PCH in Long Beach: San Francisco, Los Angeles
-- Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community: Atlanta, Los Angeles
+- Refinancing - New York City / New York - Prime Finance Provides $57M Refi for East Village Multifamily Complex: Manhattan, Los Angeles
+- Construction Financing - Other / Unknown - Atla Lands Lands $140M to Build Rental Tower in Fort Lauderdale: Unknown, Los Angeles
+- Entitlement / Permitting - California - 37-unit affordable housing complex underway at 3751 S. Delmas Ter. in Palms: California, Los Angeles
+- Entitlement / Permitting - California - Affordable housing underway at 5403 S. Inglewood Blvd. in Del Rey: 5403 S. Inglewood Blvd, Los Angeles
 
 ## 인허가 / 개발 단계
 
 - Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Los Angeles, 아파트, 점수 100 (Refinancing / Recapitalization; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
-- Refinancing - Los Angeles / California - Greystone Refis Hollywood, Fla., Apartments With $109M Loan: Los Angeles, 아파트, 점수 100 (Refinancing / Recapitalization; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
-- Refinancing - Los Angeles / California - Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista: Los Angeles, 아파트, 점수 100 (Refinancing / Recapitalization; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
-- Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community: Los Angeles, 아파트, 점수 100 (Refinancing / Recapitalization; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
-- Refinancing - Los Angeles / California - Irvine Company Lands $157.2M Fannie Mae Refinancing for 309-Unit Luxury Multifamily Proper...: Los Angeles, 멀티패밀리, 점수 100 (Refinancing / Recapitalization; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
+- Refinancing - Other / Unknown - PCCP Refis Long Island Apartments With $154M Loan: Los Angeles, 아파트, 점수 99 (Unknown Stage; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
+- Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Los Angeles, 아파트, 점수 99 (Unknown Stage; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
+- Entitlement / Permitting - Santa Monica / California - Fresh renderings for Tishman Speyer projects in Downtown Santa Monica: Santa Monica, 어포더블 하우징, 점수 97 (Unknown Stage; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
+- General Project Signal - Other / Unknown - Northmarq’s Debt + Equity Team Arranges $26.1M in Financing for Class A Multifamily Commun...: Los Angeles, 아파트, 점수 97 (Unknown Stage; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
 
 ## 추천 현지 확인 사항
 

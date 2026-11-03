@@ -1,0 +1,10 @@
+﻿run_date,run_id,primary_topic,article_count,high_confidence_count,medium_confidence_count,low_confidence_count,unknown_count,top_markets,top_sources
+2026-11-03,20261103-035147-e13f44eb,development_pipeline,15,1,6,8,0,Other / Unknown (6); Miami / Florida (2); Los Angeles / California (2); Los Angeles (1); California (1),NAHB Eye on Housing - Multifamily (4); Yield PRO (2); Connect CRE Apartments (2); Connect CRE Orange County (1); Bisnow (1)
+2026-11-03,20261103-035147-e13f44eb,transaction_market,15,1,8,6,0,Other / Unknown (6); Atlanta / Georgia (4); California (3); Seattle (1); Denver / Colorado (1),Connect CRE Atlanta (4); REBusiness Online (3); Yield PRO (3); Connect CRE Apartments (1); Connect CRE (1)
+2026-11-03,20261103-035147-e13f44eb,capital_markets,13,5,6,2,0,New York City / New York (5); Other / Unknown (2); New York (1); Seattle (1); Dallas / Texas (1),Commercial Observer (8); REBusiness Online (2); Connect CRE Texas (1); Connect CRE South Florida (1); Connect CRE Apartments (1)
+2026-11-03,20261103-035147-e13f44eb,gp_activity,11,0,0,1,10,Other / Unknown (5); Phoenix / Arizona (2); Atlanta / Georgia (1); Connecticut (1); Georgia (1),NAHB Eye on Housing - Multifamily (4); Yield PRO (3); Connect CRE Phoenix (2); Connect CRE Apartments (1); Multifamily Dive (1)
+2026-11-03,20261103-035147-e13f44eb,supply_demand,7,0,0,7,0,Other / Unknown (4); National (2); Georgia (1),NAHB Eye on Housing - Multifamily (5); REBusiness Online (1); Multifamily Executive (1)
+2026-11-03,20261103-035147-e13f44eb,institutional_capital,5,1,2,2,0,Other / Unknown (2); New York (1); Riverside / California (1); Atlanta / Georgia (1),Yield PRO (1); Connect CRE (1); Connect CRE California (1); Multifamily Executive (1); Connect CRE Atlanta (1)
+2026-11-03,20261103-035147-e13f44eb,other,5,0,0,0,5,Los Angeles / California (3); Santa Monica / California (1); California (1),Urbanize LA (4); SF YIMBY (1)
+2026-11-03,20261103-035147-e13f44eb,macro_financing,4,0,0,0,4,Other / Unknown (4),Multifamily Dive (2); NAHB Eye on Housing - Multifamily (2)
+2026-11-03,20261103-035147-e13f44eb,research_data,3,0,0,0,3,California (2); Other / Unknown (1),Urbanize LA (3)

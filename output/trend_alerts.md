@@ -1,18 +1,18 @@
 # Trend Alerts
 
-Generated: 2026-11-02 02:09:50
+Generated: 2026-11-03 03:52:08
 
-- Latest run timestamp: 2026-11-02 02:09:10
-- Previous run timestamp: 2026-11-01 01:54:31
+- Latest run timestamp: 2026-11-03 03:51:47
+- Previous run timestamp: 2026-11-02 02:09:10
 
 ## Trend Metrics
 
 | Metric | Latest | Previous | Change | Percentage Change | Alert |
 | --- | ---: | ---: | ---: | ---: | --- |
-| Total article volume | 80 | 82 | -2 | -2.4% | Stable |
-| High-priority article volume | 49 | 52 | -3 | -5.8% | Stable |
-| Market-signal article volume | 36 | 36 | 0 | 0.0% | Stable |
-| Strategy-briefing article volume | 54 | 56 | -2 | -3.6% | Stable |
+| Total article volume | 78 | 80 | -2 | -2.5% | Stable |
+| High-priority article volume | 46 | 49 | -3 | -6.1% | Stable |
+| Market-signal article volume | 37 | 36 | 1 | 2.8% | Stable |
+| Strategy-briefing article volume | 49 | 54 | -5 | -9.3% | Stable |
 
 ## Interpretation for Strategy Team
 

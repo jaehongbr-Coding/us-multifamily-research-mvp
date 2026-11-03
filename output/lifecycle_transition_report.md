@@ -1,9 +1,9 @@
 # Lifecycle Transition Report
 
-Generated: 2026-11-02 02:09:49
+Generated: 2026-11-03 03:52:08
 
 - Total lifecycle transitions analyzed: 91
-- Newly detected projects: 8
+- Newly detected projects: 53
 - Forward progression projects: 0
 - Possible stalled projects: 1
 - Reappearing projects: 0
@@ -11,39 +11,41 @@ Generated: 2026-11-02 02:09:49
 ## Strongest Progression Signals
 
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 80.
-- Modular / Construction Innovation - Los Angeles / California - Modular affordable housing takes shape at 4301 S. Vermont Ave.: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 79.
-- Entitlement / Permitting - Los Angeles / California - 25 apartments completed at 11013 Hartsook St. in North Hollywood: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 78.
-- Modular affordable housing takes shape at 4301 S. Vermont Ave.: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 78.
-- 25 apartments completed at 11013 Hartsook St. in North Hollywood: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 78.
-- Disposition / Exit - Atlanta / Georgia - Toro Development Opens $560M Medley Mixed-Use Destination in Johns Creek, Georgia: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 76.
-- Refinancing - Dallas / Texas - Private Investor Scores Refinance of Three-Property Multifamily Portfolio in Austin and Da...: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 72.
-- CBRE Arranges $81M Construction Loan for Multifamily Development in Charlotte: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 72.
 - Development Start - Austin / Texas - ARCTRUST, Edison Equity Teaming Up on 175-Unit Austin-Area 55+ Community: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 71.
-- Lightstone Capital Provides $29.5M Loan for Orange, N.J., Multifamily Development: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 70.
+- Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Maria California: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 71.
+- Disposition / Exit - Los Angeles / California - Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Mari...: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 70.
+- Development Start - Other / Unknown - Groundbreaking For Affordable Housing at 3440 Walnut Avenue, Fremont: No Previous Record -> Construction Started, Newly Detected Project, progression_score 66.
+- Groundbreaking For Affordable Housing at 3440 Walnut Avenue, Fremont: No Previous Record -> Construction Started, Newly Detected Project, progression_score 66.
+- Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 65.
+- Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 64.
+- Refinancing - Las Vegas / Nevada - Bascom Group Obtains $30.8M Refinancing for 200-Unit Multifamily Community in Las Vegas: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 60.
+- Refinancing - New York City / New York - Prime Finance Provides $57M Refi for East Village Multifamily Complex: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 60.
 
 ## Highest Stall Risk Signals
 
 - Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled -> Distressed / Stalled, Possible Stall, stall_risk_score 80.
-- General Project Signal - Denver / Colorado - JLL Arranges Bridge Financing for 1184-Unit Multifamily Portfolio in Coveted Highlands Ran...: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 39.
 - Modular / Construction Innovation - California - Modular Apartment Complex Proposed for 3070 Brook Street, Oakland: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
-- Acquisition - Other / Unknown - Timberland Partners Acquires 192-Unit Apartment Community in Chesterfield, Missouri: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
-- Entitlement / Permitting - San Francisco / California - 45-Story Tower Proposed For 325 Fremont Street, SoMa, San Francisco: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 38.
-- General Project Signal - Seattle - 200-Unit Affordable Housing Project Planned in North Seattle: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 38.
 - Roxborough Makes Second NorCal Apartment Buy Through Latest Fund: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 37.
-- General Project Signal - Other / Unknown - Plans Revealed For 2101 Brush Street, West Oakland: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 37.
 - City Planning Commission approves Chinatown offices at 130 W. College St.: Entitlement Under Review -> Entitlement Under Review, Same Stage Persistence, stall_risk_score 37.
 - Modular Apartment Complex Proposed for 3070 Brook Street, Oakland: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
+- L.A. City Council approves Arts District towers at 2143 E. Violet St.: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
+- Affordable housing underway at 5403 S. Inglewood Blvd. in Del Rey: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
+- Legacy Partners Begins Leasing at Ontario Apartments: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
+- 3 new apartment projects open their doors: No Previous Record -> Environmental Review / CEQA, Newly Detected Project, stall_risk_score 33.
+- Acquisition - California - Roxborough Makes Second NorCal Apartment Buy Through Latest Fund: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
 
 ## Newly Detected Projects
 
-- Refinancing - Dallas / Texas - Private Investor Scores Refinance of Three-Property Multifamily Portfolio in Austin and Da...: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 72.
-- Disposition / Exit - Washington DC - Marcus & Millichap Arranges Partially Completed Building Multifamily Sale in Washington DC...: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 65.
-- Marcus & Millichap Arranges Partially Completed Building Multifamily Sale in Washington DC Tenleytown: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 65.
-- Marcus & Millichap Arranges Sale of Transit-Oriented Multifamily Property on Union City and Hoboken Border: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 65.
-- Refinancing - Los Angeles / California - Irvine Company Lands $157.2M Fannie Mae Refinancing for 309-Unit Luxury Multifamily Proper...: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 60.
-- StreetLights Residential Sells Luxury Phoenix-Area Multifamily Property: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 50.
-- Disposition / Exit - New York - Marcus & Millichap Arranges Sale of Transit-Oriented Multifamily Property on Union City an...: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 34.
-- Construction Financing - Phoenix / Arizona - StreetLights Residential Sells Luxury Phoenix-Area Multifamily Property: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 32.
+- Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Maria California: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 71.
+- Disposition / Exit - Los Angeles / California - Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Mari...: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 70.
+- Development Start - Other / Unknown - Groundbreaking For Affordable Housing at 3440 Walnut Avenue, Fremont: No Previous Record -> Construction Started, Newly Detected Project, progression_score 66.
+- Groundbreaking For Affordable Housing at 3440 Walnut Avenue, Fremont: No Previous Record -> Construction Started, Newly Detected Project, progression_score 66.
+- Refinancing - Las Vegas / Nevada - Bascom Group Obtains $30.8M Refinancing for 200-Unit Multifamily Community in Las Vegas: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 60.
+- Refinancing - New York City / New York - Prime Finance Provides $57M Refi for East Village Multifamily Complex: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 60.
+- Refinancing - Other / Unknown - PCCP Refis Long Island Apartments With $154M Loan: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 60.
+- Refinancing - New York City / New York - Benefit Street Partners Provides $48M Refi for Brooklyn Mixed-Income Multifamily: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 51.
+- Office-to-Residential Conversion - New York City / New York - Northwind Provides $231M Construction Loan to Convert 675 Third Avenue: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 49.
+- Northwind Provides $231M Construction Loan to Convert 675 Third Avenue: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 49.
 
 ## Forward Progression Projects
 
@@ -59,23 +61,22 @@ Generated: 2026-11-02 02:09:49
 
 ## Refinancing / Recap Timing Transitions
 
-- Refinancing - Other / Unknown - Lightstone Capital Provides $29.5M Loan for Orange, N.J., Multifamily Development: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 30.
-- Construction Financing - Atlanta / Georgia - RK Investors Lands $81M Construction Loan for 299-Unit Charlotte Rental Community: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
+- Office-to-Residential Conversion - New York City / New York - Northwind Provides $231M Construction Loan to Convert 675 Third Avenue: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
+- Refinancing - National - Refinancing Multifamily Borrowers Face 41% Increase in Interest Rates: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
+- Refinancing - New York - New York Life Provides $480M Refi for 10-Property Multifamily Portfolio: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
+- Refinancing - New York City / New York - Dwight Capital Provides $23.5M HUD-Insured Refinancing for Northern New Jersey Apartment C...: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
 - Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
-- Refinancing - Los Angeles / California - Greystone Refis Hollywood, Fla., Apartments With $109M Loan: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
-- Refinancing - Los Angeles / California - Irvine Company Secures $157M Multifamily Refi in L.A.’s Playa Vista: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
-- Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
-- Refinancing - Los Angeles / California - Irvine Company Lands $157.2M Fannie Mae Refinancing for 309-Unit Luxury Multifamily Proper...: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
-- Construction Financing - Sun Belt - CBRE Arranges $81M Construction Loan for Multifamily Development in Charlotte: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
-- 908 Group Celebrates Groundbreaking of New 684-Bed Student Housing Community Near University of Florida: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
-- Recapitalization - Los Angeles / California - PCCP and Cityview Joint Venture Recapitalizes Apartment Community in Filipinotown Neighbor...: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 28.
+- Refinancing - Las Vegas / Nevada - Bascom Group Obtains $30.8M Refinancing for 200-Unit Multifamily Community in Las Vegas: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
+- Refinancing - New York City / New York - Prime Finance Provides $57M Refi for East Village Multifamily Complex: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
+- Refinancing - Other / Unknown - PCCP Refis Long Island Apartments With $154M Loan: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 28.
+- Refinancing - New York City / New York - Benefit Street Partners Provides $48M Refi for Brooklyn Mixed-Income Multifamily: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 28.
+- Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 27.
 
 ## Construction Start Transitions
 
-- Modular / Construction Innovation - Los Angeles / California - Modular affordable housing takes shape at 4301 S. Vermont Ave.: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 79.
-- Modular affordable housing takes shape at 4301 S. Vermont Ave.: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 78.
 - Development Start - Austin / Texas - ARCTRUST, Edison Equity Teaming Up on 175-Unit Austin-Area 55+ Community: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 71.
-- Construction Financing - Florida - 908 Group Celebrates Groundbreaking of New 684-Bed Student Housing Community Near Universi...: Construction Started -> Construction Started, Same Stage Persistence, progression_score 68.
+- Development Start - Other / Unknown - Groundbreaking For Affordable Housing at 3440 Walnut Avenue, Fremont: No Previous Record -> Construction Started, Newly Detected Project, progression_score 66.
+- Groundbreaking For Affordable Housing at 3440 Walnut Avenue, Fremont: No Previous Record -> Construction Started, Newly Detected Project, progression_score 66.
 
 ## Implications for Woomi / Woomi Global
 
@@ -86,23 +87,23 @@ Generated: 2026-11-02 02:09:49
 ## Recommended Transition Follow-up Actions
 
 - Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
-- Monitor for another run to confirm lifecycle direction: Modular / Construction Innovation - Los Angeles / California - Modular affordable housing takes shape at 4301 S. Vermont Ave..
-- Use as delivery, lease-up, and underwriting benchmark: Entitlement / Permitting - Los Angeles / California - 25 apartments completed at 11013 Hartsook St. in North Hollywood.
-- Monitor for another run to confirm lifecycle direction: Modular affordable housing takes shape at 4301 S. Vermont Ave..
-- Use as delivery, lease-up, and underwriting benchmark: 25 apartments completed at 11013 Hartsook St. in North Hollywood.
-- Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - Atlanta / Georgia - Toro Development Opens $560M Medley Mixed-Use Destination in Johns Creek, Georgia.
-- Use as delivery, lease-up, and underwriting benchmark: Refinancing - Dallas / Texas - Private Investor Scores Refinance of Three-Property Multifamily Portfolio in Austin and Da....
-- Use as delivery, lease-up, and underwriting benchmark: CBRE Arranges $81M Construction Loan for Multifamily Development in Charlotte.
+- Monitor for another run to confirm lifecycle direction: Development Start - Austin / Texas - ARCTRUST, Edison Equity Teaming Up on 175-Unit Austin-Area 55+ Community.
+- Use as delivery, lease-up, and underwriting benchmark: Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Maria California.
+- Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - Los Angeles / California - Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Mari....
+- Monitor for another run to confirm lifecycle direction: Development Start - Other / Unknown - Groundbreaking For Affordable Housing at 3440 Walnut Avenue, Fremont.
+- Monitor for another run to confirm lifecycle direction: Groundbreaking For Affordable Housing at 3440 Walnut Avenue, Fremont.
+- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets.
+- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 744
+- Raw project references: 717
 - Canonical projects: 177
-- Duplicate project clusters: 122
+- Duplicate project clusters: 113
 - Persistent assets tracked: 177
-- LA persistent asset watch items: 125
+- LA persistent asset watch items: 118
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -111,9 +112,9 @@ Generated: 2026-11-02 02:09:49
 ## Signal Quality / Confidence Summary
 
 - Signals evaluated: 177
-- Institutional-grade signals: 26
-- High-confidence signals: 52
-- Weak/noisy signals: 92
-- High-confidence watchlist items: 52
+- Institutional-grade signals: 14
+- High-confidence signals: 42
+- Weak/noisy signals: 99
+- High-confidence watchlist items: 42
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

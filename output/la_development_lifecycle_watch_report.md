@@ -1,15 +1,15 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-11-03 03:52:08
+Generated: 2026-11-04 02:57:04
 
-- Total LA lifecycle watch items: 58
+- Total LA lifecycle watch items: 46
 
 ## LA Lifecycle Stage Distribution
 
-- Unknown Stage: 32
-- Site Acquisition / Site Control: 16
-- Refinancing / Recapitalization: 5
+- Unknown Stage: 33
+- Site Acquisition / Site Control: 7
 - Delivery / Opening: 3
+- Refinancing / Recapitalization: 1
 - Entitlement Under Review: 1
 - Distressed / Stalled: 1
 
@@ -23,7 +23,7 @@ Generated: 2026-11-03 03:52:08
 
 ## Hollywood Lifecycle Watch
 
-- None detected.
+- General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Unknown Stage, Monitor only, opportunity 98.
 
 ## Pasadena Lifecycle Watch
 
@@ -43,7 +43,7 @@ Generated: 2026-11-03 03:52:08
 
 ## Stalled / Distressed LA Project Watch
 
-- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled, Monitor stalled project opportunity, opportunity 56.
+- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled, Monitor stalled project opportunity, opportunity 58.
 
 ## Construction-Ready LA Project Watch
 
@@ -51,24 +51,24 @@ Generated: 2026-11-03 03:52:08
 
 ## Recommended LA Lifecycle Follow-up Actions
 
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets.
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - New York City / New York - Prime Finance Provides $57M Refi for East Village Multifamily Complex.
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Las Vegas / Nevada - Bascom Group Obtains $30.8M Refinancing for 200-Unit Multifamily Community in Las Vegas.
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Other / Unknown - PCCP Refis Long Island Apartments With $154M Loan.
-- Monitor lifecycle status for repeated confirmation: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
-- Monitor lifecycle status for repeated confirmation: General Project Signal - Miami / Florida - Terra, Fortune International Land $220M for Waterfront Condo near Miami.
-- Monitor lifecycle status for repeated confirmation: Terra, Fortune International Land $220M for Waterfront Condo near Miami.
 - Monitor lifecycle status for repeated confirmation: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
+- Monitor lifecycle status for repeated confirmation: General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building.
+- Monitor lifecycle status for repeated confirmation: Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio.
+- Monitor lifecycle status for repeated confirmation: Disposition / Exit - California - Marcus & Millichap Brokers $13.6M Sale of 63-Unit Multifamily Property in Davis California.
+- Monitor lifecycle status for repeated confirmation: Entitlement / Permitting - Santa Monica / California - Fresh renderings for Tishman Speyer projects in Downtown Santa Monica.
+- Monitor lifecycle status for repeated confirmation: ORIX Acquires Buckhead Apartments for $83M.
+- Monitor lifecycle status for repeated confirmation: Northmarq’s Debt + Equity Team Arranges $26.1M in Financing for Class A Multifamily Community in Sioux Falls.
+- Monitor lifecycle status for repeated confirmation: Fourth Sale Closes in Anaheim Multifamily Portfolio.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 91
-- Newly detected projects: 53
+- Lifecycle transitions analyzed: 73
+- Newly detected projects: 24
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 57
+- LA lifecycle transition watch items: 45
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -76,10 +76,10 @@ Generated: 2026-11-03 03:52:08
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 717
-- Canonical projects: 177
-- Duplicate project clusters: 113
-- Persistent assets tracked: 177
-- LA persistent asset watch items: 118
+- Raw project references: 598
+- Canonical projects: 149
+- Duplicate project clusters: 100
+- Persistent assets tracked: 149
+- LA persistent asset watch items: 96
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

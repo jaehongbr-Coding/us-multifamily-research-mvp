@@ -1,6 +1,6 @@
 # Materiality / Impact Report
 
-Generated: 2026-11-03 03:51:53
+Generated: 2026-11-04 02:56:39
 
 - Top materiality regime: Developer Strategy Shift (100)
 - Top impact regime: Developer Strategy Shift (100)
@@ -13,8 +13,8 @@ Generated: 2026-11-03 03:51:53
 | Financing Stress | 100 | 100 | Critical Business Impact | Underwriting; Financing; Capital Markets; LA / California Strategy | Tighten underwriting assumptions |
 | Selective Capital Re-entry | 100 | 100 | Critical Business Impact | GP Partnership; Capital Markets; Strategic Monitoring; LA / California Strategy | Track capital partner activity |
 | Supply Pressure | 100 | 100 | Critical Business Impact | Underwriting; Land / Pipeline; Leasing / Operations; LA / California Strategy | Review supply pipeline assumptions |
-| Policy / Entitlement Watch | 87 | 77 | High Business Impact | Land / Pipeline; LA / California Strategy; Strategic Monitoring | Monitor LA / California entitlement changes |
-| Construction Cost Pressure | 35 | 39 | Low Business Impact | Underwriting; Cost Management; LA / California Strategy | Review construction cost assumptions |
+| Policy / Entitlement Watch | 59 | 61 | High Business Impact | Land / Pipeline; LA / California Strategy; Strategic Monitoring | Monitor LA / California entitlement changes |
+| Construction Cost Pressure | 0 | 15 | Low Business Impact | Underwriting; Cost Management; LA / California Strategy | Review construction cost assumptions |
 
 ## Key Business Risks / Opportunities
 

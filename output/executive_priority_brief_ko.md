@@ -1,6 +1,6 @@
 # 한국어 경영진 우선순위 브리프
 
-- 생성 시각: 2026-11-03 03:51:47
+- 생성 시각: 2026-11-04 02:56:26
 - 참고 원문 파일: `executive_priority_brief.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -10,8 +10,8 @@
 - Selective Capital Re-entry: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention; This Week)
 - Developer Strategy Shift: 기타 / 미확인, 아파트, 점수 98 (Tier 2 Strategic Review; This Week)
 - Supply Pressure: 기타 / 미확인, 아파트, 점수 90 (Tier 2 Strategic Review; This Week)
-- Policy / Entitlement Watch: 기타 / 미확인, 아파트, 점수 68 (Tier 3 Monitoring; Next IC / Strategy Meeting)
-- Construction Cost Pressure: 기타 / 미확인, 아파트, 점수 27 (Tier 3 Monitoring; Background Tracking)
+- Policy / Entitlement Watch: 기타 / 미확인, 아파트, 점수 49 (Tier 3 Monitoring; Monthly Monitoring)
+- Construction Cost Pressure: 기타 / 미확인, 아파트, 점수 3 (Background; Background Tracking)
 
 ## Tier 1 / Tier 2 안건
 
@@ -23,7 +23,7 @@
 ## 추천 회의 안건
 
 - Track capital flow pattern and related relationships
-- Track capital flow pattern and related relationships
-- Track capital flow pattern and related relationships
 - Monitor asset for repeated local confirmation
+- Track capital flow pattern and related relationships
+- Track capital flow pattern and related relationships
 - Review parcel clue, entitlement path, sponsor, and comparable sites

@@ -1,6 +1,6 @@
 # Regime Momentum Report
 
-Generated: 2026-11-03 03:51:53
+Generated: 2026-11-04 02:56:39
 
 - Top regime by final_score: Selective Capital Re-entry (89)
 - Second regime by final_score: Financing Stress (81)
@@ -13,9 +13,9 @@ Generated: 2026-11-03 03:51:53
 | Selective Capital Re-entry | 89 | 89 | 0 | Stable |
 | Financing Stress | 81 | 81 | 0 | Stable |
 | Developer Strategy Shift | 59 | 59 | 0 | Stable |
-| Policy / Entitlement Watch | 67 | 53 | -14 | Weakening |
 | Supply Pressure | 47 | 47 | 0 | Stable |
-| Construction Cost Pressure | 23 | 14 | -9 | Weakening |
+| Policy / Entitlement Watch | 53 | 39 | -14 | Weakening |
+| Construction Cost Pressure | 14 | 0 | -14 | Weakening |
 | Stable Monitoring Environment | 0 | 0 | 0 | Stable |
 
 ## Concentration Interpretation

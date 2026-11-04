@@ -1,15 +1,15 @@
 # Development Lifecycle Report
 
-Generated: 2026-11-03 03:52:08
+Generated: 2026-11-04 02:57:04
 
-- Total lifecycle records: 91
+- Total lifecycle records: 73
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 54
-- Site Acquisition / Site Control: 17
-- Refinancing / Recapitalization: 11
-- Delivery / Opening: 3
+- Unknown Stage: 50
+- Site Acquisition / Site Control: 8
+- Refinancing / Recapitalization: 5
+- Delivery / Opening: 4
 - Construction Started: 2
 - Vertical Construction: 1
 - Entitlement Under Review: 1
@@ -18,29 +18,29 @@ Generated: 2026-11-03 03:52:08
 
 ## Top Development Timing Opportunities
 
-- Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Refinancing / Recapitalization, Dallas, lifecycle_opportunity_score 100.
-- Refinancing - New York City / New York - Prime Finance Provides $57M Refi for East Village Multifamily Complex: Refinancing / Recapitalization, Manhattan, lifecycle_opportunity_score 100.
-- Refinancing - Las Vegas / Nevada - Bascom Group Obtains $30.8M Refinancing for 200-Unit Multifamily Community in Las Vegas: Refinancing / Recapitalization, Las Vegas, lifecycle_opportunity_score 100.
-- Refinancing - Other / Unknown - PCCP Refis Long Island Apartments With $154M Loan: Refinancing / Recapitalization, Unknown, lifecycle_opportunity_score 100.
-- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening, California, lifecycle_opportunity_score 100.
-- General Project Signal - Miami / Florida - Terra, Fortune International Land $220M for Waterfront Condo near Miami: Site Acquisition / Site Control, Miami, lifecycle_opportunity_score 100.
-- Terra, Fortune International Land $220M for Waterfront Condo near Miami: Site Acquisition / Site Control, Miami, lifecycle_opportunity_score 100.
+- Acquisition - New York City / New York - JLL Brokers $23.5M Sale of Mixed-Use Development Site in Brooklyn: Site Acquisition / Site Control, New York City, lifecycle_opportunity_score 100.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Unknown Stage, Atlanta, lifecycle_opportunity_score 99.
+- General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Unknown Stage, South Florida, lifecycle_opportunity_score 98.
+- Refinancing - Austin / Texas - Walker & Dunlop Arranges $117.3M Refinancing of Texas Apartment Portfolio: Refinancing / Recapitalization, Austin, lifecycle_opportunity_score 97.
 - Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: Unknown Stage, California, lifecycle_opportunity_score 97.
 - Disposition / Exit - California - Marcus & Millichap Brokers $13.6M Sale of 63-Unit Multifamily Property in Davis California: Unknown Stage, California, lifecycle_opportunity_score 97.
+- Entitlement / Permitting - Santa Monica / California - Fresh renderings for Tishman Speyer projects in Downtown Santa Monica: Unknown Stage, Santa Monica, lifecycle_opportunity_score 96.
+- ORIX Acquires Buckhead Apartments for $83M: Unknown Stage, Atlanta, lifecycle_opportunity_score 95.
+- Northmarq’s Debt + Equity Team Arranges $26.1M in Financing for Class A Multifamily Community in Sioux Falls: Unknown Stage, Unknown, lifecycle_opportunity_score 94.
+- Fourth Sale Closes in Anaheim Multifamily Portfolio: Unknown Stage, Anaheim, lifecycle_opportunity_score 93.
 
 ## Top Lifecycle Risks
 
-- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled, Atlanta, lifecycle_risk_score 74.
-- Refinancing - New York - New York Life Provides $480M Refi for 10-Property Multifamily Portfolio: Refinancing / Recapitalization, New York, lifecycle_risk_score 61.
-- Refinancing - New York City / New York - Dwight Capital Provides $23.5M HUD-Insured Refinancing for Northern New Jersey Apartment C...: Refinancing / Recapitalization, New York City, lifecycle_risk_score 60.
-- Office-to-Residential Conversion - New York City / New York - Northwind Provides $231M Construction Loan to Convert 675 Third Avenue: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 59.
-- Refinancing - National - Refinancing Multifamily Borrowers Face 41% Increase in Interest Rates: Refinancing / Recapitalization, National, lifecycle_risk_score 56.
-- Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Refinancing / Recapitalization, Dallas, lifecycle_risk_score 54.
-- Construction Financing - New York City / New York - BridgeCity Lends $28M for Williamsburg Multifamily Development: Unknown Stage, Brooklyn, lifecycle_risk_score 53.
-- Construction Financing - Seattle - Madison Realty Capital, Red Cove Lend $132M for Seattle-Area Apartments Build: Unknown Stage, Seattle, lifecycle_risk_score 52.
-- Refinancing - New York City / New York - Prime Finance Provides $57M Refi for East Village Multifamily Complex: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 51.
-- Refinancing - Las Vegas / Nevada - Bascom Group Obtains $30.8M Refinancing for 200-Unit Multifamily Community in Las Vegas: Refinancing / Recapitalization, Las Vegas, lifecycle_risk_score 50.
+- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled, Atlanta, lifecycle_risk_score 75.
+- Construction Financing - Other / Unknown - HUD launches ‘express lane’ for LIHTC multifamily construction loans: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 54.
+- Refinancing - Austin / Texas - Walker & Dunlop Arranges $117.3M Refinancing of Texas Apartment Portfolio: Refinancing / Recapitalization, Austin, lifecycle_risk_score 53.
+- Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing / Recapitalization, Phoenix, lifecycle_risk_score 49.
+- Refinancing - New York City / New York - Affinius Capital Provides $226M for Downtown Brooklyn Multifamily Building: Refinancing / Recapitalization, Brooklyn, lifecycle_risk_score 49.
+- Office-to-Residential Conversion - New York City / New York - Metro Loft, David Werner Secure $231M Loan for Midtown East Residential Conversion: Unknown Stage, Manhattan, lifecycle_risk_score 35.
+- General Project Signal - California - Affordable housing taking shape at 5749 S. Brynhurst Avenue in Hyde Park: Unknown Stage, California, lifecycle_risk_score 34.
+- Entitlement / Permitting - Los Angeles / California - Housing pitched for 5412 Bellingham Ave. in Valley Village: Unknown Stage, Los Angeles, lifecycle_risk_score 32.
+- General Project Signal - Los Angeles / California - One Beverly Hills Reaches Milestones Ahead of Schedule: Unknown Stage, Los Angeles, lifecycle_risk_score 32.
+- Kidder Mathews Arranges Sale of 45-Unit Multifamily in Walla Walla: Unknown Stage, Seattle, lifecycle_risk_score 32.
 
 ## Projects Under Entitlement / Planning
 
@@ -55,26 +55,22 @@ Generated: 2026-11-03 03:52:08
 
 ## Delivery / Lease-Up Signals
 
-- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening, California, lifecycle_opportunity_score 100.
+- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening, California, lifecycle_opportunity_score 83.
 - Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Maria California: Delivery / Opening, Los Angeles, lifecycle_opportunity_score 69.
 - Disposition / Exit - Los Angeles / California - Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Mari...: Delivery / Opening, Los Angeles, lifecycle_opportunity_score 58.
+- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: Delivery / Opening, Unknown, lifecycle_opportunity_score 49.
 
 ## Distressed / Stalled Lifecycle Signals
 
-- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled, Atlanta, lifecycle_risk_score 74.
+- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled, Atlanta, lifecycle_risk_score 75.
 
 ## Refinancing / Recapitalization Lifecycle Signals
 
-- Refinancing - New York - New York Life Provides $480M Refi for 10-Property Multifamily Portfolio: Refinancing / Recapitalization, New York, lifecycle_risk_score 61.
-- Refinancing - New York City / New York - Dwight Capital Provides $23.5M HUD-Insured Refinancing for Northern New Jersey Apartment C...: Refinancing / Recapitalization, New York City, lifecycle_risk_score 60.
-- Office-to-Residential Conversion - New York City / New York - Northwind Provides $231M Construction Loan to Convert 675 Third Avenue: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 59.
-- Refinancing - National - Refinancing Multifamily Borrowers Face 41% Increase in Interest Rates: Refinancing / Recapitalization, National, lifecycle_risk_score 56.
-- Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Refinancing / Recapitalization, Dallas, lifecycle_risk_score 54.
-- Refinancing - New York City / New York - Prime Finance Provides $57M Refi for East Village Multifamily Complex: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 51.
-- Refinancing - Las Vegas / Nevada - Bascom Group Obtains $30.8M Refinancing for 200-Unit Multifamily Community in Las Vegas: Refinancing / Recapitalization, Las Vegas, lifecycle_risk_score 50.
-- Refinancing - Other / Unknown - PCCP Refis Long Island Apartments With $154M Loan: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 48.
-- Refinancing - New York City / New York - Benefit Street Partners Provides $48M Refi for Brooklyn Mixed-Income Multifamily: Refinancing / Recapitalization, Brooklyn, lifecycle_risk_score 48.
-- Northwind Provides $231M Construction Loan to Convert 675 Third Avenue: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 41.
+- Construction Financing - Other / Unknown - HUD launches ‘express lane’ for LIHTC multifamily construction loans: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 54.
+- Refinancing - Austin / Texas - Walker & Dunlop Arranges $117.3M Refinancing of Texas Apartment Portfolio: Refinancing / Recapitalization, Austin, lifecycle_risk_score 53.
+- Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing / Recapitalization, Phoenix, lifecycle_risk_score 49.
+- Refinancing - New York City / New York - Affinius Capital Provides $226M for Downtown Brooklyn Multifamily Building: Refinancing / Recapitalization, Brooklyn, lifecycle_risk_score 49.
+- Metro Loft, David Werner Secure $231M Loan for Midtown East Residential Conversion: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 27.
 
 ## Implications for Woomi / Woomi Global
 
@@ -83,24 +79,24 @@ Generated: 2026-11-03 03:52:08
 
 ## Recommended Lifecycle Follow-up Actions
 
-- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets.
-- Track lender, maturity, debt terms, and recapitalization need: Refinancing - New York City / New York - Prime Finance Provides $57M Refi for East Village Multifamily Complex.
-- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Las Vegas / Nevada - Bascom Group Obtains $30.8M Refinancing for 200-Unit Multifamily Community in Las Vegas.
-- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Other / Unknown - PCCP Refis Long Island Apartments With $154M Loan.
-- Benchmark delivery, lease-up, occupancy, and rent assumptions: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
-- Monitor lifecycle signal for repeated confirmation: General Project Signal - Miami / Florida - Terra, Fortune International Land $220M for Waterfront Condo near Miami.
-- Monitor lifecycle signal for repeated confirmation: Terra, Fortune International Land $220M for Waterfront Condo near Miami.
+- Monitor lifecycle signal for repeated confirmation: Acquisition - New York City / New York - JLL Brokers $23.5M Sale of Mixed-Use Development Site in Brooklyn.
 - Monitor lifecycle signal for repeated confirmation: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
+- Monitor lifecycle signal for repeated confirmation: General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building.
+- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Austin / Texas - Walker & Dunlop Arranges $117.3M Refinancing of Texas Apartment Portfolio.
+- Monitor lifecycle signal for repeated confirmation: Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio.
+- Monitor lifecycle signal for repeated confirmation: Disposition / Exit - California - Marcus & Millichap Brokers $13.6M Sale of 63-Unit Multifamily Property in Davis California.
+- Monitor lifecycle signal for repeated confirmation: Entitlement / Permitting - Santa Monica / California - Fresh renderings for Tishman Speyer projects in Downtown Santa Monica.
+- Monitor lifecycle signal for repeated confirmation: ORIX Acquires Buckhead Apartments for $83M.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 91
-- Newly detected projects: 53
+- Lifecycle transitions analyzed: 73
+- Newly detected projects: 24
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 57
+- LA lifecycle transition watch items: 45
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -108,11 +104,11 @@ Generated: 2026-11-03 03:52:08
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 717
-- Canonical projects: 177
-- Duplicate project clusters: 113
-- Persistent assets tracked: 177
-- LA persistent asset watch items: 118
+- Raw project references: 598
+- Canonical projects: 149
+- Duplicate project clusters: 100
+- Persistent assets tracked: 149
+- LA persistent asset watch items: 96
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -120,10 +116,10 @@ Generated: 2026-11-03 03:52:08
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 177
+- Signals evaluated: 149
 - Institutional-grade signals: 14
-- High-confidence signals: 42
-- Weak/noisy signals: 99
-- High-confidence watchlist items: 42
+- High-confidence signals: 44
+- Weak/noisy signals: 82
+- High-confidence watchlist items: 44
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

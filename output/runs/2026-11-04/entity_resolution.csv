@@ -1,0 +1,247 @@
+﻿run_date,run_id,raw_entity,canonical_entity,entity_type,alias_matched,confidence_score,source_file,occurrence_count,notes
+2026-11-04,20261104-025626-948725c5,Acquisition - Other / Unknown - Standard Communities Secures $29.3M Acquisition of Affordable Housing Multifamily Building...,Acquisition - Other / Unknown - Standard Communities Secures $29.3M Acquisition of Affordable Housing Multifamily Building...,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Affinius Capital,Affinius Capital,Developer / GP,,40,deal_pipeline.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Affinius Capital,Affinius Capital,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Affinius Capital,Affinius Capital,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Affinius Capital,Affinius Capital,Developer / GP,,40,relationship_graph.csv,3,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Arizona,Arizona,Market / Region,,40,regional_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Blackstone,Blackstone,Developer / GP,Blackstone,100,deal_pipeline.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Blackstone,Blackstone,Developer / GP,Blackstone,100,gp_intelligence.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Blackstone,Blackstone,Developer / GP,Blackstone,100,institutional_relationships.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Blackstone,Blackstone,Developer / GP,Blackstone,100,relationship_graph.csv,4,exact canonical match
+2026-11-04,20261104-025626-948725c5,blackstone,Blackstone,Institutional Capital,Blackstone,75,deal_pipeline.csv,1,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,blackstone,Blackstone,Institutional Capital,Blackstone,75,relationship_graph.csv,1,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,Bridge Investment Group,Bridge Investment Group,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Bridge Investment Group,Bridge Investment Group,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Brookfield,Brookfield,Developer / GP,Brookfield,100,deal_pipeline.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Brookfield,Brookfield,Developer / GP,Brookfield,100,gp_intelligence.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Brookfield,Brookfield,Developer / GP,Brookfield,100,institutional_relationships.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Brookfield,Brookfield,Developer / GP,Brookfield,100,relationship_graph.csv,3,exact canonical match
+2026-11-04,20261104-025626-948725c5,brookfield,Brookfield,Institutional Capital,Brookfield,75,deal_pipeline.csv,1,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,brookfield,Brookfield,Institutional Capital,Brookfield,75,relationship_graph.csv,1,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,CBRE,CBRE,Developer / GP,CBRE,100,deal_pipeline.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,CBRE,CBRE,Developer / GP,CBRE,100,gp_intelligence.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,CBRE,CBRE,Developer / GP,CBRE,100,institutional_relationships.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,CBRE,CBRE,Developer / GP,CBRE,100,relationship_graph.csv,4,exact canonical match
+2026-11-04,20261104-025626-948725c5,cbre,CBRE,Lender / Debt Provider,CBRE,75,deal_pipeline.csv,1,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,cbre,CBRE,Lender / Debt Provider,CBRE,75,relationship_graph.csv,1,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,California,California,Market / Region,California,100,articles.csv,5,exact canonical match
+2026-11-04,20261104-025626-948725c5,California,California,Market / Region,California,100,deal_pipeline.csv,10,exact canonical match
+2026-11-04,20261104-025626-948725c5,California,California,Market / Region,California,100,regional_intelligence.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,California,California,Market / Region,California,100,relationship_graph.csv,5,exact canonical match
+2026-11-04,20261104-025626-948725c5,Riverside / California,California,Market / Region,California,60,articles.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Riverside / California,California,Market / Region,California,60,deal_pipeline.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Riverside / California,California,Market / Region,California,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,San Francisco / California,California,Market / Region,California,60,articles.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Santa Monica / California,California,Market / Region,California,60,articles.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Santa Monica / California,California,Market / Region,California,60,deal_pipeline.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Santa Monica / California,California,Market / Region,California,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio,California,Project / Deal,California,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio,California,Project / Deal,California,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Disposition / Exit - California - HealthCore Pays $130M for Six-Building NorthBay Health MOB Portfolio,California,Project / Deal,California,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Disposition / Exit - California - Marcus & Millichap Brokers $13.6M Sale of 63-Unit Multifamily Property in Davis California,California,Project / Deal,California,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Entitlement / Permitting - Santa Monica / California - Fresh renderings for Tishman Speyer projects in Downtown Santa Monica,California,Project / Deal,California,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,General Project Signal - California - Affordable housing taking shape at 5749 S. Brynhurst Avenue in Hyde Park,California,Project / Deal,California,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,JV / Partnership - Riverside / California - Legacy Partners Begins Leasing at Ontario Apartments,California,Project / Deal,California,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Connecticut,Connecticut,Market / Region,,40,articles.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Development Start - Other / Unknown - First Quarter 2026 Multifamily Construction Data,Development Start - Other / Unknown - First Quarter 2026 Multifamily Construction Data,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Development Start - Other / Unknown - Fourth Quarter 2025 Multifamily Construction Data,Development Start - Other / Unknown - Fourth Quarter 2025 Multifamily Construction Data,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-11-04,20261104-025626-948725c5,"Development Start - Other / Unknown - Groundbreaking For Affordable Housing at 3440 Walnut Avenue, Fremont","Development Start - Other / Unknown - Groundbreaking For Affordable Housing at 3440 Walnut Avenue, Fremont",Project / Deal,,40,relationship_graph.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter,Disposition / Exit - Other / Unknown - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Disposition / Exit - Other / Unknown - Q3 multifamily sales jumped 139% on Vivmark deal,Disposition / Exit - Other / Unknown - Q3 multifamily sales jumped 139% on Vivmark deal,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...,Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Disposition / Exit - Seattle - 40-Unit Apartment Building in Seattle’s University District Trades for $6M,Disposition / Exit - Seattle - 40-Unit Apartment Building in Seattle’s University District Trades for $6M,Project / Deal,,40,relationship_graph.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Entitlement / Permitting - Other / Unknown - Shorter Apartment Construction Time in 2025,Entitlement / Permitting - Other / Unknown - Shorter Apartment Construction Time in 2025,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Equity Residential,Equity Residential,Developer / GP,,40,deal_pipeline.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Equity Residential,Equity Residential,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Equity Residential,Equity Residential,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Equity Residential,Equity Residential,Developer / GP,,40,relationship_graph.csv,4,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Fannie Mae,Fannie Mae,Developer / GP,Fannie Mae,100,deal_pipeline.csv,2,exact canonical match
+2026-11-04,20261104-025626-948725c5,Fannie Mae,Fannie Mae,Developer / GP,Fannie Mae,100,gp_intelligence.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Fannie Mae,Fannie Mae,Developer / GP,Fannie Mae,100,institutional_relationships.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Fannie Mae,Fannie Mae,Developer / GP,Fannie Mae,100,relationship_graph.csv,6,exact canonical match
+2026-11-04,20261104-025626-948725c5,fannie mae,Fannie Mae,Lender / Debt Provider,Fannie Mae,75,deal_pipeline.csv,2,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,fannie mae,Fannie Mae,Lender / Debt Provider,Fannie Mae,75,relationship_graph.csv,2,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,Farallon Capital,Farallon Capital,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Farallon Capital,Farallon Capital,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Florida,Florida,Market / Region,,40,regional_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Freddie Mac,Freddie Mac,Developer / GP,Freddie Mac,100,gp_intelligence.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Freddie Mac,Freddie Mac,Developer / GP,Freddie Mac,100,institutional_relationships.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,freddie mac,Freddie Mac,Lender / Debt Provider,Freddie Mac,75,deal_pipeline.csv,1,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,freddie mac,Freddie Mac,Lender / Debt Provider,Freddie Mac,75,relationship_graph.csv,1,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,General Project Signal - Other / Unknown - CSU Dominguez Hills completes new dorms + rec center,General Project Signal - Other / Unknown - CSU Dominguez Hills completes new dorms + rec center,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-11-04,20261104-025626-948725c5,General Project Signal - Other / Unknown - Details emerge for new LBCC student housing in North Long Beach,General Project Signal - Other / Unknown - Details emerge for new LBCC student housing in North Long Beach,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-11-04,20261104-025626-948725c5,General Project Signal - Other / Unknown - Multifamily Absorption Rate Remains Below 50%,General Project Signal - Other / Unknown - Multifamily Absorption Rate Remains Below 50%,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-11-04,20261104-025626-948725c5,General Project Signal - Other / Unknown - Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025,General Project Signal - Other / Unknown - Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-11-04,20261104-025626-948725c5,"General Project Signal - Washington DC - Howard University, Developers Break Ground on 11-Story Multifamily Development in D.C.","General Project Signal - Washington DC - Howard University, Developers Break Ground on 11-Story Multifamily Development in D.C.",Project / Deal,,40,relationship_graph.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Georgia,Georgia,Market / Region,,40,articles.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Georgia,Georgia,Market / Region,,40,deal_pipeline.csv,2,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Georgia,Georgia,Market / Region,,40,relationship_graph.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Greystar,Greystar,Developer / GP,Greystar,100,deal_pipeline.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Greystar,Greystar,Developer / GP,Greystar,100,gp_intelligence.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Greystar,Greystar,Developer / GP,Greystar,100,institutional_relationships.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Greystar,Greystar,Developer / GP,Greystar,100,relationship_graph.csv,3,exact canonical match
+2026-11-04,20261104-025626-948725c5,Greystone,Greystone,Developer / GP,Greystone,100,deal_pipeline.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Greystone,Greystone,Developer / GP,Greystone,100,gp_intelligence.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Greystone,Greystone,Developer / GP,Greystone,100,institutional_relationships.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Greystone,Greystone,Developer / GP,Greystone,100,relationship_graph.csv,4,exact canonical match
+2026-11-04,20261104-025626-948725c5,High Street Residential,High Street Residential,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,High Street Residential,High Street Residential,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Hines,Hines,Developer / GP,,40,deal_pipeline.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Hines,Hines,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Hines,Hines,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Hines,Hines,Developer / GP,,40,relationship_graph.csv,4,weak match / needs review
+2026-11-04,20261104-025626-948725c5,IPA,IPA,Developer / GP,,40,deal_pipeline.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,IPA,IPA,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,IPA,IPA,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,IPA,IPA,Developer / GP,,40,relationship_graph.csv,3,weak match / needs review
+2026-11-04,20261104-025626-948725c5,JLL,JLL,Developer / GP,JLL,100,deal_pipeline.csv,3,exact canonical match
+2026-11-04,20261104-025626-948725c5,JLL,JLL,Developer / GP,JLL,100,gp_intelligence.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,JLL,JLL,Developer / GP,JLL,100,institutional_relationships.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,JLL,JLL,Developer / GP,JLL,100,relationship_graph.csv,12,exact canonical match
+2026-11-04,20261104-025626-948725c5,jll,JLL,Lender / Debt Provider,JLL,75,deal_pipeline.csv,3,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,jll,JLL,Lender / Debt Provider,JLL,75,relationship_graph.csv,3,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,Acquisition - New York City / New York - JLL Brokers $23.5M Sale of Mixed-Use Development Site in Brooklyn,JLL,Project / Deal,JLL,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Legacy Partners,Legacy Partners,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Legacy Partners,Legacy Partners,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Long Island City Luxury Apartments Brightshore Capital,Long Island City Luxury Apartments Brightshore Capital,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Long Island City Luxury Apartments Brightshore Capital,Long Island City Luxury Apartments Brightshore Capital,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Atlanta / Georgia,Los Angeles,Market / Region,LA,60,articles.csv,6,partial match
+2026-11-04,20261104-025626-948725c5,Atlanta / Georgia,Los Angeles,Market / Region,LA,60,deal_pipeline.csv,6,partial match
+2026-11-04,20261104-025626-948725c5,Atlanta / Georgia,Los Angeles,Market / Region,LA,60,relationship_graph.csv,6,partial match
+2026-11-04,20261104-025626-948725c5,Inland Empire,Los Angeles,Market / Region,LA,60,deal_pipeline.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Inland Empire,Los Angeles,Market / Region,LA,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,La County,Los Angeles,Market / Region,LA,60,deal_pipeline.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,La County,Los Angeles,Market / Region,LA,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Los Angeles,Los Angeles,Market / Region,Los Angeles,100,articles.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Los Angeles,Los Angeles,Market / Region,Los Angeles,100,deal_pipeline.csv,6,exact canonical match
+2026-11-04,20261104-025626-948725c5,Los Angeles,Los Angeles,Market / Region,Los Angeles,100,regional_intelligence.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Los Angeles,Los Angeles,Market / Region,Los Angeles,100,relationship_graph.csv,6,exact canonical match
+2026-11-04,20261104-025626-948725c5,Los Angeles / California,Los Angeles,Market / Region,Los Angeles,60,articles.csv,6,partial match
+2026-11-04,20261104-025626-948725c5,Los Angeles / California,Los Angeles,Market / Region,Los Angeles,60,deal_pipeline.csv,5,partial match
+2026-11-04,20261104-025626-948725c5,Los Angeles / California,Los Angeles,Market / Region,Los Angeles,60,relationship_graph.csv,5,partial match
+2026-11-04,20261104-025626-948725c5,Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Acquisition - Atlanta / Georgia - Passco Offloads Buckhead Rental Asset for $87.5M,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,Construction Financing - Other / Unknown - HUD launches ‘express lane’ for LIHTC multifamily construction loans,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,Development Start - Los Angeles - Muirfield Breaks Ground on Orlando-Area Opportunity Zone Multifamily Development,Los Angeles,Project / Deal,Los Angeles,60,relationship_graph.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,Development Start - Los Angeles / California - Work begins for La Brea Tar Pits and Page Museum revamp,Los Angeles,Project / Deal,Los Angeles,60,relationship_graph.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,Disposition / Exit - Atlanta / Georgia - Perimeter Center Rental Community Goes for $120M,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,Disposition / Exit - Los Angeles / California - Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Mari...,Los Angeles,Project / Deal,Los Angeles,60,relationship_graph.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,Disposition / Exit - Other / Unknown - Northmarq Brokers Sale of Newly Built Class A Multifamily Property in Lawrence Kansas,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Disposition / Exit - Seattle - Kidder Mathews Arranges Sale of 45-Unit Multifamily in Walla Walla,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Entitlement / Permitting - Los Angeles / California - Housing pitched for 5412 Bellingham Ave. in Valley Village,Los Angeles,Project / Deal,Los Angeles,60,relationship_graph.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,"Entitlement / Permitting - Los Angeles / California - Long Beach ADU boom, L.A.'s low homeownership, and more",Los Angeles,Project / Deal,Los Angeles,60,relationship_graph.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,General Project Signal - Georgia - ECI Group Launches Residential Pre-Leasing at $60M The Averly Richmond Hill Development in...,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,General Project Signal - Los Angeles / California - One Beverly Hills Reaches Milestones Ahead of Schedule,Los Angeles,Project / Deal,Los Angeles,60,relationship_graph.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,"General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building",Los Angeles,Project / Deal,Hollywood,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,General Project Signal - Other / Unknown - Jonathan Rose Companies Announce Major Rehabilitation of Ashtabula Towers Preserving Affor...,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,General Project Signal - Other / Unknown - Northmarq’s Debt + Equity Team Arranges $26.1M in Financing for Class A Multifamily Commun...,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,"JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project",Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,JV / Partnership - New York - Brightshore Acquires Newly Built Long Island City Luxury Apartments,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,JV / Partnership - New York City / New York - Partnership Acquires Student Housing Property in Manhattan’s East Village for $28M,Los Angeles,Project / Deal,LA,60,relationship_graph.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,Marcus & Millichap,Marcus & Millichap,Developer / GP,,40,deal_pipeline.csv,3,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Marcus & Millichap,Marcus & Millichap,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Marcus & Millichap,Marcus & Millichap,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Marcus & Millichap,Marcus & Millichap,Developer / GP,,40,relationship_graph.csv,6,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Midtown East Residential Conversion,Midtown East Residential Conversion,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Midtown East Residential Conversion,Midtown East Residential Conversion,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Mill Creek Residential,Mill Creek Residential,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Mill Creek Residential,Mill Creek Residential,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Multifamily Broward County Investments,Multifamily Broward County Investments,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Multifamily Broward County Investments,Multifamily Broward County Investments,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,National,National,Market / Region,,40,articles.csv,5,weak match / needs review
+2026-11-04,20261104-025626-948725c5,National / Other,National / Other,Market / Region,,40,regional_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Brooklyn,New York,Market / Region,Brooklyn,75,deal_pipeline.csv,1,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,Brooklyn,New York,Market / Region,Brooklyn,75,relationship_graph.csv,1,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,Manhattan,New York,Market / Region,Manhattan,75,deal_pipeline.csv,1,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,Manhattan,New York,Market / Region,Manhattan,75,relationship_graph.csv,1,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,New York,New York,Market / Region,New York,100,articles.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,New York,New York,Market / Region,New York,100,deal_pipeline.csv,2,exact canonical match
+2026-11-04,20261104-025626-948725c5,New York,New York,Market / Region,New York,100,regional_intelligence.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,New York,New York,Market / Region,New York,100,relationship_graph.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,New York City,New York,Market / Region,New York,60,deal_pipeline.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,New York City,New York,Market / Region,New York,60,relationship_graph.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,New York City / New York,New York,Market / Region,New York,60,articles.csv,4,partial match
+2026-11-04,20261104-025626-948725c5,New York City / New York,New York,Market / Region,New York,60,deal_pipeline.csv,4,partial match
+2026-11-04,20261104-025626-948725c5,New York City / New York,New York,Market / Region,New York,60,relationship_graph.csv,4,partial match
+2026-11-04,20261104-025626-948725c5,"Office-to-Residential Conversion - New York City / New York - Metro Loft, David Werner Secure $231M Loan for Midtown East Residential Conversion",New York,Project / Deal,New York,60,relationship_graph.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,Refinancing - New York City / New York - Affinius Capital Provides $226M for Downtown Brooklyn Multifamily Building,New York,Project / Deal,New York,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units,Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units,Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-11-04,20261104-025626-948725c5,"Operational / Property Management Tech - Other / Unknown - AI, Automation & the Future of Multifamily Finance","Operational / Property Management Tech - Other / Unknown - AI, Automation & the Future of Multifamily Finance",Project / Deal,,40,relationship_graph.csv,2,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Other / Unknown,Other / Unknown,Market / Region,,40,articles.csv,24,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Other / Unknown,Other / Unknown,Market / Region,,40,deal_pipeline.csv,18,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Partnership,Partnership,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Partnership,Partnership,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Santa Monica,Santa Monica,Market / Region,,40,deal_pipeline.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Santa Monica,Santa Monica,Market / Region,,40,relationship_graph.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Seattle,Seattle,Market / Region,,40,articles.csv,2,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Seattle,Seattle,Market / Region,,40,deal_pipeline.csv,4,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Seattle,Seattle,Market / Region,,40,regional_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Seattle,Seattle,Market / Region,,40,relationship_graph.csv,2,weak match / needs review
+2026-11-04,20261104-025626-948725c5,South Florida,South Florida,Market / Region,,40,deal_pipeline.csv,4,weak match / needs review
+2026-11-04,20261104-025626-948725c5,South Florida,South Florida,Market / Region,,40,relationship_graph.csv,4,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Southeast,Southeast,Market / Region,,40,deal_pipeline.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Southeast,Southeast,Market / Region,,40,regional_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Southeast,Southeast,Market / Region,,40,relationship_graph.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Standard Communities,Standard Communities,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Standard Communities,Standard Communities,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Atlanta,Sun Belt,Market / Region,Atlanta,75,deal_pipeline.csv,6,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,Atlanta,Sun Belt,Market / Region,Atlanta,75,relationship_graph.csv,6,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,Austin,Sun Belt,Market / Region,Austin,75,deal_pipeline.csv,2,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,Austin,Sun Belt,Market / Region,Austin,75,regional_intelligence.csv,1,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,Austin,Sun Belt,Market / Region,Austin,75,relationship_graph.csv,2,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,Austin / Texas,Sun Belt,Market / Region,Austin,60,articles.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,Austin / Texas,Sun Belt,Market / Region,Austin,60,deal_pipeline.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,Austin / Texas,Sun Belt,Market / Region,Austin,60,relationship_graph.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,Dallas,Sun Belt,Market / Region,Dallas,75,regional_intelligence.csv,1,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,Miami / Florida,Sun Belt,Market / Region,Miami,60,articles.csv,4,partial match
+2026-11-04,20261104-025626-948725c5,Miami / Florida,Sun Belt,Market / Region,Miami,60,deal_pipeline.csv,4,partial match
+2026-11-04,20261104-025626-948725c5,Miami / Florida,Sun Belt,Market / Region,Miami,60,relationship_graph.csv,4,partial match
+2026-11-04,20261104-025626-948725c5,Phoenix,Sun Belt,Market / Region,Phoenix,75,deal_pipeline.csv,2,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,Phoenix,Sun Belt,Market / Region,Phoenix,75,regional_intelligence.csv,1,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,Phoenix,Sun Belt,Market / Region,Phoenix,75,relationship_graph.csv,2,case or punctuation normalized match
+2026-11-04,20261104-025626-948725c5,Phoenix / Arizona,Sun Belt,Market / Region,Phoenix,60,articles.csv,3,partial match
+2026-11-04,20261104-025626-948725c5,Phoenix / Arizona,Sun Belt,Market / Region,Phoenix,60,deal_pipeline.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,Phoenix / Arizona,Sun Belt,Market / Region,Phoenix,60,relationship_graph.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,Sun Belt,Sun Belt,Market / Region,Sun Belt,100,articles.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Sun Belt,Sun Belt,Market / Region,Sun Belt,100,deal_pipeline.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Sun Belt,Sun Belt,Market / Region,Sun Belt,100,regional_intelligence.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Sun Belt,Sun Belt,Market / Region,Sun Belt,100,relationship_graph.csv,1,exact canonical match
+2026-11-04,20261104-025626-948725c5,Acquisition - Miami / Florida - Nuveen Sells South Florida Rental for $53M,Sun Belt,Project / Deal,Miami,60,relationship_graph.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,"Development Start - Austin / Texas - ARCTRUST, Edison Equity Teaming Up on 175-Unit Austin-Area 55+ Community",Sun Belt,Project / Deal,Austin,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Development Start - Phoenix / Arizona - Leon Multifamily Building 343-Unit N. Phoenix Venture,Sun Belt,Project / Deal,Phoenix,60,relationship_graph.csv,2,partial match
+2026-11-04,20261104-025626-948725c5,"General Project Signal - Miami / Florida - Terra, Fortune Ink $220M Key Biscayne Condo Financing",Sun Belt,Project / Deal,Miami,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,"General Project Signal - Sun Belt - High Street Delivers 370-Unit Apartment Community in Apex, North Carolina",Sun Belt,Project / Deal,Sun Belt,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,"JV / Partnership - Miami / Florida - Eastham Capital, Bender Cos. Acquire 204-Unit Multifamily Community in Omaha",Sun Belt,Project / Deal,Miami,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Refinancing - Austin / Texas - Walker & Dunlop Arranges $117.3M Refinancing of Texas Apartment Portfolio,Sun Belt,Project / Deal,Austin,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building,Sun Belt,Project / Deal,Phoenix,60,relationship_graph.csv,1,partial match
+2026-11-04,20261104-025626-948725c5,Texas,Texas,Market / Region,,40,regional_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Tishman Speyer,Tishman Speyer,Developer / GP,,40,deal_pipeline.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Tishman Speyer,Tishman Speyer,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Tishman Speyer,Tishman Speyer,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Tishman Speyer,Tishman Speyer,Developer / GP,,40,relationship_graph.csv,3,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Unknown,Unknown,Developer / GP,,40,deal_pipeline.csv,36,unknown entity needs review
+2026-11-04,20261104-025626-948725c5,Unknown,Unknown,Institutional Capital,,40,deal_pipeline.csv,51,unknown entity needs review
+2026-11-04,20261104-025626-948725c5,Unknown,Unknown,Lender / Debt Provider,,40,deal_pipeline.csv,45,unknown entity needs review
+2026-11-04,20261104-025626-948725c5,Unknown,Unknown,Market / Region,,40,deal_pipeline.csv,18,unknown entity needs review
+2026-11-04,20261104-025626-948725c5,Walker & Dunlop,Walker & Dunlop,Developer / GP,,40,deal_pipeline.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Walker & Dunlop,Walker & Dunlop,Developer / GP,,40,gp_intelligence.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Walker & Dunlop,Walker & Dunlop,Developer / GP,,40,institutional_relationships.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Walker & Dunlop,Walker & Dunlop,Developer / GP,,40,relationship_graph.csv,4,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Washington DC,Washington DC,Market / Region,,40,articles.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Washington DC,Washington DC,Market / Region,,40,deal_pipeline.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,Washington DC,Washington DC,Market / Region,,40,relationship_graph.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,"Washington, D.C.","Washington, D.C.",Market / Region,,40,deal_pipeline.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,"Washington, D.C.","Washington, D.C.",Market / Region,,40,relationship_graph.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,equity residential,equity residential,Institutional Capital,,40,deal_pipeline.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,equity residential,equity residential,Institutional Capital,,40,relationship_graph.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,hines,hines,Institutional Capital,,40,deal_pipeline.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,hines,hines,Institutional Capital,,40,relationship_graph.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,northmarq,northmarq,Lender / Debt Provider,,40,deal_pipeline.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,northmarq,northmarq,Lender / Debt Provider,,40,relationship_graph.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,walker & dunlop,walker & dunlop,Lender / Debt Provider,,40,deal_pipeline.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,walker & dunlop,walker & dunlop,Lender / Debt Provider,,40,relationship_graph.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,wells fargo,wells fargo,Lender / Debt Provider,,40,deal_pipeline.csv,1,weak match / needs review
+2026-11-04,20261104-025626-948725c5,wells fargo,wells fargo,Lender / Debt Provider,,40,relationship_graph.csv,1,weak match / needs review

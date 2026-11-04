@@ -1,0 +1,8 @@
+﻿run_date,run_id,run_timestamp,regime,previous_score,latest_score,score_change,momentum_label
+2026-11-04,20261104-025626-948725c5,2026-11-04 02:56:26,Selective Capital Re-entry,89,89,0,Stable
+2026-11-04,20261104-025626-948725c5,2026-11-04 02:56:26,Financing Stress,81,81,0,Stable
+2026-11-04,20261104-025626-948725c5,2026-11-04 02:56:26,Developer Strategy Shift,59,59,0,Stable
+2026-11-04,20261104-025626-948725c5,2026-11-04 02:56:26,Supply Pressure,47,47,0,Stable
+2026-11-04,20261104-025626-948725c5,2026-11-04 02:56:26,Policy / Entitlement Watch,53,39,-14,Weakening
+2026-11-04,20261104-025626-948725c5,2026-11-04 02:56:26,Construction Cost Pressure,14,0,-14,Weakening
+2026-11-04,20261104-025626-948725c5,2026-11-04 02:56:26,Stable Monitoring Environment,0,0,0,Stable

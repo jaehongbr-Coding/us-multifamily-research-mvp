@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-11-03 03:52:08
+Generated: 2026-11-04 02:57:04
 
-- Total raw project references: 717
-- Total canonical projects: 177
-- Duplicate project clusters: 113
-- High-confidence project identities: 717
+- Total raw project references: 598
+- Total canonical projects: 149
+- Duplicate project clusters: 100
+- High-confidence project identities: 598
 - Low-confidence identities needing review: 0
-- LA / California project references: 563
+- LA / California project references: 348
 
 ## Top Repeated Projects
 
-- General Project Signal - Other / Unknown - Jonathan Rose Companies Announce Major Rehabilitation of Ashtabula Towers Preserving Affor...: 59 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Jonathan Rose Companies Announce Major Rehabilitation of Ashtabula Towers Preserving Affor...: 59 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Jonathan Rose Companies Announce Major Rehabilitation of Ashtabula Towers Preserving Affor...: 59 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Jonathan Rose Companies Announce Major Rehabilitation of Ashtabula Towers Preserving Affor...: 59 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Jonathan Rose Companies Announce Major Rehabilitation of Ashtabula Towers Preserving Affor...: 59 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Jonathan Rose Companies Announce Major Rehabilitation of Ashtabula Towers Preserving Affor...: 59 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Jonathan Rose Companies Announce Major Rehabilitation of Ashtabula Towers Preserving Affor...: 59 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Jonathan Rose Companies Announce Major Rehabilitation of Ashtabula Towers Preserving Affor...: 59 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Jonathan Rose Companies Announce Major Rehabilitation of Ashtabula Towers Preserving Affor...: 59 occurrence(s), confidence 80.
-- General Project Signal - Other / Unknown - Jonathan Rose Companies Announce Major Rehabilitation of Ashtabula Towers Preserving Affor...: 59 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: 48 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: 48 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: 48 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: 48 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: 48 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: 48 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: 48 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: 48 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: 48 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: 48 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

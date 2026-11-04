@@ -1,8 +1,8 @@
 # LA Lifecycle Transition Watch Report
 
-Generated: 2026-11-03 03:52:08
+Generated: 2026-11-04 02:57:04
 
-- Total LA lifecycle transition watch items: 57
+- Total LA lifecycle transition watch items: 45
 
 ## LA Projects Moving Forward
 
@@ -18,37 +18,33 @@ Generated: 2026-11-03 03:52:08
 
 ## LA Refinancing / Recap Timing Watch
 
-- Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Refinancing - Las Vegas / Nevada - Bascom Group Obtains $30.8M Refinancing for 200-Unit Multifamily Community in Las Vegas: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Refinancing - New York City / New York - Prime Finance Provides $57M Refi for East Village Multifamily Complex: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Refinancing - Other / Unknown - PCCP Refis Long Island Apartments With $154M Loan: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Construction Financing - Other / Unknown - HUD launches ‘express lane’ for LIHTC multifamily construction loans: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 
 ## LA Delivery / Lease-Up Benchmarks
 
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
-- Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Maria California: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
-- Disposition / Exit - Los Angeles / California - Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Mari...: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Maria California: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
+- Disposition / Exit - Los Angeles / California - Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Mari...: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
 
 ## Recommended LA Transition Follow-up Actions
 
 - Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
 - Use as delivery, lease-up, and underwriting benchmark: Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Maria California.
 - Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - Los Angeles / California - Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Mari....
-- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets.
-- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Miami / Florida - Little Havana Apartment Owners Land $50.8M Refi.
-- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Las Vegas / Nevada - Bascom Group Obtains $30.8M Refinancing for 200-Unit Multifamily Community in Las Vegas.
-- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - New York City / New York - Prime Finance Provides $57M Refi for East Village Multifamily Complex.
-- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Other / Unknown - PCCP Refis Long Island Apartments With $154M Loan.
+- Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - Other / Unknown - HUD launches ‘express lane’ for LIHTC multifamily construction loans.
+- Monitor for another run to confirm lifecycle direction: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
+- Monitor for another run to confirm lifecycle direction: Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio.
+- Monitor for another run to confirm lifecycle direction: Disposition / Exit - California - Marcus & Millichap Brokers $13.6M Sale of 63-Unit Multifamily Property in Davis California.
+- Monitor for another run to confirm lifecycle direction: Entitlement / Permitting - Santa Monica / California - Fresh renderings for Tishman Speyer projects in Downtown Santa Monica.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 717
-- Canonical projects: 177
-- Duplicate project clusters: 113
-- Persistent assets tracked: 177
-- LA persistent asset watch items: 118
+- Raw project references: 598
+- Canonical projects: 149
+- Duplicate project clusters: 100
+- Persistent assets tracked: 149
+- LA persistent asset watch items: 96
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

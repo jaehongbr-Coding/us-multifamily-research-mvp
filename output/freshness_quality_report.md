@@ -1,52 +1,52 @@
 # Freshness Quality Report
 
-Generated: 2026-11-03 03:51:48
+Generated: 2026-11-04 02:56:27
 
 ## Freshness Summary
 
-- Total articles reviewed: 78
-- fresh_0_3d: 52
+- Total articles reviewed: 70
+- fresh_0_3d: 45
 - recent_4_14d: 4
 - stale_15_30d: 0
-- old_31d_plus: 22
+- old_31d_plus: 21
 - unknown_date: 0
 
 ## Old Articles Excluded From Representative Evidence
 
-- Little Havana Apartment Owners Land $50.8M Refi (Connect CRE South Florida, 2026-10-19): published date parsed; article age 15 day(s)
-- Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 (NAHB Eye on Housing - Multifamily, 2026-07-27): published date parsed; article age 99 day(s)
-- Multifamily Missing Middle Falls Back (NAHB Eye on Housing - Multifamily, 2026-08-26): published date parsed; article age 69 day(s)
-- Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily, 2026-05-27): published date parsed; article age 160 day(s)
-- Multifamily Absorption Rate Remains Below 50% (NAHB Eye on Housing - Multifamily, 2026-08-28): published date parsed; article age 67 day(s)
-- Hines Pays $237.8M for Buckhead Rental Community (Connect CRE Atlanta, 2026-10-07): published date parsed; article age 27 day(s)
-- Thompson Thrift Pursuing 319-Unit Powder Springs Rental Community (Connect CRE Atlanta, 2026-08-26): published date parsed; article age 69 day(s)
-- Shorter Apartment Construction Time in 2025 (NAHB Eye on Housing - Multifamily, 2026-09-07): published date parsed; article age 57 day(s)
-- Second Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-08-25): published date parsed; article age 70 day(s)
-- Rent Prices Continue to Rise, While Absorption Remains Low (NAHB Eye on Housing - Multifamily, 2026-05-29): published date parsed; article age 158 day(s)
-- The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market? (Multifamily Executive, 2026-10-14): published date parsed; article age 20 day(s)
-- First Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-05-26): published date parsed; article age 161 day(s)
-- Fourth Quarter 2025 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-03-19): published date parsed; article age 229 day(s)
-- Passco Offloads Buckhead Rental Asset for $87.5M (Connect CRE Atlanta, 2026-09-08): published date parsed; article age 56 day(s)
-- Private Residential Construction Spending Increases in March (NAHB Eye on Housing - Multifamily, 2026-05-07): published date parsed; article age 180 day(s)
+- Anaheim Sale is First Closing in Broader Multifamily Portfolio (Connect CRE Orange County, 2026-10-20): published date parsed; article age 15 day(s)
+- Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 (NAHB Eye on Housing - Multifamily, 2026-07-27): published date parsed; article age 100 day(s)
+- Multifamily Missing Middle Falls Back (NAHB Eye on Housing - Multifamily, 2026-08-26): published date parsed; article age 70 day(s)
+- Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily, 2026-05-27): published date parsed; article age 161 day(s)
+- Multifamily Absorption Rate Remains Below 50% (NAHB Eye on Housing - Multifamily, 2026-08-28): published date parsed; article age 68 day(s)
+- Hines Pays $237.8M for Buckhead Rental Community (Connect CRE Atlanta, 2026-10-07): published date parsed; article age 28 day(s)
+- Investor Takes Over Distressed Atlanta Apartment Asset (Connect CRE Atlanta, 2026-09-14): published date parsed; article age 51 day(s)
+- Shorter Apartment Construction Time in 2025 (NAHB Eye on Housing - Multifamily, 2026-09-07): published date parsed; article age 58 day(s)
+- Second Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-08-25): published date parsed; article age 71 day(s)
+- Rent Prices Continue to Rise, While Absorption Remains Low (NAHB Eye on Housing - Multifamily, 2026-05-29): published date parsed; article age 159 day(s)
+- The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market? (Multifamily Executive, 2026-10-14): published date parsed; article age 21 day(s)
+- First Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-05-26): published date parsed; article age 162 day(s)
+- Fourth Quarter 2025 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-03-19): published date parsed; article age 230 day(s)
+- Passco Offloads Buckhead Rental Asset for $87.5M (Connect CRE Atlanta, 2026-09-08): published date parsed; article age 57 day(s)
+- Private Residential Construction Spending Increases in March (NAHB Eye on Housing - Multifamily, 2026-05-07): published date parsed; article age 181 day(s)
 
 ## Old Articles Excluded From Development Activity Top Exposure
 
-- Little Havana Apartment Owners Land $50.8M Refi (Connect CRE South Florida): marked historical/background.
+- Anaheim Sale is First Closing in Broader Multifamily Portfolio (Connect CRE Orange County): marked historical/background.
 - Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 (NAHB Eye on Housing - Multifamily): marked historical/background.
 - Multifamily Missing Middle Falls Back (NAHB Eye on Housing - Multifamily): marked historical/background.
 - Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily): marked historical/background.
 - Hines Pays $237.8M for Buckhead Rental Community (Connect CRE Atlanta): marked historical/background.
-- Thompson Thrift Pursuing 319-Unit Powder Springs Rental Community (Connect CRE Atlanta): marked historical/background.
+- Investor Takes Over Distressed Atlanta Apartment Asset (Connect CRE Atlanta): marked historical/background.
 - Second Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily): marked historical/background.
 - Passco Offloads Buckhead Rental Asset for $87.5M (Connect CRE Atlanta): marked historical/background.
 
 ## Old Articles Excluded From GP / Capital Activity
 
-- Little Havana Apartment Owners Land $50.8M Refi (Connect CRE South Florida): repeat exposure penalty; historical article over 30 days old
+- Anaheim Sale is First Closing in Broader Multifamily Portfolio (Connect CRE Orange County): repeat exposure penalty; historical article over 30 days old; development article without confirmed capital event
 - Hines Pays $237.8M for Buckhead Rental Community (Connect CRE Atlanta): repeat exposure penalty; historical article over 30 days old
+- Investor Takes Over Distressed Atlanta Apartment Asset (Connect CRE Atlanta): repeat exposure penalty; historical article over 30 days old; development article without confirmed capital event
 - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market? (Multifamily Executive): repeat exposure penalty; article integrity issue; historical article over 30 days old
 - Passco Offloads Buckhead Rental Asset for $87.5M (Connect CRE Atlanta): repeat exposure penalty; historical article over 30 days old
-- Investor Takes Over Distressed Atlanta Apartment Asset (Connect CRE Atlanta): repeat exposure penalty; historical article over 30 days old
 - HBGI Q1 2026: Single-Family Construction Slips Across All Geographies (NAHB Eye on Housing - Multifamily): repeat exposure penalty; historical article over 30 days old
 - NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter (NAHB Eye on Housing - Multifamily): repeat exposure penalty; historical article over 30 days old
 
@@ -57,9 +57,9 @@ Generated: 2026-11-03 03:51:48
 ## Sources With Stale / Unknown Dates
 
 - NAHB Eye on Housing - Multifamily: 15 stale/old/unknown-date article(s)
-- Connect CRE Atlanta: 4 stale/old/unknown-date article(s)
+- Connect CRE Atlanta: 3 stale/old/unknown-date article(s)
 - Multifamily Executive: 2 stale/old/unknown-date article(s)
-- Connect CRE South Florida: 1 stale/old/unknown-date article(s)
+- Connect CRE Orange County: 1 stale/old/unknown-date article(s)
 
 ## Recommended Source / Date Parsing Fixes
 

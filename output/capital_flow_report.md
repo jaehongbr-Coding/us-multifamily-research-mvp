@@ -1,19 +1,19 @@
 # Capital Flow Memory Report
 
-Generated: 2026-11-03 03:51:54
+Generated: 2026-11-04 02:56:41
 
 ## Debt-Market Stress Summary
 
-- Atlanta / Georgia (Market-Level Capital Concentration): Stable capital pattern, 527 observation(s), importance 100.
+- Atlanta / Georgia (Market-Level Capital Concentration): Stable capital pattern, 92 observation(s), importance 100.
 - Atlanta / Georgia (Market-Level Capital Concentration): Capital flow fading, 13 observation(s), importance 100.
-- Atlanta / Georgia (Market-Level Capital Concentration): Stable capital pattern, 91 observation(s), importance 100.
+- Atlanta / Georgia (Market-Level Capital Concentration): Capital concentration increasing, 532 observation(s), importance 100.
 - Austin / Texas (Market-Level Capital Concentration): Capital flow fading, 9 observation(s), importance 100.
-- Austin / Texas (Market-Level Capital Concentration): Capital flow fading, 54 observation(s), importance 100.
-- Berkadia (Recurring Lender): Capital flow fading, 26 observation(s), importance 100.
-- Berkadia (Recurring Lender): Capital flow fading, 9 observation(s), importance 100.
-- Berkadia (Recurring Lender): Capital flow fading, 7 observation(s), importance 100.
-- Berkadia (Recurring Lender): Capital flow fading, 78 observation(s), importance 100.
+- Austin / Texas (Market-Level Capital Concentration): Capital concentration increasing, 55 observation(s), importance 100.
 - Berkadia (Recurring Lender): Capital flow fading, 29 observation(s), importance 100.
+- Berkadia (Recurring Lender): Capital flow fading, 25 observation(s), importance 100.
+- Berkadia (Recurring Lender): Capital flow fading, 7 observation(s), importance 100.
+- Berkadia (Recurring Lender): Capital flow fading, 9 observation(s), importance 100.
+- Berkadia (Recurring Lender): Capital flow fading, 78 observation(s), importance 100.
 
 ## Capital Migration Patterns
 
@@ -23,61 +23,61 @@ Generated: 2026-11-03 03:51:54
 - Atlanta Student Housing Project Radnor Property Group (Institutional Capital Flow): Capital flow fading, 28 observation(s), importance 100.
 - AvalonBay (Institutional Capital Flow): Capital flow fading, 15 observation(s), importance 100.
 - Bascom Group (Institutional Capital Flow): Capital flow fading, 44 observation(s), importance 100.
-- Berkadia (Institutional Capital Flow): Capital flow fading, 32 observation(s), importance 100.
 - Berkadia (Institutional Capital Flow): Capital flow fading, 10 observation(s), importance 100.
+- Berkadia (Institutional Capital Flow): Capital flow fading, 32 observation(s), importance 100.
+- Blackstone (Recurring Capital Partner): Capital flow fading, 11 observation(s), importance 100.
 - Blackstone (Recurring Capital Partner): Capital flow fading, 19 observation(s), importance 100.
-- Blackstone (Institutional Capital Flow): Capital flow fading, 19 observation(s), importance 100.
 
 ## Recurring Construction Lending Activity
 
-- Atlanta / Georgia (Market-Level Capital Concentration): Stable capital pattern, 527 observation(s), importance 100.
-- Atlanta / Georgia (Market-Level Capital Concentration): Capital flow fading, 31 observation(s), importance 100.
+- Atlanta / Georgia (Market-Level Capital Concentration): Stable capital pattern, 92 observation(s), importance 100.
 - Atlanta / Georgia (Market-Level Capital Concentration): Capital flow fading, 13 observation(s), importance 100.
-- Atlanta / Georgia (Market-Level Capital Concentration): Stable capital pattern, 91 observation(s), importance 100.
+- Atlanta / Georgia (Market-Level Capital Concentration): Capital concentration increasing, 532 observation(s), importance 100.
+- Atlanta / Georgia (Market-Level Capital Concentration): Capital flow fading, 31 observation(s), importance 100.
+- Austin / Texas (Market-Level Capital Concentration): Stable capital pattern, 8 observation(s), importance 100.
 - Austin / Texas (Market-Level Capital Concentration): Capital flow fading, 9 observation(s), importance 100.
-- Austin / Texas (Market-Level Capital Concentration): Stable capital pattern, 7 observation(s), importance 100.
-- Austin / Texas (Market-Level Capital Concentration): Capital flow fading, 54 observation(s), importance 100.
-- Berkadia (Recurring Lender): Capital flow fading, 26 observation(s), importance 100.
-- Berkadia (Recurring Lender): Capital flow fading, 5 observation(s), importance 100.
-- Berkadia (Recurring Lender): Capital flow fading, 78 observation(s), importance 100.
+- Austin / Texas (Market-Level Capital Concentration): Capital concentration increasing, 55 observation(s), importance 100.
+- Berkadia (Recurring Lender): Capital flow fading, 29 observation(s), importance 100.
+- Berkadia (Recurring Lender): Capital flow fading, 13 observation(s), importance 100.
+- Berkadia (Recurring Lender): Capital flow fading, 14 observation(s), importance 100.
 
 ## Agency Financing Patterns
 
-- Fannie Mae (Institutional Capital Flow): Capital concentration increasing, 7 observation(s), importance 100.
 - Fannie Mae (Recurring Lender): Capital flow fading, 43 observation(s), importance 100.
 - Fannie Mae (Institutional Capital Flow): Capital flow fading, 28 observation(s), importance 100.
-- Fannie Mae (Recurring Lender): Capital concentration increasing, 15 observation(s), importance 100.
-- Fannie Mae (Recurring Lender): Capital flow fading, 10 observation(s), importance 100.
 - Fannie Mae (Recurring Lender): Capital flow fading, 8 observation(s), importance 100.
+- Fannie Mae (Recurring Lender): Capital flow fading, 10 observation(s), importance 100.
+- Fannie Mae (Recurring Lender): Stable capital pattern, 16 observation(s), importance 100.
 - Fannie Mae (Recurring Lender): Capital flow fading, 7 observation(s), importance 100.
 - Fannie Mae (Recurring Lender): Capital flow fading, 5 observation(s), importance 100.
-- Freddie Mac (Recurring Lender): Capital flow fading, 19 observation(s), importance 100.
+- Freddie Mac (Institutional Capital Flow): Capital flow fading, 19 observation(s), importance 100.
 - Freddie Mac (Recurring Lender): Capital flow fading, 40 observation(s), importance 100.
+- Freddie Mac (Recurring Lender): Capital flow fading, 10 observation(s), importance 100.
 
 ## Refinancing Hotspots
 
-- Atlanta / Georgia (Market-Level Capital Concentration): Stable capital pattern, 527 observation(s), importance 100.
+- Atlanta / Georgia (Market-Level Capital Concentration): Stable capital pattern, 92 observation(s), importance 100.
 - Atlanta / Georgia (Market-Level Capital Concentration): Capital flow fading, 13 observation(s), importance 100.
-- Atlanta / Georgia (Market-Level Capital Concentration): Stable capital pattern, 91 observation(s), importance 100.
+- Atlanta / Georgia (Market-Level Capital Concentration): Capital concentration increasing, 532 observation(s), importance 100.
 - Austin / Texas (Market-Level Capital Concentration): Capital flow fading, 9 observation(s), importance 100.
-- Austin / Texas (Market-Level Capital Concentration): Capital flow fading, 54 observation(s), importance 100.
-- Berkadia (Recurring Lender): Capital flow fading, 26 observation(s), importance 100.
-- Berkadia (Recurring Lender): Capital flow fading, 9 observation(s), importance 100.
-- Berkadia (Recurring Lender): Capital flow fading, 7 observation(s), importance 100.
-- Berkadia (Recurring Lender): Capital flow fading, 78 observation(s), importance 100.
+- Austin / Texas (Market-Level Capital Concentration): Capital concentration increasing, 55 observation(s), importance 100.
 - Berkadia (Recurring Lender): Capital flow fading, 29 observation(s), importance 100.
+- Berkadia (Recurring Lender): Capital flow fading, 25 observation(s), importance 100.
+- Berkadia (Recurring Lender): Capital flow fading, 7 observation(s), importance 100.
+- Berkadia (Recurring Lender): Capital flow fading, 9 observation(s), importance 100.
+- Berkadia (Recurring Lender): Capital flow fading, 78 observation(s), importance 100.
 
 ## Institutional Capital Concentration
 
 - Arizona (Market-Level Capital Concentration): Capital flow fading, 19 observation(s), importance 100.
-- Atlanta / Georgia (Market-Level Capital Concentration): Stable capital pattern, 527 observation(s), importance 100.
-- Atlanta / Georgia (Market-Level Capital Concentration): Capital flow fading, 31 observation(s), importance 100.
-- Atlanta / Georgia (Market-Level Capital Concentration): Capital flow fading, 81 observation(s), importance 100.
+- Atlanta / Georgia (Market-Level Capital Concentration): Stable capital pattern, 92 observation(s), importance 100.
 - Atlanta / Georgia (Market-Level Capital Concentration): Capital flow fading, 17 observation(s), importance 100.
 - Atlanta / Georgia (Market-Level Capital Concentration): Capital flow fading, 13 observation(s), importance 100.
-- Atlanta / Georgia (Market-Level Capital Concentration): Stable capital pattern, 91 observation(s), importance 100.
+- Atlanta / Georgia (Market-Level Capital Concentration): Capital concentration increasing, 532 observation(s), importance 100.
+- Atlanta / Georgia (Market-Level Capital Concentration): Capital flow fading, 31 observation(s), importance 100.
+- Atlanta / Georgia (Market-Level Capital Concentration): Capital flow fading, 81 observation(s), importance 100.
+- Austin / Texas (Market-Level Capital Concentration): Stable capital pattern, 8 observation(s), importance 100.
 - Austin / Texas (Market-Level Capital Concentration): Capital flow fading, 9 observation(s), importance 100.
-- Austin / Texas (Market-Level Capital Concentration): Stable capital pattern, 7 observation(s), importance 100.
 - Austin / Texas (Market-Level Capital Concentration): Capital flow fading, 9 observation(s), importance 100.
 
 ## Opportunity / Distress Radar

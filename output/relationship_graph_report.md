@@ -1,71 +1,70 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-11-03 03:51:54
+Generated: 2026-11-04 02:56:40
 
-- Total relationship edges: 115
-- Most connected developer / GP: Blackstone (8 edge(s))
-- Most connected lender / debt provider: northmarq (3 edge(s))
-- Most connected market: California (7 edge(s))
-- Strongest relationship edge: Greystar -> walker & dunlop
-- Highest Woomi relevance edge: IPA -> Inland Empire
+- Total relationship edges: 113
+- Most connected developer / GP: JLL (12 edge(s))
+- Most connected lender / debt provider: jll (3 edge(s))
+- Most connected market: Atlanta (6 edge(s))
+- Strongest relationship edge: Fannie Mae -> fannie mae
+- Highest Woomi relevance edge: Fannie Mae -> fannie mae
 
 ## Top 10 Relationship Edges
 
-- Greystar -> walker & dunlop: Financing Relationship, Dallas / Texas, score 100. Track GP relationship history.
-- Greystar -> Dallas: Financing Relationship, Dallas / Texas, score 95. Track GP relationship history.
-- Greystar -> Dallas / Texas: Financing Relationship, Dallas / Texas, score 95. Track GP relationship history.
-- Greystar -> Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Financing Relationship, Dallas / Texas, score 95. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
-- Blackstone -> blackstone: Capital Flow, Miami / Florida, score 92. Track GP relationship history.
+- Fannie Mae -> fannie mae: JV / Partnership, Miami / Florida, score 95. Review potential JV relevance.
+- Walker & Dunlop -> walker & dunlop: Financing Relationship, Austin / Texas, score 94. Track GP relationship history.
+- JLL -> jll: Financing Relationship, New York City / New York, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 92. Track GP relationship history.
-- Walker & Dunlop -> walker & dunlop: Financing Relationship, New York City / New York, score 90. Track GP relationship history.
-- PCCP -> jll: Financing Relationship, Other / Unknown, score 88. Track GP relationship history.
-- Blackstone -> blackstone: Capital Flow, Miami / Florida, score 86. Track GP relationship history.
+- Blackstone -> blackstone: Capital Flow, Miami / Florida, score 91. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Washington DC, score 89. Track GP relationship history.
+- Greystone -> freddie mac: Financing Relationship, Miami / Florida, score 88. Track GP relationship history.
+- Fannie Mae -> JV / Partnership - Miami / Florida - Eastham Capital, Bender Cos. Acquire 204-Unit Multifamily Community in Omaha: JV / Partnership, Miami / Florida, score 87. Review potential JV relevance.
+- Fannie Mae -> Miami / Florida: JV / Partnership, Miami / Florida, score 87. Review potential JV relevance.
+- Fannie Mae -> South Florida: JV / Partnership, Miami / Florida, score 87. Review potential JV relevance.
 
 ## Developer / GP Relationship Map
 
-- Greystar -> walker & dunlop: Financing Relationship, Dallas / Texas, score 100. Track GP relationship history.
-- Greystar -> Dallas: Financing Relationship, Dallas / Texas, score 95. Track GP relationship history.
-- Greystar -> Dallas / Texas: Financing Relationship, Dallas / Texas, score 95. Track GP relationship history.
-- Greystar -> Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets: Financing Relationship, Dallas / Texas, score 95. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
-- Blackstone -> blackstone: Capital Flow, Miami / Florida, score 92. Track GP relationship history.
+- Fannie Mae -> fannie mae: JV / Partnership, Miami / Florida, score 95. Review potential JV relevance.
+- Walker & Dunlop -> walker & dunlop: Financing Relationship, Austin / Texas, score 94. Track GP relationship history.
+- JLL -> jll: Financing Relationship, New York City / New York, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 92. Track GP relationship history.
-- Walker & Dunlop -> walker & dunlop: Financing Relationship, New York City / New York, score 90. Track GP relationship history.
-- PCCP -> jll: Financing Relationship, Other / Unknown, score 88. Track GP relationship history.
-- Blackstone -> blackstone: Capital Flow, Miami / Florida, score 86. Track GP relationship history.
+- Blackstone -> blackstone: Capital Flow, Miami / Florida, score 91. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Washington DC, score 89. Track GP relationship history.
+- Greystone -> freddie mac: Financing Relationship, Miami / Florida, score 88. Track GP relationship history.
+- Fannie Mae -> JV / Partnership - Miami / Florida - Eastham Capital, Bender Cos. Acquire 204-Unit Multifamily Community in Omaha: JV / Partnership, Miami / Florida, score 87. Review potential JV relevance.
+- Fannie Mae -> Miami / Florida: JV / Partnership, Miami / Florida, score 87. Review potential JV relevance.
+- Fannie Mae -> South Florida: JV / Partnership, Miami / Florida, score 87. Review potential JV relevance.
 
 ## Lender / Debt Provider Relationship Map
 
-- Greystar -> walker & dunlop: Financing Relationship, Dallas / Texas, score 100. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Miami / Florida, score 93. Track GP relationship history.
+- Fannie Mae -> fannie mae: JV / Partnership, Miami / Florida, score 95. Review potential JV relevance.
+- Walker & Dunlop -> walker & dunlop: Financing Relationship, Austin / Texas, score 94. Track GP relationship history.
+- JLL -> jll: Financing Relationship, New York City / New York, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 92. Track GP relationship history.
-- Walker & Dunlop -> walker & dunlop: Financing Relationship, New York City / New York, score 90. Track GP relationship history.
-- PCCP -> jll: Financing Relationship, Other / Unknown, score 88. Track GP relationship history.
-- Fannie Mae -> fannie mae: Financing Relationship, Other / Unknown, score 81. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Washington DC, score 89. Track GP relationship history.
+- Greystone -> freddie mac: Financing Relationship, Miami / Florida, score 88. Track GP relationship history.
+- Fannie Mae -> fannie mae: Financing Relationship, Other / Unknown, score 84. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Phoenix / Arizona, score 83. Track GP relationship history.
 - Brookfield -> wells fargo: Financing Relationship, Other / Unknown, score 72. Track GP relationship history.
-- Acquisition - Other / Unknown - Northmarq Brokers Sale of 64-Unit, Historic Multifamily Property in Kansas City -> northmarq: Financing Relationship, Other / Unknown, score 65. Monitor lender activity.
-- Disposition / Exit - Other / Unknown - 312-Unit Multifamily in Indiana Changes Hands -> northmarq: Financing Relationship, Other / Unknown, score 59. Monitor lender activity.
 - Disposition / Exit - Other / Unknown - Northmarq Brokers Sale of Newly Built Class A Multifamily Property in Lawrence Kansas -> northmarq: Financing Relationship, Other / Unknown, score 59. Monitor lender activity.
 
 ## Capital Partner / Institutional Flow Map
 
-- Blackstone -> blackstone: Capital Flow, Miami / Florida, score 92. Track GP relationship history.
-- Blackstone -> blackstone: Capital Flow, Miami / Florida, score 86. Track GP relationship history.
+- Blackstone -> blackstone: Capital Flow, Miami / Florida, score 91. Track GP relationship history.
 - Equity Residential -> equity residential: Development Activity, Austin / Texas, score 86. Track GP relationship history.
 - Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 86. Track GP relationship history.
 - Brookfield -> brookfield: Development Activity, Other / Unknown, score 68. Track GP relationship history.
 
 ## Market Relationship Map
 
-- Greystar -> Dallas: Financing Relationship, Dallas / Texas, score 95. Track GP relationship history.
-- Greystar -> Dallas / Texas: Financing Relationship, Dallas / Texas, score 95. Track GP relationship history.
-- JLL -> Miami / Florida: Financing Relationship, Miami / Florida, score 85. Track GP relationship history.
-- JLL -> South Florida: Financing Relationship, Miami / Florida, score 85. Track GP relationship history.
+- Fannie Mae -> Miami / Florida: JV / Partnership, Miami / Florida, score 87. Review potential JV relevance.
+- Fannie Mae -> South Florida: JV / Partnership, Miami / Florida, score 87. Review potential JV relevance.
+- Walker & Dunlop -> Austin: Financing Relationship, Austin / Texas, score 86. Track GP relationship history.
+- Walker & Dunlop -> Austin / Texas: Financing Relationship, Austin / Texas, score 86. Track GP relationship history.
+- JLL -> New York City: Acquisition / Buyer, New York City / New York, score 83. Track GP relationship history.
+- JLL -> New York City / New York: Acquisition / Buyer, New York City / New York, score 83. Track GP relationship history.
 - CBRE -> Atlanta: Acquisition / Buyer, Atlanta / Georgia, score 82. Track GP relationship history.
 - CBRE -> Atlanta / Georgia: Acquisition / Buyer, Atlanta / Georgia, score 82. Track GP relationship history.
-- Walker & Dunlop -> Manhattan: Financing Relationship, New York City / New York, score 82. Track GP relationship history.
-- Walker & Dunlop -> New York City / New York: Financing Relationship, New York City / New York, score 82. Track GP relationship history.
 - Marcus & Millichap -> California: Disposition / Seller, California, score 79. Track GP relationship history.
 - Marcus & Millichap -> California: Disposition / Seller, California, score 79. Track GP relationship history.
 
@@ -77,34 +76,38 @@ Generated: 2026-11-03 03:51:54
 - Marcus & Millichap -> Disposition / Exit - California - Marcus & Millichap Brokers $13.6M Sale of 63-Unit Multifamily Property in Davis California: Disposition / Seller, California, score 79. Track GP relationship history.
 - Marcus & Millichap -> California: Disposition / Seller, California, score 77. Track GP relationship history.
 - Marcus & Millichap -> Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Disposition / Seller, California, score 77. Track GP relationship history.
-- Entitlement / Permitting - California - 37-unit affordable housing complex underway at 3751 S. Delmas Ter. in Palms -> California: Entitlement / Permitting, California, score 70. Track LA / California activity.
-- Acquisition - California - Roxborough Makes Second NorCal Apartment Buy Through Latest Fund -> California: Acquisition / Buyer, California, score 66. Track LA / California activity.
 - Development Start - Los Angeles - Muirfield Breaks Ground on Orlando-Area Opportunity Zone Multifamily Development -> La County: Development Activity, Los Angeles, score 61. Track LA / California activity.
 - Development Start - Los Angeles - Muirfield Breaks Ground on Orlando-Area Opportunity Zone Multifamily Development -> Los Angeles: Development Activity, Los Angeles, score 61. Track LA / California activity.
+- General Project Signal - California - Affordable housing taking shape at 5749 S. Brynhurst Avenue in Hyde Park -> California: Market Expansion, California, score 56. Track LA / California activity.
+- Entitlement / Permitting - Los Angeles / California - Housing pitched for 5412 Bellingham Ave. in Valley Village -> Los Angeles: Entitlement / Permitting, Los Angeles / California, score 54. Monitor only.
 
 ## Potential Woomi Partnership Signals
 
+- Fannie Mae -> fannie mae: JV / Partnership, Miami / Florida, score 95. Review potential JV relevance.
+- Fannie Mae -> JV / Partnership - Miami / Florida - Eastham Capital, Bender Cos. Acquire 204-Unit Multifamily Community in Omaha: JV / Partnership, Miami / Florida, score 87. Review potential JV relevance.
+- Fannie Mae -> Miami / Florida: JV / Partnership, Miami / Florida, score 87. Review potential JV relevance.
+- Fannie Mae -> South Florida: JV / Partnership, Miami / Florida, score 87. Review potential JV relevance.
 - IPA -> Inland Empire: JV / Partnership, Riverside / California, score 74. Review potential JV relevance.
 - IPA -> JV / Partnership - Riverside / California - Legacy Partners Begins Leasing at Ontario Apartments: JV / Partnership, Riverside / California, score 74. Review potential JV relevance.
 - IPA -> Riverside / California: JV / Partnership, Riverside / California, score 74. Review potential JV relevance.
-- JV / Partnership - New York - Brightshore Acquires Newly Built Long Island City Luxury Apartments -> New York: JV / Partnership, New York, score 60. Review potential JV relevance.
-- JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project -> Atlanta: JV / Partnership, Atlanta / Georgia, score 47. Review potential JV relevance.
-- JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project -> Atlanta / Georgia: JV / Partnership, Atlanta / Georgia, score 47. Review potential JV relevance.
+- JV / Partnership - New York City / New York - Partnership Acquires Student Housing Property in Manhattan’s East Village for $28M -> New York City: JV / Partnership, New York City / New York, score 61. Review potential JV relevance.
+- JV / Partnership - New York City / New York - Partnership Acquires Student Housing Property in Manhattan’s East Village for $28M -> New York City / New York: JV / Partnership, New York City / New York, score 61. Review potential JV relevance.
+- JV / Partnership - New York - Brightshore Acquires Newly Built Long Island City Luxury Apartments -> New York: JV / Partnership, New York, score 58. Review potential JV relevance.
 
 ## Canonical Relationship Map
 
 | Source | Target | Relationship | Confidence |
 | --- | --- | --- | ---: |
-| Greystar | walker & dunlop | Financing Relationship | 40 |
-| Greystar | Sun Belt | Financing Relationship | 75 |
-| Greystar | Los Angeles | Financing Relationship | 60 |
-| Greystar | Los Angeles | Financing Relationship | 60 |
-| JLL | JLL | Financing Relationship | 75 |
-| Blackstone | Blackstone | Capital Flow | 75 |
-| CBRE | CBRE | Financing Relationship | 75 |
+| Fannie Mae | Fannie Mae | JV / Partnership | 75 |
 | Walker & Dunlop | walker & dunlop | Financing Relationship | 40 |
-| PCCP | JLL | Financing Relationship | 40 |
+| JLL | JLL | Financing Relationship | 75 |
+| CBRE | CBRE | Financing Relationship | 75 |
 | Blackstone | Blackstone | Capital Flow | 75 |
+| JLL | JLL | Financing Relationship | 75 |
+| Greystone | Freddie Mac | Financing Relationship | 75 |
+| Fannie Mae | Sun Belt | JV / Partnership | 60 |
+| Fannie Mae | Sun Belt | JV / Partnership | 60 |
+| Fannie Mae | South Florida | JV / Partnership | 40 |
 
 ## Multi-Source Confirmation Summary
 
@@ -114,11 +117,11 @@ Relationship repeat strength uses unique canonical deal/event counts instead of 
 ## Emerging GP Watchlist Reference
 
 Ranked GP watchlist signals are available in `gp_watchlist_report.md`.
-- Greystar: 75 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- Walker & Dunlop: 75 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- Partnership: 76 (Tier 2 High Potential GP), Potential GP partnership candidate.
 - IPA: 75 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- JLL: 73 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- JLL: 73 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- Fannie Mae: 73 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- Bridge Investment Group: 73 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- Freddie Mac: 73 (Tier 2 High Potential GP), Potential GP partnership candidate.
 
 ## GP Source Expansion Summary
 
@@ -138,23 +141,23 @@ Longitudinal memory is available in `historical_memory_report.md`.
 
 ## Recommended Executive Follow-Up
 
-- Track GP relationship history: Greystar -> walker & dunlop (Financing Relationship).
-- Track GP relationship history: Greystar -> Dallas (Financing Relationship).
-- Track GP relationship history: Greystar -> Dallas / Texas (Financing Relationship).
-- Track GP relationship history: Greystar -> Refinancing - Dallas / Texas - Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets (Financing Relationship).
-- Track GP relationship history: JLL -> jll (Financing Relationship).
-- Track GP relationship history: Blackstone -> blackstone (Capital Flow).
-- Track GP relationship history: CBRE -> cbre (Financing Relationship).
+- Review potential JV relevance: Fannie Mae -> fannie mae (JV / Partnership).
 - Track GP relationship history: Walker & Dunlop -> walker & dunlop (Financing Relationship).
+- Track GP relationship history: JLL -> jll (Financing Relationship).
+- Track GP relationship history: CBRE -> cbre (Financing Relationship).
+- Track GP relationship history: Blackstone -> blackstone (Capital Flow).
+- Track GP relationship history: JLL -> jll (Financing Relationship).
+- Track GP relationship history: Greystone -> freddie mac (Financing Relationship).
+- Review potential JV relevance: Fannie Mae -> JV / Partnership - Miami / Florida - Eastham Capital, Bender Cos. Acquire 204-Unit Multifamily Community in Omaha (JV / Partnership).
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 717
-- Canonical projects: 177
-- Duplicate project clusters: 113
-- Persistent assets tracked: 177
-- LA persistent asset watch items: 118
+- Raw project references: 598
+- Canonical projects: 149
+- Duplicate project clusters: 100
+- Persistent assets tracked: 149
+- LA persistent asset watch items: 96
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

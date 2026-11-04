@@ -1,22 +1,22 @@
 # GP Routing Quality Report
 
-Generated: 2026-11-03 03:51:47
+Generated: 2026-11-04 02:56:26
 
 ## Summary
-- Total GP / Capital candidates: 45
-- Selected GP / Capital articles: 23
-- Debt Financing count: 6
-- Refinancing count: 8
-- Construction Financing count: 4
-- Acquisition Financing count: 0
+- Total GP / Capital candidates: 36
+- Selected GP / Capital articles: 18
+- Debt Financing count: 5
+- Refinancing count: 2
+- Construction Financing count: 2
+- Acquisition Financing count: 1
 - Equity Transaction count: 0
 - Operator Activity count: 0
-- Other / Unknown market count: 34
+- Other / Unknown market count: 29
 
 ## Routing Regression Summary
 - Market Intelligence routed articles: 13
-- Development Activity routed articles: 60
-- GP / Capital Activity routed articles: 3
+- Development Activity routed articles: 50
+- GP / Capital Activity routed articles: 5
 - Market-protected research / macro / supply articles: 3
 - Approval / Entitlement development rows: 0
 - Site / Parcel development rows: 0
@@ -24,13 +24,14 @@ Generated: 2026-11-03 03:51:47
 - Routing rule: approval / entitlement wording takes priority over Site / Parcel when both appear.
 
 ## Activity Type Distribution
-- disposition_exit: 15
-- refinancing: 8
-- debt_financing: 6
-- acquisition: 6
-- construction_financing: 4
-- joint_venture: 4
+- disposition_exit: 14
+- joint_venture: 6
+- debt_financing: 5
+- acquisition: 4
+- construction_financing: 2
+- refinancing: 2
 - platform_expansion: 1
+- acquisition_financing: 1
 - capital_raise: 1
 
 ## Excluded from GP / Capital with Reason
@@ -38,34 +39,34 @@ Generated: 2026-11-03 03:51:47
 
 ## Top Unresolved Market Extraction Examples
 - Northmarq’s Debt + Equity Team Arranges $26.1M in Financing for Class A Multifamily Community in Sioux Falls | Yield PRO | no city, state, or market keyword detected
-- Atla Lands Lands $140M to Build Rental Tower in Fort Lauderdale | Commercial Observer | no city, state, or market keyword detected
-- PCCP Refis Long Island Apartments With $154M Loan | Commercial Observer | no city, state, or market keyword detected
-- Northmarq Brokers Sale of 64-Unit, Historic Multifamily Property in Kansas City | REBusiness Online | no city, state, or market keyword detected
-- 312-Unit Multifamily in Indiana Changes Hands | Connect CRE Apartments | no city, state, or market keyword detected
 - Northmarq Brokers Sale of Newly Built Class A Multifamily Property in Lawrence Kansas | Yield PRO | no city, state, or market keyword detected
-- New Student Housing Towers Lease Up Quickly In University City, But Developers Can't Build More | Bisnow | no city, state, or market keyword detected
-- Kislak Negotiates $33.7M Sale of Apartment Complex in Tom’s River, New Jersey | REBusiness Online | no city, state, or market keyword detected
-- Refinancing Multifamily Borrowers Face 41% Increase in Interest Rates | Connect CRE Apartments | used broad market bucket: National
+- Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units | REBusiness Online | no city, state, or market keyword detected
 - Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Multifamily Missing Middle Falls Back | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Multifamily Missing Middle Construction: First Quarter 2026 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- RE/MAX Commercial Arranges $4.5M Sale of Mixed-Use Block in Norridge, Illinois | REBusiness Online | no city, state, or market keyword detected
+- CSU Dominguez Hills completes new dorms + rec center | Urbanize LA | no city, state, or market keyword detected
 - Multifamily Absorption Rate Remains Below 50% | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- 63-Unit Multifamily Townhome Community Secures CMBS financing from BMO in New Jersey | Yield PRO | no city, state, or market keyword detected
+- Shorter Apartment Construction Time in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- Q3 multifamily sales jumped 139% on Vivmark deal | Multifamily Dive | no city, state, or market keyword detected
+- Second Quarter 2026 Multifamily Construction Data | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- Rent Prices Continue to Rise, While Absorption Remains Low | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- Details emerge for new LBCC student housing in North Long Beach | Urbanize LA | no city, state, or market keyword detected
+- HUD launches ‘express lane’ for LIHTC multifamily construction loans | Multifamily Dive | no city, state, or market keyword detected
+- The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market? | Multifamily Executive | no city, state, or market keyword detected
 
 ## Sample Selected GP / Capital Articles
 - Northmarq’s Debt + Equity Team Arranges $26.1M in Financing for Class A Multifamily Community in Sioux Falls | platform_expansion | Other / Unknown | Yield PRO
-- Atla Lands Lands $140M to Build Rental Tower in Fort Lauderdale | construction_financing | Other / Unknown | Commercial Observer
-- BridgeCity Lends $28M for Williamsburg Multifamily Development | construction_financing | New York City / New York | Commercial Observer
-- PCCP Refis Long Island Apartments With $154M Loan | refinancing | Other / Unknown | Commercial Observer
-- New York Life Provides $480M Refi for 10-Property Multifamily Portfolio | refinancing | New York | Commercial Observer
-- Madison Realty Capital, Red Cove Lend $132M for Seattle-Area Apartments Build | construction_financing | Seattle | Commercial Observer
-- Dwight Capital Provides $23.5M HUD-Insured Refinancing for Northern New Jersey Apartment Complex | refinancing | New York City / New York | REBusiness Online
-- Terra, Fortune Ink $220M Key Biscayne Condo Financing | debt_financing | Miami / Florida | Connect CRE Apartments
-- Benefit Street Partners Funds $117.3M Refi on 3 Texas Rental Assets | refinancing | Dallas / Texas | Connect CRE Texas
+- Metro Loft, David Werner Secure $231M Loan for Midtown East Residential Conversion | construction_financing | New York City / New York | Connect CRE
+- Eastham Capital, Bender Cos. Acquire 204-Unit Multifamily Community in Omaha | joint_venture | Miami / Florida | REBusiness Online
+- BTI, Bridge Score $109M for Hollywood’s Bread Building | debt_financing | Miami / Florida | Connect CRE Apartments
+- Terra, Fortune Ink $220M Key Biscayne Condo Financing | debt_financing | Miami / Florida | Connect CRE South Florida
 - ORIX Acquires Buckhead Apartments for $83M | acquisition | Atlanta / Georgia | Connect CRE Atlanta
-- Brightshore Acquires Newly Built Long Island City Luxury Apartments | joint_venture | New York | Connect CRE
-- Northwind Provides $231M Construction Loan to Convert 675 Third Avenue | construction_financing | New York City / New York | Commercial Observer
-- Roxborough Makes Second NorCal Apartment Buy Through Latest Fund | acquisition | California | Connect CRE California
-- Prime Finance Provides $57M Refi for East Village Multifamily Complex | joint_venture | New York City / New York | Commercial Observer
-- Bascom Group Obtains $30.8M Refinancing for 200-Unit Multifamily Community in Las Vegas | refinancing | Las Vegas / Nevada | REBusiness Online
+- Walker & Dunlop Arranges $117.3M Refinancing of Texas Apartment Portfolio | refinancing | Austin / Texas | REBusiness Online
+- Brightshore Acquires Newly Built Long Island City Luxury Apartments | joint_venture | New York | Connect CRE Apartments
+- Legacy Partners Begins Leasing at Ontario Apartments | joint_venture | Riverside / California | Connect CRE California
+- Partnership Acquires Student Housing Property in Manhattan’s East Village for $28M | joint_venture | New York City / New York | REBusiness Online
+- Affinius Capital Provides $226M for Downtown Brooklyn Multifamily Building | joint_venture | New York City / New York | Commercial Observer
+- Q3 multifamily sales jumped 139% on Vivmark deal | disposition_exit | Other / Unknown | Multifamily Dive
+- Nuveen Sells South Florida Rental for $53M | acquisition_financing | Miami / Florida | Commercial Observer
+- RED Inks Refi on Camelback Office Building | refinancing | Phoenix / Arizona | Connect CRE Phoenix
+- HUD launches ‘express lane’ for LIHTC multifamily construction loans | construction_financing | Other / Unknown | Multifamily Dive

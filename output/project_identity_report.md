@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-11-04 02:57:04
+Generated: 2026-11-05 03:14:13
 
-- Total raw project references: 598
-- Total canonical projects: 149
-- Duplicate project clusters: 100
-- High-confidence project identities: 598
+- Total raw project references: 646
+- Total canonical projects: 143
+- Duplicate project clusters: 98
+- High-confidence project identities: 646
 - Low-confidence identities needing review: 0
-- LA / California project references: 348
+- LA / California project references: 351
 
 ## Top Repeated Projects
 
-- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: 48 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: 48 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: 48 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: 48 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: 48 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: 48 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: 48 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: 48 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: 48 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: 48 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 55 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 55 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 55 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 55 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 55 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 55 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 55 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 55 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 55 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 55 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

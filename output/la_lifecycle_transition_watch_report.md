@@ -1,8 +1,8 @@
 # LA Lifecycle Transition Watch Report
 
-Generated: 2026-11-04 02:57:04
+Generated: 2026-11-05 03:14:13
 
-- Total LA lifecycle transition watch items: 45
+- Total LA lifecycle transition watch items: 40
 
 ## LA Projects Moving Forward
 
@@ -18,33 +18,39 @@ Generated: 2026-11-04 02:57:04
 
 ## LA Refinancing / Recap Timing Watch
 
-- Construction Financing - Other / Unknown - HUD launches ‘express lane’ for LIHTC multifamily construction loans: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Construction Financing - Other / Unknown - HUD launches ‘express lane’ for LIHTC multifamily construction loans: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Refinancing - Colorado - Newmark Arranges $24.5M Fannie Mae Refinancing for Lakewood Colorado Apartments: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Refinancing - Las Vegas / Nevada - Bascom Group Obtains $30.8M Refinancing for Multifamily Property in Las Vegas: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Refinancing - New York - JLL Arranges Refi for Mixed-Use Residential on Long Island’s South Shore: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View California: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Refinancing - San Francisco / California - Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View Californi...: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 
 ## LA Delivery / Lease-Up Benchmarks
 
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
-- Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Maria California: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
-- Disposition / Exit - Los Angeles / California - Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Mari...: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
+- Refinancing - Los Angeles / California - Brookfield Gives Up DTLA's Beaudry Apartment Tower: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- Benedict Canyon Acquires Neighboring West Hollywood Properties: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
 
 ## Recommended LA Transition Follow-up Actions
 
 - Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
-- Use as delivery, lease-up, and underwriting benchmark: Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Maria California.
-- Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - Los Angeles / California - Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Mari....
+- Use as delivery, lease-up, and underwriting benchmark: Refinancing - Los Angeles / California - Brookfield Gives Up DTLA's Beaudry Apartment Tower.
+- Use as delivery, lease-up, and underwriting benchmark: Benedict Canyon Acquires Neighboring West Hollywood Properties.
+- Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties.
 - Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - Other / Unknown - HUD launches ‘express lane’ for LIHTC multifamily construction loans.
-- Monitor for another run to confirm lifecycle direction: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
-- Monitor for another run to confirm lifecycle direction: Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio.
-- Monitor for another run to confirm lifecycle direction: Disposition / Exit - California - Marcus & Millichap Brokers $13.6M Sale of 63-Unit Multifamily Property in Davis California.
-- Monitor for another run to confirm lifecycle direction: Entitlement / Permitting - Santa Monica / California - Fresh renderings for Tishman Speyer projects in Downtown Santa Monica.
+- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Colorado - Newmark Arranges $24.5M Fannie Mae Refinancing for Lakewood Colorado Apartments.
+- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Las Vegas / Nevada - Bascom Group Obtains $30.8M Refinancing for Multifamily Property in Las Vegas.
+- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - New York - JLL Arranges Refi for Mixed-Use Residential on Long Island’s South Shore.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 598
-- Canonical projects: 149
-- Duplicate project clusters: 100
-- Persistent assets tracked: 149
-- LA persistent asset watch items: 96
+- Raw project references: 646
+- Canonical projects: 143
+- Duplicate project clusters: 98
+- Persistent assets tracked: 143
+- LA persistent asset watch items: 81
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

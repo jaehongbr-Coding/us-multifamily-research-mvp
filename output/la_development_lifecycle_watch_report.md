@@ -1,16 +1,17 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-11-04 02:57:04
+Generated: 2026-11-05 03:14:13
 
-- Total LA lifecycle watch items: 46
+- Total LA lifecycle watch items: 41
 
 ## LA Lifecycle Stage Distribution
 
-- Unknown Stage: 33
-- Site Acquisition / Site Control: 7
-- Delivery / Opening: 3
-- Refinancing / Recapitalization: 1
-- Entitlement Under Review: 1
+- Unknown Stage: 22
+- Refinancing / Recapitalization: 6
+- Delivery / Opening: 4
+- Site Acquisition / Site Control: 4
+- Early Site Signal: 3
+- Entitled / Approved: 1
 - Distressed / Stalled: 1
 
 ## Koreatown / Wilshire Lifecycle Watch
@@ -51,24 +52,24 @@ Generated: 2026-11-04 02:57:04
 
 ## Recommended LA Lifecycle Follow-up Actions
 
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Colorado - Newmark Arranges $24.5M Fannie Mae Refinancing for Lakewood Colorado Apartments.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Las Vegas / Nevada - Bascom Group Obtains $30.8M Refinancing for Multifamily Property in Las Vegas.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - New York - JLL Arranges Refi for Mixed-Use Residential on Long Island’s South Shore.
+- Monitor lifecycle status for repeated confirmation: Refinancing - Los Angeles / California - Brookfield Gives Up DTLA's Beaudry Apartment Tower.
+- Monitor lifecycle status for repeated confirmation: JV / Partnership - Nashville / Tennessee - JLL Arranges $310M Financing for Landmark Riverfront Mixed-Use Development in Nashville.
 - Monitor lifecycle status for repeated confirmation: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
+- Monitor lifecycle status for repeated confirmation: Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties.
 - Monitor lifecycle status for repeated confirmation: General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building.
-- Monitor lifecycle status for repeated confirmation: Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio.
-- Monitor lifecycle status for repeated confirmation: Disposition / Exit - California - Marcus & Millichap Brokers $13.6M Sale of 63-Unit Multifamily Property in Davis California.
-- Monitor lifecycle status for repeated confirmation: Entitlement / Permitting - Santa Monica / California - Fresh renderings for Tishman Speyer projects in Downtown Santa Monica.
-- Monitor lifecycle status for repeated confirmation: ORIX Acquires Buckhead Apartments for $83M.
-- Monitor lifecycle status for repeated confirmation: Northmarq’s Debt + Equity Team Arranges $26.1M in Financing for Class A Multifamily Community in Sioux Falls.
-- Monitor lifecycle status for repeated confirmation: Fourth Sale Closes in Anaheim Multifamily Portfolio.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 73
-- Newly detected projects: 24
+- Lifecycle transitions analyzed: 80
+- Newly detected projects: 42
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 45
+- LA lifecycle transition watch items: 40
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -76,10 +77,10 @@ Generated: 2026-11-04 02:57:04
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 598
-- Canonical projects: 149
-- Duplicate project clusters: 100
-- Persistent assets tracked: 149
-- LA persistent asset watch items: 96
+- Raw project references: 646
+- Canonical projects: 143
+- Duplicate project clusters: 98
+- Persistent assets tracked: 143
+- LA persistent asset watch items: 81
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

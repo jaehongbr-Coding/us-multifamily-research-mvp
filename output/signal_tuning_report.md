@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-11-04 02:56:26
+Generated: 2026-11-05 03:13:31
 
 ## Top Strategic Relevance Articles
 
-- 95 / richness 90: Affinius Capital Provides $226M for Downtown Brooklyn Multifamily Building (Commercial Observer, New York City / New York) - JV or partnership activity; lease-up or absorption behavior; large-scale refinance tied to strategy
-- 86 / richness 85: Eastham Capital, Bender Cos. Acquire 204-Unit Multifamily Community in Omaha (REBusiness Online, Miami / Florida) - JV or partnership activity; institutional acquisition behavior
-- 86 / richness 85: Brightshore Acquires Newly Built Long Island City Luxury Apartments (Connect CRE Apartments, New York) - JV or partnership activity; institutional acquisition behavior
-- 86 / richness 85: Partnership Acquires Student Housing Property in Manhattan’s East Village for $28M (REBusiness Online, New York City / New York) - JV or partnership activity; institutional acquisition behavior
-- 80 / richness 85: Walker & Dunlop Arranges $117.3M Refinancing of Texas Apartment Portfolio (REBusiness Online, Austin / Texas) - institutional acquisition behavior; large-scale refinance tied to strategy
-- 75 / richness 50: Legacy Partners Begins Leasing at Ontario Apartments (Connect CRE California, Riverside / California) - JV or partnership activity; lease-up or absorption behavior
-- 74 / richness 100: Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Maria California (Yield PRO, Los Angeles / California) - institutional acquisition behavior
-- 70 / richness 85: JLL Brokers $23.5M Sale of Mixed-Use Development Site in Brooklyn (REBusiness Online, New York City / New York) - institutional acquisition behavior
+- 98 / richness 85: Joint Venture Acquires Queen City Quarter Mixed-Use Destination in Uptown Charlotte (REBusiness Online, Sun Belt) - JV or partnership activity; institutional acquisition behavior; lease-up or absorption behavior
+- 83 / richness 90: Affinius Lends $226M on Newly Completed Brooklyn Rental Tower (Connect CRE Apartments, New York City / New York) - JV or partnership activity; large-scale refinance tied to strategy
+- 83 / richness 70: Joint Venture Purchases 962-Bed Student Housing Community Near Mississippi State University (REBusiness Online, Southeast) - JV or partnership activity; institutional acquisition behavior
+- 82 / richness 85: JLL Arranges $310M Financing for Landmark Riverfront Mixed-Use Development in Nashville (Yield PRO, Nashville / Tennessee) - JV or partnership activity; large-scale refinance tied to strategy
+- 74 / richness 100: Benedict Canyon Acquires Neighboring West Hollywood Properties (Connect CRE, Los Angeles / California) - institutional acquisition behavior
+- 73 / richness 90: Northwind Group Provides $231M Construction Loan for Office-to-Residential Conversion Project in Manhattan (REBusiness Online, New York City / New York) - JV or partnership activity
 - 70 / richness 85: ORIX Acquires Buckhead Apartments for $83M (Connect CRE Atlanta, Atlanta / Georgia) - institutional acquisition behavior
-- 70 / richness 85: Nuveen Sells South Florida Rental for $53M (Commercial Observer, Miami / Florida) - institutional acquisition behavior
+- 70 / richness 75: Metro Loft, David Werner Secure $231M Loan for Midtown East Residential Conversion (Connect CRE Apartments, New York City / New York) - JV or partnership activity
+- 70 / richness 75: Metcalf Builders Breaks Ground on 402-Unit Affordable Housing Development in Reno (REBusiness Online, Nevada) - JV or partnership activity
+- 67 / richness 70: CBRE Brokers Sale of 540-Unit Multifamily Portfolio in Metro Des Moines (REBusiness Online, Other / Unknown) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -35,13 +35,14 @@ Generated: 2026-11-04 02:56:26
 
 ## Potential Parsing Integrity Issues
 
+- suspicious_duplicate: 377 apartments rise next to Brea Mall (Urbanize LA) - source-feed signal bleed suspected
 - low_value_promotional: The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market? (Multifamily Executive) - promotional/event keyword: sponsored
 - low_value_promotional: AI, Automation & the Future of Multifamily Finance (Multifamily Executive) - promotional/event keyword: webinar
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 19
-- Development / sponsor behavior articles: 32
+- Financing-oriented articles: 25
+- Development / sponsor behavior articles: 35
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

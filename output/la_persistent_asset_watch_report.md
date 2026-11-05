@@ -1,21 +1,21 @@
 # LA Persistent Asset Watch Report
 
-Generated: 2026-11-04 02:57:04
+Generated: 2026-11-05 03:14:13
 
-- Total LA persistent asset watch items: 96
+- Total LA persistent asset watch items: 81
 
 ## Priority LA Asset Watch Items
 
+- Refinancing - Los Angeles / California - Brookfield Gives Up DTLA's Beaudry Apartment Tower: Los Angeles, Delivery / Opening, Track repeat project updates.
+- Refinancing - New York - JLL Arranges Refi for Mixed-Use Residential on Long Island’s South Shore: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Los Angeles, Unknown Stage, Track repeat project updates.
-- General Project Signal - Other / Unknown - Northmarq’s Debt + Equity Team Arranges $26.1M in Financing for Class A Multifamily Commun...: Los Angeles, Unknown Stage, Track repeat project updates.
+- Refinancing - Colorado - Newmark Arranges $24.5M Fannie Mae Refinancing for Lakewood Colorado Apartments: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
 - General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Hollywood, Unknown Stage, Track repeat project updates.
-- Entitlement / Permitting - Santa Monica / California - Fresh renderings for Tishman Speyer projects in Downtown Santa Monica: Santa Monica, Unknown Stage, Track repeat project updates.
-- Disposition / Exit - California - Marcus & Millichap Brokers $13.6M Sale of 63-Unit Multifamily Property in Davis California: California, Unknown Stage, Track repeat project updates.
-- JV / Partnership - Riverside / California - Legacy Partners Begins Leasing at Ontario Apartments: Los Angeles, Unknown Stage, Track repeat project updates.
-- Disposition / Exit - Los Angeles / California - Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Mari...: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
-- JV / Partnership - New York - Brightshore Acquires Newly Built Long Island City Luxury Apartments: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
-- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Los Angeles, Unknown Stage, Track repeat project updates.
-- General Project Signal - California - Affordable housing taking shape at 5749 S. Brynhurst Avenue in Hyde Park: California, Unknown Stage, Track repeat project updates.
+- Disposition / Exit - Los Angeles / California - Marcus & Millichap Closes $29.85M Sale and Arranges Financing for Two Multifamily Assets i...: Los Angeles, Delivery / Opening, Track repeat project updates.
+- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: California, Unknown Stage, Track repeat project updates.
+- Refinancing - Las Vegas / Nevada - Bascom Group Obtains $30.8M Refinancing for Multifamily Property in Las Vegas: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
+- JV / Partnership - Nashville / Tennessee - JLL Arranges $310M Financing for Landmark Riverfront Mixed-Use Development in Nashville: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
+- Refinancing - San Francisco / California - Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View Californi...: California, Refinancing / Recapitalization, Track repeat project updates.
 
 ## Koreatown / Wilshire Persistent Assets
 
@@ -41,19 +41,22 @@ Generated: 2026-11-04 02:57:04
 
 ## Stalled / Delayed LA Asset Watch
 
-- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Los Angeles, Unknown Stage, Track repeat project updates.
+- Refinancing - San Francisco / California - Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View Californi...: California, Refinancing / Recapitalization, Track repeat project updates.
+- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Los Angeles, Distressed / Stalled, Track repeat project updates.
 
 ## Construction / Delivery Transition Watch
 
-- Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Maria California: Los Angeles, Delivery / Opening, Track repeat project updates.
+- Refinancing - Los Angeles / California - Brookfield Gives Up DTLA's Beaudry Apartment Tower: Los Angeles, Delivery / Opening, Track repeat project updates.
+- Disposition / Exit - Los Angeles / California - Marcus & Millichap Closes $29.85M Sale and Arranges Financing for Two Multifamily Assets i...: Los Angeles, Delivery / Opening, Track repeat project updates.
+- Marcus & Millichap Closes $29.85M Sale and Arranges Financing for Two Multifamily Assets in West Hollywood: Los Angeles, Delivery / Opening, Track repeat project updates.
 
 ## Recommended Local Follow-up Actions
 
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Los Angeles / California - Brookfield Gives Up DTLA's Beaudry Apartment Tower.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - New York - JLL Arranges Refi for Mixed-Use Residential on Long Island’s South Shore.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Other / Unknown - Northmarq’s Debt + Equity Team Arranges $26.1M in Financing for Class A Multifamily Commun....
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Colorado - Newmark Arranges $24.5M Fannie Mae Refinancing for Lakewood Colorado Apartments.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Entitlement / Permitting - Santa Monica / California - Fresh renderings for Tishman Speyer projects in Downtown Santa Monica.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Marcus & Millichap Brokers $13.6M Sale of 63-Unit Multifamily Property in Davis California.
-- Monitor for repeated project updates: Entitlement / Permitting - Los Angeles / California - Housing pitched for 5412 Bellingham Ave. in Valley Village.
-- Monitor for repeated project updates: General Project Signal - California - Affordable housing taking shape at 5749 S. Brynhurst Avenue in Hyde Park.
-- Monitor for repeated project updates: Northmarq’s Debt + Equity Team Arranges $26.1M in Financing for Class A Multifamily Community in Sioux Falls.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - Los Angeles / California - Marcus & Millichap Closes $29.85M Sale and Arranges Financing for Two Multifamily Assets i....
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Las Vegas / Nevada - Bascom Group Obtains $30.8M Refinancing for Multifamily Property in Las Vegas.

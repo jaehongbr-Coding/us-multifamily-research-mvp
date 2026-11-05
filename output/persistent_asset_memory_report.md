@@ -1,63 +1,63 @@
 # Persistent Asset Memory Report
 
-Generated: 2026-11-04 02:57:04
+Generated: 2026-11-05 03:14:13
 
-- Total persistent assets tracked: 149
-- Newly detected assets: 122
+- Total persistent assets tracked: 143
+- Newly detected assets: 126
 - Progressing assets: 0
-- Possible stalled assets: 3
+- Possible stalled assets: 4
 
 ## Highest Priority Asset Watch Items
 
-- Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Priority Asset Watch, Unknown Stage, score 89.
-- Entitlement / Permitting - Santa Monica / California - Fresh renderings for Tishman Speyer projects in Downtown Santa Monica: Priority Asset Watch, Unknown Stage, score 89.
-- Disposition / Exit - California - Marcus & Millichap Brokers $13.6M Sale of 63-Unit Multifamily Property in Davis California: Priority Asset Watch, Unknown Stage, score 88.
-- General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Priority Asset Watch, Unknown Stage, score 88.
-- JV / Partnership - New York - Brightshore Acquires Newly Built Long Island City Luxury Apartments: Priority Asset Watch, Site Acquisition / Site Control, score 85.
-- JV / Partnership - Riverside / California - Legacy Partners Begins Leasing at Ontario Apartments: Priority Asset Watch, Unknown Stage, score 85.
-- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Priority Asset Watch, Unknown Stage, score 84.
-- Disposition / Exit - Los Angeles / California - Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Mari...: Priority Asset Watch, Site Acquisition / Site Control, score 82.
-- General Project Signal - Other / Unknown - Northmarq’s Debt + Equity Team Arranges $26.1M in Financing for Class A Multifamily Commun...: Priority Asset Watch, Unknown Stage, score 80.
-- General Project Signal - California - Affordable housing taking shape at 5749 S. Brynhurst Avenue in Hyde Park: Priority Asset Watch, Unknown Stage, score 79.
+- Refinancing - Colorado - Newmark Arranges $24.5M Fannie Mae Refinancing for Lakewood Colorado Apartments: Priority Asset Watch, Refinancing / Recapitalization, score 92.
+- Refinancing - Las Vegas / Nevada - Bascom Group Obtains $30.8M Refinancing for Multifamily Property in Las Vegas: Priority Asset Watch, Refinancing / Recapitalization, score 91.
+- Refinancing - Los Angeles / California - Brookfield Gives Up DTLA's Beaudry Apartment Tower: Priority Asset Watch, Delivery / Opening, score 91.
+- Refinancing - New York - JLL Arranges Refi for Mixed-Use Residential on Long Island’s South Shore: Priority Asset Watch, Refinancing / Recapitalization, score 91.
+- Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Priority Asset Watch, Unknown Stage, score 90.
+- Refinancing - San Francisco / California - Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View Californi...: Priority Asset Watch, Refinancing / Recapitalization, score 89.
+- JV / Partnership - Nashville / Tennessee - JLL Arranges $310M Financing for Landmark Riverfront Mixed-Use Development in Nashville: Priority Asset Watch, Site Acquisition / Site Control, score 89.
+- General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Priority Asset Watch, Unknown Stage, score 89.
+- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Priority Asset Watch, Unknown Stage, score 88.
+- Disposition / Exit - Los Angeles / California - Marcus & Millichap Closes $29.85M Sale and Arranges Financing for Two Multifamily Assets i...: Priority Asset Watch, Delivery / Opening, score 88.
 
 ## Assets With Repeated Financing Signals
 
-- General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Priority Asset Watch, Unknown Stage, score 88.
-- General Project Signal - Other / Unknown - Northmarq’s Debt + Equity Team Arranges $26.1M in Financing for Class A Multifamily Commun...: Priority Asset Watch, Unknown Stage, score 80.
-- General Project Signal - Other / Unknown - Northmarq’s Debt + Equity Team Arranges $26.1M in Financing for Class A Multifamily Commun...: Strategic Asset Watch, Unknown Stage, score 74.
-- Refinancing - Austin / Texas - Walker & Dunlop Arranges $117.3M Refinancing of Texas Apartment Portfolio: Strategic Asset Watch, Refinancing / Recapitalization, score 73.
-- General Project Signal - Other / Unknown - Jonathan Rose Companies Announce Major Rehabilitation of Ashtabula Towers Preserving Affor...: Strategic Asset Watch, Unknown Stage, score 72.
-- Refinancing - New York City / New York - Affinius Capital Provides $226M for Downtown Brooklyn Multifamily Building: Strategic Asset Watch, Refinancing / Recapitalization, score 70.
-- JV / Partnership - Miami / Florida - Eastham Capital, Bender Cos. Acquire 204-Unit Multifamily Community in Omaha: Strategic Asset Watch, Unknown Stage, score 69.
-- Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Strategic Asset Watch, Refinancing / Recapitalization, score 68.
-- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: Strategic Asset Watch, Construction Started, score 68.
-- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: Strategic Asset Watch, Refinancing / Recapitalization, score 61.
+- Refinancing - Colorado - Newmark Arranges $24.5M Fannie Mae Refinancing for Lakewood Colorado Apartments: Priority Asset Watch, Refinancing / Recapitalization, score 92.
+- Refinancing - Las Vegas / Nevada - Bascom Group Obtains $30.8M Refinancing for Multifamily Property in Las Vegas: Priority Asset Watch, Refinancing / Recapitalization, score 91.
+- Refinancing - Los Angeles / California - Brookfield Gives Up DTLA's Beaudry Apartment Tower: Priority Asset Watch, Delivery / Opening, score 91.
+- Refinancing - New York - JLL Arranges Refi for Mixed-Use Residential on Long Island’s South Shore: Priority Asset Watch, Refinancing / Recapitalization, score 91.
+- Refinancing - San Francisco / California - Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View Californi...: Priority Asset Watch, Refinancing / Recapitalization, score 89.
+- General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Priority Asset Watch, Unknown Stage, score 89.
+- General Project Signal - Other / Unknown - Northmarq Provides $26.1M in Fannie Mae Financing for Foxmoor Apartments in Sioux Falls: Priority Asset Watch, Unknown Stage, score 79.
+- Refinancing - New York City / New York - Affinius Lends $226M on Newly Completed Brooklyn Rental Tower: Priority Asset Watch, Delivery / Opening, score 75.
+- Refinancing - San Francisco / California - Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View Californi...: Strategic Asset Watch, Site Acquisition / Site Control, score 74.
+- Construction Financing - New York City / New York - Berkadia Provides $219M to Rehab Rangel Houses in New York City: Strategic Asset Watch, Unknown Stage, score 72.
 
 ## Assets With Repeated Entitlement Signals
 
-- Entitlement / Permitting - Santa Monica / California - Fresh renderings for Tishman Speyer projects in Downtown Santa Monica: Priority Asset Watch, Unknown Stage, score 89.
-- Disposition / Exit - Los Angeles / California - Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Mari...: Priority Asset Watch, Site Acquisition / Site Control, score 82.
-- Disposition / Exit - Los Angeles / California - Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Mari...: Strategic Asset Watch, Unknown Stage, score 74.
-- Terra, Fortune Ink $220M Key Biscayne Condo Financing: Strategic Asset Watch, Unknown Stage, score 73.
-- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: Strategic Asset Watch, Construction Started, score 68.
-- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: Strategic Asset Watch, Refinancing / Recapitalization, score 61.
+- Entitlement / Permitting - Los Angeles / California - Housing pitched for 5412 Bellingham Ave. in Valley Village: Priority Asset Watch, Site Acquisition / Site Control, score 82.
+- Entitlement / Permitting - Los Angeles / California - Housing pitched for 5412 Bellingham Ave. in Valley Village: Strategic Asset Watch, Unknown Stage, score 74.
+- JV / Partnership - Nashville / Tennessee - JLL Arranges $310M Financing for Landmark Riverfront Mixed-Use Development in Nashville: Strategic Asset Watch, Unknown Stage, score 73.
+- General Project Signal - Southeast - McCormack Baron Salazar, Baltimore City Secure Financing for $398M Affordable Housing Rede...: Strategic Asset Watch, Site Acquisition / Site Control, score 70.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Unknown Stage, score 62.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Early Site Signal, score 61.
+- Construction Financing - Other / Unknown - HUD launches ‘express lane’ for LIHTC multifamily construction loans: Strategic Asset Watch, Unknown Stage, score 59.
 - 3 new apartment projects open their doors: Strategic Asset Watch, Environmental Review / CEQA, score 58.
-- Office-to-Residential Conversion - Other / Unknown - Kraus-Anderson Completes Conversion of Wisconsin Hotel into 146 Affordable Housing Units: Strategic Asset Watch, Unknown Stage, score 58.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Unknown Stage, score 56.
 - Entitlement / Permitting - Los Angeles / California - Housing pitched for 5412 Bellingham Ave. in Valley Village: General Asset Monitoring, Unknown Stage, score 53.
-- Disposition / Exit - Los Angeles / California - Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Mari...: General Asset Monitoring, Unknown Stage, score 52.
 
 ## Recurring Asset Signals
 
-- Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Priority Asset Watch, Unknown Stage, score 89.
-- Entitlement / Permitting - Santa Monica / California - Fresh renderings for Tishman Speyer projects in Downtown Santa Monica: Priority Asset Watch, Unknown Stage, score 89.
-- Disposition / Exit - California - Marcus & Millichap Brokers $13.6M Sale of 63-Unit Multifamily Property in Davis California: Priority Asset Watch, Unknown Stage, score 88.
-- General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Priority Asset Watch, Unknown Stage, score 88.
-- JV / Partnership - New York - Brightshore Acquires Newly Built Long Island City Luxury Apartments: Priority Asset Watch, Site Acquisition / Site Control, score 85.
-- JV / Partnership - Riverside / California - Legacy Partners Begins Leasing at Ontario Apartments: Priority Asset Watch, Unknown Stage, score 85.
-- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Priority Asset Watch, Unknown Stage, score 84.
-- Disposition / Exit - Los Angeles / California - Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Mari...: Priority Asset Watch, Site Acquisition / Site Control, score 82.
-- General Project Signal - Other / Unknown - Northmarq’s Debt + Equity Team Arranges $26.1M in Financing for Class A Multifamily Commun...: Priority Asset Watch, Unknown Stage, score 80.
-- General Project Signal - California - Affordable housing taking shape at 5749 S. Brynhurst Avenue in Hyde Park: Priority Asset Watch, Unknown Stage, score 79.
+- Refinancing - Colorado - Newmark Arranges $24.5M Fannie Mae Refinancing for Lakewood Colorado Apartments: Priority Asset Watch, Refinancing / Recapitalization, score 92.
+- Refinancing - Las Vegas / Nevada - Bascom Group Obtains $30.8M Refinancing for Multifamily Property in Las Vegas: Priority Asset Watch, Refinancing / Recapitalization, score 91.
+- Refinancing - Los Angeles / California - Brookfield Gives Up DTLA's Beaudry Apartment Tower: Priority Asset Watch, Delivery / Opening, score 91.
+- Refinancing - New York - JLL Arranges Refi for Mixed-Use Residential on Long Island’s South Shore: Priority Asset Watch, Refinancing / Recapitalization, score 91.
+- Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Priority Asset Watch, Unknown Stage, score 90.
+- Refinancing - San Francisco / California - Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View Californi...: Priority Asset Watch, Refinancing / Recapitalization, score 89.
+- JV / Partnership - Nashville / Tennessee - JLL Arranges $310M Financing for Landmark Riverfront Mixed-Use Development in Nashville: Priority Asset Watch, Site Acquisition / Site Control, score 89.
+- General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Priority Asset Watch, Unknown Stage, score 89.
+- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Priority Asset Watch, Unknown Stage, score 88.
+- Disposition / Exit - Los Angeles / California - Marcus & Millichap Closes $29.85M Sale and Arranges Financing for Two Multifamily Assets i...: Priority Asset Watch, Delivery / Opening, score 88.
 
 ## Implications for Woomi / Woomi Global
 
@@ -66,23 +66,23 @@ Generated: 2026-11-04 02:57:04
 
 ## Recommended Asset Memory Follow-up
 
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Colorado - Newmark Arranges $24.5M Fannie Mae Refinancing for Lakewood Colorado Apartments.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Las Vegas / Nevada - Bascom Group Obtains $30.8M Refinancing for Multifamily Property in Las Vegas.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Los Angeles / California - Brookfield Gives Up DTLA's Beaudry Apartment Tower.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - New York - JLL Arranges Refi for Mixed-Use Residential on Long Island’s South Shore.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Entitlement / Permitting - Santa Monica / California - Fresh renderings for Tishman Speyer projects in Downtown Santa Monica.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Marcus & Millichap Brokers $13.6M Sale of 63-Unit Multifamily Property in Davis California.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - San Francisco / California - Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View Californi....
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - Nashville / Tennessee - JLL Arranges $310M Financing for Landmark Riverfront Mixed-Use Development in Nashville.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - New York - Brightshore Acquires Newly Built Long Island City Luxury Apartments.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - Riverside / California - Legacy Partners Begins Leasing at Ontario Apartments.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - Los Angeles / California - Farallon Capital Acquires 460-Unit Multifamily Community La Vista Apartments in Santa Mari....
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 149
-- Institutional-grade signals: 14
+- Signals evaluated: 143
+- Institutional-grade signals: 21
 - High-confidence signals: 44
-- Weak/noisy signals: 82
+- Weak/noisy signals: 73
 - High-confidence watchlist items: 44
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

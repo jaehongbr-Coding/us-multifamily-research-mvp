@@ -1,6 +1,6 @@
 # Regime Heatmap Report
 
-Generated: 2026-11-04 02:56:39
+Generated: 2026-11-05 03:13:41
 
 Scores are calibrated with capped weighted components, so final_score is less likely to saturate at 100 unless the supporting signals are very strong.
 
@@ -11,20 +11,20 @@ Scores are calibrated with capped weighted components, so final_score is less li
 
 | Regime | Raw Score | Normalized Score | Final Score | Strength | Supporting Signals |
 | --- | ---: | ---: | ---: | --- | --- |
-| Selective Capital Re-entry | 134 | 89 | 89 | Very Strong | Institutional Flow articles: 18; Deal Size Signal articles: 8; Institutional player mentions: 11 |
-| Financing Stress | 121 | 81 | 81 | Very Strong | Financing Risk articles: 15; Financing/cap-rate market signals: 6; Financing matched-keyword articles: 12 |
-| Developer Strategy Shift | 88 | 59 | 59 | Moderate | Developer Strategy articles: 23; Developer matched-keyword articles: 7; Must Read articles: 26 |
-| Supply Pressure | 71 | 47 | 47 | Moderate | Supply Pressure articles: 1; Supply/vacancy/concession signals: 6; Supply matched-keyword articles: 2 |
-| Policy / Entitlement Watch | 58 | 39 | 39 | Weak | Regulation Risk articles: 2; Policy matched-keyword articles: 3; California / Los Angeles focus count: 5 |
-| Construction Cost Pressure | 0 | 0 | 0 | Not Detected | Cost Control articles: 0; Construction Cost Signal articles: 0; Cost matched-keyword articles: 0 |
-| Stable Monitoring Environment | 0 | 0 | 0 | Not Detected | Highest active regime score before stable adjustment: 134; Monitor articles: 5 |
+| Selective Capital Re-entry | 134 | 89 | 89 | Very Strong | Institutional Flow articles: 24; Deal Size Signal articles: 7; Institutional player mentions: 16 |
+| Financing Stress | 121 | 81 | 81 | Very Strong | Financing Risk articles: 21; Financing/cap-rate market signals: 9; Financing matched-keyword articles: 19 |
+| Developer Strategy Shift | 88 | 59 | 59 | Moderate | Developer Strategy articles: 27; Developer matched-keyword articles: 6; Must Read articles: 31 |
+| Supply Pressure | 51 | 34 | 34 | Weak | Supply Pressure articles: 0; Supply/vacancy/concession signals: 11; Supply matched-keyword articles: 0 |
+| Policy / Entitlement Watch | 33 | 22 | 22 | Weak | Regulation Risk articles: 1; Policy matched-keyword articles: 1; California / Los Angeles focus count: 4 |
+| Construction Cost Pressure | 4 | 3 | 3 | Not Detected | Cost Control articles: 0; Construction Cost Signal articles: 0; Cost matched-keyword articles: 1 |
+| Stable Monitoring Environment | 0 | 0 | 0 | Not Detected | Highest active regime score before stable adjustment: 134; Monitor articles: 3 |
 
 ## Regime Interpretations
 
 - Selective Capital Re-entry (Very Strong): Institutional flow, deal-size, or major-player activity suggests capital-market re-engagement.
 - Financing Stress (Very Strong): Debt, rates, refinancing, or cap-rate pressure is visible enough to affect underwriting attention.
 - Developer Strategy Shift (Moderate): Developer behavior, product strategy, adaptive reuse, BTR, modular, or operating-model signals are visible.
-- Supply Pressure (Moderate): Supply, starts, deliveries, lease-up, vacancy, or concession signals are visible.
+- Supply Pressure (Weak): Supply, starts, deliveries, lease-up, vacancy, or concession signals are visible.
 - Policy / Entitlement Watch (Weak): Policy, zoning, permitting, entitlement, rent-control, or housing-production signals require monitoring.
 - Construction Cost Pressure (Not Detected): Construction Cost Pressure is not a meaningful signal in this run.
 - Stable Monitoring Environment (Not Detected): Stable Monitoring Environment is not a meaningful signal in this run.

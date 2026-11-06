@@ -1,6 +1,6 @@
 # Source Activation Report
 
-Generated: 2026-11-05 03:13:33
+Generated: 2026-11-06 03:13:44
 
 - Total sources evaluated: 163
 - Working sources: 21
@@ -14,39 +14,40 @@ Generated: 2026-11-05 03:13:33
 
 ## Strongest Signal-Generating Sources
 
+- Multifamily Dive (Tier 1): Working, RSS, score 94, 5 saved article(s).
 - Yield PRO (Tier 1): Working, RSS, score 90, 9 saved article(s).
 - Connect CRE Orange County (Tier 2): Working, RSS, score 86, 2 saved article(s).
-- Connect CRE Apartments (Tier 2): Working, RSS, score 83, 10 saved article(s).
-- Connect CRE Atlanta (Tier 2): Working, RSS, score 83, 6 saved article(s).
-- REBusiness Online (Tier 2): Working, RSS, score 83, 8 saved article(s).
-- Multifamily Dive (Tier 1): Working, RSS, score 81, 3 saved article(s).
-- Urbanize LA (Tier 2): Working, RSS, score 80, 8 saved article(s).
+- Commercial Observer (Tier 1): Working, RSS, score 84, 3 saved article(s).
+- Connect CRE Atlanta (Tier 2): Working, RSS, score 83, 5 saved article(s).
+- REBusiness Online (Tier 2): Working, RSS, score 83, 5 saved article(s).
+- Urbanize LA (Tier 2): Working, RSS, score 83, 8 saved article(s).
+- Connect CRE (Tier 1): Working, RSS, score 77, 3 saved article(s).
 - Connect CRE South Florida (Tier 2): Working, RSS, score 74, 2 saved article(s).
-- Connect CRE Phoenix (Tier 2): Working, RSS, score 72, 3 saved article(s).
+- Connect CRE California (Tier 2): Working, RSS, score 71, 3 saved article(s).
+- Connect CRE Apartments (Tier 2): Working, RSS, score 70, 6 saved article(s).
 - NAHB Eye on Housing - Multifamily (Tier 3): Working, RSS, score 70, 15 saved article(s).
 - SF YIMBY (Tier 2): Working, RSS, score 65, 2 saved article(s).
-- Connect CRE (Tier 1): Working, RSS, score 61, 2 saved article(s).
-- Bisnow (Tier 1): Working, RSS, score 59, 1 saved article(s).
-- Commercial Observer (Tier 1): Working, RSS, score 57, 2 saved article(s).
-- Multifamily Executive (Tier 1): Working, RSS, score 56, 2 saved article(s).
+- Connect CRE Phoenix (Tier 2): Working, RSS, score 64, 3 saved article(s).
+- Bisnow (Tier 1): Working, RSS, score 56, 1 saved article(s).
 
 ## Highest Institutional-Value Sources
 
+- Multifamily Dive (Tier 1): Working, RSS, score 94, 5 saved article(s).
 - Yield PRO (Tier 1): Working, RSS, score 90, 9 saved article(s).
-- Multifamily Dive (Tier 1): Working, RSS, score 81, 3 saved article(s).
-- Connect CRE (Tier 1): Working, RSS, score 61, 2 saved article(s).
-- Bisnow (Tier 1): Working, RSS, score 59, 1 saved article(s).
-- Commercial Observer (Tier 1): Working, RSS, score 57, 2 saved article(s).
+- Commercial Observer (Tier 1): Working, RSS, score 84, 3 saved article(s).
+- Connect CRE (Tier 1): Working, RSS, score 77, 3 saved article(s).
+- Bisnow (Tier 1): Working, RSS, score 56, 1 saved article(s).
 - Multifamily Executive (Tier 1): Working, RSS, score 56, 2 saved article(s).
 - Construction Dive (Tier 1): Working, RSS, score 45, 1 saved article(s).
 - HousingWire (Tier 1): Working, RSS, score 45, 0 saved article(s).
 
 ## California / LA Focused Sources
 
+- Multifamily Dive (Tier 1): Working, RSS, score 94, 5 saved article(s).
 - Connect CRE Orange County (Tier 2): Working, RSS, score 86, 2 saved article(s).
-- Connect CRE Atlanta (Tier 2): Working, RSS, score 83, 6 saved article(s).
-- Urbanize LA (Tier 2): Working, RSS, score 80, 8 saved article(s).
-- Connect CRE California (Tier 2): Working, RSS, score 54, 3 saved article(s).
+- Connect CRE Atlanta (Tier 2): Working, RSS, score 83, 5 saved article(s).
+- Urbanize LA (Tier 2): Working, RSS, score 83, 8 saved article(s).
+- Connect CRE California (Tier 2): Working, RSS, score 71, 3 saved article(s).
 - Blackstone Real Estate Source Expansion (Tier 1): Failed, RSS, score 24, 0 saved article(s).
 - Urban Land Institute (Tier 1): Failed, RSS, score 24, 0 saved article(s).
 - Kennedy Wilson Source Expansion (Tier 1): Disabled, Manual, score 20, 0 saved article(s).
@@ -57,7 +58,6 @@ Generated: 2026-11-05 03:13:33
 - LA Business Journal (Tier 2): Disabled, Manual, score 13, 0 saved article(s).
 - LA City Planning Public Notices (Tier 2): Disabled, Manual, score 13, 0 saved article(s).
 - Los Angeles Business Journal (Tier 2): Disabled, Manual, score 13, 0 saved article(s).
-- Los Angeles City Planning (Tier 2): Disabled, Manual, score 13, 0 saved article(s).
 
 ## Failed Critical Sources
 
@@ -80,21 +80,21 @@ Generated: 2026-11-05 03:13:33
 
 ## RSS-Ready Sources
 
+- Multifamily Dive (Tier 1): Working, RSS, score 94, 5 saved article(s).
 - Yield PRO (Tier 1): Working, RSS, score 90, 9 saved article(s).
 - Connect CRE Orange County (Tier 2): Working, RSS, score 86, 2 saved article(s).
-- Connect CRE Apartments (Tier 2): Working, RSS, score 83, 10 saved article(s).
-- Connect CRE Atlanta (Tier 2): Working, RSS, score 83, 6 saved article(s).
-- REBusiness Online (Tier 2): Working, RSS, score 83, 8 saved article(s).
-- Multifamily Dive (Tier 1): Working, RSS, score 81, 3 saved article(s).
-- Urbanize LA (Tier 2): Working, RSS, score 80, 8 saved article(s).
+- Commercial Observer (Tier 1): Working, RSS, score 84, 3 saved article(s).
+- Connect CRE Atlanta (Tier 2): Working, RSS, score 83, 5 saved article(s).
+- REBusiness Online (Tier 2): Working, RSS, score 83, 5 saved article(s).
+- Urbanize LA (Tier 2): Working, RSS, score 83, 8 saved article(s).
+- Connect CRE (Tier 1): Working, RSS, score 77, 3 saved article(s).
 - Connect CRE South Florida (Tier 2): Working, RSS, score 74, 2 saved article(s).
-- Connect CRE Phoenix (Tier 2): Working, RSS, score 72, 3 saved article(s).
+- Connect CRE California (Tier 2): Working, RSS, score 71, 3 saved article(s).
+- Connect CRE Apartments (Tier 2): Working, RSS, score 70, 6 saved article(s).
 - NAHB Eye on Housing - Multifamily (Tier 3): Working, RSS, score 70, 15 saved article(s).
 - SF YIMBY (Tier 2): Working, RSS, score 65, 2 saved article(s).
-- Connect CRE (Tier 1): Working, RSS, score 61, 2 saved article(s).
-- Bisnow (Tier 1): Working, RSS, score 59, 1 saved article(s).
-- Commercial Observer (Tier 1): Working, RSS, score 57, 2 saved article(s).
-- Multifamily Executive (Tier 1): Working, RSS, score 56, 2 saved article(s).
+- Connect CRE Phoenix (Tier 2): Working, RSS, score 64, 3 saved article(s).
+- Bisnow (Tier 1): Working, RSS, score 56, 1 saved article(s).
 
 ## HTML-Only / Newsroom Sources
 
@@ -104,25 +104,25 @@ Generated: 2026-11-05 03:13:33
 
 | Rank | Source | Tier | Status | Score | Saved | Signal Density |
 | ---: | --- | --- | --- | ---: | ---: | ---: |
-| 1 | Yield PRO | Tier 1 | Working | 90 | 9 | 100 |
-| 2 | Connect CRE Orange County | Tier 2 | Working | 86 | 2 | 100 |
-| 3 | Connect CRE Apartments | Tier 2 | Working | 83 | 10 | 100 |
-| 4 | Connect CRE Atlanta | Tier 2 | Working | 83 | 6 | 100 |
-| 5 | REBusiness Online | Tier 2 | Working | 83 | 8 | 100 |
-| 6 | Multifamily Dive | Tier 1 | Working | 81 | 3 | 80 |
-| 7 | Urbanize LA | Tier 2 | Working | 80 | 8 | 100 |
-| 8 | Connect CRE South Florida | Tier 2 | Working | 74 | 2 | 80 |
-| 9 | Connect CRE Phoenix | Tier 2 | Working | 72 | 3 | 70 |
-| 10 | NAHB Eye on Housing - Multifamily | Tier 3 | Working | 70 | 15 | 100 |
-| 11 | SF YIMBY | Tier 2 | Working | 65 | 2 | 80 |
-| 12 | Connect CRE | Tier 1 | Working | 61 | 2 | 40 |
-| 13 | Bisnow | Tier 1 | Working | 59 | 1 | 30 |
-| 14 | Commercial Observer | Tier 1 | Working | 57 | 2 | 24 |
-| 15 | Multifamily Executive | Tier 1 | Working | 56 | 2 | 30 |
-| 16 | Connect CRE California | Tier 2 | Working | 54 | 3 | 30 |
+| 1 | Multifamily Dive | Tier 1 | Working | 94 | 5 | 100 |
+| 2 | Yield PRO | Tier 1 | Working | 90 | 9 | 100 |
+| 3 | Connect CRE Orange County | Tier 2 | Working | 86 | 2 | 100 |
+| 4 | Commercial Observer | Tier 1 | Working | 84 | 3 | 76 |
+| 5 | Connect CRE Atlanta | Tier 2 | Working | 83 | 5 | 100 |
+| 6 | REBusiness Online | Tier 2 | Working | 83 | 5 | 100 |
+| 7 | Urbanize LA | Tier 2 | Working | 83 | 8 | 100 |
+| 8 | Connect CRE | Tier 1 | Working | 77 | 3 | 70 |
+| 9 | Connect CRE South Florida | Tier 2 | Working | 74 | 2 | 80 |
+| 10 | Connect CRE California | Tier 2 | Working | 71 | 3 | 70 |
+| 11 | Connect CRE Apartments | Tier 2 | Working | 70 | 6 | 80 |
+| 12 | NAHB Eye on Housing - Multifamily | Tier 3 | Working | 70 | 15 | 100 |
+| 13 | SF YIMBY | Tier 2 | Working | 65 | 2 | 80 |
+| 14 | Connect CRE Phoenix | Tier 2 | Working | 64 | 3 | 50 |
+| 15 | Bisnow | Tier 1 | Working | 56 | 1 | 20 |
+| 16 | Multifamily Executive | Tier 1 | Working | 56 | 2 | 30 |
 | 17 | Construction Dive | Tier 1 | Working | 45 | 1 | 0 |
 | 18 | HousingWire | Tier 1 | Working | 45 | 0 | 0 |
-| 19 | Connect CRE Texas | Tier 2 | Working | 38 | 0 | 0 |
+| 19 | Connect CRE Texas | Tier 2 | Working | 38 | 1 | 0 |
 | 20 | Federal Reserve - Press Releases | Tier 3 | Working | 32 | 0 | 0 |
 
 ## Recommended Activation Actions

@@ -1,0 +1,7 @@
+﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
+20261106-031342-ba296f64,2026-11-06,Construction financing still selective,Weakening,weakening,11,8,28,4.16,2.87,2,2,2,2,Nashville / Tennessee,Early Signal,Construction financing still selective visibility is weakening versus prior runs.,
+20261106-031342-ba296f64,2026-11-06,Institutional recap over expansion,Building,stable,80,8,31,4.45,3.39,5,5,4,2,San Francisco / California,Broadly Confirmed,steady visibility,
+20261106-031342-ba296f64,2026-11-06,JV / partnership activity observed,Weakening,weakening,192,8,31,6.16,3.71,5,5,5,2,Nashville / Tennessee,Broadly Confirmed,JV / partnership activity observed visibility is weakening versus prior runs.,
+20261106-031342-ba296f64,2026-11-06,LA entitlement precedent accumulation,Building,stable,192,8,31,6.94,3.0,6,6,4,1,Los Angeles / California,Broadly Confirmed,steady visibility,
+20261106-031342-ba296f64,2026-11-06,Refinancing pressure unresolved,Building,accelerating,80,8,31,4.97,3.55,7,7,5,3,Nashville / Tennessee,Broadly Confirmed,Refinancing pressure unresolved signal is accelerating versus prior runs.,
+20261106-031342-ba296f64,2026-11-06,Sun Belt lease-up pressure watch,Persistent,stable,192,8,31,3.03,2.84,3,3,2,2,National,Moderate Signal,steady visibility,

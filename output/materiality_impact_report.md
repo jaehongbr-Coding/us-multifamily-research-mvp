@@ -1,6 +1,6 @@
 # Materiality / Impact Report
 
-Generated: 2026-11-05 03:13:41
+Generated: 2026-11-06 03:13:53
 
 - Top materiality regime: Developer Strategy Shift (100)
 - Top impact regime: Developer Strategy Shift (100)
@@ -12,8 +12,8 @@ Generated: 2026-11-05 03:13:41
 | Developer Strategy Shift | 100 | 100 | Critical Business Impact | GP Partnership; Cost Management; Leasing / Operations; Strategic Monitoring; LA / California Strategy | Add to weekly strategy memo |
 | Financing Stress | 100 | 100 | Critical Business Impact | Underwriting; Financing; Capital Markets; LA / California Strategy | Tighten underwriting assumptions |
 | Selective Capital Re-entry | 100 | 100 | Critical Business Impact | GP Partnership; Capital Markets; Strategic Monitoring; LA / California Strategy | Track capital partner activity |
-| Supply Pressure | 99 | 96 | Critical Business Impact | Underwriting; Land / Pipeline; Leasing / Operations; LA / California Strategy | Review supply pipeline assumptions |
-| Policy / Entitlement Watch | 22 | 34 | Low Business Impact | Land / Pipeline; LA / California Strategy; Strategic Monitoring | Monitor LA / California entitlement changes |
+| Supply Pressure | 100 | 100 | Critical Business Impact | Underwriting; Land / Pipeline; Leasing / Operations; LA / California Strategy | Review supply pipeline assumptions |
+| Policy / Entitlement Watch | 100 | 90 | Critical Business Impact | Land / Pipeline; LA / California Strategy; Strategic Monitoring | Monitor LA / California entitlement changes |
 | Construction Cost Pressure | 16 | 28 | Low Business Impact | Underwriting; Cost Management; LA / California Strategy | Review construction cost assumptions |
 
 ## Key Business Risks / Opportunities
@@ -38,3 +38,4 @@ Generated: 2026-11-05 03:13:41
 - Financing Stress: Tighten underwriting assumptions (Critical Business Impact).
 - Selective Capital Re-entry: Track capital partner activity (Critical Business Impact).
 - Supply Pressure: Review supply pipeline assumptions (Critical Business Impact).
+- Policy / Entitlement Watch: Monitor LA / California entitlement changes (Critical Business Impact).

@@ -2,16 +2,16 @@
 
 ## Project-First Routing Summary
 
-- Market Intelligence count: 14
-- Development Activity count: 50
-- GP / Capital Activity count: 8
-- Project anchor article count: 42
+- Market Intelligence count: 15
+- Development Activity count: 40
+- GP / Capital Activity count: 14
+- Project anchor article count: 33
 
 ## Regression Samples
 
 - MISSING | expected Development Activity | PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex
 - MISSING | expected Development Activity | Alta Developers Lands $91.8M Construction Loan for Miami Apartments
-- PASS | expected Development Activity | actual Development Activity | Metcalf Builders Breaks Ground on 402-Unit Affordable Housing Development in Reno | anchor=True | reason=development_project_anchor: capital event with identifiable project/asset (unit/site count: 402-unit; execution milestone: breaks ground; project/asset term: development)
+- MISSING | expected Development Activity | Partnership Breaks Ground on $147M Affordable Housing Redevelopment
 - MISSING | expected Development Activity | Basis Investment Group Secures $43M Financing for Newly Built Philadelphia MF
 - MISSING | expected Development Activity | JLL Arranges $252M Financing for Huntington Beach Seniors Project
 - MISSING | expected Development Activity | Portman Targeting Duluth for Mixed-Use Project
@@ -26,6 +26,6 @@
 
 ## Result
 
-- Checked samples present in current run: 2
-- Passed expected section: 2
-- Missing sample titles: 12
+- Checked samples present in current run: 1
+- Passed expected section: 1
+- Missing sample titles: 13

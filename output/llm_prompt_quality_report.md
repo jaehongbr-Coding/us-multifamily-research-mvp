@@ -1,32 +1,32 @@
 # LLM Prompt Quality Report
 
-Generated: 2026-11-05 03:13:41
+Generated: 2026-11-06 03:13:53
 
-- Total prompts reviewed: 43
-- Average prompt quality score: 92.8
-- Excellent prompts: 37
-- Good prompts: 6
+- Total prompts reviewed: 40
+- Average prompt quality score: 93.4
+- Excellent prompts: 35
+- Good prompts: 5
 - Needs Improvement prompts: 0
 - Poor prompts: 0
 
 ## Top 5 Strongest Prompts
 
-- 98 (Excellent): Joint Venture Purchases 962-Bed Student Housing Community Near Mississippi State University
-- 98 (Excellent): Affinius Lends $226M on Newly Completed Brooklyn Rental Tower
-- 98 (Excellent): JLL Arranges $310M Financing for Landmark Riverfront Mixed-Use Development in Nashville
-- 98 (Excellent): Benedict Canyon Acquires Neighboring West Hollywood Properties
-- 98 (Excellent): Northwind Group Provides $231M Construction Loan for Office-to-Residential Conversion Project in Manhattan
+- 98 (Excellent): JLL Arranges $154.2M Loan for Refinancing of Long Island Apartment Community
+- 98 (Excellent): Timberlane Partners Purchases Canopy Apartments in Everett, Washington for $82.7M
+- 98 (Excellent): Blackstone Provides $310M Bridge Loan for Nashville Mixed-Use Tower
+- 98 (Excellent): Veritas Investments, Refound Residential Acquire Three Multifamily Properties in Utah
+- 98 (Excellent): Cross Harbor Scores $78.5M Financing for Tempe Rental Community
 
 ## Top 5 Weakest Prompts
 
-- 74 (Good): Ware Malcomb Completes Historic Residential Conversion in Downtown Chicago - Missing: missing extracted numbers; missing market focus; missing market signal
-- 82 (Good): Joint Venture Acquires Queen City Quarter Mixed-Use Destination in Uptown Charlotte - Missing: missing extracted numbers; missing market signal
+- 74 (Good): Zoning Worksheet Filed for Multifamily Building at 425 W Macarthur Boulevard in Oakland - Missing: missing extracted numbers; missing market focus; missing market signal
+- 82 (Good): Comstock Agrees to Purchase 672-Unit Ascher Apartment Towers in Uptown Charlotte - Missing: missing extracted numbers; missing market signal
+- 82 (Good): Trammell Crow Building 248 McKinney Apartment Units, 3 Hotels - Missing: missing extracted numbers; missing market signal
 - 82 (Good): Ari Azarbarzin joins JLL Capital Markets in Washington, D.C. - Missing: missing extracted numbers; missing market signal
 - 82 (Good): 3 new apartment projects open their doors - Missing: missing extracted numbers; missing market signal
-- 82 (Good): Preliminary Plans For 49-Story Skyscraper at 501 Brannan Street, San Francisco - Missing: missing extracted numbers; missing market signal
 
 ## Common Missing Context Issues
 
-- missing market signal: 13
-- missing market focus: 9
-- missing extracted numbers: 6
+- missing market signal: 11
+- missing market focus: 7
+- missing extracted numbers: 5

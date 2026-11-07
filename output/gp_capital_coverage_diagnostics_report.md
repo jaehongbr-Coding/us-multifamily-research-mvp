@@ -1,42 +1,42 @@
 # GP / Capital Coverage Diagnostics
 
-Generated: 2026-11-06 03:13:42
+Generated: 2026-11-07 02:34:33
 
 ## Summary
 
-- GP / Capital candidate articles: 40
-- Selected GP / Capital articles: 27
+- GP / Capital candidate articles: 36
+- Selected GP / Capital articles: 20
 - Excluded by repeat penalty: 9
-- Excluded by integrity issue: 2
+- Excluded by integrity issue: 3
 
 ## Top Candidate Sources
 
-- Yield PRO: 7 candidate(s), 7 selected, activities: disposition_exit:2; refinancing:2; debt_financing:2; joint_venture:1.
-- REBusiness Online: 5 candidate(s), 3 selected, activities: disposition_exit:2; refinancing:1; joint_venture:1; acquisition:1.
-- Connect CRE Atlanta: 5 candidate(s), 1 selected, activities: acquisition:2; disposition_exit:2; joint_venture:1.
-- Commercial Observer: 3 candidate(s), 3 selected, activities: acquisition:2; joint_venture:1.
-- Connect CRE Apartments: 3 candidate(s), 3 selected, activities: debt_financing:2; capital_raise:1.
+- REBusiness Online: 7 candidate(s), 6 selected, activities: joint_venture:2; disposition_exit:2; refinancing:1; construction_financing:1; acquisition_financing:1.
+- Connect CRE Apartments: 4 candidate(s), 3 selected, activities: acquisition:1; joint_venture:1; refinancing:1; disposition_exit:1.
+- Connect CRE Atlanta: 4 candidate(s), 0 selected, activities: acquisition:2; disposition_exit:1; joint_venture:1.
 - Multifamily Dive: 3 candidate(s), 3 selected, activities: disposition_exit:1; debt_financing:1; construction_financing:1.
-- Connect CRE: 2 candidate(s), 2 selected, activities: refinancing:1; disposition_exit:1.
+- Yield PRO: 3 candidate(s), 1 selected, activities: disposition_exit:2; debt_financing:1.
+- Connect CRE: 2 candidate(s), 2 selected, activities: construction_financing:1; acquisition:1.
+- Connect CRE Phoenix: 2 candidate(s), 2 selected, activities: debt_financing:1; refinancing:1.
 - Connect CRE South Florida: 2 candidate(s), 2 selected, activities: debt_financing:2.
-- Connect CRE California: 2 candidate(s), 1 selected, activities: disposition_exit:2.
+- Commercial Observer: 2 candidate(s), 1 selected, activities: disposition_exit:1; construction_financing:1.
 - Connect CRE Orange County: 2 candidate(s), 0 selected, activities: disposition_exit:2.
 
 ## Focus Source Coverage
 
-- Commercial Observer: status OK, articles 3, candidates 3, selected 3.
-- Bisnow: status OK, articles 1, candidates 1, selected 1.
+- Commercial Observer: status OK, articles 2, candidates 2, selected 1.
+- Bisnow: status OK, articles 1, candidates 0, selected 0.
 - Connect CRE: status OK, articles 3, candidates 2, selected 2.
-- Connect CRE Apartments: status OK, articles 4, candidates 3, selected 3.
-- Connect CRE Texas: status OK, articles 0, candidates 0, selected 0.
+- Connect CRE Apartments: status OK, articles 5, candidates 4, selected 3.
+- Connect CRE Texas: status OK, articles 1, candidates 0, selected 0.
 - Connect CRE South Florida: status OK, articles 2, candidates 2, selected 2.
-- REBusiness Online: status OK, articles 5, candidates 5, selected 3.
+- REBusiness Online: status OK, articles 7, candidates 7, selected 6.
 - The Real Deal: status OK, articles 0, candidates 0, selected 0.
 - GlobeSt: status Failed, articles 0, candidates 0, selected 0.
 
 ## Source Failures / Parsing Issues
 
-- GlobeSt: Failed - RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token)
+- GlobeSt: Failed - RSS parsing issue: status=301; <unknown>:2:1326: not well-formed (invalid token)
 
 ## Interpretation Notes
 

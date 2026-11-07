@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-11-06 03:14:22
+Generated: 2026-11-07 02:35:04
 
-- Total raw project references: 612
-- Total canonical projects: 135
-- Duplicate project clusters: 100
-- High-confidence project identities: 612
+- Total raw project references: 610
+- Total canonical projects: 147
+- Duplicate project clusters: 102
+- High-confidence project identities: 610
 - Low-confidence identities needing review: 0
-- LA / California project references: 409
+- LA / California project references: 437
 
 ## Top Repeated Projects
 
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 41 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 41 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 41 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 41 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 41 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 41 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 41 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 41 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 41 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 41 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 38 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 38 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 38 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 38 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 38 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 38 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 38 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 38 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 38 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 38 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

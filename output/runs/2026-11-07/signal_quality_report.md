@@ -1,0 +1,102 @@
+# Strategic Signal Quality Report
+
+Generated: 2026-11-07 02:35:04
+
+- Total signals evaluated: 147
+- Institutional-grade signals: 18
+- High-confidence signals: 48
+- Weak/noisy signals: 79
+
+## Strongest Recurring Signals
+
+- Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties: Institutional Grade, score 95, 6 source file(s), 7 observation(s), latest stage Delivery / Opening, identity confidence 100.
+- Acquisition - Texas - Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Tex...: Institutional Grade, score 91, 8 source file(s), 10 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Disposition / Exit - California - Marcus & Millichap Brokers Value-Add Multifamily Property Near University of California Da...: Institutional Grade, score 91, 9 source file(s), 31 observation(s), latest stage Unknown Stage, identity confidence 100.
+- General Project Signal - Atlanta / Georgia - Greystar, Vantage Acquire Chamblee Property for 340-Unit Multifamily Community: Institutional Grade, score 91, 5 source file(s), 9 observation(s), latest stage Site Acquisition / Site Control, identity confidence 100.
+- General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Institutional Grade, score 91, 5 source file(s), 5 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Institutional Grade, score 91, 4 source file(s), 4 observation(s), latest stage Refinancing / Recapitalization, identity confidence 100.
+- Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Institutional Grade, score 89, 5 source file(s), 7 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use: Institutional Grade, score 88, 6 source file(s), 6 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Development Start - California - Lincoln Property Company & McCourt Partners ElevenOneEleven Breaks Ground in Culver City C...: Institutional Grade, score 88, 8 source file(s), 9 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Entitlement / Permitting - Santa Monica / California - Fresh renderings for Santa Monica apartments at 1338 5th St.: Institutional Grade, score 88, 8 source file(s), 8 observation(s), latest stage Unknown Stage, identity confidence 100.
+
+## Strongest LA / California Signals
+
+- Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties: Institutional Grade, score 95, 6 source file(s), 7 observation(s), latest stage Delivery / Opening, identity confidence 100.
+- Acquisition - Texas - Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Tex...: Institutional Grade, score 91, 8 source file(s), 10 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Disposition / Exit - California - Marcus & Millichap Brokers Value-Add Multifamily Property Near University of California Da...: Institutional Grade, score 91, 9 source file(s), 31 observation(s), latest stage Unknown Stage, identity confidence 100.
+- General Project Signal - Atlanta / Georgia - Greystar, Vantage Acquire Chamblee Property for 340-Unit Multifamily Community: Institutional Grade, score 91, 5 source file(s), 9 observation(s), latest stage Site Acquisition / Site Control, identity confidence 100.
+- General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Institutional Grade, score 91, 5 source file(s), 5 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Institutional Grade, score 89, 5 source file(s), 7 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use: Institutional Grade, score 88, 6 source file(s), 6 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Development Start - California - Lincoln Property Company & McCourt Partners ElevenOneEleven Breaks Ground in Culver City C...: Institutional Grade, score 88, 8 source file(s), 9 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Entitlement / Permitting - Santa Monica / California - Fresh renderings for Santa Monica apartments at 1338 5th St.: Institutional Grade, score 88, 8 source file(s), 8 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Disposition / Exit - Santa Monica / California - Marcus & Millichap Brokers $7.2M Sale of 22-Unit Multifamily Property in Santa Monica Cali...: Institutional Grade, score 88, 6 source file(s), 6 observation(s), latest stage Unknown Stage, identity confidence 100.
+
+## Most Persistent Projects
+
+- Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties: Institutional Grade, score 95, 6 source file(s), 7 observation(s), latest stage Delivery / Opening, identity confidence 100.
+- Acquisition - Texas - Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Tex...: Institutional Grade, score 91, 8 source file(s), 10 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Disposition / Exit - California - Marcus & Millichap Brokers Value-Add Multifamily Property Near University of California Da...: Institutional Grade, score 91, 9 source file(s), 31 observation(s), latest stage Unknown Stage, identity confidence 100.
+- General Project Signal - Atlanta / Georgia - Greystar, Vantage Acquire Chamblee Property for 340-Unit Multifamily Community: Institutional Grade, score 91, 5 source file(s), 9 observation(s), latest stage Site Acquisition / Site Control, identity confidence 100.
+- General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Institutional Grade, score 91, 5 source file(s), 5 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Institutional Grade, score 89, 5 source file(s), 7 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use: Institutional Grade, score 88, 6 source file(s), 6 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Development Start - California - Lincoln Property Company & McCourt Partners ElevenOneEleven Breaks Ground in Culver City C...: Institutional Grade, score 88, 8 source file(s), 9 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Entitlement / Permitting - Santa Monica / California - Fresh renderings for Santa Monica apartments at 1338 5th St.: Institutional Grade, score 88, 8 source file(s), 8 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Disposition / Exit - Santa Monica / California - Marcus & Millichap Brokers $7.2M Sale of 22-Unit Multifamily Property in Santa Monica Cali...: Institutional Grade, score 88, 6 source file(s), 6 observation(s), latest stage Unknown Stage, identity confidence 100.
+
+## Strongest Refinancing / Stress Signals
+
+- Acquisition - Texas - Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Tex...: Institutional Grade, score 91, 8 source file(s), 10 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Institutional Grade, score 91, 4 source file(s), 4 observation(s), latest stage Refinancing / Recapitalization, identity confidence 100.
+- Refinancing - New York City / New York - Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower: Institutional Grade, score 86, 4 source file(s), 4 observation(s), latest stage Refinancing / Recapitalization, identity confidence 100.
+- Refinancing - Other / Unknown - JLL Arranges $67.3M Loan for Refinancing of Metro Boston Apartment Building: Institutional Grade, score 85, 6 source file(s), 7 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Refinancing - New York City / New York - Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower: High Confidence, score 76, 4 source file(s), 6 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: High Confidence, score 74, 7 source file(s), 36 observation(s), latest stage Entitlement Under Review, identity confidence 80.
+- Refinancing - National - Multifamily Refinancing Squeeze: 41% Higher Costs, $6.8B Equity Gap: High Confidence, score 72, 3 source file(s), 3 observation(s), latest stage Refinancing / Recapitalization, identity confidence 80.
+- Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower: Moderate Confidence, score 68, 3 source file(s), 3 observation(s), latest stage Refinancing / Recapitalization, identity confidence 100.
+- Refinancing - National - Multifamily Refinancing Squeeze: 41% Higher Costs, $6.8B Equity Gap: Moderate Confidence, score 60, 4 source file(s), 4 observation(s), latest stage Unknown Stage, identity confidence 80.
+- Refinancing - Other / Unknown - JLL Arranges $67.3M Loan for Refinancing of Metro Boston Apartment Building: Moderate Confidence, score 55, 2 source file(s), 2 observation(s), latest stage Refinancing / Recapitalization, identity confidence 100.
+
+## Strongest Entitlement Progression Signals
+
+- Entitlement / Permitting - Santa Monica / California - Fresh renderings for Santa Monica apartments at 1338 5th St.: Institutional Grade, score 88, 8 source file(s), 8 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Entitlement / Permitting - Dallas / Texas - Trammell Crow Building 248 McKinney Apartment Units, 3 Hotels: High Confidence, score 84, 4 source file(s), 6 observation(s), latest stage Delivery / Opening, identity confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: High Confidence, score 82, 6 source file(s), 38 observation(s), latest stage Site Acquisition / Site Control, identity confidence 80.
+- Entitlement / Permitting - Dallas / Texas - Trammell Crow Building 248 McKinney Apartment Units, 3 Hotels: High Confidence, score 81, 3 source file(s), 9 observation(s), latest stage Vertical Construction, identity confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Affordable housing planned at 1135 N. Westmoreland Ave. in East Hollywood: High Confidence, score 81, 3 source file(s), 7 observation(s), latest stage Site Acquisition / Site Control, identity confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Affordable housing planned at 1135 N. Westmoreland Ave. in East Hollywood: High Confidence, score 78, 4 source file(s), 5 observation(s), latest stage Unknown Stage, identity confidence 80.
+- Entitlement / Permitting - Santa Monica / California - Fresh renderings for Santa Monica apartments at 1338 5th St.: High Confidence, score 72, 3 source file(s), 5 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: High Confidence, score 70, 5 source file(s), 11 observation(s), latest stage Unknown Stage, identity confidence 80.
+- Entitlement / Permitting - California - Affordable housing on the rise at 3990 S. Wade. St. in Mar Vista: Moderate Confidence, score 63, 3 source file(s), 4 observation(s), latest stage Unknown Stage, identity confidence 80.
+- Entitlement / Permitting - Other / Unknown - Zoning Worksheet Filed for Multifamily Building at 425 W Macarthur Boulevard in Oakland: Moderate Confidence, score 59, 2 source file(s), 24 observation(s), latest stage Early Site Signal, identity confidence 80.
+
+## Strongest Construction-Start Signals
+
+- Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use: Institutional Grade, score 88, 6 source file(s), 6 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Construction Financing - Phoenix / Arizona - CrossHarbor Capital Secures $78.5M in Construction Financing for Multifamily Community in...: Institutional Grade, score 86, 4 source file(s), 4 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Construction Financing - Other / Unknown - Starwood, Trinitas Nab $100M From Affinius Capital to Build Pittsburgh Student Housing: High Confidence, score 84, 6 source file(s), 7 observation(s), latest stage Unknown Stage, identity confidence 100.
+- General Project Signal - Florida - McDowell Housing Partners Closes Financing and Starts Construction on Affordable Housing C...: High Confidence, score 81, 6 source file(s), 6 observation(s), latest stage Unknown Stage, identity confidence 80.
+- Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use: High Confidence, score 78, 4 source file(s), 6 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Construction Financing - Phoenix / Arizona - CrossHarbor Capital Secures $78.5M in Construction Financing for Multifamily Community in...: High Confidence, score 76, 4 source file(s), 20 observation(s), latest stage Unknown Stage, identity confidence 100.
+- McDowell Housing Partners Closes Financing and Starts Construction on Affordable Housing Community in Naples Florida: Moderate Confidence, score 56, 2 source file(s), 2 observation(s), latest stage Site Acquisition / Site Control, identity confidence 100.
+- McDowell Housing Partners Closes Financing and Starts Construction on Affordable Housing Community in Naples Florida: Weak Signal, score 54, 2 source file(s), 2 observation(s), latest stage Unknown Stage, identity confidence 100.
+- Construction Financing - Other / Unknown - Starwood, Trinitas Nab $100M From Affinius Capital to Build Pittsburgh Student Housing: Weak Signal, score 51, 2 source file(s), 2 observation(s), latest stage Site Acquisition / Site Control, identity confidence 100.
+- Construction goes vertical for affordable housing at 21155 Califa St. in Warner Center: Weak Signal, score 47, 1 source file(s), 1 observation(s), latest stage Unknown Stage, identity confidence 80.
+
+## Implications for Woomi / Woomi Global
+
+- Signal quality calibration helps separate institutional-grade project intelligence from noisy one-off mentions.
+- High-quality signals should receive management attention before weaker signals inflate opportunity or lifecycle conclusions.
+
+## Recommended Signal Quality Follow-up Actions
+
+- Immediate strategic review: Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties (Institutional Grade).
+- Immediate strategic review: Acquisition - Texas - Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Tex... (Institutional Grade).
+- Immediate strategic review: Disposition / Exit - California - Marcus & Millichap Brokers Value-Add Multifamily Property Near University of California Da... (Institutional Grade).
+- Immediate strategic review: General Project Signal - Atlanta / Georgia - Greystar, Vantage Acquire Chamblee Property for 340-Unit Multifamily Community (Institutional Grade).
+- Immediate strategic review: General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building (Institutional Grade).
+- Immediate strategic review: Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building (Institutional Grade).
+- Immediate strategic review: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M (Institutional Grade).
+- Immediate strategic review: Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use (Institutional Grade).

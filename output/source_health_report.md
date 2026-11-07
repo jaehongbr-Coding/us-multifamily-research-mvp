@@ -1,6 +1,6 @@
 # Source Health Report
 
-Generated: 2026-11-06 03:13:44
+Generated: 2026-11-07 02:34:34
 
 - Total sources attempted: 163
 - Working sources: 22
@@ -11,31 +11,30 @@ Generated: 2026-11-06 03:13:44
 ## High-Value Sources
 
 - Multifamily Dive (Core Multifamily News): 5 saved article(s).
-- Yield PRO (Core Multifamily News): 9 saved article(s).
-- Commercial Observer (Core Multifamily News): 3 saved article(s).
+- Yield PRO (Core Multifamily News): 6 saved article(s).
 - Connect CRE (Core Multifamily News): 3 saved article(s).
 - NAHB Eye on Housing - Multifamily (Public Agency / Housing Data): 15 saved article(s).
-- Urbanize LA (Regional / California / LA Sources): 8 saved article(s).
-- REBusiness Online (Site / Parcel Source Expansion): 5 saved article(s).
-- Connect CRE Apartments (Site / Parcel Source Expansion): 6 saved article(s).
-- Connect CRE Phoenix (Site / Parcel Source Expansion): 3 saved article(s).
-- Connect CRE Atlanta (Site / Parcel Source Expansion): 5 saved article(s).
-- Connect CRE California (Regional / California / LA Sources): 3 saved article(s).
+- Urbanize LA (Regional / California / LA Sources): 9 saved article(s).
+- REBusiness Online (Site / Parcel Source Expansion): 7 saved article(s).
+- Connect CRE Apartments (Site / Parcel Source Expansion): 7 saved article(s).
+- Connect CRE Atlanta (Site / Parcel Source Expansion): 4 saved article(s).
 
 ## Useful Sources
 
 - Multifamily Executive (Core Multifamily News): 2 saved article(s).
 - Bisnow (Core Multifamily News): 1 saved article(s).
-- Construction Dive (Core Multifamily News): 1 saved article(s).
+- Commercial Observer (Core Multifamily News): 2 saved article(s).
 - SF YIMBY (Regional / California / LA Sources): 2 saved article(s).
-- Connect CRE Texas (Site / Parcel Source Expansion): 1 saved article(s).
+- Connect CRE Texas (Site / Parcel Source Expansion): 2 saved article(s).
 - Connect CRE South Florida (Site / Parcel Source Expansion): 2 saved article(s).
+- Connect CRE Phoenix (Site / Parcel Source Expansion): 2 saved article(s).
 - Connect CRE Orange County (Site / Parcel Source Expansion): 2 saved article(s).
+- Connect CRE California (Regional / California / LA Sources): 2 saved article(s).
 
 ## Failing Sources
 
 - Multi-Housing News: RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token)
-- GlobeSt: RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token)
+- GlobeSt: RSS parsing issue: status=301; <unknown>:2:1326: not well-formed (invalid token)
 - The Real Deal: No entries returned
 - Urban Land Institute: RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token)
 - NMHC News: RSS parsing issue: status=200; <unknown>:21:2: mismatched tag
@@ -57,6 +56,7 @@ Generated: 2026-11-06 03:13:44
 
 ## Watch List
 
+- Construction Dive: 10 entries found, but no articles passed filtering.
 - HousingWire: 10 entries found, but no articles passed filtering.
 - Federal Reserve - Press Releases: 20 entries found, but no articles passed filtering.
 - WealthManagement Real Estate: 50 entries found, but no articles passed filtering.
@@ -73,7 +73,7 @@ Developer / GP source coverage is available in `gp_source_coverage_report.md`.
 Validated source activation scoring is available in `source_activation_report.md`.
 - Working activated sources: 21
 - Failed critical sources: 11
-- Highest quality source this run: Multifamily Dive (94).
+- Highest quality source this run: Yield PRO (100).
 
 ## Recommended Source Improvement Actions
 

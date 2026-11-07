@@ -1,70 +1,70 @@
 # GP Routing Quality Report
 
-Generated: 2026-11-06 03:13:42
+Generated: 2026-11-07 02:34:33
 
 ## Summary
-- Total GP / Capital candidates: 40
-- Selected GP / Capital articles: 27
-- Debt Financing count: 10
-- Refinancing count: 5
-- Construction Financing count: 1
-- Acquisition Financing count: 0
+- Total GP / Capital candidates: 36
+- Selected GP / Capital articles: 20
+- Debt Financing count: 7
+- Refinancing count: 3
+- Construction Financing count: 4
+- Acquisition Financing count: 1
 - Equity Transaction count: 0
 - Operator Activity count: 0
-- Other / Unknown market count: 34
+- Other / Unknown market count: 28
 
 ## Routing Regression Summary
-- Market Intelligence routed articles: 15
-- Development Activity routed articles: 40
-- GP / Capital Activity routed articles: 14
-- Market-protected research / macro / supply articles: 4
+- Market Intelligence routed articles: 13
+- Development Activity routed articles: 47
+- GP / Capital Activity routed articles: 7
+- Market-protected research / macro / supply articles: 3
 - Approval / Entitlement development rows: 0
 - Site / Parcel development rows: 0
 - Routing rule: market and macro context is protected unless a headline-level deal, project, sponsor, or lender event is confirmed.
 - Routing rule: approval / entitlement wording takes priority over Site / Parcel when both appear.
 
 ## Activity Type Distribution
-- disposition_exit: 14
-- debt_financing: 10
-- refinancing: 5
-- acquisition: 5
+- disposition_exit: 13
+- debt_financing: 7
+- construction_financing: 4
 - joint_venture: 4
-- capital_raise: 1
-- construction_financing: 1
+- acquisition: 4
+- refinancing: 3
+- acquisition_financing: 1
 
 ## Excluded from GP / Capital with Reason
-- No obvious GP / Capital keyword article was excluded.
+- Marcus & Millichap Brokers Value-Add Multifamily Property Near University of California Davis | Yield PRO | asset strategy / development routing
 
 ## Top Unresolved Market Extraction Examples
-- Vivmark Touts Integration and Growth in First Quarterly Earnings Call | Commercial Observer | used broad market bucket: National
-- Greystone Supplies $47M Freddie Mac Loan on Illinois Multifamily Acquisition | Commercial Observer | no city, state, or market keyword detected
-- JLL Arranges $25M Sale of FourNorth Apartments in Metro Chicago | REBusiness Online | no city, state, or market keyword detected
-- US Apartment Rents Inch Higher in Q3 as Supply Wave Subsides | Connect CRE Apartments | used broad market bucket: National
+- JLL Arranges $67.3M Loan for Refinancing of Metro Boston Apartment Building | REBusiness Online | no city, state, or market keyword detected
+- Northmarq Brokers Sale of 56-Unit Apartment Complex in Lawrence, Kansas | REBusiness Online | no city, state, or market keyword detected
 - Zoning Worksheet Filed for Multifamily Building at 425 W Macarthur Boulevard in Oakland | SF YIMBY | no city, state, or market keyword detected
-- Luxury Rental Community The Piermont in Hillsdale New Jersey is Now 75% Leased | Yield PRO | no city, state, or market keyword detected
+- Marcus & Millichap Arranges Sale of 34-Unit Multifamily Property in Minneapolis for $3.15M | Yield PRO | no city, state, or market keyword detected
 - Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - 123 homes planned at 902 W. Washington Blvd. in University Park | Urbanize LA | no city, state, or market keyword detected
 - Multifamily Missing Middle Falls Back | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Multifamily Missing Middle Construction: First Quarter 2026 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- CSU Dominguez Hills completes new dorms + rec center | Urbanize LA | no city, state, or market keyword detected
+- Starwood, Trinitas Nab $100M From Affinius Capital to Build Pittsburgh Student Housing | Commercial Observer | no city, state, or market keyword detected
 - Multifamily Absorption Rate Remains Below 50% | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Shorter Apartment Construction Time in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Q3 multifamily sales jumped 139% on Vivmark deal | Multifamily Dive | no city, state, or market keyword detected
-- Multifamily Refinancing Squeeze: 41% Higher Costs, $6.8B Equity Gap | Connect CRE | used broad market bucket: National
+- Second Quarter 2026 Multifamily Construction Data | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- Why apartment firms see value in rent now, pay later programs | Multifamily Dive | no city, state, or market keyword detected
+- Rent Prices Continue to Rise, While Absorption Remains Low | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 
 ## Sample Selected GP / Capital Articles
-- Ari Azarbarzin joins JLL Capital Markets in Washington, D.C. | disposition_exit | Washington DC | Yield PRO
-- Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View California | refinancing | San Francisco / California | Yield PRO
-- Vivmark Touts Integration and Growth in First Quarterly Earnings Call | acquisition | National | Commercial Observer
-- Blackstone Provides $310M Bridge Loan for Nashville Mixed-Use Tower | joint_venture | Nashville / Tennessee | Commercial Observer
-- Greystone Supplies $47M Freddie Mac Loan on Illinois Multifamily Acquisition | acquisition | Other / Unknown | Commercial Observer
-- JLL Arranges $154.2M Loan for Refinancing of Long Island Apartment Community | refinancing | New York | REBusiness Online
-- US Apartment Rents Inch Higher in Q3 as Supply Wave Subsides | capital_raise | National | Connect CRE Apartments
-- Berkadia Closes $219M Loan for Affordable Housing Rehab in Manhattan | debt_financing | New York City / New York | Connect CRE Apartments
+- Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use | construction_financing | Los Angeles / California | Connect CRE
+- Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower | joint_venture | New York City / New York | REBusiness Online
+- JLL Arranges $67.3M Loan for Refinancing of Metro Boston Apartment Building | refinancing | Other / Unknown | REBusiness Online
+- CrossHarbor Capital Secures $78.5M in Construction Financing for Multifamily Community in Tempe | construction_financing | Phoenix / Arizona | REBusiness Online
+- Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durham | joint_venture | California | REBusiness Online
 - BTI, Bridge Score $109M for Hollywood’s Bread Building | debt_financing | Miami / Florida | Connect CRE South Florida
 - Terra, Fortune Ink $220M Key Biscayne Condo Financing | debt_financing | Miami / Florida | Connect CRE South Florida
-- ORIX Acquires Buckhead Apartments for $83M | acquisition | Atlanta / Georgia | Connect CRE Atlanta
-- Newmark Arranges $24.5M Fannie Mae Refinancing for Lakewood Colorado Apartments | refinancing | Colorado | Yield PRO
-- Timberlane Partners Purchases Canopy Apartments in Everett, Washington for $82.7M | joint_venture | New York | REBusiness Online
-- Cross Harbor Scores $78.5M Financing for Tempe Rental Community | debt_financing | Phoenix / Arizona | Connect CRE Apartments
-- Marcus & Millichap Closes $29.85M Sale and Arranges Financing for Two Multifamily Assets in West Hollywood | disposition_exit | Los Angeles / California | Yield PRO
+- Cross Harbor Scores $78.5M Financing for Tempe Rental Community | debt_financing | Phoenix / Arizona | Connect CRE Phoenix
+- Atlas Capital Snags Hell’s Kitchen Apartments for Reported $150M | acquisition | New York City / New York | Connect CRE
+- Timberlane Partners Spends $83M on WA Multifamily Community | joint_venture | Seattle | Connect CRE Apartments
+- Starwood, Trinitas Nab $100M From Affinius Capital to Build Pittsburgh Student Housing | construction_financing | Other / Unknown | Commercial Observer
+- Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Texas | acquisition_financing | Texas | REBusiness Online
+- Q3 multifamily sales jumped 139% on Vivmark deal | disposition_exit | Other / Unknown | Multifamily Dive
+- Why apartment firms see value in rent now, pay later programs | debt_financing | Other / Unknown | Multifamily Dive
+- Multifamily Refinancing Squeeze: 41% Higher Costs, $6.8B Equity Gap | refinancing | National | Connect CRE Apartments

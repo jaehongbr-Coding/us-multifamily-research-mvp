@@ -1,21 +1,21 @@
 # LA Persistent Asset Watch Report
 
-Generated: 2026-11-06 03:14:22
+Generated: 2026-11-07 02:35:04
 
-- Total LA persistent asset watch items: 95
+- Total LA persistent asset watch items: 109
 
 ## Priority LA Asset Watch Items
 
-- JV / Partnership - Nashville / Tennessee - JLL Arranges $310M Financing for Landmark Riverfront Mixed-Use Development in Nashville: Los Angeles, Delivery / Opening, Track repeat project updates.
-- Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Los Angeles, Unknown Stage, Track repeat project updates.
+- Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use: Los Angeles, Unknown Stage, Track repeat project updates.
 - General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Hollywood, Unknown Stage, Track repeat project updates.
-- Refinancing - Colorado - Newmark Arranges $24.5M Fannie Mae Refinancing for Lakewood Colorado Apartments: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
-- Disposition / Exit - Los Angeles / California - Marcus & Millichap Closes $29.85M Sale and Arranges Financing for Two Multifamily Assets i...: Los Angeles, Delivery / Opening, Track repeat project updates.
-- Refinancing - New York - JLL Arranges $154.2M Loan for Refinancing of Long Island Apartment Community: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
-- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: California, Unknown Stage, Track repeat project updates.
-- Refinancing - San Francisco / California - Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View Californi...: California, Refinancing / Recapitalization, Track repeat project updates.
-- JV / Partnership - California - 377 apartments rise next to Brea Mall: Southern California, Unknown Stage, Track repeat project updates.
-- General Project Signal - Los Angeles / California - One Beverly Hills Reaches Milestones Ahead of Schedule: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
+- Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties: Los Angeles, Delivery / Opening, Track repeat project updates.
+- Entitlement / Permitting - Santa Monica / California - Fresh renderings for Santa Monica apartments at 1338 5th St.: Santa Monica, Unknown Stage, Track repeat project updates.
+- Disposition / Exit - California - Marcus & Millichap Brokers Value-Add Multifamily Property Near University of California Da...: California, Unknown Stage, Track repeat project updates.
+- General Project Signal - Atlanta / Georgia - Greystar, Vantage Acquire Chamblee Property for 340-Unit Multifamily Community: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
+- Disposition / Exit - Santa Monica / California - Marcus & Millichap Brokers $7.2M Sale of 22-Unit Multifamily Property in Santa Monica Cali...: Santa Monica, Unknown Stage, Track repeat project updates.
+- JV / Partnership - California - Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durha...: California, Unknown Stage, Track repeat project updates.
+- Acquisition - Texas - Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Tex...: Los Angeles, Unknown Stage, Track repeat project updates.
+- Development Start - California - Lincoln Property Company & McCourt Partners ElevenOneEleven Breaks Ground in Culver City C...: Culver City, Unknown Stage, Track repeat project updates.
 
 ## Koreatown / Wilshire Persistent Assets
 
@@ -41,22 +41,22 @@ Generated: 2026-11-06 03:14:22
 
 ## Stalled / Delayed LA Asset Watch
 
-- Refinancing - San Francisco / California - Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View Californi...: California, Refinancing / Recapitalization, Track repeat project updates.
-- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Los Angeles, Distressed / Stalled, Track repeat project updates.
+- None detected.
 
 ## Construction / Delivery Transition Watch
 
-- JV / Partnership - Nashville / Tennessee - JLL Arranges $310M Financing for Landmark Riverfront Mixed-Use Development in Nashville: Los Angeles, Delivery / Opening, Track repeat project updates.
-- Disposition / Exit - Los Angeles / California - Marcus & Millichap Closes $29.85M Sale and Arranges Financing for Two Multifamily Assets i...: Los Angeles, Delivery / Opening, Track repeat project updates.
-- Marcus & Millichap Closes $29.85M Sale and Arranges Financing for Two Multifamily Assets in West Hollywood: Los Angeles, Delivery / Opening, Track repeat project updates.
+- Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties: Los Angeles, Delivery / Opening, Track repeat project updates.
+- Entitlement / Permitting - Dallas / Texas - Trammell Crow Building 248 McKinney Apartment Units, 3 Hotels: Los Angeles, Vertical Construction, Track repeat project updates.
+- Benedict Canyon Acquires Neighboring West Hollywood Properties: Los Angeles, Delivery / Opening, Track repeat project updates.
+- Entitlement / Permitting - Dallas / Texas - Trammell Crow Building 248 McKinney Apartment Units, 3 Hotels: Los Angeles, Delivery / Opening, Track repeat project updates.
 
 ## Recommended Local Follow-up Actions
 
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - Nashville / Tennessee - JLL Arranges $310M Financing for Landmark Riverfront Mixed-Use Development in Nashville.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Colorado - Newmark Arranges $24.5M Fannie Mae Refinancing for Lakewood Colorado Apartments.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - Los Angeles / California - Marcus & Millichap Closes $29.85M Sale and Arranges Financing for Two Multifamily Assets i....
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - New York - JLL Arranges $154.2M Loan for Refinancing of Long Island Apartment Community.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Entitlement / Permitting - Santa Monica / California - Fresh renderings for Santa Monica apartments at 1338 5th St..
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Marcus & Millichap Brokers Value-Add Multifamily Property Near University of California Da....
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Atlanta / Georgia - Greystar, Vantage Acquire Chamblee Property for 340-Unit Multifamily Community.
 - Monitor for repeated project updates: Entitlement / Permitting - California - Affordable housing on the rise at 3990 S. Wade. St. in Mar Vista.
+- Monitor for repeated project updates: Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood.

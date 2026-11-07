@@ -1,26 +1,26 @@
 ﻿run_date,run_id,source_name,attempted_url_or_feed,status,article_count_fetched,site_parcel_candidate_count,reason_if_unavailable
-2026-11-06,20261106-031342-ba296f64,REBusiness Online,https://rebusinessonline.com/feed/atom/,no relevant articles,20,0,No saved Site / Parcel candidates detected
-2026-11-06,20261106-031342-ba296f64,Connect CRE Apartments,https://www.connectcre.com/feed?property-sector=apartments,no relevant articles,10,0,No saved Site / Parcel candidates detected
-2026-11-06,20261106-031342-ba296f64,Connect CRE Texas,https://www.connectcre.com/feed?story-market=texas,no relevant articles,10,0,No saved Site / Parcel candidates detected
-2026-11-06,20261106-031342-ba296f64,Connect CRE South Florida,https://www.connectcre.com/feed?story-market=south-florida,no relevant articles,10,0,No saved Site / Parcel candidates detected
-2026-11-06,20261106-031342-ba296f64,Connect CRE Phoenix,https://www.connectcre.com/feed?story-market=phoenix,no relevant articles,10,0,No saved Site / Parcel candidates detected
-2026-11-06,20261106-031342-ba296f64,Connect CRE Atlanta,https://www.connectcre.com/feed?story-market=atlanta,no relevant articles,10,0,No saved Site / Parcel candidates detected
-2026-11-06,20261106-031342-ba296f64,Connect CRE Charlotte,https://www.connectcre.com/feed?story-market=charlotte,error,0,0,RSS parsing issue: status=404; <unknown>:22:51: not well-formed (invalid token)
-2026-11-06,20261106-031342-ba296f64,Connect CRE Orange County,https://www.connectcre.com/feed?story-market=orange-county,no relevant articles,10,0,No saved Site / Parcel candidates detected
-2026-11-06,20261106-031342-ba296f64,CRE Daily,,skipped,0,0,No public feed URL configured
-2026-11-06,20261106-031342-ba296f64,Institutional Property Advisors,,skipped,0,0,No public feed URL configured
-2026-11-06,20261106-031342-ba296f64,JLL Newsroom,,skipped,0,0,No public feed URL configured
-2026-11-06,20261106-031342-ba296f64,CBRE Newsroom,,skipped,0,0,No public feed URL configured
-2026-11-06,20261106-031342-ba296f64,Cushman & Wakefield Newsroom,,skipped,0,0,No public feed URL configured
-2026-11-06,20261106-031342-ba296f64,Marcus & Millichap Newsroom,,skipped,0,0,No public feed URL configured
-2026-11-06,20261106-031342-ba296f64,Dallas Business Journal,,skipped,0,0,No public feed URL configured
-2026-11-06,20261106-031342-ba296f64,Austin Business Journal,,skipped,0,0,No public feed URL configured
-2026-11-06,20261106-031342-ba296f64,South Florida Business Journal,,skipped,0,0,No public feed URL configured
-2026-11-06,20261106-031342-ba296f64,Phoenix Business Journal,,skipped,0,0,No public feed URL configured
-2026-11-06,20261106-031342-ba296f64,Atlanta Business Chronicle,,skipped,0,0,No public feed URL configured
-2026-11-06,20261106-031342-ba296f64,Charlotte Business Journal,,skipped,0,0,No public feed URL configured
-2026-11-06,20261106-031342-ba296f64,Los Angeles Business Journal,,skipped,0,0,No public feed URL configured
-2026-11-06,20261106-031342-ba296f64,San Francisco Business Times,,skipped,0,0,No public feed URL configured
-2026-11-06,20261106-031342-ba296f64,Orange County Business Journal,,skipped,0,0,No public feed URL configured
-2026-11-06,20261106-031342-ba296f64,Denver Business Journal,,skipped,0,0,No public feed URL configured
-2026-11-06,20261106-031342-ba296f64,Nashville Business Journal,,skipped,0,0,No public feed URL configured
+2026-11-07,20261107-023433-70dd5148,REBusiness Online,https://rebusinessonline.com/feed/atom/,no relevant articles,20,0,No saved Site / Parcel candidates detected
+2026-11-07,20261107-023433-70dd5148,Connect CRE Apartments,https://www.connectcre.com/feed?property-sector=apartments,success,10,1,
+2026-11-07,20261107-023433-70dd5148,Connect CRE Texas,https://www.connectcre.com/feed?story-market=texas,no relevant articles,10,0,No saved Site / Parcel candidates detected
+2026-11-07,20261107-023433-70dd5148,Connect CRE South Florida,https://www.connectcre.com/feed?story-market=south-florida,no relevant articles,10,0,No saved Site / Parcel candidates detected
+2026-11-07,20261107-023433-70dd5148,Connect CRE Phoenix,https://www.connectcre.com/feed?story-market=phoenix,no relevant articles,10,0,No saved Site / Parcel candidates detected
+2026-11-07,20261107-023433-70dd5148,Connect CRE Atlanta,https://www.connectcre.com/feed?story-market=atlanta,no relevant articles,10,0,No saved Site / Parcel candidates detected
+2026-11-07,20261107-023433-70dd5148,Connect CRE Charlotte,https://www.connectcre.com/feed?story-market=charlotte,error,0,0,RSS parsing issue: status=404; <unknown>:22:51: not well-formed (invalid token)
+2026-11-07,20261107-023433-70dd5148,Connect CRE Orange County,https://www.connectcre.com/feed?story-market=orange-county,no relevant articles,10,0,No saved Site / Parcel candidates detected
+2026-11-07,20261107-023433-70dd5148,CRE Daily,,skipped,0,0,No public feed URL configured
+2026-11-07,20261107-023433-70dd5148,Institutional Property Advisors,,skipped,0,0,No public feed URL configured
+2026-11-07,20261107-023433-70dd5148,JLL Newsroom,,skipped,0,0,No public feed URL configured
+2026-11-07,20261107-023433-70dd5148,CBRE Newsroom,,skipped,0,0,No public feed URL configured
+2026-11-07,20261107-023433-70dd5148,Cushman & Wakefield Newsroom,,skipped,0,0,No public feed URL configured
+2026-11-07,20261107-023433-70dd5148,Marcus & Millichap Newsroom,,skipped,0,0,No public feed URL configured
+2026-11-07,20261107-023433-70dd5148,Dallas Business Journal,,skipped,0,0,No public feed URL configured
+2026-11-07,20261107-023433-70dd5148,Austin Business Journal,,skipped,0,0,No public feed URL configured
+2026-11-07,20261107-023433-70dd5148,South Florida Business Journal,,skipped,0,0,No public feed URL configured
+2026-11-07,20261107-023433-70dd5148,Phoenix Business Journal,,skipped,0,0,No public feed URL configured
+2026-11-07,20261107-023433-70dd5148,Atlanta Business Chronicle,,skipped,0,0,No public feed URL configured
+2026-11-07,20261107-023433-70dd5148,Charlotte Business Journal,,skipped,0,0,No public feed URL configured
+2026-11-07,20261107-023433-70dd5148,Los Angeles Business Journal,,skipped,0,0,No public feed URL configured
+2026-11-07,20261107-023433-70dd5148,San Francisco Business Times,,skipped,0,0,No public feed URL configured
+2026-11-07,20261107-023433-70dd5148,Orange County Business Journal,,skipped,0,0,No public feed URL configured
+2026-11-07,20261107-023433-70dd5148,Denver Business Journal,,skipped,0,0,No public feed URL configured
+2026-11-07,20261107-023433-70dd5148,Nashville Business Journal,,skipped,0,0,No public feed URL configured

@@ -1,37 +1,37 @@
 # GP / Capital Entity Quality Report
 
-Generated: 2026-11-06 03:13:54
+Generated: 2026-11-07 02:34:38
 
 ## Summary
 
-- Total GP/Capital articles: 40
-- Participant not identified: 14
-- Dictionary match: 22
+- Total GP/Capital articles: 36
+- Participant not identified: 12
+- Dictionary match: 20
 - Title fallback / headline extraction: 1
-- Low confidence or unresolved: 14
+- Low confidence or unresolved: 12
 
 ## Representative Resolved Samples
 
-- JLL: Ari Azarbarzin joins JLL Capital Markets in Washington, D.C. (dictionary_match, high)
-- Prometheus Real Estate Group: Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View California (capital_event_sentence, medium)
-- Equity Residential: Vivmark Touts Integration and Growth in First Quarterly Earnings Call (dictionary_match, high)
-- Blackstone: Blackstone Provides $310M Bridge Loan for Nashville Mixed-Use Tower (dictionary_match, high)
-- Greystone: Greystone Supplies $47M Freddie Mac Loan on Illinois Multifamily Acquisition (dictionary_match, high)
-- JLL: JLL Arranges $154.2M Loan for Refinancing of Long Island Apartment Community (dictionary_match, high)
-- JLL: JLL Arranges $25M Sale of FourNorth Apartments in Metro Chicago (dictionary_match, high)
-- CBRE: US Apartment Rents Inch Higher in Q3 as Supply Wave Subsides (dictionary_match, high)
-- Berkadia: Berkadia Closes $219M Loan for Affordable Housing Rehab in Manhattan (dictionary_match, high)
+- McCourt Partners: Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use (dictionary_match, high)
+- Affinius Capital: Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower (dictionary_match, high)
+- JLL: JLL Arranges $67.3M Loan for Refinancing of Metro Boston Apartment Building (dictionary_match, high)
+- CrossHarbor Capital: CrossHarbor Capital Secures $78.5M in Construction Financing for Multifamily Community in Tempe (dictionary_match, high)
+- Wood Partners: Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durham (dictionary_match, high)
+- Greystar: Greystar, Vantage Acquire Chamblee Property for 340-Unit Multifamily Community (dictionary_match, high)
 - Greystone: BTI, Bridge Score $109M for Hollywood’s Bread Building (dictionary_match, high)
+- Blackstone: Terra, Fortune Ink $220M Key Biscayne Condo Financing (dictionary_match, high)
+- CBRE: ORIX Acquires Buckhead Apartments for $83M (dictionary_match, high)
+- Marcus & Millichap: Benedict Canyon Acquires Neighboring West Hollywood Properties (dictionary_match, high)
 
 ## Unresolved Examples
 
 - 377 apartments rise next to Brea Mall | Urbanize LA | No institution name detected in dictionary, title, summary, or source text.
-- Comstock Agrees to Purchase 672-Unit Ascher Apartment Towers in Uptown Charlotte | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
-- Investor Takes Over Distressed Atlanta Apartment Asset | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.
+- Northmarq Brokers Sale of 56-Unit Apartment Complex in Lawrence, Kansas | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
+- Atlas Capital Snags Hell’s Kitchen Apartments for Reported $150M | Connect CRE | No institution name detected in dictionary, title, summary, or source text.
 - Q3 multifamily sales jumped 139% on Vivmark deal | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.
-- Multifamily Refinancing Squeeze: 41% Higher Costs, $6.8B Equity Gap | Connect CRE | No institution name detected in dictionary, title, summary, or source text.
 - Why apartment firms see value in rent now, pay later programs | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.
+- Multifamily Refinancing Squeeze: 41% Higher Costs, $6.8B Equity Gap | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
 - HUD launches ‘express lane’ for LIHTC multifamily construction loans | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.
 - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market? | Multifamily Executive | No institution name detected in dictionary, title, summary, or source text.
-- Multifamily CMBS delinquency rate continues rise in October | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
 - Perimeter Center Rental Community Goes for $120M | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.
+- Morehouse, Spelman Debut $147M Student Housing Project | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.

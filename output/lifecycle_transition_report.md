@@ -1,11 +1,11 @@
 # Lifecycle Transition Report
 
-Generated: 2026-11-06 03:14:22
+Generated: 2026-11-07 02:35:04
 
-- Total lifecycle transitions analyzed: 73
-- Newly detected projects: 27
+- Total lifecycle transitions analyzed: 74
+- Newly detected projects: 33
 - Forward progression projects: 0
-- Possible stalled projects: 1
+- Possible stalled projects: 0
 - Reappearing projects: 0
 
 ## Strongest Progression Signals
@@ -13,39 +13,39 @@ Generated: 2026-11-06 03:14:22
 - Benedict Canyon Acquires Neighboring West Hollywood Properties: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 80.
 - Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 80.
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 78.
-- Refinancing - Nashville / Tennessee - Blackstone Provides $310M Bridge Loan for Nashville Mixed-Use Tower: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 75.
-- Refinancing - Colorado - Newmark Arranges $24.5M Fannie Mae Refinancing for Lakewood Colorado Apartments: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 65.
-- Acquisition - Other / Unknown - JLL Arranges $25M Sale of FourNorth Apartments in Metro Chicago: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 65.
-- JLL Arranges $25M Sale of FourNorth Apartments in Metro Chicago: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 65.
-- Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View California: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 64.
-- Refinancing - San Francisco / California - Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View Californi...: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 63.
+- Development Start - Dallas / Texas - Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 73.
+- Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 72.
+- Acquisition - Phoenix / Arizona - A&C Properties Sells Grocery-Anchored Retail Portfolio in Arizona for $108.7M: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 65.
 - Construction Financing - Other / Unknown - HUD launches ‘express lane’ for LIHTC multifamily construction loans: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 61.
+- Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 56.
+- Refinancing - National - Multifamily Refinancing Squeeze: 41% Higher Costs, $6.8B Equity Gap: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 53.
+- Refinancing - New York City / New York - Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 51.
 
 ## Highest Stall Risk Signals
 
-- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled -> Distressed / Stalled, Possible Stall, stall_risk_score 80.
 - 3 new apartment projects open their doors: Environmental Review / CEQA -> Environmental Review / CEQA, Same Stage Persistence, stall_risk_score 58.
-- JV / Partnership - Nashville / Tennessee - JLL Arranges $310M Financing for Landmark Riverfront Mixed-Use Development in Nashville: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 39.
+- Entitlement / Permitting - Other / Unknown - Zoning Worksheet Filed for Multifamily Building at 425 W Macarthur Boulevard in Oakland: Entitlement Under Review -> Entitlement Under Review, Same Stage Persistence, stall_risk_score 39.
 - General Project Signal - Los Angeles / California - 16-story residential tower planned at 8240 Sunset Blvd. in West Hollywood: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 38.
 - General Project Signal - Other / Unknown - 123 homes planned at 902 W. Washington Blvd. in University Park: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 38.
+- Zoning Worksheet Filed for Multifamily Building at 425 W Macarthur Boulevard in Oakland: Entitlement Under Review -> Entitlement Under Review, Same Stage Persistence, stall_risk_score 38.
 - 123 homes planned at 902 W. Washington Blvd. in University Park: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
+- Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
 - 16-story residential tower planned at 8240 Sunset Blvd. in West Hollywood: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 36.
-- Affordable housing taking shape at 5749 S. Brynhurst Avenue in Hyde Park: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
-- BTR / Build-to-Rent - Washington DC - Ari Azarbarzin joins JLL Capital Markets in Washington, D.C.: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 34.
-- General Project Signal - California - Affordable housing taking shape at 5749 S. Brynhurst Avenue in Hyde Park: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
+- Affordable housing on the rise at 3990 S. Wade. St. in Mar Vista: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
+- Entitlement / Permitting - California - Affordable housing on the rise at 3990 S. Wade. St. in Mar Vista: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
 
 ## Newly Detected Projects
 
-- Refinancing - Nashville / Tennessee - Blackstone Provides $310M Bridge Loan for Nashville Mixed-Use Tower: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 75.
-- Acquisition - Other / Unknown - JLL Arranges $25M Sale of FourNorth Apartments in Metro Chicago: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 65.
-- JLL Arranges $25M Sale of FourNorth Apartments in Metro Chicago: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 65.
-- Refinancing - New York - JLL Arranges $154.2M Loan for Refinancing of Long Island Apartment Community: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 60.
-- JLL Arranges $154.2M Loan for Refinancing of Long Island Apartment Community: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 60.
-- Refinancing - Other / Unknown - Canada Pension Plan Investment Board: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 59.
-- Refinancing - National - Multifamily Refinancing Squeeze: 41% Higher Costs, $6.8B Equity Gap: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 48.
-- Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: No Previous Record -> Site Acquisition / Site Control, Newly Detected Project, progression_score 44.
-- Entitlement / Permitting - California - Affordable housing on the rise at 3990 S. Wade. St. in Mar Vista: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 42.
-- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 42.
+- Development Start - Dallas / Texas - Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 73.
+- Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 72.
+- Acquisition - Phoenix / Arizona - A&C Properties Sells Grocery-Anchored Retail Portfolio in Arizona for $108.7M: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 65.
+- Refinancing - New York City / New York - Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 51.
+- Refinancing - Other / Unknown - JLL Arranges $67.3M Loan for Refinancing of Metro Boston Apartment Building: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 50.
+- Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 50.
+- Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 45.
+- Entitlement / Permitting - Santa Monica / California - Fresh renderings for Santa Monica apartments at 1338 5th St.: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 45.
+- JV / Partnership - California - Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durha...: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 45.
+- Development Start - California - Lincoln Property Company & McCourt Partners ElevenOneEleven Breaks Ground in Culver City C...: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 44.
 
 ## Forward Progression Projects
 
@@ -53,7 +53,7 @@ Generated: 2026-11-06 03:14:22
 
 ## Possible Stalled Projects
 
-- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled -> Distressed / Stalled, Possible Stall, stall_risk_score 80.
+- None detected.
 
 ## Reappearing Projects
 
@@ -61,19 +61,16 @@ Generated: 2026-11-06 03:14:22
 
 ## Refinancing / Recap Timing Transitions
 
-- Refinancing - San Francisco / California - Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View Californi...: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 30.
-- Refinancing - National - Multifamily Refinancing Squeeze: 41% Higher Costs, $6.8B Equity Gap: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
-- Refinancing - Colorado - Newmark Arranges $24.5M Fannie Mae Refinancing for Lakewood Colorado Apartments: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
 - Construction Financing - Other / Unknown - HUD launches ‘express lane’ for LIHTC multifamily construction loans: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
-- Refinancing - New York - JLL Arranges $154.2M Loan for Refinancing of Long Island Apartment Community: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
 - Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
-- Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View California: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 28.
-- Refinancing - Other / Unknown - Canada Pension Plan Investment Board: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 28.
-- JLL Arranges $154.2M Loan for Refinancing of Long Island Apartment Community: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 27.
+- Refinancing - National - Multifamily Refinancing Squeeze: 41% Higher Costs, $6.8B Equity Gap: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
+- Refinancing - New York City / New York - Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
+- Refinancing - Other / Unknown - JLL Arranges $67.3M Loan for Refinancing of Metro Boston Apartment Building: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
+- Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 28.
 
 ## Construction Start Transitions
 
-- None detected.
+- Development Start - Dallas / Texas - Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 73.
 
 ## Implications for Woomi / Woomi Global
 
@@ -86,21 +83,21 @@ Generated: 2026-11-06 03:14:22
 - Use as delivery, lease-up, and underwriting benchmark: Benedict Canyon Acquires Neighboring West Hollywood Properties.
 - Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties.
 - Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
-- Use as delivery, lease-up, and underwriting benchmark: Refinancing - Nashville / Tennessee - Blackstone Provides $310M Bridge Loan for Nashville Mixed-Use Tower.
-- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Colorado - Newmark Arranges $24.5M Fannie Mae Refinancing for Lakewood Colorado Apartments.
-- Use as delivery, lease-up, and underwriting benchmark: Acquisition - Other / Unknown - JLL Arranges $25M Sale of FourNorth Apartments in Metro Chicago.
-- Use as delivery, lease-up, and underwriting benchmark: JLL Arranges $25M Sale of FourNorth Apartments in Metro Chicago.
-- Track maturity, lender, recapitalization need, and potential JV angle: Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View California.
+- Monitor for another run to confirm lifecycle direction: Development Start - Dallas / Texas - Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community.
+- Use as delivery, lease-up, and underwriting benchmark: Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community.
+- Use as delivery, lease-up, and underwriting benchmark: Acquisition - Phoenix / Arizona - A&C Properties Sells Grocery-Anchored Retail Portfolio in Arizona for $108.7M.
+- Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - Other / Unknown - HUD launches ‘express lane’ for LIHTC multifamily construction loans.
+- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 612
-- Canonical projects: 135
-- Duplicate project clusters: 100
-- Persistent assets tracked: 135
-- LA persistent asset watch items: 95
+- Raw project references: 610
+- Canonical projects: 147
+- Duplicate project clusters: 102
+- Persistent assets tracked: 147
+- LA persistent asset watch items: 109
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -108,10 +105,10 @@ Generated: 2026-11-06 03:14:22
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 135
-- Institutional-grade signals: 16
-- High-confidence signals: 39
-- Weak/noisy signals: 72
-- High-confidence watchlist items: 39
+- Signals evaluated: 147
+- Institutional-grade signals: 18
+- High-confidence signals: 48
+- Weak/noisy signals: 79
+- High-confidence watchlist items: 48
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

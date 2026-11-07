@@ -1,8 +1,8 @@
 # LA Lifecycle Transition Watch Report
 
-Generated: 2026-11-06 03:14:22
+Generated: 2026-11-07 02:35:04
 
-- Total LA lifecycle transition watch items: 44
+- Total LA lifecycle transition watch items: 50
 
 ## LA Projects Moving Forward
 
@@ -10,48 +10,42 @@ Generated: 2026-11-06 03:14:22
 
 ## LA Projects With Stall Risk
 
-- Disposition / Exit - Atlanta / Georgia - Investor Takes Over Distressed Atlanta Apartment Asset: Distressed / Stalled -> Distressed / Stalled, Stalled project opportunity watch.
+- None detected.
 
 ## LA Permit / Construction Start Watch
 
-- None detected.
+- Development Start - Dallas / Texas - Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community: No Previous Record -> Vertical Construction, Construction start watch.
 
 ## LA Refinancing / Recap Timing Watch
 
-- Refinancing - Colorado - Newmark Arranges $24.5M Fannie Mae Refinancing for Lakewood Colorado Apartments: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View California: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Refinancing - San Francisco / California - Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View Californi...: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 - Construction Financing - Other / Unknown - HUD launches ‘express lane’ for LIHTC multifamily construction loans: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Refinancing - New York - JLL Arranges $154.2M Loan for Refinancing of Long Island Apartment Community: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- JLL Arranges $154.2M Loan for Refinancing of Long Island Apartment Community: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Refinancing - Other / Unknown - Canada Pension Plan Investment Board: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 
 ## LA Delivery / Lease-Up Benchmarks
 
 - Benedict Canyon Acquires Neighboring West Hollywood Properties: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
 - Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
-- Refinancing - Nashville / Tennessee - Blackstone Provides $310M Bridge Loan for Nashville Mixed-Use Tower: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
 
 ## Recommended LA Transition Follow-up Actions
 
 - Use as delivery, lease-up, and underwriting benchmark: Benedict Canyon Acquires Neighboring West Hollywood Properties.
 - Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties.
 - Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
-- Use as delivery, lease-up, and underwriting benchmark: Refinancing - Nashville / Tennessee - Blackstone Provides $310M Bridge Loan for Nashville Mixed-Use Tower.
-- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Colorado - Newmark Arranges $24.5M Fannie Mae Refinancing for Lakewood Colorado Apartments.
-- Track maturity, lender, recapitalization need, and potential JV angle: Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View California.
-- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - San Francisco / California - Northmarq Arranges $105M Refinance Loan for Apartment Community in Mountain View Californi....
+- Monitor for another run to confirm lifecycle direction: Development Start - Dallas / Texas - Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community.
+- Use as delivery, lease-up, and underwriting benchmark: Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community.
 - Track maturity, lender, recapitalization need, and potential JV angle: Construction Financing - Other / Unknown - HUD launches ‘express lane’ for LIHTC multifamily construction loans.
+- Monitor for another run to confirm lifecycle direction: Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio.
+- Monitor for another run to confirm lifecycle direction: General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 612
-- Canonical projects: 135
-- Duplicate project clusters: 100
-- Persistent assets tracked: 135
-- LA persistent asset watch items: 95
+- Raw project references: 610
+- Canonical projects: 147
+- Duplicate project clusters: 102
+- Persistent assets tracked: 147
+- LA persistent asset watch items: 109
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

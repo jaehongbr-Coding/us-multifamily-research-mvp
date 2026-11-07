@@ -1,28 +1,28 @@
 # US Multifamily Daily Strategy Briefing
 
-Generated: 2026-11-06 03:13:44
+Generated: 2026-11-07 02:34:34
 
 ## Hero Market View
 
-오늘 시장은 California 관찰을 중심으로 개발 / 인허가 activity이 강화되는 모습입니다. 동시에 공급 / 임대시장 압력도 보조 신호로 확인됩니다. 오늘 새 evidence에서는 JV / partnership 신호 · platform 또는 sponsor 확장 · 인허가 / entitlement 흐름이 함께 관찰됩니다. 투자 결론보다는 source 다양성, 실제 거래/개발 evidence, 반복 노출 여부를 함께 확인해야 합니다.
+오늘 시장은 Los Angeles / California 관찰을 중심으로 개발 / 인허가 activity이 반복 관찰되는 모습입니다. 동시에 공급 / 임대시장 압력도 보조 신호로 확인됩니다. 오늘 새 evidence에서는 JV / partnership 신호 · platform 또는 sponsor 확장 · 인허가 / entitlement 흐름이 함께 관찰됩니다. 투자 결론보다는 source 다양성, 실제 거래/개발 evidence, 반복 노출 여부를 함께 확인해야 합니다.
 
 ## Why It Matters
 
-- 개발 / 인허가 activity 관련 기사가 8건 포착됐고, source 다양성은 5개로 측정됩니다.
-- Daily Mentioned Market은 California이지만, 단순 기사 수보다 source 다양성, 반복 여부, duplicate risk를 함께 봐야 합니다.
+- 개발 / 인허가 activity 관련 기사가 10건 포착됐고, source 다양성은 6개로 측정됩니다.
+- Daily Mentioned Market은 Los Angeles / California이지만, 단순 기사 수보다 source 다양성, 반복 여부, duplicate risk를 함께 봐야 합니다.
 - 다만 보수적으로 해석해도 해당 signal은 오늘 briefing에서 우선 확인할 만합니다.
 
 ## Key Market Signals
 
-- 개발 / 인허가 activity: 8 article(s), 5 source(s), 4 market(s), strengthening, confidence: moderate confidence.
-- 공급 / 임대시장 압력: 20 article(s), 8 source(s), 5 market(s), stable, confidence: moderate confidence.
-- 기관 자본 흐름: 31 article(s), 14 source(s), 12 market(s), stable, confidence: moderate confidence.
+- 개발 / 인허가 activity: 10 article(s), 6 source(s), 4 market(s), stable, confidence: moderate confidence.
+- 공급 / 임대시장 압력: 20 article(s), 8 source(s), 7 market(s), stable, confidence: moderate confidence.
+- 기관 자본 흐름: 33 article(s), 14 source(s), 12 market(s), stable, confidence: moderate confidence.
 
 ## Market Interpretation
 
-- Capital flow: 31건의 자본 흐름 signal이 포착됐고 14개 source가 확인됩니다.
-- Development: 개발 / 인허가 signal이 Other / Unknown 중심으로 반복 관찰됩니다.
-- Financing: 37건 포착됐지만 watch only로 관리합니다.
+- Capital flow: 33건의 자본 흐름 signal이 포착됐고 14개 source가 확인됩니다.
+- Development: 개발 / 인허가 signal이 Los Angeles / California 중심으로 반복 관찰됩니다.
+- Financing: 34건 포착됐지만 watch only로 관리합니다.
 - Supply / demand: lease-up, concession, absorption 관련 signal이 underwriting 확인 사항으로 남아 있습니다.
 
 ## Woomi Checkpoints
@@ -33,17 +33,17 @@ Generated: 2026-11-06 03:13:44
 
 ## Market Coverage Diagnostics
 
-- Daily Mentioned Market: National
-- Weekly Momentum Market: California
-- Weekly Momentum Driver: 기관 자본 흐름, financing / refinancing 부담, 개발 / 인허가 activity
-- Total saved articles: 71
-- Market-signal article count: 32
-- Strategy-briefing article count: 40
+- Daily Mentioned Market: California
+- Weekly Momentum Market: Los Angeles / California
+- Weekly Momentum Driver: 공급 / 임대시장 압력, 개발 / 인허가 activity, financing / refinancing 부담
+- Total saved articles: 69
+- Market-signal article count: 33
+- Strategy-briefing article count: 39
 
 ## Representative Evidence
 
-- JLL Arranges $154.2M Loan for Refinancing of Long Island Apartment Community (REBusiness Online, New York): development continuation; entitlement persistence; large-scale refinance tied to strategy
-- Timberlane Partners Purchases Canopy Apartments in Everett, Washington for $82.7M (REBusiness Online, New York): JV or partnership activity; institutional acquisition behavior
-- Blackstone Provides $310M Bridge Loan for Nashville Mixed-Use Tower (Commercial Observer, Nashville / Tennessee): JV or partnership activity; large-scale refinance tied to strategy
-- Greystone Supplies $47M Freddie Mac Loan on Illinois Multifamily Acquisition (Commercial Observer, Other / Unknown): institutional acquisition behavior
-- JLL Arranges $25M Sale of FourNorth Apartments in Metro Chicago (REBusiness Online, Other / Unknown): institutional acquisition behavior
+- Timberlane Partners Spends $83M on WA Multifamily Community (Connect CRE Apartments, Seattle): JV or partnership activity; institutional acquisition behavior
+- Atlas Capital Snags Hell’s Kitchen Apartments for Reported $150M (Connect CRE, New York City / New York): institutional acquisition behavior
+- Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Texas (REBusiness Online, Texas): institutional acquisition behavior
+- Benedict Canyon Acquires Neighboring West Hollywood Properties (Connect CRE California, Los Angeles / California): institutional acquisition behavior
+- Northmarq Brokers Sale of 56-Unit Apartment Complex in Lawrence, Kansas (REBusiness Online, Other / Unknown): institutional acquisition behavior

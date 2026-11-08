@@ -1,8 +1,8 @@
 # LA Persistent Asset Watch Report
 
-Generated: 2026-11-07 02:35:04
+Generated: 2026-11-08 02:05:03
 
-- Total LA persistent asset watch items: 109
+- Total LA persistent asset watch items: 113
 
 ## Priority LA Asset Watch Items
 
@@ -10,12 +10,12 @@ Generated: 2026-11-07 02:35:04
 - General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Hollywood, Unknown Stage, Track repeat project updates.
 - Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties: Los Angeles, Delivery / Opening, Track repeat project updates.
 - Entitlement / Permitting - Santa Monica / California - Fresh renderings for Santa Monica apartments at 1338 5th St.: Santa Monica, Unknown Stage, Track repeat project updates.
-- Disposition / Exit - California - Marcus & Millichap Brokers Value-Add Multifamily Property Near University of California Da...: California, Unknown Stage, Track repeat project updates.
 - General Project Signal - Atlanta / Georgia - Greystar, Vantage Acquire Chamblee Property for 340-Unit Multifamily Community: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
-- Disposition / Exit - Santa Monica / California - Marcus & Millichap Brokers $7.2M Sale of 22-Unit Multifamily Property in Santa Monica Cali...: Santa Monica, Unknown Stage, Track repeat project updates.
+- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: California, Unknown Stage, Track repeat project updates.
 - JV / Partnership - California - Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durha...: California, Unknown Stage, Track repeat project updates.
 - Acquisition - Texas - Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Tex...: Los Angeles, Unknown Stage, Track repeat project updates.
-- Development Start - California - Lincoln Property Company & McCourt Partners ElevenOneEleven Breaks Ground in Culver City C...: Culver City, Unknown Stage, Track repeat project updates.
+- JV / Partnership - California - 377 apartments rise next to Brea Mall: Southern California, Unknown Stage, Track repeat project updates.
+- Entitlement / Permitting - Dallas / Texas - Trammell Crow Building 248 McKinney Apartment Units, 3 Hotels: Los Angeles, Vertical Construction, Track repeat project updates.
 
 ## Koreatown / Wilshire Persistent Assets
 
@@ -49,6 +49,7 @@ Generated: 2026-11-07 02:35:04
 - Entitlement / Permitting - Dallas / Texas - Trammell Crow Building 248 McKinney Apartment Units, 3 Hotels: Los Angeles, Vertical Construction, Track repeat project updates.
 - Benedict Canyon Acquires Neighboring West Hollywood Properties: Los Angeles, Delivery / Opening, Track repeat project updates.
 - Entitlement / Permitting - Dallas / Texas - Trammell Crow Building 248 McKinney Apartment Units, 3 Hotels: Los Angeles, Delivery / Opening, Track repeat project updates.
+- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: Los Angeles, Construction Started, Track repeat project updates.
 
 ## Recommended Local Follow-up Actions
 
@@ -56,7 +57,7 @@ Generated: 2026-11-07 02:35:04
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Entitlement / Permitting - Santa Monica / California - Fresh renderings for Santa Monica apartments at 1338 5th St..
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Marcus & Millichap Brokers Value-Add Multifamily Property Near University of California Da....
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Atlanta / Georgia - Greystar, Vantage Acquire Chamblee Property for 340-Unit Multifamily Community.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
 - Monitor for repeated project updates: Entitlement / Permitting - California - Affordable housing on the rise at 3990 S. Wade. St. in Mar Vista.
 - Monitor for repeated project updates: Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood.

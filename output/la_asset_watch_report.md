@@ -1,8 +1,8 @@
 # LA / Southern California Asset Watch Report
 
-Generated: 2026-11-07 02:35:02
+Generated: 2026-11-08 02:05:01
 
-- Total LA / Southern California asset watch items: 51
+- Total LA / Southern California asset watch items: 52
 
 ## Top LA Site-Level Opportunities
 
@@ -62,10 +62,10 @@ Generated: 2026-11-07 02:35:02
 - General Project Signal - Atlanta / Georgia - Greystar, Vantage Acquire Chamblee Property for 340-Unit Multifamily Community: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
 - General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
 - Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties: Los Angeles, Lease-Up / Delivery, la_asset_opportunity_score 100.
-- Disposition / Exit - Santa Monica / California - Marcus & Millichap Brokers $7.2M Sale of 22-Unit Multifamily Property in Santa Monica Cali...: Los Angeles, General Asset Signal, la_asset_opportunity_score 98.
 - Zoning Worksheet Filed for Multifamily Building at 425 W Macarthur Boulevard in Oakland: Los Angeles, Entitlement Play, la_asset_opportunity_score 97.
 - JV / Partnership - California - Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durha...: Los Angeles, General Asset Signal, la_asset_opportunity_score 96.
 - Acquisition - Texas - Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Tex...: Los Angeles, General Asset Signal, la_asset_opportunity_score 96.
+- 123 homes planned at 902 W. Washington Blvd. in University Park: Los Angeles, Acquisition / Site Control, la_asset_opportunity_score 94.
 
 ## Recommended LA Asset Follow-up Actions
 
@@ -82,9 +82,9 @@ Generated: 2026-11-07 02:35:02
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 74
+- Lifecycle records: 78
 - LA lifecycle watch items: 51
-- Stage mix: Delivery / Opening: 5, Site Acquisition / Site Control: 8, Unknown Stage: 48, Refinancing / Recapitalization: 6, Vertical Construction: 1
+- Stage mix: Delivery / Opening: 5, Site Acquisition / Site Control: 8, Unknown Stage: 51, Refinancing / Recapitalization: 6, Construction Started: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -92,8 +92,8 @@ Generated: 2026-11-07 02:35:02
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 74
-- Newly detected projects: 33
+- Lifecycle transitions analyzed: 78
+- Newly detected projects: 10
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 50
@@ -104,10 +104,10 @@ Generated: 2026-11-07 02:35:02
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 610
-- Canonical projects: 147
-- Duplicate project clusters: 102
-- Persistent assets tracked: 147
-- LA persistent asset watch items: 109
+- Raw project references: 629
+- Canonical projects: 157
+- Duplicate project clusters: 105
+- Persistent assets tracked: 157
+- LA persistent asset watch items: 113
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

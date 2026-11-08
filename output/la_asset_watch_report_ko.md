@@ -1,6 +1,6 @@
 # 한국어 LA 자산 / 프로젝트 Watch
 
-- 생성 시각: 2026-11-07 02:34:33
+- 생성 시각: 2026-11-08 02:04:34
 - 참고 원문 파일: `la_asset_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -31,7 +31,7 @@
 - General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Hollywood, 아파트, 점수 98 (Unknown Stage; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
 - Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties: Los Angeles, 아파트, 점수 98 (Delivery / Opening; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
 - Entitlement / Permitting - Santa Monica / California - Fresh renderings for Santa Monica apartments at 1338 5th St.: Santa Monica, 어포더블 하우징, 점수 97 (Unknown Stage; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
-- Disposition / Exit - California - Marcus & Millichap Brokers Value-Add Multifamily Property Near University of California Da...: California, 아파트, 점수 96 (Unknown Stage; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
+- General Project Signal - Atlanta / Georgia - Greystar, Vantage Acquire Chamblee Property for 340-Unit Multifamily Community: Los Angeles, 아파트, 점수 96 (Site Acquisition / Site Control; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
 
 ## 추천 현지 확인 사항
 

@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-11-07 02:34:33
+Generated: 2026-11-08 02:04:34
 
 ## Top Strategic Relevance Articles
 
 - 86 / richness 85: Timberlane Partners Spends $83M on WA Multifamily Community (Connect CRE Apartments, Seattle) - JV or partnership activity; institutional acquisition behavior
 - 74 / richness 100: Benedict Canyon Acquires Neighboring West Hollywood Properties (Connect CRE California, Los Angeles / California) - institutional acquisition behavior
 - 74 / richness 100: A&C Properties Sells Grocery-Anchored Retail Portfolio in Arizona for $108.7M (REBusiness Online, Phoenix / Arizona) - institutional acquisition behavior
+- 71 / richness 90: JLL Arranges $10.732M Sale and $6.7M Financing of Seattle Apartment Community (Yield PRO, Seattle) - institutional acquisition behavior
 - 70 / richness 85: Atlas Capital Snags Hell’s Kitchen Apartments for Reported $150M (Connect CRE, New York City / New York) - institutional acquisition behavior
 - 70 / richness 85: Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Texas (REBusiness Online, Texas) - institutional acquisition behavior
 - 70 / richness 75: Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower (REBusiness Online, New York City / New York) - JV or partnership activity; large-scale refinance tied to strategy; classification confidence penalty
 - 66 / richness 60: Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community (Connect CRE Apartments, Dallas / Texas) - development continuation
 - 64 / richness 75: JLL Arranges $67.3M Loan for Refinancing of Metro Boston Apartment Building (REBusiness Online, Other / Unknown) - large-scale refinance tied to strategy
 - 63 / richness 55: Northmarq Brokers Sale of 56-Unit Apartment Complex in Lawrence, Kansas (REBusiness Online, Other / Unknown) - institutional acquisition behavior
-- 61 / richness 45: Affordable housing planned at 1135 N. Westmoreland Ave. in East Hollywood (Urbanize LA, Los Angeles / California) - sponsor expansion; entitlement persistence; limited article: title/lead-based review needed; classification confidence penalty
 
 ## Low Quality Evidence Candidates
 
@@ -42,8 +42,8 @@ Generated: 2026-11-07 02:34:33
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 22
-- Development / sponsor behavior articles: 34
+- Financing-oriented articles: 23
+- Development / sponsor behavior articles: 33
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

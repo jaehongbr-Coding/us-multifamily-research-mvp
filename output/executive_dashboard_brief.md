@@ -1,10 +1,10 @@
 # Executive Dashboard Brief
 
-Generated: 2026-11-07 02:34:33
+Generated: 2026-11-08 02:04:34
 
 ## Executive Snapshot
 
-- Total articles reviewed: 69
+- Total articles reviewed: 70
 - High-confidence signals: 48
 - Institutional-grade signals: 18
 - Opportunities: 47
@@ -40,15 +40,15 @@ Generated: 2026-11-07 02:34:33
 - Acquires 280-Unit Buckhead Apartment Community ParkProperty Capital: Fading Action: Track capital flow pattern and related relationships.
 - Alliance Residential: Fading Action: Track capital flow pattern and related relationships.
 - Arcus Real Estate Capital: Fading Action: Track capital flow pattern and related relationships.
+- JLL: Selective residential growth Action: Track JV and capital partner activity.
 - Wood Partners: Institutional-backed regional expansion Action: Track JV and capital partner activity.
-- Bridge Investment Group: California / LA strategic positioning Action: Track JV and capital partner activity.
 
 ## Opportunity / Distress Watch
 
+- Acquisition Opportunity: Acquisition Opportunity may create a pricing, capital, partnership, or pipeline opening in Seattle. Action: Add to executive opportunity review.
 - Construction Financing Gap: Construction Financing Gap may create a pricing, capital, partnership, or pipeline opening in Phoenix / Arizona. Action: Add to executive opportunity review.
 - Refinancing Gap: Refinancing Gap may create a pricing, capital, partnership, or pipeline opening in Other / Unknown. Action: Add to executive opportunity review.
 - JV / Partnership Gap: JV / Partnership Gap may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
-- LA / California Entitlement Opportunity: LA / California Entitlement Opportunity may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
 - LA / California Entitlement Opportunity: LA / California Entitlement Opportunity may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
 
 ## Development Lifecycle Watch

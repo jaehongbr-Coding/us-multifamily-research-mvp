@@ -1,6 +1,6 @@
 # 한국어 LA / California 인허가 Watch
 
-- 생성 시각: 2026-11-07 02:34:33
+- 생성 시각: 2026-11-08 02:04:34
 - 참고 원문 파일: `la_entitlement_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -21,7 +21,6 @@
 
 ## CEQA / Environmental Review
 
-- 3 new apartment projects open their doors: Connecticut, 아파트, 점수 65 (CEQA risk)
 - Dallas Office Market on Rise: Dallas / Texas, 일반 주거, 점수 65 (CEQA risk)
 - Terra, Fortune Ink $220M Key Biscayne Condo Financing: Miami / Florida, 아파트, 점수 65 (CEQA risk)
 

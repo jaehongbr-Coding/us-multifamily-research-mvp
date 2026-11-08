@@ -1,8 +1,8 @@
 # Entitlement Intelligence Report
 
-Generated: 2026-11-07 02:35:01
+Generated: 2026-11-08 02:05:00
 
-- Total entitlement signals detected: 10
+- Total entitlement signals detected: 9
 
 ## Top Entitlement Opportunities
 
@@ -10,7 +10,6 @@ Generated: 2026-11-07 02:35:01
 - Entitlement Approval in California: Unknown Stage, entitlement_opportunity_score 45. Track local planning filings, approval body, sponsor, and entitlement precedent.
 - CEQA / Environmental Review in Los Angeles: Under Review, entitlement_opportunity_score 35. Monitor CEQA timeline, appeals, and environmental review milestones.
 - Entitlement Approval in Santa Monica: Unknown Stage, entitlement_opportunity_score 35. Track construction-ready pipeline and comparable sponsor execution.
-- CEQA / Environmental Review in Other / Unknown: Under Review, entitlement_opportunity_score 30. Monitor CEQA timeline, appeals, and environmental review milestones.
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Santa Monica: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Zoning / Rezoning in Los Angeles: Early Planning, entitlement_opportunity_score 30. Monitor entitlement status for repeated confirmation.
@@ -19,7 +18,6 @@ Generated: 2026-11-07 02:35:01
 
 ## Top Entitlement Risks
 
-- CEQA / Environmental Review in Other / Unknown: Under Review, entitlement_risk_score 65. Monitor CEQA timeline, appeals, and environmental review milestones.
 - CEQA / Environmental Review in Los Angeles: Under Review, entitlement_risk_score 65. Monitor CEQA timeline, appeals, and environmental review milestones.
 - CEQA / Environmental Review in Los Angeles: Under Review, entitlement_risk_score 65. Monitor CEQA timeline, appeals, and environmental review milestones.
 - Entitlement Approval in California: Unknown Stage, entitlement_risk_score 38. Track local planning filings, approval body, sponsor, and entitlement precedent.
@@ -45,7 +43,6 @@ Generated: 2026-11-07 02:35:01
 
 ## CEQA / Environmental Review Signals
 
-- CEQA / Environmental Review in Other / Unknown: Under Review, entitlement_risk_score 65. Monitor CEQA timeline, appeals, and environmental review milestones.
 - CEQA / Environmental Review in Los Angeles: Under Review, entitlement_risk_score 65. Monitor CEQA timeline, appeals, and environmental review milestones.
 - CEQA / Environmental Review in Los Angeles: Under Review, entitlement_risk_score 65. Monitor CEQA timeline, appeals, and environmental review milestones.
 
@@ -67,7 +64,6 @@ Generated: 2026-11-07 02:35:01
 
 ## Recommended Entitlement Follow-up Actions
 
-- Monitor CEQA timeline, appeals, and environmental review milestones: CEQA / Environmental Review in Other / Unknown.
 - Monitor CEQA timeline, appeals, and environmental review milestones: CEQA / Environmental Review in Los Angeles.
 - Monitor CEQA timeline, appeals, and environmental review milestones: CEQA / Environmental Review in Los Angeles.
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Dallas.
@@ -75,13 +71,14 @@ Generated: 2026-11-07 02:35:01
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Los Angeles.
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Santa Monica.
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Santa Monica.
+- Monitor entitlement status for repeated confirmation: Zoning / Rezoning in Los Angeles.
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 74
+- Lifecycle records: 78
 - LA lifecycle watch items: 51
-- Stage mix: Delivery / Opening: 5, Site Acquisition / Site Control: 8, Unknown Stage: 48, Refinancing / Recapitalization: 6, Vertical Construction: 1
+- Stage mix: Delivery / Opening: 5, Site Acquisition / Site Control: 8, Unknown Stage: 51, Refinancing / Recapitalization: 6, Construction Started: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

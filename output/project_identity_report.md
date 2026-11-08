@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-11-07 02:35:04
+Generated: 2026-11-08 02:05:03
 
-- Total raw project references: 610
-- Total canonical projects: 147
-- Duplicate project clusters: 102
-- High-confidence project identities: 610
+- Total raw project references: 629
+- Total canonical projects: 157
+- Duplicate project clusters: 105
+- High-confidence project identities: 629
 - Low-confidence identities needing review: 0
-- LA / California project references: 437
+- LA / California project references: 460
 
 ## Top Repeated Projects
 
-- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 38 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 38 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 38 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 38 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 38 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 38 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 38 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 38 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 38 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 38 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: 44 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: 44 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: 44 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: 44 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: 44 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: 44 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: 44 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: 44 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: 44 occurrence(s), confidence 80.
+- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: 44 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

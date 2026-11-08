@@ -1,10 +1,10 @@
 # Deal Fingerprint Report
 
-Generated: 2026-11-07 02:34:38
+Generated: 2026-11-08 02:04:39
 
-- Total canonical deals detected: 53
+- Total canonical deals detected: 55
 - Duplicate clusters detected: 0
-- California / LA recurring project count: 8
+- California / LA recurring project count: 6
 
 ## Largest Duplicate Clusters
 
@@ -32,12 +32,11 @@ Generated: 2026-11-07 02:34:38
 - JV / Partnership - Wood Partners - California: California, 1 article(s), 1 source(s), confidence 70.
 - Entitlement / Permitting - Unknown - California: California, 1 article(s), 1 source(s), confidence 65.
 - JV / Partnership - Unknown - California: California, 1 article(s), 1 source(s), confidence 65.
-- Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
-- Development Start - Lincoln Property Company - California: California, 1 article(s), 1 source(s), confidence 70.
 - Development Start - Unknown - California: California, 1 article(s), 1 source(s), confidence 55.
 
 ## Recurring GP / Lender Relationships
 
+- Acquisition - JLL - Seattle: Seattle, 1 article(s), 1 source(s), confidence 100.
 - Construction Financing - JLL - JLL - Sun Belt: Phoenix / Arizona, 1 article(s), 1 source(s), confidence 100.
 - Acquisition - CBRE - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - Fannie Mae - Texas: Texas, 1 article(s), 1 source(s), confidence 90.
@@ -47,10 +46,10 @@ Generated: 2026-11-07 02:34:38
 - Refinancing - JLL - JLL - Sun Belt: Phoenix / Arizona, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
 - Construction Financing - Lincoln Property Company - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 80.
-- Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
 
 ## Most Frequently Referenced Developments
 
+- Acquisition - JLL - Seattle: Seattle, 1 article(s), 1 source(s), confidence 100.
 - Construction Financing - JLL - JLL - Sun Belt: Phoenix / Arizona, 1 article(s), 1 source(s), confidence 100.
 - Acquisition - CBRE - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - Fannie Mae - Texas: Texas, 1 article(s), 1 source(s), confidence 90.
@@ -60,10 +59,10 @@ Generated: 2026-11-07 02:34:38
 - Refinancing - JLL - JLL - Sun Belt: Phoenix / Arizona, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
 - Construction Financing - Lincoln Property Company - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 80.
-- Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
 
 ## Highest-Confidence Canonical Events
 
+- Acquisition - JLL - Seattle: Seattle, 1 article(s), 1 source(s), confidence 100.
 - Construction Financing - JLL - JLL - Sun Belt: Phoenix / Arizona, 1 article(s), 1 source(s), confidence 100.
 - Acquisition - CBRE - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - Fannie Mae - Texas: Texas, 1 article(s), 1 source(s), confidence 90.
@@ -73,4 +72,3 @@ Generated: 2026-11-07 02:34:38
 - Refinancing - JLL - JLL - Sun Belt: Phoenix / Arizona, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
 - Construction Financing - Lincoln Property Company - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 80.
-- Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.

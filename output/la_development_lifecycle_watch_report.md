@@ -1,15 +1,16 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-11-07 02:35:04
+Generated: 2026-11-08 02:05:03
 
 - Total LA lifecycle watch items: 51
 
 ## LA Lifecycle Stage Distribution
 
-- Unknown Stage: 34
+- Unknown Stage: 32
 - Site Acquisition / Site Control: 6
 - Delivery / Opening: 4
 - Early Site Signal: 3
+- Construction Started: 2
 - Entitlement Under Review: 2
 - Vertical Construction: 1
 - Refinancing / Recapitalization: 1
@@ -48,7 +49,9 @@ Generated: 2026-11-07 02:35:04
 
 ## Construction-Ready LA Project Watch
 
+- Groundbreaking For Liberation Park Residences, Oakland: Construction Started, Monitor only, opportunity 90.
 - Development Start - Dallas / Texas - Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community: Vertical Construction, Monitor only, opportunity 81.
+- Development Start - Other / Unknown - Groundbreaking For Liberation Park Residences, Oakland: Construction Started, Monitor only, opportunity 75.
 
 ## Recommended LA Lifecycle Follow-up Actions
 
@@ -65,8 +68,8 @@ Generated: 2026-11-07 02:35:04
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 74
-- Newly detected projects: 33
+- Lifecycle transitions analyzed: 78
+- Newly detected projects: 10
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 50
@@ -77,10 +80,10 @@ Generated: 2026-11-07 02:35:04
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 610
-- Canonical projects: 147
-- Duplicate project clusters: 102
-- Persistent assets tracked: 147
-- LA persistent asset watch items: 109
+- Raw project references: 629
+- Canonical projects: 157
+- Duplicate project clusters: 105
+- Persistent assets tracked: 157
+- LA persistent asset watch items: 113
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

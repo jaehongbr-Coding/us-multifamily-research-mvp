@@ -1,18 +1,18 @@
 # Routing Balance Report
 
 - Market Intelligence count: 13
-- Development Activity count: 47
+- Development Activity count: 48
 - GP / Capital Activity count: 7
 - Excluded count: 2
 - Rent/Demand candidate count: 5
-- Project anchor article count: 42
+- Project anchor article count: 44
 - Development-excluded transaction article count: 10
 - Low-value promotional excluded count: 2
 - Site / Parcel positive candidates count: 4
 - Site / Parcel excluded transaction count: 0
 - Source missing count: 0
 - Market missing count: 0
-- Stage missing count: 50
+- Stage missing count: 51
 
 ## Rent/Demand Titles
 - Multifamily Absorption Rate Remains Below 50%
@@ -35,6 +35,7 @@
 - None
 
 ## Sample Validation
+- JLL Arranges $10.732M Sale and $6.7M Financing of Seattle Apartment Community | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 36-unit; project/asset term: community)
 - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 344-unit; execution milestone: groundbreaking; project/asset term: development; project financing tied to anchor: construction financing)
 - Construction goes vertical for affordable housing at 21155 Califa St. in Warner Center | Development Activity | rent_demand=No | development_project_anchor: Project / Asset (address/street: 21155 califa st; project/asset term: development)
 - Fresh renderings for Santa Monica apartments at 1338 5th St. | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (unit/site count: 110-unit; address/street: 1338 5th st; project/asset term: development)
@@ -44,4 +45,3 @@
 - 377 apartments rise next to Brea Mall | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 377 apartments; project/asset term: development)
 - Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 43-story; project/asset term: apartment tower)
 - JLL Arranges $67.3M Loan for Refinancing of Metro Boston Apartment Building | GP / Capital Activity | rent_demand=No | property-level financing, lender, refinancing, or recapitalization signal detected
-- Northmarq Brokers Sale of 56-Unit Apartment Complex in Lawrence, Kansas | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 56-unit; project/asset term: apartments)

@@ -1,33 +1,33 @@
 # Residential Sector Coverage Report
 
-Generated: 2026-11-07 02:34:38
+Generated: 2026-11-08 02:04:39
 
 - Active residential sectors: 6
 
 ## Sector Coverage Summary
 
-- Apartment: 33 article(s), 19 high-priority, 25 deal/project, Core Strategy Sector.
-- Affordable Housing: 11 article(s), 8 high-priority, 10 deal/project, Strategic Expansion Sector.
-- Multifamily: 16 article(s), 3 high-priority, 9 deal/project, Core Strategy Sector.
+- Apartment: 33 article(s), 19 high-priority, 26 deal/project, Core Strategy Sector.
+- Affordable Housing: 12 article(s), 9 high-priority, 11 deal/project, Strategic Expansion Sector.
+- Multifamily: 17 article(s), 3 high-priority, 10 deal/project, Core Strategy Sector.
 - Student Housing: 2 article(s), 1 high-priority, 2 deal/project, Strategic Expansion Sector.
 - Mixed-Use Residential: 3 article(s), 3 high-priority, 3 deal/project, Monitoring Sector.
-- General Residential: 4 article(s), 0 high-priority, 4 deal/project, Monitoring Sector.
+- General Residential: 3 article(s), 0 high-priority, 3 deal/project, Monitoring Sector.
 
 ## Top Residential Sectors By Relevance
 
-- Apartment: Core Strategy Sector, average relevance 85.1, dominant market Other / Unknown.
-- Affordable Housing: Strategic Expansion Sector, average relevance 87.2, dominant market Los Angeles / California.
+- Apartment: Core Strategy Sector, average relevance 85.9, dominant market Other / Unknown.
+- Affordable Housing: Strategic Expansion Sector, average relevance 88.1, dominant market Los Angeles / California.
 - Multifamily: Core Strategy Sector, average relevance 62.5, dominant market Other / Unknown.
 - Student Housing: Strategic Expansion Sector, average relevance 68.5, dominant market Other / Unknown.
-- Mixed-Use Residential: Monitoring Sector, average relevance 88.0, dominant market Los Angeles / California.
-- General Residential: Monitoring Sector, average relevance 57.5, dominant market Phoenix / Arizona.
+- Mixed-Use Residential: Monitoring Sector, average relevance 85.7, dominant market Los Angeles / California.
+- General Residential: Monitoring Sector, average relevance 60.0, dominant market Phoenix / Arizona.
 - BTR / Single-Family Rental: Monitoring Sector, average relevance 0, dominant market None detected.
 - Manufactured Housing: Monitoring Sector, average relevance 0, dominant market None detected.
 
 ## Multifamily / Apartment
 
-- Apartment: 33 article(s), 25 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
-- Multifamily: 16 article(s), 9 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
+- Apartment: 33 article(s), 26 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
+- Multifamily: 17 article(s), 10 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
 
 ## BTR / SFR
 
@@ -43,7 +43,7 @@ Generated: 2026-11-07 02:34:38
 
 ## Affordable / Workforce Housing
 
-- Affordable Housing: 11 article(s), 10 deal/project signal(s), Strategic Expansion Sector. Add to sector watchlist.
+- Affordable Housing: 12 article(s), 11 deal/project signal(s), Strategic Expansion Sector. Add to sector watchlist.
 - Workforce Housing: 0 article(s), 0 deal/project signal(s), Monitoring Sector. Add to sector watchlist.
 
 ## Office-to-Residential Conversion

@@ -1,21 +1,21 @@
 # GP Routing Quality Report
 
-Generated: 2026-11-07 02:34:33
+Generated: 2026-11-08 02:04:34
 
 ## Summary
-- Total GP / Capital candidates: 36
-- Selected GP / Capital articles: 20
+- Total GP / Capital candidates: 40
+- Selected GP / Capital articles: 22
 - Debt Financing count: 7
 - Refinancing count: 3
 - Construction Financing count: 4
 - Acquisition Financing count: 1
 - Equity Transaction count: 0
-- Operator Activity count: 0
-- Other / Unknown market count: 28
+- Operator Activity count: 1
+- Other / Unknown market count: 30
 
 ## Routing Regression Summary
 - Market Intelligence routed articles: 13
-- Development Activity routed articles: 47
+- Development Activity routed articles: 48
 - GP / Capital Activity routed articles: 7
 - Market-protected research / macro / supply articles: 3
 - Approval / Entitlement development rows: 0
@@ -24,20 +24,22 @@ Generated: 2026-11-07 02:34:33
 - Routing rule: approval / entitlement wording takes priority over Site / Parcel when both appear.
 
 ## Activity Type Distribution
-- disposition_exit: 13
+- disposition_exit: 16
 - debt_financing: 7
 - construction_financing: 4
 - joint_venture: 4
 - acquisition: 4
 - refinancing: 3
 - acquisition_financing: 1
+- asset_management_operator_activity: 1
 
 ## Excluded from GP / Capital with Reason
-- Marcus & Millichap Brokers Value-Add Multifamily Property Near University of California Davis | Yield PRO | asset strategy / development routing
+- No obvious GP / Capital keyword article was excluded.
 
 ## Top Unresolved Market Extraction Examples
 - JLL Arranges $67.3M Loan for Refinancing of Metro Boston Apartment Building | REBusiness Online | no city, state, or market keyword detected
 - Northmarq Brokers Sale of 56-Unit Apartment Complex in Lawrence, Kansas | REBusiness Online | no city, state, or market keyword detected
+- Groundbreaking For Liberation Park Residences, Oakland | SF YIMBY | no city, state, or market keyword detected
 - Zoning Worksheet Filed for Multifamily Building at 425 W Macarthur Boulevard in Oakland | SF YIMBY | no city, state, or market keyword detected
 - Marcus & Millichap Arranges Sale of 34-Unit Multifamily Property in Minneapolis for $3.15M | Yield PRO | no city, state, or market keyword detected
 - Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
@@ -50,9 +52,9 @@ Generated: 2026-11-07 02:34:33
 - Q3 multifamily sales jumped 139% on Vivmark deal | Multifamily Dive | no city, state, or market keyword detected
 - Second Quarter 2026 Multifamily Construction Data | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Why apartment firms see value in rent now, pay later programs | Multifamily Dive | no city, state, or market keyword detected
-- Rent Prices Continue to Rise, While Absorption Remains Low | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 
 ## Sample Selected GP / Capital Articles
+- JLL Arranges $10.732M Sale and $6.7M Financing of Seattle Apartment Community | disposition_exit | Seattle | Yield PRO
 - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use | construction_financing | Los Angeles / California | Connect CRE
 - Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower | joint_venture | New York City / New York | REBusiness Online
 - JLL Arranges $67.3M Loan for Refinancing of Metro Boston Apartment Building | refinancing | Other / Unknown | REBusiness Online
@@ -67,4 +69,3 @@ Generated: 2026-11-07 02:34:33
 - Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Texas | acquisition_financing | Texas | REBusiness Online
 - Q3 multifamily sales jumped 139% on Vivmark deal | disposition_exit | Other / Unknown | Multifamily Dive
 - Why apartment firms see value in rent now, pay later programs | debt_financing | Other / Unknown | Multifamily Dive
-- Multifamily Refinancing Squeeze: 41% Higher Costs, $6.8B Equity Gap | refinancing | National | Connect CRE Apartments

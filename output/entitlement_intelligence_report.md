@@ -1,6 +1,6 @@
 # Entitlement Intelligence Report
 
-Generated: 2026-11-08 02:05:00
+Generated: 2026-11-09 02:25:11
 
 - Total entitlement signals detected: 9
 
@@ -12,7 +12,7 @@ Generated: 2026-11-08 02:05:00
 - Entitlement Approval in Santa Monica: Unknown Stage, entitlement_opportunity_score 35. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Santa Monica: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
-- Zoning / Rezoning in Los Angeles: Early Planning, entitlement_opportunity_score 30. Monitor entitlement status for repeated confirmation.
+- Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Unknown: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - CEQA / Environmental Review in Los Angeles: Under Review, entitlement_opportunity_score 20. Monitor CEQA timeline, appeals, and environmental review milestones.
 
@@ -24,9 +24,9 @@ Generated: 2026-11-08 02:05:00
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_risk_score 38. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Santa Monica: Unknown Stage, entitlement_risk_score 38. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Santa Monica: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Los Angeles: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Unknown: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Dallas: Approved / Entitled, entitlement_risk_score 20. Track construction-ready pipeline and comparable sponsor execution.
-- Zoning / Rezoning in Los Angeles: Early Planning, entitlement_risk_score 20. Monitor entitlement status for repeated confirmation.
 
 ## Planning / Approval Signals
 
@@ -35,6 +35,7 @@ Generated: 2026-11-08 02:05:00
 - Entitlement Approval in Santa Monica: Unknown Stage, entitlement_opportunity_score 35. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Santa Monica: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Unknown: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 
 ## Density Bonus / TOC Signals
@@ -71,14 +72,14 @@ Generated: 2026-11-08 02:05:00
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Los Angeles.
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Santa Monica.
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Santa Monica.
-- Monitor entitlement status for repeated confirmation: Zoning / Rezoning in Los Angeles.
+- Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Los Angeles.
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 78
-- LA lifecycle watch items: 51
-- Stage mix: Delivery / Opening: 5, Site Acquisition / Site Control: 8, Unknown Stage: 51, Refinancing / Recapitalization: 6, Construction Started: 2
+- Lifecycle records: 77
+- LA lifecycle watch items: 49
+- Stage mix: Delivery / Opening: 6, Site Acquisition / Site Control: 7, Unknown Stage: 47, Refinancing / Recapitalization: 9, Construction Started: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

@@ -1,27 +1,27 @@
 # Regional Intelligence Report
 
-Generated: 2026-11-08 02:04:39
+Generated: 2026-11-09 02:24:53
 
 ## Top 5 Markets By Relevance
 
-- California: Core Watch Market, 16 article(s), average relevance 90.8.
-- Los Angeles: Core Watch Market, 11 article(s), average relevance 93.8.
-- National / Other: General Monitoring, 30 article(s), average relevance 71.0.
+- California: Core Watch Market, 15 article(s), average relevance 90.7.
+- Los Angeles: Core Watch Market, 12 article(s), average relevance 92.4.
+- National / Other: General Monitoring, 30 article(s), average relevance 70.3.
 - New York: General Monitoring, 5 article(s), average relevance 91.8.
-- Southeast: Strategic Watch Market, 6 article(s), average relevance 83.0.
+- Southeast: Strategic Watch Market, 7 article(s), average relevance 85.4.
 
 ## LA / California Focus
 
-- California: 16 article(s), 9 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
-- Los Angeles: 11 article(s), 9 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
+- California: 15 article(s), 8 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
+- Los Angeles: 12 article(s), 8 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
 
 ## Sun Belt / Texas / Southeast
 
-- Southeast: 6 article(s), 1 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
-- Arizona: 4 article(s), 4 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
-- Phoenix: 4 article(s), 4 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
-- Florida: 3 article(s), 3 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
-- Texas: 4 article(s), 3 market signal(s), Strategic Watch Market. Monitor supply pipeline and concessions.
+- Southeast: 7 article(s), 2 market signal(s), Strategic Watch Market. Track institutional capital activity.
+- Arizona: 5 article(s), 4 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
+- Phoenix: 5 article(s), 4 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
+- Texas: 4 article(s), 3 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
+- Florida: 2 article(s), 2 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
 - Dallas: 3 article(s), 2 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
 
 ## Coastal Markets
@@ -31,7 +31,7 @@ Generated: 2026-11-08 02:04:39
 
 ## National Market Signals
 
-- National / Other: 30 article(s), 7 market signal(s), General Monitoring. Monitor supply pipeline and concessions.
+- National / Other: 30 article(s), 6 market signal(s), General Monitoring. Monitor supply pipeline and concessions.
 
 ## Deal / Project Intelligence
 
@@ -40,7 +40,6 @@ Market-level deal and project signals are available in `deal_pipeline_report.md`
 - California: Disposition / Exit, Entitlement / zoning watch.
 - California: JV / Partnership, GP partnership reference.
 - California: Entitlement / Permitting, Entitlement / zoning watch.
-- California: JV / Partnership, GP partnership reference.
 
 ## Relationship Graph Intelligence
 
@@ -74,9 +73,9 @@ Opportunity deduplication is available in `opportunity_deduplication_report.md`.
 
 - California: Track LA / California entitlement and zoning updates
 - Los Angeles: Track LA / California entitlement and zoning updates
-- Southeast: Watch GP / developer partnership opportunities
-- Seattle: Track institutional capital activity
+- Southeast: Track institutional capital activity
 - Arizona: Review development underwriting assumptions
 - Phoenix: Review development underwriting assumptions
+- Seattle: Track institutional capital activity
+- Texas: Review development underwriting assumptions
 - Florida: Review development underwriting assumptions
-- Texas: Monitor supply pipeline and concessions

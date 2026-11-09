@@ -1,6 +1,6 @@
 # 한국어 스트레스 / 부실 Watchlist
 
-- 생성 시각: 2026-11-08 02:04:34
+- 생성 시각: 2026-11-09 02:24:42
 - 참고 원문 파일: `distress_watchlist_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -9,11 +9,13 @@
 - refinancing stress: New York City / New York, 어포더블 하우징, 점수 64 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
 - refinancing stress: 기타 / 미확인, 아파트, 점수 64 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
 - refinancing stress: Phoenix / Arizona, 일반 주거, 점수 63 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
+- refinancing stress: Washington DC, 아파트, 점수 63 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
 - refinancing stress: 전국, 멀티패밀리, 점수 51 (Monitor for repeated distress signals)
 
 ## 공사금융 갭
 
 - construction loan gap: Phoenix / Arizona, 아파트, 점수 67 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
+- construction loan gap: Nashville / Tennessee, 아파트, 점수 63 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
 - construction loan gap: Los Angeles / California, 주거복합, 점수 61 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
 - construction loan gap: 기타 / 미확인, 학생주택, 점수 58 (Monitor for repeated distress signals)
 - construction loan gap: 기타 / 미확인, 어포더블 하우징, 점수 49 (Monitor for repeated distress signals)
@@ -23,7 +25,9 @@
 - construction loan gap: Phoenix / Arizona, 아파트, 점수 67 (High Distress Watch)
 - refinancing stress: New York City / New York, 어포더블 하우징, 점수 64 (High Distress Watch)
 - refinancing stress: 기타 / 미확인, 아파트, 점수 64 (High Distress Watch)
+- construction loan gap: Nashville / Tennessee, 아파트, 점수 63 (High Distress Watch)
 - refinancing stress: Phoenix / Arizona, 일반 주거, 점수 63 (High Distress Watch)
+- refinancing stress: Washington DC, 아파트, 점수 63 (High Distress Watch)
 - construction loan gap: Los Angeles / California, 주거복합, 점수 61 (High Distress Watch)
 - construction loan gap: 기타 / 미확인, 학생주택, 점수 58 (Monitor)
 - refinancing stress: 전국, 멀티패밀리, 점수 51 (Monitor)

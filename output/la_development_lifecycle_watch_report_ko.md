@@ -1,6 +1,6 @@
 # 한국어 LA 개발 단계 Watch
 
-- 생성 시각: 2026-11-08 02:04:34
+- 생성 시각: 2026-11-09 02:24:42
 - 참고 원문 파일: `la_development_lifecycle_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -21,14 +21,14 @@
 
 - Benedict Canyon Acquires Neighboring West Hollywood Properties: Los Angeles, 아파트, 점수 80 (Mature / Operating; Mature)
 - Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties: Los Angeles, 아파트, 점수 80 (Mature / Operating; Mature)
+- Groundbreaking For Liberation Park Residences, Oakland: Los Angeles, 어포더블 하우징, 점수 79 (Same Stage Persistence; Stable)
 - Development Start - Dallas / Texas - Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community: Los Angeles, 아파트, 점수 78 (Same Stage Persistence; Stable)
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: California, 아파트, 점수 78 (Mature / Operating; Mature)
+- Development Start - Other / Unknown - Groundbreaking For Liberation Park Residences, Oakland: Los Angeles, 어포더블 하우징, 점수 77 (Same Stage Persistence; Stable)
 - Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community: Los Angeles, 아파트, 점수 77 (Mature / Operating; Mature)
-- Groundbreaking For Liberation Park Residences, Oakland: Los Angeles, 어포더블 하우징, 점수 74 (Newly Detected Project; Unknown)
-- Development Start - Other / Unknown - Groundbreaking For Liberation Park Residences, Oakland: Los Angeles, 어포더블 하우징, 점수 72 (Newly Detected Project; Unknown)
+- Grand Opening For La Vista Apartments, Hayward: Los Angeles, 어포더블 하우징, 점수 71 (Newly Detected Project; Unknown)
 - Construction Financing - Other / Unknown - HUD launches ‘express lane’ for LIHTC multifamily construction loans: Los Angeles, 어포더블 하우징, 점수 61 (Same Stage Persistence; Stable)
 - Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use: Los Angeles, 주거복합, 점수 50 (Unknown Transition; Unknown)
-- Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: California, 아파트, 점수 50 (Unknown Transition; Unknown)
 
 ## 인허가 / 착공 / 리스업 타이밍
 

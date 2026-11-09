@@ -1,6 +1,6 @@
 # LA / California Entitlement Watch Report
 
-Generated: 2026-11-08 02:05:00
+Generated: 2026-11-09 02:25:11
 
 - Total LA / California entitlement watch items: 8
 
@@ -12,7 +12,7 @@ Generated: 2026-11-08 02:05:00
 - Santa Monica: Entitlement Approval, Unknown Stage, score 35. Monitor local sponsor activity.
 - Los Angeles: Entitlement Approval, Unknown Stage, score 30. Watch affordable housing requirement.
 - Santa Monica: Entitlement Approval, Unknown Stage, score 30. Watch affordable housing requirement.
-- Los Angeles: Zoning / Rezoning, Early Planning, score 30. Monitor local sponsor activity.
+- Los Angeles: Entitlement Approval, Unknown Stage, score 30. Track entitlement precedent.
 - Los Angeles: CEQA / Environmental Review, Under Review, score 20. Monitor local sponsor activity.
 
 ## Top LA / California Entitlement Risks
@@ -23,8 +23,8 @@ Generated: 2026-11-08 02:05:00
 - Los Angeles: Entitlement Approval, Unknown Stage, score 38. Watch affordable housing requirement.
 - Santa Monica: Entitlement Approval, Unknown Stage, score 38. Watch affordable housing requirement.
 - Santa Monica: Entitlement Approval, Unknown Stage, score 28. Monitor local sponsor activity.
+- Los Angeles: Entitlement Approval, Unknown Stage, score 28. Track entitlement precedent.
 - Dallas: Entitlement Approval, Approved / Entitled, score 20. Benchmark permitting timeline.
-- Los Angeles: Zoning / Rezoning, Early Planning, score 20. Monitor local sponsor activity.
 
 ## Submarket Watch Table
 
@@ -43,7 +43,7 @@ Generated: 2026-11-08 02:05:00
 - Los Angeles: Entitlement Approval, Unknown Stage, score 45. Watch affordable housing requirement.
 - Santa Monica: Entitlement Approval, Unknown Stage, score 45. Watch affordable housing requirement.
 - Santa Monica: Entitlement Approval, Unknown Stage, score 44. Monitor local sponsor activity.
-- Los Angeles: Zoning / Rezoning, Early Planning, score 40. Monitor local sponsor activity.
+- Los Angeles: Entitlement Approval, Unknown Stage, score 42. Track entitlement precedent.
 - Los Angeles: CEQA / Environmental Review, Under Review, score 38. Monitor local sponsor activity.
 
 ## Office-to-Residential Watch
@@ -64,7 +64,7 @@ Generated: 2026-11-08 02:05:00
 - Track local planning docket, sponsor, submarket, and entitlement precedent: Los Angeles / Entitlement Approval.
 - Track local planning docket, sponsor, submarket, and entitlement precedent: Santa Monica / Entitlement Approval.
 - Track local planning docket, sponsor, submarket, and entitlement precedent: Santa Monica / Entitlement Approval.
-- Track local planning docket, sponsor, submarket, and entitlement precedent: Los Angeles / Zoning / Rezoning.
+- Track local planning docket, sponsor, submarket, and entitlement precedent: Los Angeles / Entitlement Approval.
 - Review CEQA status, appeal risk, and approval timeline: Los Angeles / CEQA / Environmental Review.
 
 ## Submarket / Parcel Intelligence Reference
@@ -75,8 +75,8 @@ Submarket-level site strategy detail is available in `submarket_intelligence_rep
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 78
-- LA lifecycle watch items: 51
-- Stage mix: Delivery / Opening: 5, Site Acquisition / Site Control: 8, Unknown Stage: 51, Refinancing / Recapitalization: 6, Construction Started: 2
+- Lifecycle records: 77
+- LA lifecycle watch items: 49
+- Stage mix: Delivery / Opening: 6, Site Acquisition / Site Control: 7, Unknown Stage: 47, Refinancing / Recapitalization: 9, Construction Started: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

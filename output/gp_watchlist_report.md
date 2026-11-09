@@ -1,8 +1,8 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-11-08 02:04:39
+Generated: 2026-11-09 02:24:53
 
-- GP/developer candidates reviewed: 21
+- GP/developer candidates reviewed: 23
 - Tier 1 Strategic GPs: 0
 - Tier 2 High Potential GPs: 10
 
@@ -56,8 +56,6 @@ Generated: 2026-11-08 02:04:39
 ## Affordable Housing GP Activity
 
 - Wood Partners: score 74, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Affinius Capital: score 63, Tier 3 Monitoring GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
-- McDowell Housing Partners: score 59, Tier 3 Monitoring GP, Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Tishman Speyer: score 57, Tier 3 Monitoring GP, Santa Monica / California, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## Student Housing GP Activity
@@ -142,10 +140,10 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 157
-- Institutional-grade signals: 18
-- High-confidence signals: 48
-- Weak/noisy signals: 88
-- High-confidence watchlist items: 48
+- Signals evaluated: 152
+- Institutional-grade signals: 20
+- High-confidence signals: 49
+- Weak/noisy signals: 85
+- High-confidence watchlist items: 49
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

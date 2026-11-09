@@ -1,9 +1,9 @@
 # Persistent Asset Memory Report
 
-Generated: 2026-11-08 02:05:03
+Generated: 2026-11-09 02:25:13
 
-- Total persistent assets tracked: 157
-- Newly detected assets: 113
+- Total persistent assets tracked: 152
+- Newly detected assets: 107
 - Progressing assets: 0
 - Possible stalled assets: 0
 
@@ -17,34 +17,34 @@ Generated: 2026-11-08 02:05:03
 - JV / Partnership - California - Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durha...: Priority Asset Watch, Unknown Stage, score 87.
 - Acquisition - Texas - Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Tex...: Priority Asset Watch, Unknown Stage, score 87.
 - Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties: Priority Asset Watch, Delivery / Opening, score 87.
-- Development Start - California - TruAmerica Multifamily Breaks Ground on First-Ever Ground-Up Development in Santa Clarita: Priority Asset Watch, Unknown Stage, score 83.
-- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: Priority Asset Watch, Construction Started, score 83.
+- Disposition / Exit - Salt Lake City / Utah - Northmarq Arranges Sale of 3 Mid-Rise Multifamily Properties in Ogden and Salt Lake City U...: Priority Asset Watch, Site Acquisition / Site Control, score 82.
+- Entitlement / Permitting - Dallas / Texas - Trammell Crow Building 248 McKinney Apartment Units, 3 Hotels: Priority Asset Watch, Vertical Construction, score 81.
 
 ## Assets With Repeated Financing Signals
 
 - General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Priority Asset Watch, Unknown Stage, score 89.
 - Acquisition - Texas - Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Tex...: Priority Asset Watch, Unknown Stage, score 87.
-- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: Priority Asset Watch, Construction Started, score 83.
+- Disposition / Exit - Salt Lake City / Utah - Northmarq Arranges Sale of 3 Mid-Rise Multifamily Properties in Ogden and Salt Lake City U...: Priority Asset Watch, Site Acquisition / Site Control, score 82.
+- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: Priority Asset Watch, Construction Started, score 80.
 - Refinancing - Other / Unknown - JLL Arranges $67.3M Loan for Refinancing of Metro Boston Apartment Building: Priority Asset Watch, Unknown Stage, score 79.
-- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: Priority Asset Watch, Early Site Signal, score 75.
-- Disposition / Exit - Salt Lake City / Utah - Northmarq Arranges Sale of 3 Mid-Rise Multifamily Properties in Ogden and Salt Lake City U...: Priority Asset Watch, Site Acquisition / Site Control, score 75.
+- Refinancing - Washington DC - Affinius Capital Originates $98M Loan to Refinance Luxury Multifamily Property in Washingt...: Priority Asset Watch, Refinancing / Recapitalization, score 78.
+- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: Priority Asset Watch, Early Site Signal, score 77.
+- Construction Financing - Nashville / Tennessee - EMBREY Partners with Southstar Development Close on $71M Construction Loan for Nashville-A...: Strategic Asset Watch, Refinancing / Recapitalization, score 72.
 - Refinancing - New York City / New York - Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower: Strategic Asset Watch, Refinancing / Recapitalization, score 72.
 - General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: Strategic Asset Watch, Unknown Stage, score 70.
-- Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Strategic Asset Watch, Refinancing / Recapitalization, score 68.
-- Refinancing - National - Multifamily Refinancing Squeeze: 41% Higher Costs, $6.8B Equity Gap: Strategic Asset Watch, Refinancing / Recapitalization, score 55.
 
 ## Assets With Repeated Entitlement Signals
 
 - Entitlement / Permitting - Santa Monica / California - Fresh renderings for Santa Monica apartments at 1338 5th St.: Priority Asset Watch, Unknown Stage, score 89.
-- Development Start - California - TruAmerica Multifamily Breaks Ground on First-Ever Ground-Up Development in Santa Clarita: Priority Asset Watch, Unknown Stage, score 83.
-- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: Priority Asset Watch, Construction Started, score 83.
+- Disposition / Exit - Salt Lake City / Utah - Northmarq Arranges Sale of 3 Mid-Rise Multifamily Properties in Ogden and Salt Lake City U...: Priority Asset Watch, Site Acquisition / Site Control, score 82.
 - Entitlement / Permitting - Dallas / Texas - Trammell Crow Building 248 McKinney Apartment Units, 3 Hotels: Priority Asset Watch, Vertical Construction, score 81.
 - Entitlement / Permitting - Dallas / Texas - Trammell Crow Building 248 McKinney Apartment Units, 3 Hotels: Priority Asset Watch, Delivery / Opening, score 80.
-- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: Priority Asset Watch, Early Site Signal, score 75.
-- Disposition / Exit - Salt Lake City / Utah - Northmarq Arranges Sale of 3 Mid-Rise Multifamily Properties in Ogden and Salt Lake City U...: Priority Asset Watch, Site Acquisition / Site Control, score 75.
+- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: Priority Asset Watch, Construction Started, score 80.
+- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: Priority Asset Watch, Early Site Signal, score 77.
+- Entitlement / Permitting - California - Affordable housing on the rise at 3990 S. Wade. St. in Mar Vista: Strategic Asset Watch, Unknown Stage, score 74.
+- Entitlement / Permitting - Los Angeles / California - Affordable housing planned at 1135 N. Westmoreland Ave. in East Hollywood: Strategic Asset Watch, Early Site Signal, score 73.
 - Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: Strategic Asset Watch, Unknown Stage, score 73.
 - Terra, Fortune Ink $220M Key Biscayne Condo Financing: Strategic Asset Watch, Unknown Stage, score 73.
-- Dallas Office Market on Rise: Strategic Asset Watch, Unknown Stage, score 67.
 
 ## Recurring Asset Signals
 
@@ -56,8 +56,8 @@ Generated: 2026-11-08 02:05:03
 - JV / Partnership - California - Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durha...: Priority Asset Watch, Unknown Stage, score 87.
 - Acquisition - Texas - Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Tex...: Priority Asset Watch, Unknown Stage, score 87.
 - Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties: Priority Asset Watch, Delivery / Opening, score 87.
-- Development Start - California - TruAmerica Multifamily Breaks Ground on First-Ever Ground-Up Development in Santa Clarita: Priority Asset Watch, Unknown Stage, score 83.
-- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: Priority Asset Watch, Construction Started, score 83.
+- Disposition / Exit - Salt Lake City / Utah - Northmarq Arranges Sale of 3 Mid-Rise Multifamily Properties in Ogden and Salt Lake City U...: Priority Asset Watch, Site Acquisition / Site Control, score 82.
+- Entitlement / Permitting - Dallas / Texas - Trammell Crow Building 248 McKinney Apartment Units, 3 Hotels: Priority Asset Watch, Vertical Construction, score 81.
 
 ## Implications for Woomi / Woomi Global
 
@@ -79,10 +79,10 @@ Generated: 2026-11-08 02:05:03
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 157
-- Institutional-grade signals: 18
-- High-confidence signals: 48
-- Weak/noisy signals: 88
-- High-confidence watchlist items: 48
+- Signals evaluated: 152
+- Institutional-grade signals: 20
+- High-confidence signals: 49
+- Weak/noisy signals: 85
+- High-confidence watchlist items: 49
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

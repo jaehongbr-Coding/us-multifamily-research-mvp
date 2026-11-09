@@ -1,8 +1,8 @@
 # LA Persistent Asset Watch Report
 
-Generated: 2026-11-08 02:05:03
+Generated: 2026-11-09 02:25:13
 
-- Total LA persistent asset watch items: 113
+- Total LA persistent asset watch items: 110
 
 ## Priority LA Asset Watch Items
 
@@ -14,8 +14,8 @@ Generated: 2026-11-08 02:05:03
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: California, Unknown Stage, Track repeat project updates.
 - JV / Partnership - California - Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durha...: California, Unknown Stage, Track repeat project updates.
 - Acquisition - Texas - Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Tex...: Los Angeles, Unknown Stage, Track repeat project updates.
-- JV / Partnership - California - 377 apartments rise next to Brea Mall: Southern California, Unknown Stage, Track repeat project updates.
 - Entitlement / Permitting - Dallas / Texas - Trammell Crow Building 248 McKinney Apartment Units, 3 Hotels: Los Angeles, Vertical Construction, Track repeat project updates.
+- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: Los Angeles, Construction Started, Track repeat project updates.
 
 ## Koreatown / Wilshire Persistent Assets
 
@@ -48,8 +48,8 @@ Generated: 2026-11-08 02:05:03
 - Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties: Los Angeles, Delivery / Opening, Track repeat project updates.
 - Entitlement / Permitting - Dallas / Texas - Trammell Crow Building 248 McKinney Apartment Units, 3 Hotels: Los Angeles, Vertical Construction, Track repeat project updates.
 - Benedict Canyon Acquires Neighboring West Hollywood Properties: Los Angeles, Delivery / Opening, Track repeat project updates.
-- Entitlement / Permitting - Dallas / Texas - Trammell Crow Building 248 McKinney Apartment Units, 3 Hotels: Los Angeles, Delivery / Opening, Track repeat project updates.
 - General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: Los Angeles, Construction Started, Track repeat project updates.
+- Entitlement / Permitting - Dallas / Texas - Trammell Crow Building 248 McKinney Apartment Units, 3 Hotels: Los Angeles, Delivery / Opening, Track repeat project updates.
 
 ## Recommended Local Follow-up Actions
 

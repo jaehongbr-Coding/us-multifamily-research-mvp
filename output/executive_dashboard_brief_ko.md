@@ -1,14 +1,14 @@
 # 한국어 경영진 대시보드 브리핑
 
-- 생성 시각: 2026-11-08 02:04:34
+- 생성 시각: 2026-11-09 02:24:42
 - 참고 원문 파일: `executive_dashboard_brief.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
 ## 오늘의 핵심 브리핑
 
 경영진 대시보드 기준 핵심 신호 38건을 요약했습니다. 본 리포트는 유료 API 없이 규칙 기반으로 작성되며, 우미 / 우미글로벌의 미국 주거 개발 전략 관점에서 우선순위와 후속 조치를 빠르게 확인하기 위한 자료입니다.
-- 저장 기사 수: 70
-- 높은 신뢰도 신호: 48
+- 저장 기사 수: 71
+- 높은 신뢰도 신호: 49
 - 대시보드 카드: 38
 - 최우선 카드: Acquires 280-Unit Buckhead Apartment Community ParkProperty Capital
 - 추천 경영진 포커스: Review Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties and related high-confidence project signals.
@@ -27,7 +27,7 @@
 - Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: Los Angeles, 아파트, 점수 100 (Review parcel clue, entitlement path, sponsor, and comparable sites)
 - Entitlement / Permitting - California - Affordable housing on the rise at 3990 S. Wade. St. in Mar Vista: Los Angeles, 어포더블 하우징, 점수 100 (Review parcel clue, entitlement path, sponsor, and comparable sites)
 - Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: Los Angeles, 어포더블 하우징, 점수 100 (Track entitlement docket, density bonus use, and affordability requirement)
-- Entitlement / Permitting - Other / Unknown - Zoning Worksheet Filed for Multifamily Building at 425 W Macarthur Boulevard in Oakland: Los Angeles, 아파트, 점수 100 (Track entitlement docket, density bonus use, and affordability requirement)
+- Entitlement / Permitting - Los Angeles / California - Six homes planned at 1420 S. Point View St. in Mid-City: Los Angeles, 주거복합, 점수 100 (Track entitlement docket, density bonus use, and affordability requirement)
 
 ## GP / Capital Partner Watch
 

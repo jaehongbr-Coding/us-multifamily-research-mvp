@@ -1,8 +1,8 @@
 # Real Asset & Parcel Intelligence Report
 
-Generated: 2026-11-08 02:05:01
+Generated: 2026-11-09 02:25:12
 
-- Total asset / parcel signals: 78
+- Total asset / parcel signals: 77
 
 ## Top Site-Level Opportunities
 
@@ -15,20 +15,20 @@ Generated: 2026-11-08 02:05:01
 - Entitlement / Permitting - California - Affordable housing on the rise at 3990 S. Wade. St. in Mar Vista: Affordable / Density Bonus Strategy, 3990 S. Wade. St, asset_opportunity_score 95.
 - Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: Affordable / Density Bonus Strategy, 1248 N. Cherokee Ave, asset_opportunity_score 94.
 - Entitlement / Permitting - Los Angeles / California - Affordable housing planned at 1135 N. Westmoreland Ave. in East Hollywood: Affordable / Density Bonus Strategy, 1135 N. Westmoreland Ave, asset_opportunity_score 94.
-- Entitlement / Permitting - Other / Unknown - Zoning Worksheet Filed for Multifamily Building at 425 W Macarthur Boulevard in Oakland: Entitlement Play, 425 W Macarthur Boulevard, asset_opportunity_score 92.
+- JV / Partnership - California - Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durha...: General Asset Signal, Southeast, asset_opportunity_score 91.
 
 ## Top Site-Level Risks
 
 - Construction Financing - Phoenix / Arizona - CrossHarbor Capital Secures $78.5M in Construction Financing for Multifamily Community in...: General Asset Signal, Tempe, asset_risk_score 49.
 - Acquisition - Seattle - JLL Arranges $10.732M Sale and $6.7M Financing of Seattle Apartment Community: General Asset Signal, Seattle, asset_risk_score 48.
 - Refinancing - Other / Unknown - JLL Arranges $67.3M Loan for Refinancing of Metro Boston Apartment Building: Refinancing / Recapitalization, Unknown, asset_risk_score 48.
+- Construction Financing - Nashville / Tennessee - EMBREY Partners with Southstar Development Close on $71M Construction Loan for Nashville-A...: Refinancing / Recapitalization, Nashville, asset_risk_score 48.
 - Refinancing - New York City / New York - Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower: Refinancing / Recapitalization, New York City, asset_risk_score 48.
+- Refinancing - Washington DC - Affinius Capital Originates $98M Loan to Refinance Luxury Multifamily Property in Washingt...: Refinancing / Recapitalization, Washington Dc, asset_risk_score 48.
 - Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use: General Asset Signal, Los Angeles, asset_risk_score 47.
 - Refinancing - National - Multifamily Refinancing Squeeze: 41% Higher Costs, $6.8B Equity Gap: Refinancing / Recapitalization, National, asset_risk_score 46.
 - Construction Financing - Other / Unknown - HUD launches ‘express lane’ for LIHTC multifamily construction loans: Refinancing / Recapitalization, Unknown, asset_risk_score 45.
 - Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing / Recapitalization, Phoenix, asset_risk_score 43.
-- Entitlement / Permitting - California - Affordable housing on the rise at 3990 S. Wade. St. in Mar Vista: Affordable / Density Bonus Strategy, 3990 S. Wade. St, asset_risk_score 40.
-- JV / Partnership - California - 377 apartments rise next to Brea Mall: General Asset Signal, Southern California, asset_risk_score 40.
 
 ## Assets With Address / Location Clues
 
@@ -41,7 +41,7 @@ Generated: 2026-11-08 02:05:01
 - Entitlement / Permitting - California - Affordable housing on the rise at 3990 S. Wade. St. in Mar Vista: Affordable / Density Bonus Strategy, 3990 S. Wade. St, asset_opportunity_score 95.
 - Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: Affordable / Density Bonus Strategy, 1248 N. Cherokee Ave, asset_opportunity_score 94.
 - Entitlement / Permitting - Los Angeles / California - Affordable housing planned at 1135 N. Westmoreland Ave. in East Hollywood: Affordable / Density Bonus Strategy, 1135 N. Westmoreland Ave, asset_opportunity_score 94.
-- Entitlement / Permitting - Other / Unknown - Zoning Worksheet Filed for Multifamily Building at 425 W Macarthur Boulevard in Oakland: Entitlement Play, 425 W Macarthur Boulevard, asset_opportunity_score 92.
+- JV / Partnership - California - Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durha...: General Asset Signal, Southeast, asset_opportunity_score 91.
 
 ## Assets With Identified Developers / Sponsors
 
@@ -58,16 +58,18 @@ Generated: 2026-11-08 02:05:01
 
 ## Assets With Entitlement or Permit Signals
 
-- Entitlement / Permitting - Other / Unknown - Zoning Worksheet Filed for Multifamily Building at 425 W Macarthur Boulevard in Oakland: Entitlement Play, 425 W Macarthur Boulevard, asset_opportunity_score 92.
-- Zoning Worksheet Filed for Multifamily Building at 425 W Macarthur Boulevard in Oakland: Entitlement Play, 425 W Macarthur Boulevard, asset_opportunity_score 82.
+- None detected.
 
 ## Assets With Financing / Refinancing Signals
 
 - Refinancing - Other / Unknown - JLL Arranges $67.3M Loan for Refinancing of Metro Boston Apartment Building: Refinancing / Recapitalization, Unknown, asset_risk_score 48.
+- Construction Financing - Nashville / Tennessee - EMBREY Partners with Southstar Development Close on $71M Construction Loan for Nashville-A...: Refinancing / Recapitalization, Nashville, asset_risk_score 48.
 - Refinancing - New York City / New York - Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower: Refinancing / Recapitalization, New York City, asset_risk_score 48.
+- Refinancing - Washington DC - Affinius Capital Originates $98M Loan to Refinance Luxury Multifamily Property in Washingt...: Refinancing / Recapitalization, Washington Dc, asset_risk_score 48.
 - Refinancing - National - Multifamily Refinancing Squeeze: 41% Higher Costs, $6.8B Equity Gap: Refinancing / Recapitalization, National, asset_risk_score 46.
 - Construction Financing - Other / Unknown - HUD launches ‘express lane’ for LIHTC multifamily construction loans: Refinancing / Recapitalization, Unknown, asset_risk_score 45.
 - Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing / Recapitalization, Phoenix, asset_risk_score 43.
+- Affinius Capital Originates $98M Loan to Refinance Luxury Multifamily Property in Washington DC: Refinancing / Recapitalization, Washington DC, asset_risk_score 26.
 - Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower: Refinancing / Recapitalization, Brooklyn, asset_risk_score 26.
 
 ## Office-to-Residential Asset Signals
@@ -85,7 +87,7 @@ Generated: 2026-11-08 02:05:01
 - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: Affordable / Density Bonus Strategy, 1248 N. Cherokee Ave, asset_opportunity_score 75.
 - TruAmerica Breaks Ground On Santa Clarita Multifamily: The Los Angeles Deal Sheet: Affordable / Density Bonus Strategy, 18300 Soledad Canyon Road, asset_opportunity_score 74.
 - Groundbreaking For Liberation Park Residences, Oakland: Affordable / Density Bonus Strategy, 6955 Foothill Boulevard, asset_opportunity_score 74.
-- McDowell Housing Partners Closes Financing and Starts Construction on Affordable Housing Community in Naples Florida: Affordable / Density Bonus Strategy, 4470 Santa Barbara Blvd, asset_opportunity_score 62.
+- Grand Opening For La Vista Apartments, Hayward: Affordable / Density Bonus Strategy, 722 Tennyson Road, asset_opportunity_score 68.
 
 ## Implications for Woomi / Woomi Global
 
@@ -107,9 +109,9 @@ Generated: 2026-11-08 02:05:01
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 78
-- LA lifecycle watch items: 51
-- Stage mix: Delivery / Opening: 5, Site Acquisition / Site Control: 8, Unknown Stage: 51, Refinancing / Recapitalization: 6, Construction Started: 2
+- Lifecycle records: 77
+- LA lifecycle watch items: 49
+- Stage mix: Delivery / Opening: 6, Site Acquisition / Site Control: 7, Unknown Stage: 47, Refinancing / Recapitalization: 9, Construction Started: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -117,11 +119,11 @@ Generated: 2026-11-08 02:05:01
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 78
-- Newly detected projects: 10
+- Lifecycle transitions analyzed: 77
+- Newly detected projects: 7
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 50
+- LA lifecycle transition watch items: 48
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -129,10 +131,10 @@ Generated: 2026-11-08 02:05:01
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 629
-- Canonical projects: 157
-- Duplicate project clusters: 105
-- Persistent assets tracked: 157
-- LA persistent asset watch items: 113
+- Raw project references: 624
+- Canonical projects: 152
+- Duplicate project clusters: 103
+- Persistent assets tracked: 152
+- LA persistent asset watch items: 110
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

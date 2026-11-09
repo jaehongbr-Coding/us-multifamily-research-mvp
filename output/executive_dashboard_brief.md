@@ -1,14 +1,14 @@
 # Executive Dashboard Brief
 
-Generated: 2026-11-08 02:04:34
+Generated: 2026-11-09 02:24:42
 
 ## Executive Snapshot
 
-- Total articles reviewed: 70
-- High-confidence signals: 48
-- Institutional-grade signals: 18
-- Opportunities: 47
-- Distress signals: 8
+- Total articles reviewed: 71
+- High-confidence signals: 49
+- Institutional-grade signals: 20
+- Opportunities: 46
+- Distress signals: 10
 - Recommended executive focus: Review Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties and related high-confidence project signals.
 
 ## Top 5 Things to Review Today
@@ -33,7 +33,7 @@ Generated: 2026-11-08 02:04:34
 - Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: Track local sponsor activity Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 - Entitlement / Permitting - California - Affordable housing on the rise at 3990 S. Wade. St. in Mar Vista: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 - Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
-- Entitlement / Permitting - Other / Unknown - Zoning Worksheet Filed for Multifamily Building at 425 W Macarthur Boulevard in Oakland: Track site control precedent Action: Track entitlement docket, density bonus use, and affordability requirement.
+- Entitlement / Permitting - Los Angeles / California - Six homes planned at 1420 S. Point View St. in Mid-City: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
 
 ## GP / Capital Partner Watch
 
@@ -57,7 +57,7 @@ Generated: 2026-11-08 02:04:34
 - Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: Track local sponsor activity Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 - Entitlement / Permitting - California - Affordable housing on the rise at 3990 S. Wade. St. in Mar Vista: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 - Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
-- Entitlement / Permitting - Other / Unknown - Zoning Worksheet Filed for Multifamily Building at 425 W Macarthur Boulevard in Oakland: Track site control precedent Action: Track entitlement docket, density bonus use, and affordability requirement.
+- Entitlement / Permitting - Los Angeles / California - Six homes planned at 1420 S. Point View St. in Mid-City: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
 
 ## Capital Flow Watch
 

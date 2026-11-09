@@ -1,6 +1,6 @@
 # 한국어 GP Watchlist
 
-- 생성 시각: 2026-11-08 02:04:34
+- 생성 시각: 2026-11-09 02:24:42
 - 참고 원문 파일: `gp_watchlist_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -19,19 +19,19 @@
 
 ## 기관자본 연결성
 
+- Affinius Capital: 기타 / 미확인, 아파트, 점수 100 (Refinancing / Recapitalization; Potential JV / Partnership Signal)
 - Greystar: 기타 / 미확인, 아파트, 점수 100 (Capital Inflow; GP Capability Benchmark Signal)
 - JLL: 기타 / 미확인, 아파트, 점수 100 (Capital Inflow; Potential JV / Partnership Signal)
 - Lincoln Property Company: 기타 / 미확인, 주거복합, 점수 100 (Development Capital Deployment; Potential JV / Partnership Signal)
 - Marcus & Millichap: 기타 / 미확인, 아파트, 점수 100 (Capital Inflow; GP Capability Benchmark Signal)
-- McCourt Partners: 기타 / 미확인, 주거복합, 점수 99 (Development Capital Deployment; Potential JV / Partnership Signal)
 
 ## JV / Partnership 가능성
 
 - Wood Partners → California: JV / Partnership, 점수 90
 - Wood Partners → JV / Partnership - California - Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durha...: JV / Partnership, 점수 90
 - Wood Partners → Southeast: JV / Partnership, 점수 90
-- JV / Partnership - California - 377 apartments rise next to Brea Mall → California: JV / Partnership, 점수 72
-- JV / Partnership - California - 377 apartments rise next to Brea Mall → Southern California: JV / Partnership, 점수 72
+- JV / Partnership - Seattle - Timberlane Partners Spends $83M on WA Multifamily Community → Seattle: JV / Partnership, 점수 56
+- JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project → Atlanta: JV / Partnership, 점수 47
 
 ## 우미 파트너십 관점
 

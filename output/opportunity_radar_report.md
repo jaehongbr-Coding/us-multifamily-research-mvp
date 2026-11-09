@@ -1,8 +1,8 @@
 # Opportunity Radar Report
 
-Generated: 2026-11-08 02:05:00
+Generated: 2026-11-09 02:25:11
 
-- Total opportunities detected: 47
+- Total opportunities detected: 46
 
 ## Top 10 Opportunities
 
@@ -22,9 +22,7 @@ Generated: 2026-11-08 02:05:00
 - JV / Partnership Gap in California: JV / Partnership - California - Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durha..., score 86. Add to executive opportunity review.
 - LA / California Entitlement Opportunity in California: Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio, score 86. Add to executive opportunity review.
 - LA / California Entitlement Opportunity in California: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio, score 86. Add to executive opportunity review.
-- JV / Partnership Gap in California: JV / Partnership - California - 377 apartments rise next to Brea Mall, score 66. Map GP, capital partner, and relationship history.
 - LA / California Entitlement Opportunity in California: Entitlement / Permitting - California - Affordable housing on the rise at 3990 S. Wade. St. in Mar Vista, score 66. Review entitlement, zoning, permitting, and local sponsor context.
-- LA / California Entitlement Opportunity in California: Development Start - California - TruAmerica Multifamily Breaks Ground on First-Ever Ground-Up Development in Santa Clarita, score 63. Review entitlement, zoning, permitting, and local sponsor context.
 
 ## Acquisition / Recapitalization Opportunities
 
@@ -41,6 +39,7 @@ Generated: 2026-11-08 02:05:00
 - Refinancing Gap in Other / Unknown: Refinancing - Other / Unknown - JLL Arranges $67.3M Loan for Refinancing of Metro Boston Apartment Building, score 87. Add to executive opportunity review.
 - Refinancing Gap in Phoenix / Arizona: Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building, score 86. Add to executive opportunity review.
 - Refinancing Gap in New York City / New York: Refinancing - New York City / New York - Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower, score 85. Add to executive opportunity review.
+- Refinancing Gap in Washington DC: Refinancing - Washington DC - Affinius Capital Originates $98M Loan to Refinance Luxury Multifamily Property in Washingt..., score 85. Add to executive opportunity review.
 - Refinancing Gap in National: Refinancing - National - Multifamily Refinancing Squeeze: 41% Higher Costs, $6.8B Equity Gap, score 58. Track debt stack, maturity, lender, and recapitalization details.
 
 ## BTR / SFR Opportunities
@@ -55,7 +54,7 @@ Generated: 2026-11-08 02:05:00
 
 - JV / Partnership Gap in California: JV / Partnership - California - Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durha..., score 86. Add to executive opportunity review.
 - Refinancing Gap in New York City / New York: Refinancing - New York City / New York - Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower, score 85. Add to executive opportunity review.
-- LA / California Entitlement Opportunity in Santa Monica / California: Entitlement / Permitting - Santa Monica / California - Fresh renderings for Santa Monica apartments at 1338 5th St., score 81. Add to executive opportunity review.
+- LA / California Entitlement Opportunity in Santa Monica / California: Entitlement / Permitting - Santa Monica / California - Fresh renderings for Santa Monica apartments at 1338 5th St., score 82. Add to executive opportunity review.
 - LA / California Entitlement Opportunity in California: Entitlement / Permitting - California - Affordable housing on the rise at 3990 S. Wade. St. in Mar Vista, score 66. Review entitlement, zoning, permitting, and local sponsor context.
 - LA / California Entitlement Opportunity in Los Angeles / California: Entitlement / Permitting - Los Angeles / California - Affordable housing planned at 1135 N. Westmoreland Ave. in East Hollywood, score 61. Review entitlement, zoning, permitting, and local sponsor context.
 - LA / California Entitlement Opportunity in Los Angeles / California: Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood, score 61. Review entitlement, zoning, permitting, and local sponsor context.
@@ -72,10 +71,9 @@ Generated: 2026-11-08 02:05:00
 - GP Capability Partnership Opportunity in Miami / Florida: General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building, score 82. Add to executive opportunity review.
 - GP Capability Partnership Opportunity in New York City / New York: Disposition / Exit - New York City / New York - Marcus & Millichap Closes $28.5M Waterfront Multifamily Asset Sale in Queens, score 80. Add to executive opportunity review.
 - GP Capability Partnership Opportunity in Atlanta / Georgia: General Project Signal - Atlanta / Georgia - Greystar, Vantage Acquire Chamblee Property for 340-Unit Multifamily Community, score 79. Map GP, capital partner, and relationship history.
-- GP Capability Partnership Opportunity in Other / Unknown: Disposition / Exit - Other / Unknown - Marcus & Millichap Arranges Sale of 34-Unit Multifamily Property in Minneapolis for $3.15M, score 78. Map GP, capital partner, and relationship history.
 - GP Capability Partnership Opportunity in National: Disposition / Exit - National - Mortgage Rates Tilt Demand Toward Multifamily: Marcus & Millichap, score 73. Map GP, capital partner, and relationship history.
-- JV / Partnership Gap in California: JV / Partnership - California - 377 apartments rise next to Brea Mall, score 66. Map GP, capital partner, and relationship history.
-- JV / Partnership Gap in Seattle: JV / Partnership - Seattle - Timberlane Partners Spends $83M on WA Multifamily Community, score 58. Map GP, capital partner, and relationship history.
+- JV / Partnership Gap in Seattle: JV / Partnership - Seattle - Timberlane Partners Spends $83M on WA Multifamily Community, score 59. Map GP, capital partner, and relationship history.
+- JV / Partnership Gap in Atlanta / Georgia: JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project, score 56. Map GP, capital partner, and relationship history.
 
 ## Timing / Market Entry Window Summary
 
@@ -109,9 +107,9 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 78
-- LA lifecycle watch items: 51
-- Stage mix: Delivery / Opening: 5, Site Acquisition / Site Control: 8, Unknown Stage: 51, Refinancing / Recapitalization: 6, Construction Started: 2
+- Lifecycle records: 77
+- LA lifecycle watch items: 49
+- Stage mix: Delivery / Opening: 6, Site Acquisition / Site Control: 7, Unknown Stage: 47, Refinancing / Recapitalization: 9, Construction Started: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -119,11 +117,11 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 78
-- Newly detected projects: 10
+- Lifecycle transitions analyzed: 77
+- Newly detected projects: 7
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 50
+- LA lifecycle transition watch items: 48
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -131,11 +129,11 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 629
-- Canonical projects: 157
-- Duplicate project clusters: 105
-- Persistent assets tracked: 157
-- LA persistent asset watch items: 113
+- Raw project references: 624
+- Canonical projects: 152
+- Duplicate project clusters: 103
+- Persistent assets tracked: 152
+- LA persistent asset watch items: 110
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -143,10 +141,10 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 157
-- Institutional-grade signals: 18
-- High-confidence signals: 48
-- Weak/noisy signals: 88
-- High-confidence watchlist items: 48
+- Signals evaluated: 152
+- Institutional-grade signals: 20
+- High-confidence signals: 49
+- Weak/noisy signals: 85
+- High-confidence watchlist items: 49
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

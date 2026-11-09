@@ -1,17 +1,16 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-11-08 02:05:03
+Generated: 2026-11-09 02:25:13
 
-- Total LA lifecycle watch items: 51
+- Total LA lifecycle watch items: 49
 
 ## LA Lifecycle Stage Distribution
 
-- Unknown Stage: 32
+- Unknown Stage: 29
 - Site Acquisition / Site Control: 6
-- Delivery / Opening: 4
-- Early Site Signal: 3
+- Delivery / Opening: 5
+- Early Site Signal: 5
 - Construction Started: 2
-- Entitlement Under Review: 2
 - Vertical Construction: 1
 - Refinancing / Recapitalization: 1
 
@@ -68,11 +67,11 @@ Generated: 2026-11-08 02:05:03
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 78
-- Newly detected projects: 10
+- Lifecycle transitions analyzed: 77
+- Newly detected projects: 7
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 50
+- LA lifecycle transition watch items: 48
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -80,10 +79,10 @@ Generated: 2026-11-08 02:05:03
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 629
-- Canonical projects: 157
-- Duplicate project clusters: 105
-- Persistent assets tracked: 157
-- LA persistent asset watch items: 113
+- Raw project references: 624
+- Canonical projects: 152
+- Duplicate project clusters: 103
+- Persistent assets tracked: 152
+- LA persistent asset watch items: 110
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

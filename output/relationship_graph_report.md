@@ -1,11 +1,11 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-11-08 02:04:39
+Generated: 2026-11-09 02:24:53
 
-- Total relationship edges: 111
+- Total relationship edges: 115
 - Most connected developer / GP: JLL (17 edge(s))
 - Most connected lender / debt provider: jll (5 edge(s))
-- Most connected market: California (6 edge(s))
+- Most connected market: Los Angeles / California (6 edge(s))
 - Strongest relationship edge: JLL -> jll
 - Highest Woomi relevance edge: Wood Partners -> California
 
@@ -52,7 +52,7 @@ Generated: 2026-11-08 02:04:39
 
 - Blackstone -> blackstone: Capital Flow, Miami / Florida, score 91. Track GP relationship history.
 - Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 86. Track GP relationship history.
-- Affinius Capital -> starwood: Financing Relationship, Other / Unknown, score 82. Track GP relationship history.
+- Affinius Capital -> starwood: Financing Relationship, Other / Unknown, score 83. Track GP relationship history.
 
 ## Market Relationship Map
 
@@ -63,9 +63,9 @@ Generated: 2026-11-08 02:04:39
 - JLL -> Seattle: Acquisition / Buyer, Seattle, score 88. Track GP relationship history.
 - Lincoln Property Company -> Los Angeles: Financing Relationship, Los Angeles / California, score 84. Track GP relationship history.
 - Lincoln Property Company -> Los Angeles / California: Financing Relationship, Los Angeles / California, score 84. Track GP relationship history.
-- CBRE -> Atlanta: Acquisition / Buyer, Atlanta / Georgia, score 82. Track GP relationship history.
-- CBRE -> Atlanta / Georgia: Acquisition / Buyer, Atlanta / Georgia, score 82. Track GP relationship history.
-- Affinius Capital -> New York City: Financing Relationship, New York City / New York, score 81. Track GP relationship history.
+- Affinius Capital -> New York City: Financing Relationship, New York City / New York, score 82. Track GP relationship history.
+- Affinius Capital -> New York City / New York: Financing Relationship, New York City / New York, score 82. Track GP relationship history.
+- Affinius Capital -> Washington DC: Financing Relationship, Washington DC, score 82. Track GP relationship history.
 
 ## California / LA Relationship Signals
 
@@ -78,15 +78,13 @@ Generated: 2026-11-08 02:04:39
 - Marcus & Millichap -> California: Disposition / Seller, California, score 77. Track GP relationship history.
 - Marcus & Millichap -> Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Disposition / Seller, California, score 77. Track GP relationship history.
 - Marcus & Millichap -> Los Angeles: Disposition / Seller, Los Angeles / California, score 73. Track GP relationship history.
-- JV / Partnership - California - 377 apartments rise next to Brea Mall -> California: JV / Partnership, California, score 72. Review potential JV relevance.
+- Entitlement / Permitting - California - Affordable housing on the rise at 3990 S. Wade. St. in Mar Vista -> California: Entitlement / Permitting, California, score 66. Track LA / California activity.
 
 ## Potential Woomi Partnership Signals
 
 - Wood Partners -> California: JV / Partnership, California, score 90. Review potential JV relevance.
 - Wood Partners -> JV / Partnership - California - Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durha...: JV / Partnership, California, score 90. Review potential JV relevance.
 - Wood Partners -> Southeast: JV / Partnership, California, score 90. Review potential JV relevance.
-- JV / Partnership - California - 377 apartments rise next to Brea Mall -> California: JV / Partnership, California, score 72. Review potential JV relevance.
-- JV / Partnership - California - 377 apartments rise next to Brea Mall -> Southern California: JV / Partnership, California, score 72. Review potential JV relevance.
 - JV / Partnership - Seattle - Timberlane Partners Spends $83M on WA Multifamily Community -> Seattle: JV / Partnership, Seattle, score 56. Review potential JV relevance.
 - JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project -> Atlanta: JV / Partnership, Atlanta / Georgia, score 47. Review potential JV relevance.
 - JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project -> Atlanta / Georgia: JV / Partnership, Atlanta / Georgia, score 47. Review potential JV relevance.
@@ -151,10 +149,10 @@ Longitudinal memory is available in `historical_memory_report.md`.
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 629
-- Canonical projects: 157
-- Duplicate project clusters: 105
-- Persistent assets tracked: 157
-- LA persistent asset watch items: 113
+- Raw project references: 624
+- Canonical projects: 152
+- Duplicate project clusters: 103
+- Persistent assets tracked: 152
+- LA persistent asset watch items: 110
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

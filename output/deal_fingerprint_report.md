@@ -1,10 +1,10 @@
 # Deal Fingerprint Report
 
-Generated: 2026-11-08 02:04:39
+Generated: 2026-11-09 02:24:53
 
-- Total canonical deals detected: 55
+- Total canonical deals detected: 54
 - Duplicate clusters detected: 0
-- California / LA recurring project count: 6
+- California / LA recurring project count: 4
 
 ## Largest Duplicate Clusters
 
@@ -18,7 +18,9 @@ Generated: 2026-11-08 02:04:39
 
 - Construction Financing - JLL - JLL - Sun Belt: Phoenix / Arizona, 1 article(s), 1 source(s), confidence 100.
 - Construction Financing - Lincoln Property Company - Los Angeles: Los Angeles / California, 1 article(s), 1 source(s), confidence 80.
+- Construction Financing - PCCP - Sun Belt: Nashville / Tennessee, 1 article(s), 1 source(s), confidence 80.
 - Refinancing - Affinius Capital - New York: New York City / New York, 1 article(s), 1 source(s), confidence 80.
+- Refinancing - Affinius Capital - Washington DC: Washington DC, 1 article(s), 1 source(s), confidence 80.
 - Refinancing - JLL - JLL - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 80.
 - Refinancing - JLL - JLL - Sun Belt: Phoenix / Arizona, 1 article(s), 1 source(s), confidence 90.
 - Construction Financing - Affinius Capital - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 70.
@@ -31,8 +33,6 @@ Generated: 2026-11-08 02:04:39
 - Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
 - JV / Partnership - Wood Partners - California: California, 1 article(s), 1 source(s), confidence 70.
 - Entitlement / Permitting - Unknown - California: California, 1 article(s), 1 source(s), confidence 65.
-- JV / Partnership - Unknown - California: California, 1 article(s), 1 source(s), confidence 65.
-- Development Start - Unknown - California: California, 1 article(s), 1 source(s), confidence 55.
 
 ## Recurring GP / Lender Relationships
 

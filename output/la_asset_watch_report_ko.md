@@ -1,15 +1,15 @@
 # 한국어 LA 자산 / 프로젝트 Watch
 
-- 생성 시각: 2026-11-08 02:04:34
+- 생성 시각: 2026-11-09 02:24:42
 - 참고 원문 파일: `la_asset_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
 ## LA / Southern California 자산 Watch
 
 - Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use: Los Angeles, 주거복합, 점수 100 (Unknown; Monitor asset for repeated local confirmation)
-- Entitlement / Permitting - Other / Unknown - Zoning Worksheet Filed for Multifamily Building at 425 W Macarthur Boulevard in Oakland: Los Angeles, 아파트, 점수 100 (Entitlement / Planning; Track entitlement docket, density bonus use, and affordability requirement)
 - Entitlement / Permitting - California - Affordable housing on the rise at 3990 S. Wade. St. in Mar Vista: Los Angeles, 어포더블 하우징, 점수 100 (Unknown; Review parcel clue, entitlement path, sponsor, and comparable sites)
 - Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: Los Angeles, 어포더블 하우징, 점수 100 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
+- Entitlement / Permitting - Los Angeles / California - Six homes planned at 1420 S. Point View St. in Mid-City: Los Angeles, 주거복합, 점수 100 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
 - Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: Los Angeles, 아파트, 점수 100 (Unknown; Review parcel clue, entitlement path, sponsor, and comparable sites)
 - Entitlement / Permitting - Los Angeles / California - Affordable housing planned at 1135 N. Westmoreland Ave. in East Hollywood: Los Angeles, 어포더블 하우징, 점수 100 (Site Search / Early Signal; Track entitlement docket, density bonus use, and affordability requirement)
 - Entitlement / Permitting - Santa Monica / California - Fresh renderings for Santa Monica apartments at 1338 5th St.: Los Angeles, 어포더블 하우징, 점수 100 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
@@ -20,9 +20,9 @@
 ## 프로젝트 / 부지 단서
 
 - Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use: Los Angeles, Los Angeles
-- Entitlement / Permitting - Other / Unknown - Zoning Worksheet Filed for Multifamily Building at 425 W Macarthur Boulevard in Oakland: 425 W Macarthur Boulevard, Los Angeles
 - Entitlement / Permitting - California - Affordable housing on the rise at 3990 S. Wade. St. in Mar Vista: 3990 S. Wade. St, Los Angeles
 - Entitlement / Permitting - Los Angeles / California - Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood: 1248 N. Cherokee Ave, Los Angeles
+- Entitlement / Permitting - Los Angeles / California - Six homes planned at 1420 S. Point View St. in Mid-City: 1420 S. Point View St, Los Angeles
 - Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: California, Los Angeles
 
 ## 인허가 / 개발 단계

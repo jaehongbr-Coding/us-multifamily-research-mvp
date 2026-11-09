@@ -1,6 +1,6 @@
 # Submarket Intelligence Report
 
-Generated: 2026-11-08 02:05:00
+Generated: 2026-11-09 02:25:11
 
 - Total submarkets detected: 25
 
@@ -13,7 +13,7 @@ Generated: 2026-11-08 02:05:00
 - Atlanta (Southeast): submarket_opportunity_score 100, Review potential acquisition pipeline.
 - Anaheim (Orange County): submarket_opportunity_score 93, Review potential acquisition pipeline.
 - West Hollywood (Los Angeles): submarket_opportunity_score 93, Review potential acquisition pipeline.
-- Santa Monica (Los Angeles): submarket_opportunity_score 90, Monitor entitlement precedent.
+- Santa Monica (Los Angeles): submarket_opportunity_score 91, Monitor entitlement precedent.
 - Seattle (Seattle): submarket_opportunity_score 90, Review potential acquisition pipeline.
 - Miami (Florida): submarket_opportunity_score 82, Monitor entitlement precedent.
 
@@ -22,13 +22,13 @@ Generated: 2026-11-08 02:05:00
 - Phoenix (Arizona): submarket_risk_score 67, Monitor refinancing / distress pipeline.
 - New York (New York): submarket_risk_score 50, Review potential acquisition pipeline.
 - Brooklyn (New York): submarket_risk_score 50, Review potential acquisition pipeline.
+- Nashville (Southeast): submarket_risk_score 50, Track local GP / sponsor activity.
 - Culver City (Los Angeles): submarket_risk_score 49, Review potential acquisition pipeline.
 - Dallas (Texas): submarket_risk_score 44, Monitor entitlement precedent.
 - Miami (Florida): submarket_risk_score 44, Monitor entitlement precedent.
 - Hollywood (Los Angeles): submarket_risk_score 21, Monitor entitlement precedent.
 - Santa Monica (Los Angeles): submarket_risk_score 21, Monitor entitlement precedent.
 - East Hollywood (Los Angeles): submarket_risk_score 21, Monitor entitlement precedent.
-- California (National / Other): submarket_risk_score 21, Monitor entitlement precedent.
 
 ## Highest Execution Complexity Submarkets
 
@@ -36,12 +36,12 @@ Generated: 2026-11-08 02:05:00
 - Santa Monica (Los Angeles): execution_complexity_score 52, Monitor entitlement precedent.
 - East Hollywood (Los Angeles): execution_complexity_score 52, Monitor entitlement precedent.
 - California (National / Other): execution_complexity_score 42, Monitor entitlement precedent.
+- Los Angeles (Los Angeles): execution_complexity_score 40, Monitor entitlement precedent.
 - Dallas (Texas): execution_complexity_score 30, Monitor entitlement precedent.
 - Anaheim (Orange County): execution_complexity_score 30, Review potential acquisition pipeline.
 - West Hollywood (Los Angeles): execution_complexity_score 30, Review potential acquisition pipeline.
 - Miami (Florida): execution_complexity_score 30, Monitor entitlement precedent.
 - Culver City (Los Angeles): execution_complexity_score 30, Review potential acquisition pipeline.
-- Los Angeles (Los Angeles): execution_complexity_score 30, Monitor entitlement precedent.
 
 ## Sector Themes By Submarket
 
@@ -60,7 +60,7 @@ Generated: 2026-11-08 02:05:00
 
 ## Timing and Entitlement Signals By Submarket
 
-- Phoenix: 5 timing signal(s), 0 entitlement signal(s).
+- Phoenix: 6 timing signal(s), 0 entitlement signal(s).
 - New York: 3 timing signal(s), 0 entitlement signal(s).
 - Dallas: 3 timing signal(s), 2 entitlement signal(s).
 - Hollywood: 3 timing signal(s), 2 entitlement signal(s).
@@ -94,8 +94,8 @@ Generated: 2026-11-08 02:05:00
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 78
-- LA lifecycle watch items: 51
-- Stage mix: Delivery / Opening: 5, Site Acquisition / Site Control: 8, Unknown Stage: 51, Refinancing / Recapitalization: 6, Construction Started: 2
+- Lifecycle records: 77
+- LA lifecycle watch items: 49
+- Stage mix: Delivery / Opening: 6, Site Acquisition / Site Control: 7, Unknown Stage: 47, Refinancing / Recapitalization: 9, Construction Started: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

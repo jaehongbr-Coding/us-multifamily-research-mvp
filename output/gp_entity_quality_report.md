@@ -1,17 +1,19 @@
 # GP / Capital Entity Quality Report
 
-Generated: 2026-11-08 02:04:39
+Generated: 2026-11-09 02:24:53
 
 ## Summary
 
-- Total GP/Capital articles: 40
-- Participant not identified: 15
-- Dictionary match: 21
+- Total GP/Capital articles: 39
+- Participant not identified: 14
+- Dictionary match: 22
 - Title fallback / headline extraction: 1
-- Low confidence or unresolved: 15
+- Low confidence or unresolved: 14
 
 ## Representative Resolved Samples
 
+- EMBREY Partners: EMBREY Partners with Southstar Development Close on $71M Construction Loan for Nashville-Area Multifamily Project (dictionary_match, high)
+- Affinius Capital: Affinius Capital Originates $98M Loan to Refinance Luxury Multifamily Property in Washington DC (dictionary_match, high)
 - JLL: JLL Arranges $10.732M Sale and $6.7M Financing of Seattle Apartment Community (dictionary_match, high)
 - McCourt Partners: Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use (dictionary_match, high)
 - Affinius Capital: Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower (dictionary_match, high)
@@ -20,12 +22,9 @@ Generated: 2026-11-08 02:04:39
 - Wood Partners: Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durham (dictionary_match, high)
 - Greystar: Greystar, Vantage Acquire Chamblee Property for 340-Unit Multifamily Community (dictionary_match, high)
 - Greystone: BTI, Bridge Score $109M for Hollywood’s Bread Building (dictionary_match, high)
-- Blackstone: Terra, Fortune Ink $220M Key Biscayne Condo Financing (dictionary_match, high)
-- CBRE: ORIX Acquires Buckhead Apartments for $83M (dictionary_match, high)
 
 ## Unresolved Examples
 
-- 377 apartments rise next to Brea Mall | Urbanize LA | No institution name detected in dictionary, title, summary, or source text.
 - Northmarq Brokers Sale of 56-Unit Apartment Complex in Lawrence, Kansas | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
 - Atlas Capital Snags Hell’s Kitchen Apartments for Reported $150M | Connect CRE | No institution name detected in dictionary, title, summary, or source text.
 - Northmarq Arranges Sale of 3 Mid-Rise Multifamily Properties in Ogden and Salt Lake City Utah | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
@@ -35,3 +34,4 @@ Generated: 2026-11-08 02:04:39
 - Multifamily Refinancing Squeeze: 41% Higher Costs, $6.8B Equity Gap | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
 - HUD launches ‘express lane’ for LIHTC multifamily construction loans | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.
 - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market? | Multifamily Executive | No institution name detected in dictionary, title, summary, or source text.
+- Perimeter Center Rental Community Goes for $120M | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.

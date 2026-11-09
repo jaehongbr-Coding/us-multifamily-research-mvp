@@ -1,9 +1,10 @@
 # Institutional Relationship & Capital Flow Report
 
-Generated: 2026-11-08 02:04:39
+Generated: 2026-11-09 02:24:53
 
 ## Top Institutional Relationship Signals
 
+- Affinius Capital: score 100, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Greystar: score 100, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 - JLL: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Lincoln Property Company: score 100, Development Capital Deployment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
@@ -12,7 +13,6 @@ Generated: 2026-11-08 02:04:39
 - CrossHarbor Capital: score 97, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Atlas Capital Group: score 96, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 - Blackstone: score 96, Refinancing / Recapitalization, GP Capability Benchmark Signal. Track refinancing or recapitalization pipeline.
-- Affinius Capital: score 95, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Bridge Investment Group: score 91, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 
 ## Tier 1 Firm Watch
@@ -44,16 +44,16 @@ Generated: 2026-11-08 02:04:39
 
 ## JV / Partnership Signals
 
+- Affinius Capital: score 100, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - JLL: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Lincoln Property Company: score 100, Development Capital Deployment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - McCourt Partners: score 99, Development Capital Deployment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - CrossHarbor Capital: score 97, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Affinius Capital: score 95, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Bridge Investment Group: score 91, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- EMBREY Partners: score 91, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Freddie Mac: score 91, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Greystone: score 91, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Wood Partners: score 91, No Clear Capital Flow Signal, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Hines: score 90, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- IPA: score 91, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 
 ## Competitive Benchmark Signals
 
@@ -72,15 +72,15 @@ Generated: 2026-11-08 02:04:39
 
 | Firm | Market | Source Category | Activity Type | Capital Flow | Relationship Signal | Woomi Implication |
 | --- | --- | --- | --- | --- | --- | --- |
+| Affinius Capital | New York City / New York; Other / Unknown; Washington DC | Core Multifamily News; Site / Parcel Source Expansion | refinancing; JV / partnership; operational technology / AI adoption | Refinancing / Recapitalization | Potential JV / Partnership Signal | potential JV partnership signal |
 | Greystar | Atlanta / Georgia | Site / Parcel Source Expansion | acquisition; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
 | JLL | Other / Unknown; Phoenix / Arizona; Seattle | Core Multifamily News; Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; JV / partnership; capital raise; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
 | Lincoln Property Company | Los Angeles / California | Core Multifamily News | development start; JV / partnership; operational technology / AI adoption | Development Capital Deployment | Potential JV / Partnership Signal | potential JV partnership signal |
-| Marcus & Millichap | California; Los Angeles / California; National; New York City / New York; Other / Unknown | Core Multifamily News; Regional / California / LA Sources; Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
+| Marcus & Millichap | California; Los Angeles / California; National; New York City / New York | Core Multifamily News; Regional / California / LA Sources; Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
 | McCourt Partners | Los Angeles / California | Core Multifamily News | development start; JV / partnership; operational technology / AI adoption | Development Capital Deployment | Potential JV / Partnership Signal | potential JV partnership signal |
 | CrossHarbor Capital | Phoenix / Arizona | Site / Parcel Source Expansion | refinancing; JV / partnership; operational technology / AI adoption | Refinancing / Recapitalization | Potential JV / Partnership Signal | potential JV partnership signal |
 | Atlas Capital Group | New York City / New York | Core Multifamily News | acquisition; disposition / exit; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
 | Blackstone | Miami / Florida | Site / Parcel Source Expansion | refinancing; operational technology / AI adoption | Refinancing / Recapitalization | GP Capability Benchmark Signal | competitive pressure indicator |
-| Affinius Capital | New York City / New York; Other / Unknown | Core Multifamily News; Site / Parcel Source Expansion | refinancing; JV / partnership; operational technology / AI adoption | Refinancing / Recapitalization | Potential JV / Partnership Signal | potential JV partnership signal |
 | Bridge Investment Group | Miami / Florida | Site / Parcel Source Expansion | refinancing; JV / partnership; operational technology / AI adoption | Refinancing / Recapitalization | Potential JV / Partnership Signal | potential JV partnership signal |
 
 ## Deal / Project Intelligence
@@ -143,6 +143,7 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Recommended Executive Follow-Up
 
+- Affinius Capital: Map potential GP / JV relationship and monitor partnership activity
 - Greystar: Track capital deployment and pricing signals
 - JLL: Map potential GP / JV relationship and monitor partnership activity
 - Lincoln Property Company: Map potential GP / JV relationship and monitor partnership activity
@@ -150,16 +151,15 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 - McCourt Partners: Map potential GP / JV relationship and monitor partnership activity
 - CrossHarbor Capital: Map potential GP / JV relationship and monitor partnership activity
 - Atlas Capital Group: Track capital deployment and pricing signals
-- Blackstone: Track refinancing or recapitalization pipeline
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 157
-- Institutional-grade signals: 18
-- High-confidence signals: 48
-- Weak/noisy signals: 88
-- High-confidence watchlist items: 48
+- Signals evaluated: 152
+- Institutional-grade signals: 20
+- High-confidence signals: 49
+- Weak/noisy signals: 85
+- High-confidence watchlist items: 49
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

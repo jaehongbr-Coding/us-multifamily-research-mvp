@@ -1,6 +1,6 @@
 # Source Health Report
 
-Generated: 2026-11-08 02:04:35
+Generated: 2026-11-09 02:24:43
 
 - Total sources attempted: 163
 - Working sources: 22
@@ -11,7 +11,7 @@ Generated: 2026-11-08 02:04:35
 ## High-Value Sources
 
 - Multifamily Dive (Core Multifamily News): 4 saved article(s).
-- Yield PRO (Core Multifamily News): 8 saved article(s).
+- Yield PRO (Core Multifamily News): 9 saved article(s).
 - Connect CRE (Core Multifamily News): 3 saved article(s).
 - NAHB Eye on Housing - Multifamily (Public Agency / Housing Data): 15 saved article(s).
 - Urbanize LA (Regional / California / LA Sources): 8 saved article(s).
@@ -44,7 +44,7 @@ Generated: 2026-11-08 02:04:35
 - Blackstone Real Estate: RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token)
 - California YIMBY: RSS parsing issue: <urlopen error [Errno -2] Name or service not known>
 - Connect CRE Charlotte: RSS parsing issue: status=404; <unknown>:22:51: not well-formed (invalid token)
-- Blackstone Real Estate Source Expansion: RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token)
+- Blackstone Real Estate Source Expansion: RSS parsing issue: status=301; <unknown>:2:1326: not well-formed (invalid token)
 - Hines Source Expansion: RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token)
 - Berkadia Source Expansion: RSS parsing issue: status=301; <unknown>:7:75: not well-formed (invalid token)
 - Walker & Dunlop Source Expansion: RSS parsing issue: status=301; <unknown>:2:2016: not well-formed (invalid token)
@@ -73,7 +73,7 @@ Developer / GP source coverage is available in `gp_source_coverage_report.md`.
 Validated source activation scoring is available in `source_activation_report.md`.
 - Working activated sources: 21
 - Failed critical sources: 11
-- Highest quality source this run: Yield PRO (94).
+- Highest quality source this run: Multifamily Dive (90).
 
 ## Recommended Source Improvement Actions
 

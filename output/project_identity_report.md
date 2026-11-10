@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-11-09 02:25:13
+Generated: 2026-11-10 04:31:10
 
-- Total raw project references: 624
-- Total canonical projects: 152
-- Duplicate project clusters: 103
-- High-confidence project identities: 624
+- Total raw project references: 782
+- Total canonical projects: 174
+- Duplicate project clusters: 124
+- High-confidence project identities: 782
 - Low-confidence identities needing review: 0
-- LA / California project references: 441
+- LA / California project references: 526
 
 ## Top Repeated Projects
 
-- Disposition / Exit - Salt Lake City / Utah - Northmarq Arranges Sale of 3 Mid-Rise Multifamily Properties in Ogden and Salt Lake City U...: 43 occurrence(s), confidence 80.
-- Disposition / Exit - Salt Lake City / Utah - Northmarq Arranges Sale of 3 Mid-Rise Multifamily Properties in Ogden and Salt Lake City U...: 43 occurrence(s), confidence 80.
-- Disposition / Exit - Salt Lake City / Utah - Northmarq Arranges Sale of 3 Mid-Rise Multifamily Properties in Ogden and Salt Lake City U...: 43 occurrence(s), confidence 80.
-- Disposition / Exit - Salt Lake City / Utah - Northmarq Arranges Sale of 3 Mid-Rise Multifamily Properties in Ogden and Salt Lake City U...: 43 occurrence(s), confidence 80.
-- Disposition / Exit - Salt Lake City / Utah - Northmarq Arranges Sale of 3 Mid-Rise Multifamily Properties in Ogden and Salt Lake City U...: 43 occurrence(s), confidence 80.
-- Disposition / Exit - Salt Lake City / Utah - Northmarq Arranges Sale of 3 Mid-Rise Multifamily Properties in Ogden and Salt Lake City U...: 43 occurrence(s), confidence 80.
-- Disposition / Exit - Salt Lake City / Utah - Northmarq Arranges Sale of 3 Mid-Rise Multifamily Properties in Ogden and Salt Lake City U...: 43 occurrence(s), confidence 80.
-- Disposition / Exit - Salt Lake City / Utah - Northmarq Arranges Sale of 3 Mid-Rise Multifamily Properties in Ogden and Salt Lake City U...: 43 occurrence(s), confidence 80.
-- Disposition / Exit - Salt Lake City / Utah - Northmarq Arranges Sale of 3 Mid-Rise Multifamily Properties in Ogden and Salt Lake City U...: 43 occurrence(s), confidence 80.
-- Disposition / Exit - Salt Lake City / Utah - Northmarq Arranges Sale of 3 Mid-Rise Multifamily Properties in Ogden and Salt Lake City U...: 43 occurrence(s), confidence 80.
+- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: 64 occurrence(s), confidence 80.
+- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: 64 occurrence(s), confidence 80.
+- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: 64 occurrence(s), confidence 80.
+- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: 64 occurrence(s), confidence 80.
+- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: 64 occurrence(s), confidence 80.
+- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: 64 occurrence(s), confidence 80.
+- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: 64 occurrence(s), confidence 80.
+- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: 64 occurrence(s), confidence 80.
+- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: 64 occurrence(s), confidence 80.
+- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: 64 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

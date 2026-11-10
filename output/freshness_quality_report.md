@@ -1,33 +1,33 @@
 # Freshness Quality Report
 
-Generated: 2026-11-09 02:24:43
+Generated: 2026-11-10 04:30:30
 
 ## Freshness Summary
 
-- Total articles reviewed: 71
-- fresh_0_3d: 50
-- recent_4_14d: 1
+- Total articles reviewed: 81
+- fresh_0_3d: 59
+- recent_4_14d: 2
 - stale_15_30d: 0
 - old_31d_plus: 20
 - unknown_date: 0
 
 ## Old Articles Excluded From Representative Evidence
 
-- ORIX Acquires Buckhead Apartments for $83M (Connect CRE Atlanta, 2026-10-23): published date parsed; article age 17 day(s)
-- Anaheim Sale is First Closing in Broader Multifamily Portfolio (Connect CRE Orange County, 2026-10-20): published date parsed; article age 20 day(s)
-- Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 (NAHB Eye on Housing - Multifamily, 2026-07-27): published date parsed; article age 105 day(s)
-- Multifamily Missing Middle Falls Back (NAHB Eye on Housing - Multifamily, 2026-08-26): published date parsed; article age 75 day(s)
-- Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily, 2026-05-27): published date parsed; article age 166 day(s)
-- Multifamily Absorption Rate Remains Below 50% (NAHB Eye on Housing - Multifamily, 2026-08-28): published date parsed; article age 73 day(s)
-- Hines Pays $237.8M for Buckhead Rental Community (Connect CRE Atlanta, 2026-10-07): published date parsed; article age 33 day(s)
-- Shorter Apartment Construction Time in 2025 (NAHB Eye on Housing - Multifamily, 2026-09-07): published date parsed; article age 63 day(s)
-- Second Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-08-25): published date parsed; article age 76 day(s)
-- Rent Prices Continue to Rise, While Absorption Remains Low (NAHB Eye on Housing - Multifamily, 2026-05-29): published date parsed; article age 164 day(s)
-- The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market? (Multifamily Executive, 2026-10-14): published date parsed; article age 26 day(s)
-- First Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-05-26): published date parsed; article age 167 day(s)
-- Private Residential Construction Spending Increases in March (NAHB Eye on Housing - Multifamily, 2026-05-07): published date parsed; article age 186 day(s)
-- Multifamily Developer Confidence Weakens in Second Quarter (NAHB Eye on Housing - Multifamily, 2026-08-06): published date parsed; article age 95 day(s)
-- Multifamily Developer Confidence Holds Steady in First Quarter (NAHB Eye on Housing - Multifamily, 2026-05-07): published date parsed; article age 186 day(s)
+- ORIX Acquires Buckhead Apartments for $83M (Connect CRE Atlanta, 2026-10-23): published date parsed; article age 18 day(s)
+- Anaheim Sale is First Closing in Broader Multifamily Portfolio (Connect CRE Orange County, 2026-10-20): published date parsed; article age 21 day(s)
+- Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 (NAHB Eye on Housing - Multifamily, 2026-07-27): published date parsed; article age 106 day(s)
+- Multifamily Missing Middle Falls Back (NAHB Eye on Housing - Multifamily, 2026-08-26): published date parsed; article age 76 day(s)
+- Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily, 2026-05-27): published date parsed; article age 167 day(s)
+- Multifamily Absorption Rate Remains Below 50% (NAHB Eye on Housing - Multifamily, 2026-08-28): published date parsed; article age 74 day(s)
+- Hines Pays $237.8M for Buckhead Rental Community (Connect CRE Atlanta, 2026-10-07): published date parsed; article age 34 day(s)
+- Shorter Apartment Construction Time in 2025 (NAHB Eye on Housing - Multifamily, 2026-09-07): published date parsed; article age 64 day(s)
+- Second Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-08-25): published date parsed; article age 77 day(s)
+- Rent Prices Continue to Rise, While Absorption Remains Low (NAHB Eye on Housing - Multifamily, 2026-05-29): published date parsed; article age 165 day(s)
+- The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market? (Multifamily Executive, 2026-10-14): published date parsed; article age 27 day(s)
+- First Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily, 2026-05-26): published date parsed; article age 168 day(s)
+- Private Residential Construction Spending Increases in March (NAHB Eye on Housing - Multifamily, 2026-05-07): published date parsed; article age 187 day(s)
+- Multifamily Developer Confidence Weakens in Second Quarter (NAHB Eye on Housing - Multifamily, 2026-08-06): published date parsed; article age 96 day(s)
+- Multifamily Developer Confidence Holds Steady in First Quarter (NAHB Eye on Housing - Multifamily, 2026-05-07): published date parsed; article age 187 day(s)
 
 ## Old Articles Excluded From Development Activity Top Exposure
 

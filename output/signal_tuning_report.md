@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-11-09 02:24:42
+Generated: 2026-11-10 04:30:29
 
 ## Top Strategic Relevance Articles
 
-- 86 / richness 85: Timberlane Partners Spends $83M on WA Multifamily Community (Connect CRE Apartments, Seattle) - JV or partnership activity; institutional acquisition behavior
-- 80 / richness 75: Affinius Capital Originates $98M Loan to Refinance Luxury Multifamily Property in Washington DC (Yield PRO, Washington DC) - JV or partnership activity; large-scale refinance tied to strategy
+- 100 / richness 85: American Campus Communities Expands Partnership with UC Irvine (Connect CRE, California) - sponsor expansion; JV or partnership activity; institutional acquisition behavior
+- 85 / richness 75: Winn Secures Financing for 116-Unit Community on Behalf of New England Homes for the Deaf (Yield PRO, Other / Unknown) - JV or partnership activity; entitlement persistence
+- 80 / richness 85: Northmarq Negotiates Sale of 350-Unit Apartment Community in Greenville, South Carolina (REBusiness Online, Austin / Texas) - institutional acquisition behavior; large-scale refinance tied to strategy
 - 74 / richness 100: Benedict Canyon Acquires Neighboring West Hollywood Properties (Connect CRE California, Los Angeles / California) - institutional acquisition behavior
-- 74 / richness 100: A&C Properties Sells Grocery-Anchored Retail Portfolio in Arizona for $108.7M (REBusiness Online, Phoenix / Arizona) - institutional acquisition behavior
-- 73 / richness 90: EMBREY Partners with Southstar Development Close on $71M Construction Loan for Nashville-Area Multifamily Project (Yield PRO, Nashville / Tennessee) - JV or partnership activity
-- 71 / richness 90: JLL Arranges $10.732M Sale and $6.7M Financing of Seattle Apartment Community (Yield PRO, Seattle) - institutional acquisition behavior
-- 70 / richness 85: Atlas Capital Snags Hell’s Kitchen Apartments for Reported $150M (Connect CRE, New York City / New York) - institutional acquisition behavior
-- 70 / richness 85: Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Texas (REBusiness Online, Texas) - institutional acquisition behavior
-- 70 / richness 75: Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower (REBusiness Online, New York City / New York) - JV or partnership activity; large-scale refinance tied to strategy; classification confidence penalty
-- 66 / richness 60: Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community (Connect CRE Apartments, Dallas / Texas) - development continuation
+- 71 / richness 90: TruAmerica Multifamily Breaks Ground on 154-Unit Townhome Community in Santa Clarita, California (REBusiness Online, California) - institutional acquisition behavior
+- 70 / richness 85: Walker & Dunlop Arranges $110M Financing for Multifamily Community in Franklin, Tennessee (REBusiness Online, Tennessee) - institutional acquisition behavior
+- 69 / richness 45: Layton Construction Breaks Ground on the Residences at Wilson Creek in Caldwell Idaho (Yield PRO, Other / Unknown) - sponsor expansion; entitlement persistence; classification confidence penalty
+- 67 / richness 90: $92.1M Refinancing Arranged for Arizona Multifamily Community (Yield PRO, Arizona) - large-scale refinance tied to strategy
+- 67 / richness 70: CBRE Arranges $30M Sale of Multifamily Portfolio in Madison (Connect CRE Apartments, Other / Unknown) - institutional acquisition behavior
+- 67 / richness 70: IPA Negotiates Sale of 71-Unit Apartment Building in Pleasantville, New York (REBusiness Online, New York) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -21,7 +21,7 @@ Generated: 2026-11-09 02:24:42
 - 0: Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: Multifamily Missing Middle Falls Back (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
 - 0: Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
-- 0: Leon Multifamily Break Ground on 343-Unit North Phoenix Multifamily Community (Yield PRO) - confidence unknown; integrity valid
+- 0: Your Next Client Won't Google You: 94% of B2B Buyers Use AI When They Buy. (Urbanize LA) - confidence low; integrity low_value_promotional
 - 0: Second Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market? (Multifamily Executive) - confidence low; integrity low_value_promotional
 - 0: First Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
@@ -35,19 +35,19 @@ Generated: 2026-11-09 02:24:42
 
 ## Potential Parsing Integrity Issues
 
-- suspicious_mismatch: Greystar, Vantage Acquire Chamblee Property for 340-Unit Multifamily Community (Connect CRE Apartments) - source page may contain multiple article blocks
+- low_value_promotional: Your Next Client Won't Google You: 94% of B2B Buyers Use AI When They Buy. (Urbanize LA) - promotional/event keyword: sponsored
 - low_value_promotional: The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market? (Multifamily Executive) - promotional/event keyword: sponsored
 - low_value_promotional: AI, Automation & the Future of Multifamily Finance (Multifamily Executive) - promotional/event keyword: webinar
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 23
-- Development / sponsor behavior articles: 34
+- Financing-oriented articles: 31
+- Development / sponsor behavior articles: 46
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations
 
-- No obvious office/industrial/retail contamination candidates detected after filtering.
+- Review possible non-multifamily contamination: Cabot Properties Buys 5.4-Acre Industrial Development Site in Los Angeles (REBusiness Online)
 
 ## Suggested Weighting Adjustments
 

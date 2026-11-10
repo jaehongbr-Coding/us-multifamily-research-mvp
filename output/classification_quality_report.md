@@ -1,48 +1,48 @@
 # Classification Quality Report
 
-Generated: 2026-11-09 02:24:42
+Generated: 2026-11-10 04:30:29
 
 ## Classification Summary
 
-- Total articles classified: 71
-- Topic distribution: development_pipeline: 15; transaction_market: 12; capital_markets: 10; gp_activity: 8; supply_demand: 8; institutional_capital: 5; other: 5; macro_financing: 4
+- Total articles classified: 81
+- Topic distribution: development_pipeline: 22; capital_markets: 10; transaction_market: 10; macro_financing: 9; institutional_capital: 8; gp_activity: 7; other: 6; supply_demand: 6
 - Classification is rule-based and conservative. Low or unknown labels should be treated as review queues, not failures.
 
 ## Topic Distribution
 
-- development_pipeline: 15 article(s), high 2, medium 6, low 7, unknown 0. Top markets: Other / Unknown (7); Los Angeles / California (2); Phoenix / Arizona (2); Dallas / Texas (2); Miami / Florida (1).
-- transaction_market: 12 article(s), high 1, medium 6, low 5, unknown 0. Top markets: Atlanta / Georgia (3); New York City / New York (3); Seattle (2); Other / Unknown (1); California (1).
-- capital_markets: 10 article(s), high 3, medium 4, low 3, unknown 0. Top markets: Other / Unknown (3); Phoenix / Arizona (2); Nashville / Tennessee (1); Washington DC (1); Los Angeles / California (1).
-- gp_activity: 8 article(s), high 0, medium 0, low 0, unknown 8. Top markets: Other / Unknown (4); Atlanta / Georgia (1); Phoenix / Arizona (1); California (1); National (1).
-- supply_demand: 8 article(s), high 1, medium 0, low 7, unknown 0. Top markets: National (4); Other / Unknown (3); Dallas / Texas (1).
-- institutional_capital: 5 article(s), high 0, medium 2, low 3, unknown 0. Top markets: California (1); Miami / Florida (1); Seattle (1); Other / Unknown (1); Atlanta / Georgia (1).
-- other: 5 article(s), high 0, medium 0, low 0, unknown 5. Top markets: Los Angeles / California (2); Santa Monica / California (1); Other / Unknown (1); San Francisco / California (1).
-- macro_financing: 4 article(s), high 0, medium 0, low 0, unknown 4. Top markets: Other / Unknown (4).
-- research_data: 4 article(s), high 0, medium 0, low 0, unknown 4. Top markets: Los Angeles / California (3); California (1).
+- development_pipeline: 22 article(s), high 2, medium 10, low 10, unknown 0. Top markets: Other / Unknown (9); Dallas / Texas (4); California (3); Los Angeles / California (2); San Francisco / California (1).
+- capital_markets: 10 article(s), high 1, medium 7, low 2, unknown 0. Top markets: Other / Unknown (2); New York City / New York (2); Phoenix / Arizona (2); Austin / Texas (1); Miami / Florida (1).
+- transaction_market: 10 article(s), high 1, medium 6, low 3, unknown 0. Top markets: Atlanta / Georgia (3); Other / Unknown (2); California (1); Tennessee (1); Santa Monica / California (1).
+- macro_financing: 9 article(s), high 0, medium 0, low 0, unknown 9. Top markets: Other / Unknown (3); California (2); Los Angeles / California (1); Miami / Florida (1); National (1).
+- institutional_capital: 8 article(s), high 0, medium 3, low 5, unknown 0. Top markets: Atlanta / Georgia (2); Other / Unknown (2); National (2); Miami / Florida (1); California (1).
+- gp_activity: 7 article(s), high 0, medium 0, low 1, unknown 6. Top markets: Other / Unknown (3); National (2); California (1); Los Angeles / California (1).
+- other: 6 article(s), high 0, medium 0, low 0, unknown 6. Top markets: Los Angeles / California (2); Santa Monica / California (1); New York City / New York (1); Dallas / Texas (1); San Francisco / California (1).
+- supply_demand: 6 article(s), high 0, medium 0, low 6, unknown 0. Top markets: Other / Unknown (3); National (3).
+- research_data: 3 article(s), high 0, medium 0, low 0, unknown 3. Top markets: Los Angeles / California (3).
 
 ## Low Confidence / Unknown Articles
 
+- Marcus & Millichap Closes Sale and Arranges Financing for West Hollywood Multifamily Portfolio (Yield PRO, Los Angeles / California): No clear rule-based event keyword was detected. Primary topic set to macro_financing; confidence unknown.
+- Newmark Arranges Refi for Prospect Lefferts Gardens Multifamily (Connect CRE, New York City / New York): Capital event keywords detected: refinancing. Primary topic set to capital_markets; confidence low.
+- Fresh renderings for West Hollywood's Melrose Triangle development (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to other; confidence unknown.
 - Six homes planned at 1420 S. Point View St. in Mid-City (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to other; confidence unknown.
 - Construction goes vertical for affordable housing at 21155 Califa St. in Warner Center (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to research_data; confidence unknown.
 - Fresh renderings for Santa Monica apartments at 1338 5th St. (Urbanize LA, Santa Monica / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to other; confidence unknown.
 - Affordable housing planned at 1135 N. Westmoreland Ave. in East Hollywood (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to research_data; confidence unknown.
-- Excavation underway for affordable housing at 1248 N. Cherokee Ave. in Hollywood (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to research_data; confidence unknown.
-- Affordable housing on the rise at 3990 S. Wade. St. in Mar Vista (Urbanize LA, California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to research_data; confidence unknown.
-- Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower (REBusiness Online, New York City / New York): Capital event keywords detected: refinancing, joint_venture. Primary topic set to capital_markets; confidence low.
-- Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durham (REBusiness Online, California): Capital event keywords detected: joint_venture. Primary topic set to institutional_capital; confidence low.
-- Greystar, Vantage Acquire Chamblee Property for 340-Unit Multifamily Community (Connect CRE Apartments, Atlanta / Georgia): No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
+- New Building Permits For ADU at 4300 17th Street in Corona Heights, San Francisco (SF YIMBY, San Francisco / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Development-stage terms detected: permit. Primary topic set to development_pipeline; confidence low.
 - Groundbreaking For Liberation Park Residences, Oakland (SF YIMBY, Other / Unknown): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Development-stage terms detected: construction_start. Primary topic set to development_pipeline; confidence low.
-- Atlas Capital Group Buys 360 West 43rd Street Apartments for $143M (Commercial Observer, New York City / New York): Capital event keywords detected: acquisition. Primary topic set to transaction_market; confidence low.
-- TruAmerica Breaks Ground On Santa Clarita Multifamily: The Los Angeles Deal Sheet (Bisnow, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Development-stage terms detected: construction_start. Primary topic set to development_pipeline; confidence low.
+- Site prep begins for housing at 2301 N. Sepulveda Blvd. in Manhattan Beach (Urbanize LA, New York City / New York): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to other; confidence unknown.
+- Cerritos College plans 102-unit student housing complex (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to research_data; confidence unknown.
+- MMCC Arranges Credit Union Financing for Three Central Valley Multifamily Properties (Connect CRE, California): No clear rule-based event keyword was detected. Primary topic set to macro_financing; confidence unknown.
 - Fourth Sale Closes in Anaheim Multifamily Portfolio (Connect CRE Orange County, California): Capital event keywords detected: disposition. Primary topic set to transaction_market; confidence low.
-- Northmarq Arranges Sale of 3 Mid-Rise Multifamily Properties in Ogden and Salt Lake City Utah (Yield PRO, Salt Lake City / Utah): Capital event keywords detected: disposition. Primary topic set to transaction_market; confidence low.
+- 3 multifamily groundbreakings you may have missed (Multifamily Dive, California): Development-stage terms detected: construction_start. Primary topic set to development_pipeline; confidence low.
+- JV Pays Nearly $15M on Property for Nashville Apartment, Retail Venture (Connect CRE Apartments, Atlanta / Georgia): Capital event keywords detected: joint_venture. Primary topic set to institutional_capital; confidence low.
+- Related Building 494 Boca Raton Apartment Units (Connect CRE Apartments, Miami / Florida): No clear rule-based event keyword was detected. Primary topic set to macro_financing; confidence unknown.
+- Marcus & Millichap Brokers Multifamily Sale in Santa Monica’s Ocean Park Neighborhood (Yield PRO, Santa Monica / California): Capital event keywords detected: disposition. Primary topic set to transaction_market; confidence low.
+- Wu Proposes Loosening Affordable Housing Mandates To Spur Development (Bisnow, Other / Unknown): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Development-stage terms detected: entitlement. Primary topic set to development_pipeline; confidence low.
+- Northmarq Arranges Sale of 3 Property Luxury Multifamily Portfolio in Northern Utah (Yield PRO, Salt Lake City / Utah): Capital event keywords detected: disposition. Primary topic set to transaction_market; confidence low.
 - Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 (NAHB Eye on Housing - Multifamily, Other / Unknown): Development-stage terms detected: delivery. Primary topic set to development_pipeline; confidence low.
-- 123 homes planned at 902 W. Washington Blvd. in University Park (Urbanize LA, Other / Unknown): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to other; confidence unknown.
-- Multifamily Missing Middle Falls Back (NAHB Eye on Housing - Multifamily, Other / Unknown): No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
-- Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily, Other / Unknown): No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
-- Kidder Mathews Arranges $17.5M Sale of 101 Broadway a 44-Unit Mixed-Use Asset in Seattle’s Capitol Hill (Yield PRO, Seattle): Capital event keywords detected: disposition. Primary topic set to transaction_market; confidence low.
-- Trammell Crow Building 248 McKinney Apartment Units, 3 Hotels (Connect CRE Texas, Dallas / Texas): Development-stage terms detected: entitlement. Primary topic set to development_pipeline; confidence low.
-- Additional low/unknown rows omitted: 26
+- Additional low/unknown rows omitted: 31
 
 ## Data Quality Notes
 

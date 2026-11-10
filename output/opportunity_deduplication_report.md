@@ -1,50 +1,51 @@
 # Opportunity Deduplication Report
 
-Generated: 2026-11-09 02:25:11
+Generated: 2026-11-10 04:31:04
 
-- Total duplicate clusters: 10
+- Total duplicate clusters: 8
 - Opportunities removed via deduplication: 0
 - Distress inflation prevented: 0
 
 ## Strongest Multi-Source Confirmed Opportunities
 
-- CrossHarbor Capital Secures $78.5M in Construction Financing for Multifamily Community in Tempe: Phoenix / Arizona, 2 related row(s), opportunity score 89, distress score 67.
-- JLL Arranges $67.3M Loan for Refinancing of Metro Boston Apartment Building: Other / Unknown, 2 related row(s), opportunity score 87, distress score 64.
-- RED Inks Refi on Camelback Office Building: Phoenix / Arizona, 2 related row(s), opportunity score 86, distress score 63.
-- Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower: New York City / New York, 2 related row(s), opportunity score 85, distress score 64.
-- Affinius Capital Originates $98M Loan to Refinance Luxury Multifamily Property in Washington DC: Washington DC, 2 related row(s), opportunity score 85, distress score 63.
-- EMBREY Partners with Southstar Development Close on $71M Construction Loan for Nashville-Area Multifamily Project: Nashville / Tennessee, 2 related row(s), opportunity score 84, distress score 63.
+- RED Inks Refi on Camelback Office Building: Phoenix / Arizona, 2 related row(s), opportunity score 87, distress score 63.
+- RED Development Receives $69.3M Refinancing for Offices at The Grove in Phoenix: Phoenix / Arizona, 2 related row(s), opportunity score 86, distress score 63.
+- $92.1M Refinancing Arranged for Arizona Multifamily Community: Arizona, 2 related row(s), opportunity score 85, distress score 65.
 - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use: Los Angeles / California, 2 related row(s), opportunity score 83, distress score 61.
-- Starwood, Trinitas Nab $100M From Affinius Capital to Build Pittsburgh Student Housing: Other / Unknown, 2 related row(s), opportunity score 80, distress score 58.
-- Multifamily Refinancing Squeeze: 41% Higher Costs, $6.8B Equity Gap: National, 2 related row(s), opportunity score 58, distress score 51.
+- Related Group Lands $177M to Build Resi Complex at Office Depot HQ: Other / Unknown, 2 related row(s), opportunity score 71, distress score 59.
+- Newmark Arranges Refi for Prospect Lefferts Gardens Multifamily: New York City / New York, 2 related row(s), opportunity score 63, distress score 60.
+- Kadima Inks Financing for 121-unit Hallandale Beach Condo Project: Miami / Florida, 2 related row(s), opportunity score 61, distress score 57.
 - HUD launches ‘express lane’ for LIHTC multifamily construction loans: Other / Unknown, 2 related row(s), opportunity score 56, distress score 49.
 
 ## Repeated Refinancing Stories
 
-- JLL Arranges $67.3M Loan for Refinancing of Metro Boston Apartment Building: Other / Unknown, 2 related row(s), opportunity score 87, distress score 64.
-- RED Inks Refi on Camelback Office Building: Phoenix / Arizona, 2 related row(s), opportunity score 86, distress score 63.
-- Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower: New York City / New York, 2 related row(s), opportunity score 85, distress score 64.
-- Affinius Capital Originates $98M Loan to Refinance Luxury Multifamily Property in Washington DC: Washington DC, 2 related row(s), opportunity score 85, distress score 63.
-- Multifamily Refinancing Squeeze: 41% Higher Costs, $6.8B Equity Gap: National, 2 related row(s), opportunity score 58, distress score 51.
+- RED Inks Refi on Camelback Office Building: Phoenix / Arizona, 2 related row(s), opportunity score 87, distress score 63.
+- RED Development Receives $69.3M Refinancing for Offices at The Grove in Phoenix: Phoenix / Arizona, 2 related row(s), opportunity score 86, distress score 63.
+- $92.1M Refinancing Arranged for Arizona Multifamily Community: Arizona, 2 related row(s), opportunity score 85, distress score 65.
+- Newmark Arranges Refi for Prospect Lefferts Gardens Multifamily: New York City / New York, 2 related row(s), opportunity score 63, distress score 60.
 
 ## Repeated GP Partnership Stories
 
-- Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durham: California, 1 related row(s), opportunity score 86, distress score 0.
+- American Campus Communities Expands Partnership with UC Irvine: California, 1 related row(s), opportunity score 91, distress score 0.
 - Benedict Canyon Acquires Neighboring West Hollywood Properties: Los Angeles / California, 1 related row(s), opportunity score 85, distress score 0.
-- Terra, Fortune Ink $220M Key Biscayne Condo Financing: Miami / Florida, 1 related row(s), opportunity score 83, distress score 0.
+- Marcus & Millichap Closes Sale and Arranges Financing for West Hollywood Multifamily Portfolio: Los Angeles / California, 1 related row(s), opportunity score 85, distress score 0.
+- Terra, Fortune Ink $220M Key Biscayne Condo Financing: Miami / Florida, 1 related row(s), opportunity score 84, distress score 0.
 - BTI, Bridge Score $109M for Hollywood’s Bread Building: Miami / Florida, 1 related row(s), opportunity score 82, distress score 0.
-- Marcus & Millichap Closes $28.5M Waterfront Multifamily Asset Sale in Queens: New York City / New York, 1 related row(s), opportunity score 80, distress score 0.
-- Greystar, Vantage Acquire Chamblee Property for 340-Unit Multifamily Community: Atlanta / Georgia, 1 related row(s), opportunity score 79, distress score 0.
-- Mortgage Rates Tilt Demand Toward Multifamily: Marcus & Millichap: National, 1 related row(s), opportunity score 73, distress score 0.
-- Timberlane Partners Spends $83M on WA Multifamily Community: Seattle, 1 related row(s), opportunity score 59, distress score 0.
-- Morehouse, Spelman Debut $147M Student Housing Project: Atlanta / Georgia, 1 related row(s), opportunity score 56, distress score 0.
+- Marcus & Millichap Brokers Multifamily Sale in Santa Monica’s Ocean Park Neighborhood: Santa Monica / California, 1 related row(s), opportunity score 81, distress score 0.
+- MMCC Arranges $34M in Financing for Wisconsin Multifamily Property: National, 1 related row(s), opportunity score 79, distress score 0.
+- Marcus & Millichap Closes $25.8M Multifamily Property Portfolio Sale in Indianapolis: Other / Unknown, 1 related row(s), opportunity score 79, distress score 0.
+- Updated Renderings For 47-Story Office Variant at 536 Mission Street, San Francisco: San Francisco / California, 1 related row(s), opportunity score 75, distress score 0.
+- When Will Rising Interest Rates Impact Pricing? Follow the Contracts.: National, 1 related row(s), opportunity score 67, distress score 0.
 
 ## California / LA Duplicate Project Tracking
 
-- Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durham: California, 1 related row(s), opportunity score 86, distress score 0.
-- Fourth Sale Closes in Anaheim Multifamily Portfolio: California, 1 related row(s), opportunity score 86, distress score 0.
+- American Campus Communities Expands Partnership with UC Irvine: California, 1 related row(s), opportunity score 91, distress score 0.
+- TruAmerica Multifamily Breaks Ground on 154-Unit Townhome Community in Santa Clarita, California: California, 1 related row(s), opportunity score 90, distress score 0.
+- Fourth Sale Closes in Anaheim Multifamily Portfolio: California, 1 related row(s), opportunity score 87, distress score 0.
 - Anaheim Sale is First Closing in Broader Multifamily Portfolio: California, 1 related row(s), opportunity score 86, distress score 0.
-- Affordable housing on the rise at 3990 S. Wade. St. in Mar Vista: California, 1 related row(s), opportunity score 66, distress score 0.
+- MMCC Arranges Credit Union Financing for Three Central Valley Multifamily Properties: California, 1 related row(s), opportunity score 85, distress score 0.
+- Marcus & Millichap Capital Corporation Arranges $12M Financing for Three Multifamily Properties in California’s Central Valley: California, 1 related row(s), opportunity score 84, distress score 0.
+- 3 multifamily groundbreakings you may have missed: California, 1 related row(s), opportunity score 63, distress score 0.
 
 ## Why This Matters
 

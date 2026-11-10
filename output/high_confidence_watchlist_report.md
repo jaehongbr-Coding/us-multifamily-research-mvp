@@ -1,21 +1,21 @@
 # High Confidence Watchlist Report
 
-Generated: 2026-11-09 02:25:13
+Generated: 2026-11-10 04:31:10
 
 - Total high-confidence watchlist items: 49
 
 ## Top Institutional-Grade Opportunities
 
-- Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties: LA urban infill opportunity, quality 95, action: Review immediately.
-- General Project Signal - Atlanta / Georgia - Greystar, Vantage Acquire Chamblee Property for 340-Unit Multifamily Community: LA urban infill opportunity, quality 95, action: Review immediately.
-- Refinancing - Washington DC - Affinius Capital Originates $98M Loan to Refinance Luxury Multifamily Property in Washingt...: Refinancing opportunity, quality 92, action: Review immediately.
+- Refinancing - Arizona - $92.1M Refinancing Arranged for Arizona Multifamily Community: Refinancing opportunity, quality 92, action: Review immediately.
+- Disposition / Exit - Los Angeles / California - Marcus & Millichap Closes Sale and Arranges Financing for West Hollywood Multifamily Portf...: LA urban infill opportunity, quality 91, action: Review immediately.
 - General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Institutional capital movement, quality 91, action: Review immediately.
-- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: LA urban infill opportunity, quality 91, action: Review immediately.
-- Acquisition - Texas - Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Tex...: Refinancing opportunity, quality 91, action: Review immediately.
-- Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing opportunity, quality 91, action: Review immediately.
-- Acquisition - Seattle - JLL Arranges $10.732M Sale and $6.7M Financing of Seattle Apartment Community: Institutional capital movement, quality 90, action: Review immediately.
-- Acquisition - Phoenix / Arizona - A&C Properties Sells Grocery-Anchored Retail Portfolio in Arizona for $108.7M: Institutional capital movement, quality 90, action: Review immediately.
-- Refinancing - New York City / New York - Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower: Refinancing opportunity, quality 89, action: Review immediately.
+- General Project Signal - California - Marcus & Millichap Capital Corporation Arranges $12M Financing for Three Multifamily Prope...: Institutional capital movement, quality 91, action: Review immediately.
+- JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Institutional capital movement, quality 91, action: Review immediately.
+- Acquisition - Los Angeles / California - Cabot Properties Buys 5.4-Acre Industrial Development Site in Los Angeles: Entitlement progression, quality 91, action: Review immediately.
+- Refinancing - Phoenix / Arizona - RED Development Receives $69.3M Refinancing for Offices at The Grove in Phoenix: Refinancing opportunity, quality 91, action: Review immediately.
+- BTR / Build-to-Rent - Dallas / Texas - Crescent Completes 146-Unit Melissa BTR Community: LA urban infill opportunity, quality 90, action: Review immediately.
+- Acquisition - Tennessee - Walker & Dunlop Arranges $110M Financing for Multifamily Community in Franklin, Tennessee: Institutional capital movement, quality 89, action: Review immediately.
+- Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: LA urban infill opportunity, quality 89, action: Review immediately.
 
 ## Top Institutional-Grade Risks
 
@@ -23,72 +23,73 @@ Generated: 2026-11-09 02:25:13
 
 ## Strongest LA / Southern California Watch Items
 
-- Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties: LA urban infill opportunity, quality 95, action: Review immediately.
-- General Project Signal - Atlanta / Georgia - Greystar, Vantage Acquire Chamblee Property for 340-Unit Multifamily Community: LA urban infill opportunity, quality 95, action: Review immediately.
+- Disposition / Exit - Los Angeles / California - Marcus & Millichap Closes Sale and Arranges Financing for West Hollywood Multifamily Portf...: LA urban infill opportunity, quality 91, action: Review immediately.
 - General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Institutional capital movement, quality 91, action: Review immediately.
-- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: LA urban infill opportunity, quality 91, action: Review immediately.
-- Acquisition - Texas - Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Tex...: Refinancing opportunity, quality 91, action: Review immediately.
+- General Project Signal - California - Marcus & Millichap Capital Corporation Arranges $12M Financing for Three Multifamily Prope...: Institutional capital movement, quality 91, action: Review immediately.
+- JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Institutional capital movement, quality 91, action: Review immediately.
+- Acquisition - Los Angeles / California - Cabot Properties Buys 5.4-Acre Industrial Development Site in Los Angeles: Entitlement progression, quality 91, action: Review immediately.
+- BTR / Build-to-Rent - Dallas / Texas - Crescent Completes 146-Unit Melissa BTR Community: LA urban infill opportunity, quality 90, action: Review immediately.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: LA urban infill opportunity, quality 89, action: Review immediately.
 - Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use: Construction start pipeline, quality 88, action: Review immediately.
 - Entitlement / Permitting - Santa Monica / California - Fresh renderings for Santa Monica apartments at 1338 5th St.: Entitlement progression, quality 88, action: Review immediately.
-- Entitlement / Permitting - Dallas / Texas - Trammell Crow Building 248 McKinney Apartment Units, 3 Hotels: Entitlement progression, quality 88, action: Review immediately.
-- JV / Partnership - California - Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durha...: Institutional capital movement, quality 86, action: Review immediately.
+- Acquisition - California - TruAmerica Multifamily Breaks Ground on 154-Unit Townhome Community in Santa Clarita, Cali...: LA urban infill opportunity, quality 88, action: Review immediately.
 
 ## Strongest GP / Developer Signals
 
-- Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties: LA urban infill opportunity, quality 95, action: Review immediately.
-- General Project Signal - Atlanta / Georgia - Greystar, Vantage Acquire Chamblee Property for 340-Unit Multifamily Community: LA urban infill opportunity, quality 95, action: Review immediately.
-- Refinancing - Washington DC - Affinius Capital Originates $98M Loan to Refinance Luxury Multifamily Property in Washingt...: Refinancing opportunity, quality 92, action: Review immediately.
+- Refinancing - Arizona - $92.1M Refinancing Arranged for Arizona Multifamily Community: Refinancing opportunity, quality 92, action: Review immediately.
+- Disposition / Exit - Los Angeles / California - Marcus & Millichap Closes Sale and Arranges Financing for West Hollywood Multifamily Portf...: LA urban infill opportunity, quality 91, action: Review immediately.
 - General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Institutional capital movement, quality 91, action: Review immediately.
-- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: LA urban infill opportunity, quality 91, action: Review immediately.
-- Acquisition - Texas - Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Tex...: Refinancing opportunity, quality 91, action: Review immediately.
-- Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing opportunity, quality 91, action: Review immediately.
-- Acquisition - Seattle - JLL Arranges $10.732M Sale and $6.7M Financing of Seattle Apartment Community: Institutional capital movement, quality 90, action: Review immediately.
-- Acquisition - Phoenix / Arizona - A&C Properties Sells Grocery-Anchored Retail Portfolio in Arizona for $108.7M: Institutional capital movement, quality 90, action: Review immediately.
-- Refinancing - New York City / New York - Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower: Refinancing opportunity, quality 89, action: Review immediately.
+- General Project Signal - California - Marcus & Millichap Capital Corporation Arranges $12M Financing for Three Multifamily Prope...: Institutional capital movement, quality 91, action: Review immediately.
+- JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Institutional capital movement, quality 91, action: Review immediately.
+- Acquisition - Los Angeles / California - Cabot Properties Buys 5.4-Acre Industrial Development Site in Los Angeles: Entitlement progression, quality 91, action: Review immediately.
+- Refinancing - Phoenix / Arizona - RED Development Receives $69.3M Refinancing for Offices at The Grove in Phoenix: Refinancing opportunity, quality 91, action: Review immediately.
+- BTR / Build-to-Rent - Dallas / Texas - Crescent Completes 146-Unit Melissa BTR Community: LA urban infill opportunity, quality 90, action: Review immediately.
+- Acquisition - Tennessee - Walker & Dunlop Arranges $110M Financing for Multifamily Community in Franklin, Tennessee: Institutional capital movement, quality 89, action: Review immediately.
+- Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: LA urban infill opportunity, quality 89, action: Review immediately.
 
 ## Strongest Capital Flow Signals
 
-- Refinancing - Washington DC - Affinius Capital Originates $98M Loan to Refinance Luxury Multifamily Property in Washingt...: Refinancing opportunity, quality 92, action: Review immediately.
+- Refinancing - Arizona - $92.1M Refinancing Arranged for Arizona Multifamily Community: Refinancing opportunity, quality 92, action: Review immediately.
 - General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Institutional capital movement, quality 91, action: Review immediately.
-- Acquisition - Texas - Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Tex...: Refinancing opportunity, quality 91, action: Review immediately.
-- Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing opportunity, quality 91, action: Review immediately.
-- Acquisition - Seattle - JLL Arranges $10.732M Sale and $6.7M Financing of Seattle Apartment Community: Institutional capital movement, quality 90, action: Review immediately.
-- Acquisition - Phoenix / Arizona - A&C Properties Sells Grocery-Anchored Retail Portfolio in Arizona for $108.7M: Institutional capital movement, quality 90, action: Review immediately.
-- Refinancing - New York City / New York - Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower: Refinancing opportunity, quality 89, action: Review immediately.
-- JV / Partnership - California - Wood Partners, GrayCo Capital to Break Ground on 301-Unit Multifamily Community Near Durha...: Institutional capital movement, quality 86, action: Review immediately.
-- Construction Financing - Nashville / Tennessee - EMBREY Partners with Southstar Development Close on $71M Construction Loan for Nashville-A...: Refinancing opportunity, quality 86, action: Review immediately.
-- Refinancing - Other / Unknown - JLL Arranges $67.3M Loan for Refinancing of Metro Boston Apartment Building: Refinancing opportunity, quality 85, action: Review immediately.
+- General Project Signal - California - Marcus & Millichap Capital Corporation Arranges $12M Financing for Three Multifamily Prope...: Institutional capital movement, quality 91, action: Review immediately.
+- JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Institutional capital movement, quality 91, action: Review immediately.
+- Refinancing - Phoenix / Arizona - RED Development Receives $69.3M Refinancing for Offices at The Grove in Phoenix: Refinancing opportunity, quality 91, action: Review immediately.
+- Acquisition - Tennessee - Walker & Dunlop Arranges $110M Financing for Multifamily Community in Franklin, Tennessee: Institutional capital movement, quality 89, action: Review immediately.
+- General Project Signal - National - MMCC Arranges $34M in Financing for Wisconsin Multifamily Property: Institutional capital movement, quality 88, action: Review immediately.
+- Acquisition - New York - IPA Negotiates Sale of 71-Unit Apartment Building in Pleasantville, New York: Institutional capital movement, quality 86, action: Review immediately.
+- General Project Signal - New York City / New York - Berkadia Provides $219M in Agency Permanent Loan for Upper Manhattan Affordable Housing Co...: Refinancing opportunity, quality 85, action: Review immediately.
+- Acquisition - Other / Unknown - CBRE Arranges $30M Sale of Multifamily Portfolio in Madison: Institutional capital movement, quality 84, action: Monitor sponsor relationship.
 
 ## Strongest Refinancing Opportunities
 
-- Refinancing - Washington DC - Affinius Capital Originates $98M Loan to Refinance Luxury Multifamily Property in Washingt...: Refinancing opportunity, quality 92, action: Review immediately.
-- Acquisition - Texas - Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Tex...: Refinancing opportunity, quality 91, action: Review immediately.
-- Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing opportunity, quality 91, action: Review immediately.
-- Refinancing - New York City / New York - Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower: Refinancing opportunity, quality 89, action: Review immediately.
-- Construction Financing - Nashville / Tennessee - EMBREY Partners with Southstar Development Close on $71M Construction Loan for Nashville-A...: Refinancing opportunity, quality 86, action: Review immediately.
-- Refinancing - Other / Unknown - JLL Arranges $67.3M Loan for Refinancing of Metro Boston Apartment Building: Refinancing opportunity, quality 85, action: Review immediately.
-- Construction Financing - Nashville / Tennessee - EMBREY Partners with Southstar Development Close on $71M Construction Loan for Nashville-A...: Refinancing opportunity, quality 76, action: Watch refinancing timing.
-- Refinancing - New York City / New York - Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower: Refinancing opportunity, quality 76, action: Watch refinancing timing.
-- Refinancing - National - Multifamily Refinancing Squeeze: 41% Higher Costs, $6.8B Equity Gap: Refinancing opportunity, quality 72, action: Watch refinancing timing.
-- Affinius Capital Provides $226M Loan for Refinancing of Downtown Brooklyn Apartment Tower: Refinancing opportunity, quality 72, action: Watch refinancing timing.
+- Refinancing - Arizona - $92.1M Refinancing Arranged for Arizona Multifamily Community: Refinancing opportunity, quality 92, action: Review immediately.
+- Refinancing - Phoenix / Arizona - RED Development Receives $69.3M Refinancing for Offices at The Grove in Phoenix: Refinancing opportunity, quality 91, action: Review immediately.
+- General Project Signal - New York City / New York - Berkadia Provides $219M in Agency Permanent Loan for Upper Manhattan Affordable Housing Co...: Refinancing opportunity, quality 85, action: Review immediately.
+- $92.1M Refinancing Arranged for Arizona Multifamily Community: Refinancing opportunity, quality 76, action: Watch refinancing timing.
+- Refinancing - Phoenix / Arizona - RED Development Receives $69.3M Refinancing for Offices at The Grove in Phoenix: Refinancing opportunity, quality 76, action: Watch refinancing timing.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Refinancing opportunity, quality 72, action: Watch refinancing timing.
+- General Project Signal - New York City / New York - Berkadia Provides $219M in Agency Permanent Loan for Upper Manhattan Affordable Housing Co...: Refinancing opportunity, quality 72, action: Watch refinancing timing.
 
 ## Strongest Construction-Ready Opportunities
 
 - Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use: Construction start pipeline, quality 88, action: Review immediately.
-- Construction Financing - Phoenix / Arizona - CrossHarbor Capital Secures $78.5M in Construction Financing for Multifamily Community in...: Construction start pipeline, quality 86, action: Review immediately.
-- Construction Financing - Other / Unknown - Starwood, Trinitas Nab $100M From Affinius Capital to Build Pittsburgh Student Housing: Construction start pipeline, quality 84, action: Monitor construction execution.
+- Disposition / Exit - National - When Will Rising Interest Rates Impact Pricing? Follow the Contracts.: Construction start pipeline, quality 88, action: Review immediately.
+- Development Start - California - 3 multifamily groundbreakings you may have missed: Construction start pipeline, quality 85, action: Review immediately.
+- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: Construction start pipeline, quality 84, action: Monitor construction execution.
+- Development Start - Dallas / Texas - Trademark And Morgan To Build Luxury Apartments In Oak Lawn: The DFW Deal Sheet: Construction start pipeline, quality 81, action: Monitor construction execution.
+- When Will Rising Interest Rates Impact Pricing? Follow the Contracts.: Construction start pipeline, quality 81, action: Monitor construction execution.
+- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: Construction start pipeline, quality 79, action: Monitor construction execution.
+- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: Construction start pipeline, quality 79, action: Monitor construction execution.
+- Construction Financing - Miami / Florida - Kadima Inks Financing for 121-unit Hallandale Beach Condo Project: Construction start pipeline, quality 78, action: Monitor construction execution.
 - Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use: Construction start pipeline, quality 78, action: Monitor construction execution.
-- General Project Signal - Other / Unknown - Cunat Incorporated Launches $56.2M DST Offering for 540-Unit Multifamily Community in McHe...: Construction start pipeline, quality 76, action: Monitor construction execution.
-- Construction Financing - Phoenix / Arizona - CrossHarbor Capital Secures $78.5M in Construction Financing for Multifamily Community in...: Construction start pipeline, quality 76, action: Monitor construction execution.
 
 ## Recommended Executive Actions
 
-- Review immediately: Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties.
-- Review immediately: General Project Signal - Atlanta / Georgia - Greystar, Vantage Acquire Chamblee Property for 340-Unit Multifamily Community.
-- Review immediately: Refinancing - Washington DC - Affinius Capital Originates $98M Loan to Refinance Luxury Multifamily Property in Washingt....
+- Review immediately: Refinancing - Arizona - $92.1M Refinancing Arranged for Arizona Multifamily Community.
+- Review immediately: Disposition / Exit - Los Angeles / California - Marcus & Millichap Closes Sale and Arranges Financing for West Hollywood Multifamily Portf....
 - Review immediately: General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building.
-- Review immediately: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
-- Review immediately: Acquisition - Texas - Newmark Provides $53.9M Agency Acquisition Loan for Multifamily Property in Northlake, Tex....
-- Review immediately: Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building.
-- Review immediately: Acquisition - Seattle - JLL Arranges $10.732M Sale and $6.7M Financing of Seattle Apartment Community.
+- Review immediately: General Project Signal - California - Marcus & Millichap Capital Corporation Arranges $12M Financing for Three Multifamily Prope....
+- Review immediately: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine.
+- Review immediately: Acquisition - Los Angeles / California - Cabot Properties Buys 5.4-Acre Industrial Development Site in Los Angeles.
+- Review immediately: Refinancing - Phoenix / Arizona - RED Development Receives $69.3M Refinancing for Offices at The Grove in Phoenix.
+- Review immediately: BTR / Build-to-Rent - Dallas / Texas - Crescent Completes 146-Unit Melissa BTR Community.

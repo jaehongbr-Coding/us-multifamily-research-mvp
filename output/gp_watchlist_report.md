@@ -1,23 +1,23 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-11-09 02:24:53
+Generated: 2026-11-10 04:30:35
 
-- GP/developer candidates reviewed: 23
+- GP/developer candidates reviewed: 28
 - Tier 1 Strategic GPs: 0
-- Tier 2 High Potential GPs: 10
+- Tier 2 High Potential GPs: 7
 
 ## Top Emerging GPs
 
-- JLL: 74 (Tier 2 High Potential GP), Phoenix / Arizona, Selective residential growth.
-- Wood Partners: 74 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
+- Blackstone: 76 (Tier 2 High Potential GP), Miami / Florida, California / LA strategic positioning.
 - Bridge Investment Group: 73 (Tier 2 High Potential GP), Miami / Florida, California / LA strategic positioning.
 - Freddie Mac: 73 (Tier 2 High Potential GP), Miami / Florida, California / LA strategic positioning.
 - Greystone: 73 (Tier 2 High Potential GP), Miami / Florida, California / LA strategic positioning.
 - Hines: 73 (Tier 2 High Potential GP), Atlanta / Georgia, California / LA strategic positioning.
-- Lincoln Property Company: 72 (Tier 2 High Potential GP), Los Angeles / California, California / LA strategic positioning.
-- McCourt Partners: 72 (Tier 2 High Potential GP), Los Angeles / California, California / LA strategic positioning.
-- Timberlane Partners: 72 (Tier 2 High Potential GP), Seattle, Institutional-backed regional expansion.
-- Greystar: 70 (Tier 2 High Potential GP), Atlanta / Georgia, California / LA strategic positioning.
+- Lincoln Property Company: 70 (Tier 2 High Potential GP), Los Angeles / California, California / LA strategic positioning.
+- McCourt Partners: 70 (Tier 2 High Potential GP), Los Angeles / California, California / LA strategic positioning.
+- JLL: 68 (Tier 3 Monitoring GP), Phoenix / Arizona, California / LA strategic positioning.
+- CBRE: 68 (Tier 3 Monitoring GP), Other / Unknown, California / LA strategic positioning.
+- Marcus & Millichap: 67 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
 
 ## Tier 1 Strategic GP
 
@@ -25,38 +25,38 @@ Generated: 2026-11-09 02:24:53
 
 ## Tier 2 High Potential GP
 
-- JLL: score 74, Tier 2 High Potential GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
-- Wood Partners: score 74, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Blackstone: score 76, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Bridge Investment Group: score 73, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Freddie Mac: score 73, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Greystone: score 73, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Lincoln Property Company: score 72, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- McCourt Partners: score 72, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Timberlane Partners: score 72, Tier 2 High Potential GP, Seattle, Potential GP partnership candidate. Track JV and capital partner activity.
-- Greystar: score 70, Tier 2 High Potential GP, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
+- Lincoln Property Company: score 70, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- McCourt Partners: score 70, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## California / LA GP Activity
 
-- Wood Partners: score 74, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Blackstone: score 76, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Bridge Investment Group: score 73, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Freddie Mac: score 73, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Greystone: score 73, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Lincoln Property Company: score 72, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- McCourt Partners: score 72, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Greystar: score 70, Tier 2 High Potential GP, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
-- CBRE: score 68, Tier 3 Monitoring GP, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
-- Fannie Mae: score 68, Tier 3 Monitoring GP, Texas, Capital market and pricing discovery reference. Review LA / California development activity.
+- Lincoln Property Company: score 70, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- McCourt Partners: score 70, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 68, Tier 3 Monitoring GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 68, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
+- Marcus & Millichap: score 67, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## BTR / SFR GP Activity
 
-- No current GP signal detected.
+- Crescent Communities: score 41, Emerging Watchlist, Dallas / Texas, LA / California developer strategy watch. Review LA / California development activity.
 
 ## Affordable Housing GP Activity
 
-- Wood Partners: score 74, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Related Companies: score 58, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- Related Companies: score 58, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
 - Tishman Speyer: score 57, Tier 3 Monitoring GP, Santa Monica / California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Berkadia: score 55, Tier 3 Monitoring GP, New York City / New York, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- Fannie Mae: score 55, Tier 3 Monitoring GP, New York City / New York, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
 
 ## Student Housing GP Activity
 
@@ -68,29 +68,29 @@ Generated: 2026-11-09 02:24:53
 
 ## Institutional Capital Magnet
 
-- JLL: score 74, Tier 2 High Potential GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
-- Wood Partners: score 74, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Blackstone: score 76, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Bridge Investment Group: score 73, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Freddie Mac: score 73, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Greystone: score 73, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Lincoln Property Company: score 72, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- McCourt Partners: score 72, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Timberlane Partners: score 72, Tier 2 High Potential GP, Seattle, Potential GP partnership candidate. Track JV and capital partner activity.
-- Greystar: score 70, Tier 2 High Potential GP, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
+- Lincoln Property Company: score 70, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- McCourt Partners: score 70, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 68, Tier 3 Monitoring GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 68, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
+- Marcus & Millichap: score 67, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## Potential Woomi Partnership Candidates
 
-- JLL: score 74, Tier 2 High Potential GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
-- Wood Partners: score 74, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
+- Blackstone: score 76, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Bridge Investment Group: score 73, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Freddie Mac: score 73, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Greystone: score 73, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Lincoln Property Company: score 72, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- McCourt Partners: score 72, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Timberlane Partners: score 72, Tier 2 High Potential GP, Seattle, Potential GP partnership candidate. Track JV and capital partner activity.
-- Greystar: score 70, Tier 2 High Potential GP, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
+- Lincoln Property Company: score 70, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- McCourt Partners: score 70, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 68, Tier 3 Monitoring GP, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 68, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
+- S3 Capital Partners: score 64, Tier 3 Monitoring GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## GP Source Expansion Summary
 
@@ -119,31 +119,31 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Recommended Management Meeting Targets
 
-- JLL: Track JV and capital partner activity (High confidence).
-- Wood Partners: Track JV and capital partner activity (Medium confidence).
+- Blackstone: Track JV and capital partner activity (Medium confidence).
 - Bridge Investment Group: Track JV and capital partner activity (Medium confidence).
 - Freddie Mac: Track JV and capital partner activity (Medium confidence).
 - Greystone: Track JV and capital partner activity (Medium confidence).
+- Hines: Track JV and capital partner activity (Medium confidence).
 
 ## Recommended Strategic Follow-up Actions
 
-- JLL: Track JV and capital partner activity.
-- Wood Partners: Track JV and capital partner activity.
+- Blackstone: Track JV and capital partner activity.
 - Bridge Investment Group: Track JV and capital partner activity.
 - Freddie Mac: Track JV and capital partner activity.
 - Greystone: Track JV and capital partner activity.
 - Hines: Track JV and capital partner activity.
 - Lincoln Property Company: Track JV and capital partner activity.
 - McCourt Partners: Track JV and capital partner activity.
+- JLL: Track JV and capital partner activity.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 152
-- Institutional-grade signals: 20
+- Signals evaluated: 174
+- Institutional-grade signals: 22
 - High-confidence signals: 49
-- Weak/noisy signals: 85
+- Weak/noisy signals: 98
 - High-confidence watchlist items: 49
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

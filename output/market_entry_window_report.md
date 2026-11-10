@@ -1,32 +1,32 @@
 # Market Entry Window Report
 
-Generated: 2026-11-09 02:25:11
+Generated: 2026-11-10 04:31:04
 
 ## Top Market Entry Windows
 
-- National / Other: score 69, Selective Entry Window, posture: Monitor refinancing and distress pipeline.
-- California: score 68, Selective Entry Window, posture: Track entitlement / permitting pipeline.
-- Seattle: score 61, Early Signal / Prepare, posture: Prepare GP conversations.
-- Texas: score 58, Early Signal / Prepare, posture: Prepare GP conversations.
+- California: score 69, Selective Entry Window, posture: Track entitlement / permitting pipeline.
+- National / Other: score 64, Early Signal / Prepare, posture: Monitor refinancing and distress pipeline.
+- New York: score 56, Early Signal / Prepare, posture: Prepare GP conversations.
 - Los Angeles: score 34, Monitor Only, posture: Prepare GP conversations.
 - Florida: score 33, Monitor Only, posture: Prepare GP conversations.
-- New York: score 30, Monitor Only, posture: Monitor only.
+- Texas: score 31, Monitor Only, posture: Monitor only.
 - Sun Belt: score 29, Not Attractive Now, posture: Monitor only.
+- Seattle: score 28, Not Attractive Now, posture: Monitor only.
 
 ## LA / California Entry Window
 
-- California: score 68, Selective Entry Window, posture: Track entitlement / permitting pipeline.
+- California: score 69, Selective Entry Window, posture: Track entitlement / permitting pipeline.
 - Los Angeles: score 34, Monitor Only, posture: Prepare GP conversations.
 
 ## Sun Belt Entry Window
 
-- Texas: score 58, Early Signal / Prepare, posture: Prepare GP conversations.
 - Florida: score 33, Monitor Only, posture: Prepare GP conversations.
+- Texas: score 31, Monitor Only, posture: Monitor only.
 - Sun Belt: score 29, Not Attractive Now, posture: Monitor only.
 
 ## New York / Refinancing Stress Window
 
-- New York: score 30, Monitor Only, posture: Monitor only.
+- New York: score 56, Early Signal / Prepare, posture: Prepare GP conversations.
 
 ## Entitlement / LA Watch Summary
 
@@ -40,34 +40,34 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 
 ## Recommended Entry Posture By Market
 
-- National / Other: Monitor refinancing and distress pipeline (Selective Entry Window).
 - California: Track entitlement / permitting pipeline (Selective Entry Window).
-- Seattle: Prepare GP conversations (Early Signal / Prepare).
-- Texas: Prepare GP conversations (Early Signal / Prepare).
+- National / Other: Monitor refinancing and distress pipeline (Early Signal / Prepare).
+- New York: Prepare GP conversations (Early Signal / Prepare).
 - Los Angeles: Prepare GP conversations (Monitor Only).
 - Florida: Prepare GP conversations (Monitor Only).
-- New York: Monitor only (Monitor Only).
+- Texas: Monitor only (Monitor Only).
 - Sun Belt: Monitor only (Not Attractive Now).
+- Seattle: Monitor only (Not Attractive Now).
 
 ## Key Risks and Opportunities
 
-- National / Other: risks: financing stress and refinancing pressure; supply, delivery, lease-up, or concession pressure; opportunities: active opportunity radar signals; possible distress or recapitalization watch.
 - California: risks: supply, delivery, lease-up, or concession pressure; entitlement, zoning, permitting, and policy uncertainty; opportunities: active opportunity radar signals; capital-flow or institutional activity signal; core Woomi California / LA strategic relevance.
-- Seattle: risks: limited timing evidence; opportunities: active opportunity radar signals; capital-flow or institutional activity signal.
-- Texas: risks: limited timing evidence; opportunities: active opportunity radar signals; capital-flow or institutional activity signal.
+- National / Other: risks: supply, delivery, lease-up, or concession pressure; opportunities: active opportunity radar signals; possible distress or recapitalization watch.
+- New York: risks: limited timing evidence; opportunities: active opportunity radar signals; capital-flow or institutional activity signal.
 - Los Angeles: risks: entitlement, zoning, permitting, and policy uncertainty; opportunities: capital-flow or institutional activity signal; core Woomi California / LA strategic relevance.
+- Florida: risks: limited timing evidence; opportunities: capital-flow or institutional activity signal.
 
 ## Executive Summary for Woomi
 
-- Top current market entry window is National / Other with a Selective Entry Window label and posture: Monitor refinancing and distress pipeline.
+- Top current market entry window is California with a Selective Entry Window label and posture: Track entitlement / permitting pipeline.
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 77
-- LA lifecycle watch items: 49
-- Stage mix: Delivery / Opening: 6, Site Acquisition / Site Control: 7, Unknown Stage: 47, Refinancing / Recapitalization: 9, Construction Started: 2
+- Lifecycle records: 93
+- LA lifecycle watch items: 64
+- Stage mix: Delivery / Opening: 8, Unknown Stage: 54, Refinancing / Recapitalization: 6, Site Acquisition / Site Control: 10, Entitlement Under Review: 3
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -75,10 +75,10 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 77
-- Newly detected projects: 7
+- Lifecycle transitions analyzed: 93
+- Newly detected projects: 57
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 48
+- LA lifecycle transition watch items: 61
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 

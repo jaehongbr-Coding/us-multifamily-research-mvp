@@ -1,21 +1,21 @@
 # LA / Southern California Submarket Watch Report
 
-Generated: 2026-11-10 04:31:04
+Generated: 2026-11-11 02:34:21
 
-- Total LA / Southern California submarkets detected: 10
+- Total LA / Southern California submarkets detected: 14
 
 ## Top LA / Southern California Submarkets
 
-- Hollywood: opportunity 100, risk 52, Hollywood / transit-oriented housing watch.
-- Los Angeles: opportunity 100, risk 44, Monitor only.
-- Santa Monica: opportunity 100, risk 40, Monitor only.
-- West Hollywood: opportunity 100, risk 40, Hollywood / transit-oriented housing watch.
+- Culver City: opportunity 100, risk 49, Monitor only.
+- Hollywood: opportunity 94, risk 40, Hollywood / transit-oriented housing watch.
 - Anaheim: opportunity 93, risk 30, Orange County suburban apartment watch.
-- Culver City: opportunity 69, risk 49, Monitor only.
-- East Hollywood: opportunity 68, risk 52, Hollywood / transit-oriented housing watch.
-- Irvine: opportunity 67, risk 30, Orange County suburban apartment watch.
-- California: opportunity 32, risk 20, Monitor only.
-- Orange County: opportunity 12, risk 30, Orange County suburban apartment watch.
+- Riverside: opportunity 76, risk 51, Inland Empire BTR / rental housing watch.
+- Los Angeles: opportunity 76, risk 42, Monitor only.
+- Orange County: opportunity 70, risk 30, Orange County suburban apartment watch.
+- Irvine: opportunity 66, risk 30, Orange County suburban apartment watch.
+- West Hollywood: opportunity 63, risk 40, Hollywood / transit-oriented housing watch.
+- Pasadena: opportunity 55, risk 30, Pasadena entitlement precedent watch.
+- California: opportunity 40, risk 20, Monitor only.
 
 ## Koreatown / Wilshire Watch
 
@@ -27,13 +27,12 @@ Generated: 2026-11-10 04:31:04
 
 ## Hollywood / Transit-Oriented Watch
 
-- Hollywood: opportunity 100, risk 52, Hollywood / transit-oriented housing watch.
-- West Hollywood: opportunity 100, risk 40, Hollywood / transit-oriented housing watch.
-- East Hollywood: opportunity 68, risk 52, Hollywood / transit-oriented housing watch.
+- Hollywood: opportunity 94, risk 40, Hollywood / transit-oriented housing watch.
+- West Hollywood: opportunity 63, risk 40, Hollywood / transit-oriented housing watch.
 
 ## Pasadena / Entitlement Precedent Watch
 
-- None detected.
+- Pasadena: opportunity 55, risk 30, Pasadena entitlement precedent watch.
 
 ## Long Beach / Mixed-Use Watch
 
@@ -42,12 +41,13 @@ Generated: 2026-11-10 04:31:04
 ## Orange County / Suburban Apartment Watch
 
 - Anaheim: opportunity 93, risk 30, Orange County suburban apartment watch.
-- Irvine: opportunity 67, risk 30, Orange County suburban apartment watch.
-- Orange County: opportunity 12, risk 30, Orange County suburban apartment watch.
+- Orange County: opportunity 70, risk 30, Orange County suburban apartment watch.
+- Irvine: opportunity 66, risk 30, Orange County suburban apartment watch.
+- Santa Ana: opportunity 12, risk 30, Orange County suburban apartment watch.
 
 ## Inland Empire / BTR Watch
 
-- None detected.
+- Riverside: opportunity 76, risk 51, Inland Empire BTR / rental housing watch.
 
 ## LA Density Bonus / TOC Watch
 
@@ -59,14 +59,14 @@ Generated: 2026-11-10 04:31:04
 
 ## Recommended Local Follow-up Actions
 
-- Track local planning docket and entitlement precedent: Hollywood / Hollywood / transit-oriented housing watch.
-- Track local planning docket and entitlement precedent: Los Angeles / Monitor only.
-- Track local planning docket and entitlement precedent: Santa Monica / Monitor only.
-- Track local planning docket and entitlement precedent: West Hollywood / Hollywood / transit-oriented housing watch.
-- Review potential acquisition pipeline: Anaheim / Orange County suburban apartment watch.
 - Review potential acquisition pipeline: Culver City / Monitor only.
-- Track local planning docket and entitlement precedent: East Hollywood / Hollywood / transit-oriented housing watch.
+- Track local planning docket and entitlement precedent: Hollywood / Hollywood / transit-oriented housing watch.
+- Review potential acquisition pipeline: Anaheim / Orange County suburban apartment watch.
+- Review potential acquisition pipeline: Riverside / Inland Empire BTR / rental housing watch.
+- Track local planning docket and entitlement precedent: Los Angeles / Monitor only.
+- Review potential acquisition pipeline: Orange County / Orange County suburban apartment watch.
 - Review potential acquisition pipeline: Irvine / Orange County suburban apartment watch.
+- Track local planning docket and entitlement precedent: West Hollywood / Hollywood / transit-oriented housing watch.
 
 ## Asset / Parcel Intelligence Reference
 
@@ -76,8 +76,8 @@ Asset / parcel-level site clues are available in `asset_parcel_intelligence_repo
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 93
-- LA lifecycle watch items: 64
-- Stage mix: Delivery / Opening: 8, Unknown Stage: 54, Refinancing / Recapitalization: 6, Site Acquisition / Site Control: 10, Entitlement Under Review: 3
+- Lifecycle records: 96
+- LA lifecycle watch items: 63
+- Stage mix: Refinancing / Recapitalization: 8, Unknown Stage: 57, Site Acquisition / Site Control: 8, Delivery / Opening: 8, Building Permit / Construction Permit: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

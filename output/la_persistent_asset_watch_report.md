@@ -1,21 +1,21 @@
 # LA Persistent Asset Watch Report
 
-Generated: 2026-11-10 04:31:10
+Generated: 2026-11-11 02:34:25
 
-- Total LA persistent asset watch items: 120
+- Total LA persistent asset watch items: 142
 
 ## Priority LA Asset Watch Items
 
+- Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio: California, Refinancing / Recapitalization, Track repeat project updates.
 - Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use: Los Angeles, Unknown Stage, Track repeat project updates.
+- Construction Financing - Other / Unknown - $39.1M Financing Secured for Tennessen Flats in Suburban Milwaukee: Los Angeles, Unknown Stage, Track repeat project updates.
+- Acquisition - Atlanta / Georgia - Aspen Square Spins Off 395-Unit Marietta Rental Asset: Los Angeles, Unknown Stage, Track repeat project updates.
 - General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Hollywood, Unknown Stage, Track repeat project updates.
-- Disposition / Exit - Los Angeles / California - Marcus & Millichap Closes Sale and Arranges Financing for West Hollywood Multifamily Portf...: Los Angeles, Delivery / Opening, Track repeat project updates.
-- Entitlement / Permitting - Santa Monica / California - Fresh renderings for Santa Monica apartments at 1338 5th St.: Santa Monica, Unknown Stage, Track repeat project updates.
-- General Project Signal - California - Marcus & Millichap Capital Corporation Arranges $12M Financing for Three Multifamily Prope...: California, Unknown Stage, Track repeat project updates.
+- Acquisition - Dallas / Texas - Greybrook Picks Up 334-Unit Mansfield Rental Community: Los Angeles, Unknown Stage, Track repeat project updates.
+- General Project Signal - California - MMCC Arranges Credit Union Financing for Three Central Valley Multifamily Properties: California, Site Acquisition / Site Control, Track repeat project updates.
+- Office-to-Residential Conversion - Denver / Colorado - Helaba Lends $82M on Macy’s-to-Residential Conversion Project Near Denver: Los Angeles, Unknown Stage, Track repeat project updates.
 - JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: California, Unknown Stage, Track repeat project updates.
-- Acquisition - California - TruAmerica Multifamily Breaks Ground on 154-Unit Townhome Community in Santa Clarita, Cali...: Los Angeles, Unknown Stage, Track repeat project updates.
-- Disposition / Exit - Santa Monica / California - Marcus & Millichap Brokers Multifamily Sale in Santa Monica’s Ocean Park Neighborhood: Santa Monica, Unknown Stage, Track repeat project updates.
-- JV / Partnership - Other / Unknown - Winn Secures Financing for 116-Unit Community on Behalf of New England Homes for the Deaf: Los Angeles, Unknown Stage, Track repeat project updates.
-- Construction Financing - Miami / Florida - Kadima Inks Financing for 121-unit Hallandale Beach Condo Project: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
+- Acquisition - California - USA Properties Fund Breaks Ground on $174M Affordable Housing Project in Fremont, Californ...: California, Construction Started, Track repeat project updates.
 
 ## Koreatown / Wilshire Persistent Assets
 
@@ -41,25 +41,26 @@ Generated: 2026-11-10 04:31:10
 
 ## Stalled / Delayed LA Asset Watch
 
-- Construction Financing - Miami / Florida - Kadima Inks Financing for 121-unit Hallandale Beach Condo Project: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
+- Construction Financing - Las Vegas / Nevada - Mesa West Capital Provides $94.2M Construction Loan for Seniors Housing Property Near Las...: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
 
 ## Construction / Delivery Transition Watch
 
-- Disposition / Exit - Los Angeles / California - Marcus & Millichap Closes Sale and Arranges Financing for West Hollywood Multifamily Portf...: Los Angeles, Delivery / Opening, Track repeat project updates.
-- Development Start - Dallas / Texas - Trademark And Morgan To Build Luxury Apartments In Oak Lawn: The DFW Deal Sheet: Los Angeles, Vertical Construction, Track repeat project updates.
+- Acquisition - California - USA Properties Fund Breaks Ground on $174M Affordable Housing Project in Fremont, Californ...: California, Construction Started, Track repeat project updates.
+- JV / Partnership - Dallas / Texas - Legacy, CrossHarbor Teaming Up on 444-Unit Richardson Apartment Community: Los Angeles, Vertical Construction, Track repeat project updates.
 - BTR / Build-to-Rent - Dallas / Texas - Crescent Completes 146-Unit Melissa BTR Community: Los Angeles, Delivery / Opening, Track repeat project updates.
-- Benedict Canyon Acquires Neighboring West Hollywood Properties: Los Angeles, Delivery / Opening, Track repeat project updates.
-- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: Los Angeles, Delivery / Opening, Track repeat project updates.
-- Development Start - California - 3 multifamily groundbreakings you may have missed: California, Construction Started, Track repeat project updates.
-- When Will Rising Interest Rates Impact Pricing? Follow the Contracts.: Los Angeles, Vertical Construction, Track repeat project updates.
+- JV / Partnership - Dallas / Texas - Legacy, CrossHarbor Teaming Up on 444-Unit Richardson Apartment Community: Los Angeles, Delivery / Opening, Track repeat project updates.
+- Construction Financing - Las Vegas / Nevada - Mesa West Capital Provides $94.2M Construction Loan for Seniors Housing Property Near Las...: Los Angeles, Delivery / Opening, Track repeat project updates.
+- Construction Financing - Other / Unknown - $39.1M Financing Secured for Tennessen Flats in Suburban Milwaukee: Los Angeles, Delivery / Opening, Track repeat project updates.
+- Entitlement / Permitting - Los Angeles / California - Affordable housing rising at 2626 Cullen St. in Mid-City: Los Angeles, Vertical Construction, Track repeat project updates.
+- Entitlement / Permitting - Los Angeles / California - Six homes planned at 1420 S. Point View St. in Mid-City: Los Angeles, Vertical Construction, Track repeat project updates.
 
 ## Recommended Local Follow-up Actions
 
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Other / Unknown - $39.1M Financing Secured for Tennessen Flats in Suburban Milwaukee.
+- Monitor for repeated project updates: Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - Atlanta / Georgia - Aspen Square Spins Off 395-Unit Marietta Rental Asset.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Disposition / Exit - Los Angeles / California - Marcus & Millichap Closes Sale and Arranges Financing for West Hollywood Multifamily Portf....
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Entitlement / Permitting - Santa Monica / California - Fresh renderings for Santa Monica apartments at 1338 5th St..
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - California - Marcus & Millichap Capital Corporation Arranges $12M Financing for Three Multifamily Prope....
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine.
-- Monitor for repeated project updates: Entitlement / Permitting - Los Angeles / California - Affordable housing planned at 1135 N. Westmoreland Ave. in East Hollywood.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - California - TruAmerica Multifamily Breaks Ground on 154-Unit Townhome Community in Santa Clarita, Cali....
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - Dallas / Texas - Greybrook Picks Up 334-Unit Mansfield Rental Community.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - California - MMCC Arranges Credit Union Financing for Three Central Valley Multifamily Properties.

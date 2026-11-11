@@ -1,8 +1,8 @@
 # LA Lifecycle Transition Watch Report
 
-Generated: 2026-11-10 04:31:10
+Generated: 2026-11-11 02:34:24
 
-- Total LA lifecycle transition watch items: 61
+- Total LA lifecycle transition watch items: 60
 
 ## LA Projects Moving Forward
 
@@ -15,33 +15,34 @@ Generated: 2026-11-10 04:31:10
 ## LA Permit / Construction Start Watch
 
 - Groundbreaking For Liberation Park Residences, Oakland: Construction Started -> Construction Started, Construction start watch.
+- Development Start - California - 3 multifamily groundbreakings you may have missed: Construction Started -> Construction Started, Construction start watch.
 - Development Start - Dallas / Texas - Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community: Vertical Construction -> Vertical Construction, Construction start watch.
 - Development Start - Other / Unknown - Groundbreaking For Liberation Park Residences, Oakland: Construction Started -> Construction Started, Construction start watch.
-- Development Start - California - 3 multifamily groundbreakings you may have missed: No Previous Record -> Construction Started, Construction start watch.
-- Development Start - Dallas / Texas - Trademark And Morgan To Build Luxury Apartments In Oak Lawn: The DFW Deal Sheet: No Previous Record -> Vertical Construction, Construction start watch.
-- When Will Rising Interest Rates Impact Pricing? Follow the Contracts.: No Previous Record -> Vertical Construction, Construction start watch.
-- Entitlement / Permitting - San Francisco / California - New Building Permits For ADU at 4300 17th Street in Corona Heights, San Francisco: No Previous Record -> Building Permit / Construction Permit, Permit issuance watch.
-- New Building Permits For ADU at 4300 17th Street in Corona Heights, San Francisco: No Previous Record -> Building Permit / Construction Permit, Permit issuance watch.
+- Entitlement / Permitting - Los Angeles / California - Affordable housing rising at 2626 Cullen St. in Mid-City: No Previous Record -> Vertical Construction, Construction start watch.
+- Affordable housing rising at 2626 Cullen St. in Mid-City: No Previous Record -> Vertical Construction, Construction start watch.
+- Entitlement / Permitting - San Francisco / California - New Building Permits For ADU at 4300 17th Street in Corona Heights, San Francisco: Building Permit / Construction Permit -> Building Permit / Construction Permit, Permit issuance watch.
+- New Building Permits For ADU at 4300 17th Street in Corona Heights, San Francisco: Building Permit / Construction Permit -> Building Permit / Construction Permit, Permit issuance watch.
 
 ## LA Refinancing / Recap Timing Watch
 
-- Construction Financing - Other / Unknown - HUD launches ‘express lane’ for LIHTC multifamily construction loans: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Construction Financing - Las Vegas / Nevada - Mesa West Capital Provides $94.2M Construction Loan for Seniors Housing Property Near Las...: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- JLL Arranges $104M Financing for Uptown Multifamily Portfolio: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 
 ## LA Delivery / Lease-Up Benchmarks
 
-- Benedict Canyon Acquires Neighboring West Hollywood Properties: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
-- Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
+- BTR / Build-to-Rent - Dallas / Texas - Crescent Completes 146-Unit Melissa BTR Community: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
 - Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
 - Grand Opening For La Vista Apartments, Hayward: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
-- BTR / Build-to-Rent - Dallas / Texas - Crescent Completes 146-Unit Melissa BTR Community: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
-- Trademark And Morgan To Build Luxury Apartments In Oak Lawn: The DFW Deal Sheet: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- Construction Financing - Other / Unknown - $39.1M Financing Secured for Tennessen Flats in Suburban Milwaukee: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- USA Properties Fund Breaks Ground on $174M Affordable Housing Project in Fremont, California: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
 
 ## Recommended LA Transition Follow-up Actions
 
-- Use as delivery, lease-up, and underwriting benchmark: Benedict Canyon Acquires Neighboring West Hollywood Properties.
-- Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - Los Angeles / California - Benedict Canyon Acquires Neighboring West Hollywood Properties.
+- Use as delivery, lease-up, and underwriting benchmark: BTR / Build-to-Rent - Dallas / Texas - Crescent Completes 146-Unit Melissa BTR Community.
 - Monitor for another run to confirm lifecycle direction: Groundbreaking For Liberation Park Residences, Oakland.
+- Monitor for another run to confirm lifecycle direction: Development Start - California - 3 multifamily groundbreakings you may have missed.
 - Monitor for another run to confirm lifecycle direction: Development Start - Dallas / Texas - Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community.
 - Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
 - Monitor for another run to confirm lifecycle direction: Development Start - Other / Unknown - Groundbreaking For Liberation Park Residences, Oakland.
@@ -52,10 +53,10 @@ Generated: 2026-11-10 04:31:10
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 782
-- Canonical projects: 174
-- Duplicate project clusters: 124
-- Persistent assets tracked: 174
-- LA persistent asset watch items: 120
+- Raw project references: 784
+- Canonical projects: 202
+- Duplicate project clusters: 136
+- Persistent assets tracked: 202
+- LA persistent asset watch items: 142
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-11-10 04:31:10
+Generated: 2026-11-11 02:34:24
 
-- Total raw project references: 782
-- Total canonical projects: 174
-- Duplicate project clusters: 124
-- High-confidence project identities: 782
+- Total raw project references: 784
+- Total canonical projects: 202
+- Duplicate project clusters: 136
+- High-confidence project identities: 784
 - Low-confidence identities needing review: 0
-- LA / California project references: 526
+- LA / California project references: 520
 
 ## Top Repeated Projects
 
-- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: 64 occurrence(s), confidence 80.
-- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: 64 occurrence(s), confidence 80.
-- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: 64 occurrence(s), confidence 80.
-- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: 64 occurrence(s), confidence 80.
-- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: 64 occurrence(s), confidence 80.
-- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: 64 occurrence(s), confidence 80.
-- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: 64 occurrence(s), confidence 80.
-- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: 64 occurrence(s), confidence 80.
-- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: 64 occurrence(s), confidence 80.
-- General Project Signal - Los Angeles / California - California Rejects Construction Fast-Track Measure, Approves Billions for Housing: 64 occurrence(s), confidence 80.
+- Construction Financing - Las Vegas / Nevada - Mesa West Capital Provides $94.2M Construction Loan for Seniors Housing Property Near Las...: 43 occurrence(s), confidence 80.
+- Construction Financing - Las Vegas / Nevada - Mesa West Capital Provides $94.2M Construction Loan for Seniors Housing Property Near Las...: 43 occurrence(s), confidence 80.
+- Construction Financing - Las Vegas / Nevada - Mesa West Capital Provides $94.2M Construction Loan for Seniors Housing Property Near Las...: 43 occurrence(s), confidence 80.
+- Construction Financing - Las Vegas / Nevada - Mesa West Capital Provides $94.2M Construction Loan for Seniors Housing Property Near Las...: 43 occurrence(s), confidence 80.
+- Construction Financing - Las Vegas / Nevada - Mesa West Capital Provides $94.2M Construction Loan for Seniors Housing Property Near Las...: 43 occurrence(s), confidence 80.
+- Construction Financing - Las Vegas / Nevada - Mesa West Capital Provides $94.2M Construction Loan for Seniors Housing Property Near Las...: 43 occurrence(s), confidence 80.
+- Construction Financing - Las Vegas / Nevada - Mesa West Capital Provides $94.2M Construction Loan for Seniors Housing Property Near Las...: 43 occurrence(s), confidence 80.
+- Construction Financing - Las Vegas / Nevada - Mesa West Capital Provides $94.2M Construction Loan for Seniors Housing Property Near Las...: 43 occurrence(s), confidence 80.
+- Construction Financing - Las Vegas / Nevada - Mesa West Capital Provides $94.2M Construction Loan for Seniors Housing Property Near Las...: 43 occurrence(s), confidence 80.
+- Construction Financing - Las Vegas / Nevada - Mesa West Capital Provides $94.2M Construction Loan for Seniors Housing Property Near Las...: 43 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

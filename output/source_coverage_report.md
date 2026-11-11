@@ -1,16 +1,15 @@
 # Site / Parcel Source Coverage Report
 
-Generated: 2026-11-10 04:30:33
+Generated: 2026-11-11 02:34:02
 
 - Total added sources attempted: 25
 - Successful sources: 7
 - Blocked / inaccessible / skipped sources: 18
-- Sources with zero Site / Parcel candidates: 23
+- Sources with zero Site / Parcel candidates: 24
 
 ## Top Site / Parcel Candidate Sources
 
-- REBusiness Online: 2 candidate(s) from 20 fetched article(s).
-- Connect CRE Apartments: 2 candidate(s) from 10 fetched article(s).
+- Connect CRE South Florida: 1 candidate(s) from 10 fetched article(s).
 
 ## Why Coverage May Still Be Thin
 
@@ -20,10 +19,10 @@ Generated: 2026-11-10 04:30:33
 
 ## Source Detail
 
-- REBusiness Online: success | fetched 20 | Site / Parcel candidates 2 | Available
-- Connect CRE Apartments: success | fetched 10 | Site / Parcel candidates 2 | Available
+- REBusiness Online: no relevant articles | fetched 20 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
+- Connect CRE Apartments: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
 - Connect CRE Texas: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
-- Connect CRE South Florida: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
+- Connect CRE South Florida: success | fetched 10 | Site / Parcel candidates 1 | Available
 - Connect CRE Phoenix: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
 - Connect CRE Atlanta: no relevant articles | fetched 10 | Site / Parcel candidates 0 | No saved Site / Parcel candidates detected
 - Connect CRE Charlotte: error | fetched 0 | Site / Parcel candidates 0 | RSS parsing issue: status=404; <unknown>:22:51: not well-formed (invalid token)

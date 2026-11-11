@@ -1,23 +1,23 @@
 # Regime Heatmap Report
 
-Generated: 2026-11-10 04:30:33
+Generated: 2026-11-11 02:34:02
 
 Scores are calibrated with capped weighted components, so final_score is less likely to saturate at 100 unless the supporting signals are very strong.
 
-- Top regime by final_score: Selective Capital Re-entry (84)
+- Top regime by final_score: Selective Capital Re-entry (89)
 - Second regime by final_score: Financing Stress (81)
 
 ## Full Regime Score Table
 
 | Regime | Raw Score | Normalized Score | Final Score | Strength | Supporting Signals |
 | --- | ---: | ---: | ---: | --- | --- |
-| Selective Capital Re-entry | 126 | 84 | 84 | Very Strong | Institutional Flow articles: 17; Deal Size Signal articles: 4; Institutional player mentions: 11 |
-| Financing Stress | 121 | 81 | 81 | Very Strong | Financing Risk articles: 25; Financing/cap-rate market signals: 6; Financing matched-keyword articles: 20 |
-| Policy / Entitlement Watch | 100 | 67 | 67 | Strong | Regulation Risk articles: 7; Policy matched-keyword articles: 8; California / Los Angeles focus count: 6 |
-| Developer Strategy Shift | 88 | 59 | 59 | Moderate | Developer Strategy articles: 28; Developer matched-keyword articles: 6; Must Read articles: 35 |
-| Supply Pressure | 61 | 41 | 41 | Moderate | Supply Pressure articles: 1; Supply/vacancy/concession signals: 13; Supply matched-keyword articles: 1 |
+| Selective Capital Re-entry | 134 | 89 | 89 | Very Strong | Institutional Flow articles: 28; Deal Size Signal articles: 16; Institutional player mentions: 14 |
+| Financing Stress | 121 | 81 | 81 | Very Strong | Financing Risk articles: 32; Financing/cap-rate market signals: 3; Financing matched-keyword articles: 23 |
+| Policy / Entitlement Watch | 100 | 67 | 67 | Strong | Regulation Risk articles: 5; Policy matched-keyword articles: 6; California / Los Angeles focus count: 9 |
+| Developer Strategy Shift | 88 | 59 | 59 | Moderate | Developer Strategy articles: 32; Developer matched-keyword articles: 8; Must Read articles: 42 |
+| Supply Pressure | 64 | 43 | 43 | Moderate | Supply Pressure articles: 1; Supply/vacancy/concession signals: 6; Supply matched-keyword articles: 2 |
 | Construction Cost Pressure | 0 | 0 | 0 | Not Detected | Cost Control articles: 0; Construction Cost Signal articles: 0; Cost matched-keyword articles: 0 |
-| Stable Monitoring Environment | 0 | 0 | 0 | Not Detected | Highest active regime score before stable adjustment: 126; Monitor articles: 1 |
+| Stable Monitoring Environment | 0 | 0 | 0 | Not Detected | Highest active regime score before stable adjustment: 134; Monitor articles: 4 |
 
 ## Regime Interpretations
 

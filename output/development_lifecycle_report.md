@@ -1,74 +1,61 @@
 # Development Lifecycle Report
 
-Generated: 2026-11-11 02:34:24
+Generated: 2026-11-12 03:39:00
 
-- Total lifecycle records: 96
+- Total lifecycle records: 95
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 57
-- Refinancing / Recapitalization: 8
-- Site Acquisition / Site Control: 8
-- Delivery / Opening: 8
-- Early Site Signal: 4
-- Construction Started: 3
+- Unknown Stage: 63
+- Refinancing / Recapitalization: 11
+- Site Acquisition / Site Control: 11
 - Vertical Construction: 3
-- Entitlement Under Review: 3
-- Building Permit / Construction Permit: 2
+- Early Site Signal: 3
+- Delivery / Opening: 2
+- Construction Started: 1
+- Entitlement Under Review: 1
 
 ## Top Development Timing Opportunities
 
-- Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Refinancing / Recapitalization, Manhattan, lifecycle_opportunity_score 100.
-- Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use: Unknown Stage, Los Angeles, lifecycle_opportunity_score 100.
-- JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Refinancing / Recapitalization, Manhattan, lifecycle_opportunity_score 100.
+- Refinancing - Phoenix / Arizona - Class A Res Community in Mesa, AZ Refinanced with $92M Loan: Refinancing / Recapitalization, Phoenix, lifecycle_opportunity_score 100.
+- Refinancing - Riverside / California - JLL Arranges $104M Refinancing for 233-Unit Manhattan Multifamily Portfolio: Refinancing / Recapitalization, Manhattan, lifecycle_opportunity_score 100.
+- Construction Financing - Florida - JLL Arranges $386M Construction Loan for InterContinental Orlando Hotel Project: Refinancing / Recapitalization, Orlando, lifecycle_opportunity_score 100.
+- JLL Arranges $104M Refinancing for 233-Unit Manhattan Multifamily Portfolio: Refinancing / Recapitalization, Manhattan, lifecycle_opportunity_score 100.
+- JLL Arranges $386M Construction Loan for InterContinental Orlando Hotel Project: Refinancing / Recapitalization, Orlando, lifecycle_opportunity_score 100.
+- Construction Financing - Other / Unknown - CP Group-Led JV Lands $272M for Mixed-Use Boca Raton Campus: Site Acquisition / Site Control, Unknown, lifecycle_opportunity_score 100.
 - Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City: Unknown Stage, California, lifecycle_opportunity_score 100.
-- Acquisition - Atlanta / Georgia - Aspen Square Spins Off 395-Unit Marietta Rental Asset: Unknown Stage, Atlanta, lifecycle_opportunity_score 100.
+- Acento Partners Purchases 395-Unit Apartment Complex in Suburban Atlanta: Site Acquisition / Site Control, Atlanta, lifecycle_opportunity_score 100.
 - Acquisition - California - Marcus & Millichap Arranges $8.6M Sale and $6M Financing of 71-Unit Multifamily Property i...: Site Acquisition / Site Control, California, lifecycle_opportunity_score 100.
-- JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Unknown Stage, California, lifecycle_opportunity_score 99.
-- Acquisition - Dallas / Texas - Greybrook Picks Up 334-Unit Mansfield Rental Community: Unknown Stage, Dallas, lifecycle_opportunity_score 99.
-- General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Unknown Stage, South Florida, lifecycle_opportunity_score 99.
-- Refinancing - Arizona - Dinerstein Cos., PCCP Receive $92.1M Refinancing for Multifamily Community in Mesa, Arizon...: Refinancing / Recapitalization, Arizona, lifecycle_opportunity_score 98.
+- Development Start - Atlanta / Georgia - Kennedy Wilson, Shimuzu Ink $90M Loan for Sandy Springs Rental Venture: Vertical Construction, Atlanta, lifecycle_opportunity_score 100.
 
 ## Top Lifecycle Risks
 
-- Construction Financing - Las Vegas / Nevada - Mesa West Capital Provides $94.2M Construction Loan for Seniors Housing Property Near Las...: Refinancing / Recapitalization, Las Vegas, lifecycle_risk_score 58.
-- Operational / Property Management Tech - National - Multifamily’s Refinancing Crunch Is Raising the Stakes for AI: Refinancing / Recapitalization, National, lifecycle_risk_score 57.
+- Refinancing - California - Northmarq Arranges $105M Refinancing for Madrone Apartments in Silicon Valley: Refinancing / Recapitalization, California, lifecycle_risk_score 68.
+- Recapitalization - Other / Unknown - BWE Arranges $240M Recapitalization of Midwest Seniors Housing Portfolio: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 58.
 - Construction Financing - Austin / Texas - Genesis, KTGY Complete 54-Story Austin Tower: Unknown Stage, Austin, lifecycle_risk_score 54.
-- Refinancing - Arizona - Dinerstein Cos., PCCP Receive $92.1M Refinancing for Multifamily Community in Mesa, Arizon...: Refinancing / Recapitalization, Arizona, lifecycle_risk_score 53.
-- Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 52.
+- Refinancing - Phoenix / Arizona - Class A Res Community in Mesa, AZ Refinanced with $92M Loan: Refinancing / Recapitalization, Phoenix, lifecycle_risk_score 52.
+- Refinancing - Riverside / California - JLL Arranges $104M Refinancing for 233-Unit Manhattan Multifamily Portfolio: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 52.
+- Construction Financing - Other / Unknown - Affinius Capital Provides $100.3M Construction Loan for Student Housing Project Near Unive...: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 50.
 - Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing / Recapitalization, Phoenix, lifecycle_risk_score 49.
-- Disposition / Exit - National - $212M Sale, Financing Arranged by JLL for Seniors Housing in Lincolnwood: Unknown Stage, National, lifecycle_risk_score 46.
-- Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use: Unknown Stage, Los Angeles, lifecycle_risk_score 44.
-- JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 44.
-- Construction Financing - Miami / Florida - Kadima Inks Financing for 124-unit Hallandale Beach Condo Project: Site Acquisition / Site Control, South Florida, lifecycle_risk_score 42.
+- Northmarq Arranges $105M Refinancing for Madrone Apartments in Silicon Valley: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 48.
+- Construction Financing - Florida - JLL Arranges $386M Construction Loan for InterContinental Orlando Hotel Project: Refinancing / Recapitalization, Orlando, lifecycle_risk_score 47.
+- Construction Financing - Texas - Legacy and CrossHarbor Bringing 444-Residence Apartment Community to Richardson Texas: Unknown Stage, Texas, lifecycle_risk_score 47.
 
 ## Projects Under Entitlement / Planning
 
 - Fresh renderings for West Hollywood's Melrose Triangle development: Entitlement Under Review, Hollywood, lifecycle_opportunity_score 80.
-- Mayor Wu Proposes Inclusionary Zoning Changes to Ease Developers’ Financial Burden: Entitlement Under Review, Los Angeles, lifecycle_opportunity_score 63.
-- Entitlement / Permitting - Other / Unknown - Mayor Wu Proposes Inclusionary Zoning Changes to Ease Developers’ Financial Burden: Entitlement Under Review, Unknown, lifecycle_opportunity_score 57.
 
 ## Construction-Ready / Construction-Start Signals
 
-- Entitlement / Permitting - San Francisco / California - New Building Permits For ADU at 4300 17th Street in Corona Heights, San Francisco: Building Permit / Construction Permit, San Francisco, lifecycle_opportunity_score 91.
-- Groundbreaking For Liberation Park Residences, Oakland: Construction Started, Unknown, lifecycle_opportunity_score 90.
+- Development Start - Atlanta / Georgia - Kennedy Wilson, Shimuzu Ink $90M Loan for Sandy Springs Rental Venture: Vertical Construction, Atlanta, lifecycle_opportunity_score 100.
 - Affordable housing rising at 2626 Cullen St. in Mid-City: Vertical Construction, Los Angeles, lifecycle_opportunity_score 87.
 - Development Start - California - 3 multifamily groundbreakings you may have missed: Construction Started, California, lifecycle_opportunity_score 83.
 - Entitlement / Permitting - Los Angeles / California - Affordable housing rising at 2626 Cullen St. in Mid-City: Vertical Construction, Los Angeles / California, lifecycle_opportunity_score 83.
-- New Building Permits For ADU at 4300 17th Street in Corona Heights, San Francisco: Building Permit / Construction Permit, Los Angeles, lifecycle_opportunity_score 82.
-- Development Start - Dallas / Texas - Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community: Vertical Construction, Dallas, lifecycle_opportunity_score 81.
-- Development Start - Other / Unknown - Groundbreaking For Liberation Park Residences, Oakland: Construction Started, Unknown, lifecycle_opportunity_score 75.
 
 ## Delivery / Lease-Up Signals
 
-- Construction Financing - Other / Unknown - $39.1M Financing Secured for Tennessen Flats in Suburban Milwaukee: Delivery / Opening, Unknown, lifecycle_opportunity_score 96.
 - BTR / Build-to-Rent - Dallas / Texas - Crescent Completes 146-Unit Melissa BTR Community: Delivery / Opening, Dallas, lifecycle_opportunity_score 93.
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening, California, lifecycle_opportunity_score 85.
-- JV / Partnership - Phoenix / Arizona - High Street, Mitsui Fudosan America Complete Scottsdale Luxury Apartment Project: Delivery / Opening, Phoenix, lifecycle_opportunity_score 82.
-- Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community: Delivery / Opening, Dallas, lifecycle_opportunity_score 78.
-- USA Properties Fund Breaks Ground on $174M Affordable Housing Project in Fremont, California: Delivery / Opening, Unknown, lifecycle_opportunity_score 77.
-- Grand Opening For La Vista Apartments, Hayward: Delivery / Opening, Los Angeles, lifecycle_opportunity_score 70.
-- JV / Partnership - Other / Unknown - Partnership Nears Completion of 151-Unit Multifamily Project in Portsmouth, New Hampshire: Delivery / Opening, Unknown, lifecycle_opportunity_score 53.
 
 ## Distressed / Stalled Lifecycle Signals
 
@@ -76,14 +63,16 @@ Generated: 2026-11-11 02:34:24
 
 ## Refinancing / Recapitalization Lifecycle Signals
 
-- Construction Financing - Las Vegas / Nevada - Mesa West Capital Provides $94.2M Construction Loan for Seniors Housing Property Near Las...: Refinancing / Recapitalization, Las Vegas, lifecycle_risk_score 58.
-- Operational / Property Management Tech - National - Multifamily’s Refinancing Crunch Is Raising the Stakes for AI: Refinancing / Recapitalization, National, lifecycle_risk_score 57.
-- Refinancing - Arizona - Dinerstein Cos., PCCP Receive $92.1M Refinancing for Multifamily Community in Mesa, Arizon...: Refinancing / Recapitalization, Arizona, lifecycle_risk_score 53.
-- Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 52.
+- Refinancing - California - Northmarq Arranges $105M Refinancing for Madrone Apartments in Silicon Valley: Refinancing / Recapitalization, California, lifecycle_risk_score 68.
+- Recapitalization - Other / Unknown - BWE Arranges $240M Recapitalization of Midwest Seniors Housing Portfolio: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 58.
+- Refinancing - Phoenix / Arizona - Class A Res Community in Mesa, AZ Refinanced with $92M Loan: Refinancing / Recapitalization, Phoenix, lifecycle_risk_score 52.
+- Refinancing - Riverside / California - JLL Arranges $104M Refinancing for 233-Unit Manhattan Multifamily Portfolio: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 52.
+- Construction Financing - Other / Unknown - Affinius Capital Provides $100.3M Construction Loan for Student Housing Project Near Unive...: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 50.
 - Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing / Recapitalization, Phoenix, lifecycle_risk_score 49.
-- JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 44.
-- Gantry Secures $15.6M of Acquisition and Redevelopment Financing for Suburban Saint Louis Multifamily Value-Add Project: Refinancing / Recapitalization, Santa Ana, lifecycle_risk_score 38.
-- Gantry Secures $16M for St. Louis Multifamily Redevelopment: Refinancing / Recapitalization, Santa Ana, lifecycle_risk_score 38.
+- Northmarq Arranges $105M Refinancing for Madrone Apartments in Silicon Valley: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 48.
+- Construction Financing - Florida - JLL Arranges $386M Construction Loan for InterContinental Orlando Hotel Project: Refinancing / Recapitalization, Orlando, lifecycle_risk_score 47.
+- JLL Arranges $104M Refinancing for 233-Unit Manhattan Multifamily Portfolio: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 43.
+- JLL Arranges $386M Construction Loan for InterContinental Orlando Hotel Project: Refinancing / Recapitalization, Orlando, lifecycle_risk_score 38.
 
 ## Implications for Woomi / Woomi Global
 
@@ -92,24 +81,24 @@ Generated: 2026-11-11 02:34:24
 
 ## Recommended Lifecycle Follow-up Actions
 
-- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio.
-- Monitor lifecycle signal for repeated confirmation: Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use.
-- Track lender, maturity, debt terms, and recapitalization need: JLL Arranges $104M Financing for Uptown Multifamily Portfolio.
+- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Phoenix / Arizona - Class A Res Community in Mesa, AZ Refinanced with $92M Loan.
+- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Riverside / California - JLL Arranges $104M Refinancing for 233-Unit Manhattan Multifamily Portfolio.
+- Track lender, maturity, debt terms, and recapitalization need: Construction Financing - Florida - JLL Arranges $386M Construction Loan for InterContinental Orlando Hotel Project.
+- Track lender, maturity, debt terms, and recapitalization need: JLL Arranges $104M Refinancing for 233-Unit Manhattan Multifamily Portfolio.
+- Track lender, maturity, debt terms, and recapitalization need: JLL Arranges $386M Construction Loan for InterContinental Orlando Hotel Project.
+- Monitor lifecycle signal for repeated confirmation: Construction Financing - Other / Unknown - CP Group-Led JV Lands $272M for Mixed-Use Boca Raton Campus.
 - Monitor lifecycle signal for repeated confirmation: Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City.
-- Monitor lifecycle signal for repeated confirmation: Acquisition - Atlanta / Georgia - Aspen Square Spins Off 395-Unit Marietta Rental Asset.
-- Monitor lifecycle signal for repeated confirmation: Acquisition - California - Marcus & Millichap Arranges $8.6M Sale and $6M Financing of 71-Unit Multifamily Property i....
-- Monitor lifecycle signal for repeated confirmation: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine.
-- Monitor lifecycle signal for repeated confirmation: Acquisition - Dallas / Texas - Greybrook Picks Up 334-Unit Mansfield Rental Community.
+- Monitor lifecycle signal for repeated confirmation: Acento Partners Purchases 395-Unit Apartment Complex in Suburban Atlanta.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 96
-- Newly detected projects: 49
+- Lifecycle transitions analyzed: 95
+- Newly detected projects: 43
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 60
+- LA lifecycle transition watch items: 58
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -117,11 +106,11 @@ Generated: 2026-11-11 02:34:24
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 784
-- Canonical projects: 202
-- Duplicate project clusters: 136
-- Persistent assets tracked: 202
-- LA persistent asset watch items: 142
+- Raw project references: 788
+- Canonical projects: 198
+- Duplicate project clusters: 138
+- Persistent assets tracked: 198
+- LA persistent asset watch items: 131
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -129,10 +118,10 @@ Generated: 2026-11-11 02:34:24
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 202
+- Signals evaluated: 198
 - Institutional-grade signals: 19
-- High-confidence signals: 57
-- Weak/noisy signals: 110
-- High-confidence watchlist items: 57
+- High-confidence signals: 58
+- Weak/noisy signals: 103
+- High-confidence watchlist items: 58
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

@@ -1,20 +1,19 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-11-11 02:34:24
+Generated: 2026-11-12 03:39:00
 
-- Total LA lifecycle watch items: 63
+- Total LA lifecycle watch items: 62
 
 ## LA Lifecycle Stage Distribution
 
-- Unknown Stage: 33
-- Site Acquisition / Site Control: 7
-- Delivery / Opening: 6
-- Early Site Signal: 4
-- Refinancing / Recapitalization: 3
-- Construction Started: 3
+- Unknown Stage: 35
+- Site Acquisition / Site Control: 10
+- Refinancing / Recapitalization: 7
 - Vertical Construction: 3
-- Building Permit / Construction Permit: 2
-- Entitlement Under Review: 2
+- Early Site Signal: 3
+- Delivery / Opening: 2
+- Construction Started: 1
+- Entitlement Under Review: 1
 
 ## Koreatown / Wilshire Lifecycle Watch
 
@@ -50,35 +49,31 @@ Generated: 2026-11-11 02:34:24
 
 ## Construction-Ready LA Project Watch
 
-- Entitlement / Permitting - San Francisco / California - New Building Permits For ADU at 4300 17th Street in Corona Heights, San Francisco: Building Permit / Construction Permit, Monitor permit issuance, opportunity 91.
-- Groundbreaking For Liberation Park Residences, Oakland: Construction Started, Monitor only, opportunity 90.
+- Development Start - Atlanta / Georgia - Kennedy Wilson, Shimuzu Ink $90M Loan for Sandy Springs Rental Venture: Vertical Construction, Monitor only, opportunity 100.
 - Affordable housing rising at 2626 Cullen St. in Mid-City: Vertical Construction, Monitor only, opportunity 87.
 - Development Start - California - 3 multifamily groundbreakings you may have missed: Construction Started, Monitor only, opportunity 83.
 - Entitlement / Permitting - Los Angeles / California - Affordable housing rising at 2626 Cullen St. in Mid-City: Vertical Construction, Monitor only, opportunity 83.
-- New Building Permits For ADU at 4300 17th Street in Corona Heights, San Francisco: Building Permit / Construction Permit, Monitor permit issuance, opportunity 82.
-- Development Start - Dallas / Texas - Trademark, Morgan Advancing 362-Unit Oak Lawn Rental Community: Vertical Construction, Monitor only, opportunity 81.
-- Development Start - Other / Unknown - Groundbreaking For Liberation Park Residences, Oakland: Construction Started, Monitor only, opportunity 75.
 
 ## Recommended LA Lifecycle Follow-up Actions
 
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio.
-- Monitor lifecycle status for repeated confirmation: Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use.
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: JLL Arranges $104M Financing for Uptown Multifamily Portfolio.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Phoenix / Arizona - Class A Res Community in Mesa, AZ Refinanced with $92M Loan.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Riverside / California - JLL Arranges $104M Refinancing for 233-Unit Manhattan Multifamily Portfolio.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Construction Financing - Florida - JLL Arranges $386M Construction Loan for InterContinental Orlando Hotel Project.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: JLL Arranges $104M Refinancing for 233-Unit Manhattan Multifamily Portfolio.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: JLL Arranges $386M Construction Loan for InterContinental Orlando Hotel Project.
+- Monitor lifecycle status for repeated confirmation: Construction Financing - Other / Unknown - CP Group-Led JV Lands $272M for Mixed-Use Boca Raton Campus.
 - Monitor lifecycle status for repeated confirmation: Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City.
-- Monitor lifecycle status for repeated confirmation: Acquisition - Atlanta / Georgia - Aspen Square Spins Off 395-Unit Marietta Rental Asset.
-- Monitor lifecycle status for repeated confirmation: Acquisition - California - Marcus & Millichap Arranges $8.6M Sale and $6M Financing of 71-Unit Multifamily Property i....
-- Monitor lifecycle status for repeated confirmation: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine.
-- Monitor lifecycle status for repeated confirmation: Acquisition - Dallas / Texas - Greybrook Picks Up 334-Unit Mansfield Rental Community.
+- Monitor lifecycle status for repeated confirmation: Acento Partners Purchases 395-Unit Apartment Complex in Suburban Atlanta.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 96
-- Newly detected projects: 49
+- Lifecycle transitions analyzed: 95
+- Newly detected projects: 43
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 60
+- LA lifecycle transition watch items: 58
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -86,10 +81,10 @@ Generated: 2026-11-11 02:34:24
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 784
-- Canonical projects: 202
-- Duplicate project clusters: 136
-- Persistent assets tracked: 202
-- LA persistent asset watch items: 142
+- Raw project references: 788
+- Canonical projects: 198
+- Duplicate project clusters: 138
+- Persistent assets tracked: 198
+- LA persistent asset watch items: 131
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

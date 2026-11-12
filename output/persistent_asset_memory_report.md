@@ -1,63 +1,63 @@
 # Persistent Asset Memory Report
 
-Generated: 2026-11-11 02:34:25
+Generated: 2026-11-12 03:39:00
 
-- Total persistent assets tracked: 202
-- Newly detected assets: 172
+- Total persistent assets tracked: 198
+- Newly detected assets: 163
 - Progressing assets: 0
-- Possible stalled assets: 4
+- Possible stalled assets: 3
 
 ## Highest Priority Asset Watch Items
 
-- Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Priority Asset Watch, Refinancing / Recapitalization, score 92.
-- Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use: Priority Asset Watch, Unknown Stage, score 92.
-- Office-to-Residential Conversion - Denver / Colorado - Helaba Lends $82M on Macy’s-to-Residential Conversion Project Near Denver: Priority Asset Watch, Unknown Stage, score 89.
-- General Project Signal - California - MMCC Arranges Credit Union Financing for Three Central Valley Multifamily Properties: Priority Asset Watch, Site Acquisition / Site Control, score 89.
+- Refinancing - Phoenix / Arizona - Class A Res Community in Mesa, AZ Refinanced with $92M Loan: Priority Asset Watch, Refinancing / Recapitalization, score 92.
+- Refinancing - Riverside / California - JLL Arranges $104M Refinancing for 233-Unit Manhattan Multifamily Portfolio: Priority Asset Watch, Refinancing / Recapitalization, score 92.
+- General Project Signal - California - ACC Closes on $191M Financing for 1,065-Bed Student Housing Development at UC Irvine: Priority Asset Watch, Refinancing / Recapitalization, score 91.
+- Construction Financing - Other / Unknown - CP Group-Led JV Lands $272M for Mixed-Use Boca Raton Campus: Priority Asset Watch, Unknown Stage, score 91.
+- General Project Signal - California - MMCC Arranges Credit Union Financing for Three Central Valley Multifamily Properties: Priority Asset Watch, Site Acquisition / Site Control, score 90.
+- Cushman & Wakefield and Greystone Close Sale and $39.2M in Fannie Mae Financing for a Multifamily Property in Mansfield Texas: Priority Asset Watch, Unknown Stage, score 89.
 - General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Priority Asset Watch, Unknown Stage, score 89.
-- Acquisition - Atlanta / Georgia - Aspen Square Spins Off 395-Unit Marietta Rental Asset: Priority Asset Watch, Unknown Stage, score 89.
-- Acquisition - Dallas / Texas - Greybrook Picks Up 334-Unit Mansfield Rental Community: Priority Asset Watch, Unknown Stage, score 89.
 - JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Priority Asset Watch, Unknown Stage, score 88.
-- Acquisition - California - USA Properties Fund Breaks Ground on $174M Affordable Housing Project in Fremont, Californ...: Priority Asset Watch, Construction Started, score 86.
-- Construction Financing - Miami / Florida - Kadima Inks Financing for 124-unit Hallandale Beach Condo Project: Priority Asset Watch, Site Acquisition / Site Control, score 84.
+- Development Start - Atlanta / Georgia - Kennedy Wilson, Shimuzu Ink $90M Loan for Sandy Springs Rental Venture: Priority Asset Watch, Vertical Construction, score 87.
+- Construction Financing - Florida - JLL Arranges $386M Construction Loan for InterContinental Orlando Hotel Project: Priority Asset Watch, Refinancing / Recapitalization, score 86.
 
 ## Assets With Repeated Financing Signals
 
-- Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Priority Asset Watch, Refinancing / Recapitalization, score 92.
+- Refinancing - Phoenix / Arizona - Class A Res Community in Mesa, AZ Refinanced with $92M Loan: Priority Asset Watch, Refinancing / Recapitalization, score 92.
+- Refinancing - Riverside / California - JLL Arranges $104M Refinancing for 233-Unit Manhattan Multifamily Portfolio: Priority Asset Watch, Refinancing / Recapitalization, score 92.
+- General Project Signal - California - ACC Closes on $191M Financing for 1,065-Bed Student Housing Development at UC Irvine: Priority Asset Watch, Refinancing / Recapitalization, score 91.
+- Cushman & Wakefield and Greystone Close Sale and $39.2M in Fannie Mae Financing for a Multifamily Property in Mansfield Texas: Priority Asset Watch, Unknown Stage, score 89.
 - General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Priority Asset Watch, Unknown Stage, score 89.
-- Acquisition - Dallas / Texas - Greybrook Picks Up 334-Unit Mansfield Rental Community: Priority Asset Watch, Unknown Stage, score 89.
-- Construction Financing - Las Vegas / Nevada - Mesa West Capital Provides $94.2M Construction Loan for Seniors Housing Property Near Las...: Priority Asset Watch, Delivery / Opening, score 80.
-- Refinancing - Arizona - Dinerstein Cos., PCCP Receive $92.1M Refinancing for Multifamily Community in Mesa, Arizon...: Priority Asset Watch, Refinancing / Recapitalization, score 79.
-- Operational / Property Management Tech - National - Your Next Client Won't Google You: 94% of B2B Buyers Use AI When They Buy.: Strategic Asset Watch, Refinancing / Recapitalization, score 71.
-- Disposition / Exit - Other / Unknown - Cushman & Wakefield Brokers $44M Sale of 240-Unit Apartment Community in Sheboygan Wiscons...: Strategic Asset Watch, Construction Started, score 70.
-- Construction Financing - Las Vegas / Nevada - Mesa West Capital Provides $94.2M Construction Loan for Seniors Housing Property Near Las...: Strategic Asset Watch, Refinancing / Recapitalization, score 69.
+- Development Start - Atlanta / Georgia - Kennedy Wilson, Shimuzu Ink $90M Loan for Sandy Springs Rental Venture: Priority Asset Watch, Vertical Construction, score 87.
+- Construction Financing - Florida - JLL Arranges $386M Construction Loan for InterContinental Orlando Hotel Project: Priority Asset Watch, Refinancing / Recapitalization, score 86.
+- JV / Partnership - Other / Unknown - JLL Negotiates Sale of 346-Unit Apartment Tower in Minneapolis: Priority Asset Watch, Unknown Stage, score 76.
+- Construction Financing - Other / Unknown - Affinius Capital Provides $100.3M Construction Loan for Student Housing Project Near Unive...: Priority Asset Watch, Unknown Stage, score 76.
 - Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Strategic Asset Watch, Refinancing / Recapitalization, score 68.
-- Disposition / Exit - Other / Unknown - Cushman & Wakefield Brokers $44M Sale of 240-Unit Apartment Community in Sheboygan Wiscons...: Strategic Asset Watch, Construction Started, score 66.
 
 ## Assets With Repeated Entitlement Signals
 
-- Office-to-Residential Conversion - Denver / Colorado - Helaba Lends $82M on Macy’s-to-Residential Conversion Project Near Denver: Priority Asset Watch, Unknown Stage, score 89.
-- Entitlement / Permitting - Los Angeles / California - Six homes planned at 1420 S. Point View St. in Mid-City: Priority Asset Watch, Early Site Signal, score 81.
-- JV / Partnership - Dallas / Texas - Legacy, CrossHarbor Teaming Up on 444-Unit Richardson Apartment Community: Priority Asset Watch, Vertical Construction, score 81.
-- Entitlement / Permitting - Los Angeles / California - Six homes planned at 1420 S. Point View St. in Mid-City: Priority Asset Watch, Vertical Construction, score 80.
-- Construction Financing - Las Vegas / Nevada - Mesa West Capital Provides $94.2M Construction Loan for Seniors Housing Property Near Las...: Priority Asset Watch, Delivery / Opening, score 80.
-- JV / Partnership - Dallas / Texas - Legacy, CrossHarbor Teaming Up on 444-Unit Richardson Apartment Community: Priority Asset Watch, Delivery / Opening, score 80.
-- Terra, Fortune Ink $220M Key Biscayne Condo Financing: Strategic Asset Watch, Unknown Stage, score 73.
-- Entitlement / Permitting - San Francisco / California - New Building Permits For ADU at 4300 17th Street in Corona Heights, San Francisco: Strategic Asset Watch, Building Permit / Construction Permit, score 70.
-- Disposition / Exit - Other / Unknown - Cushman & Wakefield Brokers $44M Sale of 240-Unit Apartment Community in Sheboygan Wiscons...: Strategic Asset Watch, Construction Started, score 70.
-- New Building Permits For ADU at 4300 17th Street in Corona Heights, San Francisco: Strategic Asset Watch, Building Permit / Construction Permit, score 67.
+- Construction Financing - Other / Unknown - CP Group-Led JV Lands $272M for Mixed-Use Boca Raton Campus: Priority Asset Watch, Unknown Stage, score 91.
+- Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood: Priority Asset Watch, Unknown Stage, score 81.
+- Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood: Priority Asset Watch, Vertical Construction, score 78.
+- Entitlement / Permitting - New York City / New York - Site prep begins for housing at 2301 N. Sepulveda Blvd. in Manhattan Beach: Strategic Asset Watch, Site Acquisition / Site Control, score 73.
+- Site prep begins for housing at 2301 N. Sepulveda Blvd. in Manhattan Beach: Strategic Asset Watch, Site Acquisition / Site Control, score 72.
+- Legacy and CrossHarbor Bringing 444-Residence Apartment Community to Richardson Texas: Strategic Asset Watch, Unknown Stage, score 70.
+- General Project Signal - Los Angeles / California - Affordable housing takes shape at 3455 Slauson Ave. in Hyde Park: Strategic Asset Watch, Vertical Construction, score 68.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Unknown Stage, score 61.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: Strategic Asset Watch, Early Site Signal, score 58.
+- Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood: Strategic Asset Watch, Unknown Stage, score 55.
 
 ## Recurring Asset Signals
 
-- Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Priority Asset Watch, Refinancing / Recapitalization, score 92.
-- Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use: Priority Asset Watch, Unknown Stage, score 92.
-- Office-to-Residential Conversion - Denver / Colorado - Helaba Lends $82M on Macy’s-to-Residential Conversion Project Near Denver: Priority Asset Watch, Unknown Stage, score 89.
-- General Project Signal - California - MMCC Arranges Credit Union Financing for Three Central Valley Multifamily Properties: Priority Asset Watch, Site Acquisition / Site Control, score 89.
+- Refinancing - Phoenix / Arizona - Class A Res Community in Mesa, AZ Refinanced with $92M Loan: Priority Asset Watch, Refinancing / Recapitalization, score 92.
+- Refinancing - Riverside / California - JLL Arranges $104M Refinancing for 233-Unit Manhattan Multifamily Portfolio: Priority Asset Watch, Refinancing / Recapitalization, score 92.
+- General Project Signal - California - ACC Closes on $191M Financing for 1,065-Bed Student Housing Development at UC Irvine: Priority Asset Watch, Refinancing / Recapitalization, score 91.
+- Construction Financing - Other / Unknown - CP Group-Led JV Lands $272M for Mixed-Use Boca Raton Campus: Priority Asset Watch, Unknown Stage, score 91.
+- General Project Signal - California - MMCC Arranges Credit Union Financing for Three Central Valley Multifamily Properties: Priority Asset Watch, Site Acquisition / Site Control, score 90.
+- Cushman & Wakefield and Greystone Close Sale and $39.2M in Fannie Mae Financing for a Multifamily Property in Mansfield Texas: Priority Asset Watch, Unknown Stage, score 89.
 - General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Priority Asset Watch, Unknown Stage, score 89.
-- Acquisition - Atlanta / Georgia - Aspen Square Spins Off 395-Unit Marietta Rental Asset: Priority Asset Watch, Unknown Stage, score 89.
-- Acquisition - Dallas / Texas - Greybrook Picks Up 334-Unit Mansfield Rental Community: Priority Asset Watch, Unknown Stage, score 89.
 - JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Priority Asset Watch, Unknown Stage, score 88.
-- Acquisition - California - USA Properties Fund Breaks Ground on $174M Affordable Housing Project in Fremont, Californ...: Priority Asset Watch, Construction Started, score 86.
-- Construction Financing - Miami / Florida - Kadima Inks Financing for 124-unit Hallandale Beach Condo Project: Priority Asset Watch, Site Acquisition / Site Control, score 84.
+- Development Start - Atlanta / Georgia - Kennedy Wilson, Shimuzu Ink $90M Loan for Sandy Springs Rental Venture: Priority Asset Watch, Vertical Construction, score 87.
+- Construction Financing - Florida - JLL Arranges $386M Construction Loan for InterContinental Orlando Hotel Project: Priority Asset Watch, Refinancing / Recapitalization, score 86.
 
 ## Implications for Woomi / Woomi Global
 
@@ -66,23 +66,23 @@ Generated: 2026-11-11 02:34:25
 
 ## Recommended Asset Memory Follow-up
 
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Los Angeles / California - Lincoln, McCourt Launch 344-Unit Culver City Mixed-Use.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Office-to-Residential Conversion - Denver / Colorado - Helaba Lends $82M on Macy’s-to-Residential Conversion Project Near Denver.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Phoenix / Arizona - Class A Res Community in Mesa, AZ Refinanced with $92M Loan.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Riverside / California - JLL Arranges $104M Refinancing for 233-Unit Manhattan Multifamily Portfolio.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - California - ACC Closes on $191M Financing for 1,065-Bed Student Housing Development at UC Irvine.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - Other / Unknown - CP Group-Led JV Lands $272M for Mixed-Use Boca Raton Campus.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - California - MMCC Arranges Credit Union Financing for Three Central Valley Multifamily Properties.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Cushman & Wakefield and Greystone Close Sale and $39.2M in Fannie Mae Financing for a Multifamily Property in Mansfield Texas.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - Atlanta / Georgia - Aspen Square Spins Off 395-Unit Marietta Rental Asset.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - Dallas / Texas - Greybrook Picks Up 334-Unit Mansfield Rental Community.
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 202
+- Signals evaluated: 198
 - Institutional-grade signals: 19
-- High-confidence signals: 57
-- Weak/noisy signals: 110
-- High-confidence watchlist items: 57
+- High-confidence signals: 58
+- Weak/noisy signals: 103
+- High-confidence watchlist items: 58
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

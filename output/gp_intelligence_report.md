@@ -1,41 +1,39 @@
 # GP / Developer Intelligence Report
 
-Generated: 2026-11-12 03:38:32
+Generated: 2026-11-13 03:10:38
 
 ## Top Institutional Signals
 
-- Blackstone: acquisition; refinancing; JV / partnership; market expansion; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 100. potential JV partnership signal; monitor JV activity.
-- Marcus & Millichap: acquisition; disposition / exit; refinancing; market expansion; operational technology / AI adoption, California, sources: Core Multifamily News; Regional / California / LA Sources; Site / Parcel Source Expansion, strength 100. competitive pressure indicator; track refinancing pipeline.
-- Millichap Capital: acquisition; disposition / exit; refinancing; operational technology / AI adoption, California, sources: Core Multifamily News; Regional / California / LA Sources, strength 100. competitive pressure indicator; track refinancing pipeline.
-- Millichap Capital Corporation: acquisition; disposition / exit; refinancing; operational technology / AI adoption, California, sources: Core Multifamily News; Regional / California / LA Sources, strength 100. competitive pressure indicator; track refinancing pipeline.
-- Lincoln Property Company: disposition / exit; refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 99. potential JV partnership signal; monitor JV activity.
-- McCourt Partners: disposition / exit; refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 99. potential JV partnership signal; monitor JV activity.
-- ACC: acquisition; disposition / exit; refinancing; development start; entitlement; JV / partnership; capital raise; market expansion; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Public Agency / Housing Data; Regional / California / LA Sources; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- CrossHarbor Capital Partners: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- Greystone: acquisition; disposition / exit; refinancing; JV / partnership; capital raise; operational technology / AI adoption, Dallas / Texas, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- JLL: acquisition; disposition / exit; refinancing; development start; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- Freddie Mac: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Florida, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- JLL: acquisition; disposition / exit; refinancing; office-to-residential conversion; JV / partnership; operational technology / AI adoption, Florida, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- Blackstone: JV / partnership; market expansion; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 95. potential JV partnership signal; monitor JV activity.
+- Marcus & Millichap: disposition / exit; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 95. competitive pressure indicator; review LA / California development activity.
+- CBRE: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- CrossHarbor Capital Partners: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- Fannie Mae: acquisition; refinancing; capital raise; operational technology / AI adoption, National, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. competitive pressure indicator; track refinancing pipeline.
+- Greystone: acquisition; refinancing; JV / partnership; capital raise; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- Hines: acquisition; disposition / exit; office-to-residential conversion; JV / partnership; operational technology / AI adoption, Dallas / Texas, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- Lincoln Property Company: refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 83. potential JV partnership signal; monitor JV activity.
 
 ## Major GP Strategic Movements
 
-- Blackstone: acquisition; refinancing; JV / partnership; market expansion; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 100. potential JV partnership signal; monitor JV activity.
-- Marcus & Millichap: acquisition; disposition / exit; refinancing; market expansion; operational technology / AI adoption, California, sources: Core Multifamily News; Regional / California / LA Sources; Site / Parcel Source Expansion, strength 100. competitive pressure indicator; track refinancing pipeline.
-- Millichap Capital: acquisition; disposition / exit; refinancing; operational technology / AI adoption, California, sources: Core Multifamily News; Regional / California / LA Sources, strength 100. competitive pressure indicator; track refinancing pipeline.
-- Millichap Capital Corporation: acquisition; disposition / exit; refinancing; operational technology / AI adoption, California, sources: Core Multifamily News; Regional / California / LA Sources, strength 100. competitive pressure indicator; track refinancing pipeline.
-- Lincoln Property Company: disposition / exit; refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 99. potential JV partnership signal; monitor JV activity.
-- McCourt Partners: disposition / exit; refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 99. potential JV partnership signal; monitor JV activity.
-- ACC: acquisition; disposition / exit; refinancing; development start; entitlement; JV / partnership; capital raise; market expansion; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Public Agency / Housing Data; Regional / California / LA Sources; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- CrossHarbor Capital Partners: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- Greystone: acquisition; disposition / exit; refinancing; JV / partnership; capital raise; operational technology / AI adoption, Dallas / Texas, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- JLL: acquisition; disposition / exit; refinancing; development start; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- Freddie Mac: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Florida, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- JLL: acquisition; disposition / exit; refinancing; office-to-residential conversion; JV / partnership; operational technology / AI adoption, Florida, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- Blackstone: JV / partnership; market expansion; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 95. potential JV partnership signal; monitor JV activity.
+- Marcus & Millichap: disposition / exit; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 95. competitive pressure indicator; review LA / California development activity.
+- CBRE: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- CrossHarbor Capital Partners: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- Fannie Mae: acquisition; refinancing; capital raise; operational technology / AI adoption, National, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. competitive pressure indicator; track refinancing pipeline.
+- Greystone: acquisition; refinancing; JV / partnership; capital raise; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- Hines: acquisition; disposition / exit; office-to-residential conversion; JV / partnership; operational technology / AI adoption, Dallas / Texas, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- Lincoln Property Company: refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 83. potential JV partnership signal; monitor JV activity.
 
 ## California / LA Developer Activity
 
-- Marcus & Millichap: acquisition; disposition / exit; refinancing; market expansion; operational technology / AI adoption, California, sources: Core Multifamily News; Regional / California / LA Sources; Site / Parcel Source Expansion, strength 100. competitive pressure indicator; track refinancing pipeline.
-- Millichap Capital: acquisition; disposition / exit; refinancing; operational technology / AI adoption, California, sources: Core Multifamily News; Regional / California / LA Sources, strength 100. competitive pressure indicator; track refinancing pipeline.
-- Millichap Capital Corporation: acquisition; disposition / exit; refinancing; operational technology / AI adoption, California, sources: Core Multifamily News; Regional / California / LA Sources, strength 100. competitive pressure indicator; track refinancing pipeline.
-- Lincoln Property Company: disposition / exit; refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 99. potential JV partnership signal; monitor JV activity.
-- McCourt Partners: disposition / exit; refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 99. potential JV partnership signal; monitor JV activity.
-- Silicon Valley Prometheus Real Estate Group: refinancing; capital raise; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 83. competitive pressure indicator; track refinancing pipeline.
+- Blackstone: JV / partnership; market expansion; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 95. potential JV partnership signal; monitor JV activity.
+- Marcus & Millichap: disposition / exit; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 95. competitive pressure indicator; review LA / California development activity.
+- Lincoln Property Company: refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 83. potential JV partnership signal; monitor JV activity.
+- McCourt Partners: refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 83. potential JV partnership signal; monitor JV activity.
 
 ## Sun Belt Expansion Watch
 
@@ -43,59 +41,59 @@ Generated: 2026-11-12 03:38:32
 
 ## BTR / Modular / Innovation Watch
 
-- Blackstone: acquisition; refinancing; JV / partnership; market expansion; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 100. potential JV partnership signal; monitor JV activity.
-- Marcus & Millichap: acquisition; disposition / exit; refinancing; market expansion; operational technology / AI adoption, California, sources: Core Multifamily News; Regional / California / LA Sources; Site / Parcel Source Expansion, strength 100. competitive pressure indicator; track refinancing pipeline.
-- Millichap Capital: acquisition; disposition / exit; refinancing; operational technology / AI adoption, California, sources: Core Multifamily News; Regional / California / LA Sources, strength 100. competitive pressure indicator; track refinancing pipeline.
-- Millichap Capital Corporation: acquisition; disposition / exit; refinancing; operational technology / AI adoption, California, sources: Core Multifamily News; Regional / California / LA Sources, strength 100. competitive pressure indicator; track refinancing pipeline.
-- Lincoln Property Company: disposition / exit; refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 99. potential JV partnership signal; monitor JV activity.
-- McCourt Partners: disposition / exit; refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 99. potential JV partnership signal; monitor JV activity.
-- ACC: acquisition; disposition / exit; refinancing; development start; entitlement; JV / partnership; capital raise; market expansion; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Public Agency / Housing Data; Regional / California / LA Sources; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- CrossHarbor Capital Partners: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- Greystone: acquisition; disposition / exit; refinancing; JV / partnership; capital raise; operational technology / AI adoption, Dallas / Texas, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- JLL: acquisition; disposition / exit; refinancing; development start; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- Freddie Mac: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Florida, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- JLL: acquisition; disposition / exit; refinancing; office-to-residential conversion; JV / partnership; operational technology / AI adoption, Florida, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- Blackstone: JV / partnership; market expansion; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 95. potential JV partnership signal; monitor JV activity.
+- Marcus & Millichap: disposition / exit; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 95. competitive pressure indicator; review LA / California development activity.
+- CBRE: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- CrossHarbor Capital Partners: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- Fannie Mae: acquisition; refinancing; capital raise; operational technology / AI adoption, National, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. competitive pressure indicator; track refinancing pipeline.
+- Greystone: acquisition; refinancing; JV / partnership; capital raise; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- Hines: acquisition; disposition / exit; office-to-residential conversion; JV / partnership; operational technology / AI adoption, Dallas / Texas, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- Lincoln Property Company: refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 83. potential JV partnership signal; monitor JV activity.
 
 ## Distressed / Refinancing Watch
 
-- Blackstone: acquisition; refinancing; JV / partnership; market expansion; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 100. potential JV partnership signal; monitor JV activity.
-- Marcus & Millichap: acquisition; disposition / exit; refinancing; market expansion; operational technology / AI adoption, California, sources: Core Multifamily News; Regional / California / LA Sources; Site / Parcel Source Expansion, strength 100. competitive pressure indicator; track refinancing pipeline.
-- Millichap Capital: acquisition; disposition / exit; refinancing; operational technology / AI adoption, California, sources: Core Multifamily News; Regional / California / LA Sources, strength 100. competitive pressure indicator; track refinancing pipeline.
-- Millichap Capital Corporation: acquisition; disposition / exit; refinancing; operational technology / AI adoption, California, sources: Core Multifamily News; Regional / California / LA Sources, strength 100. competitive pressure indicator; track refinancing pipeline.
-- Lincoln Property Company: disposition / exit; refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 99. potential JV partnership signal; monitor JV activity.
-- McCourt Partners: disposition / exit; refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 99. potential JV partnership signal; monitor JV activity.
-- ACC: acquisition; disposition / exit; refinancing; development start; entitlement; JV / partnership; capital raise; market expansion; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Public Agency / Housing Data; Regional / California / LA Sources; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- CrossHarbor Capital Partners: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- Greystone: acquisition; disposition / exit; refinancing; JV / partnership; capital raise; operational technology / AI adoption, Dallas / Texas, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- JLL: acquisition; disposition / exit; refinancing; development start; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- Freddie Mac: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Florida, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- JLL: acquisition; disposition / exit; refinancing; office-to-residential conversion; JV / partnership; operational technology / AI adoption, Florida, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- CBRE: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- CrossHarbor Capital Partners: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- Fannie Mae: acquisition; refinancing; capital raise; operational technology / AI adoption, National, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. competitive pressure indicator; track refinancing pipeline.
+- Greystone: acquisition; refinancing; JV / partnership; capital raise; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- Lincoln Property Company: refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 83. potential JV partnership signal; monitor JV activity.
+- McCourt Partners: refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 83. potential JV partnership signal; monitor JV activity.
+- Bridge Investment Group: refinancing; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
+- Merchants Capital: refinancing; operational technology / AI adoption, Sun Belt, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
 
 ## Potential Partnership Signals
 
-- Blackstone: acquisition; refinancing; JV / partnership; market expansion; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 100. potential JV partnership signal; monitor JV activity.
-- Lincoln Property Company: disposition / exit; refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 99. potential JV partnership signal; monitor JV activity.
-- McCourt Partners: disposition / exit; refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 99. potential JV partnership signal; monitor JV activity.
-- ACC: acquisition; disposition / exit; refinancing; development start; entitlement; JV / partnership; capital raise; market expansion; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Public Agency / Housing Data; Regional / California / LA Sources; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- CrossHarbor Capital Partners: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- Greystone: acquisition; disposition / exit; refinancing; JV / partnership; capital raise; operational technology / AI adoption, Dallas / Texas, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- JLL: acquisition; disposition / exit; refinancing; development start; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- Berkadia: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
-- Freddie Mac: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Other / Unknown, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- Freddie Mac: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Florida, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- JLL: acquisition; disposition / exit; refinancing; office-to-residential conversion; JV / partnership; operational technology / AI adoption, Florida, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- Blackstone: JV / partnership; market expansion; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 95. potential JV partnership signal; monitor JV activity.
+- CBRE: acquisition; disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- CrossHarbor Capital Partners: acquisition; refinancing; JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- Greystone: acquisition; refinancing; JV / partnership; capital raise; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- Hines: acquisition; disposition / exit; office-to-residential conversion; JV / partnership; operational technology / AI adoption, Dallas / Texas, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
+- Lincoln Property Company: refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 83. potential JV partnership signal; monitor JV activity.
+- McCourt Partners: refinancing; development start; JV / partnership; operational technology / AI adoption, California, sources: Regional / California / LA Sources, strength 83. potential JV partnership signal; monitor JV activity.
 - Advertisement Advertisement Harrison Street Asset Management: JV / partnership; operational technology / AI adoption, Dallas / Texas, sources: Regional / California / LA Sources, strength 73. potential JV partnership signal; monitor JV activity.
 
 ## Institutional Relationship Layer
 
 Firm-tier weighting, capital-flow inference, and relationship scoring are available in `institutional_relationship_report.md`.
 
-- ACC: Tier 3 / Growth and Market Signal Watch, Capital Inflow, Potential JV / Partnership Signal.
-- Blackstone: Tier 1 / Immediate Strategic Importance, Capital Inflow, Potential JV / Partnership Signal.
-- Greystone: Tier 3 / Growth and Market Signal Watch, Capital Inflow, Potential JV / Partnership Signal.
+- Blackstone: Tier 1 / Immediate Strategic Importance, Operational / Platform Investment, Potential JV / Partnership Signal.
+- Freddie Mac: Tier 3 / Growth and Market Signal Watch, Capital Inflow, Potential JV / Partnership Signal.
+- Hines: Tier 2 / Strategic Watch, Capital Inflow, Potential JV / Partnership Signal.
 
 ## Deal / Project Pipeline Context
 
 Deal and project extraction is available in `deal_pipeline_report.md`.
 - Lincoln Property Company: Development Start, California, Capital market signal.
+- JLL: Refinancing, Riverside / California, Capital market signal.
 - Blackstone: JV / Partnership, California, GP partnership reference.
 - CBRE: Acquisition, Atlanta / Georgia, Pricing benchmark.
-- JLL: Acquisition, Seattle, Pricing benchmark.
-- Blackstone: Construction Financing, Other / Unknown, Pricing benchmark.
+- JLL: Acquisition, Florida, Underwriting benchmark.
 
 ## Relationship Graph Context
 
@@ -103,7 +101,7 @@ Developer and GP relationship edges are available in `relationship_graph_report.
 - Blackstone -> California: JV / Partnership.
 - Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: JV / Partnership.
 - Blackstone -> blackstone: JV / Partnership.
-- Blackstone -> blackstone: Financing Relationship.
+- JLL -> jll: Financing Relationship.
 - Lincoln Property Company -> California: Development Activity.
 
 ## Competitive Landscape Implications for Woomi
@@ -115,11 +113,11 @@ Developer and GP relationship edges are available in `relationship_graph_report.
 
 ## Recommended Executive Follow-Up
 
+- Freddie Mac: monitor JV activity
+- JLL: monitor JV activity
 - Blackstone: monitor JV activity
-- Marcus & Millichap: track refinancing pipeline
-- Millichap Capital: track refinancing pipeline
-- Millichap Capital Corporation: track refinancing pipeline
-- Lincoln Property Company: monitor JV activity
-- McCourt Partners: monitor JV activity
-- ACC: monitor JV activity
+- Marcus & Millichap: review LA / California development activity
+- CBRE: monitor JV activity
 - CrossHarbor Capital Partners: monitor JV activity
+- Fannie Mae: track refinancing pipeline
+- Greystone: monitor JV activity

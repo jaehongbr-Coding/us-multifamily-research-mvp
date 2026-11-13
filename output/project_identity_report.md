@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-11-12 03:39:00
+Generated: 2026-11-13 03:10:55
 
-- Total raw project references: 788
-- Total canonical projects: 198
-- Duplicate project clusters: 138
-- High-confidence project identities: 788
+- Total raw project references: 709
+- Total canonical projects: 189
+- Duplicate project clusters: 129
+- High-confidence project identities: 709
 - Low-confidence identities needing review: 0
-- LA / California project references: 514
+- LA / California project references: 477
 
 ## Top Repeated Projects
 
-- General Project Signal - California - MMCC Arranges Credit Union Financing for Three Central Valley Multifamily Properties: 40 occurrence(s), confidence 100.
-- General Project Signal - California - MMCC Arranges Credit Union Financing for Three Central Valley Multifamily Properties: 40 occurrence(s), confidence 100.
-- General Project Signal - California - MMCC Arranges Credit Union Financing for Three Central Valley Multifamily Properties: 40 occurrence(s), confidence 100.
-- General Project Signal - California - MMCC Arranges Credit Union Financing for Three Central Valley Multifamily Properties: 40 occurrence(s), confidence 100.
-- General Project Signal - California - MMCC Arranges Credit Union Financing for Three Central Valley Multifamily Properties: 40 occurrence(s), confidence 100.
-- General Project Signal - California - MMCC Arranges Credit Union Financing for Three Central Valley Multifamily Properties: 40 occurrence(s), confidence 100.
-- General Project Signal - California - MMCC Arranges Credit Union Financing for Three Central Valley Multifamily Properties: 40 occurrence(s), confidence 100.
-- General Project Signal - California - MMCC Arranges Credit Union Financing for Three Central Valley Multifamily Properties: 40 occurrence(s), confidence 100.
-- General Project Signal - California - MMCC Arranges Credit Union Financing for Three Central Valley Multifamily Properties: 40 occurrence(s), confidence 100.
-- General Project Signal - California - MMCC Arranges Credit Union Financing for Three Central Valley Multifamily Properties: 40 occurrence(s), confidence 100.
+- Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood: 38 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood: 38 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood: 38 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood: 38 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood: 38 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood: 38 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood: 38 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood: 38 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood: 38 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood: 38 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

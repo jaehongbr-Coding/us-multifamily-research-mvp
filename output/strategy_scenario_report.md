@@ -1,6 +1,6 @@
 # Strategy Scenario Report
 
-Generated: 2026-11-12 03:38:32
+Generated: 2026-11-13 03:10:38
 
 ## Scenario Overview
 
@@ -14,7 +14,7 @@ This report converts the current executive priorities into Base, Bull, and Bear 
 - Implication for Woomi: Woomi should treat US residential strategy as attractive but underwriting-sensitive, with capital partner tracking and disciplined project screening.
 - Recommended strategy response: Underwriting: conservative, with explicit debt and exit-cap sensitivity; Capital partners: active monitoring of institutional capital and pricing discovery; LA / California: targeted monitoring if local signals appear; GP / developer partnerships: prioritize proven partners with financing and execution discipline; Development timing: selective starts only where lease-up and financing assumptions are resilient; Cost focus: maintain value engineering review on new opportunities.
 - Key risks to monitor: Debt cost, refinancing assumptions, exit cap rates, lease-up pace, concessions, and capital partner behavior.
-- Trigger events to watch: Financing momentum turning Accelerating, capital momentum turning Fading, supply score rising above 60, or LA / California signal count rising above 8.
+- Trigger events to watch: Financing momentum turning Accelerating, capital momentum turning Fading, supply score rising above 60, or LA / California signal count rising above 5.
 
 ## Bull Case
 
@@ -46,33 +46,33 @@ This report converts the current executive priorities into Base, Bull, and Bear 
 
 ## Key Triggers to Watch
 
-- Base Case: Financing momentum turning Accelerating, capital momentum turning Fading, supply score rising above 60, or LA / California signal count rising above 8.
+- Base Case: Financing momentum turning Accelerating, capital momentum turning Fading, supply score rising above 60, or LA / California signal count rising above 5.
 - Bull Case: Financing Stress momentum Improving or Weakening, Selective Capital Re-entry Accelerating, deal-size signals increasing, and concession/vacancy signals staying stable.
 - Bear Case: Financing Stress momentum Stable turning Accelerating, Supply Pressure momentum Stable turning Accelerating, or Selective Capital Re-entry momentum Stable turning Fading.
 
 ## GP / Developer Scenario Context
 
 Detailed GP intelligence is available in `gp_intelligence_report.md`.
+- Freddie Mac: operational efficiency push may be relevant to potential JV partnership signal.
+- JLL: operational efficiency push may be relevant to potential JV partnership signal.
 - Blackstone: operational efficiency push may be relevant to potential JV partnership signal.
 - Marcus & Millichap: operational efficiency push may be relevant to competitive pressure indicator.
-- Millichap Capital: operational efficiency push may be relevant to competitive pressure indicator.
-- Millichap Capital Corporation: operational efficiency push may be relevant to competitive pressure indicator.
-- Lincoln Property Company: operational efficiency push may be relevant to potential JV partnership signal.
+- CBRE: operational efficiency push may be relevant to potential JV partnership signal.
 
 ## Institutional Relationship Context
 
 Capital-flow and relationship signals are available in `institutional_relationship_report.md`.
 Use that report to identify whether scenario assumptions are supported by firm-level capital deployment, partnership, or pricing-discovery signals.
-- ACC: Map potential GP / JV relationship and monitor partnership activity (Potential JV / Partnership Signal).
 - Blackstone: Map potential GP / JV relationship and monitor partnership activity (Potential JV / Partnership Signal).
-- Greystone: Map potential GP / JV relationship and monitor partnership activity (Potential JV / Partnership Signal).
+- Freddie Mac: Map potential GP / JV relationship and monitor partnership activity (Potential JV / Partnership Signal).
+- Hines: Map potential GP / JV relationship and monitor partnership activity (Potential JV / Partnership Signal).
 
 ## Deal / Project Scenario Context
 
 Deal and project-level signals are available in `deal_pipeline_report.md`.
 - Development Start: Capital market signal in California.
+- Refinancing: Capital market signal in Riverside / California.
 - JV / Partnership: GP partnership reference in California.
-- Acquisition: Pricing benchmark in Atlanta / Georgia.
 
 ## Relationship Graph Scenario Context
 
@@ -85,10 +85,10 @@ Network relationship signals are available in `relationship_graph_report.md`.
 
 Broader residential sector coverage is available in `residential_sector_report.md`.
 - Apartment: Core Strategy Sector; Keep in weekly developer strategy review.
+- Affordable Housing: Strategic Expansion Sector; Add to sector watchlist.
 - Multifamily: Core Strategy Sector; Keep in weekly developer strategy review.
 - Student Housing: Strategic Expansion Sector; Monitor university-market demand and partnership signals.
-- Affordable Housing: Strategic Expansion Sector; Add to sector watchlist.
-- BTR / Single-Family Rental: Strategic Expansion Sector; Monitor BTR / SFR operators, capital flows, and target markets.
+- Office-to-Residential Conversion: Strategic Expansion Sector; Track conversion feasibility, policy support, and construction cost assumptions.
 
 ## Historical Persistence Summary
 

@@ -1,42 +1,44 @@
 # Entitlement Intelligence Report
 
-Generated: 2026-11-12 03:38:56
+Generated: 2026-11-13 03:10:52
 
-- Total entitlement signals detected: 11
+- Total entitlement signals detected: 13
 
 ## Top Entitlement Opportunities
 
-- CEQA / Environmental Review in Los Angeles: Under Review, entitlement_opportunity_score 35. Monitor CEQA timeline, appeals, and environmental review milestones.
-- CEQA / Environmental Review in Los Angeles: Under Review, entitlement_opportunity_score 35. Monitor CEQA timeline, appeals, and environmental review milestones.
+- Building Permit / Construction Permit in Other / Unknown: Permitted, entitlement_opportunity_score 55. Track construction-ready pipeline and comparable sponsor execution.
+- Office-to-Residential Conversion in Dallas: Unknown Stage, entitlement_opportunity_score 47. Review office conversion feasibility, policy support, and local sponsor activity.
 - CEQA / Environmental Review in Los Angeles: Under Review, entitlement_opportunity_score 35. Monitor CEQA timeline, appeals, and environmental review milestones.
 - CEQA / Environmental Review in Los Angeles: Under Review, entitlement_opportunity_score 30. Monitor CEQA timeline, appeals, and environmental review milestones.
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles / California: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Southeast: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Planning Approval in Los Angeles: Under Review, entitlement_opportunity_score 30. Monitor entitlement status for repeated confirmation.
 - Entitlement Approval in Unknown: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
-- Entitlement Approval in Manhattan: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Unknown: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 
 ## Top Entitlement Risks
 
-- CEQA / Environmental Review in Los Angeles: Under Review, entitlement_risk_score 65. Monitor CEQA timeline, appeals, and environmental review milestones.
-- CEQA / Environmental Review in Los Angeles: Under Review, entitlement_risk_score 65. Monitor CEQA timeline, appeals, and environmental review milestones.
+- CEQA / Environmental Review in Los Angeles: Under Review, entitlement_risk_score 75. Monitor CEQA timeline, appeals, and environmental review milestones.
 - CEQA / Environmental Review in Los Angeles: Under Review, entitlement_risk_score 65. Monitor CEQA timeline, appeals, and environmental review milestones.
 - CEQA / Environmental Review in Los Angeles: Under Review, entitlement_risk_score 65. Monitor CEQA timeline, appeals, and environmental review milestones.
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_risk_score 38. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles / California: Unknown Stage, entitlement_risk_score 38. Track construction-ready pipeline and comparable sponsor execution.
+- Office-to-Residential Conversion in Dallas: Unknown Stage, entitlement_risk_score 28. Review office conversion feasibility, policy support, and local sponsor activity.
+- Entitlement Approval in Southeast: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
 - Planning Approval in Los Angeles: Under Review, entitlement_risk_score 28. Monitor entitlement status for repeated confirmation.
 - Entitlement Approval in Unknown: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
-- Entitlement Approval in Manhattan: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Unknown: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
 
 ## Planning / Approval Signals
 
+- Building Permit / Construction Permit in Other / Unknown: Permitted, entitlement_opportunity_score 55. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles / California: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Southeast: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Planning Approval in Los Angeles: Under Review, entitlement_opportunity_score 30. Monitor entitlement status for repeated confirmation.
 - Entitlement Approval in Unknown: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
-- Entitlement Approval in Manhattan: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Unknown: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Unknown: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Unknown: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 
@@ -46,8 +48,7 @@ Generated: 2026-11-12 03:38:56
 
 ## CEQA / Environmental Review Signals
 
-- CEQA / Environmental Review in Los Angeles: Under Review, entitlement_risk_score 65. Monitor CEQA timeline, appeals, and environmental review milestones.
-- CEQA / Environmental Review in Los Angeles: Under Review, entitlement_risk_score 65. Monitor CEQA timeline, appeals, and environmental review milestones.
+- CEQA / Environmental Review in Los Angeles: Under Review, entitlement_risk_score 75. Monitor CEQA timeline, appeals, and environmental review milestones.
 - CEQA / Environmental Review in Los Angeles: Under Review, entitlement_risk_score 65. Monitor CEQA timeline, appeals, and environmental review milestones.
 - CEQA / Environmental Review in Los Angeles: Under Review, entitlement_risk_score 65. Monitor CEQA timeline, appeals, and environmental review milestones.
 
@@ -55,10 +56,11 @@ Generated: 2026-11-12 03:38:56
 
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles / California: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
+- CEQA / Environmental Review in Los Angeles: Under Review, entitlement_opportunity_score 20. Monitor CEQA timeline, appeals, and environmental review milestones.
 
 ## Office-to-Residential Conversion Signals
 
-- None detected.
+- Office-to-Residential Conversion in Dallas: Unknown Stage, entitlement_opportunity_score 47. Review office conversion feasibility, policy support, and local sponsor activity.
 
 ## Implications for Woomi / Woomi Global
 
@@ -71,18 +73,18 @@ Generated: 2026-11-12 03:38:56
 - Monitor CEQA timeline, appeals, and environmental review milestones: CEQA / Environmental Review in Los Angeles.
 - Monitor CEQA timeline, appeals, and environmental review milestones: CEQA / Environmental Review in Los Angeles.
 - Monitor CEQA timeline, appeals, and environmental review milestones: CEQA / Environmental Review in Los Angeles.
-- Monitor CEQA timeline, appeals, and environmental review milestones: CEQA / Environmental Review in Los Angeles.
+- Track construction-ready pipeline and comparable sponsor execution: Building Permit / Construction Permit in Other / Unknown.
+- Review office conversion feasibility, policy support, and local sponsor activity: Office-to-Residential Conversion in Dallas.
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Los Angeles.
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Los Angeles / California.
-- Monitor entitlement status for repeated confirmation: Planning Approval in Los Angeles.
-- Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Unknown.
+- Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Southeast.
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 95
-- LA lifecycle watch items: 62
-- Stage mix: Refinancing / Recapitalization: 11, Site Acquisition / Site Control: 11, Unknown Stage: 63, Vertical Construction: 3, Delivery / Opening: 2
+- Lifecycle records: 84
+- LA lifecycle watch items: 56
+- Stage mix: Refinancing / Recapitalization: 8, Site Acquisition / Site Control: 9, Unknown Stage: 54, Delivery / Opening: 4, Building Permit / Construction Permit: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

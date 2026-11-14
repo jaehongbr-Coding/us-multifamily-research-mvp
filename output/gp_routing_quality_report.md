@@ -1,73 +1,74 @@
 # GP Routing Quality Report
 
-Generated: 2026-11-13 03:10:31
+Generated: 2026-11-14 02:55:58
 
 ## Summary
-- Total GP / Capital candidates: 48
-- Selected GP / Capital articles: 27
+- Total GP / Capital candidates: 47
+- Selected GP / Capital articles: 20
 - Debt Financing count: 7
-- Refinancing count: 7
-- Construction Financing count: 3
+- Refinancing count: 3
+- Construction Financing count: 5
 - Acquisition Financing count: 2
 - Equity Transaction count: 0
 - Operator Activity count: 2
-- Other / Unknown market count: 30
+- Other / Unknown market count: 28
 
 ## Routing Regression Summary
 - Market Intelligence routed articles: 17
-- Development Activity routed articles: 59
-- GP / Capital Activity routed articles: 3
-- Market-protected research / macro / supply articles: 4
+- Development Activity routed articles: 52
+- GP / Capital Activity routed articles: 5
+- Market-protected research / macro / supply articles: 5
 - Approval / Entitlement development rows: 0
 - Site / Parcel development rows: 0
 - Routing rule: market and macro context is protected unless a headline-level deal, project, sponsor, or lender event is confirmed.
 - Routing rule: approval / entitlement wording takes priority over Site / Parcel when both appear.
 
 ## Activity Type Distribution
-- disposition_exit: 11
-- refinancing: 7
+- disposition_exit: 19
 - debt_financing: 7
-- acquisition: 7
-- joint_venture: 7
-- construction_financing: 3
+- construction_financing: 5
+- acquisition: 5
+- refinancing: 3
 - acquisition_financing: 2
 - asset_management_operator_activity: 2
-- capital_raise: 1
+- joint_venture: 2
 - reit_activity: 1
+- capital_raise: 1
 
 ## Excluded from GP / Capital with Reason
-- Broe Real Estate Group Acquires 22-Story Apartment Tower in Uptown Dallas | REBusiness Online | asset strategy / development routing
+- CRC Acquires 276-Unit Apartment Community near Orlando | Yield PRO | asset strategy / development routing
+- Institutional Property Advisors Closes Student Housing Asset Sale in Reno | Yield PRO | asset strategy / development routing
 
 ## Top Unresolved Market Extraction Examples
-- $11M Fannie Mae Refinance of 46-Unit Multifamily Community in Park Ridge Illinois | Yield PRO | used broad market bucket: National
-- Northmarq Arranges $19.1M Refinance of Historic Holden House Apartments in Saint Paul | Yield PRO | no city, state, or market keyword detected
-- Cushman & Wakefield Brokers $44M Sale of Multifamily Property in Sheboygan, Wisconsin | REBusiness Online | used broad market bucket: National
-- Northmarq Facilitates $11M Refinance of Park Ridge Multifamily | Connect CRE Apartments | used broad market bucket: National
+- Dwight Capital Lends $42M on North Carolina Apartments Build | Commercial Observer | used broad market bucket: National
+- $39M Construction Takeout Financing Secured for Suburban Milwaukee MF | Connect CRE | no city, state, or market keyword detected
+- JLL Arranges $39.1M in Financing for Apartment Complex in Suburban Milwaukee | REBusiness Online | no city, state, or market keyword detected
+- Northmarq Arranges $19M Refinance of Historic Apartments in St. Paul | Connect CRE Apartments | no city, state, or market keyword detected
 - 152 apartments planned at 2315 Marine Ave. in Gardena | Urbanize LA | no city, state, or market keyword detected
-- Apartment deliveries fall below decade average as multifamily supply cycle turns | Yield PRO | used broad market bucket: National
-- JLL Arranges $212.5M Sale of Senior Living Community in Lincolnwood, Illinois | REBusiness Online | used broad market bucket: National
+- CBRE Brokers $30M Sale of Multifamily Portfolio in Madison, Wisconsin | REBusiness Online | no city, state, or market keyword detected
+- Rockland Trust Lends on Income-Restricted Apartments in Malden | Connect CRE | no city, state, or market keyword detected
 - Federal permitting bill that could speed apartment construction advances in Senate | Multifamily Dive | used broad market bucket: National
-- PMG Secures $250M Refi for New Fort Lauderdale Rental | Commercial Observer | no city, state, or market keyword detected
-- How state multifamily measures fared in the midterms | Multifamily Dive | no city, state, or market keyword detected
+- PMG Secures $285M Refi for New Fort Lauderdale Rental | Commercial Observer | no city, state, or market keyword detected
+- Legislative risk continues to cloud BTR’s capital outlook; here’s why | HousingWire | used broad market bucket: National
+- Marcus & Millichap Arranges $6.6M Sale of 64-Unit Multifamily Portfolio in Saint Paul | Yield PRO | no city, state, or market keyword detected
 - Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Multifamily Missing Middle Falls Back | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Multifamily Missing Middle Construction: First Quarter 2026 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Multifamily Absorption Rate Remains Below 50% | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- Shorter Apartment Construction Time in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 
 ## Sample Selected GP / Capital Articles
-- $11M Fannie Mae Refinance of 46-Unit Multifamily Community in Park Ridge Illinois | refinancing | National | Yield PRO
-- Northmarq Arranges $19.1M Refinance of Historic Holden House Apartments in Saint Paul | refinancing | Other / Unknown | Yield PRO
-- JLL Brokers Sale of 330-Unit Apartment Community in Wildwood, Florida | disposition_exit | Florida | REBusiness Online
-- Northmarq Facilitates $11M Refinance of Park Ridge Multifamily | refinancing | National | Connect CRE Apartments
+- Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California | acquisition_financing | California | Yield PRO
+- Bank OZK Supplies $86M Construction Loan for Rental in Broward County | construction_financing | Southeast | Commercial Observer
+- Dwight Capital Lends $42M on North Carolina Apartments Build | construction_financing | National | Commercial Observer
+- $39M Construction Takeout Financing Secured for Suburban Milwaukee MF | disposition_exit | Other / Unknown | Connect CRE
+- JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building | acquisition_financing | New York City / New York | REBusiness Online
+- JLL Arranges $39.1M in Financing for Apartment Complex in Suburban Milwaukee | debt_financing | Other / Unknown | REBusiness Online
+- Northmarq Arranges $19M Refinance of Historic Apartments in St. Paul | refinancing | Other / Unknown | Connect CRE Apartments
 - Kadima Inks Financing for 124-unit Hallandale Beach Condo Project | construction_financing | Miami / Florida | Connect CRE South Florida
-- Greybrook Picks Up 334-Unit Mansfield Rental Community | acquisition_financing | Dallas / Texas | Connect CRE Texas
-- Apartment deliveries fall below decade average as multifamily supply cycle turns | asset_management_operator_activity | National | Yield PRO
-- JLL Arranges $104M Loan for Refinancing for Manhattan Multifamily Portfolio | refinancing | Riverside / California | REBusiness Online
-- Genesis, KTGY Complete 54-Story Austin Tower | construction_financing | Austin / Texas | Connect CRE Texas
-- PMG Secures $250M Refi for New Fort Lauderdale Rental | refinancing | Other / Unknown | Commercial Observer
-- White Plains Project is First to Break Ground on NY State’s Housing Acceleration Fund | capital_raise | New York | Connect CRE
-- Natixis Leads $233M Refi of Midtown Residential Tower | joint_venture | New York | Connect CRE Apartments
+- Rockland Trust Lends on Income-Restricted Apartments in Malden | construction_financing | Other / Unknown | Connect CRE
+- PMG Secures $285M Refi for New Fort Lauderdale Rental | refinancing | Other / Unknown | Commercial Observer
+- Legislative risk continues to cloud BTR’s capital outlook; here’s why | asset_management_operator_activity | National | HousingWire
+- Rosewood Property Co. Begins Leasing 370-Unit Multifamily Project in Irving | asset_management_operator_activity | Texas | REBusiness Online
+- Priority Capital Advisory Arranges $10.9M Construction Loan for a 200-Unit Apartment Community in Missoula Montana | construction_financing | Denver / Colorado | Yield PRO
 - American Campus Communities Expands Partnership with UC Irvine | joint_venture | California | Connect CRE Orange County
-- Pacific Urban Investors Pays Over $500k/Unit for Seattle MF Property | acquisition | Seattle | Connect CRE Apartments
-- Columbia Pacific Advisors Receives $130M Refinancing for Murano Senior Living Property in Seattle | refinancing | Seattle | REBusiness Online
+- The Broe Group Enters Dallas with one of Nation’s Largest Multifamily Transactions of 2026 | acquisition | Dallas / Texas | Yield PRO

@@ -1,20 +1,20 @@
 # US Multifamily Weekly Strategy Memo
 
-Generated: 2026-11-13 03:10:32
+Generated: 2026-11-14 02:56:00
 
-- Total articles reviewed: 82
-- High-priority article count: 47
-- Market-signal article count: 35
-- Strategy-briefing article count: 49
+- Total articles reviewed: 77
+- High-priority article count: 42
+- Market-signal article count: 34
+- Strategy-briefing article count: 45
 - LLM prompt pack: llm_prompt_pack.md
 
 ## Executive Takeaways
 
 - The most common strategic theme is Developer Strategy, suggesting this should be the first weekly review lens.
-- The most common market focus is National, based on the current strategy-briefing article set.
-- The memo includes 34 Must Read article(s) and 38 high-Woomi-relevance article(s).
-- The most common numeric market signal is Rent Growth Signal, based on market-signal articles.
-- Repeated decision-use labels include Track Developer Strategy, Track Financing Conditions, Track Institutional Capital Flow.
+- The most common market focus is California, based on the current strategy-briefing article set.
+- The memo includes 37 Must Read article(s) and 40 high-Woomi-relevance article(s).
+- The most common numeric market signal is Deal Size Signal, based on market-signal articles.
+- Repeated decision-use labels include Track Developer Strategy, Track Institutional Capital Flow, Track Financing Conditions.
 
 ## Trend Alert Summary
 
@@ -143,73 +143,69 @@ Use that report to see which institutional, GP, brokerage, public-agency, and re
 
 ## Key Themes This Week
 
-- Developer Strategy: 28 article(s). Top example: Breakthrough Properties Completes Sale of South Boston Waterfront Development Site to P&G Gillette.
-- Financing Risk: 23 article(s). Top example: Sprouts Farmers Market Planned for Downtown DC.
-- Institutional Flow: 17 article(s). Top example: Breakthrough Properties Completes Sale of South Boston Waterfront Development Site to P&G Gillette.
-- Regulation Risk: 6 article(s). Top example: Plaza Lakes to Develop 130,000 SF Shopping Center in Kissimmee, Florida.
-- Rent Growth / Demand: 3 article(s). Top example: Columbia Pacific Advisors Receives $130M Refinancing for Murano Senior Living Property in Seattle.
-- Supply Pressure: 1 article(s). Top example: Apartment deliveries fall below decade average as multifamily supply cycle turns.
+- Developer Strategy: 25 article(s). Top example: The Broe Group Enters Dallas with one of Nation’s Largest Multifamily Transactions of 2026.
+- Institutional Flow: 22 article(s). Top example: CRC Acquires 276-Unit Apartment Community near Orlando.
+- Financing Risk: 17 article(s). Top example: Priority Capital Advisory Arranges $10.9M Construction Loan for a 200-Unit Apartment Community in Missoula Montana.
+- Regulation Risk: 2 article(s). Top example: Federal permitting bill that could speed apartment construction advances in Senate.
+- Supply Pressure: 2 article(s). Top example: DC Multifamily Sales Volume Surpasses 2025 Total.
+- Rent Growth / Demand: 2 article(s). Top example: Apartment rents diverge: San Francisco rises, the Sun Belt falls.
 
 ## Financing & Capital Markets
 
-- Sprouts Farmers Market Planned for Downtown DC (Connect CRE Apartments, Site / Parcel Source Expansion, score 81, Review): Monitor financing conditions because the article includes acquisition, apartment, developer and $275 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/sprouts-farmers-market-planned-for-downtown-dc/)
-- PMG Secures $250M Refi for New Fort Lauderdale Rental (Commercial Observer, Core Multifamily News, score 93, Must Read): Monitor financing conditions because the article includes apartment, apartments, construction and $250m, $250 million, 563 apartments, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://commercialobserver.com/2026/11/pmg-greybook-fort-lauderdale-society-las-olas/)
-- $11M Fannie Mae Refinance of 46-Unit Multifamily Community in Park Ridge Illinois (Yield PRO, Core Multifamily News, score 100, Must Read): Monitor financing conditions because the article includes debt, fannie mae, garden-style and $11m, $11.262 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://yieldpro.com/2026/11/the-parker-apartments/)
-- JLL Brokers Sale of 330-Unit Apartment Community in Wildwood, Florida (REBusiness Online, Site / Parcel Source Expansion, score 100, Must Read): Monitor financing conditions because the article includes acquisition, apartment, apartments and 288 apartments, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/jll-brokers-sale-of-330-unit-apartment-community-in-wildwood-florida/)
-- Cushman & Wakefield Brokers $44M Sale of Multifamily Property in Sheboygan, Wisconsin (REBusiness Online, Site / Parcel Source Expansion, score 100, Must Read): Monitor financing conditions because the article includes acquisition, apartment, apartments and $44m, $44 million, 240 units, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/cushman-wakefield-brokers-44m-sale-of-multifamily-property-in-sheboygan-wisconsin/)
-- JLL Arranges $212.5M Sale of Senior Living Community in Lincolnwood, Illinois (REBusiness Online, Site / Parcel Source Expansion, score 97, Must Read): Monitor financing conditions because the article includes acquisition, capital markets, financing and $212.5m, $212.5 million, 383 units, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/jll-arranges-212-5m-sale-of-senior-living-community-in-lincolnwood-illinois/)
-- Columbia Pacific Advisors Receives $130M Refinancing for Murano Senior Living Property in Seattle (REBusiness Online, Site / Parcel Source Expansion, score 81, Review): Monitor financing conditions because the article includes financing, loan, multifamily and $130m, $130 million, $10 billion, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/columbia-pacific-advisors-receives-130m-refinancing-for-murano-senior-living-property-in-seattle/)
-- Natixis Leads $233M Refi of Midtown Residential Tower (Connect CRE Apartments, Site / Parcel Source Expansion, score 88, Must Read): Monitor financing conditions because the article includes apartment, apartments, financing and $233m, $233.3, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/natixis-leads-233m-refi-of-midtown-residential-tower/)
-- Greybrook Picks Up 334-Unit Mansfield Rental Community (Connect CRE Texas, Site / Parcel Source Expansion, score 98, Must Read): Monitor financing conditions because the article includes acquisition, apartment, apartments and $39.2 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/greybrook-picks-up-334-unit-mansfield-rental-community/)
-- Legacy, CrossHarbor Teaming Up on 444-Unit Richardson Apartment Community (Connect CRE Texas, Site / Parcel Source Expansion, score 80, Review): Monitor financing conditions because the article includes apartment, apartments, construction and no specific number, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/legacy-crossharbor-teaming-up-on-444-unit-richardson-apartment-community/)
+- Priority Capital Advisory Arranges $10.9M Construction Loan for a 200-Unit Apartment Community in Missoula Montana (Yield PRO, Core Multifamily News, score 89, Must Read): Monitor financing conditions because the article includes apartment, construction, loan and $10.9m, $10.9 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://yieldpro.com/2026/11/the-flats-at-grant-creek/)
+- Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California (Yield PRO, Core Multifamily News, score 100, Must Read): Monitor financing conditions because the article includes acquisition, affordable apartments, apartment and $23.2m, $23.2 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://yieldpro.com/2026/11/bayfair-apartments/)
+- JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building (REBusiness Online, Site / Parcel Source Expansion, score 100, Must Read): Monitor financing conditions because the article includes acquisition, apartment, jll and $118.9m, $118.9 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/jll-arranges-118-9m-acquisition-loan-for-manhattan-apartment-building/)
+- Enverra Acquires 260,000 SF Office Campus in Northern Virginia for $42M (REBusiness Online, Site / Parcel Source Expansion, score 54, Monitor): Monitor financing conditions because the article includes acquisition, cushman, financing and $42m, $42 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/enverra-acquires-260000-sf-office-campus-in-northern-virginia-for-42m/)
+- PMG Secures $285M Refi for New Fort Lauderdale Rental (Commercial Observer, Core Multifamily News, score 93, Must Read): Monitor financing conditions because the article includes apartment, apartments, construction and $285m, $285 million, 563 apartments, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://commercialobserver.com/2026/11/pmg-greybook-fort-lauderdale-society-las-olas/)
+- $39M Construction Takeout Financing Secured for Suburban Milwaukee MF (Connect CRE, Core Multifamily News, score 100, Must Read): Monitor financing conditions because the article includes apartment, apartments, capital markets and $39m, $39.1 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/39m-construction-takeout-financing-secured-for-suburban-milwaukee-mf/)
+- Northmarq Arranges $19M Refinance of Historic Apartments in St. Paul (Connect CRE Apartments, Site / Parcel Source Expansion, score 100, Must Read): Monitor financing conditions because the article includes apartment, apartments, debt and $19m, $19.1 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/northmarq-arranges-19m-refinance-of-historic-apartments-in-st-paul/)
+- Marcus & Millichap Arranges $6.6M Sale of 64-Unit Multifamily Portfolio in Saint Paul (Yield PRO, Core Multifamily News, score 89, Must Read): Monitor financing conditions because the article includes apartment, apartments, financing and $6.6m, $6.6 million, 64 units, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://yieldpro.com/2026/11/spanish-villa-apartments/)
+- Kadima Inks Financing for 124-unit Hallandale Beach Condo Project (Connect CRE South Florida, Site / Parcel Source Expansion, score 100, Must Read): Monitor financing conditions because the article includes apartment, apartments, construction and $32.5 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/kadima-inks-financing-for-121-unit-hallandale-beach-condo-project/)
+- Bank OZK Supplies $86M Construction Loan for Rental in Broward County (Commercial Observer, Core Multifamily News, score 100, Must Read): Monitor financing conditions because the article includes apartment, apartments, construction and $86m, $85.5 million, $133 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://commercialobserver.com/2026/11/bank-ozk-falcone-broward-county-horizon-of-oakland-park/)
 
 ## Supply / Demand Signals
 
-- PMG Secures $250M Refi for New Fort Lauderdale Rental (Commercial Observer, Core Multifamily News, score 93, Must Read): Monitor financing conditions because the article includes apartment, apartments, construction and $250m, $250 million, 563 apartments, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://commercialobserver.com/2026/11/pmg-greybook-fort-lauderdale-society-las-olas/)
-- JLL Brokers Sale of 330-Unit Apartment Community in Wildwood, Florida (REBusiness Online, Site / Parcel Source Expansion, score 100, Must Read): Monitor financing conditions because the article includes acquisition, apartment, apartments and 288 apartments, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/jll-brokers-sale-of-330-unit-apartment-community-in-wildwood-florida/)
-- Cushman & Wakefield Brokers $44M Sale of Multifamily Property in Sheboygan, Wisconsin (REBusiness Online, Site / Parcel Source Expansion, score 100, Must Read): Monitor financing conditions because the article includes acquisition, apartment, apartments and $44m, $44 million, 240 units, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/cushman-wakefield-brokers-44m-sale-of-multifamily-property-in-sheboygan-wisconsin/)
-- JLL Arranges $212.5M Sale of Senior Living Community in Lincolnwood, Illinois (REBusiness Online, Site / Parcel Source Expansion, score 97, Must Read): Monitor financing conditions because the article includes acquisition, capital markets, financing and $212.5m, $212.5 million, 383 units, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/jll-arranges-212-5m-sale-of-senior-living-community-in-lincolnwood-illinois/)
-- Columbia Pacific Advisors Receives $130M Refinancing for Murano Senior Living Property in Seattle (REBusiness Online, Site / Parcel Source Expansion, score 81, Review): Monitor financing conditions because the article includes financing, loan, multifamily and $130m, $130 million, $10 billion, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/columbia-pacific-advisors-receives-130m-refinancing-for-murano-senior-living-property-in-seattle/)
-- Natixis Leads $233M Refi of Midtown Residential Tower (Connect CRE Apartments, Site / Parcel Source Expansion, score 88, Must Read): Monitor financing conditions because the article includes apartment, apartments, financing and $233m, $233.3, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/natixis-leads-233m-refi-of-midtown-residential-tower/)
-- Greybrook Picks Up 334-Unit Mansfield Rental Community (Connect CRE Texas, Site / Parcel Source Expansion, score 98, Must Read): Monitor financing conditions because the article includes acquisition, apartment, apartments and $39.2 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/greybrook-picks-up-334-unit-mansfield-rental-community/)
-- Gilbane, Rocky Mountain Cos. and University of Idaho Complete 451-Bed Student, Family Housing Development (REBusiness Online, Site / Parcel Source Expansion, score 71, Review): Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Other / Unknown. [Link](https://rebusinessonline.com/gilbane-rocky-mountain-cos-and-university-of-idaho-complete-451-bed-student-family-housing-development/)
-- JLL Arranges $104M Loan for Refinancing for Manhattan Multifamily Portfolio (REBusiness Online, Site / Parcel Source Expansion, score 97, Must Read): Monitor financing conditions because the article includes financing, jll, loan and $104m, $104 million, 233 units, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/jll-arranges-104m-loan-for-refinancing-for-manhattan-multifamily-portfolio/)
+- CBRE Brokers $30M Sale of Multifamily Portfolio in Madison, Wisconsin (REBusiness Online, Site / Parcel Source Expansion, score 98, Must Read): Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in Other / Unknown. [Link](https://rebusinessonline.com/cbre-brokers-30m-sale-of-multifamily-portfolio-in-madison-wisconsin/)
+- PMG Secures $285M Refi for New Fort Lauderdale Rental (Commercial Observer, Core Multifamily News, score 93, Must Read): Monitor financing conditions because the article includes apartment, apartments, construction and $285m, $285 million, 563 apartments, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://commercialobserver.com/2026/11/pmg-greybook-fort-lauderdale-society-las-olas/)
+- 13th Floor, ANF Complete $89M Hallandale Beach Rental Community (Connect CRE South Florida, Site / Parcel Source Expansion, score 71, Review): Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Miami / Florida. [Link](https://www.connectcre.com/stories/13th-floor-anf-complete-89m-hallandale-beach-rental-community/)
+- DC Multifamily Sales Volume Surpasses 2025 Total (Connect CRE Apartments, Site / Parcel Source Expansion, score 100, Must Read): Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in Washington DC. [Link](https://www.connectcre.com/stories/dc-multifamily-sales-volume-surpasses-2025-total/)
 - 152 apartments planned at 2315 Marine Ave. in Gardena (Urbanize LA, Regional / California / LA Sources, score 99, Must Read): Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Other / Unknown. [Link](https://la.urbanize.city/post/152-apartments-planned-2315-marine-ave-gardena)
+- Marcus & Millichap Arranges $6.6M Sale of 64-Unit Multifamily Portfolio in Saint Paul (Yield PRO, Core Multifamily News, score 89, Must Read): Monitor financing conditions because the article includes apartment, apartments, financing and $6.6m, $6.6 million, 64 units, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://yieldpro.com/2026/11/spanish-villa-apartments/)
+- Kadima Inks Financing for 124-unit Hallandale Beach Condo Project (Connect CRE South Florida, Site / Parcel Source Expansion, score 100, Must Read): Monitor financing conditions because the article includes apartment, apartments, construction and $32.5 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/kadima-inks-financing-for-121-unit-hallandale-beach-condo-project/)
+- Bank OZK Supplies $86M Construction Loan for Rental in Broward County (Commercial Observer, Core Multifamily News, score 100, Must Read): Monitor financing conditions because the article includes apartment, apartments, construction and $86m, $85.5 million, $133 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://commercialobserver.com/2026/11/bank-ozk-falcone-broward-county-horizon-of-oakland-park/)
+- Legislative risk continues to cloud BTR’s capital outlook; here’s why (HousingWire, Core Multifamily News, score 93, Must Read): Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in National. [Link](https://www.housingwire.com/articles/btr-legislative-uncertainty-capital/)
+- Rosewood Property Co. Begins Leasing 370-Unit Multifamily Project in Irving (REBusiness Online, Site / Parcel Source Expansion, score 91, Must Read): Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Texas. [Link](https://rebusinessonline.com/rosewood-property-co-begins-leasing-370-unit-multifamily-project-in-irving/)
 
 ## Policy & Regulation Watch
 
-- Plaza Lakes to Develop 130,000 SF Shopping Center in Kissimmee, Florida (REBusiness Online, Site / Parcel Source Expansion, score 98, Must Read): Monitor regulation risk because the article may affect entitlement, zoning, rent rules, affordability requirements, or permitting strategy. [Link](https://rebusinessonline.com/plaza-lakes-to-develop-130000-sf-shopping-center-in-kissimmee-florida/)
-- Merchants Capital Secures $15M+ for Affordable Housing Development in Charlotte North Carolina (Yield PRO, Core Multifamily News, score 76, Review): Monitor financing conditions because the article includes affordable housing, construction, development and $15m, $15.5 million, $11.1 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://yieldpro.com/2026/11/ryans-way-apartments/)
 - Federal permitting bill that could speed apartment construction advances in Senate (Multifamily Dive, Core Multifamily News, score 93, Must Read): Monitor regulation risk because the article may affect entitlement, zoning, rent rules, affordability requirements, or permitting strategy. [Link](https://www.multifamilydive.com/news/baaja-permitting-bill-speed-apartment-construction-advances-in/874433/)
 - 152 apartments planned at 2315 Marine Ave. in Gardena (Urbanize LA, Regional / California / LA Sources, score 99, Must Read): Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Other / Unknown. [Link](https://la.urbanize.city/post/152-apartments-planned-2315-marine-ave-gardena)
-- How state multifamily measures fared in the midterms (Multifamily Dive, Core Multifamily News, score 85, Must Read): Monitor regulation risk because the article may affect entitlement, zoning, rent rules, affordability requirements, or permitting strategy. [Link](https://www.multifamilydive.com/news/state-multifamily-ballot-measures-policy-midterms/874167/)
-- Affordable housing rising at 2626 Cullen St. in Mid-City (Urbanize LA, Regional / California / LA Sources, score 100, Must Read): Monitor regulation risk because the article may affect entitlement, zoning, rent rules, affordability requirements, or permitting strategy. [Link](https://la.urbanize.city/post/affordable-housing-rising-2626-cullen-st-mid-city)
 
 ## Institutional Flow / Deals
 
-- Breakthrough Properties Completes Sale of South Boston Waterfront Development Site to P&G Gillette (REBusiness Online, Site / Parcel Source Expansion, score 71, Review): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://rebusinessonline.com/breakthrough-properties-completes-sale-of-south-boston-waterfront-development-site-to-pg-gillette/)
-- Sprouts Farmers Market Planned for Downtown DC (Connect CRE Apartments, Site / Parcel Source Expansion, score 81, Review): Monitor financing conditions because the article includes acquisition, apartment, developer and $275 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/sprouts-farmers-market-planned-for-downtown-dc/)
-- American Campus Communities Expands Partnership with UC Irvine (Connect CRE Orange County, Site / Parcel Source Expansion, score 87, Must Read): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://www.connectcre.com/stories/american-campus-communities-expands-partnership-with-uc-irvine/)
-- Broe Real Estate Group Acquires 22-Story Apartment Tower in Uptown Dallas (REBusiness Online, Site / Parcel Source Expansion, score 100, Must Read): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://rebusinessonline.com/broe-real-estate-group-acquires-22-story-apartment-tower-in-uptown-dallas/)
-- Lake Washington Partners Expands into Utah with Three MF Purchases (Connect CRE Apartments, Site / Parcel Source Expansion, score 78, Review): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://www.connectcre.com/stories/lake-washington-partners-expands-into-utah-with-three-mf-purchases/)
-- Metis Equities Buys Luxury Brooklyn Apartment Building for $52M (Commercial Observer, Core Multifamily News, score 68, Monitor): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://commercialobserver.com/2026/11/doron-greenberg-buys-100-lenox-road-brooklyn/)
-- JLL Brokers Sale of 330-Unit Apartment Community in Wildwood, Florida (REBusiness Online, Site / Parcel Source Expansion, score 100, Must Read): Monitor financing conditions because the article includes acquisition, apartment, apartments and 288 apartments, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/jll-brokers-sale-of-330-unit-apartment-community-in-wildwood-florida/)
-- Cushman & Wakefield Brokers $44M Sale of Multifamily Property in Sheboygan, Wisconsin (REBusiness Online, Site / Parcel Source Expansion, score 100, Must Read): Monitor financing conditions because the article includes acquisition, apartment, apartments and $44m, $44 million, 240 units, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/cushman-wakefield-brokers-44m-sale-of-multifamily-property-in-sheboygan-wisconsin/)
-- JLL Arranges $212.5M Sale of Senior Living Community in Lincolnwood, Illinois (REBusiness Online, Site / Parcel Source Expansion, score 97, Must Read): Monitor financing conditions because the article includes acquisition, capital markets, financing and $212.5m, $212.5 million, 383 units, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/jll-arranges-212-5m-sale-of-senior-living-community-in-lincolnwood-illinois/)
-- Natixis Leads $233M Refi of Midtown Residential Tower (Connect CRE Apartments, Site / Parcel Source Expansion, score 88, Must Read): Monitor financing conditions because the article includes apartment, apartments, financing and $233m, $233.3, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/natixis-leads-233m-refi-of-midtown-residential-tower/)
+- CRC Acquires 276-Unit Apartment Community near Orlando (Yield PRO, Core Multifamily News, score 89, Must Read): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://yieldpro.com/2026/11/casa-mirella/)
+- TruAmerica expands into ground-up development with California project (Multifamily Dive, Core Multifamily News, score 72, Review): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://www.multifamilydive.com/news/truamerica-expands-construction-california-project/874286/)
+- Miami-Area Multifamily Project Trades for $54M (Commercial Observer, Core Multifamily News, score 86, Must Read): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://commercialobserver.com/2026/11/miami-multifamily-merco-group-belinda-meruelo-ralgo/)
+- Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California (Yield PRO, Core Multifamily News, score 100, Must Read): Monitor financing conditions because the article includes acquisition, affordable apartments, apartment and $23.2m, $23.2 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://yieldpro.com/2026/11/bayfair-apartments/)
+- JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building (REBusiness Online, Site / Parcel Source Expansion, score 100, Must Read): Monitor financing conditions because the article includes acquisition, apartment, jll and $118.9m, $118.9 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/jll-arranges-118-9m-acquisition-loan-for-manhattan-apartment-building/)
+- Enverra Acquires 260,000 SF Office Campus in Northern Virginia for $42M (REBusiness Online, Site / Parcel Source Expansion, score 54, Monitor): Monitor financing conditions because the article includes acquisition, cushman, financing and $42m, $42 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://rebusinessonline.com/enverra-acquires-260000-sf-office-campus-in-northern-virginia-for-42m/)
+- CBRE Brokers $30M Sale of Multifamily Portfolio in Madison, Wisconsin (REBusiness Online, Site / Parcel Source Expansion, score 98, Must Read): Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in Other / Unknown. [Link](https://rebusinessonline.com/cbre-brokers-30m-sale-of-multifamily-portfolio-in-madison-wisconsin/)
+- HFO Investment Real Estate Closes Sale of 159-Unit Chesapeake Pointe Apartments in Milwaukie Oregon for $23.8M (Yield PRO, Core Multifamily News, score 87, Must Read): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://yieldpro.com/2026/11/chesapeake-pointe-apartments/)
+- $39M Construction Takeout Financing Secured for Suburban Milwaukee MF (Connect CRE, Core Multifamily News, score 100, Must Read): Monitor financing conditions because the article includes apartment, apartments, capital markets and $39m, $39.1 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/39m-construction-takeout-financing-secured-for-suburban-milwaukee-mf/)
+- Northmarq Brokers $4M Sale of 46-Unit Las Flores Apartments in Fresno (Yield PRO, Core Multifamily News, score 100, Must Read): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://yieldpro.com/2026/11/las-flores-apartments/)
 
 ## Developer Strategy / Innovation
 
-- Breakthrough Properties Completes Sale of South Boston Waterfront Development Site to P&G Gillette (REBusiness Online, Site / Parcel Source Expansion, score 71, Review): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://rebusinessonline.com/breakthrough-properties-completes-sale-of-south-boston-waterfront-development-site-to-pg-gillette/)
-- Sprouts Farmers Market Planned for Downtown DC (Connect CRE Apartments, Site / Parcel Source Expansion, score 81, Review): Monitor financing conditions because the article includes acquisition, apartment, developer and $275 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/sprouts-farmers-market-planned-for-downtown-dc/)
-- American Campus Communities Expands Partnership with UC Irvine (Connect CRE Orange County, Site / Parcel Source Expansion, score 87, Must Read): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://www.connectcre.com/stories/american-campus-communities-expands-partnership-with-uc-irvine/)
-- Broe Real Estate Group Acquires 22-Story Apartment Tower in Uptown Dallas (REBusiness Online, Site / Parcel Source Expansion, score 100, Must Read): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://rebusinessonline.com/broe-real-estate-group-acquires-22-story-apartment-tower-in-uptown-dallas/)
-- PMG Secures $250M Refi for New Fort Lauderdale Rental (Commercial Observer, Core Multifamily News, score 93, Must Read): Monitor financing conditions because the article includes apartment, apartments, construction and $250m, $250 million, 563 apartments, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://commercialobserver.com/2026/11/pmg-greybook-fort-lauderdale-society-las-olas/)
-- Metis Equities Buys Luxury Brooklyn Apartment Building for $52M (Commercial Observer, Core Multifamily News, score 68, Monitor): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://commercialobserver.com/2026/11/doron-greenberg-buys-100-lenox-road-brooklyn/)
-- Gilbane, Rocky Mountain Cos. and University of Idaho Complete 451-Bed Student, Family Housing Development (REBusiness Online, Site / Parcel Source Expansion, score 71, Review): Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Other / Unknown. [Link](https://rebusinessonline.com/gilbane-rocky-mountain-cos-and-university-of-idaho-complete-451-bed-student-family-housing-development/)
-- Plaza Lakes to Develop 130,000 SF Shopping Center in Kissimmee, Florida (REBusiness Online, Site / Parcel Source Expansion, score 98, Must Read): Monitor regulation risk because the article may affect entitlement, zoning, rent rules, affordability requirements, or permitting strategy. [Link](https://rebusinessonline.com/plaza-lakes-to-develop-130000-sf-shopping-center-in-kissimmee-florida/)
-- Merchants Capital Secures $15M+ for Affordable Housing Development in Charlotte North Carolina (Yield PRO, Core Multifamily News, score 76, Review): Monitor financing conditions because the article includes affordable housing, construction, development and $15m, $15.5 million, $11.1 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://yieldpro.com/2026/11/ryans-way-apartments/)
+- The Broe Group Enters Dallas with one of Nation’s Largest Multifamily Transactions of 2026 (Yield PRO, Core Multifamily News, score 73, Review): Review for developer strategy because the article may inform site selection, product type, adaptive reuse, build-to-rent, or market entry. [Link](https://yieldpro.com/2026/11/maple-terrace-residences/)
+- TruAmerica expands into ground-up development with California project (Multifamily Dive, Core Multifamily News, score 72, Review): Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals. [Link](https://www.multifamilydive.com/news/truamerica-expands-construction-california-project/874286/)
+- CBRE Brokers $30M Sale of Multifamily Portfolio in Madison, Wisconsin (REBusiness Online, Site / Parcel Source Expansion, score 98, Must Read): Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in Other / Unknown. [Link](https://rebusinessonline.com/cbre-brokers-30m-sale-of-multifamily-portfolio-in-madison-wisconsin/)
+- PMG Secures $285M Refi for New Fort Lauderdale Rental (Commercial Observer, Core Multifamily News, score 93, Must Read): Monitor financing conditions because the article includes apartment, apartments, construction and $285m, $285 million, 563 apartments, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://commercialobserver.com/2026/11/pmg-greybook-fort-lauderdale-society-las-olas/)
 - Federal permitting bill that could speed apartment construction advances in Senate (Multifamily Dive, Core Multifamily News, score 93, Must Read): Monitor regulation risk because the article may affect entitlement, zoning, rent rules, affordability requirements, or permitting strategy. [Link](https://www.multifamilydive.com/news/baaja-permitting-bill-speed-apartment-construction-advances-in/874433/)
+- 13th Floor, ANF Complete $89M Hallandale Beach Rental Community (Connect CRE South Florida, Site / Parcel Source Expansion, score 71, Review): Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Miami / Florida. [Link](https://www.connectcre.com/stories/13th-floor-anf-complete-89m-hallandale-beach-rental-community/)
+- $39M Construction Takeout Financing Secured for Suburban Milwaukee MF (Connect CRE, Core Multifamily News, score 100, Must Read): Monitor financing conditions because the article includes apartment, apartments, capital markets and $39m, $39.1 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/39m-construction-takeout-financing-secured-for-suburban-milwaukee-mf/)
+- 152 apartments planned at 2315 Marine Ave. in Gardena (Urbanize LA, Regional / California / LA Sources, score 99, Must Read): Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Other / Unknown. [Link](https://la.urbanize.city/post/152-apartments-planned-2315-marine-ave-gardena)
+- Kadima Inks Financing for 124-unit Hallandale Beach Condo Project (Connect CRE South Florida, Site / Parcel Source Expansion, score 100, Must Read): Monitor financing conditions because the article includes apartment, apartments, construction and $32.5 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://www.connectcre.com/stories/kadima-inks-financing-for-121-unit-hallandale-beach-condo-project/)
+- Bank OZK Supplies $86M Construction Loan for Rental in Broward County (Commercial Observer, Core Multifamily News, score 100, Must Read): Monitor financing conditions because the article includes apartment, apartments, construction and $86m, $85.5 million, $133 million, which may affect construction loans, refinancing risk, and exit cap rates. [Link](https://commercialobserver.com/2026/11/bank-ozk-falcone-broward-county-horizon-of-oakland-park/)
 
 ## Implications for Woomi / US Residential Developer Strategy
 
@@ -220,63 +216,59 @@ Use that report to see which institutional, GP, brokerage, public-agency, and re
 
 ## Recommended Follow-up Actions
 
-- Add to weekly strategy memo: Breakthrough Properties Completes Sale of South Boston Waterfront Development Site to P&G Gillette (REBusiness Online)
-- Add to weekly strategy memo: Sprouts Farmers Market Planned for Downtown DC (Connect CRE Apartments)
-- Read full article: American Campus Communities Expands Partnership with UC Irvine (Connect CRE Orange County)
-- Read full article: Broe Real Estate Group Acquires 22-Story Apartment Tower in Uptown Dallas (REBusiness Online)
-- Track source for follow-up: Lake Washington Partners Expands into Utah with Three MF Purchases (Connect CRE Apartments)
-- Read full article: PMG Secures $250M Refi for New Fort Lauderdale Rental (Commercial Observer)
-- Read full article: $11M Fannie Mae Refinance of 46-Unit Multifamily Community in Park Ridge Illinois (Yield PRO)
-- Add to weekly strategy memo: Metis Equities Buys Luxury Brooklyn Apartment Building for $52M (Commercial Observer)
-- Read full article: JLL Brokers Sale of 330-Unit Apartment Community in Wildwood, Florida (REBusiness Online)
-- Read full article: Cushman & Wakefield Brokers $44M Sale of Multifamily Property in Sheboygan, Wisconsin (REBusiness Online)
-- Read full article: JLL Arranges $212.5M Sale of Senior Living Community in Lincolnwood, Illinois (REBusiness Online)
-- Track source for follow-up: Columbia Pacific Advisors Receives $130M Refinancing for Murano Senior Living Property in Seattle (REBusiness Online)
-- Read full article: Natixis Leads $233M Refi of Midtown Residential Tower (Connect CRE Apartments)
-- Read full article: Greybrook Picks Up 334-Unit Mansfield Rental Community (Connect CRE Texas)
-- Track source for follow-up: Legacy, CrossHarbor Teaming Up on 444-Unit Richardson Apartment Community (Connect CRE Texas)
-- Track source for follow-up: Gilbane, Rocky Mountain Cos. and University of Idaho Complete 451-Bed Student, Family Housing Development (REBusiness Online)
-- Read full article: Plaza Lakes to Develop 130,000 SF Shopping Center in Kissimmee, Florida (REBusiness Online)
-- Read full article: JLL Arranges $104M Loan for Refinancing for Manhattan Multifamily Portfolio (REBusiness Online)
-- Track source for follow-up: Merchants Capital Secures $15M+ for Affordable Housing Development in Charlotte North Carolina (Yield PRO)
+- Read full article: CRC Acquires 276-Unit Apartment Community near Orlando (Yield PRO)
+- Track source for follow-up: The Broe Group Enters Dallas with one of Nation’s Largest Multifamily Transactions of 2026 (Yield PRO)
+- Read full article: Priority Capital Advisory Arranges $10.9M Construction Loan for a 200-Unit Apartment Community in Missoula Montana (Yield PRO)
+- Track source for follow-up: TruAmerica expands into ground-up development with California project (Multifamily Dive)
+- Read full article: Miami-Area Multifamily Project Trades for $54M (Commercial Observer)
+- Read full article: Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California (Yield PRO)
+- Read full article: JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building (REBusiness Online)
+- Add to weekly strategy memo: Enverra Acquires 260,000 SF Office Campus in Northern Virginia for $42M (REBusiness Online)
+- Read full article: CBRE Brokers $30M Sale of Multifamily Portfolio in Madison, Wisconsin (REBusiness Online)
+- Read full article: PMG Secures $285M Refi for New Fort Lauderdale Rental (Commercial Observer)
+- Read full article: HFO Investment Real Estate Closes Sale of 159-Unit Chesapeake Pointe Apartments in Milwaukie Oregon for $23.8M (Yield PRO)
 - Read full article: Federal permitting bill that could speed apartment construction advances in Senate (Multifamily Dive)
+- Track source for follow-up: 13th Floor, ANF Complete $89M Hallandale Beach Rental Community (Connect CRE South Florida)
+- Read full article: $39M Construction Takeout Financing Secured for Suburban Milwaukee MF (Connect CRE)
+- Read full article: Northmarq Brokers $4M Sale of 46-Unit Las Flores Apartments in Fresno (Yield PRO)
+- Read full article: DC Multifamily Sales Volume Surpasses 2025 Total (Connect CRE Apartments)
+- Read full article: Northmarq Arranges $19M Refinance of Historic Apartments in St. Paul (Connect CRE Apartments)
 - Read full article: 152 apartments planned at 2315 Marine Ave. in Gardena (Urbanize LA)
 - Read full article: Advanced Real Estate Buys Inland Empire Apartment Complex for $56M (Commercial Observer)
-- Read full article: Pacific Urban Investors Pays Over $500k/Unit for Seattle MF Property (Connect CRE Apartments)
-- Read full article: How state multifamily measures fared in the midterms (Multifamily Dive)
-- Read full article: Northmarq Facilitates $11M Refinance of Park Ridge Multifamily (Connect CRE Apartments)
-- Read full article: Apartment deliveries fall below decade average as multifamily supply cycle turns (Yield PRO)
-- Track source for follow-up: New Building Permits Filed For 704 North Point Street, San Francisco (SF YIMBY)
-- Read full article: Northmarq Arranges $19.1M Refinance of Historic Holden House Apartments in Saint Paul (Yield PRO)
-- Read full article: Genesis, KTGY Complete 54-Story Austin Tower (Connect CRE Texas)
+- Read full article: Marcus & Millichap Arranges $6.6M Sale of 64-Unit Multifamily Portfolio in Saint Paul (Yield PRO)
 - Read full article: Kadima Inks Financing for 124-unit Hallandale Beach Condo Project (Connect CRE South Florida)
-- Read full article: Marcus & Millichap Arranges $2.6M Sale of 28-Unit Multifamily Property in South Lake Tahoe California (Yield PRO)
-- Read full article: White Plains Project is First to Break Ground on NY State’s Housing Acceleration Fund (Connect CRE)
-- Track source for follow-up: Yardi Matrix: Advertised rents reported higher in October (Yield PRO)
-- Read full article: Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City (Urbanize LA)
-- Track source for follow-up: Development Site Next to Fatal Flatbush Building Collapse Faced Safety Issues (Commercial Observer)
+- Read full article: Bank OZK Supplies $86M Construction Loan for Rental in Broward County (Commercial Observer)
+- Read full article: Dwight Capital Lends $42M on North Carolina Apartments Build (Commercial Observer)
+- Track source for follow-up: New Building Permits Filed For 704 North Point Street, San Francisco (SF YIMBY)
+- Read full article: Legislative risk continues to cloud BTR’s capital outlook; here’s why (HousingWire)
+- Read full article: Fresno Low-Rise Trades to Private Buyer in All-Cash Deal (Connect CRE)
+- Read full article: Advanced Real Estate Pays $56 Million for Ontario Multifamily Complex (Connect CRE)
+- Read full article: The Mogharebi Group Arranges $56.2M Sale of 253-Unit Inland Empire Apartment Community in Ontario California (Yield PRO)
+- Read full article: Rockland Trust Lends on Income-Restricted Apartments in Malden (Connect CRE)
+- Read full article: Construction Topped Out For 641 5th Street, West Sacramento (SF YIMBY)
+- Read full article: Rosewood Property Co. Begins Leasing 370-Unit Multifamily Project in Irving (REBusiness Online)
+- Read full article: JLL Arranges $39.1M in Financing for Apartment Complex in Suburban Milwaukee (REBusiness Online)
 - Read full article: Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood (Urbanize LA)
 - Read full article: 3 multifamily groundbreakings you may have missed (Multifamily Dive)
-- Read full article: Jacob Fulop Files Plans for Two 99-Unit Buildings in East Harlem (Commercial Observer)
+- Read full article: Apartment rents diverge: San Francisco rises, the Sun Belt falls (HousingWire)
 - Read full article: Affordable housing takes shape at 3455 Slauson Ave. in Hyde Park (Urbanize LA)
-- Read full article: Affordable housing rising at 2626 Cullen St. in Mid-City (Urbanize LA)
 - Read full article: Related Building 494 Boca Raton Apartment Units (Connect CRE South Florida)
+- Read full article: Costco-anchored project adds more housing at 5035 Coliseum St. in Baldwin Hills (Urbanize LA)
 - Track source for follow-up: USC Casden Report Sees Persistent Affordability Issues Across SoCal Rental Markets (Connect CRE California)
-- Read full article:  (Yield PRO)
-- Track source for follow-up: TruAmerica expands into ground-up development with California project (Multifamily Dive)
+- Add to weekly strategy memo: Southern California transportation projects awarded new state funding (Urbanize LA)
+- Read full article: Graffiti Removal Sets Stage for Sale of Oceanwide Plaza (Connect CRE California)
+- Read full article: American Campus Communities Expands Partnership with UC Irvine (Connect CRE Orange County)
 - Read full article: Cross Harbor Scores $78.5M Financing for Tempe Rental Community (Connect CRE Phoenix)
-- Read full article: BTI, Bridge Score $109M for Hollywood’s Bread Building (Connect CRE South Florida)
-- Read full article: Fresh renderings for West Hollywood's Melrose Triangle development (Urbanize LA)
 - Add to weekly strategy memo: RED Inks Refi on Camelback Office Building (Connect CRE Phoenix)
-- Track source for follow-up: Senior housing to start work at 861 E. Walnut St. in Pasadena (Urbanize LA)
+- Read full article: Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City (Urbanize LA)
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 84
-- LA lifecycle watch items: 56
-- Stage mix: Refinancing / Recapitalization: 8, Site Acquisition / Site Control: 9, Unknown Stage: 54, Delivery / Opening: 4, Building Permit / Construction Permit: 2
+- Lifecycle records: 82
+- LA lifecycle watch items: 54
+- Stage mix: Unknown Stage: 50, Refinancing / Recapitalization: 6, Construction Ready: 1, Site Acquisition / Site Control: 13, Building Permit / Construction Permit: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -284,11 +276,11 @@ Use that report to see which institutional, GP, brokerage, public-agency, and re
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 84
-- Newly detected projects: 41
+- Lifecycle transitions analyzed: 82
+- Newly detected projects: 47
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 53
+- LA lifecycle transition watch items: 52
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -296,11 +288,11 @@ Use that report to see which institutional, GP, brokerage, public-agency, and re
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 709
-- Canonical projects: 189
-- Duplicate project clusters: 129
-- Persistent assets tracked: 189
-- LA persistent asset watch items: 138
+- Raw project references: 665
+- Canonical projects: 179
+- Duplicate project clusters: 130
+- Persistent assets tracked: 179
+- LA persistent asset watch items: 122
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -308,11 +300,11 @@ Use that report to see which institutional, GP, brokerage, public-agency, and re
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 189
-- Institutional-grade signals: 22
-- High-confidence signals: 47
-- Weak/noisy signals: 110
-- High-confidence watchlist items: 47
+- Signals evaluated: 179
+- Institutional-grade signals: 12
+- High-confidence signals: 41
+- Weak/noisy signals: 105
+- High-confidence watchlist items: 41
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 
 
@@ -321,7 +313,7 @@ Use that report to see which institutional, GP, brokerage, public-agency, and re
 ## Dashboard Summary
 
 - Dashboard cards: 38
-- Dashboard watchlist items: 98
-- Recommended focus: Review Refinancing - Riverside / California - JLL Arranges $104M Loan for Refinancing for Manhattan Multifamily Portfolio and related high-confidence project signals.
+- Dashboard watchlist items: 96
+- Recommended focus: Review Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio and related high-confidence project signals.
 - Start with `executive_dashboard_brief.md`, then review `dashboard_cards.csv` and `dashboard_watchlists.csv` for future dashboard inputs.
 

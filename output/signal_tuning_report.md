@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-11-13 03:10:31
+Generated: 2026-11-14 02:55:58
 
 ## Top Strategic Relevance Articles
 
 - 100 / richness 85: American Campus Communities Expands Partnership with UC Irvine (Connect CRE Orange County, California) - sponsor expansion; JV or partnership activity; institutional acquisition behavior
-- 90 / richness 100: Breakthrough Properties Completes Sale of South Boston Waterfront Development Site to P&G Gillette (REBusiness Online, New York City / New York) - JV or partnership activity; institutional acquisition behavior
-- 89 / richness 100: Sprouts Farmers Market Planned for Downtown DC (Connect CRE Apartments, Washington DC) - entitlement persistence; institutional acquisition behavior
-- 86 / richness 85: Broe Real Estate Group Acquires 22-Story Apartment Tower in Uptown Dallas (REBusiness Online, Dallas / Texas) - JV or partnership activity; institutional acquisition behavior
-- 85 / richness 70: Lake Washington Partners Expands into Utah with Three MF Purchases (Connect CRE Apartments, Salt Lake City / Utah) - sponsor expansion; institutional acquisition behavior
-- 82 / richness 85: PMG Secures $250M Refi for New Fort Lauderdale Rental (Commercial Observer, Other / Unknown) - development continuation; large-scale refinance tied to strategy
+- 92 / richness 100: CRC Acquires 276-Unit Apartment Community near Orlando (Yield PRO, Florida) - sponsor expansion; institutional acquisition behavior
+- 90 / richness 100: Priority Capital Advisory Arranges $10.9M Construction Loan for a 200-Unit Apartment Community in Missoula Montana (Yield PRO, Denver / Colorado) - development continuation; institutional acquisition behavior
+- 89 / richness 90: The Broe Group Enters Dallas with one of Nation’s Largest Multifamily Transactions of 2026 (Yield PRO, Dallas / Texas) - sponsor expansion; institutional acquisition behavior
+- 82 / richness 85: PMG Secures $285M Refi for New Fort Lauderdale Rental (Commercial Observer, Other / Unknown) - development continuation; large-scale refinance tied to strategy
 - 82 / richness 60: TruAmerica expands into ground-up development with California project (Multifamily Dive, California) - sponsor expansion; institutional acquisition behavior
-- 80 / richness 85: $11M Fannie Mae Refinance of 46-Unit Multifamily Community in Park Ridge Illinois (Yield PRO, National) - institutional acquisition behavior; large-scale refinance tied to strategy
-- 80 / richness 75: Natixis Leads $233M Refi of Midtown Residential Tower (Connect CRE Apartments, New York) - JV or partnership activity; large-scale refinance tied to strategy
-- 79 / richness 90: Columbia Pacific Advisors Receives $130M Refinancing for Murano Senior Living Property in Seattle (REBusiness Online, Seattle) - lease-up or absorption behavior; large-scale refinance tied to strategy
+- 72 / richness 45: A look at how apartment REITs did in Q3 (Multifamily Dive, San Francisco / California) - institutional acquisition behavior; lease-up or absorption behavior
+- 71 / richness 90: Miami-Area Multifamily Project Trades for $54M (Commercial Observer, Miami / Florida) - institutional acquisition behavior
+- 70 / richness 85: Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California (Yield PRO, California) - institutional acquisition behavior
+- 70 / richness 85: JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building (REBusiness Online, New York City / New York) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -31,19 +31,18 @@ Generated: 2026-11-13 03:10:31
 - 0: AI, Automation & the Future of Multifamily Finance (Multifamily Executive) - confidence low; integrity low_value_promotional
 - 0: Shorter Apartment Construction Time in 2025 (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: HBGI Q2 2026: Single-Family Construction Contracts Broadly While Multifamily Expands (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
-- 0: Fourth Sale Closes in Anaheim Multifamily Portfolio (Connect CRE Orange County) - confidence low; integrity valid
+- 0: Southern California transportation projects awarded new state funding (Urbanize LA) - confidence unknown; integrity valid
 
 ## Potential Parsing Integrity Issues
 
-- incomplete_metadata:  (Yield PRO) - missing title, source, or URL
-- suspicious_duplicate: Senior housing to start work at 861 E. Walnut St. in Pasadena (Urbanize LA) - source-feed signal bleed suspected
+- suspicious_mismatch: Graffiti Removal Sets Stage for Sale of Oceanwide Plaza (Connect CRE California) - source page may contain multiple article blocks
 - low_value_promotional: The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market? (Multifamily Executive) - promotional/event keyword: sponsored
 - low_value_promotional: AI, Automation & the Future of Multifamily Finance (Multifamily Executive) - promotional/event keyword: webinar
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 26
-- Development / sponsor behavior articles: 44
+- Financing-oriented articles: 21
+- Development / sponsor behavior articles: 39
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

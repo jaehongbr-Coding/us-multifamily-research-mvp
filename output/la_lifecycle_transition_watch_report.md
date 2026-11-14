@@ -1,8 +1,8 @@
 # LA Lifecycle Transition Watch Report
 
-Generated: 2026-11-13 03:10:55
+Generated: 2026-11-14 02:56:27
 
-- Total LA lifecycle transition watch items: 53
+- Total LA lifecycle transition watch items: 52
 
 ## LA Projects Moving Forward
 
@@ -15,42 +15,43 @@ Generated: 2026-11-13 03:10:55
 ## LA Permit / Construction Start Watch
 
 - Development Start - California - 3 multifamily groundbreakings you may have missed: Construction Started -> Construction Started, Construction start watch.
-- Entitlement / Permitting - Los Angeles / California - Affordable housing rising at 2626 Cullen St. in Mid-City: Vertical Construction -> Vertical Construction, Construction start watch.
-- Affordable housing rising at 2626 Cullen St. in Mid-City: Vertical Construction -> Vertical Construction, Construction start watch.
-- Entitlement / Permitting - San Francisco / California - New Building Permits Filed For 704 North Point Street, San Francisco: No Previous Record -> Building Permit / Construction Permit, Permit issuance watch.
-- New Building Permits Filed For 704 North Point Street, San Francisco: No Previous Record -> Building Permit / Construction Permit, Permit issuance watch.
+- Priority Capital Advisory Arranges $10.9M Construction Loan for a 200-Unit Apartment Community in Missoula Montana: No Previous Record -> Vertical Construction, Construction start watch.
+- Entitlement / Permitting - San Francisco / California - New Building Permits Filed For 704 North Point Street, San Francisco: Building Permit / Construction Permit -> Building Permit / Construction Permit, Permit issuance watch.
+- New Building Permits Filed For 704 North Point Street, San Francisco: Building Permit / Construction Permit -> Building Permit / Construction Permit, Permit issuance watch.
 
 ## LA Refinancing / Recap Timing Watch
 
-- Refinancing - Other / Unknown - PMG Secures $250M Refi for New Fort Lauderdale Rental: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Refinancing - Riverside / California - JLL Arranges $104M Loan for Refinancing for Manhattan Multifamily Portfolio: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- JLL Arranges $104M Loan for Refinancing for Manhattan Multifamily Portfolio: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Refinancing - Other / Unknown - PMG Secures $285M Refi for New Fort Lauderdale Rental: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Construction Financing - Denver / Colorado - Priority Capital Advisory Arranges $10.9M Construction Loan for a 200-Unit Apartment Commu...: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Rockland Trust Lends on Income-Restricted Apartments in Malden: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 
 ## LA Delivery / Lease-Up Benchmarks
 
-- BTR / Build-to-Rent - Dallas / Texas - Crescent Completes 146-Unit Melissa BTR Community: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
-- General Project Signal - Florida - ANF Delivers $89M Parks at Hallandale Apartment Community in Hallandale Beach Parks: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- BTR / Build-to-Rent - National - Legislative risk continues to cloud BTR’s capital outlook; here’s why: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- Acquisition - Dallas / Texas - The Broe Group Enters Dallas with one of Nation’s Largest Multifamily Transactions of 2026: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- Disposition / Exit - San Francisco / California - HFO Investment Real Estate Closes Sale of 159-Unit Chesapeake Pointe Apartments in Milwauk...: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- HFO Investment Real Estate Closes Sale of 159-Unit Chesapeake Pointe Apartments in Milwaukie Oregon for $23.8M: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
 
 ## Recommended LA Transition Follow-up Actions
 
-- Use as delivery, lease-up, and underwriting benchmark: BTR / Build-to-Rent - Dallas / Texas - Crescent Completes 146-Unit Melissa BTR Community.
 - Monitor for another run to confirm lifecycle direction: Development Start - California - 3 multifamily groundbreakings you may have missed.
-- Monitor for another run to confirm lifecycle direction: Entitlement / Permitting - Los Angeles / California - Affordable housing rising at 2626 Cullen St. in Mid-City.
 - Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
-- Use as delivery, lease-up, and underwriting benchmark: General Project Signal - Florida - ANF Delivers $89M Parks at Hallandale Apartment Community in Hallandale Beach Parks.
-- Monitor for another run to confirm lifecycle direction: Affordable housing rising at 2626 Cullen St. in Mid-City.
-- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Other / Unknown - PMG Secures $250M Refi for New Fort Lauderdale Rental.
-- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Riverside / California - JLL Arranges $104M Loan for Refinancing for Manhattan Multifamily Portfolio.
+- Monitor for another run to confirm lifecycle direction: Priority Capital Advisory Arranges $10.9M Construction Loan for a 200-Unit Apartment Community in Missoula Montana.
+- Use as delivery, lease-up, and underwriting benchmark: BTR / Build-to-Rent - National - Legislative risk continues to cloud BTR’s capital outlook; here’s why.
+- Use as delivery, lease-up, and underwriting benchmark: Acquisition - Dallas / Texas - The Broe Group Enters Dallas with one of Nation’s Largest Multifamily Transactions of 2026.
+- Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - San Francisco / California - HFO Investment Real Estate Closes Sale of 159-Unit Chesapeake Pointe Apartments in Milwauk....
+- Monitor for another run to confirm lifecycle direction: Entitlement / Permitting - San Francisco / California - New Building Permits Filed For 704 North Point Street, San Francisco.
+- Use as delivery, lease-up, and underwriting benchmark: HFO Investment Real Estate Closes Sale of 159-Unit Chesapeake Pointe Apartments in Milwaukie Oregon for $23.8M.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 709
-- Canonical projects: 189
-- Duplicate project clusters: 129
-- Persistent assets tracked: 189
-- LA persistent asset watch items: 138
+- Raw project references: 665
+- Canonical projects: 179
+- Duplicate project clusters: 130
+- Persistent assets tracked: 179
+- LA persistent asset watch items: 122
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

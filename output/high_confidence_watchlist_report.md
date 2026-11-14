@@ -1,21 +1,21 @@
 # High Confidence Watchlist Report
 
-Generated: 2026-11-13 03:10:55
+Generated: 2026-11-14 02:56:27
 
-- Total high-confidence watchlist items: 47
+- Total high-confidence watchlist items: 41
 
 ## Top Institutional-Grade Opportunities
 
-- Refinancing - Riverside / California - JLL Arranges $104M Loan for Refinancing for Manhattan Multifamily Portfolio: Refinancing opportunity, quality 93, action: Review immediately.
-- BTR / Build-to-Rent - Dallas / Texas - Crescent Completes 146-Unit Melissa BTR Community: LA urban infill opportunity, quality 93, action: Review immediately.
-- Refinancing - National - $11M Fannie Mae Refinance of 46-Unit Multifamily Community in Park Ridge Illinois: Refinancing opportunity, quality 92, action: Review immediately.
-- Acquisition - Dallas / Texas - Greybrook Picks Up 334-Unit Mansfield Rental Community: LA urban infill opportunity, quality 91, action: Review immediately.
-- General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Institutional capital movement, quality 91, action: Review immediately.
-- Disposition / Exit - California - Marcus & Millichap Arranges $2.6M Sale of 28-Unit Multifamily Property in South Lake Tahoe...: LA urban infill opportunity, quality 91, action: Review immediately.
+- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: LA urban infill opportunity, quality 93, action: Review immediately.
+- Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California: Refinancing opportunity, quality 91, action: Review immediately.
 - JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Institutional capital movement, quality 91, action: Review immediately.
-- JV / Partnership - New York City / New York - Breakthrough Properties Completes Sale of South Boston Waterfront Development Site to P&G...: Institutional capital movement, quality 91, action: Review immediately.
 - Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing opportunity, quality 91, action: Review immediately.
-- Acquisition - National - JLL Arranges $212.5M Sale of Senior Living Community in Lincolnwood, Illinois: Senior housing growth, quality 89, action: Review immediately.
+- General Project Signal - Texas - Rosewood Property Co. Begins Leasing 370-Unit Multifamily Project in Irving: Institutional capital movement, quality 89, action: Review immediately.
+- Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: LA urban infill opportunity, quality 89, action: Review immediately.
+- Disposition / Exit - San Francisco / California - HFO Investment Real Estate Closes Sale of 159-Unit Chesapeake Pointe Apartments in Milwauk...: Construction start pipeline, quality 88, action: Review immediately.
+- Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City: Construction start pipeline, quality 87, action: Review immediately.
+- Construction Financing - Southeast - Bank OZK Supplies $86M Construction Loan for Rental in Broward County: Refinancing opportunity, quality 86, action: Review immediately.
+- Acquisition - New York City / New York - JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building: Refinancing opportunity, quality 85, action: Review immediately.
 
 ## Top Institutional-Grade Risks
 
@@ -23,71 +23,71 @@ Generated: 2026-11-13 03:10:55
 
 ## Strongest LA / Southern California Watch Items
 
-- Refinancing - Riverside / California - JLL Arranges $104M Loan for Refinancing for Manhattan Multifamily Portfolio: Refinancing opportunity, quality 93, action: Review immediately.
-- BTR / Build-to-Rent - Dallas / Texas - Crescent Completes 146-Unit Melissa BTR Community: LA urban infill opportunity, quality 93, action: Review immediately.
-- Acquisition - Dallas / Texas - Greybrook Picks Up 334-Unit Mansfield Rental Community: LA urban infill opportunity, quality 91, action: Review immediately.
-- General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Institutional capital movement, quality 91, action: Review immediately.
-- Disposition / Exit - California - Marcus & Millichap Arranges $2.6M Sale of 28-Unit Multifamily Property in South Lake Tahoe...: LA urban infill opportunity, quality 91, action: Review immediately.
+- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: LA urban infill opportunity, quality 93, action: Review immediately.
+- Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California: Refinancing opportunity, quality 91, action: Review immediately.
 - JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Institutional capital movement, quality 91, action: Review immediately.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: LA urban infill opportunity, quality 89, action: Review immediately.
-- Office-to-Residential Conversion - Dallas / Texas - Broe Real Estate Group Acquires 22-Story Apartment Tower in Uptown Dallas: LA urban infill opportunity, quality 88, action: Review immediately.
-- General Project Signal - Florida - ANF Delivers $89M Parks at Hallandale Apartment Community in Hallandale Beach Parks: Institutional capital movement, quality 87, action: Review immediately.
+- Disposition / Exit - San Francisco / California - HFO Investment Real Estate Closes Sale of 159-Unit Chesapeake Pointe Apartments in Milwauk...: Construction start pipeline, quality 88, action: Review immediately.
 - Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City: Construction start pipeline, quality 87, action: Review immediately.
+- Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: LA urban infill opportunity, quality 85, action: Review immediately.
+- General Project Signal - California - Construction Topped Out For 641 5th Street, West Sacramento: Construction start pipeline, quality 84, action: Monitor construction execution.
+- Acquisition - Florida - CRC Acquires 276-Unit Apartment Community near Orlando: LA urban infill opportunity, quality 83, action: Maintain on strategic radar.
+- Construction Financing - Miami / Florida - Kadima Inks Financing for 124-unit Hallandale Beach Condo Project: Construction start pipeline, quality 82, action: Monitor construction execution.
 
 ## Strongest GP / Developer Signals
 
-- Refinancing - Riverside / California - JLL Arranges $104M Loan for Refinancing for Manhattan Multifamily Portfolio: Refinancing opportunity, quality 93, action: Review immediately.
-- BTR / Build-to-Rent - Dallas / Texas - Crescent Completes 146-Unit Melissa BTR Community: LA urban infill opportunity, quality 93, action: Review immediately.
-- Refinancing - National - $11M Fannie Mae Refinance of 46-Unit Multifamily Community in Park Ridge Illinois: Refinancing opportunity, quality 92, action: Review immediately.
-- Acquisition - Dallas / Texas - Greybrook Picks Up 334-Unit Mansfield Rental Community: LA urban infill opportunity, quality 91, action: Review immediately.
-- General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Institutional capital movement, quality 91, action: Review immediately.
-- Disposition / Exit - California - Marcus & Millichap Arranges $2.6M Sale of 28-Unit Multifamily Property in South Lake Tahoe...: LA urban infill opportunity, quality 91, action: Review immediately.
+- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: LA urban infill opportunity, quality 93, action: Review immediately.
+- Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California: Refinancing opportunity, quality 91, action: Review immediately.
 - JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Institutional capital movement, quality 91, action: Review immediately.
-- JV / Partnership - New York City / New York - Breakthrough Properties Completes Sale of South Boston Waterfront Development Site to P&G...: Institutional capital movement, quality 91, action: Review immediately.
 - Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing opportunity, quality 91, action: Review immediately.
-- Acquisition - National - JLL Arranges $212.5M Sale of Senior Living Community in Lincolnwood, Illinois: Senior housing growth, quality 89, action: Review immediately.
+- General Project Signal - Texas - Rosewood Property Co. Begins Leasing 370-Unit Multifamily Project in Irving: Institutional capital movement, quality 89, action: Review immediately.
+- Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: LA urban infill opportunity, quality 89, action: Review immediately.
+- Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City: Construction start pipeline, quality 87, action: Review immediately.
+- Acquisition - New York City / New York - JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building: Refinancing opportunity, quality 85, action: Review immediately.
+- Disposition / Exit - Nevada - Institutional Property Advisors Closes Student Housing Asset Sale in Reno: Student housing expansion, quality 85, action: Review immediately.
+- Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: LA urban infill opportunity, quality 85, action: Review immediately.
 
 ## Strongest Capital Flow Signals
 
-- Refinancing - Riverside / California - JLL Arranges $104M Loan for Refinancing for Manhattan Multifamily Portfolio: Refinancing opportunity, quality 93, action: Review immediately.
-- Refinancing - National - $11M Fannie Mae Refinance of 46-Unit Multifamily Community in Park Ridge Illinois: Refinancing opportunity, quality 92, action: Review immediately.
-- General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Institutional capital movement, quality 91, action: Review immediately.
+- Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California: Refinancing opportunity, quality 91, action: Review immediately.
 - JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Institutional capital movement, quality 91, action: Review immediately.
-- JV / Partnership - New York City / New York - Breakthrough Properties Completes Sale of South Boston Waterfront Development Site to P&G...: Institutional capital movement, quality 91, action: Review immediately.
 - Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing opportunity, quality 91, action: Review immediately.
-- General Project Signal - Florida - ANF Delivers $89M Parks at Hallandale Apartment Community in Hallandale Beach Parks: Institutional capital movement, quality 87, action: Review immediately.
-- Acquisition - Florida - JLL Brokers Sale of 330-Unit Apartment Community in Wildwood, Florida: Institutional capital movement, quality 86, action: Review immediately.
-- Acquisition - Florida - : Institutional capital movement, quality 86, action: Review immediately.
-- Refinancing - Seattle - Columbia Pacific Advisors Receives $130M Refinancing for Murano Senior Living Property in...: Refinancing opportunity, quality 86, action: Review immediately.
+- General Project Signal - Texas - Rosewood Property Co. Begins Leasing 370-Unit Multifamily Project in Irving: Institutional capital movement, quality 89, action: Review immediately.
+- Construction Financing - Southeast - Bank OZK Supplies $86M Construction Loan for Rental in Broward County: Refinancing opportunity, quality 86, action: Review immediately.
+- Acquisition - New York City / New York - JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building: Refinancing opportunity, quality 85, action: Review immediately.
+- General Project Signal - Other / Unknown - JLL Arranges $39.1M in Financing for Apartment Complex in Suburban Milwaukee: Institutional capital movement, quality 84, action: Monitor sponsor relationship.
+- Acquisition - Other / Unknown - CBRE Brokers $30M Sale of Multifamily Portfolio in Madison, Wisconsin: Institutional capital movement, quality 84, action: Monitor sponsor relationship.
+- Disposition / Exit - Other / Unknown - Marcus & Millichap Arranges $6.6M Sale of 64-Unit Multifamily Portfolio in Saint Paul: Institutional capital movement, quality 83, action: Monitor sponsor relationship.
+- Acquisition - Florida - JLL Arranges Sale of 296,419 SF Lifestyle Mixed-Use Center in Coconut Creek, Florida: Institutional capital movement, quality 81, action: Monitor sponsor relationship.
 
 ## Strongest Refinancing Opportunities
 
-- Refinancing - Riverside / California - JLL Arranges $104M Loan for Refinancing for Manhattan Multifamily Portfolio: Refinancing opportunity, quality 93, action: Review immediately.
-- Refinancing - National - $11M Fannie Mae Refinance of 46-Unit Multifamily Community in Park Ridge Illinois: Refinancing opportunity, quality 92, action: Review immediately.
+- Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California: Refinancing opportunity, quality 91, action: Review immediately.
 - Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing opportunity, quality 91, action: Review immediately.
-- Refinancing - Seattle - Columbia Pacific Advisors Receives $130M Refinancing for Murano Senior Living Property in...: Refinancing opportunity, quality 86, action: Review immediately.
-- Refinancing - Riverside / California - JLL Arranges $104M Loan for Refinancing for Manhattan Multifamily Portfolio: Refinancing opportunity, quality 78, action: Watch refinancing timing.
-- Entitlement / Permitting - National - Federal permitting bill that could speed apartment construction advances in Senate: Refinancing opportunity, quality 76, action: Watch refinancing timing.
-- Refinancing - Other / Unknown - PMG Secures $250M Refi for New Fort Lauderdale Rental: Refinancing opportunity, quality 76, action: Watch refinancing timing.
+- Construction Financing - Southeast - Bank OZK Supplies $86M Construction Loan for Rental in Broward County: Refinancing opportunity, quality 86, action: Review immediately.
+- Acquisition - New York City / New York - JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building: Refinancing opportunity, quality 85, action: Review immediately.
+- Priority Capital Advisory Arranges $10.9M Construction Loan for a 200-Unit Apartment Community in Missoula Montana: Refinancing opportunity, quality 78, action: Watch refinancing timing.
+- Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California: Refinancing opportunity, quality 78, action: Watch refinancing timing.
+- Refinancing - Other / Unknown - PMG Secures $285M Refi for New Fort Lauderdale Rental: Refinancing opportunity, quality 76, action: Watch refinancing timing.
 - Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing opportunity, quality 76, action: Watch refinancing timing.
-- Refinancing - Other / Unknown - PMG Secures $250M Refi for New Fort Lauderdale Rental: Refinancing opportunity, quality 72, action: Watch refinancing timing.
+- Refinancing - Other / Unknown - PMG Secures $285M Refi for New Fort Lauderdale Rental: Refinancing opportunity, quality 72, action: Watch refinancing timing.
+- Acquisition - New York City / New York - JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building: Refinancing opportunity, quality 72, action: Watch refinancing timing.
 
 ## Strongest Construction-Ready Opportunities
 
+- Disposition / Exit - San Francisco / California - HFO Investment Real Estate Closes Sale of 159-Unit Chesapeake Pointe Apartments in Milwauk...: Construction start pipeline, quality 88, action: Review immediately.
 - Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City: Construction start pipeline, quality 87, action: Review immediately.
-- Acquisition - California - TruAmerica expands into ground-up development with California project: Construction start pipeline, quality 86, action: Review immediately.
-- Construction Financing - Sun Belt - Merchants Capital Secures $15M+ for Affordable Housing Development in Charlotte North Caro...: Construction start pipeline, quality 85, action: Review immediately.
-- Construction Financing - Miami / Florida - Kadima Inks Financing for 124-unit Hallandale Beach Condo Project: Construction start pipeline, quality 78, action: Monitor construction execution.
-- Construction Financing - Sun Belt - Merchants Capital Secures $15M+ for Affordable Housing Development in Charlotte North Caro...: Construction start pipeline, quality 76, action: Monitor construction execution.
+- General Project Signal - California - Construction Topped Out For 641 5th Street, West Sacramento: Construction start pipeline, quality 84, action: Monitor construction execution.
+- Construction Financing - Miami / Florida - Kadima Inks Financing for 124-unit Hallandale Beach Condo Project: Construction start pipeline, quality 82, action: Monitor construction execution.
 - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City: Construction start pipeline, quality 74, action: Monitor construction execution.
 
 ## Recommended Executive Actions
 
-- Review immediately: Refinancing - Riverside / California - JLL Arranges $104M Loan for Refinancing for Manhattan Multifamily Portfolio.
-- Review immediately: BTR / Build-to-Rent - Dallas / Texas - Crescent Completes 146-Unit Melissa BTR Community.
-- Review immediately: Refinancing - National - $11M Fannie Mae Refinance of 46-Unit Multifamily Community in Park Ridge Illinois.
-- Review immediately: Acquisition - Dallas / Texas - Greybrook Picks Up 334-Unit Mansfield Rental Community.
-- Review immediately: General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building.
-- Review immediately: Disposition / Exit - California - Marcus & Millichap Arranges $2.6M Sale of 28-Unit Multifamily Property in South Lake Tahoe....
+- Review immediately: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
+- Review immediately: Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California.
 - Review immediately: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine.
-- Review immediately: JV / Partnership - New York City / New York - Breakthrough Properties Completes Sale of South Boston Waterfront Development Site to P&G....
+- Review immediately: Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building.
+- Review immediately: General Project Signal - Texas - Rosewood Property Co. Begins Leasing 370-Unit Multifamily Project in Irving.
+- Review immediately: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
+- Review immediately: Disposition / Exit - San Francisco / California - HFO Investment Real Estate Closes Sale of 159-Unit Chesapeake Pointe Apartments in Milwauk....
+- Review immediately: Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City.

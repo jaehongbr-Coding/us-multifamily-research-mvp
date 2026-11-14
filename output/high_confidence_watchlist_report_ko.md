@@ -1,29 +1,29 @@
 # 한국어 높은 신뢰도 Watchlist
 
-- 생성 시각: 2026-11-13 03:10:31
+- 생성 시각: 2026-11-14 02:55:58
 - 참고 원문 파일: `high_confidence_watchlist_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
 ## 높은 신뢰도 신호
 
-- Refinancing - Riverside / California - JLL Arranges $104M Loan for Refinancing for Manhattan Multifamily Portfolio: Unknown, 멀티패밀리, 점수 93 (Refinancing opportunity; Review immediately)
-- BTR / Build-to-Rent - Dallas / Texas - Crescent Completes 146-Unit Melissa BTR Community: Unknown, BTR / 단독주택 임대, 점수 93 (LA urban infill opportunity; Review immediately)
-- Refinancing - National - $11M Fannie Mae Refinance of 46-Unit Multifamily Community in Park Ridge Illinois: Unknown, 멀티패밀리, 점수 92 (Refinancing opportunity; Review immediately)
-- Acquisition - Dallas / Texas - Greybrook Picks Up 334-Unit Mansfield Rental Community: Unknown, 아파트, 점수 91 (LA urban infill opportunity; Review immediately)
-- General Project Signal - Miami / Florida - BTI, Bridge Score $109M for Hollywood’s Bread Building: Unknown, 아파트, 점수 91 (Institutional capital movement; Review immediately)
-- Disposition / Exit - California - Marcus & Millichap Arranges $2.6M Sale of 28-Unit Multifamily Property in South Lake Tahoe...: California, 어포더블 하우징, 점수 91 (LA urban infill opportunity; Review immediately)
+- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: California, 아파트, 점수 93 (LA urban infill opportunity; Review immediately)
+- Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California: California, 아파트, 점수 91 (Refinancing opportunity; Review immediately)
 - JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: California, 학생주택, 점수 91 (Institutional capital movement; Review immediately)
-- JV / Partnership - New York City / New York - Breakthrough Properties Completes Sale of South Boston Waterfront Development Site to P&G...: Unknown, 주거복합, 점수 91 (Institutional capital movement; Review immediately)
 - Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Unknown, 일반 주거, 점수 91 (Refinancing opportunity; Review immediately)
-- Acquisition - National - JLL Arranges $212.5M Sale of Senior Living Community in Lincolnwood, Illinois: Unknown, 시니어 하우징, 점수 89 (Senior housing growth; Review immediately)
+- General Project Signal - Texas - Rosewood Property Co. Begins Leasing 370-Unit Multifamily Project in Irving: Texas, 아파트, 점수 89 (Institutional capital movement; Review immediately)
+- Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Unknown, 아파트, 점수 89 (LA urban infill opportunity; Review immediately)
+- Disposition / Exit - San Francisco / California - HFO Investment Real Estate Closes Sale of 159-Unit Chesapeake Pointe Apartments in Milwauk...: California, 아파트, 점수 88 (Construction start pipeline; Review immediately)
+- Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City: California, 주거복합, 점수 87 (Construction start pipeline; Review immediately)
+- Construction Financing - Southeast - Bank OZK Supplies $86M Construction Loan for Rental in Broward County: Southeast, 아파트, 점수 86 (Refinancing opportunity; Review immediately)
+- Acquisition - New York City / New York - JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building: Unknown, 아파트, 점수 85 (Refinancing opportunity; Review immediately)
 
 ## 기관투자자급 신호
 
-- Refinancing - Riverside / California - JLL Arranges $104M Loan for Refinancing for Manhattan Multifamily Portfolio: Unknown, 멀티패밀리, 점수 93 (Strong Institutional Signal)
-- BTR / Build-to-Rent - Dallas / Texas - Crescent Completes 146-Unit Melissa BTR Community: Unknown, BTR / 단독주택 임대, 점수 93 (Strong Institutional Signal)
-- Refinancing - National - $11M Fannie Mae Refinance of 46-Unit Multifamily Community in Park Ridge Illinois: Unknown, 멀티패밀리, 점수 92 (Strong Institutional Signal)
-- Disposition / Exit - California - Marcus & Millichap Arranges $2.6M Sale of 28-Unit Multifamily Property in South Lake Tahoe...: California, 어포더블 하우징, 점수 91 (Strong Institutional Signal)
+- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: California, 아파트, 점수 93 (Strong Institutional Signal)
+- Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California: California, 아파트, 점수 91 (Strong Institutional Signal)
 - JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: California, 학생주택, 점수 91 (Strong Institutional Signal)
+- Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Unknown, 일반 주거, 점수 91 (Strong Institutional Signal)
+- Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Unknown, 아파트, 점수 89 (Strong Institutional Signal)
 
 ## 노이즈 제외 후 봐야 할 항목
 

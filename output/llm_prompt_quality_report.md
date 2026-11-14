@@ -1,33 +1,32 @@
 # LLM Prompt Quality Report
 
-Generated: 2026-11-13 03:10:37
+Generated: 2026-11-14 02:56:04
 
-- Total prompts reviewed: 49
-- Average prompt quality score: 92.4
-- Excellent prompts: 38
-- Good prompts: 11
+- Total prompts reviewed: 45
+- Average prompt quality score: 93.0
+- Excellent prompts: 36
+- Good prompts: 9
 - Needs Improvement prompts: 0
 - Poor prompts: 0
 
 ## Top 5 Strongest Prompts
 
-- 98 (Excellent): Breakthrough Properties Completes Sale of South Boston Waterfront Development Site to P&G Gillette
-- 98 (Excellent): Sprouts Farmers Market Planned for Downtown DC
-- 98 (Excellent): American Campus Communities Expands Partnership with UC Irvine
-- 98 (Excellent): $11M Fannie Mae Refinance of 46-Unit Multifamily Community in Park Ridge Illinois
-- 98 (Excellent): Metis Equities Buys Luxury Brooklyn Apartment Building for $52M
+- 98 (Excellent): CRC Acquires 276-Unit Apartment Community near Orlando
+- 98 (Excellent): Miami-Area Multifamily Project Trades for $54M
+- 98 (Excellent): Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California
+- 98 (Excellent): JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building
+- 98 (Excellent): Enverra Acquires 260,000 SF Office Campus in Northern Virginia for $42M
 
 ## Top 5 Weakest Prompts
 
-- 74 (Good): How state multifamily measures fared in the midterms - Missing: missing extracted numbers; missing market focus; missing market signal
-- 82 (Good): Broe Real Estate Group Acquires 22-Story Apartment Tower in Uptown Dallas - Missing: missing extracted numbers; missing market signal
-- 82 (Good): Lake Washington Partners Expands into Utah with Three MF Purchases - Missing: missing extracted numbers; missing market signal
-- 82 (Good): Legacy, CrossHarbor Teaming Up on 444-Unit Richardson Apartment Community - Missing: missing extracted numbers; missing market signal
+- 82 (Good): The Broe Group Enters Dallas with one of Nation’s Largest Multifamily Transactions of 2026 - Missing: missing extracted numbers; missing market signal
+- 82 (Good): TruAmerica expands into ground-up development with California project - Missing: missing extracted numbers; missing market signal
 - 82 (Good): Federal permitting bill that could speed apartment construction advances in Senate - Missing: missing extracted numbers; missing market signal
+- 82 (Good): New Building Permits Filed For 704 North Point Street, San Francisco - Missing: missing extracted numbers; missing market signal
+- 82 (Good): Rockland Trust Lends on Income-Restricted Apartments in Malden - Missing: missing market focus; missing market signal
 
 ## Common Missing Context Issues
 
-- missing market signal: 17
-- missing extracted numbers: 11
-- missing market focus: 5
-- missing title: 1
+- missing market signal: 13
+- missing market focus: 8
+- missing extracted numbers: 7

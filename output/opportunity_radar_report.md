@@ -1,26 +1,25 @@
 # Opportunity Radar Report
 
-Generated: 2026-11-14 02:56:24
+Generated: 2026-11-15 02:26:09
 
-- Total opportunities detected: 51
+- Total opportunities detected: 49
 
 ## Top 10 Opportunities
 
 - Acquisition Opportunity in California: Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California, score 92. Add to executive opportunity review.
-- LA / California Entitlement Opportunity in California: Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City, score 92. Add to executive opportunity review.
 - JV / Partnership Gap in California: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine, score 90. Add to executive opportunity review.
 - Acquisition Opportunity in New York City / New York: Acquisition - New York City / New York - JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building, score 86. Add to executive opportunity review.
 - LA / California Entitlement Opportunity in California: Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio, score 86. Add to executive opportunity review.
 - LA / California Entitlement Opportunity in California: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio, score 86. Add to executive opportunity review.
-- Refinancing Gap in Phoenix / Arizona: Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building, score 86. Add to executive opportunity review.
 - Acquisition Opportunity in Atlanta / Georgia: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M, score 85. Add to executive opportunity review.
 - Acquisition Opportunity in Other / Unknown: Acquisition - Other / Unknown - CBRE Brokers $30M Sale of Multifamily Portfolio in Madison, Wisconsin, score 85. Add to executive opportunity review.
+- Refinancing Gap in Phoenix / Arizona: Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building, score 85. Add to executive opportunity review.
 - Refinancing Gap in Other / Unknown: Refinancing - Other / Unknown - PMG Secures $285M Refi for New Fort Lauderdale Rental, score 83. Add to executive opportunity review.
+- Acquisition Opportunity in Atlanta / Georgia: Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community, score 82. Add to executive opportunity review.
 
 ## LA / California Opportunities
 
 - Acquisition Opportunity in California: Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California, score 92. Add to executive opportunity review.
-- LA / California Entitlement Opportunity in California: Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City, score 92. Add to executive opportunity review.
 - JV / Partnership Gap in California: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine, score 90. Add to executive opportunity review.
 - LA / California Entitlement Opportunity in California: Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio, score 86. Add to executive opportunity review.
 - LA / California Entitlement Opportunity in California: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio, score 86. Add to executive opportunity review.
@@ -29,6 +28,7 @@ Generated: 2026-11-14 02:56:24
 - LA / California Entitlement Opportunity in California: General Project Signal - California - Construction Topped Out For 641 5th Street, West Sacramento, score 64. Review entitlement, zoning, permitting, and local sponsor context.
 - LA / California Entitlement Opportunity in California: Development Start - California - 3 multifamily groundbreakings you may have missed, score 63. Review entitlement, zoning, permitting, and local sponsor context.
 - Acquisition Opportunity in California: Acquisition - California - TruAmerica expands into ground-up development with California project, score 62. Research owner, basis, pricing, and transaction history.
+- LA / California Entitlement Opportunity in California: Disposition / Exit - California - Southern California transportation projects awarded new state funding, score 61. Review entitlement, zoning, permitting, and local sponsor context.
 
 ## Acquisition / Recapitalization Opportunities
 
@@ -37,7 +37,7 @@ Generated: 2026-11-14 02:56:24
 - Acquisition Opportunity in Atlanta / Georgia: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M, score 85. Add to executive opportunity review.
 - Acquisition Opportunity in Other / Unknown: Acquisition - Other / Unknown - CBRE Brokers $30M Sale of Multifamily Portfolio in Madison, Wisconsin, score 85. Add to executive opportunity review.
 - Acquisition Opportunity in Atlanta / Georgia: Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community, score 82. Add to executive opportunity review.
-- Acquisition Opportunity in Florida: Acquisition - Florida - JLL Arranges Sale of 296,419 SF Lifestyle Mixed-Use Center in Coconut Creek, Florida, score 79. Research owner, basis, pricing, and transaction history.
+- Acquisition Opportunity in Florida: Acquisition - Florida - JLL Arranges Sale of 296,419 SF Lifestyle Mixed-Use Center in Coconut Creek, Florida, score 78. Research owner, basis, pricing, and transaction history.
 - Acquisition Opportunity in California: Acquisition - California - Northmarq Brokers $4M Sale of 46-Unit Las Flores Apartments in Fresno, score 69. Research owner, basis, pricing, and transaction history.
 - Acquisition Opportunity in California: Acquisition - California - TruAmerica expands into ground-up development with California project, score 62. Research owner, basis, pricing, and transaction history.
 - Acquisition Opportunity in Miami / Florida: Acquisition - Miami / Florida - Miami-Area Multifamily Project Trades for $54M, score 62. Research owner, basis, pricing, and transaction history.
@@ -45,13 +45,13 @@ Generated: 2026-11-14 02:56:24
 
 ## Distressed / Rescue Capital Opportunities
 
-- Refinancing Gap in Phoenix / Arizona: Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building, score 86. Add to executive opportunity review.
+- Refinancing Gap in Phoenix / Arizona: Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building, score 85. Add to executive opportunity review.
 - Refinancing Gap in Other / Unknown: Refinancing - Other / Unknown - PMG Secures $285M Refi for New Fort Lauderdale Rental, score 83. Add to executive opportunity review.
 - Refinancing Gap in Other / Unknown: Refinancing - Other / Unknown - Northmarq Arranges $19M Refinance of Historic Apartments in St. Paul, score 63. Track debt stack, maturity, lender, and recapitalization details.
 
 ## BTR / SFR Opportunities
 
-- BTR / SFR Platform Opportunity in National: BTR / Build-to-Rent - National - Legislative risk continues to cloud BTR’s capital outlook; here’s why, score 54. Monitor for repeated signals.
+- BTR / SFR Platform Opportunity in National: BTR / Build-to-Rent - National - Legislative risk continues to cloud BTR’s capital outlook; here’s why, score 53. Monitor for repeated signals.
 
 ## Office-to-Residential Opportunities
 
@@ -71,10 +71,10 @@ Generated: 2026-11-14 02:56:24
 - JV / Partnership Gap in California: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine, score 90. Add to executive opportunity review.
 - GP Capability Partnership Opportunity in Other / Unknown: General Project Signal - Other / Unknown - $39M Construction Takeout Financing Secured for Suburban Milwaukee MF, score 81. Add to executive opportunity review.
 - GP Capability Partnership Opportunity in Other / Unknown: General Project Signal - Other / Unknown - JLL Arranges $39.1M in Financing for Apartment Complex in Suburban Milwaukee, score 81. Add to executive opportunity review.
-- GP Capability Partnership Opportunity in Other / Unknown: Disposition / Exit - Other / Unknown - Marcus & Millichap Arranges $6.6M Sale of 64-Unit Multifamily Portfolio in Saint Paul, score 80. Add to executive opportunity review.
+- GP Capability Partnership Opportunity in New York City / New York: Disposition / Exit - New York City / New York - Marcus & Millichap Arranges Sale of Multifamily Asset Redevelopment Opportunity in Brookly..., score 80. Add to executive opportunity review.
 - GP Capability Partnership Opportunity in Texas: General Project Signal - Texas - Rosewood Property Co. Begins Leasing 370-Unit Multifamily Project in Irving, score 74. Map GP, capital partner, and relationship history.
-- GP Capability Partnership Opportunity in Nevada: Disposition / Exit - Nevada - Institutional Property Advisors Closes Student Housing Asset Sale in Reno, score 65. Map GP, capital partner, and relationship history.
 - JV / Partnership Gap in Atlanta / Georgia: JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project, score 56. Map GP, capital partner, and relationship history.
+- JV / Partnership Gap in Denver / Colorado: JV / Partnership - Denver / Colorado - Joint Venture Sells 250-Unit High-Rise Apartment Community in Denver’s Golden Triangle, score 54. Map GP, capital partner, and relationship history.
 
 ## Timing / Market Entry Window Summary
 
@@ -99,18 +99,18 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 ## Recommended Executive Follow-up
 
 - Add to executive opportunity review: Acquisition Opportunity in California.
-- Add to executive opportunity review: LA / California Entitlement Opportunity in California.
 - Add to executive opportunity review: JV / Partnership Gap in California.
 - Add to executive opportunity review: Acquisition Opportunity in New York City / New York.
+- Add to executive opportunity review: LA / California Entitlement Opportunity in California.
 - Add to executive opportunity review: LA / California Entitlement Opportunity in California.
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 82
-- LA lifecycle watch items: 54
-- Stage mix: Unknown Stage: 50, Refinancing / Recapitalization: 6, Construction Ready: 1, Site Acquisition / Site Control: 13, Building Permit / Construction Permit: 2
+- Lifecycle records: 78
+- LA lifecycle watch items: 48
+- Stage mix: Unknown Stage: 48, Site Acquisition / Site Control: 12, Refinancing / Recapitalization: 6, Construction Ready: 1, Building Permit / Construction Permit: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -118,11 +118,11 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 82
-- Newly detected projects: 47
+- Lifecycle transitions analyzed: 78
+- Newly detected projects: 4
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 52
+- LA lifecycle transition watch items: 46
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -130,11 +130,11 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 665
-- Canonical projects: 179
-- Duplicate project clusters: 130
-- Persistent assets tracked: 179
-- LA persistent asset watch items: 122
+- Raw project references: 629
+- Canonical projects: 164
+- Duplicate project clusters: 121
+- Persistent assets tracked: 164
+- LA persistent asset watch items: 104
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -142,10 +142,10 @@ Repeat coverage increases confirmation only when it maps to the same canonical e
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 179
-- Institutional-grade signals: 12
-- High-confidence signals: 41
-- Weak/noisy signals: 105
-- High-confidence watchlist items: 41
+- Signals evaluated: 164
+- Institutional-grade signals: 11
+- High-confidence signals: 40
+- Weak/noisy signals: 95
+- High-confidence watchlist items: 40
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

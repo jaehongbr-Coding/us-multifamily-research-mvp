@@ -1,15 +1,15 @@
 # Development Lifecycle Report
 
-Generated: 2026-11-14 02:56:27
+Generated: 2026-11-15 02:26:11
 
-- Total lifecycle records: 82
+- Total lifecycle records: 78
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 50
-- Site Acquisition / Site Control: 13
+- Unknown Stage: 48
+- Site Acquisition / Site Control: 12
 - Refinancing / Recapitalization: 6
-- Delivery / Opening: 6
+- Delivery / Opening: 5
 - Building Permit / Construction Permit: 2
 - Construction Ready: 1
 - Construction Started: 1
@@ -20,15 +20,15 @@ Generated: 2026-11-14 02:56:27
 ## Top Development Timing Opportunities
 
 - Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California: Unknown Stage, California, lifecycle_opportunity_score 100.
-- Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City: Unknown Stage, California, lifecycle_opportunity_score 100.
+- Marcus & Millichap Arranges Sale of Multifamily Asset Redevelopment Opportunity in Brooklyn: Site Acquisition / Site Control, Brooklyn, lifecycle_opportunity_score 100.
 - JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Unknown Stage, California, lifecycle_opportunity_score 99.
 - Refinancing - Other / Unknown - PMG Secures $285M Refi for New Fort Lauderdale Rental: Refinancing / Recapitalization, Unknown, lifecycle_opportunity_score 97.
 - General Project Signal - Other / Unknown - $39M Construction Takeout Financing Secured for Suburban Milwaukee MF: Construction Ready, Unknown, lifecycle_opportunity_score 95.
 - JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building: Site Acquisition / Site Control, Manhattan, lifecycle_opportunity_score 95.
-- Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City: Site Acquisition / Site Control, Culver City, lifecycle_opportunity_score 94.
 - Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing / Recapitalization, Phoenix, lifecycle_opportunity_score 92.
 - Entitlement / Permitting - San Francisco / California - New Building Permits Filed For 704 North Point Street, San Francisco: Building Permit / Construction Permit, San Francisco, lifecycle_opportunity_score 90.
 - JLL Arranges Sale of 296,419 SF Lifestyle Mixed-Use Center in Coconut Creek, Florida: Unknown Stage, Unknown, lifecycle_opportunity_score 90.
+- New Building Permits Filed For 704 North Point Street, San Francisco: Building Permit / Construction Permit, Unknown, lifecycle_opportunity_score 90.
 
 ## Top Lifecycle Risks
 
@@ -59,10 +59,9 @@ Generated: 2026-11-14 02:56:27
 
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening, California, lifecycle_opportunity_score 83.
 - BTR / Build-to-Rent - National - Legislative risk continues to cloud BTR’s capital outlook; here’s why: Delivery / Opening, National, lifecycle_opportunity_score 73.
-- Acquisition - Dallas / Texas - The Broe Group Enters Dallas with one of Nation’s Largest Multifamily Transactions of 2026: Delivery / Opening, Colorado, lifecycle_opportunity_score 71.
-- HFO Investment Real Estate Closes Sale of 159-Unit Chesapeake Pointe Apartments in Milwaukie Oregon for $23.8M: Delivery / Opening, Unknown, lifecycle_opportunity_score 71.
 - Industrious Inks Tysons Corner Lease: The D.C. Deal Sheet: Delivery / Opening, Unknown, lifecycle_opportunity_score 68.
-- Disposition / Exit - San Francisco / California - HFO Investment Real Estate Closes Sale of 159-Unit Chesapeake Pointe Apartments in Milwauk...: Delivery / Opening, California, lifecycle_opportunity_score 62.
+- JV / Partnership - Denver / Colorado - Joint Venture Sells 250-Unit High-Rise Apartment Community in Denver’s Golden Triangle: Delivery / Opening, Denver, lifecycle_opportunity_score 56.
+- Acquisition - Other / Unknown - Essex Three-Twelve’s Mitir Patel Represents Buyers in Six Chicago Multifamily Transactions: Delivery / Opening, Unknown, lifecycle_opportunity_score 51.
 
 ## Distressed / Stalled Lifecycle Signals
 
@@ -85,23 +84,23 @@ Generated: 2026-11-14 02:56:27
 ## Recommended Lifecycle Follow-up Actions
 
 - Monitor lifecycle signal for repeated confirmation: Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California.
-- Monitor lifecycle signal for repeated confirmation: Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City.
+- Monitor lifecycle signal for repeated confirmation: Marcus & Millichap Arranges Sale of Multifamily Asset Redevelopment Opportunity in Brooklyn.
 - Monitor lifecycle signal for repeated confirmation: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine.
 - Track lender, maturity, debt terms, and recapitalization need: Refinancing - Other / Unknown - PMG Secures $285M Refi for New Fort Lauderdale Rental.
 - Monitor permit issuance, financing, and construction-start timing: General Project Signal - Other / Unknown - $39M Construction Takeout Financing Secured for Suburban Milwaukee MF.
 - Monitor lifecycle signal for repeated confirmation: JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building.
-- Monitor lifecycle signal for repeated confirmation: Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City.
 - Track lender, maturity, debt terms, and recapitalization need: Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building.
+- Monitor permit issuance, financing, and construction-start timing: Entitlement / Permitting - San Francisco / California - New Building Permits Filed For 704 North Point Street, San Francisco.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 82
-- Newly detected projects: 47
+- Lifecycle transitions analyzed: 78
+- Newly detected projects: 4
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 52
+- LA lifecycle transition watch items: 46
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -109,11 +108,11 @@ Generated: 2026-11-14 02:56:27
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 665
-- Canonical projects: 179
-- Duplicate project clusters: 130
-- Persistent assets tracked: 179
-- LA persistent asset watch items: 122
+- Raw project references: 629
+- Canonical projects: 164
+- Duplicate project clusters: 121
+- Persistent assets tracked: 164
+- LA persistent asset watch items: 104
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -121,10 +120,10 @@ Generated: 2026-11-14 02:56:27
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 179
-- Institutional-grade signals: 12
-- High-confidence signals: 41
-- Weak/noisy signals: 105
-- High-confidence watchlist items: 41
+- Signals evaluated: 164
+- Institutional-grade signals: 11
+- High-confidence signals: 40
+- Weak/noisy signals: 95
+- High-confidence watchlist items: 40
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

@@ -1,13 +1,13 @@
 # Executive Dashboard Brief
 
-Generated: 2026-11-14 02:55:58
+Generated: 2026-11-15 02:25:50
 
 ## Executive Snapshot
 
-- Total articles reviewed: 77
-- High-confidence signals: 41
-- Institutional-grade signals: 12
-- Opportunities: 51
+- Total articles reviewed: 74
+- High-confidence signals: 40
+- Institutional-grade signals: 11
+- Opportunities: 49
 - Distress signals: 8
 - Recommended executive focus: Review Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio and related high-confidence project signals.
 
@@ -46,9 +46,9 @@ Generated: 2026-11-14 02:55:58
 ## Opportunity / Distress Watch
 
 - Acquisition Opportunity: Acquisition Opportunity may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
-- LA / California Entitlement Opportunity: LA / California Entitlement Opportunity may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
 - JV / Partnership Gap: JV / Partnership Gap may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
 - Acquisition Opportunity: Acquisition Opportunity may create a pricing, capital, partnership, or pipeline opening in New York City / New York. Action: Add to executive opportunity review.
+- LA / California Entitlement Opportunity: LA / California Entitlement Opportunity may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
 - LA / California Entitlement Opportunity: LA / California Entitlement Opportunity may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
 
 ## Development Lifecycle Watch

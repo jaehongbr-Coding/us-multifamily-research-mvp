@@ -1,13 +1,12 @@
 # Real Asset & Parcel Intelligence Report
 
-Generated: 2026-11-14 02:56:25
+Generated: 2026-11-15 02:26:10
 
-- Total asset / parcel signals: 82
+- Total asset / parcel signals: 78
 
 ## Top Site-Level Opportunities
 
 - Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California: Affordable / Density Bonus Strategy, California, asset_opportunity_score 100.
-- Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City: Development Start, 11111 Jefferson Blvd, asset_opportunity_score 100.
 - Refinancing - Other / Unknown - PMG Secures $285M Refi for New Fort Lauderdale Rental: Refinancing / Recapitalization, Unknown, asset_opportunity_score 95.
 - Entitlement / Permitting - Los Angeles / California - Costco-anchored project adds more housing at 5035 Coliseum St. in Baldwin Hills: Entitlement Play, 5035 Coliseum St, asset_opportunity_score 94.
 - Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood: Affordable / Density Bonus Strategy, 6144 N. Hazelhurst Pl, asset_opportunity_score 94.
@@ -16,6 +15,7 @@ Generated: 2026-11-14 02:56:25
 - JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: General Asset Signal, California, asset_opportunity_score 93.
 - Acquisition - New York City / New York - JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building: General Asset Signal, New York City, asset_opportunity_score 88.
 - General Project Signal - Other / Unknown - JLL Arranges $39.1M in Financing for Apartment Complex in Suburban Milwaukee: General Asset Signal, Unknown, asset_opportunity_score 88.
+- Acquisition - Other / Unknown - CBRE Brokers $30M Sale of Multifamily Portfolio in Madison, Wisconsin: General Asset Signal, Unknown, asset_opportunity_score 87.
 
 ## Top Site-Level Risks
 
@@ -33,7 +33,6 @@ Generated: 2026-11-14 02:56:25
 ## Assets With Address / Location Clues
 
 - Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California: Affordable / Density Bonus Strategy, California, asset_opportunity_score 100.
-- Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City: Development Start, 11111 Jefferson Blvd, asset_opportunity_score 100.
 - Entitlement / Permitting - Los Angeles / California - Costco-anchored project adds more housing at 5035 Coliseum St. in Baldwin Hills: Entitlement Play, 5035 Coliseum St, asset_opportunity_score 94.
 - Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood: Affordable / Density Bonus Strategy, 6144 N. Hazelhurst Pl, asset_opportunity_score 94.
 - General Project Signal - Los Angeles / California - Affordable housing takes shape at 3455 Slauson Ave. in Hyde Park: Affordable / Density Bonus Strategy, 3455 Slauson Ave, asset_opportunity_score 94.
@@ -42,19 +41,20 @@ Generated: 2026-11-14 02:56:25
 - Acquisition - New York City / New York - JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building: General Asset Signal, New York City, asset_opportunity_score 88.
 - Entitlement / Permitting - San Francisco / California - New Building Permits Filed For 704 North Point Street, San Francisco: Construction-Ready Pipeline, 704 North Point Street, asset_opportunity_score 86.
 - Acquisition - California - Northmarq Brokers $4M Sale of 46-Unit Las Flores Apartments in Fresno: General Asset Signal, California, asset_opportunity_score 85.
+- Disposition / Exit - California - Fresno Low-Rise Trades to Private Buyer in All-Cash Deal: General Asset Signal, California, asset_opportunity_score 85.
 
 ## Assets With Identified Developers / Sponsors
 
 - Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California: Affordable / Density Bonus Strategy, California, asset_opportunity_score 100.
-- Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City: Development Start, 11111 Jefferson Blvd, asset_opportunity_score 100.
 - Refinancing - Other / Unknown - PMG Secures $285M Refi for New Fort Lauderdale Rental: Refinancing / Recapitalization, Unknown, asset_opportunity_score 95.
 - JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: General Asset Signal, California, asset_opportunity_score 93.
 - Acquisition - New York City / New York - JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building: General Asset Signal, New York City, asset_opportunity_score 88.
 - General Project Signal - Other / Unknown - JLL Arranges $39.1M in Financing for Apartment Complex in Suburban Milwaukee: General Asset Signal, Unknown, asset_opportunity_score 88.
 - Acquisition - Other / Unknown - CBRE Brokers $30M Sale of Multifamily Portfolio in Madison, Wisconsin: General Asset Signal, Unknown, asset_opportunity_score 87.
 - General Project Signal - Other / Unknown - $39M Construction Takeout Financing Secured for Suburban Milwaukee MF: General Asset Signal, Unknown, asset_opportunity_score 87.
-- Disposition / Exit - Other / Unknown - Marcus & Millichap Arranges $6.6M Sale of 64-Unit Multifamily Portfolio in Saint Paul: General Asset Signal, Unknown, asset_opportunity_score 81.
 - General Project Signal - Texas - Rosewood Property Co. Begins Leasing 370-Unit Multifamily Project in Irving: General Asset Signal, Texas, asset_opportunity_score 80.
+- Disposition / Exit - New York City / New York - Marcus & Millichap Arranges Sale of Multifamily Asset Redevelopment Opportunity in Brookly...: General Asset Signal, New York City, asset_opportunity_score 79.
+- Marcus & Millichap Arranges Sale of Multifamily Asset Redevelopment Opportunity in Brooklyn: General Asset Signal, 321 Eckford St, asset_opportunity_score 78.
 
 ## Assets With Entitlement or Permit Signals
 
@@ -80,7 +80,6 @@ Generated: 2026-11-14 02:56:25
 - Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California: Affordable / Density Bonus Strategy, California, asset_opportunity_score 100.
 - Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood: Affordable / Density Bonus Strategy, 6144 N. Hazelhurst Pl, asset_opportunity_score 94.
 - General Project Signal - Los Angeles / California - Affordable housing takes shape at 3455 Slauson Ave. in Hyde Park: Affordable / Density Bonus Strategy, 3455 Slauson Ave, asset_opportunity_score 94.
-- Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City: Affordable / Density Bonus Strategy, 11111 Jefferson Blvd, asset_opportunity_score 75.
 - Affordable housing takes shape at 3455 Slauson Ave. in Hyde Park: Affordable / Density Bonus Strategy, 3455 Slauson Ave, asset_opportunity_score 75.
 - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood: Affordable / Density Bonus Strategy, 6144 N. Hazelhurst Pl, asset_opportunity_score 75.
 - Acquisition - Houston / Texas - Houston Apartment Investor Buys 378-Unit Affordable Housing Community: Affordable / Density Bonus Strategy, Houston, asset_opportunity_score 60.
@@ -94,21 +93,21 @@ Generated: 2026-11-14 02:56:25
 ## Recommended Asset-Level Follow-up Actions
 
 - Review site details, sponsor, entitlement path, and local precedent: Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California.
-- Review site details, sponsor, entitlement path, and local precedent: Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City.
 - Review acquisition, financing, ownership, and comparable transaction details: Refinancing - Other / Unknown - PMG Secures $285M Refi for New Fort Lauderdale Rental.
 - Track entitlement, permit, density bonus, and construction-readiness milestones: Entitlement / Permitting - Los Angeles / California - Costco-anchored project adds more housing at 5035 Coliseum St. in Baldwin Hills.
 - Track entitlement, permit, density bonus, and construction-readiness milestones: Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood.
 - Track entitlement, permit, density bonus, and construction-readiness milestones: General Project Signal - Los Angeles / California - Affordable housing takes shape at 3455 Slauson Ave. in Hyde Park.
 - Track entitlement, permit, density bonus, and construction-readiness milestones: Entitlement / Permitting - Other / Unknown - 152 apartments planned at 2315 Marine Ave. in Gardena.
 - Review site details, sponsor, entitlement path, and local precedent: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine.
+- Monitor asset-level signal for repeated confirmation: Acquisition - New York City / New York - JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building.
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 82
-- LA lifecycle watch items: 54
-- Stage mix: Unknown Stage: 50, Refinancing / Recapitalization: 6, Construction Ready: 1, Site Acquisition / Site Control: 13, Building Permit / Construction Permit: 2
+- Lifecycle records: 78
+- LA lifecycle watch items: 48
+- Stage mix: Unknown Stage: 48, Site Acquisition / Site Control: 12, Refinancing / Recapitalization: 6, Construction Ready: 1, Building Permit / Construction Permit: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -116,11 +115,11 @@ Generated: 2026-11-14 02:56:25
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 82
-- Newly detected projects: 47
+- Lifecycle transitions analyzed: 78
+- Newly detected projects: 4
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 52
+- LA lifecycle transition watch items: 46
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -128,10 +127,10 @@ Generated: 2026-11-14 02:56:25
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 665
-- Canonical projects: 179
-- Duplicate project clusters: 130
-- Persistent assets tracked: 179
-- LA persistent asset watch items: 122
+- Raw project references: 629
+- Canonical projects: 164
+- Duplicate project clusters: 121
+- Persistent assets tracked: 164
+- LA persistent asset watch items: 104
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

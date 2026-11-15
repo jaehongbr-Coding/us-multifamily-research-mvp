@@ -1,11 +1,11 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-11-14 02:56:05
+Generated: 2026-11-15 02:25:56
 
-- Total relationship edges: 116
+- Total relationship edges: 111
 - Most connected developer / GP: JLL (16 edge(s))
 - Most connected lender / debt provider: jll (5 edge(s))
-- Most connected market: California (12 edge(s))
+- Most connected market: California (10 edge(s))
 - Strongest relationship edge: Berkadia -> berkadia
 - Highest Woomi relevance edge: Blackstone -> California
 
@@ -15,12 +15,12 @@ Generated: 2026-11-14 02:56:05
 - Blackstone -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
-- Lincoln Property Company -> California: Development Activity, California, score 96. Track GP relationship history.
-- Lincoln Property Company -> Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City: Development Activity, California, score 96. Track GP relationship history.
 - Berkadia -> Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California: Acquisition / Buyer, California, score 95. Track GP relationship history.
 - Berkadia -> California: Acquisition / Buyer, California, score 95. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Other / Unknown, score 93. Track GP relationship history.
+- JLL -> jll: Financing Relationship, New York City / New York, score 93. Track GP relationship history.
+- Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 86. Track GP relationship history.
 
 ## Developer / GP Relationship Map
 
@@ -28,12 +28,12 @@ Generated: 2026-11-14 02:56:05
 - Blackstone -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
-- Lincoln Property Company -> California: Development Activity, California, score 96. Track GP relationship history.
-- Lincoln Property Company -> Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City: Development Activity, California, score 96. Track GP relationship history.
 - Berkadia -> Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California: Acquisition / Buyer, California, score 95. Track GP relationship history.
 - Berkadia -> California: Acquisition / Buyer, California, score 95. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Other / Unknown, score 93. Track GP relationship history.
+- JLL -> jll: Financing Relationship, New York City / New York, score 93. Track GP relationship history.
+- Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 86. Track GP relationship history.
 
 ## Lender / Debt Provider Relationship Map
 
@@ -53,19 +53,20 @@ Generated: 2026-11-14 02:56:05
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
 - Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 86. Track GP relationship history.
 - General Project Signal - Miami / Florida - Related Building 494 Boca Raton Apartment Units -> related: Capital Flow, Miami / Florida, score 59. Monitor only.
+- Acquisition - Other / Unknown - Essex Three-Twelve’s Mitir Patel Represents Buyers in Six Chicago Multifamily Transactions -> essex: Acquisition / Buyer, Other / Unknown, score 57. Monitor only.
 
 ## Market Relationship Map
 
 - Blackstone -> California: JV / Partnership, California, score 100. Review potential JV relevance.
-- Lincoln Property Company -> California: Development Activity, California, score 96. Track GP relationship history.
 - Berkadia -> California: Acquisition / Buyer, California, score 95. Track GP relationship history.
 - CBRE -> Atlanta: Acquisition / Buyer, Atlanta / Georgia, score 83. Track GP relationship history.
 - CBRE -> Atlanta / Georgia: Acquisition / Buyer, Atlanta / Georgia, score 83. Track GP relationship history.
 - JLL -> New York City: Acquisition / Buyer, New York City / New York, score 83. Track GP relationship history.
 - JLL -> New York City / New York: Acquisition / Buyer, New York City / New York, score 83. Track GP relationship history.
+- Marcus & Millichap -> California: Disposition / Seller, California, score 79. Track GP relationship history.
 - Hines -> Atlanta: Acquisition / Buyer, Atlanta / Georgia, score 78. Track GP relationship history.
 - Hines -> Atlanta / Georgia: Acquisition / Buyer, Atlanta / Georgia, score 78. Track GP relationship history.
-- Marcus & Millichap -> California: Disposition / Seller, California, score 78. Track GP relationship history.
+- Marcus & Millichap -> California: Disposition / Seller, California, score 77. Track GP relationship history.
 
 ## California / LA Relationship Signals
 
@@ -73,12 +74,12 @@ Generated: 2026-11-14 02:56:05
 - Blackstone -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
-- Lincoln Property Company -> California: Development Activity, California, score 96. Track GP relationship history.
-- Lincoln Property Company -> Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City: Development Activity, California, score 96. Track GP relationship history.
 - Berkadia -> Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California: Acquisition / Buyer, California, score 95. Track GP relationship history.
 - Berkadia -> California: Acquisition / Buyer, California, score 95. Track GP relationship history.
 - Acquisition - California - Northmarq Brokers $4M Sale of 46-Unit Las Flores Apartments in Fresno -> northmarq: Financing Relationship, California, score 81. Monitor lender activity.
 - Disposition / Exit - California - Fresno Low-Rise Trades to Private Buyer in All-Cash Deal -> northmarq: Financing Relationship, California, score 80. Monitor lender activity.
+- Marcus & Millichap -> California: Disposition / Seller, California, score 79. Track GP relationship history.
+- Marcus & Millichap -> Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: Disposition / Seller, California, score 79. Track GP relationship history.
 
 ## Potential Woomi Partnership Signals
 
@@ -87,6 +88,8 @@ Generated: 2026-11-14 02:56:05
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
 - JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project -> Atlanta: JV / Partnership, Atlanta / Georgia, score 47. Review potential JV relevance.
 - JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project -> Atlanta / Georgia: JV / Partnership, Atlanta / Georgia, score 47. Review potential JV relevance.
+- JV / Partnership - Denver / Colorado - Joint Venture Sells 250-Unit High-Rise Apartment Community in Denver’s Golden Triangle -> Denver: JV / Partnership, Denver / Colorado, score 45. Review potential JV relevance.
+- JV / Partnership - Denver / Colorado - Joint Venture Sells 250-Unit High-Rise Apartment Community in Denver’s Golden Triangle -> Denver / Colorado: JV / Partnership, Denver / Colorado, score 45. Review potential JV relevance.
 
 ## Canonical Relationship Map
 
@@ -96,12 +99,12 @@ Generated: 2026-11-14 02:56:05
 | Blackstone | California | JV / Partnership | 100 |
 | Blackstone | California | JV / Partnership | 60 |
 | Blackstone | Blackstone | JV / Partnership | 75 |
-| Lincoln Property Company | California | Development Activity | 40 |
-| Lincoln Property Company | California | Development Activity | 40 |
 | Berkadia | Berkadia | Acquisition / Buyer | 60 |
 | Berkadia | California | Acquisition / Buyer | 100 |
 | CBRE | CBRE | Financing Relationship | 75 |
 | CBRE | CBRE | Financing Relationship | 75 |
+| JLL | JLL | Financing Relationship | 75 |
+| Hines | hines | Acquisition / Buyer | 40 |
 
 ## Multi-Source Confirmation Summary
 
@@ -113,9 +116,9 @@ Relationship repeat strength uses unique canonical deal/event counts instead of 
 Ranked GP watchlist signals are available in `gp_watchlist_report.md`.
 - Berkadia: 80 (Tier 2 High Potential GP), Potential GP partnership candidate.
 - JSB Capital Group: 80 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- Lincoln Property Company: 77 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- McCourt Partners: 77 (Tier 2 High Potential GP), Potential GP partnership candidate.
 - Blackstone: 76 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- Hines: 73 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- CBRE: 70 (Tier 2 High Potential GP), Capital market and pricing discovery reference.
 
 ## GP Source Expansion Summary
 
@@ -139,19 +142,19 @@ Longitudinal memory is available in `historical_memory_report.md`.
 - Review potential JV relevance: Blackstone -> California (JV / Partnership).
 - Review potential JV relevance: Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine (JV / Partnership).
 - Review potential JV relevance: Blackstone -> blackstone (JV / Partnership).
-- Track GP relationship history: Lincoln Property Company -> California (Development Activity).
-- Track GP relationship history: Lincoln Property Company -> Development Start - California - Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City (Development Activity).
 - Track GP relationship history: Berkadia -> Acquisition - California - Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California (Acquisition / Buyer).
 - Track GP relationship history: Berkadia -> California (Acquisition / Buyer).
+- Track GP relationship history: CBRE -> cbre (Financing Relationship).
+- Track GP relationship history: CBRE -> cbre (Financing Relationship).
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 665
-- Canonical projects: 179
-- Duplicate project clusters: 130
-- Persistent assets tracked: 179
-- LA persistent asset watch items: 122
+- Raw project references: 629
+- Canonical projects: 164
+- Duplicate project clusters: 121
+- Persistent assets tracked: 164
+- LA persistent asset watch items: 104
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

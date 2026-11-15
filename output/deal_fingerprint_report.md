@@ -1,10 +1,10 @@
 # Deal Fingerprint Report
 
-Generated: 2026-11-14 02:56:05
+Generated: 2026-11-15 02:25:56
 
-- Total canonical deals detected: 60
+- Total canonical deals detected: 57
 - Duplicate clusters detected: 0
-- California / LA recurring project count: 11
+- California / LA recurring project count: 10
 
 ## Largest Duplicate Clusters
 
@@ -27,7 +27,6 @@ Generated: 2026-11-14 02:56:05
 
 ## Recurring California / LA Projects
 
-- Development Start - Lincoln Property Company - California: California, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - Berkadia - California: California, 1 article(s), 1 source(s), confidence 90.
 - JV / Partnership - Blackstone - California: California, 1 article(s), 1 source(s), confidence 80.
 - Acquisition - Unknown - California: California, 1 article(s), 1 source(s), confidence 75.
@@ -37,6 +36,7 @@ Generated: 2026-11-14 02:56:05
 - General Project Signal - Unknown - California: California, 1 article(s), 1 source(s), confidence 65.
 - Development Start - Unknown - California: California, 1 article(s), 1 source(s), confidence 55.
 - Disposition / Exit - Unknown - California: California, 1 article(s), 1 source(s), confidence 65.
+- Acquisition - Unknown - California: California, 1 article(s), 1 source(s), confidence 55.
 
 ## Recurring GP / Lender Relationships
 
@@ -44,12 +44,12 @@ Generated: 2026-11-14 02:56:05
 - Acquisition - CBRE - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - CBRE - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - JLL - New York: New York City / New York, 1 article(s), 1 source(s), confidence 90.
-- Development Start - Lincoln Property Company - California: California, 1 article(s), 1 source(s), confidence 90.
 - Refinancing - JLL - JLL - Sun Belt: Phoenix / Arizona, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
 - Acquisition - JLL - Florida: Florida, 1 article(s), 1 source(s), confidence 80.
 - Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
 - Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
+- Disposition / Exit - Marcus & Millichap - New York: New York City / New York, 1 article(s), 1 source(s), confidence 80.
 
 ## Most Frequently Referenced Developments
 
@@ -57,12 +57,12 @@ Generated: 2026-11-14 02:56:05
 - Acquisition - CBRE - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - CBRE - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - JLL - New York: New York City / New York, 1 article(s), 1 source(s), confidence 90.
-- Development Start - Lincoln Property Company - California: California, 1 article(s), 1 source(s), confidence 90.
 - Refinancing - JLL - JLL - Sun Belt: Phoenix / Arizona, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
 - Acquisition - JLL - Florida: Florida, 1 article(s), 1 source(s), confidence 80.
 - Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
 - Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
+- Disposition / Exit - Marcus & Millichap - New York: New York City / New York, 1 article(s), 1 source(s), confidence 80.
 
 ## Highest-Confidence Canonical Events
 
@@ -70,9 +70,9 @@ Generated: 2026-11-14 02:56:05
 - Acquisition - CBRE - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - CBRE - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - JLL - New York: New York City / New York, 1 article(s), 1 source(s), confidence 90.
-- Development Start - Lincoln Property Company - California: California, 1 article(s), 1 source(s), confidence 90.
 - Refinancing - JLL - JLL - Sun Belt: Phoenix / Arizona, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
 - Acquisition - JLL - Florida: Florida, 1 article(s), 1 source(s), confidence 80.
 - Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
 - Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
+- Disposition / Exit - Marcus & Millichap - New York: New York City / New York, 1 article(s), 1 source(s), confidence 80.

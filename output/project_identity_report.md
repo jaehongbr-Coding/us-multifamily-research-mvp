@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-11-14 02:56:27
+Generated: 2026-11-15 02:26:11
 
-- Total raw project references: 665
-- Total canonical projects: 179
-- Duplicate project clusters: 130
-- High-confidence project identities: 665
+- Total raw project references: 629
+- Total canonical projects: 164
+- Duplicate project clusters: 121
+- High-confidence project identities: 629
 - Low-confidence identities needing review: 0
-- LA / California project references: 427
+- LA / California project references: 379
 
 ## Top Repeated Projects
 
-- Disposition / Exit - Los Angeles / California - The Mogharebi Group Arranges $56.2M Sale of 253-Unit Inland Empire Apartment Community in...: 35 occurrence(s), confidence 80.
-- Disposition / Exit - Los Angeles / California - The Mogharebi Group Arranges $56.2M Sale of 253-Unit Inland Empire Apartment Community in...: 35 occurrence(s), confidence 80.
-- Disposition / Exit - Los Angeles / California - The Mogharebi Group Arranges $56.2M Sale of 253-Unit Inland Empire Apartment Community in...: 35 occurrence(s), confidence 80.
-- Disposition / Exit - Los Angeles / California - The Mogharebi Group Arranges $56.2M Sale of 253-Unit Inland Empire Apartment Community in...: 35 occurrence(s), confidence 80.
-- Disposition / Exit - Los Angeles / California - The Mogharebi Group Arranges $56.2M Sale of 253-Unit Inland Empire Apartment Community in...: 35 occurrence(s), confidence 80.
-- Disposition / Exit - Los Angeles / California - The Mogharebi Group Arranges $56.2M Sale of 253-Unit Inland Empire Apartment Community in...: 35 occurrence(s), confidence 80.
-- Disposition / Exit - Los Angeles / California - The Mogharebi Group Arranges $56.2M Sale of 253-Unit Inland Empire Apartment Community in...: 35 occurrence(s), confidence 80.
-- Disposition / Exit - Los Angeles / California - The Mogharebi Group Arranges $56.2M Sale of 253-Unit Inland Empire Apartment Community in...: 35 occurrence(s), confidence 80.
-- Disposition / Exit - Los Angeles / California - The Mogharebi Group Arranges $56.2M Sale of 253-Unit Inland Empire Apartment Community in...: 35 occurrence(s), confidence 80.
-- Disposition / Exit - Los Angeles / California - The Mogharebi Group Arranges $56.2M Sale of 253-Unit Inland Empire Apartment Community in...: 35 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 36 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 36 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 36 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 36 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 36 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 36 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 36 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 36 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 36 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 36 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

@@ -1,18 +1,18 @@
 # Routing Balance Report
 
 - Market Intelligence count: 17
-- Development Activity count: 52
+- Development Activity count: 49
 - GP / Capital Activity count: 5
 - Excluded count: 2
 - Rent/Demand candidate count: 5
-- Project anchor article count: 49
+- Project anchor article count: 45
 - Development-excluded transaction article count: 6
 - Low-value promotional excluded count: 2
 - Site / Parcel positive candidates count: 3
 - Site / Parcel excluded transaction count: 0
 - Source missing count: 0
 - Market missing count: 0
-- Stage missing count: 56
+- Stage missing count: 54
 
 ## Rent/Demand Titles
 - Multifamily Absorption Rate Remains Below 50%
@@ -43,4 +43,4 @@
 - Costco-anchored project adds more housing at 5035 Coliseum St. in Baldwin Hills | Development Activity | rent_demand=No | development_project_anchor: Project / Asset (address/street: 5035 coliseum st; project/asset term: project)
 - Affordable housing takes shape at 3455 Slauson Ave. in Hyde Park | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (unit/site count: 75 apartments; address/street: 3455 slauson ave; project/asset term: project)
 - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood | Market Intelligence | rent_demand=No | market, macro, research, or supply-demand article without confirmed deal or project event
-- Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City | Development Activity | rent_demand=No | development_project_anchor: Construction Start (unit/site count: 344 homes; address/street: 11111 jefferson blvd; execution milestone: groundbreaking; project/asset term: project)
+- Construction Topped Out For 641 5th Street, West Sacramento | Development Activity | rent_demand=No | development_project_anchor: Project / Asset (unit/site count: 37 apartments; address/street: 641 5th street; project/asset term: project)

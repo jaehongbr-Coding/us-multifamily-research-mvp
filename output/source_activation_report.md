@@ -1,6 +1,6 @@
 # Source Activation Report
 
-Generated: 2026-11-14 02:56:00
+Generated: 2026-11-15 02:25:52
 
 - Total sources evaluated: 163
 - Working sources: 21
@@ -14,13 +14,13 @@ Generated: 2026-11-14 02:56:00
 
 ## Strongest Signal-Generating Sources
 
-- Yield PRO (Tier 1): Working, RSS, score 97, 9 saved article(s).
+- Yield PRO (Tier 1): Working, RSS, score 97, 7 saved article(s).
 - Connect CRE (Tier 1): Working, RSS, score 94, 4 saved article(s).
 - Multifamily Dive (Tier 1): Working, RSS, score 94, 5 saved article(s).
 - Connect CRE Orange County (Tier 2): Working, RSS, score 93, 3 saved article(s).
 - Commercial Observer (Tier 1): Working, RSS, score 90, 5 saved article(s).
-- Urbanize LA (Tier 2): Working, RSS, score 90, 7 saved article(s).
 - REBusiness Online (Tier 2): Working, RSS, score 83, 6 saved article(s).
+- Urbanize LA (Tier 2): Working, RSS, score 82, 6 saved article(s).
 - Connect CRE Atlanta (Tier 2): Working, RSS, score 79, 4 saved article(s).
 - Connect CRE South Florida (Tier 2): Working, RSS, score 76, 4 saved article(s).
 - SF YIMBY (Tier 2): Working, RSS, score 74, 2 saved article(s).
@@ -32,7 +32,7 @@ Generated: 2026-11-14 02:56:00
 
 ## Highest Institutional-Value Sources
 
-- Yield PRO (Tier 1): Working, RSS, score 97, 9 saved article(s).
+- Yield PRO (Tier 1): Working, RSS, score 97, 7 saved article(s).
 - Connect CRE (Tier 1): Working, RSS, score 94, 4 saved article(s).
 - Multifamily Dive (Tier 1): Working, RSS, score 94, 5 saved article(s).
 - Commercial Observer (Tier 1): Working, RSS, score 90, 5 saved article(s).
@@ -43,11 +43,11 @@ Generated: 2026-11-14 02:56:00
 
 ## California / LA Focused Sources
 
-- Yield PRO (Tier 1): Working, RSS, score 97, 9 saved article(s).
+- Yield PRO (Tier 1): Working, RSS, score 97, 7 saved article(s).
 - Connect CRE (Tier 1): Working, RSS, score 94, 4 saved article(s).
 - Multifamily Dive (Tier 1): Working, RSS, score 94, 5 saved article(s).
 - Connect CRE Orange County (Tier 2): Working, RSS, score 93, 3 saved article(s).
-- Urbanize LA (Tier 2): Working, RSS, score 90, 7 saved article(s).
+- Urbanize LA (Tier 2): Working, RSS, score 82, 6 saved article(s).
 - Connect CRE Atlanta (Tier 2): Working, RSS, score 79, 4 saved article(s).
 - SF YIMBY (Tier 2): Working, RSS, score 74, 2 saved article(s).
 - Connect CRE California (Tier 2): Working, RSS, score 60, 4 saved article(s).
@@ -80,13 +80,13 @@ Generated: 2026-11-14 02:56:00
 
 ## RSS-Ready Sources
 
-- Yield PRO (Tier 1): Working, RSS, score 97, 9 saved article(s).
+- Yield PRO (Tier 1): Working, RSS, score 97, 7 saved article(s).
 - Connect CRE (Tier 1): Working, RSS, score 94, 4 saved article(s).
 - Multifamily Dive (Tier 1): Working, RSS, score 94, 5 saved article(s).
 - Connect CRE Orange County (Tier 2): Working, RSS, score 93, 3 saved article(s).
 - Commercial Observer (Tier 1): Working, RSS, score 90, 5 saved article(s).
-- Urbanize LA (Tier 2): Working, RSS, score 90, 7 saved article(s).
 - REBusiness Online (Tier 2): Working, RSS, score 83, 6 saved article(s).
+- Urbanize LA (Tier 2): Working, RSS, score 82, 6 saved article(s).
 - Connect CRE Atlanta (Tier 2): Working, RSS, score 79, 4 saved article(s).
 - Connect CRE South Florida (Tier 2): Working, RSS, score 76, 4 saved article(s).
 - SF YIMBY (Tier 2): Working, RSS, score 74, 2 saved article(s).
@@ -104,13 +104,13 @@ Generated: 2026-11-14 02:56:00
 
 | Rank | Source | Tier | Status | Score | Saved | Signal Density |
 | ---: | --- | --- | --- | ---: | ---: | ---: |
-| 1 | Yield PRO | Tier 1 | Working | 97 | 9 | 100 |
+| 1 | Yield PRO | Tier 1 | Working | 97 | 7 | 100 |
 | 2 | Connect CRE | Tier 1 | Working | 94 | 4 | 100 |
 | 3 | Multifamily Dive | Tier 1 | Working | 94 | 5 | 100 |
 | 4 | Connect CRE Orange County | Tier 2 | Working | 93 | 3 | 100 |
 | 5 | Commercial Observer | Tier 1 | Working | 90 | 5 | 100 |
-| 6 | Urbanize LA | Tier 2 | Working | 90 | 7 | 100 |
-| 7 | REBusiness Online | Tier 2 | Working | 83 | 6 | 100 |
+| 6 | REBusiness Online | Tier 2 | Working | 83 | 6 | 100 |
+| 7 | Urbanize LA | Tier 2 | Working | 82 | 6 | 100 |
 | 8 | Connect CRE Atlanta | Tier 2 | Working | 79 | 4 | 100 |
 | 9 | Connect CRE South Florida | Tier 2 | Working | 76 | 4 | 90 |
 | 10 | SF YIMBY | Tier 2 | Working | 74 | 2 | 100 |

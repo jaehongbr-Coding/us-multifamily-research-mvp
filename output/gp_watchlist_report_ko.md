@@ -1,6 +1,6 @@
 # 한국어 GP Watchlist
 
-- 생성 시각: 2026-11-14 02:55:58
+- 생성 시각: 2026-11-15 02:25:50
 - 참고 원문 파일: `gp_watchlist_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -8,22 +8,22 @@
 
 - Berkadia: 기타 / 미확인, 일반 주거, 점수 80 (Tier 2 High Potential GP; Potential GP partnership candidate)
 - JSB Capital Group: 기타 / 미확인, 일반 주거, 점수 80 (Tier 2 High Potential GP; Potential GP partnership candidate)
-- Lincoln Property Company: 기타 / 미확인, 일반 주거, 점수 77 (Tier 2 High Potential GP; Potential GP partnership candidate)
-- McCourt Partners: 기타 / 미확인, 일반 주거, 점수 77 (Tier 2 High Potential GP; Potential GP partnership candidate)
 - Blackstone: 기타 / 미확인, 일반 주거, 점수 76 (Tier 2 High Potential GP; Potential GP partnership candidate)
 - Hines: 기타 / 미확인, 일반 주거, 점수 73 (Tier 2 High Potential GP; Potential GP partnership candidate)
 - CBRE: 기타 / 미확인, 일반 주거, 점수 70 (Tier 2 High Potential GP; Capital market and pricing discovery reference)
 - Benefit Street Partners: 기타 / 미확인, 일반 주거, 점수 70 (Tier 2 High Potential GP; Potential GP partnership candidate)
+- Marcus & Millichap: 기타 / 미확인, 일반 주거, 점수 65 (Tier 3 Monitoring GP; Capital market and pricing discovery reference)
 - Mogharebi Group: 기타 / 미확인, 일반 주거, 점수 64 (Tier 3 Monitoring GP; Capital market and pricing discovery reference)
-- Marcus & Millichap: 기타 / 미확인, 일반 주거, 점수 64 (Tier 3 Monitoring GP; Capital market and pricing discovery reference)
+- S3 Capital Partners: 기타 / 미확인, 일반 주거, 점수 64 (Tier 3 Monitoring GP; Potential GP partnership candidate)
+- Priority Capital Advisory: 기타 / 미확인, 일반 주거, 점수 63 (Tier 3 Monitoring GP; Potential GP partnership candidate)
 
 ## 기관자본 연결성
 
 - Advanced Real Estate: 기타 / 미확인, 아파트, 점수 100 (Capital Inflow; GP Capability Benchmark Signal)
 - Blackstone: 기타 / 미확인, 학생주택, 점수 100 (Operational / Platform Investment; Potential JV / Partnership Signal)
-- Lincoln Property Company: 기타 / 미확인, 주거복합, 점수 100 (Refinancing / Recapitalization; Potential JV / Partnership Signal)
 - Mogharebi Group: 기타 / 미확인, 아파트, 점수 100 (Capital Inflow; GP Capability Benchmark Signal)
 - Berkadia: 기타 / 미확인, 아파트, 점수 99 (Capital Inflow; Potential JV / Partnership Signal)
+- JSB Capital Group: 기타 / 미확인, 아파트, 점수 99 (Capital Inflow; Potential JV / Partnership Signal)
 
 ## JV / Partnership 가능성
 

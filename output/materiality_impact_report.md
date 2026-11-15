@@ -1,6 +1,6 @@
 # Materiality / Impact Report
 
-Generated: 2026-11-14 02:56:04
+Generated: 2026-11-15 02:25:55
 
 - Top materiality regime: Developer Strategy Shift (100)
 - Top impact regime: Developer Strategy Shift (100)
@@ -13,8 +13,8 @@ Generated: 2026-11-14 02:56:04
 | Financing Stress | 100 | 100 | Critical Business Impact | Underwriting; Financing; Capital Markets; LA / California Strategy | Tighten underwriting assumptions |
 | Selective Capital Re-entry | 100 | 100 | Critical Business Impact | GP Partnership; Capital Markets; Strategic Monitoring; LA / California Strategy | Track capital partner activity |
 | Supply Pressure | 100 | 100 | Critical Business Impact | Underwriting; Land / Pipeline; Leasing / Operations; LA / California Strategy | Review supply pipeline assumptions |
-| Policy / Entitlement Watch | 56 | 58 | Moderate Business Impact | Land / Pipeline; LA / California Strategy; Strategic Monitoring | Monitor LA / California entitlement changes |
-| Construction Cost Pressure | 37 | 46 | Moderate Business Impact | Underwriting; Cost Management; LA / California Strategy | Review construction cost assumptions |
+| Policy / Entitlement Watch | 64 | 66 | High Business Impact | Land / Pipeline; LA / California Strategy; Strategic Monitoring | Monitor LA / California entitlement changes |
+| Construction Cost Pressure | 29 | 38 | Low Business Impact | Underwriting; Cost Management; LA / California Strategy | Review construction cost assumptions |
 
 ## Key Business Risks / Opportunities
 
@@ -38,5 +38,4 @@ Generated: 2026-11-14 02:56:04
 - Financing Stress: Tighten underwriting assumptions (Critical Business Impact).
 - Selective Capital Re-entry: Track capital partner activity (Critical Business Impact).
 - Supply Pressure: Review supply pipeline assumptions (Critical Business Impact).
-- Policy / Entitlement Watch: Monitor LA / California entitlement changes (Moderate Business Impact).
-- Construction Cost Pressure: Review construction cost assumptions (Moderate Business Impact).
+- Policy / Entitlement Watch: Monitor LA / California entitlement changes (High Business Impact).

@@ -1,12 +1,12 @@
 # Executive Priority Brief
 
-Generated: 2026-11-14 02:56:05
+Generated: 2026-11-15 02:25:56
 
 ## Top 3 Executive Priorities
 
 - Rank 1: Financing Stress (100, Tier 1 Executive Attention)
 - Rank 2: Selective Capital Re-entry (100, Tier 1 Executive Attention)
-- Rank 3: Supply Pressure (100, Tier 2 Strategic Review)
+- Rank 3: Developer Strategy Shift (97, Tier 2 Strategic Review)
 
 ## Full Priority Table
 
@@ -14,10 +14,10 @@ Generated: 2026-11-14 02:56:05
 | ---: | --- | ---: | --- | --- | --- |
 | 1 | Financing Stress | 100 | Tier 1 Executive Attention | Finance / Treasury; Investment Team; Executive Committee; US Local Team | This Week |
 | 2 | Selective Capital Re-entry | 100 | Tier 1 Executive Attention | Investment Team; Strategy Team; Executive Committee; US Local Team | This Week |
-| 3 | Supply Pressure | 100 | Tier 2 Strategic Review | Investment Team; Development Team; US Local Team | This Week |
-| 4 | Developer Strategy Shift | 98 | Tier 2 Strategic Review | Strategy Team; Development Team; US Local Team | This Week |
-| 5 | Policy / Entitlement Watch | 44 | Tier 3 Monitoring | Development Team; US Local Team; Strategy Team | Monthly Monitoring |
-| 6 | Construction Cost Pressure | 36 | Tier 3 Monitoring | Development Team; Investment Team; US Local Team | Monthly Monitoring |
+| 3 | Developer Strategy Shift | 97 | Tier 2 Strategic Review | Strategy Team; Development Team; US Local Team | This Week |
+| 4 | Supply Pressure | 96 | Tier 2 Strategic Review | Investment Team; Development Team; US Local Team | This Week |
+| 5 | Policy / Entitlement Watch | 58 | Tier 3 Monitoring | Development Team; US Local Team; Strategy Team | Monthly Monitoring |
+| 6 | Construction Cost Pressure | 26 | Tier 3 Monitoring | Development Team; Investment Team; US Local Team | Background Tracking |
 
 ## Tier 1 Executive Attention
 
@@ -26,13 +26,13 @@ Generated: 2026-11-14 02:56:05
 
 ## Tier 2 Strategic Review
 
-- Rank 3: Supply Pressure (100). Supply and lease-up signals should be monitored because they may affect rent growth, vacancy, and development timing. Owner: Investment Team; Development Team; US Local Team. Timing: This Week.
-- Rank 4: Developer Strategy Shift (98). Developer strategy signals should be reviewed because they may reveal capability needs in product, operations, partnerships, or delivery model. Owner: Strategy Team; Development Team; US Local Team. Timing: This Week.
+- Rank 3: Developer Strategy Shift (97). Developer strategy signals should be reviewed because they may reveal capability needs in product, operations, partnerships, or delivery model. Owner: Strategy Team; Development Team; US Local Team. Timing: This Week.
+- Rank 4: Supply Pressure (96). Supply and lease-up signals should be monitored because they may affect rent growth, vacancy, and development timing. Owner: Investment Team; Development Team; US Local Team. Timing: This Week.
 
 ## Monitoring Items
 
-- Rank 5: Policy / Entitlement Watch (44). Policy and entitlement signals should be monitored because they may affect approvals, zoning strategy, and local development feasibility. Owner: Development Team; US Local Team; Strategy Team. Timing: Monthly Monitoring.
-- Rank 6: Construction Cost Pressure (36). Construction cost signals should be reviewed because they may affect feasibility, contingencies, and value engineering. Owner: Development Team; Investment Team; US Local Team. Timing: Monthly Monitoring.
+- Rank 5: Policy / Entitlement Watch (58). Policy and entitlement signals should be monitored because they may affect approvals, zoning strategy, and local development feasibility. Owner: Development Team; US Local Team; Strategy Team. Timing: Monthly Monitoring.
+- Rank 6: Construction Cost Pressure (26). Construction cost signals should be reviewed because they may affect feasibility, contingencies, and value engineering. Owner: Development Team; Investment Team; US Local Team. Timing: Background Tracking.
 
 ## Scenario Context
 
@@ -61,14 +61,14 @@ Use that report to compare GP partnership, pricing discovery, and capital partne
 
 - Advanced Real Estate: GP Capability Benchmark Signal, Capital Inflow, score 100.
 - Blackstone: Potential JV / Partnership Signal, Operational / Platform Investment, score 100.
-- Lincoln Property Company: Potential JV / Partnership Signal, Refinancing / Recapitalization, score 100.
+- Mogharebi Group: GP Capability Benchmark Signal, Capital Inflow, score 100.
 
 ## Deal / Project Pipeline Context
 
 Deal and project extraction is available in `deal_pipeline_report.md`.
-- Development Start in California: Capital market signal (High Deal Intelligence).
 - Acquisition in California: Pricing benchmark (High Deal Intelligence).
 - JV / Partnership in California: GP partnership reference (High Deal Intelligence).
+- Acquisition in Atlanta / Georgia: Pricing benchmark (High Deal Intelligence).
 
 ## Relationship Graph Context
 
@@ -89,7 +89,7 @@ Sector-level residential coverage is available in `residential_sector_report.md`
 Emerging GP ranking and partnership watchlist signals are available in `gp_watchlist_report.md`.
 - Berkadia: Tier 2 High Potential GP, score 80, Potential GP partnership candidate.
 - JSB Capital Group: Tier 2 High Potential GP, score 80, Potential GP partnership candidate.
-- Lincoln Property Company: Tier 2 High Potential GP, score 77, Potential GP partnership candidate.
+- Blackstone: Tier 2 High Potential GP, score 76, Potential GP partnership candidate.
 
 ## Historical Persistence Summary
 
@@ -121,9 +121,9 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 82
-- LA lifecycle watch items: 54
-- Stage mix: Unknown Stage: 50, Refinancing / Recapitalization: 6, Construction Ready: 1, Site Acquisition / Site Control: 13, Building Permit / Construction Permit: 2
+- Lifecycle records: 78
+- LA lifecycle watch items: 48
+- Stage mix: Unknown Stage: 48, Site Acquisition / Site Control: 12, Refinancing / Recapitalization: 6, Construction Ready: 1, Building Permit / Construction Permit: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -131,11 +131,11 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 82
-- Newly detected projects: 47
+- Lifecycle transitions analyzed: 78
+- Newly detected projects: 4
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 52
+- LA lifecycle transition watch items: 46
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -143,11 +143,11 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 665
-- Canonical projects: 179
-- Duplicate project clusters: 130
-- Persistent assets tracked: 179
-- LA persistent asset watch items: 122
+- Raw project references: 629
+- Canonical projects: 164
+- Duplicate project clusters: 121
+- Persistent assets tracked: 164
+- LA persistent asset watch items: 104
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -155,11 +155,11 @@ LA submarket watch is available in `la_submarket_watch_report.md`.
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 179
-- Institutional-grade signals: 12
-- High-confidence signals: 41
-- Weak/noisy signals: 105
-- High-confidence watchlist items: 41
+- Signals evaluated: 164
+- Institutional-grade signals: 11
+- High-confidence signals: 40
+- Weak/noisy signals: 95
+- High-confidence watchlist items: 40
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 
 

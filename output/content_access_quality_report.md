@@ -3,21 +3,21 @@
 Limited articles are retained only as conservative title/lead-based evidence. Limited access is tracked separately from article identity mismatches.
 
 ## Summary
-- Total articles: 77
-- Total limited_or_paywall articles: 11
+- Total articles: 74
+- Total limited_or_paywall articles: 10
 - suspicious_mismatch articles: 1
 - limited_or_paywall and suspicious_mismatch overlap: 0
-- Limited articles selected into Development Activity: 8
+- Limited articles selected into Development Activity: 7
 - Limited articles selected into GP / Capital Activity: 0
 - Limited articles selected into Representative Evidence: 0
 
 ## Limited Articles by Source
-- Urbanize LA: 7
+- Urbanize LA: 6
 - SF YIMBY: 2
 - Bisnow: 2
 
 ## Limited Articles by Display Section
-- Development Activity: 8
+- Development Activity: 7
 - Market Intelligence: 1
 - Article Feed: 1
 - GP / Capital Activity: 1
@@ -26,7 +26,6 @@ Limited articles are retained only as conservative title/lead-based evidence. Li
 - Costco-anchored project adds more housing at 5035 Coliseum St. in Baldwin Hills | Urbanize LA | Development Activity | unknown confidence
 - Affordable housing takes shape at 3455 Slauson Ave. in Hyde Park | Urbanize LA | Development Activity | unknown confidence
 - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood | Urbanize LA | Market Intelligence | unknown confidence
-- Construction begins for mixed-use project at 11111 Jefferson Blvd. in Culver City | Urbanize LA | Development Activity | unknown confidence
 - Construction Topped Out For 641 5th Street, West Sacramento | SF YIMBY | Development Activity | low confidence
 - 152 apartments planned at 2315 Marine Ave. in Gardena | Urbanize LA | Development Activity | unknown confidence
 - New Building Permits Filed For 704 North Point Street, San Francisco | SF YIMBY | Development Activity | low confidence

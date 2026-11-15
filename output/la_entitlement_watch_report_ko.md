@@ -1,6 +1,6 @@
 # 한국어 LA / California 인허가 Watch
 
-- 생성 시각: 2026-11-14 02:55:58
+- 생성 시각: 2026-11-15 02:25:50
 - 참고 원문 파일: `la_entitlement_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 

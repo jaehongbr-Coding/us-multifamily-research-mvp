@@ -1,12 +1,12 @@
 # Market Entry Window Report
 
-Generated: 2026-11-14 02:56:24
+Generated: 2026-11-15 02:26:09
 
 ## Top Market Entry Windows
 
 - California: score 70, Selective Entry Window, posture: Track entitlement / permitting pipeline.
 - National / Other: score 68, Selective Entry Window, posture: Monitor refinancing and distress pipeline.
-- Florida: score 59, Early Signal / Prepare, posture: Prepare GP conversations.
+- Florida: score 56, Early Signal / Prepare, posture: Prepare GP conversations.
 - Texas: score 44, Monitor Only, posture: Prepare GP conversations.
 - Los Angeles: score 30, Monitor Only, posture: Monitor only.
 - Sun Belt: score 29, Not Attractive Now, posture: Monitor only.
@@ -20,7 +20,7 @@ Generated: 2026-11-14 02:56:24
 
 ## Sun Belt Entry Window
 
-- Florida: score 59, Early Signal / Prepare, posture: Prepare GP conversations.
+- Florida: score 56, Early Signal / Prepare, posture: Prepare GP conversations.
 - Texas: score 44, Monitor Only, posture: Prepare GP conversations.
 - Sun Belt: score 29, Not Attractive Now, posture: Monitor only.
 
@@ -65,9 +65,9 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 82
-- LA lifecycle watch items: 54
-- Stage mix: Unknown Stage: 50, Refinancing / Recapitalization: 6, Construction Ready: 1, Site Acquisition / Site Control: 13, Building Permit / Construction Permit: 2
+- Lifecycle records: 78
+- LA lifecycle watch items: 48
+- Stage mix: Unknown Stage: 48, Site Acquisition / Site Control: 12, Refinancing / Recapitalization: 6, Construction Ready: 1, Building Permit / Construction Permit: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -75,10 +75,10 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 82
-- Newly detected projects: 47
+- Lifecycle transitions analyzed: 78
+- Newly detected projects: 4
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 52
+- LA lifecycle transition watch items: 46
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 

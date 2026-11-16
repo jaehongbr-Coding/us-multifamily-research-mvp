@@ -1,6 +1,6 @@
 # 한국어 스트레스 / 부실 Watchlist
 
-- 생성 시각: 2026-11-15 02:25:50
+- 생성 시각: 2026-11-16 02:35:15
 - 참고 원문 파일: `distress_watchlist_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -13,10 +13,9 @@
 ## 공사금융 갭
 
 - construction loan gap: Southeast, 아파트, 점수 63 (Track debt maturity, lender exposure, sponsor stress, and recapitalization options)
-- construction loan gap: Denver / Colorado, 아파트, 점수 57 (Monitor for repeated distress signals)
 - construction loan gap: Miami / Florida, 아파트, 점수 56 (Monitor for repeated distress signals)
-- construction loan gap: 전국, 아파트, 점수 53 (Monitor for repeated distress signals)
 - construction loan gap: 기타 / 미확인, 어포더블 하우징, 점수 53 (Monitor for repeated distress signals)
+- construction loan gap: 전국, 아파트, 점수 52 (Monitor for repeated distress signals)
 
 ## 부실 / 지연 프로젝트
 
@@ -24,10 +23,9 @@
 - construction loan gap: Southeast, 아파트, 점수 63 (High Distress Watch)
 - refinancing stress: Phoenix / Arizona, 일반 주거, 점수 63 (High Distress Watch)
 - refinancing stress: 기타 / 미확인, 아파트, 점수 60 (High Distress Watch)
-- construction loan gap: Denver / Colorado, 아파트, 점수 57 (Monitor)
 - construction loan gap: Miami / Florida, 아파트, 점수 56 (Monitor)
-- construction loan gap: 전국, 아파트, 점수 53 (Monitor)
 - construction loan gap: 기타 / 미확인, 어포더블 하우징, 점수 53 (Monitor)
+- construction loan gap: 전국, 아파트, 점수 52 (Monitor)
 
 ## 우미 관점 기회 가능성
 

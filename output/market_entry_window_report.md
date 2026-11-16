@@ -1,32 +1,32 @@
 # Market Entry Window Report
 
-Generated: 2026-11-15 02:26:09
+Generated: 2026-11-16 02:35:37
 
 ## Top Market Entry Windows
 
-- California: score 70, Selective Entry Window, posture: Track entitlement / permitting pipeline.
+- California: score 68, Selective Entry Window, posture: Track entitlement / permitting pipeline.
 - National / Other: score 68, Selective Entry Window, posture: Monitor refinancing and distress pipeline.
 - Florida: score 56, Early Signal / Prepare, posture: Prepare GP conversations.
-- Texas: score 44, Monitor Only, posture: Prepare GP conversations.
+- Texas: score 45, Monitor Only, posture: Prepare GP conversations.
+- New York: score 31, Monitor Only, posture: Monitor only.
 - Los Angeles: score 30, Monitor Only, posture: Monitor only.
 - Sun Belt: score 29, Not Attractive Now, posture: Monitor only.
-- New York: score 28, Not Attractive Now, posture: Monitor only.
 - Seattle: score 28, Not Attractive Now, posture: Monitor only.
 
 ## LA / California Entry Window
 
-- California: score 70, Selective Entry Window, posture: Track entitlement / permitting pipeline.
+- California: score 68, Selective Entry Window, posture: Track entitlement / permitting pipeline.
 - Los Angeles: score 30, Monitor Only, posture: Monitor only.
 
 ## Sun Belt Entry Window
 
 - Florida: score 56, Early Signal / Prepare, posture: Prepare GP conversations.
-- Texas: score 44, Monitor Only, posture: Prepare GP conversations.
+- Texas: score 45, Monitor Only, posture: Prepare GP conversations.
 - Sun Belt: score 29, Not Attractive Now, posture: Monitor only.
 
 ## New York / Refinancing Stress Window
 
-- New York: score 28, Not Attractive Now, posture: Monitor only.
+- New York: score 31, Monitor Only, posture: Monitor only.
 
 ## Entitlement / LA Watch Summary
 
@@ -44,9 +44,9 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 - National / Other: Monitor refinancing and distress pipeline (Selective Entry Window).
 - Florida: Prepare GP conversations (Early Signal / Prepare).
 - Texas: Prepare GP conversations (Monitor Only).
+- New York: Monitor only (Monitor Only).
 - Los Angeles: Monitor only (Monitor Only).
 - Sun Belt: Monitor only (Not Attractive Now).
-- New York: Monitor only (Not Attractive Now).
 - Seattle: Monitor only (Not Attractive Now).
 
 ## Key Risks and Opportunities
@@ -55,7 +55,7 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 - National / Other: risks: financing stress and refinancing pressure; supply, delivery, lease-up, or concession pressure; opportunities: active opportunity radar signals; possible distress or recapitalization watch.
 - Florida: risks: limited timing evidence; opportunities: active opportunity radar signals; capital-flow or institutional activity signal.
 - Texas: risks: limited timing evidence; opportunities: active opportunity radar signals; capital-flow or institutional activity signal.
-- Los Angeles: risks: entitlement, zoning, permitting, and policy uncertainty; opportunities: capital-flow or institutional activity signal; core Woomi California / LA strategic relevance.
+- New York: risks: limited timing evidence; opportunities: capital-flow or institutional activity signal.
 
 ## Executive Summary for Woomi
 
@@ -65,9 +65,9 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 78
-- LA lifecycle watch items: 48
-- Stage mix: Unknown Stage: 48, Site Acquisition / Site Control: 12, Refinancing / Recapitalization: 6, Construction Ready: 1, Building Permit / Construction Permit: 2
+- Lifecycle records: 77
+- LA lifecycle watch items: 42
+- Stage mix: Site Acquisition / Site Control: 9, Unknown Stage: 51, Refinancing / Recapitalization: 6, Construction Ready: 1, Building Permit / Construction Permit: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -75,10 +75,10 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 78
-- Newly detected projects: 4
+- Lifecycle transitions analyzed: 77
+- Newly detected projects: 9
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 46
+- LA lifecycle transition watch items: 40
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 

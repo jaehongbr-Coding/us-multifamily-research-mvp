@@ -1,18 +1,18 @@
 # Routing Balance Report
 
-- Market Intelligence count: 17
-- Development Activity count: 49
+- Market Intelligence count: 16
+- Development Activity count: 50
 - GP / Capital Activity count: 5
 - Excluded count: 2
 - Rent/Demand candidate count: 5
-- Project anchor article count: 45
+- Project anchor article count: 46
 - Development-excluded transaction article count: 6
 - Low-value promotional excluded count: 2
 - Site / Parcel positive candidates count: 3
 - Site / Parcel excluded transaction count: 0
 - Source missing count: 0
 - Market missing count: 0
-- Stage missing count: 54
+- Stage missing count: 52
 
 ## Rent/Demand Titles
 - Multifamily Absorption Rate Remains Below 50%
@@ -34,13 +34,13 @@
 - None
 
 ## Sample Validation
-- Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 135-unit; project/asset term: community)
-- Northmarq Brokers $4M Sale of 46-Unit Las Flores Apartments in Fresno | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 46-unit; address/street: 3420 n. first st; project/asset term: community)
 - Bank OZK Supplies $86M Construction Loan for Rental in Broward County | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 311-unit; project/asset term: project; project financing tied to anchor: construction loan)
 - Dwight Capital Lends $42M on North Carolina Apartments Build | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 184-unit; project/asset term: project; project financing tied to anchor: construction financing)
 - Fresno Low-Rise Trades to Private Buyer in All-Cash Deal | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 46-unit; address/street: 3420 n. first st; project/asset term: community)
 - $39M Construction Takeout Financing Secured for Suburban Milwaukee MF | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 173-unit; project/asset term: development)
 - Costco-anchored project adds more housing at 5035 Coliseum St. in Baldwin Hills | Development Activity | rent_demand=No | development_project_anchor: Project / Asset (address/street: 5035 coliseum st; project/asset term: project)
 - Affordable housing takes shape at 3455 Slauson Ave. in Hyde Park | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (unit/site count: 75 apartments; address/street: 3455 slauson ave; project/asset term: project)
-- Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood | Market Intelligence | rent_demand=No | market, macro, research, or supply-demand article without confirmed deal or project event
 - Construction Topped Out For 641 5th Street, West Sacramento | Development Activity | rent_demand=No | development_project_anchor: Project / Asset (unit/site count: 37 apartments; address/street: 641 5th street; project/asset term: project)
+- JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 255-unit; address/street: 360 west 43rd street; site/parcel signal: site)
+- JLL Arranges $39.1M in Financing for Apartment Complex in Suburban Milwaukee | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 173-unit; project/asset term: development)
+- Northmarq Arranges $19M Refinance of Historic Apartments in St. Paul | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 143-unit; address/street: 1554 midway parkway in st; project/asset term: community)

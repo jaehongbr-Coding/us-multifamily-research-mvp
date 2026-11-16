@@ -1,9 +1,9 @@
 # Source Health Report
 
-Generated: 2026-11-15 02:25:52
+Generated: 2026-11-16 02:35:16
 
 - Total sources attempted: 163
-- Working sources: 22
+- Working sources: 21
 - Failing sources: 16
 - Placeholder sources: 0
 - Disabled registered sources: 126
@@ -37,7 +37,7 @@ Generated: 2026-11-15 02:25:52
 
 - Multi-Housing News: RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token)
 - GlobeSt: RSS parsing issue: status=301; <unknown>:2:1326: not well-formed (invalid token)
-- The Real Deal: No entries returned
+- The Real Deal: RSS parsing issue: status=301; text/html; charset=utf-8 is not an XML media type
 - Urban Land Institute: RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token)
 - NMHC News: RSS parsing issue: status=200; <unknown>:21:2: mismatched tag
 - Walker & Dunlop Insights: RSS parsing issue: status=301; <unknown>:2:2016: not well-formed (invalid token)
@@ -72,8 +72,8 @@ Developer / GP source coverage is available in `gp_source_coverage_report.md`.
 
 Validated source activation scoring is available in `source_activation_report.md`.
 - Working activated sources: 21
-- Failed critical sources: 11
-- Highest quality source this run: Yield PRO (97).
+- Failed critical sources: 12
+- Highest quality source this run: Connect CRE (94).
 
 ## Recommended Source Improvement Actions
 

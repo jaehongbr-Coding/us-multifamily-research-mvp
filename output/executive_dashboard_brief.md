@@ -1,36 +1,36 @@
 # Executive Dashboard Brief
 
-Generated: 2026-11-15 02:25:50
+Generated: 2026-11-16 02:35:15
 
 ## Executive Snapshot
 
 - Total articles reviewed: 74
-- High-confidence signals: 40
+- High-confidence signals: 38
 - Institutional-grade signals: 11
-- Opportunities: 49
-- Distress signals: 8
-- Recommended executive focus: Review Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio and related high-confidence project signals.
+- Opportunities: 50
+- Distress signals: 7
+- Recommended executive focus: Review Disposition / Exit - California - Marcus & Millichap Arranges Multifamily Affordable Housing Sale in South Lake and related high-confidence project signals.
 
 ## Top 5 Things to Review Today
 
 - Acquires 280-Unit Buckhead Apartment Community ParkProperty Capital (Capital Flow, Critical): Track capital flow pattern and related relationships.
 - Alliance Residential (Capital Flow, Critical): Track capital flow pattern and related relationships.
 - Arcus Real Estate Capital (Capital Flow, Critical): Track capital flow pattern and related relationships.
+- Disposition / Exit - California - Marcus & Millichap Arranges Multifamily Affordable Housing Sale in South Lake (LA Asset Watch, Critical): Review parcel clue, entitlement path, sponsor, and comparable sites.
 - Entitlement / Permitting - Los Angeles / California - Costco-anchored project adds more housing at 5035 Coliseum St. in Baldwin Hills (LA Asset Watch, Critical): Track entitlement docket, density bonus use, and affordability requirement.
-- Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood (LA Asset Watch, Critical): Track entitlement docket, density bonus use, and affordability requirement.
 
 ## Immediate Watch Items
 
 - Acquires 280-Unit Buckhead Apartment Community ParkProperty Capital: Fading Action: Track capital flow pattern and related relationships.
 - Alliance Residential: Fading Action: Track capital flow pattern and related relationships.
 - Arcus Real Estate Capital: Fading Action: Track capital flow pattern and related relationships.
+- Disposition / Exit - California - Marcus & Millichap Arranges Multifamily Affordable Housing Sale in South Lake: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 - Entitlement / Permitting - Los Angeles / California - Costco-anchored project adds more housing at 5035 Coliseum St. in Baldwin Hills: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
-- Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
 
 ## LA / California Watch
 
+- Disposition / Exit - California - Marcus & Millichap Arranges Multifamily Affordable Housing Sale in South Lake: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 - Entitlement / Permitting - Los Angeles / California - Costco-anchored project adds more housing at 5035 Coliseum St. in Baldwin Hills: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
-- Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
 - Entitlement / Permitting - Other / Unknown - 152 apartments planned at 2315 Marine Ave. in Gardena: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
 - General Project Signal - Los Angeles / California - Affordable housing takes shape at 3455 Slauson Ave. in Hyde Park: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
 - Refinancing - Other / Unknown - PMG Secures $285M Refi for New Fort Lauderdale Rental: Review acquisition comparables Action: Track lender, maturity, owner, and recapitalization path.
@@ -40,21 +40,21 @@ Generated: 2026-11-15 02:25:50
 - Acquires 280-Unit Buckhead Apartment Community ParkProperty Capital: Fading Action: Track capital flow pattern and related relationships.
 - Alliance Residential: Fading Action: Track capital flow pattern and related relationships.
 - Arcus Real Estate Capital: Fading Action: Track capital flow pattern and related relationships.
-- Berkadia: Institutional-backed regional expansion Action: Track JV and capital partner activity.
-- JSB Capital Group: Institutional-backed regional expansion Action: Track JV and capital partner activity.
+- Blackstone: Institutional-backed regional expansion Action: Track JV and capital partner activity.
+- Hines: California / LA strategic positioning Action: Track JV and capital partner activity.
 
 ## Opportunity / Distress Watch
 
-- Acquisition Opportunity: Acquisition Opportunity may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
 - JV / Partnership Gap: JV / Partnership Gap may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
-- Acquisition Opportunity: Acquisition Opportunity may create a pricing, capital, partnership, or pipeline opening in New York City / New York. Action: Add to executive opportunity review.
 - LA / California Entitlement Opportunity: LA / California Entitlement Opportunity may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
+- LA / California Entitlement Opportunity: LA / California Entitlement Opportunity may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
+- Acquisition Opportunity: Acquisition Opportunity may create a pricing, capital, partnership, or pipeline opening in New York City / New York. Action: Add to executive opportunity review.
 - LA / California Entitlement Opportunity: LA / California Entitlement Opportunity may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
 
 ## Development Lifecycle Watch
 
+- Disposition / Exit - California - Marcus & Millichap Arranges Multifamily Affordable Housing Sale in South Lake: Benchmark density bonus use Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 - Entitlement / Permitting - Los Angeles / California - Costco-anchored project adds more housing at 5035 Coliseum St. in Baldwin Hills: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
-- Entitlement / Permitting - Los Angeles / California - Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
 - Entitlement / Permitting - Other / Unknown - 152 apartments planned at 2315 Marine Ave. in Gardena: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
 - General Project Signal - Los Angeles / California - Affordable housing takes shape at 3455 Slauson Ave. in Hyde Park: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
 - Refinancing - Other / Unknown - PMG Secures $285M Refi for New Fort Lauderdale Rental: Review acquisition comparables Action: Track lender, maturity, owner, and recapitalization path.
@@ -67,14 +67,14 @@ Generated: 2026-11-15 02:25:50
 
 ## Source Health Notes
 
-- Critical source validation warnings: 15 source(s) failed validation. Action: Review failed critical feeds and manual-review queue.
+- Critical source validation warnings: 16 source(s) failed validation. Action: Review failed critical feeds and manual-review queue.
 
 ## Recommended Management Actions
 
 - Track capital flow pattern and related relationships (capital_flow_report.md).
 - Track capital flow pattern and related relationships (capital_flow_report.md).
 - Track capital flow pattern and related relationships (capital_flow_report.md).
-- Track entitlement docket, density bonus use, and affordability requirement (la_asset_watch_report.md).
+- Review parcel clue, entitlement path, sponsor, and comparable sites (la_asset_watch_report.md).
 - Track entitlement docket, density bonus use, and affordability requirement (la_asset_watch_report.md).
 
 

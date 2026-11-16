@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-11-15 02:25:50
+Generated: 2026-11-16 02:35:15
 
 ## Top Strategic Relevance Articles
 
 - 100 / richness 85: American Campus Communities Expands Partnership with UC Irvine (Connect CRE Orange County, California) - sponsor expansion; JV or partnership activity; institutional acquisition behavior
-- 90 / richness 100: Priority Capital Advisory Arranges $10.9M Construction Loan for a 200-Unit Apartment Community in Missoula Montana (Yield PRO, Denver / Colorado) - development continuation; institutional acquisition behavior
 - 86 / richness 85: Joint Venture Sells 250-Unit High-Rise Apartment Community in Denver’s Golden Triangle (Yield PRO, Denver / Colorado) - JV or partnership activity; institutional acquisition behavior
 - 82 / richness 85: PMG Secures $285M Refi for New Fort Lauderdale Rental (Commercial Observer, Other / Unknown) - development continuation; large-scale refinance tied to strategy
 - 82 / richness 60: TruAmerica expands into ground-up development with California project (Multifamily Dive, California) - sponsor expansion; institutional acquisition behavior
+- 73 / richness 90: New York City Office-to-Residential Conversion Secures $231M (Yield PRO, New York City / New York) - JV or partnership activity
 - 72 / richness 45: A look at how apartment REITs did in Q3 (Multifamily Dive, San Francisco / California) - institutional acquisition behavior; lease-up or absorption behavior
 - 71 / richness 90: Miami-Area Multifamily Project Trades for $54M (Commercial Observer, Miami / Florida) - institutional acquisition behavior
-- 70 / richness 85: Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California (Yield PRO, California) - institutional acquisition behavior
 - 70 / richness 85: JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building (REBusiness Online, New York City / New York) - institutional acquisition behavior
 - 70 / richness 85: Essex Three-Twelve’s Mitir Patel Represents Buyers in Six Chicago Multifamily Transactions (Yield PRO, Other / Unknown) - institutional acquisition behavior
+- 70 / richness 85: Enverra Acquires 260,000 SF Office Campus in Northern Virginia for $42M (REBusiness Online, Northern Virginia / Virginia) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -41,7 +41,7 @@ Generated: 2026-11-15 02:25:50
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 20
+- Financing-oriented articles: 22
 - Development / sponsor behavior articles: 37
 - Financing coverage does not dominate the current representative evidence pool.
 

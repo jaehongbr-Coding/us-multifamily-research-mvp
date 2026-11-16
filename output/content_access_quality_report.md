@@ -7,7 +7,7 @@ Limited articles are retained only as conservative title/lead-based evidence. Li
 - Total limited_or_paywall articles: 10
 - suspicious_mismatch articles: 1
 - limited_or_paywall and suspicious_mismatch overlap: 0
-- Limited articles selected into Development Activity: 7
+- Limited articles selected into Development Activity: 8
 - Limited articles selected into GP / Capital Activity: 0
 - Limited articles selected into Representative Evidence: 0
 
@@ -17,17 +17,16 @@ Limited articles are retained only as conservative title/lead-based evidence. Li
 - Bisnow: 2
 
 ## Limited Articles by Display Section
-- Development Activity: 7
-- Market Intelligence: 1
+- Development Activity: 8
 - Article Feed: 1
 - GP / Capital Activity: 1
 
 ## Sample Limited Articles
 - Costco-anchored project adds more housing at 5035 Coliseum St. in Baldwin Hills | Urbanize LA | Development Activity | unknown confidence
 - Affordable housing takes shape at 3455 Slauson Ave. in Hyde Park | Urbanize LA | Development Activity | unknown confidence
-- Work underway for affordable housing at 6144 N. Hazelhurst Pl. in North Hollywood | Urbanize LA | Market Intelligence | unknown confidence
 - Construction Topped Out For 641 5th Street, West Sacramento | SF YIMBY | Development Activity | low confidence
 - 152 apartments planned at 2315 Marine Ave. in Gardena | Urbanize LA | Development Activity | unknown confidence
+- Four townhomes coming to 1155 N. Heliotrope Dr. in East Hollywood | Urbanize LA | Development Activity | unknown confidence
 - New Building Permits Filed For 704 North Point Street, San Francisco | SF YIMBY | Development Activity | low confidence
 - Industrious Inks Tysons Corner Lease: The D.C. Deal Sheet | Bisnow | Development Activity | unknown confidence
 - Hoque Global's $450M Downtown Dallas Project Loses City Incentive | Bisnow | Development Activity | unknown confidence

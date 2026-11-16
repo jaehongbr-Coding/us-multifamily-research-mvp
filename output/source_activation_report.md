@@ -1,11 +1,11 @@
 # Source Activation Report
 
-Generated: 2026-11-15 02:25:52
+Generated: 2026-11-16 02:35:16
 
 - Total sources evaluated: 163
 - Working sources: 21
 - Working GP/developer sources: 0
-- Manual review / placeholder sources: 1
+- Manual review / placeholder sources: 0
 - Failed critical sources: 12
 
 ## Top Activated GP Sources
@@ -14,9 +14,9 @@ Generated: 2026-11-15 02:25:52
 
 ## Strongest Signal-Generating Sources
 
-- Yield PRO (Tier 1): Working, RSS, score 97, 7 saved article(s).
 - Connect CRE (Tier 1): Working, RSS, score 94, 4 saved article(s).
 - Multifamily Dive (Tier 1): Working, RSS, score 94, 5 saved article(s).
+- Yield PRO (Tier 1): Working, RSS, score 94, 7 saved article(s).
 - Connect CRE Orange County (Tier 2): Working, RSS, score 93, 3 saved article(s).
 - Commercial Observer (Tier 1): Working, RSS, score 90, 5 saved article(s).
 - REBusiness Online (Tier 2): Working, RSS, score 83, 6 saved article(s).
@@ -32,9 +32,9 @@ Generated: 2026-11-15 02:25:52
 
 ## Highest Institutional-Value Sources
 
-- Yield PRO (Tier 1): Working, RSS, score 97, 7 saved article(s).
 - Connect CRE (Tier 1): Working, RSS, score 94, 4 saved article(s).
 - Multifamily Dive (Tier 1): Working, RSS, score 94, 5 saved article(s).
+- Yield PRO (Tier 1): Working, RSS, score 94, 7 saved article(s).
 - Commercial Observer (Tier 1): Working, RSS, score 90, 5 saved article(s).
 - Bisnow (Tier 1): Working, RSS, score 62, 2 saved article(s).
 - HousingWire (Tier 1): Working, RSS, score 62, 2 saved article(s).
@@ -43,9 +43,9 @@ Generated: 2026-11-15 02:25:52
 
 ## California / LA Focused Sources
 
-- Yield PRO (Tier 1): Working, RSS, score 97, 7 saved article(s).
 - Connect CRE (Tier 1): Working, RSS, score 94, 4 saved article(s).
 - Multifamily Dive (Tier 1): Working, RSS, score 94, 5 saved article(s).
+- Yield PRO (Tier 1): Working, RSS, score 94, 7 saved article(s).
 - Connect CRE Orange County (Tier 2): Working, RSS, score 93, 3 saved article(s).
 - Urbanize LA (Tier 2): Working, RSS, score 82, 6 saved article(s).
 - Connect CRE Atlanta (Tier 2): Working, RSS, score 79, 4 saved article(s).
@@ -61,7 +61,6 @@ Generated: 2026-11-15 02:25:52
 
 ## Failed Critical Sources
 
-- The Real Deal (Tier 1): Manual Review, RSS, score 31, 0 saved article(s).
 - Berkadia Research (Tier 1): Failed, RSS, score 24, 0 saved article(s).
 - Berkadia Source Expansion (Tier 1): Failed, RSS, score 24, 0 saved article(s).
 - Blackstone Real Estate Source Expansion (Tier 1): Failed, RSS, score 24, 0 saved article(s).
@@ -70,19 +69,20 @@ Generated: 2026-11-15 02:25:52
 - Hines Source Expansion (Tier 1): Failed, RSS, score 24, 0 saved article(s).
 - Multi-Housing News (Tier 1): Failed, RSS, score 24, 0 saved article(s).
 - NMHC News (Tier 1): Failed, RSS, score 24, 0 saved article(s).
+- The Real Deal (Tier 1): Failed, RSS, score 24, 0 saved article(s).
 - Urban Land Institute (Tier 1): Failed, RSS, score 24, 0 saved article(s).
 - Walker & Dunlop Insights (Tier 1): Failed, RSS, score 24, 0 saved article(s).
 - Walker & Dunlop Source Expansion (Tier 1): Failed, RSS, score 24, 0 saved article(s).
 
 ## Manual-Review Queue
 
-- The Real Deal (Tier 1): Manual Review, RSS, score 31, 0 saved article(s).
+- None detected.
 
 ## RSS-Ready Sources
 
-- Yield PRO (Tier 1): Working, RSS, score 97, 7 saved article(s).
 - Connect CRE (Tier 1): Working, RSS, score 94, 4 saved article(s).
 - Multifamily Dive (Tier 1): Working, RSS, score 94, 5 saved article(s).
+- Yield PRO (Tier 1): Working, RSS, score 94, 7 saved article(s).
 - Connect CRE Orange County (Tier 2): Working, RSS, score 93, 3 saved article(s).
 - Commercial Observer (Tier 1): Working, RSS, score 90, 5 saved article(s).
 - REBusiness Online (Tier 2): Working, RSS, score 83, 6 saved article(s).
@@ -104,9 +104,9 @@ Generated: 2026-11-15 02:25:52
 
 | Rank | Source | Tier | Status | Score | Saved | Signal Density |
 | ---: | --- | --- | --- | ---: | ---: | ---: |
-| 1 | Yield PRO | Tier 1 | Working | 97 | 7 | 100 |
-| 2 | Connect CRE | Tier 1 | Working | 94 | 4 | 100 |
-| 3 | Multifamily Dive | Tier 1 | Working | 94 | 5 | 100 |
+| 1 | Connect CRE | Tier 1 | Working | 94 | 4 | 100 |
+| 2 | Multifamily Dive | Tier 1 | Working | 94 | 5 | 100 |
+| 3 | Yield PRO | Tier 1 | Working | 94 | 7 | 100 |
 | 4 | Connect CRE Orange County | Tier 2 | Working | 93 | 3 | 100 |
 | 5 | Commercial Observer | Tier 1 | Working | 90 | 5 | 100 |
 | 6 | REBusiness Online | Tier 2 | Working | 83 | 6 | 100 |

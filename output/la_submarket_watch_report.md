@@ -1,21 +1,21 @@
 # LA / Southern California Submarket Watch Report
 
-Generated: 2026-11-15 02:26:09
+Generated: 2026-11-16 02:35:37
 
-- Total LA / Southern California submarkets detected: 12
+- Total LA / Southern California submarkets detected: 15
 
 ## Top LA / Southern California Submarkets
 
 - Anaheim: opportunity 93, risk 30, Orange County suburban apartment watch.
-- Inland Empire: opportunity 77, risk 30, Inland Empire BTR / rental housing watch.
+- Inland Empire: opportunity 69, risk 30, Inland Empire BTR / rental housing watch.
 - Riverside: opportunity 69, risk 30, Inland Empire BTR / rental housing watch.
-- Hollywood: opportunity 68, risk 52, Hollywood / transit-oriented housing watch.
 - Irvine: opportunity 66, risk 30, Orange County suburban apartment watch.
-- California: opportunity 64, risk 49, Monitor only.
+- South LA: opportunity 65, risk 30, Monitor only.
+- East Hollywood: opportunity 55, risk 30, Hollywood / transit-oriented housing watch.
+- Hollywood: opportunity 55, risk 30, Hollywood / transit-oriented housing watch.
 - Los Angeles: opportunity 54, risk 30, Monitor only.
-- Ontario: opportunity 28, risk 30, Inland Empire BTR / rental housing watch.
-- Burbank: opportunity 12, risk 30, Monitor only.
-- Culver City: opportunity 12, risk 30, Monitor only.
+- California: opportunity 24, risk 20, Monitor only.
+- Ontario: opportunity 20, risk 30, Inland Empire BTR / rental housing watch.
 
 ## Koreatown / Wilshire Watch
 
@@ -27,7 +27,8 @@ Generated: 2026-11-15 02:26:09
 
 ## Hollywood / Transit-Oriented Watch
 
-- Hollywood: opportunity 68, risk 52, Hollywood / transit-oriented housing watch.
+- East Hollywood: opportunity 55, risk 30, Hollywood / transit-oriented housing watch.
+- Hollywood: opportunity 55, risk 30, Hollywood / transit-oriented housing watch.
 
 ## Pasadena / Entitlement Precedent Watch
 
@@ -45,9 +46,9 @@ Generated: 2026-11-15 02:26:09
 
 ## Inland Empire / BTR Watch
 
-- Inland Empire: opportunity 77, risk 30, Inland Empire BTR / rental housing watch.
+- Inland Empire: opportunity 69, risk 30, Inland Empire BTR / rental housing watch.
 - Riverside: opportunity 69, risk 30, Inland Empire BTR / rental housing watch.
-- Ontario: opportunity 28, risk 30, Inland Empire BTR / rental housing watch.
+- Ontario: opportunity 20, risk 30, Inland Empire BTR / rental housing watch.
 
 ## LA Density Bonus / TOC Watch
 
@@ -62,11 +63,11 @@ Generated: 2026-11-15 02:26:09
 - Review potential acquisition pipeline: Anaheim / Orange County suburban apartment watch.
 - Review potential acquisition pipeline: Inland Empire / Inland Empire BTR / rental housing watch.
 - Review potential acquisition pipeline: Riverside / Inland Empire BTR / rental housing watch.
-- Track local planning docket and entitlement precedent: Hollywood / Hollywood / transit-oriented housing watch.
 - Review potential acquisition pipeline: Irvine / Orange County suburban apartment watch.
-- Track local planning docket and entitlement precedent: California / Monitor only.
+- Review potential acquisition pipeline: South LA / Monitor only.
+- Review potential acquisition pipeline: East Hollywood / Hollywood / transit-oriented housing watch.
+- Review potential acquisition pipeline: Hollywood / Hollywood / transit-oriented housing watch.
 - Track local planning docket and entitlement precedent: Los Angeles / Monitor only.
-- Monitor only: Ontario / Inland Empire BTR / rental housing watch.
 
 ## Asset / Parcel Intelligence Reference
 
@@ -76,8 +77,8 @@ Asset / parcel-level site clues are available in `asset_parcel_intelligence_repo
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 78
-- LA lifecycle watch items: 48
-- Stage mix: Unknown Stage: 48, Site Acquisition / Site Control: 12, Refinancing / Recapitalization: 6, Construction Ready: 1, Building Permit / Construction Permit: 2
+- Lifecycle records: 77
+- LA lifecycle watch items: 42
+- Stage mix: Site Acquisition / Site Control: 9, Unknown Stage: 51, Refinancing / Recapitalization: 6, Construction Ready: 1, Building Permit / Construction Permit: 2
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

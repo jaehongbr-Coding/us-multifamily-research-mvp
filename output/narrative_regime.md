@@ -1,6 +1,6 @@
 # Narrative Regime Detection
 
-Generated: 2026-11-15 02:25:55
+Generated: 2026-11-16 02:35:23
 
 ## Detected Regime
 
@@ -13,8 +13,8 @@ Generated: 2026-11-15 02:25:55
 
 | Regime | Score |
 | --- | ---: |
-| Selective Capital Re-entry | 156 |
-| Developer Strategy Shift | 129 |
+| Selective Capital Re-entry | 146 |
+| Developer Strategy Shift | 125 |
 | Financing Stress | 97 |
 | Supply Pressure | 33 |
 | Policy / Entitlement Watch | 10 |
@@ -31,21 +31,21 @@ Regime momentum is available in `regime_momentum_report.md` when previous heatma
 | Financing Stress | 81 | Very Strong |
 | Developer Strategy Shift | 56 | Moderate |
 | Supply Pressure | 54 | Moderate |
-| Policy / Entitlement Watch | 41 | Moderate |
+| Policy / Entitlement Watch | 39 | Weak |
 | Construction Cost Pressure | 5 | Not Detected |
 | Stable Monitoring Environment | 0 | Not Detected |
 
 ## Signal Inputs
 
-- Strategy-briefing articles reviewed: 42
+- Strategy-briefing articles reviewed: 40
 - Market-signal articles reviewed: 32
 - Articles with extracted numbers: 32
-- Institutional player mentions: 12
+- Institutional player mentions: 10
 
 ### Strategic Angles
 
 - Developer Strategy: 24
-- Institutional Flow: 21
+- Institutional Flow: 20
 - Financing Risk: 16
 - Regulation Risk: 2
 - Supply Pressure: 2
@@ -53,15 +53,15 @@ Regime momentum is available in `regime_momentum_report.md` when previous heatma
 
 ### Market Signals
 
-- Deal Size Signal: 12
-- Rent Growth Signal: 10
+- Rent Growth Signal: 11
+- Deal Size Signal: 11
 - Supply / Starts Signal: 6
 - Financing Cost Signal: 4
 
 ### Decision Uses
 
 - Track Developer Strategy: 24
-- Track Institutional Capital Flow: 21
+- Track Institutional Capital Flow: 20
 - Track Financing Conditions: 16
 - Track Regulation Risk: 2
 - Track Supply Pipeline: 2
@@ -69,23 +69,23 @@ Regime momentum is available in `regime_momentum_report.md` when previous heatma
 
 ### Market Focus
 
-- California: 8
-- Other / Unknown: 8
-- Los Angeles / California: 6
+- Other / Unknown: 9
+- California: 7
+- Los Angeles / California: 5
 - Miami / Florida: 4
 - National: 3
 - New York City / New York: 2
 
 ### Action Levels
 
-- Must Read: 33
-- Review: 6
-- Monitor: 3
+- Must Read: 29
+- Review: 7
+- Monitor: 4
 
 ### Woomi Relevance
 
-- High relevance to US residential developer strategy: 38
-- Medium relevance to market monitoring: 4
+- High relevance to US residential developer strategy: 35
+- Medium relevance to market monitoring: 5
 
 ## Key Thematic Context
 

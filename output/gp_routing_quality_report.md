@@ -1,21 +1,21 @@
 # GP Routing Quality Report
 
-Generated: 2026-11-15 02:25:50
+Generated: 2026-11-16 02:35:15
 
 ## Summary
-- Total GP / Capital candidates: 46
-- Selected GP / Capital articles: 20
+- Total GP / Capital candidates: 44
+- Selected GP / Capital articles: 15
 - Debt Financing count: 6
 - Refinancing count: 3
 - Construction Financing count: 5
-- Acquisition Financing count: 2
+- Acquisition Financing count: 1
 - Equity Transaction count: 0
 - Operator Activity count: 2
-- Other / Unknown market count: 28
+- Other / Unknown market count: 29
 
 ## Routing Regression Summary
-- Market Intelligence routed articles: 17
-- Development Activity routed articles: 49
+- Market Intelligence routed articles: 16
+- Development Activity routed articles: 50
 - GP / Capital Activity routed articles: 5
 - Market-protected research / macro / supply articles: 5
 - Approval / Entitlement development rows: 0
@@ -24,19 +24,20 @@ Generated: 2026-11-15 02:25:50
 - Routing rule: approval / entitlement wording takes priority over Site / Parcel when both appear.
 
 ## Activity Type Distribution
-- disposition_exit: 19
+- disposition_exit: 18
 - debt_financing: 6
 - construction_financing: 5
 - acquisition: 4
 - refinancing: 3
 - joint_venture: 3
-- acquisition_financing: 2
 - asset_management_operator_activity: 2
+- acquisition_financing: 1
 - reit_activity: 1
 - capital_raise: 1
 
 ## Excluded from GP / Capital with Reason
-- No obvious GP / Capital keyword article was excluded.
+- Marcus & Millichap Arranges Sale of Value-Add Multifamily Property in East Texas | Yield PRO | asset strategy / development routing
+- Marcus & Millichap Arranges Sale of Value-Add Potential Multifamily Property in Minneapolis | Yield PRO | asset strategy / development routing
 
 ## Top Unresolved Market Extraction Examples
 - Dwight Capital Lends $42M on North Carolina Apartments Build | Commercial Observer | used broad market bucket: National
@@ -56,18 +57,18 @@ Generated: 2026-11-15 02:25:50
 - Essex Three-Twelve’s Mitir Patel Represents Buyers in Six Chicago Multifamily Transactions | Yield PRO | no city, state, or market keyword detected
 
 ## Sample Selected GP / Capital Articles
-- Berkadia Arranges $23.2M Acquisition Loan for Affordable Apartments in East Bay California | acquisition_financing | California | Yield PRO
 - Bank OZK Supplies $86M Construction Loan for Rental in Broward County | construction_financing | Southeast | Commercial Observer
 - Dwight Capital Lends $42M on North Carolina Apartments Build | construction_financing | National | Commercial Observer
 - $39M Construction Takeout Financing Secured for Suburban Milwaukee MF | disposition_exit | Other / Unknown | Connect CRE
-- JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building | acquisition_financing | New York City / New York | REBusiness Online
 - JLL Arranges $39.1M in Financing for Apartment Complex in Suburban Milwaukee | debt_financing | Other / Unknown | REBusiness Online
 - Northmarq Arranges $19M Refinance of Historic Apartments in St. Paul | refinancing | Other / Unknown | Connect CRE Apartments
-- Kadima Inks Financing for 124-unit Hallandale Beach Condo Project | construction_financing | Miami / Florida | Connect CRE South Florida
 - Rockland Trust Lends on Income-Restricted Apartments in Malden | construction_financing | Other / Unknown | Connect CRE
-- PMG Secures $285M Refi for New Fort Lauderdale Rental | refinancing | Other / Unknown | Commercial Observer
 - Legislative risk continues to cloud BTR’s capital outlook; here’s why | asset_management_operator_activity | National | HousingWire
 - Rosewood Property Co. Begins Leasing 370-Unit Multifamily Project in Irving | asset_management_operator_activity | Texas | REBusiness Online
-- Priority Capital Advisory Arranges $10.9M Construction Loan for a 200-Unit Apartment Community in Missoula Montana | construction_financing | Denver / Colorado | Yield PRO
-- American Campus Communities Expands Partnership with UC Irvine | joint_venture | California | Connect CRE Orange County
 - TruAmerica expands into ground-up development with California project | acquisition | California | Multifamily Dive
+- A look at how apartment REITs did in Q3 | reit_activity | San Francisco / California | Multifamily Dive
+- Joint Venture Sells 250-Unit High-Rise Apartment Community in Denver’s Golden Triangle | joint_venture | Denver / Colorado | Yield PRO
+- New York City Office-to-Residential Conversion Secures $231M | construction_financing | New York City / New York | Yield PRO
+- Houston Apartment Investor Buys 378-Unit Affordable Housing Community | acquisition | Houston / Texas | Connect CRE Texas
+- Multifamily delinquencies up in October, driven by issues at Bay Area property | debt_financing | California | Multifamily Dive
+- Enverra Acquires 260,000 SF Office Campus in Northern Virginia for $42M | disposition_exit | Northern Virginia / Virginia | REBusiness Online

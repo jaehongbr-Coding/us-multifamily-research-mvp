@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-11-16 02:35:39
+Generated: 2026-11-17 04:59:08
 
-- Total raw project references: 611
-- Total canonical projects: 167
-- Duplicate project clusters: 122
-- High-confidence project identities: 611
+- Total raw project references: 597
+- Total canonical projects: 160
+- Duplicate project clusters: 113
+- High-confidence project identities: 597
 - Low-confidence identities needing review: 0
-- LA / California project references: 337
+- LA / California project references: 402
 
 ## Top Repeated Projects
 
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 38 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 38 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 38 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 38 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 38 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 38 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 38 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 38 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 38 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - The Debt and Equity Mix: Where Are the Capital Opportunities in Today’s Multifamily Market...: 38 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 50 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 50 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 50 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 50 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 50 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 50 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 50 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 50 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 50 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 50 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

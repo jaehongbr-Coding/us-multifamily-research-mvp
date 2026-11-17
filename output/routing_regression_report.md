@@ -2,15 +2,15 @@
 
 ## Project-First Routing Summary
 
-- Market Intelligence count: 16
-- Development Activity count: 50
-- GP / Capital Activity count: 5
-- Project anchor article count: 46
+- Market Intelligence count: 14
+- Development Activity count: 51
+- GP / Capital Activity count: 4
+- Project anchor article count: 48
 
 ## Regression Samples
 
 - MISSING | expected Development Activity | PCCP, Alliance Residential Snap Up Garden-Style Riverside Complex
-- MISSING | expected Development Activity | Alta Developers Lands $91.8M Construction Loan for Miami Apartments
+- PASS | expected Development Activity | actual Development Activity | Alta Developers Receives $140M Construction Loan for Luxury Multifamily Fort Lauderdale High-Rise | anchor=True | reason=development_project_anchor: project financing/capital event tied to project (unit/site count: 35-story; address/street: 100 sw sixth street; project/asset term: project; project financing tied to anchor: construction loan; named asset/project hint: alta )
 - MISSING | expected Development Activity | Partnership Breaks Ground on $147M Affordable Housing Redevelopment
 - MISSING | expected Development Activity | Basis Investment Group Secures $43M Financing for Newly Built Philadelphia MF
 - MISSING | expected Development Activity | JLL Arranges $252M Financing for Huntington Beach Seniors Project
@@ -26,6 +26,6 @@
 
 ## Result
 
-- Checked samples present in current run: 1
-- Passed expected section: 1
-- Missing sample titles: 13
+- Checked samples present in current run: 2
+- Passed expected section: 2
+- Missing sample titles: 12

@@ -1,55 +1,55 @@
 # Regional Intelligence Report
 
-Generated: 2026-11-16 02:35:24
+Generated: 2026-11-17 04:58:47
 
 ## Top 5 Markets By Relevance
 
-- California: Core Watch Market, 22 article(s), average relevance 83.2.
-- Los Angeles: Core Watch Market, 8 article(s), average relevance 81.1.
-- National / Other: General Monitoring, 29 article(s), average relevance 76.5.
-- Florida: Strategic Watch Market, 6 article(s), average relevance 76.5.
-- New York: General Monitoring, 4 article(s), average relevance 85.8.
+- California: Core Watch Market, 16 article(s), average relevance 86.2.
+- Los Angeles: Core Watch Market, 11 article(s), average relevance 85.5.
+- National / Other: General Monitoring, 28 article(s), average relevance 75.2.
+- Florida: Strategic Watch Market, 6 article(s), average relevance 83.3.
+- New York: General Monitoring, 7 article(s), average relevance 79.7.
 
 ## LA / California Focus
 
-- California: 22 article(s), 9 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
-- Los Angeles: 8 article(s), 3 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
+- California: 16 article(s), 8 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
+- Los Angeles: 11 article(s), 6 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
 
 ## Sun Belt / Texas / Southeast
 
-- Florida: 6 article(s), 4 market signal(s), Strategic Watch Market. Monitor supply pipeline and concessions.
-- Southeast: 7 article(s), 3 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
-- Arizona: 2 article(s), 2 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
-- Phoenix: 2 article(s), 2 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
-- Texas: 4 article(s), 2 market signal(s), Strategic Watch Market. Watch GP / developer partnership opportunities.
-- Sun Belt: 1 article(s), 1 market signal(s), Strategic Watch Market. Monitor only.
-- Dallas: 1 article(s), 0 market signal(s), General Monitoring. Monitor only.
+- Florida: 6 article(s), 5 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
+- Texas: 5 article(s), 3 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
+- Arizona: 4 article(s), 3 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
+- Phoenix: 4 article(s), 3 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
+- Austin: 2 article(s), 1 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
+- Southeast: 4 article(s), 1 market signal(s), Strategic Watch Market. Monitor only.
 
 ## Coastal Markets
 
-- New York: 4 article(s), 3 market signal(s), General Monitoring. Review development underwriting assumptions.
+- New York: 7 article(s), 4 market signal(s), General Monitoring. Track institutional capital activity.
+- Seattle: 1 article(s), 1 market signal(s), Strategic Watch Market. Track institutional capital activity.
 
 ## National Market Signals
 
-- National / Other: 29 article(s), 9 market signal(s), General Monitoring. Review development underwriting assumptions.
+- National / Other: 28 article(s), 7 market signal(s), General Monitoring. Monitor supply pipeline and concessions.
 
 ## Deal / Project Intelligence
 
 Market-level deal and project signals are available in `deal_pipeline_report.md`.
 - California: JV / Partnership, GP partnership reference.
-- California: Disposition / Exit, Capital market signal.
 - California: Disposition / Exit, Entitlement / zoning watch.
 - California: Disposition / Exit, Entitlement / zoning watch.
 - California: Disposition / Exit, Entitlement / zoning watch.
+- California: General Project Signal, Entitlement / zoning watch.
 
 ## Relationship Graph Intelligence
 
 Market-level relationship edges are available in `relationship_graph_report.md`.
 - California: Blackstone -> California (JV / Partnership).
+- New York City / New York: CBRE -> New York City (Financing Relationship).
+- New York City / New York: CBRE -> New York City / New York (Financing Relationship).
 - Atlanta / Georgia: CBRE -> Atlanta (Acquisition / Buyer).
 - Atlanta / Georgia: CBRE -> Atlanta / Georgia (Acquisition / Buyer).
-- New York City / New York: JLL -> New York City (Acquisition / Buyer).
-- New York City / New York: JLL -> New York City / New York (Acquisition / Buyer).
 
 ## Canonical Deal Summary
 
@@ -74,9 +74,9 @@ Opportunity deduplication is available in `opportunity_deduplication_report.md`.
 
 - California: Track LA / California entitlement and zoning updates
 - Los Angeles: Track LA / California entitlement and zoning updates
-- Florida: Monitor supply pipeline and concessions
-- Southeast: Review development underwriting assumptions
+- Florida: Review development underwriting assumptions
+- Texas: Review development underwriting assumptions
 - Arizona: Review development underwriting assumptions
 - Phoenix: Review development underwriting assumptions
-- Texas: Watch GP / developer partnership opportunities
-- Sun Belt: Monitor only
+- Austin: Review development underwriting assumptions
+- Southeast: Monitor only

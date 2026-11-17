@@ -1,13 +1,13 @@
 # Regime Transition Report
 
-Generated: 2026-11-16 02:35:39
+Generated: 2026-11-17 04:59:09
 
 ## Summary
 
 - Current primary regime: Selective Capital Re-entry
 - Previous primary regime: Selective Capital Re-entry
 - Regime changed: No
-- Consecutive runs in current regime: 3
+- Consecutive runs in current regime: 4
 - Confidence direction: stable
 - Market signals direction: stable
 - Transition label: Persistent Regime
@@ -16,11 +16,11 @@ Generated: 2026-11-16 02:35:39
 
 | Run Timestamp | Primary Regime | Secondary Regime | Confidence | Market Signals | Top Strategic Angle | Top Market Focus | Top Market Signal |
 | --- | --- | --- | --- | ---: | --- | --- | --- |
-| 2026-11-12 03:38:26 | Financing Stress | Selective Capital Re-entry | Medium | 36 | Financing Risk | Other / Unknown | Rent Growth Signal |
 | 2026-11-13 03:10:31 | Developer Strategy Shift | Financing Stress | High | 35 | Developer Strategy | National | Rent Growth Signal |
 | 2026-11-14 02:55:58 | Selective Capital Re-entry | Developer Strategy Shift | High | 34 | Developer Strategy | California | Deal Size Signal |
 | 2026-11-15 02:25:50 | Selective Capital Re-entry | Developer Strategy Shift | High | 32 | Developer Strategy | California | Deal Size Signal |
 | 2026-11-16 02:35:15 | Selective Capital Re-entry | Developer Strategy Shift | High | 32 | Developer Strategy | Other / Unknown | Rent Growth Signal |
+| 2026-11-17 04:58:34 | Selective Capital Re-entry | Developer Strategy Shift | High | 32 | Developer Strategy | Other / Unknown | Deal Size Signal |
 
 ## Historical Persistence Summary
 

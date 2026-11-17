@@ -1,67 +1,68 @@
 # Entity Resolution Report
 
-Generated: 2026-11-16 02:35:24
+Generated: 2026-11-17 04:58:47
 
-- Total raw entities reviewed: 227
-- Total canonical entities created: 68
-- Possible duplicate entity groups: 8
-- Weak matches needing review: 185
+- Total raw entities reviewed: 221
+- Total canonical entities created: 59
+- Possible duplicate entity groups: 9
+- Weak matches needing review: 173
 - Unknown entities needing review: 4
 
 ## Top Canonical Firms
 
-- Unknown: 139 occurrence(s)
-- JLL: 33 occurrence(s)
-- Marcus & Millichap: 20 occurrence(s)
-- CBRE: 14 occurrence(s)
+- Unknown: 140 occurrence(s)
+- CBRE: 21 occurrence(s)
+- JLL: 21 occurrence(s)
+- Freddie Mac: 11 occurrence(s)
 - Blackstone: 8 occurrence(s)
+- Marcus & Millichap: 8 occurrence(s)
 - Hines: 7 occurrence(s)
-- northmarq: 6 occurrence(s)
-- Kairoi Residential: 5 occurrence(s)
-- Benefit Street Partners: 4 occurrence(s)
-- Related Companies: 4 occurrence(s)
+- Benefit Street Partners: 6 occurrence(s)
+- RXR: 6 occurrence(s)
+- IPA: 5 occurrence(s)
 
 ## Top Canonical Markets
 
-- California: 49 occurrence(s)
-- Los Angeles: 41 occurrence(s)
-- Sun Belt: 39 occurrence(s)
+- Sun Belt: 54 occurrence(s)
+- Los Angeles: 40 occurrence(s)
 - Other / Unknown: 38 occurrence(s)
-- Unknown: 18 occurrence(s)
-- New York: 16 occurrence(s)
-- National: 12 occurrence(s)
-- Texas: 9 occurrence(s)
-- Southeast: 7 occurrence(s)
-- South Florida: 6 occurrence(s)
+- California: 32 occurrence(s)
+- New York: 27 occurrence(s)
+- Unknown: 17 occurrence(s)
+- National: 10 occurrence(s)
+- South Florida: 10 occurrence(s)
+- Seattle: 5 occurrence(s)
+- Texas: 5 occurrence(s)
 
 ## Possible Duplicate Entities
 
 - Blackstone: Blackstone, blackstone
-- CBRE: Acquisition - Other / Unknown - CBRE Brokers $30M Sale of Multifamily Portfolio in Madison, Wisconsin, CBRE, cbre
-- California: Acquisition - California - TruAmerica expands into ground-up development with California project, California, Development Start - California - 3 multifamily groundbreakings you may have missed, Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio, Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio, Disposition / Exit - California - Fresno Low-Rise Trades to Private Buyer in All-Cash Deal, Disposition / Exit - California - Southern California transportation projects awarded new state funding, Disposition / Exit - Riverside / California - Advanced Real Estate Pays $56 Million for Ontario Multifamily Complex, Entitlement / Permitting - San Francisco / California - New Building Permits Filed For 704 North Point Street, San Francisco, General Project Signal - California - Construction Topped Out For 641 5th Street, West Sacramento, JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine, Riverside / California, San Francisco / California, Southern California
-- JLL: Acquisition - Florida - JLL Arranges Sale of 296,419 SF Lifestyle Mixed-Use Center in Coconut Creek, Florida, Acquisition - New York City / New York - JLL Arranges $118.9M Acquisition Loan for Manhattan Apartment Building, General Project Signal - Other / Unknown - JLL Arranges $39.1M in Financing for Apartment Complex in Suburban Milwaukee, JLL, jll
-- Los Angeles: Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community, Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M, Acquisition - Riverside / California - Advanced Real Estate Buys Inland Empire Apartment Complex for $56M, Atlanta / Georgia, BTR / Build-to-Rent - National - Legislative risk continues to cloud BTR’s capital outlook; here’s why, Construction Financing - Miami / Florida - Kadima Inks Financing for 124-unit Hallandale Beach Condo Project, Construction Financing - Other / Unknown - Rockland Trust Lends on Income-Restricted Apartments in Malden, Dallas / Texas, Disposition / Exit - Atlanta / Georgia - Perimeter Center Rental Community Goes for $120M, Disposition / Exit - California - Marcus & Millichap Arranges Multifamily Affordable Housing Sale in South Lake, Disposition / Exit - Los Angeles / California - Graffiti Removal Sets Stage for Sale of Oceanwide Plaza, Entitlement / Permitting - Dallas / Texas - Hoque Global's $450M Downtown Dallas Project Loses City Incentive, Entitlement / Permitting - Los Angeles / California - Costco-anchored project adds more housing at 5035 Coliseum St. in Baldwin Hills, Entitlement / Permitting - Other / Unknown - 152 apartments planned at 2315 Marine Ave. in Gardena, General Project Signal - Los Angeles / California - Affordable housing takes shape at 3455 Slauson Ave. in Hyde Park, General Project Signal - Los Angeles / California - Four townhomes coming to 1155 N. Heliotrope Dr. in East Hollywood, General Project Signal - Miami / Florida - 13th Floor, ANF Complete $89M Hallandale Beach Rental Community, Inland Empire, JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project, Los Angeles, Los Angeles / California, Refinancing - Other / Unknown - PMG Secures $285M Refi for New Fort Lauderdale Rental
-- New York: Disposition / Exit - New York City / New York - Marcus & Millichap Arranges Sale of Multifamily Asset Redevelopment Opportunity in Brookly..., New York, New York City, New York City / New York, Office-to-Residential Conversion - New York City / New York - New York City Office-to-Residential Conversion Secures $231M
+- CBRE: CBRE, Disposition / Exit - Other / Unknown - CBRE Arranges Sale of 540-Unit Ohio Multifamily Portfolio, cbre
+- California: California, Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio, Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio, Disposition / Exit - California - Fresno Low-Rise Trades to Private Buyer in All-Cash Deal, Disposition / Exit - California - Southern California transportation projects awarded new state funding, Disposition / Exit - Riverside / California - Advanced Real Estate Pays $56 Million for Ontario Multifamily Complex, General Project Signal - California - Construction Topped Out For 641 5th Street, West Sacramento, JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine, Riverside / California, San Francisco / California, Southern California
+- Freddie Mac: Freddie Mac, freddie mac
+- JLL: JLL, jll
+- Los Angeles: Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community, Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M, Acquisition - Denver / Colorado - Avanti Residential Acquires Luxury Denver Multifamily Asset for $31M, Atlanta / Georgia, Construction Financing - Miami / Florida - Kadima Inks Financing for 124-unit Hallandale Beach Condo Project, Construction Financing - Miami / Florida - Work Underway on 311-Unit Oakland Park Apartment Building, Construction Financing - Other / Unknown - Alta Developers Receives $140M Construction Loan for Luxury Multifamily Fort Lauderdale Hi..., Development Start - Virginia - 3 apartment projects broke ground last week, Disposition / Exit - Atlanta / Georgia - Perimeter Center Rental Community Goes for $120M, Disposition / Exit - Los Angeles / California - Graffiti Removal Sets Stage for Sale of Oceanwide Plaza, Entitlement / Permitting - Los Angeles / California - Affordable housing takes shape at 3985 S. Meier St. in Mar Vista, Entitlement / Permitting - Los Angeles / California - Costco-anchored project adds more housing at 5035 Coliseum St. in Baldwin Hills, Entitlement / Permitting - Other / Unknown - 152 apartments planned at 2315 Marine Ave. in Gardena, Entitlement / Permitting - San Francisco / California - Villa hires former Century Communities CFO Messenger as CEO, General Project Signal - Austin / Texas - Apartment Owners Reach for Concessions to Survive Winter, General Project Signal - Los Angeles / California - Four townhomes coming to 1155 N. Heliotrope Dr. in East Hollywood, General Project Signal - Miami / Florida - 13th Floor, ANF Complete $89M Hallandale Beach Rental Community, Inland Empire, JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project, JV / Partnership - Los Angeles / California - 'Graffiti towers' no more: Oceanwide Plaza is officially cleaned up, JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower, JV / Partnership - National - River Caddis, Standard Open $56M Affordable Housing Development in Kalamazoo, Michigan, Los Angeles, Los Angeles / California, Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi..., Office-to-Residential Conversion - Other / Unknown - Planning Department Okays Boston’s Largest Office Conversion to Date
+- New York: Disposition / Exit - New York City / New York - ICON Real Estate Advisors adds two professionals to multifamily brokerage team, Disposition / Exit - New York City / New York - New York City Life Sciences Real Estate Caught a Nasty Cold in 2026, Disposition / Exit - New York City / New York - Trammell Crow Buys Chelsea Development Site at 438-454 West 18th Street for $68M, Manhattan, New York, New York City, New York City / New York, Recapitalization - New York City / New York - RXR Takes Minority Stake in 55 Broad Street as Part of Recapitalization, Refinancing - New York City / New York - Natixis Provides $233.3M Loan for Refinancing of Manhattan Apartment Building
 - Related Companies: Boca Raton Apartment Units The Related Group, General Project Signal - Miami / Florida - Related Building 494 Boca Raton Apartment Units, related
-- Sun Belt: Acquisition - Miami / Florida - Miami-Area Multifamily Project Trades for $54M, Atlanta, Austin, Dallas, General Project Signal - Phoenix / Arizona - Cross Harbor Scores $78.5M Financing for Tempe Rental Community, Miami, Miami / Florida, Phoenix, Phoenix / Arizona, Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building, Sun Belt
+- Sun Belt: Atlanta, Austin, Austin / Texas, BTR / Build-to-Rent - Austin / Texas - Taylor Morrison to Start Work on 161-Unit Austin BTR Community, Dallas, General Project Signal - Phoenix / Arizona - Cross Harbor Scores $78.5M Financing for Tempe Rental Community, Miami / Florida, Phoenix, Phoenix / Arizona, Refinancing - Phoenix / Arizona - Fort Collins Affordable Housing Community Refinanced with $17.2M HUD Loan, Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building, Sun Belt
 
 ## Weak Matches Needing Manual Review
 
 - Acquisition - Houston / Texas - Houston Apartment Investor Buys 378-Unit Affordable Housing Community -> Acquisition - Houston / Texas - Houston Apartment Investor Buys 378-Unit Affordable Housing Community (40, relationship_graph.csv)
-- Acquisition - Northern Virginia / Virginia - Enverra Acquires 260,000 SF Office Campus in Northern Virginia for $42M -> Acquisition - Northern Virginia / Virginia - Enverra Acquires 260,000 SF Office Campus in Northern Virginia for $42M (40, relationship_graph.csv)
-- Acquisition - Other / Unknown - Essex Three-Twelve’s Mitir Patel Represents Buyers in Six Chicago Multifamily Transactions -> Acquisition - Other / Unknown - Essex Three-Twelve’s Mitir Patel Represents Buyers in Six Chicago Multifamily Transactions (40, relationship_graph.csv)
-- Advanced Real Estate -> Advanced Real Estate (40, gp_intelligence.csv)
-- Advanced Real Estate -> Advanced Real Estate (40, institutional_relationships.csv)
+- Acquisition - National - Haddon Sells 706 Multifamily Apartment Units in Columbus -> Acquisition - National - Haddon Sells 706 Multifamily Apartment Units in Columbus (40, relationship_graph.csv)
+- Acquisition - Nevada - Tilden Properties Sells 325-Bed Student Housing Property Near University of Nevada, Reno -> Acquisition - Nevada - Tilden Properties Sells 325-Bed Student Housing Property Near University of Nevada, Reno (40, relationship_graph.csv)
+- Acquisition - Other / Unknown - Newmark Brokers Sale of 226-Unit Ashford at Geneva Apartments in Metro Chicago -> Acquisition - Other / Unknown - Newmark Brokers Sale of 226-Unit Ashford at Geneva Apartments in Metro Chicago (40, relationship_graph.csv)
 - Arizona -> Arizona (40, regional_intelligence.csv)
+- Avanti Residential -> Avanti Residential (40, gp_intelligence.csv)
+- Avanti Residential -> Avanti Residential (40, institutional_relationships.csv)
 - Benefit Street Partners -> Benefit Street Partners (40, deal_pipeline.csv)
 - Benefit Street Partners -> Benefit Street Partners (40, gp_intelligence.csv)
 - Benefit Street Partners -> Benefit Street Partners (40, institutional_relationships.csv)
 - Benefit Street Partners -> Benefit Street Partners (40, relationship_graph.csv)
-- Acquisition - Other / Unknown - CBRE Brokers $30M Sale of Multifamily Portfolio in Madison, Wisconsin -> CBRE (60, relationship_graph.csv)
+- Disposition / Exit - Other / Unknown - CBRE Arranges Sale of 540-Unit Ohio Multifamily Portfolio -> CBRE (60, relationship_graph.csv)
 - Riverside / California -> California (60, articles.csv)
 - Riverside / California -> California (60, deal_pipeline.csv)
 - Riverside / California -> California (60, relationship_graph.csv)
-- San Francisco / California -> California (60, articles.csv)
 
 ## Relationship Graph Improvement Notes
 

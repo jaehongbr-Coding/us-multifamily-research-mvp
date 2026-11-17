@@ -1,22 +1,22 @@
 # GP Routing Quality Report
 
-Generated: 2026-11-16 02:35:15
+Generated: 2026-11-17 04:58:34
 
 ## Summary
-- Total GP / Capital candidates: 44
-- Selected GP / Capital articles: 15
+- Total GP / Capital candidates: 42
+- Selected GP / Capital articles: 18
 - Debt Financing count: 6
 - Refinancing count: 3
-- Construction Financing count: 5
-- Acquisition Financing count: 1
+- Construction Financing count: 4
+- Acquisition Financing count: 0
 - Equity Transaction count: 0
-- Operator Activity count: 2
-- Other / Unknown market count: 29
+- Operator Activity count: 0
+- Other / Unknown market count: 28
 
 ## Routing Regression Summary
-- Market Intelligence routed articles: 16
-- Development Activity routed articles: 50
-- GP / Capital Activity routed articles: 5
+- Market Intelligence routed articles: 14
+- Development Activity routed articles: 51
+- GP / Capital Activity routed articles: 4
 - Market-protected research / macro / supply articles: 5
 - Approval / Entitlement development rows: 0
 - Site / Parcel development rows: 0
@@ -24,51 +24,49 @@ Generated: 2026-11-16 02:35:15
 - Routing rule: approval / entitlement wording takes priority over Site / Parcel when both appear.
 
 ## Activity Type Distribution
-- disposition_exit: 18
+- disposition_exit: 17
 - debt_financing: 6
-- construction_financing: 5
+- joint_venture: 5
+- construction_financing: 4
 - acquisition: 4
 - refinancing: 3
-- joint_venture: 3
-- asset_management_operator_activity: 2
-- acquisition_financing: 1
+- recapitalization: 1
 - reit_activity: 1
 - capital_raise: 1
 
 ## Excluded from GP / Capital with Reason
-- Marcus & Millichap Arranges Sale of Value-Add Multifamily Property in East Texas | Yield PRO | asset strategy / development routing
-- Marcus & Millichap Arranges Sale of Value-Add Potential Multifamily Property in Minneapolis | Yield PRO | asset strategy / development routing
+- Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakeview Neighborhood | Yield PRO | asset strategy / development routing
 
 ## Top Unresolved Market Extraction Examples
-- Dwight Capital Lends $42M on North Carolina Apartments Build | Commercial Observer | used broad market bucket: National
-- $39M Construction Takeout Financing Secured for Suburban Milwaukee MF | Connect CRE | no city, state, or market keyword detected
-- JLL Arranges $39.1M in Financing for Apartment Complex in Suburban Milwaukee | REBusiness Online | no city, state, or market keyword detected
-- Northmarq Arranges $19M Refinance of Historic Apartments in St. Paul | Connect CRE Apartments | no city, state, or market keyword detected
+- River Caddis, Standard Open $56M Affordable Housing Development in Kalamazoo, Michigan | REBusiness Online | used broad market bucket: National
+- Northmarq Arranges $19.1M Loan for Refinancing of Holden House Apartments in St. Paul | REBusiness Online | no city, state, or market keyword detected
+- CBRE Arranges Sale of 540-Unit Ohio Multifamily Portfolio | Connect CRE Apartments | no city, state, or market keyword detected
+- Loan Secured for Luxury High-Rise Development in Evanston Illinois | Yield PRO | no city, state, or market keyword detected
 - 152 apartments planned at 2315 Marine Ave. in Gardena | Urbanize LA | no city, state, or market keyword detected
-- CBRE Brokers $30M Sale of Multifamily Portfolio in Madison, Wisconsin | REBusiness Online | no city, state, or market keyword detected
-- Rockland Trust Lends on Income-Restricted Apartments in Malden | Connect CRE | no city, state, or market keyword detected
-- Federal permitting bill that could speed apartment construction advances in Senate | Multifamily Dive | used broad market bucket: National
-- PMG Secures $285M Refi for New Fort Lauderdale Rental | Commercial Observer | no city, state, or market keyword detected
-- Legislative risk continues to cloud BTR’s capital outlook; here’s why | HousingWire | used broad market bucket: National
+- Alta Developers Receives $140M Construction Loan for Luxury Multifamily Fort Lauderdale High-Rise | Yield PRO | no city, state, or market keyword detected
+- Newmark Brokers Sale of 226-Unit Ashford at Geneva Apartments in Metro Chicago | REBusiness Online | no city, state, or market keyword detected
+- Haddon Sells 706 Multifamily Apartment Units in Columbus | Yield PRO | used broad market bucket: National
+- Planning Department Okays Boston’s Largest Office Conversion to Date | Connect CRE Apartments | no city, state, or market keyword detected
 - Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakeview Neighborhood | Yield PRO | no city, state, or market keyword detected
 - Multifamily Missing Middle Falls Back | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Multifamily Missing Middle Construction: First Quarter 2026 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Multifamily Absorption Rate Remains Below 50% | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
-- Essex Three-Twelve’s Mitir Patel Represents Buyers in Six Chicago Multifamily Transactions | Yield PRO | no city, state, or market keyword detected
+- Shorter Apartment Construction Time in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 
 ## Sample Selected GP / Capital Articles
-- Bank OZK Supplies $86M Construction Loan for Rental in Broward County | construction_financing | Southeast | Commercial Observer
-- Dwight Capital Lends $42M on North Carolina Apartments Build | construction_financing | National | Commercial Observer
-- $39M Construction Takeout Financing Secured for Suburban Milwaukee MF | disposition_exit | Other / Unknown | Connect CRE
-- JLL Arranges $39.1M in Financing for Apartment Complex in Suburban Milwaukee | debt_financing | Other / Unknown | REBusiness Online
-- Northmarq Arranges $19M Refinance of Historic Apartments in St. Paul | refinancing | Other / Unknown | Connect CRE Apartments
-- Rockland Trust Lends on Income-Restricted Apartments in Malden | construction_financing | Other / Unknown | Connect CRE
-- Legislative risk continues to cloud BTR’s capital outlook; here’s why | asset_management_operator_activity | National | HousingWire
-- Rosewood Property Co. Begins Leasing 370-Unit Multifamily Project in Irving | asset_management_operator_activity | Texas | REBusiness Online
-- TruAmerica expands into ground-up development with California project | acquisition | California | Multifamily Dive
+- Apartment Owners Reach for Concessions to Survive Winter | debt_financing | Austin / Texas | Commercial Observer
+- Fort Collins Affordable Housing Community Refinanced with $17.2M HUD Loan | refinancing | Phoenix / Arizona | Connect CRE
+- Natixis Provides $233.3M Loan for Refinancing of Manhattan Apartment Building | joint_venture | New York City / New York | REBusiness Online
+- River Caddis, Standard Open $56M Affordable Housing Development in Kalamazoo, Michigan | joint_venture | National | REBusiness Online
+- Northmarq Arranges $19.1M Loan for Refinancing of Holden House Apartments in St. Paul | refinancing | Other / Unknown | REBusiness Online
+- Work Underway on 311-Unit Oakland Park Apartment Building | construction_financing | Miami / Florida | Connect CRE Apartments
+- Loan Secured for Luxury High-Rise Development in Evanston Illinois | construction_financing | Other / Unknown | Yield PRO
+- Alta Developers Receives $140M Construction Loan for Luxury Multifamily Fort Lauderdale High-Rise | construction_financing | Other / Unknown | Yield PRO
+- RXR Takes Minority Stake in 55 Broad Street as Part of Recapitalization | recapitalization | New York City / New York | Connect CRE Apartments
+- American Campus Communities Expands Partnership with UC Irvine | joint_venture | California | Connect CRE Orange County
+- IPA Arranges $40.3M in Financing for North San Antonio Apartment Community | debt_financing | Texas | REBusiness Online
+- Haddon Sells 706 Multifamily Apartment Units in Columbus | disposition_exit | National | Yield PRO
+- Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower | joint_venture | Miami / Florida | Connect CRE Apartments
+- Avanti Residential Acquires Luxury Denver Multifamily Asset for $31M | acquisition | Denver / Colorado | Yield PRO
 - A look at how apartment REITs did in Q3 | reit_activity | San Francisco / California | Multifamily Dive
-- Joint Venture Sells 250-Unit High-Rise Apartment Community in Denver’s Golden Triangle | joint_venture | Denver / Colorado | Yield PRO
-- New York City Office-to-Residential Conversion Secures $231M | construction_financing | New York City / New York | Yield PRO
-- Houston Apartment Investor Buys 378-Unit Affordable Housing Community | acquisition | Houston / Texas | Connect CRE Texas
-- Multifamily delinquencies up in October, driven by issues at Bay Area property | debt_financing | California | Multifamily Dive
-- Enverra Acquires 260,000 SF Office Campus in Northern Virginia for $42M | disposition_exit | Northern Virginia / Virginia | REBusiness Online

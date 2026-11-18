@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-11-17 04:59:08
+Generated: 2026-11-18 04:03:07
 
-- Total raw project references: 597
-- Total canonical projects: 160
-- Duplicate project clusters: 113
-- High-confidence project identities: 597
+- Total raw project references: 564
+- Total canonical projects: 145
+- Duplicate project clusters: 98
+- High-confidence project identities: 564
 - Low-confidence identities needing review: 0
-- LA / California project references: 402
+- LA / California project references: 403
 
 ## Top Repeated Projects
 
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 50 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 50 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 50 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 50 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 50 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 50 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 50 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 50 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 50 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 50 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 46 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 46 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 46 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 46 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 46 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 46 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 46 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 46 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 46 occurrence(s), confidence 80.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 46 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

@@ -1,18 +1,16 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-11-17 04:59:08
+Generated: 2026-11-18 04:03:07
 
-- Total LA lifecycle watch items: 41
+- Total LA lifecycle watch items: 40
 
 ## LA Lifecycle Stage Distribution
 
-- Unknown Stage: 27
+- Unknown Stage: 30
 - Site Acquisition / Site Control: 6
-- Refinancing / Recapitalization: 3
-- Delivery / Opening: 2
+- Refinancing / Recapitalization: 2
+- Delivery / Opening: 1
 - Vertical Construction: 1
-- Early Site Signal: 1
-- Topped Out: 1
 
 ## Koreatown / Wilshire Lifecycle Watch
 
@@ -52,11 +50,11 @@ Generated: 2026-11-17 04:59:08
 
 ## Recommended LA Lifecycle Follow-up Actions
 
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Dallas / Texas - Berkadia Arranges Refinancing of Newly Developed Dallas Multifamily Community.
+- Monitor lifecycle status for repeated confirmation: Acquisition - Florida - Continental Realty Corp. Acquires 276-Unit Multifamily Community in Metro Orlando.
 - Monitor lifecycle status for repeated confirmation: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine.
 - Monitor lifecycle status for repeated confirmation: JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower.
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Alta Developers Receives $140M Construction Loan for Luxury Multifamily Fort Lauderdale High-Rise.
-- Monitor lifecycle status for repeated confirmation: 152 apartments planned at 2315 Marine Ave. in Gardena.
-- Monitor lifecycle status for repeated confirmation: Planning Department Okays Boston’s Largest Office Conversion to Date.
+- Monitor lifecycle status for repeated confirmation: New, downsized look for housing project at 1521 E. Grand Ave. in El Segundo.
 - Monitor lifecycle status for repeated confirmation: Construction Financing - Miami / Florida - Work Underway on 311-Unit Oakland Park Apartment Building.
 - Monitor lifecycle status for repeated confirmation: Construction Financing - Miami / Florida - Kadima Inks Financing for 124-unit Hallandale Beach Condo Project.
 - Monitor lifecycle status for repeated confirmation: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
@@ -65,11 +63,11 @@ Generated: 2026-11-17 04:59:08
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 75
-- Newly detected projects: 40
+- Lifecycle transitions analyzed: 69
+- Newly detected projects: 26
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 40
+- LA lifecycle transition watch items: 39
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -77,10 +75,10 @@ Generated: 2026-11-17 04:59:08
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 597
-- Canonical projects: 160
-- Duplicate project clusters: 113
-- Persistent assets tracked: 160
-- LA persistent asset watch items: 94
+- Raw project references: 564
+- Canonical projects: 145
+- Duplicate project clusters: 98
+- Persistent assets tracked: 145
+- LA persistent asset watch items: 96
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

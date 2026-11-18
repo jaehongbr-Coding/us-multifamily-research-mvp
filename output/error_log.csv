@@ -4163,3 +4163,19 @@
 2026-11-17 04:58:34,Berkadia Source Expansion,Failed,RSS parsing issue: status=301; <unknown>:7:75: not well-formed (invalid token),Warning,Review or replace this source URL if it is important.
 2026-11-17 04:58:34,Walker & Dunlop Source Expansion,Failed,RSS parsing issue: status=301; <unknown>:2:2016: not well-formed (invalid token),Warning,Review or replace this source URL if it is important.
 2026-11-17 04:58:34,Commercial Property Executive,Failed,RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token),Warning,Review or replace this source URL if it is important.
+2026-11-18 04:02:46,Multi-Housing News,Failed,RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token),Warning,Review or replace this source URL if it is important.
+2026-11-18 04:02:46,GlobeSt,Failed,RSS parsing issue: status=301; <unknown>:2:1326: not well-formed (invalid token),Warning,Review or replace this source URL if it is important.
+2026-11-18 04:02:46,The Real Deal,Failed,RSS parsing issue: status=301; text/html; charset=utf-8 is not an XML media type,Warning,Review or replace this source URL if it is important.
+2026-11-18 04:02:46,Urban Land Institute,Failed,RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token),Warning,Review or replace this source URL if it is important.
+2026-11-18 04:02:46,NMHC News,Failed,RSS parsing issue: status=200; <unknown>:21:2: mismatched tag,Warning,Review or replace this source URL if it is important.
+2026-11-18 04:02:46,Walker & Dunlop Insights,Failed,RSS parsing issue: status=301; <unknown>:2:2016: not well-formed (invalid token),Warning,Review or replace this source URL if it is important.
+2026-11-18 04:02:46,Berkadia Research,Failed,RSS parsing issue: status=301; <unknown>:7:75: not well-formed (invalid token),Warning,Review or replace this source URL if it is important.
+2026-11-18 04:02:46,Hines Newsroom,Failed,RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token),Warning,Review or replace this source URL if it is important.
+2026-11-18 04:02:46,Blackstone Real Estate,Failed,RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token),Warning,Review or replace this source URL if it is important.
+2026-11-18 04:02:46,California YIMBY,Failed,RSS parsing issue: <urlopen error [Errno -2] Name or service not known>,Warning,Review or replace this source URL if it is important.
+2026-11-18 04:02:46,Connect CRE Charlotte,Failed,RSS parsing issue: status=404; <unknown>:22:51: not well-formed (invalid token),Warning,Review or replace this source URL if it is important.
+2026-11-18 04:02:46,Blackstone Real Estate Source Expansion,Failed,RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token),Warning,Review or replace this source URL if it is important.
+2026-11-18 04:02:46,Hines Source Expansion,Failed,RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token),Warning,Review or replace this source URL if it is important.
+2026-11-18 04:02:46,Berkadia Source Expansion,Failed,RSS parsing issue: status=301; <unknown>:7:75: not well-formed (invalid token),Warning,Review or replace this source URL if it is important.
+2026-11-18 04:02:46,Walker & Dunlop Source Expansion,Failed,RSS parsing issue: status=301; <unknown>:2:2016: not well-formed (invalid token),Warning,Review or replace this source URL if it is important.
+2026-11-18 04:02:46,Commercial Property Executive,Failed,RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token),Warning,Review or replace this source URL if it is important.

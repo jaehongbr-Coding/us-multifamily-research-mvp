@@ -1,11 +1,11 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-11-17 04:58:47
+Generated: 2026-11-18 04:02:54
 
-- Total relationship edges: 109
-- Most connected developer / GP: CBRE (10 edge(s))
-- Most connected lender / debt provider: cbre (3 edge(s))
-- Most connected market: California (6 edge(s))
+- Total relationship edges: 107
+- Most connected developer / GP: JLL (14 edge(s))
+- Most connected lender / debt provider: jll (6 edge(s))
+- Most connected market: Los Angeles / California (6 edge(s))
 - Strongest relationship edge: Blackstone -> California
 - Highest Woomi relevance edge: Blackstone -> California
 
@@ -14,58 +14,57 @@ Generated: 2026-11-17 04:58:47
 - Blackstone -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
-- CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
-- CBRE -> cbre: Financing Relationship, New York City / New York, score 93. Track GP relationship history.
-- Freddie Mac -> freddie mac: Financing Relationship, Austin / Texas, score 88. Track GP relationship history.
-- CBRE -> cbre: Financing Relationship, Other / Unknown, score 87. Track GP relationship history.
+- Berkadia -> berkadia: Financing Relationship, Virginia, score 94. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 92. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Florida, score 89. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Other / Unknown, score 87. Track GP relationship history.
 - Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 86. Track GP relationship history.
-- CBRE -> New York City: Financing Relationship, New York City / New York, score 85. Track GP relationship history.
-- CBRE -> New York City / New York: Financing Relationship, New York City / New York, score 85. Track GP relationship history.
+- JLL -> jll: JV / Partnership, Other / Unknown, score 86. Review potential JV relevance.
+- Kairoi Residential -> jll: Financing Relationship, Denver / Colorado, score 86. Track GP relationship history.
 
 ## Developer / GP Relationship Map
 
 - Blackstone -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
-- CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
-- CBRE -> cbre: Financing Relationship, New York City / New York, score 93. Track GP relationship history.
-- Freddie Mac -> freddie mac: Financing Relationship, Austin / Texas, score 88. Track GP relationship history.
-- CBRE -> cbre: Financing Relationship, Other / Unknown, score 87. Track GP relationship history.
+- Berkadia -> berkadia: Financing Relationship, Virginia, score 94. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 92. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Florida, score 89. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Other / Unknown, score 87. Track GP relationship history.
 - Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 86. Track GP relationship history.
-- CBRE -> New York City: Financing Relationship, New York City / New York, score 85. Track GP relationship history.
-- CBRE -> New York City / New York: Financing Relationship, New York City / New York, score 85. Track GP relationship history.
+- JLL -> jll: JV / Partnership, Other / Unknown, score 86. Review potential JV relevance.
+- Kairoi Residential -> jll: Financing Relationship, Denver / Colorado, score 86. Track GP relationship history.
 
 ## Lender / Debt Provider Relationship Map
 
-- CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
-- CBRE -> cbre: Financing Relationship, New York City / New York, score 93. Track GP relationship history.
-- Freddie Mac -> freddie mac: Financing Relationship, Austin / Texas, score 88. Track GP relationship history.
-- CBRE -> cbre: Financing Relationship, Other / Unknown, score 87. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Other / Unknown, score 83. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Phoenix / Arizona, score 82. Track GP relationship history.
+- Berkadia -> berkadia: Financing Relationship, Virginia, score 94. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 92. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Florida, score 89. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Other / Unknown, score 87. Track GP relationship history.
+- JLL -> jll: JV / Partnership, Other / Unknown, score 86. Review potential JV relevance.
+- Kairoi Residential -> jll: Financing Relationship, Denver / Colorado, score 86. Track GP relationship history.
+- Berkadia -> berkadia: Financing Relationship, Dallas / Texas, score 84. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Other / Unknown, score 84. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Phoenix / Arizona, score 83. Track GP relationship history.
 - Disposition / Exit - California - Fresno Low-Rise Trades to Private Buyer in All-Cash Deal -> northmarq: Financing Relationship, California, score 80. Monitor lender activity.
-- JLL -> jll: Financing Relationship, New York City / New York, score 76. Track GP relationship history.
-- Walker & Dunlop -> freddie mac: Financing Relationship, Other / Unknown, score 73. Track GP relationship history.
-- Office-to-Residential Conversion - Other / Unknown - Northmarq Arranges $19.1M Loan for Refinancing of Holden House Apartments in St. Paul -> northmarq: Financing Relationship, Other / Unknown, score 64. Monitor lender activity.
 
 ## Capital Partner / Institutional Flow Map
 
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
 - Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 86. Track GP relationship history.
-- General Project Signal - Miami / Florida - Related Building 494 Boca Raton Apartment Units -> related: Capital Flow, Miami / Florida, score 59. Monitor only.
 
 ## Market Relationship Map
 
 - Blackstone -> California: JV / Partnership, California, score 100. Review potential JV relevance.
-- CBRE -> New York City: Financing Relationship, New York City / New York, score 85. Track GP relationship history.
-- CBRE -> New York City / New York: Financing Relationship, New York City / New York, score 85. Track GP relationship history.
-- CBRE -> Atlanta: Acquisition / Buyer, Atlanta / Georgia, score 83. Track GP relationship history.
-- CBRE -> Atlanta / Georgia: Acquisition / Buyer, Atlanta / Georgia, score 83. Track GP relationship history.
+- CBRE -> Atlanta: Acquisition / Buyer, Atlanta / Georgia, score 82. Track GP relationship history.
+- CBRE -> Atlanta / Georgia: Acquisition / Buyer, Atlanta / Georgia, score 82. Track GP relationship history.
+- JLL -> Florida: Acquisition / Buyer, Florida, score 79. Track GP relationship history.
+- JLL -> Orlando: Acquisition / Buyer, Florida, score 79. Track GP relationship history.
 - Marcus & Millichap -> California: Disposition / Seller, California, score 79. Track GP relationship history.
 - Hines -> Atlanta: Acquisition / Buyer, Atlanta / Georgia, score 78. Track GP relationship history.
 - Hines -> Atlanta / Georgia: Acquisition / Buyer, Atlanta / Georgia, score 78. Track GP relationship history.
-- RXR -> Manhattan: Financing Relationship, New York City / New York, score 78. Track GP relationship history.
-- RXR -> New York City / New York: Financing Relationship, New York City / New York, score 78. Track GP relationship history.
+- Marcus & Millichap -> California: Disposition / Seller, California, score 77. Track GP relationship history.
+- Berkadia -> Dallas: Financing Relationship, Dallas / Texas, score 76. Track GP relationship history.
 
 ## California / LA Relationship Signals
 
@@ -85,13 +84,13 @@ Generated: 2026-11-17 04:58:47
 - Blackstone -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
+- JLL -> jll: JV / Partnership, Other / Unknown, score 86. Review potential JV relevance.
+- JLL -> JV / Partnership - Other / Unknown - Debt, Equity Secured for Evanston Luxury High-Rise Development: JV / Partnership, Other / Unknown, score 78. Review potential JV relevance.
 - Benefit Street Partners -> JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower: JV / Partnership, Miami / Florida, score 74. Review potential JV relevance.
 - Benefit Street Partners -> Miami / Florida: JV / Partnership, Miami / Florida, score 74. Review potential JV relevance.
 - Benefit Street Partners -> South Florida: JV / Partnership, Miami / Florida, score 74. Review potential JV relevance.
-- JV / Partnership - National - River Caddis, Standard Open $56M Affordable Housing Development in Kalamazoo, Michigan -> JV / Partnership - National - River Caddis, Standard Open $56M Affordable Housing Development in Kalamazoo, Michigan: JV / Partnership, National, score 60. Review potential JV relevance.
-- JV / Partnership - Los Angeles / California - 'Graffiti towers' no more: Oceanwide Plaza is officially cleaned up -> Los Angeles: JV / Partnership, Los Angeles / California, score 58. Review potential JV relevance.
-- JV / Partnership - Los Angeles / California - 'Graffiti towers' no more: Oceanwide Plaza is officially cleaned up -> Los Angeles / California: JV / Partnership, Los Angeles / California, score 58. Review potential JV relevance.
-- JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project -> Atlanta: JV / Partnership, Atlanta / Georgia, score 47. Review potential JV relevance.
+- JV / Partnership - Denver / Colorado - Rockefeller Group, Summit Capital Dispose of 250-Unit High-Rise Apartment Complex in Denve... -> Denver: JV / Partnership, Denver / Colorado, score 58. Review potential JV relevance.
+- JV / Partnership - Denver / Colorado - Rockefeller Group, Summit Capital Dispose of 250-Unit High-Rise Apartment Complex in Denve... -> Denver / Colorado: JV / Partnership, Denver / Colorado, score 58. Review potential JV relevance.
 
 ## Canonical Relationship Map
 
@@ -100,13 +99,13 @@ Generated: 2026-11-17 04:58:47
 | Blackstone | California | JV / Partnership | 100 |
 | Blackstone | California | JV / Partnership | 60 |
 | Blackstone | Blackstone | JV / Partnership | 75 |
+| Berkadia | Berkadia | Financing Relationship | 75 |
 | CBRE | CBRE | Financing Relationship | 75 |
-| CBRE | CBRE | Financing Relationship | 75 |
-| Freddie Mac | Freddie Mac | Financing Relationship | 75 |
-| CBRE | CBRE | Financing Relationship | 75 |
+| JLL | JLL | Financing Relationship | 75 |
+| JLL | JLL | Financing Relationship | 75 |
 | Hines | hines | Acquisition / Buyer | 40 |
-| CBRE | New York | Financing Relationship | 60 |
-| CBRE | New York | Financing Relationship | 60 |
+| JLL | JLL | JV / Partnership | 75 |
+| Kairoi Residential | JLL | Financing Relationship | 40 |
 
 ## Multi-Source Confirmation Summary
 
@@ -116,11 +115,11 @@ Relationship repeat strength uses unique canonical deal/event counts instead of 
 ## Emerging GP Watchlist Reference
 
 Ranked GP watchlist signals are available in `gp_watchlist_report.md`.
-- Marcus & Millichap: 77 (Tier 2 High Potential GP), Capital market and pricing discovery reference.
+- JLL: 78 (Tier 2 High Potential GP), Potential GP partnership candidate.
 - Blackstone: 76 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- CBRE: 75 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- Freddie Mac: 75 (Tier 2 High Potential GP), Potential GP partnership candidate.
 - Hines: 73 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- Benefit Street Partners: 69 (Tier 3 Monitoring GP), Potential GP partnership candidate.
+- CBRE: 68 (Tier 3 Monitoring GP), Capital market and pricing discovery reference.
 
 ## GP Source Expansion Summary
 
@@ -143,20 +142,20 @@ Longitudinal memory is available in `historical_memory_report.md`.
 - Review potential JV relevance: Blackstone -> California (JV / Partnership).
 - Review potential JV relevance: Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine (JV / Partnership).
 - Review potential JV relevance: Blackstone -> blackstone (JV / Partnership).
+- Track GP relationship history: Berkadia -> berkadia (Financing Relationship).
 - Track GP relationship history: CBRE -> cbre (Financing Relationship).
-- Track GP relationship history: CBRE -> cbre (Financing Relationship).
-- Track GP relationship history: Freddie Mac -> freddie mac (Financing Relationship).
-- Track GP relationship history: CBRE -> cbre (Financing Relationship).
+- Track GP relationship history: JLL -> jll (Financing Relationship).
+- Track GP relationship history: JLL -> jll (Financing Relationship).
 - Track GP relationship history: Hines -> hines (Acquisition / Buyer).
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 597
-- Canonical projects: 160
-- Duplicate project clusters: 113
-- Persistent assets tracked: 160
-- LA persistent asset watch items: 94
+- Raw project references: 564
+- Canonical projects: 145
+- Duplicate project clusters: 98
+- Persistent assets tracked: 145
+- LA persistent asset watch items: 96
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

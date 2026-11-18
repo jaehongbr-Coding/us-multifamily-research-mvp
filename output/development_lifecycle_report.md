@@ -1,44 +1,42 @@
 # Development Lifecycle Report
 
-Generated: 2026-11-17 04:59:08
+Generated: 2026-11-18 04:03:07
 
-- Total lifecycle records: 75
+- Total lifecycle records: 69
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 46
-- Site Acquisition / Site Control: 10
-- Refinancing / Recapitalization: 8
+- Unknown Stage: 47
 - Delivery / Opening: 8
-- Vertical Construction: 1
-- Early Site Signal: 1
-- Topped Out: 1
+- Site Acquisition / Site Control: 7
+- Refinancing / Recapitalization: 5
+- Vertical Construction: 2
 
 ## Top Development Timing Opportunities
 
+- Refinancing - Dallas / Texas - Berkadia Arranges Refinancing of Newly Developed Dallas Multifamily Community: Refinancing / Recapitalization, Dallas, lifecycle_opportunity_score 100.
+- Acquisition - Florida - Continental Realty Corp. Acquires 276-Unit Multifamily Community in Metro Orlando: Site Acquisition / Site Control, Orlando, lifecycle_opportunity_score 100.
 - JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Unknown Stage, California, lifecycle_opportunity_score 99.
-- Refinancing - New York City / New York - Natixis Provides $233.3M Loan for Refinancing of Manhattan Apartment Building: Refinancing / Recapitalization, New York City, lifecycle_opportunity_score 97.
 - JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower: Unknown Stage, South Florida, lifecycle_opportunity_score 93.
-- Disposition / Exit - New York City / New York - Trammell Crow Buys Chelsea Development Site at 438-454 West 18th Street for $68M: Site Acquisition / Site Control, Manhattan, lifecycle_opportunity_score 93.
-- Recapitalization - New York City / New York - RXR Takes Minority Stake in 55 Broad Street as Part of Recapitalization: Delivery / Opening, Manhattan, lifecycle_opportunity_score 92.
-- Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing / Recapitalization, Phoenix, lifecycle_opportunity_score 90.
-- Alta Developers Receives $140M Construction Loan for Luxury Multifamily Fort Lauderdale High-Rise: Refinancing / Recapitalization, Unknown, lifecycle_opportunity_score 88.
-- 152 apartments planned at 2315 Marine Ave. in Gardena: Site Acquisition / Site Control, Los Angeles, lifecycle_opportunity_score 88.
-- Loan Secured for Luxury High-Rise Development in Evanston Illinois: Refinancing / Recapitalization, Unknown, lifecycle_opportunity_score 86.
-- Planning Department Okays Boston’s Largest Office Conversion to Date: Site Acquisition / Site Control, Unknown, lifecycle_opportunity_score 85.
+- $29M Multifamily Asset Sale Brokered by Marcus & Millichap in Brooklyn: Unknown Stage, Brooklyn, lifecycle_opportunity_score 91.
+- New, downsized look for housing project at 1521 E. Grand Ave. in El Segundo: Site Acquisition / Site Control, Los Angeles, lifecycle_opportunity_score 91.
+- General Project Signal - Denver / Colorado - $88.25M Bridge Financing Arranged for The Vixen in Denver’s Capitol Hill: Delivery / Opening, Denver, lifecycle_opportunity_score 89.
+- Loan Secured for Luxury High-Rise Development in Evanston Illinois: Refinancing / Recapitalization, Unknown, lifecycle_opportunity_score 87.
+- Disposition / Exit - Virginia - Developers Break Ground on 420-Unit Multifamily Community in Metro D.C.: Unknown Stage, Virginia, lifecycle_opportunity_score 86.
+- Construction Financing - Miami / Florida - Work Underway on 311-Unit Oakland Park Apartment Building: Site Acquisition / Site Control, South Florida, lifecycle_opportunity_score 84.
 
 ## Top Lifecycle Risks
 
-- Refinancing - Phoenix / Arizona - Fort Collins Affordable Housing Community Refinanced with $17.2M HUD Loan: Refinancing / Recapitalization, Phoenix, lifecycle_risk_score 60.
-- Construction Financing - Other / Unknown - Alta Developers Receives $140M Construction Loan for Luxury Multifamily Fort Lauderdale Hi...: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 59.
-- Office-to-Residential Conversion - Other / Unknown - Northmarq Arranges $19.1M Loan for Refinancing of Holden House Apartments in St. Paul: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 59.
-- Refinancing - New York City / New York - Natixis Provides $233.3M Loan for Refinancing of Manhattan Apartment Building: Refinancing / Recapitalization, New York City, lifecycle_risk_score 52.
+- Acquisition - Other / Unknown - Gantry Arranges $15.6M Bridge Loan for Multifamily Redevelopment in Metro St. Louis: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 59.
 - Work Underway on 311-Unit Oakland Park Apartment Building: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 50.
-- Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing / Recapitalization, Phoenix, lifecycle_risk_score 49.
+- Refinancing - Dallas / Texas - Berkadia Arranges Refinancing of Newly Developed Dallas Multifamily Community: Refinancing / Recapitalization, Dallas, lifecycle_risk_score 49.
 - Construction Financing - Miami / Florida - Work Underway on 311-Unit Oakland Park Apartment Building: Site Acquisition / Site Control, South Florida, lifecycle_risk_score 43.
 - Construction Financing - Miami / Florida - Kadima Inks Financing for 124-unit Hallandale Beach Condo Project: Site Acquisition / Site Control, South Florida, lifecycle_risk_score 42.
 - Construction Financing - Other / Unknown - Loan Secured for Luxury High-Rise Development in Evanston Illinois: Unknown Stage, Unknown, lifecycle_risk_score 42.
-- Alta Developers Receives $140M Construction Loan for Luxury Multifamily Fort Lauderdale High-Rise: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 41.
+- Loan Secured for Luxury High-Rise Development in Evanston Illinois: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 41.
+- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers Sale of Lakeview Adaptive Reuse Apartment Building: Unknown Stage, Unknown, lifecycle_risk_score 35.
+- Disposition / Exit - California - Fresno Low-Rise Trades to Private Buyer in All-Cash Deal: Unknown Stage, California, lifecycle_risk_score 34.
+- Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing / Recapitalization, Phoenix, lifecycle_risk_score 34.
 
 ## Projects Under Entitlement / Planning
 
@@ -47,17 +45,18 @@ Generated: 2026-11-17 04:59:08
 ## Construction-Ready / Construction-Start Signals
 
 - Development Start - Virginia - 3 apartment projects broke ground last week: Vertical Construction, Virginia, lifecycle_opportunity_score 80.
+- Development Start - New York City / New York - $320M Redevelopment of Astoria Boys and Girls Club Includes Affordable Housing: Vertical Construction, Queens, lifecycle_opportunity_score 70.
 
 ## Delivery / Lease-Up Signals
 
-- Recapitalization - New York City / New York - RXR Takes Minority Stake in 55 Broad Street as Part of Recapitalization: Delivery / Opening, Manhattan, lifecycle_opportunity_score 92.
-- RXR Takes Minority Stake in 55 Broad Street as Part of Recapitalization: Delivery / Opening, Manhattan, lifecycle_opportunity_score 84.
+- General Project Signal - Denver / Colorado - $88.25M Bridge Financing Arranged for The Vixen in Denver’s Capitol Hill: Delivery / Opening, Denver, lifecycle_opportunity_score 89.
 - Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening, California, lifecycle_opportunity_score 83.
-- Disposition / Exit - Other / Unknown - Hawthorne Residential Partners Grabs North Carolina Multifamily Property for $48M: Delivery / Opening, Unknown, lifecycle_opportunity_score 72.
-- JV / Partnership - National - River Caddis, Standard Open $56M Affordable Housing Development in Kalamazoo, Michigan: Delivery / Opening, Unknown, lifecycle_opportunity_score 68.
-- Hawthorne Residential Partners Grabs North Carolina Multifamily Property for $48M: Delivery / Opening, Unknown, lifecycle_opportunity_score 61.
+- Office-to-Residential Conversion - Other / Unknown - JLL Arranges $31.3M Sale of Boutique Luxury Apartment Community in Chicago: Delivery / Opening, Unknown, lifecycle_opportunity_score 80.
+- Fenway Center Apartment Complex Trades For $193M: The Boston Deal Sheet: Delivery / Opening, Unknown, lifecycle_opportunity_score 70.
+- JV / Partnership - Denver / Colorado - Rockefeller Group, Summit Capital Dispose of 250-Unit High-Rise Apartment Complex in Denve...: Delivery / Opening, Denver, lifecycle_opportunity_score 63.
+- Acquisition - Denver / Colorado - Fenway Center Apartment Complex Trades For $193M: The Boston Deal Sheet: Delivery / Opening, Denver, lifecycle_opportunity_score 59.
 - ASA Midtown Reaches 98% Leased Less Than a Year After Opening Demonstrating Demand for Boutique Multifamily in Midtown Phoenix: Delivery / Opening, Phoenix, lifecycle_opportunity_score 57.
-- Acquisition - Nevada - Tilden Properties Sells 325-Bed Student Housing Property Near University of Nevada, Reno: Delivery / Opening, Nevada, lifecycle_opportunity_score 56.
+- Disposition / Exit - Florida - Thompson Thrift Announces Sale of Watermark at Urban Blu in Panama City Beach Florida: Delivery / Opening, New York, lifecycle_opportunity_score 44.
 
 ## Distressed / Stalled Lifecycle Signals
 
@@ -65,14 +64,11 @@ Generated: 2026-11-17 04:59:08
 
 ## Refinancing / Recapitalization Lifecycle Signals
 
-- Refinancing - Phoenix / Arizona - Fort Collins Affordable Housing Community Refinanced with $17.2M HUD Loan: Refinancing / Recapitalization, Phoenix, lifecycle_risk_score 60.
-- Construction Financing - Other / Unknown - Alta Developers Receives $140M Construction Loan for Luxury Multifamily Fort Lauderdale Hi...: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 59.
-- Office-to-Residential Conversion - Other / Unknown - Northmarq Arranges $19.1M Loan for Refinancing of Holden House Apartments in St. Paul: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 59.
-- Refinancing - New York City / New York - Natixis Provides $233.3M Loan for Refinancing of Manhattan Apartment Building: Refinancing / Recapitalization, New York City, lifecycle_risk_score 52.
+- Acquisition - Other / Unknown - Gantry Arranges $15.6M Bridge Loan for Multifamily Redevelopment in Metro St. Louis: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 59.
 - Work Underway on 311-Unit Oakland Park Apartment Building: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 50.
-- Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing / Recapitalization, Phoenix, lifecycle_risk_score 49.
-- Alta Developers Receives $140M Construction Loan for Luxury Multifamily Fort Lauderdale High-Rise: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 41.
+- Refinancing - Dallas / Texas - Berkadia Arranges Refinancing of Newly Developed Dallas Multifamily Community: Refinancing / Recapitalization, Dallas, lifecycle_risk_score 49.
 - Loan Secured for Luxury High-Rise Development in Evanston Illinois: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 41.
+- Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building: Refinancing / Recapitalization, Phoenix, lifecycle_risk_score 34.
 
 ## Implications for Woomi / Woomi Global
 
@@ -81,24 +77,24 @@ Generated: 2026-11-17 04:59:08
 
 ## Recommended Lifecycle Follow-up Actions
 
+- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Dallas / Texas - Berkadia Arranges Refinancing of Newly Developed Dallas Multifamily Community.
+- Monitor lifecycle signal for repeated confirmation: Acquisition - Florida - Continental Realty Corp. Acquires 276-Unit Multifamily Community in Metro Orlando.
 - Monitor lifecycle signal for repeated confirmation: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine.
-- Track lender, maturity, debt terms, and recapitalization need: Refinancing - New York City / New York - Natixis Provides $233.3M Loan for Refinancing of Manhattan Apartment Building.
 - Monitor lifecycle signal for repeated confirmation: JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower.
-- Monitor lifecycle signal for repeated confirmation: Disposition / Exit - New York City / New York - Trammell Crow Buys Chelsea Development Site at 438-454 West 18th Street for $68M.
-- Benchmark delivery, lease-up, occupancy, and rent assumptions: Recapitalization - New York City / New York - RXR Takes Minority Stake in 55 Broad Street as Part of Recapitalization.
-- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building.
-- Track lender, maturity, debt terms, and recapitalization need: Alta Developers Receives $140M Construction Loan for Luxury Multifamily Fort Lauderdale High-Rise.
-- Monitor lifecycle signal for repeated confirmation: 152 apartments planned at 2315 Marine Ave. in Gardena.
+- Monitor lifecycle signal for repeated confirmation: $29M Multifamily Asset Sale Brokered by Marcus & Millichap in Brooklyn.
+- Monitor lifecycle signal for repeated confirmation: New, downsized look for housing project at 1521 E. Grand Ave. in El Segundo.
+- Benchmark delivery, lease-up, occupancy, and rent assumptions: General Project Signal - Denver / Colorado - $88.25M Bridge Financing Arranged for The Vixen in Denver’s Capitol Hill.
+- Track lender, maturity, debt terms, and recapitalization need: Loan Secured for Luxury High-Rise Development in Evanston Illinois.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 75
-- Newly detected projects: 40
+- Lifecycle transitions analyzed: 69
+- Newly detected projects: 26
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 40
+- LA lifecycle transition watch items: 39
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -106,11 +102,11 @@ Generated: 2026-11-17 04:59:08
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 597
-- Canonical projects: 160
-- Duplicate project clusters: 113
-- Persistent assets tracked: 160
-- LA persistent asset watch items: 94
+- Raw project references: 564
+- Canonical projects: 145
+- Duplicate project clusters: 98
+- Persistent assets tracked: 145
+- LA persistent asset watch items: 96
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -118,10 +114,10 @@ Generated: 2026-11-17 04:59:08
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 160
+- Signals evaluated: 145
 - Institutional-grade signals: 14
-- High-confidence signals: 36
-- Weak/noisy signals: 99
-- High-confidence watchlist items: 36
+- High-confidence signals: 33
+- Weak/noisy signals: 96
+- High-confidence watchlist items: 33
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

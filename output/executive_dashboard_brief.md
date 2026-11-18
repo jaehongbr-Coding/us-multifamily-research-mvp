@@ -1,14 +1,14 @@
 # Executive Dashboard Brief
 
-Generated: 2026-11-17 04:58:34
+Generated: 2026-11-18 04:02:46
 
 ## Executive Snapshot
 
-- Total articles reviewed: 72
-- High-confidence signals: 36
+- Total articles reviewed: 67
+- High-confidence signals: 33
 - Institutional-grade signals: 14
-- Opportunities: 47
-- Distress signals: 9
+- Opportunities: 45
+- Distress signals: 6
 - Recommended executive focus: Review Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio and related high-confidence project signals.
 
 ## Top 5 Things to Review Today
@@ -17,7 +17,7 @@ Generated: 2026-11-17 04:58:34
 - Alliance Residential (Capital Flow, Critical): Track capital flow pattern and related relationships.
 - Arcus Real Estate Capital (Capital Flow, Critical): Track capital flow pattern and related relationships.
 - Entitlement / Permitting - Los Angeles / California - Affordable housing takes shape at 3985 S. Meier St. in Mar Vista (LA Asset Watch, Critical): Track entitlement docket, density bonus use, and affordability requirement.
-- Entitlement / Permitting - Los Angeles / California - Costco-anchored project adds more housing at 5035 Coliseum St. in Baldwin Hills (LA Asset Watch, Critical): Track entitlement docket, density bonus use, and affordability requirement.
+- Entitlement / Permitting - Los Angeles / California - Affordable housing underway at 6908 Baird Ave. in Reseda (LA Asset Watch, Critical): Track entitlement docket, density bonus use, and affordability requirement.
 
 ## Immediate Watch Items
 
@@ -25,14 +25,14 @@ Generated: 2026-11-17 04:58:34
 - Alliance Residential: Fading Action: Track capital flow pattern and related relationships.
 - Arcus Real Estate Capital: Fading Action: Track capital flow pattern and related relationships.
 - Entitlement / Permitting - Los Angeles / California - Affordable housing takes shape at 3985 S. Meier St. in Mar Vista: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
-- Entitlement / Permitting - Los Angeles / California - Costco-anchored project adds more housing at 5035 Coliseum St. in Baldwin Hills: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
+- Entitlement / Permitting - Los Angeles / California - Affordable housing underway at 6908 Baird Ave. in Reseda: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
 
 ## LA / California Watch
 
 - Entitlement / Permitting - Los Angeles / California - Affordable housing takes shape at 3985 S. Meier St. in Mar Vista: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
+- Entitlement / Permitting - Los Angeles / California - Affordable housing underway at 6908 Baird Ave. in Reseda: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
 - Entitlement / Permitting - Los Angeles / California - Costco-anchored project adds more housing at 5035 Coliseum St. in Baldwin Hills: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
-- Entitlement / Permitting - Other / Unknown - 152 apartments planned at 2315 Marine Ave. in Gardena: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
-- JV / Partnership - National - River Caddis, Standard Open $56M Affordable Housing Development in Kalamazoo, Michigan: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
+- New, downsized look for housing project at 1521 E. Grand Ave. in El Segundo: Track site control precedent Action: Monitor asset for repeated local confirmation.
 - JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Track local sponsor activity Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 
 ## GP / Capital Partner Watch
@@ -40,23 +40,23 @@ Generated: 2026-11-17 04:58:34
 - Acquires 280-Unit Buckhead Apartment Community ParkProperty Capital: Fading Action: Track capital flow pattern and related relationships.
 - Alliance Residential: Fading Action: Track capital flow pattern and related relationships.
 - Arcus Real Estate Capital: Fading Action: Track capital flow pattern and related relationships.
-- Marcus & Millichap: Institutional-backed regional expansion Action: Review LA / California development activity.
+- JLL: Institutional-backed regional expansion Action: Track JV and capital partner activity.
 - Blackstone: Institutional-backed regional expansion Action: Track JV and capital partner activity.
 
 ## Opportunity / Distress Watch
 
 - JV / Partnership Gap: JV / Partnership Gap may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
-- Refinancing Gap: Refinancing Gap may create a pricing, capital, partnership, or pipeline opening in New York City / New York. Action: Add to executive opportunity review.
+- GP Capability Partnership Opportunity: GP Capability Partnership Opportunity may create a pricing, capital, partnership, or pipeline opening in Virginia. Action: Add to executive opportunity review.
 - LA / California Entitlement Opportunity: LA / California Entitlement Opportunity may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
 - LA / California Entitlement Opportunity: LA / California Entitlement Opportunity may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
-- Acquisition Opportunity: Acquisition Opportunity may create a pricing, capital, partnership, or pipeline opening in Atlanta / Georgia. Action: Add to executive opportunity review.
+- Refinancing Gap: Refinancing Gap may create a pricing, capital, partnership, or pipeline opening in Dallas / Texas. Action: Add to executive opportunity review.
 
 ## Development Lifecycle Watch
 
 - Entitlement / Permitting - Los Angeles / California - Affordable housing takes shape at 3985 S. Meier St. in Mar Vista: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
+- Entitlement / Permitting - Los Angeles / California - Affordable housing underway at 6908 Baird Ave. in Reseda: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
 - Entitlement / Permitting - Los Angeles / California - Costco-anchored project adds more housing at 5035 Coliseum St. in Baldwin Hills: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
-- Entitlement / Permitting - Other / Unknown - 152 apartments planned at 2315 Marine Ave. in Gardena: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
-- JV / Partnership - National - River Caddis, Standard Open $56M Affordable Housing Development in Kalamazoo, Michigan: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
+- New, downsized look for housing project at 1521 E. Grand Ave. in El Segundo: Track site control precedent Action: Monitor asset for repeated local confirmation.
 - JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Track local sponsor activity Action: Review parcel clue, entitlement path, sponsor, and comparable sites.
 
 ## Capital Flow Watch
@@ -67,7 +67,7 @@ Generated: 2026-11-17 04:58:34
 
 ## Source Health Notes
 
-- Critical source validation warnings: 15 source(s) failed validation. Action: Review failed critical feeds and manual-review queue.
+- Critical source validation warnings: 16 source(s) failed validation. Action: Review failed critical feeds and manual-review queue.
 
 ## Recommended Management Actions
 

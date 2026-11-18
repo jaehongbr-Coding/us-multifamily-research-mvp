@@ -1,0 +1,11 @@
+﻿run_date,run_id,primary_topic,article_count,high_confidence_count,medium_confidence_count,low_confidence_count,unknown_count,top_markets,top_sources
+2026-11-18,20261118-040246-cb3c879f,development_pipeline,16,1,10,5,0,Other / Unknown (8); Phoenix / Arizona (2); Miami / Florida (2); California (1); New York City / New York (1),Yield PRO (4); NAHB Eye on Housing - Multifamily (4); Connect CRE Apartments (2); Connect CRE South Florida (2); Connect CRE Phoenix (1)
+2026-11-18,20261118-040246-cb3c879f,transaction_market,13,2,3,8,0,Atlanta / Georgia (3); California (2); Florida (1); Other / Unknown (1); Riverside / California (1),Connect CRE Apartments (3); Connect CRE Atlanta (3); Connect CRE California (3); REBusiness Online (1); Connect CRE Orange County (1)
+2026-11-18,20261118-040246-cb3c879f,institutional_capital,8,0,4,4,0,Other / Unknown (3); Virginia (1); Denver / Colorado (1); California (1); Miami / Florida (1),REBusiness Online (3); Connect CRE (1); Connect CRE Apartments (1); Connect CRE Orange County (1); Connect CRE South Florida (1)
+2026-11-18,20261118-040246-cb3c879f,capital_markets,7,2,4,1,0,Other / Unknown (2); Miami / Florida (2); Denver / Colorado (1); Dallas / Texas (1); Phoenix / Arizona (1),Yield PRO (3); Connect CRE South Florida (2); REBusiness Online (1); Connect CRE Phoenix (1)
+2026-11-18,20261118-040246-cb3c879f,supply_demand,7,0,0,7,0,Other / Unknown (3); National (3); New York City / New York (1),NAHB Eye on Housing - Multifamily (5); HousingWire (1); Multifamily Executive (1)
+2026-11-18,20261118-040246-cb3c879f,gp_activity,5,0,0,0,5,Other / Unknown (3); Austin / Texas (1); National (1),NAHB Eye on Housing - Multifamily (4); Connect CRE Texas (1)
+2026-11-18,20261118-040246-cb3c879f,macro_financing,5,0,0,0,5,Other / Unknown (2); Los Angeles / California (1); New York City / New York (1); California (1),Urbanize LA (2); NAHB Eye on Housing - Multifamily (2); Yield PRO (1)
+2026-11-18,20261118-040246-cb3c879f,other,3,0,0,0,3,Los Angeles / California (2); Other / Unknown (1),Urbanize LA (3)
+2026-11-18,20261118-040246-cb3c879f,research_data,2,0,0,0,2,Los Angeles / California (2),Urbanize LA (2)
+2026-11-18,20261118-040246-cb3c879f,operations_property_management,1,0,0,0,1,Virginia (1),HousingWire (1)

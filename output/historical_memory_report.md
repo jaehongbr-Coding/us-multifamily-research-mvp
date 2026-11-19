@@ -1,79 +1,79 @@
 # Historical Memory Report
 
-Generated: 2026-11-18 04:02:54
+Generated: 2026-11-19 03:59:49
 
-- Memory rows tracked: 13498
+- Memory rows tracked: 13569
 - Fastest-rising GP: Marcus & Millichap
 - Strongest recurring lender: northmarq
 
 ## Fastest-Rising GP
 
-- Marcus & Millichap (GP / Developer): Persistent, 143 observation(s), importance 73.
+- Marcus & Millichap (GP / Developer): Persistent, 29 observation(s), importance 75.
 
 ## Strongest Recurring Lender
 
-- northmarq (Lender / Debt Provider): Persistent, 18 observation(s), importance 81.
-- JLL (Lender / Debt Provider): Dormant, 27 observation(s), importance 76.
+- northmarq (Lender / Debt Provider): Fading, 18 observation(s), importance 80.
 - JLL (Lender / Debt Provider): Dormant, 65 observation(s), importance 76.
-- Berkadia (Lender / Debt Provider): Fading, 8 observation(s), importance 74.
+- JLL (Lender / Debt Provider): Dormant, 27 observation(s), importance 76.
+- Berkadia (Lender / Debt Provider): Fading, 8 observation(s), importance 73.
 - Fannie Mae (Lender / Debt Provider): Dormant, 7 observation(s), importance 71.
 - pgim (Lender / Debt Provider): Dormant, 7 observation(s), importance 71.
 - Freddie Mac (Lender / Debt Provider): Dormant, 6 observation(s), importance 70.
-- JLL (Lender / Debt Provider): Fading, 2 observation(s), importance 70.
-- northmarq (Lender / Debt Provider): Dormant, 6 observation(s), importance 70.
 - northmarq (Lender / Debt Provider): Fading, 6 observation(s), importance 70.
+- northmarq (Lender / Debt Provider): Dormant, 6 observation(s), importance 70.
+- CBRE (Lender / Debt Provider): Dormant, 10 observation(s), importance 68.
 
 ## Recurring California / LA Relationships
 
-- California -> northmarq (Relationship Edge): Persistent, 23 observation(s), importance 83.
-- northmarq (Lender / Debt Provider): Persistent, 18 observation(s), importance 81.
-- Blackstone (Institutional Capital Partner): Persistent, 9 observation(s), importance 80.
-- Berkadia -> Berkadia (Relationship Edge): Fading, 14 observation(s), importance 79.
-- Blackstone -> California (Relationship Edge): Persistent, 18 observation(s), importance 77.
-- JLL -> JLL (Relationship Edge): Fading, 10 observation(s), importance 77.
-- Blackstone (Institutional Capital Partner): Persistent, 6 observation(s), importance 76.
+- Blackstone (Institutional Capital Partner): Persistent, 10 observation(s), importance 82.
+- California -> northmarq (Relationship Edge): Fading, 23 observation(s), importance 82.
+- northmarq (Lender / Debt Provider): Fading, 18 observation(s), importance 80.
+- Blackstone (Institutional Capital Partner): Persistent, 7 observation(s), importance 78.
+- Berkadia -> Berkadia (Relationship Edge): Fading, 14 observation(s), importance 78.
+- Blackstone -> Blackstone (Relationship Edge): Persistent, 10 observation(s), importance 77.
+- Blackstone -> California (Relationship Edge): Persistent, 20 observation(s), importance 77.
 - Fannie Mae (Institutional Capital Partner): Dormant, 27 observation(s), importance 76.
-- JLL (Lender / Debt Provider): Dormant, 27 observation(s), importance 76.
 - JLL (Lender / Debt Provider): Dormant, 65 observation(s), importance 76.
+- JLL (Lender / Debt Provider): Dormant, 27 observation(s), importance 76.
 
 ## Persistent BTR / Student / Senior Housing Players
 
-- Blackstone (Institutional Capital Partner): Persistent, 9 observation(s), importance 80.
-- Blackstone (Institutional Capital Partner): Persistent, 6 observation(s), importance 76.
+- Blackstone (Institutional Capital Partner): Persistent, 10 observation(s), importance 82.
+- Blackstone (Institutional Capital Partner): Persistent, 7 observation(s), importance 78.
 - JLL (Lender / Debt Provider): Dormant, 27 observation(s), importance 76.
 - Newport Beach Seniors Communities JLL Capital (Institutional Capital Partner): Dormant, 24 observation(s), importance 76.
-- Student Housing (Residential Sector): Persistent, 28 observation(s), importance 73.
-- Blackstone (GP / Developer): Persistent, 9 observation(s), importance 72.
-- JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine (Deal / Project): Persistent, 9 observation(s), importance 72.
-- Blackstone (GP / Developer): Persistent, 6 observation(s), importance 68.
+- Blackstone (GP / Developer): Persistent, 10 observation(s), importance 74.
+- JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine (Deal / Project): Persistent, 10 observation(s), importance 74.
+- Student Housing (Residential Sector): Persistent, 29 observation(s), importance 73.
+- Blackstone (GP / Developer): Persistent, 7 observation(s), importance 70.
 - JLL (GP / Developer): Dormant, 29 observation(s), importance 68.
-- JLL (Lender / Debt Provider): Dormant, 63 observation(s), importance 68.
+- JLL (GP / Developer): Dormant, 27 observation(s), importance 68.
 
 ## Recurring Institutional Capital Pairings
 
-- California -> northmarq (Relationship Edge): Persistent, 23 observation(s), importance 83.
-- Blackstone (Institutional Capital Partner): Persistent, 9 observation(s), importance 80.
-- Berkadia -> Berkadia (Relationship Edge): Fading, 14 observation(s), importance 79.
-- Blackstone -> California (Relationship Edge): Persistent, 18 observation(s), importance 77.
-- JLL -> JLL (Relationship Edge): Fading, 10 observation(s), importance 77.
-- Blackstone (Institutional Capital Partner): Persistent, 6 observation(s), importance 76.
+- Blackstone (Institutional Capital Partner): Persistent, 10 observation(s), importance 82.
+- California -> northmarq (Relationship Edge): Fading, 23 observation(s), importance 82.
+- Blackstone (Institutional Capital Partner): Persistent, 7 observation(s), importance 78.
+- Berkadia -> Berkadia (Relationship Edge): Fading, 14 observation(s), importance 78.
+- Blackstone -> Blackstone (Relationship Edge): Persistent, 10 observation(s), importance 77.
+- Blackstone -> California (Relationship Edge): Persistent, 20 observation(s), importance 77.
 - Fannie Mae (Institutional Capital Partner): Dormant, 27 observation(s), importance 76.
 - Newport Beach Seniors Communities JLL Capital (Institutional Capital Partner): Dormant, 24 observation(s), importance 76.
 - Santa Ana Multifamily JLL Capital (Institutional Capital Partner): Dormant, 22 observation(s), importance 76.
-- Blackstone -> Blackstone (Relationship Edge): Persistent, 9 observation(s), importance 75.
+- Marcus & Millichap -> California (Relationship Edge): Persistent, 329 observation(s), importance 75.
 
 ## Strongest Multi-Run Relationships
 
-- California -> northmarq (Relationship Edge): Persistent, 23 observation(s), importance 83.
-- Berkadia -> Berkadia (Relationship Edge): Fading, 14 observation(s), importance 79.
-- Blackstone -> California (Relationship Edge): Persistent, 18 observation(s), importance 77.
-- JLL -> JLL (Relationship Edge): Fading, 10 observation(s), importance 77.
-- Blackstone -> Blackstone (Relationship Edge): Persistent, 9 observation(s), importance 75.
-- Marcus & Millichap -> California (Relationship Edge): Persistent, 325 observation(s), importance 75.
-- California -> California (Relationship Edge): Fading, 46 observation(s), importance 75.
-- JLL -> JLL (Relationship Edge): Fading, 237 observation(s), importance 75.
-- California -> California (Relationship Edge): Persistent, 70 observation(s), importance 74.
-- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 100 observation(s), importance 74.
+- California -> northmarq (Relationship Edge): Fading, 23 observation(s), importance 82.
+- Berkadia -> Berkadia (Relationship Edge): Fading, 14 observation(s), importance 78.
+- Blackstone -> Blackstone (Relationship Edge): Persistent, 10 observation(s), importance 77.
+- Blackstone -> California (Relationship Edge): Persistent, 20 observation(s), importance 77.
+- Marcus & Millichap -> California (Relationship Edge): Persistent, 329 observation(s), importance 75.
+- JLL -> JLL (Relationship Edge): Fading, 10 observation(s), importance 75.
+- Los Angeles -> Los Angeles (Relationship Edge): Reappearing, 71 observation(s), importance 74.
+- Los Angeles -> Los Angeles (Relationship Edge): Persistent, 102 observation(s), importance 74.
+- California -> California (Relationship Edge): Fading, 22 observation(s), importance 74.
+- California -> California (Relationship Edge): Fading, 15 observation(s), importance 74.
 
 ## Accelerating Markets
 
@@ -81,16 +81,16 @@ Generated: 2026-11-18 04:02:54
 
 ## Fading Markets
 
-- California (Market / Region): Fading, 40 observation(s), importance 62.
-- Austin (Market / Region): Fading, 48 observation(s), importance 57.
-- Arizona (Market / Region): Fading, 76 observation(s), importance 57.
-- Phoenix (Market / Region): Fading, 60 observation(s), importance 57.
-- New York (Market / Region): Fading, 75 observation(s), importance 56.
-- National / Other (Market / Region): Fading, 21 observation(s), importance 52.
-- Sun Belt (Market / Region): Fading, 29 observation(s), importance 52.
-- New York (Market / Region): Fading, 65 observation(s), importance 49.
-- Seattle (Market / Region): Fading, 112 observation(s), importance 49.
-- Dallas (Market / Region): Fading, 45 observation(s), importance 49.
+- California (Market / Region): Fading, 40 observation(s), importance 61.
+- Dallas (Market / Region): Fading, 47 observation(s), importance 57.
+- Texas (Market / Region): Fading, 62 observation(s), importance 57.
+- Florida (Market / Region): Fading, 90 observation(s), importance 57.
+- Southeast (Market / Region): Fading, 38 observation(s), importance 57.
+- Austin (Market / Region): Fading, 48 observation(s), importance 56.
+- New York (Market / Region): Fading, 75 observation(s), importance 55.
+- National / Other (Market / Region): Fading, 21 observation(s), importance 50.
+- Sun Belt (Market / Region): Fading, 70 observation(s), importance 49.
+- New York (Market / Region): Fading, 65 observation(s), importance 48.
 
 ## Recurring Refinancing Stress Signals
 
@@ -98,12 +98,12 @@ Generated: 2026-11-18 04:02:54
 - JLL (Lender / Debt Provider): Dormant, 27 observation(s), importance 76.
 - Newport Beach Seniors Communities JLL Capital (Institutional Capital Partner): Dormant, 24 observation(s), importance 76.
 - Santa Ana Multifamily JLL Capital (Institutional Capital Partner): Dormant, 22 observation(s), importance 76.
-- S3 Capital Partners (Institutional Capital Partner): Persistent, 9 observation(s), importance 73.
 - Slatt Capital (Institutional Capital Partner): Dormant, 8 observation(s), importance 73.
-- Marcus & Millichap (GP / Developer): Fading, 17 observation(s), importance 72.
+- S3 Capital Partners (Institutional Capital Partner): Fading, 9 observation(s), importance 71.
 - Fannie Mae (Lender / Debt Provider): Dormant, 7 observation(s), importance 71.
 - Kennedy Wilson (Institutional Capital Partner): Dormant, 7 observation(s), importance 71.
 - pgim (Lender / Debt Provider): Dormant, 7 observation(s), importance 71.
+- Marcus & Millichap (GP / Developer): Fading, 17 observation(s), importance 70.
 
 ## Canonical Deal Summary
 

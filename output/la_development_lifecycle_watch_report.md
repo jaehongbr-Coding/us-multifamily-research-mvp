@@ -1,16 +1,16 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-11-18 04:03:07
+Generated: 2026-11-19 04:00:03
 
-- Total LA lifecycle watch items: 40
+- Total LA lifecycle watch items: 38
 
 ## LA Lifecycle Stage Distribution
 
-- Unknown Stage: 30
+- Unknown Stage: 25
 - Site Acquisition / Site Control: 6
-- Refinancing / Recapitalization: 2
-- Delivery / Opening: 1
-- Vertical Construction: 1
+- Delivery / Opening: 4
+- Vertical Construction: 2
+- Refinancing / Recapitalization: 1
 
 ## Koreatown / Wilshire Lifecycle Watch
 
@@ -46,28 +46,29 @@ Generated: 2026-11-18 04:03:07
 
 ## Construction-Ready LA Project Watch
 
+- General Project Signal - Los Angeles / California - Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction: Vertical Construction, Monitor only, opportunity 85.
 - Development Start - Virginia - 3 apartment projects broke ground last week: Vertical Construction, Monitor only, opportunity 80.
 
 ## Recommended LA Lifecycle Follow-up Actions
 
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Dallas / Texas - Berkadia Arranges Refinancing of Newly Developed Dallas Multifamily Community.
-- Monitor lifecycle status for repeated confirmation: Acquisition - Florida - Continental Realty Corp. Acquires 276-Unit Multifamily Community in Metro Orlando.
+- Monitor lifecycle status for repeated confirmation: Acquisition - Beverly Hills / California - Kennedy Wilson Sells 334-Unit Atlas Apartments in Issaquah, Washington for $149M.
 - Monitor lifecycle status for repeated confirmation: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine.
+- Monitor lifecycle status for repeated confirmation: Entitlement / Permitting - Other / Unknown - New plan for housing at 452 N. Los Robles Ave. in Pasadena.
+- Monitor lifecycle status for repeated confirmation: JV / Partnership - New York - PCCP Joint Venture Announce Development of Class A Multifamily Property in Baldwin New Yor....
 - Monitor lifecycle status for repeated confirmation: JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower.
+- Monitor lifecycle status for repeated confirmation: New plan for housing at 452 N. Los Robles Ave. in Pasadena.
 - Monitor lifecycle status for repeated confirmation: New, downsized look for housing project at 1521 E. Grand Ave. in El Segundo.
-- Monitor lifecycle status for repeated confirmation: Construction Financing - Miami / Florida - Work Underway on 311-Unit Oakland Park Apartment Building.
-- Monitor lifecycle status for repeated confirmation: Construction Financing - Miami / Florida - Kadima Inks Financing for 124-unit Hallandale Beach Condo Project.
-- Monitor lifecycle status for repeated confirmation: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
+- Track construction progress and delivery timeline: General Project Signal - Los Angeles / California - Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 69
+- Lifecycle transitions analyzed: 57
 - Newly detected projects: 26
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 39
+- LA lifecycle transition watch items: 35
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -75,10 +76,10 @@ Generated: 2026-11-18 04:03:07
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 564
-- Canonical projects: 145
-- Duplicate project clusters: 98
-- Persistent assets tracked: 145
-- LA persistent asset watch items: 96
+- Raw project references: 472
+- Canonical projects: 124
+- Duplicate project clusters: 86
+- Persistent assets tracked: 124
+- LA persistent asset watch items: 80
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

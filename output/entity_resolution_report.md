@@ -1,67 +1,68 @@
 # Entity Resolution Report
 
-Generated: 2026-11-18 04:02:54
+Generated: 2026-11-19 03:59:48
 
-- Total raw entities reviewed: 210
-- Total canonical entities created: 57
-- Possible duplicate entity groups: 8
-- Weak matches needing review: 154
+- Total raw entities reviewed: 203
+- Total canonical entities created: 49
+- Possible duplicate entity groups: 9
+- Weak matches needing review: 138
 - Unknown entities needing review: 4
 
 ## Top Canonical Firms
 
-- Unknown: 131 occurrence(s)
-- JLL: 33 occurrence(s)
-- Berkadia: 15 occurrence(s)
-- Marcus & Millichap: 12 occurrence(s)
-- CBRE: 9 occurrence(s)
+- Unknown: 104 occurrence(s)
+- JLL: 14 occurrence(s)
+- CBRE: 11 occurrence(s)
+- Marcus & Millichap: 11 occurrence(s)
+- Kennedy Wilson: 10 occurrence(s)
 - Blackstone: 8 occurrence(s)
 - Hines: 7 occurrence(s)
 - Kairoi Residential: 7 occurrence(s)
+- Merchants Capital: 7 occurrence(s)
 - Benefit Street Partners: 6 occurrence(s)
-- Acquisitions Colorado Multifamily Western Rockefeller Group: 2 occurrence(s)
 
 ## Top Canonical Markets
 
-- Sun Belt: 50 occurrence(s)
-- Los Angeles: 47 occurrence(s)
-- Other / Unknown: 39 occurrence(s)
-- California: 28 occurrence(s)
-- New York: 23 occurrence(s)
-- Unknown: 16 occurrence(s)
-- Denver / Colorado: 9 occurrence(s)
-- Virginia: 9 occurrence(s)
-- South Florida: 8 occurrence(s)
-- Florida: 7 occurrence(s)
+- Los Angeles: 56 occurrence(s)
+- Sun Belt: 43 occurrence(s)
+- Other / Unknown: 30 occurrence(s)
+- California: 16 occurrence(s)
+- New York: 12 occurrence(s)
+- Unknown: 11 occurrence(s)
+- Florida: 9 occurrence(s)
+- Denver / Colorado: 6 occurrence(s)
+- South Florida: 6 occurrence(s)
+- National: 5 occurrence(s)
 
 ## Possible Duplicate Entities
 
-- Berkadia: Berkadia, Refinancing - Dallas / Texas - Berkadia Arranges Refinancing of Newly Developed Dallas Multifamily Community, berkadia
 - Blackstone: Blackstone, blackstone
 - CBRE: CBRE, cbre
-- California: Acquisition - San Francisco / California - Glencrest Group Spends $23.8M on 159-Unit OR Multifamily Property, California, Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio, Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio, Disposition / Exit - California - Fresno Low-Rise Trades to Private Buyer in All-Cash Deal, Disposition / Exit - California - Southern California transportation projects awarded new state funding, Disposition / Exit - Riverside / California - Advanced Real Estate Pays $56 Million for Ontario Multifamily Complex, JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine, Riverside / California, San Francisco / California, Southern California
-- JLL: JLL, Office-to-Residential Conversion - Other / Unknown - JLL Arranges $31.3M Sale of Boutique Luxury Apartment Community in Chicago, jll
-- Los Angeles: Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community, Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M, Acquisition - Florida - Continental Realty Corp. Acquires 276-Unit Multifamily Community in Metro Orlando, Atlanta / Georgia, Construction Financing - Miami / Florida - Kadima Inks Financing for 124-unit Hallandale Beach Condo Project, Construction Financing - Miami / Florida - Work Underway on 311-Unit Oakland Park Apartment Building, Dallas / Texas, Development Start - Virginia - 3 apartment projects broke ground last week, Disposition / Exit - Atlanta / Georgia - Perimeter Center Rental Community Goes for $120M, Disposition / Exit - Los Angeles / California - Graffiti Removal Sets Stage for Sale of Oceanwide Plaza, Entitlement / Permitting - Los Angeles / California - Affordable housing takes shape at 3985 S. Meier St. in Mar Vista, Entitlement / Permitting - Los Angeles / California - Affordable housing underway at 6908 Baird Ave. in Reseda, Entitlement / Permitting - Los Angeles / California - Costco-anchored project adds more housing at 5035 Coliseum St. in Baldwin Hills, General Project Signal - Los Angeles / California - Four townhomes coming to 1155 N. Heliotrope Dr. in East Hollywood, General Project Signal - Miami / Florida - 13th Floor, ANF Complete $89M Hallandale Beach Rental Community, General Project Signal - New York City / New York - Mamdani’s NYC public housing rebuild plan skirts DSA rebuke, Inland Empire, JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project, JV / Partnership - Los Angeles / California - 'Graffiti towers' no more: Oceanwide Plaza is officially cleaned up, JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower, Los Angeles, Los Angeles / California, Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi..., Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers Sale of Lakeview Adaptive Reuse Apartment Building
-- New York: Brooklyn, Development Start - New York City / New York - $320M Redevelopment of Astoria Boys and Girls Club Includes Affordable Housing, Disposition / Exit - New York City / New York - $29M Multifamily Asset Sale Brokered by Marcus & Millichap in Brooklyn, Disposition / Exit - New York City / New York - ICON Real Estate Advisors adds two professionals to multifamily brokerage team, Manhattan, New York, New York City, New York City / New York, Queens
-- Sun Belt: Acquisition - Phoenix / Arizona - Arizona Res Property Bought for $9M by Venture Led by Caliber-Sponsored Fund, Atlanta, Austin, Austin / Texas, BTR / Build-to-Rent - Austin / Texas - Taylor Morrison to Start Work on 161-Unit Austin BTR Community, Dallas, General Project Signal - Phoenix / Arizona - Cross Harbor Scores $78.5M Financing for Tempe Rental Community, Miami / Florida, Orlando, Phoenix, Phoenix / Arizona, Refinancing - Phoenix / Arizona - RED Inks Refi on Camelback Office Building, Sun Belt
+- California: Beverly Hills / California, California, Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio, Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio, JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine
+- Freddie Mac: Freddie Mac, freddie mac
+- JLL: Disposition / Exit - Other / Unknown - JLL Arranges $31M Sale of Boutique Apartment Property in Chicago, JLL, JV / Partnership - Other / Unknown - JLL Arranges Financing for 419-Unit Luxury Multifamily Development in Evanston, Illinois, jll
+- Kennedy Wilson: Acquisition - Beverly Hills / California - Kennedy Wilson Sells 334-Unit Atlas Apartments in Issaquah, Washington for $149M, General Project Signal - Tampa / Florida - New $200M Tampa Rental Community to Include Mark Wahlberg’s Gym, Kennedy Wilson, kennedy wilson
+- Los Angeles: Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community, Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M, Atlanta / Georgia, Construction Financing - Miami / Florida - Work Underway on 311-Unit Oakland Park Apartment Building, Development Start - Virginia - 3 apartment projects broke ground last week, Disposition / Exit - Atlanta / Georgia - Perimeter Center Rental Community Goes for $120M, Disposition / Exit - Atlanta / Georgia - Portman Begins Mixed-Use Redevelopment of 20-Acre Office Campus in Metro Atlanta, Disposition / Exit - Los Angeles / California - 269 homes to replace nursery at 7639 Topanga Canyon Blvd. in Canoga Park, Entitlement / Permitting - Los Angeles - Multifamily housing unwrapped at 4429 S. Vermont Ave. in South L.A., Entitlement / Permitting - Los Angeles / California - Affordable housing takes shape at 3985 S. Meier St. in Mar Vista, Entitlement / Permitting - Los Angeles / California - Affordable housing underway at 6908 Baird Ave. in Reseda, Entitlement / Permitting - New York City / New York - MTA Approves EMP Capital as Developer of 1119 Pacific Street in Brooklyn, Entitlement / Permitting - Other / Unknown - New plan for housing at 452 N. Los Robles Ave. in Pasadena, General Project Signal - Austin / Texas - Morgan Completes 345-Unit Multifamily Project in North Austin, General Project Signal - Los Angeles / California - Ascent Developer Solutions Closes $220M Residential Loan Securitization, General Project Signal - Los Angeles / California - Four townhomes coming to 1155 N. Heliotrope Dr. in East Hollywood, General Project Signal - Los Angeles / California - Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction, General Project Signal - Miami / Florida - 13th Floor, ANF Complete $89M Hallandale Beach Rental Community, JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project, JV / Partnership - Los Angeles / California - 'Graffiti towers' no more: Oceanwide Plaza is officially cleaned up, JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower, JV / Partnership - New York - PCCP Joint Venture Announce Development of Class A Multifamily Property in Baldwin New Yor..., L.A., Los Angeles, Los Angeles / California
+- New York: Brooklyn, New York, New York City / New York
+- Sun Belt: Atlanta, Austin, Austin / Texas, Charlotte, Dallas, General Project Signal - Phoenix / Arizona - Cross Harbor Scores $78.5M Financing for Tempe Rental Community, General Project Signal - Sun Belt - Merchants Capital Secures $15M for Affordable Housing Development, Miami / Florida, Phoenix, Phoenix / Arizona, Sun Belt, Tampa, Tampa / Florida
 
 ## Weak Matches Needing Manual Review
 
-- Acquisition - Denver / Colorado - Fenway Center Apartment Complex Trades For $193M: The Boston Deal Sheet -> Acquisition - Denver / Colorado - Fenway Center Apartment Complex Trades For $193M: The Boston Deal Sheet (40, relationship_graph.csv)
-- Acquisition - Other / Unknown - Gantry Arranges $15.6M Bridge Loan for Multifamily Redevelopment in Metro St. Louis -> Acquisition - Other / Unknown - Gantry Arranges $15.6M Bridge Loan for Multifamily Redevelopment in Metro St. Louis (40, relationship_graph.csv)
-- Acquisitions Colorado Multifamily Western Rockefeller Group -> Acquisitions Colorado Multifamily Western Rockefeller Group (40, gp_intelligence.csv)
-- Acquisitions Colorado Multifamily Western Rockefeller Group -> Acquisitions Colorado Multifamily Western Rockefeller Group (40, institutional_relationships.csv)
+- Acquisition - Texas - IPA Negotiates Sale of 399-Unit Apartment Community in Grapevine, Texas -> Acquisition - Texas - IPA Negotiates Sale of 399-Unit Apartment Community in Grapevine, Texas (40, relationship_graph.csv)
 - Arizona -> Arizona (40, regional_intelligence.csv)
-- BTR / Build-to-Rent - Other / Unknown - EJF Capital to Build BTR Community in Indianapolis -> BTR / Build-to-Rent - Other / Unknown - EJF Capital to Build BTR Community in Indianapolis (40, relationship_graph.csv)
-- BTR / Build-to-Rent - Other / Unknown - Onyx+East, EJF Capital to Develop $17.5M Build-to-Rent Community in Indianapolis -> BTR / Build-to-Rent - Other / Unknown - Onyx+East, EJF Capital to Develop $17.5M Build-to-Rent Community in Indianapolis (40, relationship_graph.csv)
 - Benefit Street Partners -> Benefit Street Partners (40, deal_pipeline.csv)
 - Benefit Street Partners -> Benefit Street Partners (40, gp_intelligence.csv)
 - Benefit Street Partners -> Benefit Street Partners (40, institutional_relationships.csv)
 - Benefit Street Partners -> Benefit Street Partners (40, relationship_graph.csv)
-- Refinancing - Dallas / Texas - Berkadia Arranges Refinancing of Newly Developed Dallas Multifamily Community -> Berkadia (60, relationship_graph.csv)
-- Riverside / California -> California (60, articles.csv)
-- Riverside / California -> California (60, deal_pipeline.csv)
-- Riverside / California -> California (60, relationship_graph.csv)
+- Beverly Hills -> Beverly Hills (40, deal_pipeline.csv)
+- Beverly Hills -> Beverly Hills (40, relationship_graph.csv)
+- Beverly Hills / California -> California (60, articles.csv)
+- Beverly Hills / California -> California (60, deal_pipeline.csv)
+- Beverly Hills / California -> California (60, relationship_graph.csv)
+- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio -> California (60, relationship_graph.csv)
+- Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio -> California (60, relationship_graph.csv)
+- JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine -> California (60, relationship_graph.csv)
+- Denver -> Denver (40, deal_pipeline.csv)
 
 ## Relationship Graph Improvement Notes
 

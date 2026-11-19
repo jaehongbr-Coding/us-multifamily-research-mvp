@@ -1,18 +1,18 @@
 # Routing Balance Report
 
 - Market Intelligence count: 13
-- Development Activity count: 48
-- GP / Capital Activity count: 4
-- Excluded count: 2
+- Development Activity count: 42
+- GP / Capital Activity count: 1
+- Excluded count: 1
 - Rent/Demand candidate count: 5
-- Project anchor article count: 44
-- Development-excluded transaction article count: 6
-- Low-value promotional excluded count: 2
+- Project anchor article count: 37
+- Development-excluded transaction article count: 2
+- Low-value promotional excluded count: 1
 - Site / Parcel positive candidates count: 4
 - Site / Parcel excluded transaction count: 0
 - Source missing count: 0
 - Market missing count: 0
-- Stage missing count: 45
+- Stage missing count: 39
 
 ## Rent/Demand Titles
 - Multifamily Absorption Rate Remains Below 50%
@@ -22,26 +22,25 @@
 - Multifamily Developer Confidence Holds Steady in First Quarter
 
 ## Excluded Promotional Articles
-- Arizona Res Property Bought for $9M by Venture Led by Caliber-Sponsored Fund | promotional/event keyword: sponsored
 - AI, Automation & the Future of Multifamily Finance | promotional/event keyword: webinar
 
 ## Site / Parcel Included Examples
-- Kadima Inks Financing for 124-unit Hallandale Beach Condo Project | Development Activity | site/parcel signal with project anchor: plans to build
+- New plan for housing at 452 N. Los Robles Ave. in Pasadena | Development Activity | site/parcel signal with project anchor: former site
 - New, downsized look for housing project at 1521 E. Grand Ave. in El Segundo | Development Activity | site/parcel signal with project anchor: plans to build
-- EJF Capital to Build BTR Community in Indianapolis | Development Activity | site/parcel signal with project anchor: to build
-- Onyx+East, EJF Capital to Develop $17.5M Build-to-Rent Community in Indianapolis | Development Activity | site/parcel signal with project anchor: to build
+- MTA Approves EMP Capital as Developer of 1119 Pacific Street in Brooklyn | Development Activity | site/parcel signal with project anchor: to build
+- McShane Construction Company Selected to Build a 10-Building 280-Unit Apartment Community in Hoffman Estates Illinois | Development Activity | site/parcel signal with project anchor: to build
 
 ## Site / Parcel Excluded Transaction Examples
 - None
 
 ## Sample Validation
-- $88.25M Bridge Financing Arranged for The Vixen in Denver’s Capitol Hill | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 334-unit; project/asset term: community)
-- JLL Arranges $31.3M Sale of Boutique Luxury Apartment Community in Chicago | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 72-home; project/asset term: community)
-- Debt, Equity Secured for Evanston Luxury High-Rise Development | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 419-unit; project/asset term: development)
+- Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction | Development Activity | rent_demand=No | development_project_anchor: Delivery / Opening (unit/site count: 000 apartments; execution milestone: delivered; project/asset term: development)
+- 269 homes to replace nursery at 7639 Topanga Canyon Blvd. in Canoga Park | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 269 homes; address/street: 7639 topanga canyon blvd; project/asset term: apartments)
+- New plan for housing at 452 N. Los Robles Ave. in Pasadena | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 452 n. los robles ave; site/parcel signal: site; project/asset term: project)
+- Multifamily housing unwrapped at 4429 S. Vermont Ave. in South L.A. | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 4429 s. vermont ave; project/asset term: project)
 - Affordable housing underway at 6908 Baird Ave. in Reseda | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 6908 baird ave; project/asset term: development)
 - Affordable housing takes shape at 3985 S. Meier St. in Mar Vista | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 3985 s. meier st; project/asset term: project)
-- Costco-anchored project adds more housing at 5035 Coliseum St. in Baldwin Hills | Development Activity | rent_demand=No | development_project_anchor: Project / Asset (address/street: 5035 coliseum st; project/asset term: project)
-- Developers Break Ground on 420-Unit Multifamily Community in Metro D.C. | Development Activity | rent_demand=No | development_project_anchor: Project / Asset (unit/site count: 420-unit; project/asset term: development)
-- Continental Realty Corp. Acquires 276-Unit Multifamily Community in Metro Orlando | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 276-unit; project/asset term: community)
-- Gantry Arranges $15.6M Bridge Loan for Multifamily Redevelopment in Metro St. Louis | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 14-story; project/asset term: development)
-- Interra Realty Brokers Sale of Lakeview Adaptive Reuse Apartment Building | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 19-unit; address/street: 621 w. belmont avenue; project/asset term: apartments)
+- IPA Negotiates Sale of 399-Unit Apartment Community in Grapevine, Texas | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 399-unit; project/asset term: community)
+- Kennedy Wilson Sells 334-Unit Atlas Apartments in Issaquah, Washington for $149M | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 334-unit; project/asset term: apartments)
+- Kairoi Residential Secures $88.2M in Bridge Financing for Vixen Multifamily Community in Denver | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 334 apartments; address/street: 1150 e. colfax ave; project/asset term: community)
+- JLL Arranges Financing for 419-Unit Luxury Multifamily Development in Evanston, Illinois | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 419-unit; project/asset term: project; project financing tied to anchor: arranges financing)

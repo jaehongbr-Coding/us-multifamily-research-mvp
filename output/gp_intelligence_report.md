@@ -1,75 +1,70 @@
 # GP / Developer Intelligence Report
 
-Generated: 2026-11-18 04:02:54
+Generated: 2026-11-19 03:59:48
 
 ## Top Institutional Signals
 
-- JLL: acquisition; disposition / exit; refinancing; office-to-residential conversion; JV / partnership; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 100. competitive pressure indicator; review LA / California development activity.
+- IPA: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Texas, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- JLL: disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Other / Unknown, sources: Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
 - Blackstone: JV / partnership; market expansion; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 95. potential JV partnership signal; monitor JV activity.
-- Marcus & Millichap: disposition / exit; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 95. competitive pressure indicator; review LA / California development activity.
-- Berkadia: disposition / exit; refinancing; operational technology / AI adoption, Virginia, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. competitive pressure indicator; track refinancing pipeline.
-- EJF Capital: BTR expansion; JV / partnership; operational technology / AI adoption, Other / Unknown, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
-- Acquisitions Colorado Multifamily Western Rockefeller Group: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Denver / Colorado, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
+- CBRE: acquisition; disposition / exit; refinancing; operational technology / AI adoption, Beverly Hills / California, sources: Site / Parcel Source Expansion, strength 89. competitive pressure indicator; track refinancing pipeline.
+- Kennedy Wilson: acquisition; disposition / exit, Beverly Hills / California, sources: Site / Parcel Source Expansion, strength 75. pricing discovery reference; review institutional pricing signals.
 - Benefit Street Partners: JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
-- CBRE: acquisition; disposition / exit; refinancing; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track refinancing pipeline.
 - Hines: acquisition; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
-- IPA: refinancing; operational technology / AI adoption, Virginia, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
+- Kairoi Residential: refinancing; operational technology / AI adoption, Denver / Colorado, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track refinancing pipeline.
+- PCCP: JV / partnership; operational technology / AI adoption, New York, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
 
 ## Major GP Strategic Movements
 
-- JLL: acquisition; disposition / exit; refinancing; office-to-residential conversion; JV / partnership; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 100. competitive pressure indicator; review LA / California development activity.
+- IPA: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Texas, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- JLL: disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Other / Unknown, sources: Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
 - Blackstone: JV / partnership; market expansion; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 95. potential JV partnership signal; monitor JV activity.
-- Marcus & Millichap: disposition / exit; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 95. competitive pressure indicator; review LA / California development activity.
-- Berkadia: disposition / exit; refinancing; operational technology / AI adoption, Virginia, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. competitive pressure indicator; track refinancing pipeline.
-- EJF Capital: BTR expansion; JV / partnership; operational technology / AI adoption, Other / Unknown, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
-- Acquisitions Colorado Multifamily Western Rockefeller Group: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Denver / Colorado, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
+- CBRE: acquisition; disposition / exit; refinancing; operational technology / AI adoption, Beverly Hills / California, sources: Site / Parcel Source Expansion, strength 89. competitive pressure indicator; track refinancing pipeline.
+- Kennedy Wilson: acquisition; disposition / exit, Beverly Hills / California, sources: Site / Parcel Source Expansion, strength 75. pricing discovery reference; review institutional pricing signals.
 - Benefit Street Partners: JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
-- CBRE: acquisition; disposition / exit; refinancing; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track refinancing pipeline.
 - Hines: acquisition; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
-- IPA: refinancing; operational technology / AI adoption, Virginia, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
+- Kairoi Residential: refinancing; operational technology / AI adoption, Denver / Colorado, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track refinancing pipeline.
+- PCCP: JV / partnership; operational technology / AI adoption, New York, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
 
 ## California / LA Developer Activity
 
+- Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 100. competitive pressure indicator; review LA / California development activity.
 - Blackstone: JV / partnership; market expansion; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 95. potential JV partnership signal; monitor JV activity.
-- Marcus & Millichap: disposition / exit; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 95. competitive pressure indicator; review LA / California development activity.
 
 ## Sun Belt Expansion Watch
 
-- No current signal detected.
+- Greystar: acquisition; disposition / exit, Texas, sources: Site / Parcel Source Expansion, strength 71. benchmark underwriting assumptions; monitor only.
 
 ## BTR / Modular / Innovation Watch
 
-- JLL: acquisition; disposition / exit; refinancing; office-to-residential conversion; JV / partnership; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 100. competitive pressure indicator; review LA / California development activity.
+- IPA: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Texas, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- JLL: disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Other / Unknown, sources: Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
 - Blackstone: JV / partnership; market expansion; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 95. potential JV partnership signal; monitor JV activity.
-- Marcus & Millichap: disposition / exit; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 95. competitive pressure indicator; review LA / California development activity.
-- Berkadia: disposition / exit; refinancing; operational technology / AI adoption, Virginia, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. competitive pressure indicator; track refinancing pipeline.
-- EJF Capital: BTR expansion; JV / partnership; operational technology / AI adoption, Other / Unknown, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
-- Acquisitions Colorado Multifamily Western Rockefeller Group: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Denver / Colorado, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
+- CBRE: acquisition; disposition / exit; refinancing; operational technology / AI adoption, Beverly Hills / California, sources: Site / Parcel Source Expansion, strength 89. competitive pressure indicator; track refinancing pipeline.
 - Benefit Street Partners: JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
-- CBRE: acquisition; disposition / exit; refinancing; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track refinancing pipeline.
 - Hines: acquisition; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
-- IPA: refinancing; operational technology / AI adoption, Virginia, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
+- Kairoi Residential: refinancing; operational technology / AI adoption, Denver / Colorado, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track refinancing pipeline.
+- PCCP: JV / partnership; operational technology / AI adoption, New York, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
+- PMG: JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
 
 ## Distressed / Refinancing Watch
 
-- JLL: acquisition; disposition / exit; refinancing; office-to-residential conversion; JV / partnership; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
-- Berkadia: disposition / exit; refinancing; operational technology / AI adoption, Virginia, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. competitive pressure indicator; track refinancing pipeline.
-- CBRE: acquisition; disposition / exit; refinancing; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track refinancing pipeline.
-- IPA: refinancing; operational technology / AI adoption, Virginia, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
-- Kairoi Residential: refinancing; operational technology / AI adoption, Denver / Colorado, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
-- S3 Capital Partners: refinancing; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
+- JLL: disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Other / Unknown, sources: Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- CBRE: acquisition; disposition / exit; refinancing; operational technology / AI adoption, Beverly Hills / California, sources: Site / Parcel Source Expansion, strength 89. competitive pressure indicator; track refinancing pipeline.
+- Kairoi Residential: refinancing; operational technology / AI adoption, Denver / Colorado, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track refinancing pipeline.
 
 ## Potential Partnership Signals
 
-- JLL: acquisition; disposition / exit; refinancing; office-to-residential conversion; JV / partnership; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- IPA: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Texas, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
+- JLL: disposition / exit; refinancing; JV / partnership; operational technology / AI adoption, Other / Unknown, sources: Site / Parcel Source Expansion, strength 97. potential JV partnership signal; monitor JV activity.
 - Blackstone: JV / partnership; market expansion; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 95. potential JV partnership signal; monitor JV activity.
-- EJF Capital: BTR expansion; JV / partnership; operational technology / AI adoption, Other / Unknown, sources: Site / Parcel Source Expansion, strength 89. potential JV partnership signal; monitor JV activity.
-- Acquisitions Colorado Multifamily Western Rockefeller Group: acquisition; disposition / exit; JV / partnership; operational technology / AI adoption, Denver / Colorado, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
 - Benefit Street Partners: JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
 - Hines: acquisition; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
-- Jasmine Kilman EJF Capital: BTR expansion; JV / partnership; operational technology / AI adoption, Other / Unknown, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
+- PCCP: JV / partnership; operational technology / AI adoption, New York, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
 - PMG: JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
-- S3 Capital Partners: refinancing; JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
 - Tempe Rental Community CrossHarbor Capital Partners: JV / partnership; operational technology / AI adoption, Phoenix / Arizona, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
 
 ## Institutional Relationship Layer
@@ -77,17 +72,17 @@ Generated: 2026-11-18 04:02:54
 Firm-tier weighting, capital-flow inference, and relationship scoring are available in `institutional_relationship_report.md`.
 
 - Blackstone: Tier 1 / Immediate Strategic Importance, Operational / Platform Investment, Potential JV / Partnership Signal.
-- JLL: Tier 3 / Growth and Market Signal Watch, Capital Inflow, Potential JV / Partnership Signal.
-- Marcus & Millichap: Tier 3 / Growth and Market Signal Watch, Capital Outflow / Exit, GP Capability Benchmark Signal.
+- JLL: Tier 3 / Growth and Market Signal Watch, Capital Outflow / Exit, Potential JV / Partnership Signal.
+- Kennedy Wilson: Tier 1 / Immediate Strategic Importance, Capital Inflow, Pricing Discovery Signal.
 
 ## Deal / Project Pipeline Context
 
 Deal and project extraction is available in `deal_pipeline_report.md`.
-- Berkadia: Disposition / Exit, Virginia, Capital market signal.
 - Blackstone: JV / Partnership, California, GP partnership reference.
 - CBRE: Acquisition, Atlanta / Georgia, Pricing benchmark.
+- Kennedy Wilson: Acquisition, Beverly Hills / California, Pricing benchmark.
+- Kairoi Residential: General Project Signal, Denver / Colorado, Capital market signal.
 - Marcus & Millichap: Disposition / Exit, California, Entitlement / zoning watch.
-- Hines: Acquisition, Atlanta / Georgia, Pricing benchmark.
 
 ## Relationship Graph Context
 
@@ -95,23 +90,22 @@ Developer and GP relationship edges are available in `relationship_graph_report.
 - Blackstone -> California: JV / Partnership.
 - Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: JV / Partnership.
 - Blackstone -> blackstone: JV / Partnership.
-- Berkadia -> berkadia: Financing Relationship.
-- CBRE -> cbre: Financing Relationship.
+- Kennedy Wilson -> cbre: Financing Relationship.
+- Kennedy Wilson -> kennedy wilson: Acquisition / Buyer.
 
 ## Competitive Landscape Implications for Woomi
 
 - Immediate Watch platforms may provide pricing discovery, capital-market sentiment, or competitive signals for Woomi.
 - Partnership signals should be reviewed for possible GP relationship mapping.
 - California / LA GP activity should be compared against Woomi's local entitlement and development strategy.
-- Innovation or BTR signals may help benchmark construction strategy, operating model, and product design.
 
 ## Recommended Executive Follow-Up
 
+- Marcus & Millichap: review LA / California development activity
+- IPA: monitor JV activity
 - JLL: monitor JV activity
 - Blackstone: monitor JV activity
-- Marcus & Millichap: review LA / California development activity
-- Berkadia: track refinancing pipeline
-- EJF Capital: monitor JV activity
-- Acquisitions Colorado Multifamily Western Rockefeller Group: monitor JV activity
-- Benefit Street Partners: monitor JV activity
 - CBRE: track refinancing pipeline
+- Kennedy Wilson: review institutional pricing signals
+- Benefit Street Partners: monitor JV activity
+- Hines: monitor JV activity

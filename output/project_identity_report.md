@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-11-18 04:03:07
+Generated: 2026-11-19 04:00:03
 
-- Total raw project references: 564
-- Total canonical projects: 145
-- Duplicate project clusters: 98
-- High-confidence project identities: 564
+- Total raw project references: 472
+- Total canonical projects: 124
+- Duplicate project clusters: 86
+- High-confidence project identities: 472
 - Low-confidence identities needing review: 0
-- LA / California project references: 403
+- LA / California project references: 307
 
 ## Top Repeated Projects
 
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 46 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 46 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 46 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 46 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 46 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 46 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 46 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 46 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 46 occurrence(s), confidence 80.
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago’s Lakevi...: 46 occurrence(s), confidence 80.
+- General Project Signal - Los Angeles / California - Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction: 35 occurrence(s), confidence 80.
+- General Project Signal - Los Angeles / California - Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction: 35 occurrence(s), confidence 80.
+- General Project Signal - Los Angeles / California - Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction: 35 occurrence(s), confidence 80.
+- General Project Signal - Los Angeles / California - Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction: 35 occurrence(s), confidence 80.
+- General Project Signal - Los Angeles / California - Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction: 35 occurrence(s), confidence 80.
+- General Project Signal - Los Angeles / California - Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction: 35 occurrence(s), confidence 80.
+- General Project Signal - Los Angeles / California - Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction: 35 occurrence(s), confidence 80.
+- General Project Signal - Los Angeles / California - Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction: 35 occurrence(s), confidence 80.
+- General Project Signal - Los Angeles / California - Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction: 35 occurrence(s), confidence 80.
+- General Project Signal - Los Angeles / California - Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction: 35 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

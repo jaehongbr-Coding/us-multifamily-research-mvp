@@ -1,6 +1,6 @@
 # LLM Prompt Pack for US Multifamily Strategy Analysis
 
-Generated: 2026-11-19 03:59:48
+Generated: 2026-11-20 03:53:38
 
 ## Instructions
 
@@ -8,9 +8,9 @@ This file prepares prompts for a future GPT-based analysis layer.
 The current MVP does not call a paid LLM API.
 Copy one prompt at a time into an LLM, or use this file later as input for an API workflow.
 
-Prompt count: 34
+Prompt count: 39
 
-## Prompt 1: American Campus Communities Expands Partnership with UC Irvine
+## Prompt 1: Kennedy Wilson Breaks Ground on Luxury Multifamily in Atlanta Metro
 
 - Quality score: 98
 - Quality label: Excellent
@@ -21,13 +21,153 @@ You are a strategic research analyst for Woomi / Woomi Global.
 Analyze the following US multifamily housing article for developer strategy.
 
 Article context:
-- Title: American Campus Communities Expands Partnership with UC Irvine
-- Source: Connect CRE Orange County
-- URL: https://www.connectcre.com/stories/american-campus-communities-expands-partnership-with-uc-irvine/
+- Title: Kennedy Wilson Breaks Ground on Luxury Multifamily in Atlanta Metro
+- Source: Yield PRO
+- URL: https://yieldpro.com/2026/11/35-glenlake-parkway/
+- Market focus: Atlanta / Georgia
+- Strategic angle: Financing Risk; Institutional Flow; Developer Strategy
+- Market signal: Deal Size Signal
+- Extracted numbers: $139 million; $90 million
+- Strategic implication: Monitor financing conditions because the article includes apartment, construction, development and $139 million, $90 million, which may affect construction loans, refinancing risk, and exit cap rates.
+- Woomi relevance: High relevance to US residential developer strategy
+
+Please answer in concise bullet points:
+1. Why does this article matter for a US multifamily developer?
+2. What is the implication for Woomi / Woomi Global?
+3. What risk or opportunity does this indicate?
+4. What follow-up question should the strategy team ask?
+```
+
+## Prompt 2: Bain Capital Joint Venture Secures $94M for Las Vegas Luxury Multifamily Senior Development
+
+- Quality score: 98
+- Quality label: Excellent
+- Missing context: None
+
+```text
+You are a strategic research analyst for Woomi / Woomi Global.
+Analyze the following US multifamily housing article for developer strategy.
+
+Article context:
+- Title: Bain Capital Joint Venture Secures $94M for Las Vegas Luxury Multifamily Senior Development
+- Source: Yield PRO
+- URL: https://yieldpro.com/2026/11/morningstar-green-valley/
+- Market focus: Las Vegas / Nevada
+- Strategic angle: Financing Risk; Institutional Flow; Developer Strategy
+- Market signal: Deal Size Signal
+- Extracted numbers: $94m; $94.2 million; $110 million; $8 million
+- Strategic implication: Monitor financing conditions because the article includes construction, development, joint venture and $94m, $94.2 million, $110 million, which may affect construction loans, refinancing risk, and exit cap rates.
+- Woomi relevance: High relevance to US residential developer strategy
+
+Please answer in concise bullet points:
+1. Why does this article matter for a US multifamily developer?
+2. What is the implication for Woomi / Woomi Global?
+3. What risk or opportunity does this indicate?
+4. What follow-up question should the strategy team ask?
+```
+
+## Prompt 3: Walker & Dunlop Arranges $285M Refinancing for Fort Lauderdale Luxury Multifamily Tower
+
+- Quality score: 98
+- Quality label: Excellent
+- Missing context: None
+
+```text
+You are a strategic research analyst for Woomi / Woomi Global.
+Analyze the following US multifamily housing article for developer strategy.
+
+Article context:
+- Title: Walker & Dunlop Arranges $285M Refinancing for Fort Lauderdale Luxury Multifamily Tower
+- Source: Yield PRO
+- URL: https://yieldpro.com/2026/11/society-las-olas-phase-ii/
+- Market focus: Florida
+- Strategic angle: Financing Risk; Institutional Flow
+- Market signal: Deal Size Signal
+- Extracted numbers: $285m; $285,000,000
+- Strategic implication: Monitor financing conditions because the article includes capital markets, financing, multifamily and $285m, $285,000,000, which may affect construction loans, refinancing risk, and exit cap rates.
+- Woomi relevance: High relevance to US residential developer strategy
+
+Please answer in concise bullet points:
+1. Why does this article matter for a US multifamily developer?
+2. What is the implication for Woomi / Woomi Global?
+3. What risk or opportunity does this indicate?
+4. What follow-up question should the strategy team ask?
+```
+
+## Prompt 4: Advanced Real Estate Buys Casitas Apartments in Ontario, California for $56.2M
+
+- Quality score: 98
+- Quality label: Excellent
+- Missing context: None
+
+```text
+You are a strategic research analyst for Woomi / Woomi Global.
+Analyze the following US multifamily housing article for developer strategy.
+
+Article context:
+- Title: Advanced Real Estate Buys Casitas Apartments in Ontario, California for $56.2M
+- Source: REBusiness Online
+- URL: https://rebusinessonline.com/advanced-real-estate-buys-casitas-apartments-in-ontario-california-for-56-2m/
 - Market focus: California
+- Strategic angle: Financing Risk; Institutional Flow; Developer Strategy
+- Market signal: Deal Size Signal
+- Extracted numbers: $56.2m; $56.2 million
+- Strategic implication: Monitor financing conditions because the article includes acquisition, apartment, apartments and $56.2m, $56.2 million, which may affect construction loans, refinancing risk, and exit cap rates.
+- Woomi relevance: High relevance to US residential developer strategy
+
+Please answer in concise bullet points:
+1. Why does this article matter for a US multifamily developer?
+2. What is the implication for Woomi / Woomi Global?
+3. What risk or opportunity does this indicate?
+4. What follow-up question should the strategy team ask?
+```
+
+## Prompt 5: Marcus & Millichap Arranges $25.8M Sale of Indianapolis Multifamily Portfolio
+
+- Quality score: 98
+- Quality label: Excellent
+- Missing context: None
+
+```text
+You are a strategic research analyst for Woomi / Woomi Global.
+Analyze the following US multifamily housing article for developer strategy.
+
+Article context:
+- Title: Marcus & Millichap Arranges $25.8M Sale of Indianapolis Multifamily Portfolio
+- Source: REBusiness Online
+- URL: https://rebusinessonline.com/marcus-millichap-arranges-25-8m-sale-of-indianapolis-multifamily-portfolio/
+- Market focus: Austin / Texas
+- Strategic angle: Institutional Flow
+- Market signal: Supply / Starts Signal
+- Extracted numbers: $25.8m; $25.8 million; 181 units; 73 apartments
+- Strategic implication: Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in Austin / Texas.
+- Woomi relevance: High relevance to US residential developer strategy
+
+Please answer in concise bullet points:
+1. Why does this article matter for a US multifamily developer?
+2. What is the implication for Woomi / Woomi Global?
+3. What risk or opportunity does this indicate?
+4. What follow-up question should the strategy team ask?
+```
+
+## Prompt 6: Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago
+
+- Quality score: 90
+- Quality label: Excellent
+- Missing context: missing market focus
+
+```text
+You are a strategic research analyst for Woomi / Woomi Global.
+Analyze the following US multifamily housing article for developer strategy.
+
+Article context:
+- Title: Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago
+- Source: REBusiness Online
+- URL: https://rebusinessonline.com/interra-realty-brokers-7-2m-sale-of-adaptive-reuse-apartment-building-in-chicago/
+- Market focus: Other / Unknown
 - Strategic angle: Institutional Flow; Developer Strategy
 - Market signal: Deal Size Signal
-- Extracted numbers: $191
+- Extracted numbers: $7.2m; $7.2 million
 - Strategic implication: Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals.
 - Woomi relevance: High relevance to US residential developer strategy
 
@@ -38,7 +178,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 2: PCCP Joint Venture Announce Development of Class A Multifamily Property in Baldwin New York
+## Prompt 7: JBG Smith Affiliate Leads $52M NoVA Apartment Buy With Amazon Financing
 
 - Quality score: 98
 - Quality label: Excellent
@@ -49,42 +189,14 @@ You are a strategic research analyst for Woomi / Woomi Global.
 Analyze the following US multifamily housing article for developer strategy.
 
 Article context:
-- Title: PCCP Joint Venture Announce Development of Class A Multifamily Property in Baldwin New York
-- Source: Yield PRO
-- URL: https://yieldpro.com/2026/11/the-grand-baldwin/
-- Market focus: New York
-- Strategic angle: Institutional Flow; Developer Strategy
-- Market signal: Supply / Starts Signal
-- Extracted numbers: 90%; 10%
-- Strategic implication: Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in New York.
-- Woomi relevance: High relevance to US residential developer strategy
-
-Please answer in concise bullet points:
-1. Why does this article matter for a US multifamily developer?
-2. What is the implication for Woomi / Woomi Global?
-3. What risk or opportunity does this indicate?
-4. What follow-up question should the strategy team ask?
-```
-
-## Prompt 3: Ascent Developer Solutions Closes $220M Residential Loan Securitization
-
-- Quality score: 98
-- Quality label: Excellent
-- Missing context: None
-
-```text
-You are a strategic research analyst for Woomi / Woomi Global.
-Analyze the following US multifamily housing article for developer strategy.
-
-Article context:
-- Title: Ascent Developer Solutions Closes $220M Residential Loan Securitization
+- Title: JBG Smith Affiliate Leads $52M NoVA Apartment Buy With Amazon Financing
 - Source: Commercial Observer
-- URL: https://commercialobserver.com/2026/11/ascent-developer-solutions-closes-220m-residential-loan-securitization/
-- Market focus: Los Angeles / California
-- Strategic angle: Financing Risk; Developer Strategy
+- URL: https://commercialobserver.com/2026/11/jbg-smith-leo-virginia-multifamily-amazon/
+- Market focus: Northern Virginia / Virginia
+- Strategic angle: Financing Risk; Institutional Flow
 - Market signal: Deal Size Signal
-- Extracted numbers: $220m; $220 million; $206 million
-- Strategic implication: Monitor financing conditions because the article includes apartment, construction, developer and $220m, $220 million, $206 million, which may affect construction loans, refinancing risk, and exit cap rates.
+- Extracted numbers: $52m; $51.5 million; $293,000
+- Strategic implication: Monitor financing conditions because the article includes acquisition, apartment, financing and $52m, $51.5 million, $293,000, which may affect construction loans, refinancing risk, and exit cap rates.
 - Woomi relevance: High relevance to US residential developer strategy
 
 Please answer in concise bullet points:
@@ -94,7 +206,35 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 4: Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction
+## Prompt 8: Colliers Brokers Sale of 365-Unit Apartment Community in Katy, Texas
+
+- Quality score: 82
+- Quality label: Good
+- Missing context: missing extracted numbers; missing market signal
+
+```text
+You are a strategic research analyst for Woomi / Woomi Global.
+Analyze the following US multifamily housing article for developer strategy.
+
+Article context:
+- Title: Colliers Brokers Sale of 365-Unit Apartment Community in Katy, Texas
+- Source: REBusiness Online
+- URL: https://rebusinessonline.com/colliers-brokers-sale-of-365-unit-apartment-community-in-katy-texas/
+- Market focus: Houston / Texas
+- Strategic angle: Institutional Flow; Developer Strategy
+- Market signal: No Clear Numeric Signal
+- Extracted numbers: None detected
+- Strategic implication: Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals.
+- Woomi relevance: High relevance to US residential developer strategy
+
+Please answer in concise bullet points:
+1. Why does this article matter for a US multifamily developer?
+2. What is the implication for Woomi / Woomi Global?
+3. What risk or opportunity does this indicate?
+4. What follow-up question should the strategy team ask?
+```
+
+## Prompt 9: Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction
 
 - Quality score: 98
 - Quality label: Excellent
@@ -106,7 +246,7 @@ Analyze the following US multifamily housing article for developer strategy.
 
 Article context:
 - Title: Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction
-- Source: Connect CRE
+- Source: Connect CRE California
 - URL: https://www.connectcre.com/stories/los-angeles-ranks-5th-in-the-nation-for-number-of-apartment-units-under-construction/
 - Market focus: Los Angeles / California
 - Strategic angle: Supply Pressure; Developer Strategy
@@ -122,63 +262,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 5: IPA Negotiates Sale of 399-Unit Apartment Community in Grapevine, Texas
-
-- Quality score: 98
-- Quality label: Excellent
-- Missing context: None
-
-```text
-You are a strategic research analyst for Woomi / Woomi Global.
-Analyze the following US multifamily housing article for developer strategy.
-
-Article context:
-- Title: IPA Negotiates Sale of 399-Unit Apartment Community in Grapevine, Texas
-- Source: REBusiness Online
-- URL: https://rebusinessonline.com/ipa-negotiates-sale-of-399-unit-apartment-community-in-grapevine-texas/
-- Market focus: Texas
-- Strategic angle: Institutional Flow
-- Market signal: Supply / Starts Signal
-- Extracted numbers: 399 units
-- Strategic implication: Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in Texas.
-- Woomi relevance: High relevance to US residential developer strategy
-
-Please answer in concise bullet points:
-1. Why does this article matter for a US multifamily developer?
-2. What is the implication for Woomi / Woomi Global?
-3. What risk or opportunity does this indicate?
-4. What follow-up question should the strategy team ask?
-```
-
-## Prompt 6: Kennedy Wilson Sells 334-Unit Atlas Apartments in Issaquah, Washington for $149M
-
-- Quality score: 98
-- Quality label: Excellent
-- Missing context: None
-
-```text
-You are a strategic research analyst for Woomi / Woomi Global.
-Analyze the following US multifamily housing article for developer strategy.
-
-Article context:
-- Title: Kennedy Wilson Sells 334-Unit Atlas Apartments in Issaquah, Washington for $149M
-- Source: REBusiness Online
-- URL: https://rebusinessonline.com/kennedy-wilson-sells-334-unit-atlas-apartments-in-issaquah-washington-for-149m/
-- Market focus: Beverly Hills / California
-- Strategic angle: Institutional Flow
-- Market signal: Supply / Starts Signal
-- Extracted numbers: $149m; $149 million
-- Strategic implication: Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in Beverly Hills / California.
-- Woomi relevance: High relevance to US residential developer strategy
-
-Please answer in concise bullet points:
-1. Why does this article matter for a US multifamily developer?
-2. What is the implication for Woomi / Woomi Global?
-3. What risk or opportunity does this indicate?
-4. What follow-up question should the strategy team ask?
-```
-
-## Prompt 7: MTA Approves EMP Capital as Developer of 1119 Pacific Street in Brooklyn
+## Prompt 10: Work Underway on 33-Story Charlotte Mixed-Use Development
 
 - Quality score: 82
 - Quality label: Good
@@ -189,14 +273,42 @@ You are a strategic research analyst for Woomi / Woomi Global.
 Analyze the following US multifamily housing article for developer strategy.
 
 Article context:
-- Title: MTA Approves EMP Capital as Developer of 1119 Pacific Street in Brooklyn
-- Source: Commercial Observer
-- URL: https://commercialobserver.com/2026/11/mta-emp-capital-1119-pacific-street-brooklyn/
-- Market focus: New York City / New York
+- Title: Work Underway on 33-Story Charlotte Mixed-Use Development
+- Source: Connect CRE Apartments
+- URL: https://www.connectcre.com/stories/work-underway-on-33-story-charlotte-mixed-use-development/
+- Market focus: Atlanta / Georgia
 - Strategic angle: Developer Strategy
 - Market signal: No Clear Numeric Signal
 - Extracted numbers: None detected
 - Strategic implication: Review for developer strategy because the article may inform site selection, product type, adaptive reuse, build-to-rent, or market entry.
+- Woomi relevance: Medium relevance to market monitoring
+
+Please answer in concise bullet points:
+1. Why does this article matter for a US multifamily developer?
+2. What is the implication for Woomi / Woomi Global?
+3. What risk or opportunity does this indicate?
+4. What follow-up question should the strategy team ask?
+```
+
+## Prompt 11: Walker & Dunlop Arranges $270M Refi for Journal Square Apartments
+
+- Quality score: 90
+- Quality label: Excellent
+- Missing context: missing market signal
+
+```text
+You are a strategic research analyst for Woomi / Woomi Global.
+Analyze the following US multifamily housing article for developer strategy.
+
+Article context:
+- Title: Walker & Dunlop Arranges $270M Refi for Journal Square Apartments
+- Source: Connect CRE
+- URL: https://www.connectcre.com/stories/walker-dunlop-arranges-270m-refi-for-journal-square-apartments/
+- Market focus: New York
+- Strategic angle: Financing Risk; Institutional Flow; Developer Strategy
+- Market signal: No Clear Numeric Signal
+- Extracted numbers: $270m; $270,000,000
+- Strategic implication: Monitor financing conditions because the article includes apartment, apartments, capital markets and $270m, $270,000,000, which may affect construction loans, refinancing risk, and exit cap rates.
 - Woomi relevance: High relevance to US residential developer strategy
 
 Please answer in concise bullet points:
@@ -206,7 +318,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 8: Multifamily starts climb in October
+## Prompt 12: Walker & Dunlop Arranges $270M Loan for Refinancing of Jersey City Apartment Tower
 
 - Quality score: 90
 - Quality label: Excellent
@@ -217,14 +329,14 @@ You are a strategic research analyst for Woomi / Woomi Global.
 Analyze the following US multifamily housing article for developer strategy.
 
 Article context:
-- Title: Multifamily starts climb in October
-- Source: Yield PRO
-- URL: https://yieldpro.com/2026/11/multifamily-starts-climb-in-october/
+- Title: Walker & Dunlop Arranges $270M Loan for Refinancing of Jersey City Apartment Tower
+- Source: REBusiness Online
+- URL: https://rebusinessonline.com/walker-dunlop-arranges-270m-loan-for-refinancing-of-jersey-city-apartment-tower/
 - Market focus: Other / Unknown
-- Strategic angle: Supply Pressure
-- Market signal: Supply / Starts Signal
-- Extracted numbers: 475,000 units
-- Strategic implication: Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in Other / Unknown.
+- Strategic angle: Financing Risk; Developer Strategy
+- Market signal: Rent Growth Signal
+- Extracted numbers: $270m; $270 million; 622 apartments
+- Strategic implication: Monitor financing conditions because the article includes apartment, apartments, developer and $270m, $270 million, 622 apartments, which may affect construction loans, refinancing risk, and exit cap rates.
 - Woomi relevance: High relevance to US residential developer strategy
 
 Please answer in concise bullet points:
@@ -234,35 +346,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 9: Portman Begins Mixed-Use Redevelopment of 20-Acre Office Campus in Metro Atlanta
-
-- Quality score: 82
-- Quality label: Good
-- Missing context: missing extracted numbers; missing market signal
-
-```text
-You are a strategic research analyst for Woomi / Woomi Global.
-Analyze the following US multifamily housing article for developer strategy.
-
-Article context:
-- Title: Portman Begins Mixed-Use Redevelopment of 20-Acre Office Campus in Metro Atlanta
-- Source: REBusiness Online
-- URL: https://rebusinessonline.com/portman-begins-mixed-use-redevelopment-of-20-acre-office-campus-in-metro-atlanta/
-- Market focus: Atlanta / Georgia
-- Strategic angle: Regulation Risk; Institutional Flow; Developer Strategy
-- Market signal: No Clear Numeric Signal
-- Extracted numbers: None detected
-- Strategic implication: Monitor regulation risk because the article may affect entitlement, zoning, rent rules, affordability requirements, or permitting strategy.
-- Woomi relevance: Medium relevance to market monitoring
-
-Please answer in concise bullet points:
-1. Why does this article matter for a US multifamily developer?
-2. What is the implication for Woomi / Woomi Global?
-3. What risk or opportunity does this indicate?
-4. What follow-up question should the strategy team ask?
-```
-
-## Prompt 10: Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower
+## Prompt 13: Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower
 
 - Quality score: 98
 - Quality label: Excellent
@@ -290,7 +374,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 11: 3 apartment projects broke ground last week
+## Prompt 14: 3 apartment projects broke ground last week
 
 - Quality score: 82
 - Quality label: Good
@@ -318,7 +402,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 12: Work Underway on 311-Unit Oakland Park Apartment Building
+## Prompt 15: Work Underway on 311-Unit Oakland Park Apartment Building
 
 - Quality score: 98
 - Quality label: Excellent
@@ -346,35 +430,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 13: Merchants Capital Secures $15M for Affordable Housing Development
-
-- Quality score: 90
-- Quality label: Excellent
-- Missing context: missing market signal
-
-```text
-You are a strategic research analyst for Woomi / Woomi Global.
-Analyze the following US multifamily housing article for developer strategy.
-
-Article context:
-- Title: Merchants Capital Secures $15M for Affordable Housing Development
-- Source: Connect CRE Apartments
-- URL: https://www.connectcre.com/stories/merchants-capital-secures-15m-for-affordable-housing-development/
-- Market focus: Sun Belt
-- Strategic angle: Financing Risk; Regulation Risk; Developer Strategy
-- Market signal: No Clear Numeric Signal
-- Extracted numbers: $15m; $15.5 million; $11.1 million; $4.4 million
-- Strategic implication: Monitor financing conditions because the article includes affordable housing, construction, development and $15m, $15.5 million, $11.1 million, which may affect construction loans, refinancing risk, and exit cap rates.
-- Woomi relevance: Medium relevance to market monitoring
-
-Please answer in concise bullet points:
-1. Why does this article matter for a US multifamily developer?
-2. What is the implication for Woomi / Woomi Global?
-3. What risk or opportunity does this indicate?
-4. What follow-up question should the strategy team ask?
-```
-
-## Prompt 14: JLL Arranges Financing for 419-Unit Luxury Multifamily Development in Evanston, Illinois
+## Prompt 16: Sherman Associates Marks First Residential Opening at Beltline Station in St. Louis Park
 
 - Quality score: 74
 - Quality label: Good
@@ -385,98 +441,42 @@ You are a strategic research analyst for Woomi / Woomi Global.
 Analyze the following US multifamily housing article for developer strategy.
 
 Article context:
-- Title: JLL Arranges Financing for 419-Unit Luxury Multifamily Development in Evanston, Illinois
-- Source: REBusiness Online
-- URL: https://rebusinessonline.com/jll-arranges-financing-for-419-unit-luxury-multifamily-development-in-evanston-illinois/
+- Title: Sherman Associates Marks First Residential Opening at Beltline Station in St. Louis Park
+- Source: Connect CRE Apartments
+- URL: https://www.connectcre.com/stories/sherman-associates-marks-first-residential-opening-at-beltline-station-in-st-louis-park/
 - Market focus: Other / Unknown
-- Strategic angle: Financing Risk; Institutional Flow; Developer Strategy
+- Strategic angle: Developer Strategy
 - Market signal: No Clear Numeric Signal
 - Extracted numbers: None detected
-- Strategic implication: Monitor financing conditions because the article includes affordable housing, capital markets, construction and no specific number, which may affect construction loans, refinancing risk, and exit cap rates.
-- Woomi relevance: High relevance to US residential developer strategy
-
-Please answer in concise bullet points:
-1. Why does this article matter for a US multifamily developer?
-2. What is the implication for Woomi / Woomi Global?
-3. What risk or opportunity does this indicate?
-4. What follow-up question should the strategy team ask?
-```
-
-## Prompt 15: Morgan Completes 345-Unit Multifamily Project in North Austin
-
-- Quality score: 98
-- Quality label: Excellent
-- Missing context: None
-
-```text
-You are a strategic research analyst for Woomi / Woomi Global.
-Analyze the following US multifamily housing article for developer strategy.
-
-Article context:
-- Title: Morgan Completes 345-Unit Multifamily Project in North Austin
-- Source: REBusiness Online
-- URL: https://rebusinessonline.com/morgan-completes-345-unit-multifamily-project-in-north-austin/
-- Market focus: Austin / Texas
-- Strategic angle: Developer Strategy
-- Market signal: Rent Growth Signal
-- Extracted numbers: $1,600; $1,600 per month
-- Strategic implication: Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Austin / Texas.
-- Woomi relevance: Medium relevance to market monitoring
-
-Please answer in concise bullet points:
-1. Why does this article matter for a US multifamily developer?
-2. What is the implication for Woomi / Woomi Global?
-3. What risk or opportunity does this indicate?
-4. What follow-up question should the strategy team ask?
-```
-
-## Prompt 16: 13th Floor, ANF Complete $89M Hallandale Beach Rental Community
-
-- Quality score: 98
-- Quality label: Excellent
-- Missing context: None
-
-```text
-You are a strategic research analyst for Woomi / Woomi Global.
-Analyze the following US multifamily housing article for developer strategy.
-
-Article context:
-- Title: 13th Floor, ANF Complete $89M Hallandale Beach Rental Community
-- Source: Connect CRE South Florida
-- URL: https://www.connectcre.com/stories/13th-floor-anf-complete-89m-hallandale-beach-rental-community/
-- Market focus: Miami / Florida
-- Strategic angle: Developer Strategy
-- Market signal: Rent Growth Signal
-- Extracted numbers: $89m; $89 million
-- Strategic implication: Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Miami / Florida.
-- Woomi relevance: Medium relevance to market monitoring
-
-Please answer in concise bullet points:
-1. Why does this article matter for a US multifamily developer?
-2. What is the implication for Woomi / Woomi Global?
-3. What risk or opportunity does this indicate?
-4. What follow-up question should the strategy team ask?
-```
-
-## Prompt 17: Denver Investor Pays $193M for Fenway Apartment Complex
-
-- Quality score: 90
-- Quality label: Excellent
-- Missing context: missing market signal
-
-```text
-You are a strategic research analyst for Woomi / Woomi Global.
-Analyze the following US multifamily housing article for developer strategy.
-
-Article context:
-- Title: Denver Investor Pays $193M for Fenway Apartment Complex
-- Source: Connect CRE
-- URL: https://www.connectcre.com/stories/denver-investor-pays-193m-for-fenway-apartment-complex/
-- Market focus: Denver / Colorado
-- Strategic angle: Developer Strategy
-- Market signal: No Clear Numeric Signal
-- Extracted numbers: $193m; $193 million; $617,000
 - Strategic implication: Review for developer strategy because the article may inform site selection, product type, adaptive reuse, build-to-rent, or market entry.
+- Woomi relevance: Medium relevance to market monitoring
+
+Please answer in concise bullet points:
+1. Why does this article matter for a US multifamily developer?
+2. What is the implication for Woomi / Woomi Global?
+3. What risk or opportunity does this indicate?
+4. What follow-up question should the strategy team ask?
+```
+
+## Prompt 17: Merchants Capital Provides $15.5M Financing for Charlotte Affordable Housing Project
+
+- Quality score: 98
+- Quality label: Excellent
+- Missing context: None
+
+```text
+You are a strategic research analyst for Woomi / Woomi Global.
+Analyze the following US multifamily housing article for developer strategy.
+
+Article context:
+- Title: Merchants Capital Provides $15.5M Financing for Charlotte Affordable Housing Project
+- Source: REBusiness Online
+- URL: https://rebusinessonline.com/merchants-capital-provides-15-5m-financing-for-charlotte-affordable-housing-project/
+- Market focus: Sun Belt
+- Strategic angle: Financing Risk; Regulation Risk; Developer Strategy
+- Market signal: Supply / Starts Signal
+- Extracted numbers: $15.5m; $15.5 million; $11.1 million; $4.4 million
+- Strategic implication: Monitor financing conditions because the article includes affordable housing, construction, developer and $15.5m, $15.5 million, $11.1 million, which may affect construction loans, refinancing risk, and exit cap rates.
 - Woomi relevance: High relevance to US residential developer strategy
 
 Please answer in concise bullet points:
@@ -486,7 +486,63 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 18: Affordable housing takes shape at 3985 S. Meier St. in Mar Vista
+## Prompt 18: Bell Partners Spends $149M on MF Property in Issaquah, Washington
+
+- Quality score: 98
+- Quality label: Excellent
+- Missing context: None
+
+```text
+You are a strategic research analyst for Woomi / Woomi Global.
+Analyze the following US multifamily housing article for developer strategy.
+
+Article context:
+- Title: Bell Partners Spends $149M on MF Property in Issaquah, Washington
+- Source: Connect CRE
+- URL: https://www.connectcre.com/stories/bell-partners-spends-149m-on-res-community-in-issaquah-washington/
+- Market focus: Seattle
+- Strategic angle: Developer Strategy
+- Market signal: Deal Size Signal
+- Extracted numbers: $149m; $149
+- Strategic implication: Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals.
+- Woomi relevance: High relevance to US residential developer strategy
+
+Please answer in concise bullet points:
+1. Why does this article matter for a US multifamily developer?
+2. What is the implication for Woomi / Woomi Global?
+3. What risk or opportunity does this indicate?
+4. What follow-up question should the strategy team ask?
+```
+
+## Prompt 19: Centennial Bank Lends $51M to Expand Miami-Dade Nursing Home
+
+- Quality score: 98
+- Quality label: Excellent
+- Missing context: None
+
+```text
+You are a strategic research analyst for Woomi / Woomi Global.
+Analyze the following US multifamily housing article for developer strategy.
+
+Article context:
+- Title: Centennial Bank Lends $51M to Expand Miami-Dade Nursing Home
+- Source: Commercial Observer
+- URL: https://commercialobserver.com/2026/11/abraham-shaulson-millennium-management-manuel-scharf-terraces-of-hialeah-centennial-bank/
+- Market focus: Miami / Florida
+- Strategic angle: Financing Risk; Developer Strategy
+- Market signal: Supply / Starts Signal
+- Extracted numbers: $51m; $51.2 million
+- Strategic implication: Monitor financing conditions because the article includes construction, development, financing and $51m, $51.2 million, which may affect construction loans, refinancing risk, and exit cap rates.
+- Woomi relevance: High relevance to US residential developer strategy
+
+Please answer in concise bullet points:
+1. Why does this article matter for a US multifamily developer?
+2. What is the implication for Woomi / Woomi Global?
+3. What risk or opportunity does this indicate?
+4. What follow-up question should the strategy team ask?
+```
+
+## Prompt 20: Plans Take Shape for Mixed-Use Project Next to the Hillsdale Caltrain Station
 
 - Quality score: 82
 - Quality label: Good
@@ -497,15 +553,15 @@ You are a strategic research analyst for Woomi / Woomi Global.
 Analyze the following US multifamily housing article for developer strategy.
 
 Article context:
-- Title: Affordable housing takes shape at 3985 S. Meier St. in Mar Vista
-- Source: Urbanize LA
-- URL: https://la.urbanize.city/post/affordable-housing-takes-shape-3985-s-meier-st-mar-vista
-- Market focus: Los Angeles / California
-- Strategic angle: Regulation Risk; Developer Strategy
+- Title: Plans Take Shape for Mixed-Use Project Next to the Hillsdale Caltrain Station
+- Source: Connect CRE Apartments
+- URL: https://www.connectcre.com/stories/plans-take-shape-for-mixed-use-project-next-to-the-hillsdale-caltrain-station/
+- Market focus: California
+- Strategic angle: Developer Strategy
 - Market signal: No Clear Numeric Signal
 - Extracted numbers: None detected
-- Strategic implication: Monitor regulation risk because the article may affect entitlement, zoning, rent rules, affordability requirements, or permitting strategy.
-- Woomi relevance: High relevance to US residential developer strategy
+- Strategic implication: Review for developer strategy because the article may inform site selection, product type, adaptive reuse, build-to-rent, or market entry.
+- Woomi relevance: Medium relevance to market monitoring
 
 Please answer in concise bullet points:
 1. Why does this article matter for a US multifamily developer?
@@ -514,7 +570,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 19: Kairoi Residential Secures $88.2M in Bridge Financing for Vixen Multifamily Community in Denver
+## Prompt 21: CBRE Arranges $45.6M Sale of Newly Constructed 97-Unit Luxury Multifamily Property in West New York New Jersey
 
 - Quality score: 98
 - Quality label: Excellent
@@ -525,14 +581,14 @@ You are a strategic research analyst for Woomi / Woomi Global.
 Analyze the following US multifamily housing article for developer strategy.
 
 Article context:
-- Title: Kairoi Residential Secures $88.2M in Bridge Financing for Vixen Multifamily Community in Denver
-- Source: REBusiness Online
-- URL: https://rebusinessonline.com/kairoi-residential-secures-88-2m-in-bridge-financing-for-vixen-multifamily-community-in-denver/
-- Market focus: Denver / Colorado
-- Strategic angle: Financing Risk; Institutional Flow
-- Market signal: Financing Cost Signal
-- Extracted numbers: $88.2m; $88.2 million; 334 apartments
-- Strategic implication: Monitor financing conditions because the article includes apartment, apartments, capital markets and $88.2m, $88.2 million, 334 apartments, which may affect construction loans, refinancing risk, and exit cap rates.
+- Title: CBRE Arranges $45.6M Sale of Newly Constructed 97-Unit Luxury Multifamily Property in West New York New Jersey
+- Source: Yield PRO
+- URL: https://yieldpro.com/2026/11/4901-bergenline/
+- Market focus: New York
+- Strategic angle: Institutional Flow
+- Market signal: Deal Size Signal
+- Extracted numbers: $45.6m; $45.6 million
+- Strategic implication: Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals.
 - Woomi relevance: High relevance to US residential developer strategy
 
 Please answer in concise bullet points:
@@ -542,7 +598,147 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 20: 269 homes to replace nursery at 7639 Topanga Canyon Blvd. in Canoga Park
+## Prompt 22: Astoria Apartment Complex Trades for $41M
+
+- Quality score: 98
+- Quality label: Excellent
+- Missing context: None
+
+```text
+You are a strategic research analyst for Woomi / Woomi Global.
+Analyze the following US multifamily housing article for developer strategy.
+
+Article context:
+- Title: Astoria Apartment Complex Trades for $41M
+- Source: Commercial Observer
+- URL: https://commercialobserver.com/2026/11/crescent-street-apartments-astoria-multifamily-sale/
+- Market focus: New York City / New York
+- Strategic angle: Institutional Flow
+- Market signal: Deal Size Signal
+- Extracted numbers: $41m; $41 million
+- Strategic implication: Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals.
+- Woomi relevance: High relevance to US residential developer strategy
+
+Please answer in concise bullet points:
+1. Why does this article matter for a US multifamily developer?
+2. What is the implication for Woomi / Woomi Global?
+3. What risk or opportunity does this indicate?
+4. What follow-up question should the strategy team ask?
+```
+
+## Prompt 23: Fresh renderings for infill housing at 511 S. Oak Knoll Ave. in Pasadena
+
+- Quality score: 90
+- Quality label: Excellent
+- Missing context: missing market focus
+
+```text
+You are a strategic research analyst for Woomi / Woomi Global.
+Analyze the following US multifamily housing article for developer strategy.
+
+Article context:
+- Title: Fresh renderings for infill housing at 511 S. Oak Knoll Ave. in Pasadena
+- Source: Urbanize LA
+- URL: https://la.urbanize.city/post/fresh-renderings-infill-housing-511-s-oak-knoll-ave-pasadena
+- Market focus: Other / Unknown
+- Strategic angle: Regulation Risk
+- Market signal: Rent Growth Signal
+- Extracted numbers: 46 apartments
+- Strategic implication: Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Other / Unknown.
+- Woomi relevance: High relevance to US residential developer strategy
+
+Please answer in concise bullet points:
+1. Why does this article matter for a US multifamily developer?
+2. What is the implication for Woomi / Woomi Global?
+3. What risk or opportunity does this indicate?
+4. What follow-up question should the strategy team ask?
+```
+
+## Prompt 24: Mixed-use project starts to rise at 3313 Sunset Blvd. in Silver Lake
+
+- Quality score: 98
+- Quality label: Excellent
+- Missing context: None
+
+```text
+You are a strategic research analyst for Woomi / Woomi Global.
+Analyze the following US multifamily housing article for developer strategy.
+
+Article context:
+- Title: Mixed-use project starts to rise at 3313 Sunset Blvd. in Silver Lake
+- Source: Urbanize LA
+- URL: https://la.urbanize.city/post/mixed-use-project-starts-rise-3313-sunset-blvd-silver-lake
+- Market focus: Southeast
+- Strategic angle: Supply Pressure; Regulation Risk; Developer Strategy
+- Market signal: Supply / Starts Signal
+- Extracted numbers: 86 apartments; 104 apartments
+- Strategic implication: Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in Southeast.
+- Woomi relevance: High relevance to US residential developer strategy
+
+Please answer in concise bullet points:
+1. Why does this article matter for a US multifamily developer?
+2. What is the implication for Woomi / Woomi Global?
+3. What risk or opportunity does this indicate?
+4. What follow-up question should the strategy team ask?
+```
+
+## Prompt 25: Evolve, Blue Heron Building Clayton Multifamily Community
+
+- Quality score: 98
+- Quality label: Excellent
+- Missing context: None
+
+```text
+You are a strategic research analyst for Woomi / Woomi Global.
+Analyze the following US multifamily housing article for developer strategy.
+
+Article context:
+- Title: Evolve, Blue Heron Building Clayton Multifamily Community
+- Source: Connect CRE Apartments
+- URL: https://www.connectcre.com/stories/evolve-blue-heron-building-clayton-multifamily-community/
+- Market focus: Atlanta / Georgia
+- Strategic angle: Developer Strategy
+- Market signal: Rent Growth Signal
+- Extracted numbers: $125 million
+- Strategic implication: Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Atlanta / Georgia.
+- Woomi relevance: Medium relevance to market monitoring
+
+Please answer in concise bullet points:
+1. Why does this article matter for a US multifamily developer?
+2. What is the implication for Woomi / Woomi Global?
+3. What risk or opportunity does this indicate?
+4. What follow-up question should the strategy team ask?
+```
+
+## Prompt 26: L+M Development Partners Cuts Ribbon for Renovated Chicago Apartments
+
+- Quality score: 82
+- Quality label: Good
+- Missing context: missing market focus; missing market signal
+
+```text
+You are a strategic research analyst for Woomi / Woomi Global.
+Analyze the following US multifamily housing article for developer strategy.
+
+Article context:
+- Title: L+M Development Partners Cuts Ribbon for Renovated Chicago Apartments
+- Source: Connect CRE Apartments
+- URL: https://www.connectcre.com/stories/lm-development-partners-cuts-ribbon-for-renovated-chicago-apartments/
+- Market focus: Other / Unknown
+- Strategic angle: Regulation Risk; Developer Strategy
+- Market signal: No Clear Numeric Signal
+- Extracted numbers: $14.7 million; $14.7
+- Strategic implication: Monitor regulation risk because the article may affect entitlement, zoning, rent rules, affordability requirements, or permitting strategy.
+- Woomi relevance: Medium relevance to market monitoring
+
+Please answer in concise bullet points:
+1. Why does this article matter for a US multifamily developer?
+2. What is the implication for Woomi / Woomi Global?
+3. What risk or opportunity does this indicate?
+4. What follow-up question should the strategy team ask?
+```
+
+## Prompt 27: 269 homes to replace nursery at 7639 Topanga Canyon Blvd. in Canoga Park
 
 - Quality score: 98
 - Quality label: Excellent
@@ -570,7 +766,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 21: Multifamily housing unwrapped at 4429 S. Vermont Ave. in South L.A.
+## Prompt 28: Multifamily housing unwrapped at 4429 S. Vermont Ave. in South L.A.
 
 - Quality score: 98
 - Quality label: Excellent
@@ -598,26 +794,26 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 22: Marcus & Millichap Brokers $11M Sale of Multifamily Property on Florida’s Space Coast
+## Prompt 29: McShane to Build 280-Unit Apartment Community in Hoffman Estates, Illinois
 
-- Quality score: 98
-- Quality label: Excellent
-- Missing context: None
+- Quality score: 74
+- Quality label: Good
+- Missing context: missing extracted numbers; missing market focus; missing market signal
 
 ```text
 You are a strategic research analyst for Woomi / Woomi Global.
 Analyze the following US multifamily housing article for developer strategy.
 
 Article context:
-- Title: Marcus & Millichap Brokers $11M Sale of Multifamily Property on Florida’s Space Coast
-- Source: Yield PRO
-- URL: https://yieldpro.com/2026/11/rockledge-villas/
-- Market focus: Florida
-- Strategic angle: Financing Risk; Institutional Flow
-- Market signal: Deal Size Signal
-- Extracted numbers: $11m; $11 million
-- Strategic implication: Monitor financing conditions because the article includes financing, multifamily, sale and $11m, $11 million, which may affect construction loans, refinancing risk, and exit cap rates.
-- Woomi relevance: High relevance to US residential developer strategy
+- Title: McShane to Build 280-Unit Apartment Community in Hoffman Estates, Illinois
+- Source: REBusiness Online
+- URL: https://rebusinessonline.com/mcshane-to-build-280-unit-apartment-community-in-hoffman-estates-illinois/
+- Market focus: Other / Unknown
+- Strategic angle: Developer Strategy
+- Market signal: No Clear Numeric Signal
+- Extracted numbers: None detected
+- Strategic implication: Review for developer strategy because the article may inform site selection, product type, adaptive reuse, build-to-rent, or market entry.
+- Woomi relevance: Medium relevance to market monitoring
 
 Please answer in concise bullet points:
 1. Why does this article matter for a US multifamily developer?
@@ -626,7 +822,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 23: New plan for housing at 452 N. Los Robles Ave. in Pasadena
+## Prompt 30: New plan for housing at 452 N. Los Robles Ave. in Pasadena
 
 - Quality score: 82
 - Quality label: Good
@@ -654,91 +850,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 24: JLL Arranges $31M Sale of Boutique Apartment Property in Chicago
-
-- Quality score: 90
-- Quality label: Excellent
-- Missing context: missing market focus
-
-```text
-You are a strategic research analyst for Woomi / Woomi Global.
-Analyze the following US multifamily housing article for developer strategy.
-
-Article context:
-- Title: JLL Arranges $31M Sale of Boutique Apartment Property in Chicago
-- Source: Connect CRE Apartments
-- URL: https://www.connectcre.com/stories/jll-arranges-31m-sale-of-boutique-apartment-property-in-chicago/
-- Market focus: Other / Unknown
-- Strategic angle: Financing Risk; Institutional Flow
-- Market signal: Deal Size Signal
-- Extracted numbers: $31m; $31.3 million
-- Strategic implication: Monitor financing conditions because the article includes apartment, apartments, financing and $31m, $31.3 million, which may affect construction loans, refinancing risk, and exit cap rates.
-- Woomi relevance: High relevance to US residential developer strategy
-
-Please answer in concise bullet points:
-1. Why does this article matter for a US multifamily developer?
-2. What is the implication for Woomi / Woomi Global?
-3. What risk or opportunity does this indicate?
-4. What follow-up question should the strategy team ask?
-```
-
-## Prompt 25: New $200M Tampa Rental Community to Include Mark Wahlberg’s Gym
-
-- Quality score: 98
-- Quality label: Excellent
-- Missing context: None
-
-```text
-You are a strategic research analyst for Woomi / Woomi Global.
-Analyze the following US multifamily housing article for developer strategy.
-
-Article context:
-- Title: New $200M Tampa Rental Community to Include Mark Wahlberg’s Gym
-- Source: Connect CRE Apartments
-- URL: https://www.connectcre.com/stories/new-200m-tampa-rental-community-to-include-mark-wahlbergs-gym/
-- Market focus: Tampa / Florida
-- Strategic angle: Developer Strategy
-- Market signal: Rent Growth Signal
-- Extracted numbers: $200m; $200 million
-- Strategic implication: Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Tampa / Florida.
-- Woomi relevance: Medium relevance to market monitoring
-
-Please answer in concise bullet points:
-1. Why does this article matter for a US multifamily developer?
-2. What is the implication for Woomi / Woomi Global?
-3. What risk or opportunity does this indicate?
-4. What follow-up question should the strategy team ask?
-```
-
-## Prompt 26: Multifamily starts rose in October amid high borrowing, materials costs
-
-- Quality score: 82
-- Quality label: Good
-- Missing context: missing extracted numbers; missing market signal
-
-```text
-You are a strategic research analyst for Woomi / Woomi Global.
-Analyze the following US multifamily housing article for developer strategy.
-
-Article context:
-- Title: Multifamily starts rose in October amid high borrowing, materials costs
-- Source: Multifamily Dive
-- URL: https://www.multifamilydive.com/news/multifamily-construction-starts-october-hud/875043/
-- Market focus: National
-- Strategic angle: Supply Pressure
-- Market signal: No Clear Numeric Signal
-- Extracted numbers: None detected
-- Strategic implication: Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in National.
-- Woomi relevance: High relevance to US residential developer strategy
-
-Please answer in concise bullet points:
-1. Why does this article matter for a US multifamily developer?
-2. What is the implication for Woomi / Woomi Global?
-3. What risk or opportunity does this indicate?
-4. What follow-up question should the strategy team ask?
-```
-
-## Prompt 27: Affordable housing underway at 6908 Baird Ave. in Reseda
+## Prompt 31: Affordable housing underway at 6908 Baird Ave. in Reseda
 
 - Quality score: 98
 - Quality label: Excellent
@@ -766,25 +878,53 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 28: Thompson Thrift Announces Sale of Watermark at Urban Blu in Panama City Beach Florida
+## Prompt 32: Formal Application For 167 Coleridge Street in Bernal Heights, San Francisco
 
-- Quality score: 98
-- Quality label: Excellent
-- Missing context: None
+- Quality score: 82
+- Quality label: Good
+- Missing context: missing extracted numbers; missing market signal
 
 ```text
 You are a strategic research analyst for Woomi / Woomi Global.
 Analyze the following US multifamily housing article for developer strategy.
 
 Article context:
-- Title: Thompson Thrift Announces Sale of Watermark at Urban Blu in Panama City Beach Florida
-- Source: Yield PRO
-- URL: https://yieldpro.com/2026/11/watermark-at-urban-blu/
-- Market focus: Florida
-- Strategic angle: Institutional Flow; Developer Strategy
-- Market signal: Deal Size Signal
-- Extracted numbers: 97%
-- Strategic implication: Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals.
+- Title: Formal Application For 167 Coleridge Street in Bernal Heights, San Francisco
+- Source: SF YIMBY
+- URL: https://sfyimby.com/2026/11/formal-application-for-167-coleridge-street-in-bernal-heights-san-francisco.html
+- Market focus: San Francisco / California
+- Strategic angle: Developer Strategy
+- Market signal: No Clear Numeric Signal
+- Extracted numbers: None detected
+- Strategic implication: Review for developer strategy because the article may inform site selection, product type, adaptive reuse, build-to-rent, or market entry.
+- Woomi relevance: Medium relevance to market monitoring
+
+Please answer in concise bullet points:
+1. Why does this article matter for a US multifamily developer?
+2. What is the implication for Woomi / Woomi Global?
+3. What risk or opportunity does this indicate?
+4. What follow-up question should the strategy team ask?
+```
+
+## Prompt 33: Multifamily starts rose in October amid high borrowing, materials costs
+
+- Quality score: 82
+- Quality label: Good
+- Missing context: missing extracted numbers; missing market signal
+
+```text
+You are a strategic research analyst for Woomi / Woomi Global.
+Analyze the following US multifamily housing article for developer strategy.
+
+Article context:
+- Title: Multifamily starts rose in October amid high borrowing, materials costs
+- Source: Multifamily Dive
+- URL: https://www.multifamilydive.com/news/multifamily-construction-starts-october-hud/875043/
+- Market focus: National
+- Strategic angle: Supply Pressure
+- Market signal: No Clear Numeric Signal
+- Extracted numbers: None detected
+- Strategic implication: Review this as a supply risk signal because it references new deliveries, starts, pipeline, or permits in National.
 - Woomi relevance: High relevance to US residential developer strategy
 
 Please answer in concise bullet points:
@@ -794,7 +934,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 29: How apartment developers can successfully install connected services
+## Prompt 34: How apartment developers can successfully install connected services
 
 - Quality score: 74
 - Quality label: Good
@@ -822,26 +962,26 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 30: McShane Construction Company Selected to Build a 10-Building 280-Unit Apartment Community in Hoffman Estates Illinois
+## Prompt 35: HTG Celebrates Grand Opening of $34.2M Mixed-Income Community in Houston’s Energy Corridor
 
-- Quality score: 74
-- Quality label: Good
-- Missing context: missing extracted numbers; missing market focus; missing market signal
+- Quality score: 90
+- Quality label: Excellent
+- Missing context: missing market signal
 
 ```text
 You are a strategic research analyst for Woomi / Woomi Global.
 Analyze the following US multifamily housing article for developer strategy.
 
 Article context:
-- Title: McShane Construction Company Selected to Build a 10-Building 280-Unit Apartment Community in Hoffman Estates Illinois
+- Title: HTG Celebrates Grand Opening of $34.2M Mixed-Income Community in Houston’s Energy Corridor
 - Source: Yield PRO
-- URL: https://yieldpro.com/2026/11/fieldhouse-at-prairie-stone/
-- Market focus: Other / Unknown
-- Strategic angle: Rent Growth / Demand
+- URL: https://yieldpro.com/2026/11/the-rushmore-2/
+- Market focus: Houston / Texas
+- Strategic angle: Developer Strategy
 - Market signal: No Clear Numeric Signal
-- Extracted numbers: None detected
-- Strategic implication: Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Other / Unknown.
-- Woomi relevance: Medium relevance to market monitoring
+- Extracted numbers: $34.2m; $34.2 million; 101 apartments
+- Strategic implication: Review for developer strategy because the article may inform site selection, product type, adaptive reuse, build-to-rent, or market entry.
+- Woomi relevance: High relevance to US residential developer strategy
 
 Please answer in concise bullet points:
 1. Why does this article matter for a US multifamily developer?
@@ -850,7 +990,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 31: New, downsized look for housing project at 1521 E. Grand Ave. in El Segundo
+## Prompt 36: New, downsized look for housing project at 1521 E. Grand Ave. in El Segundo
 
 - Quality score: 90
 - Quality label: Excellent
@@ -878,7 +1018,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 32: Cross Harbor Scores $78.5M Financing for Tempe Rental Community
+## Prompt 37: American Campus Communities Expands Partnership with UC Irvine
 
 - Quality score: 98
 - Quality label: Excellent
@@ -889,14 +1029,14 @@ You are a strategic research analyst for Woomi / Woomi Global.
 Analyze the following US multifamily housing article for developer strategy.
 
 Article context:
-- Title: Cross Harbor Scores $78.5M Financing for Tempe Rental Community
-- Source: Connect CRE Phoenix
-- URL: https://www.connectcre.com/stories/cross-harbor-scores-78-5m-financing-for-tempe-rental-community/
-- Market focus: Phoenix / Arizona
-- Strategic angle: Financing Risk
-- Market signal: Rent Growth Signal
-- Extracted numbers: $78.5m; $78.5 million
-- Strategic implication: Monitor financing conditions because the article includes apartment, apartments, construction and $78.5m, $78.5 million, which may affect construction loans, refinancing risk, and exit cap rates.
+- Title: American Campus Communities Expands Partnership with UC Irvine
+- Source: Connect CRE Orange County
+- URL: https://www.connectcre.com/stories/american-campus-communities-expands-partnership-with-uc-irvine/
+- Market focus: California
+- Strategic angle: Institutional Flow; Developer Strategy
+- Market signal: Deal Size Signal
+- Extracted numbers: $191
+- Strategic implication: Track this as institutional capital flow because it mentions major capital players, portfolio transactions, deal size, or cap-rate signals.
 - Woomi relevance: High relevance to US residential developer strategy
 
 Please answer in concise bullet points:
@@ -906,25 +1046,25 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 33: Four townhomes coming to 1155 N. Heliotrope Dr. in East Hollywood
+## Prompt 38: 13th Floor, ANF Complete $89M Hallandale Beach Rental Community
 
-- Quality score: 90
+- Quality score: 98
 - Quality label: Excellent
-- Missing context: missing market signal
+- Missing context: None
 
 ```text
 You are a strategic research analyst for Woomi / Woomi Global.
 Analyze the following US multifamily housing article for developer strategy.
 
 Article context:
-- Title: Four townhomes coming to 1155 N. Heliotrope Dr. in East Hollywood
-- Source: Urbanize LA
-- URL: https://la.urbanize.city/post/four-townhomes-coming-1155-n-heliotrope-dr-east-hollywood
-- Market focus: Los Angeles / California
+- Title: 13th Floor, ANF Complete $89M Hallandale Beach Rental Community
+- Source: Connect CRE South Florida
+- URL: https://www.connectcre.com/stories/13th-floor-anf-complete-89m-hallandale-beach-rental-community/
+- Market focus: Miami / Florida
 - Strategic angle: Developer Strategy
-- Market signal: No Clear Numeric Signal
-- Extracted numbers: $800,000
-- Strategic implication: Review for developer strategy because the article may inform site selection, product type, adaptive reuse, build-to-rent, or market entry.
+- Market signal: Rent Growth Signal
+- Extracted numbers: $89m; $89 million
+- Strategic implication: Track rent and vacancy conditions because the article points to demand, occupancy, rent, vacancy, or concession signals in Miami / Florida.
 - Woomi relevance: Medium relevance to market monitoring
 
 Please answer in concise bullet points:
@@ -934,7 +1074,7 @@ Please answer in concise bullet points:
 4. What follow-up question should the strategy team ask?
 ```
 
-## Prompt 34: 'Graffiti towers' no more: Oceanwide Plaza is officially cleaned up
+## Prompt 39: 'Graffiti towers' no more: Oceanwide Plaza is officially cleaned up
 
 - Quality score: 98
 - Quality label: Excellent

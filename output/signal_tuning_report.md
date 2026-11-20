@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-11-19 03:59:43
+Generated: 2026-11-20 03:53:34
 
 ## Top Strategic Relevance Articles
 
+- 100 / richness 90: Kennedy Wilson Breaks Ground on Luxury Multifamily in Atlanta Metro (Yield PRO, Atlanta / Georgia) - sponsor expansion; platform or fund activity; JV or partnership activity
+- 100 / richness 90: Bain Capital Joint Venture Secures $94M for Las Vegas Luxury Multifamily Senior Development (Yield PRO, Las Vegas / Nevada) - JV or partnership activity; development continuation; institutional acquisition behavior
 - 100 / richness 85: American Campus Communities Expands Partnership with UC Irvine (Connect CRE Orange County, California) - sponsor expansion; JV or partnership activity; institutional acquisition behavior
-- 78 / richness 75: NexMetro Opens 129 New Luxury Multifamily Apartment Homes in Georgia (Yield PRO, Atlanta / Georgia) - sponsor expansion; development continuation; classification confidence penalty
-- 73 / richness 90: PCCP Joint Venture Announce Development of Class A Multifamily Property in Baldwin New York (Yield PRO, New York) - JV or partnership activity
-- 72 / richness 85: Ascent Developer Solutions Closes $220M Residential Loan Securitization (Commercial Observer, Los Angeles / California) - development continuation
-- 70 / richness 85: IPA Negotiates Sale of 399-Unit Apartment Community in Grapevine, Texas (REBusiness Online, Texas) - institutional acquisition behavior
-- 70 / richness 85: Kennedy Wilson Sells 334-Unit Atlas Apartments in Issaquah, Washington for $149M (REBusiness Online, Beverly Hills / California) - institutional acquisition behavior
+- 85 / richness 70: Subtext Expands Student Housing Portfolio with Acquisitions in Austin and Reno (Yield PRO, Austin / Texas) - sponsor expansion; institutional acquisition behavior
+- 84 / richness 85: Walker & Dunlop Arranges $285M Refinancing for Fort Lauderdale Luxury Multifamily Tower (Yield PRO, Florida) - multi-phase development; large-scale refinance tied to strategy
+- 70 / richness 85: Advanced Real Estate Buys Casitas Apartments in Ontario, California for $56.2M (REBusiness Online, California) - institutional acquisition behavior
+- 70 / richness 85: Marcus & Millichap Arranges $25.8M Sale of Indianapolis Multifamily Portfolio (REBusiness Online, Austin / Texas) - institutional acquisition behavior
 - 70 / richness 85: Work Underway on 311-Unit Oakland Park Apartment Building (Connect CRE South Florida, Miami / Florida) - institutional acquisition behavior
-- 70 / richness 75: Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction (Connect CRE, Los Angeles / California) - development continuation
-- 70 / richness 75: Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower (Connect CRE South Florida, Miami / Florida) - JV or partnership activity
-- 69 / richness 75: MTA Approves EMP Capital as Developer of 1119 Pacific Street in Brooklyn (Commercial Observer, New York City / New York) - entitlement persistence
+- 70 / richness 85: Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago (REBusiness Online, Other / Unknown) - institutional acquisition behavior
+- 70 / richness 85: JBG Smith Affiliate Leads $52M NoVA Apartment Buy With Amazon Financing (Commercial Observer, Northern Virginia / Virginia) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -24,6 +24,7 @@ Generated: 2026-11-19 03:59:43
 - 0: Second Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: First Quarter 2026 Multifamily Construction Data (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: Private Residential Construction Spending Increases in March (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
+- 0: Multifamily Developer Confidence Weakens in Third Quarter (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: Multifamily Developer Confidence Weakens in Second Quarter (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: Multifamily Developer Confidence Holds Steady in First Quarter (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: HBGI Q1 2026: Single-Family Construction Slips Across All Geographies (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
@@ -31,7 +32,6 @@ Generated: 2026-11-19 03:59:43
 - 0: AI, Automation & the Future of Multifamily Finance (Multifamily Executive) - confidence low; integrity low_value_promotional
 - 0: Shorter Apartment Construction Time in 2025 (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: HBGI Q2 2026: Single-Family Construction Contracts Broadly While Multifamily Expands (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
-- 0: Perimeter Center Rental Community Goes for $120M (Connect CRE Atlanta) - confidence medium; integrity valid
 
 ## Potential Parsing Integrity Issues
 
@@ -40,8 +40,8 @@ Generated: 2026-11-19 03:59:43
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 12
-- Development / sponsor behavior articles: 32
+- Financing-oriented articles: 15
+- Development / sponsor behavior articles: 37
 - Financing coverage does not dominate the current representative evidence pool.
 
 ## Source Contamination Observations

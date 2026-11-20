@@ -1,18 +1,18 @@
 # Routing Balance Report
 
 - Market Intelligence count: 13
-- Development Activity count: 42
+- Development Activity count: 49
 - GP / Capital Activity count: 1
 - Excluded count: 1
 - Rent/Demand candidate count: 5
-- Project anchor article count: 37
+- Project anchor article count: 44
 - Development-excluded transaction article count: 2
 - Low-value promotional excluded count: 1
 - Site / Parcel positive candidates count: 4
 - Site / Parcel excluded transaction count: 0
 - Source missing count: 0
 - Market missing count: 0
-- Stage missing count: 39
+- Stage missing count: 48
 
 ## Rent/Demand Titles
 - Multifamily Absorption Rate Remains Below 50%
@@ -27,20 +27,20 @@
 ## Site / Parcel Included Examples
 - New plan for housing at 452 N. Los Robles Ave. in Pasadena | Development Activity | site/parcel signal with project anchor: former site
 - New, downsized look for housing project at 1521 E. Grand Ave. in El Segundo | Development Activity | site/parcel signal with project anchor: plans to build
-- MTA Approves EMP Capital as Developer of 1119 Pacific Street in Brooklyn | Development Activity | site/parcel signal with project anchor: to build
-- McShane Construction Company Selected to Build a 10-Building 280-Unit Apartment Community in Hoffman Estates Illinois | Development Activity | site/parcel signal with project anchor: to build
+- McShane to Build 280-Unit Apartment Community in Hoffman Estates, Illinois | Development Activity | site/parcel signal with project anchor: to build
+- Institutional Property Advisors Brokers Sale of 599-Unit Multifamily Property in Portland Oregon | Development Activity | site/parcel signal with project anchor: acres + development/site signal
 
 ## Site / Parcel Excluded Transaction Examples
 - None
 
 ## Sample Validation
-- Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction | Development Activity | rent_demand=No | development_project_anchor: Delivery / Opening (unit/site count: 000 apartments; execution milestone: delivered; project/asset term: development)
+- Kennedy Wilson Breaks Ground on Luxury Multifamily in Atlanta Metro | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 382-unit; execution milestone: breaks ground; project/asset term: project; project financing tied to anchor: construction loan)
+- Walker & Dunlop Arranges $270M Refi for Journal Square Apartments | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 28-story; address/street: 25 cottage st; project/asset term: development)
+- Bell Partners Spends $149M on MF Property in Issaquah, Washington | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 344-unit; project/asset term: community)
+- Mixed-use project starts to rise at 3313 Sunset Blvd. in Silver Lake | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 3313 sunset blvd; project/asset term: project)
 - 269 homes to replace nursery at 7639 Topanga Canyon Blvd. in Canoga Park | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 269 homes; address/street: 7639 topanga canyon blvd; project/asset term: apartments)
 - New plan for housing at 452 N. Los Robles Ave. in Pasadena | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 452 n. los robles ave; site/parcel signal: site; project/asset term: project)
 - Multifamily housing unwrapped at 4429 S. Vermont Ave. in South L.A. | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 4429 s. vermont ave; project/asset term: project)
 - Affordable housing underway at 6908 Baird Ave. in Reseda | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 6908 baird ave; project/asset term: development)
-- Affordable housing takes shape at 3985 S. Meier St. in Mar Vista | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 3985 s. meier st; project/asset term: project)
-- IPA Negotiates Sale of 399-Unit Apartment Community in Grapevine, Texas | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 399-unit; project/asset term: community)
-- Kennedy Wilson Sells 334-Unit Atlas Apartments in Issaquah, Washington for $149M | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 334-unit; project/asset term: apartments)
-- Kairoi Residential Secures $88.2M in Bridge Financing for Vixen Multifamily Community in Denver | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 334 apartments; address/street: 1150 e. colfax ave; project/asset term: community)
-- JLL Arranges Financing for 419-Unit Luxury Multifamily Development in Evanston, Illinois | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 419-unit; project/asset term: project; project financing tied to anchor: arranges financing)
+- Advanced Real Estate Buys Casitas Apartments in Ontario, California for $56.2M | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 253-unit; project/asset term: community)
+- Merchants Capital Provides $15.5M Financing for Charlotte Affordable Housing Project | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 60-unit; project/asset term: project)

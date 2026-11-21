@@ -1,23 +1,23 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-11-20 03:53:39
+Generated: 2026-11-21 03:47:24
 
 - GP/developer candidates reviewed: 19
 - Tier 1 Strategic GPs: 0
-- Tier 2 High Potential GPs: 5
+- Tier 2 High Potential GPs: 4
 
 ## Top Emerging GPs
 
 - Blackstone: 76 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
-- Kennedy Wilson: 76 (Tier 2 High Potential GP), Atlanta / Georgia, California / LA strategic positioning.
-- Freddie Mac: 75 (Tier 2 High Potential GP), California, Institutional-backed regional expansion.
+- Fannie Mae: 76 (Tier 2 High Potential GP), Los Angeles / California, California / LA strategic positioning.
 - Hines: 73 (Tier 2 High Potential GP), Atlanta / Georgia, California / LA strategic positioning.
-- Benefit Street Partners: 73 (Tier 2 High Potential GP), Miami / Florida, California / LA strategic positioning.
-- CBRE: 69 (Tier 3 Monitoring GP), Atlanta / Georgia, California / LA strategic positioning.
-- Marcus & Millichap: 67 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
-- Santander Bank: 64 (Tier 3 Monitoring GP), Atlanta / Georgia, Distressed opportunity positioning.
-- PMG: 64 (Tier 3 Monitoring GP), Miami / Florida, Distressed opportunity positioning.
-- Walker & Dunlop: 63 (Tier 3 Monitoring GP), New York, Distressed opportunity positioning.
+- CBRE: 70 (Tier 2 High Potential GP), New York, California / LA strategic positioning.
+- Benefit Street Partners: 69 (Tier 3 Monitoring GP), Miami / Florida, California / LA strategic positioning.
+- Marcus & Millichap: 66 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
+- Millichap Capital Corporation: 62 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
+- Bascom Group: 58 (Tier 3 Monitoring GP), Dallas / Texas, California / LA strategic positioning.
+- JLL: 58 (Tier 3 Monitoring GP), Other / Unknown, Selective residential growth.
+- Samuelian Group: 57 (Tier 3 Monitoring GP), Los Angeles / California, California / LA strategic positioning.
 
 ## Tier 1 Strategic GP
 
@@ -26,22 +26,22 @@ Generated: 2026-11-20 03:53:39
 ## Tier 2 High Potential GP
 
 - Blackstone: score 76, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Kennedy Wilson: score 76, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Freddie Mac: score 75, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Fannie Mae: score 76, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Benefit Street Partners: score 73, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 70, Tier 2 High Potential GP, New York, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## California / LA GP Activity
 
 - Blackstone: score 76, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Kennedy Wilson: score 76, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Freddie Mac: score 75, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Fannie Mae: score 76, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Benefit Street Partners: score 73, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
-- CBRE: score 69, Tier 3 Monitoring GP, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
-- Marcus & Millichap: score 67, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Trammell Crow Residential: score 55, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
-- IPA: score 46, Emerging Watchlist, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
+- CBRE: score 70, Tier 2 High Potential GP, New York, Capital market and pricing discovery reference. Review LA / California development activity.
+- Benefit Street Partners: score 69, Tier 3 Monitoring GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- Marcus & Millichap: score 66, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Millichap Capital Corporation: score 62, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Bascom Group: score 58, Tier 3 Monitoring GP, Dallas / Texas, Capital market and pricing discovery reference. Review LA / California development activity.
+- Samuelian Group: score 57, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Tishman Speyer: score 57, Tier 3 Monitoring GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## BTR / SFR GP Activity
 
@@ -49,8 +49,8 @@ Generated: 2026-11-20 03:53:39
 
 ## Affordable Housing GP Activity
 
-- Merchants Capital: score 57, Tier 3 Monitoring GP, Sun Belt, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
-- M Development Partners: score 44, Emerging Watchlist, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
+- Bascom Group: score 58, Tier 3 Monitoring GP, Dallas / Texas, Capital market and pricing discovery reference. Review LA / California development activity.
+- Samuelian Group: score 57, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## Student Housing GP Activity
 
@@ -63,28 +63,26 @@ Generated: 2026-11-20 03:53:39
 ## Institutional Capital Magnet
 
 - Blackstone: score 76, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Kennedy Wilson: score 76, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Freddie Mac: score 75, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Fannie Mae: score 76, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Benefit Street Partners: score 73, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
-- CBRE: score 69, Tier 3 Monitoring GP, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
-- Marcus & Millichap: score 67, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Santander Bank: score 64, Tier 3 Monitoring GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- PMG: score 64, Tier 3 Monitoring GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
-- Walker & Dunlop: score 63, Tier 3 Monitoring GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 70, Tier 2 High Potential GP, New York, Capital market and pricing discovery reference. Review LA / California development activity.
+- Benefit Street Partners: score 69, Tier 3 Monitoring GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- Marcus & Millichap: score 66, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Millichap Capital Corporation: score 62, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Bascom Group: score 58, Tier 3 Monitoring GP, Dallas / Texas, Capital market and pricing discovery reference. Review LA / California development activity.
+- JLL: score 58, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- Samuelian Group: score 57, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## Potential Woomi Partnership Candidates
 
 - Blackstone: score 76, Tier 2 High Potential GP, California, Potential GP partnership candidate. Track JV and capital partner activity.
-- Kennedy Wilson: score 76, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Freddie Mac: score 75, Tier 2 High Potential GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Fannie Mae: score 76, Tier 2 High Potential GP, Los Angeles / California, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Benefit Street Partners: score 73, Tier 2 High Potential GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
-- CBRE: score 69, Tier 3 Monitoring GP, Atlanta / Georgia, Capital market and pricing discovery reference. Review LA / California development activity.
-- Santander Bank: score 64, Tier 3 Monitoring GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
-- PMG: score 64, Tier 3 Monitoring GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
-- Walker & Dunlop: score 63, Tier 3 Monitoring GP, New York, Potential GP partnership candidate. Track JV and capital partner activity.
-- Bain Capital Joint Venture: score 60, Tier 3 Monitoring GP, Las Vegas / Nevada, Potential GP partnership candidate. Track JV and capital partner activity.
+- CBRE: score 70, Tier 2 High Potential GP, New York, Capital market and pricing discovery reference. Review LA / California development activity.
+- Benefit Street Partners: score 69, Tier 3 Monitoring GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- JLL: score 58, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- Tempe Rental Community CrossHarbor Capital Partners: score 50, Emerging Watchlist, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
+- PMG: score 47, Emerging Watchlist, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## GP Source Expansion Summary
 
@@ -114,30 +112,30 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 ## Recommended Management Meeting Targets
 
 - Blackstone: Track JV and capital partner activity (Medium confidence).
-- Kennedy Wilson: Track JV and capital partner activity (Medium confidence).
-- Freddie Mac: Review LA / California development activity (Medium confidence).
+- Fannie Mae: Track JV and capital partner activity (Medium confidence).
 - Hines: Track JV and capital partner activity (Medium confidence).
+- CBRE: Review LA / California development activity (Medium confidence).
 - Benefit Street Partners: Track JV and capital partner activity (Medium confidence).
 
 ## Recommended Strategic Follow-up Actions
 
 - Blackstone: Track JV and capital partner activity.
-- Kennedy Wilson: Track JV and capital partner activity.
-- Freddie Mac: Review LA / California development activity.
+- Fannie Mae: Track JV and capital partner activity.
 - Hines: Track JV and capital partner activity.
-- Benefit Street Partners: Track JV and capital partner activity.
 - CBRE: Review LA / California development activity.
+- Benefit Street Partners: Track JV and capital partner activity.
 - Marcus & Millichap: Review LA / California development activity.
-- Santander Bank: Track JV and capital partner activity.
+- Millichap Capital Corporation: Review LA / California development activity.
+- Bascom Group: Review LA / California development activity.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 138
-- Institutional-grade signals: 14
-- High-confidence signals: 33
-- Weak/noisy signals: 90
-- High-confidence watchlist items: 33
+- Signals evaluated: 151
+- Institutional-grade signals: 9
+- High-confidence signals: 31
+- Weak/noisy signals: 100
+- High-confidence watchlist items: 31
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

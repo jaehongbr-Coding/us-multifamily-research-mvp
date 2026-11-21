@@ -1,28 +1,28 @@
 # US Multifamily Daily Strategy Briefing
 
-Generated: 2026-11-20 03:53:35
+Generated: 2026-11-21 03:47:20
 
 ## Hero Market View
 
-오늘 시장은 Atlanta / Georgia 관찰을 중심으로 개발 / 인허가 activity이 반복 관찰되는 모습입니다. 동시에 기관 자본 흐름도 보조 신호로 확인됩니다. 오늘 새 evidence에서는 JV / partnership 신호 · platform 또는 sponsor 확장 · 인허가 / entitlement 흐름이 함께 관찰됩니다. 투자 결론보다는 source 다양성, 실제 거래/개발 evidence, 반복 노출 여부를 함께 확인해야 합니다.
+오늘 시장은 Miami / Florida 관찰을 중심으로 기관 자본 흐름이 반복 관찰되는 모습입니다. 동시에 개발 / 인허가 activity도 보조 신호로 확인됩니다. 오늘 새 evidence에서는 JV / partnership 신호 · platform 또는 sponsor 확장 · 인허가 / entitlement 흐름이 함께 관찰됩니다. 투자 결론보다는 source 다양성, 실제 거래/개발 evidence, 반복 노출 여부를 함께 확인해야 합니다.
 
 ## Why It Matters
 
-- 개발 / 인허가 activity 관련 기사가 14건 포착됐고, source 다양성은 6개로 측정됩니다.
-- Daily Mentioned Market은 Atlanta / Georgia이지만, 단순 기사 수보다 source 다양성, 반복 여부, duplicate risk를 함께 봐야 합니다.
+- 기관 자본 흐름 관련 기사가 26건 포착됐고, source 다양성은 11개로 측정됩니다.
+- Daily Mentioned Market은 Miami / Florida이지만, 단순 기사 수보다 source 다양성, 반복 여부, duplicate risk를 함께 봐야 합니다.
 - 다만 보수적으로 해석해도 해당 signal은 오늘 briefing에서 우선 확인할 만합니다.
 
 ## Key Market Signals
 
-- 개발 / 인허가 activity: 14 article(s), 6 source(s), 8 market(s), stable, confidence: moderate confidence.
-- 기관 자본 흐름: 27 article(s), 10 source(s), 13 market(s), strengthening, confidence: moderate confidence.
-- financing / refinancing 부담: 29 article(s), 11 source(s), 14 market(s), strengthening, confidence: moderate confidence.
+- 기관 자본 흐름: 26 article(s), 11 source(s), 11 market(s), stable, confidence: moderate confidence.
+- 개발 / 인허가 activity: 15 article(s), 7 source(s), 6 market(s), stable, confidence: moderate confidence.
+- financing / refinancing 부담: 26 article(s), 12 source(s), 11 market(s), weakening, confidence: moderate confidence.
 
 ## Market Interpretation
 
-- Capital flow: 27건의 자본 흐름 signal이 포착됐고 10개 source가 확인됩니다.
-- Development: 개발 / 인허가 signal이 Other / Unknown 중심으로 반복 관찰됩니다.
-- Financing: refinancing 및 debt 관련 signal이 strengthening 상태로 관찰됩니다.
+- Capital flow: 26건의 자본 흐름 signal이 포착됐고 11개 source가 확인됩니다.
+- Development: 개발 / 인허가 signal이 Los Angeles / California 중심으로 반복 관찰됩니다.
+- Financing: refinancing 및 debt 관련 signal이 weakening 상태로 관찰됩니다.
 - Supply / demand: lease-up, concession, absorption 관련 signal이 underwriting 확인 사항으로 남아 있습니다.
 
 ## Woomi Checkpoints
@@ -33,17 +33,17 @@ Generated: 2026-11-20 03:53:35
 
 ## Market Coverage Diagnostics
 
-- Daily Mentioned Market: Atlanta / Georgia
-- Weekly Momentum Market: Atlanta / Georgia
-- Weekly Momentum Driver: 기관 자본 흐름, 공급 / 임대시장 압력, financing / refinancing 부담
-- Total saved articles: 65
-- Market-signal article count: 26
-- Strategy-briefing article count: 39
+- Daily Mentioned Market: Miami / Florida
+- Weekly Momentum Market: Miami / Florida
+- Weekly Momentum Driver: financing / refinancing 부담, 기관 자본 흐름, 개발 / 인허가 activity
+- Total saved articles: 61
+- Market-signal article count: 17
+- Strategy-briefing article count: 37
 
 ## Representative Evidence
 
-- Kennedy Wilson Breaks Ground on Luxury Multifamily in Atlanta Metro (Yield PRO, Atlanta / Georgia): sponsor expansion; platform or fund activity; JV or partnership activity
-- Bain Capital Joint Venture Secures $94M for Las Vegas Luxury Multifamily Senior Development (Yield PRO, Las Vegas / Nevada): JV or partnership activity; development continuation; institutional acquisition behavior
-- Walker & Dunlop Arranges $285M Refinancing for Fort Lauderdale Luxury Multifamily Tower (Yield PRO, Florida): multi-phase development; large-scale refinance tied to strategy
-- Advanced Real Estate Buys Casitas Apartments in Ontario, California for $56.2M (REBusiness Online, California): institutional acquisition behavior
-- Marcus & Millichap Arranges $25.8M Sale of Indianapolis Multifamily Portfolio (REBusiness Online, Austin / Texas): institutional acquisition behavior
+- American Campus Communities Expands Partnership with UC Irvine (Connect CRE Orange County, California): sponsor expansion; JV or partnership activity; institutional acquisition behavior
+- Jackson Square Spins Off 280-Unit Pflugerville Rental Property (Connect CRE Apartments, Austin / Texas): institutional acquisition behavior
+- Rainbow Housing Secures Los Angeles Senior Multifamily Apartment Tower for $42M (Yield PRO, Los Angeles / California): institutional acquisition behavior
+- JLL Brokers $31.3M Sale of Boutique Apartment Building in Chicago (REBusiness Online, Other / Unknown): institutional acquisition behavior
+- Bascom Group Acquires 370-Unit Workforce Housing Property in North Dallas (REBusiness Online, Dallas / Texas): institutional acquisition behavior

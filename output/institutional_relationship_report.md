@@ -1,112 +1,114 @@
 # Institutional Relationship & Capital Flow Report
 
-Generated: 2026-11-20 03:53:39
+Generated: 2026-11-21 03:47:24
 
 ## Top Institutional Relationship Signals
 
 - Blackstone: score 100, Operational / Platform Investment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Freddie Mac: score 100, Capital Inflow, Capital Partner Tracking Signal. Review California / LA capital and developer activity.
-- Kennedy Wilson: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Marcus & Millichap: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- Walker & Dunlop: score 99, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Bascom Group: score 99, Capital Inflow, Pricing Discovery Signal. Review California / LA capital and developer activity.
+- Fannie Mae: score 99, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- CBRE: score 98, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 - Trammell Crow Residential: score 98, Development Capital Deployment, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- CBRE: score 96, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- Santander Bank: score 91, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Bain Capital Joint Venture: score 90, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- JLL: score 91, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- Samuelian Group: score 91, Development Capital Deployment, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - Hines: score 90, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- NoVA Apartment Buy With Amazon Financing Residential: score 88, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 
 ## Tier 1 Firm Watch
 
 - Blackstone: score 100, Operational / Platform Investment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Kennedy Wilson: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 
 ## California / LA Capital and Developer Watch
 
 - Blackstone: score 100, Operational / Platform Investment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Freddie Mac: score 100, Capital Inflow, Capital Partner Tracking Signal. Review California / LA capital and developer activity.
-- Kennedy Wilson: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Marcus & Millichap: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- Bascom Group: score 99, Capital Inflow, Pricing Discovery Signal. Review California / LA capital and developer activity.
+- Fannie Mae: score 99, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Trammell Crow Residential: score 98, Development Capital Deployment, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- Samuelian Group: score 91, Development Capital Deployment, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- Millichap Capital Corporation: score 83, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 
 ## Capital Inflow / Outflow Signals
 
-- Freddie Mac: score 100, Capital Inflow, Capital Partner Tracking Signal. Review California / LA capital and developer activity.
-- Kennedy Wilson: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Marcus & Millichap: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- Bascom Group: score 99, Capital Inflow, Pricing Discovery Signal. Review California / LA capital and developer activity.
+- Fannie Mae: score 99, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- CBRE: score 98, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 - Trammell Crow Residential: score 98, Development Capital Deployment, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- CBRE: score 96, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- Bain Capital Joint Venture: score 90, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- JLL: score 91, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- Samuelian Group: score 91, Development Capital Deployment, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - Hines: score 90, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - NoVA Apartment Buy With Amazon Financing Residential: score 88, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- Multifamily Astoria Investments: score 65, Capital Outflow / Exit, No Clear Relationship Signal. Monitor only.
-- IPA: score 57, Capital Outflow / Exit, GP Capability Benchmark Signal. Monitor only.
+- Tishman Speyer: score 85, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 
 ## JV / Partnership Signals
 
 - Blackstone: score 100, Operational / Platform Investment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Kennedy Wilson: score 100, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Walker & Dunlop: score 99, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Santander Bank: score 91, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Bain Capital Joint Venture: score 90, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Fannie Mae: score 99, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Hines: score 90, Capital Inflow, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- Benefit Street Partners: score 88, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- PMG: score 88, Refinancing / Recapitalization, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 - Tempe Rental Community CrossHarbor Capital Partners: score 86, Operational / Platform Investment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
-- M Development Partners: score 85, Operational / Platform Investment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- Benefit Street Partners: score 82, Operational / Platform Investment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
+- PMG: score 82, Operational / Platform Investment, Potential JV / Partnership Signal. Map potential GP / JV relationship and monitor partnership activity.
 
 ## Competitive Benchmark Signals
 
 - Marcus & Millichap: score 100, Capital Inflow, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- CBRE: score 98, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
 - Trammell Crow Residential: score 98, Development Capital Deployment, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
-- CBRE: score 96, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- JLL: score 91, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- Samuelian Group: score 91, Development Capital Deployment, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
 - NoVA Apartment Buy With Amazon Financing Residential: score 88, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
-- IPA: score 57, Capital Outflow / Exit, GP Capability Benchmark Signal. Monitor only.
+- Tishman Speyer: score 85, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- Millichap Capital Corporation: score 83, Refinancing / Recapitalization, GP Capability Benchmark Signal. Review California / LA capital and developer activity.
+- Machine Investment Group: score 80, Capital Inflow, GP Capability Benchmark Signal. Track capital deployment and pricing signals.
+- Minto Communities USA: score 78, Capital Outflow / Exit, GP Capability Benchmark Signal. Monitor only.
 
 ## Pricing Discovery Signals
 
-- No current signal detected.
+- Bascom Group: score 99, Capital Inflow, Pricing Discovery Signal. Review California / LA capital and developer activity.
 
 ## Relationship Map
 
 | Firm | Market | Source Category | Activity Type | Capital Flow | Relationship Signal | Woomi Implication |
 | --- | --- | --- | --- | --- | --- | --- |
 | Blackstone | California | Site / Parcel Source Expansion | JV / partnership; market expansion; operational technology / AI adoption | Operational / Platform Investment | Potential JV / Partnership Signal | potential JV partnership signal |
-| Freddie Mac | California; Sun Belt | Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing | Capital Inflow | Capital Partner Tracking Signal | capital market sentiment indicator |
-| Kennedy Wilson | Atlanta / Georgia; Seattle | Core Multifamily News | acquisition; disposition / exit; refinancing; JV / partnership; market expansion; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
-| Marcus & Millichap | Austin / Texas; California; Other / Unknown | Core Multifamily News; Site / Parcel Source Expansion | acquisition; disposition / exit; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
-| Walker & Dunlop | Florida; New York; Other / Unknown | Core Multifamily News; Site / Parcel Source Expansion | refinancing; JV / partnership; operational technology / AI adoption | Refinancing / Recapitalization | Potential JV / Partnership Signal | potential JV partnership signal |
-| Trammell Crow Residential | Other / Unknown | Regional / California / LA Sources | entitlement; operational technology / AI adoption | Development Capital Deployment | GP Capability Benchmark Signal | competitive pressure indicator |
+| Marcus & Millichap | California; Other / Unknown | Core Multifamily News; Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
+| Bascom Group | Dallas / Texas | Site / Parcel Source Expansion | acquisition; disposition / exit | Capital Inflow | Pricing Discovery Signal | pricing discovery reference |
+| Fannie Mae | Los Angeles / California | Core Multifamily News | acquisition; disposition / exit; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
 | CBRE | Atlanta / Georgia; New York | Core Multifamily News; Site / Parcel Source Expansion | acquisition; disposition / exit; refinancing; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
-| Santander Bank | Atlanta / Georgia | Core Multifamily News | refinancing; JV / partnership; market expansion; operational technology / AI adoption | Refinancing / Recapitalization | Potential JV / Partnership Signal | potential JV partnership signal |
-| Bain Capital Joint Venture | Las Vegas / Nevada | Core Multifamily News | acquisition; refinancing; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
+| Trammell Crow Residential | Other / Unknown | Regional / California / LA Sources | entitlement; operational technology / AI adoption | Development Capital Deployment | GP Capability Benchmark Signal | competitive pressure indicator |
+| JLL | Other / Unknown | Site / Parcel Source Expansion | acquisition; disposition / exit; office-to-residential conversion; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
+| Samuelian Group | Los Angeles / California | Regional / California / LA Sources | entitlement; operational technology / AI adoption | Development Capital Deployment | GP Capability Benchmark Signal | competitive pressure indicator |
 | Hines | Atlanta / Georgia | Site / Parcel Source Expansion | acquisition; JV / partnership; operational technology / AI adoption | Capital Inflow | Potential JV / Partnership Signal | potential JV partnership signal |
+| NoVA Apartment Buy With Amazon Financing Residential | Northern Virginia / Virginia | Core Multifamily News | acquisition; disposition / exit; operational technology / AI adoption | Capital Inflow | GP Capability Benchmark Signal | competitive pressure indicator |
 
 ## Deal / Project Intelligence
 
 Deal and project-level extraction is available in `deal_pipeline_report.md`.
-- Acquisition in California: Unknown / Unknown / freddie mac.
 - JV / Partnership in California: blackstone / blackstone / Unknown.
 - Acquisition in Atlanta / Georgia: Unknown / Unknown / cbre.
-- Acquisition in Seattle: kennedy wilson / kennedy wilson / Unknown.
-- Construction Financing in Atlanta / Georgia: kennedy wilson / kennedy wilson / Unknown.
+- Acquisition in Los Angeles / California: Unknown / Unknown / fannie mae.
+- Disposition / Exit in New York: Unknown / Unknown / cbre.
+- Acquisition in Atlanta / Georgia: hines / hines / Unknown.
 
 ## Relationship Graph Intelligence
 
 Capital partner, lender, GP, and market edges are available in `relationship_graph_report.md`.
 - Blackstone -> blackstone: JV / Partnership.
-- Freddie Mac -> freddie mac: Financing Relationship.
-- Kennedy Wilson -> kennedy wilson: Financing Relationship.
-- Kennedy Wilson -> kennedy wilson: Acquisition / Buyer.
-- Walker & Dunlop -> walker & dunlop: Financing Relationship.
+- CBRE -> cbre: Financing Relationship.
+- Fannie Mae -> fannie mae: Financing Relationship.
+- CBRE -> cbre: Financing Relationship.
+- Bascom Group -> northmarq: Financing Relationship.
 
 ## High-Scoring GP Watchlist Reference
 
 Emerging GP watchlist rankings are available in `gp_watchlist_report.md`.
 - Blackstone: 76 (Tier 2 High Potential GP), Strong partnership signal.
-- Kennedy Wilson: 76 (Tier 2 High Potential GP), Strong partnership signal.
-- Freddie Mac: 75 (Tier 2 High Potential GP), Moderate partnership signal.
+- Fannie Mae: 76 (Tier 2 High Potential GP), Strong partnership signal.
 - Hines: 73 (Tier 2 High Potential GP), Strong partnership signal.
-- Benefit Street Partners: 73 (Tier 2 High Potential GP), Strong partnership signal.
+- CBRE: 70 (Tier 2 High Potential GP), Moderate partnership signal.
+- Benefit Street Partners: 69 (Tier 3 Monitoring GP), Strong partnership signal.
 
 ## GP Source Expansion Summary
 
@@ -142,22 +144,22 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 ## Recommended Executive Follow-Up
 
 - Blackstone: Map potential GP / JV relationship and monitor partnership activity
-- Freddie Mac: Review California / LA capital and developer activity
-- Kennedy Wilson: Map potential GP / JV relationship and monitor partnership activity
 - Marcus & Millichap: Review California / LA capital and developer activity
-- Walker & Dunlop: Map potential GP / JV relationship and monitor partnership activity
-- Trammell Crow Residential: Review California / LA capital and developer activity
+- Bascom Group: Review California / LA capital and developer activity
+- Fannie Mae: Map potential GP / JV relationship and monitor partnership activity
 - CBRE: Track capital deployment and pricing signals
-- Santander Bank: Map potential GP / JV relationship and monitor partnership activity
+- Trammell Crow Residential: Review California / LA capital and developer activity
+- JLL: Track capital deployment and pricing signals
+- Samuelian Group: Review California / LA capital and developer activity
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 138
-- Institutional-grade signals: 14
-- High-confidence signals: 33
-- Weak/noisy signals: 90
-- High-confidence watchlist items: 33
+- Signals evaluated: 151
+- Institutional-grade signals: 9
+- High-confidence signals: 31
+- Weak/noisy signals: 100
+- High-confidence watchlist items: 31
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

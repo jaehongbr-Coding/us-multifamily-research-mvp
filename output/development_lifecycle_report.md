@@ -1,61 +1,56 @@
 # Development Lifecycle Report
 
-Generated: 2026-11-20 03:53:53
+Generated: 2026-11-21 03:47:35
 
 - Total lifecycle records: 66
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 44
-- Site Acquisition / Site Control: 9
-- Vertical Construction: 5
-- Refinancing / Recapitalization: 4
-- Delivery / Opening: 4
+- Unknown Stage: 50
+- Site Acquisition / Site Control: 11
+- Vertical Construction: 2
+- Entitlement Under Review: 1
+- Delivery / Opening: 1
+- Refinancing / Recapitalization: 1
 
 ## Top Development Timing Opportunities
 
-- Refinancing - Florida - Walker & Dunlop Arranges $285M Refinancing for Fort Lauderdale Luxury Multifamily Tower: Refinancing / Recapitalization, Florida, lifecycle_opportunity_score 100.
-- Construction Financing - Atlanta / Georgia - Kennedy Wilson Breaks Ground on Luxury Multifamily in Atlanta Metro: Unknown Stage, Atlanta, lifecycle_opportunity_score 100.
-- Walker & Dunlop Arranges $270M Refi for Journal Square Apartments: Refinancing / Recapitalization, Jersey City, lifecycle_opportunity_score 100.
-- Acquisition - California - Advanced Real Estate Buys Casitas Apartments in Ontario, California for $56.2M: Unknown Stage, California, lifecycle_opportunity_score 100.
+- Acquisition - Los Angeles / California - Rainbow Housing Secures Los Angeles Senior Multifamily Apartment Tower for $42M: Unknown Stage, Los Angeles, lifecycle_opportunity_score 100.
 - JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Unknown Stage, California, lifecycle_opportunity_score 99.
-- Refinancing - New York - Walker & Dunlop Arranges $270M Refi for Journal Square Apartments: Refinancing / Recapitalization, New York, lifecycle_opportunity_score 97.
 - Entitlement / Permitting - Other / Unknown - New plan for housing at 452 N. Los Robles Ave. in Pasadena: Unknown Stage, Unknown, lifecycle_opportunity_score 97.
-- JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower: Unknown Stage, South Florida, lifecycle_opportunity_score 94.
+- Disposition / Exit - California - Marcus & Millichap Brokers $6.13M Sale of 17-Unit Multifamily Property in Santa Clara Cali...: Unknown Stage, California, lifecycle_opportunity_score 95.
+- General Project Signal - California - Marcus & Millichap Capital Corporation Arranges $8.5 Million Financing for Multifamily Pro...: Unknown Stage, California, lifecycle_opportunity_score 95.
+- Acquisition - Dallas / Texas - Bascom Group Acquires 370-Unit Workforce Housing Property in North Dallas: Unknown Stage, Dallas, lifecycle_opportunity_score 93.
+- JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower: Unknown Stage, South Florida, lifecycle_opportunity_score 93.
 - New plan for housing at 452 N. Los Robles Ave. in Pasadena: Site Acquisition / Site Control, Los Angeles, lifecycle_opportunity_score 91.
-- New, downsized look for housing project at 1521 E. Grand Ave. in El Segundo: Site Acquisition / Site Control, Los Angeles, lifecycle_opportunity_score 91.
+- Marcus & Millichap Brokers $6.13M Sale of 17-Unit Multifamily Property in Santa Clara California: Unknown Stage, Unknown, lifecycle_opportunity_score 90.
+- Fresh renderings for infill housing at 511 S. Oak Knoll Ave. in Pasadena: Site Acquisition / Site Control, Los Angeles, lifecycle_opportunity_score 88.
 
 ## Top Lifecycle Risks
 
-- Refinancing - New York - Walker & Dunlop Arranges $270M Refi for Journal Square Apartments: Refinancing / Recapitalization, New York, lifecycle_risk_score 52.
 - Work Underway on 311-Unit Oakland Park Apartment Building: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 50.
-- Refinancing - Florida - Walker & Dunlop Arranges $285M Refinancing for Fort Lauderdale Luxury Multifamily Tower: Refinancing / Recapitalization, Florida, lifecycle_risk_score 49.
 - Construction Financing - Miami / Florida - Centennial Bank Lends $51M to Expand Miami-Dade Nursing Home: Unknown Stage, Miami, lifecycle_risk_score 48.
-- Construction Financing - Atlanta / Georgia - Kennedy Wilson Breaks Ground on Luxury Multifamily in Atlanta Metro: Unknown Stage, Atlanta, lifecycle_risk_score 46.
-- Walker & Dunlop Arranges $270M Refi for Journal Square Apartments: Refinancing / Recapitalization, Jersey City, lifecycle_risk_score 44.
 - Construction Financing - Miami / Florida - Work Underway on 311-Unit Oakland Park Apartment Building: Site Acquisition / Site Control, South Florida, lifecycle_risk_score 43.
-- Construction Financing - Las Vegas / Nevada - Bain Capital Joint Venture Secures $94M for Las Vegas Luxury Multifamily Senior Developmen...: Vertical Construction, Las Vegas, lifecycle_risk_score 42.
-- Office-to-Residential Conversion - Other / Unknown - Interra Realty Brokers $7.2M Sale of Adaptive Reuse Apartment Building in Chicago: Unknown Stage, Unknown, lifecycle_risk_score 35.
-- Refinancing - Other / Unknown - Walker & Dunlop Arranges $270M Loan for Refinancing of Jersey City Apartment Tower: Delivery / Opening, Unknown, lifecycle_risk_score 34.
+- Entitlement / Permitting - Los Angeles - Multifamily housing unwrapped at 4429 S. Vermont Ave. in South L.A.: Unknown Stage, L.A., lifecycle_risk_score 34.
+- JV / Partnership - California - Work Gets Started on Carlsbad Village Mixed-Use Project: Unknown Stage, California, lifecycle_risk_score 33.
+- Disposition / Exit - Los Angeles / California - 269 homes to replace nursery at 7639 Topanga Canyon Blvd. in Canoga Park: Unknown Stage, Los Angeles, lifecycle_risk_score 32.
+- Entitlement / Permitting - Los Angeles / California - Mixed-use project reaches its peak at at 6052 W. Olympic Blvd.: Unknown Stage, Los Angeles / California, lifecycle_risk_score 32.
+- Entitlement / Permitting - Southeast - Mixed-use project starts to rise at 3313 Sunset Blvd. in Silver Lake: Unknown Stage, Southeast, lifecycle_risk_score 32.
+- Entitlement / Permitting - Other / Unknown - Fresh renderings for infill housing at 511 S. Oak Knoll Ave. in Pasadena: Unknown Stage, Unknown, lifecycle_risk_score 32.
+- Entitlement / Permitting - Los Angeles / California - City Council upholds approval of apartments at 2413 Silver Lake Blvd.: Unknown Stage, Los Angeles, lifecycle_risk_score 32.
 
 ## Projects Under Entitlement / Planning
 
-- None detected.
+- City Council upholds approval of apartments at 2413 Silver Lake Blvd.: Entitlement Under Review, Los Angeles, lifecycle_opportunity_score 80.
 
 ## Construction-Ready / Construction-Start Signals
 
-- General Project Signal - Los Angeles / California - Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction: Vertical Construction, Los Angeles, lifecycle_opportunity_score 85.
-- Construction Financing - Las Vegas / Nevada - Bain Capital Joint Venture Secures $94M for Las Vegas Luxury Multifamily Senior Developmen...: Vertical Construction, Las Vegas, lifecycle_opportunity_score 83.
-- Development Start - Virginia - 3 apartment projects broke ground last week: Vertical Construction, Virginia, lifecycle_opportunity_score 80.
-- Work Underway on 33-Story Charlotte Mixed-Use Development: Vertical Construction, Atlanta, lifecycle_opportunity_score 80.
-- Development Start - Atlanta / Georgia - Work Underway on 33-Story Charlotte Mixed-Use Development: Vertical Construction, Atlanta, lifecycle_opportunity_score 79.
+- Development Start - New York City / New York - Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: Vertical Construction, Brooklyn, lifecycle_opportunity_score 84.
+- Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: Vertical Construction, Brooklyn, lifecycle_opportunity_score 81.
 
 ## Delivery / Lease-Up Signals
 
-- Walker & Dunlop Arranges $270M Loan for Refinancing of Jersey City Apartment Tower: Delivery / Opening, Jersey City, lifecycle_opportunity_score 86.
-- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening, California, lifecycle_opportunity_score 84.
-- Refinancing - Other / Unknown - Walker & Dunlop Arranges $270M Loan for Refinancing of Jersey City Apartment Tower: Delivery / Opening, Unknown, lifecycle_opportunity_score 81.
-- General Project Signal - Houston / Texas - HTG Celebrates Grand Opening of $34.2M Mixed-Income Community in Houston’s Energy Corridor: Delivery / Opening, Houston, lifecycle_opportunity_score 63.
+- Office-to-Residential Conversion - Other / Unknown - JLL Brokers $31.3M Sale of Boutique Apartment Building in Chicago: Delivery / Opening, Unknown, lifecycle_opportunity_score 79.
 
 ## Distressed / Stalled Lifecycle Signals
 
@@ -63,10 +58,7 @@ Generated: 2026-11-20 03:53:53
 
 ## Refinancing / Recapitalization Lifecycle Signals
 
-- Refinancing - New York - Walker & Dunlop Arranges $270M Refi for Journal Square Apartments: Refinancing / Recapitalization, New York, lifecycle_risk_score 52.
 - Work Underway on 311-Unit Oakland Park Apartment Building: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 50.
-- Refinancing - Florida - Walker & Dunlop Arranges $285M Refinancing for Fort Lauderdale Luxury Multifamily Tower: Refinancing / Recapitalization, Florida, lifecycle_risk_score 49.
-- Walker & Dunlop Arranges $270M Refi for Journal Square Apartments: Refinancing / Recapitalization, Jersey City, lifecycle_risk_score 44.
 
 ## Implications for Woomi / Woomi Global
 
@@ -75,24 +67,24 @@ Generated: 2026-11-20 03:53:53
 
 ## Recommended Lifecycle Follow-up Actions
 
-- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Florida - Walker & Dunlop Arranges $285M Refinancing for Fort Lauderdale Luxury Multifamily Tower.
-- Monitor lifecycle signal for repeated confirmation: Construction Financing - Atlanta / Georgia - Kennedy Wilson Breaks Ground on Luxury Multifamily in Atlanta Metro.
-- Track lender, maturity, debt terms, and recapitalization need: Walker & Dunlop Arranges $270M Refi for Journal Square Apartments.
-- Monitor lifecycle signal for repeated confirmation: Acquisition - California - Advanced Real Estate Buys Casitas Apartments in Ontario, California for $56.2M.
+- Monitor lifecycle signal for repeated confirmation: Acquisition - Los Angeles / California - Rainbow Housing Secures Los Angeles Senior Multifamily Apartment Tower for $42M.
 - Monitor lifecycle signal for repeated confirmation: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine.
-- Track lender, maturity, debt terms, and recapitalization need: Refinancing - New York - Walker & Dunlop Arranges $270M Refi for Journal Square Apartments.
 - Monitor lifecycle signal for repeated confirmation: Entitlement / Permitting - Other / Unknown - New plan for housing at 452 N. Los Robles Ave. in Pasadena.
+- Monitor lifecycle signal for repeated confirmation: Disposition / Exit - California - Marcus & Millichap Brokers $6.13M Sale of 17-Unit Multifamily Property in Santa Clara Cali....
+- Monitor lifecycle signal for repeated confirmation: General Project Signal - California - Marcus & Millichap Capital Corporation Arranges $8.5 Million Financing for Multifamily Pro....
+- Monitor lifecycle signal for repeated confirmation: Acquisition - Dallas / Texas - Bascom Group Acquires 370-Unit Workforce Housing Property in North Dallas.
 - Monitor lifecycle signal for repeated confirmation: JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower.
+- Monitor lifecycle signal for repeated confirmation: New plan for housing at 452 N. Los Robles Ave. in Pasadena.
 
 
 
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 66
-- Newly detected projects: 33
+- Newly detected projects: 34
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 39
+- LA lifecycle transition watch items: 47
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -100,11 +92,11 @@ Generated: 2026-11-20 03:53:53
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 537
-- Canonical projects: 138
-- Duplicate project clusters: 100
-- Persistent assets tracked: 138
-- LA persistent asset watch items: 86
+- Raw project references: 531
+- Canonical projects: 151
+- Duplicate project clusters: 101
+- Persistent assets tracked: 151
+- LA persistent asset watch items: 116
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -112,10 +104,10 @@ Generated: 2026-11-20 03:53:53
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 138
-- Institutional-grade signals: 14
-- High-confidence signals: 33
-- Weak/noisy signals: 90
-- High-confidence watchlist items: 33
+- Signals evaluated: 151
+- Institutional-grade signals: 9
+- High-confidence signals: 31
+- Weak/noisy signals: 100
+- High-confidence watchlist items: 31
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

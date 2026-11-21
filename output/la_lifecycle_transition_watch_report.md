@@ -1,8 +1,8 @@
 # LA Lifecycle Transition Watch Report
 
-Generated: 2026-11-20 03:53:53
+Generated: 2026-11-21 03:47:35
 
-- Total LA lifecycle transition watch items: 39
+- Total LA lifecycle transition watch items: 47
 
 ## LA Projects Moving Forward
 
@@ -14,40 +14,36 @@ Generated: 2026-11-20 03:53:53
 
 ## LA Permit / Construction Start Watch
 
-- General Project Signal - Los Angeles / California - Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction: Vertical Construction -> Vertical Construction, Construction start watch.
-- Development Start - Virginia - 3 apartment projects broke ground last week: Vertical Construction -> Vertical Construction, Construction start watch.
-- Construction Financing - Las Vegas / Nevada - Bain Capital Joint Venture Secures $94M for Las Vegas Luxury Multifamily Senior Developmen...: No Previous Record -> Vertical Construction, Construction start watch.
-- Development Start - Atlanta / Georgia - Work Underway on 33-Story Charlotte Mixed-Use Development: No Previous Record -> Vertical Construction, Construction start watch.
-- Work Underway on 33-Story Charlotte Mixed-Use Development: No Previous Record -> Vertical Construction, Construction start watch.
+- Development Start - New York City / New York - Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: No Previous Record -> Vertical Construction, Construction start watch.
+- Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: No Previous Record -> Vertical Construction, Construction start watch.
 
 ## LA Refinancing / Recap Timing Watch
 
 - Work Underway on 311-Unit Oakland Park Apartment Building: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Refinancing - Florida - Walker & Dunlop Arranges $285M Refinancing for Fort Lauderdale Luxury Multifamily Tower: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 
 ## LA Delivery / Lease-Up Benchmarks
 
-- Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Delivery / Opening -> Delivery / Opening, Delivery / lease-up benchmark.
+- None detected.
 
 ## Recommended LA Transition Follow-up Actions
 
-- Monitor for another run to confirm lifecycle direction: General Project Signal - Los Angeles / California - Los Angeles Ranks 5th in the Nation for Number of Apartment Units Under Construction.
-- Monitor for another run to confirm lifecycle direction: Development Start - Virginia - 3 apartment projects broke ground last week.
-- Use as delivery, lease-up, and underwriting benchmark: Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio.
-- Monitor for another run to confirm lifecycle direction: Construction Financing - Las Vegas / Nevada - Bain Capital Joint Venture Secures $94M for Las Vegas Luxury Multifamily Senior Developmen....
-- Monitor for another run to confirm lifecycle direction: Development Start - Atlanta / Georgia - Work Underway on 33-Story Charlotte Mixed-Use Development.
-- Monitor for another run to confirm lifecycle direction: Work Underway on 33-Story Charlotte Mixed-Use Development.
+- Monitor for another run to confirm lifecycle direction: Development Start - New York City / New York - Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments.
+- Monitor for another run to confirm lifecycle direction: Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments.
 - Track maturity, lender, recapitalization need, and potential JV angle: Work Underway on 311-Unit Oakland Park Apartment Building.
-- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Florida - Walker & Dunlop Arranges $285M Refinancing for Fort Lauderdale Luxury Multifamily Tower.
+- Monitor for another run to confirm lifecycle direction: Entitlement / Permitting - Other / Unknown - New plan for housing at 452 N. Los Robles Ave. in Pasadena.
+- Monitor for another run to confirm lifecycle direction: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine.
+- Monitor for another run to confirm lifecycle direction: Fresh renderings for infill housing at 511 S. Oak Knoll Ave. in Pasadena.
+- Monitor for another run to confirm lifecycle direction: New plan for housing at 452 N. Los Robles Ave. in Pasadena.
+- Monitor for another run to confirm lifecycle direction: JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 537
-- Canonical projects: 138
-- Duplicate project clusters: 100
-- Persistent assets tracked: 138
-- LA persistent asset watch items: 86
+- Raw project references: 531
+- Canonical projects: 151
+- Duplicate project clusters: 101
+- Persistent assets tracked: 151
+- LA persistent asset watch items: 116
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

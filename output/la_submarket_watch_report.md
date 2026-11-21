@@ -1,6 +1,6 @@
 # LA / Southern California Submarket Watch Report
 
-Generated: 2026-11-20 03:53:52
+Generated: 2026-11-21 03:47:34
 
 - Total LA / Southern California submarkets detected: 9
 
@@ -8,21 +8,22 @@ Generated: 2026-11-20 03:53:52
 
 - Los Angeles: opportunity 100, risk 52, Monitor only.
 - Pasadena: opportunity 100, risk 44, Pasadena entitlement precedent watch.
-- Anaheim: opportunity 93, risk 30, Orange County suburban apartment watch.
-- Ontario: opportunity 72, risk 30, Inland Empire BTR / rental housing watch.
-- Silver Lake: opportunity 68, risk 40, Monitor only.
+- Silver Lake: opportunity 100, risk 40, Monitor only.
 - Irvine: opportunity 66, risk 30, Orange County suburban apartment watch.
-- Downtown Los Angeles: opportunity 12, risk 30, DTLA adaptive reuse watch.
-- Echo Park: opportunity 12, risk 30, Monitor only.
+- Anaheim: opportunity 65, risk 30, Orange County suburban apartment watch.
+- California: opportunity 24, risk 20, Monitor only.
+- Mid-Wilshire: opportunity 12, risk 30, Koreatown multifamily watch.
 - Orange County: opportunity 12, risk 30, Orange County suburban apartment watch.
+- Wilshire: opportunity 12, risk 30, Koreatown multifamily watch.
 
 ## Koreatown / Wilshire Watch
 
-- None detected.
+- Mid-Wilshire: opportunity 12, risk 30, Koreatown multifamily watch.
+- Wilshire: opportunity 12, risk 30, Koreatown multifamily watch.
 
 ## DTLA / Adaptive Reuse Watch
 
-- Downtown Los Angeles: opportunity 12, risk 30, DTLA adaptive reuse watch.
+- None detected.
 
 ## Hollywood / Transit-Oriented Watch
 
@@ -38,13 +39,13 @@ Generated: 2026-11-20 03:53:52
 
 ## Orange County / Suburban Apartment Watch
 
-- Anaheim: opportunity 93, risk 30, Orange County suburban apartment watch.
 - Irvine: opportunity 66, risk 30, Orange County suburban apartment watch.
+- Anaheim: opportunity 65, risk 30, Orange County suburban apartment watch.
 - Orange County: opportunity 12, risk 30, Orange County suburban apartment watch.
 
 ## Inland Empire / BTR Watch
 
-- Ontario: opportunity 72, risk 30, Inland Empire BTR / rental housing watch.
+- None detected.
 
 ## LA Density Bonus / TOC Watch
 
@@ -58,12 +59,12 @@ Generated: 2026-11-20 03:53:52
 
 - Track local planning docket and entitlement precedent: Los Angeles / Monitor only.
 - Track local planning docket and entitlement precedent: Pasadena / Pasadena entitlement precedent watch.
-- Review potential acquisition pipeline: Anaheim / Orange County suburban apartment watch.
-- Review potential acquisition pipeline: Ontario / Inland Empire BTR / rental housing watch.
 - Track local planning docket and entitlement precedent: Silver Lake / Monitor only.
 - Review potential acquisition pipeline: Irvine / Orange County suburban apartment watch.
-- Monitor only: Downtown Los Angeles / DTLA adaptive reuse watch.
-- Monitor only: Echo Park / Monitor only.
+- Review potential acquisition pipeline: Anaheim / Orange County suburban apartment watch.
+- Monitor only: California / Monitor only.
+- Monitor only: Mid-Wilshire / Koreatown multifamily watch.
+- Monitor only: Orange County / Orange County suburban apartment watch.
 
 ## Asset / Parcel Intelligence Reference
 
@@ -74,7 +75,7 @@ Asset / parcel-level site clues are available in `asset_parcel_intelligence_repo
 ## Development Lifecycle Intelligence Summary
 
 - Lifecycle records: 66
-- LA lifecycle watch items: 40
-- Stage mix: Refinancing / Recapitalization: 4, Unknown Stage: 44, Site Acquisition / Site Control: 9, Delivery / Opening: 4, Vertical Construction: 5
+- LA lifecycle watch items: 48
+- Stage mix: Unknown Stage: 50, Site Acquisition / Site Control: 11, Vertical Construction: 2, Entitlement Under Review: 1, Delivery / Opening: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

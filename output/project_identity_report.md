@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-11-20 03:53:53
+Generated: 2026-11-21 03:47:35
 
-- Total raw project references: 537
-- Total canonical projects: 138
-- Duplicate project clusters: 100
-- High-confidence project identities: 537
+- Total raw project references: 531
+- Total canonical projects: 151
+- Duplicate project clusters: 101
+- High-confidence project identities: 531
 - Low-confidence identities needing review: 0
-- LA / California project references: 344
+- LA / California project references: 432
 
 ## Top Repeated Projects
 
-- Construction Financing - Las Vegas / Nevada - Bain Capital Joint Venture Secures $94M for Las Vegas Luxury Multifamily Senior Developmen...: 35 occurrence(s), confidence 80.
-- Construction Financing - Las Vegas / Nevada - Bain Capital Joint Venture Secures $94M for Las Vegas Luxury Multifamily Senior Developmen...: 35 occurrence(s), confidence 80.
-- Construction Financing - Las Vegas / Nevada - Bain Capital Joint Venture Secures $94M for Las Vegas Luxury Multifamily Senior Developmen...: 35 occurrence(s), confidence 80.
-- Construction Financing - Las Vegas / Nevada - Bain Capital Joint Venture Secures $94M for Las Vegas Luxury Multifamily Senior Developmen...: 35 occurrence(s), confidence 80.
-- Construction Financing - Las Vegas / Nevada - Bain Capital Joint Venture Secures $94M for Las Vegas Luxury Multifamily Senior Developmen...: 35 occurrence(s), confidence 80.
-- Construction Financing - Las Vegas / Nevada - Bain Capital Joint Venture Secures $94M for Las Vegas Luxury Multifamily Senior Developmen...: 35 occurrence(s), confidence 80.
-- Construction Financing - Las Vegas / Nevada - Bain Capital Joint Venture Secures $94M for Las Vegas Luxury Multifamily Senior Developmen...: 35 occurrence(s), confidence 80.
-- Construction Financing - Las Vegas / Nevada - Bain Capital Joint Venture Secures $94M for Las Vegas Luxury Multifamily Senior Developmen...: 35 occurrence(s), confidence 80.
-- Construction Financing - Las Vegas / Nevada - Bain Capital Joint Venture Secures $94M for Las Vegas Luxury Multifamily Senior Developmen...: 35 occurrence(s), confidence 80.
-- Construction Financing - Las Vegas / Nevada - Bain Capital Joint Venture Secures $94M for Las Vegas Luxury Multifamily Senior Developmen...: 35 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: 44 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: 44 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: 44 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: 44 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: 44 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: 44 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: 44 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: 44 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: 44 occurrence(s), confidence 80.
+- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: 44 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

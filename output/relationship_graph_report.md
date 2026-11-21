@@ -1,11 +1,11 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-11-20 03:53:39
+Generated: 2026-11-21 03:47:24
 
-- Total relationship edges: 97
-- Most connected developer / GP: Kennedy Wilson (7 edge(s))
-- Most connected lender / debt provider: walker & dunlop (3 edge(s))
-- Most connected market: Atlanta (7 edge(s))
+- Total relationship edges: 84
+- Most connected developer / GP: CBRE (7 edge(s))
+- Most connected lender / debt provider: cbre (2 edge(s))
+- Most connected market: California (5 edge(s))
 - Strongest relationship edge: Blackstone -> California
 - Highest Woomi relevance edge: Blackstone -> California
 
@@ -14,80 +14,75 @@ Generated: 2026-11-20 03:53:39
 - Blackstone -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
-- Freddie Mac -> freddie mac: Financing Relationship, California, score 100. Track GP relationship history.
-- Kennedy Wilson -> kennedy wilson: Financing Relationship, Atlanta / Georgia, score 98. Track GP relationship history.
-- Kennedy Wilson -> kennedy wilson: Acquisition / Buyer, Seattle, score 96. Track GP relationship history.
-- Freddie Mac -> Acquisition - California - Advanced Real Estate Buys Casitas Apartments in Ontario, California for $56.2M: Acquisition / Buyer, California, score 95. Track GP relationship history.
-- Freddie Mac -> California: Acquisition / Buyer, California, score 95. Track GP relationship history.
-- Walker & Dunlop -> walker & dunlop: Financing Relationship, New York, score 93. Track GP relationship history.
-- CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 92. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
+- Fannie Mae -> fannie mae: Financing Relationship, Los Angeles / California, score 93. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, New York, score 91. Track GP relationship history.
+- Bascom Group -> northmarq: Financing Relationship, Dallas / Texas, score 89. Track GP relationship history.
+- Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 86. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Other / Unknown, score 86. Track GP relationship history.
+- CBRE -> Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Acquisition / Buyer, Atlanta / Georgia, score 83. Track GP relationship history.
 
 ## Developer / GP Relationship Map
 
 - Blackstone -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
-- Freddie Mac -> freddie mac: Financing Relationship, California, score 100. Track GP relationship history.
-- Kennedy Wilson -> kennedy wilson: Financing Relationship, Atlanta / Georgia, score 98. Track GP relationship history.
-- Kennedy Wilson -> kennedy wilson: Acquisition / Buyer, Seattle, score 96. Track GP relationship history.
-- Freddie Mac -> Acquisition - California - Advanced Real Estate Buys Casitas Apartments in Ontario, California for $56.2M: Acquisition / Buyer, California, score 95. Track GP relationship history.
-- Freddie Mac -> California: Acquisition / Buyer, California, score 95. Track GP relationship history.
-- Walker & Dunlop -> walker & dunlop: Financing Relationship, New York, score 93. Track GP relationship history.
-- CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 92. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
+- Fannie Mae -> fannie mae: Financing Relationship, Los Angeles / California, score 93. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, New York, score 91. Track GP relationship history.
+- Bascom Group -> northmarq: Financing Relationship, Dallas / Texas, score 89. Track GP relationship history.
+- Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 86. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Other / Unknown, score 86. Track GP relationship history.
+- CBRE -> Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Acquisition / Buyer, Atlanta / Georgia, score 83. Track GP relationship history.
 
 ## Lender / Debt Provider Relationship Map
 
-- Freddie Mac -> freddie mac: Financing Relationship, California, score 100. Track GP relationship history.
-- Walker & Dunlop -> walker & dunlop: Financing Relationship, New York, score 93. Track GP relationship history.
-- CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 92. Track GP relationship history.
-- Walker & Dunlop -> walker & dunlop: Financing Relationship, Other / Unknown, score 91. Track GP relationship history.
-- CBRE -> cbre: Financing Relationship, New York, score 86. Track GP relationship history.
-- Merchants Capital -> freddie mac: Financing Relationship, Sun Belt, score 86. Track GP relationship history.
-- Benefit Street Partners -> walker & dunlop: Financing Relationship, Florida, score 81. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
+- Fannie Mae -> fannie mae: Financing Relationship, Los Angeles / California, score 93. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, New York, score 91. Track GP relationship history.
+- Bascom Group -> northmarq: Financing Relationship, Dallas / Texas, score 89. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Other / Unknown, score 86. Track GP relationship history.
 
 ## Capital Partner / Institutional Flow Map
 
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
-- Kennedy Wilson -> kennedy wilson: Financing Relationship, Atlanta / Georgia, score 98. Track GP relationship history.
-- Kennedy Wilson -> kennedy wilson: Acquisition / Buyer, Seattle, score 96. Track GP relationship history.
 - Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 86. Track GP relationship history.
 
 ## Market Relationship Map
 
 - Blackstone -> California: JV / Partnership, California, score 100. Review potential JV relevance.
-- Freddie Mac -> California: Acquisition / Buyer, California, score 95. Track GP relationship history.
-- Kennedy Wilson -> Atlanta: Financing Relationship, Atlanta / Georgia, score 90. Track GP relationship history.
-- Kennedy Wilson -> Atlanta / Georgia: Financing Relationship, Atlanta / Georgia, score 90. Track GP relationship history.
-- Kennedy Wilson -> Seattle: Acquisition / Buyer, Seattle, score 88. Track GP relationship history.
-- Walker & Dunlop -> New York: Financing Relationship, New York, score 85. Track GP relationship history.
-- Marcus & Millichap -> Austin / Texas: Acquisition / Buyer, Austin / Texas, score 84. Track GP relationship history.
-- CBRE -> Atlanta: Acquisition / Buyer, Atlanta / Georgia, score 82. Track GP relationship history.
-- CBRE -> Atlanta / Georgia: Acquisition / Buyer, Atlanta / Georgia, score 82. Track GP relationship history.
+- CBRE -> Atlanta: Acquisition / Buyer, Atlanta / Georgia, score 83. Track GP relationship history.
+- CBRE -> Atlanta / Georgia: Acquisition / Buyer, Atlanta / Georgia, score 83. Track GP relationship history.
+- Fannie Mae -> Los Angeles: Acquisition / Buyer, Los Angeles / California, score 83. Track GP relationship history.
+- Fannie Mae -> Los Angeles / California: Acquisition / Buyer, Los Angeles / California, score 83. Track GP relationship history.
+- Bascom Group -> Dallas: Acquisition / Buyer, Dallas / Texas, score 79. Track GP relationship history.
+- Bascom Group -> Dallas / Texas: Acquisition / Buyer, Dallas / Texas, score 79. Track GP relationship history.
 - Marcus & Millichap -> California: Disposition / Seller, California, score 79. Track GP relationship history.
+- Hines -> Atlanta: Acquisition / Buyer, Atlanta / Georgia, score 78. Track GP relationship history.
+- Hines -> Atlanta / Georgia: Acquisition / Buyer, Atlanta / Georgia, score 78. Track GP relationship history.
 
 ## California / LA Relationship Signals
 
 - Blackstone -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
-- Freddie Mac -> freddie mac: Financing Relationship, California, score 100. Track GP relationship history.
-- Freddie Mac -> Acquisition - California - Advanced Real Estate Buys Casitas Apartments in Ontario, California for $56.2M: Acquisition / Buyer, California, score 95. Track GP relationship history.
-- Freddie Mac -> California: Acquisition / Buyer, California, score 95. Track GP relationship history.
+- Fannie Mae -> Los Angeles: Acquisition / Buyer, Los Angeles / California, score 83. Track GP relationship history.
 - Marcus & Millichap -> California: Disposition / Seller, California, score 79. Track GP relationship history.
 - Marcus & Millichap -> Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: Disposition / Seller, California, score 79. Track GP relationship history.
-- Marcus & Millichap -> California: Disposition / Seller, California, score 77. Track GP relationship history.
-- Marcus & Millichap -> Disposition / Exit - California - Anaheim Sale is First Closing in Broader Multifamily Portfolio: Disposition / Seller, California, score 77. Track GP relationship history.
+- Marcus & Millichap -> General Project Signal - California - Marcus & Millichap Capital Corporation Arranges $8.5 Million Financing for Multifamily Pro...: Pricing / Valuation Signal, California, score 77. Track GP relationship history.
+- Marcus & Millichap -> California: Market Expansion, California, score 75. Track GP relationship history.
+- Marcus & Millichap -> California: Disposition / Seller, California, score 74. Track GP relationship history.
+- Marcus & Millichap -> Disposition / Exit - California - Marcus & Millichap Brokers $6.13M Sale of 17-Unit Multifamily Property in Santa Clara Cali...: Disposition / Seller, California, score 74. Track GP relationship history.
 
 ## Potential Woomi Partnership Signals
 
 - Blackstone -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
-- Benefit Street Partners -> JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower: JV / Partnership, Miami / Florida, score 75. Review potential JV relevance.
-- Benefit Street Partners -> Miami / Florida: JV / Partnership, Miami / Florida, score 75. Review potential JV relevance.
-- Benefit Street Partners -> South Florida: JV / Partnership, Miami / Florida, score 75. Review potential JV relevance.
-- JV / Partnership - Los Angeles / California - 'Graffiti towers' no more: Oceanwide Plaza is officially cleaned up -> Los Angeles: JV / Partnership, Los Angeles / California, score 58. Review potential JV relevance.
-- JV / Partnership - Los Angeles / California - 'Graffiti towers' no more: Oceanwide Plaza is officially cleaned up -> Los Angeles / California: JV / Partnership, Los Angeles / California, score 58. Review potential JV relevance.
+- Benefit Street Partners -> JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower: JV / Partnership, Miami / Florida, score 74. Review potential JV relevance.
+- Benefit Street Partners -> Miami / Florida: JV / Partnership, Miami / Florida, score 74. Review potential JV relevance.
+- Benefit Street Partners -> South Florida: JV / Partnership, Miami / Florida, score 74. Review potential JV relevance.
+- JV / Partnership - California - Work Gets Started on Carlsbad Village Mixed-Use Project -> California: JV / Partnership, California, score 64. Review potential JV relevance.
 - JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project -> Atlanta: JV / Partnership, Atlanta / Georgia, score 47. Review potential JV relevance.
 - JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project -> Atlanta / Georgia: JV / Partnership, Atlanta / Georgia, score 47. Review potential JV relevance.
 
@@ -98,13 +93,13 @@ Generated: 2026-11-20 03:53:39
 | Blackstone | California | JV / Partnership | 100 |
 | Blackstone | California | JV / Partnership | 60 |
 | Blackstone | Blackstone | JV / Partnership | 75 |
-| Freddie Mac | Freddie Mac | Financing Relationship | 75 |
-| Kennedy Wilson | Kennedy Wilson | Financing Relationship | 75 |
-| Kennedy Wilson | Kennedy Wilson | Acquisition / Buyer | 75 |
-| Freddie Mac | California | Acquisition / Buyer | 60 |
-| Freddie Mac | California | Acquisition / Buyer | 100 |
-| Walker & Dunlop | walker & dunlop | Financing Relationship | 40 |
 | CBRE | CBRE | Financing Relationship | 75 |
+| Fannie Mae | Fannie Mae | Financing Relationship | 75 |
+| CBRE | CBRE | Financing Relationship | 75 |
+| Bascom Group | northmarq | Financing Relationship | 40 |
+| Hines | hines | Acquisition / Buyer | 40 |
+| JLL | JLL | Financing Relationship | 75 |
+| CBRE | Los Angeles | Acquisition / Buyer | 60 |
 
 ## Multi-Source Confirmation Summary
 
@@ -115,10 +110,10 @@ Relationship repeat strength uses unique canonical deal/event counts instead of 
 
 Ranked GP watchlist signals are available in `gp_watchlist_report.md`.
 - Blackstone: 76 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- Kennedy Wilson: 76 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- Freddie Mac: 75 (Tier 2 High Potential GP), Capital market and pricing discovery reference.
+- Fannie Mae: 76 (Tier 2 High Potential GP), Potential GP partnership candidate.
 - Hines: 73 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- Benefit Street Partners: 73 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- CBRE: 70 (Tier 2 High Potential GP), Capital market and pricing discovery reference.
+- Benefit Street Partners: 69 (Tier 3 Monitoring GP), Potential GP partnership candidate.
 
 ## GP Source Expansion Summary
 
@@ -141,20 +136,20 @@ Longitudinal memory is available in `historical_memory_report.md`.
 - Review potential JV relevance: Blackstone -> California (JV / Partnership).
 - Review potential JV relevance: Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine (JV / Partnership).
 - Review potential JV relevance: Blackstone -> blackstone (JV / Partnership).
-- Track GP relationship history: Freddie Mac -> freddie mac (Financing Relationship).
-- Track GP relationship history: Kennedy Wilson -> kennedy wilson (Financing Relationship).
-- Track GP relationship history: Kennedy Wilson -> kennedy wilson (Acquisition / Buyer).
-- Track GP relationship history: Freddie Mac -> Acquisition - California - Advanced Real Estate Buys Casitas Apartments in Ontario, California for $56.2M (Acquisition / Buyer).
-- Track GP relationship history: Freddie Mac -> California (Acquisition / Buyer).
+- Track GP relationship history: CBRE -> cbre (Financing Relationship).
+- Track GP relationship history: Fannie Mae -> fannie mae (Financing Relationship).
+- Track GP relationship history: CBRE -> cbre (Financing Relationship).
+- Track GP relationship history: Bascom Group -> northmarq (Financing Relationship).
+- Track GP relationship history: Hines -> hines (Acquisition / Buyer).
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 537
-- Canonical projects: 138
-- Duplicate project clusters: 100
-- Persistent assets tracked: 138
-- LA persistent asset watch items: 86
+- Raw project references: 531
+- Canonical projects: 151
+- Duplicate project clusters: 101
+- Persistent assets tracked: 151
+- LA persistent asset watch items: 116
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

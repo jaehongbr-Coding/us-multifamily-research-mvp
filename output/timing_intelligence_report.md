@@ -1,41 +1,39 @@
 # Timing Intelligence Report
 
-Generated: 2026-11-20 03:53:52
+Generated: 2026-11-21 03:47:34
 
-- Total timing signals detected: 31
+- Total timing signals detected: 26
 
 ## Top Timing Signals
 
+- Construction Start in New York City / New York: 2012, score 82, Weekly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
 - Entitlement / Permitting in Other / Unknown: in 2025, score 78, Weekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
-- Acquisition Window in California: No explicit timing reference, score 75, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Entitlement / Permitting in Los Angeles: No explicit timing reference, score 73, Biweekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
-- Refinancing / Maturity Window in New York: No explicit timing reference, score 71, Biweekly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
 - Construction Start in Other / Unknown: 2026, score 70, Weekly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
-- Refinancing / Maturity Window in Other / Unknown: No explicit timing reference, score 68, Biweekly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
 - Acquisition Window in Atlanta / Georgia: No explicit timing reference, score 67, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
-- Acquisition Window in Austin / Texas: No explicit timing reference, score 67, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
-- Acquisition Window in Seattle: No explicit timing reference, score 67, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
-- Construction Completion / Delivery in California: No explicit timing reference, score 66, Biweekly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
+- Acquisition Window in Dallas / Texas: No explicit timing reference, score 67, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
+- Acquisition Window in Los Angeles / California: No explicit timing reference, score 67, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
+- Entitlement / Permitting in Los Angeles / California: No explicit timing reference, score 65, Biweekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
+- Entitlement / Permitting in Los Angeles / California: No explicit timing reference, score 65, Biweekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
+- Entitlement / Permitting in Los Angeles / California: No explicit timing reference, score 65, Biweekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
 
 ## Refinancing / Maturity Timing Watch
 
-- Refinancing / Maturity Window in New York: No explicit timing reference, score 71, Biweekly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
-- Refinancing / Maturity Window in Other / Unknown: No explicit timing reference, score 68, Biweekly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
-- Refinancing / Maturity Window in Florida: No explicit timing reference, score 59, Monthly monitoring. Track maturity, refinancing options, lender appetite, and recapitalization timing.
+- None detected.
 
 ## Construction Start / Delivery Watch
 
+- Construction Start in New York City / New York: 2012, score 82, Weekly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
 - Construction Start in Other / Unknown: 2026, score 70, Weekly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
-- Construction Completion / Delivery in California: No explicit timing reference, score 66, Biweekly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
-- Construction Start in Las Vegas / Nevada: No explicit timing reference, score 62, Monthly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
-- Construction Start in Other / Unknown: No explicit timing reference, score 62, Monthly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
-- Construction Start in Virginia: No explicit timing reference, score 56, Monthly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
-- Construction Start in Atlanta / Georgia: No explicit timing reference, score 53, Monthly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
+- Construction Completion / Delivery in Other / Unknown: No explicit timing reference, score 63, Monthly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
+- Construction Start in National: No explicit timing reference, score 59, Monthly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
 
 ## Entitlement / Permitting Timing Watch
 
 - Entitlement / Permitting in Other / Unknown: in 2025, score 78, Weekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
 - Entitlement / Permitting in Los Angeles: No explicit timing reference, score 73, Biweekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
+- Entitlement / Permitting in Los Angeles / California: No explicit timing reference, score 65, Biweekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
+- Entitlement / Permitting in Los Angeles / California: No explicit timing reference, score 65, Biweekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
 - Entitlement / Permitting in Los Angeles / California: No explicit timing reference, score 65, Biweekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
 - Entitlement / Permitting in Other / Unknown: No explicit timing reference, score 65, Biweekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
 - Entitlement / Permitting in Other / Unknown: No explicit timing reference, score 65, Biweekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
@@ -43,20 +41,20 @@ Generated: 2026-11-20 03:53:52
 
 ## Acquisition / Capital Re-entry Timing Watch
 
-- Acquisition Window in California: No explicit timing reference, score 75, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Acquisition Window in Atlanta / Georgia: No explicit timing reference, score 67, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
-- Acquisition Window in Austin / Texas: No explicit timing reference, score 67, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
-- Acquisition Window in Seattle: No explicit timing reference, score 67, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
-- Acquisition Window in Houston / Texas: No explicit timing reference, score 63, Monthly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
+- Acquisition Window in Dallas / Texas: No explicit timing reference, score 67, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
+- Acquisition Window in Los Angeles / California: No explicit timing reference, score 67, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Acquisition Window in Northern Virginia / Virginia: No explicit timing reference, score 63, Monthly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
+- Acquisition Window in Austin / Texas: No explicit timing reference, score 62, Monthly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
+- Acquisition Window in Miami / Florida: No explicit timing reference, score 60, Monthly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
+- Acquisition Window in Other / Unknown: No explicit timing reference, score 58, Monthly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Acquisition Window in Atlanta / Georgia: No explicit timing reference, score 57, Monthly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
-- Acquisition Window in Austin / Texas: No explicit timing reference, score 47, Monitor Only monitoring. Monitor pricing evidence and possible acquisition outreach timing.
+- Acquisition Window in Dallas / Texas: No explicit timing reference, score 54, Monthly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
+- Acquisition Window in San Francisco / California: No explicit timing reference, score 54, Monthly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 
 ## LA / California Timing Signals
 
-- Acquisition Window in California: No explicit timing reference, score 75, Biweekly monitoring. Monitor pricing evidence and possible acquisition outreach timing.
 - Entitlement / Permitting in Los Angeles: No explicit timing reference, score 73, Biweekly monitoring. Track entitlement, zoning, permitting, and public-agency milestones.
-- Construction Completion / Delivery in California: No explicit timing reference, score 66, Biweekly monitoring. Monitor delivery, lease-up, concession, and supply pipeline timing.
 
 ## BTR / SFR Timing Signals
 
@@ -64,10 +62,10 @@ Generated: 2026-11-20 03:53:52
 
 ## Recommended Monitoring Cadence
 
-- Monthly: 15 timing signal(s)
-- Biweekly: 12 timing signal(s)
-- Weekly: 2 timing signal(s)
-- Monitor Only: 2 timing signal(s)
+- Monthly: 12 timing signal(s)
+- Biweekly: 10 timing signal(s)
+- Weekly: 3 timing signal(s)
+- Monitor Only: 1 timing signal(s)
 
 ## Implications for Woomi / Woomi Global
 
@@ -80,8 +78,8 @@ Generated: 2026-11-20 03:53:52
 ## Development Lifecycle Intelligence Summary
 
 - Lifecycle records: 66
-- LA lifecycle watch items: 40
-- Stage mix: Refinancing / Recapitalization: 4, Unknown Stage: 44, Site Acquisition / Site Control: 9, Delivery / Opening: 4, Vertical Construction: 5
+- LA lifecycle watch items: 48
+- Stage mix: Unknown Stage: 50, Site Acquisition / Site Control: 11, Vertical Construction: 2, Entitlement Under Review: 1, Delivery / Opening: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -90,9 +88,9 @@ Generated: 2026-11-20 03:53:52
 ## Lifecycle Transition Summary
 
 - Lifecycle transitions analyzed: 66
-- Newly detected projects: 33
+- Newly detected projects: 34
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 39
+- LA lifecycle transition watch items: 47
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 

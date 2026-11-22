@@ -1,0 +1,10 @@
+﻿run_date,run_id,primary_topic,article_count,high_confidence_count,medium_confidence_count,low_confidence_count,unknown_count,top_markets,top_sources
+2026-11-22,20261122-025107-9349e885,transaction_market,16,2,8,6,0,Other / Unknown (3); Atlanta / Georgia (3); Dallas / Texas (2); California (2); Miami / Florida (2),Connect CRE Apartments (4); REBusiness Online (3); Connect CRE Atlanta (3); Yield PRO (2); Connect CRE (2)
+2026-11-22,20261122-025107-9349e885,development_pipeline,13,1,6,6,0,Other / Unknown (7); Los Angeles / California (1); Atlanta / Georgia (1); National (1); New York City / New York (1),NAHB Eye on Housing - Multifamily (4); REBusiness Online (3); Yield PRO (3); Urbanize LA (1); Connect CRE (1)
+2026-11-22,20261122-025107-9349e885,supply_demand,8,0,0,8,0,National (4); Other / Unknown (3); Houston / Texas (1),NAHB Eye on Housing - Multifamily (5); Multifamily Dive (1); Connect CRE Apartments (1); Multifamily Executive (1)
+2026-11-22,20261122-025107-9349e885,gp_activity,7,0,0,1,6,Other / Unknown (4); Los Angeles / California (1); California (1); National (1),NAHB Eye on Housing - Multifamily (4); Urbanize LA (1); Multifamily Dive (1); Connect CRE California (1)
+2026-11-22,20261122-025107-9349e885,institutional_capital,6,2,2,2,0,California (2); National (1); Virginia (1); Miami / Florida (1); Atlanta / Georgia (1),Yield PRO (2); Connect CRE (1); Connect CRE Orange County (1); Connect CRE South Florida (1); Connect CRE Atlanta (1)
+2026-11-22,20261122-025107-9349e885,other,6,0,0,0,6,Other / Unknown (2); Los Angeles (1); Austin / Texas (1); San Francisco / California (1); Los Angeles / California (1),Urbanize LA (4); SF YIMBY (2)
+2026-11-22,20261122-025107-9349e885,macro_financing,4,0,0,0,4,Other / Unknown (2); Los Angeles / California (1); California (1),NAHB Eye on Housing - Multifamily (2); Urbanize LA (1); Yield PRO (1)
+2026-11-22,20261122-025107-9349e885,capital_markets,2,0,2,0,0,Miami / Florida (2),Connect CRE South Florida (1); Commercial Observer (1)
+2026-11-22,20261122-025107-9349e885,research_data,2,0,0,0,2,Los Angeles / California (1); Southeast (1),Urbanize LA (2)

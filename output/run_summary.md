@@ -1,14 +1,14 @@
 # Run Summary
 
-Generated: 2026-11-21 03:47:19
+Generated: 2026-11-22 02:51:07
 
 ## Quick Counts
 
-- Total articles saved: 61
-- High-confidence signals: 31
-- Opportunities: 39
+- Total articles saved: 64
+- High-confidence signals: 33
+- Opportunities: 41
 - Distress signals: 2
-- LA asset watch items: 50
+- LA asset watch items: 51
 - Dashboard cards: 35
 - Pipeline health status: OK
 

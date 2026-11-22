@@ -1,27 +1,28 @@
 # Classification Quality Report
 
-Generated: 2026-11-21 03:47:19
+Generated: 2026-11-22 02:51:07
 
 ## Classification Summary
 
-- Total articles classified: 61
-- Topic distribution: transaction_market: 17; development_pipeline: 12; supply_demand: 8; gp_activity: 7; other: 5; institutional_capital: 4; macro_financing: 4; capital_markets: 2
+- Total articles classified: 64
+- Topic distribution: transaction_market: 16; development_pipeline: 13; supply_demand: 8; gp_activity: 7; institutional_capital: 6; other: 6; macro_financing: 4; capital_markets: 2
 - Classification is rule-based and conservative. Low or unknown labels should be treated as review queues, not failures.
 
 ## Topic Distribution
 
-- transaction_market: 17 article(s), high 2, medium 10, low 5, unknown 0. Top markets: Atlanta / Georgia (3); Dallas / Texas (2); California (2); Miami / Florida (2); Other / Unknown (2).
-- development_pipeline: 12 article(s), high 1, medium 6, low 5, unknown 0. Top markets: Other / Unknown (6); Los Angeles / California (1); Atlanta / Georgia (1); National (1); New York City / New York (1).
+- transaction_market: 16 article(s), high 2, medium 8, low 6, unknown 0. Top markets: Other / Unknown (3); Atlanta / Georgia (3); Dallas / Texas (2); California (2); Miami / Florida (2).
+- development_pipeline: 13 article(s), high 1, medium 6, low 6, unknown 0. Top markets: Other / Unknown (7); Los Angeles / California (1); Atlanta / Georgia (1); National (1); New York City / New York (1).
 - supply_demand: 8 article(s), high 0, medium 0, low 8, unknown 0. Top markets: National (4); Other / Unknown (3); Houston / Texas (1).
 - gp_activity: 7 article(s), high 0, medium 0, low 1, unknown 6. Top markets: Other / Unknown (4); Los Angeles / California (1); California (1); National (1).
-- other: 5 article(s), high 0, medium 0, low 0, unknown 5. Top markets: Other / Unknown (2); Los Angeles (1); Austin / Texas (1); San Francisco / California (1).
-- institutional_capital: 4 article(s), high 0, medium 2, low 2, unknown 0. Top markets: California (2); Miami / Florida (1); Atlanta / Georgia (1).
+- institutional_capital: 6 article(s), high 2, medium 2, low 2, unknown 0. Top markets: California (2); National (1); Virginia (1); Miami / Florida (1); Atlanta / Georgia (1).
+- other: 6 article(s), high 0, medium 0, low 0, unknown 6. Top markets: Other / Unknown (2); Los Angeles (1); Austin / Texas (1); San Francisco / California (1); Los Angeles / California (1).
 - macro_financing: 4 article(s), high 0, medium 0, low 0, unknown 4. Top markets: Other / Unknown (2); Los Angeles / California (1); California (1).
 - capital_markets: 2 article(s), high 0, medium 2, low 0, unknown 0. Top markets: Miami / Florida (2).
 - research_data: 2 article(s), high 0, medium 0, low 0, unknown 2. Top markets: Los Angeles / California (1); Southeast (1).
 
 ## Low Confidence / Unknown Articles
 
+- CBRE Arranges Two Property 540-Unit Multifamily Portfolio Sale in Des Moines Suburb (Yield PRO, Other / Unknown): Capital event keywords detected: disposition. Primary topic set to transaction_market; confidence low.
 - Hudson County Luxury Multifamily Trades for $46M (Connect CRE, New York): Capital event keywords detected: disposition. Primary topic set to transaction_market; confidence low.
 - Mixed-use project reaches its peak at at 6052 W. Olympic Blvd. (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to research_data; confidence unknown.
 - Developers seek bond financing for affordable housing in the Valley (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Financing type keywords detected: public_subsidy. Primary topic set to gp_activity; confidence low.
@@ -41,8 +42,7 @@ Generated: 2026-11-21 03:47:19
 - Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 (NAHB Eye on Housing - Multifamily, Other / Unknown): Development-stage terms detected: delivery. Primary topic set to development_pipeline; confidence low.
 - Construction Underway At 2138 Kittredge Street, Downtown Berkeley (SF YIMBY, Austin / Texas): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to other; confidence unknown.
 - Developers Secure Approval for 55-Story Miami Waterfront Multifamily Tower (Yield PRO, Miami / Florida): Development-stage terms detected: entitlement. Primary topic set to development_pipeline; confidence low.
-- Multifamily Missing Middle Falls Back (NAHB Eye on Housing - Multifamily, Other / Unknown): No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
-- Additional low/unknown rows omitted: 18
+- Additional low/unknown rows omitted: 21
 
 ## Data Quality Notes
 

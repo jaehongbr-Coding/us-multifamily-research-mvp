@@ -1,19 +1,19 @@
 # Source Health Report
 
-Generated: 2026-11-21 03:47:20
+Generated: 2026-11-22 02:51:09
 
 - Total sources attempted: 163
-- Working sources: 21
+- Working sources: 22
 - Failing sources: 16
 - Placeholder sources: 0
 - Disabled registered sources: 126
 
 ## High-Value Sources
 
-- Yield PRO (Core Multifamily News): 6 saved article(s).
+- Yield PRO (Core Multifamily News): 8 saved article(s).
 - Connect CRE (Core Multifamily News): 4 saved article(s).
 - NAHB Eye on Housing - Multifamily (Public Agency / Housing Data): 15 saved article(s).
-- Urbanize LA (Regional / California / LA Sources): 8 saved article(s).
+- Urbanize LA (Regional / California / LA Sources): 9 saved article(s).
 - REBusiness Online (Site / Parcel Source Expansion): 6 saved article(s).
 - Connect CRE Apartments (Site / Parcel Source Expansion): 9 saved article(s).
 - Connect CRE South Florida (Site / Parcel Source Expansion): 4 saved article(s).
@@ -34,7 +34,7 @@ Generated: 2026-11-21 03:47:20
 
 - Multi-Housing News: RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token)
 - GlobeSt: RSS parsing issue: status=301; <unknown>:2:1326: not well-formed (invalid token)
-- The Real Deal: RSS parsing issue: status=301; text/html; charset=utf-8 is not an XML media type
+- The Real Deal: No entries returned
 - Urban Land Institute: RSS parsing issue: status=403; <unknown>:2:1326: not well-formed (invalid token)
 - NMHC News: RSS parsing issue: status=200; <unknown>:21:2: mismatched tag
 - Walker & Dunlop Insights: RSS parsing issue: status=301; <unknown>:2:2016: not well-formed (invalid token)
@@ -72,7 +72,7 @@ Developer / GP source coverage is available in `gp_source_coverage_report.md`.
 
 Validated source activation scoring is available in `source_activation_report.md`.
 - Working activated sources: 21
-- Failed critical sources: 12
+- Failed critical sources: 11
 - Highest quality source this run: Yield PRO (97).
 
 ## Recommended Source Improvement Actions

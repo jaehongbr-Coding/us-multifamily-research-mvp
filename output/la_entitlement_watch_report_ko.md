@@ -1,6 +1,6 @@
 # 한국어 LA / California 인허가 Watch
 
-- 생성 시각: 2026-11-21 03:47:19
+- 생성 시각: 2026-11-22 02:51:07
 - 참고 원문 파일: `la_entitlement_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -24,6 +24,7 @@
 ## CEQA / Environmental Review
 
 - Define Living Starts Work on 388-Unit Houston Apartment Community: Houston / Texas, 아파트, 점수 65 (CEQA risk)
+- 405 ExpressLanes, Metro ridership, and more: Los Angeles / California, 일반 주거, 점수 65 (CEQA risk)
 - Developers Secure Approval for 55-Story Miami Waterfront Multifamily Tower: Miami / Florida, 멀티패밀리, 점수 65 (CEQA risk)
 - New plan for housing at 452 N. Los Robles Ave. in Pasadena: 기타 / 미확인, 주거복합, 점수 65 (CEQA risk)
 

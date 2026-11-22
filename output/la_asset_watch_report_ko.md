@@ -1,6 +1,6 @@
 # 한국어 LA 자산 / 프로젝트 Watch
 
-- 생성 시각: 2026-11-21 03:47:19
+- 생성 시각: 2026-11-22 02:51:07
 - 참고 원문 파일: `la_asset_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -12,10 +12,10 @@
 - Entitlement / Permitting - Los Angeles / California - Mixed-use project reaches its peak at at 6052 W. Olympic Blvd.: Los Angeles, 주거복합, 점수 100 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
 - Entitlement / Permitting - Other / Unknown - Fresh renderings for infill housing at 511 S. Oak Knoll Ave. in Pasadena: Los Angeles, 아파트, 점수 100 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
 - Entitlement / Permitting - Southeast - Mixed-use project starts to rise at 3313 Sunset Blvd. in Silver Lake: Los Angeles, 어포더블 하우징, 점수 100 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
-- Acquisition - Los Angeles / California - Rainbow Housing Secures Los Angeles Senior Multifamily Apartment Tower for $42M: Los Angeles, 아파트, 점수 100 (Unknown; Monitor asset for repeated local confirmation)
 - Entitlement / Permitting - Other / Unknown - New plan for housing at 452 N. Los Robles Ave. in Pasadena: Los Angeles, 주거복합, 점수 100 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
 - Acquisition - Other / Unknown - FPA Multifamily Purchases 599-Unit Property in Portland: Los Angeles, 아파트, 점수 100 (Site Controlled; Monitor asset for repeated local confirmation)
 - Disposition / Exit - Los Angeles / California - 269 homes to replace nursery at 7639 Topanga Canyon Blvd. in Canoga Park: Los Angeles, 어포더블 하우징, 점수 99 (Unknown; Monitor asset for repeated local confirmation)
+- Entitlement / Permitting - Los Angeles / California - Developers seek bond financing for affordable housing in the Valley: Los Angeles, 어포더블 하우징, 점수 99 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
 
 ## 프로젝트 / 부지 단서
 
@@ -27,11 +27,11 @@
 
 ## 인허가 / 개발 단계
 
-- Acquisition - Los Angeles / California - Rainbow Housing Secures Los Angeles Senior Multifamily Apartment Tower for $42M: Los Angeles, 아파트, 점수 100 (Unknown Stage; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
 - Entitlement / Permitting - Other / Unknown - New plan for housing at 452 N. Los Robles Ave. in Pasadena: Los Angeles, 주거복합, 점수 100 (Unknown Stage; Monitor for repeated project updates)
 - Entitlement / Permitting - Los Angeles - Multifamily housing unwrapped at 4429 S. Vermont Ave. in South L.A.: Los Angeles, 어포더블 하우징, 점수 95 (Unknown Stage; Monitor for repeated project updates)
 - Disposition / Exit - Los Angeles / California - 269 homes to replace nursery at 7639 Topanga Canyon Blvd. in Canoga Park: Los Angeles, 어포더블 하우징, 점수 94 (Unknown Stage; Monitor for repeated project updates)
 - Entitlement / Permitting - Los Angeles / California - Mixed-use project reaches its peak at at 6052 W. Olympic Blvd.: Los Angeles, 주거복합, 점수 94 (Unknown Stage; Monitor for repeated project updates)
+- Entitlement / Permitting - Southeast - Mixed-use project starts to rise at 3313 Sunset Blvd. in Silver Lake: Los Angeles, 어포더블 하우징, 점수 94 (Unknown Stage; Monitor for repeated project updates)
 
 ## 추천 현지 확인 사항
 

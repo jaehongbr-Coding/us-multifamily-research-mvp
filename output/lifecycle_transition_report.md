@@ -1,51 +1,47 @@
 # Lifecycle Transition Report
 
-Generated: 2026-11-21 03:47:35
+Generated: 2026-11-22 02:51:31
 
-- Total lifecycle transitions analyzed: 66
-- Newly detected projects: 34
+- Total lifecycle transitions analyzed: 69
+- Newly detected projects: 6
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - Reappearing projects: 0
 
 ## Strongest Progression Signals
 
-- Development Start - New York City / New York - Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 73.
-- Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 73.
-- Office-to-Residential Conversion - Other / Unknown - JLL Brokers $31.3M Sale of Boutique Apartment Building in Chicago: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 64.
+- Development Start - New York City / New York - Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 78.
+- Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 78.
+- Office-to-Residential Conversion - Other / Unknown - JLL Brokers $31.3M Sale of Boutique Apartment Building in Chicago: Delivery / Opening -> Delivery / Opening, Mature / Operating, progression_score 69.
 - Work Underway on 311-Unit Oakland Park Apartment Building: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, progression_score 62.
 - Entitlement / Permitting - Other / Unknown - New plan for housing at 452 N. Los Robles Ave. in Pasadena: Unknown Stage -> Unknown Stage, Unknown Transition, progression_score 50.
 - JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Unknown Stage -> Unknown Stage, Unknown Transition, progression_score 50.
 - Fresh renderings for infill housing at 511 S. Oak Knoll Ave. in Pasadena: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, progression_score 49.
 - New plan for housing at 452 N. Los Robles Ave. in Pasadena: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, progression_score 49.
-- JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower: Unknown Stage -> Unknown Stage, Unknown Transition, progression_score 49.
-- Construction Financing - Miami / Florida - Work Underway on 311-Unit Oakland Park Apartment Building: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, progression_score 48.
+- Acquisition - Dallas / Texas - Bascom Group Acquires 370-Unit Workforce Housing Property in North Dallas: Unknown Stage -> Unknown Stage, Unknown Transition, progression_score 49.
+- Disposition / Exit - California - Marcus & Millichap Brokers $6.13M Sale of 17-Unit Multifamily Property in Santa Clara Cali...: Unknown Stage -> Unknown Stage, Unknown Transition, progression_score 49.
 
 ## Highest Stall Risk Signals
 
 - Construction Financing - Miami / Florida - Work Underway on 311-Unit Oakland Park Apartment Building: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 41.
 - 269 homes to replace nursery at 7639 Topanga Canyon Blvd. in Canoga Park: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
+- City Council upholds approval of apartments at 2413 Silver Lake Blvd.: Entitlement Under Review -> Entitlement Under Review, Same Stage Persistence, stall_risk_score 38.
+- Development Start - National - Inland, Reuter Walton Break Ground on 342-Unit Citywalk Apartments in Rochester, Minnesota: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 38.
+- Acquisition - Other / Unknown - FPA Multifamily Purchases 599-Unit Property in Portland: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 37.
+- Acquisition - Seattle - FPA Multifamily Picks Up 599-Unit MF Community in Portland: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 37.
+- FPA Multifamily Picks Up 599-Unit MF Community in Portland: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 37.
+- Disposition / Exit - Miami / Florida - Eastwind to Build Westlake Multifamily Community: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 37.
+- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 37.
 - Fresh renderings for infill housing at 511 S. Oak Knoll Ave. in Pasadena: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
-- New plan for housing at 452 N. Los Robles Ave. in Pasadena: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
-- Construction Financing - Miami / Florida - Centennial Bank Lends $51M to Expand Miami-Dade Nursing Home: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 34.
-- Disposition / Exit - Los Angeles / California - 269 homes to replace nursery at 7639 Topanga Canyon Blvd. in Canoga Park: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
-- Entitlement / Permitting - Los Angeles - Multifamily housing unwrapped at 4429 S. Vermont Ave. in South L.A.: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
-- Entitlement / Permitting - Other / Unknown - Fresh renderings for infill housing at 511 S. Oak Knoll Ave. in Pasadena: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
-- Entitlement / Permitting - Southeast - Mixed-use project starts to rise at 3313 Sunset Blvd. in Silver Lake: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
-- Acquisition - Northern Virginia / Virginia - JBG Smith Affiliate Leads $52M NoVA Apartment Buy With Amazon Financing: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
 
 ## Newly Detected Projects
 
-- Development Start - New York City / New York - Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 73.
-- Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 73.
-- Office-to-Residential Conversion - Other / Unknown - JLL Brokers $31.3M Sale of Boutique Apartment Building in Chicago: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 64.
-- Acquisition - Los Angeles / California - Rainbow Housing Secures Los Angeles Senior Multifamily Apartment Tower for $42M: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 45.
-- Acquisition - Dallas / Texas - Bascom Group Acquires 370-Unit Workforce Housing Property in North Dallas: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 44.
-- Disposition / Exit - California - Marcus & Millichap Brokers $6.13M Sale of 17-Unit Multifamily Property in Santa Clara Cali...: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 44.
-- General Project Signal - California - Marcus & Millichap Capital Corporation Arranges $8.5 Million Financing for Multifamily Pro...: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 44.
-- Marcus & Millichap Brokers $6.13M Sale of 17-Unit Multifamily Property in Santa Clara California: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 44.
-- City Council upholds approval of apartments at 2413 Silver Lake Blvd.: No Previous Record -> Entitlement Under Review, Newly Detected Project, progression_score 43.
-- Entitlement / Permitting - Los Angeles / California - City Council upholds approval of apartments at 2413 Silver Lake Blvd.: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 42.
+- JV / Partnership - National - Inland National Development with Reuter Walton Development Joint Venture Break Ground on M...: No Previous Record -> Site Acquisition / Site Control, Newly Detected Project, progression_score 43.
+- Office-to-Residential Conversion - Los Angeles / California - 405 ExpressLanes, Metro ridership, and more: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 41.
+- 405 ExpressLanes, Metro ridership, and more: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 40.
+- CBRE Arranges Two Property 540-Unit Multifamily Portfolio Sale in Des Moines Suburb: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 36.
+- Disposition / Exit - Other / Unknown - CBRE Arranges Two Property 540-Unit Multifamily Portfolio Sale in Des Moines Suburb: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 34.
+- JV / Partnership - Virginia - LEO Impact Capital Joint Venture Acquires North Virginia Multifamily Asset for $52M: No Previous Record -> Unknown Stage, Newly Detected Project, progression_score 34.
 
 ## Forward Progression Projects
 
@@ -65,8 +61,8 @@ Generated: 2026-11-21 03:47:35
 
 ## Construction Start Transitions
 
-- Development Start - New York City / New York - Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 73.
-- Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: No Previous Record -> Vertical Construction, Newly Detected Project, progression_score 73.
+- Development Start - New York City / New York - Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 78.
+- Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: Vertical Construction -> Vertical Construction, Same Stage Persistence, progression_score 78.
 
 ## Implications for Woomi / Woomi Global
 
@@ -89,11 +85,11 @@ Generated: 2026-11-21 03:47:35
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 531
+- Raw project references: 551
 - Canonical projects: 151
-- Duplicate project clusters: 101
+- Duplicate project clusters: 102
 - Persistent assets tracked: 151
-- LA persistent asset watch items: 116
+- LA persistent asset watch items: 111
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -103,8 +99,8 @@ Generated: 2026-11-21 03:47:35
 
 - Signals evaluated: 151
 - Institutional-grade signals: 9
-- High-confidence signals: 31
-- Weak/noisy signals: 100
-- High-confidence watchlist items: 31
+- High-confidence signals: 33
+- Weak/noisy signals: 99
+- High-confidence watchlist items: 33
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

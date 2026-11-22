@@ -1,15 +1,15 @@
 # Executive Dashboard Brief
 
-Generated: 2026-11-21 03:47:19
+Generated: 2026-11-22 02:51:07
 
 ## Executive Snapshot
 
-- Total articles reviewed: 61
-- High-confidence signals: 31
+- Total articles reviewed: 64
+- High-confidence signals: 33
 - Institutional-grade signals: 9
-- Opportunities: 39
+- Opportunities: 41
 - Distress signals: 2
-- Recommended executive focus: Review Acquisition - Los Angeles / California - Rainbow Housing Secures Los Angeles Senior Multifamily Apartment Tower for $42M and related high-confidence project signals.
+- Recommended executive focus: Review JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine and related high-confidence project signals.
 
 ## Top 5 Things to Review Today
 
@@ -41,15 +41,15 @@ Generated: 2026-11-21 03:47:19
 - Alliance Residential: Fading Action: Track capital flow pattern and related relationships.
 - Arcus Real Estate Capital: Fading Action: Track capital flow pattern and related relationships.
 - Blackstone: Institutional-backed regional expansion Action: Track JV and capital partner activity.
-- Fannie Mae: California / LA strategic positioning Action: Track JV and capital partner activity.
+- Hines: California / LA strategic positioning Action: Track JV and capital partner activity.
 
 ## Opportunity / Distress Watch
 
 - JV / Partnership Gap: JV / Partnership Gap may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
-- Acquisition Opportunity: Acquisition Opportunity may create a pricing, capital, partnership, or pipeline opening in Los Angeles / California. Action: Add to executive opportunity review.
 - LA / California Entitlement Opportunity: LA / California Entitlement Opportunity may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
 - Acquisition Opportunity: Acquisition Opportunity may create a pricing, capital, partnership, or pipeline opening in Atlanta / Georgia. Action: Add to executive opportunity review.
 - LA / California Entitlement Opportunity: LA / California Entitlement Opportunity may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
+- GP Capability Partnership Opportunity: GP Capability Partnership Opportunity may create a pricing, capital, partnership, or pipeline opening in New York. Action: Add to executive opportunity review.
 
 ## Development Lifecycle Watch
 
@@ -67,7 +67,7 @@ Generated: 2026-11-21 03:47:19
 
 ## Source Health Notes
 
-- Critical source validation warnings: 16 source(s) failed validation. Action: Review failed critical feeds and manual-review queue.
+- Critical source validation warnings: 15 source(s) failed validation. Action: Review failed critical feeds and manual-review queue.
 
 ## Recommended Management Actions
 

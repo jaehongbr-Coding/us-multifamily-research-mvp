@@ -1,6 +1,6 @@
 # Regime Heatmap Report
 
-Generated: 2026-11-21 03:47:23
+Generated: 2026-11-22 02:51:12
 
 Scores are calibrated with capped weighted components, so final_score is less likely to saturate at 100 unless the supporting signals are very strong.
 
@@ -11,12 +11,12 @@ Scores are calibrated with capped weighted components, so final_score is less li
 
 | Regime | Raw Score | Normalized Score | Final Score | Strength | Supporting Signals |
 | --- | ---: | ---: | ---: | --- | --- |
-| Selective Capital Re-entry | 134 | 89 | 89 | Very Strong | Institutional Flow articles: 16; Deal Size Signal articles: 7; Institutional player mentions: 6 |
+| Selective Capital Re-entry | 134 | 89 | 89 | Very Strong | Institutional Flow articles: 17; Deal Size Signal articles: 8; Institutional player mentions: 7 |
 | Policy / Entitlement Watch | 100 | 67 | 67 | Strong | Regulation Risk articles: 7; Policy matched-keyword articles: 8; California / Los Angeles focus count: 6 |
-| Supply Pressure | 95 | 63 | 63 | Strong | Supply Pressure articles: 3; Supply/vacancy/concession signals: 4; Supply matched-keyword articles: 3 |
-| Financing Stress | 91 | 61 | 61 | Strong | Financing Risk articles: 13; Financing/cap-rate market signals: 0; Financing matched-keyword articles: 5 |
-| Developer Strategy Shift | 88 | 59 | 59 | Moderate | Developer Strategy articles: 19; Developer matched-keyword articles: 7; Must Read articles: 24 |
-| Construction Cost Pressure | 4 | 3 | 3 | Not Detected | Cost Control articles: 0; Construction Cost Signal articles: 0; Cost matched-keyword articles: 1 |
+| Supply Pressure | 95 | 63 | 63 | Strong | Supply Pressure articles: 3; Supply/vacancy/concession signals: 5; Supply matched-keyword articles: 3 |
+| Financing Stress | 91 | 61 | 61 | Strong | Financing Risk articles: 12; Financing/cap-rate market signals: 0; Financing matched-keyword articles: 5 |
+| Developer Strategy Shift | 88 | 59 | 59 | Moderate | Developer Strategy articles: 21; Developer matched-keyword articles: 8; Must Read articles: 25 |
+| Construction Cost Pressure | 8 | 5 | 5 | Not Detected | Cost Control articles: 0; Construction Cost Signal articles: 0; Cost matched-keyword articles: 2 |
 | Stable Monitoring Environment | 0 | 0 | 0 | Not Detected | Highest active regime score before stable adjustment: 134; Monitor articles: 1 |
 
 ## Regime Interpretations

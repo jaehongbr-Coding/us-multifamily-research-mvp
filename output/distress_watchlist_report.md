@@ -1,6 +1,6 @@
 # Distress Watchlist Report
 
-Generated: 2026-11-21 03:47:34
+Generated: 2026-11-22 02:51:29
 
 - Total distress signals: 2
 
@@ -53,9 +53,9 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 66
+- Lifecycle records: 69
 - LA lifecycle watch items: 48
-- Stage mix: Unknown Stage: 50, Site Acquisition / Site Control: 11, Vertical Construction: 2, Entitlement Under Review: 1, Delivery / Opening: 1
+- Stage mix: Unknown Stage: 52, Site Acquisition / Site Control: 12, Vertical Construction: 2, Entitlement Under Review: 1, Delivery / Opening: 1
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -63,8 +63,8 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 66
-- Newly detected projects: 34
+- Lifecycle transitions analyzed: 69
+- Newly detected projects: 6
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - LA lifecycle transition watch items: 47
@@ -75,11 +75,11 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 531
+- Raw project references: 551
 - Canonical projects: 151
-- Duplicate project clusters: 101
+- Duplicate project clusters: 102
 - Persistent assets tracked: 151
-- LA persistent asset watch items: 116
+- LA persistent asset watch items: 111
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -89,8 +89,8 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 - Signals evaluated: 151
 - Institutional-grade signals: 9
-- High-confidence signals: 31
-- Weak/noisy signals: 100
-- High-confidence watchlist items: 31
+- High-confidence signals: 33
+- Weak/noisy signals: 99
+- High-confidence watchlist items: 33
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

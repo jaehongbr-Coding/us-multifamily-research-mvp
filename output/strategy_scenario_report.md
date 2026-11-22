@@ -1,6 +1,6 @@
 # Strategy Scenario Report
 
-Generated: 2026-11-21 03:47:24
+Generated: 2026-11-22 02:51:12
 
 ## Scenario Overview
 
@@ -10,7 +10,7 @@ This report converts the current executive priorities into Base, Bull, and Bear 
 
 - Probability label: Most Likely
 - Key assumptions: Current dominant priorities remain in place: Selective Capital Re-entry, Policy / Entitlement Watch, Developer Strategy Shift. Financing Stress score 61, Selective Capital Re-entry score 89, Supply Pressure score 63.
-- Expected market environment: The market remains mixed: Selective Capital Re-entry and Policy / Entitlement Watch stay important, with 17 strategy-briefing articles containing numeric market signals.
+- Expected market environment: The market remains mixed: Selective Capital Re-entry and Policy / Entitlement Watch stay important, with 19 strategy-briefing articles containing numeric market signals.
 - Implication for Woomi: Woomi should treat US residential strategy as attractive but underwriting-sensitive, with capital partner tracking and disciplined project screening.
 - Recommended strategy response: Underwriting: conservative, with explicit debt and exit-cap sensitivity; Capital partners: active monitoring of institutional capital and pricing discovery; LA / California: targeted monitoring if local signals appear; GP / developer partnerships: prioritize proven partners with financing and execution discipline; Development timing: selective starts only where lease-up and financing assumptions are resilient; Cost focus: maintain value engineering review on new opportunities.
 - Key risks to monitor: Debt cost, refinancing assumptions, exit cap rates, lease-up pace, concessions, and capital partner behavior.
@@ -40,7 +40,7 @@ This report converts the current executive priorities into Base, Bull, and Bear 
 
 | Scenario | Probability | Expected Environment | Recommended Response |
 | --- | --- | --- | --- |
-| Base Case | Most Likely | The market remains mixed: Selective Capital Re-entry and Policy / Entitlement Watch stay important, with 17 strategy-briefing articles containing numeric market signals. | Underwriting: conservative, with explicit debt and exit-cap sensitivity; Capital partners: active monitoring of institutional capital and pricing discovery; LA / California: targeted monitoring if local signals appear; GP / developer partnerships: prioritize proven partners with financing and execution discipline; Development timing: selective starts only where lease-up and financing assumptions are resilient; Cost focus: maintain value engineering review on new opportunities. |
+| Base Case | Most Likely | The market remains mixed: Selective Capital Re-entry and Policy / Entitlement Watch stay important, with 19 strategy-briefing articles containing numeric market signals. | Underwriting: conservative, with explicit debt and exit-cap sensitivity; Capital partners: active monitoring of institutional capital and pricing discovery; LA / California: targeted monitoring if local signals appear; GP / developer partnerships: prioritize proven partners with financing and execution discipline; Development timing: selective starts only where lease-up and financing assumptions are resilient; Cost focus: maintain value engineering review on new opportunities. |
 | Bull Case | Plausible Upside | Debt markets become less restrictive, institutional buyers and partners become more active, and supply concerns are absorbed through stronger demand or slower new starts. | Underwriting: moderately constructive but still sensitivity-tested; Capital partners: increase outreach to capital partners and GP candidates; LA / California: screen LA / California opportunities where entitlement path is credible; GP / developer partnerships: expand partner tracking for acquisition and development opportunities; Development timing: prepare to move faster on high-conviction opportunities; Cost focus: keep cost discipline but avoid over-defensive assumptions. |
 | Bear Case | Plausible Downside | Debt availability remains constrained, lease-up and vacancy pressure increase, and institutional capital becomes more selective or pauses. | Underwriting: defensive, with tighter debt, cap-rate, rent-growth, and absorption assumptions; Capital partners: watch for capital pullback and distressed pricing signals; LA / California: avoid policy-complex deals unless entitlement upside is clear; GP / developer partnerships: favor partners with balance-sheet strength and local operating depth; Development timing: delay marginal starts and prioritize downside-protected pipeline decisions; Cost focus: raise contingency, procurement, and value engineering scrutiny. |
 
@@ -54,8 +54,8 @@ This report converts the current executive priorities into Base, Bull, and Bear 
 
 Detailed GP intelligence is available in `gp_intelligence_report.md`.
 - Marcus & Millichap: operational efficiency push may be relevant to competitive pressure indicator.
-- Blackstone: operational efficiency push may be relevant to potential JV partnership signal.
 - CBRE: operational efficiency push may be relevant to competitive pressure indicator.
+- Blackstone: operational efficiency push may be relevant to potential JV partnership signal.
 - Millichap Capital Corporation: operational efficiency push may be relevant to competitive pressure indicator.
 - Minto Communities USA: operational efficiency push may be relevant to competitive pressure indicator.
 
@@ -64,15 +64,15 @@ Detailed GP intelligence is available in `gp_intelligence_report.md`.
 Capital-flow and relationship signals are available in `institutional_relationship_report.md`.
 Use that report to identify whether scenario assumptions are supported by firm-level capital deployment, partnership, or pricing-discovery signals.
 - Blackstone: Map potential GP / JV relationship and monitor partnership activity (Potential JV / Partnership Signal).
+- CBRE: Track capital deployment and pricing signals (GP Capability Benchmark Signal).
 - Marcus & Millichap: Review California / LA capital and developer activity (GP Capability Benchmark Signal).
-- Bascom Group: Review California / LA capital and developer activity (Pricing Discovery Signal).
 
 ## Deal / Project Scenario Context
 
 Deal and project-level signals are available in `deal_pipeline_report.md`.
 - JV / Partnership: GP partnership reference in California.
 - Acquisition: Pricing benchmark in Atlanta / Georgia.
-- Acquisition: Pricing benchmark in Los Angeles / California.
+- Disposition / Exit: Underwriting benchmark in New York.
 
 ## Relationship Graph Scenario Context
 

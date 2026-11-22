@@ -1,6 +1,6 @@
 # Opportunity Deduplication Report
 
-Generated: 2026-11-21 03:47:34
+Generated: 2026-11-22 02:51:29
 
 - Total duplicate clusters: 2
 - Opportunities removed via deduplication: 0
@@ -19,14 +19,17 @@ Generated: 2026-11-21 03:47:34
 
 - American Campus Communities Expands Partnership with UC Irvine: California, 1 related row(s), opportunity score 90, distress score 0.
 - Hudson County Luxury Multifamily Trades for $46M: New York, 1 related row(s), opportunity score 84, distress score 0.
+- CBRE Arranges Two Property 540-Unit Multifamily Portfolio Sale in Des Moines Suburb: Other / Unknown, 1 related row(s), opportunity score 82, distress score 0.
 - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower: Miami / Florida, 1 related row(s), opportunity score 78, distress score 0.
+- LEO Impact Capital Joint Venture Acquires North Virginia Multifamily Asset for $52M: Virginia, 1 related row(s), opportunity score 78, distress score 0.
 - Work Gets Started on Carlsbad Village Mixed-Use Project: California, 1 related row(s), opportunity score 62, distress score 0.
 - Morehouse, Spelman Debut $147M Student Housing Project: Atlanta / Georgia, 1 related row(s), opportunity score 56, distress score 0.
+- Inland National Development with Reuter Walton Development Joint Venture Break Ground on Minnesota Multifamily Project: National, 1 related row(s), opportunity score 56, distress score 0.
 
 ## California / LA Duplicate Project Tracking
 
 - American Campus Communities Expands Partnership with UC Irvine: California, 1 related row(s), opportunity score 90, distress score 0.
-- Fourth Sale Closes in Anaheim Multifamily Portfolio: California, 1 related row(s), opportunity score 86, distress score 0.
+- Fourth Sale Closes in Anaheim Multifamily Portfolio: California, 1 related row(s), opportunity score 87, distress score 0.
 - Marcus & Millichap Brokers $6.13M Sale of 17-Unit Multifamily Property in Santa Clara California: California, 1 related row(s), opportunity score 85, distress score 0.
 - Marcus & Millichap Capital Corporation Arranges $8.5 Million Financing for Multifamily Property in San Diego County: California, 1 related row(s), opportunity score 84, distress score 0.
 - Multifamily housing unwrapped at 4429 S. Vermont Ave. in South L.A.: Los Angeles, 1 related row(s), opportunity score 66, distress score 0.

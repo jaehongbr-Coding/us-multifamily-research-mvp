@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-11-21 03:47:19
+Generated: 2026-11-22 02:51:07
 
 ## Top Strategic Relevance Articles
 
 - 100 / richness 85: American Campus Communities Expands Partnership with UC Irvine (Connect CRE Orange County, California) - sponsor expansion; JV or partnership activity; institutional acquisition behavior
+- 86 / richness 85: LEO Impact Capital Joint Venture Acquires North Virginia Multifamily Asset for $52M (Yield PRO, Virginia) - JV or partnership activity; institutional acquisition behavior
 - 74 / richness 100: Jackson Square Spins Off 280-Unit Pflugerville Rental Property (Connect CRE Apartments, Austin / Texas) - institutional acquisition behavior
 - 71 / richness 85: Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment Community (Yield PRO, Other / Unknown) - entitlement persistence
-- 70 / richness 85: Rainbow Housing Secures Los Angeles Senior Multifamily Apartment Tower for $42M (Yield PRO, Los Angeles / California) - institutional acquisition behavior
 - 70 / richness 85: JLL Brokers $31.3M Sale of Boutique Apartment Building in Chicago (REBusiness Online, Other / Unknown) - institutional acquisition behavior
 - 70 / richness 85: Bascom Group Acquires 370-Unit Workforce Housing Property in North Dallas (REBusiness Online, Dallas / Texas) - institutional acquisition behavior
 - 70 / richness 85: Work Underway on 311-Unit Oakland Park Apartment Building (Connect CRE South Florida, Miami / Florida) - institutional acquisition behavior
 - 70 / richness 85: JBG Smith Affiliate Leads $52M NoVA Apartment Buy With Amazon Financing (Commercial Observer, Northern Virginia / Virginia) - institutional acquisition behavior
 - 70 / richness 85: Tishman Speyer Adds Dania Beach Rental Asset to Florida Holdings (Connect CRE Apartments, Miami / Florida) - institutional acquisition behavior
-- 70 / richness 75: Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments (Connect CRE, New York City / New York) - development continuation
+- 70 / richness 75: Inland National Development with Reuter Walton Development Joint Venture Break Ground on Minnesota Multifamily Project (Yield PRO, National) - JV or partnership activity
 
 ## Low Quality Evidence Candidates
 
@@ -39,7 +39,7 @@ Generated: 2026-11-21 03:47:19
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 16
+- Financing-oriented articles: 15
 - Development / sponsor behavior articles: 32
 - Financing coverage does not dominate the current representative evidence pool.
 

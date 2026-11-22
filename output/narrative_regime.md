@@ -1,6 +1,6 @@
 # Narrative Regime Detection
 
-Generated: 2026-11-21 03:47:23
+Generated: 2026-11-22 02:51:12
 
 ## Detected Regime
 
@@ -13,11 +13,11 @@ Generated: 2026-11-21 03:47:23
 
 | Regime | Score |
 | --- | ---: |
-| Selective Capital Re-entry | 110 |
-| Developer Strategy Shift | 100 |
-| Financing Stress | 70 |
+| Selective Capital Re-entry | 119 |
+| Developer Strategy Shift | 109 |
+| Financing Stress | 65 |
+| Supply Pressure | 35 |
 | Policy / Entitlement Watch | 35 |
-| Supply Pressure | 32 |
 | Construction Cost Pressure | 0 |
 
 ## Regime Heatmap Reference
@@ -32,63 +32,63 @@ Regime momentum is available in `regime_momentum_report.md` when previous heatma
 | Supply Pressure | 63 | Strong |
 | Financing Stress | 61 | Strong |
 | Developer Strategy Shift | 59 | Moderate |
-| Construction Cost Pressure | 3 | Not Detected |
+| Construction Cost Pressure | 5 | Not Detected |
 | Stable Monitoring Environment | 0 | Not Detected |
 
 ## Signal Inputs
 
-- Strategy-briefing articles reviewed: 37
-- Market-signal articles reviewed: 17
-- Articles with extracted numbers: 17
-- Institutional player mentions: 6
+- Strategy-briefing articles reviewed: 39
+- Market-signal articles reviewed: 20
+- Articles with extracted numbers: 20
+- Institutional player mentions: 7
 
 ### Strategic Angles
 
-- Developer Strategy: 19
-- Institutional Flow: 16
-- Financing Risk: 13
+- Developer Strategy: 21
+- Institutional Flow: 17
+- Financing Risk: 12
 - Regulation Risk: 7
 - Supply Pressure: 3
 - Rent Growth / Demand: 1
 
 ### Market Signals
 
-- Deal Size Signal: 7
-- Rent Growth Signal: 6
-- Supply / Starts Signal: 4
+- Deal Size Signal: 8
+- Rent Growth Signal: 7
+- Supply / Starts Signal: 5
 
 ### Decision Uses
 
-- Track Developer Strategy: 19
-- Track Institutional Capital Flow: 16
-- Track Financing Conditions: 13
+- Track Developer Strategy: 21
+- Track Institutional Capital Flow: 17
+- Track Financing Conditions: 12
 - Track Regulation Risk: 7
 - Track Supply Pipeline: 3
 - Track Rent / Vacancy Trend: 1
 
 ### Market Focus
 
-- Other / Unknown: 6
+- Other / Unknown: 8
 - Miami / Florida: 6
 - California: 5
-- Los Angeles / California: 5
-- Austin / Texas: 2
+- Los Angeles / California: 4
+- National: 3
 - Dallas / Texas: 2
 
 ### Action Levels
 
-- Must Read: 24
-- Review: 12
+- Must Read: 25
+- Review: 13
 - Monitor: 1
 
 ### Woomi Relevance
 
-- High relevance to US residential developer strategy: 27
+- High relevance to US residential developer strategy: 29
 - Medium relevance to market monitoring: 10
 
 ## Key Thematic Context
 
-- California focus is Sharp Increase (3 to 5).
+- Market signal activity is increasing, led by Supply / Starts Signal (4 to 5).
 
 ## Cross-Theme Interpretation
 

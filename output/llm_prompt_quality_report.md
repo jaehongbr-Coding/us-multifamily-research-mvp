@@ -1,32 +1,32 @@
 # LLM Prompt Quality Report
 
-Generated: 2026-11-22 02:51:12
+Generated: 2026-11-23 03:32:01
 
-- Total prompts reviewed: 39
-- Average prompt quality score: 88.8
-- Excellent prompts: 21
-- Good prompts: 18
+- Total prompts reviewed: 41
+- Average prompt quality score: 89.8
+- Excellent prompts: 25
+- Good prompts: 16
 - Needs Improvement prompts: 0
 - Poor prompts: 0
 
 ## Top 5 Strongest Prompts
 
-- 98 (Excellent): LEO Impact Capital Joint Venture Acquires North Virginia Multifamily Asset for $52M
-- 98 (Excellent): Inland National Development with Reuter Walton Development Joint Venture Break Ground on Minnesota Multifamily Project
-- 98 (Excellent): JBG Smith Affiliate Leads $52M NoVA Apartment Buy With Amazon Financing
-- 98 (Excellent): Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower
-- 98 (Excellent): Work Underway on 311-Unit Oakland Park Apartment Building
+- 98 (Excellent): American Campus Communities Expands Partnership with UC Irvine
+- 98 (Excellent): Advanced Real Estate Acquires Ontario California Multifamily Property for $56M
+- 98 (Excellent): Vandeveer Opens as First Residential Building in Downtown Jacksonville’s Pearl Square Jacksonville Florida
+- 98 (Excellent): Northmarq Facilitates $11M Refinance of Park Ridge Multifamily Community
+- 98 (Excellent): JLL Arranges $104M Financing for Uptown Multifamily Portfolio
 
 ## Top 5 Weakest Prompts
 
-- 74 (Good): Willow Bridge Property Company to Develop Suburban Chicago Multifamily Apartment Community - Missing: missing extracted numbers; missing market focus; missing market signal
 - 74 (Good): Marcus & Millichap Brokers Sale of Michigan Manufactured Housing Community - Missing: missing extracted numbers; missing market focus; missing market signal
+- 74 (Good): Willow Bridge Property Company to Develop Suburban Chicago Multifamily Apartment Community - Missing: missing extracted numbers; missing market focus; missing market signal
 - 74 (Good): How apartment developers can successfully install connected services - Missing: missing extracted numbers; missing market focus; missing market signal
-- 82 (Good): Tishman Speyer Adds Dania Beach Rental Asset to Florida Holdings - Missing: missing extracted numbers; missing market signal
-- 82 (Good): Developers Secure Approval for 55-Story Miami Waterfront Multifamily Tower - Missing: missing extracted numbers; missing market signal
+- 82 (Good): Jackson Square Spins Off 280-Unit Pflugerville Rental Property - Missing: missing extracted numbers; missing market signal
+- 82 (Good): Bascom Group Acquires 370-Unit Workforce Housing Property in North Dallas - Missing: missing extracted numbers; missing market signal
 
 ## Common Missing Context Issues
 
-- missing market signal: 20
-- missing extracted numbers: 17
+- missing market signal: 19
+- missing extracted numbers: 15
 - missing market focus: 8

@@ -1,43 +1,43 @@
 # Development Lifecycle Report
 
-Generated: 2026-11-22 02:51:31
+Generated: 2026-11-23 03:32:22
 
-- Total lifecycle records: 69
+- Total lifecycle records: 71
 
 ## Lifecycle Stage Distribution
 
-- Unknown Stage: 52
-- Site Acquisition / Site Control: 12
+- Unknown Stage: 47
+- Site Acquisition / Site Control: 13
+- Refinancing / Recapitalization: 4
+- Delivery / Opening: 4
 - Vertical Construction: 2
 - Entitlement Under Review: 1
-- Delivery / Opening: 1
-- Refinancing / Recapitalization: 1
 
 ## Top Development Timing Opportunities
 
+- Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Refinancing / Recapitalization, Manhattan, lifecycle_opportunity_score 100.
+- JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Refinancing / Recapitalization, Manhattan, lifecycle_opportunity_score 100.
 - JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Unknown Stage, California, lifecycle_opportunity_score 99.
 - Entitlement / Permitting - Other / Unknown - New plan for housing at 452 N. Los Robles Ave. in Pasadena: Unknown Stage, Unknown, lifecycle_opportunity_score 97.
-- Disposition / Exit - California - Marcus & Millichap Brokers $6.13M Sale of 17-Unit Multifamily Property in Santa Clara Cali...: Unknown Stage, California, lifecycle_opportunity_score 95.
-- General Project Signal - California - Marcus & Millichap Capital Corporation Arranges $8.5 Million Financing for Multifamily Pro...: Unknown Stage, California, lifecycle_opportunity_score 95.
+- General Project Signal - National - New plan for housing at 4600 Wilshire Blvd.: Unknown Stage, U.S., lifecycle_opportunity_score 95.
 - CBRE Arranges Two Property 540-Unit Multifamily Portfolio Sale in Des Moines Suburb: Unknown Stage, Unknown, lifecycle_opportunity_score 94.
+- New plan for housing at 4600 Wilshire Blvd.: Site Acquisition / Site Control, Los Angeles, lifecycle_opportunity_score 94.
 - Acquisition - Dallas / Texas - Bascom Group Acquires 370-Unit Workforce Housing Property in North Dallas: Unknown Stage, Dallas, lifecycle_opportunity_score 93.
 - JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower: Unknown Stage, South Florida, lifecycle_opportunity_score 93.
 - New plan for housing at 452 N. Los Robles Ave. in Pasadena: Site Acquisition / Site Control, Los Angeles, lifecycle_opportunity_score 91.
-- Marcus & Millichap Brokers $6.13M Sale of 17-Unit Multifamily Property in Santa Clara California: Unknown Stage, Unknown, lifecycle_opportunity_score 90.
-- Fresh renderings for infill housing at 511 S. Oak Knoll Ave. in Pasadena: Site Acquisition / Site Control, Los Angeles, lifecycle_opportunity_score 88.
 
 ## Top Lifecycle Risks
 
+- Refinancing - National - Northmarq Facilitates $11M Refinance of Park Ridge Multifamily Community: Refinancing / Recapitalization, National, lifecycle_risk_score 59.
+- Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 52.
 - Work Underway on 311-Unit Oakland Park Apartment Building: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 50.
 - Construction Financing - Miami / Florida - Centennial Bank Lends $51M to Expand Miami-Dade Nursing Home: Unknown Stage, Miami, lifecycle_risk_score 48.
+- JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 44.
 - Construction Financing - Miami / Florida - Work Underway on 311-Unit Oakland Park Apartment Building: Site Acquisition / Site Control, South Florida, lifecycle_risk_score 43.
-- Entitlement / Permitting - Los Angeles - Multifamily housing unwrapped at 4429 S. Vermont Ave. in South L.A.: Unknown Stage, L.A., lifecycle_risk_score 34.
+- Refinancing - Salt Lake City / Utah - Northmarq Arranges $25M for Salt Lake City Multifamily Asset Refinance: Delivery / Opening, Salt Lake City, lifecycle_risk_score 43.
+- Office-to-Residential Conversion - Other / Unknown - JLL Brokers $31.3M Sale of Boutique Apartment Building in Chicago: Delivery / Opening, Unknown, lifecycle_risk_score 39.
+- Northmarq Arranges $25M for Salt Lake City Multifamily Asset Refinance: Delivery / Opening, Unknown, lifecycle_risk_score 36.
 - JV / Partnership - California - Work Gets Started on Carlsbad Village Mixed-Use Project: Unknown Stage, California, lifecycle_risk_score 33.
-- Office-to-Residential Conversion - Los Angeles / California - 405 ExpressLanes, Metro ridership, and more: Unknown Stage, Los Angeles / California, lifecycle_risk_score 33.
-- Disposition / Exit - Los Angeles / California - 269 homes to replace nursery at 7639 Topanga Canyon Blvd. in Canoga Park: Unknown Stage, Los Angeles, lifecycle_risk_score 32.
-- Entitlement / Permitting - Los Angeles / California - Mixed-use project reaches its peak at at 6052 W. Olympic Blvd.: Unknown Stage, Los Angeles / California, lifecycle_risk_score 32.
-- Entitlement / Permitting - Southeast - Mixed-use project starts to rise at 3313 Sunset Blvd. in Silver Lake: Unknown Stage, Southeast, lifecycle_risk_score 32.
-- Entitlement / Permitting - Other / Unknown - Fresh renderings for infill housing at 511 S. Oak Knoll Ave. in Pasadena: Unknown Stage, Unknown, lifecycle_risk_score 32.
 
 ## Projects Under Entitlement / Planning
 
@@ -50,7 +50,10 @@ Generated: 2026-11-22 02:51:31
 
 ## Delivery / Lease-Up Signals
 
-- Office-to-Residential Conversion - Other / Unknown - JLL Brokers $31.3M Sale of Boutique Apartment Building in Chicago: Delivery / Opening, Unknown, lifecycle_opportunity_score 79.
+- Office-to-Residential Conversion - Other / Unknown - JLL Brokers $31.3M Sale of Boutique Apartment Building in Chicago: Delivery / Opening, Unknown, lifecycle_opportunity_score 82.
+- Refinancing - Salt Lake City / Utah - Northmarq Arranges $25M for Salt Lake City Multifamily Asset Refinance: Delivery / Opening, Salt Lake City, lifecycle_opportunity_score 78.
+- Northmarq Arranges $25M for Salt Lake City Multifamily Asset Refinance: Delivery / Opening, Unknown, lifecycle_opportunity_score 75.
+- General Project Signal - Florida - Vandeveer Opens as First Residential Building in Downtown Jacksonville’s Pearl Square Jack...: Delivery / Opening, Florida, lifecycle_opportunity_score 59.
 
 ## Distressed / Stalled Lifecycle Signals
 
@@ -58,7 +61,10 @@ Generated: 2026-11-22 02:51:31
 
 ## Refinancing / Recapitalization Lifecycle Signals
 
+- Refinancing - National - Northmarq Facilitates $11M Refinance of Park Ridge Multifamily Community: Refinancing / Recapitalization, National, lifecycle_risk_score 59.
+- Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 52.
 - Work Underway on 311-Unit Oakland Park Apartment Building: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 50.
+- JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Refinancing / Recapitalization, Manhattan, lifecycle_risk_score 44.
 
 ## Implications for Woomi / Woomi Global
 
@@ -67,24 +73,24 @@ Generated: 2026-11-22 02:51:31
 
 ## Recommended Lifecycle Follow-up Actions
 
+- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio.
+- Track lender, maturity, debt terms, and recapitalization need: JLL Arranges $104M Financing for Uptown Multifamily Portfolio.
 - Monitor lifecycle signal for repeated confirmation: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine.
 - Monitor lifecycle signal for repeated confirmation: Entitlement / Permitting - Other / Unknown - New plan for housing at 452 N. Los Robles Ave. in Pasadena.
-- Monitor lifecycle signal for repeated confirmation: Disposition / Exit - California - Marcus & Millichap Brokers $6.13M Sale of 17-Unit Multifamily Property in Santa Clara Cali....
-- Monitor lifecycle signal for repeated confirmation: General Project Signal - California - Marcus & Millichap Capital Corporation Arranges $8.5 Million Financing for Multifamily Pro....
+- Monitor lifecycle signal for repeated confirmation: General Project Signal - National - New plan for housing at 4600 Wilshire Blvd..
 - Monitor lifecycle signal for repeated confirmation: CBRE Arranges Two Property 540-Unit Multifamily Portfolio Sale in Des Moines Suburb.
+- Monitor lifecycle signal for repeated confirmation: New plan for housing at 4600 Wilshire Blvd..
 - Monitor lifecycle signal for repeated confirmation: Acquisition - Dallas / Texas - Bascom Group Acquires 370-Unit Workforce Housing Property in North Dallas.
-- Monitor lifecycle signal for repeated confirmation: JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower.
-- Monitor lifecycle signal for repeated confirmation: New plan for housing at 452 N. Los Robles Ave. in Pasadena.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 69
-- Newly detected projects: 6
+- Lifecycle transitions analyzed: 71
+- Newly detected projects: 11
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 47
+- LA lifecycle transition watch items: 46
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -92,11 +98,11 @@ Generated: 2026-11-22 02:51:31
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 551
-- Canonical projects: 151
-- Duplicate project clusters: 102
-- Persistent assets tracked: 151
-- LA persistent asset watch items: 111
+- Raw project references: 572
+- Canonical projects: 162
+- Duplicate project clusters: 106
+- Persistent assets tracked: 162
+- LA persistent asset watch items: 116
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -104,10 +110,10 @@ Generated: 2026-11-22 02:51:31
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 151
-- Institutional-grade signals: 9
-- High-confidence signals: 33
-- Weak/noisy signals: 99
-- High-confidence watchlist items: 33
+- Signals evaluated: 162
+- Institutional-grade signals: 13
+- High-confidence signals: 40
+- Weak/noisy signals: 103
+- High-confidence watchlist items: 40
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

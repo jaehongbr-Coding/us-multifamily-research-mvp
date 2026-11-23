@@ -1,8 +1,8 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-11-22 02:51:13
+Generated: 2026-11-23 03:32:02
 
-- GP/developer candidates reviewed: 19
+- GP/developer candidates reviewed: 18
 - Tier 1 Strategic GPs: 0
 - Tier 2 High Potential GPs: 2
 
@@ -14,9 +14,9 @@ Generated: 2026-11-22 02:51:13
 - CBRE: 68 (Tier 3 Monitoring GP), Other / Unknown, California / LA strategic positioning.
 - Marcus & Millichap: 66 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
 - Mill Creek Residential: 62 (Tier 3 Monitoring GP), Virginia, Selective residential growth.
-- Millichap Capital Corporation: 62 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
+- Advanced Real Estate: 61 (Tier 3 Monitoring GP), Los Angeles / California, California / LA strategic positioning.
+- JLL: 60 (Tier 3 Monitoring GP), Other / Unknown, Selective residential growth.
 - Bascom Group: 58 (Tier 3 Monitoring GP), Dallas / Texas, California / LA strategic positioning.
-- JLL: 58 (Tier 3 Monitoring GP), Other / Unknown, Selective residential growth.
 - Samuelian Group: 57 (Tier 3 Monitoring GP), Los Angeles / California, California / LA strategic positioning.
 
 ## Tier 1 Strategic GP
@@ -35,7 +35,7 @@ Generated: 2026-11-22 02:51:13
 - Benefit Street Partners: score 69, Tier 3 Monitoring GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - CBRE: score 68, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
 - Marcus & Millichap: score 66, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
-- Millichap Capital Corporation: score 62, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Advanced Real Estate: score 61, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
 - Bascom Group: score 58, Tier 3 Monitoring GP, Dallas / Texas, Capital market and pricing discovery reference. Review LA / California development activity.
 - Samuelian Group: score 57, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
 - Tishman Speyer: score 57, Tier 3 Monitoring GP, Miami / Florida, Capital market and pricing discovery reference. Review LA / California development activity.
@@ -67,9 +67,9 @@ Generated: 2026-11-22 02:51:13
 - CBRE: score 68, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
 - Marcus & Millichap: score 66, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
 - Mill Creek Residential: score 62, Tier 3 Monitoring GP, Virginia, Potential GP partnership candidate. Track JV and capital partner activity.
-- Millichap Capital Corporation: score 62, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Advanced Real Estate: score 61, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
+- JLL: score 60, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
 - Bascom Group: score 58, Tier 3 Monitoring GP, Dallas / Texas, Capital market and pricing discovery reference. Review LA / California development activity.
-- JLL: score 58, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
 - Samuelian Group: score 57, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## Potential Woomi Partnership Candidates
@@ -79,7 +79,7 @@ Generated: 2026-11-22 02:51:13
 - Benefit Street Partners: score 69, Tier 3 Monitoring GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - CBRE: score 68, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
 - Mill Creek Residential: score 62, Tier 3 Monitoring GP, Virginia, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 58, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
+- JLL: score 60, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review institutional pricing and capital flow signals.
 - Tempe Rental Community CrossHarbor Capital Partners: score 50, Emerging Watchlist, Phoenix / Arizona, Potential GP partnership candidate. Track JV and capital partner activity.
 - PMG: score 47, Emerging Watchlist, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 
@@ -124,17 +124,17 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 - CBRE: Review LA / California development activity.
 - Marcus & Millichap: Review LA / California development activity.
 - Mill Creek Residential: Track JV and capital partner activity.
-- Millichap Capital Corporation: Review LA / California development activity.
-- Bascom Group: Review LA / California development activity.
+- Advanced Real Estate: Review LA / California development activity.
+- JLL: Review institutional pricing and capital flow signals.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 151
-- Institutional-grade signals: 9
-- High-confidence signals: 33
-- Weak/noisy signals: 99
-- High-confidence watchlist items: 33
+- Signals evaluated: 162
+- Institutional-grade signals: 13
+- High-confidence signals: 40
+- Weak/noisy signals: 103
+- High-confidence watchlist items: 40
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

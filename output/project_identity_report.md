@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-11-22 02:51:31
+Generated: 2026-11-23 03:32:22
 
-- Total raw project references: 551
-- Total canonical projects: 151
-- Duplicate project clusters: 102
-- High-confidence project identities: 551
+- Total raw project references: 572
+- Total canonical projects: 162
+- Duplicate project clusters: 106
+- High-confidence project identities: 572
 - Low-confidence identities needing review: 0
-- LA / California project references: 430
+- LA / California project references: 393
 
 ## Top Repeated Projects
 
-- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: 49 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: 49 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: 49 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: 49 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: 49 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: 49 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: 49 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: 49 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: 49 occurrence(s), confidence 80.
-- Disposition / Exit - Other / Unknown - Minto Communities USA Sells 18-Acre Westlake Parcel to Eastwind for City’s First Apartment...: 49 occurrence(s), confidence 80.
+- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: 46 occurrence(s), confidence 80.
+- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: 46 occurrence(s), confidence 80.
+- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: 46 occurrence(s), confidence 80.
+- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: 46 occurrence(s), confidence 80.
+- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: 46 occurrence(s), confidence 80.
+- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: 46 occurrence(s), confidence 80.
+- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: 46 occurrence(s), confidence 80.
+- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: 46 occurrence(s), confidence 80.
+- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: 46 occurrence(s), confidence 80.
+- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: 46 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

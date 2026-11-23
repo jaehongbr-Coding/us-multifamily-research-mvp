@@ -1,8 +1,8 @@
 # LA Lifecycle Transition Watch Report
 
-Generated: 2026-11-22 02:51:31
+Generated: 2026-11-23 03:32:22
 
-- Total LA lifecycle transition watch items: 47
+- Total LA lifecycle transition watch items: 46
 
 ## LA Projects Moving Forward
 
@@ -20,30 +20,33 @@ Generated: 2026-11-22 02:51:31
 ## LA Refinancing / Recap Timing Watch
 
 - Work Underway on 311-Unit Oakland Park Apartment Building: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- JLL Arranges $104M Financing for Uptown Multifamily Portfolio: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 
 ## LA Delivery / Lease-Up Benchmarks
 
-- None detected.
+- Refinancing - Salt Lake City / Utah - Northmarq Arranges $25M for Salt Lake City Multifamily Asset Refinance: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- Northmarq Arranges $25M for Salt Lake City Multifamily Asset Refinance: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
 
 ## Recommended LA Transition Follow-up Actions
 
 - Monitor for another run to confirm lifecycle direction: Development Start - New York City / New York - Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments.
 - Monitor for another run to confirm lifecycle direction: Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments.
+- Use as delivery, lease-up, and underwriting benchmark: Refinancing - Salt Lake City / Utah - Northmarq Arranges $25M for Salt Lake City Multifamily Asset Refinance.
+- Use as delivery, lease-up, and underwriting benchmark: Northmarq Arranges $25M for Salt Lake City Multifamily Asset Refinance.
 - Track maturity, lender, recapitalization need, and potential JV angle: Work Underway on 311-Unit Oakland Park Apartment Building.
+- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio.
+- Track maturity, lender, recapitalization need, and potential JV angle: JLL Arranges $104M Financing for Uptown Multifamily Portfolio.
 - Monitor for another run to confirm lifecycle direction: Entitlement / Permitting - Other / Unknown - New plan for housing at 452 N. Los Robles Ave. in Pasadena.
-- Monitor for another run to confirm lifecycle direction: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine.
-- Monitor for another run to confirm lifecycle direction: Fresh renderings for infill housing at 511 S. Oak Knoll Ave. in Pasadena.
-- Monitor for another run to confirm lifecycle direction: New plan for housing at 452 N. Los Robles Ave. in Pasadena.
-- Monitor for another run to confirm lifecycle direction: Acquisition - Dallas / Texas - Bascom Group Acquires 370-Unit Workforce Housing Property in North Dallas.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 551
-- Canonical projects: 151
-- Duplicate project clusters: 102
-- Persistent assets tracked: 151
-- LA persistent asset watch items: 111
+- Raw project references: 572
+- Canonical projects: 162
+- Duplicate project clusters: 106
+- Persistent assets tracked: 162
+- LA persistent asset watch items: 116
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

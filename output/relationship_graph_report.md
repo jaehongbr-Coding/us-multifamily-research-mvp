@@ -1,11 +1,11 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-11-22 02:51:13
+Generated: 2026-11-23 03:32:02
 
-- Total relationship edges: 84
+- Total relationship edges: 93
 - Most connected developer / GP: CBRE (9 edge(s))
 - Most connected lender / debt provider: cbre (3 edge(s))
-- Most connected market: California (5 edge(s))
+- Most connected market: Los Angeles / California (6 edge(s))
 - Strongest relationship edge: Blackstone -> California
 - Highest Woomi relevance edge: Blackstone -> California
 
@@ -15,12 +15,12 @@ Generated: 2026-11-22 02:51:13
 - Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Riverside / California, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, New York, score 91. Track GP relationship history.
 - Bascom Group -> northmarq: Financing Relationship, Dallas / Texas, score 89. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Other / Unknown, score 87. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Other / Unknown, score 87. Track GP relationship history.
 - Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 86. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Other / Unknown, score 86. Track GP relationship history.
-- CBRE -> Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Acquisition / Buyer, Atlanta / Georgia, score 83. Track GP relationship history.
 
 ## Developer / GP Relationship Map
 
@@ -28,20 +28,23 @@ Generated: 2026-11-22 02:51:13
 - Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Riverside / California, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, New York, score 91. Track GP relationship history.
 - Bascom Group -> northmarq: Financing Relationship, Dallas / Texas, score 89. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Other / Unknown, score 87. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Other / Unknown, score 87. Track GP relationship history.
 - Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 86. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Other / Unknown, score 86. Track GP relationship history.
-- CBRE -> Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Acquisition / Buyer, Atlanta / Georgia, score 83. Track GP relationship history.
 
 ## Lender / Debt Provider Relationship Map
 
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Riverside / California, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, New York, score 91. Track GP relationship history.
 - Bascom Group -> northmarq: Financing Relationship, Dallas / Texas, score 89. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Other / Unknown, score 87. Track GP relationship history.
-- JLL -> jll: Financing Relationship, Other / Unknown, score 86. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Other / Unknown, score 87. Track GP relationship history.
+- Refinancing - Salt Lake City / Utah - Northmarq Arranges $25M for Salt Lake City Multifamily Asset Refinance -> northmarq: Financing Relationship, Salt Lake City / Utah, score 68. Monitor lender activity.
+- Refinancing - National - Northmarq Facilitates $11M Refinance of Park Ridge Multifamily Community -> northmarq: Financing Relationship, National, score 65. Monitor lender activity.
 
 ## Capital Partner / Institutional Flow Map
 
@@ -51,6 +54,8 @@ Generated: 2026-11-22 02:51:13
 ## Market Relationship Map
 
 - Blackstone -> California: JV / Partnership, California, score 100. Review potential JV relevance.
+- JLL -> Manhattan: Financing Relationship, Riverside / California, score 85. Track GP relationship history.
+- JLL -> Riverside / California: Financing Relationship, Riverside / California, score 85. Track GP relationship history.
 - CBRE -> Atlanta: Acquisition / Buyer, Atlanta / Georgia, score 83. Track GP relationship history.
 - CBRE -> Atlanta / Georgia: Acquisition / Buyer, Atlanta / Georgia, score 83. Track GP relationship history.
 - Bascom Group -> Dallas: Acquisition / Buyer, Dallas / Texas, score 79. Track GP relationship history.
@@ -58,8 +63,6 @@ Generated: 2026-11-22 02:51:13
 - Marcus & Millichap -> California: Disposition / Seller, California, score 79. Track GP relationship history.
 - Mill Creek Residential -> Virginia: JV / Partnership, Virginia, score 79. Review potential JV relevance.
 - Hines -> Atlanta: Acquisition / Buyer, Atlanta / Georgia, score 78. Track GP relationship history.
-- Hines -> Atlanta / Georgia: Acquisition / Buyer, Atlanta / Georgia, score 78. Track GP relationship history.
-- Marcus & Millichap -> California: Market Expansion, California, score 75. Track GP relationship history.
 
 ## California / LA Relationship Signals
 
@@ -68,11 +71,11 @@ Generated: 2026-11-22 02:51:13
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
 - Marcus & Millichap -> California: Disposition / Seller, California, score 79. Track GP relationship history.
 - Marcus & Millichap -> Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: Disposition / Seller, California, score 79. Track GP relationship history.
-- Marcus & Millichap -> General Project Signal - California - Marcus & Millichap Capital Corporation Arranges $8.5 Million Financing for Multifamily Pro...: Pricing / Valuation Signal, California, score 77. Track GP relationship history.
-- Marcus & Millichap -> California: Market Expansion, California, score 75. Track GP relationship history.
-- Marcus & Millichap -> California: Disposition / Seller, California, score 74. Track GP relationship history.
-- Marcus & Millichap -> Disposition / Exit - California - Marcus & Millichap Brokers $6.13M Sale of 17-Unit Multifamily Property in Santa Clara Cali...: Disposition / Seller, California, score 74. Track GP relationship history.
-- Entitlement / Permitting - Los Angeles - Multifamily housing unwrapped at 4429 S. Vermont Ave. in South L.A. -> L.A.: Entitlement / Permitting, Los Angeles, score 66. Track LA / California activity.
+- JV / Partnership - California - Work Gets Started on Carlsbad Village Mixed-Use Project -> California: JV / Partnership, California, score 64. Review potential JV relevance.
+- Entitlement / Permitting - Los Angeles / California - Developers seek bond financing for affordable housing in the Valley -> Los Angeles: Entitlement / Permitting, Los Angeles / California, score 54. Monitor only.
+- Entitlement / Permitting - Los Angeles / California - City Council upholds approval of apartments at 2413 Silver Lake Blvd. -> Los Angeles: Entitlement / Permitting, Los Angeles / California, score 50. Monitor only.
+- Disposition / Exit - Los Angeles / California - 269 homes to replace nursery at 7639 Topanga Canyon Blvd. in Canoga Park -> Los Angeles: Disposition / Seller, Los Angeles / California, score 45. Monitor only.
+- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M -> Los Angeles: Disposition / Seller, Los Angeles / California, score 45. Monitor only.
 
 ## Potential Woomi Partnership Signals
 
@@ -95,12 +98,12 @@ Generated: 2026-11-22 02:51:13
 | Blackstone | California | JV / Partnership | 60 |
 | Blackstone | Blackstone | JV / Partnership | 75 |
 | CBRE | CBRE | Financing Relationship | 75 |
+| JLL | JLL | Financing Relationship | 75 |
 | CBRE | CBRE | Financing Relationship | 75 |
 | Bascom Group | northmarq | Financing Relationship | 40 |
 | CBRE | CBRE | Financing Relationship | 75 |
-| Hines | hines | Acquisition / Buyer | 40 |
 | JLL | JLL | Financing Relationship | 75 |
-| CBRE | Los Angeles | Acquisition / Buyer | 60 |
+| Hines | hines | Acquisition / Buyer | 40 |
 
 ## Multi-Source Confirmation Summary
 
@@ -138,19 +141,19 @@ Longitudinal memory is available in `historical_memory_report.md`.
 - Review potential JV relevance: Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine (JV / Partnership).
 - Review potential JV relevance: Blackstone -> blackstone (JV / Partnership).
 - Track GP relationship history: CBRE -> cbre (Financing Relationship).
+- Track GP relationship history: JLL -> jll (Financing Relationship).
 - Track GP relationship history: CBRE -> cbre (Financing Relationship).
 - Track GP relationship history: Bascom Group -> northmarq (Financing Relationship).
 - Track GP relationship history: CBRE -> cbre (Financing Relationship).
-- Track GP relationship history: Hines -> hines (Acquisition / Buyer).
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 551
-- Canonical projects: 151
-- Duplicate project clusters: 102
-- Persistent assets tracked: 151
-- LA persistent asset watch items: 111
+- Raw project references: 572
+- Canonical projects: 162
+- Duplicate project clusters: 106
+- Persistent assets tracked: 162
+- LA persistent asset watch items: 116
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

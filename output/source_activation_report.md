@@ -1,6 +1,6 @@
 # Source Activation Report
 
-Generated: 2026-11-22 02:51:09
+Generated: 2026-11-23 03:31:58
 
 - Total sources evaluated: 163
 - Working sources: 21
@@ -14,25 +14,25 @@ Generated: 2026-11-22 02:51:09
 
 ## Strongest Signal-Generating Sources
 
-- Yield PRO (Tier 1): Working, RSS, score 97, 8 saved article(s).
 - Connect CRE (Tier 1): Working, RSS, score 93, 4 saved article(s).
+- Yield PRO (Tier 1): Working, RSS, score 90, 10 saved article(s).
 - Connect CRE Orange County (Tier 2): Working, RSS, score 90, 2 saved article(s).
 - REBusiness Online (Tier 2): Working, RSS, score 82, 6 saved article(s).
 - Connect CRE Apartments (Tier 2): Working, RSS, score 80, 9 saved article(s).
 - Connect CRE Atlanta (Tier 2): Working, RSS, score 79, 4 saved article(s).
-- Urbanize LA (Tier 2): Working, RSS, score 78, 9 saved article(s).
+- Urbanize LA (Tier 2): Working, RSS, score 73, 9 saved article(s).
 - Commercial Observer (Tier 1): Working, RSS, score 71, 2 saved article(s).
 - Connect CRE South Florida (Tier 2): Working, RSS, score 70, 4 saved article(s).
 - NAHB Eye on Housing - Multifamily (Tier 3): Working, RSS, score 70, 15 saved article(s).
-- SF YIMBY (Tier 2): Working, RSS, score 65, 2 saved article(s).
 - Multifamily Dive (Tier 1): Working, RSS, score 56, 2 saved article(s).
 - Connect CRE California (Tier 2): Working, RSS, score 52, 2 saved article(s).
+- SF YIMBY (Tier 2): Working, RSS, score 52, 1 saved article(s).
 - Connect CRE Phoenix (Tier 2): Working, RSS, score 46, 1 saved article(s).
 
 ## Highest Institutional-Value Sources
 
-- Yield PRO (Tier 1): Working, RSS, score 97, 8 saved article(s).
 - Connect CRE (Tier 1): Working, RSS, score 93, 4 saved article(s).
+- Yield PRO (Tier 1): Working, RSS, score 90, 10 saved article(s).
 - Commercial Observer (Tier 1): Working, RSS, score 71, 2 saved article(s).
 - Multifamily Dive (Tier 1): Working, RSS, score 56, 2 saved article(s).
 - Multifamily Executive (Tier 1): Working, RSS, score 48, 1 saved article(s).
@@ -42,11 +42,10 @@ Generated: 2026-11-22 02:51:09
 
 ## California / LA Focused Sources
 
-- Yield PRO (Tier 1): Working, RSS, score 97, 8 saved article(s).
 - Connect CRE (Tier 1): Working, RSS, score 93, 4 saved article(s).
 - Connect CRE Orange County (Tier 2): Working, RSS, score 90, 2 saved article(s).
 - Connect CRE Atlanta (Tier 2): Working, RSS, score 79, 4 saved article(s).
-- Urbanize LA (Tier 2): Working, RSS, score 78, 9 saved article(s).
+- Urbanize LA (Tier 2): Working, RSS, score 73, 9 saved article(s).
 - Connect CRE California (Tier 2): Working, RSS, score 52, 2 saved article(s).
 - Blackstone Real Estate Source Expansion (Tier 1): Failed, RSS, score 24, 0 saved article(s).
 - Urban Land Institute (Tier 1): Failed, RSS, score 24, 0 saved article(s).
@@ -57,6 +56,7 @@ Generated: 2026-11-22 02:51:09
 - Dallas Business Journal (Tier 2): Disabled, Manual, score 13, 0 saved article(s).
 - LA Business Journal (Tier 2): Disabled, Manual, score 13, 0 saved article(s).
 - LA City Planning Public Notices (Tier 2): Disabled, Manual, score 13, 0 saved article(s).
+- Los Angeles Business Journal (Tier 2): Disabled, Manual, score 13, 0 saved article(s).
 
 ## Failed Critical Sources
 
@@ -79,19 +79,19 @@ Generated: 2026-11-22 02:51:09
 
 ## RSS-Ready Sources
 
-- Yield PRO (Tier 1): Working, RSS, score 97, 8 saved article(s).
 - Connect CRE (Tier 1): Working, RSS, score 93, 4 saved article(s).
+- Yield PRO (Tier 1): Working, RSS, score 90, 10 saved article(s).
 - Connect CRE Orange County (Tier 2): Working, RSS, score 90, 2 saved article(s).
 - REBusiness Online (Tier 2): Working, RSS, score 82, 6 saved article(s).
 - Connect CRE Apartments (Tier 2): Working, RSS, score 80, 9 saved article(s).
 - Connect CRE Atlanta (Tier 2): Working, RSS, score 79, 4 saved article(s).
-- Urbanize LA (Tier 2): Working, RSS, score 78, 9 saved article(s).
+- Urbanize LA (Tier 2): Working, RSS, score 73, 9 saved article(s).
 - Commercial Observer (Tier 1): Working, RSS, score 71, 2 saved article(s).
 - Connect CRE South Florida (Tier 2): Working, RSS, score 70, 4 saved article(s).
 - NAHB Eye on Housing - Multifamily (Tier 3): Working, RSS, score 70, 15 saved article(s).
-- SF YIMBY (Tier 2): Working, RSS, score 65, 2 saved article(s).
 - Multifamily Dive (Tier 1): Working, RSS, score 56, 2 saved article(s).
 - Connect CRE California (Tier 2): Working, RSS, score 52, 2 saved article(s).
+- SF YIMBY (Tier 2): Working, RSS, score 52, 1 saved article(s).
 - Multifamily Executive (Tier 1): Working, RSS, score 48, 1 saved article(s).
 - Connect CRE Phoenix (Tier 2): Working, RSS, score 46, 1 saved article(s).
 
@@ -103,19 +103,19 @@ Generated: 2026-11-22 02:51:09
 
 | Rank | Source | Tier | Status | Score | Saved | Signal Density |
 | ---: | --- | --- | --- | ---: | ---: | ---: |
-| 1 | Yield PRO | Tier 1 | Working | 97 | 8 | 100 |
-| 2 | Connect CRE | Tier 1 | Working | 93 | 4 | 100 |
+| 1 | Connect CRE | Tier 1 | Working | 93 | 4 | 100 |
+| 2 | Yield PRO | Tier 1 | Working | 90 | 10 | 100 |
 | 3 | Connect CRE Orange County | Tier 2 | Working | 90 | 2 | 100 |
 | 4 | REBusiness Online | Tier 2 | Working | 82 | 6 | 95 |
 | 5 | Connect CRE Apartments | Tier 2 | Working | 80 | 9 | 100 |
 | 6 | Connect CRE Atlanta | Tier 2 | Working | 79 | 4 | 100 |
-| 7 | Urbanize LA | Tier 2 | Working | 78 | 9 | 100 |
+| 7 | Urbanize LA | Tier 2 | Working | 73 | 9 | 100 |
 | 8 | Commercial Observer | Tier 1 | Working | 71 | 2 | 41 |
 | 9 | Connect CRE South Florida | Tier 2 | Working | 70 | 4 | 70 |
 | 10 | NAHB Eye on Housing - Multifamily | Tier 3 | Working | 70 | 15 | 100 |
-| 11 | SF YIMBY | Tier 2 | Working | 65 | 2 | 80 |
-| 12 | Multifamily Dive | Tier 1 | Working | 56 | 2 | 30 |
-| 13 | Connect CRE California | Tier 2 | Working | 52 | 2 | 30 |
+| 11 | Multifamily Dive | Tier 1 | Working | 56 | 2 | 30 |
+| 12 | Connect CRE California | Tier 2 | Working | 52 | 2 | 30 |
+| 13 | SF YIMBY | Tier 2 | Working | 52 | 1 | 40 |
 | 14 | Multifamily Executive | Tier 1 | Working | 48 | 1 | 10 |
 | 15 | Connect CRE Phoenix | Tier 2 | Working | 46 | 1 | 20 |
 | 16 | Bisnow | Tier 1 | Working | 45 | 0 | 0 |

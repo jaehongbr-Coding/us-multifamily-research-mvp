@@ -1,38 +1,37 @@
 # GP / Developer Intelligence Report
 
-Generated: 2026-11-22 02:51:12
+Generated: 2026-11-23 03:32:02
 
 ## Top Institutional Signals
 
-- Marcus & Millichap: acquisition; disposition / exit; refinancing; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 100. competitive pressure indicator; track refinancing pipeline.
+- Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 99. competitive pressure indicator; review LA / California development activity.
 - CBRE: acquisition; disposition / exit; refinancing; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. competitive pressure indicator; track refinancing pipeline.
 - Blackstone: JV / partnership; market expansion; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 95. potential JV partnership signal; monitor JV activity.
-- Millichap Capital Corporation: refinancing; operational technology / AI adoption, California, sources: Core Multifamily News, strength 83. competitive pressure indicator; track refinancing pipeline.
-- Minto Communities USA: disposition / exit; operational technology / AI adoption, Miami / Florida, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 76. competitive pressure indicator; track construction innovation strategy.
+- JLL: acquisition; disposition / exit; refinancing; office-to-residential conversion; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. competitive pressure indicator; track refinancing pipeline.
+- Advanced Real Estate: acquisition; disposition / exit; refinancing; operational technology / AI adoption, Los Angeles / California, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
 - Benefit Street Partners: JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
 - Hines: acquisition; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
-- JLL: acquisition; disposition / exit; office-to-residential conversion; operational technology / AI adoption, Other / Unknown, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track construction innovation strategy.
 - Machine Investment Group: acquisition; operational technology / AI adoption, Dallas / Texas, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track construction innovation strategy.
 - Mill Creek Residential: acquisition; JV / partnership; capital raise; operational technology / AI adoption, Virginia, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
+- NoVA Apartment Buy With Amazon Financing Residential: acquisition; disposition / exit; operational technology / AI adoption, Northern Virginia / Virginia, sources: Core Multifamily News, strength 73. competitive pressure indicator; track construction innovation strategy.
 
 ## Major GP Strategic Movements
 
-- Marcus & Millichap: acquisition; disposition / exit; refinancing; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 100. competitive pressure indicator; track refinancing pipeline.
+- Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 99. competitive pressure indicator; review LA / California development activity.
 - CBRE: acquisition; disposition / exit; refinancing; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. competitive pressure indicator; track refinancing pipeline.
 - Blackstone: JV / partnership; market expansion; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 95. potential JV partnership signal; monitor JV activity.
-- Millichap Capital Corporation: refinancing; operational technology / AI adoption, California, sources: Core Multifamily News, strength 83. competitive pressure indicator; track refinancing pipeline.
-- Minto Communities USA: disposition / exit; operational technology / AI adoption, Miami / Florida, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 76. competitive pressure indicator; track construction innovation strategy.
+- JLL: acquisition; disposition / exit; refinancing; office-to-residential conversion; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. competitive pressure indicator; track refinancing pipeline.
+- Advanced Real Estate: acquisition; disposition / exit; refinancing; operational technology / AI adoption, Los Angeles / California, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
 - Benefit Street Partners: JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
 - Hines: acquisition; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
-- JLL: acquisition; disposition / exit; office-to-residential conversion; operational technology / AI adoption, Other / Unknown, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track construction innovation strategy.
 - Machine Investment Group: acquisition; operational technology / AI adoption, Dallas / Texas, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track construction innovation strategy.
 - Mill Creek Residential: acquisition; JV / partnership; capital raise; operational technology / AI adoption, Virginia, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
+- NoVA Apartment Buy With Amazon Financing Residential: acquisition; disposition / exit; operational technology / AI adoption, Northern Virginia / Virginia, sources: Core Multifamily News, strength 73. competitive pressure indicator; track construction innovation strategy.
 
 ## California / LA Developer Activity
 
-- Marcus & Millichap: acquisition; disposition / exit; refinancing; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 100. competitive pressure indicator; track refinancing pipeline.
+- Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 99. competitive pressure indicator; review LA / California development activity.
 - Blackstone: JV / partnership; market expansion; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 95. potential JV partnership signal; monitor JV activity.
-- Millichap Capital Corporation: refinancing; operational technology / AI adoption, California, sources: Core Multifamily News, strength 83. competitive pressure indicator; track refinancing pipeline.
 
 ## Sun Belt Expansion Watch
 
@@ -40,22 +39,22 @@ Generated: 2026-11-22 02:51:12
 
 ## BTR / Modular / Innovation Watch
 
-- Marcus & Millichap: acquisition; disposition / exit; refinancing; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 100. competitive pressure indicator; track refinancing pipeline.
+- Marcus & Millichap: acquisition; disposition / exit; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 99. competitive pressure indicator; review LA / California development activity.
 - CBRE: acquisition; disposition / exit; refinancing; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. competitive pressure indicator; track refinancing pipeline.
 - Blackstone: JV / partnership; market expansion; operational technology / AI adoption, California, sources: Site / Parcel Source Expansion, strength 95. potential JV partnership signal; monitor JV activity.
-- Millichap Capital Corporation: refinancing; operational technology / AI adoption, California, sources: Core Multifamily News, strength 83. competitive pressure indicator; track refinancing pipeline.
-- Minto Communities USA: disposition / exit; operational technology / AI adoption, Miami / Florida, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 76. competitive pressure indicator; track construction innovation strategy.
+- JLL: acquisition; disposition / exit; refinancing; office-to-residential conversion; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. competitive pressure indicator; track refinancing pipeline.
+- Advanced Real Estate: acquisition; disposition / exit; refinancing; operational technology / AI adoption, Los Angeles / California, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
 - Benefit Street Partners: JV / partnership; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
 - Hines: acquisition; JV / partnership; operational technology / AI adoption, Atlanta / Georgia, sources: Site / Parcel Source Expansion, strength 73. potential JV partnership signal; monitor JV activity.
-- JLL: acquisition; disposition / exit; office-to-residential conversion; operational technology / AI adoption, Other / Unknown, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track construction innovation strategy.
 - Machine Investment Group: acquisition; operational technology / AI adoption, Dallas / Texas, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track construction innovation strategy.
 - Mill Creek Residential: acquisition; JV / partnership; capital raise; operational technology / AI adoption, Virginia, sources: Core Multifamily News, strength 73. potential JV partnership signal; monitor JV activity.
+- NoVA Apartment Buy With Amazon Financing Residential: acquisition; disposition / exit; operational technology / AI adoption, Northern Virginia / Virginia, sources: Core Multifamily News, strength 73. competitive pressure indicator; track construction innovation strategy.
 
 ## Distressed / Refinancing Watch
 
-- Marcus & Millichap: acquisition; disposition / exit; refinancing; operational technology / AI adoption, California, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 100. competitive pressure indicator; track refinancing pipeline.
 - CBRE: acquisition; disposition / exit; refinancing; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 97. competitive pressure indicator; track refinancing pipeline.
-- Millichap Capital Corporation: refinancing; operational technology / AI adoption, California, sources: Core Multifamily News, strength 83. competitive pressure indicator; track refinancing pipeline.
+- JLL: acquisition; disposition / exit; refinancing; office-to-residential conversion; operational technology / AI adoption, Other / Unknown, sources: Core Multifamily News; Site / Parcel Source Expansion, strength 89. competitive pressure indicator; track refinancing pipeline.
+- Advanced Real Estate: acquisition; disposition / exit; refinancing; operational technology / AI adoption, Los Angeles / California, sources: Core Multifamily News, strength 73. competitive pressure indicator; track refinancing pipeline.
 - Tishman Speyer: acquisition; refinancing; operational technology / AI adoption, Miami / Florida, sources: Site / Parcel Source Expansion, strength 73. competitive pressure indicator; track refinancing pipeline.
 - Centennial Bank: refinancing; market expansion, Miami / Florida, sources: Core Multifamily News, strength 58. capital market sentiment indicator; track refinancing pipeline.
 
@@ -81,9 +80,9 @@ Firm-tier weighting, capital-flow inference, and relationship scoring are availa
 Deal and project extraction is available in `deal_pipeline_report.md`.
 - Blackstone: JV / Partnership, California, GP partnership reference.
 - CBRE: Acquisition, Atlanta / Georgia, Pricing benchmark.
+- JLL: Refinancing, Riverside / California, Capital market signal.
 - CBRE: Disposition / Exit, New York, Underwriting benchmark.
 - Marcus & Millichap: Disposition / Exit, California, Entitlement / zoning watch.
-- Hines: Acquisition, Atlanta / Georgia, Pricing benchmark.
 
 ## Relationship Graph Context
 
@@ -92,7 +91,7 @@ Developer and GP relationship edges are available in `relationship_graph_report.
 - Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: JV / Partnership.
 - Blackstone -> blackstone: JV / Partnership.
 - CBRE -> cbre: Financing Relationship.
-- CBRE -> cbre: Financing Relationship.
+- JLL -> jll: Financing Relationship.
 
 ## Competitive Landscape Implications for Woomi
 
@@ -102,11 +101,11 @@ Developer and GP relationship edges are available in `relationship_graph_report.
 
 ## Recommended Executive Follow-Up
 
-- Marcus & Millichap: track refinancing pipeline
+- Marcus & Millichap: review LA / California development activity
 - CBRE: track refinancing pipeline
 - Blackstone: monitor JV activity
-- Millichap Capital Corporation: track refinancing pipeline
-- Minto Communities USA: track construction innovation strategy
+- JLL: track refinancing pipeline
+- Advanced Real Estate: track refinancing pipeline
 - Benefit Street Partners: monitor JV activity
 - Hines: monitor JV activity
-- JLL: track construction innovation strategy
+- Machine Investment Group: track construction innovation strategy

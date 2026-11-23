@@ -1,6 +1,6 @@
 # Materiality / Impact Report
 
-Generated: 2026-11-22 02:51:12
+Generated: 2026-11-23 03:32:01
 
 - Top materiality regime: Developer Strategy Shift (100)
 - Top impact regime: Developer Strategy Shift (100)

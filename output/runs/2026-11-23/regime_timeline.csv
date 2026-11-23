@@ -1,0 +1,7 @@
+﻿run_id,run_date,cluster_title,persistence_label,trend_direction,consecutive_run_count,7d_presence,30d_presence,average_article_count,average_confidence,article_count,retained_count,source_diversity,lender_diversity,dominant_market,confidence_label,regime_shift_signal,synthesis_participation
+20261123-033156-ec678e52,2026-11-23,Construction financing still selective,Building,stable,28,8,28,4.06,2.97,2,2,2,0,Miami / Florida,Early Signal,steady visibility,
+20261123-033156-ec678e52,2026-11-23,Institutional recap over expansion,Weakening,stable,1,5,28,3.48,2.9,2,2,1,2,Riverside / California,Source-Concentrated,steady visibility,
+20261123-033156-ec678e52,2026-11-23,JV / partnership activity observed,Building,stable,209,8,31,6.39,3.77,6,6,5,0,California,Broadly Confirmed,steady visibility,
+20261123-033156-ec678e52,2026-11-23,LA entitlement precedent accumulation,Weakening,weakening,209,8,31,7.48,2.84,8,8,2,0,Los Angeles / California,Source-Concentrated,LA entitlement precedent accumulation visibility is weakening versus prior runs.,
+20261123-033156-ec678e52,2026-11-23,Refinancing pressure unresolved,Weakening,stable,1,5,28,3.84,3.03,2,2,1,2,Riverside / California,Source-Concentrated,steady visibility,
+20261123-033156-ec678e52,2026-11-23,Sun Belt lease-up pressure watch,Peaking,stable,209,8,31,2.87,2.74,2,2,1,0,,Source-Concentrated,"Signal visibility remains elevated, but confirmation breadth is narrowing.",

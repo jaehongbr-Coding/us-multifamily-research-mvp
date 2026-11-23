@@ -1,16 +1,17 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-11-22 02:51:31
+Generated: 2026-11-23 03:32:22
 
-- Total LA lifecycle watch items: 48
+- Total LA lifecycle watch items: 47
 
 ## LA Lifecycle Stage Distribution
 
-- Unknown Stage: 33
-- Site Acquisition / Site Control: 11
+- Unknown Stage: 27
+- Site Acquisition / Site Control: 12
+- Refinancing / Recapitalization: 3
 - Vertical Construction: 2
+- Delivery / Opening: 2
 - Entitlement Under Review: 1
-- Refinancing / Recapitalization: 1
 
 ## Koreatown / Wilshire Lifecycle Watch
 
@@ -34,7 +35,7 @@ Generated: 2026-11-22 02:51:31
 
 ## Orange County Lifecycle Watch
 
-- Marcus & Millichap Capital Corporation Arranges $8.5 Million Financing for Multifamily Property in San Diego County: Unknown Stage, Monitor only, opportunity 80.
+- None detected.
 
 ## Inland Empire Lifecycle Watch
 
@@ -51,24 +52,24 @@ Generated: 2026-11-22 02:51:31
 
 ## Recommended LA Lifecycle Follow-up Actions
 
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: JLL Arranges $104M Financing for Uptown Multifamily Portfolio.
 - Monitor lifecycle status for repeated confirmation: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine.
 - Monitor lifecycle status for repeated confirmation: Entitlement / Permitting - Other / Unknown - New plan for housing at 452 N. Los Robles Ave. in Pasadena.
-- Monitor lifecycle status for repeated confirmation: Disposition / Exit - California - Marcus & Millichap Brokers $6.13M Sale of 17-Unit Multifamily Property in Santa Clara Cali....
-- Monitor lifecycle status for repeated confirmation: General Project Signal - California - Marcus & Millichap Capital Corporation Arranges $8.5 Million Financing for Multifamily Pro....
+- Monitor lifecycle status for repeated confirmation: General Project Signal - National - New plan for housing at 4600 Wilshire Blvd..
+- Monitor lifecycle status for repeated confirmation: New plan for housing at 4600 Wilshire Blvd..
 - Monitor lifecycle status for repeated confirmation: Acquisition - Dallas / Texas - Bascom Group Acquires 370-Unit Workforce Housing Property in North Dallas.
 - Monitor lifecycle status for repeated confirmation: JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower.
-- Monitor lifecycle status for repeated confirmation: New plan for housing at 452 N. Los Robles Ave. in Pasadena.
-- Monitor lifecycle status for repeated confirmation: Marcus & Millichap Brokers $6.13M Sale of 17-Unit Multifamily Property in Santa Clara California.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 69
-- Newly detected projects: 6
+- Lifecycle transitions analyzed: 71
+- Newly detected projects: 11
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 47
+- LA lifecycle transition watch items: 46
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -76,10 +77,10 @@ Generated: 2026-11-22 02:51:31
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 551
-- Canonical projects: 151
-- Duplicate project clusters: 102
-- Persistent assets tracked: 151
-- LA persistent asset watch items: 111
+- Raw project references: 572
+- Canonical projects: 162
+- Duplicate project clusters: 106
+- Persistent assets tracked: 162
+- LA persistent asset watch items: 116
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

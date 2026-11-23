@@ -1,33 +1,33 @@
 # GP / Capital Coverage Diagnostics
 
-Generated: 2026-11-22 02:51:07
+Generated: 2026-11-23 03:31:56
 
 ## Summary
 
-- GP / Capital candidate articles: 34
-- Selected GP / Capital articles: 14
-- Excluded by repeat penalty: 10
+- GP / Capital candidate articles: 36
+- Selected GP / Capital articles: 15
+- Excluded by repeat penalty: 12
 - Excluded by integrity issue: 0
 
 ## Top Candidate Sources
 
-- Yield PRO: 6 candidate(s), 3 selected, activities: disposition_exit:3; joint_venture:2; debt_financing:1.
+- Yield PRO: 8 candidate(s), 5 selected, activities: refinancing:3; disposition_exit:3; joint_venture:2.
 - REBusiness Online: 5 candidate(s), 2 selected, activities: disposition_exit:2; acquisition:2; capital_raise:1.
 - Connect CRE: 4 candidate(s), 2 selected, activities: disposition_exit:1; debt_financing:1; joint_venture:1; acquisition:1.
 - Connect CRE Atlanta: 4 candidate(s), 0 selected, activities: acquisition:2; disposition_exit:1; joint_venture:1.
-- Connect CRE Apartments: 3 candidate(s), 1 selected, activities: disposition_exit:2; acquisition:1.
-- Commercial Observer: 2 candidate(s), 2 selected, activities: disposition_exit:1; construction_financing:1.
+- Connect CRE Apartments: 3 candidate(s), 0 selected, activities: disposition_exit:2; acquisition:1.
 - Connect CRE South Florida: 2 candidate(s), 2 selected, activities: construction_financing:1; joint_venture:1.
+- Commercial Observer: 2 candidate(s), 1 selected, activities: disposition_exit:1; construction_financing:1.
+- Connect CRE Orange County: 2 candidate(s), 1 selected, activities: disposition_exit:1; joint_venture:1.
 - Urbanize LA: 2 candidate(s), 1 selected, activities: debt_financing:2.
-- Connect CRE Orange County: 2 candidate(s), 0 selected, activities: disposition_exit:1; joint_venture:1.
 - NAHB Eye on Housing - Multifamily: 2 candidate(s), 0 selected, activities: debt_financing:1; disposition_exit:1.
 
 ## Focus Source Coverage
 
-- Commercial Observer: status OK, articles 2, candidates 2, selected 2.
+- Commercial Observer: status OK, articles 2, candidates 2, selected 1.
 - Bisnow: status OK, articles 0, candidates 0, selected 0.
 - Connect CRE: status OK, articles 4, candidates 4, selected 2.
-- Connect CRE Apartments: status OK, articles 5, candidates 3, selected 1.
+- Connect CRE Apartments: status OK, articles 5, candidates 3, selected 0.
 - Connect CRE Texas: status OK, articles 0, candidates 0, selected 0.
 - Connect CRE South Florida: status OK, articles 2, candidates 2, selected 2.
 - REBusiness Online: status OK, articles 6, candidates 5, selected 2.

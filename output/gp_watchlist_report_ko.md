@@ -1,6 +1,6 @@
 # 한국어 GP Watchlist
 
-- 생성 시각: 2026-11-22 02:51:07
+- 생성 시각: 2026-11-23 03:31:56
 - 참고 원문 파일: `gp_watchlist_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -12,18 +12,18 @@
 - CBRE: 기타 / 미확인, 일반 주거, 점수 68 (Tier 3 Monitoring GP; Capital market and pricing discovery reference)
 - Marcus & Millichap: 기타 / 미확인, 일반 주거, 점수 66 (Tier 3 Monitoring GP; Capital market and pricing discovery reference)
 - Mill Creek Residential: 기타 / 미확인, 일반 주거, 점수 62 (Tier 3 Monitoring GP; Potential GP partnership candidate)
-- Millichap Capital Corporation: 기타 / 미확인, 일반 주거, 점수 62 (Tier 3 Monitoring GP; Capital market and pricing discovery reference)
+- Advanced Real Estate: 기타 / 미확인, 일반 주거, 점수 61 (Tier 3 Monitoring GP; Capital market and pricing discovery reference)
+- JLL: 기타 / 미확인, 일반 주거, 점수 60 (Tier 3 Monitoring GP; Capital market and pricing discovery reference)
 - Bascom Group: 기타 / 미확인, 일반 주거, 점수 58 (Tier 3 Monitoring GP; Capital market and pricing discovery reference)
-- JLL: 기타 / 미확인, 일반 주거, 점수 58 (Tier 3 Monitoring GP; Capital market and pricing discovery reference)
 - Samuelian Group: 기타 / 미확인, 일반 주거, 점수 57 (Tier 3 Monitoring GP; Capital market and pricing discovery reference)
 
 ## 기관자본 연결성
 
 - Blackstone: 기타 / 미확인, 학생주택, 점수 100 (Operational / Platform Investment; Potential JV / Partnership Signal)
 - CBRE: 기타 / 미확인, 아파트, 점수 100 (Capital Inflow; GP Capability Benchmark Signal)
-- Marcus & Millichap: 기타 / 미확인, 멀티패밀리, 점수 100 (Capital Inflow; GP Capability Benchmark Signal)
+- Marcus & Millichap: 기타 / 미확인, 아파트, 점수 100 (Capital Inflow; GP Capability Benchmark Signal)
+- Advanced Real Estate: 기타 / 미확인, 아파트, 점수 99 (Capital Inflow; GP Capability Benchmark Signal)
 - Bascom Group: 기타 / 미확인, 워크포스 하우징, 점수 99 (Capital Inflow; Pricing Discovery Signal)
-- Trammell Crow Residential: 기타 / 미확인, 주거복합, 점수 98 (Development Capital Deployment; GP Capability Benchmark Signal)
 
 ## JV / Partnership 가능성
 

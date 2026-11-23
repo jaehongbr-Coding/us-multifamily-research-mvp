@@ -1,10 +1,10 @@
 # Deal Fingerprint Report
 
-Generated: 2026-11-22 02:51:13
+Generated: 2026-11-23 03:32:02
 
-- Total canonical deals detected: 46
+- Total canonical deals detected: 49
 - Duplicate clusters detected: 0
-- California / LA recurring project count: 6
+- California / LA recurring project count: 3
 
 ## Largest Duplicate Clusters
 
@@ -16,28 +16,28 @@ Generated: 2026-11-22 02:51:13
 
 ## Strongest Recurring Refinancing Events
 
+- Refinancing - JLL - JLL - California: Riverside / California, 1 article(s), 1 source(s), confidence 90.
 - Construction Financing - Unknown - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 75.
+- Refinancing - Unknown - northmarq - Los Angeles: Salt Lake City / Utah, 1 article(s), 1 source(s), confidence 75.
+- Refinancing - Unknown - northmarq - National: National, 1 article(s), 1 source(s), confidence 75.
 - Construction Financing - Unknown - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 65.
 
 ## Recurring California / LA Projects
 
 - JV / Partnership - Blackstone - California: California, 1 article(s), 1 source(s), confidence 80.
 - Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
-- Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
-- Entitlement / Permitting - Unknown - Los Angeles: Los Angeles, 1 article(s), 1 source(s), confidence 65.
-- General Project Signal - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
 - JV / Partnership - Unknown - California: California, 1 article(s), 1 source(s), confidence 55.
 
 ## Recurring GP / Lender Relationships
 
 - Acquisition - CBRE - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
 - Disposition / Exit - CBRE - New York: New York, 1 article(s), 1 source(s), confidence 90.
+- Refinancing - JLL - JLL - California: Riverside / California, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - Bascom Group - Los Angeles: Dallas / Texas, 1 article(s), 1 source(s), confidence 80.
 - Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
 - Disposition / Exit - CBRE - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 80.
 - Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
-- Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
-- General Project Signal - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
+- General Project Signal - CIM Group - National: National, 1 article(s), 1 source(s), confidence 80.
 - JV / Partnership - Benefit Street Partners - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 80.
 - JV / Partnership - Blackstone - California: California, 1 article(s), 1 source(s), confidence 80.
 
@@ -45,12 +45,12 @@ Generated: 2026-11-22 02:51:13
 
 - Acquisition - CBRE - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
 - Disposition / Exit - CBRE - New York: New York, 1 article(s), 1 source(s), confidence 90.
+- Refinancing - JLL - JLL - California: Riverside / California, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - Bascom Group - Los Angeles: Dallas / Texas, 1 article(s), 1 source(s), confidence 80.
 - Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
 - Disposition / Exit - CBRE - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 80.
 - Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
-- Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
-- General Project Signal - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
+- General Project Signal - CIM Group - National: National, 1 article(s), 1 source(s), confidence 80.
 - JV / Partnership - Benefit Street Partners - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 80.
 - JV / Partnership - Blackstone - California: California, 1 article(s), 1 source(s), confidence 80.
 
@@ -58,11 +58,11 @@ Generated: 2026-11-22 02:51:13
 
 - Acquisition - CBRE - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 90.
 - Disposition / Exit - CBRE - New York: New York, 1 article(s), 1 source(s), confidence 90.
+- Refinancing - JLL - JLL - California: Riverside / California, 1 article(s), 1 source(s), confidence 90.
 - Acquisition - Bascom Group - Los Angeles: Dallas / Texas, 1 article(s), 1 source(s), confidence 80.
 - Acquisition - Hines - Los Angeles: Atlanta / Georgia, 1 article(s), 1 source(s), confidence 80.
 - Disposition / Exit - CBRE - Other / Unknown: Other / Unknown, 1 article(s), 1 source(s), confidence 80.
 - Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
-- Disposition / Exit - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
-- General Project Signal - Marcus & Millichap - California: California, 1 article(s), 1 source(s), confidence 80.
+- General Project Signal - CIM Group - National: National, 1 article(s), 1 source(s), confidence 80.
 - JV / Partnership - Benefit Street Partners - Sun Belt: Miami / Florida, 1 article(s), 1 source(s), confidence 80.
 - JV / Partnership - Blackstone - California: California, 1 article(s), 1 source(s), confidence 80.

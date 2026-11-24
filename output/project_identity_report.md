@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-11-23 03:32:22
+Generated: 2026-11-24 06:48:28
 
-- Total raw project references: 572
-- Total canonical projects: 162
-- Duplicate project clusters: 106
-- High-confidence project identities: 572
+- Total raw project references: 646
+- Total canonical projects: 159
+- Duplicate project clusters: 113
+- High-confidence project identities: 646
 - Low-confidence identities needing review: 0
 - LA / California project references: 393
 
 ## Top Repeated Projects
 
-- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: 46 occurrence(s), confidence 80.
-- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: 46 occurrence(s), confidence 80.
-- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: 46 occurrence(s), confidence 80.
-- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: 46 occurrence(s), confidence 80.
-- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: 46 occurrence(s), confidence 80.
-- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: 46 occurrence(s), confidence 80.
-- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: 46 occurrence(s), confidence 80.
-- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: 46 occurrence(s), confidence 80.
-- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: 46 occurrence(s), confidence 80.
-- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: 46 occurrence(s), confidence 80.
+- General Project Signal - Miami / Florida - Namdar Lands $345M Loan To Build Brickell Apartments: The South Florida Deal Sheet: 36 occurrence(s), confidence 80.
+- General Project Signal - Miami / Florida - Namdar Lands $345M Loan To Build Brickell Apartments: The South Florida Deal Sheet: 36 occurrence(s), confidence 80.
+- General Project Signal - Miami / Florida - Namdar Lands $345M Loan To Build Brickell Apartments: The South Florida Deal Sheet: 36 occurrence(s), confidence 80.
+- General Project Signal - Miami / Florida - Namdar Lands $345M Loan To Build Brickell Apartments: The South Florida Deal Sheet: 36 occurrence(s), confidence 80.
+- General Project Signal - Miami / Florida - Namdar Lands $345M Loan To Build Brickell Apartments: The South Florida Deal Sheet: 36 occurrence(s), confidence 80.
+- General Project Signal - Miami / Florida - Namdar Lands $345M Loan To Build Brickell Apartments: The South Florida Deal Sheet: 36 occurrence(s), confidence 80.
+- General Project Signal - Miami / Florida - Namdar Lands $345M Loan To Build Brickell Apartments: The South Florida Deal Sheet: 36 occurrence(s), confidence 80.
+- General Project Signal - Miami / Florida - Namdar Lands $345M Loan To Build Brickell Apartments: The South Florida Deal Sheet: 36 occurrence(s), confidence 80.
+- General Project Signal - Miami / Florida - Namdar Lands $345M Loan To Build Brickell Apartments: The South Florida Deal Sheet: 36 occurrence(s), confidence 80.
+- General Project Signal - Miami / Florida - Namdar Lands $345M Loan To Build Brickell Apartments: The South Florida Deal Sheet: 36 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

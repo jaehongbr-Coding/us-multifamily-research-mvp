@@ -1,37 +1,37 @@
 # GP / Capital Entity Quality Report
 
-Generated: 2026-11-23 03:32:02
+Generated: 2026-11-24 06:48:08
 
 ## Summary
 
-- Total GP/Capital articles: 36
-- Participant not identified: 17
-- Dictionary match: 13
-- Title fallback / headline extraction: 3
-- Low confidence or unresolved: 17
+- Total GP/Capital articles: 41
+- Participant not identified: 14
+- Dictionary match: 20
+- Title fallback / headline extraction: 1
+- Low confidence or unresolved: 14
 
 ## Representative Resolved Samples
 
-- Advanced Real Estate: Advanced Real Estate Acquires Ontario California Multifamily Property for $56M (title_lead_pattern, medium)
-- CBRE: CBRE Arranges Two Property 540-Unit Multifamily Portfolio Sale in Des Moines Suburb (dictionary_match, high)
-- CBRE: Hudson County Luxury Multifamily Trades for $46M (dictionary_match, high)
+- JSB Capital Group: Berkadia Arranges Sale & Financing of 396-Unit Alexandria Virginia Community (dictionary_match, high)
+- Namdar Group: Namdar Lands $345M Loan To Build Brickell Apartments: The South Florida Deal Sheet (capital_event_sentence, medium)
+- UDR: REIT Sells 400-Unit Arlandria Apartment Community For $69M (dictionary_match, high)
+- UDR: Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M (dictionary_match, high)
+- Partners Namdar Group: Namdar Group Lands $345M to Build West Brickell Rental Tower (capital_event_sentence, medium)
+- CBRE: PGIM Provides $85M Refi for N.J. Multifamily Buildings (dictionary_match, high)
+- Santander Bank: Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing (dictionary_match, high)
+- Dwight Capital: Dwight Capital Refis Detroit-Area Apartments With $52M HUD Loan (title_lead_pattern, medium)
 - Samuelian Group: Developers seek bond financing for affordable housing in the Valley (capital_event_sentence, medium)
-- JLL: JLL Brokers $31.3M Sale of Boutique Apartment Building in Chicago (dictionary_match, high)
-- Bascom Group: Bascom Group Acquires 370-Unit Workforce Housing Property in North Dallas (dictionary_match, high)
-- CBRE: ORIX Acquires Buckhead Apartments for $83M (dictionary_match, high)
-- JLL: JLL Arranges $104M Financing for Uptown Multifamily Portfolio (dictionary_match, high)
-- Marcus & Millichap: Fourth Sale Closes in Anaheim Multifamily Portfolio (dictionary_match, high)
-- NoVA Apartment Buy With Amazon Financing Residential: JBG Smith Affiliate Leads $52M NoVA Apartment Buy With Amazon Financing (capital_event_sentence, medium)
+- Walker & Dunlop: East Village Multifamily Secures $203M Construction Financing (dictionary_match, high)
 
 ## Unresolved Examples
 
-- Northmarq Facilitates $11M Refinance of Park Ridge Multifamily Community | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
-- 269 homes to replace nursery at 7639 Topanga Canyon Blvd. in Canoga Park | Urbanize LA | No institution name detected in dictionary, title, summary, or source text.
-- Work Underway on 311-Unit Oakland Park Apartment Building | Connect CRE South Florida | No institution name detected in dictionary, title, summary, or source text.
-- Atlantic Cos. Tops Out 278-Unit Apartment Community in Chattanooga | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
-- Inland National Development with Reuter Walton Development Joint Venture Break Ground on Minnesota Multifamily Project | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
-- Northmarq Arranges $25M for Salt Lake City Multifamily Asset Refinance | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
-- Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments | Connect CRE | No institution name detected in dictionary, title, summary, or source text.
-- Work Gets Started on Carlsbad Village Mixed-Use Project | Connect CRE | No institution name detected in dictionary, title, summary, or source text.
-- Plans Take Shape for Mixed-Use Project Next to the Hillsdale Caltrain Station | Connect CRE California | No institution name detected in dictionary, title, summary, or source text.
-- FPA Multifamily Purchases 599-Unit Property in Portland | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
+- JP Morgan Supplies $90M Refi for Murray Hill Multifamily Tower | Commercial Observer | No institution name detected in dictionary, title, summary, or source text.
+- Northmarq Arranges $75M Sale, $49M Financing of Milwaukee Multifamily | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
+- Gantry Secures $16M for Saint Ann Missouri Luxury Multifamily Redevelopment | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
+- Bonaventure Acquires 274-Unit Apartment Community in Plainfield, Indiana | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
+- Work Gets Started on Carlsbad Village Mixed-Use Project | Connect CRE California | No institution name detected in dictionary, title, summary, or source text.
+- Weidner Apartment Homes Spends $91M on Denver Apartment Property | Connect CRE | No institution name detected in dictionary, title, summary, or source text.
+- Heitman JV Acquires Three Osaka Apartment Properties | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
+- Eastwind to Build Westlake Multifamily Community | Connect CRE South Florida | No institution name detected in dictionary, title, summary, or source text.
+- Perimeter Center Rental Community Goes for $120M | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.
+- Morehouse, Spelman Debut $147M Student Housing Project | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.

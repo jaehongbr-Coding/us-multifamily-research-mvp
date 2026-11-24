@@ -1,8 +1,8 @@
 # LA Lifecycle Transition Watch Report
 
-Generated: 2026-11-23 03:32:22
+Generated: 2026-11-24 06:48:28
 
-- Total LA lifecycle transition watch items: 46
+- Total LA lifecycle transition watch items: 44
 
 ## LA Projects Moving Forward
 
@@ -14,39 +14,36 @@ Generated: 2026-11-23 03:32:22
 
 ## LA Permit / Construction Start Watch
 
-- Development Start - New York City / New York - Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: Vertical Construction -> Vertical Construction, Construction start watch.
-- Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: Vertical Construction -> Vertical Construction, Construction start watch.
+- None detected.
 
 ## LA Refinancing / Recap Timing Watch
 
-- Work Underway on 311-Unit Oakland Park Apartment Building: Refinancing / Recapitalization -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
-- JLL Arranges $104M Financing for Uptown Multifamily Portfolio: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
+- Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing: No Previous Record -> Refinancing / Recapitalization, Refinancing / recap timing watch.
 
 ## LA Delivery / Lease-Up Benchmarks
 
-- Refinancing - Salt Lake City / Utah - Northmarq Arranges $25M for Salt Lake City Multifamily Asset Refinance: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
-- Northmarq Arranges $25M for Salt Lake City Multifamily Asset Refinance: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
+- JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth: No Previous Record -> Delivery / Opening, Delivery / lease-up benchmark.
 
 ## Recommended LA Transition Follow-up Actions
 
-- Monitor for another run to confirm lifecycle direction: Development Start - New York City / New York - Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments.
-- Monitor for another run to confirm lifecycle direction: Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments.
-- Use as delivery, lease-up, and underwriting benchmark: Refinancing - Salt Lake City / Utah - Northmarq Arranges $25M for Salt Lake City Multifamily Asset Refinance.
-- Use as delivery, lease-up, and underwriting benchmark: Northmarq Arranges $25M for Salt Lake City Multifamily Asset Refinance.
-- Track maturity, lender, recapitalization need, and potential JV angle: Work Underway on 311-Unit Oakland Park Apartment Building.
-- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio.
-- Track maturity, lender, recapitalization need, and potential JV angle: JLL Arranges $104M Financing for Uptown Multifamily Portfolio.
-- Monitor for another run to confirm lifecycle direction: Entitlement / Permitting - Other / Unknown - New plan for housing at 452 N. Los Robles Ave. in Pasadena.
+- Use as delivery, lease-up, and underwriting benchmark: Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth.
+- Use as delivery, lease-up, and underwriting benchmark: JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth.
+- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing.
+- Monitor for another run to confirm lifecycle direction: New plan for housing at 4600 Wilshire Blvd..
+- Monitor for another run to confirm lifecycle direction: General Project Signal - National - New plan for housing at 4600 Wilshire Blvd..
+- Monitor for another run to confirm lifecycle direction: JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower.
+- Monitor for another run to confirm lifecycle direction: City Council upholds approval of apartments at 2413 Silver Lake Blvd..
+- Monitor for another run to confirm lifecycle direction: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 572
-- Canonical projects: 162
-- Duplicate project clusters: 106
-- Persistent assets tracked: 162
-- LA persistent asset watch items: 116
+- Raw project references: 646
+- Canonical projects: 159
+- Duplicate project clusters: 113
+- Persistent assets tracked: 159
+- LA persistent asset watch items: 97
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

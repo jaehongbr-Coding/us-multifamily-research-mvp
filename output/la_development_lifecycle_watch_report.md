@@ -1,16 +1,16 @@
 # LA Development Lifecycle Watch Report
 
-Generated: 2026-11-23 03:32:22
+Generated: 2026-11-24 06:48:28
 
-- Total LA lifecycle watch items: 47
+- Total LA lifecycle watch items: 46
 
 ## LA Lifecycle Stage Distribution
 
-- Unknown Stage: 27
-- Site Acquisition / Site Control: 12
-- Refinancing / Recapitalization: 3
-- Vertical Construction: 2
+- Unknown Stage: 31
+- Site Acquisition / Site Control: 10
 - Delivery / Opening: 2
+- Refinancing / Recapitalization: 1
+- Early Site Signal: 1
 - Entitlement Under Review: 1
 
 ## Koreatown / Wilshire Lifecycle Watch
@@ -47,29 +47,28 @@ Generated: 2026-11-23 03:32:22
 
 ## Construction-Ready LA Project Watch
 
-- Development Start - New York City / New York - Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: Vertical Construction, Monitor only, opportunity 84.
-- Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: Vertical Construction, Monitor only, opportunity 81.
+- None detected.
 
 ## Recommended LA Lifecycle Follow-up Actions
 
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio.
-- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: JLL Arranges $104M Financing for Uptown Multifamily Portfolio.
-- Monitor lifecycle status for repeated confirmation: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine.
-- Monitor lifecycle status for repeated confirmation: Entitlement / Permitting - Other / Unknown - New plan for housing at 452 N. Los Robles Ave. in Pasadena.
+- Review lender exposure, sponsor stress, and possible JV or rescue-capital angle: Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing.
+- Monitor lifecycle status for repeated confirmation: JV / Partnership - Northern Virginia / Virginia - Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M.
+- Monitor lifecycle status for repeated confirmation: Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop.
+- Monitor lifecycle status for repeated confirmation: JV / Partnership - Northern Virginia / Virginia - REIT Sells 400-Unit Arlandria Apartment Community For $69M.
+- Monitor lifecycle status for repeated confirmation: REIT Sells 400-Unit Arlandria Apartment Community For $69M.
+- Monitor lifecycle status for repeated confirmation: Construction Financing - New York - East Village Multifamily Secures $203M Construction Financing.
+- Monitor lifecycle status for repeated confirmation: CBRE Negotiates Sale of Inn at Union Square Hotel in San Francisco.
 - Monitor lifecycle status for repeated confirmation: General Project Signal - National - New plan for housing at 4600 Wilshire Blvd..
-- Monitor lifecycle status for repeated confirmation: New plan for housing at 4600 Wilshire Blvd..
-- Monitor lifecycle status for repeated confirmation: Acquisition - Dallas / Texas - Bascom Group Acquires 370-Unit Workforce Housing Property in North Dallas.
-- Monitor lifecycle status for repeated confirmation: JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower.
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 71
-- Newly detected projects: 11
+- Lifecycle transitions analyzed: 80
+- Newly detected projects: 46
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 46
+- LA lifecycle transition watch items: 44
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -77,10 +76,10 @@ Generated: 2026-11-23 03:32:22
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 572
-- Canonical projects: 162
-- Duplicate project clusters: 106
-- Persistent assets tracked: 162
-- LA persistent asset watch items: 116
+- Raw project references: 646
+- Canonical projects: 159
+- Duplicate project clusters: 113
+- Persistent assets tracked: 159
+- LA persistent asset watch items: 97
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

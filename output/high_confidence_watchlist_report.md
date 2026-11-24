@@ -1,21 +1,21 @@
 # High Confidence Watchlist Report
 
-Generated: 2026-11-23 03:32:22
+Generated: 2026-11-24 06:48:28
 
-- Total high-confidence watchlist items: 40
+- Total high-confidence watchlist items: 50
 
 ## Top Institutional-Grade Opportunities
 
-- Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Refinancing opportunity, quality 93, action: Review immediately.
-- JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Institutional capital movement, quality 91, action: Review immediately.
-- Disposition / Exit - New York - Hudson County Luxury Multifamily Trades for $46M: Institutional capital movement, quality 89, action: Review immediately.
-- Acquisition - Seattle - FPA Multifamily Picks Up 599-Unit MF Community in Portland: Institutional capital movement, quality 89, action: Review immediately.
+- Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing: Refinancing opportunity, quality 93, action: Review immediately.
+- Refinancing - New York City / New York - JP Morgan Supplies $90M Refi for Murray Hill Multifamily Tower: Refinancing opportunity, quality 92, action: Review immediately.
+- JV / Partnership - Northern Virginia / Virginia - Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M: Institutional capital movement, quality 91, action: Review immediately.
+- Construction Financing - New York - East Village Multifamily Secures $203M Construction Financing: Construction start pipeline, quality 91, action: Review immediately.
+- Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop: Entitlement progression, quality 91, action: Review immediately.
+- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth: Refinancing opportunity, quality 91, action: Review immediately.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: LA urban infill opportunity, quality 89, action: Review immediately.
+- JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Institutional capital movement, quality 89, action: Review immediately.
 - Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: LA urban infill opportunity, quality 89, action: Review immediately.
 - JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower: Institutional capital movement, quality 88, action: Review immediately.
-- Acquisition - Dallas / Texas - Bascom Group Acquires 370-Unit Workforce Housing Property in North Dallas: LA urban infill opportunity, quality 88, action: Review immediately.
-- JV / Partnership - Virginia - LEO Impact Capital Joint Venture Acquires North Virginia Multifamily Asset for $52M: Institutional capital movement, quality 88, action: Review immediately.
-- JV / Partnership - National - Inland National Development with Reuter Walton Development Joint Venture Break Ground on M...: Institutional capital movement, quality 87, action: Review immediately.
 
 ## Top Institutional-Grade Risks
 
@@ -23,64 +23,67 @@ Generated: 2026-11-23 03:32:22
 
 ## Strongest LA / Southern California Watch Items
 
-- Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Refinancing opportunity, quality 93, action: Review immediately.
-- JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Institutional capital movement, quality 91, action: Review immediately.
-- Acquisition - Seattle - FPA Multifamily Picks Up 599-Unit MF Community in Portland: Institutional capital movement, quality 89, action: Review immediately.
+- Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing: Refinancing opportunity, quality 93, action: Review immediately.
+- JV / Partnership - Northern Virginia / Virginia - Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M: Institutional capital movement, quality 91, action: Review immediately.
+- Construction Financing - New York - East Village Multifamily Secures $203M Construction Financing: Construction start pipeline, quality 91, action: Review immediately.
+- Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop: Entitlement progression, quality 91, action: Review immediately.
+- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth: Refinancing opportunity, quality 91, action: Review immediately.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: LA urban infill opportunity, quality 89, action: Review immediately.
+- JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Institutional capital movement, quality 89, action: Review immediately.
 - Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: LA urban infill opportunity, quality 89, action: Review immediately.
 - JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower: Institutional capital movement, quality 88, action: Review immediately.
-- Acquisition - Dallas / Texas - Bascom Group Acquires 370-Unit Workforce Housing Property in North Dallas: LA urban infill opportunity, quality 88, action: Review immediately.
-- JV / Partnership - National - Inland National Development with Reuter Walton Development Joint Venture Break Ground on M...: Institutional capital movement, quality 87, action: Review immediately.
-- Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: LA urban infill opportunity, quality 85, action: Review immediately.
-- JV / Partnership - California - Work Gets Started on Carlsbad Village Mixed-Use Project: Institutional capital movement, quality 82, action: Maintain on strategic radar.
+- Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop: Entitlement progression, quality 88, action: Review immediately.
 
 ## Strongest GP / Developer Signals
 
-- Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Refinancing opportunity, quality 93, action: Review immediately.
-- JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Institutional capital movement, quality 91, action: Review immediately.
-- Disposition / Exit - New York - Hudson County Luxury Multifamily Trades for $46M: Institutional capital movement, quality 89, action: Review immediately.
+- Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing: Refinancing opportunity, quality 93, action: Review immediately.
+- Refinancing - New York City / New York - JP Morgan Supplies $90M Refi for Murray Hill Multifamily Tower: Refinancing opportunity, quality 92, action: Review immediately.
+- JV / Partnership - Northern Virginia / Virginia - Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M: Institutional capital movement, quality 91, action: Review immediately.
+- Construction Financing - New York - East Village Multifamily Secures $203M Construction Financing: Construction start pipeline, quality 91, action: Review immediately.
+- Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop: Entitlement progression, quality 91, action: Review immediately.
+- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth: Refinancing opportunity, quality 91, action: Review immediately.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: LA urban infill opportunity, quality 89, action: Review immediately.
+- JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Institutional capital movement, quality 89, action: Review immediately.
 - Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio: LA urban infill opportunity, quality 89, action: Review immediately.
 - JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower: Institutional capital movement, quality 88, action: Review immediately.
-- Acquisition - Dallas / Texas - Bascom Group Acquires 370-Unit Workforce Housing Property in North Dallas: LA urban infill opportunity, quality 88, action: Review immediately.
-- JV / Partnership - Virginia - LEO Impact Capital Joint Venture Acquires North Virginia Multifamily Asset for $52M: Institutional capital movement, quality 88, action: Review immediately.
-- Office-to-Residential Conversion - Other / Unknown - JLL Brokers $31.3M Sale of Boutique Apartment Building in Chicago: Institutional capital movement, quality 85, action: Review immediately.
-- Disposition / Exit - Other / Unknown - CBRE Arranges Two Property 540-Unit Multifamily Portfolio Sale in Des Moines Suburb: Institutional capital movement, quality 85, action: Review immediately.
 
 ## Strongest Capital Flow Signals
 
-- Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Refinancing opportunity, quality 93, action: Review immediately.
-- JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Institutional capital movement, quality 91, action: Review immediately.
-- Disposition / Exit - New York - Hudson County Luxury Multifamily Trades for $46M: Institutional capital movement, quality 89, action: Review immediately.
-- Acquisition - Seattle - FPA Multifamily Picks Up 599-Unit MF Community in Portland: Institutional capital movement, quality 89, action: Review immediately.
+- Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing: Refinancing opportunity, quality 93, action: Review immediately.
+- Refinancing - New York City / New York - JP Morgan Supplies $90M Refi for Murray Hill Multifamily Tower: Refinancing opportunity, quality 92, action: Review immediately.
+- JV / Partnership - Northern Virginia / Virginia - Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M: Institutional capital movement, quality 91, action: Review immediately.
+- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth: Refinancing opportunity, quality 91, action: Review immediately.
+- JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: Institutional capital movement, quality 89, action: Review immediately.
 - JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower: Institutional capital movement, quality 88, action: Review immediately.
-- JV / Partnership - Virginia - LEO Impact Capital Joint Venture Acquires North Virginia Multifamily Asset for $52M: Institutional capital movement, quality 88, action: Review immediately.
-- JV / Partnership - National - Inland National Development with Reuter Walton Development Joint Venture Break Ground on M...: Institutional capital movement, quality 87, action: Review immediately.
-- Office-to-Residential Conversion - Other / Unknown - JLL Brokers $31.3M Sale of Boutique Apartment Building in Chicago: Institutional capital movement, quality 85, action: Review immediately.
-- Disposition / Exit - Other / Unknown - CBRE Arranges Two Property 540-Unit Multifamily Portfolio Sale in Des Moines Suburb: Institutional capital movement, quality 85, action: Review immediately.
-- JV / Partnership - California - Work Gets Started on Carlsbad Village Mixed-Use Project: Institutional capital movement, quality 82, action: Maintain on strategic radar.
+- Refinancing - Miami / Florida - Berkadia Secures $34.12M Loan to Refinance 403-Unit Workforce Housing in Kissimmee Florida: Refinancing opportunity, quality 88, action: Review immediately.
+- JV / Partnership - Seattle - High Street Residential Delivers Luxury Multifamily in Seattle’s Roosevelt Neighborhood: Institutional capital movement, quality 88, action: Review immediately.
+- Acquisition - Virginia - Berkadia Arranges Sale & Financing of 396-Unit Alexandria Virginia Community: Institutional capital movement, quality 87, action: Review immediately.
+- JV / Partnership - Northern Virginia / Virginia - Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M: Institutional capital movement, quality 86, action: Review immediately.
 
 ## Strongest Refinancing Opportunities
 
-- Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Refinancing opportunity, quality 93, action: Review immediately.
-- Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio: Refinancing opportunity, quality 78, action: Watch refinancing timing.
-- Refinancing - Salt Lake City / Utah - Northmarq Arranges $25M for Salt Lake City Multifamily Asset Refinance: Refinancing opportunity, quality 73, action: Watch refinancing timing.
-- Refinancing - Salt Lake City / Utah - Northmarq Arranges $25M for Salt Lake City Multifamily Asset Refinance: Refinancing opportunity, quality 73, action: Watch refinancing timing.
-- Construction Financing - Miami / Florida - Centennial Bank Lends $51M to Expand Miami-Dade Nursing Home: Refinancing opportunity, quality 73, action: Watch refinancing timing.
+- Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing: Refinancing opportunity, quality 93, action: Review immediately.
+- Refinancing - New York City / New York - JP Morgan Supplies $90M Refi for Murray Hill Multifamily Tower: Refinancing opportunity, quality 92, action: Review immediately.
+- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth: Refinancing opportunity, quality 91, action: Review immediately.
+- Refinancing - Miami / Florida - Berkadia Secures $34.12M Loan to Refinance 403-Unit Workforce Housing in Kissimmee Florida: Refinancing opportunity, quality 88, action: Review immediately.
+- Refinancing - Other / Unknown - PGIM Provides $85M Refi for N.J. Multifamily Buildings: Refinancing opportunity, quality 85, action: Review immediately.
+- General Project Signal - Miami / Florida - Namdar Lands $345M Loan To Build Brickell Apartments: The South Florida Deal Sheet: Refinancing opportunity, quality 78, action: Watch refinancing timing.
+- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth: Refinancing opportunity, quality 78, action: Watch refinancing timing.
+- Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing: Refinancing opportunity, quality 78, action: Watch refinancing timing.
+- Construction Financing - Miami / Florida - SCALE Lending Issues $345M Construction Loan for Multifamily Project in Miami’s Brickell N...: Refinancing opportunity, quality 77, action: Watch refinancing timing.
+- Refinancing - Miami / Florida - Berkadia Secures $34.12M Loan to Refinance 403-Unit Workforce Housing in Kissimmee Florida: Refinancing opportunity, quality 76, action: Watch refinancing timing.
 
 ## Strongest Construction-Ready Opportunities
 
-- Construction Financing - Miami / Florida - Work Underway on 311-Unit Oakland Park Apartment Building: Construction start pipeline, quality 81, action: Monitor construction execution.
-- Development Start - New York City / New York - Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: Construction start pipeline, quality 77, action: Monitor construction execution.
-- Development Start - New York City / New York - Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: Construction start pipeline, quality 75, action: Monitor construction execution.
+- Construction Financing - New York - East Village Multifamily Secures $203M Construction Financing: Construction start pipeline, quality 91, action: Review immediately.
 
 ## Recommended Executive Actions
 
-- Review immediately: Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio.
-- Review immediately: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine.
-- Review immediately: Disposition / Exit - New York - Hudson County Luxury Multifamily Trades for $46M.
-- Review immediately: Acquisition - Seattle - FPA Multifamily Picks Up 599-Unit MF Community in Portland.
+- Review immediately: Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing.
+- Review immediately: Refinancing - New York City / New York - JP Morgan Supplies $90M Refi for Murray Hill Multifamily Tower.
+- Review immediately: JV / Partnership - Northern Virginia / Virginia - Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M.
+- Review immediately: Construction Financing - New York - East Village Multifamily Secures $203M Construction Financing.
+- Review immediately: Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop.
+- Review immediately: Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth.
 - Review immediately: Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M.
-- Review immediately: Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio.
-- Review immediately: JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower.
-- Review immediately: Acquisition - Dallas / Texas - Bascom Group Acquires 370-Unit Workforce Housing Property in North Dallas.
+- Review immediately: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine.

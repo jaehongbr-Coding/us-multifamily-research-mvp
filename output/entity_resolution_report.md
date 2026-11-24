@@ -1,66 +1,67 @@
 # Entity Resolution Report
 
-Generated: 2026-11-23 03:32:02
+Generated: 2026-11-24 06:48:08
 
-- Total raw entities reviewed: 212
-- Total canonical entities created: 50
-- Possible duplicate entity groups: 7
-- Weak matches needing review: 165
+- Total raw entities reviewed: 266
+- Total canonical entities created: 74
+- Possible duplicate entity groups: 8
+- Weak matches needing review: 214
 - Unknown entities needing review: 4
 
 ## Top Canonical Firms
 
-- Unknown: 122 occurrence(s)
-- CBRE: 20 occurrence(s)
-- JLL: 14 occurrence(s)
+- Unknown: 123 occurrence(s)
+- Berkadia: 24 occurrence(s)
+- CBRE: 21 occurrence(s)
+- UDR: 13 occurrence(s)
+- High Street Residential: 12 occurrence(s)
+- Lincoln Property Company: 10 occurrence(s)
+- JLL: 9 occurrence(s)
 - Blackstone: 8 occurrence(s)
-- Bascom Group: 7 occurrence(s)
 - Hines: 7 occurrence(s)
-- Marcus & Millichap: 7 occurrence(s)
 - Benefit Street Partners: 6 occurrence(s)
-- Tishman Speyer: 6 occurrence(s)
-- northmarq: 6 occurrence(s)
 
 ## Top Canonical Markets
 
-- Los Angeles: 55 occurrence(s)
-- Sun Belt: 51 occurrence(s)
-- Other / Unknown: 32 occurrence(s)
-- National: 19 occurrence(s)
-- California: 17 occurrence(s)
-- New York: 12 occurrence(s)
-- Unknown: 12 occurrence(s)
+- Sun Belt: 63 occurrence(s)
+- Los Angeles: 43 occurrence(s)
+- Other / Unknown: 30 occurrence(s)
+- California: 24 occurrence(s)
+- National: 21 occurrence(s)
+- New York: 15 occurrence(s)
+- Unknown: 11 occurrence(s)
+- Seattle: 9 occurrence(s)
 - South Florida: 8 occurrence(s)
-- Florida: 5 occurrence(s)
-- Seattle: 5 occurrence(s)
+- Northern Virginia / Virginia: 6 occurrence(s)
 
 ## Possible Duplicate Entities
 
+- Berkadia: Acquisition - Virginia - Berkadia Arranges Sale & Financing of 396-Unit Alexandria Virginia Community, Berkadia, Refinancing - Miami / Florida - Berkadia Secures $34.12M Loan to Refinance 403-Unit Workforce Housing in Kissimmee Florida, berkadia
 - Blackstone: Blackstone, blackstone
-- CBRE: CBRE, Disposition / Exit - Other / Unknown - CBRE Arranges Two Property 540-Unit Multifamily Portfolio Sale in Des Moines Suburb, cbre
-- California: California, Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio, JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine, Riverside / California
-- JLL: JLL, Office-to-Residential Conversion - Other / Unknown - JLL Brokers $31.3M Sale of Boutique Apartment Building in Chicago, Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio, jll
-- Los Angeles: Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community, Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M, Acquisition - Dallas / Texas - Bascom Group Acquires 370-Unit Workforce Housing Property in North Dallas, Acquisition - Dallas / Texas - Machine Investment Group Buys 490-Unit Apartment Community in North Dallas, Acquisition - Miami / Florida - Tishman Speyer Adds Dania Beach Rental Asset to Florida Holdings, Acquisition - Other / Unknown - FPA Multifamily Purchases 599-Unit Property in Portland, Acquisition - Seattle - FPA Multifamily Picks Up 599-Unit MF Community in Portland, Atlanta / Georgia, Construction Financing - Miami / Florida - Work Underway on 311-Unit Oakland Park Apartment Building, Dallas / Texas, Development Start - National - Inland, Reuter Walton Break Ground on 342-Unit Citywalk Apartments in Rochester, Minnesota, Development Start - New York City / New York - Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments, Disposition / Exit - Atlanta / Georgia - Perimeter Center Rental Community Goes for $120M, Disposition / Exit - Los Angeles / California - 269 homes to replace nursery at 7639 Topanga Canyon Blvd. in Canoga Park, Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M, Disposition / Exit - Miami / Florida - Eastwind to Build Westlake Multifamily Community, Entitlement / Permitting - Los Angeles / California - City Council upholds approval of apartments at 2413 Silver Lake Blvd., Entitlement / Permitting - Los Angeles / California - Developers seek bond financing for affordable housing in the Valley, Entitlement / Permitting - Los Angeles / California - Mixed-use project reaches its peak at at 6052 W. Olympic Blvd., Entitlement / Permitting - Other / Unknown - Fresh renderings for infill housing at 511 S. Oak Knoll Ave. in Pasadena, Entitlement / Permitting - Other / Unknown - New plan for housing at 452 N. Los Robles Ave. in Pasadena, Entitlement / Permitting - Southeast - Mixed-use project starts to rise at 3313 Sunset Blvd. in Silver Lake, General Project Signal - Atlanta / Georgia - Atlantic Cos. Tops Out 278-Unit Apartment Community in Chattanooga, General Project Signal - National - New plan for housing at 4600 Wilshire Blvd., JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project, JV / Partnership - California - Work Gets Started on Carlsbad Village Mixed-Use Project, JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower, JV / Partnership - National - Inland National Development with Reuter Walton Development Joint Venture Break Ground on M..., Los Angeles, Los Angeles / California, Office-to-Residential Conversion - Los Angeles / California - 405 ExpressLanes, Metro ridership, and more, Refinancing - Salt Lake City / Utah - Northmarq Arranges $25M for Salt Lake City Multifamily Asset Refinance, Salt Lake City, Salt Lake City / Utah
-- New York: Brooklyn, Disposition / Exit - New York - Hudson County Luxury Multifamily Trades for $46M, Manhattan, New York, New York City / New York
-- Sun Belt: Acquisition - Austin / Texas - Jackson Square Closes out Texas Multifamily Asset Ownership with $37M Sale in Austin Metro, Acquisition - Austin / Texas - Jackson Square Spins Off 280-Unit Pflugerville Rental Property, Atlanta, Austin, Austin / Texas, Construction Financing - Miami / Florida - Centennial Bank Lends $51M to Expand Miami-Dade Nursing Home, Dallas, General Project Signal - Phoenix / Arizona - Cross Harbor Scores $78.5M Financing for Tempe Rental Community, Miami, Miami / Florida, Phoenix, Phoenix / Arizona, Sun Belt
+- CBRE: Acquisition - San Francisco / California - CBRE Negotiates Sale of Inn at Union Square Hotel in San Francisco, CBRE, cbre
+- California: California, Disposition / Exit - California - Fourth Sale Closes in Anaheim Multifamily Portfolio, Disposition / Exit - California - Torrance to break ground on World War II Japanese American Incarceration Monument, JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine, San Francisco / California, Santa Monica / California
+- JLL: JLL, Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth, jll
+- Los Angeles: Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community, Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M, Acquisition - Los Angeles / California - Rob Kane On Lincoln Property Company’s $6B Southern California Development Pipeline, Acquisition - Miami / Florida - Tishman Speyer Adds Dania Beach Rental Asset to Florida Holdings, Acquisition - Other / Unknown - Bonaventure Acquires 274-Unit Apartment Community in Plainfield, Indiana, Acquisition - Texas - Dominium Acquires Land for First San Antonio Affordable Housing Development, Atlanta / Georgia, Construction Financing - Miami / Florida - Namdar Group Lands $345M to Build West Brickell Rental Tower, Construction Financing - New York - East Village Multifamily Secures $203M Construction Financing, Dallas / Texas, Disposition / Exit - Atlanta / Georgia - Perimeter Center Rental Community Goes for $120M, Disposition / Exit - Miami / Florida - Eastwind to Build Westlake Multifamily Community, Entitlement / Permitting - Los Angeles / California - City Council upholds approval of apartments at 2413 Silver Lake Blvd., Entitlement / Permitting - Los Angeles / California - Developers seek bond financing for affordable housing in the Valley, Entitlement / Permitting - Los Angeles / California - Mixed-use project reaches its peak at at 6052 W. Olympic Blvd., Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop, Entitlement / Permitting - Southeast - Mixed-use project starts to rise at 3313 Sunset Blvd. in Silver Lake, General Project Signal - Los Angeles / California - Exterior takes shape for $300m Kali Hotel in Inglewood, General Project Signal - Miami / Florida - Namdar Lands $345M Loan To Build Brickell Apartments: The South Florida Deal Sheet, General Project Signal - National - New plan for housing at 4600 Wilshire Blvd., JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project, JV / Partnership - California - Work Gets Started on Carlsbad Village Mixed-Use Project, JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower, JV / Partnership - Northern Virginia / Virginia - Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M, JV / Partnership - Northern Virginia / Virginia - REIT Sells 400-Unit Arlandria Apartment Community For $69M, Los Angeles, Los Angeles / California, Office-to-Residential Conversion - Los Angeles / California - 405 ExpressLanes, Metro ridership, and more, Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing
+- New York: Construction Financing - New York City / New York - Partnership Receives $305M in Construction Financing for Manhattan Multifamily Project, New York, New York City, New York City / New York, Refinancing - New York City / New York - JP Morgan Supplies $90M Refi for Murray Hill Multifamily Tower
+- Sun Belt: Acquisition - Austin / Texas - Jackson Square Spins Off 280-Unit Pflugerville Rental Property, Atlanta, Austin, Austin / Texas, Construction Financing - Miami / Florida - SCALE Lending Issues $345M Construction Loan for Multifamily Project in Miami’s Brickell N..., Dallas, General Project Signal - Phoenix / Arizona - Cross Harbor Scores $78.5M Financing for Tempe Rental Community, JV / Partnership - Phoenix / Arizona - High Street Residential Joint Venture Complete Scottsdale Luxury Apartment Project, JV / Partnership - Phoenix / Arizona - Weidner Apartment Homes Spends $91M on Denver Apartment Property, Miami, Miami / Florida, Orlando, Phoenix, Phoenix / Arizona, Sun Belt
 
 ## Weak Matches Needing Manual Review
 
-- Acquisition - Northern Virginia / Virginia - JBG Smith Affiliate Leads $52M NoVA Apartment Buy With Amazon Financing -> Acquisition - Northern Virginia / Virginia - JBG Smith Affiliate Leads $52M NoVA Apartment Buy With Amazon Financing (40, relationship_graph.csv)
-- Advanced Real Estate -> Advanced Real Estate (40, gp_intelligence.csv)
-- Advanced Real Estate -> Advanced Real Estate (40, institutional_relationships.csv)
+- Acquisition - National - Gantry Secures $16M for Saint Ann Missouri Luxury Multifamily Redevelopment -> Acquisition - National - Gantry Secures $16M for Saint Ann Missouri Luxury Multifamily Redevelopment (40, relationship_graph.csv)
+- America -> America (40, deal_pipeline.csv)
+- America -> America (40, relationship_graph.csv)
 - Arizona -> Arizona (40, regional_intelligence.csv)
-- Bascom Group -> Bascom Group (40, deal_pipeline.csv)
-- Bascom Group -> Bascom Group (40, gp_intelligence.csv)
-- Bascom Group -> Bascom Group (40, institutional_relationships.csv)
-- Bascom Group -> Bascom Group (40, relationship_graph.csv)
 - Benefit Street Partners -> Benefit Street Partners (40, deal_pipeline.csv)
 - Benefit Street Partners -> Benefit Street Partners (40, gp_intelligence.csv)
 - Benefit Street Partners -> Benefit Street Partners (40, institutional_relationships.csv)
 - Benefit Street Partners -> Benefit Street Partners (40, relationship_graph.csv)
-- Disposition / Exit - Other / Unknown - CBRE Arranges Two Property 540-Unit Multifamily Portfolio Sale in Des Moines Suburb -> CBRE (60, relationship_graph.csv)
+- Acquisition - Virginia - Berkadia Arranges Sale & Financing of 396-Unit Alexandria Virginia Community -> Berkadia (60, relationship_graph.csv)
+- Refinancing - Miami / Florida - Berkadia Secures $34.12M Loan to Refinance 403-Unit Workforce Housing in Kissimmee Florida -> Berkadia (60, relationship_graph.csv)
+- Acquisition - San Francisco / California - CBRE Negotiates Sale of Inn at Union Square Hotel in San Francisco -> CBRE (60, relationship_graph.csv)
 - CIM Group -> CIM Group (40, deal_pipeline.csv)
 - CIM Group -> CIM Group (40, gp_intelligence.csv)
+- CIM Group -> CIM Group (40, institutional_relationships.csv)
+- CIM Group -> CIM Group (40, relationship_graph.csv)
 
 ## Relationship Graph Improvement Notes
 

@@ -1,21 +1,21 @@
 # LA Persistent Asset Watch Report
 
-Generated: 2026-11-23 03:32:22
+Generated: 2026-11-24 06:48:28
 
-- Total LA persistent asset watch items: 116
+- Total LA persistent asset watch items: 97
 
 ## Priority LA Asset Watch Items
 
-- Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio: California, Refinancing / Recapitalization, Track repeat project updates.
-- JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: California, Unknown Stage, Track repeat project updates.
+- JV / Partnership - Northern Virginia / Virginia - Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M: Los Angeles, Unknown Stage, Track repeat project updates.
+- Construction Financing - New York - East Village Multifamily Secures $203M Construction Financing: Los Angeles, Unknown Stage, Track repeat project updates.
+- Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop: Los Angeles, Early Site Signal, Track repeat project updates.
+- Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
+- General Project Signal - Miami / Florida - Namdar Lands $345M Loan To Build Brickell Apartments: The South Florida Deal Sheet: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
 - JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower: Los Angeles, Unknown Stage, Track repeat project updates.
-- Acquisition - Dallas / Texas - Bascom Group Acquires 370-Unit Workforce Housing Property in North Dallas: Los Angeles, Unknown Stage, Track repeat project updates.
-- Construction Financing - Miami / Florida - Work Underway on 311-Unit Oakland Park Apartment Building: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
-- Disposition / Exit - Los Angeles / California - Advanced Real Estate Acquires Ontario California Multifamily Property for $56M: Los Angeles, Unknown Stage, Track repeat project updates.
-- General Project Signal - Atlanta / Georgia - Atlantic Cos. Tops Out 278-Unit Apartment Community in Chattanooga: Los Angeles, Unknown Stage, Track repeat project updates.
-- JV / Partnership - National - Inland National Development with Reuter Walton Development Joint Venture Break Ground on M...: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
-- JV / Partnership - California - Work Gets Started on Carlsbad Village Mixed-Use Project: Los Angeles, Unknown Stage, Track repeat project updates.
-- Acquisition - Seattle - FPA Multifamily Picks Up 599-Unit MF Community in Portland: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
+- Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop: Los Angeles, Unknown Stage, Track repeat project updates.
+- Entitlement / Permitting - Los Angeles / California - City Council upholds approval of apartments at 2413 Silver Lake Blvd.: Los Angeles, Unknown Stage, Track repeat project updates.
+- Disposition / Exit - California - Torrance to break ground on World War II Japanese American Incarceration Monument: California, Unknown Stage, Track repeat project updates.
+- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth: Los Angeles, Delivery / Opening, Track repeat project updates.
 
 ## Koreatown / Wilshire Persistent Assets
 
@@ -31,9 +31,7 @@ Generated: 2026-11-23 03:32:22
 
 ## Pasadena Persistent Assets
 
-- Entitlement / Permitting - Other / Unknown - Fresh renderings for infill housing at 511 S. Oak Knoll Ave. in Pasadena: Pasadena, Unknown Stage, Monitor only.
-- Entitlement / Permitting - Other / Unknown - Fresh renderings for infill housing at 511 S. Oak Knoll Ave. in Pasadena: Pasadena, Unknown Stage, Monitor only.
-- Fresh renderings for infill housing at 511 S. Oak Knoll Ave. in Pasadena: Pasadena, Unknown Stage, Track local sponsor execution.
+- None detected.
 
 ## Orange County Persistent Assets
 
@@ -41,22 +39,19 @@ Generated: 2026-11-23 03:32:22
 
 ## Stalled / Delayed LA Asset Watch
 
-- JV / Partnership - National - Inland National Development with Reuter Walton Development Joint Venture Break Ground on M...: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
+- None detected.
 
 ## Construction / Delivery Transition Watch
 
-- Development Start - New York City / New York - Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: Los Angeles, Vertical Construction, Track repeat project updates.
-- Refinancing - Salt Lake City / Utah - Northmarq Arranges $25M for Salt Lake City Multifamily Asset Refinance: Los Angeles, Delivery / Opening, Track repeat project updates.
-- Development Start - New York City / New York - Vacant Since 2012 Fire, East Flatbush Site Will Yield 134 New Apartments: Los Angeles, Vertical Construction, Track repeat project updates.
-- Refinancing - Salt Lake City / Utah - Northmarq Arranges $25M for Salt Lake City Multifamily Asset Refinance: Los Angeles, Delivery / Opening, Track repeat project updates.
+- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth: Los Angeles, Delivery / Opening, Track repeat project updates.
 
 ## Recommended Local Follow-up Actions
 
-- Monitor for repeated project updates: Entitlement / Permitting - Other / Unknown - New plan for housing at 452 N. Los Robles Ave. in Pasadena.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - Northern Virginia / Virginia - Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M.
 - Monitor for repeated project updates: General Project Signal - National - New plan for housing at 4600 Wilshire Blvd..
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Riverside / California - JLL Arranges $104M Financing for Uptown Multifamily Portfolio.
-- Monitor for repeated project updates: Disposition / Exit - Los Angeles / California - 269 homes to replace nursery at 7639 Topanga Canyon Blvd. in Canoga Park.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - New York - East Village Multifamily Secures $203M Construction Financing.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Miami / Florida - Namdar Lands $345M Loan To Build Brickell Apartments: The South Florida Deal Sheet.
 - Monitor for repeated project updates: Entitlement / Permitting - Los Angeles / California - Mixed-use project reaches its peak at at 6052 W. Olympic Blvd..
 - Monitor for repeated project updates: Entitlement / Permitting - Southeast - Mixed-use project starts to rise at 3313 Sunset Blvd. in Silver Lake.
-- Monitor for repeated project updates: Entitlement / Permitting - Other / Unknown - Fresh renderings for infill housing at 511 S. Oak Knoll Ave. in Pasadena.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine.

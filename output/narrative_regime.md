@@ -1,23 +1,23 @@
 # Narrative Regime Detection
 
-Generated: 2026-11-24 06:48:07
+Generated: 2026-11-25 05:15:56
 
 ## Detected Regime
 
 - Primary regime: Developer Strategy Shift
 - Secondary regime: Financing Stress
-- Confidence level: High
+- Confidence level: Medium
 - Explanation: Developer strategy, adaptive reuse, product strategy, or operating model signals are a meaningful part of the current briefing set.
 
 ## Regime Scorecard
 
 | Regime | Score |
 | --- | ---: |
-| Developer Strategy Shift | 131 |
-| Financing Stress | 115 |
-| Selective Capital Re-entry | 104 |
-| Supply Pressure | 52 |
-| Policy / Entitlement Watch | 15 |
+| Developer Strategy Shift | 146 |
+| Financing Stress | 144 |
+| Selective Capital Re-entry | 136 |
+| Supply Pressure | 54 |
+| Policy / Entitlement Watch | 20 |
 | Construction Cost Pressure | 0 |
 
 ## Regime Heatmap Reference
@@ -28,70 +28,73 @@ Regime momentum is available in `regime_momentum_report.md` when previous heatma
 | Regime | Final Score | Strength |
 | --- | ---: | --- |
 | Selective Capital Re-entry | 89 | Very Strong |
-| Supply Pressure | 82 | Very Strong |
-| Financing Stress | 81 | Very Strong |
+| Financing Stress | 87 | Very Strong |
+| Supply Pressure | 80 | Very Strong |
+| Policy / Entitlement Watch | 65 | Strong |
 | Developer Strategy Shift | 59 | Moderate |
-| Policy / Entitlement Watch | 51 | Moderate |
-| Construction Cost Pressure | 8 | Not Detected |
+| Construction Cost Pressure | 5 | Not Detected |
 | Stable Monitoring Environment | 0 | Not Detected |
 
 ## Signal Inputs
 
-- Strategy-briefing articles reviewed: 43
-- Market-signal articles reviewed: 23
-- Articles with extracted numbers: 23
-- Institutional player mentions: 13
+- Strategy-briefing articles reviewed: 49
+- Market-signal articles reviewed: 30
+- Articles with extracted numbers: 30
+- Institutional player mentions: 18
 
 ### Strategic Angles
 
-- Developer Strategy: 25
-- Financing Risk: 19
-- Institutional Flow: 14
-- Supply Pressure: 7
+- Developer Strategy: 27
+- Financing Risk: 23
+- Institutional Flow: 20
+- Supply Pressure: 5
+- Regulation Risk: 4
 - Rent Growth / Demand: 3
-- Regulation Risk: 3
 
 ### Market Signals
 
-- Rent Growth Signal: 8
-- Deal Size Signal: 6
-- Financing Cost Signal: 5
-- Supply / Starts Signal: 4
+- Rent Growth Signal: 9
+- Supply / Starts Signal: 8
+- Financing Cost Signal: 7
+- Deal Size Signal: 5
+- Cap Rate Signal: 1
 
 ### Decision Uses
 
-- Track Developer Strategy: 25
-- Track Financing Conditions: 19
-- Track Institutional Capital Flow: 14
-- Track Supply Pipeline: 7
+- Track Developer Strategy: 27
+- Track Financing Conditions: 23
+- Track Institutional Capital Flow: 20
+- Track Supply Pipeline: 5
+- Track Regulation Risk: 4
 - Track Rent / Vacancy Trend: 3
-- Track Regulation Risk: 3
 
 ### Market Focus
 
-- Other / Unknown: 8
-- Miami / Florida: 7
-- National: 6
-- Los Angeles / California: 4
-- New York City / New York: 3
-- Northern Virginia / Virginia: 2
+- Other / Unknown: 11
+- Miami / Florida: 6
+- Los Angeles / California: 5
+- California: 3
+- Atlanta / Georgia: 3
+- Seattle: 3
 
 ### Action Levels
 
-- Must Read: 31
-- Review: 10
+- Must Read: 38
+- Review: 9
 - Monitor: 2
 
 ### Woomi Relevance
 
-- High relevance to US residential developer strategy: 34
-- Medium relevance to market monitoring: 9
+- High relevance to US residential developer strategy: 41
+- Medium relevance to market monitoring: 8
 
 ## Key Thematic Context
 
-- Financing Risk is Moderate Increase (14 to 19).
-- Supply Pressure is Sharp Increase (4 to 7).
-- Market signal activity is increasing, led by Rent Growth Signal (6 to 8).
+- Financing Risk is Moderate Increase (19 to 23).
+- California focus is Sharp Increase (2 to 3).
+- Institutional Flow is Moderate Increase (14 to 20).
+- Regulation Risk is Moderate Increase (3 to 4).
+- Market signal activity is increasing, led by Supply / Starts Signal (4 to 8).
 
 ## Cross-Theme Interpretation
 

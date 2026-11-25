@@ -1,60 +1,62 @@
 # Development Lifecycle Report
 
-Generated: 2026-11-24 06:48:28
+Generated: 2026-11-25 05:16:25
 
-- Total lifecycle records: 80
+- Total lifecycle records: 83
 
 ## Lifecycle Stage Distribution
 
 - Unknown Stage: 54
-- Site Acquisition / Site Control: 12
-- Refinancing / Recapitalization: 6
+- Refinancing / Recapitalization: 11
+- Site Acquisition / Site Control: 8
 - Delivery / Opening: 6
+- Entitlement Under Review: 2
 - Early Site Signal: 1
-- Entitlement Under Review: 1
+- Construction Started: 1
 
 ## Top Development Timing Opportunities
 
-- Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing: Refinancing / Recapitalization, Orlando, lifecycle_opportunity_score 100.
+- Refinancing - California - JLL Arranges $77M Loan for Refinancing of Ameswell Hotel in Mountain View, California: Refinancing / Recapitalization, California, lifecycle_opportunity_score 100.
+- JLL Arranges $77M Loan for Refinancing of Ameswell Hotel in Mountain View, California: Refinancing / Recapitalization, Unknown, lifecycle_opportunity_score 100.
+- Northmarq Arranges $30.3M Bridge Loan Refinancing for The Vicara Apartments and Townhomes in Olympia Washington: Refinancing / Recapitalization, Seattle, lifecycle_opportunity_score 100.
+- Acquisition - Atlanta / Georgia - JLL Negotiates Sale of 126-Unit Senior Living Community in Hermantown, Minnesota: Delivery / Opening, Duluth, lifecycle_opportunity_score 100.
+- Refinancing - Santa Monica / California - JLL Arranges Refinancing for Evani Mixed-Use Multifamily Property in Santa Monica: Delivery / Opening, Santa Monica, lifecycle_opportunity_score 100.
+- JLL Arranges Refinancing for Evani Mixed-Use Multifamily Property in Santa Monica: Delivery / Opening, Santa Monica, lifecycle_opportunity_score 100.
+- Acquisition - California - Marcus & Millichap’s IPA Capital Markets Arranges $37M Financing for Two-Property SF Bay A...: Unknown Stage, California, lifecycle_opportunity_score 100.
 - JV / Partnership - Northern Virginia / Virginia - Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M: Unknown Stage, Northern Virginia, lifecycle_opportunity_score 100.
 - Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop: Early Site Signal, Santa Monica, lifecycle_opportunity_score 100.
-- JV / Partnership - Northern Virginia / Virginia - REIT Sells 400-Unit Arlandria Apartment Community For $69M: Site Acquisition / Site Control, Northern Virginia, lifecycle_opportunity_score 100.
-- REIT Sells 400-Unit Arlandria Apartment Community For $69M: Site Acquisition / Site Control, Unknown, lifecycle_opportunity_score 100.
-- Construction Financing - New York - East Village Multifamily Secures $203M Construction Financing: Unknown Stage, New York, lifecycle_opportunity_score 98.
-- CBRE Negotiates Sale of Inn at Union Square Hotel in San Francisco: Site Acquisition / Site Control, Unknown, lifecycle_opportunity_score 98.
-- General Project Signal - National - New plan for housing at 4600 Wilshire Blvd.: Unknown Stage, U.S., lifecycle_opportunity_score 95.
-- Refinancing - Miami / Florida - Berkadia Secures $34.12M Loan to Refinance 403-Unit Workforce Housing in Kissimmee Florida: Refinancing / Recapitalization, Miami, lifecycle_opportunity_score 94.
-- East Village Multifamily Secures $203M Construction Financing: Unknown Stage, New York, lifecycle_opportunity_score 94.
+- Tishman Speyer Acquires 264-Unit Multifamily Property in Dania Beach, Florida: Site Acquisition / Site Control, Unknown, lifecycle_opportunity_score 100.
 
 ## Top Lifecycle Risks
 
-- Construction Financing - Miami / Florida - SCALE Lending Issues $345M Construction Loan for Multifamily Project in Miami’s Brickell N...: Refinancing / Recapitalization, Miami, lifecycle_risk_score 60.
-- Refinancing - National - Dwight Capital Refis Detroit-Area Apartments With $52M HUD Loan: Refinancing / Recapitalization, U.S., lifecycle_risk_score 59.
-- Refinancing - Other / Unknown - PGIM Provides $85M Refi for N.J. Multifamily Buildings: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 51.
-- Construction Financing - New York City / New York - Partnership Receives $305M in Construction Financing for Manhattan Multifamily Project: Unknown Stage, New York City, lifecycle_risk_score 51.
+- Refinancing - Miami / Florida - JV Closes on $38.4M Refi for Fort Lauderdale Mixed-Use Venture: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 61.
+- Construction Financing - Miami / Florida - SCALE Lending Provides $345M Construction Loan for Namdar’s Brickell Tower: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 60.
+- Refinancing - Dallas / Texas - Craig Ranch Apartment Owner Lands $38M Financing: Refinancing / Recapitalization, Dallas, lifecycle_risk_score 57.
+- Refinancing - California - JLL Arranges $77M Loan for Refinancing of Ameswell Hotel in Mountain View, California: Refinancing / Recapitalization, California, lifecycle_risk_score 56.
+- Refinancing - Seattle - Northmarq Arranges $30.3M Bridge Loan Refinancing for The Vicara Apartments and Townhomes...: Refinancing / Recapitalization, Seattle, lifecycle_risk_score 53.
+- Construction Financing - New York City / New York - Affinius Provides $135M Construction Loan for Brooklyn Multifamily: Refinancing / Recapitalization, Brooklyn, lifecycle_risk_score 51.
 - Refinancing - Miami / Florida - Berkadia Secures $34.12M Loan to Refinance 403-Unit Workforce Housing in Kissimmee Florida: Refinancing / Recapitalization, Miami, lifecycle_risk_score 50.
-- Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing: Refinancing / Recapitalization, Orlando, lifecycle_risk_score 49.
-- Construction Financing - New York - East Village Multifamily Secures $203M Construction Financing: Unknown Stage, New York, lifecycle_risk_score 45.
-- Acquisition - Virginia - Berkadia Arranges Sale & Financing of 396-Unit Alexandria Virginia Community: Unknown Stage, Virginia, lifecycle_risk_score 45.
-- Construction Financing - Miami / Florida - Namdar Group Lands $345M to Build West Brickell Rental Tower: Site Acquisition / Site Control, Miami, lifecycle_risk_score 43.
-- Gantry Secures $16M for Saint Ann Missouri Luxury Multifamily Redevelopment: Refinancing / Recapitalization, Santa Ana, lifecycle_risk_score 38.
+- Construction Financing - Other / Unknown - Affinius Capital Originates $76M Construction Loan for Wisconsin Student Housing: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 49.
+- JLL Arranges $77M Loan for Refinancing of Ameswell Hotel in Mountain View, California: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 46.
+- Acquisition - Houston / Texas - Berkadia Brokers Sale of Two Apartment Buildings Totaling 131 Units in Houston: Unknown Stage, Houston, lifecycle_risk_score 45.
 
 ## Projects Under Entitlement / Planning
 
-- City Council upholds approval of apartments at 2413 Silver Lake Blvd.: Entitlement Under Review, Los Angeles, lifecycle_opportunity_score 80.
+- Benenson Receives Rezoning Approval for 21-Story Multifamily Project in Queens: Entitlement Under Review, New York, lifecycle_opportunity_score 76.
+- Entitlement / Permitting - New York City / New York - Benenson Receives Rezoning Approval for 21-Story Multifamily Project in Queens: Entitlement Under Review, New York City, lifecycle_opportunity_score 68.
 
 ## Construction-Ready / Construction-Start Signals
 
-- None detected.
+- Office-to-Residential Conversion - New York - HCR Announces Groundbreaking of Affordable Housing Development in Buffalo: Construction Started, New York, lifecycle_opportunity_score 72.
 
 ## Delivery / Lease-Up Signals
 
-- High Street Residential Joint Venture Complete Scottsdale Luxury Apartment Project: Delivery / Opening, Scottsdale, lifecycle_opportunity_score 93.
-- Refinancing - New York City / New York - JP Morgan Supplies $90M Refi for Murray Hill Multifamily Tower: Delivery / Opening, New York City / New York, lifecycle_opportunity_score 92.
-- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth: Delivery / Opening, Fort Worth, lifecycle_opportunity_score 92.
-- JV / Partnership - Seattle - Work Finished on Transit-Oriented Community in Seattle: Delivery / Opening, Seattle, lifecycle_opportunity_score 81.
-- JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth: Delivery / Opening, Fort Worth, lifecycle_opportunity_score 79.
-- JV / Partnership - Phoenix / Arizona - High Street Residential Joint Venture Complete Scottsdale Luxury Apartment Project: Delivery / Opening, Scottsdale, lifecycle_opportunity_score 79.
+- Acquisition - Atlanta / Georgia - JLL Negotiates Sale of 126-Unit Senior Living Community in Hermantown, Minnesota: Delivery / Opening, Duluth, lifecycle_opportunity_score 100.
+- Refinancing - Santa Monica / California - JLL Arranges Refinancing for Evani Mixed-Use Multifamily Property in Santa Monica: Delivery / Opening, Santa Monica, lifecycle_opportunity_score 100.
+- JLL Arranges Refinancing for Evani Mixed-Use Multifamily Property in Santa Monica: Delivery / Opening, Santa Monica, lifecycle_opportunity_score 100.
+- $62M Financing Arranged for Luxury Northern New Jersey Multifamily Community: Delivery / Opening, Unknown, lifecycle_opportunity_score 100.
+- General Project Signal - Other / Unknown - $62M Financing Arranged for Luxury Northern New Jersey Multifamily Community: Delivery / Opening, Unknown, lifecycle_opportunity_score 81.
+- General Project Signal - Atlanta / Georgia - Atlanta Apartment Pipeline Hits Decade Low, With Little Rebound In Sight: Delivery / Opening, Atlanta, lifecycle_opportunity_score 77.
 
 ## Distressed / Stalled Lifecycle Signals
 
@@ -62,12 +64,16 @@ Generated: 2026-11-24 06:48:28
 
 ## Refinancing / Recapitalization Lifecycle Signals
 
-- Construction Financing - Miami / Florida - SCALE Lending Issues $345M Construction Loan for Multifamily Project in Miami’s Brickell N...: Refinancing / Recapitalization, Miami, lifecycle_risk_score 60.
-- Refinancing - National - Dwight Capital Refis Detroit-Area Apartments With $52M HUD Loan: Refinancing / Recapitalization, U.S., lifecycle_risk_score 59.
-- Refinancing - Other / Unknown - PGIM Provides $85M Refi for N.J. Multifamily Buildings: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 51.
+- Refinancing - Miami / Florida - JV Closes on $38.4M Refi for Fort Lauderdale Mixed-Use Venture: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 61.
+- Construction Financing - Miami / Florida - SCALE Lending Provides $345M Construction Loan for Namdar’s Brickell Tower: Refinancing / Recapitalization, South Florida, lifecycle_risk_score 60.
+- Refinancing - Dallas / Texas - Craig Ranch Apartment Owner Lands $38M Financing: Refinancing / Recapitalization, Dallas, lifecycle_risk_score 57.
+- Refinancing - California - JLL Arranges $77M Loan for Refinancing of Ameswell Hotel in Mountain View, California: Refinancing / Recapitalization, California, lifecycle_risk_score 56.
+- Refinancing - Seattle - Northmarq Arranges $30.3M Bridge Loan Refinancing for The Vicara Apartments and Townhomes...: Refinancing / Recapitalization, Seattle, lifecycle_risk_score 53.
+- Construction Financing - New York City / New York - Affinius Provides $135M Construction Loan for Brooklyn Multifamily: Refinancing / Recapitalization, Brooklyn, lifecycle_risk_score 51.
 - Refinancing - Miami / Florida - Berkadia Secures $34.12M Loan to Refinance 403-Unit Workforce Housing in Kissimmee Florida: Refinancing / Recapitalization, Miami, lifecycle_risk_score 50.
-- Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing: Refinancing / Recapitalization, Orlando, lifecycle_risk_score 49.
-- Gantry Secures $16M for Saint Ann Missouri Luxury Multifamily Redevelopment: Refinancing / Recapitalization, Santa Ana, lifecycle_risk_score 38.
+- Construction Financing - Other / Unknown - Affinius Capital Originates $76M Construction Loan for Wisconsin Student Housing: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 49.
+- JLL Arranges $77M Loan for Refinancing of Ameswell Hotel in Mountain View, California: Refinancing / Recapitalization, Unknown, lifecycle_risk_score 46.
+- Affinius Provides $135M Construction Loan for Brooklyn Multifamily: Refinancing / Recapitalization, Brooklyn, lifecycle_risk_score 43.
 
 ## Implications for Woomi / Woomi Global
 
@@ -76,24 +82,24 @@ Generated: 2026-11-24 06:48:28
 
 ## Recommended Lifecycle Follow-up Actions
 
-- Track lender, maturity, debt terms, and recapitalization need: Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing.
+- Track lender, maturity, debt terms, and recapitalization need: Refinancing - California - JLL Arranges $77M Loan for Refinancing of Ameswell Hotel in Mountain View, California.
+- Track lender, maturity, debt terms, and recapitalization need: JLL Arranges $77M Loan for Refinancing of Ameswell Hotel in Mountain View, California.
+- Track lender, maturity, debt terms, and recapitalization need: Northmarq Arranges $30.3M Bridge Loan Refinancing for The Vicara Apartments and Townhomes in Olympia Washington.
+- Benchmark delivery, lease-up, occupancy, and rent assumptions: Acquisition - Atlanta / Georgia - JLL Negotiates Sale of 126-Unit Senior Living Community in Hermantown, Minnesota.
+- Benchmark delivery, lease-up, occupancy, and rent assumptions: Refinancing - Santa Monica / California - JLL Arranges Refinancing for Evani Mixed-Use Multifamily Property in Santa Monica.
+- Benchmark delivery, lease-up, occupancy, and rent assumptions: JLL Arranges Refinancing for Evani Mixed-Use Multifamily Property in Santa Monica.
+- Monitor lifecycle signal for repeated confirmation: Acquisition - California - Marcus & Millichap’s IPA Capital Markets Arranges $37M Financing for Two-Property SF Bay A....
 - Monitor lifecycle signal for repeated confirmation: JV / Partnership - Northern Virginia / Virginia - Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M.
-- Monitor lifecycle signal for repeated confirmation: Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop.
-- Monitor lifecycle signal for repeated confirmation: JV / Partnership - Northern Virginia / Virginia - REIT Sells 400-Unit Arlandria Apartment Community For $69M.
-- Monitor lifecycle signal for repeated confirmation: REIT Sells 400-Unit Arlandria Apartment Community For $69M.
-- Monitor lifecycle signal for repeated confirmation: Construction Financing - New York - East Village Multifamily Secures $203M Construction Financing.
-- Monitor lifecycle signal for repeated confirmation: CBRE Negotiates Sale of Inn at Union Square Hotel in San Francisco.
-- Monitor lifecycle signal for repeated confirmation: General Project Signal - National - New plan for housing at 4600 Wilshire Blvd..
 
 
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 80
-- Newly detected projects: 46
+- Lifecycle transitions analyzed: 83
+- Newly detected projects: 51
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 44
+- LA lifecycle transition watch items: 40
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -101,11 +107,11 @@ Generated: 2026-11-24 06:48:28
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 646
-- Canonical projects: 159
+- Raw project references: 685
+- Canonical projects: 156
 - Duplicate project clusters: 113
-- Persistent assets tracked: 159
-- LA persistent asset watch items: 97
+- Persistent assets tracked: 156
+- LA persistent asset watch items: 85
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -113,10 +119,10 @@ Generated: 2026-11-24 06:48:28
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 159
+- Signals evaluated: 156
 - Institutional-grade signals: 20
-- High-confidence signals: 50
-- Weak/noisy signals: 88
-- High-confidence watchlist items: 50
+- High-confidence signals: 58
+- Weak/noisy signals: 78
+- High-confidence watchlist items: 58
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

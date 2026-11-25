@@ -1,6 +1,6 @@
 # Relationship Persistence Report
 
-Generated: 2026-11-24 06:48:08
+Generated: 2026-11-25 05:15:58
 
 ## Strongest Persistent GP Relationships
 
@@ -17,16 +17,16 @@ Generated: 2026-11-24 06:48:08
 
 ## Most Durable Lender Relationships
 
-- Affinius Capital -> New York (Financing Relationship): Durable, 26 observation(s), importance 100.
+- Affinius Capital -> New York (Financing Relationship): Durable, 29 observation(s), importance 100.
 - Affinius Capital -> Sun Belt (Financing Relationship): Durable, 9 observation(s), importance 100.
+- Affinius Capital -> starwood (Financing Relationship): Durable, 4 observation(s), importance 100.
 - Alliance Residential -> California (Financing Relationship): Durable, 6 observation(s), importance 100.
 - AvalonBay -> cushman (Financing Relationship): Durable, 26 observation(s), importance 100.
-- Avison Young -> Kennedy Wilson (Financing Relationship): Durable, 4 observation(s), importance 100.
-- Avison Young -> Fannie Mae (Financing Relationship): Durable, 8 observation(s), importance 100.
 - Avison Young -> New York (Financing Relationship): Durable, 8 observation(s), importance 100.
+- Avison Young -> Fannie Mae (Financing Relationship): Durable, 8 observation(s), importance 100.
+- Avison Young -> Kennedy Wilson (Financing Relationship): Durable, 4 observation(s), importance 100.
 - BHI -> Construction Financing - Other / Unknown - BHI Lends $72M on New Jersey Apartments Build (Financing Relationship): Durable, 4 observation(s), importance 100.
-- Bascom Group -> Los Angeles (Financing Relationship): Durable, 21 observation(s), importance 100.
-- Bascom Group -> northmarq (Financing Relationship): Durable, 7 observation(s), importance 100.
+- Bascom Group -> Los Angeles (Financing Relationship): Durable, 6 observation(s), importance 100.
 
 ## Recurring JV Structures
 
@@ -43,26 +43,26 @@ Generated: 2026-11-24 06:48:08
 
 ## Repeat Market-Entry Patterns
 
-- Affinius Capital -> Los Angeles (Market Expansion): Durable, 4 observation(s), importance 100.
 - Affinius Capital -> Sun Belt (Market Expansion): Durable, 4 observation(s), importance 100.
+- Affinius Capital -> Los Angeles (Market Expansion): Durable, 4 observation(s), importance 100.
 - AvalonBay -> New York (Market Expansion): Durable, 7 observation(s), importance 100.
 - AvalonBay -> Sun Belt (Market Expansion): Durable, 12 observation(s), importance 100.
 - AvalonBay -> National (Market Expansion): Durable, 15 observation(s), importance 100.
 - Avison Young -> New York (Market Expansion): Durable, 8 observation(s), importance 100.
 - BTR / Build-to-Rent - National - House Passes BTR-Friendly Housing Bill, But Senate Fight Looms -> National (Market Expansion): Durable, 10 observation(s), importance 100.
 - Berkadia -> Sun Belt (Market Expansion): Durable, 8 observation(s), importance 100.
+- Berkadia -> New York (Market Expansion): Durable, 4 observation(s), importance 100.
 - Berkadia -> National (Market Expansion): Durable, 4 observation(s), importance 100.
-- Berkadia -> South Florida (Market Expansion): Durable, 4 observation(s), importance 100.
 
 ## Repeated California / LA Partnerships
 
 - Affinius Capital -> California (JV / Partnership): Durable, 5 observation(s), importance 100.
 - Affinius Capital -> Los Angeles (JV / Partnership): Durable, 5 observation(s), importance 100.
-- Alliance Residential -> California (Financing Relationship): Durable, 6 observation(s), importance 100.
 - Alliance Residential -> California (JV / Partnership): Durable, 31 observation(s), importance 100.
+- Alliance Residential -> California (Financing Relationship): Durable, 6 observation(s), importance 100.
 - Alliance Residential -> JLL (JV / Partnership): Durable, 6 observation(s), importance 100.
 - AvalonBay -> California (Acquisition / Buyer): Durable, 9 observation(s), importance 100.
 - AvalonBay -> equity residential (Acquisition / Buyer): Durable, 5 observation(s), importance 100.
-- Bascom Group -> California (JV / Partnership): Durable, 6 observation(s), importance 100.
 - Bascom Group -> California (Acquisition / Buyer): Durable, 87 observation(s), importance 100.
+- Bascom Group -> California (JV / Partnership): Durable, 6 observation(s), importance 100.
 - Berkadia -> California (Acquisition / Buyer): Durable, 15 observation(s), importance 100.

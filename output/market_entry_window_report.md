@@ -1,32 +1,32 @@
 # Market Entry Window Report
 
-Generated: 2026-11-24 06:48:26
+Generated: 2026-11-25 05:16:22
 
 ## Top Market Entry Windows
 
-- Sun Belt: score 80, Active Watch Window, posture: Actively source opportunities.
-- New York: score 71, Selective Entry Window, posture: Monitor refinancing and distress pipeline.
-- National / Other: score 69, Selective Entry Window, posture: Monitor refinancing and distress pipeline.
-- Seattle: score 61, Early Signal / Prepare, posture: Prepare GP conversations.
-- Texas: score 51, Early Signal / Prepare, posture: Prepare GP conversations.
-- California: score 50, Early Signal / Prepare, posture: Prepare GP conversations.
+- California: score 84, Active Watch Window, posture: Actively source opportunities.
+- Seattle: score 80, Active Watch Window, posture: Actively source opportunities.
+- National / Other: score 64, Early Signal / Prepare, posture: Monitor refinancing and distress pipeline.
+- New York: score 56, Early Signal / Prepare, posture: Prepare GP conversations.
 - Los Angeles: score 33, Monitor Only, posture: Monitor only.
 - Florida: score 32, Monitor Only, posture: Prepare GP conversations.
+- Texas: score 32, Monitor Only, posture: Prepare GP conversations.
+- Sun Belt: score 29, Not Attractive Now, posture: Monitor only.
 
 ## LA / California Entry Window
 
-- California: score 50, Early Signal / Prepare, posture: Prepare GP conversations.
+- California: score 84, Active Watch Window, posture: Actively source opportunities.
 - Los Angeles: score 33, Monitor Only, posture: Monitor only.
 
 ## Sun Belt Entry Window
 
-- Sun Belt: score 80, Active Watch Window, posture: Actively source opportunities.
-- Texas: score 51, Early Signal / Prepare, posture: Prepare GP conversations.
 - Florida: score 32, Monitor Only, posture: Prepare GP conversations.
+- Texas: score 32, Monitor Only, posture: Prepare GP conversations.
+- Sun Belt: score 29, Not Attractive Now, posture: Monitor only.
 
 ## New York / Refinancing Stress Window
 
-- New York: score 71, Selective Entry Window, posture: Monitor refinancing and distress pipeline.
+- New York: score 56, Early Signal / Prepare, posture: Prepare GP conversations.
 
 ## Entitlement / LA Watch Summary
 
@@ -40,34 +40,34 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 
 ## Recommended Entry Posture By Market
 
-- Sun Belt: Actively source opportunities (Active Watch Window).
-- New York: Monitor refinancing and distress pipeline (Selective Entry Window).
-- National / Other: Monitor refinancing and distress pipeline (Selective Entry Window).
-- Seattle: Prepare GP conversations (Early Signal / Prepare).
-- Texas: Prepare GP conversations (Early Signal / Prepare).
-- California: Prepare GP conversations (Early Signal / Prepare).
+- California: Actively source opportunities (Active Watch Window).
+- Seattle: Actively source opportunities (Active Watch Window).
+- National / Other: Monitor refinancing and distress pipeline (Early Signal / Prepare).
+- New York: Prepare GP conversations (Early Signal / Prepare).
 - Los Angeles: Monitor only (Monitor Only).
 - Florida: Prepare GP conversations (Monitor Only).
+- Texas: Prepare GP conversations (Monitor Only).
+- Sun Belt: Monitor only (Not Attractive Now).
 
 ## Key Risks and Opportunities
 
-- Sun Belt: risks: financing stress and refinancing pressure; opportunities: active opportunity radar signals; possible distress or recapitalization watch; capital-flow or institutional activity signal.
-- New York: risks: financing stress and refinancing pressure; opportunities: active opportunity radar signals; possible distress or recapitalization watch; capital-flow or institutional activity signal.
+- California: risks: financing stress and refinancing pressure; entitlement, zoning, permitting, and policy uncertainty; opportunities: active opportunity radar signals; possible distress or recapitalization watch; capital-flow or institutional activity signal; core Woomi California / LA strategic relevance.
+- Seattle: risks: financing stress and refinancing pressure; opportunities: active opportunity radar signals; possible distress or recapitalization watch; capital-flow or institutional activity signal.
 - National / Other: risks: financing stress and refinancing pressure; supply, delivery, lease-up, or concession pressure; opportunities: active opportunity radar signals; possible distress or recapitalization watch.
-- Seattle: risks: supply, delivery, lease-up, or concession pressure; opportunities: active opportunity radar signals; capital-flow or institutional activity signal.
-- Texas: risks: limited timing evidence; opportunities: active opportunity radar signals; capital-flow or institutional activity signal.
+- New York: risks: limited timing evidence; opportunities: active opportunity radar signals; capital-flow or institutional activity signal.
+- Los Angeles: risks: entitlement, zoning, permitting, and policy uncertainty; opportunities: capital-flow or institutional activity signal; core Woomi California / LA strategic relevance.
 
 ## Executive Summary for Woomi
 
-- Top current market entry window is Sun Belt with a Active Watch Window label and posture: Actively source opportunities.
+- Top current market entry window is California with a Active Watch Window label and posture: Actively source opportunities.
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 80
-- LA lifecycle watch items: 46
-- Stage mix: Refinancing / Recapitalization: 6, Unknown Stage: 54, Early Site Signal: 1, Site Acquisition / Site Control: 12, Delivery / Opening: 6
+- Lifecycle records: 83
+- LA lifecycle watch items: 44
+- Stage mix: Refinancing / Recapitalization: 11, Delivery / Opening: 6, Unknown Stage: 54, Early Site Signal: 1, Site Acquisition / Site Control: 8
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -75,10 +75,10 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 80
-- Newly detected projects: 46
+- Lifecycle transitions analyzed: 83
+- Newly detected projects: 51
 - Forward progression projects: 0
 - Possible stalled projects: 0
-- LA lifecycle transition watch items: 44
+- LA lifecycle transition watch items: 40
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 

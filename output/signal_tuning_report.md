@@ -1,19 +1,19 @@
 # Signal Tuning Report
 
-Generated: 2026-11-24 06:47:56
+Generated: 2026-11-25 05:15:51
 
 ## Top Strategic Relevance Articles
 
-- 86 / richness 75: High Street Residential Delivers Luxury Multifamily in Seattle’s Roosevelt Neighborhood (Yield PRO, Seattle) - JV or partnership activity; development continuation
-- 85 / richness 70: Dominium Acquires Land for First San Antonio Affordable Housing Development (Yield PRO, Texas) - sponsor expansion; institutional acquisition behavior
-- 84 / richness 100: Gantry Secures $16M for Saint Ann Missouri Luxury Multifamily Redevelopment (Yield PRO, National) - institutional acquisition behavior; large-scale refinance tied to strategy
-- 83 / richness 70: Heitman JV Acquires Three Osaka Apartment Properties (Connect CRE Apartments, National) - JV or partnership activity; institutional acquisition behavior
-- 81 / richness 90: JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth (REBusiness Online, Dallas / Texas) - institutional acquisition behavior; large-scale refinance tied to strategy
-- 77 / richness 70: PGIM Provides $85M Refi for N.J. Multifamily Buildings (Commercial Observer, Other / Unknown) - institutional acquisition behavior; large-scale refinance tied to strategy
-- 74 / richness 100: Jackson Square Spins Off 280-Unit Pflugerville Rental Property (Connect CRE Texas, Austin / Texas) - institutional acquisition behavior
-- 74 / richness 75: Weidner Apartment Homes Spends $91M on Denver Apartment Property (Connect CRE, Phoenix / Arizona) - JV or partnership activity; institutional acquisition behavior; classification confidence penalty
+- 88 / richness 85: Berkadia Brokers Sale of Two Apartment Buildings Totaling 131 Units in Houston (REBusiness Online, Houston / Texas) - sponsor expansion; institutional acquisition behavior
+- 85 / richness 90: Craig Ranch Apartment Owner Lands $38M Financing (Connect CRE Apartments, Dallas / Texas) - sponsor expansion; large-scale refinance tied to strategy
 - 72 / richness 85: Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M (Commercial Observer, Northern Virginia / Virginia) - JV or partnership activity
-- 70 / richness 85: Berkadia Arranges Sale & Financing of 396-Unit Alexandria Virginia Community (Yield PRO, Virginia) - institutional acquisition behavior
+- 70 / richness 85: Berkadia Brokers Sale of 396-Unit Apartment Community in Alexandria, Virginia (REBusiness Online, Virginia) - institutional acquisition behavior
+- 70 / richness 85: Berkadia Arranges Sale, Financing of Alexandria Multifamily Property (Connect CRE Apartments, Washington DC) - institutional acquisition behavior
+- 70 / richness 85: Tishman Speyer Acquires 264-Unit Multifamily Property in Dania Beach, Florida (REBusiness Online, Miami / Florida) - institutional acquisition behavior
+- 70 / richness 85: Marcus & Millichap’s IPA Capital Markets Arranges $37M Financing for Two-Property SF Bay Area Multifamily Portfolio (Yield PRO, California) - institutional acquisition behavior
+- 70 / richness 85: JLL Negotiates Sale of 126-Unit Senior Living Community in Hermantown, Minnesota (REBusiness Online, Atlanta / Georgia) - institutional acquisition behavior
+- 70 / richness 85: Greystone Lends $26M for Chicago-Area Multifamily Acquisition (Commercial Observer, Other / Unknown) - institutional acquisition behavior
+- 70 / richness 85: Tishman Speyer Adds Dania Beach Rental Asset to Florida Holdings (Connect CRE South Florida, Miami / Florida) - institutional acquisition behavior
 
 ## Low Quality Evidence Candidates
 
@@ -25,13 +25,13 @@ Generated: 2026-11-24 06:47:56
 - 0: Private Residential Construction Spending Increases in March (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
 - 0: Multifamily Developer Confidence Weakens in Third Quarter (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: Multifamily Developer Confidence Weakens in Second Quarter (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
-- 0: Multifamily Developer Confidence Holds Steady in First Quarter (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: HBGI Q1 2026: Single-Family Construction Slips Across All Geographies (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
-- 0: NAHB HBGI: Micro Markets Lone Bright Spot for Single-Family Building in Fourth Quarter (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
 - 0: Shorter Apartment Construction Time in 2025 (NAHB Eye on Housing - Multifamily) - confidence low; integrity valid
 - 0: HBGI Q2 2026: Single-Family Construction Contracts Broadly While Multifamily Expands (NAHB Eye on Housing - Multifamily) - confidence unknown; integrity valid
-- 0: Namdar Lands $345M Loan To Build Brickell Apartments: The South Florida Deal Sheet (Bisnow) - confidence unknown; integrity valid
 - 0: Cross Harbor Scores $78.5M Financing for Tempe Rental Community (Connect CRE Phoenix) - confidence medium; integrity valid
+- 0: Perimeter Center Rental Community Goes for $120M (Connect CRE Atlanta) - confidence medium; integrity valid
+- 0: AI, Automation & the Future of Multifamily Finance (Multifamily Executive) - confidence low; integrity low_value_promotional
+- 0: Multifamily Absorption Rate Remains Below 50% (NAHB Eye on Housing - Multifamily) - confidence medium; integrity valid
 
 ## Potential Parsing Integrity Issues
 
@@ -39,7 +39,7 @@ Generated: 2026-11-24 06:47:56
 
 ## Financing Bias Observations
 
-- Financing-oriented articles: 23
+- Financing-oriented articles: 28
 - Development / sponsor behavior articles: 37
 - Financing coverage does not dominate the current representative evidence pool.
 

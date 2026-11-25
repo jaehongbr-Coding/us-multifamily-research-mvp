@@ -1,51 +1,51 @@
 # Lifecycle Transition Report
 
-Generated: 2026-11-24 06:48:28
+Generated: 2026-11-25 05:16:25
 
-- Total lifecycle transitions analyzed: 80
-- Newly detected projects: 46
+- Total lifecycle transitions analyzed: 83
+- Newly detected projects: 51
 - Forward progression projects: 0
 - Possible stalled projects: 0
 - Reappearing projects: 0
 
 ## Strongest Progression Signals
 
-- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 74.
-- Refinancing - New York City / New York - JP Morgan Supplies $90M Refi for Murray Hill Multifamily Tower: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 66.
-- High Street Residential Joint Venture Complete Scottsdale Luxury Apartment Project: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 66.
-- JV / Partnership - Seattle - Work Finished on Transit-Oriented Community in Seattle: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 65.
-- JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 64.
-- JV / Partnership - Phoenix / Arizona - High Street Residential Joint Venture Complete Scottsdale Luxury Apartment Project: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 64.
-- Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 60.
-- Refinancing - Miami / Florida - Berkadia Secures $34.12M Loan to Refinance 403-Unit Workforce Housing in Kissimmee Florida: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 51.
-- Refinancing - Other / Unknown - PGIM Provides $85M Refi for N.J. Multifamily Buildings: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 50.
-- New plan for housing at 4600 Wilshire Blvd.: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, progression_score 49.
+- Refinancing - Santa Monica / California - JLL Arranges Refinancing for Evani Mixed-Use Multifamily Property in Santa Monica: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 75.
+- JLL Arranges Refinancing for Evani Mixed-Use Multifamily Property in Santa Monica: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 75.
+- Acquisition - Atlanta / Georgia - JLL Negotiates Sale of 126-Unit Senior Living Community in Hermantown, Minnesota: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 75.
+- General Project Signal - Atlanta / Georgia - Atlanta Apartment Pipeline Hits Decade Low, With Little Rebound In Sight: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 72.
+- $62M Financing Arranged for Luxury Northern New Jersey Multifamily Community: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 67.
+- General Project Signal - Other / Unknown - $62M Financing Arranged for Luxury Northern New Jersey Multifamily Community: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 65.
+- Office-to-Residential Conversion - New York - HCR Announces Groundbreaking of Affordable Housing Development in Buffalo: No Previous Record -> Construction Started, Newly Detected Project, progression_score 64.
+- Refinancing - California - JLL Arranges $77M Loan for Refinancing of Ameswell Hotel in Mountain View, California: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 60.
+- JLL Arranges $77M Loan for Refinancing of Ameswell Hotel in Mountain View, California: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 60.
+- Refinancing - Dallas / Texas - Craig Ranch Apartment Owner Lands $38M Financing: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 58.
 
 ## Highest Stall Risk Signals
 
-- City Council upholds approval of apartments at 2413 Silver Lake Blvd.: Entitlement Under Review -> Entitlement Under Review, Same Stage Persistence, stall_risk_score 38.
 - Disposition / Exit - Miami / Florida - Eastwind to Build Westlake Multifamily Community: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 37.
+- Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop: Early Site Signal -> Early Site Signal, Same Stage Persistence, stall_risk_score 36.
 - New plan for housing at 4600 Wilshire Blvd.: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
-- Construction Underway At 2138 Kittredge Street, Downtown Berkeley: Site Acquisition / Site Control -> Site Acquisition / Site Control, Same Stage Persistence, stall_risk_score 36.
-- Entitlement / Permitting - Los Angeles / California - City Council upholds approval of apartments at 2413 Silver Lake Blvd.: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
 - Entitlement / Permitting - Los Angeles / California - Developers seek bond financing for affordable housing in the Valley: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
 - Entitlement / Permitting - Los Angeles / California - Mixed-use project reaches its peak at at 6052 W. Olympic Blvd.: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
-- Entitlement / Permitting - Southeast - Mixed-use project starts to rise at 3313 Sunset Blvd. in Silver Lake: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
+- Disposition / Exit - California - Torrance to break ground on World War II Japanese American Incarceration Monument: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
+- General Project Signal - Los Angeles / California - Exterior takes shape for $300m Kali Hotel in Inglewood: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
 - JV / Partnership - California - Work Gets Started on Carlsbad Village Mixed-Use Project: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
 - Office-to-Residential Conversion - Los Angeles / California - 405 ExpressLanes, Metro ridership, and more: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
+- Operational / Property Management Tech - Other / Unknown - AI, Automation & the Future of Multifamily Finance: Unknown Stage -> Unknown Stage, Unknown Transition, stall_risk_score 32.
 
 ## Newly Detected Projects
 
-- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 74.
-- Refinancing - New York City / New York - JP Morgan Supplies $90M Refi for Murray Hill Multifamily Tower: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 66.
-- High Street Residential Joint Venture Complete Scottsdale Luxury Apartment Project: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 66.
-- JV / Partnership - Seattle - Work Finished on Transit-Oriented Community in Seattle: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 65.
-- JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 64.
-- JV / Partnership - Phoenix / Arizona - High Street Residential Joint Venture Complete Scottsdale Luxury Apartment Project: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 64.
-- Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 60.
-- Refinancing - Miami / Florida - Berkadia Secures $34.12M Loan to Refinance 403-Unit Workforce Housing in Kissimmee Florida: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 51.
-- Refinancing - Other / Unknown - PGIM Provides $85M Refi for N.J. Multifamily Buildings: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 50.
-- Gantry Secures $16M for Saint Ann Missouri Luxury Multifamily Redevelopment: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 49.
+- Refinancing - Santa Monica / California - JLL Arranges Refinancing for Evani Mixed-Use Multifamily Property in Santa Monica: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 75.
+- JLL Arranges Refinancing for Evani Mixed-Use Multifamily Property in Santa Monica: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 75.
+- Acquisition - Atlanta / Georgia - JLL Negotiates Sale of 126-Unit Senior Living Community in Hermantown, Minnesota: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 75.
+- General Project Signal - Atlanta / Georgia - Atlanta Apartment Pipeline Hits Decade Low, With Little Rebound In Sight: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 72.
+- $62M Financing Arranged for Luxury Northern New Jersey Multifamily Community: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 67.
+- General Project Signal - Other / Unknown - $62M Financing Arranged for Luxury Northern New Jersey Multifamily Community: No Previous Record -> Delivery / Opening, Newly Detected Project, progression_score 65.
+- Office-to-Residential Conversion - New York - HCR Announces Groundbreaking of Affordable Housing Development in Buffalo: No Previous Record -> Construction Started, Newly Detected Project, progression_score 64.
+- Refinancing - California - JLL Arranges $77M Loan for Refinancing of Ameswell Hotel in Mountain View, California: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 60.
+- JLL Arranges $77M Loan for Refinancing of Ameswell Hotel in Mountain View, California: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 60.
+- Refinancing - Dallas / Texas - Craig Ranch Apartment Owner Lands $38M Financing: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, progression_score 58.
 
 ## Forward Progression Projects
 
@@ -61,16 +61,20 @@ Generated: 2026-11-24 06:48:28
 
 ## Refinancing / Recap Timing Transitions
 
-- Construction Financing - Miami / Florida - SCALE Lending Issues $345M Construction Loan for Multifamily Project in Miami’s Brickell N...: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
-- Refinancing - National - Dwight Capital Refis Detroit-Area Apartments With $52M HUD Loan: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
-- Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
-- Refinancing - Miami / Florida - Berkadia Secures $34.12M Loan to Refinance 403-Unit Workforce Housing in Kissimmee Florida: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
-- Refinancing - Other / Unknown - PGIM Provides $85M Refi for N.J. Multifamily Buildings: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
-- Gantry Secures $16M for Saint Ann Missouri Luxury Multifamily Redevelopment: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 27.
+- Refinancing - California - JLL Arranges $77M Loan for Refinancing of Ameswell Hotel in Mountain View, California: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
+- Refinancing - Dallas / Texas - Craig Ranch Apartment Owner Lands $38M Financing: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
+- Refinancing - Miami / Florida - JV Closes on $38.4M Refi for Fort Lauderdale Mixed-Use Venture: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
+- Construction Financing - Miami / Florida - SCALE Lending Provides $345M Construction Loan for Namdar’s Brickell Tower: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 30.
+- Refinancing - Miami / Florida - Berkadia Secures $34.12M Loan to Refinance 403-Unit Workforce Housing in Kissimmee Florida: Refinancing / Recapitalization -> Refinancing / Recapitalization, Same Stage Persistence, stall_risk_score 29.
+- Refinancing - Seattle - Northmarq Arranges $30.3M Bridge Loan Refinancing for The Vicara Apartments and Townhomes...: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
+- Construction Financing - New York City / New York - Affinius Provides $135M Construction Loan for Brooklyn Multifamily: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
+- Construction Financing - Other / Unknown - Affinius Capital Originates $76M Construction Loan for Wisconsin Student Housing: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 29.
+- JLL Arranges $77M Loan for Refinancing of Ameswell Hotel in Mountain View, California: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 28.
+- Northmarq Arranges $30.3M Bridge Loan Refinancing for The Vicara Apartments and Townhomes in Olympia Washington: No Previous Record -> Refinancing / Recapitalization, Newly Detected Project, stall_risk_score 28.
 
 ## Construction Start Transitions
 
-- None detected.
+- Office-to-Residential Conversion - New York - HCR Announces Groundbreaking of Affordable Housing Development in Buffalo: No Previous Record -> Construction Started, Newly Detected Project, progression_score 64.
 
 ## Implications for Woomi / Woomi Global
 
@@ -80,24 +84,24 @@ Generated: 2026-11-24 06:48:28
 
 ## Recommended Transition Follow-up Actions
 
-- Use as delivery, lease-up, and underwriting benchmark: Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth.
-- Use as delivery, lease-up, and underwriting benchmark: Refinancing - New York City / New York - JP Morgan Supplies $90M Refi for Murray Hill Multifamily Tower.
-- Use as delivery, lease-up, and underwriting benchmark: High Street Residential Joint Venture Complete Scottsdale Luxury Apartment Project.
-- Use as delivery, lease-up, and underwriting benchmark: JV / Partnership - Seattle - Work Finished on Transit-Oriented Community in Seattle.
-- Use as delivery, lease-up, and underwriting benchmark: JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth.
-- Use as delivery, lease-up, and underwriting benchmark: JV / Partnership - Phoenix / Arizona - High Street Residential Joint Venture Complete Scottsdale Luxury Apartment Project.
-- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing.
-- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - Miami / Florida - Berkadia Secures $34.12M Loan to Refinance 403-Unit Workforce Housing in Kissimmee Florida.
+- Use as delivery, lease-up, and underwriting benchmark: Refinancing - Santa Monica / California - JLL Arranges Refinancing for Evani Mixed-Use Multifamily Property in Santa Monica.
+- Use as delivery, lease-up, and underwriting benchmark: JLL Arranges Refinancing for Evani Mixed-Use Multifamily Property in Santa Monica.
+- Use as delivery, lease-up, and underwriting benchmark: Acquisition - Atlanta / Georgia - JLL Negotiates Sale of 126-Unit Senior Living Community in Hermantown, Minnesota.
+- Use as delivery, lease-up, and underwriting benchmark: General Project Signal - Atlanta / Georgia - Atlanta Apartment Pipeline Hits Decade Low, With Little Rebound In Sight.
+- Use as delivery, lease-up, and underwriting benchmark: $62M Financing Arranged for Luxury Northern New Jersey Multifamily Community.
+- Use as delivery, lease-up, and underwriting benchmark: General Project Signal - Other / Unknown - $62M Financing Arranged for Luxury Northern New Jersey Multifamily Community.
+- Monitor for another run to confirm lifecycle direction: Office-to-Residential Conversion - New York - HCR Announces Groundbreaking of Affordable Housing Development in Buffalo.
+- Track maturity, lender, recapitalization need, and potential JV angle: Refinancing - California - JLL Arranges $77M Loan for Refinancing of Ameswell Hotel in Mountain View, California.
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 646
-- Canonical projects: 159
+- Raw project references: 685
+- Canonical projects: 156
 - Duplicate project clusters: 113
-- Persistent assets tracked: 159
-- LA persistent asset watch items: 97
+- Persistent assets tracked: 156
+- LA persistent asset watch items: 85
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -105,10 +109,10 @@ Generated: 2026-11-24 06:48:28
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 159
+- Signals evaluated: 156
 - Institutional-grade signals: 20
-- High-confidence signals: 50
-- Weak/noisy signals: 88
-- High-confidence watchlist items: 50
+- High-confidence signals: 58
+- Weak/noisy signals: 78
+- High-confidence watchlist items: 58
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

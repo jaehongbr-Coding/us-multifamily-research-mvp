@@ -1,21 +1,21 @@
 # LA Persistent Asset Watch Report
 
-Generated: 2026-11-24 06:48:28
+Generated: 2026-11-25 05:16:25
 
-- Total LA persistent asset watch items: 97
+- Total LA persistent asset watch items: 85
 
 ## Priority LA Asset Watch Items
 
 - JV / Partnership - Northern Virginia / Virginia - Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M: Los Angeles, Unknown Stage, Track repeat project updates.
-- Construction Financing - New York - East Village Multifamily Secures $203M Construction Financing: Los Angeles, Unknown Stage, Track repeat project updates.
+- Acquisition - Dallas / Texas - Crow Holdings Pays $30M For Braintree Development Site: The Boston Deal Sheet: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
+- Acquisition - California - Marcus & Millichap’s IPA Capital Markets Arranges $37M Financing for Two-Property SF Bay A...: California, Unknown Stage, Track repeat project updates.
 - Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop: Los Angeles, Early Site Signal, Track repeat project updates.
-- Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing: Los Angeles, Refinancing / Recapitalization, Track repeat project updates.
-- General Project Signal - Miami / Florida - Namdar Lands $345M Loan To Build Brickell Apartments: The South Florida Deal Sheet: Los Angeles, Site Acquisition / Site Control, Track repeat project updates.
-- JV / Partnership - Miami / Florida - Fort Lauderdale JV Scores $285M Refi for 42-Story Apartment Tower: Los Angeles, Unknown Stage, Track repeat project updates.
-- Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop: Los Angeles, Unknown Stage, Track repeat project updates.
-- Entitlement / Permitting - Los Angeles / California - City Council upholds approval of apartments at 2413 Silver Lake Blvd.: Los Angeles, Unknown Stage, Track repeat project updates.
-- Disposition / Exit - California - Torrance to break ground on World War II Japanese American Incarceration Monument: California, Unknown Stage, Track repeat project updates.
-- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth: Los Angeles, Delivery / Opening, Track repeat project updates.
+- Refinancing - California - JLL Arranges $77M Loan for Refinancing of Ameswell Hotel in Mountain View, California: California, Refinancing / Recapitalization, Track repeat project updates.
+- Refinancing - Santa Monica / California - JLL Arranges Refinancing for Evani Mixed-Use Multifamily Property in Santa Monica: Santa Monica, Delivery / Opening, Track repeat project updates.
+- Acquisition - Atlanta / Georgia - JLL Negotiates Sale of 126-Unit Senior Living Community in Hermantown, Minnesota: Los Angeles, Delivery / Opening, Track repeat project updates.
+- General Project Signal - Los Angeles / California - Affordable housing commences work at 2201 E. 1st St. in Boyle Heights: Los Angeles, Unknown Stage, Track repeat project updates.
+- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: Los Angeles, Unknown Stage, Track repeat project updates.
+- General Project Signal - Atlanta / Georgia - Atlanta Apartment Pipeline Hits Decade Low, With Little Rebound In Sight: Los Angeles, Delivery / Opening, Track repeat project updates.
 
 ## Koreatown / Wilshire Persistent Assets
 
@@ -39,19 +39,22 @@ Generated: 2026-11-24 06:48:28
 
 ## Stalled / Delayed LA Asset Watch
 
-- None detected.
+- Refinancing - California - JLL Arranges $77M Loan for Refinancing of Ameswell Hotel in Mountain View, California: California, Refinancing / Recapitalization, Track repeat project updates.
 
 ## Construction / Delivery Transition Watch
 
-- Refinancing - Dallas / Texas - JLL Arranges Loan for Refinancing of Mixed-Use Portfolio in Fort Worth: Los Angeles, Delivery / Opening, Track repeat project updates.
+- Refinancing - Santa Monica / California - JLL Arranges Refinancing for Evani Mixed-Use Multifamily Property in Santa Monica: Santa Monica, Delivery / Opening, Track repeat project updates.
+- Acquisition - Atlanta / Georgia - JLL Negotiates Sale of 126-Unit Senior Living Community in Hermantown, Minnesota: Los Angeles, Delivery / Opening, Track repeat project updates.
+- General Project Signal - Atlanta / Georgia - Atlanta Apartment Pipeline Hits Decade Low, With Little Rebound In Sight: Los Angeles, Delivery / Opening, Track repeat project updates.
+- JLL Arranges Refinancing for Evani Mixed-Use Multifamily Property in Santa Monica: Santa Monica, Delivery / Opening, Track repeat project updates.
 
 ## Recommended Local Follow-up Actions
 
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: JV / Partnership - Northern Virginia / Virginia - Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M.
 - Monitor for repeated project updates: General Project Signal - National - New plan for housing at 4600 Wilshire Blvd..
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Construction Financing - New York - East Village Multifamily Secures $203M Construction Financing.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - Dallas / Texas - Crow Holdings Pays $30M For Braintree Development Site: The Boston Deal Sheet.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Acquisition - California - Marcus & Millichap’s IPA Capital Markets Arranges $37M Financing for Two-Property SF Bay A....
 - Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Sun Belt - Santander Bank Provides $34M Refi for Orlando-Area Workforce Housing.
-- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: General Project Signal - Miami / Florida - Namdar Lands $345M Loan To Build Brickell Apartments: The South Florida Deal Sheet.
 - Monitor for repeated project updates: Entitlement / Permitting - Los Angeles / California - Mixed-use project reaches its peak at at 6052 W. Olympic Blvd..
-- Monitor for repeated project updates: Entitlement / Permitting - Southeast - Mixed-use project starts to rise at 3313 Sunset Blvd. in Silver Lake.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - California - JLL Arranges $77M Loan for Refinancing of Ameswell Hotel in Mountain View, California.
+- Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes: Refinancing - Santa Monica / California - JLL Arranges Refinancing for Evani Mixed-Use Multifamily Property in Santa Monica.

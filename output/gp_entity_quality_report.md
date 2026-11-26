@@ -1,37 +1,37 @@
 # GP / Capital Entity Quality Report
 
-Generated: 2026-11-25 05:15:57
+Generated: 2026-11-26 04:43:21
 
 ## Summary
 
-- Total GP/Capital articles: 43
+- Total GP/Capital articles: 42
 - Participant not identified: 13
-- Dictionary match: 24
-- Title fallback / headline extraction: 1
+- Dictionary match: 22
+- Title fallback / headline extraction: 5
 - Low confidence or unresolved: 13
 
 ## Representative Resolved Samples
 
+- CBRE: CBRE Arranges $85M Loan for Two New Jersey Multifamily Assets (dictionary_match, high)
+- Blackstone: The Michaels Organization Acquired Cleveland Student Community Near Kent State University (dictionary_match, high)
 - Bridge Investment Group: Northmarq Arranges $30.3M Bridge Loan Refinancing for The Vicara Apartments and Townhomes in Olympia Washington (dictionary_match, high)
-- JLL: Kidder Mathews Arranges $3.55M Sale of 96th Avenue Apartments a 16-Unit Multifamily Property in Downtown Bothell Washington (dictionary_match, high)
-- CBRE: U.S. Apartment Buyers Want 8% Off Deals They Already Signed. Most Sellers Are Saying No (dictionary_match, high)
-- UDR: Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M (dictionary_match, high)
-- CBRE: Fernmoor Lines Up $85M Debt Financing on Two NJ Multifamily Projects (dictionary_match, high)
-- Samuelian Group: Developers seek bond financing for affordable housing in the Valley (capital_event_sentence, medium)
-- Berkadia: Berkadia Brokers Sale of Two Apartment Buildings Totaling 131 Units in Houston (dictionary_match, high)
-- Fannie Mae: Northmarq Arranges $75M Sale of Multifamily Property in Metro Milwaukee (dictionary_match, high)
-- Berkadia: Berkadia Brokers Sale of 396-Unit Apartment Community in Alexandria, Virginia (dictionary_match, high)
-- JSB Capital Group: Berkadia Arranges Sale, Financing of Alexandria Multifamily Property (dictionary_match, high)
+- OC Investor Group: OC Investor Group Buys Two Apartment Properties in Venice (title_lead_pattern, medium)
+- Affinius Capital: Affinius Capital Provides $75.5M Construction Loan for Student Housing Project Near University of Wisconsin-Madison (dictionary_match, high)
+- CBRE: CBRE Brokers $14.9M Sale of Apartment Building in Fair Lawn, New Jersey (dictionary_match, high)
+- Berkadia: Berkadia Negotiates $12.6M Sale of Multifamily Property in Canoga Park, California (dictionary_match, high)
+- Affinius Capital: Affinius Provides Construction Loan for Three-Building Gowanus Multifamily (dictionary_match, high)
+- Slate Property Group: SCALE Lending Provides $345M Construction Loan for Namdar’s Brickell Tower (capital_event_sentence, medium)
+- CBRE: ORIX Acquires Buckhead Apartments for $83M (dictionary_match, high)
 
 ## Unresolved Examples
 
-- Atlanta Apartment Pipeline Hits Decade Low, With Little Rebound In Sight | Bisnow | No institution name detected in dictionary, title, summary, or source text.
-- Endura Advisory Group Breaks Ground on 324-Unit Multifamily Project in Boerne, Texas | REBusiness Online | No institution name detected in dictionary, title, summary, or source text.
-- Work Gets Started on Carlsbad Village Mixed-Use Project | Connect CRE California | No institution name detected in dictionary, title, summary, or source text.
-- Craig Ranch Apartment Owner Lands $38M Financing | Connect CRE Apartments | No institution name detected in dictionary, title, summary, or source text.
-- BTR sector fears Treasury rules move the goal line on investor ban | HousingWire | No institution name detected in dictionary, title, summary, or source text.
+- Fairstead Closes $17M Affordable Housing Transaction in Oklahoma | Connect CRE | No institution name detected in dictionary, title, summary, or source text.
+- Olympia Multifamily Community Refinanced with $30M Bridge Loan | Connect CRE | No institution name detected in dictionary, title, summary, or source text.
+- Eastwind Development Completes Land Acquisition on 18-Acre Parcel in Palm Beach County to Develop Multifamily Housing | Yield PRO | No institution name detected in dictionary, title, summary, or source text.
+- Craig Ranch Apartment Owner Lands $38M Financing | Connect CRE Texas | No institution name detected in dictionary, title, summary, or source text.
+- Optimus Properties Buys South Pasadena Mixed-Use Asset for $6.45M | Connect CRE California | No institution name detected in dictionary, title, summary, or source text.
 - Eastwind to Build Westlake Multifamily Community | Connect CRE South Florida | No institution name detected in dictionary, title, summary, or source text.
-- Investor Pays $222k per Unit for Bothell, Washington Apartment Property | Connect CRE | No institution name detected in dictionary, title, summary, or source text.
-- Santa Clara Apartment Trade Comes in at $360K per Unit | Connect CRE | No institution name detected in dictionary, title, summary, or source text.
+- Santa Clara Apartment Trade Comes in at $360K per Unit | Connect CRE California | No institution name detected in dictionary, title, summary, or source text.
 - Perimeter Center Rental Community Goes for $120M | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.
 - A Brooklyn apartment building sat vacant for years. A revolving loan program aims to bring it back to life. | Multifamily Dive | No institution name detected in dictionary, title, summary, or source text.
+- Morehouse, Spelman Debut $147M Student Housing Project | Connect CRE Atlanta | No institution name detected in dictionary, title, summary, or source text.

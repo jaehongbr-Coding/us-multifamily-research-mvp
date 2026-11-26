@@ -1,11 +1,11 @@
 # Routing Balance Report
 
-- Market Intelligence count: 12
-- Development Activity count: 58
-- GP / Capital Activity count: 2
+- Market Intelligence count: 11
+- Development Activity count: 60
+- GP / Capital Activity count: 3
 - Excluded count: 1
 - Rent/Demand candidate count: 4
-- Project anchor article count: 52
+- Project anchor article count: 53
 - Development-excluded transaction article count: 4
 - Low-value promotional excluded count: 1
 - Site / Parcel positive candidates count: 4
@@ -24,22 +24,22 @@
 - AI, Automation & the Future of Multifamily Finance | promotional/event keyword: whitepaper
 
 ## Site / Parcel Included Examples
-- Crow Holdings Pays $30M For Braintree Development Site: The Boston Deal Sheet | Development Activity | site/parcel signal with project anchor: development site
+- Joint Venture Lands $96M Construction Loan for 404-Unit Coconut Creek Project | Development Activity | site/parcel signal with project anchor: to build
 - New plan for housing at 4600 Wilshire Blvd. | Development Activity | site/parcel signal with project anchor: to build
+- Eastwind Development Completes Land Acquisition on 18-Acre Parcel in Palm Beach County to Develop Multifamily Housing | Development Activity | site/parcel signal with project anchor: parcel
 - Eastwind to Build Westlake Multifamily Community | Development Activity | site/parcel signal with project anchor: parcel
-- 405 ExpressLanes, Metro ridership, and more | Development Activity | site/parcel signal with project anchor: plans to build
 
 ## Site / Parcel Excluded Transaction Examples
 - None
 
 ## Sample Validation
+- CBRE Arranges $85M Loan for Two New Jersey Multifamily Assets | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 218-unit; project/asset term: project)
+- The Michaels Organization Acquired Cleveland Student Community Near Kent State University | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 608-bed; project/asset term: community)
 - Northmarq Arranges $30.3M Bridge Loan Refinancing for The Vicara Apartments and Townhomes in Olympia Washington | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 128-unit; address/street: 3539 landview dr; project/asset term: development)
 - HCR Announces Groundbreaking of Affordable Housing Development in Buffalo | Development Activity | rent_demand=No | development_project_anchor: Construction Start (execution milestone: groundbreaking; project/asset term: project)
-- Kidder Mathews Arranges $3.55M Sale of 96th Avenue Apartments a 16-Unit Multifamily Property in Downtown Bothell Washington | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 16-unit; address/street: 18209 96th avenue; project/asset term: apartments)
-- U.S. Apartment Buyers Want 8% Off Deals They Already Signed. Most Sellers Are Saying No | Market Intelligence | rent_demand=No | macro finance or rate outlook signal detected
-- Crow Holdings Pays $30M For Braintree Development Site: The Boston Deal Sheet | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (unit/site count: 757-unit; address/street: 10 plain st; site/parcel signal: site; project/asset term: project)
-- Atlanta Apartment Pipeline Hits Decade Low, With Little Rebound In Sight | Development Activity | rent_demand=No | development_project_anchor: Delivery / Opening (unit/site count: 800 apartment; execution milestone: delivered)
-- Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 396-unit; project/asset term: community)
-- Fernmoor Lines Up $85M Debt Financing on Two NJ Multifamily Projects | GP / Capital Activity | rent_demand=No | property-level financing, lender, refinancing, or recapitalization signal detected
+- Fairstead Closes $17M Affordable Housing Transaction in Oklahoma | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 200-unit; project/asset term: project)
+- OC Investor Group Buys Two Apartment Properties in Venice | Development Activity | rent_demand=No | development_project_anchor: capital event with identifiable project/asset (unit/site count: 40 units; address/street: 1400 and 1500 venice blvd; project/asset term: community)
+- Olympia Multifamily Community Refinanced with $30M Bridge Loan | Development Activity | rent_demand=No | development_project_anchor: project financing/capital event tied to project (unit/site count: 128-unit; project/asset term: development)
+- 10 condos planned at 2254 S. Wellesley Ave. in Sawtelle | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (unit/site count: 10-unit; address/street: 2254 s. wellesley ave; project/asset term: project)
 - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice | Development Activity | rent_demand=No | development_project_anchor: Approval / Entitlement (address/street: 1410 s. main st; project/asset term: project)
 - Affordable housing commences work at 2201 E. 1st St. in Boyle Heights | Development Activity | rent_demand=No | development_project_anchor: Project / Asset (unit/site count: 80 apartments; address/street: 2201 e. 1st st; project/asset term: community)

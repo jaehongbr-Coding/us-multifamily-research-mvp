@@ -1,26 +1,26 @@
 # Project Identity Resolution Report
 
-Generated: 2026-11-25 05:16:25
+Generated: 2026-11-26 04:43:38
 
-- Total raw project references: 685
-- Total canonical projects: 156
-- Duplicate project clusters: 113
-- High-confidence project identities: 685
+- Total raw project references: 669
+- Total canonical projects: 146
+- Duplicate project clusters: 108
+- High-confidence project identities: 669
 - Low-confidence identities needing review: 0
-- LA / California project references: 373
+- LA / California project references: 445
 
 ## Top Repeated Projects
 
-- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: 41 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: 41 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: 41 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: 41 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: 41 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: 41 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: 41 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: 41 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: 41 occurrence(s), confidence 80.
-- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: 41 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: 48 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: 48 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: 48 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: 48 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: 48 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: 48 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: 48 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: 48 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: 48 occurrence(s), confidence 80.
+- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: 48 occurrence(s), confidence 80.
 
 ## Low-Confidence Identities Needing Review
 

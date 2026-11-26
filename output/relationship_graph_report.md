@@ -1,10 +1,10 @@
 # Developer Network & Relationship Graph Report
 
-Generated: 2026-11-25 05:15:57
+Generated: 2026-11-26 04:43:21
 
-- Total relationship edges: 135
-- Most connected developer / GP: Berkadia (15 edge(s))
-- Most connected lender / debt provider: jll (5 edge(s))
+- Total relationship edges: 126
+- Most connected developer / GP: Affinius Capital (13 edge(s))
+- Most connected lender / debt provider: cbre (4 edge(s))
 - Most connected market: Los Angeles / California (8 edge(s))
 - Strongest relationship edge: Blackstone -> California
 - Highest Woomi relevance edge: Blackstone -> California
@@ -14,89 +14,83 @@ Generated: 2026-11-25 05:15:57
 - Blackstone -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
-- Brookfield -> brookfield: Financing Relationship, California, score 97. Track GP relationship history.
-- Brookfield -> jll: Financing Relationship, California, score 97. Track GP relationship history.
-- UDR -> berkadia: JV / Partnership, Northern Virginia / Virginia, score 97. Review potential JV relevance.
-- UDR -> udr: JV / Partnership, Northern Virginia / Virginia, score 97. Review potential JV relevance.
-- Berkadia -> berkadia: Financing Relationship, Houston / Texas, score 93. Track GP relationship history.
+- Blackstone -> freddie mac: Financing Relationship, National, score 94. Track GP relationship history.
+- Affinius Capital -> starwood: Financing Relationship, Other / Unknown, score 93. Track GP relationship history.
+- Berkadia -> berkadia: Financing Relationship, San Francisco / California, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
-- Fannie Mae -> fannie mae: Financing Relationship, Other / Unknown, score 93. Track GP relationship history.
+- Blackstone -> blackstone: Acquisition / Buyer, National, score 92. Track GP relationship history.
+- Bridge Investment Group -> northmarq: Financing Relationship, Seattle, score 91. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, Florida, score 89. Track GP relationship history.
 
 ## Developer / GP Relationship Map
 
 - Blackstone -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
-- Brookfield -> brookfield: Financing Relationship, California, score 97. Track GP relationship history.
-- Brookfield -> jll: Financing Relationship, California, score 97. Track GP relationship history.
-- UDR -> berkadia: JV / Partnership, Northern Virginia / Virginia, score 97. Review potential JV relevance.
-- UDR -> udr: JV / Partnership, Northern Virginia / Virginia, score 97. Review potential JV relevance.
-- Berkadia -> berkadia: Financing Relationship, Houston / Texas, score 93. Track GP relationship history.
+- Blackstone -> freddie mac: Financing Relationship, National, score 94. Track GP relationship history.
+- Affinius Capital -> starwood: Financing Relationship, Other / Unknown, score 93. Track GP relationship history.
+- Berkadia -> berkadia: Financing Relationship, San Francisco / California, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
-- Fannie Mae -> fannie mae: Financing Relationship, Other / Unknown, score 93. Track GP relationship history.
+- Blackstone -> blackstone: Acquisition / Buyer, National, score 92. Track GP relationship history.
+- Bridge Investment Group -> northmarq: Financing Relationship, Seattle, score 91. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, Florida, score 89. Track GP relationship history.
 
 ## Lender / Debt Provider Relationship Map
 
-- Brookfield -> jll: Financing Relationship, California, score 97. Track GP relationship history.
-- UDR -> berkadia: JV / Partnership, Northern Virginia / Virginia, score 97. Review potential JV relevance.
-- Berkadia -> berkadia: Financing Relationship, Houston / Texas, score 93. Track GP relationship history.
+- Blackstone -> freddie mac: Financing Relationship, National, score 94. Track GP relationship history.
+- Berkadia -> berkadia: Financing Relationship, San Francisco / California, score 93. Track GP relationship history.
 - CBRE -> cbre: Financing Relationship, Atlanta / Georgia, score 93. Track GP relationship history.
-- Fannie Mae -> fannie mae: Financing Relationship, Other / Unknown, score 93. Track GP relationship history.
 - Bridge Investment Group -> northmarq: Financing Relationship, Seattle, score 91. Track GP relationship history.
-- Berkadia -> berkadia: Financing Relationship, Miami / Florida, score 89. Track GP relationship history.
-- Berkadia -> berkadia: Financing Relationship, Virginia, score 89. Track GP relationship history.
-- Berkadia -> berkadia: Financing Relationship, Washington DC, score 89. Track GP relationship history.
-- CBRE -> cbre: Financing Relationship, New York, score 89. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, Florida, score 89. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, Other / Unknown, score 89. Track GP relationship history.
+- JLL -> jll: Financing Relationship, Other / Unknown, score 86. Track GP relationship history.
+- Greystone -> fannie mae: Financing Relationship, Other / Unknown, score 85. Track GP relationship history.
+- IPA -> jll: Financing Relationship, Santa Monica / California, score 85. Track GP relationship history.
+- CBRE -> cbre: Financing Relationship, Other / Unknown, score 84. Track GP relationship history.
 
 ## Capital Partner / Institutional Flow Map
 
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
-- Brookfield -> brookfield: Financing Relationship, California, score 97. Track GP relationship history.
-- UDR -> udr: JV / Partnership, Northern Virginia / Virginia, score 97. Review potential JV relevance.
+- Affinius Capital -> starwood: Financing Relationship, Other / Unknown, score 93. Track GP relationship history.
+- Blackstone -> blackstone: Acquisition / Buyer, National, score 92. Track GP relationship history.
 - Hines -> hines: Acquisition / Buyer, Atlanta / Georgia, score 86. Track GP relationship history.
 - Affinius Capital -> starwood: Financing Relationship, Other / Unknown, score 83. Track GP relationship history.
-- Essex Property Trust -> essex: Entitlement / Permitting, Other / Unknown, score 83. Track GP relationship history.
 - Refinancing - Miami / Florida - JV Closes on $38.4M Refi for Fort Lauderdale Mixed-Use Venture -> related: Financing Relationship, Miami / Florida, score 70. Monitor only.
 - Operational / Property Management Tech - Other / Unknown - AI, Automation & the Future of Multifamily Finance -> ares: Capital Flow, Other / Unknown, score 49. Monitor only.
 
 ## Market Relationship Map
 
 - Blackstone -> California: JV / Partnership, California, score 100. Review potential JV relevance.
-- IPA -> California: Acquisition / Buyer, California, score 90. Track GP relationship history.
-- Brookfield -> California: Financing Relationship, California, score 89. Track GP relationship history.
-- UDR -> Northern Virginia: JV / Partnership, Northern Virginia / Virginia, score 89. Review potential JV relevance.
-- UDR -> Northern Virginia / Virginia: JV / Partnership, Northern Virginia / Virginia, score 89. Review potential JV relevance.
+- Blackstone -> America: Acquisition / Buyer, National, score 84. Track GP relationship history.
 - Lincoln Property Company -> Santa Monica: Entitlement / Permitting, Santa Monica / California, score 84. Track GP relationship history.
 - Lincoln Property Company -> Santa Monica / California: Entitlement / Permitting, Santa Monica / California, score 84. Track GP relationship history.
-- Berkadia -> Houston: Acquisition / Buyer, Houston / Texas, score 83. Track GP relationship history.
-- Berkadia -> Houston / Texas: Acquisition / Buyer, Houston / Texas, score 83. Track GP relationship history.
+- Berkadia -> San Francisco / California: Acquisition / Buyer, San Francisco / California, score 83. Track GP relationship history.
+- Berkadia -> Southern California: Acquisition / Buyer, San Francisco / California, score 83. Track GP relationship history.
 - Bridge Investment Group -> Seattle: Financing Relationship, Seattle, score 83. Track GP relationship history.
+- CBRE -> Atlanta: Acquisition / Buyer, Atlanta / Georgia, score 83. Track GP relationship history.
+- CBRE -> Atlanta / Georgia: Acquisition / Buyer, Atlanta / Georgia, score 83. Track GP relationship history.
+- Affinius Capital -> Brooklyn: Financing Relationship, New York City / New York, score 82. Track GP relationship history.
 
 ## California / LA Relationship Signals
 
 - Blackstone -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
-- Brookfield -> brookfield: Financing Relationship, California, score 97. Track GP relationship history.
-- Brookfield -> jll: Financing Relationship, California, score 97. Track GP relationship history.
-- IPA -> Acquisition - California - Marcus & Millichap’s IPA Capital Markets Arranges $37M Financing for Two-Property SF Bay A...: Acquisition / Buyer, California, score 90. Track GP relationship history.
-- IPA -> California: Acquisition / Buyer, California, score 90. Track GP relationship history.
-- Brookfield -> California: Financing Relationship, California, score 89. Track GP relationship history.
-- Brookfield -> Refinancing - California - JLL Arranges $77M Loan for Refinancing of Ameswell Hotel in Mountain View, California: Financing Relationship, California, score 89. Track GP relationship history.
-- JV / Partnership - California - Work Gets Started on Carlsbad Village Mixed-Use Project -> California: JV / Partnership, California, score 65. Review potential JV relevance.
+- Acquisition - Los Angeles / California - OC Investor Group Buys Two Apartment Properties in Venice -> Los Angeles: Acquisition / Buyer, Los Angeles / California, score 61. Monitor only.
+- Acquisition - Los Angeles / California - Optimus Properties Buys South Pasadena Mixed-Use Asset for $6.45M -> Los Angeles: Acquisition / Buyer, Los Angeles / California, score 50. Monitor only.
+- Entitlement / Permitting - Los Angeles / California - 10 condos planned at 2254 S. Wellesley Ave. in Sawtelle -> Los Angeles: Entitlement / Permitting, Los Angeles / California, score 50. Monitor only.
+- Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice -> Los Angeles: Entitlement / Permitting, Los Angeles / California, score 50. Monitor only.
+- Entitlement / Permitting - Los Angeles / California - Report: L.A. permits 12,700 homes through third quarter of 2026 -> Los Angeles: Entitlement / Permitting, Los Angeles / California, score 50. Monitor only.
+- Office-to-Residential Conversion - Los Angeles / California - Culver City adopts parking maximums for new development -> Los Angeles: Market Expansion, Los Angeles / California, score 44. Monitor only.
+- Disposition / Exit - California - Torrance to break ground on World War II Japanese American Incarceration Monument -> America: Disposition / Seller, California, score 43. Track LA / California activity.
 
 ## Potential Woomi Partnership Signals
 
 - Blackstone -> California: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: JV / Partnership, California, score 100. Review potential JV relevance.
 - Blackstone -> blackstone: JV / Partnership, California, score 100. Review potential JV relevance.
-- UDR -> berkadia: JV / Partnership, Northern Virginia / Virginia, score 97. Review potential JV relevance.
-- UDR -> udr: JV / Partnership, Northern Virginia / Virginia, score 97. Review potential JV relevance.
-- UDR -> JV / Partnership - Northern Virginia / Virginia - Blackfin, JSB Capital Buy Northern Virginia Apartments for $69M: JV / Partnership, Northern Virginia / Virginia, score 89. Review potential JV relevance.
-- UDR -> Northern Virginia: JV / Partnership, Northern Virginia / Virginia, score 89. Review potential JV relevance.
-- UDR -> Northern Virginia / Virginia: JV / Partnership, Northern Virginia / Virginia, score 89. Review potential JV relevance.
-- High Street Residential -> JV / Partnership - Seattle - High Street Residential, MetLife Investment Complete 244-Unit Ryder Multifamily Community...: JV / Partnership, Seattle, score 80. Review potential JV relevance.
-- High Street Residential -> Seattle: JV / Partnership, Seattle, score 80. Review potential JV relevance.
+- JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project -> Atlanta: JV / Partnership, Atlanta / Georgia, score 47. Review potential JV relevance.
+- JV / Partnership - Atlanta / Georgia - Morehouse, Spelman Debut $147M Student Housing Project -> Atlanta / Georgia: JV / Partnership, Atlanta / Georgia, score 47. Review potential JV relevance.
 
 ## Canonical Relationship Map
 
@@ -105,13 +99,13 @@ Generated: 2026-11-25 05:15:57
 | Blackstone | California | JV / Partnership | 100 |
 | Blackstone | California | JV / Partnership | 60 |
 | Blackstone | Blackstone | JV / Partnership | 75 |
-| Brookfield | Brookfield | Financing Relationship | 75 |
-| Brookfield | JLL | Financing Relationship | 75 |
-| UDR | Berkadia | JV / Partnership | 40 |
-| UDR | udr | JV / Partnership | 40 |
+| Blackstone | Freddie Mac | Financing Relationship | 75 |
+| Affinius Capital | starwood | Financing Relationship | 40 |
 | Berkadia | Berkadia | Financing Relationship | 75 |
 | CBRE | CBRE | Financing Relationship | 75 |
-| Fannie Mae | Fannie Mae | Financing Relationship | 75 |
+| Blackstone | Blackstone | Acquisition / Buyer | 75 |
+| Bridge Investment Group | northmarq | Financing Relationship | 40 |
+| CBRE | CBRE | Financing Relationship | 75 |
 
 ## Multi-Source Confirmation Summary
 
@@ -121,11 +115,11 @@ Relationship repeat strength uses unique canonical deal/event counts instead of 
 ## Emerging GP Watchlist Reference
 
 Ranked GP watchlist signals are available in `gp_watchlist_report.md`.
-- JLL: 79 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- Affinius Capital: 78 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- IPA: 77 (Tier 2 High Potential GP), Capital market and pricing discovery reference.
-- Blackstone: 76 (Tier 2 High Potential GP), Potential GP partnership candidate.
-- UDR: 74 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- Affinius Capital: 76 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- CBRE: 75 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- Blackstone: 74 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- Hines: 73 (Tier 2 High Potential GP), Potential GP partnership candidate.
+- Berkadia: 72 (Tier 2 High Potential GP), Potential GP partnership candidate.
 
 ## GP Source Expansion Summary
 
@@ -148,20 +142,20 @@ Longitudinal memory is available in `historical_memory_report.md`.
 - Review potential JV relevance: Blackstone -> California (JV / Partnership).
 - Review potential JV relevance: Blackstone -> JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine (JV / Partnership).
 - Review potential JV relevance: Blackstone -> blackstone (JV / Partnership).
-- Track GP relationship history: Brookfield -> brookfield (Financing Relationship).
-- Track GP relationship history: Brookfield -> jll (Financing Relationship).
-- Review potential JV relevance: UDR -> berkadia (JV / Partnership).
-- Review potential JV relevance: UDR -> udr (JV / Partnership).
+- Track GP relationship history: Blackstone -> freddie mac (Financing Relationship).
+- Track GP relationship history: Affinius Capital -> starwood (Financing Relationship).
 - Track GP relationship history: Berkadia -> berkadia (Financing Relationship).
+- Track GP relationship history: CBRE -> cbre (Financing Relationship).
+- Track GP relationship history: Blackstone -> blackstone (Acquisition / Buyer).
 
 
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 685
-- Canonical projects: 156
-- Duplicate project clusters: 113
-- Persistent assets tracked: 156
-- LA persistent asset watch items: 85
+- Raw project references: 669
+- Canonical projects: 146
+- Duplicate project clusters: 108
+- Persistent assets tracked: 146
+- LA persistent asset watch items: 104
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

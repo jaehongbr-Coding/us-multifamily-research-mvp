@@ -1,20 +1,19 @@
 # GP / Capital Entity Quality Report
 
-Generated: 2026-11-26 04:43:21
+Generated: 2026-11-27 04:49:12
 
 ## Summary
 
-- Total GP/Capital articles: 42
+- Total GP/Capital articles: 44
 - Participant not identified: 13
-- Dictionary match: 22
-- Title fallback / headline extraction: 5
+- Dictionary match: 23
+- Title fallback / headline extraction: 6
 - Low confidence or unresolved: 13
 
 ## Representative Resolved Samples
 
 - CBRE: CBRE Arranges $85M Loan for Two New Jersey Multifamily Assets (dictionary_match, high)
 - Blackstone: The Michaels Organization Acquired Cleveland Student Community Near Kent State University (dictionary_match, high)
-- Bridge Investment Group: Northmarq Arranges $30.3M Bridge Loan Refinancing for The Vicara Apartments and Townhomes in Olympia Washington (dictionary_match, high)
 - OC Investor Group: OC Investor Group Buys Two Apartment Properties in Venice (title_lead_pattern, medium)
 - Affinius Capital: Affinius Capital Provides $75.5M Construction Loan for Student Housing Project Near University of Wisconsin-Madison (dictionary_match, high)
 - CBRE: CBRE Brokers $14.9M Sale of Apartment Building in Fair Lawn, New Jersey (dictionary_match, high)
@@ -22,6 +21,7 @@ Generated: 2026-11-26 04:43:21
 - Affinius Capital: Affinius Provides Construction Loan for Three-Building Gowanus Multifamily (dictionary_match, high)
 - Slate Property Group: SCALE Lending Provides $345M Construction Loan for Namdar’s Brickell Tower (capital_event_sentence, medium)
 - CBRE: ORIX Acquires Buckhead Apartments for $83M (dictionary_match, high)
+- Dwight Capital: Dwight Capital Finances $52M Loan for Mixed-Use Multifamily Community in Michigan (title_lead_pattern, medium)
 
 ## Unresolved Examples
 

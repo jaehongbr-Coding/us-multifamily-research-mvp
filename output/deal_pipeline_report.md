@@ -1,9 +1,9 @@
 # Deal & Project Pipeline Report
 
-Generated: 2026-11-26 04:43:21
+Generated: 2026-11-27 04:49:12
 
 - Total deal/project signals found: 60
-- High deal intelligence count: 8
+- High deal intelligence count: 7
 
 ## Top 10 Deal / Project Signals
 
@@ -12,24 +12,24 @@ Generated: 2026-11-26 04:43:21
 - Acquisition - San Francisco / California - Berkadia Negotiates $12.6M Sale of Multifamily Property in Canoga Park, California: Acquisition, San Francisco / California, score 85. Pricing benchmark.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Acquisition, Atlanta / Georgia, score 85. Pricing benchmark.
 - Construction Financing - Other / Unknown - Affinius Capital Provides $75.5M Construction Loan for Student Housing Project Near Univer...: Construction Financing, Other / Unknown, score 85. Capital market signal.
-- Refinancing - Seattle - Northmarq Arranges $30.3M Bridge Loan Refinancing for The Vicara Apartments and Townhomes...: Refinancing, Seattle, score 85. Capital market signal.
 - Construction Financing - New York City / New York - Affinius Provides $135M Construction Loan for Brooklyn Multifamily: Construction Financing, New York City / New York, score 82. Capital market signal.
 - Acquisition - Florida - Tishman Speyer Secures Second Florida Multifamily Asset in a Year with Fort Lauderdale Com...: Acquisition, Florida, score 81. Pricing benchmark.
 - Refinancing - Miami / Florida - JV Closes on $38.4M Refi for Fort Lauderdale Mixed-Use Venture: Refinancing, Miami / Florida, score 78. Capital market signal.
 - Refinancing - Florida - Walker & Dunlop Arranges $285M Loan for Refinancing of Downtown Fort Lauderdale Multifamil...: Refinancing, Florida, score 78. Capital market signal.
+- Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Acquisition, Atlanta / Georgia, score 77. Pricing benchmark.
 
 ## California / LA Deal Watch
 
 - JV / Partnership - California - American Campus Communities Expands Partnership with UC Irvine: JV / Partnership, California, score 88. GP partnership reference.
 - Acquisition - San Francisco / California - Berkadia Negotiates $12.6M Sale of Multifamily Property in Canoga Park, California: Acquisition, San Francisco / California, score 85. Pricing benchmark.
+- Refinancing - California - Marcus & Millichap Capital Corporation Arranges Refinancing for Multifamily Property in Vi...: Refinancing, California, score 77. Capital market signal.
 - Acquisition - Los Angeles / California - OC Investor Group Buys Two Apartment Properties in Venice: Acquisition, Los Angeles / California, score 75. Pricing benchmark.
-- Refinancing - Santa Monica / California - JLL Arranges Refinancing for Evani Mixed-Use Multifamily Property in Santa Monica: Refinancing, Santa Monica / California, score 73. Capital market signal.
+- Disposition / Exit - California - Marcus & Millichap Palo Alto Office Brokers Sale of Multifamily Property Near Santa Clara...: Disposition / Exit, California, score 73. Capital market signal.
 - Entitlement / Permitting - Los Angeles / California - Report: L.A. permits 12,700 homes through third quarter of 2026: Entitlement / Permitting, Los Angeles / California, score 60. Entitlement / zoning watch.
 - Acquisition - Los Angeles / California - Optimus Properties Buys South Pasadena Mixed-Use Asset for $6.45M: Acquisition, Los Angeles / California, score 58. Pricing benchmark.
 - Entitlement / Permitting - Los Angeles / California - 10 condos planned at 2254 S. Wellesley Ave. in Sawtelle: Entitlement / Permitting, Los Angeles / California, score 55. Entitlement / zoning watch.
 - Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: Entitlement / Permitting, Los Angeles / California, score 55. Entitlement / zoning watch.
 - Disposition / Exit - California - Torrance to break ground on World War II Japanese American Incarceration Monument: Disposition / Exit, California, score 53. Entitlement / zoning watch.
-- Disposition / Exit - Atlanta / Georgia - Santa Clara Apartment Trade Comes in at $360K per Unit: Disposition / Exit, Atlanta / Georgia, score 52. Underwriting benchmark.
 
 ## GP / Developer Activity
 
@@ -38,22 +38,22 @@ Generated: 2026-11-26 04:43:21
 - Acquisition - San Francisco / California - Berkadia Negotiates $12.6M Sale of Multifamily Property in Canoga Park, California: Acquisition, San Francisco / California, score 85. Pricing benchmark.
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Acquisition, Atlanta / Georgia, score 85. Pricing benchmark.
 - Construction Financing - Other / Unknown - Affinius Capital Provides $75.5M Construction Loan for Student Housing Project Near Univer...: Construction Financing, Other / Unknown, score 85. Capital market signal.
-- Refinancing - Seattle - Northmarq Arranges $30.3M Bridge Loan Refinancing for The Vicara Apartments and Townhomes...: Refinancing, Seattle, score 85. Capital market signal.
 - Construction Financing - New York City / New York - Affinius Provides $135M Construction Loan for Brooklyn Multifamily: Construction Financing, New York City / New York, score 82. Capital market signal.
 - Acquisition - Florida - Tishman Speyer Secures Second Florida Multifamily Asset in a Year with Fort Lauderdale Com...: Acquisition, Florida, score 81. Pricing benchmark.
 - Refinancing - Florida - Walker & Dunlop Arranges $285M Loan for Refinancing of Downtown Fort Lauderdale Multifamil...: Refinancing, Florida, score 78. Capital market signal.
 - Acquisition - Atlanta / Georgia - Hines Pays $237.8M for Buckhead Rental Community: Acquisition, Atlanta / Georgia, score 77. Pricing benchmark.
+- Construction Financing - New York City / New York - Affinius Provides Construction Loan for Three-Building Gowanus Multifamily: Construction Financing, New York City / New York, score 77. Capital market signal.
 
 ## Financing / Refinancing Signals
 
 - Acquisition - Atlanta / Georgia - ORIX Acquires Buckhead Apartments for $83M: Acquisition, Atlanta / Georgia, score 85. Pricing benchmark.
 - Construction Financing - Other / Unknown - Affinius Capital Provides $75.5M Construction Loan for Student Housing Project Near Univer...: Construction Financing, Other / Unknown, score 85. Capital market signal.
-- Refinancing - Seattle - Northmarq Arranges $30.3M Bridge Loan Refinancing for The Vicara Apartments and Townhomes...: Refinancing, Seattle, score 85. Capital market signal.
 - Construction Financing - New York City / New York - Affinius Provides $135M Construction Loan for Brooklyn Multifamily: Construction Financing, New York City / New York, score 82. Capital market signal.
 - Acquisition - Florida - Tishman Speyer Secures Second Florida Multifamily Asset in a Year with Fort Lauderdale Com...: Acquisition, Florida, score 81. Pricing benchmark.
 - Refinancing - Miami / Florida - JV Closes on $38.4M Refi for Fort Lauderdale Mixed-Use Venture: Refinancing, Miami / Florida, score 78. Capital market signal.
 - Refinancing - Florida - Walker & Dunlop Arranges $285M Loan for Refinancing of Downtown Fort Lauderdale Multifamil...: Refinancing, Florida, score 78. Capital market signal.
 - Construction Financing - New York City / New York - Affinius Provides Construction Loan for Three-Building Gowanus Multifamily: Construction Financing, New York City / New York, score 77. Capital market signal.
+- Refinancing - California - Marcus & Millichap Capital Corporation Arranges Refinancing for Multifamily Property in Vi...: Refinancing, California, score 77. Capital market signal.
 - Acquisition - National - The Michaels Organization Acquired Cleveland Student Community Near Kent State University: Acquisition, National, score 75. Pricing benchmark.
 - Acquisition - Other / Unknown - Greystone Lends $26M for Chicago-Area Multifamily Acquisition: Acquisition, Other / Unknown, score 73. Pricing benchmark.
 
@@ -64,11 +64,11 @@ Generated: 2026-11-26 04:43:21
 - Construction Financing - New York City / New York - Affinius Provides $135M Construction Loan for Brooklyn Multifamily: Construction Financing, New York City / New York, score 82. Capital market signal.
 - Refinancing - Miami / Florida - JV Closes on $38.4M Refi for Fort Lauderdale Mixed-Use Venture: Refinancing, Miami / Florida, score 78. Capital market signal.
 - Acquisition - Los Angeles / California - OC Investor Group Buys Two Apartment Properties in Venice: Acquisition, Los Angeles / California, score 75. Pricing benchmark.
-- General Project Signal - Other / Unknown - $62M Financing Arranged for Luxury Northern New Jersey Multifamily Community: General Project Signal, Other / Unknown, score 73. Capital market signal.
 - Refinancing - Dallas / Texas - Craig Ranch Apartment Owner Lands $38M Financing: Refinancing, Dallas / Texas, score 70. Capital market signal.
 - Acquisition - Other / Unknown - Fairstead Closes $17M Affordable Housing Transaction in Oklahoma: Acquisition, Other / Unknown, score 65. Pricing benchmark.
 - General Project Signal - Los Angeles / California - Affordable housing commences work at 2201 E. 1st St. in Boyle Heights: General Project Signal, Los Angeles / California, score 65. Underwriting benchmark.
 - General Project Signal - Houston / Texas - HTG Opens Doors to 101-Unit Houston Mixed-Income Housing Project: General Project Signal, Houston / Texas, score 63. Underwriting benchmark.
+- Entitlement / Permitting - Los Angeles / California - Report: L.A. permits 12,700 homes through third quarter of 2026: Entitlement / Permitting, Los Angeles / California, score 60. Entitlement / zoning watch.
 
 ## BTR / Modular / Innovation Signals
 
@@ -89,12 +89,12 @@ Generated: 2026-11-26 04:43:21
 
 ## Deal / Project Signals By Residential Sector
 
-- Apartment: 28 deal/project signal(s)
-- Multifamily: 12 deal/project signal(s)
-- Affordable Housing: 7 deal/project signal(s)
+- Apartment: 26 deal/project signal(s)
+- Multifamily: 15 deal/project signal(s)
+- Affordable Housing: 6 deal/project signal(s)
 - Student Housing: 5 deal/project signal(s)
-- Mixed-Use Residential: 4 deal/project signal(s)
-- General Residential: 2 deal/project signal(s)
+- Mixed-Use Residential: 3 deal/project signal(s)
+- General Residential: 3 deal/project signal(s)
 - Workforce Housing: 1 deal/project signal(s)
 - Office-to-Residential Conversion: 1 deal/project signal(s)
 
@@ -127,6 +127,6 @@ Developer, lender, capital partner, market, and deal edges are available in `rel
 - Pricing benchmark: read `Berkadia Negotiates $12.6M Sale of Multifamily Property in Canoga Park, California` from REBusiness Online. Canonical market: California.
 - Pricing benchmark: read `ORIX Acquires Buckhead Apartments for $83M` from Connect CRE Atlanta. Canonical market: Los Angeles.
 - Capital market signal: read `Affinius Capital Provides $75.5M Construction Loan for Student Housing Project Near University of Wisconsin-Madison` from REBusiness Online. Canonical market: Other / Unknown.
-- Capital market signal: read `Northmarq Arranges $30.3M Bridge Loan Refinancing for The Vicara Apartments and Townhomes in Olympia Washington` from Yield PRO. Canonical market: Seattle.
 - Capital market signal: read `Affinius Provides $135M Construction Loan for Brooklyn Multifamily` from Commercial Observer. Canonical market: New York.
 - Pricing benchmark: read `Tishman Speyer Secures Second Florida Multifamily Asset in a Year with Fort Lauderdale Community Acquisition` from Yield PRO. Canonical market: Florida.
+- Capital market signal: read `JV Closes on $38.4M Refi for Fort Lauderdale Mixed-Use Venture` from Connect CRE South Florida. Canonical market: Sun Belt.

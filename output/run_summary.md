@@ -1,10 +1,10 @@
 # Run Summary
 
-Generated: 2026-11-26 04:43:16
+Generated: 2026-11-27 04:49:02
 
 ## Quick Counts
 
-- Total articles saved: 75
+- Total articles saved: 76
 - High-confidence signals: 47
 - Opportunities: 55
 - Distress signals: 15

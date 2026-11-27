@@ -1,35 +1,35 @@
 # Residential Sector Coverage Report
 
-Generated: 2026-11-26 04:43:21
+Generated: 2026-11-27 04:49:12
 
 - Active residential sectors: 8
 
 ## Sector Coverage Summary
 
-- Apartment: 35 article(s), 23 high-priority, 28 deal/project, Core Strategy Sector.
-- Multifamily: 19 article(s), 10 high-priority, 12 deal/project, Core Strategy Sector.
-- Affordable Housing: 7 article(s), 7 high-priority, 7 deal/project, Strategic Expansion Sector.
-- Student Housing: 6 article(s), 3 high-priority, 5 deal/project, Strategic Expansion Sector.
+- Apartment: 33 article(s), 21 high-priority, 26 deal/project, Core Strategy Sector.
+- Multifamily: 22 article(s), 12 high-priority, 15 deal/project, Core Strategy Sector.
+- Affordable Housing: 6 article(s), 6 high-priority, 6 deal/project, Strategic Expansion Sector.
+- Student Housing: 7 article(s), 3 high-priority, 5 deal/project, Strategic Expansion Sector.
 - Workforce Housing: 1 article(s), 1 high-priority, 1 deal/project, Strategic Expansion Sector.
 - Office-to-Residential Conversion: 1 article(s), 1 high-priority, 1 deal/project, Strategic Expansion Sector.
-- Mixed-Use Residential: 4 article(s), 4 high-priority, 4 deal/project, Monitoring Sector.
-- General Residential: 2 article(s), 0 high-priority, 2 deal/project, Monitoring Sector.
+- Mixed-Use Residential: 3 article(s), 3 high-priority, 3 deal/project, Monitoring Sector.
+- General Residential: 3 article(s), 0 high-priority, 3 deal/project, Monitoring Sector.
 
 ## Top Residential Sectors By Relevance
 
-- Apartment: Core Strategy Sector, average relevance 85.1, dominant market Other / Unknown.
-- Multifamily: Core Strategy Sector, average relevance 73.5, dominant market Other / Unknown.
-- Affordable Housing: Strategic Expansion Sector, average relevance 97.1, dominant market Los Angeles / California.
-- Student Housing: Strategic Expansion Sector, average relevance 80.5, dominant market Other / Unknown.
+- Apartment: Core Strategy Sector, average relevance 84.3, dominant market Other / Unknown.
+- Multifamily: Core Strategy Sector, average relevance 71.8, dominant market Other / Unknown.
+- Affordable Housing: Strategic Expansion Sector, average relevance 96.7, dominant market Los Angeles / California.
+- Student Housing: Strategic Expansion Sector, average relevance 76.7, dominant market Other / Unknown.
 - Workforce Housing: Strategic Expansion Sector, average relevance 87.0, dominant market Miami / Florida.
 - Office-to-Residential Conversion: Strategic Expansion Sector, average relevance 75.0, dominant market New York.
-- Mixed-Use Residential: Monitoring Sector, average relevance 87.2, dominant market Other / Unknown.
-- General Residential: Monitoring Sector, average relevance 51.5, dominant market California.
+- Mixed-Use Residential: Monitoring Sector, average relevance 84.7, dominant market Other / Unknown.
+- General Residential: Monitoring Sector, average relevance 52.7, dominant market New York City / New York.
 
 ## Multifamily / Apartment
 
-- Apartment: 35 article(s), 28 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
-- Multifamily: 19 article(s), 12 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
+- Apartment: 33 article(s), 26 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
+- Multifamily: 22 article(s), 15 deal/project signal(s), Core Strategy Sector. Keep in weekly developer strategy review.
 
 ## BTR / SFR
 
@@ -37,7 +37,7 @@ Generated: 2026-11-26 04:43:21
 
 ## Student Housing
 
-- Student Housing: 6 article(s), 5 deal/project signal(s), Strategic Expansion Sector. Monitor university-market demand and partnership signals.
+- Student Housing: 7 article(s), 5 deal/project signal(s), Strategic Expansion Sector. Monitor university-market demand and partnership signals.
 
 ## Senior Housing
 
@@ -45,7 +45,7 @@ Generated: 2026-11-26 04:43:21
 
 ## Affordable / Workforce Housing
 
-- Affordable Housing: 7 article(s), 7 deal/project signal(s), Strategic Expansion Sector. Add to sector watchlist.
+- Affordable Housing: 6 article(s), 6 deal/project signal(s), Strategic Expansion Sector. Add to sector watchlist.
 - Workforce Housing: 1 article(s), 1 deal/project signal(s), Strategic Expansion Sector. Add to sector watchlist.
 
 ## Office-to-Residential Conversion

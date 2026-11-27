@@ -1,6 +1,6 @@
 # Regime Heatmap Report
 
-Generated: 2026-11-26 04:43:20
+Generated: 2026-11-27 04:49:11
 
 Scores are calibrated with capped weighted components, so final_score is less likely to saturate at 100 unless the supporting signals are very strong.
 
@@ -11,13 +11,13 @@ Scores are calibrated with capped weighted components, so final_score is less li
 
 | Regime | Raw Score | Normalized Score | Final Score | Strength | Supporting Signals |
 | --- | ---: | ---: | ---: | --- | --- |
-| Selective Capital Re-entry | 134 | 89 | 89 | Very Strong | Institutional Flow articles: 19; Deal Size Signal articles: 7; Institutional player mentions: 10 |
-| Financing Stress | 121 | 81 | 81 | Very Strong | Financing Risk articles: 25; Financing/cap-rate market signals: 7; Financing matched-keyword articles: 24 |
-| Supply Pressure | 112 | 75 | 75 | Strong | Supply Pressure articles: 4; Supply/vacancy/concession signals: 12; Supply matched-keyword articles: 4 |
-| Developer Strategy Shift | 88 | 59 | 59 | Moderate | Developer Strategy articles: 30; Developer matched-keyword articles: 8; Must Read articles: 36 |
-| Policy / Entitlement Watch | 74 | 49 | 49 | Moderate | Regulation Risk articles: 3; Policy matched-keyword articles: 6; California / Los Angeles focus count: 1 |
+| Selective Capital Re-entry | 134 | 89 | 89 | Very Strong | Institutional Flow articles: 21; Deal Size Signal articles: 10; Institutional player mentions: 7 |
+| Financing Stress | 121 | 81 | 81 | Very Strong | Financing Risk articles: 26; Financing/cap-rate market signals: 6; Financing matched-keyword articles: 23 |
+| Supply Pressure | 112 | 75 | 75 | Strong | Supply Pressure articles: 4; Supply/vacancy/concession signals: 11; Supply matched-keyword articles: 4 |
+| Developer Strategy Shift | 88 | 59 | 59 | Moderate | Developer Strategy articles: 28; Developer matched-keyword articles: 6; Must Read articles: 31 |
+| Policy / Entitlement Watch | 80 | 53 | 53 | Moderate | Regulation Risk articles: 3; Policy matched-keyword articles: 6; California / Los Angeles focus count: 3 |
 | Construction Cost Pressure | 0 | 0 | 0 | Not Detected | Cost Control articles: 0; Construction Cost Signal articles: 0; Cost matched-keyword articles: 0 |
-| Stable Monitoring Environment | 0 | 0 | 0 | Not Detected | Highest active regime score before stable adjustment: 134; Monitor articles: 2 |
+| Stable Monitoring Environment | 0 | 0 | 0 | Not Detected | Highest active regime score before stable adjustment: 134; Monitor articles: 3 |
 
 ## Regime Interpretations
 

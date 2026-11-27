@@ -1,6 +1,6 @@
 # 한국어 LA 자산 / 프로젝트 Watch
 
-- 생성 시각: 2026-11-26 04:43:16
+- 생성 시각: 2026-11-27 04:49:02
 - 참고 원문 파일: `la_asset_watch_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -11,7 +11,7 @@
 - Acquisition - Other / Unknown - CBRE Brokers $14.9M Sale of Apartment Building in Fair Lawn, New Jersey: Los Angeles, 아파트, 점수 100 (Unknown; Monitor asset for repeated local confirmation)
 - Acquisition - San Francisco / California - Berkadia Negotiates $12.6M Sale of Multifamily Property in Canoga Park, California: Los Angeles, 멀티패밀리, 점수 100 (Unknown; Monitor asset for repeated local confirmation)
 - Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop: Los Angeles, 어포더블 하우징, 점수 100 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
-- General Project Signal - National - New plan for housing at 4600 Wilshire Blvd.: Los Angeles, 아파트, 점수 100 (Unknown; Monitor asset for repeated local confirmation)
+- Disposition / Exit - Other / Unknown - Marcus & Millichap Brokers $10.1M Sale of Harlan Apartments First Offered Since 1972: Los Angeles, 아파트, 점수 100 (Unknown; Monitor asset for repeated local confirmation)
 - Acquisition - Florida - Tishman Speyer Secures Second Florida Multifamily Asset in a Year with Fort Lauderdale Com...: Los Angeles, 멀티패밀리, 점수 100 (Unknown; Monitor asset for repeated local confirmation)
 - Acquisition - National - The Michaels Organization Acquired Cleveland Student Community Near Kent State University: Los Angeles, 학생주택, 점수 100 (Site Search / Early Signal; Monitor asset for repeated local confirmation)
 - Acquisition - Other / Unknown - Fairstead Closes $17M Affordable Housing Transaction in Oklahoma: Los Angeles, 어포더블 하우징, 점수 99 (Unknown; Track entitlement docket, density bonus use, and affordability requirement)
@@ -28,10 +28,10 @@
 ## 인허가 / 개발 단계
 
 - Acquisition - San Francisco / California - Berkadia Negotiates $12.6M Sale of Multifamily Property in Canoga Park, California: Southern California, 멀티패밀리, 점수 100 (Unknown Stage; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
-- General Project Signal - National - New plan for housing at 4600 Wilshire Blvd.: Los Angeles, 아파트, 점수 100 (Unknown Stage; Monitor for repeated project updates)
 - Acquisition - Florida - Tishman Speyer Secures Second Florida Multifamily Asset in a Year with Fort Lauderdale Com...: Los Angeles, 아파트, 점수 99 (Unknown Stage; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
 - Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop: Los Angeles, 어포더블 하우징, 점수 98 (Early Site Signal; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
 - Acquisition - Florida - Tishman Speyer Secures Second Florida Multifamily Asset in a Year with Fort Lauderdale Com...: Los Angeles, 멀티패밀리, 점수 96 (Unknown Stage; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
+- Acquisition - National - The Michaels Organization Acquired Cleveland Student Community Near Kent State University: Los Angeles, 학생주택, 점수 95 (Site Acquisition / Site Control; Create or refresh a project watch file with sponsor, site, entitlement, financing, and timing notes)
 
 ## 추천 현지 확인 사항
 

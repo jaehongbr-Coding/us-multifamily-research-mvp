@@ -1,15 +1,15 @@
 # Executive Dashboard Brief
 
-Generated: 2026-11-26 04:43:16
+Generated: 2026-11-27 04:49:02
 
 ## Executive Snapshot
 
-- Total articles reviewed: 75
+- Total articles reviewed: 76
 - High-confidence signals: 47
-- Institutional-grade signals: 19
+- Institutional-grade signals: 16
 - Opportunities: 55
 - Distress signals: 15
-- Recommended executive focus: Review Refinancing - Seattle - Northmarq Arranges $30.3M Bridge Loan Refinancing for The Vicara Apartments and Townhomes... and related high-confidence project signals.
+- Recommended executive focus: Review Acquisition - National - The Michaels Organization Acquired Cleveland Student Community Near Kent State University and related high-confidence project signals.
 
 ## Top 5 Things to Review Today
 
@@ -40,16 +40,16 @@ Generated: 2026-11-26 04:43:16
 - Acquires 280-Unit Buckhead Apartment Community ParkProperty Capital: Fading Action: Track capital flow pattern and related relationships.
 - Alliance Residential: Fading Action: Track capital flow pattern and related relationships.
 - Arcus Real Estate Capital: Fading Action: Track capital flow pattern and related relationships.
-- Affinius Capital: California / LA strategic positioning Action: Track JV and capital partner activity.
 - CBRE: Institutional-backed regional expansion Action: Track JV and capital partner activity.
+- Blackstone: California / LA strategic positioning Action: Track JV and capital partner activity.
 
 ## Opportunity / Distress Watch
 
 - JV / Partnership Gap: JV / Partnership Gap may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
+- Refinancing Gap: Refinancing Gap may create a pricing, capital, partnership, or pipeline opening in California. Action: Add to executive opportunity review.
 - Construction Financing Gap: Construction Financing Gap may create a pricing, capital, partnership, or pipeline opening in New York City / New York. Action: Add to executive opportunity review.
 - Construction Financing Gap: Construction Financing Gap may create a pricing, capital, partnership, or pipeline opening in Other / Unknown. Action: Add to executive opportunity review.
 - Construction Financing Gap: Construction Financing Gap may create a pricing, capital, partnership, or pipeline opening in New York City / New York. Action: Add to executive opportunity review.
-- Refinancing Gap: Refinancing Gap may create a pricing, capital, partnership, or pipeline opening in Seattle. Action: Add to executive opportunity review.
 
 ## Development Lifecycle Watch
 

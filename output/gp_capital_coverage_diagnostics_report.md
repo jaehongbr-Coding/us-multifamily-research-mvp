@@ -1,17 +1,17 @@
 # GP / Capital Coverage Diagnostics
 
-Generated: 2026-11-26 04:43:16
+Generated: 2026-11-27 04:49:02
 
 ## Summary
 
-- GP / Capital candidate articles: 42
-- Selected GP / Capital articles: 28
-- Excluded by repeat penalty: 6
+- GP / Capital candidate articles: 44
+- Selected GP / Capital articles: 27
+- Excluded by repeat penalty: 8
 - Excluded by integrity issue: 0
 
 ## Top Candidate Sources
 
-- Yield PRO: 8 candidate(s), 7 selected, activities: debt_financing:2; disposition_exit:2; refinancing:1; equity_transaction:1; acquisition:1.
+- Yield PRO: 10 candidate(s), 6 selected, activities: disposition_exit:5; debt_financing:1; acquisition:1; acquisition_financing:1; refinancing:1.
 - REBusiness Online: 7 candidate(s), 4 selected, activities: disposition_exit:3; construction_financing:2; refinancing:1; asset_management_operator_activity:1.
 - Connect CRE South Florida: 5 candidate(s), 4 selected, activities: construction_financing:2; joint_venture:1; acquisition:1; disposition_exit:1.
 - Commercial Observer: 4 candidate(s), 4 selected, activities: construction_financing:2; acquisition:1; asset_management_operator_activity:1.

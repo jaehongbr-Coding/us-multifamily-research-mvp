@@ -3,19 +3,19 @@
 Limited articles are retained only as conservative title/lead-based evidence. Limited access is tracked separately from article identity mismatches.
 
 ## Summary
-- Total articles: 75
+- Total articles: 76
 - Total limited_or_paywall articles: 13
 - suspicious_mismatch articles: 0
 - limited_or_paywall and suspicious_mismatch overlap: 0
 - Limited articles selected into Development Activity: 12
 - Limited articles selected into GP / Capital Activity: 0
-- Limited articles selected into Representative Evidence: 2
+- Limited articles selected into Representative Evidence: 1
 
 ## Limited Articles by Source
-- Urbanize LA: 9
+- Urbanize LA: 8
 - Bisnow: 2
+- SF YIMBY: 2
 - Yield PRO: 1
-- SF YIMBY: 1
 
 ## Limited Articles by Display Section
 - Development Activity: 12
@@ -28,11 +28,11 @@ Limited articles are retained only as conservative title/lead-based evidence. Li
 - Santa Monica has new plans for affordable housing next to Downtown Metro stop | Urbanize LA | Development Activity | unknown confidence
 - Culver City adopts parking maximums for new development | Urbanize LA | Development Activity | unknown confidence
 - 725 Houston Apartments Sit Vacant As Fercan Kalkan Fights Foreclosure | Bisnow | Development Activity | low confidence
-- New plan for housing at 4600 Wilshire Blvd. | Urbanize LA | Development Activity | unknown confidence
 - Marcus & Millichap Brokers $10.1M Sale of Harlan Apartments First Offered Since 1972 | Yield PRO | Development Activity | low confidence
 - Report: L.A. permits 12,700 homes through third quarter of 2026 | Urbanize LA | Development Activity | low confidence
 - Preliminary Permits Filed For 300 Lake Street, San Francisco | SF YIMBY | Development Activity | low confidence
 - Challenge To Mamdani's Rent Freeze Thrown Out By Judge | Bisnow | Development Activity | unknown confidence
+- Construction Underway At 2372 Ellsworth Street, Southside, Berkeley | SF YIMBY | Development Activity | unknown confidence
 - Torrance to break ground on World War II Japanese American Incarceration Monument | Urbanize LA | Market Intelligence | unknown confidence
 
 ## Notes

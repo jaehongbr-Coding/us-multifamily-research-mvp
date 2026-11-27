@@ -1,21 +1,21 @@
 # Classification Quality Report
 
-Generated: 2026-11-26 04:43:16
+Generated: 2026-11-27 04:49:02
 
 ## Classification Summary
 
-- Total articles classified: 75
-- Topic distribution: transaction_market: 17; capital_markets: 15; development_pipeline: 12; gp_activity: 9; supply_demand: 9; other: 4; institutional_capital: 3; macro_financing: 3
+- Total articles classified: 76
+- Topic distribution: transaction_market: 20; capital_markets: 14; development_pipeline: 11; gp_activity: 9; supply_demand: 9; other: 4; institutional_capital: 3; macro_financing: 3
 - Classification is rule-based and conservative. Low or unknown labels should be treated as review queues, not failures.
 
 ## Topic Distribution
 
-- transaction_market: 17 article(s), high 1, medium 11, low 5, unknown 0. Top markets: Other / Unknown (5); Atlanta / Georgia (4); Los Angeles / California (2); Miami / Florida (2); National (1).
-- capital_markets: 15 article(s), high 10, medium 4, low 1, unknown 0. Top markets: Miami / Florida (4); Other / Unknown (3); New York City / New York (3); Seattle (2); Santa Monica / California (1).
-- development_pipeline: 12 article(s), high 0, medium 4, low 8, unknown 0. Top markets: Other / Unknown (5); New York (2); Los Angeles / California (2); Houston / Texas (1); San Francisco / California (1).
+- transaction_market: 20 article(s), high 1, medium 11, low 8, unknown 0. Top markets: Other / Unknown (6); Atlanta / Georgia (4); Los Angeles / California (2); Miami / Florida (2); National (1).
+- capital_markets: 14 article(s), high 10, medium 2, low 2, unknown 0. Top markets: New York City / New York (4); Miami / Florida (4); Other / Unknown (2); Seattle (1); Dallas / Texas (1).
+- development_pipeline: 11 article(s), high 0, medium 3, low 8, unknown 0. Top markets: Other / Unknown (5); Los Angeles / California (2); Houston / Texas (1); San Francisco / California (1); Washington DC (1).
 - gp_activity: 9 article(s), high 0, medium 0, low 0, unknown 9. Top markets: Other / Unknown (6); Atlanta / Georgia (1); National (1); Kentucky (1).
 - supply_demand: 9 article(s), high 0, medium 0, low 9, unknown 0. Top markets: Other / Unknown (4); National (2); Houston / Texas (1); Dallas / Texas (1); New York City / New York (1).
-- other: 4 article(s), high 0, medium 0, low 0, unknown 4. Top markets: Los Angeles / California (3); National (1).
+- other: 4 article(s), high 0, medium 0, low 0, unknown 4. Top markets: Los Angeles / California (3); Other / Unknown (1).
 - institutional_capital: 3 article(s), high 1, medium 1, low 1, unknown 0. Top markets: California (1); Other / Unknown (1); Atlanta / Georgia (1).
 - macro_financing: 3 article(s), high 0, medium 0, low 0, unknown 3. Top markets: Other / Unknown (2); California (1).
 - research_data: 3 article(s), high 0, medium 0, low 0, unknown 3. Top markets: Los Angeles / California (1); Santa Monica / California (1); New York City / New York (1).
@@ -31,7 +31,6 @@ Generated: 2026-11-26 04:43:16
 - Dwight Capital Finances $52M Loan for Mixed-Use Multifamily Community in Michigan (Connect CRE, Other / Unknown): No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
 - Culver City adopts parking maximums for new development (Urbanize LA, Los Angeles / California): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to other; confidence unknown.
 - 725 Houston Apartments Sit Vacant As Fercan Kalkan Fights Foreclosure (Bisnow, Houston / Texas): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Supply/demand terms detected: vacancy. Primary topic set to supply_demand; confidence low.
-- New plan for housing at 4600 Wilshire Blvd. (Urbanize LA, National): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. No clear rule-based event keyword was detected. Primary topic set to other; confidence unknown.
 - HTG Opens Doors to 101-Unit Houston Mixed-Income Housing Project (Connect CRE Apartments, Houston / Texas): Development-stage terms detected: delivery. Primary topic set to development_pipeline; confidence low.
 - Marcus & Millichap Brokers $10.1M Sale of Harlan Apartments First Offered Since 1972 (Yield PRO, Other / Unknown): Limited/paywalled article; classification is based on title, URL, source, and available lead text only. Capital event keywords detected: disposition. Primary topic set to transaction_market; confidence low.
 - Space Craft Adding to Charlotte Multifamily Holdings (Connect CRE Apartments, Atlanta / Georgia): No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
@@ -42,7 +41,8 @@ Generated: 2026-11-26 04:43:16
 - Declining Conditions for Multifamily Missing Middle (NAHB Eye on Housing - Multifamily, Other / Unknown): No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
 - Multifamily Missing Middle Falls Back (NAHB Eye on Housing - Multifamily, Other / Unknown): No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
 - Multifamily Missing Middle Construction: First Quarter 2026 (NAHB Eye on Housing - Multifamily, Other / Unknown): No clear rule-based event keyword was detected. Primary topic set to gp_activity; confidence unknown.
-- Additional low/unknown rows omitted: 23
+- Optimus Properties Buys South Pasadena Mixed-Use Asset for $6.45M (Connect CRE California, Los Angeles / California): Capital event keywords detected: acquisition. Primary topic set to transaction_market; confidence low.
+- Additional low/unknown rows omitted: 27
 
 ## Data Quality Notes
 

@@ -1,14 +1,13 @@
 # Entitlement Intelligence Report
 
-Generated: 2026-11-26 04:43:36
+Generated: 2026-11-27 04:49:38
 
-- Total entitlement signals detected: 12
+- Total entitlement signals detected: 11
 
 ## Top Entitlement Opportunities
 
 - Density Bonus / TOC in Other / Unknown: Unknown Stage, entitlement_opportunity_score 53. Benchmark density bonus / TOC use and project economics.
 - Office-to-Residential Conversion in Los Angeles: Unknown Stage, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
-- Office-to-Residential Conversion in New York: Unknown Stage, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
 - Office-to-Residential Conversion in New York: Unknown Stage, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
 - CEQA / Environmental Review in Los Angeles: Under Review, entitlement_opportunity_score 35. Track local planning filings, approval body, sponsor, and entitlement precedent.
 - Entitlement Approval in Santa Monica: Early Planning, entitlement_opportunity_score 35. Track construction-ready pipeline and comparable sponsor execution.
@@ -16,12 +15,12 @@ Generated: 2026-11-26 04:43:36
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Unknown: Unknown Stage, entitlement_opportunity_score 30. Track construction-ready pipeline and comparable sponsor execution.
 
 ## Top Entitlement Risks
 
 - CEQA / Environmental Review in Los Angeles: Under Review, entitlement_risk_score 65. Track local planning filings, approval body, sponsor, and entitlement precedent.
 - CEQA / Environmental Review in Los Angeles: Under Review, entitlement_risk_score 65. Monitor CEQA timeline, appeals, and environmental review milestones.
-- Office-to-Residential Conversion in New York: Unknown Stage, entitlement_risk_score 38. Review office conversion feasibility, policy support, and local sponsor activity.
 - Entitlement Approval in Santa Monica: Early Planning, entitlement_risk_score 30. Track construction-ready pipeline and comparable sponsor execution.
 - Density Bonus / TOC in Other / Unknown: Unknown Stage, entitlement_risk_score 28. Benchmark density bonus / TOC use and project economics.
 - Office-to-Residential Conversion in Los Angeles: Unknown Stage, entitlement_risk_score 28. Review office conversion feasibility, policy support, and local sponsor activity.
@@ -29,6 +28,7 @@ Generated: 2026-11-26 04:43:36
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
 - Entitlement Approval in Los Angeles: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
+- Entitlement Approval in Unknown: Unknown Stage, entitlement_risk_score 28. Track construction-ready pipeline and comparable sponsor execution.
 
 ## Planning / Approval Signals
 
@@ -50,13 +50,11 @@ Generated: 2026-11-26 04:43:36
 
 ## Affordable Housing Requirement Signals
 
-- Office-to-Residential Conversion in New York: Unknown Stage, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
 - Entitlement Approval in Santa Monica: Early Planning, entitlement_opportunity_score 35. Track construction-ready pipeline and comparable sponsor execution.
 
 ## Office-to-Residential Conversion Signals
 
 - Office-to-Residential Conversion in Los Angeles: Unknown Stage, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
-- Office-to-Residential Conversion in New York: Unknown Stage, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
 - Office-to-Residential Conversion in New York: Unknown Stage, entitlement_opportunity_score 42. Review office conversion feasibility, policy support, and local sponsor activity.
 
 ## Implications for Woomi / Woomi Global
@@ -72,8 +70,8 @@ Generated: 2026-11-26 04:43:36
 - Benchmark density bonus / TOC use and project economics: Density Bonus / TOC in Other / Unknown.
 - Review office conversion feasibility, policy support, and local sponsor activity: Office-to-Residential Conversion in Los Angeles.
 - Review office conversion feasibility, policy support, and local sponsor activity: Office-to-Residential Conversion in New York.
-- Review office conversion feasibility, policy support, and local sponsor activity: Office-to-Residential Conversion in New York.
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Santa Monica.
+- Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Los Angeles.
 - Track construction-ready pipeline and comparable sponsor execution: Entitlement Approval in Los Angeles.
 
 
@@ -81,7 +79,7 @@ Generated: 2026-11-26 04:43:36
 ## Development Lifecycle Intelligence Summary
 
 - Lifecycle records: 79
-- LA lifecycle watch items: 47
-- Stage mix: Refinancing / Recapitalization: 16, Delivery / Opening: 7, Unknown Stage: 44, Early Site Signal: 3, Site Acquisition / Site Control: 7
+- LA lifecycle watch items: 49
+- Stage mix: Refinancing / Recapitalization: 16, Unknown Stage: 47, Early Site Signal: 3, Site Acquisition / Site Control: 8, Delivery / Opening: 4
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 

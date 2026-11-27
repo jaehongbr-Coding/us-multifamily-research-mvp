@@ -1,22 +1,22 @@
 # Emerging GP Ranking & Watchlist Report
 
-Generated: 2026-11-26 04:43:21
+Generated: 2026-11-27 04:49:12
 
-- GP/developer candidates reviewed: 24
+- GP/developer candidates reviewed: 23
 - Tier 1 Strategic GPs: 0
-- Tier 2 High Potential GPs: 7
+- Tier 2 High Potential GPs: 5
 
 ## Top Emerging GPs
 
-- Affinius Capital: 76 (Tier 2 High Potential GP), New York City / New York, California / LA strategic positioning.
 - CBRE: 75 (Tier 2 High Potential GP), Other / Unknown, Institutional-backed regional expansion.
 - Blackstone: 74 (Tier 2 High Potential GP), National, California / LA strategic positioning.
 - Hines: 73 (Tier 2 High Potential GP), Atlanta / Georgia, California / LA strategic positioning.
 - Berkadia: 72 (Tier 2 High Potential GP), National, California / LA strategic positioning.
-- JLL: 72 (Tier 2 High Potential GP), Santa Monica / California, California / LA strategic positioning.
 - Tishman Speyer: 70 (Tier 2 High Potential GP), Florida, Institutional-backed regional expansion.
-- IPA: 66 (Tier 3 Monitoring GP), Santa Monica / California, California / LA strategic positioning.
+- Marcus & Millichap: 66 (Tier 3 Monitoring GP), Other / Unknown, Institutional-backed regional expansion.
+- Affinius Capital: 64 (Tier 3 Monitoring GP), New York City / New York, Distressed opportunity positioning.
 - Giles Capital Group: 64 (Tier 3 Monitoring GP), Miami / Florida, Distressed opportunity positioning.
+- Millichap Capital Corporation: 62 (Tier 3 Monitoring GP), California, Institutional-backed regional expansion.
 - OC Investor Group: 61 (Tier 3 Monitoring GP), Los Angeles / California, California / LA strategic positioning.
 
 ## Tier 1 Strategic GP
@@ -25,26 +25,24 @@ Generated: 2026-11-26 04:43:21
 
 ## Tier 2 High Potential GP
 
-- Affinius Capital: score 76, Tier 2 High Potential GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
 - CBRE: score 75, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
 - Blackstone: score 74, Tier 2 High Potential GP, National, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
 - Berkadia: score 72, Tier 2 High Potential GP, National, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 72, Tier 2 High Potential GP, Santa Monica / California, Capital market and pricing discovery reference. Review LA / California development activity.
 - Tishman Speyer: score 70, Tier 2 High Potential GP, Florida, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## California / LA GP Activity
 
-- Affinius Capital: score 76, Tier 2 High Potential GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
 - CBRE: score 75, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
 - Blackstone: score 74, Tier 2 High Potential GP, National, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
 - Berkadia: score 72, Tier 2 High Potential GP, National, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 72, Tier 2 High Potential GP, Santa Monica / California, Capital market and pricing discovery reference. Review LA / California development activity.
 - Tishman Speyer: score 70, Tier 2 High Potential GP, Florida, Capital market and pricing discovery reference. Review LA / California development activity.
-- IPA: score 66, Tier 3 Monitoring GP, Santa Monica / California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Marcus & Millichap: score 66, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
+- Millichap Capital Corporation: score 62, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
 - OC Investor Group: score 61, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
 - Lincoln Property Company: score 58, Tier 3 Monitoring GP, Santa Monica / California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Walker & Dunlop: score 57, Tier 3 Monitoring GP, Florida, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## BTR / SFR GP Activity
 
@@ -57,8 +55,8 @@ Generated: 2026-11-26 04:43:21
 
 ## Student Housing GP Activity
 
-- Affinius Capital: score 76, Tier 2 High Potential GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
 - Blackstone: score 74, Tier 2 High Potential GP, National, Potential GP partnership candidate. Track JV and capital partner activity.
+- Affinius Capital: score 64, Tier 3 Monitoring GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
 - Freddie Mac: score 61, Tier 3 Monitoring GP, National, Potential GP partnership candidate. Track JV and capital partner activity.
 - Develop Two Student Housing Communities Near University of Kentucky Totaling 2: score 22, Low Signal, Kentucky, General developer monitoring. Monitor only.
 
@@ -68,29 +66,29 @@ Generated: 2026-11-26 04:43:21
 
 ## Institutional Capital Magnet
 
-- Affinius Capital: score 76, Tier 2 High Potential GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
 - CBRE: score 75, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
 - Blackstone: score 74, Tier 2 High Potential GP, National, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
 - Berkadia: score 72, Tier 2 High Potential GP, National, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 72, Tier 2 High Potential GP, Santa Monica / California, Capital market and pricing discovery reference. Review LA / California development activity.
 - Tishman Speyer: score 70, Tier 2 High Potential GP, Florida, Capital market and pricing discovery reference. Review LA / California development activity.
-- IPA: score 66, Tier 3 Monitoring GP, Santa Monica / California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Marcus & Millichap: score 66, Tier 3 Monitoring GP, Other / Unknown, Capital market and pricing discovery reference. Review LA / California development activity.
+- Affinius Capital: score 64, Tier 3 Monitoring GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
 - Giles Capital Group: score 64, Tier 3 Monitoring GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- Millichap Capital Corporation: score 62, Tier 3 Monitoring GP, California, Capital market and pricing discovery reference. Review LA / California development activity.
 - OC Investor Group: score 61, Tier 3 Monitoring GP, Los Angeles / California, Capital market and pricing discovery reference. Review LA / California development activity.
 
 ## Potential Woomi Partnership Candidates
 
-- Affinius Capital: score 76, Tier 2 High Potential GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
 - CBRE: score 75, Tier 2 High Potential GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
 - Blackstone: score 74, Tier 2 High Potential GP, National, Potential GP partnership candidate. Track JV and capital partner activity.
 - Hines: score 73, Tier 2 High Potential GP, Atlanta / Georgia, Potential GP partnership candidate. Track JV and capital partner activity.
 - Berkadia: score 72, Tier 2 High Potential GP, National, Potential GP partnership candidate. Track JV and capital partner activity.
-- JLL: score 72, Tier 2 High Potential GP, Santa Monica / California, Capital market and pricing discovery reference. Review LA / California development activity.
 - Tishman Speyer: score 70, Tier 2 High Potential GP, Florida, Capital market and pricing discovery reference. Review LA / California development activity.
-- IPA: score 66, Tier 3 Monitoring GP, Santa Monica / California, Capital market and pricing discovery reference. Review LA / California development activity.
+- Affinius Capital: score 64, Tier 3 Monitoring GP, New York City / New York, Potential GP partnership candidate. Track JV and capital partner activity.
 - Giles Capital Group: score 64, Tier 3 Monitoring GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
 - Freddie Mac: score 61, Tier 3 Monitoring GP, National, Potential GP partnership candidate. Track JV and capital partner activity.
+- JV: score 61, Tier 3 Monitoring GP, Miami / Florida, Potential GP partnership candidate. Track JV and capital partner activity.
+- Fannie Mae: score 59, Tier 3 Monitoring GP, Other / Unknown, Potential GP partnership candidate. Track JV and capital partner activity.
 
 ## GP Source Expansion Summary
 
@@ -119,31 +117,31 @@ Market entry window scoring is available in `market_entry_window_report.md`.
 
 ## Recommended Management Meeting Targets
 
-- Affinius Capital: Track JV and capital partner activity (High confidence).
 - CBRE: Track JV and capital partner activity (High confidence).
 - Blackstone: Track JV and capital partner activity (Medium confidence).
 - Hines: Track JV and capital partner activity (Medium confidence).
 - Berkadia: Track JV and capital partner activity (Medium confidence).
+- Tishman Speyer: Review LA / California development activity (Medium confidence).
 
 ## Recommended Strategic Follow-up Actions
 
-- Affinius Capital: Track JV and capital partner activity.
 - CBRE: Track JV and capital partner activity.
 - Blackstone: Track JV and capital partner activity.
 - Hines: Track JV and capital partner activity.
 - Berkadia: Track JV and capital partner activity.
-- JLL: Review LA / California development activity.
 - Tishman Speyer: Review LA / California development activity.
-- IPA: Review LA / California development activity.
+- Marcus & Millichap: Review LA / California development activity.
+- Affinius Capital: Track JV and capital partner activity.
+- Giles Capital Group: Track JV and capital partner activity.
 
 
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 146
-- Institutional-grade signals: 19
+- Signals evaluated: 143
+- Institutional-grade signals: 16
 - High-confidence signals: 47
-- Weak/noisy signals: 78
+- Weak/noisy signals: 79
 - High-confidence watchlist items: 47
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

@@ -1,6 +1,6 @@
 # 한국어 기회 레이더 리포트
 
-- 생성 시각: 2026-11-27 04:49:02
+- 생성 시각: 2026-11-28 04:34:07
 - 참고 원문 파일: `opportunity_radar_report.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
@@ -14,8 +14,8 @@
 - Acquisition Opportunity: Atlanta / Georgia, 아파트, 점수 86 (Immediate Opportunity Watch; Add to executive opportunity review)
 - Acquisition Opportunity: San Francisco / California, 멀티패밀리, 점수 86 (Immediate Opportunity Watch; Add to executive opportunity review)
 - LA / California Entitlement Opportunity: California, 멀티패밀리, 점수 86 (Immediate Opportunity Watch; Add to executive opportunity review)
-- Acquisition Opportunity: Florida, 멀티패밀리, 점수 85 (Immediate Opportunity Watch; Add to executive opportunity review)
 - Construction Financing Gap: New York City / New York, 멀티패밀리, 점수 85 (Immediate Opportunity Watch; Add to executive opportunity review)
+- Acquisition Opportunity: 기타 / 미확인, 아파트, 점수 84 (Immediate Opportunity Watch; Add to executive opportunity review)
 
 ## LA / California 기회
 
@@ -23,15 +23,15 @@
 - Refinancing Gap: California, 멀티패밀리, 점수 90 (Evaluate LA / California entitlement, zoning, or local GP partnership relevance)
 - Acquisition Opportunity: San Francisco / California, 멀티패밀리, 점수 86 (Use as a possible acquisition, pricing, or distressed basis benchmark)
 - LA / California Entitlement Opportunity: California, 멀티패밀리, 점수 86 (Evaluate LA / California entitlement, zoning, or local GP partnership relevance)
-- LA / California Entitlement Opportunity: Santa Monica / California, 어포더블 하우징, 점수 85 (Monitor public-private, LIHTC, or workforce housing partnership angle)
+- Acquisition Opportunity: Los Angeles / California, 아파트, 점수 63 (Use as a possible acquisition, pricing, or distressed basis benchmark)
 
 ## JV / Partnership Gap
 
 - Blackstone: California, 학생주택, 점수 90 (Evaluate LA / California entitlement, zoning, or local GP partnership relevance)
 - CBRE: 기타 / 미확인, 아파트, 점수 81 (Map possible GP partnership or capability-building relationship)
 - Marcus & Millichap: Tampa / Florida, 멀티패밀리, 점수 80 (Map possible GP partnership or capability-building relationship)
-- Marcus & Millichap: 기타 / 미확인, 아파트, 점수 79 (Map possible GP partnership or capability-building relationship)
 - Fannie Mae: 기타 / 미확인, 멀티패밀리, 점수 76 (Map possible GP partnership or capability-building relationship)
+- IPA: 기타 / 미확인, 멀티패밀리, 점수 68 (Map possible GP partnership or capability-building relationship)
 
 ## 추천 후속 조치
 

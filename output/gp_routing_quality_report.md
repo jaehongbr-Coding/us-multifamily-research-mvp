@@ -1,22 +1,22 @@
 # GP Routing Quality Report
 
-Generated: 2026-11-27 04:49:02
+Generated: 2026-11-28 04:34:07
 
 ## Summary
-- Total GP / Capital candidates: 44
-- Selected GP / Capital articles: 27
+- Total GP / Capital candidates: 41
+- Selected GP / Capital articles: 22
 - Debt Financing count: 6
 - Refinancing count: 3
 - Construction Financing count: 8
-- Acquisition Financing count: 1
+- Acquisition Financing count: 0
 - Equity Transaction count: 1
-- Operator Activity count: 2
-- Other / Unknown market count: 31
+- Operator Activity count: 3
+- Other / Unknown market count: 29
 
 ## Routing Regression Summary
-- Market Intelligence routed articles: 11
-- Development Activity routed articles: 61
-- GP / Capital Activity routed articles: 3
+- Market Intelligence routed articles: 10
+- Development Activity routed articles: 59
+- GP / Capital Activity routed articles: 4
 - Market-protected research / macro / supply articles: 3
 - Approval / Entitlement development rows: 0
 - Site / Parcel development rows: 0
@@ -24,49 +24,48 @@ Generated: 2026-11-27 04:49:02
 - Routing rule: approval / entitlement wording takes priority over Site / Parcel when both appear.
 
 ## Activity Type Distribution
-- disposition_exit: 13
+- disposition_exit: 11
 - construction_financing: 8
-- acquisition: 7
 - debt_financing: 6
+- acquisition: 6
 - refinancing: 3
 - joint_venture: 3
-- asset_management_operator_activity: 2
-- acquisition_financing: 1
+- asset_management_operator_activity: 3
 - equity_transaction: 1
 
 ## Excluded from GP / Capital with Reason
 - No obvious GP / Capital keyword article was excluded.
 
 ## Top Unresolved Market Extraction Examples
-- CBRE Arranges $85M Loan for Two New Jersey Multifamily Assets | Yield PRO | no city, state, or market keyword detected
-- The Michaels Organization Acquired Cleveland Student Community Near Kent State University | Yield PRO | used broad market bucket: National
+- Developer Fernmoor Secures $85M in Financing for North Jersey Developments | Yield PRO | no city, state, or market keyword detected
 - Fairstead Closes $17M Affordable Housing Transaction in Oklahoma | Connect CRE | no city, state, or market keyword detected
 - Affinius Capital Provides $75.5M Construction Loan for Student Housing Project Near University of Wisconsin-Madison | REBusiness Online | no city, state, or market keyword detected
 - CBRE Brokers $14.9M Sale of Apartment Building in Fair Lawn, New Jersey | REBusiness Online | no city, state, or market keyword detected
-- Dwight Capital Finances $52M Loan for Mixed-Use Multifamily Community in Michigan | Connect CRE | no city, state, or market keyword detected
 - Greystone Lends $26M for Chicago-Area Multifamily Acquisition | Commercial Observer | no city, state, or market keyword detected
-- Marcus & Millichap Brokers $10.1M Sale of Harlan Apartments First Offered Since 1972 | Yield PRO | no city, state, or market keyword detected
-- Eastwind Development Completes Land Acquisition on 18-Acre Parcel in Palm Beach County to Develop Multifamily Housing | Yield PRO | no city, state, or market keyword detected
 - Share of Apartments Built in Buildings with 50+ Units Moves Higher in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Declining Conditions for Multifamily Missing Middle | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Multifamily Missing Middle Falls Back | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Multifamily Missing Middle Construction: First Quarter 2026 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 - Affinius Capital Originates $76M Construction Loan for Wisconsin Student Housing | Commercial Observer | no city, state, or market keyword detected
 - Multifamily Absorption Rate Remains Below 50% | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- Shorter Apartment Construction Time in 2025 | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- AI, Automation & the Future of Multifamily Finance | Multifamily Executive | no city, state, or market keyword detected
+- Multifamily Built-for-Rent Share Rises | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
+- Second Quarter 2026 Multifamily Construction Data | NAHB Eye on Housing - Multifamily | no city, state, or market keyword detected
 
 ## Sample Selected GP / Capital Articles
-- CBRE Arranges $85M Loan for Two New Jersey Multifamily Assets | debt_financing | Other / Unknown | Yield PRO
-- The Michaels Organization Acquired Cleveland Student Community Near Kent State University | disposition_exit | National | Yield PRO
-- Fairstead Closes $17M Affordable Housing Transaction in Oklahoma | acquisition | Other / Unknown | Connect CRE
+- Developer Fernmoor Secures $85M in Financing for North Jersey Developments | debt_financing | Other / Unknown | Yield PRO
 - Olympia Multifamily Community Refinanced with $30M Bridge Loan | refinancing | Seattle | Connect CRE
 - Affinius Capital Provides $75.5M Construction Loan for Student Housing Project Near University of Wisconsin-Madison | construction_financing | Other / Unknown | REBusiness Online
 - Affinius Provides Construction Loan for Three-Building Gowanus Multifamily | construction_financing | New York City / New York | Connect CRE Apartments
 - SCALE Lending Provides $345M Construction Loan for Namdar’s Brickell Tower | construction_financing | Miami / Florida | Connect CRE South Florida
-- Dwight Capital Finances $52M Loan for Mixed-Use Multifamily Community in Michigan | debt_financing | Other / Unknown | Connect CRE
 - Joint Venture Lands $96M Construction Loan for 404-Unit Coconut Creek Project | construction_financing | Miami / Florida | Connect CRE South Florida
-- Greystone Lends $26M for Chicago-Area Multifamily Acquisition | acquisition | Other / Unknown | Commercial Observer
-- Eastwind Development Completes Land Acquisition on 18-Acre Parcel in Palm Beach County to Develop Multifamily Housing | acquisition | Other / Unknown | Yield PRO
-- Tishman Speyer Secures Second Florida Multifamily Asset in a Year with Fort Lauderdale Community Acquisition | acquisition_financing | Florida | Yield PRO
 - RXR Supplies $140M Construction Loan for Miami Rental Development | construction_financing | Miami / Florida | Commercial Observer
 - JV Closes on $38.4M Refi for Fort Lauderdale Mixed-Use Venture | joint_venture | Miami / Florida | Connect CRE South Florida
 - Affinius Provides $135M Construction Loan for Brooklyn Multifamily | asset_management_operator_activity | New York City / New York | Commercial Observer
+- Tishman Speyer Adds Dania Beach Rental Asset to Florida Holdings | acquisition | Miami / Florida | Connect CRE South Florida
+- Affinius Capital Provides $135M Construction Loan for Brooklyn Multifamily Project | construction_financing | New York City / New York | REBusiness Online
+- Walker & Dunlop Arranges $285M Loan for Refinancing of Downtown Fort Lauderdale Multifamily High-Rise | refinancing | Florida | REBusiness Online
+- Optimus Properties Buys South Pasadena Mixed-Use Asset for $6.45M | acquisition | Los Angeles / California | Connect CRE California
+- Affinius Capital Originates $76M Construction Loan for Wisconsin Student Housing | construction_financing | Other / Unknown | Commercial Observer
+- Marcus & Millichap Capital Corporation Arranges Refinancing for Multifamily Property in Vista California | refinancing | California | Yield PRO

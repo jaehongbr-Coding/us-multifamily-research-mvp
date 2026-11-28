@@ -1,26 +1,26 @@
 # Regional Intelligence Report
 
-Generated: 2026-11-27 04:49:12
+Generated: 2026-11-28 04:34:14
 
 ## Top 5 Markets By Relevance
 
-- California: Core Watch Market, 18 article(s), average relevance 83.9.
-- Los Angeles: Core Watch Market, 11 article(s), average relevance 88.1.
-- National / Other: General Monitoring, 31 article(s), average relevance 75.4.
-- Florida: Strategic Watch Market, 9 article(s), average relevance 85.4.
-- Texas: Strategic Watch Market, 5 article(s), average relevance 88.0.
+- California: Core Watch Market, 17 article(s), average relevance 86.1.
+- Los Angeles: Core Watch Market, 10 article(s), average relevance 95.6.
+- National / Other: General Monitoring, 29 article(s), average relevance 71.8.
+- Florida: Strategic Watch Market, 8 article(s), average relevance 85.1.
+- Texas: Strategic Watch Market, 6 article(s), average relevance 86.2.
 
 ## LA / California Focus
 
-- California: 18 article(s), 11 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
-- Los Angeles: 11 article(s), 7 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
+- California: 17 article(s), 10 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
+- Los Angeles: 10 article(s), 6 market signal(s), Core Watch Market. Track LA / California entitlement and zoning updates.
 
 ## Sun Belt / Texas / Southeast
 
-- Florida: 9 article(s), 7 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
-- Texas: 5 article(s), 4 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
+- Florida: 8 article(s), 6 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
+- Texas: 6 article(s), 4 market signal(s), Strategic Watch Market. Monitor supply pipeline and concessions.
 - Southeast: 8 article(s), 3 market signal(s), Strategic Watch Market. Monitor supply pipeline and concessions.
-- Dallas: 3 article(s), 2 market signal(s), Strategic Watch Market. Review development underwriting assumptions.
+- Dallas: 3 article(s), 2 market signal(s), Strategic Watch Market. Monitor supply pipeline and concessions.
 
 ## Coastal Markets
 
@@ -29,13 +29,12 @@ Generated: 2026-11-27 04:49:12
 
 ## National Market Signals
 
-- National / Other: 31 article(s), 10 market signal(s), General Monitoring. Review development underwriting assumptions.
+- National / Other: 29 article(s), 9 market signal(s), General Monitoring. Monitor supply pipeline and concessions.
 
 ## Deal / Project Intelligence
 
 Market-level deal and project signals are available in `deal_pipeline_report.md`.
 - California: JV / Partnership, GP partnership reference.
-- Florida: Acquisition, Pricing benchmark.
 - Florida: Refinancing, Capital market signal.
 - California: Refinancing, Capital market signal.
 - California: Disposition / Exit, Capital market signal.
@@ -45,9 +44,9 @@ Market-level deal and project signals are available in `deal_pipeline_report.md`
 Market-level relationship edges are available in `relationship_graph_report.md`.
 - California: Blackstone -> California (JV / Partnership).
 - California: Marcus & Millichap -> California (Financing Relationship).
-- National: Blackstone -> America (Acquisition / Buyer).
-- Santa Monica / California: Lincoln Property Company -> Santa Monica (Entitlement / Permitting).
-- Santa Monica / California: Lincoln Property Company -> Santa Monica / California (Entitlement / Permitting).
+- San Francisco / California: Berkadia -> San Francisco / California (Acquisition / Buyer).
+- San Francisco / California: Berkadia -> Southern California (Acquisition / Buyer).
+- Atlanta / Georgia: CBRE -> Atlanta (Acquisition / Buyer).
 
 ## Canonical Deal Summary
 
@@ -72,7 +71,7 @@ Opportunity deduplication is available in `opportunity_deduplication_report.md`.
 - California: Track LA / California entitlement and zoning updates
 - Los Angeles: Track LA / California entitlement and zoning updates
 - Florida: Review development underwriting assumptions
-- Texas: Review development underwriting assumptions
+- Texas: Monitor supply pipeline and concessions
 - Southeast: Monitor supply pipeline and concessions
-- Dallas: Review development underwriting assumptions
+- Dallas: Monitor supply pipeline and concessions
 - Seattle: Review development underwriting assumptions

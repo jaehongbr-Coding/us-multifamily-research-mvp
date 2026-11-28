@@ -1,11 +1,11 @@
 # Market Entry Window Report
 
-Generated: 2026-11-27 04:49:38
+Generated: 2026-11-28 04:34:37
 
 ## Top Market Entry Windows
 
-- California: score 82, Active Watch Window, posture: Actively source opportunities.
-- Florida: score 78, Selective Entry Window, posture: Monitor refinancing and distress pipeline.
+- California: score 83, Active Watch Window, posture: Actively source opportunities.
+- Florida: score 77, Selective Entry Window, posture: Monitor refinancing and distress pipeline.
 - Seattle: score 72, Selective Entry Window, posture: Monitor refinancing and distress pipeline.
 - National / Other: score 66, Selective Entry Window, posture: Monitor refinancing and distress pipeline.
 - New York: score 52, Early Signal / Prepare, posture: Prepare GP conversations.
@@ -15,12 +15,12 @@ Generated: 2026-11-27 04:49:38
 
 ## LA / California Entry Window
 
-- California: score 82, Active Watch Window, posture: Actively source opportunities.
+- California: score 83, Active Watch Window, posture: Actively source opportunities.
 - Los Angeles: score 33, Monitor Only, posture: Prepare GP conversations.
 
 ## Sun Belt Entry Window
 
-- Florida: score 78, Selective Entry Window, posture: Monitor refinancing and distress pipeline.
+- Florida: score 77, Selective Entry Window, posture: Monitor refinancing and distress pipeline.
 - Texas: score 31, Monitor Only, posture: Monitor only.
 - Sun Belt: score 29, Not Attractive Now, posture: Monitor only.
 
@@ -65,9 +65,9 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 79
-- LA lifecycle watch items: 49
-- Stage mix: Refinancing / Recapitalization: 16, Unknown Stage: 47, Early Site Signal: 3, Site Acquisition / Site Control: 8, Delivery / Opening: 4
+- Lifecycle records: 77
+- LA lifecycle watch items: 45
+- Stage mix: Refinancing / Recapitalization: 16, Unknown Stage: 45, Delivery / Opening: 4, Building Permit / Construction Permit: 2, Site Acquisition / Site Control: 7
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -75,10 +75,10 @@ LA / California entitlement watch is available in `la_entitlement_watch_report.m
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 79
+- Lifecycle transitions analyzed: 77
 - Newly detected projects: 9
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 48
+- LA lifecycle transition watch items: 44
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 

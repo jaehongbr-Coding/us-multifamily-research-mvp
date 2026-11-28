@@ -1,8 +1,8 @@
 # LA / Southern California Asset Watch Report
 
-Generated: 2026-11-27 04:49:40
+Generated: 2026-11-28 04:34:39
 
-- Total LA / Southern California asset watch items: 50
+- Total LA / Southern California asset watch items: 47
 
 ## Top LA Site-Level Opportunities
 
@@ -10,12 +10,12 @@ Generated: 2026-11-27 04:49:40
 - Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: Los Angeles, Entitlement Play, la_asset_opportunity_score 100.
 - Acquisition - Other / Unknown - CBRE Brokers $14.9M Sale of Apartment Building in Fair Lawn, New Jersey: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
 - Acquisition - San Francisco / California - Berkadia Negotiates $12.6M Sale of Multifamily Property in Canoga Park, California: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
-- Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 100.
-- Disposition / Exit - Other / Unknown - Marcus & Millichap Brokers $10.1M Sale of Harlan Apartments First Offered Since 1972: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
-- Acquisition - Florida - Tishman Speyer Secures Second Florida Multifamily Asset in a Year with Fort Lauderdale Com...: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
-- Acquisition - National - The Michaels Organization Acquired Cleveland Student Community Near Kent State University: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
 - Acquisition - Other / Unknown - Fairstead Closes $17M Affordable Housing Transaction in Oklahoma: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 99.
 - General Project Signal - Los Angeles / California - Affordable housing commences work at 2201 E. 1st St. in Boyle Heights: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 99.
+- Refinancing - California - Marcus & Millichap Capital Corporation Arranges Refinancing for Multifamily Property in Vi...: Los Angeles, Refinancing / Recapitalization, la_asset_opportunity_score 98.
+- General Project Signal - Los Angeles / California - New look for Metro joint development at 675 S. Crenshaw Blvd.: Los Angeles, General Asset Signal, la_asset_opportunity_score 98.
+- Refinancing - Florida - Walker & Dunlop Arranges $285M Loan for Refinancing of Downtown Fort Lauderdale Multifamil...: Los Angeles, Refinancing / Recapitalization, la_asset_opportunity_score 97.
+- Disposition / Exit - California - Marcus & Millichap Palo Alto Office Brokers Sale of Multifamily Property Near Santa Clara...: Los Angeles, General Asset Signal, la_asset_opportunity_score 97.
 
 ## Top LA Site-Level Risks
 
@@ -58,14 +58,14 @@ Generated: 2026-11-27 04:49:40
 
 - Acquisition - Other / Unknown - CBRE Brokers $14.9M Sale of Apartment Building in Fair Lawn, New Jersey: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
 - Acquisition - San Francisco / California - Berkadia Negotiates $12.6M Sale of Multifamily Property in Canoga Park, California: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
-- Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop: Los Angeles, Affordable / Density Bonus Strategy, la_asset_opportunity_score 100.
-- Disposition / Exit - Other / Unknown - Marcus & Millichap Brokers $10.1M Sale of Harlan Apartments First Offered Since 1972: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
-- Acquisition - Florida - Tishman Speyer Secures Second Florida Multifamily Asset in a Year with Fort Lauderdale Com...: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
-- Acquisition - National - The Michaels Organization Acquired Cleveland Student Community Near Kent State University: Los Angeles, General Asset Signal, la_asset_opportunity_score 100.
 - Refinancing - California - Marcus & Millichap Capital Corporation Arranges Refinancing for Multifamily Property in Vi...: Los Angeles, Refinancing / Recapitalization, la_asset_opportunity_score 98.
 - Refinancing - Florida - Walker & Dunlop Arranges $285M Loan for Refinancing of Downtown Fort Lauderdale Multifamil...: Los Angeles, Refinancing / Recapitalization, la_asset_opportunity_score 97.
 - Disposition / Exit - California - Marcus & Millichap Palo Alto Office Brokers Sale of Multifamily Property Near Santa Clara...: Los Angeles, General Asset Signal, la_asset_opportunity_score 97.
 - Affinius Provides Construction Loan for Three-Building Gowanus Multifamily: Los Angeles, Refinancing / Recapitalization, la_asset_opportunity_score 91.
+- Developer Fernmoor Secures $85M in Financing for North Jersey Developments: Los Angeles, Lease-Up / Delivery, la_asset_opportunity_score 91.
+- 10 condos planned at 2254 S. Wellesley Ave. in Sawtelle: Los Angeles, Entitlement Play, la_asset_opportunity_score 90.
+- New look for Metro joint development at 675 S. Crenshaw Blvd.: Los Angeles, Entitlement Play, la_asset_opportunity_score 90.
+- Marcus & Millichap Palo Alto Office Brokers Sale of Multifamily Property Near Santa Clara University: Los Angeles, General Asset Signal, la_asset_opportunity_score 84.
 
 ## Recommended LA Asset Follow-up Actions
 
@@ -73,18 +73,18 @@ Generated: 2026-11-27 04:49:40
 - Track entitlement docket, density bonus use, and affordability requirement: Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice.
 - Monitor asset for repeated local confirmation: Acquisition - Other / Unknown - CBRE Brokers $14.9M Sale of Apartment Building in Fair Lawn, New Jersey.
 - Monitor asset for repeated local confirmation: Acquisition - San Francisco / California - Berkadia Negotiates $12.6M Sale of Multifamily Property in Canoga Park, California.
-- Track entitlement docket, density bonus use, and affordability requirement: Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop.
-- Monitor asset for repeated local confirmation: Disposition / Exit - Other / Unknown - Marcus & Millichap Brokers $10.1M Sale of Harlan Apartments First Offered Since 1972.
-- Monitor asset for repeated local confirmation: Acquisition - Florida - Tishman Speyer Secures Second Florida Multifamily Asset in a Year with Fort Lauderdale Com....
-- Monitor asset for repeated local confirmation: Acquisition - National - The Michaels Organization Acquired Cleveland Student Community Near Kent State University.
+- Track entitlement docket, density bonus use, and affordability requirement: Acquisition - Other / Unknown - Fairstead Closes $17M Affordable Housing Transaction in Oklahoma.
+- Track entitlement docket, density bonus use, and affordability requirement: General Project Signal - Los Angeles / California - Affordable housing commences work at 2201 E. 1st St. in Boyle Heights.
+- Review parcel clue, entitlement path, sponsor, and comparable sites: Refinancing - California - Marcus & Millichap Capital Corporation Arranges Refinancing for Multifamily Property in Vi....
+- Monitor asset for repeated local confirmation: General Project Signal - Los Angeles / California - New look for Metro joint development at 675 S. Crenshaw Blvd..
 
 
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 79
-- LA lifecycle watch items: 49
-- Stage mix: Refinancing / Recapitalization: 16, Unknown Stage: 47, Early Site Signal: 3, Site Acquisition / Site Control: 8, Delivery / Opening: 4
+- Lifecycle records: 77
+- LA lifecycle watch items: 45
+- Stage mix: Refinancing / Recapitalization: 16, Unknown Stage: 45, Delivery / Opening: 4, Building Permit / Construction Permit: 2, Site Acquisition / Site Control: 7
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -92,11 +92,11 @@ Generated: 2026-11-27 04:49:40
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 79
+- Lifecycle transitions analyzed: 77
 - Newly detected projects: 9
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 48
+- LA lifecycle transition watch items: 44
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -104,10 +104,10 @@ Generated: 2026-11-27 04:49:40
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 668
-- Canonical projects: 143
-- Duplicate project clusters: 107
-- Persistent assets tracked: 143
-- LA persistent asset watch items: 100
+- Raw project references: 632
+- Canonical projects: 141
+- Duplicate project clusters: 103
+- Persistent assets tracked: 141
+- LA persistent asset watch items: 94
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 

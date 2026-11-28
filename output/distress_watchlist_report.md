@@ -1,6 +1,6 @@
 # Distress Watchlist Report
 
-Generated: 2026-11-27 04:49:38
+Generated: 2026-11-28 04:34:37
 
 - Total distress signals: 15
 
@@ -15,7 +15,7 @@ Generated: 2026-11-27 04:49:38
 - bridge loan stress in Seattle: Refinancing - Seattle - Olympia Multifamily Community Refinanced with $30M Bridge Loan, score 63. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - construction loan gap in Miami / Florida: Construction Financing - Miami / Florida - RXR Supplies $140M Construction Loan for Miami Rental Development, score 62. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 - construction loan gap in New York City / New York: Construction Financing - New York City / New York - Affinius Capital Provides $135M Construction Loan for Brooklyn Multifamily Project, score 62. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
-- foreclosure in Houston / Texas: Disposition / Exit - Houston / Texas - 725 Houston Apartments Sit Vacant As Fercan Kalkan Fights Foreclosure, score 62. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- refinancing stress in Dallas / Texas: Refinancing - Dallas / Texas - Craig Ranch Apartment Owner Lands $38M Financing, score 62. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 
 ## Refinancing Stress Watch
 
@@ -42,7 +42,7 @@ Generated: 2026-11-27 04:49:38
 
 ## Distressed Seller / Sponsor Watch
 
-- foreclosure in Houston / Texas: Disposition / Exit - Houston / Texas - 725 Houston Apartments Sit Vacant As Fercan Kalkan Fights Foreclosure, score 62. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
+- foreclosure in Houston / Texas: Disposition / Exit - Houston / Texas - 725 Houston Apartments Sit Vacant As Fercan Kalkan Fights Foreclosure, score 61. Track debt maturity, lender exposure, sponsor stress, and recapitalization options.
 
 ## Timing / Market Entry Window Summary
 
@@ -62,8 +62,8 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 - California: 1 distress signal(s)
 - Florida: 1 distress signal(s)
 - Seattle: 1 distress signal(s)
-- Houston / Texas: 1 distress signal(s)
 - Dallas / Texas: 1 distress signal(s)
+- Houston / Texas: 1 distress signal(s)
 
 ## Implications for Woomi / Woomi Global
 
@@ -81,9 +81,9 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Development Lifecycle Intelligence Summary
 
-- Lifecycle records: 79
-- LA lifecycle watch items: 49
-- Stage mix: Refinancing / Recapitalization: 16, Unknown Stage: 47, Early Site Signal: 3, Site Acquisition / Site Control: 8, Delivery / Opening: 4
+- Lifecycle records: 77
+- LA lifecycle watch items: 45
+- Stage mix: Refinancing / Recapitalization: 16, Unknown Stage: 45, Delivery / Opening: 4, Building Permit / Construction Permit: 2, Site Acquisition / Site Control: 7
 - See `development_lifecycle_report.md` and `la_development_lifecycle_watch_report.md` for project timing, entitlement, permit, construction, delivery, and refinancing stages.
 
 
@@ -91,11 +91,11 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Lifecycle Transition Summary
 
-- Lifecycle transitions analyzed: 79
+- Lifecycle transitions analyzed: 77
 - Newly detected projects: 9
 - Forward progression projects: 0
 - Possible stalled projects: 1
-- LA lifecycle transition watch items: 48
+- LA lifecycle transition watch items: 44
 - See `lifecycle_transition_report.md` and `la_lifecycle_transition_watch_report.md` for multi-run project movement and timing signals.
 
 
@@ -103,11 +103,11 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Persistent Asset Memory Summary
 
-- Raw project references: 668
-- Canonical projects: 143
-- Duplicate project clusters: 107
-- Persistent assets tracked: 143
-- LA persistent asset watch items: 100
+- Raw project references: 632
+- Canonical projects: 141
+- Duplicate project clusters: 103
+- Persistent assets tracked: 141
+- LA persistent asset watch items: 94
 - See `project_identity_report.md`, `persistent_asset_memory_report.md`, and `la_persistent_asset_watch_report.md` for canonical project tracking.
 
 
@@ -115,10 +115,10 @@ This helps avoid counting repeated refinancing or stalled-project coverage as se
 
 ## Signal Quality / Confidence Summary
 
-- Signals evaluated: 143
-- Institutional-grade signals: 16
-- High-confidence signals: 47
-- Weak/noisy signals: 79
-- High-confidence watchlist items: 47
+- Signals evaluated: 141
+- Institutional-grade signals: 14
+- High-confidence signals: 40
+- Weak/noisy signals: 82
+- High-confidence watchlist items: 40
 - See `signal_quality_report.md` and `high_confidence_watchlist_report.md` before using signals for executive decisions.
 

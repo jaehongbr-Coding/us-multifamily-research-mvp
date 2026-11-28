@@ -1,21 +1,21 @@
 # 한국어 주간 전략 메모
 
-- 생성 시각: 2026-11-27 04:49:02
+- 생성 시각: 2026-11-28 04:34:07
 - 참고 원문 파일: `weekly_strategy_memo.md`
 - 번역 방식: 규칙 기반 한국어 요약. OpenAI/GPT API는 호출하지 않음.
 
 ## 주간 전략 요약
 
 주간 전략 메모 기준 핵심 신호 6건을 요약했습니다. 본 리포트는 유료 API 없이 규칙 기반으로 작성되며, 우미 / 우미글로벌의 미국 주거 개발 전략 관점에서 우선순위와 후속 조치를 빠르게 확인하기 위한 자료입니다.
-- 추천 포커스: Review Acquisition - National - The Michaels Organization Acquired Cleveland Student Community Near Kent State University and related high-confidence project signals.
+- 추천 포커스: Review Refinancing - Florida - Walker & Dunlop Arranges $285M Loan for Refinancing of Downtown Fort Lauderdale Multifamil... and related high-confidence project signals.
 
 ## 시장 국면
 
 - Financing Stress: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention)
 - Selective Capital Re-entry: 기타 / 미확인, 아파트, 점수 100 (Tier 1 Executive Attention)
 - Supply Pressure: 기타 / 미확인, 아파트, 점수 100 (Tier 2 Strategic Review)
-- Developer Strategy Shift: 기타 / 미확인, 아파트, 점수 96 (Tier 2 Strategic Review)
-- Policy / Entitlement Watch: 기타 / 미확인, 아파트, 점수 82 (Tier 3 Monitoring)
+- Developer Strategy Shift: 기타 / 미확인, 아파트, 점수 98 (Tier 2 Strategic Review)
+- Policy / Entitlement Watch: 기타 / 미확인, 아파트, 점수 75 (Tier 3 Monitoring)
 
 ## 자본시장 / GP 동향
 
@@ -25,8 +25,8 @@
 
 ## 지역 / 섹터 관찰
 
-- California: California, 일반 주거, 점수 82 (Active Watch Window; Actively source opportunities)
-- Florida: Florida, 일반 주거, 점수 78 (Selective Entry Window; Monitor refinancing and distress pipeline)
+- California: California, 일반 주거, 점수 83 (Active Watch Window; Actively source opportunities)
+- Florida: Florida, 일반 주거, 점수 77 (Selective Entry Window; Monitor refinancing and distress pipeline)
 - Seattle: Seattle, 일반 주거, 점수 72 (Selective Entry Window; Monitor refinancing and distress pipeline)
 - National / Other: 전국 / 기타, 일반 주거, 점수 66 (Selective Entry Window; Monitor refinancing and distress pipeline)
 - New York: New York, 일반 주거, 점수 52 (Early Signal / Prepare; Prepare GP conversations)

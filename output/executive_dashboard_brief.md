@@ -1,15 +1,15 @@
 # Executive Dashboard Brief
 
-Generated: 2026-11-27 04:49:02
+Generated: 2026-11-28 04:34:07
 
 ## Executive Snapshot
 
-- Total articles reviewed: 76
-- High-confidence signals: 47
-- Institutional-grade signals: 16
-- Opportunities: 55
+- Total articles reviewed: 74
+- High-confidence signals: 40
+- Institutional-grade signals: 14
+- Opportunities: 51
 - Distress signals: 15
-- Recommended executive focus: Review Acquisition - National - The Michaels Organization Acquired Cleveland Student Community Near Kent State University and related high-confidence project signals.
+- Recommended executive focus: Review Refinancing - Florida - Walker & Dunlop Arranges $285M Loan for Refinancing of Downtown Fort Lauderdale Multifamil... and related high-confidence project signals.
 
 ## Top 5 Things to Review Today
 
@@ -33,15 +33,15 @@ Generated: 2026-11-27 04:49:02
 - Acquisition - San Francisco / California - Berkadia Negotiates $12.6M Sale of Multifamily Property in Canoga Park, California: Track local sponsor activity Action: Monitor asset for repeated local confirmation.
 - Entitlement / Permitting - Los Angeles / California - 10 condos planned at 2254 S. Wellesley Ave. in Sawtelle: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
 - Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
-- Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
+- Acquisition - Other / Unknown - Fairstead Closes $17M Affordable Housing Transaction in Oklahoma: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
 
 ## GP / Capital Partner Watch
 
 - Acquires 280-Unit Buckhead Apartment Community ParkProperty Capital: Fading Action: Track capital flow pattern and related relationships.
 - Alliance Residential: Fading Action: Track capital flow pattern and related relationships.
 - Arcus Real Estate Capital: Fading Action: Track capital flow pattern and related relationships.
-- CBRE: Institutional-backed regional expansion Action: Track JV and capital partner activity.
-- Blackstone: California / LA strategic positioning Action: Track JV and capital partner activity.
+- Blackstone: Institutional-backed regional expansion Action: Track JV and capital partner activity.
+- Hines: California / LA strategic positioning Action: Track JV and capital partner activity.
 
 ## Opportunity / Distress Watch
 
@@ -57,7 +57,7 @@ Generated: 2026-11-27 04:49:02
 - Acquisition - San Francisco / California - Berkadia Negotiates $12.6M Sale of Multifamily Property in Canoga Park, California: Track local sponsor activity Action: Monitor asset for repeated local confirmation.
 - Entitlement / Permitting - Los Angeles / California - 10 condos planned at 2254 S. Wellesley Ave. in Sawtelle: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
 - Entitlement / Permitting - Los Angeles / California - Coastal Commission upholds approval of project at 1410 S. Main St. in Venice: Monitor entitlement path Action: Track entitlement docket, density bonus use, and affordability requirement.
-- Entitlement / Permitting - Santa Monica / California - Santa Monica has new plans for affordable housing next to Downtown Metro stop: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
+- Acquisition - Other / Unknown - Fairstead Closes $17M Affordable Housing Transaction in Oklahoma: Benchmark density bonus use Action: Track entitlement docket, density bonus use, and affordability requirement.
 
 ## Capital Flow Watch
 
